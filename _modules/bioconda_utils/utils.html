@@ -123,12 +123,13 @@
 <span class="kn">import</span> <span class="nn">logging</span>
 <span class="kn">import</span> <span class="nn">datetime</span>
 <span class="kn">from</span> <span class="nn">threading</span> <span class="k">import</span> <span class="n">Event</span><span class="p">,</span> <span class="n">Thread</span>
-<span class="kn">from</span> <span class="nn">typing</span> <span class="k">import</span> <span class="n">Sequence</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="k">import</span> <span class="n">Sequence</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">Any</span><span class="p">,</span> <span class="n">Union</span>
 <span class="kn">from</span> <span class="nn">pathlib</span> <span class="k">import</span> <span class="n">PurePath</span>
 <span class="kn">import</span> <span class="nn">json</span>
 <span class="kn">import</span> <span class="nn">warnings</span>
 <span class="kn">from</span> <span class="nn">multiprocessing</span> <span class="k">import</span> <span class="n">Pool</span>
 <span class="kn">from</span> <span class="nn">multiprocessing.pool</span> <span class="k">import</span> <span class="n">ThreadPool</span>
+<span class="kn">import</span> <span class="nn">queue</span>
 
 <span class="kn">from</span> <span class="nn">conda_build</span> <span class="k">import</span> <span class="n">api</span>
 <span class="kn">from</span> <span class="nn">conda.exports</span> <span class="k">import</span> <span class="n">VersionOrder</span>
@@ -235,17 +236,95 @@
     <span class="k">return</span> <span class="n">wrapper_wrapper</span></div>
 
 
-<div class="viewcode-block" id="setup_logger"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.setup_logger">[docs]</a><span class="k">def</span> <span class="nf">setup_logger</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">loglevel</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">prefix</span><span class="o">=</span><span class="s2">&quot;BIOCONDA &quot;</span><span class="p">,</span>
-                 <span class="n">msgfmt</span><span class="o">=</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%(asctime)s</span><span class="s2">&quot;</span>
-                         <span class="s2">&quot;</span><span class="si">%(log_color)s{prefix}%(levelname)s%(reset)s</span><span class="s2"> &quot;</span>
-                         <span class="s2">&quot;</span><span class="si">%(message)s</span><span class="s2">&quot;</span><span class="p">),</span>
-                 <span class="n">datefmt</span><span class="o">=</span><span class="s2">&quot;%H:%M:%S &quot;</span><span class="p">):</span>
-    <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
-    <span class="n">logger</span><span class="o">.</span><span class="n">propagate</span> <span class="o">=</span> <span class="kc">False</span>
-    <span class="k">if</span> <span class="n">loglevel</span><span class="p">:</span>
-        <span class="n">logger</span><span class="o">.</span><span class="n">setLevel</span><span class="p">(</span><span class="nb">getattr</span><span class="p">(</span><span class="n">logging</span><span class="p">,</span> <span class="n">loglevel</span><span class="o">.</span><span class="n">upper</span><span class="p">()))</span>
+<div class="viewcode-block" id="LogFuncFilter"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.LogFuncFilter">[docs]</a><span class="k">class</span> <span class="nc">LogFuncFilter</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Logging filter capping the number of messages emitted from given function</span>
 
+<span class="sd">    Arguments:</span>
+<span class="sd">      func: The function for which to filter log messages</span>
+<span class="sd">      trunc_msg: The message to emit when logging is truncated, to inform user that</span>
+<span class="sd">                 messages will from now on be hidden.</span>
+<span class="sd">      max_lines: Max number of log messages to allow to pass</span>
+<span class="sd">      consectuctive: If try, filter applies to consectutive messages and resets</span>
+<span class="sd">                     if a message from a different source is encountered.</span>
+
+<span class="sd">    Fixme:</span>
+<span class="sd">      The implementation  assumes that **func** uses a logger initialized with</span>
+<span class="sd">      ``getLogger(__name__)``.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">func</span><span class="p">,</span> <span class="n">trunc_msg</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">max_lines</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+                 <span class="n">consecutive</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">func</span> <span class="o">=</span> <span class="n">func</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">max_lines</span> <span class="o">=</span> <span class="n">max_lines</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cur_max_lines</span> <span class="o">=</span> <span class="n">max_lines</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">consecutive</span> <span class="o">=</span> <span class="n">consecutive</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">trunc_msg</span> <span class="o">=</span> <span class="n">trunc_msg</span>
+
+<div class="viewcode-block" id="LogFuncFilter.filter"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.LogFuncFilter.filter">[docs]</a>    <span class="k">def</span> <span class="nf">filter</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">record</span><span class="p">:</span> <span class="n">logging</span><span class="o">.</span><span class="n">LogRecord</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">record</span><span class="o">.</span><span class="n">name</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">func</span><span class="o">.</span><span class="vm">__module__</span> <span class="ow">and</span> <span class="n">record</span><span class="o">.</span><span class="n">funcName</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">func</span><span class="o">.</span><span class="vm">__name__</span><span class="p">:</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">cur_max_lines</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">cur_max_lines</span> <span class="o">-=</span> <span class="mi">1</span>
+                <span class="k">return</span> <span class="kc">True</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">cur_max_lines</span> <span class="o">==</span> <span class="mi">1</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">trunc_msg</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">cur_max_lines</span> <span class="o">-=</span> <span class="mi">1</span>
+                <span class="n">record</span><span class="o">.</span><span class="n">msg</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">trunc_msg</span>
+                <span class="k">return</span> <span class="kc">True</span>
+            <span class="k">return</span> <span class="kc">False</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">consecutive</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">cur_max_lines</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">max_lines</span>
+        <span class="k">return</span> <span class="kc">True</span></div></div>
+
+<div class="viewcode-block" id="setup_logger"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.setup_logger">[docs]</a><span class="k">def</span> <span class="nf">setup_logger</span><span class="p">(</span><span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">loglevel</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">INFO</span><span class="p">,</span>
+                 <span class="n">logfile</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">logfile_level</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">,</span>
+                 <span class="n">log_command_max_lines</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+                 <span class="n">prefix</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;BIOCONDA &quot;</span><span class="p">,</span>
+                 <span class="n">msgfmt</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;</span><span class="si">%(asctime)s</span><span class="s2">&quot;</span>
+                                <span class="s2">&quot;</span><span class="si">%(log_color)s{prefix}%(levelname)s%(reset)s</span><span class="s2"> &quot;</span>
+                                <span class="s2">&quot;</span><span class="si">%(message)s</span><span class="s2">&quot;</span><span class="p">),</span>
+                 <span class="n">datefmt</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span><span class="s2">&quot;%H:%M:%S &quot;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">logging</span><span class="o">.</span><span class="n">Logger</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Set up logging for bioconda-utils</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">      name: Module name for which to get a logger (``__name__``)</span>
+<span class="sd">      loglevel: Log level, can be name or int level</span>
+<span class="sd">      logfile: File to log to as well</span>
+<span class="sd">      logfile_level: Log level for file logging</span>
+<span class="sd">      prefix: Prefix to add to our log messages</span>
+<span class="sd">      msgfmt: Format for messages</span>
+<span class="sd">      datefmt: Format for dates</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">      A new logger</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">new_logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">logfile</span><span class="p">:</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">logfile_level</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+            <span class="n">logfile_level</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">logging</span><span class="p">,</span> <span class="n">logfile_level</span><span class="o">.</span><span class="n">upper</span><span class="p">())</span>
+        <span class="n">log_file_handler</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">FileHandler</span><span class="p">(</span><span class="n">logfile</span><span class="p">)</span>
+        <span class="n">log_file_handler</span><span class="o">.</span><span class="n">setLevel</span><span class="p">(</span><span class="n">logfile_level</span><span class="p">)</span>
+        <span class="n">log_file_formatter</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">Formatter</span><span class="p">(</span>
+            <span class="n">msgfmt</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%(log_color)s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%(reset)s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">prefix</span><span class="o">=</span><span class="n">prefix</span><span class="p">),</span>
+            <span class="n">datefmt</span><span class="o">=</span><span class="n">datefmt</span>
+        <span class="p">)</span>
+        <span class="n">log_file_handler</span><span class="o">.</span><span class="n">setFormatter</span><span class="p">(</span><span class="n">log_file_formatter</span><span class="p">)</span>
+        <span class="n">new_logger</span><span class="o">.</span><span class="n">addHandler</span><span class="p">(</span><span class="n">log_file_handler</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">logfile_level</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">FATAL</span>
+
+    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">loglevel</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+        <span class="n">loglevel</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">logging</span><span class="p">,</span> <span class="n">loglevel</span><span class="o">.</span><span class="n">upper</span><span class="p">())</span>
+
+    <span class="c1"># Base logger is set to the lowest of console or file logging</span>
+    <span class="n">new_logger</span><span class="o">.</span><span class="n">setLevel</span><span class="p">(</span><span class="nb">min</span><span class="p">(</span><span class="n">loglevel</span><span class="p">,</span> <span class="n">logfile_level</span><span class="p">))</span>
+
+    <span class="n">new_logger</span><span class="o">.</span><span class="n">propagate</span> <span class="o">=</span> <span class="kc">False</span>
+
+    <span class="c1"># Console logging is passed through TqdmHandler so that the progress bar does not</span>
+    <span class="c1"># get broken by log lines emitted.</span>
     <span class="n">log_stream_handler</span> <span class="o">=</span> <span class="n">TqdmHandler</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">loglevel</span><span class="p">:</span>
+        <span class="n">log_stream_handler</span><span class="o">.</span><span class="n">setLevel</span><span class="p">(</span><span class="n">loglevel</span><span class="p">)</span>
+
     <span class="n">log_stream_handler</span><span class="o">.</span><span class="n">setFormatter</span><span class="p">(</span><span class="n">ColoredFormatter</span><span class="p">(</span>
         <span class="n">msgfmt</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">prefix</span><span class="o">=</span><span class="n">prefix</span><span class="p">),</span>
         <span class="n">datefmt</span><span class="o">=</span><span class="n">datefmt</span><span class="p">,</span>
@@ -257,8 +336,15 @@
             <span class="s1">&#39;ERROR&#39;</span><span class="p">:</span> <span class="s1">&#39;red&#39;</span><span class="p">,</span>
             <span class="s1">&#39;CRITICAL&#39;</span><span class="p">:</span> <span class="s1">&#39;red&#39;</span><span class="p">,</span>
         <span class="p">}))</span>
-    <span class="n">logger</span><span class="o">.</span><span class="n">addHandler</span><span class="p">(</span><span class="n">log_stream_handler</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">logger</span></div>
+    <span class="n">new_logger</span><span class="o">.</span><span class="n">addHandler</span><span class="p">(</span><span class="n">log_stream_handler</span><span class="p">)</span>
+
+    <span class="c1"># Add filter for `utils.run` to truncate after n lines emitted.</span>
+    <span class="c1"># We do this here rather than in `utils.run` so that it can be configured</span>
+    <span class="c1"># from the CLI more easily</span>
+    <span class="k">if</span> <span class="n">log_command_max_lines</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">log_filter</span> <span class="o">=</span> <span class="n">LogFuncFilter</span><span class="p">(</span><span class="n">run</span><span class="p">,</span> <span class="s2">&quot;Command output truncated&quot;</span><span class="p">,</span> <span class="n">log_command_max_lines</span><span class="p">)</span>
+        <span class="n">log_stream_handler</span><span class="o">.</span><span class="n">addFilter</span><span class="p">(</span><span class="n">log_filter</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">new_logger</span></div>
 
 
 <div class="viewcode-block" id="JinjaSilentUndefined"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.JinjaSilentUndefined">[docs]</a><span class="k">class</span> <span class="nc">JinjaSilentUndefined</span><span class="p">(</span><span class="n">jinja2</span><span class="o">.</span><span class="n">Undefined</span><span class="p">):</span>
@@ -291,7 +377,8 @@
     <span class="s1">&#39;PATH&#39;</span><span class="p">,</span>
     <span class="s1">&#39;LC_*&#39;</span><span class="p">,</span>
     <span class="s1">&#39;LANG&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;MACOSX_DEPLOYMENT_TARGET&#39;</span>
+    <span class="s1">&#39;MACOSX_DEPLOYMENT_TARGET&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;HTTPS_PROXY&#39;</span><span class="p">,</span><span class="s1">&#39;HTTP_PROXY&#39;</span><span class="p">,</span> <span class="s1">&#39;https_proxy&#39;</span><span class="p">,</span> <span class="s1">&#39;http_proxy&#39;</span><span class="p">,</span>
 <span class="p">]</span>
 
 <span class="c1"># Of those that make it through the whitelist, remove these specific ones</span>
@@ -501,43 +588,95 @@
         <span class="n">sys</span><span class="o">.</span><span class="n">platform</span> <span class="o">=</span> <span class="n">original</span></div>
 
 
-<div class="viewcode-block" id="run"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.run">[docs]</a><span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="n">cmds</span><span class="p">,</span> <span class="n">env</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+<div class="viewcode-block" id="run"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.run">[docs]</a><span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="n">cmds</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">env</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">mask</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">live</span><span class="p">:</span> <span class="nb">bool</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+        <span class="n">mylogger</span><span class="p">:</span> <span class="n">logging</span><span class="o">.</span><span class="n">Logger</span><span class="o">=</span><span class="n">logger</span><span class="p">,</span> <span class="n">loglevel</span><span class="p">:</span> <span class="nb">int</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">INFO</span><span class="p">,</span>
+        <span class="o">**</span><span class="n">kwargs</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="n">Any</span><span class="p">,</span> <span class="n">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">sp</span><span class="o">.</span><span class="n">CompletedProcess</span><span class="p">:</span>
     <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    Wrapper around subprocess.run()</span>
+<span class="sd">    Run a command (with logging, masking, etc)</span>
 
-<span class="sd">    Explicitly decodes stdout to avoid UnicodeDecodeErrors that can occur when</span>
-<span class="sd">    using the ``universal_newlines=True`` argument in the standard</span>
-<span class="sd">    subprocess.run.</span>
+<span class="sd">    - Explicitly decodes stdout to avoid UnicodeDecodeErrors that can occur when</span>
+<span class="sd">      using the ``universal_newlines=True`` argument in the standard</span>
+<span class="sd">      subprocess.run.</span>
+<span class="sd">    - Masks secrets</span>
+<span class="sd">    - Passed live output to `logging`</span>
 
-<span class="sd">    Also uses check=True and merges stderr with stdout. If a CalledProcessError</span>
-<span class="sd">    is raised, the output is decoded.</span>
+<span class="sd">    Arguments:</span>
+<span class="sd">      cmd: List of command and arguments</span>
+<span class="sd">      env: Optional environment for command</span>
+<span class="sd">      mask: List of terms to mask (secrets)</span>
+<span class="sd">      live: Whether output should be sent to log</span>
+<span class="sd">      kwargs: Additional arguments to `subprocess.Popen`</span>
 
-<span class="sd">    Returns the subprocess.CompletedProcess object.</span>
+<span class="sd">    Returns:</span>
+<span class="sd">      CompletedProcess object</span>
+
+<span class="sd">    Raises:</span>
+<span class="sd">      subprocess.CalledProcessError if the process failed</span>
+<span class="sd">      FileNotFoundError if the command could not be found</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">try</span><span class="p">:</span>
-        <span class="n">p</span> <span class="o">=</span> <span class="n">sp</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cmds</span><span class="p">,</span> <span class="n">stdout</span><span class="o">=</span><span class="n">sp</span><span class="o">.</span><span class="n">PIPE</span><span class="p">,</span> <span class="n">stderr</span><span class="o">=</span><span class="n">sp</span><span class="o">.</span><span class="n">STDOUT</span><span class="p">,</span> <span class="n">check</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">env</span><span class="o">=</span><span class="n">env</span><span class="p">,</span>
-                   <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
-        <span class="n">p</span><span class="o">.</span><span class="n">stdout</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="n">errors</span><span class="o">=</span><span class="s1">&#39;replace&#39;</span><span class="p">)</span>
-    <span class="k">except</span> <span class="n">sp</span><span class="o">.</span><span class="n">CalledProcessError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-        <span class="n">e</span><span class="o">.</span><span class="n">stdout</span> <span class="o">=</span> <span class="n">e</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="n">errors</span><span class="o">=</span><span class="s1">&#39;replace&#39;</span><span class="p">)</span>
-        <span class="c1"># mask command arguments</span>
+    <span class="n">logq</span> <span class="o">=</span> <span class="n">queue</span><span class="o">.</span><span class="n">Queue</span><span class="p">()</span>
 
-        <span class="k">def</span> <span class="nf">do_mask</span><span class="p">(</span><span class="n">arg</span><span class="p">):</span>
-            <span class="k">if</span> <span class="n">mask</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
-                <span class="c1"># caller has not considered masking, hide the entire command</span>
-                <span class="c1"># for security reasons</span>
-                <span class="k">return</span> <span class="s1">&#39;&lt;hidden&gt;&#39;</span>
-            <span class="k">elif</span> <span class="n">mask</span> <span class="ow">is</span> <span class="kc">False</span><span class="p">:</span>
-                <span class="c1"># masking has been deactivated</span>
-                <span class="k">return</span> <span class="n">arg</span>
-            <span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="n">mask</span><span class="p">:</span>
-                <span class="n">arg</span> <span class="o">=</span> <span class="n">arg</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">m</span><span class="p">,</span> <span class="s1">&#39;&lt;hidden&gt;&#39;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">pushqueue</span><span class="p">(</span><span class="n">out</span><span class="p">,</span> <span class="n">pipe</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Reads from a pipe and pushes into a queue, pushing &quot;None&quot; to</span>
+<span class="sd">        indicate closed pipe&quot;&quot;&quot;</span>
+        <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">iter</span><span class="p">(</span><span class="n">pipe</span><span class="o">.</span><span class="n">readline</span><span class="p">,</span> <span class="sa">b</span><span class="s1">&#39;&#39;</span><span class="p">):</span>
+            <span class="n">out</span><span class="o">.</span><span class="n">put</span><span class="p">((</span><span class="n">pipe</span><span class="p">,</span> <span class="n">line</span><span class="p">))</span>
+        <span class="n">out</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="kc">None</span><span class="p">)</span>  <span class="c1"># End-of-data-token</span>
+
+    <span class="k">def</span> <span class="nf">do_mask</span><span class="p">(</span><span class="n">arg</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Masks secrets in **arg**&quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">mask</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="c1"># caller has not considered masking, hide the entire command</span>
+            <span class="c1"># for security reasons</span>
+            <span class="k">return</span> <span class="s1">&#39;&lt;hidden&gt;&#39;</span>
+        <span class="k">if</span> <span class="n">mask</span> <span class="ow">is</span> <span class="kc">False</span><span class="p">:</span>
+            <span class="c1"># masking has been deactivated</span>
             <span class="k">return</span> <span class="n">arg</span>
-        <span class="n">e</span><span class="o">.</span><span class="n">cmd</span> <span class="o">=</span> <span class="p">[</span><span class="n">do_mask</span><span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">e</span><span class="o">.</span><span class="n">cmd</span><span class="p">]</span>
-        <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;COMMAND FAILED: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">e</span><span class="o">.</span><span class="n">cmd</span><span class="p">))</span>
-        <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;STDOUT+STDERR:</span><span class="se">\n</span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">do_mask</span><span class="p">(</span><span class="n">e</span><span class="o">.</span><span class="n">stdout</span><span class="p">))</span>
-        <span class="k">raise</span> <span class="n">e</span> <span class="kn">from</span> <span class="nn">None</span>
-    <span class="k">return</span> <span class="n">p</span></div>
+        <span class="k">for</span> <span class="n">mitem</span> <span class="ow">in</span> <span class="n">mask</span><span class="p">:</span>
+            <span class="n">arg</span> <span class="o">=</span> <span class="n">arg</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">mitem</span><span class="p">,</span> <span class="s1">&#39;&lt;hidden&gt;&#39;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">arg</span>
+
+    <span class="c1"># bufsize=4 result of manual experimentation. Changing it can</span>
+    <span class="c1"># drop performance drastically.</span>
+    <span class="k">with</span> <span class="n">sp</span><span class="o">.</span><span class="n">Popen</span><span class="p">(</span><span class="n">cmds</span><span class="p">,</span> <span class="n">stdout</span><span class="o">=</span><span class="n">sp</span><span class="o">.</span><span class="n">PIPE</span><span class="p">,</span> <span class="n">stderr</span><span class="o">=</span><span class="n">sp</span><span class="o">.</span><span class="n">PIPE</span><span class="p">,</span>
+                  <span class="n">close_fds</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">env</span><span class="o">=</span><span class="n">env</span><span class="p">,</span> <span class="n">bufsize</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="k">as</span> <span class="n">proc</span><span class="p">:</span>
+        <span class="c1"># Start threads reading stdout/stderr and pushing it into queue q</span>
+        <span class="n">out_thread</span> <span class="o">=</span> <span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="n">pushqueue</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">(</span><span class="n">logq</span><span class="p">,</span> <span class="n">proc</span><span class="o">.</span><span class="n">stdout</span><span class="p">))</span>
+        <span class="n">err_thread</span> <span class="o">=</span> <span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="n">pushqueue</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">(</span><span class="n">logq</span><span class="p">,</span> <span class="n">proc</span><span class="o">.</span><span class="n">stderr</span><span class="p">))</span>
+        <span class="n">out_thread</span><span class="o">.</span><span class="n">daemon</span> <span class="o">=</span> <span class="kc">True</span>  <span class="c1"># Do not wait for these threads to terminate</span>
+        <span class="n">err_thread</span><span class="o">.</span><span class="n">daemon</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="n">out_thread</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+        <span class="n">err_thread</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+
+        <span class="n">output_lines</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">):</span>  <span class="c1"># Run until we&#39;ve got both `None` tokens</span>
+                <span class="k">for</span> <span class="n">pipe</span><span class="p">,</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">iter</span><span class="p">(</span><span class="n">logq</span><span class="o">.</span><span class="n">get</span><span class="p">,</span> <span class="kc">None</span><span class="p">):</span>
+                    <span class="n">line</span> <span class="o">=</span> <span class="n">do_mask</span><span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="n">errors</span><span class="o">=</span><span class="s1">&#39;replace&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">rstrip</span><span class="p">())</span>
+                    <span class="n">output_lines</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+                    <span class="k">if</span> <span class="n">live</span><span class="p">:</span>
+                        <span class="k">if</span> <span class="n">pipe</span> <span class="o">==</span> <span class="n">proc</span><span class="o">.</span><span class="n">stdout</span><span class="p">:</span>
+                            <span class="n">prefix</span> <span class="o">=</span> <span class="s2">&quot;OUT&quot;</span>
+                        <span class="k">else</span><span class="p">:</span>
+                            <span class="n">prefix</span> <span class="o">=</span> <span class="s2">&quot;ERR&quot;</span>
+                        <span class="n">mylogger</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">loglevel</span><span class="p">,</span> <span class="s2">&quot;(</span><span class="si">%s</span><span class="s2">) </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">prefix</span><span class="p">,</span> <span class="n">line</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
+            <span class="n">proc</span><span class="o">.</span><span class="n">kill</span><span class="p">()</span>
+            <span class="n">proc</span><span class="o">.</span><span class="n">wait</span><span class="p">()</span>
+            <span class="k">raise</span>
+
+        <span class="n">output</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">output_lines</span><span class="p">)</span>
+        <span class="n">returncode</span> <span class="o">=</span> <span class="n">proc</span><span class="o">.</span><span class="n">poll</span><span class="p">()</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">cmds</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+            <span class="n">masked_cmds</span> <span class="o">=</span> <span class="n">do_mask</span><span class="p">(</span><span class="n">cmds</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">masked_cmds</span> <span class="o">=</span> <span class="p">[</span><span class="n">do_mask</span><span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">cmds</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">returncode</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;COMMAND FAILED: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">masked_cmds</span><span class="p">))</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">live</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;STDOUT+STDERR:</span><span class="se">\n</span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">output</span><span class="p">)</span>
+            <span class="k">raise</span> <span class="n">sp</span><span class="o">.</span><span class="n">CalledProcessError</span><span class="p">(</span><span class="n">returncode</span><span class="p">,</span> <span class="n">masked_cmds</span><span class="p">,</span> <span class="n">output</span><span class="o">=</span><span class="n">output</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">sp</span><span class="o">.</span><span class="n">CompletedProcess</span><span class="p">(</span><span class="n">returncode</span><span class="p">,</span> <span class="n">masked_cmds</span><span class="p">,</span> <span class="n">output</span><span class="p">)</span></div>
 
 
 <div class="viewcode-block" id="envstr"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.envstr">[docs]</a><span class="k">def</span> <span class="nf">envstr</span><span class="p">(</span><span class="n">env</span><span class="p">):</span>
@@ -806,7 +945,7 @@
     <span class="k">if</span> <span class="n">commit</span> <span class="o">==</span> <span class="s1">&#39;HEAD&#39;</span><span class="p">:</span>
         <span class="k">return</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
 
-    <span class="n">p</span> <span class="o">=</span> <span class="n">run</span><span class="p">([</span><span class="s1">&#39;git&#39;</span><span class="p">,</span> <span class="s1">&#39;show&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">{0}</span><span class="s1">:</span><span class="si">{1}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">commit</span><span class="p">,</span> <span class="n">filename</span><span class="p">)])</span>
+    <span class="n">p</span> <span class="o">=</span> <span class="n">run</span><span class="p">([</span><span class="s1">&#39;git&#39;</span><span class="p">,</span> <span class="s1">&#39;show&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">{0}</span><span class="s1">:</span><span class="si">{1}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">commit</span><span class="p">,</span> <span class="n">filename</span><span class="p">)],</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
     <span class="k">return</span> <span class="nb">str</span><span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">stdout</span><span class="p">)</span></div>
 
 
@@ -869,8 +1008,8 @@
 <span class="sd">    repo and have added the main repo as ``upstream``, then you&#39;ll have to do</span>
 <span class="sd">    a ``git checkout master &amp;&amp; git pull upstream master`` to update your fork.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">p</span> <span class="o">=</span> <span class="n">run</span><span class="p">([</span><span class="s1">&#39;git&#39;</span><span class="p">,</span> <span class="s1">&#39;fetch&#39;</span><span class="p">,</span> <span class="s1">&#39;origin&#39;</span><span class="p">,</span> <span class="s1">&#39;master&#39;</span><span class="p">])</span>
-    <span class="n">p</span> <span class="o">=</span> <span class="n">run</span><span class="p">([</span><span class="s1">&#39;git&#39;</span><span class="p">,</span> <span class="s1">&#39;diff&#39;</span><span class="p">,</span> <span class="s1">&#39;FETCH_HEAD&#39;</span><span class="p">,</span> <span class="s1">&#39;--name-only&#39;</span><span class="p">])</span>
+    <span class="n">p</span> <span class="o">=</span> <span class="n">run</span><span class="p">([</span><span class="s1">&#39;git&#39;</span><span class="p">,</span> <span class="s1">&#39;fetch&#39;</span><span class="p">,</span> <span class="s1">&#39;origin&#39;</span><span class="p">,</span> <span class="s1">&#39;master&#39;</span><span class="p">],</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="n">p</span> <span class="o">=</span> <span class="n">run</span><span class="p">([</span><span class="s1">&#39;git&#39;</span><span class="p">,</span> <span class="s1">&#39;diff&#39;</span><span class="p">,</span> <span class="s1">&#39;FETCH_HEAD&#39;</span><span class="p">,</span> <span class="s1">&#39;--name-only&#39;</span><span class="p">],</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
     <span class="k">return</span> <span class="p">[</span>
         <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">relpath</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">))</span>
         <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">p</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">splitlines</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
@@ -1117,7 +1256,7 @@
         <span class="p">]</span>
     <span class="p">)</span>
 
-    <span class="n">p</span> <span class="o">=</span> <span class="n">run</span><span class="p">(</span><span class="n">cmds</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="n">p</span> <span class="o">=</span> <span class="n">run</span><span class="p">(</span><span class="n">cmds</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 
     <span class="n">modified</span> <span class="o">=</span> <span class="p">[</span>
         <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">m</span><span class="p">)</span>

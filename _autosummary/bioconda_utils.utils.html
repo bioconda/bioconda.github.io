@@ -220,8 +220,8 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.utils.parallel_iter" title="bioconda_utils.utils.parallel_iter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">parallel_iter</span></code></a>(func, items, desc, *args, **kwargs)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.run" title="bioconda_utils.utils.run"><code class="xref py py-obj docutils literal notranslate"><span class="pre">run</span></code></a>(cmds[, env, mask])</p></td>
-<td><p>Wrapper around subprocess.run()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.run" title="bioconda_utils.utils.run"><code class="xref py py-obj docutils literal notranslate"><span class="pre">run</span></code></a>(cmds[, env, mask, live, mylogger, loglevel])</p></td>
+<td><p>Run a command (with logging, masking, etc)</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.utils.sandboxed_env" title="bioconda_utils.utils.sandboxed_env"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sandboxed_env</span></code></a>(env)</p></td>
 <td><p>Context manager to temporarily set os.environ, only allowing env vars from the existing <a class="reference external" href="https://docs.python.org/3/library/os.html#os.environ" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">os.environ</span></code></a> or the provided <strong>env</strong> that match ENV_VAR_WHITELIST globs.</p></td>
@@ -229,8 +229,8 @@
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.set_max_threads" title="bioconda_utils.utils.set_max_threads"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_max_threads</span></code></a>(n)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.utils.setup_logger" title="bioconda_utils.utils.setup_logger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">setup_logger</span></code></a>(name[, loglevel, prefix, …])</p></td>
-<td><p></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.utils.setup_logger" title="bioconda_utils.utils.setup_logger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">setup_logger</span></code></a>(name[, loglevel, logfile, …])</p></td>
+<td><p>Set up logging for bioconda-utils</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.temp_env" title="bioconda_utils.utils.temp_env"><code class="xref py py-obj docutils literal notranslate"><span class="pre">temp_env</span></code></a>(env)</p></td>
 <td><p>Context manager to temporarily set os.environ.</p></td>
@@ -271,13 +271,16 @@
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.JinjaSilentUndefined" title="bioconda_utils.utils.JinjaSilentUndefined"><code class="xref py py-obj docutils literal notranslate"><span class="pre">JinjaSilentUndefined</span></code></a>([hint, obj, name, exc])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.utils.Progress" title="bioconda_utils.utils.Progress"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Progress</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.utils.LogFuncFilter" title="bioconda_utils.utils.LogFuncFilter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LogFuncFilter</span></code></a>(func[, trunc_msg, max_lines, …])</p></td>
+<td><p>Logging filter capping the number of messages emitted from given function</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.Progress" title="bioconda_utils.utils.Progress"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Progress</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.RepoData" title="bioconda_utils.utils.RepoData"><code class="xref py py-obj docutils literal notranslate"><span class="pre">RepoData</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.utils.RepoData" title="bioconda_utils.utils.RepoData"><code class="xref py py-obj docutils literal notranslate"><span class="pre">RepoData</span></code></a></p></td>
 <td><p>Singleton providing access to package directory on anaconda cloud</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.utils.TqdmHandler" title="bioconda_utils.utils.TqdmHandler"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TqdmHandler</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.TqdmHandler" title="bioconda_utils.utils.TqdmHandler"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TqdmHandler</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Tqdm aware logging StreamHandler</p></td>
 </tr>
 </tbody>
@@ -403,6 +406,40 @@ into a dict. If a dict is provided, use it directly.</p>
 <dt id="bioconda_utils.utils.JinjaSilentUndefined">
 <em class="property">class </em><code class="descclassname">bioconda_utils.utils.</code><code class="descname">JinjaSilentUndefined</code><span class="sig-paren">(</span><em>hint=None</em>, <em>obj=missing</em>, <em>name=None</em>, <em>exc=&lt;class 'jinja2.exceptions.UndefinedError'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#JinjaSilentUndefined"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.JinjaSilentUndefined" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">jinja2.runtime.Undefined</span></code></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="bioconda_utils.utils.LogFuncFilter">
+<em class="property">class </em><code class="descclassname">bioconda_utils.utils.</code><code class="descname">LogFuncFilter</code><span class="sig-paren">(</span><em>func</em>, <em>trunc_msg=None</em>, <em>max_lines=0</em>, <em>consecutive=True</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#LogFuncFilter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.LogFuncFilter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Logging filter capping the number of messages emitted from given function</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>func</strong> – The function for which to filter log messages</p></li>
+<li><p><strong>trunc_msg</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – The message to emit when logging is truncated, to inform user that
+messages will from now on be hidden.</p></li>
+<li><p><strong>max_lines</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – Max number of log messages to allow to pass</p></li>
+<li><p><strong>consectuctive</strong> – If try, filter applies to consectutive messages and resets
+if a message from a different source is encountered.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="simple">
+<dt>Fixme:</dt><dd><p>The implementation  assumes that <strong>func</strong> uses a logger initialized with
+<code class="docutils literal notranslate"><span class="pre">getLogger(__name__)</span></code>.</p>
+</dd>
+</dl>
+<dl class="method">
+<dt id="bioconda_utils.utils.LogFuncFilter.filter">
+<code class="descname">filter</code><span class="sig-paren">(</span><em>record</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#LogFuncFilter.filter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.LogFuncFilter.filter" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
 </dd></dl>
 
 <dl class="class">
@@ -852,14 +889,38 @@ specified, then use those commits directly via <code class="docutils literal not
 
 <dl class="function">
 <dt id="bioconda_utils.utils.run">
-<code class="descclassname">bioconda_utils.utils.</code><code class="descname">run</code><span class="sig-paren">(</span><em>cmds</em>, <em>env=None</em>, <em>mask=None</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.run" title="Permalink to this definition">¶</a></dt>
-<dd><p>Wrapper around subprocess.run()</p>
-<p>Explicitly decodes stdout to avoid UnicodeDecodeErrors that can occur when
+<code class="descclassname">bioconda_utils.utils.</code><code class="descname">run</code><span class="sig-paren">(</span><em>cmds</em>, <em>env=None</em>, <em>mask=None</em>, <em>live=True</em>, <em>mylogger=&lt;Logger bioconda_utils.utils (WARNING)&gt;</em>, <em>loglevel=20</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.run" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run a command (with logging, masking, etc)</p>
+<ul class="simple">
+<li><p>Explicitly decodes stdout to avoid UnicodeDecodeErrors that can occur when
 using the <code class="docutils literal notranslate"><span class="pre">universal_newlines=True</span></code> argument in the standard
-subprocess.run.</p>
-<p>Also uses check=True and merges stderr with stdout. If a CalledProcessError
-is raised, the output is decoded.</p>
-<p>Returns the subprocess.CompletedProcess object.</p>
+subprocess.run.</p></li>
+<li><p>Masks secrets</p></li>
+<li><p>Passed live output to <a class="reference external" href="https://docs.python.org/3/library/logging.html#module-logging" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">logging</span></code></a></p></li>
+</ul>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>cmd</strong> – List of command and arguments</p></li>
+<li><p><strong>env</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]]) – Optional environment for command</p></li>
+<li><p><strong>mask</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]]) – List of terms to mask (secrets)</p></li>
+<li><p><strong>live</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>) – Whether output should be sent to log</p></li>
+<li><p><strong>kwargs</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]) – Additional arguments to <a class="reference external" href="https://docs.python.org/3/library/subprocess.html#subprocess.Popen" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">subprocess.Popen</span></code></a></p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/subprocess.html#subprocess.CompletedProcess" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">CompletedProcess</span></code></a></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>CompletedProcess object</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>subprocess.CalledProcessError if the process failed</strong> – </p></li>
+<li><p><strong>FileNotFoundError if the command could not be found</strong> – </p></li>
+</ul>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="function">
@@ -877,8 +938,28 @@ ENV_VAR_WHITELIST globs.</p>
 
 <dl class="function">
 <dt id="bioconda_utils.utils.setup_logger">
-<code class="descclassname">bioconda_utils.utils.</code><code class="descname">setup_logger</code><span class="sig-paren">(</span><em>name</em>, <em>loglevel=None</em>, <em>prefix='BIOCONDA '</em>, <em>msgfmt='%(asctime)s%(log_color)s{prefix}%(levelname)s%(reset)s %(message)s'</em>, <em>datefmt='%H:%M:%S '</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#setup_logger"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.setup_logger" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<code class="descclassname">bioconda_utils.utils.</code><code class="descname">setup_logger</code><span class="sig-paren">(</span><em>name</em>, <em>loglevel=20</em>, <em>logfile=None</em>, <em>logfile_level=10</em>, <em>log_command_max_lines=None</em>, <em>prefix='BIOCONDA '</em>, <em>msgfmt='%(asctime)s%(log_color)s{prefix}%(levelname)s%(reset)s %(message)s'</em>, <em>datefmt='%H:%M:%S '</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#setup_logger"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.setup_logger" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set up logging for bioconda-utils</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Module name for which to get a logger (<code class="docutils literal notranslate"><span class="pre">__name__</span></code>)</p></li>
+<li><p><strong>loglevel</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Union" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>]) – Log level, can be name or int level</p></li>
+<li><p><strong>logfile</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – File to log to as well</p></li>
+<li><p><strong>logfile_level</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Union" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>]) – Log level for file logging</p></li>
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Prefix to add to our log messages</p></li>
+<li><p><strong>msgfmt</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Format for messages</p></li>
+<li><p><strong>datefmt</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Format for dates</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/logging.html#logging.Logger" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Logger</span></code></a></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A new logger</p>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.utils.temp_env">

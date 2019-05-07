@@ -228,8 +228,8 @@
 
 <span class="n">DOCKERFILE_TEMPLATE</span> <span class="o">=</span> \
 <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">FROM {self.docker_base_image}</span>
-<span class="sd">{self.proxies}</span>
+<span class="sd">FROM {docker_base_image}</span>
+<span class="sd">{proxies}</span>
 <span class="sd">RUN /opt/conda/bin/conda install -y conda={conda_ver} conda-build={conda_build_ver}</span>
 <span class="sd">&quot;&quot;&quot;</span>  <span class="c1"># noqa: E122 continuation line missing indentation or outdented</span>
 
@@ -296,8 +296,9 @@
         <span class="n">use_host_conda_bld</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
         <span class="n">pkg_dir</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
         <span class="n">keep_image</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+        <span class="n">build_image</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
         <span class="n">image_build_dir</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-        <span class="n">docker_base_image</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">docker_base_image</span><span class="o">=</span><span class="s1">&#39;bioconda/bioconda-utils-build-env:latest&#39;</span>
     <span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Class to handle building a custom docker container that can be used for</span>
@@ -363,6 +364,11 @@
 <span class="sd">            In all cases, **pkg_dir** will be mounted to **container_staging** in</span>
 <span class="sd">            the container.</span>
 
+<span class="sd">        build_image : bool</span>
+<span class="sd">            Build a local layer on top of the **docker_base_image** layer using</span>
+<span class="sd">            **dockerfile_template**. This can be used to adjust the versions of</span>
+<span class="sd">            conda and conda-build in the build container.</span>
+
 <span class="sd">        keep_image : bool</span>
 <span class="sd">            By default, the built docker image will be removed when done,</span>
 <span class="sd">            freeing up storage space.  Set ``keep_image=True`` to disable this</span>
@@ -376,51 +382,15 @@
 <span class="sd">            Name of base image that can be used in **dockerfile_template**.</span>
 <span class="sd">            Defaults to &#39;bioconda/bioconda-utils-build-env:latest&#39;</span>
 <span class="sd">        &quot;&quot;&quot;</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">tag</span> <span class="o">=</span> <span class="n">tag</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">requirements</span> <span class="o">=</span> <span class="n">requirements</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">conda_build_args</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">build_script_template</span> <span class="o">=</span> <span class="n">build_script_template</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">dockerfile_template</span> <span class="o">=</span> <span class="n">dockerfile_template</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">keep_image</span> <span class="o">=</span> <span class="n">keep_image</span>
-        <span class="k">if</span> <span class="n">docker_base_image</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
-            <span class="n">docker_base_image</span> <span class="o">=</span> <span class="s1">&#39;bioconda/bioconda-utils-build-env:latest&#39;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">build_image</span> <span class="o">=</span> <span class="n">build_image</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">image_build_dir</span> <span class="o">=</span> <span class="n">image_build_dir</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">docker_base_image</span> <span class="o">=</span> <span class="n">docker_base_image</span>
-
-        <span class="c1"># To address issue #5027:</span>
-        <span class="c1">#</span>
-        <span class="c1"># https_proxy is the standard name, but conda looks for HTTPS_PROXY in all</span>
-        <span class="c1"># caps. So we look for both in the current environment. If both exist</span>
-        <span class="c1"># then ensure they have the same value; otherwise use whichever exists.</span>
-        <span class="c1">#</span>
-        <span class="c1"># Note that the proxy needs to be in the image when building it, and</span>
-        <span class="c1"># that the proxies need to be set before the conda install command. The</span>
-        <span class="c1"># position of `{self.proxies}` in `dockerfile_template` should reflect</span>
-        <span class="c1"># this.</span>
-        <span class="n">_proxies</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="n">http_proxy</span> <span class="o">=</span> <span class="nb">set</span><span class="p">([</span>
-            <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;http_proxy&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
-            <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;HTTP_PROXY&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
-        <span class="p">])</span><span class="o">.</span><span class="n">difference</span><span class="p">([</span><span class="kc">None</span><span class="p">])</span>
-
-        <span class="n">https_proxy</span> <span class="o">=</span> <span class="nb">set</span><span class="p">([</span>
-            <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;https_proxy&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
-            <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;HTTPS_PROXY&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
-        <span class="p">])</span><span class="o">.</span><span class="n">difference</span><span class="p">([</span><span class="kc">None</span><span class="p">])</span>
-
-        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">http_proxy</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
-            <span class="n">proxy</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">http_proxy</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
-            <span class="n">_proxies</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;ENV http_proxy </span><span class="si">{0}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">proxy</span><span class="p">))</span>
-            <span class="n">_proxies</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;ENV HTTP_PROXY </span><span class="si">{0}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">proxy</span><span class="p">))</span>
-        <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">http_proxy</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
-            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;http_proxy and HTTP_PROXY have different values&quot;</span><span class="p">)</span>
-
-        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">https_proxy</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
-            <span class="n">proxy</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">https_proxy</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
-            <span class="n">_proxies</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;ENV https_proxy </span><span class="si">{0}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">proxy</span><span class="p">))</span>
-            <span class="n">_proxies</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;ENV HTTPS_PROXY </span><span class="si">{0}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">proxy</span><span class="p">))</span>
-        <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">https_proxy</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
-            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;https_proxy and HTTPS_PROXY have different values&quot;</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">proxies</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">_proxies</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">docker_temp_image</span> <span class="o">=</span> <span class="n">tag</span>
 
         <span class="c1"># find and store user info</span>
         <span class="n">uid</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getuid</span><span class="p">()</span>
@@ -451,8 +421,8 @@
         <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">config_file</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">utils</span><span class="o">.</span><span class="n">get_conda_build_config_files</span><span class="p">()):</span>
             <span class="n">dst_file</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_config_path</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">pkg_dir</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">config_file</span><span class="p">)</span>
             <span class="n">shutil</span><span class="o">.</span><span class="n">copyfile</span><span class="p">(</span><span class="n">config_file</span><span class="o">.</span><span class="n">path</span><span class="p">,</span> <span class="n">dst_file</span><span class="p">)</span>
-
-        <span class="bp">self</span><span class="o">.</span><span class="n">_build_image</span><span class="p">(</span><span class="n">image_build_dir</span><span class="p">)</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">build_image</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_build_image</span><span class="p">()</span>
 
     <span class="k">def</span> <span class="nf">_get_config_path</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">staging_prefix</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">config_file</span><span class="p">):</span>
         <span class="n">src_basename</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">config_file</span><span class="o">.</span><span class="n">path</span><span class="p">)</span>
@@ -460,22 +430,34 @@
         <span class="k">return</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">staging_prefix</span><span class="p">,</span> <span class="n">dst_basename</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="nf">__del__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">keep_image</span><span class="p">:</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">cleanup</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cleanup</span><span class="p">()</span>
 
-    <span class="k">def</span> <span class="nf">_build_image</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">image_build_dir</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">_find_proxy_settings</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">for</span> <span class="n">var</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">&#39;http_proxy&#39;</span><span class="p">,</span> <span class="s1">&#39;https_proxy&#39;</span><span class="p">):</span>
+            <span class="n">values</span> <span class="o">=</span> <span class="nb">set</span><span class="p">([</span>
+                <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">var</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
+                <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">var</span><span class="o">.</span><span class="n">upper</span><span class="p">(),</span> <span class="kc">None</span><span class="p">)</span>
+            <span class="p">])</span><span class="o">.</span><span class="n">difference</span><span class="p">([</span><span class="kc">None</span><span class="p">])</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">values</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+                <span class="n">res</span><span class="p">[</span><span class="n">var</span><span class="p">]</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="nb">iter</span><span class="p">(</span><span class="n">values</span><span class="p">))</span>
+            <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">values</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;</span><span class="si">{var}</span><span class="s2"> and {var.upper()} have different values&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">res</span>
+
+    <span class="k">def</span> <span class="nf">_build_image</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Builds a new image with requirements installed.</span>
 <span class="sd">        &quot;&quot;&quot;</span>
 
-        <span class="k">if</span> <span class="n">image_build_dir</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">image_build_dir</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
             <span class="c1"># Create a temporary build directory since we&#39;ll be copying the</span>
             <span class="c1"># requirements file over</span>
             <span class="n">build_dir</span> <span class="o">=</span> <span class="n">tempfile</span><span class="o">.</span><span class="n">mkdtemp</span><span class="p">()</span>
         <span class="k">else</span><span class="p">:</span>
-            <span class="n">build_dir</span> <span class="o">=</span> <span class="n">image_build_dir</span>
+            <span class="n">build_dir</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">image_build_dir</span>
 
-        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;DOCKER: Building image &quot;</span><span class="si">%s</span><span class="s1">&quot; from </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">tag</span><span class="p">,</span> <span class="n">build_dir</span><span class="p">)</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;DOCKER: Building image &quot;</span><span class="si">%s</span><span class="s1">&quot; from </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">docker_temp_image</span><span class="p">,</span> <span class="n">build_dir</span><span class="p">)</span>
         <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">build_dir</span><span class="p">,</span> <span class="s1">&#39;requirements.txt&#39;</span><span class="p">),</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fout</span><span class="p">:</span>
             <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">requirements</span><span class="p">:</span>
                 <span class="n">fout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">requirements</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
@@ -485,9 +467,13 @@
                     <span class="s1">&#39;bioconda_utils-requirements.txt&#39;</span><span class="p">)</span>
                 <span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
 
+        <span class="n">proxies</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s2">&quot;ENV </span><span class="si">{}</span><span class="s2"> </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span>
+                            <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_find_proxy_settings</span><span class="p">())</span>
+
         <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">build_dir</span><span class="p">,</span> <span class="s2">&quot;Dockerfile&quot;</span><span class="p">),</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fout</span><span class="p">:</span>
             <span class="n">fout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dockerfile_template</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
-                <span class="bp">self</span><span class="o">=</span><span class="bp">self</span><span class="p">,</span>
+                <span class="n">docker_base_image</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">docker_base_image</span><span class="p">,</span>
+                <span class="n">proxies</span><span class="o">=</span><span class="n">proxies</span><span class="p">,</span>
                 <span class="n">conda_ver</span><span class="o">=</span><span class="n">conda</span><span class="o">.</span><span class="n">__version__</span><span class="p">,</span>
                 <span class="n">conda_build_ver</span><span class="o">=</span><span class="n">conda_build</span><span class="o">.</span><span class="n">__version__</span><span class="p">)</span>
             <span class="p">)</span>
@@ -515,14 +501,14 @@
                     <span class="s1">&#39;docker&#39;</span><span class="p">,</span> <span class="s1">&#39;build&#39;</span><span class="p">,</span>
                     <span class="c1"># xref #5027</span>
                     <span class="s1">&#39;--network&#39;</span><span class="p">,</span> <span class="s1">&#39;host&#39;</span><span class="p">,</span>
-                    <span class="s1">&#39;-t&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">tag</span><span class="p">,</span>
+                    <span class="s1">&#39;-t&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">docker_temp_image</span><span class="p">,</span>
                     <span class="n">build_dir</span>
             <span class="p">]</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="c1"># Network flag was added in 1.13.0, do not add it for lower versions. xref #5387</span>
             <span class="n">cmd</span> <span class="o">=</span> <span class="p">[</span>
                     <span class="s1">&#39;docker&#39;</span><span class="p">,</span> <span class="s1">&#39;build&#39;</span><span class="p">,</span>
-                    <span class="s1">&#39;-t&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">tag</span><span class="p">,</span>
+                    <span class="s1">&#39;-t&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">docker_temp_image</span><span class="p">,</span>
                     <span class="n">build_dir</span>
             <span class="p">]</span>
 
@@ -532,11 +518,11 @@
         <span class="k">except</span> <span class="n">sp</span><span class="o">.</span><span class="n">CalledProcessError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
             <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
                 <span class="s1">&#39;DOCKER FAILED: Error building docker container </span><span class="si">%s</span><span class="s1">. &#39;</span><span class="p">,</span>
-                <span class="bp">self</span><span class="o">.</span><span class="n">tag</span><span class="p">)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">docker_temp_image</span><span class="p">)</span>
             <span class="k">raise</span> <span class="n">e</span>
 
-        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;DOCKER: Built docker image tag=</span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">tag</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">image_build_dir</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;DOCKER: Built docker image tag=</span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">docker_temp_image</span><span class="p">)</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">image_build_dir</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
             <span class="n">shutil</span><span class="o">.</span><span class="n">rmtree</span><span class="p">(</span><span class="n">build_dir</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">p</span>
 
@@ -601,10 +587,13 @@
             <span class="s1">&#39;-v&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">{0}</span><span class="s1">:/opt/build_script.bash&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">build_script</span><span class="p">),</span>
             <span class="s1">&#39;-v&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">{0}</span><span class="s1">:</span><span class="si">{1}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">pkg_dir</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">container_staging</span><span class="p">),</span>
             <span class="s1">&#39;-v&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">{0}</span><span class="s1">:</span><span class="si">{1}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">recipe_dir</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">container_recipe</span><span class="p">),</span>
-        <span class="p">]</span> <span class="o">+</span> <span class="n">env_list</span> <span class="o">+</span> <span class="p">[</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">tag</span><span class="p">,</span>
-            <span class="s1">&#39;/bin/bash&#39;</span><span class="p">,</span> <span class="s1">&#39;/opt/build_script.bash&#39;</span><span class="p">,</span>
         <span class="p">]</span>
+        <span class="n">cmd</span> <span class="o">+=</span> <span class="n">env_list</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">build_image</span><span class="p">:</span>
+            <span class="n">cmd</span> <span class="o">+=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">docker_temp_image</span><span class="p">]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">cmd</span> <span class="o">+=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">docker_base_image</span><span class="p">]</span>
+        <span class="n">cmd</span> <span class="o">+=</span> <span class="p">[</span><span class="s1">&#39;/bin/bash&#39;</span><span class="p">,</span> <span class="s1">&#39;/opt/build_script.bash&#39;</span><span class="p">]</span>
 
         <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;DOCKER: cmd: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">cmd</span><span class="p">)</span>
         <span class="k">with</span> <span class="n">utils</span><span class="o">.</span><span class="n">Progress</span><span class="p">():</span>
@@ -612,8 +601,9 @@
         <span class="k">return</span> <span class="n">p</span></div>
 
 <div class="viewcode-block" id="RecipeBuilder.cleanup"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.docker_utils.html#bioconda_utils.docker_utils.RecipeBuilder.cleanup">[docs]</a>    <span class="k">def</span> <span class="nf">cleanup</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="n">cmd</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;docker&#39;</span><span class="p">,</span> <span class="s1">&#39;rmi&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">tag</span><span class="p">]</span>
-        <span class="n">utils</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cmd</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span></div></div>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">build_image</span> <span class="ow">and</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">keep_image</span><span class="p">:</span>
+            <span class="n">cmd</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;docker&#39;</span><span class="p">,</span> <span class="s1">&#39;rmi&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">docker_temp_image</span><span class="p">]</span>
+            <span class="n">utils</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cmd</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span></div></div>
 </pre></div>
 
           </div>

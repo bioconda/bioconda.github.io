@@ -150,9 +150,15 @@
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">def</span> <span class="nf">decorator</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
         <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--loglevel&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Set logging level (debug, info, warning, error, critical)&quot;</span><span class="p">)</span>
+        <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--logfile&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Write log to file&quot;</span><span class="p">)</span>
+        <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--logfile-level&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Log level for log file&quot;</span><span class="p">)</span>
+        <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--log-command-max-lines&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Limit lines emitted for commands executed&quot;</span><span class="p">)</span>
         <span class="nd">@utils</span><span class="o">.</span><span class="n">wraps</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
-        <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="n">loglevel</span><span class="o">=</span><span class="n">default_loglevel</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-            <span class="n">utils</span><span class="o">.</span><span class="n">setup_logger</span><span class="p">(</span><span class="s1">&#39;bioconda_utils&#39;</span><span class="p">,</span> <span class="n">loglevel</span><span class="p">)</span>
+        <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="n">loglevel</span><span class="o">=</span><span class="n">default_loglevel</span><span class="p">,</span> <span class="n">logfile</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">logfile_level</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                    <span class="n">log_command_max_lines</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+            <span class="n">max_lines</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">log_command_max_lines</span><span class="p">)</span> <span class="k">if</span> <span class="n">log_command_max_lines</span> <span class="k">else</span> <span class="kc">None</span>
+            <span class="n">utils</span><span class="o">.</span><span class="n">setup_logger</span><span class="p">(</span><span class="s1">&#39;bioconda_utils&#39;</span><span class="p">,</span> <span class="n">loglevel</span><span class="p">,</span> <span class="n">logfile</span><span class="p">,</span> <span class="n">logfile_level</span><span class="p">,</span>
+                               <span class="n">max_lines</span><span class="p">)</span>
             <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">wrapper</span>
     <span class="k">return</span> <span class="n">decorator</span></div>
@@ -423,6 +429,8 @@
 <span class="s1">     ignored.&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--anaconda-upload&#39;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s1">&#39;store_true&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;After building recipes, upload</span>
 <span class="s1">     them to Anaconda. This requires $ANACONDA_TOKEN to be set.&#39;&#39;&#39;</span><span class="p">)</span>
+<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--build-image&#39;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s1">&#39;store_true&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Build temporary docker build</span>
+<span class="s1">     image with conda/conda-build version matching local versions&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--keep-image&#39;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s1">&#39;store_true&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;After building recipes, the</span>
 <span class="s1">     created Docker image is removed by default to save disk space. Use this</span>
 <span class="s1">     argument to disable this behavior.&#39;&#39;&#39;</span><span class="p">)</span>
@@ -453,6 +461,7 @@
     <span class="n">pkg_dir</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
     <span class="n">anaconda_upload</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
     <span class="n">mulled_upload_target</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">build_image</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
     <span class="n">keep_image</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
     <span class="n">lint</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
     <span class="n">lint_only</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
@@ -464,7 +473,7 @@
     <span class="k">if</span> <span class="n">setup</span><span class="p">:</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Running setup: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">setup</span><span class="p">)</span>
         <span class="k">for</span> <span class="n">cmd</span> <span class="ow">in</span> <span class="n">setup</span><span class="p">:</span>
-            <span class="n">utils</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">shlex</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">cmd</span><span class="p">))</span>
+            <span class="n">utils</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">shlex</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">cmd</span><span class="p">),</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 
     <span class="c1"># handle git range</span>
     <span class="k">if</span> <span class="n">git_range</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">force</span><span class="p">:</span>
@@ -501,6 +510,7 @@
             <span class="n">pkg_dir</span><span class="o">=</span><span class="n">pkg_dir</span><span class="p">,</span>
             <span class="n">use_host_conda_bld</span><span class="o">=</span><span class="n">use_host_conda_bld</span><span class="p">,</span>
             <span class="n">keep_image</span><span class="o">=</span><span class="n">keep_image</span><span class="p">,</span>
+            <span class="n">build_image</span><span class="o">=</span><span class="n">build_image</span><span class="p">,</span>
         <span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="n">docker_builder</span> <span class="o">=</span> <span class="kc">None</span>
