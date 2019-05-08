@@ -22,10 +22,9 @@ bioconductor-gdsfmt
 
    |downloads_bioconductor-gdsfmt| |docker_bioconductor-gdsfmt|
 
-   :versions: 1.18.1-0, 1.16.0-0, 1.14.1-0
+   :versions: 1.20.0-0, 1.18.1-0, 1.16.0-0, 1.14.1-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :requirements:
 

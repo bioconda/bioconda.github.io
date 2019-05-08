@@ -23,16 +23,17 @@ mitos
 
    |downloads_mitos| |docker_mitos|
 
-   :versions: 1.0.1-0
+   :versions: 2.0.1-0, 1.0.1-1, 1.0.1-0
    
    :depends biopython: 1.73
-   :depends blast-legacy: 2.2.26
-   :depends ete2: 2.3.10
-   :depends infernal: 1.0.2
+   :depends blast-legacy: 2.2.*
+   :depends ete2: 2.3.*
+   :depends hmmer: 3.2.*
+   :depends infernal: 1.1.*
    :depends openjdk: 
    :depends python: <3
    :depends r-base: 
-   :depends r-ggplot2: 3.1.1
+   :depends r-ggplot2: 3.1.*
    :depends reportlab: 
    :depends viennarna: <2
    :requirements:

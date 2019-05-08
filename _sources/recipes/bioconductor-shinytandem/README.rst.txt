@@ -22,9 +22,9 @@ bioconductor-shinytandem
 
    |downloads_bioconductor-shinytandem| |docker_bioconductor-shinytandem|
 
-   :versions: 1.20.1-1, 1.20.1-0
+   :versions: 1.22.0-0, 1.20.1-1, 1.20.1-0
    
-   :depends bioconductor-rtandem: >=1.22.0,<1.23.0
+   :depends bioconductor-rtandem: >=1.24.0,<1.25.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-mixtools: 
    :depends r-shiny: 

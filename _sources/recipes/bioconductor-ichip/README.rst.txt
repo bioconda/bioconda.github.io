@@ -23,10 +23,9 @@ bioconductor-ichip
 
    |downloads_bioconductor-ichip| |docker_bioconductor-ichip|
 
-   :versions: 1.36.0-0, 1.34.0-0, 1.32.0-0
+   :versions: 1.38.0-0, 1.36.0-0, 1.34.0-0, 1.32.0-0
    
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends libgcc-ng: >=7.3.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :requirements:
 

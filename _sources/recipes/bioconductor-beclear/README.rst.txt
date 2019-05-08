@@ -23,13 +23,15 @@ bioconductor-beclear
 
    |downloads_bioconductor-beclear| |docker_bioconductor-beclear|
 
-   :versions: 1.14.0-0, 1.12.1-0, 1.10.0-0, 1.8.0-0
+   :versions: 2.0.0-0, 1.14.0-0, 1.12.1-0, 1.10.0-0, 1.8.0-0
    
-   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-data.table: >=1.11.8
    :depends r-futile.logger: 
    :depends r-matrix: 
+   :depends r-rcpp: 
    :depends r-rdpack: 
    :requirements:
 

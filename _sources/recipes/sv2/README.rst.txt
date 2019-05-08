@@ -22,8 +22,19 @@ sv2
 
    |downloads_sv2| |docker_sv2|
 
-   :versions: 
+   :versions: 1.4.3.4-1
    
+   :depends bedtools: 
+   :depends cython: 
+   :depends libgcc-ng: >=7.3.0
+   :depends numpy: 
+   :depends pandas: 
+   :depends pybedtools: 
+   :depends pysam: >=0.9
+   :depends python: >=2.7,<2.8.0a0
+   :depends python-wget: 
+   :depends scikit-learn: >=0.19
+   :depends wget: 
    :requirements:
 
    .. rubric:: Installation

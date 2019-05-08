@@ -25,7 +25,7 @@ chicagotools
    :versions: 1.2.0-2, 1.2.0-1, 1.2.0-0
    
    :depends bioconductor-chicago: 
-   :depends python: <3
+   :depends python: 
    :depends r-argparser: 
    :depends r-base: 
    :requirements:

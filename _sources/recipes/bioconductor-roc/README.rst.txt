@@ -25,7 +25,8 @@ bioconductor-roc
 
    :versions: 1.60.0-0, 1.58.0-0, 1.56.0-0, 1.54.0-0, 1.52.0-0
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :requirements:
 
