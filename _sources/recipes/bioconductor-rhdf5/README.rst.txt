@@ -26,7 +26,8 @@ bioconductor-rhdf5
    :versions: 2.28.0-0, 2.26.2-2, 2.26.2-1, 2.26.2-0, 2.26.1-0, 2.26.0-2, 2.26.0-1, 2.26.0-0, 2.24.0-0, 2.22.0-0, 2.20.0-1, 2.20.0-0, 2.16.0-1, 2.16.0-0, 2.14.0-1, 2.14.0-0, 2.12.0-0
    
    :depends bioconductor-rhdf5lib: >=1.6.0,<1.7.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :requirements:
 

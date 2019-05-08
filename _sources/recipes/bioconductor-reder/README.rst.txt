@@ -23,8 +23,9 @@ bioconductor-reder
 
    |downloads_bioconductor-reder| |docker_bioconductor-reder|
 
-   :versions: 1.30.0-0, 1.28.0-0, 1.26.0-0
+   :versions: 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.26.0-0
    
+   :depends openjdk: 8.*
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-igraph: 
    :requirements:
