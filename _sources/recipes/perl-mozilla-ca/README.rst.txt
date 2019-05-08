@@ -22,7 +22,7 @@ perl-mozilla-ca
 
    |downloads_perl-mozilla-ca| |docker_perl-mozilla-ca|
 
-   :versions: 20180117-0, 20160104-2, 20160104-1, 20160104-0
+   :versions: 20180117-1, 20180117-0, 20160104-2, 20160104-1, 20160104-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:

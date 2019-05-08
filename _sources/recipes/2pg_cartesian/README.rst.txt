@@ -22,10 +22,11 @@
 
    |downloads_2pg_cartesian| |docker_2pg_cartesian|
 
-   :versions: 1.0.1-1, 1.0.1-0
+   :versions: 1.0.1-2, 1.0.1-1, 1.0.1-0
    
    :depends gromacs: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

@@ -22,13 +22,13 @@ crispritz
 
    |downloads_crispritz| |docker_crispritz|
 
-   :versions: 1.0.3-0
+   :versions: 1.0.5-0, 1.0.3-0
    
    :depends bcftools: 
    :depends boost: >=1.68.0,<1.68.1.0a0
    :depends intervaltree: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: >=5.4.0
+   :depends libstdcxx-ng: >=5.4.0
    :depends matplotlib: 
    :depends more-itertools: 
    :depends numpy: 

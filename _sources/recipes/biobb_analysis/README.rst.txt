@@ -50,9 +50,9 @@ biobb_analysis
 
    |downloads_biobb_analysis| |docker_biobb_analysis|
 
-   :versions: 0.2.0-0, 0.1.9-0, 0.1.8-0, 0.1.7-0, 0.1.6-0, 0.1.4-0, 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.9-0, 0.0.8-0, 0.0.4-0
+   :versions: 1.0.1-0, 0.2.0-0, 0.1.9-0, 0.1.8-0, 0.1.7-0, 0.1.6-0, 0.1.4-0, 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.9-0, 0.0.8-0, 0.0.4-0
    
-   :depends biobb_common: >=0.1.4
+   :depends biobb_common: 0.1.4
    :depends gromacs: 2018.4
    :depends python: 3.6.*
    :requirements:

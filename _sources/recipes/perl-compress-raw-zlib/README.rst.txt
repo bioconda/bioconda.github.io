@@ -22,7 +22,7 @@ perl-compress-raw-zlib
 
    |downloads_perl-compress-raw-zlib| |docker_perl-compress-raw-zlib|
 
-   :versions: 2.086-0, 2.084-1, 2.084-0, 2.083-0, 2.081-0, 2.069-7, 2.069-6, 2.069-3, 2.069-2, 2.069-1, 2.069-0
+   :versions: 2.086-1, 2.086-0, 2.084-1, 2.084-0, 2.083-0, 2.081-0, 2.069-7, 2.069-6, 2.069-3, 2.069-2, 2.069-1, 2.069-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

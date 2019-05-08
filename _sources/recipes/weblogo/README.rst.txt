@@ -23,7 +23,7 @@ weblogo
 
    |downloads_weblogo| |docker_weblogo|
 
-   :versions: 3.6.0-1, 3.6.0-0, 3.5.0-0, 2.8.2-6, 2.8.2-5, 2.8.2-3, 2.8.2-2, 2.8.2-1, 2.8.2-0
+   :versions: 3.6.0-1, 3.6.0-0, 3.5.0-0, 2.8.2-7, 2.8.2-6, 2.8.2-5, 2.8.2-3, 2.8.2-2, 2.8.2-1, 2.8.2-0
    
    :depends ghostscript: 
    :depends numpy: 

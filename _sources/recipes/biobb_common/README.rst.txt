@@ -51,7 +51,7 @@ biobb_common
 
    |downloads_biobb_common| |docker_biobb_common|
 
-   :versions: 0.1.4-0, 0.1.2-0, 0.0.8-0, 0.0.6-0, 0.0.5-0, 0.0.4-0, 0.0.3-0
+   :versions: 0.1.5-0, 0.1.4-0, 0.1.2-0, 0.0.8-0, 0.0.6-0, 0.0.5-0, 0.0.4-0, 0.0.3-0
    
    :depends biopython: 1.73
    :depends python: 3.6.*

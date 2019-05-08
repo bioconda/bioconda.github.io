@@ -22,9 +22,10 @@ perl-moose
 
    |downloads_perl-moose| |docker_perl-moose|
 
-   :versions: 2.2011-0, 2.2009-0, 2.1804-2, 2.1804-1, 2.1804-0
+   :versions: 2.2011-1, 2.2011-0, 2.2009-0, 2.1804-2, 2.1804-1, 2.1804-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-carp: 
    :depends perl-class-load: >=0.09

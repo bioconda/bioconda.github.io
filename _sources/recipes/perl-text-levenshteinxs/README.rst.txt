@@ -22,8 +22,11 @@ perl-text-levenshteinxs
 
    |downloads_perl-text-levenshteinxs| |docker_perl-text-levenshteinxs|
 
-   :versions: 
+   :versions: 0.03-0
    
+   :depends libgcc-ng: >=7.3.0
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl-test: 
    :requirements:
 
    .. rubric:: Installation

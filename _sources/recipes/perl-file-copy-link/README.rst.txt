@@ -22,10 +22,10 @@ perl-file-copy-link
 
    |downloads_perl-file-copy-link| |docker_perl-file-copy-link|
 
-   :versions: 0.140-1, 0.140-0
+   :versions: 0.140-2, 0.140-1, 0.140-0
    
-   :depends libgcc-ng: >=4.9
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 
    .. rubric:: Installation
