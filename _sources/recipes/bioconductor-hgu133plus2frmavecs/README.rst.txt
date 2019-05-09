@@ -22,10 +22,10 @@ bioconductor-hgu133plus2frmavecs
 
    |downloads_bioconductor-hgu133plus2frmavecs| |docker_bioconductor-hgu133plus2frmavecs|
 
-   :versions: 1.5.0-0
+   :versions: 1.5.0-1, 1.5.0-0
    
+   :depends curl: >=7.64.1,<8.0a0
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
    :requirements:
 
    .. rubric:: Installation

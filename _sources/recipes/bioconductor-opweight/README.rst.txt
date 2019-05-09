@@ -22,9 +22,9 @@ bioconductor-opweight
 
    |downloads_bioconductor-opweight| |docker_bioconductor-opweight|
 
-   :versions: 1.4.1-0, 1.4.0-0
+   :versions: 1.6.0-0, 1.4.1-0, 1.4.0-0
    
-   :depends bioconductor-qvalue: >=2.14.0,<2.15.0
+   :depends bioconductor-qvalue: >=2.16.0,<2.17.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-mass: 
    :depends r-tibble: 

@@ -23,9 +23,9 @@ bioconductor-nnnorm
 
    |downloads_bioconductor-nnnorm| |docker_bioconductor-nnnorm|
 
-   :versions: 2.46.0-0, 2.44.0-0, 2.42.0-0, 2.40.0-0
+   :versions: 2.48.0-0, 2.46.0-0, 2.44.0-0, 2.42.0-0, 2.40.0-0
    
-   :depends bioconductor-marray: >=1.60.0,<1.61.0
+   :depends bioconductor-marray: >=1.62.0,<1.63.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-nnet: 
    :requirements:

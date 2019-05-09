@@ -22,9 +22,9 @@ bioconductor-sepira
 
    |downloads_bioconductor-sepira| |docker_bioconductor-sepira|
 
-   :versions: 1.2.0-0
+   :versions: 1.4.0-0, 1.2.0-0
    
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-corpcor: >=1.6.9
    :requirements:

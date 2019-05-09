@@ -22,10 +22,10 @@ bioconductor-lowmacaannotation
 
    |downloads_bioconductor-lowmacaannotation| |docker_bioconductor-lowmacaannotation|
 
-   :versions: 0.99.3-0
+   :versions: 0.99.3-1, 0.99.3-0
    
+   :depends curl: >=7.64.1,<8.0a0
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
    :requirements:
 
    .. rubric:: Installation

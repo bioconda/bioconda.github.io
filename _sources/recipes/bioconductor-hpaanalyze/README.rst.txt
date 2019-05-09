@@ -22,19 +22,19 @@ bioconductor-hpaanalyze
 
    |downloads_bioconductor-hpaanalyze| |docker_bioconductor-hpaanalyze|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-0
    
-   :depends bioconductor-hpar: >=1.24.0,<1.25.0
+   :depends bioconductor-hpar: >=1.26.0,<1.27.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-cowplot: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-magrittr: 
+   :depends r-openxlsx: 
    :depends r-readr: 
    :depends r-reshape2: 
    :depends r-tibble: 
    :depends r-tidyr: 
-   :depends r-xlconnect: 
    :depends r-xml2: 
    :requirements:
 

@@ -22,13 +22,12 @@ bioconductor-msgfplus
 
    |downloads_bioconductor-msgfplus| |docker_bioconductor-msgfplus|
 
-   :versions: 1.16.1-0
+   :versions: 1.18.0-0, 1.16.1-0
    
-   :depends bioconductor-mzid: >=1.20.0,<1.21.0
-   :depends bioconductor-protgenerics: >=1.14.0,<1.15.0
-   :depends openjdk: 
+   :depends bioconductor-mzid: >=1.22.0,<1.23.0
+   :depends bioconductor-protgenerics: >=1.16.0,<1.17.0
+   :depends openjdk: 8.*
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends r-stringr: 
    :requirements:
 
    .. rubric:: Installation

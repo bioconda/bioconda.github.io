@@ -23,9 +23,9 @@ bioconductor-synlet
 
    |downloads_bioconductor-synlet| |docker_bioconductor-synlet|
 
-   :versions: 1.12.1-0, 1.12.0-0, 1.10.0-0, 1.8.0-0
+   :versions: 1.14.0-0, 1.12.1-0, 1.12.0-0, 1.10.0-0, 1.8.0-0
    
-   :depends bioconductor-rankprod: >=3.8.0,<3.9.0
+   :depends bioconductor-rankprod: >=3.10.0,<3.11.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-doby: 
    :depends r-dplyr: 
