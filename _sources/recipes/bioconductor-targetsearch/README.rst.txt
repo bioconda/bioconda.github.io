@@ -22,9 +22,8 @@ bioconductor-targetsearch
 
    |downloads_bioconductor-targetsearch| |docker_bioconductor-targetsearch|
 
-   :versions: 1.38.1-0
+   :versions: 1.40.0-0, 1.38.1-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-ncdf4: 
    :requirements:

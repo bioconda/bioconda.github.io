@@ -22,10 +22,9 @@ bioconductor-nucpos
 
    |downloads_bioconductor-nucpos| |docker_bioconductor-nucpos|
 
-   :versions: 1.0.1-0, 1.0.0-0
+   :versions: 1.2.0-0, 1.0.1-0, 1.0.0-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libgfortran-ng: >=7,<8.0a0
+   :depends libgfortran: >=3.0.1,<4.0.0.a0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :requirements:
 

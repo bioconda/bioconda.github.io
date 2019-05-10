@@ -12,7 +12,7 @@ wiggletools
    The WiggleTools package allows genomewide data files to be manipulated as numerical functions\, equipped with all the standard functional analysis operators \(sum\, product\, product by a scalar\, comparators\)\, and derived statistics \(mean\, median\, variance\, stddev\, t\-test\, Wilcoxon\'s rank sum test\, etc\).
 
    :homepage: https://github.com/Ensembl/WiggleTools
-   :license: Apache
+   :license: Apache / Apache
    :recipe: /`wiggletools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wiggletools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wiggletools/meta.yaml>`_
 
    
@@ -22,13 +22,13 @@ wiggletools
 
    |downloads_wiggletools| |docker_wiggletools|
 
-   :versions: 1.2.2-4, 1.2.2-3, 1.2.2-2, 1.2.2-1, 1.2.2-0, 1.2.1-0
+   :versions: 1.2.3-0, 1.2.2-4, 1.2.2-3, 1.2.2-2, 1.2.2-1, 1.2.2-0, 1.2.1-0
    
-   :depends gsl: >=2.2.1,<2.3.0a0
+   :depends gsl: >=2.4,<2.5.0a0
    :depends htslib: >=1.9,<1.10.0a0
    :depends libbigwig: 
-   :depends libgcc-ng: >=4.9
-   :depends openblas: >=0.2.20,<0.2.21.0a0
+   :depends libcblas: >=3.8.0,<4.0a0
+   :depends libgcc-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

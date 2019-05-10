@@ -22,9 +22,8 @@ bioconductor-cosnet
 
    |downloads_bioconductor-cosnet| |docker_bioconductor-cosnet|
 
-   :versions: 1.16.0-0
+   :versions: 1.18.0-0, 1.16.0-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :requirements:
 

@@ -22,9 +22,9 @@ bioconductor-kinswingr
 
    |downloads_bioconductor-kinswingr| |docker_bioconductor-kinswingr|
 
-   :versions: 1.0.3-0
+   :versions: 1.2.0-0, 1.0.3-0
    
-   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-data.table: 
    :depends r-sqldf: 

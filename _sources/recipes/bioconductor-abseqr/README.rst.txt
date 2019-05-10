@@ -22,10 +22,11 @@ bioconductor-abseqr
 
    |downloads_bioconductor-abseqr| |docker_bioconductor-abseqr|
 
-   :versions: 1.0.0-1, 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-1, 1.0.0-0
    
-   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   :depends bioconductor-biocstyle: >=2.10.0,<2.11.0
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-biocstyle: >=2.12.0,<2.13.0
+   :depends pandoc: >=1.19.2.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-circlize: 
    :depends r-flexdashboard: 

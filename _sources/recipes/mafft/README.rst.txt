@@ -6,14 +6,15 @@
 mafft
 =====
 
-.. conda:recipe:: mafft/7.402
+.. conda:recipe:: mafft
    :replaces_section_title:
 
    Multiple alignment program for amino acid or nucleotide sequences based on fast Fourier transform
 
    :homepage: http://mafft.cbrc.jp/alignment/software/
    :license: BSD
-   :recipe: /`mafft <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mafft>`_/`7.402 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mafft/7.402>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mafft/7.402/meta.yaml>`_
+   :recipe: /`mafft <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mafft>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mafft/meta.yaml>`_
+   :links: doi: :doi:`10.1093/nar/gkf436`
 
    
 
@@ -22,8 +23,10 @@ mafft
 
    |downloads_mafft| |docker_mafft|
 
-   :versions: 7.407-1, 7.407-0, 7.402-0, 7.313-1, 7.313-0, 7.310-1, 7.310-0, 7.305-1, 7.305-0, 7.221-0
+   :versions: 7.407-2, 7.407-1, 7.407-0, 7.402-0, 7.313-1, 7.313-0, 7.310-2, 7.310-1, 7.310-0, 7.305-1, 7.305-0, 7.221-0
    
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

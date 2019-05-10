@@ -22,7 +22,7 @@ sv2
 
    |downloads_sv2| |docker_sv2|
 
-   :versions: 1.4.3.4-1
+   :versions: 1.4.3.4-1, 1.4.3.4-0
    
    :depends bedtools: 
    :depends cython: 

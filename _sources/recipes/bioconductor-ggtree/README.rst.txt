@@ -23,9 +23,9 @@ bioconductor-ggtree
 
    |downloads_bioconductor-ggtree| |docker_bioconductor-ggtree|
 
-   :versions: 1.14.6-0, 1.14.4-0, 1.12.7-0, 1.10.0-0, 1.8.2-0, 1.4.20-0, 1.2.12-0
+   :versions: 1.16.0-0, 1.14.6-0, 1.14.4-0, 1.12.7-0, 1.10.0-0, 1.8.2-0, 1.4.20-0, 1.2.12-0
    
-   :depends bioconductor-treeio: >=1.6.0,<1.7.0
+   :depends bioconductor-treeio: >=1.8.0,<1.9.0
    :depends r-ape: 
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-dplyr: 
@@ -34,10 +34,8 @@ bioconductor-ggtree
    :depends r-purrr: 
    :depends r-rlang: 
    :depends r-rvcheck: >=0.1.0
-   :depends r-scales: 
-   :depends r-tibble: 
    :depends r-tidyr: 
-   :depends r-tidytree: >=0.1.9
+   :depends r-tidytree: >=0.2.4
    :requirements:
 
    .. rubric:: Installation

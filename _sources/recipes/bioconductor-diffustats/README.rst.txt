@@ -23,10 +23,9 @@ bioconductor-diffustats
 
    |downloads_bioconductor-diffustats| |docker_bioconductor-diffustats|
 
-   :versions: 1.2.0-0, 0.104.0-0, 0.102.0-0
+   :versions: 1.4.0-0, 1.2.0-0, 0.104.0-0, 0.102.0-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-expm: 
    :depends r-igraph: 

@@ -22,9 +22,8 @@ bioconductor-graphalignment
 
    |downloads_bioconductor-graphalignment| |docker_bioconductor-graphalignment|
 
-   :versions: 1.46.0-0
+   :versions: 1.48.0-0, 1.46.0-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :requirements:
 

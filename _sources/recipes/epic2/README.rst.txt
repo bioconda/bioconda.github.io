@@ -22,12 +22,14 @@ epic2
 
    |downloads_epic2| |docker_epic2|
 
-   :versions: 0.0.26-0, 0.0.16-0, 0.0.15-0
+   :versions: 0.0.33-0, 0.0.26-0, 0.0.16-0, 0.0.15-0
    
    :depends cython: 
    :depends functools32: 
    :depends htslib: >=1.9,<1.10.0a0
    :depends libdeflate: >=1.0,<1.1.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends natsort: 
    :depends numpy: 
    :depends pysam: 

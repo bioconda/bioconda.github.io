@@ -23,10 +23,10 @@ bioconductor-oscope
 
    |downloads_bioconductor-oscope| |docker_bioconductor-oscope|
 
-   :versions: 1.12.1-0, 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   :versions: 1.14.0-0, 1.12.1-0, 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
    
-   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   :depends bioconductor-ebseq: >=1.22.0,<1.23.0
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-ebseq: >=1.24.0,<1.25.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-cluster: 
    :depends r-testthat: 

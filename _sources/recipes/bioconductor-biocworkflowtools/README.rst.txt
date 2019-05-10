@@ -23,9 +23,9 @@ bioconductor-biocworkflowtools
 
    |downloads_bioconductor-biocworkflowtools| |docker_bioconductor-biocworkflowtools|
 
-   :versions: 1.8.0-0, 1.6.2-0, 1.4.0-0, 1.2.0-0
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.2-0, 1.4.0-0, 1.2.0-0
    
-   :depends bioconductor-biocstyle: >=2.10.0,<2.11.0
+   :depends bioconductor-biocstyle: >=2.12.0,<2.13.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-bookdown: 
    :depends r-devtools: 
@@ -35,6 +35,7 @@ bioconductor-biocworkflowtools
    :depends r-rmarkdown: 
    :depends r-rstudioapi: 
    :depends r-stringr: 
+   :depends r-usethis: 
    :requirements:
 
    .. rubric:: Installation

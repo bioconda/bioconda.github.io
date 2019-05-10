@@ -9,11 +9,12 @@ pantools
 .. conda:recipe:: pantools
    :replaces_section_title:
 
-   PanTools is a disk\-based java application for computational pan\-genomics
+   PanTools is a disk\-based java application for computational pan\-genomics.
 
    :homepage: https://github.com/Sheikhizadeh/pantools
    :license: Unknown
    :recipe: /`pantools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pantools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pantools/meta.yaml>`_
+   :links: doi: :doi:`https://doi.org/10.1186/s12859-018-2362-4`
 
    
 
@@ -22,11 +23,12 @@ pantools
 
    |downloads_pantools| |docker_pantools|
 
-   :versions: 1.0-0
+   :versions: 1.2-0, 1.0-0
    
-   :depends java-jdk: >=6
    :depends kmc: 
-   :depends python: 2.7*
+   :depends mcl: 
+   :depends openjdk: >=8
+   :depends python: 
    :requirements:
 
    .. rubric:: Installation

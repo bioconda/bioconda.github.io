@@ -1,0 +1,77 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'pyranges'
+.. highlight: bash
+
+pyranges
+========
+
+.. conda:recipe:: pyranges
+   :replaces_section_title:
+
+   GenomicRanges for Python.
+
+   :homepage: http://github.com/endrebak/pyranges
+   :license: MIT
+   :recipe: /`pyranges <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyranges>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyranges/meta.yaml>`_
+
+   
+
+
+.. conda:package:: pyranges
+
+   |downloads_pyranges| |docker_pyranges|
+
+   :versions: 0.0.39-0
+   
+   :depends bamread: 
+   :depends cython: 
+   :depends libgcc-ng: >=7.3.0
+   :depends natsort: 
+   :depends ncls: 
+   :depends pandas: 
+   :depends pybigwig: 
+   :depends pyrle: 
+   :depends python: >=3.7,<3.8.0a0
+   :depends sorted_nearest: 
+   :depends tabulate: 
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pyranges
+
+   and update with::
+
+      conda update pyranges
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/pyranges:<tag>
+
+   (see `pyranges/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_pyranges| image:: https://img.shields.io/conda/dn/bioconda/pyranges.svg?style=flat
+   :alt:   (downloads)
+.. |docker_pyranges| image:: https://quay.io/repository/biocontainers/pyranges/status
+   :target: https://quay.io/repository/biocontainers/pyranges
+.. _`pyranges/tags`: https://quay.io/repository/biocontainers/pyranges?tab=tags
+
+
+
+
+
+
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pyranges/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pyranges/README.html

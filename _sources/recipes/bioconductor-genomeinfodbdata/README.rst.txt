@@ -22,10 +22,10 @@ bioconductor-genomeinfodbdata
 
    |downloads_bioconductor-genomeinfodbdata| |docker_bioconductor-genomeinfodbdata|
 
-   :versions: 1.2.0-0, 1.1.0-0, 1.0.0-1, 1.0.0-0, 0.99.0-1, 0.99.0-0
+   :versions: 1.2.1-0, 1.2.0-0, 1.1.0-0, 1.0.0-1, 1.0.0-0, 0.99.0-1, 0.99.0-0
    
+   :depends curl: >=7.64.1,<8.0a0
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
    :requirements:
 
    .. rubric:: Installation

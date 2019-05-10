@@ -12,7 +12,7 @@ proteinortho
    Proteinortho is a tool to detect orthologous genes within different species.
 
    :homepage: https://gitlab.com/paulklemm_PHD/proteinortho/
-   :license: GNU-3
+   :license: GPL / GNU GPL-3
    :recipe: /`proteinortho <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/proteinortho>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/proteinortho/meta.yaml>`_
 
    
@@ -22,7 +22,7 @@ proteinortho
 
    |downloads_proteinortho| |docker_proteinortho|
 
-   :versions: 6.0b-0
+   :versions: 6.0-0, 6.0b-0
    
    :depends diamond: 
    :depends lapack: 

@@ -22,9 +22,8 @@ bioconductor-icare
 
    |downloads_bioconductor-icare| |docker_bioconductor-icare|
 
-   :versions: 1.10.3-0, 1.10.2-0
+   :versions: 1.12.0-0, 1.10.3-0, 1.10.2-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-gtools: 
    :depends r-hmisc: 

@@ -22,10 +22,9 @@ bioconductor-netreg
 
    |downloads_bioconductor-netreg| |docker_bioconductor-netreg|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-0
+   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-rcpp: 
    :depends r-rcpparmadillo: 

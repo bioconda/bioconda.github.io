@@ -23,9 +23,8 @@ bioconductor-bac
 
    |downloads_bioconductor-bac| |docker_bioconductor-bac|
 
-   :versions: 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0
+   :versions: 1.44.0-0, 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :requirements:
 
