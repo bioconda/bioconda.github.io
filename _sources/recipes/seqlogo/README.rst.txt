@@ -22,7 +22,7 @@ seqlogo
 
    |downloads_seqlogo| |docker_seqlogo|
 
-   :versions: 5.29.1-0, 5.2.9-1, 0.2.0-0, 0.1.13-0, 0.1.12-0
+   :versions: 5.29.4-0, 5.29.1-0, 5.2.9-1, 0.2.0-0, 0.1.13-0, 0.1.12-0
    
    :depends ghostscript: 
    :depends numpy: 

@@ -22,11 +22,11 @@ trnascan-se
 
    |downloads_trnascan-se| |docker_trnascan-se|
 
-   :versions: 2.0-1, 2.0-0, 1.3.1-5, 1.3.1-4, 1.3.1-3, 1.3.1-2, 1.3.1-1
+   :versions: 2.0.3-0, 2.0-1, 2.0-0, 1.3.1-5, 1.3.1-4, 1.3.1-3, 1.3.1-2, 1.3.1-1
    
    :depends infernal: 1.1.2
-   :depends libgcc-ng: >=4.9
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 
    .. rubric:: Installation

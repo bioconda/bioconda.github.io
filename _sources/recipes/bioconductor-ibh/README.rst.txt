@@ -23,9 +23,9 @@ bioconductor-ibh
 
    |downloads_bioconductor-ibh| |docker_bioconductor-ibh|
 
-   :versions: 1.30.0-0, 1.28.0-0, 1.26.0-0
+   :versions: 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.26.0-0
    
-   :depends bioconductor-simpintlists: >=1.18.0,<1.19.0
+   :depends bioconductor-simpintlists: >=1.20.0,<1.21.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :requirements:
 

@@ -22,9 +22,9 @@ melt
 
    |downloads_melt| |docker_melt|
 
-   :versions: 1.0.3-2, 1.0.3-1, 1.0.3-0
+   :versions: 1.0.3-3, 1.0.3-2, 1.0.3-1, 1.0.3-0
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: 
    :requirements:
 
    .. rubric:: Installation

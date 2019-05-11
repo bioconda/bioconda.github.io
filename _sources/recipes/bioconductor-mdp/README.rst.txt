@@ -22,10 +22,11 @@ bioconductor-mdp
 
    |downloads_bioconductor-mdp| |docker_bioconductor-mdp|
 
-   :versions: 1.2.0-0
+   :versions: 1.4.0-0, 1.2.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-ggplot2: 
+   :depends r-gridextra: 
    :requirements:
 
    .. rubric:: Installation

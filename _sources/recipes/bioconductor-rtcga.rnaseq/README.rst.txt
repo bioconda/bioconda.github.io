@@ -22,11 +22,11 @@ bioconductor-rtcga.rnaseq
 
    |downloads_bioconductor-rtcga.rnaseq| |docker_bioconductor-rtcga.rnaseq|
 
-   :versions: 20151101.12.0-0
+   :versions: 20151101.14.0-0, 20151101.12.0-0
    
-   :depends bioconductor-rtcga: >=1.12.0,<1.13.0
+   :depends bioconductor-rtcga: >=1.14.0,<1.15.0
+   :depends curl: >=7.64.1,<8.0a0
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
    :requirements:
 
    .. rubric:: Installation

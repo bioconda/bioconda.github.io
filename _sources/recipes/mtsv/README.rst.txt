@@ -22,7 +22,7 @@ mtsv
 
    |downloads_mtsv| |docker_mtsv|
 
-   :versions: 1.0.2-0
+   :versions: 1.0.3-0, 1.0.2-0
    
    :depends biopython: 
    :depends bwa: 
@@ -35,7 +35,7 @@ mtsv
    :depends megahit: 
    :depends numpy: 
    :depends pandas: >=0.20.3
-   :depends python: <=3.6
+   :depends python: >=3.6.0,<3.7.0
    :depends pyyaml: 
    :depends samtools: 
    :depends scipy: 

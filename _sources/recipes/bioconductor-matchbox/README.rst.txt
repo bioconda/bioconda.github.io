@@ -22,7 +22,7 @@ bioconductor-matchbox
 
    |downloads_bioconductor-matchbox| |docker_bioconductor-matchbox|
 
-   :versions: 1.24.0-0
+   :versions: 1.26.0-0, 1.24.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :requirements:

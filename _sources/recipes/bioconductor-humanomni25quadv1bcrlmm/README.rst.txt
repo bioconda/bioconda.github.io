@@ -22,10 +22,10 @@ bioconductor-humanomni25quadv1bcrlmm
 
    |downloads_bioconductor-humanomni25quadv1bcrlmm| |docker_bioconductor-humanomni25quadv1bcrlmm|
 
-   :versions: 1.0.2-0
+   :versions: 1.0.2-1, 1.0.2-0
    
+   :depends curl: >=7.64.1,<8.0a0
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
    :requirements:
 
    .. rubric:: Installation

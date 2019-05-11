@@ -12,6 +12,7 @@ gffread
    GFF\/GTF utility providing format conversions\, region filtering\, FASTA sequence extraction and more.
 
    :homepage: http://ccb.jhu.edu/software/stringtie/gff.shtml
+   :developer docs: https://github.com/gpertea/gffread
    :license: MIT
    :recipe: /`gffread <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffread>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffread/meta.yaml>`_
    :links: biotools: :biotools:`gffread`
@@ -23,8 +24,11 @@ gffread
 
    |downloads_gffread| |docker_gffread|
 
-   :versions: 0.9.12-0, 0.9.9-1, 0.9.9-0, 0.9.8-0
+   :versions: 0.11.4-0, 0.9.12-0, 0.9.9-1, 0.9.9-0, 0.9.8-0
    
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
    .. rubric:: Installation

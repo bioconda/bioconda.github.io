@@ -22,7 +22,7 @@ bioconductor-ngscopy
 
    |downloads_bioconductor-ngscopy| |docker_bioconductor-ngscopy|
 
-   :versions: 1.16.1-0
+   :versions: 1.17.1-0, 1.16.1-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-changepoint: >=2.1.1

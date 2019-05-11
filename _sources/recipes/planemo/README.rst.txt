@@ -22,16 +22,16 @@ planemo
 
    |downloads_planemo| |docker_planemo|
 
-   :versions: 0.57.1-1, 0.57.1-0, 0.57.0-0, 0.56.0-0, 0.55.0-1, 0.55.0-0, 0.54.0-1, 0.48.0-1, 0.48.0-0, 0.46.1-0, 0.40.1-0, 0.38.1-1, 0.34.1-2, 0.34.1-1, 0.34.1-0, 0.33.2-0, 0.29.1-0, 0.23.0-1, 0.23.0-0
+   :versions: 0.59.0-0, 0.57.1-1, 0.57.1-0, 0.57.0-0, 0.56.0-0, 0.55.0-1, 0.55.0-0, 0.54.0-1, 0.48.0-1, 0.48.0-0, 0.46.1-0, 0.40.1-0, 0.38.1-1, 0.34.1-2, 0.34.1-1, 0.34.1-0, 0.33.2-0, 0.29.1-0, 0.23.0-1, 0.23.0-0
    
    :depends aenum: 
    :depends bioblend: >=0.10.0
    :depends click: 
    :depends docutils: 
    :depends ephemeris: 
-   :depends galaxy-lib: >=18.5.15
+   :depends galaxy-lib: >=18.9.2
    :depends glob2: 
-   :depends gxformat2: 
+   :depends gxformat2: >=0.8.0
    :depends jinja2: 
    :depends lxml: 
    :depends oyaml: 

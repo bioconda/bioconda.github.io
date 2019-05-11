@@ -12,7 +12,7 @@ bioconductor-seqcat
    The seqCAT package uses variant calling data \(in the form of VCF files\) from high throughput sequencing technologies to authenticate and validate the source\, function and characteristics of biological samples used in scientific endeavours.
 
    :homepage: https://bioconductor.org/packages/3.8/bioc/html/seqCAT.html
-   :license: MIT + file LICENCE
+   :license: MIT
    :recipe: /`bioconductor-seqcat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqcat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqcat/meta.yaml>`_
 
    
@@ -22,7 +22,7 @@ bioconductor-seqcat
 
    |downloads_bioconductor-seqcat| |docker_bioconductor-seqcat|
 
-   :versions: 1.4.0-0
+   :versions: 1.4.1-0, 1.4.0-0
    
    :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0

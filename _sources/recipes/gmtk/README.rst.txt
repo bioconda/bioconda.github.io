@@ -22,10 +22,10 @@ gmtk
 
    |downloads_gmtk| |docker_gmtk|
 
-   :versions: 1.4.4-4, 1.4.4-3, 1.4.4-2, 1.4.4-1, 1.4.4-0
+   :versions: 1.4.4-5, 1.4.4-4, 1.4.4-3, 1.4.4-2, 1.4.4-1, 1.4.4-0
    
    :depends gxx_linux-64: 
-   :depends hdf5: >=1.10.4,<1.10.5.0a0
+   :depends hdf5: 
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :requirements:
