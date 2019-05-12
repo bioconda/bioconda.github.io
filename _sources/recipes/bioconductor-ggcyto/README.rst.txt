@@ -23,7 +23,7 @@ bioconductor-ggcyto
 
    |downloads_bioconductor-ggcyto| |docker_bioconductor-ggcyto|
 
-   :versions: 1.10.0-0, 1.8.2-0, 1.6.0-0, 1.4.1-0, 1.4.0-0
+   :versions: 1.10.2-0, 1.10.0-0, 1.8.2-0, 1.6.0-0, 1.4.1-0, 1.4.0-0
    
    :depends bioconductor-flowcore: >=1.48.0,<1.49.0
    :depends bioconductor-flowworkspace: >=3.30.0,<3.31.0

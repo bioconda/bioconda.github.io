@@ -22,7 +22,7 @@ r-phylosignal
 
    |downloads_r-phylosignal| |docker_r-phylosignal|
 
-   :versions: 1.2-3, 1.2-2, 1.2-1, 1.2-0
+   :versions: 1.2.1-0, 1.2-3, 1.2-2, 1.2-1, 1.2-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

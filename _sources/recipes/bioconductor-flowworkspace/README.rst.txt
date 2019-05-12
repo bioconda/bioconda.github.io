@@ -23,7 +23,7 @@ bioconductor-flowworkspace
 
    |downloads_bioconductor-flowworkspace| |docker_bioconductor-flowworkspace|
 
-   :versions: 3.30.1-0, 3.28.2-0, 3.26.2-0, 3.24.4-0
+   :versions: 3.30.2-0, 3.30.1-0, 3.28.2-0, 3.26.2-0, 3.24.4-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0

@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;cluster-picker&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;clusterpicker&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -103,17 +103,17 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="cluster-picker">
+  <div class="section" id="clusterpicker">
 <dl class="recipe">
 <dt id="recipe-cluster-picker">
 <em class="property">recipe </em><code class="descname">cluster-picker</code><a class="headerlink" href="#recipe-cluster-picker" title="Permalink to this definition">¶</a></dt>
-<dd><p>The Cluster Picker identifies clusters in newick-formatted trees containing thousands of sequences within a few minutes. Cut-offs for within cluster genetic distance and bootstrap support are selected by the user.</p>
+<dd><p>The Cluster Picker identifies clusters in newick-formatted trees containing thousands of sequences within a few minutes.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
 <dd class="field-odd"><p><a class="reference external" href="http://hiv.bio.ed.ac.uk/software.html">http://hiv.bio.ed.ac.uk/software.html</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>GPLv3</p>
+<dd class="field-even"><p>GPL / GPLv3</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cluster-picker">cluster-picker</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cluster-picker/meta.yaml">meta.yaml</a></p>
@@ -122,16 +122,16 @@
 </dd></dl>
 
 <dl class="package">
-<dt id="package-cluster-picker">
-<em class="property">package </em><code class="descname">cluster-picker</code><a class="headerlink" href="#package-cluster-picker" title="Permalink to this definition">¶</a></dt>
-<dd><p><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/cluster-picker.svg?style=flat" /> <a class="reference external" href="https://quay.io/repository/biocontainers/cluster-picker"><img alt="docker_cluster-picker" src="https://quay.io/repository/biocontainers/cluster-picker/status" /></a></p>
+<dt id="package-clusterpicker">
+<em class="property">package </em><code class="descname">clusterpicker</code><a class="headerlink" href="#package-clusterpicker" title="Permalink to this definition">¶</a></dt>
+<dd><p><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/clusterpicker.svg?style=flat" /> <a class="reference external" href="https://quay.io/repository/biocontainers/clusterpicker"><img alt="docker_clusterpicker" src="https://quay.io/repository/biocontainers/clusterpicker/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>1.2.3-1, 1.2.3-0</p>
+<dd class="field-odd"><p>1.2.3-2</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><strong>java-jdk</strong></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/openjdk-feedstock"><strong>openjdk</strong></a> &gt;=6</p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
@@ -141,24 +141,24 @@
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">cluster</span><span class="o">-</span><span class="n">picker</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">clusterpicker</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">cluster</span><span class="o">-</span><span class="n">picker</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">clusterpicker</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">cluster</span><span class="o">-</span><span class="n">picker</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">clusterpicker</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/cluster-picker?tab=tags">cluster-picker/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/clusterpicker?tab=tags">clusterpicker/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/cluster-picker/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/cluster-picker/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/clusterpicker/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/clusterpicker/README.html)
 </pre></div>
 </div>
 </div>

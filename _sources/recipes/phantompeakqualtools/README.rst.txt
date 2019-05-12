@@ -23,10 +23,11 @@ phantompeakqualtools
 
    |downloads_phantompeakqualtools| |docker_phantompeakqualtools|
 
-   :versions: 1.2-0
+   :versions: 1.2-1, 1.2-0
    
    :depends bioconductor-rsamtools: 
    :depends boost: 
+   :depends gawk: 
    :depends r-base: >=3.1
    :depends r-bitops: 
    :depends r-catools: 

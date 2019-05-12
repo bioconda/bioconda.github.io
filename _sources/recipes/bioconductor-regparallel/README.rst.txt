@@ -22,8 +22,9 @@ bioconductor-regparallel
 
    |downloads_bioconductor-regparallel| |docker_bioconductor-regparallel|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-0
    
+   :depends curl: >=7.64.1,<8.0a0
    :depends r-arm: 
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-data.table: 
@@ -33,7 +34,6 @@ bioconductor-regparallel
    :depends r-mass: 
    :depends r-stringr: 
    :depends r-survival: 
-   :depends wget: 
    :requirements:
 
    .. rubric:: Installation

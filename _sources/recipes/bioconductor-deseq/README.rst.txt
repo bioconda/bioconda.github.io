@@ -23,7 +23,7 @@ bioconductor-deseq
 
    |downloads_bioconductor-deseq| |docker_bioconductor-deseq|
 
-   :versions: 1.34.0-0, 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.24.0-0, 1.22.1-0
+   :versions: 1.34.1-0, 1.34.0-0, 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.24.0-0, 1.22.1-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0

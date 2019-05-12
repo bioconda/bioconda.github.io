@@ -22,7 +22,7 @@ perl-module-corelist
 
    |downloads_perl-module-corelist| |docker_perl-module-corelist|
 
-   :versions: 5.20181218-0, 5.20181130-0, 5.20180820-0, 5.20180626-0, 5.20180120-1, 5.20180120-0
+   :versions: 5.20190420-0, 5.20181218-0, 5.20181130-0, 5.20180820-0, 5.20180626-0, 5.20180120-1, 5.20180120-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-version: 

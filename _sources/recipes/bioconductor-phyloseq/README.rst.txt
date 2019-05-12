@@ -23,7 +23,7 @@ bioconductor-phyloseq
 
    |downloads_bioconductor-phyloseq| |docker_bioconductor-phyloseq|
 
-   :versions: 1.26.0-0, 1.24.2-0, 1.22.3-0, 1.20.0-1, 1.20.0-0, 1.19.1-0, 1.16.2-1, 1.14.0-0
+   :versions: 1.26.1-0, 1.26.0-0, 1.24.2-0, 1.22.3-0, 1.20.0-1, 1.20.0-0, 1.19.1-0, 1.16.2-1, 1.14.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0

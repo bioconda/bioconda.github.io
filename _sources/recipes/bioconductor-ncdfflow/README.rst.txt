@@ -23,7 +23,7 @@ bioconductor-ncdfflow
 
    |downloads_bioconductor-ncdfflow| |docker_bioconductor-ncdfflow|
 
-   :versions: 2.28.0-0, 2.26.0-0, 2.24.0-1, 2.24.0-0, 2.22.2-0, 2.22.0-0
+   :versions: 2.28.1-0, 2.28.0-0, 2.26.0-0, 2.24.0-1, 2.24.0-0, 2.22.2-0, 2.22.0-0
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0

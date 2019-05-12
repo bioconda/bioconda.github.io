@@ -23,7 +23,7 @@ bioconductor-flowai
 
    |downloads_bioconductor-flowai| |docker_bioconductor-flowai|
 
-   :versions: 1.12.1-0, 1.10.1-0, 1.6.2-0, 1.4.4-0, 1.2.9-0, 1.2.8-0
+   :versions: 1.12.7-0, 1.12.1-0, 1.10.1-0, 1.6.2-0, 1.4.4-0, 1.2.9-0, 1.2.8-0
    
    :depends bioconductor-flowcore: >=1.48.0,<1.49.0
    :depends r-base: >=3.5.1,<3.5.2.0a0

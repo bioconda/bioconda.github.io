@@ -23,7 +23,7 @@ bioconductor-msnbase
 
    |downloads_bioconductor-msnbase| |docker_bioconductor-msnbase|
 
-   :versions: 2.8.2-0, 2.4.0-1, 2.4.0-0, 2.2.0-0
+   :versions: 2.8.3-0, 2.8.2-0, 2.4.0-1, 2.4.0-0, 2.2.0-0
    
    :depends bioconductor-affy: >=1.60.0,<1.61.0
    :depends bioconductor-biobase: >=2.42.0,<2.43.0

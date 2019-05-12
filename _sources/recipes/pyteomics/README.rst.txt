@@ -23,7 +23,7 @@ pyteomics
 
    |downloads_pyteomics| |docker_pyteomics|
 
-   :versions: 4.1-0, 4.0.1-0, 3.5.1-2, 3.5.1-0, 3.4-1, 3.4-0
+   :versions: 4.1.1-0, 4.1-0, 4.0.1-0, 3.5.1-2, 3.5.1-0, 3.4-1, 3.4-0
    
    :depends lxml: 
    :depends matplotlib: 

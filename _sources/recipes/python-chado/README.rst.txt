@@ -9,10 +9,10 @@ python-chado
 .. conda:recipe:: python-chado
    :replaces_section_title:
 
-   Chado library
+   A Python library for interacting with Chado database.
 
    :homepage: https://github.com/galaxy-genome-annotation/python-chado
-   :license: MIT / MIT License
+   :license: MIT / MIT
    :recipe: /`python-chado <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-chado>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-chado/meta.yaml>`_
 
    
@@ -22,15 +22,16 @@ python-chado
 
    |downloads_python-chado| |docker_python-chado|
 
-   :versions: 2.2.5-0, 2.2.3-0, 2.2.2-0, 2.2.1-0, 2.1.5-0, 2.1.4-0, 2.1.3-1, 2.1.2-1, 2.1.1-0, 2.1-0, 2.0.1-0, 2.0-0, 1.2-0
+   :versions: 2.2.6-0, 2.2.5-0, 2.2.3-0, 2.2.2-0, 2.2.1-0, 2.1.5-0, 2.1.4-0, 2.1.3-1, 2.1.2-1, 2.1.1-0, 2.1-0, 2.0.1-0, 2.0-0, 1.2-0
    
-   :depends bcbiogff: >=0.6.4
+   :depends bcbio-gff: 0.6.4
    :depends biopython: 
    :depends click: 
    :depends future: 
    :depends psycopg2: 
    :depends python: 
    :depends pyyaml: 
+   :depends setuptools: 
    :depends sqlalchemy: 
    :depends wrapt: 
    :requirements:

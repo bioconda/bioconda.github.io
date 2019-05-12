@@ -23,7 +23,7 @@ bioconductor-sva
 
    |downloads_bioconductor-sva| |docker_bioconductor-sva|
 
-   :versions: 3.30.0-0, 3.28.0-0, 3.26.0-0, 3.24.4-0, 3.20.0-0, 3.18.0-0, 3.15.0-0
+   :versions: 3.30.1-0, 3.30.0-0, 3.28.0-0, 3.26.0-0, 3.24.4-0, 3.20.0-0, 3.18.0-0, 3.15.0-0
    
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
    :depends bioconductor-genefilter: >=1.64.0,<1.65.0

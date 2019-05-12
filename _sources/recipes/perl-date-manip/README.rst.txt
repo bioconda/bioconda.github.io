@@ -22,7 +22,7 @@ perl-date-manip
 
    |downloads_perl-date-manip| |docker_perl-date-manip|
 
-   :versions: 6.75-0, 6.73-0, 6.72-0, 6.57-1, 6.57-0
+   :versions: 6.76-0, 6.75-0, 6.73-0, 6.72-0, 6.57-1, 6.57-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-carp: 

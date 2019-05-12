@@ -22,7 +22,7 @@ fast5-research
 
    |downloads_fast5-research| |docker_fast5-research|
 
-   :versions: 1.2.15-0, 1.2.11-0, 1.2.10-0, 1.2.8-0, 1.0.9-1, 1.0.9-0
+   :versions: 1.2.17-0, 1.2.15-0, 1.2.11-0, 1.2.10-0, 1.2.8-0, 1.0.9-1, 1.0.9-0
    
    :depends h5py: <2.9.0
    :depends hdf5: >=1.10.4,<1.10.5.0a0

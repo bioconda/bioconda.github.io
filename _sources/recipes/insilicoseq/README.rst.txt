@@ -22,9 +22,16 @@ insilicoseq
 
    |downloads_insilicoseq| |docker_insilicoseq|
 
-   :versions: 1.3.5-0
+   :versions: 1.3.5-1, 1.3.5-0
    
+   :depends biopython: 
+   :depends future: 
+   :depends joblib: 
+   :depends numpy: 1.16.2.*
+   :depends pysam: >=0.15.1
    :depends python: 
+   :depends requests: 
+   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation

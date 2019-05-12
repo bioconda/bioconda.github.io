@@ -22,7 +22,7 @@ perl-test-simple
 
    |downloads_perl-test-simple| |docker_perl-test-simple|
 
-   :versions: 1.302156-0, 1.302141-0, 1.302140-0, 1.302075-1, 1.302075-0, 1.302052-1, 1.302052-0
+   :versions: 1.302164-0, 1.302156-0, 1.302141-0, 1.302140-0, 1.302075-1, 1.302075-0, 1.302052-1, 1.302052-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-file-temp: 

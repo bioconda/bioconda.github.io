@@ -22,7 +22,7 @@ validators
 
    |downloads_validators| |docker_validators|
 
-   :versions: 0.12.5-0, 0.12.4-0, 0.12.3-0, 0.12.2-0, 0.12.1-2, 0.12.1-0, 0.10-0
+   :versions: 0.12.6-0, 0.12.5-0, 0.12.4-0, 0.12.3-0, 0.12.2-0, 0.12.1-2, 0.12.1-0, 0.10-0
    
    :depends decorator: >=3.4.0
    :depends python: 

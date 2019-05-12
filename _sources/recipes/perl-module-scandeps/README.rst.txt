@@ -22,7 +22,7 @@ perl-module-scandeps
 
    |downloads_perl-module-scandeps| |docker_perl-module-scandeps|
 
-   :versions: 1.26-1, 1.26-0, 1.25-0, 1.23-1, 1.23-0
+   :versions: 1.27-0, 1.26-1, 1.26-0, 1.25-0, 1.23-1, 1.23-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-file-temp: 
