@@ -45,6 +45,7 @@ perl-digest-crc32
 
 
 .. |downloads_perl-digest-crc32| image:: https://img.shields.io/conda/dn/bioconda/perl-digest-crc32.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-digest-crc32
    :alt:   (downloads)
 .. |docker_perl-digest-crc32| image:: https://quay.io/repository/biocontainers/perl-digest-crc32/status
    :target: https://quay.io/repository/biocontainers/perl-digest-crc32

@@ -47,6 +47,7 @@ chromhmm
 
 
 .. |downloads_chromhmm| image:: https://img.shields.io/conda/dn/bioconda/chromhmm.svg?style=flat
+   :target: https://anaconda.org/bioconda/chromhmm
    :alt:   (downloads)
 .. |docker_chromhmm| image:: https://quay.io/repository/biocontainers/chromhmm/status
    :target: https://quay.io/repository/biocontainers/chromhmm

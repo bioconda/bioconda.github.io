@@ -48,6 +48,7 @@ squid
 
 
 .. |downloads_squid| image:: https://img.shields.io/conda/dn/bioconda/squid.svg?style=flat
+   :target: https://anaconda.org/bioconda/squid
    :alt:   (downloads)
 .. |docker_squid| image:: https://quay.io/repository/biocontainers/squid/status
    :target: https://quay.io/repository/biocontainers/squid

@@ -50,6 +50,7 @@ bcftools-snvphyl-plugin
 
 
 .. |downloads_bcftools-snvphyl-plugin| image:: https://img.shields.io/conda/dn/bioconda/bcftools-snvphyl-plugin.svg?style=flat
+   :target: https://anaconda.org/bioconda/bcftools-snvphyl-plugin
    :alt:   (downloads)
 .. |docker_bcftools-snvphyl-plugin| image:: https://quay.io/repository/biocontainers/bcftools-snvphyl-plugin/status
    :target: https://quay.io/repository/biocontainers/bcftools-snvphyl-plugin

@@ -45,6 +45,7 @@ perl-file-sort
 
 
 .. |downloads_perl-file-sort| image:: https://img.shields.io/conda/dn/bioconda/perl-file-sort.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-sort
    :alt:   (downloads)
 .. |docker_perl-file-sort| image:: https://quay.io/repository/biocontainers/perl-file-sort/status
    :target: https://quay.io/repository/biocontainers/perl-file-sort

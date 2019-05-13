@@ -50,6 +50,7 @@ ucsc-maftobigmaf
 
 
 .. |downloads_ucsc-maftobigmaf| image:: https://img.shields.io/conda/dn/bioconda/ucsc-maftobigmaf.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-maftobigmaf
    :alt:   (downloads)
 .. |docker_ucsc-maftobigmaf| image:: https://quay.io/repository/biocontainers/ucsc-maftobigmaf/status
    :target: https://quay.io/repository/biocontainers/ucsc-maftobigmaf

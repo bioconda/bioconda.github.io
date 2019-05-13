@@ -49,6 +49,7 @@ perl-perl4-corelibs
 
 
 .. |downloads_perl-perl4-corelibs| image:: https://img.shields.io/conda/dn/bioconda/perl-perl4-corelibs.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-perl4-corelibs
    :alt:   (downloads)
 .. |docker_perl-perl4-corelibs| image:: https://quay.io/repository/biocontainers/perl-perl4-corelibs/status
    :target: https://quay.io/repository/biocontainers/perl-perl4-corelibs

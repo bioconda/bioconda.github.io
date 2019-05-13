@@ -49,6 +49,7 @@ dia_umpire
 
 
 .. |downloads_dia_umpire| image:: https://img.shields.io/conda/dn/bioconda/dia_umpire.svg?style=flat
+   :target: https://anaconda.org/bioconda/dia_umpire
    :alt:   (downloads)
 .. |docker_dia_umpire| image:: https://quay.io/repository/biocontainers/dia_umpire/status
    :target: https://quay.io/repository/biocontainers/dia_umpire

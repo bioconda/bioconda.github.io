@@ -48,6 +48,7 @@ perl-xml-semanticdiff
 
 
 .. |downloads_perl-xml-semanticdiff| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-semanticdiff.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-xml-semanticdiff
    :alt:   (downloads)
 .. |docker_perl-xml-semanticdiff| image:: https://quay.io/repository/biocontainers/perl-xml-semanticdiff/status
    :target: https://quay.io/repository/biocontainers/perl-xml-semanticdiff

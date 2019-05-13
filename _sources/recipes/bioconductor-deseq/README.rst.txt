@@ -55,6 +55,7 @@ bioconductor-deseq
 
 
 .. |downloads_bioconductor-deseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-deseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-deseq
    :alt:   (downloads)
 .. |docker_bioconductor-deseq| image:: https://quay.io/repository/biocontainers/bioconductor-deseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-deseq

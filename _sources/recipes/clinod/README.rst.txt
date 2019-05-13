@@ -47,6 +47,7 @@ clinod
 
 
 .. |downloads_clinod| image:: https://img.shields.io/conda/dn/bioconda/clinod.svg?style=flat
+   :target: https://anaconda.org/bioconda/clinod
    :alt:   (downloads)
 .. |docker_clinod| image:: https://quay.io/repository/biocontainers/clinod/status
    :target: https://quay.io/repository/biocontainers/clinod

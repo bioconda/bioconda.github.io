@@ -55,6 +55,7 @@ scanindel
 
 
 .. |downloads_scanindel| image:: https://img.shields.io/conda/dn/bioconda/scanindel.svg?style=flat
+   :target: https://anaconda.org/bioconda/scanindel
    :alt:   (downloads)
 .. |docker_scanindel| image:: https://quay.io/repository/biocontainers/scanindel/status
    :target: https://quay.io/repository/biocontainers/scanindel

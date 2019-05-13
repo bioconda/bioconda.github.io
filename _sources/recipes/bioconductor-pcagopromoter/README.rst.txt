@@ -49,6 +49,7 @@ bioconductor-pcagopromoter
 
 
 .. |downloads_bioconductor-pcagopromoter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pcagopromoter.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pcagopromoter
    :alt:   (downloads)
 .. |docker_bioconductor-pcagopromoter| image:: https://quay.io/repository/biocontainers/bioconductor-pcagopromoter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pcagopromoter

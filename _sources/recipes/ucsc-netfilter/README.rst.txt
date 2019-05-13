@@ -50,6 +50,7 @@ ucsc-netfilter
 
 
 .. |downloads_ucsc-netfilter| image:: https://img.shields.io/conda/dn/bioconda/ucsc-netfilter.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-netfilter
    :alt:   (downloads)
 .. |docker_ucsc-netfilter| image:: https://quay.io/repository/biocontainers/ucsc-netfilter/status
    :target: https://quay.io/repository/biocontainers/ucsc-netfilter

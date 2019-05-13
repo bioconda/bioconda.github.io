@@ -51,6 +51,7 @@ r-asics
 
 
 .. |downloads_r-asics| image:: https://img.shields.io/conda/dn/bioconda/r-asics.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-asics
    :alt:   (downloads)
 .. |docker_r-asics| image:: https://quay.io/repository/biocontainers/r-asics/status
    :target: https://quay.io/repository/biocontainers/r-asics

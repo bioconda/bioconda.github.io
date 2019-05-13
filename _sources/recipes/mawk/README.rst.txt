@@ -45,6 +45,7 @@ mawk
 
 
 .. |downloads_mawk| image:: https://img.shields.io/conda/dn/bioconda/mawk.svg?style=flat
+   :target: https://anaconda.org/bioconda/mawk
    :alt:   (downloads)
 .. |docker_mawk| image:: https://quay.io/repository/biocontainers/mawk/status
    :target: https://quay.io/repository/biocontainers/mawk

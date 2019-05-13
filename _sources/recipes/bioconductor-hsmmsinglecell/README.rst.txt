@@ -46,6 +46,7 @@ bioconductor-hsmmsinglecell
 
 
 .. |downloads_bioconductor-hsmmsinglecell| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hsmmsinglecell.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hsmmsinglecell
    :alt:   (downloads)
 .. |docker_bioconductor-hsmmsinglecell| image:: https://quay.io/repository/biocontainers/bioconductor-hsmmsinglecell/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hsmmsinglecell

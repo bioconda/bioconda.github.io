@@ -51,6 +51,7 @@ bioconductor-emdomics
 
 
 .. |downloads_bioconductor-emdomics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-emdomics.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-emdomics
    :alt:   (downloads)
 .. |docker_bioconductor-emdomics| image:: https://quay.io/repository/biocontainers/bioconductor-emdomics/status
    :target: https://quay.io/repository/biocontainers/bioconductor-emdomics

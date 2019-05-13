@@ -48,6 +48,7 @@ srprism
 
 
 .. |downloads_srprism| image:: https://img.shields.io/conda/dn/bioconda/srprism.svg?style=flat
+   :target: https://anaconda.org/bioconda/srprism
    :alt:   (downloads)
 .. |docker_srprism| image:: https://quay.io/repository/biocontainers/srprism/status
    :target: https://quay.io/repository/biocontainers/srprism

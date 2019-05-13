@@ -52,6 +52,7 @@ bioconductor-bbcanalyzer
 
 
 .. |downloads_bioconductor-bbcanalyzer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bbcanalyzer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bbcanalyzer
    :alt:   (downloads)
 .. |docker_bioconductor-bbcanalyzer| image:: https://quay.io/repository/biocontainers/bioconductor-bbcanalyzer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bbcanalyzer

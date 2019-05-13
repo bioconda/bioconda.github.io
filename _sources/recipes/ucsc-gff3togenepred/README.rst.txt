@@ -50,6 +50,7 @@ ucsc-gff3togenepred
 
 
 .. |downloads_ucsc-gff3togenepred| image:: https://img.shields.io/conda/dn/bioconda/ucsc-gff3togenepred.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-gff3togenepred
    :alt:   (downloads)
 .. |docker_ucsc-gff3togenepred| image:: https://quay.io/repository/biocontainers/ucsc-gff3togenepred/status
    :target: https://quay.io/repository/biocontainers/ucsc-gff3togenepred

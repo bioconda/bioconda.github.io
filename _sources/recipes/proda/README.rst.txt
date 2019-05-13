@@ -47,6 +47,7 @@ proda
 
 
 .. |downloads_proda| image:: https://img.shields.io/conda/dn/bioconda/proda.svg?style=flat
+   :target: https://anaconda.org/bioconda/proda
    :alt:   (downloads)
 .. |docker_proda| image:: https://quay.io/repository/biocontainers/proda/status
    :target: https://quay.io/repository/biocontainers/proda

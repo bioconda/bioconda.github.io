@@ -47,6 +47,7 @@ perl-bio-tools-run-alignment-tcoffee
 
 
 .. |downloads_perl-bio-tools-run-alignment-tcoffee| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-tools-run-alignment-tcoffee.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bio-tools-run-alignment-tcoffee
    :alt:   (downloads)
 .. |docker_perl-bio-tools-run-alignment-tcoffee| image:: https://quay.io/repository/biocontainers/perl-bio-tools-run-alignment-tcoffee/status
    :target: https://quay.io/repository/biocontainers/perl-bio-tools-run-alignment-tcoffee

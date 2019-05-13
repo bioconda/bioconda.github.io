@@ -47,6 +47,7 @@ gff3toembl
 
 
 .. |downloads_gff3toembl| image:: https://img.shields.io/conda/dn/bioconda/gff3toembl.svg?style=flat
+   :target: https://anaconda.org/bioconda/gff3toembl
    :alt:   (downloads)
 .. |docker_gff3toembl| image:: https://quay.io/repository/biocontainers/gff3toembl/status
    :target: https://quay.io/repository/biocontainers/gff3toembl

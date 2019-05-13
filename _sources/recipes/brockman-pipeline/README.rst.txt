@@ -56,6 +56,7 @@ brockman-pipeline
 
 
 .. |downloads_brockman-pipeline| image:: https://img.shields.io/conda/dn/bioconda/brockman-pipeline.svg?style=flat
+   :target: https://anaconda.org/bioconda/brockman-pipeline
    :alt:   (downloads)
 .. |docker_brockman-pipeline| image:: https://quay.io/repository/biocontainers/brockman-pipeline/status
    :target: https://quay.io/repository/biocontainers/brockman-pipeline

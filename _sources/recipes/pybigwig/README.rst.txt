@@ -49,6 +49,7 @@ pybigwig
 
 
 .. |downloads_pybigwig| image:: https://img.shields.io/conda/dn/bioconda/pybigwig.svg?style=flat
+   :target: https://anaconda.org/bioconda/pybigwig
    :alt:   (downloads)
 .. |docker_pybigwig| image:: https://quay.io/repository/biocontainers/pybigwig/status
    :target: https://quay.io/repository/biocontainers/pybigwig

@@ -48,6 +48,7 @@ r-ngsplotdb-hg38
 
 
 .. |downloads_r-ngsplotdb-hg38| image:: https://img.shields.io/conda/dn/bioconda/r-ngsplotdb-hg38.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-ngsplotdb-hg38
    :alt:   (downloads)
 .. |docker_r-ngsplotdb-hg38| image:: https://quay.io/repository/biocontainers/r-ngsplotdb-hg38/status
    :target: https://quay.io/repository/biocontainers/r-ngsplotdb-hg38

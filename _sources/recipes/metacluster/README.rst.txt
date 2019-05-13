@@ -49,6 +49,7 @@ metacluster
 
 
 .. |downloads_metacluster| image:: https://img.shields.io/conda/dn/bioconda/metacluster.svg?style=flat
+   :target: https://anaconda.org/bioconda/metacluster
    :alt:   (downloads)
 .. |docker_metacluster| image:: https://quay.io/repository/biocontainers/metacluster/status
    :target: https://quay.io/repository/biocontainers/metacluster

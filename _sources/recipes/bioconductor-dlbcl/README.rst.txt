@@ -47,6 +47,7 @@ bioconductor-dlbcl
 
 
 .. |downloads_bioconductor-dlbcl| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dlbcl.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dlbcl
    :alt:   (downloads)
 .. |docker_bioconductor-dlbcl| image:: https://quay.io/repository/biocontainers/bioconductor-dlbcl/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dlbcl

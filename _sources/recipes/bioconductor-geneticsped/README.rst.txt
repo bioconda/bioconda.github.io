@@ -51,6 +51,7 @@ bioconductor-geneticsped
 
 
 .. |downloads_bioconductor-geneticsped| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geneticsped.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-geneticsped
    :alt:   (downloads)
 .. |docker_bioconductor-geneticsped| image:: https://quay.io/repository/biocontainers/bioconductor-geneticsped/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geneticsped

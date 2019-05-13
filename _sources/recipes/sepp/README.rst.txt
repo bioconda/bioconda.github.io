@@ -49,6 +49,7 @@ sepp
 
 
 .. |downloads_sepp| image:: https://img.shields.io/conda/dn/bioconda/sepp.svg?style=flat
+   :target: https://anaconda.org/bioconda/sepp
    :alt:   (downloads)
 .. |docker_sepp| image:: https://quay.io/repository/biocontainers/sepp/status
    :target: https://quay.io/repository/biocontainers/sepp

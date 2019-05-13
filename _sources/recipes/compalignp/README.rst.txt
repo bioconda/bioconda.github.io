@@ -45,6 +45,7 @@ compalignp
 
 
 .. |downloads_compalignp| image:: https://img.shields.io/conda/dn/bioconda/compalignp.svg?style=flat
+   :target: https://anaconda.org/bioconda/compalignp
    :alt:   (downloads)
 .. |docker_compalignp| image:: https://quay.io/repository/biocontainers/compalignp/status
    :target: https://quay.io/repository/biocontainers/compalignp

@@ -47,6 +47,7 @@ bioconductor-garfield
 
 
 .. |downloads_bioconductor-garfield| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-garfield.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-garfield
    :alt:   (downloads)
 .. |docker_bioconductor-garfield| image:: https://quay.io/repository/biocontainers/bioconductor-garfield/status
    :target: https://quay.io/repository/biocontainers/bioconductor-garfield

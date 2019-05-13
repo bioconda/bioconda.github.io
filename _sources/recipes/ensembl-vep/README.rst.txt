@@ -57,6 +57,7 @@ ensembl-vep
 
 
 .. |downloads_ensembl-vep| image:: https://img.shields.io/conda/dn/bioconda/ensembl-vep.svg?style=flat
+   :target: https://anaconda.org/bioconda/ensembl-vep
    :alt:   (downloads)
 .. |docker_ensembl-vep| image:: https://quay.io/repository/biocontainers/ensembl-vep/status
    :target: https://quay.io/repository/biocontainers/ensembl-vep

@@ -47,6 +47,7 @@ perl-padwalker
 
 
 .. |downloads_perl-padwalker| image:: https://img.shields.io/conda/dn/bioconda/perl-padwalker.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-padwalker
    :alt:   (downloads)
 .. |docker_perl-padwalker| image:: https://quay.io/repository/biocontainers/perl-padwalker/status
    :target: https://quay.io/repository/biocontainers/perl-padwalker

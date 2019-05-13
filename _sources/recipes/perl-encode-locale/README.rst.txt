@@ -46,6 +46,7 @@ perl-encode-locale
 
 
 .. |downloads_perl-encode-locale| image:: https://img.shields.io/conda/dn/bioconda/perl-encode-locale.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-encode-locale
    :alt:   (downloads)
 .. |docker_perl-encode-locale| image:: https://quay.io/repository/biocontainers/perl-encode-locale/status
    :target: https://quay.io/repository/biocontainers/perl-encode-locale

@@ -52,6 +52,7 @@ bioconductor-codex
 
 
 .. |downloads_bioconductor-codex| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-codex.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-codex
    :alt:   (downloads)
 .. |docker_bioconductor-codex| image:: https://quay.io/repository/biocontainers/bioconductor-codex/status
    :target: https://quay.io/repository/biocontainers/bioconductor-codex

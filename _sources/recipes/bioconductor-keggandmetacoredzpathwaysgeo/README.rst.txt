@@ -48,6 +48,7 @@ bioconductor-keggandmetacoredzpathwaysgeo
 
 
 .. |downloads_bioconductor-keggandmetacoredzpathwaysgeo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-keggandmetacoredzpathwaysgeo.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-keggandmetacoredzpathwaysgeo
    :alt:   (downloads)
 .. |docker_bioconductor-keggandmetacoredzpathwaysgeo| image:: https://quay.io/repository/biocontainers/bioconductor-keggandmetacoredzpathwaysgeo/status
    :target: https://quay.io/repository/biocontainers/bioconductor-keggandmetacoredzpathwaysgeo

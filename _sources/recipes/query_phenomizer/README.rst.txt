@@ -48,6 +48,7 @@ query_phenomizer
 
 
 .. |downloads_query_phenomizer| image:: https://img.shields.io/conda/dn/bioconda/query_phenomizer.svg?style=flat
+   :target: https://anaconda.org/bioconda/query_phenomizer
    :alt:   (downloads)
 .. |docker_query_phenomizer| image:: https://quay.io/repository/biocontainers/query_phenomizer/status
    :target: https://quay.io/repository/biocontainers/query_phenomizer

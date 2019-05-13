@@ -47,6 +47,7 @@ perl-file-sharedir-install
 
 
 .. |downloads_perl-file-sharedir-install| image:: https://img.shields.io/conda/dn/bioconda/perl-file-sharedir-install.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-sharedir-install
    :alt:   (downloads)
 .. |docker_perl-file-sharedir-install| image:: https://quay.io/repository/biocontainers/perl-file-sharedir-install/status
    :target: https://quay.io/repository/biocontainers/perl-file-sharedir-install

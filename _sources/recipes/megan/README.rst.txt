@@ -46,6 +46,7 @@ megan
 
 
 .. |downloads_megan| image:: https://img.shields.io/conda/dn/bioconda/megan.svg?style=flat
+   :target: https://anaconda.org/bioconda/megan
    :alt:   (downloads)
 .. |docker_megan| image:: https://quay.io/repository/biocontainers/megan/status
    :target: https://quay.io/repository/biocontainers/megan

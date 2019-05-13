@@ -51,6 +51,7 @@ bioconductor-msgfgui
 
 
 .. |downloads_bioconductor-msgfgui| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-msgfgui.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-msgfgui
    :alt:   (downloads)
 .. |docker_bioconductor-msgfgui| image:: https://quay.io/repository/biocontainers/bioconductor-msgfgui/status
    :target: https://quay.io/repository/biocontainers/bioconductor-msgfgui

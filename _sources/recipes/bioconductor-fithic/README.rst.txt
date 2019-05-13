@@ -51,6 +51,7 @@ bioconductor-fithic
 
 
 .. |downloads_bioconductor-fithic| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fithic.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-fithic
    :alt:   (downloads)
 .. |docker_bioconductor-fithic| image:: https://quay.io/repository/biocontainers/bioconductor-fithic/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fithic

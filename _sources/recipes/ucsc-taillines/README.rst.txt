@@ -50,6 +50,7 @@ ucsc-taillines
 
 
 .. |downloads_ucsc-taillines| image:: https://img.shields.io/conda/dn/bioconda/ucsc-taillines.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-taillines
    :alt:   (downloads)
 .. |docker_ucsc-taillines| image:: https://quay.io/repository/biocontainers/ucsc-taillines/status
    :target: https://quay.io/repository/biocontainers/ucsc-taillines

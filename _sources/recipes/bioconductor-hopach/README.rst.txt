@@ -50,6 +50,7 @@ bioconductor-hopach
 
 
 .. |downloads_bioconductor-hopach| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hopach.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hopach
    :alt:   (downloads)
 .. |docker_bioconductor-hopach| image:: https://quay.io/repository/biocontainers/bioconductor-hopach/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hopach

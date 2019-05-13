@@ -45,6 +45,7 @@ structureharvester
 
 
 .. |downloads_structureharvester| image:: https://img.shields.io/conda/dn/bioconda/structureharvester.svg?style=flat
+   :target: https://anaconda.org/bioconda/structureharvester
    :alt:   (downloads)
 .. |docker_structureharvester| image:: https://quay.io/repository/biocontainers/structureharvester/status
    :target: https://quay.io/repository/biocontainers/structureharvester

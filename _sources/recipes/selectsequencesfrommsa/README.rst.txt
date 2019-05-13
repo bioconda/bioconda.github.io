@@ -47,6 +47,7 @@ selectsequencesfrommsa
 
 
 .. |downloads_selectsequencesfrommsa| image:: https://img.shields.io/conda/dn/bioconda/selectsequencesfrommsa.svg?style=flat
+   :target: https://anaconda.org/bioconda/selectsequencesfrommsa
    :alt:   (downloads)
 .. |docker_selectsequencesfrommsa| image:: https://quay.io/repository/biocontainers/selectsequencesfrommsa/status
    :target: https://quay.io/repository/biocontainers/selectsequencesfrommsa

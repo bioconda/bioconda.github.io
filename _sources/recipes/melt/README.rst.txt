@@ -45,6 +45,7 @@ melt
 
 
 .. |downloads_melt| image:: https://img.shields.io/conda/dn/bioconda/melt.svg?style=flat
+   :target: https://anaconda.org/bioconda/melt
    :alt:   (downloads)
 .. |docker_melt| image:: https://quay.io/repository/biocontainers/melt/status
    :target: https://quay.io/repository/biocontainers/melt

@@ -46,6 +46,7 @@ bioconductor-meebodata
 
 
 .. |downloads_bioconductor-meebodata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-meebodata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-meebodata
    :alt:   (downloads)
 .. |docker_bioconductor-meebodata| image:: https://quay.io/repository/biocontainers/bioconductor-meebodata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-meebodata

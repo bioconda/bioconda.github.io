@@ -49,6 +49,7 @@ bioconductor-splicegear
 
 
 .. |downloads_bioconductor-splicegear| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-splicegear.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-splicegear
    :alt:   (downloads)
 .. |docker_bioconductor-splicegear| image:: https://quay.io/repository/biocontainers/bioconductor-splicegear/status
    :target: https://quay.io/repository/biocontainers/bioconductor-splicegear

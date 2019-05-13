@@ -60,6 +60,7 @@ poppunk
 
 
 .. |downloads_poppunk| image:: https://img.shields.io/conda/dn/bioconda/poppunk.svg?style=flat
+   :target: https://anaconda.org/bioconda/poppunk
    :alt:   (downloads)
 .. |docker_poppunk| image:: https://quay.io/repository/biocontainers/poppunk/status
    :target: https://quay.io/repository/biocontainers/poppunk

@@ -46,6 +46,7 @@ vargeno
 
 
 .. |downloads_vargeno| image:: https://img.shields.io/conda/dn/bioconda/vargeno.svg?style=flat
+   :target: https://anaconda.org/bioconda/vargeno
    :alt:   (downloads)
 .. |docker_vargeno| image:: https://quay.io/repository/biocontainers/vargeno/status
    :target: https://quay.io/repository/biocontainers/vargeno

@@ -47,6 +47,7 @@ bioconductor-dualks
 
 
 .. |downloads_bioconductor-dualks| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dualks.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dualks
    :alt:   (downloads)
 .. |docker_bioconductor-dualks| image:: https://quay.io/repository/biocontainers/bioconductor-dualks/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dualks

@@ -47,6 +47,7 @@ msaboot
 
 
 .. |downloads_msaboot| image:: https://img.shields.io/conda/dn/bioconda/msaboot.svg?style=flat
+   :target: https://anaconda.org/bioconda/msaboot
    :alt:   (downloads)
 .. |docker_msaboot| image:: https://quay.io/repository/biocontainers/msaboot/status
    :target: https://quay.io/repository/biocontainers/msaboot

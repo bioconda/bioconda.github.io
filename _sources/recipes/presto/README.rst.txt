@@ -52,6 +52,7 @@ presto
 
 
 .. |downloads_presto| image:: https://img.shields.io/conda/dn/bioconda/presto.svg?style=flat
+   :target: https://anaconda.org/bioconda/presto
    :alt:   (downloads)
 .. |docker_presto| image:: https://quay.io/repository/biocontainers/presto/status
    :target: https://quay.io/repository/biocontainers/presto

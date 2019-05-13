@@ -46,6 +46,7 @@ bioconductor-geuvadistranscriptexpr
 
 
 .. |downloads_bioconductor-geuvadistranscriptexpr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geuvadistranscriptexpr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-geuvadistranscriptexpr
    :alt:   (downloads)
 .. |docker_bioconductor-geuvadistranscriptexpr| image:: https://quay.io/repository/biocontainers/bioconductor-geuvadistranscriptexpr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geuvadistranscriptexpr

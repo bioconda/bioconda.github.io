@@ -53,6 +53,7 @@ trinotate
 
 
 .. |downloads_trinotate| image:: https://img.shields.io/conda/dn/bioconda/trinotate.svg?style=flat
+   :target: https://anaconda.org/bioconda/trinotate
    :alt:   (downloads)
 .. |docker_trinotate| image:: https://quay.io/repository/biocontainers/trinotate/status
    :target: https://quay.io/repository/biocontainers/trinotate

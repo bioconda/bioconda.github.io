@@ -63,6 +63,7 @@ bioconductor-shortread
 
 
 .. |downloads_bioconductor-shortread| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-shortread.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-shortread
    :alt:   (downloads)
 .. |docker_bioconductor-shortread| image:: https://quay.io/repository/biocontainers/bioconductor-shortread/status
    :target: https://quay.io/repository/biocontainers/bioconductor-shortread

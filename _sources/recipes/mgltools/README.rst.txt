@@ -44,6 +44,7 @@ mgltools
 
 
 .. |downloads_mgltools| image:: https://img.shields.io/conda/dn/bioconda/mgltools.svg?style=flat
+   :target: https://anaconda.org/bioconda/mgltools
    :alt:   (downloads)
 .. |docker_mgltools| image:: https://quay.io/repository/biocontainers/mgltools/status
    :target: https://quay.io/repository/biocontainers/mgltools

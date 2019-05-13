@@ -49,6 +49,7 @@ r-facets
 
 
 .. |downloads_r-facets| image:: https://img.shields.io/conda/dn/bioconda/r-facets.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-facets
    :alt:   (downloads)
 .. |docker_r-facets| image:: https://quay.io/repository/biocontainers/r-facets/status
    :target: https://quay.io/repository/biocontainers/r-facets

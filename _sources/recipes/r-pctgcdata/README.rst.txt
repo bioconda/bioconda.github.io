@@ -45,6 +45,7 @@ r-pctgcdata
 
 
 .. |downloads_r-pctgcdata| image:: https://img.shields.io/conda/dn/bioconda/r-pctgcdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-pctgcdata
    :alt:   (downloads)
 .. |docker_r-pctgcdata| image:: https://quay.io/repository/biocontainers/r-pctgcdata/status
    :target: https://quay.io/repository/biocontainers/r-pctgcdata

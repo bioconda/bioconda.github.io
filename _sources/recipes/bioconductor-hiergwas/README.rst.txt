@@ -48,6 +48,7 @@ bioconductor-hiergwas
 
 
 .. |downloads_bioconductor-hiergwas| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hiergwas.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hiergwas
    :alt:   (downloads)
 .. |docker_bioconductor-hiergwas| image:: https://quay.io/repository/biocontainers/bioconductor-hiergwas/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hiergwas

@@ -48,6 +48,7 @@ bioconductor-mfuzz
 
 
 .. |downloads_bioconductor-mfuzz| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mfuzz.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mfuzz
    :alt:   (downloads)
 .. |docker_bioconductor-mfuzz| image:: https://quay.io/repository/biocontainers/bioconductor-mfuzz/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mfuzz

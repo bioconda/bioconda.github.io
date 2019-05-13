@@ -47,6 +47,7 @@ bioconductor-joda
 
 
 .. |downloads_bioconductor-joda| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-joda.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-joda
    :alt:   (downloads)
 .. |docker_bioconductor-joda| image:: https://quay.io/repository/biocontainers/bioconductor-joda/status
    :target: https://quay.io/repository/biocontainers/bioconductor-joda

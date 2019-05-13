@@ -61,6 +61,7 @@ pyseer
 
 
 .. |downloads_pyseer| image:: https://img.shields.io/conda/dn/bioconda/pyseer.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyseer
    :alt:   (downloads)
 .. |docker_pyseer| image:: https://quay.io/repository/biocontainers/pyseer/status
    :target: https://quay.io/repository/biocontainers/pyseer

@@ -50,6 +50,7 @@ perl-bio-featureio
 
 
 .. |downloads_perl-bio-featureio| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-featureio.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bio-featureio
    :alt:   (downloads)
 .. |docker_perl-bio-featureio| image:: https://quay.io/repository/biocontainers/perl-bio-featureio/status
    :target: https://quay.io/repository/biocontainers/perl-bio-featureio

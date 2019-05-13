@@ -44,6 +44,7 @@ bioconductor-snapcgh
 
 
 .. |downloads_bioconductor-snapcgh| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-snapcgh.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-snapcgh
    :alt:   (downloads)
 .. |docker_bioconductor-snapcgh| image:: https://quay.io/repository/biocontainers/bioconductor-snapcgh/status
    :target: https://quay.io/repository/biocontainers/bioconductor-snapcgh

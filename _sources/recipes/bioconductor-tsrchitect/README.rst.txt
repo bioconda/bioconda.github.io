@@ -57,6 +57,7 @@ bioconductor-tsrchitect
 
 
 .. |downloads_bioconductor-tsrchitect| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tsrchitect.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tsrchitect
    :alt:   (downloads)
 .. |docker_bioconductor-tsrchitect| image:: https://quay.io/repository/biocontainers/bioconductor-tsrchitect/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tsrchitect

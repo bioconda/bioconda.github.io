@@ -50,6 +50,7 @@ ucsc-tdbquery
 
 
 .. |downloads_ucsc-tdbquery| image:: https://img.shields.io/conda/dn/bioconda/ucsc-tdbquery.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-tdbquery
    :alt:   (downloads)
 .. |docker_ucsc-tdbquery| image:: https://quay.io/repository/biocontainers/ucsc-tdbquery/status
    :target: https://quay.io/repository/biocontainers/ucsc-tdbquery

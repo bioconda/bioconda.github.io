@@ -50,6 +50,7 @@ ucsc-farandomize
 
 
 .. |downloads_ucsc-farandomize| image:: https://img.shields.io/conda/dn/bioconda/ucsc-farandomize.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-farandomize
    :alt:   (downloads)
 .. |docker_ucsc-farandomize| image:: https://quay.io/repository/biocontainers/ucsc-farandomize/status
    :target: https://quay.io/repository/biocontainers/ucsc-farandomize

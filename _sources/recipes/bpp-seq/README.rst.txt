@@ -46,6 +46,7 @@ bpp-seq
 
 
 .. |downloads_bpp-seq| image:: https://img.shields.io/conda/dn/bioconda/bpp-seq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bpp-seq
    :alt:   (downloads)
 .. |docker_bpp-seq| image:: https://quay.io/repository/biocontainers/bpp-seq/status
    :target: https://quay.io/repository/biocontainers/bpp-seq

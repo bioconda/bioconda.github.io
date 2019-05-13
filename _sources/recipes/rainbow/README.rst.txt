@@ -46,6 +46,7 @@ rainbow
 
 
 .. |downloads_rainbow| image:: https://img.shields.io/conda/dn/bioconda/rainbow.svg?style=flat
+   :target: https://anaconda.org/bioconda/rainbow
    :alt:   (downloads)
 .. |docker_rainbow| image:: https://quay.io/repository/biocontainers/rainbow/status
    :target: https://quay.io/repository/biocontainers/rainbow

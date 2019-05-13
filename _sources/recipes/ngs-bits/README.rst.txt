@@ -52,6 +52,7 @@ ngs-bits
 
 
 .. |downloads_ngs-bits| image:: https://img.shields.io/conda/dn/bioconda/ngs-bits.svg?style=flat
+   :target: https://anaconda.org/bioconda/ngs-bits
    :alt:   (downloads)
 .. |docker_ngs-bits| image:: https://quay.io/repository/biocontainers/ngs-bits/status
    :target: https://quay.io/repository/biocontainers/ngs-bits

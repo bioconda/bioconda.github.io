@@ -46,6 +46,7 @@ askocli
 
 
 .. |downloads_askocli| image:: https://img.shields.io/conda/dn/bioconda/askocli.svg?style=flat
+   :target: https://anaconda.org/bioconda/askocli
    :alt:   (downloads)
 .. |docker_askocli| image:: https://quay.io/repository/biocontainers/askocli/status
    :target: https://quay.io/repository/biocontainers/askocli

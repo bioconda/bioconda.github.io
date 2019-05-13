@@ -49,6 +49,7 @@ sbpipe
 
 
 .. |downloads_sbpipe| image:: https://img.shields.io/conda/dn/bioconda/sbpipe.svg?style=flat
+   :target: https://anaconda.org/bioconda/sbpipe
    :alt:   (downloads)
 .. |docker_sbpipe| image:: https://quay.io/repository/biocontainers/sbpipe/status
    :target: https://quay.io/repository/biocontainers/sbpipe

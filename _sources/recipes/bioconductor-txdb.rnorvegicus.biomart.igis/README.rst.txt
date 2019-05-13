@@ -48,6 +48,7 @@ bioconductor-txdb.rnorvegicus.biomart.igis
 
 
 .. |downloads_bioconductor-txdb.rnorvegicus.biomart.igis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-txdb.rnorvegicus.biomart.igis.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-txdb.rnorvegicus.biomart.igis
    :alt:   (downloads)
 .. |docker_bioconductor-txdb.rnorvegicus.biomart.igis| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.rnorvegicus.biomart.igis/status
    :target: https://quay.io/repository/biocontainers/bioconductor-txdb.rnorvegicus.biomart.igis

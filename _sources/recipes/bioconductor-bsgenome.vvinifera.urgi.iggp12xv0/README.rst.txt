@@ -47,6 +47,7 @@ bioconductor-bsgenome.vvinifera.urgi.iggp12xv0
 
 
 .. |downloads_bioconductor-bsgenome.vvinifera.urgi.iggp12xv0| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.vvinifera.urgi.iggp12xv0.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome.vvinifera.urgi.iggp12xv0
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.vvinifera.urgi.iggp12xv0| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.vvinifera.urgi.iggp12xv0/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.vvinifera.urgi.iggp12xv0

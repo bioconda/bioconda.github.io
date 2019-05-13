@@ -55,6 +55,7 @@ bioconductor-pbcmc
 
 
 .. |downloads_bioconductor-pbcmc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pbcmc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pbcmc
    :alt:   (downloads)
 .. |docker_bioconductor-pbcmc| image:: https://quay.io/repository/biocontainers/bioconductor-pbcmc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pbcmc

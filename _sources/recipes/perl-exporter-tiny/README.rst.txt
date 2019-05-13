@@ -45,6 +45,7 @@ perl-exporter-tiny
 
 
 .. |downloads_perl-exporter-tiny| image:: https://img.shields.io/conda/dn/bioconda/perl-exporter-tiny.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-exporter-tiny
    :alt:   (downloads)
 .. |docker_perl-exporter-tiny| image:: https://quay.io/repository/biocontainers/perl-exporter-tiny/status
    :target: https://quay.io/repository/biocontainers/perl-exporter-tiny

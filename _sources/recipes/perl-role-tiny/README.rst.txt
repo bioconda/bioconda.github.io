@@ -46,6 +46,7 @@ perl-role-tiny
 
 
 .. |downloads_perl-role-tiny| image:: https://img.shields.io/conda/dn/bioconda/perl-role-tiny.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-role-tiny
    :alt:   (downloads)
 .. |docker_perl-role-tiny| image:: https://quay.io/repository/biocontainers/perl-role-tiny/status
    :target: https://quay.io/repository/biocontainers/perl-role-tiny

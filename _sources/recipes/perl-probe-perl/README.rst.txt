@@ -45,6 +45,7 @@ perl-probe-perl
 
 
 .. |downloads_perl-probe-perl| image:: https://img.shields.io/conda/dn/bioconda/perl-probe-perl.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-probe-perl
    :alt:   (downloads)
 .. |docker_perl-probe-perl| image:: https://quay.io/repository/biocontainers/perl-probe-perl/status
    :target: https://quay.io/repository/biocontainers/perl-probe-perl

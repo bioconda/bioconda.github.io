@@ -73,6 +73,7 @@ bioconductor-cager
 
 
 .. |downloads_bioconductor-cager| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cager.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cager
    :alt:   (downloads)
 .. |docker_bioconductor-cager| image:: https://quay.io/repository/biocontainers/bioconductor-cager/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cager

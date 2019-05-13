@@ -48,6 +48,7 @@ tximport-scripts
 
 
 .. |downloads_tximport-scripts| image:: https://img.shields.io/conda/dn/bioconda/tximport-scripts.svg?style=flat
+   :target: https://anaconda.org/bioconda/tximport-scripts
    :alt:   (downloads)
 .. |docker_tximport-scripts| image:: https://quay.io/repository/biocontainers/tximport-scripts/status
    :target: https://quay.io/repository/biocontainers/tximport-scripts

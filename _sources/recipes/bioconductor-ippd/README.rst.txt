@@ -52,6 +52,7 @@ bioconductor-ippd
 
 
 .. |downloads_bioconductor-ippd| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ippd.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ippd
    :alt:   (downloads)
 .. |docker_bioconductor-ippd| image:: https://quay.io/repository/biocontainers/bioconductor-ippd/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ippd

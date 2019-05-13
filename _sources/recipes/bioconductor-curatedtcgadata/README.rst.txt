@@ -50,6 +50,7 @@ bioconductor-curatedtcgadata
 
 
 .. |downloads_bioconductor-curatedtcgadata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-curatedtcgadata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-curatedtcgadata
    :alt:   (downloads)
 .. |docker_bioconductor-curatedtcgadata| image:: https://quay.io/repository/biocontainers/bioconductor-curatedtcgadata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-curatedtcgadata

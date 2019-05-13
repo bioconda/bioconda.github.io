@@ -48,6 +48,7 @@ bioconductor-snpediar
 
 
 .. |downloads_bioconductor-snpediar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-snpediar.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-snpediar
    :alt:   (downloads)
 .. |docker_bioconductor-snpediar| image:: https://quay.io/repository/biocontainers/bioconductor-snpediar/status
    :target: https://quay.io/repository/biocontainers/bioconductor-snpediar

@@ -48,6 +48,7 @@ perl-archive-tar
 
 
 .. |downloads_perl-archive-tar| image:: https://img.shields.io/conda/dn/bioconda/perl-archive-tar.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-archive-tar
    :alt:   (downloads)
 .. |docker_perl-archive-tar| image:: https://quay.io/repository/biocontainers/perl-archive-tar/status
    :target: https://quay.io/repository/biocontainers/perl-archive-tar

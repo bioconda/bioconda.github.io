@@ -47,6 +47,7 @@ bioconductor-rebet
 
 
 .. |downloads_bioconductor-rebet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rebet.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rebet
    :alt:   (downloads)
 .. |docker_bioconductor-rebet| image:: https://quay.io/repository/biocontainers/bioconductor-rebet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rebet

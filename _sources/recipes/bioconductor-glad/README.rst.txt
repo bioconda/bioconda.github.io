@@ -44,6 +44,7 @@ bioconductor-glad
 
 
 .. |downloads_bioconductor-glad| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-glad.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-glad
    :alt:   (downloads)
 .. |docker_bioconductor-glad| image:: https://quay.io/repository/biocontainers/bioconductor-glad/status
    :target: https://quay.io/repository/biocontainers/bioconductor-glad

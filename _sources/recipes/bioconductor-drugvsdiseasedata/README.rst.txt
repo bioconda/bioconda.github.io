@@ -46,6 +46,7 @@ bioconductor-drugvsdiseasedata
 
 
 .. |downloads_bioconductor-drugvsdiseasedata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-drugvsdiseasedata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-drugvsdiseasedata
    :alt:   (downloads)
 .. |docker_bioconductor-drugvsdiseasedata| image:: https://quay.io/repository/biocontainers/bioconductor-drugvsdiseasedata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-drugvsdiseasedata

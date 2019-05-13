@@ -46,6 +46,7 @@ perl-filesys-df
 
 
 .. |downloads_perl-filesys-df| image:: https://img.shields.io/conda/dn/bioconda/perl-filesys-df.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-filesys-df
    :alt:   (downloads)
 .. |docker_perl-filesys-df| image:: https://quay.io/repository/biocontainers/perl-filesys-df/status
    :target: https://quay.io/repository/biocontainers/perl-filesys-df

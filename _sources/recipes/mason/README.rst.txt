@@ -45,6 +45,7 @@ mason
 
 
 .. |downloads_mason| image:: https://img.shields.io/conda/dn/bioconda/mason.svg?style=flat
+   :target: https://anaconda.org/bioconda/mason
    :alt:   (downloads)
 .. |docker_mason| image:: https://quay.io/repository/biocontainers/mason/status
    :target: https://quay.io/repository/biocontainers/mason

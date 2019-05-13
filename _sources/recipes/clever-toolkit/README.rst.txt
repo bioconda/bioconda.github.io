@@ -55,6 +55,7 @@ clever-toolkit
 
 
 .. |downloads_clever-toolkit| image:: https://img.shields.io/conda/dn/bioconda/clever-toolkit.svg?style=flat
+   :target: https://anaconda.org/bioconda/clever-toolkit
    :alt:   (downloads)
 .. |docker_clever-toolkit| image:: https://quay.io/repository/biocontainers/clever-toolkit/status
    :target: https://quay.io/repository/biocontainers/clever-toolkit

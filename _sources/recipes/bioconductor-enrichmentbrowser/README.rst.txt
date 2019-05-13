@@ -72,6 +72,7 @@ bioconductor-enrichmentbrowser
 
 
 .. |downloads_bioconductor-enrichmentbrowser| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-enrichmentbrowser.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-enrichmentbrowser
    :alt:   (downloads)
 .. |docker_bioconductor-enrichmentbrowser| image:: https://quay.io/repository/biocontainers/bioconductor-enrichmentbrowser/status
    :target: https://quay.io/repository/biocontainers/bioconductor-enrichmentbrowser

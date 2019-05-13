@@ -47,6 +47,7 @@ bioconductor-rrdp
 
 
 .. |downloads_bioconductor-rrdp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rrdp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rrdp
    :alt:   (downloads)
 .. |docker_bioconductor-rrdp| image:: https://quay.io/repository/biocontainers/bioconductor-rrdp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rrdp

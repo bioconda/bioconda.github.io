@@ -46,6 +46,7 @@ spectra-cluster-cli
 
 
 .. |downloads_spectra-cluster-cli| image:: https://img.shields.io/conda/dn/bioconda/spectra-cluster-cli.svg?style=flat
+   :target: https://anaconda.org/bioconda/spectra-cluster-cli
    :alt:   (downloads)
 .. |docker_spectra-cluster-cli| image:: https://quay.io/repository/biocontainers/spectra-cluster-cli/status
    :target: https://quay.io/repository/biocontainers/spectra-cluster-cli

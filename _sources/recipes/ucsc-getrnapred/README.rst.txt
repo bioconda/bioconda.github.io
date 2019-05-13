@@ -50,6 +50,7 @@ ucsc-getrnapred
 
 
 .. |downloads_ucsc-getrnapred| image:: https://img.shields.io/conda/dn/bioconda/ucsc-getrnapred.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-getrnapred
    :alt:   (downloads)
 .. |docker_ucsc-getrnapred| image:: https://quay.io/repository/biocontainers/ucsc-getrnapred/status
    :target: https://quay.io/repository/biocontainers/ucsc-getrnapred

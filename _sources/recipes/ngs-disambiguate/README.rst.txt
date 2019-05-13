@@ -47,6 +47,7 @@ ngs-disambiguate
 
 
 .. |downloads_ngs-disambiguate| image:: https://img.shields.io/conda/dn/bioconda/ngs-disambiguate.svg?style=flat
+   :target: https://anaconda.org/bioconda/ngs-disambiguate
    :alt:   (downloads)
 .. |docker_ngs-disambiguate| image:: https://quay.io/repository/biocontainers/ngs-disambiguate/status
    :target: https://quay.io/repository/biocontainers/ngs-disambiguate

@@ -57,6 +57,7 @@ bioconductor-flowcore
 
 
 .. |downloads_bioconductor-flowcore| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowcore.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowcore
    :alt:   (downloads)
 .. |docker_bioconductor-flowcore| image:: https://quay.io/repository/biocontainers/bioconductor-flowcore/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowcore

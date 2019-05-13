@@ -48,6 +48,7 @@ bioconductor-flowvs
 
 
 .. |downloads_bioconductor-flowvs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowvs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowvs
    :alt:   (downloads)
 .. |docker_bioconductor-flowvs| image:: https://quay.io/repository/biocontainers/bioconductor-flowvs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowvs

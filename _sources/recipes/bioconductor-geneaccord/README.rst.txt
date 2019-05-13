@@ -56,6 +56,7 @@ bioconductor-geneaccord
 
 
 .. |downloads_bioconductor-geneaccord| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geneaccord.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-geneaccord
    :alt:   (downloads)
 .. |docker_bioconductor-geneaccord| image:: https://quay.io/repository/biocontainers/bioconductor-geneaccord/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geneaccord

@@ -50,6 +50,7 @@ ucsc-hgsqldump
 
 
 .. |downloads_ucsc-hgsqldump| image:: https://img.shields.io/conda/dn/bioconda/ucsc-hgsqldump.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-hgsqldump
    :alt:   (downloads)
 .. |docker_ucsc-hgsqldump| image:: https://quay.io/repository/biocontainers/ucsc-hgsqldump/status
    :target: https://quay.io/repository/biocontainers/ucsc-hgsqldump

@@ -47,6 +47,7 @@ nanocall
 
 
 .. |downloads_nanocall| image:: https://img.shields.io/conda/dn/bioconda/nanocall.svg?style=flat
+   :target: https://anaconda.org/bioconda/nanocall
    :alt:   (downloads)
 .. |docker_nanocall| image:: https://quay.io/repository/biocontainers/nanocall/status
    :target: https://quay.io/repository/biocontainers/nanocall

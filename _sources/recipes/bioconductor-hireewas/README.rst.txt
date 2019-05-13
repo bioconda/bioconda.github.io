@@ -47,6 +47,7 @@ bioconductor-hireewas
 
 
 .. |downloads_bioconductor-hireewas| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hireewas.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hireewas
    :alt:   (downloads)
 .. |docker_bioconductor-hireewas| image:: https://quay.io/repository/biocontainers/bioconductor-hireewas/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hireewas

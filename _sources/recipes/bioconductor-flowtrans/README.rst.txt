@@ -48,6 +48,7 @@ bioconductor-flowtrans
 
 
 .. |downloads_bioconductor-flowtrans| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowtrans.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowtrans
    :alt:   (downloads)
 .. |docker_bioconductor-flowtrans| image:: https://quay.io/repository/biocontainers/bioconductor-flowtrans/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowtrans

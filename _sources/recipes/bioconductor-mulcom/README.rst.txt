@@ -50,6 +50,7 @@ bioconductor-mulcom
 
 
 .. |downloads_bioconductor-mulcom| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mulcom.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mulcom
    :alt:   (downloads)
 .. |docker_bioconductor-mulcom| image:: https://quay.io/repository/biocontainers/bioconductor-mulcom/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mulcom

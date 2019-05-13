@@ -46,6 +46,7 @@ perl-http-negotiate
 
 
 .. |downloads_perl-http-negotiate| image:: https://img.shields.io/conda/dn/bioconda/perl-http-negotiate.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-http-negotiate
    :alt:   (downloads)
 .. |docker_perl-http-negotiate| image:: https://quay.io/repository/biocontainers/perl-http-negotiate/status
    :target: https://quay.io/repository/biocontainers/perl-http-negotiate

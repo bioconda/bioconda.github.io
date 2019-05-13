@@ -45,6 +45,7 @@ consan
 
 
 .. |downloads_consan| image:: https://img.shields.io/conda/dn/bioconda/consan.svg?style=flat
+   :target: https://anaconda.org/bioconda/consan
    :alt:   (downloads)
 .. |docker_consan| image:: https://quay.io/repository/biocontainers/consan/status
    :target: https://quay.io/repository/biocontainers/consan

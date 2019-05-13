@@ -47,6 +47,7 @@ bioconductor-rlmm
 
 
 .. |downloads_bioconductor-rlmm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rlmm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rlmm
    :alt:   (downloads)
 .. |docker_bioconductor-rlmm| image:: https://quay.io/repository/biocontainers/bioconductor-rlmm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rlmm

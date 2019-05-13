@@ -46,6 +46,7 @@ edena
 
 
 .. |downloads_edena| image:: https://img.shields.io/conda/dn/bioconda/edena.svg?style=flat
+   :target: https://anaconda.org/bioconda/edena
    :alt:   (downloads)
 .. |docker_edena| image:: https://quay.io/repository/biocontainers/edena/status
    :target: https://quay.io/repository/biocontainers/edena

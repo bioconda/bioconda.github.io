@@ -45,6 +45,7 @@ age-metasv
 
 
 .. |downloads_age-metasv| image:: https://img.shields.io/conda/dn/bioconda/age-metasv.svg?style=flat
+   :target: https://anaconda.org/bioconda/age-metasv
    :alt:   (downloads)
 .. |docker_age-metasv| image:: https://quay.io/repository/biocontainers/age-metasv/status
    :target: https://quay.io/repository/biocontainers/age-metasv

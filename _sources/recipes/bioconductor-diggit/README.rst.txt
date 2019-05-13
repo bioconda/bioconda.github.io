@@ -48,6 +48,7 @@ bioconductor-diggit
 
 
 .. |downloads_bioconductor-diggit| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-diggit.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-diggit
    :alt:   (downloads)
 .. |docker_bioconductor-diggit| image:: https://quay.io/repository/biocontainers/bioconductor-diggit/status
    :target: https://quay.io/repository/biocontainers/bioconductor-diggit

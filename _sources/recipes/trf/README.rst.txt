@@ -45,6 +45,7 @@ trf
 
 
 .. |downloads_trf| image:: https://img.shields.io/conda/dn/bioconda/trf.svg?style=flat
+   :target: https://anaconda.org/bioconda/trf
    :alt:   (downloads)
 .. |docker_trf| image:: https://quay.io/repository/biocontainers/trf/status
    :target: https://quay.io/repository/biocontainers/trf

@@ -49,6 +49,7 @@ bioconductor-bayseq
 
 
 .. |downloads_bioconductor-bayseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bayseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bayseq
    :alt:   (downloads)
 .. |docker_bioconductor-bayseq| image:: https://quay.io/repository/biocontainers/bioconductor-bayseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bayseq

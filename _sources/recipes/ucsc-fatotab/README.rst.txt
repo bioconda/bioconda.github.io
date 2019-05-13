@@ -50,6 +50,7 @@ ucsc-fatotab
 
 
 .. |downloads_ucsc-fatotab| image:: https://img.shields.io/conda/dn/bioconda/ucsc-fatotab.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-fatotab
    :alt:   (downloads)
 .. |docker_ucsc-fatotab| image:: https://quay.io/repository/biocontainers/ucsc-fatotab/status
    :target: https://quay.io/repository/biocontainers/ucsc-fatotab

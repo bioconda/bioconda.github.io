@@ -46,6 +46,7 @@ bioconductor-copyhelper
 
 
 .. |downloads_bioconductor-copyhelper| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-copyhelper.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-copyhelper
    :alt:   (downloads)
 .. |docker_bioconductor-copyhelper| image:: https://quay.io/repository/biocontainers/bioconductor-copyhelper/status
    :target: https://quay.io/repository/biocontainers/bioconductor-copyhelper

@@ -52,6 +52,7 @@ r-ngsplot
 
 
 .. |downloads_r-ngsplot| image:: https://img.shields.io/conda/dn/bioconda/r-ngsplot.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-ngsplot
    :alt:   (downloads)
 .. |docker_r-ngsplot| image:: https://quay.io/repository/biocontainers/r-ngsplot/status
    :target: https://quay.io/repository/biocontainers/r-ngsplot

@@ -47,6 +47,7 @@ lorma
 
 
 .. |downloads_lorma| image:: https://img.shields.io/conda/dn/bioconda/lorma.svg?style=flat
+   :target: https://anaconda.org/bioconda/lorma
    :alt:   (downloads)
 .. |docker_lorma| image:: https://quay.io/repository/biocontainers/lorma/status
    :target: https://quay.io/repository/biocontainers/lorma

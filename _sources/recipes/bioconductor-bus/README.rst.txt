@@ -50,6 +50,7 @@ bioconductor-bus
 
 
 .. |downloads_bioconductor-bus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bus.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bus
    :alt:   (downloads)
 .. |docker_bioconductor-bus| image:: https://quay.io/repository/biocontainers/bioconductor-bus/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bus

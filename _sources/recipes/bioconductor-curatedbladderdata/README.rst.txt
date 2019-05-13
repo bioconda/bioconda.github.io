@@ -47,6 +47,7 @@ bioconductor-curatedbladderdata
 
 
 .. |downloads_bioconductor-curatedbladderdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-curatedbladderdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-curatedbladderdata
    :alt:   (downloads)
 .. |docker_bioconductor-curatedbladderdata| image:: https://quay.io/repository/biocontainers/bioconductor-curatedbladderdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-curatedbladderdata

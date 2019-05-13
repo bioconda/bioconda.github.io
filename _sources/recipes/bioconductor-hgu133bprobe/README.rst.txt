@@ -47,6 +47,7 @@ bioconductor-hgu133bprobe
 
 
 .. |downloads_bioconductor-hgu133bprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgu133bprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hgu133bprobe
    :alt:   (downloads)
 .. |docker_bioconductor-hgu133bprobe| image:: https://quay.io/repository/biocontainers/bioconductor-hgu133bprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hgu133bprobe

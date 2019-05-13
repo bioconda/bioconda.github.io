@@ -50,6 +50,7 @@ disco
 
 
 .. |downloads_disco| image:: https://img.shields.io/conda/dn/bioconda/disco.svg?style=flat
+   :target: https://anaconda.org/bioconda/disco
    :alt:   (downloads)
 .. |docker_disco| image:: https://quay.io/repository/biocontainers/disco/status
    :target: https://quay.io/repository/biocontainers/disco

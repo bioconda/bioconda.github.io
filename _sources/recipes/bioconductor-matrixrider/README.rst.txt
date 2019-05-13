@@ -51,6 +51,7 @@ bioconductor-matrixrider
 
 
 .. |downloads_bioconductor-matrixrider| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-matrixrider.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-matrixrider
    :alt:   (downloads)
 .. |docker_bioconductor-matrixrider| image:: https://quay.io/repository/biocontainers/bioconductor-matrixrider/status
    :target: https://quay.io/repository/biocontainers/bioconductor-matrixrider

@@ -50,6 +50,7 @@ bioconductor-pannbuilder
 
 
 .. |downloads_bioconductor-pannbuilder| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pannbuilder.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pannbuilder
    :alt:   (downloads)
 .. |docker_bioconductor-pannbuilder| image:: https://quay.io/repository/biocontainers/bioconductor-pannbuilder/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pannbuilder

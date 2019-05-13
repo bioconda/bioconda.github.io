@@ -50,6 +50,7 @@ ucsc-psldropoverlap
 
 
 .. |downloads_ucsc-psldropoverlap| image:: https://img.shields.io/conda/dn/bioconda/ucsc-psldropoverlap.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-psldropoverlap
    :alt:   (downloads)
 .. |docker_ucsc-psldropoverlap| image:: https://quay.io/repository/biocontainers/ucsc-psldropoverlap/status
    :target: https://quay.io/repository/biocontainers/ucsc-psldropoverlap

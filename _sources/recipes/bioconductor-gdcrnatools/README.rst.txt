@@ -64,6 +64,7 @@ bioconductor-gdcrnatools
 
 
 .. |downloads_bioconductor-gdcrnatools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gdcrnatools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gdcrnatools
    :alt:   (downloads)
 .. |docker_bioconductor-gdcrnatools| image:: https://quay.io/repository/biocontainers/bioconductor-gdcrnatools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gdcrnatools

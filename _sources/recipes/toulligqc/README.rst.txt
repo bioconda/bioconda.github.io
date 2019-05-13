@@ -51,6 +51,7 @@ toulligqc
 
 
 .. |downloads_toulligqc| image:: https://img.shields.io/conda/dn/bioconda/toulligqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/toulligqc
    :alt:   (downloads)
 .. |docker_toulligqc| image:: https://quay.io/repository/biocontainers/toulligqc/status
    :target: https://quay.io/repository/biocontainers/toulligqc

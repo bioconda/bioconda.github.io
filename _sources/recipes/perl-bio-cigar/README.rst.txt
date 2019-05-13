@@ -50,6 +50,7 @@ perl-bio-cigar
 
 
 .. |downloads_perl-bio-cigar| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-cigar.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bio-cigar
    :alt:   (downloads)
 .. |docker_perl-bio-cigar| image:: https://quay.io/repository/biocontainers/perl-bio-cigar/status
    :target: https://quay.io/repository/biocontainers/perl-bio-cigar

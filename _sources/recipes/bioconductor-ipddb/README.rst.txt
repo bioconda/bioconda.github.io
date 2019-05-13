@@ -53,6 +53,7 @@ bioconductor-ipddb
 
 
 .. |downloads_bioconductor-ipddb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ipddb.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ipddb
    :alt:   (downloads)
 .. |docker_bioconductor-ipddb| image:: https://quay.io/repository/biocontainers/bioconductor-ipddb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ipddb

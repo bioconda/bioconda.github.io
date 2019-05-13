@@ -45,6 +45,7 @@ perl-slurp
 
 
 .. |downloads_perl-slurp| image:: https://img.shields.io/conda/dn/bioconda/perl-slurp.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-slurp
    :alt:   (downloads)
 .. |docker_perl-slurp| image:: https://quay.io/repository/biocontainers/perl-slurp/status
    :target: https://quay.io/repository/biocontainers/perl-slurp

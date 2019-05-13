@@ -48,6 +48,7 @@ deap
 
 
 .. |downloads_deap| image:: https://img.shields.io/conda/dn/bioconda/deap.svg?style=flat
+   :target: https://anaconda.org/bioconda/deap
    :alt:   (downloads)
 .. |docker_deap| image:: https://quay.io/repository/biocontainers/deap/status
    :target: https://quay.io/repository/biocontainers/deap

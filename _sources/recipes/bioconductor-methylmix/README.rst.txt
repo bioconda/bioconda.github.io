@@ -55,6 +55,7 @@ bioconductor-methylmix
 
 
 .. |downloads_bioconductor-methylmix| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methylmix.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-methylmix
    :alt:   (downloads)
 .. |docker_bioconductor-methylmix| image:: https://quay.io/repository/biocontainers/bioconductor-methylmix/status
    :target: https://quay.io/repository/biocontainers/bioconductor-methylmix

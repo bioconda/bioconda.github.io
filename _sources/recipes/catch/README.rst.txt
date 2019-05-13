@@ -48,6 +48,7 @@ catch
 
 
 .. |downloads_catch| image:: https://img.shields.io/conda/dn/bioconda/catch.svg?style=flat
+   :target: https://anaconda.org/bioconda/catch
    :alt:   (downloads)
 .. |docker_catch| image:: https://quay.io/repository/biocontainers/catch/status
    :target: https://quay.io/repository/biocontainers/catch

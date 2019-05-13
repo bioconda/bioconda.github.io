@@ -57,6 +57,7 @@ perl-module-fromperlver
 
 
 .. |downloads_perl-module-fromperlver| image:: https://img.shields.io/conda/dn/bioconda/perl-module-fromperlver.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-module-fromperlver
    :alt:   (downloads)
 .. |docker_perl-module-fromperlver| image:: https://quay.io/repository/biocontainers/perl-module-fromperlver/status
    :target: https://quay.io/repository/biocontainers/perl-module-fromperlver

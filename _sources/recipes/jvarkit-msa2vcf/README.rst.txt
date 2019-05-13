@@ -46,6 +46,7 @@ jvarkit-msa2vcf
 
 
 .. |downloads_jvarkit-msa2vcf| image:: https://img.shields.io/conda/dn/bioconda/jvarkit-msa2vcf.svg?style=flat
+   :target: https://anaconda.org/bioconda/jvarkit-msa2vcf
    :alt:   (downloads)
 .. |docker_jvarkit-msa2vcf| image:: https://quay.io/repository/biocontainers/jvarkit-msa2vcf/status
    :target: https://quay.io/repository/biocontainers/jvarkit-msa2vcf

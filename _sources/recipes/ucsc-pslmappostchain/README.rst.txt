@@ -50,6 +50,7 @@ ucsc-pslmappostchain
 
 
 .. |downloads_ucsc-pslmappostchain| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslmappostchain.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-pslmappostchain
    :alt:   (downloads)
 .. |docker_ucsc-pslmappostchain| image:: https://quay.io/repository/biocontainers/ucsc-pslmappostchain/status
    :target: https://quay.io/repository/biocontainers/ucsc-pslmappostchain

@@ -45,6 +45,7 @@ perl-set-intspan
 
 
 .. |downloads_perl-set-intspan| image:: https://img.shields.io/conda/dn/bioconda/perl-set-intspan.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-set-intspan
    :alt:   (downloads)
 .. |docker_perl-set-intspan| image:: https://quay.io/repository/biocontainers/perl-set-intspan/status
    :target: https://quay.io/repository/biocontainers/perl-set-intspan

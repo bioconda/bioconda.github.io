@@ -53,6 +53,7 @@ samsifter
 
 
 .. |downloads_samsifter| image:: https://img.shields.io/conda/dn/bioconda/samsifter.svg?style=flat
+   :target: https://anaconda.org/bioconda/samsifter
    :alt:   (downloads)
 .. |docker_samsifter| image:: https://quay.io/repository/biocontainers/samsifter/status
    :target: https://quay.io/repository/biocontainers/samsifter

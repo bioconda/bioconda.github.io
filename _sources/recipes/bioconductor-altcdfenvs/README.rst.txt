@@ -53,6 +53,7 @@ bioconductor-altcdfenvs
 
 
 .. |downloads_bioconductor-altcdfenvs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-altcdfenvs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-altcdfenvs
    :alt:   (downloads)
 .. |docker_bioconductor-altcdfenvs| image:: https://quay.io/repository/biocontainers/bioconductor-altcdfenvs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-altcdfenvs

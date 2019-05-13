@@ -47,6 +47,7 @@ inforna
 
 
 .. |downloads_inforna| image:: https://img.shields.io/conda/dn/bioconda/inforna.svg?style=flat
+   :target: https://anaconda.org/bioconda/inforna
    :alt:   (downloads)
 .. |docker_inforna| image:: https://quay.io/repository/biocontainers/inforna/status
    :target: https://quay.io/repository/biocontainers/inforna

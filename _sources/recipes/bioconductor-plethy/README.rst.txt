@@ -57,6 +57,7 @@ bioconductor-plethy
 
 
 .. |downloads_bioconductor-plethy| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-plethy.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-plethy
    :alt:   (downloads)
 .. |docker_bioconductor-plethy| image:: https://quay.io/repository/biocontainers/bioconductor-plethy/status
    :target: https://quay.io/repository/biocontainers/bioconductor-plethy

@@ -47,6 +47,7 @@ genblastg
 
 
 .. |downloads_genblastg| image:: https://img.shields.io/conda/dn/bioconda/genblastg.svg?style=flat
+   :target: https://anaconda.org/bioconda/genblastg
    :alt:   (downloads)
 .. |docker_genblastg| image:: https://quay.io/repository/biocontainers/genblastg/status
    :target: https://quay.io/repository/biocontainers/genblastg

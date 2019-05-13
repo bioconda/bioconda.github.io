@@ -47,6 +47,7 @@ pytest-marks
 
 
 .. |downloads_pytest-marks| image:: https://img.shields.io/conda/dn/bioconda/pytest-marks.svg?style=flat
+   :target: https://anaconda.org/bioconda/pytest-marks
    :alt:   (downloads)
 .. |docker_pytest-marks| image:: https://quay.io/repository/biocontainers/pytest-marks/status
    :target: https://quay.io/repository/biocontainers/pytest-marks

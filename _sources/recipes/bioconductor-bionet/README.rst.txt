@@ -51,6 +51,7 @@ bioconductor-bionet
 
 
 .. |downloads_bioconductor-bionet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bionet.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bionet
    :alt:   (downloads)
 .. |docker_bioconductor-bionet| image:: https://quay.io/repository/biocontainers/bioconductor-bionet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bionet

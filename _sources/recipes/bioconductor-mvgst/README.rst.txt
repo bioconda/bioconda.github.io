@@ -55,6 +55,7 @@ bioconductor-mvgst
 
 
 .. |downloads_bioconductor-mvgst| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mvgst.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mvgst
    :alt:   (downloads)
 .. |docker_bioconductor-mvgst| image:: https://quay.io/repository/biocontainers/bioconductor-mvgst/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mvgst

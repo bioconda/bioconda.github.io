@@ -52,6 +52,7 @@ bioconductor-metabomxtr
 
 
 .. |downloads_bioconductor-metabomxtr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metabomxtr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-metabomxtr
    :alt:   (downloads)
 .. |docker_bioconductor-metabomxtr| image:: https://quay.io/repository/biocontainers/bioconductor-metabomxtr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metabomxtr

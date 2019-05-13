@@ -58,6 +58,7 @@ bioconductor-m3c
 
 
 .. |downloads_bioconductor-m3c| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-m3c.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-m3c
    :alt:   (downloads)
 .. |docker_bioconductor-m3c| image:: https://quay.io/repository/biocontainers/bioconductor-m3c/status
    :target: https://quay.io/repository/biocontainers/bioconductor-m3c

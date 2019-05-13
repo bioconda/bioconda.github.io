@@ -50,6 +50,7 @@ ucsc-paratestjob
 
 
 .. |downloads_ucsc-paratestjob| image:: https://img.shields.io/conda/dn/bioconda/ucsc-paratestjob.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-paratestjob
    :alt:   (downloads)
 .. |docker_ucsc-paratestjob| image:: https://quay.io/repository/biocontainers/ucsc-paratestjob/status
    :target: https://quay.io/repository/biocontainers/ucsc-paratestjob

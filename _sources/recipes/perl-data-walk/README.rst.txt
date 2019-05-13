@@ -45,6 +45,7 @@ perl-data-walk
 
 
 .. |downloads_perl-data-walk| image:: https://img.shields.io/conda/dn/bioconda/perl-data-walk.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-data-walk
    :alt:   (downloads)
 .. |docker_perl-data-walk| image:: https://quay.io/repository/biocontainers/perl-data-walk/status
    :target: https://quay.io/repository/biocontainers/perl-data-walk

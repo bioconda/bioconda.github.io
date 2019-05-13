@@ -50,6 +50,7 @@ metasv
 
 
 .. |downloads_metasv| image:: https://img.shields.io/conda/dn/bioconda/metasv.svg?style=flat
+   :target: https://anaconda.org/bioconda/metasv
    :alt:   (downloads)
 .. |docker_metasv| image:: https://quay.io/repository/biocontainers/metasv/status
    :target: https://quay.io/repository/biocontainers/metasv

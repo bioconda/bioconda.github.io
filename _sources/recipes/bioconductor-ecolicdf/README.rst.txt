@@ -47,6 +47,7 @@ bioconductor-ecolicdf
 
 
 .. |downloads_bioconductor-ecolicdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ecolicdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ecolicdf
    :alt:   (downloads)
 .. |docker_bioconductor-ecolicdf| image:: https://quay.io/repository/biocontainers/bioconductor-ecolicdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ecolicdf

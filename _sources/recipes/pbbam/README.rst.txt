@@ -48,6 +48,7 @@ pbbam
 
 
 .. |downloads_pbbam| image:: https://img.shields.io/conda/dn/bioconda/pbbam.svg?style=flat
+   :target: https://anaconda.org/bioconda/pbbam
    :alt:   (downloads)
 .. |docker_pbbam| image:: https://quay.io/repository/biocontainers/pbbam/status
    :target: https://quay.io/repository/biocontainers/pbbam

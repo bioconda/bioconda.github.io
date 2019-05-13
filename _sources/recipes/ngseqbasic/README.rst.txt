@@ -55,6 +55,7 @@ ngseqbasic
 
 
 .. |downloads_ngseqbasic| image:: https://img.shields.io/conda/dn/bioconda/ngseqbasic.svg?style=flat
+   :target: https://anaconda.org/bioconda/ngseqbasic
    :alt:   (downloads)
 .. |docker_ngseqbasic| image:: https://quay.io/repository/biocontainers/ngseqbasic/status
    :target: https://quay.io/repository/biocontainers/ngseqbasic

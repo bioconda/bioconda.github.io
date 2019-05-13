@@ -47,6 +47,7 @@ bioconductor-icens
 
 
 .. |downloads_bioconductor-icens| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-icens.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-icens
    :alt:   (downloads)
 .. |docker_bioconductor-icens| image:: https://quay.io/repository/biocontainers/bioconductor-icens/status
    :target: https://quay.io/repository/biocontainers/bioconductor-icens

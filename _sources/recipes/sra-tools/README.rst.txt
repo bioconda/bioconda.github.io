@@ -45,6 +45,7 @@ sra-tools
 
 
 .. |downloads_sra-tools| image:: https://img.shields.io/conda/dn/bioconda/sra-tools.svg?style=flat
+   :target: https://anaconda.org/bioconda/sra-tools
    :alt:   (downloads)
 .. |docker_sra-tools| image:: https://quay.io/repository/biocontainers/sra-tools/status
    :target: https://quay.io/repository/biocontainers/sra-tools

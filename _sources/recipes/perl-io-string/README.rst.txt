@@ -45,6 +45,7 @@ perl-io-string
 
 
 .. |downloads_perl-io-string| image:: https://img.shields.io/conda/dn/bioconda/perl-io-string.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-io-string
    :alt:   (downloads)
 .. |docker_perl-io-string| image:: https://quay.io/repository/biocontainers/perl-io-string/status
    :target: https://quay.io/repository/biocontainers/perl-io-string

@@ -44,6 +44,7 @@ evofold2
 
 
 .. |downloads_evofold2| image:: https://img.shields.io/conda/dn/bioconda/evofold2.svg?style=flat
+   :target: https://anaconda.org/bioconda/evofold2
    :alt:   (downloads)
 .. |docker_evofold2| image:: https://quay.io/repository/biocontainers/evofold2/status
    :target: https://quay.io/repository/biocontainers/evofold2

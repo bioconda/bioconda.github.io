@@ -70,6 +70,7 @@ bioconductor-chromvar
 
 
 .. |downloads_bioconductor-chromvar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chromvar.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chromvar
    :alt:   (downloads)
 .. |docker_bioconductor-chromvar| image:: https://quay.io/repository/biocontainers/bioconductor-chromvar/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chromvar

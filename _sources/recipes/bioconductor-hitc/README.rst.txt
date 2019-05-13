@@ -53,6 +53,7 @@ bioconductor-hitc
 
 
 .. |downloads_bioconductor-hitc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hitc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hitc
    :alt:   (downloads)
 .. |docker_bioconductor-hitc| image:: https://quay.io/repository/biocontainers/bioconductor-hitc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hitc

@@ -46,6 +46,7 @@ soapcoverage
 
 
 .. |downloads_soapcoverage| image:: https://img.shields.io/conda/dn/bioconda/soapcoverage.svg?style=flat
+   :target: https://anaconda.org/bioconda/soapcoverage
    :alt:   (downloads)
 .. |docker_soapcoverage| image:: https://quay.io/repository/biocontainers/soapcoverage/status
    :target: https://quay.io/repository/biocontainers/soapcoverage

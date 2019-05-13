@@ -45,6 +45,7 @@ python-rnacentral
 
 
 .. |downloads_python-rnacentral| image:: https://img.shields.io/conda/dn/bioconda/python-rnacentral.svg?style=flat
+   :target: https://anaconda.org/bioconda/python-rnacentral
    :alt:   (downloads)
 .. |docker_python-rnacentral| image:: https://quay.io/repository/biocontainers/python-rnacentral/status
    :target: https://quay.io/repository/biocontainers/python-rnacentral

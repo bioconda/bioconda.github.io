@@ -45,6 +45,7 @@ break-point-inspector
 
 
 .. |downloads_break-point-inspector| image:: https://img.shields.io/conda/dn/bioconda/break-point-inspector.svg?style=flat
+   :target: https://anaconda.org/bioconda/break-point-inspector
    :alt:   (downloads)
 .. |docker_break-point-inspector| image:: https://quay.io/repository/biocontainers/break-point-inspector/status
    :target: https://quay.io/repository/biocontainers/break-point-inspector

@@ -49,6 +49,7 @@ ldhelmet
 
 
 .. |downloads_ldhelmet| image:: https://img.shields.io/conda/dn/bioconda/ldhelmet.svg?style=flat
+   :target: https://anaconda.org/bioconda/ldhelmet
    :alt:   (downloads)
 .. |docker_ldhelmet| image:: https://quay.io/repository/biocontainers/ldhelmet/status
    :target: https://quay.io/repository/biocontainers/ldhelmet

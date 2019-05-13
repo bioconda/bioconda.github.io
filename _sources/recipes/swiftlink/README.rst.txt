@@ -49,6 +49,7 @@ swiftlink
 
 
 .. |downloads_swiftlink| image:: https://img.shields.io/conda/dn/bioconda/swiftlink.svg?style=flat
+   :target: https://anaconda.org/bioconda/swiftlink
    :alt:   (downloads)
 .. |docker_swiftlink| image:: https://quay.io/repository/biocontainers/swiftlink/status
    :target: https://quay.io/repository/biocontainers/swiftlink

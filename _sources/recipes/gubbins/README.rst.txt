@@ -53,6 +53,7 @@ gubbins
 
 
 .. |downloads_gubbins| image:: https://img.shields.io/conda/dn/bioconda/gubbins.svg?style=flat
+   :target: https://anaconda.org/bioconda/gubbins
    :alt:   (downloads)
 .. |docker_gubbins| image:: https://quay.io/repository/biocontainers/gubbins/status
    :target: https://quay.io/repository/biocontainers/gubbins

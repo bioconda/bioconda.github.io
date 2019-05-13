@@ -66,6 +66,7 @@ bioconductor-cner
 
 
 .. |downloads_bioconductor-cner| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cner.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cner
    :alt:   (downloads)
 .. |docker_bioconductor-cner| image:: https://quay.io/repository/biocontainers/bioconductor-cner/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cner

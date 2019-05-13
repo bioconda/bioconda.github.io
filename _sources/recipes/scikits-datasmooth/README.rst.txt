@@ -48,6 +48,7 @@ scikits-datasmooth
 
 
 .. |downloads_scikits-datasmooth| image:: https://img.shields.io/conda/dn/bioconda/scikits-datasmooth.svg?style=flat
+   :target: https://anaconda.org/bioconda/scikits-datasmooth
    :alt:   (downloads)
 .. |docker_scikits-datasmooth| image:: https://quay.io/repository/biocontainers/scikits-datasmooth/status
    :target: https://quay.io/repository/biocontainers/scikits-datasmooth

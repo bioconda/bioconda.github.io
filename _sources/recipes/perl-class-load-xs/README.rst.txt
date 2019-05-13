@@ -49,6 +49,7 @@ perl-class-load-xs
 
 
 .. |downloads_perl-class-load-xs| image:: https://img.shields.io/conda/dn/bioconda/perl-class-load-xs.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-class-load-xs
    :alt:   (downloads)
 .. |docker_perl-class-load-xs| image:: https://quay.io/repository/biocontainers/perl-class-load-xs/status
    :target: https://quay.io/repository/biocontainers/perl-class-load-xs

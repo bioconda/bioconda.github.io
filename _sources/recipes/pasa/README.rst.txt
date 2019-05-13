@@ -58,6 +58,7 @@ pasa
 
 
 .. |downloads_pasa| image:: https://img.shields.io/conda/dn/bioconda/pasa.svg?style=flat
+   :target: https://anaconda.org/bioconda/pasa
    :alt:   (downloads)
 .. |docker_pasa| image:: https://quay.io/repository/biocontainers/pasa/status
    :target: https://quay.io/repository/biocontainers/pasa

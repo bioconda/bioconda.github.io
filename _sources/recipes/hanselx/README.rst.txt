@@ -46,6 +46,7 @@ hanselx
 
 
 .. |downloads_hanselx| image:: https://img.shields.io/conda/dn/bioconda/hanselx.svg?style=flat
+   :target: https://anaconda.org/bioconda/hanselx
    :alt:   (downloads)
 .. |docker_hanselx| image:: https://quay.io/repository/biocontainers/hanselx/status
    :target: https://quay.io/repository/biocontainers/hanselx

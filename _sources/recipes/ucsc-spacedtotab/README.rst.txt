@@ -50,6 +50,7 @@ ucsc-spacedtotab
 
 
 .. |downloads_ucsc-spacedtotab| image:: https://img.shields.io/conda/dn/bioconda/ucsc-spacedtotab.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-spacedtotab
    :alt:   (downloads)
 .. |docker_ucsc-spacedtotab| image:: https://quay.io/repository/biocontainers/ucsc-spacedtotab/status
    :target: https://quay.io/repository/biocontainers/ucsc-spacedtotab

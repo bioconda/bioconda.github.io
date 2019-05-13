@@ -51,6 +51,7 @@ bioconductor-ncigraph
 
 
 .. |downloads_bioconductor-ncigraph| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ncigraph.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ncigraph
    :alt:   (downloads)
 .. |docker_bioconductor-ncigraph| image:: https://quay.io/repository/biocontainers/bioconductor-ncigraph/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ncigraph

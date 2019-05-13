@@ -47,6 +47,7 @@ compare-reads
 
 
 .. |downloads_compare-reads| image:: https://img.shields.io/conda/dn/bioconda/compare-reads.svg?style=flat
+   :target: https://anaconda.org/bioconda/compare-reads
    :alt:   (downloads)
 .. |docker_compare-reads| image:: https://quay.io/repository/biocontainers/compare-reads/status
    :target: https://quay.io/repository/biocontainers/compare-reads

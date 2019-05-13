@@ -57,6 +57,7 @@ star-fusion
 
 
 .. |downloads_star-fusion| image:: https://img.shields.io/conda/dn/bioconda/star-fusion.svg?style=flat
+   :target: https://anaconda.org/bioconda/star-fusion
    :alt:   (downloads)
 .. |docker_star-fusion| image:: https://quay.io/repository/biocontainers/star-fusion/status
    :target: https://quay.io/repository/biocontainers/star-fusion

@@ -46,6 +46,7 @@ bioconductor-ccrepe
 
 
 .. |downloads_bioconductor-ccrepe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ccrepe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ccrepe
    :alt:   (downloads)
 .. |docker_bioconductor-ccrepe| image:: https://quay.io/repository/biocontainers/bioconductor-ccrepe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ccrepe

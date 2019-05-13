@@ -47,6 +47,7 @@ bioconductor-chic.data
 
 
 .. |downloads_bioconductor-chic.data| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chic.data.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chic.data
    :alt:   (downloads)
 .. |docker_bioconductor-chic.data| image:: https://quay.io/repository/biocontainers/bioconductor-chic.data/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chic.data

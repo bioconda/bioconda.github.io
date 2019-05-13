@@ -46,6 +46,7 @@ bioconductor-humanomniexpress12v1bcrlmm
 
 
 .. |downloads_bioconductor-humanomniexpress12v1bcrlmm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-humanomniexpress12v1bcrlmm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-humanomniexpress12v1bcrlmm
    :alt:   (downloads)
 .. |docker_bioconductor-humanomniexpress12v1bcrlmm| image:: https://quay.io/repository/biocontainers/bioconductor-humanomniexpress12v1bcrlmm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-humanomniexpress12v1bcrlmm

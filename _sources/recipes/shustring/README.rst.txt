@@ -44,6 +44,7 @@ shustring
 
 
 .. |downloads_shustring| image:: https://img.shields.io/conda/dn/bioconda/shustring.svg?style=flat
+   :target: https://anaconda.org/bioconda/shustring
    :alt:   (downloads)
 .. |docker_shustring| image:: https://quay.io/repository/biocontainers/shustring/status
    :target: https://quay.io/repository/biocontainers/shustring

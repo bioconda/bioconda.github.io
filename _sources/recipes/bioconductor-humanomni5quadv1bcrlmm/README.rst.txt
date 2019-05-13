@@ -46,6 +46,7 @@ bioconductor-humanomni5quadv1bcrlmm
 
 
 .. |downloads_bioconductor-humanomni5quadv1bcrlmm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-humanomni5quadv1bcrlmm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-humanomni5quadv1bcrlmm
    :alt:   (downloads)
 .. |docker_bioconductor-humanomni5quadv1bcrlmm| image:: https://quay.io/repository/biocontainers/bioconductor-humanomni5quadv1bcrlmm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-humanomni5quadv1bcrlmm

@@ -50,6 +50,7 @@ ucsc-gff3topsl
 
 
 .. |downloads_ucsc-gff3topsl| image:: https://img.shields.io/conda/dn/bioconda/ucsc-gff3topsl.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-gff3topsl
    :alt:   (downloads)
 .. |docker_ucsc-gff3topsl| image:: https://quay.io/repository/biocontainers/ucsc-gff3topsl/status
    :target: https://quay.io/repository/biocontainers/ucsc-gff3topsl

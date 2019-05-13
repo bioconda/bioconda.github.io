@@ -45,6 +45,7 @@ assembly-scan
 
 
 .. |downloads_assembly-scan| image:: https://img.shields.io/conda/dn/bioconda/assembly-scan.svg?style=flat
+   :target: https://anaconda.org/bioconda/assembly-scan
    :alt:   (downloads)
 .. |docker_assembly-scan| image:: https://quay.io/repository/biocontainers/assembly-scan/status
    :target: https://quay.io/repository/biocontainers/assembly-scan

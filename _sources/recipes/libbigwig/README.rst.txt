@@ -47,6 +47,7 @@ libbigwig
 
 
 .. |downloads_libbigwig| image:: https://img.shields.io/conda/dn/bioconda/libbigwig.svg?style=flat
+   :target: https://anaconda.org/bioconda/libbigwig
    :alt:   (downloads)
 .. |docker_libbigwig| image:: https://quay.io/repository/biocontainers/libbigwig/status
    :target: https://quay.io/repository/biocontainers/libbigwig

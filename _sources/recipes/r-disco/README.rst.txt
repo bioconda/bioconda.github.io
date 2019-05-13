@@ -48,6 +48,7 @@ r-disco
 
 
 .. |downloads_r-disco| image:: https://img.shields.io/conda/dn/bioconda/r-disco.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-disco
    :alt:   (downloads)
 .. |docker_r-disco| image:: https://quay.io/repository/biocontainers/r-disco/status
    :target: https://quay.io/repository/biocontainers/r-disco

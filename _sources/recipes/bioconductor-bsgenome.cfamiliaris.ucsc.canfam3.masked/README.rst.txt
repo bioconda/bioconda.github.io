@@ -48,6 +48,7 @@ bioconductor-bsgenome.cfamiliaris.ucsc.canfam3.masked
 
 
 .. |downloads_bioconductor-bsgenome.cfamiliaris.ucsc.canfam3.masked| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.cfamiliaris.ucsc.canfam3.masked.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome.cfamiliaris.ucsc.canfam3.masked
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.cfamiliaris.ucsc.canfam3.masked| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.cfamiliaris.ucsc.canfam3.masked/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.cfamiliaris.ucsc.canfam3.masked

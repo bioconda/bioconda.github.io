@@ -44,6 +44,7 @@ recalladapters
 
 
 .. |downloads_recalladapters| image:: https://img.shields.io/conda/dn/bioconda/recalladapters.svg?style=flat
+   :target: https://anaconda.org/bioconda/recalladapters
    :alt:   (downloads)
 .. |docker_recalladapters| image:: https://quay.io/repository/biocontainers/recalladapters/status
    :target: https://quay.io/repository/biocontainers/recalladapters

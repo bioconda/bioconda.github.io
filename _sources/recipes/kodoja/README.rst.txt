@@ -53,6 +53,7 @@ kodoja
 
 
 .. |downloads_kodoja| image:: https://img.shields.io/conda/dn/bioconda/kodoja.svg?style=flat
+   :target: https://anaconda.org/bioconda/kodoja
    :alt:   (downloads)
 .. |docker_kodoja| image:: https://quay.io/repository/biocontainers/kodoja/status
    :target: https://quay.io/repository/biocontainers/kodoja

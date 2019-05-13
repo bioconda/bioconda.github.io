@@ -63,6 +63,7 @@ bioconductor-icetea
 
 
 .. |downloads_bioconductor-icetea| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-icetea.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-icetea
    :alt:   (downloads)
 .. |docker_bioconductor-icetea| image:: https://quay.io/repository/biocontainers/bioconductor-icetea/status
    :target: https://quay.io/repository/biocontainers/bioconductor-icetea

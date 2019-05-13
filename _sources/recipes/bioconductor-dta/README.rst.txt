@@ -48,6 +48,7 @@ bioconductor-dta
 
 
 .. |downloads_bioconductor-dta| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dta.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dta
    :alt:   (downloads)
 .. |docker_bioconductor-dta| image:: https://quay.io/repository/biocontainers/bioconductor-dta/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dta

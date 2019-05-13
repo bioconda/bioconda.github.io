@@ -47,6 +47,7 @@ bioconductor-test1cdf
 
 
 .. |downloads_bioconductor-test1cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-test1cdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-test1cdf
    :alt:   (downloads)
 .. |docker_bioconductor-test1cdf| image:: https://quay.io/repository/biocontainers/bioconductor-test1cdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-test1cdf

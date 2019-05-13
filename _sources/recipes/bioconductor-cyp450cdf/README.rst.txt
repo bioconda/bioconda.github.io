@@ -47,6 +47,7 @@ bioconductor-cyp450cdf
 
 
 .. |downloads_bioconductor-cyp450cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cyp450cdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cyp450cdf
    :alt:   (downloads)
 .. |docker_bioconductor-cyp450cdf| image:: https://quay.io/repository/biocontainers/bioconductor-cyp450cdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cyp450cdf

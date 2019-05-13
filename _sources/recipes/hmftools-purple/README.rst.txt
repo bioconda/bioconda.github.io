@@ -47,6 +47,7 @@ hmftools-purple
 
 
 .. |downloads_hmftools-purple| image:: https://img.shields.io/conda/dn/bioconda/hmftools-purple.svg?style=flat
+   :target: https://anaconda.org/bioconda/hmftools-purple
    :alt:   (downloads)
 .. |docker_hmftools-purple| image:: https://quay.io/repository/biocontainers/hmftools-purple/status
    :target: https://quay.io/repository/biocontainers/hmftools-purple

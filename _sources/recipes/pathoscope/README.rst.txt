@@ -47,6 +47,7 @@ pathoscope
 
 
 .. |downloads_pathoscope| image:: https://img.shields.io/conda/dn/bioconda/pathoscope.svg?style=flat
+   :target: https://anaconda.org/bioconda/pathoscope
    :alt:   (downloads)
 .. |docker_pathoscope| image:: https://quay.io/repository/biocontainers/pathoscope/status
    :target: https://quay.io/repository/biocontainers/pathoscope

@@ -57,6 +57,7 @@ cgatcore
 
 
 .. |downloads_cgatcore| image:: https://img.shields.io/conda/dn/bioconda/cgatcore.svg?style=flat
+   :target: https://anaconda.org/bioconda/cgatcore
    :alt:   (downloads)
 .. |docker_cgatcore| image:: https://quay.io/repository/biocontainers/cgatcore/status
    :target: https://quay.io/repository/biocontainers/cgatcore

@@ -48,6 +48,7 @@ bioconductor-humanaffydata
 
 
 .. |downloads_bioconductor-humanaffydata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-humanaffydata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-humanaffydata
    :alt:   (downloads)
 .. |docker_bioconductor-humanaffydata| image:: https://quay.io/repository/biocontainers/bioconductor-humanaffydata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-humanaffydata

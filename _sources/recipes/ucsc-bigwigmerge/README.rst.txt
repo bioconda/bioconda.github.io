@@ -50,6 +50,7 @@ ucsc-bigwigmerge
 
 
 .. |downloads_ucsc-bigwigmerge| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bigwigmerge.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bigwigmerge
    :alt:   (downloads)
 .. |docker_ucsc-bigwigmerge| image:: https://quay.io/repository/biocontainers/ucsc-bigwigmerge/status
    :target: https://quay.io/repository/biocontainers/ucsc-bigwigmerge

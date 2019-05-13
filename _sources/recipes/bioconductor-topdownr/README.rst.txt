@@ -54,6 +54,7 @@ bioconductor-topdownr
 
 
 .. |downloads_bioconductor-topdownr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-topdownr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-topdownr
    :alt:   (downloads)
 .. |docker_bioconductor-topdownr| image:: https://quay.io/repository/biocontainers/bioconductor-topdownr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-topdownr

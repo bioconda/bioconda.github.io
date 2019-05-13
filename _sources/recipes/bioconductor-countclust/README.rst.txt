@@ -56,6 +56,7 @@ bioconductor-countclust
 
 
 .. |downloads_bioconductor-countclust| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-countclust.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-countclust
    :alt:   (downloads)
 .. |docker_bioconductor-countclust| image:: https://quay.io/repository/biocontainers/bioconductor-countclust/status
    :target: https://quay.io/repository/biocontainers/bioconductor-countclust

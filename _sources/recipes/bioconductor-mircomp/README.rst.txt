@@ -48,6 +48,7 @@ bioconductor-mircomp
 
 
 .. |downloads_bioconductor-mircomp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mircomp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mircomp
    :alt:   (downloads)
 .. |docker_bioconductor-mircomp| image:: https://quay.io/repository/biocontainers/bioconductor-mircomp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mircomp

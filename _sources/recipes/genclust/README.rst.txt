@@ -46,6 +46,7 @@ genclust
 
 
 .. |downloads_genclust| image:: https://img.shields.io/conda/dn/bioconda/genclust.svg?style=flat
+   :target: https://anaconda.org/bioconda/genclust
    :alt:   (downloads)
 .. |docker_genclust| image:: https://quay.io/repository/biocontainers/genclust/status
    :target: https://quay.io/repository/biocontainers/genclust

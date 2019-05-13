@@ -47,6 +47,7 @@ picard
 
 
 .. |downloads_picard| image:: https://img.shields.io/conda/dn/bioconda/picard.svg?style=flat
+   :target: https://anaconda.org/bioconda/picard
    :alt:   (downloads)
 .. |docker_picard| image:: https://quay.io/repository/biocontainers/picard/status
    :target: https://quay.io/repository/biocontainers/picard

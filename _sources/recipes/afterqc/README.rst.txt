@@ -45,6 +45,7 @@ afterqc
 
 
 .. |downloads_afterqc| image:: https://img.shields.io/conda/dn/bioconda/afterqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/afterqc
    :alt:   (downloads)
 .. |docker_afterqc| image:: https://quay.io/repository/biocontainers/afterqc/status
    :target: https://quay.io/repository/biocontainers/afterqc

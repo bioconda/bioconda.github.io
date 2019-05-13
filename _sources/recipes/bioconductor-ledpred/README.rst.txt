@@ -55,6 +55,7 @@ bioconductor-ledpred
 
 
 .. |downloads_bioconductor-ledpred| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ledpred.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ledpred
    :alt:   (downloads)
 .. |docker_bioconductor-ledpred| image:: https://quay.io/repository/biocontainers/bioconductor-ledpred/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ledpred

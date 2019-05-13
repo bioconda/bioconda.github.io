@@ -48,6 +48,7 @@ perl-dbm-deep
 
 
 .. |downloads_perl-dbm-deep| image:: https://img.shields.io/conda/dn/bioconda/perl-dbm-deep.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-dbm-deep
    :alt:   (downloads)
 .. |docker_perl-dbm-deep| image:: https://quay.io/repository/biocontainers/perl-dbm-deep/status
    :target: https://quay.io/repository/biocontainers/perl-dbm-deep

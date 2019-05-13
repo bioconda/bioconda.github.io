@@ -46,6 +46,7 @@ bioconductor-cogps
 
 
 .. |downloads_bioconductor-cogps| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cogps.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cogps
    :alt:   (downloads)
 .. |docker_bioconductor-cogps| image:: https://quay.io/repository/biocontainers/bioconductor-cogps/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cogps

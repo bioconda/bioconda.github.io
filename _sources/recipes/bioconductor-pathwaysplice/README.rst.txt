@@ -75,6 +75,7 @@ bioconductor-pathwaysplice
 
 
 .. |downloads_bioconductor-pathwaysplice| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pathwaysplice.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pathwaysplice
    :alt:   (downloads)
 .. |docker_bioconductor-pathwaysplice| image:: https://quay.io/repository/biocontainers/bioconductor-pathwaysplice/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pathwaysplice

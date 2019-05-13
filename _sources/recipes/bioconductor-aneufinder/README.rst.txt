@@ -67,6 +67,7 @@ bioconductor-aneufinder
 
 
 .. |downloads_bioconductor-aneufinder| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-aneufinder.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-aneufinder
    :alt:   (downloads)
 .. |docker_bioconductor-aneufinder| image:: https://quay.io/repository/biocontainers/bioconductor-aneufinder/status
    :target: https://quay.io/repository/biocontainers/bioconductor-aneufinder

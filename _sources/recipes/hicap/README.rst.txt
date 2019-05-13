@@ -50,6 +50,7 @@ hicap
 
 
 .. |downloads_hicap| image:: https://img.shields.io/conda/dn/bioconda/hicap.svg?style=flat
+   :target: https://anaconda.org/bioconda/hicap
    :alt:   (downloads)
 .. |docker_hicap| image:: https://quay.io/repository/biocontainers/hicap/status
    :target: https://quay.io/repository/biocontainers/hicap

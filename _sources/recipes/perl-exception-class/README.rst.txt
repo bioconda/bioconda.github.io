@@ -47,6 +47,7 @@ perl-exception-class
 
 
 .. |downloads_perl-exception-class| image:: https://img.shields.io/conda/dn/bioconda/perl-exception-class.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-exception-class
    :alt:   (downloads)
 .. |docker_perl-exception-class| image:: https://quay.io/repository/biocontainers/perl-exception-class/status
    :target: https://quay.io/repository/biocontainers/perl-exception-class

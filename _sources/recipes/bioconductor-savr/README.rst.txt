@@ -51,6 +51,7 @@ bioconductor-savr
 
 
 .. |downloads_bioconductor-savr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-savr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-savr
    :alt:   (downloads)
 .. |docker_bioconductor-savr| image:: https://quay.io/repository/biocontainers/bioconductor-savr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-savr

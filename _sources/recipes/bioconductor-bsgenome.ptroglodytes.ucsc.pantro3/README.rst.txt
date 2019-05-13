@@ -47,6 +47,7 @@ bioconductor-bsgenome.ptroglodytes.ucsc.pantro3
 
 
 .. |downloads_bioconductor-bsgenome.ptroglodytes.ucsc.pantro3| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.ptroglodytes.ucsc.pantro3.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome.ptroglodytes.ucsc.pantro3
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.ptroglodytes.ucsc.pantro3| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.ptroglodytes.ucsc.pantro3/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.ptroglodytes.ucsc.pantro3

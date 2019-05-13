@@ -45,6 +45,7 @@ toolshed
 
 
 .. |downloads_toolshed| image:: https://img.shields.io/conda/dn/bioconda/toolshed.svg?style=flat
+   :target: https://anaconda.org/bioconda/toolshed
    :alt:   (downloads)
 .. |docker_toolshed| image:: https://quay.io/repository/biocontainers/toolshed/status
    :target: https://quay.io/repository/biocontainers/toolshed

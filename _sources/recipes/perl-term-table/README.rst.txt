@@ -47,6 +47,7 @@ perl-term-table
 
 
 .. |downloads_perl-term-table| image:: https://img.shields.io/conda/dn/bioconda/perl-term-table.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-term-table
    :alt:   (downloads)
 .. |docker_perl-term-table| image:: https://quay.io/repository/biocontainers/perl-term-table/status
    :target: https://quay.io/repository/biocontainers/perl-term-table

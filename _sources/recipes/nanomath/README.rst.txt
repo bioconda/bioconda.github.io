@@ -47,6 +47,7 @@ nanomath
 
 
 .. |downloads_nanomath| image:: https://img.shields.io/conda/dn/bioconda/nanomath.svg?style=flat
+   :target: https://anaconda.org/bioconda/nanomath
    :alt:   (downloads)
 .. |docker_nanomath| image:: https://quay.io/repository/biocontainers/nanomath/status
    :target: https://quay.io/repository/biocontainers/nanomath

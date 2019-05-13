@@ -50,6 +50,7 @@ bioconductor-keggorthology
 
 
 .. |downloads_bioconductor-keggorthology| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-keggorthology.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-keggorthology
    :alt:   (downloads)
 .. |docker_bioconductor-keggorthology| image:: https://quay.io/repository/biocontainers/bioconductor-keggorthology/status
    :target: https://quay.io/repository/biocontainers/bioconductor-keggorthology

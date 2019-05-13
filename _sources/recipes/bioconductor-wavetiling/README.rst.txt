@@ -57,6 +57,7 @@ bioconductor-wavetiling
 
 
 .. |downloads_bioconductor-wavetiling| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-wavetiling.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-wavetiling
    :alt:   (downloads)
 .. |docker_bioconductor-wavetiling| image:: https://quay.io/repository/biocontainers/bioconductor-wavetiling/status
    :target: https://quay.io/repository/biocontainers/bioconductor-wavetiling

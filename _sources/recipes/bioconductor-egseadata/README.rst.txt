@@ -46,6 +46,7 @@ bioconductor-egseadata
 
 
 .. |downloads_bioconductor-egseadata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-egseadata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-egseadata
    :alt:   (downloads)
 .. |docker_bioconductor-egseadata| image:: https://quay.io/repository/biocontainers/bioconductor-egseadata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-egseadata

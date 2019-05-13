@@ -56,6 +56,7 @@ bioconductor-drimseq
 
 
 .. |downloads_bioconductor-drimseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-drimseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-drimseq
    :alt:   (downloads)
 .. |docker_bioconductor-drimseq| image:: https://quay.io/repository/biocontainers/bioconductor-drimseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-drimseq

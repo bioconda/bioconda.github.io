@@ -46,6 +46,7 @@ potrace
 
 
 .. |downloads_potrace| image:: https://img.shields.io/conda/dn/bioconda/potrace.svg?style=flat
+   :target: https://anaconda.org/bioconda/potrace
    :alt:   (downloads)
 .. |docker_potrace| image:: https://quay.io/repository/biocontainers/potrace/status
    :target: https://quay.io/repository/biocontainers/potrace

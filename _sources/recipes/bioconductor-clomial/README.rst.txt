@@ -48,6 +48,7 @@ bioconductor-clomial
 
 
 .. |downloads_bioconductor-clomial| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clomial.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-clomial
    :alt:   (downloads)
 .. |docker_bioconductor-clomial| image:: https://quay.io/repository/biocontainers/bioconductor-clomial/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clomial

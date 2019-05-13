@@ -50,6 +50,7 @@ ucsc-htmlcheck
 
 
 .. |downloads_ucsc-htmlcheck| image:: https://img.shields.io/conda/dn/bioconda/ucsc-htmlcheck.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-htmlcheck
    :alt:   (downloads)
 .. |docker_ucsc-htmlcheck| image:: https://quay.io/repository/biocontainers/ucsc-htmlcheck/status
    :target: https://quay.io/repository/biocontainers/ucsc-htmlcheck

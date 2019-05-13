@@ -49,6 +49,7 @@ extract-sv-reads
 
 
 .. |downloads_extract-sv-reads| image:: https://img.shields.io/conda/dn/bioconda/extract-sv-reads.svg?style=flat
+   :target: https://anaconda.org/bioconda/extract-sv-reads
    :alt:   (downloads)
 .. |docker_extract-sv-reads| image:: https://quay.io/repository/biocontainers/extract-sv-reads/status
    :target: https://quay.io/repository/biocontainers/extract-sv-reads

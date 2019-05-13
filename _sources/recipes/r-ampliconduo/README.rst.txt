@@ -47,6 +47,7 @@ r-ampliconduo
 
 
 .. |downloads_r-ampliconduo| image:: https://img.shields.io/conda/dn/bioconda/r-ampliconduo.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-ampliconduo
    :alt:   (downloads)
 .. |docker_r-ampliconduo| image:: https://quay.io/repository/biocontainers/r-ampliconduo/status
    :target: https://quay.io/repository/biocontainers/r-ampliconduo

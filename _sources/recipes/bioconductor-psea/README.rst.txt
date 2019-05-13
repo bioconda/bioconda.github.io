@@ -48,6 +48,7 @@ bioconductor-psea
 
 
 .. |downloads_bioconductor-psea| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-psea.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-psea
    :alt:   (downloads)
 .. |docker_bioconductor-psea| image:: https://quay.io/repository/biocontainers/bioconductor-psea/status
    :target: https://quay.io/repository/biocontainers/bioconductor-psea

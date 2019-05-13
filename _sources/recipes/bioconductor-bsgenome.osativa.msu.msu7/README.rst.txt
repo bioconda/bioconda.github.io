@@ -47,6 +47,7 @@ bioconductor-bsgenome.osativa.msu.msu7
 
 
 .. |downloads_bioconductor-bsgenome.osativa.msu.msu7| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.osativa.msu.msu7.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome.osativa.msu.msu7
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.osativa.msu.msu7| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.osativa.msu.msu7/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.osativa.msu.msu7

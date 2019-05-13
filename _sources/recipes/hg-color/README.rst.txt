@@ -51,6 +51,7 @@ hg-color
 
 
 .. |downloads_hg-color| image:: https://img.shields.io/conda/dn/bioconda/hg-color.svg?style=flat
+   :target: https://anaconda.org/bioconda/hg-color
    :alt:   (downloads)
 .. |docker_hg-color| image:: https://quay.io/repository/biocontainers/hg-color/status
    :target: https://quay.io/repository/biocontainers/hg-color

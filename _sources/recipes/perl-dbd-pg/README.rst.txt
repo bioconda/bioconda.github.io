@@ -48,6 +48,7 @@ perl-dbd-pg
 
 
 .. |downloads_perl-dbd-pg| image:: https://img.shields.io/conda/dn/bioconda/perl-dbd-pg.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-dbd-pg
    :alt:   (downloads)
 .. |docker_perl-dbd-pg| image:: https://quay.io/repository/biocontainers/perl-dbd-pg/status
    :target: https://quay.io/repository/biocontainers/perl-dbd-pg

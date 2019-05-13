@@ -49,6 +49,7 @@ r-wicket
 
 
 .. |downloads_r-wicket| image:: https://img.shields.io/conda/dn/bioconda/r-wicket.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-wicket
    :alt:   (downloads)
 .. |docker_r-wicket| image:: https://quay.io/repository/biocontainers/r-wicket/status
    :target: https://quay.io/repository/biocontainers/r-wicket

@@ -52,6 +52,7 @@ rna-cd
 
 
 .. |downloads_rna-cd| image:: https://img.shields.io/conda/dn/bioconda/rna-cd.svg?style=flat
+   :target: https://anaconda.org/bioconda/rna-cd
    :alt:   (downloads)
 .. |docker_rna-cd| image:: https://quay.io/repository/biocontainers/rna-cd/status
    :target: https://quay.io/repository/biocontainers/rna-cd

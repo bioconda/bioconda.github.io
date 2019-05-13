@@ -46,6 +46,7 @@ py2bit
 
 
 .. |downloads_py2bit| image:: https://img.shields.io/conda/dn/bioconda/py2bit.svg?style=flat
+   :target: https://anaconda.org/bioconda/py2bit
    :alt:   (downloads)
 .. |docker_py2bit| image:: https://quay.io/repository/biocontainers/py2bit/status
    :target: https://quay.io/repository/biocontainers/py2bit

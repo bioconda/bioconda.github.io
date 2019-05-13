@@ -48,6 +48,7 @@ bioconductor-multiomicsviz
 
 
 .. |downloads_bioconductor-multiomicsviz| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-multiomicsviz.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-multiomicsviz
    :alt:   (downloads)
 .. |docker_bioconductor-multiomicsviz| image:: https://quay.io/repository/biocontainers/bioconductor-multiomicsviz/status
    :target: https://quay.io/repository/biocontainers/bioconductor-multiomicsviz

@@ -51,6 +51,7 @@ perl-config-autoconf
 
 
 .. |downloads_perl-config-autoconf| image:: https://img.shields.io/conda/dn/bioconda/perl-config-autoconf.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-config-autoconf
    :alt:   (downloads)
 .. |docker_perl-config-autoconf| image:: https://quay.io/repository/biocontainers/perl-config-autoconf/status
    :target: https://quay.io/repository/biocontainers/perl-config-autoconf

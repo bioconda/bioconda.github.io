@@ -48,6 +48,7 @@ hicbrowser
 
 
 .. |downloads_hicbrowser| image:: https://img.shields.io/conda/dn/bioconda/hicbrowser.svg?style=flat
+   :target: https://anaconda.org/bioconda/hicbrowser
    :alt:   (downloads)
 .. |docker_hicbrowser| image:: https://quay.io/repository/biocontainers/hicbrowser/status
    :target: https://quay.io/repository/biocontainers/hicbrowser

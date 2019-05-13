@@ -47,6 +47,7 @@ r-tcga2stat
 
 
 .. |downloads_r-tcga2stat| image:: https://img.shields.io/conda/dn/bioconda/r-tcga2stat.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-tcga2stat
    :alt:   (downloads)
 .. |docker_r-tcga2stat| image:: https://quay.io/repository/biocontainers/r-tcga2stat/status
    :target: https://quay.io/repository/biocontainers/r-tcga2stat

@@ -46,6 +46,7 @@ paml
 
 
 .. |downloads_paml| image:: https://img.shields.io/conda/dn/bioconda/paml.svg?style=flat
+   :target: https://anaconda.org/bioconda/paml
    :alt:   (downloads)
 .. |docker_paml| image:: https://quay.io/repository/biocontainers/paml/status
    :target: https://quay.io/repository/biocontainers/paml

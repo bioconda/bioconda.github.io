@@ -51,6 +51,7 @@ bioconductor-delayedarray
 
 
 .. |downloads_bioconductor-delayedarray| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-delayedarray.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-delayedarray
    :alt:   (downloads)
 .. |docker_bioconductor-delayedarray| image:: https://quay.io/repository/biocontainers/bioconductor-delayedarray/status
    :target: https://quay.io/repository/biocontainers/bioconductor-delayedarray

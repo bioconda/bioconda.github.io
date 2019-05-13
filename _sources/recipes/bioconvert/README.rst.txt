@@ -82,6 +82,7 @@ bioconvert
 
 
 .. |downloads_bioconvert| image:: https://img.shields.io/conda/dn/bioconda/bioconvert.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconvert
    :alt:   (downloads)
 .. |docker_bioconvert| image:: https://quay.io/repository/biocontainers/bioconvert/status
    :target: https://quay.io/repository/biocontainers/bioconvert

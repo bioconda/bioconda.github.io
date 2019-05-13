@@ -45,6 +45,7 @@ perl-test-eol
 
 
 .. |downloads_perl-test-eol| image:: https://img.shields.io/conda/dn/bioconda/perl-test-eol.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-eol
    :alt:   (downloads)
 .. |docker_perl-test-eol| image:: https://quay.io/repository/biocontainers/perl-test-eol/status
    :target: https://quay.io/repository/biocontainers/perl-test-eol

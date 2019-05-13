@@ -60,6 +60,7 @@ perl-html-form
 
 
 .. |downloads_perl-html-form| image:: https://img.shields.io/conda/dn/bioconda/perl-html-form.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-html-form
    :alt:   (downloads)
 .. |docker_perl-html-form| image:: https://quay.io/repository/biocontainers/perl-html-form/status
    :target: https://quay.io/repository/biocontainers/perl-html-form

@@ -47,6 +47,7 @@ bioconductor-gewist
 
 
 .. |downloads_bioconductor-gewist| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gewist.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gewist
    :alt:   (downloads)
 .. |docker_bioconductor-gewist| image:: https://quay.io/repository/biocontainers/bioconductor-gewist/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gewist

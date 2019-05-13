@@ -46,6 +46,7 @@ plascope
 
 
 .. |downloads_plascope| image:: https://img.shields.io/conda/dn/bioconda/plascope.svg?style=flat
+   :target: https://anaconda.org/bioconda/plascope
    :alt:   (downloads)
 .. |docker_plascope| image:: https://quay.io/repository/biocontainers/plascope/status
    :target: https://quay.io/repository/biocontainers/plascope

@@ -49,6 +49,7 @@ bioconductor-rmagpie
 
 
 .. |downloads_bioconductor-rmagpie| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rmagpie.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rmagpie
    :alt:   (downloads)
 .. |docker_bioconductor-rmagpie| image:: https://quay.io/repository/biocontainers/bioconductor-rmagpie/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rmagpie

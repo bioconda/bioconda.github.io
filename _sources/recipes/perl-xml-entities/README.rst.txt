@@ -46,6 +46,7 @@ perl-xml-entities
 
 
 .. |downloads_perl-xml-entities| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-entities.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-xml-entities
    :alt:   (downloads)
 .. |docker_perl-xml-entities| image:: https://quay.io/repository/biocontainers/perl-xml-entities/status
    :target: https://quay.io/repository/biocontainers/perl-xml-entities

@@ -45,6 +45,7 @@ pyfastaq
 
 
 .. |downloads_pyfastaq| image:: https://img.shields.io/conda/dn/bioconda/pyfastaq.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyfastaq
    :alt:   (downloads)
 .. |docker_pyfastaq| image:: https://quay.io/repository/biocontainers/pyfastaq/status
    :target: https://quay.io/repository/biocontainers/pyfastaq

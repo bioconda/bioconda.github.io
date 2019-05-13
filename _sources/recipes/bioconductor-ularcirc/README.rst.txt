@@ -61,6 +61,7 @@ bioconductor-ularcirc
 
 
 .. |downloads_bioconductor-ularcirc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ularcirc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ularcirc
    :alt:   (downloads)
 .. |docker_bioconductor-ularcirc| image:: https://quay.io/repository/biocontainers/bioconductor-ularcirc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ularcirc

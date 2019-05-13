@@ -47,6 +47,7 @@ mappy
 
 
 .. |downloads_mappy| image:: https://img.shields.io/conda/dn/bioconda/mappy.svg?style=flat
+   :target: https://anaconda.org/bioconda/mappy
    :alt:   (downloads)
 .. |docker_mappy| image:: https://quay.io/repository/biocontainers/mappy/status
    :target: https://quay.io/repository/biocontainers/mappy

@@ -50,6 +50,7 @@ ucsc-pslfilter
 
 
 .. |downloads_ucsc-pslfilter| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslfilter.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-pslfilter
    :alt:   (downloads)
 .. |docker_ucsc-pslfilter| image:: https://quay.io/repository/biocontainers/ucsc-pslfilter/status
    :target: https://quay.io/repository/biocontainers/ucsc-pslfilter

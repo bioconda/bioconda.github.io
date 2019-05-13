@@ -49,6 +49,7 @@ bioconductor-rtca
 
 
 .. |downloads_bioconductor-rtca| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtca.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rtca
    :alt:   (downloads)
 .. |docker_bioconductor-rtca| image:: https://quay.io/repository/biocontainers/bioconductor-rtca/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtca

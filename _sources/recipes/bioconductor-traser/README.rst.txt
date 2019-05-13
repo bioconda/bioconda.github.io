@@ -49,6 +49,7 @@ bioconductor-traser
 
 
 .. |downloads_bioconductor-traser| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-traser.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-traser
    :alt:   (downloads)
 .. |docker_bioconductor-traser| image:: https://quay.io/repository/biocontainers/bioconductor-traser/status
    :target: https://quay.io/repository/biocontainers/bioconductor-traser

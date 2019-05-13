@@ -56,6 +56,7 @@ fusion-filter
 
 
 .. |downloads_fusion-filter| image:: https://img.shields.io/conda/dn/bioconda/fusion-filter.svg?style=flat
+   :target: https://anaconda.org/bioconda/fusion-filter
    :alt:   (downloads)
 .. |docker_fusion-filter| image:: https://quay.io/repository/biocontainers/fusion-filter/status
    :target: https://quay.io/repository/biocontainers/fusion-filter

@@ -46,6 +46,7 @@ bioconductor-cfassay
 
 
 .. |downloads_bioconductor-cfassay| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cfassay.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cfassay
    :alt:   (downloads)
 .. |docker_bioconductor-cfassay| image:: https://quay.io/repository/biocontainers/bioconductor-cfassay/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cfassay

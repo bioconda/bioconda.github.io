@@ -53,6 +53,7 @@ bioconductor-multiassayexperiment
 
 
 .. |downloads_bioconductor-multiassayexperiment| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-multiassayexperiment.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-multiassayexperiment
    :alt:   (downloads)
 .. |docker_bioconductor-multiassayexperiment| image:: https://quay.io/repository/biocontainers/bioconductor-multiassayexperiment/status
    :target: https://quay.io/repository/biocontainers/bioconductor-multiassayexperiment

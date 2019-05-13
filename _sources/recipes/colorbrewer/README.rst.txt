@@ -46,6 +46,7 @@ colorbrewer
 
 
 .. |downloads_colorbrewer| image:: https://img.shields.io/conda/dn/bioconda/colorbrewer.svg?style=flat
+   :target: https://anaconda.org/bioconda/colorbrewer
    :alt:   (downloads)
 .. |docker_colorbrewer| image:: https://quay.io/repository/biocontainers/colorbrewer/status
    :target: https://quay.io/repository/biocontainers/colorbrewer

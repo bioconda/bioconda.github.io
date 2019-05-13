@@ -45,6 +45,7 @@ perl-array-utils
 
 
 .. |downloads_perl-array-utils| image:: https://img.shields.io/conda/dn/bioconda/perl-array-utils.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-array-utils
    :alt:   (downloads)
 .. |docker_perl-array-utils| image:: https://quay.io/repository/biocontainers/perl-array-utils/status
    :target: https://quay.io/repository/biocontainers/perl-array-utils

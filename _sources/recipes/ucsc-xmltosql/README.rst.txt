@@ -50,6 +50,7 @@ ucsc-xmltosql
 
 
 .. |downloads_ucsc-xmltosql| image:: https://img.shields.io/conda/dn/bioconda/ucsc-xmltosql.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-xmltosql
    :alt:   (downloads)
 .. |docker_ucsc-xmltosql| image:: https://quay.io/repository/biocontainers/ucsc-xmltosql/status
    :target: https://quay.io/repository/biocontainers/ucsc-xmltosql

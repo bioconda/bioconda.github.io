@@ -48,6 +48,7 @@ bioconductor-sangerseqr
 
 
 .. |downloads_bioconductor-sangerseqr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sangerseqr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sangerseqr
    :alt:   (downloads)
 .. |docker_bioconductor-sangerseqr| image:: https://quay.io/repository/biocontainers/bioconductor-sangerseqr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sangerseqr

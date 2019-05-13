@@ -47,6 +47,7 @@ graphlan
 
 
 .. |downloads_graphlan| image:: https://img.shields.io/conda/dn/bioconda/graphlan.svg?style=flat
+   :target: https://anaconda.org/bioconda/graphlan
    :alt:   (downloads)
 .. |docker_graphlan| image:: https://quay.io/repository/biocontainers/graphlan/status
    :target: https://quay.io/repository/biocontainers/graphlan

@@ -45,6 +45,7 @@ quicktree
 
 
 .. |downloads_quicktree| image:: https://img.shields.io/conda/dn/bioconda/quicktree.svg?style=flat
+   :target: https://anaconda.org/bioconda/quicktree
    :alt:   (downloads)
 .. |docker_quicktree| image:: https://quay.io/repository/biocontainers/quicktree/status
    :target: https://quay.io/repository/biocontainers/quicktree

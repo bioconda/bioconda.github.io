@@ -55,6 +55,7 @@ bioconductor-chimera
 
 
 .. |downloads_bioconductor-chimera| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chimera.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chimera
    :alt:   (downloads)
 .. |docker_bioconductor-chimera| image:: https://quay.io/repository/biocontainers/bioconductor-chimera/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chimera

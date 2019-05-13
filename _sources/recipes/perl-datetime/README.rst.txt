@@ -56,6 +56,7 @@ perl-datetime
 
 
 .. |downloads_perl-datetime| image:: https://img.shields.io/conda/dn/bioconda/perl-datetime.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-datetime
    :alt:   (downloads)
 .. |docker_perl-datetime| image:: https://quay.io/repository/biocontainers/perl-datetime/status
    :target: https://quay.io/repository/biocontainers/perl-datetime

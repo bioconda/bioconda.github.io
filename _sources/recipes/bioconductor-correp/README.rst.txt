@@ -47,6 +47,7 @@ bioconductor-correp
 
 
 .. |downloads_bioconductor-correp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-correp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-correp
    :alt:   (downloads)
 .. |docker_bioconductor-correp| image:: https://quay.io/repository/biocontainers/bioconductor-correp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-correp

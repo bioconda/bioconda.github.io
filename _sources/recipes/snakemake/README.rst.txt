@@ -60,6 +60,7 @@ snakemake
 
 
 .. |downloads_snakemake| image:: https://img.shields.io/conda/dn/bioconda/snakemake.svg?style=flat
+   :target: https://anaconda.org/bioconda/snakemake
    :alt:   (downloads)
 .. |docker_snakemake| image:: https://quay.io/repository/biocontainers/snakemake/status
    :target: https://quay.io/repository/biocontainers/snakemake

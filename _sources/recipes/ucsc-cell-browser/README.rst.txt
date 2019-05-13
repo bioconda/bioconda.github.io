@@ -47,6 +47,7 @@ ucsc-cell-browser
 
 
 .. |downloads_ucsc-cell-browser| image:: https://img.shields.io/conda/dn/bioconda/ucsc-cell-browser.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-cell-browser
    :alt:   (downloads)
 .. |docker_ucsc-cell-browser| image:: https://quay.io/repository/biocontainers/ucsc-cell-browser/status
    :target: https://quay.io/repository/biocontainers/ucsc-cell-browser

@@ -46,6 +46,7 @@ helperlibs
 
 
 .. |downloads_helperlibs| image:: https://img.shields.io/conda/dn/bioconda/helperlibs.svg?style=flat
+   :target: https://anaconda.org/bioconda/helperlibs
    :alt:   (downloads)
 .. |docker_helperlibs| image:: https://quay.io/repository/biocontainers/helperlibs/status
    :target: https://quay.io/repository/biocontainers/helperlibs

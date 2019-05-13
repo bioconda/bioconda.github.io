@@ -46,6 +46,7 @@ basic
 
 
 .. |downloads_basic| image:: https://img.shields.io/conda/dn/bioconda/basic.svg?style=flat
+   :target: https://anaconda.org/bioconda/basic
    :alt:   (downloads)
 .. |docker_basic| image:: https://quay.io/repository/biocontainers/basic/status
    :target: https://quay.io/repository/biocontainers/basic

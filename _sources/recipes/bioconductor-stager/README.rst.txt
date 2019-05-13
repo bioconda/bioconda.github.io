@@ -46,6 +46,7 @@ bioconductor-stager
 
 
 .. |downloads_bioconductor-stager| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-stager.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-stager
    :alt:   (downloads)
 .. |docker_bioconductor-stager| image:: https://quay.io/repository/biocontainers/bioconductor-stager/status
    :target: https://quay.io/repository/biocontainers/bioconductor-stager

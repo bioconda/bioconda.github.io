@@ -47,6 +47,7 @@ r-chbutils
 
 
 .. |downloads_r-chbutils| image:: https://img.shields.io/conda/dn/bioconda/r-chbutils.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-chbutils
    :alt:   (downloads)
 .. |docker_r-chbutils| image:: https://quay.io/repository/biocontainers/r-chbutils/status
    :target: https://quay.io/repository/biocontainers/r-chbutils

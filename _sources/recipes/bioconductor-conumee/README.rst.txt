@@ -44,6 +44,7 @@ bioconductor-conumee
 
 
 .. |downloads_bioconductor-conumee| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-conumee.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-conumee
    :alt:   (downloads)
 .. |docker_bioconductor-conumee| image:: https://quay.io/repository/biocontainers/bioconductor-conumee/status
    :target: https://quay.io/repository/biocontainers/bioconductor-conumee

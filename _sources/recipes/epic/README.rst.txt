@@ -57,6 +57,7 @@ epic
 
 
 .. |downloads_epic| image:: https://img.shields.io/conda/dn/bioconda/epic.svg?style=flat
+   :target: https://anaconda.org/bioconda/epic
    :alt:   (downloads)
 .. |docker_epic| image:: https://quay.io/repository/biocontainers/epic/status
    :target: https://quay.io/repository/biocontainers/epic

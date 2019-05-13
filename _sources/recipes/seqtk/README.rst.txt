@@ -47,6 +47,7 @@ seqtk
 
 
 .. |downloads_seqtk| image:: https://img.shields.io/conda/dn/bioconda/seqtk.svg?style=flat
+   :target: https://anaconda.org/bioconda/seqtk
    :alt:   (downloads)
 .. |docker_seqtk| image:: https://quay.io/repository/biocontainers/seqtk/status
    :target: https://quay.io/repository/biocontainers/seqtk

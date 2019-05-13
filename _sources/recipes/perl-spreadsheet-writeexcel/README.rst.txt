@@ -47,6 +47,7 @@ perl-spreadsheet-writeexcel
 
 
 .. |downloads_perl-spreadsheet-writeexcel| image:: https://img.shields.io/conda/dn/bioconda/perl-spreadsheet-writeexcel.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-spreadsheet-writeexcel
    :alt:   (downloads)
 .. |docker_perl-spreadsheet-writeexcel| image:: https://quay.io/repository/biocontainers/perl-spreadsheet-writeexcel/status
    :target: https://quay.io/repository/biocontainers/perl-spreadsheet-writeexcel

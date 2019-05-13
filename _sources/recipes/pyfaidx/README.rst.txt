@@ -47,6 +47,7 @@ pyfaidx
 
 
 .. |downloads_pyfaidx| image:: https://img.shields.io/conda/dn/bioconda/pyfaidx.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyfaidx
    :alt:   (downloads)
 .. |docker_pyfaidx| image:: https://quay.io/repository/biocontainers/pyfaidx/status
    :target: https://quay.io/repository/biocontainers/pyfaidx

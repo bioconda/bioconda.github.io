@@ -52,6 +52,7 @@ blobtools
 
 
 .. |downloads_blobtools| image:: https://img.shields.io/conda/dn/bioconda/blobtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/blobtools
    :alt:   (downloads)
 .. |docker_blobtools| image:: https://quay.io/repository/biocontainers/blobtools/status
    :target: https://quay.io/repository/biocontainers/blobtools

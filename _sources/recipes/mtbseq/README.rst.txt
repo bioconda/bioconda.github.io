@@ -53,6 +53,7 @@ mtbseq
 
 
 .. |downloads_mtbseq| image:: https://img.shields.io/conda/dn/bioconda/mtbseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/mtbseq
    :alt:   (downloads)
 .. |docker_mtbseq| image:: https://quay.io/repository/biocontainers/mtbseq/status
    :target: https://quay.io/repository/biocontainers/mtbseq

@@ -50,6 +50,7 @@ bioconductor-omicsprint
 
 
 .. |downloads_bioconductor-omicsprint| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-omicsprint.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-omicsprint
    :alt:   (downloads)
 .. |docker_bioconductor-omicsprint| image:: https://quay.io/repository/biocontainers/bioconductor-omicsprint/status
    :target: https://quay.io/repository/biocontainers/bioconductor-omicsprint

@@ -45,6 +45,7 @@ any2fasta
 
 
 .. |downloads_any2fasta| image:: https://img.shields.io/conda/dn/bioconda/any2fasta.svg?style=flat
+   :target: https://anaconda.org/bioconda/any2fasta
    :alt:   (downloads)
 .. |docker_any2fasta| image:: https://quay.io/repository/biocontainers/any2fasta/status
    :target: https://quay.io/repository/biocontainers/any2fasta

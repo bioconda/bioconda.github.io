@@ -77,6 +77,7 @@ biopet-bamstats
 
 
 .. |downloads_biopet-bamstats| image:: https://img.shields.io/conda/dn/bioconda/biopet-bamstats.svg?style=flat
+   :target: https://anaconda.org/bioconda/biopet-bamstats
    :alt:   (downloads)
 .. |docker_biopet-bamstats| image:: https://quay.io/repository/biocontainers/biopet-bamstats/status
    :target: https://quay.io/repository/biocontainers/biopet-bamstats

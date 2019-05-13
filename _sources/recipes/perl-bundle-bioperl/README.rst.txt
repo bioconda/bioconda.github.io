@@ -45,6 +45,7 @@ perl-bundle-bioperl
 
 
 .. |downloads_perl-bundle-bioperl| image:: https://img.shields.io/conda/dn/bioconda/perl-bundle-bioperl.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bundle-bioperl
    :alt:   (downloads)
 .. |docker_perl-bundle-bioperl| image:: https://quay.io/repository/biocontainers/perl-bundle-bioperl/status
    :target: https://quay.io/repository/biocontainers/perl-bundle-bioperl

@@ -51,6 +51,7 @@ kneaddata
 
 
 .. |downloads_kneaddata| image:: https://img.shields.io/conda/dn/bioconda/kneaddata.svg?style=flat
+   :target: https://anaconda.org/bioconda/kneaddata
    :alt:   (downloads)
 .. |docker_kneaddata| image:: https://quay.io/repository/biocontainers/kneaddata/status
    :target: https://quay.io/repository/biocontainers/kneaddata

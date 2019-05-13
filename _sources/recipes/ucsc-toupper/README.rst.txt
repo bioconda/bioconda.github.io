@@ -50,6 +50,7 @@ ucsc-toupper
 
 
 .. |downloads_ucsc-toupper| image:: https://img.shields.io/conda/dn/bioconda/ucsc-toupper.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-toupper
    :alt:   (downloads)
 .. |docker_ucsc-toupper| image:: https://quay.io/repository/biocontainers/ucsc-toupper/status
    :target: https://quay.io/repository/biocontainers/ucsc-toupper

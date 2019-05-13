@@ -52,6 +52,7 @@ bioconductor-qcmetrics
 
 
 .. |downloads_bioconductor-qcmetrics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-qcmetrics.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-qcmetrics
    :alt:   (downloads)
 .. |docker_bioconductor-qcmetrics| image:: https://quay.io/repository/biocontainers/bioconductor-qcmetrics/status
    :target: https://quay.io/repository/biocontainers/bioconductor-qcmetrics

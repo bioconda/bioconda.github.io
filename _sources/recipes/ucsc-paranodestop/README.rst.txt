@@ -50,6 +50,7 @@ ucsc-paranodestop
 
 
 .. |downloads_ucsc-paranodestop| image:: https://img.shields.io/conda/dn/bioconda/ucsc-paranodestop.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-paranodestop
    :alt:   (downloads)
 .. |docker_ucsc-paranodestop| image:: https://quay.io/repository/biocontainers/ucsc-paranodestop/status
    :target: https://quay.io/repository/biocontainers/ucsc-paranodestop

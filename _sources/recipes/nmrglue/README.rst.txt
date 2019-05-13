@@ -48,6 +48,7 @@ nmrglue
 
 
 .. |downloads_nmrglue| image:: https://img.shields.io/conda/dn/bioconda/nmrglue.svg?style=flat
+   :target: https://anaconda.org/bioconda/nmrglue
    :alt:   (downloads)
 .. |docker_nmrglue| image:: https://quay.io/repository/biocontainers/nmrglue/status
    :target: https://quay.io/repository/biocontainers/nmrglue

@@ -45,6 +45,7 @@ perl-want
 
 
 .. |downloads_perl-want| image:: https://img.shields.io/conda/dn/bioconda/perl-want.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-want
    :alt:   (downloads)
 .. |docker_perl-want| image:: https://quay.io/repository/biocontainers/perl-want/status
    :target: https://quay.io/repository/biocontainers/perl-want

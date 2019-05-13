@@ -53,6 +53,7 @@ flowcraft
 
 
 .. |downloads_flowcraft| image:: https://img.shields.io/conda/dn/bioconda/flowcraft.svg?style=flat
+   :target: https://anaconda.org/bioconda/flowcraft
    :alt:   (downloads)
 .. |docker_flowcraft| image:: https://quay.io/repository/biocontainers/flowcraft/status
    :target: https://quay.io/repository/biocontainers/flowcraft

@@ -45,6 +45,7 @@ perl-readonly
 
 
 .. |downloads_perl-readonly| image:: https://img.shields.io/conda/dn/bioconda/perl-readonly.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-readonly
    :alt:   (downloads)
 .. |docker_perl-readonly| image:: https://quay.io/repository/biocontainers/perl-readonly/status
    :target: https://quay.io/repository/biocontainers/perl-readonly

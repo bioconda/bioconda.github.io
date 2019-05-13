@@ -47,6 +47,7 @@ bioconductor-harmonizedtcgadata
 
 
 .. |downloads_bioconductor-harmonizedtcgadata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-harmonizedtcgadata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-harmonizedtcgadata
    :alt:   (downloads)
 .. |docker_bioconductor-harmonizedtcgadata| image:: https://quay.io/repository/biocontainers/bioconductor-harmonizedtcgadata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-harmonizedtcgadata

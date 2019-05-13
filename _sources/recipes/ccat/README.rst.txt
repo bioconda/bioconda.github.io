@@ -45,6 +45,7 @@ ccat
 
 
 .. |downloads_ccat| image:: https://img.shields.io/conda/dn/bioconda/ccat.svg?style=flat
+   :target: https://anaconda.org/bioconda/ccat
    :alt:   (downloads)
 .. |docker_ccat| image:: https://quay.io/repository/biocontainers/ccat/status
    :target: https://quay.io/repository/biocontainers/ccat

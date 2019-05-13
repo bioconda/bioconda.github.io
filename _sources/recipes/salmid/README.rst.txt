@@ -45,6 +45,7 @@ salmid
 
 
 .. |downloads_salmid| image:: https://img.shields.io/conda/dn/bioconda/salmid.svg?style=flat
+   :target: https://anaconda.org/bioconda/salmid
    :alt:   (downloads)
 .. |docker_salmid| image:: https://quay.io/repository/biocontainers/salmid/status
    :target: https://quay.io/repository/biocontainers/salmid

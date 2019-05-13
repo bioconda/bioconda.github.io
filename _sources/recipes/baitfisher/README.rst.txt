@@ -45,6 +45,7 @@ baitfisher
 
 
 .. |downloads_baitfisher| image:: https://img.shields.io/conda/dn/bioconda/baitfisher.svg?style=flat
+   :target: https://anaconda.org/bioconda/baitfisher
    :alt:   (downloads)
 .. |docker_baitfisher| image:: https://quay.io/repository/biocontainers/baitfisher/status
    :target: https://quay.io/repository/biocontainers/baitfisher

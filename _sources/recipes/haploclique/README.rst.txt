@@ -48,6 +48,7 @@ haploclique
 
 
 .. |downloads_haploclique| image:: https://img.shields.io/conda/dn/bioconda/haploclique.svg?style=flat
+   :target: https://anaconda.org/bioconda/haploclique
    :alt:   (downloads)
 .. |docker_haploclique| image:: https://quay.io/repository/biocontainers/haploclique/status
    :target: https://quay.io/repository/biocontainers/haploclique

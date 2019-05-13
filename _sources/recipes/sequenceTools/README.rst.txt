@@ -49,6 +49,7 @@ sequencetools
 
 
 .. |downloads_sequencetools| image:: https://img.shields.io/conda/dn/bioconda/sequencetools.svg?style=flat
+   :target: https://anaconda.org/bioconda/sequencetools
    :alt:   (downloads)
 .. |docker_sequencetools| image:: https://quay.io/repository/biocontainers/sequencetools/status
    :target: https://quay.io/repository/biocontainers/sequencetools

@@ -45,6 +45,7 @@ openmg
 
 
 .. |downloads_openmg| image:: https://img.shields.io/conda/dn/bioconda/openmg.svg?style=flat
+   :target: https://anaconda.org/bioconda/openmg
    :alt:   (downloads)
 .. |docker_openmg| image:: https://quay.io/repository/biocontainers/openmg/status
    :target: https://quay.io/repository/biocontainers/openmg

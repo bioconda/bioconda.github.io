@@ -46,6 +46,7 @@ tn93
 
 
 .. |downloads_tn93| image:: https://img.shields.io/conda/dn/bioconda/tn93.svg?style=flat
+   :target: https://anaconda.org/bioconda/tn93
    :alt:   (downloads)
 .. |docker_tn93| image:: https://quay.io/repository/biocontainers/tn93/status
    :target: https://quay.io/repository/biocontainers/tn93

@@ -51,6 +51,7 @@ bioconductor-undo
 
 
 .. |downloads_bioconductor-undo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-undo.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-undo
    :alt:   (downloads)
 .. |docker_bioconductor-undo| image:: https://quay.io/repository/biocontainers/bioconductor-undo/status
    :target: https://quay.io/repository/biocontainers/bioconductor-undo

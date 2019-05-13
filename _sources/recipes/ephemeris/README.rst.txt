@@ -48,6 +48,7 @@ ephemeris
 
 
 .. |downloads_ephemeris| image:: https://img.shields.io/conda/dn/bioconda/ephemeris.svg?style=flat
+   :target: https://anaconda.org/bioconda/ephemeris
    :alt:   (downloads)
 .. |docker_ephemeris| image:: https://quay.io/repository/biocontainers/ephemeris/status
    :target: https://quay.io/repository/biocontainers/ephemeris

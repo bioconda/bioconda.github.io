@@ -47,6 +47,7 @@ bioconductor-sagenhaft
 
 
 .. |downloads_bioconductor-sagenhaft| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sagenhaft.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sagenhaft
    :alt:   (downloads)
 .. |docker_bioconductor-sagenhaft| image:: https://quay.io/repository/biocontainers/bioconductor-sagenhaft/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sagenhaft

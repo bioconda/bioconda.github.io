@@ -52,6 +52,7 @@ find_differential_primers
 
 
 .. |downloads_find_differential_primers| image:: https://img.shields.io/conda/dn/bioconda/find_differential_primers.svg?style=flat
+   :target: https://anaconda.org/bioconda/find_differential_primers
    :alt:   (downloads)
 .. |docker_find_differential_primers| image:: https://quay.io/repository/biocontainers/find_differential_primers/status
    :target: https://quay.io/repository/biocontainers/find_differential_primers

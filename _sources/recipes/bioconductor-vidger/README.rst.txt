@@ -57,6 +57,7 @@ bioconductor-vidger
 
 
 .. |downloads_bioconductor-vidger| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-vidger.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-vidger
    :alt:   (downloads)
 .. |docker_bioconductor-vidger| image:: https://quay.io/repository/biocontainers/bioconductor-vidger/status
    :target: https://quay.io/repository/biocontainers/bioconductor-vidger

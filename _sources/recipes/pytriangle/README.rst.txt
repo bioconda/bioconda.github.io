@@ -46,6 +46,7 @@ pytriangle
 
 
 .. |downloads_pytriangle| image:: https://img.shields.io/conda/dn/bioconda/pytriangle.svg?style=flat
+   :target: https://anaconda.org/bioconda/pytriangle
    :alt:   (downloads)
 .. |docker_pytriangle| image:: https://quay.io/repository/biocontainers/pytriangle/status
    :target: https://quay.io/repository/biocontainers/pytriangle

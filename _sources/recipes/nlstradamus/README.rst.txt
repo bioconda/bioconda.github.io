@@ -46,6 +46,7 @@ nlstradamus
 
 
 .. |downloads_nlstradamus| image:: https://img.shields.io/conda/dn/bioconda/nlstradamus.svg?style=flat
+   :target: https://anaconda.org/bioconda/nlstradamus
    :alt:   (downloads)
 .. |docker_nlstradamus| image:: https://quay.io/repository/biocontainers/nlstradamus/status
    :target: https://quay.io/repository/biocontainers/nlstradamus

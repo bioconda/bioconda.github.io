@@ -47,6 +47,7 @@ bioconductor-bsgenome.btaurus.ucsc.bostau8
 
 
 .. |downloads_bioconductor-bsgenome.btaurus.ucsc.bostau8| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.btaurus.ucsc.bostau8.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome.btaurus.ucsc.bostau8
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.btaurus.ucsc.bostau8| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.btaurus.ucsc.bostau8/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.btaurus.ucsc.bostau8

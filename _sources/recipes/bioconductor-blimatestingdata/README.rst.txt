@@ -46,6 +46,7 @@ bioconductor-blimatestingdata
 
 
 .. |downloads_bioconductor-blimatestingdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-blimatestingdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-blimatestingdata
    :alt:   (downloads)
 .. |docker_bioconductor-blimatestingdata| image:: https://quay.io/repository/biocontainers/bioconductor-blimatestingdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-blimatestingdata

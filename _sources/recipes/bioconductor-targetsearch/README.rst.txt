@@ -47,6 +47,7 @@ bioconductor-targetsearch
 
 
 .. |downloads_bioconductor-targetsearch| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-targetsearch.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-targetsearch
    :alt:   (downloads)
 .. |docker_bioconductor-targetsearch| image:: https://quay.io/repository/biocontainers/bioconductor-targetsearch/status
    :target: https://quay.io/repository/biocontainers/bioconductor-targetsearch

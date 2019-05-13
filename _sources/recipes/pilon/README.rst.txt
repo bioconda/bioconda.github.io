@@ -46,6 +46,7 @@ pilon
 
 
 .. |downloads_pilon| image:: https://img.shields.io/conda/dn/bioconda/pilon.svg?style=flat
+   :target: https://anaconda.org/bioconda/pilon
    :alt:   (downloads)
 .. |docker_pilon| image:: https://quay.io/repository/biocontainers/pilon/status
    :target: https://quay.io/repository/biocontainers/pilon

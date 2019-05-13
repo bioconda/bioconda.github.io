@@ -46,6 +46,7 @@ bioconductor-gskb
 
 
 .. |downloads_bioconductor-gskb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gskb.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gskb
    :alt:   (downloads)
 .. |docker_bioconductor-gskb| image:: https://quay.io/repository/biocontainers/bioconductor-gskb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gskb

@@ -51,6 +51,7 @@ perl-moosex-types-path-tiny
 
 
 .. |downloads_perl-moosex-types-path-tiny| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-types-path-tiny.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-moosex-types-path-tiny
    :alt:   (downloads)
 .. |docker_perl-moosex-types-path-tiny| image:: https://quay.io/repository/biocontainers/perl-moosex-types-path-tiny/status
    :target: https://quay.io/repository/biocontainers/perl-moosex-types-path-tiny

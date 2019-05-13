@@ -49,6 +49,7 @@ pysradb
 
 
 .. |downloads_pysradb| image:: https://img.shields.io/conda/dn/bioconda/pysradb.svg?style=flat
+   :target: https://anaconda.org/bioconda/pysradb
    :alt:   (downloads)
 .. |docker_pysradb| image:: https://quay.io/repository/biocontainers/pysradb/status
    :target: https://quay.io/repository/biocontainers/pysradb

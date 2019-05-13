@@ -49,6 +49,7 @@ riboplot
 
 
 .. |downloads_riboplot| image:: https://img.shields.io/conda/dn/bioconda/riboplot.svg?style=flat
+   :target: https://anaconda.org/bioconda/riboplot
    :alt:   (downloads)
 .. |docker_riboplot| image:: https://quay.io/repository/biocontainers/riboplot/status
    :target: https://quay.io/repository/biocontainers/riboplot

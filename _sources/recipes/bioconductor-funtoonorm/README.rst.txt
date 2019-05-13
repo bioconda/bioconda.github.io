@@ -51,6 +51,7 @@ bioconductor-funtoonorm
 
 
 .. |downloads_bioconductor-funtoonorm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-funtoonorm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-funtoonorm
    :alt:   (downloads)
 .. |docker_bioconductor-funtoonorm| image:: https://quay.io/repository/biocontainers/bioconductor-funtoonorm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-funtoonorm

@@ -45,6 +45,7 @@ splitmem
 
 
 .. |downloads_splitmem| image:: https://img.shields.io/conda/dn/bioconda/splitmem.svg?style=flat
+   :target: https://anaconda.org/bioconda/splitmem
    :alt:   (downloads)
 .. |docker_splitmem| image:: https://quay.io/repository/biocontainers/splitmem/status
    :target: https://quay.io/repository/biocontainers/splitmem

@@ -47,6 +47,7 @@ bioconductor-bladderbatch
 
 
 .. |downloads_bioconductor-bladderbatch| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bladderbatch.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bladderbatch
    :alt:   (downloads)
 .. |docker_bioconductor-bladderbatch| image:: https://quay.io/repository/biocontainers/bioconductor-bladderbatch/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bladderbatch

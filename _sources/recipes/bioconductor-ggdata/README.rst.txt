@@ -51,6 +51,7 @@ bioconductor-ggdata
 
 
 .. |downloads_bioconductor-ggdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ggdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ggdata
    :alt:   (downloads)
 .. |docker_bioconductor-ggdata| image:: https://quay.io/repository/biocontainers/bioconductor-ggdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ggdata

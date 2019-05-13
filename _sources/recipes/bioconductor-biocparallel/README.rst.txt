@@ -51,6 +51,7 @@ bioconductor-biocparallel
 
 
 .. |downloads_bioconductor-biocparallel| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biocparallel.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-biocparallel
    :alt:   (downloads)
 .. |docker_bioconductor-biocparallel| image:: https://quay.io/repository/biocontainers/bioconductor-biocparallel/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biocparallel

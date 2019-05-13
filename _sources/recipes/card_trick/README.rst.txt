@@ -47,6 +47,7 @@ card_trick
 
 
 .. |downloads_card_trick| image:: https://img.shields.io/conda/dn/bioconda/card_trick.svg?style=flat
+   :target: https://anaconda.org/bioconda/card_trick
    :alt:   (downloads)
 .. |docker_card_trick| image:: https://quay.io/repository/biocontainers/card_trick/status
    :target: https://quay.io/repository/biocontainers/card_trick

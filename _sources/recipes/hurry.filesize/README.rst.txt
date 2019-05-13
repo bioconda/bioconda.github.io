@@ -46,6 +46,7 @@ hurry.filesize
 
 
 .. |downloads_hurry.filesize| image:: https://img.shields.io/conda/dn/bioconda/hurry.filesize.svg?style=flat
+   :target: https://anaconda.org/bioconda/hurry.filesize
    :alt:   (downloads)
 .. |docker_hurry.filesize| image:: https://quay.io/repository/biocontainers/hurry.filesize/status
    :target: https://quay.io/repository/biocontainers/hurry.filesize

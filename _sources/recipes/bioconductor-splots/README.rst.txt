@@ -47,6 +47,7 @@ bioconductor-splots
 
 
 .. |downloads_bioconductor-splots| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-splots.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-splots
    :alt:   (downloads)
 .. |docker_bioconductor-splots| image:: https://quay.io/repository/biocontainers/bioconductor-splots/status
    :target: https://quay.io/repository/biocontainers/bioconductor-splots

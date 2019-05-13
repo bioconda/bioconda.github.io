@@ -47,6 +47,7 @@ sicer
 
 
 .. |downloads_sicer| image:: https://img.shields.io/conda/dn/bioconda/sicer.svg?style=flat
+   :target: https://anaconda.org/bioconda/sicer
    :alt:   (downloads)
 .. |docker_sicer| image:: https://quay.io/repository/biocontainers/sicer/status
    :target: https://quay.io/repository/biocontainers/sicer

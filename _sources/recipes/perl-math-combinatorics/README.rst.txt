@@ -45,6 +45,7 @@ perl-math-combinatorics
 
 
 .. |downloads_perl-math-combinatorics| image:: https://img.shields.io/conda/dn/bioconda/perl-math-combinatorics.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-math-combinatorics
    :alt:   (downloads)
 .. |docker_perl-math-combinatorics| image:: https://quay.io/repository/biocontainers/perl-math-combinatorics/status
    :target: https://quay.io/repository/biocontainers/perl-math-combinatorics

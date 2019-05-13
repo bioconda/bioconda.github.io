@@ -47,6 +47,7 @@ r-treesim
 
 
 .. |downloads_r-treesim| image:: https://img.shields.io/conda/dn/bioconda/r-treesim.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-treesim
    :alt:   (downloads)
 .. |docker_r-treesim| image:: https://quay.io/repository/biocontainers/r-treesim/status
    :target: https://quay.io/repository/biocontainers/r-treesim

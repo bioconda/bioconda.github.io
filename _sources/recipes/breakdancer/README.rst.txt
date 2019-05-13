@@ -50,6 +50,7 @@ breakdancer
 
 
 .. |downloads_breakdancer| image:: https://img.shields.io/conda/dn/bioconda/breakdancer.svg?style=flat
+   :target: https://anaconda.org/bioconda/breakdancer
    :alt:   (downloads)
 .. |docker_breakdancer| image:: https://quay.io/repository/biocontainers/breakdancer/status
    :target: https://quay.io/repository/biocontainers/breakdancer

@@ -45,6 +45,7 @@ perl-scope-guard
 
 
 .. |downloads_perl-scope-guard| image:: https://img.shields.io/conda/dn/bioconda/perl-scope-guard.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-scope-guard
    :alt:   (downloads)
 .. |docker_perl-scope-guard| image:: https://quay.io/repository/biocontainers/perl-scope-guard/status
    :target: https://quay.io/repository/biocontainers/perl-scope-guard

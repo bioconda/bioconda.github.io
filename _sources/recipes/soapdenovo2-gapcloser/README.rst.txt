@@ -46,6 +46,7 @@ soapdenovo2-gapcloser
 
 
 .. |downloads_soapdenovo2-gapcloser| image:: https://img.shields.io/conda/dn/bioconda/soapdenovo2-gapcloser.svg?style=flat
+   :target: https://anaconda.org/bioconda/soapdenovo2-gapcloser
    :alt:   (downloads)
 .. |docker_soapdenovo2-gapcloser| image:: https://quay.io/repository/biocontainers/soapdenovo2-gapcloser/status
    :target: https://quay.io/repository/biocontainers/soapdenovo2-gapcloser

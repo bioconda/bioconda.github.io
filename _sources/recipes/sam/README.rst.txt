@@ -44,6 +44,7 @@ sam
 
 
 .. |downloads_sam| image:: https://img.shields.io/conda/dn/bioconda/sam.svg?style=flat
+   :target: https://anaconda.org/bioconda/sam
    :alt:   (downloads)
 .. |docker_sam| image:: https://quay.io/repository/biocontainers/sam/status
    :target: https://quay.io/repository/biocontainers/sam

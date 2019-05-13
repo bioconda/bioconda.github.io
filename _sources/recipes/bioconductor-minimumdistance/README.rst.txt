@@ -61,6 +61,7 @@ bioconductor-minimumdistance
 
 
 .. |downloads_bioconductor-minimumdistance| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-minimumdistance.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-minimumdistance
    :alt:   (downloads)
 .. |docker_bioconductor-minimumdistance| image:: https://quay.io/repository/biocontainers/bioconductor-minimumdistance/status
    :target: https://quay.io/repository/biocontainers/bioconductor-minimumdistance

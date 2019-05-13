@@ -59,6 +59,7 @@ bioconductor-motifmatchr
 
 
 .. |downloads_bioconductor-motifmatchr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-motifmatchr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-motifmatchr
    :alt:   (downloads)
 .. |docker_bioconductor-motifmatchr| image:: https://quay.io/repository/biocontainers/bioconductor-motifmatchr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-motifmatchr

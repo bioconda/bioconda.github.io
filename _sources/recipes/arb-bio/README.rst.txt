@@ -94,6 +94,7 @@ arb-bio
 
 
 .. |downloads_arb-bio| image:: https://img.shields.io/conda/dn/bioconda/arb-bio.svg?style=flat
+   :target: https://anaconda.org/bioconda/arb-bio
    :alt:   (downloads)
 .. |docker_arb-bio| image:: https://quay.io/repository/biocontainers/arb-bio/status
    :target: https://quay.io/repository/biocontainers/arb-bio
@@ -131,6 +132,7 @@ arb-bio
 
 
 .. |downloads_arb-bio-devel| image:: https://img.shields.io/conda/dn/bioconda/arb-bio-devel.svg?style=flat
+   :target: https://anaconda.org/bioconda/arb-bio-devel
    :alt:   (downloads)
 .. |docker_arb-bio-devel| image:: https://quay.io/repository/biocontainers/arb-bio/status
    :target: https://quay.io/repository/biocontainers/arb-bio
@@ -168,6 +170,7 @@ arb-bio
 
 
 .. |downloads_arb-bio-tools| image:: https://img.shields.io/conda/dn/bioconda/arb-bio-tools.svg?style=flat
+   :target: https://anaconda.org/bioconda/arb-bio-tools
    :alt:   (downloads)
 .. |docker_arb-bio-tools| image:: https://quay.io/repository/biocontainers/arb-bio/status
    :target: https://quay.io/repository/biocontainers/arb-bio
@@ -205,6 +208,7 @@ arb-bio
 
 
 .. |downloads_libarbdb| image:: https://img.shields.io/conda/dn/bioconda/libarbdb.svg?style=flat
+   :target: https://anaconda.org/bioconda/libarbdb
    :alt:   (downloads)
 .. |docker_libarbdb| image:: https://quay.io/repository/biocontainers/arb-bio/status
    :target: https://quay.io/repository/biocontainers/arb-bio

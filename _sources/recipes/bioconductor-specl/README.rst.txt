@@ -50,6 +50,7 @@ bioconductor-specl
 
 
 .. |downloads_bioconductor-specl| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-specl.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-specl
    :alt:   (downloads)
 .. |docker_bioconductor-specl| image:: https://quay.io/repository/biocontainers/bioconductor-specl/status
    :target: https://quay.io/repository/biocontainers/bioconductor-specl

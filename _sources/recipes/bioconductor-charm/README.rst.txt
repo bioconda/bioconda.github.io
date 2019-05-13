@@ -62,6 +62,7 @@ bioconductor-charm
 
 
 .. |downloads_bioconductor-charm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-charm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-charm
    :alt:   (downloads)
 .. |docker_bioconductor-charm| image:: https://quay.io/repository/biocontainers/bioconductor-charm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-charm

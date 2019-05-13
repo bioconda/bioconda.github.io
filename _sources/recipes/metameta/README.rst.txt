@@ -45,6 +45,7 @@ metameta
 
 
 .. |downloads_metameta| image:: https://img.shields.io/conda/dn/bioconda/metameta.svg?style=flat
+   :target: https://anaconda.org/bioconda/metameta
    :alt:   (downloads)
 .. |docker_metameta| image:: https://quay.io/repository/biocontainers/metameta/status
    :target: https://quay.io/repository/biocontainers/metameta

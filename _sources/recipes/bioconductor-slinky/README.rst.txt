@@ -54,6 +54,7 @@ bioconductor-slinky
 
 
 .. |downloads_bioconductor-slinky| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-slinky.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-slinky
    :alt:   (downloads)
 .. |docker_bioconductor-slinky| image:: https://quay.io/repository/biocontainers/bioconductor-slinky/status
    :target: https://quay.io/repository/biocontainers/bioconductor-slinky

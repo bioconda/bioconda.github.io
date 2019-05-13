@@ -48,6 +48,7 @@ bioconductor-normalize450k
 
 
 .. |downloads_bioconductor-normalize450k| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-normalize450k.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-normalize450k
    :alt:   (downloads)
 .. |docker_bioconductor-normalize450k| image:: https://quay.io/repository/biocontainers/bioconductor-normalize450k/status
    :target: https://quay.io/repository/biocontainers/bioconductor-normalize450k

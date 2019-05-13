@@ -51,6 +51,7 @@ bioconductor-multtest
 
 
 .. |downloads_bioconductor-multtest| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-multtest.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-multtest
    :alt:   (downloads)
 .. |docker_bioconductor-multtest| image:: https://quay.io/repository/biocontainers/bioconductor-multtest/status
    :target: https://quay.io/repository/biocontainers/bioconductor-multtest

@@ -50,6 +50,7 @@ bx-python
 
 
 .. |downloads_bx-python| image:: https://img.shields.io/conda/dn/bioconda/bx-python.svg?style=flat
+   :target: https://anaconda.org/bioconda/bx-python
    :alt:   (downloads)
 .. |docker_bx-python| image:: https://quay.io/repository/biocontainers/bx-python/status
    :target: https://quay.io/repository/biocontainers/bx-python

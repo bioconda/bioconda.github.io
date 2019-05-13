@@ -54,6 +54,7 @@ bioconductor-mcbiclust
 
 
 .. |downloads_bioconductor-mcbiclust| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mcbiclust.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mcbiclust
    :alt:   (downloads)
 .. |docker_bioconductor-mcbiclust| image:: https://quay.io/repository/biocontainers/bioconductor-mcbiclust/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mcbiclust

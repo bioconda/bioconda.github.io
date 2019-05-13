@@ -47,6 +47,7 @@ bioconductor-org.sc.sgd.db
 
 
 .. |downloads_bioconductor-org.sc.sgd.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-org.sc.sgd.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-org.sc.sgd.db
    :alt:   (downloads)
 .. |docker_bioconductor-org.sc.sgd.db| image:: https://quay.io/repository/biocontainers/bioconductor-org.sc.sgd.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-org.sc.sgd.db

@@ -61,6 +61,7 @@ bioconductor-nethet
 
 
 .. |downloads_bioconductor-nethet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-nethet.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-nethet
    :alt:   (downloads)
 .. |docker_bioconductor-nethet| image:: https://quay.io/repository/biocontainers/bioconductor-nethet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-nethet

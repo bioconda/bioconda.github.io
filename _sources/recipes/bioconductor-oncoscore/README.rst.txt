@@ -46,6 +46,7 @@ bioconductor-oncoscore
 
 
 .. |downloads_bioconductor-oncoscore| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-oncoscore.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-oncoscore
    :alt:   (downloads)
 .. |docker_bioconductor-oncoscore| image:: https://quay.io/repository/biocontainers/bioconductor-oncoscore/status
    :target: https://quay.io/repository/biocontainers/bioconductor-oncoscore

@@ -51,6 +51,7 @@ mofapy
 
 
 .. |downloads_mofapy| image:: https://img.shields.io/conda/dn/bioconda/mofapy.svg?style=flat
+   :target: https://anaconda.org/bioconda/mofapy
    :alt:   (downloads)
 .. |docker_mofapy| image:: https://quay.io/repository/biocontainers/mofapy/status
    :target: https://quay.io/repository/biocontainers/mofapy

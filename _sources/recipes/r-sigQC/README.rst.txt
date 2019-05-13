@@ -61,6 +61,7 @@ r-sigqc
 
 
 .. |downloads_r-sigqc| image:: https://img.shields.io/conda/dn/bioconda/r-sigqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-sigqc
    :alt:   (downloads)
 .. |docker_r-sigqc| image:: https://quay.io/repository/biocontainers/r-sigqc/status
    :target: https://quay.io/repository/biocontainers/r-sigqc

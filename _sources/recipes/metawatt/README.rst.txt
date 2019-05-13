@@ -62,6 +62,7 @@ metawatt
 
 
 .. |downloads_metawatt| image:: https://img.shields.io/conda/dn/bioconda/metawatt.svg?style=flat
+   :target: https://anaconda.org/bioconda/metawatt
    :alt:   (downloads)
 .. |docker_metawatt| image:: https://quay.io/repository/biocontainers/metawatt/status
    :target: https://quay.io/repository/biocontainers/metawatt

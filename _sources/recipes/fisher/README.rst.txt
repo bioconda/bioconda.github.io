@@ -46,6 +46,7 @@ fisher
 
 
 .. |downloads_fisher| image:: https://img.shields.io/conda/dn/bioconda/fisher.svg?style=flat
+   :target: https://anaconda.org/bioconda/fisher
    :alt:   (downloads)
 .. |docker_fisher| image:: https://quay.io/repository/biocontainers/fisher/status
    :target: https://quay.io/repository/biocontainers/fisher

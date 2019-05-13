@@ -49,6 +49,7 @@ libssw
 
 
 .. |downloads_libssw| image:: https://img.shields.io/conda/dn/bioconda/libssw.svg?style=flat
+   :target: https://anaconda.org/bioconda/libssw
    :alt:   (downloads)
 .. |docker_libssw| image:: https://quay.io/repository/biocontainers/libssw/status
    :target: https://quay.io/repository/biocontainers/libssw

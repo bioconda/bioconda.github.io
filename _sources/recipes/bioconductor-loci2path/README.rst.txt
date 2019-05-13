@@ -52,6 +52,7 @@ bioconductor-loci2path
 
 
 .. |downloads_bioconductor-loci2path| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-loci2path.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-loci2path
    :alt:   (downloads)
 .. |docker_bioconductor-loci2path| image:: https://quay.io/repository/biocontainers/bioconductor-loci2path/status
    :target: https://quay.io/repository/biocontainers/bioconductor-loci2path

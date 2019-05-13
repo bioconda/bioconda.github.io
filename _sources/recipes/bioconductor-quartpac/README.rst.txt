@@ -50,6 +50,7 @@ bioconductor-quartpac
 
 
 .. |downloads_bioconductor-quartpac| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-quartpac.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-quartpac
    :alt:   (downloads)
 .. |docker_bioconductor-quartpac| image:: https://quay.io/repository/biocontainers/bioconductor-quartpac/status
    :target: https://quay.io/repository/biocontainers/bioconductor-quartpac

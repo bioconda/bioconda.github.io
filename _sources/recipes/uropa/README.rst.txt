@@ -63,6 +63,7 @@ uropa
 
 
 .. |downloads_uropa| image:: https://img.shields.io/conda/dn/bioconda/uropa.svg?style=flat
+   :target: https://anaconda.org/bioconda/uropa
    :alt:   (downloads)
 .. |docker_uropa| image:: https://quay.io/repository/biocontainers/uropa/status
    :target: https://quay.io/repository/biocontainers/uropa

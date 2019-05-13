@@ -56,6 +56,7 @@ r-fateid
 
 
 .. |downloads_r-fateid| image:: https://img.shields.io/conda/dn/bioconda/r-fateid.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-fateid
    :alt:   (downloads)
 .. |docker_r-fateid| image:: https://quay.io/repository/biocontainers/r-fateid/status
    :target: https://quay.io/repository/biocontainers/r-fateid

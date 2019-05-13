@@ -46,6 +46,7 @@ bioconductor-globalseq
 
 
 .. |downloads_bioconductor-globalseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-globalseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-globalseq
    :alt:   (downloads)
 .. |docker_bioconductor-globalseq| image:: https://quay.io/repository/biocontainers/bioconductor-globalseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-globalseq

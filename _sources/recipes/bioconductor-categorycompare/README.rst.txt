@@ -56,6 +56,7 @@ bioconductor-categorycompare
 
 
 .. |downloads_bioconductor-categorycompare| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-categorycompare.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-categorycompare
    :alt:   (downloads)
 .. |docker_bioconductor-categorycompare| image:: https://quay.io/repository/biocontainers/bioconductor-categorycompare/status
    :target: https://quay.io/repository/biocontainers/bioconductor-categorycompare

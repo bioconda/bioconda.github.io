@@ -51,6 +51,7 @@ mykatlas
 
 
 .. |downloads_mykatlas| image:: https://img.shields.io/conda/dn/bioconda/mykatlas.svg?style=flat
+   :target: https://anaconda.org/bioconda/mykatlas
    :alt:   (downloads)
 .. |docker_mykatlas| image:: https://quay.io/repository/biocontainers/mykatlas/status
    :target: https://quay.io/repository/biocontainers/mykatlas

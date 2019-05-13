@@ -45,6 +45,7 @@ bioconductor-onlinefdr
 
 
 .. |downloads_bioconductor-onlinefdr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-onlinefdr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-onlinefdr
    :alt:   (downloads)
 .. |docker_bioconductor-onlinefdr| image:: https://quay.io/repository/biocontainers/bioconductor-onlinefdr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-onlinefdr

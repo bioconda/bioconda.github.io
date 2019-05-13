@@ -50,6 +50,7 @@ r-pophelper
 
 
 .. |downloads_r-pophelper| image:: https://img.shields.io/conda/dn/bioconda/r-pophelper.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-pophelper
    :alt:   (downloads)
 .. |docker_r-pophelper| image:: https://quay.io/repository/biocontainers/r-pophelper/status
    :target: https://quay.io/repository/biocontainers/r-pophelper

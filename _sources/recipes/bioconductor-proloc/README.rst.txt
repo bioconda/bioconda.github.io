@@ -80,6 +80,7 @@ bioconductor-proloc
 
 
 .. |downloads_bioconductor-proloc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-proloc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-proloc
    :alt:   (downloads)
 .. |docker_bioconductor-proloc| image:: https://quay.io/repository/biocontainers/bioconductor-proloc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-proloc

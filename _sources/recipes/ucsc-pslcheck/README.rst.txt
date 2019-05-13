@@ -50,6 +50,7 @@ ucsc-pslcheck
 
 
 .. |downloads_ucsc-pslcheck| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslcheck.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-pslcheck
    :alt:   (downloads)
 .. |docker_ucsc-pslcheck| image:: https://quay.io/repository/biocontainers/ucsc-pslcheck/status
    :target: https://quay.io/repository/biocontainers/ucsc-pslcheck

@@ -49,6 +49,7 @@ arvados-cwl-runner
 
 
 .. |downloads_arvados-cwl-runner| image:: https://img.shields.io/conda/dn/bioconda/arvados-cwl-runner.svg?style=flat
+   :target: https://anaconda.org/bioconda/arvados-cwl-runner
    :alt:   (downloads)
 .. |docker_arvados-cwl-runner| image:: https://quay.io/repository/biocontainers/arvados-cwl-runner/status
    :target: https://quay.io/repository/biocontainers/arvados-cwl-runner

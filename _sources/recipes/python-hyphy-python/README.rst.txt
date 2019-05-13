@@ -47,6 +47,7 @@ python-hyphy-python
 
 
 .. |downloads_python-hyphy-python| image:: https://img.shields.io/conda/dn/bioconda/python-hyphy-python.svg?style=flat
+   :target: https://anaconda.org/bioconda/python-hyphy-python
    :alt:   (downloads)
 .. |docker_python-hyphy-python| image:: https://quay.io/repository/biocontainers/python-hyphy-python/status
    :target: https://quay.io/repository/biocontainers/python-hyphy-python

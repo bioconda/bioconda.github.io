@@ -47,6 +47,7 @@ genomebaser
 
 
 .. |downloads_genomebaser| image:: https://img.shields.io/conda/dn/bioconda/genomebaser.svg?style=flat
+   :target: https://anaconda.org/bioconda/genomebaser
    :alt:   (downloads)
 .. |docker_genomebaser| image:: https://quay.io/repository/biocontainers/genomebaser/status
    :target: https://quay.io/repository/biocontainers/genomebaser

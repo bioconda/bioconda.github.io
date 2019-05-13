@@ -48,6 +48,7 @@ bioconductor-hta20transcriptcluster.db
 
 
 .. |downloads_bioconductor-hta20transcriptcluster.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hta20transcriptcluster.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hta20transcriptcluster.db
    :alt:   (downloads)
 .. |docker_bioconductor-hta20transcriptcluster.db| image:: https://quay.io/repository/biocontainers/bioconductor-hta20transcriptcluster.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hta20transcriptcluster.db

@@ -50,6 +50,7 @@ bioconductor-aroma.light
 
 
 .. |downloads_bioconductor-aroma.light| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-aroma.light.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-aroma.light
    :alt:   (downloads)
 .. |docker_bioconductor-aroma.light| image:: https://quay.io/repository/biocontainers/bioconductor-aroma.light/status
    :target: https://quay.io/repository/biocontainers/bioconductor-aroma.light

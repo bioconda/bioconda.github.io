@@ -46,6 +46,7 @@ seqmagick
 
 
 .. |downloads_seqmagick| image:: https://img.shields.io/conda/dn/bioconda/seqmagick.svg?style=flat
+   :target: https://anaconda.org/bioconda/seqmagick
    :alt:   (downloads)
 .. |docker_seqmagick| image:: https://quay.io/repository/biocontainers/seqmagick/status
    :target: https://quay.io/repository/biocontainers/seqmagick

@@ -53,6 +53,7 @@ bioconductor-tfea.chip
 
 
 .. |downloads_bioconductor-tfea.chip| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tfea.chip.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tfea.chip
    :alt:   (downloads)
 .. |docker_bioconductor-tfea.chip| image:: https://quay.io/repository/biocontainers/bioconductor-tfea.chip/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tfea.chip

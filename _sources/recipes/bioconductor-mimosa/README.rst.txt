@@ -62,6 +62,7 @@ bioconductor-mimosa
 
 
 .. |downloads_bioconductor-mimosa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mimosa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mimosa
    :alt:   (downloads)
 .. |docker_bioconductor-mimosa| image:: https://quay.io/repository/biocontainers/bioconductor-mimosa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mimosa

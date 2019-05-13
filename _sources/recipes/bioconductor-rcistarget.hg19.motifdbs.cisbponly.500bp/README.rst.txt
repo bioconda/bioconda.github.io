@@ -47,6 +47,7 @@ bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp
 
 
 .. |downloads_bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp
    :alt:   (downloads)
 .. |docker_bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp| image:: https://quay.io/repository/biocontainers/bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp

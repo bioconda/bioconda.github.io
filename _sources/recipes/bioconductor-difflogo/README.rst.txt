@@ -46,6 +46,7 @@ bioconductor-difflogo
 
 
 .. |downloads_bioconductor-difflogo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-difflogo.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-difflogo
    :alt:   (downloads)
 .. |docker_bioconductor-difflogo| image:: https://quay.io/repository/biocontainers/bioconductor-difflogo/status
    :target: https://quay.io/repository/biocontainers/bioconductor-difflogo

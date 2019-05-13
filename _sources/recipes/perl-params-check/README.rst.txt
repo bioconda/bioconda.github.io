@@ -45,6 +45,7 @@ perl-params-check
 
 
 .. |downloads_perl-params-check| image:: https://img.shields.io/conda/dn/bioconda/perl-params-check.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-params-check
    :alt:   (downloads)
 .. |docker_perl-params-check| image:: https://quay.io/repository/biocontainers/perl-params-check/status
    :target: https://quay.io/repository/biocontainers/perl-params-check

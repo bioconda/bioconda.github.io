@@ -45,6 +45,7 @@ perl-text-nsp
 
 
 .. |downloads_perl-text-nsp| image:: https://img.shields.io/conda/dn/bioconda/perl-text-nsp.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-text-nsp
    :alt:   (downloads)
 .. |docker_perl-text-nsp| image:: https://quay.io/repository/biocontainers/perl-text-nsp/status
    :target: https://quay.io/repository/biocontainers/perl-text-nsp

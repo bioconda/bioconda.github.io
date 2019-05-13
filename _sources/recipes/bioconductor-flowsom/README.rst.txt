@@ -54,6 +54,7 @@ bioconductor-flowsom
 
 
 .. |downloads_bioconductor-flowsom| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowsom.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowsom
    :alt:   (downloads)
 .. |docker_bioconductor-flowsom| image:: https://quay.io/repository/biocontainers/bioconductor-flowsom/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowsom

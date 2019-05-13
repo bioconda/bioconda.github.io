@@ -48,6 +48,7 @@ r-blockfest
 
 
 .. |downloads_r-blockfest| image:: https://img.shields.io/conda/dn/bioconda/r-blockfest.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-blockfest
    :alt:   (downloads)
 .. |docker_r-blockfest| image:: https://quay.io/repository/biocontainers/r-blockfest/status
    :target: https://quay.io/repository/biocontainers/r-blockfest

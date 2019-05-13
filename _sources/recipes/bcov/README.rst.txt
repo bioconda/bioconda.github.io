@@ -47,6 +47,7 @@ bcov
 
 
 .. |downloads_bcov| image:: https://img.shields.io/conda/dn/bioconda/bcov.svg?style=flat
+   :target: https://anaconda.org/bioconda/bcov
    :alt:   (downloads)
 .. |docker_bcov| image:: https://quay.io/repository/biocontainers/bcov/status
    :target: https://quay.io/repository/biocontainers/bcov

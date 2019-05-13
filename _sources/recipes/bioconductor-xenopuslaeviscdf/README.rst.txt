@@ -47,6 +47,7 @@ bioconductor-xenopuslaeviscdf
 
 
 .. |downloads_bioconductor-xenopuslaeviscdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-xenopuslaeviscdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-xenopuslaeviscdf
    :alt:   (downloads)
 .. |docker_bioconductor-xenopuslaeviscdf| image:: https://quay.io/repository/biocontainers/bioconductor-xenopuslaeviscdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-xenopuslaeviscdf

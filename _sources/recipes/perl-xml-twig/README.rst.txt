@@ -53,6 +53,7 @@ perl-xml-twig
 
 
 .. |downloads_perl-xml-twig| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-twig.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-xml-twig
    :alt:   (downloads)
 .. |docker_perl-xml-twig| image:: https://quay.io/repository/biocontainers/perl-xml-twig/status
    :target: https://quay.io/repository/biocontainers/perl-xml-twig

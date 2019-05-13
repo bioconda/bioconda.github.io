@@ -53,6 +53,7 @@ bioconductor-starbiotrek
 
 
 .. |downloads_bioconductor-starbiotrek| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-starbiotrek.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-starbiotrek
    :alt:   (downloads)
 .. |docker_bioconductor-starbiotrek| image:: https://quay.io/repository/biocontainers/bioconductor-starbiotrek/status
    :target: https://quay.io/repository/biocontainers/bioconductor-starbiotrek

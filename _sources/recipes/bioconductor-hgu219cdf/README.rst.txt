@@ -47,6 +47,7 @@ bioconductor-hgu219cdf
 
 
 .. |downloads_bioconductor-hgu219cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgu219cdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hgu219cdf
    :alt:   (downloads)
 .. |docker_bioconductor-hgu219cdf| image:: https://quay.io/repository/biocontainers/bioconductor-hgu219cdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hgu219cdf

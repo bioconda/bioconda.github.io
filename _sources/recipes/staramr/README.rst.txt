@@ -52,6 +52,7 @@ staramr
 
 
 .. |downloads_staramr| image:: https://img.shields.io/conda/dn/bioconda/staramr.svg?style=flat
+   :target: https://anaconda.org/bioconda/staramr
    :alt:   (downloads)
 .. |docker_staramr| image:: https://quay.io/repository/biocontainers/staramr/status
    :target: https://quay.io/repository/biocontainers/staramr

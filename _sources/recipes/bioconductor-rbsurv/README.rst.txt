@@ -48,6 +48,7 @@ bioconductor-rbsurv
 
 
 .. |downloads_bioconductor-rbsurv| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rbsurv.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rbsurv
    :alt:   (downloads)
 .. |docker_bioconductor-rbsurv| image:: https://quay.io/repository/biocontainers/bioconductor-rbsurv/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rbsurv

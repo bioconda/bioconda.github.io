@@ -46,6 +46,7 @@ perl-devel-assert
 
 
 .. |downloads_perl-devel-assert| image:: https://img.shields.io/conda/dn/bioconda/perl-devel-assert.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-devel-assert
    :alt:   (downloads)
 .. |docker_perl-devel-assert| image:: https://quay.io/repository/biocontainers/perl-devel-assert/status
    :target: https://quay.io/repository/biocontainers/perl-devel-assert

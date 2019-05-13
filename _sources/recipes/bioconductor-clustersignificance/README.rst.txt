@@ -50,6 +50,7 @@ bioconductor-clustersignificance
 
 
 .. |downloads_bioconductor-clustersignificance| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clustersignificance.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-clustersignificance
    :alt:   (downloads)
 .. |docker_bioconductor-clustersignificance| image:: https://quay.io/repository/biocontainers/bioconductor-clustersignificance/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clustersignificance

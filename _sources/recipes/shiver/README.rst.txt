@@ -52,6 +52,7 @@ shiver
 
 
 .. |downloads_shiver| image:: https://img.shields.io/conda/dn/bioconda/shiver.svg?style=flat
+   :target: https://anaconda.org/bioconda/shiver
    :alt:   (downloads)
 .. |docker_shiver| image:: https://quay.io/repository/biocontainers/shiver/status
    :target: https://quay.io/repository/biocontainers/shiver

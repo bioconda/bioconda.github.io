@@ -54,6 +54,7 @@ bioconductor-genenetworkbuilder
 
 
 .. |downloads_bioconductor-genenetworkbuilder| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genenetworkbuilder.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genenetworkbuilder
    :alt:   (downloads)
 .. |docker_bioconductor-genenetworkbuilder| image:: https://quay.io/repository/biocontainers/bioconductor-genenetworkbuilder/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genenetworkbuilder

@@ -57,6 +57,7 @@ bioconductor-organism.dplyr
 
 
 .. |downloads_bioconductor-organism.dplyr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-organism.dplyr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-organism.dplyr
    :alt:   (downloads)
 .. |docker_bioconductor-organism.dplyr| image:: https://quay.io/repository/biocontainers/bioconductor-organism.dplyr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-organism.dplyr

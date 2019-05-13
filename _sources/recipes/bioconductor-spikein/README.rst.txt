@@ -47,6 +47,7 @@ bioconductor-spikein
 
 
 .. |downloads_bioconductor-spikein| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-spikein.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-spikein
    :alt:   (downloads)
 .. |docker_bioconductor-spikein| image:: https://quay.io/repository/biocontainers/bioconductor-spikein/status
    :target: https://quay.io/repository/biocontainers/bioconductor-spikein

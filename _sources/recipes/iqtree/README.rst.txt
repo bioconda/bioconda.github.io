@@ -47,6 +47,7 @@ iqtree
 
 
 .. |downloads_iqtree| image:: https://img.shields.io/conda/dn/bioconda/iqtree.svg?style=flat
+   :target: https://anaconda.org/bioconda/iqtree
    :alt:   (downloads)
 .. |docker_iqtree| image:: https://quay.io/repository/biocontainers/iqtree/status
    :target: https://quay.io/repository/biocontainers/iqtree

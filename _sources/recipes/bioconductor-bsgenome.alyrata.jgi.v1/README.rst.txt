@@ -47,6 +47,7 @@ bioconductor-bsgenome.alyrata.jgi.v1
 
 
 .. |downloads_bioconductor-bsgenome.alyrata.jgi.v1| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.alyrata.jgi.v1.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome.alyrata.jgi.v1
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.alyrata.jgi.v1| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.alyrata.jgi.v1/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.alyrata.jgi.v1

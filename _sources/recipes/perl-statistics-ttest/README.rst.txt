@@ -47,6 +47,7 @@ perl-statistics-ttest
 
 
 .. |downloads_perl-statistics-ttest| image:: https://img.shields.io/conda/dn/bioconda/perl-statistics-ttest.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-statistics-ttest
    :alt:   (downloads)
 .. |docker_perl-statistics-ttest| image:: https://quay.io/repository/biocontainers/perl-statistics-ttest/status
    :target: https://quay.io/repository/biocontainers/perl-statistics-ttest

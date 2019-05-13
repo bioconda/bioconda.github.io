@@ -52,6 +52,7 @@ bioconductor-methylseekr
 
 
 .. |downloads_bioconductor-methylseekr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methylseekr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-methylseekr
    :alt:   (downloads)
 .. |docker_bioconductor-methylseekr| image:: https://quay.io/repository/biocontainers/bioconductor-methylseekr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-methylseekr

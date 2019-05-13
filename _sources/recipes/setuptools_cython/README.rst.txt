@@ -47,6 +47,7 @@ setuptools_cython
 
 
 .. |downloads_setuptools_cython| image:: https://img.shields.io/conda/dn/bioconda/setuptools_cython.svg?style=flat
+   :target: https://anaconda.org/bioconda/setuptools_cython
    :alt:   (downloads)
 .. |docker_setuptools_cython| image:: https://quay.io/repository/biocontainers/setuptools_cython/status
    :target: https://quay.io/repository/biocontainers/setuptools_cython

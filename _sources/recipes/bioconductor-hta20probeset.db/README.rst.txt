@@ -48,6 +48,7 @@ bioconductor-hta20probeset.db
 
 
 .. |downloads_bioconductor-hta20probeset.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hta20probeset.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hta20probeset.db
    :alt:   (downloads)
 .. |docker_bioconductor-hta20probeset.db| image:: https://quay.io/repository/biocontainers/bioconductor-hta20probeset.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hta20probeset.db

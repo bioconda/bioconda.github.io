@@ -46,6 +46,7 @@ edittag
 
 
 .. |downloads_edittag| image:: https://img.shields.io/conda/dn/bioconda/edittag.svg?style=flat
+   :target: https://anaconda.org/bioconda/edittag
    :alt:   (downloads)
 .. |docker_edittag| image:: https://quay.io/repository/biocontainers/edittag/status
    :target: https://quay.io/repository/biocontainers/edittag

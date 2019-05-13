@@ -48,6 +48,7 @@ gemma
 
 
 .. |downloads_gemma| image:: https://img.shields.io/conda/dn/bioconda/gemma.svg?style=flat
+   :target: https://anaconda.org/bioconda/gemma
    :alt:   (downloads)
 .. |docker_gemma| image:: https://quay.io/repository/biocontainers/gemma/status
    :target: https://quay.io/repository/biocontainers/gemma

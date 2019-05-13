@@ -47,6 +47,7 @@ mimeo
 
 
 .. |downloads_mimeo| image:: https://img.shields.io/conda/dn/bioconda/mimeo.svg?style=flat
+   :target: https://anaconda.org/bioconda/mimeo
    :alt:   (downloads)
 .. |docker_mimeo| image:: https://quay.io/repository/biocontainers/mimeo/status
    :target: https://quay.io/repository/biocontainers/mimeo

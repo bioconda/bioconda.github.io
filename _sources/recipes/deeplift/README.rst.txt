@@ -50,6 +50,7 @@ deeplift
 
 
 .. |downloads_deeplift| image:: https://img.shields.io/conda/dn/bioconda/deeplift.svg?style=flat
+   :target: https://anaconda.org/bioconda/deeplift
    :alt:   (downloads)
 .. |docker_deeplift| image:: https://quay.io/repository/biocontainers/deeplift/status
    :target: https://quay.io/repository/biocontainers/deeplift

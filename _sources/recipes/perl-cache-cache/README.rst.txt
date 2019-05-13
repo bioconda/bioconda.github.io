@@ -49,6 +49,7 @@ perl-cache-cache
 
 
 .. |downloads_perl-cache-cache| image:: https://img.shields.io/conda/dn/bioconda/perl-cache-cache.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-cache-cache
    :alt:   (downloads)
 .. |docker_perl-cache-cache| image:: https://quay.io/repository/biocontainers/perl-cache-cache/status
    :target: https://quay.io/repository/biocontainers/perl-cache-cache

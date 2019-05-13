@@ -60,6 +60,7 @@ bioconductor-compepitools
 
 
 .. |downloads_bioconductor-compepitools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-compepitools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-compepitools
    :alt:   (downloads)
 .. |docker_bioconductor-compepitools| image:: https://quay.io/repository/biocontainers/bioconductor-compepitools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-compepitools

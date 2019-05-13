@@ -48,6 +48,7 @@ r-scrm
 
 
 .. |downloads_r-scrm| image:: https://img.shields.io/conda/dn/bioconda/r-scrm.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-scrm
    :alt:   (downloads)
 .. |docker_r-scrm| image:: https://quay.io/repository/biocontainers/r-scrm/status
    :target: https://quay.io/repository/biocontainers/r-scrm

@@ -46,6 +46,7 @@ bioconductor-nupop
 
 
 .. |downloads_bioconductor-nupop| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-nupop.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-nupop
    :alt:   (downloads)
 .. |docker_bioconductor-nupop| image:: https://quay.io/repository/biocontainers/bioconductor-nupop/status
    :target: https://quay.io/repository/biocontainers/bioconductor-nupop

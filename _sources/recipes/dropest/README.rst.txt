@@ -60,6 +60,7 @@ dropest
 
 
 .. |downloads_dropest| image:: https://img.shields.io/conda/dn/bioconda/dropest.svg?style=flat
+   :target: https://anaconda.org/bioconda/dropest
    :alt:   (downloads)
 .. |docker_dropest| image:: https://quay.io/repository/biocontainers/dropest/status
    :target: https://quay.io/repository/biocontainers/dropest

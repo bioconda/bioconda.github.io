@@ -48,6 +48,7 @@ dnp-corrprofile
 
 
 .. |downloads_dnp-corrprofile| image:: https://img.shields.io/conda/dn/bioconda/dnp-corrprofile.svg?style=flat
+   :target: https://anaconda.org/bioconda/dnp-corrprofile
    :alt:   (downloads)
 .. |docker_dnp-corrprofile| image:: https://quay.io/repository/biocontainers/dnp-corrprofile/status
    :target: https://quay.io/repository/biocontainers/dnp-corrprofile

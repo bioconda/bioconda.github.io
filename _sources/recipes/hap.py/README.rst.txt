@@ -57,6 +57,7 @@ hap.py
 
 
 .. |downloads_hap.py| image:: https://img.shields.io/conda/dn/bioconda/hap.py.svg?style=flat
+   :target: https://anaconda.org/bioconda/hap.py
    :alt:   (downloads)
 .. |docker_hap.py| image:: https://quay.io/repository/biocontainers/hap.py/status
    :target: https://quay.io/repository/biocontainers/hap.py

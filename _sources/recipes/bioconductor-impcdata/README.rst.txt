@@ -46,6 +46,7 @@ bioconductor-impcdata
 
 
 .. |downloads_bioconductor-impcdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-impcdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-impcdata
    :alt:   (downloads)
 .. |docker_bioconductor-impcdata| image:: https://quay.io/repository/biocontainers/bioconductor-impcdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-impcdata

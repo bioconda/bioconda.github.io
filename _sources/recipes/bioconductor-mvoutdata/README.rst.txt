@@ -49,6 +49,7 @@ bioconductor-mvoutdata
 
 
 .. |downloads_bioconductor-mvoutdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mvoutdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mvoutdata
    :alt:   (downloads)
 .. |docker_bioconductor-mvoutdata| image:: https://quay.io/repository/biocontainers/bioconductor-mvoutdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mvoutdata

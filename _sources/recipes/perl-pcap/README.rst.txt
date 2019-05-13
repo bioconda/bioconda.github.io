@@ -55,6 +55,7 @@ perl-pcap
 
 
 .. |downloads_perl-pcap| image:: https://img.shields.io/conda/dn/bioconda/perl-pcap.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-pcap
    :alt:   (downloads)
 .. |docker_perl-pcap| image:: https://quay.io/repository/biocontainers/perl-pcap/status
    :target: https://quay.io/repository/biocontainers/perl-pcap

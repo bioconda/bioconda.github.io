@@ -45,6 +45,7 @@ ogdf
 
 
 .. |downloads_ogdf| image:: https://img.shields.io/conda/dn/bioconda/ogdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/ogdf
    :alt:   (downloads)
 .. |docker_ogdf| image:: https://quay.io/repository/biocontainers/ogdf/status
    :target: https://quay.io/repository/biocontainers/ogdf

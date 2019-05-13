@@ -48,6 +48,7 @@ perl-module-list
 
 
 .. |downloads_perl-module-list| image:: https://img.shields.io/conda/dn/bioconda/perl-module-list.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-module-list
    :alt:   (downloads)
 .. |docker_perl-module-list| image:: https://quay.io/repository/biocontainers/perl-module-list/status
    :target: https://quay.io/repository/biocontainers/perl-module-list

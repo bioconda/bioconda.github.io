@@ -50,6 +50,7 @@ ucsc-countchars
 
 
 .. |downloads_ucsc-countchars| image:: https://img.shields.io/conda/dn/bioconda/ucsc-countchars.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-countchars
    :alt:   (downloads)
 .. |docker_ucsc-countchars| image:: https://quay.io/repository/biocontainers/ucsc-countchars/status
    :target: https://quay.io/repository/biocontainers/ucsc-countchars

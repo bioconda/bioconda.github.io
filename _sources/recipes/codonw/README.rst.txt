@@ -45,6 +45,7 @@ codonw
 
 
 .. |downloads_codonw| image:: https://img.shields.io/conda/dn/bioconda/codonw.svg?style=flat
+   :target: https://anaconda.org/bioconda/codonw
    :alt:   (downloads)
 .. |docker_codonw| image:: https://quay.io/repository/biocontainers/codonw/status
    :target: https://quay.io/repository/biocontainers/codonw

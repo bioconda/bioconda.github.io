@@ -48,6 +48,7 @@ bioconductor-gse62944
 
 
 .. |downloads_bioconductor-gse62944| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gse62944.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gse62944
    :alt:   (downloads)
 .. |docker_bioconductor-gse62944| image:: https://quay.io/repository/biocontainers/bioconductor-gse62944/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gse62944

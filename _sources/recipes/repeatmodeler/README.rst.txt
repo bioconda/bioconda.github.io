@@ -52,6 +52,7 @@ repeatmodeler
 
 
 .. |downloads_repeatmodeler| image:: https://img.shields.io/conda/dn/bioconda/repeatmodeler.svg?style=flat
+   :target: https://anaconda.org/bioconda/repeatmodeler
    :alt:   (downloads)
 .. |docker_repeatmodeler| image:: https://quay.io/repository/biocontainers/repeatmodeler/status
    :target: https://quay.io/repository/biocontainers/repeatmodeler

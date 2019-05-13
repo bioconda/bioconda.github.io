@@ -62,6 +62,7 @@ bioconductor-phyloseq
 
 
 .. |downloads_bioconductor-phyloseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-phyloseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-phyloseq
    :alt:   (downloads)
 .. |docker_bioconductor-phyloseq| image:: https://quay.io/repository/biocontainers/bioconductor-phyloseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-phyloseq

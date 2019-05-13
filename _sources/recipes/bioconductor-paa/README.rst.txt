@@ -57,6 +57,7 @@ bioconductor-paa
 
 
 .. |downloads_bioconductor-paa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-paa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-paa
    :alt:   (downloads)
 .. |docker_bioconductor-paa| image:: https://quay.io/repository/biocontainers/bioconductor-paa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-paa

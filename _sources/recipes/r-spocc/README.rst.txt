@@ -58,6 +58,7 @@ r-spocc
 
 
 .. |downloads_r-spocc| image:: https://img.shields.io/conda/dn/bioconda/r-spocc.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-spocc
    :alt:   (downloads)
 .. |docker_r-spocc| image:: https://quay.io/repository/biocontainers/r-spocc/status
    :target: https://quay.io/repository/biocontainers/r-spocc

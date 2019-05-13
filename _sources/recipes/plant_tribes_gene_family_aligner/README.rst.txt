@@ -49,6 +49,7 @@ plant_tribes_gene_family_aligner
 
 
 .. |downloads_plant_tribes_gene_family_aligner| image:: https://img.shields.io/conda/dn/bioconda/plant_tribes_gene_family_aligner.svg?style=flat
+   :target: https://anaconda.org/bioconda/plant_tribes_gene_family_aligner
    :alt:   (downloads)
 .. |docker_plant_tribes_gene_family_aligner| image:: https://quay.io/repository/biocontainers/plant_tribes_gene_family_aligner/status
    :target: https://quay.io/repository/biocontainers/plant_tribes_gene_family_aligner

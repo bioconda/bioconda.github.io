@@ -69,6 +69,7 @@ bioconductor-chimeraviz
 
 
 .. |downloads_bioconductor-chimeraviz| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chimeraviz.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chimeraviz
    :alt:   (downloads)
 .. |docker_bioconductor-chimeraviz| image:: https://quay.io/repository/biocontainers/bioconductor-chimeraviz/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chimeraviz

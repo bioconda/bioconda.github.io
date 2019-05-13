@@ -47,6 +47,7 @@ burrito-fillings
 
 
 .. |downloads_burrito-fillings| image:: https://img.shields.io/conda/dn/bioconda/burrito-fillings.svg?style=flat
+   :target: https://anaconda.org/bioconda/burrito-fillings
    :alt:   (downloads)
 .. |docker_burrito-fillings| image:: https://quay.io/repository/biocontainers/burrito-fillings/status
    :target: https://quay.io/repository/biocontainers/burrito-fillings

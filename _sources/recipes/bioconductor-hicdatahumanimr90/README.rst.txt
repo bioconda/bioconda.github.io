@@ -46,6 +46,7 @@ bioconductor-hicdatahumanimr90
 
 
 .. |downloads_bioconductor-hicdatahumanimr90| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hicdatahumanimr90.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hicdatahumanimr90
    :alt:   (downloads)
 .. |docker_bioconductor-hicdatahumanimr90| image:: https://quay.io/repository/biocontainers/bioconductor-hicdatahumanimr90/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hicdatahumanimr90

@@ -46,6 +46,7 @@ yass
 
 
 .. |downloads_yass| image:: https://img.shields.io/conda/dn/bioconda/yass.svg?style=flat
+   :target: https://anaconda.org/bioconda/yass
    :alt:   (downloads)
 .. |docker_yass| image:: https://quay.io/repository/biocontainers/yass/status
    :target: https://quay.io/repository/biocontainers/yass

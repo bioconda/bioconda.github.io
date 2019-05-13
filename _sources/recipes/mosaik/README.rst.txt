@@ -47,6 +47,7 @@ mosaik
 
 
 .. |downloads_mosaik| image:: https://img.shields.io/conda/dn/bioconda/mosaik.svg?style=flat
+   :target: https://anaconda.org/bioconda/mosaik
    :alt:   (downloads)
 .. |docker_mosaik| image:: https://quay.io/repository/biocontainers/mosaik/status
    :target: https://quay.io/repository/biocontainers/mosaik

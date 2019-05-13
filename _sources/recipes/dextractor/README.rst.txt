@@ -47,6 +47,7 @@ dextractor
 
 
 .. |downloads_dextractor| image:: https://img.shields.io/conda/dn/bioconda/dextractor.svg?style=flat
+   :target: https://anaconda.org/bioconda/dextractor
    :alt:   (downloads)
 .. |docker_dextractor| image:: https://quay.io/repository/biocontainers/dextractor/status
    :target: https://quay.io/repository/biocontainers/dextractor

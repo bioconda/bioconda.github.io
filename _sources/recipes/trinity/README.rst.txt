@@ -58,6 +58,7 @@ trinity
 
 
 .. |downloads_trinity| image:: https://img.shields.io/conda/dn/bioconda/trinity.svg?style=flat
+   :target: https://anaconda.org/bioconda/trinity
    :alt:   (downloads)
 .. |docker_trinity| image:: https://quay.io/repository/biocontainers/trinity/status
    :target: https://quay.io/repository/biocontainers/trinity

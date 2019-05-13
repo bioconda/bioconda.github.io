@@ -56,6 +56,7 @@ gneiss
 
 
 .. |downloads_gneiss| image:: https://img.shields.io/conda/dn/bioconda/gneiss.svg?style=flat
+   :target: https://anaconda.org/bioconda/gneiss
    :alt:   (downloads)
 .. |docker_gneiss| image:: https://quay.io/repository/biocontainers/gneiss/status
    :target: https://quay.io/repository/biocontainers/gneiss

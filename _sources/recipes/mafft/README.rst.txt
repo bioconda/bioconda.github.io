@@ -47,6 +47,7 @@ mafft
 
 
 .. |downloads_mafft| image:: https://img.shields.io/conda/dn/bioconda/mafft.svg?style=flat
+   :target: https://anaconda.org/bioconda/mafft
    :alt:   (downloads)
 .. |docker_mafft| image:: https://quay.io/repository/biocontainers/mafft/status
    :target: https://quay.io/repository/biocontainers/mafft

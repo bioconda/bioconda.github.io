@@ -51,6 +51,7 @@ bioconductor-generegionscan
 
 
 .. |downloads_bioconductor-generegionscan| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-generegionscan.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-generegionscan
    :alt:   (downloads)
 .. |docker_bioconductor-generegionscan| image:: https://quay.io/repository/biocontainers/bioconductor-generegionscan/status
    :target: https://quay.io/repository/biocontainers/bioconductor-generegionscan

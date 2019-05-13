@@ -49,6 +49,7 @@ r-popgenome
 
 
 .. |downloads_r-popgenome| image:: https://img.shields.io/conda/dn/bioconda/r-popgenome.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-popgenome
    :alt:   (downloads)
 .. |docker_r-popgenome| image:: https://quay.io/repository/biocontainers/r-popgenome/status
    :target: https://quay.io/repository/biocontainers/r-popgenome

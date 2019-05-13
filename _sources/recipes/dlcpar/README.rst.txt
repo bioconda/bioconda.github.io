@@ -46,6 +46,7 @@ dlcpar
 
 
 .. |downloads_dlcpar| image:: https://img.shields.io/conda/dn/bioconda/dlcpar.svg?style=flat
+   :target: https://anaconda.org/bioconda/dlcpar
    :alt:   (downloads)
 .. |docker_dlcpar| image:: https://quay.io/repository/biocontainers/dlcpar/status
    :target: https://quay.io/repository/biocontainers/dlcpar

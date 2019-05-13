@@ -52,6 +52,7 @@ bioconductor-mus.musculus
 
 
 .. |downloads_bioconductor-mus.musculus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mus.musculus.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mus.musculus
    :alt:   (downloads)
 .. |docker_bioconductor-mus.musculus| image:: https://quay.io/repository/biocontainers/bioconductor-mus.musculus/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mus.musculus

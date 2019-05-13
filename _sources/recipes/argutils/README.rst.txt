@@ -47,6 +47,7 @@ argutils
 
 
 .. |downloads_argutils| image:: https://img.shields.io/conda/dn/bioconda/argutils.svg?style=flat
+   :target: https://anaconda.org/bioconda/argutils
    :alt:   (downloads)
 .. |docker_argutils| image:: https://quay.io/repository/biocontainers/argutils/status
    :target: https://quay.io/repository/biocontainers/argutils

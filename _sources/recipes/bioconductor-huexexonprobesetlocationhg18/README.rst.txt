@@ -47,6 +47,7 @@ bioconductor-huexexonprobesetlocationhg18
 
 
 .. |downloads_bioconductor-huexexonprobesetlocationhg18| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-huexexonprobesetlocationhg18.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-huexexonprobesetlocationhg18
    :alt:   (downloads)
 .. |docker_bioconductor-huexexonprobesetlocationhg18| image:: https://quay.io/repository/biocontainers/bioconductor-huexexonprobesetlocationhg18/status
    :target: https://quay.io/repository/biocontainers/bioconductor-huexexonprobesetlocationhg18

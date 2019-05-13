@@ -45,6 +45,7 @@ jvarkit-bam2svg
 
 
 .. |downloads_jvarkit-bam2svg| image:: https://img.shields.io/conda/dn/bioconda/jvarkit-bam2svg.svg?style=flat
+   :target: https://anaconda.org/bioconda/jvarkit-bam2svg
    :alt:   (downloads)
 .. |docker_jvarkit-bam2svg| image:: https://quay.io/repository/biocontainers/jvarkit-bam2svg/status
    :target: https://quay.io/repository/biocontainers/jvarkit-bam2svg

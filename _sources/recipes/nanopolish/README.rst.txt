@@ -57,6 +57,7 @@ nanopolish
 
 
 .. |downloads_nanopolish| image:: https://img.shields.io/conda/dn/bioconda/nanopolish.svg?style=flat
+   :target: https://anaconda.org/bioconda/nanopolish
    :alt:   (downloads)
 .. |docker_nanopolish| image:: https://quay.io/repository/biocontainers/nanopolish/status
    :target: https://quay.io/repository/biocontainers/nanopolish

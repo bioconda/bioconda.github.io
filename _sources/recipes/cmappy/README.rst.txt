@@ -50,6 +50,7 @@ cmappy
 
 
 .. |downloads_cmappy| image:: https://img.shields.io/conda/dn/bioconda/cmappy.svg?style=flat
+   :target: https://anaconda.org/bioconda/cmappy
    :alt:   (downloads)
 .. |docker_cmappy| image:: https://quay.io/repository/biocontainers/cmappy/status
    :target: https://quay.io/repository/biocontainers/cmappy

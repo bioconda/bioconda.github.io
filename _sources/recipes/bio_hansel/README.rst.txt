@@ -51,6 +51,7 @@ bio_hansel
 
 
 .. |downloads_bio_hansel| image:: https://img.shields.io/conda/dn/bioconda/bio_hansel.svg?style=flat
+   :target: https://anaconda.org/bioconda/bio_hansel
    :alt:   (downloads)
 .. |docker_bio_hansel| image:: https://quay.io/repository/biocontainers/bio_hansel/status
    :target: https://quay.io/repository/biocontainers/bio_hansel

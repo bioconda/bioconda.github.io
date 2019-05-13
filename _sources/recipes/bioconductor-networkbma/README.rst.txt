@@ -54,6 +54,7 @@ bioconductor-networkbma
 
 
 .. |downloads_bioconductor-networkbma| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-networkbma.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-networkbma
    :alt:   (downloads)
 .. |docker_bioconductor-networkbma| image:: https://quay.io/repository/biocontainers/bioconductor-networkbma/status
    :target: https://quay.io/repository/biocontainers/bioconductor-networkbma

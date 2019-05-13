@@ -50,6 +50,7 @@ spades
 
 
 .. |downloads_spades| image:: https://img.shields.io/conda/dn/bioconda/spades.svg?style=flat
+   :target: https://anaconda.org/bioconda/spades
    :alt:   (downloads)
 .. |docker_spades| image:: https://quay.io/repository/biocontainers/spades/status
    :target: https://quay.io/repository/biocontainers/spades

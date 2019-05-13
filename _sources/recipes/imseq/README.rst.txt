@@ -47,6 +47,7 @@ imseq
 
 
 .. |downloads_imseq| image:: https://img.shields.io/conda/dn/bioconda/imseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/imseq
    :alt:   (downloads)
 .. |docker_imseq| image:: https://quay.io/repository/biocontainers/imseq/status
    :target: https://quay.io/repository/biocontainers/imseq

@@ -46,6 +46,7 @@ kalign2
 
 
 .. |downloads_kalign2| image:: https://img.shields.io/conda/dn/bioconda/kalign2.svg?style=flat
+   :target: https://anaconda.org/bioconda/kalign2
    :alt:   (downloads)
 .. |docker_kalign2| image:: https://quay.io/repository/biocontainers/kalign2/status
    :target: https://quay.io/repository/biocontainers/kalign2

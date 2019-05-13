@@ -46,6 +46,7 @@ pygresql
 
 
 .. |downloads_pygresql| image:: https://img.shields.io/conda/dn/bioconda/pygresql.svg?style=flat
+   :target: https://anaconda.org/bioconda/pygresql
    :alt:   (downloads)
 .. |docker_pygresql| image:: https://quay.io/repository/biocontainers/pygresql/status
    :target: https://quay.io/repository/biocontainers/pygresql

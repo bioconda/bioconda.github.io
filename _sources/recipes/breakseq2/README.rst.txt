@@ -50,6 +50,7 @@ breakseq2
 
 
 .. |downloads_breakseq2| image:: https://img.shields.io/conda/dn/bioconda/breakseq2.svg?style=flat
+   :target: https://anaconda.org/bioconda/breakseq2
    :alt:   (downloads)
 .. |docker_breakseq2| image:: https://quay.io/repository/biocontainers/breakseq2/status
    :target: https://quay.io/repository/biocontainers/breakseq2

@@ -47,6 +47,7 @@ bioconductor-zebrafishprobe
 
 
 .. |downloads_bioconductor-zebrafishprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-zebrafishprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-zebrafishprobe
    :alt:   (downloads)
 .. |docker_bioconductor-zebrafishprobe| image:: https://quay.io/repository/biocontainers/bioconductor-zebrafishprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-zebrafishprobe

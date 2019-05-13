@@ -48,6 +48,7 @@ bioconductor-rguatlas4k.db
 
 
 .. |downloads_bioconductor-rguatlas4k.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rguatlas4k.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rguatlas4k.db
    :alt:   (downloads)
 .. |docker_bioconductor-rguatlas4k.db| image:: https://quay.io/repository/biocontainers/bioconductor-rguatlas4k.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rguatlas4k.db

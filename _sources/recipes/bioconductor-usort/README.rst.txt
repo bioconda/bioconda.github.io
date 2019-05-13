@@ -57,6 +57,7 @@ bioconductor-usort
 
 
 .. |downloads_bioconductor-usort| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-usort.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-usort
    :alt:   (downloads)
 .. |docker_bioconductor-usort| image:: https://quay.io/repository/biocontainers/bioconductor-usort/status
    :target: https://quay.io/repository/biocontainers/bioconductor-usort

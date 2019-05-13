@@ -48,6 +48,7 @@ locarna
 
 
 .. |downloads_locarna| image:: https://img.shields.io/conda/dn/bioconda/locarna.svg?style=flat
+   :target: https://anaconda.org/bioconda/locarna
    :alt:   (downloads)
 .. |docker_locarna| image:: https://quay.io/repository/biocontainers/locarna/status
    :target: https://quay.io/repository/biocontainers/locarna

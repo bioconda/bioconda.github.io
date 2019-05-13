@@ -46,6 +46,7 @@ lorikeet
 
 
 .. |downloads_lorikeet| image:: https://img.shields.io/conda/dn/bioconda/lorikeet.svg?style=flat
+   :target: https://anaconda.org/bioconda/lorikeet
    :alt:   (downloads)
 .. |docker_lorikeet| image:: https://quay.io/repository/biocontainers/lorikeet/status
    :target: https://quay.io/repository/biocontainers/lorikeet

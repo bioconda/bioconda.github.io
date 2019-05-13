@@ -46,6 +46,7 @@ damageprofiler
 
 
 .. |downloads_damageprofiler| image:: https://img.shields.io/conda/dn/bioconda/damageprofiler.svg?style=flat
+   :target: https://anaconda.org/bioconda/damageprofiler
    :alt:   (downloads)
 .. |docker_damageprofiler| image:: https://quay.io/repository/biocontainers/damageprofiler/status
    :target: https://quay.io/repository/biocontainers/damageprofiler

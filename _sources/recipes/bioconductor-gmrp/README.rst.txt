@@ -49,6 +49,7 @@ bioconductor-gmrp
 
 
 .. |downloads_bioconductor-gmrp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gmrp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gmrp
    :alt:   (downloads)
 .. |docker_bioconductor-gmrp| image:: https://quay.io/repository/biocontainers/bioconductor-gmrp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gmrp

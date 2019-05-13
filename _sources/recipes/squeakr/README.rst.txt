@@ -50,6 +50,7 @@ squeakr
 
 
 .. |downloads_squeakr| image:: https://img.shields.io/conda/dn/bioconda/squeakr.svg?style=flat
+   :target: https://anaconda.org/bioconda/squeakr
    :alt:   (downloads)
 .. |docker_squeakr| image:: https://quay.io/repository/biocontainers/squeakr/status
    :target: https://quay.io/repository/biocontainers/squeakr

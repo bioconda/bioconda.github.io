@@ -44,6 +44,7 @@ downpore
 
 
 .. |downloads_downpore| image:: https://img.shields.io/conda/dn/bioconda/downpore.svg?style=flat
+   :target: https://anaconda.org/bioconda/downpore
    :alt:   (downloads)
 .. |docker_downpore| image:: https://quay.io/repository/biocontainers/downpore/status
    :target: https://quay.io/repository/biocontainers/downpore

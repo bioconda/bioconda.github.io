@@ -44,6 +44,7 @@ bioconductor-hilbertvisgui
 
 
 .. |downloads_bioconductor-hilbertvisgui| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hilbertvisgui.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hilbertvisgui
    :alt:   (downloads)
 .. |docker_bioconductor-hilbertvisgui| image:: https://quay.io/repository/biocontainers/bioconductor-hilbertvisgui/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hilbertvisgui

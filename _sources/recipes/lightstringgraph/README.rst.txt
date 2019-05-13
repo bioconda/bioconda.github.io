@@ -47,6 +47,7 @@ lightstringgraph
 
 
 .. |downloads_lightstringgraph| image:: https://img.shields.io/conda/dn/bioconda/lightstringgraph.svg?style=flat
+   :target: https://anaconda.org/bioconda/lightstringgraph
    :alt:   (downloads)
 .. |docker_lightstringgraph| image:: https://quay.io/repository/biocontainers/lightstringgraph/status
    :target: https://quay.io/repository/biocontainers/lightstringgraph

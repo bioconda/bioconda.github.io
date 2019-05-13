@@ -50,6 +50,7 @@ bioconductor-arraytv
 
 
 .. |downloads_bioconductor-arraytv| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-arraytv.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-arraytv
    :alt:   (downloads)
 .. |docker_bioconductor-arraytv| image:: https://quay.io/repository/biocontainers/bioconductor-arraytv/status
    :target: https://quay.io/repository/biocontainers/bioconductor-arraytv

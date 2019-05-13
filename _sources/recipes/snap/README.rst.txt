@@ -45,6 +45,7 @@ snap
 
 
 .. |downloads_snap| image:: https://img.shields.io/conda/dn/bioconda/snap.svg?style=flat
+   :target: https://anaconda.org/bioconda/snap
    :alt:   (downloads)
 .. |docker_snap| image:: https://quay.io/repository/biocontainers/snap/status
    :target: https://quay.io/repository/biocontainers/snap

@@ -48,6 +48,7 @@ lrzip
 
 
 .. |downloads_lrzip| image:: https://img.shields.io/conda/dn/bioconda/lrzip.svg?style=flat
+   :target: https://anaconda.org/bioconda/lrzip
    :alt:   (downloads)
 .. |docker_lrzip| image:: https://quay.io/repository/biocontainers/lrzip/status
    :target: https://quay.io/repository/biocontainers/lrzip

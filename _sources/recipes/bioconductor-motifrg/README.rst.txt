@@ -52,6 +52,7 @@ bioconductor-motifrg
 
 
 .. |downloads_bioconductor-motifrg| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-motifrg.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-motifrg
    :alt:   (downloads)
 .. |docker_bioconductor-motifrg| image:: https://quay.io/repository/biocontainers/bioconductor-motifrg/status
    :target: https://quay.io/repository/biocontainers/bioconductor-motifrg

@@ -46,6 +46,7 @@ tracer
 
 
 .. |downloads_tracer| image:: https://img.shields.io/conda/dn/bioconda/tracer.svg?style=flat
+   :target: https://anaconda.org/bioconda/tracer
    :alt:   (downloads)
 .. |docker_tracer| image:: https://quay.io/repository/biocontainers/tracer/status
    :target: https://quay.io/repository/biocontainers/tracer

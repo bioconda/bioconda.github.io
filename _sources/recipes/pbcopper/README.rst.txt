@@ -46,6 +46,7 @@ pbcopper
 
 
 .. |downloads_pbcopper| image:: https://img.shields.io/conda/dn/bioconda/pbcopper.svg?style=flat
+   :target: https://anaconda.org/bioconda/pbcopper
    :alt:   (downloads)
 .. |docker_pbcopper| image:: https://quay.io/repository/biocontainers/pbcopper/status
    :target: https://quay.io/repository/biocontainers/pbcopper

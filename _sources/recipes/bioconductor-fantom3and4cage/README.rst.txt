@@ -46,6 +46,7 @@ bioconductor-fantom3and4cage
 
 
 .. |downloads_bioconductor-fantom3and4cage| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fantom3and4cage.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-fantom3and4cage
    :alt:   (downloads)
 .. |docker_bioconductor-fantom3and4cage| image:: https://quay.io/repository/biocontainers/bioconductor-fantom3and4cage/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fantom3and4cage

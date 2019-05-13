@@ -46,6 +46,7 @@ bioconductor-yeastrnaseq
 
 
 .. |downloads_bioconductor-yeastrnaseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-yeastrnaseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-yeastrnaseq
    :alt:   (downloads)
 .. |docker_bioconductor-yeastrnaseq| image:: https://quay.io/repository/biocontainers/bioconductor-yeastrnaseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-yeastrnaseq

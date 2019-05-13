@@ -49,6 +49,7 @@ mentalist
 
 
 .. |downloads_mentalist| image:: https://img.shields.io/conda/dn/bioconda/mentalist.svg?style=flat
+   :target: https://anaconda.org/bioconda/mentalist
    :alt:   (downloads)
 .. |docker_mentalist| image:: https://quay.io/repository/biocontainers/mentalist/status
    :target: https://quay.io/repository/biocontainers/mentalist

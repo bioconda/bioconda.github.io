@@ -45,6 +45,7 @@ semidbm
 
 
 .. |downloads_semidbm| image:: https://img.shields.io/conda/dn/bioconda/semidbm.svg?style=flat
+   :target: https://anaconda.org/bioconda/semidbm
    :alt:   (downloads)
 .. |docker_semidbm| image:: https://quay.io/repository/biocontainers/semidbm/status
    :target: https://quay.io/repository/biocontainers/semidbm

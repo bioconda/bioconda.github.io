@@ -45,6 +45,7 @@ bpipe
 
 
 .. |downloads_bpipe| image:: https://img.shields.io/conda/dn/bioconda/bpipe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bpipe
    :alt:   (downloads)
 .. |docker_bpipe| image:: https://quay.io/repository/biocontainers/bpipe/status
    :target: https://quay.io/repository/biocontainers/bpipe

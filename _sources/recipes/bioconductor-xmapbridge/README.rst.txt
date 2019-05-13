@@ -46,6 +46,7 @@ bioconductor-xmapbridge
 
 
 .. |downloads_bioconductor-xmapbridge| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-xmapbridge.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-xmapbridge
    :alt:   (downloads)
 .. |docker_bioconductor-xmapbridge| image:: https://quay.io/repository/biocontainers/bioconductor-xmapbridge/status
    :target: https://quay.io/repository/biocontainers/bioconductor-xmapbridge

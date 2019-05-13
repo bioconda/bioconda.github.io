@@ -52,6 +52,7 @@ bioconductor-slgi
 
 
 .. |downloads_bioconductor-slgi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-slgi.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-slgi
    :alt:   (downloads)
 .. |docker_bioconductor-slgi| image:: https://quay.io/repository/biocontainers/bioconductor-slgi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-slgi

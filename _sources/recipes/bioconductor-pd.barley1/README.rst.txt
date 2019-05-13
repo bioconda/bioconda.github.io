@@ -53,6 +53,7 @@ bioconductor-pd.barley1
 
 
 .. |downloads_bioconductor-pd.barley1| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.barley1.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.barley1
    :alt:   (downloads)
 .. |docker_bioconductor-pd.barley1| image:: https://quay.io/repository/biocontainers/bioconductor-pd.barley1/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.barley1

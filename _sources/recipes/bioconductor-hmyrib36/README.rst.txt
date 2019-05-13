@@ -48,6 +48,7 @@ bioconductor-hmyrib36
 
 
 .. |downloads_bioconductor-hmyrib36| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hmyrib36.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hmyrib36
    :alt:   (downloads)
 .. |docker_bioconductor-hmyrib36| image:: https://quay.io/repository/biocontainers/bioconductor-hmyrib36/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hmyrib36

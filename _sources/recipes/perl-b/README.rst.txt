@@ -45,6 +45,7 @@ perl-b
 
 
 .. |downloads_perl-b| image:: https://img.shields.io/conda/dn/bioconda/perl-b.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-b
    :alt:   (downloads)
 .. |docker_perl-b| image:: https://quay.io/repository/biocontainers/perl-b/status
    :target: https://quay.io/repository/biocontainers/perl-b

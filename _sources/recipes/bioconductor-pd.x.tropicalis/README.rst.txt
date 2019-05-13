@@ -53,6 +53,7 @@ bioconductor-pd.x.tropicalis
 
 
 .. |downloads_bioconductor-pd.x.tropicalis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.x.tropicalis.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.x.tropicalis
    :alt:   (downloads)
 .. |docker_bioconductor-pd.x.tropicalis| image:: https://quay.io/repository/biocontainers/bioconductor-pd.x.tropicalis/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.x.tropicalis

@@ -52,6 +52,7 @@ bioconductor-skewr
 
 
 .. |downloads_bioconductor-skewr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-skewr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-skewr
    :alt:   (downloads)
 .. |docker_bioconductor-skewr| image:: https://quay.io/repository/biocontainers/bioconductor-skewr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-skewr

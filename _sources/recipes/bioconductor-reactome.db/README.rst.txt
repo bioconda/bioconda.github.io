@@ -47,6 +47,7 @@ bioconductor-reactome.db
 
 
 .. |downloads_bioconductor-reactome.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-reactome.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-reactome.db
    :alt:   (downloads)
 .. |docker_bioconductor-reactome.db| image:: https://quay.io/repository/biocontainers/bioconductor-reactome.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-reactome.db

@@ -47,6 +47,7 @@ bioconductor-mesh.aga.pest.eg.db
 
 
 .. |downloads_bioconductor-mesh.aga.pest.eg.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mesh.aga.pest.eg.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mesh.aga.pest.eg.db
    :alt:   (downloads)
 .. |docker_bioconductor-mesh.aga.pest.eg.db| image:: https://quay.io/repository/biocontainers/bioconductor-mesh.aga.pest.eg.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mesh.aga.pest.eg.db

@@ -46,6 +46,7 @@ bioconductor-cmap
 
 
 .. |downloads_bioconductor-cmap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cmap
    :alt:   (downloads)
 .. |docker_bioconductor-cmap| image:: https://quay.io/repository/biocontainers/bioconductor-cmap/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cmap

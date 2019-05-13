@@ -47,6 +47,7 @@ taeper
 
 
 .. |downloads_taeper| image:: https://img.shields.io/conda/dn/bioconda/taeper.svg?style=flat
+   :target: https://anaconda.org/bioconda/taeper
    :alt:   (downloads)
 .. |docker_taeper| image:: https://quay.io/repository/biocontainers/taeper/status
    :target: https://quay.io/repository/biocontainers/taeper

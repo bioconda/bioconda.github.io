@@ -55,6 +55,7 @@ chewbbaca
 
 
 .. |downloads_chewbbaca| image:: https://img.shields.io/conda/dn/bioconda/chewbbaca.svg?style=flat
+   :target: https://anaconda.org/bioconda/chewbbaca
    :alt:   (downloads)
 .. |docker_chewbbaca| image:: https://quay.io/repository/biocontainers/chewbbaca/status
    :target: https://quay.io/repository/biocontainers/chewbbaca

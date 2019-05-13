@@ -47,6 +47,7 @@ bioconductor-geneexpressionsignature
 
 
 .. |downloads_bioconductor-geneexpressionsignature| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geneexpressionsignature.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-geneexpressionsignature
    :alt:   (downloads)
 .. |docker_bioconductor-geneexpressionsignature| image:: https://quay.io/repository/biocontainers/bioconductor-geneexpressionsignature/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geneexpressionsignature

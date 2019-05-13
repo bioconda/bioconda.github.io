@@ -46,6 +46,7 @@ taxsbp
 
 
 .. |downloads_taxsbp| image:: https://img.shields.io/conda/dn/bioconda/taxsbp.svg?style=flat
+   :target: https://anaconda.org/bioconda/taxsbp
    :alt:   (downloads)
 .. |docker_taxsbp| image:: https://quay.io/repository/biocontainers/taxsbp/status
    :target: https://quay.io/repository/biocontainers/taxsbp

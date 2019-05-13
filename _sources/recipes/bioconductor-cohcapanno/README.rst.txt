@@ -46,6 +46,7 @@ bioconductor-cohcapanno
 
 
 .. |downloads_bioconductor-cohcapanno| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cohcapanno.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cohcapanno
    :alt:   (downloads)
 .. |docker_bioconductor-cohcapanno| image:: https://quay.io/repository/biocontainers/bioconductor-cohcapanno/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cohcapanno

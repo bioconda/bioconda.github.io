@@ -49,6 +49,7 @@ icqsol
 
 
 .. |downloads_icqsol| image:: https://img.shields.io/conda/dn/bioconda/icqsol.svg?style=flat
+   :target: https://anaconda.org/bioconda/icqsol
    :alt:   (downloads)
 .. |docker_icqsol| image:: https://quay.io/repository/biocontainers/icqsol/status
    :target: https://quay.io/repository/biocontainers/icqsol

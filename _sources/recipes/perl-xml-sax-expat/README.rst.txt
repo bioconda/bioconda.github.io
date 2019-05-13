@@ -49,6 +49,7 @@ perl-xml-sax-expat
 
 
 .. |downloads_perl-xml-sax-expat| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-sax-expat.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-xml-sax-expat
    :alt:   (downloads)
 .. |docker_perl-xml-sax-expat| image:: https://quay.io/repository/biocontainers/perl-xml-sax-expat/status
    :target: https://quay.io/repository/biocontainers/perl-xml-sax-expat

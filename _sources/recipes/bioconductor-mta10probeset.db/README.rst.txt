@@ -48,6 +48,7 @@ bioconductor-mta10probeset.db
 
 
 .. |downloads_bioconductor-mta10probeset.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mta10probeset.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mta10probeset.db
    :alt:   (downloads)
 .. |docker_bioconductor-mta10probeset.db| image:: https://quay.io/repository/biocontainers/bioconductor-mta10probeset.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mta10probeset.db

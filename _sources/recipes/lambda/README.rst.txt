@@ -48,6 +48,7 @@ lambda
 
 
 .. |downloads_lambda| image:: https://img.shields.io/conda/dn/bioconda/lambda.svg?style=flat
+   :target: https://anaconda.org/bioconda/lambda
    :alt:   (downloads)
 .. |docker_lambda| image:: https://quay.io/repository/biocontainers/lambda/status
    :target: https://quay.io/repository/biocontainers/lambda

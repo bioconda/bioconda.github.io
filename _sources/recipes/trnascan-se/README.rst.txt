@@ -47,6 +47,7 @@ trnascan-se
 
 
 .. |downloads_trnascan-se| image:: https://img.shields.io/conda/dn/bioconda/trnascan-se.svg?style=flat
+   :target: https://anaconda.org/bioconda/trnascan-se
    :alt:   (downloads)
 .. |docker_trnascan-se| image:: https://quay.io/repository/biocontainers/trnascan-se/status
    :target: https://quay.io/repository/biocontainers/trnascan-se

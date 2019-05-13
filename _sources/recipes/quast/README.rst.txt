@@ -55,6 +55,7 @@ quast
 
 
 .. |downloads_quast| image:: https://img.shields.io/conda/dn/bioconda/quast.svg?style=flat
+   :target: https://anaconda.org/bioconda/quast
    :alt:   (downloads)
 .. |docker_quast| image:: https://quay.io/repository/biocontainers/quast/status
    :target: https://quay.io/repository/biocontainers/quast

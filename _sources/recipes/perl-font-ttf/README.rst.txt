@@ -47,6 +47,7 @@ perl-font-ttf
 
 
 .. |downloads_perl-font-ttf| image:: https://img.shields.io/conda/dn/bioconda/perl-font-ttf.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-font-ttf
    :alt:   (downloads)
 .. |docker_perl-font-ttf| image:: https://quay.io/repository/biocontainers/perl-font-ttf/status
    :target: https://quay.io/repository/biocontainers/perl-font-ttf

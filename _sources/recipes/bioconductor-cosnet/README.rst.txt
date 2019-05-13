@@ -46,6 +46,7 @@ bioconductor-cosnet
 
 
 .. |downloads_bioconductor-cosnet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cosnet.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cosnet
    :alt:   (downloads)
 .. |docker_bioconductor-cosnet| image:: https://quay.io/repository/biocontainers/bioconductor-cosnet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cosnet

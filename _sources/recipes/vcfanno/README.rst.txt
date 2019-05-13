@@ -44,6 +44,7 @@ vcfanno
 
 
 .. |downloads_vcfanno| image:: https://img.shields.io/conda/dn/bioconda/vcfanno.svg?style=flat
+   :target: https://anaconda.org/bioconda/vcfanno
    :alt:   (downloads)
 .. |docker_vcfanno| image:: https://quay.io/repository/biocontainers/vcfanno/status
    :target: https://quay.io/repository/biocontainers/vcfanno

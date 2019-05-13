@@ -46,6 +46,7 @@ bioconductor-hgu133abarcodevecs
 
 
 .. |downloads_bioconductor-hgu133abarcodevecs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgu133abarcodevecs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hgu133abarcodevecs
    :alt:   (downloads)
 .. |docker_bioconductor-hgu133abarcodevecs| image:: https://quay.io/repository/biocontainers/bioconductor-hgu133abarcodevecs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hgu133abarcodevecs

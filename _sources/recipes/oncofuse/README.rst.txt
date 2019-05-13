@@ -45,6 +45,7 @@ oncofuse
 
 
 .. |downloads_oncofuse| image:: https://img.shields.io/conda/dn/bioconda/oncofuse.svg?style=flat
+   :target: https://anaconda.org/bioconda/oncofuse
    :alt:   (downloads)
 .. |docker_oncofuse| image:: https://quay.io/repository/biocontainers/oncofuse/status
    :target: https://quay.io/repository/biocontainers/oncofuse

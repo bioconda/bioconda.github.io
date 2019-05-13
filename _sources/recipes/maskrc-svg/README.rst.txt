@@ -49,6 +49,7 @@ maskrc-svg
 
 
 .. |downloads_maskrc-svg| image:: https://img.shields.io/conda/dn/bioconda/maskrc-svg.svg?style=flat
+   :target: https://anaconda.org/bioconda/maskrc-svg
    :alt:   (downloads)
 .. |docker_maskrc-svg| image:: https://quay.io/repository/biocontainers/maskrc-svg/status
    :target: https://quay.io/repository/biocontainers/maskrc-svg

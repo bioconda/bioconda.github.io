@@ -47,6 +47,7 @@ dawg
 
 
 .. |downloads_dawg| image:: https://img.shields.io/conda/dn/bioconda/dawg.svg?style=flat
+   :target: https://anaconda.org/bioconda/dawg
    :alt:   (downloads)
 .. |docker_dawg| image:: https://quay.io/repository/biocontainers/dawg/status
    :target: https://quay.io/repository/biocontainers/dawg

@@ -51,6 +51,7 @@ antarna
 
 
 .. |downloads_antarna| image:: https://img.shields.io/conda/dn/bioconda/antarna.svg?style=flat
+   :target: https://anaconda.org/bioconda/antarna
    :alt:   (downloads)
 .. |docker_antarna| image:: https://quay.io/repository/biocontainers/antarna/status
    :target: https://quay.io/repository/biocontainers/antarna

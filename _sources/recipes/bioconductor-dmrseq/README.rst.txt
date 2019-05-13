@@ -62,6 +62,7 @@ bioconductor-dmrseq
 
 
 .. |downloads_bioconductor-dmrseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dmrseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dmrseq
    :alt:   (downloads)
 .. |docker_bioconductor-dmrseq| image:: https://quay.io/repository/biocontainers/bioconductor-dmrseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dmrseq

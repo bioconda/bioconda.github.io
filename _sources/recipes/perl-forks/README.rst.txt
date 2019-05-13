@@ -52,6 +52,7 @@ perl-forks
 
 
 .. |downloads_perl-forks| image:: https://img.shields.io/conda/dn/bioconda/perl-forks.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-forks
    :alt:   (downloads)
 .. |docker_perl-forks| image:: https://quay.io/repository/biocontainers/perl-forks/status
    :target: https://quay.io/repository/biocontainers/perl-forks

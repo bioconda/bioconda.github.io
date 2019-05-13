@@ -50,6 +50,7 @@ bioconductor-arraytools
 
 
 .. |downloads_bioconductor-arraytools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-arraytools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-arraytools
    :alt:   (downloads)
 .. |docker_bioconductor-arraytools| image:: https://quay.io/repository/biocontainers/bioconductor-arraytools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-arraytools

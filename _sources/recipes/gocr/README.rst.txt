@@ -45,6 +45,7 @@ gocr
 
 
 .. |downloads_gocr| image:: https://img.shields.io/conda/dn/bioconda/gocr.svg?style=flat
+   :target: https://anaconda.org/bioconda/gocr
    :alt:   (downloads)
 .. |docker_gocr| image:: https://quay.io/repository/biocontainers/gocr/status
    :target: https://quay.io/repository/biocontainers/gocr

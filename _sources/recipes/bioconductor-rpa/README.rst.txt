@@ -49,6 +49,7 @@ bioconductor-rpa
 
 
 .. |downloads_bioconductor-rpa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rpa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rpa
    :alt:   (downloads)
 .. |docker_bioconductor-rpa| image:: https://quay.io/repository/biocontainers/bioconductor-rpa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rpa

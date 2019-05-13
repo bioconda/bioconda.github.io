@@ -50,6 +50,7 @@ perl-moosex-object-pluggable
 
 
 .. |downloads_perl-moosex-object-pluggable| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-object-pluggable.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-moosex-object-pluggable
    :alt:   (downloads)
 .. |docker_perl-moosex-object-pluggable| image:: https://quay.io/repository/biocontainers/perl-moosex-object-pluggable/status
    :target: https://quay.io/repository/biocontainers/perl-moosex-object-pluggable

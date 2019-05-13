@@ -48,6 +48,7 @@ perl-file-remove
 
 
 .. |downloads_perl-file-remove| image:: https://img.shields.io/conda/dn/bioconda/perl-file-remove.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-remove
    :alt:   (downloads)
 .. |docker_perl-file-remove| image:: https://quay.io/repository/biocontainers/perl-file-remove/status
    :target: https://quay.io/repository/biocontainers/perl-file-remove

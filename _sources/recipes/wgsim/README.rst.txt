@@ -46,6 +46,7 @@ wgsim
 
 
 .. |downloads_wgsim| image:: https://img.shields.io/conda/dn/bioconda/wgsim.svg?style=flat
+   :target: https://anaconda.org/bioconda/wgsim
    :alt:   (downloads)
 .. |docker_wgsim| image:: https://quay.io/repository/biocontainers/wgsim/status
    :target: https://quay.io/repository/biocontainers/wgsim

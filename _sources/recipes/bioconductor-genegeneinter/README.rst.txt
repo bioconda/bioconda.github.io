@@ -57,6 +57,7 @@ bioconductor-genegeneinter
 
 
 .. |downloads_bioconductor-genegeneinter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genegeneinter.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genegeneinter
    :alt:   (downloads)
 .. |docker_bioconductor-genegeneinter| image:: https://quay.io/repository/biocontainers/bioconductor-genegeneinter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genegeneinter

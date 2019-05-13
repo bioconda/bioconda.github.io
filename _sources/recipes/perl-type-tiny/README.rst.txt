@@ -46,6 +46,7 @@ perl-type-tiny
 
 
 .. |downloads_perl-type-tiny| image:: https://img.shields.io/conda/dn/bioconda/perl-type-tiny.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-type-tiny
    :alt:   (downloads)
 .. |docker_perl-type-tiny| image:: https://quay.io/repository/biocontainers/perl-type-tiny/status
    :target: https://quay.io/repository/biocontainers/perl-type-tiny

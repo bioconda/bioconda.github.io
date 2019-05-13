@@ -44,6 +44,7 @@ piler
 
 
 .. |downloads_piler| image:: https://img.shields.io/conda/dn/bioconda/piler.svg?style=flat
+   :target: https://anaconda.org/bioconda/piler
    :alt:   (downloads)
 .. |docker_piler| image:: https://quay.io/repository/biocontainers/piler/status
    :target: https://quay.io/repository/biocontainers/piler

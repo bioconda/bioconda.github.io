@@ -59,6 +59,7 @@ bioconductor-strandcheckr
 
 
 .. |downloads_bioconductor-strandcheckr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-strandcheckr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-strandcheckr
    :alt:   (downloads)
 .. |docker_bioconductor-strandcheckr| image:: https://quay.io/repository/biocontainers/bioconductor-strandcheckr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-strandcheckr

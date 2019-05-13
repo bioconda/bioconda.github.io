@@ -46,6 +46,7 @@ genometester4
 
 
 .. |downloads_genometester4| image:: https://img.shields.io/conda/dn/bioconda/genometester4.svg?style=flat
+   :target: https://anaconda.org/bioconda/genometester4
    :alt:   (downloads)
 .. |docker_genometester4| image:: https://quay.io/repository/biocontainers/genometester4/status
    :target: https://quay.io/repository/biocontainers/genometester4

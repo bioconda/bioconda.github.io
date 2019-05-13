@@ -44,6 +44,7 @@ canvas
 
 
 .. |downloads_canvas| image:: https://img.shields.io/conda/dn/bioconda/canvas.svg?style=flat
+   :target: https://anaconda.org/bioconda/canvas
    :alt:   (downloads)
 .. |docker_canvas| image:: https://quay.io/repository/biocontainers/canvas/status
    :target: https://quay.io/repository/biocontainers/canvas

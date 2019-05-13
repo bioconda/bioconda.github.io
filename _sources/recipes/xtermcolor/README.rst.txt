@@ -45,6 +45,7 @@ xtermcolor
 
 
 .. |downloads_xtermcolor| image:: https://img.shields.io/conda/dn/bioconda/xtermcolor.svg?style=flat
+   :target: https://anaconda.org/bioconda/xtermcolor
    :alt:   (downloads)
 .. |docker_xtermcolor| image:: https://quay.io/repository/biocontainers/xtermcolor/status
    :target: https://quay.io/repository/biocontainers/xtermcolor

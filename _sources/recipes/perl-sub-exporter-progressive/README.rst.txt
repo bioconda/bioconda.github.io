@@ -45,6 +45,7 @@ perl-sub-exporter-progressive
 
 
 .. |downloads_perl-sub-exporter-progressive| image:: https://img.shields.io/conda/dn/bioconda/perl-sub-exporter-progressive.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-sub-exporter-progressive
    :alt:   (downloads)
 .. |docker_perl-sub-exporter-progressive| image:: https://quay.io/repository/biocontainers/perl-sub-exporter-progressive/status
    :target: https://quay.io/repository/biocontainers/perl-sub-exporter-progressive

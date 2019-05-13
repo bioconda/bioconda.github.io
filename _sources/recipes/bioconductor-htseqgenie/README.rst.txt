@@ -64,6 +64,7 @@ bioconductor-htseqgenie
 
 
 .. |downloads_bioconductor-htseqgenie| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-htseqgenie.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-htseqgenie
    :alt:   (downloads)
 .. |docker_bioconductor-htseqgenie| image:: https://quay.io/repository/biocontainers/bioconductor-htseqgenie/status
    :target: https://quay.io/repository/biocontainers/bioconductor-htseqgenie

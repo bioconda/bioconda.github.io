@@ -48,6 +48,7 @@ bioconductor-spikeinsubset
 
 
 .. |downloads_bioconductor-spikeinsubset| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-spikeinsubset.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-spikeinsubset
    :alt:   (downloads)
 .. |docker_bioconductor-spikeinsubset| image:: https://quay.io/repository/biocontainers/bioconductor-spikeinsubset/status
    :target: https://quay.io/repository/biocontainers/bioconductor-spikeinsubset

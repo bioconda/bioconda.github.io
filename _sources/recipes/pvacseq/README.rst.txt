@@ -52,6 +52,7 @@ pvacseq
 
 
 .. |downloads_pvacseq| image:: https://img.shields.io/conda/dn/bioconda/pvacseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/pvacseq
    :alt:   (downloads)
 .. |docker_pvacseq| image:: https://quay.io/repository/biocontainers/pvacseq/status
    :target: https://quay.io/repository/biocontainers/pvacseq

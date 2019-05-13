@@ -55,6 +55,7 @@ kipoiseq
 
 
 .. |downloads_kipoiseq| image:: https://img.shields.io/conda/dn/bioconda/kipoiseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/kipoiseq
    :alt:   (downloads)
 .. |docker_kipoiseq| image:: https://quay.io/repository/biocontainers/kipoiseq/status
    :target: https://quay.io/repository/biocontainers/kipoiseq

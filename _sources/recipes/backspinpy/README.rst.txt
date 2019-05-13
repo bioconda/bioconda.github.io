@@ -49,6 +49,7 @@ backspinpy
 
 
 .. |downloads_backspinpy| image:: https://img.shields.io/conda/dn/bioconda/backspinpy.svg?style=flat
+   :target: https://anaconda.org/bioconda/backspinpy
    :alt:   (downloads)
 .. |docker_backspinpy| image:: https://quay.io/repository/biocontainers/backspinpy/status
    :target: https://quay.io/repository/biocontainers/backspinpy

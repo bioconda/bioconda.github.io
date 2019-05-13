@@ -66,6 +66,7 @@ bioconductor-pbase
 
 
 .. |downloads_bioconductor-pbase| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pbase.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pbase
    :alt:   (downloads)
 .. |docker_bioconductor-pbase| image:: https://quay.io/repository/biocontainers/bioconductor-pbase/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pbase

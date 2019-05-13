@@ -46,6 +46,7 @@ perl-import-into
 
 
 .. |downloads_perl-import-into| image:: https://img.shields.io/conda/dn/bioconda/perl-import-into.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-import-into
    :alt:   (downloads)
 .. |docker_perl-import-into| image:: https://quay.io/repository/biocontainers/perl-import-into/status
    :target: https://quay.io/repository/biocontainers/perl-import-into

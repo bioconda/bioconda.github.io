@@ -59,6 +59,7 @@ bioconductor-tcgautils
 
 
 .. |downloads_bioconductor-tcgautils| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tcgautils.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tcgautils
    :alt:   (downloads)
 .. |docker_bioconductor-tcgautils| image:: https://quay.io/repository/biocontainers/bioconductor-tcgautils/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tcgautils

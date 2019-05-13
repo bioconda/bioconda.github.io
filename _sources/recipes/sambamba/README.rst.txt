@@ -50,6 +50,7 @@ sambamba
 
 
 .. |downloads_sambamba| image:: https://img.shields.io/conda/dn/bioconda/sambamba.svg?style=flat
+   :target: https://anaconda.org/bioconda/sambamba
    :alt:   (downloads)
 .. |docker_sambamba| image:: https://quay.io/repository/biocontainers/sambamba/status
    :target: https://quay.io/repository/biocontainers/sambamba

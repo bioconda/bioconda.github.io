@@ -48,6 +48,7 @@ bioconductor-mpranalyze
 
 
 .. |downloads_bioconductor-mpranalyze| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mpranalyze.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mpranalyze
    :alt:   (downloads)
 .. |docker_bioconductor-mpranalyze| image:: https://quay.io/repository/biocontainers/bioconductor-mpranalyze/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mpranalyze

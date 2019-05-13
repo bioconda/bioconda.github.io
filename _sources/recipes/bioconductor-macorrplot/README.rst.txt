@@ -47,6 +47,7 @@ bioconductor-macorrplot
 
 
 .. |downloads_bioconductor-macorrplot| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-macorrplot.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-macorrplot
    :alt:   (downloads)
 .. |docker_bioconductor-macorrplot| image:: https://quay.io/repository/biocontainers/bioconductor-macorrplot/status
    :target: https://quay.io/repository/biocontainers/bioconductor-macorrplot

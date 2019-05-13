@@ -55,6 +55,7 @@ forgi
 
 
 .. |downloads_forgi| image:: https://img.shields.io/conda/dn/bioconda/forgi.svg?style=flat
+   :target: https://anaconda.org/bioconda/forgi
    :alt:   (downloads)
 .. |docker_forgi| image:: https://quay.io/repository/biocontainers/forgi/status
    :target: https://quay.io/repository/biocontainers/forgi

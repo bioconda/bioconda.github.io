@@ -50,6 +50,7 @@ bioconductor-gars
 
 
 .. |downloads_bioconductor-gars| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gars.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gars
    :alt:   (downloads)
 .. |docker_bioconductor-gars| image:: https://quay.io/repository/biocontainers/bioconductor-gars/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gars

@@ -52,6 +52,7 @@ bioconductor-probamr
 
 
 .. |downloads_bioconductor-probamr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-probamr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-probamr
    :alt:   (downloads)
 .. |docker_bioconductor-probamr| image:: https://quay.io/repository/biocontainers/bioconductor-probamr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-probamr

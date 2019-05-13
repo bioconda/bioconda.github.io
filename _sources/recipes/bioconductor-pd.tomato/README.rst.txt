@@ -53,6 +53,7 @@ bioconductor-pd.tomato
 
 
 .. |downloads_bioconductor-pd.tomato| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.tomato.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.tomato
    :alt:   (downloads)
 .. |docker_bioconductor-pd.tomato| image:: https://quay.io/repository/biocontainers/bioconductor-pd.tomato/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.tomato

@@ -47,6 +47,7 @@ bioconductor-motifcounter
 
 
 .. |downloads_bioconductor-motifcounter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-motifcounter.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-motifcounter
    :alt:   (downloads)
 .. |docker_bioconductor-motifcounter| image:: https://quay.io/repository/biocontainers/bioconductor-motifcounter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-motifcounter

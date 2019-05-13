@@ -46,6 +46,7 @@ tgt
 
 
 .. |downloads_tgt| image:: https://img.shields.io/conda/dn/bioconda/tgt.svg?style=flat
+   :target: https://anaconda.org/bioconda/tgt
    :alt:   (downloads)
 .. |docker_tgt| image:: https://quay.io/repository/biocontainers/tgt/status
    :target: https://quay.io/repository/biocontainers/tgt

@@ -52,6 +52,7 @@ bioconductor-ctsge
 
 
 .. |downloads_bioconductor-ctsge| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ctsge.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ctsge
    :alt:   (downloads)
 .. |docker_bioconductor-ctsge| image:: https://quay.io/repository/biocontainers/bioconductor-ctsge/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ctsge

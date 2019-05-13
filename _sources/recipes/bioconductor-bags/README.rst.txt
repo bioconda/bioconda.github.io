@@ -48,6 +48,7 @@ bioconductor-bags
 
 
 .. |downloads_bioconductor-bags| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bags.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bags
    :alt:   (downloads)
 .. |docker_bioconductor-bags| image:: https://quay.io/repository/biocontainers/bioconductor-bags/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bags

@@ -58,6 +58,7 @@ prokka
 
 
 .. |downloads_prokka| image:: https://img.shields.io/conda/dn/bioconda/prokka.svg?style=flat
+   :target: https://anaconda.org/bioconda/prokka
    :alt:   (downloads)
 .. |docker_prokka| image:: https://quay.io/repository/biocontainers/prokka/status
    :target: https://quay.io/repository/biocontainers/prokka

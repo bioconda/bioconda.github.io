@@ -50,6 +50,7 @@ treetime
 
 
 .. |downloads_treetime| image:: https://img.shields.io/conda/dn/bioconda/treetime.svg?style=flat
+   :target: https://anaconda.org/bioconda/treetime
    :alt:   (downloads)
 .. |docker_treetime| image:: https://quay.io/repository/biocontainers/treetime/status
    :target: https://quay.io/repository/biocontainers/treetime

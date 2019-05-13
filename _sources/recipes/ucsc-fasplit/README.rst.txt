@@ -50,6 +50,7 @@ ucsc-fasplit
 
 
 .. |downloads_ucsc-fasplit| image:: https://img.shields.io/conda/dn/bioconda/ucsc-fasplit.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-fasplit
    :alt:   (downloads)
 .. |docker_ucsc-fasplit| image:: https://quay.io/repository/biocontainers/ucsc-fasplit/status
    :target: https://quay.io/repository/biocontainers/ucsc-fasplit

@@ -46,6 +46,7 @@ parallel-fastq-dump
 
 
 .. |downloads_parallel-fastq-dump| image:: https://img.shields.io/conda/dn/bioconda/parallel-fastq-dump.svg?style=flat
+   :target: https://anaconda.org/bioconda/parallel-fastq-dump
    :alt:   (downloads)
 .. |docker_parallel-fastq-dump| image:: https://quay.io/repository/biocontainers/parallel-fastq-dump/status
    :target: https://quay.io/repository/biocontainers/parallel-fastq-dump

@@ -45,6 +45,7 @@ perl-sort-naturally
 
 
 .. |downloads_perl-sort-naturally| image:: https://img.shields.io/conda/dn/bioconda/perl-sort-naturally.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-sort-naturally
    :alt:   (downloads)
 .. |docker_perl-sort-naturally| image:: https://quay.io/repository/biocontainers/perl-sort-naturally/status
    :target: https://quay.io/repository/biocontainers/perl-sort-naturally

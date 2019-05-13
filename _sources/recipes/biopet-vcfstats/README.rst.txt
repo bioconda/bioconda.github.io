@@ -56,6 +56,7 @@ biopet-vcfstats
 
 
 .. |downloads_biopet-vcfstats| image:: https://img.shields.io/conda/dn/bioconda/biopet-vcfstats.svg?style=flat
+   :target: https://anaconda.org/bioconda/biopet-vcfstats
    :alt:   (downloads)
 .. |docker_biopet-vcfstats| image:: https://quay.io/repository/biocontainers/biopet-vcfstats/status
    :target: https://quay.io/repository/biocontainers/biopet-vcfstats

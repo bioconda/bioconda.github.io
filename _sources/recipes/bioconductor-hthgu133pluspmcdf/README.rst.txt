@@ -47,6 +47,7 @@ bioconductor-hthgu133pluspmcdf
 
 
 .. |downloads_bioconductor-hthgu133pluspmcdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hthgu133pluspmcdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hthgu133pluspmcdf
    :alt:   (downloads)
 .. |docker_bioconductor-hthgu133pluspmcdf| image:: https://quay.io/repository/biocontainers/bioconductor-hthgu133pluspmcdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hthgu133pluspmcdf

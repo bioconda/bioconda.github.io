@@ -50,6 +50,7 @@ ucsc-genepredtobed
 
 
 .. |downloads_ucsc-genepredtobed| image:: https://img.shields.io/conda/dn/bioconda/ucsc-genepredtobed.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-genepredtobed
    :alt:   (downloads)
 .. |docker_ucsc-genepredtobed| image:: https://quay.io/repository/biocontainers/ucsc-genepredtobed/status
    :target: https://quay.io/repository/biocontainers/ucsc-genepredtobed

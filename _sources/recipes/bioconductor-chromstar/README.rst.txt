@@ -61,6 +61,7 @@ bioconductor-chromstar
 
 
 .. |downloads_bioconductor-chromstar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chromstar.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chromstar
    :alt:   (downloads)
 .. |docker_bioconductor-chromstar| image:: https://quay.io/repository/biocontainers/bioconductor-chromstar/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chromstar

@@ -49,6 +49,7 @@ bioconductor-methylmnm
 
 
 .. |downloads_bioconductor-methylmnm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methylmnm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-methylmnm
    :alt:   (downloads)
 .. |docker_bioconductor-methylmnm| image:: https://quay.io/repository/biocontainers/bioconductor-methylmnm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-methylmnm

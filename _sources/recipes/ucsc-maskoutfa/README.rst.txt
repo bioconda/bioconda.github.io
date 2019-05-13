@@ -50,6 +50,7 @@ ucsc-maskoutfa
 
 
 .. |downloads_ucsc-maskoutfa| image:: https://img.shields.io/conda/dn/bioconda/ucsc-maskoutfa.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-maskoutfa
    :alt:   (downloads)
 .. |docker_ucsc-maskoutfa| image:: https://quay.io/repository/biocontainers/ucsc-maskoutfa/status
    :target: https://quay.io/repository/biocontainers/ucsc-maskoutfa

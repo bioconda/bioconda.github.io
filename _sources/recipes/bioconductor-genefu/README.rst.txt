@@ -53,6 +53,7 @@ bioconductor-genefu
 
 
 .. |downloads_bioconductor-genefu| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genefu.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genefu
    :alt:   (downloads)
 .. |docker_bioconductor-genefu| image:: https://quay.io/repository/biocontainers/bioconductor-genefu/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genefu

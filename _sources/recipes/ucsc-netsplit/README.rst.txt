@@ -50,6 +50,7 @@ ucsc-netsplit
 
 
 .. |downloads_ucsc-netsplit| image:: https://img.shields.io/conda/dn/bioconda/ucsc-netsplit.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-netsplit
    :alt:   (downloads)
 .. |docker_ucsc-netsplit| image:: https://quay.io/repository/biocontainers/ucsc-netsplit/status
    :target: https://quay.io/repository/biocontainers/ucsc-netsplit

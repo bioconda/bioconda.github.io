@@ -48,6 +48,7 @@ bioconductor-ace
 
 
 .. |downloads_bioconductor-ace| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ace.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ace
    :alt:   (downloads)
 .. |docker_bioconductor-ace| image:: https://quay.io/repository/biocontainers/bioconductor-ace/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ace

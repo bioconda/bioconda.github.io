@@ -50,6 +50,7 @@ bioconductor-hilbertcurve
 
 
 .. |downloads_bioconductor-hilbertcurve| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hilbertcurve.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hilbertcurve
    :alt:   (downloads)
 .. |docker_bioconductor-hilbertcurve| image:: https://quay.io/repository/biocontainers/bioconductor-hilbertcurve/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hilbertcurve

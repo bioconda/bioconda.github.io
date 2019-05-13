@@ -45,6 +45,7 @@ pyliftover
 
 
 .. |downloads_pyliftover| image:: https://img.shields.io/conda/dn/bioconda/pyliftover.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyliftover
    :alt:   (downloads)
 .. |docker_pyliftover| image:: https://quay.io/repository/biocontainers/pyliftover/status
    :target: https://quay.io/repository/biocontainers/pyliftover

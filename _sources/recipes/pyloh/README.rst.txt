@@ -49,6 +49,7 @@ pyloh
 
 
 .. |downloads_pyloh| image:: https://img.shields.io/conda/dn/bioconda/pyloh.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyloh
    :alt:   (downloads)
 .. |docker_pyloh| image:: https://quay.io/repository/biocontainers/pyloh/status
    :target: https://quay.io/repository/biocontainers/pyloh

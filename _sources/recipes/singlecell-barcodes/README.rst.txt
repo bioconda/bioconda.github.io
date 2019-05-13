@@ -44,6 +44,7 @@ singlecell-barcodes
 
 
 .. |downloads_singlecell-barcodes| image:: https://img.shields.io/conda/dn/bioconda/singlecell-barcodes.svg?style=flat
+   :target: https://anaconda.org/bioconda/singlecell-barcodes
    :alt:   (downloads)
 .. |docker_singlecell-barcodes| image:: https://quay.io/repository/biocontainers/singlecell-barcodes/status
    :target: https://quay.io/repository/biocontainers/singlecell-barcodes

@@ -66,6 +66,7 @@ bioconductor-methylkit
 
 
 .. |downloads_bioconductor-methylkit| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methylkit.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-methylkit
    :alt:   (downloads)
 .. |docker_bioconductor-methylkit| image:: https://quay.io/repository/biocontainers/bioconductor-methylkit/status
    :target: https://quay.io/repository/biocontainers/bioconductor-methylkit

@@ -55,6 +55,7 @@ r-sbpiper
 
 
 .. |downloads_r-sbpiper| image:: https://img.shields.io/conda/dn/bioconda/r-sbpiper.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-sbpiper
    :alt:   (downloads)
 .. |docker_r-sbpiper| image:: https://quay.io/repository/biocontainers/r-sbpiper/status
    :target: https://quay.io/repository/biocontainers/r-sbpiper

@@ -48,6 +48,7 @@ genonets
 
 
 .. |downloads_genonets| image:: https://img.shields.io/conda/dn/bioconda/genonets.svg?style=flat
+   :target: https://anaconda.org/bioconda/genonets
    :alt:   (downloads)
 .. |docker_genonets| image:: https://quay.io/repository/biocontainers/genonets/status
    :target: https://quay.io/repository/biocontainers/genonets

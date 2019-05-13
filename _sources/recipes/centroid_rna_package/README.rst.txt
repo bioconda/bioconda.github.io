@@ -46,6 +46,7 @@ centroid_rna_package
 
 
 .. |downloads_centroid_rna_package| image:: https://img.shields.io/conda/dn/bioconda/centroid_rna_package.svg?style=flat
+   :target: https://anaconda.org/bioconda/centroid_rna_package
    :alt:   (downloads)
 .. |docker_centroid_rna_package| image:: https://quay.io/repository/biocontainers/centroid_rna_package/status
    :target: https://quay.io/repository/biocontainers/centroid_rna_package

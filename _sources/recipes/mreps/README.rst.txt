@@ -46,6 +46,7 @@ mreps
 
 
 .. |downloads_mreps| image:: https://img.shields.io/conda/dn/bioconda/mreps.svg?style=flat
+   :target: https://anaconda.org/bioconda/mreps
    :alt:   (downloads)
 .. |docker_mreps| image:: https://quay.io/repository/biocontainers/mreps/status
    :target: https://quay.io/repository/biocontainers/mreps

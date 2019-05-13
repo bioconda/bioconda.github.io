@@ -48,6 +48,7 @@ piranha
 
 
 .. |downloads_piranha| image:: https://img.shields.io/conda/dn/bioconda/piranha.svg?style=flat
+   :target: https://anaconda.org/bioconda/piranha
    :alt:   (downloads)
 .. |docker_piranha| image:: https://quay.io/repository/biocontainers/piranha/status
    :target: https://quay.io/repository/biocontainers/piranha

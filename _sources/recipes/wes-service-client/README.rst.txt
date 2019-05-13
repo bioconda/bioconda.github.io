@@ -49,6 +49,7 @@ wes-service-client
 
 
 .. |downloads_wes-service-client| image:: https://img.shields.io/conda/dn/bioconda/wes-service-client.svg?style=flat
+   :target: https://anaconda.org/bioconda/wes-service-client
    :alt:   (downloads)
 .. |docker_wes-service-client| image:: https://quay.io/repository/biocontainers/wes-service-client/status
    :target: https://quay.io/repository/biocontainers/wes-service-client

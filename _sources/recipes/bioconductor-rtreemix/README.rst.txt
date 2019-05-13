@@ -51,6 +51,7 @@ bioconductor-rtreemix
 
 
 .. |downloads_bioconductor-rtreemix| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtreemix.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rtreemix
    :alt:   (downloads)
 .. |docker_bioconductor-rtreemix| image:: https://quay.io/repository/biocontainers/bioconductor-rtreemix/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtreemix

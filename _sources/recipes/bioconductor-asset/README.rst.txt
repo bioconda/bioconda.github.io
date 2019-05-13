@@ -48,6 +48,7 @@ bioconductor-asset
 
 
 .. |downloads_bioconductor-asset| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-asset.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-asset
    :alt:   (downloads)
 .. |docker_bioconductor-asset| image:: https://quay.io/repository/biocontainers/bioconductor-asset/status
    :target: https://quay.io/repository/biocontainers/bioconductor-asset

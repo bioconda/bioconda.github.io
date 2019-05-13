@@ -47,6 +47,7 @@ perl-db-file
 
 
 .. |downloads_perl-db-file| image:: https://img.shields.io/conda/dn/bioconda/perl-db-file.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-db-file
    :alt:   (downloads)
 .. |docker_perl-db-file| image:: https://quay.io/repository/biocontainers/perl-db-file/status
    :target: https://quay.io/repository/biocontainers/perl-db-file

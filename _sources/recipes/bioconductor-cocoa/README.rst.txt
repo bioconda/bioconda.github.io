@@ -55,6 +55,7 @@ bioconductor-cocoa
 
 
 .. |downloads_bioconductor-cocoa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cocoa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cocoa
    :alt:   (downloads)
 .. |docker_bioconductor-cocoa| image:: https://quay.io/repository/biocontainers/bioconductor-cocoa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cocoa

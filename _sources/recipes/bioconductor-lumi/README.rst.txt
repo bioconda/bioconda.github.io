@@ -61,6 +61,7 @@ bioconductor-lumi
 
 
 .. |downloads_bioconductor-lumi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lumi.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lumi
    :alt:   (downloads)
 .. |docker_bioconductor-lumi| image:: https://quay.io/repository/biocontainers/bioconductor-lumi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lumi

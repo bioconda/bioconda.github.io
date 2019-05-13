@@ -47,6 +47,7 @@ bioconductor-a4preproc
 
 
 .. |downloads_bioconductor-a4preproc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-a4preproc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-a4preproc
    :alt:   (downloads)
 .. |docker_bioconductor-a4preproc| image:: https://quay.io/repository/biocontainers/bioconductor-a4preproc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-a4preproc

@@ -49,6 +49,7 @@ bioconductor-geneticsdesign
 
 
 .. |downloads_bioconductor-geneticsdesign| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geneticsdesign.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-geneticsdesign
    :alt:   (downloads)
 .. |docker_bioconductor-geneticsdesign| image:: https://quay.io/repository/biocontainers/bioconductor-geneticsdesign/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geneticsdesign

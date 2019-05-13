@@ -49,6 +49,7 @@ biopet-scatterregions
 
 
 .. |downloads_biopet-scatterregions| image:: https://img.shields.io/conda/dn/bioconda/biopet-scatterregions.svg?style=flat
+   :target: https://anaconda.org/bioconda/biopet-scatterregions
    :alt:   (downloads)
 .. |docker_biopet-scatterregions| image:: https://quay.io/repository/biocontainers/biopet-scatterregions/status
    :target: https://quay.io/repository/biocontainers/biopet-scatterregions

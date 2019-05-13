@@ -50,6 +50,7 @@ ucsc-maftosnpbed
 
 
 .. |downloads_ucsc-maftosnpbed| image:: https://img.shields.io/conda/dn/bioconda/ucsc-maftosnpbed.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-maftosnpbed
    :alt:   (downloads)
 .. |docker_ucsc-maftosnpbed| image:: https://quay.io/repository/biocontainers/ucsc-maftosnpbed/status
    :target: https://quay.io/repository/biocontainers/ucsc-maftosnpbed

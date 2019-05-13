@@ -52,6 +52,7 @@ bioconductor-treeio
 
 
 .. |downloads_bioconductor-treeio| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-treeio.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-treeio
    :alt:   (downloads)
 .. |docker_bioconductor-treeio| image:: https://quay.io/repository/biocontainers/bioconductor-treeio/status
    :target: https://quay.io/repository/biocontainers/bioconductor-treeio

@@ -54,6 +54,7 @@ nf-core
 
 
 .. |downloads_nf-core| image:: https://img.shields.io/conda/dn/bioconda/nf-core.svg?style=flat
+   :target: https://anaconda.org/bioconda/nf-core
    :alt:   (downloads)
 .. |docker_nf-core| image:: https://quay.io/repository/biocontainers/nf-core/status
    :target: https://quay.io/repository/biocontainers/nf-core

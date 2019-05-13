@@ -60,6 +60,7 @@ bioconductor-dchiprep
 
 
 .. |downloads_bioconductor-dchiprep| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dchiprep.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dchiprep
    :alt:   (downloads)
 .. |docker_bioconductor-dchiprep| image:: https://quay.io/repository/biocontainers/bioconductor-dchiprep/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dchiprep

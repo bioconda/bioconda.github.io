@@ -45,6 +45,7 @@ pgma-simple
 
 
 .. |downloads_pgma-simple| image:: https://img.shields.io/conda/dn/bioconda/pgma-simple.svg?style=flat
+   :target: https://anaconda.org/bioconda/pgma-simple
    :alt:   (downloads)
 .. |docker_pgma-simple| image:: https://quay.io/repository/biocontainers/pgma-simple/status
    :target: https://quay.io/repository/biocontainers/pgma-simple

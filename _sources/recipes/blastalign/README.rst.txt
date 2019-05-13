@@ -47,6 +47,7 @@ blastalign
 
 
 .. |downloads_blastalign| image:: https://img.shields.io/conda/dn/bioconda/blastalign.svg?style=flat
+   :target: https://anaconda.org/bioconda/blastalign
    :alt:   (downloads)
 .. |docker_blastalign| image:: https://quay.io/repository/biocontainers/blastalign/status
    :target: https://quay.io/repository/biocontainers/blastalign

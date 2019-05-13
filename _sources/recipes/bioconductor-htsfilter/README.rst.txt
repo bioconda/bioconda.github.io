@@ -51,6 +51,7 @@ bioconductor-htsfilter
 
 
 .. |downloads_bioconductor-htsfilter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-htsfilter.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-htsfilter
    :alt:   (downloads)
 .. |docker_bioconductor-htsfilter| image:: https://quay.io/repository/biocontainers/bioconductor-htsfilter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-htsfilter

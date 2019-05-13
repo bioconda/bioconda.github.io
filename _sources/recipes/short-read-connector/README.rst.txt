@@ -46,6 +46,7 @@ shortreadconnector
 
 
 .. |downloads_shortreadconnector| image:: https://img.shields.io/conda/dn/bioconda/shortreadconnector.svg?style=flat
+   :target: https://anaconda.org/bioconda/shortreadconnector
    :alt:   (downloads)
 .. |docker_shortreadconnector| image:: https://quay.io/repository/biocontainers/shortreadconnector/status
    :target: https://quay.io/repository/biocontainers/shortreadconnector

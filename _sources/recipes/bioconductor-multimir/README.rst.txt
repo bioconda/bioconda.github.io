@@ -52,6 +52,7 @@ bioconductor-multimir
 
 
 .. |downloads_bioconductor-multimir| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-multimir.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-multimir
    :alt:   (downloads)
 .. |docker_bioconductor-multimir| image:: https://quay.io/repository/biocontainers/bioconductor-multimir/status
    :target: https://quay.io/repository/biocontainers/bioconductor-multimir

@@ -47,6 +47,7 @@ bioconductor-xtropicalisprobe
 
 
 .. |downloads_bioconductor-xtropicalisprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-xtropicalisprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-xtropicalisprobe
    :alt:   (downloads)
 .. |docker_bioconductor-xtropicalisprobe| image:: https://quay.io/repository/biocontainers/bioconductor-xtropicalisprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-xtropicalisprobe

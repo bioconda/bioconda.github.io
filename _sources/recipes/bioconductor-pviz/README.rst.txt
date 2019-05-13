@@ -52,6 +52,7 @@ bioconductor-pviz
 
 
 .. |downloads_bioconductor-pviz| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pviz.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pviz
    :alt:   (downloads)
 .. |docker_bioconductor-pviz| image:: https://quay.io/repository/biocontainers/bioconductor-pviz/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pviz

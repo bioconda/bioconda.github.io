@@ -53,6 +53,7 @@ bioconductor-pharmacogx
 
 
 .. |downloads_bioconductor-pharmacogx| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pharmacogx.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pharmacogx
    :alt:   (downloads)
 .. |docker_bioconductor-pharmacogx| image:: https://quay.io/repository/biocontainers/bioconductor-pharmacogx/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pharmacogx

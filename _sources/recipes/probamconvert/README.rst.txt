@@ -55,6 +55,7 @@ probamconvert
 
 
 .. |downloads_probamconvert| image:: https://img.shields.io/conda/dn/bioconda/probamconvert.svg?style=flat
+   :target: https://anaconda.org/bioconda/probamconvert
    :alt:   (downloads)
 .. |docker_probamconvert| image:: https://quay.io/repository/biocontainers/probamconvert/status
    :target: https://quay.io/repository/biocontainers/probamconvert

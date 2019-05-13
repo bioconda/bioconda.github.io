@@ -50,6 +50,7 @@ cpinsim
 
 
 .. |downloads_cpinsim| image:: https://img.shields.io/conda/dn/bioconda/cpinsim.svg?style=flat
+   :target: https://anaconda.org/bioconda/cpinsim
    :alt:   (downloads)
 .. |docker_cpinsim| image:: https://quay.io/repository/biocontainers/cpinsim/status
    :target: https://quay.io/repository/biocontainers/cpinsim

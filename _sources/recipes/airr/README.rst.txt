@@ -49,6 +49,7 @@ airr
 
 
 .. |downloads_airr| image:: https://img.shields.io/conda/dn/bioconda/airr.svg?style=flat
+   :target: https://anaconda.org/bioconda/airr
    :alt:   (downloads)
 .. |docker_airr| image:: https://quay.io/repository/biocontainers/airr/status
    :target: https://quay.io/repository/biocontainers/airr

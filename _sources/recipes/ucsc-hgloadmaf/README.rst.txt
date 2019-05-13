@@ -50,6 +50,7 @@ ucsc-hgloadmaf
 
 
 .. |downloads_ucsc-hgloadmaf| image:: https://img.shields.io/conda/dn/bioconda/ucsc-hgloadmaf.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-hgloadmaf
    :alt:   (downloads)
 .. |docker_ucsc-hgloadmaf| image:: https://quay.io/repository/biocontainers/ucsc-hgloadmaf/status
    :target: https://quay.io/repository/biocontainers/ucsc-hgloadmaf

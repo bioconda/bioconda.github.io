@@ -48,6 +48,7 @@ bioconductor-buscorrect
 
 
 .. |downloads_bioconductor-buscorrect| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-buscorrect.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-buscorrect
    :alt:   (downloads)
 .. |docker_bioconductor-buscorrect| image:: https://quay.io/repository/biocontainers/bioconductor-buscorrect/status
    :target: https://quay.io/repository/biocontainers/bioconductor-buscorrect

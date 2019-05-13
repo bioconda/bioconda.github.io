@@ -52,6 +52,7 @@ bioconductor-mzid
 
 
 .. |downloads_bioconductor-mzid| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mzid.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mzid
    :alt:   (downloads)
 .. |docker_bioconductor-mzid| image:: https://quay.io/repository/biocontainers/bioconductor-mzid/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mzid

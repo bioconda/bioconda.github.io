@@ -56,6 +56,7 @@ panx
 
 
 .. |downloads_panx| image:: https://img.shields.io/conda/dn/bioconda/panx.svg?style=flat
+   :target: https://anaconda.org/bioconda/panx
    :alt:   (downloads)
 .. |docker_panx| image:: https://quay.io/repository/biocontainers/panx/status
    :target: https://quay.io/repository/biocontainers/panx

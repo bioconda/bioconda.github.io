@@ -47,6 +47,7 @@ bioconductor-lpeadj
 
 
 .. |downloads_bioconductor-lpeadj| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lpeadj.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lpeadj
    :alt:   (downloads)
 .. |docker_bioconductor-lpeadj| image:: https://quay.io/repository/biocontainers/bioconductor-lpeadj/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lpeadj

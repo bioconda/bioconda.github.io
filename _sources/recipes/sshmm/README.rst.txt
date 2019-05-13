@@ -56,6 +56,7 @@ sshmm
 
 
 .. |downloads_sshmm| image:: https://img.shields.io/conda/dn/bioconda/sshmm.svg?style=flat
+   :target: https://anaconda.org/bioconda/sshmm
    :alt:   (downloads)
 .. |docker_sshmm| image:: https://quay.io/repository/biocontainers/sshmm/status
    :target: https://quay.io/repository/biocontainers/sshmm

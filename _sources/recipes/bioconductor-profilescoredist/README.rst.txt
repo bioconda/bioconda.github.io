@@ -49,6 +49,7 @@ bioconductor-profilescoredist
 
 
 .. |downloads_bioconductor-profilescoredist| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-profilescoredist.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-profilescoredist
    :alt:   (downloads)
 .. |docker_bioconductor-profilescoredist| image:: https://quay.io/repository/biocontainers/bioconductor-profilescoredist/status
    :target: https://quay.io/repository/biocontainers/bioconductor-profilescoredist

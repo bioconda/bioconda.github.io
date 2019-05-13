@@ -47,6 +47,7 @@ ncbi-ngs-sdk
 
 
 .. |downloads_ncbi-ngs-sdk| image:: https://img.shields.io/conda/dn/bioconda/ncbi-ngs-sdk.svg?style=flat
+   :target: https://anaconda.org/bioconda/ncbi-ngs-sdk
    :alt:   (downloads)
 .. |docker_ncbi-ngs-sdk| image:: https://quay.io/repository/biocontainers/ncbi-ngs-sdk/status
    :target: https://quay.io/repository/biocontainers/ncbi-ngs-sdk

@@ -50,6 +50,7 @@ ucsc-catuncomment
 
 
 .. |downloads_ucsc-catuncomment| image:: https://img.shields.io/conda/dn/bioconda/ucsc-catuncomment.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-catuncomment
    :alt:   (downloads)
 .. |docker_ucsc-catuncomment| image:: https://quay.io/repository/biocontainers/ucsc-catuncomment/status
    :target: https://quay.io/repository/biocontainers/ucsc-catuncomment

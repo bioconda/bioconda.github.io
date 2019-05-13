@@ -50,6 +50,7 @@ bioconductor-goprofiles
 
 
 .. |downloads_bioconductor-goprofiles| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-goprofiles.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-goprofiles
    :alt:   (downloads)
 .. |docker_bioconductor-goprofiles| image:: https://quay.io/repository/biocontainers/bioconductor-goprofiles/status
    :target: https://quay.io/repository/biocontainers/bioconductor-goprofiles

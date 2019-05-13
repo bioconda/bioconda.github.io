@@ -50,6 +50,7 @@ ucsc-pslxtofa
 
 
 .. |downloads_ucsc-pslxtofa| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslxtofa.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-pslxtofa
    :alt:   (downloads)
 .. |docker_ucsc-pslxtofa| image:: https://quay.io/repository/biocontainers/ucsc-pslxtofa/status
    :target: https://quay.io/repository/biocontainers/ucsc-pslxtofa

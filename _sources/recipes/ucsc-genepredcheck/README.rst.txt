@@ -50,6 +50,7 @@ ucsc-genepredcheck
 
 
 .. |downloads_ucsc-genepredcheck| image:: https://img.shields.io/conda/dn/bioconda/ucsc-genepredcheck.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-genepredcheck
    :alt:   (downloads)
 .. |docker_ucsc-genepredcheck| image:: https://quay.io/repository/biocontainers/ucsc-genepredcheck/status
    :target: https://quay.io/repository/biocontainers/ucsc-genepredcheck

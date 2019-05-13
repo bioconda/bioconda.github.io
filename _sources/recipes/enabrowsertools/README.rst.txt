@@ -45,6 +45,7 @@ enabrowsertools
 
 
 .. |downloads_enabrowsertools| image:: https://img.shields.io/conda/dn/bioconda/enabrowsertools.svg?style=flat
+   :target: https://anaconda.org/bioconda/enabrowsertools
    :alt:   (downloads)
 .. |docker_enabrowsertools| image:: https://quay.io/repository/biocontainers/enabrowsertools/status
    :target: https://quay.io/repository/biocontainers/enabrowsertools

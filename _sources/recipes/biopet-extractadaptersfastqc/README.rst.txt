@@ -52,6 +52,7 @@ biopet-extractadaptersfastqc
 
 
 .. |downloads_biopet-extractadaptersfastqc| image:: https://img.shields.io/conda/dn/bioconda/biopet-extractadaptersfastqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/biopet-extractadaptersfastqc
    :alt:   (downloads)
 .. |docker_biopet-extractadaptersfastqc| image:: https://quay.io/repository/biocontainers/biopet-extractadaptersfastqc/status
    :target: https://quay.io/repository/biocontainers/biopet-extractadaptersfastqc

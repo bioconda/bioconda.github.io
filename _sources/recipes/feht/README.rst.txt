@@ -44,6 +44,7 @@ feht
 
 
 .. |downloads_feht| image:: https://img.shields.io/conda/dn/bioconda/feht.svg?style=flat
+   :target: https://anaconda.org/bioconda/feht
    :alt:   (downloads)
 .. |docker_feht| image:: https://quay.io/repository/biocontainers/feht/status
    :target: https://quay.io/repository/biocontainers/feht

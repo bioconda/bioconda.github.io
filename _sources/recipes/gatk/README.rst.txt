@@ -52,6 +52,7 @@ gatk
 
 
 .. |downloads_gatk| image:: https://img.shields.io/conda/dn/bioconda/gatk.svg?style=flat
+   :target: https://anaconda.org/bioconda/gatk
    :alt:   (downloads)
 .. |docker_gatk| image:: https://quay.io/repository/biocontainers/gatk/status
    :target: https://quay.io/repository/biocontainers/gatk

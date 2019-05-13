@@ -50,6 +50,7 @@ ucsc-fapolyasizes
 
 
 .. |downloads_ucsc-fapolyasizes| image:: https://img.shields.io/conda/dn/bioconda/ucsc-fapolyasizes.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-fapolyasizes
    :alt:   (downloads)
 .. |docker_ucsc-fapolyasizes| image:: https://quay.io/repository/biocontainers/ucsc-fapolyasizes/status
    :target: https://quay.io/repository/biocontainers/ucsc-fapolyasizes

@@ -47,6 +47,7 @@ pybamtools
 
 
 .. |downloads_pybamtools| image:: https://img.shields.io/conda/dn/bioconda/pybamtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/pybamtools
    :alt:   (downloads)
 .. |docker_pybamtools| image:: https://quay.io/repository/biocontainers/pybamtools/status
    :target: https://quay.io/repository/biocontainers/pybamtools

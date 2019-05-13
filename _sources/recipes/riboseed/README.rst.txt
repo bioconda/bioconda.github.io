@@ -63,6 +63,7 @@ riboseed
 
 
 .. |downloads_riboseed| image:: https://img.shields.io/conda/dn/bioconda/riboseed.svg?style=flat
+   :target: https://anaconda.org/bioconda/riboseed
    :alt:   (downloads)
 .. |docker_riboseed| image:: https://quay.io/repository/biocontainers/riboseed/status
    :target: https://quay.io/repository/biocontainers/riboseed

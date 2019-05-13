@@ -54,6 +54,7 @@ bioconductor-cellnoptr
 
 
 .. |downloads_bioconductor-cellnoptr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cellnoptr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cellnoptr
    :alt:   (downloads)
 .. |docker_bioconductor-cellnoptr| image:: https://quay.io/repository/biocontainers/bioconductor-cellnoptr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cellnoptr

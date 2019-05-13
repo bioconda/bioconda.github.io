@@ -66,6 +66,7 @@ meme
 
 
 .. |downloads_meme| image:: https://img.shields.io/conda/dn/bioconda/meme.svg?style=flat
+   :target: https://anaconda.org/bioconda/meme
    :alt:   (downloads)
 .. |docker_meme| image:: https://quay.io/repository/biocontainers/meme/status
    :target: https://quay.io/repository/biocontainers/meme

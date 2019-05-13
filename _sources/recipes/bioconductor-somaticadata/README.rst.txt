@@ -46,6 +46,7 @@ bioconductor-somaticadata
 
 
 .. |downloads_bioconductor-somaticadata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-somaticadata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-somaticadata
    :alt:   (downloads)
 .. |docker_bioconductor-somaticadata| image:: https://quay.io/repository/biocontainers/bioconductor-somaticadata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-somaticadata

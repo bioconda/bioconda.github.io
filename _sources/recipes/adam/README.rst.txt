@@ -46,6 +46,7 @@ adam
 
 
 .. |downloads_adam| image:: https://img.shields.io/conda/dn/bioconda/adam.svg?style=flat
+   :target: https://anaconda.org/bioconda/adam
    :alt:   (downloads)
 .. |docker_adam| image:: https://quay.io/repository/biocontainers/adam/status
    :target: https://quay.io/repository/biocontainers/adam

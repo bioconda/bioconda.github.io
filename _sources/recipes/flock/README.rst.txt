@@ -45,6 +45,7 @@ flock
 
 
 .. |downloads_flock| image:: https://img.shields.io/conda/dn/bioconda/flock.svg?style=flat
+   :target: https://anaconda.org/bioconda/flock
    :alt:   (downloads)
 .. |docker_flock| image:: https://quay.io/repository/biocontainers/flock/status
    :target: https://quay.io/repository/biocontainers/flock

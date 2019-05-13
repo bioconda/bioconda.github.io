@@ -46,6 +46,7 @@ bmfilter
 
 
 .. |downloads_bmfilter| image:: https://img.shields.io/conda/dn/bioconda/bmfilter.svg?style=flat
+   :target: https://anaconda.org/bioconda/bmfilter
    :alt:   (downloads)
 .. |docker_bmfilter| image:: https://quay.io/repository/biocontainers/bmfilter/status
    :target: https://quay.io/repository/biocontainers/bmfilter

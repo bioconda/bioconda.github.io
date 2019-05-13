@@ -56,6 +56,7 @@ perl-moosex-types
 
 
 .. |downloads_perl-moosex-types| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-types.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-moosex-types
    :alt:   (downloads)
 .. |docker_perl-moosex-types| image:: https://quay.io/repository/biocontainers/perl-moosex-types/status
    :target: https://quay.io/repository/biocontainers/perl-moosex-types

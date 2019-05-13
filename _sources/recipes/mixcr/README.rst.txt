@@ -46,6 +46,7 @@ mixcr
 
 
 .. |downloads_mixcr| image:: https://img.shields.io/conda/dn/bioconda/mixcr.svg?style=flat
+   :target: https://anaconda.org/bioconda/mixcr
    :alt:   (downloads)
 .. |docker_mixcr| image:: https://quay.io/repository/biocontainers/mixcr/status
    :target: https://quay.io/repository/biocontainers/mixcr

@@ -46,6 +46,7 @@ treekin
 
 
 .. |downloads_treekin| image:: https://img.shields.io/conda/dn/bioconda/treekin.svg?style=flat
+   :target: https://anaconda.org/bioconda/treekin
    :alt:   (downloads)
 .. |docker_treekin| image:: https://quay.io/repository/biocontainers/treekin/status
    :target: https://quay.io/repository/biocontainers/treekin

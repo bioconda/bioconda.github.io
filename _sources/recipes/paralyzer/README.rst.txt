@@ -46,6 +46,7 @@ paralyzer
 
 
 .. |downloads_paralyzer| image:: https://img.shields.io/conda/dn/bioconda/paralyzer.svg?style=flat
+   :target: https://anaconda.org/bioconda/paralyzer
    :alt:   (downloads)
 .. |docker_paralyzer| image:: https://quay.io/repository/biocontainers/paralyzer/status
    :target: https://quay.io/repository/biocontainers/paralyzer

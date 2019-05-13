@@ -48,6 +48,7 @@ perl-gtdbtk
 
 
 .. |downloads_perl-gtdbtk| image:: https://img.shields.io/conda/dn/bioconda/perl-gtdbtk.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-gtdbtk
    :alt:   (downloads)
 .. |docker_perl-gtdbtk| image:: https://quay.io/repository/biocontainers/perl-gtdbtk/status
    :target: https://quay.io/repository/biocontainers/perl-gtdbtk

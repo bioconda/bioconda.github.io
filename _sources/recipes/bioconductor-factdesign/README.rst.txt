@@ -46,6 +46,7 @@ bioconductor-factdesign
 
 
 .. |downloads_bioconductor-factdesign| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-factdesign.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-factdesign
    :alt:   (downloads)
 .. |docker_bioconductor-factdesign| image:: https://quay.io/repository/biocontainers/bioconductor-factdesign/status
    :target: https://quay.io/repository/biocontainers/bioconductor-factdesign

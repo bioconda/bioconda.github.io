@@ -47,6 +47,7 @@ bioconductor-abarray
 
 
 .. |downloads_bioconductor-abarray| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-abarray.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-abarray
    :alt:   (downloads)
 .. |docker_bioconductor-abarray| image:: https://quay.io/repository/biocontainers/bioconductor-abarray/status
    :target: https://quay.io/repository/biocontainers/bioconductor-abarray

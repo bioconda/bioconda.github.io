@@ -52,6 +52,7 @@ r-minems2
 
 
 .. |downloads_r-minems2| image:: https://img.shields.io/conda/dn/bioconda/r-minems2.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-minems2
    :alt:   (downloads)
 .. |docker_r-minems2| image:: https://quay.io/repository/biocontainers/r-minems2/status
    :target: https://quay.io/repository/biocontainers/r-minems2

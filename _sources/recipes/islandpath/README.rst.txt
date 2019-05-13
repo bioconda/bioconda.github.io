@@ -54,6 +54,7 @@ islandpath
 
 
 .. |downloads_islandpath| image:: https://img.shields.io/conda/dn/bioconda/islandpath.svg?style=flat
+   :target: https://anaconda.org/bioconda/islandpath
    :alt:   (downloads)
 .. |docker_islandpath| image:: https://quay.io/repository/biocontainers/islandpath/status
    :target: https://quay.io/repository/biocontainers/islandpath

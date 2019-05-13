@@ -54,6 +54,7 @@ bioconductor-ivygapse
 
 
 .. |downloads_bioconductor-ivygapse| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ivygapse.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ivygapse
    :alt:   (downloads)
 .. |docker_bioconductor-ivygapse| image:: https://quay.io/repository/biocontainers/bioconductor-ivygapse/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ivygapse

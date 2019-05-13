@@ -50,6 +50,7 @@ ucsc-bedcommonregions
 
 
 .. |downloads_ucsc-bedcommonregions| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bedcommonregions.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bedcommonregions
    :alt:   (downloads)
 .. |docker_ucsc-bedcommonregions| image:: https://quay.io/repository/biocontainers/ucsc-bedcommonregions/status
    :target: https://quay.io/repository/biocontainers/ucsc-bedcommonregions

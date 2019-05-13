@@ -48,6 +48,7 @@ macs2
 
 
 .. |downloads_macs2| image:: https://img.shields.io/conda/dn/bioconda/macs2.svg?style=flat
+   :target: https://anaconda.org/bioconda/macs2
    :alt:   (downloads)
 .. |docker_macs2| image:: https://quay.io/repository/biocontainers/macs2/status
    :target: https://quay.io/repository/biocontainers/macs2

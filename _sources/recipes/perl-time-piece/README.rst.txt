@@ -45,6 +45,7 @@ perl-time-piece
 
 
 .. |downloads_perl-time-piece| image:: https://img.shields.io/conda/dn/bioconda/perl-time-piece.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-time-piece
    :alt:   (downloads)
 .. |docker_perl-time-piece| image:: https://quay.io/repository/biocontainers/perl-time-piece/status
    :target: https://quay.io/repository/biocontainers/perl-time-piece

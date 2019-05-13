@@ -47,6 +47,7 @@ r-ic10
 
 
 .. |downloads_r-ic10| image:: https://img.shields.io/conda/dn/bioconda/r-ic10.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-ic10
    :alt:   (downloads)
 .. |docker_r-ic10| image:: https://quay.io/repository/biocontainers/r-ic10/status
    :target: https://quay.io/repository/biocontainers/r-ic10

@@ -58,6 +58,7 @@ bioconductor-cn.farms
 
 
 .. |downloads_bioconductor-cn.farms| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cn.farms.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cn.farms
    :alt:   (downloads)
 .. |docker_bioconductor-cn.farms| image:: https://quay.io/repository/biocontainers/bioconductor-cn.farms/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cn.farms

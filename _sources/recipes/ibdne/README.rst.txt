@@ -45,6 +45,7 @@ ibdne
 
 
 .. |downloads_ibdne| image:: https://img.shields.io/conda/dn/bioconda/ibdne.svg?style=flat
+   :target: https://anaconda.org/bioconda/ibdne
    :alt:   (downloads)
 .. |docker_ibdne| image:: https://quay.io/repository/biocontainers/ibdne/status
    :target: https://quay.io/repository/biocontainers/ibdne

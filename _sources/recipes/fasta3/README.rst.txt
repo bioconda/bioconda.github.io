@@ -45,6 +45,7 @@ fasta3
 
 
 .. |downloads_fasta3| image:: https://img.shields.io/conda/dn/bioconda/fasta3.svg?style=flat
+   :target: https://anaconda.org/bioconda/fasta3
    :alt:   (downloads)
 .. |docker_fasta3| image:: https://quay.io/repository/biocontainers/fasta3/status
    :target: https://quay.io/repository/biocontainers/fasta3

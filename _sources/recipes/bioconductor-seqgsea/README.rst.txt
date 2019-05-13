@@ -50,6 +50,7 @@ bioconductor-seqgsea
 
 
 .. |downloads_bioconductor-seqgsea| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-seqgsea.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-seqgsea
    :alt:   (downloads)
 .. |docker_bioconductor-seqgsea| image:: https://quay.io/repository/biocontainers/bioconductor-seqgsea/status
    :target: https://quay.io/repository/biocontainers/bioconductor-seqgsea

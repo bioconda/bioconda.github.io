@@ -77,6 +77,7 @@ bioconductor-cemitool
 
 
 .. |downloads_bioconductor-cemitool| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cemitool.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cemitool
    :alt:   (downloads)
 .. |docker_bioconductor-cemitool| image:: https://quay.io/repository/biocontainers/bioconductor-cemitool/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cemitool

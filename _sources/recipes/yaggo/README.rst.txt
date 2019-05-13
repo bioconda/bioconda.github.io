@@ -45,6 +45,7 @@ yaggo
 
 
 .. |downloads_yaggo| image:: https://img.shields.io/conda/dn/bioconda/yaggo.svg?style=flat
+   :target: https://anaconda.org/bioconda/yaggo
    :alt:   (downloads)
 .. |docker_yaggo| image:: https://quay.io/repository/biocontainers/yaggo/status
    :target: https://quay.io/repository/biocontainers/yaggo

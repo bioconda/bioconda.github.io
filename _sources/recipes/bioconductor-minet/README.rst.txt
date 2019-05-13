@@ -49,6 +49,7 @@ bioconductor-minet
 
 
 .. |downloads_bioconductor-minet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-minet.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-minet
    :alt:   (downloads)
 .. |docker_bioconductor-minet| image:: https://quay.io/repository/biocontainers/bioconductor-minet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-minet

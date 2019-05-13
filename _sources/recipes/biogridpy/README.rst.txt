@@ -45,6 +45,7 @@ biogridpy
 
 
 .. |downloads_biogridpy| image:: https://img.shields.io/conda/dn/bioconda/biogridpy.svg?style=flat
+   :target: https://anaconda.org/bioconda/biogridpy
    :alt:   (downloads)
 .. |docker_biogridpy| image:: https://quay.io/repository/biocontainers/biogridpy/status
    :target: https://quay.io/repository/biocontainers/biogridpy

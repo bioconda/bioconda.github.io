@@ -47,6 +47,7 @@ bioconductor-enhancedvolcano
 
 
 .. |downloads_bioconductor-enhancedvolcano| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-enhancedvolcano.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-enhancedvolcano
    :alt:   (downloads)
 .. |docker_bioconductor-enhancedvolcano| image:: https://quay.io/repository/biocontainers/bioconductor-enhancedvolcano/status
    :target: https://quay.io/repository/biocontainers/bioconductor-enhancedvolcano

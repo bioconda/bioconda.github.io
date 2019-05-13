@@ -55,6 +55,7 @@ vqsr_cnn
 
 
 .. |downloads_vqsr_cnn| image:: https://img.shields.io/conda/dn/bioconda/vqsr_cnn.svg?style=flat
+   :target: https://anaconda.org/bioconda/vqsr_cnn
    :alt:   (downloads)
 .. |docker_vqsr_cnn| image:: https://quay.io/repository/biocontainers/vqsr_cnn/status
    :target: https://quay.io/repository/biocontainers/vqsr_cnn

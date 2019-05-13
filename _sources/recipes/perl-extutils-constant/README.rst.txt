@@ -45,6 +45,7 @@ perl-extutils-constant
 
 
 .. |downloads_perl-extutils-constant| image:: https://img.shields.io/conda/dn/bioconda/perl-extutils-constant.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-extutils-constant
    :alt:   (downloads)
 .. |docker_perl-extutils-constant| image:: https://quay.io/repository/biocontainers/perl-extutils-constant/status
    :target: https://quay.io/repository/biocontainers/perl-extutils-constant

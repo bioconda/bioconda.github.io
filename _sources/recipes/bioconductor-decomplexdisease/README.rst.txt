@@ -53,6 +53,7 @@ bioconductor-decomplexdisease
 
 
 .. |downloads_bioconductor-decomplexdisease| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-decomplexdisease.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-decomplexdisease
    :alt:   (downloads)
 .. |docker_bioconductor-decomplexdisease| image:: https://quay.io/repository/biocontainers/bioconductor-decomplexdisease/status
    :target: https://quay.io/repository/biocontainers/bioconductor-decomplexdisease

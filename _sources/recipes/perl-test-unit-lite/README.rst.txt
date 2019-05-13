@@ -45,6 +45,7 @@ perl-test-unit-lite
 
 
 .. |downloads_perl-test-unit-lite| image:: https://img.shields.io/conda/dn/bioconda/perl-test-unit-lite.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-unit-lite
    :alt:   (downloads)
 .. |docker_perl-test-unit-lite| image:: https://quay.io/repository/biocontainers/perl-test-unit-lite/status
    :target: https://quay.io/repository/biocontainers/perl-test-unit-lite

@@ -48,6 +48,7 @@ perl-xml-simple
 
 
 .. |downloads_perl-xml-simple| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-simple.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-xml-simple
    :alt:   (downloads)
 .. |docker_perl-xml-simple| image:: https://quay.io/repository/biocontainers/perl-xml-simple/status
    :target: https://quay.io/repository/biocontainers/perl-xml-simple

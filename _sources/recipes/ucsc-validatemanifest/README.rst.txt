@@ -50,6 +50,7 @@ ucsc-validatemanifest
 
 
 .. |downloads_ucsc-validatemanifest| image:: https://img.shields.io/conda/dn/bioconda/ucsc-validatemanifest.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-validatemanifest
    :alt:   (downloads)
 .. |docker_ucsc-validatemanifest| image:: https://quay.io/repository/biocontainers/ucsc-validatemanifest/status
    :target: https://quay.io/repository/biocontainers/ucsc-validatemanifest

@@ -49,6 +49,7 @@ perl-devel-overloadinfo
 
 
 .. |downloads_perl-devel-overloadinfo| image:: https://img.shields.io/conda/dn/bioconda/perl-devel-overloadinfo.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-devel-overloadinfo
    :alt:   (downloads)
 .. |docker_perl-devel-overloadinfo| image:: https://quay.io/repository/biocontainers/perl-devel-overloadinfo/status
    :target: https://quay.io/repository/biocontainers/perl-devel-overloadinfo

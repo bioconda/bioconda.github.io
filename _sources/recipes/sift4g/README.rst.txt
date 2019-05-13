@@ -45,6 +45,7 @@ sift4g
 
 
 .. |downloads_sift4g| image:: https://img.shields.io/conda/dn/bioconda/sift4g.svg?style=flat
+   :target: https://anaconda.org/bioconda/sift4g
    :alt:   (downloads)
 .. |docker_sift4g| image:: https://quay.io/repository/biocontainers/sift4g/status
    :target: https://quay.io/repository/biocontainers/sift4g

@@ -51,6 +51,7 @@ flexbar
 
 
 .. |downloads_flexbar| image:: https://img.shields.io/conda/dn/bioconda/flexbar.svg?style=flat
+   :target: https://anaconda.org/bioconda/flexbar
    :alt:   (downloads)
 .. |docker_flexbar| image:: https://quay.io/repository/biocontainers/flexbar/status
    :target: https://quay.io/repository/biocontainers/flexbar

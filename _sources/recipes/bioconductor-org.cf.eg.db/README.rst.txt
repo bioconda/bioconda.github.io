@@ -47,6 +47,7 @@ bioconductor-org.cf.eg.db
 
 
 .. |downloads_bioconductor-org.cf.eg.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-org.cf.eg.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-org.cf.eg.db
    :alt:   (downloads)
 .. |docker_bioconductor-org.cf.eg.db| image:: https://quay.io/repository/biocontainers/bioconductor-org.cf.eg.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-org.cf.eg.db

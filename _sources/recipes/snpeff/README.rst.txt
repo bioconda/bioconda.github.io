@@ -47,6 +47,7 @@ snpeff
 
 
 .. |downloads_snpeff| image:: https://img.shields.io/conda/dn/bioconda/snpeff.svg?style=flat
+   :target: https://anaconda.org/bioconda/snpeff
    :alt:   (downloads)
 .. |docker_snpeff| image:: https://quay.io/repository/biocontainers/snpeff/status
    :target: https://quay.io/repository/biocontainers/snpeff

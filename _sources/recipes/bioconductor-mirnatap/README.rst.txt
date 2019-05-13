@@ -52,6 +52,7 @@ bioconductor-mirnatap
 
 
 .. |downloads_bioconductor-mirnatap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirnatap.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mirnatap
    :alt:   (downloads)
 .. |docker_bioconductor-mirnatap| image:: https://quay.io/repository/biocontainers/bioconductor-mirnatap/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mirnatap

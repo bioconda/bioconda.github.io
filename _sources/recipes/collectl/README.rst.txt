@@ -46,6 +46,7 @@ collectl
 
 
 .. |downloads_collectl| image:: https://img.shields.io/conda/dn/bioconda/collectl.svg?style=flat
+   :target: https://anaconda.org/bioconda/collectl
    :alt:   (downloads)
 .. |docker_collectl| image:: https://quay.io/repository/biocontainers/collectl/status
    :target: https://quay.io/repository/biocontainers/collectl

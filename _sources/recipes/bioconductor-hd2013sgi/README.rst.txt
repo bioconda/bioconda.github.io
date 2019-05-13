@@ -54,6 +54,7 @@ bioconductor-hd2013sgi
 
 
 .. |downloads_bioconductor-hd2013sgi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hd2013sgi.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hd2013sgi
    :alt:   (downloads)
 .. |docker_bioconductor-hd2013sgi| image:: https://quay.io/repository/biocontainers/bioconductor-hd2013sgi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hd2013sgi

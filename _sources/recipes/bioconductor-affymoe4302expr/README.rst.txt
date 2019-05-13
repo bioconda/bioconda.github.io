@@ -46,6 +46,7 @@ bioconductor-affymoe4302expr
 
 
 .. |downloads_bioconductor-affymoe4302expr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affymoe4302expr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-affymoe4302expr
    :alt:   (downloads)
 .. |docker_bioconductor-affymoe4302expr| image:: https://quay.io/repository/biocontainers/bioconductor-affymoe4302expr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affymoe4302expr

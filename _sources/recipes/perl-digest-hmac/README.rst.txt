@@ -45,6 +45,7 @@ perl-digest-hmac
 
 
 .. |downloads_perl-digest-hmac| image:: https://img.shields.io/conda/dn/bioconda/perl-digest-hmac.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-digest-hmac
    :alt:   (downloads)
 .. |docker_perl-digest-hmac| image:: https://quay.io/repository/biocontainers/perl-digest-hmac/status
    :target: https://quay.io/repository/biocontainers/perl-digest-hmac

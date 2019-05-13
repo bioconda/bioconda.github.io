@@ -48,6 +48,7 @@ bioconductor-sdams
 
 
 .. |downloads_bioconductor-sdams| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sdams.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sdams
    :alt:   (downloads)
 .. |docker_bioconductor-sdams| image:: https://quay.io/repository/biocontainers/bioconductor-sdams/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sdams

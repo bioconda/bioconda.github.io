@@ -46,6 +46,7 @@ soapdenovo2-errorcorrection
 
 
 .. |downloads_soapdenovo2-errorcorrection| image:: https://img.shields.io/conda/dn/bioconda/soapdenovo2-errorcorrection.svg?style=flat
+   :target: https://anaconda.org/bioconda/soapdenovo2-errorcorrection
    :alt:   (downloads)
 .. |docker_soapdenovo2-errorcorrection| image:: https://quay.io/repository/biocontainers/soapdenovo2-errorcorrection/status
    :target: https://quay.io/repository/biocontainers/soapdenovo2-errorcorrection

@@ -54,6 +54,7 @@ dammet
 
 
 .. |downloads_dammet| image:: https://img.shields.io/conda/dn/bioconda/dammet.svg?style=flat
+   :target: https://anaconda.org/bioconda/dammet
    :alt:   (downloads)
 .. |docker_dammet| image:: https://quay.io/repository/biocontainers/dammet/status
    :target: https://quay.io/repository/biocontainers/dammet

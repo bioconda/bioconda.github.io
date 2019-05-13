@@ -46,6 +46,7 @@ bioconductor-rnaseqdata.hnrnpc.bam.chr14
 
 
 .. |downloads_bioconductor-rnaseqdata.hnrnpc.bam.chr14| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rnaseqdata.hnrnpc.bam.chr14.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rnaseqdata.hnrnpc.bam.chr14
    :alt:   (downloads)
 .. |docker_bioconductor-rnaseqdata.hnrnpc.bam.chr14| image:: https://quay.io/repository/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14

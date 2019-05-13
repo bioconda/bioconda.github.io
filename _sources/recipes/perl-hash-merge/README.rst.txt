@@ -46,6 +46,7 @@ perl-hash-merge
 
 
 .. |downloads_perl-hash-merge| image:: https://img.shields.io/conda/dn/bioconda/perl-hash-merge.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-hash-merge
    :alt:   (downloads)
 .. |docker_perl-hash-merge| image:: https://quay.io/repository/biocontainers/perl-hash-merge/status
    :target: https://quay.io/repository/biocontainers/perl-hash-merge

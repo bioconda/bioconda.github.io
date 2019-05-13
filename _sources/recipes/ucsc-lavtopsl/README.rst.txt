@@ -50,6 +50,7 @@ ucsc-lavtopsl
 
 
 .. |downloads_ucsc-lavtopsl| image:: https://img.shields.io/conda/dn/bioconda/ucsc-lavtopsl.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-lavtopsl
    :alt:   (downloads)
 .. |docker_ucsc-lavtopsl| image:: https://quay.io/repository/biocontainers/ucsc-lavtopsl/status
    :target: https://quay.io/repository/biocontainers/ucsc-lavtopsl

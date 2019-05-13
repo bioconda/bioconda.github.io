@@ -47,6 +47,7 @@ bioconductor-dupradar
 
 
 .. |downloads_bioconductor-dupradar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dupradar.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dupradar
    :alt:   (downloads)
 .. |docker_bioconductor-dupradar| image:: https://quay.io/repository/biocontainers/bioconductor-dupradar/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dupradar

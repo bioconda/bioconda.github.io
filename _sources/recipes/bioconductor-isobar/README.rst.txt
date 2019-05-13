@@ -50,6 +50,7 @@ bioconductor-isobar
 
 
 .. |downloads_bioconductor-isobar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-isobar.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-isobar
    :alt:   (downloads)
 .. |docker_bioconductor-isobar| image:: https://quay.io/repository/biocontainers/bioconductor-isobar/status
    :target: https://quay.io/repository/biocontainers/bioconductor-isobar

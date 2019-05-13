@@ -45,6 +45,7 @@ r-bioverbs
 
 
 .. |downloads_r-bioverbs| image:: https://img.shields.io/conda/dn/bioconda/r-bioverbs.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-bioverbs
    :alt:   (downloads)
 .. |docker_r-bioverbs| image:: https://quay.io/repository/biocontainers/r-bioverbs/status
    :target: https://quay.io/repository/biocontainers/r-bioverbs

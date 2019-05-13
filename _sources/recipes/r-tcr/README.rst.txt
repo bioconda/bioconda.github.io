@@ -57,6 +57,7 @@ r-tcr
 
 
 .. |downloads_r-tcr| image:: https://img.shields.io/conda/dn/bioconda/r-tcr.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-tcr
    :alt:   (downloads)
 .. |docker_r-tcr| image:: https://quay.io/repository/biocontainers/r-tcr/status
    :target: https://quay.io/repository/biocontainers/r-tcr

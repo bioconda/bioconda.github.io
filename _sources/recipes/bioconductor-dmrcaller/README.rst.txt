@@ -53,6 +53,7 @@ bioconductor-dmrcaller
 
 
 .. |downloads_bioconductor-dmrcaller| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dmrcaller.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dmrcaller
    :alt:   (downloads)
 .. |docker_bioconductor-dmrcaller| image:: https://quay.io/repository/biocontainers/bioconductor-dmrcaller/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dmrcaller

@@ -58,6 +58,7 @@ reparation_blast
 
 
 .. |downloads_reparation_blast| image:: https://img.shields.io/conda/dn/bioconda/reparation_blast.svg?style=flat
+   :target: https://anaconda.org/bioconda/reparation_blast
    :alt:   (downloads)
 .. |docker_reparation_blast| image:: https://quay.io/repository/biocontainers/reparation_blast/status
    :target: https://quay.io/repository/biocontainers/reparation_blast

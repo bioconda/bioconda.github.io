@@ -58,6 +58,7 @@ bioconductor-cydar
 
 
 .. |downloads_bioconductor-cydar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cydar.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cydar
    :alt:   (downloads)
 .. |docker_bioconductor-cydar| image:: https://quay.io/repository/biocontainers/bioconductor-cydar/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cydar

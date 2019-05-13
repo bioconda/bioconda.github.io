@@ -46,6 +46,7 @@ bioconductor-lea
 
 
 .. |downloads_bioconductor-lea| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lea.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lea
    :alt:   (downloads)
 .. |docker_bioconductor-lea| image:: https://quay.io/repository/biocontainers/bioconductor-lea/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lea

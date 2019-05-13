@@ -51,6 +51,7 @@ skmer
 
 
 .. |downloads_skmer| image:: https://img.shields.io/conda/dn/bioconda/skmer.svg?style=flat
+   :target: https://anaconda.org/bioconda/skmer
    :alt:   (downloads)
 .. |docker_skmer| image:: https://quay.io/repository/biocontainers/skmer/status
    :target: https://quay.io/repository/biocontainers/skmer

@@ -46,6 +46,7 @@ yanc
 
 
 .. |downloads_yanc| image:: https://img.shields.io/conda/dn/bioconda/yanc.svg?style=flat
+   :target: https://anaconda.org/bioconda/yanc
    :alt:   (downloads)
 .. |docker_yanc| image:: https://quay.io/repository/biocontainers/yanc/status
    :target: https://quay.io/repository/biocontainers/yanc

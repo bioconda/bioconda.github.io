@@ -47,6 +47,7 @@ pynast
 
 
 .. |downloads_pynast| image:: https://img.shields.io/conda/dn/bioconda/pynast.svg?style=flat
+   :target: https://anaconda.org/bioconda/pynast
    :alt:   (downloads)
 .. |docker_pynast| image:: https://quay.io/repository/biocontainers/pynast/status
    :target: https://quay.io/repository/biocontainers/pynast

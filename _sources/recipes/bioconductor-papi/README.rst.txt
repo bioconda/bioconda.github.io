@@ -48,6 +48,7 @@ bioconductor-papi
 
 
 .. |downloads_bioconductor-papi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-papi.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-papi
    :alt:   (downloads)
 .. |docker_bioconductor-papi| image:: https://quay.io/repository/biocontainers/bioconductor-papi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-papi

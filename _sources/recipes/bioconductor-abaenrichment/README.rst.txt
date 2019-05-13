@@ -54,6 +54,7 @@ bioconductor-abaenrichment
 
 
 .. |downloads_bioconductor-abaenrichment| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-abaenrichment.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-abaenrichment
    :alt:   (downloads)
 .. |docker_bioconductor-abaenrichment| image:: https://quay.io/repository/biocontainers/bioconductor-abaenrichment/status
    :target: https://quay.io/repository/biocontainers/bioconductor-abaenrichment

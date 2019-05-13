@@ -47,6 +47,7 @@ bioconductor-ygs98cdf
 
 
 .. |downloads_bioconductor-ygs98cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ygs98cdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ygs98cdf
    :alt:   (downloads)
 .. |docker_bioconductor-ygs98cdf| image:: https://quay.io/repository/biocontainers/bioconductor-ygs98cdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ygs98cdf

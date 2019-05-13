@@ -49,6 +49,7 @@ erne
 
 
 .. |downloads_erne| image:: https://img.shields.io/conda/dn/bioconda/erne.svg?style=flat
+   :target: https://anaconda.org/bioconda/erne
    :alt:   (downloads)
 .. |docker_erne| image:: https://quay.io/repository/biocontainers/erne/status
    :target: https://quay.io/repository/biocontainers/erne

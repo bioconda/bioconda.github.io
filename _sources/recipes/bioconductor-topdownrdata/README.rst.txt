@@ -47,6 +47,7 @@ bioconductor-topdownrdata
 
 
 .. |downloads_bioconductor-topdownrdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-topdownrdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-topdownrdata
    :alt:   (downloads)
 .. |docker_bioconductor-topdownrdata| image:: https://quay.io/repository/biocontainers/bioconductor-topdownrdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-topdownrdata

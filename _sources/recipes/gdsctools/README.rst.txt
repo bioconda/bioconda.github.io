@@ -60,6 +60,7 @@ gdsctools
 
 
 .. |downloads_gdsctools| image:: https://img.shields.io/conda/dn/bioconda/gdsctools.svg?style=flat
+   :target: https://anaconda.org/bioconda/gdsctools
    :alt:   (downloads)
 .. |docker_gdsctools| image:: https://quay.io/repository/biocontainers/gdsctools/status
    :target: https://quay.io/repository/biocontainers/gdsctools

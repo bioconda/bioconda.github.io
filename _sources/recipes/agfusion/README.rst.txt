@@ -51,6 +51,7 @@ agfusion
 
 
 .. |downloads_agfusion| image:: https://img.shields.io/conda/dn/bioconda/agfusion.svg?style=flat
+   :target: https://anaconda.org/bioconda/agfusion
    :alt:   (downloads)
 .. |docker_agfusion| image:: https://quay.io/repository/biocontainers/agfusion/status
    :target: https://quay.io/repository/biocontainers/agfusion

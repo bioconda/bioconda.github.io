@@ -47,6 +47,7 @@ bioconductor-bhc
 
 
 .. |downloads_bioconductor-bhc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bhc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bhc
    :alt:   (downloads)
 .. |docker_bioconductor-bhc| image:: https://quay.io/repository/biocontainers/bioconductor-bhc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bhc

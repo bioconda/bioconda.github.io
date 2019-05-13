@@ -48,6 +48,7 @@ bicseq2-norm
 
 
 .. |downloads_bicseq2-norm| image:: https://img.shields.io/conda/dn/bioconda/bicseq2-norm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bicseq2-norm
    :alt:   (downloads)
 .. |docker_bicseq2-norm| image:: https://quay.io/repository/biocontainers/bicseq2-norm/status
    :target: https://quay.io/repository/biocontainers/bicseq2-norm

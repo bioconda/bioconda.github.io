@@ -57,6 +57,7 @@ xyalign
 
 
 .. |downloads_xyalign| image:: https://img.shields.io/conda/dn/bioconda/xyalign.svg?style=flat
+   :target: https://anaconda.org/bioconda/xyalign
    :alt:   (downloads)
 .. |docker_xyalign| image:: https://quay.io/repository/biocontainers/xyalign/status
    :target: https://quay.io/repository/biocontainers/xyalign

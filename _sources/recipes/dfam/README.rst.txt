@@ -50,6 +50,7 @@ dfam
 
 
 .. |downloads_dfam| image:: https://img.shields.io/conda/dn/bioconda/dfam.svg?style=flat
+   :target: https://anaconda.org/bioconda/dfam
    :alt:   (downloads)
 .. |docker_dfam| image:: https://quay.io/repository/biocontainers/dfam/status
    :target: https://quay.io/repository/biocontainers/dfam

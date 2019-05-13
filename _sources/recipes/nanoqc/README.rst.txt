@@ -48,6 +48,7 @@ nanoqc
 
 
 .. |downloads_nanoqc| image:: https://img.shields.io/conda/dn/bioconda/nanoqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/nanoqc
    :alt:   (downloads)
 .. |docker_nanoqc| image:: https://quay.io/repository/biocontainers/nanoqc/status
    :target: https://quay.io/repository/biocontainers/nanoqc

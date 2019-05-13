@@ -45,6 +45,7 @@ assembly-stats
 
 
 .. |downloads_assembly-stats| image:: https://img.shields.io/conda/dn/bioconda/assembly-stats.svg?style=flat
+   :target: https://anaconda.org/bioconda/assembly-stats
    :alt:   (downloads)
 .. |docker_assembly-stats| image:: https://quay.io/repository/biocontainers/assembly-stats/status
    :target: https://quay.io/repository/biocontainers/assembly-stats

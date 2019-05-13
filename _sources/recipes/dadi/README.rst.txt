@@ -49,6 +49,7 @@ dadi
 
 
 .. |downloads_dadi| image:: https://img.shields.io/conda/dn/bioconda/dadi.svg?style=flat
+   :target: https://anaconda.org/bioconda/dadi
    :alt:   (downloads)
 .. |docker_dadi| image:: https://quay.io/repository/biocontainers/dadi/status
    :target: https://quay.io/repository/biocontainers/dadi

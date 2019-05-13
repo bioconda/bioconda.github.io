@@ -55,6 +55,7 @@ bioconductor-prot2d
 
 
 .. |downloads_bioconductor-prot2d| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-prot2d.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-prot2d
    :alt:   (downloads)
 .. |docker_bioconductor-prot2d| image:: https://quay.io/repository/biocontainers/bioconductor-prot2d/status
    :target: https://quay.io/repository/biocontainers/bioconductor-prot2d

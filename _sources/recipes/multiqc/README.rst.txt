@@ -59,6 +59,7 @@ multiqc
 
 
 .. |downloads_multiqc| image:: https://img.shields.io/conda/dn/bioconda/multiqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/multiqc
    :alt:   (downloads)
 .. |docker_multiqc| image:: https://quay.io/repository/biocontainers/multiqc/status
    :target: https://quay.io/repository/biocontainers/multiqc

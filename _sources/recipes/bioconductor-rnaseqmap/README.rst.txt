@@ -55,6 +55,7 @@ bioconductor-rnaseqmap
 
 
 .. |downloads_bioconductor-rnaseqmap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rnaseqmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rnaseqmap
    :alt:   (downloads)
 .. |docker_bioconductor-rnaseqmap| image:: https://quay.io/repository/biocontainers/bioconductor-rnaseqmap/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rnaseqmap

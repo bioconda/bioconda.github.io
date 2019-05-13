@@ -46,6 +46,7 @@ arvados-cli
 
 
 .. |downloads_arvados-cli| image:: https://img.shields.io/conda/dn/bioconda/arvados-cli.svg?style=flat
+   :target: https://anaconda.org/bioconda/arvados-cli
    :alt:   (downloads)
 .. |docker_arvados-cli| image:: https://quay.io/repository/biocontainers/arvados-cli/status
    :target: https://quay.io/repository/biocontainers/arvados-cli

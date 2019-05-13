@@ -46,6 +46,7 @@ bioconductor-affyhgu133aexpr
 
 
 .. |downloads_bioconductor-affyhgu133aexpr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affyhgu133aexpr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-affyhgu133aexpr
    :alt:   (downloads)
 .. |docker_bioconductor-affyhgu133aexpr| image:: https://quay.io/repository/biocontainers/bioconductor-affyhgu133aexpr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affyhgu133aexpr

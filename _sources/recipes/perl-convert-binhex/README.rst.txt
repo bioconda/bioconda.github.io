@@ -45,6 +45,7 @@ perl-convert-binhex
 
 
 .. |downloads_perl-convert-binhex| image:: https://img.shields.io/conda/dn/bioconda/perl-convert-binhex.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-convert-binhex
    :alt:   (downloads)
 .. |docker_perl-convert-binhex| image:: https://quay.io/repository/biocontainers/perl-convert-binhex/status
    :target: https://quay.io/repository/biocontainers/perl-convert-binhex

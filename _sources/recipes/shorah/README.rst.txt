@@ -54,6 +54,7 @@ shorah
 
 
 .. |downloads_shorah| image:: https://img.shields.io/conda/dn/bioconda/shorah.svg?style=flat
+   :target: https://anaconda.org/bioconda/shorah
    :alt:   (downloads)
 .. |docker_shorah| image:: https://quay.io/repository/biocontainers/shorah/status
    :target: https://quay.io/repository/biocontainers/shorah

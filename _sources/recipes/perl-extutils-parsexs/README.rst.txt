@@ -49,6 +49,7 @@ perl-extutils-parsexs
 
 
 .. |downloads_perl-extutils-parsexs| image:: https://img.shields.io/conda/dn/bioconda/perl-extutils-parsexs.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-extutils-parsexs
    :alt:   (downloads)
 .. |docker_perl-extutils-parsexs| image:: https://quay.io/repository/biocontainers/perl-extutils-parsexs/status
    :target: https://quay.io/repository/biocontainers/perl-extutils-parsexs

@@ -50,6 +50,7 @@ ucsc-newprog
 
 
 .. |downloads_ucsc-newprog| image:: https://img.shields.io/conda/dn/bioconda/ucsc-newprog.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-newprog
    :alt:   (downloads)
 .. |docker_ucsc-newprog| image:: https://quay.io/repository/biocontainers/ucsc-newprog/status
    :target: https://quay.io/repository/biocontainers/ucsc-newprog

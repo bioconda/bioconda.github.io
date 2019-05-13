@@ -46,6 +46,7 @@ soapec
 
 
 .. |downloads_soapec| image:: https://img.shields.io/conda/dn/bioconda/soapec.svg?style=flat
+   :target: https://anaconda.org/bioconda/soapec
    :alt:   (downloads)
 .. |docker_soapec| image:: https://quay.io/repository/biocontainers/soapec/status
    :target: https://quay.io/repository/biocontainers/soapec

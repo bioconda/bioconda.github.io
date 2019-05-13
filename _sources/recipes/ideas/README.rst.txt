@@ -46,6 +46,7 @@ ideas
 
 
 .. |downloads_ideas| image:: https://img.shields.io/conda/dn/bioconda/ideas.svg?style=flat
+   :target: https://anaconda.org/bioconda/ideas
    :alt:   (downloads)
 .. |docker_ideas| image:: https://quay.io/repository/biocontainers/ideas/status
    :target: https://quay.io/repository/biocontainers/ideas

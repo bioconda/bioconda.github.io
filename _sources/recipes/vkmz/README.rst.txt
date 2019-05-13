@@ -45,6 +45,7 @@ vkmz
 
 
 .. |downloads_vkmz| image:: https://img.shields.io/conda/dn/bioconda/vkmz.svg?style=flat
+   :target: https://anaconda.org/bioconda/vkmz
    :alt:   (downloads)
 .. |docker_vkmz| image:: https://quay.io/repository/biocontainers/vkmz/status
    :target: https://quay.io/repository/biocontainers/vkmz

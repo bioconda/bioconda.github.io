@@ -48,6 +48,7 @@ bioconductor-mbttest
 
 
 .. |downloads_bioconductor-mbttest| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mbttest.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mbttest
    :alt:   (downloads)
 .. |docker_bioconductor-mbttest| image:: https://quay.io/repository/biocontainers/bioconductor-mbttest/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mbttest

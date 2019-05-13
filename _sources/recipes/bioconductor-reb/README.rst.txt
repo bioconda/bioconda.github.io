@@ -48,6 +48,7 @@ bioconductor-reb
 
 
 .. |downloads_bioconductor-reb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-reb.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-reb
    :alt:   (downloads)
 .. |docker_bioconductor-reb| image:: https://quay.io/repository/biocontainers/bioconductor-reb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-reb

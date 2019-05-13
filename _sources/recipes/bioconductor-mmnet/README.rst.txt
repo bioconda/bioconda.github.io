@@ -59,6 +59,7 @@ bioconductor-mmnet
 
 
 .. |downloads_bioconductor-mmnet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mmnet.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mmnet
    :alt:   (downloads)
 .. |docker_bioconductor-mmnet| image:: https://quay.io/repository/biocontainers/bioconductor-mmnet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mmnet

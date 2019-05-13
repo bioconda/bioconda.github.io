@@ -50,6 +50,7 @@ ucsc-hgloadnet
 
 
 .. |downloads_ucsc-hgloadnet| image:: https://img.shields.io/conda/dn/bioconda/ucsc-hgloadnet.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-hgloadnet
    :alt:   (downloads)
 .. |docker_ucsc-hgloadnet| image:: https://quay.io/repository/biocontainers/ucsc-hgloadnet/status
    :target: https://quay.io/repository/biocontainers/ucsc-hgloadnet

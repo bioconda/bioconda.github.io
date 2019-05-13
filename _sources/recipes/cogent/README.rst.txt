@@ -51,6 +51,7 @@ cogent
 
 
 .. |downloads_cogent| image:: https://img.shields.io/conda/dn/bioconda/cogent.svg?style=flat
+   :target: https://anaconda.org/bioconda/cogent
    :alt:   (downloads)
 .. |docker_cogent| image:: https://quay.io/repository/biocontainers/cogent/status
    :target: https://quay.io/repository/biocontainers/cogent

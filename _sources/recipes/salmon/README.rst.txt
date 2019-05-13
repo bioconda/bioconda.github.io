@@ -52,6 +52,7 @@ salmon
 
 
 .. |downloads_salmon| image:: https://img.shields.io/conda/dn/bioconda/salmon.svg?style=flat
+   :target: https://anaconda.org/bioconda/salmon
    :alt:   (downloads)
 .. |docker_salmon| image:: https://quay.io/repository/biocontainers/salmon/status
    :target: https://quay.io/repository/biocontainers/salmon

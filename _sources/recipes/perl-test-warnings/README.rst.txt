@@ -45,6 +45,7 @@ perl-test-warnings
 
 
 .. |downloads_perl-test-warnings| image:: https://img.shields.io/conda/dn/bioconda/perl-test-warnings.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-warnings
    :alt:   (downloads)
 .. |docker_perl-test-warnings| image:: https://quay.io/repository/biocontainers/perl-test-warnings/status
    :target: https://quay.io/repository/biocontainers/perl-test-warnings

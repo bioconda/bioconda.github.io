@@ -59,6 +59,7 @@ koeken
 
 
 .. |downloads_koeken| image:: https://img.shields.io/conda/dn/bioconda/koeken.svg?style=flat
+   :target: https://anaconda.org/bioconda/koeken
    :alt:   (downloads)
 .. |docker_koeken| image:: https://quay.io/repository/biocontainers/koeken/status
    :target: https://quay.io/repository/biocontainers/koeken

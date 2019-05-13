@@ -50,6 +50,7 @@ ucsc-pslscore
 
 
 .. |downloads_ucsc-pslscore| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslscore.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-pslscore
    :alt:   (downloads)
 .. |docker_ucsc-pslscore| image:: https://quay.io/repository/biocontainers/ucsc-pslscore/status
    :target: https://quay.io/repository/biocontainers/ucsc-pslscore

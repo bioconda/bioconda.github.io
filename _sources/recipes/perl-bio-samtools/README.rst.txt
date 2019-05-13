@@ -47,6 +47,7 @@ perl-bio-samtools
 
 
 .. |downloads_perl-bio-samtools| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-samtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bio-samtools
    :alt:   (downloads)
 .. |docker_perl-bio-samtools| image:: https://quay.io/repository/biocontainers/perl-bio-samtools/status
    :target: https://quay.io/repository/biocontainers/perl-bio-samtools

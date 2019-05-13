@@ -49,6 +49,7 @@ snp-pipeline
 
 
 .. |downloads_snp-pipeline| image:: https://img.shields.io/conda/dn/bioconda/snp-pipeline.svg?style=flat
+   :target: https://anaconda.org/bioconda/snp-pipeline
    :alt:   (downloads)
 .. |docker_snp-pipeline| image:: https://quay.io/repository/biocontainers/snp-pipeline/status
    :target: https://quay.io/repository/biocontainers/snp-pipeline

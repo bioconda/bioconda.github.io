@@ -56,6 +56,7 @@ confindr
 
 
 .. |downloads_confindr| image:: https://img.shields.io/conda/dn/bioconda/confindr.svg?style=flat
+   :target: https://anaconda.org/bioconda/confindr
    :alt:   (downloads)
 .. |docker_confindr| image:: https://quay.io/repository/biocontainers/confindr/status
    :target: https://quay.io/repository/biocontainers/confindr

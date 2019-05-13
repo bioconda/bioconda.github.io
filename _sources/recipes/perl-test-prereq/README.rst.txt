@@ -50,6 +50,7 @@ perl-test-prereq
 
 
 .. |downloads_perl-test-prereq| image:: https://img.shields.io/conda/dn/bioconda/perl-test-prereq.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-prereq
    :alt:   (downloads)
 .. |docker_perl-test-prereq| image:: https://quay.io/repository/biocontainers/perl-test-prereq/status
    :target: https://quay.io/repository/biocontainers/perl-test-prereq

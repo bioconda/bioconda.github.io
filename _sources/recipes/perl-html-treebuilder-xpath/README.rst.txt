@@ -47,6 +47,7 @@ perl-html-treebuilder-xpath
 
 
 .. |downloads_perl-html-treebuilder-xpath| image:: https://img.shields.io/conda/dn/bioconda/perl-html-treebuilder-xpath.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-html-treebuilder-xpath
    :alt:   (downloads)
 .. |docker_perl-html-treebuilder-xpath| image:: https://quay.io/repository/biocontainers/perl-html-treebuilder-xpath/status
    :target: https://quay.io/repository/biocontainers/perl-html-treebuilder-xpath

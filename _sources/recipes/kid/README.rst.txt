@@ -45,6 +45,7 @@ kid
 
 
 .. |downloads_kid| image:: https://img.shields.io/conda/dn/bioconda/kid.svg?style=flat
+   :target: https://anaconda.org/bioconda/kid
    :alt:   (downloads)
 .. |docker_kid| image:: https://quay.io/repository/biocontainers/kid/status
    :target: https://quay.io/repository/biocontainers/kid

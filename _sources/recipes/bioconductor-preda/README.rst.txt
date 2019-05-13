@@ -50,6 +50,7 @@ bioconductor-preda
 
 
 .. |downloads_bioconductor-preda| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-preda.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-preda
    :alt:   (downloads)
 .. |docker_bioconductor-preda| image:: https://quay.io/repository/biocontainers/bioconductor-preda/status
    :target: https://quay.io/repository/biocontainers/bioconductor-preda

@@ -50,6 +50,7 @@ ucsc-stringify
 
 
 .. |downloads_ucsc-stringify| image:: https://img.shields.io/conda/dn/bioconda/ucsc-stringify.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-stringify
    :alt:   (downloads)
 .. |docker_ucsc-stringify| image:: https://quay.io/repository/biocontainers/ucsc-stringify/status
    :target: https://quay.io/repository/biocontainers/ucsc-stringify

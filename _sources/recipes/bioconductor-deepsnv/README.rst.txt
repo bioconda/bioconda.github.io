@@ -55,6 +55,7 @@ bioconductor-deepsnv
 
 
 .. |downloads_bioconductor-deepsnv| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-deepsnv.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-deepsnv
    :alt:   (downloads)
 .. |docker_bioconductor-deepsnv| image:: https://quay.io/repository/biocontainers/bioconductor-deepsnv/status
    :target: https://quay.io/repository/biocontainers/bioconductor-deepsnv

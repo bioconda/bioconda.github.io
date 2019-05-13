@@ -50,6 +50,7 @@ ucsc-rmfadups
 
 
 .. |downloads_ucsc-rmfadups| image:: https://img.shields.io/conda/dn/bioconda/ucsc-rmfadups.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-rmfadups
    :alt:   (downloads)
 .. |docker_ucsc-rmfadups| image:: https://quay.io/repository/biocontainers/ucsc-rmfadups/status
    :target: https://quay.io/repository/biocontainers/ucsc-rmfadups

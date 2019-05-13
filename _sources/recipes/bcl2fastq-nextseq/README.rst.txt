@@ -50,6 +50,7 @@ bcl2fastq-nextseq
 
 
 .. |downloads_bcl2fastq-nextseq| image:: https://img.shields.io/conda/dn/bioconda/bcl2fastq-nextseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bcl2fastq-nextseq
    :alt:   (downloads)
 .. |docker_bcl2fastq-nextseq| image:: https://quay.io/repository/biocontainers/bcl2fastq-nextseq/status
    :target: https://quay.io/repository/biocontainers/bcl2fastq-nextseq

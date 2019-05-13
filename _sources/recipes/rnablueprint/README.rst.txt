@@ -49,6 +49,7 @@ rnablueprint
 
 
 .. |downloads_rnablueprint| image:: https://img.shields.io/conda/dn/bioconda/rnablueprint.svg?style=flat
+   :target: https://anaconda.org/bioconda/rnablueprint
    :alt:   (downloads)
 .. |docker_rnablueprint| image:: https://quay.io/repository/biocontainers/rnablueprint/status
    :target: https://quay.io/repository/biocontainers/rnablueprint

@@ -47,6 +47,7 @@ fastp
 
 
 .. |downloads_fastp| image:: https://img.shields.io/conda/dn/bioconda/fastp.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastp
    :alt:   (downloads)
 .. |docker_fastp| image:: https://quay.io/repository/biocontainers/fastp/status
    :target: https://quay.io/repository/biocontainers/fastp

@@ -54,6 +54,7 @@ bioconductor-edda
 
 
 .. |downloads_bioconductor-edda| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-edda.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-edda
    :alt:   (downloads)
 .. |docker_bioconductor-edda| image:: https://quay.io/repository/biocontainers/bioconductor-edda/status
    :target: https://quay.io/repository/biocontainers/bioconductor-edda

@@ -53,6 +53,7 @@ mlpy
 
 
 .. |downloads_mlpy| image:: https://img.shields.io/conda/dn/bioconda/mlpy.svg?style=flat
+   :target: https://anaconda.org/bioconda/mlpy
    :alt:   (downloads)
 .. |docker_mlpy| image:: https://quay.io/repository/biocontainers/mlpy/status
    :target: https://quay.io/repository/biocontainers/mlpy

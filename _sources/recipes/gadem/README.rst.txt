@@ -45,6 +45,7 @@ gadem
 
 
 .. |downloads_gadem| image:: https://img.shields.io/conda/dn/bioconda/gadem.svg?style=flat
+   :target: https://anaconda.org/bioconda/gadem
    :alt:   (downloads)
 .. |docker_gadem| image:: https://quay.io/repository/biocontainers/gadem/status
    :target: https://quay.io/repository/biocontainers/gadem

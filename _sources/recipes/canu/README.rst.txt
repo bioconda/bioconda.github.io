@@ -50,6 +50,7 @@ canu
 
 
 .. |downloads_canu| image:: https://img.shields.io/conda/dn/bioconda/canu.svg?style=flat
+   :target: https://anaconda.org/bioconda/canu
    :alt:   (downloads)
 .. |docker_canu| image:: https://quay.io/repository/biocontainers/canu/status
    :target: https://quay.io/repository/biocontainers/canu

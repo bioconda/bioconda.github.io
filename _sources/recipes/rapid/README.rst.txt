@@ -58,6 +58,7 @@ rapid
 
 
 .. |downloads_rapid| image:: https://img.shields.io/conda/dn/bioconda/rapid.svg?style=flat
+   :target: https://anaconda.org/bioconda/rapid
    :alt:   (downloads)
 .. |docker_rapid| image:: https://quay.io/repository/biocontainers/rapid/status
    :target: https://quay.io/repository/biocontainers/rapid

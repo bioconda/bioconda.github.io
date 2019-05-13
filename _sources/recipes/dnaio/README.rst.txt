@@ -47,6 +47,7 @@ dnaio
 
 
 .. |downloads_dnaio| image:: https://img.shields.io/conda/dn/bioconda/dnaio.svg?style=flat
+   :target: https://anaconda.org/bioconda/dnaio
    :alt:   (downloads)
 .. |docker_dnaio| image:: https://quay.io/repository/biocontainers/dnaio/status
    :target: https://quay.io/repository/biocontainers/dnaio

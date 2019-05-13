@@ -46,6 +46,7 @@ bioconductor-mtbls2
 
 
 .. |downloads_bioconductor-mtbls2| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mtbls2.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mtbls2
    :alt:   (downloads)
 .. |docker_bioconductor-mtbls2| image:: https://quay.io/repository/biocontainers/bioconductor-mtbls2/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mtbls2

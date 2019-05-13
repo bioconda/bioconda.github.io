@@ -47,6 +47,7 @@ sparc
 
 
 .. |downloads_sparc| image:: https://img.shields.io/conda/dn/bioconda/sparc.svg?style=flat
+   :target: https://anaconda.org/bioconda/sparc
    :alt:   (downloads)
 .. |docker_sparc| image:: https://quay.io/repository/biocontainers/sparc/status
    :target: https://quay.io/repository/biocontainers/sparc

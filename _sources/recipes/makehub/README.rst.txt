@@ -58,6 +58,7 @@ makehub
 
 
 .. |downloads_makehub| image:: https://img.shields.io/conda/dn/bioconda/makehub.svg?style=flat
+   :target: https://anaconda.org/bioconda/makehub
    :alt:   (downloads)
 .. |docker_makehub| image:: https://quay.io/repository/biocontainers/makehub/status
    :target: https://quay.io/repository/biocontainers/makehub

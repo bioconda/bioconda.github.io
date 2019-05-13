@@ -51,6 +51,7 @@ clairvoyante
 
 
 .. |downloads_clairvoyante| image:: https://img.shields.io/conda/dn/bioconda/clairvoyante.svg?style=flat
+   :target: https://anaconda.org/bioconda/clairvoyante
    :alt:   (downloads)
 .. |docker_clairvoyante| image:: https://quay.io/repository/biocontainers/clairvoyante/status
    :target: https://quay.io/repository/biocontainers/clairvoyante

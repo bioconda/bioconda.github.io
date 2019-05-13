@@ -48,6 +48,7 @@ r-biom
 
 
 .. |downloads_r-biom| image:: https://img.shields.io/conda/dn/bioconda/r-biom.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-biom
    :alt:   (downloads)
 .. |docker_r-biom| image:: https://quay.io/repository/biocontainers/r-biom/status
    :target: https://quay.io/repository/biocontainers/r-biom

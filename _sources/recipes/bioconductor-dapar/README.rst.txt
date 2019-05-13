@@ -83,6 +83,7 @@ bioconductor-dapar
 
 
 .. |downloads_bioconductor-dapar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dapar.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dapar
    :alt:   (downloads)
 .. |docker_bioconductor-dapar| image:: https://quay.io/repository/biocontainers/bioconductor-dapar/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dapar

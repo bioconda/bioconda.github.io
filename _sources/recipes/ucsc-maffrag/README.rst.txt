@@ -50,6 +50,7 @@ ucsc-maffrag
 
 
 .. |downloads_ucsc-maffrag| image:: https://img.shields.io/conda/dn/bioconda/ucsc-maffrag.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-maffrag
    :alt:   (downloads)
 .. |docker_ucsc-maffrag| image:: https://quay.io/repository/biocontainers/ucsc-maffrag/status
    :target: https://quay.io/repository/biocontainers/ucsc-maffrag

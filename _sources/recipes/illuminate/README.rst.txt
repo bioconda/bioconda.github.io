@@ -52,6 +52,7 @@ illuminate
 
 
 .. |downloads_illuminate| image:: https://img.shields.io/conda/dn/bioconda/illuminate.svg?style=flat
+   :target: https://anaconda.org/bioconda/illuminate
    :alt:   (downloads)
 .. |docker_illuminate| image:: https://quay.io/repository/biocontainers/illuminate/status
    :target: https://quay.io/repository/biocontainers/illuminate

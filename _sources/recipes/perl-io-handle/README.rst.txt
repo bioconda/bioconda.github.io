@@ -45,6 +45,7 @@ perl-io-handle
 
 
 .. |downloads_perl-io-handle| image:: https://img.shields.io/conda/dn/bioconda/perl-io-handle.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-io-handle
    :alt:   (downloads)
 .. |docker_perl-io-handle| image:: https://quay.io/repository/biocontainers/perl-io-handle/status
    :target: https://quay.io/repository/biocontainers/perl-io-handle

@@ -47,6 +47,7 @@ bioconductor-drosophila2probe
 
 
 .. |downloads_bioconductor-drosophila2probe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-drosophila2probe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-drosophila2probe
    :alt:   (downloads)
 .. |docker_bioconductor-drosophila2probe| image:: https://quay.io/repository/biocontainers/bioconductor-drosophila2probe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-drosophila2probe

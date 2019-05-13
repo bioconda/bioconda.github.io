@@ -44,6 +44,7 @@ cuneiform
 
 
 .. |downloads_cuneiform| image:: https://img.shields.io/conda/dn/bioconda/cuneiform.svg?style=flat
+   :target: https://anaconda.org/bioconda/cuneiform
    :alt:   (downloads)
 .. |docker_cuneiform| image:: https://quay.io/repository/biocontainers/cuneiform/status
    :target: https://quay.io/repository/biocontainers/cuneiform

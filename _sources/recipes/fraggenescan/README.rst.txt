@@ -50,6 +50,7 @@ fraggenescan
 
 
 .. |downloads_fraggenescan| image:: https://img.shields.io/conda/dn/bioconda/fraggenescan.svg?style=flat
+   :target: https://anaconda.org/bioconda/fraggenescan
    :alt:   (downloads)
 .. |docker_fraggenescan| image:: https://quay.io/repository/biocontainers/fraggenescan/status
    :target: https://quay.io/repository/biocontainers/fraggenescan

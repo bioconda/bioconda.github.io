@@ -50,6 +50,7 @@ solexaqa
 
 
 .. |downloads_solexaqa| image:: https://img.shields.io/conda/dn/bioconda/solexaqa.svg?style=flat
+   :target: https://anaconda.org/bioconda/solexaqa
    :alt:   (downloads)
 .. |docker_solexaqa| image:: https://quay.io/repository/biocontainers/solexaqa/status
    :target: https://quay.io/repository/biocontainers/solexaqa

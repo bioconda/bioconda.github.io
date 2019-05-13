@@ -45,6 +45,7 @@ bioconductor-typeinfo
 
 
 .. |downloads_bioconductor-typeinfo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-typeinfo.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-typeinfo
    :alt:   (downloads)
 .. |docker_bioconductor-typeinfo| image:: https://quay.io/repository/biocontainers/bioconductor-typeinfo/status
    :target: https://quay.io/repository/biocontainers/bioconductor-typeinfo

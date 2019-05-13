@@ -46,6 +46,7 @@ perl-crypt-openssl-random
 
 
 .. |downloads_perl-crypt-openssl-random| image:: https://img.shields.io/conda/dn/bioconda/perl-crypt-openssl-random.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-crypt-openssl-random
    :alt:   (downloads)
 .. |docker_perl-crypt-openssl-random| image:: https://quay.io/repository/biocontainers/perl-crypt-openssl-random/status
    :target: https://quay.io/repository/biocontainers/perl-crypt-openssl-random

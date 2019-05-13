@@ -45,6 +45,7 @@ ruffus
 
 
 .. |downloads_ruffus| image:: https://img.shields.io/conda/dn/bioconda/ruffus.svg?style=flat
+   :target: https://anaconda.org/bioconda/ruffus
    :alt:   (downloads)
 .. |docker_ruffus| image:: https://quay.io/repository/biocontainers/ruffus/status
    :target: https://quay.io/repository/biocontainers/ruffus

@@ -75,6 +75,7 @@ bioconductor-minfi
 
 
 .. |downloads_bioconductor-minfi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-minfi.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-minfi
    :alt:   (downloads)
 .. |docker_bioconductor-minfi| image:: https://quay.io/repository/biocontainers/bioconductor-minfi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-minfi

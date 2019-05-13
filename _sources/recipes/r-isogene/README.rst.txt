@@ -50,6 +50,7 @@ r-isogene
 
 
 .. |downloads_r-isogene| image:: https://img.shields.io/conda/dn/bioconda/r-isogene.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-isogene
    :alt:   (downloads)
 .. |docker_r-isogene| image:: https://quay.io/repository/biocontainers/r-isogene/status
    :target: https://quay.io/repository/biocontainers/r-isogene

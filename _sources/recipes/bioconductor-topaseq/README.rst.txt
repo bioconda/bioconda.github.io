@@ -50,6 +50,7 @@ bioconductor-topaseq
 
 
 .. |downloads_bioconductor-topaseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-topaseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-topaseq
    :alt:   (downloads)
 .. |docker_bioconductor-topaseq| image:: https://quay.io/repository/biocontainers/bioconductor-topaseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-topaseq

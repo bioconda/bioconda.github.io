@@ -47,6 +47,7 @@ bioconductor-bsgenome.scerevisiae.ucsc.saccer1
 
 
 .. |downloads_bioconductor-bsgenome.scerevisiae.ucsc.saccer1| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.scerevisiae.ucsc.saccer1.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome.scerevisiae.ucsc.saccer1
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.scerevisiae.ucsc.saccer1| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.scerevisiae.ucsc.saccer1/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.scerevisiae.ucsc.saccer1

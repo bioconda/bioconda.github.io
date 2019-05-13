@@ -57,6 +57,7 @@ bioconductor-girafe
 
 
 .. |downloads_bioconductor-girafe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-girafe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-girafe
    :alt:   (downloads)
 .. |docker_bioconductor-girafe| image:: https://quay.io/repository/biocontainers/bioconductor-girafe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-girafe

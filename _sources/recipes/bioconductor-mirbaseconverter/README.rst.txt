@@ -45,6 +45,7 @@ bioconductor-mirbaseconverter
 
 
 .. |downloads_bioconductor-mirbaseconverter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirbaseconverter.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mirbaseconverter
    :alt:   (downloads)
 .. |docker_bioconductor-mirbaseconverter| image:: https://quay.io/repository/biocontainers/bioconductor-mirbaseconverter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mirbaseconverter

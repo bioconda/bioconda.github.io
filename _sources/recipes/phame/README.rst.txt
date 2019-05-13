@@ -70,6 +70,7 @@ phame
 
 
 .. |downloads_phame| image:: https://img.shields.io/conda/dn/bioconda/phame.svg?style=flat
+   :target: https://anaconda.org/bioconda/phame
    :alt:   (downloads)
 .. |docker_phame| image:: https://quay.io/repository/biocontainers/phame/status
    :target: https://quay.io/repository/biocontainers/phame

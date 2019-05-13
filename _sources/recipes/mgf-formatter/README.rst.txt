@@ -46,6 +46,7 @@ mgf-formatter
 
 
 .. |downloads_mgf-formatter| image:: https://img.shields.io/conda/dn/bioconda/mgf-formatter.svg?style=flat
+   :target: https://anaconda.org/bioconda/mgf-formatter
    :alt:   (downloads)
 .. |docker_mgf-formatter| image:: https://quay.io/repository/biocontainers/mgf-formatter/status
    :target: https://quay.io/repository/biocontainers/mgf-formatter

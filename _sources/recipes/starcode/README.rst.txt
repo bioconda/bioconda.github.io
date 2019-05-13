@@ -45,6 +45,7 @@ starcode
 
 
 .. |downloads_starcode| image:: https://img.shields.io/conda/dn/bioconda/starcode.svg?style=flat
+   :target: https://anaconda.org/bioconda/starcode
    :alt:   (downloads)
 .. |docker_starcode| image:: https://quay.io/repository/biocontainers/starcode/status
    :target: https://quay.io/repository/biocontainers/starcode

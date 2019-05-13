@@ -46,6 +46,7 @@ bioconductor-prebsdata
 
 
 .. |downloads_bioconductor-prebsdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-prebsdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-prebsdata
    :alt:   (downloads)
 .. |docker_bioconductor-prebsdata| image:: https://quay.io/repository/biocontainers/bioconductor-prebsdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-prebsdata

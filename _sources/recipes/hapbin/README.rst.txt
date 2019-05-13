@@ -46,6 +46,7 @@ hapbin
 
 
 .. |downloads_hapbin| image:: https://img.shields.io/conda/dn/bioconda/hapbin.svg?style=flat
+   :target: https://anaconda.org/bioconda/hapbin
    :alt:   (downloads)
 .. |docker_hapbin| image:: https://quay.io/repository/biocontainers/hapbin/status
    :target: https://quay.io/repository/biocontainers/hapbin

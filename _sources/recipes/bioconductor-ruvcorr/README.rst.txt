@@ -54,6 +54,7 @@ bioconductor-ruvcorr
 
 
 .. |downloads_bioconductor-ruvcorr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ruvcorr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ruvcorr
    :alt:   (downloads)
 .. |docker_bioconductor-ruvcorr| image:: https://quay.io/repository/biocontainers/bioconductor-ruvcorr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ruvcorr

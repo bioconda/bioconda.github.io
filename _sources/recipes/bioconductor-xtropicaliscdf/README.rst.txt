@@ -47,6 +47,7 @@ bioconductor-xtropicaliscdf
 
 
 .. |downloads_bioconductor-xtropicaliscdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-xtropicaliscdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-xtropicaliscdf
    :alt:   (downloads)
 .. |docker_bioconductor-xtropicaliscdf| image:: https://quay.io/repository/biocontainers/bioconductor-xtropicaliscdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-xtropicaliscdf

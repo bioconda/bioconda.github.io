@@ -48,6 +48,7 @@ sortmerna
 
 
 .. |downloads_sortmerna| image:: https://img.shields.io/conda/dn/bioconda/sortmerna.svg?style=flat
+   :target: https://anaconda.org/bioconda/sortmerna
    :alt:   (downloads)
 .. |docker_sortmerna| image:: https://quay.io/repository/biocontainers/sortmerna/status
    :target: https://quay.io/repository/biocontainers/sortmerna

@@ -48,6 +48,7 @@ megahit
 
 
 .. |downloads_megahit| image:: https://img.shields.io/conda/dn/bioconda/megahit.svg?style=flat
+   :target: https://anaconda.org/bioconda/megahit
    :alt:   (downloads)
 .. |docker_megahit| image:: https://quay.io/repository/biocontainers/megahit/status
    :target: https://quay.io/repository/biocontainers/megahit

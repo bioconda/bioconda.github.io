@@ -47,6 +47,7 @@ bioconductor-yeastcc
 
 
 .. |downloads_bioconductor-yeastcc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-yeastcc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-yeastcc
    :alt:   (downloads)
 .. |docker_bioconductor-yeastcc| image:: https://quay.io/repository/biocontainers/bioconductor-yeastcc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-yeastcc

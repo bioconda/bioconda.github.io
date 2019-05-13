@@ -65,6 +65,7 @@ bioconductor-imas
 
 
 .. |downloads_bioconductor-imas| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-imas.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-imas
    :alt:   (downloads)
 .. |docker_bioconductor-imas| image:: https://quay.io/repository/biocontainers/bioconductor-imas/status
    :target: https://quay.io/repository/biocontainers/bioconductor-imas

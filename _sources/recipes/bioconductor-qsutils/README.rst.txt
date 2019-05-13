@@ -49,6 +49,7 @@ bioconductor-qsutils
 
 
 .. |downloads_bioconductor-qsutils| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-qsutils.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-qsutils
    :alt:   (downloads)
 .. |docker_bioconductor-qsutils| image:: https://quay.io/repository/biocontainers/bioconductor-qsutils/status
    :target: https://quay.io/repository/biocontainers/bioconductor-qsutils

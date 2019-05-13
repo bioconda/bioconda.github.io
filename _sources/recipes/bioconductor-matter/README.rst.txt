@@ -52,6 +52,7 @@ bioconductor-matter
 
 
 .. |downloads_bioconductor-matter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-matter.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-matter
    :alt:   (downloads)
 .. |docker_bioconductor-matter| image:: https://quay.io/repository/biocontainers/bioconductor-matter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-matter

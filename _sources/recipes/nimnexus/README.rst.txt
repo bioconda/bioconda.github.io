@@ -47,6 +47,7 @@ nimnexus
 
 
 .. |downloads_nimnexus| image:: https://img.shields.io/conda/dn/bioconda/nimnexus.svg?style=flat
+   :target: https://anaconda.org/bioconda/nimnexus
    :alt:   (downloads)
 .. |docker_nimnexus| image:: https://quay.io/repository/biocontainers/nimnexus/status
    :target: https://quay.io/repository/biocontainers/nimnexus

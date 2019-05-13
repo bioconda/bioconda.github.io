@@ -54,6 +54,7 @@ bioconductor-cafe
 
 
 .. |downloads_bioconductor-cafe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cafe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cafe
    :alt:   (downloads)
 .. |docker_bioconductor-cafe| image:: https://quay.io/repository/biocontainers/bioconductor-cafe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cafe

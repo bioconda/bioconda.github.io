@@ -47,6 +47,7 @@ bioconductor-similarpeak
 
 
 .. |downloads_bioconductor-similarpeak| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-similarpeak.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-similarpeak
    :alt:   (downloads)
 .. |docker_bioconductor-similarpeak| image:: https://quay.io/repository/biocontainers/bioconductor-similarpeak/status
    :target: https://quay.io/repository/biocontainers/bioconductor-similarpeak

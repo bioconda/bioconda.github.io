@@ -50,6 +50,7 @@ ucsc-facount
 
 
 .. |downloads_ucsc-facount| image:: https://img.shields.io/conda/dn/bioconda/ucsc-facount.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-facount
    :alt:   (downloads)
 .. |docker_ucsc-facount| image:: https://quay.io/repository/biocontainers/ucsc-facount/status
    :target: https://quay.io/repository/biocontainers/ucsc-facount

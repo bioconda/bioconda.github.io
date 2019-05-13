@@ -45,6 +45,7 @@ perl-autoloader
 
 
 .. |downloads_perl-autoloader| image:: https://img.shields.io/conda/dn/bioconda/perl-autoloader.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-autoloader
    :alt:   (downloads)
 .. |docker_perl-autoloader| image:: https://quay.io/repository/biocontainers/perl-autoloader/status
    :target: https://quay.io/repository/biocontainers/perl-autoloader

@@ -50,6 +50,7 @@ ucsc-chainantirepeat
 
 
 .. |downloads_ucsc-chainantirepeat| image:: https://img.shields.io/conda/dn/bioconda/ucsc-chainantirepeat.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-chainantirepeat
    :alt:   (downloads)
 .. |docker_ucsc-chainantirepeat| image:: https://quay.io/repository/biocontainers/ucsc-chainantirepeat/status
    :target: https://quay.io/repository/biocontainers/ucsc-chainantirepeat

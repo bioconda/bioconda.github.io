@@ -50,6 +50,7 @@ bioconductor-cellscore
 
 
 .. |downloads_bioconductor-cellscore| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cellscore.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cellscore
    :alt:   (downloads)
 .. |docker_bioconductor-cellscore| image:: https://quay.io/repository/biocontainers/bioconductor-cellscore/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cellscore

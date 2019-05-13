@@ -50,6 +50,7 @@ bioconductor-copynumber
 
 
 .. |downloads_bioconductor-copynumber| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-copynumber.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-copynumber
    :alt:   (downloads)
 .. |docker_bioconductor-copynumber| image:: https://quay.io/repository/biocontainers/bioconductor-copynumber/status
    :target: https://quay.io/repository/biocontainers/bioconductor-copynumber

@@ -51,6 +51,7 @@ bioconductor-rtandem
 
 
 .. |downloads_bioconductor-rtandem| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtandem.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rtandem
    :alt:   (downloads)
 .. |docker_bioconductor-rtandem| image:: https://quay.io/repository/biocontainers/bioconductor-rtandem/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtandem

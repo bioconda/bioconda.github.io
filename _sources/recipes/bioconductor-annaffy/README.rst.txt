@@ -51,6 +51,7 @@ bioconductor-annaffy
 
 
 .. |downloads_bioconductor-annaffy| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-annaffy.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-annaffy
    :alt:   (downloads)
 .. |docker_bioconductor-annaffy| image:: https://quay.io/repository/biocontainers/bioconductor-annaffy/status
    :target: https://quay.io/repository/biocontainers/bioconductor-annaffy

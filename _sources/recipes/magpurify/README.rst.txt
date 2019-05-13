@@ -56,6 +56,7 @@ magpurify
 
 
 .. |downloads_magpurify| image:: https://img.shields.io/conda/dn/bioconda/magpurify.svg?style=flat
+   :target: https://anaconda.org/bioconda/magpurify
    :alt:   (downloads)
 .. |docker_magpurify| image:: https://quay.io/repository/biocontainers/magpurify/status
    :target: https://quay.io/repository/biocontainers/magpurify

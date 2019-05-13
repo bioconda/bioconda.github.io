@@ -56,6 +56,7 @@ bioconductor-motiv
 
 
 .. |downloads_bioconductor-motiv| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-motiv.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-motiv
    :alt:   (downloads)
 .. |docker_bioconductor-motiv| image:: https://quay.io/repository/biocontainers/bioconductor-motiv/status
    :target: https://quay.io/repository/biocontainers/bioconductor-motiv

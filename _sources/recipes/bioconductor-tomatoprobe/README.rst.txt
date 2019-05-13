@@ -47,6 +47,7 @@ bioconductor-tomatoprobe
 
 
 .. |downloads_bioconductor-tomatoprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tomatoprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tomatoprobe
    :alt:   (downloads)
 .. |docker_bioconductor-tomatoprobe| image:: https://quay.io/repository/biocontainers/bioconductor-tomatoprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tomatoprobe

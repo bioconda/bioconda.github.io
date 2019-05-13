@@ -47,6 +47,7 @@ pymummer
 
 
 .. |downloads_pymummer| image:: https://img.shields.io/conda/dn/bioconda/pymummer.svg?style=flat
+   :target: https://anaconda.org/bioconda/pymummer
    :alt:   (downloads)
 .. |docker_pymummer| image:: https://quay.io/repository/biocontainers/pymummer/status
    :target: https://quay.io/repository/biocontainers/pymummer

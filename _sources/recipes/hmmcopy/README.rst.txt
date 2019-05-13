@@ -47,6 +47,7 @@ hmmcopy
 
 
 .. |downloads_hmmcopy| image:: https://img.shields.io/conda/dn/bioconda/hmmcopy.svg?style=flat
+   :target: https://anaconda.org/bioconda/hmmcopy
    :alt:   (downloads)
 .. |docker_hmmcopy| image:: https://quay.io/repository/biocontainers/hmmcopy/status
    :target: https://quay.io/repository/biocontainers/hmmcopy

@@ -49,6 +49,7 @@ pantools
 
 
 .. |downloads_pantools| image:: https://img.shields.io/conda/dn/bioconda/pantools.svg?style=flat
+   :target: https://anaconda.org/bioconda/pantools
    :alt:   (downloads)
 .. |docker_pantools| image:: https://quay.io/repository/biocontainers/pantools/status
    :target: https://quay.io/repository/biocontainers/pantools

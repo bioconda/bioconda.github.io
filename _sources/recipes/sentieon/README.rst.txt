@@ -49,6 +49,7 @@ sentieon
 
 
 .. |downloads_sentieon| image:: https://img.shields.io/conda/dn/bioconda/sentieon.svg?style=flat
+   :target: https://anaconda.org/bioconda/sentieon
    :alt:   (downloads)
 .. |docker_sentieon| image:: https://quay.io/repository/biocontainers/sentieon/status
    :target: https://quay.io/repository/biocontainers/sentieon

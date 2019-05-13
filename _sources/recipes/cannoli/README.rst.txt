@@ -46,6 +46,7 @@ cannoli
 
 
 .. |downloads_cannoli| image:: https://img.shields.io/conda/dn/bioconda/cannoli.svg?style=flat
+   :target: https://anaconda.org/bioconda/cannoli
    :alt:   (downloads)
 .. |docker_cannoli| image:: https://quay.io/repository/biocontainers/cannoli/status
    :target: https://quay.io/repository/biocontainers/cannoli

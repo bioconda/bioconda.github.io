@@ -46,6 +46,7 @@ jobtree
 
 
 .. |downloads_jobtree| image:: https://img.shields.io/conda/dn/bioconda/jobtree.svg?style=flat
+   :target: https://anaconda.org/bioconda/jobtree
    :alt:   (downloads)
 .. |docker_jobtree| image:: https://quay.io/repository/biocontainers/jobtree/status
    :target: https://quay.io/repository/biocontainers/jobtree

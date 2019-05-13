@@ -53,6 +53,7 @@ bioconductor-cellity
 
 
 .. |downloads_bioconductor-cellity| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cellity.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cellity
    :alt:   (downloads)
 .. |docker_bioconductor-cellity| image:: https://quay.io/repository/biocontainers/bioconductor-cellity/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cellity

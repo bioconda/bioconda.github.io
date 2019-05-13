@@ -45,6 +45,7 @@ qsignature
 
 
 .. |downloads_qsignature| image:: https://img.shields.io/conda/dn/bioconda/qsignature.svg?style=flat
+   :target: https://anaconda.org/bioconda/qsignature
    :alt:   (downloads)
 .. |docker_qsignature| image:: https://quay.io/repository/biocontainers/qsignature/status
    :target: https://quay.io/repository/biocontainers/qsignature

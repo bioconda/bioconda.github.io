@@ -47,6 +47,7 @@ bioconductor-rhesuscdf
 
 
 .. |downloads_bioconductor-rhesuscdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rhesuscdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rhesuscdf
    :alt:   (downloads)
 .. |docker_bioconductor-rhesuscdf| image:: https://quay.io/repository/biocontainers/bioconductor-rhesuscdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rhesuscdf

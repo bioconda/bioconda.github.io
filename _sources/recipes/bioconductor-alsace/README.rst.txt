@@ -47,6 +47,7 @@ bioconductor-alsace
 
 
 .. |downloads_bioconductor-alsace| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-alsace.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-alsace
    :alt:   (downloads)
 .. |docker_bioconductor-alsace| image:: https://quay.io/repository/biocontainers/bioconductor-alsace/status
    :target: https://quay.io/repository/biocontainers/bioconductor-alsace

@@ -46,6 +46,7 @@ gqt
 
 
 .. |downloads_gqt| image:: https://img.shields.io/conda/dn/bioconda/gqt.svg?style=flat
+   :target: https://anaconda.org/bioconda/gqt
    :alt:   (downloads)
 .. |docker_gqt| image:: https://quay.io/repository/biocontainers/gqt/status
    :target: https://quay.io/repository/biocontainers/gqt

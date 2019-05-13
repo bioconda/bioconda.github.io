@@ -45,6 +45,7 @@ perl-parse-recdescent
 
 
 .. |downloads_perl-parse-recdescent| image:: https://img.shields.io/conda/dn/bioconda/perl-parse-recdescent.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-parse-recdescent
    :alt:   (downloads)
 .. |docker_perl-parse-recdescent| image:: https://quay.io/repository/biocontainers/perl-parse-recdescent/status
    :target: https://quay.io/repository/biocontainers/perl-parse-recdescent

@@ -48,6 +48,7 @@ bioconductor-txdb.cfamiliaris.ucsc.canfam3.refgene
 
 
 .. |downloads_bioconductor-txdb.cfamiliaris.ucsc.canfam3.refgene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-txdb.cfamiliaris.ucsc.canfam3.refgene.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-txdb.cfamiliaris.ucsc.canfam3.refgene
    :alt:   (downloads)
 .. |docker_bioconductor-txdb.cfamiliaris.ucsc.canfam3.refgene| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.cfamiliaris.ucsc.canfam3.refgene/status
    :target: https://quay.io/repository/biocontainers/bioconductor-txdb.cfamiliaris.ucsc.canfam3.refgene

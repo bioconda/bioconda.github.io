@@ -49,6 +49,7 @@ r-rebird
 
 
 .. |downloads_r-rebird| image:: https://img.shields.io/conda/dn/bioconda/r-rebird.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-rebird
    :alt:   (downloads)
 .. |docker_r-rebird| image:: https://quay.io/repository/biocontainers/r-rebird/status
    :target: https://quay.io/repository/biocontainers/r-rebird

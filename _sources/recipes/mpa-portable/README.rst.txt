@@ -48,6 +48,7 @@ mpa-portable
 
 
 .. |downloads_mpa-portable| image:: https://img.shields.io/conda/dn/bioconda/mpa-portable.svg?style=flat
+   :target: https://anaconda.org/bioconda/mpa-portable
    :alt:   (downloads)
 .. |docker_mpa-portable| image:: https://quay.io/repository/biocontainers/mpa-portable/status
    :target: https://quay.io/repository/biocontainers/mpa-portable

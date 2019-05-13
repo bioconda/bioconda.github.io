@@ -45,6 +45,7 @@ goleft
 
 
 .. |downloads_goleft| image:: https://img.shields.io/conda/dn/bioconda/goleft.svg?style=flat
+   :target: https://anaconda.org/bioconda/goleft
    :alt:   (downloads)
 .. |docker_goleft| image:: https://quay.io/repository/biocontainers/goleft/status
    :target: https://quay.io/repository/biocontainers/goleft

@@ -51,6 +51,7 @@ htslib
 
 
 .. |downloads_htslib| image:: https://img.shields.io/conda/dn/bioconda/htslib.svg?style=flat
+   :target: https://anaconda.org/bioconda/htslib
    :alt:   (downloads)
 .. |docker_htslib| image:: https://quay.io/repository/biocontainers/htslib/status
    :target: https://quay.io/repository/biocontainers/htslib

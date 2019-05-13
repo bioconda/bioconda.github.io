@@ -47,6 +47,7 @@ perl-test-output
 
 
 .. |downloads_perl-test-output| image:: https://img.shields.io/conda/dn/bioconda/perl-test-output.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-output
    :alt:   (downloads)
 .. |docker_perl-test-output| image:: https://quay.io/repository/biocontainers/perl-test-output/status
    :target: https://quay.io/repository/biocontainers/perl-test-output

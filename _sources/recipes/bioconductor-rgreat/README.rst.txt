@@ -51,6 +51,7 @@ bioconductor-rgreat
 
 
 .. |downloads_bioconductor-rgreat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rgreat.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rgreat
    :alt:   (downloads)
 .. |docker_bioconductor-rgreat| image:: https://quay.io/repository/biocontainers/bioconductor-rgreat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rgreat

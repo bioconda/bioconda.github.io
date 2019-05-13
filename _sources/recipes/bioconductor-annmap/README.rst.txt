@@ -56,6 +56,7 @@ bioconductor-annmap
 
 
 .. |downloads_bioconductor-annmap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-annmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-annmap
    :alt:   (downloads)
 .. |docker_bioconductor-annmap| image:: https://quay.io/repository/biocontainers/bioconductor-annmap/status
    :target: https://quay.io/repository/biocontainers/bioconductor-annmap

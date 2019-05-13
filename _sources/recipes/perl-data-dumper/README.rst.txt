@@ -45,6 +45,7 @@ perl-data-dumper
 
 
 .. |downloads_perl-data-dumper| image:: https://img.shields.io/conda/dn/bioconda/perl-data-dumper.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-data-dumper
    :alt:   (downloads)
 .. |docker_perl-data-dumper| image:: https://quay.io/repository/biocontainers/perl-data-dumper/status
    :target: https://quay.io/repository/biocontainers/perl-data-dumper

@@ -48,6 +48,7 @@ bioconductor-ragene20stprobeset.db
 
 
 .. |downloads_bioconductor-ragene20stprobeset.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ragene20stprobeset.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ragene20stprobeset.db
    :alt:   (downloads)
 .. |docker_bioconductor-ragene20stprobeset.db| image:: https://quay.io/repository/biocontainers/bioconductor-ragene20stprobeset.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ragene20stprobeset.db

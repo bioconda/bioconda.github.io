@@ -55,6 +55,7 @@ nanoraw
 
 
 .. |downloads_nanoraw| image:: https://img.shields.io/conda/dn/bioconda/nanoraw.svg?style=flat
+   :target: https://anaconda.org/bioconda/nanoraw
    :alt:   (downloads)
 .. |docker_nanoraw| image:: https://quay.io/repository/biocontainers/nanoraw/status
    :target: https://quay.io/repository/biocontainers/nanoraw

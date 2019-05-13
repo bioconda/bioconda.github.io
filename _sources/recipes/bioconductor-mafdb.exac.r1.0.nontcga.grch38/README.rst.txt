@@ -52,6 +52,7 @@ bioconductor-mafdb.exac.r1.0.nontcga.grch38
 
 
 .. |downloads_bioconductor-mafdb.exac.r1.0.nontcga.grch38| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mafdb.exac.r1.0.nontcga.grch38.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mafdb.exac.r1.0.nontcga.grch38
    :alt:   (downloads)
 .. |docker_bioconductor-mafdb.exac.r1.0.nontcga.grch38| image:: https://quay.io/repository/biocontainers/bioconductor-mafdb.exac.r1.0.nontcga.grch38/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mafdb.exac.r1.0.nontcga.grch38

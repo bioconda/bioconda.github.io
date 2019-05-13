@@ -50,6 +50,7 @@ ucsc-bigbedtobed
 
 
 .. |downloads_ucsc-bigbedtobed| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bigbedtobed.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bigbedtobed
    :alt:   (downloads)
 .. |docker_ucsc-bigbedtobed| image:: https://quay.io/repository/biocontainers/ucsc-bigbedtobed/status
    :target: https://quay.io/repository/biocontainers/ucsc-bigbedtobed

@@ -45,6 +45,7 @@ perl-test-deep
 
 
 .. |downloads_perl-test-deep| image:: https://img.shields.io/conda/dn/bioconda/perl-test-deep.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-deep
    :alt:   (downloads)
 .. |docker_perl-test-deep| image:: https://quay.io/repository/biocontainers/perl-test-deep/status
    :target: https://quay.io/repository/biocontainers/perl-test-deep

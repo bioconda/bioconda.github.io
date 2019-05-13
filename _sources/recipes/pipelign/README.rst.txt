@@ -53,6 +53,7 @@ pipelign
 
 
 .. |downloads_pipelign| image:: https://img.shields.io/conda/dn/bioconda/pipelign.svg?style=flat
+   :target: https://anaconda.org/bioconda/pipelign
    :alt:   (downloads)
 .. |docker_pipelign| image:: https://quay.io/repository/biocontainers/pipelign/status
    :target: https://quay.io/repository/biocontainers/pipelign

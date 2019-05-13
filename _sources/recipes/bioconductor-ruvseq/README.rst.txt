@@ -50,6 +50,7 @@ bioconductor-ruvseq
 
 
 .. |downloads_bioconductor-ruvseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ruvseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ruvseq
    :alt:   (downloads)
 .. |docker_bioconductor-ruvseq| image:: https://quay.io/repository/biocontainers/bioconductor-ruvseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ruvseq

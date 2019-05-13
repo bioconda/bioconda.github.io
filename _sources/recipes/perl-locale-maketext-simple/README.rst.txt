@@ -45,6 +45,7 @@ perl-locale-maketext-simple
 
 
 .. |downloads_perl-locale-maketext-simple| image:: https://img.shields.io/conda/dn/bioconda/perl-locale-maketext-simple.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-locale-maketext-simple
    :alt:   (downloads)
 .. |docker_perl-locale-maketext-simple| image:: https://quay.io/repository/biocontainers/perl-locale-maketext-simple/status
    :target: https://quay.io/repository/biocontainers/perl-locale-maketext-simple

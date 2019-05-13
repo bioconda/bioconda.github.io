@@ -52,6 +52,7 @@ bioconductor-pcamethods
 
 
 .. |downloads_bioconductor-pcamethods| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pcamethods.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pcamethods
    :alt:   (downloads)
 .. |docker_bioconductor-pcamethods| image:: https://quay.io/repository/biocontainers/bioconductor-pcamethods/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pcamethods

@@ -77,6 +77,7 @@ bioconductor-elmer
 
 
 .. |downloads_bioconductor-elmer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-elmer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-elmer
    :alt:   (downloads)
 .. |docker_bioconductor-elmer| image:: https://quay.io/repository/biocontainers/bioconductor-elmer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-elmer

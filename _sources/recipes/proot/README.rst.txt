@@ -45,6 +45,7 @@ proot
 
 
 .. |downloads_proot| image:: https://img.shields.io/conda/dn/bioconda/proot.svg?style=flat
+   :target: https://anaconda.org/bioconda/proot
    :alt:   (downloads)
 .. |docker_proot| image:: https://quay.io/repository/biocontainers/proot/status
    :target: https://quay.io/repository/biocontainers/proot

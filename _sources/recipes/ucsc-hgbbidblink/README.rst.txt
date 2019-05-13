@@ -50,6 +50,7 @@ ucsc-hgbbidblink
 
 
 .. |downloads_ucsc-hgbbidblink| image:: https://img.shields.io/conda/dn/bioconda/ucsc-hgbbidblink.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-hgbbidblink
    :alt:   (downloads)
 .. |docker_ucsc-hgbbidblink| image:: https://quay.io/repository/biocontainers/ucsc-hgbbidblink/status
    :target: https://quay.io/repository/biocontainers/ucsc-hgbbidblink

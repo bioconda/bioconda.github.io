@@ -50,6 +50,7 @@ ucsc-fastqstatsandsubsample
 
 
 .. |downloads_ucsc-fastqstatsandsubsample| image:: https://img.shields.io/conda/dn/bioconda/ucsc-fastqstatsandsubsample.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-fastqstatsandsubsample
    :alt:   (downloads)
 .. |docker_ucsc-fastqstatsandsubsample| image:: https://quay.io/repository/biocontainers/ucsc-fastqstatsandsubsample/status
    :target: https://quay.io/repository/biocontainers/ucsc-fastqstatsandsubsample

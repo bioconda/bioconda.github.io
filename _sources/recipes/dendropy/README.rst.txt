@@ -45,6 +45,7 @@ dendropy
 
 
 .. |downloads_dendropy| image:: https://img.shields.io/conda/dn/bioconda/dendropy.svg?style=flat
+   :target: https://anaconda.org/bioconda/dendropy
    :alt:   (downloads)
 .. |docker_dendropy| image:: https://quay.io/repository/biocontainers/dendropy/status
    :target: https://quay.io/repository/biocontainers/dendropy

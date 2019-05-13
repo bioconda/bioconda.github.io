@@ -46,6 +46,7 @@ porechop
 
 
 .. |downloads_porechop| image:: https://img.shields.io/conda/dn/bioconda/porechop.svg?style=flat
+   :target: https://anaconda.org/bioconda/porechop
    :alt:   (downloads)
 .. |docker_porechop| image:: https://quay.io/repository/biocontainers/porechop/status
    :target: https://quay.io/repository/biocontainers/porechop

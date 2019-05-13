@@ -66,6 +66,7 @@ bioconductor-trena
 
 
 .. |downloads_bioconductor-trena| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-trena.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-trena
    :alt:   (downloads)
 .. |docker_bioconductor-trena| image:: https://quay.io/repository/biocontainers/bioconductor-trena/status
    :target: https://quay.io/repository/biocontainers/bioconductor-trena

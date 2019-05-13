@@ -55,6 +55,7 @@ pyranges
 
 
 .. |downloads_pyranges| image:: https://img.shields.io/conda/dn/bioconda/pyranges.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyranges
    :alt:   (downloads)
 .. |docker_pyranges| image:: https://quay.io/repository/biocontainers/pyranges/status
    :target: https://quay.io/repository/biocontainers/pyranges

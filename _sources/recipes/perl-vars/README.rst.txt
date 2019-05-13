@@ -45,6 +45,7 @@ perl-vars
 
 
 .. |downloads_perl-vars| image:: https://img.shields.io/conda/dn/bioconda/perl-vars.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-vars
    :alt:   (downloads)
 .. |docker_perl-vars| image:: https://quay.io/repository/biocontainers/perl-vars/status
    :target: https://quay.io/repository/biocontainers/perl-vars

@@ -47,6 +47,7 @@ bioconductor-gwasdata
 
 
 .. |downloads_bioconductor-gwasdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gwasdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gwasdata
    :alt:   (downloads)
 .. |docker_bioconductor-gwasdata| image:: https://quay.io/repository/biocontainers/bioconductor-gwasdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gwasdata

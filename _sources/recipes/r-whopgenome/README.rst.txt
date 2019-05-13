@@ -47,6 +47,7 @@ r-whopgenome
 
 
 .. |downloads_r-whopgenome| image:: https://img.shields.io/conda/dn/bioconda/r-whopgenome.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-whopgenome
    :alt:   (downloads)
 .. |docker_r-whopgenome| image:: https://quay.io/repository/biocontainers/r-whopgenome/status
    :target: https://quay.io/repository/biocontainers/r-whopgenome

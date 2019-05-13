@@ -45,6 +45,7 @@ perl-error
 
 
 .. |downloads_perl-error| image:: https://img.shields.io/conda/dn/bioconda/perl-error.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-error
    :alt:   (downloads)
 .. |docker_perl-error| image:: https://quay.io/repository/biocontainers/perl-error/status
    :target: https://quay.io/repository/biocontainers/perl-error

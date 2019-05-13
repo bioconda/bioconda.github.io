@@ -45,6 +45,7 @@ perl-class-accessor
 
 
 .. |downloads_perl-class-accessor| image:: https://img.shields.io/conda/dn/bioconda/perl-class-accessor.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-class-accessor
    :alt:   (downloads)
 .. |docker_perl-class-accessor| image:: https://quay.io/repository/biocontainers/perl-class-accessor/status
    :target: https://quay.io/repository/biocontainers/perl-class-accessor

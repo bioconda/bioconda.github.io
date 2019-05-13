@@ -45,6 +45,7 @@ cd-hit-auxtools
 
 
 .. |downloads_cd-hit-auxtools| image:: https://img.shields.io/conda/dn/bioconda/cd-hit-auxtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/cd-hit-auxtools
    :alt:   (downloads)
 .. |docker_cd-hit-auxtools| image:: https://quay.io/repository/biocontainers/cd-hit-auxtools/status
    :target: https://quay.io/repository/biocontainers/cd-hit-auxtools

@@ -50,6 +50,7 @@ ucsc-rowstocols
 
 
 .. |downloads_ucsc-rowstocols| image:: https://img.shields.io/conda/dn/bioconda/ucsc-rowstocols.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-rowstocols
    :alt:   (downloads)
 .. |docker_ucsc-rowstocols| image:: https://quay.io/repository/biocontainers/ucsc-rowstocols/status
    :target: https://quay.io/repository/biocontainers/ucsc-rowstocols

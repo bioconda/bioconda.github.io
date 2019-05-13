@@ -45,6 +45,7 @@ duphold
 
 
 .. |downloads_duphold| image:: https://img.shields.io/conda/dn/bioconda/duphold.svg?style=flat
+   :target: https://anaconda.org/bioconda/duphold
    :alt:   (downloads)
 .. |docker_duphold| image:: https://quay.io/repository/biocontainers/duphold/status
    :target: https://quay.io/repository/biocontainers/duphold

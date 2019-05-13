@@ -47,6 +47,7 @@ mapdia
 
 
 .. |downloads_mapdia| image:: https://img.shields.io/conda/dn/bioconda/mapdia.svg?style=flat
+   :target: https://anaconda.org/bioconda/mapdia
    :alt:   (downloads)
 .. |docker_mapdia| image:: https://quay.io/repository/biocontainers/mapdia/status
    :target: https://quay.io/repository/biocontainers/mapdia

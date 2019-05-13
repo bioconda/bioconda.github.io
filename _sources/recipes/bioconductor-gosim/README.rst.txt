@@ -59,6 +59,7 @@ bioconductor-gosim
 
 
 .. |downloads_bioconductor-gosim| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gosim.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gosim
    :alt:   (downloads)
 .. |docker_bioconductor-gosim| image:: https://quay.io/repository/biocontainers/bioconductor-gosim/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gosim

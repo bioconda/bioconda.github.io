@@ -49,6 +49,7 @@ bioconductor-flowrepositoryr
 
 
 .. |downloads_bioconductor-flowrepositoryr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowrepositoryr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowrepositoryr
    :alt:   (downloads)
 .. |docker_bioconductor-flowrepositoryr| image:: https://quay.io/repository/biocontainers/bioconductor-flowrepositoryr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowrepositoryr

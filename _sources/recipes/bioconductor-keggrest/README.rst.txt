@@ -49,6 +49,7 @@ bioconductor-keggrest
 
 
 .. |downloads_bioconductor-keggrest| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-keggrest.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-keggrest
    :alt:   (downloads)
 .. |docker_bioconductor-keggrest| image:: https://quay.io/repository/biocontainers/bioconductor-keggrest/status
    :target: https://quay.io/repository/biocontainers/bioconductor-keggrest

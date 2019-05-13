@@ -45,6 +45,7 @@ perl-yaml
 
 
 .. |downloads_perl-yaml| image:: https://img.shields.io/conda/dn/bioconda/perl-yaml.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-yaml
    :alt:   (downloads)
 .. |docker_perl-yaml| image:: https://quay.io/repository/biocontainers/perl-yaml/status
    :target: https://quay.io/repository/biocontainers/perl-yaml

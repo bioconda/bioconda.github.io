@@ -50,6 +50,7 @@ mapsplice
 
 
 .. |downloads_mapsplice| image:: https://img.shields.io/conda/dn/bioconda/mapsplice.svg?style=flat
+   :target: https://anaconda.org/bioconda/mapsplice
    :alt:   (downloads)
 .. |docker_mapsplice| image:: https://quay.io/repository/biocontainers/mapsplice/status
    :target: https://quay.io/repository/biocontainers/mapsplice

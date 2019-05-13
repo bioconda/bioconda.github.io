@@ -47,6 +47,7 @@ bioconductor-rtcga.cnv
 
 
 .. |downloads_bioconductor-rtcga.cnv| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtcga.cnv.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rtcga.cnv
    :alt:   (downloads)
 .. |docker_bioconductor-rtcga.cnv| image:: https://quay.io/repository/biocontainers/bioconductor-rtcga.cnv/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtcga.cnv

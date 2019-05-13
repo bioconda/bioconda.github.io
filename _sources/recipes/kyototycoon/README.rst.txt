@@ -48,6 +48,7 @@ kyototycoon
 
 
 .. |downloads_kyototycoon| image:: https://img.shields.io/conda/dn/bioconda/kyototycoon.svg?style=flat
+   :target: https://anaconda.org/bioconda/kyototycoon
    :alt:   (downloads)
 .. |docker_kyototycoon| image:: https://quay.io/repository/biocontainers/kyototycoon/status
    :target: https://quay.io/repository/biocontainers/kyototycoon

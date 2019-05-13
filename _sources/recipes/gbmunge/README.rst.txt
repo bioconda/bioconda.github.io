@@ -45,6 +45,7 @@ gbmunge
 
 
 .. |downloads_gbmunge| image:: https://img.shields.io/conda/dn/bioconda/gbmunge.svg?style=flat
+   :target: https://anaconda.org/bioconda/gbmunge
    :alt:   (downloads)
 .. |docker_gbmunge| image:: https://quay.io/repository/biocontainers/gbmunge/status
    :target: https://quay.io/repository/biocontainers/gbmunge

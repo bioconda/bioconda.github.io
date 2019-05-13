@@ -48,6 +48,7 @@ vcf2maf
 
 
 .. |downloads_vcf2maf| image:: https://img.shields.io/conda/dn/bioconda/vcf2maf.svg?style=flat
+   :target: https://anaconda.org/bioconda/vcf2maf
    :alt:   (downloads)
 .. |docker_vcf2maf| image:: https://quay.io/repository/biocontainers/vcf2maf/status
    :target: https://quay.io/repository/biocontainers/vcf2maf

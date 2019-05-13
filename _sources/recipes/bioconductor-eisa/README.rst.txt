@@ -52,6 +52,7 @@ bioconductor-eisa
 
 
 .. |downloads_bioconductor-eisa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-eisa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-eisa
    :alt:   (downloads)
 .. |docker_bioconductor-eisa| image:: https://quay.io/repository/biocontainers/bioconductor-eisa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-eisa

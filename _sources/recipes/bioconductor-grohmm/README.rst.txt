@@ -53,6 +53,7 @@ bioconductor-grohmm
 
 
 .. |downloads_bioconductor-grohmm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-grohmm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-grohmm
    :alt:   (downloads)
 .. |docker_bioconductor-grohmm| image:: https://quay.io/repository/biocontainers/bioconductor-grohmm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-grohmm

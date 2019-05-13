@@ -52,6 +52,7 @@ bioconductor-methvisual
 
 
 .. |downloads_bioconductor-methvisual| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methvisual.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-methvisual
    :alt:   (downloads)
 .. |docker_bioconductor-methvisual| image:: https://quay.io/repository/biocontainers/bioconductor-methvisual/status
    :target: https://quay.io/repository/biocontainers/bioconductor-methvisual

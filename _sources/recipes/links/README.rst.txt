@@ -46,6 +46,7 @@ links
 
 
 .. |downloads_links| image:: https://img.shields.io/conda/dn/bioconda/links.svg?style=flat
+   :target: https://anaconda.org/bioconda/links
    :alt:   (downloads)
 .. |docker_links| image:: https://quay.io/repository/biocontainers/links/status
    :target: https://quay.io/repository/biocontainers/links

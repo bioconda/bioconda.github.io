@@ -48,6 +48,7 @@ perl-module-implementation
 
 
 .. |downloads_perl-module-implementation| image:: https://img.shields.io/conda/dn/bioconda/perl-module-implementation.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-module-implementation
    :alt:   (downloads)
 .. |docker_perl-module-implementation| image:: https://quay.io/repository/biocontainers/perl-module-implementation/status
    :target: https://quay.io/repository/biocontainers/perl-module-implementation

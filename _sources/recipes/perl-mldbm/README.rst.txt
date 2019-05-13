@@ -45,6 +45,7 @@ perl-mldbm
 
 
 .. |downloads_perl-mldbm| image:: https://img.shields.io/conda/dn/bioconda/perl-mldbm.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-mldbm
    :alt:   (downloads)
 .. |docker_perl-mldbm| image:: https://quay.io/repository/biocontainers/perl-mldbm/status
    :target: https://quay.io/repository/biocontainers/perl-mldbm

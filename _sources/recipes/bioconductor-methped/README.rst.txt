@@ -48,6 +48,7 @@ bioconductor-methped
 
 
 .. |downloads_bioconductor-methped| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methped.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-methped
    :alt:   (downloads)
 .. |docker_bioconductor-methped| image:: https://quay.io/repository/biocontainers/bioconductor-methped/status
    :target: https://quay.io/repository/biocontainers/bioconductor-methped

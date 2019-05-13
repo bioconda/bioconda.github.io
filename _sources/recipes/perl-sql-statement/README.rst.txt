@@ -50,6 +50,7 @@ perl-sql-statement
 
 
 .. |downloads_perl-sql-statement| image:: https://img.shields.io/conda/dn/bioconda/perl-sql-statement.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-sql-statement
    :alt:   (downloads)
 .. |docker_perl-sql-statement| image:: https://quay.io/repository/biocontainers/perl-sql-statement/status
    :target: https://quay.io/repository/biocontainers/perl-sql-statement

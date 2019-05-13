@@ -46,6 +46,7 @@ dsh-bio
 
 
 .. |downloads_dsh-bio| image:: https://img.shields.io/conda/dn/bioconda/dsh-bio.svg?style=flat
+   :target: https://anaconda.org/bioconda/dsh-bio
    :alt:   (downloads)
 .. |docker_dsh-bio| image:: https://quay.io/repository/biocontainers/dsh-bio/status
    :target: https://quay.io/repository/biocontainers/dsh-bio

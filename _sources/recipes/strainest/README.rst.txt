@@ -56,6 +56,7 @@ strainest
 
 
 .. |downloads_strainest| image:: https://img.shields.io/conda/dn/bioconda/strainest.svg?style=flat
+   :target: https://anaconda.org/bioconda/strainest
    :alt:   (downloads)
 .. |docker_strainest| image:: https://quay.io/repository/biocontainers/strainest/status
    :target: https://quay.io/repository/biocontainers/strainest

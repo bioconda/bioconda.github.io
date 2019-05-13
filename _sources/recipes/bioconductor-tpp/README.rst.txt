@@ -73,6 +73,7 @@ bioconductor-tpp
 
 
 .. |downloads_bioconductor-tpp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tpp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tpp
    :alt:   (downloads)
 .. |docker_bioconductor-tpp| image:: https://quay.io/repository/biocontainers/bioconductor-tpp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tpp

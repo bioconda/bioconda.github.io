@@ -46,6 +46,7 @@ perl-html-element-extended
 
 
 .. |downloads_perl-html-element-extended| image:: https://img.shields.io/conda/dn/bioconda/perl-html-element-extended.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-html-element-extended
    :alt:   (downloads)
 .. |docker_perl-html-element-extended| image:: https://quay.io/repository/biocontainers/perl-html-element-extended/status
    :target: https://quay.io/repository/biocontainers/perl-html-element-extended

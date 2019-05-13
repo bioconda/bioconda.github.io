@@ -46,6 +46,7 @@ tedna
 
 
 .. |downloads_tedna| image:: https://img.shields.io/conda/dn/bioconda/tedna.svg?style=flat
+   :target: https://anaconda.org/bioconda/tedna
    :alt:   (downloads)
 .. |docker_tedna| image:: https://quay.io/repository/biocontainers/tedna/status
    :target: https://quay.io/repository/biocontainers/tedna

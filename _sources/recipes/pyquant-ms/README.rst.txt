@@ -55,6 +55,7 @@ pyquant-ms
 
 
 .. |downloads_pyquant-ms| image:: https://img.shields.io/conda/dn/bioconda/pyquant-ms.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyquant-ms
    :alt:   (downloads)
 .. |docker_pyquant-ms| image:: https://quay.io/repository/biocontainers/pyquant-ms/status
    :target: https://quay.io/repository/biocontainers/pyquant-ms

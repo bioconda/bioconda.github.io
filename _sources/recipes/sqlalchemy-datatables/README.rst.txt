@@ -46,6 +46,7 @@ sqlalchemy-datatables
 
 
 .. |downloads_sqlalchemy-datatables| image:: https://img.shields.io/conda/dn/bioconda/sqlalchemy-datatables.svg?style=flat
+   :target: https://anaconda.org/bioconda/sqlalchemy-datatables
    :alt:   (downloads)
 .. |docker_sqlalchemy-datatables| image:: https://quay.io/repository/biocontainers/sqlalchemy-datatables/status
    :target: https://quay.io/repository/biocontainers/sqlalchemy-datatables

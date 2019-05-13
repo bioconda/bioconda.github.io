@@ -62,6 +62,7 @@ bioconductor-r453plus1toolbox
 
 
 .. |downloads_bioconductor-r453plus1toolbox| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-r453plus1toolbox.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-r453plus1toolbox
    :alt:   (downloads)
 .. |docker_bioconductor-r453plus1toolbox| image:: https://quay.io/repository/biocontainers/bioconductor-r453plus1toolbox/status
    :target: https://quay.io/repository/biocontainers/bioconductor-r453plus1toolbox

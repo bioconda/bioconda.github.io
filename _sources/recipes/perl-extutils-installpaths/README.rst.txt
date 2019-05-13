@@ -47,6 +47,7 @@ perl-extutils-installpaths
 
 
 .. |downloads_perl-extutils-installpaths| image:: https://img.shields.io/conda/dn/bioconda/perl-extutils-installpaths.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-extutils-installpaths
    :alt:   (downloads)
 .. |docker_perl-extutils-installpaths| image:: https://quay.io/repository/biocontainers/perl-extutils-installpaths/status
    :target: https://quay.io/repository/biocontainers/perl-extutils-installpaths

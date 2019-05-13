@@ -48,6 +48,7 @@ r-htscluster
 
 
 .. |downloads_r-htscluster| image:: https://img.shields.io/conda/dn/bioconda/r-htscluster.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-htscluster
    :alt:   (downloads)
 .. |docker_r-htscluster| image:: https://quay.io/repository/biocontainers/r-htscluster/status
    :target: https://quay.io/repository/biocontainers/r-htscluster

@@ -81,6 +81,7 @@ biobb_wf_mutations
 
 
 .. |downloads_biobb_wf_mutations| image:: https://img.shields.io/conda/dn/bioconda/biobb_wf_mutations.svg?style=flat
+   :target: https://anaconda.org/bioconda/biobb_wf_mutations
    :alt:   (downloads)
 .. |docker_biobb_wf_mutations| image:: https://quay.io/repository/biocontainers/biobb_wf_mutations/status
    :target: https://quay.io/repository/biocontainers/biobb_wf_mutations

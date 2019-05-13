@@ -46,6 +46,7 @@ genesplicer
 
 
 .. |downloads_genesplicer| image:: https://img.shields.io/conda/dn/bioconda/genesplicer.svg?style=flat
+   :target: https://anaconda.org/bioconda/genesplicer
    :alt:   (downloads)
 .. |docker_genesplicer| image:: https://quay.io/repository/biocontainers/genesplicer/status
    :target: https://quay.io/repository/biocontainers/genesplicer

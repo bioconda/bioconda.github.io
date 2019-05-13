@@ -74,6 +74,7 @@ metagenome-atlas
 
 
 .. |downloads_metagenome-atlas| image:: https://img.shields.io/conda/dn/bioconda/metagenome-atlas.svg?style=flat
+   :target: https://anaconda.org/bioconda/metagenome-atlas
    :alt:   (downloads)
 .. |docker_metagenome-atlas| image:: https://quay.io/repository/biocontainers/metagenome-atlas/status
    :target: https://quay.io/repository/biocontainers/metagenome-atlas

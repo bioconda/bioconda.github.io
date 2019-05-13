@@ -44,6 +44,7 @@ autodock-vina
 
 
 .. |downloads_autodock-vina| image:: https://img.shields.io/conda/dn/bioconda/autodock-vina.svg?style=flat
+   :target: https://anaconda.org/bioconda/autodock-vina
    :alt:   (downloads)
 .. |docker_autodock-vina| image:: https://quay.io/repository/biocontainers/autodock-vina/status
    :target: https://quay.io/repository/biocontainers/autodock-vina

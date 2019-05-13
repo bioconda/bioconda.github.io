@@ -55,6 +55,7 @@ sourmash
 
 
 .. |downloads_sourmash| image:: https://img.shields.io/conda/dn/bioconda/sourmash.svg?style=flat
+   :target: https://anaconda.org/bioconda/sourmash
    :alt:   (downloads)
 .. |docker_sourmash| image:: https://quay.io/repository/biocontainers/sourmash/status
    :target: https://quay.io/repository/biocontainers/sourmash

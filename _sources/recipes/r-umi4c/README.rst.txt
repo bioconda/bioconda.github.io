@@ -47,6 +47,7 @@ r-umi4c
 
 
 .. |downloads_r-umi4c| image:: https://img.shields.io/conda/dn/bioconda/r-umi4c.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-umi4c
    :alt:   (downloads)
 .. |docker_r-umi4c| image:: https://quay.io/repository/biocontainers/r-umi4c/status
    :target: https://quay.io/repository/biocontainers/r-umi4c

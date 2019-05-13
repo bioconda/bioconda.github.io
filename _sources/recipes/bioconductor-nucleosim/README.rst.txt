@@ -48,6 +48,7 @@ bioconductor-nucleosim
 
 
 .. |downloads_bioconductor-nucleosim| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-nucleosim.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-nucleosim
    :alt:   (downloads)
 .. |docker_bioconductor-nucleosim| image:: https://quay.io/repository/biocontainers/bioconductor-nucleosim/status
    :target: https://quay.io/repository/biocontainers/bioconductor-nucleosim

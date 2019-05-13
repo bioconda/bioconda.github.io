@@ -52,6 +52,7 @@ bioconductor-prize
 
 
 .. |downloads_bioconductor-prize| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-prize.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-prize
    :alt:   (downloads)
 .. |docker_bioconductor-prize| image:: https://quay.io/repository/biocontainers/bioconductor-prize/status
    :target: https://quay.io/repository/biocontainers/bioconductor-prize

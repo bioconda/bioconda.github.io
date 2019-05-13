@@ -54,6 +54,7 @@ arvados-python-client
 
 
 .. |downloads_arvados-python-client| image:: https://img.shields.io/conda/dn/bioconda/arvados-python-client.svg?style=flat
+   :target: https://anaconda.org/bioconda/arvados-python-client
    :alt:   (downloads)
 .. |docker_arvados-python-client| image:: https://quay.io/repository/biocontainers/arvados-python-client/status
    :target: https://quay.io/repository/biocontainers/arvados-python-client

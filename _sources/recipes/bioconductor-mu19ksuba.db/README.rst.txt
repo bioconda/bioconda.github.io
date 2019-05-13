@@ -48,6 +48,7 @@ bioconductor-mu19ksuba.db
 
 
 .. |downloads_bioconductor-mu19ksuba.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mu19ksuba.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mu19ksuba.db
    :alt:   (downloads)
 .. |docker_bioconductor-mu19ksuba.db| image:: https://quay.io/repository/biocontainers/bioconductor-mu19ksuba.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mu19ksuba.db

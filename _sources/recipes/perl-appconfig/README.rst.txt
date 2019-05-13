@@ -45,6 +45,7 @@ perl-appconfig
 
 
 .. |downloads_perl-appconfig| image:: https://img.shields.io/conda/dn/bioconda/perl-appconfig.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-appconfig
    :alt:   (downloads)
 .. |docker_perl-appconfig| image:: https://quay.io/repository/biocontainers/perl-appconfig/status
    :target: https://quay.io/repository/biocontainers/perl-appconfig

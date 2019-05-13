@@ -50,6 +50,7 @@ bioconductor-affyilm
 
 
 .. |downloads_bioconductor-affyilm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affyilm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-affyilm
    :alt:   (downloads)
 .. |docker_bioconductor-affyilm| image:: https://quay.io/repository/biocontainers/bioconductor-affyilm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affyilm

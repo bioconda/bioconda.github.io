@@ -48,6 +48,7 @@ perl-test-fatal
 
 
 .. |downloads_perl-test-fatal| image:: https://img.shields.io/conda/dn/bioconda/perl-test-fatal.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-fatal
    :alt:   (downloads)
 .. |docker_perl-test-fatal| image:: https://quay.io/repository/biocontainers/perl-test-fatal/status
    :target: https://quay.io/repository/biocontainers/perl-test-fatal

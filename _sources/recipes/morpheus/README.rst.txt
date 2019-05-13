@@ -45,6 +45,7 @@ morpheus
 
 
 .. |downloads_morpheus| image:: https://img.shields.io/conda/dn/bioconda/morpheus.svg?style=flat
+   :target: https://anaconda.org/bioconda/morpheus
    :alt:   (downloads)
 .. |docker_morpheus| image:: https://quay.io/repository/biocontainers/morpheus/status
    :target: https://quay.io/repository/biocontainers/morpheus

@@ -57,6 +57,7 @@ ont-tombo
 
 
 .. |downloads_ont-tombo| image:: https://img.shields.io/conda/dn/bioconda/ont-tombo.svg?style=flat
+   :target: https://anaconda.org/bioconda/ont-tombo
    :alt:   (downloads)
 .. |docker_ont-tombo| image:: https://quay.io/repository/biocontainers/ont-tombo/status
    :target: https://quay.io/repository/biocontainers/ont-tombo

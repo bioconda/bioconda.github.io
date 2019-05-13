@@ -48,6 +48,7 @@ bioconductor-pcot2
 
 
 .. |downloads_bioconductor-pcot2| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pcot2.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pcot2
    :alt:   (downloads)
 .. |docker_bioconductor-pcot2| image:: https://quay.io/repository/biocontainers/bioconductor-pcot2/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pcot2

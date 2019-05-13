@@ -50,6 +50,7 @@ ucsc-splitfilebycolumn
 
 
 .. |downloads_ucsc-splitfilebycolumn| image:: https://img.shields.io/conda/dn/bioconda/ucsc-splitfilebycolumn.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-splitfilebycolumn
    :alt:   (downloads)
 .. |docker_ucsc-splitfilebycolumn| image:: https://quay.io/repository/biocontainers/ucsc-splitfilebycolumn/status
    :target: https://quay.io/repository/biocontainers/ucsc-splitfilebycolumn

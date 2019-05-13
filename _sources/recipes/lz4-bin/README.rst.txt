@@ -45,6 +45,7 @@ lz4-bin
 
 
 .. |downloads_lz4-bin| image:: https://img.shields.io/conda/dn/bioconda/lz4-bin.svg?style=flat
+   :target: https://anaconda.org/bioconda/lz4-bin
    :alt:   (downloads)
 .. |docker_lz4-bin| image:: https://quay.io/repository/biocontainers/lz4-bin/status
    :target: https://quay.io/repository/biocontainers/lz4-bin

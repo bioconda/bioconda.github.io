@@ -49,6 +49,7 @@ bioconductor-gsvadata
 
 
 .. |downloads_bioconductor-gsvadata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gsvadata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gsvadata
    :alt:   (downloads)
 .. |docker_bioconductor-gsvadata| image:: https://quay.io/repository/biocontainers/bioconductor-gsvadata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gsvadata

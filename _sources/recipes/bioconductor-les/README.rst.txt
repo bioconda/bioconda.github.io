@@ -50,6 +50,7 @@ bioconductor-les
 
 
 .. |downloads_bioconductor-les| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-les.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-les
    :alt:   (downloads)
 .. |docker_bioconductor-les| image:: https://quay.io/repository/biocontainers/bioconductor-les/status
    :target: https://quay.io/repository/biocontainers/bioconductor-les

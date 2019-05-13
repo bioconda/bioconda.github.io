@@ -45,6 +45,7 @@ perl-tie-hash-indexed
 
 
 .. |downloads_perl-tie-hash-indexed| image:: https://img.shields.io/conda/dn/bioconda/perl-tie-hash-indexed.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-tie-hash-indexed
    :alt:   (downloads)
 .. |docker_perl-tie-hash-indexed| image:: https://quay.io/repository/biocontainers/perl-tie-hash-indexed/status
    :target: https://quay.io/repository/biocontainers/perl-tie-hash-indexed

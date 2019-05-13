@@ -48,6 +48,7 @@ bioconductor-chopsticks
 
 
 .. |downloads_bioconductor-chopsticks| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chopsticks.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chopsticks
    :alt:   (downloads)
 .. |docker_bioconductor-chopsticks| image:: https://quay.io/repository/biocontainers/bioconductor-chopsticks/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chopsticks

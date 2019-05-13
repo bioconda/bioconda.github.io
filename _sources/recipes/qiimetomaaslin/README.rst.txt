@@ -46,6 +46,7 @@ qiimetomaaslin
 
 
 .. |downloads_qiimetomaaslin| image:: https://img.shields.io/conda/dn/bioconda/qiimetomaaslin.svg?style=flat
+   :target: https://anaconda.org/bioconda/qiimetomaaslin
    :alt:   (downloads)
 .. |docker_qiimetomaaslin| image:: https://quay.io/repository/biocontainers/qiimetomaaslin/status
    :target: https://quay.io/repository/biocontainers/qiimetomaaslin

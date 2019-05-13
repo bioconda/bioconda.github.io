@@ -57,6 +57,7 @@ bioconductor-cellhts2
 
 
 .. |downloads_bioconductor-cellhts2| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cellhts2.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cellhts2
    :alt:   (downloads)
 .. |docker_bioconductor-cellhts2| image:: https://quay.io/repository/biocontainers/bioconductor-cellhts2/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cellhts2

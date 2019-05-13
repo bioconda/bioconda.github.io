@@ -45,6 +45,7 @@ bcbio-variation
 
 
 .. |downloads_bcbio-variation| image:: https://img.shields.io/conda/dn/bioconda/bcbio-variation.svg?style=flat
+   :target: https://anaconda.org/bioconda/bcbio-variation
    :alt:   (downloads)
 .. |docker_bcbio-variation| image:: https://quay.io/repository/biocontainers/bcbio-variation/status
    :target: https://quay.io/repository/biocontainers/bcbio-variation

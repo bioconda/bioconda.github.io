@@ -48,6 +48,7 @@ bioconductor-shdz.db
 
 
 .. |downloads_bioconductor-shdz.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-shdz.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-shdz.db
    :alt:   (downloads)
 .. |docker_bioconductor-shdz.db| image:: https://quay.io/repository/biocontainers/bioconductor-shdz.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-shdz.db

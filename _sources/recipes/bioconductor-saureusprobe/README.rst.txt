@@ -47,6 +47,7 @@ bioconductor-saureusprobe
 
 
 .. |downloads_bioconductor-saureusprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-saureusprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-saureusprobe
    :alt:   (downloads)
 .. |docker_bioconductor-saureusprobe| image:: https://quay.io/repository/biocontainers/bioconductor-saureusprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-saureusprobe

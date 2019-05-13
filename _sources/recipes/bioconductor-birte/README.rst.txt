@@ -56,6 +56,7 @@ bioconductor-birte
 
 
 .. |downloads_bioconductor-birte| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-birte.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-birte
    :alt:   (downloads)
 .. |docker_bioconductor-birte| image:: https://quay.io/repository/biocontainers/bioconductor-birte/status
    :target: https://quay.io/repository/biocontainers/bioconductor-birte

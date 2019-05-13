@@ -49,6 +49,7 @@ bioconductor-manta
 
 
 .. |downloads_bioconductor-manta| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-manta.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-manta
    :alt:   (downloads)
 .. |docker_bioconductor-manta| image:: https://quay.io/repository/biocontainers/bioconductor-manta/status
    :target: https://quay.io/repository/biocontainers/bioconductor-manta

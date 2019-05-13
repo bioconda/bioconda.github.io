@@ -50,6 +50,7 @@ perl-file-fetch
 
 
 .. |downloads_perl-file-fetch| image:: https://img.shields.io/conda/dn/bioconda/perl-file-fetch.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-fetch
    :alt:   (downloads)
 .. |docker_perl-file-fetch| image:: https://quay.io/repository/biocontainers/perl-file-fetch/status
    :target: https://quay.io/repository/biocontainers/perl-file-fetch

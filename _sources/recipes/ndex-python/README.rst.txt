@@ -49,6 +49,7 @@ ndex-python
 
 
 .. |downloads_ndex-python| image:: https://img.shields.io/conda/dn/bioconda/ndex-python.svg?style=flat
+   :target: https://anaconda.org/bioconda/ndex-python
    :alt:   (downloads)
 .. |docker_ndex-python| image:: https://quay.io/repository/biocontainers/ndex-python/status
    :target: https://quay.io/repository/biocontainers/ndex-python

@@ -55,6 +55,7 @@ bioconductor-cancersubtypes
 
 
 .. |downloads_bioconductor-cancersubtypes| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cancersubtypes.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cancersubtypes
    :alt:   (downloads)
 .. |docker_bioconductor-cancersubtypes| image:: https://quay.io/repository/biocontainers/bioconductor-cancersubtypes/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cancersubtypes

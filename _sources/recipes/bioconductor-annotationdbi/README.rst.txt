@@ -52,6 +52,7 @@ bioconductor-annotationdbi
 
 
 .. |downloads_bioconductor-annotationdbi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-annotationdbi.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-annotationdbi
    :alt:   (downloads)
 .. |docker_bioconductor-annotationdbi| image:: https://quay.io/repository/biocontainers/bioconductor-annotationdbi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-annotationdbi

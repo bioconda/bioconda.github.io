@@ -57,6 +57,7 @@ bioconductor-tcseq
 
 
 .. |downloads_bioconductor-tcseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tcseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tcseq
    :alt:   (downloads)
 .. |docker_bioconductor-tcseq| image:: https://quay.io/repository/biocontainers/bioconductor-tcseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tcseq

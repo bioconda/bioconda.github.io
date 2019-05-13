@@ -48,6 +48,7 @@ r-sequenza
 
 
 .. |downloads_r-sequenza| image:: https://img.shields.io/conda/dn/bioconda/r-sequenza.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-sequenza
    :alt:   (downloads)
 .. |docker_r-sequenza| image:: https://quay.io/repository/biocontainers/r-sequenza/status
    :target: https://quay.io/repository/biocontainers/r-sequenza

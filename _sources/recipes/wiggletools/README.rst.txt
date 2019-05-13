@@ -49,6 +49,7 @@ wiggletools
 
 
 .. |downloads_wiggletools| image:: https://img.shields.io/conda/dn/bioconda/wiggletools.svg?style=flat
+   :target: https://anaconda.org/bioconda/wiggletools
    :alt:   (downloads)
 .. |docker_wiggletools| image:: https://quay.io/repository/biocontainers/wiggletools/status
    :target: https://quay.io/repository/biocontainers/wiggletools

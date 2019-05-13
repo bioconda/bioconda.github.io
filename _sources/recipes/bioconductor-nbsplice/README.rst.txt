@@ -52,6 +52,7 @@ bioconductor-nbsplice
 
 
 .. |downloads_bioconductor-nbsplice| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-nbsplice.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-nbsplice
    :alt:   (downloads)
 .. |docker_bioconductor-nbsplice| image:: https://quay.io/repository/biocontainers/bioconductor-nbsplice/status
    :target: https://quay.io/repository/biocontainers/bioconductor-nbsplice

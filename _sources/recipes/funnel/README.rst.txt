@@ -44,6 +44,7 @@ funnel
 
 
 .. |downloads_funnel| image:: https://img.shields.io/conda/dn/bioconda/funnel.svg?style=flat
+   :target: https://anaconda.org/bioconda/funnel
    :alt:   (downloads)
 .. |docker_funnel| image:: https://quay.io/repository/biocontainers/funnel/status
    :target: https://quay.io/repository/biocontainers/funnel

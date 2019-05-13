@@ -58,6 +58,7 @@ bioconductor-flowstats
 
 
 .. |downloads_bioconductor-flowstats| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowstats.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowstats
    :alt:   (downloads)
 .. |docker_bioconductor-flowstats| image:: https://quay.io/repository/biocontainers/bioconductor-flowstats/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowstats

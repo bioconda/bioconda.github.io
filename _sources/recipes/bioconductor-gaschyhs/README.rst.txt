@@ -47,6 +47,7 @@ bioconductor-gaschyhs
 
 
 .. |downloads_bioconductor-gaschyhs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gaschyhs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gaschyhs
    :alt:   (downloads)
 .. |docker_bioconductor-gaschyhs| image:: https://quay.io/repository/biocontainers/bioconductor-gaschyhs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gaschyhs

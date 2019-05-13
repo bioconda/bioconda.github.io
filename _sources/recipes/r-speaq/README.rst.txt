@@ -58,6 +58,7 @@ r-speaq
 
 
 .. |downloads_r-speaq| image:: https://img.shields.io/conda/dn/bioconda/r-speaq.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-speaq
    :alt:   (downloads)
 .. |docker_r-speaq| image:: https://quay.io/repository/biocontainers/r-speaq/status
    :target: https://quay.io/repository/biocontainers/r-speaq

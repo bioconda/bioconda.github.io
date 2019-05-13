@@ -48,6 +48,7 @@ bioconductor-plgem
 
 
 .. |downloads_bioconductor-plgem| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-plgem.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-plgem
    :alt:   (downloads)
 .. |docker_bioconductor-plgem| image:: https://quay.io/repository/biocontainers/bioconductor-plgem/status
    :target: https://quay.io/repository/biocontainers/bioconductor-plgem

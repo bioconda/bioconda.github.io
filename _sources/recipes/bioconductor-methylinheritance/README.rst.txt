@@ -53,6 +53,7 @@ bioconductor-methylinheritance
 
 
 .. |downloads_bioconductor-methylinheritance| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methylinheritance.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-methylinheritance
    :alt:   (downloads)
 .. |docker_bioconductor-methylinheritance| image:: https://quay.io/repository/biocontainers/bioconductor-methylinheritance/status
    :target: https://quay.io/repository/biocontainers/bioconductor-methylinheritance

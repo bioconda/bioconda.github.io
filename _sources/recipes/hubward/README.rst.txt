@@ -59,6 +59,7 @@ hubward
 
 
 .. |downloads_hubward| image:: https://img.shields.io/conda/dn/bioconda/hubward.svg?style=flat
+   :target: https://anaconda.org/bioconda/hubward
    :alt:   (downloads)
 .. |docker_hubward| image:: https://quay.io/repository/biocontainers/hubward/status
    :target: https://quay.io/repository/biocontainers/hubward

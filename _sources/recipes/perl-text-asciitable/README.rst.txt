@@ -47,6 +47,7 @@ perl-text-asciitable
 
 
 .. |downloads_perl-text-asciitable| image:: https://img.shields.io/conda/dn/bioconda/perl-text-asciitable.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-text-asciitable
    :alt:   (downloads)
 .. |docker_perl-text-asciitable| image:: https://quay.io/repository/biocontainers/perl-text-asciitable/status
    :target: https://quay.io/repository/biocontainers/perl-text-asciitable

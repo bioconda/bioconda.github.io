@@ -47,6 +47,7 @@ bioconductor-gp53cdf
 
 
 .. |downloads_bioconductor-gp53cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gp53cdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gp53cdf
    :alt:   (downloads)
 .. |docker_bioconductor-gp53cdf| image:: https://quay.io/repository/biocontainers/bioconductor-gp53cdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gp53cdf

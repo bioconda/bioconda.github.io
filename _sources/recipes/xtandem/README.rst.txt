@@ -48,6 +48,7 @@ xtandem
 
 
 .. |downloads_xtandem| image:: https://img.shields.io/conda/dn/bioconda/xtandem.svg?style=flat
+   :target: https://anaconda.org/bioconda/xtandem
    :alt:   (downloads)
 .. |docker_xtandem| image:: https://quay.io/repository/biocontainers/xtandem/status
    :target: https://quay.io/repository/biocontainers/xtandem

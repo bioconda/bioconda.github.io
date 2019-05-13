@@ -52,6 +52,7 @@ bioconductor-bioassayr
 
 
 .. |downloads_bioconductor-bioassayr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bioassayr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bioassayr
    :alt:   (downloads)
 .. |docker_bioconductor-bioassayr| image:: https://quay.io/repository/biocontainers/bioconductor-bioassayr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bioassayr

@@ -48,6 +48,7 @@ rust-overlaps
 
 
 .. |downloads_rust-overlaps| image:: https://img.shields.io/conda/dn/bioconda/rust-overlaps.svg?style=flat
+   :target: https://anaconda.org/bioconda/rust-overlaps
    :alt:   (downloads)
 .. |docker_rust-overlaps| image:: https://quay.io/repository/biocontainers/rust-overlaps/status
    :target: https://quay.io/repository/biocontainers/rust-overlaps

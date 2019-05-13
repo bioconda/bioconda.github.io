@@ -52,6 +52,7 @@ footprint
 
 
 .. |downloads_footprint| image:: https://img.shields.io/conda/dn/bioconda/footprint.svg?style=flat
+   :target: https://anaconda.org/bioconda/footprint
    :alt:   (downloads)
 .. |docker_footprint| image:: https://quay.io/repository/biocontainers/footprint/status
    :target: https://quay.io/repository/biocontainers/footprint

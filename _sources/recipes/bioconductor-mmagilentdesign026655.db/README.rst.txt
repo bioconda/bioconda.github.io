@@ -48,6 +48,7 @@ bioconductor-mmagilentdesign026655.db
 
 
 .. |downloads_bioconductor-mmagilentdesign026655.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mmagilentdesign026655.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mmagilentdesign026655.db
    :alt:   (downloads)
 .. |docker_bioconductor-mmagilentdesign026655.db| image:: https://quay.io/repository/biocontainers/bioconductor-mmagilentdesign026655.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mmagilentdesign026655.db

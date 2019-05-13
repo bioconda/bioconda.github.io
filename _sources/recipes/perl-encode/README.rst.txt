@@ -47,6 +47,7 @@ perl-encode
 
 
 .. |downloads_perl-encode| image:: https://img.shields.io/conda/dn/bioconda/perl-encode.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-encode
    :alt:   (downloads)
 .. |docker_perl-encode| image:: https://quay.io/repository/biocontainers/perl-encode/status
    :target: https://quay.io/repository/biocontainers/perl-encode

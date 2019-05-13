@@ -48,6 +48,7 @@ anise_basil
 
 
 .. |downloads_anise_basil| image:: https://img.shields.io/conda/dn/bioconda/anise_basil.svg?style=flat
+   :target: https://anaconda.org/bioconda/anise_basil
    :alt:   (downloads)
 .. |docker_anise_basil| image:: https://quay.io/repository/biocontainers/anise_basil/status
    :target: https://quay.io/repository/biocontainers/anise_basil

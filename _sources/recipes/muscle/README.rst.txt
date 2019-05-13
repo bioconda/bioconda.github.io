@@ -47,6 +47,7 @@ muscle
 
 
 .. |downloads_muscle| image:: https://img.shields.io/conda/dn/bioconda/muscle.svg?style=flat
+   :target: https://anaconda.org/bioconda/muscle
    :alt:   (downloads)
 .. |docker_muscle| image:: https://quay.io/repository/biocontainers/muscle/status
    :target: https://quay.io/repository/biocontainers/muscle

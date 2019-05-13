@@ -48,6 +48,7 @@ epa-ng
 
 
 .. |downloads_epa-ng| image:: https://img.shields.io/conda/dn/bioconda/epa-ng.svg?style=flat
+   :target: https://anaconda.org/bioconda/epa-ng
    :alt:   (downloads)
 .. |docker_epa-ng| image:: https://quay.io/repository/biocontainers/epa-ng/status
    :target: https://quay.io/repository/biocontainers/epa-ng

@@ -46,6 +46,7 @@ bioconductor-hapmap370k
 
 
 .. |downloads_bioconductor-hapmap370k| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hapmap370k.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hapmap370k
    :alt:   (downloads)
 .. |docker_bioconductor-hapmap370k| image:: https://quay.io/repository/biocontainers/bioconductor-hapmap370k/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hapmap370k

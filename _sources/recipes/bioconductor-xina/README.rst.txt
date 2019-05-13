@@ -53,6 +53,7 @@ bioconductor-xina
 
 
 .. |downloads_bioconductor-xina| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-xina.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-xina
    :alt:   (downloads)
 .. |docker_bioconductor-xina| image:: https://quay.io/repository/biocontainers/bioconductor-xina/status
    :target: https://quay.io/repository/biocontainers/bioconductor-xina

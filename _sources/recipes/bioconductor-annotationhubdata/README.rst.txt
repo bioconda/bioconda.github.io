@@ -69,6 +69,7 @@ bioconductor-annotationhubdata
 
 
 .. |downloads_bioconductor-annotationhubdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-annotationhubdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-annotationhubdata
    :alt:   (downloads)
 .. |docker_bioconductor-annotationhubdata| image:: https://quay.io/repository/biocontainers/bioconductor-annotationhubdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-annotationhubdata

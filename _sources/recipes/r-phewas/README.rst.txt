@@ -58,6 +58,7 @@ r-phewas
 
 
 .. |downloads_r-phewas| image:: https://img.shields.io/conda/dn/bioconda/r-phewas.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-phewas
    :alt:   (downloads)
 .. |docker_r-phewas| image:: https://quay.io/repository/biocontainers/r-phewas/status
    :target: https://quay.io/repository/biocontainers/r-phewas

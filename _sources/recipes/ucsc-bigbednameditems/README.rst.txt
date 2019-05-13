@@ -50,6 +50,7 @@ ucsc-bigbednameditems
 
 
 .. |downloads_ucsc-bigbednameditems| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bigbednameditems.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bigbednameditems
    :alt:   (downloads)
 .. |docker_ucsc-bigbednameditems| image:: https://quay.io/repository/biocontainers/ucsc-bigbednameditems/status
    :target: https://quay.io/repository/biocontainers/ucsc-bigbednameditems

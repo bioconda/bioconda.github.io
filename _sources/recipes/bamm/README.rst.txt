@@ -52,6 +52,7 @@ bamm
 
 
 .. |downloads_bamm| image:: https://img.shields.io/conda/dn/bioconda/bamm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bamm
    :alt:   (downloads)
 .. |docker_bamm| image:: https://quay.io/repository/biocontainers/bamm/status
    :target: https://quay.io/repository/biocontainers/bamm

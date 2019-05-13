@@ -46,6 +46,7 @@ snp-sites
 
 
 .. |downloads_snp-sites| image:: https://img.shields.io/conda/dn/bioconda/snp-sites.svg?style=flat
+   :target: https://anaconda.org/bioconda/snp-sites
    :alt:   (downloads)
 .. |docker_snp-sites| image:: https://quay.io/repository/biocontainers/snp-sites/status
    :target: https://quay.io/repository/biocontainers/snp-sites

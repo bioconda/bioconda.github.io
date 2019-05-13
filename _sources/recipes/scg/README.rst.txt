@@ -49,6 +49,7 @@ scg
 
 
 .. |downloads_scg| image:: https://img.shields.io/conda/dn/bioconda/scg.svg?style=flat
+   :target: https://anaconda.org/bioconda/scg
    :alt:   (downloads)
 .. |docker_scg| image:: https://quay.io/repository/biocontainers/scg/status
    :target: https://quay.io/repository/biocontainers/scg

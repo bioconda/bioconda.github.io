@@ -47,6 +47,7 @@ perl-sys-info
 
 
 .. |downloads_perl-sys-info| image:: https://img.shields.io/conda/dn/bioconda/perl-sys-info.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-sys-info
    :alt:   (downloads)
 .. |docker_perl-sys-info| image:: https://quay.io/repository/biocontainers/perl-sys-info/status
    :target: https://quay.io/repository/biocontainers/perl-sys-info

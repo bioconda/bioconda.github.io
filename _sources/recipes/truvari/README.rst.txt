@@ -50,6 +50,7 @@ truvari
 
 
 .. |downloads_truvari| image:: https://img.shields.io/conda/dn/bioconda/truvari.svg?style=flat
+   :target: https://anaconda.org/bioconda/truvari
    :alt:   (downloads)
 .. |docker_truvari| image:: https://quay.io/repository/biocontainers/truvari/status
    :target: https://quay.io/repository/biocontainers/truvari

@@ -48,6 +48,7 @@ pbdagcon
 
 
 .. |downloads_pbdagcon| image:: https://img.shields.io/conda/dn/bioconda/pbdagcon.svg?style=flat
+   :target: https://anaconda.org/bioconda/pbdagcon
    :alt:   (downloads)
 .. |docker_pbdagcon| image:: https://quay.io/repository/biocontainers/pbdagcon/status
    :target: https://quay.io/repository/biocontainers/pbdagcon

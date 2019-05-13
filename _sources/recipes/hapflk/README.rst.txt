@@ -48,6 +48,7 @@ hapflk
 
 
 .. |downloads_hapflk| image:: https://img.shields.io/conda/dn/bioconda/hapflk.svg?style=flat
+   :target: https://anaconda.org/bioconda/hapflk
    :alt:   (downloads)
 .. |docker_hapflk| image:: https://quay.io/repository/biocontainers/hapflk/status
    :target: https://quay.io/repository/biocontainers/hapflk

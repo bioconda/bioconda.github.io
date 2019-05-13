@@ -46,6 +46,7 @@ manta
 
 
 .. |downloads_manta| image:: https://img.shields.io/conda/dn/bioconda/manta.svg?style=flat
+   :target: https://anaconda.org/bioconda/manta
    :alt:   (downloads)
 .. |docker_manta| image:: https://quay.io/repository/biocontainers/manta/status
    :target: https://quay.io/repository/biocontainers/manta

@@ -47,6 +47,7 @@ crux-toolkit
 
 
 .. |downloads_crux-toolkit| image:: https://img.shields.io/conda/dn/bioconda/crux-toolkit.svg?style=flat
+   :target: https://anaconda.org/bioconda/crux-toolkit
    :alt:   (downloads)
 .. |docker_crux-toolkit| image:: https://quay.io/repository/biocontainers/crux-toolkit/status
    :target: https://quay.io/repository/biocontainers/crux-toolkit

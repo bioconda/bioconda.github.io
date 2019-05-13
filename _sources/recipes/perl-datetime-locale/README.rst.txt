@@ -50,6 +50,7 @@ perl-datetime-locale
 
 
 .. |downloads_perl-datetime-locale| image:: https://img.shields.io/conda/dn/bioconda/perl-datetime-locale.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-datetime-locale
    :alt:   (downloads)
 .. |docker_perl-datetime-locale| image:: https://quay.io/repository/biocontainers/perl-datetime-locale/status
    :target: https://quay.io/repository/biocontainers/perl-datetime-locale

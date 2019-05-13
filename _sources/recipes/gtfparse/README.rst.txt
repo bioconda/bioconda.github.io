@@ -47,6 +47,7 @@ gtfparse
 
 
 .. |downloads_gtfparse| image:: https://img.shields.io/conda/dn/bioconda/gtfparse.svg?style=flat
+   :target: https://anaconda.org/bioconda/gtfparse
    :alt:   (downloads)
 .. |docker_gtfparse| image:: https://quay.io/repository/biocontainers/gtfparse/status
    :target: https://quay.io/repository/biocontainers/gtfparse

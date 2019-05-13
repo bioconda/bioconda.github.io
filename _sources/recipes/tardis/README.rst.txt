@@ -55,6 +55,7 @@ tardis
 
 
 .. |downloads_tardis| image:: https://img.shields.io/conda/dn/bioconda/tardis.svg?style=flat
+   :target: https://anaconda.org/bioconda/tardis
    :alt:   (downloads)
 .. |docker_tardis| image:: https://quay.io/repository/biocontainers/tardis/status
    :target: https://quay.io/repository/biocontainers/tardis

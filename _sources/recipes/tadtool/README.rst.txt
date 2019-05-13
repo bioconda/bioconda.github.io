@@ -49,6 +49,7 @@ tadtool
 
 
 .. |downloads_tadtool| image:: https://img.shields.io/conda/dn/bioconda/tadtool.svg?style=flat
+   :target: https://anaconda.org/bioconda/tadtool
    :alt:   (downloads)
 .. |docker_tadtool| image:: https://quay.io/repository/biocontainers/tadtool/status
    :target: https://quay.io/repository/biocontainers/tadtool

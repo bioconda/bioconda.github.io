@@ -46,6 +46,7 @@ revtrans
 
 
 .. |downloads_revtrans| image:: https://img.shields.io/conda/dn/bioconda/revtrans.svg?style=flat
+   :target: https://anaconda.org/bioconda/revtrans
    :alt:   (downloads)
 .. |docker_revtrans| image:: https://quay.io/repository/biocontainers/revtrans/status
    :target: https://quay.io/repository/biocontainers/revtrans

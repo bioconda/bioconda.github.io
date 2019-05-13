@@ -50,6 +50,7 @@ r-rubic
 
 
 .. |downloads_r-rubic| image:: https://img.shields.io/conda/dn/bioconda/r-rubic.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-rubic
    :alt:   (downloads)
 .. |docker_r-rubic| image:: https://quay.io/repository/biocontainers/r-rubic/status
    :target: https://quay.io/repository/biocontainers/r-rubic

@@ -52,6 +52,7 @@ nanocomp
 
 
 .. |downloads_nanocomp| image:: https://img.shields.io/conda/dn/bioconda/nanocomp.svg?style=flat
+   :target: https://anaconda.org/bioconda/nanocomp
    :alt:   (downloads)
 .. |docker_nanocomp| image:: https://quay.io/repository/biocontainers/nanocomp/status
    :target: https://quay.io/repository/biocontainers/nanocomp

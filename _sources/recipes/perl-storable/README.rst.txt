@@ -47,6 +47,7 @@ perl-storable
 
 
 .. |downloads_perl-storable| image:: https://img.shields.io/conda/dn/bioconda/perl-storable.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-storable
    :alt:   (downloads)
 .. |docker_perl-storable| image:: https://quay.io/repository/biocontainers/perl-storable/status
    :target: https://quay.io/repository/biocontainers/perl-storable

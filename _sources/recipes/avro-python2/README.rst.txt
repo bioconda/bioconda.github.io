@@ -45,6 +45,7 @@ avro-python2
 
 
 .. |downloads_avro-python2| image:: https://img.shields.io/conda/dn/bioconda/avro-python2.svg?style=flat
+   :target: https://anaconda.org/bioconda/avro-python2
    :alt:   (downloads)
 .. |docker_avro-python2| image:: https://quay.io/repository/biocontainers/avro-python2/status
    :target: https://quay.io/repository/biocontainers/avro-python2

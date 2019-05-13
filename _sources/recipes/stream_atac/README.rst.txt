@@ -60,6 +60,7 @@ stream_atac
 
 
 .. |downloads_stream_atac| image:: https://img.shields.io/conda/dn/bioconda/stream_atac.svg?style=flat
+   :target: https://anaconda.org/bioconda/stream_atac
    :alt:   (downloads)
 .. |docker_stream_atac| image:: https://quay.io/repository/biocontainers/stream_atac/status
    :target: https://quay.io/repository/biocontainers/stream_atac

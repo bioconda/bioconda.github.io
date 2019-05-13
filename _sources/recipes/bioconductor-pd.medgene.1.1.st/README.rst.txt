@@ -53,6 +53,7 @@ bioconductor-pd.medgene.1.1.st
 
 
 .. |downloads_bioconductor-pd.medgene.1.1.st| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.medgene.1.1.st.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.medgene.1.1.st
    :alt:   (downloads)
 .. |docker_bioconductor-pd.medgene.1.1.st| image:: https://quay.io/repository/biocontainers/bioconductor-pd.medgene.1.1.st/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.medgene.1.1.st

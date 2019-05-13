@@ -50,6 +50,7 @@ bioconductor-chromdraw
 
 
 .. |downloads_bioconductor-chromdraw| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chromdraw.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chromdraw
    :alt:   (downloads)
 .. |docker_bioconductor-chromdraw| image:: https://quay.io/repository/biocontainers/bioconductor-chromdraw/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chromdraw

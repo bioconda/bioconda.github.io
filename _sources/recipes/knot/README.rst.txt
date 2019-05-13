@@ -44,6 +44,7 @@ knot
 
 
 .. |downloads_knot| image:: https://img.shields.io/conda/dn/bioconda/knot.svg?style=flat
+   :target: https://anaconda.org/bioconda/knot
    :alt:   (downloads)
 .. |docker_knot| image:: https://quay.io/repository/biocontainers/knot/status
    :target: https://quay.io/repository/biocontainers/knot

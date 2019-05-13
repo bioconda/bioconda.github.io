@@ -47,6 +47,7 @@ bioconductor-hgu133a2cdf
 
 
 .. |downloads_bioconductor-hgu133a2cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgu133a2cdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hgu133a2cdf
    :alt:   (downloads)
 .. |docker_bioconductor-hgu133a2cdf| image:: https://quay.io/repository/biocontainers/bioconductor-hgu133a2cdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hgu133a2cdf

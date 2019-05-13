@@ -62,6 +62,7 @@ r-ampvis
 
 
 .. |downloads_r-ampvis| image:: https://img.shields.io/conda/dn/bioconda/r-ampvis.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-ampvis
    :alt:   (downloads)
 .. |docker_r-ampvis| image:: https://quay.io/repository/biocontainers/r-ampvis/status
    :target: https://quay.io/repository/biocontainers/r-ampvis

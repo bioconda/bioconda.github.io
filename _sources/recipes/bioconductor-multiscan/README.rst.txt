@@ -48,6 +48,7 @@ bioconductor-multiscan
 
 
 .. |downloads_bioconductor-multiscan| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-multiscan.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-multiscan
    :alt:   (downloads)
 .. |docker_bioconductor-multiscan| image:: https://quay.io/repository/biocontainers/bioconductor-multiscan/status
    :target: https://quay.io/repository/biocontainers/bioconductor-multiscan

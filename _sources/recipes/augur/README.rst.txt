@@ -61,6 +61,7 @@ augur
 
 
 .. |downloads_augur| image:: https://img.shields.io/conda/dn/bioconda/augur.svg?style=flat
+   :target: https://anaconda.org/bioconda/augur
    :alt:   (downloads)
 .. |docker_augur| image:: https://quay.io/repository/biocontainers/augur/status
    :target: https://quay.io/repository/biocontainers/augur

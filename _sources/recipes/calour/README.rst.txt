@@ -61,6 +61,7 @@ calour
 
 
 .. |downloads_calour| image:: https://img.shields.io/conda/dn/bioconda/calour.svg?style=flat
+   :target: https://anaconda.org/bioconda/calour
    :alt:   (downloads)
 .. |docker_calour| image:: https://quay.io/repository/biocontainers/calour/status
    :target: https://quay.io/repository/biocontainers/calour

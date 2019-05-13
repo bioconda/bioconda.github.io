@@ -46,6 +46,7 @@ clustalw
 
 
 .. |downloads_clustalw| image:: https://img.shields.io/conda/dn/bioconda/clustalw.svg?style=flat
+   :target: https://anaconda.org/bioconda/clustalw
    :alt:   (downloads)
 .. |docker_clustalw| image:: https://quay.io/repository/biocontainers/clustalw/status
    :target: https://quay.io/repository/biocontainers/clustalw

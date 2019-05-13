@@ -44,6 +44,7 @@ blast-legacy
 
 
 .. |downloads_blast-legacy| image:: https://img.shields.io/conda/dn/bioconda/blast-legacy.svg?style=flat
+   :target: https://anaconda.org/bioconda/blast-legacy
    :alt:   (downloads)
 .. |docker_blast-legacy| image:: https://quay.io/repository/biocontainers/blast-legacy/status
    :target: https://quay.io/repository/biocontainers/blast-legacy

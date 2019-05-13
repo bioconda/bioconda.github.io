@@ -51,6 +51,7 @@ igblast
 
 
 .. |downloads_igblast| image:: https://img.shields.io/conda/dn/bioconda/igblast.svg?style=flat
+   :target: https://anaconda.org/bioconda/igblast
    :alt:   (downloads)
 .. |docker_igblast| image:: https://quay.io/repository/biocontainers/igblast/status
    :target: https://quay.io/repository/biocontainers/igblast

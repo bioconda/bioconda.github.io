@@ -47,6 +47,7 @@ bioconductor-qvalue
 
 
 .. |downloads_bioconductor-qvalue| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-qvalue.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-qvalue
    :alt:   (downloads)
 .. |docker_bioconductor-qvalue| image:: https://quay.io/repository/biocontainers/bioconductor-qvalue/status
    :target: https://quay.io/repository/biocontainers/bioconductor-qvalue

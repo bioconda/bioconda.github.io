@@ -52,6 +52,7 @@ ericscript
 
 
 .. |downloads_ericscript| image:: https://img.shields.io/conda/dn/bioconda/ericscript.svg?style=flat
+   :target: https://anaconda.org/bioconda/ericscript
    :alt:   (downloads)
 .. |docker_ericscript| image:: https://quay.io/repository/biocontainers/ericscript/status
    :target: https://quay.io/repository/biocontainers/ericscript

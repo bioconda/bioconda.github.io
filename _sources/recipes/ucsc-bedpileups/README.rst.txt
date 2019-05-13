@@ -50,6 +50,7 @@ ucsc-bedpileups
 
 
 .. |downloads_ucsc-bedpileups| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bedpileups.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bedpileups
    :alt:   (downloads)
 .. |docker_ucsc-bedpileups| image:: https://quay.io/repository/biocontainers/ucsc-bedpileups/status
    :target: https://quay.io/repository/biocontainers/ucsc-bedpileups

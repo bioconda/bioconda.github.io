@@ -53,6 +53,7 @@ bioconductor-omadb
 
 
 .. |downloads_bioconductor-omadb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-omadb.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-omadb
    :alt:   (downloads)
 .. |docker_bioconductor-omadb| image:: https://quay.io/repository/biocontainers/bioconductor-omadb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-omadb

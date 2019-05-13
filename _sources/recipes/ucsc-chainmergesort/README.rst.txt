@@ -50,6 +50,7 @@ ucsc-chainmergesort
 
 
 .. |downloads_ucsc-chainmergesort| image:: https://img.shields.io/conda/dn/bioconda/ucsc-chainmergesort.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-chainmergesort
    :alt:   (downloads)
 .. |docker_ucsc-chainmergesort| image:: https://quay.io/repository/biocontainers/ucsc-chainmergesort/status
    :target: https://quay.io/repository/biocontainers/ucsc-chainmergesort

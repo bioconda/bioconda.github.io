@@ -47,6 +47,7 @@ alignlib-lite
 
 
 .. |downloads_alignlib-lite| image:: https://img.shields.io/conda/dn/bioconda/alignlib-lite.svg?style=flat
+   :target: https://anaconda.org/bioconda/alignlib-lite
    :alt:   (downloads)
 .. |docker_alignlib-lite| image:: https://quay.io/repository/biocontainers/alignlib-lite/status
    :target: https://quay.io/repository/biocontainers/alignlib-lite

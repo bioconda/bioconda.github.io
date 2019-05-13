@@ -50,6 +50,7 @@ bioconductor-rchemcpp
 
 
 .. |downloads_bioconductor-rchemcpp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rchemcpp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rchemcpp
    :alt:   (downloads)
 .. |docker_bioconductor-rchemcpp| image:: https://quay.io/repository/biocontainers/bioconductor-rchemcpp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rchemcpp

@@ -44,6 +44,7 @@ hulk
 
 
 .. |downloads_hulk| image:: https://img.shields.io/conda/dn/bioconda/hulk.svg?style=flat
+   :target: https://anaconda.org/bioconda/hulk
    :alt:   (downloads)
 .. |docker_hulk| image:: https://quay.io/repository/biocontainers/hulk/status
    :target: https://quay.io/repository/biocontainers/hulk

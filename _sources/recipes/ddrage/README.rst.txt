@@ -52,6 +52,7 @@ ddrage
 
 
 .. |downloads_ddrage| image:: https://img.shields.io/conda/dn/bioconda/ddrage.svg?style=flat
+   :target: https://anaconda.org/bioconda/ddrage
    :alt:   (downloads)
 .. |docker_ddrage| image:: https://quay.io/repository/biocontainers/ddrage/status
    :target: https://quay.io/repository/biocontainers/ddrage

@@ -46,6 +46,7 @@ perl-text-diff
 
 
 .. |downloads_perl-text-diff| image:: https://img.shields.io/conda/dn/bioconda/perl-text-diff.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-text-diff
    :alt:   (downloads)
 .. |docker_perl-text-diff| image:: https://quay.io/repository/biocontainers/perl-text-diff/status
    :target: https://quay.io/repository/biocontainers/perl-text-diff

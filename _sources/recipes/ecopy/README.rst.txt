@@ -52,6 +52,7 @@ ecopy
 
 
 .. |downloads_ecopy| image:: https://img.shields.io/conda/dn/bioconda/ecopy.svg?style=flat
+   :target: https://anaconda.org/bioconda/ecopy
    :alt:   (downloads)
 .. |docker_ecopy| image:: https://quay.io/repository/biocontainers/ecopy/status
    :target: https://quay.io/repository/biocontainers/ecopy

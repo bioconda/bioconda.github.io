@@ -53,6 +53,7 @@ bioconductor-phenopath
 
 
 .. |downloads_bioconductor-phenopath| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-phenopath.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-phenopath
    :alt:   (downloads)
 .. |docker_bioconductor-phenopath| image:: https://quay.io/repository/biocontainers/bioconductor-phenopath/status
    :target: https://quay.io/repository/biocontainers/bioconductor-phenopath

@@ -48,6 +48,7 @@ bioconductor-beadarrayexampledata
 
 
 .. |downloads_bioconductor-beadarrayexampledata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-beadarrayexampledata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-beadarrayexampledata
    :alt:   (downloads)
 .. |docker_bioconductor-beadarrayexampledata| image:: https://quay.io/repository/biocontainers/bioconductor-beadarrayexampledata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-beadarrayexampledata

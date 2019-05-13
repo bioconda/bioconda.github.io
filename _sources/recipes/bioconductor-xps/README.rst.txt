@@ -44,6 +44,7 @@ bioconductor-xps
 
 
 .. |downloads_bioconductor-xps| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-xps.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-xps
    :alt:   (downloads)
 .. |docker_bioconductor-xps| image:: https://quay.io/repository/biocontainers/bioconductor-xps/status
    :target: https://quay.io/repository/biocontainers/bioconductor-xps

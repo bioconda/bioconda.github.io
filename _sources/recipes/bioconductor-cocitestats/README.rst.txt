@@ -47,6 +47,7 @@ bioconductor-cocitestats
 
 
 .. |downloads_bioconductor-cocitestats| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cocitestats.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cocitestats
    :alt:   (downloads)
 .. |docker_bioconductor-cocitestats| image:: https://quay.io/repository/biocontainers/bioconductor-cocitestats/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cocitestats

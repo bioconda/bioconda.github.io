@@ -47,6 +47,7 @@ bcbiogff
 
 
 .. |downloads_bcbiogff| image:: https://img.shields.io/conda/dn/bioconda/bcbiogff.svg?style=flat
+   :target: https://anaconda.org/bioconda/bcbiogff
    :alt:   (downloads)
 .. |docker_bcbiogff| image:: https://quay.io/repository/biocontainers/bcbiogff/status
    :target: https://quay.io/repository/biocontainers/bcbiogff

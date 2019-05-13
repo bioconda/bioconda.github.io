@@ -48,6 +48,7 @@ weeder
 
 
 .. |downloads_weeder| image:: https://img.shields.io/conda/dn/bioconda/weeder.svg?style=flat
+   :target: https://anaconda.org/bioconda/weeder
    :alt:   (downloads)
 .. |docker_weeder| image:: https://quay.io/repository/biocontainers/weeder/status
    :target: https://quay.io/repository/biocontainers/weeder

@@ -46,6 +46,7 @@ perl-prefork
 
 
 .. |downloads_perl-prefork| image:: https://img.shields.io/conda/dn/bioconda/perl-prefork.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-prefork
    :alt:   (downloads)
 .. |docker_perl-prefork| image:: https://quay.io/repository/biocontainers/perl-prefork/status
    :target: https://quay.io/repository/biocontainers/perl-prefork

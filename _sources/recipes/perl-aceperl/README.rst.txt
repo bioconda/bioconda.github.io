@@ -47,6 +47,7 @@ perl-aceperl
 
 
 .. |downloads_perl-aceperl| image:: https://img.shields.io/conda/dn/bioconda/perl-aceperl.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-aceperl
    :alt:   (downloads)
 .. |docker_perl-aceperl| image:: https://quay.io/repository/biocontainers/perl-aceperl/status
    :target: https://quay.io/repository/biocontainers/perl-aceperl

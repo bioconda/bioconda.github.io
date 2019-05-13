@@ -56,6 +56,7 @@ marge
 
 
 .. |downloads_marge| image:: https://img.shields.io/conda/dn/bioconda/marge.svg?style=flat
+   :target: https://anaconda.org/bioconda/marge
    :alt:   (downloads)
 .. |docker_marge| image:: https://quay.io/repository/biocontainers/marge/status
    :target: https://quay.io/repository/biocontainers/marge

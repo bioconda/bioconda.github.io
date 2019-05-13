@@ -48,6 +48,7 @@ ma
 
 
 .. |downloads_ma| image:: https://img.shields.io/conda/dn/bioconda/ma.svg?style=flat
+   :target: https://anaconda.org/bioconda/ma
    :alt:   (downloads)
 .. |docker_ma| image:: https://quay.io/repository/biocontainers/ma/status
    :target: https://quay.io/repository/biocontainers/ma

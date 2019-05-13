@@ -48,6 +48,7 @@ cansnper
 
 
 .. |downloads_cansnper| image:: https://img.shields.io/conda/dn/bioconda/cansnper.svg?style=flat
+   :target: https://anaconda.org/bioconda/cansnper
    :alt:   (downloads)
 .. |docker_cansnper| image:: https://quay.io/repository/biocontainers/cansnper/status
    :target: https://quay.io/repository/biocontainers/cansnper

@@ -49,6 +49,7 @@ graphclust-wrappers
 
 
 .. |downloads_graphclust-wrappers| image:: https://img.shields.io/conda/dn/bioconda/graphclust-wrappers.svg?style=flat
+   :target: https://anaconda.org/bioconda/graphclust-wrappers
    :alt:   (downloads)
 .. |docker_graphclust-wrappers| image:: https://quay.io/repository/biocontainers/graphclust-wrappers/status
    :target: https://quay.io/repository/biocontainers/graphclust-wrappers

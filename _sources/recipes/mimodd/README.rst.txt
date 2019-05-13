@@ -48,6 +48,7 @@ mimodd
 
 
 .. |downloads_mimodd| image:: https://img.shields.io/conda/dn/bioconda/mimodd.svg?style=flat
+   :target: https://anaconda.org/bioconda/mimodd
    :alt:   (downloads)
 .. |docker_mimodd| image:: https://quay.io/repository/biocontainers/mimodd/status
    :target: https://quay.io/repository/biocontainers/mimodd

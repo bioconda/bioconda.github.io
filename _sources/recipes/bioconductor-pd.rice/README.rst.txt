@@ -53,6 +53,7 @@ bioconductor-pd.rice
 
 
 .. |downloads_bioconductor-pd.rice| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.rice.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.rice
    :alt:   (downloads)
 .. |docker_bioconductor-pd.rice| image:: https://quay.io/repository/biocontainers/bioconductor-pd.rice/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.rice

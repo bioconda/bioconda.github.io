@@ -45,6 +45,7 @@ perl-dynaloader
 
 
 .. |downloads_perl-dynaloader| image:: https://img.shields.io/conda/dn/bioconda/perl-dynaloader.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-dynaloader
    :alt:   (downloads)
 .. |docker_perl-dynaloader| image:: https://quay.io/repository/biocontainers/perl-dynaloader/status
    :target: https://quay.io/repository/biocontainers/perl-dynaloader

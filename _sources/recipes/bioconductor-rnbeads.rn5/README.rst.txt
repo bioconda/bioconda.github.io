@@ -47,6 +47,7 @@ bioconductor-rnbeads.rn5
 
 
 .. |downloads_bioconductor-rnbeads.rn5| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rnbeads.rn5.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rnbeads.rn5
    :alt:   (downloads)
 .. |docker_bioconductor-rnbeads.rn5| image:: https://quay.io/repository/biocontainers/bioconductor-rnbeads.rn5/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rnbeads.rn5

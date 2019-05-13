@@ -46,6 +46,7 @@ mustang
 
 
 .. |downloads_mustang| image:: https://img.shields.io/conda/dn/bioconda/mustang.svg?style=flat
+   :target: https://anaconda.org/bioconda/mustang
    :alt:   (downloads)
 .. |docker_mustang| image:: https://quay.io/repository/biocontainers/mustang/status
    :target: https://quay.io/repository/biocontainers/mustang

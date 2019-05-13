@@ -50,6 +50,7 @@ perl-parallel-forkmanager
 
 
 .. |downloads_perl-parallel-forkmanager| image:: https://img.shields.io/conda/dn/bioconda/perl-parallel-forkmanager.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-parallel-forkmanager
    :alt:   (downloads)
 .. |docker_perl-parallel-forkmanager| image:: https://quay.io/repository/biocontainers/perl-parallel-forkmanager/status
    :target: https://quay.io/repository/biocontainers/perl-parallel-forkmanager

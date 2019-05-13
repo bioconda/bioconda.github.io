@@ -45,6 +45,7 @@ rdp-readseq
 
 
 .. |downloads_rdp-readseq| image:: https://img.shields.io/conda/dn/bioconda/rdp-readseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/rdp-readseq
    :alt:   (downloads)
 .. |docker_rdp-readseq| image:: https://quay.io/repository/biocontainers/rdp-readseq/status
    :target: https://quay.io/repository/biocontainers/rdp-readseq

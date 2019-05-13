@@ -48,6 +48,7 @@ bioconductor-maskbad
 
 
 .. |downloads_bioconductor-maskbad| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-maskbad.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-maskbad
    :alt:   (downloads)
 .. |docker_bioconductor-maskbad| image:: https://quay.io/repository/biocontainers/bioconductor-maskbad/status
    :target: https://quay.io/repository/biocontainers/bioconductor-maskbad

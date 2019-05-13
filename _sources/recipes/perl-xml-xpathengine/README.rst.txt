@@ -45,6 +45,7 @@ perl-xml-xpathengine
 
 
 .. |downloads_perl-xml-xpathengine| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-xpathengine.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-xml-xpathengine
    :alt:   (downloads)
 .. |docker_perl-xml-xpathengine| image:: https://quay.io/repository/biocontainers/perl-xml-xpathengine/status
    :target: https://quay.io/repository/biocontainers/perl-xml-xpathengine

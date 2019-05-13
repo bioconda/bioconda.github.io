@@ -48,6 +48,7 @@ r-geoaxe
 
 
 .. |downloads_r-geoaxe| image:: https://img.shields.io/conda/dn/bioconda/r-geoaxe.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-geoaxe
    :alt:   (downloads)
 .. |docker_r-geoaxe| image:: https://quay.io/repository/biocontainers/r-geoaxe/status
    :target: https://quay.io/repository/biocontainers/r-geoaxe

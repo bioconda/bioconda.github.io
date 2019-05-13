@@ -72,6 +72,7 @@ roary
 
 
 .. |downloads_roary| image:: https://img.shields.io/conda/dn/bioconda/roary.svg?style=flat
+   :target: https://anaconda.org/bioconda/roary
    :alt:   (downloads)
 .. |docker_roary| image:: https://quay.io/repository/biocontainers/roary/status
    :target: https://quay.io/repository/biocontainers/roary

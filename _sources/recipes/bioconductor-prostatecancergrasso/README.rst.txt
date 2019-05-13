@@ -47,6 +47,7 @@ bioconductor-prostatecancergrasso
 
 
 .. |downloads_bioconductor-prostatecancergrasso| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-prostatecancergrasso.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-prostatecancergrasso
    :alt:   (downloads)
 .. |docker_bioconductor-prostatecancergrasso| image:: https://quay.io/repository/biocontainers/bioconductor-prostatecancergrasso/status
    :target: https://quay.io/repository/biocontainers/bioconductor-prostatecancergrasso

@@ -46,6 +46,7 @@ perl-statistics-caseresampling
 
 
 .. |downloads_perl-statistics-caseresampling| image:: https://img.shields.io/conda/dn/bioconda/perl-statistics-caseresampling.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-statistics-caseresampling
    :alt:   (downloads)
 .. |docker_perl-statistics-caseresampling| image:: https://quay.io/repository/biocontainers/perl-statistics-caseresampling/status
    :target: https://quay.io/repository/biocontainers/perl-statistics-caseresampling

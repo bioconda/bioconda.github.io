@@ -46,6 +46,7 @@ snp-dists
 
 
 .. |downloads_snp-dists| image:: https://img.shields.io/conda/dn/bioconda/snp-dists.svg?style=flat
+   :target: https://anaconda.org/bioconda/snp-dists
    :alt:   (downloads)
 .. |docker_snp-dists| image:: https://quay.io/repository/biocontainers/snp-dists/status
    :target: https://quay.io/repository/biocontainers/snp-dists

@@ -48,6 +48,7 @@ xhmm
 
 
 .. |downloads_xhmm| image:: https://img.shields.io/conda/dn/bioconda/xhmm.svg?style=flat
+   :target: https://anaconda.org/bioconda/xhmm
    :alt:   (downloads)
 .. |docker_xhmm| image:: https://quay.io/repository/biocontainers/xhmm/status
    :target: https://quay.io/repository/biocontainers/xhmm

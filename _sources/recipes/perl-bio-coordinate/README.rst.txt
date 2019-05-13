@@ -48,6 +48,7 @@ perl-bio-coordinate
 
 
 .. |downloads_perl-bio-coordinate| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-coordinate.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bio-coordinate
    :alt:   (downloads)
 .. |docker_perl-bio-coordinate| image:: https://quay.io/repository/biocontainers/perl-bio-coordinate/status
    :target: https://quay.io/repository/biocontainers/perl-bio-coordinate

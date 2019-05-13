@@ -75,6 +75,7 @@ bioconductor-appreci8r
 
 
 .. |downloads_bioconductor-appreci8r| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-appreci8r.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-appreci8r
    :alt:   (downloads)
 .. |docker_bioconductor-appreci8r| image:: https://quay.io/repository/biocontainers/bioconductor-appreci8r/status
    :target: https://quay.io/repository/biocontainers/bioconductor-appreci8r

@@ -55,6 +55,7 @@ bioconductor-powertcr
 
 
 .. |downloads_bioconductor-powertcr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-powertcr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-powertcr
    :alt:   (downloads)
 .. |docker_bioconductor-powertcr| image:: https://quay.io/repository/biocontainers/bioconductor-powertcr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-powertcr

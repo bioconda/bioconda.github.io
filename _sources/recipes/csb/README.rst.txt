@@ -48,6 +48,7 @@ csb
 
 
 .. |downloads_csb| image:: https://img.shields.io/conda/dn/bioconda/csb.svg?style=flat
+   :target: https://anaconda.org/bioconda/csb
    :alt:   (downloads)
 .. |docker_csb| image:: https://quay.io/repository/biocontainers/csb/status
    :target: https://quay.io/repository/biocontainers/csb

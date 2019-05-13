@@ -56,6 +56,7 @@ bioconductor-lvsmirna
 
 
 .. |downloads_bioconductor-lvsmirna| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lvsmirna.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lvsmirna
    :alt:   (downloads)
 .. |docker_bioconductor-lvsmirna| image:: https://quay.io/repository/biocontainers/bioconductor-lvsmirna/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lvsmirna

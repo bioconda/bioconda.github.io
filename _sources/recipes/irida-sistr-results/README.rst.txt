@@ -52,6 +52,7 @@ irida-sistr-results
 
 
 .. |downloads_irida-sistr-results| image:: https://img.shields.io/conda/dn/bioconda/irida-sistr-results.svg?style=flat
+   :target: https://anaconda.org/bioconda/irida-sistr-results
    :alt:   (downloads)
 .. |docker_irida-sistr-results| image:: https://quay.io/repository/biocontainers/irida-sistr-results/status
    :target: https://quay.io/repository/biocontainers/irida-sistr-results

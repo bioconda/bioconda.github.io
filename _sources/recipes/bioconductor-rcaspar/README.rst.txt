@@ -46,6 +46,7 @@ bioconductor-rcaspar
 
 
 .. |downloads_bioconductor-rcaspar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rcaspar.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rcaspar
    :alt:   (downloads)
 .. |docker_bioconductor-rcaspar| image:: https://quay.io/repository/biocontainers/bioconductor-rcaspar/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rcaspar

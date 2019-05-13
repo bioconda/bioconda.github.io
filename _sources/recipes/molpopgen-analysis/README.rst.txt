@@ -48,6 +48,7 @@ molpopgen-analysis
 
 
 .. |downloads_molpopgen-analysis| image:: https://img.shields.io/conda/dn/bioconda/molpopgen-analysis.svg?style=flat
+   :target: https://anaconda.org/bioconda/molpopgen-analysis
    :alt:   (downloads)
 .. |docker_molpopgen-analysis| image:: https://quay.io/repository/biocontainers/molpopgen-analysis/status
    :target: https://quay.io/repository/biocontainers/molpopgen-analysis

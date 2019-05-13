@@ -52,6 +52,7 @@ transposcope
 
 
 .. |downloads_transposcope| image:: https://img.shields.io/conda/dn/bioconda/transposcope.svg?style=flat
+   :target: https://anaconda.org/bioconda/transposcope
    :alt:   (downloads)
 .. |docker_transposcope| image:: https://quay.io/repository/biocontainers/transposcope/status
    :target: https://quay.io/repository/biocontainers/transposcope

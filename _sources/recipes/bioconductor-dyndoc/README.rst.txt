@@ -46,6 +46,7 @@ bioconductor-dyndoc
 
 
 .. |downloads_bioconductor-dyndoc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dyndoc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dyndoc
    :alt:   (downloads)
 .. |docker_bioconductor-dyndoc| image:: https://quay.io/repository/biocontainers/bioconductor-dyndoc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dyndoc

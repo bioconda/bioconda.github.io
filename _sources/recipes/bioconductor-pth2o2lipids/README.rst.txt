@@ -49,6 +49,7 @@ bioconductor-pth2o2lipids
 
 
 .. |downloads_bioconductor-pth2o2lipids| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pth2o2lipids.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pth2o2lipids
    :alt:   (downloads)
 .. |docker_bioconductor-pth2o2lipids| image:: https://quay.io/repository/biocontainers/bioconductor-pth2o2lipids/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pth2o2lipids

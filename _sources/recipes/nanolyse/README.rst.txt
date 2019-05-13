@@ -47,6 +47,7 @@ nanolyse
 
 
 .. |downloads_nanolyse| image:: https://img.shields.io/conda/dn/bioconda/nanolyse.svg?style=flat
+   :target: https://anaconda.org/bioconda/nanolyse
    :alt:   (downloads)
 .. |docker_nanolyse| image:: https://quay.io/repository/biocontainers/nanolyse/status
    :target: https://quay.io/repository/biocontainers/nanolyse

@@ -47,6 +47,7 @@ bioconductor-ecoliprobe
 
 
 .. |downloads_bioconductor-ecoliprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ecoliprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ecoliprobe
    :alt:   (downloads)
 .. |docker_bioconductor-ecoliprobe| image:: https://quay.io/repository/biocontainers/bioconductor-ecoliprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ecoliprobe

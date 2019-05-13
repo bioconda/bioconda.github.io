@@ -50,6 +50,7 @@ ucsc-liftover
 
 
 .. |downloads_ucsc-liftover| image:: https://img.shields.io/conda/dn/bioconda/ucsc-liftover.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-liftover
    :alt:   (downloads)
 .. |docker_ucsc-liftover| image:: https://quay.io/repository/biocontainers/ucsc-liftover/status
    :target: https://quay.io/repository/biocontainers/ucsc-liftover

@@ -47,6 +47,7 @@ cansam
 
 
 .. |downloads_cansam| image:: https://img.shields.io/conda/dn/bioconda/cansam.svg?style=flat
+   :target: https://anaconda.org/bioconda/cansam
    :alt:   (downloads)
 .. |docker_cansam| image:: https://quay.io/repository/biocontainers/cansam/status
    :target: https://quay.io/repository/biocontainers/cansam

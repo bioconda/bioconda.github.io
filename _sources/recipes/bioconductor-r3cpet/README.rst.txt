@@ -63,6 +63,7 @@ bioconductor-r3cpet
 
 
 .. |downloads_bioconductor-r3cpet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-r3cpet.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-r3cpet
    :alt:   (downloads)
 .. |docker_bioconductor-r3cpet| image:: https://quay.io/repository/biocontainers/bioconductor-r3cpet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-r3cpet

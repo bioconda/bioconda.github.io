@@ -48,6 +48,7 @@ ema
 
 
 .. |downloads_ema| image:: https://img.shields.io/conda/dn/bioconda/ema.svg?style=flat
+   :target: https://anaconda.org/bioconda/ema
    :alt:   (downloads)
 .. |docker_ema| image:: https://quay.io/repository/biocontainers/ema/status
    :target: https://quay.io/repository/biocontainers/ema

@@ -48,6 +48,7 @@ bioconductor-lumihumanall.db
 
 
 .. |downloads_bioconductor-lumihumanall.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lumihumanall.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lumihumanall.db
    :alt:   (downloads)
 .. |docker_bioconductor-lumihumanall.db| image:: https://quay.io/repository/biocontainers/bioconductor-lumihumanall.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lumihumanall.db

@@ -49,6 +49,7 @@ bioconductor-beadarrayusecases
 
 
 .. |downloads_bioconductor-beadarrayusecases| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-beadarrayusecases.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-beadarrayusecases
    :alt:   (downloads)
 .. |docker_bioconductor-beadarrayusecases| image:: https://quay.io/repository/biocontainers/bioconductor-beadarrayusecases/status
    :target: https://quay.io/repository/biocontainers/bioconductor-beadarrayusecases

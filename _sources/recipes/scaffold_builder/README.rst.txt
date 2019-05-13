@@ -47,6 +47,7 @@ scaffold_builder
 
 
 .. |downloads_scaffold_builder| image:: https://img.shields.io/conda/dn/bioconda/scaffold_builder.svg?style=flat
+   :target: https://anaconda.org/bioconda/scaffold_builder
    :alt:   (downloads)
 .. |docker_scaffold_builder| image:: https://quay.io/repository/biocontainers/scaffold_builder/status
    :target: https://quay.io/repository/biocontainers/scaffold_builder

@@ -50,6 +50,7 @@ bioconductor-sigcheck
 
 
 .. |downloads_bioconductor-sigcheck| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sigcheck.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sigcheck
    :alt:   (downloads)
 .. |docker_bioconductor-sigcheck| image:: https://quay.io/repository/biocontainers/bioconductor-sigcheck/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sigcheck

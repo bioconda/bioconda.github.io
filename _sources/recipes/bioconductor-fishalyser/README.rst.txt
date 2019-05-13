@@ -48,6 +48,7 @@ bioconductor-fishalyser
 
 
 .. |downloads_bioconductor-fishalyser| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fishalyser.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-fishalyser
    :alt:   (downloads)
 .. |docker_bioconductor-fishalyser| image:: https://quay.io/repository/biocontainers/bioconductor-fishalyser/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fishalyser

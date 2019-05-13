@@ -46,6 +46,7 @@ bioconductor-tximportdata
 
 
 .. |downloads_bioconductor-tximportdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tximportdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tximportdata
    :alt:   (downloads)
 .. |docker_bioconductor-tximportdata| image:: https://quay.io/repository/biocontainers/bioconductor-tximportdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tximportdata

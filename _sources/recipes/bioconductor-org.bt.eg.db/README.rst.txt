@@ -47,6 +47,7 @@ bioconductor-org.bt.eg.db
 
 
 .. |downloads_bioconductor-org.bt.eg.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-org.bt.eg.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-org.bt.eg.db
    :alt:   (downloads)
 .. |docker_bioconductor-org.bt.eg.db| image:: https://quay.io/repository/biocontainers/bioconductor-org.bt.eg.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-org.bt.eg.db

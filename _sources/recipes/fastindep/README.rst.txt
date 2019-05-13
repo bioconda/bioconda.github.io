@@ -45,6 +45,7 @@ fastindep
 
 
 .. |downloads_fastindep| image:: https://img.shields.io/conda/dn/bioconda/fastindep.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastindep
    :alt:   (downloads)
 .. |docker_fastindep| image:: https://quay.io/repository/biocontainers/fastindep/status
    :target: https://quay.io/repository/biocontainers/fastindep

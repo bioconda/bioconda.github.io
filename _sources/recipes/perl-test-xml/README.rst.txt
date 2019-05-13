@@ -51,6 +51,7 @@ perl-test-xml
 
 
 .. |downloads_perl-test-xml| image:: https://img.shields.io/conda/dn/bioconda/perl-test-xml.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-xml
    :alt:   (downloads)
 .. |docker_perl-test-xml| image:: https://quay.io/repository/biocontainers/perl-test-xml/status
    :target: https://quay.io/repository/biocontainers/perl-test-xml

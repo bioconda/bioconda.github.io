@@ -49,6 +49,7 @@ rdock
 
 
 .. |downloads_rdock| image:: https://img.shields.io/conda/dn/bioconda/rdock.svg?style=flat
+   :target: https://anaconda.org/bioconda/rdock
    :alt:   (downloads)
 .. |docker_rdock| image:: https://quay.io/repository/biocontainers/rdock/status
    :target: https://quay.io/repository/biocontainers/rdock

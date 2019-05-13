@@ -46,6 +46,7 @@ hgtools
 
 
 .. |downloads_hgtools| image:: https://img.shields.io/conda/dn/bioconda/hgtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/hgtools
    :alt:   (downloads)
 .. |docker_hgtools| image:: https://quay.io/repository/biocontainers/hgtools/status
    :target: https://quay.io/repository/biocontainers/hgtools

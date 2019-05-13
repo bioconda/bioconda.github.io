@@ -52,6 +52,7 @@ bioconductor-otubase
 
 
 .. |downloads_bioconductor-otubase| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-otubase.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-otubase
    :alt:   (downloads)
 .. |docker_bioconductor-otubase| image:: https://quay.io/repository/biocontainers/bioconductor-otubase/status
    :target: https://quay.io/repository/biocontainers/bioconductor-otubase

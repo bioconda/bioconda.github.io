@@ -46,6 +46,7 @@ bioconductor-affymetrixdatatestfiles
 
 
 .. |downloads_bioconductor-affymetrixdatatestfiles| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affymetrixdatatestfiles.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-affymetrixdatatestfiles
    :alt:   (downloads)
 .. |docker_bioconductor-affymetrixdatatestfiles| image:: https://quay.io/repository/biocontainers/bioconductor-affymetrixdatatestfiles/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affymetrixdatatestfiles

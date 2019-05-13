@@ -49,6 +49,7 @@ fast5-research
 
 
 .. |downloads_fast5-research| image:: https://img.shields.io/conda/dn/bioconda/fast5-research.svg?style=flat
+   :target: https://anaconda.org/bioconda/fast5-research
    :alt:   (downloads)
 .. |docker_fast5-research| image:: https://quay.io/repository/biocontainers/fast5-research/status
    :target: https://quay.io/repository/biocontainers/fast5-research

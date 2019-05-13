@@ -45,6 +45,7 @@ spectral_hk
 
 
 .. |downloads_spectral_hk| image:: https://img.shields.io/conda/dn/bioconda/spectral_hk.svg?style=flat
+   :target: https://anaconda.org/bioconda/spectral_hk
    :alt:   (downloads)
 .. |docker_spectral_hk| image:: https://quay.io/repository/biocontainers/spectral_hk/status
    :target: https://quay.io/repository/biocontainers/spectral_hk

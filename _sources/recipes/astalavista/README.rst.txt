@@ -46,6 +46,7 @@ astalavista
 
 
 .. |downloads_astalavista| image:: https://img.shields.io/conda/dn/bioconda/astalavista.svg?style=flat
+   :target: https://anaconda.org/bioconda/astalavista
    :alt:   (downloads)
 .. |docker_astalavista| image:: https://quay.io/repository/biocontainers/astalavista/status
    :target: https://quay.io/repository/biocontainers/astalavista

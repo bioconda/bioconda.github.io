@@ -45,6 +45,7 @@ tinysink
 
 
 .. |downloads_tinysink| image:: https://img.shields.io/conda/dn/bioconda/tinysink.svg?style=flat
+   :target: https://anaconda.org/bioconda/tinysink
    :alt:   (downloads)
 .. |docker_tinysink| image:: https://quay.io/repository/biocontainers/tinysink/status
    :target: https://quay.io/repository/biocontainers/tinysink

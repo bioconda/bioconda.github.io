@@ -46,6 +46,7 @@ perl-estscan1
 
 
 .. |downloads_perl-estscan1| image:: https://img.shields.io/conda/dn/bioconda/perl-estscan1.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-estscan1
    :alt:   (downloads)
 .. |docker_perl-estscan1| image:: https://quay.io/repository/biocontainers/perl-estscan1/status
    :target: https://quay.io/repository/biocontainers/perl-estscan1

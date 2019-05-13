@@ -48,6 +48,7 @@ bioconductor-hgug4845a.db
 
 
 .. |downloads_bioconductor-hgug4845a.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgug4845a.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hgug4845a.db
    :alt:   (downloads)
 .. |docker_bioconductor-hgug4845a.db| image:: https://quay.io/repository/biocontainers/bioconductor-hgug4845a.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hgug4845a.db

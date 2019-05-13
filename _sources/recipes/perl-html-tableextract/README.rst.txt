@@ -47,6 +47,7 @@ perl-html-tableextract
 
 
 .. |downloads_perl-html-tableextract| image:: https://img.shields.io/conda/dn/bioconda/perl-html-tableextract.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-html-tableextract
    :alt:   (downloads)
 .. |docker_perl-html-tableextract| image:: https://quay.io/repository/biocontainers/perl-html-tableextract/status
    :target: https://quay.io/repository/biocontainers/perl-html-tableextract

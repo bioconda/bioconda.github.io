@@ -58,6 +58,7 @@ r-adegenet
 
 
 .. |downloads_r-adegenet| image:: https://img.shields.io/conda/dn/bioconda/r-adegenet.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-adegenet
    :alt:   (downloads)
 .. |docker_r-adegenet| image:: https://quay.io/repository/biocontainers/r-adegenet/status
    :target: https://quay.io/repository/biocontainers/r-adegenet

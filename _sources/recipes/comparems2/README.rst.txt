@@ -46,6 +46,7 @@ comparems2
 
 
 .. |downloads_comparems2| image:: https://img.shields.io/conda/dn/bioconda/comparems2.svg?style=flat
+   :target: https://anaconda.org/bioconda/comparems2
    :alt:   (downloads)
 .. |docker_comparems2| image:: https://quay.io/repository/biocontainers/comparems2/status
    :target: https://quay.io/repository/biocontainers/comparems2

@@ -59,6 +59,7 @@ rnftools
 
 
 .. |downloads_rnftools| image:: https://img.shields.io/conda/dn/bioconda/rnftools.svg?style=flat
+   :target: https://anaconda.org/bioconda/rnftools
    :alt:   (downloads)
 .. |docker_rnftools| image:: https://quay.io/repository/biocontainers/rnftools/status
    :target: https://quay.io/repository/biocontainers/rnftools

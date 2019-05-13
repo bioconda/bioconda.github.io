@@ -45,6 +45,7 @@ pycli
 
 
 .. |downloads_pycli| image:: https://img.shields.io/conda/dn/bioconda/pycli.svg?style=flat
+   :target: https://anaconda.org/bioconda/pycli
    :alt:   (downloads)
 .. |docker_pycli| image:: https://quay.io/repository/biocontainers/pycli/status
    :target: https://quay.io/repository/biocontainers/pycli

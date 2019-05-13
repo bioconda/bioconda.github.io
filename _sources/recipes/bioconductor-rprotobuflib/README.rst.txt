@@ -47,6 +47,7 @@ bioconductor-rprotobuflib
 
 
 .. |downloads_bioconductor-rprotobuflib| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rprotobuflib.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rprotobuflib
    :alt:   (downloads)
 .. |docker_bioconductor-rprotobuflib| image:: https://quay.io/repository/biocontainers/bioconductor-rprotobuflib/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rprotobuflib

@@ -50,6 +50,7 @@ perl-svg-graph
 
 
 .. |downloads_perl-svg-graph| image:: https://img.shields.io/conda/dn/bioconda/perl-svg-graph.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-svg-graph
    :alt:   (downloads)
 .. |docker_perl-svg-graph| image:: https://quay.io/repository/biocontainers/perl-svg-graph/status
    :target: https://quay.io/repository/biocontainers/perl-svg-graph

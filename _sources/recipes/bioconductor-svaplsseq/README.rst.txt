@@ -52,6 +52,7 @@ bioconductor-svaplsseq
 
 
 .. |downloads_bioconductor-svaplsseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-svaplsseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-svaplsseq
    :alt:   (downloads)
 .. |docker_bioconductor-svaplsseq| image:: https://quay.io/repository/biocontainers/bioconductor-svaplsseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-svaplsseq

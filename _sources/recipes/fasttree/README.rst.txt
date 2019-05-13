@@ -46,6 +46,7 @@ fasttree
 
 
 .. |downloads_fasttree| image:: https://img.shields.io/conda/dn/bioconda/fasttree.svg?style=flat
+   :target: https://anaconda.org/bioconda/fasttree
    :alt:   (downloads)
 .. |docker_fasttree| image:: https://quay.io/repository/biocontainers/fasttree/status
    :target: https://quay.io/repository/biocontainers/fasttree

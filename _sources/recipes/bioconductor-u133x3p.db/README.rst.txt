@@ -48,6 +48,7 @@ bioconductor-u133x3p.db
 
 
 .. |downloads_bioconductor-u133x3p.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-u133x3p.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-u133x3p.db
    :alt:   (downloads)
 .. |docker_bioconductor-u133x3p.db| image:: https://quay.io/repository/biocontainers/bioconductor-u133x3p.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-u133x3p.db

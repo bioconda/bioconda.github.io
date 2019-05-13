@@ -53,6 +53,7 @@ bioconductor-eupathdb
 
 
 .. |downloads_bioconductor-eupathdb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-eupathdb.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-eupathdb
    :alt:   (downloads)
 .. |docker_bioconductor-eupathdb| image:: https://quay.io/repository/biocontainers/bioconductor-eupathdb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-eupathdb

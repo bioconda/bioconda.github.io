@@ -51,6 +51,7 @@ slicedimage
 
 
 .. |downloads_slicedimage| image:: https://img.shields.io/conda/dn/bioconda/slicedimage.svg?style=flat
+   :target: https://anaconda.org/bioconda/slicedimage
    :alt:   (downloads)
 .. |docker_slicedimage| image:: https://quay.io/repository/biocontainers/slicedimage/status
    :target: https://quay.io/repository/biocontainers/slicedimage

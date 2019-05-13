@@ -61,6 +61,7 @@ gembs
 
 
 .. |downloads_gembs| image:: https://img.shields.io/conda/dn/bioconda/gembs.svg?style=flat
+   :target: https://anaconda.org/bioconda/gembs
    :alt:   (downloads)
 .. |docker_gembs| image:: https://quay.io/repository/biocontainers/gembs/status
    :target: https://quay.io/repository/biocontainers/gembs

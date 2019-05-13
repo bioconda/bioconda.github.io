@@ -46,6 +46,7 @@ bioconductor-hicdatalymphoblast
 
 
 .. |downloads_bioconductor-hicdatalymphoblast| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hicdatalymphoblast.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hicdatalymphoblast
    :alt:   (downloads)
 .. |docker_bioconductor-hicdatalymphoblast| image:: https://quay.io/repository/biocontainers/bioconductor-hicdatalymphoblast/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hicdatalymphoblast

@@ -56,6 +56,7 @@ crispritz
 
 
 .. |downloads_crispritz| image:: https://img.shields.io/conda/dn/bioconda/crispritz.svg?style=flat
+   :target: https://anaconda.org/bioconda/crispritz
    :alt:   (downloads)
 .. |docker_crispritz| image:: https://quay.io/repository/biocontainers/crispritz/status
    :target: https://quay.io/repository/biocontainers/crispritz

@@ -50,6 +50,7 @@ ucsc-crtreesearchbed
 
 
 .. |downloads_ucsc-crtreesearchbed| image:: https://img.shields.io/conda/dn/bioconda/ucsc-crtreesearchbed.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-crtreesearchbed
    :alt:   (downloads)
 .. |docker_ucsc-crtreesearchbed| image:: https://quay.io/repository/biocontainers/ucsc-crtreesearchbed/status
    :target: https://quay.io/repository/biocontainers/ucsc-crtreesearchbed

@@ -58,6 +58,7 @@ r-gkmsvm
 
 
 .. |downloads_r-gkmsvm| image:: https://img.shields.io/conda/dn/bioconda/r-gkmsvm.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-gkmsvm
    :alt:   (downloads)
 .. |docker_r-gkmsvm| image:: https://quay.io/repository/biocontainers/r-gkmsvm/status
    :target: https://quay.io/repository/biocontainers/r-gkmsvm

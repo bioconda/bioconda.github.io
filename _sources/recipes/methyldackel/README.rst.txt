@@ -47,6 +47,7 @@ methyldackel
 
 
 .. |downloads_methyldackel| image:: https://img.shields.io/conda/dn/bioconda/methyldackel.svg?style=flat
+   :target: https://anaconda.org/bioconda/methyldackel
    :alt:   (downloads)
 .. |docker_methyldackel| image:: https://quay.io/repository/biocontainers/methyldackel/status
    :target: https://quay.io/repository/biocontainers/methyldackel

@@ -48,6 +48,7 @@ bioconductor-hilbertvis
 
 
 .. |downloads_bioconductor-hilbertvis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hilbertvis.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hilbertvis
    :alt:   (downloads)
 .. |docker_bioconductor-hilbertvis| image:: https://quay.io/repository/biocontainers/bioconductor-hilbertvis/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hilbertvis

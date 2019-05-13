@@ -75,6 +75,7 @@ bioconductor-degreport
 
 
 .. |downloads_bioconductor-degreport| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-degreport.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-degreport
    :alt:   (downloads)
 .. |docker_bioconductor-degreport| image:: https://quay.io/repository/biocontainers/bioconductor-degreport/status
    :target: https://quay.io/repository/biocontainers/bioconductor-degreport

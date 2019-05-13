@@ -45,6 +45,7 @@ perl-date-format
 
 
 .. |downloads_perl-date-format| image:: https://img.shields.io/conda/dn/bioconda/perl-date-format.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-date-format
    :alt:   (downloads)
 .. |docker_perl-date-format| image:: https://quay.io/repository/biocontainers/perl-date-format/status
    :target: https://quay.io/repository/biocontainers/perl-date-format

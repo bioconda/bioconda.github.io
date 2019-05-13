@@ -52,6 +52,7 @@ r-samr
 
 
 .. |downloads_r-samr| image:: https://img.shields.io/conda/dn/bioconda/r-samr.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-samr
    :alt:   (downloads)
 .. |docker_r-samr| image:: https://quay.io/repository/biocontainers/r-samr/status
    :target: https://quay.io/repository/biocontainers/r-samr

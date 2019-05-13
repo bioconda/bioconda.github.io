@@ -50,6 +50,7 @@ bioconductor-sspa
 
 
 .. |downloads_bioconductor-sspa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sspa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sspa
    :alt:   (downloads)
 .. |docker_bioconductor-sspa| image:: https://quay.io/repository/biocontainers/bioconductor-sspa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sspa

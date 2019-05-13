@@ -45,6 +45,7 @@ pyexcelerator
 
 
 .. |downloads_pyexcelerator| image:: https://img.shields.io/conda/dn/bioconda/pyexcelerator.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyexcelerator
    :alt:   (downloads)
 .. |docker_pyexcelerator| image:: https://quay.io/repository/biocontainers/pyexcelerator/status
    :target: https://quay.io/repository/biocontainers/pyexcelerator

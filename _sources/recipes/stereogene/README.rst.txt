@@ -46,6 +46,7 @@ stereogene
 
 
 .. |downloads_stereogene| image:: https://img.shields.io/conda/dn/bioconda/stereogene.svg?style=flat
+   :target: https://anaconda.org/bioconda/stereogene
    :alt:   (downloads)
 .. |docker_stereogene| image:: https://quay.io/repository/biocontainers/stereogene/status
    :target: https://quay.io/repository/biocontainers/stereogene

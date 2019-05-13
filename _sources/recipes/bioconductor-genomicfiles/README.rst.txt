@@ -57,6 +57,7 @@ bioconductor-genomicfiles
 
 
 .. |downloads_bioconductor-genomicfiles| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genomicfiles.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genomicfiles
    :alt:   (downloads)
 .. |docker_bioconductor-genomicfiles| image:: https://quay.io/repository/biocontainers/bioconductor-genomicfiles/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genomicfiles

@@ -47,6 +47,7 @@ bioconductor-plasmodiumanophelesprobe
 
 
 .. |downloads_bioconductor-plasmodiumanophelesprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-plasmodiumanophelesprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-plasmodiumanophelesprobe
    :alt:   (downloads)
 .. |docker_bioconductor-plasmodiumanophelesprobe| image:: https://quay.io/repository/biocontainers/bioconductor-plasmodiumanophelesprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-plasmodiumanophelesprobe

@@ -49,6 +49,7 @@ pbmm2
 
 
 .. |downloads_pbmm2| image:: https://img.shields.io/conda/dn/bioconda/pbmm2.svg?style=flat
+   :target: https://anaconda.org/bioconda/pbmm2
    :alt:   (downloads)
 .. |docker_pbmm2| image:: https://quay.io/repository/biocontainers/pbmm2/status
    :target: https://quay.io/repository/biocontainers/pbmm2

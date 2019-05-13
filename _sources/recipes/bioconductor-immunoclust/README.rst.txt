@@ -51,6 +51,7 @@ bioconductor-immunoclust
 
 
 .. |downloads_bioconductor-immunoclust| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-immunoclust.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-immunoclust
    :alt:   (downloads)
 .. |docker_bioconductor-immunoclust| image:: https://quay.io/repository/biocontainers/bioconductor-immunoclust/status
    :target: https://quay.io/repository/biocontainers/bioconductor-immunoclust

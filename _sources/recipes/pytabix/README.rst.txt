@@ -46,6 +46,7 @@ pytabix
 
 
 .. |downloads_pytabix| image:: https://img.shields.io/conda/dn/bioconda/pytabix.svg?style=flat
+   :target: https://anaconda.org/bioconda/pytabix
    :alt:   (downloads)
 .. |docker_pytabix| image:: https://quay.io/repository/biocontainers/pytabix/status
    :target: https://quay.io/repository/biocontainers/pytabix

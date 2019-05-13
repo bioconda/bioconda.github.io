@@ -67,6 +67,7 @@ bioconductor-isee
 
 
 .. |downloads_bioconductor-isee| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-isee.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-isee
    :alt:   (downloads)
 .. |docker_bioconductor-isee| image:: https://quay.io/repository/biocontainers/bioconductor-isee/status
    :target: https://quay.io/repository/biocontainers/bioconductor-isee

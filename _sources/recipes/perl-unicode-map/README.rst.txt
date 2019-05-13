@@ -47,6 +47,7 @@ perl-unicode-map
 
 
 .. |downloads_perl-unicode-map| image:: https://img.shields.io/conda/dn/bioconda/perl-unicode-map.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-unicode-map
    :alt:   (downloads)
 .. |docker_perl-unicode-map| image:: https://quay.io/repository/biocontainers/perl-unicode-map/status
    :target: https://quay.io/repository/biocontainers/perl-unicode-map

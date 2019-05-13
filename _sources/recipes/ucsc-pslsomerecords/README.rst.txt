@@ -50,6 +50,7 @@ ucsc-pslsomerecords
 
 
 .. |downloads_ucsc-pslsomerecords| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslsomerecords.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-pslsomerecords
    :alt:   (downloads)
 .. |docker_ucsc-pslsomerecords| image:: https://quay.io/repository/biocontainers/ucsc-pslsomerecords/status
    :target: https://quay.io/repository/biocontainers/ucsc-pslsomerecords

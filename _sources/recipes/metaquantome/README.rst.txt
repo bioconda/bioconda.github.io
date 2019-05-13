@@ -57,6 +57,7 @@ metaquantome
 
 
 .. |downloads_metaquantome| image:: https://img.shields.io/conda/dn/bioconda/metaquantome.svg?style=flat
+   :target: https://anaconda.org/bioconda/metaquantome
    :alt:   (downloads)
 .. |docker_metaquantome| image:: https://quay.io/repository/biocontainers/metaquantome/status
    :target: https://quay.io/repository/biocontainers/metaquantome

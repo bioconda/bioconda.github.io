@@ -53,6 +53,7 @@ bioconductor-pd.hg18.60mer.expr
 
 
 .. |downloads_bioconductor-pd.hg18.60mer.expr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.hg18.60mer.expr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.hg18.60mer.expr
    :alt:   (downloads)
 .. |docker_bioconductor-pd.hg18.60mer.expr| image:: https://quay.io/repository/biocontainers/bioconductor-pd.hg18.60mer.expr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.hg18.60mer.expr

@@ -48,6 +48,7 @@ perl-test-files
 
 
 .. |downloads_perl-test-files| image:: https://img.shields.io/conda/dn/bioconda/perl-test-files.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-files
    :alt:   (downloads)
 .. |docker_perl-test-files| image:: https://quay.io/repository/biocontainers/perl-test-files/status
    :target: https://quay.io/repository/biocontainers/perl-test-files

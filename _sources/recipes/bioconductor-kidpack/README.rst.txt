@@ -47,6 +47,7 @@ bioconductor-kidpack
 
 
 .. |downloads_bioconductor-kidpack| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-kidpack.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-kidpack
    :alt:   (downloads)
 .. |docker_bioconductor-kidpack| image:: https://quay.io/repository/biocontainers/bioconductor-kidpack/status
    :target: https://quay.io/repository/biocontainers/bioconductor-kidpack

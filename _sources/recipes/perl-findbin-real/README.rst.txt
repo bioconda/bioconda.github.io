@@ -46,6 +46,7 @@ perl-findbin-real
 
 
 .. |downloads_perl-findbin-real| image:: https://img.shields.io/conda/dn/bioconda/perl-findbin-real.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-findbin-real
    :alt:   (downloads)
 .. |docker_perl-findbin-real| image:: https://quay.io/repository/biocontainers/perl-findbin-real/status
    :target: https://quay.io/repository/biocontainers/perl-findbin-real

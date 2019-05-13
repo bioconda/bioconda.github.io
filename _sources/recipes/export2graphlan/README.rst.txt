@@ -51,6 +51,7 @@ export2graphlan
 
 
 .. |downloads_export2graphlan| image:: https://img.shields.io/conda/dn/bioconda/export2graphlan.svg?style=flat
+   :target: https://anaconda.org/bioconda/export2graphlan
    :alt:   (downloads)
 .. |docker_export2graphlan| image:: https://quay.io/repository/biocontainers/export2graphlan/status
    :target: https://quay.io/repository/biocontainers/export2graphlan

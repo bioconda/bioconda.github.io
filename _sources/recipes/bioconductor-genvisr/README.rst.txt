@@ -68,6 +68,7 @@ bioconductor-genvisr
 
 
 .. |downloads_bioconductor-genvisr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genvisr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genvisr
    :alt:   (downloads)
 .. |docker_bioconductor-genvisr| image:: https://quay.io/repository/biocontainers/bioconductor-genvisr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genvisr

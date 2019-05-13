@@ -46,6 +46,7 @@ libgtextutils
 
 
 .. |downloads_libgtextutils| image:: https://img.shields.io/conda/dn/bioconda/libgtextutils.svg?style=flat
+   :target: https://anaconda.org/bioconda/libgtextutils
    :alt:   (downloads)
 .. |docker_libgtextutils| image:: https://quay.io/repository/biocontainers/libgtextutils/status
    :target: https://quay.io/repository/biocontainers/libgtextutils

@@ -48,6 +48,7 @@ spotyping
 
 
 .. |downloads_spotyping| image:: https://img.shields.io/conda/dn/bioconda/spotyping.svg?style=flat
+   :target: https://anaconda.org/bioconda/spotyping
    :alt:   (downloads)
 .. |docker_spotyping| image:: https://quay.io/repository/biocontainers/spotyping/status
    :target: https://quay.io/repository/biocontainers/spotyping

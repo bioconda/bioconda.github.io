@@ -57,6 +57,7 @@ intervene
 
 
 .. |downloads_intervene| image:: https://img.shields.io/conda/dn/bioconda/intervene.svg?style=flat
+   :target: https://anaconda.org/bioconda/intervene
    :alt:   (downloads)
 .. |docker_intervene| image:: https://quay.io/repository/biocontainers/intervene/status
    :target: https://quay.io/repository/biocontainers/intervene

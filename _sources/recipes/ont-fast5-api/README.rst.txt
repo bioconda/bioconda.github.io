@@ -49,6 +49,7 @@ ont-fast5-api
 
 
 .. |downloads_ont-fast5-api| image:: https://img.shields.io/conda/dn/bioconda/ont-fast5-api.svg?style=flat
+   :target: https://anaconda.org/bioconda/ont-fast5-api
    :alt:   (downloads)
 .. |docker_ont-fast5-api| image:: https://quay.io/repository/biocontainers/ont-fast5-api/status
    :target: https://quay.io/repository/biocontainers/ont-fast5-api

@@ -53,6 +53,7 @@ bioconductor-browservizdemo
 
 
 .. |downloads_bioconductor-browservizdemo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-browservizdemo.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-browservizdemo
    :alt:   (downloads)
 .. |docker_bioconductor-browservizdemo| image:: https://quay.io/repository/biocontainers/bioconductor-browservizdemo/status
    :target: https://quay.io/repository/biocontainers/bioconductor-browservizdemo

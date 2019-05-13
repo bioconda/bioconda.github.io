@@ -49,6 +49,7 @@ perl-http-cookies
 
 
 .. |downloads_perl-http-cookies| image:: https://img.shields.io/conda/dn/bioconda/perl-http-cookies.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-http-cookies
    :alt:   (downloads)
 .. |docker_perl-http-cookies| image:: https://quay.io/repository/biocontainers/perl-http-cookies/status
    :target: https://quay.io/repository/biocontainers/perl-http-cookies

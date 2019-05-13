@@ -45,6 +45,7 @@ perl-devel-symdump
 
 
 .. |downloads_perl-devel-symdump| image:: https://img.shields.io/conda/dn/bioconda/perl-devel-symdump.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-devel-symdump
    :alt:   (downloads)
 .. |docker_perl-devel-symdump| image:: https://quay.io/repository/biocontainers/perl-devel-symdump/status
    :target: https://quay.io/repository/biocontainers/perl-devel-symdump

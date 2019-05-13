@@ -47,6 +47,7 @@ bioconductor-onassisjavalibs
 
 
 .. |downloads_bioconductor-onassisjavalibs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-onassisjavalibs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-onassisjavalibs
    :alt:   (downloads)
 .. |docker_bioconductor-onassisjavalibs| image:: https://quay.io/repository/biocontainers/bioconductor-onassisjavalibs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-onassisjavalibs

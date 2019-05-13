@@ -50,6 +50,7 @@ ucsc-fatotwobit
 
 
 .. |downloads_ucsc-fatotwobit| image:: https://img.shields.io/conda/dn/bioconda/ucsc-fatotwobit.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-fatotwobit
    :alt:   (downloads)
 .. |docker_ucsc-fatotwobit| image:: https://quay.io/repository/biocontainers/ucsc-fatotwobit/status
    :target: https://quay.io/repository/biocontainers/ucsc-fatotwobit

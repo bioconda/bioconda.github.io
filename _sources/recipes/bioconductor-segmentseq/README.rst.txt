@@ -54,6 +54,7 @@ bioconductor-segmentseq
 
 
 .. |downloads_bioconductor-segmentseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-segmentseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-segmentseq
    :alt:   (downloads)
 .. |docker_bioconductor-segmentseq| image:: https://quay.io/repository/biocontainers/bioconductor-segmentseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-segmentseq

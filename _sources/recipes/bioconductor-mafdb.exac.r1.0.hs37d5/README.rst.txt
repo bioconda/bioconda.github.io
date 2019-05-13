@@ -52,6 +52,7 @@ bioconductor-mafdb.exac.r1.0.hs37d5
 
 
 .. |downloads_bioconductor-mafdb.exac.r1.0.hs37d5| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mafdb.exac.r1.0.hs37d5.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mafdb.exac.r1.0.hs37d5
    :alt:   (downloads)
 .. |docker_bioconductor-mafdb.exac.r1.0.hs37d5| image:: https://quay.io/repository/biocontainers/bioconductor-mafdb.exac.r1.0.hs37d5/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mafdb.exac.r1.0.hs37d5

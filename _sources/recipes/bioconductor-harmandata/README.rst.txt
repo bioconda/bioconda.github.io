@@ -46,6 +46,7 @@ bioconductor-harmandata
 
 
 .. |downloads_bioconductor-harmandata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-harmandata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-harmandata
    :alt:   (downloads)
 .. |docker_bioconductor-harmandata| image:: https://quay.io/repository/biocontainers/bioconductor-harmandata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-harmandata

@@ -47,6 +47,7 @@ perl-text-levenshteinxs
 
 
 .. |downloads_perl-text-levenshteinxs| image:: https://img.shields.io/conda/dn/bioconda/perl-text-levenshteinxs.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-text-levenshteinxs
    :alt:   (downloads)
 .. |docker_perl-text-levenshteinxs| image:: https://quay.io/repository/biocontainers/perl-text-levenshteinxs/status
    :target: https://quay.io/repository/biocontainers/perl-text-levenshteinxs

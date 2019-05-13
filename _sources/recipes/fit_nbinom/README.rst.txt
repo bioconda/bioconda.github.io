@@ -47,6 +47,7 @@ fit_nbinom
 
 
 .. |downloads_fit_nbinom| image:: https://img.shields.io/conda/dn/bioconda/fit_nbinom.svg?style=flat
+   :target: https://anaconda.org/bioconda/fit_nbinom
    :alt:   (downloads)
 .. |docker_fit_nbinom| image:: https://quay.io/repository/biocontainers/fit_nbinom/status
    :target: https://quay.io/repository/biocontainers/fit_nbinom

@@ -47,6 +47,7 @@ metametamerge
 
 
 .. |downloads_metametamerge| image:: https://img.shields.io/conda/dn/bioconda/metametamerge.svg?style=flat
+   :target: https://anaconda.org/bioconda/metametamerge
    :alt:   (downloads)
 .. |docker_metametamerge| image:: https://quay.io/repository/biocontainers/metametamerge/status
    :target: https://quay.io/repository/biocontainers/metametamerge

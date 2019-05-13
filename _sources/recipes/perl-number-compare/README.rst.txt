@@ -45,6 +45,7 @@ perl-number-compare
 
 
 .. |downloads_perl-number-compare| image:: https://img.shields.io/conda/dn/bioconda/perl-number-compare.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-number-compare
    :alt:   (downloads)
 .. |docker_perl-number-compare| image:: https://quay.io/repository/biocontainers/perl-number-compare/status
    :target: https://quay.io/repository/biocontainers/perl-number-compare

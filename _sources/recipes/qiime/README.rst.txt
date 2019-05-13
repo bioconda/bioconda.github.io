@@ -70,6 +70,7 @@ qiime
 
 
 .. |downloads_qiime| image:: https://img.shields.io/conda/dn/bioconda/qiime.svg?style=flat
+   :target: https://anaconda.org/bioconda/qiime
    :alt:   (downloads)
 .. |docker_qiime| image:: https://quay.io/repository/biocontainers/qiime/status
    :target: https://quay.io/repository/biocontainers/qiime

@@ -51,6 +51,7 @@ itsxpress
 
 
 .. |downloads_itsxpress| image:: https://img.shields.io/conda/dn/bioconda/itsxpress.svg?style=flat
+   :target: https://anaconda.org/bioconda/itsxpress
    :alt:   (downloads)
 .. |docker_itsxpress| image:: https://quay.io/repository/biocontainers/itsxpress/status
    :target: https://quay.io/repository/biocontainers/itsxpress

@@ -55,6 +55,7 @@ bioconductor-yamss
 
 
 .. |downloads_bioconductor-yamss| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-yamss.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-yamss
    :alt:   (downloads)
 .. |docker_bioconductor-yamss| image:: https://quay.io/repository/biocontainers/bioconductor-yamss/status
    :target: https://quay.io/repository/biocontainers/bioconductor-yamss

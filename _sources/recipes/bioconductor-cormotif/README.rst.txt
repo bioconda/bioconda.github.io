@@ -48,6 +48,7 @@ bioconductor-cormotif
 
 
 .. |downloads_bioconductor-cormotif| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cormotif.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cormotif
    :alt:   (downloads)
 .. |docker_bioconductor-cormotif| image:: https://quay.io/repository/biocontainers/bioconductor-cormotif/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cormotif

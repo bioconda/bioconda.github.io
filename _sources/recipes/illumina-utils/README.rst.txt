@@ -48,6 +48,7 @@ illumina-utils
 
 
 .. |downloads_illumina-utils| image:: https://img.shields.io/conda/dn/bioconda/illumina-utils.svg?style=flat
+   :target: https://anaconda.org/bioconda/illumina-utils
    :alt:   (downloads)
 .. |docker_illumina-utils| image:: https://quay.io/repository/biocontainers/illumina-utils/status
    :target: https://quay.io/repository/biocontainers/illumina-utils

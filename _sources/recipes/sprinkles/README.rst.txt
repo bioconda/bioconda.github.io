@@ -45,6 +45,7 @@ sprinkles
 
 
 .. |downloads_sprinkles| image:: https://img.shields.io/conda/dn/bioconda/sprinkles.svg?style=flat
+   :target: https://anaconda.org/bioconda/sprinkles
    :alt:   (downloads)
 .. |docker_sprinkles| image:: https://quay.io/repository/biocontainers/sprinkles/status
    :target: https://quay.io/repository/biocontainers/sprinkles

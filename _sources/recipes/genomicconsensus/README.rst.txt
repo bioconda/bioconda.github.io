@@ -50,6 +50,7 @@ genomicconsensus
 
 
 .. |downloads_genomicconsensus| image:: https://img.shields.io/conda/dn/bioconda/genomicconsensus.svg?style=flat
+   :target: https://anaconda.org/bioconda/genomicconsensus
    :alt:   (downloads)
 .. |docker_genomicconsensus| image:: https://quay.io/repository/biocontainers/genomicconsensus/status
    :target: https://quay.io/repository/biocontainers/genomicconsensus

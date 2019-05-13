@@ -50,6 +50,7 @@ bioconductor-oscope
 
 
 .. |downloads_bioconductor-oscope| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-oscope.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-oscope
    :alt:   (downloads)
 .. |docker_bioconductor-oscope| image:: https://quay.io/repository/biocontainers/bioconductor-oscope/status
    :target: https://quay.io/repository/biocontainers/bioconductor-oscope

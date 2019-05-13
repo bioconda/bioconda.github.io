@@ -45,6 +45,7 @@ xxmotif
 
 
 .. |downloads_xxmotif| image:: https://img.shields.io/conda/dn/bioconda/xxmotif.svg?style=flat
+   :target: https://anaconda.org/bioconda/xxmotif
    :alt:   (downloads)
 .. |docker_xxmotif| image:: https://quay.io/repository/biocontainers/xxmotif/status
    :target: https://quay.io/repository/biocontainers/xxmotif

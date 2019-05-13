@@ -47,6 +47,7 @@ bioconductor-prostatecancervarambally
 
 
 .. |downloads_bioconductor-prostatecancervarambally| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-prostatecancervarambally.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-prostatecancervarambally
    :alt:   (downloads)
 .. |docker_bioconductor-prostatecancervarambally| image:: https://quay.io/repository/biocontainers/bioconductor-prostatecancervarambally/status
    :target: https://quay.io/repository/biocontainers/bioconductor-prostatecancervarambally

@@ -47,6 +47,7 @@ pydemult
 
 
 .. |downloads_pydemult| image:: https://img.shields.io/conda/dn/bioconda/pydemult.svg?style=flat
+   :target: https://anaconda.org/bioconda/pydemult
    :alt:   (downloads)
 .. |docker_pydemult| image:: https://quay.io/repository/biocontainers/pydemult/status
    :target: https://quay.io/repository/biocontainers/pydemult

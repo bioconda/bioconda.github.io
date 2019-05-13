@@ -50,6 +50,7 @@ blasr
 
 
 .. |downloads_blasr| image:: https://img.shields.io/conda/dn/bioconda/blasr.svg?style=flat
+   :target: https://anaconda.org/bioconda/blasr
    :alt:   (downloads)
 .. |docker_blasr| image:: https://quay.io/repository/biocontainers/blasr/status
    :target: https://quay.io/repository/biocontainers/blasr

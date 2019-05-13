@@ -51,6 +51,7 @@ r-ggbiplot
 
 
 .. |downloads_r-ggbiplot| image:: https://img.shields.io/conda/dn/bioconda/r-ggbiplot.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-ggbiplot
    :alt:   (downloads)
 .. |docker_r-ggbiplot| image:: https://quay.io/repository/biocontainers/r-ggbiplot/status
    :target: https://quay.io/repository/biocontainers/r-ggbiplot

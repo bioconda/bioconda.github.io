@@ -49,6 +49,7 @@ bioconductor-lrbasedbi
 
 
 .. |downloads_bioconductor-lrbasedbi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lrbasedbi.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lrbasedbi
    :alt:   (downloads)
 .. |docker_bioconductor-lrbasedbi| image:: https://quay.io/repository/biocontainers/bioconductor-lrbasedbi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lrbasedbi

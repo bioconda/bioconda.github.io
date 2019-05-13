@@ -70,6 +70,7 @@ bioconductor-contibait
 
 
 .. |downloads_bioconductor-contibait| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-contibait.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-contibait
    :alt:   (downloads)
 .. |docker_bioconductor-contibait| image:: https://quay.io/repository/biocontainers/bioconductor-contibait/status
    :target: https://quay.io/repository/biocontainers/bioconductor-contibait

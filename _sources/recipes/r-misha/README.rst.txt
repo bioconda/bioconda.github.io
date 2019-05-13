@@ -45,6 +45,7 @@ r-misha
 
 
 .. |downloads_r-misha| image:: https://img.shields.io/conda/dn/bioconda/r-misha.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-misha
    :alt:   (downloads)
 .. |docker_r-misha| image:: https://quay.io/repository/biocontainers/r-misha/status
    :target: https://quay.io/repository/biocontainers/r-misha

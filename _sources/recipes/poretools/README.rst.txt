@@ -50,6 +50,7 @@ poretools
 
 
 .. |downloads_poretools| image:: https://img.shields.io/conda/dn/bioconda/poretools.svg?style=flat
+   :target: https://anaconda.org/bioconda/poretools
    :alt:   (downloads)
 .. |docker_poretools| image:: https://quay.io/repository/biocontainers/poretools/status
    :target: https://quay.io/repository/biocontainers/poretools

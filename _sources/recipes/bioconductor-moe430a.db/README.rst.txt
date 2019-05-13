@@ -48,6 +48,7 @@ bioconductor-moe430a.db
 
 
 .. |downloads_bioconductor-moe430a.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-moe430a.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-moe430a.db
    :alt:   (downloads)
 .. |docker_bioconductor-moe430a.db| image:: https://quay.io/repository/biocontainers/bioconductor-moe430a.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-moe430a.db

@@ -49,6 +49,7 @@ diamond
 
 
 .. |downloads_diamond| image:: https://img.shields.io/conda/dn/bioconda/diamond.svg?style=flat
+   :target: https://anaconda.org/bioconda/diamond
    :alt:   (downloads)
 .. |docker_diamond| image:: https://quay.io/repository/biocontainers/diamond/status
    :target: https://quay.io/repository/biocontainers/diamond

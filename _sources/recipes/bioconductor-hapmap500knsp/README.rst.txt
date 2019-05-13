@@ -46,6 +46,7 @@ bioconductor-hapmap500knsp
 
 
 .. |downloads_bioconductor-hapmap500knsp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hapmap500knsp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hapmap500knsp
    :alt:   (downloads)
 .. |docker_bioconductor-hapmap500knsp| image:: https://quay.io/repository/biocontainers/bioconductor-hapmap500knsp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hapmap500knsp

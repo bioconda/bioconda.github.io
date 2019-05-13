@@ -48,6 +48,7 @@ bioconductor-maqcsubsetafx
 
 
 .. |downloads_bioconductor-maqcsubsetafx| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-maqcsubsetafx.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-maqcsubsetafx
    :alt:   (downloads)
 .. |docker_bioconductor-maqcsubsetafx| image:: https://quay.io/repository/biocontainers/bioconductor-maqcsubsetafx/status
    :target: https://quay.io/repository/biocontainers/bioconductor-maqcsubsetafx

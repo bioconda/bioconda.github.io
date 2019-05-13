@@ -47,6 +47,7 @@ isoseq3
 
 
 .. |downloads_isoseq3| image:: https://img.shields.io/conda/dn/bioconda/isoseq3.svg?style=flat
+   :target: https://anaconda.org/bioconda/isoseq3
    :alt:   (downloads)
 .. |docker_isoseq3| image:: https://quay.io/repository/biocontainers/isoseq3/status
    :target: https://quay.io/repository/biocontainers/isoseq3

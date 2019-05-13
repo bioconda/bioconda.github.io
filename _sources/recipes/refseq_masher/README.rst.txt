@@ -49,6 +49,7 @@ refseq_masher
 
 
 .. |downloads_refseq_masher| image:: https://img.shields.io/conda/dn/bioconda/refseq_masher.svg?style=flat
+   :target: https://anaconda.org/bioconda/refseq_masher
    :alt:   (downloads)
 .. |docker_refseq_masher| image:: https://quay.io/repository/biocontainers/refseq_masher/status
    :target: https://quay.io/repository/biocontainers/refseq_masher

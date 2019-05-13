@@ -52,6 +52,7 @@ r-micropan
 
 
 .. |downloads_r-micropan| image:: https://img.shields.io/conda/dn/bioconda/r-micropan.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-micropan
    :alt:   (downloads)
 .. |docker_r-micropan| image:: https://quay.io/repository/biocontainers/r-micropan/status
    :target: https://quay.io/repository/biocontainers/r-micropan

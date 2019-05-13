@@ -52,6 +52,7 @@ rseqc
 
 
 .. |downloads_rseqc| image:: https://img.shields.io/conda/dn/bioconda/rseqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/rseqc
    :alt:   (downloads)
 .. |docker_rseqc| image:: https://quay.io/repository/biocontainers/rseqc/status
    :target: https://quay.io/repository/biocontainers/rseqc

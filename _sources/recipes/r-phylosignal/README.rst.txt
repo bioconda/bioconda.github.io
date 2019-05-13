@@ -55,6 +55,7 @@ r-phylosignal
 
 
 .. |downloads_r-phylosignal| image:: https://img.shields.io/conda/dn/bioconda/r-phylosignal.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-phylosignal
    :alt:   (downloads)
 .. |docker_r-phylosignal| image:: https://quay.io/repository/biocontainers/r-phylosignal/status
    :target: https://quay.io/repository/biocontainers/r-phylosignal

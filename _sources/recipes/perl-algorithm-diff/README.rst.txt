@@ -45,6 +45,7 @@ perl-algorithm-diff
 
 
 .. |downloads_perl-algorithm-diff| image:: https://img.shields.io/conda/dn/bioconda/perl-algorithm-diff.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-algorithm-diff
    :alt:   (downloads)
 .. |docker_perl-algorithm-diff| image:: https://quay.io/repository/biocontainers/perl-algorithm-diff/status
    :target: https://quay.io/repository/biocontainers/perl-algorithm-diff

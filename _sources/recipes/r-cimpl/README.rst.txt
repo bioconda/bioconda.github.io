@@ -50,6 +50,7 @@ r-cimpl
 
 
 .. |downloads_r-cimpl| image:: https://img.shields.io/conda/dn/bioconda/r-cimpl.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-cimpl
    :alt:   (downloads)
 .. |docker_r-cimpl| image:: https://quay.io/repository/biocontainers/r-cimpl/status
    :target: https://quay.io/repository/biocontainers/r-cimpl

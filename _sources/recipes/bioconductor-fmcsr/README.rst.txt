@@ -50,6 +50,7 @@ bioconductor-fmcsr
 
 
 .. |downloads_bioconductor-fmcsr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fmcsr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-fmcsr
    :alt:   (downloads)
 .. |docker_bioconductor-fmcsr| image:: https://quay.io/repository/biocontainers/bioconductor-fmcsr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fmcsr

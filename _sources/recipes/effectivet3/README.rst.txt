@@ -47,6 +47,7 @@ effectivet3
 
 
 .. |downloads_effectivet3| image:: https://img.shields.io/conda/dn/bioconda/effectivet3.svg?style=flat
+   :target: https://anaconda.org/bioconda/effectivet3
    :alt:   (downloads)
 .. |docker_effectivet3| image:: https://quay.io/repository/biocontainers/effectivet3/status
    :target: https://quay.io/repository/biocontainers/effectivet3

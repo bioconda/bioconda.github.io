@@ -51,6 +51,7 @@ phylogenetics
 
 
 .. |downloads_phylogenetics| image:: https://img.shields.io/conda/dn/bioconda/phylogenetics.svg?style=flat
+   :target: https://anaconda.org/bioconda/phylogenetics
    :alt:   (downloads)
 .. |docker_phylogenetics| image:: https://quay.io/repository/biocontainers/phylogenetics/status
    :target: https://quay.io/repository/biocontainers/phylogenetics

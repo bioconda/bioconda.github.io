@@ -54,6 +54,7 @@ kopt
 
 
 .. |downloads_kopt| image:: https://img.shields.io/conda/dn/bioconda/kopt.svg?style=flat
+   :target: https://anaconda.org/bioconda/kopt
    :alt:   (downloads)
 .. |docker_kopt| image:: https://quay.io/repository/biocontainers/kopt/status
    :target: https://quay.io/repository/biocontainers/kopt

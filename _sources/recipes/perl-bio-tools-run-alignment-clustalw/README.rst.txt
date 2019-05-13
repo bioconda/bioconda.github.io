@@ -48,6 +48,7 @@ perl-bio-tools-run-alignment-clustalw
 
 
 .. |downloads_perl-bio-tools-run-alignment-clustalw| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-tools-run-alignment-clustalw.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bio-tools-run-alignment-clustalw
    :alt:   (downloads)
 .. |docker_perl-bio-tools-run-alignment-clustalw| image:: https://quay.io/repository/biocontainers/perl-bio-tools-run-alignment-clustalw/status
    :target: https://quay.io/repository/biocontainers/perl-bio-tools-run-alignment-clustalw

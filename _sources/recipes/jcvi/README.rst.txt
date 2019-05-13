@@ -53,6 +53,7 @@ jcvi
 
 
 .. |downloads_jcvi| image:: https://img.shields.io/conda/dn/bioconda/jcvi.svg?style=flat
+   :target: https://anaconda.org/bioconda/jcvi
    :alt:   (downloads)
 .. |docker_jcvi| image:: https://quay.io/repository/biocontainers/jcvi/status
    :target: https://quay.io/repository/biocontainers/jcvi

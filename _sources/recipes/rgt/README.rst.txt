@@ -73,6 +73,7 @@ rgt
 
 
 .. |downloads_rgt| image:: https://img.shields.io/conda/dn/bioconda/rgt.svg?style=flat
+   :target: https://anaconda.org/bioconda/rgt
    :alt:   (downloads)
 .. |docker_rgt| image:: https://quay.io/repository/biocontainers/rgt/status
    :target: https://quay.io/repository/biocontainers/rgt

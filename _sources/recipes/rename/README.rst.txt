@@ -45,6 +45,7 @@ rename
 
 
 .. |downloads_rename| image:: https://img.shields.io/conda/dn/bioconda/rename.svg?style=flat
+   :target: https://anaconda.org/bioconda/rename
    :alt:   (downloads)
 .. |docker_rename| image:: https://quay.io/repository/biocontainers/rename/status
    :target: https://quay.io/repository/biocontainers/rename

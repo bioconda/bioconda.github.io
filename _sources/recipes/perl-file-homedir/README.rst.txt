@@ -49,6 +49,7 @@ perl-file-homedir
 
 
 .. |downloads_perl-file-homedir| image:: https://img.shields.io/conda/dn/bioconda/perl-file-homedir.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-homedir
    :alt:   (downloads)
 .. |docker_perl-file-homedir| image:: https://quay.io/repository/biocontainers/perl-file-homedir/status
    :target: https://quay.io/repository/biocontainers/perl-file-homedir

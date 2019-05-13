@@ -61,6 +61,7 @@ pathogist
 
 
 .. |downloads_pathogist| image:: https://img.shields.io/conda/dn/bioconda/pathogist.svg?style=flat
+   :target: https://anaconda.org/bioconda/pathogist
    :alt:   (downloads)
 .. |docker_pathogist| image:: https://quay.io/repository/biocontainers/pathogist/status
    :target: https://quay.io/repository/biocontainers/pathogist

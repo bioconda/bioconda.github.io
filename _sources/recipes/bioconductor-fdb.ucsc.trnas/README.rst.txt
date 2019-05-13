@@ -48,6 +48,7 @@ bioconductor-fdb.ucsc.trnas
 
 
 .. |downloads_bioconductor-fdb.ucsc.trnas| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fdb.ucsc.trnas.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-fdb.ucsc.trnas
    :alt:   (downloads)
 .. |docker_bioconductor-fdb.ucsc.trnas| image:: https://quay.io/repository/biocontainers/bioconductor-fdb.ucsc.trnas/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fdb.ucsc.trnas

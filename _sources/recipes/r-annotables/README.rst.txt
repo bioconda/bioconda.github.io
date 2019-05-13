@@ -47,6 +47,7 @@ r-annotables
 
 
 .. |downloads_r-annotables| image:: https://img.shields.io/conda/dn/bioconda/r-annotables.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-annotables
    :alt:   (downloads)
 .. |docker_r-annotables| image:: https://quay.io/repository/biocontainers/r-annotables/status
    :target: https://quay.io/repository/biocontainers/r-annotables

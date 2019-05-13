@@ -78,6 +78,7 @@ bioconductor-singlecelltk
 
 
 .. |downloads_bioconductor-singlecelltk| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-singlecelltk.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-singlecelltk
    :alt:   (downloads)
 .. |docker_bioconductor-singlecelltk| image:: https://quay.io/repository/biocontainers/bioconductor-singlecelltk/status
    :target: https://quay.io/repository/biocontainers/bioconductor-singlecelltk

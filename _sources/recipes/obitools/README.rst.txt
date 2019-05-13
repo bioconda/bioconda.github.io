@@ -48,6 +48,7 @@ obitools
 
 
 .. |downloads_obitools| image:: https://img.shields.io/conda/dn/bioconda/obitools.svg?style=flat
+   :target: https://anaconda.org/bioconda/obitools
    :alt:   (downloads)
 .. |docker_obitools| image:: https://quay.io/repository/biocontainers/obitools/status
    :target: https://quay.io/repository/biocontainers/obitools

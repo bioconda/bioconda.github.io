@@ -51,6 +51,7 @@ bioconductor-metagxpancreas
 
 
 .. |downloads_bioconductor-metagxpancreas| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metagxpancreas.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-metagxpancreas
    :alt:   (downloads)
 .. |docker_bioconductor-metagxpancreas| image:: https://quay.io/repository/biocontainers/bioconductor-metagxpancreas/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metagxpancreas

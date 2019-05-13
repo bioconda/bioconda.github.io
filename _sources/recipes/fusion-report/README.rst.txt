@@ -52,6 +52,7 @@ fusion-report
 
 
 .. |downloads_fusion-report| image:: https://img.shields.io/conda/dn/bioconda/fusion-report.svg?style=flat
+   :target: https://anaconda.org/bioconda/fusion-report
    :alt:   (downloads)
 .. |docker_fusion-report| image:: https://quay.io/repository/biocontainers/fusion-report/status
    :target: https://quay.io/repository/biocontainers/fusion-report

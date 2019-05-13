@@ -57,6 +57,7 @@ biokit
 
 
 .. |downloads_biokit| image:: https://img.shields.io/conda/dn/bioconda/biokit.svg?style=flat
+   :target: https://anaconda.org/bioconda/biokit
    :alt:   (downloads)
 .. |docker_biokit| image:: https://quay.io/repository/biocontainers/biokit/status
    :target: https://quay.io/repository/biocontainers/biokit

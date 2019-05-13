@@ -45,6 +45,7 @@ perl-digest-sha
 
 
 .. |downloads_perl-digest-sha| image:: https://img.shields.io/conda/dn/bioconda/perl-digest-sha.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-digest-sha
    :alt:   (downloads)
 .. |docker_perl-digest-sha| image:: https://quay.io/repository/biocontainers/perl-digest-sha/status
    :target: https://quay.io/repository/biocontainers/perl-digest-sha

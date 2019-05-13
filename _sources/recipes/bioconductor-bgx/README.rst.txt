@@ -44,6 +44,7 @@ bioconductor-bgx
 
 
 .. |downloads_bioconductor-bgx| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bgx.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bgx
    :alt:   (downloads)
 .. |docker_bioconductor-bgx| image:: https://quay.io/repository/biocontainers/bioconductor-bgx/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bgx

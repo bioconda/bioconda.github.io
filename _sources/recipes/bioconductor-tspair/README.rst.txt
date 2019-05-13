@@ -48,6 +48,7 @@ bioconductor-tspair
 
 
 .. |downloads_bioconductor-tspair| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tspair.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tspair
    :alt:   (downloads)
 .. |docker_bioconductor-tspair| image:: https://quay.io/repository/biocontainers/bioconductor-tspair/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tspair

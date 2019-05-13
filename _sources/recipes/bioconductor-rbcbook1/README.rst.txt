@@ -49,6 +49,7 @@ bioconductor-rbcbook1
 
 
 .. |downloads_bioconductor-rbcbook1| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rbcbook1.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rbcbook1
    :alt:   (downloads)
 .. |docker_bioconductor-rbcbook1| image:: https://quay.io/repository/biocontainers/bioconductor-rbcbook1/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rbcbook1

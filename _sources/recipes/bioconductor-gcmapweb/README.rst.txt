@@ -55,6 +55,7 @@ bioconductor-gcmapweb
 
 
 .. |downloads_bioconductor-gcmapweb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gcmapweb.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gcmapweb
    :alt:   (downloads)
 .. |docker_bioconductor-gcmapweb| image:: https://quay.io/repository/biocontainers/bioconductor-gcmapweb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gcmapweb

@@ -48,6 +48,7 @@ bioconductor-ahensdbs
 
 
 .. |downloads_bioconductor-ahensdbs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ahensdbs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ahensdbs
    :alt:   (downloads)
 .. |docker_bioconductor-ahensdbs| image:: https://quay.io/repository/biocontainers/bioconductor-ahensdbs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ahensdbs

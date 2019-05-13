@@ -49,6 +49,7 @@ ribodiff
 
 
 .. |downloads_ribodiff| image:: https://img.shields.io/conda/dn/bioconda/ribodiff.svg?style=flat
+   :target: https://anaconda.org/bioconda/ribodiff
    :alt:   (downloads)
 .. |docker_ribodiff| image:: https://quay.io/repository/biocontainers/ribodiff/status
    :target: https://quay.io/repository/biocontainers/ribodiff

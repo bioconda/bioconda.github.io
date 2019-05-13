@@ -51,6 +51,7 @@ ucsc-bedjointaboffset
 
 
 .. |downloads_ucsc-bedjointaboffset| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bedjointaboffset.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bedjointaboffset
    :alt:   (downloads)
 .. |docker_ucsc-bedjointaboffset| image:: https://quay.io/repository/biocontainers/ucsc-bedjointaboffset/status
    :target: https://quay.io/repository/biocontainers/ucsc-bedjointaboffset

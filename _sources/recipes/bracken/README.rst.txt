@@ -49,6 +49,7 @@ bracken
 
 
 .. |downloads_bracken| image:: https://img.shields.io/conda/dn/bioconda/bracken.svg?style=flat
+   :target: https://anaconda.org/bioconda/bracken
    :alt:   (downloads)
 .. |docker_bracken| image:: https://quay.io/repository/biocontainers/bracken/status
    :target: https://quay.io/repository/biocontainers/bracken

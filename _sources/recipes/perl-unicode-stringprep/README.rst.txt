@@ -45,6 +45,7 @@ perl-unicode-stringprep
 
 
 .. |downloads_perl-unicode-stringprep| image:: https://img.shields.io/conda/dn/bioconda/perl-unicode-stringprep.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-unicode-stringprep
    :alt:   (downloads)
 .. |docker_perl-unicode-stringprep| image:: https://quay.io/repository/biocontainers/perl-unicode-stringprep/status
    :target: https://quay.io/repository/biocontainers/perl-unicode-stringprep

@@ -61,6 +61,7 @@ rgi
 
 
 .. |downloads_rgi| image:: https://img.shields.io/conda/dn/bioconda/rgi.svg?style=flat
+   :target: https://anaconda.org/bioconda/rgi
    :alt:   (downloads)
 .. |docker_rgi| image:: https://quay.io/repository/biocontainers/rgi/status
    :target: https://quay.io/repository/biocontainers/rgi

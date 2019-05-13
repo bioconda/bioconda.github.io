@@ -45,6 +45,7 @@ libmems
 
 
 .. |downloads_libmems| image:: https://img.shields.io/conda/dn/bioconda/libmems.svg?style=flat
+   :target: https://anaconda.org/bioconda/libmems
    :alt:   (downloads)
 .. |docker_libmems| image:: https://quay.io/repository/biocontainers/libmems/status
    :target: https://quay.io/repository/biocontainers/libmems

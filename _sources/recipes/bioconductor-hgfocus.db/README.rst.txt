@@ -48,6 +48,7 @@ bioconductor-hgfocus.db
 
 
 .. |downloads_bioconductor-hgfocus.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgfocus.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hgfocus.db
    :alt:   (downloads)
 .. |docker_bioconductor-hgfocus.db| image:: https://quay.io/repository/biocontainers/bioconductor-hgfocus.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hgfocus.db

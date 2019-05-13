@@ -56,6 +56,7 @@ bioconductor-ping
 
 
 .. |downloads_bioconductor-ping| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ping.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ping
    :alt:   (downloads)
 .. |docker_bioconductor-ping| image:: https://quay.io/repository/biocontainers/bioconductor-ping/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ping

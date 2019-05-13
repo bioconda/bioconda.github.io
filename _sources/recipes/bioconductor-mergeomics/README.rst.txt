@@ -46,6 +46,7 @@ bioconductor-mergeomics
 
 
 .. |downloads_bioconductor-mergeomics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mergeomics.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mergeomics
    :alt:   (downloads)
 .. |docker_bioconductor-mergeomics| image:: https://quay.io/repository/biocontainers/bioconductor-mergeomics/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mergeomics

@@ -46,6 +46,7 @@ bioconductor-lymphoseqdb
 
 
 .. |downloads_bioconductor-lymphoseqdb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lymphoseqdb.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lymphoseqdb
    :alt:   (downloads)
 .. |docker_bioconductor-lymphoseqdb| image:: https://quay.io/repository/biocontainers/bioconductor-lymphoseqdb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lymphoseqdb

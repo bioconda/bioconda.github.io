@@ -45,6 +45,7 @@ tinyfasta
 
 
 .. |downloads_tinyfasta| image:: https://img.shields.io/conda/dn/bioconda/tinyfasta.svg?style=flat
+   :target: https://anaconda.org/bioconda/tinyfasta
    :alt:   (downloads)
 .. |docker_tinyfasta| image:: https://quay.io/repository/biocontainers/tinyfasta/status
    :target: https://quay.io/repository/biocontainers/tinyfasta

@@ -48,6 +48,7 @@ bioconductor-rgin
 
 
 .. |downloads_bioconductor-rgin| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rgin.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rgin
    :alt:   (downloads)
 .. |docker_bioconductor-rgin| image:: https://quay.io/repository/biocontainers/bioconductor-rgin/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rgin

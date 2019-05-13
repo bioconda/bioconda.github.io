@@ -53,6 +53,7 @@ stamp
 
 
 .. |downloads_stamp| image:: https://img.shields.io/conda/dn/bioconda/stamp.svg?style=flat
+   :target: https://anaconda.org/bioconda/stamp
    :alt:   (downloads)
 .. |docker_stamp| image:: https://quay.io/repository/biocontainers/stamp/status
    :target: https://quay.io/repository/biocontainers/stamp

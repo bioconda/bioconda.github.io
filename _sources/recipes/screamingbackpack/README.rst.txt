@@ -45,6 +45,7 @@ screamingbackpack
 
 
 .. |downloads_screamingbackpack| image:: https://img.shields.io/conda/dn/bioconda/screamingbackpack.svg?style=flat
+   :target: https://anaconda.org/bioconda/screamingbackpack
    :alt:   (downloads)
 .. |docker_screamingbackpack| image:: https://quay.io/repository/biocontainers/screamingbackpack/status
    :target: https://quay.io/repository/biocontainers/screamingbackpack

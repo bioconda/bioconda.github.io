@@ -46,6 +46,7 @@ eoulsan
 
 
 .. |downloads_eoulsan| image:: https://img.shields.io/conda/dn/bioconda/eoulsan.svg?style=flat
+   :target: https://anaconda.org/bioconda/eoulsan
    :alt:   (downloads)
 .. |docker_eoulsan| image:: https://quay.io/repository/biocontainers/eoulsan/status
    :target: https://quay.io/repository/biocontainers/eoulsan

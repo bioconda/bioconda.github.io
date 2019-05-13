@@ -46,6 +46,7 @@ skewer
 
 
 .. |downloads_skewer| image:: https://img.shields.io/conda/dn/bioconda/skewer.svg?style=flat
+   :target: https://anaconda.org/bioconda/skewer
    :alt:   (downloads)
 .. |docker_skewer| image:: https://quay.io/repository/biocontainers/skewer/status
    :target: https://quay.io/repository/biocontainers/skewer

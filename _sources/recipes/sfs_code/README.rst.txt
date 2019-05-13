@@ -46,6 +46,7 @@ sfs_code
 
 
 .. |downloads_sfs_code| image:: https://img.shields.io/conda/dn/bioconda/sfs_code.svg?style=flat
+   :target: https://anaconda.org/bioconda/sfs_code
    :alt:   (downloads)
 .. |docker_sfs_code| image:: https://quay.io/repository/biocontainers/sfs_code/status
    :target: https://quay.io/repository/biocontainers/sfs_code

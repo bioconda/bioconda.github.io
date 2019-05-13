@@ -50,6 +50,7 @@ pasta
 
 
 .. |downloads_pasta| image:: https://img.shields.io/conda/dn/bioconda/pasta.svg?style=flat
+   :target: https://anaconda.org/bioconda/pasta
    :alt:   (downloads)
 .. |docker_pasta| image:: https://quay.io/repository/biocontainers/pasta/status
    :target: https://quay.io/repository/biocontainers/pasta

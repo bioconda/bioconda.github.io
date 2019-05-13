@@ -70,6 +70,7 @@ bioconductor-isoformswitchanalyzer
 
 
 .. |downloads_bioconductor-isoformswitchanalyzer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-isoformswitchanalyzer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-isoformswitchanalyzer
    :alt:   (downloads)
 .. |docker_bioconductor-isoformswitchanalyzer| image:: https://quay.io/repository/biocontainers/bioconductor-isoformswitchanalyzer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-isoformswitchanalyzer

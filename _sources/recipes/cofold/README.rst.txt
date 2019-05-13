@@ -45,6 +45,7 @@ cofold
 
 
 .. |downloads_cofold| image:: https://img.shields.io/conda/dn/bioconda/cofold.svg?style=flat
+   :target: https://anaconda.org/bioconda/cofold
    :alt:   (downloads)
 .. |docker_cofold| image:: https://quay.io/repository/biocontainers/cofold/status
    :target: https://quay.io/repository/biocontainers/cofold

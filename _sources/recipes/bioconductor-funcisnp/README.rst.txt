@@ -61,6 +61,7 @@ bioconductor-funcisnp
 
 
 .. |downloads_bioconductor-funcisnp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-funcisnp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-funcisnp
    :alt:   (downloads)
 .. |docker_bioconductor-funcisnp| image:: https://quay.io/repository/biocontainers/bioconductor-funcisnp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-funcisnp

@@ -64,6 +64,7 @@ bioconductor-tvtb
 
 
 .. |downloads_bioconductor-tvtb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tvtb.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tvtb
    :alt:   (downloads)
 .. |docker_bioconductor-tvtb| image:: https://quay.io/repository/biocontainers/bioconductor-tvtb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tvtb

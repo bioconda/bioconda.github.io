@@ -47,6 +47,7 @@ bioconductor-cytolib
 
 
 .. |downloads_bioconductor-cytolib| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cytolib.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cytolib
    :alt:   (downloads)
 .. |docker_bioconductor-cytolib| image:: https://quay.io/repository/biocontainers/bioconductor-cytolib/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cytolib

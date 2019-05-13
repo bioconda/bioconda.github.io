@@ -46,6 +46,7 @@ perl-devel-globaldestruction
 
 
 .. |downloads_perl-devel-globaldestruction| image:: https://img.shields.io/conda/dn/bioconda/perl-devel-globaldestruction.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-devel-globaldestruction
    :alt:   (downloads)
 .. |docker_perl-devel-globaldestruction| image:: https://quay.io/repository/biocontainers/perl-devel-globaldestruction/status
    :target: https://quay.io/repository/biocontainers/perl-devel-globaldestruction

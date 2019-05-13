@@ -47,6 +47,7 @@ rpkmforgenes
 
 
 .. |downloads_rpkmforgenes| image:: https://img.shields.io/conda/dn/bioconda/rpkmforgenes.svg?style=flat
+   :target: https://anaconda.org/bioconda/rpkmforgenes
    :alt:   (downloads)
 .. |docker_rpkmforgenes| image:: https://quay.io/repository/biocontainers/rpkmforgenes/status
    :target: https://quay.io/repository/biocontainers/rpkmforgenes

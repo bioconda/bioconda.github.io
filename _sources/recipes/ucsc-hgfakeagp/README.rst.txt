@@ -50,6 +50,7 @@ ucsc-hgfakeagp
 
 
 .. |downloads_ucsc-hgfakeagp| image:: https://img.shields.io/conda/dn/bioconda/ucsc-hgfakeagp.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-hgfakeagp
    :alt:   (downloads)
 .. |docker_ucsc-hgfakeagp| image:: https://quay.io/repository/biocontainers/ucsc-hgfakeagp/status
    :target: https://quay.io/repository/biocontainers/ucsc-hgfakeagp

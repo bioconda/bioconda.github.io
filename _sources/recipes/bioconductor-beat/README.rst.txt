@@ -50,6 +50,7 @@ bioconductor-beat
 
 
 .. |downloads_bioconductor-beat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-beat.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-beat
    :alt:   (downloads)
 .. |docker_bioconductor-beat| image:: https://quay.io/repository/biocontainers/bioconductor-beat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-beat

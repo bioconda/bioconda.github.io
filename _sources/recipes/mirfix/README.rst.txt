@@ -52,6 +52,7 @@ mirfix
 
 
 .. |downloads_mirfix| image:: https://img.shields.io/conda/dn/bioconda/mirfix.svg?style=flat
+   :target: https://anaconda.org/bioconda/mirfix
    :alt:   (downloads)
 .. |docker_mirfix| image:: https://quay.io/repository/biocontainers/mirfix/status
    :target: https://quay.io/repository/biocontainers/mirfix

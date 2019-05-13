@@ -51,6 +51,7 @@ bioconductor-idmappinganalysis
 
 
 .. |downloads_bioconductor-idmappinganalysis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-idmappinganalysis.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-idmappinganalysis
    :alt:   (downloads)
 .. |docker_bioconductor-idmappinganalysis| image:: https://quay.io/repository/biocontainers/bioconductor-idmappinganalysis/status
    :target: https://quay.io/repository/biocontainers/bioconductor-idmappinganalysis

@@ -49,6 +49,7 @@ pfam_scan
 
 
 .. |downloads_pfam_scan| image:: https://img.shields.io/conda/dn/bioconda/pfam_scan.svg?style=flat
+   :target: https://anaconda.org/bioconda/pfam_scan
    :alt:   (downloads)
 .. |docker_pfam_scan| image:: https://quay.io/repository/biocontainers/pfam_scan/status
    :target: https://quay.io/repository/biocontainers/pfam_scan

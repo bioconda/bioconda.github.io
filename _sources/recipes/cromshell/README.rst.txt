@@ -46,6 +46,7 @@ cromshell
 
 
 .. |downloads_cromshell| image:: https://img.shields.io/conda/dn/bioconda/cromshell.svg?style=flat
+   :target: https://anaconda.org/bioconda/cromshell
    :alt:   (downloads)
 .. |docker_cromshell| image:: https://quay.io/repository/biocontainers/cromshell/status
    :target: https://quay.io/repository/biocontainers/cromshell

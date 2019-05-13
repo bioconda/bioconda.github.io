@@ -52,6 +52,7 @@ perl-params-validationcompiler
 
 
 .. |downloads_perl-params-validationcompiler| image:: https://img.shields.io/conda/dn/bioconda/perl-params-validationcompiler.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-params-validationcompiler
    :alt:   (downloads)
 .. |docker_perl-params-validationcompiler| image:: https://quay.io/repository/biocontainers/perl-params-validationcompiler/status
    :target: https://quay.io/repository/biocontainers/perl-params-validationcompiler

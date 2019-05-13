@@ -45,6 +45,7 @@ genepop
 
 
 .. |downloads_genepop| image:: https://img.shields.io/conda/dn/bioconda/genepop.svg?style=flat
+   :target: https://anaconda.org/bioconda/genepop
    :alt:   (downloads)
 .. |docker_genepop| image:: https://quay.io/repository/biocontainers/genepop/status
    :target: https://quay.io/repository/biocontainers/genepop

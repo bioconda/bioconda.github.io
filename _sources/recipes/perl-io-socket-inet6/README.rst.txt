@@ -49,6 +49,7 @@ perl-io-socket-inet6
 
 
 .. |downloads_perl-io-socket-inet6| image:: https://img.shields.io/conda/dn/bioconda/perl-io-socket-inet6.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-io-socket-inet6
    :alt:   (downloads)
 .. |docker_perl-io-socket-inet6| image:: https://quay.io/repository/biocontainers/perl-io-socket-inet6/status
    :target: https://quay.io/repository/biocontainers/perl-io-socket-inet6

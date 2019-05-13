@@ -50,6 +50,7 @@ ucsc-maforder
 
 
 .. |downloads_ucsc-maforder| image:: https://img.shields.io/conda/dn/bioconda/ucsc-maforder.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-maforder
    :alt:   (downloads)
 .. |docker_ucsc-maforder| image:: https://quay.io/repository/biocontainers/ucsc-maforder/status
    :target: https://quay.io/repository/biocontainers/ucsc-maforder

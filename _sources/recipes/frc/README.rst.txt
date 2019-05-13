@@ -48,6 +48,7 @@ frc
 
 
 .. |downloads_frc| image:: https://img.shields.io/conda/dn/bioconda/frc.svg?style=flat
+   :target: https://anaconda.org/bioconda/frc
    :alt:   (downloads)
 .. |docker_frc| image:: https://quay.io/repository/biocontainers/frc/status
    :target: https://quay.io/repository/biocontainers/frc

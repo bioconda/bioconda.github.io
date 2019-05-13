@@ -57,6 +57,7 @@ arriba
 
 
 .. |downloads_arriba| image:: https://img.shields.io/conda/dn/bioconda/arriba.svg?style=flat
+   :target: https://anaconda.org/bioconda/arriba
    :alt:   (downloads)
 .. |docker_arriba| image:: https://quay.io/repository/biocontainers/arriba/status
    :target: https://quay.io/repository/biocontainers/arriba

@@ -45,6 +45,7 @@ flux-simulator
 
 
 .. |downloads_flux-simulator| image:: https://img.shields.io/conda/dn/bioconda/flux-simulator.svg?style=flat
+   :target: https://anaconda.org/bioconda/flux-simulator
    :alt:   (downloads)
 .. |docker_flux-simulator| image:: https://quay.io/repository/biocontainers/flux-simulator/status
    :target: https://quay.io/repository/biocontainers/flux-simulator

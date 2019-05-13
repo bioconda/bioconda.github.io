@@ -50,6 +50,7 @@ sloika
 
 
 .. |downloads_sloika| image:: https://img.shields.io/conda/dn/bioconda/sloika.svg?style=flat
+   :target: https://anaconda.org/bioconda/sloika
    :alt:   (downloads)
 .. |docker_sloika| image:: https://quay.io/repository/biocontainers/sloika/status
    :target: https://quay.io/repository/biocontainers/sloika

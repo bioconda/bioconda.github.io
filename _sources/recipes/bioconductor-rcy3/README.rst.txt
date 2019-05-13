@@ -52,6 +52,7 @@ bioconductor-rcy3
 
 
 .. |downloads_bioconductor-rcy3| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rcy3.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rcy3
    :alt:   (downloads)
 .. |docker_bioconductor-rcy3| image:: https://quay.io/repository/biocontainers/bioconductor-rcy3/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rcy3

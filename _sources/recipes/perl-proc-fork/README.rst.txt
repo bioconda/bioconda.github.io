@@ -46,6 +46,7 @@ perl-proc-fork
 
 
 .. |downloads_perl-proc-fork| image:: https://img.shields.io/conda/dn/bioconda/perl-proc-fork.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-proc-fork
    :alt:   (downloads)
 .. |docker_perl-proc-fork| image:: https://quay.io/repository/biocontainers/perl-proc-fork/status
    :target: https://quay.io/repository/biocontainers/perl-proc-fork

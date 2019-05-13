@@ -50,6 +50,7 @@ vcflib
 
 
 .. |downloads_vcflib| image:: https://img.shields.io/conda/dn/bioconda/vcflib.svg?style=flat
+   :target: https://anaconda.org/bioconda/vcflib
    :alt:   (downloads)
 .. |docker_vcflib| image:: https://quay.io/repository/biocontainers/vcflib/status
    :target: https://quay.io/repository/biocontainers/vcflib

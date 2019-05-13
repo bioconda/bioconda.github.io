@@ -56,6 +56,7 @@ bioconductor-maser
 
 
 .. |downloads_bioconductor-maser| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-maser.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-maser
    :alt:   (downloads)
 .. |docker_bioconductor-maser| image:: https://quay.io/repository/biocontainers/bioconductor-maser/status
    :target: https://quay.io/repository/biocontainers/bioconductor-maser

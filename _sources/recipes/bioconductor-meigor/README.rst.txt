@@ -50,6 +50,7 @@ bioconductor-meigor
 
 
 .. |downloads_bioconductor-meigor| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-meigor.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-meigor
    :alt:   (downloads)
 .. |docker_bioconductor-meigor| image:: https://quay.io/repository/biocontainers/bioconductor-meigor/status
    :target: https://quay.io/repository/biocontainers/bioconductor-meigor

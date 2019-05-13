@@ -50,6 +50,7 @@ bioconductor-dss
 
 
 .. |downloads_bioconductor-dss| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dss.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dss
    :alt:   (downloads)
 .. |docker_bioconductor-dss| image:: https://quay.io/repository/biocontainers/bioconductor-dss/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dss

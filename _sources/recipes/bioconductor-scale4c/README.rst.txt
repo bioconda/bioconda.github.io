@@ -49,6 +49,7 @@ bioconductor-scale4c
 
 
 .. |downloads_bioconductor-scale4c| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scale4c.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-scale4c
    :alt:   (downloads)
 .. |docker_bioconductor-scale4c| image:: https://quay.io/repository/biocontainers/bioconductor-scale4c/status
    :target: https://quay.io/repository/biocontainers/bioconductor-scale4c

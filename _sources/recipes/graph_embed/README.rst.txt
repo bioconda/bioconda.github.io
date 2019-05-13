@@ -50,6 +50,7 @@ graph_embed
 
 
 .. |downloads_graph_embed| image:: https://img.shields.io/conda/dn/bioconda/graph_embed.svg?style=flat
+   :target: https://anaconda.org/bioconda/graph_embed
    :alt:   (downloads)
 .. |docker_graph_embed| image:: https://quay.io/repository/biocontainers/graph_embed/status
    :target: https://quay.io/repository/biocontainers/graph_embed

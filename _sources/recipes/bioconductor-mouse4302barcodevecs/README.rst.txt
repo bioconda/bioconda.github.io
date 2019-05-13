@@ -46,6 +46,7 @@ bioconductor-mouse4302barcodevecs
 
 
 .. |downloads_bioconductor-mouse4302barcodevecs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mouse4302barcodevecs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mouse4302barcodevecs
    :alt:   (downloads)
 .. |docker_bioconductor-mouse4302barcodevecs| image:: https://quay.io/repository/biocontainers/bioconductor-mouse4302barcodevecs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mouse4302barcodevecs

@@ -45,6 +45,7 @@ perl-symbol
 
 
 .. |downloads_perl-symbol| image:: https://img.shields.io/conda/dn/bioconda/perl-symbol.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-symbol
    :alt:   (downloads)
 .. |docker_perl-symbol| image:: https://quay.io/repository/biocontainers/perl-symbol/status
    :target: https://quay.io/repository/biocontainers/perl-symbol

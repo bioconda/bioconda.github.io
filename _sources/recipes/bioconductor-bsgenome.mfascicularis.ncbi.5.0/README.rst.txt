@@ -47,6 +47,7 @@ bioconductor-bsgenome.mfascicularis.ncbi.5.0
 
 
 .. |downloads_bioconductor-bsgenome.mfascicularis.ncbi.5.0| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.mfascicularis.ncbi.5.0.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome.mfascicularis.ncbi.5.0
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.mfascicularis.ncbi.5.0| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.mfascicularis.ncbi.5.0/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.mfascicularis.ncbi.5.0

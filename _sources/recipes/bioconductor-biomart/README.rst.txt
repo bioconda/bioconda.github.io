@@ -52,6 +52,7 @@ bioconductor-biomart
 
 
 .. |downloads_bioconductor-biomart| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biomart.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-biomart
    :alt:   (downloads)
 .. |docker_bioconductor-biomart| image:: https://quay.io/repository/biocontainers/bioconductor-biomart/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biomart

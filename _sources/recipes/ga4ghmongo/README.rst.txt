@@ -46,6 +46,7 @@ ga4ghmongo
 
 
 .. |downloads_ga4ghmongo| image:: https://img.shields.io/conda/dn/bioconda/ga4ghmongo.svg?style=flat
+   :target: https://anaconda.org/bioconda/ga4ghmongo
    :alt:   (downloads)
 .. |docker_ga4ghmongo| image:: https://quay.io/repository/biocontainers/ga4ghmongo/status
    :target: https://quay.io/repository/biocontainers/ga4ghmongo

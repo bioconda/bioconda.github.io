@@ -52,6 +52,7 @@ bioconductor-geneselector
 
 
 .. |downloads_bioconductor-geneselector| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geneselector.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-geneselector
    :alt:   (downloads)
 .. |docker_bioconductor-geneselector| image:: https://quay.io/repository/biocontainers/bioconductor-geneselector/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geneselector

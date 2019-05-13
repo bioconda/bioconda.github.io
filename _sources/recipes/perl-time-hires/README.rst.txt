@@ -50,6 +50,7 @@ perl-time-hires
 
 
 .. |downloads_perl-time-hires| image:: https://img.shields.io/conda/dn/bioconda/perl-time-hires.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-time-hires
    :alt:   (downloads)
 .. |docker_perl-time-hires| image:: https://quay.io/repository/biocontainers/perl-time-hires/status
    :target: https://quay.io/repository/biocontainers/perl-time-hires

@@ -53,6 +53,7 @@ perl-uri
 
 
 .. |downloads_perl-uri| image:: https://img.shields.io/conda/dn/bioconda/perl-uri.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-uri
    :alt:   (downloads)
 .. |docker_perl-uri| image:: https://quay.io/repository/biocontainers/perl-uri/status
    :target: https://quay.io/repository/biocontainers/perl-uri

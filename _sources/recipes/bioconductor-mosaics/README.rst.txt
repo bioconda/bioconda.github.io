@@ -57,6 +57,7 @@ bioconductor-mosaics
 
 
 .. |downloads_bioconductor-mosaics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mosaics.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mosaics
    :alt:   (downloads)
 .. |docker_bioconductor-mosaics| image:: https://quay.io/repository/biocontainers/bioconductor-mosaics/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mosaics

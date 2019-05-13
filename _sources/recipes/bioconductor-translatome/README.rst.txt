@@ -59,6 +59,7 @@ bioconductor-translatome
 
 
 .. |downloads_bioconductor-translatome| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-translatome.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-translatome
    :alt:   (downloads)
 .. |docker_bioconductor-translatome| image:: https://quay.io/repository/biocontainers/bioconductor-translatome/status
    :target: https://quay.io/repository/biocontainers/bioconductor-translatome

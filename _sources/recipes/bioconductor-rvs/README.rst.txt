@@ -48,6 +48,7 @@ bioconductor-rvs
 
 
 .. |downloads_bioconductor-rvs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rvs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rvs
    :alt:   (downloads)
 .. |docker_bioconductor-rvs| image:: https://quay.io/repository/biocontainers/bioconductor-rvs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rvs

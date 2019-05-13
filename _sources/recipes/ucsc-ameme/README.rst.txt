@@ -50,6 +50,7 @@ ucsc-ameme
 
 
 .. |downloads_ucsc-ameme| image:: https://img.shields.io/conda/dn/bioconda/ucsc-ameme.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-ameme
    :alt:   (downloads)
 .. |docker_ucsc-ameme| image:: https://quay.io/repository/biocontainers/ucsc-ameme/status
    :target: https://quay.io/repository/biocontainers/ucsc-ameme

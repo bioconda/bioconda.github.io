@@ -50,6 +50,7 @@ bioconductor-lmgene
 
 
 .. |downloads_bioconductor-lmgene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lmgene.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lmgene
    :alt:   (downloads)
 .. |docker_bioconductor-lmgene| image:: https://quay.io/repository/biocontainers/bioconductor-lmgene/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lmgene

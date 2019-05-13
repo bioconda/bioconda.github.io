@@ -74,6 +74,7 @@ stream
 
 
 .. |downloads_stream| image:: https://img.shields.io/conda/dn/bioconda/stream.svg?style=flat
+   :target: https://anaconda.org/bioconda/stream
    :alt:   (downloads)
 .. |docker_stream| image:: https://quay.io/repository/biocontainers/stream/status
    :target: https://quay.io/repository/biocontainers/stream

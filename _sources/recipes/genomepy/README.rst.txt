@@ -56,6 +56,7 @@ genomepy
 
 
 .. |downloads_genomepy| image:: https://img.shields.io/conda/dn/bioconda/genomepy.svg?style=flat
+   :target: https://anaconda.org/bioconda/genomepy
    :alt:   (downloads)
 .. |docker_genomepy| image:: https://quay.io/repository/biocontainers/genomepy/status
    :target: https://quay.io/repository/biocontainers/genomepy

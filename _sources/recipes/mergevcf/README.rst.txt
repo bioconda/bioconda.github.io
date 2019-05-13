@@ -46,6 +46,7 @@ mergevcf
 
 
 .. |downloads_mergevcf| image:: https://img.shields.io/conda/dn/bioconda/mergevcf.svg?style=flat
+   :target: https://anaconda.org/bioconda/mergevcf
    :alt:   (downloads)
 .. |docker_mergevcf| image:: https://quay.io/repository/biocontainers/mergevcf/status
    :target: https://quay.io/repository/biocontainers/mergevcf

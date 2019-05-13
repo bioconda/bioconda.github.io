@@ -48,6 +48,7 @@ bioconductor-affyio
 
 
 .. |downloads_bioconductor-affyio| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affyio.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-affyio
    :alt:   (downloads)
 .. |docker_bioconductor-affyio| image:: https://quay.io/repository/biocontainers/bioconductor-affyio/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affyio

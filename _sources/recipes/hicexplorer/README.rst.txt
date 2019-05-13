@@ -67,6 +67,7 @@ hicexplorer
 
 
 .. |downloads_hicexplorer| image:: https://img.shields.io/conda/dn/bioconda/hicexplorer.svg?style=flat
+   :target: https://anaconda.org/bioconda/hicexplorer
    :alt:   (downloads)
 .. |docker_hicexplorer| image:: https://quay.io/repository/biocontainers/hicexplorer/status
    :target: https://quay.io/repository/biocontainers/hicexplorer

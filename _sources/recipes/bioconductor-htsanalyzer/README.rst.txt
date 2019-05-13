@@ -53,6 +53,7 @@ bioconductor-htsanalyzer
 
 
 .. |downloads_bioconductor-htsanalyzer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-htsanalyzer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-htsanalyzer
    :alt:   (downloads)
 .. |docker_bioconductor-htsanalyzer| image:: https://quay.io/repository/biocontainers/bioconductor-htsanalyzer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-htsanalyzer

@@ -52,6 +52,7 @@ bioconductor-homo.sapiens
 
 
 .. |downloads_bioconductor-homo.sapiens| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-homo.sapiens.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-homo.sapiens
    :alt:   (downloads)
 .. |docker_bioconductor-homo.sapiens| image:: https://quay.io/repository/biocontainers/bioconductor-homo.sapiens/status
    :target: https://quay.io/repository/biocontainers/bioconductor-homo.sapiens

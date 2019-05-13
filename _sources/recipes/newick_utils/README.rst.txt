@@ -46,6 +46,7 @@ newick_utils
 
 
 .. |downloads_newick_utils| image:: https://img.shields.io/conda/dn/bioconda/newick_utils.svg?style=flat
+   :target: https://anaconda.org/bioconda/newick_utils
    :alt:   (downloads)
 .. |docker_newick_utils| image:: https://quay.io/repository/biocontainers/newick_utils/status
    :target: https://quay.io/repository/biocontainers/newick_utils

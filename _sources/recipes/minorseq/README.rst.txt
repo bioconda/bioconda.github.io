@@ -47,6 +47,7 @@ minorseq
 
 
 .. |downloads_minorseq| image:: https://img.shields.io/conda/dn/bioconda/minorseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/minorseq
    :alt:   (downloads)
 .. |docker_minorseq| image:: https://quay.io/repository/biocontainers/minorseq/status
    :target: https://quay.io/repository/biocontainers/minorseq

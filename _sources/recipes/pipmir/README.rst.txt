@@ -48,6 +48,7 @@ pipmir
 
 
 .. |downloads_pipmir| image:: https://img.shields.io/conda/dn/bioconda/pipmir.svg?style=flat
+   :target: https://anaconda.org/bioconda/pipmir
    :alt:   (downloads)
 .. |docker_pipmir| image:: https://quay.io/repository/biocontainers/pipmir/status
    :target: https://quay.io/repository/biocontainers/pipmir

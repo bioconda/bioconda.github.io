@@ -52,6 +52,7 @@ htstream
 
 
 .. |downloads_htstream| image:: https://img.shields.io/conda/dn/bioconda/htstream.svg?style=flat
+   :target: https://anaconda.org/bioconda/htstream
    :alt:   (downloads)
 .. |docker_htstream| image:: https://quay.io/repository/biocontainers/htstream/status
    :target: https://quay.io/repository/biocontainers/htstream

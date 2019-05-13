@@ -63,6 +63,7 @@ dammit
 
 
 .. |downloads_dammit| image:: https://img.shields.io/conda/dn/bioconda/dammit.svg?style=flat
+   :target: https://anaconda.org/bioconda/dammit
    :alt:   (downloads)
 .. |docker_dammit| image:: https://quay.io/repository/biocontainers/dammit/status
    :target: https://quay.io/repository/biocontainers/dammit

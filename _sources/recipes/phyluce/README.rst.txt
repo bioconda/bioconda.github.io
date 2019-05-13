@@ -72,6 +72,7 @@ phyluce
 
 
 .. |downloads_phyluce| image:: https://img.shields.io/conda/dn/bioconda/phyluce.svg?style=flat
+   :target: https://anaconda.org/bioconda/phyluce
    :alt:   (downloads)
 .. |docker_phyluce| image:: https://quay.io/repository/biocontainers/phyluce/status
    :target: https://quay.io/repository/biocontainers/phyluce

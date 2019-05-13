@@ -62,6 +62,7 @@ oncotator
 
 
 .. |downloads_oncotator| image:: https://img.shields.io/conda/dn/bioconda/oncotator.svg?style=flat
+   :target: https://anaconda.org/bioconda/oncotator
    :alt:   (downloads)
 .. |docker_oncotator| image:: https://quay.io/repository/biocontainers/oncotator/status
    :target: https://quay.io/repository/biocontainers/oncotator

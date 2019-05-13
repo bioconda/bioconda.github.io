@@ -46,6 +46,7 @@ perl-ntlm
 
 
 .. |downloads_perl-ntlm| image:: https://img.shields.io/conda/dn/bioconda/perl-ntlm.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-ntlm
    :alt:   (downloads)
 .. |docker_perl-ntlm| image:: https://quay.io/repository/biocontainers/perl-ntlm/status
    :target: https://quay.io/repository/biocontainers/perl-ntlm

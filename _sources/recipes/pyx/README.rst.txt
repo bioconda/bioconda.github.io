@@ -45,6 +45,7 @@ pyx
 
 
 .. |downloads_pyx| image:: https://img.shields.io/conda/dn/bioconda/pyx.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyx
    :alt:   (downloads)
 .. |docker_pyx| image:: https://quay.io/repository/biocontainers/pyx/status
    :target: https://quay.io/repository/biocontainers/pyx

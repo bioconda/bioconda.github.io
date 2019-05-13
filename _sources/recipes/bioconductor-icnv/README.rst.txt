@@ -53,6 +53,7 @@ bioconductor-icnv
 
 
 .. |downloads_bioconductor-icnv| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-icnv.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-icnv
    :alt:   (downloads)
 .. |docker_bioconductor-icnv| image:: https://quay.io/repository/biocontainers/bioconductor-icnv/status
    :target: https://quay.io/repository/biocontainers/bioconductor-icnv

@@ -46,6 +46,7 @@ microhapdb
 
 
 .. |downloads_microhapdb| image:: https://img.shields.io/conda/dn/bioconda/microhapdb.svg?style=flat
+   :target: https://anaconda.org/bioconda/microhapdb
    :alt:   (downloads)
 .. |docker_microhapdb| image:: https://quay.io/repository/biocontainers/microhapdb/status
    :target: https://quay.io/repository/biocontainers/microhapdb

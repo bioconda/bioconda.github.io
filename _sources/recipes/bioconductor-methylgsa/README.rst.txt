@@ -56,6 +56,7 @@ bioconductor-methylgsa
 
 
 .. |downloads_bioconductor-methylgsa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methylgsa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-methylgsa
    :alt:   (downloads)
 .. |docker_bioconductor-methylgsa| image:: https://quay.io/repository/biocontainers/bioconductor-methylgsa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-methylgsa

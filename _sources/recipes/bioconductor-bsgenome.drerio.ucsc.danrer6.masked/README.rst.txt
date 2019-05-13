@@ -48,6 +48,7 @@ bioconductor-bsgenome.drerio.ucsc.danrer6.masked
 
 
 .. |downloads_bioconductor-bsgenome.drerio.ucsc.danrer6.masked| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.drerio.ucsc.danrer6.masked.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome.drerio.ucsc.danrer6.masked
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.drerio.ucsc.danrer6.masked| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.drerio.ucsc.danrer6.masked/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.drerio.ucsc.danrer6.masked

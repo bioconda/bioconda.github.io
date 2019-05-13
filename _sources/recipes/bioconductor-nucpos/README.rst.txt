@@ -46,6 +46,7 @@ bioconductor-nucpos
 
 
 .. |downloads_bioconductor-nucpos| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-nucpos.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-nucpos
    :alt:   (downloads)
 .. |docker_bioconductor-nucpos| image:: https://quay.io/repository/biocontainers/bioconductor-nucpos/status
    :target: https://quay.io/repository/biocontainers/bioconductor-nucpos

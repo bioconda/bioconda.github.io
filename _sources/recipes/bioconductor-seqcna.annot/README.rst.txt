@@ -46,6 +46,7 @@ bioconductor-seqcna.annot
 
 
 .. |downloads_bioconductor-seqcna.annot| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-seqcna.annot.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-seqcna.annot
    :alt:   (downloads)
 .. |docker_bioconductor-seqcna.annot| image:: https://quay.io/repository/biocontainers/bioconductor-seqcna.annot/status
    :target: https://quay.io/repository/biocontainers/bioconductor-seqcna.annot

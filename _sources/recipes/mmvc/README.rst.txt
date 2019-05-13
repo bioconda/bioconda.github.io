@@ -45,6 +45,7 @@ mmvc
 
 
 .. |downloads_mmvc| image:: https://img.shields.io/conda/dn/bioconda/mmvc.svg?style=flat
+   :target: https://anaconda.org/bioconda/mmvc
    :alt:   (downloads)
 .. |docker_mmvc| image:: https://quay.io/repository/biocontainers/mmvc/status
    :target: https://quay.io/repository/biocontainers/mmvc

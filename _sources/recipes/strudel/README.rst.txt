@@ -45,6 +45,7 @@ strudel
 
 
 .. |downloads_strudel| image:: https://img.shields.io/conda/dn/bioconda/strudel.svg?style=flat
+   :target: https://anaconda.org/bioconda/strudel
    :alt:   (downloads)
 .. |docker_strudel| image:: https://quay.io/repository/biocontainers/strudel/status
    :target: https://quay.io/repository/biocontainers/strudel

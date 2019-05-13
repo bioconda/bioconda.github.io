@@ -52,6 +52,7 @@ capc-map
 
 
 .. |downloads_capc-map| image:: https://img.shields.io/conda/dn/bioconda/capc-map.svg?style=flat
+   :target: https://anaconda.org/bioconda/capc-map
    :alt:   (downloads)
 .. |docker_capc-map| image:: https://quay.io/repository/biocontainers/capc-map/status
    :target: https://quay.io/repository/biocontainers/capc-map

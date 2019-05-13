@@ -50,6 +50,7 @@ ucsc-maftopsl
 
 
 .. |downloads_ucsc-maftopsl| image:: https://img.shields.io/conda/dn/bioconda/ucsc-maftopsl.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-maftopsl
    :alt:   (downloads)
 .. |docker_ucsc-maftopsl| image:: https://quay.io/repository/biocontainers/ucsc-maftopsl/status
    :target: https://quay.io/repository/biocontainers/ucsc-maftopsl

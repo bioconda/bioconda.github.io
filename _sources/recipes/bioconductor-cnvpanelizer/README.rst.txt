@@ -64,6 +64,7 @@ bioconductor-cnvpanelizer
 
 
 .. |downloads_bioconductor-cnvpanelizer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cnvpanelizer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cnvpanelizer
    :alt:   (downloads)
 .. |docker_bioconductor-cnvpanelizer| image:: https://quay.io/repository/biocontainers/bioconductor-cnvpanelizer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cnvpanelizer

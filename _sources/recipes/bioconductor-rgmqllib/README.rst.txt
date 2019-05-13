@@ -46,6 +46,7 @@ bioconductor-rgmqllib
 
 
 .. |downloads_bioconductor-rgmqllib| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rgmqllib.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rgmqllib
    :alt:   (downloads)
 .. |docker_bioconductor-rgmqllib| image:: https://quay.io/repository/biocontainers/bioconductor-rgmqllib/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rgmqllib

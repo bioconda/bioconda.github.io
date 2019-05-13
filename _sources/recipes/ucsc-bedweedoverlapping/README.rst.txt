@@ -50,6 +50,7 @@ ucsc-bedweedoverlapping
 
 
 .. |downloads_ucsc-bedweedoverlapping| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bedweedoverlapping.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bedweedoverlapping
    :alt:   (downloads)
 .. |docker_ucsc-bedweedoverlapping| image:: https://quay.io/repository/biocontainers/ucsc-bedweedoverlapping/status
    :target: https://quay.io/repository/biocontainers/ucsc-bedweedoverlapping

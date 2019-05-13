@@ -47,6 +47,7 @@ bioconductor-parathyroidse
 
 
 .. |downloads_bioconductor-parathyroidse| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-parathyroidse.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-parathyroidse
    :alt:   (downloads)
 .. |docker_bioconductor-parathyroidse| image:: https://quay.io/repository/biocontainers/bioconductor-parathyroidse/status
    :target: https://quay.io/repository/biocontainers/bioconductor-parathyroidse

@@ -57,6 +57,7 @@ bioconductor-kebabs
 
 
 .. |downloads_bioconductor-kebabs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-kebabs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-kebabs
    :alt:   (downloads)
 .. |docker_bioconductor-kebabs| image:: https://quay.io/repository/biocontainers/bioconductor-kebabs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-kebabs

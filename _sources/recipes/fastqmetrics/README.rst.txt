@@ -46,6 +46,7 @@ fastqmetrics
 
 
 .. |downloads_fastqmetrics| image:: https://img.shields.io/conda/dn/bioconda/fastqmetrics.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastqmetrics
    :alt:   (downloads)
 .. |docker_fastqmetrics| image:: https://quay.io/repository/biocontainers/fastqmetrics/status
    :target: https://quay.io/repository/biocontainers/fastqmetrics

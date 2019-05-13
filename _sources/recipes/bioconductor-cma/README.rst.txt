@@ -47,6 +47,7 @@ bioconductor-cma
 
 
 .. |downloads_bioconductor-cma| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cma.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cma
    :alt:   (downloads)
 .. |docker_bioconductor-cma| image:: https://quay.io/repository/biocontainers/bioconductor-cma/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cma

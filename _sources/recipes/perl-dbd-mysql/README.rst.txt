@@ -50,6 +50,7 @@ perl-dbd-mysql
 
 
 .. |downloads_perl-dbd-mysql| image:: https://img.shields.io/conda/dn/bioconda/perl-dbd-mysql.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-dbd-mysql
    :alt:   (downloads)
 .. |docker_perl-dbd-mysql| image:: https://quay.io/repository/biocontainers/perl-dbd-mysql/status
    :target: https://quay.io/repository/biocontainers/perl-dbd-mysql

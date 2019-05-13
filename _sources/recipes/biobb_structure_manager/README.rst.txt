@@ -57,6 +57,7 @@ biobb_structure_manager
 
 
 .. |downloads_biobb_structure_manager| image:: https://img.shields.io/conda/dn/bioconda/biobb_structure_manager.svg?style=flat
+   :target: https://anaconda.org/bioconda/biobb_structure_manager
    :alt:   (downloads)
 .. |docker_biobb_structure_manager| image:: https://quay.io/repository/biocontainers/biobb_structure_manager/status
    :target: https://quay.io/repository/biocontainers/biobb_structure_manager

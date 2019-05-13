@@ -46,6 +46,7 @@ bioconductor-mosaicsexample
 
 
 .. |downloads_bioconductor-mosaicsexample| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mosaicsexample.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mosaicsexample
    :alt:   (downloads)
 .. |docker_bioconductor-mosaicsexample| image:: https://quay.io/repository/biocontainers/bioconductor-mosaicsexample/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mosaicsexample

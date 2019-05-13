@@ -49,6 +49,7 @@ taxmapper
 
 
 .. |downloads_taxmapper| image:: https://img.shields.io/conda/dn/bioconda/taxmapper.svg?style=flat
+   :target: https://anaconda.org/bioconda/taxmapper
    :alt:   (downloads)
 .. |docker_taxmapper| image:: https://quay.io/repository/biocontainers/taxmapper/status
    :target: https://quay.io/repository/biocontainers/taxmapper

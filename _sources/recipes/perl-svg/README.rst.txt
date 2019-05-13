@@ -45,6 +45,7 @@ perl-svg
 
 
 .. |downloads_perl-svg| image:: https://img.shields.io/conda/dn/bioconda/perl-svg.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-svg
    :alt:   (downloads)
 .. |docker_perl-svg| image:: https://quay.io/repository/biocontainers/perl-svg/status
    :target: https://quay.io/repository/biocontainers/perl-svg

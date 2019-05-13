@@ -45,6 +45,7 @@ star
 
 
 .. |downloads_star| image:: https://img.shields.io/conda/dn/bioconda/star.svg?style=flat
+   :target: https://anaconda.org/bioconda/star
    :alt:   (downloads)
 .. |docker_star| image:: https://quay.io/repository/biocontainers/star/status
    :target: https://quay.io/repository/biocontainers/star

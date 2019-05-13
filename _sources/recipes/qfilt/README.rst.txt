@@ -45,6 +45,7 @@ qfilt
 
 
 .. |downloads_qfilt| image:: https://img.shields.io/conda/dn/bioconda/qfilt.svg?style=flat
+   :target: https://anaconda.org/bioconda/qfilt
    :alt:   (downloads)
 .. |docker_qfilt| image:: https://quay.io/repository/biocontainers/qfilt/status
    :target: https://quay.io/repository/biocontainers/qfilt

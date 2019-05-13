@@ -50,6 +50,7 @@ ucsc-fanoise
 
 
 .. |downloads_ucsc-fanoise| image:: https://img.shields.io/conda/dn/bioconda/ucsc-fanoise.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-fanoise
    :alt:   (downloads)
 .. |docker_ucsc-fanoise| image:: https://quay.io/repository/biocontainers/ucsc-fanoise/status
    :target: https://quay.io/repository/biocontainers/ucsc-fanoise

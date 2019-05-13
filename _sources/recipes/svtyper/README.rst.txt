@@ -49,6 +49,7 @@ svtyper
 
 
 .. |downloads_svtyper| image:: https://img.shields.io/conda/dn/bioconda/svtyper.svg?style=flat
+   :target: https://anaconda.org/bioconda/svtyper
    :alt:   (downloads)
 .. |docker_svtyper| image:: https://quay.io/repository/biocontainers/svtyper/status
    :target: https://quay.io/repository/biocontainers/svtyper

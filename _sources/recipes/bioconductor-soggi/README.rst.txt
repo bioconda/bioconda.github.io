@@ -61,6 +61,7 @@ bioconductor-soggi
 
 
 .. |downloads_bioconductor-soggi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-soggi.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-soggi
    :alt:   (downloads)
 .. |docker_bioconductor-soggi| image:: https://quay.io/repository/biocontainers/bioconductor-soggi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-soggi

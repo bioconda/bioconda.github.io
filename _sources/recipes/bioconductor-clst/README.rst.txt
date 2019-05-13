@@ -48,6 +48,7 @@ bioconductor-clst
 
 
 .. |downloads_bioconductor-clst| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clst.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-clst
    :alt:   (downloads)
 .. |docker_bioconductor-clst| image:: https://quay.io/repository/biocontainers/bioconductor-clst/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clst

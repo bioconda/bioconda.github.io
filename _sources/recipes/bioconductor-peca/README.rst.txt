@@ -53,6 +53,7 @@ bioconductor-peca
 
 
 .. |downloads_bioconductor-peca| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-peca.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-peca
    :alt:   (downloads)
 .. |docker_bioconductor-peca| image:: https://quay.io/repository/biocontainers/bioconductor-peca/status
    :target: https://quay.io/repository/biocontainers/bioconductor-peca

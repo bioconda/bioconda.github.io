@@ -47,6 +47,7 @@ bioconductor-bcellviper
 
 
 .. |downloads_bioconductor-bcellviper| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bcellviper.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bcellviper
    :alt:   (downloads)
 .. |docker_bioconductor-bcellviper| image:: https://quay.io/repository/biocontainers/bioconductor-bcellviper/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bcellviper

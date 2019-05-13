@@ -49,6 +49,7 @@ ig-checkflowtypes
 
 
 .. |downloads_ig-checkflowtypes| image:: https://img.shields.io/conda/dn/bioconda/ig-checkflowtypes.svg?style=flat
+   :target: https://anaconda.org/bioconda/ig-checkflowtypes
    :alt:   (downloads)
 .. |docker_ig-checkflowtypes| image:: https://quay.io/repository/biocontainers/ig-checkflowtypes/status
    :target: https://quay.io/repository/biocontainers/ig-checkflowtypes

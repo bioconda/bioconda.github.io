@@ -45,6 +45,7 @@ dialign-tx
 
 
 .. |downloads_dialign-tx| image:: https://img.shields.io/conda/dn/bioconda/dialign-tx.svg?style=flat
+   :target: https://anaconda.org/bioconda/dialign-tx
    :alt:   (downloads)
 .. |docker_dialign-tx| image:: https://quay.io/repository/biocontainers/dialign-tx/status
    :target: https://quay.io/repository/biocontainers/dialign-tx

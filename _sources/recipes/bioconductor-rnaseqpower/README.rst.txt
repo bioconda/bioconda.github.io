@@ -46,6 +46,7 @@ bioconductor-rnaseqpower
 
 
 .. |downloads_bioconductor-rnaseqpower| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rnaseqpower.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rnaseqpower
    :alt:   (downloads)
 .. |docker_bioconductor-rnaseqpower| image:: https://quay.io/repository/biocontainers/bioconductor-rnaseqpower/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rnaseqpower

@@ -50,6 +50,7 @@ r-nodiv
 
 
 .. |downloads_r-nodiv| image:: https://img.shields.io/conda/dn/bioconda/r-nodiv.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-nodiv
    :alt:   (downloads)
 .. |docker_r-nodiv| image:: https://quay.io/repository/biocontainers/r-nodiv/status
    :target: https://quay.io/repository/biocontainers/r-nodiv

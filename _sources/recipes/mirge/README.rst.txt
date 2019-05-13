@@ -54,6 +54,7 @@ mirge
 
 
 .. |downloads_mirge| image:: https://img.shields.io/conda/dn/bioconda/mirge.svg?style=flat
+   :target: https://anaconda.org/bioconda/mirge
    :alt:   (downloads)
 .. |docker_mirge| image:: https://quay.io/repository/biocontainers/mirge/status
    :target: https://quay.io/repository/biocontainers/mirge

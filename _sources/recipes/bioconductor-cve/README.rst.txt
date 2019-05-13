@@ -56,6 +56,7 @@ bioconductor-cve
 
 
 .. |downloads_bioconductor-cve| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cve.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cve
    :alt:   (downloads)
 .. |docker_bioconductor-cve| image:: https://quay.io/repository/biocontainers/bioconductor-cve/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cve

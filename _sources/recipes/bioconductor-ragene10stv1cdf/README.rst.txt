@@ -47,6 +47,7 @@ bioconductor-ragene10stv1cdf
 
 
 .. |downloads_bioconductor-ragene10stv1cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ragene10stv1cdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ragene10stv1cdf
    :alt:   (downloads)
 .. |docker_bioconductor-ragene10stv1cdf| image:: https://quay.io/repository/biocontainers/bioconductor-ragene10stv1cdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ragene10stv1cdf

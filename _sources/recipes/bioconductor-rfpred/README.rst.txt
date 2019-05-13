@@ -51,6 +51,7 @@ bioconductor-rfpred
 
 
 .. |downloads_bioconductor-rfpred| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rfpred.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rfpred
    :alt:   (downloads)
 .. |docker_bioconductor-rfpred| image:: https://quay.io/repository/biocontainers/bioconductor-rfpred/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rfpred

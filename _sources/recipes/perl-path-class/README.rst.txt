@@ -51,6 +51,7 @@ perl-path-class
 
 
 .. |downloads_perl-path-class| image:: https://img.shields.io/conda/dn/bioconda/perl-path-class.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-path-class
    :alt:   (downloads)
 .. |docker_perl-path-class| image:: https://quay.io/repository/biocontainers/perl-path-class/status
    :target: https://quay.io/repository/biocontainers/perl-path-class

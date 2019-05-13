@@ -52,6 +52,7 @@ perl-html-formatter
 
 
 .. |downloads_perl-html-formatter| image:: https://img.shields.io/conda/dn/bioconda/perl-html-formatter.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-html-formatter
    :alt:   (downloads)
 .. |docker_perl-html-formatter| image:: https://quay.io/repository/biocontainers/perl-html-formatter/status
    :target: https://quay.io/repository/biocontainers/perl-html-formatter

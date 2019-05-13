@@ -50,6 +50,7 @@ suppa
 
 
 .. |downloads_suppa| image:: https://img.shields.io/conda/dn/bioconda/suppa.svg?style=flat
+   :target: https://anaconda.org/bioconda/suppa
    :alt:   (downloads)
 .. |docker_suppa| image:: https://quay.io/repository/biocontainers/suppa/status
    :target: https://quay.io/repository/biocontainers/suppa

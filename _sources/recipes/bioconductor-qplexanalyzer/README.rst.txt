@@ -64,6 +64,7 @@ bioconductor-qplexanalyzer
 
 
 .. |downloads_bioconductor-qplexanalyzer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-qplexanalyzer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-qplexanalyzer
    :alt:   (downloads)
 .. |docker_bioconductor-qplexanalyzer| image:: https://quay.io/repository/biocontainers/bioconductor-qplexanalyzer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-qplexanalyzer

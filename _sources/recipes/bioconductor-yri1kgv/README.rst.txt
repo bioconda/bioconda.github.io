@@ -48,6 +48,7 @@ bioconductor-yri1kgv
 
 
 .. |downloads_bioconductor-yri1kgv| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-yri1kgv.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-yri1kgv
    :alt:   (downloads)
 .. |docker_bioconductor-yri1kgv| image:: https://quay.io/repository/biocontainers/bioconductor-yri1kgv/status
    :target: https://quay.io/repository/biocontainers/bioconductor-yri1kgv

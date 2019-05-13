@@ -66,6 +66,7 @@ bioconductor-chipseeker
 
 
 .. |downloads_bioconductor-chipseeker| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chipseeker.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chipseeker
    :alt:   (downloads)
 .. |docker_bioconductor-chipseeker| image:: https://quay.io/repository/biocontainers/bioconductor-chipseeker/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chipseeker

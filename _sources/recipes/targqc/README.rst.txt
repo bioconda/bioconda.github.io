@@ -66,6 +66,7 @@ targqc
 
 
 .. |downloads_targqc| image:: https://img.shields.io/conda/dn/bioconda/targqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/targqc
    :alt:   (downloads)
 .. |docker_targqc| image:: https://quay.io/repository/biocontainers/targqc/status
    :target: https://quay.io/repository/biocontainers/targqc

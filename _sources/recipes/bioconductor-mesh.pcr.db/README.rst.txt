@@ -47,6 +47,7 @@ bioconductor-mesh.pcr.db
 
 
 .. |downloads_bioconductor-mesh.pcr.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mesh.pcr.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mesh.pcr.db
    :alt:   (downloads)
 .. |docker_bioconductor-mesh.pcr.db| image:: https://quay.io/repository/biocontainers/bioconductor-mesh.pcr.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mesh.pcr.db

@@ -46,6 +46,7 @@ red
 
 
 .. |downloads_red| image:: https://img.shields.io/conda/dn/bioconda/red.svg?style=flat
+   :target: https://anaconda.org/bioconda/red
    :alt:   (downloads)
 .. |docker_red| image:: https://quay.io/repository/biocontainers/red/status
    :target: https://quay.io/repository/biocontainers/red

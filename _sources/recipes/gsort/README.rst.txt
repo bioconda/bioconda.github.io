@@ -44,6 +44,7 @@ gsort
 
 
 .. |downloads_gsort| image:: https://img.shields.io/conda/dn/bioconda/gsort.svg?style=flat
+   :target: https://anaconda.org/bioconda/gsort
    :alt:   (downloads)
 .. |docker_gsort| image:: https://quay.io/repository/biocontainers/gsort/status
    :target: https://quay.io/repository/biocontainers/gsort

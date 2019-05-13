@@ -52,6 +52,7 @@ atactk
 
 
 .. |downloads_atactk| image:: https://img.shields.io/conda/dn/bioconda/atactk.svg?style=flat
+   :target: https://anaconda.org/bioconda/atactk
    :alt:   (downloads)
 .. |docker_atactk| image:: https://quay.io/repository/biocontainers/atactk/status
    :target: https://quay.io/repository/biocontainers/atactk

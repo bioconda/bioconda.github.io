@@ -52,6 +52,7 @@ chado-tools
 
 
 .. |downloads_chado-tools| image:: https://img.shields.io/conda/dn/bioconda/chado-tools.svg?style=flat
+   :target: https://anaconda.org/bioconda/chado-tools
    :alt:   (downloads)
 .. |docker_chado-tools| image:: https://quay.io/repository/biocontainers/chado-tools/status
    :target: https://quay.io/repository/biocontainers/chado-tools

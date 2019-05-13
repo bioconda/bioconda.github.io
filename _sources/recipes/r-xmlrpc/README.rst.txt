@@ -47,6 +47,7 @@ r-xmlrpc
 
 
 .. |downloads_r-xmlrpc| image:: https://img.shields.io/conda/dn/bioconda/r-xmlrpc.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-xmlrpc
    :alt:   (downloads)
 .. |docker_r-xmlrpc| image:: https://quay.io/repository/biocontainers/r-xmlrpc/status
    :target: https://quay.io/repository/biocontainers/r-xmlrpc

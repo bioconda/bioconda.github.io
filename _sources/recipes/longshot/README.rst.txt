@@ -48,6 +48,7 @@ longshot
 
 
 .. |downloads_longshot| image:: https://img.shields.io/conda/dn/bioconda/longshot.svg?style=flat
+   :target: https://anaconda.org/bioconda/longshot
    :alt:   (downloads)
 .. |docker_longshot| image:: https://quay.io/repository/biocontainers/longshot/status
    :target: https://quay.io/repository/biocontainers/longshot

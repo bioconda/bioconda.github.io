@@ -50,6 +50,7 @@ saffrontree
 
 
 .. |downloads_saffrontree| image:: https://img.shields.io/conda/dn/bioconda/saffrontree.svg?style=flat
+   :target: https://anaconda.org/bioconda/saffrontree
    :alt:   (downloads)
 .. |docker_saffrontree| image:: https://quay.io/repository/biocontainers/saffrontree/status
    :target: https://quay.io/repository/biocontainers/saffrontree

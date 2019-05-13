@@ -46,6 +46,7 @@ bioconductor-wes.1kg.wugsc
 
 
 .. |downloads_bioconductor-wes.1kg.wugsc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-wes.1kg.wugsc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-wes.1kg.wugsc
    :alt:   (downloads)
 .. |docker_bioconductor-wes.1kg.wugsc| image:: https://quay.io/repository/biocontainers/bioconductor-wes.1kg.wugsc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-wes.1kg.wugsc

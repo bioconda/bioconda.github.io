@@ -47,6 +47,7 @@ fastsimbac
 
 
 .. |downloads_fastsimbac| image:: https://img.shields.io/conda/dn/bioconda/fastsimbac.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastsimbac
    :alt:   (downloads)
 .. |docker_fastsimbac| image:: https://quay.io/repository/biocontainers/fastsimbac/status
    :target: https://quay.io/repository/biocontainers/fastsimbac

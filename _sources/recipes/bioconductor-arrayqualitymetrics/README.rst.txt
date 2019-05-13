@@ -62,6 +62,7 @@ bioconductor-arrayqualitymetrics
 
 
 .. |downloads_bioconductor-arrayqualitymetrics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-arrayqualitymetrics.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-arrayqualitymetrics
    :alt:   (downloads)
 .. |docker_bioconductor-arrayqualitymetrics| image:: https://quay.io/repository/biocontainers/bioconductor-arrayqualitymetrics/status
    :target: https://quay.io/repository/biocontainers/bioconductor-arrayqualitymetrics

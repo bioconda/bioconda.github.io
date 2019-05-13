@@ -50,6 +50,7 @@ bs_call
 
 
 .. |downloads_bs_call| image:: https://img.shields.io/conda/dn/bioconda/bs_call.svg?style=flat
+   :target: https://anaconda.org/bioconda/bs_call
    :alt:   (downloads)
 .. |docker_bs_call| image:: https://quay.io/repository/biocontainers/bs_call/status
    :target: https://quay.io/repository/biocontainers/bs_call

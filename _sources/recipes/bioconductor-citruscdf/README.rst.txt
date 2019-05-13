@@ -47,6 +47,7 @@ bioconductor-citruscdf
 
 
 .. |downloads_bioconductor-citruscdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-citruscdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-citruscdf
    :alt:   (downloads)
 .. |docker_bioconductor-citruscdf| image:: https://quay.io/repository/biocontainers/bioconductor-citruscdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-citruscdf

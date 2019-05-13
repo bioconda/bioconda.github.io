@@ -47,6 +47,7 @@ r-rtfbs
 
 
 .. |downloads_r-rtfbs| image:: https://img.shields.io/conda/dn/bioconda/r-rtfbs.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-rtfbs
    :alt:   (downloads)
 .. |docker_r-rtfbs| image:: https://quay.io/repository/biocontainers/r-rtfbs/status
    :target: https://quay.io/repository/biocontainers/r-rtfbs

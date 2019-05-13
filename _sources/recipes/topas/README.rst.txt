@@ -46,6 +46,7 @@ topas
 
 
 .. |downloads_topas| image:: https://img.shields.io/conda/dn/bioconda/topas.svg?style=flat
+   :target: https://anaconda.org/bioconda/topas
    :alt:   (downloads)
 .. |docker_topas| image:: https://quay.io/repository/biocontainers/topas/status
    :target: https://quay.io/repository/biocontainers/topas

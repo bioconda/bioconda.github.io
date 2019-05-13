@@ -53,6 +53,7 @@ eqtlbma
 
 
 .. |downloads_eqtlbma| image:: https://img.shields.io/conda/dn/bioconda/eqtlbma.svg?style=flat
+   :target: https://anaconda.org/bioconda/eqtlbma
    :alt:   (downloads)
 .. |docker_eqtlbma| image:: https://quay.io/repository/biocontainers/eqtlbma/status
    :target: https://quay.io/repository/biocontainers/eqtlbma

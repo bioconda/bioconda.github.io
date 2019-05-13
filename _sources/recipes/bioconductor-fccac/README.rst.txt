@@ -54,6 +54,7 @@ bioconductor-fccac
 
 
 .. |downloads_bioconductor-fccac| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fccac.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-fccac
    :alt:   (downloads)
 .. |docker_bioconductor-fccac| image:: https://quay.io/repository/biocontainers/bioconductor-fccac/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fccac

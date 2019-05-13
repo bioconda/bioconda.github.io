@@ -45,6 +45,7 @@ perl-xsloader
 
 
 .. |downloads_perl-xsloader| image:: https://img.shields.io/conda/dn/bioconda/perl-xsloader.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-xsloader
    :alt:   (downloads)
 .. |docker_perl-xsloader| image:: https://quay.io/repository/biocontainers/perl-xsloader/status
    :target: https://quay.io/repository/biocontainers/perl-xsloader

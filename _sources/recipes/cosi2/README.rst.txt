@@ -46,6 +46,7 @@ cosi2
 
 
 .. |downloads_cosi2| image:: https://img.shields.io/conda/dn/bioconda/cosi2.svg?style=flat
+   :target: https://anaconda.org/bioconda/cosi2
    :alt:   (downloads)
 .. |docker_cosi2| image:: https://quay.io/repository/biocontainers/cosi2/status
    :target: https://quay.io/repository/biocontainers/cosi2

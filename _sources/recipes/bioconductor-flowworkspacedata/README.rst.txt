@@ -46,6 +46,7 @@ bioconductor-flowworkspacedata
 
 
 .. |downloads_bioconductor-flowworkspacedata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowworkspacedata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowworkspacedata
    :alt:   (downloads)
 .. |docker_bioconductor-flowworkspacedata| image:: https://quay.io/repository/biocontainers/bioconductor-flowworkspacedata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowworkspacedata

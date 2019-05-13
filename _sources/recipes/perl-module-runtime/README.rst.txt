@@ -45,6 +45,7 @@ perl-module-runtime
 
 
 .. |downloads_perl-module-runtime| image:: https://img.shields.io/conda/dn/bioconda/perl-module-runtime.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-module-runtime
    :alt:   (downloads)
 .. |docker_perl-module-runtime| image:: https://quay.io/repository/biocontainers/perl-module-runtime/status
    :target: https://quay.io/repository/biocontainers/perl-module-runtime

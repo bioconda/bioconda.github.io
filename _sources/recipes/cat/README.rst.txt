@@ -48,6 +48,7 @@ cat
 
 
 .. |downloads_cat| image:: https://img.shields.io/conda/dn/bioconda/cat.svg?style=flat
+   :target: https://anaconda.org/bioconda/cat
    :alt:   (downloads)
 .. |docker_cat| image:: https://quay.io/repository/biocontainers/cat/status
    :target: https://quay.io/repository/biocontainers/cat

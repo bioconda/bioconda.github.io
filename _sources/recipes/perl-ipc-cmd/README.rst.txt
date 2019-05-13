@@ -50,6 +50,7 @@ perl-ipc-cmd
 
 
 .. |downloads_perl-ipc-cmd| image:: https://img.shields.io/conda/dn/bioconda/perl-ipc-cmd.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-ipc-cmd
    :alt:   (downloads)
 .. |docker_perl-ipc-cmd| image:: https://quay.io/repository/biocontainers/perl-ipc-cmd/status
    :target: https://quay.io/repository/biocontainers/perl-ipc-cmd

@@ -46,6 +46,7 @@ screed
 
 
 .. |downloads_screed| image:: https://img.shields.io/conda/dn/bioconda/screed.svg?style=flat
+   :target: https://anaconda.org/bioconda/screed
    :alt:   (downloads)
 .. |docker_screed| image:: https://quay.io/repository/biocontainers/screed/status
    :target: https://quay.io/repository/biocontainers/screed

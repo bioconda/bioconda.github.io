@@ -47,6 +47,7 @@ bioconductor-hspeccdf
 
 
 .. |downloads_bioconductor-hspeccdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hspeccdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hspeccdf
    :alt:   (downloads)
 .. |docker_bioconductor-hspeccdf| image:: https://quay.io/repository/biocontainers/bioconductor-hspeccdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hspeccdf

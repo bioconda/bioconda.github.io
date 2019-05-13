@@ -53,6 +53,7 @@ bioconductor-pd.mapping250k.nsp
 
 
 .. |downloads_bioconductor-pd.mapping250k.nsp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.mapping250k.nsp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.mapping250k.nsp
    :alt:   (downloads)
 .. |docker_bioconductor-pd.mapping250k.nsp| image:: https://quay.io/repository/biocontainers/bioconductor-pd.mapping250k.nsp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.mapping250k.nsp

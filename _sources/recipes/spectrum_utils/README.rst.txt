@@ -53,6 +53,7 @@ spectrum_utils
 
 
 .. |downloads_spectrum_utils| image:: https://img.shields.io/conda/dn/bioconda/spectrum_utils.svg?style=flat
+   :target: https://anaconda.org/bioconda/spectrum_utils
    :alt:   (downloads)
 .. |docker_spectrum_utils| image:: https://quay.io/repository/biocontainers/spectrum_utils/status
    :target: https://quay.io/repository/biocontainers/spectrum_utils

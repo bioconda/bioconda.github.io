@@ -48,6 +48,7 @@ rvtests
 
 
 .. |downloads_rvtests| image:: https://img.shields.io/conda/dn/bioconda/rvtests.svg?style=flat
+   :target: https://anaconda.org/bioconda/rvtests
    :alt:   (downloads)
 .. |docker_rvtests| image:: https://quay.io/repository/biocontainers/rvtests/status
    :target: https://quay.io/repository/biocontainers/rvtests

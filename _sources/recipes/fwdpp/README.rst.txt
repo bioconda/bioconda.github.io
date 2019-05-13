@@ -48,6 +48,7 @@ fwdpp
 
 
 .. |downloads_fwdpp| image:: https://img.shields.io/conda/dn/bioconda/fwdpp.svg?style=flat
+   :target: https://anaconda.org/bioconda/fwdpp
    :alt:   (downloads)
 .. |docker_fwdpp| image:: https://quay.io/repository/biocontainers/fwdpp/status
    :target: https://quay.io/repository/biocontainers/fwdpp

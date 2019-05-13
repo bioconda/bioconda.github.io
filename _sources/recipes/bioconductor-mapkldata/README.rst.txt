@@ -46,6 +46,7 @@ bioconductor-mapkldata
 
 
 .. |downloads_bioconductor-mapkldata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mapkldata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mapkldata
    :alt:   (downloads)
 .. |docker_bioconductor-mapkldata| image:: https://quay.io/repository/biocontainers/bioconductor-mapkldata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mapkldata

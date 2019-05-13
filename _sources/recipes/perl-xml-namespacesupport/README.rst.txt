@@ -46,6 +46,7 @@ perl-xml-namespacesupport
 
 
 .. |downloads_perl-xml-namespacesupport| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-namespacesupport.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-xml-namespacesupport
    :alt:   (downloads)
 .. |docker_perl-xml-namespacesupport| image:: https://quay.io/repository/biocontainers/perl-xml-namespacesupport/status
    :target: https://quay.io/repository/biocontainers/perl-xml-namespacesupport

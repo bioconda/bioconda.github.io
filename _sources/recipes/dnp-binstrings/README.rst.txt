@@ -48,6 +48,7 @@ dnp-binstrings
 
 
 .. |downloads_dnp-binstrings| image:: https://img.shields.io/conda/dn/bioconda/dnp-binstrings.svg?style=flat
+   :target: https://anaconda.org/bioconda/dnp-binstrings
    :alt:   (downloads)
 .. |docker_dnp-binstrings| image:: https://quay.io/repository/biocontainers/dnp-binstrings/status
    :target: https://quay.io/repository/biocontainers/dnp-binstrings

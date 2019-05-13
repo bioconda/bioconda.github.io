@@ -50,6 +50,7 @@ ucsc-bigwigsummary
 
 
 .. |downloads_ucsc-bigwigsummary| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bigwigsummary.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bigwigsummary
    :alt:   (downloads)
 .. |docker_ucsc-bigwigsummary| image:: https://quay.io/repository/biocontainers/ucsc-bigwigsummary/status
    :target: https://quay.io/repository/biocontainers/ucsc-bigwigsummary

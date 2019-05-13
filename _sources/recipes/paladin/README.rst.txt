@@ -50,6 +50,7 @@ paladin
 
 
 .. |downloads_paladin| image:: https://img.shields.io/conda/dn/bioconda/paladin.svg?style=flat
+   :target: https://anaconda.org/bioconda/paladin
    :alt:   (downloads)
 .. |docker_paladin| image:: https://quay.io/repository/biocontainers/paladin/status
    :target: https://quay.io/repository/biocontainers/paladin

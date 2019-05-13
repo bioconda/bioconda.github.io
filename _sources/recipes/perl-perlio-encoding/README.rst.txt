@@ -45,6 +45,7 @@ perl-perlio-encoding
 
 
 .. |downloads_perl-perlio-encoding| image:: https://img.shields.io/conda/dn/bioconda/perl-perlio-encoding.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-perlio-encoding
    :alt:   (downloads)
 .. |docker_perl-perlio-encoding| image:: https://quay.io/repository/biocontainers/perl-perlio-encoding/status
    :target: https://quay.io/repository/biocontainers/perl-perlio-encoding

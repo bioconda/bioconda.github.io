@@ -51,6 +51,7 @@ r-coloc
 
 
 .. |downloads_r-coloc| image:: https://img.shields.io/conda/dn/bioconda/r-coloc.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-coloc
    :alt:   (downloads)
 .. |docker_r-coloc| image:: https://quay.io/repository/biocontainers/r-coloc/status
    :target: https://quay.io/repository/biocontainers/r-coloc

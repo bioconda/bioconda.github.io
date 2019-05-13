@@ -49,6 +49,7 @@ jellyfish
 
 
 .. |downloads_jellyfish| image:: https://img.shields.io/conda/dn/bioconda/jellyfish.svg?style=flat
+   :target: https://anaconda.org/bioconda/jellyfish
    :alt:   (downloads)
 .. |docker_jellyfish| image:: https://quay.io/repository/biocontainers/jellyfish/status
    :target: https://quay.io/repository/biocontainers/jellyfish

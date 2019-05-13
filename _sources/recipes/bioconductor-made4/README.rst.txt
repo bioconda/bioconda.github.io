@@ -50,6 +50,7 @@ bioconductor-made4
 
 
 .. |downloads_bioconductor-made4| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-made4.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-made4
    :alt:   (downloads)
 .. |docker_bioconductor-made4| image:: https://quay.io/repository/biocontainers/bioconductor-made4/status
    :target: https://quay.io/repository/biocontainers/bioconductor-made4

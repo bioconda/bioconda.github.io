@@ -63,6 +63,7 @@ bioconductor-bubbletree
 
 
 .. |downloads_bioconductor-bubbletree| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bubbletree.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bubbletree
    :alt:   (downloads)
 .. |docker_bioconductor-bubbletree| image:: https://quay.io/repository/biocontainers/bioconductor-bubbletree/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bubbletree

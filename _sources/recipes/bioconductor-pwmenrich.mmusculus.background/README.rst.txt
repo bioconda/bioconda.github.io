@@ -47,6 +47,7 @@ bioconductor-pwmenrich.mmusculus.background
 
 
 .. |downloads_bioconductor-pwmenrich.mmusculus.background| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pwmenrich.mmusculus.background.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pwmenrich.mmusculus.background
    :alt:   (downloads)
 .. |docker_bioconductor-pwmenrich.mmusculus.background| image:: https://quay.io/repository/biocontainers/bioconductor-pwmenrich.mmusculus.background/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pwmenrich.mmusculus.background

@@ -46,6 +46,7 @@ bioconductor-mmdiffbamsubset
 
 
 .. |downloads_bioconductor-mmdiffbamsubset| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mmdiffbamsubset.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mmdiffbamsubset
    :alt:   (downloads)
 .. |docker_bioconductor-mmdiffbamsubset| image:: https://quay.io/repository/biocontainers/bioconductor-mmdiffbamsubset/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mmdiffbamsubset

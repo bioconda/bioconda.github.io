@@ -47,6 +47,7 @@ bioconductor-ocplus
 
 
 .. |downloads_bioconductor-ocplus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ocplus.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ocplus
    :alt:   (downloads)
 .. |docker_bioconductor-ocplus| image:: https://quay.io/repository/biocontainers/bioconductor-ocplus/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ocplus

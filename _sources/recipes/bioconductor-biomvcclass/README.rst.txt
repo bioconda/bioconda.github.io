@@ -50,6 +50,7 @@ bioconductor-biomvcclass
 
 
 .. |downloads_bioconductor-biomvcclass| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biomvcclass.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-biomvcclass
    :alt:   (downloads)
 .. |docker_bioconductor-biomvcclass| image:: https://quay.io/repository/biocontainers/bioconductor-biomvcclass/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biomvcclass

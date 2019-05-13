@@ -49,6 +49,7 @@ bioconductor-consensusclusterplus
 
 
 .. |downloads_bioconductor-consensusclusterplus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-consensusclusterplus.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-consensusclusterplus
    :alt:   (downloads)
 .. |docker_bioconductor-consensusclusterplus| image:: https://quay.io/repository/biocontainers/bioconductor-consensusclusterplus/status
    :target: https://quay.io/repository/biocontainers/bioconductor-consensusclusterplus

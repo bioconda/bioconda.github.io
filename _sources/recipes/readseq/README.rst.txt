@@ -45,6 +45,7 @@ readseq
 
 
 .. |downloads_readseq| image:: https://img.shields.io/conda/dn/bioconda/readseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/readseq
    :alt:   (downloads)
 .. |docker_readseq| image:: https://quay.io/repository/biocontainers/readseq/status
    :target: https://quay.io/repository/biocontainers/readseq

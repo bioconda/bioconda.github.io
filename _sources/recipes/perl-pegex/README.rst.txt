@@ -48,6 +48,7 @@ perl-pegex
 
 
 .. |downloads_perl-pegex| image:: https://img.shields.io/conda/dn/bioconda/perl-pegex.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-pegex
    :alt:   (downloads)
 .. |docker_perl-pegex| image:: https://quay.io/repository/biocontainers/perl-pegex/status
    :target: https://quay.io/repository/biocontainers/perl-pegex

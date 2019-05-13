@@ -51,6 +51,7 @@ bioconductor-grenits
 
 
 .. |downloads_bioconductor-grenits| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-grenits.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-grenits
    :alt:   (downloads)
 .. |docker_bioconductor-grenits| image:: https://quay.io/repository/biocontainers/bioconductor-grenits/status
    :target: https://quay.io/repository/biocontainers/bioconductor-grenits

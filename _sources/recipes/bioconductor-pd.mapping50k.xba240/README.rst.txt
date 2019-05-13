@@ -53,6 +53,7 @@ bioconductor-pd.mapping50k.xba240
 
 
 .. |downloads_bioconductor-pd.mapping50k.xba240| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.mapping50k.xba240.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.mapping50k.xba240
    :alt:   (downloads)
 .. |docker_bioconductor-pd.mapping50k.xba240| image:: https://quay.io/repository/biocontainers/bioconductor-pd.mapping50k.xba240/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.mapping50k.xba240

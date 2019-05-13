@@ -50,6 +50,7 @@ bioconductor-quaternaryprod
 
 
 .. |downloads_bioconductor-quaternaryprod| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-quaternaryprod.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-quaternaryprod
    :alt:   (downloads)
 .. |docker_bioconductor-quaternaryprod| image:: https://quay.io/repository/biocontainers/bioconductor-quaternaryprod/status
    :target: https://quay.io/repository/biocontainers/bioconductor-quaternaryprod

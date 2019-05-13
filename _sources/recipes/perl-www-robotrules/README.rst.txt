@@ -46,6 +46,7 @@ perl-www-robotrules
 
 
 .. |downloads_perl-www-robotrules| image:: https://img.shields.io/conda/dn/bioconda/perl-www-robotrules.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-www-robotrules
    :alt:   (downloads)
 .. |docker_perl-www-robotrules| image:: https://quay.io/repository/biocontainers/perl-www-robotrules/status
    :target: https://quay.io/repository/biocontainers/perl-www-robotrules

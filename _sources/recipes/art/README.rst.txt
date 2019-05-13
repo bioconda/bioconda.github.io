@@ -48,6 +48,7 @@ art
 
 
 .. |downloads_art| image:: https://img.shields.io/conda/dn/bioconda/art.svg?style=flat
+   :target: https://anaconda.org/bioconda/art
    :alt:   (downloads)
 .. |docker_art| image:: https://quay.io/repository/biocontainers/art/status
    :target: https://quay.io/repository/biocontainers/art

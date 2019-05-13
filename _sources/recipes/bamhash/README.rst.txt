@@ -47,6 +47,7 @@ bamhash
 
 
 .. |downloads_bamhash| image:: https://img.shields.io/conda/dn/bioconda/bamhash.svg?style=flat
+   :target: https://anaconda.org/bioconda/bamhash
    :alt:   (downloads)
 .. |docker_bamhash| image:: https://quay.io/repository/biocontainers/bamhash/status
    :target: https://quay.io/repository/biocontainers/bamhash

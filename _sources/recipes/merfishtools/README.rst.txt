@@ -51,6 +51,7 @@ merfishtools
 
 
 .. |downloads_merfishtools| image:: https://img.shields.io/conda/dn/bioconda/merfishtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/merfishtools
    :alt:   (downloads)
 .. |docker_merfishtools| image:: https://quay.io/repository/biocontainers/merfishtools/status
    :target: https://quay.io/repository/biocontainers/merfishtools

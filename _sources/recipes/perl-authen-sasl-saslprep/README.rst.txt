@@ -46,6 +46,7 @@ perl-authen-sasl-saslprep
 
 
 .. |downloads_perl-authen-sasl-saslprep| image:: https://img.shields.io/conda/dn/bioconda/perl-authen-sasl-saslprep.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-authen-sasl-saslprep
    :alt:   (downloads)
 .. |docker_perl-authen-sasl-saslprep| image:: https://quay.io/repository/biocontainers/perl-authen-sasl-saslprep/status
    :target: https://quay.io/repository/biocontainers/perl-authen-sasl-saslprep

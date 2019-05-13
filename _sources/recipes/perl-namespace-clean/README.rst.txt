@@ -49,6 +49,7 @@ perl-namespace-clean
 
 
 .. |downloads_perl-namespace-clean| image:: https://img.shields.io/conda/dn/bioconda/perl-namespace-clean.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-namespace-clean
    :alt:   (downloads)
 .. |docker_perl-namespace-clean| image:: https://quay.io/repository/biocontainers/perl-namespace-clean/status
    :target: https://quay.io/repository/biocontainers/perl-namespace-clean

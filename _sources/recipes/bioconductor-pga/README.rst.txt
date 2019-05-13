@@ -64,6 +64,7 @@ bioconductor-pga
 
 
 .. |downloads_bioconductor-pga| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pga.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pga
    :alt:   (downloads)
 .. |docker_bioconductor-pga| image:: https://quay.io/repository/biocontainers/bioconductor-pga/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pga

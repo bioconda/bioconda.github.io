@@ -88,6 +88,7 @@ moca
 
 
 .. |downloads_moca| image:: https://img.shields.io/conda/dn/bioconda/moca.svg?style=flat
+   :target: https://anaconda.org/bioconda/moca
    :alt:   (downloads)
 .. |docker_moca| image:: https://quay.io/repository/biocontainers/moca/status
    :target: https://quay.io/repository/biocontainers/moca

@@ -63,6 +63,7 @@ r-brio
 
 
 .. |downloads_r-brio| image:: https://img.shields.io/conda/dn/bioconda/r-brio.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-brio
    :alt:   (downloads)
 .. |docker_r-brio| image:: https://quay.io/repository/biocontainers/r-brio/status
    :target: https://quay.io/repository/biocontainers/r-brio

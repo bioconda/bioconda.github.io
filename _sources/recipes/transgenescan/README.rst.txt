@@ -46,6 +46,7 @@ transgenescan
 
 
 .. |downloads_transgenescan| image:: https://img.shields.io/conda/dn/bioconda/transgenescan.svg?style=flat
+   :target: https://anaconda.org/bioconda/transgenescan
    :alt:   (downloads)
 .. |docker_transgenescan| image:: https://quay.io/repository/biocontainers/transgenescan/status
    :target: https://quay.io/repository/biocontainers/transgenescan

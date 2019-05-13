@@ -49,6 +49,7 @@ dkfz-bias-filter
 
 
 .. |downloads_dkfz-bias-filter| image:: https://img.shields.io/conda/dn/bioconda/dkfz-bias-filter.svg?style=flat
+   :target: https://anaconda.org/bioconda/dkfz-bias-filter
    :alt:   (downloads)
 .. |docker_dkfz-bias-filter| image:: https://quay.io/repository/biocontainers/dkfz-bias-filter/status
    :target: https://quay.io/repository/biocontainers/dkfz-bias-filter

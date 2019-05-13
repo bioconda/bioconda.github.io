@@ -54,6 +54,7 @@ bioconductor-regioner
 
 
 .. |downloads_bioconductor-regioner| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-regioner.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-regioner
    :alt:   (downloads)
 .. |docker_bioconductor-regioner| image:: https://quay.io/repository/biocontainers/bioconductor-regioner/status
    :target: https://quay.io/repository/biocontainers/bioconductor-regioner

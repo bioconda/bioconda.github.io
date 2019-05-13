@@ -51,6 +51,7 @@ dunovo
 
 
 .. |downloads_dunovo| image:: https://img.shields.io/conda/dn/bioconda/dunovo.svg?style=flat
+   :target: https://anaconda.org/bioconda/dunovo
    :alt:   (downloads)
 .. |docker_dunovo| image:: https://quay.io/repository/biocontainers/dunovo/status
    :target: https://quay.io/repository/biocontainers/dunovo

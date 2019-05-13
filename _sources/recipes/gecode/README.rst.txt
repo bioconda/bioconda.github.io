@@ -47,6 +47,7 @@ gecode
 
 
 .. |downloads_gecode| image:: https://img.shields.io/conda/dn/bioconda/gecode.svg?style=flat
+   :target: https://anaconda.org/bioconda/gecode
    :alt:   (downloads)
 .. |docker_gecode| image:: https://quay.io/repository/biocontainers/gecode/status
    :target: https://quay.io/repository/biocontainers/gecode

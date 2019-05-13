@@ -50,6 +50,7 @@ ucsc-psltobigpsl
 
 
 .. |downloads_ucsc-psltobigpsl| image:: https://img.shields.io/conda/dn/bioconda/ucsc-psltobigpsl.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-psltobigpsl
    :alt:   (downloads)
 .. |docker_ucsc-psltobigpsl| image:: https://quay.io/repository/biocontainers/ucsc-psltobigpsl/status
    :target: https://quay.io/repository/biocontainers/ucsc-psltobigpsl

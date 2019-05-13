@@ -45,6 +45,7 @@ mintmap
 
 
 .. |downloads_mintmap| image:: https://img.shields.io/conda/dn/bioconda/mintmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/mintmap
    :alt:   (downloads)
 .. |docker_mintmap| image:: https://quay.io/repository/biocontainers/mintmap/status
    :target: https://quay.io/repository/biocontainers/mintmap

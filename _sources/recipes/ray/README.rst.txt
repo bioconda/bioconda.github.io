@@ -47,6 +47,7 @@ ray
 
 
 .. |downloads_ray| image:: https://img.shields.io/conda/dn/bioconda/ray.svg?style=flat
+   :target: https://anaconda.org/bioconda/ray
    :alt:   (downloads)
 .. |docker_ray| image:: https://quay.io/repository/biocontainers/ray/status
    :target: https://quay.io/repository/biocontainers/ray

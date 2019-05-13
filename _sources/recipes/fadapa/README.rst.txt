@@ -45,6 +45,7 @@ fadapa
 
 
 .. |downloads_fadapa| image:: https://img.shields.io/conda/dn/bioconda/fadapa.svg?style=flat
+   :target: https://anaconda.org/bioconda/fadapa
    :alt:   (downloads)
 .. |docker_fadapa| image:: https://quay.io/repository/biocontainers/fadapa/status
    :target: https://quay.io/repository/biocontainers/fadapa

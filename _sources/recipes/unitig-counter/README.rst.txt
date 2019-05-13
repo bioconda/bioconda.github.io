@@ -49,6 +49,7 @@ unitig-counter
 
 
 .. |downloads_unitig-counter| image:: https://img.shields.io/conda/dn/bioconda/unitig-counter.svg?style=flat
+   :target: https://anaconda.org/bioconda/unitig-counter
    :alt:   (downloads)
 .. |docker_unitig-counter| image:: https://quay.io/repository/biocontainers/unitig-counter/status
    :target: https://quay.io/repository/biocontainers/unitig-counter

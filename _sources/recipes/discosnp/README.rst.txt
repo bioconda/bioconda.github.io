@@ -51,6 +51,7 @@ discosnp
 
 
 .. |downloads_discosnp| image:: https://img.shields.io/conda/dn/bioconda/discosnp.svg?style=flat
+   :target: https://anaconda.org/bioconda/discosnp
    :alt:   (downloads)
 .. |docker_discosnp| image:: https://quay.io/repository/biocontainers/discosnp/status
    :target: https://quay.io/repository/biocontainers/discosnp

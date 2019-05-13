@@ -45,6 +45,7 @@ fido
 
 
 .. |downloads_fido| image:: https://img.shields.io/conda/dn/bioconda/fido.svg?style=flat
+   :target: https://anaconda.org/bioconda/fido
    :alt:   (downloads)
 .. |docker_fido| image:: https://quay.io/repository/biocontainers/fido/status
    :target: https://quay.io/repository/biocontainers/fido

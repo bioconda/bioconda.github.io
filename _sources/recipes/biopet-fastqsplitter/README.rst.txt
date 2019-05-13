@@ -68,6 +68,7 @@ biopet-fastqsplitter
 
 
 .. |downloads_biopet-fastqsplitter| image:: https://img.shields.io/conda/dn/bioconda/biopet-fastqsplitter.svg?style=flat
+   :target: https://anaconda.org/bioconda/biopet-fastqsplitter
    :alt:   (downloads)
 .. |docker_biopet-fastqsplitter| image:: https://quay.io/repository/biocontainers/biopet-fastqsplitter/status
    :target: https://quay.io/repository/biocontainers/biopet-fastqsplitter

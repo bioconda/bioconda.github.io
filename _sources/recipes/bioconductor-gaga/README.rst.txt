@@ -51,6 +51,7 @@ bioconductor-gaga
 
 
 .. |downloads_bioconductor-gaga| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gaga.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gaga
    :alt:   (downloads)
 .. |docker_bioconductor-gaga| image:: https://quay.io/repository/biocontainers/bioconductor-gaga/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gaga

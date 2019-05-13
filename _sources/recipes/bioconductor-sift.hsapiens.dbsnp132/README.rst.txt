@@ -49,6 +49,7 @@ bioconductor-sift.hsapiens.dbsnp132
 
 
 .. |downloads_bioconductor-sift.hsapiens.dbsnp132| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sift.hsapiens.dbsnp132.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sift.hsapiens.dbsnp132
    :alt:   (downloads)
 .. |docker_bioconductor-sift.hsapiens.dbsnp132| image:: https://quay.io/repository/biocontainers/bioconductor-sift.hsapiens.dbsnp132/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sift.hsapiens.dbsnp132

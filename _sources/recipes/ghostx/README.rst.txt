@@ -46,6 +46,7 @@ ghostx
 
 
 .. |downloads_ghostx| image:: https://img.shields.io/conda/dn/bioconda/ghostx.svg?style=flat
+   :target: https://anaconda.org/bioconda/ghostx
    :alt:   (downloads)
 .. |docker_ghostx| image:: https://quay.io/repository/biocontainers/ghostx/status
    :target: https://quay.io/repository/biocontainers/ghostx

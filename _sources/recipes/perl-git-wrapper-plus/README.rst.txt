@@ -52,6 +52,7 @@ perl-git-wrapper-plus
 
 
 .. |downloads_perl-git-wrapper-plus| image:: https://img.shields.io/conda/dn/bioconda/perl-git-wrapper-plus.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-git-wrapper-plus
    :alt:   (downloads)
 .. |docker_perl-git-wrapper-plus| image:: https://quay.io/repository/biocontainers/perl-git-wrapper-plus/status
    :target: https://quay.io/repository/biocontainers/perl-git-wrapper-plus

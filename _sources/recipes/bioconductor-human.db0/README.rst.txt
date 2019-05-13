@@ -47,6 +47,7 @@ bioconductor-human.db0
 
 
 .. |downloads_bioconductor-human.db0| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-human.db0.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-human.db0
    :alt:   (downloads)
 .. |docker_bioconductor-human.db0| image:: https://quay.io/repository/biocontainers/bioconductor-human.db0/status
    :target: https://quay.io/repository/biocontainers/bioconductor-human.db0

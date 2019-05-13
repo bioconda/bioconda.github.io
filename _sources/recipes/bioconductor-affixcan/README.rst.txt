@@ -48,6 +48,7 @@ bioconductor-affixcan
 
 
 .. |downloads_bioconductor-affixcan| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affixcan.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-affixcan
    :alt:   (downloads)
 .. |docker_bioconductor-affixcan| image:: https://quay.io/repository/biocontainers/bioconductor-affixcan/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affixcan

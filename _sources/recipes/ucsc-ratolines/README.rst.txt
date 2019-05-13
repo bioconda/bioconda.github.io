@@ -50,6 +50,7 @@ ucsc-ratolines
 
 
 .. |downloads_ucsc-ratolines| image:: https://img.shields.io/conda/dn/bioconda/ucsc-ratolines.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-ratolines
    :alt:   (downloads)
 .. |docker_ucsc-ratolines| image:: https://quay.io/repository/biocontainers/ucsc-ratolines/status
    :target: https://quay.io/repository/biocontainers/ucsc-ratolines

@@ -47,6 +47,7 @@ gvcf2bed
 
 
 .. |downloads_gvcf2bed| image:: https://img.shields.io/conda/dn/bioconda/gvcf2bed.svg?style=flat
+   :target: https://anaconda.org/bioconda/gvcf2bed
    :alt:   (downloads)
 .. |docker_gvcf2bed| image:: https://quay.io/repository/biocontainers/gvcf2bed/status
    :target: https://quay.io/repository/biocontainers/gvcf2bed

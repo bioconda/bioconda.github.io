@@ -50,6 +50,7 @@ r-bedr
 
 
 .. |downloads_r-bedr| image:: https://img.shields.io/conda/dn/bioconda/r-bedr.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-bedr
    :alt:   (downloads)
 .. |docker_r-bedr| image:: https://quay.io/repository/biocontainers/r-bedr/status
    :target: https://quay.io/repository/biocontainers/r-bedr

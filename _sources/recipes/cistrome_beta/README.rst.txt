@@ -48,6 +48,7 @@ cistrome_beta
 
 
 .. |downloads_cistrome_beta| image:: https://img.shields.io/conda/dn/bioconda/cistrome_beta.svg?style=flat
+   :target: https://anaconda.org/bioconda/cistrome_beta
    :alt:   (downloads)
 .. |docker_cistrome_beta| image:: https://quay.io/repository/biocontainers/cistrome_beta/status
    :target: https://quay.io/repository/biocontainers/cistrome_beta

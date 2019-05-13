@@ -53,6 +53,7 @@ bioconductor-pd.hu6800
 
 
 .. |downloads_bioconductor-pd.hu6800| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.hu6800.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.hu6800
    :alt:   (downloads)
 .. |docker_bioconductor-pd.hu6800| image:: https://quay.io/repository/biocontainers/bioconductor-pd.hu6800/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.hu6800

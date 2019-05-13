@@ -48,6 +48,7 @@ bioconductor-mogene10sttranscriptcluster.db
 
 
 .. |downloads_bioconductor-mogene10sttranscriptcluster.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mogene10sttranscriptcluster.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mogene10sttranscriptcluster.db
    :alt:   (downloads)
 .. |docker_bioconductor-mogene10sttranscriptcluster.db| image:: https://quay.io/repository/biocontainers/bioconductor-mogene10sttranscriptcluster.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mogene10sttranscriptcluster.db

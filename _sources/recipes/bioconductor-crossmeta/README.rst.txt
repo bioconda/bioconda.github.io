@@ -74,6 +74,7 @@ bioconductor-crossmeta
 
 
 .. |downloads_bioconductor-crossmeta| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-crossmeta.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-crossmeta
    :alt:   (downloads)
 .. |docker_bioconductor-crossmeta| image:: https://quay.io/repository/biocontainers/bioconductor-crossmeta/status
    :target: https://quay.io/repository/biocontainers/bioconductor-crossmeta

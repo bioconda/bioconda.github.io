@@ -64,6 +64,7 @@ bioconductor-pi
 
 
 .. |downloads_bioconductor-pi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pi.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pi
    :alt:   (downloads)
 .. |docker_bioconductor-pi| image:: https://quay.io/repository/biocontainers/bioconductor-pi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pi

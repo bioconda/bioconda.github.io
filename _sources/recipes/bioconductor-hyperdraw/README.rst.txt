@@ -49,6 +49,7 @@ bioconductor-hyperdraw
 
 
 .. |downloads_bioconductor-hyperdraw| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hyperdraw.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hyperdraw
    :alt:   (downloads)
 .. |docker_bioconductor-hyperdraw| image:: https://quay.io/repository/biocontainers/bioconductor-hyperdraw/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hyperdraw

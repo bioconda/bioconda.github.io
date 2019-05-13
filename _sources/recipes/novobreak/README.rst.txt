@@ -47,6 +47,7 @@ novobreak
 
 
 .. |downloads_novobreak| image:: https://img.shields.io/conda/dn/bioconda/novobreak.svg?style=flat
+   :target: https://anaconda.org/bioconda/novobreak
    :alt:   (downloads)
 .. |docker_novobreak| image:: https://quay.io/repository/biocontainers/novobreak/status
    :target: https://quay.io/repository/biocontainers/novobreak

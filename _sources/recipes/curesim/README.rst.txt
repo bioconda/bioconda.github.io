@@ -46,6 +46,7 @@ curesim
 
 
 .. |downloads_curesim| image:: https://img.shields.io/conda/dn/bioconda/curesim.svg?style=flat
+   :target: https://anaconda.org/bioconda/curesim
    :alt:   (downloads)
 .. |docker_curesim| image:: https://quay.io/repository/biocontainers/curesim/status
    :target: https://quay.io/repository/biocontainers/curesim

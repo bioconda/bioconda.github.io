@@ -52,6 +52,7 @@ maxbin2
 
 
 .. |downloads_maxbin2| image:: https://img.shields.io/conda/dn/bioconda/maxbin2.svg?style=flat
+   :target: https://anaconda.org/bioconda/maxbin2
    :alt:   (downloads)
 .. |docker_maxbin2| image:: https://quay.io/repository/biocontainers/maxbin2/status
    :target: https://quay.io/repository/biocontainers/maxbin2

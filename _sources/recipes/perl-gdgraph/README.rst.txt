@@ -47,6 +47,7 @@ perl-gdgraph
 
 
 .. |downloads_perl-gdgraph| image:: https://img.shields.io/conda/dn/bioconda/perl-gdgraph.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-gdgraph
    :alt:   (downloads)
 .. |docker_perl-gdgraph| image:: https://quay.io/repository/biocontainers/perl-gdgraph/status
    :target: https://quay.io/repository/biocontainers/perl-gdgraph

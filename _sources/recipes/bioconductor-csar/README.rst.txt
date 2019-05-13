@@ -50,6 +50,7 @@ bioconductor-csar
 
 
 .. |downloads_bioconductor-csar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-csar.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-csar
    :alt:   (downloads)
 .. |docker_bioconductor-csar| image:: https://quay.io/repository/biocontainers/bioconductor-csar/status
    :target: https://quay.io/repository/biocontainers/bioconductor-csar

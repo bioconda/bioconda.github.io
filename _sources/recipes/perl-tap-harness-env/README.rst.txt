@@ -45,6 +45,7 @@ perl-tap-harness-env
 
 
 .. |downloads_perl-tap-harness-env| image:: https://img.shields.io/conda/dn/bioconda/perl-tap-harness-env.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-tap-harness-env
    :alt:   (downloads)
 .. |docker_perl-tap-harness-env| image:: https://quay.io/repository/biocontainers/perl-tap-harness-env/status
    :target: https://quay.io/repository/biocontainers/perl-tap-harness-env

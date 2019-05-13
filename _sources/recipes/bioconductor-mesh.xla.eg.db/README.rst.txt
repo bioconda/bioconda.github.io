@@ -47,6 +47,7 @@ bioconductor-mesh.xla.eg.db
 
 
 .. |downloads_bioconductor-mesh.xla.eg.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mesh.xla.eg.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mesh.xla.eg.db
    :alt:   (downloads)
 .. |docker_bioconductor-mesh.xla.eg.db| image:: https://quay.io/repository/biocontainers/bioconductor-mesh.xla.eg.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mesh.xla.eg.db

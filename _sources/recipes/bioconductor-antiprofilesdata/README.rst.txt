@@ -47,6 +47,7 @@ bioconductor-antiprofilesdata
 
 
 .. |downloads_bioconductor-antiprofilesdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-antiprofilesdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-antiprofilesdata
    :alt:   (downloads)
 .. |docker_bioconductor-antiprofilesdata| image:: https://quay.io/repository/biocontainers/bioconductor-antiprofilesdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-antiprofilesdata

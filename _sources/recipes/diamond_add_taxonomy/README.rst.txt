@@ -47,6 +47,7 @@ diamond_add_taxonomy
 
 
 .. |downloads_diamond_add_taxonomy| image:: https://img.shields.io/conda/dn/bioconda/diamond_add_taxonomy.svg?style=flat
+   :target: https://anaconda.org/bioconda/diamond_add_taxonomy
    :alt:   (downloads)
 .. |docker_diamond_add_taxonomy| image:: https://quay.io/repository/biocontainers/diamond_add_taxonomy/status
    :target: https://quay.io/repository/biocontainers/diamond_add_taxonomy

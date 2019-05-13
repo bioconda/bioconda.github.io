@@ -48,6 +48,7 @@ bioconductor-mi16cod.db
 
 
 .. |downloads_bioconductor-mi16cod.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mi16cod.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mi16cod.db
    :alt:   (downloads)
 .. |docker_bioconductor-mi16cod.db| image:: https://quay.io/repository/biocontainers/bioconductor-mi16cod.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mi16cod.db

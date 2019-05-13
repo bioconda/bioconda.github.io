@@ -46,6 +46,7 @@ graphmap
 
 
 .. |downloads_graphmap| image:: https://img.shields.io/conda/dn/bioconda/graphmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/graphmap
    :alt:   (downloads)
 .. |docker_graphmap| image:: https://quay.io/repository/biocontainers/graphmap/status
    :target: https://quay.io/repository/biocontainers/graphmap

@@ -52,6 +52,7 @@ smcounter2
 
 
 .. |downloads_smcounter2| image:: https://img.shields.io/conda/dn/bioconda/smcounter2.svg?style=flat
+   :target: https://anaconda.org/bioconda/smcounter2
    :alt:   (downloads)
 .. |docker_smcounter2| image:: https://quay.io/repository/biocontainers/smcounter2/status
    :target: https://quay.io/repository/biocontainers/smcounter2

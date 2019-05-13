@@ -51,6 +51,7 @@ scater-scripts
 
 
 .. |downloads_scater-scripts| image:: https://img.shields.io/conda/dn/bioconda/scater-scripts.svg?style=flat
+   :target: https://anaconda.org/bioconda/scater-scripts
    :alt:   (downloads)
 .. |docker_scater-scripts| image:: https://quay.io/repository/biocontainers/scater-scripts/status
    :target: https://quay.io/repository/biocontainers/scater-scripts

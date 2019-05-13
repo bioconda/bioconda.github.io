@@ -47,6 +47,7 @@ bioconductor-limma
 
 
 .. |downloads_bioconductor-limma| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-limma.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-limma
    :alt:   (downloads)
 .. |docker_bioconductor-limma| image:: https://quay.io/repository/biocontainers/bioconductor-limma/status
    :target: https://quay.io/repository/biocontainers/bioconductor-limma

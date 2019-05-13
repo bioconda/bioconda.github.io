@@ -46,6 +46,7 @@ evidencemodeler
 
 
 .. |downloads_evidencemodeler| image:: https://img.shields.io/conda/dn/bioconda/evidencemodeler.svg?style=flat
+   :target: https://anaconda.org/bioconda/evidencemodeler
    :alt:   (downloads)
 .. |docker_evidencemodeler| image:: https://quay.io/repository/biocontainers/evidencemodeler/status
    :target: https://quay.io/repository/biocontainers/evidencemodeler

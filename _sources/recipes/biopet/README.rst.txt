@@ -50,6 +50,7 @@ biopet
 
 
 .. |downloads_biopet| image:: https://img.shields.io/conda/dn/bioconda/biopet.svg?style=flat
+   :target: https://anaconda.org/bioconda/biopet
    :alt:   (downloads)
 .. |docker_biopet| image:: https://quay.io/repository/biocontainers/biopet/status
    :target: https://quay.io/repository/biocontainers/biopet

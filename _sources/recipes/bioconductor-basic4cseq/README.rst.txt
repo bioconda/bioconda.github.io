@@ -52,6 +52,7 @@ bioconductor-basic4cseq
 
 
 .. |downloads_bioconductor-basic4cseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-basic4cseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-basic4cseq
    :alt:   (downloads)
 .. |docker_bioconductor-basic4cseq| image:: https://quay.io/repository/biocontainers/bioconductor-basic4cseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-basic4cseq

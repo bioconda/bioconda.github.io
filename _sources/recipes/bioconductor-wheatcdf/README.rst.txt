@@ -47,6 +47,7 @@ bioconductor-wheatcdf
 
 
 .. |downloads_bioconductor-wheatcdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-wheatcdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-wheatcdf
    :alt:   (downloads)
 .. |docker_bioconductor-wheatcdf| image:: https://quay.io/repository/biocontainers/bioconductor-wheatcdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-wheatcdf

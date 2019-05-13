@@ -47,6 +47,7 @@ platypus-variant
 
 
 .. |downloads_platypus-variant| image:: https://img.shields.io/conda/dn/bioconda/platypus-variant.svg?style=flat
+   :target: https://anaconda.org/bioconda/platypus-variant
    :alt:   (downloads)
 .. |docker_platypus-variant| image:: https://quay.io/repository/biocontainers/platypus-variant/status
    :target: https://quay.io/repository/biocontainers/platypus-variant

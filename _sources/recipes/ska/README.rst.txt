@@ -47,6 +47,7 @@ ska
 
 
 .. |downloads_ska| image:: https://img.shields.io/conda/dn/bioconda/ska.svg?style=flat
+   :target: https://anaconda.org/bioconda/ska
    :alt:   (downloads)
 .. |docker_ska| image:: https://quay.io/repository/biocontainers/ska/status
    :target: https://quay.io/repository/biocontainers/ska

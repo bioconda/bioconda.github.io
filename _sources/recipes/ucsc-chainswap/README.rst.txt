@@ -50,6 +50,7 @@ ucsc-chainswap
 
 
 .. |downloads_ucsc-chainswap| image:: https://img.shields.io/conda/dn/bioconda/ucsc-chainswap.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-chainswap
    :alt:   (downloads)
 .. |docker_ucsc-chainswap| image:: https://quay.io/repository/biocontainers/ucsc-chainswap/status
    :target: https://quay.io/repository/biocontainers/ucsc-chainswap

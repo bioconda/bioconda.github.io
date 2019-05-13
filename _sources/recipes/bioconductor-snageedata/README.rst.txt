@@ -46,6 +46,7 @@ bioconductor-snageedata
 
 
 .. |downloads_bioconductor-snageedata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-snageedata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-snageedata
    :alt:   (downloads)
 .. |docker_bioconductor-snageedata| image:: https://quay.io/repository/biocontainers/bioconductor-snageedata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-snageedata

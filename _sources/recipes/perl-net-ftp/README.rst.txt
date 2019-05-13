@@ -45,6 +45,7 @@ perl-net-ftp
 
 
 .. |downloads_perl-net-ftp| image:: https://img.shields.io/conda/dn/bioconda/perl-net-ftp.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-net-ftp
    :alt:   (downloads)
 .. |docker_perl-net-ftp| image:: https://quay.io/repository/biocontainers/perl-net-ftp/status
    :target: https://quay.io/repository/biocontainers/perl-net-ftp

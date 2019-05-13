@@ -60,6 +60,7 @@ bioconductor-celltrails
 
 
 .. |downloads_bioconductor-celltrails| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-celltrails.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-celltrails
    :alt:   (downloads)
 .. |docker_bioconductor-celltrails| image:: https://quay.io/repository/biocontainers/bioconductor-celltrails/status
    :target: https://quay.io/repository/biocontainers/bioconductor-celltrails

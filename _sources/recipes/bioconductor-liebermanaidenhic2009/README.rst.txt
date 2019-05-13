@@ -48,6 +48,7 @@ bioconductor-liebermanaidenhic2009
 
 
 .. |downloads_bioconductor-liebermanaidenhic2009| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-liebermanaidenhic2009.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-liebermanaidenhic2009
    :alt:   (downloads)
 .. |docker_bioconductor-liebermanaidenhic2009| image:: https://quay.io/repository/biocontainers/bioconductor-liebermanaidenhic2009/status
    :target: https://quay.io/repository/biocontainers/bioconductor-liebermanaidenhic2009

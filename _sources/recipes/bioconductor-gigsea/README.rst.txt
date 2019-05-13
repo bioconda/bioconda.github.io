@@ -48,6 +48,7 @@ bioconductor-gigsea
 
 
 .. |downloads_bioconductor-gigsea| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gigsea.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gigsea
    :alt:   (downloads)
 .. |docker_bioconductor-gigsea| image:: https://quay.io/repository/biocontainers/bioconductor-gigsea/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gigsea

@@ -48,6 +48,7 @@ wham
 
 
 .. |downloads_wham| image:: https://img.shields.io/conda/dn/bioconda/wham.svg?style=flat
+   :target: https://anaconda.org/bioconda/wham
    :alt:   (downloads)
 .. |docker_wham| image:: https://quay.io/repository/biocontainers/wham/status
    :target: https://quay.io/repository/biocontainers/wham

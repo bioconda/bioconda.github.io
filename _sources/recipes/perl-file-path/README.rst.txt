@@ -46,6 +46,7 @@ perl-file-path
 
 
 .. |downloads_perl-file-path| image:: https://img.shields.io/conda/dn/bioconda/perl-file-path.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-path
    :alt:   (downloads)
 .. |docker_perl-file-path| image:: https://quay.io/repository/biocontainers/perl-file-path/status
    :target: https://quay.io/repository/biocontainers/perl-file-path

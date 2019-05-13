@@ -44,6 +44,7 @@ bioconductor-remp
 
 
 .. |downloads_bioconductor-remp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-remp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-remp
    :alt:   (downloads)
 .. |docker_bioconductor-remp| image:: https://quay.io/repository/biocontainers/bioconductor-remp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-remp

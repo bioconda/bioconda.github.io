@@ -51,6 +51,7 @@ peptide-shaker
 
 
 .. |downloads_peptide-shaker| image:: https://img.shields.io/conda/dn/bioconda/peptide-shaker.svg?style=flat
+   :target: https://anaconda.org/bioconda/peptide-shaker
    :alt:   (downloads)
 .. |docker_peptide-shaker| image:: https://quay.io/repository/biocontainers/peptide-shaker/status
    :target: https://quay.io/repository/biocontainers/peptide-shaker

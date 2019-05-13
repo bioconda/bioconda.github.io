@@ -46,6 +46,7 @@ bioconductor-maqcexpression4plex
 
 
 .. |downloads_bioconductor-maqcexpression4plex| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-maqcexpression4plex.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-maqcexpression4plex
    :alt:   (downloads)
 .. |docker_bioconductor-maqcexpression4plex| image:: https://quay.io/repository/biocontainers/bioconductor-maqcexpression4plex/status
    :target: https://quay.io/repository/biocontainers/bioconductor-maqcexpression4plex

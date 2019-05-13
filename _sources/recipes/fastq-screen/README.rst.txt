@@ -48,6 +48,7 @@ fastq-screen
 
 
 .. |downloads_fastq-screen| image:: https://img.shields.io/conda/dn/bioconda/fastq-screen.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastq-screen
    :alt:   (downloads)
 .. |docker_fastq-screen| image:: https://quay.io/repository/biocontainers/fastq-screen/status
    :target: https://quay.io/repository/biocontainers/fastq-screen

@@ -49,6 +49,7 @@ nmrml2isa
 
 
 .. |downloads_nmrml2isa| image:: https://img.shields.io/conda/dn/bioconda/nmrml2isa.svg?style=flat
+   :target: https://anaconda.org/bioconda/nmrml2isa
    :alt:   (downloads)
 .. |docker_nmrml2isa| image:: https://quay.io/repository/biocontainers/nmrml2isa/status
    :target: https://quay.io/repository/biocontainers/nmrml2isa

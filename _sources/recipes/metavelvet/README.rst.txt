@@ -49,6 +49,7 @@ metavelvet
 
 
 .. |downloads_metavelvet| image:: https://img.shields.io/conda/dn/bioconda/metavelvet.svg?style=flat
+   :target: https://anaconda.org/bioconda/metavelvet
    :alt:   (downloads)
 .. |docker_metavelvet| image:: https://quay.io/repository/biocontainers/metavelvet/status
    :target: https://quay.io/repository/biocontainers/metavelvet

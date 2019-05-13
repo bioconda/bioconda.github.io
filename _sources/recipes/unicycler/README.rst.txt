@@ -57,6 +57,7 @@ unicycler
 
 
 .. |downloads_unicycler| image:: https://img.shields.io/conda/dn/bioconda/unicycler.svg?style=flat
+   :target: https://anaconda.org/bioconda/unicycler
    :alt:   (downloads)
 .. |docker_unicycler| image:: https://quay.io/repository/biocontainers/unicycler/status
    :target: https://quay.io/repository/biocontainers/unicycler

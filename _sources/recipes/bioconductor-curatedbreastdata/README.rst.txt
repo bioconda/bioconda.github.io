@@ -51,6 +51,7 @@ bioconductor-curatedbreastdata
 
 
 .. |downloads_bioconductor-curatedbreastdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-curatedbreastdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-curatedbreastdata
    :alt:   (downloads)
 .. |docker_bioconductor-curatedbreastdata| image:: https://quay.io/repository/biocontainers/bioconductor-curatedbreastdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-curatedbreastdata

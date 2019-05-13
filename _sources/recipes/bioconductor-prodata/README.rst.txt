@@ -47,6 +47,7 @@ bioconductor-prodata
 
 
 .. |downloads_bioconductor-prodata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-prodata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-prodata
    :alt:   (downloads)
 .. |docker_bioconductor-prodata| image:: https://quay.io/repository/biocontainers/bioconductor-prodata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-prodata

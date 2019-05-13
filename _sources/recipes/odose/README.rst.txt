@@ -51,6 +51,7 @@ odose
 
 
 .. |downloads_odose| image:: https://img.shields.io/conda/dn/bioconda/odose.svg?style=flat
+   :target: https://anaconda.org/bioconda/odose
    :alt:   (downloads)
 .. |docker_odose| image:: https://quay.io/repository/biocontainers/odose/status
    :target: https://quay.io/repository/biocontainers/odose

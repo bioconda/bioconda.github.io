@@ -48,6 +48,7 @@ bioconductor-phenodist
 
 
 .. |downloads_bioconductor-phenodist| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-phenodist.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-phenodist
    :alt:   (downloads)
 .. |docker_bioconductor-phenodist| image:: https://quay.io/repository/biocontainers/bioconductor-phenodist/status
    :target: https://quay.io/repository/biocontainers/bioconductor-phenodist

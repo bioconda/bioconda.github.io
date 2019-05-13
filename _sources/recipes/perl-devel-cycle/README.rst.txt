@@ -45,6 +45,7 @@ perl-devel-cycle
 
 
 .. |downloads_perl-devel-cycle| image:: https://img.shields.io/conda/dn/bioconda/perl-devel-cycle.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-devel-cycle
    :alt:   (downloads)
 .. |docker_perl-devel-cycle| image:: https://quay.io/repository/biocontainers/perl-devel-cycle/status
    :target: https://quay.io/repository/biocontainers/perl-devel-cycle

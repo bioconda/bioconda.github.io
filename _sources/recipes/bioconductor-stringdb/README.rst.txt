@@ -55,6 +55,7 @@ bioconductor-stringdb
 
 
 .. |downloads_bioconductor-stringdb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-stringdb.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-stringdb
    :alt:   (downloads)
 .. |docker_bioconductor-stringdb| image:: https://quay.io/repository/biocontainers/bioconductor-stringdb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-stringdb

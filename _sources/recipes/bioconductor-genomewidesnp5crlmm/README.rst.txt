@@ -46,6 +46,7 @@ bioconductor-genomewidesnp5crlmm
 
 
 .. |downloads_bioconductor-genomewidesnp5crlmm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genomewidesnp5crlmm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genomewidesnp5crlmm
    :alt:   (downloads)
 .. |docker_bioconductor-genomewidesnp5crlmm| image:: https://quay.io/repository/biocontainers/bioconductor-genomewidesnp5crlmm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genomewidesnp5crlmm

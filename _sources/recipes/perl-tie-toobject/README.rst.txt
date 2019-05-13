@@ -47,6 +47,7 @@ perl-tie-toobject
 
 
 .. |downloads_perl-tie-toobject| image:: https://img.shields.io/conda/dn/bioconda/perl-tie-toobject.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-tie-toobject
    :alt:   (downloads)
 .. |docker_perl-tie-toobject| image:: https://quay.io/repository/biocontainers/perl-tie-toobject/status
    :target: https://quay.io/repository/biocontainers/perl-tie-toobject

@@ -56,6 +56,7 @@ bioconductor-cobindr
 
 
 .. |downloads_bioconductor-cobindr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cobindr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cobindr
    :alt:   (downloads)
 .. |docker_bioconductor-cobindr| image:: https://quay.io/repository/biocontainers/bioconductor-cobindr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cobindr

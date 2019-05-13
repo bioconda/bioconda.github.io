@@ -48,6 +48,7 @@ perl-package-stash-xs
 
 
 .. |downloads_perl-package-stash-xs| image:: https://img.shields.io/conda/dn/bioconda/perl-package-stash-xs.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-package-stash-xs
    :alt:   (downloads)
 .. |docker_perl-package-stash-xs| image:: https://quay.io/repository/biocontainers/perl-package-stash-xs/status
    :target: https://quay.io/repository/biocontainers/perl-package-stash-xs

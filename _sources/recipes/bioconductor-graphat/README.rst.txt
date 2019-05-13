@@ -48,6 +48,7 @@ bioconductor-graphat
 
 
 .. |downloads_bioconductor-graphat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-graphat.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-graphat
    :alt:   (downloads)
 .. |docker_bioconductor-graphat| image:: https://quay.io/repository/biocontainers/bioconductor-graphat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-graphat

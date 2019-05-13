@@ -48,6 +48,7 @@ andi
 
 
 .. |downloads_andi| image:: https://img.shields.io/conda/dn/bioconda/andi.svg?style=flat
+   :target: https://anaconda.org/bioconda/andi
    :alt:   (downloads)
 .. |docker_andi| image:: https://quay.io/repository/biocontainers/andi/status
    :target: https://quay.io/repository/biocontainers/andi

@@ -62,6 +62,7 @@ bioconductor-guideseq
 
 
 .. |downloads_bioconductor-guideseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-guideseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-guideseq
    :alt:   (downloads)
 .. |docker_bioconductor-guideseq| image:: https://quay.io/repository/biocontainers/bioconductor-guideseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-guideseq

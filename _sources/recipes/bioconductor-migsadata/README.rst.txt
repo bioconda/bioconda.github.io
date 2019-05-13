@@ -46,6 +46,7 @@ bioconductor-migsadata
 
 
 .. |downloads_bioconductor-migsadata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-migsadata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-migsadata
    :alt:   (downloads)
 .. |docker_bioconductor-migsadata| image:: https://quay.io/repository/biocontainers/bioconductor-migsadata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-migsadata

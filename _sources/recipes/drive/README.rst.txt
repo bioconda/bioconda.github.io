@@ -44,6 +44,7 @@ drive
 
 
 .. |downloads_drive| image:: https://img.shields.io/conda/dn/bioconda/drive.svg?style=flat
+   :target: https://anaconda.org/bioconda/drive
    :alt:   (downloads)
 .. |docker_drive| image:: https://quay.io/repository/biocontainers/drive/status
    :target: https://quay.io/repository/biocontainers/drive

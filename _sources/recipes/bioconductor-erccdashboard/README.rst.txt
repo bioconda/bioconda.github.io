@@ -59,6 +59,7 @@ bioconductor-erccdashboard
 
 
 .. |downloads_bioconductor-erccdashboard| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-erccdashboard.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-erccdashboard
    :alt:   (downloads)
 .. |docker_bioconductor-erccdashboard| image:: https://quay.io/repository/biocontainers/bioconductor-erccdashboard/status
    :target: https://quay.io/repository/biocontainers/bioconductor-erccdashboard

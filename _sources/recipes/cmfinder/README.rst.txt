@@ -47,6 +47,7 @@ cmfinder
 
 
 .. |downloads_cmfinder| image:: https://img.shields.io/conda/dn/bioconda/cmfinder.svg?style=flat
+   :target: https://anaconda.org/bioconda/cmfinder
    :alt:   (downloads)
 .. |docker_cmfinder| image:: https://quay.io/repository/biocontainers/cmfinder/status
    :target: https://quay.io/repository/biocontainers/cmfinder

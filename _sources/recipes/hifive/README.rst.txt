@@ -54,6 +54,7 @@ hifive
 
 
 .. |downloads_hifive| image:: https://img.shields.io/conda/dn/bioconda/hifive.svg?style=flat
+   :target: https://anaconda.org/bioconda/hifive
    :alt:   (downloads)
 .. |docker_hifive| image:: https://quay.io/repository/biocontainers/hifive/status
    :target: https://quay.io/repository/biocontainers/hifive

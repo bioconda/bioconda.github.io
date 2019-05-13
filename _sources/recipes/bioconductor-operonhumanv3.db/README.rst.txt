@@ -48,6 +48,7 @@ bioconductor-operonhumanv3.db
 
 
 .. |downloads_bioconductor-operonhumanv3.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-operonhumanv3.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-operonhumanv3.db
    :alt:   (downloads)
 .. |docker_bioconductor-operonhumanv3.db| image:: https://quay.io/repository/biocontainers/bioconductor-operonhumanv3.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-operonhumanv3.db

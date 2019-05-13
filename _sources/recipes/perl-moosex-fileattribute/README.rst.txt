@@ -47,6 +47,7 @@ perl-moosex-fileattribute
 
 
 .. |downloads_perl-moosex-fileattribute| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-fileattribute.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-moosex-fileattribute
    :alt:   (downloads)
 .. |docker_perl-moosex-fileattribute| image:: https://quay.io/repository/biocontainers/perl-moosex-fileattribute/status
    :target: https://quay.io/repository/biocontainers/perl-moosex-fileattribute

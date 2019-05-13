@@ -46,6 +46,7 @@ collect_mgf
 
 
 .. |downloads_collect_mgf| image:: https://img.shields.io/conda/dn/bioconda/collect_mgf.svg?style=flat
+   :target: https://anaconda.org/bioconda/collect_mgf
    :alt:   (downloads)
 .. |docker_collect_mgf| image:: https://quay.io/repository/biocontainers/collect_mgf/status
    :target: https://quay.io/repository/biocontainers/collect_mgf

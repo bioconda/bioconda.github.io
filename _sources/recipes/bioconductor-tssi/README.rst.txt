@@ -54,6 +54,7 @@ bioconductor-tssi
 
 
 .. |downloads_bioconductor-tssi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tssi.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tssi
    :alt:   (downloads)
 .. |docker_bioconductor-tssi| image:: https://quay.io/repository/biocontainers/bioconductor-tssi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tssi

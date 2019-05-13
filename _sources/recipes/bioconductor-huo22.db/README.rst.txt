@@ -48,6 +48,7 @@ bioconductor-huo22.db
 
 
 .. |downloads_bioconductor-huo22.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-huo22.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-huo22.db
    :alt:   (downloads)
 .. |docker_bioconductor-huo22.db| image:: https://quay.io/repository/biocontainers/bioconductor-huo22.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-huo22.db

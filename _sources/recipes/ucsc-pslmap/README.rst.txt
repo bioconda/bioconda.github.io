@@ -50,6 +50,7 @@ ucsc-pslmap
 
 
 .. |downloads_ucsc-pslmap| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-pslmap
    :alt:   (downloads)
 .. |docker_ucsc-pslmap| image:: https://quay.io/repository/biocontainers/ucsc-pslmap/status
    :target: https://quay.io/repository/biocontainers/ucsc-pslmap

@@ -47,6 +47,7 @@ bioconductor-demand
 
 
 .. |downloads_bioconductor-demand| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-demand.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-demand
    :alt:   (downloads)
 .. |docker_bioconductor-demand| image:: https://quay.io/repository/biocontainers/bioconductor-demand/status
    :target: https://quay.io/repository/biocontainers/bioconductor-demand

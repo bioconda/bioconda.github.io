@@ -46,6 +46,7 @@ tophat
 
 
 .. |downloads_tophat| image:: https://img.shields.io/conda/dn/bioconda/tophat.svg?style=flat
+   :target: https://anaconda.org/bioconda/tophat
    :alt:   (downloads)
 .. |docker_tophat| image:: https://quay.io/repository/biocontainers/tophat/status
    :target: https://quay.io/repository/biocontainers/tophat

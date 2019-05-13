@@ -49,6 +49,7 @@ dbg2olc
 
 
 .. |downloads_dbg2olc| image:: https://img.shields.io/conda/dn/bioconda/dbg2olc.svg?style=flat
+   :target: https://anaconda.org/bioconda/dbg2olc
    :alt:   (downloads)
 .. |docker_dbg2olc| image:: https://quay.io/repository/biocontainers/dbg2olc/status
    :target: https://quay.io/repository/biocontainers/dbg2olc

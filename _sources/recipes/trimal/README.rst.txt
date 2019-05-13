@@ -47,6 +47,7 @@ trimal
 
 
 .. |downloads_trimal| image:: https://img.shields.io/conda/dn/bioconda/trimal.svg?style=flat
+   :target: https://anaconda.org/bioconda/trimal
    :alt:   (downloads)
 .. |docker_trimal| image:: https://quay.io/repository/biocontainers/trimal/status
    :target: https://quay.io/repository/biocontainers/trimal

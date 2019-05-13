@@ -47,6 +47,7 @@ gvcftools
 
 
 .. |downloads_gvcftools| image:: https://img.shields.io/conda/dn/bioconda/gvcftools.svg?style=flat
+   :target: https://anaconda.org/bioconda/gvcftools
    :alt:   (downloads)
 .. |docker_gvcftools| image:: https://quay.io/repository/biocontainers/gvcftools/status
    :target: https://quay.io/repository/biocontainers/gvcftools

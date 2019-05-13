@@ -51,6 +51,7 @@ perl-cairo
 
 
 .. |downloads_perl-cairo| image:: https://img.shields.io/conda/dn/bioconda/perl-cairo.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-cairo
    :alt:   (downloads)
 .. |docker_perl-cairo| image:: https://quay.io/repository/biocontainers/perl-cairo/status
    :target: https://quay.io/repository/biocontainers/perl-cairo

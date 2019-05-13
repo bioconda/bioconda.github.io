@@ -47,6 +47,7 @@ bioconductor-rdrtoolbox
 
 
 .. |downloads_bioconductor-rdrtoolbox| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rdrtoolbox.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rdrtoolbox
    :alt:   (downloads)
 .. |docker_bioconductor-rdrtoolbox| image:: https://quay.io/repository/biocontainers/bioconductor-rdrtoolbox/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rdrtoolbox

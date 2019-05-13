@@ -46,6 +46,7 @@ extractpirs
 
 
 .. |downloads_extractpirs| image:: https://img.shields.io/conda/dn/bioconda/extractpirs.svg?style=flat
+   :target: https://anaconda.org/bioconda/extractpirs
    :alt:   (downloads)
 .. |docker_extractpirs| image:: https://quay.io/repository/biocontainers/extractpirs/status
    :target: https://quay.io/repository/biocontainers/extractpirs

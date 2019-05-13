@@ -45,6 +45,7 @@ bd2k-python-lib
 
 
 .. |downloads_bd2k-python-lib| image:: https://img.shields.io/conda/dn/bioconda/bd2k-python-lib.svg?style=flat
+   :target: https://anaconda.org/bioconda/bd2k-python-lib
    :alt:   (downloads)
 .. |docker_bd2k-python-lib| image:: https://quay.io/repository/biocontainers/bd2k-python-lib/status
    :target: https://quay.io/repository/biocontainers/bd2k-python-lib

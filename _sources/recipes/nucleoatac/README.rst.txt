@@ -54,6 +54,7 @@ nucleoatac
 
 
 .. |downloads_nucleoatac| image:: https://img.shields.io/conda/dn/bioconda/nucleoatac.svg?style=flat
+   :target: https://anaconda.org/bioconda/nucleoatac
    :alt:   (downloads)
 .. |docker_nucleoatac| image:: https://quay.io/repository/biocontainers/nucleoatac/status
    :target: https://quay.io/repository/biocontainers/nucleoatac

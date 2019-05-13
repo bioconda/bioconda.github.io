@@ -45,6 +45,7 @@ minced
 
 
 .. |downloads_minced| image:: https://img.shields.io/conda/dn/bioconda/minced.svg?style=flat
+   :target: https://anaconda.org/bioconda/minced
    :alt:   (downloads)
 .. |docker_minced| image:: https://quay.io/repository/biocontainers/minced/status
    :target: https://quay.io/repository/biocontainers/minced

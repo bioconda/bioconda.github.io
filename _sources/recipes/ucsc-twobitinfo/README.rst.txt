@@ -50,6 +50,7 @@ ucsc-twobitinfo
 
 
 .. |downloads_ucsc-twobitinfo| image:: https://img.shields.io/conda/dn/bioconda/ucsc-twobitinfo.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-twobitinfo
    :alt:   (downloads)
 .. |docker_ucsc-twobitinfo| image:: https://quay.io/repository/biocontainers/ucsc-twobitinfo/status
    :target: https://quay.io/repository/biocontainers/ucsc-twobitinfo

@@ -54,6 +54,7 @@ bioconductor-chipenrich.data
 
 
 .. |downloads_bioconductor-chipenrich.data| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chipenrich.data.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chipenrich.data
    :alt:   (downloads)
 .. |docker_bioconductor-chipenrich.data| image:: https://quay.io/repository/biocontainers/bioconductor-chipenrich.data/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chipenrich.data

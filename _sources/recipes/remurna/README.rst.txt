@@ -45,6 +45,7 @@ remurna
 
 
 .. |downloads_remurna| image:: https://img.shields.io/conda/dn/bioconda/remurna.svg?style=flat
+   :target: https://anaconda.org/bioconda/remurna
    :alt:   (downloads)
 .. |docker_remurna| image:: https://quay.io/repository/biocontainers/remurna/status
    :target: https://quay.io/repository/biocontainers/remurna

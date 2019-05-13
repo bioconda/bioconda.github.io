@@ -61,6 +61,7 @@ selene-sdk
 
 
 .. |downloads_selene-sdk| image:: https://img.shields.io/conda/dn/bioconda/selene-sdk.svg?style=flat
+   :target: https://anaconda.org/bioconda/selene-sdk
    :alt:   (downloads)
 .. |docker_selene-sdk| image:: https://quay.io/repository/biocontainers/selene-sdk/status
    :target: https://quay.io/repository/biocontainers/selene-sdk

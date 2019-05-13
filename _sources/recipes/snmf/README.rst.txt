@@ -44,6 +44,7 @@ snmf
 
 
 .. |downloads_snmf| image:: https://img.shields.io/conda/dn/bioconda/snmf.svg?style=flat
+   :target: https://anaconda.org/bioconda/snmf
    :alt:   (downloads)
 .. |docker_snmf| image:: https://quay.io/repository/biocontainers/snmf/status
    :target: https://quay.io/repository/biocontainers/snmf

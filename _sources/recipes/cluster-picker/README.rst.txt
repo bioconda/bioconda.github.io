@@ -45,6 +45,7 @@ clusterpicker
 
 
 .. |downloads_clusterpicker| image:: https://img.shields.io/conda/dn/bioconda/clusterpicker.svg?style=flat
+   :target: https://anaconda.org/bioconda/clusterpicker
    :alt:   (downloads)
 .. |docker_clusterpicker| image:: https://quay.io/repository/biocontainers/clusterpicker/status
    :target: https://quay.io/repository/biocontainers/clusterpicker

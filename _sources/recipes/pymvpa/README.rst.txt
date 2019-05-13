@@ -53,6 +53,7 @@ pymvpa
 
 
 .. |downloads_pymvpa| image:: https://img.shields.io/conda/dn/bioconda/pymvpa.svg?style=flat
+   :target: https://anaconda.org/bioconda/pymvpa
    :alt:   (downloads)
 .. |docker_pymvpa| image:: https://quay.io/repository/biocontainers/pymvpa/status
    :target: https://quay.io/repository/biocontainers/pymvpa

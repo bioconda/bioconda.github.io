@@ -49,6 +49,7 @@ bioconductor-dsqtl
 
 
 .. |downloads_bioconductor-dsqtl| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dsqtl.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dsqtl
    :alt:   (downloads)
 .. |docker_bioconductor-dsqtl| image:: https://quay.io/repository/biocontainers/bioconductor-dsqtl/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dsqtl

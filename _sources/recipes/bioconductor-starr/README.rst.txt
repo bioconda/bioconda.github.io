@@ -53,6 +53,7 @@ bioconductor-starr
 
 
 .. |downloads_bioconductor-starr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-starr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-starr
    :alt:   (downloads)
 .. |docker_bioconductor-starr| image:: https://quay.io/repository/biocontainers/bioconductor-starr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-starr

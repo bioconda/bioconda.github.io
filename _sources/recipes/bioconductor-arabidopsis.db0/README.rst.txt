@@ -47,6 +47,7 @@ bioconductor-arabidopsis.db0
 
 
 .. |downloads_bioconductor-arabidopsis.db0| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-arabidopsis.db0.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-arabidopsis.db0
    :alt:   (downloads)
 .. |docker_bioconductor-arabidopsis.db0| image:: https://quay.io/repository/biocontainers/bioconductor-arabidopsis.db0/status
    :target: https://quay.io/repository/biocontainers/bioconductor-arabidopsis.db0

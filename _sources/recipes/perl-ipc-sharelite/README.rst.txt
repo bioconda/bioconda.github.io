@@ -47,6 +47,7 @@ perl-ipc-sharelite
 
 
 .. |downloads_perl-ipc-sharelite| image:: https://img.shields.io/conda/dn/bioconda/perl-ipc-sharelite.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-ipc-sharelite
    :alt:   (downloads)
 .. |docker_perl-ipc-sharelite| image:: https://quay.io/repository/biocontainers/perl-ipc-sharelite/status
    :target: https://quay.io/repository/biocontainers/perl-ipc-sharelite

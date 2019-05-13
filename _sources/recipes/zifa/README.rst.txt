@@ -45,6 +45,7 @@ zifa
 
 
 .. |downloads_zifa| image:: https://img.shields.io/conda/dn/bioconda/zifa.svg?style=flat
+   :target: https://anaconda.org/bioconda/zifa
    :alt:   (downloads)
 .. |docker_zifa| image:: https://quay.io/repository/biocontainers/zifa/status
    :target: https://quay.io/repository/biocontainers/zifa

@@ -48,6 +48,7 @@ gem3-mapper
 
 
 .. |downloads_gem3-mapper| image:: https://img.shields.io/conda/dn/bioconda/gem3-mapper.svg?style=flat
+   :target: https://anaconda.org/bioconda/gem3-mapper
    :alt:   (downloads)
 .. |docker_gem3-mapper| image:: https://quay.io/repository/biocontainers/gem3-mapper/status
    :target: https://quay.io/repository/biocontainers/gem3-mapper

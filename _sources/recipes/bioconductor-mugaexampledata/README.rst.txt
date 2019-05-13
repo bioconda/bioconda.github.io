@@ -46,6 +46,7 @@ bioconductor-mugaexampledata
 
 
 .. |downloads_bioconductor-mugaexampledata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mugaexampledata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mugaexampledata
    :alt:   (downloads)
 .. |docker_bioconductor-mugaexampledata| image:: https://quay.io/repository/biocontainers/bioconductor-mugaexampledata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mugaexampledata

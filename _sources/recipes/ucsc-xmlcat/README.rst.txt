@@ -50,6 +50,7 @@ ucsc-xmlcat
 
 
 .. |downloads_ucsc-xmlcat| image:: https://img.shields.io/conda/dn/bioconda/ucsc-xmlcat.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-xmlcat
    :alt:   (downloads)
 .. |docker_ucsc-xmlcat| image:: https://quay.io/repository/biocontainers/ucsc-xmlcat/status
    :target: https://quay.io/repository/biocontainers/ucsc-xmlcat

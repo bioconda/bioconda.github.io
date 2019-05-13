@@ -47,6 +47,7 @@ perl-params-util
 
 
 .. |downloads_perl-params-util| image:: https://img.shields.io/conda/dn/bioconda/perl-params-util.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-params-util
    :alt:   (downloads)
 .. |docker_perl-params-util| image:: https://quay.io/repository/biocontainers/perl-params-util/status
    :target: https://quay.io/repository/biocontainers/perl-params-util

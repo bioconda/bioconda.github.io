@@ -51,6 +51,7 @@ pkiss
 
 
 .. |downloads_pkiss| image:: https://img.shields.io/conda/dn/bioconda/pkiss.svg?style=flat
+   :target: https://anaconda.org/bioconda/pkiss
    :alt:   (downloads)
 .. |docker_pkiss| image:: https://quay.io/repository/biocontainers/pkiss/status
    :target: https://quay.io/repository/biocontainers/pkiss

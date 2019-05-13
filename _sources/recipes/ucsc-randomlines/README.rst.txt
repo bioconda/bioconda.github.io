@@ -50,6 +50,7 @@ ucsc-randomlines
 
 
 .. |downloads_ucsc-randomlines| image:: https://img.shields.io/conda/dn/bioconda/ucsc-randomlines.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-randomlines
    :alt:   (downloads)
 .. |docker_ucsc-randomlines| image:: https://quay.io/repository/biocontainers/ucsc-randomlines/status
    :target: https://quay.io/repository/biocontainers/ucsc-randomlines

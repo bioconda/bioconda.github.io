@@ -56,6 +56,7 @@ deepsvr
 
 
 .. |downloads_deepsvr| image:: https://img.shields.io/conda/dn/bioconda/deepsvr.svg?style=flat
+   :target: https://anaconda.org/bioconda/deepsvr
    :alt:   (downloads)
 .. |docker_deepsvr| image:: https://quay.io/repository/biocontainers/deepsvr/status
    :target: https://quay.io/repository/biocontainers/deepsvr

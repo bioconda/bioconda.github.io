@@ -46,6 +46,7 @@ perl-perl-ostype
 
 
 .. |downloads_perl-perl-ostype| image:: https://img.shields.io/conda/dn/bioconda/perl-perl-ostype.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-perl-ostype
    :alt:   (downloads)
 .. |docker_perl-perl-ostype| image:: https://quay.io/repository/biocontainers/perl-perl-ostype/status
    :target: https://quay.io/repository/biocontainers/perl-perl-ostype

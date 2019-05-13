@@ -47,6 +47,7 @@ bioconductor-spotsegmentation
 
 
 .. |downloads_bioconductor-spotsegmentation| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-spotsegmentation.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-spotsegmentation
    :alt:   (downloads)
 .. |docker_bioconductor-spotsegmentation| image:: https://quay.io/repository/biocontainers/bioconductor-spotsegmentation/status
    :target: https://quay.io/repository/biocontainers/bioconductor-spotsegmentation

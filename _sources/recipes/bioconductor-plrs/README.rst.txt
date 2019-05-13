@@ -52,6 +52,7 @@ bioconductor-plrs
 
 
 .. |downloads_bioconductor-plrs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-plrs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-plrs
    :alt:   (downloads)
 .. |docker_bioconductor-plrs| image:: https://quay.io/repository/biocontainers/bioconductor-plrs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-plrs

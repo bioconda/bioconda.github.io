@@ -50,6 +50,7 @@ ucsc-mafcoverage
 
 
 .. |downloads_ucsc-mafcoverage| image:: https://img.shields.io/conda/dn/bioconda/ucsc-mafcoverage.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-mafcoverage
    :alt:   (downloads)
 .. |docker_ucsc-mafcoverage| image:: https://quay.io/repository/biocontainers/ucsc-mafcoverage/status
    :target: https://quay.io/repository/biocontainers/ucsc-mafcoverage

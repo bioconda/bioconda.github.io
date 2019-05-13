@@ -47,6 +47,7 @@ perl-data-munge
 
 
 .. |downloads_perl-data-munge| image:: https://img.shields.io/conda/dn/bioconda/perl-data-munge.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-data-munge
    :alt:   (downloads)
 .. |docker_perl-data-munge| image:: https://quay.io/repository/biocontainers/perl-data-munge/status
    :target: https://quay.io/repository/biocontainers/perl-data-munge

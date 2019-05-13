@@ -45,6 +45,7 @@ estscan
 
 
 .. |downloads_estscan| image:: https://img.shields.io/conda/dn/bioconda/estscan.svg?style=flat
+   :target: https://anaconda.org/bioconda/estscan
    :alt:   (downloads)
 .. |docker_estscan| image:: https://quay.io/repository/biocontainers/estscan/status
    :target: https://quay.io/repository/biocontainers/estscan

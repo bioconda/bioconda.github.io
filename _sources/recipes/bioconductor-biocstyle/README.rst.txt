@@ -51,6 +51,7 @@ bioconductor-biocstyle
 
 
 .. |downloads_bioconductor-biocstyle| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biocstyle.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-biocstyle
    :alt:   (downloads)
 .. |docker_bioconductor-biocstyle| image:: https://quay.io/repository/biocontainers/bioconductor-biocstyle/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biocstyle

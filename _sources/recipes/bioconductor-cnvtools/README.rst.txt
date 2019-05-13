@@ -49,6 +49,7 @@ bioconductor-cnvtools
 
 
 .. |downloads_bioconductor-cnvtools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cnvtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cnvtools
    :alt:   (downloads)
 .. |docker_bioconductor-cnvtools| image:: https://quay.io/repository/biocontainers/bioconductor-cnvtools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cnvtools

@@ -46,6 +46,7 @@ bioconductor-human370v1ccrlmm
 
 
 .. |downloads_bioconductor-human370v1ccrlmm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-human370v1ccrlmm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-human370v1ccrlmm
    :alt:   (downloads)
 .. |docker_bioconductor-human370v1ccrlmm| image:: https://quay.io/repository/biocontainers/bioconductor-human370v1ccrlmm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-human370v1ccrlmm

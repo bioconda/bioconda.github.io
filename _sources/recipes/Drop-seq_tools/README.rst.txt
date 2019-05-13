@@ -46,6 +46,7 @@ dropseq_tools
 
 
 .. |downloads_dropseq_tools| image:: https://img.shields.io/conda/dn/bioconda/dropseq_tools.svg?style=flat
+   :target: https://anaconda.org/bioconda/dropseq_tools
    :alt:   (downloads)
 .. |docker_dropseq_tools| image:: https://quay.io/repository/biocontainers/dropseq_tools/status
    :target: https://quay.io/repository/biocontainers/dropseq_tools

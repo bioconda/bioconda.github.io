@@ -46,6 +46,7 @@ bioconductor-progeny
 
 
 .. |downloads_bioconductor-progeny| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-progeny.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-progeny
    :alt:   (downloads)
 .. |docker_bioconductor-progeny| image:: https://quay.io/repository/biocontainers/bioconductor-progeny/status
    :target: https://quay.io/repository/biocontainers/bioconductor-progeny

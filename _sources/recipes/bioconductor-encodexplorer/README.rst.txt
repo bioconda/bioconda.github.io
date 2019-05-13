@@ -56,6 +56,7 @@ bioconductor-encodexplorer
 
 
 .. |downloads_bioconductor-encodexplorer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-encodexplorer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-encodexplorer
    :alt:   (downloads)
 .. |docker_bioconductor-encodexplorer| image:: https://quay.io/repository/biocontainers/bioconductor-encodexplorer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-encodexplorer

@@ -50,6 +50,7 @@ ucsc-dbtrash
 
 
 .. |downloads_ucsc-dbtrash| image:: https://img.shields.io/conda/dn/bioconda/ucsc-dbtrash.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-dbtrash
    :alt:   (downloads)
 .. |docker_ucsc-dbtrash| image:: https://quay.io/repository/biocontainers/ucsc-dbtrash/status
    :target: https://quay.io/repository/biocontainers/ucsc-dbtrash

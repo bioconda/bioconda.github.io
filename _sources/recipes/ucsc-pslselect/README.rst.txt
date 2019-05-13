@@ -50,6 +50,7 @@ ucsc-pslselect
 
 
 .. |downloads_ucsc-pslselect| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslselect.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-pslselect
    :alt:   (downloads)
 .. |docker_ucsc-pslselect| image:: https://quay.io/repository/biocontainers/ucsc-pslselect/status
    :target: https://quay.io/repository/biocontainers/ucsc-pslselect

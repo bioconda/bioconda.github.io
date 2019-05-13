@@ -55,6 +55,7 @@ sv2
 
 
 .. |downloads_sv2| image:: https://img.shields.io/conda/dn/bioconda/sv2.svg?style=flat
+   :target: https://anaconda.org/bioconda/sv2
    :alt:   (downloads)
 .. |docker_sv2| image:: https://quay.io/repository/biocontainers/sv2/status
    :target: https://quay.io/repository/biocontainers/sv2

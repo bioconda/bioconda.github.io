@@ -47,6 +47,7 @@ perl-mime-tools
 
 
 .. |downloads_perl-mime-tools| image:: https://img.shields.io/conda/dn/bioconda/perl-mime-tools.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-mime-tools
    :alt:   (downloads)
 .. |docker_perl-mime-tools| image:: https://quay.io/repository/biocontainers/perl-mime-tools/status
    :target: https://quay.io/repository/biocontainers/perl-mime-tools

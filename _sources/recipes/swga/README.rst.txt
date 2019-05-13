@@ -57,6 +57,7 @@ swga
 
 
 .. |downloads_swga| image:: https://img.shields.io/conda/dn/bioconda/swga.svg?style=flat
+   :target: https://anaconda.org/bioconda/swga
    :alt:   (downloads)
 .. |docker_swga| image:: https://quay.io/repository/biocontainers/swga/status
    :target: https://quay.io/repository/biocontainers/swga

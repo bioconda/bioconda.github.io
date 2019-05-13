@@ -47,6 +47,7 @@ fastool
 
 
 .. |downloads_fastool| image:: https://img.shields.io/conda/dn/bioconda/fastool.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastool
    :alt:   (downloads)
 .. |docker_fastool| image:: https://quay.io/repository/biocontainers/fastool/status
    :target: https://quay.io/repository/biocontainers/fastool

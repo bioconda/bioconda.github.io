@@ -48,6 +48,7 @@ bioconductor-asgsca
 
 
 .. |downloads_bioconductor-asgsca| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-asgsca.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-asgsca
    :alt:   (downloads)
 .. |docker_bioconductor-asgsca| image:: https://quay.io/repository/biocontainers/bioconductor-asgsca/status
    :target: https://quay.io/repository/biocontainers/bioconductor-asgsca

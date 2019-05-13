@@ -50,6 +50,7 @@ ucsc-mafaddirows
 
 
 .. |downloads_ucsc-mafaddirows| image:: https://img.shields.io/conda/dn/bioconda/ucsc-mafaddirows.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-mafaddirows
    :alt:   (downloads)
 .. |docker_ucsc-mafaddirows| image:: https://quay.io/repository/biocontainers/ucsc-mafaddirows/status
    :target: https://quay.io/repository/biocontainers/ucsc-mafaddirows

@@ -49,6 +49,7 @@ bioconductor-fella
 
 
 .. |downloads_bioconductor-fella| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fella.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-fella
    :alt:   (downloads)
 .. |docker_bioconductor-fella| image:: https://quay.io/repository/biocontainers/bioconductor-fella/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fella

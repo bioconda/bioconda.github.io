@@ -45,6 +45,7 @@ roary2fripan.py
 
 
 .. |downloads_roary2fripan.py| image:: https://img.shields.io/conda/dn/bioconda/roary2fripan.py.svg?style=flat
+   :target: https://anaconda.org/bioconda/roary2fripan.py
    :alt:   (downloads)
 .. |docker_roary2fripan.py| image:: https://quay.io/repository/biocontainers/roary2fripan.py/status
    :target: https://quay.io/repository/biocontainers/roary2fripan.py

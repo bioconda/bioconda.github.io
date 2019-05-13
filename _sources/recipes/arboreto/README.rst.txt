@@ -51,6 +51,7 @@ arboreto
 
 
 .. |downloads_arboreto| image:: https://img.shields.io/conda/dn/bioconda/arboreto.svg?style=flat
+   :target: https://anaconda.org/bioconda/arboreto
    :alt:   (downloads)
 .. |docker_arboreto| image:: https://quay.io/repository/biocontainers/arboreto/status
    :target: https://quay.io/repository/biocontainers/arboreto

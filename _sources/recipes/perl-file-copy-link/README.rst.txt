@@ -46,6 +46,7 @@ perl-file-copy-link
 
 
 .. |downloads_perl-file-copy-link| image:: https://img.shields.io/conda/dn/bioconda/perl-file-copy-link.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-copy-link
    :alt:   (downloads)
 .. |docker_perl-file-copy-link| image:: https://quay.io/repository/biocontainers/perl-file-copy-link/status
    :target: https://quay.io/repository/biocontainers/perl-file-copy-link

@@ -51,6 +51,7 @@ r-cate
 
 
 .. |downloads_r-cate| image:: https://img.shields.io/conda/dn/bioconda/r-cate.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-cate
    :alt:   (downloads)
 .. |docker_r-cate| image:: https://quay.io/repository/biocontainers/r-cate/status
    :target: https://quay.io/repository/biocontainers/r-cate

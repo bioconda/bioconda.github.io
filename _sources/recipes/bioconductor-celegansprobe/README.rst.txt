@@ -47,6 +47,7 @@ bioconductor-celegansprobe
 
 
 .. |downloads_bioconductor-celegansprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-celegansprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-celegansprobe
    :alt:   (downloads)
 .. |docker_bioconductor-celegansprobe| image:: https://quay.io/repository/biocontainers/bioconductor-celegansprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-celegansprobe

@@ -45,6 +45,7 @@ vcflatten
 
 
 .. |downloads_vcflatten| image:: https://img.shields.io/conda/dn/bioconda/vcflatten.svg?style=flat
+   :target: https://anaconda.org/bioconda/vcflatten
    :alt:   (downloads)
 .. |docker_vcflatten| image:: https://quay.io/repository/biocontainers/vcflatten/status
    :target: https://quay.io/repository/biocontainers/vcflatten

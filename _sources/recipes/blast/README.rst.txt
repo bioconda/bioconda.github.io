@@ -56,6 +56,7 @@ blast
 
 
 .. |downloads_blast| image:: https://img.shields.io/conda/dn/bioconda/blast.svg?style=flat
+   :target: https://anaconda.org/bioconda/blast
    :alt:   (downloads)
 .. |docker_blast| image:: https://quay.io/repository/biocontainers/blast/status
    :target: https://quay.io/repository/biocontainers/blast

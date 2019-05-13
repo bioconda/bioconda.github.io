@@ -47,6 +47,7 @@ hr2
 
 
 .. |downloads_hr2| image:: https://img.shields.io/conda/dn/bioconda/hr2.svg?style=flat
+   :target: https://anaconda.org/bioconda/hr2
    :alt:   (downloads)
 .. |docker_hr2| image:: https://quay.io/repository/biocontainers/hr2/status
    :target: https://quay.io/repository/biocontainers/hr2

@@ -46,6 +46,7 @@ bioawk
 
 
 .. |downloads_bioawk| image:: https://img.shields.io/conda/dn/bioconda/bioawk.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioawk
    :alt:   (downloads)
 .. |docker_bioawk| image:: https://quay.io/repository/biocontainers/bioawk/status
    :target: https://quay.io/repository/biocontainers/bioawk

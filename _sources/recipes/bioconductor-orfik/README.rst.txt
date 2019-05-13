@@ -59,6 +59,7 @@ bioconductor-orfik
 
 
 .. |downloads_bioconductor-orfik| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-orfik.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-orfik
    :alt:   (downloads)
 .. |docker_bioconductor-orfik| image:: https://quay.io/repository/biocontainers/bioconductor-orfik/status
    :target: https://quay.io/repository/biocontainers/bioconductor-orfik

@@ -53,6 +53,7 @@ bioconductor-pd.hg.u95c
 
 
 .. |downloads_bioconductor-pd.hg.u95c| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.hg.u95c.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.hg.u95c
    :alt:   (downloads)
 .. |docker_bioconductor-pd.hg.u95c| image:: https://quay.io/repository/biocontainers/bioconductor-pd.hg.u95c/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.hg.u95c

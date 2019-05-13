@@ -46,6 +46,7 @@ htsbox
 
 
 .. |downloads_htsbox| image:: https://img.shields.io/conda/dn/bioconda/htsbox.svg?style=flat
+   :target: https://anaconda.org/bioconda/htsbox
    :alt:   (downloads)
 .. |docker_htsbox| image:: https://quay.io/repository/biocontainers/htsbox/status
    :target: https://quay.io/repository/biocontainers/htsbox

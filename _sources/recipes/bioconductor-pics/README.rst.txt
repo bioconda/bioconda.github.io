@@ -55,6 +55,7 @@ bioconductor-pics
 
 
 .. |downloads_bioconductor-pics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pics.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pics
    :alt:   (downloads)
 .. |docker_bioconductor-pics| image:: https://quay.io/repository/biocontainers/bioconductor-pics/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pics

@@ -51,6 +51,7 @@ bioconductor-mpra
 
 
 .. |downloads_bioconductor-mpra| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mpra.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mpra
    :alt:   (downloads)
 .. |docker_bioconductor-mpra| image:: https://quay.io/repository/biocontainers/bioconductor-mpra/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mpra

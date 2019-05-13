@@ -46,6 +46,7 @@ abawaca
 
 
 .. |downloads_abawaca| image:: https://img.shields.io/conda/dn/bioconda/abawaca.svg?style=flat
+   :target: https://anaconda.org/bioconda/abawaca
    :alt:   (downloads)
 .. |docker_abawaca| image:: https://quay.io/repository/biocontainers/abawaca/status
    :target: https://quay.io/repository/biocontainers/abawaca

@@ -48,6 +48,7 @@ bioconductor-omicade4
 
 
 .. |downloads_bioconductor-omicade4| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-omicade4.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-omicade4
    :alt:   (downloads)
 .. |docker_bioconductor-omicade4| image:: https://quay.io/repository/biocontainers/bioconductor-omicade4/status
    :target: https://quay.io/repository/biocontainers/bioconductor-omicade4

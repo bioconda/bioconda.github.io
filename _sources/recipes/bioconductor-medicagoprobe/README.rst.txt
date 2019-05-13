@@ -47,6 +47,7 @@ bioconductor-medicagoprobe
 
 
 .. |downloads_bioconductor-medicagoprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-medicagoprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-medicagoprobe
    :alt:   (downloads)
 .. |docker_bioconductor-medicagoprobe| image:: https://quay.io/repository/biocontainers/bioconductor-medicagoprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-medicagoprobe

@@ -48,6 +48,7 @@ bioconductor-singlecellexperiment
 
 
 .. |downloads_bioconductor-singlecellexperiment| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-singlecellexperiment.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-singlecellexperiment
    :alt:   (downloads)
 .. |docker_bioconductor-singlecellexperiment| image:: https://quay.io/repository/biocontainers/bioconductor-singlecellexperiment/status
    :target: https://quay.io/repository/biocontainers/bioconductor-singlecellexperiment

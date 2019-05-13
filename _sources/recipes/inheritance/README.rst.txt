@@ -45,6 +45,7 @@ inheritance
 
 
 .. |downloads_inheritance| image:: https://img.shields.io/conda/dn/bioconda/inheritance.svg?style=flat
+   :target: https://anaconda.org/bioconda/inheritance
    :alt:   (downloads)
 .. |docker_inheritance| image:: https://quay.io/repository/biocontainers/inheritance/status
    :target: https://quay.io/repository/biocontainers/inheritance

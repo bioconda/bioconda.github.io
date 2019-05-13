@@ -49,6 +49,7 @@ kronos
 
 
 .. |downloads_kronos| image:: https://img.shields.io/conda/dn/bioconda/kronos.svg?style=flat
+   :target: https://anaconda.org/bioconda/kronos
    :alt:   (downloads)
 .. |docker_kronos| image:: https://quay.io/repository/biocontainers/kronos/status
    :target: https://quay.io/repository/biocontainers/kronos

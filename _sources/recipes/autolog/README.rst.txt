@@ -47,6 +47,7 @@ autolog
 
 
 .. |downloads_autolog| image:: https://img.shields.io/conda/dn/bioconda/autolog.svg?style=flat
+   :target: https://anaconda.org/bioconda/autolog
    :alt:   (downloads)
 .. |docker_autolog| image:: https://quay.io/repository/biocontainers/autolog/status
    :target: https://quay.io/repository/biocontainers/autolog

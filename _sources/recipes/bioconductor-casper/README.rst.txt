@@ -66,6 +66,7 @@ bioconductor-casper
 
 
 .. |downloads_bioconductor-casper| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-casper.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-casper
    :alt:   (downloads)
 .. |docker_bioconductor-casper| image:: https://quay.io/repository/biocontainers/bioconductor-casper/status
    :target: https://quay.io/repository/biocontainers/bioconductor-casper

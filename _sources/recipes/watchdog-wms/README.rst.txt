@@ -46,6 +46,7 @@ watchdog-wms
 
 
 .. |downloads_watchdog-wms| image:: https://img.shields.io/conda/dn/bioconda/watchdog-wms.svg?style=flat
+   :target: https://anaconda.org/bioconda/watchdog-wms
    :alt:   (downloads)
 .. |docker_watchdog-wms| image:: https://quay.io/repository/biocontainers/watchdog-wms/status
    :target: https://quay.io/repository/biocontainers/watchdog-wms

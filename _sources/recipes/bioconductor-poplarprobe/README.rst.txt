@@ -47,6 +47,7 @@ bioconductor-poplarprobe
 
 
 .. |downloads_bioconductor-poplarprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-poplarprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-poplarprobe
    :alt:   (downloads)
 .. |docker_bioconductor-poplarprobe| image:: https://quay.io/repository/biocontainers/bioconductor-poplarprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-poplarprobe

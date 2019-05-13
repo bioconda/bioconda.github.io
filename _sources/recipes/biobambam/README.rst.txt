@@ -44,6 +44,7 @@ biobambam
 
 
 .. |downloads_biobambam| image:: https://img.shields.io/conda/dn/bioconda/biobambam.svg?style=flat
+   :target: https://anaconda.org/bioconda/biobambam
    :alt:   (downloads)
 .. |docker_biobambam| image:: https://quay.io/repository/biocontainers/biobambam/status
    :target: https://quay.io/repository/biocontainers/biobambam

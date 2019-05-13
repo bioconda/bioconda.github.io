@@ -53,6 +53,7 @@ bioconductor-cosmiq
 
 
 .. |downloads_bioconductor-cosmiq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cosmiq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cosmiq
    :alt:   (downloads)
 .. |docker_bioconductor-cosmiq| image:: https://quay.io/repository/biocontainers/bioconductor-cosmiq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cosmiq

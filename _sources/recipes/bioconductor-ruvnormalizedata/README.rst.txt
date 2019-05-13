@@ -47,6 +47,7 @@ bioconductor-ruvnormalizedata
 
 
 .. |downloads_bioconductor-ruvnormalizedata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ruvnormalizedata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ruvnormalizedata
    :alt:   (downloads)
 .. |docker_bioconductor-ruvnormalizedata| image:: https://quay.io/repository/biocontainers/bioconductor-ruvnormalizedata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ruvnormalizedata

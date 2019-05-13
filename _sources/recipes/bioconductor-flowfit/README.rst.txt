@@ -50,6 +50,7 @@ bioconductor-flowfit
 
 
 .. |downloads_bioconductor-flowfit| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowfit.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowfit
    :alt:   (downloads)
 .. |docker_bioconductor-flowfit| image:: https://quay.io/repository/biocontainers/bioconductor-flowfit/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowfit

@@ -56,6 +56,7 @@ pyensembl
 
 
 .. |downloads_pyensembl| image:: https://img.shields.io/conda/dn/bioconda/pyensembl.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyensembl
    :alt:   (downloads)
 .. |docker_pyensembl| image:: https://quay.io/repository/biocontainers/pyensembl/status
    :target: https://quay.io/repository/biocontainers/pyensembl

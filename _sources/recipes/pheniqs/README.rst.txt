@@ -52,6 +52,7 @@ pheniqs
 
 
 .. |downloads_pheniqs| image:: https://img.shields.io/conda/dn/bioconda/pheniqs.svg?style=flat
+   :target: https://anaconda.org/bioconda/pheniqs
    :alt:   (downloads)
 .. |docker_pheniqs| image:: https://quay.io/repository/biocontainers/pheniqs/status
    :target: https://quay.io/repository/biocontainers/pheniqs

@@ -51,6 +51,7 @@ bioconductor-seqpattern
 
 
 .. |downloads_bioconductor-seqpattern| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-seqpattern.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-seqpattern
    :alt:   (downloads)
 .. |docker_bioconductor-seqpattern| image:: https://quay.io/repository/biocontainers/bioconductor-seqpattern/status
    :target: https://quay.io/repository/biocontainers/bioconductor-seqpattern

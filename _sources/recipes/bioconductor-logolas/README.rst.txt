@@ -50,6 +50,7 @@ bioconductor-logolas
 
 
 .. |downloads_bioconductor-logolas| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-logolas.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-logolas
    :alt:   (downloads)
 .. |docker_bioconductor-logolas| image:: https://quay.io/repository/biocontainers/bioconductor-logolas/status
    :target: https://quay.io/repository/biocontainers/bioconductor-logolas

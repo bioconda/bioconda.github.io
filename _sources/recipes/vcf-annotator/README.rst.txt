@@ -47,6 +47,7 @@ vcf-annotator
 
 
 .. |downloads_vcf-annotator| image:: https://img.shields.io/conda/dn/bioconda/vcf-annotator.svg?style=flat
+   :target: https://anaconda.org/bioconda/vcf-annotator
    :alt:   (downloads)
 .. |docker_vcf-annotator| image:: https://quay.io/repository/biocontainers/vcf-annotator/status
    :target: https://quay.io/repository/biocontainers/vcf-annotator

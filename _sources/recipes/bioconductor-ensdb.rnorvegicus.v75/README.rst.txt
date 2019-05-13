@@ -47,6 +47,7 @@ bioconductor-ensdb.rnorvegicus.v75
 
 
 .. |downloads_bioconductor-ensdb.rnorvegicus.v75| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ensdb.rnorvegicus.v75.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ensdb.rnorvegicus.v75
    :alt:   (downloads)
 .. |docker_bioconductor-ensdb.rnorvegicus.v75| image:: https://quay.io/repository/biocontainers/bioconductor-ensdb.rnorvegicus.v75/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ensdb.rnorvegicus.v75

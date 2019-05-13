@@ -47,6 +47,7 @@ bioconductor-htratfocusprobe
 
 
 .. |downloads_bioconductor-htratfocusprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-htratfocusprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-htratfocusprobe
    :alt:   (downloads)
 .. |docker_bioconductor-htratfocusprobe| image:: https://quay.io/repository/biocontainers/bioconductor-htratfocusprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-htratfocusprobe

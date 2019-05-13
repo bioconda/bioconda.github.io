@@ -47,6 +47,7 @@ gxformat2
 
 
 .. |downloads_gxformat2| image:: https://img.shields.io/conda/dn/bioconda/gxformat2.svg?style=flat
+   :target: https://anaconda.org/bioconda/gxformat2
    :alt:   (downloads)
 .. |docker_gxformat2| image:: https://quay.io/repository/biocontainers/gxformat2/status
    :target: https://quay.io/repository/biocontainers/gxformat2

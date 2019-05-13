@@ -50,6 +50,7 @@ yahmm
 
 
 .. |downloads_yahmm| image:: https://img.shields.io/conda/dn/bioconda/yahmm.svg?style=flat
+   :target: https://anaconda.org/bioconda/yahmm
    :alt:   (downloads)
 .. |docker_yahmm| image:: https://quay.io/repository/biocontainers/yahmm/status
    :target: https://quay.io/repository/biocontainers/yahmm

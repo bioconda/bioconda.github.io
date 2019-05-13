@@ -44,6 +44,7 @@ progressivemauve
 
 
 .. |downloads_progressivemauve| image:: https://img.shields.io/conda/dn/bioconda/progressivemauve.svg?style=flat
+   :target: https://anaconda.org/bioconda/progressivemauve
    :alt:   (downloads)
 .. |docker_progressivemauve| image:: https://quay.io/repository/biocontainers/progressivemauve/status
    :target: https://quay.io/repository/biocontainers/progressivemauve

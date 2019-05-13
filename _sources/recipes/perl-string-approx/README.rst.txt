@@ -46,6 +46,7 @@ perl-string-approx
 
 
 .. |downloads_perl-string-approx| image:: https://img.shields.io/conda/dn/bioconda/perl-string-approx.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-string-approx
    :alt:   (downloads)
 .. |docker_perl-string-approx| image:: https://quay.io/repository/biocontainers/perl-string-approx/status
    :target: https://quay.io/repository/biocontainers/perl-string-approx

@@ -52,6 +52,7 @@ tpp
 
 
 .. |downloads_tpp| image:: https://img.shields.io/conda/dn/bioconda/tpp.svg?style=flat
+   :target: https://anaconda.org/bioconda/tpp
    :alt:   (downloads)
 .. |docker_tpp| image:: https://quay.io/repository/biocontainers/tpp/status
    :target: https://quay.io/repository/biocontainers/tpp

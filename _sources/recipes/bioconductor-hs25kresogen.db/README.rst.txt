@@ -48,6 +48,7 @@ bioconductor-hs25kresogen.db
 
 
 .. |downloads_bioconductor-hs25kresogen.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hs25kresogen.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hs25kresogen.db
    :alt:   (downloads)
 .. |docker_bioconductor-hs25kresogen.db| image:: https://quay.io/repository/biocontainers/bioconductor-hs25kresogen.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hs25kresogen.db

@@ -47,6 +47,7 @@ scoop
 
 
 .. |downloads_scoop| image:: https://img.shields.io/conda/dn/bioconda/scoop.svg?style=flat
+   :target: https://anaconda.org/bioconda/scoop
    :alt:   (downloads)
 .. |docker_scoop| image:: https://quay.io/repository/biocontainers/scoop/status
    :target: https://quay.io/repository/biocontainers/scoop

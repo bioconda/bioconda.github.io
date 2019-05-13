@@ -50,6 +50,7 @@ bioconductor-codelink
 
 
 .. |downloads_bioconductor-codelink| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-codelink.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-codelink
    :alt:   (downloads)
 .. |docker_bioconductor-codelink| image:: https://quay.io/repository/biocontainers/bioconductor-codelink/status
    :target: https://quay.io/repository/biocontainers/bioconductor-codelink

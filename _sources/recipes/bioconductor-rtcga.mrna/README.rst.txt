@@ -47,6 +47,7 @@ bioconductor-rtcga.mrna
 
 
 .. |downloads_bioconductor-rtcga.mrna| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtcga.mrna.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rtcga.mrna
    :alt:   (downloads)
 .. |docker_bioconductor-rtcga.mrna| image:: https://quay.io/repository/biocontainers/bioconductor-rtcga.mrna/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtcga.mrna

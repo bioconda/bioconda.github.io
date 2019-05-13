@@ -58,6 +58,7 @@ perl-text-ansitable
 
 
 .. |downloads_perl-text-ansitable| image:: https://img.shields.io/conda/dn/bioconda/perl-text-ansitable.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-text-ansitable
    :alt:   (downloads)
 .. |docker_perl-text-ansitable| image:: https://quay.io/repository/biocontainers/perl-text-ansitable/status
    :target: https://quay.io/repository/biocontainers/perl-text-ansitable

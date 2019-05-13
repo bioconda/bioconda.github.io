@@ -58,6 +58,7 @@ bioconductor-oligo
 
 
 .. |downloads_bioconductor-oligo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-oligo.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-oligo
    :alt:   (downloads)
 .. |docker_bioconductor-oligo| image:: https://quay.io/repository/biocontainers/bioconductor-oligo/status
    :target: https://quay.io/repository/biocontainers/bioconductor-oligo

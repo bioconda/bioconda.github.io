@@ -52,6 +52,7 @@ bioconductor-methinheritsim
 
 
 .. |downloads_bioconductor-methinheritsim| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methinheritsim.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-methinheritsim
    :alt:   (downloads)
 .. |docker_bioconductor-methinheritsim| image:: https://quay.io/repository/biocontainers/bioconductor-methinheritsim/status
    :target: https://quay.io/repository/biocontainers/bioconductor-methinheritsim

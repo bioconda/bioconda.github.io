@@ -49,6 +49,7 @@ manorm
 
 
 .. |downloads_manorm| image:: https://img.shields.io/conda/dn/bioconda/manorm.svg?style=flat
+   :target: https://anaconda.org/bioconda/manorm
    :alt:   (downloads)
 .. |docker_manorm| image:: https://quay.io/repository/biocontainers/manorm/status
    :target: https://quay.io/repository/biocontainers/manorm

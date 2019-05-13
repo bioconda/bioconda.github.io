@@ -47,6 +47,7 @@ bioconductor-sigpathway
 
 
 .. |downloads_bioconductor-sigpathway| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sigpathway.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sigpathway
    :alt:   (downloads)
 .. |docker_bioconductor-sigpathway| image:: https://quay.io/repository/biocontainers/bioconductor-sigpathway/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sigpathway

@@ -45,6 +45,7 @@ bitstring
 
 
 .. |downloads_bitstring| image:: https://img.shields.io/conda/dn/bioconda/bitstring.svg?style=flat
+   :target: https://anaconda.org/bioconda/bitstring
    :alt:   (downloads)
 .. |docker_bitstring| image:: https://quay.io/repository/biocontainers/bitstring/status
    :target: https://quay.io/repository/biocontainers/bitstring

@@ -51,6 +51,7 @@ perl-findbin-libs
 
 
 .. |downloads_perl-findbin-libs| image:: https://img.shields.io/conda/dn/bioconda/perl-findbin-libs.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-findbin-libs
    :alt:   (downloads)
 .. |docker_perl-findbin-libs| image:: https://quay.io/repository/biocontainers/perl-findbin-libs/status
    :target: https://quay.io/repository/biocontainers/perl-findbin-libs

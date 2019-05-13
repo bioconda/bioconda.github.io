@@ -47,6 +47,7 @@ rascaf
 
 
 .. |downloads_rascaf| image:: https://img.shields.io/conda/dn/bioconda/rascaf.svg?style=flat
+   :target: https://anaconda.org/bioconda/rascaf
    :alt:   (downloads)
 .. |docker_rascaf| image:: https://quay.io/repository/biocontainers/rascaf/status
    :target: https://quay.io/repository/biocontainers/rascaf

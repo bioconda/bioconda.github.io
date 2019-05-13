@@ -45,6 +45,7 @@ perl-test-nowarnings
 
 
 .. |downloads_perl-test-nowarnings| image:: https://img.shields.io/conda/dn/bioconda/perl-test-nowarnings.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-nowarnings
    :alt:   (downloads)
 .. |docker_perl-test-nowarnings| image:: https://quay.io/repository/biocontainers/perl-test-nowarnings/status
    :target: https://quay.io/repository/biocontainers/perl-test-nowarnings

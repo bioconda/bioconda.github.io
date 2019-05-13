@@ -50,6 +50,7 @@ perl-net-http
 
 
 .. |downloads_perl-net-http| image:: https://img.shields.io/conda/dn/bioconda/perl-net-http.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-net-http
    :alt:   (downloads)
 .. |docker_perl-net-http| image:: https://quay.io/repository/biocontainers/perl-net-http/status
    :target: https://quay.io/repository/biocontainers/perl-net-http

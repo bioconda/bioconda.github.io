@@ -46,6 +46,7 @@ bioconductor-rtnduals
 
 
 .. |downloads_bioconductor-rtnduals| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtnduals.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rtnduals
    :alt:   (downloads)
 .. |docker_bioconductor-rtnduals| image:: https://quay.io/repository/biocontainers/bioconductor-rtnduals/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtnduals

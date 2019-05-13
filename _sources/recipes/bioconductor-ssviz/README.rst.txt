@@ -51,6 +51,7 @@ bioconductor-ssviz
 
 
 .. |downloads_bioconductor-ssviz| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ssviz.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ssviz
    :alt:   (downloads)
 .. |docker_bioconductor-ssviz| image:: https://quay.io/repository/biocontainers/bioconductor-ssviz/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ssviz

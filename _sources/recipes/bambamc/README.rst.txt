@@ -46,6 +46,7 @@ bambamc
 
 
 .. |downloads_bambamc| image:: https://img.shields.io/conda/dn/bioconda/bambamc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bambamc
    :alt:   (downloads)
 .. |docker_bambamc| image:: https://quay.io/repository/biocontainers/bambamc/status
    :target: https://quay.io/repository/biocontainers/bambamc

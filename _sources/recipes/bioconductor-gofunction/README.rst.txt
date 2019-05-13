@@ -53,6 +53,7 @@ bioconductor-gofunction
 
 
 .. |downloads_bioconductor-gofunction| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gofunction.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gofunction
    :alt:   (downloads)
 .. |docker_bioconductor-gofunction| image:: https://quay.io/repository/biocontainers/bioconductor-gofunction/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gofunction

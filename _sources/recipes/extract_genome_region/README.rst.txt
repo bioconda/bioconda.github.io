@@ -47,6 +47,7 @@ extract_genome_region
 
 
 .. |downloads_extract_genome_region| image:: https://img.shields.io/conda/dn/bioconda/extract_genome_region.svg?style=flat
+   :target: https://anaconda.org/bioconda/extract_genome_region
    :alt:   (downloads)
 .. |docker_extract_genome_region| image:: https://quay.io/repository/biocontainers/extract_genome_region/status
    :target: https://quay.io/repository/biocontainers/extract_genome_region

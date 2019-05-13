@@ -47,6 +47,7 @@ perl-config-any
 
 
 .. |downloads_perl-config-any| image:: https://img.shields.io/conda/dn/bioconda/perl-config-any.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-config-any
    :alt:   (downloads)
 .. |docker_perl-config-any| image:: https://quay.io/repository/biocontainers/perl-config-any/status
    :target: https://quay.io/repository/biocontainers/perl-config-any

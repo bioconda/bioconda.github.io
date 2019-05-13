@@ -47,6 +47,7 @@ sixgill
 
 
 .. |downloads_sixgill| image:: https://img.shields.io/conda/dn/bioconda/sixgill.svg?style=flat
+   :target: https://anaconda.org/bioconda/sixgill
    :alt:   (downloads)
 .. |docker_sixgill| image:: https://quay.io/repository/biocontainers/sixgill/status
    :target: https://quay.io/repository/biocontainers/sixgill

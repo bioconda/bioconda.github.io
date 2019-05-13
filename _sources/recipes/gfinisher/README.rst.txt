@@ -46,6 +46,7 @@ gfinisher
 
 
 .. |downloads_gfinisher| image:: https://img.shields.io/conda/dn/bioconda/gfinisher.svg?style=flat
+   :target: https://anaconda.org/bioconda/gfinisher
    :alt:   (downloads)
 .. |docker_gfinisher| image:: https://quay.io/repository/biocontainers/gfinisher/status
    :target: https://quay.io/repository/biocontainers/gfinisher

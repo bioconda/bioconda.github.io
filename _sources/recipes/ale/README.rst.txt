@@ -51,6 +51,7 @@ ale
 
 
 .. |downloads_ale| image:: https://img.shields.io/conda/dn/bioconda/ale.svg?style=flat
+   :target: https://anaconda.org/bioconda/ale
    :alt:   (downloads)
 .. |docker_ale| image:: https://quay.io/repository/biocontainers/ale/status
    :target: https://quay.io/repository/biocontainers/ale

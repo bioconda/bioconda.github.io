@@ -62,6 +62,7 @@ bioconductor-readat
 
 
 .. |downloads_bioconductor-readat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-readat.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-readat
    :alt:   (downloads)
 .. |docker_bioconductor-readat| image:: https://quay.io/repository/biocontainers/bioconductor-readat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-readat

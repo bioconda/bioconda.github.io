@@ -47,6 +47,7 @@ selscan
 
 
 .. |downloads_selscan| image:: https://img.shields.io/conda/dn/bioconda/selscan.svg?style=flat
+   :target: https://anaconda.org/bioconda/selscan
    :alt:   (downloads)
 .. |docker_selscan| image:: https://quay.io/repository/biocontainers/selscan/status
    :target: https://quay.io/repository/biocontainers/selscan

@@ -51,6 +51,7 @@ r-orqa
 
 
 .. |downloads_r-orqa| image:: https://img.shields.io/conda/dn/bioconda/r-orqa.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-orqa
    :alt:   (downloads)
 .. |docker_r-orqa| image:: https://quay.io/repository/biocontainers/r-orqa/status
    :target: https://quay.io/repository/biocontainers/r-orqa

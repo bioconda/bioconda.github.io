@@ -47,6 +47,7 @@ r-nbpseq
 
 
 .. |downloads_r-nbpseq| image:: https://img.shields.io/conda/dn/bioconda/r-nbpseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-nbpseq
    :alt:   (downloads)
 .. |docker_r-nbpseq| image:: https://quay.io/repository/biocontainers/r-nbpseq/status
    :target: https://quay.io/repository/biocontainers/r-nbpseq

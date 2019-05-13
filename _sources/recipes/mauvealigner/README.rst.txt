@@ -51,6 +51,7 @@ mauvealigner
 
 
 .. |downloads_mauvealigner| image:: https://img.shields.io/conda/dn/bioconda/mauvealigner.svg?style=flat
+   :target: https://anaconda.org/bioconda/mauvealigner
    :alt:   (downloads)
 .. |docker_mauvealigner| image:: https://quay.io/repository/biocontainers/mauvealigner/status
    :target: https://quay.io/repository/biocontainers/mauvealigner

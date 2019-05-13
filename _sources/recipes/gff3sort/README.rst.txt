@@ -47,6 +47,7 @@ gff3sort
 
 
 .. |downloads_gff3sort| image:: https://img.shields.io/conda/dn/bioconda/gff3sort.svg?style=flat
+   :target: https://anaconda.org/bioconda/gff3sort
    :alt:   (downloads)
 .. |docker_gff3sort| image:: https://quay.io/repository/biocontainers/gff3sort/status
    :target: https://quay.io/repository/biocontainers/gff3sort

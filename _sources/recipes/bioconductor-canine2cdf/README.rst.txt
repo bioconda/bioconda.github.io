@@ -47,6 +47,7 @@ bioconductor-canine2cdf
 
 
 .. |downloads_bioconductor-canine2cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-canine2cdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-canine2cdf
    :alt:   (downloads)
 .. |docker_bioconductor-canine2cdf| image:: https://quay.io/repository/biocontainers/bioconductor-canine2cdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-canine2cdf

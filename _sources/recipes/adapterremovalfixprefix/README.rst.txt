@@ -46,6 +46,7 @@ adapterremovalfixprefix
 
 
 .. |downloads_adapterremovalfixprefix| image:: https://img.shields.io/conda/dn/bioconda/adapterremovalfixprefix.svg?style=flat
+   :target: https://anaconda.org/bioconda/adapterremovalfixprefix
    :alt:   (downloads)
 .. |docker_adapterremovalfixprefix| image:: https://quay.io/repository/biocontainers/adapterremovalfixprefix/status
    :target: https://quay.io/repository/biocontainers/adapterremovalfixprefix

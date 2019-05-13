@@ -55,6 +55,7 @@ rmblast
 
 
 .. |downloads_rmblast| image:: https://img.shields.io/conda/dn/bioconda/rmblast.svg?style=flat
+   :target: https://anaconda.org/bioconda/rmblast
    :alt:   (downloads)
 .. |docker_rmblast| image:: https://quay.io/repository/biocontainers/rmblast/status
    :target: https://quay.io/repository/biocontainers/rmblast

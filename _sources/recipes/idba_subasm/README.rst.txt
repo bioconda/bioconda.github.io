@@ -48,6 +48,7 @@ idba_subasm
 
 
 .. |downloads_idba_subasm| image:: https://img.shields.io/conda/dn/bioconda/idba_subasm.svg?style=flat
+   :target: https://anaconda.org/bioconda/idba_subasm
    :alt:   (downloads)
 .. |docker_idba_subasm| image:: https://quay.io/repository/biocontainers/idba_subasm/status
    :target: https://quay.io/repository/biocontainers/idba_subasm

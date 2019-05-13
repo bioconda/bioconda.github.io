@@ -52,6 +52,7 @@ bioconductor-msstatsqc
 
 
 .. |downloads_bioconductor-msstatsqc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-msstatsqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-msstatsqc
    :alt:   (downloads)
 .. |docker_bioconductor-msstatsqc| image:: https://quay.io/repository/biocontainers/bioconductor-msstatsqc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-msstatsqc

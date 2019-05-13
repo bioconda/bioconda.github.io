@@ -47,6 +47,7 @@ bioconductor-yeast2cdf
 
 
 .. |downloads_bioconductor-yeast2cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-yeast2cdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-yeast2cdf
    :alt:   (downloads)
 .. |docker_bioconductor-yeast2cdf| image:: https://quay.io/repository/biocontainers/bioconductor-yeast2cdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-yeast2cdf

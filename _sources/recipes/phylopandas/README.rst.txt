@@ -49,6 +49,7 @@ phylopandas
 
 
 .. |downloads_phylopandas| image:: https://img.shields.io/conda/dn/bioconda/phylopandas.svg?style=flat
+   :target: https://anaconda.org/bioconda/phylopandas
    :alt:   (downloads)
 .. |docker_phylopandas| image:: https://quay.io/repository/biocontainers/phylopandas/status
    :target: https://quay.io/repository/biocontainers/phylopandas

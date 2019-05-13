@@ -59,6 +59,7 @@ bioconductor-diffcyt
 
 
 .. |downloads_bioconductor-diffcyt| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-diffcyt.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-diffcyt
    :alt:   (downloads)
 .. |docker_bioconductor-diffcyt| image:: https://quay.io/repository/biocontainers/bioconductor-diffcyt/status
    :target: https://quay.io/repository/biocontainers/bioconductor-diffcyt

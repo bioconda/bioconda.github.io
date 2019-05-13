@@ -60,6 +60,7 @@ bioconductor-inpas
 
 
 .. |downloads_bioconductor-inpas| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-inpas.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-inpas
    :alt:   (downloads)
 .. |docker_bioconductor-inpas| image:: https://quay.io/repository/biocontainers/bioconductor-inpas/status
    :target: https://quay.io/repository/biocontainers/bioconductor-inpas

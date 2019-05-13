@@ -64,6 +64,7 @@ bioconductor-madseq
 
 
 .. |downloads_bioconductor-madseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-madseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-madseq
    :alt:   (downloads)
 .. |docker_bioconductor-madseq| image:: https://quay.io/repository/biocontainers/bioconductor-madseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-madseq

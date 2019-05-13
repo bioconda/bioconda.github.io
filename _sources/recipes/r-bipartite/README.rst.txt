@@ -53,6 +53,7 @@ r-bipartite
 
 
 .. |downloads_r-bipartite| image:: https://img.shields.io/conda/dn/bioconda/r-bipartite.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-bipartite
    :alt:   (downloads)
 .. |docker_r-bipartite| image:: https://quay.io/repository/biocontainers/r-bipartite/status
    :target: https://quay.io/repository/biocontainers/r-bipartite

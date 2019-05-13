@@ -49,6 +49,7 @@ hisat2
 
 
 .. |downloads_hisat2| image:: https://img.shields.io/conda/dn/bioconda/hisat2.svg?style=flat
+   :target: https://anaconda.org/bioconda/hisat2
    :alt:   (downloads)
 .. |docker_hisat2| image:: https://quay.io/repository/biocontainers/hisat2/status
    :target: https://quay.io/repository/biocontainers/hisat2

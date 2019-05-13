@@ -47,6 +47,7 @@ lordfast
 
 
 .. |downloads_lordfast| image:: https://img.shields.io/conda/dn/bioconda/lordfast.svg?style=flat
+   :target: https://anaconda.org/bioconda/lordfast
    :alt:   (downloads)
 .. |docker_lordfast| image:: https://quay.io/repository/biocontainers/lordfast/status
    :target: https://quay.io/repository/biocontainers/lordfast

@@ -47,6 +47,7 @@ pysvg
 
 
 .. |downloads_pysvg| image:: https://img.shields.io/conda/dn/bioconda/pysvg.svg?style=flat
+   :target: https://anaconda.org/bioconda/pysvg
    :alt:   (downloads)
 .. |docker_pysvg| image:: https://quay.io/repository/biocontainers/pysvg/status
    :target: https://quay.io/repository/biocontainers/pysvg

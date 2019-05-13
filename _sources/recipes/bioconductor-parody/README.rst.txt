@@ -46,6 +46,7 @@ bioconductor-parody
 
 
 .. |downloads_bioconductor-parody| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-parody.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-parody
    :alt:   (downloads)
 .. |docker_bioconductor-parody| image:: https://quay.io/repository/biocontainers/bioconductor-parody/status
    :target: https://quay.io/repository/biocontainers/bioconductor-parody

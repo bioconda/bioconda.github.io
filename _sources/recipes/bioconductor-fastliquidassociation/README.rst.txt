@@ -51,6 +51,7 @@ bioconductor-fastliquidassociation
 
 
 .. |downloads_bioconductor-fastliquidassociation| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fastliquidassociation.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-fastliquidassociation
    :alt:   (downloads)
 .. |docker_bioconductor-fastliquidassociation| image:: https://quay.io/repository/biocontainers/bioconductor-fastliquidassociation/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fastliquidassociation

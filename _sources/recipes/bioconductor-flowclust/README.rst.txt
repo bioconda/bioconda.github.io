@@ -55,6 +55,7 @@ bioconductor-flowclust
 
 
 .. |downloads_bioconductor-flowclust| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowclust.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowclust
    :alt:   (downloads)
 .. |docker_bioconductor-flowclust| image:: https://quay.io/repository/biocontainers/bioconductor-flowclust/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowclust

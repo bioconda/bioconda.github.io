@@ -47,6 +47,7 @@ nucleosome_prediction
 
 
 .. |downloads_nucleosome_prediction| image:: https://img.shields.io/conda/dn/bioconda/nucleosome_prediction.svg?style=flat
+   :target: https://anaconda.org/bioconda/nucleosome_prediction
    :alt:   (downloads)
 .. |docker_nucleosome_prediction| image:: https://quay.io/repository/biocontainers/nucleosome_prediction/status
    :target: https://quay.io/repository/biocontainers/nucleosome_prediction

@@ -52,6 +52,7 @@ sistr_cmd
 
 
 .. |downloads_sistr_cmd| image:: https://img.shields.io/conda/dn/bioconda/sistr_cmd.svg?style=flat
+   :target: https://anaconda.org/bioconda/sistr_cmd
    :alt:   (downloads)
 .. |docker_sistr_cmd| image:: https://quay.io/repository/biocontainers/sistr_cmd/status
    :target: https://quay.io/repository/biocontainers/sistr_cmd

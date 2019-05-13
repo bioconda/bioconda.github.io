@@ -48,6 +48,7 @@ r-nanostringnorm
 
 
 .. |downloads_r-nanostringnorm| image:: https://img.shields.io/conda/dn/bioconda/r-nanostringnorm.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-nanostringnorm
    :alt:   (downloads)
 .. |docker_r-nanostringnorm| image:: https://quay.io/repository/biocontainers/r-nanostringnorm/status
    :target: https://quay.io/repository/biocontainers/r-nanostringnorm

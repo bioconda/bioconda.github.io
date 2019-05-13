@@ -49,6 +49,7 @@ kmergenie
 
 
 .. |downloads_kmergenie| image:: https://img.shields.io/conda/dn/bioconda/kmergenie.svg?style=flat
+   :target: https://anaconda.org/bioconda/kmergenie
    :alt:   (downloads)
 .. |docker_kmergenie| image:: https://quay.io/repository/biocontainers/kmergenie/status
    :target: https://quay.io/repository/biocontainers/kmergenie

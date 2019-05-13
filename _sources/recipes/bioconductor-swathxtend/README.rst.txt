@@ -50,6 +50,7 @@ bioconductor-swathxtend
 
 
 .. |downloads_bioconductor-swathxtend| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-swathxtend.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-swathxtend
    :alt:   (downloads)
 .. |docker_bioconductor-swathxtend| image:: https://quay.io/repository/biocontainers/bioconductor-swathxtend/status
    :target: https://quay.io/repository/biocontainers/bioconductor-swathxtend

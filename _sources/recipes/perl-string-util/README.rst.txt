@@ -47,6 +47,7 @@ perl-string-util
 
 
 .. |downloads_perl-string-util| image:: https://img.shields.io/conda/dn/bioconda/perl-string-util.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-string-util
    :alt:   (downloads)
 .. |docker_perl-string-util| image:: https://quay.io/repository/biocontainers/perl-string-util/status
    :target: https://quay.io/repository/biocontainers/perl-string-util

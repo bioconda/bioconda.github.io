@@ -48,6 +48,7 @@ beast
 
 
 .. |downloads_beast| image:: https://img.shields.io/conda/dn/bioconda/beast.svg?style=flat
+   :target: https://anaconda.org/bioconda/beast
    :alt:   (downloads)
 .. |docker_beast| image:: https://quay.io/repository/biocontainers/beast/status
    :target: https://quay.io/repository/biocontainers/beast

@@ -46,6 +46,7 @@ asn2gb
 
 
 .. |downloads_asn2gb| image:: https://img.shields.io/conda/dn/bioconda/asn2gb.svg?style=flat
+   :target: https://anaconda.org/bioconda/asn2gb
    :alt:   (downloads)
 .. |docker_asn2gb| image:: https://quay.io/repository/biocontainers/asn2gb/status
    :target: https://quay.io/repository/biocontainers/asn2gb

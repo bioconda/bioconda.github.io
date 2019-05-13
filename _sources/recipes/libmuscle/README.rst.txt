@@ -45,6 +45,7 @@ libmuscle
 
 
 .. |downloads_libmuscle| image:: https://img.shields.io/conda/dn/bioconda/libmuscle.svg?style=flat
+   :target: https://anaconda.org/bioconda/libmuscle
    :alt:   (downloads)
 .. |docker_libmuscle| image:: https://quay.io/repository/biocontainers/libmuscle/status
    :target: https://quay.io/repository/biocontainers/libmuscle

@@ -50,6 +50,7 @@ medusa-data-fusion
 
 
 .. |downloads_medusa-data-fusion| image:: https://img.shields.io/conda/dn/bioconda/medusa-data-fusion.svg?style=flat
+   :target: https://anaconda.org/bioconda/medusa-data-fusion
    :alt:   (downloads)
 .. |docker_medusa-data-fusion| image:: https://quay.io/repository/biocontainers/medusa-data-fusion/status
    :target: https://quay.io/repository/biocontainers/medusa-data-fusion

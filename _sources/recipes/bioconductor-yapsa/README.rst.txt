@@ -62,6 +62,7 @@ bioconductor-yapsa
 
 
 .. |downloads_bioconductor-yapsa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-yapsa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-yapsa
    :alt:   (downloads)
 .. |docker_bioconductor-yapsa| image:: https://quay.io/repository/biocontainers/bioconductor-yapsa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-yapsa

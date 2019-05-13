@@ -45,6 +45,7 @@ perl-extutils-makemaker
 
 
 .. |downloads_perl-extutils-makemaker| image:: https://img.shields.io/conda/dn/bioconda/perl-extutils-makemaker.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-extutils-makemaker
    :alt:   (downloads)
 .. |docker_perl-extutils-makemaker| image:: https://quay.io/repository/biocontainers/perl-extutils-makemaker/status
    :target: https://quay.io/repository/biocontainers/perl-extutils-makemaker

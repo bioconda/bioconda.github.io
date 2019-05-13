@@ -46,6 +46,7 @@ bioconductor-multimed
 
 
 .. |downloads_bioconductor-multimed| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-multimed.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-multimed
    :alt:   (downloads)
 .. |docker_bioconductor-multimed| image:: https://quay.io/repository/biocontainers/bioconductor-multimed/status
    :target: https://quay.io/repository/biocontainers/bioconductor-multimed

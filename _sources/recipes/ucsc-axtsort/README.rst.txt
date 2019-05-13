@@ -50,6 +50,7 @@ ucsc-axtsort
 
 
 .. |downloads_ucsc-axtsort| image:: https://img.shields.io/conda/dn/bioconda/ucsc-axtsort.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-axtsort
    :alt:   (downloads)
 .. |docker_ucsc-axtsort| image:: https://quay.io/repository/biocontainers/ucsc-axtsort/status
    :target: https://quay.io/repository/biocontainers/ucsc-axtsort

@@ -61,6 +61,7 @@ bioconductor-wavcluster
 
 
 .. |downloads_bioconductor-wavcluster| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-wavcluster.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-wavcluster
    :alt:   (downloads)
 .. |docker_bioconductor-wavcluster| image:: https://quay.io/repository/biocontainers/bioconductor-wavcluster/status
    :target: https://quay.io/repository/biocontainers/bioconductor-wavcluster

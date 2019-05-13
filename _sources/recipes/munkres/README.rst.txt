@@ -45,6 +45,7 @@ munkres
 
 
 .. |downloads_munkres| image:: https://img.shields.io/conda/dn/bioconda/munkres.svg?style=flat
+   :target: https://anaconda.org/bioconda/munkres
    :alt:   (downloads)
 .. |docker_munkres| image:: https://quay.io/repository/biocontainers/munkres/status
    :target: https://quay.io/repository/biocontainers/munkres

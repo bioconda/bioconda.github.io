@@ -60,6 +60,7 @@ bioconductor-mutationalpatterns
 
 
 .. |downloads_bioconductor-mutationalpatterns| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mutationalpatterns.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mutationalpatterns
    :alt:   (downloads)
 .. |docker_bioconductor-mutationalpatterns| image:: https://quay.io/repository/biocontainers/bioconductor-mutationalpatterns/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mutationalpatterns

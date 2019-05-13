@@ -48,6 +48,7 @@ bioconductor-genarise
 
 
 .. |downloads_bioconductor-genarise| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genarise.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genarise
    :alt:   (downloads)
 .. |docker_bioconductor-genarise| image:: https://quay.io/repository/biocontainers/bioconductor-genarise/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genarise

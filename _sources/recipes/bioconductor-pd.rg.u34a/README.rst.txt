@@ -53,6 +53,7 @@ bioconductor-pd.rg.u34a
 
 
 .. |downloads_bioconductor-pd.rg.u34a| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.rg.u34a.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.rg.u34a
    :alt:   (downloads)
 .. |docker_bioconductor-pd.rg.u34a| image:: https://quay.io/repository/biocontainers/bioconductor-pd.rg.u34a/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.rg.u34a

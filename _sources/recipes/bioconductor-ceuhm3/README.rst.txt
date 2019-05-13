@@ -49,6 +49,7 @@ bioconductor-ceuhm3
 
 
 .. |downloads_bioconductor-ceuhm3| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ceuhm3.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ceuhm3
    :alt:   (downloads)
 .. |docker_bioconductor-ceuhm3| image:: https://quay.io/repository/biocontainers/bioconductor-ceuhm3/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ceuhm3

@@ -58,6 +58,7 @@ perl-specio
 
 
 .. |downloads_perl-specio| image:: https://img.shields.io/conda/dn/bioconda/perl-specio.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-specio
    :alt:   (downloads)
 .. |docker_perl-specio| image:: https://quay.io/repository/biocontainers/perl-specio/status
    :target: https://quay.io/repository/biocontainers/perl-specio

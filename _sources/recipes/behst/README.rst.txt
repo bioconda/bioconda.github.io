@@ -52,6 +52,7 @@ behst
 
 
 .. |downloads_behst| image:: https://img.shields.io/conda/dn/bioconda/behst.svg?style=flat
+   :target: https://anaconda.org/bioconda/behst
    :alt:   (downloads)
 .. |docker_behst| image:: https://quay.io/repository/biocontainers/behst/status
    :target: https://quay.io/repository/biocontainers/behst

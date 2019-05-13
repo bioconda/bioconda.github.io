@@ -50,6 +50,7 @@ ucsc-pslpartition
 
 
 .. |downloads_ucsc-pslpartition| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslpartition.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-pslpartition
    :alt:   (downloads)
 .. |docker_ucsc-pslpartition| image:: https://quay.io/repository/biocontainers/ucsc-pslpartition/status
    :target: https://quay.io/repository/biocontainers/ucsc-pslpartition

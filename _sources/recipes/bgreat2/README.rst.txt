@@ -47,6 +47,7 @@ bgreat
 
 
 .. |downloads_bgreat| image:: https://img.shields.io/conda/dn/bioconda/bgreat.svg?style=flat
+   :target: https://anaconda.org/bioconda/bgreat
    :alt:   (downloads)
 .. |docker_bgreat| image:: https://quay.io/repository/biocontainers/bgreat/status
    :target: https://quay.io/repository/biocontainers/bgreat

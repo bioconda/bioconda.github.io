@@ -49,6 +49,7 @@ bioconductor-cosmic.67
 
 
 .. |downloads_bioconductor-cosmic.67| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cosmic.67.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cosmic.67
    :alt:   (downloads)
 .. |docker_bioconductor-cosmic.67| image:: https://quay.io/repository/biocontainers/bioconductor-cosmic.67/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cosmic.67

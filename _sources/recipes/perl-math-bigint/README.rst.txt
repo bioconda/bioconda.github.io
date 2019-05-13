@@ -46,6 +46,7 @@ perl-math-bigint
 
 
 .. |downloads_perl-math-bigint| image:: https://img.shields.io/conda/dn/bioconda/perl-math-bigint.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-math-bigint
    :alt:   (downloads)
 .. |docker_perl-math-bigint| image:: https://quay.io/repository/biocontainers/perl-math-bigint/status
    :target: https://quay.io/repository/biocontainers/perl-math-bigint

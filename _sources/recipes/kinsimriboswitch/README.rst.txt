@@ -69,6 +69,7 @@ kinsimriboswitch
 
 
 .. |downloads_kinsimriboswitch| image:: https://img.shields.io/conda/dn/bioconda/kinsimriboswitch.svg?style=flat
+   :target: https://anaconda.org/bioconda/kinsimriboswitch
    :alt:   (downloads)
 .. |docker_kinsimriboswitch| image:: https://quay.io/repository/biocontainers/kinsimriboswitch/status
    :target: https://quay.io/repository/biocontainers/kinsimriboswitch

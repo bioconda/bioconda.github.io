@@ -49,6 +49,7 @@ crass
 
 
 .. |downloads_crass| image:: https://img.shields.io/conda/dn/bioconda/crass.svg?style=flat
+   :target: https://anaconda.org/bioconda/crass
    :alt:   (downloads)
 .. |docker_crass| image:: https://quay.io/repository/biocontainers/crass/status
    :target: https://quay.io/repository/biocontainers/crass

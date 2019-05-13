@@ -45,6 +45,7 @@ ant
 
 
 .. |downloads_ant| image:: https://img.shields.io/conda/dn/bioconda/ant.svg?style=flat
+   :target: https://anaconda.org/bioconda/ant
    :alt:   (downloads)
 .. |docker_ant| image:: https://quay.io/repository/biocontainers/ant/status
    :target: https://quay.io/repository/biocontainers/ant

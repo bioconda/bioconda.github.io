@@ -50,6 +50,7 @@ commet
 
 
 .. |downloads_commet| image:: https://img.shields.io/conda/dn/bioconda/commet.svg?style=flat
+   :target: https://anaconda.org/bioconda/commet
    :alt:   (downloads)
 .. |docker_commet| image:: https://quay.io/repository/biocontainers/commet/status
    :target: https://quay.io/repository/biocontainers/commet

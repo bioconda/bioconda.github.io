@@ -52,6 +52,7 @@ mirdeep2
 
 
 .. |downloads_mirdeep2| image:: https://img.shields.io/conda/dn/bioconda/mirdeep2.svg?style=flat
+   :target: https://anaconda.org/bioconda/mirdeep2
    :alt:   (downloads)
 .. |docker_mirdeep2| image:: https://quay.io/repository/biocontainers/mirdeep2/status
    :target: https://quay.io/repository/biocontainers/mirdeep2

@@ -47,6 +47,7 @@ bioconductor-r4rna
 
 
 .. |downloads_bioconductor-r4rna| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-r4rna.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-r4rna
    :alt:   (downloads)
 .. |docker_bioconductor-r4rna| image:: https://quay.io/repository/biocontainers/bioconductor-r4rna/status
    :target: https://quay.io/repository/biocontainers/bioconductor-r4rna

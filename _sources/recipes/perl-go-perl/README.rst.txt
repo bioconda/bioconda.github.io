@@ -47,6 +47,7 @@ perl-go-perl
 
 
 .. |downloads_perl-go-perl| image:: https://img.shields.io/conda/dn/bioconda/perl-go-perl.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-go-perl
    :alt:   (downloads)
 .. |docker_perl-go-perl| image:: https://quay.io/repository/biocontainers/perl-go-perl/status
    :target: https://quay.io/repository/biocontainers/perl-go-perl

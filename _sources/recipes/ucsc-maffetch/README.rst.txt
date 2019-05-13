@@ -50,6 +50,7 @@ ucsc-maffetch
 
 
 .. |downloads_ucsc-maffetch| image:: https://img.shields.io/conda/dn/bioconda/ucsc-maffetch.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-maffetch
    :alt:   (downloads)
 .. |docker_ucsc-maffetch| image:: https://quay.io/repository/biocontainers/ucsc-maffetch/status
    :target: https://quay.io/repository/biocontainers/ucsc-maffetch

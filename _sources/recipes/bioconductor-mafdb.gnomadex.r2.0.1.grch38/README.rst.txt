@@ -52,6 +52,7 @@ bioconductor-mafdb.gnomadex.r2.0.1.grch38
 
 
 .. |downloads_bioconductor-mafdb.gnomadex.r2.0.1.grch38| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mafdb.gnomadex.r2.0.1.grch38.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mafdb.gnomadex.r2.0.1.grch38
    :alt:   (downloads)
 .. |docker_bioconductor-mafdb.gnomadex.r2.0.1.grch38| image:: https://quay.io/repository/biocontainers/bioconductor-mafdb.gnomadex.r2.0.1.grch38/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mafdb.gnomadex.r2.0.1.grch38

@@ -49,6 +49,7 @@ bioconductor-ogsa
 
 
 .. |downloads_bioconductor-ogsa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ogsa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ogsa
    :alt:   (downloads)
 .. |docker_bioconductor-ogsa| image:: https://quay.io/repository/biocontainers/bioconductor-ogsa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ogsa

@@ -50,6 +50,7 @@ metaxa
 
 
 .. |downloads_metaxa| image:: https://img.shields.io/conda/dn/bioconda/metaxa.svg?style=flat
+   :target: https://anaconda.org/bioconda/metaxa
    :alt:   (downloads)
 .. |docker_metaxa| image:: https://quay.io/repository/biocontainers/metaxa/status
    :target: https://quay.io/repository/biocontainers/metaxa

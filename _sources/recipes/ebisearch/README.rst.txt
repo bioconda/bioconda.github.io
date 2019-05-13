@@ -48,6 +48,7 @@ ebisearch
 
 
 .. |downloads_ebisearch| image:: https://img.shields.io/conda/dn/bioconda/ebisearch.svg?style=flat
+   :target: https://anaconda.org/bioconda/ebisearch
    :alt:   (downloads)
 .. |docker_ebisearch| image:: https://quay.io/repository/biocontainers/ebisearch/status
    :target: https://quay.io/repository/biocontainers/ebisearch

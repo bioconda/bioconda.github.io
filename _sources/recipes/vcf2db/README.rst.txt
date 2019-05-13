@@ -53,6 +53,7 @@ vcf2db
 
 
 .. |downloads_vcf2db| image:: https://img.shields.io/conda/dn/bioconda/vcf2db.svg?style=flat
+   :target: https://anaconda.org/bioconda/vcf2db
    :alt:   (downloads)
 .. |docker_vcf2db| image:: https://quay.io/repository/biocontainers/vcf2db/status
    :target: https://quay.io/repository/biocontainers/vcf2db

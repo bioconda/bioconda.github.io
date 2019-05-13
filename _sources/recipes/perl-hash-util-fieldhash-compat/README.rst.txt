@@ -50,6 +50,7 @@ perl-hash-util-fieldhash-compat
 
 
 .. |downloads_perl-hash-util-fieldhash-compat| image:: https://img.shields.io/conda/dn/bioconda/perl-hash-util-fieldhash-compat.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-hash-util-fieldhash-compat
    :alt:   (downloads)
 .. |docker_perl-hash-util-fieldhash-compat| image:: https://quay.io/repository/biocontainers/perl-hash-util-fieldhash-compat/status
    :target: https://quay.io/repository/biocontainers/perl-hash-util-fieldhash-compat

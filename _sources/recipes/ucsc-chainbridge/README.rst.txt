@@ -50,6 +50,7 @@ ucsc-chainbridge
 
 
 .. |downloads_ucsc-chainbridge| image:: https://img.shields.io/conda/dn/bioconda/ucsc-chainbridge.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-chainbridge
    :alt:   (downloads)
 .. |docker_ucsc-chainbridge| image:: https://quay.io/repository/biocontainers/ucsc-chainbridge/status
    :target: https://quay.io/repository/biocontainers/ucsc-chainbridge

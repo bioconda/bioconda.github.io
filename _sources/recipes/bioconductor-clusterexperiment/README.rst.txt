@@ -70,6 +70,7 @@ bioconductor-clusterexperiment
 
 
 .. |downloads_bioconductor-clusterexperiment| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clusterexperiment.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-clusterexperiment
    :alt:   (downloads)
 .. |docker_bioconductor-clusterexperiment| image:: https://quay.io/repository/biocontainers/bioconductor-clusterexperiment/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clusterexperiment

@@ -46,6 +46,7 @@ perl-xml-filter-buffertext
 
 
 .. |downloads_perl-xml-filter-buffertext| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-filter-buffertext.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-xml-filter-buffertext
    :alt:   (downloads)
 .. |docker_perl-xml-filter-buffertext| image:: https://quay.io/repository/biocontainers/perl-xml-filter-buffertext/status
    :target: https://quay.io/repository/biocontainers/perl-xml-filter-buffertext

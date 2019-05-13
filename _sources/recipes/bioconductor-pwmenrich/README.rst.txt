@@ -51,6 +51,7 @@ bioconductor-pwmenrich
 
 
 .. |downloads_bioconductor-pwmenrich| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pwmenrich.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pwmenrich
    :alt:   (downloads)
 .. |docker_bioconductor-pwmenrich| image:: https://quay.io/repository/biocontainers/bioconductor-pwmenrich/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pwmenrich

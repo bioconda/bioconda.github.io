@@ -51,6 +51,7 @@ bioconductor-maigespack
 
 
 .. |downloads_bioconductor-maigespack| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-maigespack.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-maigespack
    :alt:   (downloads)
 .. |docker_bioconductor-maigespack| image:: https://quay.io/repository/biocontainers/bioconductor-maigespack/status
    :target: https://quay.io/repository/biocontainers/bioconductor-maigespack

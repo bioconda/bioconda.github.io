@@ -46,6 +46,7 @@ migraine
 
 
 .. |downloads_migraine| image:: https://img.shields.io/conda/dn/bioconda/migraine.svg?style=flat
+   :target: https://anaconda.org/bioconda/migraine
    :alt:   (downloads)
 .. |docker_migraine| image:: https://quay.io/repository/biocontainers/migraine/status
    :target: https://quay.io/repository/biocontainers/migraine

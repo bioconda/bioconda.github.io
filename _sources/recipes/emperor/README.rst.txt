@@ -48,6 +48,7 @@ emperor
 
 
 .. |downloads_emperor| image:: https://img.shields.io/conda/dn/bioconda/emperor.svg?style=flat
+   :target: https://anaconda.org/bioconda/emperor
    :alt:   (downloads)
 .. |docker_emperor| image:: https://quay.io/repository/biocontainers/emperor/status
    :target: https://quay.io/repository/biocontainers/emperor

@@ -45,6 +45,7 @@ perl-xml-parser-lite
 
 
 .. |downloads_perl-xml-parser-lite| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-parser-lite.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-xml-parser-lite
    :alt:   (downloads)
 .. |docker_perl-xml-parser-lite| image:: https://quay.io/repository/biocontainers/perl-xml-parser-lite/status
    :target: https://quay.io/repository/biocontainers/perl-xml-parser-lite

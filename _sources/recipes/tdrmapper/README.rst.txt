@@ -45,6 +45,7 @@ tdrmapper
 
 
 .. |downloads_tdrmapper| image:: https://img.shields.io/conda/dn/bioconda/tdrmapper.svg?style=flat
+   :target: https://anaconda.org/bioconda/tdrmapper
    :alt:   (downloads)
 .. |docker_tdrmapper| image:: https://quay.io/repository/biocontainers/tdrmapper/status
    :target: https://quay.io/repository/biocontainers/tdrmapper

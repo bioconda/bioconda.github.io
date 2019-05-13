@@ -44,6 +44,7 @@ ir
 
 
 .. |downloads_ir| image:: https://img.shields.io/conda/dn/bioconda/ir.svg?style=flat
+   :target: https://anaconda.org/bioconda/ir
    :alt:   (downloads)
 .. |docker_ir| image:: https://quay.io/repository/biocontainers/ir/status
    :target: https://quay.io/repository/biocontainers/ir

@@ -45,6 +45,7 @@ genblasta
 
 
 .. |downloads_genblasta| image:: https://img.shields.io/conda/dn/bioconda/genblasta.svg?style=flat
+   :target: https://anaconda.org/bioconda/genblasta
    :alt:   (downloads)
 .. |docker_genblasta| image:: https://quay.io/repository/biocontainers/genblasta/status
    :target: https://quay.io/repository/biocontainers/genblasta

@@ -50,6 +50,7 @@ ucsc-pslsort
 
 
 .. |downloads_ucsc-pslsort| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslsort.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-pslsort
    :alt:   (downloads)
 .. |docker_ucsc-pslsort| image:: https://quay.io/repository/biocontainers/ucsc-pslsort/status
    :target: https://quay.io/repository/biocontainers/ucsc-pslsort

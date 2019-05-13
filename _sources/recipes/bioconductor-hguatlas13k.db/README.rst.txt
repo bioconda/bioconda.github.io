@@ -48,6 +48,7 @@ bioconductor-hguatlas13k.db
 
 
 .. |downloads_bioconductor-hguatlas13k.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hguatlas13k.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hguatlas13k.db
    :alt:   (downloads)
 .. |docker_bioconductor-hguatlas13k.db| image:: https://quay.io/repository/biocontainers/bioconductor-hguatlas13k.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hguatlas13k.db

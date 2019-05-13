@@ -52,6 +52,7 @@ bioconductor-genomicranges
 
 
 .. |downloads_bioconductor-genomicranges| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genomicranges.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genomicranges
    :alt:   (downloads)
 .. |docker_bioconductor-genomicranges| image:: https://quay.io/repository/biocontainers/bioconductor-genomicranges/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genomicranges

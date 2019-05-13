@@ -48,6 +48,7 @@ bioconductor-intramirexplorer
 
 
 .. |downloads_bioconductor-intramirexplorer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-intramirexplorer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-intramirexplorer
    :alt:   (downloads)
 .. |docker_bioconductor-intramirexplorer| image:: https://quay.io/repository/biocontainers/bioconductor-intramirexplorer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-intramirexplorer

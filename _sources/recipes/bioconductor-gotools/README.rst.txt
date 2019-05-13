@@ -48,6 +48,7 @@ bioconductor-gotools
 
 
 .. |downloads_bioconductor-gotools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gotools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gotools
    :alt:   (downloads)
 .. |docker_bioconductor-gotools| image:: https://quay.io/repository/biocontainers/bioconductor-gotools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gotools

@@ -50,6 +50,7 @@ socru
 
 
 .. |downloads_socru| image:: https://img.shields.io/conda/dn/bioconda/socru.svg?style=flat
+   :target: https://anaconda.org/bioconda/socru
    :alt:   (downloads)
 .. |docker_socru| image:: https://quay.io/repository/biocontainers/socru/status
    :target: https://quay.io/repository/biocontainers/socru

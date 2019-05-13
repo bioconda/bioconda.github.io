@@ -57,6 +57,7 @@ bioconductor-diffustats
 
 
 .. |downloads_bioconductor-diffustats| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-diffustats.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-diffustats
    :alt:   (downloads)
 .. |docker_bioconductor-diffustats| image:: https://quay.io/repository/biocontainers/bioconductor-diffustats/status
    :target: https://quay.io/repository/biocontainers/bioconductor-diffustats

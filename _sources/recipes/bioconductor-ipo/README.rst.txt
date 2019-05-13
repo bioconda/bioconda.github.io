@@ -50,6 +50,7 @@ bioconductor-ipo
 
 
 .. |downloads_bioconductor-ipo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ipo.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ipo
    :alt:   (downloads)
 .. |docker_bioconductor-ipo| image:: https://quay.io/repository/biocontainers/bioconductor-ipo/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ipo

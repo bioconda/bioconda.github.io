@@ -54,6 +54,7 @@ mob_suite
 
 
 .. |downloads_mob_suite| image:: https://img.shields.io/conda/dn/bioconda/mob_suite.svg?style=flat
+   :target: https://anaconda.org/bioconda/mob_suite
    :alt:   (downloads)
 .. |docker_mob_suite| image:: https://quay.io/repository/biocontainers/mob_suite/status
    :target: https://quay.io/repository/biocontainers/mob_suite

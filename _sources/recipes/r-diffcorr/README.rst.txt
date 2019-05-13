@@ -49,6 +49,7 @@ r-diffcorr
 
 
 .. |downloads_r-diffcorr| image:: https://img.shields.io/conda/dn/bioconda/r-diffcorr.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-diffcorr
    :alt:   (downloads)
 .. |docker_r-diffcorr| image:: https://quay.io/repository/biocontainers/r-diffcorr/status
    :target: https://quay.io/repository/biocontainers/r-diffcorr

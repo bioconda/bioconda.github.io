@@ -59,6 +59,7 @@ bioconductor-gseabenchmarker
 
 
 .. |downloads_bioconductor-gseabenchmarker| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gseabenchmarker.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gseabenchmarker
    :alt:   (downloads)
 .. |docker_bioconductor-gseabenchmarker| image:: https://quay.io/repository/biocontainers/bioconductor-gseabenchmarker/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gseabenchmarker

@@ -45,6 +45,7 @@ curlywhirly
 
 
 .. |downloads_curlywhirly| image:: https://img.shields.io/conda/dn/bioconda/curlywhirly.svg?style=flat
+   :target: https://anaconda.org/bioconda/curlywhirly
    :alt:   (downloads)
 .. |docker_curlywhirly| image:: https://quay.io/repository/biocontainers/curlywhirly/status
    :target: https://quay.io/repository/biocontainers/curlywhirly

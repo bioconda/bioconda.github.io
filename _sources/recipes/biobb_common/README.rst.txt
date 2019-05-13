@@ -77,6 +77,7 @@ biobb_common
 
 
 .. |downloads_biobb_common| image:: https://img.shields.io/conda/dn/bioconda/biobb_common.svg?style=flat
+   :target: https://anaconda.org/bioconda/biobb_common
    :alt:   (downloads)
 .. |docker_biobb_common| image:: https://quay.io/repository/biocontainers/biobb_common/status
    :target: https://quay.io/repository/biocontainers/biobb_common

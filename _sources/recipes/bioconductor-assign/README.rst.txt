@@ -51,6 +51,7 @@ bioconductor-assign
 
 
 .. |downloads_bioconductor-assign| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-assign.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-assign
    :alt:   (downloads)
 .. |docker_bioconductor-assign| image:: https://quay.io/repository/biocontainers/bioconductor-assign/status
    :target: https://quay.io/repository/biocontainers/bioconductor-assign

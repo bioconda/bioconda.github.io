@@ -47,6 +47,7 @@ bioconductor-paeg1acdf
 
 
 .. |downloads_bioconductor-paeg1acdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-paeg1acdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-paeg1acdf
    :alt:   (downloads)
 .. |docker_bioconductor-paeg1acdf| image:: https://quay.io/repository/biocontainers/bioconductor-paeg1acdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-paeg1acdf

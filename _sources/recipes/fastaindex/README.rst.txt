@@ -45,6 +45,7 @@ fastaindex
 
 
 .. |downloads_fastaindex| image:: https://img.shields.io/conda/dn/bioconda/fastaindex.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastaindex
    :alt:   (downloads)
 .. |docker_fastaindex| image:: https://quay.io/repository/biocontainers/fastaindex/status
    :target: https://quay.io/repository/biocontainers/fastaindex

@@ -50,6 +50,7 @@ bioconductor-rcyjs
 
 
 .. |downloads_bioconductor-rcyjs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rcyjs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rcyjs
    :alt:   (downloads)
 .. |docker_bioconductor-rcyjs| image:: https://quay.io/repository/biocontainers/bioconductor-rcyjs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rcyjs

@@ -46,6 +46,7 @@ bioconductor-human660quadv1acrlmm
 
 
 .. |downloads_bioconductor-human660quadv1acrlmm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-human660quadv1acrlmm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-human660quadv1acrlmm
    :alt:   (downloads)
 .. |docker_bioconductor-human660quadv1acrlmm| image:: https://quay.io/repository/biocontainers/bioconductor-human660quadv1acrlmm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-human660quadv1acrlmm

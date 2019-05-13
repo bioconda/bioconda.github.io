@@ -56,6 +56,7 @@ fusion-inspector
 
 
 .. |downloads_fusion-inspector| image:: https://img.shields.io/conda/dn/bioconda/fusion-inspector.svg?style=flat
+   :target: https://anaconda.org/bioconda/fusion-inspector
    :alt:   (downloads)
 .. |docker_fusion-inspector| image:: https://quay.io/repository/biocontainers/fusion-inspector/status
    :target: https://quay.io/repository/biocontainers/fusion-inspector

@@ -46,6 +46,7 @@ rmap
 
 
 .. |downloads_rmap| image:: https://img.shields.io/conda/dn/bioconda/rmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/rmap
    :alt:   (downloads)
 .. |docker_rmap| image:: https://quay.io/repository/biocontainers/rmap/status
    :target: https://quay.io/repository/biocontainers/rmap

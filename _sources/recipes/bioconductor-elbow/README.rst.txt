@@ -45,6 +45,7 @@ bioconductor-elbow
 
 
 .. |downloads_bioconductor-elbow| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-elbow.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-elbow
    :alt:   (downloads)
 .. |docker_bioconductor-elbow| image:: https://quay.io/repository/biocontainers/bioconductor-elbow/status
    :target: https://quay.io/repository/biocontainers/bioconductor-elbow

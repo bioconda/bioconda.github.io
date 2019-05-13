@@ -47,6 +47,7 @@ bioconductor-hugene10stv1cdf
 
 
 .. |downloads_bioconductor-hugene10stv1cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hugene10stv1cdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hugene10stv1cdf
    :alt:   (downloads)
 .. |docker_bioconductor-hugene10stv1cdf| image:: https://quay.io/repository/biocontainers/bioconductor-hugene10stv1cdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hugene10stv1cdf

@@ -45,6 +45,7 @@ mugsy
 
 
 .. |downloads_mugsy| image:: https://img.shields.io/conda/dn/bioconda/mugsy.svg?style=flat
+   :target: https://anaconda.org/bioconda/mugsy
    :alt:   (downloads)
 .. |docker_mugsy| image:: https://quay.io/repository/biocontainers/mugsy/status
    :target: https://quay.io/repository/biocontainers/mugsy

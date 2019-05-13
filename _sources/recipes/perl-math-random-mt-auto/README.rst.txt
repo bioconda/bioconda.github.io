@@ -51,6 +51,7 @@ perl-math-random-mt-auto
 
 
 .. |downloads_perl-math-random-mt-auto| image:: https://img.shields.io/conda/dn/bioconda/perl-math-random-mt-auto.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-math-random-mt-auto
    :alt:   (downloads)
 .. |docker_perl-math-random-mt-auto| image:: https://quay.io/repository/biocontainers/perl-math-random-mt-auto/status
    :target: https://quay.io/repository/biocontainers/perl-math-random-mt-auto

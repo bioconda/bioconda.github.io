@@ -46,6 +46,7 @@ bioconductor-seq2pathway.data
 
 
 .. |downloads_bioconductor-seq2pathway.data| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-seq2pathway.data.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-seq2pathway.data
    :alt:   (downloads)
 .. |docker_bioconductor-seq2pathway.data| image:: https://quay.io/repository/biocontainers/bioconductor-seq2pathway.data/status
    :target: https://quay.io/repository/biocontainers/bioconductor-seq2pathway.data

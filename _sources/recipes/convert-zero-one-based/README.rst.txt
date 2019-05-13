@@ -46,6 +46,7 @@ convert_zero_one_based
 
 
 .. |downloads_convert_zero_one_based| image:: https://img.shields.io/conda/dn/bioconda/convert_zero_one_based.svg?style=flat
+   :target: https://anaconda.org/bioconda/convert_zero_one_based
    :alt:   (downloads)
 .. |docker_convert_zero_one_based| image:: https://quay.io/repository/biocontainers/convert_zero_one_based/status
    :target: https://quay.io/repository/biocontainers/convert_zero_one_based

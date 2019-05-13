@@ -46,6 +46,7 @@ mgs-canopy
 
 
 .. |downloads_mgs-canopy| image:: https://img.shields.io/conda/dn/bioconda/mgs-canopy.svg?style=flat
+   :target: https://anaconda.org/bioconda/mgs-canopy
    :alt:   (downloads)
 .. |docker_mgs-canopy| image:: https://quay.io/repository/biocontainers/mgs-canopy/status
    :target: https://quay.io/repository/biocontainers/mgs-canopy

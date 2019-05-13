@@ -50,6 +50,7 @@ r-ichorcna
 
 
 .. |downloads_r-ichorcna| image:: https://img.shields.io/conda/dn/bioconda/r-ichorcna.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-ichorcna
    :alt:   (downloads)
 .. |docker_r-ichorcna| image:: https://quay.io/repository/biocontainers/r-ichorcna/status
    :target: https://quay.io/repository/biocontainers/r-ichorcna

@@ -47,6 +47,7 @@ berokka
 
 
 .. |downloads_berokka| image:: https://img.shields.io/conda/dn/bioconda/berokka.svg?style=flat
+   :target: https://anaconda.org/bioconda/berokka
    :alt:   (downloads)
 .. |docker_berokka| image:: https://quay.io/repository/biocontainers/berokka/status
    :target: https://quay.io/repository/biocontainers/berokka

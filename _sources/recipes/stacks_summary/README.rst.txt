@@ -46,6 +46,7 @@ stacks_summary
 
 
 .. |downloads_stacks_summary| image:: https://img.shields.io/conda/dn/bioconda/stacks_summary.svg?style=flat
+   :target: https://anaconda.org/bioconda/stacks_summary
    :alt:   (downloads)
 .. |docker_stacks_summary| image:: https://quay.io/repository/biocontainers/stacks_summary/status
    :target: https://quay.io/repository/biocontainers/stacks_summary

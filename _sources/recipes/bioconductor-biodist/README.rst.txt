@@ -48,6 +48,7 @@ bioconductor-biodist
 
 
 .. |downloads_bioconductor-biodist| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biodist.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-biodist
    :alt:   (downloads)
 .. |docker_bioconductor-biodist| image:: https://quay.io/repository/biocontainers/bioconductor-biodist/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biodist

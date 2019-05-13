@@ -52,6 +52,7 @@ bioconductor-rattus.norvegicus
 
 
 .. |downloads_bioconductor-rattus.norvegicus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rattus.norvegicus.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rattus.norvegicus
    :alt:   (downloads)
 .. |docker_bioconductor-rattus.norvegicus| image:: https://quay.io/repository/biocontainers/bioconductor-rattus.norvegicus/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rattus.norvegicus

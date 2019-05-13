@@ -50,6 +50,7 @@ r-bc3net
 
 
 .. |downloads_r-bc3net| image:: https://img.shields.io/conda/dn/bioconda/r-bc3net.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-bc3net
    :alt:   (downloads)
 .. |docker_r-bc3net| image:: https://quay.io/repository/biocontainers/r-bc3net/status
    :target: https://quay.io/repository/biocontainers/r-bc3net

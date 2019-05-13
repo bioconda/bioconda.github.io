@@ -45,6 +45,7 @@ perl-tie-refhash
 
 
 .. |downloads_perl-tie-refhash| image:: https://img.shields.io/conda/dn/bioconda/perl-tie-refhash.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-tie-refhash
    :alt:   (downloads)
 .. |docker_perl-tie-refhash| image:: https://quay.io/repository/biocontainers/perl-tie-refhash/status
    :target: https://quay.io/repository/biocontainers/perl-tie-refhash

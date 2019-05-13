@@ -45,6 +45,7 @@ famseq
 
 
 .. |downloads_famseq| image:: https://img.shields.io/conda/dn/bioconda/famseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/famseq
    :alt:   (downloads)
 .. |docker_famseq| image:: https://quay.io/repository/biocontainers/famseq/status
    :target: https://quay.io/repository/biocontainers/famseq

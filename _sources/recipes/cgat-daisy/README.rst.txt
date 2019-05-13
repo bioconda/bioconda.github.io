@@ -50,6 +50,7 @@ cgat-daisy
 
 
 .. |downloads_cgat-daisy| image:: https://img.shields.io/conda/dn/bioconda/cgat-daisy.svg?style=flat
+   :target: https://anaconda.org/bioconda/cgat-daisy
    :alt:   (downloads)
 .. |docker_cgat-daisy| image:: https://quay.io/repository/biocontainers/cgat-daisy/status
    :target: https://quay.io/repository/biocontainers/cgat-daisy

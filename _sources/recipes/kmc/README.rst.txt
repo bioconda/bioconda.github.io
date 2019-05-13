@@ -49,6 +49,7 @@ kmc
 
 
 .. |downloads_kmc| image:: https://img.shields.io/conda/dn/bioconda/kmc.svg?style=flat
+   :target: https://anaconda.org/bioconda/kmc
    :alt:   (downloads)
 .. |docker_kmc| image:: https://quay.io/repository/biocontainers/kmc/status
    :target: https://quay.io/repository/biocontainers/kmc

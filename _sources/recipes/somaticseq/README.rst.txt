@@ -57,6 +57,7 @@ somaticseq
 
 
 .. |downloads_somaticseq| image:: https://img.shields.io/conda/dn/bioconda/somaticseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/somaticseq
    :alt:   (downloads)
 .. |docker_somaticseq| image:: https://quay.io/repository/biocontainers/somaticseq/status
    :target: https://quay.io/repository/biocontainers/somaticseq

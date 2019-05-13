@@ -45,6 +45,7 @@ perl-yaml-tiny
 
 
 .. |downloads_perl-yaml-tiny| image:: https://img.shields.io/conda/dn/bioconda/perl-yaml-tiny.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-yaml-tiny
    :alt:   (downloads)
 .. |docker_perl-yaml-tiny| image:: https://quay.io/repository/biocontainers/perl-yaml-tiny/status
    :target: https://quay.io/repository/biocontainers/perl-yaml-tiny

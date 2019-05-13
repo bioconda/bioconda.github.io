@@ -46,6 +46,7 @@ galaxy-ie-helpers
 
 
 .. |downloads_galaxy-ie-helpers| image:: https://img.shields.io/conda/dn/bioconda/galaxy-ie-helpers.svg?style=flat
+   :target: https://anaconda.org/bioconda/galaxy-ie-helpers
    :alt:   (downloads)
 .. |docker_galaxy-ie-helpers| image:: https://quay.io/repository/biocontainers/galaxy-ie-helpers/status
    :target: https://quay.io/repository/biocontainers/galaxy-ie-helpers

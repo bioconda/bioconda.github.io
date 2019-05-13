@@ -50,6 +50,7 @@ bioconductor-sapfinder
 
 
 .. |downloads_bioconductor-sapfinder| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sapfinder.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sapfinder
    :alt:   (downloads)
 .. |docker_bioconductor-sapfinder| image:: https://quay.io/repository/biocontainers/bioconductor-sapfinder/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sapfinder

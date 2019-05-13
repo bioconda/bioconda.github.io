@@ -46,6 +46,7 @@ poa
 
 
 .. |downloads_poa| image:: https://img.shields.io/conda/dn/bioconda/poa.svg?style=flat
+   :target: https://anaconda.org/bioconda/poa
    :alt:   (downloads)
 .. |docker_poa| image:: https://quay.io/repository/biocontainers/poa/status
    :target: https://quay.io/repository/biocontainers/poa

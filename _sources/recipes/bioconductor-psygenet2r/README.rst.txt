@@ -58,6 +58,7 @@ bioconductor-psygenet2r
 
 
 .. |downloads_bioconductor-psygenet2r| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-psygenet2r.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-psygenet2r
    :alt:   (downloads)
 .. |docker_bioconductor-psygenet2r| image:: https://quay.io/repository/biocontainers/bioconductor-psygenet2r/status
    :target: https://quay.io/repository/biocontainers/bioconductor-psygenet2r

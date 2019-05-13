@@ -54,6 +54,7 @@ outrigger
 
 
 .. |downloads_outrigger| image:: https://img.shields.io/conda/dn/bioconda/outrigger.svg?style=flat
+   :target: https://anaconda.org/bioconda/outrigger
    :alt:   (downloads)
 .. |docker_outrigger| image:: https://quay.io/repository/biocontainers/outrigger/status
    :target: https://quay.io/repository/biocontainers/outrigger

@@ -48,6 +48,7 @@ angsd
 
 
 .. |downloads_angsd| image:: https://img.shields.io/conda/dn/bioconda/angsd.svg?style=flat
+   :target: https://anaconda.org/bioconda/angsd
    :alt:   (downloads)
 .. |docker_angsd| image:: https://quay.io/repository/biocontainers/angsd/status
    :target: https://quay.io/repository/biocontainers/angsd

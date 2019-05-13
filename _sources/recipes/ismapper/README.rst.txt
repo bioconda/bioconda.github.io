@@ -51,6 +51,7 @@ ismapper
 
 
 .. |downloads_ismapper| image:: https://img.shields.io/conda/dn/bioconda/ismapper.svg?style=flat
+   :target: https://anaconda.org/bioconda/ismapper
    :alt:   (downloads)
 .. |docker_ismapper| image:: https://quay.io/repository/biocontainers/ismapper/status
    :target: https://quay.io/repository/biocontainers/ismapper

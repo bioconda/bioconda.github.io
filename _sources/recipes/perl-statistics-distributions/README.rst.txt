@@ -45,6 +45,7 @@ perl-statistics-distributions
 
 
 .. |downloads_perl-statistics-distributions| image:: https://img.shields.io/conda/dn/bioconda/perl-statistics-distributions.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-statistics-distributions
    :alt:   (downloads)
 .. |docker_perl-statistics-distributions| image:: https://quay.io/repository/biocontainers/perl-statistics-distributions/status
    :target: https://quay.io/repository/biocontainers/perl-statistics-distributions

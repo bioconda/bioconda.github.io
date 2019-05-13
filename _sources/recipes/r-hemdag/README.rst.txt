@@ -69,6 +69,7 @@ r-hemdag
 
 
 .. |downloads_r-hemdag| image:: https://img.shields.io/conda/dn/bioconda/r-hemdag.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-hemdag
    :alt:   (downloads)
 .. |docker_r-hemdag| image:: https://quay.io/repository/biocontainers/r-hemdag/status
    :target: https://quay.io/repository/biocontainers/r-hemdag

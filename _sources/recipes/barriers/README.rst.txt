@@ -47,6 +47,7 @@ barriers
 
 
 .. |downloads_barriers| image:: https://img.shields.io/conda/dn/bioconda/barriers.svg?style=flat
+   :target: https://anaconda.org/bioconda/barriers
    :alt:   (downloads)
 .. |docker_barriers| image:: https://quay.io/repository/biocontainers/barriers/status
    :target: https://quay.io/repository/biocontainers/barriers

@@ -48,6 +48,7 @@ shortstack
 
 
 .. |downloads_shortstack| image:: https://img.shields.io/conda/dn/bioconda/shortstack.svg?style=flat
+   :target: https://anaconda.org/bioconda/shortstack
    :alt:   (downloads)
 .. |docker_shortstack| image:: https://quay.io/repository/biocontainers/shortstack/status
    :target: https://quay.io/repository/biocontainers/shortstack

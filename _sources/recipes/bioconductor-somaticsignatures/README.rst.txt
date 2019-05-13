@@ -59,6 +59,7 @@ bioconductor-somaticsignatures
 
 
 .. |downloads_bioconductor-somaticsignatures| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-somaticsignatures.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-somaticsignatures
    :alt:   (downloads)
 .. |docker_bioconductor-somaticsignatures| image:: https://quay.io/repository/biocontainers/bioconductor-somaticsignatures/status
    :target: https://quay.io/repository/biocontainers/bioconductor-somaticsignatures

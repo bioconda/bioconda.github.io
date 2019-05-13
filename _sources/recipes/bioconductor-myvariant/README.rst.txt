@@ -54,6 +54,7 @@ bioconductor-myvariant
 
 
 .. |downloads_bioconductor-myvariant| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-myvariant.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-myvariant
    :alt:   (downloads)
 .. |docker_bioconductor-myvariant| image:: https://quay.io/repository/biocontainers/bioconductor-myvariant/status
    :target: https://quay.io/repository/biocontainers/bioconductor-myvariant

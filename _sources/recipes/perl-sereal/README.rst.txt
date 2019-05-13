@@ -47,6 +47,7 @@ perl-sereal
 
 
 .. |downloads_perl-sereal| image:: https://img.shields.io/conda/dn/bioconda/perl-sereal.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-sereal
    :alt:   (downloads)
 .. |docker_perl-sereal| image:: https://quay.io/repository/biocontainers/perl-sereal/status
    :target: https://quay.io/repository/biocontainers/perl-sereal

@@ -55,6 +55,7 @@ bioconductor-cellbaser
 
 
 .. |downloads_bioconductor-cellbaser| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cellbaser.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cellbaser
    :alt:   (downloads)
 .. |docker_bioconductor-cellbaser| image:: https://quay.io/repository/biocontainers/bioconductor-cellbaser/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cellbaser

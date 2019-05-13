@@ -47,6 +47,7 @@ crimson
 
 
 .. |downloads_crimson| image:: https://img.shields.io/conda/dn/bioconda/crimson.svg?style=flat
+   :target: https://anaconda.org/bioconda/crimson
    :alt:   (downloads)
 .. |docker_crimson| image:: https://quay.io/repository/biocontainers/crimson/status
    :target: https://quay.io/repository/biocontainers/crimson

@@ -51,6 +51,7 @@ r-fgwas
 
 
 .. |downloads_r-fgwas| image:: https://img.shields.io/conda/dn/bioconda/r-fgwas.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-fgwas
    :alt:   (downloads)
 .. |docker_r-fgwas| image:: https://quay.io/repository/biocontainers/r-fgwas/status
    :target: https://quay.io/repository/biocontainers/r-fgwas

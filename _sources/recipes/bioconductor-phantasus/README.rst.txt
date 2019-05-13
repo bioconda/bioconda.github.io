@@ -67,6 +67,7 @@ bioconductor-phantasus
 
 
 .. |downloads_bioconductor-phantasus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-phantasus.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-phantasus
    :alt:   (downloads)
 .. |docker_bioconductor-phantasus| image:: https://quay.io/repository/biocontainers/bioconductor-phantasus/status
    :target: https://quay.io/repository/biocontainers/bioconductor-phantasus

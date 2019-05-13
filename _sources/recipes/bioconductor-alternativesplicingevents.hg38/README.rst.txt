@@ -47,6 +47,7 @@ bioconductor-alternativesplicingevents.hg38
 
 
 .. |downloads_bioconductor-alternativesplicingevents.hg38| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-alternativesplicingevents.hg38.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-alternativesplicingevents.hg38
    :alt:   (downloads)
 .. |docker_bioconductor-alternativesplicingevents.hg38| image:: https://quay.io/repository/biocontainers/bioconductor-alternativesplicingevents.hg38/status
    :target: https://quay.io/repository/biocontainers/bioconductor-alternativesplicingevents.hg38

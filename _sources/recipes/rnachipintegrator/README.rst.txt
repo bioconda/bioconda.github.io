@@ -48,6 +48,7 @@ rnachipintegrator
 
 
 .. |downloads_rnachipintegrator| image:: https://img.shields.io/conda/dn/bioconda/rnachipintegrator.svg?style=flat
+   :target: https://anaconda.org/bioconda/rnachipintegrator
    :alt:   (downloads)
 .. |docker_rnachipintegrator| image:: https://quay.io/repository/biocontainers/rnachipintegrator/status
    :target: https://quay.io/repository/biocontainers/rnachipintegrator

@@ -48,6 +48,7 @@ bioconductor-chromplot
 
 
 .. |downloads_bioconductor-chromplot| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chromplot.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chromplot
    :alt:   (downloads)
 .. |docker_bioconductor-chromplot| image:: https://quay.io/repository/biocontainers/bioconductor-chromplot/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chromplot

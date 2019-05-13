@@ -50,6 +50,7 @@ ucsc-psltopslx
 
 
 .. |downloads_ucsc-psltopslx| image:: https://img.shields.io/conda/dn/bioconda/ucsc-psltopslx.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-psltopslx
    :alt:   (downloads)
 .. |docker_ucsc-psltopslx| image:: https://quay.io/repository/biocontainers/ucsc-psltopslx/status
    :target: https://quay.io/repository/biocontainers/ucsc-psltopslx

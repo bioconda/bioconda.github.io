@@ -48,6 +48,7 @@ bioconductor-bearscc
 
 
 .. |downloads_bioconductor-bearscc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bearscc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bearscc
    :alt:   (downloads)
 .. |docker_bioconductor-bearscc| image:: https://quay.io/repository/biocontainers/bioconductor-bearscc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bearscc

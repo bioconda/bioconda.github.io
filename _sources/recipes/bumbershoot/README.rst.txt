@@ -45,6 +45,7 @@ bumbershoot
 
 
 .. |downloads_bumbershoot| image:: https://img.shields.io/conda/dn/bioconda/bumbershoot.svg?style=flat
+   :target: https://anaconda.org/bioconda/bumbershoot
    :alt:   (downloads)
 .. |docker_bumbershoot| image:: https://quay.io/repository/biocontainers/bumbershoot/status
    :target: https://quay.io/repository/biocontainers/bumbershoot

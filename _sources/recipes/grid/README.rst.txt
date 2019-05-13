@@ -59,6 +59,7 @@ grid
 
 
 .. |downloads_grid| image:: https://img.shields.io/conda/dn/bioconda/grid.svg?style=flat
+   :target: https://anaconda.org/bioconda/grid
    :alt:   (downloads)
 .. |docker_grid| image:: https://quay.io/repository/biocontainers/grid/status
    :target: https://quay.io/repository/biocontainers/grid

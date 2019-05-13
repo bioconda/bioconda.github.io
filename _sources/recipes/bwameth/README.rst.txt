@@ -48,6 +48,7 @@ bwameth
 
 
 .. |downloads_bwameth| image:: https://img.shields.io/conda/dn/bioconda/bwameth.svg?style=flat
+   :target: https://anaconda.org/bioconda/bwameth
    :alt:   (downloads)
 .. |docker_bwameth| image:: https://quay.io/repository/biocontainers/bwameth/status
    :target: https://quay.io/repository/biocontainers/bwameth

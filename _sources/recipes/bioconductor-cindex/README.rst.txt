@@ -57,6 +57,7 @@ bioconductor-cindex
 
 
 .. |downloads_bioconductor-cindex| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cindex.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cindex
    :alt:   (downloads)
 .. |docker_bioconductor-cindex| image:: https://quay.io/repository/biocontainers/bioconductor-cindex/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cindex

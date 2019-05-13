@@ -50,6 +50,7 @@ orthomcl
 
 
 .. |downloads_orthomcl| image:: https://img.shields.io/conda/dn/bioconda/orthomcl.svg?style=flat
+   :target: https://anaconda.org/bioconda/orthomcl
    :alt:   (downloads)
 .. |docker_orthomcl| image:: https://quay.io/repository/biocontainers/orthomcl/status
    :target: https://quay.io/repository/biocontainers/orthomcl

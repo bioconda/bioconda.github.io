@@ -48,6 +48,7 @@ bioconductor-pathifier
 
 
 .. |downloads_bioconductor-pathifier| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pathifier.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pathifier
    :alt:   (downloads)
 .. |docker_bioconductor-pathifier| image:: https://quay.io/repository/biocontainers/bioconductor-pathifier/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pathifier

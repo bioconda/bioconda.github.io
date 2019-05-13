@@ -46,6 +46,7 @@ perl-graphics-colorobject
 
 
 .. |downloads_perl-graphics-colorobject| image:: https://img.shields.io/conda/dn/bioconda/perl-graphics-colorobject.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-graphics-colorobject
    :alt:   (downloads)
 .. |docker_perl-graphics-colorobject| image:: https://quay.io/repository/biocontainers/perl-graphics-colorobject/status
    :target: https://quay.io/repository/biocontainers/perl-graphics-colorobject

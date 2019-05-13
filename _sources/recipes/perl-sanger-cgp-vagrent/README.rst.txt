@@ -48,6 +48,7 @@ perl-sanger-cgp-vagrent
 
 
 .. |downloads_perl-sanger-cgp-vagrent| image:: https://img.shields.io/conda/dn/bioconda/perl-sanger-cgp-vagrent.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-sanger-cgp-vagrent
    :alt:   (downloads)
 .. |docker_perl-sanger-cgp-vagrent| image:: https://quay.io/repository/biocontainers/perl-sanger-cgp-vagrent/status
    :target: https://quay.io/repository/biocontainers/perl-sanger-cgp-vagrent

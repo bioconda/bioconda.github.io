@@ -47,6 +47,7 @@ bioconductor-mesh.pfa.3d7.eg.db
 
 
 .. |downloads_bioconductor-mesh.pfa.3d7.eg.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mesh.pfa.3d7.eg.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mesh.pfa.3d7.eg.db
    :alt:   (downloads)
 .. |docker_bioconductor-mesh.pfa.3d7.eg.db| image:: https://quay.io/repository/biocontainers/bioconductor-mesh.pfa.3d7.eg.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mesh.pfa.3d7.eg.db

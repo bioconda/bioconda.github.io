@@ -66,6 +66,7 @@ pymisc-utils
 
 
 .. |downloads_pymisc-utils| image:: https://img.shields.io/conda/dn/bioconda/pymisc-utils.svg?style=flat
+   :target: https://anaconda.org/bioconda/pymisc-utils
    :alt:   (downloads)
 .. |docker_pymisc-utils| image:: https://quay.io/repository/biocontainers/pymisc-utils/status
    :target: https://quay.io/repository/biocontainers/pymisc-utils

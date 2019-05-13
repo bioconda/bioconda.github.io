@@ -46,6 +46,7 @@ fastq-and-furious
 
 
 .. |downloads_fastq-and-furious| image:: https://img.shields.io/conda/dn/bioconda/fastq-and-furious.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastq-and-furious
    :alt:   (downloads)
 .. |docker_fastq-and-furious| image:: https://quay.io/repository/biocontainers/fastq-and-furious/status
    :target: https://quay.io/repository/biocontainers/fastq-and-furious

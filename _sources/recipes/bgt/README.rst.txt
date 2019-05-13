@@ -46,6 +46,7 @@ bgt
 
 
 .. |downloads_bgt| image:: https://img.shields.io/conda/dn/bioconda/bgt.svg?style=flat
+   :target: https://anaconda.org/bioconda/bgt
    :alt:   (downloads)
 .. |docker_bgt| image:: https://quay.io/repository/biocontainers/bgt/status
    :target: https://quay.io/repository/biocontainers/bgt

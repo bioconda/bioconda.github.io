@@ -55,6 +55,7 @@ bioconductor-chipanalyser
 
 
 .. |downloads_bioconductor-chipanalyser| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chipanalyser.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chipanalyser
    :alt:   (downloads)
 .. |docker_bioconductor-chipanalyser| image:: https://quay.io/repository/biocontainers/bioconductor-chipanalyser/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chipanalyser

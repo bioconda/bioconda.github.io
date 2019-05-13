@@ -48,6 +48,7 @@ bioconductor-mpedbarray.db
 
 
 .. |downloads_bioconductor-mpedbarray.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mpedbarray.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mpedbarray.db
    :alt:   (downloads)
 .. |docker_bioconductor-mpedbarray.db| image:: https://quay.io/repository/biocontainers/bioconductor-mpedbarray.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mpedbarray.db

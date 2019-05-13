@@ -53,6 +53,7 @@ bioconductor-tmixclust
 
 
 .. |downloads_bioconductor-tmixclust| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tmixclust.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tmixclust
    :alt:   (downloads)
 .. |docker_bioconductor-tmixclust| image:: https://quay.io/repository/biocontainers/bioconductor-tmixclust/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tmixclust

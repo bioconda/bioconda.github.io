@@ -49,6 +49,7 @@ gffread
 
 
 .. |downloads_gffread| image:: https://img.shields.io/conda/dn/bioconda/gffread.svg?style=flat
+   :target: https://anaconda.org/bioconda/gffread
    :alt:   (downloads)
 .. |docker_gffread| image:: https://quay.io/repository/biocontainers/gffread/status
    :target: https://quay.io/repository/biocontainers/gffread

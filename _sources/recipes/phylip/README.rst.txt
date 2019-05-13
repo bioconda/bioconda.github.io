@@ -47,6 +47,7 @@ phylip
 
 
 .. |downloads_phylip| image:: https://img.shields.io/conda/dn/bioconda/phylip.svg?style=flat
+   :target: https://anaconda.org/bioconda/phylip
    :alt:   (downloads)
 .. |docker_phylip| image:: https://quay.io/repository/biocontainers/phylip/status
    :target: https://quay.io/repository/biocontainers/phylip

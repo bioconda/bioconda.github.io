@@ -47,6 +47,7 @@ bioconductor-iterclust
 
 
 .. |downloads_bioconductor-iterclust| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-iterclust.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-iterclust
    :alt:   (downloads)
 .. |docker_bioconductor-iterclust| image:: https://quay.io/repository/biocontainers/bioconductor-iterclust/status
    :target: https://quay.io/repository/biocontainers/bioconductor-iterclust

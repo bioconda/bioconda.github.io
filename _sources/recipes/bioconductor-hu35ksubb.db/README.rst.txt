@@ -48,6 +48,7 @@ bioconductor-hu35ksubb.db
 
 
 .. |downloads_bioconductor-hu35ksubb.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hu35ksubb.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hu35ksubb.db
    :alt:   (downloads)
 .. |docker_bioconductor-hu35ksubb.db| image:: https://quay.io/repository/biocontainers/bioconductor-hu35ksubb.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hu35ksubb.db

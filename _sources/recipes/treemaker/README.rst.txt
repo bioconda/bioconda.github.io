@@ -45,6 +45,7 @@ treemaker
 
 
 .. |downloads_treemaker| image:: https://img.shields.io/conda/dn/bioconda/treemaker.svg?style=flat
+   :target: https://anaconda.org/bioconda/treemaker
    :alt:   (downloads)
 .. |docker_treemaker| image:: https://quay.io/repository/biocontainers/treemaker/status
    :target: https://quay.io/repository/biocontainers/treemaker

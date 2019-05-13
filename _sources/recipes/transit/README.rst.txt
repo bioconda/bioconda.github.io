@@ -55,6 +55,7 @@ transit
 
 
 .. |downloads_transit| image:: https://img.shields.io/conda/dn/bioconda/transit.svg?style=flat
+   :target: https://anaconda.org/bioconda/transit
    :alt:   (downloads)
 .. |docker_transit| image:: https://quay.io/repository/biocontainers/transit/status
    :target: https://quay.io/repository/biocontainers/transit

@@ -50,6 +50,7 @@ ucsc-farc
 
 
 .. |downloads_ucsc-farc| image:: https://img.shields.io/conda/dn/bioconda/ucsc-farc.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-farc
    :alt:   (downloads)
 .. |docker_ucsc-farc| image:: https://quay.io/repository/biocontainers/ucsc-farc/status
    :target: https://quay.io/repository/biocontainers/ucsc-farc

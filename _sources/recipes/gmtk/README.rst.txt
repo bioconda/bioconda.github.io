@@ -48,6 +48,7 @@ gmtk
 
 
 .. |downloads_gmtk| image:: https://img.shields.io/conda/dn/bioconda/gmtk.svg?style=flat
+   :target: https://anaconda.org/bioconda/gmtk
    :alt:   (downloads)
 .. |docker_gmtk| image:: https://quay.io/repository/biocontainers/gmtk/status
    :target: https://quay.io/repository/biocontainers/gmtk

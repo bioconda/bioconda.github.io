@@ -58,6 +58,7 @@ bioconductor-pwomics
 
 
 .. |downloads_bioconductor-pwomics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pwomics.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pwomics
    :alt:   (downloads)
 .. |docker_bioconductor-pwomics| image:: https://quay.io/repository/biocontainers/bioconductor-pwomics/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pwomics

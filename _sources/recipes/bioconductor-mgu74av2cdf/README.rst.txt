@@ -47,6 +47,7 @@ bioconductor-mgu74av2cdf
 
 
 .. |downloads_bioconductor-mgu74av2cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mgu74av2cdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mgu74av2cdf
    :alt:   (downloads)
 .. |docker_bioconductor-mgu74av2cdf| image:: https://quay.io/repository/biocontainers/bioconductor-mgu74av2cdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mgu74av2cdf

@@ -50,6 +50,7 @@ perl-module-scandeps
 
 
 .. |downloads_perl-module-scandeps| image:: https://img.shields.io/conda/dn/bioconda/perl-module-scandeps.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-module-scandeps
    :alt:   (downloads)
 .. |docker_perl-module-scandeps| image:: https://quay.io/repository/biocontainers/perl-module-scandeps/status
    :target: https://quay.io/repository/biocontainers/perl-module-scandeps

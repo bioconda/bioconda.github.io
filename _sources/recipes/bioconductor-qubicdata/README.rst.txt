@@ -46,6 +46,7 @@ bioconductor-qubicdata
 
 
 .. |downloads_bioconductor-qubicdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-qubicdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-qubicdata
    :alt:   (downloads)
 .. |docker_bioconductor-qubicdata| image:: https://quay.io/repository/biocontainers/bioconductor-qubicdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-qubicdata

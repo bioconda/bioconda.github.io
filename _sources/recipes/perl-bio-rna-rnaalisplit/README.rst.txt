@@ -69,6 +69,7 @@ perl-bio-rna-rnaalisplit
 
 
 .. |downloads_perl-bio-rna-rnaalisplit| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-rna-rnaalisplit.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bio-rna-rnaalisplit
    :alt:   (downloads)
 .. |docker_perl-bio-rna-rnaalisplit| image:: https://quay.io/repository/biocontainers/perl-bio-rna-rnaalisplit/status
    :target: https://quay.io/repository/biocontainers/perl-bio-rna-rnaalisplit

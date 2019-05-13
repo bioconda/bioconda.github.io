@@ -45,6 +45,7 @@ linkage2allegro
 
 
 .. |downloads_linkage2allegro| image:: https://img.shields.io/conda/dn/bioconda/linkage2allegro.svg?style=flat
+   :target: https://anaconda.org/bioconda/linkage2allegro
    :alt:   (downloads)
 .. |docker_linkage2allegro| image:: https://quay.io/repository/biocontainers/linkage2allegro/status
    :target: https://quay.io/repository/biocontainers/linkage2allegro

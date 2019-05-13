@@ -46,6 +46,7 @@ tandem-genotypes
 
 
 .. |downloads_tandem-genotypes| image:: https://img.shields.io/conda/dn/bioconda/tandem-genotypes.svg?style=flat
+   :target: https://anaconda.org/bioconda/tandem-genotypes
    :alt:   (downloads)
 .. |docker_tandem-genotypes| image:: https://quay.io/repository/biocontainers/tandem-genotypes/status
    :target: https://quay.io/repository/biocontainers/tandem-genotypes

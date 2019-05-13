@@ -46,6 +46,7 @@ r-goalie
 
 
 .. |downloads_r-goalie| image:: https://img.shields.io/conda/dn/bioconda/r-goalie.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-goalie
    :alt:   (downloads)
 .. |docker_r-goalie| image:: https://quay.io/repository/biocontainers/r-goalie/status
    :target: https://quay.io/repository/biocontainers/r-goalie

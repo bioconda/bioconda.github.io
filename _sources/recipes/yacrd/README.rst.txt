@@ -48,6 +48,7 @@ yacrd
 
 
 .. |downloads_yacrd| image:: https://img.shields.io/conda/dn/bioconda/yacrd.svg?style=flat
+   :target: https://anaconda.org/bioconda/yacrd
    :alt:   (downloads)
 .. |docker_yacrd| image:: https://quay.io/repository/biocontainers/yacrd/status
    :target: https://quay.io/repository/biocontainers/yacrd

@@ -47,6 +47,7 @@ bioconductor-scrnaseq
 
 
 .. |downloads_bioconductor-scrnaseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scrnaseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-scrnaseq
    :alt:   (downloads)
 .. |docker_bioconductor-scrnaseq| image:: https://quay.io/repository/biocontainers/bioconductor-scrnaseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-scrnaseq

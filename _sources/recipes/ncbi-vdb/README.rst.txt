@@ -45,6 +45,7 @@ ncbi-vdb
 
 
 .. |downloads_ncbi-vdb| image:: https://img.shields.io/conda/dn/bioconda/ncbi-vdb.svg?style=flat
+   :target: https://anaconda.org/bioconda/ncbi-vdb
    :alt:   (downloads)
 .. |docker_ncbi-vdb| image:: https://quay.io/repository/biocontainers/ncbi-vdb/status
    :target: https://quay.io/repository/biocontainers/ncbi-vdb

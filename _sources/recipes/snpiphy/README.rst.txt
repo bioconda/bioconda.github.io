@@ -50,6 +50,7 @@ snpiphy
 
 
 .. |downloads_snpiphy| image:: https://img.shields.io/conda/dn/bioconda/snpiphy.svg?style=flat
+   :target: https://anaconda.org/bioconda/snpiphy
    :alt:   (downloads)
 .. |docker_snpiphy| image:: https://quay.io/repository/biocontainers/snpiphy/status
    :target: https://quay.io/repository/biocontainers/snpiphy

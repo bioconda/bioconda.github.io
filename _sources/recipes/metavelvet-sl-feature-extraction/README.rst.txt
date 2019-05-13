@@ -47,6 +47,7 @@ metavelvet-sl-feature-extraction
 
 
 .. |downloads_metavelvet-sl-feature-extraction| image:: https://img.shields.io/conda/dn/bioconda/metavelvet-sl-feature-extraction.svg?style=flat
+   :target: https://anaconda.org/bioconda/metavelvet-sl-feature-extraction
    :alt:   (downloads)
 .. |docker_metavelvet-sl-feature-extraction| image:: https://quay.io/repository/biocontainers/metavelvet-sl-feature-extraction/status
    :target: https://quay.io/repository/biocontainers/metavelvet-sl-feature-extraction

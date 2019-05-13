@@ -61,6 +61,7 @@ bioconductor-rariant
 
 
 .. |downloads_bioconductor-rariant| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rariant.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rariant
    :alt:   (downloads)
 .. |docker_bioconductor-rariant| image:: https://quay.io/repository/biocontainers/bioconductor-rariant/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rariant

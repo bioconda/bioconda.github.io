@@ -45,6 +45,7 @@ bioconductor-flowplots
 
 
 .. |downloads_bioconductor-flowplots| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowplots.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowplots
    :alt:   (downloads)
 .. |docker_bioconductor-flowplots| image:: https://quay.io/repository/biocontainers/bioconductor-flowplots/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowplots

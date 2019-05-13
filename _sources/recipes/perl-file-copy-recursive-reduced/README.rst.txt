@@ -46,6 +46,7 @@ perl-file-copy-recursive-reduced
 
 
 .. |downloads_perl-file-copy-recursive-reduced| image:: https://img.shields.io/conda/dn/bioconda/perl-file-copy-recursive-reduced.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-copy-recursive-reduced
    :alt:   (downloads)
 .. |docker_perl-file-copy-recursive-reduced| image:: https://quay.io/repository/biocontainers/perl-file-copy-recursive-reduced/status
    :target: https://quay.io/repository/biocontainers/perl-file-copy-recursive-reduced

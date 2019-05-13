@@ -49,6 +49,7 @@ bioconductor-plw
 
 
 .. |downloads_bioconductor-plw| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-plw.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-plw
    :alt:   (downloads)
 .. |docker_bioconductor-plw| image:: https://quay.io/repository/biocontainers/bioconductor-plw/status
    :target: https://quay.io/repository/biocontainers/bioconductor-plw

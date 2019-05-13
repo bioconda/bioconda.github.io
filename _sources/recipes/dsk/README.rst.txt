@@ -46,6 +46,7 @@ dsk
 
 
 .. |downloads_dsk| image:: https://img.shields.io/conda/dn/bioconda/dsk.svg?style=flat
+   :target: https://anaconda.org/bioconda/dsk
    :alt:   (downloads)
 .. |docker_dsk| image:: https://quay.io/repository/biocontainers/dsk/status
    :target: https://quay.io/repository/biocontainers/dsk

@@ -47,6 +47,7 @@ perl-local-lib
 
 
 .. |downloads_perl-local-lib| image:: https://img.shields.io/conda/dn/bioconda/perl-local-lib.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-local-lib
    :alt:   (downloads)
 .. |docker_perl-local-lib| image:: https://quay.io/repository/biocontainers/perl-local-lib/status
    :target: https://quay.io/repository/biocontainers/perl-local-lib

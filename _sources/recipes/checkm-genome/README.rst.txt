@@ -53,6 +53,7 @@ checkm-genome
 
 
 .. |downloads_checkm-genome| image:: https://img.shields.io/conda/dn/bioconda/checkm-genome.svg?style=flat
+   :target: https://anaconda.org/bioconda/checkm-genome
    :alt:   (downloads)
 .. |docker_checkm-genome| image:: https://quay.io/repository/biocontainers/checkm-genome/status
    :target: https://quay.io/repository/biocontainers/checkm-genome

@@ -49,6 +49,7 @@ centrifuge
 
 
 .. |downloads_centrifuge| image:: https://img.shields.io/conda/dn/bioconda/centrifuge.svg?style=flat
+   :target: https://anaconda.org/bioconda/centrifuge
    :alt:   (downloads)
 .. |docker_centrifuge| image:: https://quay.io/repository/biocontainers/centrifuge/status
    :target: https://quay.io/repository/biocontainers/centrifuge

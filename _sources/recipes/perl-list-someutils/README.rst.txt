@@ -50,6 +50,7 @@ perl-list-someutils
 
 
 .. |downloads_perl-list-someutils| image:: https://img.shields.io/conda/dn/bioconda/perl-list-someutils.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-list-someutils
    :alt:   (downloads)
 .. |docker_perl-list-someutils| image:: https://quay.io/repository/biocontainers/perl-list-someutils/status
    :target: https://quay.io/repository/biocontainers/perl-list-someutils

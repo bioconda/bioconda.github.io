@@ -62,6 +62,7 @@ bioconductor-levi
 
 
 .. |downloads_bioconductor-levi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-levi.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-levi
    :alt:   (downloads)
 .. |docker_bioconductor-levi| image:: https://quay.io/repository/biocontainers/bioconductor-levi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-levi

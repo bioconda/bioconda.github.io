@@ -53,6 +53,7 @@ relocate2
 
 
 .. |downloads_relocate2| image:: https://img.shields.io/conda/dn/bioconda/relocate2.svg?style=flat
+   :target: https://anaconda.org/bioconda/relocate2
    :alt:   (downloads)
 .. |docker_relocate2| image:: https://quay.io/repository/biocontainers/relocate2/status
    :target: https://quay.io/repository/biocontainers/relocate2

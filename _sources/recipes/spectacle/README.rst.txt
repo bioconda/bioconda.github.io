@@ -47,6 +47,7 @@ spectacle
 
 
 .. |downloads_spectacle| image:: https://img.shields.io/conda/dn/bioconda/spectacle.svg?style=flat
+   :target: https://anaconda.org/bioconda/spectacle
    :alt:   (downloads)
 .. |docker_spectacle| image:: https://quay.io/repository/biocontainers/spectacle/status
    :target: https://quay.io/repository/biocontainers/spectacle

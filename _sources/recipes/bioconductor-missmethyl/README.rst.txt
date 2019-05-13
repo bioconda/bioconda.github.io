@@ -60,6 +60,7 @@ bioconductor-missmethyl
 
 
 .. |downloads_bioconductor-missmethyl| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-missmethyl.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-missmethyl
    :alt:   (downloads)
 .. |docker_bioconductor-missmethyl| image:: https://quay.io/repository/biocontainers/bioconductor-missmethyl/status
    :target: https://quay.io/repository/biocontainers/bioconductor-missmethyl

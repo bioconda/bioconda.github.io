@@ -50,6 +50,7 @@ bioconductor-genetclassifier
 
 
 .. |downloads_bioconductor-genetclassifier| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genetclassifier.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genetclassifier
    :alt:   (downloads)
 .. |docker_bioconductor-genetclassifier| image:: https://quay.io/repository/biocontainers/bioconductor-genetclassifier/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genetclassifier

@@ -46,6 +46,7 @@ perl-http-date
 
 
 .. |downloads_perl-http-date| image:: https://img.shields.io/conda/dn/bioconda/perl-http-date.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-http-date
    :alt:   (downloads)
 .. |docker_perl-http-date| image:: https://quay.io/repository/biocontainers/perl-http-date/status
    :target: https://quay.io/repository/biocontainers/perl-http-date

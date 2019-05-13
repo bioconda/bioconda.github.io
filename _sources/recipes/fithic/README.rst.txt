@@ -51,6 +51,7 @@ fithic
 
 
 .. |downloads_fithic| image:: https://img.shields.io/conda/dn/bioconda/fithic.svg?style=flat
+   :target: https://anaconda.org/bioconda/fithic
    :alt:   (downloads)
 .. |docker_fithic| image:: https://quay.io/repository/biocontainers/fithic/status
    :target: https://quay.io/repository/biocontainers/fithic

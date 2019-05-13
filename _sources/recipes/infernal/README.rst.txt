@@ -45,6 +45,7 @@ infernal
 
 
 .. |downloads_infernal| image:: https://img.shields.io/conda/dn/bioconda/infernal.svg?style=flat
+   :target: https://anaconda.org/bioconda/infernal
    :alt:   (downloads)
 .. |docker_infernal| image:: https://quay.io/repository/biocontainers/infernal/status
    :target: https://quay.io/repository/biocontainers/infernal

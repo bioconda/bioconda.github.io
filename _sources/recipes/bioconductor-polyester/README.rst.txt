@@ -51,6 +51,7 @@ bioconductor-polyester
 
 
 .. |downloads_bioconductor-polyester| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-polyester.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-polyester
    :alt:   (downloads)
 .. |docker_bioconductor-polyester| image:: https://quay.io/repository/biocontainers/bioconductor-polyester/status
    :target: https://quay.io/repository/biocontainers/bioconductor-polyester

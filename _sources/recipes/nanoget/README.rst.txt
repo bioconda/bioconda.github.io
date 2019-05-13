@@ -50,6 +50,7 @@ nanoget
 
 
 .. |downloads_nanoget| image:: https://img.shields.io/conda/dn/bioconda/nanoget.svg?style=flat
+   :target: https://anaconda.org/bioconda/nanoget
    :alt:   (downloads)
 .. |docker_nanoget| image:: https://quay.io/repository/biocontainers/nanoget/status
    :target: https://quay.io/repository/biocontainers/nanoget

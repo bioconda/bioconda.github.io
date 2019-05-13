@@ -49,6 +49,7 @@ bioconductor-eatonetalchipseq
 
 
 .. |downloads_bioconductor-eatonetalchipseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-eatonetalchipseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-eatonetalchipseq
    :alt:   (downloads)
 .. |docker_bioconductor-eatonetalchipseq| image:: https://quay.io/repository/biocontainers/bioconductor-eatonetalchipseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-eatonetalchipseq

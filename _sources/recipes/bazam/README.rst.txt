@@ -45,6 +45,7 @@ bazam
 
 
 .. |downloads_bazam| image:: https://img.shields.io/conda/dn/bioconda/bazam.svg?style=flat
+   :target: https://anaconda.org/bioconda/bazam
    :alt:   (downloads)
 .. |docker_bazam| image:: https://quay.io/repository/biocontainers/bazam/status
    :target: https://quay.io/repository/biocontainers/bazam

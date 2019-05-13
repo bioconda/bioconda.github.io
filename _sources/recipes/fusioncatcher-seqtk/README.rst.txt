@@ -46,6 +46,7 @@ fusioncatcher-seqtk
 
 
 .. |downloads_fusioncatcher-seqtk| image:: https://img.shields.io/conda/dn/bioconda/fusioncatcher-seqtk.svg?style=flat
+   :target: https://anaconda.org/bioconda/fusioncatcher-seqtk
    :alt:   (downloads)
 .. |docker_fusioncatcher-seqtk| image:: https://quay.io/repository/biocontainers/fusioncatcher-seqtk/status
    :target: https://quay.io/repository/biocontainers/fusioncatcher-seqtk

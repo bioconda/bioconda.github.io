@@ -48,6 +48,7 @@ quorum
 
 
 .. |downloads_quorum| image:: https://img.shields.io/conda/dn/bioconda/quorum.svg?style=flat
+   :target: https://anaconda.org/bioconda/quorum
    :alt:   (downloads)
 .. |docker_quorum| image:: https://quay.io/repository/biocontainers/quorum/status
    :target: https://quay.io/repository/biocontainers/quorum

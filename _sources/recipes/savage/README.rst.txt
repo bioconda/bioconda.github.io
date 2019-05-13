@@ -51,6 +51,7 @@ savage
 
 
 .. |downloads_savage| image:: https://img.shields.io/conda/dn/bioconda/savage.svg?style=flat
+   :target: https://anaconda.org/bioconda/savage
    :alt:   (downloads)
 .. |docker_savage| image:: https://quay.io/repository/biocontainers/savage/status
    :target: https://quay.io/repository/biocontainers/savage

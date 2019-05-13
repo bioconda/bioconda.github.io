@@ -50,6 +50,7 @@ ucsc-oligomatch
 
 
 .. |downloads_ucsc-oligomatch| image:: https://img.shields.io/conda/dn/bioconda/ucsc-oligomatch.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-oligomatch
    :alt:   (downloads)
 .. |docker_ucsc-oligomatch| image:: https://quay.io/repository/biocontainers/ucsc-oligomatch/status
    :target: https://quay.io/repository/biocontainers/ucsc-oligomatch

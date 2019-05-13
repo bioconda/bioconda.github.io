@@ -47,6 +47,7 @@ bioconductor-diffgeneanalysis
 
 
 .. |downloads_bioconductor-diffgeneanalysis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-diffgeneanalysis.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-diffgeneanalysis
    :alt:   (downloads)
 .. |docker_bioconductor-diffgeneanalysis| image:: https://quay.io/repository/biocontainers/bioconductor-diffgeneanalysis/status
    :target: https://quay.io/repository/biocontainers/bioconductor-diffgeneanalysis

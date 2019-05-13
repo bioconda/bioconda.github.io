@@ -49,6 +49,7 @@ bioconductor-polyphen.hsapiens.dbsnp131
 
 
 .. |downloads_bioconductor-polyphen.hsapiens.dbsnp131| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-polyphen.hsapiens.dbsnp131.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-polyphen.hsapiens.dbsnp131
    :alt:   (downloads)
 .. |docker_bioconductor-polyphen.hsapiens.dbsnp131| image:: https://quay.io/repository/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131/status
    :target: https://quay.io/repository/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131

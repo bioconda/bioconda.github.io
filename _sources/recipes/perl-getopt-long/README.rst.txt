@@ -45,6 +45,7 @@ perl-getopt-long
 
 
 .. |downloads_perl-getopt-long| image:: https://img.shields.io/conda/dn/bioconda/perl-getopt-long.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-getopt-long
    :alt:   (downloads)
 .. |docker_perl-getopt-long| image:: https://quay.io/repository/biocontainers/perl-getopt-long/status
    :target: https://quay.io/repository/biocontainers/perl-getopt-long

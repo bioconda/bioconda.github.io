@@ -46,6 +46,7 @@ bioconductor-mouse430a2frmavecs
 
 
 .. |downloads_bioconductor-mouse430a2frmavecs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mouse430a2frmavecs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mouse430a2frmavecs
    :alt:   (downloads)
 .. |docker_bioconductor-mouse430a2frmavecs| image:: https://quay.io/repository/biocontainers/bioconductor-mouse430a2frmavecs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mouse430a2frmavecs

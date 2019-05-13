@@ -49,6 +49,7 @@ micall-lite
 
 
 .. |downloads_micall-lite| image:: https://img.shields.io/conda/dn/bioconda/micall-lite.svg?style=flat
+   :target: https://anaconda.org/bioconda/micall-lite
    :alt:   (downloads)
 .. |docker_micall-lite| image:: https://quay.io/repository/biocontainers/micall-lite/status
    :target: https://quay.io/repository/biocontainers/micall-lite

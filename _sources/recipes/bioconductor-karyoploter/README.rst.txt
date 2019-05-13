@@ -58,6 +58,7 @@ bioconductor-karyoploter
 
 
 .. |downloads_bioconductor-karyoploter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-karyoploter.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-karyoploter
    :alt:   (downloads)
 .. |docker_bioconductor-karyoploter| image:: https://quay.io/repository/biocontainers/bioconductor-karyoploter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-karyoploter

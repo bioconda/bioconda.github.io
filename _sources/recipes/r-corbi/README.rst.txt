@@ -51,6 +51,7 @@ r-corbi
 
 
 .. |downloads_r-corbi| image:: https://img.shields.io/conda/dn/bioconda/r-corbi.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-corbi
    :alt:   (downloads)
 .. |docker_r-corbi| image:: https://quay.io/repository/biocontainers/r-corbi/status
    :target: https://quay.io/repository/biocontainers/r-corbi

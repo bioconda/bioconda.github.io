@@ -50,6 +50,7 @@ ucsc-fatrans
 
 
 .. |downloads_ucsc-fatrans| image:: https://img.shields.io/conda/dn/bioconda/ucsc-fatrans.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-fatrans
    :alt:   (downloads)
 .. |docker_ucsc-fatrans| image:: https://quay.io/repository/biocontainers/ucsc-fatrans/status
    :target: https://quay.io/repository/biocontainers/ucsc-fatrans

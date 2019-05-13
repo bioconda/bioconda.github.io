@@ -48,6 +48,7 @@ r-riborex
 
 
 .. |downloads_r-riborex| image:: https://img.shields.io/conda/dn/bioconda/r-riborex.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-riborex
    :alt:   (downloads)
 .. |docker_r-riborex| image:: https://quay.io/repository/biocontainers/r-riborex/status
    :target: https://quay.io/repository/biocontainers/r-riborex

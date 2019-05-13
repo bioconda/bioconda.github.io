@@ -51,6 +51,7 @@ bioconductor-mmpalatemirna
 
 
 .. |downloads_bioconductor-mmpalatemirna| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mmpalatemirna.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mmpalatemirna
    :alt:   (downloads)
 .. |docker_bioconductor-mmpalatemirna| image:: https://quay.io/repository/biocontainers/bioconductor-mmpalatemirna/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mmpalatemirna

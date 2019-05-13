@@ -50,6 +50,7 @@ ucsc-autosql
 
 
 .. |downloads_ucsc-autosql| image:: https://img.shields.io/conda/dn/bioconda/ucsc-autosql.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-autosql
    :alt:   (downloads)
 .. |docker_ucsc-autosql| image:: https://quay.io/repository/biocontainers/ucsc-autosql/status
    :target: https://quay.io/repository/biocontainers/ucsc-autosql

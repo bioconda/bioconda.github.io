@@ -45,6 +45,7 @@ ocrad
 
 
 .. |downloads_ocrad| image:: https://img.shields.io/conda/dn/bioconda/ocrad.svg?style=flat
+   :target: https://anaconda.org/bioconda/ocrad
    :alt:   (downloads)
 .. |docker_ocrad| image:: https://quay.io/repository/biocontainers/ocrad/status
    :target: https://quay.io/repository/biocontainers/ocrad

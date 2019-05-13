@@ -51,6 +51,7 @@ bioconductor-tissueenrich
 
 
 .. |downloads_bioconductor-tissueenrich| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tissueenrich.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tissueenrich
    :alt:   (downloads)
 .. |docker_bioconductor-tissueenrich| image:: https://quay.io/repository/biocontainers/bioconductor-tissueenrich/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tissueenrich

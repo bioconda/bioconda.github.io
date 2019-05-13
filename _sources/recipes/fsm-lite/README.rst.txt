@@ -49,6 +49,7 @@ fsm-lite
 
 
 .. |downloads_fsm-lite| image:: https://img.shields.io/conda/dn/bioconda/fsm-lite.svg?style=flat
+   :target: https://anaconda.org/bioconda/fsm-lite
    :alt:   (downloads)
 .. |docker_fsm-lite| image:: https://quay.io/repository/biocontainers/fsm-lite/status
    :target: https://quay.io/repository/biocontainers/fsm-lite

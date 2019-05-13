@@ -47,6 +47,7 @@ bioconductor-golubesets
 
 
 .. |downloads_bioconductor-golubesets| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-golubesets.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-golubesets
    :alt:   (downloads)
 .. |docker_bioconductor-golubesets| image:: https://quay.io/repository/biocontainers/bioconductor-golubesets/status
    :target: https://quay.io/repository/biocontainers/bioconductor-golubesets

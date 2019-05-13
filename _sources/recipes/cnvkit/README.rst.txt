@@ -60,6 +60,7 @@ cnvkit
 
 
 .. |downloads_cnvkit| image:: https://img.shields.io/conda/dn/bioconda/cnvkit.svg?style=flat
+   :target: https://anaconda.org/bioconda/cnvkit
    :alt:   (downloads)
 .. |docker_cnvkit| image:: https://quay.io/repository/biocontainers/cnvkit/status
    :target: https://quay.io/repository/biocontainers/cnvkit

@@ -56,6 +56,7 @@ bioconductor-duoclustering2018
 
 
 .. |downloads_bioconductor-duoclustering2018| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-duoclustering2018.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-duoclustering2018
    :alt:   (downloads)
 .. |docker_bioconductor-duoclustering2018| image:: https://quay.io/repository/biocontainers/bioconductor-duoclustering2018/status
    :target: https://quay.io/repository/biocontainers/bioconductor-duoclustering2018

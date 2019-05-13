@@ -49,6 +49,7 @@ bioconductor-semdist
 
 
 .. |downloads_bioconductor-semdist| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-semdist.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-semdist
    :alt:   (downloads)
 .. |docker_bioconductor-semdist| image:: https://quay.io/repository/biocontainers/bioconductor-semdist/status
    :target: https://quay.io/repository/biocontainers/bioconductor-semdist

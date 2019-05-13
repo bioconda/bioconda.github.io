@@ -45,6 +45,7 @@ fastahack
 
 
 .. |downloads_fastahack| image:: https://img.shields.io/conda/dn/bioconda/fastahack.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastahack
    :alt:   (downloads)
 .. |docker_fastahack| image:: https://quay.io/repository/biocontainers/fastahack/status
    :target: https://quay.io/repository/biocontainers/fastahack

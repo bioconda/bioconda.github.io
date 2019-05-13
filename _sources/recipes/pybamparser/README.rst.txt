@@ -45,6 +45,7 @@ pybamparser
 
 
 .. |downloads_pybamparser| image:: https://img.shields.io/conda/dn/bioconda/pybamparser.svg?style=flat
+   :target: https://anaconda.org/bioconda/pybamparser
    :alt:   (downloads)
 .. |docker_pybamparser| image:: https://quay.io/repository/biocontainers/pybamparser/status
    :target: https://quay.io/repository/biocontainers/pybamparser

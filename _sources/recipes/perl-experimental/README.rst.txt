@@ -47,6 +47,7 @@ perl-experimental
 
 
 .. |downloads_perl-experimental| image:: https://img.shields.io/conda/dn/bioconda/perl-experimental.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-experimental
    :alt:   (downloads)
 .. |docker_perl-experimental| image:: https://quay.io/repository/biocontainers/perl-experimental/status
    :target: https://quay.io/repository/biocontainers/perl-experimental

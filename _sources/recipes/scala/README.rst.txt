@@ -45,6 +45,7 @@ scala
 
 
 .. |downloads_scala| image:: https://img.shields.io/conda/dn/bioconda/scala.svg?style=flat
+   :target: https://anaconda.org/bioconda/scala
    :alt:   (downloads)
 .. |docker_scala| image:: https://quay.io/repository/biocontainers/scala/status
    :target: https://quay.io/repository/biocontainers/scala

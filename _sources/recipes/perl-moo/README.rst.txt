@@ -52,6 +52,7 @@ perl-moo
 
 
 .. |downloads_perl-moo| image:: https://img.shields.io/conda/dn/bioconda/perl-moo.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-moo
    :alt:   (downloads)
 .. |docker_perl-moo| image:: https://quay.io/repository/biocontainers/perl-moo/status
    :target: https://quay.io/repository/biocontainers/perl-moo

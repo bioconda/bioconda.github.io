@@ -48,6 +48,7 @@ tagger
 
 
 .. |downloads_tagger| image:: https://img.shields.io/conda/dn/bioconda/tagger.svg?style=flat
+   :target: https://anaconda.org/bioconda/tagger
    :alt:   (downloads)
 .. |docker_tagger| image:: https://quay.io/repository/biocontainers/tagger/status
    :target: https://quay.io/repository/biocontainers/tagger

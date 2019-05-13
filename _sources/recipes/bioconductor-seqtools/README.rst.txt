@@ -48,6 +48,7 @@ bioconductor-seqtools
 
 
 .. |downloads_bioconductor-seqtools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-seqtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-seqtools
    :alt:   (downloads)
 .. |docker_bioconductor-seqtools| image:: https://quay.io/repository/biocontainers/bioconductor-seqtools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-seqtools

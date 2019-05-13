@@ -46,6 +46,7 @@ fqzcomp
 
 
 .. |downloads_fqzcomp| image:: https://img.shields.io/conda/dn/bioconda/fqzcomp.svg?style=flat
+   :target: https://anaconda.org/bioconda/fqzcomp
    :alt:   (downloads)
 .. |docker_fqzcomp| image:: https://quay.io/repository/biocontainers/fqzcomp/status
    :target: https://quay.io/repository/biocontainers/fqzcomp

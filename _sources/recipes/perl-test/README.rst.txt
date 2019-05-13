@@ -46,6 +46,7 @@ perl-test
 
 
 .. |downloads_perl-test| image:: https://img.shields.io/conda/dn/bioconda/perl-test.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test
    :alt:   (downloads)
 .. |docker_perl-test| image:: https://quay.io/repository/biocontainers/perl-test/status
    :target: https://quay.io/repository/biocontainers/perl-test

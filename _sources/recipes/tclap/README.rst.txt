@@ -45,6 +45,7 @@ tclap
 
 
 .. |downloads_tclap| image:: https://img.shields.io/conda/dn/bioconda/tclap.svg?style=flat
+   :target: https://anaconda.org/bioconda/tclap
    :alt:   (downloads)
 .. |docker_tclap| image:: https://quay.io/repository/biocontainers/tclap/status
    :target: https://quay.io/repository/biocontainers/tclap

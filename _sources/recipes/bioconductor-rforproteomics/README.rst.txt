@@ -51,6 +51,7 @@ bioconductor-rforproteomics
 
 
 .. |downloads_bioconductor-rforproteomics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rforproteomics.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rforproteomics
    :alt:   (downloads)
 .. |docker_bioconductor-rforproteomics| image:: https://quay.io/repository/biocontainers/bioconductor-rforproteomics/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rforproteomics

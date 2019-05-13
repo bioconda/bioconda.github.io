@@ -55,6 +55,7 @@ lumpy-sv
 
 
 .. |downloads_lumpy-sv| image:: https://img.shields.io/conda/dn/bioconda/lumpy-sv.svg?style=flat
+   :target: https://anaconda.org/bioconda/lumpy-sv
    :alt:   (downloads)
 .. |docker_lumpy-sv| image:: https://quay.io/repository/biocontainers/lumpy-sv/status
    :target: https://quay.io/repository/biocontainers/lumpy-sv

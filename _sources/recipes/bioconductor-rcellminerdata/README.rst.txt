@@ -47,6 +47,7 @@ bioconductor-rcellminerdata
 
 
 .. |downloads_bioconductor-rcellminerdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rcellminerdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rcellminerdata
    :alt:   (downloads)
 .. |docker_bioconductor-rcellminerdata| image:: https://quay.io/repository/biocontainers/bioconductor-rcellminerdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rcellminerdata

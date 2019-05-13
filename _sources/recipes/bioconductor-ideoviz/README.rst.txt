@@ -52,6 +52,7 @@ bioconductor-ideoviz
 
 
 .. |downloads_bioconductor-ideoviz| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ideoviz.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ideoviz
    :alt:   (downloads)
 .. |docker_bioconductor-ideoviz| image:: https://quay.io/repository/biocontainers/bioconductor-ideoviz/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ideoviz

@@ -48,6 +48,7 @@ bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked
 
 
 .. |downloads_bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked

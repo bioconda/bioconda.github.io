@@ -46,6 +46,7 @@ perl-number-format
 
 
 .. |downloads_perl-number-format| image:: https://img.shields.io/conda/dn/bioconda/perl-number-format.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-number-format
    :alt:   (downloads)
 .. |docker_perl-number-format| image:: https://quay.io/repository/biocontainers/perl-number-format/status
    :target: https://quay.io/repository/biocontainers/perl-number-format

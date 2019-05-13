@@ -46,6 +46,7 @@ migmap
 
 
 .. |downloads_migmap| image:: https://img.shields.io/conda/dn/bioconda/migmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/migmap
    :alt:   (downloads)
 .. |docker_migmap| image:: https://quay.io/repository/biocontainers/migmap/status
    :target: https://quay.io/repository/biocontainers/migmap

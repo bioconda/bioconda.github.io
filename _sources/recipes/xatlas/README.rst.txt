@@ -49,6 +49,7 @@ xatlas
 
 
 .. |downloads_xatlas| image:: https://img.shields.io/conda/dn/bioconda/xatlas.svg?style=flat
+   :target: https://anaconda.org/bioconda/xatlas
    :alt:   (downloads)
 .. |docker_xatlas| image:: https://quay.io/repository/biocontainers/xatlas/status
    :target: https://quay.io/repository/biocontainers/xatlas

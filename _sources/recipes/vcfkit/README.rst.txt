@@ -60,6 +60,7 @@ vcfkit
 
 
 .. |downloads_vcfkit| image:: https://img.shields.io/conda/dn/bioconda/vcfkit.svg?style=flat
+   :target: https://anaconda.org/bioconda/vcfkit
    :alt:   (downloads)
 .. |docker_vcfkit| image:: https://quay.io/repository/biocontainers/vcfkit/status
    :target: https://quay.io/repository/biocontainers/vcfkit

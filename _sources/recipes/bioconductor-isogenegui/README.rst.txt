@@ -63,6 +63,7 @@ bioconductor-isogenegui
 
 
 .. |downloads_bioconductor-isogenegui| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-isogenegui.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-isogenegui
    :alt:   (downloads)
 .. |docker_bioconductor-isogenegui| image:: https://quay.io/repository/biocontainers/bioconductor-isogenegui/status
    :target: https://quay.io/repository/biocontainers/bioconductor-isogenegui

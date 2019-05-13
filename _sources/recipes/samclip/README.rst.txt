@@ -45,6 +45,7 @@ samclip
 
 
 .. |downloads_samclip| image:: https://img.shields.io/conda/dn/bioconda/samclip.svg?style=flat
+   :target: https://anaconda.org/bioconda/samclip
    :alt:   (downloads)
 .. |docker_samclip| image:: https://quay.io/repository/biocontainers/samclip/status
    :target: https://quay.io/repository/biocontainers/samclip

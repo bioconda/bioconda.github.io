@@ -78,6 +78,7 @@ bioconductor-psichomics
 
 
 .. |downloads_bioconductor-psichomics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-psichomics.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-psichomics
    :alt:   (downloads)
 .. |docker_bioconductor-psichomics| image:: https://quay.io/repository/biocontainers/bioconductor-psichomics/status
    :target: https://quay.io/repository/biocontainers/bioconductor-psichomics

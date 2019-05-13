@@ -56,6 +56,7 @@ bioconductor-nem
 
 
 .. |downloads_bioconductor-nem| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-nem.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-nem
    :alt:   (downloads)
 .. |docker_bioconductor-nem| image:: https://quay.io/repository/biocontainers/bioconductor-nem/status
    :target: https://quay.io/repository/biocontainers/bioconductor-nem

@@ -63,6 +63,7 @@ bioconductor-plotgrouper
 
 
 .. |downloads_bioconductor-plotgrouper| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-plotgrouper.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-plotgrouper
    :alt:   (downloads)
 .. |docker_bioconductor-plotgrouper| image:: https://quay.io/repository/biocontainers/bioconductor-plotgrouper/status
    :target: https://quay.io/repository/biocontainers/bioconductor-plotgrouper

@@ -46,6 +46,7 @@ perl-symbol-util
 
 
 .. |downloads_perl-symbol-util| image:: https://img.shields.io/conda/dn/bioconda/perl-symbol-util.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-symbol-util
    :alt:   (downloads)
 .. |docker_perl-symbol-util| image:: https://quay.io/repository/biocontainers/perl-symbol-util/status
    :target: https://quay.io/repository/biocontainers/perl-symbol-util

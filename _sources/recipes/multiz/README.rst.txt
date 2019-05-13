@@ -46,6 +46,7 @@ multiz
 
 
 .. |downloads_multiz| image:: https://img.shields.io/conda/dn/bioconda/multiz.svg?style=flat
+   :target: https://anaconda.org/bioconda/multiz
    :alt:   (downloads)
 .. |docker_multiz| image:: https://quay.io/repository/biocontainers/multiz/status
    :target: https://quay.io/repository/biocontainers/multiz

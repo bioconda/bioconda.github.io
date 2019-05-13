@@ -52,6 +52,7 @@ bioconductor-turbonorm
 
 
 .. |downloads_bioconductor-turbonorm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-turbonorm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-turbonorm
    :alt:   (downloads)
 .. |docker_bioconductor-turbonorm| image:: https://quay.io/repository/biocontainers/bioconductor-turbonorm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-turbonorm

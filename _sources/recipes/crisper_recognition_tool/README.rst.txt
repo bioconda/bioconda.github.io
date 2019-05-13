@@ -46,6 +46,7 @@ crisper_recognition_tool
 
 
 .. |downloads_crisper_recognition_tool| image:: https://img.shields.io/conda/dn/bioconda/crisper_recognition_tool.svg?style=flat
+   :target: https://anaconda.org/bioconda/crisper_recognition_tool
    :alt:   (downloads)
 .. |docker_crisper_recognition_tool| image:: https://quay.io/repository/biocontainers/crisper_recognition_tool/status
    :target: https://quay.io/repository/biocontainers/crisper_recognition_tool

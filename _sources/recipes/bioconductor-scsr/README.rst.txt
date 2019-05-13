@@ -54,6 +54,7 @@ bioconductor-scsr
 
 
 .. |downloads_bioconductor-scsr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scsr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-scsr
    :alt:   (downloads)
 .. |docker_bioconductor-scsr| image:: https://quay.io/repository/biocontainers/bioconductor-scsr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-scsr

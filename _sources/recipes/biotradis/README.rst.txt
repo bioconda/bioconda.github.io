@@ -54,6 +54,7 @@ biotradis
 
 
 .. |downloads_biotradis| image:: https://img.shields.io/conda/dn/bioconda/biotradis.svg?style=flat
+   :target: https://anaconda.org/bioconda/biotradis
    :alt:   (downloads)
 .. |docker_biotradis| image:: https://quay.io/repository/biocontainers/biotradis/status
    :target: https://quay.io/repository/biocontainers/biotradis

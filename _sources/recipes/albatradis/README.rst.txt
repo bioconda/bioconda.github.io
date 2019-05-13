@@ -61,6 +61,7 @@ albatradis
 
 
 .. |downloads_albatradis| image:: https://img.shields.io/conda/dn/bioconda/albatradis.svg?style=flat
+   :target: https://anaconda.org/bioconda/albatradis
    :alt:   (downloads)
 .. |docker_albatradis| image:: https://quay.io/repository/biocontainers/albatradis/status
    :target: https://quay.io/repository/biocontainers/albatradis

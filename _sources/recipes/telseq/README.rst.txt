@@ -47,6 +47,7 @@ telseq
 
 
 .. |downloads_telseq| image:: https://img.shields.io/conda/dn/bioconda/telseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/telseq
    :alt:   (downloads)
 .. |docker_telseq| image:: https://quay.io/repository/biocontainers/telseq/status
    :target: https://quay.io/repository/biocontainers/telseq

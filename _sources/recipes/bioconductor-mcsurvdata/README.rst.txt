@@ -49,6 +49,7 @@ bioconductor-mcsurvdata
 
 
 .. |downloads_bioconductor-mcsurvdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mcsurvdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mcsurvdata
    :alt:   (downloads)
 .. |docker_bioconductor-mcsurvdata| image:: https://quay.io/repository/biocontainers/bioconductor-mcsurvdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mcsurvdata

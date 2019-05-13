@@ -47,6 +47,7 @@ bioconductor-htmg430bcdf
 
 
 .. |downloads_bioconductor-htmg430bcdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-htmg430bcdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-htmg430bcdf
    :alt:   (downloads)
 .. |docker_bioconductor-htmg430bcdf| image:: https://quay.io/repository/biocontainers/bioconductor-htmg430bcdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-htmg430bcdf

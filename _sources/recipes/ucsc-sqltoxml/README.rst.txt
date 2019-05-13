@@ -50,6 +50,7 @@ ucsc-sqltoxml
 
 
 .. |downloads_ucsc-sqltoxml| image:: https://img.shields.io/conda/dn/bioconda/ucsc-sqltoxml.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-sqltoxml
    :alt:   (downloads)
 .. |docker_ucsc-sqltoxml| image:: https://quay.io/repository/biocontainers/ucsc-sqltoxml/status
    :target: https://quay.io/repository/biocontainers/ucsc-sqltoxml

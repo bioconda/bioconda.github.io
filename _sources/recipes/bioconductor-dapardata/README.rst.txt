@@ -48,6 +48,7 @@ bioconductor-dapardata
 
 
 .. |downloads_bioconductor-dapardata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dapardata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dapardata
    :alt:   (downloads)
 .. |docker_bioconductor-dapardata| image:: https://quay.io/repository/biocontainers/bioconductor-dapardata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dapardata

@@ -75,6 +75,7 @@ biobb_md
 
 
 .. |downloads_biobb_md| image:: https://img.shields.io/conda/dn/bioconda/biobb_md.svg?style=flat
+   :target: https://anaconda.org/bioconda/biobb_md
    :alt:   (downloads)
 .. |docker_biobb_md| image:: https://quay.io/repository/biocontainers/biobb_md/status
    :target: https://quay.io/repository/biocontainers/biobb_md

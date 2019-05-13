@@ -55,6 +55,7 @@ bioconductor-enrichedheatmap
 
 
 .. |downloads_bioconductor-enrichedheatmap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-enrichedheatmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-enrichedheatmap
    :alt:   (downloads)
 .. |docker_bioconductor-enrichedheatmap| image:: https://quay.io/repository/biocontainers/bioconductor-enrichedheatmap/status
    :target: https://quay.io/repository/biocontainers/bioconductor-enrichedheatmap

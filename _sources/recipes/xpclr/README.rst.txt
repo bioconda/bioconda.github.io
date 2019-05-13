@@ -51,6 +51,7 @@ xpclr
 
 
 .. |downloads_xpclr| image:: https://img.shields.io/conda/dn/bioconda/xpclr.svg?style=flat
+   :target: https://anaconda.org/bioconda/xpclr
    :alt:   (downloads)
 .. |docker_xpclr| image:: https://quay.io/repository/biocontainers/xpclr/status
    :target: https://quay.io/repository/biocontainers/xpclr

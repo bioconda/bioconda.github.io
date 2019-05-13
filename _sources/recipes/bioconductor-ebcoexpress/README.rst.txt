@@ -49,6 +49,7 @@ bioconductor-ebcoexpress
 
 
 .. |downloads_bioconductor-ebcoexpress| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ebcoexpress.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ebcoexpress
    :alt:   (downloads)
 .. |docker_bioconductor-ebcoexpress| image:: https://quay.io/repository/biocontainers/bioconductor-ebcoexpress/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ebcoexpress

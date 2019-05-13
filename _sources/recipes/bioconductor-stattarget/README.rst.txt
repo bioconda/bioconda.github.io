@@ -52,6 +52,7 @@ bioconductor-stattarget
 
 
 .. |downloads_bioconductor-stattarget| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-stattarget.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-stattarget
    :alt:   (downloads)
 .. |docker_bioconductor-stattarget| image:: https://quay.io/repository/biocontainers/bioconductor-stattarget/status
    :target: https://quay.io/repository/biocontainers/bioconductor-stattarget

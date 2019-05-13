@@ -46,6 +46,7 @@ perl-ipc-run3
 
 
 .. |downloads_perl-ipc-run3| image:: https://img.shields.io/conda/dn/bioconda/perl-ipc-run3.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-ipc-run3
    :alt:   (downloads)
 .. |docker_perl-ipc-run3| image:: https://quay.io/repository/biocontainers/perl-ipc-run3/status
    :target: https://quay.io/repository/biocontainers/perl-ipc-run3

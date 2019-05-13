@@ -45,6 +45,7 @@ opsin
 
 
 .. |downloads_opsin| image:: https://img.shields.io/conda/dn/bioconda/opsin.svg?style=flat
+   :target: https://anaconda.org/bioconda/opsin
    :alt:   (downloads)
 .. |docker_opsin| image:: https://quay.io/repository/biocontainers/opsin/status
    :target: https://quay.io/repository/biocontainers/opsin

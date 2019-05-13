@@ -50,6 +50,7 @@ shapemapper
 
 
 .. |downloads_shapemapper| image:: https://img.shields.io/conda/dn/bioconda/shapemapper.svg?style=flat
+   :target: https://anaconda.org/bioconda/shapemapper
    :alt:   (downloads)
 .. |docker_shapemapper| image:: https://quay.io/repository/biocontainers/shapemapper/status
    :target: https://quay.io/repository/biocontainers/shapemapper

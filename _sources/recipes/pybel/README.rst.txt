@@ -55,6 +55,7 @@ pybel
 
 
 .. |downloads_pybel| image:: https://img.shields.io/conda/dn/bioconda/pybel.svg?style=flat
+   :target: https://anaconda.org/bioconda/pybel
    :alt:   (downloads)
 .. |docker_pybel| image:: https://quay.io/repository/biocontainers/pybel/status
    :target: https://quay.io/repository/biocontainers/pybel

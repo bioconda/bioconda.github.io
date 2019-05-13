@@ -66,6 +66,7 @@ kipoi_veff
 
 
 .. |downloads_kipoi_veff| image:: https://img.shields.io/conda/dn/bioconda/kipoi_veff.svg?style=flat
+   :target: https://anaconda.org/bioconda/kipoi_veff
    :alt:   (downloads)
 .. |docker_kipoi_veff| image:: https://quay.io/repository/biocontainers/kipoi_veff/status
    :target: https://quay.io/repository/biocontainers/kipoi_veff

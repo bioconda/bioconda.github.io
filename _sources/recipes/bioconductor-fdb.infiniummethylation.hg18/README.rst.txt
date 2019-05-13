@@ -51,6 +51,7 @@ bioconductor-fdb.infiniummethylation.hg18
 
 
 .. |downloads_bioconductor-fdb.infiniummethylation.hg18| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fdb.infiniummethylation.hg18.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-fdb.infiniummethylation.hg18
    :alt:   (downloads)
 .. |docker_bioconductor-fdb.infiniummethylation.hg18| image:: https://quay.io/repository/biocontainers/bioconductor-fdb.infiniummethylation.hg18/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fdb.infiniummethylation.hg18

@@ -53,6 +53,7 @@ tigmint
 
 
 .. |downloads_tigmint| image:: https://img.shields.io/conda/dn/bioconda/tigmint.svg?style=flat
+   :target: https://anaconda.org/bioconda/tigmint
    :alt:   (downloads)
 .. |docker_tigmint| image:: https://quay.io/repository/biocontainers/tigmint/status
    :target: https://quay.io/repository/biocontainers/tigmint

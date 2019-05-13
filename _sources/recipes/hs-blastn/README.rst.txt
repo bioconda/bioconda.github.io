@@ -46,6 +46,7 @@ hs-blastn
 
 
 .. |downloads_hs-blastn| image:: https://img.shields.io/conda/dn/bioconda/hs-blastn.svg?style=flat
+   :target: https://anaconda.org/bioconda/hs-blastn
    :alt:   (downloads)
 .. |docker_hs-blastn| image:: https://quay.io/repository/biocontainers/hs-blastn/status
    :target: https://quay.io/repository/biocontainers/hs-blastn

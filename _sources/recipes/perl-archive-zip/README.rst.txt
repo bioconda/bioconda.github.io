@@ -49,6 +49,7 @@ perl-archive-zip
 
 
 .. |downloads_perl-archive-zip| image:: https://img.shields.io/conda/dn/bioconda/perl-archive-zip.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-archive-zip
    :alt:   (downloads)
 .. |docker_perl-archive-zip| image:: https://quay.io/repository/biocontainers/perl-archive-zip/status
    :target: https://quay.io/repository/biocontainers/perl-archive-zip

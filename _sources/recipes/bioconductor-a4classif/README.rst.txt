@@ -52,6 +52,7 @@ bioconductor-a4classif
 
 
 .. |downloads_bioconductor-a4classif| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-a4classif.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-a4classif
    :alt:   (downloads)
 .. |docker_bioconductor-a4classif| image:: https://quay.io/repository/biocontainers/bioconductor-a4classif/status
    :target: https://quay.io/repository/biocontainers/bioconductor-a4classif

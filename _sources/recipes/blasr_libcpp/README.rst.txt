@@ -49,6 +49,7 @@ blasr_libcpp
 
 
 .. |downloads_blasr_libcpp| image:: https://img.shields.io/conda/dn/bioconda/blasr_libcpp.svg?style=flat
+   :target: https://anaconda.org/bioconda/blasr_libcpp
    :alt:   (downloads)
 .. |docker_blasr_libcpp| image:: https://quay.io/repository/biocontainers/blasr_libcpp/status
    :target: https://quay.io/repository/biocontainers/blasr_libcpp

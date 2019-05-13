@@ -59,6 +59,7 @@ r-phytools
 
 
 .. |downloads_r-phytools| image:: https://img.shields.io/conda/dn/bioconda/r-phytools.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-phytools
    :alt:   (downloads)
 .. |docker_r-phytools| image:: https://quay.io/repository/biocontainers/r-phytools/status
    :target: https://quay.io/repository/biocontainers/r-phytools

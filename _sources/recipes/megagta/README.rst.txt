@@ -48,6 +48,7 @@ megagta
 
 
 .. |downloads_megagta| image:: https://img.shields.io/conda/dn/bioconda/megagta.svg?style=flat
+   :target: https://anaconda.org/bioconda/megagta
    :alt:   (downloads)
 .. |docker_megagta| image:: https://quay.io/repository/biocontainers/megagta/status
    :target: https://quay.io/repository/biocontainers/megagta

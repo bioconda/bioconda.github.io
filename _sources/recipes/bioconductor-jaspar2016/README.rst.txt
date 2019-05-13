@@ -46,6 +46,7 @@ bioconductor-jaspar2016
 
 
 .. |downloads_bioconductor-jaspar2016| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-jaspar2016.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-jaspar2016
    :alt:   (downloads)
 .. |docker_bioconductor-jaspar2016| image:: https://quay.io/repository/biocontainers/bioconductor-jaspar2016/status
    :target: https://quay.io/repository/biocontainers/bioconductor-jaspar2016

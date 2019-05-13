@@ -45,6 +45,7 @@ flapjack
 
 
 .. |downloads_flapjack| image:: https://img.shields.io/conda/dn/bioconda/flapjack.svg?style=flat
+   :target: https://anaconda.org/bioconda/flapjack
    :alt:   (downloads)
 .. |docker_flapjack| image:: https://quay.io/repository/biocontainers/flapjack/status
    :target: https://quay.io/repository/biocontainers/flapjack

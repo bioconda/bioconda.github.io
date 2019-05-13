@@ -57,6 +57,7 @@ cortexpy
 
 
 .. |downloads_cortexpy| image:: https://img.shields.io/conda/dn/bioconda/cortexpy.svg?style=flat
+   :target: https://anaconda.org/bioconda/cortexpy
    :alt:   (downloads)
 .. |docker_cortexpy| image:: https://quay.io/repository/biocontainers/cortexpy/status
    :target: https://quay.io/repository/biocontainers/cortexpy

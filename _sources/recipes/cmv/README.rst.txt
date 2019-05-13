@@ -54,6 +54,7 @@ cmv
 
 
 .. |downloads_cmv| image:: https://img.shields.io/conda/dn/bioconda/cmv.svg?style=flat
+   :target: https://anaconda.org/bioconda/cmv
    :alt:   (downloads)
 .. |docker_cmv| image:: https://quay.io/repository/biocontainers/cmv/status
    :target: https://quay.io/repository/biocontainers/cmv

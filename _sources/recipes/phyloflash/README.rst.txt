@@ -60,6 +60,7 @@ phyloflash
 
 
 .. |downloads_phyloflash| image:: https://img.shields.io/conda/dn/bioconda/phyloflash.svg?style=flat
+   :target: https://anaconda.org/bioconda/phyloflash
    :alt:   (downloads)
 .. |docker_phyloflash| image:: https://quay.io/repository/biocontainers/phyloflash/status
    :target: https://quay.io/repository/biocontainers/phyloflash

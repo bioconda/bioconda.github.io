@@ -51,6 +51,7 @@ prosolo
 
 
 .. |downloads_prosolo| image:: https://img.shields.io/conda/dn/bioconda/prosolo.svg?style=flat
+   :target: https://anaconda.org/bioconda/prosolo
    :alt:   (downloads)
 .. |docker_prosolo| image:: https://quay.io/repository/biocontainers/prosolo/status
    :target: https://quay.io/repository/biocontainers/prosolo

@@ -59,6 +59,7 @@ bioconductor-ioniser
 
 
 .. |downloads_bioconductor-ioniser| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ioniser.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ioniser
    :alt:   (downloads)
 .. |docker_bioconductor-ioniser| image:: https://quay.io/repository/biocontainers/bioconductor-ioniser/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ioniser

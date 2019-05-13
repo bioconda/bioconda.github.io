@@ -46,6 +46,7 @@ nspdk
 
 
 .. |downloads_nspdk| image:: https://img.shields.io/conda/dn/bioconda/nspdk.svg?style=flat
+   :target: https://anaconda.org/bioconda/nspdk
    :alt:   (downloads)
 .. |docker_nspdk| image:: https://quay.io/repository/biocontainers/nspdk/status
    :target: https://quay.io/repository/biocontainers/nspdk

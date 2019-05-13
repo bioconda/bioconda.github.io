@@ -46,6 +46,7 @@ perl-text-csv
 
 
 .. |downloads_perl-text-csv| image:: https://img.shields.io/conda/dn/bioconda/perl-text-csv.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-text-csv
    :alt:   (downloads)
 .. |docker_perl-text-csv| image:: https://quay.io/repository/biocontainers/perl-text-csv/status
    :target: https://quay.io/repository/biocontainers/perl-text-csv

@@ -50,6 +50,7 @@ ucsc-localtime
 
 
 .. |downloads_ucsc-localtime| image:: https://img.shields.io/conda/dn/bioconda/ucsc-localtime.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-localtime
    :alt:   (downloads)
 .. |docker_ucsc-localtime| image:: https://quay.io/repository/biocontainers/ucsc-localtime/status
    :target: https://quay.io/repository/biocontainers/ucsc-localtime

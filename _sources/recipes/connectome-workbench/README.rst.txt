@@ -61,6 +61,7 @@ connectome-workbench
 
 
 .. |downloads_connectome-workbench| image:: https://img.shields.io/conda/dn/bioconda/connectome-workbench.svg?style=flat
+   :target: https://anaconda.org/bioconda/connectome-workbench
    :alt:   (downloads)
 .. |docker_connectome-workbench| image:: https://quay.io/repository/biocontainers/connectome-workbench/status
    :target: https://quay.io/repository/biocontainers/connectome-workbench

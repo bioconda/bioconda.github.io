@@ -48,6 +48,7 @@ bioconductor-a4reporting
 
 
 .. |downloads_bioconductor-a4reporting| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-a4reporting.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-a4reporting
    :alt:   (downloads)
 .. |docker_bioconductor-a4reporting| image:: https://quay.io/repository/biocontainers/bioconductor-a4reporting/status
    :target: https://quay.io/repository/biocontainers/bioconductor-a4reporting

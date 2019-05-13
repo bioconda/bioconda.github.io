@@ -46,6 +46,7 @@ illumiprocessor
 
 
 .. |downloads_illumiprocessor| image:: https://img.shields.io/conda/dn/bioconda/illumiprocessor.svg?style=flat
+   :target: https://anaconda.org/bioconda/illumiprocessor
    :alt:   (downloads)
 .. |docker_illumiprocessor| image:: https://quay.io/repository/biocontainers/illumiprocessor/status
    :target: https://quay.io/repository/biocontainers/illumiprocessor

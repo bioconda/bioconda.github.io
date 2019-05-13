@@ -47,6 +47,7 @@ perl-carp
 
 
 .. |downloads_perl-carp| image:: https://img.shields.io/conda/dn/bioconda/perl-carp.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-carp
    :alt:   (downloads)
 .. |docker_perl-carp| image:: https://quay.io/repository/biocontainers/perl-carp/status
    :target: https://quay.io/repository/biocontainers/perl-carp

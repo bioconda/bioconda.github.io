@@ -45,6 +45,7 @@ aragorn
 
 
 .. |downloads_aragorn| image:: https://img.shields.io/conda/dn/bioconda/aragorn.svg?style=flat
+   :target: https://anaconda.org/bioconda/aragorn
    :alt:   (downloads)
 .. |docker_aragorn| image:: https://quay.io/repository/biocontainers/aragorn/status
    :target: https://quay.io/repository/biocontainers/aragorn

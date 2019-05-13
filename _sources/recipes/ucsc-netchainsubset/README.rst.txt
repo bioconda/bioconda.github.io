@@ -50,6 +50,7 @@ ucsc-netchainsubset
 
 
 .. |downloads_ucsc-netchainsubset| image:: https://img.shields.io/conda/dn/bioconda/ucsc-netchainsubset.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-netchainsubset
    :alt:   (downloads)
 .. |docker_ucsc-netchainsubset| image:: https://quay.io/repository/biocontainers/ucsc-netchainsubset/status
    :target: https://quay.io/repository/biocontainers/ucsc-netchainsubset

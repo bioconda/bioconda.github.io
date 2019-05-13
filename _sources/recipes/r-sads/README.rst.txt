@@ -52,6 +52,7 @@ r-sads
 
 
 .. |downloads_r-sads| image:: https://img.shields.io/conda/dn/bioconda/r-sads.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-sads
    :alt:   (downloads)
 .. |docker_r-sads| image:: https://quay.io/repository/biocontainers/r-sads/status
    :target: https://quay.io/repository/biocontainers/r-sads

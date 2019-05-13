@@ -49,6 +49,7 @@ lordec
 
 
 .. |downloads_lordec| image:: https://img.shields.io/conda/dn/bioconda/lordec.svg?style=flat
+   :target: https://anaconda.org/bioconda/lordec
    :alt:   (downloads)
 .. |docker_lordec| image:: https://quay.io/repository/biocontainers/lordec/status
    :target: https://quay.io/repository/biocontainers/lordec

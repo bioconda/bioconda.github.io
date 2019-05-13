@@ -47,6 +47,7 @@ r-clvalid
 
 
 .. |downloads_r-clvalid| image:: https://img.shields.io/conda/dn/bioconda/r-clvalid.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-clvalid
    :alt:   (downloads)
 .. |docker_r-clvalid| image:: https://quay.io/repository/biocontainers/r-clvalid/status
    :target: https://quay.io/repository/biocontainers/r-clvalid

@@ -50,6 +50,7 @@ perl-test-file-contents
 
 
 .. |downloads_perl-test-file-contents| image:: https://img.shields.io/conda/dn/bioconda/perl-test-file-contents.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-file-contents
    :alt:   (downloads)
 .. |docker_perl-test-file-contents| image:: https://quay.io/repository/biocontainers/perl-test-file-contents/status
    :target: https://quay.io/repository/biocontainers/perl-test-file-contents

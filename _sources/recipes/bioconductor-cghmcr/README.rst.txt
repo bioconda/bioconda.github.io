@@ -50,6 +50,7 @@ bioconductor-cghmcr
 
 
 .. |downloads_bioconductor-cghmcr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cghmcr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cghmcr
    :alt:   (downloads)
 .. |docker_bioconductor-cghmcr| image:: https://quay.io/repository/biocontainers/bioconductor-cghmcr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cghmcr

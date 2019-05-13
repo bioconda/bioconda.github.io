@@ -52,6 +52,7 @@ bioconductor-arraymvout
 
 
 .. |downloads_bioconductor-arraymvout| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-arraymvout.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-arraymvout
    :alt:   (downloads)
 .. |docker_bioconductor-arraymvout| image:: https://quay.io/repository/biocontainers/bioconductor-arraymvout/status
    :target: https://quay.io/repository/biocontainers/bioconductor-arraymvout

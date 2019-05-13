@@ -50,6 +50,7 @@ ucsc-qactoqa
 
 
 .. |downloads_ucsc-qactoqa| image:: https://img.shields.io/conda/dn/bioconda/ucsc-qactoqa.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-qactoqa
    :alt:   (downloads)
 .. |docker_ucsc-qactoqa| image:: https://quay.io/repository/biocontainers/ucsc-qactoqa/status
    :target: https://quay.io/repository/biocontainers/ucsc-qactoqa

@@ -53,6 +53,7 @@ bioconductor-tofsims
 
 
 .. |downloads_bioconductor-tofsims| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tofsims.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tofsims
    :alt:   (downloads)
 .. |docker_bioconductor-tofsims| image:: https://quay.io/repository/biocontainers/bioconductor-tofsims/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tofsims

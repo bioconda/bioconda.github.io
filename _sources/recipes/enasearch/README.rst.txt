@@ -51,6 +51,7 @@ enasearch
 
 
 .. |downloads_enasearch| image:: https://img.shields.io/conda/dn/bioconda/enasearch.svg?style=flat
+   :target: https://anaconda.org/bioconda/enasearch
    :alt:   (downloads)
 .. |docker_enasearch| image:: https://quay.io/repository/biocontainers/enasearch/status
    :target: https://quay.io/repository/biocontainers/enasearch

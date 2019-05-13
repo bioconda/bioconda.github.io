@@ -53,6 +53,7 @@ bioconductor-pd.hc.g110
 
 
 .. |downloads_bioconductor-pd.hc.g110| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.hc.g110.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.hc.g110
    :alt:   (downloads)
 .. |docker_bioconductor-pd.hc.g110| image:: https://quay.io/repository/biocontainers/bioconductor-pd.hc.g110/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.hc.g110

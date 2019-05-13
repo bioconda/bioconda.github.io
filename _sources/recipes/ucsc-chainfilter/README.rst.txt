@@ -50,6 +50,7 @@ ucsc-chainfilter
 
 
 .. |downloads_ucsc-chainfilter| image:: https://img.shields.io/conda/dn/bioconda/ucsc-chainfilter.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-chainfilter
    :alt:   (downloads)
 .. |docker_ucsc-chainfilter| image:: https://quay.io/repository/biocontainers/ucsc-chainfilter/status
    :target: https://quay.io/repository/biocontainers/ucsc-chainfilter

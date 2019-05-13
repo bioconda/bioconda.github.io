@@ -47,6 +47,7 @@ bioconductor-hgu133plus2cellscore
 
 
 .. |downloads_bioconductor-hgu133plus2cellscore| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgu133plus2cellscore.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hgu133plus2cellscore
    :alt:   (downloads)
 .. |docker_bioconductor-hgu133plus2cellscore| image:: https://quay.io/repository/biocontainers/bioconductor-hgu133plus2cellscore/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hgu133plus2cellscore

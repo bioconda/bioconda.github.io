@@ -46,6 +46,7 @@ pythonpy
 
 
 .. |downloads_pythonpy| image:: https://img.shields.io/conda/dn/bioconda/pythonpy.svg?style=flat
+   :target: https://anaconda.org/bioconda/pythonpy
    :alt:   (downloads)
 .. |docker_pythonpy| image:: https://quay.io/repository/biocontainers/pythonpy/status
    :target: https://quay.io/repository/biocontainers/pythonpy

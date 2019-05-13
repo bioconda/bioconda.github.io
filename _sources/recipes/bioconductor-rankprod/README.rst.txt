@@ -48,6 +48,7 @@ bioconductor-rankprod
 
 
 .. |downloads_bioconductor-rankprod| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rankprod.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rankprod
    :alt:   (downloads)
 .. |docker_bioconductor-rankprod| image:: https://quay.io/repository/biocontainers/bioconductor-rankprod/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rankprod

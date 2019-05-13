@@ -50,6 +50,7 @@ bioconductor-harshlight
 
 
 .. |downloads_bioconductor-harshlight| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-harshlight.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-harshlight
    :alt:   (downloads)
 .. |docker_bioconductor-harshlight| image:: https://quay.io/repository/biocontainers/bioconductor-harshlight/status
    :target: https://quay.io/repository/biocontainers/bioconductor-harshlight

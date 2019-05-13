@@ -46,6 +46,7 @@ perl-math-cdf
 
 
 .. |downloads_perl-math-cdf| image:: https://img.shields.io/conda/dn/bioconda/perl-math-cdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-math-cdf
    :alt:   (downloads)
 .. |docker_perl-math-cdf| image:: https://quay.io/repository/biocontainers/perl-math-cdf/status
    :target: https://quay.io/repository/biocontainers/perl-math-cdf

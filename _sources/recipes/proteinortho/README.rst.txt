@@ -52,6 +52,7 @@ proteinortho
 
 
 .. |downloads_proteinortho| image:: https://img.shields.io/conda/dn/bioconda/proteinortho.svg?style=flat
+   :target: https://anaconda.org/bioconda/proteinortho
    :alt:   (downloads)
 .. |docker_proteinortho| image:: https://quay.io/repository/biocontainers/proteinortho/status
    :target: https://quay.io/repository/biocontainers/proteinortho

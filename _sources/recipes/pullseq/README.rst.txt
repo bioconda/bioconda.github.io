@@ -47,6 +47,7 @@ pullseq
 
 
 .. |downloads_pullseq| image:: https://img.shields.io/conda/dn/bioconda/pullseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/pullseq
    :alt:   (downloads)
 .. |docker_pullseq| image:: https://quay.io/repository/biocontainers/pullseq/status
    :target: https://quay.io/repository/biocontainers/pullseq

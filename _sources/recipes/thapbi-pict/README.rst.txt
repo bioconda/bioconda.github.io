@@ -54,6 +54,7 @@ thapbi-pict
 
 
 .. |downloads_thapbi-pict| image:: https://img.shields.io/conda/dn/bioconda/thapbi-pict.svg?style=flat
+   :target: https://anaconda.org/bioconda/thapbi-pict
    :alt:   (downloads)
 .. |docker_thapbi-pict| image:: https://quay.io/repository/biocontainers/thapbi-pict/status
    :target: https://quay.io/repository/biocontainers/thapbi-pict

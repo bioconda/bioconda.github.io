@@ -53,6 +53,7 @@ freebayes
 
 
 .. |downloads_freebayes| image:: https://img.shields.io/conda/dn/bioconda/freebayes.svg?style=flat
+   :target: https://anaconda.org/bioconda/freebayes
    :alt:   (downloads)
 .. |docker_freebayes| image:: https://quay.io/repository/biocontainers/freebayes/status
    :target: https://quay.io/repository/biocontainers/freebayes

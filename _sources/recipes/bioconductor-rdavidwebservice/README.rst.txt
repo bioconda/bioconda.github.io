@@ -52,6 +52,7 @@ bioconductor-rdavidwebservice
 
 
 .. |downloads_bioconductor-rdavidwebservice| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rdavidwebservice.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rdavidwebservice
    :alt:   (downloads)
 .. |docker_bioconductor-rdavidwebservice| image:: https://quay.io/repository/biocontainers/bioconductor-rdavidwebservice/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rdavidwebservice

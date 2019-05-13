@@ -47,6 +47,7 @@ bioconductor-quantsmooth
 
 
 .. |downloads_bioconductor-quantsmooth| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-quantsmooth.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-quantsmooth
    :alt:   (downloads)
 .. |docker_bioconductor-quantsmooth| image:: https://quay.io/repository/biocontainers/bioconductor-quantsmooth/status
    :target: https://quay.io/repository/biocontainers/bioconductor-quantsmooth

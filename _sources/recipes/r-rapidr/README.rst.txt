@@ -51,6 +51,7 @@ r-rapidr
 
 
 .. |downloads_r-rapidr| image:: https://img.shields.io/conda/dn/bioconda/r-rapidr.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-rapidr
    :alt:   (downloads)
 .. |docker_r-rapidr| image:: https://quay.io/repository/biocontainers/r-rapidr/status
    :target: https://quay.io/repository/biocontainers/r-rapidr

@@ -48,6 +48,7 @@ r-george
 
 
 .. |downloads_r-george| image:: https://img.shields.io/conda/dn/bioconda/r-george.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-george
    :alt:   (downloads)
 .. |docker_r-george| image:: https://quay.io/repository/biocontainers/r-george/status
    :target: https://quay.io/repository/biocontainers/r-george

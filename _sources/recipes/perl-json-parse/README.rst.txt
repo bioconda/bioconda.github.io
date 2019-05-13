@@ -47,6 +47,7 @@ perl-json-parse
 
 
 .. |downloads_perl-json-parse| image:: https://img.shields.io/conda/dn/bioconda/perl-json-parse.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-json-parse
    :alt:   (downloads)
 .. |docker_perl-json-parse| image:: https://quay.io/repository/biocontainers/perl-json-parse/status
    :target: https://quay.io/repository/biocontainers/perl-json-parse

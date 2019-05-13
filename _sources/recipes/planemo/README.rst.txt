@@ -60,6 +60,7 @@ planemo
 
 
 .. |downloads_planemo| image:: https://img.shields.io/conda/dn/bioconda/planemo.svg?style=flat
+   :target: https://anaconda.org/bioconda/planemo
    :alt:   (downloads)
 .. |docker_planemo| image:: https://quay.io/repository/biocontainers/planemo/status
    :target: https://quay.io/repository/biocontainers/planemo

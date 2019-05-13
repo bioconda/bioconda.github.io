@@ -53,6 +53,7 @@ bioconductor-omicplotr
 
 
 .. |downloads_bioconductor-omicplotr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-omicplotr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-omicplotr
    :alt:   (downloads)
 .. |docker_bioconductor-omicplotr| image:: https://quay.io/repository/biocontainers/bioconductor-omicplotr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-omicplotr

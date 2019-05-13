@@ -46,6 +46,7 @@ tabix
 
 
 .. |downloads_tabix| image:: https://img.shields.io/conda/dn/bioconda/tabix.svg?style=flat
+   :target: https://anaconda.org/bioconda/tabix
    :alt:   (downloads)
 .. |docker_tabix| image:: https://quay.io/repository/biocontainers/tabix/status
    :target: https://quay.io/repository/biocontainers/tabix

@@ -47,6 +47,7 @@ r-gap
 
 
 .. |downloads_r-gap| image:: https://img.shields.io/conda/dn/bioconda/r-gap.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-gap
    :alt:   (downloads)
 .. |docker_r-gap| image:: https://quay.io/repository/biocontainers/r-gap/status
    :target: https://quay.io/repository/biocontainers/r-gap

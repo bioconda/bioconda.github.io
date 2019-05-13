@@ -48,6 +48,7 @@ bioconductor-macat
 
 
 .. |downloads_bioconductor-macat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-macat.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-macat
    :alt:   (downloads)
 .. |docker_bioconductor-macat| image:: https://quay.io/repository/biocontainers/bioconductor-macat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-macat

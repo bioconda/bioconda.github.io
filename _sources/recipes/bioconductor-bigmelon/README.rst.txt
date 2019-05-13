@@ -52,6 +52,7 @@ bioconductor-bigmelon
 
 
 .. |downloads_bioconductor-bigmelon| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bigmelon.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bigmelon
    :alt:   (downloads)
 .. |docker_bioconductor-bigmelon| image:: https://quay.io/repository/biocontainers/bioconductor-bigmelon/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bigmelon

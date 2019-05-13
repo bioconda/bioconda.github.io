@@ -50,6 +50,7 @@ ucsc-bedtopsl
 
 
 .. |downloads_ucsc-bedtopsl| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bedtopsl.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bedtopsl
    :alt:   (downloads)
 .. |docker_ucsc-bedtopsl| image:: https://quay.io/repository/biocontainers/ucsc-bedtopsl/status
    :target: https://quay.io/repository/biocontainers/ucsc-bedtopsl

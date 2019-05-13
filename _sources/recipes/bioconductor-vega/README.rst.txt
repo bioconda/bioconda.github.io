@@ -46,6 +46,7 @@ bioconductor-vega
 
 
 .. |downloads_bioconductor-vega| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-vega.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-vega
    :alt:   (downloads)
 .. |docker_bioconductor-vega| image:: https://quay.io/repository/biocontainers/bioconductor-vega/status
    :target: https://quay.io/repository/biocontainers/bioconductor-vega

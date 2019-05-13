@@ -46,6 +46,7 @@ bioconductor-breakpointrdata
 
 
 .. |downloads_bioconductor-breakpointrdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-breakpointrdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-breakpointrdata
    :alt:   (downloads)
 .. |docker_bioconductor-breakpointrdata| image:: https://quay.io/repository/biocontainers/bioconductor-breakpointrdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-breakpointrdata

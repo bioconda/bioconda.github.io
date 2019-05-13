@@ -45,6 +45,7 @@ bioconductor-hicrep
 
 
 .. |downloads_bioconductor-hicrep| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hicrep.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hicrep
    :alt:   (downloads)
 .. |docker_bioconductor-hicrep| image:: https://quay.io/repository/biocontainers/bioconductor-hicrep/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hicrep

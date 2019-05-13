@@ -47,6 +47,7 @@ bioconductor-marray
 
 
 .. |downloads_bioconductor-marray| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-marray.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-marray
    :alt:   (downloads)
 .. |docker_bioconductor-marray| image:: https://quay.io/repository/biocontainers/bioconductor-marray/status
    :target: https://quay.io/repository/biocontainers/bioconductor-marray

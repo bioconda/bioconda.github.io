@@ -56,6 +56,7 @@ bioconductor-stategra
 
 
 .. |downloads_bioconductor-stategra| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-stategra.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-stategra
    :alt:   (downloads)
 .. |docker_bioconductor-stategra| image:: https://quay.io/repository/biocontainers/bioconductor-stategra/status
    :target: https://quay.io/repository/biocontainers/bioconductor-stategra

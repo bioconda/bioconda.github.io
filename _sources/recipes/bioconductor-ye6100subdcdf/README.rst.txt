@@ -47,6 +47,7 @@ bioconductor-ye6100subdcdf
 
 
 .. |downloads_bioconductor-ye6100subdcdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ye6100subdcdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ye6100subdcdf
    :alt:   (downloads)
 .. |docker_bioconductor-ye6100subdcdf| image:: https://quay.io/repository/biocontainers/bioconductor-ye6100subdcdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ye6100subdcdf

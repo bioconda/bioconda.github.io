@@ -47,6 +47,7 @@ perl-data-optlist
 
 
 .. |downloads_perl-data-optlist| image:: https://img.shields.io/conda/dn/bioconda/perl-data-optlist.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-data-optlist
    :alt:   (downloads)
 .. |docker_perl-data-optlist| image:: https://quay.io/repository/biocontainers/perl-data-optlist/status
    :target: https://quay.io/repository/biocontainers/perl-data-optlist

@@ -48,6 +48,7 @@ bioconductor-maanova
 
 
 .. |downloads_bioconductor-maanova| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-maanova.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-maanova
    :alt:   (downloads)
 .. |docker_bioconductor-maanova| image:: https://quay.io/repository/biocontainers/bioconductor-maanova/status
    :target: https://quay.io/repository/biocontainers/bioconductor-maanova

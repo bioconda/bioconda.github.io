@@ -48,6 +48,7 @@ ncbi-genome-download
 
 
 .. |downloads_ncbi-genome-download| image:: https://img.shields.io/conda/dn/bioconda/ncbi-genome-download.svg?style=flat
+   :target: https://anaconda.org/bioconda/ncbi-genome-download
    :alt:   (downloads)
 .. |docker_ncbi-genome-download| image:: https://quay.io/repository/biocontainers/ncbi-genome-download/status
    :target: https://quay.io/repository/biocontainers/ncbi-genome-download

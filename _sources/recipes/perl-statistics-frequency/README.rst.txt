@@ -45,6 +45,7 @@ perl-statistics-frequency
 
 
 .. |downloads_perl-statistics-frequency| image:: https://img.shields.io/conda/dn/bioconda/perl-statistics-frequency.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-statistics-frequency
    :alt:   (downloads)
 .. |docker_perl-statistics-frequency| image:: https://quay.io/repository/biocontainers/perl-statistics-frequency/status
    :target: https://quay.io/repository/biocontainers/perl-statistics-frequency

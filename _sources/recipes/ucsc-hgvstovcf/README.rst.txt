@@ -50,6 +50,7 @@ ucsc-hgvstovcf
 
 
 .. |downloads_ucsc-hgvstovcf| image:: https://img.shields.io/conda/dn/bioconda/ucsc-hgvstovcf.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-hgvstovcf
    :alt:   (downloads)
 .. |docker_ucsc-hgvstovcf| image:: https://quay.io/repository/biocontainers/ucsc-hgvstovcf/status
    :target: https://quay.io/repository/biocontainers/ucsc-hgvstovcf

@@ -50,6 +50,7 @@ segmentation-fold
 
 
 .. |downloads_segmentation-fold| image:: https://img.shields.io/conda/dn/bioconda/segmentation-fold.svg?style=flat
+   :target: https://anaconda.org/bioconda/segmentation-fold
    :alt:   (downloads)
 .. |docker_segmentation-fold| image:: https://quay.io/repository/biocontainers/segmentation-fold/status
    :target: https://quay.io/repository/biocontainers/segmentation-fold

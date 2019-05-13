@@ -45,6 +45,7 @@ esmre
 
 
 .. |downloads_esmre| image:: https://img.shields.io/conda/dn/bioconda/esmre.svg?style=flat
+   :target: https://anaconda.org/bioconda/esmre
    :alt:   (downloads)
 .. |docker_esmre| image:: https://quay.io/repository/biocontainers/esmre/status
    :target: https://quay.io/repository/biocontainers/esmre

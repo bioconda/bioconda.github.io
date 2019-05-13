@@ -45,6 +45,7 @@ perl-io-uncompress-rawinflate
 
 
 .. |downloads_perl-io-uncompress-rawinflate| image:: https://img.shields.io/conda/dn/bioconda/perl-io-uncompress-rawinflate.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-io-uncompress-rawinflate
    :alt:   (downloads)
 .. |docker_perl-io-uncompress-rawinflate| image:: https://quay.io/repository/biocontainers/perl-io-uncompress-rawinflate/status
    :target: https://quay.io/repository/biocontainers/perl-io-uncompress-rawinflate

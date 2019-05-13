@@ -47,6 +47,7 @@ pypeflow
 
 
 .. |downloads_pypeflow| image:: https://img.shields.io/conda/dn/bioconda/pypeflow.svg?style=flat
+   :target: https://anaconda.org/bioconda/pypeflow
    :alt:   (downloads)
 .. |docker_pypeflow| image:: https://quay.io/repository/biocontainers/pypeflow/status
    :target: https://quay.io/repository/biocontainers/pypeflow

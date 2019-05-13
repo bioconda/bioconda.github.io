@@ -45,6 +45,7 @@ perl-test-builder-tester
 
 
 .. |downloads_perl-test-builder-tester| image:: https://img.shields.io/conda/dn/bioconda/perl-test-builder-tester.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-builder-tester
    :alt:   (downloads)
 .. |docker_perl-test-builder-tester| image:: https://quay.io/repository/biocontainers/perl-test-builder-tester/status
    :target: https://quay.io/repository/biocontainers/perl-test-builder-tester

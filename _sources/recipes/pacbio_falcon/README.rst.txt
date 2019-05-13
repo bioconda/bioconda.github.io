@@ -49,6 +49,7 @@ pacbio_falcon
 
 
 .. |downloads_pacbio_falcon| image:: https://img.shields.io/conda/dn/bioconda/pacbio_falcon.svg?style=flat
+   :target: https://anaconda.org/bioconda/pacbio_falcon
    :alt:   (downloads)
 .. |docker_pacbio_falcon| image:: https://quay.io/repository/biocontainers/pacbio_falcon/status
    :target: https://quay.io/repository/biocontainers/pacbio_falcon

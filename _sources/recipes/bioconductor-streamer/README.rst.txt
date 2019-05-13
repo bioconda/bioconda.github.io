@@ -50,6 +50,7 @@ bioconductor-streamer
 
 
 .. |downloads_bioconductor-streamer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-streamer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-streamer
    :alt:   (downloads)
 .. |docker_bioconductor-streamer| image:: https://quay.io/repository/biocontainers/bioconductor-streamer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-streamer

@@ -68,6 +68,7 @@ bioconductor-chipqc
 
 
 .. |downloads_bioconductor-chipqc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chipqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chipqc
    :alt:   (downloads)
 .. |docker_bioconductor-chipqc| image:: https://quay.io/repository/biocontainers/bioconductor-chipqc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chipqc

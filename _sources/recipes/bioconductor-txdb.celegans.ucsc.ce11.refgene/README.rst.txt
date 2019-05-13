@@ -48,6 +48,7 @@ bioconductor-txdb.celegans.ucsc.ce11.refgene
 
 
 .. |downloads_bioconductor-txdb.celegans.ucsc.ce11.refgene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-txdb.celegans.ucsc.ce11.refgene.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-txdb.celegans.ucsc.ce11.refgene
    :alt:   (downloads)
 .. |docker_bioconductor-txdb.celegans.ucsc.ce11.refgene| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.refgene/status
    :target: https://quay.io/repository/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.refgene

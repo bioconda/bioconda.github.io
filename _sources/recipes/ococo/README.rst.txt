@@ -46,6 +46,7 @@ ococo
 
 
 .. |downloads_ococo| image:: https://img.shields.io/conda/dn/bioconda/ococo.svg?style=flat
+   :target: https://anaconda.org/bioconda/ococo
    :alt:   (downloads)
 .. |docker_ococo| image:: https://quay.io/repository/biocontainers/ococo/status
    :target: https://quay.io/repository/biocontainers/ococo

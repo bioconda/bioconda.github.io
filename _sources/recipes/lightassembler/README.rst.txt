@@ -48,6 +48,7 @@ lightassembler
 
 
 .. |downloads_lightassembler| image:: https://img.shields.io/conda/dn/bioconda/lightassembler.svg?style=flat
+   :target: https://anaconda.org/bioconda/lightassembler
    :alt:   (downloads)
 .. |docker_lightassembler| image:: https://quay.io/repository/biocontainers/lightassembler/status
    :target: https://quay.io/repository/biocontainers/lightassembler

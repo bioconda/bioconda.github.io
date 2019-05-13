@@ -53,6 +53,7 @@ bioconductor-flagme
 
 
 .. |downloads_bioconductor-flagme| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flagme.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flagme
    :alt:   (downloads)
 .. |docker_bioconductor-flagme| image:: https://quay.io/repository/biocontainers/bioconductor-flagme/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flagme

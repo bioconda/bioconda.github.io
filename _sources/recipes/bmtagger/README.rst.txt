@@ -49,6 +49,7 @@ bmtagger
 
 
 .. |downloads_bmtagger| image:: https://img.shields.io/conda/dn/bioconda/bmtagger.svg?style=flat
+   :target: https://anaconda.org/bioconda/bmtagger
    :alt:   (downloads)
 .. |docker_bmtagger| image:: https://quay.io/repository/biocontainers/bmtagger/status
    :target: https://quay.io/repository/biocontainers/bmtagger

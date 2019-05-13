@@ -53,6 +53,7 @@ bioconductor-mtseekerdata
 
 
 .. |downloads_bioconductor-mtseekerdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mtseekerdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mtseekerdata
    :alt:   (downloads)
 .. |docker_bioconductor-mtseekerdata| image:: https://quay.io/repository/biocontainers/bioconductor-mtseekerdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mtseekerdata

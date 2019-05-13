@@ -47,6 +47,7 @@ pindel
 
 
 .. |downloads_pindel| image:: https://img.shields.io/conda/dn/bioconda/pindel.svg?style=flat
+   :target: https://anaconda.org/bioconda/pindel
    :alt:   (downloads)
 .. |docker_pindel| image:: https://quay.io/repository/biocontainers/pindel/status
    :target: https://quay.io/repository/biocontainers/pindel

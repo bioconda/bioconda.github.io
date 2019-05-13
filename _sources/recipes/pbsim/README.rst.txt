@@ -45,6 +45,7 @@ pbsim
 
 
 .. |downloads_pbsim| image:: https://img.shields.io/conda/dn/bioconda/pbsim.svg?style=flat
+   :target: https://anaconda.org/bioconda/pbsim
    :alt:   (downloads)
 .. |docker_pbsim| image:: https://quay.io/repository/biocontainers/pbsim/status
    :target: https://quay.io/repository/biocontainers/pbsim

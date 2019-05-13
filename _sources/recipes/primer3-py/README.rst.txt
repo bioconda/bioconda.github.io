@@ -45,6 +45,7 @@ primer3-py
 
 
 .. |downloads_primer3-py| image:: https://img.shields.io/conda/dn/bioconda/primer3-py.svg?style=flat
+   :target: https://anaconda.org/bioconda/primer3-py
    :alt:   (downloads)
 .. |docker_primer3-py| image:: https://quay.io/repository/biocontainers/primer3-py/status
    :target: https://quay.io/repository/biocontainers/primer3-py

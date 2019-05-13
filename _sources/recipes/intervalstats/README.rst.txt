@@ -44,6 +44,7 @@ intervalstats
 
 
 .. |downloads_intervalstats| image:: https://img.shields.io/conda/dn/bioconda/intervalstats.svg?style=flat
+   :target: https://anaconda.org/bioconda/intervalstats
    :alt:   (downloads)
 .. |docker_intervalstats| image:: https://quay.io/repository/biocontainers/intervalstats/status
    :target: https://quay.io/repository/biocontainers/intervalstats

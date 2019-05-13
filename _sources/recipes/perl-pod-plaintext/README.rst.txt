@@ -45,6 +45,7 @@ perl-pod-plaintext
 
 
 .. |downloads_perl-pod-plaintext| image:: https://img.shields.io/conda/dn/bioconda/perl-pod-plaintext.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-pod-plaintext
    :alt:   (downloads)
 .. |docker_perl-pod-plaintext| image:: https://quay.io/repository/biocontainers/perl-pod-plaintext/status
    :target: https://quay.io/repository/biocontainers/perl-pod-plaintext

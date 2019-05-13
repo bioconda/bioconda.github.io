@@ -53,6 +53,7 @@ umi_tools
 
 
 .. |downloads_umi_tools| image:: https://img.shields.io/conda/dn/bioconda/umi_tools.svg?style=flat
+   :target: https://anaconda.org/bioconda/umi_tools
    :alt:   (downloads)
 .. |docker_umi_tools| image:: https://quay.io/repository/biocontainers/umi_tools/status
    :target: https://quay.io/repository/biocontainers/umi_tools

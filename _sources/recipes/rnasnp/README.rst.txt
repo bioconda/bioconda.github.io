@@ -46,6 +46,7 @@ rnasnp
 
 
 .. |downloads_rnasnp| image:: https://img.shields.io/conda/dn/bioconda/rnasnp.svg?style=flat
+   :target: https://anaconda.org/bioconda/rnasnp
    :alt:   (downloads)
 .. |docker_rnasnp| image:: https://quay.io/repository/biocontainers/rnasnp/status
    :target: https://quay.io/repository/biocontainers/rnasnp

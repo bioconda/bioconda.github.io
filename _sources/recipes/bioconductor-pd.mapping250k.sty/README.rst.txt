@@ -53,6 +53,7 @@ bioconductor-pd.mapping250k.sty
 
 
 .. |downloads_bioconductor-pd.mapping250k.sty| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.mapping250k.sty.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.mapping250k.sty
    :alt:   (downloads)
 .. |docker_bioconductor-pd.mapping250k.sty| image:: https://quay.io/repository/biocontainers/bioconductor-pd.mapping250k.sty/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.mapping250k.sty

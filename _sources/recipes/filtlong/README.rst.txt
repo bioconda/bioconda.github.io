@@ -46,6 +46,7 @@ filtlong
 
 
 .. |downloads_filtlong| image:: https://img.shields.io/conda/dn/bioconda/filtlong.svg?style=flat
+   :target: https://anaconda.org/bioconda/filtlong
    :alt:   (downloads)
 .. |docker_filtlong| image:: https://quay.io/repository/biocontainers/filtlong/status
    :target: https://quay.io/repository/biocontainers/filtlong

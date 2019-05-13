@@ -45,6 +45,7 @@ impute2
 
 
 .. |downloads_impute2| image:: https://img.shields.io/conda/dn/bioconda/impute2.svg?style=flat
+   :target: https://anaconda.org/bioconda/impute2
    :alt:   (downloads)
 .. |docker_impute2| image:: https://quay.io/repository/biocontainers/impute2/status
    :target: https://quay.io/repository/biocontainers/impute2

@@ -47,6 +47,7 @@ moods
 
 
 .. |downloads_moods| image:: https://img.shields.io/conda/dn/bioconda/moods.svg?style=flat
+   :target: https://anaconda.org/bioconda/moods
    :alt:   (downloads)
 .. |docker_moods| image:: https://quay.io/repository/biocontainers/moods/status
    :target: https://quay.io/repository/biocontainers/moods

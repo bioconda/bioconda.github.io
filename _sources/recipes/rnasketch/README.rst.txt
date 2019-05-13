@@ -50,6 +50,7 @@ rnasketch
 
 
 .. |downloads_rnasketch| image:: https://img.shields.io/conda/dn/bioconda/rnasketch.svg?style=flat
+   :target: https://anaconda.org/bioconda/rnasketch
    :alt:   (downloads)
 .. |docker_rnasketch| image:: https://quay.io/repository/biocontainers/rnasketch/status
    :target: https://quay.io/repository/biocontainers/rnasketch

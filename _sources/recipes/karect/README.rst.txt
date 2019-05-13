@@ -49,6 +49,7 @@ karect
 
 
 .. |downloads_karect| image:: https://img.shields.io/conda/dn/bioconda/karect.svg?style=flat
+   :target: https://anaconda.org/bioconda/karect
    :alt:   (downloads)
 .. |docker_karect| image:: https://quay.io/repository/biocontainers/karect/status
    :target: https://quay.io/repository/biocontainers/karect

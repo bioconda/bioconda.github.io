@@ -48,6 +48,7 @@ bioconductor-ibbig
 
 
 .. |downloads_bioconductor-ibbig| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ibbig.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ibbig
    :alt:   (downloads)
 .. |docker_bioconductor-ibbig| image:: https://quay.io/repository/biocontainers/bioconductor-ibbig/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ibbig

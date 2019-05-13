@@ -47,6 +47,7 @@ sure
 
 
 .. |downloads_sure| image:: https://img.shields.io/conda/dn/bioconda/sure.svg?style=flat
+   :target: https://anaconda.org/bioconda/sure
    :alt:   (downloads)
 .. |docker_sure| image:: https://quay.io/repository/biocontainers/sure/status
    :target: https://quay.io/repository/biocontainers/sure

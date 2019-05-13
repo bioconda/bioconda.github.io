@@ -59,6 +59,7 @@ bioconductor-mageckflute
 
 
 .. |downloads_bioconductor-mageckflute| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mageckflute.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mageckflute
    :alt:   (downloads)
 .. |docker_bioconductor-mageckflute| image:: https://quay.io/repository/biocontainers/bioconductor-mageckflute/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mageckflute

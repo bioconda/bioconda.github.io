@@ -50,6 +50,7 @@ pycoqc
 
 
 .. |downloads_pycoqc| image:: https://img.shields.io/conda/dn/bioconda/pycoqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/pycoqc
    :alt:   (downloads)
 .. |docker_pycoqc| image:: https://quay.io/repository/biocontainers/pycoqc/status
    :target: https://quay.io/repository/biocontainers/pycoqc

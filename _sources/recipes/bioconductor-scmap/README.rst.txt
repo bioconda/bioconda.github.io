@@ -62,6 +62,7 @@ bioconductor-scmap
 
 
 .. |downloads_bioconductor-scmap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-scmap
    :alt:   (downloads)
 .. |docker_bioconductor-scmap| image:: https://quay.io/repository/biocontainers/bioconductor-scmap/status
    :target: https://quay.io/repository/biocontainers/bioconductor-scmap

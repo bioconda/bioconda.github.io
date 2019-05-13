@@ -50,6 +50,7 @@ ucsc-wigtobigwig
 
 
 .. |downloads_ucsc-wigtobigwig| image:: https://img.shields.io/conda/dn/bioconda/ucsc-wigtobigwig.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-wigtobigwig
    :alt:   (downloads)
 .. |docker_ucsc-wigtobigwig| image:: https://quay.io/repository/biocontainers/ucsc-wigtobigwig/status
    :target: https://quay.io/repository/biocontainers/ucsc-wigtobigwig

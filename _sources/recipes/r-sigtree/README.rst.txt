@@ -53,6 +53,7 @@ r-sigtree
 
 
 .. |downloads_r-sigtree| image:: https://img.shields.io/conda/dn/bioconda/r-sigtree.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-sigtree
    :alt:   (downloads)
 .. |docker_r-sigtree| image:: https://quay.io/repository/biocontainers/r-sigtree/status
    :target: https://quay.io/repository/biocontainers/r-sigtree

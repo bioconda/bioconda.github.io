@@ -48,6 +48,7 @@ emboss
 
 
 .. |downloads_emboss| image:: https://img.shields.io/conda/dn/bioconda/emboss.svg?style=flat
+   :target: https://anaconda.org/bioconda/emboss
    :alt:   (downloads)
 .. |docker_emboss| image:: https://quay.io/repository/biocontainers/emboss/status
    :target: https://quay.io/repository/biocontainers/emboss

@@ -58,6 +58,7 @@ orthofinder
 
 
 .. |downloads_orthofinder| image:: https://img.shields.io/conda/dn/bioconda/orthofinder.svg?style=flat
+   :target: https://anaconda.org/bioconda/orthofinder
    :alt:   (downloads)
 .. |docker_orthofinder| image:: https://quay.io/repository/biocontainers/orthofinder/status
    :target: https://quay.io/repository/biocontainers/orthofinder

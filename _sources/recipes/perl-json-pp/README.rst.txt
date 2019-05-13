@@ -45,6 +45,7 @@ perl-json-pp
 
 
 .. |downloads_perl-json-pp| image:: https://img.shields.io/conda/dn/bioconda/perl-json-pp.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-json-pp
    :alt:   (downloads)
 .. |docker_perl-json-pp| image:: https://quay.io/repository/biocontainers/perl-json-pp/status
    :target: https://quay.io/repository/biocontainers/perl-json-pp

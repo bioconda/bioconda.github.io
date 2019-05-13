@@ -50,6 +50,7 @@ ucsc-chaintopsl
 
 
 .. |downloads_ucsc-chaintopsl| image:: https://img.shields.io/conda/dn/bioconda/ucsc-chaintopsl.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-chaintopsl
    :alt:   (downloads)
 .. |docker_ucsc-chaintopsl| image:: https://quay.io/repository/biocontainers/ucsc-chaintopsl/status
    :target: https://quay.io/repository/biocontainers/ucsc-chaintopsl

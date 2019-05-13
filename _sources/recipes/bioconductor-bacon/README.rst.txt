@@ -50,6 +50,7 @@ bioconductor-bacon
 
 
 .. |downloads_bioconductor-bacon| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bacon.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bacon
    :alt:   (downloads)
 .. |docker_bioconductor-bacon| image:: https://quay.io/repository/biocontainers/bioconductor-bacon/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bacon

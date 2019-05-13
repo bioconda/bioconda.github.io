@@ -58,6 +58,7 @@ isatools
 
 
 .. |downloads_isatools| image:: https://img.shields.io/conda/dn/bioconda/isatools.svg?style=flat
+   :target: https://anaconda.org/bioconda/isatools
    :alt:   (downloads)
 .. |docker_isatools| image:: https://quay.io/repository/biocontainers/isatools/status
    :target: https://quay.io/repository/biocontainers/isatools

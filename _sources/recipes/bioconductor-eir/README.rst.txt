@@ -57,6 +57,7 @@ bioconductor-eir
 
 
 .. |downloads_bioconductor-eir| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-eir.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-eir
    :alt:   (downloads)
 .. |docker_bioconductor-eir| image:: https://quay.io/repository/biocontainers/bioconductor-eir/status
    :target: https://quay.io/repository/biocontainers/bioconductor-eir

@@ -56,6 +56,7 @@ ete3
 
 
 .. |downloads_ete3| image:: https://img.shields.io/conda/dn/bioconda/ete3.svg?style=flat
+   :target: https://anaconda.org/bioconda/ete3
    :alt:   (downloads)
 .. |docker_ete3| image:: https://quay.io/repository/biocontainers/ete3/status
    :target: https://quay.io/repository/biocontainers/ete3

@@ -56,6 +56,7 @@ bioconductor-cummerbund
 
 
 .. |downloads_bioconductor-cummerbund| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cummerbund.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cummerbund
    :alt:   (downloads)
 .. |docker_bioconductor-cummerbund| image:: https://quay.io/repository/biocontainers/bioconductor-cummerbund/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cummerbund

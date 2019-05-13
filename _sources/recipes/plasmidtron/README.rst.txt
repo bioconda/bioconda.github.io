@@ -50,6 +50,7 @@ plasmidtron
 
 
 .. |downloads_plasmidtron| image:: https://img.shields.io/conda/dn/bioconda/plasmidtron.svg?style=flat
+   :target: https://anaconda.org/bioconda/plasmidtron
    :alt:   (downloads)
 .. |docker_plasmidtron| image:: https://quay.io/repository/biocontainers/plasmidtron/status
    :target: https://quay.io/repository/biocontainers/plasmidtron

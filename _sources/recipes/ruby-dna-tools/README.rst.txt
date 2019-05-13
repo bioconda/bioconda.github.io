@@ -48,6 +48,7 @@ ruby-dna-tools
 
 
 .. |downloads_ruby-dna-tools| image:: https://img.shields.io/conda/dn/bioconda/ruby-dna-tools.svg?style=flat
+   :target: https://anaconda.org/bioconda/ruby-dna-tools
    :alt:   (downloads)
 .. |docker_ruby-dna-tools| image:: https://quay.io/repository/biocontainers/ruby-dna-tools/status
    :target: https://quay.io/repository/biocontainers/ruby-dna-tools

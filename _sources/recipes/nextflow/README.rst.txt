@@ -47,6 +47,7 @@ nextflow
 
 
 .. |downloads_nextflow| image:: https://img.shields.io/conda/dn/bioconda/nextflow.svg?style=flat
+   :target: https://anaconda.org/bioconda/nextflow
    :alt:   (downloads)
 .. |docker_nextflow| image:: https://quay.io/repository/biocontainers/nextflow/status
    :target: https://quay.io/repository/biocontainers/nextflow

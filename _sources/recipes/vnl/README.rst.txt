@@ -45,6 +45,7 @@ vnl
 
 
 .. |downloads_vnl| image:: https://img.shields.io/conda/dn/bioconda/vnl.svg?style=flat
+   :target: https://anaconda.org/bioconda/vnl
    :alt:   (downloads)
 .. |docker_vnl| image:: https://quay.io/repository/biocontainers/vnl/status
    :target: https://quay.io/repository/biocontainers/vnl

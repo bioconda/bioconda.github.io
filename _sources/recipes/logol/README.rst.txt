@@ -48,6 +48,7 @@ logol
 
 
 .. |downloads_logol| image:: https://img.shields.io/conda/dn/bioconda/logol.svg?style=flat
+   :target: https://anaconda.org/bioconda/logol
    :alt:   (downloads)
 .. |docker_logol| image:: https://quay.io/repository/biocontainers/logol/status
    :target: https://quay.io/repository/biocontainers/logol

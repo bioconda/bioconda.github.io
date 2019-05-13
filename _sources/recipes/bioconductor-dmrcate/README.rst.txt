@@ -56,6 +56,7 @@ bioconductor-dmrcate
 
 
 .. |downloads_bioconductor-dmrcate| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dmrcate.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dmrcate
    :alt:   (downloads)
 .. |docker_bioconductor-dmrcate| image:: https://quay.io/repository/biocontainers/bioconductor-dmrcate/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dmrcate

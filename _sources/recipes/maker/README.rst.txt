@@ -71,6 +71,7 @@ maker
 
 
 .. |downloads_maker| image:: https://img.shields.io/conda/dn/bioconda/maker.svg?style=flat
+   :target: https://anaconda.org/bioconda/maker
    :alt:   (downloads)
 .. |docker_maker| image:: https://quay.io/repository/biocontainers/maker/status
    :target: https://quay.io/repository/biocontainers/maker

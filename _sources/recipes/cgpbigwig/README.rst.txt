@@ -55,6 +55,7 @@ cgpbigwig
 
 
 .. |downloads_cgpbigwig| image:: https://img.shields.io/conda/dn/bioconda/cgpbigwig.svg?style=flat
+   :target: https://anaconda.org/bioconda/cgpbigwig
    :alt:   (downloads)
 .. |docker_cgpbigwig| image:: https://quay.io/repository/biocontainers/cgpbigwig/status
    :target: https://quay.io/repository/biocontainers/cgpbigwig

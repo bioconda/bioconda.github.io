@@ -48,6 +48,7 @@ r-metstat
 
 
 .. |downloads_r-metstat| image:: https://img.shields.io/conda/dn/bioconda/r-metstat.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-metstat
    :alt:   (downloads)
 .. |docker_r-metstat| image:: https://quay.io/repository/biocontainers/r-metstat/status
    :target: https://quay.io/repository/biocontainers/r-metstat

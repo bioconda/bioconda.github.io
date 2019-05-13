@@ -46,6 +46,7 @@ bioconductor-ashkenazimsonchr21
 
 
 .. |downloads_bioconductor-ashkenazimsonchr21| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ashkenazimsonchr21.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ashkenazimsonchr21
    :alt:   (downloads)
 .. |docker_bioconductor-ashkenazimsonchr21| image:: https://quay.io/repository/biocontainers/bioconductor-ashkenazimsonchr21/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ashkenazimsonchr21

@@ -54,6 +54,7 @@ r-mmgenome
 
 
 .. |downloads_r-mmgenome| image:: https://img.shields.io/conda/dn/bioconda/r-mmgenome.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-mmgenome
    :alt:   (downloads)
 .. |docker_r-mmgenome| image:: https://quay.io/repository/biocontainers/r-mmgenome/status
    :target: https://quay.io/repository/biocontainers/r-mmgenome

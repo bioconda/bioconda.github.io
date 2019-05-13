@@ -66,6 +66,7 @@ bioconductor-scran
 
 
 .. |downloads_bioconductor-scran| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scran.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-scran
    :alt:   (downloads)
 .. |docker_bioconductor-scran| image:: https://quay.io/repository/biocontainers/bioconductor-scran/status
    :target: https://quay.io/repository/biocontainers/bioconductor-scran

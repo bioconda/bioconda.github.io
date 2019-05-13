@@ -49,6 +49,7 @@ bioconductor-geuvstore2
 
 
 .. |downloads_bioconductor-geuvstore2| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geuvstore2.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-geuvstore2
    :alt:   (downloads)
 .. |docker_bioconductor-geuvstore2| image:: https://quay.io/repository/biocontainers/bioconductor-geuvstore2/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geuvstore2

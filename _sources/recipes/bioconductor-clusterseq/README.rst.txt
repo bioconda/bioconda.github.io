@@ -48,6 +48,7 @@ bioconductor-clusterseq
 
 
 .. |downloads_bioconductor-clusterseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clusterseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-clusterseq
    :alt:   (downloads)
 .. |docker_bioconductor-clusterseq| image:: https://quay.io/repository/biocontainers/bioconductor-clusterseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clusterseq

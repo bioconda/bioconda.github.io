@@ -45,6 +45,7 @@ perl-number-misc
 
 
 .. |downloads_perl-number-misc| image:: https://img.shields.io/conda/dn/bioconda/perl-number-misc.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-number-misc
    :alt:   (downloads)
 .. |docker_perl-number-misc| image:: https://quay.io/repository/biocontainers/perl-number-misc/status
    :target: https://quay.io/repository/biocontainers/perl-number-misc

@@ -48,6 +48,7 @@ bioconductor-panther.db
 
 
 .. |downloads_bioconductor-panther.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-panther.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-panther.db
    :alt:   (downloads)
 .. |docker_bioconductor-panther.db| image:: https://quay.io/repository/biocontainers/bioconductor-panther.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-panther.db

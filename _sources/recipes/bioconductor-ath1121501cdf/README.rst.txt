@@ -47,6 +47,7 @@ bioconductor-ath1121501cdf
 
 
 .. |downloads_bioconductor-ath1121501cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ath1121501cdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ath1121501cdf
    :alt:   (downloads)
 .. |docker_bioconductor-ath1121501cdf| image:: https://quay.io/repository/biocontainers/bioconductor-ath1121501cdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ath1121501cdf

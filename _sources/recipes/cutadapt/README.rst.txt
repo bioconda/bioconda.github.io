@@ -50,6 +50,7 @@ cutadapt
 
 
 .. |downloads_cutadapt| image:: https://img.shields.io/conda/dn/bioconda/cutadapt.svg?style=flat
+   :target: https://anaconda.org/bioconda/cutadapt
    :alt:   (downloads)
 .. |docker_cutadapt| image:: https://quay.io/repository/biocontainers/cutadapt/status
    :target: https://quay.io/repository/biocontainers/cutadapt

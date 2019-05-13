@@ -57,6 +57,7 @@ bioconductor-mirsponge
 
 
 .. |downloads_bioconductor-mirsponge| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirsponge.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mirsponge
    :alt:   (downloads)
 .. |docker_bioconductor-mirsponge| image:: https://quay.io/repository/biocontainers/bioconductor-mirsponge/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mirsponge

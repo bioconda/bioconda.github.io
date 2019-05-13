@@ -49,6 +49,7 @@ parasail-python
 
 
 .. |downloads_parasail-python| image:: https://img.shields.io/conda/dn/bioconda/parasail-python.svg?style=flat
+   :target: https://anaconda.org/bioconda/parasail-python
    :alt:   (downloads)
 .. |docker_parasail-python| image:: https://quay.io/repository/biocontainers/parasail-python/status
    :target: https://quay.io/repository/biocontainers/parasail-python

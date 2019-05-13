@@ -52,6 +52,7 @@ plant_tribes_assembly_post_processor
 
 
 .. |downloads_plant_tribes_assembly_post_processor| image:: https://img.shields.io/conda/dn/bioconda/plant_tribes_assembly_post_processor.svg?style=flat
+   :target: https://anaconda.org/bioconda/plant_tribes_assembly_post_processor
    :alt:   (downloads)
 .. |docker_plant_tribes_assembly_post_processor| image:: https://quay.io/repository/biocontainers/plant_tribes_assembly_post_processor/status
    :target: https://quay.io/repository/biocontainers/plant_tribes_assembly_post_processor

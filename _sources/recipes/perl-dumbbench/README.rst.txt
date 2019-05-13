@@ -54,6 +54,7 @@ perl-dumbbench
 
 
 .. |downloads_perl-dumbbench| image:: https://img.shields.io/conda/dn/bioconda/perl-dumbbench.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-dumbbench
    :alt:   (downloads)
 .. |docker_perl-dumbbench| image:: https://quay.io/repository/biocontainers/perl-dumbbench/status
    :target: https://quay.io/repository/biocontainers/perl-dumbbench

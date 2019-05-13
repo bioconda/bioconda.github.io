@@ -50,6 +50,7 @@ r-classdiscovery
 
 
 .. |downloads_r-classdiscovery| image:: https://img.shields.io/conda/dn/bioconda/r-classdiscovery.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-classdiscovery
    :alt:   (downloads)
 .. |docker_r-classdiscovery| image:: https://quay.io/repository/biocontainers/r-classdiscovery/status
    :target: https://quay.io/repository/biocontainers/r-classdiscovery

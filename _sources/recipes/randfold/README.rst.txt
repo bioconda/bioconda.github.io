@@ -46,6 +46,7 @@ randfold
 
 
 .. |downloads_randfold| image:: https://img.shields.io/conda/dn/bioconda/randfold.svg?style=flat
+   :target: https://anaconda.org/bioconda/randfold
    :alt:   (downloads)
 .. |docker_randfold| image:: https://quay.io/repository/biocontainers/randfold/status
    :target: https://quay.io/repository/biocontainers/randfold

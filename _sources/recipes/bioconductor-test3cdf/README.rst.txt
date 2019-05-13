@@ -47,6 +47,7 @@ bioconductor-test3cdf
 
 
 .. |downloads_bioconductor-test3cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-test3cdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-test3cdf
    :alt:   (downloads)
 .. |docker_bioconductor-test3cdf| image:: https://quay.io/repository/biocontainers/bioconductor-test3cdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-test3cdf

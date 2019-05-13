@@ -48,6 +48,7 @@ flye
 
 
 .. |downloads_flye| image:: https://img.shields.io/conda/dn/bioconda/flye.svg?style=flat
+   :target: https://anaconda.org/bioconda/flye
    :alt:   (downloads)
 .. |docker_flye| image:: https://quay.io/repository/biocontainers/flye/status
    :target: https://quay.io/repository/biocontainers/flye

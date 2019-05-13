@@ -47,6 +47,7 @@ perl-test-mockmodule
 
 
 .. |downloads_perl-test-mockmodule| image:: https://img.shields.io/conda/dn/bioconda/perl-test-mockmodule.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-mockmodule
    :alt:   (downloads)
 .. |docker_perl-test-mockmodule| image:: https://quay.io/repository/biocontainers/perl-test-mockmodule/status
    :target: https://quay.io/repository/biocontainers/perl-test-mockmodule

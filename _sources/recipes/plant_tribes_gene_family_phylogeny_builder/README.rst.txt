@@ -47,6 +47,7 @@ plant_tribes_gene_family_phylogeny_builder
 
 
 .. |downloads_plant_tribes_gene_family_phylogeny_builder| image:: https://img.shields.io/conda/dn/bioconda/plant_tribes_gene_family_phylogeny_builder.svg?style=flat
+   :target: https://anaconda.org/bioconda/plant_tribes_gene_family_phylogeny_builder
    :alt:   (downloads)
 .. |docker_plant_tribes_gene_family_phylogeny_builder| image:: https://quay.io/repository/biocontainers/plant_tribes_gene_family_phylogeny_builder/status
    :target: https://quay.io/repository/biocontainers/plant_tribes_gene_family_phylogeny_builder

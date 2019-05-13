@@ -50,6 +50,7 @@ banner
 
 
 .. |downloads_banner| image:: https://img.shields.io/conda/dn/bioconda/banner.svg?style=flat
+   :target: https://anaconda.org/bioconda/banner
    :alt:   (downloads)
 .. |docker_banner| image:: https://quay.io/repository/biocontainers/banner/status
    :target: https://quay.io/repository/biocontainers/banner

@@ -47,6 +47,7 @@ bioconductor-clustcomp
 
 
 .. |downloads_bioconductor-clustcomp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clustcomp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-clustcomp
    :alt:   (downloads)
 .. |docker_bioconductor-clustcomp| image:: https://quay.io/repository/biocontainers/bioconductor-clustcomp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clustcomp

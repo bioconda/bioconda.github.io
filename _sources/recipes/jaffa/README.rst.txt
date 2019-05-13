@@ -58,6 +58,7 @@ jaffa
 
 
 .. |downloads_jaffa| image:: https://img.shields.io/conda/dn/bioconda/jaffa.svg?style=flat
+   :target: https://anaconda.org/bioconda/jaffa
    :alt:   (downloads)
 .. |docker_jaffa| image:: https://quay.io/repository/biocontainers/jaffa/status
    :target: https://quay.io/repository/biocontainers/jaffa

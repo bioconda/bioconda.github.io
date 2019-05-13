@@ -45,6 +45,7 @@ ms
 
 
 .. |downloads_ms| image:: https://img.shields.io/conda/dn/bioconda/ms.svg?style=flat
+   :target: https://anaconda.org/bioconda/ms
    :alt:   (downloads)
 .. |docker_ms| image:: https://quay.io/repository/biocontainers/ms/status
    :target: https://quay.io/repository/biocontainers/ms

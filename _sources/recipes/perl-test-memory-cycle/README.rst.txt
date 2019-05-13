@@ -50,6 +50,7 @@ perl-test-memory-cycle
 
 
 .. |downloads_perl-test-memory-cycle| image:: https://img.shields.io/conda/dn/bioconda/perl-test-memory-cycle.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-memory-cycle
    :alt:   (downloads)
 .. |docker_perl-test-memory-cycle| image:: https://quay.io/repository/biocontainers/perl-test-memory-cycle/status
    :target: https://quay.io/repository/biocontainers/perl-test-memory-cycle

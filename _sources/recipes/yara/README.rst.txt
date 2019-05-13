@@ -47,6 +47,7 @@ yara
 
 
 .. |downloads_yara| image:: https://img.shields.io/conda/dn/bioconda/yara.svg?style=flat
+   :target: https://anaconda.org/bioconda/yara
    :alt:   (downloads)
 .. |docker_yara| image:: https://quay.io/repository/biocontainers/yara/status
    :target: https://quay.io/repository/biocontainers/yara

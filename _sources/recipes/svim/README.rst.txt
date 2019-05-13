@@ -53,6 +53,7 @@ svim
 
 
 .. |downloads_svim| image:: https://img.shields.io/conda/dn/bioconda/svim.svg?style=flat
+   :target: https://anaconda.org/bioconda/svim
    :alt:   (downloads)
 .. |docker_svim| image:: https://quay.io/repository/biocontainers/svim/status
    :target: https://quay.io/repository/biocontainers/svim

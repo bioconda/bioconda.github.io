@@ -49,6 +49,7 @@ denovogear
 
 
 .. |downloads_denovogear| image:: https://img.shields.io/conda/dn/bioconda/denovogear.svg?style=flat
+   :target: https://anaconda.org/bioconda/denovogear
    :alt:   (downloads)
 .. |docker_denovogear| image:: https://quay.io/repository/biocontainers/denovogear/status
    :target: https://quay.io/repository/biocontainers/denovogear

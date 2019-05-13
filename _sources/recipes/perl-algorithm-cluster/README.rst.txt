@@ -46,6 +46,7 @@ perl-algorithm-cluster
 
 
 .. |downloads_perl-algorithm-cluster| image:: https://img.shields.io/conda/dn/bioconda/perl-algorithm-cluster.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-algorithm-cluster
    :alt:   (downloads)
 .. |docker_perl-algorithm-cluster| image:: https://quay.io/repository/biocontainers/perl-algorithm-cluster/status
    :target: https://quay.io/repository/biocontainers/perl-algorithm-cluster

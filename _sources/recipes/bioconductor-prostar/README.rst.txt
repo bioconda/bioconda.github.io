@@ -70,6 +70,7 @@ bioconductor-prostar
 
 
 .. |downloads_bioconductor-prostar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-prostar.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-prostar
    :alt:   (downloads)
 .. |docker_bioconductor-prostar| image:: https://quay.io/repository/biocontainers/bioconductor-prostar/status
    :target: https://quay.io/repository/biocontainers/bioconductor-prostar

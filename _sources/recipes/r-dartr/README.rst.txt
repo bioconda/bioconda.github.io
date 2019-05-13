@@ -74,6 +74,7 @@ r-dartr
 
 
 .. |downloads_r-dartr| image:: https://img.shields.io/conda/dn/bioconda/r-dartr.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-dartr
    :alt:   (downloads)
 .. |docker_r-dartr| image:: https://quay.io/repository/biocontainers/r-dartr/status
    :target: https://quay.io/repository/biocontainers/r-dartr

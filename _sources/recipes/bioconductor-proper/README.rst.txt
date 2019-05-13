@@ -47,6 +47,7 @@ bioconductor-proper
 
 
 .. |downloads_bioconductor-proper| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-proper.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-proper
    :alt:   (downloads)
 .. |docker_bioconductor-proper| image:: https://quay.io/repository/biocontainers/bioconductor-proper/status
    :target: https://quay.io/repository/biocontainers/bioconductor-proper

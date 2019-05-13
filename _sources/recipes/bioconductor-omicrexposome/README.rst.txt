@@ -59,6 +59,7 @@ bioconductor-omicrexposome
 
 
 .. |downloads_bioconductor-omicrexposome| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-omicrexposome.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-omicrexposome
    :alt:   (downloads)
 .. |docker_bioconductor-omicrexposome| image:: https://quay.io/repository/biocontainers/bioconductor-omicrexposome/status
    :target: https://quay.io/repository/biocontainers/bioconductor-omicrexposome

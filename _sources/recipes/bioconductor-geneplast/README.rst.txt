@@ -49,6 +49,7 @@ bioconductor-geneplast
 
 
 .. |downloads_bioconductor-geneplast| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geneplast.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-geneplast
    :alt:   (downloads)
 .. |docker_bioconductor-geneplast| image:: https://quay.io/repository/biocontainers/bioconductor-geneplast/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geneplast

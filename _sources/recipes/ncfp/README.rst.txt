@@ -50,6 +50,7 @@ ncfp
 
 
 .. |downloads_ncfp| image:: https://img.shields.io/conda/dn/bioconda/ncfp.svg?style=flat
+   :target: https://anaconda.org/bioconda/ncfp
    :alt:   (downloads)
 .. |docker_ncfp| image:: https://quay.io/repository/biocontainers/ncfp/status
    :target: https://quay.io/repository/biocontainers/ncfp

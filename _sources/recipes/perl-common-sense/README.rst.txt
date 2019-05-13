@@ -45,6 +45,7 @@ perl-common-sense
 
 
 .. |downloads_perl-common-sense| image:: https://img.shields.io/conda/dn/bioconda/perl-common-sense.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-common-sense
    :alt:   (downloads)
 .. |docker_perl-common-sense| image:: https://quay.io/repository/biocontainers/perl-common-sense/status
    :target: https://quay.io/repository/biocontainers/perl-common-sense

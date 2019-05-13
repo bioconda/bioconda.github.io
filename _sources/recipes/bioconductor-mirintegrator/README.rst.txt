@@ -52,6 +52,7 @@ bioconductor-mirintegrator
 
 
 .. |downloads_bioconductor-mirintegrator| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirintegrator.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mirintegrator
    :alt:   (downloads)
 .. |docker_bioconductor-mirintegrator| image:: https://quay.io/repository/biocontainers/bioconductor-mirintegrator/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mirintegrator

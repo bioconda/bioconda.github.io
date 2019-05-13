@@ -52,6 +52,7 @@ faststructure
 
 
 .. |downloads_faststructure| image:: https://img.shields.io/conda/dn/bioconda/faststructure.svg?style=flat
+   :target: https://anaconda.org/bioconda/faststructure
    :alt:   (downloads)
 .. |docker_faststructure| image:: https://quay.io/repository/biocontainers/faststructure/status
    :target: https://quay.io/repository/biocontainers/faststructure

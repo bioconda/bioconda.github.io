@@ -66,6 +66,7 @@ bioconductor-rexposome
 
 
 .. |downloads_bioconductor-rexposome| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rexposome.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rexposome
    :alt:   (downloads)
 .. |docker_bioconductor-rexposome| image:: https://quay.io/repository/biocontainers/bioconductor-rexposome/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rexposome

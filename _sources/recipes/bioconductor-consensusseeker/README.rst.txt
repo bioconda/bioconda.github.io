@@ -54,6 +54,7 @@ bioconductor-consensusseeker
 
 
 .. |downloads_bioconductor-consensusseeker| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-consensusseeker.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-consensusseeker
    :alt:   (downloads)
 .. |docker_bioconductor-consensusseeker| image:: https://quay.io/repository/biocontainers/bioconductor-consensusseeker/status
    :target: https://quay.io/repository/biocontainers/bioconductor-consensusseeker

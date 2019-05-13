@@ -45,6 +45,7 @@ blastbesties
 
 
 .. |downloads_blastbesties| image:: https://img.shields.io/conda/dn/bioconda/blastbesties.svg?style=flat
+   :target: https://anaconda.org/bioconda/blastbesties
    :alt:   (downloads)
 .. |docker_blastbesties| image:: https://quay.io/repository/biocontainers/blastbesties/status
    :target: https://quay.io/repository/biocontainers/blastbesties

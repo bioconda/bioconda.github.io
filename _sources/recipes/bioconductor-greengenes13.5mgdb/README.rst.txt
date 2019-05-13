@@ -47,6 +47,7 @@ bioconductor-greengenes13.5mgdb
 
 
 .. |downloads_bioconductor-greengenes13.5mgdb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-greengenes13.5mgdb.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-greengenes13.5mgdb
    :alt:   (downloads)
 .. |docker_bioconductor-greengenes13.5mgdb| image:: https://quay.io/repository/biocontainers/bioconductor-greengenes13.5mgdb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-greengenes13.5mgdb

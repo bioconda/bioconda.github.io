@@ -52,6 +52,7 @@ perl-inline-c
 
 
 .. |downloads_perl-inline-c| image:: https://img.shields.io/conda/dn/bioconda/perl-inline-c.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-inline-c
    :alt:   (downloads)
 .. |docker_perl-inline-c| image:: https://quay.io/repository/biocontainers/perl-inline-c/status
    :target: https://quay.io/repository/biocontainers/perl-inline-c

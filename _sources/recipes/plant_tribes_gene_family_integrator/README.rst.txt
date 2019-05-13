@@ -45,6 +45,7 @@ plant_tribes_gene_family_integrator
 
 
 .. |downloads_plant_tribes_gene_family_integrator| image:: https://img.shields.io/conda/dn/bioconda/plant_tribes_gene_family_integrator.svg?style=flat
+   :target: https://anaconda.org/bioconda/plant_tribes_gene_family_integrator
    :alt:   (downloads)
 .. |docker_plant_tribes_gene_family_integrator| image:: https://quay.io/repository/biocontainers/plant_tribes_gene_family_integrator/status
    :target: https://quay.io/repository/biocontainers/plant_tribes_gene_family_integrator

@@ -45,6 +45,7 @@ perl-file-slurp-tiny
 
 
 .. |downloads_perl-file-slurp-tiny| image:: https://img.shields.io/conda/dn/bioconda/perl-file-slurp-tiny.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-slurp-tiny
    :alt:   (downloads)
 .. |docker_perl-file-slurp-tiny| image:: https://quay.io/repository/biocontainers/perl-file-slurp-tiny/status
    :target: https://quay.io/repository/biocontainers/perl-file-slurp-tiny

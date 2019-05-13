@@ -49,6 +49,7 @@ perl-xml-dom
 
 
 .. |downloads_perl-xml-dom| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-dom.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-xml-dom
    :alt:   (downloads)
 .. |docker_perl-xml-dom| image:: https://quay.io/repository/biocontainers/perl-xml-dom/status
    :target: https://quay.io/repository/biocontainers/perl-xml-dom

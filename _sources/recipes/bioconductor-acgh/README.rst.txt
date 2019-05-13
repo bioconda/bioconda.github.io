@@ -52,6 +52,7 @@ bioconductor-acgh
 
 
 .. |downloads_bioconductor-acgh| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-acgh.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-acgh
    :alt:   (downloads)
 .. |docker_bioconductor-acgh| image:: https://quay.io/repository/biocontainers/bioconductor-acgh/status
    :target: https://quay.io/repository/biocontainers/bioconductor-acgh

@@ -61,6 +61,7 @@ shovill
 
 
 .. |downloads_shovill| image:: https://img.shields.io/conda/dn/bioconda/shovill.svg?style=flat
+   :target: https://anaconda.org/bioconda/shovill
    :alt:   (downloads)
 .. |docker_shovill| image:: https://quay.io/repository/biocontainers/shovill/status
    :target: https://quay.io/repository/biocontainers/shovill

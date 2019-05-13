@@ -53,6 +53,7 @@ bioconductor-complexheatmap
 
 
 .. |downloads_bioconductor-complexheatmap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-complexheatmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-complexheatmap
    :alt:   (downloads)
 .. |docker_bioconductor-complexheatmap| image:: https://quay.io/repository/biocontainers/bioconductor-complexheatmap/status
    :target: https://quay.io/repository/biocontainers/bioconductor-complexheatmap

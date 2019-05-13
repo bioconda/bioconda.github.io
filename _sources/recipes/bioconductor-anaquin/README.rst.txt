@@ -52,6 +52,7 @@ bioconductor-anaquin
 
 
 .. |downloads_bioconductor-anaquin| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-anaquin.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-anaquin
    :alt:   (downloads)
 .. |docker_bioconductor-anaquin| image:: https://quay.io/repository/biocontainers/bioconductor-anaquin/status
    :target: https://quay.io/repository/biocontainers/bioconductor-anaquin

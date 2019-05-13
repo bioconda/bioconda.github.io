@@ -48,6 +48,7 @@ lsc
 
 
 .. |downloads_lsc| image:: https://img.shields.io/conda/dn/bioconda/lsc.svg?style=flat
+   :target: https://anaconda.org/bioconda/lsc
    :alt:   (downloads)
 .. |docker_lsc| image:: https://quay.io/repository/biocontainers/lsc/status
    :target: https://quay.io/repository/biocontainers/lsc

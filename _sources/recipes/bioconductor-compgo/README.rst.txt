@@ -54,6 +54,7 @@ bioconductor-compgo
 
 
 .. |downloads_bioconductor-compgo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-compgo.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-compgo
    :alt:   (downloads)
 .. |docker_bioconductor-compgo| image:: https://quay.io/repository/biocontainers/bioconductor-compgo/status
    :target: https://quay.io/repository/biocontainers/bioconductor-compgo

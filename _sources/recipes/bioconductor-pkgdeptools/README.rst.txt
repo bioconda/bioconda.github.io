@@ -48,6 +48,7 @@ bioconductor-pkgdeptools
 
 
 .. |downloads_bioconductor-pkgdeptools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pkgdeptools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pkgdeptools
    :alt:   (downloads)
 .. |docker_bioconductor-pkgdeptools| image:: https://quay.io/repository/biocontainers/bioconductor-pkgdeptools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pkgdeptools

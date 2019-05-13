@@ -45,6 +45,7 @@ perl-text-glob
 
 
 .. |downloads_perl-text-glob| image:: https://img.shields.io/conda/dn/bioconda/perl-text-glob.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-text-glob
    :alt:   (downloads)
 .. |docker_perl-text-glob| image:: https://quay.io/repository/biocontainers/perl-text-glob/status
    :target: https://quay.io/repository/biocontainers/perl-text-glob

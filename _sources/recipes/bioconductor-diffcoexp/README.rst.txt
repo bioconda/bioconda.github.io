@@ -51,6 +51,7 @@ bioconductor-diffcoexp
 
 
 .. |downloads_bioconductor-diffcoexp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-diffcoexp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-diffcoexp
    :alt:   (downloads)
 .. |docker_bioconductor-diffcoexp| image:: https://quay.io/repository/biocontainers/bioconductor-diffcoexp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-diffcoexp

@@ -53,6 +53,7 @@ biofluff
 
 
 .. |downloads_biofluff| image:: https://img.shields.io/conda/dn/bioconda/biofluff.svg?style=flat
+   :target: https://anaconda.org/bioconda/biofluff
    :alt:   (downloads)
 .. |docker_biofluff| image:: https://quay.io/repository/biocontainers/biofluff/status
    :target: https://quay.io/repository/biocontainers/biofluff

@@ -50,6 +50,7 @@ bioconductor-hybridmtest
 
 
 .. |downloads_bioconductor-hybridmtest| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hybridmtest.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hybridmtest
    :alt:   (downloads)
 .. |docker_bioconductor-hybridmtest| image:: https://quay.io/repository/biocontainers/bioconductor-hybridmtest/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hybridmtest

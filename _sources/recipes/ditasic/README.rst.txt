@@ -50,6 +50,7 @@ ditasic
 
 
 .. |downloads_ditasic| image:: https://img.shields.io/conda/dn/bioconda/ditasic.svg?style=flat
+   :target: https://anaconda.org/bioconda/ditasic
    :alt:   (downloads)
 .. |docker_ditasic| image:: https://quay.io/repository/biocontainers/ditasic/status
    :target: https://quay.io/repository/biocontainers/ditasic

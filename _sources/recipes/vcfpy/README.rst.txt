@@ -46,6 +46,7 @@ vcfpy
 
 
 .. |downloads_vcfpy| image:: https://img.shields.io/conda/dn/bioconda/vcfpy.svg?style=flat
+   :target: https://anaconda.org/bioconda/vcfpy
    :alt:   (downloads)
 .. |docker_vcfpy| image:: https://quay.io/repository/biocontainers/vcfpy/status
    :target: https://quay.io/repository/biocontainers/vcfpy

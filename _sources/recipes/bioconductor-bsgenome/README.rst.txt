@@ -55,6 +55,7 @@ bioconductor-bsgenome
 
 
 .. |downloads_bioconductor-bsgenome| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome

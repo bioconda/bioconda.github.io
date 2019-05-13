@@ -45,6 +45,7 @@ bioconductor-agilp
 
 
 .. |downloads_bioconductor-agilp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-agilp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-agilp
    :alt:   (downloads)
 .. |docker_bioconductor-agilp| image:: https://quay.io/repository/biocontainers/bioconductor-agilp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-agilp

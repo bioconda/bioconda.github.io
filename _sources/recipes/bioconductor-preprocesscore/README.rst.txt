@@ -47,6 +47,7 @@ bioconductor-preprocesscore
 
 
 .. |downloads_bioconductor-preprocesscore| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-preprocesscore.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-preprocesscore
    :alt:   (downloads)
 .. |docker_bioconductor-preprocesscore| image:: https://quay.io/repository/biocontainers/bioconductor-preprocesscore/status
    :target: https://quay.io/repository/biocontainers/bioconductor-preprocesscore

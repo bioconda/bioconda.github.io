@@ -49,6 +49,7 @@ alder
 
 
 .. |downloads_alder| image:: https://img.shields.io/conda/dn/bioconda/alder.svg?style=flat
+   :target: https://anaconda.org/bioconda/alder
    :alt:   (downloads)
 .. |docker_alder| image:: https://quay.io/repository/biocontainers/alder/status
    :target: https://quay.io/repository/biocontainers/alder

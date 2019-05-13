@@ -47,6 +47,7 @@ r-mcpcounter
 
 
 .. |downloads_r-mcpcounter| image:: https://img.shields.io/conda/dn/bioconda/r-mcpcounter.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-mcpcounter
    :alt:   (downloads)
 .. |docker_r-mcpcounter| image:: https://quay.io/repository/biocontainers/r-mcpcounter/status
    :target: https://quay.io/repository/biocontainers/r-mcpcounter

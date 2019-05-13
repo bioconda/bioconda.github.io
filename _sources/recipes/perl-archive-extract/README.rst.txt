@@ -50,6 +50,7 @@ perl-archive-extract
 
 
 .. |downloads_perl-archive-extract| image:: https://img.shields.io/conda/dn/bioconda/perl-archive-extract.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-archive-extract
    :alt:   (downloads)
 .. |docker_perl-archive-extract| image:: https://quay.io/repository/biocontainers/perl-archive-extract/status
    :target: https://quay.io/repository/biocontainers/perl-archive-extract

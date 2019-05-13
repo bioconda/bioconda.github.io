@@ -45,6 +45,7 @@ wheezy.template
 
 
 .. |downloads_wheezy.template| image:: https://img.shields.io/conda/dn/bioconda/wheezy.template.svg?style=flat
+   :target: https://anaconda.org/bioconda/wheezy.template
    :alt:   (downloads)
 .. |docker_wheezy.template| image:: https://quay.io/repository/biocontainers/wheezy.template/status
    :target: https://quay.io/repository/biocontainers/wheezy.template

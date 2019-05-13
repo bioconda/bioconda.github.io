@@ -46,6 +46,7 @@ gnu-getopt
 
 
 .. |downloads_gnu-getopt| image:: https://img.shields.io/conda/dn/bioconda/gnu-getopt.svg?style=flat
+   :target: https://anaconda.org/bioconda/gnu-getopt
    :alt:   (downloads)
 .. |docker_gnu-getopt| image:: https://quay.io/repository/biocontainers/gnu-getopt/status
    :target: https://quay.io/repository/biocontainers/gnu-getopt

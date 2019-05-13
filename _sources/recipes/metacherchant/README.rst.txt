@@ -45,6 +45,7 @@ metacherchant
 
 
 .. |downloads_metacherchant| image:: https://img.shields.io/conda/dn/bioconda/metacherchant.svg?style=flat
+   :target: https://anaconda.org/bioconda/metacherchant
    :alt:   (downloads)
 .. |docker_metacherchant| image:: https://quay.io/repository/biocontainers/metacherchant/status
    :target: https://quay.io/repository/biocontainers/metacherchant

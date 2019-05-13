@@ -50,6 +50,7 @@ ucsc-lavtoaxt
 
 
 .. |downloads_ucsc-lavtoaxt| image:: https://img.shields.io/conda/dn/bioconda/ucsc-lavtoaxt.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-lavtoaxt
    :alt:   (downloads)
 .. |docker_ucsc-lavtoaxt| image:: https://quay.io/repository/biocontainers/ucsc-lavtoaxt/status
    :target: https://quay.io/repository/biocontainers/ucsc-lavtoaxt

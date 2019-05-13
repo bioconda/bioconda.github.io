@@ -44,6 +44,7 @@ dxua
 
 
 .. |downloads_dxua| image:: https://img.shields.io/conda/dn/bioconda/dxua.svg?style=flat
+   :target: https://anaconda.org/bioconda/dxua
    :alt:   (downloads)
 .. |docker_dxua| image:: https://quay.io/repository/biocontainers/dxua/status
    :target: https://quay.io/repository/biocontainers/dxua

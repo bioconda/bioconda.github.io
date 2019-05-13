@@ -44,6 +44,7 @@ pbsv
 
 
 .. |downloads_pbsv| image:: https://img.shields.io/conda/dn/bioconda/pbsv.svg?style=flat
+   :target: https://anaconda.org/bioconda/pbsv
    :alt:   (downloads)
 .. |docker_pbsv| image:: https://quay.io/repository/biocontainers/pbsv/status
    :target: https://quay.io/repository/biocontainers/pbsv

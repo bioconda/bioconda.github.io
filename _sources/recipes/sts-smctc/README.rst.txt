@@ -47,6 +47,7 @@ sts-smctc
 
 
 .. |downloads_sts-smctc| image:: https://img.shields.io/conda/dn/bioconda/sts-smctc.svg?style=flat
+   :target: https://anaconda.org/bioconda/sts-smctc
    :alt:   (downloads)
 .. |docker_sts-smctc| image:: https://quay.io/repository/biocontainers/sts-smctc/status
    :target: https://quay.io/repository/biocontainers/sts-smctc

@@ -45,6 +45,7 @@ booster
 
 
 .. |downloads_booster| image:: https://img.shields.io/conda/dn/bioconda/booster.svg?style=flat
+   :target: https://anaconda.org/bioconda/booster
    :alt:   (downloads)
 .. |docker_booster| image:: https://quay.io/repository/biocontainers/booster/status
    :target: https://quay.io/repository/biocontainers/booster

@@ -59,6 +59,7 @@ piret
 
 
 .. |downloads_piret| image:: https://img.shields.io/conda/dn/bioconda/piret.svg?style=flat
+   :target: https://anaconda.org/bioconda/piret
    :alt:   (downloads)
 .. |docker_piret| image:: https://quay.io/repository/biocontainers/piret/status
    :target: https://quay.io/repository/biocontainers/piret

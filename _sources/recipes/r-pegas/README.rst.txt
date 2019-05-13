@@ -48,6 +48,7 @@ r-pegas
 
 
 .. |downloads_r-pegas| image:: https://img.shields.io/conda/dn/bioconda/r-pegas.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-pegas
    :alt:   (downloads)
 .. |docker_r-pegas| image:: https://quay.io/repository/biocontainers/r-pegas/status
    :target: https://quay.io/repository/biocontainers/r-pegas

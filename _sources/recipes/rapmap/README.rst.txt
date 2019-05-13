@@ -50,6 +50,7 @@ rapmap
 
 
 .. |downloads_rapmap| image:: https://img.shields.io/conda/dn/bioconda/rapmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/rapmap
    :alt:   (downloads)
 .. |docker_rapmap| image:: https://quay.io/repository/biocontainers/rapmap/status
    :target: https://quay.io/repository/biocontainers/rapmap

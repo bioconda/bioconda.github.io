@@ -55,6 +55,7 @@ rsem
 
 
 .. |downloads_rsem| image:: https://img.shields.io/conda/dn/bioconda/rsem.svg?style=flat
+   :target: https://anaconda.org/bioconda/rsem
    :alt:   (downloads)
 .. |docker_rsem| image:: https://quay.io/repository/biocontainers/rsem/status
    :target: https://quay.io/repository/biocontainers/rsem

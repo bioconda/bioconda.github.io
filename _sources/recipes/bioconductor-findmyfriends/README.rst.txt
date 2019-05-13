@@ -65,6 +65,7 @@ bioconductor-findmyfriends
 
 
 .. |downloads_bioconductor-findmyfriends| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-findmyfriends.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-findmyfriends
    :alt:   (downloads)
 .. |docker_bioconductor-findmyfriends| image:: https://quay.io/repository/biocontainers/bioconductor-findmyfriends/status
    :target: https://quay.io/repository/biocontainers/bioconductor-findmyfriends

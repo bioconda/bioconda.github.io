@@ -54,6 +54,7 @@ bioconductor-reactomepa
 
 
 .. |downloads_bioconductor-reactomepa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-reactomepa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-reactomepa
    :alt:   (downloads)
 .. |docker_bioconductor-reactomepa| image:: https://quay.io/repository/biocontainers/bioconductor-reactomepa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-reactomepa

@@ -45,6 +45,7 @@ perl-term-encoding
 
 
 .. |downloads_perl-term-encoding| image:: https://img.shields.io/conda/dn/bioconda/perl-term-encoding.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-term-encoding
    :alt:   (downloads)
 .. |docker_perl-term-encoding| image:: https://quay.io/repository/biocontainers/perl-term-encoding/status
    :target: https://quay.io/repository/biocontainers/perl-term-encoding

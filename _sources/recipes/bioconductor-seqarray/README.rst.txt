@@ -53,6 +53,7 @@ bioconductor-seqarray
 
 
 .. |downloads_bioconductor-seqarray| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-seqarray.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-seqarray
    :alt:   (downloads)
 .. |docker_bioconductor-seqarray| image:: https://quay.io/repository/biocontainers/bioconductor-seqarray/status
    :target: https://quay.io/repository/biocontainers/bioconductor-seqarray

@@ -50,6 +50,7 @@ ucsc-pslmrnacover
 
 
 .. |downloads_ucsc-pslmrnacover| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslmrnacover.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-pslmrnacover
    :alt:   (downloads)
 .. |docker_ucsc-pslmrnacover| image:: https://quay.io/repository/biocontainers/ucsc-pslmrnacover/status
    :target: https://quay.io/repository/biocontainers/ucsc-pslmrnacover

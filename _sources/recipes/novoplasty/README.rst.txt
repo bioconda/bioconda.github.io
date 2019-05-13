@@ -47,6 +47,7 @@ novoplasty
 
 
 .. |downloads_novoplasty| image:: https://img.shields.io/conda/dn/bioconda/novoplasty.svg?style=flat
+   :target: https://anaconda.org/bioconda/novoplasty
    :alt:   (downloads)
 .. |docker_novoplasty| image:: https://quay.io/repository/biocontainers/novoplasty/status
    :target: https://quay.io/repository/biocontainers/novoplasty

@@ -71,6 +71,7 @@ braker2
 
 
 .. |downloads_braker2| image:: https://img.shields.io/conda/dn/bioconda/braker2.svg?style=flat
+   :target: https://anaconda.org/bioconda/braker2
    :alt:   (downloads)
 .. |docker_braker2| image:: https://quay.io/repository/biocontainers/braker2/status
    :target: https://quay.io/repository/biocontainers/braker2

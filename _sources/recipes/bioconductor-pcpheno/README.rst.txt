@@ -58,6 +58,7 @@ bioconductor-pcpheno
 
 
 .. |downloads_bioconductor-pcpheno| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pcpheno.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pcpheno
    :alt:   (downloads)
 .. |docker_bioconductor-pcpheno| image:: https://quay.io/repository/biocontainers/bioconductor-pcpheno/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pcpheno

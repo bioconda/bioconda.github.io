@@ -47,6 +47,7 @@ perl-params-coerce
 
 
 .. |downloads_perl-params-coerce| image:: https://img.shields.io/conda/dn/bioconda/perl-params-coerce.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-params-coerce
    :alt:   (downloads)
 .. |docker_perl-params-coerce| image:: https://quay.io/repository/biocontainers/perl-params-coerce/status
    :target: https://quay.io/repository/biocontainers/perl-params-coerce

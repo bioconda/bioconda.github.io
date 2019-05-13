@@ -46,6 +46,7 @@ bioconductor-semisup
 
 
 .. |downloads_bioconductor-semisup| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-semisup.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-semisup
    :alt:   (downloads)
 .. |docker_bioconductor-semisup| image:: https://quay.io/repository/biocontainers/bioconductor-semisup/status
    :target: https://quay.io/repository/biocontainers/bioconductor-semisup

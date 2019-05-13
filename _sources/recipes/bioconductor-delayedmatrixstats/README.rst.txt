@@ -52,6 +52,7 @@ bioconductor-delayedmatrixstats
 
 
 .. |downloads_bioconductor-delayedmatrixstats| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-delayedmatrixstats.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-delayedmatrixstats
    :alt:   (downloads)
 .. |docker_bioconductor-delayedmatrixstats| image:: https://quay.io/repository/biocontainers/bioconductor-delayedmatrixstats/status
    :target: https://quay.io/repository/biocontainers/bioconductor-delayedmatrixstats

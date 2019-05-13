@@ -47,6 +47,7 @@ bioconductor-mu11ksubacdf
 
 
 .. |downloads_bioconductor-mu11ksubacdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mu11ksubacdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mu11ksubacdf
    :alt:   (downloads)
 .. |docker_bioconductor-mu11ksubacdf| image:: https://quay.io/repository/biocontainers/bioconductor-mu11ksubacdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mu11ksubacdf

@@ -46,6 +46,7 @@ bioconductor-bioccasestudies
 
 
 .. |downloads_bioconductor-bioccasestudies| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bioccasestudies.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bioccasestudies
    :alt:   (downloads)
 .. |docker_bioconductor-bioccasestudies| image:: https://quay.io/repository/biocontainers/bioconductor-bioccasestudies/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bioccasestudies

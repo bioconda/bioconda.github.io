@@ -46,6 +46,7 @@ python-intervaltree
 
 
 .. |downloads_python-intervaltree| image:: https://img.shields.io/conda/dn/bioconda/python-intervaltree.svg?style=flat
+   :target: https://anaconda.org/bioconda/python-intervaltree
    :alt:   (downloads)
 .. |docker_python-intervaltree| image:: https://quay.io/repository/biocontainers/python-intervaltree/status
    :target: https://quay.io/repository/biocontainers/python-intervaltree

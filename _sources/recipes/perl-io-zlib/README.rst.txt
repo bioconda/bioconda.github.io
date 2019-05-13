@@ -45,6 +45,7 @@ perl-io-zlib
 
 
 .. |downloads_perl-io-zlib| image:: https://img.shields.io/conda/dn/bioconda/perl-io-zlib.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-io-zlib
    :alt:   (downloads)
 .. |docker_perl-io-zlib| image:: https://quay.io/repository/biocontainers/perl-io-zlib/status
    :target: https://quay.io/repository/biocontainers/perl-io-zlib

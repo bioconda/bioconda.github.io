@@ -49,6 +49,7 @@ damidseq_pipeline
 
 
 .. |downloads_damidseq_pipeline| image:: https://img.shields.io/conda/dn/bioconda/damidseq_pipeline.svg?style=flat
+   :target: https://anaconda.org/bioconda/damidseq_pipeline
    :alt:   (downloads)
 .. |docker_damidseq_pipeline| image:: https://quay.io/repository/biocontainers/damidseq_pipeline/status
    :target: https://quay.io/repository/biocontainers/damidseq_pipeline

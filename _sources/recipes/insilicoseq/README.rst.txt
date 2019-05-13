@@ -52,6 +52,7 @@ insilicoseq
 
 
 .. |downloads_insilicoseq| image:: https://img.shields.io/conda/dn/bioconda/insilicoseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/insilicoseq
    :alt:   (downloads)
 .. |docker_insilicoseq| image:: https://quay.io/repository/biocontainers/insilicoseq/status
    :target: https://quay.io/repository/biocontainers/insilicoseq

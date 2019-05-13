@@ -47,6 +47,7 @@ bioconductor-mesh.der.eg.db
 
 
 .. |downloads_bioconductor-mesh.der.eg.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mesh.der.eg.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mesh.der.eg.db
    :alt:   (downloads)
 .. |docker_bioconductor-mesh.der.eg.db| image:: https://quay.io/repository/biocontainers/bioconductor-mesh.der.eg.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mesh.der.eg.db

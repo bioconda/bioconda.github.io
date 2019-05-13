@@ -69,6 +69,7 @@ fastx_toolkit
 
 
 .. |downloads_fastx_toolkit| image:: https://img.shields.io/conda/dn/bioconda/fastx_toolkit.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastx_toolkit
    :alt:   (downloads)
 .. |docker_fastx_toolkit| image:: https://quay.io/repository/biocontainers/fastx_toolkit/status
    :target: https://quay.io/repository/biocontainers/fastx_toolkit

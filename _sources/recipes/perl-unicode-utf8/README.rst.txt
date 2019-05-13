@@ -50,6 +50,7 @@ perl-unicode-utf8
 
 
 .. |downloads_perl-unicode-utf8| image:: https://img.shields.io/conda/dn/bioconda/perl-unicode-utf8.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-unicode-utf8
    :alt:   (downloads)
 .. |docker_perl-unicode-utf8| image:: https://quay.io/repository/biocontainers/perl-unicode-utf8/status
    :target: https://quay.io/repository/biocontainers/perl-unicode-utf8

@@ -47,6 +47,7 @@ bioconductor-spia
 
 
 .. |downloads_bioconductor-spia| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-spia.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-spia
    :alt:   (downloads)
 .. |docker_bioconductor-spia| image:: https://quay.io/repository/biocontainers/bioconductor-spia/status
    :target: https://quay.io/repository/biocontainers/bioconductor-spia

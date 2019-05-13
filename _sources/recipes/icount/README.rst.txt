@@ -55,6 +55,7 @@ icount
 
 
 .. |downloads_icount| image:: https://img.shields.io/conda/dn/bioconda/icount.svg?style=flat
+   :target: https://anaconda.org/bioconda/icount
    :alt:   (downloads)
 .. |docker_icount| image:: https://quay.io/repository/biocontainers/icount/status
    :target: https://quay.io/repository/biocontainers/icount

@@ -47,6 +47,7 @@ snpsplit
 
 
 .. |downloads_snpsplit| image:: https://img.shields.io/conda/dn/bioconda/snpsplit.svg?style=flat
+   :target: https://anaconda.org/bioconda/snpsplit
    :alt:   (downloads)
 .. |docker_snpsplit| image:: https://quay.io/repository/biocontainers/snpsplit/status
    :target: https://quay.io/repository/biocontainers/snpsplit

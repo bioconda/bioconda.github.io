@@ -53,6 +53,7 @@ afplot
 
 
 .. |downloads_afplot| image:: https://img.shields.io/conda/dn/bioconda/afplot.svg?style=flat
+   :target: https://anaconda.org/bioconda/afplot
    :alt:   (downloads)
 .. |docker_afplot| image:: https://quay.io/repository/biocontainers/afplot/status
    :target: https://quay.io/repository/biocontainers/afplot

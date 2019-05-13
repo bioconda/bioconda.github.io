@@ -49,6 +49,7 @@ codingquarry
 
 
 .. |downloads_codingquarry| image:: https://img.shields.io/conda/dn/bioconda/codingquarry.svg?style=flat
+   :target: https://anaconda.org/bioconda/codingquarry
    :alt:   (downloads)
 .. |docker_codingquarry| image:: https://quay.io/repository/biocontainers/codingquarry/status
    :target: https://quay.io/repository/biocontainers/codingquarry

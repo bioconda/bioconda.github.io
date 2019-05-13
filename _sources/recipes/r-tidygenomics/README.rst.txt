@@ -53,6 +53,7 @@ r-tidygenomics
 
 
 .. |downloads_r-tidygenomics| image:: https://img.shields.io/conda/dn/bioconda/r-tidygenomics.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-tidygenomics
    :alt:   (downloads)
 .. |docker_r-tidygenomics| image:: https://quay.io/repository/biocontainers/r-tidygenomics/status
    :target: https://quay.io/repository/biocontainers/r-tidygenomics

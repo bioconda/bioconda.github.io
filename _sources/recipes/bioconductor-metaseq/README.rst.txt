@@ -51,6 +51,7 @@ bioconductor-metaseq
 
 
 .. |downloads_bioconductor-metaseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metaseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-metaseq
    :alt:   (downloads)
 .. |docker_bioconductor-metaseq| image:: https://quay.io/repository/biocontainers/bioconductor-metaseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metaseq

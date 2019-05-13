@@ -47,6 +47,7 @@ gridss
 
 
 .. |downloads_gridss| image:: https://img.shields.io/conda/dn/bioconda/gridss.svg?style=flat
+   :target: https://anaconda.org/bioconda/gridss
    :alt:   (downloads)
 .. |docker_gridss| image:: https://quay.io/repository/biocontainers/gridss/status
    :target: https://quay.io/repository/biocontainers/gridss

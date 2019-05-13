@@ -58,6 +58,7 @@ mhcflurry
 
 
 .. |downloads_mhcflurry| image:: https://img.shields.io/conda/dn/bioconda/mhcflurry.svg?style=flat
+   :target: https://anaconda.org/bioconda/mhcflurry
    :alt:   (downloads)
 .. |docker_mhcflurry| image:: https://quay.io/repository/biocontainers/mhcflurry/status
    :target: https://quay.io/repository/biocontainers/mhcflurry

@@ -50,6 +50,7 @@ ucsc-pslswap
 
 
 .. |downloads_ucsc-pslswap| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslswap.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-pslswap
    :alt:   (downloads)
 .. |docker_ucsc-pslswap| image:: https://quay.io/repository/biocontainers/ucsc-pslswap/status
    :target: https://quay.io/repository/biocontainers/ucsc-pslswap

@@ -49,6 +49,7 @@ r-goeveg
 
 
 .. |downloads_r-goeveg| image:: https://img.shields.io/conda/dn/bioconda/r-goeveg.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-goeveg
    :alt:   (downloads)
 .. |docker_r-goeveg| image:: https://quay.io/repository/biocontainers/r-goeveg/status
    :target: https://quay.io/repository/biocontainers/r-goeveg

@@ -45,6 +45,7 @@ perl-math-utils
 
 
 .. |downloads_perl-math-utils| image:: https://img.shields.io/conda/dn/bioconda/perl-math-utils.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-math-utils
    :alt:   (downloads)
 .. |docker_perl-math-utils| image:: https://quay.io/repository/biocontainers/perl-math-utils/status
    :target: https://quay.io/repository/biocontainers/perl-math-utils

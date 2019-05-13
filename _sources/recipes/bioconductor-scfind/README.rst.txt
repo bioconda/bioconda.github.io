@@ -54,6 +54,7 @@ bioconductor-scfind
 
 
 .. |downloads_bioconductor-scfind| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scfind.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-scfind
    :alt:   (downloads)
 .. |docker_bioconductor-scfind| image:: https://quay.io/repository/biocontainers/bioconductor-scfind/status
    :target: https://quay.io/repository/biocontainers/bioconductor-scfind

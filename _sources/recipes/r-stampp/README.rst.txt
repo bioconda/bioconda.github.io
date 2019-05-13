@@ -49,6 +49,7 @@ r-stampp
 
 
 .. |downloads_r-stampp| image:: https://img.shields.io/conda/dn/bioconda/r-stampp.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-stampp
    :alt:   (downloads)
 .. |docker_r-stampp| image:: https://quay.io/repository/biocontainers/r-stampp/status
    :target: https://quay.io/repository/biocontainers/r-stampp

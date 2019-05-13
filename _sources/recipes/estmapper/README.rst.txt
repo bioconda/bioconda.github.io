@@ -49,6 +49,7 @@ estmapper
 
 
 .. |downloads_estmapper| image:: https://img.shields.io/conda/dn/bioconda/estmapper.svg?style=flat
+   :target: https://anaconda.org/bioconda/estmapper
    :alt:   (downloads)
 .. |docker_estmapper| image:: https://quay.io/repository/biocontainers/estmapper/status
    :target: https://quay.io/repository/biocontainers/estmapper

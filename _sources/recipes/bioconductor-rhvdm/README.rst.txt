@@ -49,6 +49,7 @@ bioconductor-rhvdm
 
 
 .. |downloads_bioconductor-rhvdm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rhvdm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rhvdm
    :alt:   (downloads)
 .. |docker_bioconductor-rhvdm| image:: https://quay.io/repository/biocontainers/bioconductor-rhvdm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rhvdm

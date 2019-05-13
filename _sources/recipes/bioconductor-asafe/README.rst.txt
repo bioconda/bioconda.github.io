@@ -46,6 +46,7 @@ bioconductor-asafe
 
 
 .. |downloads_bioconductor-asafe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-asafe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-asafe
    :alt:   (downloads)
 .. |docker_bioconductor-asafe| image:: https://quay.io/repository/biocontainers/bioconductor-asafe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-asafe

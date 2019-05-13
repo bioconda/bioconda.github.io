@@ -47,6 +47,7 @@ satrap
 
 
 .. |downloads_satrap| image:: https://img.shields.io/conda/dn/bioconda/satrap.svg?style=flat
+   :target: https://anaconda.org/bioconda/satrap
    :alt:   (downloads)
 .. |docker_satrap| image:: https://quay.io/repository/biocontainers/satrap/status
    :target: https://quay.io/repository/biocontainers/satrap

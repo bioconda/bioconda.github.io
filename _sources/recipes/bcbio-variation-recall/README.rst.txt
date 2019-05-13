@@ -46,6 +46,7 @@ bcbio-variation-recall
 
 
 .. |downloads_bcbio-variation-recall| image:: https://img.shields.io/conda/dn/bioconda/bcbio-variation-recall.svg?style=flat
+   :target: https://anaconda.org/bioconda/bcbio-variation-recall
    :alt:   (downloads)
 .. |docker_bcbio-variation-recall| image:: https://quay.io/repository/biocontainers/bcbio-variation-recall/status
    :target: https://quay.io/repository/biocontainers/bcbio-variation-recall

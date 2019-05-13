@@ -56,6 +56,7 @@ bioconductor-cohcap
 
 
 .. |downloads_bioconductor-cohcap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cohcap.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cohcap
    :alt:   (downloads)
 .. |docker_bioconductor-cohcap| image:: https://quay.io/repository/biocontainers/bioconductor-cohcap/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cohcap

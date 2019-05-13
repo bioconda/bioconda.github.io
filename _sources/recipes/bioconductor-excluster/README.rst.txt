@@ -50,6 +50,7 @@ bioconductor-excluster
 
 
 .. |downloads_bioconductor-excluster| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-excluster.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-excluster
    :alt:   (downloads)
 .. |docker_bioconductor-excluster| image:: https://quay.io/repository/biocontainers/bioconductor-excluster/status
    :target: https://quay.io/repository/biocontainers/bioconductor-excluster

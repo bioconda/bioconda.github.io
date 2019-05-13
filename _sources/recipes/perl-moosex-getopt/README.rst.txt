@@ -52,6 +52,7 @@ perl-moosex-getopt
 
 
 .. |downloads_perl-moosex-getopt| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-getopt.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-moosex-getopt
    :alt:   (downloads)
 .. |docker_perl-moosex-getopt| image:: https://quay.io/repository/biocontainers/perl-moosex-getopt/status
    :target: https://quay.io/repository/biocontainers/perl-moosex-getopt

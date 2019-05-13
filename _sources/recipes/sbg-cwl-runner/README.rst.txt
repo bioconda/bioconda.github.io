@@ -48,6 +48,7 @@ sbg-cwl-runner
 
 
 .. |downloads_sbg-cwl-runner| image:: https://img.shields.io/conda/dn/bioconda/sbg-cwl-runner.svg?style=flat
+   :target: https://anaconda.org/bioconda/sbg-cwl-runner
    :alt:   (downloads)
 .. |docker_sbg-cwl-runner| image:: https://quay.io/repository/biocontainers/sbg-cwl-runner/status
    :target: https://quay.io/repository/biocontainers/sbg-cwl-runner

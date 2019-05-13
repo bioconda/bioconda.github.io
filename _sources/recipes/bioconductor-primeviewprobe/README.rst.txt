@@ -47,6 +47,7 @@ bioconductor-primeviewprobe
 
 
 .. |downloads_bioconductor-primeviewprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-primeviewprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-primeviewprobe
    :alt:   (downloads)
 .. |docker_bioconductor-primeviewprobe| image:: https://quay.io/repository/biocontainers/bioconductor-primeviewprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-primeviewprobe

@@ -48,6 +48,7 @@ bioconductor-cand
 
 
 .. |downloads_bioconductor-cand| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cand.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cand
    :alt:   (downloads)
 .. |docker_bioconductor-cand| image:: https://quay.io/repository/biocontainers/bioconductor-cand/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cand

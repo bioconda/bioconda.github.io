@@ -66,6 +66,7 @@ medaka
 
 
 .. |downloads_medaka| image:: https://img.shields.io/conda/dn/bioconda/medaka.svg?style=flat
+   :target: https://anaconda.org/bioconda/medaka
    :alt:   (downloads)
 .. |docker_medaka| image:: https://quay.io/repository/biocontainers/medaka/status
    :target: https://quay.io/repository/biocontainers/medaka

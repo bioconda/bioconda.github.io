@@ -46,6 +46,7 @@ tabview
 
 
 .. |downloads_tabview| image:: https://img.shields.io/conda/dn/bioconda/tabview.svg?style=flat
+   :target: https://anaconda.org/bioconda/tabview
    :alt:   (downloads)
 .. |docker_tabview| image:: https://quay.io/repository/biocontainers/tabview/status
    :target: https://quay.io/repository/biocontainers/tabview

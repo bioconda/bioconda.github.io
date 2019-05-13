@@ -52,6 +52,7 @@ bioconductor-goseq
 
 
 .. |downloads_bioconductor-goseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-goseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-goseq
    :alt:   (downloads)
 .. |docker_bioconductor-goseq| image:: https://quay.io/repository/biocontainers/bioconductor-goseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-goseq

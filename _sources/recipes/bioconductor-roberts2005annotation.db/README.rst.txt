@@ -48,6 +48,7 @@ bioconductor-roberts2005annotation.db
 
 
 .. |downloads_bioconductor-roberts2005annotation.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-roberts2005annotation.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-roberts2005annotation.db
    :alt:   (downloads)
 .. |docker_bioconductor-roberts2005annotation.db| image:: https://quay.io/repository/biocontainers/bioconductor-roberts2005annotation.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-roberts2005annotation.db

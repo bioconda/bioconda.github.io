@@ -50,6 +50,7 @@ ucsc-pslrc
 
 
 .. |downloads_ucsc-pslrc| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslrc.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-pslrc
    :alt:   (downloads)
 .. |docker_ucsc-pslrc| image:: https://quay.io/repository/biocontainers/ucsc-pslrc/status
    :target: https://quay.io/repository/biocontainers/ucsc-pslrc

@@ -47,6 +47,7 @@ bioconductor-help
 
 
 .. |downloads_bioconductor-help| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-help.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-help
    :alt:   (downloads)
 .. |docker_bioconductor-help| image:: https://quay.io/repository/biocontainers/bioconductor-help/status
    :target: https://quay.io/repository/biocontainers/bioconductor-help

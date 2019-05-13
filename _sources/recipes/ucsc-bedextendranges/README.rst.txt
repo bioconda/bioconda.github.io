@@ -50,6 +50,7 @@ ucsc-bedextendranges
 
 
 .. |downloads_ucsc-bedextendranges| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bedextendranges.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bedextendranges
    :alt:   (downloads)
 .. |docker_ucsc-bedextendranges| image:: https://quay.io/repository/biocontainers/ucsc-bedextendranges/status
    :target: https://quay.io/repository/biocontainers/ucsc-bedextendranges

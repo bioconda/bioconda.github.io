@@ -55,6 +55,7 @@ bioconductor-tscan
 
 
 .. |downloads_bioconductor-tscan| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tscan.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tscan
    :alt:   (downloads)
 .. |docker_bioconductor-tscan| image:: https://quay.io/repository/biocontainers/bioconductor-tscan/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tscan

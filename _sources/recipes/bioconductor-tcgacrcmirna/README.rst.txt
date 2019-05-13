@@ -47,6 +47,7 @@ bioconductor-tcgacrcmirna
 
 
 .. |downloads_bioconductor-tcgacrcmirna| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tcgacrcmirna.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tcgacrcmirna
    :alt:   (downloads)
 .. |docker_bioconductor-tcgacrcmirna| image:: https://quay.io/repository/biocontainers/bioconductor-tcgacrcmirna/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tcgacrcmirna

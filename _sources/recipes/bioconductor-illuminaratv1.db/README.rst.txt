@@ -48,6 +48,7 @@ bioconductor-illuminaratv1.db
 
 
 .. |downloads_bioconductor-illuminaratv1.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-illuminaratv1.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-illuminaratv1.db
    :alt:   (downloads)
 .. |docker_bioconductor-illuminaratv1.db| image:: https://quay.io/repository/biocontainers/bioconductor-illuminaratv1.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-illuminaratv1.db

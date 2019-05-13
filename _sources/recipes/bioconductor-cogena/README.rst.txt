@@ -63,6 +63,7 @@ bioconductor-cogena
 
 
 .. |downloads_bioconductor-cogena| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cogena.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cogena
    :alt:   (downloads)
 .. |docker_bioconductor-cogena| image:: https://quay.io/repository/biocontainers/bioconductor-cogena/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cogena

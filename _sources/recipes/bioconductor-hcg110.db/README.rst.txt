@@ -48,6 +48,7 @@ bioconductor-hcg110.db
 
 
 .. |downloads_bioconductor-hcg110.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hcg110.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hcg110.db
    :alt:   (downloads)
 .. |docker_bioconductor-hcg110.db| image:: https://quay.io/repository/biocontainers/bioconductor-hcg110.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hcg110.db

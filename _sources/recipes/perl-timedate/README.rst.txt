@@ -45,6 +45,7 @@ perl-timedate
 
 
 .. |downloads_perl-timedate| image:: https://img.shields.io/conda/dn/bioconda/perl-timedate.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-timedate
    :alt:   (downloads)
 .. |docker_perl-timedate| image:: https://quay.io/repository/biocontainers/perl-timedate/status
    :target: https://quay.io/repository/biocontainers/perl-timedate

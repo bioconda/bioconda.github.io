@@ -50,6 +50,7 @@ discasm
 
 
 .. |downloads_discasm| image:: https://img.shields.io/conda/dn/bioconda/discasm.svg?style=flat
+   :target: https://anaconda.org/bioconda/discasm
    :alt:   (downloads)
 .. |docker_discasm| image:: https://quay.io/repository/biocontainers/discasm/status
    :target: https://quay.io/repository/biocontainers/discasm

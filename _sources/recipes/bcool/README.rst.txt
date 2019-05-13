@@ -49,6 +49,7 @@ bcool
 
 
 .. |downloads_bcool| image:: https://img.shields.io/conda/dn/bioconda/bcool.svg?style=flat
+   :target: https://anaconda.org/bioconda/bcool
    :alt:   (downloads)
 .. |docker_bcool| image:: https://quay.io/repository/biocontainers/bcool/status
    :target: https://quay.io/repository/biocontainers/bcool

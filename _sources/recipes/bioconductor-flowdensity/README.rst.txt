@@ -53,6 +53,7 @@ bioconductor-flowdensity
 
 
 .. |downloads_bioconductor-flowdensity| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowdensity.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowdensity
    :alt:   (downloads)
 .. |docker_bioconductor-flowdensity| image:: https://quay.io/repository/biocontainers/bioconductor-flowdensity/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowdensity

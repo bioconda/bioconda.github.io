@@ -45,6 +45,7 @@ bis-snp
 
 
 .. |downloads_bis-snp| image:: https://img.shields.io/conda/dn/bioconda/bis-snp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bis-snp
    :alt:   (downloads)
 .. |docker_bis-snp| image:: https://quay.io/repository/biocontainers/bis-snp/status
    :target: https://quay.io/repository/biocontainers/bis-snp

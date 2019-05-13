@@ -50,6 +50,7 @@ ucsc-bedrestricttopositions
 
 
 .. |downloads_ucsc-bedrestricttopositions| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bedrestricttopositions.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bedrestricttopositions
    :alt:   (downloads)
 .. |docker_ucsc-bedrestricttopositions| image:: https://quay.io/repository/biocontainers/ucsc-bedrestricttopositions/status
    :target: https://quay.io/repository/biocontainers/ucsc-bedrestricttopositions

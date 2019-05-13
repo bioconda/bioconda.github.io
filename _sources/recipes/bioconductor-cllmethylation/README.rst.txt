@@ -48,6 +48,7 @@ bioconductor-cllmethylation
 
 
 .. |downloads_bioconductor-cllmethylation| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cllmethylation.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cllmethylation
    :alt:   (downloads)
 .. |docker_bioconductor-cllmethylation| image:: https://quay.io/repository/biocontainers/bioconductor-cllmethylation/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cllmethylation

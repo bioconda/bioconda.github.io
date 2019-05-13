@@ -48,6 +48,7 @@ perl-http-daemon
 
 
 .. |downloads_perl-http-daemon| image:: https://img.shields.io/conda/dn/bioconda/perl-http-daemon.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-http-daemon
    :alt:   (downloads)
 .. |docker_perl-http-daemon| image:: https://quay.io/repository/biocontainers/perl-http-daemon/status
    :target: https://quay.io/repository/biocontainers/perl-http-daemon

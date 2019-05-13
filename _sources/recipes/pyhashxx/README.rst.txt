@@ -45,6 +45,7 @@ pyhashxx
 
 
 .. |downloads_pyhashxx| image:: https://img.shields.io/conda/dn/bioconda/pyhashxx.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyhashxx
    :alt:   (downloads)
 .. |docker_pyhashxx| image:: https://quay.io/repository/biocontainers/pyhashxx/status
    :target: https://quay.io/repository/biocontainers/pyhashxx

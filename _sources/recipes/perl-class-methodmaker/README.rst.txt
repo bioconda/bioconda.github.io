@@ -49,6 +49,7 @@ perl-class-methodmaker
 
 
 .. |downloads_perl-class-methodmaker| image:: https://img.shields.io/conda/dn/bioconda/perl-class-methodmaker.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-class-methodmaker
    :alt:   (downloads)
 .. |docker_perl-class-methodmaker| image:: https://quay.io/repository/biocontainers/perl-class-methodmaker/status
    :target: https://quay.io/repository/biocontainers/perl-class-methodmaker

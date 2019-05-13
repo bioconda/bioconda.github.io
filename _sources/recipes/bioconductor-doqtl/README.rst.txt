@@ -69,6 +69,7 @@ bioconductor-doqtl
 
 
 .. |downloads_bioconductor-doqtl| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-doqtl.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-doqtl
    :alt:   (downloads)
 .. |docker_bioconductor-doqtl| image:: https://quay.io/repository/biocontainers/bioconductor-doqtl/status
    :target: https://quay.io/repository/biocontainers/bioconductor-doqtl

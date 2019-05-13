@@ -49,6 +49,7 @@ bioconductor-suprahex
 
 
 .. |downloads_bioconductor-suprahex| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-suprahex.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-suprahex
    :alt:   (downloads)
 .. |docker_bioconductor-suprahex| image:: https://quay.io/repository/biocontainers/bioconductor-suprahex/status
    :target: https://quay.io/repository/biocontainers/bioconductor-suprahex

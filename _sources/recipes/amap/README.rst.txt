@@ -49,6 +49,7 @@ amap
 
 
 .. |downloads_amap| image:: https://img.shields.io/conda/dn/bioconda/amap.svg?style=flat
+   :target: https://anaconda.org/bioconda/amap
    :alt:   (downloads)
 .. |docker_amap| image:: https://quay.io/repository/biocontainers/amap/status
    :target: https://quay.io/repository/biocontainers/amap

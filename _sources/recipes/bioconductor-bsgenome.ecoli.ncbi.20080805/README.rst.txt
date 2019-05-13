@@ -47,6 +47,7 @@ bioconductor-bsgenome.ecoli.ncbi.20080805
 
 
 .. |downloads_bioconductor-bsgenome.ecoli.ncbi.20080805| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.ecoli.ncbi.20080805.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome.ecoli.ncbi.20080805
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.ecoli.ncbi.20080805| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.ecoli.ncbi.20080805/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.ecoli.ncbi.20080805

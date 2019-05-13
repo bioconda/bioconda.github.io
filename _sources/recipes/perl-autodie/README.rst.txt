@@ -50,6 +50,7 @@ perl-autodie
 
 
 .. |downloads_perl-autodie| image:: https://img.shields.io/conda/dn/bioconda/perl-autodie.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-autodie
    :alt:   (downloads)
 .. |docker_perl-autodie| image:: https://quay.io/repository/biocontainers/perl-autodie/status
    :target: https://quay.io/repository/biocontainers/perl-autodie

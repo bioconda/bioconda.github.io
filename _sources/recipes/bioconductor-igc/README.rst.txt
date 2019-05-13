@@ -47,6 +47,7 @@ bioconductor-igc
 
 
 .. |downloads_bioconductor-igc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-igc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-igc
    :alt:   (downloads)
 .. |docker_bioconductor-igc| image:: https://quay.io/repository/biocontainers/bioconductor-igc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-igc

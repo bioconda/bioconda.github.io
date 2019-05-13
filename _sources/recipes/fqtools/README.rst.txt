@@ -47,6 +47,7 @@ fqtools
 
 
 .. |downloads_fqtools| image:: https://img.shields.io/conda/dn/bioconda/fqtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/fqtools
    :alt:   (downloads)
 .. |docker_fqtools| image:: https://quay.io/repository/biocontainers/fqtools/status
    :target: https://quay.io/repository/biocontainers/fqtools

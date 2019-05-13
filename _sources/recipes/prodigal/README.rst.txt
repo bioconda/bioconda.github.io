@@ -44,6 +44,7 @@ prodigal
 
 
 .. |downloads_prodigal| image:: https://img.shields.io/conda/dn/bioconda/prodigal.svg?style=flat
+   :target: https://anaconda.org/bioconda/prodigal
    :alt:   (downloads)
 .. |docker_prodigal| image:: https://quay.io/repository/biocontainers/prodigal/status
    :target: https://quay.io/repository/biocontainers/prodigal

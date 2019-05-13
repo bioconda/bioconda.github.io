@@ -51,6 +51,7 @@ bioconductor-blma
 
 
 .. |downloads_bioconductor-blma| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-blma.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-blma
    :alt:   (downloads)
 .. |docker_bioconductor-blma| image:: https://quay.io/repository/biocontainers/bioconductor-blma/status
    :target: https://quay.io/repository/biocontainers/bioconductor-blma

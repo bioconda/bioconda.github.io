@@ -47,6 +47,7 @@ bioconductor-mu6500subbcdf
 
 
 .. |downloads_bioconductor-mu6500subbcdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mu6500subbcdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mu6500subbcdf
    :alt:   (downloads)
 .. |docker_bioconductor-mu6500subbcdf| image:: https://quay.io/repository/biocontainers/bioconductor-mu6500subbcdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mu6500subbcdf

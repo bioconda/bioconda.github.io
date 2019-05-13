@@ -68,6 +68,7 @@ bioconductor-eventpointer
 
 
 .. |downloads_bioconductor-eventpointer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-eventpointer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-eventpointer
    :alt:   (downloads)
 .. |docker_bioconductor-eventpointer| image:: https://quay.io/repository/biocontainers/bioconductor-eventpointer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-eventpointer

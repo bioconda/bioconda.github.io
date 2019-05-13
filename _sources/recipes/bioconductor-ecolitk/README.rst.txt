@@ -46,6 +46,7 @@ bioconductor-ecolitk
 
 
 .. |downloads_bioconductor-ecolitk| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ecolitk.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ecolitk
    :alt:   (downloads)
 .. |docker_bioconductor-ecolitk| image:: https://quay.io/repository/biocontainers/bioconductor-ecolitk/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ecolitk

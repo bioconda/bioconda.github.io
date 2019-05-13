@@ -45,6 +45,7 @@ gatktool
 
 
 .. |downloads_gatktool| image:: https://img.shields.io/conda/dn/bioconda/gatktool.svg?style=flat
+   :target: https://anaconda.org/bioconda/gatktool
    :alt:   (downloads)
 .. |docker_gatktool| image:: https://quay.io/repository/biocontainers/gatktool/status
    :target: https://quay.io/repository/biocontainers/gatktool

@@ -49,6 +49,7 @@ sff2fastq
 
 
 .. |downloads_sff2fastq| image:: https://img.shields.io/conda/dn/bioconda/sff2fastq.svg?style=flat
+   :target: https://anaconda.org/bioconda/sff2fastq
    :alt:   (downloads)
 .. |docker_sff2fastq| image:: https://quay.io/repository/biocontainers/sff2fastq/status
    :target: https://quay.io/repository/biocontainers/sff2fastq

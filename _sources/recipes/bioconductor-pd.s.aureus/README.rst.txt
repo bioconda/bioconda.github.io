@@ -53,6 +53,7 @@ bioconductor-pd.s.aureus
 
 
 .. |downloads_bioconductor-pd.s.aureus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.s.aureus.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.s.aureus
    :alt:   (downloads)
 .. |docker_bioconductor-pd.s.aureus| image:: https://quay.io/repository/biocontainers/bioconductor-pd.s.aureus/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.s.aureus

@@ -50,6 +50,7 @@ ucsc-psltobed
 
 
 .. |downloads_ucsc-psltobed| image:: https://img.shields.io/conda/dn/bioconda/ucsc-psltobed.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-psltobed
    :alt:   (downloads)
 .. |docker_ucsc-psltobed| image:: https://quay.io/repository/biocontainers/ucsc-psltobed/status
    :target: https://quay.io/repository/biocontainers/ucsc-psltobed

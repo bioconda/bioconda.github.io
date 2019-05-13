@@ -52,6 +52,7 @@ r-rbison
 
 
 .. |downloads_r-rbison| image:: https://img.shields.io/conda/dn/bioconda/r-rbison.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-rbison
    :alt:   (downloads)
 .. |docker_r-rbison| image:: https://quay.io/repository/biocontainers/r-rbison/status
    :target: https://quay.io/repository/biocontainers/r-rbison

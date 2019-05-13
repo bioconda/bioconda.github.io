@@ -53,6 +53,7 @@ bioconductor-gep2pep
 
 
 .. |downloads_bioconductor-gep2pep| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gep2pep.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gep2pep
    :alt:   (downloads)
 .. |docker_bioconductor-gep2pep| image:: https://quay.io/repository/biocontainers/bioconductor-gep2pep/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gep2pep

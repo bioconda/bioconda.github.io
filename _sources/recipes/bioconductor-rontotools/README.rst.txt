@@ -51,6 +51,7 @@ bioconductor-rontotools
 
 
 .. |downloads_bioconductor-rontotools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rontotools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rontotools
    :alt:   (downloads)
 .. |docker_bioconductor-rontotools| image:: https://quay.io/repository/biocontainers/bioconductor-rontotools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rontotools

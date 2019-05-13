@@ -53,6 +53,7 @@ bioconductor-motifstack
 
 
 .. |downloads_bioconductor-motifstack| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-motifstack.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-motifstack
    :alt:   (downloads)
 .. |docker_bioconductor-motifstack| image:: https://quay.io/repository/biocontainers/bioconductor-motifstack/status
    :target: https://quay.io/repository/biocontainers/bioconductor-motifstack

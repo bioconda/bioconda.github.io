@@ -50,6 +50,7 @@ ucsc-chainnet
 
 
 .. |downloads_ucsc-chainnet| image:: https://img.shields.io/conda/dn/bioconda/ucsc-chainnet.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-chainnet
    :alt:   (downloads)
 .. |docker_ucsc-chainnet| image:: https://quay.io/repository/biocontainers/ucsc-chainnet/status
    :target: https://quay.io/repository/biocontainers/ucsc-chainnet

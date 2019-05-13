@@ -56,6 +56,7 @@ perl-cg-pipeline
 
 
 .. |downloads_perl-cg-pipeline| image:: https://img.shields.io/conda/dn/bioconda/perl-cg-pipeline.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-cg-pipeline
    :alt:   (downloads)
 .. |docker_perl-cg-pipeline| image:: https://quay.io/repository/biocontainers/perl-cg-pipeline/status
    :target: https://quay.io/repository/biocontainers/perl-cg-pipeline

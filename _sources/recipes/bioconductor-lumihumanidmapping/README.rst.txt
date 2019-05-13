@@ -49,6 +49,7 @@ bioconductor-lumihumanidmapping
 
 
 .. |downloads_bioconductor-lumihumanidmapping| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lumihumanidmapping.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lumihumanidmapping
    :alt:   (downloads)
 .. |docker_bioconductor-lumihumanidmapping| image:: https://quay.io/repository/biocontainers/bioconductor-lumihumanidmapping/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lumihumanidmapping

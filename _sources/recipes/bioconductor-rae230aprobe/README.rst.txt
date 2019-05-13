@@ -47,6 +47,7 @@ bioconductor-rae230aprobe
 
 
 .. |downloads_bioconductor-rae230aprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rae230aprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rae230aprobe
    :alt:   (downloads)
 .. |docker_bioconductor-rae230aprobe| image:: https://quay.io/repository/biocontainers/bioconductor-rae230aprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rae230aprobe

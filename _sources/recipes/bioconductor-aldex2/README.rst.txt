@@ -52,6 +52,7 @@ bioconductor-aldex2
 
 
 .. |downloads_bioconductor-aldex2| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-aldex2.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-aldex2
    :alt:   (downloads)
 .. |docker_bioconductor-aldex2| image:: https://quay.io/repository/biocontainers/bioconductor-aldex2/status
    :target: https://quay.io/repository/biocontainers/bioconductor-aldex2

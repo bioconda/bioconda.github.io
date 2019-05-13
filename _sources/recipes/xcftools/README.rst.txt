@@ -47,6 +47,7 @@ xcftools
 
 
 .. |downloads_xcftools| image:: https://img.shields.io/conda/dn/bioconda/xcftools.svg?style=flat
+   :target: https://anaconda.org/bioconda/xcftools
    :alt:   (downloads)
 .. |docker_xcftools| image:: https://quay.io/repository/biocontainers/xcftools/status
    :target: https://quay.io/repository/biocontainers/xcftools

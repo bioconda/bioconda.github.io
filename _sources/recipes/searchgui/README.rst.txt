@@ -50,6 +50,7 @@ searchgui
 
 
 .. |downloads_searchgui| image:: https://img.shields.io/conda/dn/bioconda/searchgui.svg?style=flat
+   :target: https://anaconda.org/bioconda/searchgui
    :alt:   (downloads)
 .. |docker_searchgui| image:: https://quay.io/repository/biocontainers/searchgui/status
    :target: https://quay.io/repository/biocontainers/searchgui

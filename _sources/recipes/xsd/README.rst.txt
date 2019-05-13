@@ -47,6 +47,7 @@ xsd
 
 
 .. |downloads_xsd| image:: https://img.shields.io/conda/dn/bioconda/xsd.svg?style=flat
+   :target: https://anaconda.org/bioconda/xsd
    :alt:   (downloads)
 .. |docker_xsd| image:: https://quay.io/repository/biocontainers/xsd/status
    :target: https://quay.io/repository/biocontainers/xsd

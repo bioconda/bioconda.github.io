@@ -45,6 +45,7 @@ bioconductor-biocversion
 
 
 .. |downloads_bioconductor-biocversion| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biocversion.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-biocversion
    :alt:   (downloads)
 .. |docker_bioconductor-biocversion| image:: https://quay.io/repository/biocontainers/bioconductor-biocversion/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biocversion

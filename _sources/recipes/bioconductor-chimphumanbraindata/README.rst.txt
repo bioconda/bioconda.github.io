@@ -51,6 +51,7 @@ bioconductor-chimphumanbraindata
 
 
 .. |downloads_bioconductor-chimphumanbraindata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chimphumanbraindata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chimphumanbraindata
    :alt:   (downloads)
 .. |docker_bioconductor-chimphumanbraindata| image:: https://quay.io/repository/biocontainers/bioconductor-chimphumanbraindata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chimphumanbraindata

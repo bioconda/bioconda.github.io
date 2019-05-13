@@ -46,6 +46,7 @@ seq2c
 
 
 .. |downloads_seq2c| image:: https://img.shields.io/conda/dn/bioconda/seq2c.svg?style=flat
+   :target: https://anaconda.org/bioconda/seq2c
    :alt:   (downloads)
 .. |docker_seq2c| image:: https://quay.io/repository/biocontainers/seq2c/status
    :target: https://quay.io/repository/biocontainers/seq2c

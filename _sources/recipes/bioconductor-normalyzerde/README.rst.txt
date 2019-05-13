@@ -57,6 +57,7 @@ bioconductor-normalyzerde
 
 
 .. |downloads_bioconductor-normalyzerde| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-normalyzerde.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-normalyzerde
    :alt:   (downloads)
 .. |docker_bioconductor-normalyzerde| image:: https://quay.io/repository/biocontainers/bioconductor-normalyzerde/status
    :target: https://quay.io/repository/biocontainers/bioconductor-normalyzerde

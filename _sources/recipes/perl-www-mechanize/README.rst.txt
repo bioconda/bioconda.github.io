@@ -52,6 +52,7 @@ perl-www-mechanize
 
 
 .. |downloads_perl-www-mechanize| image:: https://img.shields.io/conda/dn/bioconda/perl-www-mechanize.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-www-mechanize
    :alt:   (downloads)
 .. |docker_perl-www-mechanize| image:: https://quay.io/repository/biocontainers/perl-www-mechanize/status
    :target: https://quay.io/repository/biocontainers/perl-www-mechanize

@@ -52,6 +52,7 @@ biopet-validateannotation
 
 
 .. |downloads_biopet-validateannotation| image:: https://img.shields.io/conda/dn/bioconda/biopet-validateannotation.svg?style=flat
+   :target: https://anaconda.org/bioconda/biopet-validateannotation
    :alt:   (downloads)
 .. |docker_biopet-validateannotation| image:: https://quay.io/repository/biocontainers/biopet-validateannotation/status
    :target: https://quay.io/repository/biocontainers/biopet-validateannotation

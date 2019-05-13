@@ -47,6 +47,7 @@ perl-mldbm-sync
 
 
 .. |downloads_perl-mldbm-sync| image:: https://img.shields.io/conda/dn/bioconda/perl-mldbm-sync.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-mldbm-sync
    :alt:   (downloads)
 .. |docker_perl-mldbm-sync| image:: https://quay.io/repository/biocontainers/perl-mldbm-sync/status
    :target: https://quay.io/repository/biocontainers/perl-mldbm-sync

@@ -48,6 +48,7 @@ r-pma
 
 
 .. |downloads_r-pma| image:: https://img.shields.io/conda/dn/bioconda/r-pma.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-pma
    :alt:   (downloads)
 .. |docker_r-pma| image:: https://quay.io/repository/biocontainers/r-pma/status
    :target: https://quay.io/repository/biocontainers/r-pma

@@ -50,6 +50,7 @@ ucsc-fetchchromsizes
 
 
 .. |downloads_ucsc-fetchchromsizes| image:: https://img.shields.io/conda/dn/bioconda/ucsc-fetchchromsizes.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-fetchchromsizes
    :alt:   (downloads)
 .. |docker_ucsc-fetchchromsizes| image:: https://quay.io/repository/biocontainers/ucsc-fetchchromsizes/status
    :target: https://quay.io/repository/biocontainers/ucsc-fetchchromsizes

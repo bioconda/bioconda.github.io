@@ -50,6 +50,7 @@ r-structssi
 
 
 .. |downloads_r-structssi| image:: https://img.shields.io/conda/dn/bioconda/r-structssi.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-structssi
    :alt:   (downloads)
 .. |docker_r-structssi| image:: https://quay.io/repository/biocontainers/r-structssi/status
    :target: https://quay.io/repository/biocontainers/r-structssi

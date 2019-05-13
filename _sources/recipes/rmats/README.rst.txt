@@ -54,6 +54,7 @@ rmats
 
 
 .. |downloads_rmats| image:: https://img.shields.io/conda/dn/bioconda/rmats.svg?style=flat
+   :target: https://anaconda.org/bioconda/rmats
    :alt:   (downloads)
 .. |docker_rmats| image:: https://quay.io/repository/biocontainers/rmats/status
    :target: https://quay.io/repository/biocontainers/rmats

@@ -48,6 +48,7 @@ bioconductor-interactivedisplaybase
 
 
 .. |downloads_bioconductor-interactivedisplaybase| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-interactivedisplaybase.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-interactivedisplaybase
    :alt:   (downloads)
 .. |docker_bioconductor-interactivedisplaybase| image:: https://quay.io/repository/biocontainers/bioconductor-interactivedisplaybase/status
    :target: https://quay.io/repository/biocontainers/bioconductor-interactivedisplaybase

@@ -50,6 +50,7 @@ beast2
 
 
 .. |downloads_beast2| image:: https://img.shields.io/conda/dn/bioconda/beast2.svg?style=flat
+   :target: https://anaconda.org/bioconda/beast2
    :alt:   (downloads)
 .. |docker_beast2| image:: https://quay.io/repository/biocontainers/beast2/status
    :target: https://quay.io/repository/biocontainers/beast2

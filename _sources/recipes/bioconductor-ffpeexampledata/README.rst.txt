@@ -47,6 +47,7 @@ bioconductor-ffpeexampledata
 
 
 .. |downloads_bioconductor-ffpeexampledata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ffpeexampledata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ffpeexampledata
    :alt:   (downloads)
 .. |docker_bioconductor-ffpeexampledata| image:: https://quay.io/repository/biocontainers/bioconductor-ffpeexampledata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ffpeexampledata

@@ -57,6 +57,7 @@ ascat
 
 
 .. |downloads_ascat| image:: https://img.shields.io/conda/dn/bioconda/ascat.svg?style=flat
+   :target: https://anaconda.org/bioconda/ascat
    :alt:   (downloads)
 .. |docker_ascat| image:: https://quay.io/repository/biocontainers/ascat/status
    :target: https://quay.io/repository/biocontainers/ascat

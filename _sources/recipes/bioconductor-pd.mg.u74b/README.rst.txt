@@ -53,6 +53,7 @@ bioconductor-pd.mg.u74b
 
 
 .. |downloads_bioconductor-pd.mg.u74b| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.mg.u74b.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.mg.u74b
    :alt:   (downloads)
 .. |docker_bioconductor-pd.mg.u74b| image:: https://quay.io/repository/biocontainers/bioconductor-pd.mg.u74b/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.mg.u74b

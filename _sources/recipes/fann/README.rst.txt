@@ -45,6 +45,7 @@ fann
 
 
 .. |downloads_fann| image:: https://img.shields.io/conda/dn/bioconda/fann.svg?style=flat
+   :target: https://anaconda.org/bioconda/fann
    :alt:   (downloads)
 .. |docker_fann| image:: https://quay.io/repository/biocontainers/fann/status
    :target: https://quay.io/repository/biocontainers/fann

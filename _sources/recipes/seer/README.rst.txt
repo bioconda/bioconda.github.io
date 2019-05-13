@@ -51,6 +51,7 @@ seer
 
 
 .. |downloads_seer| image:: https://img.shields.io/conda/dn/bioconda/seer.svg?style=flat
+   :target: https://anaconda.org/bioconda/seer
    :alt:   (downloads)
 .. |docker_seer| image:: https://quay.io/repository/biocontainers/seer/status
    :target: https://quay.io/repository/biocontainers/seer

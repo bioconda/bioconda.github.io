@@ -47,6 +47,7 @@ bioconductor-tcgacrcmrna
 
 
 .. |downloads_bioconductor-tcgacrcmrna| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tcgacrcmrna.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tcgacrcmrna
    :alt:   (downloads)
 .. |docker_bioconductor-tcgacrcmrna| image:: https://quay.io/repository/biocontainers/bioconductor-tcgacrcmrna/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tcgacrcmrna

@@ -53,6 +53,7 @@ clust
 
 
 .. |downloads_clust| image:: https://img.shields.io/conda/dn/bioconda/clust.svg?style=flat
+   :target: https://anaconda.org/bioconda/clust
    :alt:   (downloads)
 .. |docker_clust| image:: https://quay.io/repository/biocontainers/clust/status
    :target: https://quay.io/repository/biocontainers/clust

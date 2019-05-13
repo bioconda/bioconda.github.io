@@ -47,6 +47,7 @@ clustalo
 
 
 .. |downloads_clustalo| image:: https://img.shields.io/conda/dn/bioconda/clustalo.svg?style=flat
+   :target: https://anaconda.org/bioconda/clustalo
    :alt:   (downloads)
 .. |docker_clustalo| image:: https://quay.io/repository/biocontainers/clustalo/status
    :target: https://quay.io/repository/biocontainers/clustalo

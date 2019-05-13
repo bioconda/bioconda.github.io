@@ -52,6 +52,7 @@ wgfast
 
 
 .. |downloads_wgfast| image:: https://img.shields.io/conda/dn/bioconda/wgfast.svg?style=flat
+   :target: https://anaconda.org/bioconda/wgfast
    :alt:   (downloads)
 .. |docker_wgfast| image:: https://quay.io/repository/biocontainers/wgfast/status
    :target: https://quay.io/repository/biocontainers/wgfast

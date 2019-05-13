@@ -52,6 +52,7 @@ perl-graph-readwrite
 
 
 .. |downloads_perl-graph-readwrite| image:: https://img.shields.io/conda/dn/bioconda/perl-graph-readwrite.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-graph-readwrite
    :alt:   (downloads)
 .. |docker_perl-graph-readwrite| image:: https://quay.io/repository/biocontainers/perl-graph-readwrite/status
    :target: https://quay.io/repository/biocontainers/perl-graph-readwrite

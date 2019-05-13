@@ -47,6 +47,7 @@ bioconductor-flowtime
 
 
 .. |downloads_bioconductor-flowtime| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowtime.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowtime
    :alt:   (downloads)
 .. |docker_bioconductor-flowtime| image:: https://quay.io/repository/biocontainers/bioconductor-flowtime/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowtime

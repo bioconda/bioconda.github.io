@@ -47,6 +47,7 @@ bioconductor-generecommender
 
 
 .. |downloads_bioconductor-generecommender| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-generecommender.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-generecommender
    :alt:   (downloads)
 .. |docker_bioconductor-generecommender| image:: https://quay.io/repository/biocontainers/bioconductor-generecommender/status
    :target: https://quay.io/repository/biocontainers/bioconductor-generecommender

@@ -51,6 +51,7 @@ bioconductor-tweedeseq
 
 
 .. |downloads_bioconductor-tweedeseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tweedeseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tweedeseq
    :alt:   (downloads)
 .. |docker_bioconductor-tweedeseq| image:: https://quay.io/repository/biocontainers/bioconductor-tweedeseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tweedeseq

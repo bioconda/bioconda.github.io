@@ -50,6 +50,7 @@ nglview
 
 
 .. |downloads_nglview| image:: https://img.shields.io/conda/dn/bioconda/nglview.svg?style=flat
+   :target: https://anaconda.org/bioconda/nglview
    :alt:   (downloads)
 .. |docker_nglview| image:: https://quay.io/repository/biocontainers/nglview/status
    :target: https://quay.io/repository/biocontainers/nglview

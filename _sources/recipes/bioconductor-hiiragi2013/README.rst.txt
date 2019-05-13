@@ -62,6 +62,7 @@ bioconductor-hiiragi2013
 
 
 .. |downloads_bioconductor-hiiragi2013| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hiiragi2013.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hiiragi2013
    :alt:   (downloads)
 .. |docker_bioconductor-hiiragi2013| image:: https://quay.io/repository/biocontainers/bioconductor-hiiragi2013/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hiiragi2013

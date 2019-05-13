@@ -54,6 +54,7 @@ edd
 
 
 .. |downloads_edd| image:: https://img.shields.io/conda/dn/bioconda/edd.svg?style=flat
+   :target: https://anaconda.org/bioconda/edd
    :alt:   (downloads)
 .. |docker_edd| image:: https://quay.io/repository/biocontainers/edd/status
    :target: https://quay.io/repository/biocontainers/edd

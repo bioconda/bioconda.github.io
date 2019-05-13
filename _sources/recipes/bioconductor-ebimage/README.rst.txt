@@ -58,6 +58,7 @@ bioconductor-ebimage
 
 
 .. |downloads_bioconductor-ebimage| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ebimage.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ebimage
    :alt:   (downloads)
 .. |docker_bioconductor-ebimage| image:: https://quay.io/repository/biocontainers/bioconductor-ebimage/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ebimage

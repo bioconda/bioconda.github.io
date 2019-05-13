@@ -47,6 +47,7 @@ bioconductor-lungexpression
 
 
 .. |downloads_bioconductor-lungexpression| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lungexpression.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lungexpression
    :alt:   (downloads)
 .. |docker_bioconductor-lungexpression| image:: https://quay.io/repository/biocontainers/bioconductor-lungexpression/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lungexpression

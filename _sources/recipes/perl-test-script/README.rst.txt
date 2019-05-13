@@ -48,6 +48,7 @@ perl-test-script
 
 
 .. |downloads_perl-test-script| image:: https://img.shields.io/conda/dn/bioconda/perl-test-script.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-script
    :alt:   (downloads)
 .. |docker_perl-test-script| image:: https://quay.io/repository/biocontainers/perl-test-script/status
    :target: https://quay.io/repository/biocontainers/perl-test-script

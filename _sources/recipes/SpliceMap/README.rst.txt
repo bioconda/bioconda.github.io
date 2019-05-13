@@ -47,6 +47,7 @@ splicemap
 
 
 .. |downloads_splicemap| image:: https://img.shields.io/conda/dn/bioconda/splicemap.svg?style=flat
+   :target: https://anaconda.org/bioconda/splicemap
    :alt:   (downloads)
 .. |docker_splicemap| image:: https://quay.io/repository/biocontainers/splicemap/status
    :target: https://quay.io/repository/biocontainers/splicemap

@@ -45,6 +45,7 @@ perl-test-harness
 
 
 .. |downloads_perl-test-harness| image:: https://img.shields.io/conda/dn/bioconda/perl-test-harness.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-harness
    :alt:   (downloads)
 .. |docker_perl-test-harness| image:: https://quay.io/repository/biocontainers/perl-test-harness/status
    :target: https://quay.io/repository/biocontainers/perl-test-harness

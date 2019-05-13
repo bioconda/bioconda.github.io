@@ -45,6 +45,7 @@ ctat-lncrna
 
 
 .. |downloads_ctat-lncrna| image:: https://img.shields.io/conda/dn/bioconda/ctat-lncrna.svg?style=flat
+   :target: https://anaconda.org/bioconda/ctat-lncrna
    :alt:   (downloads)
 .. |docker_ctat-lncrna| image:: https://quay.io/repository/biocontainers/ctat-lncrna/status
    :target: https://quay.io/repository/biocontainers/ctat-lncrna

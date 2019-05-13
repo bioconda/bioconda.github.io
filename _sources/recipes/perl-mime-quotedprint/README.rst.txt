@@ -45,6 +45,7 @@ perl-mime-quotedprint
 
 
 .. |downloads_perl-mime-quotedprint| image:: https://img.shields.io/conda/dn/bioconda/perl-mime-quotedprint.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-mime-quotedprint
    :alt:   (downloads)
 .. |docker_perl-mime-quotedprint| image:: https://quay.io/repository/biocontainers/perl-mime-quotedprint/status
    :target: https://quay.io/repository/biocontainers/perl-mime-quotedprint

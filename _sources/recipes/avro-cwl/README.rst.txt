@@ -45,6 +45,7 @@ avro-cwl
 
 
 .. |downloads_avro-cwl| image:: https://img.shields.io/conda/dn/bioconda/avro-cwl.svg?style=flat
+   :target: https://anaconda.org/bioconda/avro-cwl
    :alt:   (downloads)
 .. |docker_avro-cwl| image:: https://quay.io/repository/biocontainers/avro-cwl/status
    :target: https://quay.io/repository/biocontainers/avro-cwl

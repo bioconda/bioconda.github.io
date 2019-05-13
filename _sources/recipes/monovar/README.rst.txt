@@ -49,6 +49,7 @@ monovar
 
 
 .. |downloads_monovar| image:: https://img.shields.io/conda/dn/bioconda/monovar.svg?style=flat
+   :target: https://anaconda.org/bioconda/monovar
    :alt:   (downloads)
 .. |docker_monovar| image:: https://quay.io/repository/biocontainers/monovar/status
    :target: https://quay.io/repository/biocontainers/monovar

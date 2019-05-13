@@ -52,6 +52,7 @@ bioconductor-meshes
 
 
 .. |downloads_bioconductor-meshes| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-meshes.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-meshes
    :alt:   (downloads)
 .. |docker_bioconductor-meshes| image:: https://quay.io/repository/biocontainers/bioconductor-meshes/status
    :target: https://quay.io/repository/biocontainers/bioconductor-meshes

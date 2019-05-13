@@ -48,6 +48,7 @@ admixtools
 
 
 .. |downloads_admixtools| image:: https://img.shields.io/conda/dn/bioconda/admixtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/admixtools
    :alt:   (downloads)
 .. |docker_admixtools| image:: https://quay.io/repository/biocontainers/admixtools/status
    :target: https://quay.io/repository/biocontainers/admixtools

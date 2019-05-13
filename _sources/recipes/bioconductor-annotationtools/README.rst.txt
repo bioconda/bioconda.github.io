@@ -47,6 +47,7 @@ bioconductor-annotationtools
 
 
 .. |downloads_bioconductor-annotationtools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-annotationtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-annotationtools
    :alt:   (downloads)
 .. |docker_bioconductor-annotationtools| image:: https://quay.io/repository/biocontainers/bioconductor-annotationtools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-annotationtools

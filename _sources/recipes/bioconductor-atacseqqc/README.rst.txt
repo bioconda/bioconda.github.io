@@ -62,6 +62,7 @@ bioconductor-atacseqqc
 
 
 .. |downloads_bioconductor-atacseqqc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-atacseqqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-atacseqqc
    :alt:   (downloads)
 .. |docker_bioconductor-atacseqqc| image:: https://quay.io/repository/biocontainers/bioconductor-atacseqqc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-atacseqqc

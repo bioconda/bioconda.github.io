@@ -47,6 +47,7 @@ flash
 
 
 .. |downloads_flash| image:: https://img.shields.io/conda/dn/bioconda/flash.svg?style=flat
+   :target: https://anaconda.org/bioconda/flash
    :alt:   (downloads)
 .. |docker_flash| image:: https://quay.io/repository/biocontainers/flash/status
    :target: https://quay.io/repository/biocontainers/flash

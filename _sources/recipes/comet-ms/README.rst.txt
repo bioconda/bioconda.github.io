@@ -47,6 +47,7 @@ comet-ms
 
 
 .. |downloads_comet-ms| image:: https://img.shields.io/conda/dn/bioconda/comet-ms.svg?style=flat
+   :target: https://anaconda.org/bioconda/comet-ms
    :alt:   (downloads)
 .. |docker_comet-ms| image:: https://quay.io/repository/biocontainers/comet-ms/status
    :target: https://quay.io/repository/biocontainers/comet-ms

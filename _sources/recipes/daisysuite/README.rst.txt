@@ -58,6 +58,7 @@ daisysuite
 
 
 .. |downloads_daisysuite| image:: https://img.shields.io/conda/dn/bioconda/daisysuite.svg?style=flat
+   :target: https://anaconda.org/bioconda/daisysuite
    :alt:   (downloads)
 .. |docker_daisysuite| image:: https://quay.io/repository/biocontainers/daisysuite/status
    :target: https://quay.io/repository/biocontainers/daisysuite

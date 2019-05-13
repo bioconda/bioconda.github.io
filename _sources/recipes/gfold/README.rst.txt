@@ -47,6 +47,7 @@ gfold
 
 
 .. |downloads_gfold| image:: https://img.shields.io/conda/dn/bioconda/gfold.svg?style=flat
+   :target: https://anaconda.org/bioconda/gfold
    :alt:   (downloads)
 .. |docker_gfold| image:: https://quay.io/repository/biocontainers/gfold/status
    :target: https://quay.io/repository/biocontainers/gfold

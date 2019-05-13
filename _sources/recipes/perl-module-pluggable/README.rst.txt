@@ -46,6 +46,7 @@ perl-module-pluggable
 
 
 .. |downloads_perl-module-pluggable| image:: https://img.shields.io/conda/dn/bioconda/perl-module-pluggable.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-module-pluggable
    :alt:   (downloads)
 .. |docker_perl-module-pluggable| image:: https://quay.io/repository/biocontainers/perl-module-pluggable/status
    :target: https://quay.io/repository/biocontainers/perl-module-pluggable

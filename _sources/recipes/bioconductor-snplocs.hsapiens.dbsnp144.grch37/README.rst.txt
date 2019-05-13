@@ -52,6 +52,7 @@ bioconductor-snplocs.hsapiens.dbsnp144.grch37
 
 
 .. |downloads_bioconductor-snplocs.hsapiens.dbsnp144.grch37| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-snplocs.hsapiens.dbsnp144.grch37.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-snplocs.hsapiens.dbsnp144.grch37
    :alt:   (downloads)
 .. |docker_bioconductor-snplocs.hsapiens.dbsnp144.grch37| image:: https://quay.io/repository/biocontainers/bioconductor-snplocs.hsapiens.dbsnp144.grch37/status
    :target: https://quay.io/repository/biocontainers/bioconductor-snplocs.hsapiens.dbsnp144.grch37

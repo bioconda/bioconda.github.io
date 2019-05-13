@@ -48,6 +48,7 @@ perl-string-truncate
 
 
 .. |downloads_perl-string-truncate| image:: https://img.shields.io/conda/dn/bioconda/perl-string-truncate.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-string-truncate
    :alt:   (downloads)
 .. |docker_perl-string-truncate| image:: https://quay.io/repository/biocontainers/perl-string-truncate/status
    :target: https://quay.io/repository/biocontainers/perl-string-truncate

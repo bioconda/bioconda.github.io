@@ -47,6 +47,7 @@ perl-image-info
 
 
 .. |downloads_perl-image-info| image:: https://img.shields.io/conda/dn/bioconda/perl-image-info.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-image-info
    :alt:   (downloads)
 .. |docker_perl-image-info| image:: https://quay.io/repository/biocontainers/perl-image-info/status
    :target: https://quay.io/repository/biocontainers/perl-image-info

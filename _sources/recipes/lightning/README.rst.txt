@@ -48,6 +48,7 @@ lightning
 
 
 .. |downloads_lightning| image:: https://img.shields.io/conda/dn/bioconda/lightning.svg?style=flat
+   :target: https://anaconda.org/bioconda/lightning
    :alt:   (downloads)
 .. |docker_lightning| image:: https://quay.io/repository/biocontainers/lightning/status
    :target: https://quay.io/repository/biocontainers/lightning

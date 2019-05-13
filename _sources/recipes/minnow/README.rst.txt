@@ -48,6 +48,7 @@ minnow
 
 
 .. |downloads_minnow| image:: https://img.shields.io/conda/dn/bioconda/minnow.svg?style=flat
+   :target: https://anaconda.org/bioconda/minnow
    :alt:   (downloads)
 .. |docker_minnow| image:: https://quay.io/repository/biocontainers/minnow/status
    :target: https://quay.io/repository/biocontainers/minnow

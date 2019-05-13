@@ -46,6 +46,7 @@ bioconductor-ccdata
 
 
 .. |downloads_bioconductor-ccdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ccdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ccdata
    :alt:   (downloads)
 .. |docker_bioconductor-ccdata| image:: https://quay.io/repository/biocontainers/bioconductor-ccdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ccdata

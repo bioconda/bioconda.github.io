@@ -52,6 +52,7 @@ bioconductor-simat
 
 
 .. |downloads_bioconductor-simat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-simat.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-simat
    :alt:   (downloads)
 .. |docker_bioconductor-simat| image:: https://quay.io/repository/biocontainers/bioconductor-simat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-simat

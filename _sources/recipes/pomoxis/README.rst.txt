@@ -67,6 +67,7 @@ pomoxis
 
 
 .. |downloads_pomoxis| image:: https://img.shields.io/conda/dn/bioconda/pomoxis.svg?style=flat
+   :target: https://anaconda.org/bioconda/pomoxis
    :alt:   (downloads)
 .. |docker_pomoxis| image:: https://quay.io/repository/biocontainers/pomoxis/status
    :target: https://quay.io/repository/biocontainers/pomoxis

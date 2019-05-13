@@ -52,6 +52,7 @@ bioconductor-grasp2db
 
 
 .. |downloads_bioconductor-grasp2db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-grasp2db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-grasp2db
    :alt:   (downloads)
 .. |docker_bioconductor-grasp2db| image:: https://quay.io/repository/biocontainers/bioconductor-grasp2db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-grasp2db

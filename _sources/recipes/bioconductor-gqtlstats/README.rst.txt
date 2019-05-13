@@ -75,6 +75,7 @@ bioconductor-gqtlstats
 
 
 .. |downloads_bioconductor-gqtlstats| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gqtlstats.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gqtlstats
    :alt:   (downloads)
 .. |docker_bioconductor-gqtlstats| image:: https://quay.io/repository/biocontainers/bioconductor-gqtlstats/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gqtlstats

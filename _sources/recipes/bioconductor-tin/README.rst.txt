@@ -52,6 +52,7 @@ bioconductor-tin
 
 
 .. |downloads_bioconductor-tin| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tin.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tin
    :alt:   (downloads)
 .. |docker_bioconductor-tin| image:: https://quay.io/repository/biocontainers/bioconductor-tin/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tin

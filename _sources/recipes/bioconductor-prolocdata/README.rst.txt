@@ -48,6 +48,7 @@ bioconductor-prolocdata
 
 
 .. |downloads_bioconductor-prolocdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-prolocdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-prolocdata
    :alt:   (downloads)
 .. |docker_bioconductor-prolocdata| image:: https://quay.io/repository/biocontainers/bioconductor-prolocdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-prolocdata

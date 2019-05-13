@@ -56,6 +56,7 @@ triform2
 
 
 .. |downloads_triform2| image:: https://img.shields.io/conda/dn/bioconda/triform2.svg?style=flat
+   :target: https://anaconda.org/bioconda/triform2
    :alt:   (downloads)
 .. |docker_triform2| image:: https://quay.io/repository/biocontainers/triform2/status
    :target: https://quay.io/repository/biocontainers/triform2

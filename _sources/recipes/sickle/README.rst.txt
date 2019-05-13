@@ -47,6 +47,7 @@ sickle
 
 
 .. |downloads_sickle| image:: https://img.shields.io/conda/dn/bioconda/sickle.svg?style=flat
+   :target: https://anaconda.org/bioconda/sickle
    :alt:   (downloads)
 .. |docker_sickle| image:: https://quay.io/repository/biocontainers/sickle/status
    :target: https://quay.io/repository/biocontainers/sickle

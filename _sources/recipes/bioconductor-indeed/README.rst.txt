@@ -47,6 +47,7 @@ bioconductor-indeed
 
 
 .. |downloads_bioconductor-indeed| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-indeed.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-indeed
    :alt:   (downloads)
 .. |docker_bioconductor-indeed| image:: https://quay.io/repository/biocontainers/bioconductor-indeed/status
    :target: https://quay.io/repository/biocontainers/bioconductor-indeed

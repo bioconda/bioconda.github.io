@@ -47,6 +47,7 @@ fqtrim
 
 
 .. |downloads_fqtrim| image:: https://img.shields.io/conda/dn/bioconda/fqtrim.svg?style=flat
+   :target: https://anaconda.org/bioconda/fqtrim
    :alt:   (downloads)
 .. |docker_fqtrim| image:: https://quay.io/repository/biocontainers/fqtrim/status
    :target: https://quay.io/repository/biocontainers/fqtrim

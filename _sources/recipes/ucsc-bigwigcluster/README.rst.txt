@@ -50,6 +50,7 @@ ucsc-bigwigcluster
 
 
 .. |downloads_ucsc-bigwigcluster| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bigwigcluster.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bigwigcluster
    :alt:   (downloads)
 .. |docker_ucsc-bigwigcluster| image:: https://quay.io/repository/biocontainers/ucsc-bigwigcluster/status
    :target: https://quay.io/repository/biocontainers/ucsc-bigwigcluster

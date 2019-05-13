@@ -46,6 +46,7 @@ bioconductor-connectivitymap
 
 
 .. |downloads_bioconductor-connectivitymap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-connectivitymap.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-connectivitymap
    :alt:   (downloads)
 .. |docker_bioconductor-connectivitymap| image:: https://quay.io/repository/biocontainers/bioconductor-connectivitymap/status
    :target: https://quay.io/repository/biocontainers/bioconductor-connectivitymap

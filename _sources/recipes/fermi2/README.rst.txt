@@ -50,6 +50,7 @@ fermi2
 
 
 .. |downloads_fermi2| image:: https://img.shields.io/conda/dn/bioconda/fermi2.svg?style=flat
+   :target: https://anaconda.org/bioconda/fermi2
    :alt:   (downloads)
 .. |docker_fermi2| image:: https://quay.io/repository/biocontainers/fermi2/status
    :target: https://quay.io/repository/biocontainers/fermi2

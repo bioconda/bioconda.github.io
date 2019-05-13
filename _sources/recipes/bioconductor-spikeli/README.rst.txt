@@ -46,6 +46,7 @@ bioconductor-spikeli
 
 
 .. |downloads_bioconductor-spikeli| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-spikeli.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-spikeli
    :alt:   (downloads)
 .. |docker_bioconductor-spikeli| image:: https://quay.io/repository/biocontainers/bioconductor-spikeli/status
    :target: https://quay.io/repository/biocontainers/bioconductor-spikeli

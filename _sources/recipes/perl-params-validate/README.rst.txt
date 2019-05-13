@@ -50,6 +50,7 @@ perl-params-validate
 
 
 .. |downloads_perl-params-validate| image:: https://img.shields.io/conda/dn/bioconda/perl-params-validate.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-params-validate
    :alt:   (downloads)
 .. |docker_perl-params-validate| image:: https://quay.io/repository/biocontainers/perl-params-validate/status
    :target: https://quay.io/repository/biocontainers/perl-params-validate

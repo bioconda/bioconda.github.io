@@ -50,6 +50,7 @@ ucsc-splitfile
 
 
 .. |downloads_ucsc-splitfile| image:: https://img.shields.io/conda/dn/bioconda/ucsc-splitfile.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-splitfile
    :alt:   (downloads)
 .. |docker_ucsc-splitfile| image:: https://quay.io/repository/biocontainers/ucsc-splitfile/status
    :target: https://quay.io/repository/biocontainers/ucsc-splitfile

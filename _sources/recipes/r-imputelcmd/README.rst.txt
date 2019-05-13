@@ -49,6 +49,7 @@ r-imputelcmd
 
 
 .. |downloads_r-imputelcmd| image:: https://img.shields.io/conda/dn/bioconda/r-imputelcmd.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-imputelcmd
    :alt:   (downloads)
 .. |docker_r-imputelcmd| image:: https://quay.io/repository/biocontainers/r-imputelcmd/status
    :target: https://quay.io/repository/biocontainers/r-imputelcmd

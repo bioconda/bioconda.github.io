@@ -52,6 +52,7 @@ alfred
 
 
 .. |downloads_alfred| image:: https://img.shields.io/conda/dn/bioconda/alfred.svg?style=flat
+   :target: https://anaconda.org/bioconda/alfred
    :alt:   (downloads)
 .. |docker_alfred| image:: https://quay.io/repository/biocontainers/alfred/status
    :target: https://quay.io/repository/biocontainers/alfred

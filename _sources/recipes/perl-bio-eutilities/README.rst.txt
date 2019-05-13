@@ -66,6 +66,7 @@ perl-bio-eutilities
 
 
 .. |downloads_perl-bio-eutilities| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-eutilities.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bio-eutilities
    :alt:   (downloads)
 .. |docker_perl-bio-eutilities| image:: https://quay.io/repository/biocontainers/perl-bio-eutilities/status
    :target: https://quay.io/repository/biocontainers/perl-bio-eutilities

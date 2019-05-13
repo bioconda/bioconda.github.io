@@ -52,6 +52,7 @@ bioconductor-shinymethyl
 
 
 .. |downloads_bioconductor-shinymethyl| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-shinymethyl.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-shinymethyl
    :alt:   (downloads)
 .. |docker_bioconductor-shinymethyl| image:: https://quay.io/repository/biocontainers/bioconductor-shinymethyl/status
    :target: https://quay.io/repository/biocontainers/bioconductor-shinymethyl

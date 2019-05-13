@@ -45,6 +45,7 @@ retry_decorator
 
 
 .. |downloads_retry_decorator| image:: https://img.shields.io/conda/dn/bioconda/retry_decorator.svg?style=flat
+   :target: https://anaconda.org/bioconda/retry_decorator
    :alt:   (downloads)
 .. |docker_retry_decorator| image:: https://quay.io/repository/biocontainers/retry_decorator/status
    :target: https://quay.io/repository/biocontainers/retry_decorator

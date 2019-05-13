@@ -46,6 +46,7 @@ regtools
 
 
 .. |downloads_regtools| image:: https://img.shields.io/conda/dn/bioconda/regtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/regtools
    :alt:   (downloads)
 .. |docker_regtools| image:: https://quay.io/repository/biocontainers/regtools/status
    :target: https://quay.io/repository/biocontainers/regtools

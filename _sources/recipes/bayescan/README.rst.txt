@@ -45,6 +45,7 @@ bayescan
 
 
 .. |downloads_bayescan| image:: https://img.shields.io/conda/dn/bioconda/bayescan.svg?style=flat
+   :target: https://anaconda.org/bioconda/bayescan
    :alt:   (downloads)
 .. |docker_bayescan| image:: https://quay.io/repository/biocontainers/bayescan/status
    :target: https://quay.io/repository/biocontainers/bayescan

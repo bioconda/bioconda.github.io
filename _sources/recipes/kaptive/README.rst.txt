@@ -47,6 +47,7 @@ kaptive
 
 
 .. |downloads_kaptive| image:: https://img.shields.io/conda/dn/bioconda/kaptive.svg?style=flat
+   :target: https://anaconda.org/bioconda/kaptive
    :alt:   (downloads)
 .. |docker_kaptive| image:: https://quay.io/repository/biocontainers/kaptive/status
    :target: https://quay.io/repository/biocontainers/kaptive

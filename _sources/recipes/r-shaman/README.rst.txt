@@ -50,6 +50,7 @@ r-shaman
 
 
 .. |downloads_r-shaman| image:: https://img.shields.io/conda/dn/bioconda/r-shaman.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-shaman
    :alt:   (downloads)
 .. |docker_r-shaman| image:: https://quay.io/repository/biocontainers/r-shaman/status
    :target: https://quay.io/repository/biocontainers/r-shaman

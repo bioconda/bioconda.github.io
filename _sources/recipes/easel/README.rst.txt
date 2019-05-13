@@ -45,6 +45,7 @@ easel
 
 
 .. |downloads_easel| image:: https://img.shields.io/conda/dn/bioconda/easel.svg?style=flat
+   :target: https://anaconda.org/bioconda/easel
    :alt:   (downloads)
 .. |docker_easel| image:: https://quay.io/repository/biocontainers/easel/status
    :target: https://quay.io/repository/biocontainers/easel

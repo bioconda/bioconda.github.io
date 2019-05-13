@@ -56,6 +56,7 @@ moff
 
 
 .. |downloads_moff| image:: https://img.shields.io/conda/dn/bioconda/moff.svg?style=flat
+   :target: https://anaconda.org/bioconda/moff
    :alt:   (downloads)
 .. |docker_moff| image:: https://quay.io/repository/biocontainers/moff/status
    :target: https://quay.io/repository/biocontainers/moff

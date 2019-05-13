@@ -45,6 +45,7 @@ perl-app-cpanminus
 
 
 .. |downloads_perl-app-cpanminus| image:: https://img.shields.io/conda/dn/bioconda/perl-app-cpanminus.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-app-cpanminus
    :alt:   (downloads)
 .. |docker_perl-app-cpanminus| image:: https://quay.io/repository/biocontainers/perl-app-cpanminus/status
    :target: https://quay.io/repository/biocontainers/perl-app-cpanminus

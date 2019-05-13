@@ -53,6 +53,7 @@ bioconductor-synlet
 
 
 .. |downloads_bioconductor-synlet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-synlet.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-synlet
    :alt:   (downloads)
 .. |docker_bioconductor-synlet| image:: https://quay.io/repository/biocontainers/bioconductor-synlet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-synlet

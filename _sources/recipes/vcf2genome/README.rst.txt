@@ -46,6 +46,7 @@ vcf2genome
 
 
 .. |downloads_vcf2genome| image:: https://img.shields.io/conda/dn/bioconda/vcf2genome.svg?style=flat
+   :target: https://anaconda.org/bioconda/vcf2genome
    :alt:   (downloads)
 .. |docker_vcf2genome| image:: https://quay.io/repository/biocontainers/vcf2genome/status
    :target: https://quay.io/repository/biocontainers/vcf2genome

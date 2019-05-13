@@ -50,6 +50,7 @@ bioconductor-massir
 
 
 .. |downloads_bioconductor-massir| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-massir.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-massir
    :alt:   (downloads)
 .. |docker_bioconductor-massir| image:: https://quay.io/repository/biocontainers/bioconductor-massir/status
    :target: https://quay.io/repository/biocontainers/bioconductor-massir

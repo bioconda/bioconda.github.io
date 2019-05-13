@@ -46,6 +46,7 @@ bioconductor-ratchrloc
 
 
 .. |downloads_bioconductor-ratchrloc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ratchrloc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ratchrloc
    :alt:   (downloads)
 .. |docker_bioconductor-ratchrloc| image:: https://quay.io/repository/biocontainers/bioconductor-ratchrloc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ratchrloc

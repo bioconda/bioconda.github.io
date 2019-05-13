@@ -70,6 +70,7 @@ mikado
 
 
 .. |downloads_mikado| image:: https://img.shields.io/conda/dn/bioconda/mikado.svg?style=flat
+   :target: https://anaconda.org/bioconda/mikado
    :alt:   (downloads)
 .. |docker_mikado| image:: https://quay.io/repository/biocontainers/mikado/status
    :target: https://quay.io/repository/biocontainers/mikado

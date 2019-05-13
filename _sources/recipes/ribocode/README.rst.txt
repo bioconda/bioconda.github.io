@@ -54,6 +54,7 @@ ribocode
 
 
 .. |downloads_ribocode| image:: https://img.shields.io/conda/dn/bioconda/ribocode.svg?style=flat
+   :target: https://anaconda.org/bioconda/ribocode
    :alt:   (downloads)
 .. |docker_ribocode| image:: https://quay.io/repository/biocontainers/ribocode/status
    :target: https://quay.io/repository/biocontainers/ribocode

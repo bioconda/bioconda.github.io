@@ -47,6 +47,7 @@ bioconductor-aseb
 
 
 .. |downloads_bioconductor-aseb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-aseb.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-aseb
    :alt:   (downloads)
 .. |docker_bioconductor-aseb| image:: https://quay.io/repository/biocontainers/bioconductor-aseb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-aseb

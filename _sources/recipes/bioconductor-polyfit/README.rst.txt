@@ -47,6 +47,7 @@ bioconductor-polyfit
 
 
 .. |downloads_bioconductor-polyfit| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-polyfit.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-polyfit
    :alt:   (downloads)
 .. |docker_bioconductor-polyfit| image:: https://quay.io/repository/biocontainers/bioconductor-polyfit/status
    :target: https://quay.io/repository/biocontainers/bioconductor-polyfit

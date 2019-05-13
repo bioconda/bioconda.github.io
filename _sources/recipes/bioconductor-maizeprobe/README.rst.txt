@@ -47,6 +47,7 @@ bioconductor-maizeprobe
 
 
 .. |downloads_bioconductor-maizeprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-maizeprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-maizeprobe
    :alt:   (downloads)
 .. |docker_bioconductor-maizeprobe| image:: https://quay.io/repository/biocontainers/bioconductor-maizeprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-maizeprobe

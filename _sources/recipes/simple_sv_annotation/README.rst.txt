@@ -46,6 +46,7 @@ simple_sv_annotation
 
 
 .. |downloads_simple_sv_annotation| image:: https://img.shields.io/conda/dn/bioconda/simple_sv_annotation.svg?style=flat
+   :target: https://anaconda.org/bioconda/simple_sv_annotation
    :alt:   (downloads)
 .. |docker_simple_sv_annotation| image:: https://quay.io/repository/biocontainers/simple_sv_annotation/status
    :target: https://quay.io/repository/biocontainers/simple_sv_annotation

@@ -61,6 +61,7 @@ perl-bio-mlst-check
 
 
 .. |downloads_perl-bio-mlst-check| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-mlst-check.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bio-mlst-check
    :alt:   (downloads)
 .. |docker_perl-bio-mlst-check| image:: https://quay.io/repository/biocontainers/perl-bio-mlst-check/status
    :target: https://quay.io/repository/biocontainers/perl-bio-mlst-check

@@ -45,6 +45,7 @@ biodiff
 
 
 .. |downloads_biodiff| image:: https://img.shields.io/conda/dn/bioconda/biodiff.svg?style=flat
+   :target: https://anaconda.org/bioconda/biodiff
    :alt:   (downloads)
 .. |docker_biodiff| image:: https://quay.io/repository/biocontainers/biodiff/status
    :target: https://quay.io/repository/biocontainers/biodiff

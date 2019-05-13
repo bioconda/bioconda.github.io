@@ -51,6 +51,7 @@ bioconductor-exomecopy
 
 
 .. |downloads_bioconductor-exomecopy| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-exomecopy.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-exomecopy
    :alt:   (downloads)
 .. |docker_bioconductor-exomecopy| image:: https://quay.io/repository/biocontainers/bioconductor-exomecopy/status
    :target: https://quay.io/repository/biocontainers/bioconductor-exomecopy

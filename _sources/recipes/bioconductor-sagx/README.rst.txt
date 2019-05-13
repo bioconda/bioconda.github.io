@@ -49,6 +49,7 @@ bioconductor-sagx
 
 
 .. |downloads_bioconductor-sagx| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sagx.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sagx
    :alt:   (downloads)
 .. |docker_bioconductor-sagx| image:: https://quay.io/repository/biocontainers/bioconductor-sagx/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sagx

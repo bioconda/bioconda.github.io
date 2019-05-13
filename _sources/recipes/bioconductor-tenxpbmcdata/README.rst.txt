@@ -50,6 +50,7 @@ bioconductor-tenxpbmcdata
 
 
 .. |downloads_bioconductor-tenxpbmcdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tenxpbmcdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tenxpbmcdata
    :alt:   (downloads)
 .. |docker_bioconductor-tenxpbmcdata| image:: https://quay.io/repository/biocontainers/bioconductor-tenxpbmcdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tenxpbmcdata

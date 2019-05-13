@@ -59,6 +59,7 @@ perl-bio-automatedannotation
 
 
 .. |downloads_perl-bio-automatedannotation| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-automatedannotation.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bio-automatedannotation
    :alt:   (downloads)
 .. |docker_perl-bio-automatedannotation| image:: https://quay.io/repository/biocontainers/perl-bio-automatedannotation/status
    :target: https://quay.io/repository/biocontainers/perl-bio-automatedannotation

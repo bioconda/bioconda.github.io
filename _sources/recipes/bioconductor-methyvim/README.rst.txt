@@ -64,6 +64,7 @@ bioconductor-methyvim
 
 
 .. |downloads_bioconductor-methyvim| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methyvim.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-methyvim
    :alt:   (downloads)
 .. |docker_bioconductor-methyvim| image:: https://quay.io/repository/biocontainers/bioconductor-methyvim/status
    :target: https://quay.io/repository/biocontainers/bioconductor-methyvim

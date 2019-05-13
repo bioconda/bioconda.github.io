@@ -47,6 +47,7 @@ subread
 
 
 .. |downloads_subread| image:: https://img.shields.io/conda/dn/bioconda/subread.svg?style=flat
+   :target: https://anaconda.org/bioconda/subread
    :alt:   (downloads)
 .. |docker_subread| image:: https://quay.io/repository/biocontainers/subread/status
    :target: https://quay.io/repository/biocontainers/subread

@@ -50,6 +50,7 @@ ucsc-psltochain
 
 
 .. |downloads_ucsc-psltochain| image:: https://img.shields.io/conda/dn/bioconda/ucsc-psltochain.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-psltochain
    :alt:   (downloads)
 .. |docker_ucsc-psltochain| image:: https://quay.io/repository/biocontainers/ucsc-psltochain/status
    :target: https://quay.io/repository/biocontainers/ucsc-psltochain

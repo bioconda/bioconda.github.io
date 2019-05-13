@@ -47,6 +47,7 @@ perl-convert-binary-c
 
 
 .. |downloads_perl-convert-binary-c| image:: https://img.shields.io/conda/dn/bioconda/perl-convert-binary-c.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-convert-binary-c
    :alt:   (downloads)
 .. |docker_perl-convert-binary-c| image:: https://quay.io/repository/biocontainers/perl-convert-binary-c/status
    :target: https://quay.io/repository/biocontainers/perl-convert-binary-c

@@ -48,6 +48,7 @@ bioconductor-lfa
 
 
 .. |downloads_bioconductor-lfa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lfa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lfa
    :alt:   (downloads)
 .. |docker_bioconductor-lfa| image:: https://quay.io/repository/biocontainers/bioconductor-lfa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lfa

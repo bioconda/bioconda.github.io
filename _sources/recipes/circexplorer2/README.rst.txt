@@ -50,6 +50,7 @@ circexplorer2
 
 
 .. |downloads_circexplorer2| image:: https://img.shields.io/conda/dn/bioconda/circexplorer2.svg?style=flat
+   :target: https://anaconda.org/bioconda/circexplorer2
    :alt:   (downloads)
 .. |docker_circexplorer2| image:: https://quay.io/repository/biocontainers/circexplorer2/status
    :target: https://quay.io/repository/biocontainers/circexplorer2

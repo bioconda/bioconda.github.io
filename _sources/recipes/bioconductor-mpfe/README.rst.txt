@@ -46,6 +46,7 @@ bioconductor-mpfe
 
 
 .. |downloads_bioconductor-mpfe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mpfe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mpfe
    :alt:   (downloads)
 .. |docker_bioconductor-mpfe| image:: https://quay.io/repository/biocontainers/bioconductor-mpfe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mpfe

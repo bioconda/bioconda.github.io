@@ -45,6 +45,7 @@ e-pcr
 
 
 .. |downloads_e-pcr| image:: https://img.shields.io/conda/dn/bioconda/e-pcr.svg?style=flat
+   :target: https://anaconda.org/bioconda/e-pcr
    :alt:   (downloads)
 .. |docker_e-pcr| image:: https://quay.io/repository/biocontainers/e-pcr/status
    :target: https://quay.io/repository/biocontainers/e-pcr

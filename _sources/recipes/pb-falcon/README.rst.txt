@@ -54,6 +54,7 @@ pb-falcon
 
 
 .. |downloads_pb-falcon| image:: https://img.shields.io/conda/dn/bioconda/pb-falcon.svg?style=flat
+   :target: https://anaconda.org/bioconda/pb-falcon
    :alt:   (downloads)
 .. |docker_pb-falcon| image:: https://quay.io/repository/biocontainers/pb-falcon/status
    :target: https://quay.io/repository/biocontainers/pb-falcon

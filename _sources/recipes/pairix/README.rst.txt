@@ -48,6 +48,7 @@ pairix
 
 
 .. |downloads_pairix| image:: https://img.shields.io/conda/dn/bioconda/pairix.svg?style=flat
+   :target: https://anaconda.org/bioconda/pairix
    :alt:   (downloads)
 .. |docker_pairix| image:: https://quay.io/repository/biocontainers/pairix/status
    :target: https://quay.io/repository/biocontainers/pairix

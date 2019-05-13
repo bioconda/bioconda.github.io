@@ -50,6 +50,7 @@ bioconductor-biosigner
 
 
 .. |downloads_bioconductor-biosigner| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biosigner.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-biosigner
    :alt:   (downloads)
 .. |docker_bioconductor-biosigner| image:: https://quay.io/repository/biocontainers/bioconductor-biosigner/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biosigner

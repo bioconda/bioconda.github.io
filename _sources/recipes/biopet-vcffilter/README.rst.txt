@@ -50,6 +50,7 @@ biopet-vcffilter
 
 
 .. |downloads_biopet-vcffilter| image:: https://img.shields.io/conda/dn/bioconda/biopet-vcffilter.svg?style=flat
+   :target: https://anaconda.org/bioconda/biopet-vcffilter
    :alt:   (downloads)
 .. |docker_biopet-vcffilter| image:: https://quay.io/repository/biocontainers/biopet-vcffilter/status
    :target: https://quay.io/repository/biocontainers/biopet-vcffilter

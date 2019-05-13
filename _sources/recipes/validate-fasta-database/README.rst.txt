@@ -46,6 +46,7 @@ validate-fasta-database
 
 
 .. |downloads_validate-fasta-database| image:: https://img.shields.io/conda/dn/bioconda/validate-fasta-database.svg?style=flat
+   :target: https://anaconda.org/bioconda/validate-fasta-database
    :alt:   (downloads)
 .. |docker_validate-fasta-database| image:: https://quay.io/repository/biocontainers/validate-fasta-database/status
    :target: https://quay.io/repository/biocontainers/validate-fasta-database

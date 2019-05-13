@@ -56,6 +56,7 @@ pirs
 
 
 .. |downloads_pirs| image:: https://img.shields.io/conda/dn/bioconda/pirs.svg?style=flat
+   :target: https://anaconda.org/bioconda/pirs
    :alt:   (downloads)
 .. |docker_pirs| image:: https://quay.io/repository/biocontainers/pirs/status
    :target: https://quay.io/repository/biocontainers/pirs

@@ -55,6 +55,7 @@ bioconductor-titancna
 
 
 .. |downloads_bioconductor-titancna| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-titancna.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-titancna
    :alt:   (downloads)
 .. |docker_bioconductor-titancna| image:: https://quay.io/repository/biocontainers/bioconductor-titancna/status
    :target: https://quay.io/repository/biocontainers/bioconductor-titancna

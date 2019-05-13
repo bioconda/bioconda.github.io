@@ -46,6 +46,7 @@ ntcard
 
 
 .. |downloads_ntcard| image:: https://img.shields.io/conda/dn/bioconda/ntcard.svg?style=flat
+   :target: https://anaconda.org/bioconda/ntcard
    :alt:   (downloads)
 .. |docker_ntcard| image:: https://quay.io/repository/biocontainers/ntcard/status
    :target: https://quay.io/repository/biocontainers/ntcard

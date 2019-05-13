@@ -47,6 +47,7 @@ validators
 
 
 .. |downloads_validators| image:: https://img.shields.io/conda/dn/bioconda/validators.svg?style=flat
+   :target: https://anaconda.org/bioconda/validators
    :alt:   (downloads)
 .. |docker_validators| image:: https://quay.io/repository/biocontainers/validators/status
    :target: https://quay.io/repository/biocontainers/validators

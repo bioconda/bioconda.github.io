@@ -46,6 +46,7 @@ bioconductor-rmassbankdata
 
 
 .. |downloads_bioconductor-rmassbankdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rmassbankdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rmassbankdata
    :alt:   (downloads)
 .. |docker_bioconductor-rmassbankdata| image:: https://quay.io/repository/biocontainers/bioconductor-rmassbankdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rmassbankdata

@@ -54,6 +54,7 @@ bioconductor-webbioc
 
 
 .. |downloads_bioconductor-webbioc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-webbioc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-webbioc
    :alt:   (downloads)
 .. |docker_bioconductor-webbioc| image:: https://quay.io/repository/biocontainers/bioconductor-webbioc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-webbioc

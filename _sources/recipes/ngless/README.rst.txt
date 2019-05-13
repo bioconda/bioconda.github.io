@@ -45,6 +45,7 @@ ngless
 
 
 .. |downloads_ngless| image:: https://img.shields.io/conda/dn/bioconda/ngless.svg?style=flat
+   :target: https://anaconda.org/bioconda/ngless
    :alt:   (downloads)
 .. |docker_ngless| image:: https://quay.io/repository/biocontainers/ngless/status
    :target: https://quay.io/repository/biocontainers/ngless

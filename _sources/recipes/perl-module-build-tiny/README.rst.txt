@@ -55,6 +55,7 @@ perl-module-build-tiny
 
 
 .. |downloads_perl-module-build-tiny| image:: https://img.shields.io/conda/dn/bioconda/perl-module-build-tiny.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-module-build-tiny
    :alt:   (downloads)
 .. |docker_perl-module-build-tiny| image:: https://quay.io/repository/biocontainers/perl-module-build-tiny/status
    :target: https://quay.io/repository/biocontainers/perl-module-build-tiny

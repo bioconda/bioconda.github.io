@@ -47,6 +47,7 @@ bioconductor-canineprobe
 
 
 .. |downloads_bioconductor-canineprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-canineprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-canineprobe
    :alt:   (downloads)
 .. |docker_bioconductor-canineprobe| image:: https://quay.io/repository/biocontainers/bioconductor-canineprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-canineprobe

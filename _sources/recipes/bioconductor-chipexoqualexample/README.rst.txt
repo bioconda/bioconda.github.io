@@ -46,6 +46,7 @@ bioconductor-chipexoqualexample
 
 
 .. |downloads_bioconductor-chipexoqualexample| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chipexoqualexample.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chipexoqualexample
    :alt:   (downloads)
 .. |docker_bioconductor-chipexoqualexample| image:: https://quay.io/repository/biocontainers/bioconductor-chipexoqualexample/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chipexoqualexample

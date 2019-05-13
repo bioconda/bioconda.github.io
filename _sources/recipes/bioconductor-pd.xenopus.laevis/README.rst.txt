@@ -53,6 +53,7 @@ bioconductor-pd.xenopus.laevis
 
 
 .. |downloads_bioconductor-pd.xenopus.laevis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.xenopus.laevis.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.xenopus.laevis
    :alt:   (downloads)
 .. |docker_bioconductor-pd.xenopus.laevis| image:: https://quay.io/repository/biocontainers/bioconductor-pd.xenopus.laevis/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.xenopus.laevis

@@ -45,6 +45,7 @@ rnabob
 
 
 .. |downloads_rnabob| image:: https://img.shields.io/conda/dn/bioconda/rnabob.svg?style=flat
+   :target: https://anaconda.org/bioconda/rnabob
    :alt:   (downloads)
 .. |docker_rnabob| image:: https://quay.io/repository/biocontainers/rnabob/status
    :target: https://quay.io/repository/biocontainers/rnabob

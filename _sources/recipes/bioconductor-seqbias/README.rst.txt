@@ -51,6 +51,7 @@ bioconductor-seqbias
 
 
 .. |downloads_bioconductor-seqbias| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-seqbias.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-seqbias
    :alt:   (downloads)
 .. |docker_bioconductor-seqbias| image:: https://quay.io/repository/biocontainers/bioconductor-seqbias/status
    :target: https://quay.io/repository/biocontainers/bioconductor-seqbias

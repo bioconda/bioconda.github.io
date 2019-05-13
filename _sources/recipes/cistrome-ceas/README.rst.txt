@@ -52,6 +52,7 @@ cistrome-ceas
 
 
 .. |downloads_cistrome-ceas| image:: https://img.shields.io/conda/dn/bioconda/cistrome-ceas.svg?style=flat
+   :target: https://anaconda.org/bioconda/cistrome-ceas
    :alt:   (downloads)
 .. |docker_cistrome-ceas| image:: https://quay.io/repository/biocontainers/cistrome-ceas/status
    :target: https://quay.io/repository/biocontainers/cistrome-ceas

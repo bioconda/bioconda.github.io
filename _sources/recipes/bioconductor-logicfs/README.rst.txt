@@ -48,6 +48,7 @@ bioconductor-logicfs
 
 
 .. |downloads_bioconductor-logicfs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-logicfs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-logicfs
    :alt:   (downloads)
 .. |docker_bioconductor-logicfs| image:: https://quay.io/repository/biocontainers/bioconductor-logicfs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-logicfs

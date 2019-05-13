@@ -47,6 +47,7 @@ shapeshifter-cli
 
 
 .. |downloads_shapeshifter-cli| image:: https://img.shields.io/conda/dn/bioconda/shapeshifter-cli.svg?style=flat
+   :target: https://anaconda.org/bioconda/shapeshifter-cli
    :alt:   (downloads)
 .. |docker_shapeshifter-cli| image:: https://quay.io/repository/biocontainers/shapeshifter-cli/status
    :target: https://quay.io/repository/biocontainers/shapeshifter-cli

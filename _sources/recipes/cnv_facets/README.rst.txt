@@ -54,6 +54,7 @@ cnv_facets
 
 
 .. |downloads_cnv_facets| image:: https://img.shields.io/conda/dn/bioconda/cnv_facets.svg?style=flat
+   :target: https://anaconda.org/bioconda/cnv_facets
    :alt:   (downloads)
 .. |docker_cnv_facets| image:: https://quay.io/repository/biocontainers/cnv_facets/status
    :target: https://quay.io/repository/biocontainers/cnv_facets

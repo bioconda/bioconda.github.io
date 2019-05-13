@@ -48,6 +48,7 @@ openslide-python
 
 
 .. |downloads_openslide-python| image:: https://img.shields.io/conda/dn/bioconda/openslide-python.svg?style=flat
+   :target: https://anaconda.org/bioconda/openslide-python
    :alt:   (downloads)
 .. |docker_openslide-python| image:: https://quay.io/repository/biocontainers/openslide-python/status
    :target: https://quay.io/repository/biocontainers/openslide-python

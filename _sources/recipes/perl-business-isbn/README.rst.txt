@@ -46,6 +46,7 @@ perl-business-isbn
 
 
 .. |downloads_perl-business-isbn| image:: https://img.shields.io/conda/dn/bioconda/perl-business-isbn.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-business-isbn
    :alt:   (downloads)
 .. |docker_perl-business-isbn| image:: https://quay.io/repository/biocontainers/perl-business-isbn/status
    :target: https://quay.io/repository/biocontainers/perl-business-isbn

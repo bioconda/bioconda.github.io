@@ -45,6 +45,7 @@ hmftools-cobalt
 
 
 .. |downloads_hmftools-cobalt| image:: https://img.shields.io/conda/dn/bioconda/hmftools-cobalt.svg?style=flat
+   :target: https://anaconda.org/bioconda/hmftools-cobalt
    :alt:   (downloads)
 .. |docker_hmftools-cobalt| image:: https://quay.io/repository/biocontainers/hmftools-cobalt/status
    :target: https://quay.io/repository/biocontainers/hmftools-cobalt

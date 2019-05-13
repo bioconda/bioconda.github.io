@@ -63,6 +63,7 @@ circos
 
 
 .. |downloads_circos| image:: https://img.shields.io/conda/dn/bioconda/circos.svg?style=flat
+   :target: https://anaconda.org/bioconda/circos
    :alt:   (downloads)
 .. |docker_circos| image:: https://quay.io/repository/biocontainers/circos/status
    :target: https://quay.io/repository/biocontainers/circos

@@ -50,6 +50,7 @@ ucsc-faonerecord
 
 
 .. |downloads_ucsc-faonerecord| image:: https://img.shields.io/conda/dn/bioconda/ucsc-faonerecord.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-faonerecord
    :alt:   (downloads)
 .. |docker_ucsc-faonerecord| image:: https://quay.io/repository/biocontainers/ucsc-faonerecord/status
    :target: https://quay.io/repository/biocontainers/ucsc-faonerecord

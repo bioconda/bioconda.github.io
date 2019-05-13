@@ -47,6 +47,7 @@ bioconductor-rtcga.methylation
 
 
 .. |downloads_bioconductor-rtcga.methylation| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtcga.methylation.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rtcga.methylation
    :alt:   (downloads)
 .. |docker_bioconductor-rtcga.methylation| image:: https://quay.io/repository/biocontainers/bioconductor-rtcga.methylation/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtcga.methylation

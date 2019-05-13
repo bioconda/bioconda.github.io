@@ -44,6 +44,7 @@ tracy
 
 
 .. |downloads_tracy| image:: https://img.shields.io/conda/dn/bioconda/tracy.svg?style=flat
+   :target: https://anaconda.org/bioconda/tracy
    :alt:   (downloads)
 .. |docker_tracy| image:: https://quay.io/repository/biocontainers/tracy/status
    :target: https://quay.io/repository/biocontainers/tracy

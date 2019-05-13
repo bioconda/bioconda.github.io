@@ -56,6 +56,7 @@ bioconductor-interactionset
 
 
 .. |downloads_bioconductor-interactionset| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-interactionset.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-interactionset
    :alt:   (downloads)
 .. |docker_bioconductor-interactionset| image:: https://quay.io/repository/biocontainers/bioconductor-interactionset/status
    :target: https://quay.io/repository/biocontainers/bioconductor-interactionset

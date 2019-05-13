@@ -48,6 +48,7 @@ bioconductor-rgug4131a.db
 
 
 .. |downloads_bioconductor-rgug4131a.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rgug4131a.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rgug4131a.db
    :alt:   (downloads)
 .. |docker_bioconductor-rgug4131a.db| image:: https://quay.io/repository/biocontainers/bioconductor-rgug4131a.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rgug4131a.db

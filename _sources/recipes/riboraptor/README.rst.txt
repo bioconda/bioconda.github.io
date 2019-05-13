@@ -69,6 +69,7 @@ riboraptor
 
 
 .. |downloads_riboraptor| image:: https://img.shields.io/conda/dn/bioconda/riboraptor.svg?style=flat
+   :target: https://anaconda.org/bioconda/riboraptor
    :alt:   (downloads)
 .. |docker_riboraptor| image:: https://quay.io/repository/biocontainers/riboraptor/status
    :target: https://quay.io/repository/biocontainers/riboraptor

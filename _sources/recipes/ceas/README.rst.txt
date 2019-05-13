@@ -47,6 +47,7 @@ ceas
 
 
 .. |downloads_ceas| image:: https://img.shields.io/conda/dn/bioconda/ceas.svg?style=flat
+   :target: https://anaconda.org/bioconda/ceas
    :alt:   (downloads)
 .. |docker_ceas| image:: https://quay.io/repository/biocontainers/ceas/status
    :target: https://quay.io/repository/biocontainers/ceas

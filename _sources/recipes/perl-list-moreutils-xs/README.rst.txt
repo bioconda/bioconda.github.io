@@ -46,6 +46,7 @@ perl-list-moreutils-xs
 
 
 .. |downloads_perl-list-moreutils-xs| image:: https://img.shields.io/conda/dn/bioconda/perl-list-moreutils-xs.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-list-moreutils-xs
    :alt:   (downloads)
 .. |docker_perl-list-moreutils-xs| image:: https://quay.io/repository/biocontainers/perl-list-moreutils-xs/status
    :target: https://quay.io/repository/biocontainers/perl-list-moreutils-xs

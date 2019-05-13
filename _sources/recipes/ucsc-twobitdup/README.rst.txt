@@ -50,6 +50,7 @@ ucsc-twobitdup
 
 
 .. |downloads_ucsc-twobitdup| image:: https://img.shields.io/conda/dn/bioconda/ucsc-twobitdup.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-twobitdup
    :alt:   (downloads)
 .. |docker_ucsc-twobitdup| image:: https://quay.io/repository/biocontainers/ucsc-twobitdup/status
    :target: https://quay.io/repository/biocontainers/ucsc-twobitdup

@@ -47,6 +47,7 @@ bioconductor-mesh.tgo.me49.eg.db
 
 
 .. |downloads_bioconductor-mesh.tgo.me49.eg.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mesh.tgo.me49.eg.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mesh.tgo.me49.eg.db
    :alt:   (downloads)
 .. |docker_bioconductor-mesh.tgo.me49.eg.db| image:: https://quay.io/repository/biocontainers/bioconductor-mesh.tgo.me49.eg.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mesh.tgo.me49.eg.db

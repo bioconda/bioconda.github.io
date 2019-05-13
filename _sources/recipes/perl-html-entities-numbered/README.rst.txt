@@ -45,6 +45,7 @@ perl-html-entities-numbered
 
 
 .. |downloads_perl-html-entities-numbered| image:: https://img.shields.io/conda/dn/bioconda/perl-html-entities-numbered.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-html-entities-numbered
    :alt:   (downloads)
 .. |docker_perl-html-entities-numbered| image:: https://quay.io/repository/biocontainers/perl-html-entities-numbered/status
    :target: https://quay.io/repository/biocontainers/perl-html-entities-numbered

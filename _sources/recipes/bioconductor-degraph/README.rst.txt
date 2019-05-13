@@ -56,6 +56,7 @@ bioconductor-degraph
 
 
 .. |downloads_bioconductor-degraph| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-degraph.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-degraph
    :alt:   (downloads)
 .. |docker_bioconductor-degraph| image:: https://quay.io/repository/biocontainers/bioconductor-degraph/status
    :target: https://quay.io/repository/biocontainers/bioconductor-degraph

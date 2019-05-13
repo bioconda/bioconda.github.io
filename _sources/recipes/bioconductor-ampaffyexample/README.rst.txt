@@ -47,6 +47,7 @@ bioconductor-ampaffyexample
 
 
 .. |downloads_bioconductor-ampaffyexample| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ampaffyexample.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ampaffyexample
    :alt:   (downloads)
 .. |docker_bioconductor-ampaffyexample| image:: https://quay.io/repository/biocontainers/bioconductor-ampaffyexample/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ampaffyexample

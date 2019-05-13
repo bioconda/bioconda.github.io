@@ -51,6 +51,7 @@ bioconductor-srap
 
 
 .. |downloads_bioconductor-srap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-srap.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-srap
    :alt:   (downloads)
 .. |docker_bioconductor-srap| image:: https://quay.io/repository/biocontainers/bioconductor-srap/status
    :target: https://quay.io/repository/biocontainers/bioconductor-srap

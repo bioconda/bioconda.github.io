@@ -48,6 +48,7 @@ perl-pod-coverage-trustpod
 
 
 .. |downloads_perl-pod-coverage-trustpod| image:: https://img.shields.io/conda/dn/bioconda/perl-pod-coverage-trustpod.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-pod-coverage-trustpod
    :alt:   (downloads)
 .. |docker_perl-pod-coverage-trustpod| image:: https://quay.io/repository/biocontainers/perl-pod-coverage-trustpod/status
    :target: https://quay.io/repository/biocontainers/perl-pod-coverage-trustpod

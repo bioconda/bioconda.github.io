@@ -46,6 +46,7 @@ bioconductor-bac
 
 
 .. |downloads_bioconductor-bac| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bac.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bac
    :alt:   (downloads)
 .. |docker_bioconductor-bac| image:: https://quay.io/repository/biocontainers/bioconductor-bac/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bac

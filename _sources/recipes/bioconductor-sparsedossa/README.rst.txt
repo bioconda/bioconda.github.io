@@ -49,6 +49,7 @@ bioconductor-sparsedossa
 
 
 .. |downloads_bioconductor-sparsedossa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sparsedossa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sparsedossa
    :alt:   (downloads)
 .. |docker_bioconductor-sparsedossa| image:: https://quay.io/repository/biocontainers/bioconductor-sparsedossa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sparsedossa

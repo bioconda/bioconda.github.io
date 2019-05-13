@@ -49,6 +49,7 @@ krbalancing
 
 
 .. |downloads_krbalancing| image:: https://img.shields.io/conda/dn/bioconda/krbalancing.svg?style=flat
+   :target: https://anaconda.org/bioconda/krbalancing
    :alt:   (downloads)
 .. |docker_krbalancing| image:: https://quay.io/repository/biocontainers/krbalancing/status
    :target: https://quay.io/repository/biocontainers/krbalancing

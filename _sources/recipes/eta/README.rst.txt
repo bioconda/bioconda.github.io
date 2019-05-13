@@ -45,6 +45,7 @@ eta
 
 
 .. |downloads_eta| image:: https://img.shields.io/conda/dn/bioconda/eta.svg?style=flat
+   :target: https://anaconda.org/bioconda/eta
    :alt:   (downloads)
 .. |docker_eta| image:: https://quay.io/repository/biocontainers/eta/status
    :target: https://quay.io/repository/biocontainers/eta

@@ -49,6 +49,7 @@ perl-filedirutil
 
 
 .. |downloads_perl-filedirutil| image:: https://img.shields.io/conda/dn/bioconda/perl-filedirutil.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-filedirutil
    :alt:   (downloads)
 .. |docker_perl-filedirutil| image:: https://quay.io/repository/biocontainers/perl-filedirutil/status
    :target: https://quay.io/repository/biocontainers/perl-filedirutil

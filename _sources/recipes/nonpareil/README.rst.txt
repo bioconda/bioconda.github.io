@@ -47,6 +47,7 @@ nonpareil
 
 
 .. |downloads_nonpareil| image:: https://img.shields.io/conda/dn/bioconda/nonpareil.svg?style=flat
+   :target: https://anaconda.org/bioconda/nonpareil
    :alt:   (downloads)
 .. |docker_nonpareil| image:: https://quay.io/repository/biocontainers/nonpareil/status
    :target: https://quay.io/repository/biocontainers/nonpareil

@@ -49,6 +49,7 @@ bioconductor-rcytoscape
 
 
 .. |downloads_bioconductor-rcytoscape| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rcytoscape.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rcytoscape
    :alt:   (downloads)
 .. |docker_bioconductor-rcytoscape| image:: https://quay.io/repository/biocontainers/bioconductor-rcytoscape/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rcytoscape

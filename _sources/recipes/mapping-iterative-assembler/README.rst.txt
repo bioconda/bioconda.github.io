@@ -46,6 +46,7 @@ mapping-iterative-assembler
 
 
 .. |downloads_mapping-iterative-assembler| image:: https://img.shields.io/conda/dn/bioconda/mapping-iterative-assembler.svg?style=flat
+   :target: https://anaconda.org/bioconda/mapping-iterative-assembler
    :alt:   (downloads)
 .. |docker_mapping-iterative-assembler| image:: https://quay.io/repository/biocontainers/mapping-iterative-assembler/status
    :target: https://quay.io/repository/biocontainers/mapping-iterative-assembler

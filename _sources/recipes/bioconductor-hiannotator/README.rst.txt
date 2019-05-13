@@ -54,6 +54,7 @@ bioconductor-hiannotator
 
 
 .. |downloads_bioconductor-hiannotator| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hiannotator.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hiannotator
    :alt:   (downloads)
 .. |docker_bioconductor-hiannotator| image:: https://quay.io/repository/biocontainers/bioconductor-hiannotator/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hiannotator

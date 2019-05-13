@@ -50,6 +50,7 @@ ucsc-hgloadchain
 
 
 .. |downloads_ucsc-hgloadchain| image:: https://img.shields.io/conda/dn/bioconda/ucsc-hgloadchain.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-hgloadchain
    :alt:   (downloads)
 .. |docker_ucsc-hgloadchain| image:: https://quay.io/repository/biocontainers/ucsc-hgloadchain/status
    :target: https://quay.io/repository/biocontainers/ucsc-hgloadchain

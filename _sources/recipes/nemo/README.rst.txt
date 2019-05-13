@@ -47,6 +47,7 @@ nemo
 
 
 .. |downloads_nemo| image:: https://img.shields.io/conda/dn/bioconda/nemo.svg?style=flat
+   :target: https://anaconda.org/bioconda/nemo
    :alt:   (downloads)
 .. |docker_nemo| image:: https://quay.io/repository/biocontainers/nemo/status
    :target: https://quay.io/repository/biocontainers/nemo

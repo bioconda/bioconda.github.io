@@ -51,6 +51,7 @@ lace
 
 
 .. |downloads_lace| image:: https://img.shields.io/conda/dn/bioconda/lace.svg?style=flat
+   :target: https://anaconda.org/bioconda/lace
    :alt:   (downloads)
 .. |docker_lace| image:: https://quay.io/repository/biocontainers/lace/status
    :target: https://quay.io/repository/biocontainers/lace

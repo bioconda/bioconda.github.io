@@ -50,6 +50,7 @@ ucsc-parasol
 
 
 .. |downloads_ucsc-parasol| image:: https://img.shields.io/conda/dn/bioconda/ucsc-parasol.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-parasol
    :alt:   (downloads)
 .. |docker_ucsc-parasol| image:: https://quay.io/repository/biocontainers/ucsc-parasol/status
    :target: https://quay.io/repository/biocontainers/ucsc-parasol

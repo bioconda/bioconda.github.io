@@ -49,6 +49,7 @@ fastqc
 
 
 .. |downloads_fastqc| image:: https://img.shields.io/conda/dn/bioconda/fastqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastqc
    :alt:   (downloads)
 .. |docker_fastqc| image:: https://quay.io/repository/biocontainers/fastqc/status
    :target: https://quay.io/repository/biocontainers/fastqc

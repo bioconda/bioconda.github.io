@@ -47,6 +47,7 @@ cgcloud-lib
 
 
 .. |downloads_cgcloud-lib| image:: https://img.shields.io/conda/dn/bioconda/cgcloud-lib.svg?style=flat
+   :target: https://anaconda.org/bioconda/cgcloud-lib
    :alt:   (downloads)
 .. |docker_cgcloud-lib| image:: https://quay.io/repository/biocontainers/cgcloud-lib/status
    :target: https://quay.io/repository/biocontainers/cgcloud-lib

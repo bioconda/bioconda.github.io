@@ -47,6 +47,7 @@ bioconductor-u133x3pprobe
 
 
 .. |downloads_bioconductor-u133x3pprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-u133x3pprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-u133x3pprobe
    :alt:   (downloads)
 .. |docker_bioconductor-u133x3pprobe| image:: https://quay.io/repository/biocontainers/bioconductor-u133x3pprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-u133x3pprobe

@@ -46,6 +46,7 @@ bioconductor-mouse4302frmavecs
 
 
 .. |downloads_bioconductor-mouse4302frmavecs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mouse4302frmavecs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mouse4302frmavecs
    :alt:   (downloads)
 .. |docker_bioconductor-mouse4302frmavecs| image:: https://quay.io/repository/biocontainers/bioconductor-mouse4302frmavecs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mouse4302frmavecs

@@ -47,6 +47,7 @@ perl-class-xsaccessor
 
 
 .. |downloads_perl-class-xsaccessor| image:: https://img.shields.io/conda/dn/bioconda/perl-class-xsaccessor.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-class-xsaccessor
    :alt:   (downloads)
 .. |docker_perl-class-xsaccessor| image:: https://quay.io/repository/biocontainers/perl-class-xsaccessor/status
    :target: https://quay.io/repository/biocontainers/perl-class-xsaccessor

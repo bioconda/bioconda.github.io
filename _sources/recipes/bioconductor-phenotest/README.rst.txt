@@ -66,6 +66,7 @@ bioconductor-phenotest
 
 
 .. |downloads_bioconductor-phenotest| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-phenotest.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-phenotest
    :alt:   (downloads)
 .. |docker_bioconductor-phenotest| image:: https://quay.io/repository/biocontainers/bioconductor-phenotest/status
    :target: https://quay.io/repository/biocontainers/bioconductor-phenotest

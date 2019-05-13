@@ -50,6 +50,7 @@ bioconductor-medme
 
 
 .. |downloads_bioconductor-medme| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-medme.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-medme
    :alt:   (downloads)
 .. |docker_bioconductor-medme| image:: https://quay.io/repository/biocontainers/bioconductor-medme/status
    :target: https://quay.io/repository/biocontainers/bioconductor-medme

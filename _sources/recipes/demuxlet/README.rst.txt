@@ -54,6 +54,7 @@ demuxlet
 
 
 .. |downloads_demuxlet| image:: https://img.shields.io/conda/dn/bioconda/demuxlet.svg?style=flat
+   :target: https://anaconda.org/bioconda/demuxlet
    :alt:   (downloads)
 .. |docker_demuxlet| image:: https://quay.io/repository/biocontainers/demuxlet/status
    :target: https://quay.io/repository/biocontainers/demuxlet

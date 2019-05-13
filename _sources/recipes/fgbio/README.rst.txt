@@ -46,6 +46,7 @@ fgbio
 
 
 .. |downloads_fgbio| image:: https://img.shields.io/conda/dn/bioconda/fgbio.svg?style=flat
+   :target: https://anaconda.org/bioconda/fgbio
    :alt:   (downloads)
 .. |docker_fgbio| image:: https://quay.io/repository/biocontainers/fgbio/status
    :target: https://quay.io/repository/biocontainers/fgbio

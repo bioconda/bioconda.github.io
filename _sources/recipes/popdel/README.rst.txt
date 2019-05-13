@@ -47,6 +47,7 @@ popdel
 
 
 .. |downloads_popdel| image:: https://img.shields.io/conda/dn/bioconda/popdel.svg?style=flat
+   :target: https://anaconda.org/bioconda/popdel
    :alt:   (downloads)
 .. |docker_popdel| image:: https://quay.io/repository/biocontainers/popdel/status
    :target: https://quay.io/repository/biocontainers/popdel

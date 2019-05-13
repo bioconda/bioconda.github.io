@@ -45,6 +45,7 @@ perl-blib
 
 
 .. |downloads_perl-blib| image:: https://img.shields.io/conda/dn/bioconda/perl-blib.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-blib
    :alt:   (downloads)
 .. |docker_perl-blib| image:: https://quay.io/repository/biocontainers/perl-blib/status
    :target: https://quay.io/repository/biocontainers/perl-blib

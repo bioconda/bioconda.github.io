@@ -50,6 +50,7 @@ ucsc-mafranges
 
 
 .. |downloads_ucsc-mafranges| image:: https://img.shields.io/conda/dn/bioconda/ucsc-mafranges.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-mafranges
    :alt:   (downloads)
 .. |docker_ucsc-mafranges| image:: https://quay.io/repository/biocontainers/ucsc-mafranges/status
    :target: https://quay.io/repository/biocontainers/ucsc-mafranges

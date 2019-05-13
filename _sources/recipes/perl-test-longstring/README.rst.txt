@@ -47,6 +47,7 @@ perl-test-longstring
 
 
 .. |downloads_perl-test-longstring| image:: https://img.shields.io/conda/dn/bioconda/perl-test-longstring.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-longstring
    :alt:   (downloads)
 .. |docker_perl-test-longstring| image:: https://quay.io/repository/biocontainers/perl-test-longstring/status
    :target: https://quay.io/repository/biocontainers/perl-test-longstring

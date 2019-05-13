@@ -47,6 +47,7 @@ beagle-lib
 
 
 .. |downloads_beagle-lib| image:: https://img.shields.io/conda/dn/bioconda/beagle-lib.svg?style=flat
+   :target: https://anaconda.org/bioconda/beagle-lib
    :alt:   (downloads)
 .. |docker_beagle-lib| image:: https://quay.io/repository/biocontainers/beagle-lib/status
    :target: https://quay.io/repository/biocontainers/beagle-lib

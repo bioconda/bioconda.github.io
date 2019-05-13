@@ -47,6 +47,7 @@ fgap
 
 
 .. |downloads_fgap| image:: https://img.shields.io/conda/dn/bioconda/fgap.svg?style=flat
+   :target: https://anaconda.org/bioconda/fgap
    :alt:   (downloads)
 .. |docker_fgap| image:: https://quay.io/repository/biocontainers/fgap/status
    :target: https://quay.io/repository/biocontainers/fgap

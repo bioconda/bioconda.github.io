@@ -50,6 +50,7 @@ bioconductor-epidish
 
 
 .. |downloads_bioconductor-epidish| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-epidish.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-epidish
    :alt:   (downloads)
 .. |docker_bioconductor-epidish| image:: https://quay.io/repository/biocontainers/bioconductor-epidish/status
    :target: https://quay.io/repository/biocontainers/bioconductor-epidish

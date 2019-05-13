@@ -48,6 +48,7 @@ seurat-scripts
 
 
 .. |downloads_seurat-scripts| image:: https://img.shields.io/conda/dn/bioconda/seurat-scripts.svg?style=flat
+   :target: https://anaconda.org/bioconda/seurat-scripts
    :alt:   (downloads)
 .. |docker_seurat-scripts| image:: https://quay.io/repository/biocontainers/seurat-scripts/status
    :target: https://quay.io/repository/biocontainers/seurat-scripts

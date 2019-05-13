@@ -52,6 +52,7 @@ iced
 
 
 .. |downloads_iced| image:: https://img.shields.io/conda/dn/bioconda/iced.svg?style=flat
+   :target: https://anaconda.org/bioconda/iced
    :alt:   (downloads)
 .. |docker_iced| image:: https://quay.io/repository/biocontainers/iced/status
    :target: https://quay.io/repository/biocontainers/iced

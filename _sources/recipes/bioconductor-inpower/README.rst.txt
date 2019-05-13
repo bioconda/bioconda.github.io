@@ -47,6 +47,7 @@ bioconductor-inpower
 
 
 .. |downloads_bioconductor-inpower| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-inpower.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-inpower
    :alt:   (downloads)
 .. |docker_bioconductor-inpower| image:: https://quay.io/repository/biocontainers/bioconductor-inpower/status
    :target: https://quay.io/repository/biocontainers/bioconductor-inpower

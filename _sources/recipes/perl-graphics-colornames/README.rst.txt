@@ -51,6 +51,7 @@ perl-graphics-colornames
 
 
 .. |downloads_perl-graphics-colornames| image:: https://img.shields.io/conda/dn/bioconda/perl-graphics-colornames.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-graphics-colornames
    :alt:   (downloads)
 .. |docker_perl-graphics-colornames| image:: https://quay.io/repository/biocontainers/perl-graphics-colornames/status
    :target: https://quay.io/repository/biocontainers/perl-graphics-colornames

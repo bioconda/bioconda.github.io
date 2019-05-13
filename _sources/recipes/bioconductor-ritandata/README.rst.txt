@@ -46,6 +46,7 @@ bioconductor-ritandata
 
 
 .. |downloads_bioconductor-ritandata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ritandata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ritandata
    :alt:   (downloads)
 .. |docker_bioconductor-ritandata| image:: https://quay.io/repository/biocontainers/bioconductor-ritandata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ritandata

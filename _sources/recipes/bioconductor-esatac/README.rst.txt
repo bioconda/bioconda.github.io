@@ -78,6 +78,7 @@ bioconductor-esatac
 
 
 .. |downloads_bioconductor-esatac| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-esatac.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-esatac
    :alt:   (downloads)
 .. |docker_bioconductor-esatac| image:: https://quay.io/repository/biocontainers/bioconductor-esatac/status
    :target: https://quay.io/repository/biocontainers/bioconductor-esatac

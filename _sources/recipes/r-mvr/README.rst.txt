@@ -48,6 +48,7 @@ r-mvr
 
 
 .. |downloads_r-mvr| image:: https://img.shields.io/conda/dn/bioconda/r-mvr.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-mvr
    :alt:   (downloads)
 .. |docker_r-mvr| image:: https://quay.io/repository/biocontainers/r-mvr/status
    :target: https://quay.io/repository/biocontainers/r-mvr

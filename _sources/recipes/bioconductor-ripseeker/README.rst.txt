@@ -53,6 +53,7 @@ bioconductor-ripseeker
 
 
 .. |downloads_bioconductor-ripseeker| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ripseeker.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ripseeker
    :alt:   (downloads)
 .. |docker_bioconductor-ripseeker| image:: https://quay.io/repository/biocontainers/bioconductor-ripseeker/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ripseeker

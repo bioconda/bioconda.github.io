@@ -57,6 +57,7 @@ r-aroma.affymetrix
 
 
 .. |downloads_r-aroma.affymetrix| image:: https://img.shields.io/conda/dn/bioconda/r-aroma.affymetrix.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-aroma.affymetrix
    :alt:   (downloads)
 .. |docker_r-aroma.affymetrix| image:: https://quay.io/repository/biocontainers/r-aroma.affymetrix/status
    :target: https://quay.io/repository/biocontainers/r-aroma.affymetrix

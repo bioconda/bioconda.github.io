@@ -53,6 +53,7 @@ bioconductor-curatedmetagenomicdata
 
 
 .. |downloads_bioconductor-curatedmetagenomicdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-curatedmetagenomicdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-curatedmetagenomicdata
    :alt:   (downloads)
 .. |docker_bioconductor-curatedmetagenomicdata| image:: https://quay.io/repository/biocontainers/bioconductor-curatedmetagenomicdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-curatedmetagenomicdata

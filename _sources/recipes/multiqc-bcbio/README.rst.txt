@@ -46,6 +46,7 @@ multiqc-bcbio
 
 
 .. |downloads_multiqc-bcbio| image:: https://img.shields.io/conda/dn/bioconda/multiqc-bcbio.svg?style=flat
+   :target: https://anaconda.org/bioconda/multiqc-bcbio
    :alt:   (downloads)
 .. |docker_multiqc-bcbio| image:: https://quay.io/repository/biocontainers/multiqc-bcbio/status
    :target: https://quay.io/repository/biocontainers/multiqc-bcbio

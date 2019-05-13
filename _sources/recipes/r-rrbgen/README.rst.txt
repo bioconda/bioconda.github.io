@@ -48,6 +48,7 @@ r-rrbgen
 
 
 .. |downloads_r-rrbgen| image:: https://img.shields.io/conda/dn/bioconda/r-rrbgen.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-rrbgen
    :alt:   (downloads)
 .. |docker_r-rrbgen| image:: https://quay.io/repository/biocontainers/r-rrbgen/status
    :target: https://quay.io/repository/biocontainers/r-rrbgen

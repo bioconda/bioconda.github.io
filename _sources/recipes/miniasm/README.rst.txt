@@ -46,6 +46,7 @@ miniasm
 
 
 .. |downloads_miniasm| image:: https://img.shields.io/conda/dn/bioconda/miniasm.svg?style=flat
+   :target: https://anaconda.org/bioconda/miniasm
    :alt:   (downloads)
 .. |docker_miniasm| image:: https://quay.io/repository/biocontainers/miniasm/status
    :target: https://quay.io/repository/biocontainers/miniasm

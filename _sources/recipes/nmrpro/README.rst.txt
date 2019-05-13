@@ -48,6 +48,7 @@ nmrpro
 
 
 .. |downloads_nmrpro| image:: https://img.shields.io/conda/dn/bioconda/nmrpro.svg?style=flat
+   :target: https://anaconda.org/bioconda/nmrpro
    :alt:   (downloads)
 .. |docker_nmrpro| image:: https://quay.io/repository/biocontainers/nmrpro/status
    :target: https://quay.io/repository/biocontainers/nmrpro

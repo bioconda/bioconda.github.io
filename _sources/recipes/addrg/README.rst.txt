@@ -46,6 +46,7 @@ addrg
 
 
 .. |downloads_addrg| image:: https://img.shields.io/conda/dn/bioconda/addrg.svg?style=flat
+   :target: https://anaconda.org/bioconda/addrg
    :alt:   (downloads)
 .. |docker_addrg| image:: https://quay.io/repository/biocontainers/addrg/status
    :target: https://quay.io/repository/biocontainers/addrg

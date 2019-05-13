@@ -47,6 +47,7 @@ bio_assembly_refinement
 
 
 .. |downloads_bio_assembly_refinement| image:: https://img.shields.io/conda/dn/bioconda/bio_assembly_refinement.svg?style=flat
+   :target: https://anaconda.org/bioconda/bio_assembly_refinement
    :alt:   (downloads)
 .. |docker_bio_assembly_refinement| image:: https://quay.io/repository/biocontainers/bio_assembly_refinement/status
    :target: https://quay.io/repository/biocontainers/bio_assembly_refinement

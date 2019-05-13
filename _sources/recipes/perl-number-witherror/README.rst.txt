@@ -47,6 +47,7 @@ perl-number-witherror
 
 
 .. |downloads_perl-number-witherror| image:: https://img.shields.io/conda/dn/bioconda/perl-number-witherror.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-number-witherror
    :alt:   (downloads)
 .. |docker_perl-number-witherror| image:: https://quay.io/repository/biocontainers/perl-number-witherror/status
    :target: https://quay.io/repository/biocontainers/perl-number-witherror

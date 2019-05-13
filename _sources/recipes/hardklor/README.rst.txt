@@ -45,6 +45,7 @@ hardklor
 
 
 .. |downloads_hardklor| image:: https://img.shields.io/conda/dn/bioconda/hardklor.svg?style=flat
+   :target: https://anaconda.org/bioconda/hardklor
    :alt:   (downloads)
 .. |docker_hardklor| image:: https://quay.io/repository/biocontainers/hardklor/status
    :target: https://quay.io/repository/biocontainers/hardklor

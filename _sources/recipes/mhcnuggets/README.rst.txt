@@ -75,6 +75,7 @@ mhcnuggets
 
 
 .. |downloads_mhcnuggets| image:: https://img.shields.io/conda/dn/bioconda/mhcnuggets.svg?style=flat
+   :target: https://anaconda.org/bioconda/mhcnuggets
    :alt:   (downloads)
 .. |docker_mhcnuggets| image:: https://quay.io/repository/biocontainers/mhcnuggets/status
    :target: https://quay.io/repository/biocontainers/mhcnuggets

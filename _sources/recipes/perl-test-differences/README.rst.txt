@@ -47,6 +47,7 @@ perl-test-differences
 
 
 .. |downloads_perl-test-differences| image:: https://img.shields.io/conda/dn/bioconda/perl-test-differences.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-differences
    :alt:   (downloads)
 .. |docker_perl-test-differences| image:: https://quay.io/repository/biocontainers/perl-test-differences/status
    :target: https://quay.io/repository/biocontainers/perl-test-differences

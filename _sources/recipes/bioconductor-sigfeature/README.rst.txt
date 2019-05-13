@@ -55,6 +55,7 @@ bioconductor-sigfeature
 
 
 .. |downloads_bioconductor-sigfeature| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sigfeature.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sigfeature
    :alt:   (downloads)
 .. |docker_bioconductor-sigfeature| image:: https://quay.io/repository/biocontainers/bioconductor-sigfeature/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sigfeature

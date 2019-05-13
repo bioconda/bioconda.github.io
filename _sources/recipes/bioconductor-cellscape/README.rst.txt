@@ -52,6 +52,7 @@ bioconductor-cellscape
 
 
 .. |downloads_bioconductor-cellscape| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cellscape.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cellscape
    :alt:   (downloads)
 .. |docker_bioconductor-cellscape| image:: https://quay.io/repository/biocontainers/bioconductor-cellscape/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cellscape

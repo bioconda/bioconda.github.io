@@ -52,6 +52,7 @@ purge_haplotigs
 
 
 .. |downloads_purge_haplotigs| image:: https://img.shields.io/conda/dn/bioconda/purge_haplotigs.svg?style=flat
+   :target: https://anaconda.org/bioconda/purge_haplotigs
    :alt:   (downloads)
 .. |docker_purge_haplotigs| image:: https://quay.io/repository/biocontainers/purge_haplotigs/status
    :target: https://quay.io/repository/biocontainers/purge_haplotigs

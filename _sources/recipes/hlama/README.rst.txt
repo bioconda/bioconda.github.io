@@ -47,6 +47,7 @@ hlama
 
 
 .. |downloads_hlama| image:: https://img.shields.io/conda/dn/bioconda/hlama.svg?style=flat
+   :target: https://anaconda.org/bioconda/hlama
    :alt:   (downloads)
 .. |docker_hlama| image:: https://quay.io/repository/biocontainers/hlama/status
    :target: https://quay.io/repository/biocontainers/hlama

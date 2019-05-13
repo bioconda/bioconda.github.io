@@ -46,6 +46,7 @@ perl-try-tiny-retry
 
 
 .. |downloads_perl-try-tiny-retry| image:: https://img.shields.io/conda/dn/bioconda/perl-try-tiny-retry.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-try-tiny-retry
    :alt:   (downloads)
 .. |docker_perl-try-tiny-retry| image:: https://quay.io/repository/biocontainers/perl-try-tiny-retry/status
    :target: https://quay.io/repository/biocontainers/perl-try-tiny-retry

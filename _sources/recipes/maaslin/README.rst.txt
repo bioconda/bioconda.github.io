@@ -57,6 +57,7 @@ maaslin
 
 
 .. |downloads_maaslin| image:: https://img.shields.io/conda/dn/bioconda/maaslin.svg?style=flat
+   :target: https://anaconda.org/bioconda/maaslin
    :alt:   (downloads)
 .. |docker_maaslin| image:: https://quay.io/repository/biocontainers/maaslin/status
    :target: https://quay.io/repository/biocontainers/maaslin

@@ -48,6 +48,7 @@ bioconductor-etec16s
 
 
 .. |downloads_bioconductor-etec16s| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-etec16s.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-etec16s
    :alt:   (downloads)
 .. |docker_bioconductor-etec16s| image:: https://quay.io/repository/biocontainers/bioconductor-etec16s/status
    :target: https://quay.io/repository/biocontainers/bioconductor-etec16s

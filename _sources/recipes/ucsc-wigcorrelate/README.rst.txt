@@ -50,6 +50,7 @@ ucsc-wigcorrelate
 
 
 .. |downloads_ucsc-wigcorrelate| image:: https://img.shields.io/conda/dn/bioconda/ucsc-wigcorrelate.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-wigcorrelate
    :alt:   (downloads)
 .. |docker_ucsc-wigcorrelate| image:: https://quay.io/repository/biocontainers/ucsc-wigcorrelate/status
    :target: https://quay.io/repository/biocontainers/ucsc-wigcorrelate

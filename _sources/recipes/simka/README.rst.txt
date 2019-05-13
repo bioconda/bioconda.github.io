@@ -47,6 +47,7 @@ simka
 
 
 .. |downloads_simka| image:: https://img.shields.io/conda/dn/bioconda/simka.svg?style=flat
+   :target: https://anaconda.org/bioconda/simka
    :alt:   (downloads)
 .. |docker_simka| image:: https://quay.io/repository/biocontainers/simka/status
    :target: https://quay.io/repository/biocontainers/simka

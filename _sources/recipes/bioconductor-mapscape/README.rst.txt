@@ -49,6 +49,7 @@ bioconductor-mapscape
 
 
 .. |downloads_bioconductor-mapscape| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mapscape.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mapscape
    :alt:   (downloads)
 .. |docker_bioconductor-mapscape| image:: https://quay.io/repository/biocontainers/bioconductor-mapscape/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mapscape

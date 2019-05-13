@@ -54,6 +54,7 @@ meta-sparse
 
 
 .. |downloads_meta-sparse| image:: https://img.shields.io/conda/dn/bioconda/meta-sparse.svg?style=flat
+   :target: https://anaconda.org/bioconda/meta-sparse
    :alt:   (downloads)
 .. |docker_meta-sparse| image:: https://quay.io/repository/biocontainers/meta-sparse/status
    :target: https://quay.io/repository/biocontainers/meta-sparse

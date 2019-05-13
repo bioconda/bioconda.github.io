@@ -53,6 +53,7 @@ bioconductor-pd.clariom.s.mouse
 
 
 .. |downloads_bioconductor-pd.clariom.s.mouse| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.clariom.s.mouse.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.clariom.s.mouse
    :alt:   (downloads)
 .. |docker_bioconductor-pd.clariom.s.mouse| image:: https://quay.io/repository/biocontainers/bioconductor-pd.clariom.s.mouse/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.clariom.s.mouse

@@ -45,6 +45,7 @@ bcbio-prioritize
 
 
 .. |downloads_bcbio-prioritize| image:: https://img.shields.io/conda/dn/bioconda/bcbio-prioritize.svg?style=flat
+   :target: https://anaconda.org/bioconda/bcbio-prioritize
    :alt:   (downloads)
 .. |docker_bcbio-prioritize| image:: https://quay.io/repository/biocontainers/bcbio-prioritize/status
    :target: https://quay.io/repository/biocontainers/bcbio-prioritize

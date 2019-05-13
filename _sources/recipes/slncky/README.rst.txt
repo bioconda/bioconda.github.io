@@ -49,6 +49,7 @@ slncky
 
 
 .. |downloads_slncky| image:: https://img.shields.io/conda/dn/bioconda/slncky.svg?style=flat
+   :target: https://anaconda.org/bioconda/slncky
    :alt:   (downloads)
 .. |docker_slncky| image:: https://quay.io/repository/biocontainers/slncky/status
    :target: https://quay.io/repository/biocontainers/slncky

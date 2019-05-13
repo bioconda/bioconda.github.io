@@ -48,6 +48,7 @@ bioconductor-txdb.scerevisiae.ucsc.saccer3.sgdgene
 
 
 .. |downloads_bioconductor-txdb.scerevisiae.ucsc.saccer3.sgdgene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-txdb.scerevisiae.ucsc.saccer3.sgdgene.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-txdb.scerevisiae.ucsc.saccer3.sgdgene
    :alt:   (downloads)
 .. |docker_bioconductor-txdb.scerevisiae.ucsc.saccer3.sgdgene| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.scerevisiae.ucsc.saccer3.sgdgene/status
    :target: https://quay.io/repository/biocontainers/bioconductor-txdb.scerevisiae.ucsc.saccer3.sgdgene

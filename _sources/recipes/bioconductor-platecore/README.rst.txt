@@ -53,6 +53,7 @@ bioconductor-platecore
 
 
 .. |downloads_bioconductor-platecore| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-platecore.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-platecore
    :alt:   (downloads)
 .. |docker_bioconductor-platecore| image:: https://quay.io/repository/biocontainers/bioconductor-platecore/status
    :target: https://quay.io/repository/biocontainers/bioconductor-platecore

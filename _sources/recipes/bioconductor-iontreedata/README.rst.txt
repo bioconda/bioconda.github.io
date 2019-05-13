@@ -46,6 +46,7 @@ bioconductor-iontreedata
 
 
 .. |downloads_bioconductor-iontreedata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-iontreedata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-iontreedata
    :alt:   (downloads)
 .. |docker_bioconductor-iontreedata| image:: https://quay.io/repository/biocontainers/bioconductor-iontreedata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-iontreedata

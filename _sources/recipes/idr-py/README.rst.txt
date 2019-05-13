@@ -90,6 +90,7 @@ idr-py
 
 
 .. |downloads_idr-py| image:: https://img.shields.io/conda/dn/bioconda/idr-py.svg?style=flat
+   :target: https://anaconda.org/bioconda/idr-py
    :alt:   (downloads)
 .. |docker_idr-py| image:: https://quay.io/repository/biocontainers/idr-py/status
    :target: https://quay.io/repository/biocontainers/idr-py

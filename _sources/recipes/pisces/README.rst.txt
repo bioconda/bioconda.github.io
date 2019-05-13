@@ -44,6 +44,7 @@ pisces
 
 
 .. |downloads_pisces| image:: https://img.shields.io/conda/dn/bioconda/pisces.svg?style=flat
+   :target: https://anaconda.org/bioconda/pisces
    :alt:   (downloads)
 .. |docker_pisces| image:: https://quay.io/repository/biocontainers/pisces/status
    :target: https://quay.io/repository/biocontainers/pisces

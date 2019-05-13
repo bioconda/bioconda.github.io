@@ -51,6 +51,7 @@ pyteomics
 
 
 .. |downloads_pyteomics| image:: https://img.shields.io/conda/dn/bioconda/pyteomics.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyteomics
    :alt:   (downloads)
 .. |docker_pyteomics| image:: https://quay.io/repository/biocontainers/pyteomics/status
    :target: https://quay.io/repository/biocontainers/pyteomics

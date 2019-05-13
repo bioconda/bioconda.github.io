@@ -70,6 +70,7 @@ bioconductor-ggtools
 
 
 .. |downloads_bioconductor-ggtools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ggtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ggtools
    :alt:   (downloads)
 .. |docker_bioconductor-ggtools| image:: https://quay.io/repository/biocontainers/bioconductor-ggtools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ggtools

@@ -54,6 +54,7 @@ perl-moosex-app
 
 
 .. |downloads_perl-moosex-app| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-app.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-moosex-app
    :alt:   (downloads)
 .. |docker_perl-moosex-app| image:: https://quay.io/repository/biocontainers/perl-moosex-app/status
    :target: https://quay.io/repository/biocontainers/perl-moosex-app

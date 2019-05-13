@@ -48,6 +48,7 @@ gappa
 
 
 .. |downloads_gappa| image:: https://img.shields.io/conda/dn/bioconda/gappa.svg?style=flat
+   :target: https://anaconda.org/bioconda/gappa
    :alt:   (downloads)
 .. |docker_gappa| image:: https://quay.io/repository/biocontainers/gappa/status
    :target: https://quay.io/repository/biocontainers/gappa

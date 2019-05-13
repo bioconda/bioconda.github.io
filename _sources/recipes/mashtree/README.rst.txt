@@ -51,6 +51,7 @@ mashtree
 
 
 .. |downloads_mashtree| image:: https://img.shields.io/conda/dn/bioconda/mashtree.svg?style=flat
+   :target: https://anaconda.org/bioconda/mashtree
    :alt:   (downloads)
 .. |docker_mashtree| image:: https://quay.io/repository/biocontainers/mashtree/status
    :target: https://quay.io/repository/biocontainers/mashtree

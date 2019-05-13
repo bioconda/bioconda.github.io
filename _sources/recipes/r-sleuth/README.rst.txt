@@ -56,6 +56,7 @@ r-sleuth
 
 
 .. |downloads_r-sleuth| image:: https://img.shields.io/conda/dn/bioconda/r-sleuth.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-sleuth
    :alt:   (downloads)
 .. |docker_r-sleuth| image:: https://quay.io/repository/biocontainers/r-sleuth/status
    :target: https://quay.io/repository/biocontainers/r-sleuth

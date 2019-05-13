@@ -46,6 +46,7 @@ mhcnames
 
 
 .. |downloads_mhcnames| image:: https://img.shields.io/conda/dn/bioconda/mhcnames.svg?style=flat
+   :target: https://anaconda.org/bioconda/mhcnames
    :alt:   (downloads)
 .. |docker_mhcnames| image:: https://quay.io/repository/biocontainers/mhcnames/status
    :target: https://quay.io/repository/biocontainers/mhcnames

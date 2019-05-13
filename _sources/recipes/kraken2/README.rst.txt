@@ -51,6 +51,7 @@ kraken2
 
 
 .. |downloads_kraken2| image:: https://img.shields.io/conda/dn/bioconda/kraken2.svg?style=flat
+   :target: https://anaconda.org/bioconda/kraken2
    :alt:   (downloads)
 .. |docker_kraken2| image:: https://quay.io/repository/biocontainers/kraken2/status
    :target: https://quay.io/repository/biocontainers/kraken2

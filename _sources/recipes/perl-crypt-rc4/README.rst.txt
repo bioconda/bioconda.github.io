@@ -45,6 +45,7 @@ perl-crypt-rc4
 
 
 .. |downloads_perl-crypt-rc4| image:: https://img.shields.io/conda/dn/bioconda/perl-crypt-rc4.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-crypt-rc4
    :alt:   (downloads)
 .. |docker_perl-crypt-rc4| image:: https://quay.io/repository/biocontainers/perl-crypt-rc4/status
    :target: https://quay.io/repository/biocontainers/perl-crypt-rc4

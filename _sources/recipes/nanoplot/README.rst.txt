@@ -55,6 +55,7 @@ nanoplot
 
 
 .. |downloads_nanoplot| image:: https://img.shields.io/conda/dn/bioconda/nanoplot.svg?style=flat
+   :target: https://anaconda.org/bioconda/nanoplot
    :alt:   (downloads)
 .. |docker_nanoplot| image:: https://quay.io/repository/biocontainers/nanoplot/status
    :target: https://quay.io/repository/biocontainers/nanoplot

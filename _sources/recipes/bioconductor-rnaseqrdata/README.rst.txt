@@ -46,6 +46,7 @@ bioconductor-rnaseqrdata
 
 
 .. |downloads_bioconductor-rnaseqrdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rnaseqrdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rnaseqrdata
    :alt:   (downloads)
 .. |docker_bioconductor-rnaseqrdata| image:: https://quay.io/repository/biocontainers/bioconductor-rnaseqrdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rnaseqrdata

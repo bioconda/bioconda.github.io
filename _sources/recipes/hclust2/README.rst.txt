@@ -49,6 +49,7 @@ hclust2
 
 
 .. |downloads_hclust2| image:: https://img.shields.io/conda/dn/bioconda/hclust2.svg?style=flat
+   :target: https://anaconda.org/bioconda/hclust2
    :alt:   (downloads)
 .. |docker_hclust2| image:: https://quay.io/repository/biocontainers/hclust2/status
    :target: https://quay.io/repository/biocontainers/hclust2

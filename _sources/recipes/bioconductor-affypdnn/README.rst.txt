@@ -47,6 +47,7 @@ bioconductor-affypdnn
 
 
 .. |downloads_bioconductor-affypdnn| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affypdnn.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-affypdnn
    :alt:   (downloads)
 .. |docker_bioconductor-affypdnn| image:: https://quay.io/repository/biocontainers/bioconductor-affypdnn/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affypdnn

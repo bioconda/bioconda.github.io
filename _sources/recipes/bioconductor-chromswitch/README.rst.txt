@@ -59,6 +59,7 @@ bioconductor-chromswitch
 
 
 .. |downloads_bioconductor-chromswitch| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chromswitch.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chromswitch
    :alt:   (downloads)
 .. |docker_bioconductor-chromswitch| image:: https://quay.io/repository/biocontainers/bioconductor-chromswitch/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chromswitch

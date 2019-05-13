@@ -48,6 +48,7 @@ r2r
 
 
 .. |downloads_r2r| image:: https://img.shields.io/conda/dn/bioconda/r2r.svg?style=flat
+   :target: https://anaconda.org/bioconda/r2r
    :alt:   (downloads)
 .. |docker_r2r| image:: https://quay.io/repository/biocontainers/r2r/status
    :target: https://quay.io/repository/biocontainers/r2r

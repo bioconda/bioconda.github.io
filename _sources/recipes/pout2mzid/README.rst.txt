@@ -48,6 +48,7 @@ pout2mzid
 
 
 .. |downloads_pout2mzid| image:: https://img.shields.io/conda/dn/bioconda/pout2mzid.svg?style=flat
+   :target: https://anaconda.org/bioconda/pout2mzid
    :alt:   (downloads)
 .. |docker_pout2mzid| image:: https://quay.io/repository/biocontainers/pout2mzid/status
    :target: https://quay.io/repository/biocontainers/pout2mzid

@@ -46,6 +46,7 @@ bioconductor-metamsdata
 
 
 .. |downloads_bioconductor-metamsdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metamsdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-metamsdata
    :alt:   (downloads)
 .. |docker_bioconductor-metamsdata| image:: https://quay.io/repository/biocontainers/bioconductor-metamsdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metamsdata

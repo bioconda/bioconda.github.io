@@ -71,6 +71,7 @@ jbrowse
 
 
 .. |downloads_jbrowse| image:: https://img.shields.io/conda/dn/bioconda/jbrowse.svg?style=flat
+   :target: https://anaconda.org/bioconda/jbrowse
    :alt:   (downloads)
 .. |docker_jbrowse| image:: https://quay.io/repository/biocontainers/jbrowse/status
    :target: https://quay.io/repository/biocontainers/jbrowse

@@ -47,6 +47,7 @@ bioconductor-bovinecdf
 
 
 .. |downloads_bioconductor-bovinecdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bovinecdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bovinecdf
    :alt:   (downloads)
 .. |docker_bioconductor-bovinecdf| image:: https://quay.io/repository/biocontainers/bioconductor-bovinecdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bovinecdf

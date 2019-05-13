@@ -50,6 +50,7 @@ ucsc-bedgraphpack
 
 
 .. |downloads_ucsc-bedgraphpack| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bedgraphpack.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bedgraphpack
    :alt:   (downloads)
 .. |docker_ucsc-bedgraphpack| image:: https://quay.io/repository/biocontainers/ucsc-bedgraphpack/status
    :target: https://quay.io/repository/biocontainers/ucsc-bedgraphpack

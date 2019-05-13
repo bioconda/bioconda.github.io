@@ -52,6 +52,7 @@ bioconductor-multiclust
 
 
 .. |downloads_bioconductor-multiclust| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-multiclust.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-multiclust
    :alt:   (downloads)
 .. |docker_bioconductor-multiclust| image:: https://quay.io/repository/biocontainers/bioconductor-multiclust/status
    :target: https://quay.io/repository/biocontainers/bioconductor-multiclust

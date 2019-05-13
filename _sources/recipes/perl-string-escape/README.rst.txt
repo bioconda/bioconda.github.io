@@ -45,6 +45,7 @@ perl-string-escape
 
 
 .. |downloads_perl-string-escape| image:: https://img.shields.io/conda/dn/bioconda/perl-string-escape.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-string-escape
    :alt:   (downloads)
 .. |docker_perl-string-escape| image:: https://quay.io/repository/biocontainers/perl-string-escape/status
    :target: https://quay.io/repository/biocontainers/perl-string-escape

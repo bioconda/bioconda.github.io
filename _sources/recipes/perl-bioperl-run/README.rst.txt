@@ -48,6 +48,7 @@ perl-bioperl-run
 
 
 .. |downloads_perl-bioperl-run| image:: https://img.shields.io/conda/dn/bioconda/perl-bioperl-run.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bioperl-run
    :alt:   (downloads)
 .. |docker_perl-bioperl-run| image:: https://quay.io/repository/biocontainers/perl-bioperl-run/status
    :target: https://quay.io/repository/biocontainers/perl-bioperl-run

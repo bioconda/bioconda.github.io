@@ -58,6 +58,7 @@ bioconductor-plyranges
 
 
 .. |downloads_bioconductor-plyranges| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-plyranges.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-plyranges
    :alt:   (downloads)
 .. |docker_bioconductor-plyranges| image:: https://quay.io/repository/biocontainers/bioconductor-plyranges/status
    :target: https://quay.io/repository/biocontainers/bioconductor-plyranges

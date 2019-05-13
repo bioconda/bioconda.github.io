@@ -53,6 +53,7 @@ bioconductor-gcrma
 
 
 .. |downloads_bioconductor-gcrma| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gcrma.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gcrma
    :alt:   (downloads)
 .. |docker_bioconductor-gcrma| image:: https://quay.io/repository/biocontainers/bioconductor-gcrma/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gcrma

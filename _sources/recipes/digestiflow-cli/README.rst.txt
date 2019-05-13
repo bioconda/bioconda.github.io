@@ -46,6 +46,7 @@ digestiflow-cli
 
 
 .. |downloads_digestiflow-cli| image:: https://img.shields.io/conda/dn/bioconda/digestiflow-cli.svg?style=flat
+   :target: https://anaconda.org/bioconda/digestiflow-cli
    :alt:   (downloads)
 .. |docker_digestiflow-cli| image:: https://quay.io/repository/biocontainers/digestiflow-cli/status
    :target: https://quay.io/repository/biocontainers/digestiflow-cli

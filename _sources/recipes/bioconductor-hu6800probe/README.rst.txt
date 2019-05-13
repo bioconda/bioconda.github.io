@@ -47,6 +47,7 @@ bioconductor-hu6800probe
 
 
 .. |downloads_bioconductor-hu6800probe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hu6800probe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hu6800probe
    :alt:   (downloads)
 .. |docker_bioconductor-hu6800probe| image:: https://quay.io/repository/biocontainers/bioconductor-hu6800probe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hu6800probe

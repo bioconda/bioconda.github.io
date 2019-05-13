@@ -58,6 +58,7 @@ r-bcbiornaseq
 
 
 .. |downloads_r-bcbiornaseq| image:: https://img.shields.io/conda/dn/bioconda/r-bcbiornaseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-bcbiornaseq
    :alt:   (downloads)
 .. |docker_r-bcbiornaseq| image:: https://quay.io/repository/biocontainers/r-bcbiornaseq/status
    :target: https://quay.io/repository/biocontainers/r-bcbiornaseq

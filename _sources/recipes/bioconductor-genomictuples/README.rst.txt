@@ -55,6 +55,7 @@ bioconductor-genomictuples
 
 
 .. |downloads_bioconductor-genomictuples| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genomictuples.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genomictuples
    :alt:   (downloads)
 .. |docker_bioconductor-genomictuples| image:: https://quay.io/repository/biocontainers/bioconductor-genomictuples/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genomictuples

@@ -47,6 +47,7 @@ bioconductor-genie3
 
 
 .. |downloads_bioconductor-genie3| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genie3.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genie3
    :alt:   (downloads)
 .. |docker_bioconductor-genie3| image:: https://quay.io/repository/biocontainers/bioconductor-genie3/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genie3

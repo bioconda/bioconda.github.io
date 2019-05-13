@@ -47,6 +47,7 @@ bcalm
 
 
 .. |downloads_bcalm| image:: https://img.shields.io/conda/dn/bioconda/bcalm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bcalm
    :alt:   (downloads)
 .. |docker_bcalm| image:: https://quay.io/repository/biocontainers/bcalm/status
    :target: https://quay.io/repository/biocontainers/bcalm

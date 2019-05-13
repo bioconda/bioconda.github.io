@@ -56,6 +56,7 @@ bioconductor-celaref
 
 
 .. |downloads_bioconductor-celaref| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-celaref.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-celaref
    :alt:   (downloads)
 .. |docker_bioconductor-celaref| image:: https://quay.io/repository/biocontainers/bioconductor-celaref/status
    :target: https://quay.io/repository/biocontainers/bioconductor-celaref

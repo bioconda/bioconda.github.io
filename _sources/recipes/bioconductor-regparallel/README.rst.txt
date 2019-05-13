@@ -54,6 +54,7 @@ bioconductor-regparallel
 
 
 .. |downloads_bioconductor-regparallel| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-regparallel.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-regparallel
    :alt:   (downloads)
 .. |docker_bioconductor-regparallel| image:: https://quay.io/repository/biocontainers/bioconductor-regparallel/status
    :target: https://quay.io/repository/biocontainers/bioconductor-regparallel

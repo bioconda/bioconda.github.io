@@ -57,6 +57,7 @@ bioconductor-rjmcmcnucleosomes
 
 
 .. |downloads_bioconductor-rjmcmcnucleosomes| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rjmcmcnucleosomes.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rjmcmcnucleosomes
    :alt:   (downloads)
 .. |docker_bioconductor-rjmcmcnucleosomes| image:: https://quay.io/repository/biocontainers/bioconductor-rjmcmcnucleosomes/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rjmcmcnucleosomes

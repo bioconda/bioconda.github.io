@@ -46,6 +46,7 @@ cramtools
 
 
 .. |downloads_cramtools| image:: https://img.shields.io/conda/dn/bioconda/cramtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/cramtools
    :alt:   (downloads)
 .. |docker_cramtools| image:: https://quay.io/repository/biocontainers/cramtools/status
    :target: https://quay.io/repository/biocontainers/cramtools

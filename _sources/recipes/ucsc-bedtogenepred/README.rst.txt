@@ -50,6 +50,7 @@ ucsc-bedtogenepred
 
 
 .. |downloads_ucsc-bedtogenepred| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bedtogenepred.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bedtogenepred
    :alt:   (downloads)
 .. |docker_ucsc-bedtogenepred| image:: https://quay.io/repository/biocontainers/ucsc-bedtogenepred/status
    :target: https://quay.io/repository/biocontainers/ucsc-bedtogenepred

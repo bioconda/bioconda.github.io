@@ -47,6 +47,7 @@ bandage
 
 
 .. |downloads_bandage| image:: https://img.shields.io/conda/dn/bioconda/bandage.svg?style=flat
+   :target: https://anaconda.org/bioconda/bandage
    :alt:   (downloads)
 .. |docker_bandage| image:: https://quay.io/repository/biocontainers/bandage/status
    :target: https://quay.io/repository/biocontainers/bandage

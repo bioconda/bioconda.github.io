@@ -50,6 +50,7 @@ bioconductor-santa
 
 
 .. |downloads_bioconductor-santa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-santa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-santa
    :alt:   (downloads)
 .. |docker_bioconductor-santa| image:: https://quay.io/repository/biocontainers/bioconductor-santa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-santa

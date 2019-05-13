@@ -69,6 +69,7 @@ bioconductor-macpet
 
 
 .. |downloads_bioconductor-macpet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-macpet.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-macpet
    :alt:   (downloads)
 .. |docker_bioconductor-macpet| image:: https://quay.io/repository/biocontainers/bioconductor-macpet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-macpet

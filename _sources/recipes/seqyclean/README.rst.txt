@@ -47,6 +47,7 @@ seqyclean
 
 
 .. |downloads_seqyclean| image:: https://img.shields.io/conda/dn/bioconda/seqyclean.svg?style=flat
+   :target: https://anaconda.org/bioconda/seqyclean
    :alt:   (downloads)
 .. |docker_seqyclean| image:: https://quay.io/repository/biocontainers/seqyclean/status
    :target: https://quay.io/repository/biocontainers/seqyclean

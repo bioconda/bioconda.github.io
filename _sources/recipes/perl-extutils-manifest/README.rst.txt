@@ -45,6 +45,7 @@ perl-extutils-manifest
 
 
 .. |downloads_perl-extutils-manifest| image:: https://img.shields.io/conda/dn/bioconda/perl-extutils-manifest.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-extutils-manifest
    :alt:   (downloads)
 .. |docker_perl-extutils-manifest| image:: https://quay.io/repository/biocontainers/perl-extutils-manifest/status
    :target: https://quay.io/repository/biocontainers/perl-extutils-manifest

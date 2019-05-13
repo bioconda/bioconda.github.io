@@ -47,6 +47,7 @@ bioconductor-path2ppi
 
 
 .. |downloads_bioconductor-path2ppi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-path2ppi.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-path2ppi
    :alt:   (downloads)
 .. |docker_bioconductor-path2ppi| image:: https://quay.io/repository/biocontainers/bioconductor-path2ppi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-path2ppi

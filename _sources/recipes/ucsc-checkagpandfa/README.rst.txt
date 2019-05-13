@@ -50,6 +50,7 @@ ucsc-checkagpandfa
 
 
 .. |downloads_ucsc-checkagpandfa| image:: https://img.shields.io/conda/dn/bioconda/ucsc-checkagpandfa.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-checkagpandfa
    :alt:   (downloads)
 .. |docker_ucsc-checkagpandfa| image:: https://quay.io/repository/biocontainers/ucsc-checkagpandfa/status
    :target: https://quay.io/repository/biocontainers/ucsc-checkagpandfa

@@ -50,6 +50,7 @@ ucsc-hgloadwiggle
 
 
 .. |downloads_ucsc-hgloadwiggle| image:: https://img.shields.io/conda/dn/bioconda/ucsc-hgloadwiggle.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-hgloadwiggle
    :alt:   (downloads)
 .. |docker_ucsc-hgloadwiggle| image:: https://quay.io/repository/biocontainers/ucsc-hgloadwiggle/status
    :target: https://quay.io/repository/biocontainers/ucsc-hgloadwiggle

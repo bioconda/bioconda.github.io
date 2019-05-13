@@ -53,6 +53,7 @@ r-sartools
 
 
 .. |downloads_r-sartools| image:: https://img.shields.io/conda/dn/bioconda/r-sartools.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-sartools
    :alt:   (downloads)
 .. |docker_r-sartools| image:: https://quay.io/repository/biocontainers/r-sartools/status
    :target: https://quay.io/repository/biocontainers/r-sartools

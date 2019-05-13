@@ -47,6 +47,7 @@ gap2seq
 
 
 .. |downloads_gap2seq| image:: https://img.shields.io/conda/dn/bioconda/gap2seq.svg?style=flat
+   :target: https://anaconda.org/bioconda/gap2seq
    :alt:   (downloads)
 .. |docker_gap2seq| image:: https://quay.io/repository/biocontainers/gap2seq/status
    :target: https://quay.io/repository/biocontainers/gap2seq

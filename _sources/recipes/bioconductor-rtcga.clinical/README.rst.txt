@@ -47,6 +47,7 @@ bioconductor-rtcga.clinical
 
 
 .. |downloads_bioconductor-rtcga.clinical| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtcga.clinical.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rtcga.clinical
    :alt:   (downloads)
 .. |docker_bioconductor-rtcga.clinical| image:: https://quay.io/repository/biocontainers/bioconductor-rtcga.clinical/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtcga.clinical

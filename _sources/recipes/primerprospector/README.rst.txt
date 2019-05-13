@@ -48,6 +48,7 @@ primerprospector
 
 
 .. |downloads_primerprospector| image:: https://img.shields.io/conda/dn/bioconda/primerprospector.svg?style=flat
+   :target: https://anaconda.org/bioconda/primerprospector
    :alt:   (downloads)
 .. |docker_primerprospector| image:: https://quay.io/repository/biocontainers/primerprospector/status
    :target: https://quay.io/repository/biocontainers/primerprospector

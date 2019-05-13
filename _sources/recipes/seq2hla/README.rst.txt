@@ -49,6 +49,7 @@ seq2hla
 
 
 .. |downloads_seq2hla| image:: https://img.shields.io/conda/dn/bioconda/seq2hla.svg?style=flat
+   :target: https://anaconda.org/bioconda/seq2hla
    :alt:   (downloads)
 .. |docker_seq2hla| image:: https://quay.io/repository/biocontainers/seq2hla/status
    :target: https://quay.io/repository/biocontainers/seq2hla

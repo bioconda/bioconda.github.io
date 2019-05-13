@@ -46,6 +46,7 @@ mygene
 
 
 .. |downloads_mygene| image:: https://img.shields.io/conda/dn/bioconda/mygene.svg?style=flat
+   :target: https://anaconda.org/bioconda/mygene
    :alt:   (downloads)
 .. |docker_mygene| image:: https://quay.io/repository/biocontainers/mygene/status
    :target: https://quay.io/repository/biocontainers/mygene

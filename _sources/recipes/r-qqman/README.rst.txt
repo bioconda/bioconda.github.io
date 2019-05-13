@@ -46,6 +46,7 @@ r-qqman
 
 
 .. |downloads_r-qqman| image:: https://img.shields.io/conda/dn/bioconda/r-qqman.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-qqman
    :alt:   (downloads)
 .. |docker_r-qqman| image:: https://quay.io/repository/biocontainers/r-qqman/status
    :target: https://quay.io/repository/biocontainers/r-qqman

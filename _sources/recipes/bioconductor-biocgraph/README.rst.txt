@@ -50,6 +50,7 @@ bioconductor-biocgraph
 
 
 .. |downloads_bioconductor-biocgraph| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biocgraph.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-biocgraph
    :alt:   (downloads)
 .. |docker_bioconductor-biocgraph| image:: https://quay.io/repository/biocontainers/bioconductor-biocgraph/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biocgraph

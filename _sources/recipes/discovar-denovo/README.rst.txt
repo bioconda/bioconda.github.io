@@ -47,6 +47,7 @@ discovardenovo
 
 
 .. |downloads_discovardenovo| image:: https://img.shields.io/conda/dn/bioconda/discovardenovo.svg?style=flat
+   :target: https://anaconda.org/bioconda/discovardenovo
    :alt:   (downloads)
 .. |docker_discovardenovo| image:: https://quay.io/repository/biocontainers/discovardenovo/status
    :target: https://quay.io/repository/biocontainers/discovardenovo

@@ -54,6 +54,7 @@ bioconductor-dominoeffect
 
 
 .. |downloads_bioconductor-dominoeffect| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dominoeffect.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dominoeffect
    :alt:   (downloads)
 .. |docker_bioconductor-dominoeffect| image:: https://quay.io/repository/biocontainers/bioconductor-dominoeffect/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dominoeffect

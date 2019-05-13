@@ -50,6 +50,7 @@ transabyss
 
 
 .. |downloads_transabyss| image:: https://img.shields.io/conda/dn/bioconda/transabyss.svg?style=flat
+   :target: https://anaconda.org/bioconda/transabyss
    :alt:   (downloads)
 .. |docker_transabyss| image:: https://quay.io/repository/biocontainers/transabyss/status
    :target: https://quay.io/repository/biocontainers/transabyss

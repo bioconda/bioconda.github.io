@@ -48,6 +48,7 @@ bioconductor-dupchecker
 
 
 .. |downloads_bioconductor-dupchecker| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dupchecker.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dupchecker
    :alt:   (downloads)
 .. |docker_bioconductor-dupchecker| image:: https://quay.io/repository/biocontainers/bioconductor-dupchecker/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dupchecker

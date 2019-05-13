@@ -46,6 +46,7 @@ perl-sub-attribute
 
 
 .. |downloads_perl-sub-attribute| image:: https://img.shields.io/conda/dn/bioconda/perl-sub-attribute.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-sub-attribute
    :alt:   (downloads)
 .. |docker_perl-sub-attribute| image:: https://quay.io/repository/biocontainers/perl-sub-attribute/status
    :target: https://quay.io/repository/biocontainers/perl-sub-attribute

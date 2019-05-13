@@ -47,6 +47,7 @@ bioconductor-bader
 
 
 .. |downloads_bioconductor-bader| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bader.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bader
    :alt:   (downloads)
 .. |docker_bioconductor-bader| image:: https://quay.io/repository/biocontainers/bioconductor-bader/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bader

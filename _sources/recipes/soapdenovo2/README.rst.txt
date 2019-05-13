@@ -46,6 +46,7 @@ soapdenovo2
 
 
 .. |downloads_soapdenovo2| image:: https://img.shields.io/conda/dn/bioconda/soapdenovo2.svg?style=flat
+   :target: https://anaconda.org/bioconda/soapdenovo2
    :alt:   (downloads)
 .. |docker_soapdenovo2| image:: https://quay.io/repository/biocontainers/soapdenovo2/status
    :target: https://quay.io/repository/biocontainers/soapdenovo2

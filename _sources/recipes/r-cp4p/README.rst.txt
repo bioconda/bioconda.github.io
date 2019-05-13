@@ -49,6 +49,7 @@ r-cp4p
 
 
 .. |downloads_r-cp4p| image:: https://img.shields.io/conda/dn/bioconda/r-cp4p.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-cp4p
    :alt:   (downloads)
 .. |docker_r-cp4p| image:: https://quay.io/repository/biocontainers/r-cp4p/status
    :target: https://quay.io/repository/biocontainers/r-cp4p

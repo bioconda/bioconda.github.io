@@ -61,6 +61,7 @@ bioconductor-xcms
 
 
 .. |downloads_bioconductor-xcms| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-xcms.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-xcms
    :alt:   (downloads)
 .. |docker_bioconductor-xcms| image:: https://quay.io/repository/biocontainers/bioconductor-xcms/status
    :target: https://quay.io/repository/biocontainers/bioconductor-xcms

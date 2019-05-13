@@ -50,6 +50,7 @@ ucsc-genepredtomafframes
 
 
 .. |downloads_ucsc-genepredtomafframes| image:: https://img.shields.io/conda/dn/bioconda/ucsc-genepredtomafframes.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-genepredtomafframes
    :alt:   (downloads)
 .. |docker_ucsc-genepredtomafframes| image:: https://quay.io/repository/biocontainers/ucsc-genepredtomafframes/status
    :target: https://quay.io/repository/biocontainers/ucsc-genepredtomafframes

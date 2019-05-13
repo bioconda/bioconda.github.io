@@ -55,6 +55,7 @@ bioconductor-gispa
 
 
 .. |downloads_bioconductor-gispa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gispa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gispa
    :alt:   (downloads)
 .. |docker_bioconductor-gispa| image:: https://quay.io/repository/biocontainers/bioconductor-gispa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gispa

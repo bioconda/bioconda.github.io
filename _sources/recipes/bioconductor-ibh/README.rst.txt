@@ -47,6 +47,7 @@ bioconductor-ibh
 
 
 .. |downloads_bioconductor-ibh| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ibh.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ibh
    :alt:   (downloads)
 .. |docker_bioconductor-ibh| image:: https://quay.io/repository/biocontainers/bioconductor-ibh/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ibh

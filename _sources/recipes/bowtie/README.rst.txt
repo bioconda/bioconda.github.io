@@ -49,6 +49,7 @@ bowtie
 
 
 .. |downloads_bowtie| image:: https://img.shields.io/conda/dn/bioconda/bowtie.svg?style=flat
+   :target: https://anaconda.org/bioconda/bowtie
    :alt:   (downloads)
 .. |docker_bowtie| image:: https://quay.io/repository/biocontainers/bowtie/status
    :target: https://quay.io/repository/biocontainers/bowtie

@@ -46,6 +46,7 @@ ficus
 
 
 .. |downloads_ficus| image:: https://img.shields.io/conda/dn/bioconda/ficus.svg?style=flat
+   :target: https://anaconda.org/bioconda/ficus
    :alt:   (downloads)
 .. |docker_ficus| image:: https://quay.io/repository/biocontainers/ficus/status
    :target: https://quay.io/repository/biocontainers/ficus

@@ -53,6 +53,7 @@ bioconductor-dmelsgi
 
 
 .. |downloads_bioconductor-dmelsgi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dmelsgi.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dmelsgi
    :alt:   (downloads)
 .. |docker_bioconductor-dmelsgi| image:: https://quay.io/repository/biocontainers/bioconductor-dmelsgi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dmelsgi

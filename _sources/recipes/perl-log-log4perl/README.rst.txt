@@ -47,6 +47,7 @@ perl-log-log4perl
 
 
 .. |downloads_perl-log-log4perl| image:: https://img.shields.io/conda/dn/bioconda/perl-log-log4perl.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-log-log4perl
    :alt:   (downloads)
 .. |docker_perl-log-log4perl| image:: https://quay.io/repository/biocontainers/perl-log-log4perl/status
    :target: https://quay.io/repository/biocontainers/perl-log-log4perl

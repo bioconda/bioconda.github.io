@@ -48,6 +48,7 @@ bioconductor-illuminahumanv4.db
 
 
 .. |downloads_bioconductor-illuminahumanv4.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-illuminahumanv4.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-illuminahumanv4.db
    :alt:   (downloads)
 .. |docker_bioconductor-illuminahumanv4.db| image:: https://quay.io/repository/biocontainers/bioconductor-illuminahumanv4.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-illuminahumanv4.db

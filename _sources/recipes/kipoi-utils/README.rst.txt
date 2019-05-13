@@ -51,6 +51,7 @@ kipoi-utils
 
 
 .. |downloads_kipoi-utils| image:: https://img.shields.io/conda/dn/bioconda/kipoi-utils.svg?style=flat
+   :target: https://anaconda.org/bioconda/kipoi-utils
    :alt:   (downloads)
 .. |docker_kipoi-utils| image:: https://quay.io/repository/biocontainers/kipoi-utils/status
    :target: https://quay.io/repository/biocontainers/kipoi-utils

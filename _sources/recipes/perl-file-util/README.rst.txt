@@ -48,6 +48,7 @@ perl-file-util
 
 
 .. |downloads_perl-file-util| image:: https://img.shields.io/conda/dn/bioconda/perl-file-util.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-util
    :alt:   (downloads)
 .. |docker_perl-file-util| image:: https://quay.io/repository/biocontainers/perl-file-util/status
    :target: https://quay.io/repository/biocontainers/perl-file-util

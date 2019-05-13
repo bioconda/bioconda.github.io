@@ -53,6 +53,7 @@ quasitools
 
 
 .. |downloads_quasitools| image:: https://img.shields.io/conda/dn/bioconda/quasitools.svg?style=flat
+   :target: https://anaconda.org/bioconda/quasitools
    :alt:   (downloads)
 .. |docker_quasitools| image:: https://quay.io/repository/biocontainers/quasitools/status
    :target: https://quay.io/repository/biocontainers/quasitools

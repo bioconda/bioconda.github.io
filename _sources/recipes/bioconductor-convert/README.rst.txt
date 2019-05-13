@@ -49,6 +49,7 @@ bioconductor-convert
 
 
 .. |downloads_bioconductor-convert| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-convert.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-convert
    :alt:   (downloads)
 .. |docker_bioconductor-convert| image:: https://quay.io/repository/biocontainers/bioconductor-convert/status
    :target: https://quay.io/repository/biocontainers/bioconductor-convert

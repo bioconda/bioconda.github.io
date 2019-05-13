@@ -47,6 +47,7 @@ qorts
 
 
 .. |downloads_qorts| image:: https://img.shields.io/conda/dn/bioconda/qorts.svg?style=flat
+   :target: https://anaconda.org/bioconda/qorts
    :alt:   (downloads)
 .. |docker_qorts| image:: https://quay.io/repository/biocontainers/qorts/status
    :target: https://quay.io/repository/biocontainers/qorts

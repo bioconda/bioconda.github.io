@@ -49,6 +49,7 @@ picopore
 
 
 .. |downloads_picopore| image:: https://img.shields.io/conda/dn/bioconda/picopore.svg?style=flat
+   :target: https://anaconda.org/bioconda/picopore
    :alt:   (downloads)
 .. |docker_picopore| image:: https://quay.io/repository/biocontainers/picopore/status
    :target: https://quay.io/repository/biocontainers/picopore

@@ -51,6 +51,7 @@ eagle
 
 
 .. |downloads_eagle| image:: https://img.shields.io/conda/dn/bioconda/eagle.svg?style=flat
+   :target: https://anaconda.org/bioconda/eagle
    :alt:   (downloads)
 .. |docker_eagle| image:: https://quay.io/repository/biocontainers/eagle/status
    :target: https://quay.io/repository/biocontainers/eagle

@@ -48,6 +48,7 @@ mlrho
 
 
 .. |downloads_mlrho| image:: https://img.shields.io/conda/dn/bioconda/mlrho.svg?style=flat
+   :target: https://anaconda.org/bioconda/mlrho
    :alt:   (downloads)
 .. |docker_mlrho| image:: https://quay.io/repository/biocontainers/mlrho/status
    :target: https://quay.io/repository/biocontainers/mlrho

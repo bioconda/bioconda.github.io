@@ -62,6 +62,7 @@ bioconductor-chipexoqual
 
 
 .. |downloads_bioconductor-chipexoqual| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chipexoqual.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chipexoqual
    :alt:   (downloads)
 .. |docker_bioconductor-chipexoqual| image:: https://quay.io/repository/biocontainers/bioconductor-chipexoqual/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chipexoqual

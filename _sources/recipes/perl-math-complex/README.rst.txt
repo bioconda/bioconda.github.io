@@ -46,6 +46,7 @@ perl-math-complex
 
 
 .. |downloads_perl-math-complex| image:: https://img.shields.io/conda/dn/bioconda/perl-math-complex.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-math-complex
    :alt:   (downloads)
 .. |docker_perl-math-complex| image:: https://quay.io/repository/biocontainers/perl-math-complex/status
    :target: https://quay.io/repository/biocontainers/perl-math-complex

@@ -47,6 +47,7 @@ bioconductor-illuminahumanmethylation450kprobe
 
 
 .. |downloads_bioconductor-illuminahumanmethylation450kprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-illuminahumanmethylation450kprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-illuminahumanmethylation450kprobe
    :alt:   (downloads)
 .. |docker_bioconductor-illuminahumanmethylation450kprobe| image:: https://quay.io/repository/biocontainers/bioconductor-illuminahumanmethylation450kprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-illuminahumanmethylation450kprobe

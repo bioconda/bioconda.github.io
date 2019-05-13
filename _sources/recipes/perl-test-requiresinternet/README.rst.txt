@@ -46,6 +46,7 @@ perl-test-requiresinternet
 
 
 .. |downloads_perl-test-requiresinternet| image:: https://img.shields.io/conda/dn/bioconda/perl-test-requiresinternet.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-requiresinternet
    :alt:   (downloads)
 .. |docker_perl-test-requiresinternet| image:: https://quay.io/repository/biocontainers/perl-test-requiresinternet/status
    :target: https://quay.io/repository/biocontainers/perl-test-requiresinternet

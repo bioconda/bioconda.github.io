@@ -49,6 +49,7 @@ novoalign
 
 
 .. |downloads_novoalign| image:: https://img.shields.io/conda/dn/bioconda/novoalign.svg?style=flat
+   :target: https://anaconda.org/bioconda/novoalign
    :alt:   (downloads)
 .. |docker_novoalign| image:: https://quay.io/repository/biocontainers/novoalign/status
    :target: https://quay.io/repository/biocontainers/novoalign

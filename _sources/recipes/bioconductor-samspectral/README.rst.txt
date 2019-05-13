@@ -46,6 +46,7 @@ bioconductor-samspectral
 
 
 .. |downloads_bioconductor-samspectral| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-samspectral.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-samspectral
    :alt:   (downloads)
 .. |docker_bioconductor-samspectral| image:: https://quay.io/repository/biocontainers/bioconductor-samspectral/status
    :target: https://quay.io/repository/biocontainers/bioconductor-samspectral

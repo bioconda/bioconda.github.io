@@ -51,6 +51,7 @@ hivtrace
 
 
 .. |downloads_hivtrace| image:: https://img.shields.io/conda/dn/bioconda/hivtrace.svg?style=flat
+   :target: https://anaconda.org/bioconda/hivtrace
    :alt:   (downloads)
 .. |docker_hivtrace| image:: https://quay.io/repository/biocontainers/hivtrace/status
    :target: https://quay.io/repository/biocontainers/hivtrace

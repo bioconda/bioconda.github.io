@@ -48,6 +48,7 @@ bioconductor-illuminamousev1.db
 
 
 .. |downloads_bioconductor-illuminamousev1.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-illuminamousev1.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-illuminamousev1.db
    :alt:   (downloads)
 .. |docker_bioconductor-illuminamousev1.db| image:: https://quay.io/repository/biocontainers/bioconductor-illuminamousev1.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-illuminamousev1.db

@@ -48,6 +48,7 @@ bioconductor-swfdr
 
 
 .. |downloads_bioconductor-swfdr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-swfdr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-swfdr
    :alt:   (downloads)
 .. |docker_bioconductor-swfdr| image:: https://quay.io/repository/biocontainers/bioconductor-swfdr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-swfdr

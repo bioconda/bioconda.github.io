@@ -53,6 +53,7 @@ cyvcf2
 
 
 .. |downloads_cyvcf2| image:: https://img.shields.io/conda/dn/bioconda/cyvcf2.svg?style=flat
+   :target: https://anaconda.org/bioconda/cyvcf2
    :alt:   (downloads)
 .. |docker_cyvcf2| image:: https://quay.io/repository/biocontainers/cyvcf2/status
    :target: https://quay.io/repository/biocontainers/cyvcf2

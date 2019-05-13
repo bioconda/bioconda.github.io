@@ -59,6 +59,7 @@ rad_haplotyper
 
 
 .. |downloads_rad_haplotyper| image:: https://img.shields.io/conda/dn/bioconda/rad_haplotyper.svg?style=flat
+   :target: https://anaconda.org/bioconda/rad_haplotyper
    :alt:   (downloads)
 .. |docker_rad_haplotyper| image:: https://quay.io/repository/biocontainers/rad_haplotyper/status
    :target: https://quay.io/repository/biocontainers/rad_haplotyper

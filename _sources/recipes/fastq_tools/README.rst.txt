@@ -47,6 +47,7 @@ fastq-tools
 
 
 .. |downloads_fastq-tools| image:: https://img.shields.io/conda/dn/bioconda/fastq-tools.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastq-tools
    :alt:   (downloads)
 .. |docker_fastq-tools| image:: https://quay.io/repository/biocontainers/fastq-tools/status
    :target: https://quay.io/repository/biocontainers/fastq-tools

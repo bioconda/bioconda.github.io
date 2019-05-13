@@ -51,6 +51,7 @@ bioconductor-flipflop
 
 
 .. |downloads_bioconductor-flipflop| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flipflop.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flipflop
    :alt:   (downloads)
 .. |docker_bioconductor-flipflop| image:: https://quay.io/repository/biocontainers/bioconductor-flipflop/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flipflop

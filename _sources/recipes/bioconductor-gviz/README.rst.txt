@@ -67,6 +67,7 @@ bioconductor-gviz
 
 
 .. |downloads_bioconductor-gviz| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gviz.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gviz
    :alt:   (downloads)
 .. |docker_bioconductor-gviz| image:: https://quay.io/repository/biocontainers/bioconductor-gviz/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gviz

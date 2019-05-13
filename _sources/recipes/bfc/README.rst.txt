@@ -46,6 +46,7 @@ bfc
 
 
 .. |downloads_bfc| image:: https://img.shields.io/conda/dn/bioconda/bfc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bfc
    :alt:   (downloads)
 .. |docker_bfc| image:: https://quay.io/repository/biocontainers/bfc/status
    :target: https://quay.io/repository/biocontainers/bfc

@@ -45,6 +45,7 @@ gprofiler-official
 
 
 .. |downloads_gprofiler-official| image:: https://img.shields.io/conda/dn/bioconda/gprofiler-official.svg?style=flat
+   :target: https://anaconda.org/bioconda/gprofiler-official
    :alt:   (downloads)
 .. |docker_gprofiler-official| image:: https://quay.io/repository/biocontainers/gprofiler-official/status
    :target: https://quay.io/repository/biocontainers/gprofiler-official

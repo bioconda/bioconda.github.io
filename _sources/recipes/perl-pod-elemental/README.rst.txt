@@ -53,6 +53,7 @@ perl-pod-elemental
 
 
 .. |downloads_perl-pod-elemental| image:: https://img.shields.io/conda/dn/bioconda/perl-pod-elemental.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-pod-elemental
    :alt:   (downloads)
 .. |docker_perl-pod-elemental| image:: https://quay.io/repository/biocontainers/perl-pod-elemental/status
    :target: https://quay.io/repository/biocontainers/perl-pod-elemental

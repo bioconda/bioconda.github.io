@@ -53,6 +53,7 @@ bioconductor-bioccheck
 
 
 .. |downloads_bioconductor-bioccheck| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bioccheck.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bioccheck
    :alt:   (downloads)
 .. |docker_bioconductor-bioccheck| image:: https://quay.io/repository/biocontainers/bioconductor-bioccheck/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bioccheck

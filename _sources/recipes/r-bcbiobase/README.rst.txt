@@ -70,6 +70,7 @@ r-bcbiobase
 
 
 .. |downloads_r-bcbiobase| image:: https://img.shields.io/conda/dn/bioconda/r-bcbiobase.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-bcbiobase
    :alt:   (downloads)
 .. |docker_r-bcbiobase| image:: https://quay.io/repository/biocontainers/r-bcbiobase/status
    :target: https://quay.io/repository/biocontainers/r-bcbiobase

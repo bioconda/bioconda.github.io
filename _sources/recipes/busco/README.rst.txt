@@ -52,6 +52,7 @@ busco
 
 
 .. |downloads_busco| image:: https://img.shields.io/conda/dn/bioconda/busco.svg?style=flat
+   :target: https://anaconda.org/bioconda/busco
    :alt:   (downloads)
 .. |docker_busco| image:: https://quay.io/repository/biocontainers/busco/status
    :target: https://quay.io/repository/biocontainers/busco

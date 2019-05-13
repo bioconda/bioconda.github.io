@@ -46,6 +46,7 @@ artemis
 
 
 .. |downloads_artemis| image:: https://img.shields.io/conda/dn/bioconda/artemis.svg?style=flat
+   :target: https://anaconda.org/bioconda/artemis
    :alt:   (downloads)
 .. |docker_artemis| image:: https://quay.io/repository/biocontainers/artemis/status
    :target: https://quay.io/repository/biocontainers/artemis

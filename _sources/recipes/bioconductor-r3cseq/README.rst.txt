@@ -57,6 +57,7 @@ bioconductor-r3cseq
 
 
 .. |downloads_bioconductor-r3cseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-r3cseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-r3cseq
    :alt:   (downloads)
 .. |docker_bioconductor-r3cseq| image:: https://quay.io/repository/biocontainers/bioconductor-r3cseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-r3cseq

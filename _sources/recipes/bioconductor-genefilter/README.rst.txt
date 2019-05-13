@@ -54,6 +54,7 @@ bioconductor-genefilter
 
 
 .. |downloads_bioconductor-genefilter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genefilter.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genefilter
    :alt:   (downloads)
 .. |docker_bioconductor-genefilter| image:: https://quay.io/repository/biocontainers/bioconductor-genefilter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genefilter

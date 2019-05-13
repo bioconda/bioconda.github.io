@@ -58,6 +58,7 @@ phyml
 
 
 .. |downloads_phyml| image:: https://img.shields.io/conda/dn/bioconda/phyml.svg?style=flat
+   :target: https://anaconda.org/bioconda/phyml
    :alt:   (downloads)
 .. |docker_phyml| image:: https://quay.io/repository/biocontainers/phyml/status
    :target: https://quay.io/repository/biocontainers/phyml

@@ -51,6 +51,7 @@ r-maldiquantforeign
 
 
 .. |downloads_r-maldiquantforeign| image:: https://img.shields.io/conda/dn/bioconda/r-maldiquantforeign.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-maldiquantforeign
    :alt:   (downloads)
 .. |docker_r-maldiquantforeign| image:: https://quay.io/repository/biocontainers/r-maldiquantforeign/status
    :target: https://quay.io/repository/biocontainers/r-maldiquantforeign

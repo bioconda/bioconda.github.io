@@ -47,6 +47,7 @@ nanosv
 
 
 .. |downloads_nanosv| image:: https://img.shields.io/conda/dn/bioconda/nanosv.svg?style=flat
+   :target: https://anaconda.org/bioconda/nanosv
    :alt:   (downloads)
 .. |docker_nanosv| image:: https://quay.io/repository/biocontainers/nanosv/status
    :target: https://quay.io/repository/biocontainers/nanosv

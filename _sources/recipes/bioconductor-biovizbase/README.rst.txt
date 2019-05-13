@@ -66,6 +66,7 @@ bioconductor-biovizbase
 
 
 .. |downloads_bioconductor-biovizbase| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biovizbase.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-biovizbase
    :alt:   (downloads)
 .. |docker_bioconductor-biovizbase| image:: https://quay.io/repository/biocontainers/bioconductor-biovizbase/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biovizbase

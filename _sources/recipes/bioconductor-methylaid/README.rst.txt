@@ -56,6 +56,7 @@ bioconductor-methylaid
 
 
 .. |downloads_bioconductor-methylaid| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methylaid.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-methylaid
    :alt:   (downloads)
 .. |docker_bioconductor-methylaid| image:: https://quay.io/repository/biocontainers/bioconductor-methylaid/status
    :target: https://quay.io/repository/biocontainers/bioconductor-methylaid

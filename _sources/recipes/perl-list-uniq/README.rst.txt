@@ -45,6 +45,7 @@ perl-list-uniq
 
 
 .. |downloads_perl-list-uniq| image:: https://img.shields.io/conda/dn/bioconda/perl-list-uniq.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-list-uniq
    :alt:   (downloads)
 .. |docker_perl-list-uniq| image:: https://quay.io/repository/biocontainers/perl-list-uniq/status
    :target: https://quay.io/repository/biocontainers/perl-list-uniq

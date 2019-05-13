@@ -50,6 +50,7 @@ ucsc-pslliftsubrangeblat
 
 
 .. |downloads_ucsc-pslliftsubrangeblat| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslliftsubrangeblat.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-pslliftsubrangeblat
    :alt:   (downloads)
 .. |docker_ucsc-pslliftsubrangeblat| image:: https://quay.io/repository/biocontainers/ucsc-pslliftsubrangeblat/status
    :target: https://quay.io/repository/biocontainers/ucsc-pslliftsubrangeblat

@@ -46,6 +46,7 @@ perl-test-yaml
 
 
 .. |downloads_perl-test-yaml| image:: https://img.shields.io/conda/dn/bioconda/perl-test-yaml.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-yaml
    :alt:   (downloads)
 .. |docker_perl-test-yaml| image:: https://quay.io/repository/biocontainers/perl-test-yaml/status
    :target: https://quay.io/repository/biocontainers/perl-test-yaml

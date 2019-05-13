@@ -53,6 +53,7 @@ bioconductor-rmat
 
 
 .. |downloads_bioconductor-rmat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rmat.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rmat
    :alt:   (downloads)
 .. |docker_bioconductor-rmat| image:: https://quay.io/repository/biocontainers/bioconductor-rmat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rmat

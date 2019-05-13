@@ -50,6 +50,7 @@ hiddendomains
 
 
 .. |downloads_hiddendomains| image:: https://img.shields.io/conda/dn/bioconda/hiddendomains.svg?style=flat
+   :target: https://anaconda.org/bioconda/hiddendomains
    :alt:   (downloads)
 .. |docker_hiddendomains| image:: https://quay.io/repository/biocontainers/hiddendomains/status
    :target: https://quay.io/repository/biocontainers/hiddendomains

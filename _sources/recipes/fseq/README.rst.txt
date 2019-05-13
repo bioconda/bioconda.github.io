@@ -47,6 +47,7 @@ fseq
 
 
 .. |downloads_fseq| image:: https://img.shields.io/conda/dn/bioconda/fseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/fseq
    :alt:   (downloads)
 .. |docker_fseq| image:: https://quay.io/repository/biocontainers/fseq/status
    :target: https://quay.io/repository/biocontainers/fseq

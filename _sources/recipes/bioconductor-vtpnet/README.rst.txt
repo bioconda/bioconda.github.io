@@ -50,6 +50,7 @@ bioconductor-vtpnet
 
 
 .. |downloads_bioconductor-vtpnet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-vtpnet.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-vtpnet
    :alt:   (downloads)
 .. |docker_bioconductor-vtpnet| image:: https://quay.io/repository/biocontainers/bioconductor-vtpnet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-vtpnet

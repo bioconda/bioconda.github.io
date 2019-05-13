@@ -47,6 +47,7 @@ oases
 
 
 .. |downloads_oases| image:: https://img.shields.io/conda/dn/bioconda/oases.svg?style=flat
+   :target: https://anaconda.org/bioconda/oases
    :alt:   (downloads)
 .. |docker_oases| image:: https://quay.io/repository/biocontainers/oases/status
    :target: https://quay.io/repository/biocontainers/oases

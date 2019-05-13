@@ -50,6 +50,7 @@ bioconductor-mirnameconverter
 
 
 .. |downloads_bioconductor-mirnameconverter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirnameconverter.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mirnameconverter
    :alt:   (downloads)
 .. |docker_bioconductor-mirnameconverter| image:: https://quay.io/repository/biocontainers/bioconductor-mirnameconverter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mirnameconverter

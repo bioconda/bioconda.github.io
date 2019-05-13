@@ -46,6 +46,7 @@ msgf_plus
 
 
 .. |downloads_msgf_plus| image:: https://img.shields.io/conda/dn/bioconda/msgf_plus.svg?style=flat
+   :target: https://anaconda.org/bioconda/msgf_plus
    :alt:   (downloads)
 .. |docker_msgf_plus| image:: https://quay.io/repository/biocontainers/msgf_plus/status
    :target: https://quay.io/repository/biocontainers/msgf_plus

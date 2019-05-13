@@ -59,6 +59,7 @@ anvio
 
 
 .. |downloads_anvio| image:: https://img.shields.io/conda/dn/bioconda/anvio.svg?style=flat
+   :target: https://anaconda.org/bioconda/anvio
    :alt:   (downloads)
 .. |docker_anvio| image:: https://quay.io/repository/biocontainers/anvio/status
    :target: https://quay.io/repository/biocontainers/anvio

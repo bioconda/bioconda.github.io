@@ -51,6 +51,7 @@ r-pore
 
 
 .. |downloads_r-pore| image:: https://img.shields.io/conda/dn/bioconda/r-pore.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-pore
    :alt:   (downloads)
 .. |docker_r-pore| image:: https://quay.io/repository/biocontainers/r-pore/status
    :target: https://quay.io/repository/biocontainers/r-pore

@@ -48,6 +48,7 @@ atropos
 
 
 .. |downloads_atropos| image:: https://img.shields.io/conda/dn/bioconda/atropos.svg?style=flat
+   :target: https://anaconda.org/bioconda/atropos
    :alt:   (downloads)
 .. |docker_atropos| image:: https://quay.io/repository/biocontainers/atropos/status
    :target: https://quay.io/repository/biocontainers/atropos

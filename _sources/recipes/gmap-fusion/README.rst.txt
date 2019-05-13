@@ -50,6 +50,7 @@ gmap-fusion
 
 
 .. |downloads_gmap-fusion| image:: https://img.shields.io/conda/dn/bioconda/gmap-fusion.svg?style=flat
+   :target: https://anaconda.org/bioconda/gmap-fusion
    :alt:   (downloads)
 .. |docker_gmap-fusion| image:: https://quay.io/repository/biocontainers/gmap-fusion/status
    :target: https://quay.io/repository/biocontainers/gmap-fusion

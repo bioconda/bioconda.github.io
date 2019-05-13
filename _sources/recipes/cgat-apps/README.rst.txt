@@ -72,6 +72,7 @@ cgat-apps
 
 
 .. |downloads_cgat-apps| image:: https://img.shields.io/conda/dn/bioconda/cgat-apps.svg?style=flat
+   :target: https://anaconda.org/bioconda/cgat-apps
    :alt:   (downloads)
 .. |docker_cgat-apps| image:: https://quay.io/repository/biocontainers/cgat-apps/status
    :target: https://quay.io/repository/biocontainers/cgat-apps

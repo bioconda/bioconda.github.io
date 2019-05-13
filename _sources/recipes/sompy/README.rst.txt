@@ -47,6 +47,7 @@ sompy
 
 
 .. |downloads_sompy| image:: https://img.shields.io/conda/dn/bioconda/sompy.svg?style=flat
+   :target: https://anaconda.org/bioconda/sompy
    :alt:   (downloads)
 .. |docker_sompy| image:: https://quay.io/repository/biocontainers/sompy/status
    :target: https://quay.io/repository/biocontainers/sompy

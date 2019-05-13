@@ -56,6 +56,7 @@ bioconductor-fgsea
 
 
 .. |downloads_bioconductor-fgsea| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fgsea.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-fgsea
    :alt:   (downloads)
 .. |docker_bioconductor-fgsea| image:: https://quay.io/repository/biocontainers/bioconductor-fgsea/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fgsea

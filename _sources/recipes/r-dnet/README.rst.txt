@@ -50,6 +50,7 @@ r-dnet
 
 
 .. |downloads_r-dnet| image:: https://img.shields.io/conda/dn/bioconda/r-dnet.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-dnet
    :alt:   (downloads)
 .. |docker_r-dnet| image:: https://quay.io/repository/biocontainers/r-dnet/status
    :target: https://quay.io/repository/biocontainers/r-dnet

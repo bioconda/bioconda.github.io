@@ -46,6 +46,7 @@ asciigenome
 
 
 .. |downloads_asciigenome| image:: https://img.shields.io/conda/dn/bioconda/asciigenome.svg?style=flat
+   :target: https://anaconda.org/bioconda/asciigenome
    :alt:   (downloads)
 .. |docker_asciigenome| image:: https://quay.io/repository/biocontainers/asciigenome/status
    :target: https://quay.io/repository/biocontainers/asciigenome

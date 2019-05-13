@@ -47,6 +47,7 @@ bioconductor-yeast2probe
 
 
 .. |downloads_bioconductor-yeast2probe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-yeast2probe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-yeast2probe
    :alt:   (downloads)
 .. |docker_bioconductor-yeast2probe| image:: https://quay.io/repository/biocontainers/bioconductor-yeast2probe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-yeast2probe

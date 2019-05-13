@@ -45,6 +45,7 @@ straitrazor
 
 
 .. |downloads_straitrazor| image:: https://img.shields.io/conda/dn/bioconda/straitrazor.svg?style=flat
+   :target: https://anaconda.org/bioconda/straitrazor
    :alt:   (downloads)
 .. |docker_straitrazor| image:: https://quay.io/repository/biocontainers/straitrazor/status
    :target: https://quay.io/repository/biocontainers/straitrazor

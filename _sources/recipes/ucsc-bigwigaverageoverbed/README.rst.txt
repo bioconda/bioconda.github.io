@@ -50,6 +50,7 @@ ucsc-bigwigaverageoverbed
 
 
 .. |downloads_ucsc-bigwigaverageoverbed| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bigwigaverageoverbed.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bigwigaverageoverbed
    :alt:   (downloads)
 .. |docker_ucsc-bigwigaverageoverbed| image:: https://quay.io/repository/biocontainers/ucsc-bigwigaverageoverbed/status
    :target: https://quay.io/repository/biocontainers/ucsc-bigwigaverageoverbed

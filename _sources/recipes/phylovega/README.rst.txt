@@ -47,6 +47,7 @@ phylovega
 
 
 .. |downloads_phylovega| image:: https://img.shields.io/conda/dn/bioconda/phylovega.svg?style=flat
+   :target: https://anaconda.org/bioconda/phylovega
    :alt:   (downloads)
 .. |docker_phylovega| image:: https://quay.io/repository/biocontainers/phylovega/status
    :target: https://quay.io/repository/biocontainers/phylovega

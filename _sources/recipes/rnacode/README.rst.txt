@@ -44,6 +44,7 @@ rnacode
 
 
 .. |downloads_rnacode| image:: https://img.shields.io/conda/dn/bioconda/rnacode.svg?style=flat
+   :target: https://anaconda.org/bioconda/rnacode
    :alt:   (downloads)
 .. |docker_rnacode| image:: https://quay.io/repository/biocontainers/rnacode/status
    :target: https://quay.io/repository/biocontainers/rnacode

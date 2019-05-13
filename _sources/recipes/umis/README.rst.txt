@@ -53,6 +53,7 @@ umis
 
 
 .. |downloads_umis| image:: https://img.shields.io/conda/dn/bioconda/umis.svg?style=flat
+   :target: https://anaconda.org/bioconda/umis
    :alt:   (downloads)
 .. |docker_umis| image:: https://quay.io/repository/biocontainers/umis/status
    :target: https://quay.io/repository/biocontainers/umis

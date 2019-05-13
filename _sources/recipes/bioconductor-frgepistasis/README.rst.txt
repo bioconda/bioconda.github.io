@@ -47,6 +47,7 @@ bioconductor-frgepistasis
 
 
 .. |downloads_bioconductor-frgepistasis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-frgepistasis.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-frgepistasis
    :alt:   (downloads)
 .. |docker_bioconductor-frgepistasis| image:: https://quay.io/repository/biocontainers/bioconductor-frgepistasis/status
    :target: https://quay.io/repository/biocontainers/bioconductor-frgepistasis

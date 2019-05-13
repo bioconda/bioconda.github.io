@@ -47,6 +47,7 @@ trimmomatic
 
 
 .. |downloads_trimmomatic| image:: https://img.shields.io/conda/dn/bioconda/trimmomatic.svg?style=flat
+   :target: https://anaconda.org/bioconda/trimmomatic
    :alt:   (downloads)
 .. |docker_trimmomatic| image:: https://quay.io/repository/biocontainers/trimmomatic/status
    :target: https://quay.io/repository/biocontainers/trimmomatic

@@ -48,6 +48,7 @@ perl-sys-info-driver-linux
 
 
 .. |downloads_perl-sys-info-driver-linux| image:: https://img.shields.io/conda/dn/bioconda/perl-sys-info-driver-linux.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-sys-info-driver-linux
    :alt:   (downloads)
 .. |docker_perl-sys-info-driver-linux| image:: https://quay.io/repository/biocontainers/perl-sys-info-driver-linux/status
    :target: https://quay.io/repository/biocontainers/perl-sys-info-driver-linux

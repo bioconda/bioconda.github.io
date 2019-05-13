@@ -50,6 +50,7 @@ ucsc-bedintersect
 
 
 .. |downloads_ucsc-bedintersect| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bedintersect.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bedintersect
    :alt:   (downloads)
 .. |docker_ucsc-bedintersect| image:: https://quay.io/repository/biocontainers/ucsc-bedintersect/status
    :target: https://quay.io/repository/biocontainers/ucsc-bedintersect

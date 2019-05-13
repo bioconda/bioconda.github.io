@@ -48,6 +48,7 @@ perl-tie-refhash-weak
 
 
 .. |downloads_perl-tie-refhash-weak| image:: https://img.shields.io/conda/dn/bioconda/perl-tie-refhash-weak.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-tie-refhash-weak
    :alt:   (downloads)
 .. |docker_perl-tie-refhash-weak| image:: https://quay.io/repository/biocontainers/perl-tie-refhash-weak/status
    :target: https://quay.io/repository/biocontainers/perl-tie-refhash-weak

@@ -45,6 +45,7 @@ perl-test-toolbox
 
 
 .. |downloads_perl-test-toolbox| image:: https://img.shields.io/conda/dn/bioconda/perl-test-toolbox.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-toolbox
    :alt:   (downloads)
 .. |docker_perl-test-toolbox| image:: https://quay.io/repository/biocontainers/perl-test-toolbox/status
    :target: https://quay.io/repository/biocontainers/perl-test-toolbox

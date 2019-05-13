@@ -51,6 +51,7 @@ pbhoover
 
 
 .. |downloads_pbhoover| image:: https://img.shields.io/conda/dn/bioconda/pbhoover.svg?style=flat
+   :target: https://anaconda.org/bioconda/pbhoover
    :alt:   (downloads)
 .. |docker_pbhoover| image:: https://quay.io/repository/biocontainers/pbhoover/status
    :target: https://quay.io/repository/biocontainers/pbhoover

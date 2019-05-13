@@ -57,6 +57,7 @@ pybda
 
 
 .. |downloads_pybda| image:: https://img.shields.io/conda/dn/bioconda/pybda.svg?style=flat
+   :target: https://anaconda.org/bioconda/pybda
    :alt:   (downloads)
 .. |docker_pybda| image:: https://quay.io/repository/biocontainers/pybda/status
    :target: https://quay.io/repository/biocontainers/pybda

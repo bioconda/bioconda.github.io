@@ -49,6 +49,7 @@ kpal
 
 
 .. |downloads_kpal| image:: https://img.shields.io/conda/dn/bioconda/kpal.svg?style=flat
+   :target: https://anaconda.org/bioconda/kpal
    :alt:   (downloads)
 .. |docker_kpal| image:: https://quay.io/repository/biocontainers/kpal/status
    :target: https://quay.io/repository/biocontainers/kpal

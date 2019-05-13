@@ -45,6 +45,7 @@ metabat2
 
 
 .. |downloads_metabat2| image:: https://img.shields.io/conda/dn/bioconda/metabat2.svg?style=flat
+   :target: https://anaconda.org/bioconda/metabat2
    :alt:   (downloads)
 .. |docker_metabat2| image:: https://quay.io/repository/biocontainers/metabat2/status
    :target: https://quay.io/repository/biocontainers/metabat2

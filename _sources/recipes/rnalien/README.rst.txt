@@ -55,6 +55,7 @@ rnalien
 
 
 .. |downloads_rnalien| image:: https://img.shields.io/conda/dn/bioconda/rnalien.svg?style=flat
+   :target: https://anaconda.org/bioconda/rnalien
    :alt:   (downloads)
 .. |docker_rnalien| image:: https://quay.io/repository/biocontainers/rnalien/status
    :target: https://quay.io/repository/biocontainers/rnalien

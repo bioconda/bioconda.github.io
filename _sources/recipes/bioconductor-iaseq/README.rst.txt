@@ -46,6 +46,7 @@ bioconductor-iaseq
 
 
 .. |downloads_bioconductor-iaseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-iaseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-iaseq
    :alt:   (downloads)
 .. |docker_bioconductor-iaseq| image:: https://quay.io/repository/biocontainers/bioconductor-iaseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-iaseq

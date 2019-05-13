@@ -47,6 +47,7 @@ bioconductor-chickencdf
 
 
 .. |downloads_bioconductor-chickencdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chickencdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chickencdf
    :alt:   (downloads)
 .. |docker_bioconductor-chickencdf| image:: https://quay.io/repository/biocontainers/bioconductor-chickencdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chickencdf

@@ -51,6 +51,7 @@ bioconductor-specond
 
 
 .. |downloads_bioconductor-specond| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-specond.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-specond
    :alt:   (downloads)
 .. |docker_bioconductor-specond| image:: https://quay.io/repository/biocontainers/bioconductor-specond/status
    :target: https://quay.io/repository/biocontainers/bioconductor-specond

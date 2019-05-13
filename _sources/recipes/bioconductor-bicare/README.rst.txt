@@ -50,6 +50,7 @@ bioconductor-bicare
 
 
 .. |downloads_bioconductor-bicare| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bicare.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bicare
    :alt:   (downloads)
 .. |docker_bioconductor-bicare| image:: https://quay.io/repository/biocontainers/bioconductor-bicare/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bicare

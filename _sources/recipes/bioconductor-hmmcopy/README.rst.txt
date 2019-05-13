@@ -49,6 +49,7 @@ bioconductor-hmmcopy
 
 
 .. |downloads_bioconductor-hmmcopy| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hmmcopy.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hmmcopy
    :alt:   (downloads)
 .. |docker_bioconductor-hmmcopy| image:: https://quay.io/repository/biocontainers/bioconductor-hmmcopy/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hmmcopy

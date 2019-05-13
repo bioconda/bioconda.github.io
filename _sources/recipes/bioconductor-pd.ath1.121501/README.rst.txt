@@ -53,6 +53,7 @@ bioconductor-pd.ath1.121501
 
 
 .. |downloads_bioconductor-pd.ath1.121501| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.ath1.121501.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.ath1.121501
    :alt:   (downloads)
 .. |docker_bioconductor-pd.ath1.121501| image:: https://quay.io/repository/biocontainers/bioconductor-pd.ath1.121501/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.ath1.121501

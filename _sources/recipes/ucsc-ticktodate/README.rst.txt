@@ -50,6 +50,7 @@ ucsc-ticktodate
 
 
 .. |downloads_ucsc-ticktodate| image:: https://img.shields.io/conda/dn/bioconda/ucsc-ticktodate.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-ticktodate
    :alt:   (downloads)
 .. |docker_ucsc-ticktodate| image:: https://quay.io/repository/biocontainers/ucsc-ticktodate/status
    :target: https://quay.io/repository/biocontainers/ucsc-ticktodate

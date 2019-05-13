@@ -58,6 +58,7 @@ snakemake-minimal
 
 
 .. |downloads_snakemake-minimal| image:: https://img.shields.io/conda/dn/bioconda/snakemake-minimal.svg?style=flat
+   :target: https://anaconda.org/bioconda/snakemake-minimal
    :alt:   (downloads)
 .. |docker_snakemake-minimal| image:: https://quay.io/repository/biocontainers/snakemake-minimal/status
    :target: https://quay.io/repository/biocontainers/snakemake-minimal

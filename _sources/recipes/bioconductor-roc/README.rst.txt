@@ -48,6 +48,7 @@ bioconductor-roc
 
 
 .. |downloads_bioconductor-roc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-roc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-roc
    :alt:   (downloads)
 .. |docker_bioconductor-roc| image:: https://quay.io/repository/biocontainers/bioconductor-roc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-roc

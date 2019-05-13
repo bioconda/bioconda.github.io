@@ -55,6 +55,7 @@ bioconductor-crisprseek
 
 
 .. |downloads_bioconductor-crisprseek| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-crisprseek.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-crisprseek
    :alt:   (downloads)
 .. |docker_bioconductor-crisprseek| image:: https://quay.io/repository/biocontainers/bioconductor-crisprseek/status
    :target: https://quay.io/repository/biocontainers/bioconductor-crisprseek

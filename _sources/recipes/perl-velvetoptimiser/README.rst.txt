@@ -48,6 +48,7 @@ perl-velvetoptimiser
 
 
 .. |downloads_perl-velvetoptimiser| image:: https://img.shields.io/conda/dn/bioconda/perl-velvetoptimiser.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-velvetoptimiser
    :alt:   (downloads)
 .. |docker_perl-velvetoptimiser| image:: https://quay.io/repository/biocontainers/perl-velvetoptimiser/status
    :target: https://quay.io/repository/biocontainers/perl-velvetoptimiser

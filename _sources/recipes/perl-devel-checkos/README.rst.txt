@@ -48,6 +48,7 @@ perl-devel-checkos
 
 
 .. |downloads_perl-devel-checkos| image:: https://img.shields.io/conda/dn/bioconda/perl-devel-checkos.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-devel-checkos
    :alt:   (downloads)
 .. |docker_perl-devel-checkos| image:: https://quay.io/repository/biocontainers/perl-devel-checkos/status
    :target: https://quay.io/repository/biocontainers/perl-devel-checkos

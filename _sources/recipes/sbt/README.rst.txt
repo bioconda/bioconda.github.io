@@ -45,6 +45,7 @@ sbt
 
 
 .. |downloads_sbt| image:: https://img.shields.io/conda/dn/bioconda/sbt.svg?style=flat
+   :target: https://anaconda.org/bioconda/sbt
    :alt:   (downloads)
 .. |docker_sbt| image:: https://quay.io/repository/biocontainers/sbt/status
    :target: https://quay.io/repository/biocontainers/sbt

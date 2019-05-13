@@ -49,6 +49,7 @@ solvebio
 
 
 .. |downloads_solvebio| image:: https://img.shields.io/conda/dn/bioconda/solvebio.svg?style=flat
+   :target: https://anaconda.org/bioconda/solvebio
    :alt:   (downloads)
 .. |docker_solvebio| image:: https://quay.io/repository/biocontainers/solvebio/status
    :target: https://quay.io/repository/biocontainers/solvebio

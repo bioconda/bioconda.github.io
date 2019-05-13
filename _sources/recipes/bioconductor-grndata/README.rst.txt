@@ -46,6 +46,7 @@ bioconductor-grndata
 
 
 .. |downloads_bioconductor-grndata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-grndata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-grndata
    :alt:   (downloads)
 .. |docker_bioconductor-grndata| image:: https://quay.io/repository/biocontainers/bioconductor-grndata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-grndata

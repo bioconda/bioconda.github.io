@@ -47,6 +47,7 @@ bioconductor-colonca
 
 
 .. |downloads_bioconductor-colonca| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-colonca.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-colonca
    :alt:   (downloads)
 .. |docker_bioconductor-colonca| image:: https://quay.io/repository/biocontainers/bioconductor-colonca/status
    :target: https://quay.io/repository/biocontainers/bioconductor-colonca

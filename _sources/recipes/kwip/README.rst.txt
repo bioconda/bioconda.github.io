@@ -49,6 +49,7 @@ kwip
 
 
 .. |downloads_kwip| image:: https://img.shields.io/conda/dn/bioconda/kwip.svg?style=flat
+   :target: https://anaconda.org/bioconda/kwip
    :alt:   (downloads)
 .. |docker_kwip| image:: https://quay.io/repository/biocontainers/kwip/status
    :target: https://quay.io/repository/biocontainers/kwip

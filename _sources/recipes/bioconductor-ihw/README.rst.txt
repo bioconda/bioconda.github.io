@@ -50,6 +50,7 @@ bioconductor-ihw
 
 
 .. |downloads_bioconductor-ihw| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ihw.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ihw
    :alt:   (downloads)
 .. |docker_bioconductor-ihw| image:: https://quay.io/repository/biocontainers/bioconductor-ihw/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ihw

@@ -45,6 +45,7 @@ perl-path-tiny
 
 
 .. |downloads_perl-path-tiny| image:: https://img.shields.io/conda/dn/bioconda/perl-path-tiny.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-path-tiny
    :alt:   (downloads)
 .. |docker_perl-path-tiny| image:: https://quay.io/repository/biocontainers/perl-path-tiny/status
    :target: https://quay.io/repository/biocontainers/perl-path-tiny

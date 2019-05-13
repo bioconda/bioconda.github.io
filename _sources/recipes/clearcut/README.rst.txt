@@ -44,6 +44,7 @@ clearcut
 
 
 .. |downloads_clearcut| image:: https://img.shields.io/conda/dn/bioconda/clearcut.svg?style=flat
+   :target: https://anaconda.org/bioconda/clearcut
    :alt:   (downloads)
 .. |docker_clearcut| image:: https://quay.io/repository/biocontainers/clearcut/status
    :target: https://quay.io/repository/biocontainers/clearcut

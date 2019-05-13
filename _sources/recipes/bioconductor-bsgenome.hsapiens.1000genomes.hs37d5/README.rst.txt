@@ -47,6 +47,7 @@ bioconductor-bsgenome.hsapiens.1000genomes.hs37d5
 
 
 .. |downloads_bioconductor-bsgenome.hsapiens.1000genomes.hs37d5| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.hsapiens.1000genomes.hs37d5.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome.hsapiens.1000genomes.hs37d5
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.hsapiens.1000genomes.hs37d5| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.hsapiens.1000genomes.hs37d5/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.hsapiens.1000genomes.hs37d5

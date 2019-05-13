@@ -53,6 +53,7 @@ bioconductor-ensemblvep
 
 
 .. |downloads_bioconductor-ensemblvep| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ensemblvep.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ensemblvep
    :alt:   (downloads)
 .. |docker_bioconductor-ensemblvep| image:: https://quay.io/repository/biocontainers/bioconductor-ensemblvep/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ensemblvep

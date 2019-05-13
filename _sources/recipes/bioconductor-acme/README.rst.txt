@@ -49,6 +49,7 @@ bioconductor-acme
 
 
 .. |downloads_bioconductor-acme| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-acme.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-acme
    :alt:   (downloads)
 .. |docker_bioconductor-acme| image:: https://quay.io/repository/biocontainers/bioconductor-acme/status
    :target: https://quay.io/repository/biocontainers/bioconductor-acme

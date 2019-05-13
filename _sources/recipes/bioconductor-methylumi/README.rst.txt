@@ -64,6 +64,7 @@ bioconductor-methylumi
 
 
 .. |downloads_bioconductor-methylumi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methylumi.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-methylumi
    :alt:   (downloads)
 .. |docker_bioconductor-methylumi| image:: https://quay.io/repository/biocontainers/bioconductor-methylumi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-methylumi

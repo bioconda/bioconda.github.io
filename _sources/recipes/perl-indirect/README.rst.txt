@@ -47,6 +47,7 @@ perl-indirect
 
 
 .. |downloads_perl-indirect| image:: https://img.shields.io/conda/dn/bioconda/perl-indirect.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-indirect
    :alt:   (downloads)
 .. |docker_perl-indirect| image:: https://quay.io/repository/biocontainers/perl-indirect/status
    :target: https://quay.io/repository/biocontainers/perl-indirect

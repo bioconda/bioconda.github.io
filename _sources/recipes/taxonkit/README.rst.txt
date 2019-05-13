@@ -44,6 +44,7 @@ taxonkit
 
 
 .. |downloads_taxonkit| image:: https://img.shields.io/conda/dn/bioconda/taxonkit.svg?style=flat
+   :target: https://anaconda.org/bioconda/taxonkit
    :alt:   (downloads)
 .. |docker_taxonkit| image:: https://quay.io/repository/biocontainers/taxonkit/status
    :target: https://quay.io/repository/biocontainers/taxonkit

@@ -46,6 +46,7 @@ igor_vdj
 
 
 .. |downloads_igor_vdj| image:: https://img.shields.io/conda/dn/bioconda/igor_vdj.svg?style=flat
+   :target: https://anaconda.org/bioconda/igor_vdj
    :alt:   (downloads)
 .. |docker_igor_vdj| image:: https://quay.io/repository/biocontainers/igor_vdj/status
    :target: https://quay.io/repository/biocontainers/igor_vdj

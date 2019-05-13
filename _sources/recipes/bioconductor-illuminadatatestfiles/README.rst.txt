@@ -46,6 +46,7 @@ bioconductor-illuminadatatestfiles
 
 
 .. |downloads_bioconductor-illuminadatatestfiles| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-illuminadatatestfiles.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-illuminadatatestfiles
    :alt:   (downloads)
 .. |docker_bioconductor-illuminadatatestfiles| image:: https://quay.io/repository/biocontainers/bioconductor-illuminadatatestfiles/status
    :target: https://quay.io/repository/biocontainers/bioconductor-illuminadatatestfiles

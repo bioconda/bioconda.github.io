@@ -49,6 +49,7 @@ bioconductor-lmdme
 
 
 .. |downloads_bioconductor-lmdme| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lmdme.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lmdme
    :alt:   (downloads)
 .. |docker_bioconductor-lmdme| image:: https://quay.io/repository/biocontainers/bioconductor-lmdme/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lmdme

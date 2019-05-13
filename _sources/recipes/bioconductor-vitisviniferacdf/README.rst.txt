@@ -47,6 +47,7 @@ bioconductor-vitisviniferacdf
 
 
 .. |downloads_bioconductor-vitisviniferacdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-vitisviniferacdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-vitisviniferacdf
    :alt:   (downloads)
 .. |docker_bioconductor-vitisviniferacdf| image:: https://quay.io/repository/biocontainers/bioconductor-vitisviniferacdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-vitisviniferacdf

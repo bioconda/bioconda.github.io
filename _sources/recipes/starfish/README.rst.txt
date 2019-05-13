@@ -65,6 +65,7 @@ starfish
 
 
 .. |downloads_starfish| image:: https://img.shields.io/conda/dn/bioconda/starfish.svg?style=flat
+   :target: https://anaconda.org/bioconda/starfish
    :alt:   (downloads)
 .. |docker_starfish| image:: https://quay.io/repository/biocontainers/starfish/status
    :target: https://quay.io/repository/biocontainers/starfish

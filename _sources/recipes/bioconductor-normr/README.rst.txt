@@ -54,6 +54,7 @@ bioconductor-normr
 
 
 .. |downloads_bioconductor-normr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-normr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-normr
    :alt:   (downloads)
 .. |docker_bioconductor-normr| image:: https://quay.io/repository/biocontainers/bioconductor-normr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-normr

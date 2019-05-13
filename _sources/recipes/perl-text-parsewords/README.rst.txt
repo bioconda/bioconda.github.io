@@ -46,6 +46,7 @@ perl-text-parsewords
 
 
 .. |downloads_perl-text-parsewords| image:: https://img.shields.io/conda/dn/bioconda/perl-text-parsewords.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-text-parsewords
    :alt:   (downloads)
 .. |docker_perl-text-parsewords| image:: https://quay.io/repository/biocontainers/perl-text-parsewords/status
    :target: https://quay.io/repository/biocontainers/perl-text-parsewords

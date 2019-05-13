@@ -58,6 +58,7 @@ dreamtools
 
 
 .. |downloads_dreamtools| image:: https://img.shields.io/conda/dn/bioconda/dreamtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/dreamtools
    :alt:   (downloads)
 .. |docker_dreamtools| image:: https://quay.io/repository/biocontainers/dreamtools/status
    :target: https://quay.io/repository/biocontainers/dreamtools

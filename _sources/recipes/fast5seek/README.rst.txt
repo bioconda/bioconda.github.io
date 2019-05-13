@@ -47,6 +47,7 @@ fast5seek
 
 
 .. |downloads_fast5seek| image:: https://img.shields.io/conda/dn/bioconda/fast5seek.svg?style=flat
+   :target: https://anaconda.org/bioconda/fast5seek
    :alt:   (downloads)
 .. |docker_fast5seek| image:: https://quay.io/repository/biocontainers/fast5seek/status
    :target: https://quay.io/repository/biocontainers/fast5seek

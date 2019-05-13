@@ -50,6 +50,7 @@ bioconductor-viper
 
 
 .. |downloads_bioconductor-viper| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-viper.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-viper
    :alt:   (downloads)
 .. |docker_bioconductor-viper| image:: https://quay.io/repository/biocontainers/bioconductor-viper/status
    :target: https://quay.io/repository/biocontainers/bioconductor-viper

@@ -51,6 +51,7 @@ bioconductor-biostrings
 
 
 .. |downloads_bioconductor-biostrings| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biostrings.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-biostrings
    :alt:   (downloads)
 .. |docker_bioconductor-biostrings| image:: https://quay.io/repository/biocontainers/bioconductor-biostrings/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biostrings

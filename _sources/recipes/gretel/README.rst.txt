@@ -49,6 +49,7 @@ gretel
 
 
 .. |downloads_gretel| image:: https://img.shields.io/conda/dn/bioconda/gretel.svg?style=flat
+   :target: https://anaconda.org/bioconda/gretel
    :alt:   (downloads)
 .. |docker_gretel| image:: https://quay.io/repository/biocontainers/gretel/status
    :target: https://quay.io/repository/biocontainers/gretel

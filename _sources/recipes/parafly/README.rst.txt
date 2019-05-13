@@ -46,6 +46,7 @@ parafly
 
 
 .. |downloads_parafly| image:: https://img.shields.io/conda/dn/bioconda/parafly.svg?style=flat
+   :target: https://anaconda.org/bioconda/parafly
    :alt:   (downloads)
 .. |docker_parafly| image:: https://quay.io/repository/biocontainers/parafly/status
    :target: https://quay.io/repository/biocontainers/parafly

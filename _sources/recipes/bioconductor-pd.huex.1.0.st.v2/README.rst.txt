@@ -53,6 +53,7 @@ bioconductor-pd.huex.1.0.st.v2
 
 
 .. |downloads_bioconductor-pd.huex.1.0.st.v2| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.huex.1.0.st.v2.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.huex.1.0.st.v2
    :alt:   (downloads)
 .. |docker_bioconductor-pd.huex.1.0.st.v2| image:: https://quay.io/repository/biocontainers/bioconductor-pd.huex.1.0.st.v2/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.huex.1.0.st.v2

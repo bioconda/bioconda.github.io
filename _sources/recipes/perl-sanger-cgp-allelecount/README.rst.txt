@@ -49,6 +49,7 @@ perl-sanger-cgp-allelecount
 
 
 .. |downloads_perl-sanger-cgp-allelecount| image:: https://img.shields.io/conda/dn/bioconda/perl-sanger-cgp-allelecount.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-sanger-cgp-allelecount
    :alt:   (downloads)
 .. |docker_perl-sanger-cgp-allelecount| image:: https://quay.io/repository/biocontainers/perl-sanger-cgp-allelecount/status
    :target: https://quay.io/repository/biocontainers/perl-sanger-cgp-allelecount

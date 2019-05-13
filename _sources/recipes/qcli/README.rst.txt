@@ -45,6 +45,7 @@ qcli
 
 
 .. |downloads_qcli| image:: https://img.shields.io/conda/dn/bioconda/qcli.svg?style=flat
+   :target: https://anaconda.org/bioconda/qcli
    :alt:   (downloads)
 .. |docker_qcli| image:: https://quay.io/repository/biocontainers/qcli/status
    :target: https://quay.io/repository/biocontainers/qcli

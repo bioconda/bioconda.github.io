@@ -45,6 +45,7 @@ perl-btlib
 
 
 .. |downloads_perl-btlib| image:: https://img.shields.io/conda/dn/bioconda/perl-btlib.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-btlib
    :alt:   (downloads)
 .. |docker_perl-btlib| image:: https://quay.io/repository/biocontainers/perl-btlib/status
    :target: https://quay.io/repository/biocontainers/perl-btlib

@@ -50,6 +50,7 @@ bioconductor-eudysbiome
 
 
 .. |downloads_bioconductor-eudysbiome| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-eudysbiome.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-eudysbiome
    :alt:   (downloads)
 .. |docker_bioconductor-eudysbiome| image:: https://quay.io/repository/biocontainers/bioconductor-eudysbiome/status
    :target: https://quay.io/repository/biocontainers/bioconductor-eudysbiome

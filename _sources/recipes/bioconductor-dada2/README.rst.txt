@@ -23,7 +23,7 @@ bioconductor-dada2
 
    |downloads_bioconductor-dada2| |docker_bioconductor-dada2|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.4-0, 1.4.0-0, 1.2-0, 1.0.3-0, 0.99.10-0, 0.10.4-0, 0.10.3-0, 0.10.1-0, 0.10.0-0
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.4-0, 1.2-0, 1.0.3-0, 0.99.10-0, 0.10.4-0, 0.10.3-0, 0.10.1-0, 0.10.0-0
    
    :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
@@ -58,6 +58,7 @@ bioconductor-dada2
 
 
 .. |downloads_bioconductor-dada2| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dada2.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dada2
    :alt:   (downloads)
 .. |docker_bioconductor-dada2| image:: https://quay.io/repository/biocontainers/bioconductor-dada2/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dada2

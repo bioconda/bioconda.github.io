@@ -52,6 +52,7 @@ perl-mce-shared
 
 
 .. |downloads_perl-mce-shared| image:: https://img.shields.io/conda/dn/bioconda/perl-mce-shared.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-mce-shared
    :alt:   (downloads)
 .. |docker_perl-mce-shared| image:: https://quay.io/repository/biocontainers/perl-mce-shared/status
    :target: https://quay.io/repository/biocontainers/perl-mce-shared

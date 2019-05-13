@@ -53,6 +53,7 @@ micropita
 
 
 .. |downloads_micropita| image:: https://img.shields.io/conda/dn/bioconda/micropita.svg?style=flat
+   :target: https://anaconda.org/bioconda/micropita
    :alt:   (downloads)
 .. |docker_micropita| image:: https://quay.io/repository/biocontainers/micropita/status
    :target: https://quay.io/repository/biocontainers/micropita

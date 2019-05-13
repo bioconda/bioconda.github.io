@@ -54,6 +54,7 @@ onto2nx
 
 
 .. |downloads_onto2nx| image:: https://img.shields.io/conda/dn/bioconda/onto2nx.svg?style=flat
+   :target: https://anaconda.org/bioconda/onto2nx
    :alt:   (downloads)
 .. |docker_onto2nx| image:: https://quay.io/repository/biocontainers/onto2nx/status
    :target: https://quay.io/repository/biocontainers/onto2nx

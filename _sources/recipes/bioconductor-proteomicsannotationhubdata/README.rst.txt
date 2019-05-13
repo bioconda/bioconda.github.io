@@ -55,6 +55,7 @@ bioconductor-proteomicsannotationhubdata
 
 
 .. |downloads_bioconductor-proteomicsannotationhubdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-proteomicsannotationhubdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-proteomicsannotationhubdata
    :alt:   (downloads)
 .. |docker_bioconductor-proteomicsannotationhubdata| image:: https://quay.io/repository/biocontainers/bioconductor-proteomicsannotationhubdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-proteomicsannotationhubdata

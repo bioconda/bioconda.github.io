@@ -49,6 +49,7 @@ bioconductor-olingui
 
 
 .. |downloads_bioconductor-olingui| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-olingui.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-olingui
    :alt:   (downloads)
 .. |docker_bioconductor-olingui| image:: https://quay.io/repository/biocontainers/bioconductor-olingui/status
    :target: https://quay.io/repository/biocontainers/bioconductor-olingui

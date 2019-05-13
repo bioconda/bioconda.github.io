@@ -46,6 +46,7 @@ bioconductor-pasillatranscriptexpr
 
 
 .. |downloads_bioconductor-pasillatranscriptexpr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pasillatranscriptexpr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pasillatranscriptexpr
    :alt:   (downloads)
 .. |docker_bioconductor-pasillatranscriptexpr| image:: https://quay.io/repository/biocontainers/bioconductor-pasillatranscriptexpr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pasillatranscriptexpr

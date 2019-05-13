@@ -46,6 +46,7 @@ mtnucratio
 
 
 .. |downloads_mtnucratio| image:: https://img.shields.io/conda/dn/bioconda/mtnucratio.svg?style=flat
+   :target: https://anaconda.org/bioconda/mtnucratio
    :alt:   (downloads)
 .. |docker_mtnucratio| image:: https://quay.io/repository/biocontainers/mtnucratio/status
    :target: https://quay.io/repository/biocontainers/mtnucratio

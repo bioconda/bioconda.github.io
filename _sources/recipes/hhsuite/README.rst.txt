@@ -49,6 +49,7 @@ hhsuite
 
 
 .. |downloads_hhsuite| image:: https://img.shields.io/conda/dn/bioconda/hhsuite.svg?style=flat
+   :target: https://anaconda.org/bioconda/hhsuite
    :alt:   (downloads)
 .. |docker_hhsuite| image:: https://quay.io/repository/biocontainers/hhsuite/status
    :target: https://quay.io/repository/biocontainers/hhsuite

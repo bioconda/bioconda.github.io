@@ -47,6 +47,7 @@ bioconductor-mesh.ani.fgsc.eg.db
 
 
 .. |downloads_bioconductor-mesh.ani.fgsc.eg.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mesh.ani.fgsc.eg.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mesh.ani.fgsc.eg.db
    :alt:   (downloads)
 .. |docker_bioconductor-mesh.ani.fgsc.eg.db| image:: https://quay.io/repository/biocontainers/bioconductor-mesh.ani.fgsc.eg.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mesh.ani.fgsc.eg.db

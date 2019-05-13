@@ -47,6 +47,7 @@ micro_razers
 
 
 .. |downloads_micro_razers| image:: https://img.shields.io/conda/dn/bioconda/micro_razers.svg?style=flat
+   :target: https://anaconda.org/bioconda/micro_razers
    :alt:   (downloads)
 .. |docker_micro_razers| image:: https://quay.io/repository/biocontainers/micro_razers/status
    :target: https://quay.io/repository/biocontainers/micro_razers

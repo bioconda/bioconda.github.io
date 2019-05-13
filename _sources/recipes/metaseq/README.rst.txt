@@ -58,6 +58,7 @@ metaseq
 
 
 .. |downloads_metaseq| image:: https://img.shields.io/conda/dn/bioconda/metaseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/metaseq
    :alt:   (downloads)
 .. |docker_metaseq| image:: https://quay.io/repository/biocontainers/metaseq/status
    :target: https://quay.io/repository/biocontainers/metaseq

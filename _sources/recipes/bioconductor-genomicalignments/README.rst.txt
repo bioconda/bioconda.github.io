@@ -56,6 +56,7 @@ bioconductor-genomicalignments
 
 
 .. |downloads_bioconductor-genomicalignments| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genomicalignments.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genomicalignments
    :alt:   (downloads)
 .. |docker_bioconductor-genomicalignments| image:: https://quay.io/repository/biocontainers/bioconductor-genomicalignments/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genomicalignments

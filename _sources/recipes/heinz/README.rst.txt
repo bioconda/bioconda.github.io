@@ -45,6 +45,7 @@ heinz
 
 
 .. |downloads_heinz| image:: https://img.shields.io/conda/dn/bioconda/heinz.svg?style=flat
+   :target: https://anaconda.org/bioconda/heinz
    :alt:   (downloads)
 .. |docker_heinz| image:: https://quay.io/repository/biocontainers/heinz/status
    :target: https://quay.io/repository/biocontainers/heinz

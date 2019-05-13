@@ -47,6 +47,7 @@ bioconductor-hmdbquery
 
 
 .. |downloads_bioconductor-hmdbquery| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hmdbquery.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hmdbquery
    :alt:   (downloads)
 .. |docker_bioconductor-hmdbquery| image:: https://quay.io/repository/biocontainers/bioconductor-hmdbquery/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hmdbquery

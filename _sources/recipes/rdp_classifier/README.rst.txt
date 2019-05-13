@@ -45,6 +45,7 @@ rdp_classifier
 
 
 .. |downloads_rdp_classifier| image:: https://img.shields.io/conda/dn/bioconda/rdp_classifier.svg?style=flat
+   :target: https://anaconda.org/bioconda/rdp_classifier
    :alt:   (downloads)
 .. |docker_rdp_classifier| image:: https://quay.io/repository/biocontainers/rdp_classifier/status
    :target: https://quay.io/repository/biocontainers/rdp_classifier

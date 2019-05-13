@@ -48,6 +48,7 @@ bioconductor-illuminahumanmethylation27k.db
 
 
 .. |downloads_bioconductor-illuminahumanmethylation27k.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-illuminahumanmethylation27k.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-illuminahumanmethylation27k.db
    :alt:   (downloads)
 .. |docker_bioconductor-illuminahumanmethylation27k.db| image:: https://quay.io/repository/biocontainers/bioconductor-illuminahumanmethylation27k.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-illuminahumanmethylation27k.db

@@ -48,6 +48,7 @@ bioconductor-lrbase.dme.eg.db
 
 
 .. |downloads_bioconductor-lrbase.dme.eg.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lrbase.dme.eg.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lrbase.dme.eg.db
    :alt:   (downloads)
 .. |docker_bioconductor-lrbase.dme.eg.db| image:: https://quay.io/repository/biocontainers/bioconductor-lrbase.dme.eg.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lrbase.dme.eg.db

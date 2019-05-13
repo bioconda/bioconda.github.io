@@ -48,6 +48,7 @@ bioconductor-netreg
 
 
 .. |downloads_bioconductor-netreg| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-netreg.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-netreg
    :alt:   (downloads)
 .. |docker_bioconductor-netreg| image:: https://quay.io/repository/biocontainers/bioconductor-netreg/status
    :target: https://quay.io/repository/biocontainers/bioconductor-netreg

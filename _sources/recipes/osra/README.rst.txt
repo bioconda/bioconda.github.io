@@ -52,6 +52,7 @@ osra
 
 
 .. |downloads_osra| image:: https://img.shields.io/conda/dn/bioconda/osra.svg?style=flat
+   :target: https://anaconda.org/bioconda/osra
    :alt:   (downloads)
 .. |docker_osra| image:: https://quay.io/repository/biocontainers/osra/status
    :target: https://quay.io/repository/biocontainers/osra

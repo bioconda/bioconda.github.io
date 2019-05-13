@@ -53,6 +53,7 @@ bioconductor-pd.poplar
 
 
 .. |downloads_bioconductor-pd.poplar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.poplar.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.poplar
    :alt:   (downloads)
 .. |docker_bioconductor-pd.poplar| image:: https://quay.io/repository/biocontainers/bioconductor-pd.poplar/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.poplar

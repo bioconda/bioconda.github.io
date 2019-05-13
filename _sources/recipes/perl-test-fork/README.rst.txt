@@ -45,6 +45,7 @@ perl-test-fork
 
 
 .. |downloads_perl-test-fork| image:: https://img.shields.io/conda/dn/bioconda/perl-test-fork.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-fork
    :alt:   (downloads)
 .. |docker_perl-test-fork| image:: https://quay.io/repository/biocontainers/perl-test-fork/status
    :target: https://quay.io/repository/biocontainers/perl-test-fork

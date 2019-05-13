@@ -52,6 +52,7 @@ bioconductor-predictionet
 
 
 .. |downloads_bioconductor-predictionet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-predictionet.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-predictionet
    :alt:   (downloads)
 .. |docker_bioconductor-predictionet| image:: https://quay.io/repository/biocontainers/bioconductor-predictionet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-predictionet

@@ -47,6 +47,7 @@ varscan
 
 
 .. |downloads_varscan| image:: https://img.shields.io/conda/dn/bioconda/varscan.svg?style=flat
+   :target: https://anaconda.org/bioconda/varscan
    :alt:   (downloads)
 .. |docker_varscan| image:: https://quay.io/repository/biocontainers/varscan/status
    :target: https://quay.io/repository/biocontainers/varscan

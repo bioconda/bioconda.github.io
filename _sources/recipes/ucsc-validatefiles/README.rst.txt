@@ -50,6 +50,7 @@ ucsc-validatefiles
 
 
 .. |downloads_ucsc-validatefiles| image:: https://img.shields.io/conda/dn/bioconda/ucsc-validatefiles.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-validatefiles
    :alt:   (downloads)
 .. |docker_ucsc-validatefiles| image:: https://quay.io/repository/biocontainers/ucsc-validatefiles/status
    :target: https://quay.io/repository/biocontainers/ucsc-validatefiles

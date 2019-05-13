@@ -45,6 +45,7 @@ libgenome
 
 
 .. |downloads_libgenome| image:: https://img.shields.io/conda/dn/bioconda/libgenome.svg?style=flat
+   :target: https://anaconda.org/bioconda/libgenome
    :alt:   (downloads)
 .. |docker_libgenome| image:: https://quay.io/repository/biocontainers/libgenome/status
    :target: https://quay.io/repository/biocontainers/libgenome

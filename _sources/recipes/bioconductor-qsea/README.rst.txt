@@ -60,6 +60,7 @@ bioconductor-qsea
 
 
 .. |downloads_bioconductor-qsea| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-qsea.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-qsea
    :alt:   (downloads)
 .. |docker_bioconductor-qsea| image:: https://quay.io/repository/biocontainers/bioconductor-qsea/status
    :target: https://quay.io/repository/biocontainers/bioconductor-qsea

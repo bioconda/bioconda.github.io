@@ -76,6 +76,7 @@ perl-bioperl-core
 
 
 .. |downloads_perl-bioperl-core| image:: https://img.shields.io/conda/dn/bioconda/perl-bioperl-core.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bioperl-core
    :alt:   (downloads)
 .. |docker_perl-bioperl-core| image:: https://quay.io/repository/biocontainers/perl-bioperl-core/status
    :target: https://quay.io/repository/biocontainers/perl-bioperl-core

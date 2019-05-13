@@ -47,6 +47,7 @@ bioconductor-plasfia
 
 
 .. |downloads_bioconductor-plasfia| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-plasfia.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-plasfia
    :alt:   (downloads)
 .. |docker_bioconductor-plasfia| image:: https://quay.io/repository/biocontainers/bioconductor-plasfia/status
    :target: https://quay.io/repository/biocontainers/bioconductor-plasfia

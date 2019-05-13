@@ -64,6 +64,7 @@ bioconductor-compass
 
 
 .. |downloads_bioconductor-compass| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-compass.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-compass
    :alt:   (downloads)
 .. |docker_bioconductor-compass| image:: https://quay.io/repository/biocontainers/bioconductor-compass/status
    :target: https://quay.io/repository/biocontainers/bioconductor-compass

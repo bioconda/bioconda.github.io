@@ -48,6 +48,7 @@ ecopcr
 
 
 .. |downloads_ecopcr| image:: https://img.shields.io/conda/dn/bioconda/ecopcr.svg?style=flat
+   :target: https://anaconda.org/bioconda/ecopcr
    :alt:   (downloads)
 .. |docker_ecopcr| image:: https://quay.io/repository/biocontainers/ecopcr/status
    :target: https://quay.io/repository/biocontainers/ecopcr

@@ -46,6 +46,7 @@ bioconductor-arrmdata
 
 
 .. |downloads_bioconductor-arrmdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-arrmdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-arrmdata
    :alt:   (downloads)
 .. |docker_bioconductor-arrmdata| image:: https://quay.io/repository/biocontainers/bioconductor-arrmdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-arrmdata

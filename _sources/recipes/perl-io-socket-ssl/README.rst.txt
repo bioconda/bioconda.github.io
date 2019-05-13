@@ -46,6 +46,7 @@ perl-io-socket-ssl
 
 
 .. |downloads_perl-io-socket-ssl| image:: https://img.shields.io/conda/dn/bioconda/perl-io-socket-ssl.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-io-socket-ssl
    :alt:   (downloads)
 .. |docker_perl-io-socket-ssl| image:: https://quay.io/repository/biocontainers/perl-io-socket-ssl/status
    :target: https://quay.io/repository/biocontainers/perl-io-socket-ssl

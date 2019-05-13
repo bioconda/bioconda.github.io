@@ -46,6 +46,7 @@ perl-io-gzip
 
 
 .. |downloads_perl-io-gzip| image:: https://img.shields.io/conda/dn/bioconda/perl-io-gzip.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-io-gzip
    :alt:   (downloads)
 .. |docker_perl-io-gzip| image:: https://quay.io/repository/biocontainers/perl-io-gzip/status
    :target: https://quay.io/repository/biocontainers/perl-io-gzip

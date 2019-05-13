@@ -45,6 +45,7 @@ perl-tie-ixhash
 
 
 .. |downloads_perl-tie-ixhash| image:: https://img.shields.io/conda/dn/bioconda/perl-tie-ixhash.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-tie-ixhash
    :alt:   (downloads)
 .. |docker_perl-tie-ixhash| image:: https://quay.io/repository/biocontainers/perl-tie-ixhash/status
    :target: https://quay.io/repository/biocontainers/perl-tie-ixhash

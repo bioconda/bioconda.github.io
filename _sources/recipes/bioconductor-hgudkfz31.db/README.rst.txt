@@ -48,6 +48,7 @@ bioconductor-hgudkfz31.db
 
 
 .. |downloads_bioconductor-hgudkfz31.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgudkfz31.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hgudkfz31.db
    :alt:   (downloads)
 .. |docker_bioconductor-hgudkfz31.db| image:: https://quay.io/repository/biocontainers/bioconductor-hgudkfz31.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hgudkfz31.db

@@ -46,6 +46,7 @@ bioconductor-pathnet
 
 
 .. |downloads_bioconductor-pathnet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pathnet.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pathnet
    :alt:   (downloads)
 .. |docker_bioconductor-pathnet| image:: https://quay.io/repository/biocontainers/bioconductor-pathnet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pathnet

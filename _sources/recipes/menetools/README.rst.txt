@@ -46,6 +46,7 @@ menetools
 
 
 .. |downloads_menetools| image:: https://img.shields.io/conda/dn/bioconda/menetools.svg?style=flat
+   :target: https://anaconda.org/bioconda/menetools
    :alt:   (downloads)
 .. |docker_menetools| image:: https://quay.io/repository/biocontainers/menetools/status
    :target: https://quay.io/repository/biocontainers/menetools

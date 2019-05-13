@@ -48,6 +48,7 @@ clustergrammer
 
 
 .. |downloads_clustergrammer| image:: https://img.shields.io/conda/dn/bioconda/clustergrammer.svg?style=flat
+   :target: https://anaconda.org/bioconda/clustergrammer
    :alt:   (downloads)
 .. |docker_clustergrammer| image:: https://quay.io/repository/biocontainers/clustergrammer/status
    :target: https://quay.io/repository/biocontainers/clustergrammer

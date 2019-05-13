@@ -47,6 +47,7 @@ snns
 
 
 .. |downloads_snns| image:: https://img.shields.io/conda/dn/bioconda/snns.svg?style=flat
+   :target: https://anaconda.org/bioconda/snns
    :alt:   (downloads)
 .. |docker_snns| image:: https://quay.io/repository/biocontainers/snns/status
    :target: https://quay.io/repository/biocontainers/snns

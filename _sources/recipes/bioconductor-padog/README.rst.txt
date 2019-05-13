@@ -57,6 +57,7 @@ bioconductor-padog
 
 
 .. |downloads_bioconductor-padog| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-padog.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-padog
    :alt:   (downloads)
 .. |docker_bioconductor-padog| image:: https://quay.io/repository/biocontainers/bioconductor-padog/status
    :target: https://quay.io/repository/biocontainers/bioconductor-padog

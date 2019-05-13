@@ -51,6 +51,7 @@ bioconductor-rgalaxy
 
 
 .. |downloads_bioconductor-rgalaxy| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rgalaxy.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rgalaxy
    :alt:   (downloads)
 .. |docker_bioconductor-rgalaxy| image:: https://quay.io/repository/biocontainers/bioconductor-rgalaxy/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rgalaxy

@@ -47,6 +47,7 @@ pycluster
 
 
 .. |downloads_pycluster| image:: https://img.shields.io/conda/dn/bioconda/pycluster.svg?style=flat
+   :target: https://anaconda.org/bioconda/pycluster
    :alt:   (downloads)
 .. |docker_pycluster| image:: https://quay.io/repository/biocontainers/pycluster/status
    :target: https://quay.io/repository/biocontainers/pycluster

@@ -47,6 +47,7 @@ rapidnj
 
 
 .. |downloads_rapidnj| image:: https://img.shields.io/conda/dn/bioconda/rapidnj.svg?style=flat
+   :target: https://anaconda.org/bioconda/rapidnj
    :alt:   (downloads)
 .. |docker_rapidnj| image:: https://quay.io/repository/biocontainers/rapidnj/status
    :target: https://quay.io/repository/biocontainers/rapidnj

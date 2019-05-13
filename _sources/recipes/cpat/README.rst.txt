@@ -49,6 +49,7 @@ cpat
 
 
 .. |downloads_cpat| image:: https://img.shields.io/conda/dn/bioconda/cpat.svg?style=flat
+   :target: https://anaconda.org/bioconda/cpat
    :alt:   (downloads)
 .. |docker_cpat| image:: https://quay.io/repository/biocontainers/cpat/status
    :target: https://quay.io/repository/biocontainers/cpat

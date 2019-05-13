@@ -46,6 +46,7 @@ perl-types-serialiser
 
 
 .. |downloads_perl-types-serialiser| image:: https://img.shields.io/conda/dn/bioconda/perl-types-serialiser.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-types-serialiser
    :alt:   (downloads)
 .. |docker_perl-types-serialiser| image:: https://quay.io/repository/biocontainers/perl-types-serialiser/status
    :target: https://quay.io/repository/biocontainers/perl-types-serialiser

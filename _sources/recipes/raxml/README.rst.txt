@@ -46,6 +46,7 @@ raxml
 
 
 .. |downloads_raxml| image:: https://img.shields.io/conda/dn/bioconda/raxml.svg?style=flat
+   :target: https://anaconda.org/bioconda/raxml
    :alt:   (downloads)
 .. |docker_raxml| image:: https://quay.io/repository/biocontainers/raxml/status
    :target: https://quay.io/repository/biocontainers/raxml

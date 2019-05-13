@@ -51,6 +51,7 @@ gffutils
 
 
 .. |downloads_gffutils| image:: https://img.shields.io/conda/dn/bioconda/gffutils.svg?style=flat
+   :target: https://anaconda.org/bioconda/gffutils
    :alt:   (downloads)
 .. |docker_gffutils| image:: https://quay.io/repository/biocontainers/gffutils/status
    :target: https://quay.io/repository/biocontainers/gffutils

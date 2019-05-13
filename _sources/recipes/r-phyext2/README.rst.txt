@@ -47,6 +47,7 @@ r-phyext2
 
 
 .. |downloads_r-phyext2| image:: https://img.shields.io/conda/dn/bioconda/r-phyext2.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-phyext2
    :alt:   (downloads)
 .. |docker_r-phyext2| image:: https://quay.io/repository/biocontainers/r-phyext2/status
    :target: https://quay.io/repository/biocontainers/r-phyext2

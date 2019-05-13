@@ -54,6 +54,7 @@ bioconductor-prolocgui
 
 
 .. |downloads_bioconductor-prolocgui| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-prolocgui.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-prolocgui
    :alt:   (downloads)
 .. |docker_bioconductor-prolocgui| image:: https://quay.io/repository/biocontainers/bioconductor-prolocgui/status
    :target: https://quay.io/repository/biocontainers/bioconductor-prolocgui

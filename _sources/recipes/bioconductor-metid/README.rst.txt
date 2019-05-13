@@ -50,6 +50,7 @@ bioconductor-metid
 
 
 .. |downloads_bioconductor-metid| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metid.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-metid
    :alt:   (downloads)
 .. |docker_bioconductor-metid| image:: https://quay.io/repository/biocontainers/bioconductor-metid/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metid

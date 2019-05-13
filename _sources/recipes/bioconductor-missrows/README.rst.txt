@@ -50,6 +50,7 @@ bioconductor-missrows
 
 
 .. |downloads_bioconductor-missrows| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-missrows.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-missrows
    :alt:   (downloads)
 .. |docker_bioconductor-missrows| image:: https://quay.io/repository/biocontainers/bioconductor-missrows/status
    :target: https://quay.io/repository/biocontainers/bioconductor-missrows

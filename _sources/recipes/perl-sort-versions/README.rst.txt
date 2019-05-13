@@ -46,6 +46,7 @@ perl-sort-versions
 
 
 .. |downloads_perl-sort-versions| image:: https://img.shields.io/conda/dn/bioconda/perl-sort-versions.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-sort-versions
    :alt:   (downloads)
 .. |docker_perl-sort-versions| image:: https://quay.io/repository/biocontainers/perl-sort-versions/status
    :target: https://quay.io/repository/biocontainers/perl-sort-versions

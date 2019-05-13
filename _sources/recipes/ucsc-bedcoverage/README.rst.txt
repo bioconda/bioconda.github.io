@@ -50,6 +50,7 @@ ucsc-bedcoverage
 
 
 .. |downloads_ucsc-bedcoverage| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bedcoverage.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bedcoverage
    :alt:   (downloads)
 .. |docker_ucsc-bedcoverage| image:: https://quay.io/repository/biocontainers/ucsc-bedcoverage/status
    :target: https://quay.io/repository/biocontainers/ucsc-bedcoverage

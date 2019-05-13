@@ -50,6 +50,7 @@ ucsc-parafetch
 
 
 .. |downloads_ucsc-parafetch| image:: https://img.shields.io/conda/dn/bioconda/ucsc-parafetch.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-parafetch
    :alt:   (downloads)
 .. |docker_ucsc-parafetch| image:: https://quay.io/repository/biocontainers/ucsc-parafetch/status
    :target: https://quay.io/repository/biocontainers/ucsc-parafetch

@@ -49,6 +49,7 @@ bioconductor-procoil
 
 
 .. |downloads_bioconductor-procoil| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-procoil.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-procoil
    :alt:   (downloads)
 .. |docker_bioconductor-procoil| image:: https://quay.io/repository/biocontainers/bioconductor-procoil/status
    :target: https://quay.io/repository/biocontainers/bioconductor-procoil

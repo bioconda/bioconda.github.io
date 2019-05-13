@@ -49,6 +49,7 @@ bioconductor-safe
 
 
 .. |downloads_bioconductor-safe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-safe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-safe
    :alt:   (downloads)
 .. |docker_bioconductor-safe| image:: https://quay.io/repository/biocontainers/bioconductor-safe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-safe

@@ -65,6 +65,7 @@ bioconductor-scater
 
 
 .. |downloads_bioconductor-scater| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scater.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-scater
    :alt:   (downloads)
 .. |docker_bioconductor-scater| image:: https://quay.io/repository/biocontainers/bioconductor-scater/status
    :target: https://quay.io/repository/biocontainers/bioconductor-scater

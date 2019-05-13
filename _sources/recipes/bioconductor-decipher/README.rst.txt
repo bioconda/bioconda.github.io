@@ -53,6 +53,7 @@ bioconductor-decipher
 
 
 .. |downloads_bioconductor-decipher| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-decipher.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-decipher
    :alt:   (downloads)
 .. |docker_bioconductor-decipher| image:: https://quay.io/repository/biocontainers/bioconductor-decipher/status
    :target: https://quay.io/repository/biocontainers/bioconductor-decipher

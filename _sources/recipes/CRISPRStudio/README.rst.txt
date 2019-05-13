@@ -50,6 +50,7 @@ crispr_studio
 
 
 .. |downloads_crispr_studio| image:: https://img.shields.io/conda/dn/bioconda/crispr_studio.svg?style=flat
+   :target: https://anaconda.org/bioconda/crispr_studio
    :alt:   (downloads)
 .. |docker_crispr_studio| image:: https://quay.io/repository/biocontainers/crispr_studio/status
    :target: https://quay.io/repository/biocontainers/crispr_studio

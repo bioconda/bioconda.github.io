@@ -49,6 +49,7 @@ bioconductor-mipp
 
 
 .. |downloads_bioconductor-mipp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mipp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mipp
    :alt:   (downloads)
 .. |docker_bioconductor-mipp| image:: https://quay.io/repository/biocontainers/bioconductor-mipp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mipp

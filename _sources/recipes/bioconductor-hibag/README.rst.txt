@@ -48,6 +48,7 @@ bioconductor-hibag
 
 
 .. |downloads_bioconductor-hibag| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hibag.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hibag
    :alt:   (downloads)
 .. |docker_bioconductor-hibag| image:: https://quay.io/repository/biocontainers/bioconductor-hibag/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hibag

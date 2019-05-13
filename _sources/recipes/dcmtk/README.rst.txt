@@ -51,6 +51,7 @@ dcmtk
 
 
 .. |downloads_dcmtk| image:: https://img.shields.io/conda/dn/bioconda/dcmtk.svg?style=flat
+   :target: https://anaconda.org/bioconda/dcmtk
    :alt:   (downloads)
 .. |docker_dcmtk| image:: https://quay.io/repository/biocontainers/dcmtk/status
    :target: https://quay.io/repository/biocontainers/dcmtk

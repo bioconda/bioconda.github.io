@@ -51,6 +51,7 @@ abundancebin
 
 
 .. |downloads_abundancebin| image:: https://img.shields.io/conda/dn/bioconda/abundancebin.svg?style=flat
+   :target: https://anaconda.org/bioconda/abundancebin
    :alt:   (downloads)
 .. |docker_abundancebin| image:: https://quay.io/repository/biocontainers/abundancebin/status
    :target: https://quay.io/repository/biocontainers/abundancebin

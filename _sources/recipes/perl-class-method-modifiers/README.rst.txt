@@ -45,6 +45,7 @@ perl-class-method-modifiers
 
 
 .. |downloads_perl-class-method-modifiers| image:: https://img.shields.io/conda/dn/bioconda/perl-class-method-modifiers.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-class-method-modifiers
    :alt:   (downloads)
 .. |docker_perl-class-method-modifiers| image:: https://quay.io/repository/biocontainers/perl-class-method-modifiers/status
    :target: https://quay.io/repository/biocontainers/perl-class-method-modifiers

@@ -51,6 +51,7 @@ bioconductor-mbased
 
 
 .. |downloads_bioconductor-mbased| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mbased.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mbased
    :alt:   (downloads)
 .. |docker_bioconductor-mbased| image:: https://quay.io/repository/biocontainers/bioconductor-mbased/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mbased

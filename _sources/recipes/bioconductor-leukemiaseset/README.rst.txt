@@ -47,6 +47,7 @@ bioconductor-leukemiaseset
 
 
 .. |downloads_bioconductor-leukemiaseset| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-leukemiaseset.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-leukemiaseset
    :alt:   (downloads)
 .. |docker_bioconductor-leukemiaseset| image:: https://quay.io/repository/biocontainers/bioconductor-leukemiaseset/status
    :target: https://quay.io/repository/biocontainers/bioconductor-leukemiaseset

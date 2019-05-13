@@ -48,6 +48,7 @@ r-funrar
 
 
 .. |downloads_r-funrar| image:: https://img.shields.io/conda/dn/bioconda/r-funrar.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-funrar
    :alt:   (downloads)
 .. |docker_r-funrar| image:: https://quay.io/repository/biocontainers/r-funrar/status
    :target: https://quay.io/repository/biocontainers/r-funrar

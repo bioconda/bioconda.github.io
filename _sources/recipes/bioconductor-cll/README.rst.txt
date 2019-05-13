@@ -48,6 +48,7 @@ bioconductor-cll
 
 
 .. |downloads_bioconductor-cll| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cll.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cll
    :alt:   (downloads)
 .. |docker_bioconductor-cll| image:: https://quay.io/repository/biocontainers/bioconductor-cll/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cll

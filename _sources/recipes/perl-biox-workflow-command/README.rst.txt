@@ -88,6 +88,7 @@ perl-biox-workflow-command
 
 
 .. |downloads_perl-biox-workflow-command| image:: https://img.shields.io/conda/dn/bioconda/perl-biox-workflow-command.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-biox-workflow-command
    :alt:   (downloads)
 .. |docker_perl-biox-workflow-command| image:: https://quay.io/repository/biocontainers/perl-biox-workflow-command/status
    :target: https://quay.io/repository/biocontainers/perl-biox-workflow-command

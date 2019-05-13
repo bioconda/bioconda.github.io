@@ -47,6 +47,7 @@ bioconductor-org.pf.plasmo.db
 
 
 .. |downloads_bioconductor-org.pf.plasmo.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-org.pf.plasmo.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-org.pf.plasmo.db
    :alt:   (downloads)
 .. |docker_bioconductor-org.pf.plasmo.db| image:: https://quay.io/repository/biocontainers/bioconductor-org.pf.plasmo.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-org.pf.plasmo.db

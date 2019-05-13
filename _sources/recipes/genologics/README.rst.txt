@@ -46,6 +46,7 @@ genologics
 
 
 .. |downloads_genologics| image:: https://img.shields.io/conda/dn/bioconda/genologics.svg?style=flat
+   :target: https://anaconda.org/bioconda/genologics
    :alt:   (downloads)
 .. |docker_genologics| image:: https://quay.io/repository/biocontainers/genologics/status
    :target: https://quay.io/repository/biocontainers/genologics

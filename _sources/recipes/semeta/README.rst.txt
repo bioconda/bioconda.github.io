@@ -49,6 +49,7 @@ semeta
 
 
 .. |downloads_semeta| image:: https://img.shields.io/conda/dn/bioconda/semeta.svg?style=flat
+   :target: https://anaconda.org/bioconda/semeta
    :alt:   (downloads)
 .. |docker_semeta| image:: https://quay.io/repository/biocontainers/semeta/status
    :target: https://quay.io/repository/biocontainers/semeta

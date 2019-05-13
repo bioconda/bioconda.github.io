@@ -52,6 +52,7 @@ bioconductor-rcistarget
 
 
 .. |downloads_bioconductor-rcistarget| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rcistarget.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rcistarget
    :alt:   (downloads)
 .. |docker_bioconductor-rcistarget| image:: https://quay.io/repository/biocontainers/bioconductor-rcistarget/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rcistarget

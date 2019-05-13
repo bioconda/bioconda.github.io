@@ -49,6 +49,7 @@ faqcs
 
 
 .. |downloads_faqcs| image:: https://img.shields.io/conda/dn/bioconda/faqcs.svg?style=flat
+   :target: https://anaconda.org/bioconda/faqcs
    :alt:   (downloads)
 .. |docker_faqcs| image:: https://quay.io/repository/biocontainers/faqcs/status
    :target: https://quay.io/repository/biocontainers/faqcs

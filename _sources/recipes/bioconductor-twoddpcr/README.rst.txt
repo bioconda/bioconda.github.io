@@ -52,6 +52,7 @@ bioconductor-twoddpcr
 
 
 .. |downloads_bioconductor-twoddpcr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-twoddpcr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-twoddpcr
    :alt:   (downloads)
 .. |docker_bioconductor-twoddpcr| image:: https://quay.io/repository/biocontainers/bioconductor-twoddpcr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-twoddpcr

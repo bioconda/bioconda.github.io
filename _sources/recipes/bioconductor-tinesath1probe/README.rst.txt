@@ -47,6 +47,7 @@ bioconductor-tinesath1probe
 
 
 .. |downloads_bioconductor-tinesath1probe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tinesath1probe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tinesath1probe
    :alt:   (downloads)
 .. |docker_bioconductor-tinesath1probe| image:: https://quay.io/repository/biocontainers/bioconductor-tinesath1probe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tinesath1probe

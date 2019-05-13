@@ -61,6 +61,7 @@ igdiscover
 
 
 .. |downloads_igdiscover| image:: https://img.shields.io/conda/dn/bioconda/igdiscover.svg?style=flat
+   :target: https://anaconda.org/bioconda/igdiscover
    :alt:   (downloads)
 .. |docker_igdiscover| image:: https://quay.io/repository/biocontainers/igdiscover/status
    :target: https://quay.io/repository/biocontainers/igdiscover

@@ -51,6 +51,7 @@ bioconductor-flowcatchr
 
 
 .. |downloads_bioconductor-flowcatchr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowcatchr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowcatchr
    :alt:   (downloads)
 .. |docker_bioconductor-flowcatchr| image:: https://quay.io/repository/biocontainers/bioconductor-flowcatchr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowcatchr

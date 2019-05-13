@@ -51,6 +51,7 @@ bioconductor-rgadem
 
 
 .. |downloads_bioconductor-rgadem| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rgadem.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rgadem
    :alt:   (downloads)
 .. |docker_bioconductor-rgadem| image:: https://quay.io/repository/biocontainers/bioconductor-rgadem/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rgadem

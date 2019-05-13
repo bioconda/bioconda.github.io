@@ -47,6 +47,7 @@ bioconductor-cycle
 
 
 .. |downloads_bioconductor-cycle| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cycle.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cycle
    :alt:   (downloads)
 .. |docker_bioconductor-cycle| image:: https://quay.io/repository/biocontainers/bioconductor-cycle/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cycle

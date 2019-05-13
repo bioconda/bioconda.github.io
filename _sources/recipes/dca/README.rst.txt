@@ -54,6 +54,7 @@ dca
 
 
 .. |downloads_dca| image:: https://img.shields.io/conda/dn/bioconda/dca.svg?style=flat
+   :target: https://anaconda.org/bioconda/dca
    :alt:   (downloads)
 .. |docker_dca| image:: https://quay.io/repository/biocontainers/dca/status
    :target: https://quay.io/repository/biocontainers/dca

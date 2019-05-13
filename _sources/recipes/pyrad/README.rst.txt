@@ -49,6 +49,7 @@ pyrad
 
 
 .. |downloads_pyrad| image:: https://img.shields.io/conda/dn/bioconda/pyrad.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyrad
    :alt:   (downloads)
 .. |docker_pyrad| image:: https://quay.io/repository/biocontainers/pyrad/status
    :target: https://quay.io/repository/biocontainers/pyrad

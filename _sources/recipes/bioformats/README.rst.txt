@@ -48,6 +48,7 @@ bioformats
 
 
 .. |downloads_bioformats| image:: https://img.shields.io/conda/dn/bioconda/bioformats.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioformats
    :alt:   (downloads)
 .. |docker_bioformats| image:: https://quay.io/repository/biocontainers/bioformats/status
    :target: https://quay.io/repository/biocontainers/bioformats

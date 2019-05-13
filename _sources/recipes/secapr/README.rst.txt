@@ -62,6 +62,7 @@ secapr
 
 
 .. |downloads_secapr| image:: https://img.shields.io/conda/dn/bioconda/secapr.svg?style=flat
+   :target: https://anaconda.org/bioconda/secapr
    :alt:   (downloads)
 .. |docker_secapr| image:: https://quay.io/repository/biocontainers/secapr/status
    :target: https://quay.io/repository/biocontainers/secapr

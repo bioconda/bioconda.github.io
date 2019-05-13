@@ -74,6 +74,7 @@ bioconductor-chippeakanno
 
 
 .. |downloads_bioconductor-chippeakanno| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chippeakanno.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chippeakanno
    :alt:   (downloads)
 .. |docker_bioconductor-chippeakanno| image:: https://quay.io/repository/biocontainers/bioconductor-chippeakanno/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chippeakanno

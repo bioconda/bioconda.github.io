@@ -53,6 +53,7 @@ bioconductor-simlr
 
 
 .. |downloads_bioconductor-simlr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-simlr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-simlr
    :alt:   (downloads)
 .. |docker_bioconductor-simlr| image:: https://quay.io/repository/biocontainers/bioconductor-simlr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-simlr

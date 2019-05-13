@@ -50,6 +50,7 @@ medpy
 
 
 .. |downloads_medpy| image:: https://img.shields.io/conda/dn/bioconda/medpy.svg?style=flat
+   :target: https://anaconda.org/bioconda/medpy
    :alt:   (downloads)
 .. |docker_medpy| image:: https://quay.io/repository/biocontainers/medpy/status
    :target: https://quay.io/repository/biocontainers/medpy

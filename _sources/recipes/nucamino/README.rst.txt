@@ -44,6 +44,7 @@ nucamino
 
 
 .. |downloads_nucamino| image:: https://img.shields.io/conda/dn/bioconda/nucamino.svg?style=flat
+   :target: https://anaconda.org/bioconda/nucamino
    :alt:   (downloads)
 .. |docker_nucamino| image:: https://quay.io/repository/biocontainers/nucamino/status
    :target: https://quay.io/repository/biocontainers/nucamino

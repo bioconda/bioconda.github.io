@@ -64,6 +64,7 @@ bioconductor-affycoretools
 
 
 .. |downloads_bioconductor-affycoretools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affycoretools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-affycoretools
    :alt:   (downloads)
 .. |docker_bioconductor-affycoretools| image:: https://quay.io/repository/biocontainers/bioconductor-affycoretools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affycoretools

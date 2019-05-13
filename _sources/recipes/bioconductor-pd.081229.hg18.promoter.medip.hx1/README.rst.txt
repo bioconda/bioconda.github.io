@@ -52,6 +52,7 @@ bioconductor-pd.081229.hg18.promoter.medip.hx1
 
 
 .. |downloads_bioconductor-pd.081229.hg18.promoter.medip.hx1| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.081229.hg18.promoter.medip.hx1.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.081229.hg18.promoter.medip.hx1
    :alt:   (downloads)
 .. |docker_bioconductor-pd.081229.hg18.promoter.medip.hx1| image:: https://quay.io/repository/biocontainers/bioconductor-pd.081229.hg18.promoter.medip.hx1/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.081229.hg18.promoter.medip.hx1

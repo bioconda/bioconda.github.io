@@ -46,6 +46,7 @@ slivar
 
 
 .. |downloads_slivar| image:: https://img.shields.io/conda/dn/bioconda/slivar.svg?style=flat
+   :target: https://anaconda.org/bioconda/slivar
    :alt:   (downloads)
 .. |docker_slivar| image:: https://quay.io/repository/biocontainers/slivar/status
    :target: https://quay.io/repository/biocontainers/slivar

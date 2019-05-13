@@ -46,6 +46,7 @@ r-peer
 
 
 .. |downloads_r-peer| image:: https://img.shields.io/conda/dn/bioconda/r-peer.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-peer
    :alt:   (downloads)
 .. |docker_r-peer| image:: https://quay.io/repository/biocontainers/r-peer/status
    :target: https://quay.io/repository/biocontainers/r-peer

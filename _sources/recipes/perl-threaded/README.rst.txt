@@ -45,6 +45,7 @@ perl-threaded
 
 
 .. |downloads_perl-threaded| image:: https://img.shields.io/conda/dn/bioconda/perl-threaded.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-threaded
    :alt:   (downloads)
 .. |docker_perl-threaded| image:: https://quay.io/repository/biocontainers/perl-threaded/status
    :target: https://quay.io/repository/biocontainers/perl-threaded

@@ -52,6 +52,7 @@ bioconductor-flowmap
 
 
 .. |downloads_bioconductor-flowmap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowmap
    :alt:   (downloads)
 .. |docker_bioconductor-flowmap| image:: https://quay.io/repository/biocontainers/bioconductor-flowmap/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowmap

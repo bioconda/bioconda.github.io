@@ -60,6 +60,7 @@ bioconductor-msgbsr
 
 
 .. |downloads_bioconductor-msgbsr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-msgbsr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-msgbsr
    :alt:   (downloads)
 .. |docker_bioconductor-msgbsr| image:: https://quay.io/repository/biocontainers/bioconductor-msgbsr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-msgbsr

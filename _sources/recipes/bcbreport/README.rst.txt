@@ -45,6 +45,7 @@ bcbreport
 
 
 .. |downloads_bcbreport| image:: https://img.shields.io/conda/dn/bioconda/bcbreport.svg?style=flat
+   :target: https://anaconda.org/bioconda/bcbreport
    :alt:   (downloads)
 .. |docker_bcbreport| image:: https://quay.io/repository/biocontainers/bcbreport/status
    :target: https://quay.io/repository/biocontainers/bcbreport

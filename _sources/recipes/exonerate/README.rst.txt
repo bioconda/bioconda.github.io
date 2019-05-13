@@ -48,6 +48,7 @@ exonerate
 
 
 .. |downloads_exonerate| image:: https://img.shields.io/conda/dn/bioconda/exonerate.svg?style=flat
+   :target: https://anaconda.org/bioconda/exonerate
    :alt:   (downloads)
 .. |docker_exonerate| image:: https://quay.io/repository/biocontainers/exonerate/status
    :target: https://quay.io/repository/biocontainers/exonerate

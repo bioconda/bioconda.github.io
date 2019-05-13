@@ -50,6 +50,7 @@ ucsc-twobitmask
 
 
 .. |downloads_ucsc-twobitmask| image:: https://img.shields.io/conda/dn/bioconda/ucsc-twobitmask.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-twobitmask
    :alt:   (downloads)
 .. |docker_ucsc-twobitmask| image:: https://quay.io/repository/biocontainers/ucsc-twobitmask/status
    :target: https://quay.io/repository/biocontainers/ucsc-twobitmask

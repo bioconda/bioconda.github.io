@@ -47,6 +47,7 @@ bioconductor-bufferedmatrix
 
 
 .. |downloads_bioconductor-bufferedmatrix| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bufferedmatrix.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bufferedmatrix
    :alt:   (downloads)
 .. |docker_bioconductor-bufferedmatrix| image:: https://quay.io/repository/biocontainers/bioconductor-bufferedmatrix/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bufferedmatrix

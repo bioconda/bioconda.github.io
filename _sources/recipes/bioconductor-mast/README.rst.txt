@@ -58,6 +58,7 @@ bioconductor-mast
 
 
 .. |downloads_bioconductor-mast| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mast.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mast
    :alt:   (downloads)
 .. |docker_bioconductor-mast| image:: https://quay.io/repository/biocontainers/bioconductor-mast/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mast

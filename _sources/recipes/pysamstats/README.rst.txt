@@ -51,6 +51,7 @@ pysamstats
 
 
 .. |downloads_pysamstats| image:: https://img.shields.io/conda/dn/bioconda/pysamstats.svg?style=flat
+   :target: https://anaconda.org/bioconda/pysamstats
    :alt:   (downloads)
 .. |docker_pysamstats| image:: https://quay.io/repository/biocontainers/pysamstats/status
    :target: https://quay.io/repository/biocontainers/pysamstats

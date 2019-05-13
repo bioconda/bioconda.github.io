@@ -46,6 +46,7 @@ yaha
 
 
 .. |downloads_yaha| image:: https://img.shields.io/conda/dn/bioconda/yaha.svg?style=flat
+   :target: https://anaconda.org/bioconda/yaha
    :alt:   (downloads)
 .. |docker_yaha| image:: https://quay.io/repository/biocontainers/yaha/status
    :target: https://quay.io/repository/biocontainers/yaha

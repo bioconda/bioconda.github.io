@@ -44,6 +44,7 @@ pbgcpp
 
 
 .. |downloads_pbgcpp| image:: https://img.shields.io/conda/dn/bioconda/pbgcpp.svg?style=flat
+   :target: https://anaconda.org/bioconda/pbgcpp
    :alt:   (downloads)
 .. |docker_pbgcpp| image:: https://quay.io/repository/biocontainers/pbgcpp/status
    :target: https://quay.io/repository/biocontainers/pbgcpp

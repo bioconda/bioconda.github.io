@@ -45,6 +45,7 @@ python-newick
 
 
 .. |downloads_python-newick| image:: https://img.shields.io/conda/dn/bioconda/python-newick.svg?style=flat
+   :target: https://anaconda.org/bioconda/python-newick
    :alt:   (downloads)
 .. |docker_python-newick| image:: https://quay.io/repository/biocontainers/python-newick/status
    :target: https://quay.io/repository/biocontainers/python-newick

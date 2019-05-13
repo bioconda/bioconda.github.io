@@ -56,6 +56,7 @@ bioconductor-gwastools
 
 
 .. |downloads_bioconductor-gwastools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gwastools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gwastools
    :alt:   (downloads)
 .. |docker_bioconductor-gwastools| image:: https://quay.io/repository/biocontainers/bioconductor-gwastools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gwastools

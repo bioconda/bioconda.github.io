@@ -47,6 +47,7 @@ perl-lwp-mediatypes
 
 
 .. |downloads_perl-lwp-mediatypes| image:: https://img.shields.io/conda/dn/bioconda/perl-lwp-mediatypes.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-lwp-mediatypes
    :alt:   (downloads)
 .. |docker_perl-lwp-mediatypes| image:: https://quay.io/repository/biocontainers/perl-lwp-mediatypes/status
    :target: https://quay.io/repository/biocontainers/perl-lwp-mediatypes

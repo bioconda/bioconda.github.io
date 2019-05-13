@@ -53,6 +53,7 @@ bioconductor-pd.rae230a
 
 
 .. |downloads_bioconductor-pd.rae230a| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.rae230a.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.rae230a
    :alt:   (downloads)
 .. |docker_bioconductor-pd.rae230a| image:: https://quay.io/repository/biocontainers/bioconductor-pd.rae230a/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.rae230a

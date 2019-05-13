@@ -61,6 +61,7 @@ bioconductor-fourcseq
 
 
 .. |downloads_bioconductor-fourcseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fourcseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-fourcseq
    :alt:   (downloads)
 .. |docker_bioconductor-fourcseq| image:: https://quay.io/repository/biocontainers/bioconductor-fourcseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fourcseq

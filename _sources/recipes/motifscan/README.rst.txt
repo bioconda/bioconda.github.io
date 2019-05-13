@@ -49,6 +49,7 @@ motifscan
 
 
 .. |downloads_motifscan| image:: https://img.shields.io/conda/dn/bioconda/motifscan.svg?style=flat
+   :target: https://anaconda.org/bioconda/motifscan
    :alt:   (downloads)
 .. |docker_motifscan| image:: https://quay.io/repository/biocontainers/motifscan/status
    :target: https://quay.io/repository/biocontainers/motifscan

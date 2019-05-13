@@ -45,6 +45,7 @@ python-fakemp
 
 
 .. |downloads_python-fakemp| image:: https://img.shields.io/conda/dn/bioconda/python-fakemp.svg?style=flat
+   :target: https://anaconda.org/bioconda/python-fakemp
    :alt:   (downloads)
 .. |docker_python-fakemp| image:: https://quay.io/repository/biocontainers/python-fakemp/status
    :target: https://quay.io/repository/biocontainers/python-fakemp

@@ -47,6 +47,7 @@ perl-string-rewriteprefix
 
 
 .. |downloads_perl-string-rewriteprefix| image:: https://img.shields.io/conda/dn/bioconda/perl-string-rewriteprefix.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-string-rewriteprefix
    :alt:   (downloads)
 .. |docker_perl-string-rewriteprefix| image:: https://quay.io/repository/biocontainers/perl-string-rewriteprefix/status
    :target: https://quay.io/repository/biocontainers/perl-string-rewriteprefix

@@ -48,6 +48,7 @@ bioconductor-biobase
 
 
 .. |downloads_bioconductor-biobase| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biobase.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-biobase
    :alt:   (downloads)
 .. |docker_bioconductor-biobase| image:: https://quay.io/repository/biocontainers/bioconductor-biobase/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biobase

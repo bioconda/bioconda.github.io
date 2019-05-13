@@ -48,6 +48,7 @@ perl-ipc-system-simple
 
 
 .. |downloads_perl-ipc-system-simple| image:: https://img.shields.io/conda/dn/bioconda/perl-ipc-system-simple.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-ipc-system-simple
    :alt:   (downloads)
 .. |docker_perl-ipc-system-simple| image:: https://quay.io/repository/biocontainers/perl-ipc-system-simple/status
    :target: https://quay.io/repository/biocontainers/perl-ipc-system-simple

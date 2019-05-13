@@ -46,6 +46,7 @@ bioconductor-mammaprintdata
 
 
 .. |downloads_bioconductor-mammaprintdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mammaprintdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mammaprintdata
    :alt:   (downloads)
 .. |docker_bioconductor-mammaprintdata| image:: https://quay.io/repository/biocontainers/bioconductor-mammaprintdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mammaprintdata

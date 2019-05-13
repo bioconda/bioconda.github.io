@@ -51,6 +51,7 @@ bioconductor-birewire
 
 
 .. |downloads_bioconductor-birewire| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-birewire.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-birewire
    :alt:   (downloads)
 .. |docker_bioconductor-birewire| image:: https://quay.io/repository/biocontainers/bioconductor-birewire/status
    :target: https://quay.io/repository/biocontainers/bioconductor-birewire

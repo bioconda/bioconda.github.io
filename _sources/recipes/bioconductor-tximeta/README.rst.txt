@@ -56,6 +56,7 @@ bioconductor-tximeta
 
 
 .. |downloads_bioconductor-tximeta| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tximeta.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tximeta
    :alt:   (downloads)
 .. |docker_bioconductor-tximeta| image:: https://quay.io/repository/biocontainers/bioconductor-tximeta/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tximeta

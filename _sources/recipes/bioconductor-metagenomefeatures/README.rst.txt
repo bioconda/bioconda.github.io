@@ -58,6 +58,7 @@ bioconductor-metagenomefeatures
 
 
 .. |downloads_bioconductor-metagenomefeatures| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metagenomefeatures.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-metagenomefeatures
    :alt:   (downloads)
 .. |docker_bioconductor-metagenomefeatures| image:: https://quay.io/repository/biocontainers/bioconductor-metagenomefeatures/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metagenomefeatures

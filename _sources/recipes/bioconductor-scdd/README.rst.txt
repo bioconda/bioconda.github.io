@@ -56,6 +56,7 @@ bioconductor-scdd
 
 
 .. |downloads_bioconductor-scdd| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scdd.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-scdd
    :alt:   (downloads)
 .. |docker_bioconductor-scdd| image:: https://quay.io/repository/biocontainers/bioconductor-scdd/status
    :target: https://quay.io/repository/biocontainers/bioconductor-scdd

@@ -47,6 +47,7 @@ bioconductor-dfp
 
 
 .. |downloads_bioconductor-dfp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dfp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dfp
    :alt:   (downloads)
 .. |docker_bioconductor-dfp| image:: https://quay.io/repository/biocontainers/bioconductor-dfp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dfp

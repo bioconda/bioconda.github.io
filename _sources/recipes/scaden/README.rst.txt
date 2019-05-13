@@ -55,6 +55,7 @@ scaden
 
 
 .. |downloads_scaden| image:: https://img.shields.io/conda/dn/bioconda/scaden.svg?style=flat
+   :target: https://anaconda.org/bioconda/scaden
    :alt:   (downloads)
 .. |docker_scaden| image:: https://quay.io/repository/biocontainers/scaden/status
    :target: https://quay.io/repository/biocontainers/scaden

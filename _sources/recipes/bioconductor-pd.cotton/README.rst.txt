@@ -53,6 +53,7 @@ bioconductor-pd.cotton
 
 
 .. |downloads_bioconductor-pd.cotton| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.cotton.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.cotton
    :alt:   (downloads)
 .. |docker_bioconductor-pd.cotton| image:: https://quay.io/repository/biocontainers/bioconductor-pd.cotton/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.cotton

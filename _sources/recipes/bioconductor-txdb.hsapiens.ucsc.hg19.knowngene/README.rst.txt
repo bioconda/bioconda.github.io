@@ -48,6 +48,7 @@ bioconductor-txdb.hsapiens.ucsc.hg19.knowngene
 
 
 .. |downloads_bioconductor-txdb.hsapiens.ucsc.hg19.knowngene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-txdb.hsapiens.ucsc.hg19.knowngene.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-txdb.hsapiens.ucsc.hg19.knowngene
    :alt:   (downloads)
 .. |docker_bioconductor-txdb.hsapiens.ucsc.hg19.knowngene| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg19.knowngene/status
    :target: https://quay.io/repository/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg19.knowngene

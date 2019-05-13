@@ -47,6 +47,7 @@ velvet-sc
 
 
 .. |downloads_velvet-sc| image:: https://img.shields.io/conda/dn/bioconda/velvet-sc.svg?style=flat
+   :target: https://anaconda.org/bioconda/velvet-sc
    :alt:   (downloads)
 .. |docker_velvet-sc| image:: https://quay.io/repository/biocontainers/velvet-sc/status
    :target: https://quay.io/repository/biocontainers/velvet-sc

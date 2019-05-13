@@ -47,6 +47,7 @@ perl-biox-seq
 
 
 .. |downloads_perl-biox-seq| image:: https://img.shields.io/conda/dn/bioconda/perl-biox-seq.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-biox-seq
    :alt:   (downloads)
 .. |docker_perl-biox-seq| image:: https://quay.io/repository/biocontainers/perl-biox-seq/status
    :target: https://quay.io/repository/biocontainers/perl-biox-seq

@@ -51,6 +51,7 @@ irep
 
 
 .. |downloads_irep| image:: https://img.shields.io/conda/dn/bioconda/irep.svg?style=flat
+   :target: https://anaconda.org/bioconda/irep
    :alt:   (downloads)
 .. |docker_irep| image:: https://quay.io/repository/biocontainers/irep/status
    :target: https://quay.io/repository/biocontainers/irep

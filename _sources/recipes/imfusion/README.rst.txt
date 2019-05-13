@@ -66,6 +66,7 @@ imfusion
 
 
 .. |downloads_imfusion| image:: https://img.shields.io/conda/dn/bioconda/imfusion.svg?style=flat
+   :target: https://anaconda.org/bioconda/imfusion
    :alt:   (downloads)
 .. |docker_imfusion| image:: https://quay.io/repository/biocontainers/imfusion/status
    :target: https://quay.io/repository/biocontainers/imfusion

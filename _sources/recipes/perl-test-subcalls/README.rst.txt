@@ -47,6 +47,7 @@ perl-test-subcalls
 
 
 .. |downloads_perl-test-subcalls| image:: https://img.shields.io/conda/dn/bioconda/perl-test-subcalls.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-subcalls
    :alt:   (downloads)
 .. |docker_perl-test-subcalls| image:: https://quay.io/repository/biocontainers/perl-test-subcalls/status
    :target: https://quay.io/repository/biocontainers/perl-test-subcalls

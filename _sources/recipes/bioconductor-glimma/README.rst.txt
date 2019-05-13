@@ -49,6 +49,7 @@ bioconductor-glimma
 
 
 .. |downloads_bioconductor-glimma| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-glimma.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-glimma
    :alt:   (downloads)
 .. |docker_bioconductor-glimma| image:: https://quay.io/repository/biocontainers/bioconductor-glimma/status
    :target: https://quay.io/repository/biocontainers/bioconductor-glimma

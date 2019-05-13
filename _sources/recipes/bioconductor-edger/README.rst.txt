@@ -51,6 +51,7 @@ bioconductor-edger
 
 
 .. |downloads_bioconductor-edger| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-edger.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-edger
    :alt:   (downloads)
 .. |docker_bioconductor-edger| image:: https://quay.io/repository/biocontainers/bioconductor-edger/status
    :target: https://quay.io/repository/biocontainers/bioconductor-edger

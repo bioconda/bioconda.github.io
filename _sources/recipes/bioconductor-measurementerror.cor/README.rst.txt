@@ -46,6 +46,7 @@ bioconductor-measurementerror.cor
 
 
 .. |downloads_bioconductor-measurementerror.cor| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-measurementerror.cor.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-measurementerror.cor
    :alt:   (downloads)
 .. |docker_bioconductor-measurementerror.cor| image:: https://quay.io/repository/biocontainers/bioconductor-measurementerror.cor/status
    :target: https://quay.io/repository/biocontainers/bioconductor-measurementerror.cor

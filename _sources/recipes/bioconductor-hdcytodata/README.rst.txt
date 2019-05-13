@@ -49,6 +49,7 @@ bioconductor-hdcytodata
 
 
 .. |downloads_bioconductor-hdcytodata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hdcytodata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hdcytodata
    :alt:   (downloads)
 .. |docker_bioconductor-hdcytodata| image:: https://quay.io/repository/biocontainers/bioconductor-hdcytodata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hdcytodata

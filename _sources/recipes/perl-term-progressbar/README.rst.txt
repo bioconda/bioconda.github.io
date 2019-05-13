@@ -47,6 +47,7 @@ perl-term-progressbar
 
 
 .. |downloads_perl-term-progressbar| image:: https://img.shields.io/conda/dn/bioconda/perl-term-progressbar.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-term-progressbar
    :alt:   (downloads)
 .. |docker_perl-term-progressbar| image:: https://quay.io/repository/biocontainers/perl-term-progressbar/status
    :target: https://quay.io/repository/biocontainers/perl-term-progressbar

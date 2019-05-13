@@ -59,6 +59,7 @@ chemfp
 
 
 .. |downloads_chemfp| image:: https://img.shields.io/conda/dn/bioconda/chemfp.svg?style=flat
+   :target: https://anaconda.org/bioconda/chemfp
    :alt:   (downloads)
 .. |docker_chemfp| image:: https://quay.io/repository/biocontainers/chemfp/status
    :target: https://quay.io/repository/biocontainers/chemfp

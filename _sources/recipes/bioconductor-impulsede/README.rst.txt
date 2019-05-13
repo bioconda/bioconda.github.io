@@ -48,6 +48,7 @@ bioconductor-impulsede
 
 
 .. |downloads_bioconductor-impulsede| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-impulsede.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-impulsede
    :alt:   (downloads)
 .. |docker_bioconductor-impulsede| image:: https://quay.io/repository/biocontainers/bioconductor-impulsede/status
    :target: https://quay.io/repository/biocontainers/bioconductor-impulsede

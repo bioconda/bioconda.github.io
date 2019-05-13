@@ -46,6 +46,7 @@ bioconductor-wavetilingdata
 
 
 .. |downloads_bioconductor-wavetilingdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-wavetilingdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-wavetilingdata
    :alt:   (downloads)
 .. |docker_bioconductor-wavetilingdata| image:: https://quay.io/repository/biocontainers/bioconductor-wavetilingdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-wavetilingdata

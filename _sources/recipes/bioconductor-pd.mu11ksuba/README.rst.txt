@@ -53,6 +53,7 @@ bioconductor-pd.mu11ksuba
 
 
 .. |downloads_bioconductor-pd.mu11ksuba| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.mu11ksuba.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.mu11ksuba
    :alt:   (downloads)
 .. |docker_bioconductor-pd.mu11ksuba| image:: https://quay.io/repository/biocontainers/bioconductor-pd.mu11ksuba/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.mu11ksuba

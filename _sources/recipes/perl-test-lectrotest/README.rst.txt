@@ -49,6 +49,7 @@ perl-test-lectrotest
 
 
 .. |downloads_perl-test-lectrotest| image:: https://img.shields.io/conda/dn/bioconda/perl-test-lectrotest.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-lectrotest
    :alt:   (downloads)
 .. |docker_perl-test-lectrotest| image:: https://quay.io/repository/biocontainers/perl-test-lectrotest/status
    :target: https://quay.io/repository/biocontainers/perl-test-lectrotest

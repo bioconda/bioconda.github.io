@@ -48,6 +48,7 @@ group_humann2_uniref_abundances_to_go
 
 
 .. |downloads_group_humann2_uniref_abundances_to_go| image:: https://img.shields.io/conda/dn/bioconda/group_humann2_uniref_abundances_to_go.svg?style=flat
+   :target: https://anaconda.org/bioconda/group_humann2_uniref_abundances_to_go
    :alt:   (downloads)
 .. |docker_group_humann2_uniref_abundances_to_go| image:: https://quay.io/repository/biocontainers/group_humann2_uniref_abundances_to_go/status
    :target: https://quay.io/repository/biocontainers/group_humann2_uniref_abundances_to_go

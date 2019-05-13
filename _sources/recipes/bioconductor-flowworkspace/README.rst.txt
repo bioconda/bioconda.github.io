@@ -70,6 +70,7 @@ bioconductor-flowworkspace
 
 
 .. |downloads_bioconductor-flowworkspace| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowworkspace.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowworkspace
    :alt:   (downloads)
 .. |docker_bioconductor-flowworkspace| image:: https://quay.io/repository/biocontainers/bioconductor-flowworkspace/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowworkspace

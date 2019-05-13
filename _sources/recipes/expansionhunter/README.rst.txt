@@ -50,6 +50,7 @@ expansionhunter
 
 
 .. |downloads_expansionhunter| image:: https://img.shields.io/conda/dn/bioconda/expansionhunter.svg?style=flat
+   :target: https://anaconda.org/bioconda/expansionhunter
    :alt:   (downloads)
 .. |docker_expansionhunter| image:: https://quay.io/repository/biocontainers/expansionhunter/status
    :target: https://quay.io/repository/biocontainers/expansionhunter

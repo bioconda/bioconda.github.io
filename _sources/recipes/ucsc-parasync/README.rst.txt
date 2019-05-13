@@ -50,6 +50,7 @@ ucsc-parasync
 
 
 .. |downloads_ucsc-parasync| image:: https://img.shields.io/conda/dn/bioconda/ucsc-parasync.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-parasync
    :alt:   (downloads)
 .. |docker_ucsc-parasync| image:: https://quay.io/repository/biocontainers/ucsc-parasync/status
    :target: https://quay.io/repository/biocontainers/ucsc-parasync

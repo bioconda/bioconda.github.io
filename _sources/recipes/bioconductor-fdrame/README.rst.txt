@@ -45,6 +45,7 @@ bioconductor-fdrame
 
 
 .. |downloads_bioconductor-fdrame| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fdrame.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-fdrame
    :alt:   (downloads)
 .. |docker_bioconductor-fdrame| image:: https://quay.io/repository/biocontainers/bioconductor-fdrame/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fdrame

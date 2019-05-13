@@ -55,6 +55,7 @@ bioconductor-gesper
 
 
 .. |downloads_bioconductor-gesper| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gesper.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gesper
    :alt:   (downloads)
 .. |docker_bioconductor-gesper| image:: https://quay.io/repository/biocontainers/bioconductor-gesper/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gesper

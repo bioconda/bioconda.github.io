@@ -46,6 +46,7 @@ bioconductor-yeastnagalakshmi
 
 
 .. |downloads_bioconductor-yeastnagalakshmi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-yeastnagalakshmi.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-yeastnagalakshmi
    :alt:   (downloads)
 .. |docker_bioconductor-yeastnagalakshmi| image:: https://quay.io/repository/biocontainers/bioconductor-yeastnagalakshmi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-yeastnagalakshmi

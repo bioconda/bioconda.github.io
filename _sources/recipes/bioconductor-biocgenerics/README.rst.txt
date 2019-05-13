@@ -46,6 +46,7 @@ bioconductor-biocgenerics
 
 
 .. |downloads_bioconductor-biocgenerics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biocgenerics.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-biocgenerics
    :alt:   (downloads)
 .. |docker_bioconductor-biocgenerics| image:: https://quay.io/repository/biocontainers/bioconductor-biocgenerics/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biocgenerics

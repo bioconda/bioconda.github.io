@@ -48,6 +48,7 @@ bioexcel_seqqc
 
 
 .. |downloads_bioexcel_seqqc| image:: https://img.shields.io/conda/dn/bioconda/bioexcel_seqqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioexcel_seqqc
    :alt:   (downloads)
 .. |docker_bioexcel_seqqc| image:: https://quay.io/repository/biocontainers/bioexcel_seqqc/status
    :target: https://quay.io/repository/biocontainers/bioexcel_seqqc

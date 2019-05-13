@@ -52,6 +52,7 @@ pygenometracks
 
 
 .. |downloads_pygenometracks| image:: https://img.shields.io/conda/dn/bioconda/pygenometracks.svg?style=flat
+   :target: https://anaconda.org/bioconda/pygenometracks
    :alt:   (downloads)
 .. |docker_pygenometracks| image:: https://quay.io/repository/biocontainers/pygenometracks/status
    :target: https://quay.io/repository/biocontainers/pygenometracks

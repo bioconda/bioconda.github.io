@@ -53,6 +53,7 @@ bioconductor-loomexperiment
 
 
 .. |downloads_bioconductor-loomexperiment| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-loomexperiment.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-loomexperiment
    :alt:   (downloads)
 .. |docker_bioconductor-loomexperiment| image:: https://quay.io/repository/biocontainers/bioconductor-loomexperiment/status
    :target: https://quay.io/repository/biocontainers/bioconductor-loomexperiment

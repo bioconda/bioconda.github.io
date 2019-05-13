@@ -46,6 +46,7 @@ r-gwasexacthw
 
 
 .. |downloads_r-gwasexacthw| image:: https://img.shields.io/conda/dn/bioconda/r-gwasexacthw.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-gwasexacthw
    :alt:   (downloads)
 .. |docker_r-gwasexacthw| image:: https://quay.io/repository/biocontainers/r-gwasexacthw/status
    :target: https://quay.io/repository/biocontainers/r-gwasexacthw

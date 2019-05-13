@@ -46,6 +46,7 @@ bioconductor-massarray
 
 
 .. |downloads_bioconductor-massarray| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-massarray.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-massarray
    :alt:   (downloads)
 .. |docker_bioconductor-massarray| image:: https://quay.io/repository/biocontainers/bioconductor-massarray/status
    :target: https://quay.io/repository/biocontainers/bioconductor-massarray

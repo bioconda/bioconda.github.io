@@ -53,6 +53,7 @@ irida-linker
 
 
 .. |downloads_irida-linker| image:: https://img.shields.io/conda/dn/bioconda/irida-linker.svg?style=flat
+   :target: https://anaconda.org/bioconda/irida-linker
    :alt:   (downloads)
 .. |docker_irida-linker| image:: https://quay.io/repository/biocontainers/irida-linker/status
    :target: https://quay.io/repository/biocontainers/irida-linker

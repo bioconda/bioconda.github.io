@@ -50,6 +50,7 @@ perl-moosex-clone
 
 
 .. |downloads_perl-moosex-clone| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-clone.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-moosex-clone
    :alt:   (downloads)
 .. |docker_perl-moosex-clone| image:: https://quay.io/repository/biocontainers/perl-moosex-clone/status
    :target: https://quay.io/repository/biocontainers/perl-moosex-clone

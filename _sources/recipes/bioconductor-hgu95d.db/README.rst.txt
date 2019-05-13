@@ -48,6 +48,7 @@ bioconductor-hgu95d.db
 
 
 .. |downloads_bioconductor-hgu95d.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgu95d.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hgu95d.db
    :alt:   (downloads)
 .. |docker_bioconductor-hgu95d.db| image:: https://quay.io/repository/biocontainers/bioconductor-hgu95d.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hgu95d.db

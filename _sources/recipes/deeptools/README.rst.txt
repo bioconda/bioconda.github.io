@@ -55,6 +55,7 @@ deeptools
 
 
 .. |downloads_deeptools| image:: https://img.shields.io/conda/dn/bioconda/deeptools.svg?style=flat
+   :target: https://anaconda.org/bioconda/deeptools
    :alt:   (downloads)
 .. |docker_deeptools| image:: https://quay.io/repository/biocontainers/deeptools/status
    :target: https://quay.io/repository/biocontainers/deeptools

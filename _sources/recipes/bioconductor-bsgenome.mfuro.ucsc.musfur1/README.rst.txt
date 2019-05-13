@@ -47,6 +47,7 @@ bioconductor-bsgenome.mfuro.ucsc.musfur1
 
 
 .. |downloads_bioconductor-bsgenome.mfuro.ucsc.musfur1| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.mfuro.ucsc.musfur1.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome.mfuro.ucsc.musfur1
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.mfuro.ucsc.musfur1| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.mfuro.ucsc.musfur1/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.mfuro.ucsc.musfur1

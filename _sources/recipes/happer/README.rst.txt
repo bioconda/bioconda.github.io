@@ -45,6 +45,7 @@ happer
 
 
 .. |downloads_happer| image:: https://img.shields.io/conda/dn/bioconda/happer.svg?style=flat
+   :target: https://anaconda.org/bioconda/happer
    :alt:   (downloads)
 .. |docker_happer| image:: https://quay.io/repository/biocontainers/happer/status
    :target: https://quay.io/repository/biocontainers/happer

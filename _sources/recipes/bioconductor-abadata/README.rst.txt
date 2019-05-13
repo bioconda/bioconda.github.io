@@ -46,6 +46,7 @@ bioconductor-abadata
 
 
 .. |downloads_bioconductor-abadata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-abadata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-abadata
    :alt:   (downloads)
 .. |docker_bioconductor-abadata| image:: https://quay.io/repository/biocontainers/bioconductor-abadata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-abadata

@@ -47,6 +47,7 @@ pyega3
 
 
 .. |downloads_pyega3| image:: https://img.shields.io/conda/dn/bioconda/pyega3.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyega3
    :alt:   (downloads)
 .. |docker_pyega3| image:: https://quay.io/repository/biocontainers/pyega3/status
    :target: https://quay.io/repository/biocontainers/pyega3

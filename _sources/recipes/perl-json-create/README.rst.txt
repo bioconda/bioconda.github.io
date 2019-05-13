@@ -48,6 +48,7 @@ perl-json-create
 
 
 .. |downloads_perl-json-create| image:: https://img.shields.io/conda/dn/bioconda/perl-json-create.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-json-create
    :alt:   (downloads)
 .. |docker_perl-json-create| image:: https://quay.io/repository/biocontainers/perl-json-create/status
    :target: https://quay.io/repository/biocontainers/perl-json-create

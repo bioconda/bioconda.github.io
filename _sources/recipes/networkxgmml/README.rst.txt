@@ -47,6 +47,7 @@ networkxgmml
 
 
 .. |downloads_networkxgmml| image:: https://img.shields.io/conda/dn/bioconda/networkxgmml.svg?style=flat
+   :target: https://anaconda.org/bioconda/networkxgmml
    :alt:   (downloads)
 .. |docker_networkxgmml| image:: https://quay.io/repository/biocontainers/networkxgmml/status
    :target: https://quay.io/repository/biocontainers/networkxgmml

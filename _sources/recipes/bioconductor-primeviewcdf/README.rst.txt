@@ -47,6 +47,7 @@ bioconductor-primeviewcdf
 
 
 .. |downloads_bioconductor-primeviewcdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-primeviewcdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-primeviewcdf
    :alt:   (downloads)
 .. |docker_bioconductor-primeviewcdf| image:: https://quay.io/repository/biocontainers/bioconductor-primeviewcdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-primeviewcdf

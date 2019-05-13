@@ -49,6 +49,7 @@ ete2
 
 
 .. |downloads_ete2| image:: https://img.shields.io/conda/dn/bioconda/ete2.svg?style=flat
+   :target: https://anaconda.org/bioconda/ete2
    :alt:   (downloads)
 .. |docker_ete2| image:: https://quay.io/repository/biocontainers/ete2/status
    :target: https://quay.io/repository/biocontainers/ete2

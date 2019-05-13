@@ -45,6 +45,7 @@ minimock
 
 
 .. |downloads_minimock| image:: https://img.shields.io/conda/dn/bioconda/minimock.svg?style=flat
+   :target: https://anaconda.org/bioconda/minimock
    :alt:   (downloads)
 .. |docker_minimock| image:: https://quay.io/repository/biocontainers/minimock/status
    :target: https://quay.io/repository/biocontainers/minimock

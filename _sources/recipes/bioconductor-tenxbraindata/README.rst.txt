@@ -50,6 +50,7 @@ bioconductor-tenxbraindata
 
 
 .. |downloads_bioconductor-tenxbraindata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tenxbraindata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tenxbraindata
    :alt:   (downloads)
 .. |docker_bioconductor-tenxbraindata| image:: https://quay.io/repository/biocontainers/bioconductor-tenxbraindata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tenxbraindata

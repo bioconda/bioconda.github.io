@@ -46,6 +46,7 @@ bioconductor-heebodata
 
 
 .. |downloads_bioconductor-heebodata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-heebodata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-heebodata
    :alt:   (downloads)
 .. |docker_bioconductor-heebodata| image:: https://quay.io/repository/biocontainers/bioconductor-heebodata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-heebodata

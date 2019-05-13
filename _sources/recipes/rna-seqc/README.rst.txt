@@ -45,6 +45,7 @@ rna-seqc
 
 
 .. |downloads_rna-seqc| image:: https://img.shields.io/conda/dn/bioconda/rna-seqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/rna-seqc
    :alt:   (downloads)
 .. |docker_rna-seqc| image:: https://quay.io/repository/biocontainers/rna-seqc/status
    :target: https://quay.io/repository/biocontainers/rna-seqc

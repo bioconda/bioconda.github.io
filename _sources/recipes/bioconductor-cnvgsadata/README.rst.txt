@@ -47,6 +47,7 @@ bioconductor-cnvgsadata
 
 
 .. |downloads_bioconductor-cnvgsadata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cnvgsadata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cnvgsadata
    :alt:   (downloads)
 .. |docker_bioconductor-cnvgsadata| image:: https://quay.io/repository/biocontainers/bioconductor-cnvgsadata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cnvgsadata

@@ -51,6 +51,7 @@ bioconductor-gwasurvivr
 
 
 .. |downloads_bioconductor-gwasurvivr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gwasurvivr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gwasurvivr
    :alt:   (downloads)
 .. |docker_bioconductor-gwasurvivr| image:: https://quay.io/repository/biocontainers/bioconductor-gwasurvivr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gwasurvivr

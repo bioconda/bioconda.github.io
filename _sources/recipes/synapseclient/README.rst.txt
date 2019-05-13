@@ -49,6 +49,7 @@ synapseclient
 
 
 .. |downloads_synapseclient| image:: https://img.shields.io/conda/dn/bioconda/synapseclient.svg?style=flat
+   :target: https://anaconda.org/bioconda/synapseclient
    :alt:   (downloads)
 .. |docker_synapseclient| image:: https://quay.io/repository/biocontainers/synapseclient/status
    :target: https://quay.io/repository/biocontainers/synapseclient

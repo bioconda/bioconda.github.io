@@ -50,6 +50,7 @@ ucsc-bedremoveoverlap
 
 
 .. |downloads_ucsc-bedremoveoverlap| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bedremoveoverlap.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bedremoveoverlap
    :alt:   (downloads)
 .. |docker_ucsc-bedremoveoverlap| image:: https://quay.io/repository/biocontainers/ucsc-bedremoveoverlap/status
    :target: https://quay.io/repository/biocontainers/ucsc-bedremoveoverlap

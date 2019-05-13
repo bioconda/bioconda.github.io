@@ -47,6 +47,7 @@ vdjer
 
 
 .. |downloads_vdjer| image:: https://img.shields.io/conda/dn/bioconda/vdjer.svg?style=flat
+   :target: https://anaconda.org/bioconda/vdjer
    :alt:   (downloads)
 .. |docker_vdjer| image:: https://quay.io/repository/biocontainers/vdjer/status
    :target: https://quay.io/repository/biocontainers/vdjer

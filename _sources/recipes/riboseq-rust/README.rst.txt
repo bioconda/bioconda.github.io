@@ -49,6 +49,7 @@ riboseq-rust
 
 
 .. |downloads_riboseq-rust| image:: https://img.shields.io/conda/dn/bioconda/riboseq-rust.svg?style=flat
+   :target: https://anaconda.org/bioconda/riboseq-rust
    :alt:   (downloads)
 .. |docker_riboseq-rust| image:: https://quay.io/repository/biocontainers/riboseq-rust/status
    :target: https://quay.io/repository/biocontainers/riboseq-rust

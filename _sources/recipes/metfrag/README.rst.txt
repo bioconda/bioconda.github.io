@@ -48,6 +48,7 @@ metfrag
 
 
 .. |downloads_metfrag| image:: https://img.shields.io/conda/dn/bioconda/metfrag.svg?style=flat
+   :target: https://anaconda.org/bioconda/metfrag
    :alt:   (downloads)
 .. |docker_metfrag| image:: https://quay.io/repository/biocontainers/metfrag/status
    :target: https://quay.io/repository/biocontainers/metfrag

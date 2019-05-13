@@ -46,6 +46,7 @@ vawk
 
 
 .. |downloads_vawk| image:: https://img.shields.io/conda/dn/bioconda/vawk.svg?style=flat
+   :target: https://anaconda.org/bioconda/vawk
    :alt:   (downloads)
 .. |docker_vawk| image:: https://quay.io/repository/biocontainers/vawk/status
    :target: https://quay.io/repository/biocontainers/vawk

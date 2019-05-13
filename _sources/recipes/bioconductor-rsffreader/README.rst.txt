@@ -51,6 +51,7 @@ bioconductor-rsffreader
 
 
 .. |downloads_bioconductor-rsffreader| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rsffreader.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rsffreader
    :alt:   (downloads)
 .. |docker_bioconductor-rsffreader| image:: https://quay.io/repository/biocontainers/bioconductor-rsffreader/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rsffreader

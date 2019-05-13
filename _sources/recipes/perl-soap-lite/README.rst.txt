@@ -55,6 +55,7 @@ perl-soap-lite
 
 
 .. |downloads_perl-soap-lite| image:: https://img.shields.io/conda/dn/bioconda/perl-soap-lite.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-soap-lite
    :alt:   (downloads)
 .. |docker_perl-soap-lite| image:: https://quay.io/repository/biocontainers/perl-soap-lite/status
    :target: https://quay.io/repository/biocontainers/perl-soap-lite

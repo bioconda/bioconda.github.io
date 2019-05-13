@@ -45,6 +45,7 @@ bioconductor-pgca
 
 
 .. |downloads_bioconductor-pgca| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pgca.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pgca
    :alt:   (downloads)
 .. |docker_bioconductor-pgca| image:: https://quay.io/repository/biocontainers/bioconductor-pgca/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pgca

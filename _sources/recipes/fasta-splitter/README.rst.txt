@@ -46,6 +46,7 @@ fasta-splitter
 
 
 .. |downloads_fasta-splitter| image:: https://img.shields.io/conda/dn/bioconda/fasta-splitter.svg?style=flat
+   :target: https://anaconda.org/bioconda/fasta-splitter
    :alt:   (downloads)
 .. |docker_fasta-splitter| image:: https://quay.io/repository/biocontainers/fasta-splitter/status
    :target: https://quay.io/repository/biocontainers/fasta-splitter

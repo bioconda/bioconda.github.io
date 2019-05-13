@@ -52,6 +52,7 @@ bioconductor-cleanupdtseq
 
 
 .. |downloads_bioconductor-cleanupdtseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cleanupdtseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cleanupdtseq
    :alt:   (downloads)
 .. |docker_bioconductor-cleanupdtseq| image:: https://quay.io/repository/biocontainers/bioconductor-cleanupdtseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cleanupdtseq

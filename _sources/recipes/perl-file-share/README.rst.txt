@@ -46,6 +46,7 @@ perl-file-share
 
 
 .. |downloads_perl-file-share| image:: https://img.shields.io/conda/dn/bioconda/perl-file-share.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-share
    :alt:   (downloads)
 .. |docker_perl-file-share| image:: https://quay.io/repository/biocontainers/perl-file-share/status
    :target: https://quay.io/repository/biocontainers/perl-file-share

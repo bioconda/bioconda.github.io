@@ -53,6 +53,7 @@ r-taxonomizr
 
 
 .. |downloads_r-taxonomizr| image:: https://img.shields.io/conda/dn/bioconda/r-taxonomizr.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-taxonomizr
    :alt:   (downloads)
 .. |docker_r-taxonomizr| image:: https://quay.io/repository/biocontainers/r-taxonomizr/status
    :target: https://quay.io/repository/biocontainers/r-taxonomizr

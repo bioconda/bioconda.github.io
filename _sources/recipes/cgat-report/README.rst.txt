@@ -60,6 +60,7 @@ cgat-report
 
 
 .. |downloads_cgat-report| image:: https://img.shields.io/conda/dn/bioconda/cgat-report.svg?style=flat
+   :target: https://anaconda.org/bioconda/cgat-report
    :alt:   (downloads)
 .. |docker_cgat-report| image:: https://quay.io/repository/biocontainers/cgat-report/status
    :target: https://quay.io/repository/biocontainers/cgat-report

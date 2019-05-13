@@ -52,6 +52,7 @@ misopy
 
 
 .. |downloads_misopy| image:: https://img.shields.io/conda/dn/bioconda/misopy.svg?style=flat
+   :target: https://anaconda.org/bioconda/misopy
    :alt:   (downloads)
 .. |docker_misopy| image:: https://quay.io/repository/biocontainers/misopy/status
    :target: https://quay.io/repository/biocontainers/misopy

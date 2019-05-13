@@ -58,6 +58,7 @@ bioconductor-gopro
 
 
 .. |downloads_bioconductor-gopro| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gopro.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gopro
    :alt:   (downloads)
 .. |docker_bioconductor-gopro| image:: https://quay.io/repository/biocontainers/bioconductor-gopro/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gopro

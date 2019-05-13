@@ -46,6 +46,7 @@ perl-file-chdir
 
 
 .. |downloads_perl-file-chdir| image:: https://img.shields.io/conda/dn/bioconda/perl-file-chdir.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-chdir
    :alt:   (downloads)
 .. |docker_perl-file-chdir| image:: https://quay.io/repository/biocontainers/perl-file-chdir/status
    :target: https://quay.io/repository/biocontainers/perl-file-chdir

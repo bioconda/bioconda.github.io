@@ -46,6 +46,7 @@ perl-class-std
 
 
 .. |downloads_perl-class-std| image:: https://img.shields.io/conda/dn/bioconda/perl-class-std.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-class-std
    :alt:   (downloads)
 .. |docker_perl-class-std| image:: https://quay.io/repository/biocontainers/perl-class-std/status
    :target: https://quay.io/repository/biocontainers/perl-class-std

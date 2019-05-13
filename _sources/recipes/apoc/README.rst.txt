@@ -46,6 +46,7 @@ apoc
 
 
 .. |downloads_apoc| image:: https://img.shields.io/conda/dn/bioconda/apoc.svg?style=flat
+   :target: https://anaconda.org/bioconda/apoc
    :alt:   (downloads)
 .. |docker_apoc| image:: https://quay.io/repository/biocontainers/apoc/status
    :target: https://quay.io/repository/biocontainers/apoc

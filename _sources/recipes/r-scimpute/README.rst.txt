@@ -55,6 +55,7 @@ r-scimpute
 
 
 .. |downloads_r-scimpute| image:: https://img.shields.io/conda/dn/bioconda/r-scimpute.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-scimpute
    :alt:   (downloads)
 .. |docker_r-scimpute| image:: https://quay.io/repository/biocontainers/r-scimpute/status
    :target: https://quay.io/repository/biocontainers/r-scimpute

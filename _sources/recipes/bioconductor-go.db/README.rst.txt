@@ -47,6 +47,7 @@ bioconductor-go.db
 
 
 .. |downloads_bioconductor-go.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-go.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-go.db
    :alt:   (downloads)
 .. |docker_bioconductor-go.db| image:: https://quay.io/repository/biocontainers/bioconductor-go.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-go.db

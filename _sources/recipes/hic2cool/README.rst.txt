@@ -48,6 +48,7 @@ hic2cool
 
 
 .. |downloads_hic2cool| image:: https://img.shields.io/conda/dn/bioconda/hic2cool.svg?style=flat
+   :target: https://anaconda.org/bioconda/hic2cool
    :alt:   (downloads)
 .. |docker_hic2cool| image:: https://quay.io/repository/biocontainers/hic2cool/status
    :target: https://quay.io/repository/biocontainers/hic2cool

@@ -51,6 +51,7 @@ htseq
 
 
 .. |downloads_htseq| image:: https://img.shields.io/conda/dn/bioconda/htseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/htseq
    :alt:   (downloads)
 .. |docker_htseq| image:: https://quay.io/repository/biocontainers/htseq/status
    :target: https://quay.io/repository/biocontainers/htseq

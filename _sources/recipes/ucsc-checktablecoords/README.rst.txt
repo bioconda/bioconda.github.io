@@ -50,6 +50,7 @@ ucsc-checktablecoords
 
 
 .. |downloads_ucsc-checktablecoords| image:: https://img.shields.io/conda/dn/bioconda/ucsc-checktablecoords.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-checktablecoords
    :alt:   (downloads)
 .. |docker_ucsc-checktablecoords| image:: https://quay.io/repository/biocontainers/ucsc-checktablecoords/status
    :target: https://quay.io/repository/biocontainers/ucsc-checktablecoords

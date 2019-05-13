@@ -56,6 +56,7 @@ bioconductor-mimager
 
 
 .. |downloads_bioconductor-mimager| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mimager.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mimager
    :alt:   (downloads)
 .. |docker_bioconductor-mimager| image:: https://quay.io/repository/biocontainers/bioconductor-mimager/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mimager

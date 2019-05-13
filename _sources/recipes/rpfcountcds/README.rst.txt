@@ -46,6 +46,7 @@ rpf-count-cds
 
 
 .. |downloads_rpf-count-cds| image:: https://img.shields.io/conda/dn/bioconda/rpf-count-cds.svg?style=flat
+   :target: https://anaconda.org/bioconda/rpf-count-cds
    :alt:   (downloads)
 .. |docker_rpf-count-cds| image:: https://quay.io/repository/biocontainers/rpf-count-cds/status
    :target: https://quay.io/repository/biocontainers/rpf-count-cds

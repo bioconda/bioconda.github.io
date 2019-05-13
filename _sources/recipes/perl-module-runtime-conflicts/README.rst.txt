@@ -47,6 +47,7 @@ perl-module-runtime-conflicts
 
 
 .. |downloads_perl-module-runtime-conflicts| image:: https://img.shields.io/conda/dn/bioconda/perl-module-runtime-conflicts.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-module-runtime-conflicts
    :alt:   (downloads)
 .. |docker_perl-module-runtime-conflicts| image:: https://quay.io/repository/biocontainers/perl-module-runtime-conflicts/status
    :target: https://quay.io/repository/biocontainers/perl-module-runtime-conflicts

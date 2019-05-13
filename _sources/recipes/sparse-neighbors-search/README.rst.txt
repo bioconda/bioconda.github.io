@@ -50,6 +50,7 @@ sparse-neighbors-search
 
 
 .. |downloads_sparse-neighbors-search| image:: https://img.shields.io/conda/dn/bioconda/sparse-neighbors-search.svg?style=flat
+   :target: https://anaconda.org/bioconda/sparse-neighbors-search
    :alt:   (downloads)
 .. |docker_sparse-neighbors-search| image:: https://quay.io/repository/biocontainers/sparse-neighbors-search/status
    :target: https://quay.io/repository/biocontainers/sparse-neighbors-search

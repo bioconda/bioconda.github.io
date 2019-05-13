@@ -47,6 +47,7 @@ clark
 
 
 .. |downloads_clark| image:: https://img.shields.io/conda/dn/bioconda/clark.svg?style=flat
+   :target: https://anaconda.org/bioconda/clark
    :alt:   (downloads)
 .. |docker_clark| image:: https://quay.io/repository/biocontainers/clark/status
    :target: https://quay.io/repository/biocontainers/clark

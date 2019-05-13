@@ -54,6 +54,7 @@ bioconductor-tracktables
 
 
 .. |downloads_bioconductor-tracktables| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tracktables.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tracktables
    :alt:   (downloads)
 .. |docker_bioconductor-tracktables| image:: https://quay.io/repository/biocontainers/bioconductor-tracktables/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tracktables

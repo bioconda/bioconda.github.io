@@ -55,6 +55,7 @@ pypairs
 
 
 .. |downloads_pypairs| image:: https://img.shields.io/conda/dn/bioconda/pypairs.svg?style=flat
+   :target: https://anaconda.org/bioconda/pypairs
    :alt:   (downloads)
 .. |docker_pypairs| image:: https://quay.io/repository/biocontainers/pypairs/status
    :target: https://quay.io/repository/biocontainers/pypairs

@@ -46,6 +46,7 @@ bioconductor-m3dexampledata
 
 
 .. |downloads_bioconductor-m3dexampledata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-m3dexampledata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-m3dexampledata
    :alt:   (downloads)
 .. |docker_bioconductor-m3dexampledata| image:: https://quay.io/repository/biocontainers/bioconductor-m3dexampledata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-m3dexampledata

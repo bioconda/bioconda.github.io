@@ -52,6 +52,7 @@ qcat
 
 
 .. |downloads_qcat| image:: https://img.shields.io/conda/dn/bioconda/qcat.svg?style=flat
+   :target: https://anaconda.org/bioconda/qcat
    :alt:   (downloads)
 .. |docker_qcat| image:: https://quay.io/repository/biocontainers/qcat/status
    :target: https://quay.io/repository/biocontainers/qcat

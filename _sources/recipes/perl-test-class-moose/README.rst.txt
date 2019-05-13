@@ -60,6 +60,7 @@ perl-test-class-moose
 
 
 .. |downloads_perl-test-class-moose| image:: https://img.shields.io/conda/dn/bioconda/perl-test-class-moose.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-class-moose
    :alt:   (downloads)
 .. |docker_perl-test-class-moose| image:: https://quay.io/repository/biocontainers/perl-test-class-moose/status
    :target: https://quay.io/repository/biocontainers/perl-test-class-moose

@@ -53,6 +53,7 @@ bioconductor-fgnet
 
 
 .. |downloads_bioconductor-fgnet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fgnet.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-fgnet
    :alt:   (downloads)
 .. |docker_bioconductor-fgnet| image:: https://quay.io/repository/biocontainers/bioconductor-fgnet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fgnet

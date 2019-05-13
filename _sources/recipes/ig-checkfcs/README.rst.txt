@@ -46,6 +46,7 @@ ig-checkfcs
 
 
 .. |downloads_ig-checkfcs| image:: https://img.shields.io/conda/dn/bioconda/ig-checkfcs.svg?style=flat
+   :target: https://anaconda.org/bioconda/ig-checkfcs
    :alt:   (downloads)
 .. |docker_ig-checkfcs| image:: https://quay.io/repository/biocontainers/ig-checkfcs/status
    :target: https://quay.io/repository/biocontainers/ig-checkfcs

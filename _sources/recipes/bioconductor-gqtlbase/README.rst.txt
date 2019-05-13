@@ -58,6 +58,7 @@ bioconductor-gqtlbase
 
 
 .. |downloads_bioconductor-gqtlbase| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gqtlbase.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gqtlbase
    :alt:   (downloads)
 .. |docker_bioconductor-gqtlbase| image:: https://quay.io/repository/biocontainers/bioconductor-gqtlbase/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gqtlbase

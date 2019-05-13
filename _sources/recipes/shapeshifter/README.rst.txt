@@ -52,6 +52,7 @@ shapeshifter
 
 
 .. |downloads_shapeshifter| image:: https://img.shields.io/conda/dn/bioconda/shapeshifter.svg?style=flat
+   :target: https://anaconda.org/bioconda/shapeshifter
    :alt:   (downloads)
 .. |docker_shapeshifter| image:: https://quay.io/repository/biocontainers/shapeshifter/status
    :target: https://quay.io/repository/biocontainers/shapeshifter

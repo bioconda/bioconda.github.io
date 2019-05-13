@@ -47,6 +47,7 @@ bioconductor-randpack
 
 
 .. |downloads_bioconductor-randpack| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-randpack.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-randpack
    :alt:   (downloads)
 .. |docker_bioconductor-randpack| image:: https://quay.io/repository/biocontainers/bioconductor-randpack/status
    :target: https://quay.io/repository/biocontainers/bioconductor-randpack

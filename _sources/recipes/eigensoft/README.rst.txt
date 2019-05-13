@@ -49,6 +49,7 @@ eigensoft
 
 
 .. |downloads_eigensoft| image:: https://img.shields.io/conda/dn/bioconda/eigensoft.svg?style=flat
+   :target: https://anaconda.org/bioconda/eigensoft
    :alt:   (downloads)
 .. |docker_eigensoft| image:: https://quay.io/repository/biocontainers/eigensoft/status
    :target: https://quay.io/repository/biocontainers/eigensoft

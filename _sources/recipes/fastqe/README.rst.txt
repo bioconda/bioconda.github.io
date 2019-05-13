@@ -50,6 +50,7 @@ fastqe
 
 
 .. |downloads_fastqe| image:: https://img.shields.io/conda/dn/bioconda/fastqe.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastqe
    :alt:   (downloads)
 .. |docker_fastqe| image:: https://quay.io/repository/biocontainers/fastqe/status
    :target: https://quay.io/repository/biocontainers/fastqe

@@ -56,6 +56,7 @@ wub
 
 
 .. |downloads_wub| image:: https://img.shields.io/conda/dn/bioconda/wub.svg?style=flat
+   :target: https://anaconda.org/bioconda/wub
    :alt:   (downloads)
 .. |docker_wub| image:: https://quay.io/repository/biocontainers/wub/status
    :target: https://quay.io/repository/biocontainers/wub

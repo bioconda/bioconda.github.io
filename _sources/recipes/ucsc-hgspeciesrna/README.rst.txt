@@ -50,6 +50,7 @@ ucsc-hgspeciesrna
 
 
 .. |downloads_ucsc-hgspeciesrna| image:: https://img.shields.io/conda/dn/bioconda/ucsc-hgspeciesrna.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-hgspeciesrna
    :alt:   (downloads)
 .. |docker_ucsc-hgspeciesrna| image:: https://quay.io/repository/biocontainers/ucsc-hgspeciesrna/status
    :target: https://quay.io/repository/biocontainers/ucsc-hgspeciesrna

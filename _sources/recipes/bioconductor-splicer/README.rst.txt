@@ -54,6 +54,7 @@ bioconductor-splicer
 
 
 .. |downloads_bioconductor-splicer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-splicer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-splicer
    :alt:   (downloads)
 .. |docker_bioconductor-splicer| image:: https://quay.io/repository/biocontainers/bioconductor-splicer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-splicer

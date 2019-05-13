@@ -64,6 +64,7 @@ bioconductor-rcgh
 
 
 .. |downloads_bioconductor-rcgh| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rcgh.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rcgh
    :alt:   (downloads)
 .. |docker_bioconductor-rcgh| image:: https://quay.io/repository/biocontainers/bioconductor-rcgh/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rcgh

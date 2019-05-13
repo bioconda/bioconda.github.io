@@ -57,6 +57,7 @@ bioconductor-intad
 
 
 .. |downloads_bioconductor-intad| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-intad.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-intad
    :alt:   (downloads)
 .. |docker_bioconductor-intad| image:: https://quay.io/repository/biocontainers/bioconductor-intad/status
    :target: https://quay.io/repository/biocontainers/bioconductor-intad

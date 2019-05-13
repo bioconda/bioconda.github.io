@@ -53,6 +53,7 @@ samtools
 
 
 .. |downloads_samtools| image:: https://img.shields.io/conda/dn/bioconda/samtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/samtools
    :alt:   (downloads)
 .. |docker_samtools| image:: https://quay.io/repository/biocontainers/samtools/status
    :target: https://quay.io/repository/biocontainers/samtools

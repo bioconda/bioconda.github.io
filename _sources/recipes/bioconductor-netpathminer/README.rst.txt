@@ -49,6 +49,7 @@ bioconductor-netpathminer
 
 
 .. |downloads_bioconductor-netpathminer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-netpathminer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-netpathminer
    :alt:   (downloads)
 .. |docker_bioconductor-netpathminer| image:: https://quay.io/repository/biocontainers/bioconductor-netpathminer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-netpathminer

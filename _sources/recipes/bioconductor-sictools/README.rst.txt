@@ -53,6 +53,7 @@ bioconductor-sictools
 
 
 .. |downloads_bioconductor-sictools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sictools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sictools
    :alt:   (downloads)
 .. |docker_bioconductor-sictools| image:: https://quay.io/repository/biocontainers/bioconductor-sictools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sictools

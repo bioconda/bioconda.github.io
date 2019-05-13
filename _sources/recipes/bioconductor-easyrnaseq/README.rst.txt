@@ -64,6 +64,7 @@ bioconductor-easyrnaseq
 
 
 .. |downloads_bioconductor-easyrnaseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-easyrnaseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-easyrnaseq
    :alt:   (downloads)
 .. |docker_bioconductor-easyrnaseq| image:: https://quay.io/repository/biocontainers/bioconductor-easyrnaseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-easyrnaseq

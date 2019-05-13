@@ -54,6 +54,7 @@ ribotaper
 
 
 .. |downloads_ribotaper| image:: https://img.shields.io/conda/dn/bioconda/ribotaper.svg?style=flat
+   :target: https://anaconda.org/bioconda/ribotaper
    :alt:   (downloads)
 .. |docker_ribotaper| image:: https://quay.io/repository/biocontainers/ribotaper/status
    :target: https://quay.io/repository/biocontainers/ribotaper

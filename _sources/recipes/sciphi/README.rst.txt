@@ -48,6 +48,7 @@ sciphi
 
 
 .. |downloads_sciphi| image:: https://img.shields.io/conda/dn/bioconda/sciphi.svg?style=flat
+   :target: https://anaconda.org/bioconda/sciphi
    :alt:   (downloads)
 .. |docker_sciphi| image:: https://quay.io/repository/biocontainers/sciphi/status
    :target: https://quay.io/repository/biocontainers/sciphi

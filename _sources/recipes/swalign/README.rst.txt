@@ -45,6 +45,7 @@ swalign
 
 
 .. |downloads_swalign| image:: https://img.shields.io/conda/dn/bioconda/swalign.svg?style=flat
+   :target: https://anaconda.org/bioconda/swalign
    :alt:   (downloads)
 .. |docker_swalign| image:: https://quay.io/repository/biocontainers/swalign/status
    :target: https://quay.io/repository/biocontainers/swalign

@@ -49,6 +49,7 @@ hmmlearn
 
 
 .. |downloads_hmmlearn| image:: https://img.shields.io/conda/dn/bioconda/hmmlearn.svg?style=flat
+   :target: https://anaconda.org/bioconda/hmmlearn
    :alt:   (downloads)
 .. |docker_hmmlearn| image:: https://quay.io/repository/biocontainers/hmmlearn/status
    :target: https://quay.io/repository/biocontainers/hmmlearn

@@ -47,6 +47,7 @@ bioconductor-sampleclassifierdata
 
 
 .. |downloads_bioconductor-sampleclassifierdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sampleclassifierdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sampleclassifierdata
    :alt:   (downloads)
 .. |docker_bioconductor-sampleclassifierdata| image:: https://quay.io/repository/biocontainers/bioconductor-sampleclassifierdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sampleclassifierdata

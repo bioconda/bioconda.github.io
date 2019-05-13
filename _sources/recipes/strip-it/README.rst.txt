@@ -47,6 +47,7 @@ strip_it
 
 
 .. |downloads_strip_it| image:: https://img.shields.io/conda/dn/bioconda/strip_it.svg?style=flat
+   :target: https://anaconda.org/bioconda/strip_it
    :alt:   (downloads)
 .. |docker_strip_it| image:: https://quay.io/repository/biocontainers/strip_it/status
    :target: https://quay.io/repository/biocontainers/strip_it

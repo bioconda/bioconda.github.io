@@ -47,6 +47,7 @@ kma
 
 
 .. |downloads_kma| image:: https://img.shields.io/conda/dn/bioconda/kma.svg?style=flat
+   :target: https://anaconda.org/bioconda/kma
    :alt:   (downloads)
 .. |docker_kma| image:: https://quay.io/repository/biocontainers/kma/status
    :target: https://quay.io/repository/biocontainers/kma

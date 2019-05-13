@@ -46,6 +46,7 @@ itsx
 
 
 .. |downloads_itsx| image:: https://img.shields.io/conda/dn/bioconda/itsx.svg?style=flat
+   :target: https://anaconda.org/bioconda/itsx
    :alt:   (downloads)
 .. |docker_itsx| image:: https://quay.io/repository/biocontainers/itsx/status
    :target: https://quay.io/repository/biocontainers/itsx

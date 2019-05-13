@@ -47,6 +47,7 @@ perl-file-next
 
 
 .. |downloads_perl-file-next| image:: https://img.shields.io/conda/dn/bioconda/perl-file-next.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-next
    :alt:   (downloads)
 .. |docker_perl-file-next| image:: https://quay.io/repository/biocontainers/perl-file-next/status
    :target: https://quay.io/repository/biocontainers/perl-file-next

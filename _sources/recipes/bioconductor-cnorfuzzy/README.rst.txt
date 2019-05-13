@@ -49,6 +49,7 @@ bioconductor-cnorfuzzy
 
 
 .. |downloads_bioconductor-cnorfuzzy| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cnorfuzzy.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cnorfuzzy
    :alt:   (downloads)
 .. |docker_bioconductor-cnorfuzzy| image:: https://quay.io/repository/biocontainers/bioconductor-cnorfuzzy/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cnorfuzzy

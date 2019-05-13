@@ -52,6 +52,7 @@ smallgenomeutilities
 
 
 .. |downloads_smallgenomeutilities| image:: https://img.shields.io/conda/dn/bioconda/smallgenomeutilities.svg?style=flat
+   :target: https://anaconda.org/bioconda/smallgenomeutilities
    :alt:   (downloads)
 .. |docker_smallgenomeutilities| image:: https://quay.io/repository/biocontainers/smallgenomeutilities/status
    :target: https://quay.io/repository/biocontainers/smallgenomeutilities

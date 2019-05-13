@@ -47,6 +47,7 @@ biolite-tools
 
 
 .. |downloads_biolite-tools| image:: https://img.shields.io/conda/dn/bioconda/biolite-tools.svg?style=flat
+   :target: https://anaconda.org/bioconda/biolite-tools
    :alt:   (downloads)
 .. |docker_biolite-tools| image:: https://quay.io/repository/biocontainers/biolite-tools/status
    :target: https://quay.io/repository/biocontainers/biolite-tools

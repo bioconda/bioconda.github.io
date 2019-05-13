@@ -50,6 +50,7 @@ bioconductor-qusage
 
 
 .. |downloads_bioconductor-qusage| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-qusage.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-qusage
    :alt:   (downloads)
 .. |docker_bioconductor-qusage| image:: https://quay.io/repository/biocontainers/bioconductor-qusage/status
    :target: https://quay.io/repository/biocontainers/bioconductor-qusage

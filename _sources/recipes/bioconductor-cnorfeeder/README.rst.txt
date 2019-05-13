@@ -47,6 +47,7 @@ bioconductor-cnorfeeder
 
 
 .. |downloads_bioconductor-cnorfeeder| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cnorfeeder.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cnorfeeder
    :alt:   (downloads)
 .. |docker_bioconductor-cnorfeeder| image:: https://quay.io/repository/biocontainers/bioconductor-cnorfeeder/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cnorfeeder

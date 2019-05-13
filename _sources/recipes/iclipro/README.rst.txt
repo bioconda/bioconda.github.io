@@ -47,6 +47,7 @@ iclipro
 
 
 .. |downloads_iclipro| image:: https://img.shields.io/conda/dn/bioconda/iclipro.svg?style=flat
+   :target: https://anaconda.org/bioconda/iclipro
    :alt:   (downloads)
 .. |docker_iclipro| image:: https://quay.io/repository/biocontainers/iclipro/status
    :target: https://quay.io/repository/biocontainers/iclipro

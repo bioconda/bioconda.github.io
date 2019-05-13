@@ -46,6 +46,7 @@ bioconductor-dart
 
 
 .. |downloads_bioconductor-dart| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dart.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dart
    :alt:   (downloads)
 .. |docker_bioconductor-dart| image:: https://quay.io/repository/biocontainers/bioconductor-dart/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dart

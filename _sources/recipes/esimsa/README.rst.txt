@@ -46,6 +46,7 @@ esimsa
 
 
 .. |downloads_esimsa| image:: https://img.shields.io/conda/dn/bioconda/esimsa.svg?style=flat
+   :target: https://anaconda.org/bioconda/esimsa
    :alt:   (downloads)
 .. |docker_esimsa| image:: https://quay.io/repository/biocontainers/esimsa/status
    :target: https://quay.io/repository/biocontainers/esimsa

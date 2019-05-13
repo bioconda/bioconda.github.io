@@ -50,6 +50,7 @@ ucsc-hgloadoutjoined
 
 
 .. |downloads_ucsc-hgloadoutjoined| image:: https://img.shields.io/conda/dn/bioconda/ucsc-hgloadoutjoined.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-hgloadoutjoined
    :alt:   (downloads)
 .. |docker_ucsc-hgloadoutjoined| image:: https://quay.io/repository/biocontainers/ucsc-hgloadoutjoined/status
    :target: https://quay.io/repository/biocontainers/ucsc-hgloadoutjoined

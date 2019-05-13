@@ -47,6 +47,7 @@ perl-perlio-gzip
 
 
 .. |downloads_perl-perlio-gzip| image:: https://img.shields.io/conda/dn/bioconda/perl-perlio-gzip.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-perlio-gzip
    :alt:   (downloads)
 .. |docker_perl-perlio-gzip| image:: https://quay.io/repository/biocontainers/perl-perlio-gzip/status
    :target: https://quay.io/repository/biocontainers/perl-perlio-gzip

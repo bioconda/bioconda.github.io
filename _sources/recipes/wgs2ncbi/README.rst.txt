@@ -47,6 +47,7 @@ wgs2ncbi
 
 
 .. |downloads_wgs2ncbi| image:: https://img.shields.io/conda/dn/bioconda/wgs2ncbi.svg?style=flat
+   :target: https://anaconda.org/bioconda/wgs2ncbi
    :alt:   (downloads)
 .. |docker_wgs2ncbi| image:: https://quay.io/repository/biocontainers/wgs2ncbi/status
    :target: https://quay.io/repository/biocontainers/wgs2ncbi

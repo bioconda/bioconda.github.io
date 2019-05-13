@@ -47,6 +47,7 @@ bioconductor-cellmapper
 
 
 .. |downloads_bioconductor-cellmapper| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cellmapper.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cellmapper
    :alt:   (downloads)
 .. |docker_bioconductor-cellmapper| image:: https://quay.io/repository/biocontainers/bioconductor-cellmapper/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cellmapper

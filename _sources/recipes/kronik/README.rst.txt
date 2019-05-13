@@ -45,6 +45,7 @@ kronik
 
 
 .. |downloads_kronik| image:: https://img.shields.io/conda/dn/bioconda/kronik.svg?style=flat
+   :target: https://anaconda.org/bioconda/kronik
    :alt:   (downloads)
 .. |docker_kronik| image:: https://quay.io/repository/biocontainers/kronik/status
    :target: https://quay.io/repository/biocontainers/kronik

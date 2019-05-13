@@ -47,6 +47,7 @@ maxentpy
 
 
 .. |downloads_maxentpy| image:: https://img.shields.io/conda/dn/bioconda/maxentpy.svg?style=flat
+   :target: https://anaconda.org/bioconda/maxentpy
    :alt:   (downloads)
 .. |docker_maxentpy| image:: https://quay.io/repository/biocontainers/maxentpy/status
    :target: https://quay.io/repository/biocontainers/maxentpy

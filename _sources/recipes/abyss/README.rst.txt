@@ -52,6 +52,7 @@ abyss
 
 
 .. |downloads_abyss| image:: https://img.shields.io/conda/dn/bioconda/abyss.svg?style=flat
+   :target: https://anaconda.org/bioconda/abyss
    :alt:   (downloads)
 .. |docker_abyss| image:: https://quay.io/repository/biocontainers/abyss/status
    :target: https://quay.io/repository/biocontainers/abyss

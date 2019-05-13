@@ -44,6 +44,7 @@ sak
 
 
 .. |downloads_sak| image:: https://img.shields.io/conda/dn/bioconda/sak.svg?style=flat
+   :target: https://anaconda.org/bioconda/sak
    :alt:   (downloads)
 .. |docker_sak| image:: https://quay.io/repository/biocontainers/sak/status
    :target: https://quay.io/repository/biocontainers/sak

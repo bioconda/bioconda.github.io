@@ -44,6 +44,7 @@ bioconductor-mirlab
 
 
 .. |downloads_bioconductor-mirlab| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirlab.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mirlab
    :alt:   (downloads)
 .. |docker_bioconductor-mirlab| image:: https://quay.io/repository/biocontainers/bioconductor-mirlab/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mirlab

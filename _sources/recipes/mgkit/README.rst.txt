@@ -62,6 +62,7 @@ mgkit
 
 
 .. |downloads_mgkit| image:: https://img.shields.io/conda/dn/bioconda/mgkit.svg?style=flat
+   :target: https://anaconda.org/bioconda/mgkit
    :alt:   (downloads)
 .. |docker_mgkit| image:: https://quay.io/repository/biocontainers/mgkit/status
    :target: https://quay.io/repository/biocontainers/mgkit

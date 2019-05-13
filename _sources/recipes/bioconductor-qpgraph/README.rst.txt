@@ -61,6 +61,7 @@ bioconductor-qpgraph
 
 
 .. |downloads_bioconductor-qpgraph| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-qpgraph.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-qpgraph
    :alt:   (downloads)
 .. |docker_bioconductor-qpgraph| image:: https://quay.io/repository/biocontainers/bioconductor-qpgraph/status
    :target: https://quay.io/repository/biocontainers/bioconductor-qpgraph

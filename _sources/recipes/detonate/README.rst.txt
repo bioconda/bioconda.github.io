@@ -51,6 +51,7 @@ detonate
 
 
 .. |downloads_detonate| image:: https://img.shields.io/conda/dn/bioconda/detonate.svg?style=flat
+   :target: https://anaconda.org/bioconda/detonate
    :alt:   (downloads)
 .. |docker_detonate| image:: https://quay.io/repository/biocontainers/detonate/status
    :target: https://quay.io/repository/biocontainers/detonate

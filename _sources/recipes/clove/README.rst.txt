@@ -46,6 +46,7 @@ clove
 
 
 .. |downloads_clove| image:: https://img.shields.io/conda/dn/bioconda/clove.svg?style=flat
+   :target: https://anaconda.org/bioconda/clove
    :alt:   (downloads)
 .. |docker_clove| image:: https://quay.io/repository/biocontainers/clove/status
    :target: https://quay.io/repository/biocontainers/clove

@@ -49,6 +49,7 @@ bioconductor-harbchip
 
 
 .. |downloads_bioconductor-harbchip| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-harbchip.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-harbchip
    :alt:   (downloads)
 .. |docker_bioconductor-harbchip| image:: https://quay.io/repository/biocontainers/bioconductor-harbchip/status
    :target: https://quay.io/repository/biocontainers/bioconductor-harbchip

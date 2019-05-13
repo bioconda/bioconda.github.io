@@ -54,6 +54,7 @@ pyani
 
 
 .. |downloads_pyani| image:: https://img.shields.io/conda/dn/bioconda/pyani.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyani
    :alt:   (downloads)
 .. |docker_pyani| image:: https://quay.io/repository/biocontainers/pyani/status
    :target: https://quay.io/repository/biocontainers/pyani

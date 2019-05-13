@@ -45,6 +45,7 @@ perl-config-simple
 
 
 .. |downloads_perl-config-simple| image:: https://img.shields.io/conda/dn/bioconda/perl-config-simple.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-config-simple
    :alt:   (downloads)
 .. |docker_perl-config-simple| image:: https://quay.io/repository/biocontainers/perl-config-simple/status
    :target: https://quay.io/repository/biocontainers/perl-config-simple

@@ -54,6 +54,7 @@ epicseg
 
 
 .. |downloads_epicseg| image:: https://img.shields.io/conda/dn/bioconda/epicseg.svg?style=flat
+   :target: https://anaconda.org/bioconda/epicseg
    :alt:   (downloads)
 .. |docker_epicseg| image:: https://quay.io/repository/biocontainers/epicseg/status
    :target: https://quay.io/repository/biocontainers/epicseg

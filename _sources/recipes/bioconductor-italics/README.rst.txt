@@ -44,6 +44,7 @@ bioconductor-italics
 
 
 .. |downloads_bioconductor-italics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-italics.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-italics
    :alt:   (downloads)
 .. |docker_bioconductor-italics| image:: https://quay.io/repository/biocontainers/bioconductor-italics/status
    :target: https://quay.io/repository/biocontainers/bioconductor-italics

@@ -48,6 +48,7 @@ mir-prefer
 
 
 .. |downloads_mir-prefer| image:: https://img.shields.io/conda/dn/bioconda/mir-prefer.svg?style=flat
+   :target: https://anaconda.org/bioconda/mir-prefer
    :alt:   (downloads)
 .. |docker_mir-prefer| image:: https://quay.io/repository/biocontainers/mir-prefer/status
    :target: https://quay.io/repository/biocontainers/mir-prefer

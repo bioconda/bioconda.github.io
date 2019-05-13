@@ -49,6 +49,7 @@ bbmap
 
 
 .. |downloads_bbmap| image:: https://img.shields.io/conda/dn/bioconda/bbmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/bbmap
    :alt:   (downloads)
 .. |docker_bbmap| image:: https://quay.io/repository/biocontainers/bbmap/status
    :target: https://quay.io/repository/biocontainers/bbmap

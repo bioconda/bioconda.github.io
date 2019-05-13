@@ -51,6 +51,7 @@ seq-seq-pan
 
 
 .. |downloads_seq-seq-pan| image:: https://img.shields.io/conda/dn/bioconda/seq-seq-pan.svg?style=flat
+   :target: https://anaconda.org/bioconda/seq-seq-pan
    :alt:   (downloads)
 .. |docker_seq-seq-pan| image:: https://quay.io/repository/biocontainers/seq-seq-pan/status
    :target: https://quay.io/repository/biocontainers/seq-seq-pan

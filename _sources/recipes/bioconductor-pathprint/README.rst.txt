@@ -45,6 +45,7 @@ bioconductor-pathprint
 
 
 .. |downloads_bioconductor-pathprint| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pathprint.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pathprint
    :alt:   (downloads)
 .. |docker_bioconductor-pathprint| image:: https://quay.io/repository/biocontainers/bioconductor-pathprint/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pathprint

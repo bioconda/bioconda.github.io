@@ -52,6 +52,7 @@ bioconductor-sispa
 
 
 .. |downloads_bioconductor-sispa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sispa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sispa
    :alt:   (downloads)
 .. |docker_bioconductor-sispa| image:: https://quay.io/repository/biocontainers/bioconductor-sispa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sispa

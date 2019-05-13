@@ -73,6 +73,7 @@ sina
 
 
 .. |downloads_sina| image:: https://img.shields.io/conda/dn/bioconda/sina.svg?style=flat
+   :target: https://anaconda.org/bioconda/sina
    :alt:   (downloads)
 .. |docker_sina| image:: https://quay.io/repository/biocontainers/sina/status
    :target: https://quay.io/repository/biocontainers/sina

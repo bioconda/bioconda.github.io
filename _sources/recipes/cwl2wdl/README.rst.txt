@@ -46,6 +46,7 @@ cwl2wdl
 
 
 .. |downloads_cwl2wdl| image:: https://img.shields.io/conda/dn/bioconda/cwl2wdl.svg?style=flat
+   :target: https://anaconda.org/bioconda/cwl2wdl
    :alt:   (downloads)
 .. |docker_cwl2wdl| image:: https://quay.io/repository/biocontainers/cwl2wdl/status
    :target: https://quay.io/repository/biocontainers/cwl2wdl

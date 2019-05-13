@@ -50,6 +50,7 @@ ucsc-maftoaxt
 
 
 .. |downloads_ucsc-maftoaxt| image:: https://img.shields.io/conda/dn/bioconda/ucsc-maftoaxt.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-maftoaxt
    :alt:   (downloads)
 .. |docker_ucsc-maftoaxt| image:: https://quay.io/repository/biocontainers/ucsc-maftoaxt/status
    :target: https://quay.io/repository/biocontainers/ucsc-maftoaxt

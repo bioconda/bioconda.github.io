@@ -45,6 +45,7 @@ perl-math-vecstat
 
 
 .. |downloads_perl-math-vecstat| image:: https://img.shields.io/conda/dn/bioconda/perl-math-vecstat.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-math-vecstat
    :alt:   (downloads)
 .. |docker_perl-math-vecstat| image:: https://quay.io/repository/biocontainers/perl-math-vecstat/status
    :target: https://quay.io/repository/biocontainers/perl-math-vecstat

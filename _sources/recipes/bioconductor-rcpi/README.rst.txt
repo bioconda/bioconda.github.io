@@ -54,6 +54,7 @@ bioconductor-rcpi
 
 
 .. |downloads_bioconductor-rcpi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rcpi.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rcpi
    :alt:   (downloads)
 .. |docker_bioconductor-rcpi| image:: https://quay.io/repository/biocontainers/bioconductor-rcpi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rcpi

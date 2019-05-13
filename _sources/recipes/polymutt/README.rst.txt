@@ -47,6 +47,7 @@ polymutt
 
 
 .. |downloads_polymutt| image:: https://img.shields.io/conda/dn/bioconda/polymutt.svg?style=flat
+   :target: https://anaconda.org/bioconda/polymutt
    :alt:   (downloads)
 .. |docker_polymutt| image:: https://quay.io/repository/biocontainers/polymutt/status
    :target: https://quay.io/repository/biocontainers/polymutt

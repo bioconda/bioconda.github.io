@@ -45,6 +45,7 @@ perl-posix
 
 
 .. |downloads_perl-posix| image:: https://img.shields.io/conda/dn/bioconda/perl-posix.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-posix
    :alt:   (downloads)
 .. |docker_perl-posix| image:: https://quay.io/repository/biocontainers/perl-posix/status
    :target: https://quay.io/repository/biocontainers/perl-posix

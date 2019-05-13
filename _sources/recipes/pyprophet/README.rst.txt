@@ -52,6 +52,7 @@ pyprophet
 
 
 .. |downloads_pyprophet| image:: https://img.shields.io/conda/dn/bioconda/pyprophet.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyprophet
    :alt:   (downloads)
 .. |docker_pyprophet| image:: https://quay.io/repository/biocontainers/pyprophet/status
    :target: https://quay.io/repository/biocontainers/pyprophet

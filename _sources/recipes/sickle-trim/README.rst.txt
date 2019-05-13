@@ -46,6 +46,7 @@ sickle-trim
 
 
 .. |downloads_sickle-trim| image:: https://img.shields.io/conda/dn/bioconda/sickle-trim.svg?style=flat
+   :target: https://anaconda.org/bioconda/sickle-trim
    :alt:   (downloads)
 .. |docker_sickle-trim| image:: https://quay.io/repository/biocontainers/sickle-trim/status
    :target: https://quay.io/repository/biocontainers/sickle-trim

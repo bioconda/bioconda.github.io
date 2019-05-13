@@ -48,6 +48,7 @@ perl-data-match
 
 
 .. |downloads_perl-data-match| image:: https://img.shields.io/conda/dn/bioconda/perl-data-match.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-data-match
    :alt:   (downloads)
 .. |docker_perl-data-match| image:: https://quay.io/repository/biocontainers/perl-data-match/status
    :target: https://quay.io/repository/biocontainers/perl-data-match

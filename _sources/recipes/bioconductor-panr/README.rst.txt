@@ -50,6 +50,7 @@ bioconductor-panr
 
 
 .. |downloads_bioconductor-panr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-panr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-panr
    :alt:   (downloads)
 .. |docker_bioconductor-panr| image:: https://quay.io/repository/biocontainers/bioconductor-panr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-panr

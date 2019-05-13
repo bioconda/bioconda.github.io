@@ -50,6 +50,7 @@ bioconductor-panvizgenerator
 
 
 .. |downloads_bioconductor-panvizgenerator| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-panvizgenerator.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-panvizgenerator
    :alt:   (downloads)
 .. |docker_bioconductor-panvizgenerator| image:: https://quay.io/repository/biocontainers/bioconductor-panvizgenerator/status
    :target: https://quay.io/repository/biocontainers/bioconductor-panvizgenerator

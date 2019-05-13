@@ -48,6 +48,7 @@ protk
 
 
 .. |downloads_protk| image:: https://img.shields.io/conda/dn/bioconda/protk.svg?style=flat
+   :target: https://anaconda.org/bioconda/protk
    :alt:   (downloads)
 .. |docker_protk| image:: https://quay.io/repository/biocontainers/protk/status
    :target: https://quay.io/repository/biocontainers/protk

@@ -46,6 +46,7 @@ perl-math-spline
 
 
 .. |downloads_perl-math-spline| image:: https://img.shields.io/conda/dn/bioconda/perl-math-spline.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-math-spline
    :alt:   (downloads)
 .. |docker_perl-math-spline| image:: https://quay.io/repository/biocontainers/perl-math-spline/status
    :target: https://quay.io/repository/biocontainers/perl-math-spline

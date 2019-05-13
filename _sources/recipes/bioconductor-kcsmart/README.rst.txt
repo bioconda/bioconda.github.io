@@ -50,6 +50,7 @@ bioconductor-kcsmart
 
 
 .. |downloads_bioconductor-kcsmart| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-kcsmart.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-kcsmart
    :alt:   (downloads)
 .. |docker_bioconductor-kcsmart| image:: https://quay.io/repository/biocontainers/bioconductor-kcsmart/status
    :target: https://quay.io/repository/biocontainers/bioconductor-kcsmart

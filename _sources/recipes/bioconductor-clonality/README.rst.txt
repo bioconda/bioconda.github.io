@@ -47,6 +47,7 @@ bioconductor-clonality
 
 
 .. |downloads_bioconductor-clonality| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clonality.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-clonality
    :alt:   (downloads)
 .. |docker_bioconductor-clonality| image:: https://quay.io/repository/biocontainers/bioconductor-clonality/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clonality

@@ -46,6 +46,7 @@ seqmap
 
 
 .. |downloads_seqmap| image:: https://img.shields.io/conda/dn/bioconda/seqmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/seqmap
    :alt:   (downloads)
 .. |docker_seqmap| image:: https://quay.io/repository/biocontainers/seqmap/status
    :target: https://quay.io/repository/biocontainers/seqmap

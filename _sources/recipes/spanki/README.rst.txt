@@ -53,6 +53,7 @@ spanki
 
 
 .. |downloads_spanki| image:: https://img.shields.io/conda/dn/bioconda/spanki.svg?style=flat
+   :target: https://anaconda.org/bioconda/spanki
    :alt:   (downloads)
 .. |docker_spanki| image:: https://quay.io/repository/biocontainers/spanki/status
    :target: https://quay.io/repository/biocontainers/spanki

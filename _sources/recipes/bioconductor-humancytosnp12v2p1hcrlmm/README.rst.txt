@@ -46,6 +46,7 @@ bioconductor-humancytosnp12v2p1hcrlmm
 
 
 .. |downloads_bioconductor-humancytosnp12v2p1hcrlmm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-humancytosnp12v2p1hcrlmm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-humancytosnp12v2p1hcrlmm
    :alt:   (downloads)
 .. |docker_bioconductor-humancytosnp12v2p1hcrlmm| image:: https://quay.io/repository/biocontainers/bioconductor-humancytosnp12v2p1hcrlmm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-humancytosnp12v2p1hcrlmm

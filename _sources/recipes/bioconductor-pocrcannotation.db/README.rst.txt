@@ -48,6 +48,7 @@ bioconductor-pocrcannotation.db
 
 
 .. |downloads_bioconductor-pocrcannotation.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pocrcannotation.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pocrcannotation.db
    :alt:   (downloads)
 .. |docker_bioconductor-pocrcannotation.db| image:: https://quay.io/repository/biocontainers/bioconductor-pocrcannotation.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pocrcannotation.db

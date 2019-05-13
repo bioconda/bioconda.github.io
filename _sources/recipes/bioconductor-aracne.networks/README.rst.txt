@@ -47,6 +47,7 @@ bioconductor-aracne.networks
 
 
 .. |downloads_bioconductor-aracne.networks| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-aracne.networks.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-aracne.networks
    :alt:   (downloads)
 .. |docker_bioconductor-aracne.networks| image:: https://quay.io/repository/biocontainers/bioconductor-aracne.networks/status
    :target: https://quay.io/repository/biocontainers/bioconductor-aracne.networks

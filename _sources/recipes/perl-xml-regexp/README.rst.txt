@@ -45,6 +45,7 @@ perl-xml-regexp
 
 
 .. |downloads_perl-xml-regexp| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-regexp.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-xml-regexp
    :alt:   (downloads)
 .. |docker_perl-xml-regexp| image:: https://quay.io/repository/biocontainers/perl-xml-regexp/status
    :target: https://quay.io/repository/biocontainers/perl-xml-regexp

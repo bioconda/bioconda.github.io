@@ -50,6 +50,7 @@ jalview
 
 
 .. |downloads_jalview| image:: https://img.shields.io/conda/dn/bioconda/jalview.svg?style=flat
+   :target: https://anaconda.org/bioconda/jalview
    :alt:   (downloads)
 .. |docker_jalview| image:: https://quay.io/repository/biocontainers/jalview/status
    :target: https://quay.io/repository/biocontainers/jalview

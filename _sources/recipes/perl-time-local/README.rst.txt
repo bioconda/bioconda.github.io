@@ -45,6 +45,7 @@ perl-time-local
 
 
 .. |downloads_perl-time-local| image:: https://img.shields.io/conda/dn/bioconda/perl-time-local.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-time-local
    :alt:   (downloads)
 .. |docker_perl-time-local| image:: https://quay.io/repository/biocontainers/perl-time-local/status
    :target: https://quay.io/repository/biocontainers/perl-time-local

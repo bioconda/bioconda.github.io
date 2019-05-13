@@ -46,6 +46,7 @@ bioconductor-genomationdata
 
 
 .. |downloads_bioconductor-genomationdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genomationdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genomationdata
    :alt:   (downloads)
 .. |docker_bioconductor-genomationdata| image:: https://quay.io/repository/biocontainers/bioconductor-genomationdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genomationdata

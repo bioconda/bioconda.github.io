@@ -45,6 +45,7 @@ perl-math-bezier
 
 
 .. |downloads_perl-math-bezier| image:: https://img.shields.io/conda/dn/bioconda/perl-math-bezier.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-math-bezier
    :alt:   (downloads)
 .. |docker_perl-math-bezier| image:: https://quay.io/repository/biocontainers/perl-math-bezier/status
    :target: https://quay.io/repository/biocontainers/perl-math-bezier

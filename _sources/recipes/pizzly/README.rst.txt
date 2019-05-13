@@ -48,6 +48,7 @@ pizzly
 
 
 .. |downloads_pizzly| image:: https://img.shields.io/conda/dn/bioconda/pizzly.svg?style=flat
+   :target: https://anaconda.org/bioconda/pizzly
    :alt:   (downloads)
 .. |docker_pizzly| image:: https://quay.io/repository/biocontainers/pizzly/status
    :target: https://quay.io/repository/biocontainers/pizzly

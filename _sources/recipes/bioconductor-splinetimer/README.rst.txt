@@ -54,6 +54,7 @@ bioconductor-splinetimer
 
 
 .. |downloads_bioconductor-splinetimer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-splinetimer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-splinetimer
    :alt:   (downloads)
 .. |docker_bioconductor-splinetimer| image:: https://quay.io/repository/biocontainers/bioconductor-splinetimer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-splinetimer

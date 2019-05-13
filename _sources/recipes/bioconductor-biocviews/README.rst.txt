@@ -52,6 +52,7 @@ bioconductor-biocviews
 
 
 .. |downloads_bioconductor-biocviews| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biocviews.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-biocviews
    :alt:   (downloads)
 .. |docker_bioconductor-biocviews| image:: https://quay.io/repository/biocontainers/bioconductor-biocviews/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biocviews

@@ -47,6 +47,7 @@ r-empiricalfdr.deseq2
 
 
 .. |downloads_r-empiricalfdr.deseq2| image:: https://img.shields.io/conda/dn/bioconda/r-empiricalfdr.deseq2.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-empiricalfdr.deseq2
    :alt:   (downloads)
 .. |docker_r-empiricalfdr.deseq2| image:: https://quay.io/repository/biocontainers/r-empiricalfdr.deseq2/status
    :target: https://quay.io/repository/biocontainers/r-empiricalfdr.deseq2

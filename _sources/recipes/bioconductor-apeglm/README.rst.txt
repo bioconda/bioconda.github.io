@@ -53,6 +53,7 @@ bioconductor-apeglm
 
 
 .. |downloads_bioconductor-apeglm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-apeglm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-apeglm
    :alt:   (downloads)
 .. |docker_bioconductor-apeglm| image:: https://quay.io/repository/biocontainers/bioconductor-apeglm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-apeglm

@@ -46,6 +46,7 @@ fastme
 
 
 .. |downloads_fastme| image:: https://img.shields.io/conda/dn/bioconda/fastme.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastme
    :alt:   (downloads)
 .. |docker_fastme| image:: https://quay.io/repository/biocontainers/fastme/status
    :target: https://quay.io/repository/biocontainers/fastme

@@ -44,6 +44,7 @@ snap-aligner
 
 
 .. |downloads_snap-aligner| image:: https://img.shields.io/conda/dn/bioconda/snap-aligner.svg?style=flat
+   :target: https://anaconda.org/bioconda/snap-aligner
    :alt:   (downloads)
 .. |docker_snap-aligner| image:: https://quay.io/repository/biocontainers/snap-aligner/status
    :target: https://quay.io/repository/biocontainers/snap-aligner

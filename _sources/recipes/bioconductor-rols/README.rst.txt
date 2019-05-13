@@ -51,6 +51,7 @@ bioconductor-rols
 
 
 .. |downloads_bioconductor-rols| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rols.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rols
    :alt:   (downloads)
 .. |docker_bioconductor-rols| image:: https://quay.io/repository/biocontainers/bioconductor-rols/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rols

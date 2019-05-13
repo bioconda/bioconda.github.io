@@ -46,6 +46,7 @@ bioconductor-breastcancernki
 
 
 .. |downloads_bioconductor-breastcancernki| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-breastcancernki.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-breastcancernki
    :alt:   (downloads)
 .. |docker_bioconductor-breastcancernki| image:: https://quay.io/repository/biocontainers/bioconductor-breastcancernki/status
    :target: https://quay.io/repository/biocontainers/bioconductor-breastcancernki

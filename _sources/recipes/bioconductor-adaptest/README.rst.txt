@@ -49,6 +49,7 @@ bioconductor-adaptest
 
 
 .. |downloads_bioconductor-adaptest| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-adaptest.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-adaptest
    :alt:   (downloads)
 .. |docker_bioconductor-adaptest| image:: https://quay.io/repository/biocontainers/bioconductor-adaptest/status
    :target: https://quay.io/repository/biocontainers/bioconductor-adaptest

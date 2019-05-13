@@ -90,6 +90,7 @@ perl-hpc-runner-command
 
 
 .. |downloads_perl-hpc-runner-command| image:: https://img.shields.io/conda/dn/bioconda/perl-hpc-runner-command.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-hpc-runner-command
    :alt:   (downloads)
 .. |docker_perl-hpc-runner-command| image:: https://quay.io/repository/biocontainers/perl-hpc-runner-command/status
    :target: https://quay.io/repository/biocontainers/perl-hpc-runner-command

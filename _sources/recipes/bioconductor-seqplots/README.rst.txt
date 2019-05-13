@@ -69,6 +69,7 @@ bioconductor-seqplots
 
 
 .. |downloads_bioconductor-seqplots| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-seqplots.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-seqplots
    :alt:   (downloads)
 .. |docker_bioconductor-seqplots| image:: https://quay.io/repository/biocontainers/bioconductor-seqplots/status
    :target: https://quay.io/repository/biocontainers/bioconductor-seqplots

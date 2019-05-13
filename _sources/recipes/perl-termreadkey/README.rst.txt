@@ -46,6 +46,7 @@ perl-termreadkey
 
 
 .. |downloads_perl-termreadkey| image:: https://img.shields.io/conda/dn/bioconda/perl-termreadkey.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-termreadkey
    :alt:   (downloads)
 .. |docker_perl-termreadkey| image:: https://quay.io/repository/biocontainers/perl-termreadkey/status
    :target: https://quay.io/repository/biocontainers/perl-termreadkey

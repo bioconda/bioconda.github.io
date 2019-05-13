@@ -46,6 +46,7 @@ grabix
 
 
 .. |downloads_grabix| image:: https://img.shields.io/conda/dn/bioconda/grabix.svg?style=flat
+   :target: https://anaconda.org/bioconda/grabix
    :alt:   (downloads)
 .. |docker_grabix| image:: https://quay.io/repository/biocontainers/grabix/status
    :target: https://quay.io/repository/biocontainers/grabix

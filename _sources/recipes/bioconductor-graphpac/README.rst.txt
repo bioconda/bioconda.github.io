@@ -50,6 +50,7 @@ bioconductor-graphpac
 
 
 .. |downloads_bioconductor-graphpac| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-graphpac.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-graphpac
    :alt:   (downloads)
 .. |docker_bioconductor-graphpac| image:: https://quay.io/repository/biocontainers/bioconductor-graphpac/status
    :target: https://quay.io/repository/biocontainers/bioconductor-graphpac

@@ -47,6 +47,7 @@ bioconductor-bsgenome.mmusculus.ucsc.mm9
 
 
 .. |downloads_bioconductor-bsgenome.mmusculus.ucsc.mm9| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.mmusculus.ucsc.mm9.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome.mmusculus.ucsc.mm9
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.mmusculus.ucsc.mm9| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.mmusculus.ucsc.mm9/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.mmusculus.ucsc.mm9

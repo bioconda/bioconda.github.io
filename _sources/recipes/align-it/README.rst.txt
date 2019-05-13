@@ -48,6 +48,7 @@ align_it
 
 
 .. |downloads_align_it| image:: https://img.shields.io/conda/dn/bioconda/align_it.svg?style=flat
+   :target: https://anaconda.org/bioconda/align_it
    :alt:   (downloads)
 .. |docker_align_it| image:: https://quay.io/repository/biocontainers/align_it/status
    :target: https://quay.io/repository/biocontainers/align_it

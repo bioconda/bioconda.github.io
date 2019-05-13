@@ -51,6 +51,7 @@ bioconductor-geecc
 
 
 .. |downloads_bioconductor-geecc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geecc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-geecc
    :alt:   (downloads)
 .. |docker_bioconductor-geecc| image:: https://quay.io/repository/biocontainers/bioconductor-geecc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geecc

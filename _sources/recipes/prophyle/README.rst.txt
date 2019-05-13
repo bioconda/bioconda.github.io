@@ -55,6 +55,7 @@ prophyle
 
 
 .. |downloads_prophyle| image:: https://img.shields.io/conda/dn/bioconda/prophyle.svg?style=flat
+   :target: https://anaconda.org/bioconda/prophyle
    :alt:   (downloads)
 .. |docker_prophyle| image:: https://quay.io/repository/biocontainers/prophyle/status
    :target: https://quay.io/repository/biocontainers/prophyle

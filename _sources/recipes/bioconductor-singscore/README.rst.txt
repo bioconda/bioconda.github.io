@@ -60,6 +60,7 @@ bioconductor-singscore
 
 
 .. |downloads_bioconductor-singscore| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-singscore.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-singscore
    :alt:   (downloads)
 .. |docker_bioconductor-singscore| image:: https://quay.io/repository/biocontainers/bioconductor-singscore/status
    :target: https://quay.io/repository/biocontainers/bioconductor-singscore

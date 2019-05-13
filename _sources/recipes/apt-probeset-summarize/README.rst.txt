@@ -45,6 +45,7 @@ apt-probeset-summarize
 
 
 .. |downloads_apt-probeset-summarize| image:: https://img.shields.io/conda/dn/bioconda/apt-probeset-summarize.svg?style=flat
+   :target: https://anaconda.org/bioconda/apt-probeset-summarize
    :alt:   (downloads)
 .. |docker_apt-probeset-summarize| image:: https://quay.io/repository/biocontainers/apt-probeset-summarize/status
    :target: https://quay.io/repository/biocontainers/apt-probeset-summarize

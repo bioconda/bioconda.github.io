@@ -45,6 +45,7 @@ repeatscout
 
 
 .. |downloads_repeatscout| image:: https://img.shields.io/conda/dn/bioconda/repeatscout.svg?style=flat
+   :target: https://anaconda.org/bioconda/repeatscout
    :alt:   (downloads)
 .. |docker_repeatscout| image:: https://quay.io/repository/biocontainers/repeatscout/status
    :target: https://quay.io/repository/biocontainers/repeatscout

@@ -50,6 +50,7 @@ ucsc-tolower
 
 
 .. |downloads_ucsc-tolower| image:: https://img.shields.io/conda/dn/bioconda/ucsc-tolower.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-tolower
    :alt:   (downloads)
 .. |docker_ucsc-tolower| image:: https://quay.io/repository/biocontainers/ucsc-tolower/status
    :target: https://quay.io/repository/biocontainers/ucsc-tolower

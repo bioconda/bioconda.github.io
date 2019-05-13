@@ -48,6 +48,7 @@ fpa
 
 
 .. |downloads_fpa| image:: https://img.shields.io/conda/dn/bioconda/fpa.svg?style=flat
+   :target: https://anaconda.org/bioconda/fpa
    :alt:   (downloads)
 .. |docker_fpa| image:: https://quay.io/repository/biocontainers/fpa/status
    :target: https://quay.io/repository/biocontainers/fpa

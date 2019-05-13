@@ -46,6 +46,7 @@ trimadap
 
 
 .. |downloads_trimadap| image:: https://img.shields.io/conda/dn/bioconda/trimadap.svg?style=flat
+   :target: https://anaconda.org/bioconda/trimadap
    :alt:   (downloads)
 .. |docker_trimadap| image:: https://quay.io/repository/biocontainers/trimadap/status
    :target: https://quay.io/repository/biocontainers/trimadap

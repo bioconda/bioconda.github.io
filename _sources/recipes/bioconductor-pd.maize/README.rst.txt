@@ -53,6 +53,7 @@ bioconductor-pd.maize
 
 
 .. |downloads_bioconductor-pd.maize| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.maize.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.maize
    :alt:   (downloads)
 .. |docker_bioconductor-pd.maize| image:: https://quay.io/repository/biocontainers/bioconductor-pd.maize/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.maize

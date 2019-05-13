@@ -47,6 +47,7 @@ r-enrichr
 
 
 .. |downloads_r-enrichr| image:: https://img.shields.io/conda/dn/bioconda/r-enrichr.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-enrichr
    :alt:   (downloads)
 .. |docker_r-enrichr| image:: https://quay.io/repository/biocontainers/r-enrichr/status
    :target: https://quay.io/repository/biocontainers/r-enrichr

@@ -52,6 +52,7 @@ gromacs
 
 
 .. |downloads_gromacs| image:: https://img.shields.io/conda/dn/bioconda/gromacs.svg?style=flat
+   :target: https://anaconda.org/bioconda/gromacs
    :alt:   (downloads)
 .. |docker_gromacs| image:: https://quay.io/repository/biocontainers/gromacs/status
    :target: https://quay.io/repository/biocontainers/gromacs

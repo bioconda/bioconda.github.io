@@ -50,6 +50,7 @@ plant_tribes_kaks_analysis
 
 
 .. |downloads_plant_tribes_kaks_analysis| image:: https://img.shields.io/conda/dn/bioconda/plant_tribes_kaks_analysis.svg?style=flat
+   :target: https://anaconda.org/bioconda/plant_tribes_kaks_analysis
    :alt:   (downloads)
 .. |docker_plant_tribes_kaks_analysis| image:: https://quay.io/repository/biocontainers/plant_tribes_kaks_analysis/status
    :target: https://quay.io/repository/biocontainers/plant_tribes_kaks_analysis

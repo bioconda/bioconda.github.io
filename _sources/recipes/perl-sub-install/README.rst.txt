@@ -46,6 +46,7 @@ perl-sub-install
 
 
 .. |downloads_perl-sub-install| image:: https://img.shields.io/conda/dn/bioconda/perl-sub-install.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-sub-install
    :alt:   (downloads)
 .. |docker_perl-sub-install| image:: https://quay.io/repository/biocontainers/perl-sub-install/status
    :target: https://quay.io/repository/biocontainers/perl-sub-install

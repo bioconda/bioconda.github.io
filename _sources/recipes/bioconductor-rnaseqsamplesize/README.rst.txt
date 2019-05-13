@@ -54,6 +54,7 @@ bioconductor-rnaseqsamplesize
 
 
 .. |downloads_bioconductor-rnaseqsamplesize| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rnaseqsamplesize.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rnaseqsamplesize
    :alt:   (downloads)
 .. |docker_bioconductor-rnaseqsamplesize| image:: https://quay.io/repository/biocontainers/bioconductor-rnaseqsamplesize/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rnaseqsamplesize

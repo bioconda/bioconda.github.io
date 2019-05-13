@@ -62,6 +62,7 @@ bioconductor-compcoder
 
 
 .. |downloads_bioconductor-compcoder| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-compcoder.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-compcoder
    :alt:   (downloads)
 .. |docker_bioconductor-compcoder| image:: https://quay.io/repository/biocontainers/bioconductor-compcoder/status
    :target: https://quay.io/repository/biocontainers/bioconductor-compcoder

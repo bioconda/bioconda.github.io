@@ -53,6 +53,7 @@ bioconductor-mirsynergy
 
 
 .. |downloads_bioconductor-mirsynergy| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirsynergy.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mirsynergy
    :alt:   (downloads)
 .. |docker_bioconductor-mirsynergy| image:: https://quay.io/repository/biocontainers/bioconductor-mirsynergy/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mirsynergy

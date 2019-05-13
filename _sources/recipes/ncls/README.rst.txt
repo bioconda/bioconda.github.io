@@ -46,6 +46,7 @@ ncls
 
 
 .. |downloads_ncls| image:: https://img.shields.io/conda/dn/bioconda/ncls.svg?style=flat
+   :target: https://anaconda.org/bioconda/ncls
    :alt:   (downloads)
 .. |docker_ncls| image:: https://quay.io/repository/biocontainers/ncls/status
    :target: https://quay.io/repository/biocontainers/ncls

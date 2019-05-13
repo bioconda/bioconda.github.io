@@ -47,6 +47,7 @@ perl-aliased
 
 
 .. |downloads_perl-aliased| image:: https://img.shields.io/conda/dn/bioconda/perl-aliased.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-aliased
    :alt:   (downloads)
 .. |docker_perl-aliased| image:: https://quay.io/repository/biocontainers/perl-aliased/status
    :target: https://quay.io/repository/biocontainers/perl-aliased

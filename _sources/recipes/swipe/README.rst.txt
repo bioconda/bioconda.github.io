@@ -49,6 +49,7 @@ swipe
 
 
 .. |downloads_swipe| image:: https://img.shields.io/conda/dn/bioconda/swipe.svg?style=flat
+   :target: https://anaconda.org/bioconda/swipe
    :alt:   (downloads)
 .. |docker_swipe| image:: https://quay.io/repository/biocontainers/swipe/status
    :target: https://quay.io/repository/biocontainers/swipe

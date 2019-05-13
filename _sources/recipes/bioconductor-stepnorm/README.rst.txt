@@ -48,6 +48,7 @@ bioconductor-stepnorm
 
 
 .. |downloads_bioconductor-stepnorm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-stepnorm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-stepnorm
    :alt:   (downloads)
 .. |docker_bioconductor-stepnorm| image:: https://quay.io/repository/biocontainers/bioconductor-stepnorm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-stepnorm

@@ -48,6 +48,7 @@ bioconductor-dyebias
 
 
 .. |downloads_bioconductor-dyebias| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dyebias.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dyebias
    :alt:   (downloads)
 .. |docker_bioconductor-dyebias| image:: https://quay.io/repository/biocontainers/bioconductor-dyebias/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dyebias

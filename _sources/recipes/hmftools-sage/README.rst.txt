@@ -46,6 +46,7 @@ hmftools-sage
 
 
 .. |downloads_hmftools-sage| image:: https://img.shields.io/conda/dn/bioconda/hmftools-sage.svg?style=flat
+   :target: https://anaconda.org/bioconda/hmftools-sage
    :alt:   (downloads)
 .. |docker_hmftools-sage| image:: https://quay.io/repository/biocontainers/hmftools-sage/status
    :target: https://quay.io/repository/biocontainers/hmftools-sage

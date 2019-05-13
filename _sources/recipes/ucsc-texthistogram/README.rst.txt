@@ -50,6 +50,7 @@ ucsc-texthistogram
 
 
 .. |downloads_ucsc-texthistogram| image:: https://img.shields.io/conda/dn/bioconda/ucsc-texthistogram.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-texthistogram
    :alt:   (downloads)
 .. |docker_ucsc-texthistogram| image:: https://quay.io/repository/biocontainers/ucsc-texthistogram/status
    :target: https://quay.io/repository/biocontainers/ucsc-texthistogram

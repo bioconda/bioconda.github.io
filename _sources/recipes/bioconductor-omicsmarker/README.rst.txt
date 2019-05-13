@@ -59,6 +59,7 @@ bioconductor-omicsmarker
 
 
 .. |downloads_bioconductor-omicsmarker| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-omicsmarker.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-omicsmarker
    :alt:   (downloads)
 .. |docker_bioconductor-omicsmarker| image:: https://quay.io/repository/biocontainers/bioconductor-omicsmarker/status
    :target: https://quay.io/repository/biocontainers/bioconductor-omicsmarker

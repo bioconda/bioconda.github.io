@@ -48,6 +48,7 @@ ngmerge
 
 
 .. |downloads_ngmerge| image:: https://img.shields.io/conda/dn/bioconda/ngmerge.svg?style=flat
+   :target: https://anaconda.org/bioconda/ngmerge
    :alt:   (downloads)
 .. |docker_ngmerge| image:: https://quay.io/repository/biocontainers/ngmerge/status
    :target: https://quay.io/repository/biocontainers/ngmerge

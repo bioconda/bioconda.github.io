@@ -70,6 +70,7 @@ bioconductor-damirseq
 
 
 .. |downloads_bioconductor-damirseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-damirseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-damirseq
    :alt:   (downloads)
 .. |docker_bioconductor-damirseq| image:: https://quay.io/repository/biocontainers/bioconductor-damirseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-damirseq

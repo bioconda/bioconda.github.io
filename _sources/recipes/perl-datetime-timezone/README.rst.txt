@@ -52,6 +52,7 @@ perl-datetime-timezone
 
 
 .. |downloads_perl-datetime-timezone| image:: https://img.shields.io/conda/dn/bioconda/perl-datetime-timezone.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-datetime-timezone
    :alt:   (downloads)
 .. |docker_perl-datetime-timezone| image:: https://quay.io/repository/biocontainers/perl-datetime-timezone/status
    :target: https://quay.io/repository/biocontainers/perl-datetime-timezone

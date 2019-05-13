@@ -57,6 +57,7 @@ bioconductor-gpart
 
 
 .. |downloads_bioconductor-gpart| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gpart.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gpart
    :alt:   (downloads)
 .. |docker_bioconductor-gpart| image:: https://quay.io/repository/biocontainers/bioconductor-gpart/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gpart

@@ -50,6 +50,7 @@ ucsc-ldhggene
 
 
 .. |downloads_ucsc-ldhggene| image:: https://img.shields.io/conda/dn/bioconda/ucsc-ldhggene.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-ldhggene
    :alt:   (downloads)
 .. |docker_ucsc-ldhggene| image:: https://quay.io/repository/biocontainers/ucsc-ldhggene/status
    :target: https://quay.io/repository/biocontainers/ucsc-ldhggene

@@ -53,6 +53,7 @@ bioconductor-pd.ht.hg.u133.plus.pm
 
 
 .. |downloads_bioconductor-pd.ht.hg.u133.plus.pm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.ht.hg.u133.plus.pm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.ht.hg.u133.plus.pm
    :alt:   (downloads)
 .. |docker_bioconductor-pd.ht.hg.u133.plus.pm| image:: https://quay.io/repository/biocontainers/bioconductor-pd.ht.hg.u133.plus.pm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.ht.hg.u133.plus.pm

@@ -54,6 +54,7 @@ feelnc
 
 
 .. |downloads_feelnc| image:: https://img.shields.io/conda/dn/bioconda/feelnc.svg?style=flat
+   :target: https://anaconda.org/bioconda/feelnc
    :alt:   (downloads)
 .. |docker_feelnc| image:: https://quay.io/repository/biocontainers/feelnc/status
    :target: https://quay.io/repository/biocontainers/feelnc

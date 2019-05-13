@@ -50,6 +50,7 @@ pbcommand
 
 
 .. |downloads_pbcommand| image:: https://img.shields.io/conda/dn/bioconda/pbcommand.svg?style=flat
+   :target: https://anaconda.org/bioconda/pbcommand
    :alt:   (downloads)
 .. |docker_pbcommand| image:: https://quay.io/repository/biocontainers/pbcommand/status
    :target: https://quay.io/repository/biocontainers/pbcommand

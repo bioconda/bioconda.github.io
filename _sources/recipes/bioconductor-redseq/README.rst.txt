@@ -53,6 +53,7 @@ bioconductor-redseq
 
 
 .. |downloads_bioconductor-redseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-redseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-redseq
    :alt:   (downloads)
 .. |docker_bioconductor-redseq| image:: https://quay.io/repository/biocontainers/bioconductor-redseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-redseq

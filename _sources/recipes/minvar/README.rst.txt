@@ -58,6 +58,7 @@ minvar
 
 
 .. |downloads_minvar| image:: https://img.shields.io/conda/dn/bioconda/minvar.svg?style=flat
+   :target: https://anaconda.org/bioconda/minvar
    :alt:   (downloads)
 .. |docker_minvar| image:: https://quay.io/repository/biocontainers/minvar/status
    :target: https://quay.io/repository/biocontainers/minvar

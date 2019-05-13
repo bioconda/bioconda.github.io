@@ -50,6 +50,7 @@ dropletutils-scripts
 
 
 .. |downloads_dropletutils-scripts| image:: https://img.shields.io/conda/dn/bioconda/dropletutils-scripts.svg?style=flat
+   :target: https://anaconda.org/bioconda/dropletutils-scripts
    :alt:   (downloads)
 .. |docker_dropletutils-scripts| image:: https://quay.io/repository/biocontainers/dropletutils-scripts/status
    :target: https://quay.io/repository/biocontainers/dropletutils-scripts

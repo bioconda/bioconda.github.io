@@ -49,6 +49,7 @@ bioconductor-icare
 
 
 .. |downloads_bioconductor-icare| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-icare.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-icare
    :alt:   (downloads)
 .. |docker_bioconductor-icare| image:: https://quay.io/repository/biocontainers/bioconductor-icare/status
    :target: https://quay.io/repository/biocontainers/bioconductor-icare

@@ -58,6 +58,7 @@ bioconductor-netbenchmark
 
 
 .. |downloads_bioconductor-netbenchmark| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-netbenchmark.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-netbenchmark
    :alt:   (downloads)
 .. |docker_bioconductor-netbenchmark| image:: https://quay.io/repository/biocontainers/bioconductor-netbenchmark/status
    :target: https://quay.io/repository/biocontainers/bioconductor-netbenchmark

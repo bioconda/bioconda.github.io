@@ -45,6 +45,7 @@ fastq-join
 
 
 .. |downloads_fastq-join| image:: https://img.shields.io/conda/dn/bioconda/fastq-join.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastq-join
    :alt:   (downloads)
 .. |docker_fastq-join| image:: https://quay.io/repository/biocontainers/fastq-join/status
    :target: https://quay.io/repository/biocontainers/fastq-join

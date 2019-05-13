@@ -62,6 +62,7 @@ ariba
 
 
 .. |downloads_ariba| image:: https://img.shields.io/conda/dn/bioconda/ariba.svg?style=flat
+   :target: https://anaconda.org/bioconda/ariba
    :alt:   (downloads)
 .. |docker_ariba| image:: https://quay.io/repository/biocontainers/ariba/status
    :target: https://quay.io/repository/biocontainers/ariba

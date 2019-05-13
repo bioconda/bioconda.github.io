@@ -49,6 +49,7 @@ bioconductor-gostag
 
 
 .. |downloads_bioconductor-gostag| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gostag.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gostag
    :alt:   (downloads)
 .. |docker_bioconductor-gostag| image:: https://quay.io/repository/biocontainers/bioconductor-gostag/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gostag

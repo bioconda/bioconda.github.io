@@ -46,6 +46,7 @@ ra
 
 
 .. |downloads_ra| image:: https://img.shields.io/conda/dn/bioconda/ra.svg?style=flat
+   :target: https://anaconda.org/bioconda/ra
    :alt:   (downloads)
 .. |docker_ra| image:: https://quay.io/repository/biocontainers/ra/status
    :target: https://quay.io/repository/biocontainers/ra

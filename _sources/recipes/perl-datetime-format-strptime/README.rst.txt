@@ -56,6 +56,7 @@ perl-datetime-format-strptime
 
 
 .. |downloads_perl-datetime-format-strptime| image:: https://img.shields.io/conda/dn/bioconda/perl-datetime-format-strptime.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-datetime-format-strptime
    :alt:   (downloads)
 .. |docker_perl-datetime-format-strptime| image:: https://quay.io/repository/biocontainers/perl-datetime-format-strptime/status
    :target: https://quay.io/repository/biocontainers/perl-datetime-format-strptime

@@ -51,6 +51,7 @@ bioconductor-clippda
 
 
 .. |downloads_bioconductor-clippda| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clippda.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-clippda
    :alt:   (downloads)
 .. |docker_bioconductor-clippda| image:: https://quay.io/repository/biocontainers/bioconductor-clippda/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clippda

@@ -46,6 +46,7 @@ perl-module-extract-use
 
 
 .. |downloads_perl-module-extract-use| image:: https://img.shields.io/conda/dn/bioconda/perl-module-extract-use.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-module-extract-use
    :alt:   (downloads)
 .. |docker_perl-module-extract-use| image:: https://quay.io/repository/biocontainers/perl-module-extract-use/status
    :target: https://quay.io/repository/biocontainers/perl-module-extract-use

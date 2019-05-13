@@ -46,6 +46,7 @@ bioconductor-illumina450probevariants.db
 
 
 .. |downloads_bioconductor-illumina450probevariants.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-illumina450probevariants.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-illumina450probevariants.db
    :alt:   (downloads)
 .. |docker_bioconductor-illumina450probevariants.db| image:: https://quay.io/repository/biocontainers/bioconductor-illumina450probevariants.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-illumina450probevariants.db

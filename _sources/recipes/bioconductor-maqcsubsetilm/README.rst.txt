@@ -48,6 +48,7 @@ bioconductor-maqcsubsetilm
 
 
 .. |downloads_bioconductor-maqcsubsetilm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-maqcsubsetilm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-maqcsubsetilm
    :alt:   (downloads)
 .. |docker_bioconductor-maqcsubsetilm| image:: https://quay.io/repository/biocontainers/bioconductor-maqcsubsetilm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-maqcsubsetilm

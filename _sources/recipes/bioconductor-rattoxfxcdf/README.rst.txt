@@ -47,6 +47,7 @@ bioconductor-rattoxfxcdf
 
 
 .. |downloads_bioconductor-rattoxfxcdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rattoxfxcdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rattoxfxcdf
    :alt:   (downloads)
 .. |docker_bioconductor-rattoxfxcdf| image:: https://quay.io/repository/biocontainers/bioconductor-rattoxfxcdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rattoxfxcdf

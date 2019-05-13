@@ -50,6 +50,7 @@ bioconductor-msmseda
 
 
 .. |downloads_bioconductor-msmseda| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-msmseda.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-msmseda
    :alt:   (downloads)
 .. |docker_bioconductor-msmseda| image:: https://quay.io/repository/biocontainers/bioconductor-msmseda/status
    :target: https://quay.io/repository/biocontainers/bioconductor-msmseda

@@ -46,6 +46,7 @@ bioconductor-gpls
 
 
 .. |downloads_bioconductor-gpls| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gpls.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gpls
    :alt:   (downloads)
 .. |docker_bioconductor-gpls| image:: https://quay.io/repository/biocontainers/bioconductor-gpls/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gpls

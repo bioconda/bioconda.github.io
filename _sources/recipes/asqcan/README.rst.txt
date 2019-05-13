@@ -52,6 +52,7 @@ asqcan
 
 
 .. |downloads_asqcan| image:: https://img.shields.io/conda/dn/bioconda/asqcan.svg?style=flat
+   :target: https://anaconda.org/bioconda/asqcan
    :alt:   (downloads)
 .. |docker_asqcan| image:: https://quay.io/repository/biocontainers/asqcan/status
    :target: https://quay.io/repository/biocontainers/asqcan

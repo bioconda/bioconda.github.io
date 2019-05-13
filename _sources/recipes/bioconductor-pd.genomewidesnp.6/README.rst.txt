@@ -53,6 +53,7 @@ bioconductor-pd.genomewidesnp.6
 
 
 .. |downloads_bioconductor-pd.genomewidesnp.6| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.genomewidesnp.6.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.genomewidesnp.6
    :alt:   (downloads)
 .. |docker_bioconductor-pd.genomewidesnp.6| image:: https://quay.io/repository/biocontainers/bioconductor-pd.genomewidesnp.6/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.genomewidesnp.6

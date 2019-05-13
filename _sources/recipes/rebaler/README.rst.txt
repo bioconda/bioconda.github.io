@@ -48,6 +48,7 @@ rebaler
 
 
 .. |downloads_rebaler| image:: https://img.shields.io/conda/dn/bioconda/rebaler.svg?style=flat
+   :target: https://anaconda.org/bioconda/rebaler
    :alt:   (downloads)
 .. |docker_rebaler| image:: https://quay.io/repository/biocontainers/rebaler/status
    :target: https://quay.io/repository/biocontainers/rebaler

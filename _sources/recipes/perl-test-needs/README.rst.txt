@@ -45,6 +45,7 @@ perl-test-needs
 
 
 .. |downloads_perl-test-needs| image:: https://img.shields.io/conda/dn/bioconda/perl-test-needs.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-needs
    :alt:   (downloads)
 .. |docker_perl-test-needs| image:: https://quay.io/repository/biocontainers/perl-test-needs/status
    :target: https://quay.io/repository/biocontainers/perl-test-needs

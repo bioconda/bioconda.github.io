@@ -54,6 +54,7 @@ bioconductor-trnascanimport
 
 
 .. |downloads_bioconductor-trnascanimport| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-trnascanimport.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-trnascanimport
    :alt:   (downloads)
 .. |docker_bioconductor-trnascanimport| image:: https://quay.io/repository/biocontainers/bioconductor-trnascanimport/status
    :target: https://quay.io/repository/biocontainers/bioconductor-trnascanimport

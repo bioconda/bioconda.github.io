@@ -45,6 +45,7 @@ transtermhp
 
 
 .. |downloads_transtermhp| image:: https://img.shields.io/conda/dn/bioconda/transtermhp.svg?style=flat
+   :target: https://anaconda.org/bioconda/transtermhp
    :alt:   (downloads)
 .. |docker_transtermhp| image:: https://quay.io/repository/biocontainers/transtermhp/status
    :target: https://quay.io/repository/biocontainers/transtermhp

@@ -47,6 +47,7 @@ bioconductor-nugomm1a520177probe
 
 
 .. |downloads_bioconductor-nugomm1a520177probe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-nugomm1a520177probe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-nugomm1a520177probe
    :alt:   (downloads)
 .. |docker_bioconductor-nugomm1a520177probe| image:: https://quay.io/repository/biocontainers/bioconductor-nugomm1a520177probe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-nugomm1a520177probe

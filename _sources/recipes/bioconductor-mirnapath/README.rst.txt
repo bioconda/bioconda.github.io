@@ -46,6 +46,7 @@ bioconductor-mirnapath
 
 
 .. |downloads_bioconductor-mirnapath| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirnapath.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mirnapath
    :alt:   (downloads)
 .. |docker_bioconductor-mirnapath| image:: https://quay.io/repository/biocontainers/bioconductor-mirnapath/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mirnapath

@@ -48,6 +48,7 @@ mashmap
 
 
 .. |downloads_mashmap| image:: https://img.shields.io/conda/dn/bioconda/mashmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/mashmap
    :alt:   (downloads)
 .. |docker_mashmap| image:: https://quay.io/repository/biocontainers/mashmap/status
    :target: https://quay.io/repository/biocontainers/mashmap

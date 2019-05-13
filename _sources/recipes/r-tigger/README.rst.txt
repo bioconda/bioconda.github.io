@@ -58,6 +58,7 @@ r-tigger
 
 
 .. |downloads_r-tigger| image:: https://img.shields.io/conda/dn/bioconda/r-tigger.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-tigger
    :alt:   (downloads)
 .. |docker_r-tigger| image:: https://quay.io/repository/biocontainers/r-tigger/status
    :target: https://quay.io/repository/biocontainers/r-tigger

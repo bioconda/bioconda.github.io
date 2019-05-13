@@ -50,6 +50,7 @@ ucsc-overlapselect
 
 
 .. |downloads_ucsc-overlapselect| image:: https://img.shields.io/conda/dn/bioconda/ucsc-overlapselect.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-overlapselect
    :alt:   (downloads)
 .. |docker_ucsc-overlapselect| image:: https://quay.io/repository/biocontainers/ucsc-overlapselect/status
    :target: https://quay.io/repository/biocontainers/ucsc-overlapselect

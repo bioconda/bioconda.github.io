@@ -50,6 +50,7 @@ ucsc-mafgene
 
 
 .. |downloads_ucsc-mafgene| image:: https://img.shields.io/conda/dn/bioconda/ucsc-mafgene.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-mafgene
    :alt:   (downloads)
 .. |docker_ucsc-mafgene| image:: https://quay.io/repository/biocontainers/ucsc-mafgene/status
    :target: https://quay.io/repository/biocontainers/ucsc-mafgene

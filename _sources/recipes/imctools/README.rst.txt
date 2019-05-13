@@ -52,6 +52,7 @@ imctools
 
 
 .. |downloads_imctools| image:: https://img.shields.io/conda/dn/bioconda/imctools.svg?style=flat
+   :target: https://anaconda.org/bioconda/imctools
    :alt:   (downloads)
 .. |docker_imctools| image:: https://quay.io/repository/biocontainers/imctools/status
    :target: https://quay.io/repository/biocontainers/imctools

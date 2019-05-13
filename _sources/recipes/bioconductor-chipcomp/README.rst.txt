@@ -57,6 +57,7 @@ bioconductor-chipcomp
 
 
 .. |downloads_bioconductor-chipcomp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chipcomp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chipcomp
    :alt:   (downloads)
 .. |docker_bioconductor-chipcomp| image:: https://quay.io/repository/biocontainers/bioconductor-chipcomp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chipcomp

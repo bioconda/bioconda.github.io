@@ -50,6 +50,7 @@ hicup
 
 
 .. |downloads_hicup| image:: https://img.shields.io/conda/dn/bioconda/hicup.svg?style=flat
+   :target: https://anaconda.org/bioconda/hicup
    :alt:   (downloads)
 .. |docker_hicup| image:: https://quay.io/repository/biocontainers/hicup/status
    :target: https://quay.io/repository/biocontainers/hicup

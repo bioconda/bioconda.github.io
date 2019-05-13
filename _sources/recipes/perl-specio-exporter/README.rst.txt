@@ -46,6 +46,7 @@ perl-specio-exporter
 
 
 .. |downloads_perl-specio-exporter| image:: https://img.shields.io/conda/dn/bioconda/perl-specio-exporter.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-specio-exporter
    :alt:   (downloads)
 .. |docker_perl-specio-exporter| image:: https://quay.io/repository/biocontainers/perl-specio-exporter/status
    :target: https://quay.io/repository/biocontainers/perl-specio-exporter

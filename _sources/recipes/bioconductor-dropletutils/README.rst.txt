@@ -58,6 +58,7 @@ bioconductor-dropletutils
 
 
 .. |downloads_bioconductor-dropletutils| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dropletutils.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dropletutils
    :alt:   (downloads)
 .. |docker_bioconductor-dropletutils| image:: https://quay.io/repository/biocontainers/bioconductor-dropletutils/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dropletutils

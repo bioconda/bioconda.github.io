@@ -50,6 +50,7 @@ ucsc-pslstats
 
 
 .. |downloads_ucsc-pslstats| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslstats.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-pslstats
    :alt:   (downloads)
 .. |docker_ucsc-pslstats| image:: https://quay.io/repository/biocontainers/ucsc-pslstats/status
    :target: https://quay.io/repository/biocontainers/ucsc-pslstats

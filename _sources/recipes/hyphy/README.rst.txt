@@ -50,6 +50,7 @@ hyphy
 
 
 .. |downloads_hyphy| image:: https://img.shields.io/conda/dn/bioconda/hyphy.svg?style=flat
+   :target: https://anaconda.org/bioconda/hyphy
    :alt:   (downloads)
 .. |docker_hyphy| image:: https://quay.io/repository/biocontainers/hyphy/status
    :target: https://quay.io/repository/biocontainers/hyphy

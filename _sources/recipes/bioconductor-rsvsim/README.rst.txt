@@ -50,6 +50,7 @@ bioconductor-rsvsim
 
 
 .. |downloads_bioconductor-rsvsim| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rsvsim.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rsvsim
    :alt:   (downloads)
 .. |docker_bioconductor-rsvsim| image:: https://quay.io/repository/biocontainers/bioconductor-rsvsim/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rsvsim

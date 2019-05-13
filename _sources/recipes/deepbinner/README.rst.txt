@@ -51,6 +51,7 @@ deepbinner
 
 
 .. |downloads_deepbinner| image:: https://img.shields.io/conda/dn/bioconda/deepbinner.svg?style=flat
+   :target: https://anaconda.org/bioconda/deepbinner
    :alt:   (downloads)
 .. |docker_deepbinner| image:: https://quay.io/repository/biocontainers/deepbinner/status
    :target: https://quay.io/repository/biocontainers/deepbinner

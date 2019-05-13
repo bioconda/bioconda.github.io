@@ -48,6 +48,7 @@ bioconductor-ngscopy
 
 
 .. |downloads_bioconductor-ngscopy| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ngscopy.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ngscopy
    :alt:   (downloads)
 .. |docker_bioconductor-ngscopy| image:: https://quay.io/repository/biocontainers/bioconductor-ngscopy/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ngscopy

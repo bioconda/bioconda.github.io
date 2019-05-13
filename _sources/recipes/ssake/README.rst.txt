@@ -48,6 +48,7 @@ ssake
 
 
 .. |downloads_ssake| image:: https://img.shields.io/conda/dn/bioconda/ssake.svg?style=flat
+   :target: https://anaconda.org/bioconda/ssake
    :alt:   (downloads)
 .. |docker_ssake| image:: https://quay.io/repository/biocontainers/ssake/status
    :target: https://quay.io/repository/biocontainers/ssake

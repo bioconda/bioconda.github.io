@@ -64,6 +64,7 @@ bioconductor-primirtss
 
 
 .. |downloads_bioconductor-primirtss| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-primirtss.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-primirtss
    :alt:   (downloads)
 .. |docker_bioconductor-primirtss| image:: https://quay.io/repository/biocontainers/bioconductor-primirtss/status
    :target: https://quay.io/repository/biocontainers/bioconductor-primirtss

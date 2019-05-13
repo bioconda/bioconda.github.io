@@ -48,6 +48,7 @@ bioconductor-kegggraph
 
 
 .. |downloads_bioconductor-kegggraph| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-kegggraph.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-kegggraph
    :alt:   (downloads)
 .. |docker_bioconductor-kegggraph| image:: https://quay.io/repository/biocontainers/bioconductor-kegggraph/status
    :target: https://quay.io/repository/biocontainers/bioconductor-kegggraph

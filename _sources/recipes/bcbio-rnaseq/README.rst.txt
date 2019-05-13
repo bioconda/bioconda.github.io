@@ -67,6 +67,7 @@ bcbio-rnaseq
 
 
 .. |downloads_bcbio-rnaseq| image:: https://img.shields.io/conda/dn/bioconda/bcbio-rnaseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bcbio-rnaseq
    :alt:   (downloads)
 .. |docker_bcbio-rnaseq| image:: https://quay.io/repository/biocontainers/bcbio-rnaseq/status
    :target: https://quay.io/repository/biocontainers/bcbio-rnaseq

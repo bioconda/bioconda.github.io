@@ -47,6 +47,7 @@ bioconductor-squadd
 
 
 .. |downloads_bioconductor-squadd| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-squadd.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-squadd
    :alt:   (downloads)
 .. |docker_bioconductor-squadd| image:: https://quay.io/repository/biocontainers/bioconductor-squadd/status
    :target: https://quay.io/repository/biocontainers/bioconductor-squadd

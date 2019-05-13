@@ -47,6 +47,7 @@ pancake
 
 
 .. |downloads_pancake| image:: https://img.shields.io/conda/dn/bioconda/pancake.svg?style=flat
+   :target: https://anaconda.org/bioconda/pancake
    :alt:   (downloads)
 .. |docker_pancake| image:: https://quay.io/repository/biocontainers/pancake/status
    :target: https://quay.io/repository/biocontainers/pancake

@@ -46,6 +46,7 @@ perl-io-all
 
 
 .. |downloads_perl-io-all| image:: https://img.shields.io/conda/dn/bioconda/perl-io-all.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-io-all
    :alt:   (downloads)
 .. |docker_perl-io-all| image:: https://quay.io/repository/biocontainers/perl-io-all/status
    :target: https://quay.io/repository/biocontainers/perl-io-all

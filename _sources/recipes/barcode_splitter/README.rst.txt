@@ -46,6 +46,7 @@ barcode_splitter
 
 
 .. |downloads_barcode_splitter| image:: https://img.shields.io/conda/dn/bioconda/barcode_splitter.svg?style=flat
+   :target: https://anaconda.org/bioconda/barcode_splitter
    :alt:   (downloads)
 .. |docker_barcode_splitter| image:: https://quay.io/repository/biocontainers/barcode_splitter/status
    :target: https://quay.io/repository/biocontainers/barcode_splitter

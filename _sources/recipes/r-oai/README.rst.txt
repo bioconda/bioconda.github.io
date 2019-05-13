@@ -52,6 +52,7 @@ r-oai
 
 
 .. |downloads_r-oai| image:: https://img.shields.io/conda/dn/bioconda/r-oai.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-oai
    :alt:   (downloads)
 .. |docker_r-oai| image:: https://quay.io/repository/biocontainers/r-oai/status
    :target: https://quay.io/repository/biocontainers/r-oai

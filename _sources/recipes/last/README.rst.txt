@@ -52,6 +52,7 @@ last
 
 
 .. |downloads_last| image:: https://img.shields.io/conda/dn/bioconda/last.svg?style=flat
+   :target: https://anaconda.org/bioconda/last
    :alt:   (downloads)
 .. |docker_last| image:: https://quay.io/repository/biocontainers/last/status
    :target: https://quay.io/repository/biocontainers/last

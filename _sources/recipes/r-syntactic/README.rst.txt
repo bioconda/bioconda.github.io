@@ -53,6 +53,7 @@ r-syntactic
 
 
 .. |downloads_r-syntactic| image:: https://img.shields.io/conda/dn/bioconda/r-syntactic.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-syntactic
    :alt:   (downloads)
 .. |docker_r-syntactic| image:: https://quay.io/repository/biocontainers/r-syntactic/status
    :target: https://quay.io/repository/biocontainers/r-syntactic

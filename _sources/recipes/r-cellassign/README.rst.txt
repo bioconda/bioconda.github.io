@@ -50,6 +50,7 @@ r-cellassign
 
 
 .. |downloads_r-cellassign| image:: https://img.shields.io/conda/dn/bioconda/r-cellassign.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-cellassign
    :alt:   (downloads)
 .. |docker_r-cellassign| image:: https://quay.io/repository/biocontainers/r-cellassign/status
    :target: https://quay.io/repository/biocontainers/r-cellassign

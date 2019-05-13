@@ -50,6 +50,7 @@ bioconductor-gatefinder
 
 
 .. |downloads_bioconductor-gatefinder| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gatefinder.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gatefinder
    :alt:   (downloads)
 .. |docker_bioconductor-gatefinder| image:: https://quay.io/repository/biocontainers/bioconductor-gatefinder/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gatefinder

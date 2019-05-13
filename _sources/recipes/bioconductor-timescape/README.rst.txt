@@ -50,6 +50,7 @@ bioconductor-timescape
 
 
 .. |downloads_bioconductor-timescape| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-timescape.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-timescape
    :alt:   (downloads)
 .. |docker_bioconductor-timescape| image:: https://quay.io/repository/biocontainers/bioconductor-timescape/status
    :target: https://quay.io/repository/biocontainers/bioconductor-timescape

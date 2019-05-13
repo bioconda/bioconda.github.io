@@ -51,6 +51,7 @@ bioconductor-openprimerui
 
 
 .. |downloads_bioconductor-openprimerui| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-openprimerui.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-openprimerui
    :alt:   (downloads)
 .. |docker_bioconductor-openprimerui| image:: https://quay.io/repository/biocontainers/bioconductor-openprimerui/status
    :target: https://quay.io/repository/biocontainers/bioconductor-openprimerui

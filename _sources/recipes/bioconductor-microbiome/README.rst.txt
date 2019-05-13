@@ -51,6 +51,7 @@ bioconductor-microbiome
 
 
 .. |downloads_bioconductor-microbiome| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-microbiome.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-microbiome
    :alt:   (downloads)
 .. |docker_bioconductor-microbiome| image:: https://quay.io/repository/biocontainers/bioconductor-microbiome/status
    :target: https://quay.io/repository/biocontainers/bioconductor-microbiome

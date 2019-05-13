@@ -51,6 +51,7 @@ perl-module-load-conditional
 
 
 .. |downloads_perl-module-load-conditional| image:: https://img.shields.io/conda/dn/bioconda/perl-module-load-conditional.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-module-load-conditional
    :alt:   (downloads)
 .. |docker_perl-module-load-conditional| image:: https://quay.io/repository/biocontainers/perl-module-load-conditional/status
    :target: https://quay.io/repository/biocontainers/perl-module-load-conditional

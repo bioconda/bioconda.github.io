@@ -46,6 +46,7 @@ bioconductor-msdata
 
 
 .. |downloads_bioconductor-msdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-msdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-msdata
    :alt:   (downloads)
 .. |docker_bioconductor-msdata| image:: https://quay.io/repository/biocontainers/bioconductor-msdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-msdata

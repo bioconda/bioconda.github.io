@@ -46,6 +46,7 @@ bioconductor-breastcancertransbig
 
 
 .. |downloads_bioconductor-breastcancertransbig| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-breastcancertransbig.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-breastcancertransbig
    :alt:   (downloads)
 .. |docker_bioconductor-breastcancertransbig| image:: https://quay.io/repository/biocontainers/bioconductor-breastcancertransbig/status
    :target: https://quay.io/repository/biocontainers/bioconductor-breastcancertransbig

@@ -53,6 +53,7 @@ gdc-client
 
 
 .. |downloads_gdc-client| image:: https://img.shields.io/conda/dn/bioconda/gdc-client.svg?style=flat
+   :target: https://anaconda.org/bioconda/gdc-client
    :alt:   (downloads)
 .. |docker_gdc-client| image:: https://quay.io/repository/biocontainers/gdc-client/status
    :target: https://quay.io/repository/biocontainers/gdc-client

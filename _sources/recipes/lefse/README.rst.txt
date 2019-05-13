@@ -56,6 +56,7 @@ lefse
 
 
 .. |downloads_lefse| image:: https://img.shields.io/conda/dn/bioconda/lefse.svg?style=flat
+   :target: https://anaconda.org/bioconda/lefse
    :alt:   (downloads)
 .. |docker_lefse| image:: https://quay.io/repository/biocontainers/lefse/status
    :target: https://quay.io/repository/biocontainers/lefse

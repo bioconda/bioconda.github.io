@@ -53,6 +53,7 @@ bioconductor-mygene
 
 
 .. |downloads_bioconductor-mygene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mygene.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mygene
    :alt:   (downloads)
 .. |docker_bioconductor-mygene| image:: https://quay.io/repository/biocontainers/bioconductor-mygene/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mygene

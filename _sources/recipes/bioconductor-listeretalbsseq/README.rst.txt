@@ -47,6 +47,7 @@ bioconductor-listeretalbsseq
 
 
 .. |downloads_bioconductor-listeretalbsseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-listeretalbsseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-listeretalbsseq
    :alt:   (downloads)
 .. |docker_bioconductor-listeretalbsseq| image:: https://quay.io/repository/biocontainers/bioconductor-listeretalbsseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-listeretalbsseq

@@ -49,6 +49,7 @@ phizz
 
 
 .. |downloads_phizz| image:: https://img.shields.io/conda/dn/bioconda/phizz.svg?style=flat
+   :target: https://anaconda.org/bioconda/phizz
    :alt:   (downloads)
 .. |docker_phizz| image:: https://quay.io/repository/biocontainers/phizz/status
    :target: https://quay.io/repository/biocontainers/phizz

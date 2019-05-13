@@ -47,6 +47,7 @@ bioconductor-cancerdata
 
 
 .. |downloads_bioconductor-cancerdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cancerdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cancerdata
    :alt:   (downloads)
 .. |docker_bioconductor-cancerdata| image:: https://quay.io/repository/biocontainers/bioconductor-cancerdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cancerdata

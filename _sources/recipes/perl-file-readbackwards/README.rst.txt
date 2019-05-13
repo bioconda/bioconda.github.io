@@ -45,6 +45,7 @@ perl-file-readbackwards
 
 
 .. |downloads_perl-file-readbackwards| image:: https://img.shields.io/conda/dn/bioconda/perl-file-readbackwards.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-readbackwards
    :alt:   (downloads)
 .. |docker_perl-file-readbackwards| image:: https://quay.io/repository/biocontainers/perl-file-readbackwards/status
    :target: https://quay.io/repository/biocontainers/perl-file-readbackwards

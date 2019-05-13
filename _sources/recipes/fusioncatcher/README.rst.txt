@@ -70,6 +70,7 @@ fusioncatcher
 
 
 .. |downloads_fusioncatcher| image:: https://img.shields.io/conda/dn/bioconda/fusioncatcher.svg?style=flat
+   :target: https://anaconda.org/bioconda/fusioncatcher
    :alt:   (downloads)
 .. |docker_fusioncatcher| image:: https://quay.io/repository/biocontainers/fusioncatcher/status
    :target: https://quay.io/repository/biocontainers/fusioncatcher

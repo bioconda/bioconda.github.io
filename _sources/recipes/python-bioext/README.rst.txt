@@ -53,6 +53,7 @@ python-bioext
 
 
 .. |downloads_python-bioext| image:: https://img.shields.io/conda/dn/bioconda/python-bioext.svg?style=flat
+   :target: https://anaconda.org/bioconda/python-bioext
    :alt:   (downloads)
 .. |docker_python-bioext| image:: https://quay.io/repository/biocontainers/python-bioext/status
    :target: https://quay.io/repository/biocontainers/python-bioext

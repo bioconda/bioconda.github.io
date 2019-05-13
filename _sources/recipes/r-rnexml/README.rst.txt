@@ -57,6 +57,7 @@ r-rnexml
 
 
 .. |downloads_r-rnexml| image:: https://img.shields.io/conda/dn/bioconda/r-rnexml.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-rnexml
    :alt:   (downloads)
 .. |docker_r-rnexml| image:: https://quay.io/repository/biocontainers/r-rnexml/status
    :target: https://quay.io/repository/biocontainers/r-rnexml

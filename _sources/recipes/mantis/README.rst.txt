@@ -48,6 +48,7 @@ mantis
 
 
 .. |downloads_mantis| image:: https://img.shields.io/conda/dn/bioconda/mantis.svg?style=flat
+   :target: https://anaconda.org/bioconda/mantis
    :alt:   (downloads)
 .. |docker_mantis| image:: https://quay.io/repository/biocontainers/mantis/status
    :target: https://quay.io/repository/biocontainers/mantis

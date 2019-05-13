@@ -50,6 +50,7 @@ ucsc-gensub2
 
 
 .. |downloads_ucsc-gensub2| image:: https://img.shields.io/conda/dn/bioconda/ucsc-gensub2.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-gensub2
    :alt:   (downloads)
 .. |docker_ucsc-gensub2| image:: https://quay.io/repository/biocontainers/ucsc-gensub2/status
    :target: https://quay.io/repository/biocontainers/ucsc-gensub2

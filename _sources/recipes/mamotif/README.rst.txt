@@ -47,6 +47,7 @@ mamotif
 
 
 .. |downloads_mamotif| image:: https://img.shields.io/conda/dn/bioconda/mamotif.svg?style=flat
+   :target: https://anaconda.org/bioconda/mamotif
    :alt:   (downloads)
 .. |docker_mamotif| image:: https://quay.io/repository/biocontainers/mamotif/status
    :target: https://quay.io/repository/biocontainers/mamotif

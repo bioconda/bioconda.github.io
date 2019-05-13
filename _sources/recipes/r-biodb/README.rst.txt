@@ -55,6 +55,7 @@ r-biodb
 
 
 .. |downloads_r-biodb| image:: https://img.shields.io/conda/dn/bioconda/r-biodb.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-biodb
    :alt:   (downloads)
 .. |docker_r-biodb| image:: https://quay.io/repository/biocontainers/r-biodb/status
    :target: https://quay.io/repository/biocontainers/r-biodb

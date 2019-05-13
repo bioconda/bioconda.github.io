@@ -45,6 +45,7 @@ nanoblaster
 
 
 .. |downloads_nanoblaster| image:: https://img.shields.io/conda/dn/bioconda/nanoblaster.svg?style=flat
+   :target: https://anaconda.org/bioconda/nanoblaster
    :alt:   (downloads)
 .. |docker_nanoblaster| image:: https://quay.io/repository/biocontainers/nanoblaster/status
    :target: https://quay.io/repository/biocontainers/nanoblaster

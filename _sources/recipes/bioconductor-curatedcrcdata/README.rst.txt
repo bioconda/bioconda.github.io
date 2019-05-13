@@ -48,6 +48,7 @@ bioconductor-curatedcrcdata
 
 
 .. |downloads_bioconductor-curatedcrcdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-curatedcrcdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-curatedcrcdata
    :alt:   (downloads)
 .. |docker_bioconductor-curatedcrcdata| image:: https://quay.io/repository/biocontainers/bioconductor-curatedcrcdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-curatedcrcdata

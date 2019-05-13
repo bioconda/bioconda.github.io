@@ -45,6 +45,7 @@ squizz
 
 
 .. |downloads_squizz| image:: https://img.shields.io/conda/dn/bioconda/squizz.svg?style=flat
+   :target: https://anaconda.org/bioconda/squizz
    :alt:   (downloads)
 .. |docker_squizz| image:: https://quay.io/repository/biocontainers/squizz/status
    :target: https://quay.io/repository/biocontainers/squizz

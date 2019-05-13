@@ -45,6 +45,7 @@ justbackoff
 
 
 .. |downloads_justbackoff| image:: https://img.shields.io/conda/dn/bioconda/justbackoff.svg?style=flat
+   :target: https://anaconda.org/bioconda/justbackoff
    :alt:   (downloads)
 .. |docker_justbackoff| image:: https://quay.io/repository/biocontainers/justbackoff/status
    :target: https://quay.io/repository/biocontainers/justbackoff

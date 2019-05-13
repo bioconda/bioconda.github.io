@@ -46,6 +46,7 @@ kraken-biom
 
 
 .. |downloads_kraken-biom| image:: https://img.shields.io/conda/dn/bioconda/kraken-biom.svg?style=flat
+   :target: https://anaconda.org/bioconda/kraken-biom
    :alt:   (downloads)
 .. |docker_kraken-biom| image:: https://quay.io/repository/biocontainers/kraken-biom/status
    :target: https://quay.io/repository/biocontainers/kraken-biom

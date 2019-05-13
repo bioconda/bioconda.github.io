@@ -52,6 +52,7 @@ midas
 
 
 .. |downloads_midas| image:: https://img.shields.io/conda/dn/bioconda/midas.svg?style=flat
+   :target: https://anaconda.org/bioconda/midas
    :alt:   (downloads)
 .. |docker_midas| image:: https://quay.io/repository/biocontainers/midas/status
    :target: https://quay.io/repository/biocontainers/midas

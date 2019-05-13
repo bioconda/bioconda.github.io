@@ -46,6 +46,7 @@ intervaltree_bio
 
 
 .. |downloads_intervaltree_bio| image:: https://img.shields.io/conda/dn/bioconda/intervaltree_bio.svg?style=flat
+   :target: https://anaconda.org/bioconda/intervaltree_bio
    :alt:   (downloads)
 .. |docker_intervaltree_bio| image:: https://quay.io/repository/biocontainers/intervaltree_bio/status
    :target: https://quay.io/repository/biocontainers/intervaltree_bio

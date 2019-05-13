@@ -48,6 +48,7 @@ cnvetti
 
 
 .. |downloads_cnvetti| image:: https://img.shields.io/conda/dn/bioconda/cnvetti.svg?style=flat
+   :target: https://anaconda.org/bioconda/cnvetti
    :alt:   (downloads)
 .. |docker_cnvetti| image:: https://quay.io/repository/biocontainers/cnvetti/status
    :target: https://quay.io/repository/biocontainers/cnvetti

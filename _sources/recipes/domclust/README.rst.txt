@@ -46,6 +46,7 @@ domclust
 
 
 .. |downloads_domclust| image:: https://img.shields.io/conda/dn/bioconda/domclust.svg?style=flat
+   :target: https://anaconda.org/bioconda/domclust
    :alt:   (downloads)
 .. |docker_domclust| image:: https://quay.io/repository/biocontainers/domclust/status
    :target: https://quay.io/repository/biocontainers/domclust

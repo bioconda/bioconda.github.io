@@ -50,6 +50,7 @@ ucsc-fafrag
 
 
 .. |downloads_ucsc-fafrag| image:: https://img.shields.io/conda/dn/bioconda/ucsc-fafrag.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-fafrag
    :alt:   (downloads)
 .. |docker_ucsc-fafrag| image:: https://quay.io/repository/biocontainers/ucsc-fafrag/status
    :target: https://quay.io/repository/biocontainers/ucsc-fafrag

@@ -49,6 +49,7 @@ biopet-validatevcf
 
 
 .. |downloads_biopet-validatevcf| image:: https://img.shields.io/conda/dn/bioconda/biopet-validatevcf.svg?style=flat
+   :target: https://anaconda.org/bioconda/biopet-validatevcf
    :alt:   (downloads)
 .. |docker_biopet-validatevcf| image:: https://quay.io/repository/biocontainers/biopet-validatevcf/status
    :target: https://quay.io/repository/biocontainers/biopet-validatevcf

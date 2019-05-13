@@ -49,6 +49,7 @@ repenrich
 
 
 .. |downloads_repenrich| image:: https://img.shields.io/conda/dn/bioconda/repenrich.svg?style=flat
+   :target: https://anaconda.org/bioconda/repenrich
    :alt:   (downloads)
 .. |docker_repenrich| image:: https://quay.io/repository/biocontainers/repenrich/status
    :target: https://quay.io/repository/biocontainers/repenrich

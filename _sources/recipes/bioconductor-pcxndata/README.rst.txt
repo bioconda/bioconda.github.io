@@ -46,6 +46,7 @@ bioconductor-pcxndata
 
 
 .. |downloads_bioconductor-pcxndata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pcxndata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pcxndata
    :alt:   (downloads)
 .. |docker_bioconductor-pcxndata| image:: https://quay.io/repository/biocontainers/bioconductor-pcxndata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pcxndata

@@ -48,6 +48,7 @@ bwapy
 
 
 .. |downloads_bwapy| image:: https://img.shields.io/conda/dn/bioconda/bwapy.svg?style=flat
+   :target: https://anaconda.org/bioconda/bwapy
    :alt:   (downloads)
 .. |docker_bwapy| image:: https://quay.io/repository/biocontainers/bwapy/status
    :target: https://quay.io/repository/biocontainers/bwapy

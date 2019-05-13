@@ -55,6 +55,7 @@ peddy
 
 
 .. |downloads_peddy| image:: https://img.shields.io/conda/dn/bioconda/peddy.svg?style=flat
+   :target: https://anaconda.org/bioconda/peddy
    :alt:   (downloads)
 .. |docker_peddy| image:: https://quay.io/repository/biocontainers/peddy/status
    :target: https://quay.io/repository/biocontainers/peddy

@@ -57,6 +57,7 @@ r-rgbif
 
 
 .. |downloads_r-rgbif| image:: https://img.shields.io/conda/dn/bioconda/r-rgbif.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-rgbif
    :alt:   (downloads)
 .. |docker_r-rgbif| image:: https://quay.io/repository/biocontainers/r-rgbif/status
    :target: https://quay.io/repository/biocontainers/r-rgbif

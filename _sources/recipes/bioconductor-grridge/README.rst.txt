@@ -51,6 +51,7 @@ bioconductor-grridge
 
 
 .. |downloads_bioconductor-grridge| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-grridge.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-grridge
    :alt:   (downloads)
 .. |docker_bioconductor-grridge| image:: https://quay.io/repository/biocontainers/bioconductor-grridge/status
    :target: https://quay.io/repository/biocontainers/bioconductor-grridge

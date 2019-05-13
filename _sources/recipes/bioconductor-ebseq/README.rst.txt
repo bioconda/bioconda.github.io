@@ -49,6 +49,7 @@ bioconductor-ebseq
 
 
 .. |downloads_bioconductor-ebseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ebseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ebseq
    :alt:   (downloads)
 .. |docker_bioconductor-ebseq| image:: https://quay.io/repository/biocontainers/bioconductor-ebseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ebseq

@@ -56,6 +56,7 @@ bioconductor-rtn
 
 
 .. |downloads_bioconductor-rtn| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtn.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rtn
    :alt:   (downloads)
 .. |docker_bioconductor-rtn| image:: https://quay.io/repository/biocontainers/bioconductor-rtn/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtn

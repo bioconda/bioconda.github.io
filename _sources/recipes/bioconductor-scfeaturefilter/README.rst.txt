@@ -50,6 +50,7 @@ bioconductor-scfeaturefilter
 
 
 .. |downloads_bioconductor-scfeaturefilter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scfeaturefilter.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-scfeaturefilter
    :alt:   (downloads)
 .. |docker_bioconductor-scfeaturefilter| image:: https://quay.io/repository/biocontainers/bioconductor-scfeaturefilter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-scfeaturefilter

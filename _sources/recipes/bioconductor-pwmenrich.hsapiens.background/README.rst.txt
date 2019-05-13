@@ -47,6 +47,7 @@ bioconductor-pwmenrich.hsapiens.background
 
 
 .. |downloads_bioconductor-pwmenrich.hsapiens.background| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pwmenrich.hsapiens.background.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pwmenrich.hsapiens.background
    :alt:   (downloads)
 .. |docker_bioconductor-pwmenrich.hsapiens.background| image:: https://quay.io/repository/biocontainers/bioconductor-pwmenrich.hsapiens.background/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pwmenrich.hsapiens.background

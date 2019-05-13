@@ -47,6 +47,7 @@ perl-excel-writer-xlsx
 
 
 .. |downloads_perl-excel-writer-xlsx| image:: https://img.shields.io/conda/dn/bioconda/perl-excel-writer-xlsx.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-excel-writer-xlsx
    :alt:   (downloads)
 .. |docker_perl-excel-writer-xlsx| image:: https://quay.io/repository/biocontainers/perl-excel-writer-xlsx/status
    :target: https://quay.io/repository/biocontainers/perl-excel-writer-xlsx

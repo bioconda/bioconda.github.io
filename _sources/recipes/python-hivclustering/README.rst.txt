@@ -48,6 +48,7 @@ python-hivclustering
 
 
 .. |downloads_python-hivclustering| image:: https://img.shields.io/conda/dn/bioconda/python-hivclustering.svg?style=flat
+   :target: https://anaconda.org/bioconda/python-hivclustering
    :alt:   (downloads)
 .. |docker_python-hivclustering| image:: https://quay.io/repository/biocontainers/python-hivclustering/status
    :target: https://quay.io/repository/biocontainers/python-hivclustering

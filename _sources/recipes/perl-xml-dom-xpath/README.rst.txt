@@ -47,6 +47,7 @@ perl-xml-dom-xpath
 
 
 .. |downloads_perl-xml-dom-xpath| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-dom-xpath.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-xml-dom-xpath
    :alt:   (downloads)
 .. |docker_perl-xml-dom-xpath| image:: https://quay.io/repository/biocontainers/perl-xml-dom-xpath/status
    :target: https://quay.io/repository/biocontainers/perl-xml-dom-xpath

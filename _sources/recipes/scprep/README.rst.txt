@@ -50,6 +50,7 @@ scprep
 
 
 .. |downloads_scprep| image:: https://img.shields.io/conda/dn/bioconda/scprep.svg?style=flat
+   :target: https://anaconda.org/bioconda/scprep
    :alt:   (downloads)
 .. |docker_scprep| image:: https://quay.io/repository/biocontainers/scprep/status
    :target: https://quay.io/repository/biocontainers/scprep

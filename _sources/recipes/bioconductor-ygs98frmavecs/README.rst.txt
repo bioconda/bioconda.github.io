@@ -46,6 +46,7 @@ bioconductor-ygs98frmavecs
 
 
 .. |downloads_bioconductor-ygs98frmavecs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ygs98frmavecs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ygs98frmavecs
    :alt:   (downloads)
 .. |docker_bioconductor-ygs98frmavecs| image:: https://quay.io/repository/biocontainers/bioconductor-ygs98frmavecs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ygs98frmavecs

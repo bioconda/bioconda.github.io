@@ -46,6 +46,7 @@ bioconductor-mitoodedata
 
 
 .. |downloads_bioconductor-mitoodedata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mitoodedata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mitoodedata
    :alt:   (downloads)
 .. |docker_bioconductor-mitoodedata| image:: https://quay.io/repository/biocontainers/bioconductor-mitoodedata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mitoodedata

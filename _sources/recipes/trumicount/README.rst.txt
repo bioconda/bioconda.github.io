@@ -50,6 +50,7 @@ trumicount
 
 
 .. |downloads_trumicount| image:: https://img.shields.io/conda/dn/bioconda/trumicount.svg?style=flat
+   :target: https://anaconda.org/bioconda/trumicount
    :alt:   (downloads)
 .. |docker_trumicount| image:: https://quay.io/repository/biocontainers/trumicount/status
    :target: https://quay.io/repository/biocontainers/trumicount

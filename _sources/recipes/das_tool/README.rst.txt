@@ -63,6 +63,7 @@ das_tool
 
 
 .. |downloads_das_tool| image:: https://img.shields.io/conda/dn/bioconda/das_tool.svg?style=flat
+   :target: https://anaconda.org/bioconda/das_tool
    :alt:   (downloads)
 .. |docker_das_tool| image:: https://quay.io/repository/biocontainers/das_tool/status
    :target: https://quay.io/repository/biocontainers/das_tool

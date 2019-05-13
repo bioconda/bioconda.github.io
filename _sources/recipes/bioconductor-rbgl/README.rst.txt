@@ -49,6 +49,7 @@ bioconductor-rbgl
 
 
 .. |downloads_bioconductor-rbgl| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rbgl.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rbgl
    :alt:   (downloads)
 .. |docker_bioconductor-rbgl| image:: https://quay.io/repository/biocontainers/bioconductor-rbgl/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rbgl

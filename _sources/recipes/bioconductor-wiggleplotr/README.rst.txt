@@ -55,6 +55,7 @@ bioconductor-wiggleplotr
 
 
 .. |downloads_bioconductor-wiggleplotr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-wiggleplotr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-wiggleplotr
    :alt:   (downloads)
 .. |docker_bioconductor-wiggleplotr| image:: https://quay.io/repository/biocontainers/bioconductor-wiggleplotr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-wiggleplotr

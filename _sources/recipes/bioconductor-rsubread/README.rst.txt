@@ -47,6 +47,7 @@ bioconductor-rsubread
 
 
 .. |downloads_bioconductor-rsubread| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rsubread.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rsubread
    :alt:   (downloads)
 .. |docker_bioconductor-rsubread| image:: https://quay.io/repository/biocontainers/bioconductor-rsubread/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rsubread

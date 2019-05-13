@@ -50,6 +50,7 @@ ucsc-mafsinregion
 
 
 .. |downloads_ucsc-mafsinregion| image:: https://img.shields.io/conda/dn/bioconda/ucsc-mafsinregion.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-mafsinregion
    :alt:   (downloads)
 .. |docker_ucsc-mafsinregion| image:: https://quay.io/repository/biocontainers/ucsc-mafsinregion/status
    :target: https://quay.io/repository/biocontainers/ucsc-mafsinregion

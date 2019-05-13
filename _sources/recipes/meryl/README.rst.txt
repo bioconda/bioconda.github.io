@@ -45,6 +45,7 @@ meryl
 
 
 .. |downloads_meryl| image:: https://img.shields.io/conda/dn/bioconda/meryl.svg?style=flat
+   :target: https://anaconda.org/bioconda/meryl
    :alt:   (downloads)
 .. |docker_meryl| image:: https://quay.io/repository/biocontainers/meryl/status
    :target: https://quay.io/repository/biocontainers/meryl

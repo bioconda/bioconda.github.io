@@ -49,6 +49,7 @@ nudup
 
 
 .. |downloads_nudup| image:: https://img.shields.io/conda/dn/bioconda/nudup.svg?style=flat
+   :target: https://anaconda.org/bioconda/nudup
    :alt:   (downloads)
 .. |docker_nudup| image:: https://quay.io/repository/biocontainers/nudup/status
    :target: https://quay.io/repository/biocontainers/nudup

@@ -51,6 +51,7 @@ spectrassembler
 
 
 .. |downloads_spectrassembler| image:: https://img.shields.io/conda/dn/bioconda/spectrassembler.svg?style=flat
+   :target: https://anaconda.org/bioconda/spectrassembler
    :alt:   (downloads)
 .. |docker_spectrassembler| image:: https://quay.io/repository/biocontainers/spectrassembler/status
    :target: https://quay.io/repository/biocontainers/spectrassembler

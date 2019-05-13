@@ -50,6 +50,7 @@ ucsc-fastqtofa
 
 
 .. |downloads_ucsc-fastqtofa| image:: https://img.shields.io/conda/dn/bioconda/ucsc-fastqtofa.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-fastqtofa
    :alt:   (downloads)
 .. |docker_ucsc-fastqtofa| image:: https://quay.io/repository/biocontainers/ucsc-fastqtofa/status
    :target: https://quay.io/repository/biocontainers/ucsc-fastqtofa

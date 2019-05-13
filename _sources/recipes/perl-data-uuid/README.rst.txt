@@ -48,6 +48,7 @@ perl-data-uuid
 
 
 .. |downloads_perl-data-uuid| image:: https://img.shields.io/conda/dn/bioconda/perl-data-uuid.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-data-uuid
    :alt:   (downloads)
 .. |docker_perl-data-uuid| image:: https://quay.io/repository/biocontainers/perl-data-uuid/status
    :target: https://quay.io/repository/biocontainers/perl-data-uuid

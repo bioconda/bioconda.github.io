@@ -60,6 +60,7 @@ bioconductor-basecallqc
 
 
 .. |downloads_bioconductor-basecallqc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-basecallqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-basecallqc
    :alt:   (downloads)
 .. |docker_bioconductor-basecallqc| image:: https://quay.io/repository/biocontainers/bioconductor-basecallqc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-basecallqc

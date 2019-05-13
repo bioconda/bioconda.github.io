@@ -47,6 +47,7 @@ bioconductor-hgfocusprobe
 
 
 .. |downloads_bioconductor-hgfocusprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgfocusprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hgfocusprobe
    :alt:   (downloads)
 .. |docker_bioconductor-hgfocusprobe| image:: https://quay.io/repository/biocontainers/bioconductor-hgfocusprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hgfocusprobe

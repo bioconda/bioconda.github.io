@@ -45,6 +45,7 @@ miranda
 
 
 .. |downloads_miranda| image:: https://img.shields.io/conda/dn/bioconda/miranda.svg?style=flat
+   :target: https://anaconda.org/bioconda/miranda
    :alt:   (downloads)
 .. |docker_miranda| image:: https://quay.io/repository/biocontainers/miranda/status
    :target: https://quay.io/repository/biocontainers/miranda

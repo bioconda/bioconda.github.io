@@ -62,6 +62,7 @@ scanpy
 
 
 .. |downloads_scanpy| image:: https://img.shields.io/conda/dn/bioconda/scanpy.svg?style=flat
+   :target: https://anaconda.org/bioconda/scanpy
    :alt:   (downloads)
 .. |docker_scanpy| image:: https://quay.io/repository/biocontainers/scanpy/status
    :target: https://quay.io/repository/biocontainers/scanpy

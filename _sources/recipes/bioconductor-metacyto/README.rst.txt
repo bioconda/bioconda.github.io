@@ -52,6 +52,7 @@ bioconductor-metacyto
 
 
 .. |downloads_bioconductor-metacyto| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metacyto.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-metacyto
    :alt:   (downloads)
 .. |docker_bioconductor-metacyto| image:: https://quay.io/repository/biocontainers/bioconductor-metacyto/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metacyto

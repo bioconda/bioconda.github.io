@@ -45,6 +45,7 @@ perl-filter-simple
 
 
 .. |downloads_perl-filter-simple| image:: https://img.shields.io/conda/dn/bioconda/perl-filter-simple.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-filter-simple
    :alt:   (downloads)
 .. |docker_perl-filter-simple| image:: https://quay.io/repository/biocontainers/perl-filter-simple/status
    :target: https://quay.io/repository/biocontainers/perl-filter-simple

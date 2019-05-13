@@ -50,6 +50,7 @@ ucsc-fasomerecords
 
 
 .. |downloads_ucsc-fasomerecords| image:: https://img.shields.io/conda/dn/bioconda/ucsc-fasomerecords.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-fasomerecords
    :alt:   (downloads)
 .. |docker_ucsc-fasomerecords| image:: https://quay.io/repository/biocontainers/ucsc-fasomerecords/status
    :target: https://quay.io/repository/biocontainers/ucsc-fasomerecords

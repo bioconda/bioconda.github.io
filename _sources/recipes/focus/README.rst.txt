@@ -50,6 +50,7 @@ focus
 
 
 .. |downloads_focus| image:: https://img.shields.io/conda/dn/bioconda/focus.svg?style=flat
+   :target: https://anaconda.org/bioconda/focus
    :alt:   (downloads)
 .. |docker_focus| image:: https://quay.io/repository/biocontainers/focus/status
    :target: https://quay.io/repository/biocontainers/focus

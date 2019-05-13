@@ -63,6 +63,7 @@ bioconductor-glmsparsenet
 
 
 .. |downloads_bioconductor-glmsparsenet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-glmsparsenet.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-glmsparsenet
    :alt:   (downloads)
 .. |docker_bioconductor-glmsparsenet| image:: https://quay.io/repository/biocontainers/bioconductor-glmsparsenet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-glmsparsenet

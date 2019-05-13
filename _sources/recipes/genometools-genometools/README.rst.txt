@@ -57,6 +57,7 @@ genometools-genometools
 
 
 .. |downloads_genometools-genometools| image:: https://img.shields.io/conda/dn/bioconda/genometools-genometools.svg?style=flat
+   :target: https://anaconda.org/bioconda/genometools-genometools
    :alt:   (downloads)
 .. |docker_genometools-genometools| image:: https://quay.io/repository/biocontainers/genometools-genometools/status
    :target: https://quay.io/repository/biocontainers/genometools-genometools

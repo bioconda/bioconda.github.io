@@ -48,6 +48,7 @@ mglex
 
 
 .. |downloads_mglex| image:: https://img.shields.io/conda/dn/bioconda/mglex.svg?style=flat
+   :target: https://anaconda.org/bioconda/mglex
    :alt:   (downloads)
 .. |docker_mglex| image:: https://quay.io/repository/biocontainers/mglex/status
    :target: https://quay.io/repository/biocontainers/mglex

@@ -48,6 +48,7 @@ bioconductor-pedbarrayv10.db
 
 
 .. |downloads_bioconductor-pedbarrayv10.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pedbarrayv10.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pedbarrayv10.db
    :alt:   (downloads)
 .. |docker_bioconductor-pedbarrayv10.db| image:: https://quay.io/repository/biocontainers/bioconductor-pedbarrayv10.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pedbarrayv10.db

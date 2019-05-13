@@ -46,6 +46,7 @@ pauda
 
 
 .. |downloads_pauda| image:: https://img.shields.io/conda/dn/bioconda/pauda.svg?style=flat
+   :target: https://anaconda.org/bioconda/pauda
    :alt:   (downloads)
 .. |docker_pauda| image:: https://quay.io/repository/biocontainers/pauda/status
    :target: https://quay.io/repository/biocontainers/pauda

@@ -44,6 +44,7 @@ bioconductor-iclusterplus
 
 
 .. |downloads_bioconductor-iclusterplus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-iclusterplus.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-iclusterplus
    :alt:   (downloads)
 .. |docker_bioconductor-iclusterplus| image:: https://quay.io/repository/biocontainers/bioconductor-iclusterplus/status
    :target: https://quay.io/repository/biocontainers/bioconductor-iclusterplus

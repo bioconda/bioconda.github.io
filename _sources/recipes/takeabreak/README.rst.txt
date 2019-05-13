@@ -48,6 +48,7 @@ takeabreak
 
 
 .. |downloads_takeabreak| image:: https://img.shields.io/conda/dn/bioconda/takeabreak.svg?style=flat
+   :target: https://anaconda.org/bioconda/takeabreak
    :alt:   (downloads)
 .. |docker_takeabreak| image:: https://quay.io/repository/biocontainers/takeabreak/status
    :target: https://quay.io/repository/biocontainers/takeabreak

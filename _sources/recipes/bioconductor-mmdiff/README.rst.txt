@@ -51,6 +51,7 @@ bioconductor-mmdiff
 
 
 .. |downloads_bioconductor-mmdiff| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mmdiff.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mmdiff
    :alt:   (downloads)
 .. |docker_bioconductor-mmdiff| image:: https://quay.io/repository/biocontainers/bioconductor-mmdiff/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mmdiff

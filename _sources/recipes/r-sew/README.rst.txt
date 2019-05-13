@@ -57,6 +57,7 @@ r-sew
 
 
 .. |downloads_r-sew| image:: https://img.shields.io/conda/dn/bioconda/r-sew.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-sew
    :alt:   (downloads)
 .. |docker_r-sew| image:: https://quay.io/repository/biocontainers/r-sew/status
    :target: https://quay.io/repository/biocontainers/r-sew

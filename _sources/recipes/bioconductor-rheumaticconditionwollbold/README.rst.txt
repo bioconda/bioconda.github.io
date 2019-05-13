@@ -46,6 +46,7 @@ bioconductor-rheumaticconditionwollbold
 
 
 .. |downloads_bioconductor-rheumaticconditionwollbold| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rheumaticconditionwollbold.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rheumaticconditionwollbold
    :alt:   (downloads)
 .. |docker_bioconductor-rheumaticconditionwollbold| image:: https://quay.io/repository/biocontainers/bioconductor-rheumaticconditionwollbold/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rheumaticconditionwollbold

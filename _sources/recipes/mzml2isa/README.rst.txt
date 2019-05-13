@@ -48,6 +48,7 @@ mzml2isa
 
 
 .. |downloads_mzml2isa| image:: https://img.shields.io/conda/dn/bioconda/mzml2isa.svg?style=flat
+   :target: https://anaconda.org/bioconda/mzml2isa
    :alt:   (downloads)
 .. |docker_mzml2isa| image:: https://quay.io/repository/biocontainers/mzml2isa/status
    :target: https://quay.io/repository/biocontainers/mzml2isa

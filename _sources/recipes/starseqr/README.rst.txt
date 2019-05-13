@@ -55,6 +55,7 @@ starseqr
 
 
 .. |downloads_starseqr| image:: https://img.shields.io/conda/dn/bioconda/starseqr.svg?style=flat
+   :target: https://anaconda.org/bioconda/starseqr
    :alt:   (downloads)
 .. |docker_starseqr| image:: https://quay.io/repository/biocontainers/starseqr/status
    :target: https://quay.io/repository/biocontainers/starseqr

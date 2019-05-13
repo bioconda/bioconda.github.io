@@ -47,6 +47,7 @@ hmftools-amber
 
 
 .. |downloads_hmftools-amber| image:: https://img.shields.io/conda/dn/bioconda/hmftools-amber.svg?style=flat
+   :target: https://anaconda.org/bioconda/hmftools-amber
    :alt:   (downloads)
 .. |docker_hmftools-amber| image:: https://quay.io/repository/biocontainers/hmftools-amber/status
    :target: https://quay.io/repository/biocontainers/hmftools-amber

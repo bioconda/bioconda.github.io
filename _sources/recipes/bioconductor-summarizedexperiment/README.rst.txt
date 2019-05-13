@@ -54,6 +54,7 @@ bioconductor-summarizedexperiment
 
 
 .. |downloads_bioconductor-summarizedexperiment| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-summarizedexperiment.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-summarizedexperiment
    :alt:   (downloads)
 .. |docker_bioconductor-summarizedexperiment| image:: https://quay.io/repository/biocontainers/bioconductor-summarizedexperiment/status
    :target: https://quay.io/repository/biocontainers/bioconductor-summarizedexperiment

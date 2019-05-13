@@ -47,6 +47,7 @@ perl-bio-db-sam
 
 
 .. |downloads_perl-bio-db-sam| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-db-sam.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bio-db-sam
    :alt:   (downloads)
 .. |docker_perl-bio-db-sam| image:: https://quay.io/repository/biocontainers/perl-bio-db-sam/status
    :target: https://quay.io/repository/biocontainers/perl-bio-db-sam

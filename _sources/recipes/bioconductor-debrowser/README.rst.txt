@@ -44,6 +44,7 @@ bioconductor-debrowser
 
 
 .. |downloads_bioconductor-debrowser| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-debrowser.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-debrowser
    :alt:   (downloads)
 .. |docker_bioconductor-debrowser| image:: https://quay.io/repository/biocontainers/bioconductor-debrowser/status
    :target: https://quay.io/repository/biocontainers/bioconductor-debrowser

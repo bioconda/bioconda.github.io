@@ -47,6 +47,7 @@ pathwaymatcher
 
 
 .. |downloads_pathwaymatcher| image:: https://img.shields.io/conda/dn/bioconda/pathwaymatcher.svg?style=flat
+   :target: https://anaconda.org/bioconda/pathwaymatcher
    :alt:   (downloads)
 .. |docker_pathwaymatcher| image:: https://quay.io/repository/biocontainers/pathwaymatcher/status
    :target: https://quay.io/repository/biocontainers/pathwaymatcher

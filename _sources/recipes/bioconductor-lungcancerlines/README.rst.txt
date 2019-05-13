@@ -47,6 +47,7 @@ bioconductor-lungcancerlines
 
 
 .. |downloads_bioconductor-lungcancerlines| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lungcancerlines.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lungcancerlines
    :alt:   (downloads)
 .. |docker_bioconductor-lungcancerlines| image:: https://quay.io/repository/biocontainers/bioconductor-lungcancerlines/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lungcancerlines

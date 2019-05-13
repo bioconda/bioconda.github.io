@@ -47,6 +47,7 @@ perl-term-detect-software
 
 
 .. |downloads_perl-term-detect-software| image:: https://img.shields.io/conda/dn/bioconda/perl-term-detect-software.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-term-detect-software
    :alt:   (downloads)
 .. |docker_perl-term-detect-software| image:: https://quay.io/repository/biocontainers/perl-term-detect-software/status
    :target: https://quay.io/repository/biocontainers/perl-term-detect-software

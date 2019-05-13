@@ -44,6 +44,7 @@ prinseq
 
 
 .. |downloads_prinseq| image:: https://img.shields.io/conda/dn/bioconda/prinseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/prinseq
    :alt:   (downloads)
 .. |docker_prinseq| image:: https://quay.io/repository/biocontainers/prinseq/status
    :target: https://quay.io/repository/biocontainers/prinseq

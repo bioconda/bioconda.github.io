@@ -45,6 +45,7 @@ bioconductor-matchbox
 
 
 .. |downloads_bioconductor-matchbox| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-matchbox.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-matchbox
    :alt:   (downloads)
 .. |docker_bioconductor-matchbox| image:: https://quay.io/repository/biocontainers/bioconductor-matchbox/status
    :target: https://quay.io/repository/biocontainers/bioconductor-matchbox

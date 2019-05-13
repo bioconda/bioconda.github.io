@@ -45,6 +45,7 @@ perl-warnings-register
 
 
 .. |downloads_perl-warnings-register| image:: https://img.shields.io/conda/dn/bioconda/perl-warnings-register.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-warnings-register
    :alt:   (downloads)
 .. |docker_perl-warnings-register| image:: https://quay.io/repository/biocontainers/perl-warnings-register/status
    :target: https://quay.io/repository/biocontainers/perl-warnings-register

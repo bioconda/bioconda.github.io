@@ -47,6 +47,7 @@ bioconductor-beta7
 
 
 .. |downloads_bioconductor-beta7| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-beta7.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-beta7
    :alt:   (downloads)
 .. |docker_bioconductor-beta7| image:: https://quay.io/repository/biocontainers/bioconductor-beta7/status
    :target: https://quay.io/repository/biocontainers/bioconductor-beta7

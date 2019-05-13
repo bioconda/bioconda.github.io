@@ -55,6 +55,7 @@ epic2
 
 
 .. |downloads_epic2| image:: https://img.shields.io/conda/dn/bioconda/epic2.svg?style=flat
+   :target: https://anaconda.org/bioconda/epic2
    :alt:   (downloads)
 .. |docker_epic2| image:: https://quay.io/repository/biocontainers/epic2/status
    :target: https://quay.io/repository/biocontainers/epic2

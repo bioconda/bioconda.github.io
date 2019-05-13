@@ -57,6 +57,7 @@ bioconductor-ncdfflow
 
 
 .. |downloads_bioconductor-ncdfflow| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ncdfflow.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ncdfflow
    :alt:   (downloads)
 .. |docker_bioconductor-ncdfflow| image:: https://quay.io/repository/biocontainers/bioconductor-ncdfflow/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ncdfflow

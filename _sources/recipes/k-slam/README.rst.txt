@@ -46,6 +46,7 @@ k-slam
 
 
 .. |downloads_k-slam| image:: https://img.shields.io/conda/dn/bioconda/k-slam.svg?style=flat
+   :target: https://anaconda.org/bioconda/k-slam
    :alt:   (downloads)
 .. |docker_k-slam| image:: https://quay.io/repository/biocontainers/k-slam/status
    :target: https://quay.io/repository/biocontainers/k-slam

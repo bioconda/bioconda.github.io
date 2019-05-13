@@ -91,6 +91,7 @@ r-msqrob
 
 
 .. |downloads_r-msqrob| image:: https://img.shields.io/conda/dn/bioconda/r-msqrob.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-msqrob
    :alt:   (downloads)
 .. |docker_r-msqrob| image:: https://quay.io/repository/biocontainers/r-msqrob/status
    :target: https://quay.io/repository/biocontainers/r-msqrob

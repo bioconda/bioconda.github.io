@@ -53,6 +53,7 @@ pysam
 
 
 .. |downloads_pysam| image:: https://img.shields.io/conda/dn/bioconda/pysam.svg?style=flat
+   :target: https://anaconda.org/bioconda/pysam
    :alt:   (downloads)
 .. |docker_pysam| image:: https://quay.io/repository/biocontainers/pysam/status
    :target: https://quay.io/repository/biocontainers/pysam

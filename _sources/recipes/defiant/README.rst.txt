@@ -46,6 +46,7 @@ defiant
 
 
 .. |downloads_defiant| image:: https://img.shields.io/conda/dn/bioconda/defiant.svg?style=flat
+   :target: https://anaconda.org/bioconda/defiant
    :alt:   (downloads)
 .. |docker_defiant| image:: https://quay.io/repository/biocontainers/defiant/status
    :target: https://quay.io/repository/biocontainers/defiant

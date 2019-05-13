@@ -62,6 +62,7 @@ snippy
 
 
 .. |downloads_snippy| image:: https://img.shields.io/conda/dn/bioconda/snippy.svg?style=flat
+   :target: https://anaconda.org/bioconda/snippy
    :alt:   (downloads)
 .. |docker_snippy| image:: https://quay.io/repository/biocontainers/snippy/status
    :target: https://quay.io/repository/biocontainers/snippy

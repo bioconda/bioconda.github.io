@@ -49,6 +49,7 @@ idr
 
 
 .. |downloads_idr| image:: https://img.shields.io/conda/dn/bioconda/idr.svg?style=flat
+   :target: https://anaconda.org/bioconda/idr
    :alt:   (downloads)
 .. |docker_idr| image:: https://quay.io/repository/biocontainers/idr/status
    :target: https://quay.io/repository/biocontainers/idr

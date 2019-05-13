@@ -45,6 +45,7 @@ glimmer
 
 
 .. |downloads_glimmer| image:: https://img.shields.io/conda/dn/bioconda/glimmer.svg?style=flat
+   :target: https://anaconda.org/bioconda/glimmer
    :alt:   (downloads)
 .. |docker_glimmer| image:: https://quay.io/repository/biocontainers/glimmer/status
    :target: https://quay.io/repository/biocontainers/glimmer

@@ -51,6 +51,7 @@ bioconductor-igvr
 
 
 .. |downloads_bioconductor-igvr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-igvr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-igvr
    :alt:   (downloads)
 .. |docker_bioconductor-igvr| image:: https://quay.io/repository/biocontainers/bioconductor-igvr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-igvr

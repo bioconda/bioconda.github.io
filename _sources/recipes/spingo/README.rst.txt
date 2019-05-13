@@ -46,6 +46,7 @@ spingo
 
 
 .. |downloads_spingo| image:: https://img.shields.io/conda/dn/bioconda/spingo.svg?style=flat
+   :target: https://anaconda.org/bioconda/spingo
    :alt:   (downloads)
 .. |docker_spingo| image:: https://quay.io/repository/biocontainers/spingo/status
    :target: https://quay.io/repository/biocontainers/spingo

@@ -47,6 +47,7 @@ rust-ncbitaxonomy
 
 
 .. |downloads_rust-ncbitaxonomy| image:: https://img.shields.io/conda/dn/bioconda/rust-ncbitaxonomy.svg?style=flat
+   :target: https://anaconda.org/bioconda/rust-ncbitaxonomy
    :alt:   (downloads)
 .. |docker_rust-ncbitaxonomy| image:: https://quay.io/repository/biocontainers/rust-ncbitaxonomy/status
    :target: https://quay.io/repository/biocontainers/rust-ncbitaxonomy

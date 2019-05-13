@@ -50,6 +50,7 @@ transcomb
 
 
 .. |downloads_transcomb| image:: https://img.shields.io/conda/dn/bioconda/transcomb.svg?style=flat
+   :target: https://anaconda.org/bioconda/transcomb
    :alt:   (downloads)
 .. |docker_transcomb| image:: https://quay.io/repository/biocontainers/transcomb/status
    :target: https://quay.io/repository/biocontainers/transcomb

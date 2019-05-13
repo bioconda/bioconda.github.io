@@ -52,6 +52,7 @@ metaquant
 
 
 .. |downloads_metaquant| image:: https://img.shields.io/conda/dn/bioconda/metaquant.svg?style=flat
+   :target: https://anaconda.org/bioconda/metaquant
    :alt:   (downloads)
 .. |docker_metaquant| image:: https://quay.io/repository/biocontainers/metaquant/status
    :target: https://quay.io/repository/biocontainers/metaquant

@@ -48,6 +48,7 @@ bioconductor-affyexpress
 
 
 .. |downloads_bioconductor-affyexpress| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affyexpress.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-affyexpress
    :alt:   (downloads)
 .. |docker_bioconductor-affyexpress| image:: https://quay.io/repository/biocontainers/bioconductor-affyexpress/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affyexpress

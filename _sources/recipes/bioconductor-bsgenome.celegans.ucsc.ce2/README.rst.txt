@@ -47,6 +47,7 @@ bioconductor-bsgenome.celegans.ucsc.ce2
 
 
 .. |downloads_bioconductor-bsgenome.celegans.ucsc.ce2| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.celegans.ucsc.ce2.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome.celegans.ucsc.ce2
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.celegans.ucsc.ce2| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.celegans.ucsc.ce2/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.celegans.ucsc.ce2

@@ -48,6 +48,7 @@ bicseq2-seg
 
 
 .. |downloads_bicseq2-seg| image:: https://img.shields.io/conda/dn/bioconda/bicseq2-seg.svg?style=flat
+   :target: https://anaconda.org/bioconda/bicseq2-seg
    :alt:   (downloads)
 .. |docker_bicseq2-seg| image:: https://quay.io/repository/biocontainers/bicseq2-seg/status
    :target: https://quay.io/repository/biocontainers/bicseq2-seg

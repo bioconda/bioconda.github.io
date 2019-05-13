@@ -54,6 +54,7 @@ bioconductor-martini
 
 
 .. |downloads_bioconductor-martini| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-martini.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-martini
    :alt:   (downloads)
 .. |docker_bioconductor-martini| image:: https://quay.io/repository/biocontainers/bioconductor-martini/status
    :target: https://quay.io/repository/biocontainers/bioconductor-martini

@@ -58,6 +58,7 @@ bioconductor-kegglincs
 
 
 .. |downloads_bioconductor-kegglincs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-kegglincs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-kegglincs
    :alt:   (downloads)
 .. |docker_bioconductor-kegglincs| image:: https://quay.io/repository/biocontainers/bioconductor-kegglincs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-kegglincs

@@ -49,6 +49,7 @@ perl-test-sys-info
 
 
 .. |downloads_perl-test-sys-info| image:: https://img.shields.io/conda/dn/bioconda/perl-test-sys-info.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-sys-info
    :alt:   (downloads)
 .. |docker_perl-test-sys-info| image:: https://quay.io/repository/biocontainers/perl-test-sys-info/status
    :target: https://quay.io/repository/biocontainers/perl-test-sys-info

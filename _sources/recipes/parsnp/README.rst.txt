@@ -45,6 +45,7 @@ parsnp
 
 
 .. |downloads_parsnp| image:: https://img.shields.io/conda/dn/bioconda/parsnp.svg?style=flat
+   :target: https://anaconda.org/bioconda/parsnp
    :alt:   (downloads)
 .. |docker_parsnp| image:: https://quay.io/repository/biocontainers/parsnp/status
    :target: https://quay.io/repository/biocontainers/parsnp

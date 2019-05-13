@@ -46,6 +46,7 @@ bioconductor-empiricalbrownsmethod
 
 
 .. |downloads_bioconductor-empiricalbrownsmethod| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-empiricalbrownsmethod.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-empiricalbrownsmethod
    :alt:   (downloads)
 .. |docker_bioconductor-empiricalbrownsmethod| image:: https://quay.io/repository/biocontainers/bioconductor-empiricalbrownsmethod/status
    :target: https://quay.io/repository/biocontainers/bioconductor-empiricalbrownsmethod

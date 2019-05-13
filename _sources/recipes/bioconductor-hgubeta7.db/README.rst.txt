@@ -48,6 +48,7 @@ bioconductor-hgubeta7.db
 
 
 .. |downloads_bioconductor-hgubeta7.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgubeta7.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hgubeta7.db
    :alt:   (downloads)
 .. |docker_bioconductor-hgubeta7.db| image:: https://quay.io/repository/biocontainers/bioconductor-hgubeta7.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hgubeta7.db

@@ -53,6 +53,7 @@ r-metalonda
 
 
 .. |downloads_r-metalonda| image:: https://img.shields.io/conda/dn/bioconda/r-metalonda.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-metalonda
    :alt:   (downloads)
 .. |docker_r-metalonda| image:: https://quay.io/repository/biocontainers/r-metalonda/status
    :target: https://quay.io/repository/biocontainers/r-metalonda

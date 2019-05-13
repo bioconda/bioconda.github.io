@@ -50,6 +50,7 @@ besst
 
 
 .. |downloads_besst| image:: https://img.shields.io/conda/dn/bioconda/besst.svg?style=flat
+   :target: https://anaconda.org/bioconda/besst
    :alt:   (downloads)
 .. |docker_besst| image:: https://quay.io/repository/biocontainers/besst/status
    :target: https://quay.io/repository/biocontainers/besst

@@ -50,6 +50,7 @@ bioconductor-ebarrays
 
 
 .. |downloads_bioconductor-ebarrays| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ebarrays.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ebarrays
    :alt:   (downloads)
 .. |docker_bioconductor-ebarrays| image:: https://quay.io/repository/biocontainers/bioconductor-ebarrays/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ebarrays

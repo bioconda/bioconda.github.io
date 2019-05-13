@@ -47,6 +47,7 @@ svict
 
 
 .. |downloads_svict| image:: https://img.shields.io/conda/dn/bioconda/svict.svg?style=flat
+   :target: https://anaconda.org/bioconda/svict
    :alt:   (downloads)
 .. |docker_svict| image:: https://quay.io/repository/biocontainers/svict/status
    :target: https://quay.io/repository/biocontainers/svict

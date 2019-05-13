@@ -60,6 +60,7 @@ picrust2
 
 
 .. |downloads_picrust2| image:: https://img.shields.io/conda/dn/bioconda/picrust2.svg?style=flat
+   :target: https://anaconda.org/bioconda/picrust2
    :alt:   (downloads)
 .. |docker_picrust2| image:: https://quay.io/repository/biocontainers/picrust2/status
    :target: https://quay.io/repository/biocontainers/picrust2

@@ -47,6 +47,7 @@ sparseassembler
 
 
 .. |downloads_sparseassembler| image:: https://img.shields.io/conda/dn/bioconda/sparseassembler.svg?style=flat
+   :target: https://anaconda.org/bioconda/sparseassembler
    :alt:   (downloads)
 .. |docker_sparseassembler| image:: https://quay.io/repository/biocontainers/sparseassembler/status
    :target: https://quay.io/repository/biocontainers/sparseassembler

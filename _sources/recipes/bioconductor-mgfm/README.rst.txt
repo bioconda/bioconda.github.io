@@ -48,6 +48,7 @@ bioconductor-mgfm
 
 
 .. |downloads_bioconductor-mgfm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mgfm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mgfm
    :alt:   (downloads)
 .. |docker_bioconductor-mgfm| image:: https://quay.io/repository/biocontainers/bioconductor-mgfm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mgfm

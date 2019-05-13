@@ -50,6 +50,7 @@ ucsc-bigwigcorrelate
 
 
 .. |downloads_ucsc-bigwigcorrelate| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bigwigcorrelate.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bigwigcorrelate
    :alt:   (downloads)
 .. |docker_ucsc-bigwigcorrelate| image:: https://quay.io/repository/biocontainers/ucsc-bigwigcorrelate/status
    :target: https://quay.io/repository/biocontainers/ucsc-bigwigcorrelate

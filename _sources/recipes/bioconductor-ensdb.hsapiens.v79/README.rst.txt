@@ -47,6 +47,7 @@ bioconductor-ensdb.hsapiens.v79
 
 
 .. |downloads_bioconductor-ensdb.hsapiens.v79| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ensdb.hsapiens.v79.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ensdb.hsapiens.v79
    :alt:   (downloads)
 .. |docker_bioconductor-ensdb.hsapiens.v79| image:: https://quay.io/repository/biocontainers/bioconductor-ensdb.hsapiens.v79/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ensdb.hsapiens.v79

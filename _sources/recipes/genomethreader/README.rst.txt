@@ -47,6 +47,7 @@ genomethreader
 
 
 .. |downloads_genomethreader| image:: https://img.shields.io/conda/dn/bioconda/genomethreader.svg?style=flat
+   :target: https://anaconda.org/bioconda/genomethreader
    :alt:   (downloads)
 .. |docker_genomethreader| image:: https://quay.io/repository/biocontainers/genomethreader/status
    :target: https://quay.io/repository/biocontainers/genomethreader

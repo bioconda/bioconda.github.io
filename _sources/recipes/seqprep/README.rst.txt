@@ -47,6 +47,7 @@ seqprep
 
 
 .. |downloads_seqprep| image:: https://img.shields.io/conda/dn/bioconda/seqprep.svg?style=flat
+   :target: https://anaconda.org/bioconda/seqprep
    :alt:   (downloads)
 .. |docker_seqprep| image:: https://quay.io/repository/biocontainers/seqprep/status
    :target: https://quay.io/repository/biocontainers/seqprep

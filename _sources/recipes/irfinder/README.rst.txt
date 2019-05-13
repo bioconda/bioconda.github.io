@@ -47,6 +47,7 @@ irfinder
 
 
 .. |downloads_irfinder| image:: https://img.shields.io/conda/dn/bioconda/irfinder.svg?style=flat
+   :target: https://anaconda.org/bioconda/irfinder
    :alt:   (downloads)
 .. |docker_irfinder| image:: https://quay.io/repository/biocontainers/irfinder/status
    :target: https://quay.io/repository/biocontainers/irfinder

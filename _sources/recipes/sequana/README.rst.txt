@@ -83,6 +83,7 @@ sequana
 
 
 .. |downloads_sequana| image:: https://img.shields.io/conda/dn/bioconda/sequana.svg?style=flat
+   :target: https://anaconda.org/bioconda/sequana
    :alt:   (downloads)
 .. |docker_sequana| image:: https://quay.io/repository/biocontainers/sequana/status
    :target: https://quay.io/repository/biocontainers/sequana

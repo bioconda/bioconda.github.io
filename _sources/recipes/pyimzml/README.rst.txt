@@ -47,6 +47,7 @@ pyimzml
 
 
 .. |downloads_pyimzml| image:: https://img.shields.io/conda/dn/bioconda/pyimzml.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyimzml
    :alt:   (downloads)
 .. |docker_pyimzml| image:: https://quay.io/repository/biocontainers/pyimzml/status
    :target: https://quay.io/repository/biocontainers/pyimzml

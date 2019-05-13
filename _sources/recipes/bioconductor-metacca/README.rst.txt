@@ -46,6 +46,7 @@ bioconductor-metacca
 
 
 .. |downloads_bioconductor-metacca| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metacca.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-metacca
    :alt:   (downloads)
 .. |docker_bioconductor-metacca| image:: https://quay.io/repository/biocontainers/bioconductor-metacca/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metacca

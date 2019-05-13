@@ -53,6 +53,7 @@ bioconductor-attract
 
 
 .. |downloads_bioconductor-attract| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-attract.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-attract
    :alt:   (downloads)
 .. |docker_bioconductor-attract| image:: https://quay.io/repository/biocontainers/bioconductor-attract/status
    :target: https://quay.io/repository/biocontainers/bioconductor-attract

@@ -49,6 +49,7 @@ pyasr
 
 
 .. |downloads_pyasr| image:: https://img.shields.io/conda/dn/bioconda/pyasr.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyasr
    :alt:   (downloads)
 .. |docker_pyasr| image:: https://quay.io/repository/biocontainers/pyasr/status
    :target: https://quay.io/repository/biocontainers/pyasr

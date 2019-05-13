@@ -52,6 +52,7 @@ unifrac
 
 
 .. |downloads_unifrac| image:: https://img.shields.io/conda/dn/bioconda/unifrac.svg?style=flat
+   :target: https://anaconda.org/bioconda/unifrac
    :alt:   (downloads)
 .. |docker_unifrac| image:: https://quay.io/repository/biocontainers/unifrac/status
    :target: https://quay.io/repository/biocontainers/unifrac

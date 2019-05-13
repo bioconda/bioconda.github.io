@@ -48,6 +48,7 @@ bioconductor-ath1121501.db
 
 
 .. |downloads_bioconductor-ath1121501.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ath1121501.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ath1121501.db
    :alt:   (downloads)
 .. |docker_bioconductor-ath1121501.db| image:: https://quay.io/repository/biocontainers/bioconductor-ath1121501.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ath1121501.db

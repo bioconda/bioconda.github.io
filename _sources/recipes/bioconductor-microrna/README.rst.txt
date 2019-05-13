@@ -49,6 +49,7 @@ bioconductor-microrna
 
 
 .. |downloads_bioconductor-microrna| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-microrna.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-microrna
    :alt:   (downloads)
 .. |docker_bioconductor-microrna| image:: https://quay.io/repository/biocontainers/bioconductor-microrna/status
    :target: https://quay.io/repository/biocontainers/bioconductor-microrna

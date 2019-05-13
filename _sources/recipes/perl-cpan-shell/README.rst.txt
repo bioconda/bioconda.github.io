@@ -45,6 +45,7 @@ perl-cpan-shell
 
 
 .. |downloads_perl-cpan-shell| image:: https://img.shields.io/conda/dn/bioconda/perl-cpan-shell.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-cpan-shell
    :alt:   (downloads)
 .. |docker_perl-cpan-shell| image:: https://quay.io/repository/biocontainers/perl-cpan-shell/status
    :target: https://quay.io/repository/biocontainers/perl-cpan-shell

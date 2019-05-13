@@ -57,6 +57,7 @@ plantcv
 
 
 .. |downloads_plantcv| image:: https://img.shields.io/conda/dn/bioconda/plantcv.svg?style=flat
+   :target: https://anaconda.org/bioconda/plantcv
    :alt:   (downloads)
 .. |docker_plantcv| image:: https://quay.io/repository/biocontainers/plantcv/status
    :target: https://quay.io/repository/biocontainers/plantcv

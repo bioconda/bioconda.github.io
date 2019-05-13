@@ -47,6 +47,7 @@ bioconductor-bridgedbr
 
 
 .. |downloads_bioconductor-bridgedbr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bridgedbr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bridgedbr
    :alt:   (downloads)
 .. |docker_bioconductor-bridgedbr| image:: https://quay.io/repository/biocontainers/bioconductor-bridgedbr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bridgedbr

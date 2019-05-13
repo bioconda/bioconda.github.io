@@ -60,6 +60,7 @@ bioconductor-rnainteract
 
 
 .. |downloads_bioconductor-rnainteract| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rnainteract.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rnainteract
    :alt:   (downloads)
 .. |docker_bioconductor-rnainteract| image:: https://quay.io/repository/biocontainers/bioconductor-rnainteract/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rnainteract

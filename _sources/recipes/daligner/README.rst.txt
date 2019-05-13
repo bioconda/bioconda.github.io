@@ -45,6 +45,7 @@ daligner
 
 
 .. |downloads_daligner| image:: https://img.shields.io/conda/dn/bioconda/daligner.svg?style=flat
+   :target: https://anaconda.org/bioconda/daligner
    :alt:   (downloads)
 .. |docker_daligner| image:: https://quay.io/repository/biocontainers/daligner/status
    :target: https://quay.io/repository/biocontainers/daligner

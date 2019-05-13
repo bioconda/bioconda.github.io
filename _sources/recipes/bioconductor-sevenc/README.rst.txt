@@ -56,6 +56,7 @@ bioconductor-sevenc
 
 
 .. |downloads_bioconductor-sevenc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sevenc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sevenc
    :alt:   (downloads)
 .. |docker_bioconductor-sevenc| image:: https://quay.io/repository/biocontainers/bioconductor-sevenc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sevenc

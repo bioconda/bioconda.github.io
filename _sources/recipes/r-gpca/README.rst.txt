@@ -45,6 +45,7 @@ r-gpca
 
 
 .. |downloads_r-gpca| image:: https://img.shields.io/conda/dn/bioconda/r-gpca.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-gpca
    :alt:   (downloads)
 .. |docker_r-gpca| image:: https://quay.io/repository/biocontainers/r-gpca/status
    :target: https://quay.io/repository/biocontainers/r-gpca

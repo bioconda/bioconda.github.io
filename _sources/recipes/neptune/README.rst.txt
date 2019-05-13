@@ -50,6 +50,7 @@ neptune
 
 
 .. |downloads_neptune| image:: https://img.shields.io/conda/dn/bioconda/neptune.svg?style=flat
+   :target: https://anaconda.org/bioconda/neptune
    :alt:   (downloads)
 .. |docker_neptune| image:: https://quay.io/repository/biocontainers/neptune/status
    :target: https://quay.io/repository/biocontainers/neptune

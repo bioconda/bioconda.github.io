@@ -46,6 +46,7 @@ ibdseq
 
 
 .. |downloads_ibdseq| image:: https://img.shields.io/conda/dn/bioconda/ibdseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/ibdseq
    :alt:   (downloads)
 .. |docker_ibdseq| image:: https://quay.io/repository/biocontainers/ibdseq/status
    :target: https://quay.io/repository/biocontainers/ibdseq

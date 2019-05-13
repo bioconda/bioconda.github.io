@@ -50,6 +50,7 @@ ucsc-genepredtogtf
 
 
 .. |downloads_ucsc-genepredtogtf| image:: https://img.shields.io/conda/dn/bioconda/ucsc-genepredtogtf.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-genepredtogtf
    :alt:   (downloads)
 .. |docker_ucsc-genepredtogtf| image:: https://quay.io/repository/biocontainers/ucsc-genepredtogtf/status
    :target: https://quay.io/repository/biocontainers/ucsc-genepredtogtf

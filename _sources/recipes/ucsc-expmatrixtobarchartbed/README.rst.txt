@@ -51,6 +51,7 @@ ucsc-expmatrixtobarchartbed
 
 
 .. |downloads_ucsc-expmatrixtobarchartbed| image:: https://img.shields.io/conda/dn/bioconda/ucsc-expmatrixtobarchartbed.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-expmatrixtobarchartbed
    :alt:   (downloads)
 .. |docker_ucsc-expmatrixtobarchartbed| image:: https://quay.io/repository/biocontainers/ucsc-expmatrixtobarchartbed/status
    :target: https://quay.io/repository/biocontainers/ucsc-expmatrixtobarchartbed

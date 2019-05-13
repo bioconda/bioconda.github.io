@@ -46,6 +46,7 @@ perl-algorithm-dependency
 
 
 .. |downloads_perl-algorithm-dependency| image:: https://img.shields.io/conda/dn/bioconda/perl-algorithm-dependency.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-algorithm-dependency
    :alt:   (downloads)
 .. |docker_perl-algorithm-dependency| image:: https://quay.io/repository/biocontainers/perl-algorithm-dependency/status
    :target: https://quay.io/repository/biocontainers/perl-algorithm-dependency

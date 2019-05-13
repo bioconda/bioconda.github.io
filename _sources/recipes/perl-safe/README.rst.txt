@@ -45,6 +45,7 @@ perl-safe
 
 
 .. |downloads_perl-safe| image:: https://img.shields.io/conda/dn/bioconda/perl-safe.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-safe
    :alt:   (downloads)
 .. |docker_perl-safe| image:: https://quay.io/repository/biocontainers/perl-safe/status
    :target: https://quay.io/repository/biocontainers/perl-safe

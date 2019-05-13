@@ -47,6 +47,7 @@ gnuplot-py
 
 
 .. |downloads_gnuplot-py| image:: https://img.shields.io/conda/dn/bioconda/gnuplot-py.svg?style=flat
+   :target: https://anaconda.org/bioconda/gnuplot-py
    :alt:   (downloads)
 .. |docker_gnuplot-py| image:: https://quay.io/repository/biocontainers/gnuplot-py/status
    :target: https://quay.io/repository/biocontainers/gnuplot-py

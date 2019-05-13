@@ -51,6 +51,7 @@ bioconductor-moda
 
 
 .. |downloads_bioconductor-moda| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-moda.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-moda
    :alt:   (downloads)
 .. |docker_bioconductor-moda| image:: https://quay.io/repository/biocontainers/bioconductor-moda/status
    :target: https://quay.io/repository/biocontainers/bioconductor-moda

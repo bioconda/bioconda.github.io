@@ -48,6 +48,7 @@ bioconductor-txdb.ptroglodytes.ucsc.pantro4.refgene
 
 
 .. |downloads_bioconductor-txdb.ptroglodytes.ucsc.pantro4.refgene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-txdb.ptroglodytes.ucsc.pantro4.refgene.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-txdb.ptroglodytes.ucsc.pantro4.refgene
    :alt:   (downloads)
 .. |docker_bioconductor-txdb.ptroglodytes.ucsc.pantro4.refgene| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.ptroglodytes.ucsc.pantro4.refgene/status
    :target: https://quay.io/repository/biocontainers/bioconductor-txdb.ptroglodytes.ucsc.pantro4.refgene

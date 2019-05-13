@@ -46,6 +46,7 @@ bioconductor-clonotyper
 
 
 .. |downloads_bioconductor-clonotyper| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clonotyper.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-clonotyper
    :alt:   (downloads)
 .. |docker_bioconductor-clonotyper| image:: https://quay.io/repository/biocontainers/bioconductor-clonotyper/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clonotyper

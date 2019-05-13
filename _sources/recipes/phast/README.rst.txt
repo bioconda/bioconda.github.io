@@ -46,6 +46,7 @@ phast
 
 
 .. |downloads_phast| image:: https://img.shields.io/conda/dn/bioconda/phast.svg?style=flat
+   :target: https://anaconda.org/bioconda/phast
    :alt:   (downloads)
 .. |docker_phast| image:: https://quay.io/repository/biocontainers/phast/status
    :target: https://quay.io/repository/biocontainers/phast

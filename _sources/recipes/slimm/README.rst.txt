@@ -47,6 +47,7 @@ slimm
 
 
 .. |downloads_slimm| image:: https://img.shields.io/conda/dn/bioconda/slimm.svg?style=flat
+   :target: https://anaconda.org/bioconda/slimm
    :alt:   (downloads)
 .. |docker_slimm| image:: https://quay.io/repository/biocontainers/slimm/status
    :target: https://quay.io/repository/biocontainers/slimm

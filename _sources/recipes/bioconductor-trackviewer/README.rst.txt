@@ -64,6 +64,7 @@ bioconductor-trackviewer
 
 
 .. |downloads_bioconductor-trackviewer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-trackviewer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-trackviewer
    :alt:   (downloads)
 .. |docker_bioconductor-trackviewer| image:: https://quay.io/repository/biocontainers/bioconductor-trackviewer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-trackviewer

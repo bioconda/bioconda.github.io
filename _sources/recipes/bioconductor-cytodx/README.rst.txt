@@ -51,6 +51,7 @@ bioconductor-cytodx
 
 
 .. |downloads_bioconductor-cytodx| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cytodx.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cytodx
    :alt:   (downloads)
 .. |docker_bioconductor-cytodx| image:: https://quay.io/repository/biocontainers/bioconductor-cytodx/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cytodx

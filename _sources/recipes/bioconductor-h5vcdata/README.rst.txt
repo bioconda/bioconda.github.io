@@ -46,6 +46,7 @@ bioconductor-h5vcdata
 
 
 .. |downloads_bioconductor-h5vcdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-h5vcdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-h5vcdata
    :alt:   (downloads)
 .. |docker_bioconductor-h5vcdata| image:: https://quay.io/repository/biocontainers/bioconductor-h5vcdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-h5vcdata

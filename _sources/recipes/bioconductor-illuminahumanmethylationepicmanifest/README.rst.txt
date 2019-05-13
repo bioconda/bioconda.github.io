@@ -47,6 +47,7 @@ bioconductor-illuminahumanmethylationepicmanifest
 
 
 .. |downloads_bioconductor-illuminahumanmethylationepicmanifest| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-illuminahumanmethylationepicmanifest.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-illuminahumanmethylationepicmanifest
    :alt:   (downloads)
 .. |docker_bioconductor-illuminahumanmethylationepicmanifest| image:: https://quay.io/repository/biocontainers/bioconductor-illuminahumanmethylationepicmanifest/status
    :target: https://quay.io/repository/biocontainers/bioconductor-illuminahumanmethylationepicmanifest

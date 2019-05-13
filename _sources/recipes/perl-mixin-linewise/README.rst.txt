@@ -49,6 +49,7 @@ perl-mixin-linewise
 
 
 .. |downloads_perl-mixin-linewise| image:: https://img.shields.io/conda/dn/bioconda/perl-mixin-linewise.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-mixin-linewise
    :alt:   (downloads)
 .. |docker_perl-mixin-linewise| image:: https://quay.io/repository/biocontainers/perl-mixin-linewise/status
    :target: https://quay.io/repository/biocontainers/perl-mixin-linewise

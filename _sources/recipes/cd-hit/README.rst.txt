@@ -48,6 +48,7 @@ cd-hit
 
 
 .. |downloads_cd-hit| image:: https://img.shields.io/conda/dn/bioconda/cd-hit.svg?style=flat
+   :target: https://anaconda.org/bioconda/cd-hit
    :alt:   (downloads)
 .. |docker_cd-hit| image:: https://quay.io/repository/biocontainers/cd-hit/status
    :target: https://quay.io/repository/biocontainers/cd-hit

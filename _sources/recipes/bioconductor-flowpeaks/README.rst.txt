@@ -49,6 +49,7 @@ bioconductor-flowpeaks
 
 
 .. |downloads_bioconductor-flowpeaks| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowpeaks.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowpeaks
    :alt:   (downloads)
 .. |docker_bioconductor-flowpeaks| image:: https://quay.io/repository/biocontainers/bioconductor-flowpeaks/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowpeaks

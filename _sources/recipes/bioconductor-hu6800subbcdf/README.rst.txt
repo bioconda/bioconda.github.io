@@ -47,6 +47,7 @@ bioconductor-hu6800subbcdf
 
 
 .. |downloads_bioconductor-hu6800subbcdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hu6800subbcdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hu6800subbcdf
    :alt:   (downloads)
 .. |docker_bioconductor-hu6800subbcdf| image:: https://quay.io/repository/biocontainers/bioconductor-hu6800subbcdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hu6800subbcdf

@@ -50,6 +50,7 @@ ucsc-checkcoveragegaps
 
 
 .. |downloads_ucsc-checkcoveragegaps| image:: https://img.shields.io/conda/dn/bioconda/ucsc-checkcoveragegaps.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-checkcoveragegaps
    :alt:   (downloads)
 .. |docker_ucsc-checkcoveragegaps| image:: https://quay.io/repository/biocontainers/ucsc-checkcoveragegaps/status
    :target: https://quay.io/repository/biocontainers/ucsc-checkcoveragegaps

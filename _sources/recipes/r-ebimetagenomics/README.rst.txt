@@ -48,6 +48,7 @@ r-ebimetagenomics
 
 
 .. |downloads_r-ebimetagenomics| image:: https://img.shields.io/conda/dn/bioconda/r-ebimetagenomics.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-ebimetagenomics
    :alt:   (downloads)
 .. |docker_r-ebimetagenomics| image:: https://quay.io/repository/biocontainers/r-ebimetagenomics/status
    :target: https://quay.io/repository/biocontainers/r-ebimetagenomics

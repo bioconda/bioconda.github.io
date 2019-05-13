@@ -65,6 +65,7 @@ bioconductor-derfinder
 
 
 .. |downloads_bioconductor-derfinder| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-derfinder.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-derfinder
    :alt:   (downloads)
 .. |docker_bioconductor-derfinder| image:: https://quay.io/repository/biocontainers/bioconductor-derfinder/status
    :target: https://quay.io/repository/biocontainers/bioconductor-derfinder

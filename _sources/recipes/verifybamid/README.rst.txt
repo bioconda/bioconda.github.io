@@ -48,6 +48,7 @@ verifybamid
 
 
 .. |downloads_verifybamid| image:: https://img.shields.io/conda/dn/bioconda/verifybamid.svg?style=flat
+   :target: https://anaconda.org/bioconda/verifybamid
    :alt:   (downloads)
 .. |docker_verifybamid| image:: https://quay.io/repository/biocontainers/verifybamid/status
    :target: https://quay.io/repository/biocontainers/verifybamid

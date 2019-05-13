@@ -56,6 +56,7 @@ seqcluster
 
 
 .. |downloads_seqcluster| image:: https://img.shields.io/conda/dn/bioconda/seqcluster.svg?style=flat
+   :target: https://anaconda.org/bioconda/seqcluster
    :alt:   (downloads)
 .. |docker_seqcluster| image:: https://quay.io/repository/biocontainers/seqcluster/status
    :target: https://quay.io/repository/biocontainers/seqcluster

@@ -50,6 +50,7 @@ ucsc-hgloadout
 
 
 .. |downloads_ucsc-hgloadout| image:: https://img.shields.io/conda/dn/bioconda/ucsc-hgloadout.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-hgloadout
    :alt:   (downloads)
 .. |docker_ucsc-hgloadout| image:: https://quay.io/repository/biocontainers/ucsc-hgloadout/status
    :target: https://quay.io/repository/biocontainers/ucsc-hgloadout

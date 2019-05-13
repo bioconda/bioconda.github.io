@@ -44,6 +44,7 @@ seqkit
 
 
 .. |downloads_seqkit| image:: https://img.shields.io/conda/dn/bioconda/seqkit.svg?style=flat
+   :target: https://anaconda.org/bioconda/seqkit
    :alt:   (downloads)
 .. |docker_seqkit| image:: https://quay.io/repository/biocontainers/seqkit/status
    :target: https://quay.io/repository/biocontainers/seqkit

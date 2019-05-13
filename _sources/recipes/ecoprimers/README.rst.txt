@@ -46,6 +46,7 @@ ecoprimers
 
 
 .. |downloads_ecoprimers| image:: https://img.shields.io/conda/dn/bioconda/ecoprimers.svg?style=flat
+   :target: https://anaconda.org/bioconda/ecoprimers
    :alt:   (downloads)
 .. |docker_ecoprimers| image:: https://quay.io/repository/biocontainers/ecoprimers/status
    :target: https://quay.io/repository/biocontainers/ecoprimers

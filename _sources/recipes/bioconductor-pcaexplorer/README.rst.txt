@@ -74,6 +74,7 @@ bioconductor-pcaexplorer
 
 
 .. |downloads_bioconductor-pcaexplorer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pcaexplorer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pcaexplorer
    :alt:   (downloads)
 .. |docker_bioconductor-pcaexplorer| image:: https://quay.io/repository/biocontainers/bioconductor-pcaexplorer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pcaexplorer

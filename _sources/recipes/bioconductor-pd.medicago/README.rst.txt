@@ -53,6 +53,7 @@ bioconductor-pd.medicago
 
 
 .. |downloads_bioconductor-pd.medicago| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.medicago.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.medicago
    :alt:   (downloads)
 .. |docker_bioconductor-pd.medicago| image:: https://quay.io/repository/biocontainers/bioconductor-pd.medicago/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.medicago

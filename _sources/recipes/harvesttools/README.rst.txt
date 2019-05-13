@@ -45,6 +45,7 @@ harvesttools
 
 
 .. |downloads_harvesttools| image:: https://img.shields.io/conda/dn/bioconda/harvesttools.svg?style=flat
+   :target: https://anaconda.org/bioconda/harvesttools
    :alt:   (downloads)
 .. |docker_harvesttools| image:: https://quay.io/repository/biocontainers/harvesttools/status
    :target: https://quay.io/repository/biocontainers/harvesttools

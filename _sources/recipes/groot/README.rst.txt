@@ -44,6 +44,7 @@ groot
 
 
 .. |downloads_groot| image:: https://img.shields.io/conda/dn/bioconda/groot.svg?style=flat
+   :target: https://anaconda.org/bioconda/groot
    :alt:   (downloads)
 .. |docker_groot| image:: https://quay.io/repository/biocontainers/groot/status
    :target: https://quay.io/repository/biocontainers/groot

@@ -52,6 +52,7 @@ hicmatrix
 
 
 .. |downloads_hicmatrix| image:: https://img.shields.io/conda/dn/bioconda/hicmatrix.svg?style=flat
+   :target: https://anaconda.org/bioconda/hicmatrix
    :alt:   (downloads)
 .. |docker_hicmatrix| image:: https://quay.io/repository/biocontainers/hicmatrix/status
    :target: https://quay.io/repository/biocontainers/hicmatrix

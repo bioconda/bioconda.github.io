@@ -61,6 +61,7 @@ bioconductor-destiny
 
 
 .. |downloads_bioconductor-destiny| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-destiny.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-destiny
    :alt:   (downloads)
 .. |docker_bioconductor-destiny| image:: https://quay.io/repository/biocontainers/bioconductor-destiny/status
    :target: https://quay.io/repository/biocontainers/bioconductor-destiny

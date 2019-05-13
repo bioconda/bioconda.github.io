@@ -47,6 +47,7 @@ sccaller
 
 
 .. |downloads_sccaller| image:: https://img.shields.io/conda/dn/bioconda/sccaller.svg?style=flat
+   :target: https://anaconda.org/bioconda/sccaller
    :alt:   (downloads)
 .. |docker_sccaller| image:: https://quay.io/repository/biocontainers/sccaller/status
    :target: https://quay.io/repository/biocontainers/sccaller

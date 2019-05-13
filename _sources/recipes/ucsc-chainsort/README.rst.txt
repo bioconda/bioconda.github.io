@@ -50,6 +50,7 @@ ucsc-chainsort
 
 
 .. |downloads_ucsc-chainsort| image:: https://img.shields.io/conda/dn/bioconda/ucsc-chainsort.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-chainsort
    :alt:   (downloads)
 .. |docker_ucsc-chainsort| image:: https://quay.io/repository/biocontainers/ucsc-chainsort/status
    :target: https://quay.io/repository/biocontainers/ucsc-chainsort

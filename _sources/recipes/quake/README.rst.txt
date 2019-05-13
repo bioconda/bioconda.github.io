@@ -51,6 +51,7 @@ quake
 
 
 .. |downloads_quake| image:: https://img.shields.io/conda/dn/bioconda/quake.svg?style=flat
+   :target: https://anaconda.org/bioconda/quake
    :alt:   (downloads)
 .. |docker_quake| image:: https://quay.io/repository/biocontainers/quake/status
    :target: https://quay.io/repository/biocontainers/quake

@@ -53,6 +53,7 @@ bioconductor-sconify
 
 
 .. |downloads_bioconductor-sconify| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sconify.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sconify
    :alt:   (downloads)
 .. |docker_bioconductor-sconify| image:: https://quay.io/repository/biocontainers/bioconductor-sconify/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sconify

@@ -48,6 +48,7 @@ bioconductor-beadarraysnp
 
 
 .. |downloads_bioconductor-beadarraysnp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-beadarraysnp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-beadarraysnp
    :alt:   (downloads)
 .. |docker_bioconductor-beadarraysnp| image:: https://quay.io/repository/biocontainers/bioconductor-beadarraysnp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-beadarraysnp

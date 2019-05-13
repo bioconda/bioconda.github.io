@@ -46,6 +46,7 @@ smartdenovo
 
 
 .. |downloads_smartdenovo| image:: https://img.shields.io/conda/dn/bioconda/smartdenovo.svg?style=flat
+   :target: https://anaconda.org/bioconda/smartdenovo
    :alt:   (downloads)
 .. |docker_smartdenovo| image:: https://quay.io/repository/biocontainers/smartdenovo/status
    :target: https://quay.io/repository/biocontainers/smartdenovo

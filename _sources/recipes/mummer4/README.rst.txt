@@ -47,6 +47,7 @@ mummer4
 
 
 .. |downloads_mummer4| image:: https://img.shields.io/conda/dn/bioconda/mummer4.svg?style=flat
+   :target: https://anaconda.org/bioconda/mummer4
    :alt:   (downloads)
 .. |docker_mummer4| image:: https://quay.io/repository/biocontainers/mummer4/status
    :target: https://quay.io/repository/biocontainers/mummer4

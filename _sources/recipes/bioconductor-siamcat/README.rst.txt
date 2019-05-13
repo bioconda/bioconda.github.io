@@ -61,6 +61,7 @@ bioconductor-siamcat
 
 
 .. |downloads_bioconductor-siamcat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-siamcat.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-siamcat
    :alt:   (downloads)
 .. |docker_bioconductor-siamcat| image:: https://quay.io/repository/biocontainers/bioconductor-siamcat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-siamcat

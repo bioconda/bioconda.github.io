@@ -50,6 +50,7 @@ bioconductor-plier
 
 
 .. |downloads_bioconductor-plier| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-plier.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-plier
    :alt:   (downloads)
 .. |docker_bioconductor-plier| image:: https://quay.io/repository/biocontainers/bioconductor-plier/status
    :target: https://quay.io/repository/biocontainers/bioconductor-plier

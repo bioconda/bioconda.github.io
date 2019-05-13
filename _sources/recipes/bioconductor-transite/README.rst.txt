@@ -57,6 +57,7 @@ bioconductor-transite
 
 
 .. |downloads_bioconductor-transite| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-transite.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-transite
    :alt:   (downloads)
 .. |docker_bioconductor-transite| image:: https://quay.io/repository/biocontainers/bioconductor-transite/status
    :target: https://quay.io/repository/biocontainers/bioconductor-transite

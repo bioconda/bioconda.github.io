@@ -47,6 +47,7 @@ bioconductor-beaddatapackr
 
 
 .. |downloads_bioconductor-beaddatapackr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-beaddatapackr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-beaddatapackr
    :alt:   (downloads)
 .. |docker_bioconductor-beaddatapackr| image:: https://quay.io/repository/biocontainers/bioconductor-beaddatapackr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-beaddatapackr

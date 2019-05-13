@@ -51,6 +51,7 @@ bioconductor-chicago
 
 
 .. |downloads_bioconductor-chicago| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chicago.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chicago
    :alt:   (downloads)
 .. |docker_bioconductor-chicago| image:: https://quay.io/repository/biocontainers/bioconductor-chicago/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chicago

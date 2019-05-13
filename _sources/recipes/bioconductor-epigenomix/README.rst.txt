@@ -56,6 +56,7 @@ bioconductor-epigenomix
 
 
 .. |downloads_bioconductor-epigenomix| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-epigenomix.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-epigenomix
    :alt:   (downloads)
 .. |docker_bioconductor-epigenomix| image:: https://quay.io/repository/biocontainers/bioconductor-epigenomix/status
    :target: https://quay.io/repository/biocontainers/bioconductor-epigenomix

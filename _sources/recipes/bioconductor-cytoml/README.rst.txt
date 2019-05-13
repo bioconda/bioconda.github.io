@@ -60,6 +60,7 @@ bioconductor-cytoml
 
 
 .. |downloads_bioconductor-cytoml| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cytoml.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cytoml
    :alt:   (downloads)
 .. |docker_bioconductor-cytoml| image:: https://quay.io/repository/biocontainers/bioconductor-cytoml/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cytoml

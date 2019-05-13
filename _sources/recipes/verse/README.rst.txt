@@ -46,6 +46,7 @@ verse
 
 
 .. |downloads_verse| image:: https://img.shields.io/conda/dn/bioconda/verse.svg?style=flat
+   :target: https://anaconda.org/bioconda/verse
    :alt:   (downloads)
 .. |docker_verse| image:: https://quay.io/repository/biocontainers/verse/status
    :target: https://quay.io/repository/biocontainers/verse

@@ -48,6 +48,7 @@ dsrc
 
 
 .. |downloads_dsrc| image:: https://img.shields.io/conda/dn/bioconda/dsrc.svg?style=flat
+   :target: https://anaconda.org/bioconda/dsrc
    :alt:   (downloads)
 .. |docker_dsrc| image:: https://quay.io/repository/biocontainers/dsrc/status
    :target: https://quay.io/repository/biocontainers/dsrc

@@ -50,6 +50,7 @@ intarna
 
 
 .. |downloads_intarna| image:: https://img.shields.io/conda/dn/bioconda/intarna.svg?style=flat
+   :target: https://anaconda.org/bioconda/intarna
    :alt:   (downloads)
 .. |docker_intarna| image:: https://quay.io/repository/biocontainers/intarna/status
    :target: https://quay.io/repository/biocontainers/intarna

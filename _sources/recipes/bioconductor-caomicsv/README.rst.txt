@@ -47,6 +47,7 @@ bioconductor-caomicsv
 
 
 .. |downloads_bioconductor-caomicsv| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-caomicsv.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-caomicsv
    :alt:   (downloads)
 .. |docker_bioconductor-caomicsv| image:: https://quay.io/repository/biocontainers/bioconductor-caomicsv/status
    :target: https://quay.io/repository/biocontainers/bioconductor-caomicsv

@@ -47,6 +47,7 @@
 
 
 .. |downloads_2pg_cartesian| image:: https://img.shields.io/conda/dn/bioconda/2pg_cartesian.svg?style=flat
+   :target: https://anaconda.org/bioconda/2pg_cartesian
    :alt:   (downloads)
 .. |docker_2pg_cartesian| image:: https://quay.io/repository/biocontainers/2pg_cartesian/status
    :target: https://quay.io/repository/biocontainers/2pg_cartesian

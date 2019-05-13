@@ -71,6 +71,7 @@ gemini
 
 
 .. |downloads_gemini| image:: https://img.shields.io/conda/dn/bioconda/gemini.svg?style=flat
+   :target: https://anaconda.org/bioconda/gemini
    :alt:   (downloads)
 .. |docker_gemini| image:: https://quay.io/repository/biocontainers/gemini/status
    :target: https://quay.io/repository/biocontainers/gemini

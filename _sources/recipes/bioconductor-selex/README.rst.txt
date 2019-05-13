@@ -47,6 +47,7 @@ bioconductor-selex
 
 
 .. |downloads_bioconductor-selex| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-selex.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-selex
    :alt:   (downloads)
 .. |docker_bioconductor-selex| image:: https://quay.io/repository/biocontainers/bioconductor-selex/status
    :target: https://quay.io/repository/biocontainers/bioconductor-selex

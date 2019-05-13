@@ -58,6 +58,7 @@ bioconductor-crisprvariants
 
 
 .. |downloads_bioconductor-crisprvariants| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-crisprvariants.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-crisprvariants
    :alt:   (downloads)
 .. |docker_bioconductor-crisprvariants| image:: https://quay.io/repository/biocontainers/bioconductor-crisprvariants/status
    :target: https://quay.io/repository/biocontainers/bioconductor-crisprvariants

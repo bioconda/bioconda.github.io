@@ -47,6 +47,7 @@ nucdiff
 
 
 .. |downloads_nucdiff| image:: https://img.shields.io/conda/dn/bioconda/nucdiff.svg?style=flat
+   :target: https://anaconda.org/bioconda/nucdiff
    :alt:   (downloads)
 .. |docker_nucdiff| image:: https://quay.io/repository/biocontainers/nucdiff/status
    :target: https://quay.io/repository/biocontainers/nucdiff

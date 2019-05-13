@@ -49,6 +49,7 @@ bioconductor-iasva
 
 
 .. |downloads_bioconductor-iasva| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-iasva.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-iasva
    :alt:   (downloads)
 .. |docker_bioconductor-iasva| image:: https://quay.io/repository/biocontainers/bioconductor-iasva/status
    :target: https://quay.io/repository/biocontainers/bioconductor-iasva

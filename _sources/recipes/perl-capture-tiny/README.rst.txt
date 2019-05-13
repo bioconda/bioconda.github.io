@@ -45,6 +45,7 @@ perl-capture-tiny
 
 
 .. |downloads_perl-capture-tiny| image:: https://img.shields.io/conda/dn/bioconda/perl-capture-tiny.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-capture-tiny
    :alt:   (downloads)
 .. |docker_perl-capture-tiny| image:: https://quay.io/repository/biocontainers/perl-capture-tiny/status
    :target: https://quay.io/repository/biocontainers/perl-capture-tiny

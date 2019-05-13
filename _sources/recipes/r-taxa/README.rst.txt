@@ -57,6 +57,7 @@ r-taxa
 
 
 .. |downloads_r-taxa| image:: https://img.shields.io/conda/dn/bioconda/r-taxa.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-taxa
    :alt:   (downloads)
 .. |docker_r-taxa| image:: https://quay.io/repository/biocontainers/r-taxa/status
    :target: https://quay.io/repository/biocontainers/r-taxa

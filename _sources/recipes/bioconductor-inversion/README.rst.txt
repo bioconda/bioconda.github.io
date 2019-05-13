@@ -47,6 +47,7 @@ bioconductor-inversion
 
 
 .. |downloads_bioconductor-inversion| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-inversion.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-inversion
    :alt:   (downloads)
 .. |docker_bioconductor-inversion| image:: https://quay.io/repository/biocontainers/bioconductor-inversion/status
    :target: https://quay.io/repository/biocontainers/bioconductor-inversion

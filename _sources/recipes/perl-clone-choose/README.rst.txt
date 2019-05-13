@@ -46,6 +46,7 @@ perl-clone-choose
 
 
 .. |downloads_perl-clone-choose| image:: https://img.shields.io/conda/dn/bioconda/perl-clone-choose.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-clone-choose
    :alt:   (downloads)
 .. |docker_perl-clone-choose| image:: https://quay.io/repository/biocontainers/perl-clone-choose/status
    :target: https://quay.io/repository/biocontainers/perl-clone-choose

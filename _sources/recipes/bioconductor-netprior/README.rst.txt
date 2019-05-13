@@ -53,6 +53,7 @@ bioconductor-netprior
 
 
 .. |downloads_bioconductor-netprior| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-netprior.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-netprior
    :alt:   (downloads)
 .. |docker_bioconductor-netprior| image:: https://quay.io/repository/biocontainers/bioconductor-netprior/status
    :target: https://quay.io/repository/biocontainers/bioconductor-netprior

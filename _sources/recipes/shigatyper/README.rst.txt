@@ -49,6 +49,7 @@ shigatyper
 
 
 .. |downloads_shigatyper| image:: https://img.shields.io/conda/dn/bioconda/shigatyper.svg?style=flat
+   :target: https://anaconda.org/bioconda/shigatyper
    :alt:   (downloads)
 .. |docker_shigatyper| image:: https://quay.io/repository/biocontainers/shigatyper/status
    :target: https://quay.io/repository/biocontainers/shigatyper

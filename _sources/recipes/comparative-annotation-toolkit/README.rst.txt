@@ -83,6 +83,7 @@ comparative-annotation-toolkit
 
 
 .. |downloads_comparative-annotation-toolkit| image:: https://img.shields.io/conda/dn/bioconda/comparative-annotation-toolkit.svg?style=flat
+   :target: https://anaconda.org/bioconda/comparative-annotation-toolkit
    :alt:   (downloads)
 .. |docker_comparative-annotation-toolkit| image:: https://quay.io/repository/biocontainers/comparative-annotation-toolkit/status
    :target: https://quay.io/repository/biocontainers/comparative-annotation-toolkit

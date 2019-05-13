@@ -53,6 +53,7 @@ bioconductor-pd.hugene.1.1.st.v1
 
 
 .. |downloads_bioconductor-pd.hugene.1.1.st.v1| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.hugene.1.1.st.v1.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.hugene.1.1.st.v1
    :alt:   (downloads)
 .. |docker_bioconductor-pd.hugene.1.1.st.v1| image:: https://quay.io/repository/biocontainers/bioconductor-pd.hugene.1.1.st.v1/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.hugene.1.1.st.v1

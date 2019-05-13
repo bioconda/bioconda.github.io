@@ -46,6 +46,7 @@ bioconductor-stjudem
 
 
 .. |downloads_bioconductor-stjudem| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-stjudem.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-stjudem
    :alt:   (downloads)
 .. |docker_bioconductor-stjudem| image:: https://quay.io/repository/biocontainers/bioconductor-stjudem/status
    :target: https://quay.io/repository/biocontainers/bioconductor-stjudem

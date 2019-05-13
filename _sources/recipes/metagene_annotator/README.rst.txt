@@ -44,6 +44,7 @@ metagene_annotator
 
 
 .. |downloads_metagene_annotator| image:: https://img.shields.io/conda/dn/bioconda/metagene_annotator.svg?style=flat
+   :target: https://anaconda.org/bioconda/metagene_annotator
    :alt:   (downloads)
 .. |docker_metagene_annotator| image:: https://quay.io/repository/biocontainers/metagene_annotator/status
    :target: https://quay.io/repository/biocontainers/metagene_annotator

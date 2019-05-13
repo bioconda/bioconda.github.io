@@ -46,6 +46,7 @@ dialign2
 
 
 .. |downloads_dialign2| image:: https://img.shields.io/conda/dn/bioconda/dialign2.svg?style=flat
+   :target: https://anaconda.org/bioconda/dialign2
    :alt:   (downloads)
 .. |docker_dialign2| image:: https://quay.io/repository/biocontainers/dialign2/status
    :target: https://quay.io/repository/biocontainers/dialign2

@@ -61,6 +61,7 @@ bioconductor-vanillaice
 
 
 .. |downloads_bioconductor-vanillaice| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-vanillaice.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-vanillaice
    :alt:   (downloads)
 .. |docker_bioconductor-vanillaice| image:: https://quay.io/repository/biocontainers/bioconductor-vanillaice/status
    :target: https://quay.io/repository/biocontainers/bioconductor-vanillaice

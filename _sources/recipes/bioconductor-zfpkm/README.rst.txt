@@ -50,6 +50,7 @@ bioconductor-zfpkm
 
 
 .. |downloads_bioconductor-zfpkm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-zfpkm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-zfpkm
    :alt:   (downloads)
 .. |docker_bioconductor-zfpkm| image:: https://quay.io/repository/biocontainers/bioconductor-zfpkm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-zfpkm

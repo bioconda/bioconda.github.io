@@ -49,6 +49,7 @@ bioconductor-metab
 
 
 .. |downloads_bioconductor-metab| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metab.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-metab
    :alt:   (downloads)
 .. |docker_bioconductor-metab| image:: https://quay.io/repository/biocontainers/bioconductor-metab/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metab

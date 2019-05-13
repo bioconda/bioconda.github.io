@@ -57,6 +57,7 @@ bioconductor-mfa
 
 
 .. |downloads_bioconductor-mfa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mfa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mfa
    :alt:   (downloads)
 .. |docker_bioconductor-mfa| image:: https://quay.io/repository/biocontainers/bioconductor-mfa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mfa

@@ -48,6 +48,7 @@ connor
 
 
 .. |downloads_connor| image:: https://img.shields.io/conda/dn/bioconda/connor.svg?style=flat
+   :target: https://anaconda.org/bioconda/connor
    :alt:   (downloads)
 .. |docker_connor| image:: https://quay.io/repository/biocontainers/connor/status
    :target: https://quay.io/repository/biocontainers/connor

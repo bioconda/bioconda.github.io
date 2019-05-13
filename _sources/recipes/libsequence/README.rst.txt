@@ -46,6 +46,7 @@ libsequence
 
 
 .. |downloads_libsequence| image:: https://img.shields.io/conda/dn/bioconda/libsequence.svg?style=flat
+   :target: https://anaconda.org/bioconda/libsequence
    :alt:   (downloads)
 .. |docker_libsequence| image:: https://quay.io/repository/biocontainers/libsequence/status
    :target: https://quay.io/repository/biocontainers/libsequence

@@ -52,6 +52,7 @@ bioconductor-genomeintervals
 
 
 .. |downloads_bioconductor-genomeintervals| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genomeintervals.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genomeintervals
    :alt:   (downloads)
 .. |docker_bioconductor-genomeintervals| image:: https://quay.io/repository/biocontainers/bioconductor-genomeintervals/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genomeintervals

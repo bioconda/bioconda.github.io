@@ -45,6 +45,7 @@ emmix
 
 
 .. |downloads_emmix| image:: https://img.shields.io/conda/dn/bioconda/emmix.svg?style=flat
+   :target: https://anaconda.org/bioconda/emmix
    :alt:   (downloads)
 .. |docker_emmix| image:: https://quay.io/repository/biocontainers/emmix/status
    :target: https://quay.io/repository/biocontainers/emmix

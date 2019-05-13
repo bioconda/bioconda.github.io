@@ -45,6 +45,7 @@ fasta_ushuffle
 
 
 .. |downloads_fasta_ushuffle| image:: https://img.shields.io/conda/dn/bioconda/fasta_ushuffle.svg?style=flat
+   :target: https://anaconda.org/bioconda/fasta_ushuffle
    :alt:   (downloads)
 .. |docker_fasta_ushuffle| image:: https://quay.io/repository/biocontainers/fasta_ushuffle/status
    :target: https://quay.io/repository/biocontainers/fasta_ushuffle

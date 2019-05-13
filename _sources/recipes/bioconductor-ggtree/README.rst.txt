@@ -56,6 +56,7 @@ bioconductor-ggtree
 
 
 .. |downloads_bioconductor-ggtree| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ggtree.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ggtree
    :alt:   (downloads)
 .. |docker_bioconductor-ggtree| image:: https://quay.io/repository/biocontainers/bioconductor-ggtree/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ggtree

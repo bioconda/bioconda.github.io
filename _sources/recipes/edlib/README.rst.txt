@@ -45,6 +45,7 @@ edlib
 
 
 .. |downloads_edlib| image:: https://img.shields.io/conda/dn/bioconda/edlib.svg?style=flat
+   :target: https://anaconda.org/bioconda/edlib
    :alt:   (downloads)
 .. |docker_edlib| image:: https://quay.io/repository/biocontainers/edlib/status
    :target: https://quay.io/repository/biocontainers/edlib

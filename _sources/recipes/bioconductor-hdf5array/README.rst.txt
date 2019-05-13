@@ -51,6 +51,7 @@ bioconductor-hdf5array
 
 
 .. |downloads_bioconductor-hdf5array| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hdf5array.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hdf5array
    :alt:   (downloads)
 .. |docker_bioconductor-hdf5array| image:: https://quay.io/repository/biocontainers/bioconductor-hdf5array/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hdf5array

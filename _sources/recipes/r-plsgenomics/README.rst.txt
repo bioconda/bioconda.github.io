@@ -51,6 +51,7 @@ r-plsgenomics
 
 
 .. |downloads_r-plsgenomics| image:: https://img.shields.io/conda/dn/bioconda/r-plsgenomics.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-plsgenomics
    :alt:   (downloads)
 .. |docker_r-plsgenomics| image:: https://quay.io/repository/biocontainers/r-plsgenomics/status
    :target: https://quay.io/repository/biocontainers/r-plsgenomics

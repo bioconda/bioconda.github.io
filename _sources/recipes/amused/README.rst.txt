@@ -48,6 +48,7 @@ amused
 
 
 .. |downloads_amused| image:: https://img.shields.io/conda/dn/bioconda/amused.svg?style=flat
+   :target: https://anaconda.org/bioconda/amused
    :alt:   (downloads)
 .. |docker_amused| image:: https://quay.io/repository/biocontainers/amused/status
    :target: https://quay.io/repository/biocontainers/amused

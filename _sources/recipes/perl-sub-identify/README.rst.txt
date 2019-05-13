@@ -45,6 +45,7 @@ perl-sub-identify
 
 
 .. |downloads_perl-sub-identify| image:: https://img.shields.io/conda/dn/bioconda/perl-sub-identify.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-sub-identify
    :alt:   (downloads)
 .. |docker_perl-sub-identify| image:: https://quay.io/repository/biocontainers/perl-sub-identify/status
    :target: https://quay.io/repository/biocontainers/perl-sub-identify

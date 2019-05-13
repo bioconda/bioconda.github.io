@@ -50,6 +50,7 @@ ucsc-gmtime
 
 
 .. |downloads_ucsc-gmtime| image:: https://img.shields.io/conda/dn/bioconda/ucsc-gmtime.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-gmtime
    :alt:   (downloads)
 .. |docker_ucsc-gmtime| image:: https://quay.io/repository/biocontainers/ucsc-gmtime/status
    :target: https://quay.io/repository/biocontainers/ucsc-gmtime

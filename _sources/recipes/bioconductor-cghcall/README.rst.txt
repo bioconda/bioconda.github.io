@@ -51,6 +51,7 @@ bioconductor-cghcall
 
 
 .. |downloads_bioconductor-cghcall| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cghcall.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cghcall
    :alt:   (downloads)
 .. |docker_bioconductor-cghcall| image:: https://quay.io/repository/biocontainers/bioconductor-cghcall/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cghcall

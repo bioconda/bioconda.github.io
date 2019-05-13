@@ -64,6 +64,7 @@ r-shazam
 
 
 .. |downloads_r-shazam| image:: https://img.shields.io/conda/dn/bioconda/r-shazam.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-shazam
    :alt:   (downloads)
 .. |docker_r-shazam| image:: https://quay.io/repository/biocontainers/r-shazam/status
    :target: https://quay.io/repository/biocontainers/r-shazam

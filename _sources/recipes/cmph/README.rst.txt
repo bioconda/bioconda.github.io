@@ -45,6 +45,7 @@ cmph
 
 
 .. |downloads_cmph| image:: https://img.shields.io/conda/dn/bioconda/cmph.svg?style=flat
+   :target: https://anaconda.org/bioconda/cmph
    :alt:   (downloads)
 .. |docker_cmph| image:: https://quay.io/repository/biocontainers/cmph/status
    :target: https://quay.io/repository/biocontainers/cmph

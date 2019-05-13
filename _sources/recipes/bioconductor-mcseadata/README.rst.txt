@@ -46,6 +46,7 @@ bioconductor-mcseadata
 
 
 .. |downloads_bioconductor-mcseadata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mcseadata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mcseadata
    :alt:   (downloads)
 .. |docker_bioconductor-mcseadata| image:: https://quay.io/repository/biocontainers/bioconductor-mcseadata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mcseadata

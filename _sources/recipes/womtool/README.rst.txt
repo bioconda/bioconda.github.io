@@ -47,6 +47,7 @@ womtool
 
 
 .. |downloads_womtool| image:: https://img.shields.io/conda/dn/bioconda/womtool.svg?style=flat
+   :target: https://anaconda.org/bioconda/womtool
    :alt:   (downloads)
 .. |docker_womtool| image:: https://quay.io/repository/biocontainers/womtool/status
    :target: https://quay.io/repository/biocontainers/womtool

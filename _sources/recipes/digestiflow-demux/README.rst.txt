@@ -51,6 +51,7 @@ digestiflow-demux
 
 
 .. |downloads_digestiflow-demux| image:: https://img.shields.io/conda/dn/bioconda/digestiflow-demux.svg?style=flat
+   :target: https://anaconda.org/bioconda/digestiflow-demux
    :alt:   (downloads)
 .. |docker_digestiflow-demux| image:: https://quay.io/repository/biocontainers/digestiflow-demux/status
    :target: https://quay.io/repository/biocontainers/digestiflow-demux

@@ -69,6 +69,7 @@ cgat-scripts
 
 
 .. |downloads_cgat-scripts| image:: https://img.shields.io/conda/dn/bioconda/cgat-scripts.svg?style=flat
+   :target: https://anaconda.org/bioconda/cgat-scripts
    :alt:   (downloads)
 .. |docker_cgat-scripts| image:: https://quay.io/repository/biocontainers/cgat-scripts/status
    :target: https://quay.io/repository/biocontainers/cgat-scripts

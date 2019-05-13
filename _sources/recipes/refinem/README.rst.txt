@@ -61,6 +61,7 @@ refinem
 
 
 .. |downloads_refinem| image:: https://img.shields.io/conda/dn/bioconda/refinem.svg?style=flat
+   :target: https://anaconda.org/bioconda/refinem
    :alt:   (downloads)
 .. |docker_refinem| image:: https://quay.io/repository/biocontainers/refinem/status
    :target: https://quay.io/repository/biocontainers/refinem

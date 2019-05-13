@@ -57,6 +57,7 @@ bioconductor-transcriptogramer
 
 
 .. |downloads_bioconductor-transcriptogramer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-transcriptogramer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-transcriptogramer
    :alt:   (downloads)
 .. |docker_bioconductor-transcriptogramer| image:: https://quay.io/repository/biocontainers/bioconductor-transcriptogramer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-transcriptogramer

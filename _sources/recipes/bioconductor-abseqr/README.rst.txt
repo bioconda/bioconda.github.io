@@ -64,6 +64,7 @@ bioconductor-abseqr
 
 
 .. |downloads_bioconductor-abseqr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-abseqr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-abseqr
    :alt:   (downloads)
 .. |docker_bioconductor-abseqr| image:: https://quay.io/repository/biocontainers/bioconductor-abseqr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-abseqr

@@ -51,6 +51,7 @@ bioconductor-cbaf
 
 
 .. |downloads_bioconductor-cbaf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cbaf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cbaf
    :alt:   (downloads)
 .. |docker_bioconductor-cbaf| image:: https://quay.io/repository/biocontainers/bioconductor-cbaf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cbaf

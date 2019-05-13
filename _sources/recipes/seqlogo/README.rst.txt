@@ -50,6 +50,7 @@ seqlogo
 
 
 .. |downloads_seqlogo| image:: https://img.shields.io/conda/dn/bioconda/seqlogo.svg?style=flat
+   :target: https://anaconda.org/bioconda/seqlogo
    :alt:   (downloads)
 .. |docker_seqlogo| image:: https://quay.io/repository/biocontainers/seqlogo/status
    :target: https://quay.io/repository/biocontainers/seqlogo

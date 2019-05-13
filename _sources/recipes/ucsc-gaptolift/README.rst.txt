@@ -50,6 +50,7 @@ ucsc-gaptolift
 
 
 .. |downloads_ucsc-gaptolift| image:: https://img.shields.io/conda/dn/bioconda/ucsc-gaptolift.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-gaptolift
    :alt:   (downloads)
 .. |docker_ucsc-gaptolift| image:: https://quay.io/repository/biocontainers/ucsc-gaptolift/status
    :target: https://quay.io/repository/biocontainers/ucsc-gaptolift

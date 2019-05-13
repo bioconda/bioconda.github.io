@@ -48,6 +48,7 @@ msalign2
 
 
 .. |downloads_msalign2| image:: https://img.shields.io/conda/dn/bioconda/msalign2.svg?style=flat
+   :target: https://anaconda.org/bioconda/msalign2
    :alt:   (downloads)
 .. |docker_msalign2| image:: https://quay.io/repository/biocontainers/msalign2/status
    :target: https://quay.io/repository/biocontainers/msalign2

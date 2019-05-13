@@ -45,6 +45,7 @@ prokaryote
 
 
 .. |downloads_prokaryote| image:: https://img.shields.io/conda/dn/bioconda/prokaryote.svg?style=flat
+   :target: https://anaconda.org/bioconda/prokaryote
    :alt:   (downloads)
 .. |docker_prokaryote| image:: https://quay.io/repository/biocontainers/prokaryote/status
    :target: https://quay.io/repository/biocontainers/prokaryote

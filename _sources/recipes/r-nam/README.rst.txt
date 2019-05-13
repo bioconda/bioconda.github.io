@@ -49,6 +49,7 @@ r-nam
 
 
 .. |downloads_r-nam| image:: https://img.shields.io/conda/dn/bioconda/r-nam.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-nam
    :alt:   (downloads)
 .. |docker_r-nam| image:: https://quay.io/repository/biocontainers/r-nam/status
    :target: https://quay.io/repository/biocontainers/r-nam

@@ -47,6 +47,7 @@ bioconductor-bsgenome.ggallus.ucsc.galgal4
 
 
 .. |downloads_bioconductor-bsgenome.ggallus.ucsc.galgal4| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.ggallus.ucsc.galgal4.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome.ggallus.ucsc.galgal4
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.ggallus.ucsc.galgal4| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.ggallus.ucsc.galgal4/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.ggallus.ucsc.galgal4

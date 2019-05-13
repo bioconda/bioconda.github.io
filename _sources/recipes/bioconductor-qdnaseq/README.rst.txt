@@ -56,6 +56,7 @@ bioconductor-qdnaseq
 
 
 .. |downloads_bioconductor-qdnaseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-qdnaseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-qdnaseq
    :alt:   (downloads)
 .. |docker_bioconductor-qdnaseq| image:: https://quay.io/repository/biocontainers/bioconductor-qdnaseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-qdnaseq

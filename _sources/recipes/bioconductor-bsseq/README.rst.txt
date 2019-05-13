@@ -72,6 +72,7 @@ bioconductor-bsseq
 
 
 .. |downloads_bioconductor-bsseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsseq
    :alt:   (downloads)
 .. |docker_bioconductor-bsseq| image:: https://quay.io/repository/biocontainers/bioconductor-bsseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsseq

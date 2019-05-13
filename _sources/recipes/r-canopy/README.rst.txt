@@ -49,6 +49,7 @@ r-canopy
 
 
 .. |downloads_r-canopy| image:: https://img.shields.io/conda/dn/bioconda/r-canopy.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-canopy
    :alt:   (downloads)
 .. |docker_r-canopy| image:: https://quay.io/repository/biocontainers/r-canopy/status
    :target: https://quay.io/repository/biocontainers/r-canopy

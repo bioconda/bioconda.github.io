@@ -47,6 +47,7 @@ embassy-phylip
 
 
 .. |downloads_embassy-phylip| image:: https://img.shields.io/conda/dn/bioconda/embassy-phylip.svg?style=flat
+   :target: https://anaconda.org/bioconda/embassy-phylip
    :alt:   (downloads)
 .. |docker_embassy-phylip| image:: https://quay.io/repository/biocontainers/embassy-phylip/status
    :target: https://quay.io/repository/biocontainers/embassy-phylip

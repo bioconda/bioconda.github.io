@@ -45,6 +45,7 @@ ecmwfapi
 
 
 .. |downloads_ecmwfapi| image:: https://img.shields.io/conda/dn/bioconda/ecmwfapi.svg?style=flat
+   :target: https://anaconda.org/bioconda/ecmwfapi
    :alt:   (downloads)
 .. |docker_ecmwfapi| image:: https://quay.io/repository/biocontainers/ecmwfapi/status
    :target: https://quay.io/repository/biocontainers/ecmwfapi

@@ -51,6 +51,7 @@ bioconductor-iwtomics
 
 
 .. |downloads_bioconductor-iwtomics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-iwtomics.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-iwtomics
    :alt:   (downloads)
 .. |docker_bioconductor-iwtomics| image:: https://quay.io/repository/biocontainers/bioconductor-iwtomics/status
    :target: https://quay.io/repository/biocontainers/bioconductor-iwtomics

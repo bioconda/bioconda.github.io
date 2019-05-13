@@ -49,6 +49,7 @@ recycler
 
 
 .. |downloads_recycler| image:: https://img.shields.io/conda/dn/bioconda/recycler.svg?style=flat
+   :target: https://anaconda.org/bioconda/recycler
    :alt:   (downloads)
 .. |docker_recycler| image:: https://quay.io/repository/biocontainers/recycler/status
    :target: https://quay.io/repository/biocontainers/recycler

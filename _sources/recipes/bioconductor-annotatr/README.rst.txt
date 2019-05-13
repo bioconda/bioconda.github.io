@@ -58,6 +58,7 @@ bioconductor-annotatr
 
 
 .. |downloads_bioconductor-annotatr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-annotatr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-annotatr
    :alt:   (downloads)
 .. |docker_bioconductor-annotatr| image:: https://quay.io/repository/biocontainers/bioconductor-annotatr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-annotatr

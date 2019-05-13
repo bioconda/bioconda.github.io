@@ -47,6 +47,7 @@ bioconductor-dmrcatedata
 
 
 .. |downloads_bioconductor-dmrcatedata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dmrcatedata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dmrcatedata
    :alt:   (downloads)
 .. |docker_bioconductor-dmrcatedata| image:: https://quay.io/repository/biocontainers/bioconductor-dmrcatedata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dmrcatedata

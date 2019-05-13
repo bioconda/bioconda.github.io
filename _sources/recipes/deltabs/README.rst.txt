@@ -48,6 +48,7 @@ deltabs
 
 
 .. |downloads_deltabs| image:: https://img.shields.io/conda/dn/bioconda/deltabs.svg?style=flat
+   :target: https://anaconda.org/bioconda/deltabs
    :alt:   (downloads)
 .. |docker_deltabs| image:: https://quay.io/repository/biocontainers/deltabs/status
    :target: https://quay.io/repository/biocontainers/deltabs

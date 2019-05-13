@@ -46,6 +46,7 @@ tantan
 
 
 .. |downloads_tantan| image:: https://img.shields.io/conda/dn/bioconda/tantan.svg?style=flat
+   :target: https://anaconda.org/bioconda/tantan
    :alt:   (downloads)
 .. |docker_tantan| image:: https://quay.io/repository/biocontainers/tantan/status
    :target: https://quay.io/repository/biocontainers/tantan

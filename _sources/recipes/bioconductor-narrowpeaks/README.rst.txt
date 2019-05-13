@@ -54,6 +54,7 @@ bioconductor-narrowpeaks
 
 
 .. |downloads_bioconductor-narrowpeaks| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-narrowpeaks.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-narrowpeaks
    :alt:   (downloads)
 .. |docker_bioconductor-narrowpeaks| image:: https://quay.io/repository/biocontainers/bioconductor-narrowpeaks/status
    :target: https://quay.io/repository/biocontainers/bioconductor-narrowpeaks

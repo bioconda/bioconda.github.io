@@ -49,6 +49,7 @@ perl-namespace-autoclean
 
 
 .. |downloads_perl-namespace-autoclean| image:: https://img.shields.io/conda/dn/bioconda/perl-namespace-autoclean.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-namespace-autoclean
    :alt:   (downloads)
 .. |docker_perl-namespace-autoclean| image:: https://quay.io/repository/biocontainers/perl-namespace-autoclean/status
    :target: https://quay.io/repository/biocontainers/perl-namespace-autoclean

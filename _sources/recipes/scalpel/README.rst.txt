@@ -50,6 +50,7 @@ scalpel
 
 
 .. |downloads_scalpel| image:: https://img.shields.io/conda/dn/bioconda/scalpel.svg?style=flat
+   :target: https://anaconda.org/bioconda/scalpel
    :alt:   (downloads)
 .. |docker_scalpel| image:: https://quay.io/repository/biocontainers/scalpel/status
    :target: https://quay.io/repository/biocontainers/scalpel

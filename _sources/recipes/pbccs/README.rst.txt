@@ -44,6 +44,7 @@ pbccs
 
 
 .. |downloads_pbccs| image:: https://img.shields.io/conda/dn/bioconda/pbccs.svg?style=flat
+   :target: https://anaconda.org/bioconda/pbccs
    :alt:   (downloads)
 .. |docker_pbccs| image:: https://quay.io/repository/biocontainers/pbccs/status
    :target: https://quay.io/repository/biocontainers/pbccs

@@ -48,6 +48,7 @@ bioconductor-bayespeak
 
 
 .. |downloads_bioconductor-bayespeak| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bayespeak.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bayespeak
    :alt:   (downloads)
 .. |docker_bioconductor-bayespeak| image:: https://quay.io/repository/biocontainers/bioconductor-bayespeak/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bayespeak

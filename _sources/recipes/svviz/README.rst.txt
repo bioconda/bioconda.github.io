@@ -51,6 +51,7 @@ svviz
 
 
 .. |downloads_svviz| image:: https://img.shields.io/conda/dn/bioconda/svviz.svg?style=flat
+   :target: https://anaconda.org/bioconda/svviz
    :alt:   (downloads)
 .. |docker_svviz| image:: https://quay.io/repository/biocontainers/svviz/status
    :target: https://quay.io/repository/biocontainers/svviz

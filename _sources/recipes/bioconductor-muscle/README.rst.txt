@@ -48,6 +48,7 @@ bioconductor-muscle
 
 
 .. |downloads_bioconductor-muscle| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-muscle.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-muscle
    :alt:   (downloads)
 .. |docker_bioconductor-muscle| image:: https://quay.io/repository/biocontainers/bioconductor-muscle/status
    :target: https://quay.io/repository/biocontainers/bioconductor-muscle

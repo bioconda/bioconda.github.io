@@ -57,6 +57,7 @@ nanonet
 
 
 .. |downloads_nanonet| image:: https://img.shields.io/conda/dn/bioconda/nanonet.svg?style=flat
+   :target: https://anaconda.org/bioconda/nanonet
    :alt:   (downloads)
 .. |docker_nanonet| image:: https://quay.io/repository/biocontainers/nanonet/status
    :target: https://quay.io/repository/biocontainers/nanonet

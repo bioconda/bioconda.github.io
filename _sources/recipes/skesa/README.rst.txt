@@ -48,6 +48,7 @@ skesa
 
 
 .. |downloads_skesa| image:: https://img.shields.io/conda/dn/bioconda/skesa.svg?style=flat
+   :target: https://anaconda.org/bioconda/skesa
    :alt:   (downloads)
 .. |docker_skesa| image:: https://quay.io/repository/biocontainers/skesa/status
    :target: https://quay.io/repository/biocontainers/skesa

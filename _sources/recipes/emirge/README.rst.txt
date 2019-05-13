@@ -54,6 +54,7 @@ emirge
 
 
 .. |downloads_emirge| image:: https://img.shields.io/conda/dn/bioconda/emirge.svg?style=flat
+   :target: https://anaconda.org/bioconda/emirge
    :alt:   (downloads)
 .. |docker_emirge| image:: https://quay.io/repository/biocontainers/emirge/status
    :target: https://quay.io/repository/biocontainers/emirge

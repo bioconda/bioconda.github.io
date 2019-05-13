@@ -48,6 +48,7 @@ kraken-ea
 
 
 .. |downloads_kraken-ea| image:: https://img.shields.io/conda/dn/bioconda/kraken-ea.svg?style=flat
+   :target: https://anaconda.org/bioconda/kraken-ea
    :alt:   (downloads)
 .. |docker_kraken-ea| image:: https://quay.io/repository/biocontainers/kraken-ea/status
    :target: https://quay.io/repository/biocontainers/kraken-ea

@@ -48,6 +48,7 @@ bioconductor-gaprediction
 
 
 .. |downloads_bioconductor-gaprediction| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gaprediction.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gaprediction
    :alt:   (downloads)
 .. |docker_bioconductor-gaprediction| image:: https://quay.io/repository/biocontainers/bioconductor-gaprediction/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gaprediction

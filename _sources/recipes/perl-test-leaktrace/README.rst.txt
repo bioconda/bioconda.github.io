@@ -46,6 +46,7 @@ perl-test-leaktrace
 
 
 .. |downloads_perl-test-leaktrace| image:: https://img.shields.io/conda/dn/bioconda/perl-test-leaktrace.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-leaktrace
    :alt:   (downloads)
 .. |docker_perl-test-leaktrace| image:: https://quay.io/repository/biocontainers/perl-test-leaktrace/status
    :target: https://quay.io/repository/biocontainers/perl-test-leaktrace

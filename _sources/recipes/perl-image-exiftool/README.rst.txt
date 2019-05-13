@@ -45,6 +45,7 @@ perl-image-exiftool
 
 
 .. |downloads_perl-image-exiftool| image:: https://img.shields.io/conda/dn/bioconda/perl-image-exiftool.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-image-exiftool
    :alt:   (downloads)
 .. |docker_perl-image-exiftool| image:: https://quay.io/repository/biocontainers/perl-image-exiftool/status
    :target: https://quay.io/repository/biocontainers/perl-image-exiftool

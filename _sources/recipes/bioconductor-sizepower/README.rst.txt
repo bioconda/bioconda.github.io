@@ -46,6 +46,7 @@ bioconductor-sizepower
 
 
 .. |downloads_bioconductor-sizepower| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sizepower.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sizepower
    :alt:   (downloads)
 .. |docker_bioconductor-sizepower| image:: https://quay.io/repository/biocontainers/bioconductor-sizepower/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sizepower

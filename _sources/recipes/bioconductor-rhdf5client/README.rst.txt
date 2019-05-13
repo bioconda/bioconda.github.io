@@ -51,6 +51,7 @@ bioconductor-rhdf5client
 
 
 .. |downloads_bioconductor-rhdf5client| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rhdf5client.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rhdf5client
    :alt:   (downloads)
 .. |docker_bioconductor-rhdf5client| image:: https://quay.io/repository/biocontainers/bioconductor-rhdf5client/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rhdf5client

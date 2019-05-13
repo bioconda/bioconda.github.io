@@ -47,6 +47,7 @@ kissplice
 
 
 .. |downloads_kissplice| image:: https://img.shields.io/conda/dn/bioconda/kissplice.svg?style=flat
+   :target: https://anaconda.org/bioconda/kissplice
    :alt:   (downloads)
 .. |docker_kissplice| image:: https://quay.io/repository/biocontainers/kissplice/status
    :target: https://quay.io/repository/biocontainers/kissplice

@@ -46,6 +46,7 @@ prophasm
 
 
 .. |downloads_prophasm| image:: https://img.shields.io/conda/dn/bioconda/prophasm.svg?style=flat
+   :target: https://anaconda.org/bioconda/prophasm
    :alt:   (downloads)
 .. |docker_prophasm| image:: https://quay.io/repository/biocontainers/prophasm/status
    :target: https://quay.io/repository/biocontainers/prophasm

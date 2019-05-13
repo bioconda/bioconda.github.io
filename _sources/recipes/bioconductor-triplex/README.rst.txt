@@ -52,6 +52,7 @@ bioconductor-triplex
 
 
 .. |downloads_bioconductor-triplex| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-triplex.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-triplex
    :alt:   (downloads)
 .. |docker_bioconductor-triplex| image:: https://quay.io/repository/biocontainers/bioconductor-triplex/status
    :target: https://quay.io/repository/biocontainers/bioconductor-triplex

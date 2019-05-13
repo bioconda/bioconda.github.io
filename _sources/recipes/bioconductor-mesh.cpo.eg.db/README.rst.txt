@@ -47,6 +47,7 @@ bioconductor-mesh.cpo.eg.db
 
 
 .. |downloads_bioconductor-mesh.cpo.eg.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mesh.cpo.eg.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mesh.cpo.eg.db
    :alt:   (downloads)
 .. |docker_bioconductor-mesh.cpo.eg.db| image:: https://quay.io/repository/biocontainers/bioconductor-mesh.cpo.eg.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mesh.cpo.eg.db

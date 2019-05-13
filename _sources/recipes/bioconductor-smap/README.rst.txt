@@ -47,6 +47,7 @@ bioconductor-smap
 
 
 .. |downloads_bioconductor-smap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-smap.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-smap
    :alt:   (downloads)
 .. |docker_bioconductor-smap| image:: https://quay.io/repository/biocontainers/bioconductor-smap/status
    :target: https://quay.io/repository/biocontainers/bioconductor-smap

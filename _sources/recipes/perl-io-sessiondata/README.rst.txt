@@ -45,6 +45,7 @@ perl-io-sessiondata
 
 
 .. |downloads_perl-io-sessiondata| image:: https://img.shields.io/conda/dn/bioconda/perl-io-sessiondata.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-io-sessiondata
    :alt:   (downloads)
 .. |docker_perl-io-sessiondata| image:: https://quay.io/repository/biocontainers/perl-io-sessiondata/status
    :target: https://quay.io/repository/biocontainers/perl-io-sessiondata

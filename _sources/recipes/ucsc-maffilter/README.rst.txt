@@ -50,6 +50,7 @@ ucsc-maffilter
 
 
 .. |downloads_ucsc-maffilter| image:: https://img.shields.io/conda/dn/bioconda/ucsc-maffilter.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-maffilter
    :alt:   (downloads)
 .. |docker_ucsc-maffilter| image:: https://quay.io/repository/biocontainers/ucsc-maffilter/status
    :target: https://quay.io/repository/biocontainers/ucsc-maffilter

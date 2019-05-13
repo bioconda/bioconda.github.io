@@ -63,6 +63,7 @@ bioconductor-csaw
 
 
 .. |downloads_bioconductor-csaw| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-csaw.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-csaw
    :alt:   (downloads)
 .. |docker_bioconductor-csaw| image:: https://quay.io/repository/biocontainers/bioconductor-csaw/status
    :target: https://quay.io/repository/biocontainers/bioconductor-csaw

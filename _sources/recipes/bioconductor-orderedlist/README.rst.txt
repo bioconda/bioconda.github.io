@@ -48,6 +48,7 @@ bioconductor-orderedlist
 
 
 .. |downloads_bioconductor-orderedlist| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-orderedlist.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-orderedlist
    :alt:   (downloads)
 .. |docker_bioconductor-orderedlist| image:: https://quay.io/repository/biocontainers/bioconductor-orderedlist/status
    :target: https://quay.io/repository/biocontainers/bioconductor-orderedlist

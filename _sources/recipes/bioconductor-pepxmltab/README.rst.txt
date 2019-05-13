@@ -47,6 +47,7 @@ bioconductor-pepxmltab
 
 
 .. |downloads_bioconductor-pepxmltab| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pepxmltab.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pepxmltab
    :alt:   (downloads)
 .. |docker_bioconductor-pepxmltab| image:: https://quay.io/repository/biocontainers/bioconductor-pepxmltab/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pepxmltab

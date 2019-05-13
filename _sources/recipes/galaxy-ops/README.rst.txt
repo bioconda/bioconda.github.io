@@ -46,6 +46,7 @@ galaxy-ops
 
 
 .. |downloads_galaxy-ops| image:: https://img.shields.io/conda/dn/bioconda/galaxy-ops.svg?style=flat
+   :target: https://anaconda.org/bioconda/galaxy-ops
    :alt:   (downloads)
 .. |docker_galaxy-ops| image:: https://quay.io/repository/biocontainers/galaxy-ops/status
    :target: https://quay.io/repository/biocontainers/galaxy-ops

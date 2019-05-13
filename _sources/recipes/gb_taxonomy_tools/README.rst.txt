@@ -44,6 +44,7 @@ gb_taxonomy_tools
 
 
 .. |downloads_gb_taxonomy_tools| image:: https://img.shields.io/conda/dn/bioconda/gb_taxonomy_tools.svg?style=flat
+   :target: https://anaconda.org/bioconda/gb_taxonomy_tools
    :alt:   (downloads)
 .. |docker_gb_taxonomy_tools| image:: https://quay.io/repository/biocontainers/gb_taxonomy_tools/status
    :target: https://quay.io/repository/biocontainers/gb_taxonomy_tools

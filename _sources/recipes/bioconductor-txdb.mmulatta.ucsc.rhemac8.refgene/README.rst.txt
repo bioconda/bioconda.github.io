@@ -48,6 +48,7 @@ bioconductor-txdb.mmulatta.ucsc.rhemac8.refgene
 
 
 .. |downloads_bioconductor-txdb.mmulatta.ucsc.rhemac8.refgene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-txdb.mmulatta.ucsc.rhemac8.refgene.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-txdb.mmulatta.ucsc.rhemac8.refgene
    :alt:   (downloads)
 .. |docker_bioconductor-txdb.mmulatta.ucsc.rhemac8.refgene| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.mmulatta.ucsc.rhemac8.refgene/status
    :target: https://quay.io/repository/biocontainers/bioconductor-txdb.mmulatta.ucsc.rhemac8.refgene

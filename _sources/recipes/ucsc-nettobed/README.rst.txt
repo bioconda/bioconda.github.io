@@ -50,6 +50,7 @@ ucsc-nettobed
 
 
 .. |downloads_ucsc-nettobed| image:: https://img.shields.io/conda/dn/bioconda/ucsc-nettobed.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-nettobed
    :alt:   (downloads)
 .. |docker_ucsc-nettobed| image:: https://quay.io/repository/biocontainers/ucsc-nettobed/status
    :target: https://quay.io/repository/biocontainers/ucsc-nettobed

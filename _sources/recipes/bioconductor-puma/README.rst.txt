@@ -53,6 +53,7 @@ bioconductor-puma
 
 
 .. |downloads_bioconductor-puma| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-puma.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-puma
    :alt:   (downloads)
 .. |docker_bioconductor-puma| image:: https://quay.io/repository/biocontainers/bioconductor-puma/status
    :target: https://quay.io/repository/biocontainers/bioconductor-puma

@@ -50,6 +50,7 @@ verifybamid2
 
 
 .. |downloads_verifybamid2| image:: https://img.shields.io/conda/dn/bioconda/verifybamid2.svg?style=flat
+   :target: https://anaconda.org/bioconda/verifybamid2
    :alt:   (downloads)
 .. |docker_verifybamid2| image:: https://quay.io/repository/biocontainers/verifybamid2/status
    :target: https://quay.io/repository/biocontainers/verifybamid2

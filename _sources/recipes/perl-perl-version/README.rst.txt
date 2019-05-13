@@ -50,6 +50,7 @@ perl-perl-version
 
 
 .. |downloads_perl-perl-version| image:: https://img.shields.io/conda/dn/bioconda/perl-perl-version.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-perl-version
    :alt:   (downloads)
 .. |docker_perl-perl-version| image:: https://quay.io/repository/biocontainers/perl-perl-version/status
    :target: https://quay.io/repository/biocontainers/perl-perl-version

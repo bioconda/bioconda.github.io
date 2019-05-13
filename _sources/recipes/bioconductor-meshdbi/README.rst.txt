@@ -50,6 +50,7 @@ bioconductor-meshdbi
 
 
 .. |downloads_bioconductor-meshdbi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-meshdbi.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-meshdbi
    :alt:   (downloads)
 .. |docker_bioconductor-meshdbi| image:: https://quay.io/repository/biocontainers/bioconductor-meshdbi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-meshdbi

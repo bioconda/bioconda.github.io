@@ -47,6 +47,7 @@ kfoots
 
 
 .. |downloads_kfoots| image:: https://img.shields.io/conda/dn/bioconda/kfoots.svg?style=flat
+   :target: https://anaconda.org/bioconda/kfoots
    :alt:   (downloads)
 .. |docker_kfoots| image:: https://quay.io/repository/biocontainers/kfoots/status
    :target: https://quay.io/repository/biocontainers/kfoots

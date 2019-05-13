@@ -48,6 +48,7 @@ variantbam
 
 
 .. |downloads_variantbam| image:: https://img.shields.io/conda/dn/bioconda/variantbam.svg?style=flat
+   :target: https://anaconda.org/bioconda/variantbam
    :alt:   (downloads)
 .. |docker_variantbam| image:: https://quay.io/repository/biocontainers/variantbam/status
    :target: https://quay.io/repository/biocontainers/variantbam

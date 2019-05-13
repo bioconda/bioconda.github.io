@@ -59,6 +59,7 @@ rnaclust
 
 
 .. |downloads_rnaclust| image:: https://img.shields.io/conda/dn/bioconda/rnaclust.svg?style=flat
+   :target: https://anaconda.org/bioconda/rnaclust
    :alt:   (downloads)
 .. |docker_rnaclust| image:: https://quay.io/repository/biocontainers/rnaclust/status
    :target: https://quay.io/repository/biocontainers/rnaclust

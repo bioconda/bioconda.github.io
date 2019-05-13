@@ -51,6 +51,7 @@ tiddit
 
 
 .. |downloads_tiddit| image:: https://img.shields.io/conda/dn/bioconda/tiddit.svg?style=flat
+   :target: https://anaconda.org/bioconda/tiddit
    :alt:   (downloads)
 .. |docker_tiddit| image:: https://quay.io/repository/biocontainers/tiddit/status
    :target: https://quay.io/repository/biocontainers/tiddit

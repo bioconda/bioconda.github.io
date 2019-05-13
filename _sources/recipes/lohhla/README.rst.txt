@@ -55,6 +55,7 @@ lohhla
 
 
 .. |downloads_lohhla| image:: https://img.shields.io/conda/dn/bioconda/lohhla.svg?style=flat
+   :target: https://anaconda.org/bioconda/lohhla
    :alt:   (downloads)
 .. |docker_lohhla| image:: https://quay.io/repository/biocontainers/lohhla/status
    :target: https://quay.io/repository/biocontainers/lohhla

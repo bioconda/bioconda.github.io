@@ -51,6 +51,7 @@ bioconductor-m3drop
 
 
 .. |downloads_bioconductor-m3drop| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-m3drop.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-m3drop
    :alt:   (downloads)
 .. |docker_bioconductor-m3drop| image:: https://quay.io/repository/biocontainers/bioconductor-m3drop/status
    :target: https://quay.io/repository/biocontainers/bioconductor-m3drop

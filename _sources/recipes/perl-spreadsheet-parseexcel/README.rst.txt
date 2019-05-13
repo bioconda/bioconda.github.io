@@ -52,6 +52,7 @@ perl-spreadsheet-parseexcel
 
 
 .. |downloads_perl-spreadsheet-parseexcel| image:: https://img.shields.io/conda/dn/bioconda/perl-spreadsheet-parseexcel.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-spreadsheet-parseexcel
    :alt:   (downloads)
 .. |docker_perl-spreadsheet-parseexcel| image:: https://quay.io/repository/biocontainers/perl-spreadsheet-parseexcel/status
    :target: https://quay.io/repository/biocontainers/perl-spreadsheet-parseexcel

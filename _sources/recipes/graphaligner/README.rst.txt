@@ -47,6 +47,7 @@ graphaligner
 
 
 .. |downloads_graphaligner| image:: https://img.shields.io/conda/dn/bioconda/graphaligner.svg?style=flat
+   :target: https://anaconda.org/bioconda/graphaligner
    :alt:   (downloads)
 .. |docker_graphaligner| image:: https://quay.io/repository/biocontainers/graphaligner/status
    :target: https://quay.io/repository/biocontainers/graphaligner

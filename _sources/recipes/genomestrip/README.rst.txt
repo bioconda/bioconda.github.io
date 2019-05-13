@@ -48,6 +48,7 @@ genomestrip
 
 
 .. |downloads_genomestrip| image:: https://img.shields.io/conda/dn/bioconda/genomestrip.svg?style=flat
+   :target: https://anaconda.org/bioconda/genomestrip
    :alt:   (downloads)
 .. |docker_genomestrip| image:: https://quay.io/repository/biocontainers/genomestrip/status
    :target: https://quay.io/repository/biocontainers/genomestrip

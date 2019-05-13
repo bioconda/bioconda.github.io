@@ -46,6 +46,7 @@ bioconductor-pathprintgeodata
 
 
 .. |downloads_bioconductor-pathprintgeodata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pathprintgeodata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pathprintgeodata
    :alt:   (downloads)
 .. |docker_bioconductor-pathprintgeodata| image:: https://quay.io/repository/biocontainers/bioconductor-pathprintgeodata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pathprintgeodata

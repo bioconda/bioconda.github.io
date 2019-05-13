@@ -61,6 +61,7 @@ scelvis
 
 
 .. |downloads_scelvis| image:: https://img.shields.io/conda/dn/bioconda/scelvis.svg?style=flat
+   :target: https://anaconda.org/bioconda/scelvis
    :alt:   (downloads)
 .. |docker_scelvis| image:: https://quay.io/repository/biocontainers/scelvis/status
    :target: https://quay.io/repository/biocontainers/scelvis

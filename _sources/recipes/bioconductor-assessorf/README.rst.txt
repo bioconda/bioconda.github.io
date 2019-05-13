@@ -49,6 +49,7 @@ bioconductor-assessorf
 
 
 .. |downloads_bioconductor-assessorf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-assessorf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-assessorf
    :alt:   (downloads)
 .. |docker_bioconductor-assessorf| image:: https://quay.io/repository/biocontainers/bioconductor-assessorf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-assessorf

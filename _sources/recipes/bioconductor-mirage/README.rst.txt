@@ -51,6 +51,7 @@ bioconductor-mirage
 
 
 .. |downloads_bioconductor-mirage| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirage.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mirage
    :alt:   (downloads)
 .. |docker_bioconductor-mirage| image:: https://quay.io/repository/biocontainers/bioconductor-mirage/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mirage

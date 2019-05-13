@@ -47,6 +47,7 @@ intermine
 
 
 .. |downloads_intermine| image:: https://img.shields.io/conda/dn/bioconda/intermine.svg?style=flat
+   :target: https://anaconda.org/bioconda/intermine
    :alt:   (downloads)
 .. |docker_intermine| image:: https://quay.io/repository/biocontainers/intermine/status
    :target: https://quay.io/repository/biocontainers/intermine

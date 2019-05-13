@@ -46,6 +46,7 @@ mdasim
 
 
 .. |downloads_mdasim| image:: https://img.shields.io/conda/dn/bioconda/mdasim.svg?style=flat
+   :target: https://anaconda.org/bioconda/mdasim
    :alt:   (downloads)
 .. |docker_mdasim| image:: https://quay.io/repository/biocontainers/mdasim/status
    :target: https://quay.io/repository/biocontainers/mdasim

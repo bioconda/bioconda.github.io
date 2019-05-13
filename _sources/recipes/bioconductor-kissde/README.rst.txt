@@ -54,6 +54,7 @@ bioconductor-kissde
 
 
 .. |downloads_bioconductor-kissde| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-kissde.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-kissde
    :alt:   (downloads)
 .. |docker_bioconductor-kissde| image:: https://quay.io/repository/biocontainers/bioconductor-kissde/status
    :target: https://quay.io/repository/biocontainers/bioconductor-kissde

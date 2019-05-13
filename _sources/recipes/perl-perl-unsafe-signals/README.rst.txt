@@ -47,6 +47,7 @@ perl-perl-unsafe-signals
 
 
 .. |downloads_perl-perl-unsafe-signals| image:: https://img.shields.io/conda/dn/bioconda/perl-perl-unsafe-signals.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-perl-unsafe-signals
    :alt:   (downloads)
 .. |docker_perl-perl-unsafe-signals| image:: https://quay.io/repository/biocontainers/perl-perl-unsafe-signals/status
    :target: https://quay.io/repository/biocontainers/perl-perl-unsafe-signals

@@ -48,6 +48,7 @@ tirmite
 
 
 .. |downloads_tirmite| image:: https://img.shields.io/conda/dn/bioconda/tirmite.svg?style=flat
+   :target: https://anaconda.org/bioconda/tirmite
    :alt:   (downloads)
 .. |docker_tirmite| image:: https://quay.io/repository/biocontainers/tirmite/status
    :target: https://quay.io/repository/biocontainers/tirmite

@@ -52,6 +52,7 @@ r-spp
 
 
 .. |downloads_r-spp| image:: https://img.shields.io/conda/dn/bioconda/r-spp.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-spp
    :alt:   (downloads)
 .. |docker_r-spp| image:: https://quay.io/repository/biocontainers/r-spp/status
    :target: https://quay.io/repository/biocontainers/r-spp

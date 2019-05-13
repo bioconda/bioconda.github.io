@@ -46,6 +46,7 @@ bioconductor-rhdf5lib
 
 
 .. |downloads_bioconductor-rhdf5lib| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rhdf5lib.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rhdf5lib
    :alt:   (downloads)
 .. |docker_bioconductor-rhdf5lib| image:: https://quay.io/repository/biocontainers/bioconductor-rhdf5lib/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rhdf5lib

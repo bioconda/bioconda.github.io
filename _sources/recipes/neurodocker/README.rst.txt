@@ -47,6 +47,7 @@ neurodocker
 
 
 .. |downloads_neurodocker| image:: https://img.shields.io/conda/dn/bioconda/neurodocker.svg?style=flat
+   :target: https://anaconda.org/bioconda/neurodocker
    :alt:   (downloads)
 .. |docker_neurodocker| image:: https://quay.io/repository/biocontainers/neurodocker/status
    :target: https://quay.io/repository/biocontainers/neurodocker

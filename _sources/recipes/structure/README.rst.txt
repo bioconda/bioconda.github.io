@@ -46,6 +46,7 @@ structure
 
 
 .. |downloads_structure| image:: https://img.shields.io/conda/dn/bioconda/structure.svg?style=flat
+   :target: https://anaconda.org/bioconda/structure
    :alt:   (downloads)
 .. |docker_structure| image:: https://quay.io/repository/biocontainers/structure/status
    :target: https://quay.io/repository/biocontainers/structure

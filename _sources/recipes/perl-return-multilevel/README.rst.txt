@@ -49,6 +49,7 @@ perl-return-multilevel
 
 
 .. |downloads_perl-return-multilevel| image:: https://img.shields.io/conda/dn/bioconda/perl-return-multilevel.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-return-multilevel
    :alt:   (downloads)
 .. |docker_perl-return-multilevel| image:: https://quay.io/repository/biocontainers/perl-return-multilevel/status
    :target: https://quay.io/repository/biocontainers/perl-return-multilevel

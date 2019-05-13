@@ -46,6 +46,7 @@ perl-test-exec
 
 
 .. |downloads_perl-test-exec| image:: https://img.shields.io/conda/dn/bioconda/perl-test-exec.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-exec
    :alt:   (downloads)
 .. |docker_perl-test-exec| image:: https://quay.io/repository/biocontainers/perl-test-exec/status
    :target: https://quay.io/repository/biocontainers/perl-test-exec

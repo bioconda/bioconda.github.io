@@ -46,6 +46,7 @@ survivor
 
 
 .. |downloads_survivor| image:: https://img.shields.io/conda/dn/bioconda/survivor.svg?style=flat
+   :target: https://anaconda.org/bioconda/survivor
    :alt:   (downloads)
 .. |docker_survivor| image:: https://quay.io/repository/biocontainers/survivor/status
    :target: https://quay.io/repository/biocontainers/survivor

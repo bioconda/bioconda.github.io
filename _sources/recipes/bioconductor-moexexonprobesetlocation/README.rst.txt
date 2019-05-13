@@ -47,6 +47,7 @@ bioconductor-moexexonprobesetlocation
 
 
 .. |downloads_bioconductor-moexexonprobesetlocation| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-moexexonprobesetlocation.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-moexexonprobesetlocation
    :alt:   (downloads)
 .. |docker_bioconductor-moexexonprobesetlocation| image:: https://quay.io/repository/biocontainers/bioconductor-moexexonprobesetlocation/status
    :target: https://quay.io/repository/biocontainers/bioconductor-moexexonprobesetlocation

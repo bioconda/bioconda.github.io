@@ -53,6 +53,7 @@ goatools
 
 
 .. |downloads_goatools| image:: https://img.shields.io/conda/dn/bioconda/goatools.svg?style=flat
+   :target: https://anaconda.org/bioconda/goatools
    :alt:   (downloads)
 .. |docker_goatools| image:: https://quay.io/repository/biocontainers/goatools/status
    :target: https://quay.io/repository/biocontainers/goatools

@@ -47,6 +47,7 @@ perl-json-maybexs
 
 
 .. |downloads_perl-json-maybexs| image:: https://img.shields.io/conda/dn/bioconda/perl-json-maybexs.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-json-maybexs
    :alt:   (downloads)
 .. |docker_perl-json-maybexs| image:: https://quay.io/repository/biocontainers/perl-json-maybexs/status
    :target: https://quay.io/repository/biocontainers/perl-json-maybexs

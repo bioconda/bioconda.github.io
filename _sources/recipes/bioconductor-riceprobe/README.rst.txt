@@ -47,6 +47,7 @@ bioconductor-riceprobe
 
 
 .. |downloads_bioconductor-riceprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-riceprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-riceprobe
    :alt:   (downloads)
 .. |docker_bioconductor-riceprobe| image:: https://quay.io/repository/biocontainers/bioconductor-riceprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-riceprobe

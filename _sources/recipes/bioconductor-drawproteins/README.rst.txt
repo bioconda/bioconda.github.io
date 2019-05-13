@@ -51,6 +51,7 @@ bioconductor-drawproteins
 
 
 .. |downloads_bioconductor-drawproteins| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-drawproteins.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-drawproteins
    :alt:   (downloads)
 .. |docker_bioconductor-drawproteins| image:: https://quay.io/repository/biocontainers/bioconductor-drawproteins/status
    :target: https://quay.io/repository/biocontainers/bioconductor-drawproteins

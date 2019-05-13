@@ -55,6 +55,7 @@ bioconductor-camthc
 
 
 .. |downloads_bioconductor-camthc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-camthc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-camthc
    :alt:   (downloads)
 .. |docker_bioconductor-camthc| image:: https://quay.io/repository/biocontainers/bioconductor-camthc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-camthc

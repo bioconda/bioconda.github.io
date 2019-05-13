@@ -48,6 +48,7 @@ bioconductor-rseqan
 
 
 .. |downloads_bioconductor-rseqan| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rseqan.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rseqan
    :alt:   (downloads)
 .. |docker_bioconductor-rseqan| image:: https://quay.io/repository/biocontainers/bioconductor-rseqan/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rseqan

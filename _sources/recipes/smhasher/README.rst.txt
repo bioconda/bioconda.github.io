@@ -46,6 +46,7 @@ smhasher
 
 
 .. |downloads_smhasher| image:: https://img.shields.io/conda/dn/bioconda/smhasher.svg?style=flat
+   :target: https://anaconda.org/bioconda/smhasher
    :alt:   (downloads)
 .. |docker_smhasher| image:: https://quay.io/repository/biocontainers/smhasher/status
    :target: https://quay.io/repository/biocontainers/smhasher

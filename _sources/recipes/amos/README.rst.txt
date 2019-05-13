@@ -52,6 +52,7 @@ amos
 
 
 .. |downloads_amos| image:: https://img.shields.io/conda/dn/bioconda/amos.svg?style=flat
+   :target: https://anaconda.org/bioconda/amos
    :alt:   (downloads)
 .. |docker_amos| image:: https://quay.io/repository/biocontainers/amos/status
    :target: https://quay.io/repository/biocontainers/amos

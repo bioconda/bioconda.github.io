@@ -54,6 +54,7 @@ pydnase
 
 
 .. |downloads_pydnase| image:: https://img.shields.io/conda/dn/bioconda/pydnase.svg?style=flat
+   :target: https://anaconda.org/bioconda/pydnase
    :alt:   (downloads)
 .. |docker_pydnase| image:: https://quay.io/repository/biocontainers/pydnase/status
    :target: https://quay.io/repository/biocontainers/pydnase

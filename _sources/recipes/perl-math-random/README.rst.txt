@@ -46,6 +46,7 @@ perl-math-random
 
 
 .. |downloads_perl-math-random| image:: https://img.shields.io/conda/dn/bioconda/perl-math-random.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-math-random
    :alt:   (downloads)
 .. |docker_perl-math-random| image:: https://quay.io/repository/biocontainers/perl-math-random/status
    :target: https://quay.io/repository/biocontainers/perl-math-random

@@ -53,6 +53,7 @@ galaxy-lib
 
 
 .. |downloads_galaxy-lib| image:: https://img.shields.io/conda/dn/bioconda/galaxy-lib.svg?style=flat
+   :target: https://anaconda.org/bioconda/galaxy-lib
    :alt:   (downloads)
 .. |docker_galaxy-lib| image:: https://quay.io/repository/biocontainers/galaxy-lib/status
    :target: https://quay.io/repository/biocontainers/galaxy-lib

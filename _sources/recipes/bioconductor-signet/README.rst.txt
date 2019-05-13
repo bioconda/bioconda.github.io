@@ -48,6 +48,7 @@ bioconductor-signet
 
 
 .. |downloads_bioconductor-signet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-signet.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-signet
    :alt:   (downloads)
 .. |docker_bioconductor-signet| image:: https://quay.io/repository/biocontainers/bioconductor-signet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-signet

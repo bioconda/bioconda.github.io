@@ -49,6 +49,7 @@ bioconductor-metaarray
 
 
 .. |downloads_bioconductor-metaarray| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metaarray.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-metaarray
    :alt:   (downloads)
 .. |docker_bioconductor-metaarray| image:: https://quay.io/repository/biocontainers/bioconductor-metaarray/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metaarray

@@ -47,6 +47,7 @@ bioconductor-hivprtplus2cdf
 
 
 .. |downloads_bioconductor-hivprtplus2cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hivprtplus2cdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hivprtplus2cdf
    :alt:   (downloads)
 .. |docker_bioconductor-hivprtplus2cdf| image:: https://quay.io/repository/biocontainers/bioconductor-hivprtplus2cdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hivprtplus2cdf

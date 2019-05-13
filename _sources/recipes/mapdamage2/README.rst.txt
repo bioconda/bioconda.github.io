@@ -47,6 +47,7 @@ mapdamage2
 
 
 .. |downloads_mapdamage2| image:: https://img.shields.io/conda/dn/bioconda/mapdamage2.svg?style=flat
+   :target: https://anaconda.org/bioconda/mapdamage2
    :alt:   (downloads)
 .. |docker_mapdamage2| image:: https://quay.io/repository/biocontainers/mapdamage2/status
    :target: https://quay.io/repository/biocontainers/mapdamage2

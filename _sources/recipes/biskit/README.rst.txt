@@ -49,6 +49,7 @@ biskit
 
 
 .. |downloads_biskit| image:: https://img.shields.io/conda/dn/bioconda/biskit.svg?style=flat
+   :target: https://anaconda.org/bioconda/biskit
    :alt:   (downloads)
 .. |docker_biskit| image:: https://quay.io/repository/biocontainers/biskit/status
    :target: https://quay.io/repository/biocontainers/biskit

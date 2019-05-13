@@ -54,6 +54,7 @@ bioconductor-pepstat
 
 
 .. |downloads_bioconductor-pepstat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pepstat.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pepstat
    :alt:   (downloads)
 .. |docker_bioconductor-pepstat| image:: https://quay.io/repository/biocontainers/bioconductor-pepstat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pepstat

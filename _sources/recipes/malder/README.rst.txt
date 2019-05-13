@@ -51,6 +51,7 @@ malder
 
 
 .. |downloads_malder| image:: https://img.shields.io/conda/dn/bioconda/malder.svg?style=flat
+   :target: https://anaconda.org/bioconda/malder
    :alt:   (downloads)
 .. |docker_malder| image:: https://quay.io/repository/biocontainers/malder/status
    :target: https://quay.io/repository/biocontainers/malder

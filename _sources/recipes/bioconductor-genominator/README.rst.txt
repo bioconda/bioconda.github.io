@@ -51,6 +51,7 @@ bioconductor-genominator
 
 
 .. |downloads_bioconductor-genominator| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genominator.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genominator
    :alt:   (downloads)
 .. |docker_bioconductor-genominator| image:: https://quay.io/repository/biocontainers/bioconductor-genominator/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genominator

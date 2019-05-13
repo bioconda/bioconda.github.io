@@ -44,6 +44,7 @@ bioconductor-rsbml
 
 
 .. |downloads_bioconductor-rsbml| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rsbml.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rsbml
    :alt:   (downloads)
 .. |docker_bioconductor-rsbml| image:: https://quay.io/repository/biocontainers/bioconductor-rsbml/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rsbml

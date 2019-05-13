@@ -49,6 +49,7 @@ gmap
 
 
 .. |downloads_gmap| image:: https://img.shields.io/conda/dn/bioconda/gmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/gmap
    :alt:   (downloads)
 .. |docker_gmap| image:: https://quay.io/repository/biocontainers/gmap/status
    :target: https://quay.io/repository/biocontainers/gmap

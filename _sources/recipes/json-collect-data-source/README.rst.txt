@@ -45,6 +45,7 @@ json_collect_data_source
 
 
 .. |downloads_json_collect_data_source| image:: https://img.shields.io/conda/dn/bioconda/json_collect_data_source.svg?style=flat
+   :target: https://anaconda.org/bioconda/json_collect_data_source
    :alt:   (downloads)
 .. |docker_json_collect_data_source| image:: https://quay.io/repository/biocontainers/json_collect_data_source/status
    :target: https://quay.io/repository/biocontainers/json_collect_data_source

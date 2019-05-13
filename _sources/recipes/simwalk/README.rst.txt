@@ -46,6 +46,7 @@ simwalk2
 
 
 .. |downloads_simwalk2| image:: https://img.shields.io/conda/dn/bioconda/simwalk2.svg?style=flat
+   :target: https://anaconda.org/bioconda/simwalk2
    :alt:   (downloads)
 .. |docker_simwalk2| image:: https://quay.io/repository/biocontainers/simwalk2/status
    :target: https://quay.io/repository/biocontainers/simwalk2

@@ -54,6 +54,7 @@ bioconductor-bgeedb
 
 
 .. |downloads_bioconductor-bgeedb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bgeedb.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bgeedb
    :alt:   (downloads)
 .. |docker_bioconductor-bgeedb| image:: https://quay.io/repository/biocontainers/bioconductor-bgeedb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bgeedb

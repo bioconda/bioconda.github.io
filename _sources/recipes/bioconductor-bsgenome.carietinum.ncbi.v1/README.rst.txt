@@ -47,6 +47,7 @@ bioconductor-bsgenome.carietinum.ncbi.v1
 
 
 .. |downloads_bioconductor-bsgenome.carietinum.ncbi.v1| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.carietinum.ncbi.v1.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome.carietinum.ncbi.v1
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.carietinum.ncbi.v1| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.carietinum.ncbi.v1/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.carietinum.ncbi.v1

@@ -55,6 +55,7 @@ abricate
 
 
 .. |downloads_abricate| image:: https://img.shields.io/conda/dn/bioconda/abricate.svg?style=flat
+   :target: https://anaconda.org/bioconda/abricate
    :alt:   (downloads)
 .. |docker_abricate| image:: https://quay.io/repository/biocontainers/abricate/status
    :target: https://quay.io/repository/biocontainers/abricate

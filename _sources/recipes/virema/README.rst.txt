@@ -46,6 +46,7 @@ virema
 
 
 .. |downloads_virema| image:: https://img.shields.io/conda/dn/bioconda/virema.svg?style=flat
+   :target: https://anaconda.org/bioconda/virema
    :alt:   (downloads)
 .. |docker_virema| image:: https://quay.io/repository/biocontainers/virema/status
    :target: https://quay.io/repository/biocontainers/virema

@@ -46,6 +46,7 @@ npyscreen
 
 
 .. |downloads_npyscreen| image:: https://img.shields.io/conda/dn/bioconda/npyscreen.svg?style=flat
+   :target: https://anaconda.org/bioconda/npyscreen
    :alt:   (downloads)
 .. |docker_npyscreen| image:: https://quay.io/repository/biocontainers/npyscreen/status
    :target: https://quay.io/repository/biocontainers/npyscreen

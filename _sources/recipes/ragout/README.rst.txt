@@ -49,6 +49,7 @@ ragout
 
 
 .. |downloads_ragout| image:: https://img.shields.io/conda/dn/bioconda/ragout.svg?style=flat
+   :target: https://anaconda.org/bioconda/ragout
    :alt:   (downloads)
 .. |docker_ragout| image:: https://quay.io/repository/biocontainers/ragout/status
    :target: https://quay.io/repository/biocontainers/ragout

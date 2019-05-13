@@ -53,6 +53,7 @@ pydna
 
 
 .. |downloads_pydna| image:: https://img.shields.io/conda/dn/bioconda/pydna.svg?style=flat
+   :target: https://anaconda.org/bioconda/pydna
    :alt:   (downloads)
 .. |docker_pydna| image:: https://quay.io/repository/biocontainers/pydna/status
    :target: https://quay.io/repository/biocontainers/pydna

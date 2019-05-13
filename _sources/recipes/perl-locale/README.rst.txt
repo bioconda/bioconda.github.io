@@ -45,6 +45,7 @@ perl-locale
 
 
 .. |downloads_perl-locale| image:: https://img.shields.io/conda/dn/bioconda/perl-locale.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-locale
    :alt:   (downloads)
 .. |docker_perl-locale| image:: https://quay.io/repository/biocontainers/perl-locale/status
    :target: https://quay.io/repository/biocontainers/perl-locale

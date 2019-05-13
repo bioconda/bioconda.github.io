@@ -45,6 +45,7 @@ ls-gkm
 
 
 .. |downloads_ls-gkm| image:: https://img.shields.io/conda/dn/bioconda/ls-gkm.svg?style=flat
+   :target: https://anaconda.org/bioconda/ls-gkm
    :alt:   (downloads)
 .. |docker_ls-gkm| image:: https://quay.io/repository/biocontainers/ls-gkm/status
    :target: https://quay.io/repository/biocontainers/ls-gkm

@@ -45,6 +45,7 @@ sim4db
 
 
 .. |downloads_sim4db| image:: https://img.shields.io/conda/dn/bioconda/sim4db.svg?style=flat
+   :target: https://anaconda.org/bioconda/sim4db
    :alt:   (downloads)
 .. |docker_sim4db| image:: https://quay.io/repository/biocontainers/sim4db/status
    :target: https://quay.io/repository/biocontainers/sim4db

@@ -45,6 +45,7 @@ bibliospec
 
 
 .. |downloads_bibliospec| image:: https://img.shields.io/conda/dn/bioconda/bibliospec.svg?style=flat
+   :target: https://anaconda.org/bioconda/bibliospec
    :alt:   (downloads)
 .. |docker_bibliospec| image:: https://quay.io/repository/biocontainers/bibliospec/status
    :target: https://quay.io/repository/biocontainers/bibliospec

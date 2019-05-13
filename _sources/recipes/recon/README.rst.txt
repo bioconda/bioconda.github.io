@@ -45,6 +45,7 @@ recon
 
 
 .. |downloads_recon| image:: https://img.shields.io/conda/dn/bioconda/recon.svg?style=flat
+   :target: https://anaconda.org/bioconda/recon
    :alt:   (downloads)
 .. |docker_recon| image:: https://quay.io/repository/biocontainers/recon/status
    :target: https://quay.io/repository/biocontainers/recon

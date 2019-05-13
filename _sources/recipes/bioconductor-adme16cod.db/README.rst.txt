@@ -48,6 +48,7 @@ bioconductor-adme16cod.db
 
 
 .. |downloads_bioconductor-adme16cod.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-adme16cod.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-adme16cod.db
    :alt:   (downloads)
 .. |docker_bioconductor-adme16cod.db| image:: https://quay.io/repository/biocontainers/bioconductor-adme16cod.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-adme16cod.db

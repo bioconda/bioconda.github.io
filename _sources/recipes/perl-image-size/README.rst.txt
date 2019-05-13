@@ -45,6 +45,7 @@ perl-image-size
 
 
 .. |downloads_perl-image-size| image:: https://img.shields.io/conda/dn/bioconda/perl-image-size.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-image-size
    :alt:   (downloads)
 .. |docker_perl-image-size| image:: https://quay.io/repository/biocontainers/perl-image-size/status
    :target: https://quay.io/repository/biocontainers/perl-image-size

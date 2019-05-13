@@ -45,6 +45,7 @@ perl-test-inter
 
 
 .. |downloads_perl-test-inter| image:: https://img.shields.io/conda/dn/bioconda/perl-test-inter.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-inter
    :alt:   (downloads)
 .. |docker_perl-test-inter| image:: https://quay.io/repository/biocontainers/perl-test-inter/status
    :target: https://quay.io/repository/biocontainers/perl-test-inter

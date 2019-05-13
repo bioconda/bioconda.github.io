@@ -58,6 +58,7 @@ bioconductor-bnbc
 
 
 .. |downloads_bioconductor-bnbc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bnbc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bnbc
    :alt:   (downloads)
 .. |docker_bioconductor-bnbc| image:: https://quay.io/repository/biocontainers/bioconductor-bnbc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bnbc

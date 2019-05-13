@@ -48,6 +48,7 @@ bioconductor-logitt
 
 
 .. |downloads_bioconductor-logitt| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-logitt.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-logitt
    :alt:   (downloads)
 .. |docker_bioconductor-logitt| image:: https://quay.io/repository/biocontainers/bioconductor-logitt/status
    :target: https://quay.io/repository/biocontainers/bioconductor-logitt

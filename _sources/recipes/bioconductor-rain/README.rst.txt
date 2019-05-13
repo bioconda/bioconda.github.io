@@ -48,6 +48,7 @@ bioconductor-rain
 
 
 .. |downloads_bioconductor-rain| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rain.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rain
    :alt:   (downloads)
 .. |docker_bioconductor-rain| image:: https://quay.io/repository/biocontainers/bioconductor-rain/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rain

@@ -45,6 +45,7 @@ xmlbuilder
 
 
 .. |downloads_xmlbuilder| image:: https://img.shields.io/conda/dn/bioconda/xmlbuilder.svg?style=flat
+   :target: https://anaconda.org/bioconda/xmlbuilder
    :alt:   (downloads)
 .. |docker_xmlbuilder| image:: https://quay.io/repository/biocontainers/xmlbuilder/status
    :target: https://quay.io/repository/biocontainers/xmlbuilder

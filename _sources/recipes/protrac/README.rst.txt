@@ -46,6 +46,7 @@ protrac
 
 
 .. |downloads_protrac| image:: https://img.shields.io/conda/dn/bioconda/protrac.svg?style=flat
+   :target: https://anaconda.org/bioconda/protrac
    :alt:   (downloads)
 .. |docker_protrac| image:: https://quay.io/repository/biocontainers/protrac/status
    :target: https://quay.io/repository/biocontainers/protrac

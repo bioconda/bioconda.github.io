@@ -50,6 +50,7 @@ bioconductor-cancerinsilico
 
 
 .. |downloads_bioconductor-cancerinsilico| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cancerinsilico.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cancerinsilico
    :alt:   (downloads)
 .. |docker_bioconductor-cancerinsilico| image:: https://quay.io/repository/biocontainers/bioconductor-cancerinsilico/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cancerinsilico

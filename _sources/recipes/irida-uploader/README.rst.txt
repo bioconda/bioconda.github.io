@@ -51,6 +51,7 @@ irida-uploader
 
 
 .. |downloads_irida-uploader| image:: https://img.shields.io/conda/dn/bioconda/irida-uploader.svg?style=flat
+   :target: https://anaconda.org/bioconda/irida-uploader
    :alt:   (downloads)
 .. |docker_irida-uploader| image:: https://quay.io/repository/biocontainers/irida-uploader/status
    :target: https://quay.io/repository/biocontainers/irida-uploader

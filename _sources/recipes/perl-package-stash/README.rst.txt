@@ -54,6 +54,7 @@ perl-package-stash
 
 
 .. |downloads_perl-package-stash| image:: https://img.shields.io/conda/dn/bioconda/perl-package-stash.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-package-stash
    :alt:   (downloads)
 .. |docker_perl-package-stash| image:: https://quay.io/repository/biocontainers/perl-package-stash/status
    :target: https://quay.io/repository/biocontainers/perl-package-stash

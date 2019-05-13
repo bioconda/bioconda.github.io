@@ -46,6 +46,7 @@ wtdbg
 
 
 .. |downloads_wtdbg| image:: https://img.shields.io/conda/dn/bioconda/wtdbg.svg?style=flat
+   :target: https://anaconda.org/bioconda/wtdbg
    :alt:   (downloads)
 .. |docker_wtdbg| image:: https://quay.io/repository/biocontainers/wtdbg/status
    :target: https://quay.io/repository/biocontainers/wtdbg

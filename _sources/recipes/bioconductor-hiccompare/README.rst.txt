@@ -60,6 +60,7 @@ bioconductor-hiccompare
 
 
 .. |downloads_bioconductor-hiccompare| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hiccompare.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hiccompare
    :alt:   (downloads)
 .. |docker_bioconductor-hiccompare| image:: https://quay.io/repository/biocontainers/bioconductor-hiccompare/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hiccompare

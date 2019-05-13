@@ -53,6 +53,7 @@ bioconductor-ppistats
 
 
 .. |downloads_bioconductor-ppistats| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ppistats.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ppistats
    :alt:   (downloads)
 .. |docker_bioconductor-ppistats| image:: https://quay.io/repository/biocontainers/bioconductor-ppistats/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ppistats

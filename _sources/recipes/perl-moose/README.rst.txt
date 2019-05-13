@@ -68,6 +68,7 @@ perl-moose
 
 
 .. |downloads_perl-moose| image:: https://img.shields.io/conda/dn/bioconda/perl-moose.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-moose
    :alt:   (downloads)
 .. |docker_perl-moose| image:: https://quay.io/repository/biocontainers/perl-moose/status
    :target: https://quay.io/repository/biocontainers/perl-moose

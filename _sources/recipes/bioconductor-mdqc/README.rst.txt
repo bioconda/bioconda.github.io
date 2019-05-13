@@ -48,6 +48,7 @@ bioconductor-mdqc
 
 
 .. |downloads_bioconductor-mdqc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mdqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mdqc
    :alt:   (downloads)
 .. |docker_bioconductor-mdqc| image:: https://quay.io/repository/biocontainers/bioconductor-mdqc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mdqc

@@ -50,6 +50,7 @@ r-aptreeshape
 
 
 .. |downloads_r-aptreeshape| image:: https://img.shields.io/conda/dn/bioconda/r-aptreeshape.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-aptreeshape
    :alt:   (downloads)
 .. |docker_r-aptreeshape| image:: https://quay.io/repository/biocontainers/r-aptreeshape/status
    :target: https://quay.io/repository/biocontainers/r-aptreeshape

@@ -52,6 +52,7 @@ finestructure
 
 
 .. |downloads_finestructure| image:: https://img.shields.io/conda/dn/bioconda/finestructure.svg?style=flat
+   :target: https://anaconda.org/bioconda/finestructure
    :alt:   (downloads)
 .. |docker_finestructure| image:: https://quay.io/repository/biocontainers/finestructure/status
    :target: https://quay.io/repository/biocontainers/finestructure

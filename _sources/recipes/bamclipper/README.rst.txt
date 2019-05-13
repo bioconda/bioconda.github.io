@@ -47,6 +47,7 @@ bamclipper
 
 
 .. |downloads_bamclipper| image:: https://img.shields.io/conda/dn/bioconda/bamclipper.svg?style=flat
+   :target: https://anaconda.org/bioconda/bamclipper
    :alt:   (downloads)
 .. |docker_bamclipper| image:: https://quay.io/repository/biocontainers/bamclipper/status
    :target: https://quay.io/repository/biocontainers/bamclipper

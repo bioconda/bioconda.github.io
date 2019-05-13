@@ -50,6 +50,7 @@ bioconductor-sim
 
 
 .. |downloads_bioconductor-sim| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sim.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sim
    :alt:   (downloads)
 .. |docker_bioconductor-sim| image:: https://quay.io/repository/biocontainers/bioconductor-sim/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sim

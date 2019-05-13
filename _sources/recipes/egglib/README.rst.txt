@@ -46,6 +46,7 @@ egglib
 
 
 .. |downloads_egglib| image:: https://img.shields.io/conda/dn/bioconda/egglib.svg?style=flat
+   :target: https://anaconda.org/bioconda/egglib
    :alt:   (downloads)
 .. |docker_egglib| image:: https://quay.io/repository/biocontainers/egglib/status
    :target: https://quay.io/repository/biocontainers/egglib

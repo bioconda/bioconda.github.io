@@ -55,6 +55,7 @@ r-dgeclustering
 
 
 .. |downloads_r-dgeclustering| image:: https://img.shields.io/conda/dn/bioconda/r-dgeclustering.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-dgeclustering
    :alt:   (downloads)
 .. |docker_r-dgeclustering| image:: https://quay.io/repository/biocontainers/r-dgeclustering/status
    :target: https://quay.io/repository/biocontainers/r-dgeclustering

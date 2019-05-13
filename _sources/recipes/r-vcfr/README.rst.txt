@@ -57,6 +57,7 @@ r-vcfr
 
 
 .. |downloads_r-vcfr| image:: https://img.shields.io/conda/dn/bioconda/r-vcfr.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-vcfr
    :alt:   (downloads)
 .. |docker_r-vcfr| image:: https://quay.io/repository/biocontainers/r-vcfr/status
    :target: https://quay.io/repository/biocontainers/r-vcfr

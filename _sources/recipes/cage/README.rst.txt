@@ -49,6 +49,7 @@ cage
 
 
 .. |downloads_cage| image:: https://img.shields.io/conda/dn/bioconda/cage.svg?style=flat
+   :target: https://anaconda.org/bioconda/cage
    :alt:   (downloads)
 .. |docker_cage| image:: https://quay.io/repository/biocontainers/cage/status
    :target: https://quay.io/repository/biocontainers/cage

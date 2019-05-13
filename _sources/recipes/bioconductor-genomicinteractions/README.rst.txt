@@ -62,6 +62,7 @@ bioconductor-genomicinteractions
 
 
 .. |downloads_bioconductor-genomicinteractions| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genomicinteractions.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genomicinteractions
    :alt:   (downloads)
 .. |docker_bioconductor-genomicinteractions| image:: https://quay.io/repository/biocontainers/bioconductor-genomicinteractions/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genomicinteractions

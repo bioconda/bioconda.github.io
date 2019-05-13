@@ -50,6 +50,7 @@ ucsc-avecols
 
 
 .. |downloads_ucsc-avecols| image:: https://img.shields.io/conda/dn/bioconda/ucsc-avecols.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-avecols
    :alt:   (downloads)
 .. |docker_ucsc-avecols| image:: https://quay.io/repository/biocontainers/ucsc-avecols/status
    :target: https://quay.io/repository/biocontainers/ucsc-avecols

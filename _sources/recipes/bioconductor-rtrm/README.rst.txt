@@ -50,6 +50,7 @@ bioconductor-rtrm
 
 
 .. |downloads_bioconductor-rtrm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtrm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rtrm
    :alt:   (downloads)
 .. |docker_bioconductor-rtrm| image:: https://quay.io/repository/biocontainers/bioconductor-rtrm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtrm

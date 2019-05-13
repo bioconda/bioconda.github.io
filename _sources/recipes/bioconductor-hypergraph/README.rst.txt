@@ -47,6 +47,7 @@ bioconductor-hypergraph
 
 
 .. |downloads_bioconductor-hypergraph| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hypergraph.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hypergraph
    :alt:   (downloads)
 .. |docker_bioconductor-hypergraph| image:: https://quay.io/repository/biocontainers/bioconductor-hypergraph/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hypergraph

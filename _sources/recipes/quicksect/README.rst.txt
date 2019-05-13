@@ -46,6 +46,7 @@ quicksect
 
 
 .. |downloads_quicksect| image:: https://img.shields.io/conda/dn/bioconda/quicksect.svg?style=flat
+   :target: https://anaconda.org/bioconda/quicksect
    :alt:   (downloads)
 .. |docker_quicksect| image:: https://quay.io/repository/biocontainers/quicksect/status
    :target: https://quay.io/repository/biocontainers/quicksect

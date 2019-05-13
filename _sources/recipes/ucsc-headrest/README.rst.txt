@@ -50,6 +50,7 @@ ucsc-headrest
 
 
 .. |downloads_ucsc-headrest| image:: https://img.shields.io/conda/dn/bioconda/ucsc-headrest.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-headrest
    :alt:   (downloads)
 .. |docker_ucsc-headrest| image:: https://quay.io/repository/biocontainers/ucsc-headrest/status
    :target: https://quay.io/repository/biocontainers/ucsc-headrest

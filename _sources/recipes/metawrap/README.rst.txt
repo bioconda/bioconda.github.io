@@ -70,6 +70,7 @@ metawrap
 
 
 .. |downloads_metawrap| image:: https://img.shields.io/conda/dn/bioconda/metawrap.svg?style=flat
+   :target: https://anaconda.org/bioconda/metawrap
    :alt:   (downloads)
 .. |docker_metawrap| image:: https://quay.io/repository/biocontainers/metawrap/status
    :target: https://quay.io/repository/biocontainers/metawrap

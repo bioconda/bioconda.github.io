@@ -47,6 +47,7 @@ perl-dbd-sqlite
 
 
 .. |downloads_perl-dbd-sqlite| image:: https://img.shields.io/conda/dn/bioconda/perl-dbd-sqlite.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-dbd-sqlite
    :alt:   (downloads)
 .. |docker_perl-dbd-sqlite| image:: https://quay.io/repository/biocontainers/perl-dbd-sqlite/status
    :target: https://quay.io/repository/biocontainers/perl-dbd-sqlite

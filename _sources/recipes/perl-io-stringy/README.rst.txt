@@ -45,6 +45,7 @@ perl-io-stringy
 
 
 .. |downloads_perl-io-stringy| image:: https://img.shields.io/conda/dn/bioconda/perl-io-stringy.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-io-stringy
    :alt:   (downloads)
 .. |docker_perl-io-stringy| image:: https://quay.io/repository/biocontainers/perl-io-stringy/status
    :target: https://quay.io/repository/biocontainers/perl-io-stringy

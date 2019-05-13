@@ -58,6 +58,7 @@ bioconductor-seqsqc
 
 
 .. |downloads_bioconductor-seqsqc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-seqsqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-seqsqc
    :alt:   (downloads)
 .. |docker_bioconductor-seqsqc| image:: https://quay.io/repository/biocontainers/bioconductor-seqsqc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-seqsqc

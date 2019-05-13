@@ -47,6 +47,7 @@ perl-extutils-depends
 
 
 .. |downloads_perl-extutils-depends| image:: https://img.shields.io/conda/dn/bioconda/perl-extutils-depends.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-extutils-depends
    :alt:   (downloads)
 .. |docker_perl-extutils-depends| image:: https://quay.io/repository/biocontainers/perl-extutils-depends/status
    :target: https://quay.io/repository/biocontainers/perl-extutils-depends

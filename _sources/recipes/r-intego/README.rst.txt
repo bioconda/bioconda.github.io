@@ -47,6 +47,7 @@ r-intego
 
 
 .. |downloads_r-intego| image:: https://img.shields.io/conda/dn/bioconda/r-intego.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-intego
    :alt:   (downloads)
 .. |docker_r-intego| image:: https://quay.io/repository/biocontainers/r-intego/status
    :target: https://quay.io/repository/biocontainers/r-intego

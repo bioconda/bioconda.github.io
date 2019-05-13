@@ -50,6 +50,7 @@ ucsc-checkhgfindspec
 
 
 .. |downloads_ucsc-checkhgfindspec| image:: https://img.shields.io/conda/dn/bioconda/ucsc-checkhgfindspec.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-checkhgfindspec
    :alt:   (downloads)
 .. |docker_ucsc-checkhgfindspec| image:: https://quay.io/repository/biocontainers/ucsc-checkhgfindspec/status
    :target: https://quay.io/repository/biocontainers/ucsc-checkhgfindspec

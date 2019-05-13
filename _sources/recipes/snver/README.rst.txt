@@ -50,6 +50,7 @@ snver
 
 
 .. |downloads_snver| image:: https://img.shields.io/conda/dn/bioconda/snver.svg?style=flat
+   :target: https://anaconda.org/bioconda/snver
    :alt:   (downloads)
 .. |docker_snver| image:: https://quay.io/repository/biocontainers/snver/status
    :target: https://quay.io/repository/biocontainers/snver

@@ -44,6 +44,7 @@ talloc
 
 
 .. |downloads_talloc| image:: https://img.shields.io/conda/dn/bioconda/talloc.svg?style=flat
+   :target: https://anaconda.org/bioconda/talloc
    :alt:   (downloads)
 .. |docker_talloc| image:: https://quay.io/repository/biocontainers/talloc/status
    :target: https://quay.io/repository/biocontainers/talloc

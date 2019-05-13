@@ -46,6 +46,7 @@ perl-array-set
 
 
 .. |downloads_perl-array-set| image:: https://img.shields.io/conda/dn/bioconda/perl-array-set.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-array-set
    :alt:   (downloads)
 .. |docker_perl-array-set| image:: https://quay.io/repository/biocontainers/perl-array-set/status
    :target: https://quay.io/repository/biocontainers/perl-array-set

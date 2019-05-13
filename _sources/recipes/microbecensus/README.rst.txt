@@ -47,6 +47,7 @@ microbecensus
 
 
 .. |downloads_microbecensus| image:: https://img.shields.io/conda/dn/bioconda/microbecensus.svg?style=flat
+   :target: https://anaconda.org/bioconda/microbecensus
    :alt:   (downloads)
 .. |docker_microbecensus| image:: https://quay.io/repository/biocontainers/microbecensus/status
    :target: https://quay.io/repository/biocontainers/microbecensus

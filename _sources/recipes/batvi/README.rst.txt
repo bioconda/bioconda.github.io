@@ -52,6 +52,7 @@ batvi
 
 
 .. |downloads_batvi| image:: https://img.shields.io/conda/dn/bioconda/batvi.svg?style=flat
+   :target: https://anaconda.org/bioconda/batvi
    :alt:   (downloads)
 .. |docker_batvi| image:: https://quay.io/repository/biocontainers/batvi/status
    :target: https://quay.io/repository/biocontainers/batvi

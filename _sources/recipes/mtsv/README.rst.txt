@@ -63,6 +63,7 @@ mtsv
 
 
 .. |downloads_mtsv| image:: https://img.shields.io/conda/dn/bioconda/mtsv.svg?style=flat
+   :target: https://anaconda.org/bioconda/mtsv
    :alt:   (downloads)
 .. |docker_mtsv| image:: https://quay.io/repository/biocontainers/mtsv/status
    :target: https://quay.io/repository/biocontainers/mtsv

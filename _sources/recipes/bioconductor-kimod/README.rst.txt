@@ -48,6 +48,7 @@ bioconductor-kimod
 
 
 .. |downloads_bioconductor-kimod| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-kimod.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-kimod
    :alt:   (downloads)
 .. |docker_bioconductor-kimod| image:: https://quay.io/repository/biocontainers/bioconductor-kimod/status
    :target: https://quay.io/repository/biocontainers/bioconductor-kimod

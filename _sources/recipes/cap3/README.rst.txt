@@ -44,6 +44,7 @@ cap3
 
 
 .. |downloads_cap3| image:: https://img.shields.io/conda/dn/bioconda/cap3.svg?style=flat
+   :target: https://anaconda.org/bioconda/cap3
    :alt:   (downloads)
 .. |docker_cap3| image:: https://quay.io/repository/biocontainers/cap3/status
    :target: https://quay.io/repository/biocontainers/cap3

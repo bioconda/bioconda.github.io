@@ -57,6 +57,7 @@ bioconductor-metabosignal
 
 
 .. |downloads_bioconductor-metabosignal| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metabosignal.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-metabosignal
    :alt:   (downloads)
 .. |docker_bioconductor-metabosignal| image:: https://quay.io/repository/biocontainers/bioconductor-metabosignal/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metabosignal

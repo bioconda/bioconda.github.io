@@ -47,6 +47,7 @@ mosdepth
 
 
 .. |downloads_mosdepth| image:: https://img.shields.io/conda/dn/bioconda/mosdepth.svg?style=flat
+   :target: https://anaconda.org/bioconda/mosdepth
    :alt:   (downloads)
 .. |docker_mosdepth| image:: https://quay.io/repository/biocontainers/mosdepth/status
    :target: https://quay.io/repository/biocontainers/mosdepth

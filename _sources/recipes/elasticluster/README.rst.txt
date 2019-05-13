@@ -55,6 +55,7 @@ elasticluster
 
 
 .. |downloads_elasticluster| image:: https://img.shields.io/conda/dn/bioconda/elasticluster.svg?style=flat
+   :target: https://anaconda.org/bioconda/elasticluster
    :alt:   (downloads)
 .. |docker_elasticluster| image:: https://quay.io/repository/biocontainers/elasticluster/status
    :target: https://quay.io/repository/biocontainers/elasticluster

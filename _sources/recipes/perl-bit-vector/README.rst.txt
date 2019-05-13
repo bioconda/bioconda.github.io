@@ -45,6 +45,7 @@ perl-bit-vector
 
 
 .. |downloads_perl-bit-vector| image:: https://img.shields.io/conda/dn/bioconda/perl-bit-vector.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bit-vector
    :alt:   (downloads)
 .. |docker_perl-bit-vector| image:: https://quay.io/repository/biocontainers/perl-bit-vector/status
    :target: https://quay.io/repository/biocontainers/perl-bit-vector

@@ -57,6 +57,7 @@ bioconductor-gothic
 
 
 .. |downloads_bioconductor-gothic| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gothic.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gothic
    :alt:   (downloads)
 .. |docker_bioconductor-gothic| image:: https://quay.io/repository/biocontainers/bioconductor-gothic/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gothic

@@ -56,6 +56,7 @@ bioconductor-scan.upc
 
 
 .. |downloads_bioconductor-scan.upc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scan.upc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-scan.upc
    :alt:   (downloads)
 .. |docker_bioconductor-scan.upc| image:: https://quay.io/repository/biocontainers/bioconductor-scan.upc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-scan.upc

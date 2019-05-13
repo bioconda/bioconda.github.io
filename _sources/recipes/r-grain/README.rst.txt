@@ -55,6 +55,7 @@ r-grain
 
 
 .. |downloads_r-grain| image:: https://img.shields.io/conda/dn/bioconda/r-grain.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-grain
    :alt:   (downloads)
 .. |docker_r-grain| image:: https://quay.io/repository/biocontainers/r-grain/status
    :target: https://quay.io/repository/biocontainers/r-grain

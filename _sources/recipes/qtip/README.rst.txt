@@ -51,6 +51,7 @@ qtip
 
 
 .. |downloads_qtip| image:: https://img.shields.io/conda/dn/bioconda/qtip.svg?style=flat
+   :target: https://anaconda.org/bioconda/qtip
    :alt:   (downloads)
 .. |docker_qtip| image:: https://quay.io/repository/biocontainers/qtip/status
    :target: https://quay.io/repository/biocontainers/qtip

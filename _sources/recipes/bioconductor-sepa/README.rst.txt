@@ -53,6 +53,7 @@ bioconductor-sepa
 
 
 .. |downloads_bioconductor-sepa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sepa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sepa
    :alt:   (downloads)
 .. |docker_bioconductor-sepa| image:: https://quay.io/repository/biocontainers/bioconductor-sepa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sepa

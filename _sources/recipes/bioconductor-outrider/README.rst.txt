@@ -71,6 +71,7 @@ bioconductor-outrider
 
 
 .. |downloads_bioconductor-outrider| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-outrider.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-outrider
    :alt:   (downloads)
 .. |docker_bioconductor-outrider| image:: https://quay.io/repository/biocontainers/bioconductor-outrider/status
    :target: https://quay.io/repository/biocontainers/bioconductor-outrider

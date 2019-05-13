@@ -45,6 +45,7 @@ bioconductor-gaia
 
 
 .. |downloads_bioconductor-gaia| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gaia.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gaia
    :alt:   (downloads)
 .. |docker_bioconductor-gaia| image:: https://quay.io/repository/biocontainers/bioconductor-gaia/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gaia

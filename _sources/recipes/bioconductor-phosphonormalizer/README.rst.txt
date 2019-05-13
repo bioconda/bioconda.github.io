@@ -47,6 +47,7 @@ bioconductor-phosphonormalizer
 
 
 .. |downloads_bioconductor-phosphonormalizer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-phosphonormalizer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-phosphonormalizer
    :alt:   (downloads)
 .. |docker_bioconductor-phosphonormalizer| image:: https://quay.io/repository/biocontainers/bioconductor-phosphonormalizer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-phosphonormalizer

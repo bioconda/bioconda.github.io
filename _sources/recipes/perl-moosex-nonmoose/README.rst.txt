@@ -49,6 +49,7 @@ perl-moosex-nonmoose
 
 
 .. |downloads_perl-moosex-nonmoose| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-nonmoose.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-moosex-nonmoose
    :alt:   (downloads)
 .. |docker_perl-moosex-nonmoose| image:: https://quay.io/repository/biocontainers/perl-moosex-nonmoose/status
    :target: https://quay.io/repository/biocontainers/perl-moosex-nonmoose

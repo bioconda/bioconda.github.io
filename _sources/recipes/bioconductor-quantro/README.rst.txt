@@ -53,6 +53,7 @@ bioconductor-quantro
 
 
 .. |downloads_bioconductor-quantro| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-quantro.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-quantro
    :alt:   (downloads)
 .. |docker_bioconductor-quantro| image:: https://quay.io/repository/biocontainers/bioconductor-quantro/status
    :target: https://quay.io/repository/biocontainers/bioconductor-quantro

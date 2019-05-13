@@ -51,6 +51,7 @@ bioconductor-xvector
 
 
 .. |downloads_bioconductor-xvector| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-xvector.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-xvector
    :alt:   (downloads)
 .. |docker_bioconductor-xvector| image:: https://quay.io/repository/biocontainers/bioconductor-xvector/status
    :target: https://quay.io/repository/biocontainers/bioconductor-xvector

@@ -49,6 +49,7 @@ bioconductor-olin
 
 
 .. |downloads_bioconductor-olin| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-olin.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-olin
    :alt:   (downloads)
 .. |docker_bioconductor-olin| image:: https://quay.io/repository/biocontainers/bioconductor-olin/status
    :target: https://quay.io/repository/biocontainers/bioconductor-olin

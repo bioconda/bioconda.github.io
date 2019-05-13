@@ -49,6 +49,7 @@ perl-dist-checkconflicts
 
 
 .. |downloads_perl-dist-checkconflicts| image:: https://img.shields.io/conda/dn/bioconda/perl-dist-checkconflicts.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-dist-checkconflicts
    :alt:   (downloads)
 .. |docker_perl-dist-checkconflicts| image:: https://quay.io/repository/biocontainers/perl-dist-checkconflicts/status
    :target: https://quay.io/repository/biocontainers/perl-dist-checkconflicts

@@ -46,6 +46,7 @@ music
 
 
 .. |downloads_music| image:: https://img.shields.io/conda/dn/bioconda/music.svg?style=flat
+   :target: https://anaconda.org/bioconda/music
    :alt:   (downloads)
 .. |docker_music| image:: https://quay.io/repository/biocontainers/music/status
    :target: https://quay.io/repository/biocontainers/music

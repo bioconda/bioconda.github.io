@@ -46,6 +46,7 @@ np-likeness-scorer
 
 
 .. |downloads_np-likeness-scorer| image:: https://img.shields.io/conda/dn/bioconda/np-likeness-scorer.svg?style=flat
+   :target: https://anaconda.org/bioconda/np-likeness-scorer
    :alt:   (downloads)
 .. |docker_np-likeness-scorer| image:: https://quay.io/repository/biocontainers/np-likeness-scorer/status
    :target: https://quay.io/repository/biocontainers/np-likeness-scorer

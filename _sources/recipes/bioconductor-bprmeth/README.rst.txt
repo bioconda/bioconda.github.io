@@ -68,6 +68,7 @@ bioconductor-bprmeth
 
 
 .. |downloads_bioconductor-bprmeth| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bprmeth.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bprmeth
    :alt:   (downloads)
 .. |docker_bioconductor-bprmeth| image:: https://quay.io/repository/biocontainers/bioconductor-bprmeth/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bprmeth

@@ -46,6 +46,7 @@ perl-carp-clan
 
 
 .. |downloads_perl-carp-clan| image:: https://img.shields.io/conda/dn/bioconda/perl-carp-clan.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-carp-clan
    :alt:   (downloads)
 .. |docker_perl-carp-clan| image:: https://quay.io/repository/biocontainers/perl-carp-clan/status
    :target: https://quay.io/repository/biocontainers/perl-carp-clan

@@ -45,6 +45,7 @@ perl-xml-writer
 
 
 .. |downloads_perl-xml-writer| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-writer.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-xml-writer
    :alt:   (downloads)
 .. |docker_perl-xml-writer| image:: https://quay.io/repository/biocontainers/perl-xml-writer/status
    :target: https://quay.io/repository/biocontainers/perl-xml-writer

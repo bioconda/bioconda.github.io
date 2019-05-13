@@ -48,6 +48,7 @@ ra-integrate
 
 
 .. |downloads_ra-integrate| image:: https://img.shields.io/conda/dn/bioconda/ra-integrate.svg?style=flat
+   :target: https://anaconda.org/bioconda/ra-integrate
    :alt:   (downloads)
 .. |docker_ra-integrate| image:: https://quay.io/repository/biocontainers/ra-integrate/status
    :target: https://quay.io/repository/biocontainers/ra-integrate

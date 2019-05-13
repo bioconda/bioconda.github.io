@@ -48,6 +48,7 @@ chromosomer
 
 
 .. |downloads_chromosomer| image:: https://img.shields.io/conda/dn/bioconda/chromosomer.svg?style=flat
+   :target: https://anaconda.org/bioconda/chromosomer
    :alt:   (downloads)
 .. |docker_chromosomer| image:: https://quay.io/repository/biocontainers/chromosomer/status
    :target: https://quay.io/repository/biocontainers/chromosomer

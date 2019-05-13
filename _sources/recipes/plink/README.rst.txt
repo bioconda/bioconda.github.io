@@ -49,6 +49,7 @@ plink
 
 
 .. |downloads_plink| image:: https://img.shields.io/conda/dn/bioconda/plink.svg?style=flat
+   :target: https://anaconda.org/bioconda/plink
    :alt:   (downloads)
 .. |docker_plink| image:: https://quay.io/repository/biocontainers/plink/status
    :target: https://quay.io/repository/biocontainers/plink

@@ -46,6 +46,7 @@ fermi-lite
 
 
 .. |downloads_fermi-lite| image:: https://img.shields.io/conda/dn/bioconda/fermi-lite.svg?style=flat
+   :target: https://anaconda.org/bioconda/fermi-lite
    :alt:   (downloads)
 .. |docker_fermi-lite| image:: https://quay.io/repository/biocontainers/fermi-lite/status
    :target: https://quay.io/repository/biocontainers/fermi-lite

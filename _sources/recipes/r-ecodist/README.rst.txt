@@ -46,6 +46,7 @@ r-ecodist
 
 
 .. |downloads_r-ecodist| image:: https://img.shields.io/conda/dn/bioconda/r-ecodist.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-ecodist
    :alt:   (downloads)
 .. |docker_r-ecodist| image:: https://quay.io/repository/biocontainers/r-ecodist/status
    :target: https://quay.io/repository/biocontainers/r-ecodist

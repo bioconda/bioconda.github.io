@@ -47,6 +47,7 @@ bioconductor-bsgenome.tguttata.ucsc.taegut1
 
 
 .. |downloads_bioconductor-bsgenome.tguttata.ucsc.taegut1| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.tguttata.ucsc.taegut1.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome.tguttata.ucsc.taegut1
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.tguttata.ucsc.taegut1| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.tguttata.ucsc.taegut1/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.tguttata.ucsc.taegut1

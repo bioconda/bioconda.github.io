@@ -46,6 +46,7 @@ rapsearch
 
 
 .. |downloads_rapsearch| image:: https://img.shields.io/conda/dn/bioconda/rapsearch.svg?style=flat
+   :target: https://anaconda.org/bioconda/rapsearch
    :alt:   (downloads)
 .. |docker_rapsearch| image:: https://quay.io/repository/biocontainers/rapsearch/status
    :target: https://quay.io/repository/biocontainers/rapsearch

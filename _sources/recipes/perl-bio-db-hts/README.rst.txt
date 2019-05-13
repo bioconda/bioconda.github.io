@@ -48,6 +48,7 @@ perl-bio-db-hts
 
 
 .. |downloads_perl-bio-db-hts| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-db-hts.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bio-db-hts
    :alt:   (downloads)
 .. |docker_perl-bio-db-hts| image:: https://quay.io/repository/biocontainers/perl-bio-db-hts/status
    :target: https://quay.io/repository/biocontainers/perl-bio-db-hts

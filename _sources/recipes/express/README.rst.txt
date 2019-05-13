@@ -46,6 +46,7 @@ express
 
 
 .. |downloads_express| image:: https://img.shields.io/conda/dn/bioconda/express.svg?style=flat
+   :target: https://anaconda.org/bioconda/express
    :alt:   (downloads)
 .. |docker_express| image:: https://quay.io/repository/biocontainers/express/status
    :target: https://quay.io/repository/biocontainers/express

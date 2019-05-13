@@ -54,6 +54,7 @@ pathogen-profiler
 
 
 .. |downloads_pathogen-profiler| image:: https://img.shields.io/conda/dn/bioconda/pathogen-profiler.svg?style=flat
+   :target: https://anaconda.org/bioconda/pathogen-profiler
    :alt:   (downloads)
 .. |docker_pathogen-profiler| image:: https://quay.io/repository/biocontainers/pathogen-profiler/status
    :target: https://quay.io/repository/biocontainers/pathogen-profiler

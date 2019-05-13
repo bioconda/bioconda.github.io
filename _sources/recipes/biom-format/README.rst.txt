@@ -52,6 +52,7 @@ biom-format
 
 
 .. |downloads_biom-format| image:: https://img.shields.io/conda/dn/bioconda/biom-format.svg?style=flat
+   :target: https://anaconda.org/bioconda/biom-format
    :alt:   (downloads)
 .. |docker_biom-format| image:: https://quay.io/repository/biocontainers/biom-format/status
    :target: https://quay.io/repository/biocontainers/biom-format

@@ -54,6 +54,7 @@ athena_meta
 
 
 .. |downloads_athena_meta| image:: https://img.shields.io/conda/dn/bioconda/athena_meta.svg?style=flat
+   :target: https://anaconda.org/bioconda/athena_meta
    :alt:   (downloads)
 .. |docker_athena_meta| image:: https://quay.io/repository/biocontainers/athena_meta/status
    :target: https://quay.io/repository/biocontainers/athena_meta

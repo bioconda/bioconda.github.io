@@ -47,6 +47,7 @@ python-msgpack
 
 
 .. |downloads_python-msgpack| image:: https://img.shields.io/conda/dn/bioconda/python-msgpack.svg?style=flat
+   :target: https://anaconda.org/bioconda/python-msgpack
    :alt:   (downloads)
 .. |docker_python-msgpack| image:: https://quay.io/repository/biocontainers/python-msgpack/status
    :target: https://quay.io/repository/biocontainers/python-msgpack

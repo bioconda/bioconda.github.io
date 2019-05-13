@@ -50,6 +50,7 @@ ucsc-hgloadsqltab
 
 
 .. |downloads_ucsc-hgloadsqltab| image:: https://img.shields.io/conda/dn/bioconda/ucsc-hgloadsqltab.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-hgloadsqltab
    :alt:   (downloads)
 .. |docker_ucsc-hgloadsqltab| image:: https://quay.io/repository/biocontainers/ucsc-hgloadsqltab/status
    :target: https://quay.io/repository/biocontainers/ucsc-hgloadsqltab

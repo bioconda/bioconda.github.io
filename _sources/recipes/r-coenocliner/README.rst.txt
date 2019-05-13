@@ -45,6 +45,7 @@ r-coenocliner
 
 
 .. |downloads_r-coenocliner| image:: https://img.shields.io/conda/dn/bioconda/r-coenocliner.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-coenocliner
    :alt:   (downloads)
 .. |docker_r-coenocliner| image:: https://quay.io/repository/biocontainers/r-coenocliner/status
    :target: https://quay.io/repository/biocontainers/r-coenocliner

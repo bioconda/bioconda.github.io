@@ -48,6 +48,7 @@ bioconductor-foldgo
 
 
 .. |downloads_bioconductor-foldgo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-foldgo.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-foldgo
    :alt:   (downloads)
 .. |docker_bioconductor-foldgo| image:: https://quay.io/repository/biocontainers/bioconductor-foldgo/status
    :target: https://quay.io/repository/biocontainers/bioconductor-foldgo

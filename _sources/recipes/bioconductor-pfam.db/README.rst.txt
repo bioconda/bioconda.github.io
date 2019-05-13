@@ -47,6 +47,7 @@ bioconductor-pfam.db
 
 
 .. |downloads_bioconductor-pfam.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pfam.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pfam.db
    :alt:   (downloads)
 .. |docker_bioconductor-pfam.db| image:: https://quay.io/repository/biocontainers/bioconductor-pfam.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pfam.db

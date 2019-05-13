@@ -50,6 +50,7 @@ ucsc-genepredtobiggenepred
 
 
 .. |downloads_ucsc-genepredtobiggenepred| image:: https://img.shields.io/conda/dn/bioconda/ucsc-genepredtobiggenepred.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-genepredtobiggenepred
    :alt:   (downloads)
 .. |docker_ucsc-genepredtobiggenepred| image:: https://quay.io/repository/biocontainers/ucsc-genepredtobiggenepred/status
    :target: https://quay.io/repository/biocontainers/ucsc-genepredtobiggenepred

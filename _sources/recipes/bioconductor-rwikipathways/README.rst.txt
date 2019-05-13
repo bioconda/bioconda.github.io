@@ -48,6 +48,7 @@ bioconductor-rwikipathways
 
 
 .. |downloads_bioconductor-rwikipathways| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rwikipathways.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rwikipathways
    :alt:   (downloads)
 .. |docker_bioconductor-rwikipathways| image:: https://quay.io/repository/biocontainers/bioconductor-rwikipathways/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rwikipathways

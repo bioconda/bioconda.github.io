@@ -48,6 +48,7 @@ r-dbchip
 
 
 .. |downloads_r-dbchip| image:: https://img.shields.io/conda/dn/bioconda/r-dbchip.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-dbchip
    :alt:   (downloads)
 .. |docker_r-dbchip| image:: https://quay.io/repository/biocontainers/r-dbchip/status
    :target: https://quay.io/repository/biocontainers/r-dbchip

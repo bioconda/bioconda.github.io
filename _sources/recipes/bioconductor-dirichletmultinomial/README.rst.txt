@@ -52,6 +52,7 @@ bioconductor-dirichletmultinomial
 
 
 .. |downloads_bioconductor-dirichletmultinomial| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dirichletmultinomial.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dirichletmultinomial
    :alt:   (downloads)
 .. |docker_bioconductor-dirichletmultinomial| image:: https://quay.io/repository/biocontainers/bioconductor-dirichletmultinomial/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dirichletmultinomial

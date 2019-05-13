@@ -48,6 +48,7 @@ perl-border-style
 
 
 .. |downloads_perl-border-style| image:: https://img.shields.io/conda/dn/bioconda/perl-border-style.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-border-style
    :alt:   (downloads)
 .. |docker_perl-border-style| image:: https://quay.io/repository/biocontainers/perl-border-style/status
    :target: https://quay.io/repository/biocontainers/perl-border-style

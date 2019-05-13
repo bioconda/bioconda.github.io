@@ -45,6 +45,7 @@ cas-offinder
 
 
 .. |downloads_cas-offinder| image:: https://img.shields.io/conda/dn/bioconda/cas-offinder.svg?style=flat
+   :target: https://anaconda.org/bioconda/cas-offinder
    :alt:   (downloads)
 .. |docker_cas-offinder| image:: https://quay.io/repository/biocontainers/cas-offinder/status
    :target: https://quay.io/repository/biocontainers/cas-offinder

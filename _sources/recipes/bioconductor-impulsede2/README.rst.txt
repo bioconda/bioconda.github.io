@@ -56,6 +56,7 @@ bioconductor-impulsede2
 
 
 .. |downloads_bioconductor-impulsede2| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-impulsede2.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-impulsede2
    :alt:   (downloads)
 .. |docker_bioconductor-impulsede2| image:: https://quay.io/repository/biocontainers/bioconductor-impulsede2/status
    :target: https://quay.io/repository/biocontainers/bioconductor-impulsede2

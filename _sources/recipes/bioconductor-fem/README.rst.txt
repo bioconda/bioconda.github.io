@@ -55,6 +55,7 @@ bioconductor-fem
 
 
 .. |downloads_bioconductor-fem| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fem.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-fem
    :alt:   (downloads)
 .. |docker_bioconductor-fem| image:: https://quay.io/repository/biocontainers/bioconductor-fem/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fem

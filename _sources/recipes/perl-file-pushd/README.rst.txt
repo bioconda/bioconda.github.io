@@ -49,6 +49,7 @@ perl-file-pushd
 
 
 .. |downloads_perl-file-pushd| image:: https://img.shields.io/conda/dn/bioconda/perl-file-pushd.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-pushd
    :alt:   (downloads)
 .. |docker_perl-file-pushd| image:: https://quay.io/repository/biocontainers/perl-file-pushd/status
    :target: https://quay.io/repository/biocontainers/perl-file-pushd

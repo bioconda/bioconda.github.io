@@ -49,6 +49,7 @@ bioconductor-simd
 
 
 .. |downloads_bioconductor-simd| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-simd.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-simd
    :alt:   (downloads)
 .. |docker_bioconductor-simd| image:: https://quay.io/repository/biocontainers/bioconductor-simd/status
    :target: https://quay.io/repository/biocontainers/bioconductor-simd

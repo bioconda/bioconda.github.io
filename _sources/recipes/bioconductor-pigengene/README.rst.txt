@@ -57,6 +57,7 @@ bioconductor-pigengene
 
 
 .. |downloads_bioconductor-pigengene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pigengene.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pigengene
    :alt:   (downloads)
 .. |docker_bioconductor-pigengene| image:: https://quay.io/repository/biocontainers/bioconductor-pigengene/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pigengene

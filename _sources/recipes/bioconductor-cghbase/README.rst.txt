@@ -48,6 +48,7 @@ bioconductor-cghbase
 
 
 .. |downloads_bioconductor-cghbase| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cghbase.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cghbase
    :alt:   (downloads)
 .. |docker_bioconductor-cghbase| image:: https://quay.io/repository/biocontainers/bioconductor-cghbase/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cghbase

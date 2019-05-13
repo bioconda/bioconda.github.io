@@ -48,6 +48,7 @@ nvc
 
 
 .. |downloads_nvc| image:: https://img.shields.io/conda/dn/bioconda/nvc.svg?style=flat
+   :target: https://anaconda.org/bioconda/nvc
    :alt:   (downloads)
 .. |docker_nvc| image:: https://quay.io/repository/biocontainers/nvc/status
    :target: https://quay.io/repository/biocontainers/nvc

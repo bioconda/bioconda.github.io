@@ -51,6 +51,7 @@ bioconductor-rtrmui
 
 
 .. |downloads_bioconductor-rtrmui| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtrmui.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rtrmui
    :alt:   (downloads)
 .. |docker_bioconductor-rtrmui| image:: https://quay.io/repository/biocontainers/bioconductor-rtrmui/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtrmui

@@ -53,6 +53,7 @@ bioconductor-genphen
 
 
 .. |downloads_bioconductor-genphen| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genphen.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genphen
    :alt:   (downloads)
 .. |docker_bioconductor-genphen| image:: https://quay.io/repository/biocontainers/bioconductor-genphen/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genphen

@@ -48,6 +48,7 @@ metasnv
 
 
 .. |downloads_metasnv| image:: https://img.shields.io/conda/dn/bioconda/metasnv.svg?style=flat
+   :target: https://anaconda.org/bioconda/metasnv
    :alt:   (downloads)
 .. |docker_metasnv| image:: https://quay.io/repository/biocontainers/metasnv/status
    :target: https://quay.io/repository/biocontainers/metasnv

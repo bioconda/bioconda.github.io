@@ -47,6 +47,7 @@ bioconductor-chimp.db0
 
 
 .. |downloads_bioconductor-chimp.db0| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chimp.db0.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chimp.db0
    :alt:   (downloads)
 .. |docker_bioconductor-chimp.db0| image:: https://quay.io/repository/biocontainers/bioconductor-chimp.db0/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chimp.db0

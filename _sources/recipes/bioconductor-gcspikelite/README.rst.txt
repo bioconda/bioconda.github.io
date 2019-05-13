@@ -46,6 +46,7 @@ bioconductor-gcspikelite
 
 
 .. |downloads_bioconductor-gcspikelite| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gcspikelite.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gcspikelite
    :alt:   (downloads)
 .. |docker_bioconductor-gcspikelite| image:: https://quay.io/repository/biocontainers/bioconductor-gcspikelite/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gcspikelite

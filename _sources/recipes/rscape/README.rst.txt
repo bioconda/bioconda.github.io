@@ -47,6 +47,7 @@ rscape
 
 
 .. |downloads_rscape| image:: https://img.shields.io/conda/dn/bioconda/rscape.svg?style=flat
+   :target: https://anaconda.org/bioconda/rscape
    :alt:   (downloads)
 .. |docker_rscape| image:: https://quay.io/repository/biocontainers/rscape/status
    :target: https://quay.io/repository/biocontainers/rscape

@@ -50,6 +50,7 @@ r-adephylo
 
 
 .. |downloads_r-adephylo| image:: https://img.shields.io/conda/dn/bioconda/r-adephylo.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-adephylo
    :alt:   (downloads)
 .. |docker_r-adephylo| image:: https://quay.io/repository/biocontainers/r-adephylo/status
    :target: https://quay.io/repository/biocontainers/r-adephylo

@@ -74,6 +74,7 @@ bioconductor-rcas
 
 
 .. |downloads_bioconductor-rcas| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rcas.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rcas
    :alt:   (downloads)
 .. |docker_bioconductor-rcas| image:: https://quay.io/repository/biocontainers/bioconductor-rcas/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rcas

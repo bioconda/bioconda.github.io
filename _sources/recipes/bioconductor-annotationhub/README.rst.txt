@@ -55,6 +55,7 @@ bioconductor-annotationhub
 
 
 .. |downloads_bioconductor-annotationhub| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-annotationhub.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-annotationhub
    :alt:   (downloads)
 .. |docker_bioconductor-annotationhub| image:: https://quay.io/repository/biocontainers/bioconductor-annotationhub/status
    :target: https://quay.io/repository/biocontainers/bioconductor-annotationhub

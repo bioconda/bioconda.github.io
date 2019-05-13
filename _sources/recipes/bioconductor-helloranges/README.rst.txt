@@ -60,6 +60,7 @@ bioconductor-helloranges
 
 
 .. |downloads_bioconductor-helloranges| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-helloranges.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-helloranges
    :alt:   (downloads)
 .. |docker_bioconductor-helloranges| image:: https://quay.io/repository/biocontainers/bioconductor-helloranges/status
    :target: https://quay.io/repository/biocontainers/bioconductor-helloranges

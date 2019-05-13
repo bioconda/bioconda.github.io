@@ -46,6 +46,7 @@ bioconductor-copdsexualdimorphism.data
 
 
 .. |downloads_bioconductor-copdsexualdimorphism.data| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-copdsexualdimorphism.data.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-copdsexualdimorphism.data
    :alt:   (downloads)
 .. |docker_bioconductor-copdsexualdimorphism.data| image:: https://quay.io/repository/biocontainers/bioconductor-copdsexualdimorphism.data/status
    :target: https://quay.io/repository/biocontainers/bioconductor-copdsexualdimorphism.data

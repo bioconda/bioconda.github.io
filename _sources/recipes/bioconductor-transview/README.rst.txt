@@ -54,6 +54,7 @@ bioconductor-transview
 
 
 .. |downloads_bioconductor-transview| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-transview.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-transview
    :alt:   (downloads)
 .. |docker_bioconductor-transview| image:: https://quay.io/repository/biocontainers/bioconductor-transview/status
    :target: https://quay.io/repository/biocontainers/bioconductor-transview

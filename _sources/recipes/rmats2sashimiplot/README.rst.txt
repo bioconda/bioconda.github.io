@@ -49,6 +49,7 @@ rmats2sashimiplot
 
 
 .. |downloads_rmats2sashimiplot| image:: https://img.shields.io/conda/dn/bioconda/rmats2sashimiplot.svg?style=flat
+   :target: https://anaconda.org/bioconda/rmats2sashimiplot
    :alt:   (downloads)
 .. |docker_rmats2sashimiplot| image:: https://quay.io/repository/biocontainers/rmats2sashimiplot/status
    :target: https://quay.io/repository/biocontainers/rmats2sashimiplot

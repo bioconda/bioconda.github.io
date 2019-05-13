@@ -51,6 +51,7 @@ sprai
 
 
 .. |downloads_sprai| image:: https://img.shields.io/conda/dn/bioconda/sprai.svg?style=flat
+   :target: https://anaconda.org/bioconda/sprai
    :alt:   (downloads)
 .. |docker_sprai| image:: https://quay.io/repository/biocontainers/sprai/status
    :target: https://quay.io/repository/biocontainers/sprai

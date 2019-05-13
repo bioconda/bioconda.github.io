@@ -47,6 +47,7 @@ bloocoo
 
 
 .. |downloads_bloocoo| image:: https://img.shields.io/conda/dn/bioconda/bloocoo.svg?style=flat
+   :target: https://anaconda.org/bioconda/bloocoo
    :alt:   (downloads)
 .. |docker_bloocoo| image:: https://quay.io/repository/biocontainers/bloocoo/status
    :target: https://quay.io/repository/biocontainers/bloocoo

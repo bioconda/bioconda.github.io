@@ -51,6 +51,7 @@ cgview
 
 
 .. |downloads_cgview| image:: https://img.shields.io/conda/dn/bioconda/cgview.svg?style=flat
+   :target: https://anaconda.org/bioconda/cgview
    :alt:   (downloads)
 .. |docker_cgview| image:: https://quay.io/repository/biocontainers/cgview/status
    :target: https://quay.io/repository/biocontainers/cgview

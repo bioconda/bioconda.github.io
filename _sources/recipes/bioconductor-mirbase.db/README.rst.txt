@@ -47,6 +47,7 @@ bioconductor-mirbase.db
 
 
 .. |downloads_bioconductor-mirbase.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirbase.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mirbase.db
    :alt:   (downloads)
 .. |docker_bioconductor-mirbase.db| image:: https://quay.io/repository/biocontainers/bioconductor-mirbase.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mirbase.db

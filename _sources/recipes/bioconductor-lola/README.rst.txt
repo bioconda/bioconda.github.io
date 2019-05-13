@@ -52,6 +52,7 @@ bioconductor-lola
 
 
 .. |downloads_bioconductor-lola| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lola.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lola
    :alt:   (downloads)
 .. |docker_bioconductor-lola| image:: https://quay.io/repository/biocontainers/bioconductor-lola/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lola

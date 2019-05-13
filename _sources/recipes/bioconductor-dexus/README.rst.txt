@@ -49,6 +49,7 @@ bioconductor-dexus
 
 
 .. |downloads_bioconductor-dexus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dexus.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dexus
    :alt:   (downloads)
 .. |docker_bioconductor-dexus| image:: https://quay.io/repository/biocontainers/bioconductor-dexus/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dexus

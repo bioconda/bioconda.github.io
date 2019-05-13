@@ -61,6 +61,7 @@ bioconductor-batchqc
 
 
 .. |downloads_bioconductor-batchqc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-batchqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-batchqc
    :alt:   (downloads)
 .. |docker_bioconductor-batchqc| image:: https://quay.io/repository/biocontainers/bioconductor-batchqc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-batchqc

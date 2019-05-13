@@ -56,6 +56,7 @@ bioconductor-stan
 
 
 .. |downloads_bioconductor-stan| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-stan.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-stan
    :alt:   (downloads)
 .. |docker_bioconductor-stan| image:: https://quay.io/repository/biocontainers/bioconductor-stan/status
    :target: https://quay.io/repository/biocontainers/bioconductor-stan

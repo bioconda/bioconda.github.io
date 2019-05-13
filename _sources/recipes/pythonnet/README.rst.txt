@@ -47,6 +47,7 @@ pythonnet
 
 
 .. |downloads_pythonnet| image:: https://img.shields.io/conda/dn/bioconda/pythonnet.svg?style=flat
+   :target: https://anaconda.org/bioconda/pythonnet
    :alt:   (downloads)
 .. |docker_pythonnet| image:: https://quay.io/repository/biocontainers/pythonnet/status
    :target: https://quay.io/repository/biocontainers/pythonnet

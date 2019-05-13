@@ -47,6 +47,7 @@ bioconductor-pmm
 
 
 .. |downloads_bioconductor-pmm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pmm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pmm
    :alt:   (downloads)
 .. |docker_bioconductor-pmm| image:: https://quay.io/repository/biocontainers/bioconductor-pmm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pmm

@@ -46,6 +46,7 @@ goenrichment
 
 
 .. |downloads_goenrichment| image:: https://img.shields.io/conda/dn/bioconda/goenrichment.svg?style=flat
+   :target: https://anaconda.org/bioconda/goenrichment
    :alt:   (downloads)
 .. |docker_goenrichment| image:: https://quay.io/repository/biocontainers/goenrichment/status
    :target: https://quay.io/repository/biocontainers/goenrichment

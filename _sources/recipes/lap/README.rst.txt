@@ -47,6 +47,7 @@ lap
 
 
 .. |downloads_lap| image:: https://img.shields.io/conda/dn/bioconda/lap.svg?style=flat
+   :target: https://anaconda.org/bioconda/lap
    :alt:   (downloads)
 .. |docker_lap| image:: https://quay.io/repository/biocontainers/lap/status
    :target: https://quay.io/repository/biocontainers/lap

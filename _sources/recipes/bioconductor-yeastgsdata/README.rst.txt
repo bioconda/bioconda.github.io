@@ -46,6 +46,7 @@ bioconductor-yeastgsdata
 
 
 .. |downloads_bioconductor-yeastgsdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-yeastgsdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-yeastgsdata
    :alt:   (downloads)
 .. |docker_bioconductor-yeastgsdata| image:: https://quay.io/repository/biocontainers/bioconductor-yeastgsdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-yeastgsdata

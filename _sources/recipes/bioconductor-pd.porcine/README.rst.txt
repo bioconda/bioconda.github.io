@@ -53,6 +53,7 @@ bioconductor-pd.porcine
 
 
 .. |downloads_bioconductor-pd.porcine| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.porcine.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.porcine
    :alt:   (downloads)
 .. |docker_bioconductor-pd.porcine| image:: https://quay.io/repository/biocontainers/bioconductor-pd.porcine/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.porcine

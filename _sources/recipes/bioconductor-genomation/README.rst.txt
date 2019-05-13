@@ -69,6 +69,7 @@ bioconductor-genomation
 
 
 .. |downloads_bioconductor-genomation| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genomation.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genomation
    :alt:   (downloads)
 .. |docker_bioconductor-genomation| image:: https://quay.io/repository/biocontainers/bioconductor-genomation/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genomation

@@ -46,6 +46,7 @@ bioconductor-genocn
 
 
 .. |downloads_bioconductor-genocn| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genocn.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genocn
    :alt:   (downloads)
 .. |docker_bioconductor-genocn| image:: https://quay.io/repository/biocontainers/bioconductor-genocn/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genocn

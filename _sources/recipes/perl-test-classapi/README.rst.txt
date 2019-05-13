@@ -48,6 +48,7 @@ perl-test-classapi
 
 
 .. |downloads_perl-test-classapi| image:: https://img.shields.io/conda/dn/bioconda/perl-test-classapi.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-classapi
    :alt:   (downloads)
 .. |docker_perl-test-classapi| image:: https://quay.io/repository/biocontainers/perl-test-classapi/status
    :target: https://quay.io/repository/biocontainers/perl-test-classapi

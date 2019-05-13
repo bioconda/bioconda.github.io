@@ -48,6 +48,7 @@ mccortex
 
 
 .. |downloads_mccortex| image:: https://img.shields.io/conda/dn/bioconda/mccortex.svg?style=flat
+   :target: https://anaconda.org/bioconda/mccortex
    :alt:   (downloads)
 .. |docker_mccortex| image:: https://quay.io/repository/biocontainers/mccortex/status
    :target: https://quay.io/repository/biocontainers/mccortex

@@ -50,6 +50,7 @@ ucsc-mafspeciessubset
 
 
 .. |downloads_ucsc-mafspeciessubset| image:: https://img.shields.io/conda/dn/bioconda/ucsc-mafspeciessubset.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-mafspeciessubset
    :alt:   (downloads)
 .. |docker_ucsc-mafspeciessubset| image:: https://quay.io/repository/biocontainers/ucsc-mafspeciessubset/status
    :target: https://quay.io/repository/biocontainers/ucsc-mafspeciessubset

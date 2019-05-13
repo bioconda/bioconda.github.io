@@ -47,6 +47,7 @@ r-kaos
 
 
 .. |downloads_r-kaos| image:: https://img.shields.io/conda/dn/bioconda/r-kaos.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-kaos
    :alt:   (downloads)
 .. |docker_r-kaos| image:: https://quay.io/repository/biocontainers/r-kaos/status
    :target: https://quay.io/repository/biocontainers/r-kaos

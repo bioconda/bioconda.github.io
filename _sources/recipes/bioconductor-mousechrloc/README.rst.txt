@@ -46,6 +46,7 @@ bioconductor-mousechrloc
 
 
 .. |downloads_bioconductor-mousechrloc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mousechrloc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mousechrloc
    :alt:   (downloads)
 .. |docker_bioconductor-mousechrloc| image:: https://quay.io/repository/biocontainers/bioconductor-mousechrloc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mousechrloc

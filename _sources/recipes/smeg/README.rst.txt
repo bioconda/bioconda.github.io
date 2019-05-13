@@ -64,6 +64,7 @@ smeg
 
 
 .. |downloads_smeg| image:: https://img.shields.io/conda/dn/bioconda/smeg.svg?style=flat
+   :target: https://anaconda.org/bioconda/smeg
    :alt:   (downloads)
 .. |docker_smeg| image:: https://quay.io/repository/biocontainers/smeg/status
    :target: https://quay.io/repository/biocontainers/smeg

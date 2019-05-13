@@ -61,6 +61,7 @@ bioconductor-rarevariantvis
 
 
 .. |downloads_bioconductor-rarevariantvis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rarevariantvis.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rarevariantvis
    :alt:   (downloads)
 .. |docker_bioconductor-rarevariantvis| image:: https://quay.io/repository/biocontainers/bioconductor-rarevariantvis/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rarevariantvis

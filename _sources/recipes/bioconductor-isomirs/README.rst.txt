@@ -72,6 +72,7 @@ bioconductor-isomirs
 
 
 .. |downloads_bioconductor-isomirs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-isomirs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-isomirs
    :alt:   (downloads)
 .. |docker_bioconductor-isomirs| image:: https://quay.io/repository/biocontainers/bioconductor-isomirs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-isomirs

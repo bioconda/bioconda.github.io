@@ -52,6 +52,7 @@ bioconductor-ppinfer
 
 
 .. |downloads_bioconductor-ppinfer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ppinfer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ppinfer
    :alt:   (downloads)
 .. |docker_bioconductor-ppinfer| image:: https://quay.io/repository/biocontainers/bioconductor-ppinfer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ppinfer

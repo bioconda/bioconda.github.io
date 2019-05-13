@@ -50,6 +50,7 @@ ucsc-beditemoverlapcount
 
 
 .. |downloads_ucsc-beditemoverlapcount| image:: https://img.shields.io/conda/dn/bioconda/ucsc-beditemoverlapcount.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-beditemoverlapcount
    :alt:   (downloads)
 .. |docker_ucsc-beditemoverlapcount| image:: https://quay.io/repository/biocontainers/ucsc-beditemoverlapcount/status
    :target: https://quay.io/repository/biocontainers/ucsc-beditemoverlapcount

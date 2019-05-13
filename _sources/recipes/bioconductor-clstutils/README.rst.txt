@@ -51,6 +51,7 @@ bioconductor-clstutils
 
 
 .. |downloads_bioconductor-clstutils| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clstutils.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-clstutils
    :alt:   (downloads)
 .. |docker_bioconductor-clstutils| image:: https://quay.io/repository/biocontainers/bioconductor-clstutils/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clstutils

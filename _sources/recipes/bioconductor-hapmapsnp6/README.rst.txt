@@ -46,6 +46,7 @@ bioconductor-hapmapsnp6
 
 
 .. |downloads_bioconductor-hapmapsnp6| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hapmapsnp6.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hapmapsnp6
    :alt:   (downloads)
 .. |docker_bioconductor-hapmapsnp6| image:: https://quay.io/repository/biocontainers/bioconductor-hapmapsnp6/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hapmapsnp6

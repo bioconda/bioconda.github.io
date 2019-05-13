@@ -52,6 +52,7 @@ bioconductor-dmrscan
 
 
 .. |downloads_bioconductor-dmrscan| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dmrscan.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dmrscan
    :alt:   (downloads)
 .. |docker_bioconductor-dmrscan| image:: https://quay.io/repository/biocontainers/bioconductor-dmrscan/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dmrscan

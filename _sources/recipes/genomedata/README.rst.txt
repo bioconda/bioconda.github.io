@@ -55,6 +55,7 @@ genomedata
 
 
 .. |downloads_genomedata| image:: https://img.shields.io/conda/dn/bioconda/genomedata.svg?style=flat
+   :target: https://anaconda.org/bioconda/genomedata
    :alt:   (downloads)
 .. |docker_genomedata| image:: https://quay.io/repository/biocontainers/genomedata/status
    :target: https://quay.io/repository/biocontainers/genomedata

@@ -49,6 +49,7 @@ bioconductor-covrna
 
 
 .. |downloads_bioconductor-covrna| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-covrna.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-covrna
    :alt:   (downloads)
 .. |docker_bioconductor-covrna| image:: https://quay.io/repository/biocontainers/bioconductor-covrna/status
    :target: https://quay.io/repository/biocontainers/bioconductor-covrna

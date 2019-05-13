@@ -58,6 +58,7 @@ haystack_bio
 
 
 .. |downloads_haystack_bio| image:: https://img.shields.io/conda/dn/bioconda/haystack_bio.svg?style=flat
+   :target: https://anaconda.org/bioconda/haystack_bio
    :alt:   (downloads)
 .. |docker_haystack_bio| image:: https://quay.io/repository/biocontainers/haystack_bio/status
    :target: https://quay.io/repository/biocontainers/haystack_bio

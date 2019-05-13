@@ -46,6 +46,7 @@ perl-heap-simple-xs
 
 
 .. |downloads_perl-heap-simple-xs| image:: https://img.shields.io/conda/dn/bioconda/perl-heap-simple-xs.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-heap-simple-xs
    :alt:   (downloads)
 .. |docker_perl-heap-simple-xs| image:: https://quay.io/repository/biocontainers/perl-heap-simple-xs/status
    :target: https://quay.io/repository/biocontainers/perl-heap-simple-xs

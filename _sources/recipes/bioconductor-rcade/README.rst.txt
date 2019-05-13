@@ -54,6 +54,7 @@ bioconductor-rcade
 
 
 .. |downloads_bioconductor-rcade| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rcade.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rcade
    :alt:   (downloads)
 .. |docker_bioconductor-rcade| image:: https://quay.io/repository/biocontainers/bioconductor-rcade/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rcade

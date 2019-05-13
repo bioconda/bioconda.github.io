@@ -48,6 +48,7 @@ bioconductor-aims
 
 
 .. |downloads_bioconductor-aims| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-aims.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-aims
    :alt:   (downloads)
 .. |docker_bioconductor-aims| image:: https://quay.io/repository/biocontainers/bioconductor-aims/status
    :target: https://quay.io/repository/biocontainers/bioconductor-aims

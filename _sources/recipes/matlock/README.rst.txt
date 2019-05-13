@@ -50,6 +50,7 @@ matlock
 
 
 .. |downloads_matlock| image:: https://img.shields.io/conda/dn/bioconda/matlock.svg?style=flat
+   :target: https://anaconda.org/bioconda/matlock
    :alt:   (downloads)
 .. |docker_matlock| image:: https://quay.io/repository/biocontainers/matlock/status
    :target: https://quay.io/repository/biocontainers/matlock

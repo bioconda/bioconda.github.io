@@ -44,6 +44,7 @@ stellar
 
 
 .. |downloads_stellar| image:: https://img.shields.io/conda/dn/bioconda/stellar.svg?style=flat
+   :target: https://anaconda.org/bioconda/stellar
    :alt:   (downloads)
 .. |docker_stellar| image:: https://quay.io/repository/biocontainers/stellar/status
    :target: https://quay.io/repository/biocontainers/stellar

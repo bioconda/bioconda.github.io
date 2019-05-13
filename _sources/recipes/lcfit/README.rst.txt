@@ -52,6 +52,7 @@ lcfit
 
 
 .. |downloads_lcfit| image:: https://img.shields.io/conda/dn/bioconda/lcfit.svg?style=flat
+   :target: https://anaconda.org/bioconda/lcfit
    :alt:   (downloads)
 .. |docker_lcfit| image:: https://quay.io/repository/biocontainers/lcfit/status
    :target: https://quay.io/repository/biocontainers/lcfit

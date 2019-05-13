@@ -45,6 +45,7 @@ perl-sub-name
 
 
 .. |downloads_perl-sub-name| image:: https://img.shields.io/conda/dn/bioconda/perl-sub-name.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-sub-name
    :alt:   (downloads)
 .. |docker_perl-sub-name| image:: https://quay.io/repository/biocontainers/perl-sub-name/status
    :target: https://quay.io/repository/biocontainers/perl-sub-name

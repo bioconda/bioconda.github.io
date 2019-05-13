@@ -45,6 +45,7 @@ perl-math-base-convert
 
 
 .. |downloads_perl-math-base-convert| image:: https://img.shields.io/conda/dn/bioconda/perl-math-base-convert.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-math-base-convert
    :alt:   (downloads)
 .. |docker_perl-math-base-convert| image:: https://quay.io/repository/biocontainers/perl-math-base-convert/status
    :target: https://quay.io/repository/biocontainers/perl-math-base-convert

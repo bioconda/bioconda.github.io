@@ -59,6 +59,7 @@ hla-la
 
 
 .. |downloads_hla-la| image:: https://img.shields.io/conda/dn/bioconda/hla-la.svg?style=flat
+   :target: https://anaconda.org/bioconda/hla-la
    :alt:   (downloads)
 .. |docker_hla-la| image:: https://quay.io/repository/biocontainers/hla-la/status
    :target: https://quay.io/repository/biocontainers/hla-la

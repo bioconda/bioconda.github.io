@@ -48,6 +48,7 @@ viennarna
 
 
 .. |downloads_viennarna| image:: https://img.shields.io/conda/dn/bioconda/viennarna.svg?style=flat
+   :target: https://anaconda.org/bioconda/viennarna
    :alt:   (downloads)
 .. |docker_viennarna| image:: https://quay.io/repository/biocontainers/viennarna/status
    :target: https://quay.io/repository/biocontainers/viennarna

@@ -57,6 +57,7 @@ bioconductor-sparsesignatures
 
 
 .. |downloads_bioconductor-sparsesignatures| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sparsesignatures.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sparsesignatures
    :alt:   (downloads)
 .. |docker_bioconductor-sparsesignatures| image:: https://quay.io/repository/biocontainers/bioconductor-sparsesignatures/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sparsesignatures

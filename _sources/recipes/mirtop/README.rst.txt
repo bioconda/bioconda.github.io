@@ -49,6 +49,7 @@ mirtop
 
 
 .. |downloads_mirtop| image:: https://img.shields.io/conda/dn/bioconda/mirtop.svg?style=flat
+   :target: https://anaconda.org/bioconda/mirtop
    :alt:   (downloads)
 .. |docker_mirtop| image:: https://quay.io/repository/biocontainers/mirtop/status
    :target: https://quay.io/repository/biocontainers/mirtop

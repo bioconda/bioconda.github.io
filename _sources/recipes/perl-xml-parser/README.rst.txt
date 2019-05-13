@@ -47,6 +47,7 @@ perl-xml-parser
 
 
 .. |downloads_perl-xml-parser| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-parser.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-xml-parser
    :alt:   (downloads)
 .. |docker_perl-xml-parser| image:: https://quay.io/repository/biocontainers/perl-xml-parser/status
    :target: https://quay.io/repository/biocontainers/perl-xml-parser

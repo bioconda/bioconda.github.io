@@ -51,6 +51,7 @@ r-imp4p
 
 
 .. |downloads_r-imp4p| image:: https://img.shields.io/conda/dn/bioconda/r-imp4p.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-imp4p
    :alt:   (downloads)
 .. |docker_r-imp4p| image:: https://quay.io/repository/biocontainers/r-imp4p/status
    :target: https://quay.io/repository/biocontainers/r-imp4p

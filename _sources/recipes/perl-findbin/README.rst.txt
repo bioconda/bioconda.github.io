@@ -45,6 +45,7 @@ perl-findbin
 
 
 .. |downloads_perl-findbin| image:: https://img.shields.io/conda/dn/bioconda/perl-findbin.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-findbin
    :alt:   (downloads)
 .. |docker_perl-findbin| image:: https://quay.io/repository/biocontainers/perl-findbin/status
    :target: https://quay.io/repository/biocontainers/perl-findbin

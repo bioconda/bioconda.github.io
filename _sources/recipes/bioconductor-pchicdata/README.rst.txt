@@ -47,6 +47,7 @@ bioconductor-pchicdata
 
 
 .. |downloads_bioconductor-pchicdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pchicdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pchicdata
    :alt:   (downloads)
 .. |docker_bioconductor-pchicdata| image:: https://quay.io/repository/biocontainers/bioconductor-pchicdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pchicdata

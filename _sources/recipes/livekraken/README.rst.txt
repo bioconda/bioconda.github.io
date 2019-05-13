@@ -50,6 +50,7 @@ livekraken
 
 
 .. |downloads_livekraken| image:: https://img.shields.io/conda/dn/bioconda/livekraken.svg?style=flat
+   :target: https://anaconda.org/bioconda/livekraken
    :alt:   (downloads)
 .. |docker_livekraken| image:: https://quay.io/repository/biocontainers/livekraken/status
    :target: https://quay.io/repository/biocontainers/livekraken

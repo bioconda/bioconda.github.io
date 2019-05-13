@@ -45,6 +45,7 @@ perl-io-uncompress-gunzip
 
 
 .. |downloads_perl-io-uncompress-gunzip| image:: https://img.shields.io/conda/dn/bioconda/perl-io-uncompress-gunzip.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-io-uncompress-gunzip
    :alt:   (downloads)
 .. |docker_perl-io-uncompress-gunzip| image:: https://quay.io/repository/biocontainers/perl-io-uncompress-gunzip/status
    :target: https://quay.io/repository/biocontainers/perl-io-uncompress-gunzip

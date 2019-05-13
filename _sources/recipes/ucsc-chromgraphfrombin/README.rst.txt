@@ -50,6 +50,7 @@ ucsc-chromgraphfrombin
 
 
 .. |downloads_ucsc-chromgraphfrombin| image:: https://img.shields.io/conda/dn/bioconda/ucsc-chromgraphfrombin.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-chromgraphfrombin
    :alt:   (downloads)
 .. |docker_ucsc-chromgraphfrombin| image:: https://quay.io/repository/biocontainers/ucsc-chromgraphfrombin/status
    :target: https://quay.io/repository/biocontainers/ucsc-chromgraphfrombin

@@ -54,6 +54,7 @@ kobas
 
 
 .. |downloads_kobas| image:: https://img.shields.io/conda/dn/bioconda/kobas.svg?style=flat
+   :target: https://anaconda.org/bioconda/kobas
    :alt:   (downloads)
 .. |docker_kobas| image:: https://quay.io/repository/biocontainers/kobas/status
    :target: https://quay.io/repository/biocontainers/kobas

@@ -61,6 +61,7 @@ bioconductor-cardinal
 
 
 .. |downloads_bioconductor-cardinal| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cardinal.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cardinal
    :alt:   (downloads)
 .. |docker_bioconductor-cardinal| image:: https://quay.io/repository/biocontainers/bioconductor-cardinal/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cardinal

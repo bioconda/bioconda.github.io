@@ -53,6 +53,7 @@ bioconductor-risa
 
 
 .. |downloads_bioconductor-risa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-risa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-risa
    :alt:   (downloads)
 .. |docker_bioconductor-risa| image:: https://quay.io/repository/biocontainers/bioconductor-risa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-risa

@@ -50,6 +50,7 @@ bioconductor-mqtl.nmr
 
 
 .. |downloads_bioconductor-mqtl.nmr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mqtl.nmr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mqtl.nmr
    :alt:   (downloads)
 .. |docker_bioconductor-mqtl.nmr| image:: https://quay.io/repository/biocontainers/bioconductor-mqtl.nmr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mqtl.nmr

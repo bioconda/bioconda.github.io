@@ -49,6 +49,7 @@ nasp
 
 
 .. |downloads_nasp| image:: https://img.shields.io/conda/dn/bioconda/nasp.svg?style=flat
+   :target: https://anaconda.org/bioconda/nasp
    :alt:   (downloads)
 .. |docker_nasp| image:: https://quay.io/repository/biocontainers/nasp/status
    :target: https://quay.io/repository/biocontainers/nasp

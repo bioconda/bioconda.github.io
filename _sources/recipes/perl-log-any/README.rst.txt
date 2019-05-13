@@ -47,6 +47,7 @@ perl-log-any
 
 
 .. |downloads_perl-log-any| image:: https://img.shields.io/conda/dn/bioconda/perl-log-any.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-log-any
    :alt:   (downloads)
 .. |docker_perl-log-any| image:: https://quay.io/repository/biocontainers/perl-log-any/status
    :target: https://quay.io/repository/biocontainers/perl-log-any

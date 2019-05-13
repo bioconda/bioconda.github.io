@@ -47,6 +47,7 @@ mcl
 
 
 .. |downloads_mcl| image:: https://img.shields.io/conda/dn/bioconda/mcl.svg?style=flat
+   :target: https://anaconda.org/bioconda/mcl
    :alt:   (downloads)
 .. |docker_mcl| image:: https://quay.io/repository/biocontainers/mcl/status
    :target: https://quay.io/repository/biocontainers/mcl

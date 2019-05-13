@@ -46,6 +46,7 @@ bioconductor-facopy.annot
 
 
 .. |downloads_bioconductor-facopy.annot| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-facopy.annot.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-facopy.annot
    :alt:   (downloads)
 .. |docker_bioconductor-facopy.annot| image:: https://quay.io/repository/biocontainers/bioconductor-facopy.annot/status
    :target: https://quay.io/repository/biocontainers/bioconductor-facopy.annot

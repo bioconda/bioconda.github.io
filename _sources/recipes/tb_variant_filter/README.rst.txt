@@ -52,6 +52,7 @@ tb_variant_filter
 
 
 .. |downloads_tb_variant_filter| image:: https://img.shields.io/conda/dn/bioconda/tb_variant_filter.svg?style=flat
+   :target: https://anaconda.org/bioconda/tb_variant_filter
    :alt:   (downloads)
 .. |docker_tb_variant_filter| image:: https://quay.io/repository/biocontainers/tb_variant_filter/status
    :target: https://quay.io/repository/biocontainers/tb_variant_filter

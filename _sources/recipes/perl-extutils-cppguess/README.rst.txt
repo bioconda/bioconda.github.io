@@ -48,6 +48,7 @@ perl-extutils-cppguess
 
 
 .. |downloads_perl-extutils-cppguess| image:: https://img.shields.io/conda/dn/bioconda/perl-extutils-cppguess.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-extutils-cppguess
    :alt:   (downloads)
 .. |docker_perl-extutils-cppguess| image:: https://quay.io/repository/biocontainers/perl-extutils-cppguess/status
    :target: https://quay.io/repository/biocontainers/perl-extutils-cppguess

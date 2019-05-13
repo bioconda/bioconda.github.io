@@ -57,6 +57,7 @@ perl-module-build
 
 
 .. |downloads_perl-module-build| image:: https://img.shields.io/conda/dn/bioconda/perl-module-build.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-module-build
    :alt:   (downloads)
 .. |docker_perl-module-build| image:: https://quay.io/repository/biocontainers/perl-module-build/status
    :target: https://quay.io/repository/biocontainers/perl-module-build

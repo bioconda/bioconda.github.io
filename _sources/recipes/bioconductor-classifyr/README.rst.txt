@@ -51,6 +51,7 @@ bioconductor-classifyr
 
 
 .. |downloads_bioconductor-classifyr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-classifyr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-classifyr
    :alt:   (downloads)
 .. |docker_bioconductor-classifyr| image:: https://quay.io/repository/biocontainers/bioconductor-classifyr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-classifyr

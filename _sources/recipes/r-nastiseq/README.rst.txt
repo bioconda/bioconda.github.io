@@ -48,6 +48,7 @@ r-nastiseq
 
 
 .. |downloads_r-nastiseq| image:: https://img.shields.io/conda/dn/bioconda/r-nastiseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-nastiseq
    :alt:   (downloads)
 .. |docker_r-nastiseq| image:: https://quay.io/repository/biocontainers/r-nastiseq/status
    :target: https://quay.io/repository/biocontainers/r-nastiseq

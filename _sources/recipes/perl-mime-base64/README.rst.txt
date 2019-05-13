@@ -46,6 +46,7 @@ perl-mime-base64
 
 
 .. |downloads_perl-mime-base64| image:: https://img.shields.io/conda/dn/bioconda/perl-mime-base64.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-mime-base64
    :alt:   (downloads)
 .. |docker_perl-mime-base64| image:: https://quay.io/repository/biocontainers/perl-mime-base64/status
    :target: https://quay.io/repository/biocontainers/perl-mime-base64

@@ -55,6 +55,7 @@ bioconductor-mzr
 
 
 .. |downloads_bioconductor-mzr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mzr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mzr
    :alt:   (downloads)
 .. |docker_bioconductor-mzr| image:: https://quay.io/repository/biocontainers/bioconductor-mzr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mzr

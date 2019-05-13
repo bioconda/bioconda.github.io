@@ -50,6 +50,7 @@ ucsc-nibsize
 
 
 .. |downloads_ucsc-nibsize| image:: https://img.shields.io/conda/dn/bioconda/ucsc-nibsize.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-nibsize
    :alt:   (downloads)
 .. |docker_ucsc-nibsize| image:: https://quay.io/repository/biocontainers/ucsc-nibsize/status
    :target: https://quay.io/repository/biocontainers/ucsc-nibsize

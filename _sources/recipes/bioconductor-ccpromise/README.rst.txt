@@ -49,6 +49,7 @@ bioconductor-ccpromise
 
 
 .. |downloads_bioconductor-ccpromise| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ccpromise.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ccpromise
    :alt:   (downloads)
 .. |docker_bioconductor-ccpromise| image:: https://quay.io/repository/biocontainers/bioconductor-ccpromise/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ccpromise

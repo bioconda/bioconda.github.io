@@ -45,6 +45,7 @@ perl-postscript
 
 
 .. |downloads_perl-postscript| image:: https://img.shields.io/conda/dn/bioconda/perl-postscript.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-postscript
    :alt:   (downloads)
 .. |docker_perl-postscript| image:: https://quay.io/repository/biocontainers/perl-postscript/status
    :target: https://quay.io/repository/biocontainers/perl-postscript

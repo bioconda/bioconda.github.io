@@ -44,6 +44,7 @@ involucro
 
 
 .. |downloads_involucro| image:: https://img.shields.io/conda/dn/bioconda/involucro.svg?style=flat
+   :target: https://anaconda.org/bioconda/involucro
    :alt:   (downloads)
 .. |docker_involucro| image:: https://quay.io/repository/biocontainers/involucro/status
    :target: https://quay.io/repository/biocontainers/involucro

@@ -51,6 +51,7 @@ perl-par-packer
 
 
 .. |downloads_perl-par-packer| image:: https://img.shields.io/conda/dn/bioconda/perl-par-packer.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-par-packer
    :alt:   (downloads)
 .. |docker_perl-par-packer| image:: https://quay.io/repository/biocontainers/perl-par-packer/status
    :target: https://quay.io/repository/biocontainers/perl-par-packer

@@ -53,6 +53,7 @@ fastlmm
 
 
 .. |downloads_fastlmm| image:: https://img.shields.io/conda/dn/bioconda/fastlmm.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastlmm
    :alt:   (downloads)
 .. |docker_fastlmm| image:: https://quay.io/repository/biocontainers/fastlmm/status
    :target: https://quay.io/repository/biocontainers/fastlmm

@@ -46,6 +46,7 @@ perl-crypt-openssl-rsa
 
 
 .. |downloads_perl-crypt-openssl-rsa| image:: https://img.shields.io/conda/dn/bioconda/perl-crypt-openssl-rsa.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-crypt-openssl-rsa
    :alt:   (downloads)
 .. |docker_perl-crypt-openssl-rsa| image:: https://quay.io/repository/biocontainers/perl-crypt-openssl-rsa/status
    :target: https://quay.io/repository/biocontainers/perl-crypt-openssl-rsa

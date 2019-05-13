@@ -51,6 +51,7 @@ metaseq-all
 
 
 .. |downloads_metaseq-all| image:: https://img.shields.io/conda/dn/bioconda/metaseq-all.svg?style=flat
+   :target: https://anaconda.org/bioconda/metaseq-all
    :alt:   (downloads)
 .. |docker_metaseq-all| image:: https://quay.io/repository/biocontainers/metaseq-all/status
    :target: https://quay.io/repository/biocontainers/metaseq-all

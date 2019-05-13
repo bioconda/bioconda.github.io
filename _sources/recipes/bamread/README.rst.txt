@@ -52,6 +52,7 @@ bamread
 
 
 .. |downloads_bamread| image:: https://img.shields.io/conda/dn/bioconda/bamread.svg?style=flat
+   :target: https://anaconda.org/bioconda/bamread
    :alt:   (downloads)
 .. |docker_bamread| image:: https://quay.io/repository/biocontainers/bamread/status
    :target: https://quay.io/repository/biocontainers/bamread

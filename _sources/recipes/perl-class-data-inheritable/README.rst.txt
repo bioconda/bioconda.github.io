@@ -45,6 +45,7 @@ perl-class-data-inheritable
 
 
 .. |downloads_perl-class-data-inheritable| image:: https://img.shields.io/conda/dn/bioconda/perl-class-data-inheritable.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-class-data-inheritable
    :alt:   (downloads)
 .. |docker_perl-class-data-inheritable| image:: https://quay.io/repository/biocontainers/perl-class-data-inheritable/status
    :target: https://quay.io/repository/biocontainers/perl-class-data-inheritable

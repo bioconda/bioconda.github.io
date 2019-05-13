@@ -48,6 +48,7 @@ bioconductor-bovine.db
 
 
 .. |downloads_bioconductor-bovine.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bovine.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bovine.db
    :alt:   (downloads)
 .. |docker_bioconductor-bovine.db| image:: https://quay.io/repository/biocontainers/bioconductor-bovine.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bovine.db

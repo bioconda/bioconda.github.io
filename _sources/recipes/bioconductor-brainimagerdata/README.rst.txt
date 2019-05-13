@@ -47,6 +47,7 @@ bioconductor-brainimagerdata
 
 
 .. |downloads_bioconductor-brainimagerdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-brainimagerdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-brainimagerdata
    :alt:   (downloads)
 .. |docker_bioconductor-brainimagerdata| image:: https://quay.io/repository/biocontainers/bioconductor-brainimagerdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-brainimagerdata

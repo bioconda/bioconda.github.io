@@ -48,6 +48,7 @@ bwa
 
 
 .. |downloads_bwa| image:: https://img.shields.io/conda/dn/bioconda/bwa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bwa
    :alt:   (downloads)
 .. |docker_bwa| image:: https://quay.io/repository/biocontainers/bwa/status
    :target: https://quay.io/repository/biocontainers/bwa

@@ -52,6 +52,7 @@ bioconductor-pd.2006.07.18.hg18.refseq.promoter
 
 
 .. |downloads_bioconductor-pd.2006.07.18.hg18.refseq.promoter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.2006.07.18.hg18.refseq.promoter.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.2006.07.18.hg18.refseq.promoter
    :alt:   (downloads)
 .. |docker_bioconductor-pd.2006.07.18.hg18.refseq.promoter| image:: https://quay.io/repository/biocontainers/bioconductor-pd.2006.07.18.hg18.refseq.promoter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.2006.07.18.hg18.refseq.promoter

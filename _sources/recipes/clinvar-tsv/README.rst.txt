@@ -47,6 +47,7 @@ clinvar-tsv
 
 
 .. |downloads_clinvar-tsv| image:: https://img.shields.io/conda/dn/bioconda/clinvar-tsv.svg?style=flat
+   :target: https://anaconda.org/bioconda/clinvar-tsv
    :alt:   (downloads)
 .. |docker_clinvar-tsv| image:: https://quay.io/repository/biocontainers/clinvar-tsv/status
    :target: https://quay.io/repository/biocontainers/clinvar-tsv

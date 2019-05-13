@@ -45,6 +45,7 @@ lofreq
 
 
 .. |downloads_lofreq| image:: https://img.shields.io/conda/dn/bioconda/lofreq.svg?style=flat
+   :target: https://anaconda.org/bioconda/lofreq
    :alt:   (downloads)
 .. |docker_lofreq| image:: https://quay.io/repository/biocontainers/lofreq/status
    :target: https://quay.io/repository/biocontainers/lofreq

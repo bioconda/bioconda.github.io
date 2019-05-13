@@ -48,6 +48,7 @@ bioconductor-xlaevis.db
 
 
 .. |downloads_bioconductor-xlaevis.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-xlaevis.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-xlaevis.db
    :alt:   (downloads)
 .. |docker_bioconductor-xlaevis.db| image:: https://quay.io/repository/biocontainers/bioconductor-xlaevis.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-xlaevis.db

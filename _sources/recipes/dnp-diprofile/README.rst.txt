@@ -48,6 +48,7 @@ dnp-diprofile
 
 
 .. |downloads_dnp-diprofile| image:: https://img.shields.io/conda/dn/bioconda/dnp-diprofile.svg?style=flat
+   :target: https://anaconda.org/bioconda/dnp-diprofile
    :alt:   (downloads)
 .. |docker_dnp-diprofile| image:: https://quay.io/repository/biocontainers/dnp-diprofile/status
    :target: https://quay.io/repository/biocontainers/dnp-diprofile

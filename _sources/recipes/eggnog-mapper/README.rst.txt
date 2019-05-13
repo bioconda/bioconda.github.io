@@ -51,6 +51,7 @@ eggnog-mapper
 
 
 .. |downloads_eggnog-mapper| image:: https://img.shields.io/conda/dn/bioconda/eggnog-mapper.svg?style=flat
+   :target: https://anaconda.org/bioconda/eggnog-mapper
    :alt:   (downloads)
 .. |docker_eggnog-mapper| image:: https://quay.io/repository/biocontainers/eggnog-mapper/status
    :target: https://quay.io/repository/biocontainers/eggnog-mapper

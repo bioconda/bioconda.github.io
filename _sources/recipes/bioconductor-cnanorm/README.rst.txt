@@ -49,6 +49,7 @@ bioconductor-cnanorm
 
 
 .. |downloads_bioconductor-cnanorm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cnanorm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cnanorm
    :alt:   (downloads)
 .. |docker_bioconductor-cnanorm| image:: https://quay.io/repository/biocontainers/bioconductor-cnanorm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cnanorm

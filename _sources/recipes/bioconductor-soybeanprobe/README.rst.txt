@@ -47,6 +47,7 @@ bioconductor-soybeanprobe
 
 
 .. |downloads_bioconductor-soybeanprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-soybeanprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-soybeanprobe
    :alt:   (downloads)
 .. |docker_bioconductor-soybeanprobe| image:: https://quay.io/repository/biocontainers/bioconductor-soybeanprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-soybeanprobe

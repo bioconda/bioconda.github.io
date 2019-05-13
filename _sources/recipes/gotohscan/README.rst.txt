@@ -45,6 +45,7 @@ gotohscan
 
 
 .. |downloads_gotohscan| image:: https://img.shields.io/conda/dn/bioconda/gotohscan.svg?style=flat
+   :target: https://anaconda.org/bioconda/gotohscan
    :alt:   (downloads)
 .. |docker_gotohscan| image:: https://quay.io/repository/biocontainers/gotohscan/status
    :target: https://quay.io/repository/biocontainers/gotohscan

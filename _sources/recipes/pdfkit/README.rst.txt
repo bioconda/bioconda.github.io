@@ -46,6 +46,7 @@ pdfkit
 
 
 .. |downloads_pdfkit| image:: https://img.shields.io/conda/dn/bioconda/pdfkit.svg?style=flat
+   :target: https://anaconda.org/bioconda/pdfkit
    :alt:   (downloads)
 .. |docker_pdfkit| image:: https://quay.io/repository/biocontainers/pdfkit/status
    :target: https://quay.io/repository/biocontainers/pdfkit

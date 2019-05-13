@@ -46,6 +46,7 @@ soapdenovo-trans
 
 
 .. |downloads_soapdenovo-trans| image:: https://img.shields.io/conda/dn/bioconda/soapdenovo-trans.svg?style=flat
+   :target: https://anaconda.org/bioconda/soapdenovo-trans
    :alt:   (downloads)
 .. |docker_soapdenovo-trans| image:: https://quay.io/repository/biocontainers/soapdenovo-trans/status
    :target: https://quay.io/repository/biocontainers/soapdenovo-trans

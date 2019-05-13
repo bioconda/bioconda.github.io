@@ -46,6 +46,7 @@ btrim
 
 
 .. |downloads_btrim| image:: https://img.shields.io/conda/dn/bioconda/btrim.svg?style=flat
+   :target: https://anaconda.org/bioconda/btrim
    :alt:   (downloads)
 .. |docker_btrim| image:: https://quay.io/repository/biocontainers/btrim/status
    :target: https://quay.io/repository/biocontainers/btrim

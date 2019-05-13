@@ -53,6 +53,7 @@ bioconductor-pd.hg.focus
 
 
 .. |downloads_bioconductor-pd.hg.focus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.hg.focus.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.hg.focus
    :alt:   (downloads)
 .. |docker_bioconductor-pd.hg.focus| image:: https://quay.io/repository/biocontainers/bioconductor-pd.hg.focus/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.hg.focus

@@ -47,6 +47,7 @@ bioconductor-readqpcr
 
 
 .. |downloads_bioconductor-readqpcr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-readqpcr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-readqpcr
    :alt:   (downloads)
 .. |docker_bioconductor-readqpcr| image:: https://quay.io/repository/biocontainers/bioconductor-readqpcr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-readqpcr

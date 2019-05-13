@@ -48,6 +48,7 @@ bioconductor-hugene21sttranscriptcluster.db
 
 
 .. |downloads_bioconductor-hugene21sttranscriptcluster.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hugene21sttranscriptcluster.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hugene21sttranscriptcluster.db
    :alt:   (downloads)
 .. |docker_bioconductor-hugene21sttranscriptcluster.db| image:: https://quay.io/repository/biocontainers/bioconductor-hugene21sttranscriptcluster.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hugene21sttranscriptcluster.db

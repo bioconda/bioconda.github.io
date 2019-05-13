@@ -49,6 +49,7 @@ akt
 
 
 .. |downloads_akt| image:: https://img.shields.io/conda/dn/bioconda/akt.svg?style=flat
+   :target: https://anaconda.org/bioconda/akt
    :alt:   (downloads)
 .. |docker_akt| image:: https://quay.io/repository/biocontainers/akt/status
    :target: https://quay.io/repository/biocontainers/akt

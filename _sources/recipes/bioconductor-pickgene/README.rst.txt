@@ -47,6 +47,7 @@ bioconductor-pickgene
 
 
 .. |downloads_bioconductor-pickgene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pickgene.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pickgene
    :alt:   (downloads)
 .. |docker_bioconductor-pickgene| image:: https://quay.io/repository/biocontainers/bioconductor-pickgene/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pickgene

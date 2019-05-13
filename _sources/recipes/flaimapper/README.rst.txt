@@ -47,6 +47,7 @@ flaimapper
 
 
 .. |downloads_flaimapper| image:: https://img.shields.io/conda/dn/bioconda/flaimapper.svg?style=flat
+   :target: https://anaconda.org/bioconda/flaimapper
    :alt:   (downloads)
 .. |docker_flaimapper| image:: https://quay.io/repository/biocontainers/flaimapper/status
    :target: https://quay.io/repository/biocontainers/flaimapper

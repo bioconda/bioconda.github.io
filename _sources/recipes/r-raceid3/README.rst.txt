@@ -62,6 +62,7 @@ r-raceid
 
 
 .. |downloads_r-raceid| image:: https://img.shields.io/conda/dn/bioconda/r-raceid.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-raceid
    :alt:   (downloads)
 .. |docker_r-raceid| image:: https://quay.io/repository/biocontainers/r-raceid/status
    :target: https://quay.io/repository/biocontainers/r-raceid

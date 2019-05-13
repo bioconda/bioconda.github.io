@@ -51,6 +51,7 @@ isocor
 
 
 .. |downloads_isocor| image:: https://img.shields.io/conda/dn/bioconda/isocor.svg?style=flat
+   :target: https://anaconda.org/bioconda/isocor
    :alt:   (downloads)
 .. |docker_isocor| image:: https://quay.io/repository/biocontainers/isocor/status
    :target: https://quay.io/repository/biocontainers/isocor

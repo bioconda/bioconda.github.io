@@ -45,6 +45,7 @@ gatk-framework
 
 
 .. |downloads_gatk-framework| image:: https://img.shields.io/conda/dn/bioconda/gatk-framework.svg?style=flat
+   :target: https://anaconda.org/bioconda/gatk-framework
    :alt:   (downloads)
 .. |docker_gatk-framework| image:: https://quay.io/repository/biocontainers/gatk-framework/status
    :target: https://quay.io/repository/biocontainers/gatk-framework

@@ -46,6 +46,7 @@ strelka
 
 
 .. |downloads_strelka| image:: https://img.shields.io/conda/dn/bioconda/strelka.svg?style=flat
+   :target: https://anaconda.org/bioconda/strelka
    :alt:   (downloads)
 .. |docker_strelka| image:: https://quay.io/repository/biocontainers/strelka/status
    :target: https://quay.io/repository/biocontainers/strelka

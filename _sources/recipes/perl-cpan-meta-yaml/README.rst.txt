@@ -47,6 +47,7 @@ perl-cpan-meta-yaml
 
 
 .. |downloads_perl-cpan-meta-yaml| image:: https://img.shields.io/conda/dn/bioconda/perl-cpan-meta-yaml.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-cpan-meta-yaml
    :alt:   (downloads)
 .. |docker_perl-cpan-meta-yaml| image:: https://quay.io/repository/biocontainers/perl-cpan-meta-yaml/status
    :target: https://quay.io/repository/biocontainers/perl-cpan-meta-yaml

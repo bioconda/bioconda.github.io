@@ -45,6 +45,7 @@ perl-perl-osnames
 
 
 .. |downloads_perl-perl-osnames| image:: https://img.shields.io/conda/dn/bioconda/perl-perl-osnames.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-perl-osnames
    :alt:   (downloads)
 .. |docker_perl-perl-osnames| image:: https://quay.io/repository/biocontainers/perl-perl-osnames/status
    :target: https://quay.io/repository/biocontainers/perl-perl-osnames

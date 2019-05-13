@@ -49,6 +49,7 @@ bioconductor-biobroom
 
 
 .. |downloads_bioconductor-biobroom| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biobroom.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-biobroom
    :alt:   (downloads)
 .. |docker_bioconductor-biobroom| image:: https://quay.io/repository/biocontainers/bioconductor-biobroom/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biobroom

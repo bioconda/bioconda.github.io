@@ -46,6 +46,7 @@ bioconductor-mbamethyl
 
 
 .. |downloads_bioconductor-mbamethyl| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mbamethyl.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mbamethyl
    :alt:   (downloads)
 .. |docker_bioconductor-mbamethyl| image:: https://quay.io/repository/biocontainers/bioconductor-mbamethyl/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mbamethyl

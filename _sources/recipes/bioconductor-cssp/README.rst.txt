@@ -45,6 +45,7 @@ bioconductor-cssp
 
 
 .. |downloads_bioconductor-cssp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cssp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cssp
    :alt:   (downloads)
 .. |docker_bioconductor-cssp| image:: https://quay.io/repository/biocontainers/bioconductor-cssp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cssp

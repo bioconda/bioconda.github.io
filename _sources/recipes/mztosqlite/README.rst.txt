@@ -46,6 +46,7 @@ mztosqlite
 
 
 .. |downloads_mztosqlite| image:: https://img.shields.io/conda/dn/bioconda/mztosqlite.svg?style=flat
+   :target: https://anaconda.org/bioconda/mztosqlite
    :alt:   (downloads)
 .. |docker_mztosqlite| image:: https://quay.io/repository/biocontainers/mztosqlite/status
    :target: https://quay.io/repository/biocontainers/mztosqlite

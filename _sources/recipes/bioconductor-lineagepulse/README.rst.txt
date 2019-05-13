@@ -55,6 +55,7 @@ bioconductor-lineagepulse
 
 
 .. |downloads_bioconductor-lineagepulse| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lineagepulse.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lineagepulse
    :alt:   (downloads)
 .. |docker_bioconductor-lineagepulse| image:: https://quay.io/repository/biocontainers/bioconductor-lineagepulse/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lineagepulse

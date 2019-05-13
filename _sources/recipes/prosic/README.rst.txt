@@ -47,6 +47,7 @@ prosic
 
 
 .. |downloads_prosic| image:: https://img.shields.io/conda/dn/bioconda/prosic.svg?style=flat
+   :target: https://anaconda.org/bioconda/prosic
    :alt:   (downloads)
 .. |docker_prosic| image:: https://quay.io/repository/biocontainers/prosic/status
    :target: https://quay.io/repository/biocontainers/prosic

@@ -55,6 +55,7 @@ latentstrainanalysis
 
 
 .. |downloads_latentstrainanalysis| image:: https://img.shields.io/conda/dn/bioconda/latentstrainanalysis.svg?style=flat
+   :target: https://anaconda.org/bioconda/latentstrainanalysis
    :alt:   (downloads)
 .. |docker_latentstrainanalysis| image:: https://quay.io/repository/biocontainers/latentstrainanalysis/status
    :target: https://quay.io/repository/biocontainers/latentstrainanalysis

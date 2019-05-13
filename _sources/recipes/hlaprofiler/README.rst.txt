@@ -52,6 +52,7 @@ hlaprofiler
 
 
 .. |downloads_hlaprofiler| image:: https://img.shields.io/conda/dn/bioconda/hlaprofiler.svg?style=flat
+   :target: https://anaconda.org/bioconda/hlaprofiler
    :alt:   (downloads)
 .. |docker_hlaprofiler| image:: https://quay.io/repository/biocontainers/hlaprofiler/status
    :target: https://quay.io/repository/biocontainers/hlaprofiler

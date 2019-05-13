@@ -49,6 +49,7 @@ bioconductor-gage
 
 
 .. |downloads_bioconductor-gage| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gage.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gage
    :alt:   (downloads)
 .. |docker_bioconductor-gage| image:: https://quay.io/repository/biocontainers/bioconductor-gage/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gage

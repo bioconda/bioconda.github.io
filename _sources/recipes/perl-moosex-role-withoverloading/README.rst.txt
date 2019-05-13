@@ -51,6 +51,7 @@ perl-moosex-role-withoverloading
 
 
 .. |downloads_perl-moosex-role-withoverloading| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-role-withoverloading.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-moosex-role-withoverloading
    :alt:   (downloads)
 .. |docker_perl-moosex-role-withoverloading| image:: https://quay.io/repository/biocontainers/perl-moosex-role-withoverloading/status
    :target: https://quay.io/repository/biocontainers/perl-moosex-role-withoverloading

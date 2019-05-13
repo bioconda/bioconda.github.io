@@ -44,6 +44,7 @@ elprep
 
 
 .. |downloads_elprep| image:: https://img.shields.io/conda/dn/bioconda/elprep.svg?style=flat
+   :target: https://anaconda.org/bioconda/elprep
    :alt:   (downloads)
 .. |docker_elprep| image:: https://quay.io/repository/biocontainers/elprep/status
    :target: https://quay.io/repository/biocontainers/elprep

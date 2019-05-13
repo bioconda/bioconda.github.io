@@ -46,6 +46,7 @@ perl-variable-magic
 
 
 .. |downloads_perl-variable-magic| image:: https://img.shields.io/conda/dn/bioconda/perl-variable-magic.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-variable-magic
    :alt:   (downloads)
 .. |docker_perl-variable-magic| image:: https://quay.io/repository/biocontainers/perl-variable-magic/status
    :target: https://quay.io/repository/biocontainers/perl-variable-magic

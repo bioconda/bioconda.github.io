@@ -50,6 +50,7 @@ ucsc-autoxml
 
 
 .. |downloads_ucsc-autoxml| image:: https://img.shields.io/conda/dn/bioconda/ucsc-autoxml.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-autoxml
    :alt:   (downloads)
 .. |docker_ucsc-autoxml| image:: https://quay.io/repository/biocontainers/ucsc-autoxml/status
    :target: https://quay.io/repository/biocontainers/ucsc-autoxml

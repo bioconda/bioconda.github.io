@@ -48,6 +48,7 @@ bioconductor-opweight
 
 
 .. |downloads_bioconductor-opweight| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-opweight.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-opweight
    :alt:   (downloads)
 .. |docker_bioconductor-opweight| image:: https://quay.io/repository/biocontainers/bioconductor-opweight/status
    :target: https://quay.io/repository/biocontainers/bioconductor-opweight

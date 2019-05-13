@@ -51,6 +51,7 @@ kaiju
 
 
 .. |downloads_kaiju| image:: https://img.shields.io/conda/dn/bioconda/kaiju.svg?style=flat
+   :target: https://anaconda.org/bioconda/kaiju
    :alt:   (downloads)
 .. |docker_kaiju| image:: https://quay.io/repository/biocontainers/kaiju/status
    :target: https://quay.io/repository/biocontainers/kaiju

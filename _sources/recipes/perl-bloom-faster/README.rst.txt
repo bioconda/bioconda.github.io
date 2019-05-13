@@ -46,6 +46,7 @@ perl-bloom-faster
 
 
 .. |downloads_perl-bloom-faster| image:: https://img.shields.io/conda/dn/bioconda/perl-bloom-faster.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bloom-faster
    :alt:   (downloads)
 .. |docker_perl-bloom-faster| image:: https://quay.io/repository/biocontainers/perl-bloom-faster/status
    :target: https://quay.io/repository/biocontainers/perl-bloom-faster

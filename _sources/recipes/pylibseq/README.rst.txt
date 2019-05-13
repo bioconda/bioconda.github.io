@@ -48,6 +48,7 @@ pylibseq
 
 
 .. |downloads_pylibseq| image:: https://img.shields.io/conda/dn/bioconda/pylibseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/pylibseq
    :alt:   (downloads)
 .. |docker_pylibseq| image:: https://quay.io/repository/biocontainers/pylibseq/status
    :target: https://quay.io/repository/biocontainers/pylibseq

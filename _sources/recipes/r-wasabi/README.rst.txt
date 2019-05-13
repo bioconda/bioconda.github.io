@@ -48,6 +48,7 @@ r-wasabi
 
 
 .. |downloads_r-wasabi| image:: https://img.shields.io/conda/dn/bioconda/r-wasabi.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-wasabi
    :alt:   (downloads)
 .. |docker_r-wasabi| image:: https://quay.io/repository/biocontainers/r-wasabi/status
    :target: https://quay.io/repository/biocontainers/r-wasabi

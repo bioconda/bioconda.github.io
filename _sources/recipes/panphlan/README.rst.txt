@@ -56,6 +56,7 @@ panphlan
 
 
 .. |downloads_panphlan| image:: https://img.shields.io/conda/dn/bioconda/panphlan.svg?style=flat
+   :target: https://anaconda.org/bioconda/panphlan
    :alt:   (downloads)
 .. |docker_panphlan| image:: https://quay.io/repository/biocontainers/panphlan/status
    :target: https://quay.io/repository/biocontainers/panphlan

@@ -46,6 +46,7 @@ textinput
 
 
 .. |downloads_textinput| image:: https://img.shields.io/conda/dn/bioconda/textinput.svg?style=flat
+   :target: https://anaconda.org/bioconda/textinput
    :alt:   (downloads)
 .. |docker_textinput| image:: https://quay.io/repository/biocontainers/textinput/status
    :target: https://quay.io/repository/biocontainers/textinput

@@ -47,6 +47,7 @@ real
 
 
 .. |downloads_real| image:: https://img.shields.io/conda/dn/bioconda/real.svg?style=flat
+   :target: https://anaconda.org/bioconda/real
    :alt:   (downloads)
 .. |docker_real| image:: https://quay.io/repository/biocontainers/real/status
    :target: https://quay.io/repository/biocontainers/real

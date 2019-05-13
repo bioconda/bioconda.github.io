@@ -48,6 +48,7 @@ prince
 
 
 .. |downloads_prince| image:: https://img.shields.io/conda/dn/bioconda/prince.svg?style=flat
+   :target: https://anaconda.org/bioconda/prince
    :alt:   (downloads)
 .. |docker_prince| image:: https://quay.io/repository/biocontainers/prince/status
    :target: https://quay.io/repository/biocontainers/prince

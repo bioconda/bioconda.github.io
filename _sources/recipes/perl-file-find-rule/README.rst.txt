@@ -47,6 +47,7 @@ perl-file-find-rule
 
 
 .. |downloads_perl-file-find-rule| image:: https://img.shields.io/conda/dn/bioconda/perl-file-find-rule.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-find-rule
    :alt:   (downloads)
 .. |docker_perl-file-find-rule| image:: https://quay.io/repository/biocontainers/perl-file-find-rule/status
    :target: https://quay.io/repository/biocontainers/perl-file-find-rule

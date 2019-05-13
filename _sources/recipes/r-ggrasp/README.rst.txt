@@ -50,6 +50,7 @@ r-ggrasp
 
 
 .. |downloads_r-ggrasp| image:: https://img.shields.io/conda/dn/bioconda/r-ggrasp.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-ggrasp
    :alt:   (downloads)
 .. |docker_r-ggrasp| image:: https://quay.io/repository/biocontainers/r-ggrasp/status
    :target: https://quay.io/repository/biocontainers/r-ggrasp

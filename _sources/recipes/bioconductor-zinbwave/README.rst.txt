@@ -55,6 +55,7 @@ bioconductor-zinbwave
 
 
 .. |downloads_bioconductor-zinbwave| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-zinbwave.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-zinbwave
    :alt:   (downloads)
 .. |docker_bioconductor-zinbwave| image:: https://quay.io/repository/biocontainers/bioconductor-zinbwave/status
    :target: https://quay.io/repository/biocontainers/bioconductor-zinbwave

@@ -47,6 +47,7 @@ zorro
 
 
 .. |downloads_zorro| image:: https://img.shields.io/conda/dn/bioconda/zorro.svg?style=flat
+   :target: https://anaconda.org/bioconda/zorro
    :alt:   (downloads)
 .. |docker_zorro| image:: https://quay.io/repository/biocontainers/zorro/status
    :target: https://quay.io/repository/biocontainers/zorro

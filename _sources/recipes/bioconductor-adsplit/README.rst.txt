@@ -53,6 +53,7 @@ bioconductor-adsplit
 
 
 .. |downloads_bioconductor-adsplit| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-adsplit.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-adsplit
    :alt:   (downloads)
 .. |docker_bioconductor-adsplit| image:: https://quay.io/repository/biocontainers/bioconductor-adsplit/status
    :target: https://quay.io/repository/biocontainers/bioconductor-adsplit

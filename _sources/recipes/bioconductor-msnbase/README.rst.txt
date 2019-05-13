@@ -70,6 +70,7 @@ bioconductor-msnbase
 
 
 .. |downloads_bioconductor-msnbase| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-msnbase.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-msnbase
    :alt:   (downloads)
 .. |docker_bioconductor-msnbase| image:: https://quay.io/repository/biocontainers/bioconductor-msnbase/status
    :target: https://quay.io/repository/biocontainers/bioconductor-msnbase

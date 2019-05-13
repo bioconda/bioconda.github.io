@@ -48,6 +48,7 @@ perl-xml-sax
 
 
 .. |downloads_perl-xml-sax| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-sax.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-xml-sax
    :alt:   (downloads)
 .. |docker_perl-xml-sax| image:: https://quay.io/repository/biocontainers/perl-xml-sax/status
    :target: https://quay.io/repository/biocontainers/perl-xml-sax

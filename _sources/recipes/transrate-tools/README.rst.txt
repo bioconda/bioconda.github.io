@@ -46,6 +46,7 @@ transrate-tools
 
 
 .. |downloads_transrate-tools| image:: https://img.shields.io/conda/dn/bioconda/transrate-tools.svg?style=flat
+   :target: https://anaconda.org/bioconda/transrate-tools
    :alt:   (downloads)
 .. |docker_transrate-tools| image:: https://quay.io/repository/biocontainers/transrate-tools/status
    :target: https://quay.io/repository/biocontainers/transrate-tools

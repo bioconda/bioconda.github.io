@@ -46,6 +46,7 @@ bioconductor-huex.1.0.st.v2frmavecs
 
 
 .. |downloads_bioconductor-huex.1.0.st.v2frmavecs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-huex.1.0.st.v2frmavecs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-huex.1.0.st.v2frmavecs
    :alt:   (downloads)
 .. |docker_bioconductor-huex.1.0.st.v2frmavecs| image:: https://quay.io/repository/biocontainers/bioconductor-huex.1.0.st.v2frmavecs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-huex.1.0.st.v2frmavecs

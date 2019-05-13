@@ -45,6 +45,7 @@ r-fmsb
 
 
 .. |downloads_r-fmsb| image:: https://img.shields.io/conda/dn/bioconda/r-fmsb.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-fmsb
    :alt:   (downloads)
 .. |docker_r-fmsb| image:: https://quay.io/repository/biocontainers/r-fmsb/status
    :target: https://quay.io/repository/biocontainers/r-fmsb

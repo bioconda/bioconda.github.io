@@ -48,6 +48,7 @@ bioconductor-rwgcod.db
 
 
 .. |downloads_bioconductor-rwgcod.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rwgcod.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rwgcod.db
    :alt:   (downloads)
 .. |docker_bioconductor-rwgcod.db| image:: https://quay.io/repository/biocontainers/bioconductor-rwgcod.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rwgcod.db

@@ -46,6 +46,7 @@ r-genemodel
 
 
 .. |downloads_r-genemodel| image:: https://img.shields.io/conda/dn/bioconda/r-genemodel.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-genemodel
    :alt:   (downloads)
 .. |docker_r-genemodel| image:: https://quay.io/repository/biocontainers/r-genemodel/status
    :target: https://quay.io/repository/biocontainers/r-genemodel

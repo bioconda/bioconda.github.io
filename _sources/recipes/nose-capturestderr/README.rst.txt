@@ -47,6 +47,7 @@ nose-capturestderr
 
 
 .. |downloads_nose-capturestderr| image:: https://img.shields.io/conda/dn/bioconda/nose-capturestderr.svg?style=flat
+   :target: https://anaconda.org/bioconda/nose-capturestderr
    :alt:   (downloads)
 .. |docker_nose-capturestderr| image:: https://quay.io/repository/biocontainers/nose-capturestderr/status
    :target: https://quay.io/repository/biocontainers/nose-capturestderr

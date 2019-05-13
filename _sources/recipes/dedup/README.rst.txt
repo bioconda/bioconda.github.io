@@ -46,6 +46,7 @@ dedup
 
 
 .. |downloads_dedup| image:: https://img.shields.io/conda/dn/bioconda/dedup.svg?style=flat
+   :target: https://anaconda.org/bioconda/dedup
    :alt:   (downloads)
 .. |docker_dedup| image:: https://quay.io/repository/biocontainers/dedup/status
    :target: https://quay.io/repository/biocontainers/dedup

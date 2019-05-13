@@ -49,6 +49,7 @@ perl-html-parser
 
 
 .. |downloads_perl-html-parser| image:: https://img.shields.io/conda/dn/bioconda/perl-html-parser.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-html-parser
    :alt:   (downloads)
 .. |docker_perl-html-parser| image:: https://quay.io/repository/biocontainers/perl-html-parser/status
    :target: https://quay.io/repository/biocontainers/perl-html-parser

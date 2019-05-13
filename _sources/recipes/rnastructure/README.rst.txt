@@ -47,6 +47,7 @@ rnastructure
 
 
 .. |downloads_rnastructure| image:: https://img.shields.io/conda/dn/bioconda/rnastructure.svg?style=flat
+   :target: https://anaconda.org/bioconda/rnastructure
    :alt:   (downloads)
 .. |docker_rnastructure| image:: https://quay.io/repository/biocontainers/rnastructure/status
    :target: https://quay.io/repository/biocontainers/rnastructure

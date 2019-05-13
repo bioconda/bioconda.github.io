@@ -65,6 +65,7 @@ bioconductor-mlinterfaces
 
 
 .. |downloads_bioconductor-mlinterfaces| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mlinterfaces.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mlinterfaces
    :alt:   (downloads)
 .. |docker_bioconductor-mlinterfaces| image:: https://quay.io/repository/biocontainers/bioconductor-mlinterfaces/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mlinterfaces

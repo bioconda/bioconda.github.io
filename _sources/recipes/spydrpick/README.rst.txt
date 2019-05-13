@@ -49,6 +49,7 @@ spydrpick
 
 
 .. |downloads_spydrpick| image:: https://img.shields.io/conda/dn/bioconda/spydrpick.svg?style=flat
+   :target: https://anaconda.org/bioconda/spydrpick
    :alt:   (downloads)
 .. |docker_spydrpick| image:: https://quay.io/repository/biocontainers/spydrpick/status
    :target: https://quay.io/repository/biocontainers/spydrpick

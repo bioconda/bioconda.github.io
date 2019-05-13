@@ -49,6 +49,7 @@ perl-test-cleannamespaces
 
 
 .. |downloads_perl-test-cleannamespaces| image:: https://img.shields.io/conda/dn/bioconda/perl-test-cleannamespaces.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-cleannamespaces
    :alt:   (downloads)
 .. |docker_perl-test-cleannamespaces| image:: https://quay.io/repository/biocontainers/perl-test-cleannamespaces/status
    :target: https://quay.io/repository/biocontainers/perl-test-cleannamespaces

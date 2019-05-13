@@ -45,6 +45,7 @@ bio-vcf
 
 
 .. |downloads_bio-vcf| image:: https://img.shields.io/conda/dn/bioconda/bio-vcf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bio-vcf
    :alt:   (downloads)
 .. |docker_bio-vcf| image:: https://quay.io/repository/biocontainers/bio-vcf/status
    :target: https://quay.io/repository/biocontainers/bio-vcf

@@ -48,6 +48,7 @@ bioconductor-fabia
 
 
 .. |downloads_bioconductor-fabia| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fabia.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-fabia
    :alt:   (downloads)
 .. |docker_bioconductor-fabia| image:: https://quay.io/repository/biocontainers/bioconductor-fabia/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fabia

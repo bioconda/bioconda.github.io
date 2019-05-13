@@ -46,6 +46,7 @@ rdptools
 
 
 .. |downloads_rdptools| image:: https://img.shields.io/conda/dn/bioconda/rdptools.svg?style=flat
+   :target: https://anaconda.org/bioconda/rdptools
    :alt:   (downloads)
 .. |docker_rdptools| image:: https://quay.io/repository/biocontainers/rdptools/status
    :target: https://quay.io/repository/biocontainers/rdptools

@@ -45,6 +45,7 @@ rabix-bunny
 
 
 .. |downloads_rabix-bunny| image:: https://img.shields.io/conda/dn/bioconda/rabix-bunny.svg?style=flat
+   :target: https://anaconda.org/bioconda/rabix-bunny
    :alt:   (downloads)
 .. |docker_rabix-bunny| image:: https://quay.io/repository/biocontainers/rabix-bunny/status
    :target: https://quay.io/repository/biocontainers/rabix-bunny

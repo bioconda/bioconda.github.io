@@ -53,6 +53,7 @@ nanoplotter
 
 
 .. |downloads_nanoplotter| image:: https://img.shields.io/conda/dn/bioconda/nanoplotter.svg?style=flat
+   :target: https://anaconda.org/bioconda/nanoplotter
    :alt:   (downloads)
 .. |docker_nanoplotter| image:: https://quay.io/repository/biocontainers/nanoplotter/status
    :target: https://quay.io/repository/biocontainers/nanoplotter

@@ -53,6 +53,7 @@ bioconductor-greylistchip
 
 
 .. |downloads_bioconductor-greylistchip| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-greylistchip.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-greylistchip
    :alt:   (downloads)
 .. |docker_bioconductor-greylistchip| image:: https://quay.io/repository/biocontainers/bioconductor-greylistchip/status
    :target: https://quay.io/repository/biocontainers/bioconductor-greylistchip

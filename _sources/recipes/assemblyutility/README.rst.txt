@@ -46,6 +46,7 @@ assemblyutility
 
 
 .. |downloads_assemblyutility| image:: https://img.shields.io/conda/dn/bioconda/assemblyutility.svg?style=flat
+   :target: https://anaconda.org/bioconda/assemblyutility
    :alt:   (downloads)
 .. |docker_assemblyutility| image:: https://quay.io/repository/biocontainers/assemblyutility/status
    :target: https://quay.io/repository/biocontainers/assemblyutility

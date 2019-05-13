@@ -68,6 +68,7 @@ qcumber
 
 
 .. |downloads_qcumber| image:: https://img.shields.io/conda/dn/bioconda/qcumber.svg?style=flat
+   :target: https://anaconda.org/bioconda/qcumber
    :alt:   (downloads)
 .. |docker_qcumber| image:: https://quay.io/repository/biocontainers/qcumber/status
    :target: https://quay.io/repository/biocontainers/qcumber

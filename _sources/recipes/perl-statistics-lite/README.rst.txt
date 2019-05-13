@@ -45,6 +45,7 @@ perl-statistics-lite
 
 
 .. |downloads_perl-statistics-lite| image:: https://img.shields.io/conda/dn/bioconda/perl-statistics-lite.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-statistics-lite
    :alt:   (downloads)
 .. |docker_perl-statistics-lite| image:: https://quay.io/repository/biocontainers/perl-statistics-lite/status
    :target: https://quay.io/repository/biocontainers/perl-statistics-lite

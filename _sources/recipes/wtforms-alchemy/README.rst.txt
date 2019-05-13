@@ -50,6 +50,7 @@ wtforms-alchemy
 
 
 .. |downloads_wtforms-alchemy| image:: https://img.shields.io/conda/dn/bioconda/wtforms-alchemy.svg?style=flat
+   :target: https://anaconda.org/bioconda/wtforms-alchemy
    :alt:   (downloads)
 .. |docker_wtforms-alchemy| image:: https://quay.io/repository/biocontainers/wtforms-alchemy/status
    :target: https://quay.io/repository/biocontainers/wtforms-alchemy

@@ -45,6 +45,7 @@ mira
 
 
 .. |downloads_mira| image:: https://img.shields.io/conda/dn/bioconda/mira.svg?style=flat
+   :target: https://anaconda.org/bioconda/mira
    :alt:   (downloads)
 .. |docker_mira| image:: https://quay.io/repository/biocontainers/mira/status
    :target: https://quay.io/repository/biocontainers/mira

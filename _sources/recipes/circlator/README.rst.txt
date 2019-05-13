@@ -54,6 +54,7 @@ circlator
 
 
 .. |downloads_circlator| image:: https://img.shields.io/conda/dn/bioconda/circlator.svg?style=flat
+   :target: https://anaconda.org/bioconda/circlator
    :alt:   (downloads)
 .. |docker_circlator| image:: https://quay.io/repository/biocontainers/circlator/status
    :target: https://quay.io/repository/biocontainers/circlator

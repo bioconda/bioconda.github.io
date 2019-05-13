@@ -60,6 +60,7 @@ bioconductor-bionetstat
 
 
 .. |downloads_bioconductor-bionetstat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bionetstat.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bionetstat
    :alt:   (downloads)
 .. |docker_bioconductor-bionetstat| image:: https://quay.io/repository/biocontainers/bioconductor-bionetstat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bionetstat

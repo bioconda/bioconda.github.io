@@ -58,6 +58,7 @@ bioconductor-qualifier
 
 
 .. |downloads_bioconductor-qualifier| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-qualifier.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-qualifier
    :alt:   (downloads)
 .. |docker_bioconductor-qualifier| image:: https://quay.io/repository/biocontainers/bioconductor-qualifier/status
    :target: https://quay.io/repository/biocontainers/bioconductor-qualifier

@@ -45,6 +45,7 @@ dnapi
 
 
 .. |downloads_dnapi| image:: https://img.shields.io/conda/dn/bioconda/dnapi.svg?style=flat
+   :target: https://anaconda.org/bioconda/dnapi
    :alt:   (downloads)
 .. |docker_dnapi| image:: https://quay.io/repository/biocontainers/dnapi/status
    :target: https://quay.io/repository/biocontainers/dnapi

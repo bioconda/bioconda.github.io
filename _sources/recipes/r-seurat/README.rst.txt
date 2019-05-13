@@ -81,6 +81,7 @@ r-seurat
 
 
 .. |downloads_r-seurat| image:: https://img.shields.io/conda/dn/bioconda/r-seurat.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-seurat
    :alt:   (downloads)
 .. |docker_r-seurat| image:: https://quay.io/repository/biocontainers/r-seurat/status
    :target: https://quay.io/repository/biocontainers/r-seurat

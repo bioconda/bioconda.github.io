@@ -50,6 +50,7 @@ ucsc-qatoqac
 
 
 .. |downloads_ucsc-qatoqac| image:: https://img.shields.io/conda/dn/bioconda/ucsc-qatoqac.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-qatoqac
    :alt:   (downloads)
 .. |docker_ucsc-qatoqac| image:: https://quay.io/repository/biocontainers/ucsc-qatoqac/status
    :target: https://quay.io/repository/biocontainers/ucsc-qatoqac

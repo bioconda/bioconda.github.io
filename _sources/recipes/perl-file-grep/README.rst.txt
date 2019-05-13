@@ -45,6 +45,7 @@ perl-file-grep
 
 
 .. |downloads_perl-file-grep| image:: https://img.shields.io/conda/dn/bioconda/perl-file-grep.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-grep
    :alt:   (downloads)
 .. |docker_perl-file-grep| image:: https://quay.io/repository/biocontainers/perl-file-grep/status
    :target: https://quay.io/repository/biocontainers/perl-file-grep

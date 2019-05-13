@@ -45,6 +45,7 @@ perl-module-load
 
 
 .. |downloads_perl-module-load| image:: https://img.shields.io/conda/dn/bioconda/perl-module-load.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-module-load
    :alt:   (downloads)
 .. |docker_perl-module-load| image:: https://quay.io/repository/biocontainers/perl-module-load/status
    :target: https://quay.io/repository/biocontainers/perl-module-load

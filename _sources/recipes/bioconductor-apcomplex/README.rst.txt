@@ -50,6 +50,7 @@ bioconductor-apcomplex
 
 
 .. |downloads_bioconductor-apcomplex| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-apcomplex.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-apcomplex
    :alt:   (downloads)
 .. |docker_bioconductor-apcomplex| image:: https://quay.io/repository/biocontainers/bioconductor-apcomplex/status
    :target: https://quay.io/repository/biocontainers/bioconductor-apcomplex

@@ -49,6 +49,7 @@ vsearch
 
 
 .. |downloads_vsearch| image:: https://img.shields.io/conda/dn/bioconda/vsearch.svg?style=flat
+   :target: https://anaconda.org/bioconda/vsearch
    :alt:   (downloads)
 .. |docker_vsearch| image:: https://quay.io/repository/biocontainers/vsearch/status
    :target: https://quay.io/repository/biocontainers/vsearch

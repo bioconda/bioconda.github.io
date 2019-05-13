@@ -51,6 +51,7 @@ bcftools
 
 
 .. |downloads_bcftools| image:: https://img.shields.io/conda/dn/bioconda/bcftools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bcftools
    :alt:   (downloads)
 .. |docker_bcftools| image:: https://quay.io/repository/biocontainers/bcftools/status
    :target: https://quay.io/repository/biocontainers/bcftools

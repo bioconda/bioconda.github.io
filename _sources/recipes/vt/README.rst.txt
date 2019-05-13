@@ -46,6 +46,7 @@ vt
 
 
 .. |downloads_vt| image:: https://img.shields.io/conda/dn/bioconda/vt.svg?style=flat
+   :target: https://anaconda.org/bioconda/vt
    :alt:   (downloads)
 .. |docker_vt| image:: https://quay.io/repository/biocontainers/vt/status
    :target: https://quay.io/repository/biocontainers/vt

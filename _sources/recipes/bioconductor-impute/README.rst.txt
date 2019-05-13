@@ -48,6 +48,7 @@ bioconductor-impute
 
 
 .. |downloads_bioconductor-impute| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-impute.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-impute
    :alt:   (downloads)
 .. |docker_bioconductor-impute| image:: https://quay.io/repository/biocontainers/bioconductor-impute/status
    :target: https://quay.io/repository/biocontainers/bioconductor-impute

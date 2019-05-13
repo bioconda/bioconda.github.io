@@ -50,6 +50,7 @@ ucsc-ixixx
 
 
 .. |downloads_ucsc-ixixx| image:: https://img.shields.io/conda/dn/bioconda/ucsc-ixixx.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-ixixx
    :alt:   (downloads)
 .. |docker_ucsc-ixixx| image:: https://quay.io/repository/biocontainers/ucsc-ixixx/status
    :target: https://quay.io/repository/biocontainers/ucsc-ixixx

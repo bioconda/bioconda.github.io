@@ -47,6 +47,7 @@ genomicassertions
 
 
 .. |downloads_genomicassertions| image:: https://img.shields.io/conda/dn/bioconda/genomicassertions.svg?style=flat
+   :target: https://anaconda.org/bioconda/genomicassertions
    :alt:   (downloads)
 .. |docker_genomicassertions| image:: https://quay.io/repository/biocontainers/genomicassertions/status
    :target: https://quay.io/repository/biocontainers/genomicassertions

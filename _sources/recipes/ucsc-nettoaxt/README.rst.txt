@@ -50,6 +50,7 @@ ucsc-nettoaxt
 
 
 .. |downloads_ucsc-nettoaxt| image:: https://img.shields.io/conda/dn/bioconda/ucsc-nettoaxt.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-nettoaxt
    :alt:   (downloads)
 .. |docker_ucsc-nettoaxt| image:: https://quay.io/repository/biocontainers/ucsc-nettoaxt/status
    :target: https://quay.io/repository/biocontainers/ucsc-nettoaxt

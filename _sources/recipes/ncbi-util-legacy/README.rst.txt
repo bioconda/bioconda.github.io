@@ -49,6 +49,7 @@ ncbi-util-legacy
 
 
 .. |downloads_ncbi-util-legacy| image:: https://img.shields.io/conda/dn/bioconda/ncbi-util-legacy.svg?style=flat
+   :target: https://anaconda.org/bioconda/ncbi-util-legacy
    :alt:   (downloads)
 .. |docker_ncbi-util-legacy| image:: https://quay.io/repository/biocontainers/ncbi-util-legacy/status
    :target: https://quay.io/repository/biocontainers/ncbi-util-legacy

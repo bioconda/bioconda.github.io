@@ -49,6 +49,7 @@ bismark
 
 
 .. |downloads_bismark| image:: https://img.shields.io/conda/dn/bioconda/bismark.svg?style=flat
+   :target: https://anaconda.org/bioconda/bismark
    :alt:   (downloads)
 .. |docker_bismark| image:: https://quay.io/repository/biocontainers/bismark/status
    :target: https://quay.io/repository/biocontainers/bismark

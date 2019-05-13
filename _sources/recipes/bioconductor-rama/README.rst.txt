@@ -47,6 +47,7 @@ bioconductor-rama
 
 
 .. |downloads_bioconductor-rama| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rama.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rama
    :alt:   (downloads)
 .. |docker_bioconductor-rama| image:: https://quay.io/repository/biocontainers/bioconductor-rama/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rama

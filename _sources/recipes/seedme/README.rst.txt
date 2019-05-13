@@ -47,6 +47,7 @@ seedme
 
 
 .. |downloads_seedme| image:: https://img.shields.io/conda/dn/bioconda/seedme.svg?style=flat
+   :target: https://anaconda.org/bioconda/seedme
    :alt:   (downloads)
 .. |docker_seedme| image:: https://quay.io/repository/biocontainers/seedme/status
    :target: https://quay.io/repository/biocontainers/seedme

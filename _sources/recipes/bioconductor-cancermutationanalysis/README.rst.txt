@@ -50,6 +50,7 @@ bioconductor-cancermutationanalysis
 
 
 .. |downloads_bioconductor-cancermutationanalysis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cancermutationanalysis.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cancermutationanalysis
    :alt:   (downloads)
 .. |docker_bioconductor-cancermutationanalysis| image:: https://quay.io/repository/biocontainers/bioconductor-cancermutationanalysis/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cancermutationanalysis

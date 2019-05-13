@@ -47,6 +47,7 @@ bioconductor-pwmenrich.dmelanogaster.background
 
 
 .. |downloads_bioconductor-pwmenrich.dmelanogaster.background| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pwmenrich.dmelanogaster.background.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pwmenrich.dmelanogaster.background
    :alt:   (downloads)
 .. |docker_bioconductor-pwmenrich.dmelanogaster.background| image:: https://quay.io/repository/biocontainers/bioconductor-pwmenrich.dmelanogaster.background/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pwmenrich.dmelanogaster.background

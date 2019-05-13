@@ -45,6 +45,7 @@ socksipy-branch
 
 
 .. |downloads_socksipy-branch| image:: https://img.shields.io/conda/dn/bioconda/socksipy-branch.svg?style=flat
+   :target: https://anaconda.org/bioconda/socksipy-branch
    :alt:   (downloads)
 .. |docker_socksipy-branch| image:: https://quay.io/repository/biocontainers/socksipy-branch/status
    :target: https://quay.io/repository/biocontainers/socksipy-branch

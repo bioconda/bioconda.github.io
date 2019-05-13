@@ -51,6 +51,7 @@ bioconductor-arrayquality
 
 
 .. |downloads_bioconductor-arrayquality| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-arrayquality.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-arrayquality
    :alt:   (downloads)
 .. |docker_bioconductor-arrayquality| image:: https://quay.io/repository/biocontainers/bioconductor-arrayquality/status
    :target: https://quay.io/repository/biocontainers/bioconductor-arrayquality

@@ -45,6 +45,7 @@ hcluster_sg
 
 
 .. |downloads_hcluster_sg| image:: https://img.shields.io/conda/dn/bioconda/hcluster_sg.svg?style=flat
+   :target: https://anaconda.org/bioconda/hcluster_sg
    :alt:   (downloads)
 .. |docker_hcluster_sg| image:: https://quay.io/repository/biocontainers/hcluster_sg/status
    :target: https://quay.io/repository/biocontainers/hcluster_sg

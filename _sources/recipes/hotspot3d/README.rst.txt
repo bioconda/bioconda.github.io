@@ -52,6 +52,7 @@ hotspot3d
 
 
 .. |downloads_hotspot3d| image:: https://img.shields.io/conda/dn/bioconda/hotspot3d.svg?style=flat
+   :target: https://anaconda.org/bioconda/hotspot3d
    :alt:   (downloads)
 .. |docker_hotspot3d| image:: https://quay.io/repository/biocontainers/hotspot3d/status
    :target: https://quay.io/repository/biocontainers/hotspot3d

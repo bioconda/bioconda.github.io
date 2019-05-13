@@ -48,6 +48,7 @@ var-agg
 
 
 .. |downloads_var-agg| image:: https://img.shields.io/conda/dn/bioconda/var-agg.svg?style=flat
+   :target: https://anaconda.org/bioconda/var-agg
    :alt:   (downloads)
 .. |docker_var-agg| image:: https://quay.io/repository/biocontainers/var-agg/status
    :target: https://quay.io/repository/biocontainers/var-agg

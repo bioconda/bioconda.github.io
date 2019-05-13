@@ -63,6 +63,7 @@ bioconductor-ritan
 
 
 .. |downloads_bioconductor-ritan| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ritan.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ritan
    :alt:   (downloads)
 .. |docker_bioconductor-ritan| image:: https://quay.io/repository/biocontainers/bioconductor-ritan/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ritan

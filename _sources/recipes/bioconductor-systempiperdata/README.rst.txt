@@ -47,6 +47,7 @@ bioconductor-systempiperdata
 
 
 .. |downloads_bioconductor-systempiperdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-systempiperdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-systempiperdata
    :alt:   (downloads)
 .. |docker_bioconductor-systempiperdata| image:: https://quay.io/repository/biocontainers/bioconductor-systempiperdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-systempiperdata

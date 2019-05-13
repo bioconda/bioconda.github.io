@@ -53,6 +53,7 @@ bioconductor-pd.clariom.s.human.ht
 
 
 .. |downloads_bioconductor-pd.clariom.s.human.ht| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.clariom.s.human.ht.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.clariom.s.human.ht
    :alt:   (downloads)
 .. |docker_bioconductor-pd.clariom.s.human.ht| image:: https://quay.io/repository/biocontainers/bioconductor-pd.clariom.s.human.ht/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.clariom.s.human.ht

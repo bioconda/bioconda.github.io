@@ -48,6 +48,7 @@ perl-pod-simple
 
 
 .. |downloads_perl-pod-simple| image:: https://img.shields.io/conda/dn/bioconda/perl-pod-simple.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-pod-simple
    :alt:   (downloads)
 .. |docker_perl-pod-simple| image:: https://quay.io/repository/biocontainers/perl-pod-simple/status
    :target: https://quay.io/repository/biocontainers/perl-pod-simple

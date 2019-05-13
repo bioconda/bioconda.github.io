@@ -61,6 +61,7 @@ bioconductor-splinter
 
 
 .. |downloads_bioconductor-splinter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-splinter.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-splinter
    :alt:   (downloads)
 .. |docker_bioconductor-splinter| image:: https://quay.io/repository/biocontainers/bioconductor-splinter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-splinter

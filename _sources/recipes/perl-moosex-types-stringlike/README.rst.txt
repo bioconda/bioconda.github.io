@@ -46,6 +46,7 @@ perl-moosex-types-stringlike
 
 
 .. |downloads_perl-moosex-types-stringlike| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-types-stringlike.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-moosex-types-stringlike
    :alt:   (downloads)
 .. |docker_perl-moosex-types-stringlike| image:: https://quay.io/repository/biocontainers/perl-moosex-types-stringlike/status
    :target: https://quay.io/repository/biocontainers/perl-moosex-types-stringlike

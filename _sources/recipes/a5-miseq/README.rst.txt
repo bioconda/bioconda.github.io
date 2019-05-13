@@ -46,6 +46,7 @@ a5-miseq
 
 
 .. |downloads_a5-miseq| image:: https://img.shields.io/conda/dn/bioconda/a5-miseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/a5-miseq
    :alt:   (downloads)
 .. |docker_a5-miseq| image:: https://quay.io/repository/biocontainers/a5-miseq/status
    :target: https://quay.io/repository/biocontainers/a5-miseq

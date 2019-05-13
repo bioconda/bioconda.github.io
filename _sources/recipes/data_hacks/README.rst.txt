@@ -45,6 +45,7 @@ data_hacks
 
 
 .. |downloads_data_hacks| image:: https://img.shields.io/conda/dn/bioconda/data_hacks.svg?style=flat
+   :target: https://anaconda.org/bioconda/data_hacks
    :alt:   (downloads)
 .. |docker_data_hacks| image:: https://quay.io/repository/biocontainers/data_hacks/status
    :target: https://quay.io/repository/biocontainers/data_hacks

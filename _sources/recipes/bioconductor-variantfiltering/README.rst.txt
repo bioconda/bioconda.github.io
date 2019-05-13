@@ -71,6 +71,7 @@ bioconductor-variantfiltering
 
 
 .. |downloads_bioconductor-variantfiltering| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-variantfiltering.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-variantfiltering
    :alt:   (downloads)
 .. |docker_bioconductor-variantfiltering| image:: https://quay.io/repository/biocontainers/bioconductor-variantfiltering/status
    :target: https://quay.io/repository/biocontainers/bioconductor-variantfiltering

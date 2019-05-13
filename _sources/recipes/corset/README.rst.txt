@@ -47,6 +47,7 @@ corset
 
 
 .. |downloads_corset| image:: https://img.shields.io/conda/dn/bioconda/corset.svg?style=flat
+   :target: https://anaconda.org/bioconda/corset
    :alt:   (downloads)
 .. |docker_corset| image:: https://quay.io/repository/biocontainers/corset/status
    :target: https://quay.io/repository/biocontainers/corset

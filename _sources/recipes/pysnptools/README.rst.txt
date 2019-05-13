@@ -48,6 +48,7 @@ pysnptools
 
 
 .. |downloads_pysnptools| image:: https://img.shields.io/conda/dn/bioconda/pysnptools.svg?style=flat
+   :target: https://anaconda.org/bioconda/pysnptools
    :alt:   (downloads)
 .. |docker_pysnptools| image:: https://quay.io/repository/biocontainers/pysnptools/status
    :target: https://quay.io/repository/biocontainers/pysnptools

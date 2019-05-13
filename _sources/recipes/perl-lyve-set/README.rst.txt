@@ -48,6 +48,7 @@ perl-lyve-set
 
 
 .. |downloads_perl-lyve-set| image:: https://img.shields.io/conda/dn/bioconda/perl-lyve-set.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-lyve-set
    :alt:   (downloads)
 .. |docker_perl-lyve-set| image:: https://quay.io/repository/biocontainers/perl-lyve-set/status
    :target: https://quay.io/repository/biocontainers/perl-lyve-set

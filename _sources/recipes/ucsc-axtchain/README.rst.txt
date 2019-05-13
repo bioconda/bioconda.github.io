@@ -50,6 +50,7 @@ ucsc-axtchain
 
 
 .. |downloads_ucsc-axtchain| image:: https://img.shields.io/conda/dn/bioconda/ucsc-axtchain.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-axtchain
    :alt:   (downloads)
 .. |docker_ucsc-axtchain| image:: https://quay.io/repository/biocontainers/ucsc-axtchain/status
    :target: https://quay.io/repository/biocontainers/ucsc-axtchain

@@ -45,6 +45,7 @@ delegation
 
 
 .. |downloads_delegation| image:: https://img.shields.io/conda/dn/bioconda/delegation.svg?style=flat
+   :target: https://anaconda.org/bioconda/delegation
    :alt:   (downloads)
 .. |docker_delegation| image:: https://quay.io/repository/biocontainers/delegation/status
    :target: https://quay.io/repository/biocontainers/delegation

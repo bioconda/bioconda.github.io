@@ -47,6 +47,7 @@ bioconductor-prostatecancercamcap
 
 
 .. |downloads_bioconductor-prostatecancercamcap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-prostatecancercamcap.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-prostatecancercamcap
    :alt:   (downloads)
 .. |docker_bioconductor-prostatecancercamcap| image:: https://quay.io/repository/biocontainers/bioconductor-prostatecancercamcap/status
    :target: https://quay.io/repository/biocontainers/bioconductor-prostatecancercamcap

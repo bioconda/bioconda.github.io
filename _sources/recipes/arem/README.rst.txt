@@ -46,6 +46,7 @@ arem
 
 
 .. |downloads_arem| image:: https://img.shields.io/conda/dn/bioconda/arem.svg?style=flat
+   :target: https://anaconda.org/bioconda/arem
    :alt:   (downloads)
 .. |docker_arem| image:: https://quay.io/repository/biocontainers/arem/status
    :target: https://quay.io/repository/biocontainers/arem

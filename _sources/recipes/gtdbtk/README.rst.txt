@@ -52,6 +52,7 @@ gtdbtk
 
 
 .. |downloads_gtdbtk| image:: https://img.shields.io/conda/dn/bioconda/gtdbtk.svg?style=flat
+   :target: https://anaconda.org/bioconda/gtdbtk
    :alt:   (downloads)
 .. |docker_gtdbtk| image:: https://quay.io/repository/biocontainers/gtdbtk/status
    :target: https://quay.io/repository/biocontainers/gtdbtk

@@ -45,6 +45,7 @@ consensusfixer
 
 
 .. |downloads_consensusfixer| image:: https://img.shields.io/conda/dn/bioconda/consensusfixer.svg?style=flat
+   :target: https://anaconda.org/bioconda/consensusfixer
    :alt:   (downloads)
 .. |docker_consensusfixer| image:: https://quay.io/repository/biocontainers/consensusfixer/status
    :target: https://quay.io/repository/biocontainers/consensusfixer

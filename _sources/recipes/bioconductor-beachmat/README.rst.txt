@@ -53,6 +53,7 @@ bioconductor-beachmat
 
 
 .. |downloads_bioconductor-beachmat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-beachmat.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-beachmat
    :alt:   (downloads)
 .. |docker_bioconductor-beachmat| image:: https://quay.io/repository/biocontainers/bioconductor-beachmat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-beachmat

@@ -46,6 +46,7 @@ bioconductor-hapmap100kxba
 
 
 .. |downloads_bioconductor-hapmap100kxba| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hapmap100kxba.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hapmap100kxba
    :alt:   (downloads)
 .. |docker_bioconductor-hapmap100kxba| image:: https://quay.io/repository/biocontainers/bioconductor-hapmap100kxba/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hapmap100kxba

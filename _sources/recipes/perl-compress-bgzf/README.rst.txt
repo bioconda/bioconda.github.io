@@ -45,6 +45,7 @@ perl-compress-bgzf
 
 
 .. |downloads_perl-compress-bgzf| image:: https://img.shields.io/conda/dn/bioconda/perl-compress-bgzf.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-compress-bgzf
    :alt:   (downloads)
 .. |docker_perl-compress-bgzf| image:: https://quay.io/repository/biocontainers/perl-compress-bgzf/status
    :target: https://quay.io/repository/biocontainers/perl-compress-bgzf

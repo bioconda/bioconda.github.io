@@ -52,6 +52,7 @@ valet
 
 
 .. |downloads_valet| image:: https://img.shields.io/conda/dn/bioconda/valet.svg?style=flat
+   :target: https://anaconda.org/bioconda/valet
    :alt:   (downloads)
 .. |docker_valet| image:: https://quay.io/repository/biocontainers/valet/status
    :target: https://quay.io/repository/biocontainers/valet

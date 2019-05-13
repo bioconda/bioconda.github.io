@@ -50,6 +50,7 @@ ribotish
 
 
 .. |downloads_ribotish| image:: https://img.shields.io/conda/dn/bioconda/ribotish.svg?style=flat
+   :target: https://anaconda.org/bioconda/ribotish
    :alt:   (downloads)
 .. |docker_ribotish| image:: https://quay.io/repository/biocontainers/ribotish/status
    :target: https://quay.io/repository/biocontainers/ribotish

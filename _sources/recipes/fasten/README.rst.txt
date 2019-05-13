@@ -44,6 +44,7 @@ fasten
 
 
 .. |downloads_fasten| image:: https://img.shields.io/conda/dn/bioconda/fasten.svg?style=flat
+   :target: https://anaconda.org/bioconda/fasten
    :alt:   (downloads)
 .. |docker_fasten| image:: https://quay.io/repository/biocontainers/fasten/status
    :target: https://quay.io/repository/biocontainers/fasten

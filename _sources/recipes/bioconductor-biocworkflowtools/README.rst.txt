@@ -56,6 +56,7 @@ bioconductor-biocworkflowtools
 
 
 .. |downloads_bioconductor-biocworkflowtools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biocworkflowtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-biocworkflowtools
    :alt:   (downloads)
 .. |docker_bioconductor-biocworkflowtools| image:: https://quay.io/repository/biocontainers/bioconductor-biocworkflowtools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biocworkflowtools

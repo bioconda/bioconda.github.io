@@ -45,6 +45,7 @@ sonlib
 
 
 .. |downloads_sonlib| image:: https://img.shields.io/conda/dn/bioconda/sonlib.svg?style=flat
+   :target: https://anaconda.org/bioconda/sonlib
    :alt:   (downloads)
 .. |docker_sonlib| image:: https://quay.io/repository/biocontainers/sonlib/status
    :target: https://quay.io/repository/biocontainers/sonlib

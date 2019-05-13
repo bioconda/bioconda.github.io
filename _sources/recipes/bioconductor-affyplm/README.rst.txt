@@ -53,6 +53,7 @@ bioconductor-affyplm
 
 
 .. |downloads_bioconductor-affyplm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affyplm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-affyplm
    :alt:   (downloads)
 .. |docker_bioconductor-affyplm| image:: https://quay.io/repository/biocontainers/bioconductor-affyplm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affyplm

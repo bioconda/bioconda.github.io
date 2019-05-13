@@ -48,6 +48,7 @@ minialign
 
 
 .. |downloads_minialign| image:: https://img.shields.io/conda/dn/bioconda/minialign.svg?style=flat
+   :target: https://anaconda.org/bioconda/minialign
    :alt:   (downloads)
 .. |docker_minialign| image:: https://quay.io/repository/biocontainers/minialign/status
    :target: https://quay.io/repository/biocontainers/minialign

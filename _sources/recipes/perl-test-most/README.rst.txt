@@ -50,6 +50,7 @@ perl-test-most
 
 
 .. |downloads_perl-test-most| image:: https://img.shields.io/conda/dn/bioconda/perl-test-most.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-most
    :alt:   (downloads)
 .. |docker_perl-test-most| image:: https://quay.io/repository/biocontainers/perl-test-most/status
    :target: https://quay.io/repository/biocontainers/perl-test-most

@@ -47,6 +47,7 @@ perl-http-server-simple
 
 
 .. |downloads_perl-http-server-simple| image:: https://img.shields.io/conda/dn/bioconda/perl-http-server-simple.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-http-server-simple
    :alt:   (downloads)
 .. |docker_perl-http-server-simple| image:: https://quay.io/repository/biocontainers/perl-http-server-simple/status
    :target: https://quay.io/repository/biocontainers/perl-http-server-simple

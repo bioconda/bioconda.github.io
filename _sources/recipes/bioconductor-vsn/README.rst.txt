@@ -52,6 +52,7 @@ bioconductor-vsn
 
 
 .. |downloads_bioconductor-vsn| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-vsn.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-vsn
    :alt:   (downloads)
 .. |docker_bioconductor-vsn| image:: https://quay.io/repository/biocontainers/bioconductor-vsn/status
    :target: https://quay.io/repository/biocontainers/bioconductor-vsn

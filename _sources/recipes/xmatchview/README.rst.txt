@@ -48,6 +48,7 @@ xmatchview
 
 
 .. |downloads_xmatchview| image:: https://img.shields.io/conda/dn/bioconda/xmatchview.svg?style=flat
+   :target: https://anaconda.org/bioconda/xmatchview
    :alt:   (downloads)
 .. |docker_xmatchview| image:: https://quay.io/repository/biocontainers/xmatchview/status
    :target: https://quay.io/repository/biocontainers/xmatchview

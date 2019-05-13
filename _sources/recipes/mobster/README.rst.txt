@@ -47,6 +47,7 @@ mobster
 
 
 .. |downloads_mobster| image:: https://img.shields.io/conda/dn/bioconda/mobster.svg?style=flat
+   :target: https://anaconda.org/bioconda/mobster
    :alt:   (downloads)
 .. |docker_mobster| image:: https://quay.io/repository/biocontainers/mobster/status
    :target: https://quay.io/repository/biocontainers/mobster

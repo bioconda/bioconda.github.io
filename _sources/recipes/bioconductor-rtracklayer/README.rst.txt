@@ -60,6 +60,7 @@ bioconductor-rtracklayer
 
 
 .. |downloads_bioconductor-rtracklayer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtracklayer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rtracklayer
    :alt:   (downloads)
 .. |docker_bioconductor-rtracklayer| image:: https://quay.io/repository/biocontainers/bioconductor-rtracklayer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtracklayer

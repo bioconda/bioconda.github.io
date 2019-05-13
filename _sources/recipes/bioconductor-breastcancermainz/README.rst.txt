@@ -46,6 +46,7 @@ bioconductor-breastcancermainz
 
 
 .. |downloads_bioconductor-breastcancermainz| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-breastcancermainz.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-breastcancermainz
    :alt:   (downloads)
 .. |docker_bioconductor-breastcancermainz| image:: https://quay.io/repository/biocontainers/bioconductor-breastcancermainz/status
    :target: https://quay.io/repository/biocontainers/bioconductor-breastcancermainz

@@ -56,6 +56,7 @@ bioconductor-methimpute
 
 
 .. |downloads_bioconductor-methimpute| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methimpute.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-methimpute
    :alt:   (downloads)
 .. |docker_bioconductor-methimpute| image:: https://quay.io/repository/biocontainers/bioconductor-methimpute/status
    :target: https://quay.io/repository/biocontainers/bioconductor-methimpute

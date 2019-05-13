@@ -53,6 +53,7 @@ bioconductor-desingle
 
 
 .. |downloads_bioconductor-desingle| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-desingle.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-desingle
    :alt:   (downloads)
 .. |docker_bioconductor-desingle| image:: https://quay.io/repository/biocontainers/bioconductor-desingle/status
    :target: https://quay.io/repository/biocontainers/bioconductor-desingle

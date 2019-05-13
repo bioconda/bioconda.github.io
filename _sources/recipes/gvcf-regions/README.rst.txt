@@ -45,6 +45,7 @@ gvcf-regions
 
 
 .. |downloads_gvcf-regions| image:: https://img.shields.io/conda/dn/bioconda/gvcf-regions.svg?style=flat
+   :target: https://anaconda.org/bioconda/gvcf-regions
    :alt:   (downloads)
 .. |docker_gvcf-regions| image:: https://quay.io/repository/biocontainers/gvcf-regions/status
    :target: https://quay.io/repository/biocontainers/gvcf-regions

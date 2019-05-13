@@ -52,6 +52,7 @@ abeona
 
 
 .. |downloads_abeona| image:: https://img.shields.io/conda/dn/bioconda/abeona.svg?style=flat
+   :target: https://anaconda.org/bioconda/abeona
    :alt:   (downloads)
 .. |docker_abeona| image:: https://quay.io/repository/biocontainers/abeona/status
    :target: https://quay.io/repository/biocontainers/abeona

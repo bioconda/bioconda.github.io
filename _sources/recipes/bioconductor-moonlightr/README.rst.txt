@@ -61,6 +61,7 @@ bioconductor-moonlightr
 
 
 .. |downloads_bioconductor-moonlightr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-moonlightr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-moonlightr
    :alt:   (downloads)
 .. |docker_bioconductor-moonlightr| image:: https://quay.io/repository/biocontainers/bioconductor-moonlightr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-moonlightr

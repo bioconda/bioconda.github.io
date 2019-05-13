@@ -63,6 +63,7 @@ mockinbird
 
 
 .. |downloads_mockinbird| image:: https://img.shields.io/conda/dn/bioconda/mockinbird.svg?style=flat
+   :target: https://anaconda.org/bioconda/mockinbird
    :alt:   (downloads)
 .. |docker_mockinbird| image:: https://quay.io/repository/biocontainers/mockinbird/status
    :target: https://quay.io/repository/biocontainers/mockinbird

@@ -46,6 +46,7 @@ rseg
 
 
 .. |downloads_rseg| image:: https://img.shields.io/conda/dn/bioconda/rseg.svg?style=flat
+   :target: https://anaconda.org/bioconda/rseg
    :alt:   (downloads)
 .. |docker_rseg| image:: https://quay.io/repository/biocontainers/rseg/status
    :target: https://quay.io/repository/biocontainers/rseg

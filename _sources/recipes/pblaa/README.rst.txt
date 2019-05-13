@@ -44,6 +44,7 @@ pblaa
 
 
 .. |downloads_pblaa| image:: https://img.shields.io/conda/dn/bioconda/pblaa.svg?style=flat
+   :target: https://anaconda.org/bioconda/pblaa
    :alt:   (downloads)
 .. |docker_pblaa| image:: https://quay.io/repository/biocontainers/pblaa/status
    :target: https://quay.io/repository/biocontainers/pblaa

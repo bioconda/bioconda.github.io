@@ -47,6 +47,7 @@ seqhax
 
 
 .. |downloads_seqhax| image:: https://img.shields.io/conda/dn/bioconda/seqhax.svg?style=flat
+   :target: https://anaconda.org/bioconda/seqhax
    :alt:   (downloads)
 .. |docker_seqhax| image:: https://quay.io/repository/biocontainers/seqhax/status
    :target: https://quay.io/repository/biocontainers/seqhax

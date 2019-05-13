@@ -48,6 +48,7 @@ bioconductor-mogene10stprobeset.db
 
 
 .. |downloads_bioconductor-mogene10stprobeset.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mogene10stprobeset.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mogene10stprobeset.db
    :alt:   (downloads)
 .. |docker_bioconductor-mogene10stprobeset.db| image:: https://quay.io/repository/biocontainers/bioconductor-mogene10stprobeset.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mogene10stprobeset.db

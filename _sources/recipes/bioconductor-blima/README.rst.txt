@@ -52,6 +52,7 @@ bioconductor-blima
 
 
 .. |downloads_bioconductor-blima| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-blima.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-blima
    :alt:   (downloads)
 .. |docker_bioconductor-blima| image:: https://quay.io/repository/biocontainers/bioconductor-blima/status
    :target: https://quay.io/repository/biocontainers/bioconductor-blima

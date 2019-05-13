@@ -48,6 +48,7 @@ racon
 
 
 .. |downloads_racon| image:: https://img.shields.io/conda/dn/bioconda/racon.svg?style=flat
+   :target: https://anaconda.org/bioconda/racon
    :alt:   (downloads)
 .. |docker_racon| image:: https://quay.io/repository/biocontainers/racon/status
    :target: https://quay.io/repository/biocontainers/racon

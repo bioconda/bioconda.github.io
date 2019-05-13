@@ -50,6 +50,7 @@ ucsc-bedclip
 
 
 .. |downloads_ucsc-bedclip| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bedclip.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bedclip
    :alt:   (downloads)
 .. |docker_ucsc-bedclip| image:: https://quay.io/repository/biocontainers/ucsc-bedclip/status
    :target: https://quay.io/repository/biocontainers/ucsc-bedclip

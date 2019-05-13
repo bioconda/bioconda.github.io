@@ -53,6 +53,7 @@ bioconductor-cnvrd2
 
 
 .. |downloads_bioconductor-cnvrd2| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cnvrd2.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cnvrd2
    :alt:   (downloads)
 .. |docker_bioconductor-cnvrd2| image:: https://quay.io/repository/biocontainers/bioconductor-cnvrd2/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cnvrd2

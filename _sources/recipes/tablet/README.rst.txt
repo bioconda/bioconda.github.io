@@ -45,6 +45,7 @@ tablet
 
 
 .. |downloads_tablet| image:: https://img.shields.io/conda/dn/bioconda/tablet.svg?style=flat
+   :target: https://anaconda.org/bioconda/tablet
    :alt:   (downloads)
 .. |docker_tablet| image:: https://quay.io/repository/biocontainers/tablet/status
    :target: https://quay.io/repository/biocontainers/tablet

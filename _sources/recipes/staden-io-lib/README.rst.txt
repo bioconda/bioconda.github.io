@@ -49,6 +49,7 @@ staden_io_lib
 
 
 .. |downloads_staden_io_lib| image:: https://img.shields.io/conda/dn/bioconda/staden_io_lib.svg?style=flat
+   :target: https://anaconda.org/bioconda/staden_io_lib
    :alt:   (downloads)
 .. |docker_staden_io_lib| image:: https://quay.io/repository/biocontainers/staden_io_lib/status
    :target: https://quay.io/repository/biocontainers/staden_io_lib

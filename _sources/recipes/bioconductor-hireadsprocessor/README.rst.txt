@@ -55,6 +55,7 @@ bioconductor-hireadsprocessor
 
 
 .. |downloads_bioconductor-hireadsprocessor| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hireadsprocessor.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hireadsprocessor
    :alt:   (downloads)
 .. |docker_bioconductor-hireadsprocessor| image:: https://quay.io/repository/biocontainers/bioconductor-hireadsprocessor/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hireadsprocessor

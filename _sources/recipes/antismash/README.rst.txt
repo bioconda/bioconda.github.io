@@ -80,6 +80,7 @@ antismash
 
 
 .. |downloads_antismash| image:: https://img.shields.io/conda/dn/bioconda/antismash.svg?style=flat
+   :target: https://anaconda.org/bioconda/antismash
    :alt:   (downloads)
 .. |docker_antismash| image:: https://quay.io/repository/biocontainers/antismash/status
    :target: https://quay.io/repository/biocontainers/antismash

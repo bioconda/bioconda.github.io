@@ -52,6 +52,7 @@ bioconductor-sva
 
 
 .. |downloads_bioconductor-sva| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sva.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sva
    :alt:   (downloads)
 .. |docker_bioconductor-sva| image:: https://quay.io/repository/biocontainers/bioconductor-sva/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sva

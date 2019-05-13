@@ -49,6 +49,7 @@ trawler
 
 
 .. |downloads_trawler| image:: https://img.shields.io/conda/dn/bioconda/trawler.svg?style=flat
+   :target: https://anaconda.org/bioconda/trawler
    :alt:   (downloads)
 .. |docker_trawler| image:: https://quay.io/repository/biocontainers/trawler/status
    :target: https://quay.io/repository/biocontainers/trawler

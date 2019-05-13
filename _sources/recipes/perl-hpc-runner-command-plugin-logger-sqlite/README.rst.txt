@@ -59,6 +59,7 @@ perl-hpc-runner-command-plugin-logger-sqlite
 
 
 .. |downloads_perl-hpc-runner-command-plugin-logger-sqlite| image:: https://img.shields.io/conda/dn/bioconda/perl-hpc-runner-command-plugin-logger-sqlite.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-hpc-runner-command-plugin-logger-sqlite
    :alt:   (downloads)
 .. |docker_perl-hpc-runner-command-plugin-logger-sqlite| image:: https://quay.io/repository/biocontainers/perl-hpc-runner-command-plugin-logger-sqlite/status
    :target: https://quay.io/repository/biocontainers/perl-hpc-runner-command-plugin-logger-sqlite

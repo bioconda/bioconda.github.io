@@ -45,6 +45,7 @@ pp
 
 
 .. |downloads_pp| image:: https://img.shields.io/conda/dn/bioconda/pp.svg?style=flat
+   :target: https://anaconda.org/bioconda/pp
    :alt:   (downloads)
 .. |docker_pp| image:: https://quay.io/repository/biocontainers/pp/status
    :target: https://quay.io/repository/biocontainers/pp

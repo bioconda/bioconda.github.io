@@ -48,6 +48,7 @@ bioconductor-dnacopy
 
 
 .. |downloads_bioconductor-dnacopy| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dnacopy.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dnacopy
    :alt:   (downloads)
 .. |docker_bioconductor-dnacopy| image:: https://quay.io/repository/biocontainers/bioconductor-dnacopy/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dnacopy

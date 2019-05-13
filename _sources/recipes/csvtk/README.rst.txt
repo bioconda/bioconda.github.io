@@ -44,6 +44,7 @@ csvtk
 
 
 .. |downloads_csvtk| image:: https://img.shields.io/conda/dn/bioconda/csvtk.svg?style=flat
+   :target: https://anaconda.org/bioconda/csvtk
    :alt:   (downloads)
 .. |docker_csvtk| image:: https://quay.io/repository/biocontainers/csvtk/status
    :target: https://quay.io/repository/biocontainers/csvtk

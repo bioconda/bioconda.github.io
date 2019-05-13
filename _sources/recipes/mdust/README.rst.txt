@@ -45,6 +45,7 @@ mdust
 
 
 .. |downloads_mdust| image:: https://img.shields.io/conda/dn/bioconda/mdust.svg?style=flat
+   :target: https://anaconda.org/bioconda/mdust
    :alt:   (downloads)
 .. |docker_mdust| image:: https://quay.io/repository/biocontainers/mdust/status
    :target: https://quay.io/repository/biocontainers/mdust

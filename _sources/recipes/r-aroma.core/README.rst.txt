@@ -57,6 +57,7 @@ r-aroma.core
 
 
 .. |downloads_r-aroma.core| image:: https://img.shields.io/conda/dn/bioconda/r-aroma.core.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-aroma.core
    :alt:   (downloads)
 .. |docker_r-aroma.core| image:: https://quay.io/repository/biocontainers/r-aroma.core/status
    :target: https://quay.io/repository/biocontainers/r-aroma.core

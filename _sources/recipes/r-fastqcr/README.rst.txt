@@ -56,6 +56,7 @@ r-fastqcr
 
 
 .. |downloads_r-fastqcr| image:: https://img.shields.io/conda/dn/bioconda/r-fastqcr.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-fastqcr
    :alt:   (downloads)
 .. |docker_r-fastqcr| image:: https://quay.io/repository/biocontainers/r-fastqcr/status
    :target: https://quay.io/repository/biocontainers/r-fastqcr

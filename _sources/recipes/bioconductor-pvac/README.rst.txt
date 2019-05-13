@@ -48,6 +48,7 @@ bioconductor-pvac
 
 
 .. |downloads_bioconductor-pvac| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pvac.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pvac
    :alt:   (downloads)
 .. |docker_bioconductor-pvac| image:: https://quay.io/repository/biocontainers/bioconductor-pvac/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pvac

@@ -51,6 +51,7 @@ bioconductor-somaticcanceralterations
 
 
 .. |downloads_bioconductor-somaticcanceralterations| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-somaticcanceralterations.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-somaticcanceralterations
    :alt:   (downloads)
 .. |docker_bioconductor-somaticcanceralterations| image:: https://quay.io/repository/biocontainers/bioconductor-somaticcanceralterations/status
    :target: https://quay.io/repository/biocontainers/bioconductor-somaticcanceralterations

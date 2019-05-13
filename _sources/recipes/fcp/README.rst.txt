@@ -47,6 +47,7 @@ fcp
 
 
 .. |downloads_fcp| image:: https://img.shields.io/conda/dn/bioconda/fcp.svg?style=flat
+   :target: https://anaconda.org/bioconda/fcp
    :alt:   (downloads)
 .. |docker_fcp| image:: https://quay.io/repository/biocontainers/fcp/status
    :target: https://quay.io/repository/biocontainers/fcp

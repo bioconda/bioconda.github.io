@@ -47,6 +47,7 @@ pyopt
 
 
 .. |downloads_pyopt| image:: https://img.shields.io/conda/dn/bioconda/pyopt.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyopt
    :alt:   (downloads)
 .. |docker_pyopt| image:: https://quay.io/repository/biocontainers/pyopt/status
    :target: https://quay.io/repository/biocontainers/pyopt

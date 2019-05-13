@@ -50,6 +50,7 @@ ucsc-pslhisto
 
 
 .. |downloads_ucsc-pslhisto| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslhisto.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-pslhisto
    :alt:   (downloads)
 .. |docker_ucsc-pslhisto| image:: https://quay.io/repository/biocontainers/ucsc-pslhisto/status
    :target: https://quay.io/repository/biocontainers/ucsc-pslhisto

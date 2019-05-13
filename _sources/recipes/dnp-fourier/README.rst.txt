@@ -46,6 +46,7 @@ dnp-fourier
 
 
 .. |downloads_dnp-fourier| image:: https://img.shields.io/conda/dn/bioconda/dnp-fourier.svg?style=flat
+   :target: https://anaconda.org/bioconda/dnp-fourier
    :alt:   (downloads)
 .. |docker_dnp-fourier| image:: https://quay.io/repository/biocontainers/dnp-fourier/status
    :target: https://quay.io/repository/biocontainers/dnp-fourier

@@ -60,6 +60,7 @@ crispresso
 
 
 .. |downloads_crispresso| image:: https://img.shields.io/conda/dn/bioconda/crispresso.svg?style=flat
+   :target: https://anaconda.org/bioconda/crispresso
    :alt:   (downloads)
 .. |docker_crispresso| image:: https://quay.io/repository/biocontainers/crispresso/status
    :target: https://quay.io/repository/biocontainers/crispresso

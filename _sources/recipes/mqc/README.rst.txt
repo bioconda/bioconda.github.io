@@ -58,6 +58,7 @@ mqc
 
 
 .. |downloads_mqc| image:: https://img.shields.io/conda/dn/bioconda/mqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/mqc
    :alt:   (downloads)
 .. |docker_mqc| image:: https://quay.io/repository/biocontainers/mqc/status
    :target: https://quay.io/repository/biocontainers/mqc

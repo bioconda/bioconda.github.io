@@ -45,6 +45,7 @@ perl-font-afm
 
 
 .. |downloads_perl-font-afm| image:: https://img.shields.io/conda/dn/bioconda/perl-font-afm.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-font-afm
    :alt:   (downloads)
 .. |docker_perl-font-afm| image:: https://quay.io/repository/biocontainers/perl-font-afm/status
    :target: https://quay.io/repository/biocontainers/perl-font-afm

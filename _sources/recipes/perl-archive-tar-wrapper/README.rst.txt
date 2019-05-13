@@ -49,6 +49,7 @@ perl-archive-tar-wrapper
 
 
 .. |downloads_perl-archive-tar-wrapper| image:: https://img.shields.io/conda/dn/bioconda/perl-archive-tar-wrapper.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-archive-tar-wrapper
    :alt:   (downloads)
 .. |docker_perl-archive-tar-wrapper| image:: https://quay.io/repository/biocontainers/perl-archive-tar-wrapper/status
    :target: https://quay.io/repository/biocontainers/perl-archive-tar-wrapper

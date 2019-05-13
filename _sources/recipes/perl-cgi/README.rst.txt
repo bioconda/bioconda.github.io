@@ -53,6 +53,7 @@ perl-cgi
 
 
 .. |downloads_perl-cgi| image:: https://img.shields.io/conda/dn/bioconda/perl-cgi.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-cgi
    :alt:   (downloads)
 .. |docker_perl-cgi| image:: https://quay.io/repository/biocontainers/perl-cgi/status
    :target: https://quay.io/repository/biocontainers/perl-cgi

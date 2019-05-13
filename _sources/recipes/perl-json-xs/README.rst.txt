@@ -49,6 +49,7 @@ perl-json-xs
 
 
 .. |downloads_perl-json-xs| image:: https://img.shields.io/conda/dn/bioconda/perl-json-xs.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-json-xs
    :alt:   (downloads)
 .. |docker_perl-json-xs| image:: https://quay.io/repository/biocontainers/perl-json-xs/status
    :target: https://quay.io/repository/biocontainers/perl-json-xs

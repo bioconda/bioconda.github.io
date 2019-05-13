@@ -46,6 +46,7 @@ soapsplice
 
 
 .. |downloads_soapsplice| image:: https://img.shields.io/conda/dn/bioconda/soapsplice.svg?style=flat
+   :target: https://anaconda.org/bioconda/soapsplice
    :alt:   (downloads)
 .. |docker_soapsplice| image:: https://quay.io/repository/biocontainers/soapsplice/status
    :target: https://quay.io/repository/biocontainers/soapsplice

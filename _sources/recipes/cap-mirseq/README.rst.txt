@@ -56,6 +56,7 @@ cap-mirseq
 
 
 .. |downloads_cap-mirseq| image:: https://img.shields.io/conda/dn/bioconda/cap-mirseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/cap-mirseq
    :alt:   (downloads)
 .. |docker_cap-mirseq| image:: https://quay.io/repository/biocontainers/cap-mirseq/status
    :target: https://quay.io/repository/biocontainers/cap-mirseq

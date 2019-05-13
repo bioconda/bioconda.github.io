@@ -53,6 +53,7 @@ fred2
 
 
 .. |downloads_fred2| image:: https://img.shields.io/conda/dn/bioconda/fred2.svg?style=flat
+   :target: https://anaconda.org/bioconda/fred2
    :alt:   (downloads)
 .. |docker_fred2| image:: https://quay.io/repository/biocontainers/fred2/status
    :target: https://quay.io/repository/biocontainers/fred2

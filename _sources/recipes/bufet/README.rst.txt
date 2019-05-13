@@ -47,6 +47,7 @@ bufet
 
 
 .. |downloads_bufet| image:: https://img.shields.io/conda/dn/bioconda/bufet.svg?style=flat
+   :target: https://anaconda.org/bioconda/bufet
    :alt:   (downloads)
 .. |docker_bufet| image:: https://quay.io/repository/biocontainers/bufet/status
    :target: https://quay.io/repository/biocontainers/bufet

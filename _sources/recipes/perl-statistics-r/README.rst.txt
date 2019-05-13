@@ -50,6 +50,7 @@ perl-statistics-r
 
 
 .. |downloads_perl-statistics-r| image:: https://img.shields.io/conda/dn/bioconda/perl-statistics-r.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-statistics-r
    :alt:   (downloads)
 .. |docker_perl-statistics-r| image:: https://quay.io/repository/biocontainers/perl-statistics-r/status
    :target: https://quay.io/repository/biocontainers/perl-statistics-r

@@ -50,6 +50,7 @@ ucsc-positionaltblcheck
 
 
 .. |downloads_ucsc-positionaltblcheck| image:: https://img.shields.io/conda/dn/bioconda/ucsc-positionaltblcheck.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-positionaltblcheck
    :alt:   (downloads)
 .. |docker_ucsc-positionaltblcheck| image:: https://quay.io/repository/biocontainers/ucsc-positionaltblcheck/status
    :target: https://quay.io/repository/biocontainers/ucsc-positionaltblcheck

@@ -62,6 +62,7 @@ r-xgr
 
 
 .. |downloads_r-xgr| image:: https://img.shields.io/conda/dn/bioconda/r-xgr.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-xgr
    :alt:   (downloads)
 .. |docker_r-xgr| image:: https://quay.io/repository/biocontainers/r-xgr/status
    :target: https://quay.io/repository/biocontainers/r-xgr

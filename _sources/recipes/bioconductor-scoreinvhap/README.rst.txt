@@ -51,6 +51,7 @@ bioconductor-scoreinvhap
 
 
 .. |downloads_bioconductor-scoreinvhap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scoreinvhap.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-scoreinvhap
    :alt:   (downloads)
 .. |docker_bioconductor-scoreinvhap| image:: https://quay.io/repository/biocontainers/bioconductor-scoreinvhap/status
    :target: https://quay.io/repository/biocontainers/bioconductor-scoreinvhap

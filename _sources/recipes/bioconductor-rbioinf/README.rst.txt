@@ -48,6 +48,7 @@ bioconductor-rbioinf
 
 
 .. |downloads_bioconductor-rbioinf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rbioinf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rbioinf
    :alt:   (downloads)
 .. |docker_bioconductor-rbioinf| image:: https://quay.io/repository/biocontainers/bioconductor-rbioinf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rbioinf

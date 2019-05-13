@@ -68,6 +68,7 @@ bioconductor-dep
 
 
 .. |downloads_bioconductor-dep| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dep.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dep
    :alt:   (downloads)
 .. |docker_bioconductor-dep| image:: https://quay.io/repository/biocontainers/bioconductor-dep/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dep

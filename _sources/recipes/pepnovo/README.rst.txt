@@ -46,6 +46,7 @@ pepnovo
 
 
 .. |downloads_pepnovo| image:: https://img.shields.io/conda/dn/bioconda/pepnovo.svg?style=flat
+   :target: https://anaconda.org/bioconda/pepnovo
    :alt:   (downloads)
 .. |docker_pepnovo| image:: https://quay.io/repository/biocontainers/pepnovo/status
    :target: https://quay.io/repository/biocontainers/pepnovo

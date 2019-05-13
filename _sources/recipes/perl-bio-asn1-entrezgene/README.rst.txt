@@ -51,6 +51,7 @@ perl-bio-asn1-entrezgene
 
 
 .. |downloads_perl-bio-asn1-entrezgene| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-asn1-entrezgene.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bio-asn1-entrezgene
    :alt:   (downloads)
 .. |docker_perl-bio-asn1-entrezgene| image:: https://quay.io/repository/biocontainers/perl-bio-asn1-entrezgene/status
    :target: https://quay.io/repository/biocontainers/perl-bio-asn1-entrezgene

@@ -45,6 +45,7 @@ myriad
 
 
 .. |downloads_myriad| image:: https://img.shields.io/conda/dn/bioconda/myriad.svg?style=flat
+   :target: https://anaconda.org/bioconda/myriad
    :alt:   (downloads)
 .. |docker_myriad| image:: https://quay.io/repository/biocontainers/myriad/status
    :target: https://quay.io/repository/biocontainers/myriad

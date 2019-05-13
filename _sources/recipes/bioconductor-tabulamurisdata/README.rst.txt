@@ -47,6 +47,7 @@ bioconductor-tabulamurisdata
 
 
 .. |downloads_bioconductor-tabulamurisdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tabulamurisdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tabulamurisdata
    :alt:   (downloads)
 .. |docker_bioconductor-tabulamurisdata| image:: https://quay.io/repository/biocontainers/bioconductor-tabulamurisdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tabulamurisdata

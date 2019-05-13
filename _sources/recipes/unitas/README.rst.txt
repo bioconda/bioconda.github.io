@@ -53,6 +53,7 @@ unitas
 
 
 .. |downloads_unitas| image:: https://img.shields.io/conda/dn/bioconda/unitas.svg?style=flat
+   :target: https://anaconda.org/bioconda/unitas
    :alt:   (downloads)
 .. |docker_unitas| image:: https://quay.io/repository/biocontainers/unitas/status
    :target: https://quay.io/repository/biocontainers/unitas

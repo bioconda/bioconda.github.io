@@ -50,6 +50,7 @@ perl-data-visitor
 
 
 .. |downloads_perl-data-visitor| image:: https://img.shields.io/conda/dn/bioconda/perl-data-visitor.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-data-visitor
    :alt:   (downloads)
 .. |docker_perl-data-visitor| image:: https://quay.io/repository/biocontainers/perl-data-visitor/status
    :target: https://quay.io/repository/biocontainers/perl-data-visitor

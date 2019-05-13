@@ -55,6 +55,7 @@ r-histonehmm
 
 
 .. |downloads_r-histonehmm| image:: https://img.shields.io/conda/dn/bioconda/r-histonehmm.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-histonehmm
    :alt:   (downloads)
 .. |docker_r-histonehmm| image:: https://quay.io/repository/biocontainers/r-histonehmm/status
    :target: https://quay.io/repository/biocontainers/r-histonehmm

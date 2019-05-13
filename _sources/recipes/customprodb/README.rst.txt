@@ -63,6 +63,7 @@ bioconductor-customprodb
 
 
 .. |downloads_bioconductor-customprodb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-customprodb.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-customprodb
    :alt:   (downloads)
 .. |docker_bioconductor-customprodb| image:: https://quay.io/repository/biocontainers/bioconductor-customprodb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-customprodb

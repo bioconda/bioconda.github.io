@@ -47,6 +47,7 @@ shape_it
 
 
 .. |downloads_shape_it| image:: https://img.shields.io/conda/dn/bioconda/shape_it.svg?style=flat
+   :target: https://anaconda.org/bioconda/shape_it
    :alt:   (downloads)
 .. |docker_shape_it| image:: https://quay.io/repository/biocontainers/shape_it/status
    :target: https://quay.io/repository/biocontainers/shape_it

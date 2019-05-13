@@ -57,6 +57,7 @@ bioconductor-medips
 
 
 .. |downloads_bioconductor-medips| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-medips.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-medips
    :alt:   (downloads)
 .. |docker_bioconductor-medips| image:: https://quay.io/repository/biocontainers/bioconductor-medips/status
    :target: https://quay.io/repository/biocontainers/bioconductor-medips

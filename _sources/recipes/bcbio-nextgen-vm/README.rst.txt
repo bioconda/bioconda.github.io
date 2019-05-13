@@ -65,6 +65,7 @@ bcbio-nextgen-vm
 
 
 .. |downloads_bcbio-nextgen-vm| image:: https://img.shields.io/conda/dn/bioconda/bcbio-nextgen-vm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bcbio-nextgen-vm
    :alt:   (downloads)
 .. |docker_bcbio-nextgen-vm| image:: https://quay.io/repository/biocontainers/bcbio-nextgen-vm/status
    :target: https://quay.io/repository/biocontainers/bcbio-nextgen-vm

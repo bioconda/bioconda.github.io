@@ -47,6 +47,7 @@ perl-cpan-meta-requirements
 
 
 .. |downloads_perl-cpan-meta-requirements| image:: https://img.shields.io/conda/dn/bioconda/perl-cpan-meta-requirements.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-cpan-meta-requirements
    :alt:   (downloads)
 .. |docker_perl-cpan-meta-requirements| image:: https://quay.io/repository/biocontainers/perl-cpan-meta-requirements/status
    :target: https://quay.io/repository/biocontainers/perl-cpan-meta-requirements

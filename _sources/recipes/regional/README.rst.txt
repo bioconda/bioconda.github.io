@@ -48,6 +48,7 @@ regional
 
 
 .. |downloads_regional| image:: https://img.shields.io/conda/dn/bioconda/regional.svg?style=flat
+   :target: https://anaconda.org/bioconda/regional
    :alt:   (downloads)
 .. |docker_regional| image:: https://quay.io/repository/biocontainers/regional/status
    :target: https://quay.io/repository/biocontainers/regional

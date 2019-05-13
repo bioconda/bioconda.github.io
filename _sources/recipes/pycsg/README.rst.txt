@@ -45,6 +45,7 @@ pycsg
 
 
 .. |downloads_pycsg| image:: https://img.shields.io/conda/dn/bioconda/pycsg.svg?style=flat
+   :target: https://anaconda.org/bioconda/pycsg
    :alt:   (downloads)
 .. |docker_pycsg| image:: https://quay.io/repository/biocontainers/pycsg/status
    :target: https://quay.io/repository/biocontainers/pycsg

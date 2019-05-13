@@ -55,6 +55,7 @@ perl-ppi
 
 
 .. |downloads_perl-ppi| image:: https://img.shields.io/conda/dn/bioconda/perl-ppi.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-ppi
    :alt:   (downloads)
 .. |docker_perl-ppi| image:: https://quay.io/repository/biocontainers/perl-ppi/status
    :target: https://quay.io/repository/biocontainers/perl-ppi

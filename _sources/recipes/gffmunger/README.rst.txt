@@ -49,6 +49,7 @@ gffmunger
 
 
 .. |downloads_gffmunger| image:: https://img.shields.io/conda/dn/bioconda/gffmunger.svg?style=flat
+   :target: https://anaconda.org/bioconda/gffmunger
    :alt:   (downloads)
 .. |docker_gffmunger| image:: https://quay.io/repository/biocontainers/gffmunger/status
    :target: https://quay.io/repository/biocontainers/gffmunger

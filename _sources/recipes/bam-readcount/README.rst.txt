@@ -49,6 +49,7 @@ bam-readcount
 
 
 .. |downloads_bam-readcount| image:: https://img.shields.io/conda/dn/bioconda/bam-readcount.svg?style=flat
+   :target: https://anaconda.org/bioconda/bam-readcount
    :alt:   (downloads)
 .. |docker_bam-readcount| image:: https://quay.io/repository/biocontainers/bam-readcount/status
    :target: https://quay.io/repository/biocontainers/bam-readcount

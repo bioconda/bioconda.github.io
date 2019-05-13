@@ -48,6 +48,7 @@ ghmm
 
 
 .. |downloads_ghmm| image:: https://img.shields.io/conda/dn/bioconda/ghmm.svg?style=flat
+   :target: https://anaconda.org/bioconda/ghmm
    :alt:   (downloads)
 .. |docker_ghmm| image:: https://quay.io/repository/biocontainers/ghmm/status
    :target: https://quay.io/repository/biocontainers/ghmm

@@ -47,6 +47,7 @@ libstatgen
 
 
 .. |downloads_libstatgen| image:: https://img.shields.io/conda/dn/bioconda/libstatgen.svg?style=flat
+   :target: https://anaconda.org/bioconda/libstatgen
    :alt:   (downloads)
 .. |docker_libstatgen| image:: https://quay.io/repository/biocontainers/libstatgen/status
    :target: https://quay.io/repository/biocontainers/libstatgen

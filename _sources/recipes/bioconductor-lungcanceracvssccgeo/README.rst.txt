@@ -46,6 +46,7 @@ bioconductor-lungcanceracvssccgeo
 
 
 .. |downloads_bioconductor-lungcanceracvssccgeo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lungcanceracvssccgeo.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lungcanceracvssccgeo
    :alt:   (downloads)
 .. |docker_bioconductor-lungcanceracvssccgeo| image:: https://quay.io/repository/biocontainers/bioconductor-lungcanceracvssccgeo/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lungcanceracvssccgeo

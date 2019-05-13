@@ -54,6 +54,7 @@ bioconductor-flowsorted.blood.epic
 
 
 .. |downloads_bioconductor-flowsorted.blood.epic| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowsorted.blood.epic.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowsorted.blood.epic
    :alt:   (downloads)
 .. |docker_bioconductor-flowsorted.blood.epic| image:: https://quay.io/repository/biocontainers/bioconductor-flowsorted.blood.epic/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowsorted.blood.epic

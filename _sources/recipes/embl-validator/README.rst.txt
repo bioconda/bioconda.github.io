@@ -46,6 +46,7 @@ embl-api-validator
 
 
 .. |downloads_embl-api-validator| image:: https://img.shields.io/conda/dn/bioconda/embl-api-validator.svg?style=flat
+   :target: https://anaconda.org/bioconda/embl-api-validator
    :alt:   (downloads)
 .. |docker_embl-api-validator| image:: https://quay.io/repository/biocontainers/embl-api-validator/status
    :target: https://quay.io/repository/biocontainers/embl-api-validator

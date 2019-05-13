@@ -51,6 +51,7 @@ bioconductor-sigfuge
 
 
 .. |downloads_bioconductor-sigfuge| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sigfuge.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sigfuge
    :alt:   (downloads)
 .. |docker_bioconductor-sigfuge| image:: https://quay.io/repository/biocontainers/bioconductor-sigfuge/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sigfuge

@@ -49,6 +49,7 @@ geodl
 
 
 .. |downloads_geodl| image:: https://img.shields.io/conda/dn/bioconda/geodl.svg?style=flat
+   :target: https://anaconda.org/bioconda/geodl
    :alt:   (downloads)
 .. |docker_geodl| image:: https://quay.io/repository/biocontainers/geodl/status
    :target: https://quay.io/repository/biocontainers/geodl

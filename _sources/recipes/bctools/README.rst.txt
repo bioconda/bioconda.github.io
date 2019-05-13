@@ -50,6 +50,7 @@ bctools
 
 
 .. |downloads_bctools| image:: https://img.shields.io/conda/dn/bioconda/bctools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bctools
    :alt:   (downloads)
 .. |docker_bctools| image:: https://quay.io/repository/biocontainers/bctools/status
    :target: https://quay.io/repository/biocontainers/bctools

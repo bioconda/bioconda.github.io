@@ -48,6 +48,7 @@ norns
 
 
 .. |downloads_norns| image:: https://img.shields.io/conda/dn/bioconda/norns.svg?style=flat
+   :target: https://anaconda.org/bioconda/norns
    :alt:   (downloads)
 .. |docker_norns| image:: https://quay.io/repository/biocontainers/norns/status
    :target: https://quay.io/repository/biocontainers/norns

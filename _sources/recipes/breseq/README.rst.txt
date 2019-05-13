@@ -48,6 +48,7 @@ breseq
 
 
 .. |downloads_breseq| image:: https://img.shields.io/conda/dn/bioconda/breseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/breseq
    :alt:   (downloads)
 .. |docker_breseq| image:: https://quay.io/repository/biocontainers/breseq/status
    :target: https://quay.io/repository/biocontainers/breseq

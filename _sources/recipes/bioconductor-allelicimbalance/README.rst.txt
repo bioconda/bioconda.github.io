@@ -64,6 +64,7 @@ bioconductor-allelicimbalance
 
 
 .. |downloads_bioconductor-allelicimbalance| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-allelicimbalance.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-allelicimbalance
    :alt:   (downloads)
 .. |docker_bioconductor-allelicimbalance| image:: https://quay.io/repository/biocontainers/bioconductor-allelicimbalance/status
    :target: https://quay.io/repository/biocontainers/bioconductor-allelicimbalance

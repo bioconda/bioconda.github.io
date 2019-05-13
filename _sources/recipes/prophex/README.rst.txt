@@ -47,6 +47,7 @@ prophex
 
 
 .. |downloads_prophex| image:: https://img.shields.io/conda/dn/bioconda/prophex.svg?style=flat
+   :target: https://anaconda.org/bioconda/prophex
    :alt:   (downloads)
 .. |docker_prophex| image:: https://quay.io/repository/biocontainers/prophex/status
    :target: https://quay.io/repository/biocontainers/prophex

@@ -46,6 +46,7 @@ lastz
 
 
 .. |downloads_lastz| image:: https://img.shields.io/conda/dn/bioconda/lastz.svg?style=flat
+   :target: https://anaconda.org/bioconda/lastz
    :alt:   (downloads)
 .. |docker_lastz| image:: https://quay.io/repository/biocontainers/lastz/status
    :target: https://quay.io/repository/biocontainers/lastz

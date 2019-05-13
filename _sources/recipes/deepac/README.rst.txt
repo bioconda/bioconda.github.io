@@ -55,6 +55,7 @@ deepac
 
 
 .. |downloads_deepac| image:: https://img.shields.io/conda/dn/bioconda/deepac.svg?style=flat
+   :target: https://anaconda.org/bioconda/deepac
    :alt:   (downloads)
 .. |docker_deepac| image:: https://quay.io/repository/biocontainers/deepac/status
    :target: https://quay.io/repository/biocontainers/deepac

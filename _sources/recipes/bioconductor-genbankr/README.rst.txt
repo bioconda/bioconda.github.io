@@ -56,6 +56,7 @@ bioconductor-genbankr
 
 
 .. |downloads_bioconductor-genbankr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genbankr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genbankr
    :alt:   (downloads)
 .. |docker_bioconductor-genbankr| image:: https://quay.io/repository/biocontainers/bioconductor-genbankr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genbankr

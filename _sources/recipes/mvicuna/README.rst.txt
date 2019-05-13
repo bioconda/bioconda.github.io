@@ -45,6 +45,7 @@ mvicuna
 
 
 .. |downloads_mvicuna| image:: https://img.shields.io/conda/dn/bioconda/mvicuna.svg?style=flat
+   :target: https://anaconda.org/bioconda/mvicuna
    :alt:   (downloads)
 .. |docker_mvicuna| image:: https://quay.io/repository/biocontainers/mvicuna/status
    :target: https://quay.io/repository/biocontainers/mvicuna

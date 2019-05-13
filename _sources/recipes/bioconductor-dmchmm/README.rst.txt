@@ -54,6 +54,7 @@ bioconductor-dmchmm
 
 
 .. |downloads_bioconductor-dmchmm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dmchmm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dmchmm
    :alt:   (downloads)
 .. |docker_bioconductor-dmchmm| image:: https://quay.io/repository/biocontainers/bioconductor-dmchmm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dmchmm

@@ -51,6 +51,7 @@ bioconductor-leebamviews
 
 
 .. |downloads_bioconductor-leebamviews| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-leebamviews.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-leebamviews
    :alt:   (downloads)
 .. |docker_bioconductor-leebamviews| image:: https://quay.io/repository/biocontainers/bioconductor-leebamviews/status
    :target: https://quay.io/repository/biocontainers/bioconductor-leebamviews

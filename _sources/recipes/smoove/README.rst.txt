@@ -53,6 +53,7 @@ smoove
 
 
 .. |downloads_smoove| image:: https://img.shields.io/conda/dn/bioconda/smoove.svg?style=flat
+   :target: https://anaconda.org/bioconda/smoove
    :alt:   (downloads)
 .. |docker_smoove| image:: https://quay.io/repository/biocontainers/smoove/status
    :target: https://quay.io/repository/biocontainers/smoove

@@ -52,6 +52,7 @@ r-phylobase
 
 
 .. |downloads_r-phylobase| image:: https://img.shields.io/conda/dn/bioconda/r-phylobase.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-phylobase
    :alt:   (downloads)
 .. |docker_r-phylobase| image:: https://quay.io/repository/biocontainers/r-phylobase/status
    :target: https://quay.io/repository/biocontainers/r-phylobase

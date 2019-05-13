@@ -48,6 +48,7 @@ perl-extutils-helpers
 
 
 .. |downloads_perl-extutils-helpers| image:: https://img.shields.io/conda/dn/bioconda/perl-extutils-helpers.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-extutils-helpers
    :alt:   (downloads)
 .. |docker_perl-extutils-helpers| image:: https://quay.io/repository/biocontainers/perl-extutils-helpers/status
    :target: https://quay.io/repository/biocontainers/perl-extutils-helpers

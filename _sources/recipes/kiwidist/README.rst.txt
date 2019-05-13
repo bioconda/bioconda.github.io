@@ -52,6 +52,7 @@ kiwidist
 
 
 .. |downloads_kiwidist| image:: https://img.shields.io/conda/dn/bioconda/kiwidist.svg?style=flat
+   :target: https://anaconda.org/bioconda/kiwidist
    :alt:   (downloads)
 .. |docker_kiwidist| image:: https://quay.io/repository/biocontainers/kiwidist/status
    :target: https://quay.io/repository/biocontainers/kiwidist

@@ -47,6 +47,7 @@ r-metama
 
 
 .. |downloads_r-metama| image:: https://img.shields.io/conda/dn/bioconda/r-metama.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-metama
    :alt:   (downloads)
 .. |docker_r-metama| image:: https://quay.io/repository/biocontainers/r-metama/status
    :target: https://quay.io/repository/biocontainers/r-metama

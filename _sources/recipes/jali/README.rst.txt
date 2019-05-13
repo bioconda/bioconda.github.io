@@ -45,6 +45,7 @@ jali
 
 
 .. |downloads_jali| image:: https://img.shields.io/conda/dn/bioconda/jali.svg?style=flat
+   :target: https://anaconda.org/bioconda/jali
    :alt:   (downloads)
 .. |docker_jali| image:: https://quay.io/repository/biocontainers/jali/status
    :target: https://quay.io/repository/biocontainers/jali

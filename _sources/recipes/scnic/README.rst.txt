@@ -57,6 +57,7 @@ scnic
 
 
 .. |downloads_scnic| image:: https://img.shields.io/conda/dn/bioconda/scnic.svg?style=flat
+   :target: https://anaconda.org/bioconda/scnic
    :alt:   (downloads)
 .. |docker_scnic| image:: https://quay.io/repository/biocontainers/scnic/status
    :target: https://quay.io/repository/biocontainers/scnic

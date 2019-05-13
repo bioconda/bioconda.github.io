@@ -53,6 +53,7 @@ scrappie
 
 
 .. |downloads_scrappie| image:: https://img.shields.io/conda/dn/bioconda/scrappie.svg?style=flat
+   :target: https://anaconda.org/bioconda/scrappie
    :alt:   (downloads)
 .. |docker_scrappie| image:: https://quay.io/repository/biocontainers/scrappie/status
    :target: https://quay.io/repository/biocontainers/scrappie

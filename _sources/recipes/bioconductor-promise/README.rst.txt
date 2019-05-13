@@ -48,6 +48,7 @@ bioconductor-promise
 
 
 .. |downloads_bioconductor-promise| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-promise.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-promise
    :alt:   (downloads)
 .. |docker_bioconductor-promise| image:: https://quay.io/repository/biocontainers/bioconductor-promise/status
    :target: https://quay.io/repository/biocontainers/bioconductor-promise

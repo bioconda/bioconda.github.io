@@ -46,6 +46,7 @@ bioconductor-tcgamethylation450k
 
 
 .. |downloads_bioconductor-tcgamethylation450k| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tcgamethylation450k.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tcgamethylation450k
    :alt:   (downloads)
 .. |docker_bioconductor-tcgamethylation450k| image:: https://quay.io/repository/biocontainers/bioconductor-tcgamethylation450k/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tcgamethylation450k

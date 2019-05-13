@@ -48,6 +48,7 @@ tetoolkit
 
 
 .. |downloads_tetoolkit| image:: https://img.shields.io/conda/dn/bioconda/tetoolkit.svg?style=flat
+   :target: https://anaconda.org/bioconda/tetoolkit
    :alt:   (downloads)
 .. |docker_tetoolkit| image:: https://quay.io/repository/biocontainers/tetoolkit/status
    :target: https://quay.io/repository/biocontainers/tetoolkit

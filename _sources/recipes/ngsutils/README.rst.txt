@@ -52,6 +52,7 @@ ngsutils
 
 
 .. |downloads_ngsutils| image:: https://img.shields.io/conda/dn/bioconda/ngsutils.svg?style=flat
+   :target: https://anaconda.org/bioconda/ngsutils
    :alt:   (downloads)
 .. |docker_ngsutils| image:: https://quay.io/repository/biocontainers/ngsutils/status
    :target: https://quay.io/repository/biocontainers/ngsutils

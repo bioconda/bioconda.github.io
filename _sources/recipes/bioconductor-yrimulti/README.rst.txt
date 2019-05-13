@@ -56,6 +56,7 @@ bioconductor-yrimulti
 
 
 .. |downloads_bioconductor-yrimulti| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-yrimulti.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-yrimulti
    :alt:   (downloads)
 .. |docker_bioconductor-yrimulti| image:: https://quay.io/repository/biocontainers/bioconductor-yrimulti/status
    :target: https://quay.io/repository/biocontainers/bioconductor-yrimulti

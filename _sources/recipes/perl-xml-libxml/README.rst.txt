@@ -48,6 +48,7 @@ perl-xml-libxml
 
 
 .. |downloads_perl-xml-libxml| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-libxml.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-xml-libxml
    :alt:   (downloads)
 .. |docker_perl-xml-libxml| image:: https://quay.io/repository/biocontainers/perl-xml-libxml/status
    :target: https://quay.io/repository/biocontainers/perl-xml-libxml

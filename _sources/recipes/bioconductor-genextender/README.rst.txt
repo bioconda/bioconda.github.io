@@ -58,6 +58,7 @@ bioconductor-genextender
 
 
 .. |downloads_bioconductor-genextender| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genextender.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genextender
    :alt:   (downloads)
 .. |docker_bioconductor-genextender| image:: https://quay.io/repository/biocontainers/bioconductor-genextender/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genextender

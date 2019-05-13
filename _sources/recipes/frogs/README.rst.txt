@@ -67,6 +67,7 @@ frogs
 
 
 .. |downloads_frogs| image:: https://img.shields.io/conda/dn/bioconda/frogs.svg?style=flat
+   :target: https://anaconda.org/bioconda/frogs
    :alt:   (downloads)
 .. |docker_frogs| image:: https://quay.io/repository/biocontainers/frogs/status
    :target: https://quay.io/repository/biocontainers/frogs

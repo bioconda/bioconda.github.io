@@ -53,6 +53,7 @@ bioconductor-camera
 
 
 .. |downloads_bioconductor-camera| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-camera.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-camera
    :alt:   (downloads)
 .. |docker_bioconductor-camera| image:: https://quay.io/repository/biocontainers/bioconductor-camera/status
    :target: https://quay.io/repository/biocontainers/bioconductor-camera

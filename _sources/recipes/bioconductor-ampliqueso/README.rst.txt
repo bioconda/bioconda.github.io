@@ -59,6 +59,7 @@ bioconductor-ampliqueso
 
 
 .. |downloads_bioconductor-ampliqueso| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ampliqueso.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ampliqueso
    :alt:   (downloads)
 .. |docker_bioconductor-ampliqueso| image:: https://quay.io/repository/biocontainers/bioconductor-ampliqueso/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ampliqueso

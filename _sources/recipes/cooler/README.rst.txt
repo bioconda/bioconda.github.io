@@ -62,6 +62,7 @@ cooler
 
 
 .. |downloads_cooler| image:: https://img.shields.io/conda/dn/bioconda/cooler.svg?style=flat
+   :target: https://anaconda.org/bioconda/cooler
    :alt:   (downloads)
 .. |docker_cooler| image:: https://quay.io/repository/biocontainers/cooler/status
    :target: https://quay.io/repository/biocontainers/cooler

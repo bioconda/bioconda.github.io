@@ -51,6 +51,7 @@ sample-sheet
 
 
 .. |downloads_sample-sheet| image:: https://img.shields.io/conda/dn/bioconda/sample-sheet.svg?style=flat
+   :target: https://anaconda.org/bioconda/sample-sheet
    :alt:   (downloads)
 .. |docker_sample-sheet| image:: https://quay.io/repository/biocontainers/sample-sheet/status
    :target: https://quay.io/repository/biocontainers/sample-sheet

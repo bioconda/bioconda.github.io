@@ -47,6 +47,7 @@ bioconductor-medicagocdf
 
 
 .. |downloads_bioconductor-medicagocdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-medicagocdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-medicagocdf
    :alt:   (downloads)
 .. |docker_bioconductor-medicagocdf| image:: https://quay.io/repository/biocontainers/bioconductor-medicagocdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-medicagocdf

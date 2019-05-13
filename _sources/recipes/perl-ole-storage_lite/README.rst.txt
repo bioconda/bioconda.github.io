@@ -45,6 +45,7 @@ perl-ole-storage_lite
 
 
 .. |downloads_perl-ole-storage_lite| image:: https://img.shields.io/conda/dn/bioconda/perl-ole-storage_lite.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-ole-storage_lite
    :alt:   (downloads)
 .. |docker_perl-ole-storage_lite| image:: https://quay.io/repository/biocontainers/perl-ole-storage_lite/status
    :target: https://quay.io/repository/biocontainers/perl-ole-storage_lite

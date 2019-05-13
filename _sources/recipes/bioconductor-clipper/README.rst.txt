@@ -57,6 +57,7 @@ bioconductor-clipper
 
 
 .. |downloads_bioconductor-clipper| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clipper.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-clipper
    :alt:   (downloads)
 .. |docker_bioconductor-clipper| image:: https://quay.io/repository/biocontainers/bioconductor-clipper/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clipper

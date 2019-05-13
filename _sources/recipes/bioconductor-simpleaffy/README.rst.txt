@@ -52,6 +52,7 @@ bioconductor-simpleaffy
 
 
 .. |downloads_bioconductor-simpleaffy| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-simpleaffy.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-simpleaffy
    :alt:   (downloads)
 .. |docker_bioconductor-simpleaffy| image:: https://quay.io/repository/biocontainers/bioconductor-simpleaffy/status
    :target: https://quay.io/repository/biocontainers/bioconductor-simpleaffy

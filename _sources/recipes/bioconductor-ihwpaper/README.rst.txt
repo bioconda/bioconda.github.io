@@ -61,6 +61,7 @@ bioconductor-ihwpaper
 
 
 .. |downloads_bioconductor-ihwpaper| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ihwpaper.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ihwpaper
    :alt:   (downloads)
 .. |docker_bioconductor-ihwpaper| image:: https://quay.io/repository/biocontainers/bioconductor-ihwpaper/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ihwpaper

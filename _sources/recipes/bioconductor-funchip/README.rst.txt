@@ -58,6 +58,7 @@ bioconductor-funchip
 
 
 .. |downloads_bioconductor-funchip| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-funchip.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-funchip
    :alt:   (downloads)
 .. |docker_bioconductor-funchip| image:: https://quay.io/repository/biocontainers/bioconductor-funchip/status
    :target: https://quay.io/repository/biocontainers/bioconductor-funchip

@@ -49,6 +49,7 @@ bioconductor-alpinedata
 
 
 .. |downloads_bioconductor-alpinedata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-alpinedata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-alpinedata
    :alt:   (downloads)
 .. |docker_bioconductor-alpinedata| image:: https://quay.io/repository/biocontainers/bioconductor-alpinedata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-alpinedata

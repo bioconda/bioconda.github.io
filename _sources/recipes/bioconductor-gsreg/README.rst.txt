@@ -52,6 +52,7 @@ bioconductor-gsreg
 
 
 .. |downloads_bioconductor-gsreg| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gsreg.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gsreg
    :alt:   (downloads)
 .. |docker_bioconductor-gsreg| image:: https://quay.io/repository/biocontainers/bioconductor-gsreg/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gsreg

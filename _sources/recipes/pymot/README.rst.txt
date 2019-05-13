@@ -46,6 +46,7 @@ pymot
 
 
 .. |downloads_pymot| image:: https://img.shields.io/conda/dn/bioconda/pymot.svg?style=flat
+   :target: https://anaconda.org/bioconda/pymot
    :alt:   (downloads)
 .. |docker_pymot| image:: https://quay.io/repository/biocontainers/pymot/status
    :target: https://quay.io/repository/biocontainers/pymot

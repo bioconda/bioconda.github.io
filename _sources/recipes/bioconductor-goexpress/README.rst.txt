@@ -53,6 +53,7 @@ bioconductor-goexpress
 
 
 .. |downloads_bioconductor-goexpress| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-goexpress.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-goexpress
    :alt:   (downloads)
 .. |docker_bioconductor-goexpress| image:: https://quay.io/repository/biocontainers/bioconductor-goexpress/status
    :target: https://quay.io/repository/biocontainers/bioconductor-goexpress

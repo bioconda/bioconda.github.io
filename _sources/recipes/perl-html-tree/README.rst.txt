@@ -49,6 +49,7 @@ perl-html-tree
 
 
 .. |downloads_perl-html-tree| image:: https://img.shields.io/conda/dn/bioconda/perl-html-tree.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-html-tree
    :alt:   (downloads)
 .. |docker_perl-html-tree| image:: https://quay.io/repository/biocontainers/perl-html-tree/status
    :target: https://quay.io/repository/biocontainers/perl-html-tree

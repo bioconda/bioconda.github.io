@@ -50,6 +50,7 @@ ucsc-findmotif
 
 
 .. |downloads_ucsc-findmotif| image:: https://img.shields.io/conda/dn/bioconda/ucsc-findmotif.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-findmotif
    :alt:   (downloads)
 .. |docker_ucsc-findmotif| image:: https://quay.io/repository/biocontainers/ucsc-findmotif/status
    :target: https://quay.io/repository/biocontainers/ucsc-findmotif

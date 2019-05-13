@@ -47,6 +47,7 @@ bioconductor-rat2302probe
 
 
 .. |downloads_bioconductor-rat2302probe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rat2302probe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rat2302probe
    :alt:   (downloads)
 .. |docker_bioconductor-rat2302probe| image:: https://quay.io/repository/biocontainers/bioconductor-rat2302probe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rat2302probe

@@ -55,6 +55,7 @@ ataqv
 
 
 .. |downloads_ataqv| image:: https://img.shields.io/conda/dn/bioconda/ataqv.svg?style=flat
+   :target: https://anaconda.org/bioconda/ataqv
    :alt:   (downloads)
 .. |docker_ataqv| image:: https://quay.io/repository/biocontainers/ataqv/status
    :target: https://quay.io/repository/biocontainers/ataqv

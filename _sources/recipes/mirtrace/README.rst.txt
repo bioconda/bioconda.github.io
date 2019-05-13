@@ -54,6 +54,7 @@ mirtrace
 
 
 .. |downloads_mirtrace| image:: https://img.shields.io/conda/dn/bioconda/mirtrace.svg?style=flat
+   :target: https://anaconda.org/bioconda/mirtrace
    :alt:   (downloads)
 .. |docker_mirtrace| image:: https://quay.io/repository/biocontainers/mirtrace/status
    :target: https://quay.io/repository/biocontainers/mirtrace

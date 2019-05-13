@@ -51,6 +51,7 @@ bioconductor-pathrender
 
 
 .. |downloads_bioconductor-pathrender| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pathrender.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pathrender
    :alt:   (downloads)
 .. |docker_bioconductor-pathrender| image:: https://quay.io/repository/biocontainers/bioconductor-pathrender/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pathrender

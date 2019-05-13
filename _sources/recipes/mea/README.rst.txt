@@ -45,6 +45,7 @@ mea
 
 
 .. |downloads_mea| image:: https://img.shields.io/conda/dn/bioconda/mea.svg?style=flat
+   :target: https://anaconda.org/bioconda/mea
    :alt:   (downloads)
 .. |docker_mea| image:: https://quay.io/repository/biocontainers/mea/status
    :target: https://quay.io/repository/biocontainers/mea

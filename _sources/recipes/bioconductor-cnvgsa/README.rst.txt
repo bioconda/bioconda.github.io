@@ -51,6 +51,7 @@ bioconductor-cnvgsa
 
 
 .. |downloads_bioconductor-cnvgsa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cnvgsa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cnvgsa
    :alt:   (downloads)
 .. |docker_bioconductor-cnvgsa| image:: https://quay.io/repository/biocontainers/bioconductor-cnvgsa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cnvgsa

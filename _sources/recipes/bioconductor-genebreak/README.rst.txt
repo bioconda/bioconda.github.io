@@ -50,6 +50,7 @@ bioconductor-genebreak
 
 
 .. |downloads_bioconductor-genebreak| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genebreak.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genebreak
    :alt:   (downloads)
 .. |docker_bioconductor-genebreak| image:: https://quay.io/repository/biocontainers/bioconductor-genebreak/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genebreak

@@ -47,6 +47,7 @@ pywdl
 
 
 .. |downloads_pywdl| image:: https://img.shields.io/conda/dn/bioconda/pywdl.svg?style=flat
+   :target: https://anaconda.org/bioconda/pywdl
    :alt:   (downloads)
 .. |docker_pywdl| image:: https://quay.io/repository/biocontainers/pywdl/status
    :target: https://quay.io/repository/biocontainers/pywdl

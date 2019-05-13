@@ -53,6 +53,7 @@ bioconductor-pd.zebrafish
 
 
 .. |downloads_bioconductor-pd.zebrafish| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.zebrafish.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.zebrafish
    :alt:   (downloads)
 .. |docker_bioconductor-pd.zebrafish| image:: https://quay.io/repository/biocontainers/bioconductor-pd.zebrafish/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.zebrafish

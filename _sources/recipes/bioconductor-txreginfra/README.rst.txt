@@ -54,6 +54,7 @@ bioconductor-txreginfra
 
 
 .. |downloads_bioconductor-txreginfra| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-txreginfra.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-txreginfra
    :alt:   (downloads)
 .. |docker_bioconductor-txreginfra| image:: https://quay.io/repository/biocontainers/bioconductor-txreginfra/status
    :target: https://quay.io/repository/biocontainers/bioconductor-txreginfra

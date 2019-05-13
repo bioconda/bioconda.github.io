@@ -48,6 +48,7 @@ bioconductor-bridge
 
 
 .. |downloads_bioconductor-bridge| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bridge.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bridge
    :alt:   (downloads)
 .. |docker_bioconductor-bridge| image:: https://quay.io/repository/biocontainers/bioconductor-bridge/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bridge

@@ -47,6 +47,7 @@ bioconductor-mirna10probe
 
 
 .. |downloads_bioconductor-mirna10probe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirna10probe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mirna10probe
    :alt:   (downloads)
 .. |docker_bioconductor-mirna10probe| image:: https://quay.io/repository/biocontainers/bioconductor-mirna10probe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mirna10probe

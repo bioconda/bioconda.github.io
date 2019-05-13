@@ -47,6 +47,7 @@ perl-pathtools
 
 
 .. |downloads_perl-pathtools| image:: https://img.shields.io/conda/dn/bioconda/perl-pathtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-pathtools
    :alt:   (downloads)
 .. |docker_perl-pathtools| image:: https://quay.io/repository/biocontainers/perl-pathtools/status
    :target: https://quay.io/repository/biocontainers/perl-pathtools

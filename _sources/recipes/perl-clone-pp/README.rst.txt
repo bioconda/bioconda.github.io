@@ -46,6 +46,7 @@ perl-clone-pp
 
 
 .. |downloads_perl-clone-pp| image:: https://img.shields.io/conda/dn/bioconda/perl-clone-pp.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-clone-pp
    :alt:   (downloads)
 .. |docker_perl-clone-pp| image:: https://quay.io/repository/biocontainers/perl-clone-pp/status
    :target: https://quay.io/repository/biocontainers/perl-clone-pp

@@ -60,6 +60,7 @@ bioconductor-tronco
 
 
 .. |downloads_bioconductor-tronco| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tronco.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tronco
    :alt:   (downloads)
 .. |docker_bioconductor-tronco| image:: https://quay.io/repository/biocontainers/bioconductor-tronco/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tronco

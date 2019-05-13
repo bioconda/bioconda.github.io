@@ -59,6 +59,7 @@ bioconductor-ga4ghshiny
 
 
 .. |downloads_bioconductor-ga4ghshiny| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ga4ghshiny.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ga4ghshiny
    :alt:   (downloads)
 .. |docker_bioconductor-ga4ghshiny| image:: https://quay.io/repository/biocontainers/bioconductor-ga4ghshiny/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ga4ghshiny

@@ -53,6 +53,7 @@ hera
 
 
 .. |downloads_hera| image:: https://img.shields.io/conda/dn/bioconda/hera.svg?style=flat
+   :target: https://anaconda.org/bioconda/hera
    :alt:   (downloads)
 .. |docker_hera| image:: https://quay.io/repository/biocontainers/hera/status
    :target: https://quay.io/repository/biocontainers/hera

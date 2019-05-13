@@ -48,6 +48,7 @@ rfmix
 
 
 .. |downloads_rfmix| image:: https://img.shields.io/conda/dn/bioconda/rfmix.svg?style=flat
+   :target: https://anaconda.org/bioconda/rfmix
    :alt:   (downloads)
 .. |docker_rfmix| image:: https://quay.io/repository/biocontainers/rfmix/status
    :target: https://quay.io/repository/biocontainers/rfmix

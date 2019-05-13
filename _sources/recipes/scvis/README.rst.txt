@@ -54,6 +54,7 @@ scvis
 
 
 .. |downloads_scvis| image:: https://img.shields.io/conda/dn/bioconda/scvis.svg?style=flat
+   :target: https://anaconda.org/bioconda/scvis
    :alt:   (downloads)
 .. |docker_scvis| image:: https://quay.io/repository/biocontainers/scvis/status
    :target: https://quay.io/repository/biocontainers/scvis

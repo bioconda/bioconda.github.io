@@ -46,6 +46,7 @@ grep
 
 
 .. |downloads_grep| image:: https://img.shields.io/conda/dn/bioconda/grep.svg?style=flat
+   :target: https://anaconda.org/bioconda/grep
    :alt:   (downloads)
 .. |docker_grep| image:: https://quay.io/repository/biocontainers/grep/status
    :target: https://quay.io/repository/biocontainers/grep

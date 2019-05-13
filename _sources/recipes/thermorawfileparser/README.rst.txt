@@ -47,6 +47,7 @@ thermorawfileparser
 
 
 .. |downloads_thermorawfileparser| image:: https://img.shields.io/conda/dn/bioconda/thermorawfileparser.svg?style=flat
+   :target: https://anaconda.org/bioconda/thermorawfileparser
    :alt:   (downloads)
 .. |docker_thermorawfileparser| image:: https://quay.io/repository/biocontainers/thermorawfileparser/status
    :target: https://quay.io/repository/biocontainers/thermorawfileparser

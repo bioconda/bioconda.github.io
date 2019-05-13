@@ -60,6 +60,7 @@ bioconductor-restfulse
 
 
 .. |downloads_bioconductor-restfulse| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-restfulse.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-restfulse
    :alt:   (downloads)
 .. |docker_bioconductor-restfulse| image:: https://quay.io/repository/biocontainers/bioconductor-restfulse/status
    :target: https://quay.io/repository/biocontainers/bioconductor-restfulse

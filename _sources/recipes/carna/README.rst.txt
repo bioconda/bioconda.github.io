@@ -48,6 +48,7 @@ carna
 
 
 .. |downloads_carna| image:: https://img.shields.io/conda/dn/bioconda/carna.svg?style=flat
+   :target: https://anaconda.org/bioconda/carna
    :alt:   (downloads)
 .. |docker_carna| image:: https://quay.io/repository/biocontainers/carna/status
    :target: https://quay.io/repository/biocontainers/carna

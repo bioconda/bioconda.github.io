@@ -46,6 +46,7 @@ genepender
 
 
 .. |downloads_genepender| image:: https://img.shields.io/conda/dn/bioconda/genepender.svg?style=flat
+   :target: https://anaconda.org/bioconda/genepender
    :alt:   (downloads)
 .. |docker_genepender| image:: https://quay.io/repository/biocontainers/genepender/status
    :target: https://quay.io/repository/biocontainers/genepender

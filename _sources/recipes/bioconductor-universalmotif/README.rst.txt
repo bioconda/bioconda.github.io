@@ -57,6 +57,7 @@ bioconductor-universalmotif
 
 
 .. |downloads_bioconductor-universalmotif| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-universalmotif.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-universalmotif
    :alt:   (downloads)
 .. |docker_bioconductor-universalmotif| image:: https://quay.io/repository/biocontainers/bioconductor-universalmotif/status
    :target: https://quay.io/repository/biocontainers/bioconductor-universalmotif

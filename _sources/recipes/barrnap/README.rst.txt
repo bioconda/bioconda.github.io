@@ -48,6 +48,7 @@ barrnap
 
 
 .. |downloads_barrnap| image:: https://img.shields.io/conda/dn/bioconda/barrnap.svg?style=flat
+   :target: https://anaconda.org/bioconda/barrnap
    :alt:   (downloads)
 .. |docker_barrnap| image:: https://quay.io/repository/biocontainers/barrnap/status
    :target: https://quay.io/repository/biocontainers/barrnap

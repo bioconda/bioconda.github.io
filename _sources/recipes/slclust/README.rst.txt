@@ -45,6 +45,7 @@ slclust
 
 
 .. |downloads_slclust| image:: https://img.shields.io/conda/dn/bioconda/slclust.svg?style=flat
+   :target: https://anaconda.org/bioconda/slclust
    :alt:   (downloads)
 .. |docker_slclust| image:: https://quay.io/repository/biocontainers/slclust/status
    :target: https://quay.io/repository/biocontainers/slclust

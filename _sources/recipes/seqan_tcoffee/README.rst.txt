@@ -47,6 +47,7 @@ seqan_tcoffee
 
 
 .. |downloads_seqan_tcoffee| image:: https://img.shields.io/conda/dn/bioconda/seqan_tcoffee.svg?style=flat
+   :target: https://anaconda.org/bioconda/seqan_tcoffee
    :alt:   (downloads)
 .. |docker_seqan_tcoffee| image:: https://quay.io/repository/biocontainers/seqan_tcoffee/status
    :target: https://quay.io/repository/biocontainers/seqan_tcoffee

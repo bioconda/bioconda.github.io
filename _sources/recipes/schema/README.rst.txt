@@ -46,6 +46,7 @@ schema
 
 
 .. |downloads_schema| image:: https://img.shields.io/conda/dn/bioconda/schema.svg?style=flat
+   :target: https://anaconda.org/bioconda/schema
    :alt:   (downloads)
 .. |docker_schema| image:: https://quay.io/repository/biocontainers/schema/status
    :target: https://quay.io/repository/biocontainers/schema

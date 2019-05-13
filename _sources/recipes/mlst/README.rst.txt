@@ -51,6 +51,7 @@ mlst
 
 
 .. |downloads_mlst| image:: https://img.shields.io/conda/dn/bioconda/mlst.svg?style=flat
+   :target: https://anaconda.org/bioconda/mlst
    :alt:   (downloads)
 .. |docker_mlst| image:: https://quay.io/repository/biocontainers/mlst/status
    :target: https://quay.io/repository/biocontainers/mlst

@@ -53,6 +53,7 @@ halla
 
 
 .. |downloads_halla| image:: https://img.shields.io/conda/dn/bioconda/halla.svg?style=flat
+   :target: https://anaconda.org/bioconda/halla
    :alt:   (downloads)
 .. |docker_halla| image:: https://quay.io/repository/biocontainers/halla/status
    :target: https://quay.io/repository/biocontainers/halla

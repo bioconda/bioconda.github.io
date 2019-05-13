@@ -48,6 +48,7 @@ bioconductor-humanstemcell
 
 
 .. |downloads_bioconductor-humanstemcell| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-humanstemcell.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-humanstemcell
    :alt:   (downloads)
 .. |docker_bioconductor-humanstemcell| image:: https://quay.io/repository/biocontainers/bioconductor-humanstemcell/status
    :target: https://quay.io/repository/biocontainers/bioconductor-humanstemcell

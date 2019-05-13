@@ -46,6 +46,7 @@ seq-gen
 
 
 .. |downloads_seq-gen| image:: https://img.shields.io/conda/dn/bioconda/seq-gen.svg?style=flat
+   :target: https://anaconda.org/bioconda/seq-gen
    :alt:   (downloads)
 .. |docker_seq-gen| image:: https://quay.io/repository/biocontainers/seq-gen/status
    :target: https://quay.io/repository/biocontainers/seq-gen

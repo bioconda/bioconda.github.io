@@ -48,6 +48,7 @@ bioconductor-txdb.ggallus.ucsc.galgal5.refgene
 
 
 .. |downloads_bioconductor-txdb.ggallus.ucsc.galgal5.refgene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-txdb.ggallus.ucsc.galgal5.refgene.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-txdb.ggallus.ucsc.galgal5.refgene
    :alt:   (downloads)
 .. |docker_bioconductor-txdb.ggallus.ucsc.galgal5.refgene| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal5.refgene/status
    :target: https://quay.io/repository/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal5.refgene

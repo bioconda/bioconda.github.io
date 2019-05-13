@@ -54,6 +54,7 @@ bioconductor-geoquery
 
 
 .. |downloads_bioconductor-geoquery| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geoquery.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-geoquery
    :alt:   (downloads)
 .. |docker_bioconductor-geoquery| image:: https://quay.io/repository/biocontainers/bioconductor-geoquery/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geoquery

@@ -54,6 +54,7 @@ bioconductor-profia
 
 
 .. |downloads_bioconductor-profia| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-profia.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-profia
    :alt:   (downloads)
 .. |docker_bioconductor-profia| image:: https://quay.io/repository/biocontainers/bioconductor-profia/status
    :target: https://quay.io/repository/biocontainers/bioconductor-profia

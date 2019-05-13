@@ -47,6 +47,7 @@ bioconductor-isolde
 
 
 .. |downloads_bioconductor-isolde| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-isolde.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-isolde
    :alt:   (downloads)
 .. |docker_bioconductor-isolde| image:: https://quay.io/repository/biocontainers/bioconductor-isolde/status
    :target: https://quay.io/repository/biocontainers/bioconductor-isolde

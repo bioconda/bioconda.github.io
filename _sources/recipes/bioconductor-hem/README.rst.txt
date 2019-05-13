@@ -48,6 +48,7 @@ bioconductor-hem
 
 
 .. |downloads_bioconductor-hem| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hem.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hem
    :alt:   (downloads)
 .. |docker_bioconductor-hem| image:: https://quay.io/repository/biocontainers/bioconductor-hem/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hem

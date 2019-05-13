@@ -47,6 +47,7 @@ bioconductor-airway
 
 
 .. |downloads_bioconductor-airway| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-airway.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-airway
    :alt:   (downloads)
 .. |docker_bioconductor-airway| image:: https://quay.io/repository/biocontainers/bioconductor-airway/status
    :target: https://quay.io/repository/biocontainers/bioconductor-airway

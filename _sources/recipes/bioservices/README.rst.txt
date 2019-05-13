@@ -55,6 +55,7 @@ bioservices
 
 
 .. |downloads_bioservices| image:: https://img.shields.io/conda/dn/bioconda/bioservices.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioservices
    :alt:   (downloads)
 .. |docker_bioservices| image:: https://quay.io/repository/biocontainers/bioservices/status
    :target: https://quay.io/repository/biocontainers/bioservices

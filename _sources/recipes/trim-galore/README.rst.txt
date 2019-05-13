@@ -48,6 +48,7 @@ trim-galore
 
 
 .. |downloads_trim-galore| image:: https://img.shields.io/conda/dn/bioconda/trim-galore.svg?style=flat
+   :target: https://anaconda.org/bioconda/trim-galore
    :alt:   (downloads)
 .. |docker_trim-galore| image:: https://quay.io/repository/biocontainers/trim-galore/status
    :target: https://quay.io/repository/biocontainers/trim-galore

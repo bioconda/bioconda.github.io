@@ -46,6 +46,7 @@ bioconductor-vulcandata
 
 
 .. |downloads_bioconductor-vulcandata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-vulcandata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-vulcandata
    :alt:   (downloads)
 .. |docker_bioconductor-vulcandata| image:: https://quay.io/repository/biocontainers/bioconductor-vulcandata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-vulcandata

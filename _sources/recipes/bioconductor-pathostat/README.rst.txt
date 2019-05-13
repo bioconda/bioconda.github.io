@@ -75,6 +75,7 @@ bioconductor-pathostat
 
 
 .. |downloads_bioconductor-pathostat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pathostat.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pathostat
    :alt:   (downloads)
 .. |docker_bioconductor-pathostat| image:: https://quay.io/repository/biocontainers/bioconductor-pathostat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pathostat

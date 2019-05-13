@@ -55,6 +55,7 @@ bioconductor-flowai
 
 
 .. |downloads_bioconductor-flowai| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowai.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowai
    :alt:   (downloads)
 .. |docker_bioconductor-flowai| image:: https://quay.io/repository/biocontainers/bioconductor-flowai/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowai

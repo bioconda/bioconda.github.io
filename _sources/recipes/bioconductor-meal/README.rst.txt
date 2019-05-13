@@ -63,6 +63,7 @@ bioconductor-meal
 
 
 .. |downloads_bioconductor-meal| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-meal.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-meal
    :alt:   (downloads)
 .. |docker_bioconductor-meal| image:: https://quay.io/repository/biocontainers/bioconductor-meal/status
    :target: https://quay.io/repository/biocontainers/bioconductor-meal

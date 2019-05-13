@@ -47,6 +47,7 @@ bioconductor-nugohs1a520180cdf
 
 
 .. |downloads_bioconductor-nugohs1a520180cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-nugohs1a520180cdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-nugohs1a520180cdf
    :alt:   (downloads)
 .. |docker_bioconductor-nugohs1a520180cdf| image:: https://quay.io/repository/biocontainers/bioconductor-nugohs1a520180cdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-nugohs1a520180cdf

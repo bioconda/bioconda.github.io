@@ -46,6 +46,7 @@ sharedmem
 
 
 .. |downloads_sharedmem| image:: https://img.shields.io/conda/dn/bioconda/sharedmem.svg?style=flat
+   :target: https://anaconda.org/bioconda/sharedmem
    :alt:   (downloads)
 .. |docker_sharedmem| image:: https://quay.io/repository/biocontainers/sharedmem/status
    :target: https://quay.io/repository/biocontainers/sharedmem

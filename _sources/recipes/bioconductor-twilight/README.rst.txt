@@ -48,6 +48,7 @@ bioconductor-twilight
 
 
 .. |downloads_bioconductor-twilight| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-twilight.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-twilight
    :alt:   (downloads)
 .. |docker_bioconductor-twilight| image:: https://quay.io/repository/biocontainers/bioconductor-twilight/status
    :target: https://quay.io/repository/biocontainers/bioconductor-twilight

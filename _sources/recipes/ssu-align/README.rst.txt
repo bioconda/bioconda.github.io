@@ -46,6 +46,7 @@ ssu-align
 
 
 .. |downloads_ssu-align| image:: https://img.shields.io/conda/dn/bioconda/ssu-align.svg?style=flat
+   :target: https://anaconda.org/bioconda/ssu-align
    :alt:   (downloads)
 .. |docker_ssu-align| image:: https://quay.io/repository/biocontainers/ssu-align/status
    :target: https://quay.io/repository/biocontainers/ssu-align

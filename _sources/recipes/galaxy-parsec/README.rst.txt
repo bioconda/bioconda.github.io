@@ -52,6 +52,7 @@ galaxy-parsec
 
 
 .. |downloads_galaxy-parsec| image:: https://img.shields.io/conda/dn/bioconda/galaxy-parsec.svg?style=flat
+   :target: https://anaconda.org/bioconda/galaxy-parsec
    :alt:   (downloads)
 .. |docker_galaxy-parsec| image:: https://quay.io/repository/biocontainers/galaxy-parsec/status
    :target: https://quay.io/repository/biocontainers/galaxy-parsec

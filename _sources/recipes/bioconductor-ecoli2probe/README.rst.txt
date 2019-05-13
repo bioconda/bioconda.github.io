@@ -47,6 +47,7 @@ bioconductor-ecoli2probe
 
 
 .. |downloads_bioconductor-ecoli2probe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ecoli2probe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ecoli2probe
    :alt:   (downloads)
 .. |docker_bioconductor-ecoli2probe| image:: https://quay.io/repository/biocontainers/bioconductor-ecoli2probe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ecoli2probe

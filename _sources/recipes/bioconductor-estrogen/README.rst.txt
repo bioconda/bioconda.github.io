@@ -46,6 +46,7 @@ bioconductor-estrogen
 
 
 .. |downloads_bioconductor-estrogen| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-estrogen.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-estrogen
    :alt:   (downloads)
 .. |docker_bioconductor-estrogen| image:: https://quay.io/repository/biocontainers/bioconductor-estrogen/status
    :target: https://quay.io/repository/biocontainers/bioconductor-estrogen

@@ -47,6 +47,7 @@ pbgzip
 
 
 .. |downloads_pbgzip| image:: https://img.shields.io/conda/dn/bioconda/pbgzip.svg?style=flat
+   :target: https://anaconda.org/bioconda/pbgzip
    :alt:   (downloads)
 .. |docker_pbgzip| image:: https://quay.io/repository/biocontainers/pbgzip/status
    :target: https://quay.io/repository/biocontainers/pbgzip

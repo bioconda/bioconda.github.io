@@ -45,6 +45,7 @@ kmerinshort
 
 
 .. |downloads_kmerinshort| image:: https://img.shields.io/conda/dn/bioconda/kmerinshort.svg?style=flat
+   :target: https://anaconda.org/bioconda/kmerinshort
    :alt:   (downloads)
 .. |docker_kmerinshort| image:: https://quay.io/repository/biocontainers/kmerinshort/status
    :target: https://quay.io/repository/biocontainers/kmerinshort

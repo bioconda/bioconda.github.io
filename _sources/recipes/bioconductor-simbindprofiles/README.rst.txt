@@ -50,6 +50,7 @@ bioconductor-simbindprofiles
 
 
 .. |downloads_bioconductor-simbindprofiles| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-simbindprofiles.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-simbindprofiles
    :alt:   (downloads)
 .. |docker_bioconductor-simbindprofiles| image:: https://quay.io/repository/biocontainers/bioconductor-simbindprofiles/status
    :target: https://quay.io/repository/biocontainers/bioconductor-simbindprofiles

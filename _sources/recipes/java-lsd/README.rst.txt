@@ -45,6 +45,7 @@ lsd
 
 
 .. |downloads_lsd| image:: https://img.shields.io/conda/dn/bioconda/lsd.svg?style=flat
+   :target: https://anaconda.org/bioconda/lsd
    :alt:   (downloads)
 .. |docker_lsd| image:: https://quay.io/repository/biocontainers/lsd/status
    :target: https://quay.io/repository/biocontainers/lsd

@@ -45,6 +45,7 @@ fastuniq
 
 
 .. |downloads_fastuniq| image:: https://img.shields.io/conda/dn/bioconda/fastuniq.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastuniq
    :alt:   (downloads)
 .. |docker_fastuniq| image:: https://quay.io/repository/biocontainers/fastuniq/status
    :target: https://quay.io/repository/biocontainers/fastuniq

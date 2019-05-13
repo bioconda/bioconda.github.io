@@ -50,6 +50,7 @@ ucsc-genepredtofakepsl
 
 
 .. |downloads_ucsc-genepredtofakepsl| image:: https://img.shields.io/conda/dn/bioconda/ucsc-genepredtofakepsl.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-genepredtofakepsl
    :alt:   (downloads)
 .. |docker_ucsc-genepredtofakepsl| image:: https://quay.io/repository/biocontainers/ucsc-genepredtofakepsl/status
    :target: https://quay.io/repository/biocontainers/ucsc-genepredtofakepsl

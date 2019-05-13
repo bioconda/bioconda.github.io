@@ -55,6 +55,7 @@ openbabel
 
 
 .. |downloads_openbabel| image:: https://img.shields.io/conda/dn/bioconda/openbabel.svg?style=flat
+   :target: https://anaconda.org/bioconda/openbabel
    :alt:   (downloads)
 .. |docker_openbabel| image:: https://quay.io/repository/biocontainers/openbabel/status
    :target: https://quay.io/repository/biocontainers/openbabel

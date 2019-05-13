@@ -83,6 +83,7 @@ bioconductor-champ
 
 
 .. |downloads_bioconductor-champ| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-champ.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-champ
    :alt:   (downloads)
 .. |docker_bioconductor-champ| image:: https://quay.io/repository/biocontainers/bioconductor-champ/status
    :target: https://quay.io/repository/biocontainers/bioconductor-champ

@@ -51,6 +51,7 @@ r-qpcr
 
 
 .. |downloads_r-qpcr| image:: https://img.shields.io/conda/dn/bioconda/r-qpcr.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-qpcr
    :alt:   (downloads)
 .. |docker_r-qpcr| image:: https://quay.io/repository/biocontainers/r-qpcr/status
    :target: https://quay.io/repository/biocontainers/r-qpcr

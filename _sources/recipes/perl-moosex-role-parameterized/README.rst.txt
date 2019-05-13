@@ -50,6 +50,7 @@ perl-moosex-role-parameterized
 
 
 .. |downloads_perl-moosex-role-parameterized| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-role-parameterized.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-moosex-role-parameterized
    :alt:   (downloads)
 .. |docker_perl-moosex-role-parameterized| image:: https://quay.io/repository/biocontainers/perl-moosex-role-parameterized/status
    :target: https://quay.io/repository/biocontainers/perl-moosex-role-parameterized

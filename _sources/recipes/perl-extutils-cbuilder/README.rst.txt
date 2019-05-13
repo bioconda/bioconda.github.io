@@ -50,6 +50,7 @@ perl-extutils-cbuilder
 
 
 .. |downloads_perl-extutils-cbuilder| image:: https://img.shields.io/conda/dn/bioconda/perl-extutils-cbuilder.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-extutils-cbuilder
    :alt:   (downloads)
 .. |docker_perl-extutils-cbuilder| image:: https://quay.io/repository/biocontainers/perl-extutils-cbuilder/status
    :target: https://quay.io/repository/biocontainers/perl-extutils-cbuilder

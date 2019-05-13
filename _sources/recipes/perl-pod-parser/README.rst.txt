@@ -46,6 +46,7 @@ perl-pod-parser
 
 
 .. |downloads_perl-pod-parser| image:: https://img.shields.io/conda/dn/bioconda/perl-pod-parser.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-pod-parser
    :alt:   (downloads)
 .. |docker_perl-pod-parser| image:: https://quay.io/repository/biocontainers/perl-pod-parser/status
    :target: https://quay.io/repository/biocontainers/perl-pod-parser

@@ -49,6 +49,7 @@ atac
 
 
 .. |downloads_atac| image:: https://img.shields.io/conda/dn/bioconda/atac.svg?style=flat
+   :target: https://anaconda.org/bioconda/atac
    :alt:   (downloads)
 .. |docker_atac| image:: https://quay.io/repository/biocontainers/atac/status
    :target: https://quay.io/repository/biocontainers/atac

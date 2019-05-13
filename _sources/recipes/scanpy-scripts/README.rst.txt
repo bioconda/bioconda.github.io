@@ -58,6 +58,7 @@ scanpy-scripts
 
 
 .. |downloads_scanpy-scripts| image:: https://img.shields.io/conda/dn/bioconda/scanpy-scripts.svg?style=flat
+   :target: https://anaconda.org/bioconda/scanpy-scripts
    :alt:   (downloads)
 .. |docker_scanpy-scripts| image:: https://quay.io/repository/biocontainers/scanpy-scripts/status
    :target: https://quay.io/repository/biocontainers/scanpy-scripts

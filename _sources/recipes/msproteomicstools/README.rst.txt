@@ -56,6 +56,7 @@ msproteomicstools
 
 
 .. |downloads_msproteomicstools| image:: https://img.shields.io/conda/dn/bioconda/msproteomicstools.svg?style=flat
+   :target: https://anaconda.org/bioconda/msproteomicstools
    :alt:   (downloads)
 .. |docker_msproteomicstools| image:: https://quay.io/repository/biocontainers/msproteomicstools/status
    :target: https://quay.io/repository/biocontainers/msproteomicstools

@@ -45,6 +45,7 @@ rawtools
 
 
 .. |downloads_rawtools| image:: https://img.shields.io/conda/dn/bioconda/rawtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/rawtools
    :alt:   (downloads)
 .. |docker_rawtools| image:: https://quay.io/repository/biocontainers/rawtools/status
    :target: https://quay.io/repository/biocontainers/rawtools

@@ -44,6 +44,7 @@ moreutils
 
 
 .. |downloads_moreutils| image:: https://img.shields.io/conda/dn/bioconda/moreutils.svg?style=flat
+   :target: https://anaconda.org/bioconda/moreutils
    :alt:   (downloads)
 .. |docker_moreutils| image:: https://quay.io/repository/biocontainers/moreutils/status
    :target: https://quay.io/repository/biocontainers/moreutils

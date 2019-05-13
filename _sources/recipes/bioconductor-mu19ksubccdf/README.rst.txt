@@ -47,6 +47,7 @@ bioconductor-mu19ksubccdf
 
 
 .. |downloads_bioconductor-mu19ksubccdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mu19ksubccdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mu19ksubccdf
    :alt:   (downloads)
 .. |docker_bioconductor-mu19ksubccdf| image:: https://quay.io/repository/biocontainers/bioconductor-mu19ksubccdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mu19ksubccdf

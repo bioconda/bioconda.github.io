@@ -49,6 +49,7 @@ pbh5tools
 
 
 .. |downloads_pbh5tools| image:: https://img.shields.io/conda/dn/bioconda/pbh5tools.svg?style=flat
+   :target: https://anaconda.org/bioconda/pbh5tools
    :alt:   (downloads)
 .. |docker_pbh5tools| image:: https://quay.io/repository/biocontainers/pbh5tools/status
    :target: https://quay.io/repository/biocontainers/pbh5tools

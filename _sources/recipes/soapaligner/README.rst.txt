@@ -46,6 +46,7 @@ soapaligner
 
 
 .. |downloads_soapaligner| image:: https://img.shields.io/conda/dn/bioconda/soapaligner.svg?style=flat
+   :target: https://anaconda.org/bioconda/soapaligner
    :alt:   (downloads)
 .. |docker_soapaligner| image:: https://quay.io/repository/biocontainers/soapaligner/status
    :target: https://quay.io/repository/biocontainers/soapaligner

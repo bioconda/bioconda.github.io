@@ -53,6 +53,7 @@ changeo
 
 
 .. |downloads_changeo| image:: https://img.shields.io/conda/dn/bioconda/changeo.svg?style=flat
+   :target: https://anaconda.org/bioconda/changeo
    :alt:   (downloads)
 .. |docker_changeo| image:: https://quay.io/repository/biocontainers/changeo/status
    :target: https://quay.io/repository/biocontainers/changeo

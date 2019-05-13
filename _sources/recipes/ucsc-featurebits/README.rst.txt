@@ -50,6 +50,7 @@ ucsc-featurebits
 
 
 .. |downloads_ucsc-featurebits| image:: https://img.shields.io/conda/dn/bioconda/ucsc-featurebits.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-featurebits
    :alt:   (downloads)
 .. |docker_ucsc-featurebits| image:: https://quay.io/repository/biocontainers/ucsc-featurebits/status
    :target: https://quay.io/repository/biocontainers/ucsc-featurebits

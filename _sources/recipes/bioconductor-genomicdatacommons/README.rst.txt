@@ -57,6 +57,7 @@ bioconductor-genomicdatacommons
 
 
 .. |downloads_bioconductor-genomicdatacommons| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genomicdatacommons.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genomicdatacommons
    :alt:   (downloads)
 .. |docker_bioconductor-genomicdatacommons| image:: https://quay.io/repository/biocontainers/bioconductor-genomicdatacommons/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genomicdatacommons

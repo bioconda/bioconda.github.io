@@ -49,6 +49,7 @@ bioconductor-coregnet
 
 
 .. |downloads_bioconductor-coregnet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-coregnet.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-coregnet
    :alt:   (downloads)
 .. |docker_bioconductor-coregnet| image:: https://quay.io/repository/biocontainers/bioconductor-coregnet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-coregnet

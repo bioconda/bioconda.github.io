@@ -64,6 +64,7 @@ bioconductor-scone
 
 
 .. |downloads_bioconductor-scone| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scone.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-scone
    :alt:   (downloads)
 .. |docker_bioconductor-scone| image:: https://quay.io/repository/biocontainers/bioconductor-scone/status
    :target: https://quay.io/repository/biocontainers/bioconductor-scone

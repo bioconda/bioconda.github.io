@@ -48,6 +48,7 @@ perl-string-random
 
 
 .. |downloads_perl-string-random| image:: https://img.shields.io/conda/dn/bioconda/perl-string-random.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-string-random
    :alt:   (downloads)
 .. |docker_perl-string-random| image:: https://quay.io/repository/biocontainers/perl-string-random/status
    :target: https://quay.io/repository/biocontainers/perl-string-random

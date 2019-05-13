@@ -45,6 +45,7 @@ perl-parent
 
 
 .. |downloads_perl-parent| image:: https://img.shields.io/conda/dn/bioconda/perl-parent.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-parent
    :alt:   (downloads)
 .. |docker_perl-parent| image:: https://quay.io/repository/biocontainers/perl-parent/status
    :target: https://quay.io/repository/biocontainers/perl-parent

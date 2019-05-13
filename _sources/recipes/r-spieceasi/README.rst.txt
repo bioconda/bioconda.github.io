@@ -49,6 +49,7 @@ r-spieceasi
 
 
 .. |downloads_r-spieceasi| image:: https://img.shields.io/conda/dn/bioconda/r-spieceasi.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-spieceasi
    :alt:   (downloads)
 .. |docker_r-spieceasi| image:: https://quay.io/repository/biocontainers/r-spieceasi/status
    :target: https://quay.io/repository/biocontainers/r-spieceasi

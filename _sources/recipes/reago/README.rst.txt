@@ -48,6 +48,7 @@ reago
 
 
 .. |downloads_reago| image:: https://img.shields.io/conda/dn/bioconda/reago.svg?style=flat
+   :target: https://anaconda.org/bioconda/reago
    :alt:   (downloads)
 .. |docker_reago| image:: https://quay.io/repository/biocontainers/reago/status
    :target: https://quay.io/repository/biocontainers/reago

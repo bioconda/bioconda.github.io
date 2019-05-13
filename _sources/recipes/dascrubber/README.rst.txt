@@ -45,6 +45,7 @@ dascrubber
 
 
 .. |downloads_dascrubber| image:: https://img.shields.io/conda/dn/bioconda/dascrubber.svg?style=flat
+   :target: https://anaconda.org/bioconda/dascrubber
    :alt:   (downloads)
 .. |docker_dascrubber| image:: https://quay.io/repository/biocontainers/dascrubber/status
    :target: https://quay.io/repository/biocontainers/dascrubber

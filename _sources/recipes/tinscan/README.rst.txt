@@ -46,6 +46,7 @@ tinscan
 
 
 .. |downloads_tinscan| image:: https://img.shields.io/conda/dn/bioconda/tinscan.svg?style=flat
+   :target: https://anaconda.org/bioconda/tinscan
    :alt:   (downloads)
 .. |docker_tinscan| image:: https://quay.io/repository/biocontainers/tinscan/status
    :target: https://quay.io/repository/biocontainers/tinscan

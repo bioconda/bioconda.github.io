@@ -48,6 +48,7 @@ tiptoft
 
 
 .. |downloads_tiptoft| image:: https://img.shields.io/conda/dn/bioconda/tiptoft.svg?style=flat
+   :target: https://anaconda.org/bioconda/tiptoft
    :alt:   (downloads)
 .. |docker_tiptoft| image:: https://quay.io/repository/biocontainers/tiptoft/status
    :target: https://quay.io/repository/biocontainers/tiptoft

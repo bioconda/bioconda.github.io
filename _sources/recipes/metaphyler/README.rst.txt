@@ -47,6 +47,7 @@ metaphyler
 
 
 .. |downloads_metaphyler| image:: https://img.shields.io/conda/dn/bioconda/metaphyler.svg?style=flat
+   :target: https://anaconda.org/bioconda/metaphyler
    :alt:   (downloads)
 .. |docker_metaphyler| image:: https://quay.io/repository/biocontainers/metaphyler/status
    :target: https://quay.io/repository/biocontainers/metaphyler

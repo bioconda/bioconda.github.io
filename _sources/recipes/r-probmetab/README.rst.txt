@@ -54,6 +54,7 @@ r-probmetab
 
 
 .. |downloads_r-probmetab| image:: https://img.shields.io/conda/dn/bioconda/r-probmetab.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-probmetab
    :alt:   (downloads)
 .. |docker_r-probmetab| image:: https://quay.io/repository/biocontainers/r-probmetab/status
    :target: https://quay.io/repository/biocontainers/r-probmetab

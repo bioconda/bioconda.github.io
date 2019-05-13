@@ -45,6 +45,7 @@ pb-dazzler
 
 
 .. |downloads_pb-dazzler| image:: https://img.shields.io/conda/dn/bioconda/pb-dazzler.svg?style=flat
+   :target: https://anaconda.org/bioconda/pb-dazzler
    :alt:   (downloads)
 .. |docker_pb-dazzler| image:: https://quay.io/repository/biocontainers/pb-dazzler/status
    :target: https://quay.io/repository/biocontainers/pb-dazzler

@@ -50,6 +50,7 @@ ucsc-bigwigtobedgraph
 
 
 .. |downloads_ucsc-bigwigtobedgraph| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bigwigtobedgraph.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bigwigtobedgraph
    :alt:   (downloads)
 .. |docker_ucsc-bigwigtobedgraph| image:: https://quay.io/repository/biocontainers/ucsc-bigwigtobedgraph/status
    :target: https://quay.io/repository/biocontainers/ucsc-bigwigtobedgraph

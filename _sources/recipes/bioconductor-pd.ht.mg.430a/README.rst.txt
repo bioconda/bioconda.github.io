@@ -53,6 +53,7 @@ bioconductor-pd.ht.mg.430a
 
 
 .. |downloads_bioconductor-pd.ht.mg.430a| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.ht.mg.430a.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.ht.mg.430a
    :alt:   (downloads)
 .. |docker_bioconductor-pd.ht.mg.430a| image:: https://quay.io/repository/biocontainers/bioconductor-pd.ht.mg.430a/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.ht.mg.430a

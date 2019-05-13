@@ -54,6 +54,7 @@ biomaj
 
 
 .. |downloads_biomaj| image:: https://img.shields.io/conda/dn/bioconda/biomaj.svg?style=flat
+   :target: https://anaconda.org/bioconda/biomaj
    :alt:   (downloads)
 .. |docker_biomaj| image:: https://quay.io/repository/biocontainers/biomaj/status
    :target: https://quay.io/repository/biocontainers/biomaj

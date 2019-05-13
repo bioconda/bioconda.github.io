@@ -54,6 +54,7 @@ ectyper
 
 
 .. |downloads_ectyper| image:: https://img.shields.io/conda/dn/bioconda/ectyper.svg?style=flat
+   :target: https://anaconda.org/bioconda/ectyper
    :alt:   (downloads)
 .. |docker_ectyper| image:: https://quay.io/repository/biocontainers/ectyper/status
    :target: https://quay.io/repository/biocontainers/ectyper

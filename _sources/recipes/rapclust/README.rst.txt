@@ -52,6 +52,7 @@ rapclust
 
 
 .. |downloads_rapclust| image:: https://img.shields.io/conda/dn/bioconda/rapclust.svg?style=flat
+   :target: https://anaconda.org/bioconda/rapclust
    :alt:   (downloads)
 .. |docker_rapclust| image:: https://quay.io/repository/biocontainers/rapclust/status
    :target: https://quay.io/repository/biocontainers/rapclust

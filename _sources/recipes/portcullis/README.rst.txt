@@ -52,6 +52,7 @@ portcullis
 
 
 .. |downloads_portcullis| image:: https://img.shields.io/conda/dn/bioconda/portcullis.svg?style=flat
+   :target: https://anaconda.org/bioconda/portcullis
    :alt:   (downloads)
 .. |docker_portcullis| image:: https://quay.io/repository/biocontainers/portcullis/status
    :target: https://quay.io/repository/biocontainers/portcullis

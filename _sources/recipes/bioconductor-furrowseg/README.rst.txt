@@ -51,6 +51,7 @@ bioconductor-furrowseg
 
 
 .. |downloads_bioconductor-furrowseg| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-furrowseg.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-furrowseg
    :alt:   (downloads)
 .. |docker_bioconductor-furrowseg| image:: https://quay.io/repository/biocontainers/bioconductor-furrowseg/status
    :target: https://quay.io/repository/biocontainers/bioconductor-furrowseg

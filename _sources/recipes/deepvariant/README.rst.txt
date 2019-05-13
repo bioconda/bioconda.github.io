@@ -65,6 +65,7 @@ deepvariant
 
 
 .. |downloads_deepvariant| image:: https://img.shields.io/conda/dn/bioconda/deepvariant.svg?style=flat
+   :target: https://anaconda.org/bioconda/deepvariant
    :alt:   (downloads)
 .. |docker_deepvariant| image:: https://quay.io/repository/biocontainers/deepvariant/status
    :target: https://quay.io/repository/biocontainers/deepvariant

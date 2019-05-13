@@ -45,6 +45,7 @@ pyasp
 
 
 .. |downloads_pyasp| image:: https://img.shields.io/conda/dn/bioconda/pyasp.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyasp
    :alt:   (downloads)
 .. |docker_pyasp| image:: https://quay.io/repository/biocontainers/pyasp/status
    :target: https://quay.io/repository/biocontainers/pyasp

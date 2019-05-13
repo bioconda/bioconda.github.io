@@ -69,6 +69,7 @@ coprarna
 
 
 .. |downloads_coprarna| image:: https://img.shields.io/conda/dn/bioconda/coprarna.svg?style=flat
+   :target: https://anaconda.org/bioconda/coprarna
    :alt:   (downloads)
 .. |docker_coprarna| image:: https://quay.io/repository/biocontainers/coprarna/status
    :target: https://quay.io/repository/biocontainers/coprarna

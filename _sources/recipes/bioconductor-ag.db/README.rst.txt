@@ -48,6 +48,7 @@ bioconductor-ag.db
 
 
 .. |downloads_bioconductor-ag.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ag.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ag.db
    :alt:   (downloads)
 .. |docker_bioconductor-ag.db| image:: https://quay.io/repository/biocontainers/bioconductor-ag.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ag.db

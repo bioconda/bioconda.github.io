@@ -58,6 +58,7 @@ r-genometricorr
 
 
 .. |downloads_r-genometricorr| image:: https://img.shields.io/conda/dn/bioconda/r-genometricorr.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-genometricorr
    :alt:   (downloads)
 .. |docker_r-genometricorr| image:: https://quay.io/repository/biocontainers/r-genometricorr/status
    :target: https://quay.io/repository/biocontainers/r-genometricorr

@@ -46,6 +46,7 @@ peakzilla
 
 
 .. |downloads_peakzilla| image:: https://img.shields.io/conda/dn/bioconda/peakzilla.svg?style=flat
+   :target: https://anaconda.org/bioconda/peakzilla
    :alt:   (downloads)
 .. |docker_peakzilla| image:: https://quay.io/repository/biocontainers/peakzilla/status
    :target: https://quay.io/repository/biocontainers/peakzilla

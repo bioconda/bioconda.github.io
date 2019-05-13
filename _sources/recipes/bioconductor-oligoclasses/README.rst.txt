@@ -59,6 +59,7 @@ bioconductor-oligoclasses
 
 
 .. |downloads_bioconductor-oligoclasses| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-oligoclasses.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-oligoclasses
    :alt:   (downloads)
 .. |docker_bioconductor-oligoclasses| image:: https://quay.io/repository/biocontainers/bioconductor-oligoclasses/status
    :target: https://quay.io/repository/biocontainers/bioconductor-oligoclasses

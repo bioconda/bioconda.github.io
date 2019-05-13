@@ -45,6 +45,7 @@ perl-sereal-decoder
 
 
 .. |downloads_perl-sereal-decoder| image:: https://img.shields.io/conda/dn/bioconda/perl-sereal-decoder.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-sereal-decoder
    :alt:   (downloads)
 .. |docker_perl-sereal-decoder| image:: https://quay.io/repository/biocontainers/perl-sereal-decoder/status
    :target: https://quay.io/repository/biocontainers/perl-sereal-decoder

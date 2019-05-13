@@ -45,6 +45,7 @@ maxquant
 
 
 .. |downloads_maxquant| image:: https://img.shields.io/conda/dn/bioconda/maxquant.svg?style=flat
+   :target: https://anaconda.org/bioconda/maxquant
    :alt:   (downloads)
 .. |docker_maxquant| image:: https://quay.io/repository/biocontainers/maxquant/status
    :target: https://quay.io/repository/biocontainers/maxquant

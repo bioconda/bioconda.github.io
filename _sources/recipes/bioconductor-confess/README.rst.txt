@@ -71,6 +71,7 @@ bioconductor-confess
 
 
 .. |downloads_bioconductor-confess| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-confess.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-confess
    :alt:   (downloads)
 .. |docker_bioconductor-confess| image:: https://quay.io/repository/biocontainers/bioconductor-confess/status
    :target: https://quay.io/repository/biocontainers/bioconductor-confess

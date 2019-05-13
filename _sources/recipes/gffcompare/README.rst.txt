@@ -47,6 +47,7 @@ gffcompare
 
 
 .. |downloads_gffcompare| image:: https://img.shields.io/conda/dn/bioconda/gffcompare.svg?style=flat
+   :target: https://anaconda.org/bioconda/gffcompare
    :alt:   (downloads)
 .. |docker_gffcompare| image:: https://quay.io/repository/biocontainers/gffcompare/status
    :target: https://quay.io/repository/biocontainers/gffcompare

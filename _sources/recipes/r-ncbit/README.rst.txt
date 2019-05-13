@@ -45,6 +45,7 @@ r-ncbit
 
 
 .. |downloads_r-ncbit| image:: https://img.shields.io/conda/dn/bioconda/r-ncbit.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-ncbit
    :alt:   (downloads)
 .. |docker_r-ncbit| image:: https://quay.io/repository/biocontainers/r-ncbit/status
    :target: https://quay.io/repository/biocontainers/r-ncbit

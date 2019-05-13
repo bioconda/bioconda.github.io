@@ -46,6 +46,7 @@ xopen
 
 
 .. |downloads_xopen| image:: https://img.shields.io/conda/dn/bioconda/xopen.svg?style=flat
+   :target: https://anaconda.org/bioconda/xopen
    :alt:   (downloads)
 .. |docker_xopen| image:: https://quay.io/repository/biocontainers/xopen/status
    :target: https://quay.io/repository/biocontainers/xopen

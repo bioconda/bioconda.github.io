@@ -44,6 +44,7 @@ extract_fullseq
 
 
 .. |downloads_extract_fullseq| image:: https://img.shields.io/conda/dn/bioconda/extract_fullseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/extract_fullseq
    :alt:   (downloads)
 .. |docker_extract_fullseq| image:: https://quay.io/repository/biocontainers/extract_fullseq/status
    :target: https://quay.io/repository/biocontainers/extract_fullseq

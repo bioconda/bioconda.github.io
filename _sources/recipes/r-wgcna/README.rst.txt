@@ -61,6 +61,7 @@ r-wgcna
 
 
 .. |downloads_r-wgcna| image:: https://img.shields.io/conda/dn/bioconda/r-wgcna.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-wgcna
    :alt:   (downloads)
 .. |docker_r-wgcna| image:: https://quay.io/repository/biocontainers/r-wgcna/status
    :target: https://quay.io/repository/biocontainers/r-wgcna

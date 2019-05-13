@@ -49,6 +49,7 @@ svdb
 
 
 .. |downloads_svdb| image:: https://img.shields.io/conda/dn/bioconda/svdb.svg?style=flat
+   :target: https://anaconda.org/bioconda/svdb
    :alt:   (downloads)
 .. |docker_svdb| image:: https://quay.io/repository/biocontainers/svdb/status
    :target: https://quay.io/repository/biocontainers/svdb

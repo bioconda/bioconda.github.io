@@ -52,6 +52,7 @@ cwltest
 
 
 .. |downloads_cwltest| image:: https://img.shields.io/conda/dn/bioconda/cwltest.svg?style=flat
+   :target: https://anaconda.org/bioconda/cwltest
    :alt:   (downloads)
 .. |docker_cwltest| image:: https://quay.io/repository/biocontainers/cwltest/status
    :target: https://quay.io/repository/biocontainers/cwltest

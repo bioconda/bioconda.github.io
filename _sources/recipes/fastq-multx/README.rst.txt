@@ -45,6 +45,7 @@ fastq-multx
 
 
 .. |downloads_fastq-multx| image:: https://img.shields.io/conda/dn/bioconda/fastq-multx.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastq-multx
    :alt:   (downloads)
 .. |docker_fastq-multx| image:: https://quay.io/repository/biocontainers/fastq-multx/status
    :target: https://quay.io/repository/biocontainers/fastq-multx

@@ -50,6 +50,7 @@ ucsc-mktime
 
 
 .. |downloads_ucsc-mktime| image:: https://img.shields.io/conda/dn/bioconda/ucsc-mktime.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-mktime
    :alt:   (downloads)
 .. |docker_ucsc-mktime| image:: https://quay.io/repository/biocontainers/ucsc-mktime/status
    :target: https://quay.io/repository/biocontainers/ucsc-mktime

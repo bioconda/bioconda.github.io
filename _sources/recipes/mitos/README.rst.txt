@@ -56,6 +56,7 @@ mitos
 
 
 .. |downloads_mitos| image:: https://img.shields.io/conda/dn/bioconda/mitos.svg?style=flat
+   :target: https://anaconda.org/bioconda/mitos
    :alt:   (downloads)
 .. |docker_mitos| image:: https://quay.io/repository/biocontainers/mitos/status
    :target: https://quay.io/repository/biocontainers/mitos

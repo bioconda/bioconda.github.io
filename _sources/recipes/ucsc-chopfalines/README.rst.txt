@@ -50,6 +50,7 @@ ucsc-chopfalines
 
 
 .. |downloads_ucsc-chopfalines| image:: https://img.shields.io/conda/dn/bioconda/ucsc-chopfalines.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-chopfalines
    :alt:   (downloads)
 .. |docker_ucsc-chopfalines| image:: https://quay.io/repository/biocontainers/ucsc-chopfalines/status
    :target: https://quay.io/repository/biocontainers/ucsc-chopfalines

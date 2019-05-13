@@ -47,6 +47,7 @@ perl-par-dist
 
 
 .. |downloads_perl-par-dist| image:: https://img.shields.io/conda/dn/bioconda/perl-par-dist.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-par-dist
    :alt:   (downloads)
 .. |docker_perl-par-dist| image:: https://quay.io/repository/biocontainers/perl-par-dist/status
    :target: https://quay.io/repository/biocontainers/perl-par-dist

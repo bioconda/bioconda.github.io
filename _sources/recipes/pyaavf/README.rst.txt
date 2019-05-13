@@ -45,6 +45,7 @@ pyaavf
 
 
 .. |downloads_pyaavf| image:: https://img.shields.io/conda/dn/bioconda/pyaavf.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyaavf
    :alt:   (downloads)
 .. |docker_pyaavf| image:: https://quay.io/repository/biocontainers/pyaavf/status
    :target: https://quay.io/repository/biocontainers/pyaavf

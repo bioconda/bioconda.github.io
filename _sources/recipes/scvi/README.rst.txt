@@ -65,6 +65,7 @@ scvi
 
 
 .. |downloads_scvi| image:: https://img.shields.io/conda/dn/bioconda/scvi.svg?style=flat
+   :target: https://anaconda.org/bioconda/scvi
    :alt:   (downloads)
 .. |docker_scvi| image:: https://quay.io/repository/biocontainers/scvi/status
    :target: https://quay.io/repository/biocontainers/scvi

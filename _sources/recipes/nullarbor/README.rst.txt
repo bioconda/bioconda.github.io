@@ -77,6 +77,7 @@ nullarbor
 
 
 .. |downloads_nullarbor| image:: https://img.shields.io/conda/dn/bioconda/nullarbor.svg?style=flat
+   :target: https://anaconda.org/bioconda/nullarbor
    :alt:   (downloads)
 .. |docker_nullarbor| image:: https://quay.io/repository/biocontainers/nullarbor/status
    :target: https://quay.io/repository/biocontainers/nullarbor

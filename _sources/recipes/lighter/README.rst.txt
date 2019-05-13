@@ -48,6 +48,7 @@ lighter
 
 
 .. |downloads_lighter| image:: https://img.shields.io/conda/dn/bioconda/lighter.svg?style=flat
+   :target: https://anaconda.org/bioconda/lighter
    :alt:   (downloads)
 .. |docker_lighter| image:: https://quay.io/repository/biocontainers/lighter/status
    :target: https://quay.io/repository/biocontainers/lighter

@@ -56,6 +56,7 @@ dxpy
 
 
 .. |downloads_dxpy| image:: https://img.shields.io/conda/dn/bioconda/dxpy.svg?style=flat
+   :target: https://anaconda.org/bioconda/dxpy
    :alt:   (downloads)
 .. |docker_dxpy| image:: https://quay.io/repository/biocontainers/dxpy/status
    :target: https://quay.io/repository/biocontainers/dxpy

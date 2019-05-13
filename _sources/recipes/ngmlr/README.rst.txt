@@ -47,6 +47,7 @@ ngmlr
 
 
 .. |downloads_ngmlr| image:: https://img.shields.io/conda/dn/bioconda/ngmlr.svg?style=flat
+   :target: https://anaconda.org/bioconda/ngmlr
    :alt:   (downloads)
 .. |docker_ngmlr| image:: https://quay.io/repository/biocontainers/ngmlr/status
    :target: https://quay.io/repository/biocontainers/ngmlr

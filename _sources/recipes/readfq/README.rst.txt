@@ -46,6 +46,7 @@ readfq
 
 
 .. |downloads_readfq| image:: https://img.shields.io/conda/dn/bioconda/readfq.svg?style=flat
+   :target: https://anaconda.org/bioconda/readfq
    :alt:   (downloads)
 .. |docker_readfq| image:: https://quay.io/repository/biocontainers/readfq/status
    :target: https://quay.io/repository/biocontainers/readfq

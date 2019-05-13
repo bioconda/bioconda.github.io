@@ -61,6 +61,7 @@ prestor
 
 
 .. |downloads_prestor| image:: https://img.shields.io/conda/dn/bioconda/prestor.svg?style=flat
+   :target: https://anaconda.org/bioconda/prestor
    :alt:   (downloads)
 .. |docker_prestor| image:: https://quay.io/repository/biocontainers/prestor/status
    :target: https://quay.io/repository/biocontainers/prestor

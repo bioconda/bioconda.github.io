@@ -74,6 +74,7 @@ bioconductor-tcgabiolinksgui
 
 
 .. |downloads_bioconductor-tcgabiolinksgui| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tcgabiolinksgui.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tcgabiolinksgui
    :alt:   (downloads)
 .. |docker_bioconductor-tcgabiolinksgui| image:: https://quay.io/repository/biocontainers/bioconductor-tcgabiolinksgui/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tcgabiolinksgui

@@ -52,6 +52,7 @@ garnet
 
 
 .. |downloads_garnet| image:: https://img.shields.io/conda/dn/bioconda/garnet.svg?style=flat
+   :target: https://anaconda.org/bioconda/garnet
    :alt:   (downloads)
 .. |docker_garnet| image:: https://quay.io/repository/biocontainers/garnet/status
    :target: https://quay.io/repository/biocontainers/garnet

@@ -47,6 +47,7 @@ bioconductor-bronchialil13
 
 
 .. |downloads_bioconductor-bronchialil13| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bronchialil13.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bronchialil13
    :alt:   (downloads)
 .. |docker_bioconductor-bronchialil13| image:: https://quay.io/repository/biocontainers/bioconductor-bronchialil13/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bronchialil13

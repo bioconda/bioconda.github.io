@@ -68,6 +68,7 @@ bioconductor-opencyto
 
 
 .. |downloads_bioconductor-opencyto| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-opencyto.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-opencyto
    :alt:   (downloads)
 .. |docker_bioconductor-opencyto| image:: https://quay.io/repository/biocontainers/bioconductor-opencyto/status
    :target: https://quay.io/repository/biocontainers/bioconductor-opencyto

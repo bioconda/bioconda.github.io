@@ -51,6 +51,7 @@ bioconductor-metagxbreast
 
 
 .. |downloads_bioconductor-metagxbreast| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metagxbreast.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-metagxbreast
    :alt:   (downloads)
 .. |docker_bioconductor-metagxbreast| image:: https://quay.io/repository/biocontainers/bioconductor-metagxbreast/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metagxbreast

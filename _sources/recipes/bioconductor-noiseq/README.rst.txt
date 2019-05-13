@@ -48,6 +48,7 @@ bioconductor-noiseq
 
 
 .. |downloads_bioconductor-noiseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-noiseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-noiseq
    :alt:   (downloads)
 .. |docker_bioconductor-noiseq| image:: https://quay.io/repository/biocontainers/bioconductor-noiseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-noiseq

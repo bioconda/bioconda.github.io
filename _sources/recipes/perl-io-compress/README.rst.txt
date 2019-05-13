@@ -50,6 +50,7 @@ perl-io-compress
 
 
 .. |downloads_perl-io-compress| image:: https://img.shields.io/conda/dn/bioconda/perl-io-compress.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-io-compress
    :alt:   (downloads)
 .. |docker_perl-io-compress| image:: https://quay.io/repository/biocontainers/perl-io-compress/status
    :target: https://quay.io/repository/biocontainers/perl-io-compress

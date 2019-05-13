@@ -50,6 +50,7 @@ ucsc-pslpairs
 
 
 .. |downloads_ucsc-pslpairs| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslpairs.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-pslpairs
    :alt:   (downloads)
 .. |docker_ucsc-pslpairs| image:: https://quay.io/repository/biocontainers/ucsc-pslpairs/status
    :target: https://quay.io/repository/biocontainers/ucsc-pslpairs

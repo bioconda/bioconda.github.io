@@ -50,6 +50,7 @@ mmseqs2
 
 
 .. |downloads_mmseqs2| image:: https://img.shields.io/conda/dn/bioconda/mmseqs2.svg?style=flat
+   :target: https://anaconda.org/bioconda/mmseqs2
    :alt:   (downloads)
 .. |docker_mmseqs2| image:: https://quay.io/repository/biocontainers/mmseqs2/status
    :target: https://quay.io/repository/biocontainers/mmseqs2

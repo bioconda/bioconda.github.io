@@ -47,6 +47,7 @@ bioconductor-prostatecancertaylor
 
 
 .. |downloads_bioconductor-prostatecancertaylor| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-prostatecancertaylor.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-prostatecancertaylor
    :alt:   (downloads)
 .. |docker_bioconductor-prostatecancertaylor| image:: https://quay.io/repository/biocontainers/bioconductor-prostatecancertaylor/status
    :target: https://quay.io/repository/biocontainers/bioconductor-prostatecancertaylor

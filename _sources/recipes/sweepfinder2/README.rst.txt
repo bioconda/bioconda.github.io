@@ -45,6 +45,7 @@ sweepfinder2
 
 
 .. |downloads_sweepfinder2| image:: https://img.shields.io/conda/dn/bioconda/sweepfinder2.svg?style=flat
+   :target: https://anaconda.org/bioconda/sweepfinder2
    :alt:   (downloads)
 .. |docker_sweepfinder2| image:: https://quay.io/repository/biocontainers/sweepfinder2/status
    :target: https://quay.io/repository/biocontainers/sweepfinder2

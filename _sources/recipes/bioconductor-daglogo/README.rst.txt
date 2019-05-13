@@ -50,6 +50,7 @@ bioconductor-daglogo
 
 
 .. |downloads_bioconductor-daglogo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-daglogo.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-daglogo
    :alt:   (downloads)
 .. |docker_bioconductor-daglogo| image:: https://quay.io/repository/biocontainers/bioconductor-daglogo/status
    :target: https://quay.io/repository/biocontainers/bioconductor-daglogo

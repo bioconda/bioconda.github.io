@@ -50,6 +50,7 @@ bioconductor-basicstarrseq
 
 
 .. |downloads_bioconductor-basicstarrseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-basicstarrseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-basicstarrseq
    :alt:   (downloads)
 .. |docker_bioconductor-basicstarrseq| image:: https://quay.io/repository/biocontainers/bioconductor-basicstarrseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-basicstarrseq

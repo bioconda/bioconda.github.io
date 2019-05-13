@@ -45,6 +45,7 @@ perl-io-interactive
 
 
 .. |downloads_perl-io-interactive| image:: https://img.shields.io/conda/dn/bioconda/perl-io-interactive.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-io-interactive
    :alt:   (downloads)
 .. |docker_perl-io-interactive| image:: https://quay.io/repository/biocontainers/perl-io-interactive/status
    :target: https://quay.io/repository/biocontainers/perl-io-interactive

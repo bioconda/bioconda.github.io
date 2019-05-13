@@ -46,6 +46,7 @@ bioconductor-hivcdnavantwout03
 
 
 .. |downloads_bioconductor-hivcdnavantwout03| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hivcdnavantwout03.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hivcdnavantwout03
    :alt:   (downloads)
 .. |docker_bioconductor-hivcdnavantwout03| image:: https://quay.io/repository/biocontainers/bioconductor-hivcdnavantwout03/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hivcdnavantwout03

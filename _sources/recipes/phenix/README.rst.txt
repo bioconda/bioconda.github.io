@@ -62,6 +62,7 @@ phenix
 
 
 .. |downloads_phenix| image:: https://img.shields.io/conda/dn/bioconda/phenix.svg?style=flat
+   :target: https://anaconda.org/bioconda/phenix
    :alt:   (downloads)
 .. |docker_phenix| image:: https://quay.io/repository/biocontainers/phenix/status
    :target: https://quay.io/repository/biocontainers/phenix

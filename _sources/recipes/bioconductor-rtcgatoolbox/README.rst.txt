@@ -63,6 +63,7 @@ bioconductor-rtcgatoolbox
 
 
 .. |downloads_bioconductor-rtcgatoolbox| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtcgatoolbox.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rtcgatoolbox
    :alt:   (downloads)
 .. |docker_bioconductor-rtcgatoolbox| image:: https://quay.io/repository/biocontainers/bioconductor-rtcgatoolbox/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtcgatoolbox

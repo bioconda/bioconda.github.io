@@ -51,6 +51,7 @@ bioconductor-nondetects
 
 
 .. |downloads_bioconductor-nondetects| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-nondetects.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-nondetects
    :alt:   (downloads)
 .. |docker_bioconductor-nondetects| image:: https://quay.io/repository/biocontainers/bioconductor-nondetects/status
    :target: https://quay.io/repository/biocontainers/bioconductor-nondetects

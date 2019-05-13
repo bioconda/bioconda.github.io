@@ -50,6 +50,7 @@ bioconductor-frmatools
 
 
 .. |downloads_bioconductor-frmatools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-frmatools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-frmatools
    :alt:   (downloads)
 .. |docker_bioconductor-frmatools| image:: https://quay.io/repository/biocontainers/bioconductor-frmatools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-frmatools

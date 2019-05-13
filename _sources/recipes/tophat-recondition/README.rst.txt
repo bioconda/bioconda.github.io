@@ -46,6 +46,7 @@ tophat-recondition
 
 
 .. |downloads_tophat-recondition| image:: https://img.shields.io/conda/dn/bioconda/tophat-recondition.svg?style=flat
+   :target: https://anaconda.org/bioconda/tophat-recondition
    :alt:   (downloads)
 .. |docker_tophat-recondition| image:: https://quay.io/repository/biocontainers/tophat-recondition/status
    :target: https://quay.io/repository/biocontainers/tophat-recondition

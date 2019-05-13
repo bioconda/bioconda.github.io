@@ -55,6 +55,7 @@ bioconductor-rgsepd
 
 
 .. |downloads_bioconductor-rgsepd| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rgsepd.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rgsepd
    :alt:   (downloads)
 .. |docker_bioconductor-rgsepd| image:: https://quay.io/repository/biocontainers/bioconductor-rgsepd/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rgsepd

@@ -55,6 +55,7 @@ wgs-assembler
 
 
 .. |downloads_wgs-assembler| image:: https://img.shields.io/conda/dn/bioconda/wgs-assembler.svg?style=flat
+   :target: https://anaconda.org/bioconda/wgs-assembler
    :alt:   (downloads)
 .. |docker_wgs-assembler| image:: https://quay.io/repository/biocontainers/wgs-assembler/status
    :target: https://quay.io/repository/biocontainers/wgs-assembler

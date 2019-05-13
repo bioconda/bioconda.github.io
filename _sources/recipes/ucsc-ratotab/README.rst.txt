@@ -50,6 +50,7 @@ ucsc-ratotab
 
 
 .. |downloads_ucsc-ratotab| image:: https://img.shields.io/conda/dn/bioconda/ucsc-ratotab.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-ratotab
    :alt:   (downloads)
 .. |docker_ucsc-ratotab| image:: https://quay.io/repository/biocontainers/ucsc-ratotab/status
    :target: https://quay.io/repository/biocontainers/ucsc-ratotab

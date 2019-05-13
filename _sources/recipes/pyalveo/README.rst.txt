@@ -48,6 +48,7 @@ pyalveo
 
 
 .. |downloads_pyalveo| image:: https://img.shields.io/conda/dn/bioconda/pyalveo.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyalveo
    :alt:   (downloads)
 .. |docker_pyalveo| image:: https://quay.io/repository/biocontainers/pyalveo/status
    :target: https://quay.io/repository/biocontainers/pyalveo

@@ -52,6 +52,7 @@ bioconductor-anota2seq
 
 
 .. |downloads_bioconductor-anota2seq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-anota2seq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-anota2seq
    :alt:   (downloads)
 .. |docker_bioconductor-anota2seq| image:: https://quay.io/repository/biocontainers/bioconductor-anota2seq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-anota2seq

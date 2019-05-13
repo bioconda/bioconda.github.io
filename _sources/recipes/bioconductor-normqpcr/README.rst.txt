@@ -49,6 +49,7 @@ bioconductor-normqpcr
 
 
 .. |downloads_bioconductor-normqpcr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-normqpcr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-normqpcr
    :alt:   (downloads)
 .. |docker_bioconductor-normqpcr| image:: https://quay.io/repository/biocontainers/bioconductor-normqpcr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-normqpcr

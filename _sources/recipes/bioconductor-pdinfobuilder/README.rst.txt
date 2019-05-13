@@ -57,6 +57,7 @@ bioconductor-pdinfobuilder
 
 
 .. |downloads_bioconductor-pdinfobuilder| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pdinfobuilder.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pdinfobuilder
    :alt:   (downloads)
 .. |docker_bioconductor-pdinfobuilder| image:: https://quay.io/repository/biocontainers/bioconductor-pdinfobuilder/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pdinfobuilder

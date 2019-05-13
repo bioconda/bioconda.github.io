@@ -47,6 +47,7 @@ bioconductor-affyrnadegradation
 
 
 .. |downloads_bioconductor-affyrnadegradation| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affyrnadegradation.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-affyrnadegradation
    :alt:   (downloads)
 .. |docker_bioconductor-affyrnadegradation| image:: https://quay.io/repository/biocontainers/bioconductor-affyrnadegradation/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affyrnadegradation

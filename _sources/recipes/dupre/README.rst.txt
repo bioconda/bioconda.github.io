@@ -50,6 +50,7 @@ dupre
 
 
 .. |downloads_dupre| image:: https://img.shields.io/conda/dn/bioconda/dupre.svg?style=flat
+   :target: https://anaconda.org/bioconda/dupre
    :alt:   (downloads)
 .. |docker_dupre| image:: https://quay.io/repository/biocontainers/dupre/status
    :target: https://quay.io/repository/biocontainers/dupre

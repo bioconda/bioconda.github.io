@@ -53,6 +53,7 @@ perl-class-load
 
 
 .. |downloads_perl-class-load| image:: https://img.shields.io/conda/dn/bioconda/perl-class-load.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-class-load
    :alt:   (downloads)
 .. |docker_perl-class-load| image:: https://quay.io/repository/biocontainers/perl-class-load/status
    :target: https://quay.io/repository/biocontainers/perl-class-load

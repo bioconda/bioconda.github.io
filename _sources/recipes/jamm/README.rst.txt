@@ -48,6 +48,7 @@ jamm
 
 
 .. |downloads_jamm| image:: https://img.shields.io/conda/dn/bioconda/jamm.svg?style=flat
+   :target: https://anaconda.org/bioconda/jamm
    :alt:   (downloads)
 .. |docker_jamm| image:: https://quay.io/repository/biocontainers/jamm/status
    :target: https://quay.io/repository/biocontainers/jamm

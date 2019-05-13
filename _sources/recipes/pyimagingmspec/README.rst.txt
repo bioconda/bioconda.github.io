@@ -45,6 +45,7 @@ pyimagingmspec
 
 
 .. |downloads_pyimagingmspec| image:: https://img.shields.io/conda/dn/bioconda/pyimagingmspec.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyimagingmspec
    :alt:   (downloads)
 .. |docker_pyimagingmspec| image:: https://quay.io/repository/biocontainers/pyimagingmspec/status
    :target: https://quay.io/repository/biocontainers/pyimagingmspec

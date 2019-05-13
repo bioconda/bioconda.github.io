@@ -53,6 +53,7 @@ bioconductor-flowploidy
 
 
 .. |downloads_bioconductor-flowploidy| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowploidy.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowploidy
    :alt:   (downloads)
 .. |docker_bioconductor-flowploidy| image:: https://quay.io/repository/biocontainers/bioconductor-flowploidy/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowploidy

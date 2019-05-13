@@ -48,6 +48,7 @@ w4mclstrpeakpics
 
 
 .. |downloads_w4mclstrpeakpics| image:: https://img.shields.io/conda/dn/bioconda/w4mclstrpeakpics.svg?style=flat
+   :target: https://anaconda.org/bioconda/w4mclstrpeakpics
    :alt:   (downloads)
 .. |docker_w4mclstrpeakpics| image:: https://quay.io/repository/biocontainers/w4mclstrpeakpics/status
    :target: https://quay.io/repository/biocontainers/w4mclstrpeakpics

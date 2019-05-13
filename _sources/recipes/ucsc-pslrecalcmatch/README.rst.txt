@@ -50,6 +50,7 @@ ucsc-pslrecalcmatch
 
 
 .. |downloads_ucsc-pslrecalcmatch| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslrecalcmatch.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-pslrecalcmatch
    :alt:   (downloads)
 .. |docker_ucsc-pslrecalcmatch| image:: https://quay.io/repository/biocontainers/ucsc-pslrecalcmatch/status
    :target: https://quay.io/repository/biocontainers/ucsc-pslrecalcmatch

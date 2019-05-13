@@ -49,6 +49,7 @@ cocoscore
 
 
 .. |downloads_cocoscore| image:: https://img.shields.io/conda/dn/bioconda/cocoscore.svg?style=flat
+   :target: https://anaconda.org/bioconda/cocoscore
    :alt:   (downloads)
 .. |docker_cocoscore| image:: https://quay.io/repository/biocontainers/cocoscore/status
    :target: https://quay.io/repository/biocontainers/cocoscore

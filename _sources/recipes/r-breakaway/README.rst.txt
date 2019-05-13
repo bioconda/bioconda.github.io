@@ -45,6 +45,7 @@ r-breakaway
 
 
 .. |downloads_r-breakaway| image:: https://img.shields.io/conda/dn/bioconda/r-breakaway.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-breakaway
    :alt:   (downloads)
 .. |docker_r-breakaway| image:: https://quay.io/repository/biocontainers/r-breakaway/status
    :target: https://quay.io/repository/biocontainers/r-breakaway

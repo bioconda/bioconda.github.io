@@ -45,6 +45,7 @@ perl-sub-quote
 
 
 .. |downloads_perl-sub-quote| image:: https://img.shields.io/conda/dn/bioconda/perl-sub-quote.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-sub-quote
    :alt:   (downloads)
 .. |docker_perl-sub-quote| image:: https://quay.io/repository/biocontainers/perl-sub-quote/status
    :target: https://quay.io/repository/biocontainers/perl-sub-quote

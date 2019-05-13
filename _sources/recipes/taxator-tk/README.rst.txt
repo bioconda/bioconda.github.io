@@ -45,6 +45,7 @@ taxator-tk
 
 
 .. |downloads_taxator-tk| image:: https://img.shields.io/conda/dn/bioconda/taxator-tk.svg?style=flat
+   :target: https://anaconda.org/bioconda/taxator-tk
    :alt:   (downloads)
 .. |docker_taxator-tk| image:: https://quay.io/repository/biocontainers/taxator-tk/status
    :target: https://quay.io/repository/biocontainers/taxator-tk

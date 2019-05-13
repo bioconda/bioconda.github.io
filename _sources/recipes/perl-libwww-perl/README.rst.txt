@@ -62,6 +62,7 @@ perl-libwww-perl
 
 
 .. |downloads_perl-libwww-perl| image:: https://img.shields.io/conda/dn/bioconda/perl-libwww-perl.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-libwww-perl
    :alt:   (downloads)
 .. |docker_perl-libwww-perl| image:: https://quay.io/repository/biocontainers/perl-libwww-perl/status
    :target: https://quay.io/repository/biocontainers/perl-libwww-perl

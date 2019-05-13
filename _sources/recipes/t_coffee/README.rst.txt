@@ -51,6 +51,7 @@ t_coffee
 
 
 .. |downloads_t_coffee| image:: https://img.shields.io/conda/dn/bioconda/t_coffee.svg?style=flat
+   :target: https://anaconda.org/bioconda/t_coffee
    :alt:   (downloads)
 .. |docker_t_coffee| image:: https://quay.io/repository/biocontainers/t_coffee/status
    :target: https://quay.io/repository/biocontainers/t_coffee

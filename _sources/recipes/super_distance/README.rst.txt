@@ -47,6 +47,7 @@ super_distance
 
 
 .. |downloads_super_distance| image:: https://img.shields.io/conda/dn/bioconda/super_distance.svg?style=flat
+   :target: https://anaconda.org/bioconda/super_distance
    :alt:   (downloads)
 .. |docker_super_distance| image:: https://quay.io/repository/biocontainers/super_distance/status
    :target: https://quay.io/repository/biocontainers/super_distance

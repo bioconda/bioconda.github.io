@@ -50,6 +50,7 @@ bioconductor-liquidassociation
 
 
 .. |downloads_bioconductor-liquidassociation| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-liquidassociation.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-liquidassociation
    :alt:   (downloads)
 .. |docker_bioconductor-liquidassociation| image:: https://quay.io/repository/biocontainers/bioconductor-liquidassociation/status
    :target: https://quay.io/repository/biocontainers/bioconductor-liquidassociation

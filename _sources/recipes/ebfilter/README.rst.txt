@@ -49,6 +49,7 @@ ebfilter
 
 
 .. |downloads_ebfilter| image:: https://img.shields.io/conda/dn/bioconda/ebfilter.svg?style=flat
+   :target: https://anaconda.org/bioconda/ebfilter
    :alt:   (downloads)
 .. |docker_ebfilter| image:: https://quay.io/repository/biocontainers/ebfilter/status
    :target: https://quay.io/repository/biocontainers/ebfilter

@@ -51,6 +51,7 @@ bioconductor-cordon
 
 
 .. |downloads_bioconductor-cordon| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cordon.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cordon
    :alt:   (downloads)
 .. |docker_bioconductor-cordon| image:: https://quay.io/repository/biocontainers/bioconductor-cordon/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cordon

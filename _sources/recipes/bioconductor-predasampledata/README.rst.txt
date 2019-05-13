@@ -50,6 +50,7 @@ bioconductor-predasampledata
 
 
 .. |downloads_bioconductor-predasampledata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-predasampledata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-predasampledata
    :alt:   (downloads)
 .. |docker_bioconductor-predasampledata| image:: https://quay.io/repository/biocontainers/bioconductor-predasampledata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-predasampledata

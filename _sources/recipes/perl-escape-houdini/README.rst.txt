@@ -48,6 +48,7 @@ perl-escape-houdini
 
 
 .. |downloads_perl-escape-houdini| image:: https://img.shields.io/conda/dn/bioconda/perl-escape-houdini.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-escape-houdini
    :alt:   (downloads)
 .. |docker_perl-escape-houdini| image:: https://quay.io/repository/biocontainers/perl-escape-houdini/status
    :target: https://quay.io/repository/biocontainers/perl-escape-houdini

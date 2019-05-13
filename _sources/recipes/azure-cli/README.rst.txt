@@ -45,6 +45,7 @@ azure-cli
 
 
 .. |downloads_azure-cli| image:: https://img.shields.io/conda/dn/bioconda/azure-cli.svg?style=flat
+   :target: https://anaconda.org/bioconda/azure-cli
    :alt:   (downloads)
 .. |docker_azure-cli| image:: https://quay.io/repository/biocontainers/azure-cli/status
    :target: https://quay.io/repository/biocontainers/azure-cli

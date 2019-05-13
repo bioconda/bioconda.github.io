@@ -51,6 +51,7 @@ bioconductor-tcc
 
 
 .. |downloads_bioconductor-tcc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tcc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tcc
    :alt:   (downloads)
 .. |docker_bioconductor-tcc| image:: https://quay.io/repository/biocontainers/bioconductor-tcc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tcc

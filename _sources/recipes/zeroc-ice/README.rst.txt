@@ -48,6 +48,7 @@ zeroc-ice
 
 
 .. |downloads_zeroc-ice| image:: https://img.shields.io/conda/dn/bioconda/zeroc-ice.svg?style=flat
+   :target: https://anaconda.org/bioconda/zeroc-ice
    :alt:   (downloads)
 .. |docker_zeroc-ice| image:: https://quay.io/repository/biocontainers/zeroc-ice/status
    :target: https://quay.io/repository/biocontainers/zeroc-ice

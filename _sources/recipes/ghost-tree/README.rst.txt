@@ -54,6 +54,7 @@ ghost-tree
 
 
 .. |downloads_ghost-tree| image:: https://img.shields.io/conda/dn/bioconda/ghost-tree.svg?style=flat
+   :target: https://anaconda.org/bioconda/ghost-tree
    :alt:   (downloads)
 .. |docker_ghost-tree| image:: https://quay.io/repository/biocontainers/ghost-tree/status
    :target: https://quay.io/repository/biocontainers/ghost-tree

@@ -60,6 +60,7 @@ r-stitch
 
 
 .. |downloads_r-stitch| image:: https://img.shields.io/conda/dn/bioconda/r-stitch.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-stitch
    :alt:   (downloads)
 .. |docker_r-stitch| image:: https://quay.io/repository/biocontainers/r-stitch/status
    :target: https://quay.io/repository/biocontainers/r-stitch

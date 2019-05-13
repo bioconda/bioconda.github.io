@@ -51,6 +51,7 @@ fwdpy11
 
 
 .. |downloads_fwdpy11| image:: https://img.shields.io/conda/dn/bioconda/fwdpy11.svg?style=flat
+   :target: https://anaconda.org/bioconda/fwdpy11
    :alt:   (downloads)
 .. |docker_fwdpy11| image:: https://quay.io/repository/biocontainers/fwdpy11/status
    :target: https://quay.io/repository/biocontainers/fwdpy11

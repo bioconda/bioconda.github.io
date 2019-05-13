@@ -45,6 +45,7 @@ bioconductor-widgettools
 
 
 .. |downloads_bioconductor-widgettools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-widgettools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-widgettools
    :alt:   (downloads)
 .. |docker_bioconductor-widgettools| image:: https://quay.io/repository/biocontainers/bioconductor-widgettools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-widgettools

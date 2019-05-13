@@ -47,6 +47,7 @@ bioconductor-bsgenome.dmelanogaster.ucsc.dm6
 
 
 .. |downloads_bioconductor-bsgenome.dmelanogaster.ucsc.dm6| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.dmelanogaster.ucsc.dm6.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome.dmelanogaster.ucsc.dm6
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.dmelanogaster.ucsc.dm6| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.dmelanogaster.ucsc.dm6/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.dmelanogaster.ucsc.dm6

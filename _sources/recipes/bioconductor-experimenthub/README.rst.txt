@@ -50,6 +50,7 @@ bioconductor-experimenthub
 
 
 .. |downloads_bioconductor-experimenthub| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-experimenthub.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-experimenthub
    :alt:   (downloads)
 .. |docker_bioconductor-experimenthub| image:: https://quay.io/repository/biocontainers/bioconductor-experimenthub/status
    :target: https://quay.io/repository/biocontainers/bioconductor-experimenthub

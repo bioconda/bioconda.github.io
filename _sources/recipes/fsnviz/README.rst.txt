@@ -49,6 +49,7 @@ fsnviz
 
 
 .. |downloads_fsnviz| image:: https://img.shields.io/conda/dn/bioconda/fsnviz.svg?style=flat
+   :target: https://anaconda.org/bioconda/fsnviz
    :alt:   (downloads)
 .. |docker_fsnviz| image:: https://quay.io/repository/biocontainers/fsnviz/status
    :target: https://quay.io/repository/biocontainers/fsnviz

@@ -45,6 +45,7 @@ perl-scalar-list-utils
 
 
 .. |downloads_perl-scalar-list-utils| image:: https://img.shields.io/conda/dn/bioconda/perl-scalar-list-utils.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-scalar-list-utils
    :alt:   (downloads)
 .. |docker_perl-scalar-list-utils| image:: https://quay.io/repository/biocontainers/perl-scalar-list-utils/status
    :target: https://quay.io/repository/biocontainers/perl-scalar-list-utils

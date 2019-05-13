@@ -53,6 +53,7 @@ bioconductor-ccmap
 
 
 .. |downloads_bioconductor-ccmap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ccmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ccmap
    :alt:   (downloads)
 .. |docker_bioconductor-ccmap| image:: https://quay.io/repository/biocontainers/bioconductor-ccmap/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ccmap

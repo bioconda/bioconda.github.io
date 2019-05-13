@@ -54,6 +54,7 @@ bioconductor-expressionview
 
 
 .. |downloads_bioconductor-expressionview| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-expressionview.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-expressionview
    :alt:   (downloads)
 .. |docker_bioconductor-expressionview| image:: https://quay.io/repository/biocontainers/bioconductor-expressionview/status
    :target: https://quay.io/repository/biocontainers/bioconductor-expressionview

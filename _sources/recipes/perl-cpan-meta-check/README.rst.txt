@@ -49,6 +49,7 @@ perl-cpan-meta-check
 
 
 .. |downloads_perl-cpan-meta-check| image:: https://img.shields.io/conda/dn/bioconda/perl-cpan-meta-check.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-cpan-meta-check
    :alt:   (downloads)
 .. |docker_perl-cpan-meta-check| image:: https://quay.io/repository/biocontainers/perl-cpan-meta-check/status
    :target: https://quay.io/repository/biocontainers/perl-cpan-meta-check

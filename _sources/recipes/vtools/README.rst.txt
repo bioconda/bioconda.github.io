@@ -52,6 +52,7 @@ vtools
 
 
 .. |downloads_vtools| image:: https://img.shields.io/conda/dn/bioconda/vtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/vtools
    :alt:   (downloads)
 .. |docker_vtools| image:: https://quay.io/repository/biocontainers/vtools/status
    :target: https://quay.io/repository/biocontainers/vtools

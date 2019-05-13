@@ -47,6 +47,7 @@ pureclip
 
 
 .. |downloads_pureclip| image:: https://img.shields.io/conda/dn/bioconda/pureclip.svg?style=flat
+   :target: https://anaconda.org/bioconda/pureclip
    :alt:   (downloads)
 .. |docker_pureclip| image:: https://quay.io/repository/biocontainers/pureclip/status
    :target: https://quay.io/repository/biocontainers/pureclip

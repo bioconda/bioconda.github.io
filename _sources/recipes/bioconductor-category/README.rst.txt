@@ -56,6 +56,7 @@ bioconductor-category
 
 
 .. |downloads_bioconductor-category| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-category.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-category
    :alt:   (downloads)
 .. |docker_bioconductor-category| image:: https://quay.io/repository/biocontainers/bioconductor-category/status
    :target: https://quay.io/repository/biocontainers/bioconductor-category

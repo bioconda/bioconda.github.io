@@ -52,6 +52,7 @@ bioconductor-esetvis
 
 
 .. |downloads_bioconductor-esetvis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-esetvis.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-esetvis
    :alt:   (downloads)
 .. |docker_bioconductor-esetvis| image:: https://quay.io/repository/biocontainers/bioconductor-esetvis/status
    :target: https://quay.io/repository/biocontainers/bioconductor-esetvis

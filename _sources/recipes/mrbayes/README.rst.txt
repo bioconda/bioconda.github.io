@@ -53,6 +53,7 @@ mrbayes
 
 
 .. |downloads_mrbayes| image:: https://img.shields.io/conda/dn/bioconda/mrbayes.svg?style=flat
+   :target: https://anaconda.org/bioconda/mrbayes
    :alt:   (downloads)
 .. |docker_mrbayes| image:: https://quay.io/repository/biocontainers/mrbayes/status
    :target: https://quay.io/repository/biocontainers/mrbayes

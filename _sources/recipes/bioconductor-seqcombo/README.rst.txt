@@ -52,6 +52,7 @@ bioconductor-seqcombo
 
 
 .. |downloads_bioconductor-seqcombo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-seqcombo.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-seqcombo
    :alt:   (downloads)
 .. |docker_bioconductor-seqcombo| image:: https://quay.io/repository/biocontainers/bioconductor-seqcombo/status
    :target: https://quay.io/repository/biocontainers/bioconductor-seqcombo

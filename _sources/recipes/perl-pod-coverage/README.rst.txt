@@ -47,6 +47,7 @@ perl-pod-coverage
 
 
 .. |downloads_perl-pod-coverage| image:: https://img.shields.io/conda/dn/bioconda/perl-pod-coverage.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-pod-coverage
    :alt:   (downloads)
 .. |docker_perl-pod-coverage| image:: https://quay.io/repository/biocontainers/perl-pod-coverage/status
    :target: https://quay.io/repository/biocontainers/perl-pod-coverage

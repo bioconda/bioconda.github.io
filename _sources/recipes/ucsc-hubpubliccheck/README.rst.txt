@@ -50,6 +50,7 @@ ucsc-hubpubliccheck
 
 
 .. |downloads_ucsc-hubpubliccheck| image:: https://img.shields.io/conda/dn/bioconda/ucsc-hubpubliccheck.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-hubpubliccheck
    :alt:   (downloads)
 .. |docker_ucsc-hubpubliccheck| image:: https://quay.io/repository/biocontainers/ucsc-hubpubliccheck/status
    :target: https://quay.io/repository/biocontainers/ucsc-hubpubliccheck

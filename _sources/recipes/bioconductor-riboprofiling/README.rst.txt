@@ -62,6 +62,7 @@ bioconductor-riboprofiling
 
 
 .. |downloads_bioconductor-riboprofiling| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-riboprofiling.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-riboprofiling
    :alt:   (downloads)
 .. |docker_bioconductor-riboprofiling| image:: https://quay.io/repository/biocontainers/bioconductor-riboprofiling/status
    :target: https://quay.io/repository/biocontainers/bioconductor-riboprofiling

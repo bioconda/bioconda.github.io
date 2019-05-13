@@ -50,6 +50,7 @@ fsa
 
 
 .. |downloads_fsa| image:: https://img.shields.io/conda/dn/bioconda/fsa.svg?style=flat
+   :target: https://anaconda.org/bioconda/fsa
    :alt:   (downloads)
 .. |docker_fsa| image:: https://quay.io/repository/biocontainers/fsa/status
    :target: https://quay.io/repository/biocontainers/fsa

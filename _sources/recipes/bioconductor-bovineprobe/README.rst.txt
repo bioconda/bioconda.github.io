@@ -47,6 +47,7 @@ bioconductor-bovineprobe
 
 
 .. |downloads_bioconductor-bovineprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bovineprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bovineprobe
    :alt:   (downloads)
 .. |docker_bioconductor-bovineprobe| image:: https://quay.io/repository/biocontainers/bioconductor-bovineprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bovineprobe

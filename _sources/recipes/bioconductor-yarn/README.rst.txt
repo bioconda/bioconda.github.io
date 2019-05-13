@@ -57,6 +57,7 @@ bioconductor-yarn
 
 
 .. |downloads_bioconductor-yarn| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-yarn.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-yarn
    :alt:   (downloads)
 .. |docker_bioconductor-yarn| image:: https://quay.io/repository/biocontainers/bioconductor-yarn/status
    :target: https://quay.io/repository/biocontainers/bioconductor-yarn

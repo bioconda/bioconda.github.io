@@ -50,6 +50,7 @@ bioconductor-affypara
 
 
 .. |downloads_bioconductor-affypara| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affypara.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-affypara
    :alt:   (downloads)
 .. |docker_bioconductor-affypara| image:: https://quay.io/repository/biocontainers/bioconductor-affypara/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affypara

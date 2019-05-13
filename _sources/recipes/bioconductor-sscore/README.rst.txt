@@ -48,6 +48,7 @@ bioconductor-sscore
 
 
 .. |downloads_bioconductor-sscore| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sscore.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sscore
    :alt:   (downloads)
 .. |docker_bioconductor-sscore| image:: https://quay.io/repository/biocontainers/bioconductor-sscore/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sscore

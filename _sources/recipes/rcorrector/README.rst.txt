@@ -49,6 +49,7 @@ rcorrector
 
 
 .. |downloads_rcorrector| image:: https://img.shields.io/conda/dn/bioconda/rcorrector.svg?style=flat
+   :target: https://anaconda.org/bioconda/rcorrector
    :alt:   (downloads)
 .. |docker_rcorrector| image:: https://quay.io/repository/biocontainers/rcorrector/status
    :target: https://quay.io/repository/biocontainers/rcorrector

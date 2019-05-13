@@ -59,6 +59,7 @@ concoct
 
 
 .. |downloads_concoct| image:: https://img.shields.io/conda/dn/bioconda/concoct.svg?style=flat
+   :target: https://anaconda.org/bioconda/concoct
    :alt:   (downloads)
 .. |docker_concoct| image:: https://quay.io/repository/biocontainers/concoct/status
    :target: https://quay.io/repository/biocontainers/concoct

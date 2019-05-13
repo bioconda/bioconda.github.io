@@ -55,6 +55,7 @@ bioconductor-snpchip
 
 
 .. |downloads_bioconductor-snpchip| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-snpchip.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-snpchip
    :alt:   (downloads)
 .. |docker_bioconductor-snpchip| image:: https://quay.io/repository/biocontainers/bioconductor-snpchip/status
    :target: https://quay.io/repository/biocontainers/bioconductor-snpchip

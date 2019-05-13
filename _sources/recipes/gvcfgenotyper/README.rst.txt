@@ -46,6 +46,7 @@ gvcfgenotyper
 
 
 .. |downloads_gvcfgenotyper| image:: https://img.shields.io/conda/dn/bioconda/gvcfgenotyper.svg?style=flat
+   :target: https://anaconda.org/bioconda/gvcfgenotyper
    :alt:   (downloads)
 .. |docker_gvcfgenotyper| image:: https://quay.io/repository/biocontainers/gvcfgenotyper/status
    :target: https://quay.io/repository/biocontainers/gvcfgenotyper

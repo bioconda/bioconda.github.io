@@ -50,6 +50,7 @@ ucsc-qacagplift
 
 
 .. |downloads_ucsc-qacagplift| image:: https://img.shields.io/conda/dn/bioconda/ucsc-qacagplift.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-qacagplift
    :alt:   (downloads)
 .. |docker_ucsc-qacagplift| image:: https://quay.io/repository/biocontainers/ucsc-qacagplift/status
    :target: https://quay.io/repository/biocontainers/ucsc-qacagplift

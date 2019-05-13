@@ -48,6 +48,7 @@ bioconductor-gcatest
 
 
 .. |downloads_bioconductor-gcatest| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gcatest.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gcatest
    :alt:   (downloads)
 .. |docker_bioconductor-gcatest| image:: https://quay.io/repository/biocontainers/bioconductor-gcatest/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gcatest

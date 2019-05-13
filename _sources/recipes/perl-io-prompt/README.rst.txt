@@ -47,6 +47,7 @@ perl-io-prompt
 
 
 .. |downloads_perl-io-prompt| image:: https://img.shields.io/conda/dn/bioconda/perl-io-prompt.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-io-prompt
    :alt:   (downloads)
 .. |docker_perl-io-prompt| image:: https://quay.io/repository/biocontainers/perl-io-prompt/status
    :target: https://quay.io/repository/biocontainers/perl-io-prompt

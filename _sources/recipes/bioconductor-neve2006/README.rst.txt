@@ -49,6 +49,7 @@ bioconductor-neve2006
 
 
 .. |downloads_bioconductor-neve2006| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-neve2006.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-neve2006
    :alt:   (downloads)
 .. |docker_bioconductor-neve2006| image:: https://quay.io/repository/biocontainers/bioconductor-neve2006/status
    :target: https://quay.io/repository/biocontainers/bioconductor-neve2006

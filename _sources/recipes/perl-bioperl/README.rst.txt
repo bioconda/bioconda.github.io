@@ -55,6 +55,7 @@ perl-bioperl
 
 
 .. |downloads_perl-bioperl| image:: https://img.shields.io/conda/dn/bioconda/perl-bioperl.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bioperl
    :alt:   (downloads)
 .. |docker_perl-bioperl| image:: https://quay.io/repository/biocontainers/perl-bioperl/status
    :target: https://quay.io/repository/biocontainers/perl-bioperl

@@ -50,6 +50,7 @@ perl-template-toolkit
 
 
 .. |downloads_perl-template-toolkit| image:: https://img.shields.io/conda/dn/bioconda/perl-template-toolkit.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-template-toolkit
    :alt:   (downloads)
 .. |docker_perl-template-toolkit| image:: https://quay.io/repository/biocontainers/perl-template-toolkit/status
    :target: https://quay.io/repository/biocontainers/perl-template-toolkit

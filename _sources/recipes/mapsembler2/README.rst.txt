@@ -45,6 +45,7 @@ mapsembler2
 
 
 .. |downloads_mapsembler2| image:: https://img.shields.io/conda/dn/bioconda/mapsembler2.svg?style=flat
+   :target: https://anaconda.org/bioconda/mapsembler2
    :alt:   (downloads)
 .. |docker_mapsembler2| image:: https://quay.io/repository/biocontainers/mapsembler2/status
    :target: https://quay.io/repository/biocontainers/mapsembler2

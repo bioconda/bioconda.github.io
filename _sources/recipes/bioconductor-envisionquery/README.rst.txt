@@ -47,6 +47,7 @@ bioconductor-envisionquery
 
 
 .. |downloads_bioconductor-envisionquery| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-envisionquery.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-envisionquery
    :alt:   (downloads)
 .. |docker_bioconductor-envisionquery| image:: https://quay.io/repository/biocontainers/bioconductor-envisionquery/status
    :target: https://quay.io/repository/biocontainers/bioconductor-envisionquery

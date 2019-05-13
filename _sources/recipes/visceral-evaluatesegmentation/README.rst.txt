@@ -47,6 +47,7 @@ visceral-evaluatesegmentation
 
 
 .. |downloads_visceral-evaluatesegmentation| image:: https://img.shields.io/conda/dn/bioconda/visceral-evaluatesegmentation.svg?style=flat
+   :target: https://anaconda.org/bioconda/visceral-evaluatesegmentation
    :alt:   (downloads)
 .. |docker_visceral-evaluatesegmentation| image:: https://quay.io/repository/biocontainers/visceral-evaluatesegmentation/status
    :target: https://quay.io/repository/biocontainers/visceral-evaluatesegmentation

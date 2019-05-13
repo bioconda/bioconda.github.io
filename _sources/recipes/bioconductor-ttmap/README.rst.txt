@@ -49,6 +49,7 @@ bioconductor-ttmap
 
 
 .. |downloads_bioconductor-ttmap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ttmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ttmap
    :alt:   (downloads)
 .. |docker_bioconductor-ttmap| image:: https://quay.io/repository/biocontainers/bioconductor-ttmap/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ttmap

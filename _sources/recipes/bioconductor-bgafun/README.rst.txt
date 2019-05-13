@@ -49,6 +49,7 @@ bioconductor-bgafun
 
 
 .. |downloads_bioconductor-bgafun| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bgafun.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bgafun
    :alt:   (downloads)
 .. |docker_bioconductor-bgafun| image:: https://quay.io/repository/biocontainers/bioconductor-bgafun/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bgafun

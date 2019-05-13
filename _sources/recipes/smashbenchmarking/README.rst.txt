@@ -48,6 +48,7 @@ smashbenchmarking
 
 
 .. |downloads_smashbenchmarking| image:: https://img.shields.io/conda/dn/bioconda/smashbenchmarking.svg?style=flat
+   :target: https://anaconda.org/bioconda/smashbenchmarking
    :alt:   (downloads)
 .. |docker_smashbenchmarking| image:: https://quay.io/repository/biocontainers/smashbenchmarking/status
    :target: https://quay.io/repository/biocontainers/smashbenchmarking

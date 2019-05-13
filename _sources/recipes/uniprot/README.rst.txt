@@ -46,6 +46,7 @@ uniprot
 
 
 .. |downloads_uniprot| image:: https://img.shields.io/conda/dn/bioconda/uniprot.svg?style=flat
+   :target: https://anaconda.org/bioconda/uniprot
    :alt:   (downloads)
 .. |docker_uniprot| image:: https://quay.io/repository/biocontainers/uniprot/status
    :target: https://quay.io/repository/biocontainers/uniprot

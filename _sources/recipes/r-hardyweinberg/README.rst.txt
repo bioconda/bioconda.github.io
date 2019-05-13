@@ -50,6 +50,7 @@ r-hardyweinberg
 
 
 .. |downloads_r-hardyweinberg| image:: https://img.shields.io/conda/dn/bioconda/r-hardyweinberg.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-hardyweinberg
    :alt:   (downloads)
 .. |docker_r-hardyweinberg| image:: https://quay.io/repository/biocontainers/r-hardyweinberg/status
    :target: https://quay.io/repository/biocontainers/r-hardyweinberg

@@ -56,6 +56,7 @@ perl-graphviz
 
 
 .. |downloads_perl-graphviz| image:: https://img.shields.io/conda/dn/bioconda/perl-graphviz.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-graphviz
    :alt:   (downloads)
 .. |docker_perl-graphviz| image:: https://quay.io/repository/biocontainers/perl-graphviz/status
    :target: https://quay.io/repository/biocontainers/perl-graphviz

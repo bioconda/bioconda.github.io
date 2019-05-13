@@ -48,6 +48,7 @@ weblogo
 
 
 .. |downloads_weblogo| image:: https://img.shields.io/conda/dn/bioconda/weblogo.svg?style=flat
+   :target: https://anaconda.org/bioconda/weblogo
    :alt:   (downloads)
 .. |docker_weblogo| image:: https://quay.io/repository/biocontainers/weblogo/status
    :target: https://quay.io/repository/biocontainers/weblogo

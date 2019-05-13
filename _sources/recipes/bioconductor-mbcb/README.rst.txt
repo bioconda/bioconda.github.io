@@ -47,6 +47,7 @@ bioconductor-mbcb
 
 
 .. |downloads_bioconductor-mbcb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mbcb.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mbcb
    :alt:   (downloads)
 .. |docker_bioconductor-mbcb| image:: https://quay.io/repository/biocontainers/bioconductor-mbcb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mbcb

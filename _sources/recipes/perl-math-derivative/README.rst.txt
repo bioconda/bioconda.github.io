@@ -45,6 +45,7 @@ perl-math-derivative
 
 
 .. |downloads_perl-math-derivative| image:: https://img.shields.io/conda/dn/bioconda/perl-math-derivative.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-math-derivative
    :alt:   (downloads)
 .. |docker_perl-math-derivative| image:: https://quay.io/repository/biocontainers/perl-math-derivative/status
    :target: https://quay.io/repository/biocontainers/perl-math-derivative

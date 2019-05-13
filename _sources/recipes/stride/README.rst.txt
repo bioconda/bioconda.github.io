@@ -47,6 +47,7 @@ stride
 
 
 .. |downloads_stride| image:: https://img.shields.io/conda/dn/bioconda/stride.svg?style=flat
+   :target: https://anaconda.org/bioconda/stride
    :alt:   (downloads)
 .. |docker_stride| image:: https://quay.io/repository/biocontainers/stride/status
    :target: https://quay.io/repository/biocontainers/stride

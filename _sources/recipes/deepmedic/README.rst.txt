@@ -51,6 +51,7 @@ deepmedic
 
 
 .. |downloads_deepmedic| image:: https://img.shields.io/conda/dn/bioconda/deepmedic.svg?style=flat
+   :target: https://anaconda.org/bioconda/deepmedic
    :alt:   (downloads)
 .. |docker_deepmedic| image:: https://quay.io/repository/biocontainers/deepmedic/status
    :target: https://quay.io/repository/biocontainers/deepmedic

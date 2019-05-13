@@ -48,6 +48,7 @@ r-momr
 
 
 .. |downloads_r-momr| image:: https://img.shields.io/conda/dn/bioconda/r-momr.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-momr
    :alt:   (downloads)
 .. |docker_r-momr| image:: https://quay.io/repository/biocontainers/r-momr/status
    :target: https://quay.io/repository/biocontainers/r-momr

@@ -47,6 +47,7 @@ bioconductor-hcg110cdf
 
 
 .. |downloads_bioconductor-hcg110cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hcg110cdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hcg110cdf
    :alt:   (downloads)
 .. |docker_bioconductor-hcg110cdf| image:: https://quay.io/repository/biocontainers/bioconductor-hcg110cdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hcg110cdf

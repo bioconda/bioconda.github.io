@@ -55,6 +55,7 @@ bioconductor-topgo
 
 
 .. |downloads_bioconductor-topgo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-topgo.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-topgo
    :alt:   (downloads)
 .. |docker_bioconductor-topgo| image:: https://quay.io/repository/biocontainers/bioconductor-topgo/status
    :target: https://quay.io/repository/biocontainers/bioconductor-topgo

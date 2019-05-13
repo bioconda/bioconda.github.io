@@ -44,6 +44,7 @@ lima
 
 
 .. |downloads_lima| image:: https://img.shields.io/conda/dn/bioconda/lima.svg?style=flat
+   :target: https://anaconda.org/bioconda/lima
    :alt:   (downloads)
 .. |docker_lima| image:: https://quay.io/repository/biocontainers/lima/status
    :target: https://quay.io/repository/biocontainers/lima

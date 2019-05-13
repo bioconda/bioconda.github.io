@@ -50,6 +50,7 @@ ucsc-blasttopsl
 
 
 .. |downloads_ucsc-blasttopsl| image:: https://img.shields.io/conda/dn/bioconda/ucsc-blasttopsl.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-blasttopsl
    :alt:   (downloads)
 .. |docker_ucsc-blasttopsl| image:: https://quay.io/repository/biocontainers/ucsc-blasttopsl/status
    :target: https://quay.io/repository/biocontainers/ucsc-blasttopsl

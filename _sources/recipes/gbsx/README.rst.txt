@@ -52,6 +52,7 @@ gbsx
 
 
 .. |downloads_gbsx| image:: https://img.shields.io/conda/dn/bioconda/gbsx.svg?style=flat
+   :target: https://anaconda.org/bioconda/gbsx
    :alt:   (downloads)
 .. |docker_gbsx| image:: https://quay.io/repository/biocontainers/gbsx/status
    :target: https://quay.io/repository/biocontainers/gbsx

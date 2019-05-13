@@ -50,6 +50,7 @@ bioconductor-swath2stats
 
 
 .. |downloads_bioconductor-swath2stats| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-swath2stats.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-swath2stats
    :alt:   (downloads)
 .. |docker_bioconductor-swath2stats| image:: https://quay.io/repository/biocontainers/bioconductor-swath2stats/status
    :target: https://quay.io/repository/biocontainers/bioconductor-swath2stats

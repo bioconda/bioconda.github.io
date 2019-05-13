@@ -56,6 +56,7 @@ bioconductor-survcomp
 
 
 .. |downloads_bioconductor-survcomp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-survcomp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-survcomp
    :alt:   (downloads)
 .. |docker_bioconductor-survcomp| image:: https://quay.io/repository/biocontainers/bioconductor-survcomp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-survcomp

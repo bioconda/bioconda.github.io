@@ -54,6 +54,7 @@ ctat-mutations
 
 
 .. |downloads_ctat-mutations| image:: https://img.shields.io/conda/dn/bioconda/ctat-mutations.svg?style=flat
+   :target: https://anaconda.org/bioconda/ctat-mutations
    :alt:   (downloads)
 .. |docker_ctat-mutations| image:: https://quay.io/repository/biocontainers/ctat-mutations/status
    :target: https://quay.io/repository/biocontainers/ctat-mutations

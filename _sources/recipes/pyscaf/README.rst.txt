@@ -46,6 +46,7 @@ pyscaf
 
 
 .. |downloads_pyscaf| image:: https://img.shields.io/conda/dn/bioconda/pyscaf.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyscaf
    :alt:   (downloads)
 .. |docker_pyscaf| image:: https://quay.io/repository/biocontainers/pyscaf/status
    :target: https://quay.io/repository/biocontainers/pyscaf

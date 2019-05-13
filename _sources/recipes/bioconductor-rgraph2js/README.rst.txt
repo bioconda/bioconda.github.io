@@ -50,6 +50,7 @@ bioconductor-rgraph2js
 
 
 .. |downloads_bioconductor-rgraph2js| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rgraph2js.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rgraph2js
    :alt:   (downloads)
 .. |docker_bioconductor-rgraph2js| image:: https://quay.io/repository/biocontainers/bioconductor-rgraph2js/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rgraph2js

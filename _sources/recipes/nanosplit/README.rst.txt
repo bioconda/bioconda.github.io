@@ -49,6 +49,7 @@ nanosplit
 
 
 .. |downloads_nanosplit| image:: https://img.shields.io/conda/dn/bioconda/nanosplit.svg?style=flat
+   :target: https://anaconda.org/bioconda/nanosplit
    :alt:   (downloads)
 .. |docker_nanosplit| image:: https://quay.io/repository/biocontainers/nanosplit/status
    :target: https://quay.io/repository/biocontainers/nanosplit

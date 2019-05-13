@@ -46,6 +46,7 @@ xmltramp2
 
 
 .. |downloads_xmltramp2| image:: https://img.shields.io/conda/dn/bioconda/xmltramp2.svg?style=flat
+   :target: https://anaconda.org/bioconda/xmltramp2
    :alt:   (downloads)
 .. |docker_xmltramp2| image:: https://quay.io/repository/biocontainers/xmltramp2/status
    :target: https://quay.io/repository/biocontainers/xmltramp2

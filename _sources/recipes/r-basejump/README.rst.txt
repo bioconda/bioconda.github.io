@@ -87,6 +87,7 @@ r-basejump
 
 
 .. |downloads_r-basejump| image:: https://img.shields.io/conda/dn/bioconda/r-basejump.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-basejump
    :alt:   (downloads)
 .. |docker_r-basejump| image:: https://quay.io/repository/biocontainers/r-basejump/status
    :target: https://quay.io/repository/biocontainers/r-basejump

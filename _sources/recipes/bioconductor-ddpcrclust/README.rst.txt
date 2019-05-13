@@ -54,6 +54,7 @@ bioconductor-ddpcrclust
 
 
 .. |downloads_bioconductor-ddpcrclust| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ddpcrclust.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ddpcrclust
    :alt:   (downloads)
 .. |docker_bioconductor-ddpcrclust| image:: https://quay.io/repository/biocontainers/bioconductor-ddpcrclust/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ddpcrclust

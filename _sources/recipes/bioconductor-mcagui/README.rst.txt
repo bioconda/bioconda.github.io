@@ -44,6 +44,7 @@ bioconductor-mcagui
 
 
 .. |downloads_bioconductor-mcagui| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mcagui.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mcagui
    :alt:   (downloads)
 .. |docker_bioconductor-mcagui| image:: https://quay.io/repository/biocontainers/bioconductor-mcagui/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mcagui

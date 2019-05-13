@@ -55,6 +55,7 @@ bioconductor-trna
 
 
 .. |downloads_bioconductor-trna| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-trna.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-trna
    :alt:   (downloads)
 .. |docker_bioconductor-trna| image:: https://quay.io/repository/biocontainers/bioconductor-trna/status
    :target: https://quay.io/repository/biocontainers/bioconductor-trna

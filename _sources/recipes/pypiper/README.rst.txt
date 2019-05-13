@@ -46,6 +46,7 @@ pypiper
 
 
 .. |downloads_pypiper| image:: https://img.shields.io/conda/dn/bioconda/pypiper.svg?style=flat
+   :target: https://anaconda.org/bioconda/pypiper
    :alt:   (downloads)
 .. |docker_pypiper| image:: https://quay.io/repository/biocontainers/pypiper/status
    :target: https://quay.io/repository/biocontainers/pypiper

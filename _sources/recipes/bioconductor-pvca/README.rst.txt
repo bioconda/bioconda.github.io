@@ -50,6 +50,7 @@ bioconductor-pvca
 
 
 .. |downloads_bioconductor-pvca| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pvca.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pvca
    :alt:   (downloads)
 .. |docker_bioconductor-pvca| image:: https://quay.io/repository/biocontainers/bioconductor-pvca/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pvca

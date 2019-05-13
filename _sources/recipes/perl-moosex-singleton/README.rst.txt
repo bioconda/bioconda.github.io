@@ -47,6 +47,7 @@ perl-moosex-singleton
 
 
 .. |downloads_perl-moosex-singleton| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-singleton.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-moosex-singleton
    :alt:   (downloads)
 .. |docker_perl-moosex-singleton| image:: https://quay.io/repository/biocontainers/perl-moosex-singleton/status
    :target: https://quay.io/repository/biocontainers/perl-moosex-singleton

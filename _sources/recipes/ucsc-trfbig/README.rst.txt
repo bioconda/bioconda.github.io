@@ -50,6 +50,7 @@ ucsc-trfbig
 
 
 .. |downloads_ucsc-trfbig| image:: https://img.shields.io/conda/dn/bioconda/ucsc-trfbig.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-trfbig
    :alt:   (downloads)
 .. |docker_ucsc-trfbig| image:: https://quay.io/repository/biocontainers/ucsc-trfbig/status
    :target: https://quay.io/repository/biocontainers/ucsc-trfbig

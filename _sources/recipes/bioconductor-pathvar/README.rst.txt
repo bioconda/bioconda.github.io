@@ -52,6 +52,7 @@ bioconductor-pathvar
 
 
 .. |downloads_bioconductor-pathvar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pathvar.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pathvar
    :alt:   (downloads)
 .. |docker_bioconductor-pathvar| image:: https://quay.io/repository/biocontainers/bioconductor-pathvar/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pathvar

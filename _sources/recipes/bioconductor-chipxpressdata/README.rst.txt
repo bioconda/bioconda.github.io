@@ -47,6 +47,7 @@ bioconductor-chipxpressdata
 
 
 .. |downloads_bioconductor-chipxpressdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chipxpressdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chipxpressdata
    :alt:   (downloads)
 .. |docker_bioconductor-chipxpressdata| image:: https://quay.io/repository/biocontainers/bioconductor-chipxpressdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chipxpressdata

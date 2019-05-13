@@ -45,6 +45,7 @@ perl-list-compare
 
 
 .. |downloads_perl-list-compare| image:: https://img.shields.io/conda/dn/bioconda/perl-list-compare.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-list-compare
    :alt:   (downloads)
 .. |docker_perl-list-compare| image:: https://quay.io/repository/biocontainers/perl-list-compare/status
    :target: https://quay.io/repository/biocontainers/perl-list-compare

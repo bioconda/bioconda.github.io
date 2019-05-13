@@ -49,6 +49,7 @@ bioconductor-props
 
 
 .. |downloads_bioconductor-props| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-props.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-props
    :alt:   (downloads)
 .. |docker_bioconductor-props| image:: https://quay.io/repository/biocontainers/bioconductor-props/status
    :target: https://quay.io/repository/biocontainers/bioconductor-props

@@ -47,6 +47,7 @@ ctat-metagenomics
 
 
 .. |downloads_ctat-metagenomics| image:: https://img.shields.io/conda/dn/bioconda/ctat-metagenomics.svg?style=flat
+   :target: https://anaconda.org/bioconda/ctat-metagenomics
    :alt:   (downloads)
 .. |docker_ctat-metagenomics| image:: https://quay.io/repository/biocontainers/ctat-metagenomics/status
    :target: https://quay.io/repository/biocontainers/ctat-metagenomics

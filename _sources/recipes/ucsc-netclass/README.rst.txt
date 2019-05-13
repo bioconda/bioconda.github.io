@@ -50,6 +50,7 @@ ucsc-netclass
 
 
 .. |downloads_ucsc-netclass| image:: https://img.shields.io/conda/dn/bioconda/ucsc-netclass.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-netclass
    :alt:   (downloads)
 .. |docker_ucsc-netclass| image:: https://quay.io/repository/biocontainers/ucsc-netclass/status
    :target: https://quay.io/repository/biocontainers/ucsc-netclass

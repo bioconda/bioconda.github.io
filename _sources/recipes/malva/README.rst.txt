@@ -50,6 +50,7 @@ malva
 
 
 .. |downloads_malva| image:: https://img.shields.io/conda/dn/bioconda/malva.svg?style=flat
+   :target: https://anaconda.org/bioconda/malva
    :alt:   (downloads)
 .. |docker_malva| image:: https://quay.io/repository/biocontainers/malva/status
    :target: https://quay.io/repository/biocontainers/malva

@@ -45,6 +45,7 @@ extern
 
 
 .. |downloads_extern| image:: https://img.shields.io/conda/dn/bioconda/extern.svg?style=flat
+   :target: https://anaconda.org/bioconda/extern
    :alt:   (downloads)
 .. |docker_extern| image:: https://quay.io/repository/biocontainers/extern/status
    :target: https://quay.io/repository/biocontainers/extern

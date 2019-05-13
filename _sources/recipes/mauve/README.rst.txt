@@ -47,6 +47,7 @@ mauve
 
 
 .. |downloads_mauve| image:: https://img.shields.io/conda/dn/bioconda/mauve.svg?style=flat
+   :target: https://anaconda.org/bioconda/mauve
    :alt:   (downloads)
 .. |docker_mauve| image:: https://quay.io/repository/biocontainers/mauve/status
    :target: https://quay.io/repository/biocontainers/mauve

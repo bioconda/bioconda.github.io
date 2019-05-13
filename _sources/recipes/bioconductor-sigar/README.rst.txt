@@ -57,6 +57,7 @@ bioconductor-sigar
 
 
 .. |downloads_bioconductor-sigar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sigar.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sigar
    :alt:   (downloads)
 .. |docker_bioconductor-sigar| image:: https://quay.io/repository/biocontainers/bioconductor-sigar/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sigar

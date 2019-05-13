@@ -48,6 +48,7 @@ migrate-n
 
 
 .. |downloads_migrate-n| image:: https://img.shields.io/conda/dn/bioconda/migrate-n.svg?style=flat
+   :target: https://anaconda.org/bioconda/migrate-n
    :alt:   (downloads)
 .. |docker_migrate-n| image:: https://quay.io/repository/biocontainers/migrate-n/status
    :target: https://quay.io/repository/biocontainers/migrate-n

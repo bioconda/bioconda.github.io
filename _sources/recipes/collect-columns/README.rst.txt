@@ -48,6 +48,7 @@ collect-columns
 
 
 .. |downloads_collect-columns| image:: https://img.shields.io/conda/dn/bioconda/collect-columns.svg?style=flat
+   :target: https://anaconda.org/bioconda/collect-columns
    :alt:   (downloads)
 .. |docker_collect-columns| image:: https://quay.io/repository/biocontainers/collect-columns/status
    :target: https://quay.io/repository/biocontainers/collect-columns

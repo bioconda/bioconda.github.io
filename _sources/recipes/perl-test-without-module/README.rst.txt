@@ -45,6 +45,7 @@ perl-test-without-module
 
 
 .. |downloads_perl-test-without-module| image:: https://img.shields.io/conda/dn/bioconda/perl-test-without-module.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-without-module
    :alt:   (downloads)
 .. |docker_perl-test-without-module| image:: https://quay.io/repository/biocontainers/perl-test-without-module/status
    :target: https://quay.io/repository/biocontainers/perl-test-without-module

@@ -46,6 +46,7 @@ qiime-default-reference
 
 
 .. |downloads_qiime-default-reference| image:: https://img.shields.io/conda/dn/bioconda/qiime-default-reference.svg?style=flat
+   :target: https://anaconda.org/bioconda/qiime-default-reference
    :alt:   (downloads)
 .. |docker_qiime-default-reference| image:: https://quay.io/repository/biocontainers/qiime-default-reference/status
    :target: https://quay.io/repository/biocontainers/qiime-default-reference

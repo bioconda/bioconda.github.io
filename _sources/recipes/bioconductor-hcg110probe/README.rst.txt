@@ -47,6 +47,7 @@ bioconductor-hcg110probe
 
 
 .. |downloads_bioconductor-hcg110probe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hcg110probe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hcg110probe
    :alt:   (downloads)
 .. |docker_bioconductor-hcg110probe| image:: https://quay.io/repository/biocontainers/bioconductor-hcg110probe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hcg110probe

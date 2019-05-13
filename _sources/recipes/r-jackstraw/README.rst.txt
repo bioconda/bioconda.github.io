@@ -52,6 +52,7 @@ r-jackstraw
 
 
 .. |downloads_r-jackstraw| image:: https://img.shields.io/conda/dn/bioconda/r-jackstraw.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-jackstraw
    :alt:   (downloads)
 .. |docker_r-jackstraw| image:: https://quay.io/repository/biocontainers/r-jackstraw/status
    :target: https://quay.io/repository/biocontainers/r-jackstraw

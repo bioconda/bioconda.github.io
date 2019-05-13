@@ -49,6 +49,7 @@ pauvre
 
 
 .. |downloads_pauvre| image:: https://img.shields.io/conda/dn/bioconda/pauvre.svg?style=flat
+   :target: https://anaconda.org/bioconda/pauvre
    :alt:   (downloads)
 .. |docker_pauvre| image:: https://quay.io/repository/biocontainers/pauvre/status
    :target: https://quay.io/repository/biocontainers/pauvre

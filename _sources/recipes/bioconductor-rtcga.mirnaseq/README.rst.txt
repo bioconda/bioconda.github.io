@@ -47,6 +47,7 @@ bioconductor-rtcga.mirnaseq
 
 
 .. |downloads_bioconductor-rtcga.mirnaseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtcga.mirnaseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rtcga.mirnaseq
    :alt:   (downloads)
 .. |docker_bioconductor-rtcga.mirnaseq| image:: https://quay.io/repository/biocontainers/bioconductor-rtcga.mirnaseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtcga.mirnaseq

@@ -48,6 +48,7 @@ bioconductor-tbx20bamsubset
 
 
 .. |downloads_bioconductor-tbx20bamsubset| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tbx20bamsubset.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tbx20bamsubset
    :alt:   (downloads)
 .. |docker_bioconductor-tbx20bamsubset| image:: https://quay.io/repository/biocontainers/bioconductor-tbx20bamsubset/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tbx20bamsubset

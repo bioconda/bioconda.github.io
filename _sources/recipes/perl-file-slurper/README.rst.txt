@@ -49,6 +49,7 @@ perl-file-slurper
 
 
 .. |downloads_perl-file-slurper| image:: https://img.shields.io/conda/dn/bioconda/perl-file-slurper.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-slurper
    :alt:   (downloads)
 .. |docker_perl-file-slurper| image:: https://quay.io/repository/biocontainers/perl-file-slurper/status
    :target: https://quay.io/repository/biocontainers/perl-file-slurper

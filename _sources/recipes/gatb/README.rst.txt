@@ -49,6 +49,7 @@ gatb
 
 
 .. |downloads_gatb| image:: https://img.shields.io/conda/dn/bioconda/gatb.svg?style=flat
+   :target: https://anaconda.org/bioconda/gatb
    :alt:   (downloads)
 .. |docker_gatb| image:: https://quay.io/repository/biocontainers/gatb/status
    :target: https://quay.io/repository/biocontainers/gatb

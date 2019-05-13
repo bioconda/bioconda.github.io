@@ -49,6 +49,7 @@ hichipper
 
 
 .. |downloads_hichipper| image:: https://img.shields.io/conda/dn/bioconda/hichipper.svg?style=flat
+   :target: https://anaconda.org/bioconda/hichipper
    :alt:   (downloads)
 .. |docker_hichipper| image:: https://quay.io/repository/biocontainers/hichipper/status
    :target: https://quay.io/repository/biocontainers/hichipper

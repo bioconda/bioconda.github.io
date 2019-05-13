@@ -48,6 +48,7 @@ bioconductor-reder
 
 
 .. |downloads_bioconductor-reder| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-reder.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-reder
    :alt:   (downloads)
 .. |docker_bioconductor-reder| image:: https://quay.io/repository/biocontainers/bioconductor-reder/status
    :target: https://quay.io/repository/biocontainers/bioconductor-reder

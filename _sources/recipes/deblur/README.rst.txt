@@ -52,6 +52,7 @@ deblur
 
 
 .. |downloads_deblur| image:: https://img.shields.io/conda/dn/bioconda/deblur.svg?style=flat
+   :target: https://anaconda.org/bioconda/deblur
    :alt:   (downloads)
 .. |docker_deblur| image:: https://quay.io/repository/biocontainers/deblur/status
    :target: https://quay.io/repository/biocontainers/deblur

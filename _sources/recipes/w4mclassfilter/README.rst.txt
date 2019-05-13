@@ -45,6 +45,7 @@ w4mclassfilter
 
 
 .. |downloads_w4mclassfilter| image:: https://img.shields.io/conda/dn/bioconda/w4mclassfilter.svg?style=flat
+   :target: https://anaconda.org/bioconda/w4mclassfilter
    :alt:   (downloads)
 .. |docker_w4mclassfilter| image:: https://quay.io/repository/biocontainers/w4mclassfilter/status
    :target: https://quay.io/repository/biocontainers/w4mclassfilter

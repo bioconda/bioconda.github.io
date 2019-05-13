@@ -45,6 +45,7 @@ perl-io-uncompress-bunzip2
 
 
 .. |downloads_perl-io-uncompress-bunzip2| image:: https://img.shields.io/conda/dn/bioconda/perl-io-uncompress-bunzip2.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-io-uncompress-bunzip2
    :alt:   (downloads)
 .. |docker_perl-io-uncompress-bunzip2| image:: https://quay.io/repository/biocontainers/perl-io-uncompress-bunzip2/status
    :target: https://quay.io/repository/biocontainers/perl-io-uncompress-bunzip2

@@ -51,6 +51,7 @@ percolator
 
 
 .. |downloads_percolator| image:: https://img.shields.io/conda/dn/bioconda/percolator.svg?style=flat
+   :target: https://anaconda.org/bioconda/percolator
    :alt:   (downloads)
 .. |docker_percolator| image:: https://quay.io/repository/biocontainers/percolator/status
    :target: https://quay.io/repository/biocontainers/percolator

@@ -52,6 +52,7 @@ meraculous
 
 
 .. |downloads_meraculous| image:: https://img.shields.io/conda/dn/bioconda/meraculous.svg?style=flat
+   :target: https://anaconda.org/bioconda/meraculous
    :alt:   (downloads)
 .. |docker_meraculous| image:: https://quay.io/repository/biocontainers/meraculous/status
    :target: https://quay.io/repository/biocontainers/meraculous

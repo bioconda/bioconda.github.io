@@ -48,6 +48,7 @@ bioconductor-ichip
 
 
 .. |downloads_bioconductor-ichip| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ichip.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ichip
    :alt:   (downloads)
 .. |docker_bioconductor-ichip| image:: https://quay.io/repository/biocontainers/bioconductor-ichip/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ichip

@@ -56,6 +56,7 @@ bioconductor-chipseqspike
 
 
 .. |downloads_bioconductor-chipseqspike| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chipseqspike.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chipseqspike
    :alt:   (downloads)
 .. |docker_bioconductor-chipseqspike| image:: https://quay.io/repository/biocontainers/bioconductor-chipseqspike/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chipseqspike

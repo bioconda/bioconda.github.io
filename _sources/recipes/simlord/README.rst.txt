@@ -49,6 +49,7 @@ simlord
 
 
 .. |downloads_simlord| image:: https://img.shields.io/conda/dn/bioconda/simlord.svg?style=flat
+   :target: https://anaconda.org/bioconda/simlord
    :alt:   (downloads)
 .. |docker_simlord| image:: https://quay.io/repository/biocontainers/simlord/status
    :target: https://quay.io/repository/biocontainers/simlord

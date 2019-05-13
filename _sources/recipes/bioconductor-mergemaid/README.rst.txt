@@ -49,6 +49,7 @@ bioconductor-mergemaid
 
 
 .. |downloads_bioconductor-mergemaid| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mergemaid.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mergemaid
    :alt:   (downloads)
 .. |docker_bioconductor-mergemaid| image:: https://quay.io/repository/biocontainers/bioconductor-mergemaid/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mergemaid

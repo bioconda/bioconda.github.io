@@ -50,6 +50,7 @@ ucsc-wordline
 
 
 .. |downloads_ucsc-wordline| image:: https://img.shields.io/conda/dn/bioconda/ucsc-wordline.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-wordline
    :alt:   (downloads)
 .. |docker_ucsc-wordline| image:: https://quay.io/repository/biocontainers/ucsc-wordline/status
    :target: https://quay.io/repository/biocontainers/ucsc-wordline

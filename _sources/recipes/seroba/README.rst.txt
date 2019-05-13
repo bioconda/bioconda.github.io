@@ -58,6 +58,7 @@ seroba
 
 
 .. |downloads_seroba| image:: https://img.shields.io/conda/dn/bioconda/seroba.svg?style=flat
+   :target: https://anaconda.org/bioconda/seroba
    :alt:   (downloads)
 .. |docker_seroba| image:: https://quay.io/repository/biocontainers/seroba/status
    :target: https://quay.io/repository/biocontainers/seroba

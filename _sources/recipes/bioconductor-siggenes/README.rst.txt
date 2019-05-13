@@ -48,6 +48,7 @@ bioconductor-siggenes
 
 
 .. |downloads_bioconductor-siggenes| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-siggenes.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-siggenes
    :alt:   (downloads)
 .. |docker_bioconductor-siggenes| image:: https://quay.io/repository/biocontainers/bioconductor-siggenes/status
    :target: https://quay.io/repository/biocontainers/bioconductor-siggenes

@@ -51,6 +51,7 @@ dicey
 
 
 .. |downloads_dicey| image:: https://img.shields.io/conda/dn/bioconda/dicey.svg?style=flat
+   :target: https://anaconda.org/bioconda/dicey
    :alt:   (downloads)
 .. |docker_dicey| image:: https://quay.io/repository/biocontainers/dicey/status
    :target: https://quay.io/repository/biocontainers/dicey

@@ -47,6 +47,7 @@ bioconductor-rtcga.mutations
 
 
 .. |downloads_bioconductor-rtcga.mutations| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rtcga.mutations.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rtcga.mutations
    :alt:   (downloads)
 .. |docker_bioconductor-rtcga.mutations| image:: https://quay.io/repository/biocontainers/bioconductor-rtcga.mutations/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rtcga.mutations

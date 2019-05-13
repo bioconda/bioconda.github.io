@@ -47,6 +47,7 @@ bioconductor-mesh.pae.pao1.eg.db
 
 
 .. |downloads_bioconductor-mesh.pae.pao1.eg.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mesh.pae.pao1.eg.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mesh.pae.pao1.eg.db
    :alt:   (downloads)
 .. |docker_bioconductor-mesh.pae.pao1.eg.db| image:: https://quay.io/repository/biocontainers/bioconductor-mesh.pae.pao1.eg.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mesh.pae.pao1.eg.db

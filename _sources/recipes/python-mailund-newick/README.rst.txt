@@ -45,6 +45,7 @@ python-mailund-newick
 
 
 .. |downloads_python-mailund-newick| image:: https://img.shields.io/conda/dn/bioconda/python-mailund-newick.svg?style=flat
+   :target: https://anaconda.org/bioconda/python-mailund-newick
    :alt:   (downloads)
 .. |docker_python-mailund-newick| image:: https://quay.io/repository/biocontainers/python-mailund-newick/status
    :target: https://quay.io/repository/biocontainers/python-mailund-newick

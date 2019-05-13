@@ -47,6 +47,7 @@ perl-term-app-roles
 
 
 .. |downloads_perl-term-app-roles| image:: https://img.shields.io/conda/dn/bioconda/perl-term-app-roles.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-term-app-roles
    :alt:   (downloads)
 .. |docker_perl-term-app-roles| image:: https://quay.io/repository/biocontainers/perl-term-app-roles/status
    :target: https://quay.io/repository/biocontainers/perl-term-app-roles

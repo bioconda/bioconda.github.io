@@ -49,6 +49,7 @@ msisensor
 
 
 .. |downloads_msisensor| image:: https://img.shields.io/conda/dn/bioconda/msisensor.svg?style=flat
+   :target: https://anaconda.org/bioconda/msisensor
    :alt:   (downloads)
 .. |docker_msisensor| image:: https://quay.io/repository/biocontainers/msisensor/status
    :target: https://quay.io/repository/biocontainers/msisensor

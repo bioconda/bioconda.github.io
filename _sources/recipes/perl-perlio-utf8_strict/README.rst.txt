@@ -48,6 +48,7 @@ perl-perlio-utf8_strict
 
 
 .. |downloads_perl-perlio-utf8_strict| image:: https://img.shields.io/conda/dn/bioconda/perl-perlio-utf8_strict.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-perlio-utf8_strict
    :alt:   (downloads)
 .. |docker_perl-perlio-utf8_strict| image:: https://quay.io/repository/biocontainers/perl-perlio-utf8_strict/status
    :target: https://quay.io/repository/biocontainers/perl-perlio-utf8_strict

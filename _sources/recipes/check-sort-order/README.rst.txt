@@ -44,6 +44,7 @@ check-sort-order
 
 
 .. |downloads_check-sort-order| image:: https://img.shields.io/conda/dn/bioconda/check-sort-order.svg?style=flat
+   :target: https://anaconda.org/bioconda/check-sort-order
    :alt:   (downloads)
 .. |docker_check-sort-order| image:: https://quay.io/repository/biocontainers/check-sort-order/status
    :target: https://quay.io/repository/biocontainers/check-sort-order

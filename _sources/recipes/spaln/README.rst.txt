@@ -55,6 +55,7 @@ spaln
 
 
 .. |downloads_spaln| image:: https://img.shields.io/conda/dn/bioconda/spaln.svg?style=flat
+   :target: https://anaconda.org/bioconda/spaln
    :alt:   (downloads)
 .. |docker_spaln| image:: https://quay.io/repository/biocontainers/spaln/status
    :target: https://quay.io/repository/biocontainers/spaln

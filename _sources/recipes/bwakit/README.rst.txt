@@ -45,6 +45,7 @@ bwakit
 
 
 .. |downloads_bwakit| image:: https://img.shields.io/conda/dn/bioconda/bwakit.svg?style=flat
+   :target: https://anaconda.org/bioconda/bwakit
    :alt:   (downloads)
 .. |docker_bwakit| image:: https://quay.io/repository/biocontainers/bwakit/status
    :target: https://quay.io/repository/biocontainers/bwakit

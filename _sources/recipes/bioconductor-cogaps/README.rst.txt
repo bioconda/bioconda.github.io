@@ -57,6 +57,7 @@ bioconductor-cogaps
 
 
 .. |downloads_bioconductor-cogaps| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cogaps.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cogaps
    :alt:   (downloads)
 .. |docker_bioconductor-cogaps| image:: https://quay.io/repository/biocontainers/bioconductor-cogaps/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cogaps

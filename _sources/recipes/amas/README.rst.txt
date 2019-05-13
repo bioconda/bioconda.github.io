@@ -45,6 +45,7 @@ amas
 
 
 .. |downloads_amas| image:: https://img.shields.io/conda/dn/bioconda/amas.svg?style=flat
+   :target: https://anaconda.org/bioconda/amas
    :alt:   (downloads)
 .. |docker_amas| image:: https://quay.io/repository/biocontainers/amas/status
    :target: https://quay.io/repository/biocontainers/amas

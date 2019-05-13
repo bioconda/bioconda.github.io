@@ -46,6 +46,7 @@ galaxy_sequence_utils
 
 
 .. |downloads_galaxy_sequence_utils| image:: https://img.shields.io/conda/dn/bioconda/galaxy_sequence_utils.svg?style=flat
+   :target: https://anaconda.org/bioconda/galaxy_sequence_utils
    :alt:   (downloads)
 .. |docker_galaxy_sequence_utils| image:: https://quay.io/repository/biocontainers/galaxy_sequence_utils/status
    :target: https://quay.io/repository/biocontainers/galaxy_sequence_utils

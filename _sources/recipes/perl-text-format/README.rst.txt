@@ -45,6 +45,7 @@ perl-text-format
 
 
 .. |downloads_perl-text-format| image:: https://img.shields.io/conda/dn/bioconda/perl-text-format.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-text-format
    :alt:   (downloads)
 .. |docker_perl-text-format| image:: https://quay.io/repository/biocontainers/perl-text-format/status
    :target: https://quay.io/repository/biocontainers/perl-text-format

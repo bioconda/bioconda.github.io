@@ -50,6 +50,7 @@ ucsc-hggoldgapgl
 
 
 .. |downloads_ucsc-hggoldgapgl| image:: https://img.shields.io/conda/dn/bioconda/ucsc-hggoldgapgl.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-hggoldgapgl
    :alt:   (downloads)
 .. |docker_ucsc-hggoldgapgl| image:: https://quay.io/repository/biocontainers/ucsc-hggoldgapgl/status
    :target: https://quay.io/repository/biocontainers/ucsc-hggoldgapgl

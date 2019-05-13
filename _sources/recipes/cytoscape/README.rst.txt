@@ -51,6 +51,7 @@ cytoscape
 
 
 .. |downloads_cytoscape| image:: https://img.shields.io/conda/dn/bioconda/cytoscape.svg?style=flat
+   :target: https://anaconda.org/bioconda/cytoscape
    :alt:   (downloads)
 .. |docker_cytoscape| image:: https://quay.io/repository/biocontainers/cytoscape/status
    :target: https://quay.io/repository/biocontainers/cytoscape

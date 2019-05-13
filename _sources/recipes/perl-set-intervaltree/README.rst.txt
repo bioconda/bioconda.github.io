@@ -46,6 +46,7 @@ perl-set-intervaltree
 
 
 .. |downloads_perl-set-intervaltree| image:: https://img.shields.io/conda/dn/bioconda/perl-set-intervaltree.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-set-intervaltree
    :alt:   (downloads)
 .. |docker_perl-set-intervaltree| image:: https://quay.io/repository/biocontainers/perl-set-intervaltree/status
    :target: https://quay.io/repository/biocontainers/perl-set-intervaltree

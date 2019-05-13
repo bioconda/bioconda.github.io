@@ -53,6 +53,7 @@ bioconductor-keggprofile
 
 
 .. |downloads_bioconductor-keggprofile| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-keggprofile.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-keggprofile
    :alt:   (downloads)
 .. |docker_bioconductor-keggprofile| image:: https://quay.io/repository/biocontainers/bioconductor-keggprofile/status
    :target: https://quay.io/repository/biocontainers/bioconductor-keggprofile

@@ -46,6 +46,7 @@ netcdf-metadata-info
 
 
 .. |downloads_netcdf-metadata-info| image:: https://img.shields.io/conda/dn/bioconda/netcdf-metadata-info.svg?style=flat
+   :target: https://anaconda.org/bioconda/netcdf-metadata-info
    :alt:   (downloads)
 .. |docker_netcdf-metadata-info| image:: https://quay.io/repository/biocontainers/netcdf-metadata-info/status
    :target: https://quay.io/repository/biocontainers/netcdf-metadata-info

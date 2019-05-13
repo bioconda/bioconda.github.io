@@ -45,6 +45,7 @@ realphy
 
 
 .. |downloads_realphy| image:: https://img.shields.io/conda/dn/bioconda/realphy.svg?style=flat
+   :target: https://anaconda.org/bioconda/realphy
    :alt:   (downloads)
 .. |docker_realphy| image:: https://quay.io/repository/biocontainers/realphy/status
    :target: https://quay.io/repository/biocontainers/realphy

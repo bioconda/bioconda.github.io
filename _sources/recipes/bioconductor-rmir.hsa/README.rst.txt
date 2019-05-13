@@ -47,6 +47,7 @@ bioconductor-rmir.hsa
 
 
 .. |downloads_bioconductor-rmir.hsa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rmir.hsa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rmir.hsa
    :alt:   (downloads)
 .. |docker_bioconductor-rmir.hsa| image:: https://quay.io/repository/biocontainers/bioconductor-rmir.hsa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rmir.hsa

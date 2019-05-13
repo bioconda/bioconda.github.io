@@ -67,6 +67,7 @@ perl-biosails
 
 
 .. |downloads_perl-biosails| image:: https://img.shields.io/conda/dn/bioconda/perl-biosails.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-biosails
    :alt:   (downloads)
 .. |docker_perl-biosails| image:: https://quay.io/repository/biocontainers/perl-biosails/status
    :target: https://quay.io/repository/biocontainers/perl-biosails

@@ -47,6 +47,7 @@ bioconductor-barley1cdf
 
 
 .. |downloads_bioconductor-barley1cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-barley1cdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-barley1cdf
    :alt:   (downloads)
 .. |docker_bioconductor-barley1cdf| image:: https://quay.io/repository/biocontainers/bioconductor-barley1cdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-barley1cdf

@@ -56,6 +56,7 @@ bioconductor-powerexplorer
 
 
 .. |downloads_bioconductor-powerexplorer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-powerexplorer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-powerexplorer
    :alt:   (downloads)
 .. |docker_bioconductor-powerexplorer| image:: https://quay.io/repository/biocontainers/bioconductor-powerexplorer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-powerexplorer

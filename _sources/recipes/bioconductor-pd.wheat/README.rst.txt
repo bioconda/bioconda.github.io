@@ -53,6 +53,7 @@ bioconductor-pd.wheat
 
 
 .. |downloads_bioconductor-pd.wheat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.wheat.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.wheat
    :alt:   (downloads)
 .. |docker_bioconductor-pd.wheat| image:: https://quay.io/repository/biocontainers/bioconductor-pd.wheat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.wheat

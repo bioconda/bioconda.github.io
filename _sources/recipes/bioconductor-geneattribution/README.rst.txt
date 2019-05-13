@@ -53,6 +53,7 @@ bioconductor-geneattribution
 
 
 .. |downloads_bioconductor-geneattribution| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geneattribution.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-geneattribution
    :alt:   (downloads)
 .. |docker_bioconductor-geneattribution| image:: https://quay.io/repository/biocontainers/bioconductor-geneattribution/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geneattribution

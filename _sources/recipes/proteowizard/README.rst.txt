@@ -46,6 +46,7 @@ proteowizard
 
 
 .. |downloads_proteowizard| image:: https://img.shields.io/conda/dn/bioconda/proteowizard.svg?style=flat
+   :target: https://anaconda.org/bioconda/proteowizard
    :alt:   (downloads)
 .. |docker_proteowizard| image:: https://quay.io/repository/biocontainers/proteowizard/status
    :target: https://quay.io/repository/biocontainers/proteowizard

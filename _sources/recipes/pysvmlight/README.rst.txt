@@ -46,6 +46,7 @@ pysvmlight
 
 
 .. |downloads_pysvmlight| image:: https://img.shields.io/conda/dn/bioconda/pysvmlight.svg?style=flat
+   :target: https://anaconda.org/bioconda/pysvmlight
    :alt:   (downloads)
 .. |docker_pysvmlight| image:: https://quay.io/repository/biocontainers/pysvmlight/status
    :target: https://quay.io/repository/biocontainers/pysvmlight

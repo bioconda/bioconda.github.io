@@ -49,6 +49,7 @@ bioconductor-ebsea
 
 
 .. |downloads_bioconductor-ebsea| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ebsea.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ebsea
    :alt:   (downloads)
 .. |docker_bioconductor-ebsea| image:: https://quay.io/repository/biocontainers/bioconductor-ebsea/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ebsea

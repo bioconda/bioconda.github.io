@@ -45,6 +45,7 @@ consel
 
 
 .. |downloads_consel| image:: https://img.shields.io/conda/dn/bioconda/consel.svg?style=flat
+   :target: https://anaconda.org/bioconda/consel
    :alt:   (downloads)
 .. |docker_consel| image:: https://quay.io/repository/biocontainers/consel/status
    :target: https://quay.io/repository/biocontainers/consel

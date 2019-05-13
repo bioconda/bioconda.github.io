@@ -48,6 +48,7 @@ bioconductor-restfulsedata
 
 
 .. |downloads_bioconductor-restfulsedata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-restfulsedata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-restfulsedata
    :alt:   (downloads)
 .. |docker_bioconductor-restfulsedata| image:: https://quay.io/repository/biocontainers/bioconductor-restfulsedata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-restfulsedata

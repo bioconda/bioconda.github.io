@@ -48,6 +48,7 @@ r-ridigbio
 
 
 .. |downloads_r-ridigbio| image:: https://img.shields.io/conda/dn/bioconda/r-ridigbio.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-ridigbio
    :alt:   (downloads)
 .. |docker_r-ridigbio| image:: https://quay.io/repository/biocontainers/r-ridigbio/status
    :target: https://quay.io/repository/biocontainers/r-ridigbio

@@ -66,6 +66,7 @@ bioconductor-repitools
 
 
 .. |downloads_bioconductor-repitools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-repitools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-repitools
    :alt:   (downloads)
 .. |docker_bioconductor-repitools| image:: https://quay.io/repository/biocontainers/bioconductor-repitools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-repitools

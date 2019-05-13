@@ -50,6 +50,7 @@ debwt
 
 
 .. |downloads_debwt| image:: https://img.shields.io/conda/dn/bioconda/debwt.svg?style=flat
+   :target: https://anaconda.org/bioconda/debwt
    :alt:   (downloads)
 .. |docker_debwt| image:: https://quay.io/repository/biocontainers/debwt/status
    :target: https://quay.io/repository/biocontainers/debwt

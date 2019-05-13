@@ -51,6 +51,7 @@ python-tripal
 
 
 .. |downloads_python-tripal| image:: https://img.shields.io/conda/dn/bioconda/python-tripal.svg?style=flat
+   :target: https://anaconda.org/bioconda/python-tripal
    :alt:   (downloads)
 .. |docker_python-tripal| image:: https://quay.io/repository/biocontainers/python-tripal/status
    :target: https://quay.io/repository/biocontainers/python-tripal

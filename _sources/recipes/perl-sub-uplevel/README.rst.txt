@@ -46,6 +46,7 @@ perl-sub-uplevel
 
 
 .. |downloads_perl-sub-uplevel| image:: https://img.shields.io/conda/dn/bioconda/perl-sub-uplevel.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-sub-uplevel
    :alt:   (downloads)
 .. |docker_perl-sub-uplevel| image:: https://quay.io/repository/biocontainers/perl-sub-uplevel/status
    :target: https://quay.io/repository/biocontainers/perl-sub-uplevel

@@ -45,6 +45,7 @@ sibelia
 
 
 .. |downloads_sibelia| image:: https://img.shields.io/conda/dn/bioconda/sibelia.svg?style=flat
+   :target: https://anaconda.org/bioconda/sibelia
    :alt:   (downloads)
 .. |docker_sibelia| image:: https://quay.io/repository/biocontainers/sibelia/status
    :target: https://quay.io/repository/biocontainers/sibelia

@@ -51,6 +51,7 @@ combined-pvalues
 
 
 .. |downloads_combined-pvalues| image:: https://img.shields.io/conda/dn/bioconda/combined-pvalues.svg?style=flat
+   :target: https://anaconda.org/bioconda/combined-pvalues
    :alt:   (downloads)
 .. |docker_combined-pvalues| image:: https://quay.io/repository/biocontainers/combined-pvalues/status
    :target: https://quay.io/repository/biocontainers/combined-pvalues

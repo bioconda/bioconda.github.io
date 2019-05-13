@@ -45,6 +45,7 @@ mendelscan
 
 
 .. |downloads_mendelscan| image:: https://img.shields.io/conda/dn/bioconda/mendelscan.svg?style=flat
+   :target: https://anaconda.org/bioconda/mendelscan
    :alt:   (downloads)
 .. |docker_mendelscan| image:: https://quay.io/repository/biocontainers/mendelscan/status
    :target: https://quay.io/repository/biocontainers/mendelscan

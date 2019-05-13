@@ -53,6 +53,7 @@ fermikit
 
 
 .. |downloads_fermikit| image:: https://img.shields.io/conda/dn/bioconda/fermikit.svg?style=flat
+   :target: https://anaconda.org/bioconda/fermikit
    :alt:   (downloads)
 .. |docker_fermikit| image:: https://quay.io/repository/biocontainers/fermikit/status
    :target: https://quay.io/repository/biocontainers/fermikit

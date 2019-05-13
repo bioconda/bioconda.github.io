@@ -53,6 +53,7 @@ r-transformer
 
 
 .. |downloads_r-transformer| image:: https://img.shields.io/conda/dn/bioconda/r-transformer.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-transformer
    :alt:   (downloads)
 .. |docker_r-transformer| image:: https://quay.io/repository/biocontainers/r-transformer/status
    :target: https://quay.io/repository/biocontainers/r-transformer

@@ -49,6 +49,7 @@ bioconductor-snplocs.hsapiens.dbsnp.20120608
 
 
 .. |downloads_bioconductor-snplocs.hsapiens.dbsnp.20120608| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-snplocs.hsapiens.dbsnp.20120608.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-snplocs.hsapiens.dbsnp.20120608
    :alt:   (downloads)
 .. |docker_bioconductor-snplocs.hsapiens.dbsnp.20120608| image:: https://quay.io/repository/biocontainers/bioconductor-snplocs.hsapiens.dbsnp.20120608/status
    :target: https://quay.io/repository/biocontainers/bioconductor-snplocs.hsapiens.dbsnp.20120608

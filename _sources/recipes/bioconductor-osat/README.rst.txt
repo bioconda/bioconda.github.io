@@ -46,6 +46,7 @@ bioconductor-osat
 
 
 .. |downloads_bioconductor-osat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-osat.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-osat
    :alt:   (downloads)
 .. |docker_bioconductor-osat| image:: https://quay.io/repository/biocontainers/bioconductor-osat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-osat

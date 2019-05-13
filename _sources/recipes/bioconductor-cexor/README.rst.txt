@@ -55,6 +55,7 @@ bioconductor-cexor
 
 
 .. |downloads_bioconductor-cexor| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cexor.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cexor
    :alt:   (downloads)
 .. |docker_bioconductor-cexor| image:: https://quay.io/repository/biocontainers/bioconductor-cexor/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cexor

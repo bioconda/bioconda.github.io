@@ -51,6 +51,7 @@ nanopore_simulation
 
 
 .. |downloads_nanopore_simulation| image:: https://img.shields.io/conda/dn/bioconda/nanopore_simulation.svg?style=flat
+   :target: https://anaconda.org/bioconda/nanopore_simulation
    :alt:   (downloads)
 .. |docker_nanopore_simulation| image:: https://quay.io/repository/biocontainers/nanopore_simulation/status
    :target: https://quay.io/repository/biocontainers/nanopore_simulation

@@ -47,6 +47,7 @@ ped_parser
 
 
 .. |downloads_ped_parser| image:: https://img.shields.io/conda/dn/bioconda/ped_parser.svg?style=flat
+   :target: https://anaconda.org/bioconda/ped_parser
    :alt:   (downloads)
 .. |docker_ped_parser| image:: https://quay.io/repository/biocontainers/ped_parser/status
    :target: https://quay.io/repository/biocontainers/ped_parser

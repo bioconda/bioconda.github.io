@@ -47,6 +47,7 @@ perl-statistics-basic
 
 
 .. |downloads_perl-statistics-basic| image:: https://img.shields.io/conda/dn/bioconda/perl-statistics-basic.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-statistics-basic
    :alt:   (downloads)
 .. |docker_perl-statistics-basic| image:: https://quay.io/repository/biocontainers/perl-statistics-basic/status
    :target: https://quay.io/repository/biocontainers/perl-statistics-basic

@@ -46,6 +46,7 @@ gerp
 
 
 .. |downloads_gerp| image:: https://img.shields.io/conda/dn/bioconda/gerp.svg?style=flat
+   :target: https://anaconda.org/bioconda/gerp
    :alt:   (downloads)
 .. |docker_gerp| image:: https://quay.io/repository/biocontainers/gerp/status
    :target: https://quay.io/repository/biocontainers/gerp

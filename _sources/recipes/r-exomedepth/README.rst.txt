@@ -55,6 +55,7 @@ r-exomedepth
 
 
 .. |downloads_r-exomedepth| image:: https://img.shields.io/conda/dn/bioconda/r-exomedepth.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-exomedepth
    :alt:   (downloads)
 .. |docker_r-exomedepth| image:: https://quay.io/repository/biocontainers/r-exomedepth/status
    :target: https://quay.io/repository/biocontainers/r-exomedepth

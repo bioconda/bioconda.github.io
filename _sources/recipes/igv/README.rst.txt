@@ -46,6 +46,7 @@ igv
 
 
 .. |downloads_igv| image:: https://img.shields.io/conda/dn/bioconda/igv.svg?style=flat
+   :target: https://anaconda.org/bioconda/igv
    :alt:   (downloads)
 .. |docker_igv| image:: https://quay.io/repository/biocontainers/igv/status
    :target: https://quay.io/repository/biocontainers/igv

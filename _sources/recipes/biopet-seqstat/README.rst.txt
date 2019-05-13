@@ -85,6 +85,7 @@ biopet-seqstat
 
 
 .. |downloads_biopet-seqstat| image:: https://img.shields.io/conda/dn/bioconda/biopet-seqstat.svg?style=flat
+   :target: https://anaconda.org/bioconda/biopet-seqstat
    :alt:   (downloads)
 .. |docker_biopet-seqstat| image:: https://quay.io/repository/biocontainers/biopet-seqstat/status
    :target: https://quay.io/repository/biocontainers/biopet-seqstat

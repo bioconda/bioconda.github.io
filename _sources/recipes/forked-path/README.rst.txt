@@ -45,6 +45,7 @@ forked-path
 
 
 .. |downloads_forked-path| image:: https://img.shields.io/conda/dn/bioconda/forked-path.svg?style=flat
+   :target: https://anaconda.org/bioconda/forked-path
    :alt:   (downloads)
 .. |docker_forked-path| image:: https://quay.io/repository/biocontainers/forked-path/status
    :target: https://quay.io/repository/biocontainers/forked-path

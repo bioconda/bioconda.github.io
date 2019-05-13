@@ -46,6 +46,7 @@ methylextract
 
 
 .. |downloads_methylextract| image:: https://img.shields.io/conda/dn/bioconda/methylextract.svg?style=flat
+   :target: https://anaconda.org/bioconda/methylextract
    :alt:   (downloads)
 .. |docker_methylextract| image:: https://quay.io/repository/biocontainers/methylextract/status
    :target: https://quay.io/repository/biocontainers/methylextract

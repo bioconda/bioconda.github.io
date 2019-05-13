@@ -47,6 +47,7 @@ bioconductor-drosgenome1probe
 
 
 .. |downloads_bioconductor-drosgenome1probe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-drosgenome1probe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-drosgenome1probe
    :alt:   (downloads)
 .. |docker_bioconductor-drosgenome1probe| image:: https://quay.io/repository/biocontainers/bioconductor-drosgenome1probe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-drosgenome1probe

@@ -48,6 +48,7 @@ tobias
 
 
 .. |downloads_tobias| image:: https://img.shields.io/conda/dn/bioconda/tobias.svg?style=flat
+   :target: https://anaconda.org/bioconda/tobias
    :alt:   (downloads)
 .. |docker_tobias| image:: https://quay.io/repository/biocontainers/tobias/status
    :target: https://quay.io/repository/biocontainers/tobias

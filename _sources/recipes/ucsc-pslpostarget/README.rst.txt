@@ -50,6 +50,7 @@ ucsc-pslpostarget
 
 
 .. |downloads_ucsc-pslpostarget| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslpostarget.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-pslpostarget
    :alt:   (downloads)
 .. |docker_ucsc-pslpostarget| image:: https://quay.io/repository/biocontainers/ucsc-pslpostarget/status
    :target: https://quay.io/repository/biocontainers/ucsc-pslpostarget

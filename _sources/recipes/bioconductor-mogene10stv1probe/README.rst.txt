@@ -47,6 +47,7 @@ bioconductor-mogene10stv1probe
 
 
 .. |downloads_bioconductor-mogene10stv1probe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mogene10stv1probe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mogene10stv1probe
    :alt:   (downloads)
 .. |docker_bioconductor-mogene10stv1probe| image:: https://quay.io/repository/biocontainers/bioconductor-mogene10stv1probe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mogene10stv1probe

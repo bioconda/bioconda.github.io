@@ -47,6 +47,7 @@ bs-seeker2
 
 
 .. |downloads_bs-seeker2| image:: https://img.shields.io/conda/dn/bioconda/bs-seeker2.svg?style=flat
+   :target: https://anaconda.org/bioconda/bs-seeker2
    :alt:   (downloads)
 .. |docker_bs-seeker2| image:: https://quay.io/repository/biocontainers/bs-seeker2/status
    :target: https://quay.io/repository/biocontainers/bs-seeker2

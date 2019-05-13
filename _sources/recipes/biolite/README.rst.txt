@@ -58,6 +58,7 @@ biolite
 
 
 .. |downloads_biolite| image:: https://img.shields.io/conda/dn/bioconda/biolite.svg?style=flat
+   :target: https://anaconda.org/bioconda/biolite
    :alt:   (downloads)
 .. |docker_biolite| image:: https://quay.io/repository/biocontainers/biolite/status
    :target: https://quay.io/repository/biocontainers/biolite

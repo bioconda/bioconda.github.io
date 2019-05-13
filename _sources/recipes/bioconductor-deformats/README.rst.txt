@@ -53,6 +53,7 @@ bioconductor-deformats
 
 
 .. |downloads_bioconductor-deformats| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-deformats.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-deformats
    :alt:   (downloads)
 .. |docker_bioconductor-deformats| image:: https://quay.io/repository/biocontainers/bioconductor-deformats/status
    :target: https://quay.io/repository/biocontainers/bioconductor-deformats

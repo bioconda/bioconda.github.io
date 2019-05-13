@@ -45,6 +45,7 @@ perl-spiffy
 
 
 .. |downloads_perl-spiffy| image:: https://img.shields.io/conda/dn/bioconda/perl-spiffy.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-spiffy
    :alt:   (downloads)
 .. |docker_perl-spiffy| image:: https://quay.io/repository/biocontainers/perl-spiffy/status
    :target: https://quay.io/repository/biocontainers/perl-spiffy

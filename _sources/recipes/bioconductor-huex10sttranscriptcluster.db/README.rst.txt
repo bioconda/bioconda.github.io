@@ -48,6 +48,7 @@ bioconductor-huex10sttranscriptcluster.db
 
 
 .. |downloads_bioconductor-huex10sttranscriptcluster.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-huex10sttranscriptcluster.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-huex10sttranscriptcluster.db
    :alt:   (downloads)
 .. |docker_bioconductor-huex10sttranscriptcluster.db| image:: https://quay.io/repository/biocontainers/bioconductor-huex10sttranscriptcluster.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-huex10sttranscriptcluster.db

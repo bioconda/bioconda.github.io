@@ -66,6 +66,7 @@ metaphlan2
 
 
 .. |downloads_metaphlan2| image:: https://img.shields.io/conda/dn/bioconda/metaphlan2.svg?style=flat
+   :target: https://anaconda.org/bioconda/metaphlan2
    :alt:   (downloads)
 .. |docker_metaphlan2| image:: https://quay.io/repository/biocontainers/metaphlan2/status
    :target: https://quay.io/repository/biocontainers/metaphlan2

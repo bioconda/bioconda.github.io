@@ -56,6 +56,7 @@ bioconductor-genestructuretools
 
 
 .. |downloads_bioconductor-genestructuretools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genestructuretools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genestructuretools
    :alt:   (downloads)
 .. |docker_bioconductor-genestructuretools| image:: https://quay.io/repository/biocontainers/bioconductor-genestructuretools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genestructuretools

@@ -52,6 +52,7 @@ bioconductor-uniprot.ws
 
 
 .. |downloads_bioconductor-uniprot.ws| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-uniprot.ws.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-uniprot.ws
    :alt:   (downloads)
 .. |docker_bioconductor-uniprot.ws| image:: https://quay.io/repository/biocontainers/bioconductor-uniprot.ws/status
    :target: https://quay.io/repository/biocontainers/bioconductor-uniprot.ws

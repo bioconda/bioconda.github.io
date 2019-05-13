@@ -50,6 +50,7 @@ bioconductor-qplexdata
 
 
 .. |downloads_bioconductor-qplexdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-qplexdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-qplexdata
    :alt:   (downloads)
 .. |docker_bioconductor-qplexdata| image:: https://quay.io/repository/biocontainers/bioconductor-qplexdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-qplexdata

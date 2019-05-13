@@ -46,6 +46,7 @@ sexdeterrmine
 
 
 .. |downloads_sexdeterrmine| image:: https://img.shields.io/conda/dn/bioconda/sexdeterrmine.svg?style=flat
+   :target: https://anaconda.org/bioconda/sexdeterrmine
    :alt:   (downloads)
 .. |docker_sexdeterrmine| image:: https://quay.io/repository/biocontainers/sexdeterrmine/status
    :target: https://quay.io/repository/biocontainers/sexdeterrmine

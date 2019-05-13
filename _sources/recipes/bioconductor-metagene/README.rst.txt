@@ -65,6 +65,7 @@ bioconductor-metagene
 
 
 .. |downloads_bioconductor-metagene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metagene.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-metagene
    :alt:   (downloads)
 .. |docker_bioconductor-metagene| image:: https://quay.io/repository/biocontainers/bioconductor-metagene/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metagene

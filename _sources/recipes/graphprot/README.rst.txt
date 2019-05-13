@@ -57,6 +57,7 @@ graphprot
 
 
 .. |downloads_graphprot| image:: https://img.shields.io/conda/dn/bioconda/graphprot.svg?style=flat
+   :target: https://anaconda.org/bioconda/graphprot
    :alt:   (downloads)
 .. |docker_graphprot| image:: https://quay.io/repository/biocontainers/graphprot/status
    :target: https://quay.io/repository/biocontainers/graphprot

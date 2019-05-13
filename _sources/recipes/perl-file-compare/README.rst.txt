@@ -45,6 +45,7 @@ perl-file-compare
 
 
 .. |downloads_perl-file-compare| image:: https://img.shields.io/conda/dn/bioconda/perl-file-compare.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-compare
    :alt:   (downloads)
 .. |docker_perl-file-compare| image:: https://quay.io/repository/biocontainers/perl-file-compare/status
    :target: https://quay.io/repository/biocontainers/perl-file-compare

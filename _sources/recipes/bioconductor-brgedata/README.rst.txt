@@ -48,6 +48,7 @@ bioconductor-brgedata
 
 
 .. |downloads_bioconductor-brgedata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-brgedata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-brgedata
    :alt:   (downloads)
 .. |docker_bioconductor-brgedata| image:: https://quay.io/repository/biocontainers/bioconductor-brgedata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-brgedata

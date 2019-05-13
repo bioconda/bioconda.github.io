@@ -45,6 +45,7 @@ perl-exporter
 
 
 .. |downloads_perl-exporter| image:: https://img.shields.io/conda/dn/bioconda/perl-exporter.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-exporter
    :alt:   (downloads)
 .. |docker_perl-exporter| image:: https://quay.io/repository/biocontainers/perl-exporter/status
    :target: https://quay.io/repository/biocontainers/perl-exporter

@@ -46,6 +46,7 @@ tqdist
 
 
 .. |downloads_tqdist| image:: https://img.shields.io/conda/dn/bioconda/tqdist.svg?style=flat
+   :target: https://anaconda.org/bioconda/tqdist
    :alt:   (downloads)
 .. |docker_tqdist| image:: https://quay.io/repository/biocontainers/tqdist/status
    :target: https://quay.io/repository/biocontainers/tqdist

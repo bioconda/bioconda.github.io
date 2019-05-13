@@ -50,6 +50,7 @@ ucsc-mafmefirst
 
 
 .. |downloads_ucsc-mafmefirst| image:: https://img.shields.io/conda/dn/bioconda/ucsc-mafmefirst.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-mafmefirst
    :alt:   (downloads)
 .. |docker_ucsc-mafmefirst| image:: https://quay.io/repository/biocontainers/ucsc-mafmefirst/status
    :target: https://quay.io/repository/biocontainers/ucsc-mafmefirst

@@ -47,6 +47,7 @@ bioconductor-fission
 
 
 .. |downloads_bioconductor-fission| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fission.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-fission
    :alt:   (downloads)
 .. |docker_bioconductor-fission| image:: https://quay.io/repository/biocontainers/bioconductor-fission/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fission

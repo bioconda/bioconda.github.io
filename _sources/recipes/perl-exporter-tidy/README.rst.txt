@@ -45,6 +45,7 @@ perl-exporter-tidy
 
 
 .. |downloads_perl-exporter-tidy| image:: https://img.shields.io/conda/dn/bioconda/perl-exporter-tidy.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-exporter-tidy
    :alt:   (downloads)
 .. |docker_perl-exporter-tidy| image:: https://quay.io/repository/biocontainers/perl-exporter-tidy/status
    :target: https://quay.io/repository/biocontainers/perl-exporter-tidy

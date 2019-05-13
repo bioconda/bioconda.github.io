@@ -46,6 +46,7 @@ perl-data-utilities
 
 
 .. |downloads_perl-data-utilities| image:: https://img.shields.io/conda/dn/bioconda/perl-data-utilities.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-data-utilities
    :alt:   (downloads)
 .. |docker_perl-data-utilities| image:: https://quay.io/repository/biocontainers/perl-data-utilities/status
    :target: https://quay.io/repository/biocontainers/perl-data-utilities

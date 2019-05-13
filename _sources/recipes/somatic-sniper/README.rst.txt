@@ -45,6 +45,7 @@ somatic-sniper
 
 
 .. |downloads_somatic-sniper| image:: https://img.shields.io/conda/dn/bioconda/somatic-sniper.svg?style=flat
+   :target: https://anaconda.org/bioconda/somatic-sniper
    :alt:   (downloads)
 .. |docker_somatic-sniper| image:: https://quay.io/repository/biocontainers/somatic-sniper/status
    :target: https://quay.io/repository/biocontainers/somatic-sniper

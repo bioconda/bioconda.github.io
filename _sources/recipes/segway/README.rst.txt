@@ -57,6 +57,7 @@ segway
 
 
 .. |downloads_segway| image:: https://img.shields.io/conda/dn/bioconda/segway.svg?style=flat
+   :target: https://anaconda.org/bioconda/segway
    :alt:   (downloads)
 .. |docker_segway| image:: https://quay.io/repository/biocontainers/segway/status
    :target: https://quay.io/repository/biocontainers/segway

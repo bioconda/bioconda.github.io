@@ -49,6 +49,7 @@ r-loom
 
 
 .. |downloads_r-loom| image:: https://img.shields.io/conda/dn/bioconda/r-loom.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-loom
    :alt:   (downloads)
 .. |docker_r-loom| image:: https://quay.io/repository/biocontainers/r-loom/status
    :target: https://quay.io/repository/biocontainers/r-loom

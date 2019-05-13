@@ -46,6 +46,7 @@ bioconductor-chromstardata
 
 
 .. |downloads_bioconductor-chromstardata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chromstardata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chromstardata
    :alt:   (downloads)
 .. |docker_bioconductor-chromstardata| image:: https://quay.io/repository/biocontainers/bioconductor-chromstardata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chromstardata

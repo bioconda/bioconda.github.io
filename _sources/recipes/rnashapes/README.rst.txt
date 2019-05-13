@@ -49,6 +49,7 @@ rnashapes
 
 
 .. |downloads_rnashapes| image:: https://img.shields.io/conda/dn/bioconda/rnashapes.svg?style=flat
+   :target: https://anaconda.org/bioconda/rnashapes
    :alt:   (downloads)
 .. |docker_rnashapes| image:: https://quay.io/repository/biocontainers/rnashapes/status
    :target: https://quay.io/repository/biocontainers/rnashapes

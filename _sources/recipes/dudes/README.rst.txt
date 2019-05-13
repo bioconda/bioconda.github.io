@@ -47,6 +47,7 @@ dudes
 
 
 .. |downloads_dudes| image:: https://img.shields.io/conda/dn/bioconda/dudes.svg?style=flat
+   :target: https://anaconda.org/bioconda/dudes
    :alt:   (downloads)
 .. |docker_dudes| image:: https://quay.io/repository/biocontainers/dudes/status
    :target: https://quay.io/repository/biocontainers/dudes

@@ -45,6 +45,7 @@ cityhash
 
 
 .. |downloads_cityhash| image:: https://img.shields.io/conda/dn/bioconda/cityhash.svg?style=flat
+   :target: https://anaconda.org/bioconda/cityhash
    :alt:   (downloads)
 .. |docker_cityhash| image:: https://quay.io/repository/biocontainers/cityhash/status
    :target: https://quay.io/repository/biocontainers/cityhash

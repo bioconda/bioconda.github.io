@@ -48,6 +48,7 @@ r-ngsplotdb-hg19
 
 
 .. |downloads_r-ngsplotdb-hg19| image:: https://img.shields.io/conda/dn/bioconda/r-ngsplotdb-hg19.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-ngsplotdb-hg19
    :alt:   (downloads)
 .. |docker_r-ngsplotdb-hg19| image:: https://quay.io/repository/biocontainers/r-ngsplotdb-hg19/status
    :target: https://quay.io/repository/biocontainers/r-ngsplotdb-hg19

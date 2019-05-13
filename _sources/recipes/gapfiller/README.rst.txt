@@ -47,6 +47,7 @@ gapfiller
 
 
 .. |downloads_gapfiller| image:: https://img.shields.io/conda/dn/bioconda/gapfiller.svg?style=flat
+   :target: https://anaconda.org/bioconda/gapfiller
    :alt:   (downloads)
 .. |docker_gapfiller| image:: https://quay.io/repository/biocontainers/gapfiller/status
    :target: https://quay.io/repository/biocontainers/gapfiller

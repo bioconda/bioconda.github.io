@@ -53,6 +53,7 @@ bioconductor-netsmooth
 
 
 .. |downloads_bioconductor-netsmooth| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-netsmooth.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-netsmooth
    :alt:   (downloads)
 .. |docker_bioconductor-netsmooth| image:: https://quay.io/repository/biocontainers/bioconductor-netsmooth/status
    :target: https://quay.io/repository/biocontainers/bioconductor-netsmooth

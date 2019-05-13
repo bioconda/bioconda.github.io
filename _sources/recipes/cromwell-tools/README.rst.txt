@@ -51,6 +51,7 @@ cromwell-tools
 
 
 .. |downloads_cromwell-tools| image:: https://img.shields.io/conda/dn/bioconda/cromwell-tools.svg?style=flat
+   :target: https://anaconda.org/bioconda/cromwell-tools
    :alt:   (downloads)
 .. |docker_cromwell-tools| image:: https://quay.io/repository/biocontainers/cromwell-tools/status
    :target: https://quay.io/repository/biocontainers/cromwell-tools

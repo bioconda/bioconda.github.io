@@ -52,6 +52,7 @@ bioconductor-geneplotter
 
 
 .. |downloads_bioconductor-geneplotter| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geneplotter.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-geneplotter
    :alt:   (downloads)
 .. |docker_bioconductor-geneplotter| image:: https://quay.io/repository/biocontainers/bioconductor-geneplotter/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geneplotter

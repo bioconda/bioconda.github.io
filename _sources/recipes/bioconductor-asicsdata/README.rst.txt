@@ -46,6 +46,7 @@ bioconductor-asicsdata
 
 
 .. |downloads_bioconductor-asicsdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-asicsdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-asicsdata
    :alt:   (downloads)
 .. |docker_bioconductor-asicsdata| image:: https://quay.io/repository/biocontainers/bioconductor-asicsdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-asicsdata

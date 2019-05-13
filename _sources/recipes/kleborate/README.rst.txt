@@ -47,6 +47,7 @@ kleborate
 
 
 .. |downloads_kleborate| image:: https://img.shields.io/conda/dn/bioconda/kleborate.svg?style=flat
+   :target: https://anaconda.org/bioconda/kleborate
    :alt:   (downloads)
 .. |docker_kleborate| image:: https://quay.io/repository/biocontainers/kleborate/status
    :target: https://quay.io/repository/biocontainers/kleborate

@@ -47,6 +47,7 @@ bioconductor-pcan
 
 
 .. |downloads_bioconductor-pcan| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pcan.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pcan
    :alt:   (downloads)
 .. |docker_bioconductor-pcan| image:: https://quay.io/repository/biocontainers/bioconductor-pcan/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pcan

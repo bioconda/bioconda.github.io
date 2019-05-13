@@ -47,6 +47,7 @@ vardict-java
 
 
 .. |downloads_vardict-java| image:: https://img.shields.io/conda/dn/bioconda/vardict-java.svg?style=flat
+   :target: https://anaconda.org/bioconda/vardict-java
    :alt:   (downloads)
 .. |docker_vardict-java| image:: https://quay.io/repository/biocontainers/vardict-java/status
    :target: https://quay.io/repository/biocontainers/vardict-java

@@ -48,6 +48,7 @@ bioconductor-lumiratidmapping
 
 
 .. |downloads_bioconductor-lumiratidmapping| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lumiratidmapping.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lumiratidmapping
    :alt:   (downloads)
 .. |docker_bioconductor-lumiratidmapping| image:: https://quay.io/repository/biocontainers/bioconductor-lumiratidmapping/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lumiratidmapping

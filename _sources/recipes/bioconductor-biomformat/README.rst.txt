@@ -50,6 +50,7 @@ bioconductor-biomformat
 
 
 .. |downloads_bioconductor-biomformat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biomformat.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-biomformat
    :alt:   (downloads)
 .. |docker_bioconductor-biomformat| image:: https://quay.io/repository/biocontainers/bioconductor-biomformat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biomformat

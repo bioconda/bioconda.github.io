@@ -58,6 +58,7 @@ bioconductor-breakpointr
 
 
 .. |downloads_bioconductor-breakpointr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-breakpointr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-breakpointr
    :alt:   (downloads)
 .. |docker_bioconductor-breakpointr| image:: https://quay.io/repository/biocontainers/bioconductor-breakpointr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-breakpointr

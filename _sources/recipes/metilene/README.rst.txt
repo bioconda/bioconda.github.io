@@ -49,6 +49,7 @@ metilene
 
 
 .. |downloads_metilene| image:: https://img.shields.io/conda/dn/bioconda/metilene.svg?style=flat
+   :target: https://anaconda.org/bioconda/metilene
    :alt:   (downloads)
 .. |docker_metilene| image:: https://quay.io/repository/biocontainers/metilene/status
    :target: https://quay.io/repository/biocontainers/metilene

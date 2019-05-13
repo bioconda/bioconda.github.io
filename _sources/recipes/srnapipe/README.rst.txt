@@ -59,6 +59,7 @@ srnapipe
 
 
 .. |downloads_srnapipe| image:: https://img.shields.io/conda/dn/bioconda/srnapipe.svg?style=flat
+   :target: https://anaconda.org/bioconda/srnapipe
    :alt:   (downloads)
 .. |docker_srnapipe| image:: https://quay.io/repository/biocontainers/srnapipe/status
    :target: https://quay.io/repository/biocontainers/srnapipe

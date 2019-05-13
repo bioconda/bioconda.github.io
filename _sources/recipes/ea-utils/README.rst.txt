@@ -49,6 +49,7 @@ ea-utils
 
 
 .. |downloads_ea-utils| image:: https://img.shields.io/conda/dn/bioconda/ea-utils.svg?style=flat
+   :target: https://anaconda.org/bioconda/ea-utils
    :alt:   (downloads)
 .. |docker_ea-utils| image:: https://quay.io/repository/biocontainers/ea-utils/status
    :target: https://quay.io/repository/biocontainers/ea-utils

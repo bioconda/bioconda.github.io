@@ -47,6 +47,7 @@ hts-nim-tools
 
 
 .. |downloads_hts-nim-tools| image:: https://img.shields.io/conda/dn/bioconda/hts-nim-tools.svg?style=flat
+   :target: https://anaconda.org/bioconda/hts-nim-tools
    :alt:   (downloads)
 .. |docker_hts-nim-tools| image:: https://quay.io/repository/biocontainers/hts-nim-tools/status
    :target: https://quay.io/repository/biocontainers/hts-nim-tools

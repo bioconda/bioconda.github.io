@@ -46,6 +46,7 @@ fastq-anonymous
 
 
 .. |downloads_fastq-anonymous| image:: https://img.shields.io/conda/dn/bioconda/fastq-anonymous.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastq-anonymous
    :alt:   (downloads)
 .. |docker_fastq-anonymous| image:: https://quay.io/repository/biocontainers/fastq-anonymous/status
    :target: https://quay.io/repository/biocontainers/fastq-anonymous

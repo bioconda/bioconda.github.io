@@ -50,6 +50,7 @@ ucsc-chainstitchid
 
 
 .. |downloads_ucsc-chainstitchid| image:: https://img.shields.io/conda/dn/bioconda/ucsc-chainstitchid.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-chainstitchid
    :alt:   (downloads)
 .. |docker_ucsc-chainstitchid| image:: https://quay.io/repository/biocontainers/ucsc-chainstitchid/status
    :target: https://quay.io/repository/biocontainers/ucsc-chainstitchid

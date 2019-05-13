@@ -53,6 +53,7 @@ bioconductor-flowmerge
 
 
 .. |downloads_bioconductor-flowmerge| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowmerge.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowmerge
    :alt:   (downloads)
 .. |docker_bioconductor-flowmerge| image:: https://quay.io/repository/biocontainers/bioconductor-flowmerge/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowmerge

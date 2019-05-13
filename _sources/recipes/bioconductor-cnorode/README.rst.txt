@@ -49,6 +49,7 @@ bioconductor-cnorode
 
 
 .. |downloads_bioconductor-cnorode| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cnorode.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cnorode
    :alt:   (downloads)
 .. |docker_bioconductor-cnorode| image:: https://quay.io/repository/biocontainers/bioconductor-cnorode/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cnorode

@@ -56,6 +56,7 @@ bioconductor-gcapc
 
 
 .. |downloads_bioconductor-gcapc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gcapc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gcapc
    :alt:   (downloads)
 .. |docker_bioconductor-gcapc| image:: https://quay.io/repository/biocontainers/bioconductor-gcapc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gcapc

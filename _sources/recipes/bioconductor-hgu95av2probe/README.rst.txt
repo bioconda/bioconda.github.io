@@ -47,6 +47,7 @@ bioconductor-hgu95av2probe
 
 
 .. |downloads_bioconductor-hgu95av2probe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgu95av2probe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hgu95av2probe
    :alt:   (downloads)
 .. |docker_bioconductor-hgu95av2probe| image:: https://quay.io/repository/biocontainers/bioconductor-hgu95av2probe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hgu95av2probe

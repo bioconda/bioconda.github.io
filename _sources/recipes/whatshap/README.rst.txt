@@ -54,6 +54,7 @@ whatshap
 
 
 .. |downloads_whatshap| image:: https://img.shields.io/conda/dn/bioconda/whatshap.svg?style=flat
+   :target: https://anaconda.org/bioconda/whatshap
    :alt:   (downloads)
 .. |docker_whatshap| image:: https://quay.io/repository/biocontainers/whatshap/status
    :target: https://quay.io/repository/biocontainers/whatshap

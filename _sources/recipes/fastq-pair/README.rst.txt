@@ -47,6 +47,7 @@ fastq-pair
 
 
 .. |downloads_fastq-pair| image:: https://img.shields.io/conda/dn/bioconda/fastq-pair.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastq-pair
    :alt:   (downloads)
 .. |docker_fastq-pair| image:: https://quay.io/repository/biocontainers/fastq-pair/status
    :target: https://quay.io/repository/biocontainers/fastq-pair

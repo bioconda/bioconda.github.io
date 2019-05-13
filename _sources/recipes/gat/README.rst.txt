@@ -52,6 +52,7 @@ gat
 
 
 .. |downloads_gat| image:: https://img.shields.io/conda/dn/bioconda/gat.svg?style=flat
+   :target: https://anaconda.org/bioconda/gat
    :alt:   (downloads)
 .. |docker_gat| image:: https://quay.io/repository/biocontainers/gat/status
    :target: https://quay.io/repository/biocontainers/gat

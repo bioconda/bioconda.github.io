@@ -47,6 +47,7 @@ translatorx
 
 
 .. |downloads_translatorx| image:: https://img.shields.io/conda/dn/bioconda/translatorx.svg?style=flat
+   :target: https://anaconda.org/bioconda/translatorx
    :alt:   (downloads)
 .. |docker_translatorx| image:: https://quay.io/repository/biocontainers/translatorx/status
    :target: https://quay.io/repository/biocontainers/translatorx

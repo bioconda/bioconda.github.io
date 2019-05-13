@@ -44,6 +44,7 @@ goalign
 
 
 .. |downloads_goalign| image:: https://img.shields.io/conda/dn/bioconda/goalign.svg?style=flat
+   :target: https://anaconda.org/bioconda/goalign
    :alt:   (downloads)
 .. |docker_goalign| image:: https://quay.io/repository/biocontainers/goalign/status
    :target: https://quay.io/repository/biocontainers/goalign

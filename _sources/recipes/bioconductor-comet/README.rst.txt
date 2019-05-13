@@ -56,6 +56,7 @@ bioconductor-comet
 
 
 .. |downloads_bioconductor-comet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-comet.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-comet
    :alt:   (downloads)
 .. |docker_bioconductor-comet| image:: https://quay.io/repository/biocontainers/bioconductor-comet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-comet

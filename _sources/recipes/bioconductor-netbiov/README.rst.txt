@@ -47,6 +47,7 @@ bioconductor-netbiov
 
 
 .. |downloads_bioconductor-netbiov| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-netbiov.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-netbiov
    :alt:   (downloads)
 .. |docker_bioconductor-netbiov| image:: https://quay.io/repository/biocontainers/bioconductor-netbiov/status
    :target: https://quay.io/repository/biocontainers/bioconductor-netbiov

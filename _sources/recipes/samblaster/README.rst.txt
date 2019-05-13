@@ -46,6 +46,7 @@ samblaster
 
 
 .. |downloads_samblaster| image:: https://img.shields.io/conda/dn/bioconda/samblaster.svg?style=flat
+   :target: https://anaconda.org/bioconda/samblaster
    :alt:   (downloads)
 .. |docker_samblaster| image:: https://quay.io/repository/biocontainers/samblaster/status
    :target: https://quay.io/repository/biocontainers/samblaster

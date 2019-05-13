@@ -49,6 +49,7 @@ bioconductor-flowmeans
 
 
 .. |downloads_bioconductor-flowmeans| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowmeans.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowmeans
    :alt:   (downloads)
 .. |docker_bioconductor-flowmeans| image:: https://quay.io/repository/biocontainers/bioconductor-flowmeans/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowmeans

@@ -47,6 +47,7 @@ sqlitebrowser
 
 
 .. |downloads_sqlitebrowser| image:: https://img.shields.io/conda/dn/bioconda/sqlitebrowser.svg?style=flat
+   :target: https://anaconda.org/bioconda/sqlitebrowser
    :alt:   (downloads)
 .. |docker_sqlitebrowser| image:: https://quay.io/repository/biocontainers/sqlitebrowser/status
    :target: https://quay.io/repository/biocontainers/sqlitebrowser

@@ -47,6 +47,7 @@ perl-vcftools-vcf
 
 
 .. |downloads_perl-vcftools-vcf| image:: https://img.shields.io/conda/dn/bioconda/perl-vcftools-vcf.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-vcftools-vcf
    :alt:   (downloads)
 .. |docker_perl-vcftools-vcf| image:: https://quay.io/repository/biocontainers/perl-vcftools-vcf/status
    :target: https://quay.io/repository/biocontainers/perl-vcftools-vcf

@@ -48,6 +48,7 @@ pbwt
 
 
 .. |downloads_pbwt| image:: https://img.shields.io/conda/dn/bioconda/pbwt.svg?style=flat
+   :target: https://anaconda.org/bioconda/pbwt
    :alt:   (downloads)
 .. |docker_pbwt| image:: https://quay.io/repository/biocontainers/pbwt/status
    :target: https://quay.io/repository/biocontainers/pbwt

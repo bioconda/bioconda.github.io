@@ -52,6 +52,7 @@ bioconductor-cpvsnp
 
 
 .. |downloads_bioconductor-cpvsnp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cpvsnp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cpvsnp
    :alt:   (downloads)
 .. |docker_bioconductor-cpvsnp| image:: https://quay.io/repository/biocontainers/bioconductor-cpvsnp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cpvsnp

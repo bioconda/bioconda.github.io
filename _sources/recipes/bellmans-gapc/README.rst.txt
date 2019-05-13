@@ -48,6 +48,7 @@ bellmans-gapc
 
 
 .. |downloads_bellmans-gapc| image:: https://img.shields.io/conda/dn/bioconda/bellmans-gapc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bellmans-gapc
    :alt:   (downloads)
 .. |docker_bellmans-gapc| image:: https://quay.io/repository/biocontainers/bellmans-gapc/status
    :target: https://quay.io/repository/biocontainers/bellmans-gapc

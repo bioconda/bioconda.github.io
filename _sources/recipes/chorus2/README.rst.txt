@@ -60,6 +60,7 @@ chorus2
 
 
 .. |downloads_chorus2| image:: https://img.shields.io/conda/dn/bioconda/chorus2.svg?style=flat
+   :target: https://anaconda.org/bioconda/chorus2
    :alt:   (downloads)
 .. |docker_chorus2| image:: https://quay.io/repository/biocontainers/chorus2/status
    :target: https://quay.io/repository/biocontainers/chorus2

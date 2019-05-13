@@ -53,6 +53,7 @@ perl-mce
 
 
 .. |downloads_perl-mce| image:: https://img.shields.io/conda/dn/bioconda/perl-mce.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-mce
    :alt:   (downloads)
 .. |docker_perl-mce| image:: https://quay.io/repository/biocontainers/perl-mce/status
    :target: https://quay.io/repository/biocontainers/perl-mce

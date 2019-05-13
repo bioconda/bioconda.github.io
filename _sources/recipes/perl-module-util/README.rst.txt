@@ -45,6 +45,7 @@ perl-module-util
 
 
 .. |downloads_perl-module-util| image:: https://img.shields.io/conda/dn/bioconda/perl-module-util.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-module-util
    :alt:   (downloads)
 .. |docker_perl-module-util| image:: https://quay.io/repository/biocontainers/perl-module-util/status
    :target: https://quay.io/repository/biocontainers/perl-module-util

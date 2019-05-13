@@ -48,6 +48,7 @@ pourrna
 
 
 .. |downloads_pourrna| image:: https://img.shields.io/conda/dn/bioconda/pourrna.svg?style=flat
+   :target: https://anaconda.org/bioconda/pourrna
    :alt:   (downloads)
 .. |docker_pourrna| image:: https://quay.io/repository/biocontainers/pourrna/status
    :target: https://quay.io/repository/biocontainers/pourrna

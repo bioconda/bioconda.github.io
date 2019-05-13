@@ -49,6 +49,7 @@ bam2fastx
 
 
 .. |downloads_bam2fastx| image:: https://img.shields.io/conda/dn/bioconda/bam2fastx.svg?style=flat
+   :target: https://anaconda.org/bioconda/bam2fastx
    :alt:   (downloads)
 .. |docker_bam2fastx| image:: https://quay.io/repository/biocontainers/bam2fastx/status
    :target: https://quay.io/repository/biocontainers/bam2fastx

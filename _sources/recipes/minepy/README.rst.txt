@@ -47,6 +47,7 @@ minepy
 
 
 .. |downloads_minepy| image:: https://img.shields.io/conda/dn/bioconda/minepy.svg?style=flat
+   :target: https://anaconda.org/bioconda/minepy
    :alt:   (downloads)
 .. |docker_minepy| image:: https://quay.io/repository/biocontainers/minepy/status
    :target: https://quay.io/repository/biocontainers/minepy

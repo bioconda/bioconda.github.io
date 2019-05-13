@@ -46,6 +46,7 @@ bioconductor-frmaexampledata
 
 
 .. |downloads_bioconductor-frmaexampledata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-frmaexampledata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-frmaexampledata
    :alt:   (downloads)
 .. |docker_bioconductor-frmaexampledata| image:: https://quay.io/repository/biocontainers/bioconductor-frmaexampledata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-frmaexampledata

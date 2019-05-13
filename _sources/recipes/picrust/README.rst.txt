@@ -51,6 +51,7 @@ picrust
 
 
 .. |downloads_picrust| image:: https://img.shields.io/conda/dn/bioconda/picrust.svg?style=flat
+   :target: https://anaconda.org/bioconda/picrust
    :alt:   (downloads)
 .. |docker_picrust| image:: https://quay.io/repository/biocontainers/picrust/status
    :target: https://quay.io/repository/biocontainers/picrust

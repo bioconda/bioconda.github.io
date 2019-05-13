@@ -46,6 +46,7 @@ bioconductor-single.mtec.transcriptomes
 
 
 .. |downloads_bioconductor-single.mtec.transcriptomes| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-single.mtec.transcriptomes.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-single.mtec.transcriptomes
    :alt:   (downloads)
 .. |docker_bioconductor-single.mtec.transcriptomes| image:: https://quay.io/repository/biocontainers/bioconductor-single.mtec.transcriptomes/status
    :target: https://quay.io/repository/biocontainers/bioconductor-single.mtec.transcriptomes

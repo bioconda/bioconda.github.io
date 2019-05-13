@@ -65,6 +65,7 @@ bioconductor-reportingtools
 
 
 .. |downloads_bioconductor-reportingtools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-reportingtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-reportingtools
    :alt:   (downloads)
 .. |docker_bioconductor-reportingtools| image:: https://quay.io/repository/biocontainers/bioconductor-reportingtools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-reportingtools

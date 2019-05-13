@@ -45,6 +45,7 @@ perl-dbi
 
 
 .. |downloads_perl-dbi| image:: https://img.shields.io/conda/dn/bioconda/perl-dbi.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-dbi
    :alt:   (downloads)
 .. |docker_perl-dbi| image:: https://quay.io/repository/biocontainers/perl-dbi/status
    :target: https://quay.io/repository/biocontainers/perl-dbi

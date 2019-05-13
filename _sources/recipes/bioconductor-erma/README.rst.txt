@@ -59,6 +59,7 @@ bioconductor-erma
 
 
 .. |downloads_bioconductor-erma| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-erma.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-erma
    :alt:   (downloads)
 .. |docker_bioconductor-erma| image:: https://quay.io/repository/biocontainers/bioconductor-erma/status
    :target: https://quay.io/repository/biocontainers/bioconductor-erma

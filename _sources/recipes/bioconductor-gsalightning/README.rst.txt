@@ -48,6 +48,7 @@ bioconductor-gsalightning
 
 
 .. |downloads_bioconductor-gsalightning| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gsalightning.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gsalightning
    :alt:   (downloads)
 .. |docker_bioconductor-gsalightning| image:: https://quay.io/repository/biocontainers/bioconductor-gsalightning/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gsalightning

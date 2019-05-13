@@ -48,6 +48,7 @@ python-hppy
 
 
 .. |downloads_python-hppy| image:: https://img.shields.io/conda/dn/bioconda/python-hppy.svg?style=flat
+   :target: https://anaconda.org/bioconda/python-hppy
    :alt:   (downloads)
 .. |docker_python-hppy| image:: https://quay.io/repository/biocontainers/python-hppy/status
    :target: https://quay.io/repository/biocontainers/python-hppy

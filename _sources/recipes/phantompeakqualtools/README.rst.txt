@@ -55,6 +55,7 @@ phantompeakqualtools
 
 
 .. |downloads_phantompeakqualtools| image:: https://img.shields.io/conda/dn/bioconda/phantompeakqualtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/phantompeakqualtools
    :alt:   (downloads)
 .. |docker_phantompeakqualtools| image:: https://quay.io/repository/biocontainers/phantompeakqualtools/status
    :target: https://quay.io/repository/biocontainers/phantompeakqualtools

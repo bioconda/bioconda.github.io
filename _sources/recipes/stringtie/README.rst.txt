@@ -49,6 +49,7 @@ stringtie
 
 
 .. |downloads_stringtie| image:: https://img.shields.io/conda/dn/bioconda/stringtie.svg?style=flat
+   :target: https://anaconda.org/bioconda/stringtie
    :alt:   (downloads)
 .. |docker_stringtie| image:: https://quay.io/repository/biocontainers/stringtie/status
    :target: https://quay.io/repository/biocontainers/stringtie

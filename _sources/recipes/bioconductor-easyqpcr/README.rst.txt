@@ -44,6 +44,7 @@ bioconductor-easyqpcr
 
 
 .. |downloads_bioconductor-easyqpcr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-easyqpcr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-easyqpcr
    :alt:   (downloads)
 .. |docker_bioconductor-easyqpcr| image:: https://quay.io/repository/biocontainers/bioconductor-easyqpcr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-easyqpcr

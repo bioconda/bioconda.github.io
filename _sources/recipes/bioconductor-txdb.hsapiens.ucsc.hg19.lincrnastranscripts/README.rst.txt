@@ -48,6 +48,7 @@ bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts
 
 
 .. |downloads_bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts
    :alt:   (downloads)
 .. |docker_bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts/status
    :target: https://quay.io/repository/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts

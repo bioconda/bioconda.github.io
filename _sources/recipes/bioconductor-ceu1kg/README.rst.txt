@@ -49,6 +49,7 @@ bioconductor-ceu1kg
 
 
 .. |downloads_bioconductor-ceu1kg| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ceu1kg.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ceu1kg
    :alt:   (downloads)
 .. |docker_bioconductor-ceu1kg| image:: https://quay.io/repository/biocontainers/bioconductor-ceu1kg/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ceu1kg

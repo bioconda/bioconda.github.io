@@ -45,6 +45,7 @@ perl-devel-checkbin
 
 
 .. |downloads_perl-devel-checkbin| image:: https://img.shields.io/conda/dn/bioconda/perl-devel-checkbin.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-devel-checkbin
    :alt:   (downloads)
 .. |docker_perl-devel-checkbin| image:: https://quay.io/repository/biocontainers/perl-devel-checkbin/status
    :target: https://quay.io/repository/biocontainers/perl-devel-checkbin

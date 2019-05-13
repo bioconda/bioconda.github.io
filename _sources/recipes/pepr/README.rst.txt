@@ -49,6 +49,7 @@ pepr
 
 
 .. |downloads_pepr| image:: https://img.shields.io/conda/dn/bioconda/pepr.svg?style=flat
+   :target: https://anaconda.org/bioconda/pepr
    :alt:   (downloads)
 .. |docker_pepr| image:: https://quay.io/repository/biocontainers/pepr/status
    :target: https://quay.io/repository/biocontainers/pepr

@@ -48,6 +48,7 @@ perl-getopt-argvfile
 
 
 .. |downloads_perl-getopt-argvfile| image:: https://img.shields.io/conda/dn/bioconda/perl-getopt-argvfile.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-getopt-argvfile
    :alt:   (downloads)
 .. |docker_perl-getopt-argvfile| image:: https://quay.io/repository/biocontainers/perl-getopt-argvfile/status
    :target: https://quay.io/repository/biocontainers/perl-getopt-argvfile

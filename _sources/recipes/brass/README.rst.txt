@@ -63,6 +63,7 @@ brass
 
 
 .. |downloads_brass| image:: https://img.shields.io/conda/dn/bioconda/brass.svg?style=flat
+   :target: https://anaconda.org/bioconda/brass
    :alt:   (downloads)
 .. |docker_brass| image:: https://quay.io/repository/biocontainers/brass/status
    :target: https://quay.io/repository/biocontainers/brass

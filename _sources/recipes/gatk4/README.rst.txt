@@ -47,6 +47,7 @@ gatk4
 
 
 .. |downloads_gatk4| image:: https://img.shields.io/conda/dn/bioconda/gatk4.svg?style=flat
+   :target: https://anaconda.org/bioconda/gatk4
    :alt:   (downloads)
 .. |docker_gatk4| image:: https://quay.io/repository/biocontainers/gatk4/status
    :target: https://quay.io/repository/biocontainers/gatk4
@@ -83,6 +84,7 @@ gatk4
 
 
 .. |downloads_gatk4-spark| image:: https://img.shields.io/conda/dn/bioconda/gatk4-spark.svg?style=flat
+   :target: https://anaconda.org/bioconda/gatk4-spark
    :alt:   (downloads)
 .. |docker_gatk4-spark| image:: https://quay.io/repository/biocontainers/gatk4/status
    :target: https://quay.io/repository/biocontainers/gatk4

@@ -50,6 +50,7 @@ bioconductor-discordant
 
 
 .. |downloads_bioconductor-discordant| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-discordant.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-discordant
    :alt:   (downloads)
 .. |docker_bioconductor-discordant| image:: https://quay.io/repository/biocontainers/bioconductor-discordant/status
    :target: https://quay.io/repository/biocontainers/bioconductor-discordant

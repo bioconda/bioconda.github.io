@@ -47,6 +47,7 @@ zagros
 
 
 .. |downloads_zagros| image:: https://img.shields.io/conda/dn/bioconda/zagros.svg?style=flat
+   :target: https://anaconda.org/bioconda/zagros
    :alt:   (downloads)
 .. |docker_zagros| image:: https://quay.io/repository/biocontainers/zagros/status
    :target: https://quay.io/repository/biocontainers/zagros

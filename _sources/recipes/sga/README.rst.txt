@@ -50,6 +50,7 @@ sga
 
 
 .. |downloads_sga| image:: https://img.shields.io/conda/dn/bioconda/sga.svg?style=flat
+   :target: https://anaconda.org/bioconda/sga
    :alt:   (downloads)
 .. |docker_sga| image:: https://quay.io/repository/biocontainers/sga/status
    :target: https://quay.io/repository/biocontainers/sga

@@ -48,6 +48,7 @@ perl-array-compare
 
 
 .. |downloads_perl-array-compare| image:: https://img.shields.io/conda/dn/bioconda/perl-array-compare.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-array-compare
    :alt:   (downloads)
 .. |docker_perl-array-compare| image:: https://quay.io/repository/biocontainers/perl-array-compare/status
    :target: https://quay.io/repository/biocontainers/perl-array-compare

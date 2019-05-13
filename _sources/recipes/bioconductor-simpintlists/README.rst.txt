@@ -46,6 +46,7 @@ bioconductor-simpintlists
 
 
 .. |downloads_bioconductor-simpintlists| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-simpintlists.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-simpintlists
    :alt:   (downloads)
 .. |docker_bioconductor-simpintlists| image:: https://quay.io/repository/biocontainers/bioconductor-simpintlists/status
    :target: https://quay.io/repository/biocontainers/bioconductor-simpintlists

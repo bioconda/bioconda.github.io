@@ -47,6 +47,7 @@ bioconductor-heatplus
 
 
 .. |downloads_bioconductor-heatplus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-heatplus.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-heatplus
    :alt:   (downloads)
 .. |docker_bioconductor-heatplus| image:: https://quay.io/repository/biocontainers/bioconductor-heatplus/status
    :target: https://quay.io/repository/biocontainers/bioconductor-heatplus

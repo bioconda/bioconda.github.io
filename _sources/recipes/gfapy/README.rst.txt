@@ -45,6 +45,7 @@ gfapy
 
 
 .. |downloads_gfapy| image:: https://img.shields.io/conda/dn/bioconda/gfapy.svg?style=flat
+   :target: https://anaconda.org/bioconda/gfapy
    :alt:   (downloads)
 .. |docker_gfapy| image:: https://quay.io/repository/biocontainers/gfapy/status
    :target: https://quay.io/repository/biocontainers/gfapy

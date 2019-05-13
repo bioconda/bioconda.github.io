@@ -48,6 +48,7 @@ bioconductor-s4vectors
 
 
 .. |downloads_bioconductor-s4vectors| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-s4vectors.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-s4vectors
    :alt:   (downloads)
 .. |docker_bioconductor-s4vectors| image:: https://quay.io/repository/biocontainers/bioconductor-s4vectors/status
    :target: https://quay.io/repository/biocontainers/bioconductor-s4vectors

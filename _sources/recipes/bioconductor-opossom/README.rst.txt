@@ -58,6 +58,7 @@ bioconductor-opossom
 
 
 .. |downloads_bioconductor-opossom| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-opossom.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-opossom
    :alt:   (downloads)
 .. |docker_bioconductor-opossom| image:: https://quay.io/repository/biocontainers/bioconductor-opossom/status
    :target: https://quay.io/repository/biocontainers/bioconductor-opossom

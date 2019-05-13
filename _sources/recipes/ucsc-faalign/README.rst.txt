@@ -50,6 +50,7 @@ ucsc-faalign
 
 
 .. |downloads_ucsc-faalign| image:: https://img.shields.io/conda/dn/bioconda/ucsc-faalign.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-faalign
    :alt:   (downloads)
 .. |docker_ucsc-faalign| image:: https://quay.io/repository/biocontainers/ucsc-faalign/status
    :target: https://quay.io/repository/biocontainers/ucsc-faalign

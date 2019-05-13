@@ -50,6 +50,7 @@ motus
 
 
 .. |downloads_motus| image:: https://img.shields.io/conda/dn/bioconda/motus.svg?style=flat
+   :target: https://anaconda.org/bioconda/motus
    :alt:   (downloads)
 .. |docker_motus| image:: https://quay.io/repository/biocontainers/motus/status
    :target: https://quay.io/repository/biocontainers/motus

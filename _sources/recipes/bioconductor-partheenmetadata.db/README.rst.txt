@@ -48,6 +48,7 @@ bioconductor-partheenmetadata.db
 
 
 .. |downloads_bioconductor-partheenmetadata.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-partheenmetadata.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-partheenmetadata.db
    :alt:   (downloads)
 .. |docker_bioconductor-partheenmetadata.db| image:: https://quay.io/repository/biocontainers/bioconductor-partheenmetadata.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-partheenmetadata.db

@@ -49,6 +49,7 @@ sequenza-utils
 
 
 .. |downloads_sequenza-utils| image:: https://img.shields.io/conda/dn/bioconda/sequenza-utils.svg?style=flat
+   :target: https://anaconda.org/bioconda/sequenza-utils
    :alt:   (downloads)
 .. |docker_sequenza-utils| image:: https://quay.io/repository/biocontainers/sequenza-utils/status
    :target: https://quay.io/repository/biocontainers/sequenza-utils

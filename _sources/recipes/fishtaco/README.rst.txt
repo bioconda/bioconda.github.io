@@ -51,6 +51,7 @@ fishtaco
 
 
 .. |downloads_fishtaco| image:: https://img.shields.io/conda/dn/bioconda/fishtaco.svg?style=flat
+   :target: https://anaconda.org/bioconda/fishtaco
    :alt:   (downloads)
 .. |docker_fishtaco| image:: https://quay.io/repository/biocontainers/fishtaco/status
    :target: https://quay.io/repository/biocontainers/fishtaco

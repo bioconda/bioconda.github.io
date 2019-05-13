@@ -45,6 +45,7 @@ perl-extutils-pkgconfig
 
 
 .. |downloads_perl-extutils-pkgconfig| image:: https://img.shields.io/conda/dn/bioconda/perl-extutils-pkgconfig.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-extutils-pkgconfig
    :alt:   (downloads)
 .. |docker_perl-extutils-pkgconfig| image:: https://quay.io/repository/biocontainers/perl-extutils-pkgconfig/status
    :target: https://quay.io/repository/biocontainers/perl-extutils-pkgconfig

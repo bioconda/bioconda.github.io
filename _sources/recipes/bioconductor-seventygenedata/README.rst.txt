@@ -46,6 +46,7 @@ bioconductor-seventygenedata
 
 
 .. |downloads_bioconductor-seventygenedata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-seventygenedata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-seventygenedata
    :alt:   (downloads)
 .. |docker_bioconductor-seventygenedata| image:: https://quay.io/repository/biocontainers/bioconductor-seventygenedata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-seventygenedata

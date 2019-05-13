@@ -46,6 +46,7 @@ bioconductor-mantelcorr
 
 
 .. |downloads_bioconductor-mantelcorr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mantelcorr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mantelcorr
    :alt:   (downloads)
 .. |docker_bioconductor-mantelcorr| image:: https://quay.io/repository/biocontainers/bioconductor-mantelcorr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mantelcorr

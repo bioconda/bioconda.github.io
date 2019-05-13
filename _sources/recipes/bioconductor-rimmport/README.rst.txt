@@ -53,6 +53,7 @@ bioconductor-rimmport
 
 
 .. |downloads_bioconductor-rimmport| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rimmport.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rimmport
    :alt:   (downloads)
 .. |docker_bioconductor-rimmport| image:: https://quay.io/repository/biocontainers/bioconductor-rimmport/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rimmport

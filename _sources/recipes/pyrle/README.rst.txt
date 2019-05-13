@@ -51,6 +51,7 @@ pyrle
 
 
 .. |downloads_pyrle| image:: https://img.shields.io/conda/dn/bioconda/pyrle.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyrle
    :alt:   (downloads)
 .. |docker_pyrle| image:: https://quay.io/repository/biocontainers/pyrle/status
    :target: https://quay.io/repository/biocontainers/pyrle

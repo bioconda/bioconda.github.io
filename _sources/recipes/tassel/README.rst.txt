@@ -46,6 +46,7 @@ tassel
 
 
 .. |downloads_tassel| image:: https://img.shields.io/conda/dn/bioconda/tassel.svg?style=flat
+   :target: https://anaconda.org/bioconda/tassel
    :alt:   (downloads)
 .. |docker_tassel| image:: https://quay.io/repository/biocontainers/tassel/status
    :target: https://quay.io/repository/biocontainers/tassel

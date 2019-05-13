@@ -46,6 +46,7 @@ perl-config-tiny
 
 
 .. |downloads_perl-config-tiny| image:: https://img.shields.io/conda/dn/bioconda/perl-config-tiny.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-config-tiny
    :alt:   (downloads)
 .. |docker_perl-config-tiny| image:: https://quay.io/repository/biocontainers/perl-config-tiny/status
    :target: https://quay.io/repository/biocontainers/perl-config-tiny

@@ -57,6 +57,7 @@ bioconductor-sponge
 
 
 .. |downloads_bioconductor-sponge| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sponge.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sponge
    :alt:   (downloads)
 .. |docker_bioconductor-sponge| image:: https://quay.io/repository/biocontainers/bioconductor-sponge/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sponge

@@ -60,6 +60,7 @@ entrez-direct
 
 
 .. |downloads_entrez-direct| image:: https://img.shields.io/conda/dn/bioconda/entrez-direct.svg?style=flat
+   :target: https://anaconda.org/bioconda/entrez-direct
    :alt:   (downloads)
 .. |docker_entrez-direct| image:: https://quay.io/repository/biocontainers/entrez-direct/status
    :target: https://quay.io/repository/biocontainers/entrez-direct

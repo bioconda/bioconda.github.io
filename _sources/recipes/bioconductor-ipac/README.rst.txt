@@ -50,6 +50,7 @@ bioconductor-ipac
 
 
 .. |downloads_bioconductor-ipac| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ipac.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ipac
    :alt:   (downloads)
 .. |docker_bioconductor-ipac| image:: https://quay.io/repository/biocontainers/bioconductor-ipac/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ipac

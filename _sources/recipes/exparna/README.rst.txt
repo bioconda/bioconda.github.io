@@ -48,6 +48,7 @@ exparna
 
 
 .. |downloads_exparna| image:: https://img.shields.io/conda/dn/bioconda/exparna.svg?style=flat
+   :target: https://anaconda.org/bioconda/exparna
    :alt:   (downloads)
 .. |docker_exparna| image:: https://quay.io/repository/biocontainers/exparna/status
    :target: https://quay.io/repository/biocontainers/exparna

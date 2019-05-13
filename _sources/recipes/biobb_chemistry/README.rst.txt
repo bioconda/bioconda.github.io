@@ -75,6 +75,7 @@ biobb_chemistry
 
 
 .. |downloads_biobb_chemistry| image:: https://img.shields.io/conda/dn/bioconda/biobb_chemistry.svg?style=flat
+   :target: https://anaconda.org/bioconda/biobb_chemistry
    :alt:   (downloads)
 .. |docker_biobb_chemistry| image:: https://quay.io/repository/biocontainers/biobb_chemistry/status
    :target: https://quay.io/repository/biocontainers/biobb_chemistry

@@ -48,6 +48,7 @@ bioconductor-msgfplus
 
 
 .. |downloads_bioconductor-msgfplus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-msgfplus.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-msgfplus
    :alt:   (downloads)
 .. |docker_bioconductor-msgfplus| image:: https://quay.io/repository/biocontainers/bioconductor-msgfplus/status
    :target: https://quay.io/repository/biocontainers/bioconductor-msgfplus

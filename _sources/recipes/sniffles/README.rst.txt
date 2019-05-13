@@ -48,6 +48,7 @@ sniffles
 
 
 .. |downloads_sniffles| image:: https://img.shields.io/conda/dn/bioconda/sniffles.svg?style=flat
+   :target: https://anaconda.org/bioconda/sniffles
    :alt:   (downloads)
 .. |docker_sniffles| image:: https://quay.io/repository/biocontainers/sniffles/status
    :target: https://quay.io/repository/biocontainers/sniffles

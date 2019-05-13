@@ -52,6 +52,7 @@ bioconductor-nanostringqcpro
 
 
 .. |downloads_bioconductor-nanostringqcpro| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-nanostringqcpro.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-nanostringqcpro
    :alt:   (downloads)
 .. |docker_bioconductor-nanostringqcpro| image:: https://quay.io/repository/biocontainers/bioconductor-nanostringqcpro/status
    :target: https://quay.io/repository/biocontainers/bioconductor-nanostringqcpro

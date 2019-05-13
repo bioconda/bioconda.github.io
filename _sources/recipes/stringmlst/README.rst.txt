@@ -50,6 +50,7 @@ stringmlst
 
 
 .. |downloads_stringmlst| image:: https://img.shields.io/conda/dn/bioconda/stringmlst.svg?style=flat
+   :target: https://anaconda.org/bioconda/stringmlst
    :alt:   (downloads)
 .. |docker_stringmlst| image:: https://quay.io/repository/biocontainers/stringmlst/status
    :target: https://quay.io/repository/biocontainers/stringmlst

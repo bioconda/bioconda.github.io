@@ -55,6 +55,7 @@ metavelvet-sl-pipeline
 
 
 .. |downloads_metavelvet-sl-pipeline| image:: https://img.shields.io/conda/dn/bioconda/metavelvet-sl-pipeline.svg?style=flat
+   :target: https://anaconda.org/bioconda/metavelvet-sl-pipeline
    :alt:   (downloads)
 .. |docker_metavelvet-sl-pipeline| image:: https://quay.io/repository/biocontainers/metavelvet-sl-pipeline/status
    :target: https://quay.io/repository/biocontainers/metavelvet-sl-pipeline

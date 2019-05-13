@@ -51,6 +51,7 @@ crossmap
 
 
 .. |downloads_crossmap| image:: https://img.shields.io/conda/dn/bioconda/crossmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/crossmap
    :alt:   (downloads)
 .. |docker_crossmap| image:: https://quay.io/repository/biocontainers/crossmap/status
    :target: https://quay.io/repository/biocontainers/crossmap

@@ -54,6 +54,7 @@ mageck-vispr
 
 
 .. |downloads_mageck-vispr| image:: https://img.shields.io/conda/dn/bioconda/mageck-vispr.svg?style=flat
+   :target: https://anaconda.org/bioconda/mageck-vispr
    :alt:   (downloads)
 .. |docker_mageck-vispr| image:: https://quay.io/repository/biocontainers/mageck-vispr/status
    :target: https://quay.io/repository/biocontainers/mageck-vispr

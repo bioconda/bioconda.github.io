@@ -46,6 +46,7 @@ bioconductor-rbowtie2
 
 
 .. |downloads_bioconductor-rbowtie2| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rbowtie2.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rbowtie2
    :alt:   (downloads)
 .. |docker_bioconductor-rbowtie2| image:: https://quay.io/repository/biocontainers/bioconductor-rbowtie2/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rbowtie2

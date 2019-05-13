@@ -46,6 +46,7 @@ sword
 
 
 .. |downloads_sword| image:: https://img.shields.io/conda/dn/bioconda/sword.svg?style=flat
+   :target: https://anaconda.org/bioconda/sword
    :alt:   (downloads)
 .. |docker_sword| image:: https://quay.io/repository/biocontainers/sword/status
    :target: https://quay.io/repository/biocontainers/sword

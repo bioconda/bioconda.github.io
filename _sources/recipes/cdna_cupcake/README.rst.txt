@@ -51,6 +51,7 @@ cdna_cupcake
 
 
 .. |downloads_cdna_cupcake| image:: https://img.shields.io/conda/dn/bioconda/cdna_cupcake.svg?style=flat
+   :target: https://anaconda.org/bioconda/cdna_cupcake
    :alt:   (downloads)
 .. |docker_cdna_cupcake| image:: https://quay.io/repository/biocontainers/cdna_cupcake/status
    :target: https://quay.io/repository/biocontainers/cdna_cupcake

@@ -45,6 +45,7 @@ perl-mime-types
 
 
 .. |downloads_perl-mime-types| image:: https://img.shields.io/conda/dn/bioconda/perl-mime-types.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-mime-types
    :alt:   (downloads)
 .. |docker_perl-mime-types| image:: https://quay.io/repository/biocontainers/perl-mime-types/status
    :target: https://quay.io/repository/biocontainers/perl-mime-types

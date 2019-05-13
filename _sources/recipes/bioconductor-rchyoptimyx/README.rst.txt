@@ -51,6 +51,7 @@ bioconductor-rchyoptimyx
 
 
 .. |downloads_bioconductor-rchyoptimyx| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rchyoptimyx.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rchyoptimyx
    :alt:   (downloads)
 .. |docker_bioconductor-rchyoptimyx| image:: https://quay.io/repository/biocontainers/bioconductor-rchyoptimyx/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rchyoptimyx

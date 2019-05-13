@@ -48,6 +48,7 @@ r-polysat
 
 
 .. |downloads_r-polysat| image:: https://img.shields.io/conda/dn/bioconda/r-polysat.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-polysat
    :alt:   (downloads)
 .. |docker_r-polysat| image:: https://quay.io/repository/biocontainers/r-polysat/status
    :target: https://quay.io/repository/biocontainers/r-polysat

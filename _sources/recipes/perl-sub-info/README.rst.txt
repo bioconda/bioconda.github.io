@@ -47,6 +47,7 @@ perl-sub-info
 
 
 .. |downloads_perl-sub-info| image:: https://img.shields.io/conda/dn/bioconda/perl-sub-info.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-sub-info
    :alt:   (downloads)
 .. |docker_perl-sub-info| image:: https://quay.io/repository/biocontainers/perl-sub-info/status
    :target: https://quay.io/repository/biocontainers/perl-sub-info

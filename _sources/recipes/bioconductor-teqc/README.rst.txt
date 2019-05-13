@@ -51,6 +51,7 @@ bioconductor-teqc
 
 
 .. |downloads_bioconductor-teqc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-teqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-teqc
    :alt:   (downloads)
 .. |docker_bioconductor-teqc| image:: https://quay.io/repository/biocontainers/bioconductor-teqc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-teqc

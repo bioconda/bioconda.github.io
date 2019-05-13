@@ -52,6 +52,7 @@ bioconductor-celltree
 
 
 .. |downloads_bioconductor-celltree| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-celltree.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-celltree
    :alt:   (downloads)
 .. |docker_bioconductor-celltree| image:: https://quay.io/repository/biocontainers/bioconductor-celltree/status
    :target: https://quay.io/repository/biocontainers/bioconductor-celltree

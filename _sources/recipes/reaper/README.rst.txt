@@ -46,6 +46,7 @@ reaper
 
 
 .. |downloads_reaper| image:: https://img.shields.io/conda/dn/bioconda/reaper.svg?style=flat
+   :target: https://anaconda.org/bioconda/reaper
    :alt:   (downloads)
 .. |docker_reaper| image:: https://quay.io/repository/biocontainers/reaper/status
    :target: https://quay.io/repository/biocontainers/reaper

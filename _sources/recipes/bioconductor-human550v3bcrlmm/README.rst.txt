@@ -46,6 +46,7 @@ bioconductor-human550v3bcrlmm
 
 
 .. |downloads_bioconductor-human550v3bcrlmm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-human550v3bcrlmm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-human550v3bcrlmm
    :alt:   (downloads)
 .. |docker_bioconductor-human550v3bcrlmm| image:: https://quay.io/repository/biocontainers/bioconductor-human550v3bcrlmm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-human550v3bcrlmm

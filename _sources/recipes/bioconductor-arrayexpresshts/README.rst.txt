@@ -66,6 +66,7 @@ bioconductor-arrayexpresshts
 
 
 .. |downloads_bioconductor-arrayexpresshts| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-arrayexpresshts.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-arrayexpresshts
    :alt:   (downloads)
 .. |docker_bioconductor-arrayexpresshts| image:: https://quay.io/repository/biocontainers/bioconductor-arrayexpresshts/status
    :target: https://quay.io/repository/biocontainers/bioconductor-arrayexpresshts

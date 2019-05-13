@@ -45,6 +45,7 @@ phipack
 
 
 .. |downloads_phipack| image:: https://img.shields.io/conda/dn/bioconda/phipack.svg?style=flat
+   :target: https://anaconda.org/bioconda/phipack
    :alt:   (downloads)
 .. |docker_phipack| image:: https://quay.io/repository/biocontainers/phipack/status
    :target: https://quay.io/repository/biocontainers/phipack

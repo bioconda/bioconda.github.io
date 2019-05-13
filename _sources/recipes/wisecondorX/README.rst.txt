@@ -53,6 +53,7 @@ wisecondorx
 
 
 .. |downloads_wisecondorx| image:: https://img.shields.io/conda/dn/bioconda/wisecondorx.svg?style=flat
+   :target: https://anaconda.org/bioconda/wisecondorx
    :alt:   (downloads)
 .. |docker_wisecondorx| image:: https://quay.io/repository/biocontainers/wisecondorx/status
    :target: https://quay.io/repository/biocontainers/wisecondorx

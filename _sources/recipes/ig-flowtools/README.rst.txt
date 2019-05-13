@@ -60,6 +60,7 @@ ig-flowtools
 
 
 .. |downloads_ig-flowtools| image:: https://img.shields.io/conda/dn/bioconda/ig-flowtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/ig-flowtools
    :alt:   (downloads)
 .. |docker_ig-flowtools| image:: https://quay.io/repository/biocontainers/ig-flowtools/status
    :target: https://quay.io/repository/biocontainers/ig-flowtools

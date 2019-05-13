@@ -52,6 +52,7 @@ bioconductor-bitseq
 
 
 .. |downloads_bioconductor-bitseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bitseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bitseq
    :alt:   (downloads)
 .. |docker_bioconductor-bitseq| image:: https://quay.io/repository/biocontainers/bioconductor-bitseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bitseq

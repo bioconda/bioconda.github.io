@@ -48,6 +48,7 @@ rdfextras
 
 
 .. |downloads_rdfextras| image:: https://img.shields.io/conda/dn/bioconda/rdfextras.svg?style=flat
+   :target: https://anaconda.org/bioconda/rdfextras
    :alt:   (downloads)
 .. |docker_rdfextras| image:: https://quay.io/repository/biocontainers/rdfextras/status
    :target: https://quay.io/repository/biocontainers/rdfextras

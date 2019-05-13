@@ -51,6 +51,7 @@ dimspy
 
 
 .. |downloads_dimspy| image:: https://img.shields.io/conda/dn/bioconda/dimspy.svg?style=flat
+   :target: https://anaconda.org/bioconda/dimspy
    :alt:   (downloads)
 .. |docker_dimspy| image:: https://quay.io/repository/biocontainers/dimspy/status
    :target: https://quay.io/repository/biocontainers/dimspy

@@ -46,6 +46,7 @@ python-omero
 
 
 .. |downloads_python-omero| image:: https://img.shields.io/conda/dn/bioconda/python-omero.svg?style=flat
+   :target: https://anaconda.org/bioconda/python-omero
    :alt:   (downloads)
 .. |docker_python-omero| image:: https://quay.io/repository/biocontainers/python-omero/status
    :target: https://quay.io/repository/biocontainers/python-omero

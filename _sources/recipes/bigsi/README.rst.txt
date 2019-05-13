@@ -57,6 +57,7 @@ bigsi
 
 
 .. |downloads_bigsi| image:: https://img.shields.io/conda/dn/bioconda/bigsi.svg?style=flat
+   :target: https://anaconda.org/bioconda/bigsi
    :alt:   (downloads)
 .. |docker_bigsi| image:: https://quay.io/repository/biocontainers/bigsi/status
    :target: https://quay.io/repository/biocontainers/bigsi

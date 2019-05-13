@@ -57,6 +57,7 @@ bioconductor-icobra
 
 
 .. |downloads_bioconductor-icobra| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-icobra.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-icobra
    :alt:   (downloads)
 .. |docker_bioconductor-icobra| image:: https://quay.io/repository/biocontainers/bioconductor-icobra/status
    :target: https://quay.io/repository/biocontainers/bioconductor-icobra

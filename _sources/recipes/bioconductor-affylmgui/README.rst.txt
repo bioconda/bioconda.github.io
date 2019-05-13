@@ -55,6 +55,7 @@ bioconductor-affylmgui
 
 
 .. |downloads_bioconductor-affylmgui| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affylmgui.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-affylmgui
    :alt:   (downloads)
 .. |docker_bioconductor-affylmgui| image:: https://quay.io/repository/biocontainers/bioconductor-affylmgui/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affylmgui

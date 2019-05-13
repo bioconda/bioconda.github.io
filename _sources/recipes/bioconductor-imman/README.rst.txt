@@ -50,6 +50,7 @@ bioconductor-imman
 
 
 .. |downloads_bioconductor-imman| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-imman.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-imman
    :alt:   (downloads)
 .. |docker_bioconductor-imman| image:: https://quay.io/repository/biocontainers/bioconductor-imman/status
    :target: https://quay.io/repository/biocontainers/bioconductor-imman

@@ -45,6 +45,7 @@ perl-file-which
 
 
 .. |downloads_perl-file-which| image:: https://img.shields.io/conda/dn/bioconda/perl-file-which.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-which
    :alt:   (downloads)
 .. |docker_perl-file-which| image:: https://quay.io/repository/biocontainers/perl-file-which/status
    :target: https://quay.io/repository/biocontainers/perl-file-which

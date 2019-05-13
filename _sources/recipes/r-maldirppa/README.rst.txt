@@ -50,6 +50,7 @@ r-maldirppa
 
 
 .. |downloads_r-maldirppa| image:: https://img.shields.io/conda/dn/bioconda/r-maldirppa.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-maldirppa
    :alt:   (downloads)
 .. |docker_r-maldirppa| image:: https://quay.io/repository/biocontainers/r-maldirppa/status
    :target: https://quay.io/repository/biocontainers/r-maldirppa

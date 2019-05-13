@@ -60,6 +60,7 @@ bioconductor-timeseriesexperiment
 
 
 .. |downloads_bioconductor-timeseriesexperiment| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-timeseriesexperiment.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-timeseriesexperiment
    :alt:   (downloads)
 .. |docker_bioconductor-timeseriesexperiment| image:: https://quay.io/repository/biocontainers/bioconductor-timeseriesexperiment/status
    :target: https://quay.io/repository/biocontainers/bioconductor-timeseriesexperiment

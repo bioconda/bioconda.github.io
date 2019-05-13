@@ -50,6 +50,7 @@ perl-unicode-normalize
 
 
 .. |downloads_perl-unicode-normalize| image:: https://img.shields.io/conda/dn/bioconda/perl-unicode-normalize.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-unicode-normalize
    :alt:   (downloads)
 .. |docker_perl-unicode-normalize| image:: https://quay.io/repository/biocontainers/perl-unicode-normalize/status
    :target: https://quay.io/repository/biocontainers/perl-unicode-normalize

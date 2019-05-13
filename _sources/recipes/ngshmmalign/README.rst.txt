@@ -46,6 +46,7 @@ ngshmmalign
 
 
 .. |downloads_ngshmmalign| image:: https://img.shields.io/conda/dn/bioconda/ngshmmalign.svg?style=flat
+   :target: https://anaconda.org/bioconda/ngshmmalign
    :alt:   (downloads)
 .. |docker_ngshmmalign| image:: https://quay.io/repository/biocontainers/ngshmmalign/status
    :target: https://quay.io/repository/biocontainers/ngshmmalign

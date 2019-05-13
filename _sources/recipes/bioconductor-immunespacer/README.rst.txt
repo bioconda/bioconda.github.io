@@ -64,6 +64,7 @@ bioconductor-immunespacer
 
 
 .. |downloads_bioconductor-immunespacer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-immunespacer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-immunespacer
    :alt:   (downloads)
 .. |docker_bioconductor-immunespacer| image:: https://quay.io/repository/biocontainers/bioconductor-immunespacer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-immunespacer

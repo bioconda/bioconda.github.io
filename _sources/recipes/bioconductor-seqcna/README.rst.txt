@@ -44,6 +44,7 @@ bioconductor-seqcna
 
 
 .. |downloads_bioconductor-seqcna| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-seqcna.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-seqcna
    :alt:   (downloads)
 .. |docker_bioconductor-seqcna| image:: https://quay.io/repository/biocontainers/bioconductor-seqcna/status
    :target: https://quay.io/repository/biocontainers/bioconductor-seqcna

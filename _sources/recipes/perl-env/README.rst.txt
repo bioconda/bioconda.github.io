@@ -45,6 +45,7 @@ perl-env
 
 
 .. |downloads_perl-env| image:: https://img.shields.io/conda/dn/bioconda/perl-env.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-env
    :alt:   (downloads)
 .. |docker_perl-env| image:: https://quay.io/repository/biocontainers/perl-env/status
    :target: https://quay.io/repository/biocontainers/perl-env

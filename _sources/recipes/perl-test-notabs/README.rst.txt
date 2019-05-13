@@ -45,6 +45,7 @@ perl-test-notabs
 
 
 .. |downloads_perl-test-notabs| image:: https://img.shields.io/conda/dn/bioconda/perl-test-notabs.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-notabs
    :alt:   (downloads)
 .. |docker_perl-test-notabs| image:: https://quay.io/repository/biocontainers/perl-test-notabs/status
    :target: https://quay.io/repository/biocontainers/perl-test-notabs

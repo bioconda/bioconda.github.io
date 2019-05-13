@@ -46,6 +46,7 @@ perl-tree-dag_node
 
 
 .. |downloads_perl-tree-dag_node| image:: https://img.shields.io/conda/dn/bioconda/perl-tree-dag_node.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-tree-dag_node
    :alt:   (downloads)
 .. |docker_perl-tree-dag_node| image:: https://quay.io/repository/biocontainers/perl-tree-dag_node/status
    :target: https://quay.io/repository/biocontainers/perl-tree-dag_node

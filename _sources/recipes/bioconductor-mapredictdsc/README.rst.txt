@@ -58,6 +58,7 @@ bioconductor-mapredictdsc
 
 
 .. |downloads_bioconductor-mapredictdsc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mapredictdsc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mapredictdsc
    :alt:   (downloads)
 .. |docker_bioconductor-mapredictdsc| image:: https://quay.io/repository/biocontainers/bioconductor-mapredictdsc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mapredictdsc

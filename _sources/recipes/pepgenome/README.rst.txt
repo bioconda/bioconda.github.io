@@ -46,6 +46,7 @@ pepgenome
 
 
 .. |downloads_pepgenome| image:: https://img.shields.io/conda/dn/bioconda/pepgenome.svg?style=flat
+   :target: https://anaconda.org/bioconda/pepgenome
    :alt:   (downloads)
 .. |docker_pepgenome| image:: https://quay.io/repository/biocontainers/pepgenome/status
    :target: https://quay.io/repository/biocontainers/pepgenome

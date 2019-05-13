@@ -47,6 +47,7 @@ bioconductor-spacepac
 
 
 .. |downloads_bioconductor-spacepac| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-spacepac.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-spacepac
    :alt:   (downloads)
 .. |docker_bioconductor-spacepac| image:: https://quay.io/repository/biocontainers/bioconductor-spacepac/status
    :target: https://quay.io/repository/biocontainers/bioconductor-spacepac

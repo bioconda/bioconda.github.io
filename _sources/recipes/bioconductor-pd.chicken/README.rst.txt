@@ -53,6 +53,7 @@ bioconductor-pd.chicken
 
 
 .. |downloads_bioconductor-pd.chicken| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.chicken.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.chicken
    :alt:   (downloads)
 .. |docker_bioconductor-pd.chicken| image:: https://quay.io/repository/biocontainers/bioconductor-pd.chicken/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.chicken

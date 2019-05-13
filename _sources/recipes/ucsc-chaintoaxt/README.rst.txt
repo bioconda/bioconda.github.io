@@ -50,6 +50,7 @@ ucsc-chaintoaxt
 
 
 .. |downloads_ucsc-chaintoaxt| image:: https://img.shields.io/conda/dn/bioconda/ucsc-chaintoaxt.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-chaintoaxt
    :alt:   (downloads)
 .. |docker_ucsc-chaintoaxt| image:: https://quay.io/repository/biocontainers/ucsc-chaintoaxt/status
    :target: https://quay.io/repository/biocontainers/ucsc-chaintoaxt

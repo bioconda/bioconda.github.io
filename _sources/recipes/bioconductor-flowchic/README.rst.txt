@@ -50,6 +50,7 @@ bioconductor-flowchic
 
 
 .. |downloads_bioconductor-flowchic| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowchic.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowchic
    :alt:   (downloads)
 .. |docker_bioconductor-flowchic| image:: https://quay.io/repository/biocontainers/bioconductor-flowchic/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowchic

@@ -45,6 +45,7 @@ perl-integer
 
 
 .. |downloads_perl-integer| image:: https://img.shields.io/conda/dn/bioconda/perl-integer.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-integer
    :alt:   (downloads)
 .. |docker_perl-integer| image:: https://quay.io/repository/biocontainers/perl-integer/status
    :target: https://quay.io/repository/biocontainers/perl-integer

@@ -44,6 +44,7 @@ bioconductor-omicspca
 
 
 .. |downloads_bioconductor-omicspca| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-omicspca.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-omicspca
    :alt:   (downloads)
 .. |docker_bioconductor-omicspca| image:: https://quay.io/repository/biocontainers/bioconductor-omicspca/status
    :target: https://quay.io/repository/biocontainers/bioconductor-omicspca

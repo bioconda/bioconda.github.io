@@ -56,6 +56,7 @@ bioconductor-ringo
 
 
 .. |downloads_bioconductor-ringo| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ringo.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ringo
    :alt:   (downloads)
 .. |docker_bioconductor-ringo| image:: https://quay.io/repository/biocontainers/bioconductor-ringo/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ringo

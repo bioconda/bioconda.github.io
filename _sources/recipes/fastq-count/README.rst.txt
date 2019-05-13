@@ -45,6 +45,7 @@ fastq-count
 
 
 .. |downloads_fastq-count| image:: https://img.shields.io/conda/dn/bioconda/fastq-count.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastq-count
    :alt:   (downloads)
 .. |docker_fastq-count| image:: https://quay.io/repository/biocontainers/fastq-count/status
    :target: https://quay.io/repository/biocontainers/fastq-count

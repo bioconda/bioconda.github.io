@@ -47,6 +47,7 @@ bioconductor-snadata
 
 
 .. |downloads_bioconductor-snadata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-snadata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-snadata
    :alt:   (downloads)
 .. |docker_bioconductor-snadata| image:: https://quay.io/repository/biocontainers/bioconductor-snadata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-snadata

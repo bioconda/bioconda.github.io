@@ -52,6 +52,7 @@ phylowgs
 
 
 .. |downloads_phylowgs| image:: https://img.shields.io/conda/dn/bioconda/phylowgs.svg?style=flat
+   :target: https://anaconda.org/bioconda/phylowgs
    :alt:   (downloads)
 .. |docker_phylowgs| image:: https://quay.io/repository/biocontainers/phylowgs/status
    :target: https://quay.io/repository/biocontainers/phylowgs

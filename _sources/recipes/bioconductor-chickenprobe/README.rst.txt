@@ -47,6 +47,7 @@ bioconductor-chickenprobe
 
 
 .. |downloads_bioconductor-chickenprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chickenprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chickenprobe
    :alt:   (downloads)
 .. |docker_bioconductor-chickenprobe| image:: https://quay.io/repository/biocontainers/bioconductor-chickenprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chickenprobe

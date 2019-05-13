@@ -47,6 +47,7 @@ gottcha
 
 
 .. |downloads_gottcha| image:: https://img.shields.io/conda/dn/bioconda/gottcha.svg?style=flat
+   :target: https://anaconda.org/bioconda/gottcha
    :alt:   (downloads)
 .. |docker_gottcha| image:: https://quay.io/repository/biocontainers/gottcha/status
    :target: https://quay.io/repository/biocontainers/gottcha

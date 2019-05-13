@@ -49,6 +49,7 @@ srst2
 
 
 .. |downloads_srst2| image:: https://img.shields.io/conda/dn/bioconda/srst2.svg?style=flat
+   :target: https://anaconda.org/bioconda/srst2
    :alt:   (downloads)
 .. |docker_srst2| image:: https://quay.io/repository/biocontainers/srst2/status
    :target: https://quay.io/repository/biocontainers/srst2

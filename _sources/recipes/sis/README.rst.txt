@@ -47,6 +47,7 @@ sis
 
 
 .. |downloads_sis| image:: https://img.shields.io/conda/dn/bioconda/sis.svg?style=flat
+   :target: https://anaconda.org/bioconda/sis
    :alt:   (downloads)
 .. |docker_sis| image:: https://quay.io/repository/biocontainers/sis/status
    :target: https://quay.io/repository/biocontainers/sis

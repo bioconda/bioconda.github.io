@@ -70,6 +70,7 @@ biopet-sampleconfig
 
 
 .. |downloads_biopet-sampleconfig| image:: https://img.shields.io/conda/dn/bioconda/biopet-sampleconfig.svg?style=flat
+   :target: https://anaconda.org/bioconda/biopet-sampleconfig
    :alt:   (downloads)
 .. |docker_biopet-sampleconfig| image:: https://quay.io/repository/biocontainers/biopet-sampleconfig/status
    :target: https://quay.io/repository/biocontainers/biopet-sampleconfig

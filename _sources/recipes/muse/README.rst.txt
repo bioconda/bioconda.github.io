@@ -47,6 +47,7 @@ muse
 
 
 .. |downloads_muse| image:: https://img.shields.io/conda/dn/bioconda/muse.svg?style=flat
+   :target: https://anaconda.org/bioconda/muse
    :alt:   (downloads)
 .. |docker_muse| image:: https://quay.io/repository/biocontainers/muse/status
    :target: https://quay.io/repository/biocontainers/muse

@@ -153,6 +153,7 @@ biobb_structure_checking
 
 
 .. |downloads_biobb_structure_checking| image:: https://img.shields.io/conda/dn/bioconda/biobb_structure_checking.svg?style=flat
+   :target: https://anaconda.org/bioconda/biobb_structure_checking
    :alt:   (downloads)
 .. |docker_biobb_structure_checking| image:: https://quay.io/repository/biocontainers/biobb_structure_checking/status
    :target: https://quay.io/repository/biocontainers/biobb_structure_checking

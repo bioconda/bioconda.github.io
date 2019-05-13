@@ -57,6 +57,7 @@ bioconductor-coexnet
 
 
 .. |downloads_bioconductor-coexnet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-coexnet.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-coexnet
    :alt:   (downloads)
 .. |docker_bioconductor-coexnet| image:: https://quay.io/repository/biocontainers/bioconductor-coexnet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-coexnet

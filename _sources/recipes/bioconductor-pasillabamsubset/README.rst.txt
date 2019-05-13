@@ -46,6 +46,7 @@ bioconductor-pasillabamsubset
 
 
 .. |downloads_bioconductor-pasillabamsubset| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pasillabamsubset.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pasillabamsubset
    :alt:   (downloads)
 .. |docker_bioconductor-pasillabamsubset| image:: https://quay.io/repository/biocontainers/bioconductor-pasillabamsubset/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pasillabamsubset

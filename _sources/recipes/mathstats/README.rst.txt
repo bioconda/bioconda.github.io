@@ -46,6 +46,7 @@ mathstats
 
 
 .. |downloads_mathstats| image:: https://img.shields.io/conda/dn/bioconda/mathstats.svg?style=flat
+   :target: https://anaconda.org/bioconda/mathstats
    :alt:   (downloads)
 .. |docker_mathstats| image:: https://quay.io/repository/biocontainers/mathstats/status
    :target: https://quay.io/repository/biocontainers/mathstats

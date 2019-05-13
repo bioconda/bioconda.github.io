@@ -51,6 +51,7 @@ groopm
 
 
 .. |downloads_groopm| image:: https://img.shields.io/conda/dn/bioconda/groopm.svg?style=flat
+   :target: https://anaconda.org/bioconda/groopm
    :alt:   (downloads)
 .. |docker_groopm| image:: https://quay.io/repository/biocontainers/groopm/status
    :target: https://quay.io/repository/biocontainers/groopm

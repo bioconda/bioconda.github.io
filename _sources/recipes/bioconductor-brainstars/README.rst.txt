@@ -49,6 +49,7 @@ bioconductor-brainstars
 
 
 .. |downloads_bioconductor-brainstars| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-brainstars.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-brainstars
    :alt:   (downloads)
 .. |docker_bioconductor-brainstars| image:: https://quay.io/repository/biocontainers/bioconductor-brainstars/status
    :target: https://quay.io/repository/biocontainers/bioconductor-brainstars

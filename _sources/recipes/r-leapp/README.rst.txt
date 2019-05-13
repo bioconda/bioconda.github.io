@@ -48,6 +48,7 @@ r-leapp
 
 
 .. |downloads_r-leapp| image:: https://img.shields.io/conda/dn/bioconda/r-leapp.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-leapp
    :alt:   (downloads)
 .. |docker_r-leapp| image:: https://quay.io/repository/biocontainers/r-leapp/status
    :target: https://quay.io/repository/biocontainers/r-leapp

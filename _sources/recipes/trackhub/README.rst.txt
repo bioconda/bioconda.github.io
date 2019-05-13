@@ -46,6 +46,7 @@ trackhub
 
 
 .. |downloads_trackhub| image:: https://img.shields.io/conda/dn/bioconda/trackhub.svg?style=flat
+   :target: https://anaconda.org/bioconda/trackhub
    :alt:   (downloads)
 .. |docker_trackhub| image:: https://quay.io/repository/biocontainers/trackhub/status
    :target: https://quay.io/repository/biocontainers/trackhub

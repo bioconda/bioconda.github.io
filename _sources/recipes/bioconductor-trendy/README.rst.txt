@@ -54,6 +54,7 @@ bioconductor-trendy
 
 
 .. |downloads_bioconductor-trendy| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-trendy.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-trendy
    :alt:   (downloads)
 .. |docker_bioconductor-trendy| image:: https://quay.io/repository/biocontainers/bioconductor-trendy/status
    :target: https://quay.io/repository/biocontainers/bioconductor-trendy

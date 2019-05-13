@@ -45,6 +45,7 @@ admixture
 
 
 .. |downloads_admixture| image:: https://img.shields.io/conda/dn/bioconda/admixture.svg?style=flat
+   :target: https://anaconda.org/bioconda/admixture
    :alt:   (downloads)
 .. |docker_admixture| image:: https://quay.io/repository/biocontainers/admixture/status
    :target: https://quay.io/repository/biocontainers/admixture

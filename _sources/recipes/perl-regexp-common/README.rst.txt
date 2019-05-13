@@ -45,6 +45,7 @@ perl-regexp-common
 
 
 .. |downloads_perl-regexp-common| image:: https://img.shields.io/conda/dn/bioconda/perl-regexp-common.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-regexp-common
    :alt:   (downloads)
 .. |docker_perl-regexp-common| image:: https://quay.io/repository/biocontainers/perl-regexp-common/status
    :target: https://quay.io/repository/biocontainers/perl-regexp-common

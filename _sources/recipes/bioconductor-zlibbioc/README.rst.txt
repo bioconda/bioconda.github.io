@@ -47,6 +47,7 @@ bioconductor-zlibbioc
 
 
 .. |downloads_bioconductor-zlibbioc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-zlibbioc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-zlibbioc
    :alt:   (downloads)
 .. |docker_bioconductor-zlibbioc| image:: https://quay.io/repository/biocontainers/bioconductor-zlibbioc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-zlibbioc

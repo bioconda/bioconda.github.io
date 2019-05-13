@@ -51,6 +51,7 @@ r-lme4qtl
 
 
 .. |downloads_r-lme4qtl| image:: https://img.shields.io/conda/dn/bioconda/r-lme4qtl.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-lme4qtl
    :alt:   (downloads)
 .. |docker_r-lme4qtl| image:: https://quay.io/repository/biocontainers/r-lme4qtl/status
    :target: https://quay.io/repository/biocontainers/r-lme4qtl

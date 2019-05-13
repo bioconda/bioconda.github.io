@@ -48,6 +48,7 @@ perl-xml-sax-writer
 
 
 .. |downloads_perl-xml-sax-writer| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-sax-writer.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-xml-sax-writer
    :alt:   (downloads)
 .. |docker_perl-xml-sax-writer| image:: https://quay.io/repository/biocontainers/perl-xml-sax-writer/status
    :target: https://quay.io/repository/biocontainers/perl-xml-sax-writer

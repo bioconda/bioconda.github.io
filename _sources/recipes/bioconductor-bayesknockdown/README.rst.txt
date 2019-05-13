@@ -46,6 +46,7 @@ bioconductor-bayesknockdown
 
 
 .. |downloads_bioconductor-bayesknockdown| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bayesknockdown.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bayesknockdown
    :alt:   (downloads)
 .. |docker_bioconductor-bayesknockdown| image:: https://quay.io/repository/biocontainers/bioconductor-bayesknockdown/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bayesknockdown

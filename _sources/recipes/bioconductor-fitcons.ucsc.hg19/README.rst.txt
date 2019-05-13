@@ -52,6 +52,7 @@ bioconductor-fitcons.ucsc.hg19
 
 
 .. |downloads_bioconductor-fitcons.ucsc.hg19| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fitcons.ucsc.hg19.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-fitcons.ucsc.hg19
    :alt:   (downloads)
 .. |docker_bioconductor-fitcons.ucsc.hg19| image:: https://quay.io/repository/biocontainers/bioconductor-fitcons.ucsc.hg19/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fitcons.ucsc.hg19

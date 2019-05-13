@@ -51,6 +51,7 @@ bioconductor-grmetrics
 
 
 .. |downloads_bioconductor-grmetrics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-grmetrics.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-grmetrics
    :alt:   (downloads)
 .. |docker_bioconductor-grmetrics| image:: https://quay.io/repository/biocontainers/bioconductor-grmetrics/status
    :target: https://quay.io/repository/biocontainers/bioconductor-grmetrics

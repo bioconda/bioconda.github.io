@@ -45,6 +45,7 @@ perl-env-path
 
 
 .. |downloads_perl-env-path| image:: https://img.shields.io/conda/dn/bioconda/perl-env-path.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-env-path
    :alt:   (downloads)
 .. |docker_perl-env-path| image:: https://quay.io/repository/biocontainers/perl-env-path/status
    :target: https://quay.io/repository/biocontainers/perl-env-path

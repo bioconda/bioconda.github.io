@@ -44,6 +44,7 @@ bioconductor-adacgh2
 
 
 .. |downloads_bioconductor-adacgh2| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-adacgh2.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-adacgh2
    :alt:   (downloads)
 .. |docker_bioconductor-adacgh2| image:: https://quay.io/repository/biocontainers/bioconductor-adacgh2/status
    :target: https://quay.io/repository/biocontainers/bioconductor-adacgh2

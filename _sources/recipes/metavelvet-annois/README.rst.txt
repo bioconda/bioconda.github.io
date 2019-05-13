@@ -46,6 +46,7 @@ metavelvet-annois
 
 
 .. |downloads_metavelvet-annois| image:: https://img.shields.io/conda/dn/bioconda/metavelvet-annois.svg?style=flat
+   :target: https://anaconda.org/bioconda/metavelvet-annois
    :alt:   (downloads)
 .. |docker_metavelvet-annois| image:: https://quay.io/repository/biocontainers/metavelvet-annois/status
    :target: https://quay.io/repository/biocontainers/metavelvet-annois

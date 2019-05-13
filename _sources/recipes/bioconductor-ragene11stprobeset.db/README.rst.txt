@@ -48,6 +48,7 @@ bioconductor-ragene11stprobeset.db
 
 
 .. |downloads_bioconductor-ragene11stprobeset.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ragene11stprobeset.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ragene11stprobeset.db
    :alt:   (downloads)
 .. |docker_bioconductor-ragene11stprobeset.db| image:: https://quay.io/repository/biocontainers/bioconductor-ragene11stprobeset.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ragene11stprobeset.db

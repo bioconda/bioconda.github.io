@@ -48,6 +48,7 @@ transdecoder
 
 
 .. |downloads_transdecoder| image:: https://img.shields.io/conda/dn/bioconda/transdecoder.svg?style=flat
+   :target: https://anaconda.org/bioconda/transdecoder
    :alt:   (downloads)
 .. |docker_transdecoder| image:: https://quay.io/repository/biocontainers/transdecoder/status
    :target: https://quay.io/repository/biocontainers/transdecoder

@@ -47,6 +47,7 @@ erds
 
 
 .. |downloads_erds| image:: https://img.shields.io/conda/dn/bioconda/erds.svg?style=flat
+   :target: https://anaconda.org/bioconda/erds
    :alt:   (downloads)
 .. |docker_erds| image:: https://quay.io/repository/biocontainers/erds/status
    :target: https://quay.io/repository/biocontainers/erds

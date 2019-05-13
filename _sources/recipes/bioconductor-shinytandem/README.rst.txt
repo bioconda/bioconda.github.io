@@ -49,6 +49,7 @@ bioconductor-shinytandem
 
 
 .. |downloads_bioconductor-shinytandem| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-shinytandem.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-shinytandem
    :alt:   (downloads)
 .. |docker_bioconductor-shinytandem| image:: https://quay.io/repository/biocontainers/bioconductor-shinytandem/status
    :target: https://quay.io/repository/biocontainers/bioconductor-shinytandem

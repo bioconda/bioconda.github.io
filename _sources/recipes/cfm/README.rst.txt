@@ -51,6 +51,7 @@ cfm
 
 
 .. |downloads_cfm| image:: https://img.shields.io/conda/dn/bioconda/cfm.svg?style=flat
+   :target: https://anaconda.org/bioconda/cfm
    :alt:   (downloads)
 .. |docker_cfm| image:: https://quay.io/repository/biocontainers/cfm/status
    :target: https://quay.io/repository/biocontainers/cfm

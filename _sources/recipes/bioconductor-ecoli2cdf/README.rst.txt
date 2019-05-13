@@ -47,6 +47,7 @@ bioconductor-ecoli2cdf
 
 
 .. |downloads_bioconductor-ecoli2cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ecoli2cdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ecoli2cdf
    :alt:   (downloads)
 .. |docker_bioconductor-ecoli2cdf| image:: https://quay.io/repository/biocontainers/bioconductor-ecoli2cdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ecoli2cdf

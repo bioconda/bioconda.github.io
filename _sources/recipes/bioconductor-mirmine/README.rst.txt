@@ -46,6 +46,7 @@ bioconductor-mirmine
 
 
 .. |downloads_bioconductor-mirmine| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirmine.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mirmine
    :alt:   (downloads)
 .. |docker_bioconductor-mirmine| image:: https://quay.io/repository/biocontainers/bioconductor-mirmine/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mirmine

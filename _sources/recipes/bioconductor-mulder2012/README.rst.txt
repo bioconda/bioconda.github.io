@@ -54,6 +54,7 @@ bioconductor-mulder2012
 
 
 .. |downloads_bioconductor-mulder2012| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mulder2012.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mulder2012
    :alt:   (downloads)
 .. |docker_bioconductor-mulder2012| image:: https://quay.io/repository/biocontainers/bioconductor-mulder2012/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mulder2012

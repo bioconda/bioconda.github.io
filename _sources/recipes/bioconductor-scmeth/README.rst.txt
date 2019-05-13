@@ -59,6 +59,7 @@ bioconductor-scmeth
 
 
 .. |downloads_bioconductor-scmeth| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scmeth.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-scmeth
    :alt:   (downloads)
 .. |docker_bioconductor-scmeth| image:: https://quay.io/repository/biocontainers/bioconductor-scmeth/status
    :target: https://quay.io/repository/biocontainers/bioconductor-scmeth

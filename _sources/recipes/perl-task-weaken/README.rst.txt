@@ -45,6 +45,7 @@ perl-task-weaken
 
 
 .. |downloads_perl-task-weaken| image:: https://img.shields.io/conda/dn/bioconda/perl-task-weaken.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-task-weaken
    :alt:   (downloads)
 .. |docker_perl-task-weaken| image:: https://quay.io/repository/biocontainers/perl-task-weaken/status
    :target: https://quay.io/repository/biocontainers/perl-task-weaken

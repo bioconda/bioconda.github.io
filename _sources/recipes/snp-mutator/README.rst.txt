@@ -47,6 +47,7 @@ snp-mutator
 
 
 .. |downloads_snp-mutator| image:: https://img.shields.io/conda/dn/bioconda/snp-mutator.svg?style=flat
+   :target: https://anaconda.org/bioconda/snp-mutator
    :alt:   (downloads)
 .. |docker_snp-mutator| image:: https://quay.io/repository/biocontainers/snp-mutator/status
    :target: https://quay.io/repository/biocontainers/snp-mutator

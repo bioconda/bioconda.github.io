@@ -49,6 +49,7 @@ perl-sub-exporter
 
 
 .. |downloads_perl-sub-exporter| image:: https://img.shields.io/conda/dn/bioconda/perl-sub-exporter.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-sub-exporter
    :alt:   (downloads)
 .. |docker_perl-sub-exporter| image:: https://quay.io/repository/biocontainers/perl-sub-exporter/status
    :target: https://quay.io/repository/biocontainers/perl-sub-exporter

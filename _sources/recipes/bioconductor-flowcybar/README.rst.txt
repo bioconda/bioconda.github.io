@@ -47,6 +47,7 @@ bioconductor-flowcybar
 
 
 .. |downloads_bioconductor-flowcybar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowcybar.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowcybar
    :alt:   (downloads)
 .. |docker_bioconductor-flowcybar| image:: https://quay.io/repository/biocontainers/bioconductor-flowcybar/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowcybar

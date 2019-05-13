@@ -55,6 +55,7 @@ bioconductor-recoup
 
 
 .. |downloads_bioconductor-recoup| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-recoup.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-recoup
    :alt:   (downloads)
 .. |docker_bioconductor-recoup| image:: https://quay.io/repository/biocontainers/bioconductor-recoup/status
    :target: https://quay.io/repository/biocontainers/bioconductor-recoup

@@ -54,6 +54,7 @@ bioconductor-paxtoolsr
 
 
 .. |downloads_bioconductor-paxtoolsr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-paxtoolsr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-paxtoolsr
    :alt:   (downloads)
 .. |docker_bioconductor-paxtoolsr| image:: https://quay.io/repository/biocontainers/bioconductor-paxtoolsr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-paxtoolsr

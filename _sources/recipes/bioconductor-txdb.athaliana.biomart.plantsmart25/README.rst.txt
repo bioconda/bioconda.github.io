@@ -48,6 +48,7 @@ bioconductor-txdb.athaliana.biomart.plantsmart25
 
 
 .. |downloads_bioconductor-txdb.athaliana.biomart.plantsmart25| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-txdb.athaliana.biomart.plantsmart25.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-txdb.athaliana.biomart.plantsmart25
    :alt:   (downloads)
 .. |docker_bioconductor-txdb.athaliana.biomart.plantsmart25| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.athaliana.biomart.plantsmart25/status
    :target: https://quay.io/repository/biocontainers/bioconductor-txdb.athaliana.biomart.plantsmart25

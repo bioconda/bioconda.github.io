@@ -48,6 +48,7 @@ r-nabor
 
 
 .. |downloads_r-nabor| image:: https://img.shields.io/conda/dn/bioconda/r-nabor.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-nabor
    :alt:   (downloads)
 .. |docker_r-nabor| image:: https://quay.io/repository/biocontainers/r-nabor/status
    :target: https://quay.io/repository/biocontainers/r-nabor

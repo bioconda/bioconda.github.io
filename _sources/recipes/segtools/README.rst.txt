@@ -56,6 +56,7 @@ segtools
 
 
 .. |downloads_segtools| image:: https://img.shields.io/conda/dn/bioconda/segtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/segtools
    :alt:   (downloads)
 .. |docker_segtools| image:: https://quay.io/repository/biocontainers/segtools/status
    :target: https://quay.io/repository/biocontainers/segtools

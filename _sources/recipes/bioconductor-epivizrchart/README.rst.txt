@@ -50,6 +50,7 @@ bioconductor-epivizrchart
 
 
 .. |downloads_bioconductor-epivizrchart| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-epivizrchart.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-epivizrchart
    :alt:   (downloads)
 .. |docker_bioconductor-epivizrchart| image:: https://quay.io/repository/biocontainers/bioconductor-epivizrchart/status
    :target: https://quay.io/repository/biocontainers/bioconductor-epivizrchart

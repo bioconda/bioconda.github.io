@@ -48,6 +48,7 @@ bioconductor-txdb.mmusculus.ucsc.mm9.knowngene
 
 
 .. |downloads_bioconductor-txdb.mmusculus.ucsc.mm9.knowngene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene
    :alt:   (downloads)
 .. |docker_bioconductor-txdb.mmusculus.ucsc.mm9.knowngene| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene/status
    :target: https://quay.io/repository/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene

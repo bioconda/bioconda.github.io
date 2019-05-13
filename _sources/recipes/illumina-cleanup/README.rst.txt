@@ -50,6 +50,7 @@ illumina-cleanup
 
 
 .. |downloads_illumina-cleanup| image:: https://img.shields.io/conda/dn/bioconda/illumina-cleanup.svg?style=flat
+   :target: https://anaconda.org/bioconda/illumina-cleanup
    :alt:   (downloads)
 .. |docker_illumina-cleanup| image:: https://quay.io/repository/biocontainers/illumina-cleanup/status
    :target: https://quay.io/repository/biocontainers/illumina-cleanup

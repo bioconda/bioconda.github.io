@@ -83,6 +83,7 @@ bioconda-utils
 
 
 .. |downloads_bioconda-utils| image:: https://img.shields.io/conda/dn/bioconda/bioconda-utils.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconda-utils
    :alt:   (downloads)
 .. |docker_bioconda-utils| image:: https://quay.io/repository/biocontainers/bioconda-utils/status
    :target: https://quay.io/repository/biocontainers/bioconda-utils

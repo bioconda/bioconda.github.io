@@ -59,6 +59,7 @@ bioconductor-proteoqc
 
 
 .. |downloads_bioconductor-proteoqc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-proteoqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-proteoqc
    :alt:   (downloads)
 .. |docker_bioconductor-proteoqc| image:: https://quay.io/repository/biocontainers/bioconductor-proteoqc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-proteoqc

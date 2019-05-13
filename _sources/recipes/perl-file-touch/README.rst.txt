@@ -47,6 +47,7 @@ perl-file-touch
 
 
 .. |downloads_perl-file-touch| image:: https://img.shields.io/conda/dn/bioconda/perl-file-touch.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-touch
    :alt:   (downloads)
 .. |docker_perl-file-touch| image:: https://quay.io/repository/biocontainers/perl-file-touch/status
    :target: https://quay.io/repository/biocontainers/perl-file-touch

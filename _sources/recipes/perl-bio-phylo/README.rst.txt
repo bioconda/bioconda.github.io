@@ -57,6 +57,7 @@ perl-bio-phylo
 
 
 .. |downloads_perl-bio-phylo| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-phylo.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bio-phylo
    :alt:   (downloads)
 .. |docker_perl-bio-phylo| image:: https://quay.io/repository/biocontainers/perl-bio-phylo/status
    :target: https://quay.io/repository/biocontainers/perl-bio-phylo

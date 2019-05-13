@@ -47,6 +47,7 @@ pispino
 
 
 .. |downloads_pispino| image:: https://img.shields.io/conda/dn/bioconda/pispino.svg?style=flat
+   :target: https://anaconda.org/bioconda/pispino
    :alt:   (downloads)
 .. |docker_pispino| image:: https://quay.io/repository/biocontainers/pispino/status
    :target: https://quay.io/repository/biocontainers/pispino

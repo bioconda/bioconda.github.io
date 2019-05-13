@@ -57,6 +57,7 @@ peakachu
 
 
 .. |downloads_peakachu| image:: https://img.shields.io/conda/dn/bioconda/peakachu.svg?style=flat
+   :target: https://anaconda.org/bioconda/peakachu
    :alt:   (downloads)
 .. |docker_peakachu| image:: https://quay.io/repository/biocontainers/peakachu/status
    :target: https://quay.io/repository/biocontainers/peakachu

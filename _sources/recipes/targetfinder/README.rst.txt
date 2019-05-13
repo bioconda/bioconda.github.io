@@ -46,6 +46,7 @@ targetfinder
 
 
 .. |downloads_targetfinder| image:: https://img.shields.io/conda/dn/bioconda/targetfinder.svg?style=flat
+   :target: https://anaconda.org/bioconda/targetfinder
    :alt:   (downloads)
 .. |docker_targetfinder| image:: https://quay.io/repository/biocontainers/targetfinder/status
    :target: https://quay.io/repository/biocontainers/targetfinder

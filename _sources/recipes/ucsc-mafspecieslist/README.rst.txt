@@ -50,6 +50,7 @@ ucsc-mafspecieslist
 
 
 .. |downloads_ucsc-mafspecieslist| image:: https://img.shields.io/conda/dn/bioconda/ucsc-mafspecieslist.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-mafspecieslist
    :alt:   (downloads)
 .. |docker_ucsc-mafspecieslist| image:: https://quay.io/repository/biocontainers/ucsc-mafspecieslist/status
    :target: https://quay.io/repository/biocontainers/ucsc-mafspecieslist

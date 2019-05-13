@@ -46,6 +46,7 @@ ac-diamond
 
 
 .. |downloads_ac-diamond| image:: https://img.shields.io/conda/dn/bioconda/ac-diamond.svg?style=flat
+   :target: https://anaconda.org/bioconda/ac-diamond
    :alt:   (downloads)
 .. |docker_ac-diamond| image:: https://quay.io/repository/biocontainers/ac-diamond/status
    :target: https://quay.io/repository/biocontainers/ac-diamond

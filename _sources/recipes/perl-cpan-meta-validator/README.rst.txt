@@ -45,6 +45,7 @@ perl-cpan-meta-validator
 
 
 .. |downloads_perl-cpan-meta-validator| image:: https://img.shields.io/conda/dn/bioconda/perl-cpan-meta-validator.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-cpan-meta-validator
    :alt:   (downloads)
 .. |docker_perl-cpan-meta-validator| image:: https://quay.io/repository/biocontainers/perl-cpan-meta-validator/status
    :target: https://quay.io/repository/biocontainers/perl-cpan-meta-validator

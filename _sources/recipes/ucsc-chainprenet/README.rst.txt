@@ -50,6 +50,7 @@ ucsc-chainprenet
 
 
 .. |downloads_ucsc-chainprenet| image:: https://img.shields.io/conda/dn/bioconda/ucsc-chainprenet.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-chainprenet
    :alt:   (downloads)
 .. |docker_ucsc-chainprenet| image:: https://quay.io/repository/biocontainers/ucsc-chainprenet/status
    :target: https://quay.io/repository/biocontainers/ucsc-chainprenet

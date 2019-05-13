@@ -50,6 +50,7 @@ ucsc-addcols
 
 
 .. |downloads_ucsc-addcols| image:: https://img.shields.io/conda/dn/bioconda/ucsc-addcols.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-addcols
    :alt:   (downloads)
 .. |docker_ucsc-addcols| image:: https://quay.io/repository/biocontainers/ucsc-addcols/status
    :target: https://quay.io/repository/biocontainers/ucsc-addcols

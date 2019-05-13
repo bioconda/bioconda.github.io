@@ -46,6 +46,7 @@ bioconductor-zebrafishrnaseq
 
 
 .. |downloads_bioconductor-zebrafishrnaseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-zebrafishrnaseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-zebrafishrnaseq
    :alt:   (downloads)
 .. |docker_bioconductor-zebrafishrnaseq| image:: https://quay.io/repository/biocontainers/bioconductor-zebrafishrnaseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-zebrafishrnaseq

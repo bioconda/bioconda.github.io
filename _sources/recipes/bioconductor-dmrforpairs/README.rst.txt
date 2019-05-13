@@ -48,6 +48,7 @@ bioconductor-dmrforpairs
 
 
 .. |downloads_bioconductor-dmrforpairs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dmrforpairs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dmrforpairs
    :alt:   (downloads)
 .. |docker_bioconductor-dmrforpairs| image:: https://quay.io/repository/biocontainers/bioconductor-dmrforpairs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dmrforpairs

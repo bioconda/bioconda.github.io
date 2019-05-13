@@ -47,6 +47,7 @@ fmlrc
 
 
 .. |downloads_fmlrc| image:: https://img.shields.io/conda/dn/bioconda/fmlrc.svg?style=flat
+   :target: https://anaconda.org/bioconda/fmlrc
    :alt:   (downloads)
 .. |docker_fmlrc| image:: https://quay.io/repository/biocontainers/fmlrc/status
    :target: https://quay.io/repository/biocontainers/fmlrc

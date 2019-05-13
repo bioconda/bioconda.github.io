@@ -46,6 +46,7 @@ bioconductor-hugene.1.0.st.v1frmavecs
 
 
 .. |downloads_bioconductor-hugene.1.0.st.v1frmavecs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hugene.1.0.st.v1frmavecs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hugene.1.0.st.v1frmavecs
    :alt:   (downloads)
 .. |docker_bioconductor-hugene.1.0.st.v1frmavecs| image:: https://quay.io/repository/biocontainers/bioconductor-hugene.1.0.st.v1frmavecs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hugene.1.0.st.v1frmavecs

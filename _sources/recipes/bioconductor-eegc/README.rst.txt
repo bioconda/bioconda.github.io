@@ -61,6 +61,7 @@ bioconductor-eegc
 
 
 .. |downloads_bioconductor-eegc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-eegc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-eegc
    :alt:   (downloads)
 .. |docker_bioconductor-eegc| image:: https://quay.io/repository/biocontainers/bioconductor-eegc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-eegc

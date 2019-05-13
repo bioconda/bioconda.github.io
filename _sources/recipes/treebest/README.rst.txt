@@ -46,6 +46,7 @@ treebest
 
 
 .. |downloads_treebest| image:: https://img.shields.io/conda/dn/bioconda/treebest.svg?style=flat
+   :target: https://anaconda.org/bioconda/treebest
    :alt:   (downloads)
 .. |docker_treebest| image:: https://quay.io/repository/biocontainers/treebest/status
    :target: https://quay.io/repository/biocontainers/treebest

@@ -50,6 +50,7 @@ perl-eval-closure
 
 
 .. |downloads_perl-eval-closure| image:: https://img.shields.io/conda/dn/bioconda/perl-eval-closure.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-eval-closure
    :alt:   (downloads)
 .. |docker_perl-eval-closure| image:: https://quay.io/repository/biocontainers/perl-eval-closure/status
    :target: https://quay.io/repository/biocontainers/perl-eval-closure

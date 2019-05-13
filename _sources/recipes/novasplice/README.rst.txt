@@ -48,6 +48,7 @@ novasplice
 
 
 .. |downloads_novasplice| image:: https://img.shields.io/conda/dn/bioconda/novasplice.svg?style=flat
+   :target: https://anaconda.org/bioconda/novasplice
    :alt:   (downloads)
 .. |docker_novasplice| image:: https://quay.io/repository/biocontainers/novasplice/status
    :target: https://quay.io/repository/biocontainers/novasplice

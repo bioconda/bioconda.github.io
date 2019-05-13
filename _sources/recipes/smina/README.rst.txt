@@ -44,6 +44,7 @@ smina
 
 
 .. |downloads_smina| image:: https://img.shields.io/conda/dn/bioconda/smina.svg?style=flat
+   :target: https://anaconda.org/bioconda/smina
    :alt:   (downloads)
 .. |docker_smina| image:: https://quay.io/repository/biocontainers/smina/status
    :target: https://quay.io/repository/biocontainers/smina

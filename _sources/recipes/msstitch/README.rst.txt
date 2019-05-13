@@ -49,6 +49,7 @@ msstitch
 
 
 .. |downloads_msstitch| image:: https://img.shields.io/conda/dn/bioconda/msstitch.svg?style=flat
+   :target: https://anaconda.org/bioconda/msstitch
    :alt:   (downloads)
 .. |docker_msstitch| image:: https://quay.io/repository/biocontainers/msstitch/status
    :target: https://quay.io/repository/biocontainers/msstitch

@@ -48,6 +48,7 @@ pear
 
 
 .. |downloads_pear| image:: https://img.shields.io/conda/dn/bioconda/pear.svg?style=flat
+   :target: https://anaconda.org/bioconda/pear
    :alt:   (downloads)
 .. |docker_pear| image:: https://quay.io/repository/biocontainers/pear/status
    :target: https://quay.io/repository/biocontainers/pear

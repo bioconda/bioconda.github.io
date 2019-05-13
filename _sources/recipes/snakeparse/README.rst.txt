@@ -47,6 +47,7 @@ snakeparse
 
 
 .. |downloads_snakeparse| image:: https://img.shields.io/conda/dn/bioconda/snakeparse.svg?style=flat
+   :target: https://anaconda.org/bioconda/snakeparse
    :alt:   (downloads)
 .. |docker_snakeparse| image:: https://quay.io/repository/biocontainers/snakeparse/status
    :target: https://quay.io/repository/biocontainers/snakeparse

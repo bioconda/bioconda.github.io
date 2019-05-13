@@ -66,6 +66,7 @@ biopet-seattleseqkit
 
 
 .. |downloads_biopet-seattleseqkit| image:: https://img.shields.io/conda/dn/bioconda/biopet-seattleseqkit.svg?style=flat
+   :target: https://anaconda.org/bioconda/biopet-seattleseqkit
    :alt:   (downloads)
 .. |docker_biopet-seattleseqkit| image:: https://quay.io/repository/biocontainers/biopet-seattleseqkit/status
    :target: https://quay.io/repository/biocontainers/biopet-seattleseqkit

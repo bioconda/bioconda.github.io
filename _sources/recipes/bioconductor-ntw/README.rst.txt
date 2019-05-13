@@ -47,6 +47,7 @@ bioconductor-ntw
 
 
 .. |downloads_bioconductor-ntw| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ntw.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ntw
    :alt:   (downloads)
 .. |docker_bioconductor-ntw| image:: https://quay.io/repository/biocontainers/bioconductor-ntw/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ntw

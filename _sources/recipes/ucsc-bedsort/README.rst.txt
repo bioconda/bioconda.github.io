@@ -50,6 +50,7 @@ ucsc-bedsort
 
 
 .. |downloads_ucsc-bedsort| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bedsort.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bedsort
    :alt:   (downloads)
 .. |docker_ucsc-bedsort| image:: https://quay.io/repository/biocontainers/ucsc-bedsort/status
    :target: https://quay.io/repository/biocontainers/ucsc-bedsort

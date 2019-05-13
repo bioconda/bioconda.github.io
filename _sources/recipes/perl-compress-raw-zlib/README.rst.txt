@@ -47,6 +47,7 @@ perl-compress-raw-zlib
 
 
 .. |downloads_perl-compress-raw-zlib| image:: https://img.shields.io/conda/dn/bioconda/perl-compress-raw-zlib.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-compress-raw-zlib
    :alt:   (downloads)
 .. |docker_perl-compress-raw-zlib| image:: https://quay.io/repository/biocontainers/perl-compress-raw-zlib/status
    :target: https://quay.io/repository/biocontainers/perl-compress-raw-zlib

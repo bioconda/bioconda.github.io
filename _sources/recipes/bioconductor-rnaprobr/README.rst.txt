@@ -56,6 +56,7 @@ bioconductor-rnaprobr
 
 
 .. |downloads_bioconductor-rnaprobr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rnaprobr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rnaprobr
    :alt:   (downloads)
 .. |docker_bioconductor-rnaprobr| image:: https://quay.io/repository/biocontainers/bioconductor-rnaprobr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rnaprobr

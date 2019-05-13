@@ -47,6 +47,7 @@ bioconductor-ath1121501probe
 
 
 .. |downloads_bioconductor-ath1121501probe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ath1121501probe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ath1121501probe
    :alt:   (downloads)
 .. |docker_bioconductor-ath1121501probe| image:: https://quay.io/repository/biocontainers/bioconductor-ath1121501probe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ath1121501probe

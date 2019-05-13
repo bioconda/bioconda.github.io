@@ -48,6 +48,7 @@ bioconductor-illuminaio
 
 
 .. |downloads_bioconductor-illuminaio| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-illuminaio.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-illuminaio
    :alt:   (downloads)
 .. |docker_bioconductor-illuminaio| image:: https://quay.io/repository/biocontainers/bioconductor-illuminaio/status
    :target: https://quay.io/repository/biocontainers/bioconductor-illuminaio

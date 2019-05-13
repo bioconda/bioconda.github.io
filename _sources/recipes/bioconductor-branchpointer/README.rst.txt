@@ -61,6 +61,7 @@ bioconductor-branchpointer
 
 
 .. |downloads_bioconductor-branchpointer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-branchpointer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-branchpointer
    :alt:   (downloads)
 .. |docker_bioconductor-branchpointer| image:: https://quay.io/repository/biocontainers/bioconductor-branchpointer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-branchpointer

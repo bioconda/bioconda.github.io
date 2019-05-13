@@ -62,6 +62,7 @@ r-lncpipereporter
 
 
 .. |downloads_r-lncpipereporter| image:: https://img.shields.io/conda/dn/bioconda/r-lncpipereporter.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-lncpipereporter
    :alt:   (downloads)
 .. |docker_r-lncpipereporter| image:: https://quay.io/repository/biocontainers/r-lncpipereporter/status
    :target: https://quay.io/repository/biocontainers/r-lncpipereporter

@@ -53,6 +53,7 @@ intemap
 
 
 .. |downloads_intemap| image:: https://img.shields.io/conda/dn/bioconda/intemap.svg?style=flat
+   :target: https://anaconda.org/bioconda/intemap
    :alt:   (downloads)
 .. |docker_intemap| image:: https://quay.io/repository/biocontainers/intemap/status
    :target: https://quay.io/repository/biocontainers/intemap

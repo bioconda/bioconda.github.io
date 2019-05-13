@@ -45,6 +45,7 @@ perl-perlio
 
 
 .. |downloads_perl-perlio| image:: https://img.shields.io/conda/dn/bioconda/perl-perlio.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-perlio
    :alt:   (downloads)
 .. |docker_perl-perlio| image:: https://quay.io/repository/biocontainers/perl-perlio/status
    :target: https://quay.io/repository/biocontainers/perl-perlio

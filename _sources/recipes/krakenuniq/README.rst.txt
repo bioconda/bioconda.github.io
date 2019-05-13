@@ -52,6 +52,7 @@ krakenuniq
 
 
 .. |downloads_krakenuniq| image:: https://img.shields.io/conda/dn/bioconda/krakenuniq.svg?style=flat
+   :target: https://anaconda.org/bioconda/krakenuniq
    :alt:   (downloads)
 .. |docker_krakenuniq| image:: https://quay.io/repository/biocontainers/krakenuniq/status
    :target: https://quay.io/repository/biocontainers/krakenuniq

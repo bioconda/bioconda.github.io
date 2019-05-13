@@ -55,6 +55,7 @@ r-grbase
 
 
 .. |downloads_r-grbase| image:: https://img.shields.io/conda/dn/bioconda/r-grbase.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-grbase
    :alt:   (downloads)
 .. |docker_r-grbase| image:: https://quay.io/repository/biocontainers/r-grbase/status
    :target: https://quay.io/repository/biocontainers/r-grbase

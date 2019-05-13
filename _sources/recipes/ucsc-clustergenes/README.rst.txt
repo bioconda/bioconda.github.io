@@ -50,6 +50,7 @@ ucsc-clustergenes
 
 
 .. |downloads_ucsc-clustergenes| image:: https://img.shields.io/conda/dn/bioconda/ucsc-clustergenes.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-clustergenes
    :alt:   (downloads)
 .. |docker_ucsc-clustergenes| image:: https://quay.io/repository/biocontainers/ucsc-clustergenes/status
    :target: https://quay.io/repository/biocontainers/ucsc-clustergenes

@@ -46,6 +46,7 @@ bioconductor-occugene
 
 
 .. |downloads_bioconductor-occugene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-occugene.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-occugene
    :alt:   (downloads)
 .. |docker_bioconductor-occugene| image:: https://quay.io/repository/biocontainers/bioconductor-occugene/status
    :target: https://quay.io/repository/biocontainers/bioconductor-occugene

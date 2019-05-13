@@ -45,6 +45,7 @@ panoct
 
 
 .. |downloads_panoct| image:: https://img.shields.io/conda/dn/bioconda/panoct.svg?style=flat
+   :target: https://anaconda.org/bioconda/panoct
    :alt:   (downloads)
 .. |docker_panoct| image:: https://quay.io/repository/biocontainers/panoct/status
    :target: https://quay.io/repository/biocontainers/panoct

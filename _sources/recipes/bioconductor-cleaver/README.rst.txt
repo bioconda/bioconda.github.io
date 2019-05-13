@@ -49,6 +49,7 @@ bioconductor-cleaver
 
 
 .. |downloads_bioconductor-cleaver| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cleaver.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cleaver
    :alt:   (downloads)
 .. |docker_bioconductor-cleaver| image:: https://quay.io/repository/biocontainers/bioconductor-cleaver/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cleaver

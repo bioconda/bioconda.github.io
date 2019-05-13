@@ -51,6 +51,7 @@ gmcloser
 
 
 .. |downloads_gmcloser| image:: https://img.shields.io/conda/dn/bioconda/gmcloser.svg?style=flat
+   :target: https://anaconda.org/bioconda/gmcloser
    :alt:   (downloads)
 .. |docker_gmcloser| image:: https://quay.io/repository/biocontainers/gmcloser/status
    :target: https://quay.io/repository/biocontainers/gmcloser

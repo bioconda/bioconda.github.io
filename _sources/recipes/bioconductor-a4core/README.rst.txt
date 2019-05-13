@@ -48,6 +48,7 @@ bioconductor-a4core
 
 
 .. |downloads_bioconductor-a4core| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-a4core.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-a4core
    :alt:   (downloads)
 .. |docker_bioconductor-a4core| image:: https://quay.io/repository/biocontainers/bioconductor-a4core/status
    :target: https://quay.io/repository/biocontainers/bioconductor-a4core

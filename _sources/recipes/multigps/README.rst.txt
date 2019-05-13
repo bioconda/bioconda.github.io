@@ -48,6 +48,7 @@ multigps
 
 
 .. |downloads_multigps| image:: https://img.shields.io/conda/dn/bioconda/multigps.svg?style=flat
+   :target: https://anaconda.org/bioconda/multigps
    :alt:   (downloads)
 .. |docker_multigps| image:: https://quay.io/repository/biocontainers/multigps/status
    :target: https://quay.io/repository/biocontainers/multigps

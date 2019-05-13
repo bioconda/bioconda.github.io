@@ -47,6 +47,7 @@ bioconductor-hierinf
 
 
 .. |downloads_bioconductor-hierinf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hierinf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hierinf
    :alt:   (downloads)
 .. |docker_bioconductor-hierinf| image:: https://quay.io/repository/biocontainers/bioconductor-hierinf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hierinf

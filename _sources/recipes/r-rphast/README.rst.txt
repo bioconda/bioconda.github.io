@@ -46,6 +46,7 @@ r-rphast
 
 
 .. |downloads_r-rphast| image:: https://img.shields.io/conda/dn/bioconda/r-rphast.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-rphast
    :alt:   (downloads)
 .. |docker_r-rphast| image:: https://quay.io/repository/biocontainers/r-rphast/status
    :target: https://quay.io/repository/biocontainers/r-rphast

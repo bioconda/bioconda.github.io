@@ -46,6 +46,7 @@ perl-number-range
 
 
 .. |downloads_perl-number-range| image:: https://img.shields.io/conda/dn/bioconda/perl-number-range.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-number-range
    :alt:   (downloads)
 .. |docker_perl-number-range| image:: https://quay.io/repository/biocontainers/perl-number-range/status
    :target: https://quay.io/repository/biocontainers/perl-number-range

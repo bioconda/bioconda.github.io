@@ -53,6 +53,7 @@ bioconductor-pd.soybean
 
 
 .. |downloads_bioconductor-pd.soybean| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.soybean.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.soybean
    :alt:   (downloads)
 .. |docker_bioconductor-pd.soybean| image:: https://quay.io/repository/biocontainers/bioconductor-pd.soybean/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.soybean

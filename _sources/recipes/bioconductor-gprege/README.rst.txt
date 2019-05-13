@@ -46,6 +46,7 @@ bioconductor-gprege
 
 
 .. |downloads_bioconductor-gprege| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gprege.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gprege
    :alt:   (downloads)
 .. |docker_bioconductor-gprege| image:: https://quay.io/repository/biocontainers/bioconductor-gprege/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gprege

@@ -47,6 +47,7 @@ je-suite
 
 
 .. |downloads_je-suite| image:: https://img.shields.io/conda/dn/bioconda/je-suite.svg?style=flat
+   :target: https://anaconda.org/bioconda/je-suite
    :alt:   (downloads)
 .. |docker_je-suite| image:: https://quay.io/repository/biocontainers/je-suite/status
    :target: https://quay.io/repository/biocontainers/je-suite

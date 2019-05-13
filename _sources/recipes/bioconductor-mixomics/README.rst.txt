@@ -58,6 +58,7 @@ bioconductor-mixomics
 
 
 .. |downloads_bioconductor-mixomics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mixomics.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mixomics
    :alt:   (downloads)
 .. |docker_bioconductor-mixomics| image:: https://quay.io/repository/biocontainers/bioconductor-mixomics/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mixomics

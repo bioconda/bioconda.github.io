@@ -48,6 +48,7 @@ sorted_nearest
 
 
 .. |downloads_sorted_nearest| image:: https://img.shields.io/conda/dn/bioconda/sorted_nearest.svg?style=flat
+   :target: https://anaconda.org/bioconda/sorted_nearest
    :alt:   (downloads)
 .. |docker_sorted_nearest| image:: https://quay.io/repository/biocontainers/sorted_nearest/status
    :target: https://quay.io/repository/biocontainers/sorted_nearest

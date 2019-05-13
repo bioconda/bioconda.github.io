@@ -46,6 +46,7 @@ bioconductor-humanchrloc
 
 
 .. |downloads_bioconductor-humanchrloc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-humanchrloc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-humanchrloc
    :alt:   (downloads)
 .. |docker_bioconductor-humanchrloc| image:: https://quay.io/repository/biocontainers/bioconductor-humanchrloc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-humanchrloc

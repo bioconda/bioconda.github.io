@@ -45,6 +45,7 @@ graphlite
 
 
 .. |downloads_graphlite| image:: https://img.shields.io/conda/dn/bioconda/graphlite.svg?style=flat
+   :target: https://anaconda.org/bioconda/graphlite
    :alt:   (downloads)
 .. |docker_graphlite| image:: https://quay.io/repository/biocontainers/graphlite/status
    :target: https://quay.io/repository/biocontainers/graphlite

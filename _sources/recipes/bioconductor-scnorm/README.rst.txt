@@ -55,6 +55,7 @@ bioconductor-scnorm
 
 
 .. |downloads_bioconductor-scnorm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scnorm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-scnorm
    :alt:   (downloads)
 .. |docker_bioconductor-scnorm| image:: https://quay.io/repository/biocontainers/bioconductor-scnorm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-scnorm

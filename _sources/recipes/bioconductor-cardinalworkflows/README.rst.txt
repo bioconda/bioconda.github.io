@@ -47,6 +47,7 @@ bioconductor-cardinalworkflows
 
 
 .. |downloads_bioconductor-cardinalworkflows| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cardinalworkflows.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cardinalworkflows
    :alt:   (downloads)
 .. |docker_bioconductor-cardinalworkflows| image:: https://quay.io/repository/biocontainers/bioconductor-cardinalworkflows/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cardinalworkflows

@@ -46,6 +46,7 @@ bioconductor-dvddata
 
 
 .. |downloads_bioconductor-dvddata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dvddata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dvddata
    :alt:   (downloads)
 .. |docker_bioconductor-dvddata| image:: https://quay.io/repository/biocontainers/bioconductor-dvddata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dvddata

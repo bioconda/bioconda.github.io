@@ -45,6 +45,7 @@ sumaclust
 
 
 .. |downloads_sumaclust| image:: https://img.shields.io/conda/dn/bioconda/sumaclust.svg?style=flat
+   :target: https://anaconda.org/bioconda/sumaclust
    :alt:   (downloads)
 .. |docker_sumaclust| image:: https://quay.io/repository/biocontainers/sumaclust/status
    :target: https://quay.io/repository/biocontainers/sumaclust

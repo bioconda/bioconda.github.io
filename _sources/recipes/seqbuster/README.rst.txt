@@ -47,6 +47,7 @@ seqbuster
 
 
 .. |downloads_seqbuster| image:: https://img.shields.io/conda/dn/bioconda/seqbuster.svg?style=flat
+   :target: https://anaconda.org/bioconda/seqbuster
    :alt:   (downloads)
 .. |docker_seqbuster| image:: https://quay.io/repository/biocontainers/seqbuster/status
    :target: https://quay.io/repository/biocontainers/seqbuster

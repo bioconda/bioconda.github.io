@@ -47,6 +47,7 @@ bioconductor-allmll
 
 
 .. |downloads_bioconductor-allmll| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-allmll.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-allmll
    :alt:   (downloads)
 .. |docker_bioconductor-allmll| image:: https://quay.io/repository/biocontainers/bioconductor-allmll/status
    :target: https://quay.io/repository/biocontainers/bioconductor-allmll

@@ -47,6 +47,7 @@ bloomfiltertrie
 
 
 .. |downloads_bloomfiltertrie| image:: https://img.shields.io/conda/dn/bioconda/bloomfiltertrie.svg?style=flat
+   :target: https://anaconda.org/bioconda/bloomfiltertrie
    :alt:   (downloads)
 .. |docker_bloomfiltertrie| image:: https://quay.io/repository/biocontainers/bloomfiltertrie/status
    :target: https://quay.io/repository/biocontainers/bloomfiltertrie

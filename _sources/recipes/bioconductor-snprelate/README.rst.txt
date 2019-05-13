@@ -48,6 +48,7 @@ bioconductor-snprelate
 
 
 .. |downloads_bioconductor-snprelate| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-snprelate.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-snprelate
    :alt:   (downloads)
 .. |docker_bioconductor-snprelate| image:: https://quay.io/repository/biocontainers/bioconductor-snprelate/status
    :target: https://quay.io/repository/biocontainers/bioconductor-snprelate

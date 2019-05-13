@@ -48,6 +48,7 @@ bioconductor-meshsim
 
 
 .. |downloads_bioconductor-meshsim| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-meshsim.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-meshsim
    :alt:   (downloads)
 .. |docker_bioconductor-meshsim| image:: https://quay.io/repository/biocontainers/bioconductor-meshsim/status
    :target: https://quay.io/repository/biocontainers/bioconductor-meshsim

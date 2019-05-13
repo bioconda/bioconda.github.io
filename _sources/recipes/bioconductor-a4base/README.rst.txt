@@ -57,6 +57,7 @@ bioconductor-a4base
 
 
 .. |downloads_bioconductor-a4base| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-a4base.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-a4base
    :alt:   (downloads)
 .. |docker_bioconductor-a4base| image:: https://quay.io/repository/biocontainers/bioconductor-a4base/status
    :target: https://quay.io/repository/biocontainers/bioconductor-a4base

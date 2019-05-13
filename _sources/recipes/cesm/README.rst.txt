@@ -60,6 +60,7 @@ cesm
 
 
 .. |downloads_cesm| image:: https://img.shields.io/conda/dn/bioconda/cesm.svg?style=flat
+   :target: https://anaconda.org/bioconda/cesm
    :alt:   (downloads)
 .. |docker_cesm| image:: https://quay.io/repository/biocontainers/cesm/status
    :target: https://quay.io/repository/biocontainers/cesm

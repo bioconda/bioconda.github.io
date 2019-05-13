@@ -47,6 +47,7 @@ agg
 
 
 .. |downloads_agg| image:: https://img.shields.io/conda/dn/bioconda/agg.svg?style=flat
+   :target: https://anaconda.org/bioconda/agg
    :alt:   (downloads)
 .. |docker_agg| image:: https://quay.io/repository/biocontainers/agg/status
    :target: https://quay.io/repository/biocontainers/agg

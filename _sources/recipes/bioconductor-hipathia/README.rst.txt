@@ -56,6 +56,7 @@ bioconductor-hipathia
 
 
 .. |downloads_bioconductor-hipathia| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hipathia.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hipathia
    :alt:   (downloads)
 .. |docker_bioconductor-hipathia| image:: https://quay.io/repository/biocontainers/bioconductor-hipathia/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hipathia

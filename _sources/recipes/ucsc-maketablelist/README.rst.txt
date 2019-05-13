@@ -50,6 +50,7 @@ ucsc-maketablelist
 
 
 .. |downloads_ucsc-maketablelist| image:: https://img.shields.io/conda/dn/bioconda/ucsc-maketablelist.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-maketablelist
    :alt:   (downloads)
 .. |docker_ucsc-maketablelist| image:: https://quay.io/repository/biocontainers/ucsc-maketablelist/status
    :target: https://quay.io/repository/biocontainers/ucsc-maketablelist

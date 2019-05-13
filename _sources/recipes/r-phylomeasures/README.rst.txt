@@ -48,6 +48,7 @@ r-phylomeasures
 
 
 .. |downloads_r-phylomeasures| image:: https://img.shields.io/conda/dn/bioconda/r-phylomeasures.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-phylomeasures
    :alt:   (downloads)
 .. |docker_r-phylomeasures| image:: https://quay.io/repository/biocontainers/r-phylomeasures/status
    :target: https://quay.io/repository/biocontainers/r-phylomeasures

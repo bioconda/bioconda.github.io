@@ -49,6 +49,7 @@ bioconductor-msmstests
 
 
 .. |downloads_bioconductor-msmstests| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-msmstests.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-msmstests
    :alt:   (downloads)
 .. |docker_bioconductor-msmstests| image:: https://quay.io/repository/biocontainers/bioconductor-msmstests/status
    :target: https://quay.io/repository/biocontainers/bioconductor-msmstests

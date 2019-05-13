@@ -48,6 +48,7 @@ bioconductor-lpsymphony
 
 
 .. |downloads_bioconductor-lpsymphony| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lpsymphony.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lpsymphony
    :alt:   (downloads)
 .. |docker_bioconductor-lpsymphony| image:: https://quay.io/repository/biocontainers/bioconductor-lpsymphony/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lpsymphony

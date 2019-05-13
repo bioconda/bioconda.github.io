@@ -50,6 +50,7 @@ perl-bio-tools-phylo-paml
 
 
 .. |downloads_perl-bio-tools-phylo-paml| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-tools-phylo-paml.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bio-tools-phylo-paml
    :alt:   (downloads)
 .. |docker_perl-bio-tools-phylo-paml| image:: https://quay.io/repository/biocontainers/perl-bio-tools-phylo-paml/status
    :target: https://quay.io/repository/biocontainers/perl-bio-tools-phylo-paml

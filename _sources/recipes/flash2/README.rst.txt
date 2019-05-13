@@ -46,6 +46,7 @@ flash2
 
 
 .. |downloads_flash2| image:: https://img.shields.io/conda/dn/bioconda/flash2.svg?style=flat
+   :target: https://anaconda.org/bioconda/flash2
    :alt:   (downloads)
 .. |docker_flash2| image:: https://quay.io/repository/biocontainers/flash2/status
    :target: https://quay.io/repository/biocontainers/flash2

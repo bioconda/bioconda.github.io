@@ -45,6 +45,7 @@ hmmer2
 
 
 .. |downloads_hmmer2| image:: https://img.shields.io/conda/dn/bioconda/hmmer2.svg?style=flat
+   :target: https://anaconda.org/bioconda/hmmer2
    :alt:   (downloads)
 .. |docker_hmmer2| image:: https://quay.io/repository/biocontainers/hmmer2/status
    :target: https://quay.io/repository/biocontainers/hmmer2

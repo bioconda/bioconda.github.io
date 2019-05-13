@@ -48,6 +48,7 @@ bioconductor-rbm
 
 
 .. |downloads_bioconductor-rbm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rbm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rbm
    :alt:   (downloads)
 .. |docker_bioconductor-rbm| image:: https://quay.io/repository/biocontainers/bioconductor-rbm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rbm

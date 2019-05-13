@@ -51,6 +51,7 @@ assemblerflow
 
 
 .. |downloads_assemblerflow| image:: https://img.shields.io/conda/dn/bioconda/assemblerflow.svg?style=flat
+   :target: https://anaconda.org/bioconda/assemblerflow
    :alt:   (downloads)
 .. |docker_assemblerflow| image:: https://quay.io/repository/biocontainers/assemblerflow/status
    :target: https://quay.io/repository/biocontainers/assemblerflow

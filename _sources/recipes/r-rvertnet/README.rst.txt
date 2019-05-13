@@ -50,6 +50,7 @@ r-rvertnet
 
 
 .. |downloads_r-rvertnet| image:: https://img.shields.io/conda/dn/bioconda/r-rvertnet.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-rvertnet
    :alt:   (downloads)
 .. |docker_r-rvertnet| image:: https://quay.io/repository/biocontainers/r-rvertnet/status
    :target: https://quay.io/repository/biocontainers/r-rvertnet

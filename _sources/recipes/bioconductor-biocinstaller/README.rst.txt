@@ -46,6 +46,7 @@ bioconductor-biocinstaller
 
 
 .. |downloads_bioconductor-biocinstaller| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biocinstaller.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-biocinstaller
    :alt:   (downloads)
 .. |docker_bioconductor-biocinstaller| image:: https://quay.io/repository/biocontainers/bioconductor-biocinstaller/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biocinstaller

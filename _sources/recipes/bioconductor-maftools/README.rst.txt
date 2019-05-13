@@ -51,6 +51,7 @@ bioconductor-maftools
 
 
 .. |downloads_bioconductor-maftools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-maftools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-maftools
    :alt:   (downloads)
 .. |docker_bioconductor-maftools| image:: https://quay.io/repository/biocontainers/bioconductor-maftools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-maftools

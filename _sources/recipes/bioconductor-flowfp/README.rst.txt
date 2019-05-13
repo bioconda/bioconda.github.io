@@ -51,6 +51,7 @@ bioconductor-flowfp
 
 
 .. |downloads_bioconductor-flowfp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowfp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowfp
    :alt:   (downloads)
 .. |docker_bioconductor-flowfp| image:: https://quay.io/repository/biocontainers/bioconductor-flowfp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowfp

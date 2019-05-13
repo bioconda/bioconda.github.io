@@ -50,6 +50,7 @@ delly
 
 
 .. |downloads_delly| image:: https://img.shields.io/conda/dn/bioconda/delly.svg?style=flat
+   :target: https://anaconda.org/bioconda/delly
    :alt:   (downloads)
 .. |docker_delly| image:: https://quay.io/repository/biocontainers/delly/status
    :target: https://quay.io/repository/biocontainers/delly

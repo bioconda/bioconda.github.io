@@ -46,6 +46,7 @@ dig2
 
 
 .. |downloads_dig2| image:: https://img.shields.io/conda/dn/bioconda/dig2.svg?style=flat
+   :target: https://anaconda.org/bioconda/dig2
    :alt:   (downloads)
 .. |docker_dig2| image:: https://quay.io/repository/biocontainers/dig2/status
    :target: https://quay.io/repository/biocontainers/dig2

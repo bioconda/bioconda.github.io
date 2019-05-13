@@ -46,6 +46,7 @@ bioconductor-hpar
 
 
 .. |downloads_bioconductor-hpar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hpar.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hpar
    :alt:   (downloads)
 .. |docker_bioconductor-hpar| image:: https://quay.io/repository/biocontainers/bioconductor-hpar/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hpar

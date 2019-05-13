@@ -45,6 +45,7 @@ perl-io-compress-deflate
 
 
 .. |downloads_perl-io-compress-deflate| image:: https://img.shields.io/conda/dn/bioconda/perl-io-compress-deflate.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-io-compress-deflate
    :alt:   (downloads)
 .. |docker_perl-io-compress-deflate| image:: https://quay.io/repository/biocontainers/perl-io-compress-deflate/status
    :target: https://quay.io/repository/biocontainers/perl-io-compress-deflate

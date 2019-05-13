@@ -53,6 +53,7 @@ bioconductor-biocsklearn
 
 
 .. |downloads_bioconductor-biocsklearn| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biocsklearn.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-biocsklearn
    :alt:   (downloads)
 .. |docker_bioconductor-biocsklearn| image:: https://quay.io/repository/biocontainers/bioconductor-biocsklearn/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biocsklearn

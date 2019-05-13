@@ -72,6 +72,7 @@ wg-blimp
 
 
 .. |downloads_wg-blimp| image:: https://img.shields.io/conda/dn/bioconda/wg-blimp.svg?style=flat
+   :target: https://anaconda.org/bioconda/wg-blimp
    :alt:   (downloads)
 .. |docker_wg-blimp| image:: https://quay.io/repository/biocontainers/wg-blimp/status
    :target: https://quay.io/repository/biocontainers/wg-blimp

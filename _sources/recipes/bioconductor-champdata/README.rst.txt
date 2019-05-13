@@ -48,6 +48,7 @@ bioconductor-champdata
 
 
 .. |downloads_bioconductor-champdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-champdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-champdata
    :alt:   (downloads)
 .. |docker_bioconductor-champdata| image:: https://quay.io/repository/biocontainers/bioconductor-champdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-champdata

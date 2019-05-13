@@ -46,6 +46,7 @@ suma_package
 
 
 .. |downloads_suma_package| image:: https://img.shields.io/conda/dn/bioconda/suma_package.svg?style=flat
+   :target: https://anaconda.org/bioconda/suma_package
    :alt:   (downloads)
 .. |docker_suma_package| image:: https://quay.io/repository/biocontainers/suma_package/status
    :target: https://quay.io/repository/biocontainers/suma_package

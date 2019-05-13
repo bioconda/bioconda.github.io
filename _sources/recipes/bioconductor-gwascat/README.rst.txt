@@ -65,6 +65,7 @@ bioconductor-gwascat
 
 
 .. |downloads_bioconductor-gwascat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gwascat.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gwascat
    :alt:   (downloads)
 .. |docker_bioconductor-gwascat| image:: https://quay.io/repository/biocontainers/bioconductor-gwascat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gwascat

@@ -49,6 +49,7 @@ bioconductor-degseq
 
 
 .. |downloads_bioconductor-degseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-degseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-degseq
    :alt:   (downloads)
 .. |docker_bioconductor-degseq| image:: https://quay.io/repository/biocontainers/bioconductor-degseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-degseq

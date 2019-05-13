@@ -47,6 +47,7 @@ nextgenmap
 
 
 .. |downloads_nextgenmap| image:: https://img.shields.io/conda/dn/bioconda/nextgenmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/nextgenmap
    :alt:   (downloads)
 .. |docker_nextgenmap| image:: https://quay.io/repository/biocontainers/nextgenmap/status
    :target: https://quay.io/repository/biocontainers/nextgenmap

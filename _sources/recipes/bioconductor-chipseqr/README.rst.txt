@@ -55,6 +55,7 @@ bioconductor-chipseqr
 
 
 .. |downloads_bioconductor-chipseqr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chipseqr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chipseqr
    :alt:   (downloads)
 .. |docker_bioconductor-chipseqr| image:: https://quay.io/repository/biocontainers/bioconductor-chipseqr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chipseqr

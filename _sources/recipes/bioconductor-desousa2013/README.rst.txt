@@ -62,6 +62,7 @@ bioconductor-desousa2013
 
 
 .. |downloads_bioconductor-desousa2013| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-desousa2013.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-desousa2013
    :alt:   (downloads)
 .. |docker_bioconductor-desousa2013| image:: https://quay.io/repository/biocontainers/bioconductor-desousa2013/status
    :target: https://quay.io/repository/biocontainers/bioconductor-desousa2013

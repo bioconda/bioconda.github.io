@@ -51,6 +51,7 @@ bioconductor-geneselectmmd
 
 
 .. |downloads_bioconductor-geneselectmmd| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geneselectmmd.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-geneselectmmd
    :alt:   (downloads)
 .. |docker_bioconductor-geneselectmmd| image:: https://quay.io/repository/biocontainers/bioconductor-geneselectmmd/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geneselectmmd

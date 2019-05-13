@@ -48,6 +48,7 @@ bioconductor-spem
 
 
 .. |downloads_bioconductor-spem| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-spem.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-spem
    :alt:   (downloads)
 .. |docker_bioconductor-spem| image:: https://quay.io/repository/biocontainers/bioconductor-spem/status
    :target: https://quay.io/repository/biocontainers/bioconductor-spem

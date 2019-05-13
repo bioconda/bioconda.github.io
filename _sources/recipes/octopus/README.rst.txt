@@ -52,6 +52,7 @@ octopus
 
 
 .. |downloads_octopus| image:: https://img.shields.io/conda/dn/bioconda/octopus.svg?style=flat
+   :target: https://anaconda.org/bioconda/octopus
    :alt:   (downloads)
 .. |docker_octopus| image:: https://quay.io/repository/biocontainers/octopus/status
    :target: https://quay.io/repository/biocontainers/octopus

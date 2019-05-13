@@ -47,6 +47,7 @@ bioconductor-tcgaworkflowdata
 
 
 .. |downloads_bioconductor-tcgaworkflowdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tcgaworkflowdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tcgaworkflowdata
    :alt:   (downloads)
 .. |docker_bioconductor-tcgaworkflowdata| image:: https://quay.io/repository/biocontainers/bioconductor-tcgaworkflowdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tcgaworkflowdata

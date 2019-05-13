@@ -61,6 +61,7 @@ bioconductor-variancepartition
 
 
 .. |downloads_bioconductor-variancepartition| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-variancepartition.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-variancepartition
    :alt:   (downloads)
 .. |docker_bioconductor-variancepartition| image:: https://quay.io/repository/biocontainers/bioconductor-variancepartition/status
    :target: https://quay.io/repository/biocontainers/bioconductor-variancepartition

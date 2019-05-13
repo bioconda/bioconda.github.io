@@ -48,6 +48,7 @@ bioconductor-txdb.btaurus.ucsc.bostau8.refgene
 
 
 .. |downloads_bioconductor-txdb.btaurus.ucsc.bostau8.refgene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-txdb.btaurus.ucsc.bostau8.refgene.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-txdb.btaurus.ucsc.bostau8.refgene
    :alt:   (downloads)
 .. |docker_bioconductor-txdb.btaurus.ucsc.bostau8.refgene| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau8.refgene/status
    :target: https://quay.io/repository/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau8.refgene

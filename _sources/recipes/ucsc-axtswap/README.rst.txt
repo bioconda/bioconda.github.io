@@ -50,6 +50,7 @@ ucsc-axtswap
 
 
 .. |downloads_ucsc-axtswap| image:: https://img.shields.io/conda/dn/bioconda/ucsc-axtswap.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-axtswap
    :alt:   (downloads)
 .. |docker_ucsc-axtswap| image:: https://quay.io/repository/biocontainers/ucsc-axtswap/status
    :target: https://quay.io/repository/biocontainers/ucsc-axtswap

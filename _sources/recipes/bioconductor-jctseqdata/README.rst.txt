@@ -46,6 +46,7 @@ bioconductor-jctseqdata
 
 
 .. |downloads_bioconductor-jctseqdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-jctseqdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-jctseqdata
    :alt:   (downloads)
 .. |docker_bioconductor-jctseqdata| image:: https://quay.io/repository/biocontainers/bioconductor-jctseqdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-jctseqdata

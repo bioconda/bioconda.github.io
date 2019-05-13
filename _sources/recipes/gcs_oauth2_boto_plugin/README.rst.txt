@@ -51,6 +51,7 @@ gcs-oauth2-boto-plugin
 
 
 .. |downloads_gcs-oauth2-boto-plugin| image:: https://img.shields.io/conda/dn/bioconda/gcs-oauth2-boto-plugin.svg?style=flat
+   :target: https://anaconda.org/bioconda/gcs-oauth2-boto-plugin
    :alt:   (downloads)
 .. |docker_gcs-oauth2-boto-plugin| image:: https://quay.io/repository/biocontainers/gcs-oauth2-boto-plugin/status
    :target: https://quay.io/repository/biocontainers/gcs-oauth2-boto-plugin

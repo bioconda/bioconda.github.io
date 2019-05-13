@@ -48,6 +48,7 @@ bioconductor-rdgidb
 
 
 .. |downloads_bioconductor-rdgidb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rdgidb.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rdgidb
    :alt:   (downloads)
 .. |docker_bioconductor-rdgidb| image:: https://quay.io/repository/biocontainers/bioconductor-rdgidb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rdgidb

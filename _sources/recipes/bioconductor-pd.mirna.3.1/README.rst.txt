@@ -52,6 +52,7 @@ bioconductor-pd.mirna.3.1
 
 
 .. |downloads_bioconductor-pd.mirna.3.1| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.mirna.3.1.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.mirna.3.1
    :alt:   (downloads)
 .. |docker_bioconductor-pd.mirna.3.1| image:: https://quay.io/repository/biocontainers/bioconductor-pd.mirna.3.1/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.mirna.3.1

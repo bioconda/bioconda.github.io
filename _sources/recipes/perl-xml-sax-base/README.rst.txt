@@ -45,6 +45,7 @@ perl-xml-sax-base
 
 
 .. |downloads_perl-xml-sax-base| image:: https://img.shields.io/conda/dn/bioconda/perl-xml-sax-base.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-xml-sax-base
    :alt:   (downloads)
 .. |docker_perl-xml-sax-base| image:: https://quay.io/repository/biocontainers/perl-xml-sax-base/status
    :target: https://quay.io/repository/biocontainers/perl-xml-sax-base

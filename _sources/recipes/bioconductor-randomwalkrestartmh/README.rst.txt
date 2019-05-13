@@ -48,6 +48,7 @@ bioconductor-randomwalkrestartmh
 
 
 .. |downloads_bioconductor-randomwalkrestartmh| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-randomwalkrestartmh.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-randomwalkrestartmh
    :alt:   (downloads)
 .. |docker_bioconductor-randomwalkrestartmh| image:: https://quay.io/repository/biocontainers/bioconductor-randomwalkrestartmh/status
    :target: https://quay.io/repository/biocontainers/bioconductor-randomwalkrestartmh

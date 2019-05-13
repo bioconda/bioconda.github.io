@@ -47,6 +47,7 @@ bioconductor-qdnaseq.mm10
 
 
 .. |downloads_bioconductor-qdnaseq.mm10| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-qdnaseq.mm10.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-qdnaseq.mm10
    :alt:   (downloads)
 .. |docker_bioconductor-qdnaseq.mm10| image:: https://quay.io/repository/biocontainers/bioconductor-qdnaseq.mm10/status
    :target: https://quay.io/repository/biocontainers/bioconductor-qdnaseq.mm10

@@ -46,6 +46,7 @@ disty
 
 
 .. |downloads_disty| image:: https://img.shields.io/conda/dn/bioconda/disty.svg?style=flat
+   :target: https://anaconda.org/bioconda/disty
    :alt:   (downloads)
 .. |docker_disty| image:: https://quay.io/repository/biocontainers/disty/status
    :target: https://quay.io/repository/biocontainers/disty

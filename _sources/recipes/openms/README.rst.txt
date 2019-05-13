@@ -58,6 +58,7 @@ openms
 
 
 .. |downloads_openms| image:: https://img.shields.io/conda/dn/bioconda/openms.svg?style=flat
+   :target: https://anaconda.org/bioconda/openms
    :alt:   (downloads)
 .. |docker_openms| image:: https://quay.io/repository/biocontainers/openms/status
    :target: https://quay.io/repository/biocontainers/openms

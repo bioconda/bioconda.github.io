@@ -46,6 +46,7 @@ pgsa
 
 
 .. |downloads_pgsa| image:: https://img.shields.io/conda/dn/bioconda/pgsa.svg?style=flat
+   :target: https://anaconda.org/bioconda/pgsa
    :alt:   (downloads)
 .. |docker_pgsa| image:: https://quay.io/repository/biocontainers/pgsa/status
    :target: https://quay.io/repository/biocontainers/pgsa

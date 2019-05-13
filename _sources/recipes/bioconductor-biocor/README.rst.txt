@@ -48,6 +48,7 @@ bioconductor-biocor
 
 
 .. |downloads_bioconductor-biocor| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biocor.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-biocor
    :alt:   (downloads)
 .. |docker_bioconductor-biocor| image:: https://quay.io/repository/biocontainers/bioconductor-biocor/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biocor

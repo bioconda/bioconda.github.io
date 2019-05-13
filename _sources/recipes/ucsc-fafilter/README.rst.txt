@@ -50,6 +50,7 @@ ucsc-fafilter
 
 
 .. |downloads_ucsc-fafilter| image:: https://img.shields.io/conda/dn/bioconda/ucsc-fafilter.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-fafilter
    :alt:   (downloads)
 .. |docker_ucsc-fafilter| image:: https://quay.io/repository/biocontainers/ucsc-fafilter/status
    :target: https://quay.io/repository/biocontainers/ucsc-fafilter

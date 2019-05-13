@@ -52,6 +52,7 @@ bedtools
 
 
 .. |downloads_bedtools| image:: https://img.shields.io/conda/dn/bioconda/bedtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bedtools
    :alt:   (downloads)
 .. |docker_bedtools| image:: https://quay.io/repository/biocontainers/bedtools/status
    :target: https://quay.io/repository/biocontainers/bedtools

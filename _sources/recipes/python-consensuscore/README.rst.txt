@@ -48,6 +48,7 @@ python-consensuscore
 
 
 .. |downloads_python-consensuscore| image:: https://img.shields.io/conda/dn/bioconda/python-consensuscore.svg?style=flat
+   :target: https://anaconda.org/bioconda/python-consensuscore
    :alt:   (downloads)
 .. |docker_python-consensuscore| image:: https://quay.io/repository/biocontainers/python-consensuscore/status
    :target: https://quay.io/repository/biocontainers/python-consensuscore

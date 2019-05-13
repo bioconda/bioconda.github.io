@@ -52,6 +52,7 @@ super-focus
 
 
 .. |downloads_super-focus| image:: https://img.shields.io/conda/dn/bioconda/super-focus.svg?style=flat
+   :target: https://anaconda.org/bioconda/super-focus
    :alt:   (downloads)
 .. |docker_super-focus| image:: https://quay.io/repository/biocontainers/super-focus/status
    :target: https://quay.io/repository/biocontainers/super-focus

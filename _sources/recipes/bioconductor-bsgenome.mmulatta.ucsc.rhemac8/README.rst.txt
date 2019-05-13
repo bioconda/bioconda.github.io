@@ -47,6 +47,7 @@ bioconductor-bsgenome.mmulatta.ucsc.rhemac8
 
 
 .. |downloads_bioconductor-bsgenome.mmulatta.ucsc.rhemac8| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.mmulatta.ucsc.rhemac8.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome.mmulatta.ucsc.rhemac8
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.mmulatta.ucsc.rhemac8| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.mmulatta.ucsc.rhemac8/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.mmulatta.ucsc.rhemac8

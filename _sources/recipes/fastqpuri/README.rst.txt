@@ -49,6 +49,7 @@ fastqpuri
 
 
 .. |downloads_fastqpuri| image:: https://img.shields.io/conda/dn/bioconda/fastqpuri.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastqpuri
    :alt:   (downloads)
 .. |docker_fastqpuri| image:: https://quay.io/repository/biocontainers/fastqpuri/status
    :target: https://quay.io/repository/biocontainers/fastqpuri

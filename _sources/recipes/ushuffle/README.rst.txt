@@ -46,6 +46,7 @@ ushuffle
 
 
 .. |downloads_ushuffle| image:: https://img.shields.io/conda/dn/bioconda/ushuffle.svg?style=flat
+   :target: https://anaconda.org/bioconda/ushuffle
    :alt:   (downloads)
 .. |docker_ushuffle| image:: https://quay.io/repository/biocontainers/ushuffle/status
    :target: https://quay.io/repository/biocontainers/ushuffle

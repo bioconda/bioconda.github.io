@@ -45,6 +45,7 @@ perl-version
 
 
 .. |downloads_perl-version| image:: https://img.shields.io/conda/dn/bioconda/perl-version.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-version
    :alt:   (downloads)
 .. |docker_perl-version| image:: https://quay.io/repository/biocontainers/perl-version/status
    :target: https://quay.io/repository/biocontainers/perl-version

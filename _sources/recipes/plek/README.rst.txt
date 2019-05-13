@@ -48,6 +48,7 @@ plek
 
 
 .. |downloads_plek| image:: https://img.shields.io/conda/dn/bioconda/plek.svg?style=flat
+   :target: https://anaconda.org/bioconda/plek
    :alt:   (downloads)
 .. |docker_plek| image:: https://quay.io/repository/biocontainers/plek/status
    :target: https://quay.io/repository/biocontainers/plek

@@ -51,6 +51,7 @@ biopet-basecounter
 
 
 .. |downloads_biopet-basecounter| image:: https://img.shields.io/conda/dn/bioconda/biopet-basecounter.svg?style=flat
+   :target: https://anaconda.org/bioconda/biopet-basecounter
    :alt:   (downloads)
 .. |docker_biopet-basecounter| image:: https://quay.io/repository/biocontainers/biopet-basecounter/status
    :target: https://quay.io/repository/biocontainers/biopet-basecounter

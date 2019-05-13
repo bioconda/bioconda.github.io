@@ -54,6 +54,7 @@ bioconductor-watermelon
 
 
 .. |downloads_bioconductor-watermelon| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-watermelon.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-watermelon
    :alt:   (downloads)
 .. |docker_bioconductor-watermelon| image:: https://quay.io/repository/biocontainers/bioconductor-watermelon/status
    :target: https://quay.io/repository/biocontainers/bioconductor-watermelon

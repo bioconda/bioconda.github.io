@@ -48,6 +48,7 @@ perl-version-next
 
 
 .. |downloads_perl-version-next| image:: https://img.shields.io/conda/dn/bioconda/perl-version-next.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-version-next
    :alt:   (downloads)
 .. |docker_perl-version-next| image:: https://quay.io/repository/biocontainers/perl-version-next/status
    :target: https://quay.io/repository/biocontainers/perl-version-next

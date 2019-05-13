@@ -47,6 +47,7 @@ perl-moosex-app-role-log4perl
 
 
 .. |downloads_perl-moosex-app-role-log4perl| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-app-role-log4perl.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-moosex-app-role-log4perl
    :alt:   (downloads)
 .. |docker_perl-moosex-app-role-log4perl| image:: https://quay.io/repository/biocontainers/perl-moosex-app-role-log4perl/status
    :target: https://quay.io/repository/biocontainers/perl-moosex-app-role-log4perl

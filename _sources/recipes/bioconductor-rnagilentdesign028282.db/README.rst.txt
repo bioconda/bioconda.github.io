@@ -48,6 +48,7 @@ bioconductor-rnagilentdesign028282.db
 
 
 .. |downloads_bioconductor-rnagilentdesign028282.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rnagilentdesign028282.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rnagilentdesign028282.db
    :alt:   (downloads)
 .. |docker_bioconductor-rnagilentdesign028282.db| image:: https://quay.io/repository/biocontainers/bioconductor-rnagilentdesign028282.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rnagilentdesign028282.db

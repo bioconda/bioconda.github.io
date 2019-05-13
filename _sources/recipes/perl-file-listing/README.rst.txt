@@ -46,6 +46,7 @@ perl-file-listing
 
 
 .. |downloads_perl-file-listing| image:: https://img.shields.io/conda/dn/bioconda/perl-file-listing.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-listing
    :alt:   (downloads)
 .. |docker_perl-file-listing| image:: https://quay.io/repository/biocontainers/perl-file-listing/status
    :target: https://quay.io/repository/biocontainers/perl-file-listing

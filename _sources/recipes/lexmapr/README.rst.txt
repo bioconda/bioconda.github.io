@@ -51,6 +51,7 @@ lexmapr
 
 
 .. |downloads_lexmapr| image:: https://img.shields.io/conda/dn/bioconda/lexmapr.svg?style=flat
+   :target: https://anaconda.org/bioconda/lexmapr
    :alt:   (downloads)
 .. |docker_lexmapr| image:: https://quay.io/repository/biocontainers/lexmapr/status
    :target: https://quay.io/repository/biocontainers/lexmapr

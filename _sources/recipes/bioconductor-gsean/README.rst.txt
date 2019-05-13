@@ -47,6 +47,7 @@ bioconductor-gsean
 
 
 .. |downloads_bioconductor-gsean| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gsean.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gsean
    :alt:   (downloads)
 .. |docker_bioconductor-gsean| image:: https://quay.io/repository/biocontainers/bioconductor-gsean/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gsean

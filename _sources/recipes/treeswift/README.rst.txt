@@ -45,6 +45,7 @@ treeswift
 
 
 .. |downloads_treeswift| image:: https://img.shields.io/conda/dn/bioconda/treeswift.svg?style=flat
+   :target: https://anaconda.org/bioconda/treeswift
    :alt:   (downloads)
 .. |docker_treeswift| image:: https://quay.io/repository/biocontainers/treeswift/status
    :target: https://quay.io/repository/biocontainers/treeswift

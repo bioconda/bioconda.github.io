@@ -50,6 +50,7 @@ ucsc-axttomaf
 
 
 .. |downloads_ucsc-axttomaf| image:: https://img.shields.io/conda/dn/bioconda/ucsc-axttomaf.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-axttomaf
    :alt:   (downloads)
 .. |docker_ucsc-axttomaf| image:: https://quay.io/repository/biocontainers/ucsc-axttomaf/status
    :target: https://quay.io/repository/biocontainers/ucsc-axttomaf

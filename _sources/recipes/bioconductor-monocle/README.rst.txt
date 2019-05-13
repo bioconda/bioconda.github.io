@@ -78,6 +78,7 @@ bioconductor-monocle
 
 
 .. |downloads_bioconductor-monocle| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-monocle.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-monocle
    :alt:   (downloads)
 .. |docker_bioconductor-monocle| image:: https://quay.io/repository/biocontainers/bioconductor-monocle/status
    :target: https://quay.io/repository/biocontainers/bioconductor-monocle

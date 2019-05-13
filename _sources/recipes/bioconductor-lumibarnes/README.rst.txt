@@ -48,6 +48,7 @@ bioconductor-lumibarnes
 
 
 .. |downloads_bioconductor-lumibarnes| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lumibarnes.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lumibarnes
    :alt:   (downloads)
 .. |docker_bioconductor-lumibarnes| image:: https://quay.io/repository/biocontainers/bioconductor-lumibarnes/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lumibarnes

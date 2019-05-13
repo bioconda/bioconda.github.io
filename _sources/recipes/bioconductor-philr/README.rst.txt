@@ -51,6 +51,7 @@ bioconductor-philr
 
 
 .. |downloads_bioconductor-philr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-philr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-philr
    :alt:   (downloads)
 .. |docker_bioconductor-philr| image:: https://quay.io/repository/biocontainers/bioconductor-philr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-philr

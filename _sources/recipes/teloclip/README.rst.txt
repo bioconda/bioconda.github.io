@@ -45,6 +45,7 @@ teloclip
 
 
 .. |downloads_teloclip| image:: https://img.shields.io/conda/dn/bioconda/teloclip.svg?style=flat
+   :target: https://anaconda.org/bioconda/teloclip
    :alt:   (downloads)
 .. |docker_teloclip| image:: https://quay.io/repository/biocontainers/teloclip/status
    :target: https://quay.io/repository/biocontainers/teloclip

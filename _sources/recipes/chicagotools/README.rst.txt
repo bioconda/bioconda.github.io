@@ -48,6 +48,7 @@ chicagotools
 
 
 .. |downloads_chicagotools| image:: https://img.shields.io/conda/dn/bioconda/chicagotools.svg?style=flat
+   :target: https://anaconda.org/bioconda/chicagotools
    :alt:   (downloads)
 .. |docker_chicagotools| image:: https://quay.io/repository/biocontainers/chicagotools/status
    :target: https://quay.io/repository/biocontainers/chicagotools

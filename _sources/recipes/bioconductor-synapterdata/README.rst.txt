@@ -47,6 +47,7 @@ bioconductor-synapterdata
 
 
 .. |downloads_bioconductor-synapterdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-synapterdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-synapterdata
    :alt:   (downloads)
 .. |docker_bioconductor-synapterdata| image:: https://quay.io/repository/biocontainers/bioconductor-synapterdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-synapterdata

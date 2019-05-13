@@ -47,6 +47,7 @@ perl-digest-md5-file
 
 
 .. |downloads_perl-digest-md5-file| image:: https://img.shields.io/conda/dn/bioconda/perl-digest-md5-file.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-digest-md5-file
    :alt:   (downloads)
 .. |docker_perl-digest-md5-file| image:: https://quay.io/repository/biocontainers/perl-digest-md5-file/status
    :target: https://quay.io/repository/biocontainers/perl-digest-md5-file

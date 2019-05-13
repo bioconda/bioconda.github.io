@@ -47,6 +47,7 @@ bioconductor-sigsquared
 
 
 .. |downloads_bioconductor-sigsquared| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sigsquared.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sigsquared
    :alt:   (downloads)
 .. |docker_bioconductor-sigsquared| image:: https://quay.io/repository/biocontainers/bioconductor-sigsquared/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sigsquared

@@ -46,6 +46,7 @@ bioconductor-ahcytobands
 
 
 .. |downloads_bioconductor-ahcytobands| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ahcytobands.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ahcytobands
    :alt:   (downloads)
 .. |docker_bioconductor-ahcytobands| image:: https://quay.io/repository/biocontainers/bioconductor-ahcytobands/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ahcytobands

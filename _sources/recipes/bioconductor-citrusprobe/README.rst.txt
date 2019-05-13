@@ -47,6 +47,7 @@ bioconductor-citrusprobe
 
 
 .. |downloads_bioconductor-citrusprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-citrusprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-citrusprobe
    :alt:   (downloads)
 .. |docker_bioconductor-citrusprobe| image:: https://quay.io/repository/biocontainers/bioconductor-citrusprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-citrusprobe

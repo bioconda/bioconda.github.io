@@ -51,6 +51,7 @@ sqt
 
 
 .. |downloads_sqt| image:: https://img.shields.io/conda/dn/bioconda/sqt.svg?style=flat
+   :target: https://anaconda.org/bioconda/sqt
    :alt:   (downloads)
 .. |docker_sqt| image:: https://quay.io/repository/biocontainers/sqt/status
    :target: https://quay.io/repository/biocontainers/sqt

@@ -49,6 +49,7 @@ roprofile
 
 
 .. |downloads_roprofile| image:: https://img.shields.io/conda/dn/bioconda/roprofile.svg?style=flat
+   :target: https://anaconda.org/bioconda/roprofile
    :alt:   (downloads)
 .. |docker_roprofile| image:: https://quay.io/repository/biocontainers/roprofile/status
    :target: https://quay.io/repository/biocontainers/roprofile

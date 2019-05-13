@@ -46,6 +46,7 @@ allegro
 
 
 .. |downloads_allegro| image:: https://img.shields.io/conda/dn/bioconda/allegro.svg?style=flat
+   :target: https://anaconda.org/bioconda/allegro
    :alt:   (downloads)
 .. |docker_allegro| image:: https://quay.io/repository/biocontainers/allegro/status
    :target: https://quay.io/repository/biocontainers/allegro

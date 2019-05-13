@@ -50,6 +50,7 @@ mash
 
 
 .. |downloads_mash| image:: https://img.shields.io/conda/dn/bioconda/mash.svg?style=flat
+   :target: https://anaconda.org/bioconda/mash
    :alt:   (downloads)
 .. |docker_mash| image:: https://quay.io/repository/biocontainers/mash/status
    :target: https://quay.io/repository/biocontainers/mash

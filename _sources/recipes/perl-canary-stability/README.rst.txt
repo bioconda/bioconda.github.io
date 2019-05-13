@@ -45,6 +45,7 @@ perl-canary-stability
 
 
 .. |downloads_perl-canary-stability| image:: https://img.shields.io/conda/dn/bioconda/perl-canary-stability.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-canary-stability
    :alt:   (downloads)
 .. |docker_perl-canary-stability| image:: https://quay.io/repository/biocontainers/perl-canary-stability/status
    :target: https://quay.io/repository/biocontainers/perl-canary-stability

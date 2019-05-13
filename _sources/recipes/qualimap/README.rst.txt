@@ -51,6 +51,7 @@ qualimap
 
 
 .. |downloads_qualimap| image:: https://img.shields.io/conda/dn/bioconda/qualimap.svg?style=flat
+   :target: https://anaconda.org/bioconda/qualimap
    :alt:   (downloads)
 .. |docker_qualimap| image:: https://quay.io/repository/biocontainers/qualimap/status
    :target: https://quay.io/repository/biocontainers/qualimap

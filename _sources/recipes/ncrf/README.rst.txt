@@ -46,6 +46,7 @@ ncrf
 
 
 .. |downloads_ncrf| image:: https://img.shields.io/conda/dn/bioconda/ncrf.svg?style=flat
+   :target: https://anaconda.org/bioconda/ncrf
    :alt:   (downloads)
 .. |docker_ncrf| image:: https://quay.io/repository/biocontainers/ncrf/status
    :target: https://quay.io/repository/biocontainers/ncrf

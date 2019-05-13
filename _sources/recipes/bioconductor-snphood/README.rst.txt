@@ -66,6 +66,7 @@ bioconductor-snphood
 
 
 .. |downloads_bioconductor-snphood| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-snphood.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-snphood
    :alt:   (downloads)
 .. |docker_bioconductor-snphood| image:: https://quay.io/repository/biocontainers/bioconductor-snphood/status
    :target: https://quay.io/repository/biocontainers/bioconductor-snphood

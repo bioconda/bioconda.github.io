@@ -48,6 +48,7 @@ nanofilt
 
 
 .. |downloads_nanofilt| image:: https://img.shields.io/conda/dn/bioconda/nanofilt.svg?style=flat
+   :target: https://anaconda.org/bioconda/nanofilt
    :alt:   (downloads)
 .. |docker_nanofilt| image:: https://quay.io/repository/biocontainers/nanofilt/status
    :target: https://quay.io/repository/biocontainers/nanofilt

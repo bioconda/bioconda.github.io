@@ -45,6 +45,7 @@ perl-constant
 
 
 .. |downloads_perl-constant| image:: https://img.shields.io/conda/dn/bioconda/perl-constant.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-constant
    :alt:   (downloads)
 .. |docker_perl-constant| image:: https://quay.io/repository/biocontainers/perl-constant/status
    :target: https://quay.io/repository/biocontainers/perl-constant

@@ -55,6 +55,7 @@ ribotricer
 
 
 .. |downloads_ribotricer| image:: https://img.shields.io/conda/dn/bioconda/ribotricer.svg?style=flat
+   :target: https://anaconda.org/bioconda/ribotricer
    :alt:   (downloads)
 .. |docker_ribotricer| image:: https://quay.io/repository/biocontainers/ribotricer/status
    :target: https://quay.io/repository/biocontainers/ribotricer

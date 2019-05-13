@@ -48,6 +48,7 @@ bioconductor-wrench
 
 
 .. |downloads_bioconductor-wrench| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-wrench.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-wrench
    :alt:   (downloads)
 .. |docker_bioconductor-wrench| image:: https://quay.io/repository/biocontainers/bioconductor-wrench/status
    :target: https://quay.io/repository/biocontainers/bioconductor-wrench

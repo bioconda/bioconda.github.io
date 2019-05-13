@@ -44,6 +44,7 @@ tidyp
 
 
 .. |downloads_tidyp| image:: https://img.shields.io/conda/dn/bioconda/tidyp.svg?style=flat
+   :target: https://anaconda.org/bioconda/tidyp
    :alt:   (downloads)
 .. |docker_tidyp| image:: https://quay.io/repository/biocontainers/tidyp/status
    :target: https://quay.io/repository/biocontainers/tidyp

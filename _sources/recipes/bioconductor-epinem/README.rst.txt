@@ -44,6 +44,7 @@ bioconductor-epinem
 
 
 .. |downloads_bioconductor-epinem| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-epinem.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-epinem
    :alt:   (downloads)
 .. |docker_bioconductor-epinem| image:: https://quay.io/repository/biocontainers/bioconductor-epinem/status
    :target: https://quay.io/repository/biocontainers/bioconductor-epinem

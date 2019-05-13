@@ -73,6 +73,7 @@ bioconductor-openprimer
 
 
 .. |downloads_bioconductor-openprimer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-openprimer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-openprimer
    :alt:   (downloads)
 .. |docker_bioconductor-openprimer| image:: https://quay.io/repository/biocontainers/bioconductor-openprimer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-openprimer

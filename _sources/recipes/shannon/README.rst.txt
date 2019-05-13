@@ -52,6 +52,7 @@ shannon
 
 
 .. |downloads_shannon| image:: https://img.shields.io/conda/dn/bioconda/shannon.svg?style=flat
+   :target: https://anaconda.org/bioconda/shannon
    :alt:   (downloads)
 .. |docker_shannon| image:: https://quay.io/repository/biocontainers/shannon/status
    :target: https://quay.io/repository/biocontainers/shannon

@@ -46,6 +46,7 @@ vardict
 
 
 .. |downloads_vardict| image:: https://img.shields.io/conda/dn/bioconda/vardict.svg?style=flat
+   :target: https://anaconda.org/bioconda/vardict
    :alt:   (downloads)
 .. |docker_vardict| image:: https://quay.io/repository/biocontainers/vardict/status
    :target: https://quay.io/repository/biocontainers/vardict

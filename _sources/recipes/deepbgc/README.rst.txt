@@ -55,6 +55,7 @@ deepbgc
 
 
 .. |downloads_deepbgc| image:: https://img.shields.io/conda/dn/bioconda/deepbgc.svg?style=flat
+   :target: https://anaconda.org/bioconda/deepbgc
    :alt:   (downloads)
 .. |docker_deepbgc| image:: https://quay.io/repository/biocontainers/deepbgc/status
    :target: https://quay.io/repository/biocontainers/deepbgc

@@ -47,6 +47,7 @@ perl-html-template
 
 
 .. |downloads_perl-html-template| image:: https://img.shields.io/conda/dn/bioconda/perl-html-template.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-html-template
    :alt:   (downloads)
 .. |docker_perl-html-template| image:: https://quay.io/repository/biocontainers/perl-html-template/status
    :target: https://quay.io/repository/biocontainers/perl-html-template

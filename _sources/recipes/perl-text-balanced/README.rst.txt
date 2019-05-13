@@ -45,6 +45,7 @@ perl-text-balanced
 
 
 .. |downloads_perl-text-balanced| image:: https://img.shields.io/conda/dn/bioconda/perl-text-balanced.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-text-balanced
    :alt:   (downloads)
 .. |docker_perl-text-balanced| image:: https://quay.io/repository/biocontainers/perl-text-balanced/status
    :target: https://quay.io/repository/biocontainers/perl-text-balanced

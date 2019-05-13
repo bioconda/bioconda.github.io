@@ -45,6 +45,7 @@ twobitreader
 
 
 .. |downloads_twobitreader| image:: https://img.shields.io/conda/dn/bioconda/twobitreader.svg?style=flat
+   :target: https://anaconda.org/bioconda/twobitreader
    :alt:   (downloads)
 .. |docker_twobitreader| image:: https://quay.io/repository/biocontainers/twobitreader/status
    :target: https://quay.io/repository/biocontainers/twobitreader

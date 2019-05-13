@@ -47,6 +47,7 @@ bioconductor-mgu74cprobe
 
 
 .. |downloads_bioconductor-mgu74cprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mgu74cprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mgu74cprobe
    :alt:   (downloads)
 .. |docker_bioconductor-mgu74cprobe| image:: https://quay.io/repository/biocontainers/bioconductor-mgu74cprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mgu74cprobe

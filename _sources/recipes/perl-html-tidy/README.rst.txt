@@ -51,6 +51,7 @@ perl-html-tidy
 
 
 .. |downloads_perl-html-tidy| image:: https://img.shields.io/conda/dn/bioconda/perl-html-tidy.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-html-tidy
    :alt:   (downloads)
 .. |docker_perl-html-tidy| image:: https://quay.io/repository/biocontainers/perl-html-tidy/status
    :target: https://quay.io/repository/biocontainers/perl-html-tidy

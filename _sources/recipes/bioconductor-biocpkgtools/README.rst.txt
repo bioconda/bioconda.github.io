@@ -60,6 +60,7 @@ bioconductor-biocpkgtools
 
 
 .. |downloads_bioconductor-biocpkgtools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biocpkgtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-biocpkgtools
    :alt:   (downloads)
 .. |docker_bioconductor-biocpkgtools| image:: https://quay.io/repository/biocontainers/bioconductor-biocpkgtools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biocpkgtools

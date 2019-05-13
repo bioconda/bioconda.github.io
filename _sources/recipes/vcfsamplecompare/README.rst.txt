@@ -46,6 +46,7 @@ vcfsamplecompare
 
 
 .. |downloads_vcfsamplecompare| image:: https://img.shields.io/conda/dn/bioconda/vcfsamplecompare.svg?style=flat
+   :target: https://anaconda.org/bioconda/vcfsamplecompare
    :alt:   (downloads)
 .. |docker_vcfsamplecompare| image:: https://quay.io/repository/biocontainers/vcfsamplecompare/status
    :target: https://quay.io/repository/biocontainers/vcfsamplecompare

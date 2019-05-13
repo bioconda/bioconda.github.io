@@ -46,6 +46,7 @@ r-epic
 
 
 .. |downloads_r-epic| image:: https://img.shields.io/conda/dn/bioconda/r-epic.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-epic
    :alt:   (downloads)
 .. |docker_r-epic| image:: https://quay.io/repository/biocontainers/r-epic/status
    :target: https://quay.io/repository/biocontainers/r-epic

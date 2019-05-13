@@ -49,6 +49,7 @@ bioconductor-iranges
 
 
 .. |downloads_bioconductor-iranges| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-iranges.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-iranges
    :alt:   (downloads)
 .. |docker_bioconductor-iranges| image:: https://quay.io/repository/biocontainers/bioconductor-iranges/status
    :target: https://quay.io/repository/biocontainers/bioconductor-iranges

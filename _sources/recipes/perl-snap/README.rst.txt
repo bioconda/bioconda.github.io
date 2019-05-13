@@ -45,6 +45,7 @@ perl-snap
 
 
 .. |downloads_perl-snap| image:: https://img.shields.io/conda/dn/bioconda/perl-snap.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-snap
    :alt:   (downloads)
 .. |docker_perl-snap| image:: https://quay.io/repository/biocontainers/perl-snap/status
    :target: https://quay.io/repository/biocontainers/perl-snap

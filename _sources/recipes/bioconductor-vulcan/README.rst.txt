@@ -59,6 +59,7 @@ bioconductor-vulcan
 
 
 .. |downloads_bioconductor-vulcan| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-vulcan.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-vulcan
    :alt:   (downloads)
 .. |docker_bioconductor-vulcan| image:: https://quay.io/repository/biocontainers/bioconductor-vulcan/status
    :target: https://quay.io/repository/biocontainers/bioconductor-vulcan

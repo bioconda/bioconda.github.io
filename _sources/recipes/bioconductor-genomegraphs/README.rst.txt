@@ -47,6 +47,7 @@ bioconductor-genomegraphs
 
 
 .. |downloads_bioconductor-genomegraphs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genomegraphs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genomegraphs
    :alt:   (downloads)
 .. |docker_bioconductor-genomegraphs| image:: https://quay.io/repository/biocontainers/bioconductor-genomegraphs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genomegraphs

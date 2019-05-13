@@ -48,6 +48,7 @@ bioconductor-txdb.hsapiens.biomart.igis
 
 
 .. |downloads_bioconductor-txdb.hsapiens.biomart.igis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-txdb.hsapiens.biomart.igis.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-txdb.hsapiens.biomart.igis
    :alt:   (downloads)
 .. |docker_bioconductor-txdb.hsapiens.biomart.igis| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.hsapiens.biomart.igis/status
    :target: https://quay.io/repository/biocontainers/bioconductor-txdb.hsapiens.biomart.igis

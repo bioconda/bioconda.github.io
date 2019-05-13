@@ -50,6 +50,7 @@ bioconductor-anf
 
 
 .. |downloads_bioconductor-anf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-anf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-anf
    :alt:   (downloads)
 .. |docker_bioconductor-anf| image:: https://quay.io/repository/biocontainers/bioconductor-anf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-anf

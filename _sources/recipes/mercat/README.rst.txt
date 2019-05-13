@@ -55,6 +55,7 @@ mercat
 
 
 .. |downloads_mercat| image:: https://img.shields.io/conda/dn/bioconda/mercat.svg?style=flat
+   :target: https://anaconda.org/bioconda/mercat
    :alt:   (downloads)
 .. |docker_mercat| image:: https://quay.io/repository/biocontainers/mercat/status
    :target: https://quay.io/repository/biocontainers/mercat

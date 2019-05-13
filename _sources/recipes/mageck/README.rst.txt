@@ -49,6 +49,7 @@ mageck
 
 
 .. |downloads_mageck| image:: https://img.shields.io/conda/dn/bioconda/mageck.svg?style=flat
+   :target: https://anaconda.org/bioconda/mageck
    :alt:   (downloads)
 .. |docker_mageck| image:: https://quay.io/repository/biocontainers/mageck/status
    :target: https://quay.io/repository/biocontainers/mageck

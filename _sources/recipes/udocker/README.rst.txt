@@ -48,6 +48,7 @@ udocker
 
 
 .. |downloads_udocker| image:: https://img.shields.io/conda/dn/bioconda/udocker.svg?style=flat
+   :target: https://anaconda.org/bioconda/udocker
    :alt:   (downloads)
 .. |docker_udocker| image:: https://quay.io/repository/biocontainers/udocker/status
    :target: https://quay.io/repository/biocontainers/udocker

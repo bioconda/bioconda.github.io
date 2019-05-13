@@ -46,6 +46,7 @@ r-workflowscriptscommon
 
 
 .. |downloads_r-workflowscriptscommon| image:: https://img.shields.io/conda/dn/bioconda/r-workflowscriptscommon.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-workflowscriptscommon
    :alt:   (downloads)
 .. |docker_r-workflowscriptscommon| image:: https://quay.io/repository/biocontainers/r-workflowscriptscommon/status
    :target: https://quay.io/repository/biocontainers/r-workflowscriptscommon

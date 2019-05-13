@@ -49,6 +49,7 @@ preseq
 
 
 .. |downloads_preseq| image:: https://img.shields.io/conda/dn/bioconda/preseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/preseq
    :alt:   (downloads)
 .. |docker_preseq| image:: https://quay.io/repository/biocontainers/preseq/status
    :target: https://quay.io/repository/biocontainers/preseq

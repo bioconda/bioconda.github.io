@@ -54,6 +54,7 @@ perl-test2-suite
 
 
 .. |downloads_perl-test2-suite| image:: https://img.shields.io/conda/dn/bioconda/perl-test2-suite.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test2-suite
    :alt:   (downloads)
 .. |docker_perl-test2-suite| image:: https://quay.io/repository/biocontainers/perl-test2-suite/status
    :target: https://quay.io/repository/biocontainers/perl-test2-suite

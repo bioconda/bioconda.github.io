@@ -46,6 +46,7 @@ strike
 
 
 .. |downloads_strike| image:: https://img.shields.io/conda/dn/bioconda/strike.svg?style=flat
+   :target: https://anaconda.org/bioconda/strike
    :alt:   (downloads)
 .. |docker_strike| image:: https://quay.io/repository/biocontainers/strike/status
    :target: https://quay.io/repository/biocontainers/strike

@@ -50,6 +50,7 @@ repeatmasker
 
 
 .. |downloads_repeatmasker| image:: https://img.shields.io/conda/dn/bioconda/repeatmasker.svg?style=flat
+   :target: https://anaconda.org/bioconda/repeatmasker
    :alt:   (downloads)
 .. |docker_repeatmasker| image:: https://quay.io/repository/biocontainers/repeatmasker/status
    :target: https://quay.io/repository/biocontainers/repeatmasker

@@ -51,6 +51,7 @@ sc3-scripts
 
 
 .. |downloads_sc3-scripts| image:: https://img.shields.io/conda/dn/bioconda/sc3-scripts.svg?style=flat
+   :target: https://anaconda.org/bioconda/sc3-scripts
    :alt:   (downloads)
 .. |docker_sc3-scripts| image:: https://quay.io/repository/biocontainers/sc3-scripts/status
    :target: https://quay.io/repository/biocontainers/sc3-scripts

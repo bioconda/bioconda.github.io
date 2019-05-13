@@ -55,6 +55,7 @@ pairtools
 
 
 .. |downloads_pairtools| image:: https://img.shields.io/conda/dn/bioconda/pairtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/pairtools
    :alt:   (downloads)
 .. |docker_pairtools| image:: https://quay.io/repository/biocontainers/pairtools/status
    :target: https://quay.io/repository/biocontainers/pairtools

@@ -52,6 +52,7 @@ pal_finder
 
 
 .. |downloads_pal_finder| image:: https://img.shields.io/conda/dn/bioconda/pal_finder.svg?style=flat
+   :target: https://anaconda.org/bioconda/pal_finder
    :alt:   (downloads)
 .. |docker_pal_finder| image:: https://quay.io/repository/biocontainers/pal_finder/status
    :target: https://quay.io/repository/biocontainers/pal_finder

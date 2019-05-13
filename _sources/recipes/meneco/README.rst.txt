@@ -46,6 +46,7 @@ meneco
 
 
 .. |downloads_meneco| image:: https://img.shields.io/conda/dn/bioconda/meneco.svg?style=flat
+   :target: https://anaconda.org/bioconda/meneco
    :alt:   (downloads)
 .. |docker_meneco| image:: https://quay.io/repository/biocontainers/meneco/status
    :target: https://quay.io/repository/biocontainers/meneco

@@ -47,6 +47,7 @@ bioconductor-tkwidgets
 
 
 .. |downloads_bioconductor-tkwidgets| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tkwidgets.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tkwidgets
    :alt:   (downloads)
 .. |docker_bioconductor-tkwidgets| image:: https://quay.io/repository/biocontainers/bioconductor-tkwidgets/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tkwidgets

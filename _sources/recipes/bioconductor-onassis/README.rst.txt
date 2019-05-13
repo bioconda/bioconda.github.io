@@ -54,6 +54,7 @@ bioconductor-onassis
 
 
 .. |downloads_bioconductor-onassis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-onassis.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-onassis
    :alt:   (downloads)
 .. |docker_bioconductor-onassis| image:: https://quay.io/repository/biocontainers/bioconductor-onassis/status
    :target: https://quay.io/repository/biocontainers/bioconductor-onassis

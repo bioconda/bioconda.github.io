@@ -52,6 +52,7 @@ aria2
 
 
 .. |downloads_aria2| image:: https://img.shields.io/conda/dn/bioconda/aria2.svg?style=flat
+   :target: https://anaconda.org/bioconda/aria2
    :alt:   (downloads)
 .. |docker_aria2| image:: https://quay.io/repository/biocontainers/aria2/status
    :target: https://quay.io/repository/biocontainers/aria2

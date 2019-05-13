@@ -53,6 +53,7 @@ bioconductor-crimage
 
 
 .. |downloads_bioconductor-crimage| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-crimage.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-crimage
    :alt:   (downloads)
 .. |docker_bioconductor-crimage| image:: https://quay.io/repository/biocontainers/bioconductor-crimage/status
    :target: https://quay.io/repository/biocontainers/bioconductor-crimage

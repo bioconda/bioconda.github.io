@@ -45,6 +45,7 @@ perl-io-tty
 
 
 .. |downloads_perl-io-tty| image:: https://img.shields.io/conda/dn/bioconda/perl-io-tty.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-io-tty
    :alt:   (downloads)
 .. |docker_perl-io-tty| image:: https://quay.io/repository/biocontainers/perl-io-tty/status
    :target: https://quay.io/repository/biocontainers/perl-io-tty

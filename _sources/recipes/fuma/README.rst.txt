@@ -47,6 +47,7 @@ fuma
 
 
 .. |downloads_fuma| image:: https://img.shields.io/conda/dn/bioconda/fuma.svg?style=flat
+   :target: https://anaconda.org/bioconda/fuma
    :alt:   (downloads)
 .. |docker_fuma| image:: https://quay.io/repository/biocontainers/fuma/status
    :target: https://quay.io/repository/biocontainers/fuma

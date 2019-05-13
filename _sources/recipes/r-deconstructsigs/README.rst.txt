@@ -49,6 +49,7 @@ r-deconstructsigs
 
 
 .. |downloads_r-deconstructsigs| image:: https://img.shields.io/conda/dn/bioconda/r-deconstructsigs.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-deconstructsigs
    :alt:   (downloads)
 .. |docker_r-deconstructsigs| image:: https://quay.io/repository/biocontainers/r-deconstructsigs/status
    :target: https://quay.io/repository/biocontainers/r-deconstructsigs

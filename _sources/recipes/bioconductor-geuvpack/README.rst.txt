@@ -47,6 +47,7 @@ bioconductor-geuvpack
 
 
 .. |downloads_bioconductor-geuvpack| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geuvpack.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-geuvpack
    :alt:   (downloads)
 .. |docker_bioconductor-geuvpack| image:: https://quay.io/repository/biocontainers/bioconductor-geuvpack/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geuvpack

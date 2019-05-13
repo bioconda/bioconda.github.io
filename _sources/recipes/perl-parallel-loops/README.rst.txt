@@ -46,6 +46,7 @@ perl-parallel-loops
 
 
 .. |downloads_perl-parallel-loops| image:: https://img.shields.io/conda/dn/bioconda/perl-parallel-loops.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-parallel-loops
    :alt:   (downloads)
 .. |docker_perl-parallel-loops| image:: https://quay.io/repository/biocontainers/perl-parallel-loops/status
    :target: https://quay.io/repository/biocontainers/perl-parallel-loops

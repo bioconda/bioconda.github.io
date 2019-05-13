@@ -50,6 +50,7 @@ ucsc-bedgeneparts
 
 
 .. |downloads_ucsc-bedgeneparts| image:: https://img.shields.io/conda/dn/bioconda/ucsc-bedgeneparts.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-bedgeneparts
    :alt:   (downloads)
 .. |docker_ucsc-bedgeneparts| image:: https://quay.io/repository/biocontainers/ucsc-bedgeneparts/status
    :target: https://quay.io/repository/biocontainers/ucsc-bedgeneparts

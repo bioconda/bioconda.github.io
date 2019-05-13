@@ -49,6 +49,7 @@ pbcoretools
 
 
 .. |downloads_pbcoretools| image:: https://img.shields.io/conda/dn/bioconda/pbcoretools.svg?style=flat
+   :target: https://anaconda.org/bioconda/pbcoretools
    :alt:   (downloads)
 .. |docker_pbcoretools| image:: https://quay.io/repository/biocontainers/pbcoretools/status
    :target: https://quay.io/repository/biocontainers/pbcoretools

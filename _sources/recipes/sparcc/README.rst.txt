@@ -49,6 +49,7 @@ sparcc
 
 
 .. |downloads_sparcc| image:: https://img.shields.io/conda/dn/bioconda/sparcc.svg?style=flat
+   :target: https://anaconda.org/bioconda/sparcc
    :alt:   (downloads)
 .. |docker_sparcc| image:: https://quay.io/repository/biocontainers/sparcc/status
    :target: https://quay.io/repository/biocontainers/sparcc

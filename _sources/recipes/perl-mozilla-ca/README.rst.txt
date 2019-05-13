@@ -45,6 +45,7 @@ perl-mozilla-ca
 
 
 .. |downloads_perl-mozilla-ca| image:: https://img.shields.io/conda/dn/bioconda/perl-mozilla-ca.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-mozilla-ca
    :alt:   (downloads)
 .. |docker_perl-mozilla-ca| image:: https://quay.io/repository/biocontainers/perl-mozilla-ca/status
    :target: https://quay.io/repository/biocontainers/perl-mozilla-ca

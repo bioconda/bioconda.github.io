@@ -46,6 +46,7 @@ pronto
 
 
 .. |downloads_pronto| image:: https://img.shields.io/conda/dn/bioconda/pronto.svg?style=flat
+   :target: https://anaconda.org/bioconda/pronto
    :alt:   (downloads)
 .. |docker_pronto| image:: https://quay.io/repository/biocontainers/pronto/status
    :target: https://quay.io/repository/biocontainers/pronto

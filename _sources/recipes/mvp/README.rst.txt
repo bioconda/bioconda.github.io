@@ -47,6 +47,7 @@ mvp
 
 
 .. |downloads_mvp| image:: https://img.shields.io/conda/dn/bioconda/mvp.svg?style=flat
+   :target: https://anaconda.org/bioconda/mvp
    :alt:   (downloads)
 .. |docker_mvp| image:: https://quay.io/repository/biocontainers/mvp/status
    :target: https://quay.io/repository/biocontainers/mvp

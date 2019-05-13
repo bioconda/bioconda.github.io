@@ -79,6 +79,7 @@ bioconductor-artms
 
 
 .. |downloads_bioconductor-artms| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-artms.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-artms
    :alt:   (downloads)
 .. |docker_bioconductor-artms| image:: https://quay.io/repository/biocontainers/bioconductor-artms/status
    :target: https://quay.io/repository/biocontainers/bioconductor-artms

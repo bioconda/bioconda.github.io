@@ -47,6 +47,7 @@ snp-pileup
 
 
 .. |downloads_snp-pileup| image:: https://img.shields.io/conda/dn/bioconda/snp-pileup.svg?style=flat
+   :target: https://anaconda.org/bioconda/snp-pileup
    :alt:   (downloads)
 .. |docker_snp-pileup| image:: https://quay.io/repository/biocontainers/snp-pileup/status
    :target: https://quay.io/repository/biocontainers/snp-pileup

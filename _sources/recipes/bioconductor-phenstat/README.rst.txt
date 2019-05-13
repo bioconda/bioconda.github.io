@@ -61,6 +61,7 @@ bioconductor-phenstat
 
 
 .. |downloads_bioconductor-phenstat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-phenstat.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-phenstat
    :alt:   (downloads)
 .. |docker_bioconductor-phenstat| image:: https://quay.io/repository/biocontainers/bioconductor-phenstat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-phenstat

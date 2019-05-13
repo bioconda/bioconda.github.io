@@ -46,6 +46,7 @@ deeptoolsintervals
 
 
 .. |downloads_deeptoolsintervals| image:: https://img.shields.io/conda/dn/bioconda/deeptoolsintervals.svg?style=flat
+   :target: https://anaconda.org/bioconda/deeptoolsintervals
    :alt:   (downloads)
 .. |docker_deeptoolsintervals| image:: https://quay.io/repository/biocontainers/deeptoolsintervals/status
    :target: https://quay.io/repository/biocontainers/deeptoolsintervals

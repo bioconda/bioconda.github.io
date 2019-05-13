@@ -45,6 +45,7 @@ jannovar-cli
 
 
 .. |downloads_jannovar-cli| image:: https://img.shields.io/conda/dn/bioconda/jannovar-cli.svg?style=flat
+   :target: https://anaconda.org/bioconda/jannovar-cli
    :alt:   (downloads)
 .. |docker_jannovar-cli| image:: https://quay.io/repository/biocontainers/jannovar-cli/status
    :target: https://quay.io/repository/biocontainers/jannovar-cli

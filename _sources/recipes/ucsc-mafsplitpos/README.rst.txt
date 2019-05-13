@@ -50,6 +50,7 @@ ucsc-mafsplitpos
 
 
 .. |downloads_ucsc-mafsplitpos| image:: https://img.shields.io/conda/dn/bioconda/ucsc-mafsplitpos.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-mafsplitpos
    :alt:   (downloads)
 .. |docker_ucsc-mafsplitpos| image:: https://quay.io/repository/biocontainers/ucsc-mafsplitpos/status
    :target: https://quay.io/repository/biocontainers/ucsc-mafsplitpos

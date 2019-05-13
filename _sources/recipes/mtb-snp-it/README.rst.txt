@@ -52,6 +52,7 @@ mtb-snp-it
 
 
 .. |downloads_mtb-snp-it| image:: https://img.shields.io/conda/dn/bioconda/mtb-snp-it.svg?style=flat
+   :target: https://anaconda.org/bioconda/mtb-snp-it
    :alt:   (downloads)
 .. |docker_mtb-snp-it| image:: https://quay.io/repository/biocontainers/mtb-snp-it/status
    :target: https://quay.io/repository/biocontainers/mtb-snp-it

@@ -54,6 +54,7 @@ bioconductor-ctdquerier
 
 
 .. |downloads_bioconductor-ctdquerier| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ctdquerier.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ctdquerier
    :alt:   (downloads)
 .. |docker_bioconductor-ctdquerier| image:: https://quay.io/repository/biocontainers/bioconductor-ctdquerier/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ctdquerier

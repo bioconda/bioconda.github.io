@@ -45,6 +45,7 @@ bpp-core
 
 
 .. |downloads_bpp-core| image:: https://img.shields.io/conda/dn/bioconda/bpp-core.svg?style=flat
+   :target: https://anaconda.org/bioconda/bpp-core
    :alt:   (downloads)
 .. |docker_bpp-core| image:: https://quay.io/repository/biocontainers/bpp-core/status
    :target: https://quay.io/repository/biocontainers/bpp-core

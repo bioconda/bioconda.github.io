@@ -53,6 +53,7 @@ bioconductor-pd.atdschip.tiling
 
 
 .. |downloads_bioconductor-pd.atdschip.tiling| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.atdschip.tiling.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.atdschip.tiling
    :alt:   (downloads)
 .. |docker_bioconductor-pd.atdschip.tiling| image:: https://quay.io/repository/biocontainers/bioconductor-pd.atdschip.tiling/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.atdschip.tiling

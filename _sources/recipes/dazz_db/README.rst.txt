@@ -45,6 +45,7 @@ dazz_db
 
 
 .. |downloads_dazz_db| image:: https://img.shields.io/conda/dn/bioconda/dazz_db.svg?style=flat
+   :target: https://anaconda.org/bioconda/dazz_db
    :alt:   (downloads)
 .. |docker_dazz_db| image:: https://quay.io/repository/biocontainers/dazz_db/status
    :target: https://quay.io/repository/biocontainers/dazz_db

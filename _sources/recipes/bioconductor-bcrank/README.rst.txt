@@ -48,6 +48,7 @@ bioconductor-bcrank
 
 
 .. |downloads_bioconductor-bcrank| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bcrank.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bcrank
    :alt:   (downloads)
 .. |docker_bioconductor-bcrank| image:: https://quay.io/repository/biocontainers/bioconductor-bcrank/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bcrank

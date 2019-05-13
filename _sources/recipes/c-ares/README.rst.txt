@@ -45,6 +45,7 @@ c-ares
 
 
 .. |downloads_c-ares| image:: https://img.shields.io/conda/dn/bioconda/c-ares.svg?style=flat
+   :target: https://anaconda.org/bioconda/c-ares
    :alt:   (downloads)
 .. |docker_c-ares| image:: https://quay.io/repository/biocontainers/c-ares/status
    :target: https://quay.io/repository/biocontainers/c-ares

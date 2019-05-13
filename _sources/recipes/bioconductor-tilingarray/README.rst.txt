@@ -53,6 +53,7 @@ bioconductor-tilingarray
 
 
 .. |downloads_bioconductor-tilingarray| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tilingarray.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tilingarray
    :alt:   (downloads)
 .. |docker_bioconductor-tilingarray| image:: https://quay.io/repository/biocontainers/bioconductor-tilingarray/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tilingarray

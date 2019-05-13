@@ -51,6 +51,7 @@ control-freec
 
 
 .. |downloads_control-freec| image:: https://img.shields.io/conda/dn/bioconda/control-freec.svg?style=flat
+   :target: https://anaconda.org/bioconda/control-freec
    :alt:   (downloads)
 .. |docker_control-freec| image:: https://quay.io/repository/biocontainers/control-freec/status
    :target: https://quay.io/repository/biocontainers/control-freec

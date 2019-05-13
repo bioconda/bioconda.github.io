@@ -45,6 +45,7 @@ clonalframeml
 
 
 .. |downloads_clonalframeml| image:: https://img.shields.io/conda/dn/bioconda/clonalframeml.svg?style=flat
+   :target: https://anaconda.org/bioconda/clonalframeml
    :alt:   (downloads)
 .. |docker_clonalframeml| image:: https://quay.io/repository/biocontainers/clonalframeml/status
    :target: https://quay.io/repository/biocontainers/clonalframeml

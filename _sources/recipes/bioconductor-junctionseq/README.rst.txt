@@ -65,6 +65,7 @@ bioconductor-junctionseq
 
 
 .. |downloads_bioconductor-junctionseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-junctionseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-junctionseq
    :alt:   (downloads)
 .. |docker_bioconductor-junctionseq| image:: https://quay.io/repository/biocontainers/bioconductor-junctionseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-junctionseq

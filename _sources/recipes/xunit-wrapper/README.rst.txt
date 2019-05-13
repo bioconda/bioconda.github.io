@@ -47,6 +47,7 @@ xunit-wrapper
 
 
 .. |downloads_xunit-wrapper| image:: https://img.shields.io/conda/dn/bioconda/xunit-wrapper.svg?style=flat
+   :target: https://anaconda.org/bioconda/xunit-wrapper
    :alt:   (downloads)
 .. |docker_xunit-wrapper| image:: https://quay.io/repository/biocontainers/xunit-wrapper/status
    :target: https://quay.io/repository/biocontainers/xunit-wrapper

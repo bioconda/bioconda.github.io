@@ -50,6 +50,7 @@ ucsc-chainsplit
 
 
 .. |downloads_ucsc-chainsplit| image:: https://img.shields.io/conda/dn/bioconda/ucsc-chainsplit.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-chainsplit
    :alt:   (downloads)
 .. |docker_ucsc-chainsplit| image:: https://quay.io/repository/biocontainers/ucsc-chainsplit/status
    :target: https://quay.io/repository/biocontainers/ucsc-chainsplit

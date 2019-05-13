@@ -54,6 +54,7 @@ bioconductor-frma
 
 
 .. |downloads_bioconductor-frma| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-frma.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-frma
    :alt:   (downloads)
 .. |docker_bioconductor-frma| image:: https://quay.io/repository/biocontainers/bioconductor-frma/status
    :target: https://quay.io/repository/biocontainers/bioconductor-frma

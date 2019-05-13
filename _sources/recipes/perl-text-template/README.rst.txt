@@ -45,6 +45,7 @@ perl-text-template
 
 
 .. |downloads_perl-text-template| image:: https://img.shields.io/conda/dn/bioconda/perl-text-template.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-text-template
    :alt:   (downloads)
 .. |docker_perl-text-template| image:: https://quay.io/repository/biocontainers/perl-text-template/status
    :target: https://quay.io/repository/biocontainers/perl-text-template

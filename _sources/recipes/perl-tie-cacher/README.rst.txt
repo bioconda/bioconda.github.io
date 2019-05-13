@@ -46,6 +46,7 @@ perl-tie-cacher
 
 
 .. |downloads_perl-tie-cacher| image:: https://img.shields.io/conda/dn/bioconda/perl-tie-cacher.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-tie-cacher
    :alt:   (downloads)
 .. |docker_perl-tie-cacher| image:: https://quay.io/repository/biocontainers/perl-tie-cacher/status
    :target: https://quay.io/repository/biocontainers/perl-tie-cacher

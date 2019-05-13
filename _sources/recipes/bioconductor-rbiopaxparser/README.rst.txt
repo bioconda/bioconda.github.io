@@ -48,6 +48,7 @@ bioconductor-rbiopaxparser
 
 
 .. |downloads_bioconductor-rbiopaxparser| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rbiopaxparser.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rbiopaxparser
    :alt:   (downloads)
 .. |docker_bioconductor-rbiopaxparser| image:: https://quay.io/repository/biocontainers/bioconductor-rbiopaxparser/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rbiopaxparser

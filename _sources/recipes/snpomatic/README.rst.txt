@@ -45,6 +45,7 @@ snpomatic
 
 
 .. |downloads_snpomatic| image:: https://img.shields.io/conda/dn/bioconda/snpomatic.svg?style=flat
+   :target: https://anaconda.org/bioconda/snpomatic
    :alt:   (downloads)
 .. |docker_snpomatic| image:: https://quay.io/repository/biocontainers/snpomatic/status
    :target: https://quay.io/repository/biocontainers/snpomatic

@@ -45,6 +45,7 @@ perl-file-find
 
 
 .. |downloads_perl-file-find| image:: https://img.shields.io/conda/dn/bioconda/perl-file-find.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-find
    :alt:   (downloads)
 .. |docker_perl-file-find| image:: https://quay.io/repository/biocontainers/perl-file-find/status
    :target: https://quay.io/repository/biocontainers/perl-file-find

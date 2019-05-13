@@ -62,6 +62,7 @@ bioconductor-smite
 
 
 .. |downloads_bioconductor-smite| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-smite.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-smite
    :alt:   (downloads)
 .. |docker_bioconductor-smite| image:: https://quay.io/repository/biocontainers/bioconductor-smite/status
    :target: https://quay.io/repository/biocontainers/bioconductor-smite

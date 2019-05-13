@@ -46,6 +46,7 @@ perl-test-exception
 
 
 .. |downloads_perl-test-exception| image:: https://img.shields.io/conda/dn/bioconda/perl-test-exception.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-exception
    :alt:   (downloads)
 .. |docker_perl-test-exception| image:: https://quay.io/repository/biocontainers/perl-test-exception/status
    :target: https://quay.io/repository/biocontainers/perl-test-exception

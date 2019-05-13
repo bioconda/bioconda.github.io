@@ -57,6 +57,7 @@ pb-assembly
 
 
 .. |downloads_pb-assembly| image:: https://img.shields.io/conda/dn/bioconda/pb-assembly.svg?style=flat
+   :target: https://anaconda.org/bioconda/pb-assembly
    :alt:   (downloads)
 .. |docker_pb-assembly| image:: https://quay.io/repository/biocontainers/pb-assembly/status
    :target: https://quay.io/repository/biocontainers/pb-assembly

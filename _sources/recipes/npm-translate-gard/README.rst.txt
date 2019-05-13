@@ -45,6 +45,7 @@ translate-gard
 
 
 .. |downloads_translate-gard| image:: https://img.shields.io/conda/dn/bioconda/translate-gard.svg?style=flat
+   :target: https://anaconda.org/bioconda/translate-gard
    :alt:   (downloads)
 .. |docker_translate-gard| image:: https://quay.io/repository/biocontainers/translate-gard/status
    :target: https://quay.io/repository/biocontainers/translate-gard

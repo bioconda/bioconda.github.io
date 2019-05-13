@@ -50,6 +50,7 @@ ucsc-nibfrag
 
 
 .. |downloads_ucsc-nibfrag| image:: https://img.shields.io/conda/dn/bioconda/ucsc-nibfrag.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-nibfrag
    :alt:   (downloads)
 .. |docker_ucsc-nibfrag| image:: https://quay.io/repository/biocontainers/ucsc-nibfrag/status
    :target: https://quay.io/repository/biocontainers/ucsc-nibfrag

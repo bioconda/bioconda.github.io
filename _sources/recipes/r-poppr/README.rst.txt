@@ -64,6 +64,7 @@ r-poppr
 
 
 .. |downloads_r-poppr| image:: https://img.shields.io/conda/dn/bioconda/r-poppr.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-poppr
    :alt:   (downloads)
 .. |docker_r-poppr| image:: https://quay.io/repository/biocontainers/r-poppr/status
    :target: https://quay.io/repository/biocontainers/r-poppr

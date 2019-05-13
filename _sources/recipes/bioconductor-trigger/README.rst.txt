@@ -51,6 +51,7 @@ bioconductor-trigger
 
 
 .. |downloads_bioconductor-trigger| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-trigger.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-trigger
    :alt:   (downloads)
 .. |docker_bioconductor-trigger| image:: https://quay.io/repository/biocontainers/bioconductor-trigger/status
    :target: https://quay.io/repository/biocontainers/bioconductor-trigger

@@ -48,6 +48,7 @@ swarm
 
 
 .. |downloads_swarm| image:: https://img.shields.io/conda/dn/bioconda/swarm.svg?style=flat
+   :target: https://anaconda.org/bioconda/swarm
    :alt:   (downloads)
 .. |docker_swarm| image:: https://quay.io/repository/biocontainers/swarm/status
    :target: https://quay.io/repository/biocontainers/swarm

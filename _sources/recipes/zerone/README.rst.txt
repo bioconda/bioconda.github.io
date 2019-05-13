@@ -46,6 +46,7 @@ zerone
 
 
 .. |downloads_zerone| image:: https://img.shields.io/conda/dn/bioconda/zerone.svg?style=flat
+   :target: https://anaconda.org/bioconda/zerone
    :alt:   (downloads)
 .. |docker_zerone| image:: https://quay.io/repository/biocontainers/zerone/status
    :target: https://quay.io/repository/biocontainers/zerone

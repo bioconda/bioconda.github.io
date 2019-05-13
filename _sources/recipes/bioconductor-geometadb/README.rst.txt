@@ -48,6 +48,7 @@ bioconductor-geometadb
 
 
 .. |downloads_bioconductor-geometadb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geometadb.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-geometadb
    :alt:   (downloads)
 .. |docker_bioconductor-geometadb| image:: https://quay.io/repository/biocontainers/bioconductor-geometadb/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geometadb

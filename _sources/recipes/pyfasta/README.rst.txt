@@ -47,6 +47,7 @@ pyfasta
 
 
 .. |downloads_pyfasta| image:: https://img.shields.io/conda/dn/bioconda/pyfasta.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyfasta
    :alt:   (downloads)
 .. |docker_pyfasta| image:: https://quay.io/repository/biocontainers/pyfasta/status
    :target: https://quay.io/repository/biocontainers/pyfasta

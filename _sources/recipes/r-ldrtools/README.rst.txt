@@ -45,6 +45,7 @@ r-ldrtools
 
 
 .. |downloads_r-ldrtools| image:: https://img.shields.io/conda/dn/bioconda/r-ldrtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-ldrtools
    :alt:   (downloads)
 .. |docker_r-ldrtools| image:: https://quay.io/repository/biocontainers/r-ldrtools/status
    :target: https://quay.io/repository/biocontainers/r-ldrtools

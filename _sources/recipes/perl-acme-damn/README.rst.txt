@@ -47,6 +47,7 @@ perl-acme-damn
 
 
 .. |downloads_perl-acme-damn| image:: https://img.shields.io/conda/dn/bioconda/perl-acme-damn.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-acme-damn
    :alt:   (downloads)
 .. |docker_perl-acme-damn| image:: https://quay.io/repository/biocontainers/perl-acme-damn/status
    :target: https://quay.io/repository/biocontainers/perl-acme-damn

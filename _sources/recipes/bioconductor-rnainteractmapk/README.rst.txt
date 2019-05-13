@@ -52,6 +52,7 @@ bioconductor-rnainteractmapk
 
 
 .. |downloads_bioconductor-rnainteractmapk| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rnainteractmapk.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rnainteractmapk
    :alt:   (downloads)
 .. |docker_bioconductor-rnainteractmapk| image:: https://quay.io/repository/biocontainers/bioconductor-rnainteractmapk/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rnainteractmapk

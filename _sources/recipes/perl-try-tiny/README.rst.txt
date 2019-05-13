@@ -45,6 +45,7 @@ perl-try-tiny
 
 
 .. |downloads_perl-try-tiny| image:: https://img.shields.io/conda/dn/bioconda/perl-try-tiny.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-try-tiny
    :alt:   (downloads)
 .. |docker_perl-try-tiny| image:: https://quay.io/repository/biocontainers/perl-try-tiny/status
    :target: https://quay.io/repository/biocontainers/perl-try-tiny

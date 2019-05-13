@@ -56,6 +56,7 @@ drep
 
 
 .. |downloads_drep| image:: https://img.shields.io/conda/dn/bioconda/drep.svg?style=flat
+   :target: https://anaconda.org/bioconda/drep
    :alt:   (downloads)
 .. |docker_drep| image:: https://quay.io/repository/biocontainers/drep/status
    :target: https://quay.io/repository/biocontainers/drep

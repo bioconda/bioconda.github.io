@@ -47,6 +47,7 @@ bioconductor-cottonprobe
 
 
 .. |downloads_bioconductor-cottonprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cottonprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cottonprobe
    :alt:   (downloads)
 .. |docker_bioconductor-cottonprobe| image:: https://quay.io/repository/biocontainers/bioconductor-cottonprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cottonprobe

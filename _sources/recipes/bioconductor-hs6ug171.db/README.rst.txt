@@ -48,6 +48,7 @@ bioconductor-hs6ug171.db
 
 
 .. |downloads_bioconductor-hs6ug171.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hs6ug171.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hs6ug171.db
    :alt:   (downloads)
 .. |docker_bioconductor-hs6ug171.db| image:: https://quay.io/repository/biocontainers/bioconductor-hs6ug171.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hs6ug171.db

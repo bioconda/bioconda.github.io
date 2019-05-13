@@ -44,6 +44,7 @@ bwise
 
 
 .. |downloads_bwise| image:: https://img.shields.io/conda/dn/bioconda/bwise.svg?style=flat
+   :target: https://anaconda.org/bioconda/bwise
    :alt:   (downloads)
 .. |docker_bwise| image:: https://quay.io/repository/biocontainers/bwise/status
    :target: https://quay.io/repository/biocontainers/bwise

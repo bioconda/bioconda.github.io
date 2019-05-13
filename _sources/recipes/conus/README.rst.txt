@@ -46,6 +46,7 @@ conus
 
 
 .. |downloads_conus| image:: https://img.shields.io/conda/dn/bioconda/conus.svg?style=flat
+   :target: https://anaconda.org/bioconda/conus
    :alt:   (downloads)
 .. |docker_conus| image:: https://quay.io/repository/biocontainers/conus/status
    :target: https://quay.io/repository/biocontainers/conus

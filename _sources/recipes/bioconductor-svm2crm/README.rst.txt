@@ -57,6 +57,7 @@ bioconductor-svm2crm
 
 
 .. |downloads_bioconductor-svm2crm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-svm2crm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-svm2crm
    :alt:   (downloads)
 .. |docker_bioconductor-svm2crm| image:: https://quay.io/repository/biocontainers/bioconductor-svm2crm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-svm2crm

@@ -47,6 +47,7 @@ bioconductor-affxparser
 
 
 .. |downloads_bioconductor-affxparser| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affxparser.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-affxparser
    :alt:   (downloads)
 .. |docker_bioconductor-affxparser| image:: https://quay.io/repository/biocontainers/bioconductor-affxparser/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affxparser

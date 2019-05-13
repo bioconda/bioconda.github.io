@@ -49,6 +49,7 @@ bioconductor-biosvd
 
 
 .. |downloads_bioconductor-biosvd| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biosvd.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-biosvd
    :alt:   (downloads)
 .. |docker_bioconductor-biosvd| image:: https://quay.io/repository/biocontainers/bioconductor-biosvd/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biosvd

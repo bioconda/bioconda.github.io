@@ -50,6 +50,7 @@ rambo-k
 
 
 .. |downloads_rambo-k| image:: https://img.shields.io/conda/dn/bioconda/rambo-k.svg?style=flat
+   :target: https://anaconda.org/bioconda/rambo-k
    :alt:   (downloads)
 .. |docker_rambo-k| image:: https://quay.io/repository/biocontainers/rambo-k/status
    :target: https://quay.io/repository/biocontainers/rambo-k

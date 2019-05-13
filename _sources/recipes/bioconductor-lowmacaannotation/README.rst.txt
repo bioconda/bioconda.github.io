@@ -46,6 +46,7 @@ bioconductor-lowmacaannotation
 
 
 .. |downloads_bioconductor-lowmacaannotation| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lowmacaannotation.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lowmacaannotation
    :alt:   (downloads)
 .. |docker_bioconductor-lowmacaannotation| image:: https://quay.io/repository/biocontainers/bioconductor-lowmacaannotation/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lowmacaannotation

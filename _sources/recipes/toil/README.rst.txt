@@ -66,6 +66,7 @@ toil
 
 
 .. |downloads_toil| image:: https://img.shields.io/conda/dn/bioconda/toil.svg?style=flat
+   :target: https://anaconda.org/bioconda/toil
    :alt:   (downloads)
 .. |docker_toil| image:: https://quay.io/repository/biocontainers/toil/status
    :target: https://quay.io/repository/biocontainers/toil

@@ -50,6 +50,7 @@ ucsc-blat
 
 
 .. |downloads_ucsc-blat| image:: https://img.shields.io/conda/dn/bioconda/ucsc-blat.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-blat
    :alt:   (downloads)
 .. |docker_ucsc-blat| image:: https://quay.io/repository/biocontainers/ucsc-blat/status
    :target: https://quay.io/repository/biocontainers/ucsc-blat

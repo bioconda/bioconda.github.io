@@ -48,6 +48,7 @@ bioconductor-weaver
 
 
 .. |downloads_bioconductor-weaver| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-weaver.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-weaver
    :alt:   (downloads)
 .. |docker_bioconductor-weaver| image:: https://quay.io/repository/biocontainers/bioconductor-weaver/status
    :target: https://quay.io/repository/biocontainers/bioconductor-weaver

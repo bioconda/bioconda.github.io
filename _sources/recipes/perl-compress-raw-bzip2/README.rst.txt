@@ -47,6 +47,7 @@ perl-compress-raw-bzip2
 
 
 .. |downloads_perl-compress-raw-bzip2| image:: https://img.shields.io/conda/dn/bioconda/perl-compress-raw-bzip2.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-compress-raw-bzip2
    :alt:   (downloads)
 .. |docker_perl-compress-raw-bzip2| image:: https://quay.io/repository/biocontainers/perl-compress-raw-bzip2/status
    :target: https://quay.io/repository/biocontainers/perl-compress-raw-bzip2

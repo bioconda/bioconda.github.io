@@ -63,6 +63,7 @@ ddocent
 
 
 .. |downloads_ddocent| image:: https://img.shields.io/conda/dn/bioconda/ddocent.svg?style=flat
+   :target: https://anaconda.org/bioconda/ddocent
    :alt:   (downloads)
 .. |docker_ddocent| image:: https://quay.io/repository/biocontainers/ddocent/status
    :target: https://quay.io/repository/biocontainers/ddocent

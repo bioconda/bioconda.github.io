@@ -47,6 +47,7 @@ pandaseq
 
 
 .. |downloads_pandaseq| image:: https://img.shields.io/conda/dn/bioconda/pandaseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/pandaseq
    :alt:   (downloads)
 .. |docker_pandaseq| image:: https://quay.io/repository/biocontainers/pandaseq/status
    :target: https://quay.io/repository/biocontainers/pandaseq

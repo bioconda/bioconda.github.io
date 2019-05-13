@@ -52,6 +52,7 @@ apollo
 
 
 .. |downloads_apollo| image:: https://img.shields.io/conda/dn/bioconda/apollo.svg?style=flat
+   :target: https://anaconda.org/bioconda/apollo
    :alt:   (downloads)
 .. |docker_apollo| image:: https://quay.io/repository/biocontainers/apollo/status
    :target: https://quay.io/repository/biocontainers/apollo

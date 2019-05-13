@@ -49,6 +49,7 @@ bioconductor-chemminedrugs
 
 
 .. |downloads_bioconductor-chemminedrugs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chemminedrugs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chemminedrugs
    :alt:   (downloads)
 .. |docker_bioconductor-chemminedrugs| image:: https://quay.io/repository/biocontainers/bioconductor-chemminedrugs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chemminedrugs

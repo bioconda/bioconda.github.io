@@ -54,6 +54,7 @@ fgmp
 
 
 .. |downloads_fgmp| image:: https://img.shields.io/conda/dn/bioconda/fgmp.svg?style=flat
+   :target: https://anaconda.org/bioconda/fgmp
    :alt:   (downloads)
 .. |docker_fgmp| image:: https://quay.io/repository/biocontainers/fgmp/status
    :target: https://quay.io/repository/biocontainers/fgmp

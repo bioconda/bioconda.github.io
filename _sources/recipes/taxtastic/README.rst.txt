@@ -49,6 +49,7 @@ taxtastic
 
 
 .. |downloads_taxtastic| image:: https://img.shields.io/conda/dn/bioconda/taxtastic.svg?style=flat
+   :target: https://anaconda.org/bioconda/taxtastic
    :alt:   (downloads)
 .. |docker_taxtastic| image:: https://quay.io/repository/biocontainers/taxtastic/status
    :target: https://quay.io/repository/biocontainers/taxtastic

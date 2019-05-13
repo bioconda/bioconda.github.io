@@ -48,6 +48,7 @@ bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene
 
 
 .. |downloads_bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene
    :alt:   (downloads)
 .. |docker_bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene/status
    :target: https://quay.io/repository/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene

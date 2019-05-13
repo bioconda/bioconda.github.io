@@ -48,6 +48,7 @@ sailfish
 
 
 .. |downloads_sailfish| image:: https://img.shields.io/conda/dn/bioconda/sailfish.svg?style=flat
+   :target: https://anaconda.org/bioconda/sailfish
    :alt:   (downloads)
 .. |docker_sailfish| image:: https://quay.io/repository/biocontainers/sailfish/status
    :target: https://quay.io/repository/biocontainers/sailfish

@@ -45,6 +45,7 @@ perl-parse-yapp
 
 
 .. |downloads_perl-parse-yapp| image:: https://img.shields.io/conda/dn/bioconda/perl-parse-yapp.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-parse-yapp
    :alt:   (downloads)
 .. |docker_perl-parse-yapp| image:: https://quay.io/repository/biocontainers/perl-parse-yapp/status
    :target: https://quay.io/repository/biocontainers/perl-parse-yapp

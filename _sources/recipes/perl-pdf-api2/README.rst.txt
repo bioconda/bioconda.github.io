@@ -46,6 +46,7 @@ perl-pdf-api2
 
 
 .. |downloads_perl-pdf-api2| image:: https://img.shields.io/conda/dn/bioconda/perl-pdf-api2.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-pdf-api2
    :alt:   (downloads)
 .. |docker_perl-pdf-api2| image:: https://quay.io/repository/biocontainers/perl-pdf-api2/status
    :target: https://quay.io/repository/biocontainers/perl-pdf-api2

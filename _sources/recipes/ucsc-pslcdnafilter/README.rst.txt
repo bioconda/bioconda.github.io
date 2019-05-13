@@ -50,6 +50,7 @@ ucsc-pslcdnafilter
 
 
 .. |downloads_ucsc-pslcdnafilter| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslcdnafilter.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-pslcdnafilter
    :alt:   (downloads)
 .. |docker_ucsc-pslcdnafilter| image:: https://quay.io/repository/biocontainers/ucsc-pslcdnafilter/status
    :target: https://quay.io/repository/biocontainers/ucsc-pslcdnafilter

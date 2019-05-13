@@ -45,6 +45,7 @@ perl-yaml-libyaml
 
 
 .. |downloads_perl-yaml-libyaml| image:: https://img.shields.io/conda/dn/bioconda/perl-yaml-libyaml.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-yaml-libyaml
    :alt:   (downloads)
 .. |docker_perl-yaml-libyaml| image:: https://quay.io/repository/biocontainers/perl-yaml-libyaml/status
    :target: https://quay.io/repository/biocontainers/perl-yaml-libyaml

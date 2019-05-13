@@ -49,6 +49,7 @@ bioconductor-hapfabia
 
 
 .. |downloads_bioconductor-hapfabia| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hapfabia.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hapfabia
    :alt:   (downloads)
 .. |docker_bioconductor-hapfabia| image:: https://quay.io/repository/biocontainers/bioconductor-hapfabia/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hapfabia

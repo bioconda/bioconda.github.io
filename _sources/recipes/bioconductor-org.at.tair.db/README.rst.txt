@@ -47,6 +47,7 @@ bioconductor-org.at.tair.db
 
 
 .. |downloads_bioconductor-org.at.tair.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-org.at.tair.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-org.at.tair.db
    :alt:   (downloads)
 .. |docker_bioconductor-org.at.tair.db| image:: https://quay.io/repository/biocontainers/bioconductor-org.at.tair.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-org.at.tair.db

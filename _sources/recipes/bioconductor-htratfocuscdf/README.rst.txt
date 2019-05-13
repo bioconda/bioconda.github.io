@@ -47,6 +47,7 @@ bioconductor-htratfocuscdf
 
 
 .. |downloads_bioconductor-htratfocuscdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-htratfocuscdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-htratfocuscdf
    :alt:   (downloads)
 .. |docker_bioconductor-htratfocuscdf| image:: https://quay.io/repository/biocontainers/bioconductor-htratfocuscdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-htratfocuscdf

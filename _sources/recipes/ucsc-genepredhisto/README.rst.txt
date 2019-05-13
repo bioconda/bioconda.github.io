@@ -50,6 +50,7 @@ ucsc-genepredhisto
 
 
 .. |downloads_ucsc-genepredhisto| image:: https://img.shields.io/conda/dn/bioconda/ucsc-genepredhisto.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-genepredhisto
    :alt:   (downloads)
 .. |docker_ucsc-genepredhisto| image:: https://quay.io/repository/biocontainers/ucsc-genepredhisto/status
    :target: https://quay.io/repository/biocontainers/ucsc-genepredhisto

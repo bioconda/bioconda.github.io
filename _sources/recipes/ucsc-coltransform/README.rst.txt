@@ -50,6 +50,7 @@ ucsc-coltransform
 
 
 .. |downloads_ucsc-coltransform| image:: https://img.shields.io/conda/dn/bioconda/ucsc-coltransform.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-coltransform
    :alt:   (downloads)
 .. |docker_ucsc-coltransform| image:: https://quay.io/repository/biocontainers/ucsc-coltransform/status
    :target: https://quay.io/repository/biocontainers/ucsc-coltransform

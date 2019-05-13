@@ -53,6 +53,7 @@ bioconductor-pd.yg.s98
 
 
 .. |downloads_bioconductor-pd.yg.s98| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.yg.s98.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.yg.s98
    :alt:   (downloads)
 .. |docker_bioconductor-pd.yg.s98| image:: https://quay.io/repository/biocontainers/bioconductor-pd.yg.s98/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.yg.s98

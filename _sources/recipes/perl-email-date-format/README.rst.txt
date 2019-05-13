@@ -45,6 +45,7 @@ perl-email-date-format
 
 
 .. |downloads_perl-email-date-format| image:: https://img.shields.io/conda/dn/bioconda/perl-email-date-format.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-email-date-format
    :alt:   (downloads)
 .. |docker_perl-email-date-format| image:: https://quay.io/repository/biocontainers/perl-email-date-format/status
    :target: https://quay.io/repository/biocontainers/perl-email-date-format

@@ -52,6 +52,7 @@ bioconductor-cgdv17
 
 
 .. |downloads_bioconductor-cgdv17| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cgdv17.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cgdv17
    :alt:   (downloads)
 .. |docker_bioconductor-cgdv17| image:: https://quay.io/repository/biocontainers/bioconductor-cgdv17/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cgdv17

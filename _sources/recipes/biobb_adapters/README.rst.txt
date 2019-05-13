@@ -78,6 +78,7 @@ biobb_adapters
 
 
 .. |downloads_biobb_adapters| image:: https://img.shields.io/conda/dn/bioconda/biobb_adapters.svg?style=flat
+   :target: https://anaconda.org/bioconda/biobb_adapters
    :alt:   (downloads)
 .. |docker_biobb_adapters| image:: https://quay.io/repository/biocontainers/biobb_adapters/status
    :target: https://quay.io/repository/biocontainers/biobb_adapters

@@ -47,6 +47,7 @@ taco
 
 
 .. |downloads_taco| image:: https://img.shields.io/conda/dn/bioconda/taco.svg?style=flat
+   :target: https://anaconda.org/bioconda/taco
    :alt:   (downloads)
 .. |docker_taco| image:: https://quay.io/repository/biocontainers/taco/status
    :target: https://quay.io/repository/biocontainers/taco

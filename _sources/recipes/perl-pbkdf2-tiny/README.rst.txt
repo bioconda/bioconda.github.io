@@ -45,6 +45,7 @@ perl-pbkdf2-tiny
 
 
 .. |downloads_perl-pbkdf2-tiny| image:: https://img.shields.io/conda/dn/bioconda/perl-pbkdf2-tiny.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-pbkdf2-tiny
    :alt:   (downloads)
 .. |docker_perl-pbkdf2-tiny| image:: https://quay.io/repository/biocontainers/perl-pbkdf2-tiny/status
    :target: https://quay.io/repository/biocontainers/perl-pbkdf2-tiny

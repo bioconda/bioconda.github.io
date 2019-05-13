@@ -57,6 +57,7 @@ perl-http-message
 
 
 .. |downloads_perl-http-message| image:: https://img.shields.io/conda/dn/bioconda/perl-http-message.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-http-message
    :alt:   (downloads)
 .. |docker_perl-http-message| image:: https://quay.io/repository/biocontainers/perl-http-message/status
    :target: https://quay.io/repository/biocontainers/perl-http-message

@@ -49,6 +49,7 @@ perl-onto-perl
 
 
 .. |downloads_perl-onto-perl| image:: https://img.shields.io/conda/dn/bioconda/perl-onto-perl.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-onto-perl
    :alt:   (downloads)
 .. |docker_perl-onto-perl| image:: https://quay.io/repository/biocontainers/perl-onto-perl/status
    :target: https://quay.io/repository/biocontainers/perl-onto-perl

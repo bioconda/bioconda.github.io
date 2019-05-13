@@ -50,6 +50,7 @@ ucsc-parahub
 
 
 .. |downloads_ucsc-parahub| image:: https://img.shields.io/conda/dn/bioconda/ucsc-parahub.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-parahub
    :alt:   (downloads)
 .. |docker_ucsc-parahub| image:: https://quay.io/repository/biocontainers/ucsc-parahub/status
    :target: https://quay.io/repository/biocontainers/ucsc-parahub

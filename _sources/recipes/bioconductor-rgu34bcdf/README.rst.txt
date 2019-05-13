@@ -47,6 +47,7 @@ bioconductor-rgu34bcdf
 
 
 .. |downloads_bioconductor-rgu34bcdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rgu34bcdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rgu34bcdf
    :alt:   (downloads)
 .. |docker_bioconductor-rgu34bcdf| image:: https://quay.io/repository/biocontainers/bioconductor-rgu34bcdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rgu34bcdf

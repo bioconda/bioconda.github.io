@@ -53,6 +53,7 @@ bioconductor-chromheatmap
 
 
 .. |downloads_bioconductor-chromheatmap| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chromheatmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chromheatmap
    :alt:   (downloads)
 .. |docker_bioconductor-chromheatmap| image:: https://quay.io/repository/biocontainers/bioconductor-chromheatmap/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chromheatmap

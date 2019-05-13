@@ -49,6 +49,7 @@ r-perfmeas
 
 
 .. |downloads_r-perfmeas| image:: https://img.shields.io/conda/dn/bioconda/r-perfmeas.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-perfmeas
    :alt:   (downloads)
 .. |docker_r-perfmeas| image:: https://quay.io/repository/biocontainers/r-perfmeas/status
    :target: https://quay.io/repository/biocontainers/r-perfmeas

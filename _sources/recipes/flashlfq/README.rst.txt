@@ -45,6 +45,7 @@ flashlfq
 
 
 .. |downloads_flashlfq| image:: https://img.shields.io/conda/dn/bioconda/flashlfq.svg?style=flat
+   :target: https://anaconda.org/bioconda/flashlfq
    :alt:   (downloads)
 .. |docker_flashlfq| image:: https://quay.io/repository/biocontainers/flashlfq/status
    :target: https://quay.io/repository/biocontainers/flashlfq

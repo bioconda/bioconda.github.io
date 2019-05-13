@@ -55,6 +55,7 @@ bioconductor-mapkl
 
 
 .. |downloads_bioconductor-mapkl| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mapkl.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mapkl
    :alt:   (downloads)
 .. |docker_bioconductor-mapkl| image:: https://quay.io/repository/biocontainers/bioconductor-mapkl/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mapkl

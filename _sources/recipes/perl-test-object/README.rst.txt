@@ -47,6 +47,7 @@ perl-test-object
 
 
 .. |downloads_perl-test-object| image:: https://img.shields.io/conda/dn/bioconda/perl-test-object.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-object
    :alt:   (downloads)
 .. |docker_perl-test-object| image:: https://quay.io/repository/biocontainers/perl-test-object/status
    :target: https://quay.io/repository/biocontainers/perl-test-object

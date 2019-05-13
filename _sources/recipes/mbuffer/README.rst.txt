@@ -44,6 +44,7 @@ mbuffer
 
 
 .. |downloads_mbuffer| image:: https://img.shields.io/conda/dn/bioconda/mbuffer.svg?style=flat
+   :target: https://anaconda.org/bioconda/mbuffer
    :alt:   (downloads)
 .. |docker_mbuffer| image:: https://quay.io/repository/biocontainers/mbuffer/status
    :target: https://quay.io/repository/biocontainers/mbuffer

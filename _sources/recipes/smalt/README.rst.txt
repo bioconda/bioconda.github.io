@@ -48,6 +48,7 @@ smalt
 
 
 .. |downloads_smalt| image:: https://img.shields.io/conda/dn/bioconda/smalt.svg?style=flat
+   :target: https://anaconda.org/bioconda/smalt
    :alt:   (downloads)
 .. |docker_smalt| image:: https://quay.io/repository/biocontainers/smalt/status
    :target: https://quay.io/repository/biocontainers/smalt

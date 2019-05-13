@@ -50,6 +50,7 @@ bioconductor-xhybcasneuf
 
 
 .. |downloads_bioconductor-xhybcasneuf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-xhybcasneuf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-xhybcasneuf
    :alt:   (downloads)
 .. |docker_bioconductor-xhybcasneuf| image:: https://quay.io/repository/biocontainers/bioconductor-xhybcasneuf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-xhybcasneuf

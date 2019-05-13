@@ -45,6 +45,7 @@ perl-class-inspector
 
 
 .. |downloads_perl-class-inspector| image:: https://img.shields.io/conda/dn/bioconda/perl-class-inspector.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-class-inspector
    :alt:   (downloads)
 .. |docker_perl-class-inspector| image:: https://quay.io/repository/biocontainers/perl-class-inspector/status
    :target: https://quay.io/repository/biocontainers/perl-class-inspector

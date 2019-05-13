@@ -46,6 +46,7 @@ tmalign
 
 
 .. |downloads_tmalign| image:: https://img.shields.io/conda/dn/bioconda/tmalign.svg?style=flat
+   :target: https://anaconda.org/bioconda/tmalign
    :alt:   (downloads)
 .. |docker_tmalign| image:: https://quay.io/repository/biocontainers/tmalign/status
    :target: https://quay.io/repository/biocontainers/tmalign

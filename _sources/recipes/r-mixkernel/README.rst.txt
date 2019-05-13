@@ -54,6 +54,7 @@ r-mixkernel
 
 
 .. |downloads_r-mixkernel| image:: https://img.shields.io/conda/dn/bioconda/r-mixkernel.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-mixkernel
    :alt:   (downloads)
 .. |docker_r-mixkernel| image:: https://quay.io/repository/biocontainers/r-mixkernel/status
    :target: https://quay.io/repository/biocontainers/r-mixkernel

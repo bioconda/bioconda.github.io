@@ -61,6 +61,7 @@ bioconductor-linc
 
 
 .. |downloads_bioconductor-linc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-linc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-linc
    :alt:   (downloads)
 .. |docker_bioconductor-linc| image:: https://quay.io/repository/biocontainers/bioconductor-linc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-linc

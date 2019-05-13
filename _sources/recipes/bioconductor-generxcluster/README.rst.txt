@@ -49,6 +49,7 @@ bioconductor-generxcluster
 
 
 .. |downloads_bioconductor-generxcluster| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-generxcluster.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-generxcluster
    :alt:   (downloads)
 .. |docker_bioconductor-generxcluster| image:: https://quay.io/repository/biocontainers/bioconductor-generxcluster/status
    :target: https://quay.io/repository/biocontainers/bioconductor-generxcluster

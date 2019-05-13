@@ -63,6 +63,7 @@ slamdunk
 
 
 .. |downloads_slamdunk| image:: https://img.shields.io/conda/dn/bioconda/slamdunk.svg?style=flat
+   :target: https://anaconda.org/bioconda/slamdunk
    :alt:   (downloads)
 .. |docker_slamdunk| image:: https://quay.io/repository/biocontainers/slamdunk/status
    :target: https://quay.io/repository/biocontainers/slamdunk

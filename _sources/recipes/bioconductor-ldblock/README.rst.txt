@@ -55,6 +55,7 @@ bioconductor-ldblock
 
 
 .. |downloads_bioconductor-ldblock| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ldblock.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ldblock
    :alt:   (downloads)
 .. |docker_bioconductor-ldblock| image:: https://quay.io/repository/biocontainers/bioconductor-ldblock/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ldblock

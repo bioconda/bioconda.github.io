@@ -64,6 +64,7 @@ boutroslabplottinggeneral
 
 
 .. |downloads_boutroslabplottinggeneral| image:: https://img.shields.io/conda/dn/bioconda/boutroslabplottinggeneral.svg?style=flat
+   :target: https://anaconda.org/bioconda/boutroslabplottinggeneral
    :alt:   (downloads)
 .. |docker_boutroslabplottinggeneral| image:: https://quay.io/repository/biocontainers/boutroslabplottinggeneral/status
    :target: https://quay.io/repository/biocontainers/boutroslabplottinggeneral

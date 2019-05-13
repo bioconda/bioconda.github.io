@@ -53,6 +53,7 @@ bioconductor-pd.margene.1.0.st
 
 
 .. |downloads_bioconductor-pd.margene.1.0.st| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.margene.1.0.st.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.margene.1.0.st
    :alt:   (downloads)
 .. |docker_bioconductor-pd.margene.1.0.st| image:: https://quay.io/repository/biocontainers/bioconductor-pd.margene.1.0.st/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.margene.1.0.st

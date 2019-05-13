@@ -51,6 +51,7 @@ anndata
 
 
 .. |downloads_anndata| image:: https://img.shields.io/conda/dn/bioconda/anndata.svg?style=flat
+   :target: https://anaconda.org/bioconda/anndata
    :alt:   (downloads)
 .. |docker_anndata| image:: https://quay.io/repository/biocontainers/anndata/status
    :target: https://quay.io/repository/biocontainers/anndata

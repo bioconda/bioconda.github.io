@@ -56,6 +56,7 @@ bioconductor-seqsetvis
 
 
 .. |downloads_bioconductor-seqsetvis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-seqsetvis.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-seqsetvis
    :alt:   (downloads)
 .. |docker_bioconductor-seqsetvis| image:: https://quay.io/repository/biocontainers/bioconductor-seqsetvis/status
    :target: https://quay.io/repository/biocontainers/bioconductor-seqsetvis

@@ -48,6 +48,7 @@ pmdtools
 
 
 .. |downloads_pmdtools| image:: https://img.shields.io/conda/dn/bioconda/pmdtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/pmdtools
    :alt:   (downloads)
 .. |docker_pmdtools| image:: https://quay.io/repository/biocontainers/pmdtools/status
    :target: https://quay.io/repository/biocontainers/pmdtools

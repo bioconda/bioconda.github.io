@@ -55,6 +55,7 @@ bioconductor-globalancova
 
 
 .. |downloads_bioconductor-globalancova| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-globalancova.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-globalancova
    :alt:   (downloads)
 .. |docker_bioconductor-globalancova| image:: https://quay.io/repository/biocontainers/bioconductor-globalancova/status
    :target: https://quay.io/repository/biocontainers/bioconductor-globalancova

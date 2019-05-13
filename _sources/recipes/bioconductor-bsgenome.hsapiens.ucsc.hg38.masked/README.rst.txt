@@ -48,6 +48,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hg38.masked
 
 
 .. |downloads_bioconductor-bsgenome.hsapiens.ucsc.hg38.masked| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.hsapiens.ucsc.hg38.masked.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome.hsapiens.ucsc.hg38.masked
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.hsapiens.ucsc.hg38.masked| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.hsapiens.ucsc.hg38.masked/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.hsapiens.ucsc.hg38.masked

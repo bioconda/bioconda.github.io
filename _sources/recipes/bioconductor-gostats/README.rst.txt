@@ -55,6 +55,7 @@ bioconductor-gostats
 
 
 .. |downloads_bioconductor-gostats| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gostats.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gostats
    :alt:   (downloads)
 .. |docker_bioconductor-gostats| image:: https://quay.io/repository/biocontainers/bioconductor-gostats/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gostats

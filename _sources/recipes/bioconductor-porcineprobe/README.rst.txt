@@ -47,6 +47,7 @@ bioconductor-porcineprobe
 
 
 .. |downloads_bioconductor-porcineprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-porcineprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-porcineprobe
    :alt:   (downloads)
 .. |docker_bioconductor-porcineprobe| image:: https://quay.io/repository/biocontainers/bioconductor-porcineprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-porcineprobe

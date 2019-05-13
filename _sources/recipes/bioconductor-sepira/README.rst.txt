@@ -47,6 +47,7 @@ bioconductor-sepira
 
 
 .. |downloads_bioconductor-sepira| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sepira.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sepira
    :alt:   (downloads)
 .. |docker_bioconductor-sepira| image:: https://quay.io/repository/biocontainers/bioconductor-sepira/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sepira

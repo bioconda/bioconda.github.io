@@ -51,6 +51,7 @@ bioconductor-panelcn.mops
 
 
 .. |downloads_bioconductor-panelcn.mops| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-panelcn.mops.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-panelcn.mops
    :alt:   (downloads)
 .. |docker_bioconductor-panelcn.mops| image:: https://quay.io/repository/biocontainers/bioconductor-panelcn.mops/status
    :target: https://quay.io/repository/biocontainers/bioconductor-panelcn.mops

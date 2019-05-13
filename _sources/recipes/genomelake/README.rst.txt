@@ -51,6 +51,7 @@ genomelake
 
 
 .. |downloads_genomelake| image:: https://img.shields.io/conda/dn/bioconda/genomelake.svg?style=flat
+   :target: https://anaconda.org/bioconda/genomelake
    :alt:   (downloads)
 .. |docker_genomelake| image:: https://quay.io/repository/biocontainers/genomelake/status
    :target: https://quay.io/repository/biocontainers/genomelake

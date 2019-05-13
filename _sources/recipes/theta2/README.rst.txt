@@ -50,6 +50,7 @@ theta2
 
 
 .. |downloads_theta2| image:: https://img.shields.io/conda/dn/bioconda/theta2.svg?style=flat
+   :target: https://anaconda.org/bioconda/theta2
    :alt:   (downloads)
 .. |docker_theta2| image:: https://quay.io/repository/biocontainers/theta2/status
    :target: https://quay.io/repository/biocontainers/theta2

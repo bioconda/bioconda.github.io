@@ -51,6 +51,7 @@ dr-disco
 
 
 .. |downloads_dr-disco| image:: https://img.shields.io/conda/dn/bioconda/dr-disco.svg?style=flat
+   :target: https://anaconda.org/bioconda/dr-disco
    :alt:   (downloads)
 .. |docker_dr-disco| image:: https://quay.io/repository/biocontainers/dr-disco/status
    :target: https://quay.io/repository/biocontainers/dr-disco

@@ -51,6 +51,7 @@ bioconductor-flowbin
 
 
 .. |downloads_bioconductor-flowbin| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowbin.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowbin
    :alt:   (downloads)
 .. |docker_bioconductor-flowbin| image:: https://quay.io/repository/biocontainers/bioconductor-flowbin/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowbin

@@ -47,6 +47,7 @@ bioconductor-causalr
 
 
 .. |downloads_bioconductor-causalr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-causalr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-causalr
    :alt:   (downloads)
 .. |docker_bioconductor-causalr| image:: https://quay.io/repository/biocontainers/bioconductor-causalr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-causalr

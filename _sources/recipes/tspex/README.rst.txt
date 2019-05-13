@@ -48,6 +48,7 @@ tspex
 
 
 .. |downloads_tspex| image:: https://img.shields.io/conda/dn/bioconda/tspex.svg?style=flat
+   :target: https://anaconda.org/bioconda/tspex
    :alt:   (downloads)
 .. |docker_tspex| image:: https://quay.io/repository/biocontainers/tspex/status
    :target: https://quay.io/repository/biocontainers/tspex

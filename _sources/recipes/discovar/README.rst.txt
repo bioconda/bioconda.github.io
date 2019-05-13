@@ -46,6 +46,7 @@ discovar
 
 
 .. |downloads_discovar| image:: https://img.shields.io/conda/dn/bioconda/discovar.svg?style=flat
+   :target: https://anaconda.org/bioconda/discovar
    :alt:   (downloads)
 .. |docker_discovar| image:: https://quay.io/repository/biocontainers/discovar/status
    :target: https://quay.io/repository/biocontainers/discovar

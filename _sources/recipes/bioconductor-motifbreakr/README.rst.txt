@@ -63,6 +63,7 @@ bioconductor-motifbreakr
 
 
 .. |downloads_bioconductor-motifbreakr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-motifbreakr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-motifbreakr
    :alt:   (downloads)
 .. |docker_bioconductor-motifbreakr| image:: https://quay.io/repository/biocontainers/bioconductor-motifbreakr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-motifbreakr

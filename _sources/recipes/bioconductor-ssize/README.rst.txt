@@ -48,6 +48,7 @@ bioconductor-ssize
 
 
 .. |downloads_bioconductor-ssize| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ssize.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ssize
    :alt:   (downloads)
 .. |docker_bioconductor-ssize| image:: https://quay.io/repository/biocontainers/bioconductor-ssize/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ssize

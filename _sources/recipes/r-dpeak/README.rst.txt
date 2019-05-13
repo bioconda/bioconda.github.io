@@ -51,6 +51,7 @@ r-dpeak
 
 
 .. |downloads_r-dpeak| image:: https://img.shields.io/conda/dn/bioconda/r-dpeak.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-dpeak
    :alt:   (downloads)
 .. |docker_r-dpeak| image:: https://quay.io/repository/biocontainers/r-dpeak/status
    :target: https://quay.io/repository/biocontainers/r-dpeak

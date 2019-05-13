@@ -52,6 +52,7 @@ bioconductor-prada
 
 
 .. |downloads_bioconductor-prada| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-prada.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-prada
    :alt:   (downloads)
 .. |docker_bioconductor-prada| image:: https://quay.io/repository/biocontainers/bioconductor-prada/status
    :target: https://quay.io/repository/biocontainers/bioconductor-prada

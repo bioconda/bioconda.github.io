@@ -44,6 +44,7 @@ r-pcalg
 
 
 .. |downloads_r-pcalg| image:: https://img.shields.io/conda/dn/bioconda/r-pcalg.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-pcalg
    :alt:   (downloads)
 .. |docker_r-pcalg| image:: https://quay.io/repository/biocontainers/r-pcalg/status
    :target: https://quay.io/repository/biocontainers/r-pcalg

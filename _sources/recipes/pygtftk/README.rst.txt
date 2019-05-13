@@ -68,6 +68,7 @@ pygtftk
 
 
 .. |downloads_pygtftk| image:: https://img.shields.io/conda/dn/bioconda/pygtftk.svg?style=flat
+   :target: https://anaconda.org/bioconda/pygtftk
    :alt:   (downloads)
 .. |docker_pygtftk| image:: https://quay.io/repository/biocontainers/pygtftk/status
    :target: https://quay.io/repository/biocontainers/pygtftk

@@ -50,6 +50,7 @@ r-guilds
 
 
 .. |downloads_r-guilds| image:: https://img.shields.io/conda/dn/bioconda/r-guilds.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-guilds
    :alt:   (downloads)
 .. |docker_r-guilds| image:: https://quay.io/repository/biocontainers/r-guilds/status
    :target: https://quay.io/repository/biocontainers/r-guilds

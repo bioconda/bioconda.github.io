@@ -58,6 +58,7 @@ r-htssip
 
 
 .. |downloads_r-htssip| image:: https://img.shields.io/conda/dn/bioconda/r-htssip.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-htssip
    :alt:   (downloads)
 .. |docker_r-htssip| image:: https://quay.io/repository/biocontainers/r-htssip/status
    :target: https://quay.io/repository/biocontainers/r-htssip

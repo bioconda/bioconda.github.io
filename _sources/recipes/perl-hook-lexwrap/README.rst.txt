@@ -46,6 +46,7 @@ perl-hook-lexwrap
 
 
 .. |downloads_perl-hook-lexwrap| image:: https://img.shields.io/conda/dn/bioconda/perl-hook-lexwrap.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-hook-lexwrap
    :alt:   (downloads)
 .. |docker_perl-hook-lexwrap| image:: https://quay.io/repository/biocontainers/perl-hook-lexwrap/status
    :target: https://quay.io/repository/biocontainers/perl-hook-lexwrap

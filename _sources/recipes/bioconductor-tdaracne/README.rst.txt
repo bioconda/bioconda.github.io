@@ -49,6 +49,7 @@ bioconductor-tdaracne
 
 
 .. |downloads_bioconductor-tdaracne| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tdaracne.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tdaracne
    :alt:   (downloads)
 .. |docker_bioconductor-tdaracne| image:: https://quay.io/repository/biocontainers/bioconductor-tdaracne/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tdaracne

@@ -47,6 +47,7 @@ bioconductor-sbmlr
 
 
 .. |downloads_bioconductor-sbmlr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sbmlr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sbmlr
    :alt:   (downloads)
 .. |docker_bioconductor-sbmlr| image:: https://quay.io/repository/biocontainers/bioconductor-sbmlr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sbmlr

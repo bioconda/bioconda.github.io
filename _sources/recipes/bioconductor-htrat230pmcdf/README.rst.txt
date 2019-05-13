@@ -47,6 +47,7 @@ bioconductor-htrat230pmcdf
 
 
 .. |downloads_bioconductor-htrat230pmcdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-htrat230pmcdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-htrat230pmcdf
    :alt:   (downloads)
 .. |docker_bioconductor-htrat230pmcdf| image:: https://quay.io/repository/biocontainers/bioconductor-htrat230pmcdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-htrat230pmcdf

@@ -57,6 +57,7 @@ advntr
 
 
 .. |downloads_advntr| image:: https://img.shields.io/conda/dn/bioconda/advntr.svg?style=flat
+   :target: https://anaconda.org/bioconda/advntr
    :alt:   (downloads)
 .. |docker_advntr| image:: https://quay.io/repository/biocontainers/advntr/status
    :target: https://quay.io/repository/biocontainers/advntr

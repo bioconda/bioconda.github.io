@@ -49,6 +49,7 @@ bioconductor-tfarm
 
 
 .. |downloads_bioconductor-tfarm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tfarm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tfarm
    :alt:   (downloads)
 .. |docker_bioconductor-tfarm| image:: https://quay.io/repository/biocontainers/bioconductor-tfarm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tfarm

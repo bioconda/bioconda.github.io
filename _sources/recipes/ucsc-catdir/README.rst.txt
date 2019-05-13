@@ -50,6 +50,7 @@ ucsc-catdir
 
 
 .. |downloads_ucsc-catdir| image:: https://img.shields.io/conda/dn/bioconda/ucsc-catdir.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-catdir
    :alt:   (downloads)
 .. |docker_ucsc-catdir| image:: https://quay.io/repository/biocontainers/ucsc-catdir/status
    :target: https://quay.io/repository/biocontainers/ucsc-catdir

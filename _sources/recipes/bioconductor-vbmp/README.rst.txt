@@ -46,6 +46,7 @@ bioconductor-vbmp
 
 
 .. |downloads_bioconductor-vbmp| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-vbmp.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-vbmp
    :alt:   (downloads)
 .. |docker_bioconductor-vbmp| image:: https://quay.io/repository/biocontainers/bioconductor-vbmp/status
    :target: https://quay.io/repository/biocontainers/bioconductor-vbmp

@@ -50,6 +50,7 @@ bioconductor-nanostringdiff
 
 
 .. |downloads_bioconductor-nanostringdiff| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-nanostringdiff.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-nanostringdiff
    :alt:   (downloads)
 .. |docker_bioconductor-nanostringdiff| image:: https://quay.io/repository/biocontainers/bioconductor-nanostringdiff/status
    :target: https://quay.io/repository/biocontainers/bioconductor-nanostringdiff

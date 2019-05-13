@@ -63,6 +63,7 @@ bioconductor-variantannotation
 
 
 .. |downloads_bioconductor-variantannotation| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-variantannotation.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-variantannotation
    :alt:   (downloads)
 .. |docker_bioconductor-variantannotation| image:: https://quay.io/repository/biocontainers/bioconductor-variantannotation/status
    :target: https://quay.io/repository/biocontainers/bioconductor-variantannotation

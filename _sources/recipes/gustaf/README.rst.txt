@@ -44,6 +44,7 @@ gustaf
 
 
 .. |downloads_gustaf| image:: https://img.shields.io/conda/dn/bioconda/gustaf.svg?style=flat
+   :target: https://anaconda.org/bioconda/gustaf
    :alt:   (downloads)
 .. |docker_gustaf| image:: https://quay.io/repository/biocontainers/gustaf/status
    :target: https://quay.io/repository/biocontainers/gustaf

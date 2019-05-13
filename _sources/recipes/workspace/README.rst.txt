@@ -46,6 +46,7 @@ workspace
 
 
 .. |downloads_workspace| image:: https://img.shields.io/conda/dn/bioconda/workspace.svg?style=flat
+   :target: https://anaconda.org/bioconda/workspace
    :alt:   (downloads)
 .. |docker_workspace| image:: https://quay.io/repository/biocontainers/workspace/status
    :target: https://quay.io/repository/biocontainers/workspace

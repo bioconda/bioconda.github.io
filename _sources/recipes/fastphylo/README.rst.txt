@@ -48,6 +48,7 @@ fastphylo
 
 
 .. |downloads_fastphylo| image:: https://img.shields.io/conda/dn/bioconda/fastphylo.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastphylo
    :alt:   (downloads)
 .. |docker_fastphylo| image:: https://quay.io/repository/biocontainers/fastphylo/status
    :target: https://quay.io/repository/biocontainers/fastphylo

@@ -50,6 +50,7 @@ ucsc-twobittofa
 
 
 .. |downloads_ucsc-twobittofa| image:: https://img.shields.io/conda/dn/bioconda/ucsc-twobittofa.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-twobittofa
    :alt:   (downloads)
 .. |docker_ucsc-twobittofa| image:: https://quay.io/repository/biocontainers/ucsc-twobittofa/status
    :target: https://quay.io/repository/biocontainers/ucsc-twobittofa

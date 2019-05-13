@@ -57,6 +57,7 @@ bioconductor-mlseq
 
 
 .. |downloads_bioconductor-mlseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mlseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mlseq
    :alt:   (downloads)
 .. |docker_bioconductor-mlseq| image:: https://quay.io/repository/biocontainers/bioconductor-mlseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mlseq

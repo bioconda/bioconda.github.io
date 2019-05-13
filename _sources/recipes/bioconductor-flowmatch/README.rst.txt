@@ -51,6 +51,7 @@ bioconductor-flowmatch
 
 
 .. |downloads_bioconductor-flowmatch| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowmatch.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowmatch
    :alt:   (downloads)
 .. |docker_bioconductor-flowmatch| image:: https://quay.io/repository/biocontainers/bioconductor-flowmatch/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowmatch

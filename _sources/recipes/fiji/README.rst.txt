@@ -45,6 +45,7 @@ fiji
 
 
 .. |downloads_fiji| image:: https://img.shields.io/conda/dn/bioconda/fiji.svg?style=flat
+   :target: https://anaconda.org/bioconda/fiji
    :alt:   (downloads)
 .. |docker_fiji| image:: https://quay.io/repository/biocontainers/fiji/status
    :target: https://quay.io/repository/biocontainers/fiji

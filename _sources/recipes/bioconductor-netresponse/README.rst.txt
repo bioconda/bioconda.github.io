@@ -57,6 +57,7 @@ bioconductor-netresponse
 
 
 .. |downloads_bioconductor-netresponse| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-netresponse.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-netresponse
    :alt:   (downloads)
 .. |docker_bioconductor-netresponse| image:: https://quay.io/repository/biocontainers/bioconductor-netresponse/status
    :target: https://quay.io/repository/biocontainers/bioconductor-netresponse

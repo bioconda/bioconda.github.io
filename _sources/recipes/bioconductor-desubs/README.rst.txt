@@ -60,6 +60,7 @@ bioconductor-desubs
 
 
 .. |downloads_bioconductor-desubs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-desubs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-desubs
    :alt:   (downloads)
 .. |docker_bioconductor-desubs| image:: https://quay.io/repository/biocontainers/bioconductor-desubs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-desubs

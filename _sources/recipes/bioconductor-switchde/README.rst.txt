@@ -50,6 +50,7 @@ bioconductor-switchde
 
 
 .. |downloads_bioconductor-switchde| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-switchde.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-switchde
    :alt:   (downloads)
 .. |docker_bioconductor-switchde| image:: https://quay.io/repository/biocontainers/bioconductor-switchde/status
    :target: https://quay.io/repository/biocontainers/bioconductor-switchde

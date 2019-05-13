@@ -45,6 +45,7 @@ p7zip
 
 
 .. |downloads_p7zip| image:: https://img.shields.io/conda/dn/bioconda/p7zip.svg?style=flat
+   :target: https://anaconda.org/bioconda/p7zip
    :alt:   (downloads)
 .. |docker_p7zip| image:: https://quay.io/repository/biocontainers/p7zip/status
    :target: https://quay.io/repository/biocontainers/p7zip

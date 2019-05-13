@@ -51,6 +51,7 @@ bioconductor-epivizr
 
 
 .. |downloads_bioconductor-epivizr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-epivizr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-epivizr
    :alt:   (downloads)
 .. |docker_bioconductor-epivizr| image:: https://quay.io/repository/biocontainers/bioconductor-epivizr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-epivizr

@@ -57,6 +57,7 @@ bioconductor-organismdbi
 
 
 .. |downloads_bioconductor-organismdbi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-organismdbi.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-organismdbi
    :alt:   (downloads)
 .. |docker_bioconductor-organismdbi| image:: https://quay.io/repository/biocontainers/bioconductor-organismdbi/status
    :target: https://quay.io/repository/biocontainers/bioconductor-organismdbi

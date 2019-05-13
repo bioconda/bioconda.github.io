@@ -45,6 +45,7 @@ perl-algorithm-munkres
 
 
 .. |downloads_perl-algorithm-munkres| image:: https://img.shields.io/conda/dn/bioconda/perl-algorithm-munkres.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-algorithm-munkres
    :alt:   (downloads)
 .. |docker_perl-algorithm-munkres| image:: https://quay.io/repository/biocontainers/perl-algorithm-munkres/status
    :target: https://quay.io/repository/biocontainers/perl-algorithm-munkres

@@ -46,6 +46,7 @@ krona
 
 
 .. |downloads_krona| image:: https://img.shields.io/conda/dn/bioconda/krona.svg?style=flat
+   :target: https://anaconda.org/bioconda/krona
    :alt:   (downloads)
 .. |docker_krona| image:: https://quay.io/repository/biocontainers/krona/status
    :target: https://quay.io/repository/biocontainers/krona

@@ -51,6 +51,7 @@ bioconductor-aucell
 
 
 .. |downloads_bioconductor-aucell| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-aucell.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-aucell
    :alt:   (downloads)
 .. |docker_bioconductor-aucell| image:: https://quay.io/repository/biocontainers/bioconductor-aucell/status
    :target: https://quay.io/repository/biocontainers/bioconductor-aucell

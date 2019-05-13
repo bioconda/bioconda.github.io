@@ -47,6 +47,7 @@ optbuild
 
 
 .. |downloads_optbuild| image:: https://img.shields.io/conda/dn/bioconda/optbuild.svg?style=flat
+   :target: https://anaconda.org/bioconda/optbuild
    :alt:   (downloads)
 .. |docker_optbuild| image:: https://quay.io/repository/biocontainers/optbuild/status
    :target: https://quay.io/repository/biocontainers/optbuild

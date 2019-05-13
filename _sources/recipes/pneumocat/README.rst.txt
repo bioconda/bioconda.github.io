@@ -52,6 +52,7 @@ pneumocat
 
 
 .. |downloads_pneumocat| image:: https://img.shields.io/conda/dn/bioconda/pneumocat.svg?style=flat
+   :target: https://anaconda.org/bioconda/pneumocat
    :alt:   (downloads)
 .. |docker_pneumocat| image:: https://quay.io/repository/biocontainers/pneumocat/status
    :target: https://quay.io/repository/biocontainers/pneumocat

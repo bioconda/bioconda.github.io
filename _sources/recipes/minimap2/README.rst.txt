@@ -46,6 +46,7 @@ minimap2
 
 
 .. |downloads_minimap2| image:: https://img.shields.io/conda/dn/bioconda/minimap2.svg?style=flat
+   :target: https://anaconda.org/bioconda/minimap2
    :alt:   (downloads)
 .. |docker_minimap2| image:: https://quay.io/repository/biocontainers/minimap2/status
    :target: https://quay.io/repository/biocontainers/minimap2

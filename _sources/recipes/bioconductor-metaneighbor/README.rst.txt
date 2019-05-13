@@ -49,6 +49,7 @@ bioconductor-metaneighbor
 
 
 .. |downloads_bioconductor-metaneighbor| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metaneighbor.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-metaneighbor
    :alt:   (downloads)
 .. |docker_bioconductor-metaneighbor| image:: https://quay.io/repository/biocontainers/bioconductor-metaneighbor/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metaneighbor

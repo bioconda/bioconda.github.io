@@ -46,6 +46,7 @@ bioconductor-hgu133afrmavecs
 
 
 .. |downloads_bioconductor-hgu133afrmavecs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgu133afrmavecs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hgu133afrmavecs
    :alt:   (downloads)
 .. |docker_bioconductor-hgu133afrmavecs| image:: https://quay.io/repository/biocontainers/bioconductor-hgu133afrmavecs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hgu133afrmavecs

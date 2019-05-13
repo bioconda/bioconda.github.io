@@ -47,6 +47,7 @@ dwgsim
 
 
 .. |downloads_dwgsim| image:: https://img.shields.io/conda/dn/bioconda/dwgsim.svg?style=flat
+   :target: https://anaconda.org/bioconda/dwgsim
    :alt:   (downloads)
 .. |docker_dwgsim| image:: https://quay.io/repository/biocontainers/dwgsim/status
    :target: https://quay.io/repository/biocontainers/dwgsim

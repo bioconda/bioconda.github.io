@@ -51,6 +51,7 @@ bioconductor-eximir
 
 
 .. |downloads_bioconductor-eximir| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-eximir.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-eximir
    :alt:   (downloads)
 .. |docker_bioconductor-eximir| image:: https://quay.io/repository/biocontainers/bioconductor-eximir/status
    :target: https://quay.io/repository/biocontainers/bioconductor-eximir

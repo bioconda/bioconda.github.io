@@ -49,6 +49,7 @@ genenotebook
 
 
 .. |downloads_genenotebook| image:: https://img.shields.io/conda/dn/bioconda/genenotebook.svg?style=flat
+   :target: https://anaconda.org/bioconda/genenotebook
    :alt:   (downloads)
 .. |docker_genenotebook| image:: https://quay.io/repository/biocontainers/genenotebook/status
    :target: https://quay.io/repository/biocontainers/genenotebook

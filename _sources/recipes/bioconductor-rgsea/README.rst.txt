@@ -47,6 +47,7 @@ bioconductor-rgsea
 
 
 .. |downloads_bioconductor-rgsea| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rgsea.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rgsea
    :alt:   (downloads)
 .. |docker_bioconductor-rgsea| image:: https://quay.io/repository/biocontainers/bioconductor-rgsea/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rgsea

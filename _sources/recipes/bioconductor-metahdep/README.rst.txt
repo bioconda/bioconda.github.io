@@ -46,6 +46,7 @@ bioconductor-metahdep
 
 
 .. |downloads_bioconductor-metahdep| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metahdep.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-metahdep
    :alt:   (downloads)
 .. |docker_bioconductor-metahdep| image:: https://quay.io/repository/biocontainers/bioconductor-metahdep/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metahdep

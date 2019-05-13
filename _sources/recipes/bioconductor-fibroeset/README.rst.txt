@@ -47,6 +47,7 @@ bioconductor-fibroeset
 
 
 .. |downloads_bioconductor-fibroeset| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fibroeset.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-fibroeset
    :alt:   (downloads)
 .. |docker_bioconductor-fibroeset| image:: https://quay.io/repository/biocontainers/bioconductor-fibroeset/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fibroeset

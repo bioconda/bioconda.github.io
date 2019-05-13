@@ -45,6 +45,7 @@ libdivsufsort
 
 
 .. |downloads_libdivsufsort| image:: https://img.shields.io/conda/dn/bioconda/libdivsufsort.svg?style=flat
+   :target: https://anaconda.org/bioconda/libdivsufsort
    :alt:   (downloads)
 .. |docker_libdivsufsort| image:: https://quay.io/repository/biocontainers/libdivsufsort/status
    :target: https://quay.io/repository/biocontainers/libdivsufsort

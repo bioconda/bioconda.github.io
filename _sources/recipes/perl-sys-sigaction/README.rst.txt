@@ -45,6 +45,7 @@ perl-sys-sigaction
 
 
 .. |downloads_perl-sys-sigaction| image:: https://img.shields.io/conda/dn/bioconda/perl-sys-sigaction.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-sys-sigaction
    :alt:   (downloads)
 .. |docker_perl-sys-sigaction| image:: https://quay.io/repository/biocontainers/perl-sys-sigaction/status
    :target: https://quay.io/repository/biocontainers/perl-sys-sigaction

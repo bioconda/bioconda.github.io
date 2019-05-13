@@ -53,6 +53,7 @@ bioconductor-pd.hta.2.0
 
 
 .. |downloads_bioconductor-pd.hta.2.0| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.hta.2.0.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.hta.2.0
    :alt:   (downloads)
 .. |docker_bioconductor-pd.hta.2.0| image:: https://quay.io/repository/biocontainers/bioconductor-pd.hta.2.0/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.hta.2.0

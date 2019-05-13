@@ -48,6 +48,7 @@ probcons
 
 
 .. |downloads_probcons| image:: https://img.shields.io/conda/dn/bioconda/probcons.svg?style=flat
+   :target: https://anaconda.org/bioconda/probcons
    :alt:   (downloads)
 .. |docker_probcons| image:: https://quay.io/repository/biocontainers/probcons/status
    :target: https://quay.io/repository/biocontainers/probcons

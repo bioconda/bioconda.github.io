@@ -52,6 +52,7 @@ bioconductor-psicquic
 
 
 .. |downloads_bioconductor-psicquic| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-psicquic.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-psicquic
    :alt:   (downloads)
 .. |docker_bioconductor-psicquic| image:: https://quay.io/repository/biocontainers/bioconductor-psicquic/status
    :target: https://quay.io/repository/biocontainers/bioconductor-psicquic

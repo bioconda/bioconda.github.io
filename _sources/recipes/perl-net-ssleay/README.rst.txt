@@ -49,6 +49,7 @@ perl-net-ssleay
 
 
 .. |downloads_perl-net-ssleay| image:: https://img.shields.io/conda/dn/bioconda/perl-net-ssleay.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-net-ssleay
    :alt:   (downloads)
 .. |docker_perl-net-ssleay| image:: https://quay.io/repository/biocontainers/perl-net-ssleay/status
    :target: https://quay.io/repository/biocontainers/perl-net-ssleay

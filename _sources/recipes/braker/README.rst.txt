@@ -48,6 +48,7 @@ braker
 
 
 .. |downloads_braker| image:: https://img.shields.io/conda/dn/bioconda/braker.svg?style=flat
+   :target: https://anaconda.org/bioconda/braker
    :alt:   (downloads)
 .. |docker_braker| image:: https://quay.io/repository/biocontainers/braker/status
    :target: https://quay.io/repository/biocontainers/braker

@@ -79,6 +79,7 @@ gimmemotifs
 
 
 .. |downloads_gimmemotifs| image:: https://img.shields.io/conda/dn/bioconda/gimmemotifs.svg?style=flat
+   :target: https://anaconda.org/bioconda/gimmemotifs
    :alt:   (downloads)
 .. |docker_gimmemotifs| image:: https://quay.io/repository/biocontainers/gimmemotifs/status
    :target: https://quay.io/repository/biocontainers/gimmemotifs

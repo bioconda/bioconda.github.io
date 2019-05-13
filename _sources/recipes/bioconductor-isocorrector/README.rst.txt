@@ -54,6 +54,7 @@ bioconductor-isocorrector
 
 
 .. |downloads_bioconductor-isocorrector| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-isocorrector.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-isocorrector
    :alt:   (downloads)
 .. |docker_bioconductor-isocorrector| image:: https://quay.io/repository/biocontainers/bioconductor-isocorrector/status
    :target: https://quay.io/repository/biocontainers/bioconductor-isocorrector

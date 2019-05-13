@@ -59,6 +59,7 @@ bioconductor-egad
 
 
 .. |downloads_bioconductor-egad| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-egad.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-egad
    :alt:   (downloads)
 .. |docker_bioconductor-egad| image:: https://quay.io/repository/biocontainers/bioconductor-egad/status
    :target: https://quay.io/repository/biocontainers/bioconductor-egad

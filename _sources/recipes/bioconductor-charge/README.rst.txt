@@ -55,6 +55,7 @@ bioconductor-charge
 
 
 .. |downloads_bioconductor-charge| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-charge.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-charge
    :alt:   (downloads)
 .. |docker_bioconductor-charge| image:: https://quay.io/repository/biocontainers/bioconductor-charge/status
    :target: https://quay.io/repository/biocontainers/bioconductor-charge

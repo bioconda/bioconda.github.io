@@ -49,6 +49,7 @@ musicc
 
 
 .. |downloads_musicc| image:: https://img.shields.io/conda/dn/bioconda/musicc.svg?style=flat
+   :target: https://anaconda.org/bioconda/musicc
    :alt:   (downloads)
 .. |docker_musicc| image:: https://quay.io/repository/biocontainers/musicc/status
    :target: https://quay.io/repository/biocontainers/musicc

@@ -46,6 +46,7 @@ biothings_client
 
 
 .. |downloads_biothings_client| image:: https://img.shields.io/conda/dn/bioconda/biothings_client.svg?style=flat
+   :target: https://anaconda.org/bioconda/biothings_client
    :alt:   (downloads)
 .. |docker_biothings_client| image:: https://quay.io/repository/biocontainers/biothings_client/status
    :target: https://quay.io/repository/biocontainers/biothings_client

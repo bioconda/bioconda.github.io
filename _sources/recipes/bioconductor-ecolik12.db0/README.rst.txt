@@ -47,6 +47,7 @@ bioconductor-ecolik12.db0
 
 
 .. |downloads_bioconductor-ecolik12.db0| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ecolik12.db0.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ecolik12.db0
    :alt:   (downloads)
 .. |docker_bioconductor-ecolik12.db0| image:: https://quay.io/repository/biocontainers/bioconductor-ecolik12.db0/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ecolik12.db0

@@ -57,6 +57,7 @@ rnaquast
 
 
 .. |downloads_rnaquast| image:: https://img.shields.io/conda/dn/bioconda/rnaquast.svg?style=flat
+   :target: https://anaconda.org/bioconda/rnaquast
    :alt:   (downloads)
 .. |docker_rnaquast| image:: https://quay.io/repository/biocontainers/rnaquast/status
    :target: https://quay.io/repository/biocontainers/rnaquast

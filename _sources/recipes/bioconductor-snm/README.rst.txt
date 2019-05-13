@@ -48,6 +48,7 @@ bioconductor-snm
 
 
 .. |downloads_bioconductor-snm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-snm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-snm
    :alt:   (downloads)
 .. |docker_bioconductor-snm| image:: https://quay.io/repository/biocontainers/bioconductor-snm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-snm

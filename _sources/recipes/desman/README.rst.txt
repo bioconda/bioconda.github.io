@@ -60,6 +60,7 @@ desman
 
 
 .. |downloads_desman| image:: https://img.shields.io/conda/dn/bioconda/desman.svg?style=flat
+   :target: https://anaconda.org/bioconda/desman
    :alt:   (downloads)
 .. |docker_desman| image:: https://quay.io/repository/biocontainers/desman/status
    :target: https://quay.io/repository/biocontainers/desman

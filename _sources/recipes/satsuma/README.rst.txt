@@ -46,6 +46,7 @@ satsuma2
 
 
 .. |downloads_satsuma2| image:: https://img.shields.io/conda/dn/bioconda/satsuma2.svg?style=flat
+   :target: https://anaconda.org/bioconda/satsuma2
    :alt:   (downloads)
 .. |docker_satsuma2| image:: https://quay.io/repository/biocontainers/satsuma2/status
    :target: https://quay.io/repository/biocontainers/satsuma2

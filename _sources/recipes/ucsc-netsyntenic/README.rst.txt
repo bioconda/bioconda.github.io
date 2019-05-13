@@ -50,6 +50,7 @@ ucsc-netsyntenic
 
 
 .. |downloads_ucsc-netsyntenic| image:: https://img.shields.io/conda/dn/bioconda/ucsc-netsyntenic.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-netsyntenic
    :alt:   (downloads)
 .. |docker_ucsc-netsyntenic| image:: https://quay.io/repository/biocontainers/ucsc-netsyntenic/status
    :target: https://quay.io/repository/biocontainers/ucsc-netsyntenic

@@ -51,6 +51,7 @@ bioconductor-raggedexperiment
 
 
 .. |downloads_bioconductor-raggedexperiment| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-raggedexperiment.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-raggedexperiment
    :alt:   (downloads)
 .. |docker_bioconductor-raggedexperiment| image:: https://quay.io/repository/biocontainers/bioconductor-raggedexperiment/status
    :target: https://quay.io/repository/biocontainers/bioconductor-raggedexperiment

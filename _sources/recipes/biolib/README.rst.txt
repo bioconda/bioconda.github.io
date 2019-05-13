@@ -46,6 +46,7 @@ biolib
 
 
 .. |downloads_biolib| image:: https://img.shields.io/conda/dn/bioconda/biolib.svg?style=flat
+   :target: https://anaconda.org/bioconda/biolib
    :alt:   (downloads)
 .. |docker_biolib| image:: https://quay.io/repository/biocontainers/biolib/status
    :target: https://quay.io/repository/biocontainers/biolib

@@ -46,6 +46,7 @@ idba
 
 
 .. |downloads_idba| image:: https://img.shields.io/conda/dn/bioconda/idba.svg?style=flat
+   :target: https://anaconda.org/bioconda/idba
    :alt:   (downloads)
 .. |docker_idba| image:: https://quay.io/repository/biocontainers/idba/status
    :target: https://quay.io/repository/biocontainers/idba

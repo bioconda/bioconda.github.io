@@ -55,6 +55,7 @@ mykrobe
 
 
 .. |downloads_mykrobe| image:: https://img.shields.io/conda/dn/bioconda/mykrobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/mykrobe
    :alt:   (downloads)
 .. |docker_mykrobe| image:: https://quay.io/repository/biocontainers/mykrobe/status
    :target: https://quay.io/repository/biocontainers/mykrobe

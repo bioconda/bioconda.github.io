@@ -53,6 +53,7 @@ bcbio_monitor
 
 
 .. |downloads_bcbio_monitor| image:: https://img.shields.io/conda/dn/bioconda/bcbio_monitor.svg?style=flat
+   :target: https://anaconda.org/bioconda/bcbio_monitor
    :alt:   (downloads)
 .. |docker_bcbio_monitor| image:: https://quay.io/repository/biocontainers/bcbio_monitor/status
    :target: https://quay.io/repository/biocontainers/bcbio_monitor

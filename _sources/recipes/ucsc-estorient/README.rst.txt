@@ -50,6 +50,7 @@ ucsc-estorient
 
 
 .. |downloads_ucsc-estorient| image:: https://img.shields.io/conda/dn/bioconda/ucsc-estorient.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-estorient
    :alt:   (downloads)
 .. |docker_ucsc-estorient| image:: https://quay.io/repository/biocontainers/ucsc-estorient/status
    :target: https://quay.io/repository/biocontainers/ucsc-estorient

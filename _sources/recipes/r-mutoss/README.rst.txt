@@ -49,6 +49,7 @@ r-mutoss
 
 
 .. |downloads_r-mutoss| image:: https://img.shields.io/conda/dn/bioconda/r-mutoss.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-mutoss
    :alt:   (downloads)
 .. |docker_r-mutoss| image:: https://quay.io/repository/biocontainers/r-mutoss/status
    :target: https://quay.io/repository/biocontainers/r-mutoss

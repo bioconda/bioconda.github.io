@@ -49,6 +49,7 @@ bioconductor-minfidata
 
 
 .. |downloads_bioconductor-minfidata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-minfidata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-minfidata
    :alt:   (downloads)
 .. |docker_bioconductor-minfidata| image:: https://quay.io/repository/biocontainers/bioconductor-minfidata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-minfidata

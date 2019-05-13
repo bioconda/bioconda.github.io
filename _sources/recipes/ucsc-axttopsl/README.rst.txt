@@ -50,6 +50,7 @@ ucsc-axttopsl
 
 
 .. |downloads_ucsc-axttopsl| image:: https://img.shields.io/conda/dn/bioconda/ucsc-axttopsl.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-axttopsl
    :alt:   (downloads)
 .. |docker_ucsc-axttopsl| image:: https://quay.io/repository/biocontainers/ucsc-axttopsl/status
    :target: https://quay.io/repository/biocontainers/ucsc-axttopsl

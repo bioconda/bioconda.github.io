@@ -56,6 +56,7 @@ bioconductor-qrqc
 
 
 .. |downloads_bioconductor-qrqc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-qrqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-qrqc
    :alt:   (downloads)
 .. |docker_bioconductor-qrqc| image:: https://quay.io/repository/biocontainers/bioconductor-qrqc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-qrqc

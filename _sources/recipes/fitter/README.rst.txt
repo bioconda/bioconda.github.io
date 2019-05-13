@@ -49,6 +49,7 @@ fitter
 
 
 .. |downloads_fitter| image:: https://img.shields.io/conda/dn/bioconda/fitter.svg?style=flat
+   :target: https://anaconda.org/bioconda/fitter
    :alt:   (downloads)
 .. |docker_fitter| image:: https://quay.io/repository/biocontainers/fitter/status
    :target: https://quay.io/repository/biocontainers/fitter

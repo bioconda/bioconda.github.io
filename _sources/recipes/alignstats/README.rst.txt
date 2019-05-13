@@ -46,6 +46,7 @@ alignstats
 
 
 .. |downloads_alignstats| image:: https://img.shields.io/conda/dn/bioconda/alignstats.svg?style=flat
+   :target: https://anaconda.org/bioconda/alignstats
    :alt:   (downloads)
 .. |docker_alignstats| image:: https://quay.io/repository/biocontainers/alignstats/status
    :target: https://quay.io/repository/biocontainers/alignstats

@@ -46,6 +46,7 @@ bmtool
 
 
 .. |downloads_bmtool| image:: https://img.shields.io/conda/dn/bioconda/bmtool.svg?style=flat
+   :target: https://anaconda.org/bioconda/bmtool
    :alt:   (downloads)
 .. |docker_bmtool| image:: https://quay.io/repository/biocontainers/bmtool/status
    :target: https://quay.io/repository/biocontainers/bmtool

@@ -53,6 +53,7 @@ bioconductor-pd.rhesus
 
 
 .. |downloads_bioconductor-pd.rhesus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.rhesus.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.rhesus
    :alt:   (downloads)
 .. |docker_bioconductor-pd.rhesus| image:: https://quay.io/repository/biocontainers/bioconductor-pd.rhesus/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.rhesus

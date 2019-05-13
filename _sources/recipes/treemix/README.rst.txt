@@ -51,6 +51,7 @@ treemix
 
 
 .. |downloads_treemix| image:: https://img.shields.io/conda/dn/bioconda/treemix.svg?style=flat
+   :target: https://anaconda.org/bioconda/treemix
    :alt:   (downloads)
 .. |docker_treemix| image:: https://quay.io/repository/biocontainers/treemix/status
    :target: https://quay.io/repository/biocontainers/treemix

@@ -57,6 +57,7 @@ pipits
 
 
 .. |downloads_pipits| image:: https://img.shields.io/conda/dn/bioconda/pipits.svg?style=flat
+   :target: https://anaconda.org/bioconda/pipits
    :alt:   (downloads)
 .. |docker_pipits| image:: https://quay.io/repository/biocontainers/pipits/status
    :target: https://quay.io/repository/biocontainers/pipits

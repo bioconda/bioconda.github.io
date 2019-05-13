@@ -47,6 +47,7 @@ illumina-interop
 
 
 .. |downloads_illumina-interop| image:: https://img.shields.io/conda/dn/bioconda/illumina-interop.svg?style=flat
+   :target: https://anaconda.org/bioconda/illumina-interop
    :alt:   (downloads)
 .. |docker_illumina-interop| image:: https://quay.io/repository/biocontainers/illumina-interop/status
    :target: https://quay.io/repository/biocontainers/illumina-interop

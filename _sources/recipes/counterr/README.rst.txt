@@ -50,6 +50,7 @@ counterr
 
 
 .. |downloads_counterr| image:: https://img.shields.io/conda/dn/bioconda/counterr.svg?style=flat
+   :target: https://anaconda.org/bioconda/counterr
    :alt:   (downloads)
 .. |docker_counterr| image:: https://quay.io/repository/biocontainers/counterr/status
    :target: https://quay.io/repository/biocontainers/counterr

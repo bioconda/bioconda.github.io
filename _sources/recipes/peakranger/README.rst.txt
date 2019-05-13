@@ -49,6 +49,7 @@ peakranger
 
 
 .. |downloads_peakranger| image:: https://img.shields.io/conda/dn/bioconda/peakranger.svg?style=flat
+   :target: https://anaconda.org/bioconda/peakranger
    :alt:   (downloads)
 .. |docker_peakranger| image:: https://quay.io/repository/biocontainers/peakranger/status
    :target: https://quay.io/repository/biocontainers/peakranger

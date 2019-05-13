@@ -45,6 +45,7 @@ vcftoolbox
 
 
 .. |downloads_vcftoolbox| image:: https://img.shields.io/conda/dn/bioconda/vcftoolbox.svg?style=flat
+   :target: https://anaconda.org/bioconda/vcftoolbox
    :alt:   (downloads)
 .. |docker_vcftoolbox| image:: https://quay.io/repository/biocontainers/vcftoolbox/status
    :target: https://quay.io/repository/biocontainers/vcftoolbox

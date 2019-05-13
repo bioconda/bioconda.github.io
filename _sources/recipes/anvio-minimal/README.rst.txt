@@ -70,6 +70,7 @@ anvio-minimal
 
 
 .. |downloads_anvio-minimal| image:: https://img.shields.io/conda/dn/bioconda/anvio-minimal.svg?style=flat
+   :target: https://anaconda.org/bioconda/anvio-minimal
    :alt:   (downloads)
 .. |docker_anvio-minimal| image:: https://quay.io/repository/biocontainers/anvio-minimal/status
    :target: https://quay.io/repository/biocontainers/anvio-minimal

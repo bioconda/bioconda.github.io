@@ -45,6 +45,7 @@ perl-test-cpan-meta
 
 
 .. |downloads_perl-test-cpan-meta| image:: https://img.shields.io/conda/dn/bioconda/perl-test-cpan-meta.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-cpan-meta
    :alt:   (downloads)
 .. |docker_perl-test-cpan-meta| image:: https://quay.io/repository/biocontainers/perl-test-cpan-meta/status
    :target: https://quay.io/repository/biocontainers/perl-test-cpan-meta

@@ -46,6 +46,7 @@ optplus
 
 
 .. |downloads_optplus| image:: https://img.shields.io/conda/dn/bioconda/optplus.svg?style=flat
+   :target: https://anaconda.org/bioconda/optplus
    :alt:   (downloads)
 .. |docker_optplus| image:: https://quay.io/repository/biocontainers/optplus/status
    :target: https://quay.io/repository/biocontainers/optplus

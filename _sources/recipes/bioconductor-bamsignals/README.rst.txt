@@ -54,6 +54,7 @@ bioconductor-bamsignals
 
 
 .. |downloads_bioconductor-bamsignals| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bamsignals.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bamsignals
    :alt:   (downloads)
 .. |docker_bioconductor-bamsignals| image:: https://quay.io/repository/biocontainers/bioconductor-bamsignals/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bamsignals

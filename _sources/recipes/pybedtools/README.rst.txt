@@ -53,6 +53,7 @@ pybedtools
 
 
 .. |downloads_pybedtools| image:: https://img.shields.io/conda/dn/bioconda/pybedtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/pybedtools
    :alt:   (downloads)
 .. |docker_pybedtools| image:: https://quay.io/repository/biocontainers/pybedtools/status
    :target: https://quay.io/repository/biocontainers/pybedtools

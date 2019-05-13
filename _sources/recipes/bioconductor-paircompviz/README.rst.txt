@@ -47,6 +47,7 @@ bioconductor-paircompviz
 
 
 .. |downloads_bioconductor-paircompviz| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-paircompviz.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-paircompviz
    :alt:   (downloads)
 .. |docker_bioconductor-paircompviz| image:: https://quay.io/repository/biocontainers/bioconductor-paircompviz/status
    :target: https://quay.io/repository/biocontainers/bioconductor-paircompviz

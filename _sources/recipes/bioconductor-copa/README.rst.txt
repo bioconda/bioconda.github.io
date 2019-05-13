@@ -47,6 +47,7 @@ bioconductor-copa
 
 
 .. |downloads_bioconductor-copa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-copa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-copa
    :alt:   (downloads)
 .. |docker_bioconductor-copa| image:: https://quay.io/repository/biocontainers/bioconductor-copa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-copa

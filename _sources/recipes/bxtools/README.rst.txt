@@ -49,6 +49,7 @@ bxtools
 
 
 .. |downloads_bxtools| image:: https://img.shields.io/conda/dn/bioconda/bxtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bxtools
    :alt:   (downloads)
 .. |docker_bxtools| image:: https://quay.io/repository/biocontainers/bxtools/status
    :target: https://quay.io/repository/biocontainers/bxtools

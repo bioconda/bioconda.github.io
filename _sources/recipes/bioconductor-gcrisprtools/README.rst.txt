@@ -52,6 +52,7 @@ bioconductor-gcrisprtools
 
 
 .. |downloads_bioconductor-gcrisprtools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gcrisprtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gcrisprtools
    :alt:   (downloads)
 .. |docker_bioconductor-gcrisprtools| image:: https://quay.io/repository/biocontainers/bioconductor-gcrisprtools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gcrisprtools

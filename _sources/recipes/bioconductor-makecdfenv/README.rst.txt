@@ -51,6 +51,7 @@ bioconductor-makecdfenv
 
 
 .. |downloads_bioconductor-makecdfenv| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-makecdfenv.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-makecdfenv
    :alt:   (downloads)
 .. |docker_bioconductor-makecdfenv| image:: https://quay.io/repository/biocontainers/bioconductor-makecdfenv/status
    :target: https://quay.io/repository/biocontainers/bioconductor-makecdfenv

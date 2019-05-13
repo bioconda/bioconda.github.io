@@ -46,6 +46,7 @@ circularmapper
 
 
 .. |downloads_circularmapper| image:: https://img.shields.io/conda/dn/bioconda/circularmapper.svg?style=flat
+   :target: https://anaconda.org/bioconda/circularmapper
    :alt:   (downloads)
 .. |docker_circularmapper| image:: https://quay.io/repository/biocontainers/circularmapper/status
    :target: https://quay.io/repository/biocontainers/circularmapper

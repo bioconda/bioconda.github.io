@@ -48,6 +48,7 @@ yanagiba
 
 
 .. |downloads_yanagiba| image:: https://img.shields.io/conda/dn/bioconda/yanagiba.svg?style=flat
+   :target: https://anaconda.org/bioconda/yanagiba
    :alt:   (downloads)
 .. |docker_yanagiba| image:: https://quay.io/repository/biocontainers/yanagiba/status
    :target: https://quay.io/repository/biocontainers/yanagiba

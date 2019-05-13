@@ -60,6 +60,7 @@ bioconductor-methylpipe
 
 
 .. |downloads_bioconductor-methylpipe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methylpipe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-methylpipe
    :alt:   (downloads)
 .. |docker_bioconductor-methylpipe| image:: https://quay.io/repository/biocontainers/bioconductor-methylpipe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-methylpipe

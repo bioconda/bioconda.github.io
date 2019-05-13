@@ -47,6 +47,7 @@ bioconductor-hgu95aprobe
 
 
 .. |downloads_bioconductor-hgu95aprobe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hgu95aprobe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-hgu95aprobe
    :alt:   (downloads)
 .. |docker_bioconductor-hgu95aprobe| image:: https://quay.io/repository/biocontainers/bioconductor-hgu95aprobe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-hgu95aprobe

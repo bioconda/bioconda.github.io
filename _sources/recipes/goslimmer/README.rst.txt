@@ -46,6 +46,7 @@ goslimmer
 
 
 .. |downloads_goslimmer| image:: https://img.shields.io/conda/dn/bioconda/goslimmer.svg?style=flat
+   :target: https://anaconda.org/bioconda/goslimmer
    :alt:   (downloads)
 .. |docker_goslimmer| image:: https://quay.io/repository/biocontainers/goslimmer/status
    :target: https://quay.io/repository/biocontainers/goslimmer

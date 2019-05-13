@@ -61,6 +61,7 @@ bioconductor-oncosimulr
 
 
 .. |downloads_bioconductor-oncosimulr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-oncosimulr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-oncosimulr
    :alt:   (downloads)
 .. |docker_bioconductor-oncosimulr| image:: https://quay.io/repository/biocontainers/bioconductor-oncosimulr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-oncosimulr

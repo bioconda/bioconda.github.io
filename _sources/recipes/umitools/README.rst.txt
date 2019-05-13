@@ -49,6 +49,7 @@ umitools
 
 
 .. |downloads_umitools| image:: https://img.shields.io/conda/dn/bioconda/umitools.svg?style=flat
+   :target: https://anaconda.org/bioconda/umitools
    :alt:   (downloads)
 .. |docker_umitools| image:: https://quay.io/repository/biocontainers/umitools/status
    :target: https://quay.io/repository/biocontainers/umitools

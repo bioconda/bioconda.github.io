@@ -45,6 +45,7 @@ perl-scalar-util-numeric
 
 
 .. |downloads_perl-scalar-util-numeric| image:: https://img.shields.io/conda/dn/bioconda/perl-scalar-util-numeric.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-scalar-util-numeric
    :alt:   (downloads)
 .. |docker_perl-scalar-util-numeric| image:: https://quay.io/repository/biocontainers/perl-scalar-util-numeric/status
    :target: https://quay.io/repository/biocontainers/perl-scalar-util-numeric

@@ -45,6 +45,7 @@ perl-socket
 
 
 .. |downloads_perl-socket| image:: https://img.shields.io/conda/dn/bioconda/perl-socket.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-socket
    :alt:   (downloads)
 .. |docker_perl-socket| image:: https://quay.io/repository/biocontainers/perl-socket/status
    :target: https://quay.io/repository/biocontainers/perl-socket

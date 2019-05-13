@@ -50,6 +50,7 @@ ucsc-dbsnoop
 
 
 .. |downloads_ucsc-dbsnoop| image:: https://img.shields.io/conda/dn/bioconda/ucsc-dbsnoop.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-dbsnoop
    :alt:   (downloads)
 .. |docker_ucsc-dbsnoop| image:: https://quay.io/repository/biocontainers/ucsc-dbsnoop/status
    :target: https://quay.io/repository/biocontainers/ucsc-dbsnoop

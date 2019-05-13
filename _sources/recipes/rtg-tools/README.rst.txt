@@ -48,6 +48,7 @@ rtg-tools
 
 
 .. |downloads_rtg-tools| image:: https://img.shields.io/conda/dn/bioconda/rtg-tools.svg?style=flat
+   :target: https://anaconda.org/bioconda/rtg-tools
    :alt:   (downloads)
 .. |docker_rtg-tools| image:: https://quay.io/repository/biocontainers/rtg-tools/status
    :target: https://quay.io/repository/biocontainers/rtg-tools

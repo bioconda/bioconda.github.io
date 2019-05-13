@@ -47,6 +47,7 @@ bioconductor-deqms
 
 
 .. |downloads_bioconductor-deqms| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-deqms.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-deqms
    :alt:   (downloads)
 .. |docker_bioconductor-deqms| image:: https://quay.io/repository/biocontainers/bioconductor-deqms/status
    :target: https://quay.io/repository/biocontainers/bioconductor-deqms

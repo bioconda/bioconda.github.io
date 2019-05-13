@@ -55,6 +55,7 @@ bioconductor-bdmmacorrect
 
 
 .. |downloads_bioconductor-bdmmacorrect| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bdmmacorrect.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bdmmacorrect
    :alt:   (downloads)
 .. |docker_bioconductor-bdmmacorrect| image:: https://quay.io/repository/biocontainers/bioconductor-bdmmacorrect/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bdmmacorrect

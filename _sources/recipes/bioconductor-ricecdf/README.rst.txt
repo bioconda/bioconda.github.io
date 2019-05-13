@@ -47,6 +47,7 @@ bioconductor-ricecdf
 
 
 .. |downloads_bioconductor-ricecdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ricecdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ricecdf
    :alt:   (downloads)
 .. |docker_bioconductor-ricecdf| image:: https://quay.io/repository/biocontainers/bioconductor-ricecdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ricecdf

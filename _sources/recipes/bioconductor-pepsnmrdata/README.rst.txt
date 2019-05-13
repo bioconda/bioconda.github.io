@@ -46,6 +46,7 @@ bioconductor-pepsnmrdata
 
 
 .. |downloads_bioconductor-pepsnmrdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pepsnmrdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pepsnmrdata
    :alt:   (downloads)
 .. |docker_bioconductor-pepsnmrdata| image:: https://quay.io/repository/biocontainers/bioconductor-pepsnmrdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pepsnmrdata

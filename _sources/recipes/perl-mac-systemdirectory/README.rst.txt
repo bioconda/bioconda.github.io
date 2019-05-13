@@ -47,6 +47,7 @@ perl-mac-systemdirectory
 
 
 .. |downloads_perl-mac-systemdirectory| image:: https://img.shields.io/conda/dn/bioconda/perl-mac-systemdirectory.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-mac-systemdirectory
    :alt:   (downloads)
 .. |docker_perl-mac-systemdirectory| image:: https://quay.io/repository/biocontainers/perl-mac-systemdirectory/status
    :target: https://quay.io/repository/biocontainers/perl-mac-systemdirectory

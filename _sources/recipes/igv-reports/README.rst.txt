@@ -48,6 +48,7 @@ igv-reports
 
 
 .. |downloads_igv-reports| image:: https://img.shields.io/conda/dn/bioconda/igv-reports.svg?style=flat
+   :target: https://anaconda.org/bioconda/igv-reports
    :alt:   (downloads)
 .. |docker_igv-reports| image:: https://quay.io/repository/biocontainers/igv-reports/status
    :target: https://quay.io/repository/biocontainers/igv-reports

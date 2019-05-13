@@ -50,6 +50,7 @@ bioconductor-oncomix
 
 
 .. |downloads_bioconductor-oncomix| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-oncomix.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-oncomix
    :alt:   (downloads)
 .. |docker_bioconductor-oncomix| image:: https://quay.io/repository/biocontainers/bioconductor-oncomix/status
    :target: https://quay.io/repository/biocontainers/bioconductor-oncomix

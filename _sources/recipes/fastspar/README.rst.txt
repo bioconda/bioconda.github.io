@@ -57,6 +57,7 @@ fastspar
 
 
 .. |downloads_fastspar| image:: https://img.shields.io/conda/dn/bioconda/fastspar.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastspar
    :alt:   (downloads)
 .. |docker_fastspar| image:: https://quay.io/repository/biocontainers/fastspar/status
    :target: https://quay.io/repository/biocontainers/fastspar

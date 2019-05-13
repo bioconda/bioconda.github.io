@@ -47,6 +47,7 @@ perl-object-insideout
 
 
 .. |downloads_perl-object-insideout| image:: https://img.shields.io/conda/dn/bioconda/perl-object-insideout.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-object-insideout
    :alt:   (downloads)
 .. |docker_perl-object-insideout| image:: https://quay.io/repository/biocontainers/perl-object-insideout/status
    :target: https://quay.io/repository/biocontainers/perl-object-insideout

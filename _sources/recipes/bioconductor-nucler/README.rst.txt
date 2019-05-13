@@ -58,6 +58,7 @@ bioconductor-nucler
 
 
 .. |downloads_bioconductor-nucler| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-nucler.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-nucler
    :alt:   (downloads)
 .. |docker_bioconductor-nucler| image:: https://quay.io/repository/biocontainers/bioconductor-nucler/status
    :target: https://quay.io/repository/biocontainers/bioconductor-nucler

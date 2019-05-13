@@ -45,6 +45,7 @@ perl-jcode
 
 
 .. |downloads_perl-jcode| image:: https://img.shields.io/conda/dn/bioconda/perl-jcode.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-jcode
    :alt:   (downloads)
 .. |docker_perl-jcode| image:: https://quay.io/repository/biocontainers/perl-jcode/status
    :target: https://quay.io/repository/biocontainers/perl-jcode

@@ -48,6 +48,7 @@ dx-cwl
 
 
 .. |downloads_dx-cwl| image:: https://img.shields.io/conda/dn/bioconda/dx-cwl.svg?style=flat
+   :target: https://anaconda.org/bioconda/dx-cwl
    :alt:   (downloads)
 .. |docker_dx-cwl| image:: https://quay.io/repository/biocontainers/dx-cwl/status
    :target: https://quay.io/repository/biocontainers/dx-cwl

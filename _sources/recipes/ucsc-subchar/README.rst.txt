@@ -50,6 +50,7 @@ ucsc-subchar
 
 
 .. |downloads_ucsc-subchar| image:: https://img.shields.io/conda/dn/bioconda/ucsc-subchar.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-subchar
    :alt:   (downloads)
 .. |docker_ucsc-subchar| image:: https://quay.io/repository/biocontainers/ucsc-subchar/status
    :target: https://quay.io/repository/biocontainers/ucsc-subchar

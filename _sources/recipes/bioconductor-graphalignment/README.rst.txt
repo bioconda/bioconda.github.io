@@ -45,6 +45,7 @@ bioconductor-graphalignment
 
 
 .. |downloads_bioconductor-graphalignment| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-graphalignment.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-graphalignment
    :alt:   (downloads)
 .. |docker_bioconductor-graphalignment| image:: https://quay.io/repository/biocontainers/bioconductor-graphalignment/status
    :target: https://quay.io/repository/biocontainers/bioconductor-graphalignment

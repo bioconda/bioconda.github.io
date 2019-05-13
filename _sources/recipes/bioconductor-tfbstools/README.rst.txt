@@ -67,6 +67,7 @@ bioconductor-tfbstools
 
 
 .. |downloads_bioconductor-tfbstools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tfbstools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tfbstools
    :alt:   (downloads)
 .. |docker_bioconductor-tfbstools| image:: https://quay.io/repository/biocontainers/bioconductor-tfbstools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tfbstools

@@ -44,6 +44,7 @@ libidn
 
 
 .. |downloads_libidn| image:: https://img.shields.io/conda/dn/bioconda/libidn.svg?style=flat
+   :target: https://anaconda.org/bioconda/libidn
    :alt:   (downloads)
 .. |docker_libidn| image:: https://quay.io/repository/biocontainers/libidn/status
    :target: https://quay.io/repository/biocontainers/libidn

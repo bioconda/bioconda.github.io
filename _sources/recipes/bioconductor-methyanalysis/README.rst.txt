@@ -64,6 +64,7 @@ bioconductor-methyanalysis
 
 
 .. |downloads_bioconductor-methyanalysis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methyanalysis.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-methyanalysis
    :alt:   (downloads)
 .. |docker_bioconductor-methyanalysis| image:: https://quay.io/repository/biocontainers/bioconductor-methyanalysis/status
    :target: https://quay.io/repository/biocontainers/bioconductor-methyanalysis

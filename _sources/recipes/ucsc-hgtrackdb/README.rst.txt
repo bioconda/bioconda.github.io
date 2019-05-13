@@ -50,6 +50,7 @@ ucsc-hgtrackdb
 
 
 .. |downloads_ucsc-hgtrackdb| image:: https://img.shields.io/conda/dn/bioconda/ucsc-hgtrackdb.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-hgtrackdb
    :alt:   (downloads)
 .. |docker_ucsc-hgtrackdb| image:: https://quay.io/repository/biocontainers/ucsc-hgtrackdb/status
    :target: https://quay.io/repository/biocontainers/ucsc-hgtrackdb

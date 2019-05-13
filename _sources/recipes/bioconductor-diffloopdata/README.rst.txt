@@ -46,6 +46,7 @@ bioconductor-diffloopdata
 
 
 .. |downloads_bioconductor-diffloopdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-diffloopdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-diffloopdata
    :alt:   (downloads)
 .. |docker_bioconductor-diffloopdata| image:: https://quay.io/repository/biocontainers/bioconductor-diffloopdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-diffloopdata

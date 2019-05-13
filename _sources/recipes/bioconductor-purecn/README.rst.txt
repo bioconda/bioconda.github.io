@@ -70,6 +70,7 @@ bioconductor-purecn
 
 
 .. |downloads_bioconductor-purecn| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-purecn.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-purecn
    :alt:   (downloads)
 .. |docker_bioconductor-purecn| image:: https://quay.io/repository/biocontainers/bioconductor-purecn/status
    :target: https://quay.io/repository/biocontainers/bioconductor-purecn

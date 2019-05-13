@@ -47,6 +47,7 @@ bioconductor-process
 
 
 .. |downloads_bioconductor-process| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-process.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-process
    :alt:   (downloads)
 .. |docker_bioconductor-process| image:: https://quay.io/repository/biocontainers/bioconductor-process/status
    :target: https://quay.io/repository/biocontainers/bioconductor-process

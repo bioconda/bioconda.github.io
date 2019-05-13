@@ -50,6 +50,7 @@ perl-package-deprecationmanager
 
 
 .. |downloads_perl-package-deprecationmanager| image:: https://img.shields.io/conda/dn/bioconda/perl-package-deprecationmanager.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-package-deprecationmanager
    :alt:   (downloads)
 .. |docker_perl-package-deprecationmanager| image:: https://quay.io/repository/biocontainers/perl-package-deprecationmanager/status
    :target: https://quay.io/repository/biocontainers/perl-package-deprecationmanager

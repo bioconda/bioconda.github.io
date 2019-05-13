@@ -46,6 +46,7 @@ perl-extutils-config
 
 
 .. |downloads_perl-extutils-config| image:: https://img.shields.io/conda/dn/bioconda/perl-extutils-config.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-extutils-config
    :alt:   (downloads)
 .. |docker_perl-extutils-config| image:: https://quay.io/repository/biocontainers/perl-extutils-config/status
    :target: https://quay.io/repository/biocontainers/perl-extutils-config

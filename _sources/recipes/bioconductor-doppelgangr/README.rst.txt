@@ -53,6 +53,7 @@ bioconductor-doppelgangr
 
 
 .. |downloads_bioconductor-doppelgangr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-doppelgangr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-doppelgangr
    :alt:   (downloads)
 .. |docker_bioconductor-doppelgangr| image:: https://quay.io/repository/biocontainers/bioconductor-doppelgangr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-doppelgangr

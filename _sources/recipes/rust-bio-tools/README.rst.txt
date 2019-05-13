@@ -51,6 +51,7 @@ rust-bio-tools
 
 
 .. |downloads_rust-bio-tools| image:: https://img.shields.io/conda/dn/bioconda/rust-bio-tools.svg?style=flat
+   :target: https://anaconda.org/bioconda/rust-bio-tools
    :alt:   (downloads)
 .. |docker_rust-bio-tools| image:: https://quay.io/repository/biocontainers/rust-bio-tools/status
    :target: https://quay.io/repository/biocontainers/rust-bio-tools

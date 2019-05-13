@@ -49,6 +49,7 @@ trinculo
 
 
 .. |downloads_trinculo| image:: https://img.shields.io/conda/dn/bioconda/trinculo.svg?style=flat
+   :target: https://anaconda.org/bioconda/trinculo
    :alt:   (downloads)
 .. |docker_trinculo| image:: https://quay.io/repository/biocontainers/trinculo/status
    :target: https://quay.io/repository/biocontainers/trinculo

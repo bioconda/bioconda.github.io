@@ -57,6 +57,7 @@ bioconductor-recount
 
 
 .. |downloads_bioconductor-recount| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-recount.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-recount
    :alt:   (downloads)
 .. |docker_bioconductor-recount| image:: https://quay.io/repository/biocontainers/bioconductor-recount/status
    :target: https://quay.io/repository/biocontainers/bioconductor-recount

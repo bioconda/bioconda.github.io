@@ -52,6 +52,7 @@ vispr
 
 
 .. |downloads_vispr| image:: https://img.shields.io/conda/dn/bioconda/vispr.svg?style=flat
+   :target: https://anaconda.org/bioconda/vispr
    :alt:   (downloads)
 .. |docker_vispr| image:: https://quay.io/repository/biocontainers/vispr/status
    :target: https://quay.io/repository/biocontainers/vispr

@@ -53,6 +53,7 @@ cobra
 
 
 .. |downloads_cobra| image:: https://img.shields.io/conda/dn/bioconda/cobra.svg?style=flat
+   :target: https://anaconda.org/bioconda/cobra
    :alt:   (downloads)
 .. |docker_cobra| image:: https://quay.io/repository/biocontainers/cobra/status
    :target: https://quay.io/repository/biocontainers/cobra

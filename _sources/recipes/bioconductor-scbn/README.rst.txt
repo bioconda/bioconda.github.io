@@ -45,6 +45,7 @@ bioconductor-scbn
 
 
 .. |downloads_bioconductor-scbn| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-scbn.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-scbn
    :alt:   (downloads)
 .. |docker_bioconductor-scbn| image:: https://quay.io/repository/biocontainers/bioconductor-scbn/status
    :target: https://quay.io/repository/biocontainers/bioconductor-scbn

@@ -50,6 +50,7 @@ ucsc-mrnatogene
 
 
 .. |downloads_ucsc-mrnatogene| image:: https://img.shields.io/conda/dn/bioconda/ucsc-mrnatogene.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-mrnatogene
    :alt:   (downloads)
 .. |docker_ucsc-mrnatogene| image:: https://quay.io/repository/biocontainers/ucsc-mrnatogene/status
    :target: https://quay.io/repository/biocontainers/ucsc-mrnatogene

@@ -57,6 +57,7 @@ shmlast
 
 
 .. |downloads_shmlast| image:: https://img.shields.io/conda/dn/bioconda/shmlast.svg?style=flat
+   :target: https://anaconda.org/bioconda/shmlast
    :alt:   (downloads)
 .. |docker_shmlast| image:: https://quay.io/repository/biocontainers/shmlast/status
    :target: https://quay.io/repository/biocontainers/shmlast

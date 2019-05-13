@@ -45,6 +45,7 @@ python-sortedcontainers
 
 
 .. |downloads_python-sortedcontainers| image:: https://img.shields.io/conda/dn/bioconda/python-sortedcontainers.svg?style=flat
+   :target: https://anaconda.org/bioconda/python-sortedcontainers
    :alt:   (downloads)
 .. |docker_python-sortedcontainers| image:: https://quay.io/repository/biocontainers/python-sortedcontainers/status
    :target: https://quay.io/repository/biocontainers/python-sortedcontainers

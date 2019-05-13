@@ -50,6 +50,7 @@ perl-lwp-protocol-https
 
 
 .. |downloads_perl-lwp-protocol-https| image:: https://img.shields.io/conda/dn/bioconda/perl-lwp-protocol-https.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-lwp-protocol-https
    :alt:   (downloads)
 .. |docker_perl-lwp-protocol-https| image:: https://quay.io/repository/biocontainers/perl-lwp-protocol-https/status
    :target: https://quay.io/repository/biocontainers/perl-lwp-protocol-https

@@ -45,6 +45,7 @@ perl-file-tee
 
 
 .. |downloads_perl-file-tee| image:: https://img.shields.io/conda/dn/bioconda/perl-file-tee.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-tee
    :alt:   (downloads)
 .. |docker_perl-file-tee| image:: https://quay.io/repository/biocontainers/perl-file-tee/status
    :target: https://quay.io/repository/biocontainers/perl-file-tee

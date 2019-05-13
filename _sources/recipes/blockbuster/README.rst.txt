@@ -45,6 +45,7 @@ blockbuster
 
 
 .. |downloads_blockbuster| image:: https://img.shields.io/conda/dn/bioconda/blockbuster.svg?style=flat
+   :target: https://anaconda.org/bioconda/blockbuster
    :alt:   (downloads)
 .. |docker_blockbuster| image:: https://quay.io/repository/biocontainers/blockbuster/status
    :target: https://quay.io/repository/biocontainers/blockbuster

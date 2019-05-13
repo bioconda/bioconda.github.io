@@ -49,6 +49,7 @@ perl-pod-usage
 
 
 .. |downloads_perl-pod-usage| image:: https://img.shields.io/conda/dn/bioconda/perl-pod-usage.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-pod-usage
    :alt:   (downloads)
 .. |docker_perl-pod-usage| image:: https://quay.io/repository/biocontainers/perl-pod-usage/status
    :target: https://quay.io/repository/biocontainers/perl-pod-usage

@@ -53,6 +53,7 @@ bioconductor-pd.cytogenetics.array
 
 
 .. |downloads_bioconductor-pd.cytogenetics.array| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.cytogenetics.array.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.cytogenetics.array
    :alt:   (downloads)
 .. |docker_bioconductor-pd.cytogenetics.array| image:: https://quay.io/repository/biocontainers/bioconductor-pd.cytogenetics.array/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.cytogenetics.array

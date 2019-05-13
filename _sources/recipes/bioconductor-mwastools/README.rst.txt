@@ -58,6 +58,7 @@ bioconductor-mwastools
 
 
 .. |downloads_bioconductor-mwastools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mwastools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mwastools
    :alt:   (downloads)
 .. |docker_bioconductor-mwastools| image:: https://quay.io/repository/biocontainers/bioconductor-mwastools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mwastools

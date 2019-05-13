@@ -54,6 +54,7 @@ bioconductor-tigre
 
 
 .. |downloads_bioconductor-tigre| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tigre.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tigre
    :alt:   (downloads)
 .. |docker_bioconductor-tigre| image:: https://quay.io/repository/biocontainers/bioconductor-tigre/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tigre

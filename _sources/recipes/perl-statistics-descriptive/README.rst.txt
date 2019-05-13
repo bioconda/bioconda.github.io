@@ -46,6 +46,7 @@ perl-statistics-descriptive
 
 
 .. |downloads_perl-statistics-descriptive| image:: https://img.shields.io/conda/dn/bioconda/perl-statistics-descriptive.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-statistics-descriptive
    :alt:   (downloads)
 .. |docker_perl-statistics-descriptive| image:: https://quay.io/repository/biocontainers/perl-statistics-descriptive/status
    :target: https://quay.io/repository/biocontainers/perl-statistics-descriptive

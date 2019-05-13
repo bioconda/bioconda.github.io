@@ -58,6 +58,7 @@ plastid
 
 
 .. |downloads_plastid| image:: https://img.shields.io/conda/dn/bioconda/plastid.svg?style=flat
+   :target: https://anaconda.org/bioconda/plastid
    :alt:   (downloads)
 .. |docker_plastid| image:: https://quay.io/repository/biocontainers/plastid/status
    :target: https://quay.io/repository/biocontainers/plastid

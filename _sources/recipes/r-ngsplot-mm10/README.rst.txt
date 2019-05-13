@@ -48,6 +48,7 @@ r-ngsplotdb-mm10
 
 
 .. |downloads_r-ngsplotdb-mm10| image:: https://img.shields.io/conda/dn/bioconda/r-ngsplotdb-mm10.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-ngsplotdb-mm10
    :alt:   (downloads)
 .. |docker_r-ngsplotdb-mm10| image:: https://quay.io/repository/biocontainers/r-ngsplotdb-mm10/status
    :target: https://quay.io/repository/biocontainers/r-ngsplotdb-mm10

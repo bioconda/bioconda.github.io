@@ -53,6 +53,7 @@ humann2
 
 
 .. |downloads_humann2| image:: https://img.shields.io/conda/dn/bioconda/humann2.svg?style=flat
+   :target: https://anaconda.org/bioconda/humann2
    :alt:   (downloads)
 .. |docker_humann2| image:: https://quay.io/repository/biocontainers/humann2/status
    :target: https://quay.io/repository/biocontainers/humann2

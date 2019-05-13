@@ -57,6 +57,7 @@ bioconductor-splicinggraphs
 
 
 .. |downloads_bioconductor-splicinggraphs| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-splicinggraphs.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-splicinggraphs
    :alt:   (downloads)
 .. |docker_bioconductor-splicinggraphs| image:: https://quay.io/repository/biocontainers/bioconductor-splicinggraphs/status
    :target: https://quay.io/repository/biocontainers/bioconductor-splicinggraphs

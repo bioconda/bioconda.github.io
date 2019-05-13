@@ -50,6 +50,7 @@ ucsc-fasize
 
 
 .. |downloads_ucsc-fasize| image:: https://img.shields.io/conda/dn/bioconda/ucsc-fasize.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-fasize
    :alt:   (downloads)
 .. |docker_ucsc-fasize| image:: https://quay.io/repository/biocontainers/ucsc-fasize/status
    :target: https://quay.io/repository/biocontainers/ucsc-fasize

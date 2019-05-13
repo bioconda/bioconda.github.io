@@ -46,6 +46,7 @@ bioconductor-sclcbam
 
 
 .. |downloads_bioconductor-sclcbam| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sclcbam.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sclcbam
    :alt:   (downloads)
 .. |docker_bioconductor-sclcbam| image:: https://quay.io/repository/biocontainers/bioconductor-sclcbam/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sclcbam

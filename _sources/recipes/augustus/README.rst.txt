@@ -65,6 +65,7 @@ augustus
 
 
 .. |downloads_augustus| image:: https://img.shields.io/conda/dn/bioconda/augustus.svg?style=flat
+   :target: https://anaconda.org/bioconda/augustus
    :alt:   (downloads)
 .. |docker_augustus| image:: https://quay.io/repository/biocontainers/augustus/status
    :target: https://quay.io/repository/biocontainers/augustus

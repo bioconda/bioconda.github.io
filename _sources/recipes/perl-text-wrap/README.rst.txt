@@ -45,6 +45,7 @@ perl-text-wrap
 
 
 .. |downloads_perl-text-wrap| image:: https://img.shields.io/conda/dn/bioconda/perl-text-wrap.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-text-wrap
    :alt:   (downloads)
 .. |docker_perl-text-wrap| image:: https://quay.io/repository/biocontainers/perl-text-wrap/status
    :target: https://quay.io/repository/biocontainers/perl-text-wrap

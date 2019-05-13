@@ -53,6 +53,7 @@ bioconductor-affyqcreport
 
 
 .. |downloads_bioconductor-affyqcreport| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-affyqcreport.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-affyqcreport
    :alt:   (downloads)
 .. |docker_bioconductor-affyqcreport| image:: https://quay.io/repository/biocontainers/bioconductor-affyqcreport/status
    :target: https://quay.io/repository/biocontainers/bioconductor-affyqcreport

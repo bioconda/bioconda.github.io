@@ -47,6 +47,7 @@ bioconductor-mirna20cdf
 
 
 .. |downloads_bioconductor-mirna20cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirna20cdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mirna20cdf
    :alt:   (downloads)
 .. |docker_bioconductor-mirna20cdf| image:: https://quay.io/repository/biocontainers/bioconductor-mirna20cdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mirna20cdf

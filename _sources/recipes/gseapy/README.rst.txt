@@ -54,6 +54,7 @@ gseapy
 
 
 .. |downloads_gseapy| image:: https://img.shields.io/conda/dn/bioconda/gseapy.svg?style=flat
+   :target: https://anaconda.org/bioconda/gseapy
    :alt:   (downloads)
 .. |docker_gseapy| image:: https://quay.io/repository/biocontainers/gseapy/status
    :target: https://quay.io/repository/biocontainers/gseapy

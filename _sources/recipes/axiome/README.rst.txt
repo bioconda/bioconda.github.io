@@ -46,6 +46,7 @@ axiome
 
 
 .. |downloads_axiome| image:: https://img.shields.io/conda/dn/bioconda/axiome.svg?style=flat
+   :target: https://anaconda.org/bioconda/axiome
    :alt:   (downloads)
 .. |docker_axiome| image:: https://quay.io/repository/biocontainers/axiome/status
    :target: https://quay.io/repository/biocontainers/axiome

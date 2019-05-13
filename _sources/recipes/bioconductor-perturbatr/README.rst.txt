@@ -60,6 +60,7 @@ bioconductor-perturbatr
 
 
 .. |downloads_bioconductor-perturbatr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-perturbatr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-perturbatr
    :alt:   (downloads)
 .. |docker_bioconductor-perturbatr| image:: https://quay.io/repository/biocontainers/bioconductor-perturbatr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-perturbatr

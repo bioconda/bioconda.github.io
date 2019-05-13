@@ -46,6 +46,7 @@ bioconductor-tinesath1cdf
 
 
 .. |downloads_bioconductor-tinesath1cdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tinesath1cdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tinesath1cdf
    :alt:   (downloads)
 .. |docker_bioconductor-tinesath1cdf| image:: https://quay.io/repository/biocontainers/bioconductor-tinesath1cdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tinesath1cdf

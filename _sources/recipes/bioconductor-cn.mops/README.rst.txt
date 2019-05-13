@@ -56,6 +56,7 @@ bioconductor-cn.mops
 
 
 .. |downloads_bioconductor-cn.mops| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cn.mops.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cn.mops
    :alt:   (downloads)
 .. |docker_bioconductor-cn.mops| image:: https://quay.io/repository/biocontainers/bioconductor-cn.mops/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cn.mops

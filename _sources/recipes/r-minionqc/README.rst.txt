@@ -55,6 +55,7 @@ r-minionqc
 
 
 .. |downloads_r-minionqc| image:: https://img.shields.io/conda/dn/bioconda/r-minionqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-minionqc
    :alt:   (downloads)
 .. |docker_r-minionqc| image:: https://quay.io/repository/biocontainers/r-minionqc/status
    :target: https://quay.io/repository/biocontainers/r-minionqc

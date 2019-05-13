@@ -45,6 +45,7 @@ r-rismed
 
 
 .. |downloads_r-rismed| image:: https://img.shields.io/conda/dn/bioconda/r-rismed.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-rismed
    :alt:   (downloads)
 .. |docker_r-rismed| image:: https://quay.io/repository/biocontainers/r-rismed/status
    :target: https://quay.io/repository/biocontainers/r-rismed

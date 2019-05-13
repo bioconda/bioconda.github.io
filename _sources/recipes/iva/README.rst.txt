@@ -52,6 +52,7 @@ iva
 
 
 .. |downloads_iva| image:: https://img.shields.io/conda/dn/bioconda/iva.svg?style=flat
+   :target: https://anaconda.org/bioconda/iva
    :alt:   (downloads)
 .. |docker_iva| image:: https://quay.io/repository/biocontainers/iva/status
    :target: https://quay.io/repository/biocontainers/iva

@@ -52,6 +52,7 @@ bioconductor-phastcons7way.ucsc.hg38
 
 
 .. |downloads_bioconductor-phastcons7way.ucsc.hg38| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-phastcons7way.ucsc.hg38.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-phastcons7way.ucsc.hg38
    :alt:   (downloads)
 .. |docker_bioconductor-phastcons7way.ucsc.hg38| image:: https://quay.io/repository/biocontainers/bioconductor-phastcons7way.ucsc.hg38/status
    :target: https://quay.io/repository/biocontainers/bioconductor-phastcons7way.ucsc.hg38

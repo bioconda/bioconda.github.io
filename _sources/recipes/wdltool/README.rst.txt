@@ -46,6 +46,7 @@ wdltool
 
 
 .. |downloads_wdltool| image:: https://img.shields.io/conda/dn/bioconda/wdltool.svg?style=flat
+   :target: https://anaconda.org/bioconda/wdltool
    :alt:   (downloads)
 .. |docker_wdltool| image:: https://quay.io/repository/biocontainers/wdltool/status
    :target: https://quay.io/repository/biocontainers/wdltool

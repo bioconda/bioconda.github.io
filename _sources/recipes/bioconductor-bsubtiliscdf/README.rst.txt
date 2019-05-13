@@ -47,6 +47,7 @@ bioconductor-bsubtiliscdf
 
 
 .. |downloads_bioconductor-bsubtiliscdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsubtiliscdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsubtiliscdf
    :alt:   (downloads)
 .. |docker_bioconductor-bsubtiliscdf| image:: https://quay.io/repository/biocontainers/bioconductor-bsubtiliscdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsubtiliscdf

@@ -50,6 +50,7 @@ ucsc-genepredsinglecover
 
 
 .. |downloads_ucsc-genepredsinglecover| image:: https://img.shields.io/conda/dn/bioconda/ucsc-genepredsinglecover.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-genepredsinglecover
    :alt:   (downloads)
 .. |docker_ucsc-genepredsinglecover| image:: https://quay.io/repository/biocontainers/ucsc-genepredsinglecover/status
    :target: https://quay.io/repository/biocontainers/ucsc-genepredsinglecover

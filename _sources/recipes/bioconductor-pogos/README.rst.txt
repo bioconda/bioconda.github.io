@@ -51,6 +51,7 @@ bioconductor-pogos
 
 
 .. |downloads_bioconductor-pogos| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pogos.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pogos
    :alt:   (downloads)
 .. |docker_bioconductor-pogos| image:: https://quay.io/repository/biocontainers/bioconductor-pogos/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pogos

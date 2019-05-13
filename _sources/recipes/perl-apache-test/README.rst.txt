@@ -46,6 +46,7 @@ perl-apache-test
 
 
 .. |downloads_perl-apache-test| image:: https://img.shields.io/conda/dn/bioconda/perl-apache-test.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-apache-test
    :alt:   (downloads)
 .. |docker_perl-apache-test| image:: https://quay.io/repository/biocontainers/perl-apache-test/status
    :target: https://quay.io/repository/biocontainers/perl-apache-test

@@ -48,6 +48,7 @@ bioconductor-genelendatabase
 
 
 .. |downloads_bioconductor-genelendatabase| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genelendatabase.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genelendatabase
    :alt:   (downloads)
 .. |docker_bioconductor-genelendatabase| image:: https://quay.io/repository/biocontainers/bioconductor-genelendatabase/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genelendatabase

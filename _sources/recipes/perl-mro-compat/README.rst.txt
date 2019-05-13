@@ -45,6 +45,7 @@ perl-mro-compat
 
 
 .. |downloads_perl-mro-compat| image:: https://img.shields.io/conda/dn/bioconda/perl-mro-compat.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-mro-compat
    :alt:   (downloads)
 .. |docker_perl-mro-compat| image:: https://quay.io/repository/biocontainers/perl-mro-compat/status
    :target: https://quay.io/repository/biocontainers/perl-mro-compat

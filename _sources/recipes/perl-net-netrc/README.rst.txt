@@ -45,6 +45,7 @@ perl-net-netrc
 
 
 .. |downloads_perl-net-netrc| image:: https://img.shields.io/conda/dn/bioconda/perl-net-netrc.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-net-netrc
    :alt:   (downloads)
 .. |docker_perl-net-netrc| image:: https://quay.io/repository/biocontainers/perl-net-netrc/status
    :target: https://quay.io/repository/biocontainers/perl-net-netrc

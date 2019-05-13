@@ -53,6 +53,7 @@ bioconductor-pd.rta.1.0
 
 
 .. |downloads_bioconductor-pd.rta.1.0| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.rta.1.0.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.rta.1.0
    :alt:   (downloads)
 .. |docker_bioconductor-pd.rta.1.0| image:: https://quay.io/repository/biocontainers/bioconductor-pd.rta.1.0/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.rta.1.0

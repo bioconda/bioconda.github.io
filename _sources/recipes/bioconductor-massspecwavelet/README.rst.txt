@@ -48,6 +48,7 @@ bioconductor-massspecwavelet
 
 
 .. |downloads_bioconductor-massspecwavelet| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-massspecwavelet.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-massspecwavelet
    :alt:   (downloads)
 .. |docker_bioconductor-massspecwavelet| image:: https://quay.io/repository/biocontainers/bioconductor-massspecwavelet/status
    :target: https://quay.io/repository/biocontainers/bioconductor-massspecwavelet

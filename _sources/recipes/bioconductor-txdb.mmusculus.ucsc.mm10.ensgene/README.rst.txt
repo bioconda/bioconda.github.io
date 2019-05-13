@@ -48,6 +48,7 @@ bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
 
 
 .. |downloads_bioconductor-txdb.mmusculus.ucsc.mm10.ensgene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
    :alt:   (downloads)
 .. |docker_bioconductor-txdb.mmusculus.ucsc.mm10.ensgene| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/status
    :target: https://quay.io/repository/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene

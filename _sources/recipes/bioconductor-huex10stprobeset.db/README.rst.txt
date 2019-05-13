@@ -48,6 +48,7 @@ bioconductor-huex10stprobeset.db
 
 
 .. |downloads_bioconductor-huex10stprobeset.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-huex10stprobeset.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-huex10stprobeset.db
    :alt:   (downloads)
 .. |docker_bioconductor-huex10stprobeset.db| image:: https://quay.io/repository/biocontainers/bioconductor-huex10stprobeset.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-huex10stprobeset.db

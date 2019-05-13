@@ -50,6 +50,7 @@ chipseq-greylist
 
 
 .. |downloads_chipseq-greylist| image:: https://img.shields.io/conda/dn/bioconda/chipseq-greylist.svg?style=flat
+   :target: https://anaconda.org/bioconda/chipseq-greylist
    :alt:   (downloads)
 .. |docker_chipseq-greylist| image:: https://quay.io/repository/biocontainers/chipseq-greylist/status
    :target: https://quay.io/repository/biocontainers/chipseq-greylist

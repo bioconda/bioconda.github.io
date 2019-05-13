@@ -47,6 +47,7 @@ bioconductor-clusterstab
 
 
 .. |downloads_bioconductor-clusterstab| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clusterstab.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-clusterstab
    :alt:   (downloads)
 .. |docker_bioconductor-clusterstab| image:: https://quay.io/repository/biocontainers/bioconductor-clusterstab/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clusterstab

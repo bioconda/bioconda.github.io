@@ -57,6 +57,7 @@ r-geiger
 
 
 .. |downloads_r-geiger| image:: https://img.shields.io/conda/dn/bioconda/r-geiger.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-geiger
    :alt:   (downloads)
 .. |docker_r-geiger| image:: https://quay.io/repository/biocontainers/r-geiger/status
    :target: https://quay.io/repository/biocontainers/r-geiger

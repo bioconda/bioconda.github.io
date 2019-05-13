@@ -45,6 +45,7 @@ indelfixer
 
 
 .. |downloads_indelfixer| image:: https://img.shields.io/conda/dn/bioconda/indelfixer.svg?style=flat
+   :target: https://anaconda.org/bioconda/indelfixer
    :alt:   (downloads)
 .. |docker_indelfixer| image:: https://quay.io/repository/biocontainers/indelfixer/status
    :target: https://quay.io/repository/biocontainers/indelfixer

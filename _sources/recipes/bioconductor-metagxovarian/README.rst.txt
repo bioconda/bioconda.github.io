@@ -51,6 +51,7 @@ bioconductor-metagxovarian
 
 
 .. |downloads_bioconductor-metagxovarian| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-metagxovarian.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-metagxovarian
    :alt:   (downloads)
 .. |docker_bioconductor-metagxovarian| image:: https://quay.io/repository/biocontainers/bioconductor-metagxovarian/status
    :target: https://quay.io/repository/biocontainers/bioconductor-metagxovarian

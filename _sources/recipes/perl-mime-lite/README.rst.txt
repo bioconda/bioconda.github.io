@@ -48,6 +48,7 @@ perl-mime-lite
 
 
 .. |downloads_perl-mime-lite| image:: https://img.shields.io/conda/dn/bioconda/perl-mime-lite.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-mime-lite
    :alt:   (downloads)
 .. |docker_perl-mime-lite| image:: https://quay.io/repository/biocontainers/perl-mime-lite/status
    :target: https://quay.io/repository/biocontainers/perl-mime-lite

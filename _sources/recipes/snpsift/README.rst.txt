@@ -47,6 +47,7 @@ snpsift
 
 
 .. |downloads_snpsift| image:: https://img.shields.io/conda/dn/bioconda/snpsift.svg?style=flat
+   :target: https://anaconda.org/bioconda/snpsift
    :alt:   (downloads)
 .. |docker_snpsift| image:: https://quay.io/repository/biocontainers/snpsift/status
    :target: https://quay.io/repository/biocontainers/snpsift

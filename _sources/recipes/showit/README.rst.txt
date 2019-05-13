@@ -47,6 +47,7 @@ showit
 
 
 .. |downloads_showit| image:: https://img.shields.io/conda/dn/bioconda/showit.svg?style=flat
+   :target: https://anaconda.org/bioconda/showit
    :alt:   (downloads)
 .. |docker_showit| image:: https://quay.io/repository/biocontainers/showit/status
    :target: https://quay.io/repository/biocontainers/showit

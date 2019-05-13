@@ -45,6 +45,7 @@ perl-test-utf8
 
 
 .. |downloads_perl-test-utf8| image:: https://img.shields.io/conda/dn/bioconda/perl-test-utf8.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-utf8
    :alt:   (downloads)
 .. |docker_perl-test-utf8| image:: https://quay.io/repository/biocontainers/perl-test-utf8/status
    :target: https://quay.io/repository/biocontainers/perl-test-utf8

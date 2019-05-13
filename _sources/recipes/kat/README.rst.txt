@@ -53,6 +53,7 @@ kat
 
 
 .. |downloads_kat| image:: https://img.shields.io/conda/dn/bioconda/kat.svg?style=flat
+   :target: https://anaconda.org/bioconda/kat
    :alt:   (downloads)
 .. |docker_kat| image:: https://quay.io/repository/biocontainers/kat/status
    :target: https://quay.io/repository/biocontainers/kat

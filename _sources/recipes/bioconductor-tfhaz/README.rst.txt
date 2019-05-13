@@ -48,6 +48,7 @@ bioconductor-tfhaz
 
 
 .. |downloads_bioconductor-tfhaz| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tfhaz.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tfhaz
    :alt:   (downloads)
 .. |docker_bioconductor-tfhaz| image:: https://quay.io/repository/biocontainers/bioconductor-tfhaz/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tfhaz

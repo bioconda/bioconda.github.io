@@ -50,6 +50,7 @@ perl-logger-simple
 
 
 .. |downloads_perl-logger-simple| image:: https://img.shields.io/conda/dn/bioconda/perl-logger-simple.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-logger-simple
    :alt:   (downloads)
 .. |docker_perl-logger-simple| image:: https://quay.io/repository/biocontainers/perl-logger-simple/status
    :target: https://quay.io/repository/biocontainers/perl-logger-simple

@@ -47,6 +47,7 @@ perl-gdtextutil
 
 
 .. |downloads_perl-gdtextutil| image:: https://img.shields.io/conda/dn/bioconda/perl-gdtextutil.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-gdtextutil
    :alt:   (downloads)
 .. |docker_perl-gdtextutil| image:: https://quay.io/repository/biocontainers/perl-gdtextutil/status
    :target: https://quay.io/repository/biocontainers/perl-gdtextutil

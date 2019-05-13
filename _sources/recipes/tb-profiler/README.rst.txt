@@ -47,6 +47,7 @@ tb-profiler
 
 
 .. |downloads_tb-profiler| image:: https://img.shields.io/conda/dn/bioconda/tb-profiler.svg?style=flat
+   :target: https://anaconda.org/bioconda/tb-profiler
    :alt:   (downloads)
 .. |docker_tb-profiler| image:: https://quay.io/repository/biocontainers/tb-profiler/status
    :target: https://quay.io/repository/biocontainers/tb-profiler

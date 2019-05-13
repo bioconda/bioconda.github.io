@@ -46,6 +46,7 @@ pythomics
 
 
 .. |downloads_pythomics| image:: https://img.shields.io/conda/dn/bioconda/pythomics.svg?style=flat
+   :target: https://anaconda.org/bioconda/pythomics
    :alt:   (downloads)
 .. |docker_pythomics| image:: https://quay.io/repository/biocontainers/pythomics/status
    :target: https://quay.io/repository/biocontainers/pythomics

@@ -50,6 +50,7 @@ ucsc-endsinlf
 
 
 .. |downloads_ucsc-endsinlf| image:: https://img.shields.io/conda/dn/bioconda/ucsc-endsinlf.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-endsinlf
    :alt:   (downloads)
 .. |docker_ucsc-endsinlf| image:: https://quay.io/repository/biocontainers/ucsc-endsinlf/status
    :target: https://quay.io/repository/biocontainers/ucsc-endsinlf

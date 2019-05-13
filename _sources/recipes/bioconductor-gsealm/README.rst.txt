@@ -47,6 +47,7 @@ bioconductor-gsealm
 
 
 .. |downloads_bioconductor-gsealm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gsealm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gsealm
    :alt:   (downloads)
 .. |docker_bioconductor-gsealm| image:: https://quay.io/repository/biocontainers/bioconductor-gsealm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gsealm

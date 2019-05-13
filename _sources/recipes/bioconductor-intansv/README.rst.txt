@@ -50,6 +50,7 @@ bioconductor-intansv
 
 
 .. |downloads_bioconductor-intansv| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-intansv.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-intansv
    :alt:   (downloads)
 .. |docker_bioconductor-intansv| image:: https://quay.io/repository/biocontainers/bioconductor-intansv/status
    :target: https://quay.io/repository/biocontainers/bioconductor-intansv

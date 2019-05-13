@@ -46,6 +46,7 @@ bioconductor-serumstimulation
 
 
 .. |downloads_bioconductor-serumstimulation| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-serumstimulation.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-serumstimulation
    :alt:   (downloads)
 .. |docker_bioconductor-serumstimulation| image:: https://quay.io/repository/biocontainers/bioconductor-serumstimulation/status
    :target: https://quay.io/repository/biocontainers/bioconductor-serumstimulation

@@ -55,6 +55,7 @@ bioconductor-chronos
 
 
 .. |downloads_bioconductor-chronos| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-chronos.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-chronos
    :alt:   (downloads)
 .. |docker_bioconductor-chronos| image:: https://quay.io/repository/biocontainers/bioconductor-chronos/status
    :target: https://quay.io/repository/biocontainers/bioconductor-chronos

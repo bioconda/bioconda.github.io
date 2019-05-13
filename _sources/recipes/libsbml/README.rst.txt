@@ -48,6 +48,7 @@ python-libsbml
 
 
 .. |downloads_python-libsbml| image:: https://img.shields.io/conda/dn/bioconda/python-libsbml.svg?style=flat
+   :target: https://anaconda.org/bioconda/python-libsbml
    :alt:   (downloads)
 .. |docker_python-libsbml| image:: https://quay.io/repository/biocontainers/python-libsbml/status
    :target: https://quay.io/repository/biocontainers/python-libsbml

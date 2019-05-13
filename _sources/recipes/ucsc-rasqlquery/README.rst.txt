@@ -50,6 +50,7 @@ ucsc-rasqlquery
 
 
 .. |downloads_ucsc-rasqlquery| image:: https://img.shields.io/conda/dn/bioconda/ucsc-rasqlquery.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-rasqlquery
    :alt:   (downloads)
 .. |docker_ucsc-rasqlquery| image:: https://quay.io/repository/biocontainers/ucsc-rasqlquery/status
    :target: https://quay.io/repository/biocontainers/ucsc-rasqlquery

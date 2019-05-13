@@ -57,6 +57,7 @@ tepid
 
 
 .. |downloads_tepid| image:: https://img.shields.io/conda/dn/bioconda/tepid.svg?style=flat
+   :target: https://anaconda.org/bioconda/tepid
    :alt:   (downloads)
 .. |docker_tepid| image:: https://quay.io/repository/biocontainers/tepid/status
    :target: https://quay.io/repository/biocontainers/tepid

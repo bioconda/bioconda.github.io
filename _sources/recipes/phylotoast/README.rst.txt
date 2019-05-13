@@ -56,6 +56,7 @@ phylotoast
 
 
 .. |downloads_phylotoast| image:: https://img.shields.io/conda/dn/bioconda/phylotoast.svg?style=flat
+   :target: https://anaconda.org/bioconda/phylotoast
    :alt:   (downloads)
 .. |docker_phylotoast| image:: https://quay.io/repository/biocontainers/phylotoast/status
    :target: https://quay.io/repository/biocontainers/phylotoast

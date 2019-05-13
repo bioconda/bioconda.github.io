@@ -48,6 +48,7 @@ bioconductor-gaggle
 
 
 .. |downloads_bioconductor-gaggle| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gaggle.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gaggle
    :alt:   (downloads)
 .. |docker_bioconductor-gaggle| image:: https://quay.io/repository/biocontainers/bioconductor-gaggle/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gaggle

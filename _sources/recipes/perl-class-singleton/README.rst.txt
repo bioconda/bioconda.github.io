@@ -45,6 +45,7 @@ perl-class-singleton
 
 
 .. |downloads_perl-class-singleton| image:: https://img.shields.io/conda/dn/bioconda/perl-class-singleton.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-class-singleton
    :alt:   (downloads)
 .. |docker_perl-class-singleton| image:: https://quay.io/repository/biocontainers/perl-class-singleton/status
    :target: https://quay.io/repository/biocontainers/perl-class-singleton

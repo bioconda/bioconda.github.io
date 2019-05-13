@@ -59,6 +59,7 @@ oligotyping
 
 
 .. |downloads_oligotyping| image:: https://img.shields.io/conda/dn/bioconda/oligotyping.svg?style=flat
+   :target: https://anaconda.org/bioconda/oligotyping
    :alt:   (downloads)
 .. |docker_oligotyping| image:: https://quay.io/repository/biocontainers/oligotyping/status
    :target: https://quay.io/repository/biocontainers/oligotyping

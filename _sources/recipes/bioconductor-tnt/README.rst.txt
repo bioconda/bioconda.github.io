@@ -54,6 +54,7 @@ bioconductor-tnt
 
 
 .. |downloads_bioconductor-tnt| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tnt.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tnt
    :alt:   (downloads)
 .. |docker_bioconductor-tnt| image:: https://quay.io/repository/biocontainers/bioconductor-tnt/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tnt

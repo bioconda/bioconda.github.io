@@ -45,6 +45,7 @@ maxentscan
 
 
 .. |downloads_maxentscan| image:: https://img.shields.io/conda/dn/bioconda/maxentscan.svg?style=flat
+   :target: https://anaconda.org/bioconda/maxentscan
    :alt:   (downloads)
 .. |docker_maxentscan| image:: https://quay.io/repository/biocontainers/maxentscan/status
    :target: https://quay.io/repository/biocontainers/maxentscan

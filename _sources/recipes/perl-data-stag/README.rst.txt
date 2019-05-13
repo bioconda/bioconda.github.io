@@ -52,6 +52,7 @@ perl-data-stag
 
 
 .. |downloads_perl-data-stag| image:: https://img.shields.io/conda/dn/bioconda/perl-data-stag.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-data-stag
    :alt:   (downloads)
 .. |docker_perl-data-stag| image:: https://quay.io/repository/biocontainers/perl-data-stag/status
    :target: https://quay.io/repository/biocontainers/perl-data-stag

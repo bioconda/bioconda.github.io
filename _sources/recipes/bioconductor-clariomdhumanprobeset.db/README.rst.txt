@@ -48,6 +48,7 @@ bioconductor-clariomdhumanprobeset.db
 
 
 .. |downloads_bioconductor-clariomdhumanprobeset.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clariomdhumanprobeset.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-clariomdhumanprobeset.db
    :alt:   (downloads)
 .. |docker_bioconductor-clariomdhumanprobeset.db| image:: https://quay.io/repository/biocontainers/bioconductor-clariomdhumanprobeset.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clariomdhumanprobeset.db

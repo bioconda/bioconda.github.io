@@ -55,6 +55,7 @@ masurca
 
 
 .. |downloads_masurca| image:: https://img.shields.io/conda/dn/bioconda/masurca.svg?style=flat
+   :target: https://anaconda.org/bioconda/masurca
    :alt:   (downloads)
 .. |docker_masurca| image:: https://quay.io/repository/biocontainers/masurca/status
    :target: https://quay.io/repository/biocontainers/masurca

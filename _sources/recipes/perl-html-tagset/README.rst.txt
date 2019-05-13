@@ -45,6 +45,7 @@ perl-html-tagset
 
 
 .. |downloads_perl-html-tagset| image:: https://img.shields.io/conda/dn/bioconda/perl-html-tagset.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-html-tagset
    :alt:   (downloads)
 .. |docker_perl-html-tagset| image:: https://quay.io/repository/biocontainers/perl-html-tagset/status
    :target: https://quay.io/repository/biocontainers/perl-html-tagset

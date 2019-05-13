@@ -46,6 +46,7 @@ perl-memoize
 
 
 .. |downloads_perl-memoize| image:: https://img.shields.io/conda/dn/bioconda/perl-memoize.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-memoize
    :alt:   (downloads)
 .. |docker_perl-memoize| image:: https://quay.io/repository/biocontainers/perl-memoize/status
    :target: https://quay.io/repository/biocontainers/perl-memoize

@@ -47,6 +47,7 @@ perl-lwp-simple
 
 
 .. |downloads_perl-lwp-simple| image:: https://img.shields.io/conda/dn/bioconda/perl-lwp-simple.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-lwp-simple
    :alt:   (downloads)
 .. |docker_perl-lwp-simple| image:: https://quay.io/repository/biocontainers/perl-lwp-simple/status
    :target: https://quay.io/repository/biocontainers/perl-lwp-simple

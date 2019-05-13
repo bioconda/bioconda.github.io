@@ -44,6 +44,7 @@ bioconductor-biggr
 
 
 .. |downloads_bioconductor-biggr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-biggr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-biggr
    :alt:   (downloads)
 .. |docker_bioconductor-biggr| image:: https://quay.io/repository/biocontainers/bioconductor-biggr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-biggr

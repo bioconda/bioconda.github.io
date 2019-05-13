@@ -53,6 +53,7 @@ bioconductor-riboseqr
 
 
 .. |downloads_bioconductor-riboseqr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-riboseqr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-riboseqr
    :alt:   (downloads)
 .. |docker_bioconductor-riboseqr| image:: https://quay.io/repository/biocontainers/bioconductor-riboseqr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-riboseqr

@@ -53,6 +53,7 @@ bioconductor-pd.ecoli
 
 
 .. |downloads_bioconductor-pd.ecoli| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.ecoli.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.ecoli
    :alt:   (downloads)
 .. |docker_bioconductor-pd.ecoli| image:: https://quay.io/repository/biocontainers/bioconductor-pd.ecoli/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.ecoli

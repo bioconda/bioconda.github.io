@@ -50,6 +50,7 @@ bioconductor-bioqc
 
 
 .. |downloads_bioconductor-bioqc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bioqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bioqc
    :alt:   (downloads)
 .. |docker_bioconductor-bioqc| image:: https://quay.io/repository/biocontainers/bioconductor-bioqc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bioqc

@@ -48,6 +48,7 @@ dinopy
 
 
 .. |downloads_dinopy| image:: https://img.shields.io/conda/dn/bioconda/dinopy.svg?style=flat
+   :target: https://anaconda.org/bioconda/dinopy
    :alt:   (downloads)
 .. |docker_dinopy| image:: https://quay.io/repository/biocontainers/dinopy/status
    :target: https://quay.io/repository/biocontainers/dinopy

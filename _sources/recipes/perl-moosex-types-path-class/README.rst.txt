@@ -47,6 +47,7 @@ perl-moosex-types-path-class
 
 
 .. |downloads_perl-moosex-types-path-class| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-types-path-class.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-moosex-types-path-class
    :alt:   (downloads)
 .. |docker_perl-moosex-types-path-class| image:: https://quay.io/repository/biocontainers/perl-moosex-types-path-class/status
    :target: https://quay.io/repository/biocontainers/perl-moosex-types-path-class

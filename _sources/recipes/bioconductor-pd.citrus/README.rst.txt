@@ -53,6 +53,7 @@ bioconductor-pd.citrus
 
 
 .. |downloads_bioconductor-pd.citrus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.citrus.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.citrus
    :alt:   (downloads)
 .. |docker_bioconductor-pd.citrus| image:: https://quay.io/repository/biocontainers/bioconductor-pd.citrus/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.citrus

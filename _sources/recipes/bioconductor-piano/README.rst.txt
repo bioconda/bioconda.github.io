@@ -53,6 +53,7 @@ bioconductor-piano
 
 
 .. |downloads_bioconductor-piano| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-piano.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-piano
    :alt:   (downloads)
 .. |docker_bioconductor-piano| image:: https://quay.io/repository/biocontainers/bioconductor-piano/status
    :target: https://quay.io/repository/biocontainers/bioconductor-piano

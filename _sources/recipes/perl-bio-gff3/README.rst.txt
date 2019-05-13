@@ -53,6 +53,7 @@ perl-bio-gff3
 
 
 .. |downloads_perl-bio-gff3| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-gff3.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bio-gff3
    :alt:   (downloads)
 .. |docker_perl-bio-gff3| image:: https://quay.io/repository/biocontainers/perl-bio-gff3/status
    :target: https://quay.io/repository/biocontainers/perl-bio-gff3

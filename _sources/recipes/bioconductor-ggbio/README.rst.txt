@@ -73,6 +73,7 @@ bioconductor-ggbio
 
 
 .. |downloads_bioconductor-ggbio| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ggbio.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ggbio
    :alt:   (downloads)
 .. |docker_bioconductor-ggbio| image:: https://quay.io/repository/biocontainers/bioconductor-ggbio/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ggbio

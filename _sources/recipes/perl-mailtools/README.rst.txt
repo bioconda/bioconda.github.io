@@ -47,6 +47,7 @@ perl-mailtools
 
 
 .. |downloads_perl-mailtools| image:: https://img.shields.io/conda/dn/bioconda/perl-mailtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-mailtools
    :alt:   (downloads)
 .. |docker_perl-mailtools| image:: https://quay.io/repository/biocontainers/perl-mailtools/status
    :target: https://quay.io/repository/biocontainers/perl-mailtools

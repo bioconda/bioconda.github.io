@@ -46,6 +46,7 @@ orfm
 
 
 .. |downloads_orfm| image:: https://img.shields.io/conda/dn/bioconda/orfm.svg?style=flat
+   :target: https://anaconda.org/bioconda/orfm
    :alt:   (downloads)
 .. |docker_orfm| image:: https://quay.io/repository/biocontainers/orfm/status
    :target: https://quay.io/repository/biocontainers/orfm

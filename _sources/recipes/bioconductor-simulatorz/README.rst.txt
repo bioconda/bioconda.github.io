@@ -55,6 +55,7 @@ bioconductor-simulatorz
 
 
 .. |downloads_bioconductor-simulatorz| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-simulatorz.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-simulatorz
    :alt:   (downloads)
 .. |docker_bioconductor-simulatorz| image:: https://quay.io/repository/biocontainers/bioconductor-simulatorz/status
    :target: https://quay.io/repository/biocontainers/bioconductor-simulatorz

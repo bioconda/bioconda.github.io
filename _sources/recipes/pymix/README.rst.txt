@@ -56,6 +56,7 @@ pymix
 
 
 .. |downloads_pymix| image:: https://img.shields.io/conda/dn/bioconda/pymix.svg?style=flat
+   :target: https://anaconda.org/bioconda/pymix
    :alt:   (downloads)
 .. |docker_pymix| image:: https://quay.io/repository/biocontainers/pymix/status
    :target: https://quay.io/repository/biocontainers/pymix

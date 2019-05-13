@@ -49,6 +49,7 @@ nanosim-h
 
 
 .. |downloads_nanosim-h| image:: https://img.shields.io/conda/dn/bioconda/nanosim-h.svg?style=flat
+   :target: https://anaconda.org/bioconda/nanosim-h
    :alt:   (downloads)
 .. |docker_nanosim-h| image:: https://quay.io/repository/biocontainers/nanosim-h/status
    :target: https://quay.io/repository/biocontainers/nanosim-h

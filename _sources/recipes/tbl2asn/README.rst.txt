@@ -46,6 +46,7 @@ tbl2asn
 
 
 .. |downloads_tbl2asn| image:: https://img.shields.io/conda/dn/bioconda/tbl2asn.svg?style=flat
+   :target: https://anaconda.org/bioconda/tbl2asn
    :alt:   (downloads)
 .. |docker_tbl2asn| image:: https://quay.io/repository/biocontainers/tbl2asn/status
    :target: https://quay.io/repository/biocontainers/tbl2asn

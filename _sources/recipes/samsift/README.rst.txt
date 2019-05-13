@@ -47,6 +47,7 @@ samsift
 
 
 .. |downloads_samsift| image:: https://img.shields.io/conda/dn/bioconda/samsift.svg?style=flat
+   :target: https://anaconda.org/bioconda/samsift
    :alt:   (downloads)
 .. |docker_samsift| image:: https://quay.io/repository/biocontainers/samsift/status
    :target: https://quay.io/repository/biocontainers/samsift

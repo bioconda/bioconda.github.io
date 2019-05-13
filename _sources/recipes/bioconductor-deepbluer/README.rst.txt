@@ -61,6 +61,7 @@ bioconductor-deepbluer
 
 
 .. |downloads_bioconductor-deepbluer| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-deepbluer.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-deepbluer
    :alt:   (downloads)
 .. |docker_bioconductor-deepbluer| image:: https://quay.io/repository/biocontainers/bioconductor-deepbluer/status
    :target: https://quay.io/repository/biocontainers/bioconductor-deepbluer

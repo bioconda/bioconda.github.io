@@ -47,6 +47,7 @@ bioconductor-moe430acdf
 
 
 .. |downloads_bioconductor-moe430acdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-moe430acdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-moe430acdf
    :alt:   (downloads)
 .. |docker_bioconductor-moe430acdf| image:: https://quay.io/repository/biocontainers/bioconductor-moe430acdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-moe430acdf

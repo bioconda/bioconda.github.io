@@ -47,6 +47,7 @@ bioconductor-bsgenome.athaliana.tair.04232008
 
 
 .. |downloads_bioconductor-bsgenome.athaliana.tair.04232008| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-bsgenome.athaliana.tair.04232008.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-bsgenome.athaliana.tair.04232008
    :alt:   (downloads)
 .. |docker_bioconductor-bsgenome.athaliana.tair.04232008| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.athaliana.tair.04232008/status
    :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.athaliana.tair.04232008

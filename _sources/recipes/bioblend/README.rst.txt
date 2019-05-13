@@ -50,6 +50,7 @@ bioblend
 
 
 .. |downloads_bioblend| image:: https://img.shields.io/conda/dn/bioconda/bioblend.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioblend
    :alt:   (downloads)
 .. |docker_bioblend| image:: https://quay.io/repository/biocontainers/bioblend/status
    :target: https://quay.io/repository/biocontainers/bioblend

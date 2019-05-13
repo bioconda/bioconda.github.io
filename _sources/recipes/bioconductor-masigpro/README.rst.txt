@@ -50,6 +50,7 @@ bioconductor-masigpro
 
 
 .. |downloads_bioconductor-masigpro| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-masigpro.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-masigpro
    :alt:   (downloads)
 .. |docker_bioconductor-masigpro| image:: https://quay.io/repository/biocontainers/bioconductor-masigpro/status
    :target: https://quay.io/repository/biocontainers/bioconductor-masigpro

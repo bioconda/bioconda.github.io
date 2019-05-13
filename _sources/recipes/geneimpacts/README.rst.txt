@@ -45,6 +45,7 @@ geneimpacts
 
 
 .. |downloads_geneimpacts| image:: https://img.shields.io/conda/dn/bioconda/geneimpacts.svg?style=flat
+   :target: https://anaconda.org/bioconda/geneimpacts
    :alt:   (downloads)
 .. |docker_geneimpacts| image:: https://quay.io/repository/biocontainers/geneimpacts/status
    :target: https://quay.io/repository/biocontainers/geneimpacts

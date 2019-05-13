@@ -52,6 +52,7 @@ r-loose.rock
 
 
 .. |downloads_r-loose.rock| image:: https://img.shields.io/conda/dn/bioconda/r-loose.rock.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-loose.rock
    :alt:   (downloads)
 .. |docker_r-loose.rock| image:: https://quay.io/repository/biocontainers/r-loose.rock/status
    :target: https://quay.io/repository/biocontainers/r-loose.rock

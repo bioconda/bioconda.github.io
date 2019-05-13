@@ -46,6 +46,7 @@ bpp-popgen
 
 
 .. |downloads_bpp-popgen| image:: https://img.shields.io/conda/dn/bioconda/bpp-popgen.svg?style=flat
+   :target: https://anaconda.org/bioconda/bpp-popgen
    :alt:   (downloads)
 .. |docker_bpp-popgen| image:: https://quay.io/repository/biocontainers/bpp-popgen/status
    :target: https://quay.io/repository/biocontainers/bpp-popgen

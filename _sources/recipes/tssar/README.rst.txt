@@ -49,6 +49,7 @@ tssar
 
 
 .. |downloads_tssar| image:: https://img.shields.io/conda/dn/bioconda/tssar.svg?style=flat
+   :target: https://anaconda.org/bioconda/tssar
    :alt:   (downloads)
 .. |docker_tssar| image:: https://quay.io/repository/biocontainers/tssar/status
    :target: https://quay.io/repository/biocontainers/tssar

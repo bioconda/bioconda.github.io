@@ -51,6 +51,7 @@ bioconductor-famagg
 
 
 .. |downloads_bioconductor-famagg| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-famagg.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-famagg
    :alt:   (downloads)
 .. |docker_bioconductor-famagg| image:: https://quay.io/repository/biocontainers/bioconductor-famagg/status
    :target: https://quay.io/repository/biocontainers/bioconductor-famagg

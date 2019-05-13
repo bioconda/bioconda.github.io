@@ -50,6 +50,7 @@ schavott
 
 
 .. |downloads_schavott| image:: https://img.shields.io/conda/dn/bioconda/schavott.svg?style=flat
+   :target: https://anaconda.org/bioconda/schavott
    :alt:   (downloads)
 .. |docker_schavott| image:: https://quay.io/repository/biocontainers/schavott/status
    :target: https://quay.io/repository/biocontainers/schavott

@@ -46,6 +46,7 @@ cdbtools
 
 
 .. |downloads_cdbtools| image:: https://img.shields.io/conda/dn/bioconda/cdbtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/cdbtools
    :alt:   (downloads)
 .. |docker_cdbtools| image:: https://quay.io/repository/biocontainers/cdbtools/status
    :target: https://quay.io/repository/biocontainers/cdbtools

@@ -61,6 +61,7 @@ bioconductor-genesis
 
 
 .. |downloads_bioconductor-genesis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genesis.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genesis
    :alt:   (downloads)
 .. |docker_bioconductor-genesis| image:: https://quay.io/repository/biocontainers/bioconductor-genesis/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genesis

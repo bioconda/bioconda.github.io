@@ -46,6 +46,7 @@ perl-module-corelist
 
 
 .. |downloads_perl-module-corelist| image:: https://img.shields.io/conda/dn/bioconda/perl-module-corelist.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-module-corelist
    :alt:   (downloads)
 .. |docker_perl-module-corelist| image:: https://quay.io/repository/biocontainers/perl-module-corelist/status
    :target: https://quay.io/repository/biocontainers/perl-module-corelist

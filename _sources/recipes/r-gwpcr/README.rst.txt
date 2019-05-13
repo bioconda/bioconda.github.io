@@ -49,6 +49,7 @@ r-gwpcr
 
 
 .. |downloads_r-gwpcr| image:: https://img.shields.io/conda/dn/bioconda/r-gwpcr.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-gwpcr
    :alt:   (downloads)
 .. |docker_r-gwpcr| image:: https://quay.io/repository/biocontainers/r-gwpcr/status
    :target: https://quay.io/repository/biocontainers/r-gwpcr

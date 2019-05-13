@@ -51,6 +51,7 @@ perl-file-temp
 
 
 .. |downloads_perl-file-temp| image:: https://img.shields.io/conda/dn/bioconda/perl-file-temp.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-file-temp
    :alt:   (downloads)
 .. |docker_perl-file-temp| image:: https://quay.io/repository/biocontainers/perl-file-temp/status
    :target: https://quay.io/repository/biocontainers/perl-file-temp

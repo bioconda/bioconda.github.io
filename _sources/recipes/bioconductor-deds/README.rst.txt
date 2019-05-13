@@ -46,6 +46,7 @@ bioconductor-deds
 
 
 .. |downloads_bioconductor-deds| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-deds.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-deds
    :alt:   (downloads)
 .. |docker_bioconductor-deds| image:: https://quay.io/repository/biocontainers/bioconductor-deds/status
    :target: https://quay.io/repository/biocontainers/bioconductor-deds

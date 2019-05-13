@@ -47,6 +47,7 @@ nanostat
 
 
 .. |downloads_nanostat| image:: https://img.shields.io/conda/dn/bioconda/nanostat.svg?style=flat
+   :target: https://anaconda.org/bioconda/nanostat
    :alt:   (downloads)
 .. |docker_nanostat| image:: https://quay.io/repository/biocontainers/nanostat/status
    :target: https://quay.io/repository/biocontainers/nanostat

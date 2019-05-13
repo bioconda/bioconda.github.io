@@ -46,6 +46,7 @@ bioconductor-tissuetreg
 
 
 .. |downloads_bioconductor-tissuetreg| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-tissuetreg.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-tissuetreg
    :alt:   (downloads)
 .. |docker_bioconductor-tissuetreg| image:: https://quay.io/repository/biocontainers/bioconductor-tissuetreg/status
    :target: https://quay.io/repository/biocontainers/bioconductor-tissuetreg

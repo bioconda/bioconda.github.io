@@ -53,6 +53,7 @@ netreg
 
 
 .. |downloads_netreg| image:: https://img.shields.io/conda/dn/bioconda/netreg.svg?style=flat
+   :target: https://anaconda.org/bioconda/netreg
    :alt:   (downloads)
 .. |docker_netreg| image:: https://quay.io/repository/biocontainers/netreg/status
    :target: https://quay.io/repository/biocontainers/netreg

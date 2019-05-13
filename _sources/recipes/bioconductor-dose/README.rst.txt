@@ -55,6 +55,7 @@ bioconductor-dose
 
 
 .. |downloads_bioconductor-dose| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dose.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dose
    :alt:   (downloads)
 .. |docker_bioconductor-dose| image:: https://quay.io/repository/biocontainers/bioconductor-dose/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dose

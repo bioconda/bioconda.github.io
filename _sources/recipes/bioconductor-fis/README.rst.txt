@@ -46,6 +46,7 @@ bioconductor-fis
 
 
 .. |downloads_bioconductor-fis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fis.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-fis
    :alt:   (downloads)
 .. |docker_bioconductor-fis| image:: https://quay.io/repository/biocontainers/bioconductor-fis/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fis

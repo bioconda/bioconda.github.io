@@ -56,6 +56,7 @@ sonicparanoid
 
 
 .. |downloads_sonicparanoid| image:: https://img.shields.io/conda/dn/bioconda/sonicparanoid.svg?style=flat
+   :target: https://anaconda.org/bioconda/sonicparanoid
    :alt:   (downloads)
 .. |docker_sonicparanoid| image:: https://quay.io/repository/biocontainers/sonicparanoid/status
    :target: https://quay.io/repository/biocontainers/sonicparanoid

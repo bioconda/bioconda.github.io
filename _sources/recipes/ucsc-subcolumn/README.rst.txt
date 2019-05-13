@@ -50,6 +50,7 @@ ucsc-subcolumn
 
 
 .. |downloads_ucsc-subcolumn| image:: https://img.shields.io/conda/dn/bioconda/ucsc-subcolumn.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-subcolumn
    :alt:   (downloads)
 .. |docker_ucsc-subcolumn| image:: https://quay.io/repository/biocontainers/ucsc-subcolumn/status
    :target: https://quay.io/repository/biocontainers/ucsc-subcolumn

@@ -47,6 +47,7 @@ bioconductor-cottoncdf
 
 
 .. |downloads_bioconductor-cottoncdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-cottoncdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-cottoncdf
    :alt:   (downloads)
 .. |docker_bioconductor-cottoncdf| image:: https://quay.io/repository/biocontainers/bioconductor-cottoncdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-cottoncdf

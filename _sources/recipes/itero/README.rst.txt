@@ -58,6 +58,7 @@ itero
 
 
 .. |downloads_itero| image:: https://img.shields.io/conda/dn/bioconda/itero.svg?style=flat
+   :target: https://anaconda.org/bioconda/itero
    :alt:   (downloads)
 .. |docker_itero| image:: https://quay.io/repository/biocontainers/itero/status
    :target: https://quay.io/repository/biocontainers/itero

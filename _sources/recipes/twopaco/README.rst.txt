@@ -47,6 +47,7 @@ twopaco
 
 
 .. |downloads_twopaco| image:: https://img.shields.io/conda/dn/bioconda/twopaco.svg?style=flat
+   :target: https://anaconda.org/bioconda/twopaco
    :alt:   (downloads)
 .. |docker_twopaco| image:: https://quay.io/repository/biocontainers/twopaco/status
    :target: https://quay.io/repository/biocontainers/twopaco

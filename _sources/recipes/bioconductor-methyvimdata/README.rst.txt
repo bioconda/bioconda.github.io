@@ -47,6 +47,7 @@ bioconductor-methyvimdata
 
 
 .. |downloads_bioconductor-methyvimdata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-methyvimdata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-methyvimdata
    :alt:   (downloads)
 .. |docker_bioconductor-methyvimdata| image:: https://quay.io/repository/biocontainers/bioconductor-methyvimdata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-methyvimdata

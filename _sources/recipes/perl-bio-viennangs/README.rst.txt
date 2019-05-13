@@ -80,6 +80,7 @@ perl-bio-viennangs
 
 
 .. |downloads_perl-bio-viennangs| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-viennangs.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-bio-viennangs
    :alt:   (downloads)
 .. |docker_perl-bio-viennangs| image:: https://quay.io/repository/biocontainers/perl-bio-viennangs/status
    :target: https://quay.io/repository/biocontainers/perl-bio-viennangs

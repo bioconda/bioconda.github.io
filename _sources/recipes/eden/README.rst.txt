@@ -65,6 +65,7 @@ eden
 
 
 .. |downloads_eden| image:: https://img.shields.io/conda/dn/bioconda/eden.svg?style=flat
+   :target: https://anaconda.org/bioconda/eden
    :alt:   (downloads)
 .. |docker_eden| image:: https://quay.io/repository/biocontainers/eden/status
    :target: https://quay.io/repository/biocontainers/eden

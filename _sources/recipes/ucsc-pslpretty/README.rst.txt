@@ -50,6 +50,7 @@ ucsc-pslpretty
 
 
 .. |downloads_ucsc-pslpretty| image:: https://img.shields.io/conda/dn/bioconda/ucsc-pslpretty.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-pslpretty
    :alt:   (downloads)
 .. |docker_ucsc-pslpretty| image:: https://quay.io/repository/biocontainers/ucsc-pslpretty/status
    :target: https://quay.io/repository/biocontainers/ucsc-pslpretty

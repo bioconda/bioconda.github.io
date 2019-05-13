@@ -46,6 +46,7 @@ bioconductor-gsar
 
 
 .. |downloads_bioconductor-gsar| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-gsar.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-gsar
    :alt:   (downloads)
 .. |docker_bioconductor-gsar| image:: https://quay.io/repository/biocontainers/bioconductor-gsar/status
    :target: https://quay.io/repository/biocontainers/bioconductor-gsar

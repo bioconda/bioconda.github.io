@@ -56,6 +56,7 @@ snvphyl-tools
 
 
 .. |downloads_snvphyl-tools| image:: https://img.shields.io/conda/dn/bioconda/snvphyl-tools.svg?style=flat
+   :target: https://anaconda.org/bioconda/snvphyl-tools
    :alt:   (downloads)
 .. |docker_snvphyl-tools| image:: https://quay.io/repository/biocontainers/snvphyl-tools/status
    :target: https://quay.io/repository/biocontainers/snvphyl-tools

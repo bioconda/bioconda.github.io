@@ -49,6 +49,7 @@ howdesbt
 
 
 .. |downloads_howdesbt| image:: https://img.shields.io/conda/dn/bioconda/howdesbt.svg?style=flat
+   :target: https://anaconda.org/bioconda/howdesbt
    :alt:   (downloads)
 .. |docker_howdesbt| image:: https://quay.io/repository/biocontainers/howdesbt/status
    :target: https://quay.io/repository/biocontainers/howdesbt

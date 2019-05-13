@@ -51,6 +51,7 @@ binsanity
 
 
 .. |downloads_binsanity| image:: https://img.shields.io/conda/dn/bioconda/binsanity.svg?style=flat
+   :target: https://anaconda.org/bioconda/binsanity
    :alt:   (downloads)
 .. |docker_binsanity| image:: https://quay.io/repository/biocontainers/binsanity/status
    :target: https://quay.io/repository/biocontainers/binsanity

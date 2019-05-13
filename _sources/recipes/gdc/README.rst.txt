@@ -47,6 +47,7 @@ gdc
 
 
 .. |downloads_gdc| image:: https://img.shields.io/conda/dn/bioconda/gdc.svg?style=flat
+   :target: https://anaconda.org/bioconda/gdc
    :alt:   (downloads)
 .. |docker_gdc| image:: https://quay.io/repository/biocontainers/gdc/status
    :target: https://quay.io/repository/biocontainers/gdc

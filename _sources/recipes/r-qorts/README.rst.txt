@@ -45,6 +45,7 @@ r-qorts
 
 
 .. |downloads_r-qorts| image:: https://img.shields.io/conda/dn/bioconda/r-qorts.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-qorts
    :alt:   (downloads)
 .. |docker_r-qorts| image:: https://quay.io/repository/biocontainers/r-qorts/status
    :target: https://quay.io/repository/biocontainers/r-qorts

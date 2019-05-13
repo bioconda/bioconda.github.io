@@ -62,6 +62,7 @@ bioconductor-srnadiff
 
 
 .. |downloads_bioconductor-srnadiff| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-srnadiff.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-srnadiff
    :alt:   (downloads)
 .. |docker_bioconductor-srnadiff| image:: https://quay.io/repository/biocontainers/bioconductor-srnadiff/status
    :target: https://quay.io/repository/biocontainers/bioconductor-srnadiff

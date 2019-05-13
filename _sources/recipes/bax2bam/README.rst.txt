@@ -50,6 +50,7 @@ bax2bam
 
 
 .. |downloads_bax2bam| image:: https://img.shields.io/conda/dn/bioconda/bax2bam.svg?style=flat
+   :target: https://anaconda.org/bioconda/bax2bam
    :alt:   (downloads)
 .. |docker_bax2bam| image:: https://quay.io/repository/biocontainers/bax2bam/status
    :target: https://quay.io/repository/biocontainers/bax2bam

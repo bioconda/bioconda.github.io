@@ -52,6 +52,7 @@ perl-sanger-cgp-battenberg
 
 
 .. |downloads_perl-sanger-cgp-battenberg| image:: https://img.shields.io/conda/dn/bioconda/perl-sanger-cgp-battenberg.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-sanger-cgp-battenberg
    :alt:   (downloads)
 .. |docker_perl-sanger-cgp-battenberg| image:: https://quay.io/repository/biocontainers/perl-sanger-cgp-battenberg/status
    :target: https://quay.io/repository/biocontainers/perl-sanger-cgp-battenberg

@@ -47,6 +47,7 @@ bioconductor-rmir.hs.mirna
 
 
 .. |downloads_bioconductor-rmir.hs.mirna| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rmir.hs.mirna.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rmir.hs.mirna
    :alt:   (downloads)
 .. |docker_bioconductor-rmir.hs.mirna| image:: https://quay.io/repository/biocontainers/bioconductor-rmir.hs.mirna/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rmir.hs.mirna

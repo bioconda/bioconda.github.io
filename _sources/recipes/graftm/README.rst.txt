@@ -54,6 +54,7 @@ graftm
 
 
 .. |downloads_graftm| image:: https://img.shields.io/conda/dn/bioconda/graftm.svg?style=flat
+   :target: https://anaconda.org/bioconda/graftm
    :alt:   (downloads)
 .. |docker_graftm| image:: https://quay.io/repository/biocontainers/graftm/status
    :target: https://quay.io/repository/biocontainers/graftm

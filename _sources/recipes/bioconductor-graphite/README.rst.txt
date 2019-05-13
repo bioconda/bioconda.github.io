@@ -51,6 +51,7 @@ bioconductor-graphite
 
 
 .. |downloads_bioconductor-graphite| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-graphite.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-graphite
    :alt:   (downloads)
 .. |docker_bioconductor-graphite| image:: https://quay.io/repository/biocontainers/bioconductor-graphite/status
    :target: https://quay.io/repository/biocontainers/bioconductor-graphite

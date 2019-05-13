@@ -49,6 +49,7 @@ bioconductor-idiogram
 
 
 .. |downloads_bioconductor-idiogram| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-idiogram.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-idiogram
    :alt:   (downloads)
 .. |docker_bioconductor-idiogram| image:: https://quay.io/repository/biocontainers/bioconductor-idiogram/status
    :target: https://quay.io/repository/biocontainers/bioconductor-idiogram

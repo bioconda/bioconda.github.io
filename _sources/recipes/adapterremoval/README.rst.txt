@@ -47,6 +47,7 @@ adapterremoval
 
 
 .. |downloads_adapterremoval| image:: https://img.shields.io/conda/dn/bioconda/adapterremoval.svg?style=flat
+   :target: https://anaconda.org/bioconda/adapterremoval
    :alt:   (downloads)
 .. |docker_adapterremoval| image:: https://quay.io/repository/biocontainers/adapterremoval/status
    :target: https://quay.io/repository/biocontainers/adapterremoval

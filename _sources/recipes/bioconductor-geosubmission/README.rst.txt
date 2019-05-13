@@ -48,6 +48,7 @@ bioconductor-geosubmission
 
 
 .. |downloads_bioconductor-geosubmission| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-geosubmission.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-geosubmission
    :alt:   (downloads)
 .. |docker_bioconductor-geosubmission| image:: https://quay.io/repository/biocontainers/bioconductor-geosubmission/status
    :target: https://quay.io/repository/biocontainers/bioconductor-geosubmission

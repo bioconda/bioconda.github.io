@@ -61,6 +61,7 @@ bioconductor-msnid
 
 
 .. |downloads_bioconductor-msnid| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-msnid.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-msnid
    :alt:   (downloads)
 .. |docker_bioconductor-msnid| image:: https://quay.io/repository/biocontainers/bioconductor-msnid/status
    :target: https://quay.io/repository/biocontainers/bioconductor-msnid

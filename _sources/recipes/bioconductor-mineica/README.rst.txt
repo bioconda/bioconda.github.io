@@ -72,6 +72,7 @@ bioconductor-mineica
 
 
 .. |downloads_bioconductor-mineica| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mineica.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mineica
    :alt:   (downloads)
 .. |docker_bioconductor-mineica| image:: https://quay.io/repository/biocontainers/bioconductor-mineica/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mineica

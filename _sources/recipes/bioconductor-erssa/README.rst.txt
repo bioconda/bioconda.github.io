@@ -51,6 +51,7 @@ bioconductor-erssa
 
 
 .. |downloads_bioconductor-erssa| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-erssa.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-erssa
    :alt:   (downloads)
 .. |docker_bioconductor-erssa| image:: https://quay.io/repository/biocontainers/bioconductor-erssa/status
    :target: https://quay.io/repository/biocontainers/bioconductor-erssa

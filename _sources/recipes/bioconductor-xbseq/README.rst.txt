@@ -55,6 +55,7 @@ bioconductor-xbseq
 
 
 .. |downloads_bioconductor-xbseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-xbseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-xbseq
    :alt:   (downloads)
 .. |docker_bioconductor-xbseq| image:: https://quay.io/repository/biocontainers/bioconductor-xbseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-xbseq

@@ -57,6 +57,7 @@ bioconductor-rmmquant
 
 
 .. |downloads_bioconductor-rmmquant| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rmmquant.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rmmquant
    :alt:   (downloads)
 .. |docker_bioconductor-rmmquant| image:: https://quay.io/repository/biocontainers/bioconductor-rmmquant/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rmmquant

@@ -46,6 +46,7 @@ perl-net-ftp-recursive
 
 
 .. |downloads_perl-net-ftp-recursive| image:: https://img.shields.io/conda/dn/bioconda/perl-net-ftp-recursive.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-net-ftp-recursive
    :alt:   (downloads)
 .. |docker_perl-net-ftp-recursive| image:: https://quay.io/repository/biocontainers/perl-net-ftp-recursive/status
    :target: https://quay.io/repository/biocontainers/perl-net-ftp-recursive

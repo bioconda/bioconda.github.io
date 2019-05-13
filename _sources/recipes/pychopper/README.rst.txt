@@ -52,6 +52,7 @@ pychopper
 
 
 .. |downloads_pychopper| image:: https://img.shields.io/conda/dn/bioconda/pychopper.svg?style=flat
+   :target: https://anaconda.org/bioconda/pychopper
    :alt:   (downloads)
 .. |docker_pychopper| image:: https://quay.io/repository/biocontainers/pychopper/status
    :target: https://quay.io/repository/biocontainers/pychopper

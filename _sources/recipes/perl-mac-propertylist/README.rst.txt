@@ -50,6 +50,7 @@ perl-mac-propertylist
 
 
 .. |downloads_perl-mac-propertylist| image:: https://img.shields.io/conda/dn/bioconda/perl-mac-propertylist.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-mac-propertylist
    :alt:   (downloads)
 .. |docker_perl-mac-propertylist| image:: https://quay.io/repository/biocontainers/perl-mac-propertylist/status
    :target: https://quay.io/repository/biocontainers/perl-mac-propertylist

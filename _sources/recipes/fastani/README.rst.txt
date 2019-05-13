@@ -48,6 +48,7 @@ fastani
 
 
 .. |downloads_fastani| image:: https://img.shields.io/conda/dn/bioconda/fastani.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastani
    :alt:   (downloads)
 .. |docker_fastani| image:: https://quay.io/repository/biocontainers/fastani/status
    :target: https://quay.io/repository/biocontainers/fastani

@@ -66,6 +66,7 @@ bioconductor-diffhic
 
 
 .. |downloads_bioconductor-diffhic| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-diffhic.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-diffhic
    :alt:   (downloads)
 .. |docker_bioconductor-diffhic| image:: https://quay.io/repository/biocontainers/bioconductor-diffhic/status
    :target: https://quay.io/repository/biocontainers/bioconductor-diffhic

@@ -56,6 +56,7 @@ virmet
 
 
 .. |downloads_virmet| image:: https://img.shields.io/conda/dn/bioconda/virmet.svg?style=flat
+   :target: https://anaconda.org/bioconda/virmet
    :alt:   (downloads)
 .. |docker_virmet| image:: https://quay.io/repository/biocontainers/virmet/status
    :target: https://quay.io/repository/biocontainers/virmet

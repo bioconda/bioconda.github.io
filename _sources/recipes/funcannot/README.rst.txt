@@ -46,6 +46,7 @@ funcannot
 
 
 .. |downloads_funcannot| image:: https://img.shields.io/conda/dn/bioconda/funcannot.svg?style=flat
+   :target: https://anaconda.org/bioconda/funcannot
    :alt:   (downloads)
 .. |docker_funcannot| image:: https://quay.io/repository/biocontainers/funcannot/status
    :target: https://quay.io/repository/biocontainers/funcannot

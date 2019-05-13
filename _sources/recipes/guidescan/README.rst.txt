@@ -59,6 +59,7 @@ guidescan
 
 
 .. |downloads_guidescan| image:: https://img.shields.io/conda/dn/bioconda/guidescan.svg?style=flat
+   :target: https://anaconda.org/bioconda/guidescan
    :alt:   (downloads)
 .. |docker_guidescan| image:: https://quay.io/repository/biocontainers/guidescan/status
    :target: https://quay.io/repository/biocontainers/guidescan

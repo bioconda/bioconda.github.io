@@ -45,6 +45,7 @@ epydoc
 
 
 .. |downloads_epydoc| image:: https://img.shields.io/conda/dn/bioconda/epydoc.svg?style=flat
+   :target: https://anaconda.org/bioconda/epydoc
    :alt:   (downloads)
 .. |docker_epydoc| image:: https://quay.io/repository/biocontainers/epydoc/status
    :target: https://quay.io/repository/biocontainers/epydoc

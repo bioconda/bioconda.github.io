@@ -48,6 +48,7 @@ bioconductor-genemeta
 
 
 .. |downloads_bioconductor-genemeta| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genemeta.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genemeta
    :alt:   (downloads)
 .. |docker_bioconductor-genemeta| image:: https://quay.io/repository/biocontainers/bioconductor-genemeta/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genemeta

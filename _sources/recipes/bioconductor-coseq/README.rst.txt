@@ -60,6 +60,7 @@ bioconductor-coseq
 
 
 .. |downloads_bioconductor-coseq| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-coseq.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-coseq
    :alt:   (downloads)
 .. |docker_bioconductor-coseq| image:: https://quay.io/repository/biocontainers/bioconductor-coseq/status
    :target: https://quay.io/repository/biocontainers/bioconductor-coseq

@@ -48,6 +48,7 @@ pash
 
 
 .. |downloads_pash| image:: https://img.shields.io/conda/dn/bioconda/pash.svg?style=flat
+   :target: https://anaconda.org/bioconda/pash
    :alt:   (downloads)
 .. |docker_pash| image:: https://quay.io/repository/biocontainers/pash/status
    :target: https://quay.io/repository/biocontainers/pash

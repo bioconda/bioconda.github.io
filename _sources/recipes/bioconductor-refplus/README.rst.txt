@@ -50,6 +50,7 @@ bioconductor-refplus
 
 
 .. |downloads_bioconductor-refplus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-refplus.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-refplus
    :alt:   (downloads)
 .. |docker_bioconductor-refplus| image:: https://quay.io/repository/biocontainers/bioconductor-refplus/status
    :target: https://quay.io/repository/biocontainers/bioconductor-refplus

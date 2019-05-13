@@ -45,6 +45,7 @@ varfish-annotator-cli
 
 
 .. |downloads_varfish-annotator-cli| image:: https://img.shields.io/conda/dn/bioconda/varfish-annotator-cli.svg?style=flat
+   :target: https://anaconda.org/bioconda/varfish-annotator-cli
    :alt:   (downloads)
 .. |docker_varfish-annotator-cli| image:: https://quay.io/repository/biocontainers/varfish-annotator-cli/status
    :target: https://quay.io/repository/biocontainers/varfish-annotator-cli

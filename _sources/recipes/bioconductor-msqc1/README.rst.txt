@@ -47,6 +47,7 @@ bioconductor-msqc1
 
 
 .. |downloads_bioconductor-msqc1| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-msqc1.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-msqc1
    :alt:   (downloads)
 .. |docker_bioconductor-msqc1| image:: https://quay.io/repository/biocontainers/bioconductor-msqc1/status
    :target: https://quay.io/repository/biocontainers/bioconductor-msqc1

@@ -45,6 +45,7 @@ perl-set-scalar
 
 
 .. |downloads_perl-set-scalar| image:: https://img.shields.io/conda/dn/bioconda/perl-set-scalar.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-set-scalar
    :alt:   (downloads)
 .. |docker_perl-set-scalar| image:: https://quay.io/repository/biocontainers/perl-set-scalar/status
    :target: https://quay.io/repository/biocontainers/perl-set-scalar

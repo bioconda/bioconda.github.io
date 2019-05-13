@@ -46,6 +46,7 @@ perl-json
 
 
 .. |downloads_perl-json| image:: https://img.shields.io/conda/dn/bioconda/perl-json.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-json
    :alt:   (downloads)
 .. |docker_perl-json| image:: https://quay.io/repository/biocontainers/perl-json/status
    :target: https://quay.io/repository/biocontainers/perl-json

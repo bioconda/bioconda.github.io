@@ -47,6 +47,7 @@ bioconductor-iyer517
 
 
 .. |downloads_bioconductor-iyer517| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-iyer517.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-iyer517
    :alt:   (downloads)
 .. |docker_bioconductor-iyer517| image:: https://quay.io/repository/biocontainers/bioconductor-iyer517/status
    :target: https://quay.io/repository/biocontainers/bioconductor-iyer517

@@ -46,6 +46,7 @@ deploid
 
 
 .. |downloads_deploid| image:: https://img.shields.io/conda/dn/bioconda/deploid.svg?style=flat
+   :target: https://anaconda.org/bioconda/deploid
    :alt:   (downloads)
 .. |docker_deploid| image:: https://quay.io/repository/biocontainers/deploid/status
    :target: https://quay.io/repository/biocontainers/deploid

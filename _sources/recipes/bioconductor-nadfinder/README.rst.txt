@@ -64,6 +64,7 @@ bioconductor-nadfinder
 
 
 .. |downloads_bioconductor-nadfinder| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-nadfinder.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-nadfinder
    :alt:   (downloads)
 .. |docker_bioconductor-nadfinder| image:: https://quay.io/repository/biocontainers/bioconductor-nadfinder/status
    :target: https://quay.io/repository/biocontainers/bioconductor-nadfinder

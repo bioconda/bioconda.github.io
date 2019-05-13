@@ -50,6 +50,7 @@ bioconductor-vegamc
 
 
 .. |downloads_bioconductor-vegamc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-vegamc.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-vegamc
    :alt:   (downloads)
 .. |docker_bioconductor-vegamc| image:: https://quay.io/repository/biocontainers/bioconductor-vegamc/status
    :target: https://quay.io/repository/biocontainers/bioconductor-vegamc

@@ -45,6 +45,7 @@ gtf_to_genes
 
 
 .. |downloads_gtf_to_genes| image:: https://img.shields.io/conda/dn/bioconda/gtf_to_genes.svg?style=flat
+   :target: https://anaconda.org/bioconda/gtf_to_genes
    :alt:   (downloads)
 .. |docker_gtf_to_genes| image:: https://quay.io/repository/biocontainers/gtf_to_genes/status
    :target: https://quay.io/repository/biocontainers/gtf_to_genes

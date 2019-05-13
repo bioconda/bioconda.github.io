@@ -57,6 +57,7 @@ metaprob
 
 
 .. |downloads_metaprob| image:: https://img.shields.io/conda/dn/bioconda/metaprob.svg?style=flat
+   :target: https://anaconda.org/bioconda/metaprob
    :alt:   (downloads)
 .. |docker_metaprob| image:: https://quay.io/repository/biocontainers/metaprob/status
    :target: https://quay.io/repository/biocontainers/metaprob

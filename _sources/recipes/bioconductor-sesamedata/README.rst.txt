@@ -49,6 +49,7 @@ bioconductor-sesamedata
 
 
 .. |downloads_bioconductor-sesamedata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-sesamedata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-sesamedata
    :alt:   (downloads)
 .. |docker_bioconductor-sesamedata| image:: https://quay.io/repository/biocontainers/bioconductor-sesamedata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-sesamedata

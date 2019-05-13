@@ -48,6 +48,7 @@ bioconductor-copyneutralima
 
 
 .. |downloads_bioconductor-copyneutralima| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-copyneutralima.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-copyneutralima
    :alt:   (downloads)
 .. |docker_bioconductor-copyneutralima| image:: https://quay.io/repository/biocontainers/bioconductor-copyneutralima/status
    :target: https://quay.io/repository/biocontainers/bioconductor-copyneutralima

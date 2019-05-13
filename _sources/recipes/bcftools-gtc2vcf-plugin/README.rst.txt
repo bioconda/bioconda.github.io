@@ -51,6 +51,7 @@ bcftools-gtc2vcf-plugin
 
 
 .. |downloads_bcftools-gtc2vcf-plugin| image:: https://img.shields.io/conda/dn/bioconda/bcftools-gtc2vcf-plugin.svg?style=flat
+   :target: https://anaconda.org/bioconda/bcftools-gtc2vcf-plugin
    :alt:   (downloads)
 .. |docker_bcftools-gtc2vcf-plugin| image:: https://quay.io/repository/biocontainers/bcftools-gtc2vcf-plugin/status
    :target: https://quay.io/repository/biocontainers/bcftools-gtc2vcf-plugin

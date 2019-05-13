@@ -54,6 +54,7 @@ biopet-validatefastq
 
 
 .. |downloads_biopet-validatefastq| image:: https://img.shields.io/conda/dn/bioconda/biopet-validatefastq.svg?style=flat
+   :target: https://anaconda.org/bioconda/biopet-validatefastq
    :alt:   (downloads)
 .. |docker_biopet-validatefastq| image:: https://quay.io/repository/biocontainers/biopet-validatefastq/status
    :target: https://quay.io/repository/biocontainers/biopet-validatefastq

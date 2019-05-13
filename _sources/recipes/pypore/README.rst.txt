@@ -46,6 +46,7 @@ pypore
 
 
 .. |downloads_pypore| image:: https://img.shields.io/conda/dn/bioconda/pypore.svg?style=flat
+   :target: https://anaconda.org/bioconda/pypore
    :alt:   (downloads)
 .. |docker_pypore| image:: https://quay.io/repository/biocontainers/pypore/status
    :target: https://quay.io/repository/biocontainers/pypore

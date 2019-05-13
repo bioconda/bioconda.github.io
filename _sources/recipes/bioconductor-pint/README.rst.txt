@@ -49,6 +49,7 @@ bioconductor-pint
 
 
 .. |downloads_bioconductor-pint| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pint.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pint
    :alt:   (downloads)
 .. |docker_bioconductor-pint| image:: https://quay.io/repository/biocontainers/bioconductor-pint/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pint

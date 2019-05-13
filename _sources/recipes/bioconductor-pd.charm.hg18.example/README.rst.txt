@@ -52,6 +52,7 @@ bioconductor-pd.charm.hg18.example
 
 
 .. |downloads_bioconductor-pd.charm.hg18.example| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pd.charm.hg18.example.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pd.charm.hg18.example
    :alt:   (downloads)
 .. |docker_bioconductor-pd.charm.hg18.example| image:: https://quay.io/repository/biocontainers/bioconductor-pd.charm.hg18.example/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pd.charm.hg18.example

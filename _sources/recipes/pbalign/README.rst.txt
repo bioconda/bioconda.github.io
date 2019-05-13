@@ -52,6 +52,7 @@ pbalign
 
 
 .. |downloads_pbalign| image:: https://img.shields.io/conda/dn/bioconda/pbalign.svg?style=flat
+   :target: https://anaconda.org/bioconda/pbalign
    :alt:   (downloads)
 .. |docker_pbalign| image:: https://quay.io/repository/biocontainers/pbalign/status
    :target: https://quay.io/repository/biocontainers/pbalign

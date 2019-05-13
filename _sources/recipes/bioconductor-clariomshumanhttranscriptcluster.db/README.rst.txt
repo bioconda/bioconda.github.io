@@ -48,6 +48,7 @@ bioconductor-clariomshumanhttranscriptcluster.db
 
 
 .. |downloads_bioconductor-clariomshumanhttranscriptcluster.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-clariomshumanhttranscriptcluster.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-clariomshumanhttranscriptcluster.db
    :alt:   (downloads)
 .. |docker_bioconductor-clariomshumanhttranscriptcluster.db| image:: https://quay.io/repository/biocontainers/bioconductor-clariomshumanhttranscriptcluster.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-clariomshumanhttranscriptcluster.db

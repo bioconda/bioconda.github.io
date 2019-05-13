@@ -52,6 +52,7 @@ r-rsnps
 
 
 .. |downloads_r-rsnps| image:: https://img.shields.io/conda/dn/bioconda/r-rsnps.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-rsnps
    :alt:   (downloads)
 .. |docker_r-rsnps| image:: https://quay.io/repository/biocontainers/r-rsnps/status
    :target: https://quay.io/repository/biocontainers/r-rsnps

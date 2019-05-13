@@ -50,6 +50,7 @@ wtforms-components
 
 
 .. |downloads_wtforms-components| image:: https://img.shields.io/conda/dn/bioconda/wtforms-components.svg?style=flat
+   :target: https://anaconda.org/bioconda/wtforms-components
    :alt:   (downloads)
 .. |docker_wtforms-components| image:: https://quay.io/repository/biocontainers/wtforms-components/status
    :target: https://quay.io/repository/biocontainers/wtforms-components

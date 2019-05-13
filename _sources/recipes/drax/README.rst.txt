@@ -56,6 +56,7 @@ drax
 
 
 .. |downloads_drax| image:: https://img.shields.io/conda/dn/bioconda/drax.svg?style=flat
+   :target: https://anaconda.org/bioconda/drax
    :alt:   (downloads)
 .. |docker_drax| image:: https://quay.io/repository/biocontainers/drax/status
    :target: https://quay.io/repository/biocontainers/drax

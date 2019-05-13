@@ -60,6 +60,7 @@ secimtools
 
 
 .. |downloads_secimtools| image:: https://img.shields.io/conda/dn/bioconda/secimtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/secimtools
    :alt:   (downloads)
 .. |docker_secimtools| image:: https://quay.io/repository/biocontainers/secimtools/status
    :target: https://quay.io/repository/biocontainers/secimtools

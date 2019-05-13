@@ -46,6 +46,7 @@ cortex_con
 
 
 .. |downloads_cortex_con| image:: https://img.shields.io/conda/dn/bioconda/cortex_con.svg?style=flat
+   :target: https://anaconda.org/bioconda/cortex_con
    :alt:   (downloads)
 .. |docker_cortex_con| image:: https://quay.io/repository/biocontainers/cortex_con/status
    :target: https://quay.io/repository/biocontainers/cortex_con

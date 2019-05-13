@@ -54,6 +54,7 @@ bioconductor-pathview
 
 
 .. |downloads_bioconductor-pathview| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-pathview.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-pathview
    :alt:   (downloads)
 .. |docker_bioconductor-pathview| image:: https://quay.io/repository/biocontainers/bioconductor-pathview/status
    :target: https://quay.io/repository/biocontainers/bioconductor-pathview

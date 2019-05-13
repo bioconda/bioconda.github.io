@@ -45,6 +45,7 @@ perl-math-round
 
 
 .. |downloads_perl-math-round| image:: https://img.shields.io/conda/dn/bioconda/perl-math-round.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-math-round
    :alt:   (downloads)
 .. |docker_perl-math-round| image:: https://quay.io/repository/biocontainers/perl-math-round/status
    :target: https://quay.io/repository/biocontainers/perl-math-round

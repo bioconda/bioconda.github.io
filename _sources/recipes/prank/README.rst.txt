@@ -47,6 +47,7 @@ prank
 
 
 .. |downloads_prank| image:: https://img.shields.io/conda/dn/bioconda/prank.svg?style=flat
+   :target: https://anaconda.org/bioconda/prank
    :alt:   (downloads)
 .. |docker_prank| image:: https://quay.io/repository/biocontainers/prank/status
    :target: https://quay.io/repository/biocontainers/prank

@@ -56,6 +56,7 @@ bioconductor-multidataset
 
 
 .. |downloads_bioconductor-multidataset| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-multidataset.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-multidataset
    :alt:   (downloads)
 .. |docker_bioconductor-multidataset| image:: https://quay.io/repository/biocontainers/bioconductor-multidataset/status
    :target: https://quay.io/repository/biocontainers/bioconductor-multidataset

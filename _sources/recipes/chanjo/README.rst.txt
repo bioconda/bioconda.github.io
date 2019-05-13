@@ -53,6 +53,7 @@ chanjo
 
 
 .. |downloads_chanjo| image:: https://img.shields.io/conda/dn/bioconda/chanjo.svg?style=flat
+   :target: https://anaconda.org/bioconda/chanjo
    :alt:   (downloads)
 .. |docker_chanjo| image:: https://quay.io/repository/biocontainers/chanjo/status
    :target: https://quay.io/repository/biocontainers/chanjo

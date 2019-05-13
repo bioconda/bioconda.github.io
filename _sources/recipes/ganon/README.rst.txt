@@ -51,6 +51,7 @@ ganon
 
 
 .. |downloads_ganon| image:: https://img.shields.io/conda/dn/bioconda/ganon.svg?style=flat
+   :target: https://anaconda.org/bioconda/ganon
    :alt:   (downloads)
 .. |docker_ganon| image:: https://quay.io/repository/biocontainers/ganon/status
    :target: https://quay.io/repository/biocontainers/ganon

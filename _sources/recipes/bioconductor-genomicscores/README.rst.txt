@@ -55,6 +55,7 @@ bioconductor-genomicscores
 
 
 .. |downloads_bioconductor-genomicscores| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-genomicscores.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-genomicscores
    :alt:   (downloads)
 .. |docker_bioconductor-genomicscores| image:: https://quay.io/repository/biocontainers/bioconductor-genomicscores/status
    :target: https://quay.io/repository/biocontainers/bioconductor-genomicscores

@@ -45,6 +45,7 @@ perl-color-theme
 
 
 .. |downloads_perl-color-theme| image:: https://img.shields.io/conda/dn/bioconda/perl-color-theme.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-color-theme
    :alt:   (downloads)
 .. |docker_perl-color-theme| image:: https://quay.io/repository/biocontainers/perl-color-theme/status
    :target: https://quay.io/repository/biocontainers/perl-color-theme

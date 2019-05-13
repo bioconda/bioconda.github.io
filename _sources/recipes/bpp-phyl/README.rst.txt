@@ -46,6 +46,7 @@ bpp-phyl
 
 
 .. |downloads_bpp-phyl| image:: https://img.shields.io/conda/dn/bioconda/bpp-phyl.svg?style=flat
+   :target: https://anaconda.org/bioconda/bpp-phyl
    :alt:   (downloads)
 .. |docker_bpp-phyl| image:: https://quay.io/repository/biocontainers/bpp-phyl/status
    :target: https://quay.io/repository/biocontainers/bpp-phyl

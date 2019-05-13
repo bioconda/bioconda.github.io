@@ -57,6 +57,7 @@ bioconductor-xde
 
 
 .. |downloads_bioconductor-xde| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-xde.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-xde
    :alt:   (downloads)
 .. |docker_bioconductor-xde| image:: https://quay.io/repository/biocontainers/bioconductor-xde/status
    :target: https://quay.io/repository/biocontainers/bioconductor-xde

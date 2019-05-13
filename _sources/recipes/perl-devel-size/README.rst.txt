@@ -46,6 +46,7 @@ perl-devel-size
 
 
 .. |downloads_perl-devel-size| image:: https://img.shields.io/conda/dn/bioconda/perl-devel-size.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-devel-size
    :alt:   (downloads)
 .. |docker_perl-devel-size| image:: https://quay.io/repository/biocontainers/perl-devel-size/status
    :target: https://quay.io/repository/biocontainers/perl-devel-size

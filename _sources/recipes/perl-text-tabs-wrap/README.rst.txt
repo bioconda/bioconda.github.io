@@ -45,6 +45,7 @@ perl-text-tabs-wrap
 
 
 .. |downloads_perl-text-tabs-wrap| image:: https://img.shields.io/conda/dn/bioconda/perl-text-tabs-wrap.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-text-tabs-wrap
    :alt:   (downloads)
 .. |docker_perl-text-tabs-wrap| image:: https://quay.io/repository/biocontainers/perl-text-tabs-wrap/status
    :target: https://quay.io/repository/biocontainers/perl-text-tabs-wrap

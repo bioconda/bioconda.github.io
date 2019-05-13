@@ -55,6 +55,7 @@ bioconductor-uniquorn
 
 
 .. |downloads_bioconductor-uniquorn| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-uniquorn.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-uniquorn
    :alt:   (downloads)
 .. |docker_bioconductor-uniquorn| image:: https://quay.io/repository/biocontainers/bioconductor-uniquorn/status
    :target: https://quay.io/repository/biocontainers/bioconductor-uniquorn

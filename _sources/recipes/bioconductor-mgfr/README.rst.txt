@@ -48,6 +48,7 @@ bioconductor-mgfr
 
 
 .. |downloads_bioconductor-mgfr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mgfr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mgfr
    :alt:   (downloads)
 .. |docker_bioconductor-mgfr| image:: https://quay.io/repository/biocontainers/bioconductor-mgfr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mgfr

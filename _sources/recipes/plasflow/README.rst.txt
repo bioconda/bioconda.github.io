@@ -54,6 +54,7 @@ plasflow
 
 
 .. |downloads_plasflow| image:: https://img.shields.io/conda/dn/bioconda/plasflow.svg?style=flat
+   :target: https://anaconda.org/bioconda/plasflow
    :alt:   (downloads)
 .. |docker_plasflow| image:: https://quay.io/repository/biocontainers/plasflow/status
    :target: https://quay.io/repository/biocontainers/plasflow

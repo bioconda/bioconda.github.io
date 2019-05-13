@@ -47,6 +47,7 @@ bioconductor-mirna102xgaincdf
 
 
 .. |downloads_bioconductor-mirna102xgaincdf| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirna102xgaincdf.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mirna102xgaincdf
    :alt:   (downloads)
 .. |docker_bioconductor-mirna102xgaincdf| image:: https://quay.io/repository/biocontainers/bioconductor-mirna102xgaincdf/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mirna102xgaincdf

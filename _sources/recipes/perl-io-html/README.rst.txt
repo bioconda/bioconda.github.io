@@ -45,6 +45,7 @@ perl-io-html
 
 
 .. |downloads_perl-io-html| image:: https://img.shields.io/conda/dn/bioconda/perl-io-html.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-io-html
    :alt:   (downloads)
 .. |docker_perl-io-html| image:: https://quay.io/repository/biocontainers/perl-io-html/status
    :target: https://quay.io/repository/biocontainers/perl-io-html

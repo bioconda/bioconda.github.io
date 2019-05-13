@@ -54,6 +54,7 @@ ivar
 
 
 .. |downloads_ivar| image:: https://img.shields.io/conda/dn/bioconda/ivar.svg?style=flat
+   :target: https://anaconda.org/bioconda/ivar
    :alt:   (downloads)
 .. |docker_ivar| image:: https://quay.io/repository/biocontainers/ivar/status
    :target: https://quay.io/repository/biocontainers/ivar

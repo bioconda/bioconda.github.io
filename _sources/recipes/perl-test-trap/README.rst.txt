@@ -53,6 +53,7 @@ perl-test-trap
 
 
 .. |downloads_perl-test-trap| image:: https://img.shields.io/conda/dn/bioconda/perl-test-trap.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-test-trap
    :alt:   (downloads)
 .. |docker_perl-test-trap| image:: https://quay.io/repository/biocontainers/perl-test-trap/status
    :target: https://quay.io/repository/biocontainers/perl-test-trap

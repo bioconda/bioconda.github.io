@@ -46,6 +46,7 @@ bioconductor-ebseqhmm
 
 
 .. |downloads_bioconductor-ebseqhmm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ebseqhmm.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ebseqhmm
    :alt:   (downloads)
 .. |docker_bioconductor-ebseqhmm| image:: https://quay.io/repository/biocontainers/bioconductor-ebseqhmm/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ebseqhmm

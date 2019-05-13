@@ -49,6 +49,7 @@ bioconductor-davidtiling
 
 
 .. |downloads_bioconductor-davidtiling| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-davidtiling.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-davidtiling
    :alt:   (downloads)
 .. |docker_bioconductor-davidtiling| image:: https://quay.io/repository/biocontainers/bioconductor-davidtiling/status
    :target: https://quay.io/repository/biocontainers/bioconductor-davidtiling

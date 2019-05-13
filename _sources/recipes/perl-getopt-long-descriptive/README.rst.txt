@@ -49,6 +49,7 @@ perl-getopt-long-descriptive
 
 
 .. |downloads_perl-getopt-long-descriptive| image:: https://img.shields.io/conda/dn/bioconda/perl-getopt-long-descriptive.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-getopt-long-descriptive
    :alt:   (downloads)
 .. |docker_perl-getopt-long-descriptive| image:: https://quay.io/repository/biocontainers/perl-getopt-long-descriptive/status
    :target: https://quay.io/repository/biocontainers/perl-getopt-long-descriptive

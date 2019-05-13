@@ -50,6 +50,7 @@ cassiopee
 
 
 .. |downloads_cassiopee| image:: https://img.shields.io/conda/dn/bioconda/cassiopee.svg?style=flat
+   :target: https://anaconda.org/bioconda/cassiopee
    :alt:   (downloads)
 .. |docker_cassiopee| image:: https://quay.io/repository/biocontainers/cassiopee/status
    :target: https://quay.io/repository/biocontainers/cassiopee

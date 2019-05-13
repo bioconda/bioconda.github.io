@@ -46,6 +46,7 @@ perl-pod-checker
 
 
 .. |downloads_perl-pod-checker| image:: https://img.shields.io/conda/dn/bioconda/perl-pod-checker.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-pod-checker
    :alt:   (downloads)
 .. |docker_perl-pod-checker| image:: https://quay.io/repository/biocontainers/perl-pod-checker/status
    :target: https://quay.io/repository/biocontainers/perl-pod-checker

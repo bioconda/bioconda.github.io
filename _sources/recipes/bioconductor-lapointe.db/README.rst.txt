@@ -48,6 +48,7 @@ bioconductor-lapointe.db
 
 
 .. |downloads_bioconductor-lapointe.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lapointe.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lapointe.db
    :alt:   (downloads)
 .. |docker_bioconductor-lapointe.db| image:: https://quay.io/repository/biocontainers/bioconductor-lapointe.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lapointe.db

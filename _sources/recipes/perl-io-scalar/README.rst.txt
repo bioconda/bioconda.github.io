@@ -45,6 +45,7 @@ perl-io-scalar
 
 
 .. |downloads_perl-io-scalar| image:: https://img.shields.io/conda/dn/bioconda/perl-io-scalar.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-io-scalar
    :alt:   (downloads)
 .. |docker_perl-io-scalar| image:: https://quay.io/repository/biocontainers/perl-io-scalar/status
    :target: https://quay.io/repository/biocontainers/perl-io-scalar

@@ -65,6 +65,7 @@ xtail
 
 
 .. |downloads_xtail| image:: https://img.shields.io/conda/dn/bioconda/xtail.svg?style=flat
+   :target: https://anaconda.org/bioconda/xtail
    :alt:   (downloads)
 .. |docker_xtail| image:: https://quay.io/repository/biocontainers/xtail/status
    :target: https://quay.io/repository/biocontainers/xtail

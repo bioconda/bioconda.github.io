@@ -50,6 +50,7 @@ ucsc-facmp
 
 
 .. |downloads_ucsc-facmp| image:: https://img.shields.io/conda/dn/bioconda/ucsc-facmp.svg?style=flat
+   :target: https://anaconda.org/bioconda/ucsc-facmp
    :alt:   (downloads)
 .. |docker_ucsc-facmp| image:: https://quay.io/repository/biocontainers/ucsc-facmp/status
    :target: https://quay.io/repository/biocontainers/ucsc-facmp

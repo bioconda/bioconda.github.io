@@ -50,6 +50,7 @@ bioconductor-rots
 
 
 .. |downloads_bioconductor-rots| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rots.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rots
    :alt:   (downloads)
 .. |docker_bioconductor-rots| image:: https://quay.io/repository/biocontainers/bioconductor-rots/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rots

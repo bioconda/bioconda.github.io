@@ -50,6 +50,7 @@ bioconductor-fletcher2013a
 
 
 .. |downloads_bioconductor-fletcher2013a| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-fletcher2013a.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-fletcher2013a
    :alt:   (downloads)
 .. |docker_bioconductor-fletcher2013a| image:: https://quay.io/repository/biocontainers/bioconductor-fletcher2013a/status
    :target: https://quay.io/repository/biocontainers/bioconductor-fletcher2013a

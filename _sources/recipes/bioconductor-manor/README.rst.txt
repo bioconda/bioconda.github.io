@@ -44,6 +44,7 @@ bioconductor-manor
 
 
 .. |downloads_bioconductor-manor| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-manor.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-manor
    :alt:   (downloads)
 .. |docker_bioconductor-manor| image:: https://quay.io/repository/biocontainers/bioconductor-manor/status
    :target: https://quay.io/repository/biocontainers/bioconductor-manor

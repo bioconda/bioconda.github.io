@@ -49,6 +49,7 @@ r-swamp
 
 
 .. |downloads_r-swamp| image:: https://img.shields.io/conda/dn/bioconda/r-swamp.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-swamp
    :alt:   (downloads)
 .. |docker_r-swamp| image:: https://quay.io/repository/biocontainers/r-swamp/status
    :target: https://quay.io/repository/biocontainers/r-swamp

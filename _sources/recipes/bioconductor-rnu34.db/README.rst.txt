@@ -48,6 +48,7 @@ bioconductor-rnu34.db
 
 
 .. |downloads_bioconductor-rnu34.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rnu34.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rnu34.db
    :alt:   (downloads)
 .. |docker_bioconductor-rnu34.db| image:: https://quay.io/repository/biocontainers/bioconductor-rnu34.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rnu34.db

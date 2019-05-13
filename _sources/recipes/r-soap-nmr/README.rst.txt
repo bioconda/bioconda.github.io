@@ -51,6 +51,7 @@ r-soap-nmr
 
 
 .. |downloads_r-soap-nmr| image:: https://img.shields.io/conda/dn/bioconda/r-soap-nmr.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-soap-nmr
    :alt:   (downloads)
 .. |docker_r-soap-nmr| image:: https://quay.io/repository/biocontainers/r-soap-nmr/status
    :target: https://quay.io/repository/biocontainers/r-soap-nmr

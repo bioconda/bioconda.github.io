@@ -47,6 +47,7 @@ bioconductor-director
 
 
 .. |downloads_bioconductor-director| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-director.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-director
    :alt:   (downloads)
 .. |docker_bioconductor-director| image:: https://quay.io/repository/biocontainers/bioconductor-director/status
    :target: https://quay.io/repository/biocontainers/bioconductor-director

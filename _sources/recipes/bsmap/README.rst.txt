@@ -50,6 +50,7 @@ bsmap
 
 
 .. |downloads_bsmap| image:: https://img.shields.io/conda/dn/bioconda/bsmap.svg?style=flat
+   :target: https://anaconda.org/bioconda/bsmap
    :alt:   (downloads)
 .. |docker_bsmap| image:: https://quay.io/repository/biocontainers/bsmap/status
    :target: https://quay.io/repository/biocontainers/bsmap

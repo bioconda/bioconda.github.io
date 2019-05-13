@@ -55,6 +55,7 @@ bioconductor-enmix
 
 
 .. |downloads_bioconductor-enmix| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-enmix.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-enmix
    :alt:   (downloads)
 .. |docker_bioconductor-enmix| image:: https://quay.io/repository/biocontainers/bioconductor-enmix/status
    :target: https://quay.io/repository/biocontainers/bioconductor-enmix

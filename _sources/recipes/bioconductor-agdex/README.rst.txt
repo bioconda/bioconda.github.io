@@ -48,6 +48,7 @@ bioconductor-agdex
 
 
 .. |downloads_bioconductor-agdex| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-agdex.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-agdex
    :alt:   (downloads)
 .. |docker_bioconductor-agdex| image:: https://quay.io/repository/biocontainers/bioconductor-agdex/status
    :target: https://quay.io/repository/biocontainers/bioconductor-agdex

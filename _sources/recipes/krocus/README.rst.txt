@@ -51,6 +51,7 @@ krocus
 
 
 .. |downloads_krocus| image:: https://img.shields.io/conda/dn/bioconda/krocus.svg?style=flat
+   :target: https://anaconda.org/bioconda/krocus
    :alt:   (downloads)
 .. |docker_krocus| image:: https://quay.io/repository/biocontainers/krocus/status
    :target: https://quay.io/repository/biocontainers/krocus

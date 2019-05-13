@@ -46,6 +46,7 @@ bioconductor-trio
 
 
 .. |downloads_bioconductor-trio| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-trio.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-trio
    :alt:   (downloads)
 .. |docker_bioconductor-trio| image:: https://quay.io/repository/biocontainers/bioconductor-trio/status
    :target: https://quay.io/repository/biocontainers/bioconductor-trio

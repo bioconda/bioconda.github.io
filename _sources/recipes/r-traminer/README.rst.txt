@@ -51,6 +51,7 @@ r-traminer
 
 
 .. |downloads_r-traminer| image:: https://img.shields.io/conda/dn/bioconda/r-traminer.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-traminer
    :alt:   (downloads)
 .. |docker_r-traminer| image:: https://quay.io/repository/biocontainers/r-traminer/status
    :target: https://quay.io/repository/biocontainers/r-traminer

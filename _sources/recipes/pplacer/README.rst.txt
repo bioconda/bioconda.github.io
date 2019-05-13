@@ -45,6 +45,7 @@ pplacer
 
 
 .. |downloads_pplacer| image:: https://img.shields.io/conda/dn/bioconda/pplacer.svg?style=flat
+   :target: https://anaconda.org/bioconda/pplacer
    :alt:   (downloads)
 .. |docker_pplacer| image:: https://quay.io/repository/biocontainers/pplacer/status
    :target: https://quay.io/repository/biocontainers/pplacer

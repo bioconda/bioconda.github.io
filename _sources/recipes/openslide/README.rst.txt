@@ -55,6 +55,7 @@ openslide
 
 
 .. |downloads_openslide| image:: https://img.shields.io/conda/dn/bioconda/openslide.svg?style=flat
+   :target: https://anaconda.org/bioconda/openslide
    :alt:   (downloads)
 .. |docker_openslide| image:: https://quay.io/repository/biocontainers/openslide/status
    :target: https://quay.io/repository/biocontainers/openslide

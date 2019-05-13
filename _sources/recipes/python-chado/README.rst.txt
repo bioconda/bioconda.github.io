@@ -54,6 +54,7 @@ python-chado
 
 
 .. |downloads_python-chado| image:: https://img.shields.io/conda/dn/bioconda/python-chado.svg?style=flat
+   :target: https://anaconda.org/bioconda/python-chado
    :alt:   (downloads)
 .. |docker_python-chado| image:: https://quay.io/repository/biocontainers/python-chado/status
    :target: https://quay.io/repository/biocontainers/python-chado

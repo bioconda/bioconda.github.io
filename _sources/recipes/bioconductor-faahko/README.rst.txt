@@ -47,6 +47,7 @@ bioconductor-faahko
 
 
 .. |downloads_bioconductor-faahko| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-faahko.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-faahko
    :alt:   (downloads)
 .. |docker_bioconductor-faahko| image:: https://quay.io/repository/biocontainers/bioconductor-faahko/status
    :target: https://quay.io/repository/biocontainers/bioconductor-faahko

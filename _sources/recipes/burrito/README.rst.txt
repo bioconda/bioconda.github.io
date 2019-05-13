@@ -47,6 +47,7 @@ burrito
 
 
 .. |downloads_burrito| image:: https://img.shields.io/conda/dn/bioconda/burrito.svg?style=flat
+   :target: https://anaconda.org/bioconda/burrito
    :alt:   (downloads)
 .. |docker_burrito| image:: https://quay.io/repository/biocontainers/burrito/status
    :target: https://quay.io/repository/biocontainers/burrito

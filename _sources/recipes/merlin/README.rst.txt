@@ -47,6 +47,7 @@ merlin
 
 
 .. |downloads_merlin| image:: https://img.shields.io/conda/dn/bioconda/merlin.svg?style=flat
+   :target: https://anaconda.org/bioconda/merlin
    :alt:   (downloads)
 .. |docker_merlin| image:: https://quay.io/repository/biocontainers/merlin/status
    :target: https://quay.io/repository/biocontainers/merlin

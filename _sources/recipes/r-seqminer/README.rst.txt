@@ -47,6 +47,7 @@ r-seqminer
 
 
 .. |downloads_r-seqminer| image:: https://img.shields.io/conda/dn/bioconda/r-seqminer.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-seqminer
    :alt:   (downloads)
 .. |docker_r-seqminer| image:: https://quay.io/repository/biocontainers/r-seqminer/status
    :target: https://quay.io/repository/biocontainers/r-seqminer

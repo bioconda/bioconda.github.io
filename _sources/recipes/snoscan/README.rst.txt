@@ -47,6 +47,7 @@ snoscan
 
 
 .. |downloads_snoscan| image:: https://img.shields.io/conda/dn/bioconda/snoscan.svg?style=flat
+   :target: https://anaconda.org/bioconda/snoscan
    :alt:   (downloads)
 .. |docker_snoscan| image:: https://quay.io/repository/biocontainers/snoscan/status
    :target: https://quay.io/repository/biocontainers/snoscan

@@ -48,6 +48,7 @@ bioconductor-ragene11sttranscriptcluster.db
 
 
 .. |downloads_bioconductor-ragene11sttranscriptcluster.db| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ragene11sttranscriptcluster.db.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-ragene11sttranscriptcluster.db
    :alt:   (downloads)
 .. |docker_bioconductor-ragene11sttranscriptcluster.db| image:: https://quay.io/repository/biocontainers/bioconductor-ragene11sttranscriptcluster.db/status
    :target: https://quay.io/repository/biocontainers/bioconductor-ragene11sttranscriptcluster.db

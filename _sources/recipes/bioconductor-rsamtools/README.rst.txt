@@ -58,6 +58,7 @@ bioconductor-rsamtools
 
 
 .. |downloads_bioconductor-rsamtools| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-rsamtools.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-rsamtools
    :alt:   (downloads)
 .. |docker_bioconductor-rsamtools| image:: https://quay.io/repository/biocontainers/bioconductor-rsamtools/status
    :target: https://quay.io/repository/biocontainers/bioconductor-rsamtools

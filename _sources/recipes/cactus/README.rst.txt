@@ -63,6 +63,7 @@ cactus
 
 
 .. |downloads_cactus| image:: https://img.shields.io/conda/dn/bioconda/cactus.svg?style=flat
+   :target: https://anaconda.org/bioconda/cactus
    :alt:   (downloads)
 .. |docker_cactus| image:: https://quay.io/repository/biocontainers/cactus/status
    :target: https://quay.io/repository/biocontainers/cactus

@@ -46,6 +46,7 @@ crb-blast
 
 
 .. |downloads_crb-blast| image:: https://img.shields.io/conda/dn/bioconda/crb-blast.svg?style=flat
+   :target: https://anaconda.org/bioconda/crb-blast
    :alt:   (downloads)
 .. |docker_crb-blast| image:: https://quay.io/repository/biocontainers/crb-blast/status
    :target: https://quay.io/repository/biocontainers/crb-blast

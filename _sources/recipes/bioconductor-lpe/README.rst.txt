@@ -46,6 +46,7 @@ bioconductor-lpe
 
 
 .. |downloads_bioconductor-lpe| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-lpe.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-lpe
    :alt:   (downloads)
 .. |docker_bioconductor-lpe| image:: https://quay.io/repository/biocontainers/bioconductor-lpe/status
    :target: https://quay.io/repository/biocontainers/bioconductor-lpe

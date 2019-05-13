@@ -49,6 +49,7 @@ plass
 
 
 .. |downloads_plass| image:: https://img.shields.io/conda/dn/bioconda/plass.svg?style=flat
+   :target: https://anaconda.org/bioconda/plass
    :alt:   (downloads)
 .. |docker_plass| image:: https://quay.io/repository/biocontainers/plass/status
    :target: https://quay.io/repository/biocontainers/plass

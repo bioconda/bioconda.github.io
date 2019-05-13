@@ -56,6 +56,7 @@ tadarida-d
 
 
 .. |downloads_tadarida-d| image:: https://img.shields.io/conda/dn/bioconda/tadarida-d.svg?style=flat
+   :target: https://anaconda.org/bioconda/tadarida-d
    :alt:   (downloads)
 .. |docker_tadarida-d| image:: https://quay.io/repository/biocontainers/tadarida-d/status
    :target: https://quay.io/repository/biocontainers/tadarida-d

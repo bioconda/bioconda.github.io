@@ -47,6 +47,7 @@ bioconductor-dream4
 
 
 .. |downloads_bioconductor-dream4| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dream4.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-dream4
    :alt:   (downloads)
 .. |docker_bioconductor-dream4| image:: https://quay.io/repository/biocontainers/bioconductor-dream4/status
    :target: https://quay.io/repository/biocontainers/bioconductor-dream4

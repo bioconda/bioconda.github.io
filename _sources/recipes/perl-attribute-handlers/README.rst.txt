@@ -45,6 +45,7 @@ perl-attribute-handlers
 
 
 .. |downloads_perl-attribute-handlers| image:: https://img.shields.io/conda/dn/bioconda/perl-attribute-handlers.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-attribute-handlers
    :alt:   (downloads)
 .. |docker_perl-attribute-handlers| image:: https://quay.io/repository/biocontainers/perl-attribute-handlers/status
    :target: https://quay.io/repository/biocontainers/perl-attribute-handlers

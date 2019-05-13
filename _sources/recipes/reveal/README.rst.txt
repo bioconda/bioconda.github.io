@@ -50,6 +50,7 @@ reveal
 
 
 .. |downloads_reveal| image:: https://img.shields.io/conda/dn/bioconda/reveal.svg?style=flat
+   :target: https://anaconda.org/bioconda/reveal
    :alt:   (downloads)
 .. |docker_reveal| image:: https://quay.io/repository/biocontainers/reveal/status
    :target: https://quay.io/repository/biocontainers/reveal

@@ -46,6 +46,7 @@ bioconductor-mspuritydata
 
 
 .. |downloads_bioconductor-mspuritydata| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mspuritydata.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-mspuritydata
    :alt:   (downloads)
 .. |docker_bioconductor-mspuritydata| image:: https://quay.io/repository/biocontainers/bioconductor-mspuritydata/status
    :target: https://quay.io/repository/biocontainers/bioconductor-mspuritydata

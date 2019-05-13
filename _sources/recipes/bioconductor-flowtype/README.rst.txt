@@ -56,6 +56,7 @@ bioconductor-flowtype
 
 
 .. |downloads_bioconductor-flowtype| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-flowtype.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-flowtype
    :alt:   (downloads)
 .. |docker_bioconductor-flowtype| image:: https://quay.io/repository/biocontainers/bioconductor-flowtype/status
    :target: https://quay.io/repository/biocontainers/bioconductor-flowtype

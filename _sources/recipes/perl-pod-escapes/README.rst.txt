@@ -46,6 +46,7 @@ perl-pod-escapes
 
 
 .. |downloads_perl-pod-escapes| image:: https://img.shields.io/conda/dn/bioconda/perl-pod-escapes.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-pod-escapes
    :alt:   (downloads)
 .. |docker_perl-pod-escapes| image:: https://quay.io/repository/biocontainers/perl-pod-escapes/status
    :target: https://quay.io/repository/biocontainers/perl-pod-escapes

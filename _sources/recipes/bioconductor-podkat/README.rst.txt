@@ -58,6 +58,7 @@ bioconductor-podkat
 
 
 .. |downloads_bioconductor-podkat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-podkat.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-podkat
    :alt:   (downloads)
 .. |docker_bioconductor-podkat| image:: https://quay.io/repository/biocontainers/bioconductor-podkat/status
    :target: https://quay.io/repository/biocontainers/bioconductor-podkat

@@ -46,6 +46,7 @@ perl-config-general
 
 
 .. |downloads_perl-config-general| image:: https://img.shields.io/conda/dn/bioconda/perl-config-general.svg?style=flat
+   :target: https://anaconda.org/bioconda/perl-config-general
    :alt:   (downloads)
 .. |docker_perl-config-general| image:: https://quay.io/repository/biocontainers/perl-config-general/status
    :target: https://quay.io/repository/biocontainers/perl-config-general

@@ -46,6 +46,7 @@ mhap
 
 
 .. |downloads_mhap| image:: https://img.shields.io/conda/dn/bioconda/mhap.svg?style=flat
+   :target: https://anaconda.org/bioconda/mhap
    :alt:   (downloads)
 .. |docker_mhap| image:: https://quay.io/repository/biocontainers/mhap/status
    :target: https://quay.io/repository/biocontainers/mhap

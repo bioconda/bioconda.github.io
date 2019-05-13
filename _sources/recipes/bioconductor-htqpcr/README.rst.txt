@@ -51,6 +51,7 @@ bioconductor-htqpcr
 
 
 .. |downloads_bioconductor-htqpcr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-htqpcr.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-htqpcr
    :alt:   (downloads)
 .. |docker_bioconductor-htqpcr| image:: https://quay.io/repository/biocontainers/bioconductor-htqpcr/status
    :target: https://quay.io/repository/biocontainers/bioconductor-htqpcr
