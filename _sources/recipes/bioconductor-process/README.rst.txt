@@ -23,9 +23,9 @@ bioconductor-process
 
    |downloads_bioconductor-process| |docker_bioconductor-process|
 
-   :versions: 1.58.1-0, 1.56.0-0, 1.54.0-0
+   :versions: 1.60.0-0, 1.58.1-0, 1.56.0-0, 1.54.0-0
    
-   :depends bioconductor-icens: >=1.54.0,<1.55.0
+   :depends bioconductor-icens: >=1.56.0,<1.57.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :requirements:
 

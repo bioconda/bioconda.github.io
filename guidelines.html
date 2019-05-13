@@ -309,8 +309,10 @@ following:</p>
 <span id="id5"></span><h2>R (CRAN)<a class="headerlink" href="#r-cran" title="Permalink to this headline">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>The majority of R packages on CRAN are generic and should therefore be submitted
-at Conda-Forge.</p>
+<p>Most R packages on CRAN should be submitted at Conda-Forge.
+Specifically, if the CRAN package has a Bioconductor package dependency, it belongs in
+Bioconda. If the CRAN package does not have a Bioconductor package dependency, it
+belongs in Conda-Forge.</p>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -369,7 +371,8 @@ will be converted to lowercase.  Data packages will be detected automatically,
 and a post-link script (see <a class="reference external" href="https://github.com/bioconda/bioconda-utils/pull/169">https://github.com/bioconda/bioconda-utils/pull/169</a>
 for details). Typically the resulting recipe can be used without modification,
 though dependencies may also need recipes. Recipes for dependencies with an
-<code class="docutils literal notranslate"><span class="pre">r-</span></code> prefix should be created using <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cran</span></code>; see above.</p>
+<code class="docutils literal notranslate"><span class="pre">r-</span></code> prefix should be created at Conda-Forge unless the CRAN package has a
+Bioconductor dependency; see <code class="xref any docutils literal notranslate"><span class="pre">R</span> <span class="pre">(CRAN)</span></code> above.</p>
 <ul class="simple">
 <li><p>typical bioconductor recipe: <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-limma">bioconductor-limma/meta.yaml</a></p></li>
 </ul>
