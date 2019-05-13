@@ -22,7 +22,7 @@ bioconductor-difflogo
 
    |downloads_bioconductor-difflogo| |docker_bioconductor-difflogo|
 
-   :versions: 2.6.0-0
+   :versions: 2.8.0-0, 2.6.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-cba: 

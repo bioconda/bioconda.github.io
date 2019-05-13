@@ -12,7 +12,7 @@ antismash
    antiSMASH allows the rapid genome\-wide identification\, annotation and analysis of secondary metabolite biosynthesis gene clusters.
 
    :homepage: http://antismash.secondarymetabolites.org/
-   :license: AGPL-3.0-or-later
+   :license: AGPL / AGPL-3.0
    :recipe: /`antismash <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/antismash>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/antismash/meta.yaml>`_
    :links: biotools: :biotools:`antismash`
 
@@ -23,42 +23,43 @@ antismash
 
    |downloads_antismash| |docker_antismash|
 
-   :versions: 4.1.0-1, 4.1.0-0, 4.0.2-3, 4.0.2-2, 4.0.2-1, 4.0.1-1
+   :versions: 4.2.0-1, 4.1.0-1, 4.1.0-0, 4.0.2-3, 4.0.2-2, 4.0.2-1, 4.0.1-1
    
    :depends argparse: 
    :depends backports.lzma: 
-   :depends bcbiogff: 
+   :depends bcbio-gff: 
    :depends biopython: >=1.65
-   :depends blast: ==2.2.31
+   :depends blast: 2.2.*
    :depends clustalw: 
    :depends cssselect: 
-   :depends diamond: ==0.8.36
+   :depends diamond: 0.8.*
    :depends ete2: 
-   :depends fasttree: ==2.1.9
-   :depends glimmer: ==3.02
-   :depends glimmerhmm: ==3.0.4
+   :depends fasttree: 2.1.*
+   :depends glimmer: 3.02
+   :depends glimmerhmm: 3.0.*
    :depends helperlibs: 
-   :depends hmmer: 
+   :depends hmmer: 3.1b2
    :depends hmmer2: 
-   :depends libxml2: ==2.9.4
+   :depends icu: >=58.2,<59.0a0
+   :depends libxml2: 2.9.*
    :depends mafft: 
    :depends matplotlib: 
-   :depends meme: ==4.11.2
+   :depends meme: 4.11.2
    :depends muscle: 
    :depends networkx: 
    :depends numpy: 
    :depends openjdk: 
    :depends pandas: 
+   :depends perl: 5.26.*
    :depends perl-bioperl: 
-   :depends perl-pathtools: 
    :depends prodigal: 
    :depends pyexcelerator: 
-   :depends pyquery: ==1.2.9
+   :depends pyquery: 1.2.*
    :depends pysvg: 
-   :depends python: 2.7*
-   :depends scikit-learn: ==0.18.2
+   :depends python: >=2.7,<2.8.0a0
+   :depends scikit-learn: 0.18.*
    :depends scipy: 
-   :depends xz: ==5.2.2
+   :depends xz: 5.2.*
    :requirements:
 
    .. rubric:: Installation

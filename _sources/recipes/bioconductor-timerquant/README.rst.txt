@@ -22,8 +22,9 @@ bioconductor-timerquant
 
    |downloads_bioconductor-timerquant| |docker_bioconductor-timerquant|
 
-   :versions: 1.12.0-0
+   :versions: 1.14.0-0, 1.12.0-0
    
+   :depends curl: >=7.64.1,<8.0a0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-desolve: 
    :depends r-dplyr: 
@@ -31,7 +32,6 @@ bioconductor-timerquant
    :depends r-gridextra: 
    :depends r-locfit: 
    :depends r-shiny: 
-   :depends wget: 
    :requirements:
 
    .. rubric:: Installation

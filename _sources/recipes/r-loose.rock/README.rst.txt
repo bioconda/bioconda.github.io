@@ -22,9 +22,8 @@ r-loose.rock
 
    |downloads_r-loose.rock| |docker_r-loose.rock|
 
-   :versions: 1.0.9-0
+   :versions: 1.0.12-0, 1.0.9-0
    
-   :depends bioconductor-biomart: 
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-digest: 
    :depends r-dplyr: 
@@ -33,7 +32,6 @@ r-loose.rock
    :depends r-ggplot2: 
    :depends r-mass: 
    :depends r-reshape2: 
-   :depends r-rlang: 
    :requirements:
 
    .. rubric:: Installation

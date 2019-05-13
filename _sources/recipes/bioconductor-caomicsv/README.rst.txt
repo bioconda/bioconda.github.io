@@ -22,7 +22,7 @@ bioconductor-caomicsv
 
    |downloads_bioconductor-caomicsv| |docker_bioconductor-caomicsv|
 
-   :versions: 1.12.1-0
+   :versions: 1.14.0-0, 1.12.1-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-bc3net: >=1.0.2

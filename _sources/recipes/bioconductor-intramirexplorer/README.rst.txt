@@ -22,9 +22,9 @@ bioconductor-intramirexplorer
 
    |downloads_bioconductor-intramirexplorer| |docker_bioconductor-intramirexplorer|
 
-   :versions: 1.4.0-0
+   :versions: 1.6.0-0, 1.4.0-0
    
-   :depends bioconductor-fgnet: >=3.16.0,<3.17.0
+   :depends bioconductor-fgnet: >=3.18.0,<3.19.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-igraph: >=1.0.1
    :depends r-knitr: >=1.12.3
