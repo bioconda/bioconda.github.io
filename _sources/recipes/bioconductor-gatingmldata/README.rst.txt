@@ -22,10 +22,10 @@ bioconductor-gatingmldata
 
    |downloads_bioconductor-gatingmldata| |docker_bioconductor-gatingmldata|
 
-   :versions: 2.22.0-0
+   :versions: 2.24.0-0, 2.22.0-0
    
+   :depends curl: >=7.64.1,<8.0a0
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
    :requirements:
 
    .. rubric:: Installation

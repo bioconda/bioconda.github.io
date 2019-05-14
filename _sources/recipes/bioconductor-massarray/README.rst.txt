@@ -23,7 +23,7 @@ bioconductor-massarray
 
    |downloads_bioconductor-massarray| |docker_bioconductor-massarray|
 
-   :versions: 1.34.1-0, 1.32.0-0, 1.30.0-0, 1.28.0-0
+   :versions: 1.36.0-0, 1.34.1-0, 1.32.0-0, 1.30.0-0, 1.28.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :requirements:

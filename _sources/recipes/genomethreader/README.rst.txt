@@ -23,7 +23,7 @@ genomethreader
 
    |downloads_genomethreader| |docker_genomethreader|
 
-   :versions: 1.7.1-0
+   :versions: 1.7.1-1, 1.7.1-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

@@ -22,7 +22,7 @@ sistr_cmd
 
    |downloads_sistr_cmd| |docker_sistr_cmd|
 
-   :versions: 1.0.2-2, 1.0.2-0, 0.3.6-0, 0.3.4-0, 0.3.3-0, 0.3.1-0
+   :versions: 1.0.2-3, 1.0.2-2, 1.0.2-0, 0.3.6-0, 0.3.4-0, 0.3.3-0, 0.3.1-0
    
    :depends blast: 2.5.*
    :depends mafft: 
