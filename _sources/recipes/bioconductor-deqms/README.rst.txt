@@ -22,7 +22,7 @@ bioconductor-deqms
 
    |downloads_bioconductor-deqms| |docker_bioconductor-deqms|
 
-   :versions: 1.2.0-0, 1.0.1-0, 1.0.0-1, 1.0.0-0
+   :versions: 1.2.0-0, 1.0.1-1, 1.0.1-0, 1.0.0-1, 1.0.0-0
    
    :depends bioconductor-limma: >=3.40.0,<3.41.0
    :depends r-base: >=3.5.1,<3.5.2.0a0

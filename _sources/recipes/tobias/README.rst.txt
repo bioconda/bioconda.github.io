@@ -26,8 +26,22 @@ tobias
 
    |downloads_tobias| |docker_tobias|
 
-   :versions: 
+   :versions: 0.5.0-0
    
+   :depends adjusttext: 
+   :depends libgcc-ng: >=7.3.0
+   :depends matplotlib: >=2
+   :depends moods: 
+   :depends numpy: 
+   :depends pandas: 
+   :depends pybedtools: 
+   :depends pybigwig: 
+   :depends pypdf2: 
+   :depends pysam: 
+   :depends python: >=3.6,<3.7.0a0
+   :depends scikit-learn: 
+   :depends scipy: 
+   :depends xlsxwriter: 
    :requirements:
 
    .. rubric:: Installation

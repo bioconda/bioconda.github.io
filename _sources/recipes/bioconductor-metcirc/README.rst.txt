@@ -23,7 +23,7 @@ bioconductor-metcirc
 
    |downloads_bioconductor-metcirc| |docker_bioconductor-metcirc|
 
-   :versions: 1.12.1-0, 1.10.0-0, 1.6.0-0, 1.2.0-0
+   :versions: 1.14.0-0, 1.12.1-0, 1.10.0-0, 1.6.0-0, 1.2.0-0
    
    :depends r-amap: >=0.8
    :depends r-base: >=3.5.1,<3.5.2.0a0

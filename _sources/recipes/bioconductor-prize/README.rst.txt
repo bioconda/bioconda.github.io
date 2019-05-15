@@ -23,7 +23,7 @@ bioconductor-prize
 
    |downloads_bioconductor-prize| |docker_bioconductor-prize|
 
-   :versions: 1.12.1-0, 1.10.0-0, 1.8.0-0
+   :versions: 1.14.0-0, 1.12.1-0, 1.10.0-0, 1.8.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-diagram: 

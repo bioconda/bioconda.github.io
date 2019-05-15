@@ -22,7 +22,7 @@ deeptoolsintervals
 
    |downloads_deeptoolsintervals| |docker_deeptoolsintervals|
 
-   :versions: 0.1.7-2, 0.1.7-1, 0.1.7-0
+   :versions: 0.1.8-0, 0.1.7-2, 0.1.7-1, 0.1.7-0
    
    :depends libgcc-ng: >=7.3.0
    :depends python: >=2.7,<2.8.0a0

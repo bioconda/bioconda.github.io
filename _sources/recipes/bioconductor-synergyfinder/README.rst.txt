@@ -23,7 +23,7 @@ bioconductor-synergyfinder
 
    |downloads_bioconductor-synergyfinder| |docker_bioconductor-synergyfinder|
 
-   :versions: 1.8.0-0, 1.6.1-0, 1.4.0-0, 1.2.0-0, 1.0.0-0
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.1-0, 1.4.0-0, 1.2.0-0, 1.0.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-drc: >=2.5-12

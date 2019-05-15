@@ -22,9 +22,10 @@ ephemeris
 
    |downloads_ephemeris| |docker_ephemeris|
 
-   :versions: 0.8.0-2, 0.8.0-0
+   :versions: 0.9.0-0, 0.8.0-2, 0.8.0-0
    
    :depends bioblend: 
+   :depends galaxy-lib: 
    :depends jinja2: 
    :depends python: 
    :depends pyyaml: 

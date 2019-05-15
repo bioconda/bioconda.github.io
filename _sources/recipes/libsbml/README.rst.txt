@@ -1,58 +1,58 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'python-libsbml'
+.. title:: Package Recipe 'libsbml'
 .. highlight: bash
 
-python-libsbml
-==============
+libsbml
+=======
 
 .. conda:recipe:: libsbml
    :replaces_section_title:
 
-   LibSBML Python API. LibSBML is a library for reading\, writing and manipulating the Systems Biology Markup Language \(SBML\).
+   LibSBML is a free\, open\-source programming library to help you read\, write\, manipulate\, translate\, and validate SBML files and data streams.
 
-   :homepage: http://sbml.org
+   :homepage: http://sbml.org/Software/libSBML
    :license: LGPL
    :recipe: /`libsbml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libsbml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libsbml/meta.yaml>`_
 
    
 
 
-.. conda:package:: python-libsbml
+.. conda:package:: libsbml
 
-   |downloads_python-libsbml| |docker_python-libsbml|
+   |downloads_libsbml| |docker_libsbml|
 
-   :versions: 5.12.0-2, 5.12.0-1, 5.12.0-0
+   :versions: 5.18.0-0
    
-   :depends bzip2: >=1.0.6,<2.0a0
-   :depends libgcc-ng: >=4.9
-   :depends libxml2: >=2.9.8,<2.10.0a0
-   :depends python: >=2.7,<2.8.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends libxml2: >=2.9.9,<2.10.0a0
+   :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
    .. rubric:: Installation
 
    With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
-      conda install python-libsbml
+      conda install libsbml
 
    and update with::
 
-      conda update python-libsbml
+      conda update libsbml
 
    or use the docker container::
 
-      docker pull quay.io/biocontainers/python-libsbml:<tag>
+      docker pull quay.io/biocontainers/libsbml:<tag>
 
-   (see `python-libsbml/tags`_ for valid values for ``<tag>``)
+   (see `libsbml/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_python-libsbml| image:: https://img.shields.io/conda/dn/bioconda/python-libsbml.svg?style=flat
-   :target: https://anaconda.org/bioconda/python-libsbml
+.. |downloads_libsbml| image:: https://img.shields.io/conda/dn/bioconda/libsbml.svg?style=flat
+   :target: https://anaconda.org/bioconda/libsbml
    :alt:   (downloads)
-.. |docker_python-libsbml| image:: https://quay.io/repository/biocontainers/python-libsbml/status
-   :target: https://quay.io/repository/biocontainers/python-libsbml
-.. _`python-libsbml/tags`: https://quay.io/repository/biocontainers/python-libsbml?tab=tags
+.. |docker_libsbml| image:: https://quay.io/repository/biocontainers/libsbml/status
+   :target: https://quay.io/repository/biocontainers/libsbml
+.. _`libsbml/tags`: https://quay.io/repository/biocontainers/libsbml?tab=tags
 
 
 
@@ -65,7 +65,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/python-libsbml/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/libsbml/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/python-libsbml/README.html
+   :target: http://bioconda.github.io/recipes/libsbml/README.html

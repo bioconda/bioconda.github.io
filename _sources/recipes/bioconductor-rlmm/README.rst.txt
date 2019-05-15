@@ -23,7 +23,7 @@ bioconductor-rlmm
 
    |downloads_bioconductor-rlmm| |docker_bioconductor-rlmm|
 
-   :versions: 1.44.0-0, 1.42.0-0, 1.40.0-0, 1.38.0-0
+   :versions: 1.46.0-0, 1.44.0-0, 1.42.0-0, 1.40.0-0, 1.38.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-mass: 

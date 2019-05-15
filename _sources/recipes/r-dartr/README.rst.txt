@@ -22,7 +22,7 @@ r-dartr
 
    |downloads_r-dartr| |docker_r-dartr|
 
-   :versions: 1.0.5-1, 1.0.5-0, 1.0-0
+   :versions: 1.1.11-0, 1.0.5-1, 1.0.5-0, 1.0-0
    
    :depends bioconductor-qvalue: 
    :depends bioconductor-snprelate: 
@@ -30,23 +30,24 @@ r-dartr
    :depends r-ape: 
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-data.table: 
-   :depends r-dbi: 
-   :depends r-demerelate: 
    :depends r-directlabels: 
    :depends r-dismo: 
    :depends r-doparallel: 
    :depends r-foreach: 
+   :depends r-gdistance: 
    :depends r-ggplot2: 
+   :depends r-hierfstat: 
+   :depends r-igraph: 
+   :depends r-leaflet: 
    :depends r-mass: 
-   :depends r-misc3d: 
+   :depends r-mmod: 
    :depends r-pca3d: 
    :depends r-pegas: 
-   :depends r-plotly: 
    :depends r-plyr: 
-   :depends r-quadprog: 
+   :depends r-popgenreport: 
    :depends r-reshape2: 
    :depends r-rgdal: 
-   :depends r-rgl: 
+   :depends r-rrblup: 
    :depends r-seqinr: 
    :depends r-snpassoc: 
    :depends r-sp: 

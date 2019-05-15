@@ -23,13 +23,13 @@ segway
 
    |downloads_segway| |docker_segway|
 
-   :versions: 2.0.4-0, 2.0.2-3, 2.0.2-2, 2.0.2-1, 2.0.2-0, 2.0.1-0, 2.0-0, 1.4.4-0, 1.4-0
+   :versions: 2.0.4-1, 2.0.4-0, 2.0.2-3, 2.0.2-2, 2.0.2-1, 2.0.2-0, 2.0.1-0, 2.0-0, 1.4.4-0, 1.4-0
    
    :depends autolog: 
    :depends colorbrewer: 
    :depends drmaa: >=0.4a3
    :depends genomedata: 
-   :depends gmtk: 
+   :depends gmtk: >=1.4.4 hd5b5912_5
    :depends optbuild: 
    :depends optplus: 
    :depends path.py: 

@@ -22,11 +22,11 @@ sorted_nearest
 
    |downloads_sorted_nearest| |docker_sorted_nearest|
 
-   :versions: 0.0.18-1, 0.0.17-1, 0.0.17-0
+   :versions: 0.0.19-1, 0.0.18-1, 0.0.17-1, 0.0.17-0
    
    :depends cython: 
    :depends libgcc-ng: >=7.3.0
-   :depends numpy: >=1.16.3
+   :depends numpy: 
    :depends python: >=2.7,<2.8.0a0
    :requirements:
 

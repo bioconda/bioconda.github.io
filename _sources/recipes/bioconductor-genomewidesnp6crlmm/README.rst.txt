@@ -22,10 +22,10 @@ bioconductor-genomewidesnp6crlmm
 
    |downloads_bioconductor-genomewidesnp6crlmm| |docker_bioconductor-genomewidesnp6crlmm|
 
-   :versions: 1.0.7-0
+   :versions: 1.0.7-1, 1.0.7-0
    
+   :depends curl: >=7.64.1,<8.0a0
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
    :requirements:
 
    .. rubric:: Installation
