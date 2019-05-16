@@ -11,7 +11,7 @@ bioconductor-sspa
 
    General Sample size and power analysis for microarray and next\-generation sequencing data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SSPA.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SSPA.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-sspa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sspa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sspa/meta.yaml>`_
    :links: biotools: :biotools:`sspa`

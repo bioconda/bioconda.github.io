@@ -11,7 +11,7 @@ bioconductor-rchyoptimyx
 
    Constructs a hierarchy of cells using flow cytometry for maximization of an external variable \(e.g.\, a clinical outcome or a cytokine response\).
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RchyOptimyx.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RchyOptimyx.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rchyoptimyx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rchyoptimyx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rchyoptimyx/meta.yaml>`_
 

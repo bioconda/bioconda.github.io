@@ -11,7 +11,7 @@ bioconductor-gothic
 
    This is a Hi\-C analysis package using a cumulative binomial test to detect interactions between distal genomic loci that have significantly more reads than expected by chance in Hi\-C experiments. It takes mapped paired NGS reads as input and gives back the list of significant interactions for a given bin size in the genome.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GOTHiC.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GOTHiC.html
    :license: GPL-3
    :recipe: /`bioconductor-gothic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gothic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gothic/meta.yaml>`_
    :links: biotools: :biotools:`gothic`, doi: :doi:`10.1101/gr.185272.114`

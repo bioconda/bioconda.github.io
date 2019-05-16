@@ -11,7 +11,7 @@ bioconductor-bhc
 
    The method performs bottom\-up hierarchical clustering\, using a Dirichlet Process \(infinite mixture\) to model uncertainty in the data and Bayesian model selection to decide at each step which clusters to merge.  This avoids several limitations of traditional methods\, for example how many clusters there should be and how to choose a principled distance metric.  This implementation accepts multinomial \(i.e. discrete\, with 2\+ categories\) or time\-series data. This version also includes a randomised algorithm which is more efficient for larger data sets.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BHC.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BHC.html
    :license: GPL-3
    :recipe: /`bioconductor-bhc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bhc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bhc/meta.yaml>`_
    :links: biotools: :biotools:`bhc`, doi: :doi:`10.1186/1471-2105-10-242`

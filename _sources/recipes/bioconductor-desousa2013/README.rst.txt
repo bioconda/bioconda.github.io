@@ -11,7 +11,7 @@ bioconductor-desousa2013
 
    This package reproduces the main pipeline to analyze the AMC\-AJCCII\-90 microarray data set in De Sousa et al. accepted by Nature Medicine in 2013.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/DeSousa2013.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/DeSousa2013.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-desousa2013 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-desousa2013>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-desousa2013/meta.yaml>`_
 

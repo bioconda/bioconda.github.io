@@ -11,7 +11,7 @@ bioconductor-paa
 
    PAA imports single color \(protein\) microarray data that has been saved in gpr file format \- esp. ProtoArray data. After preprocessing \(background correction\, batch filtering\, normalization\) univariate feature preselection is performed \(e.g.\, using the \"minimum M statistic\" approach \- hereinafter referred to as \"mMs\"\). Subsequently\, a multivariate feature selection is conducted to discover biomarker candidates. Therefore\, either a frequency\-based backwards elimination aproach or ensemble feature selection can be used. PAA provides a complete toolbox of analysis tools including several different plots for results examination and evaluation.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/PAA.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PAA.html
    :license: BSD_3_clause + file LICENSE
    :recipe: /`bioconductor-paa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-paa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-paa/meta.yaml>`_
 

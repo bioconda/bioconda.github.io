@@ -11,7 +11,7 @@ bioconductor-netprior
 
    A model for semi\-supervised prioritisation of genes integrating network data\, phenotypes and additional prior knowledge about TP and TN gene labels from the literature or experts.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/netprioR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/netprioR.html
    :license: GPL-3
    :recipe: /`bioconductor-netprior <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netprior>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netprior/meta.yaml>`_
 

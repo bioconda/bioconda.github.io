@@ -11,7 +11,7 @@ bioconductor-cellscore
 
    The CellScore package contains functions to evaluate the cell identity of a test sample\, given a cell transition defined with a starting \(donor\) cell type and a desired target cell type. The evaluation is based upon a scoring system\, which uses a set of standard samples of known cell types\, as the reference set. The functions have been carried out on a large set of microarray data from one platform \(Affymetrix Human Genome U133 Plus 2.0\). In principle\, the method could be applied to any expression dataset\, provided that there are a sufficient number of standard samples and that the data are normalized.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CellScore.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CellScore.html
    :license: GPL-3
    :recipe: /`bioconductor-cellscore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellscore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellscore/meta.yaml>`_
 

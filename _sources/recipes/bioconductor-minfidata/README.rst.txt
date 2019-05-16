@@ -11,7 +11,7 @@ bioconductor-minfidata
 
    Data from 6 samples across 2 groups from 450k methylation arrays.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/minfiData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/minfiData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-minfidata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minfidata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minfidata/meta.yaml>`_
 

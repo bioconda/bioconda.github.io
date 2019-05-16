@@ -11,7 +11,7 @@ bioconductor-recoup
 
    recoup calculates and plots signal profiles created from short sequence reads derived from Next Generation Sequencing technologies. The profiles provided are either sumarized curve profiles or heatmap profiles. Currently\, recoup supports genomic profile plots for reads derived from ChIP\-Seq and RNA\-Seq experiments. The package uses ggplot2 and ComplexHeatmap graphics facilities for curve and heatmap coverage profiles respectively.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/recoup.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/recoup.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-recoup <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-recoup>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-recoup/meta.yaml>`_
    :links: biotools: :biotools:`recoup`, doi: :doi:`10.1038/nmeth.3252`

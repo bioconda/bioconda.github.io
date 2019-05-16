@@ -11,7 +11,7 @@ bioconductor-matchbox
 
    The matchBox package enables comparing ranked vectors of features\, merging multiple datasets\, removing redundant features\, using CAT\-plots and Venn diagrams\, and computing statistical significance.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/matchBox.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/matchBox.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-matchbox <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matchbox>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matchbox/meta.yaml>`_
 

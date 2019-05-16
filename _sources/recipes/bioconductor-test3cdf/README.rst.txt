@@ -11,7 +11,7 @@ bioconductor-test3cdf
 
    A package containing an environment representing the Test3.CDF file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/test3cdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/test3cdf.html
    :license: LGPL
    :recipe: /`bioconductor-test3cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-test3cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-test3cdf/meta.yaml>`_
 

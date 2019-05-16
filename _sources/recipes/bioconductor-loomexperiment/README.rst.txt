@@ -11,7 +11,7 @@ bioconductor-loomexperiment
 
    The LoomExperiment class provide a means to easily convert Bioconductor\'s \"Experiment\" classes to loom files and vice versa.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/LoomExperiment.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/LoomExperiment.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-loomexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-loomexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-loomexperiment/meta.yaml>`_
 

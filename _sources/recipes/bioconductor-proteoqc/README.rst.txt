@@ -11,7 +11,7 @@ bioconductor-proteoqc
 
    This package creates an HTML format QC report for MS\/MS\-based proteomics data. The report is intended to allow the user to quickly assess the quality of proteomics data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/proteoQC.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/proteoQC.html
    :license: LGPL-2
    :recipe: /`bioconductor-proteoqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteoqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteoqc/meta.yaml>`_
 

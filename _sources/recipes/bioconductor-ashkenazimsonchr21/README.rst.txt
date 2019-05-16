@@ -11,7 +11,7 @@ bioconductor-ashkenazimsonchr21
 
    SonVariantsChr21 is a dataset of annotated genomic variants coming from Complete Genomics whole genome sequencing. Data comes from GIAB project\, Ashkenazim Trio\, sample HG002 run 1. Both vcf and annotated data frame are provided.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/AshkenazimSonChr21.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/AshkenazimSonChr21.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ashkenazimsonchr21 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ashkenazimsonchr21>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ashkenazimsonchr21/meta.yaml>`_
 

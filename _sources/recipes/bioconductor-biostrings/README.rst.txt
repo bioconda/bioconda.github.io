@@ -11,7 +11,7 @@ bioconductor-biostrings
 
    Memory efficient string containers\, string matching algorithms\, and other utilities\, for fast manipulation of large biological sequences or sets of sequences.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Biostrings.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Biostrings.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biostrings <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biostrings>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biostrings/meta.yaml>`_
    :links: biotools: :biotools:`biostrings`, doi: :doi:`10.1038/nmeth.3252`

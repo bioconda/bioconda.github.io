@@ -11,7 +11,7 @@ bioconductor-furrowseg
 
    Image feature data and analysis codes for the Guglielmi\, Barry et al. paper describing the application of an optogenetics tools to disrupt Drosophila embryo furrowing.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/furrowSeg.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/furrowSeg.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-furrowseg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-furrowseg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-furrowseg/meta.yaml>`_
 

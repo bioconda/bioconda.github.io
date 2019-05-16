@@ -11,7 +11,7 @@ bioconductor-mammaprintdata
 
    Gene expression data for the two breast cancer cohorts published by Glas and Buyse in 2006. This cohorts were used to implement and validate the mammaPrint breast cancer test.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/mammaPrintData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/mammaPrintData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mammaprintdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mammaprintdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mammaprintdata/meta.yaml>`_
 

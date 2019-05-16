@@ -11,7 +11,7 @@ bioconductor-genomicranges
 
    The ability to efficiently represent and manipulate genomic annotations and alignments is playing a central role when it comes to analyzing high\-throughput sequencing data \(a.k.a. NGS data\). The GenomicRanges package defines general purpose containers for storing and manipulating genomic intervals and variables defined along a genome. More specialized containers for representing and manipulating short alignments against a reference genome\, or a matrix\-like summarization of an experiment\, are defined in the GenomicAlignments and SummarizedExperiment packages\, respectively. Both packages build on top of the GenomicRanges infrastructure.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GenomicRanges.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GenomicRanges.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomicranges <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicranges>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicranges/meta.yaml>`_
    :links: biotools: :biotools:`genomicranges`

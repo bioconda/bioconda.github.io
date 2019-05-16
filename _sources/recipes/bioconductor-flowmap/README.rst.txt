@@ -11,7 +11,7 @@ bioconductor-flowmap
 
    flowMap quantifies the similarity of cell populations across multiple flow cytometry samples using a nonparametric multivariate statistical test. The method is able to map cell populations of different size\, shape\, and proportion across multiple flow cytometry samples. The algorithm can be incorporate in any flow cytometry work flow that requires accurat quantification of similarity between cell populations.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/flowMap.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flowMap.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-flowmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowmap/meta.yaml>`_
    :links: biotools: :biotools:`flowmap`, doi: :doi:`10.1002/cyto.a.22735`

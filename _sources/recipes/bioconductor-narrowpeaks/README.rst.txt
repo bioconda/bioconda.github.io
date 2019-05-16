@@ -11,7 +11,7 @@ bioconductor-narrowpeaks
 
    The package applies a functional version of principal component analysis \(FPCA\) to\: \(1\) Postprocess data in wiggle track format\, commonly produced by generic ChIP\-seq peak callers\, by applying FPCA over a set of read\-enriched regions \(ChIP\-seq peaks\). This is done to study variability of the the peaks\, or to shorten their genomic locations accounting for a given proportion of variation among the enrichment\-score profiles. \(2\) Analyse differential variation between multiple ChIP\-seq samples with replicates. The function \'narrowpeaksDiff\' quantifies differences between the shapes\, and uses Hotelling\'s T2 tests on the functional principal component scores to identify significant differences across conditions. An application of the package for Arabidopsis datasets is described in Mateos\, Madrigal\, et al. \(2015\) Genome Biology\: 16\:31.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/NarrowPeaks.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/NarrowPeaks.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-narrowpeaks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-narrowpeaks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-narrowpeaks/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-affyexpress
 
    The purpose of this package is to provide a comprehensive and easy\-to\-use tool for quality assessment and to identify differentially expressed genes in the Affymetrix gene expression data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/AffyExpress.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/AffyExpress.html
    :license: LGPL
    :recipe: /`bioconductor-affyexpress <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyexpress>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyexpress/meta.yaml>`_
    :links: biotools: :biotools:`affyexpress`, doi: :doi:`10.1038/nmeth.3252`

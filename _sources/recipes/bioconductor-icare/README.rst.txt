@@ -11,7 +11,7 @@ bioconductor-icare
 
    An R package to compute Individualized Coherent Absolute Risk Estimators.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/iCARE.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/iCARE.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-icare <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icare>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icare/meta.yaml>`_
 

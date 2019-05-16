@@ -11,7 +11,7 @@ bioconductor-asicsdata
 
    1D NMR example spectra and additional data for use with the ASICS package. Raw 1D Bruker spectral data files were found in the MetaboLights database \(https\:\/\/www.ebi.ac.uk\/metabolights\/\, study MTBLS1\).
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/ASICSdata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ASICSdata.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-asicsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asicsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asicsdata/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-ctdquerier
 
    Package to retrieve and visualize data from the Comparative Toxicogenomics Database \(http\:\/\/ctdbase.org\/\). The downloaded data is formated as DataFrames for further downstream analyses.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CTDquerier.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CTDquerier.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-ctdquerier <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctdquerier>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctdquerier/meta.yaml>`_
 

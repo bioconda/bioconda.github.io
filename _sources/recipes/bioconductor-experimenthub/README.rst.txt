@@ -11,7 +11,7 @@ bioconductor-experimenthub
 
    This package provides a client for the Bioconductor ExperimentHub web resource. ExperimentHub provides a central location where curated data from experiments\, publications or training courses can be accessed. Each resource has associated metadata\, tags and date of modification. The client creates and manages a local cache of files retrieved enabling quick and reproducible access.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ExperimentHub.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ExperimentHub.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-experimenthub <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-experimenthub>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-experimenthub/meta.yaml>`_
 

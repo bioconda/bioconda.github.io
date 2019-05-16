@@ -11,7 +11,7 @@ bioconductor-similarpeak
 
    This package calculates metrics which assign a level of similarity between ChIP\-Seq profiles.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/similaRpeak.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/similaRpeak.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-similarpeak <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-similarpeak>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-similarpeak/meta.yaml>`_
    :links: biotools: :biotools:`similarpeak`, doi: :doi:`10.1371/journal.pcbi.1004751`

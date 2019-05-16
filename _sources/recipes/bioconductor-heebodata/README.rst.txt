@@ -11,7 +11,7 @@ bioconductor-heebodata
 
    R objects describing the HEEBO oligo set.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/HEEBOdata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/HEEBOdata.html
    :license: LGPL
    :recipe: /`bioconductor-heebodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-heebodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-heebodata/meta.yaml>`_
 

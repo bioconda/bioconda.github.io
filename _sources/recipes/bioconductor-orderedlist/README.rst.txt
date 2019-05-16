@@ -11,7 +11,7 @@ bioconductor-orderedlist
 
    Detection of similarities between ordered lists of genes. Thereby\, either simple lists can be compared or gene expression data can be used to deduce the lists. Significance of similarities is evaluated by shuffling lists or by resampling in microarray data\, respectively.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/OrderedList.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/OrderedList.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-orderedlist <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orderedlist>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orderedlist/meta.yaml>`_
    :links: biotools: :biotools:`orderedlist`, doi: :doi:`10.1093/bioinformatics/btl385`

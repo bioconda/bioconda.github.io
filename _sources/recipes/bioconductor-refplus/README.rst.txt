@@ -11,7 +11,7 @@ bioconductor-refplus
 
    The package contains functions for pre\-processing Affymetrix data using the RMA\+ and the RMA\+\+ methods.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RefPlus.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RefPlus.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-refplus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-refplus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-refplus/meta.yaml>`_
    :links: biotools: :biotools:`refplus`, doi: :doi:`10.1093/bioinformatics/btm357`

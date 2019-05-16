@@ -11,7 +11,7 @@ bioconductor-hi16cod.db
 
    Codelink Human Inflammation 16 Bioarray annotation data \(chip hi16cod\) assembled using data from public repositories
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/hi16cod.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hi16cod.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hi16cod.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hi16cod.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hi16cod.db/meta.yaml>`_
 

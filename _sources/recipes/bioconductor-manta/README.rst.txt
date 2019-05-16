@@ -11,7 +11,7 @@ bioconductor-manta
 
    Tools for robust comparative metatranscriptomics.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/manta.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/manta.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-manta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-manta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-manta/meta.yaml>`_
    :links: biotools: :biotools:`manta`, doi: :doi:`10.1038/nmeth.3252`

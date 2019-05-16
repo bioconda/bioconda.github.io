@@ -11,7 +11,7 @@ bioconductor-curatedmetagenomicdata
 
    The curatedMetagenomicData package provides microbial taxonomic\, functional\, and gene marker abundance for samples collected from different bodysites.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/curatedMetagenomicData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/curatedMetagenomicData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-curatedmetagenomicdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedmetagenomicdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedmetagenomicdata/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-raex10sttranscriptcluster.db
 
    Affymetrix raex10 annotation data \(chip raex10sttranscriptcluster\) assembled using data from public repositories
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/raex10sttranscriptcluster.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/raex10sttranscriptcluster.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-raex10sttranscriptcluster.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raex10sttranscriptcluster.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raex10sttranscriptcluster.db/meta.yaml>`_
 

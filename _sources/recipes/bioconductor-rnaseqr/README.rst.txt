@@ -11,7 +11,7 @@ bioconductor-rnaseqr
 
    This R package is designed for case\-control RNA\-Seq analysis \(two\-group\). There are six steps\: \"RNASeqRParam S4 Object Creation\"\, \"Environment Setup\"\, \"Quality Assessment\"\, \"Reads Alignment \& Quantification\"\, \"Gene\-level Differential Analyses\" and \"Functional Analyses\". Each step corresponds to a function in this package. After running functions in order\, a basic RNASeq analysis would be done easily.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RNASeqR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RNASeqR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rnaseqr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqr/meta.yaml>`_
 

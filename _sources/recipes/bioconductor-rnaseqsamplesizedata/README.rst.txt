@@ -11,7 +11,7 @@ bioconductor-rnaseqsamplesizedata
 
    RnaSeqSampleSizeData package provides the read counts and dispersion distribution from real RNA\-seq experiments. It can be used by RnaSeqSampleSize package to estimate sample size and power for RNA\-seq experiment design.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RnaSeqSampleSizeData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RnaSeqSampleSizeData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-rnaseqsamplesizedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqsamplesizedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqsamplesizedata/meta.yaml>`_
 

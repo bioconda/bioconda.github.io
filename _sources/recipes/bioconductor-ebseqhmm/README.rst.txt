@@ -11,7 +11,7 @@ bioconductor-ebseqhmm
 
    The EBSeqHMM package implements an auto\-regressive hidden Markov model for statistical analysis in ordered RNA\-seq experiments \(e.g. time course or spatial course data\). The EBSeqHMM package provides functions to identify genes and isoforms that have non\-constant expression profile over the time points\/positions\, and cluster them into expression paths.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/EBSeqHMM.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/EBSeqHMM.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ebseqhmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebseqhmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebseqhmm/meta.yaml>`_
 

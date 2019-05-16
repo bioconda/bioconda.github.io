@@ -11,7 +11,7 @@ bioconductor-geecc
 
    Use log\-linear models to perform hypergeometric and chi\-squared tests for gene set enrichments for two \(based on contingency tables\) or three categories \(contingency cubes\). Categories can be differentially expressed genes\, GO terms\, sequence length\, GC content\, chromosomal position\, phylostrata\, divergence\-strata\, ....
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/geecc.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/geecc.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-geecc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geecc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geecc/meta.yaml>`_
 

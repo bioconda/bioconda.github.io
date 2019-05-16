@@ -11,7 +11,7 @@ bioconductor-kissde
 
    Retrieves condition\-specific variants in RNA\-seq data \(SNVs\, alternative\-splicings\, indels\). It has been developed as a post\-treatment of \'KisSplice\' but can also be used with user\'s own data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/kissDE.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/kissDE.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-kissde <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kissde>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kissde/meta.yaml>`_
 

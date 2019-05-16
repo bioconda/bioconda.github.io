@@ -11,7 +11,7 @@ bioconductor-cohcapanno
 
    Provides genomic location\, nearby CpG island and nearby gene information for common Illumina methylation array platforms
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/COHCAPanno.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/COHCAPanno.html
    :license: GPL-3
    :recipe: /`bioconductor-cohcapanno <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cohcapanno>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cohcapanno/meta.yaml>`_
 

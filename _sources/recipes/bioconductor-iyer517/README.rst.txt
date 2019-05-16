@@ -11,7 +11,7 @@ bioconductor-iyer517
 
    representation of public Iyer data from http\:\/\/genome\-www.stanford.edu\/serum\/clusters.html
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/Iyer517.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/Iyer517.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-iyer517 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iyer517>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iyer517/meta.yaml>`_
 

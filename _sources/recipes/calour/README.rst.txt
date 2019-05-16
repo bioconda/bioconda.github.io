@@ -26,7 +26,7 @@ calour
 
    |downloads_calour| |docker_calour|
 
-   :versions: 2018.10.1-0
+   :versions: 2019.5.1-0, 2018.10.1-0
    
    :depends biom-format: 
    :depends docrep: 

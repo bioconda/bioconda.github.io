@@ -11,7 +11,7 @@ bioconductor-eudysbiome
 
    eudysbiome a package that permits to annotate the differential genera as harmful\/harmless based on their ability to contribute to host diseases \(as indicated in literature\) or unknown based on their ambiguous genus classification. Further\, the package statistically measures the eubiotic \(harmless genera increase or harmful genera decrease\) or dysbiotic\(harmless genera decrease or harmful genera increase\) impact of a given treatment or environmental change on the \(gut\-intestinal\, GI\) microbiome in comparison to the microbiome of the reference condition.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/eudysbiome.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/eudysbiome.html
    :license: GPL-2
    :recipe: /`bioconductor-eudysbiome <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eudysbiome>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eudysbiome/meta.yaml>`_
    :links: biotools: :biotools:`eudysbiome`, doi: :doi:`10.1186/s12918-016-0344-6`

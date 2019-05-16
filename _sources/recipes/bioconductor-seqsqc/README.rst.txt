@@ -11,7 +11,7 @@ bioconductor-seqsqc
 
    The SeqSQC is designed to identify problematic samples in NGS data\, including samples with gender mismatch\, contamination\, cryptic relatedness\, and population outlier.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SeqSQC.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SeqSQC.html
    :license: GPL-3
    :recipe: /`bioconductor-seqsqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqsqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqsqc/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-chromstardata
 
    ChIP\-seq data for demonstration purposes in the chromstaR package.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/chromstaRData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/chromstaRData.html
    :license: GPL-3
    :recipe: /`bioconductor-chromstardata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromstardata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromstardata/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-multimed
 
    Implements methods for testing multiple mediators
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MultiMed.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MultiMed.html
    :license: GPL (>= 2) + file LICENSE
    :recipe: /`bioconductor-multimed <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multimed>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multimed/meta.yaml>`_
    :links: biotools: :biotools:`multimed`, doi: :doi:`10.1093/bioinformatics/btt633`

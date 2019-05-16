@@ -11,7 +11,7 @@ bioconductor-rheumaticconditionwollbold
 
    Normalized gene expression data from rheumatic diseases from study published by Wollbold et al. in 2009\, provided as an eSet.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/rheumaticConditionWOLLBOLD.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/rheumaticConditionWOLLBOLD.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rheumaticconditionwollbold <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rheumaticconditionwollbold>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rheumaticconditionwollbold/meta.yaml>`_
 

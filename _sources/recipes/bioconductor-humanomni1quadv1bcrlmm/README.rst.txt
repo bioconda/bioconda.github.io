@@ -11,7 +11,7 @@ bioconductor-humanomni1quadv1bcrlmm
 
    Package with metadata for genotyping Illumina Omni1 Quad arrays using the \'crlmm\' package.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/humanomni1quadv1bCrlmm.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/humanomni1quadv1bCrlmm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-humanomni1quadv1bcrlmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humanomni1quadv1bcrlmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humanomni1quadv1bcrlmm/meta.yaml>`_
 

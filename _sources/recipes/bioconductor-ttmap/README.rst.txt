@@ -11,7 +11,7 @@ bioconductor-ttmap
 
    TTMap is a clustering method that groups together samples with the same deviation in comparison to a control group. It is specially useful when the data is small. It is parameter free.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/TTMap.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/TTMap.html
    :license: GPL-2
    :recipe: /`bioconductor-ttmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ttmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ttmap/meta.yaml>`_
 

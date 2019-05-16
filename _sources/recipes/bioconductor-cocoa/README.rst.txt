@@ -11,7 +11,7 @@ bioconductor-cocoa
 
    COCOA is a method for understanding variation among samples and can be used with data that includes genomic coordinates such as DNA methylation. On a high level\, COCOA uses a database of \"region sets\" and principal component analysis \(PCA\) of your data to identify sources of variation among samples. A region set is a set of genomic regions that share a biological annotation\, for instance\, transcription factor binding regions\, histone modification regions\, or open chromatin regions. COCOA works in both supervised \(known groups of samples\) and unsupervised \(no groups\) situations and can be used as a complement to \"differential\" methods that find discrete differences between groups. COCOA can identify biologically meaningful sources of variation between samples and increase understanding of variation in your data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/COCOA.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/COCOA.html
    :license: GPL-3
    :recipe: /`bioconductor-cocoa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cocoa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cocoa/meta.yaml>`_
 

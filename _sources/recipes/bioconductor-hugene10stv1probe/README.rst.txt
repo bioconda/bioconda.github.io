@@ -11,7 +11,7 @@ bioconductor-hugene10stv1probe
 
    This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was HuGene\-1\\\_0\-st\-v1\\\_probe\\\_tab.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/hugene10stv1probe.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hugene10stv1probe.html
    :license: LGPL
    :recipe: /`bioconductor-hugene10stv1probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hugene10stv1probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hugene10stv1probe/meta.yaml>`_
 

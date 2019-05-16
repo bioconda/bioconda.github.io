@@ -11,7 +11,7 @@ bioconductor-plasfia
 
    Positive Ionization FIA\-HRMS data of human plasma spiked with a pool of 40 compounds acquired in FIA\-HRMS mode on an orbitrap fusion. plasFIA also include the result of the processing by the proFIA package with adapted parameters for an Orbitrap Fusion.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/plasFIA.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/plasFIA.html
    :license: LGPL
    :recipe: /`bioconductor-plasfia <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plasfia>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plasfia/meta.yaml>`_
 

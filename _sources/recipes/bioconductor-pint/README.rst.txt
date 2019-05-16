@@ -11,7 +11,7 @@ bioconductor-pint
 
    Pairwise data integration for functional genomics\, including tools for DNA\/RNA\/miRNA dependency screens.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/pint.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/pint.html
    :license: BSD_2_clause + file LICENSE
    :recipe: /`bioconductor-pint <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pint>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pint/meta.yaml>`_
    :links: biotools: :biotools:`pint`, doi: :doi:`10.1038/nmeth.3252`

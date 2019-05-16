@@ -11,7 +11,7 @@ bioconductor-rrbsdata
 
    RRBS data set comprising 12 samples with simulated differentially methylated regions \(DMRs\).
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RRBSdata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RRBSdata.html
    :license: LGPL-3
    :recipe: /`bioconductor-rrbsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrbsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrbsdata/meta.yaml>`_
 

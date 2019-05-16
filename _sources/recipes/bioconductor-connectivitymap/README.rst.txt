@@ -11,7 +11,7 @@ bioconductor-connectivitymap
 
    The Broad Institute\'s Connectivity Map \(cmap02\) is a \"large reference catalogue of gene\-expression data from cultured human cells perturbed with many chemicals and genetic reagents\"\, containing more than 7000 gene expression profiles and 1300 small molecules.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/ConnectivityMap.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ConnectivityMap.html
    :license: GPL-3
    :recipe: /`bioconductor-connectivitymap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-connectivitymap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-connectivitymap/meta.yaml>`_
 

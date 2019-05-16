@@ -11,7 +11,7 @@ bioconductor-summarizedbenchmark
 
    This package defines the BenchDesign and SummarizedBenchmark classes for building\, executing\, and evaluating benchmark experiments of computational methods. The SummarizedBenchmark class extends the RangedSummarizedExperiment object\, and is designed to provide infrastructure to store and compare the results of applying different methods to a shared data set. This class provides an integrated interface to store metadata such as method parameters and software versions as well as ground truths \(when these are available\) and evaluation metrics.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SummarizedBenchmark.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SummarizedBenchmark.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-summarizedbenchmark <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-summarizedbenchmark>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-summarizedbenchmark/meta.yaml>`_
 

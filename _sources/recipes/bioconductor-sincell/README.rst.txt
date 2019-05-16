@@ -11,7 +11,7 @@ bioconductor-sincell
 
    Cell differentiation processes are achieved through a continuum of hierarchical intermediate cell\-states that might be captured by single\-cell RNA seq. Existing computational approaches for the assessment of cell\-state hierarchies from single\-cell data might be formalized under a general workflow composed of i\) a metric to assess cell\-to\-cell similarities \(combined or not with a dimensionality reduction step\)\, and ii\) a graph\-building algorithm \(optionally making use of a cells\-clustering step\). Sincell R package implements a methodological toolbox allowing flexible workflows under such framework. Furthermore\, Sincell contributes new algorithms to provide cell\-state hierarchies with statistical support while accounting for stochastic factors in single\-cell RNA seq. Graphical representations and functional association tests are provided to interpret hierarchies.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/sincell.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/sincell.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-sincell <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sincell>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sincell/meta.yaml>`_
    :links: biotools: :biotools:`sincell`
@@ -25,7 +25,8 @@ bioconductor-sincell
 
    :versions: 1.16.0-0, 1.14.1-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-cluster: 
    :depends r-entropy: 

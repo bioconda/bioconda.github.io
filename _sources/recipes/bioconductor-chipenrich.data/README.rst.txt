@@ -11,7 +11,7 @@ bioconductor-chipenrich.data
 
    Supporting data for the chipenrich package. Includes pre\-defined gene sets\, gene locus definitions\, and mappability estimates.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/chipenrich.data.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/chipenrich.data.html
    :license: GPL-3
    :recipe: /`bioconductor-chipenrich.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipenrich.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipenrich.data/meta.yaml>`_
 

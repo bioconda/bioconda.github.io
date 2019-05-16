@@ -11,7 +11,7 @@ bioconductor-vidger
 
    The aim of vidger is to rapidly generate information\-rich visualizations for the interpretation of differential gene expression results from three widely\-used tools\: Cuffdiff\, DESeq2\, and edgeR.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/vidger.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/vidger.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-vidger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vidger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vidger/meta.yaml>`_
 

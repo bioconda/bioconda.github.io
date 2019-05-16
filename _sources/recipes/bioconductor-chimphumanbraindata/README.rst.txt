@@ -11,7 +11,7 @@ bioconductor-chimphumanbraindata
 
    This data package contains chimp and human brain data extracted from the ArrayExpress accession E\-AFMX\-2.  Both human and chimp RNAs were run on human hgu95av2 Affymetrix arrays. It is a useful dataset for tutorials.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/ChimpHumanBrainData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ChimpHumanBrainData.html
    :license: MIT
    :recipe: /`bioconductor-chimphumanbraindata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chimphumanbraindata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chimphumanbraindata/meta.yaml>`_
 

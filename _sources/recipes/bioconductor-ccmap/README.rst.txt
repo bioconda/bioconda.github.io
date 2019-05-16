@@ -11,7 +11,7 @@ bioconductor-ccmap
 
    Finds drugs and drug combinations that are predicted to reverse or mimic gene expression signatures. These drugs might reverse diseases or mimic healthy lifestyles.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ccmap.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ccmap.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-ccmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccmap/meta.yaml>`_
 

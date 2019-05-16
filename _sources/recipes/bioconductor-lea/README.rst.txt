@@ -11,7 +11,7 @@ bioconductor-lea
 
    LEA is an R package dedicated to landscape genomics and ecological association tests. LEA can run analyses of population structure and genomewide tests for local adaptation. The package includes statistical methods for estimating ancestry coefficients from large genotypic matrices and for evaluating the number of ancestral populations \(snmf\, pca\). It performs statistical tests using latent factor mixed models for identifying genetic polymorphisms that exhibit association with environmental gradients or phenotypic traits \(lfmm\). LEA is mainly based on optimized C programs that can scale with the dimension of large data sets.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/LEA.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/LEA.html
    :license: GPL-3
    :recipe: /`bioconductor-lea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lea/meta.yaml>`_
 

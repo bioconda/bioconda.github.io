@@ -11,7 +11,7 @@ bioconductor-mirnatap.db
 
    This package holds the database for miRNAtap.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/miRNAtap.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/miRNAtap.db.html
    :license: GPL-2
    :recipe: /`bioconductor-mirnatap.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnatap.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnatap.db/meta.yaml>`_
 

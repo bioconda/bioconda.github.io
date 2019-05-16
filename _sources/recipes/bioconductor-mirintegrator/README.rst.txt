@@ -11,7 +11,7 @@ bioconductor-mirintegrator
 
    Tools for augmenting signaling pathways to perform pathway analysis of microRNA and mRNA expression levels.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/mirIntegrator.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/mirIntegrator.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-mirintegrator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirintegrator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirintegrator/meta.yaml>`_
    :links: biotools: :biotools:`mirintegrator`, doi: :doi:`10.1038/srep29251`

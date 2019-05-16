@@ -11,7 +11,7 @@ bioconductor-restfulse
 
    This package provides functions and classes to interface with remote data stores by operating on SummarizedExperiment\-like objects.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/restfulSE.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/restfulSE.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-restfulse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-restfulse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-restfulse/meta.yaml>`_
 

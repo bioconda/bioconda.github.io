@@ -11,7 +11,7 @@ bioconductor-uniprot.ws
 
    A collection of functions for retrieving\, processing and repackaging the UniProt web services.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/UniProt.ws.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/UniProt.ws.html
    :license: Artistic License 2.0
    :recipe: /`bioconductor-uniprot.ws <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-uniprot.ws>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-uniprot.ws/meta.yaml>`_
    :links: biotools: :biotools:`uniprot.ws`, doi: :doi:`10.1038/nmeth.3252`

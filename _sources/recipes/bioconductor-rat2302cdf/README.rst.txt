@@ -11,7 +11,7 @@ bioconductor-rat2302cdf
 
    A package containing an environment representing the Rat230\_2.cdf file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/rat2302cdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/rat2302cdf.html
    :license: LGPL
    :recipe: /`bioconductor-rat2302cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rat2302cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rat2302cdf/meta.yaml>`_
 

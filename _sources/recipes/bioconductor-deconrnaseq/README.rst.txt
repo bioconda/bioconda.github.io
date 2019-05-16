@@ -11,7 +11,7 @@ bioconductor-deconrnaseq
 
    DeconSeq is an R package for deconvolution of heterogeneous tissues based on mRNA\-Seq data. It modeled expression levels from heterogeneous cell populations in mRNA\-Seq as the weighted average of expression from different constituting cell types and predicted cell type proportions of single expression profiles.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DeconRNASeq.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DeconRNASeq.html
    :license: GPL-2
    :recipe: /`bioconductor-deconrnaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deconrnaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deconrnaseq/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-rqc
 
    Rqc is an optimised tool designed for quality control and assessment of high\-throughput sequencing data. It performs parallel processing of entire files and produces a report which contains a set of high\-resolution graphics.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Rqc.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Rqc.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-rqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rqc/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-bridgedbr
 
    Use BridgeDb functions and load identifier mapping databases in R.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BridgeDbR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BridgeDbR.html
    :license: AGPL-3
    :recipe: /`bioconductor-bridgedbr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bridgedbr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bridgedbr/meta.yaml>`_
 

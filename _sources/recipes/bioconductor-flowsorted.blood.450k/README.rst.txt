@@ -11,7 +11,7 @@ bioconductor-flowsorted.blood.450k
 
    Raw data objects for the Illumina 450k DNA methylation microarrays\, and an object depicting which CpGs on the array are associated with cell type.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/FlowSorted.Blood.450k.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/FlowSorted.Blood.450k.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowsorted.blood.450k <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.blood.450k>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.blood.450k/meta.yaml>`_
 

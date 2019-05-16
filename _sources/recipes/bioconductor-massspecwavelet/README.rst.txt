@@ -11,7 +11,7 @@ bioconductor-massspecwavelet
 
    Processing Mass Spectrometry spectrum by using wavelet based algorithm
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MassSpecWavelet.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MassSpecWavelet.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-massspecwavelet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-massspecwavelet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-massspecwavelet/meta.yaml>`_
    :links: biotools: :biotools:`massspecwavelet`

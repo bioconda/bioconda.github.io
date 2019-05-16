@@ -11,7 +11,7 @@ bioconductor-arrayexpresshts
 
    RNA\-Seq processing pipeline for public ArrayExpress experiments or local datasets
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ArrayExpressHTS.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ArrayExpressHTS.html
    :license: Artistic License 2.0
    :recipe: /`bioconductor-arrayexpresshts <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrayexpresshts>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrayexpresshts/meta.yaml>`_
 

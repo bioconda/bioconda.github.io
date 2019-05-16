@@ -11,7 +11,7 @@ bioconductor-funcisnp.data
 
    Data sets needed for FunciSNP to integrate information from GWAS\, 1000genomes and chromatin feature\, in order to identify functional SNP in coding or non\-coding regions.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/FunciSNP.data.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/FunciSNP.data.html
    :license: GPL-3
    :recipe: /`bioconductor-funcisnp.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-funcisnp.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-funcisnp.data/meta.yaml>`_
 

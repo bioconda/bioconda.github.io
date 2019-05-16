@@ -11,7 +11,7 @@ bioconductor-scmeth
 
    Functions to analyze methylation data can be found here. Some functions are relevant for single cell methylation data but most other functions can be used for any methylation data. Highlight of this workflow is the comprehensive quality control report.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/scmeth.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/scmeth.html
    :license: GPL-2
    :recipe: /`bioconductor-scmeth <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scmeth>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scmeth/meta.yaml>`_
 

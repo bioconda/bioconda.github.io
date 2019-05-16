@@ -11,7 +11,7 @@ bioconductor-predasampledata
 
    Sample data for PREDA package. \(annotations objects synchronized with GeneAnnot custom CDFs version 2.2.0\)
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/PREDAsampledata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/PREDAsampledata.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-predasampledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-predasampledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-predasampledata/meta.yaml>`_
 

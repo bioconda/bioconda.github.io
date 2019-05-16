@@ -11,7 +11,7 @@ bioconductor-affyhgu133aexpr
 
    Contains pre\-built human \(GPL96\) database of gene expression profiles. The gene expression data was downloaded from NCBI GEO\, preprocessed and normalized consistently. The biological context of each sample was recorded and manually verified based on the sample description in GEO.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/Affyhgu133aExpr.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/Affyhgu133aExpr.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-affyhgu133aexpr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyhgu133aexpr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyhgu133aexpr/meta.yaml>`_
 

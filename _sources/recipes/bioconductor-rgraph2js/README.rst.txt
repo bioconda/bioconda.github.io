@@ -11,7 +11,7 @@ bioconductor-rgraph2js
 
    Generator of web pages which display interactive network\/graph visualizations with D3js\, jQuery and Raphael.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RGraph2js.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RGraph2js.html
    :license: GPL-2
    :recipe: /`bioconductor-rgraph2js <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgraph2js>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgraph2js/meta.yaml>`_
    :links: biotools: :biotools:`rgraph2js`, doi: :doi:`10.1038/nmeth.3252`

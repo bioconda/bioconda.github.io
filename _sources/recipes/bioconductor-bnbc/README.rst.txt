@@ -11,7 +11,7 @@ bioconductor-bnbc
 
    Tools to normalize \(several\) Hi\-C data from replicates.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/bnbc.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/bnbc.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bnbc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bnbc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bnbc/meta.yaml>`_
 

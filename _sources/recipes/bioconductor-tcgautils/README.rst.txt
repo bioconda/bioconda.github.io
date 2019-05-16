@@ -11,7 +11,7 @@ bioconductor-tcgautils
 
    A suite of helper functions for checking and manipulating TCGA data including data obtained from the curatedTCGAData experiment package. These functions aim to simplify and make working with TCGA data more manageable.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/TCGAutils.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/TCGAutils.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tcgautils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgautils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgautils/meta.yaml>`_
 

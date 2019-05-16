@@ -11,7 +11,7 @@ bioconductor-isomirs
 
    Characterization of miRNAs and isomiRs\, clustering and differential expression.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/isomiRs.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/isomiRs.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-isomirs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isomirs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isomirs/meta.yaml>`_
    :links: biotools: :biotools:`isomirs`, doi: :doi:`10.1093/bioinformatics/btv632`

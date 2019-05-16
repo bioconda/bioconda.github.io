@@ -11,7 +11,7 @@ bioconductor-phantasus
 
    Phantasus is a web\-application for visual and interactive gene expression analysis. Phantasus is based on Morpheus – a web\-based software for heatmap visualisation and analysis\, which was integrated with an R environment via OpenCPU API. Aside from basic visualization and filtering methods\, R\-based methods such as k\-means clustering\, principal component analysis or differential expression analysis with limma package are supported.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/phantasus.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/phantasus.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-phantasus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phantasus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phantasus/meta.yaml>`_
 

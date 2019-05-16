@@ -11,7 +11,7 @@ bioconductor-compgo
 
    This package contains functions to accomplish several tasks. It is able to download full genome databases from UCSC\, import .bed files easily\, annotate these .bed file regions with genes \(plus distance\) from aforementioned database dumps\, interface with DAVID to create functional annotation and gene ontology enrichment charts based on gene lists \(such as those generated from input .bed files\) and finally visualise and compare these enrichments using either directed acyclic graphs or scatterplots.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CompGO.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CompGO.html
    :license: GPL-2
    :recipe: /`bioconductor-compgo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compgo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compgo/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-mageckflute
 
    MAGeCKFlute is designed to surporting downstream analysis\, utilizing the gene summary data provided through MAGeCK or MAGeCK\-VISPR. Quality control\, normalization\, and screen hit identification for CRISPR screen data are performed in pipeline. Identified hits within the pipeline are categorized based on experimental design\, and are subsequently interpreted by functional enrichment analysis.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MAGeCKFlute.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MAGeCKFlute.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-mageckflute <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mageckflute>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mageckflute/meta.yaml>`_
 

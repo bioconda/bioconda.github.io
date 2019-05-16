@@ -11,7 +11,7 @@ bioconductor-phyloseq
 
    phyloseq provides a set of classes and tools to facilitate the import\, storage\, analysis\, and graphical display of microbiome census data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/phyloseq.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/phyloseq.html
    :license: AGPL-3
    :recipe: /`bioconductor-phyloseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phyloseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phyloseq/meta.yaml>`_
    :links: biotools: :biotools:`phyloseq`

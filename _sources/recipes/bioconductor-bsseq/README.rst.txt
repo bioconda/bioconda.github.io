@@ -11,7 +11,7 @@ bioconductor-bsseq
 
    A collection of tools for analyzing and visualizing bisulfite sequencing data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/bsseq.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/bsseq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsseq/meta.yaml>`_
    :links: biotools: :biotools:`bsseq`

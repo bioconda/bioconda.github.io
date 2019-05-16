@@ -11,7 +11,7 @@ bioconductor-estrogen
 
    Data from 8 Affymetrix genechips\, looking at a 2x2 factorial design \(with 2 repeats per level\).
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/estrogen.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/estrogen.html
    :license: LGPL
    :recipe: /`bioconductor-estrogen <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-estrogen>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-estrogen/meta.yaml>`_
 

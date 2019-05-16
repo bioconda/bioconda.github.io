@@ -11,7 +11,7 @@ bioconductor-crimage
 
    CRImage provides functionality to process and analyze images\, in particular to classify cells in biological images. Furthermore\, in the context of tumor images\, it provides functionality to calculate tumour cellularity.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CRImage.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CRImage.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-crimage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crimage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crimage/meta.yaml>`_
    :links: biotools: :biotools:`crimage`, doi: :doi:`10.1126/scitranslmed.3004330`

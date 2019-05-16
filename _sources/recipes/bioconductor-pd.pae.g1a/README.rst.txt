@@ -11,7 +11,7 @@ bioconductor-pd.pae.g1a
 
    Platform Design Info for The Manufacturer\'s Name Pae\_G1a
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/pd.pae.g1a.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.pae.g1a.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.pae.g1a <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.pae.g1a>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.pae.g1a/meta.yaml>`_
 

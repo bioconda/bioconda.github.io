@@ -11,7 +11,7 @@ bioconductor-xtropicaliscdf
 
    A package containing an environment representing the X\_tropicalis.cdf file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/xtropicaliscdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/xtropicaliscdf.html
    :license: LGPL
    :recipe: /`bioconductor-xtropicaliscdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xtropicaliscdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xtropicaliscdf/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-qualifier
 
    Provides quality control and quality assessment tools for gated flow cytometry data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/QUALIFIER.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/QUALIFIER.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-qualifier <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qualifier>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qualifier/meta.yaml>`_
    :links: biotools: :biotools:`qualifier`, doi: :doi:`10.1186/1471-2105-13-252`

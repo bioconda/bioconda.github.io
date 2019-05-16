@@ -11,7 +11,7 @@ bioconductor-human1mv1ccrlmm
 
    Package with metadata fast genotyping Illumina 1M arrays using the \'crlmm\' package.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/human1mv1cCrlmm.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/human1mv1cCrlmm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-human1mv1ccrlmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-human1mv1ccrlmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-human1mv1ccrlmm/meta.yaml>`_
 

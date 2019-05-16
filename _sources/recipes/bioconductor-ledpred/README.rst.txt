@@ -11,7 +11,7 @@ bioconductor-ledpred
 
    This package aims at creating a predictive model of regulatory sequences used to score unknown sequences based on the content of DNA motifs\, next\-generation sequencing \(NGS\) peaks and signals and other numerical scores of the sequences using supervised classification. The package contains a workflow based on the support vector machine \(SVM\) algorithm that maps features to sequences\, optimize SVM parameters and feature number and creates a model that can be stored and used to score the regulatory potential of unknown sequences.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/LedPred.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/LedPred.html
    :license: MIT | file LICENSE
    :recipe: /`bioconductor-ledpred <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ledpred>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ledpred/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-hellorangesdata
 
    Provides the data that were used in the bedtools tutorial by Aaron Quinlan \(http\:\/\/quinlanlab.org\/tutorials\/bedtools\/bedtools.html\). Includes a subset of the DnaseI hypersensitivity data from \"Maurano et al. Systematic Localization of Common Disease\-Associated Variation in Regulatory DNA. Science. 2012. Vol. 337 no. 6099 pp. 1190\-1195.\" The rest of the tracks were originally downloaded from the UCSC table browser. See the HelloRanges vignette for a port of the bedtools tutorial to R.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/HelloRangesData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/HelloRangesData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-hellorangesdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hellorangesdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hellorangesdata/meta.yaml>`_
 

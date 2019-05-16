@@ -11,7 +11,7 @@ bioconductor-grridge
 
    This package allows the use of multiple sources of co\-data \(e.g. external p\-values\, gene lists\, annotation\) to improve prediction of binary\, continuous and survival response using \(logistic\, linear or Cox\) group\-regularized ridge regression. It also facilitates post\-hoc variable selection and prediction diagnostics by cross\-validation using ROC curves and AUC.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GRridge.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GRridge.html
    :license: GPL-3
    :recipe: /`bioconductor-grridge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grridge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grridge/meta.yaml>`_
 

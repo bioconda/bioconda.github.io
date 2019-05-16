@@ -11,7 +11,7 @@ bioconductor-lowmacaannotation
 
    A package containing the data to run LowMACA package.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/LowMACAAnnotation.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/LowMACAAnnotation.html
    :license: GPL-3
    :recipe: /`bioconductor-lowmacaannotation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lowmacaannotation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lowmacaannotation/meta.yaml>`_
 

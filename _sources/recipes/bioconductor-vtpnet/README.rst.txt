@@ -11,7 +11,7 @@ bioconductor-vtpnet
 
    variant\-transcription factor\-phenotype networks\, inspired by Maurano et al.\, Science \(2012\)\, PMID 22955828
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/vtpnet.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/vtpnet.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-vtpnet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vtpnet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vtpnet/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-path2ppi
 
    Package to predict protein\-protein interaction \(PPI\) networks in target organisms for which only a view information about PPIs is available. Path2PPI predicts PPI networks based on sets of proteins which can belong to a certain pathway from well\-established model organisms. It helps to combine and transfer information of a certain pathway or biological process from several reference organisms to one target organism. Path2PPI only depends on the sequence similarity of the involved proteins.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Path2PPI.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Path2PPI.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-path2ppi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-path2ppi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-path2ppi/meta.yaml>`_
    :links: biotools: :biotools:`path2ppi`

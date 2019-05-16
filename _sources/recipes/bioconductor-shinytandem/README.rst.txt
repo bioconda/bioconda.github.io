@@ -11,7 +11,7 @@ bioconductor-shinytandem
 
    This package provides a GUI interface for rTANDEM. The GUI is primarily designed to visualize rTANDEM result object or result xml files. But it will also provides an interface for creating parameter objects\, launching searches or performing conversions between R objects and xml files.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/shinyTANDEM.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/shinyTANDEM.html
    :license: GPL-3
    :recipe: /`bioconductor-shinytandem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-shinytandem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-shinytandem/meta.yaml>`_
 

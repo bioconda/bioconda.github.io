@@ -11,7 +11,7 @@ bioconductor-methimpute
 
    This package implements functions for calling methylation for all cytosines in the genome.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/methimpute.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/methimpute.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-methimpute <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methimpute>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methimpute/meta.yaml>`_
 

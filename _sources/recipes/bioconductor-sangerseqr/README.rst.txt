@@ -11,7 +11,7 @@ bioconductor-sangerseqr
 
    This package contains several tools for analyzing Sanger Sequencing data files in R\, including reading .scf and .ab1 files\, making basecalls and plotting chromatograms.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/sangerseqR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/sangerseqR.html
    :license: GPL-2
    :recipe: /`bioconductor-sangerseqr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sangerseqr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sangerseqr/meta.yaml>`_
    :links: biotools: :biotools:`sangerseqr`

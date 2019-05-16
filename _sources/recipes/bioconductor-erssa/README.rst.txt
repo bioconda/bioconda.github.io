@@ -11,7 +11,7 @@ bioconductor-erssa
 
    The ERSSA package takes user supplied RNA\-seq differential expression dataset and calculates the number of differentially expressed genes at varying biological replicate levels. This allows the user to determine\, without relying on any a priori assumptions\, whether sufficient differential detection has been acheived with their RNA\-seq dataset.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ERSSA.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ERSSA.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-erssa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-erssa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-erssa/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-tracktables
 
    Methods to create complex IGV genome browser sessions and dynamic IGV reports in HTML pages.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/tracktables.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/tracktables.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-tracktables <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tracktables>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tracktables/meta.yaml>`_
    :links: biotools: :biotools:`tracktables`, doi: :doi:`10.1038/nmeth.3252`

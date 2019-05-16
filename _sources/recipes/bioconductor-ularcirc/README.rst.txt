@@ -11,7 +11,7 @@ bioconductor-ularcirc
 
    Ularcirc reads in STAR aligned splice junction files and provides visualisation and analysis tools for splicing analysis. Users can assess backsplice junctions and forward canonical junctions.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Ularcirc.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Ularcirc.html
    :license: file LICENSE
    :recipe: /`bioconductor-ularcirc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ularcirc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ularcirc/meta.yaml>`_
 

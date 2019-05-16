@@ -11,7 +11,7 @@ bioconductor-jazaerimetadata.db
 
    A data package containing annotation data for JazaeriMetaData assembled using data from public repositories
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/JazaeriMetaData.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/JazaeriMetaData.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-jazaerimetadata.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jazaerimetadata.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jazaerimetadata.db/meta.yaml>`_
 

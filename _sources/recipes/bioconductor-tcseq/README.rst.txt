@@ -11,7 +11,7 @@ bioconductor-tcseq
 
    Quantitative and differential analysis of epigenomic and transcriptomic time course sequencing data\, clustering analysis and visualization of temporal patterns of time course data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/TCseq.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/TCseq.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-tcseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcseq/meta.yaml>`_
 

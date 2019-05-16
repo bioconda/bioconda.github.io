@@ -11,7 +11,7 @@ bioconductor-generegionscan
 
    A package with focus on analysis of discrete regions of the genome. This package is useful for investigation of one or a few genes using Affymetrix data\, since it will extract probe level data using the Affymetrix Power Tools application and wrap these data into a ProbeLevelSet. A ProbeLevelSet directly extends the expressionSet\, but includes additional information about the sequence of each probe and the probe set it is derived from. The package includes a number of functions used for plotting these probe level data as a function of location along sequences of mRNA\-strands. This can be used for analysis of variable splicing\, and is especially well suited for use with exon\-array data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GeneRegionScan.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GeneRegionScan.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-generegionscan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-generegionscan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-generegionscan/meta.yaml>`_
    :links: biotools: :biotools:`generegionscan`

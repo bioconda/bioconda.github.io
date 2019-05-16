@@ -11,7 +11,7 @@ bioconductor-m3drop
 
    This package fits a Michaelis\-Menten model to the pattern of dropouts in single\-cell RNASeq data. This model is used as a null to identify significantly variable \(i.e. differentially expressed\) genes for use in downstream analysis\, such as clustering cells.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/M3Drop.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/M3Drop.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-m3drop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m3drop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m3drop/meta.yaml>`_
    :links: biotools: :biotools:`m3drop`, doi: :doi:`10.1002/1873-3468.12684`

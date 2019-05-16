@@ -11,7 +11,7 @@ bioconductor-rgu34bprobe
 
    This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was RG\-U34B\\\_probe\\\_tab.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/rgu34bprobe.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/rgu34bprobe.html
    :license: LGPL
    :recipe: /`bioconductor-rgu34bprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgu34bprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgu34bprobe/meta.yaml>`_
 

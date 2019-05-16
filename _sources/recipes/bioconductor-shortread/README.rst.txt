@@ -11,7 +11,7 @@ bioconductor-shortread
 
    This package implements sampling\, iteration\, and input of FASTQ files. The package includes functions for filtering and trimming reads\, and for generating a quality assessment report. Data are represented as DNAStringSet\-derived objects\, and easily manipulated for a diversity of purposes.  The package also contains legacy support for early single\-end\, ungapped alignment formats.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ShortRead.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ShortRead.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-shortread <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-shortread>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-shortread/meta.yaml>`_
    :links: biotools: :biotools:`shortread`

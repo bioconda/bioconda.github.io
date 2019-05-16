@@ -11,7 +11,7 @@ bioconductor-annotationtools
 
    Functions to annotate microarrays\, find orthologs\, and integrate heterogeneous gene expression profiles using annotation and other molecular biology information available as flat file database \(plain text files\).
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/annotationTools.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/annotationTools.html
    :license: GPL
    :recipe: /`bioconductor-annotationtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationtools/meta.yaml>`_
    :links: biotools: :biotools:`annotationtools`

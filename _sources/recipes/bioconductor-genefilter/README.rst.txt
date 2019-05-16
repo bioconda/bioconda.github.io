@@ -11,7 +11,7 @@ bioconductor-genefilter
 
    Some basic functions for filtering genes.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/genefilter.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/genefilter.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genefilter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genefilter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genefilter/meta.yaml>`_
    :links: biotools: :biotools:`genefilter`, doi: :doi:`10.1038/nmeth.3252`

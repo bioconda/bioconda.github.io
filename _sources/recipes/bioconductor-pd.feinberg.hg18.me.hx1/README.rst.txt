@@ -11,7 +11,7 @@ bioconductor-pd.feinberg.hg18.me.hx1
 
    Platform Design Info for NimbleGen feinberg\_hg18\_me\_hx1
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/pd.feinberg.hg18.me.hx1.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.feinberg.hg18.me.hx1.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.feinberg.hg18.me.hx1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.feinberg.hg18.me.hx1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.feinberg.hg18.me.hx1/meta.yaml>`_
 

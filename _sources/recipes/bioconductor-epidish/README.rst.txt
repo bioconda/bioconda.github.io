@@ -9,9 +9,9 @@ bioconductor-epidish
 .. conda:recipe:: bioconductor-epidish
    :replaces_section_title:
 
-   EpiDISH is a R package to infer the proportions of a priori known cell subtypes present in a sample representing a mixture of such cell\-types. Inference proceeds via one of 3 methods \(Robust Partial Correlations\-RPC\, Cibersort \(CBS\)\, Constrained Projection \(CP\)\)\, as determined by user.
+   EpiDISH is a R package to infer the proportions of a priori known cell\-types present in a sample representing a mixture of such cell\-types. Right now\, the package can be used on DNAm data of whole blood\, generic epithelial tissue and breast tissue. Besides\, the package provides a function that allows the identification of differentially methylated cell\-types and their directionality of change in Epigenome\-Wide Association Studies.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/EpiDISH.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/EpiDISH.html
    :license: GPL-2
    :recipe: /`bioconductor-epidish <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epidish>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epidish/meta.yaml>`_
 

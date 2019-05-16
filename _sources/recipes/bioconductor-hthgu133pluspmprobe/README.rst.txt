@@ -11,7 +11,7 @@ bioconductor-hthgu133pluspmprobe
 
    This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was HT\\\_HG\-U133\\\_Plus\\\_PM\\\_probe\\\_tab.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/hthgu133pluspmprobe.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hthgu133pluspmprobe.html
    :license: LGPL
    :recipe: /`bioconductor-hthgu133pluspmprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hthgu133pluspmprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hthgu133pluspmprobe/meta.yaml>`_
 

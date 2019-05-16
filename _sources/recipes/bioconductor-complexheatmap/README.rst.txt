@@ -9,9 +9,9 @@ bioconductor-complexheatmap
 .. conda:recipe:: bioconductor-complexheatmap
    :replaces_section_title:
 
-   Complex heatmaps are efficient to visualize associations between different sources of data sets and reveal potential structures. Here the ComplexHeatmap package provides a highly flexible way to arrange multiple heatmaps and supports self\-defined annotation graphics.
+   Complex heatmaps are efficient to visualize associations between different sources of data sets and reveal potential patterns. Here the ComplexHeatmap package provides a highly flexible way to arrange multiple heatmaps and supports various annotation graphics.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ComplexHeatmap.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ComplexHeatmap.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-complexheatmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-complexheatmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-complexheatmap/meta.yaml>`_
    :links: biotools: :biotools:`complexheatmap`

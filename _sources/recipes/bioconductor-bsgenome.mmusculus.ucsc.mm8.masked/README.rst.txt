@@ -11,7 +11,7 @@ bioconductor-bsgenome.mmusculus.ucsc.mm8.masked
 
    Full genome sequences for Mus musculus \(Mouse\) as provided by UCSC \(mm8\, Feb. 2006\) and stored in Biostrings objects. The sequences are the same as in BSgenome.Mmusculus.UCSC.mm8\, except that each of them has the 4 following masks on top\: \(1\) the mask of assembly gaps \(AGAPS mask\)\, \(2\) the mask of intra\-contig ambiguities \(AMB mask\)\, \(3\) the mask of repeats from RepeatMasker \(RM mask\)\, and \(4\) the mask of repeats from Tandem Repeats Finder \(TRF mask\). Only the AGAPS and AMB masks are \"active\" by default.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Mmusculus.UCSC.mm8.masked.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Mmusculus.UCSC.mm8.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.mmusculus.ucsc.mm8.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmusculus.ucsc.mm8.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmusculus.ucsc.mm8.masked/meta.yaml>`_
 

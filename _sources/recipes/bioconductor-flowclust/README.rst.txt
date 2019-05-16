@@ -11,7 +11,7 @@ bioconductor-flowclust
 
    Robust model\-based clustering using a t\-mixture model with Box\-Cox transformation. Note\: users should have GSL installed. Windows users\: \'consult the README file available in the inst directory of the source distribution for necessary configuration instructions\'.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/flowClust.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flowClust.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowclust/meta.yaml>`_
 

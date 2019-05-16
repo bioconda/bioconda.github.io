@@ -11,7 +11,7 @@ bioconductor-pathwaysplice
 
    Pathway analysis of alternative splicing would be biased without accounting for the different number of exons associated with each gene\, because genes with higher number of exons are more likely to be included in the \'significant\' gene list in alternative splicing. PathwaySplice is an R package that\: \(1\) performs pathway analysis that explicitly adjusts for the number of exons associated with each gene \(2\) visualizes selection bias due to different number of exons for each gene \(3\) formally tests for presence of bias using logistic regression \(4\) supports gene sets based on the Gene Ontology terms\, as well as more broadly defined gene sets \(e.g. MSigDB\) or user defined gene sets \(5\) identifies the significant genes driving pathway significance \(6\) organizes significant pathways with an enrichment map\, where pathways with large number of overlapping genes are grouped together in a network graph
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/PathwaySplice.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PathwaySplice.html
    :license: LGPL(>=2)
    :recipe: /`bioconductor-pathwaysplice <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathwaysplice>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathwaysplice/meta.yaml>`_
 

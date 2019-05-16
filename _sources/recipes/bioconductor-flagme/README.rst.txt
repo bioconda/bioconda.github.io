@@ -11,7 +11,7 @@ bioconductor-flagme
 
    Fragment\-level analysis of gas chromatography \- mass spectrometry metabolomics data
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/flagme.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flagme.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-flagme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flagme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flagme/meta.yaml>`_
    :links: biotools: :biotools:`flagme`, doi: :doi:`10.1038/nmeth.3252`

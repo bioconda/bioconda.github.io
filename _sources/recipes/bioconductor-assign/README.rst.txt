@@ -11,7 +11,7 @@ bioconductor-assign
 
    ASSIGN is a computational tool to evaluate the pathway deregulation\/activation status in individual patient samples. ASSIGN employs a flexible Bayesian factor analysis approach that adapts predetermined pathway signatures derived either from knowledge\-based literature or from perturbation experiments to the cell\-\/tissue\-specific pathway signatures. The deregulation\/activation level of each context\-specific pathway is quantified to a score\, which represents the extent to which a patient sample encompasses the pathway deregulation\/activation signature.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ASSIGN.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ASSIGN.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-assign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-assign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-assign/meta.yaml>`_
 

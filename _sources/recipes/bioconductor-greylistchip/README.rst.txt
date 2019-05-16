@@ -11,7 +11,7 @@ bioconductor-greylistchip
 
    Identify regions of ChIP experiments with high signal in the input\, that lead to spurious peaks during peak calling. Remove reads aligning to these regions prior to peak calling\, for cleaner ChIP analysis.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GreyListChIP.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GreyListChIP.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-greylistchip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-greylistchip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-greylistchip/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-qplexanalyzer
 
    Tools for quantitative proteomics data analysis generated from qPLEX\-RIME method.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/qPLEXanalyzer.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/qPLEXanalyzer.html
    :license: GPL-2
    :recipe: /`bioconductor-qplexanalyzer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qplexanalyzer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qplexanalyzer/meta.yaml>`_
 

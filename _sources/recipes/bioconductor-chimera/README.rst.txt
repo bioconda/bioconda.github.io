@@ -11,7 +11,7 @@ bioconductor-chimera
 
    This package facilitates the characterisation of fusion products events. It allows to import fusion data results from the following fusion finders\: chimeraScan\, bellerophontes\, deFuse\, FusionFinder\, FusionHunter\, mapSplice\, tophat\-fusion\, FusionMap\, STAR\, Rsubread\, fusionCatcher.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/chimera.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/chimera.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-chimera <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chimera>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chimera/meta.yaml>`_
 

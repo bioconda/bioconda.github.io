@@ -11,7 +11,7 @@ bioconductor-iclusterplus
 
    Integrative clustering of multiple genomic data using a joint latent variable model.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/iClusterPlus.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/iClusterPlus.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-iclusterplus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iclusterplus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iclusterplus/meta.yaml>`_
 

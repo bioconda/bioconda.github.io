@@ -11,7 +11,7 @@ bioconductor-bcrank
 
    Functions and classes for de novo prediction of transcription factor binding consensus by heuristic search
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BCRANK.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BCRANK.html
    :license: GPL-2
    :recipe: /`bioconductor-bcrank <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bcrank>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bcrank/meta.yaml>`_
    :links: biotools: :biotools:`bcrank`, doi: :doi:`10.1093/nar/gkp381`

@@ -11,7 +11,7 @@ bioconductor-bayesknockdown
 
    A simple\, fast Bayesian method for computing posterior probabilities for relationships between a single predictor variable and multiple potential outcome variables\, incorporating prior probabilities of relationships. In the context of knockdown experiments\, the predictor variable is the knocked\-down gene\, while the other genes are potential targets. Can also be used for differential expression\/2\-class data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BayesKnockdown.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BayesKnockdown.html
    :license: GPL-3
    :recipe: /`bioconductor-bayesknockdown <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bayesknockdown>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bayesknockdown/meta.yaml>`_
 

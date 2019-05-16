@@ -11,7 +11,7 @@ bioconductor-agilp
 
    More about what it does \(maybe more than one line\)
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/agilp.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/agilp.html
    :license: GPL-3
    :recipe: /`bioconductor-agilp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-agilp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-agilp/meta.yaml>`_
 

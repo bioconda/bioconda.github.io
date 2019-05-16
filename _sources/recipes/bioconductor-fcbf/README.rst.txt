@@ -11,7 +11,7 @@ bioconductor-fcbf
 
    This package provides a simple R implementation for the Fast Correlation Based Filter described in Yu\, L. and Liu\, H.\; Feature Selection for High\-Dimensional Data\: A Fast Correlation Based Filter Solution\,Proc. 20th Intl. Conf. Mach. Learn. \(ICML\-2003\)\, Washington DC\, 2003 The current package is an intent to make easier for bioinformaticians to use FCBF for feature selection\, especially regarding transcriptomic data.This implies discretizing expression \(function discretize\_exprs\) before calculating the features that explain the class\, but are not predictable by other features. The functions are implemented based on the algorithm of Yu and Liu\, 2003 and Rajarshi Guha\'s implementation from 13\/05\/2005 available \(as of 26\/08\/2018\) at http\:\/\/www.rguha.net\/code\/R\/fcbf.R .
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/FCBF.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/FCBF.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-fcbf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fcbf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fcbf/meta.yaml>`_
 

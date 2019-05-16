@@ -11,7 +11,7 @@ bioconductor-rnaseqcomp
 
    Several quantitative and visualized benchmarks for RNA\-seq quantification pipelines. Two\-condition quantifications for genes\, transcripts\, junctions or exons by each pipeline with necessary meta information should be organized into numeric matrices in order to proceed the evaluation.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/rnaseqcomp.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/rnaseqcomp.html
    :license: GPL-3
    :recipe: /`bioconductor-rnaseqcomp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqcomp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqcomp/meta.yaml>`_
    :links: biotools: :biotools:`rnaseqcomp`

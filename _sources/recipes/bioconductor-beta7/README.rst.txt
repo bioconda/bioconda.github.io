@@ -11,7 +11,7 @@ bioconductor-beta7
 
    Data from 6 gpr files aims to identify differential expressed genes between the beta 7\+ and beta 7\- memory T helper cells.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/beta7.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/beta7.html
    :license: LGPL
    :recipe: /`bioconductor-beta7 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beta7>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beta7/meta.yaml>`_
 

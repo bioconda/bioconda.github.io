@@ -11,7 +11,7 @@ bioconductor-clonality
 
    Statistical tests for clonality versus independence of tumors from the same patient based on their LOH or genomewide copy number profiles
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Clonality.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Clonality.html
    :license: GPL-3
    :recipe: /`bioconductor-clonality <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clonality>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clonality/meta.yaml>`_
    :links: biotools: :biotools:`clonality`, doi: :doi:`10.1093/bioinformatics/btr268`

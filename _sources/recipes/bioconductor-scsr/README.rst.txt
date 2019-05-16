@@ -11,7 +11,7 @@ bioconductor-scsr
 
    Corrects genome\-wide siRNA screens for seed mediated off\-target effect. Suitable functions to identify the effective seeds\/miRNAs and to visualize their effect are also provided in the package.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/scsR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/scsR.html
    :license: GPL-2
    :recipe: /`bioconductor-scsr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scsr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scsr/meta.yaml>`_
 

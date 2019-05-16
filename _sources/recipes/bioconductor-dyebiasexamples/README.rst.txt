@@ -11,7 +11,7 @@ bioconductor-dyebiasexamples
 
    Data for the dyebias package\, consisting of 4 self\-self hybrizations of self\-spotted yeast slides\, as well as data from Array Express accession E\-MTAB\-32
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/dyebiasexamples.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/dyebiasexamples.html
    :license: GPL-3
    :recipe: /`bioconductor-dyebiasexamples <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dyebiasexamples>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dyebiasexamples/meta.yaml>`_
 

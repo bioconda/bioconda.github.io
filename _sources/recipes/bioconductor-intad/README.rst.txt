@@ -11,7 +11,7 @@ bioconductor-intad
 
    The package is focused on the detection of correlation between expressed genes and selected epigenomic signals i.e. enhancers obtained from ChIP\-seq data within topologically associated domains \(TADs\). Various parameters can be controlled to investigate the influence of external factors and visualization plots are available for each analysis step.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/InTAD.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/InTAD.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-intad <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-intad>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-intad/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-illuminaio
 
    Tools for parsing Illumina\'s microarray output files\, including IDAT.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/illuminaio.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/illuminaio.html
    :license: GPL-2
    :recipe: /`bioconductor-illuminaio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminaio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminaio/meta.yaml>`_
    :links: biotools: :biotools:`illuminaio`

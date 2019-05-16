@@ -11,7 +11,7 @@ bioconductor-metabomxtr
 
    The functions in this package return optimized parameter estimates and log likelihoods for mixture models of truncated data with normal or lognormal distributions.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/metabomxtr.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/metabomxtr.html
    :license: GPL-2
    :recipe: /`bioconductor-metabomxtr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metabomxtr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metabomxtr/meta.yaml>`_
 

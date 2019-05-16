@@ -11,7 +11,7 @@ bioconductor-rtcga.clinical
 
    Package provides clinical datasets from The Cancer Genome Atlas Project for all cohorts types from http\:\/\/gdac.broadinstitute.org\/. Clinical data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/Clinical\+Data\+Overview. Data from 2015\-11\-01 snapshot.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RTCGA.clinical.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RTCGA.clinical.html
    :license: GPL-2
    :recipe: /`bioconductor-rtcga.clinical <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.clinical>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.clinical/meta.yaml>`_
 

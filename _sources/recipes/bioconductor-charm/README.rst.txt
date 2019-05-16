@@ -11,7 +11,7 @@ bioconductor-charm
 
    This package implements analysis tools for DNA methylation data generated using Nimblegen microarrays and the McrBC protocol. It finds differentially methylated regions between samples\, calculates percentage methylation estimates and includes array quality assessment tools.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/charm.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/charm.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-charm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-charm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-charm/meta.yaml>`_
 

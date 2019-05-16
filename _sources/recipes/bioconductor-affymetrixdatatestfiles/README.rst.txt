@@ -11,7 +11,7 @@ bioconductor-affymetrixdatatestfiles
 
    This package contains annotation data files and sample data files of Affymetrix file formats.  The files originate from the Affymetrix\' Fusion SDK distribution and other official sources.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/AffymetrixDataTestFiles.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/AffymetrixDataTestFiles.html
    :license: LGPL-2.1
    :recipe: /`bioconductor-affymetrixdatatestfiles <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affymetrixdatatestfiles>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affymetrixdatatestfiles/meta.yaml>`_
 

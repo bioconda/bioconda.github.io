@@ -11,7 +11,7 @@ bioconductor-maqcsubset
 
    Data Package automatically created on Sun Nov 19 15\:59\:29 2006.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/MAQCsubset.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/MAQCsubset.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-maqcsubset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maqcsubset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maqcsubset/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-proper
 
    This package provide simulation based methods for evaluating the statistical power in differential expression analysis from RNA\-seq data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/PROPER.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PROPER.html
    :license: GPL
    :recipe: /`bioconductor-proper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proper/meta.yaml>`_
    :links: biotools: :biotools:`proper`

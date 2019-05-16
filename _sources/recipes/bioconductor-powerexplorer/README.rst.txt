@@ -11,7 +11,7 @@ bioconductor-powerexplorer
 
    Estimate and predict power among groups and multiple sample sizes with simulated data\, the simulations are operated based on distribution parameters estimated from the provided input dataset.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/PowerExplorer.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PowerExplorer.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-powerexplorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-powerexplorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-powerexplorer/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-flowqb
 
    flowQB is a fully automated R Bioconductor package to calculate automatically the detector efficiency \(Q\)\, optical background \(B\) and intrinsic CV of the beads.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/flowQB.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flowQB.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowqb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowqb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowqb/meta.yaml>`_
 

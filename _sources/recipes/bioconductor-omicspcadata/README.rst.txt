@@ -11,7 +11,7 @@ bioconductor-omicspcadata
 
    Supporting data for package OMICsPCA
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/OMICsPCAdata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/OMICsPCAdata.html
    :license: GPL-3
    :recipe: /`bioconductor-omicspcadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicspcadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicspcadata/meta.yaml>`_
 

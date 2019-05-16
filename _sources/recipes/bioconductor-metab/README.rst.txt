@@ -11,7 +11,7 @@ bioconductor-metab
 
    Metab is an R package for high\-throughput processing of metabolomics data analysed by the Automated Mass Spectral Deconvolution and Identification System \(AMDIS\) \(http\:\/\/chemdata.nist.gov\/mass\-spc\/amdis\/downloads\/\). In addition\, it performs statistical hypothesis test \(t\-test\) and analysis of variance \(ANOVA\). Doing so\, Metab considerably speed up the data mining process in metabolomics and produces better quality results. Metab was developed using interactive features\, allowing users with lack of R knowledge to appreciate its functionalities.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Metab.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Metab.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-metab <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metab>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metab/meta.yaml>`_
    :links: biotools: :biotools:`metab`

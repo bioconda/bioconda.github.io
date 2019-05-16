@@ -11,7 +11,7 @@ bioconductor-noiseq
 
    Analysis of RNA\-seq expression data or other similar kind of data. Exploratory plots to evualuate saturation\, count distribution\, expression per chromosome\, type of detected features\, features length\, etc. Differential expression between two experimental conditions with no parametric assumptions.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/NOISeq.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/NOISeq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-noiseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-noiseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-noiseq/meta.yaml>`_
    :links: biotools: :biotools:`noiseq`

@@ -11,7 +11,7 @@ bioconductor-iranges
 
    Provides efficient low\-level and highly reusable S4 classes for storing\, manipulating and aggregating over annotated ranges of integers. Implements an algebra of range operations\, including efficient algorithms for finding overlaps and nearest neighbors. Defines efficient list\-like classes for storing\, transforming and aggregating large grouped data\, i.e.\, collections of atomic vectors and DataFrames.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/IRanges.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/IRanges.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-iranges <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iranges>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iranges/meta.yaml>`_
    :links: biotools: :biotools:`iranges`

@@ -11,7 +11,7 @@ bioconductor-oligodata
 
    Dataset samples \(Affymetrix\: Expression\, Gene\, Exon\, SNP\; NimbleGen\: Expression\, Tiling\) to be used with the oligo package.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/oligoData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/oligoData.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-oligodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oligodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oligodata/meta.yaml>`_
 

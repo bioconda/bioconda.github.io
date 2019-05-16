@@ -11,7 +11,7 @@ bioconductor-etec16s
 
    16S rRNA gene sequencing data to study changes in the faecal microbiota of 12 volunteers during a human challenge study with ETEC \(H10407\) and subsequent treatment with ciprofloxacin.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/etec16s.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/etec16s.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-etec16s <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-etec16s>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-etec16s/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-anota2seq
 
    anota2seq provides analysis of translational efficiency and differential expression analysis for polysome\-profiling and ribosome\-profiling studies \(two or more sample classes\) quantified by RNA sequencing or DNA\-microarray. Polysome\-profiling and ribosome\-profiling typically generate data for two RNA sources\; translated mRNA and total mRNA. Analysis of differential expression is used to estimate changes within each RNA source \(i.e. translated mRNA or total mRNA\). Analysis of translational efficiency aims to identify changes in translation efficiency leading to altered protein levels that are independent of total mRNA levels \(i.e. changes in translated mRNA that are independent of levels of total mRNA\) or buffering\, a mechanism regulating translational efficiency so that protein levels remain constant despite fluctuating total mRNA levels \(i.e. changes in total mRNA that are independent of levels of translated mRNA\). anota2seq applies analysis of partial variance and the random variance model to fulfill these tasks.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/anota2seq.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/anota2seq.html
    :license: GPL-3
    :recipe: /`bioconductor-anota2seq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anota2seq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anota2seq/meta.yaml>`_
 

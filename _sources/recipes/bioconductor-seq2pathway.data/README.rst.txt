@@ -11,7 +11,7 @@ bioconductor-seq2pathway.data
 
    Supporting data for the seq2patheway package. Includes modified gene sets from MsigDB and org.Hs.eg.db\; gene locus definitions from GENCODE project.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/seq2pathway.data.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/seq2pathway.data.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-seq2pathway.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seq2pathway.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seq2pathway.data/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-bubbletree
 
    CNV analysis in groups of tumor samples.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BubbleTree.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BubbleTree.html
    :license: LGPL (>= 3)
    :recipe: /`bioconductor-bubbletree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bubbletree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bubbletree/meta.yaml>`_
    :links: biotools: :biotools:`bubbletree`, doi: :doi:`10.1093/nar/gkv1102`

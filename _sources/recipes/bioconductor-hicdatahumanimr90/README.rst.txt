@@ -11,7 +11,7 @@ bioconductor-hicdatahumanimr90
 
    The HiC data from Human Fibroblast IMR90 cell line \(HindIII restriction\) was retrieved from the GEO website\, accession number GSE35156 \(http\:\/\/www.ncbi.nlm.nih.gov\/geo\/query\/acc.cgi\?acc\=GSE35156\). The raw reads were processed as explained in Dixon et al. \(Nature 2012\).
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/HiCDataHumanIMR90.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/HiCDataHumanIMR90.html
    :license: GPL-3
    :recipe: /`bioconductor-hicdatahumanimr90 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicdatahumanimr90>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicdatahumanimr90/meta.yaml>`_
 

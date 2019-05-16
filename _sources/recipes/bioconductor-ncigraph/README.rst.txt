@@ -11,7 +11,7 @@ bioconductor-ncigraph
 
    Provides various methods to load the pathways from the NCI Pathways Database in R graph objects and to re\-format them.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/NCIgraph.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/NCIgraph.html
    :license: GPL-3
    :recipe: /`bioconductor-ncigraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ncigraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ncigraph/meta.yaml>`_
    :links: biotools: :biotools:`ncigraph`, doi: :doi:`10.1038/nmeth.3252`

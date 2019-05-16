@@ -11,7 +11,7 @@ bioconductor-excluster
 
    ExCluster flattens Ensembl and GENCODE GTF files into GFF files\, which are used to count reads per non\-overlapping exon bin from BAM files. This read counting is done using the function featureCounts from the package Rsubread. Library sizes are normalized across all biological replicates\, and ExCluster then compares two different conditions to detect signifcantly differentially spliced genes. This process requires at least two independent biological repliates per condition\, and ExCluster accepts only exactly two conditions at a time. ExCluster ultimately produces false discovery rates \(FDRs\) per gene\, which are used to detect significance. Exon log2 fold change \(log2FC\) means and variances may be plotted for each significantly differentially spliced gene\, which helps scientists develop hypothesis and target differential splicing events for RT\-qPCR validation in the wet lab.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ExCluster.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ExCluster.html
    :license: GPL-3
    :recipe: /`bioconductor-excluster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-excluster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-excluster/meta.yaml>`_
 

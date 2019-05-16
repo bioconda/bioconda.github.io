@@ -11,7 +11,7 @@ bioconductor-lydata
 
    Raw data downloaded from GEO for the compound LY294002. Raw data is from multiple platforms from Affymetrix and Illumina. This data is used to illustrate the cross\-platform meta\-analysis of microarray data using the crossmeta package.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/lydata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/lydata.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-lydata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lydata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lydata/meta.yaml>`_
 

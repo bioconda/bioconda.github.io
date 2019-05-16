@@ -11,7 +11,7 @@ bioconductor-ceu1kgv
 
    expression \+ genotype on 79 unrelated CEU individuals
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/ceu1kgv.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ceu1kgv.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ceu1kgv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ceu1kgv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ceu1kgv/meta.yaml>`_
 

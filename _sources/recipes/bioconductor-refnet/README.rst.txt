@@ -11,7 +11,7 @@ bioconductor-refnet
 
    Molecular interactions with metadata\, some archived\, some dynamically obtained
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RefNet.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RefNet.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-refnet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-refnet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-refnet/meta.yaml>`_
    :links: biotools: :biotools:`refnet`, doi: :doi:`10.1038/nmeth.3252`

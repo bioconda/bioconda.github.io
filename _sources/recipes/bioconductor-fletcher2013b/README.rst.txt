@@ -11,7 +11,7 @@ bioconductor-fletcher2013b
 
    This package reproduces the systems biology analysis for the data in package Fletcher2013a using RTN.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/Fletcher2013b.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/Fletcher2013b.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-fletcher2013b <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fletcher2013b>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fletcher2013b/meta.yaml>`_
 

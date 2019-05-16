@@ -11,7 +11,7 @@ bioconductor-rnainteract
 
    RNAinteract estimates genetic interactions from multi\-dimensional read\-outs like features extracted from images. The screen is assumed to be performed in multi\-well plates or similar designs. Starting from a list of features \(e.g. cell number\, area\, fluorescence intensity\) per well\, genetic interactions are estimated. The packages provides functions for reporting interacting gene pairs\, plotting heatmaps and double RNAi plots. An HTML report can be written for quality control and analysis.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RNAinteract.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RNAinteract.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rnainteract <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnainteract>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnainteract/meta.yaml>`_
    :links: biotools: :biotools:`rnainteract`

@@ -11,7 +11,7 @@ bioconductor-appreci8r
 
    The appreci8R is an R version of our appreci8\-algorithm \- A Pipeline for PREcise variant Calling Integrating 8 tools. Variant calling results of our standard appreci8\-tools \(GATK\, Platypus\, VarScan\, FreeBayes\, LoFreq\, SNVer\, samtools and VarDict\)\, as well as up to 5 additional tools is combined\, evaluated and filtered.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/appreci8R.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/appreci8R.html
    :license: LGPL-3
    :recipe: /`bioconductor-appreci8r <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-appreci8r>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-appreci8r/meta.yaml>`_
 

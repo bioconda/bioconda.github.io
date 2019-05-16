@@ -11,7 +11,7 @@ bioconductor-crlmm
 
    Faster implementation of CRLMM specific to SNP 5.0 and 6.0 arrays\, as well as a copy number tool specific to 5.0\, 6.0\, and Illumina platforms.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/crlmm.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/crlmm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-crlmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crlmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crlmm/meta.yaml>`_
    :links: biotools: :biotools:`crlmm`

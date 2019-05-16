@@ -11,7 +11,7 @@ bioconductor-rgug4130a.db
 
    Agilent Rat annotation data \(chip rgug4130a\) assembled using data from public repositories
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/rgug4130a.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/rgug4130a.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rgug4130a.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgug4130a.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgug4130a.db/meta.yaml>`_
 

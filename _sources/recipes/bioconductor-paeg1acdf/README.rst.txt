@@ -11,7 +11,7 @@ bioconductor-paeg1acdf
 
    A package containing an environment representing the Pae\_G1a.CDF file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/paeg1acdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/paeg1acdf.html
    :license: LGPL
    :recipe: /`bioconductor-paeg1acdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-paeg1acdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-paeg1acdf/meta.yaml>`_
 

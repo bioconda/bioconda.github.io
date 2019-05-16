@@ -11,7 +11,7 @@ bioconductor-humanchrloc
 
    Annotation data file for humanCHRLOC assembled using data from public data repositories
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/humanCHRLOC.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/humanCHRLOC.html
    :license: The Artistic License, Version 2.0
    :recipe: /`bioconductor-humanchrloc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humanchrloc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humanchrloc/meta.yaml>`_
 

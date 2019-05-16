@@ -11,7 +11,7 @@ bioconductor-copyhelper
 
    This package contains the helper files that are required to run the Bioconductor package CopywriteR. It contains pre\-assembled 1kb bin GC\-content and mappability files for the reference genomes hg18\, hg19\, hg38\, mm9 and mm10. In addition\, it contains a blacklist filter to remove regions that display CNV. Files are stored as GRanges objects from the GenomicRanges Bioconductor package.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/CopyhelpeR.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/CopyhelpeR.html
    :license: GPL-2
    :recipe: /`bioconductor-copyhelper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copyhelper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copyhelper/meta.yaml>`_
 

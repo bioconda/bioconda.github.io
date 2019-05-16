@@ -11,7 +11,7 @@ bioconductor-pgca
 
    Protein Group Code Algorithm \(PGCA\) is a computationally inexpensive algorithm to merge protein summaries from multiple experimental quantitative proteomics data. The algorithm connects two or more groups with overlapping accession numbers. In some cases\, pairwise groups are mutually exclusive but they may still be connected by another group \(or set of groups\) with overlapping accession numbers. Thus\, groups created by PGCA from multiple experimental runs \(i.e.\, global groups\) are called \"connected\" groups. These identified global protein groups enable the analysis of quantitative data available for protein groups instead of unique protein identifiers.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/pgca.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/pgca.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-pgca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pgca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pgca/meta.yaml>`_
 

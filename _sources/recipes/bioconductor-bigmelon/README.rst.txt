@@ -11,7 +11,7 @@ bioconductor-bigmelon
 
    Methods for working with Illumina arrays using gdsfmt.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/bigmelon.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/bigmelon.html
    :license: GPL-3
    :recipe: /`bioconductor-bigmelon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bigmelon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bigmelon/meta.yaml>`_
 

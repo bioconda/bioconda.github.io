@@ -11,7 +11,7 @@ bioconductor-cand
 
    Functions to perform the CAnD test on a set of ancestry proportions. For a particular ancestral subpopulation\, a user will supply the estimated ancestry proportion for each sample\, and each chromosome or chromosomal segment of interest. A p\-value for each chromosome as well as an overall CAnD p\-value will be returned for each test. Plotting functions are also available.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CAnD.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CAnD.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cand <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cand>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cand/meta.yaml>`_
    :links: biotools: :biotools:`cand`, doi: :doi:`10.1534/genetics.115.184184`

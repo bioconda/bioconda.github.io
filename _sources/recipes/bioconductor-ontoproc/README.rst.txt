@@ -11,7 +11,7 @@ bioconductor-ontoproc
 
    Support harvesting of diverse bioinformatic ontologies\, making particular use of the ontologyIndex package on CRAN. We provide snapshots of key ontologies for terms about cells\, cell lines\, chemical compounds\, and anatomy\, to help analyze genome\-scale experiments\, particularly cell x compound screens. Another purpose is to strengthen development of compelling use cases for richer interfaces to emerging ontologies.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ontoProc.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ontoProc.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ontoproc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ontoproc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ontoproc/meta.yaml>`_
 

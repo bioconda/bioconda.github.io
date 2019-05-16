@@ -6,14 +6,14 @@
 rnacode
 =======
 
-.. conda:recipe:: rnacode/0.3
+.. conda:recipe:: rnacode
    :replaces_section_title:
 
    RNAcode \- Analyze the protein coding potential in multiple sequence alignments RNAcode relies on evolutionary signatures including synonymous\/conservative mutations and conservation of the reading frame. It does not use any species specific sequence characteristics whatsoever and does not use any machine learning techniques.
 
    :homepage: http://wash.github.io/rnacode/
    :license: 
-   :recipe: /`rnacode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnacode>`_/`0.3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnacode/0.3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnacode/0.3/meta.yaml>`_
+   :recipe: /`rnacode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnacode>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnacode/meta.yaml>`_
 
    
 

@@ -11,7 +11,7 @@ bioconductor-h5vc
 
    This package contains functions to interact with tally data from NGS experiments that is stored in HDF5 files.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/h5vc.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/h5vc.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-h5vc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-h5vc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-h5vc/meta.yaml>`_
 

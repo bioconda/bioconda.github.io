@@ -11,7 +11,7 @@ bioconductor-rnainteractmapk
 
    This package includes all data used in the paper \-Mapping of Signalling Networks through Synthetic Genetic Interaction Analysis by RNAi\- by Horn\, Sandmann\, Fischer et al..\, Nat. Methods\, 2011. The package vignette shows the R code to reproduce all figures in the paper.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RNAinteractMAPK.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RNAinteractMAPK.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rnainteractmapk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnainteractmapk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnainteractmapk/meta.yaml>`_
 

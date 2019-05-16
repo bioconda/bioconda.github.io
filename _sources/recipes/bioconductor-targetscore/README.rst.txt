@@ -11,7 +11,7 @@ bioconductor-targetscore
 
    Infer the posterior distributions of microRNA targets by probabilistically modelling the likelihood microRNA\-overexpression fold\-changes and sequence\-based scores. Variaitonal Bayesian Gaussian mixture model \(VB\-GMM\) is applied to log fold\-changes and sequence scores to obtain the posteriors of latent variable being the miRNA targets. The final targetScore is computed as the sigmoid\-transformed fold\-change weighted by the averaged posteriors of target components over all of the features.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/TargetScore.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/TargetScore.html
    :license: GPL-2
    :recipe: /`bioconductor-targetscore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetscore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetscore/meta.yaml>`_
    :links: biotools: :biotools:`targetscore`, doi: :doi:`10.1093/bioinformatics/btt599`

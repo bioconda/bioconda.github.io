@@ -11,7 +11,7 @@ bioconductor-lymphoseqdb
 
    This package provides annotation databases that support the package LymphoSeq.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/LymphoSeqDB.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/LymphoSeqDB.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lymphoseqdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lymphoseqdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lymphoseqdb/meta.yaml>`_
 

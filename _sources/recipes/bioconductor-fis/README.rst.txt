@@ -11,7 +11,7 @@ bioconductor-fis
 
    Data set containing two complete lists of identified functional interaction partners in Human. Data are derived from Reactome and BioGRID databases.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/FIs.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/FIs.html
    :license: GPL-3
    :recipe: /`bioconductor-fis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fis/meta.yaml>`_
 

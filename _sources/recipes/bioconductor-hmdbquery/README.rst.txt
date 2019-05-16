@@ -11,7 +11,7 @@ bioconductor-hmdbquery
 
    Define utilities for exploration of human metabolome database\, including functions to retrieve specific metabolite entries and data snapshots with pairwise associations \(metabolite\-gene\,\-protein\,\-disease\).
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/hmdbQuery.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/hmdbQuery.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hmdbquery <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hmdbquery>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hmdbquery/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-affixcan
 
    Impute a GReX \(Genetically Regulated Expression\) for a set of genes in a sample of individuals\, using a method based on the Total Binding Affinity \(TBA\). Statistical models to impute GReX can be trained with a training dataset where the real total expression values are known.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/AffiXcan.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/AffiXcan.html
    :license: GPL-3
    :recipe: /`bioconductor-affixcan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affixcan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affixcan/meta.yaml>`_
 

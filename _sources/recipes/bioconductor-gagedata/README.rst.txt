@@ -11,7 +11,7 @@ bioconductor-gagedata
 
    This is a supportive data package for the software package\, gage. However\, the data supplied here are also useful for gene set or pathway analysis or microarray data analysis in general. In this package\, we provide two demo microarray dataset\: GSE16873 \(a breast cancer dataset from GEO\) and BMP6 \(originally published as an demo dataset for GAGE\, also registered as GSE13604 in GEO\). This package also includes commonly used gene set data based on KEGG pathways and GO terms for major research species\, including human\, mouse\, rat and budding yeast. Mapping data between common gene IDs for budding yeast are also included.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/gageData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/gageData.html
    :license: GPL (>=2.0)
    :recipe: /`bioconductor-gagedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gagedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gagedata/meta.yaml>`_
 

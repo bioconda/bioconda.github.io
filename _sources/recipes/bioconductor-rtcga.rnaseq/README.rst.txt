@@ -11,7 +11,7 @@ bioconductor-rtcga.rnaseq
 
    Package provides rna\-seq datasets from The Cancer Genome Atlas Project for all cohorts types from http\:\/\/gdac.broadinstitute.org\/. Rna\-seq data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/RNASeq\+Version\+2. Data source is illumina hiseq Level 3 RSEM normalized expression data. Data from 2015\-11\-01 snapshot.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RTCGA.rnaseq.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RTCGA.rnaseq.html
    :license: GPL-2
    :recipe: /`bioconductor-rtcga.rnaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.rnaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.rnaseq/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-eisa
 
    The Iterative Signature Algorithm \(ISA\) is a biclustering method\; it finds correlated blocks \(transcription modules\) in gene expression \(or other tabular\) data. The ISA is capable of finding overlapping modules and it is resilient to noise. This package provides a convenient interface to the ISA\, using standard BioConductor data structures\; and also contains various visualization tools that can be used with other biclustering algorithms.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/eisa.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/eisa.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-eisa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eisa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eisa/meta.yaml>`_
 

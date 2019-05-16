@@ -11,7 +11,7 @@ bioconductor-ctrap
 
    Compare differential gene expression results with those from known cellular perturbations \(such as gene knock\-down\, overexpression or small molecules\) derived from the Connectivity Map. Such analyses allow not only to infer the molecular causes of the observed difference in gene expression but also to identify small molecules that could drive or revert specific transcriptomic alterations.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/cTRAP.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/cTRAP.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-ctrap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctrap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctrap/meta.yaml>`_
 

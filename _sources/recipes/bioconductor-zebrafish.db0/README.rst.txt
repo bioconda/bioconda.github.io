@@ -11,7 +11,7 @@ bioconductor-zebrafish.db0
 
    Base annotation databases for zebrafish\, intended ONLY to be used by AnnotationDbi to produce regular annotation packages.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/zebrafish.db0.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/zebrafish.db0.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-zebrafish.db0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zebrafish.db0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zebrafish.db0/meta.yaml>`_
 

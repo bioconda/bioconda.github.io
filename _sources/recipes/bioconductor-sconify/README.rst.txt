@@ -11,7 +11,7 @@ bioconductor-sconify
 
    This package does k\-nearest neighbor based statistics and visualizations with flow and mass cytometery data. This gives tSNE maps\"fold change\" functionality and provides a data quality metric by assessing manifold overlap between fcs files expected to be the same. Other applications using this package include imputation\, marker redundancy\, and testing the relative information loss of lower dimension embeddings compared to the original manifold.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Sconify.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Sconify.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sconify <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sconify>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sconify/meta.yaml>`_
 

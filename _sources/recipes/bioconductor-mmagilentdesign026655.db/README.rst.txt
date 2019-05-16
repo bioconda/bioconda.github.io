@@ -11,7 +11,7 @@ bioconductor-mmagilentdesign026655.db
 
    Agilent Chips that use Agilent design number 026655 annotation data \(chip MmAgilentDesign026655\) assembled using data from public repositories
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/MmAgilentDesign026655.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/MmAgilentDesign026655.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mmagilentdesign026655.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mmagilentdesign026655.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mmagilentdesign026655.db/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-sagenhaft
 
    This package implements several functions useful for analysis of gene expression data by sequencing tags as done in SAGE \(Serial Analysis of Gene Expressen\) data\, i.e. extraction of a SAGE library from sequence files\, sequence error correction\, library comparison. Sequencing error correction is implementing using an Expectation Maximization Algorithm based on a Mixture Model of tag counts.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/sagenhaft.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/sagenhaft.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-sagenhaft <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sagenhaft>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sagenhaft/meta.yaml>`_
    :links: biotools: :biotools:`sagenhaft`, doi: :doi:`10.1038/nmeth.3252`

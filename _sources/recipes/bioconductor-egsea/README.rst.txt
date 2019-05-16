@@ -11,7 +11,7 @@ bioconductor-egsea
 
    This package implements the Ensemble of Gene Set Enrichment Analyses \(EGSEA\) method for gene set testing.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/EGSEA.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/EGSEA.html
    :license: GPL-3
    :recipe: /`bioconductor-egsea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-egsea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-egsea/meta.yaml>`_
    :links: biotools: :biotools:`egsea`

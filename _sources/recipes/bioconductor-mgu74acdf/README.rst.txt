@@ -11,7 +11,7 @@ bioconductor-mgu74acdf
 
    A package containing an environment representing the MG\_U74A.cdf file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/mgu74acdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mgu74acdf.html
    :license: LGPL
    :recipe: /`bioconductor-mgu74acdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgu74acdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgu74acdf/meta.yaml>`_
 

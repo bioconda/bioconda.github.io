@@ -11,7 +11,7 @@ bioconductor-rariant
 
    The \'Rariant\' package identifies single nucleotide variants from sequencing data based on the difference of binomially distributed mismatch rates between matched samples.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Rariant.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Rariant.html
    :license: GPL-3
    :recipe: /`bioconductor-rariant <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rariant>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rariant/meta.yaml>`_
    :links: biotools: :biotools:`rariant`, doi: :doi:`10.1038/nmeth.3252`

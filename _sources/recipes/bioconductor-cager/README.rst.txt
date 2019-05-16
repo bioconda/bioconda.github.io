@@ -11,7 +11,7 @@ bioconductor-cager
 
    Preprocessing of CAGE sequencing data\, identification and normalization of transcription start sites and downstream analysis of transcription start sites clusters \(promoters\).
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CAGEr.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CAGEr.html
    :license: GPL-3
    :recipe: /`bioconductor-cager <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cager>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cager/meta.yaml>`_
    :links: biotools: :biotools:`cager`

@@ -11,7 +11,7 @@ bioconductor-tin
 
    The TIN package implements a set of tools for transcriptome instability analysis based on exon expression profiles. Deviating exon usage is studied in the context of splicing factors to analyse to what degree transcriptome instability is correlated to splicing factor expression. In the transcriptome instability correlation analysis\, the data is compared to both random permutations of alternative splicing scores and expression of random gene sets.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/TIN.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/TIN.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tin/meta.yaml>`_
    :links: biotools: :biotools:`tin`, doi: :doi:`10.4137/CIN.S31363`

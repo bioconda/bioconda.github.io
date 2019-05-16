@@ -11,7 +11,7 @@ bioconductor-methylmix
 
    MethylMix is an algorithm implemented to identify hyper and hypomethylated genes for a disease. MethylMix is based on a beta mixture model to identify methylation states and compares them with the normal DNA methylation state. MethylMix uses a novel statistic\, the Differential Methylation value or DM\-value defined as the difference of a methylation state with the normal methylation state. Finally\, matched gene expression data is used to identify\, besides differential\, functional methylation states by focusing on methylation changes that effect gene expression. References\: Gevaert 0. MethylMix\: an R package for identifying DNA methylation\-driven genes. Bioinformatics \(Oxford\, England\). 2015\;31\(11\)\:1839\-41. doi\:10.1093\/bioinformatics\/btv020. Gevaert O\, Tibshirani R\, Plevritis SK. Pancancer analysis of DNA methylation\-driven genes using MethylMix. Genome Biology. 2015\;16\(1\)\:17. doi\:10.1186\/s13059\-014\-0579\-8.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MethylMix.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MethylMix.html
    :license: GPL-2
    :recipe: /`bioconductor-methylmix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylmix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylmix/meta.yaml>`_
 

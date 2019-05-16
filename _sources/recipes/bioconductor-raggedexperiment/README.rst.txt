@@ -11,7 +11,7 @@ bioconductor-raggedexperiment
 
    This package provides a flexible representation of copy number\, mutation\, and other data that fit into the ragged array schema for genomic location data. The basic representation of such data provides a rectangular flat table interface to the user with range information in the rows and samples\/specimen in the columns.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RaggedExperiment.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RaggedExperiment.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-raggedexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raggedexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raggedexperiment/meta.yaml>`_
 

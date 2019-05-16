@@ -11,7 +11,7 @@ bioconductor-hs25kresogen.db
 
    RNG\_MRC Human Pangenomic 25k Set annotation data \(chip hs25kresogen\) assembled using data from public repositories
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/hs25kresogen.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hs25kresogen.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hs25kresogen.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hs25kresogen.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hs25kresogen.db/meta.yaml>`_
 

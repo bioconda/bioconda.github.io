@@ -11,7 +11,7 @@ bioconductor-heatmaps
 
    This package provides functions for plotting heatmaps of genome\-wide data across genomic intervals\, such as ChIP\-seq signals at peaks or across promoters. Many functions are also provided for investigating sequence features.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/heatmaps.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/heatmaps.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-heatmaps <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-heatmaps>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-heatmaps/meta.yaml>`_
 

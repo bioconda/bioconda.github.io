@@ -11,7 +11,7 @@ bioconductor-affymoe4302expr
 
    Contains pre\-built mouse \(GPL1261\) database of gene expression profiles. The gene expression data was downloaded from NCBI GEO\, preprocessed and normalized consistently. The biological context of each sample was recorded and manually verified based on the sample description in GEO.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/Affymoe4302Expr.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/Affymoe4302Expr.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-affymoe4302expr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affymoe4302expr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affymoe4302expr/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-dfp
 
    This package provides a supervised technique able to identify differentially expressed genes\, based on the construction of \\emph\{Fuzzy Patterns\} \(FPs\). The Fuzzy Patterns are built by means of applying 3 Membership Functions to discretized gene expression values.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DFP.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DFP.html
    :license: GPL-2
    :recipe: /`bioconductor-dfp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dfp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dfp/meta.yaml>`_
    :links: biotools: :biotools:`dfp`, doi: :doi:`10.1038/nmeth.3252`

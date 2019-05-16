@@ -9,9 +9,9 @@ bioconductor-seqarray
 .. conda:recipe:: bioconductor-seqarray
    :replaces_section_title:
 
-   Big data management of whole\-genome sequencing variant calls with thousands of individuals\: genotypic data \(e.g.\, SNVs\, indels and structural variation calls\) and annotations in SeqArray files are stored in an array\-oriented and compressed manner\, with efficient data access using the R programming language.
+   Data management of large\-scale whole\-genome sequencing variant calls with thousands of individuals\: genotypic data \(e.g.\, SNVs\, indels and structural variation calls\) and annotations in SeqArray files are stored in an array\-oriented and compressed manner\, with efficient data access using the R programming language.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SeqArray.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SeqArray.html
    :license: GPL-3
    :recipe: /`bioconductor-seqarray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqarray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqarray/meta.yaml>`_
 

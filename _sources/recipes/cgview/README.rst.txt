@@ -13,7 +13,6 @@ cgview
    Its primary purpose is to serve as a component of sequence annotation pipelines\, as a
    means of generating visual output suitable for the web.
 
-
    :homepage: http://wishart.biology.ualberta.ca/cgview/
    :license: GNU General Public License, Version 2.0
    :recipe: /`cgview <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgview>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgview/meta.yaml>`_

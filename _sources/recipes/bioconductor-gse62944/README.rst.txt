@@ -11,7 +11,7 @@ bioconductor-gse62944
 
    TCGA processed RNA\-Seq data for 9264 tumor and 741 normal samples across 24 cancer types and made them available as GEO accession \[GSE62944\]\(http\:\/\/www.ncbi.nlm.nih.gov\/geo\/query\/acc.cgi\?acc\=GSE62944\). GSE62944 data have been parsed into a SummarizedExperiment object available in ExperimentHub.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/GSE62944.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/GSE62944.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gse62944 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gse62944>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gse62944/meta.yaml>`_
 

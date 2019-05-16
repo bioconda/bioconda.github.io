@@ -11,7 +11,7 @@ bioconductor-stattarget
 
    A streamlined tool provides a graphical user interface for quality control based signal drift correction \(QC\-RFSC\)\, integration of data from multi\-batch MS\-based experiments\, and the comprehensive statistical analysis in metabolomics and proteomics.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/statTarget.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/statTarget.html
    :license: LGPL (>= 3)
    :recipe: /`bioconductor-stattarget <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stattarget>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stattarget/meta.yaml>`_
 

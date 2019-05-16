@@ -11,7 +11,7 @@ bioconductor-epinem
 
    epiNEM is an extension of the original Nested Effects Models \(NEM\). EpiNEM is able to take into account double knockouts and infer more complex network signalling pathways.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/epiNEM.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/epiNEM.html
    :license: GPL-3
    :recipe: /`bioconductor-epinem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epinem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epinem/meta.yaml>`_
 

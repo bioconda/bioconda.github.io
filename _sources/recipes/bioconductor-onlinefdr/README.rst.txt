@@ -9,9 +9,9 @@ bioconductor-onlinefdr
 .. conda:recipe:: bioconductor-onlinefdr
    :replaces_section_title:
 
-   This package allows users to control the false discovery rate for online hypothesis testing\, where hypotheses arrive sequentially in a stream\, as presented by Javanmard and Montanari \(2015\, 2018\). In this framework\, a null hypothesis is rejected based only on the previous decisions\, as the future p\-values and the number of hypotheses to be tested are unknown.
+   This package allows users to control the false discovery rate for online hypothesis testing\, where hypotheses arrive sequentially in a stream\, as presented by Javanmard and Montanari \(2015\, 2018\) and Ramdas et al. \(2017\). In this framework\, a null hypothesis is rejected based only on the previous decisions\, as the future p\-values and the number of hypotheses to be tested are unknown.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/onlineFDR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/onlineFDR.html
    :license: GPL-3
    :recipe: /`bioconductor-onlinefdr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-onlinefdr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-onlinefdr/meta.yaml>`_
 
@@ -22,7 +22,7 @@ bioconductor-onlinefdr
 
    |downloads_bioconductor-onlinefdr| |docker_bioconductor-onlinefdr|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :requirements:

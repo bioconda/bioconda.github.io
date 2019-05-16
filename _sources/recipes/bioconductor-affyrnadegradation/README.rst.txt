@@ -11,7 +11,7 @@ bioconductor-affyrnadegradation
 
    The package helps with the assessment and correction of RNA degradation effects in Affymetrix 3\' expression arrays. The parameter d gives a robust and accurate measure of RNA integrity. The correction removes the probe positional bias\, and thus improves comparability of samples that are affected by RNA degradation.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/AffyRNADegradation.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/AffyRNADegradation.html
    :license: GPL-2
    :recipe: /`bioconductor-affyrnadegradation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyrnadegradation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyrnadegradation/meta.yaml>`_
    :links: biotools: :biotools:`affyrnadegradation`

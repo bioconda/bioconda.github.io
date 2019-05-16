@@ -11,7 +11,7 @@ bioconductor-grmetrics
 
    Functions for calculating and visualizing growth\-rate inhibition \(GR\) metrics.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GRmetrics.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GRmetrics.html
    :license: GPL-3
    :recipe: /`bioconductor-grmetrics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grmetrics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grmetrics/meta.yaml>`_
    :links: biotools: :biotools:`grmetrics`, doi: :doi:`10.1038/nmeth.3252`

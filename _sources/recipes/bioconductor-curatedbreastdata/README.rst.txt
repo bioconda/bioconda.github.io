@@ -11,7 +11,7 @@ bioconductor-curatedbreastdata
 
    Curated human breast cancer tissue S4 ExpresionSet datasets from over 16 clinical trials comprising over 2\,000 patients. All datasets contain at least one type of outcomes variable and treatment information \(minimum level\: whether they had chemotherapy and whether they had hormonal therapy\). Includes code to post\-process these datasets.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/curatedBreastData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/curatedBreastData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-curatedbreastdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedbreastdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedbreastdata/meta.yaml>`_
 

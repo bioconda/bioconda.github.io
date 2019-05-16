@@ -11,7 +11,7 @@ bioconductor-mtbls2
 
    Indole\-3\-acetaldoxime \(IAOx\) represents an early intermediate of the biosynthesis of a variety of indolic secondary metabolites including the phytoanticipin indol\-3\-ylmethyl glucosinolate and the phytoalexin camalexin \(3\-thiazol\-2\'\-yl\-indole\). Arabidopsis thaliana cyp79B2 cyp79B3 double knockout plants are completely impaired in the conversion of tryptophan to indole\-3\-acetaldoxime and do not accumulate IAOx\-derived metabolites any longer. Consequently\, comparative analysis of wild\-type and cyp79B2 cyp79B3 plant lines has the potential to explore the complete range of IAOx\-derived indolic secondary metabolites.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/mtbls2.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/mtbls2.html
    :license: CC0
    :recipe: /`bioconductor-mtbls2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mtbls2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mtbls2/meta.yaml>`_
 

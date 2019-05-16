@@ -11,7 +11,7 @@ bioconductor-splicegear
 
    A set of tools to work with alternative splicing
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/splicegear.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/splicegear.html
    :license: LGPL
    :recipe: /`bioconductor-splicegear <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicegear>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicegear/meta.yaml>`_
    :links: biotools: :biotools:`splicegear`, doi: :doi:`10.1038/nmeth.3252`

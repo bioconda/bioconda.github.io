@@ -11,7 +11,7 @@ bioconductor-rcade
 
    Rcade \(which stands for \"R\-based analysis of ChIP\-seq And Differential Expression\"\) is a tool for integrating ChIP\-seq data with differential expression summary data\, through a Bayesian framework. A key application is in identifing the genes targeted by a transcription factor of interest \- that is\, we collect genes that are associated with a ChIP\-seq peak\, and differential expression under some perturbation related to that TF.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Rcade.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Rcade.html
    :license: GPL-2
    :recipe: /`bioconductor-rcade <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcade>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcade/meta.yaml>`_
 

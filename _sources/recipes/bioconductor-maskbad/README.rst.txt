@@ -11,7 +11,7 @@ bioconductor-maskbad
 
    Package includes functions to analyze and mask microarray expression data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/maskBAD.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/maskBAD.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-maskbad <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maskbad>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maskbad/meta.yaml>`_
    :links: biotools: :biotools:`maskbad`, doi: :doi:`10.1093/bioinformatics/btp492`

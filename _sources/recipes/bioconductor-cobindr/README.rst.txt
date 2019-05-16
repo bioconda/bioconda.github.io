@@ -11,7 +11,7 @@ bioconductor-cobindr
 
    Finding and analysing co\-occuring motifs of transcription factor binding sites in groups of genes
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/cobindR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/cobindR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cobindr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cobindr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cobindr/meta.yaml>`_
 

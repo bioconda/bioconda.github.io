@@ -11,7 +11,7 @@ bioconductor-bsgenome.vvinifera.urgi.iggp8x
 
    Full reference nuclear genome sequences for Vitis vinifera subsp. vinifera PN40024 \(derived from Pinot Noir and close to homozygosity after 6\-9 rounds of selfing\) as assembled by the IGGP \(version 8X\) and available at the URGI \(INRA\). More details in Jaillon et al \(Nature\, 2007\).
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Vvinifera.URGI.IGGP8X.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Vvinifera.URGI.IGGP8X.html
    :license: CC0
    :recipe: /`bioconductor-bsgenome.vvinifera.urgi.iggp8x <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.vvinifera.urgi.iggp8x>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.vvinifera.urgi.iggp8x/meta.yaml>`_
 

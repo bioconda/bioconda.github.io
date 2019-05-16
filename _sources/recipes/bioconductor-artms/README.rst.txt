@@ -9,9 +9,9 @@ bioconductor-artms
 .. conda:recipe:: bioconductor-artms
    :replaces_section_title:
 
-   artMS provides a set of tools for the analysis of proteomics label\-free datasets. It takes as input the MaxQuant search result output \(evidence.txt file\) and performs quality control\, relative quantification using MSstats\, downstream analysis and integration. artMS also provides a set of functions to re\-format and make it compatible with other analytical tools\, including\, SAINTq\, SAINTexpress\, Phosfate\, and PHOTON.
+   artMS provides a set of tools for the analysis of proteomics label\-free datasets. It takes as input the MaxQuant search result output \(evidence.txt file\) and performs quality control\, relative quantification using MSstats\, downstream analysis and integration. artMS also provides a set of functions to re\-format and make it compatible with other analytical tools\, including\, SAINTq\, SAINTexpress\, Phosfate\, and PHOTON. Check \[http\:\/\/artms.org\]\(http\:\/\/artms.org\) for details.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/artMS.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/artMS.html
    :license: GPL (>= 3) + file LICENSE
    :recipe: /`bioconductor-artms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-artms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-artms/meta.yaml>`_
 

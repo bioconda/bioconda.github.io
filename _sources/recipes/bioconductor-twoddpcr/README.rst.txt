@@ -11,7 +11,7 @@ bioconductor-twoddpcr
 
    The twoddpcr package takes Droplet Digital PCR \(ddPCR\) droplet amplitude data from Bio\-Rad\'s QuantaSoft and can classify the droplets. A summary of the positive\/negative droplet counts can be generated\, which can then be used to estimate the number of molecules using the Poisson distribution. This is the first open source package that facilitates the automatic classification of general two channel ddPCR data. Previous work includes \'definetherain\' \(Jones et al.\, 2014\) and \'ddpcRquant\' \(Trypsteen et al.\, 2015\) which both handle one channel ddPCR experiments only. The \'ddpcr\' package available on CRAN \(Attali et al.\, 2016\) supports automatic gating of a specific class of two channel ddPCR experiments only.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/twoddpcr.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/twoddpcr.html
    :license: GPL-3
    :recipe: /`bioconductor-twoddpcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-twoddpcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-twoddpcr/meta.yaml>`_
 

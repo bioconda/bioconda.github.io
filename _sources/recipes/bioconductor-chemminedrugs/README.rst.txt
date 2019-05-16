@@ -11,7 +11,7 @@ bioconductor-chemminedrugs
 
    An annotation package for use with ChemmineR. This package includes data from DrugBank. DUD data can be downloaded using the \"DUD\(\)\" function in ChemmineR.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/ChemmineDrugs.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/ChemmineDrugs.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-chemminedrugs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chemminedrugs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chemminedrugs/meta.yaml>`_
 

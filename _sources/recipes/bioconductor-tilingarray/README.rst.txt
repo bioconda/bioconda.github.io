@@ -11,7 +11,7 @@ bioconductor-tilingarray
 
    The package provides functionality that can be useful for the analysis of high\-density tiling microarray data \(such as from Affymetrix genechips\) for measuring transcript abundance and architecture. The main functionalities of the package are\: 1. the class \'segmentation\' for representing partitionings of a linear series of data\; 2. the function \'segment\' for fitting piecewise constant models using a dynamic programming algorithm that is both fast and exact\; 3. the function \'confint\' for calculating confidence intervals using the strucchange package\; 4. the function \'plotAlongChrom\' for generating pretty plots\; 5. the function \'normalizeByReference\' for probe\-sequence dependent response adjustment from a \(set of\) reference hybridizations.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/tilingArray.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/tilingArray.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tilingarray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tilingarray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tilingarray/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-faahko
 
    Positive ionization mode data in NetCDF file format. Centroided subset from 200\-600 m\/z and 2500\-4500 seconds. Data originally reported in \"Assignment of Endogenous Substrates to Enzymes by Global Metabolite Profiling\" Biochemistry\; 2004\; 43\(45\). Also includes detected peaks in an xcmsSet.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/faahKO.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/faahKO.html
    :license: LGPL
    :recipe: /`bioconductor-faahko <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-faahko>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-faahko/meta.yaml>`_
 

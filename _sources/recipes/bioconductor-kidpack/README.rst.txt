@@ -11,7 +11,7 @@ bioconductor-kidpack
 
    kidney microarray data
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/kidpack.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/kidpack.html
    :license: GPL-2
    :recipe: /`bioconductor-kidpack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kidpack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kidpack/meta.yaml>`_
 

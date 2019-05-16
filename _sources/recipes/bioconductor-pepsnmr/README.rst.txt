@@ -11,7 +11,7 @@ bioconductor-pepsnmr
 
    This package provides R functions for common pre\-procssing steps that are applied on 1H\-NMR data. It also provides a function to read the FID signals directly in the Bruker format.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/PepsNMR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PepsNMR.html
    :license: GPL-2 | file LICENSE
    :recipe: /`bioconductor-pepsnmr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pepsnmr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pepsnmr/meta.yaml>`_
 

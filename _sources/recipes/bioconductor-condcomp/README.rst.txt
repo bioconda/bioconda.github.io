@@ -11,7 +11,7 @@ bioconductor-condcomp
 
    For a given clustered data\, which can also be split into two conditions\, this package provides a way to perform a condition comparison on said clustered data. The comparison is performed on each cluster. Several statistics are used and\, when analysed in conjunction\, they might give some insight regarding the heterogeneity of some of the clusters.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/condcomp.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/condcomp.html
    :license: GPL (>=2) | file LICENSE
    :recipe: /`bioconductor-condcomp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-condcomp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-condcomp/meta.yaml>`_
 

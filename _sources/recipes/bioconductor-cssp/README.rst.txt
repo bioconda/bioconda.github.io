@@ -11,7 +11,7 @@ bioconductor-cssp
 
    Power computation for ChIP\-Seq data based on Bayesian estimation for local poisson counting process.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CSSP.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CSSP.html
    :license: GPL-2
    :recipe: /`bioconductor-cssp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cssp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cssp/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-nnnorm
 
    This package allows to detect and correct for spatial and intensity biases with two\-channel microarray data. The normalization method implemented in this package is based on robust neural networks fitting.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/nnNorm.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/nnNorm.html
    :license: LGPL
    :recipe: /`bioconductor-nnnorm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nnnorm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nnnorm/meta.yaml>`_
    :links: biotools: :biotools:`nnnorm`, doi: :doi:`10.1093/bioinformatics/bti397`

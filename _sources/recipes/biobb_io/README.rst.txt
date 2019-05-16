@@ -50,10 +50,10 @@ biobb_io
 
    |downloads_biobb_io| |docker_biobb_io|
 
-   :versions: 0.1.4-0, 0.1.3-0, 0.1.1-0, 0.1.0-0, 0.0.8-0, 0.0.6-0, 0.0.5-2, 0.0.5-0, 0.0.3-0
+   :versions: 1.1.6-0, 0.1.4-0, 0.1.3-0, 0.1.1-0, 0.1.0-0, 0.0.8-0, 0.0.6-0, 0.0.5-2, 0.0.5-0, 0.0.3-0
    
-   :depends biobb_common: >=0.1.2
-   :depends python: >=3
+   :depends biobb_common: 1.1.6
+   :depends python: 3.6.*
    :requirements:
 
    .. rubric:: Installation

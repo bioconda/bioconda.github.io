@@ -11,7 +11,7 @@ bioconductor-prostatecancertaylor
 
    A Bioconductor data package for the Taylor et al \(2010\) dataset.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/prostateCancerTaylor.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/prostateCancerTaylor.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-prostatecancertaylor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prostatecancertaylor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prostatecancertaylor/meta.yaml>`_
 

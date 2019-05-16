@@ -11,7 +11,7 @@ bioconductor-a4preproc
 
    Automated Affymetrix Array Analysis Preprocessing Package
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/a4Preproc.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/a4Preproc.html
    :license: GPL-3
    :recipe: /`bioconductor-a4preproc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4preproc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4preproc/meta.yaml>`_
    :links: biotools: :biotools:`a4preproc`, doi: :doi:`10.1038/nmeth.3252`

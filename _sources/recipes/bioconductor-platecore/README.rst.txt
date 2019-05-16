@@ -11,7 +11,7 @@ bioconductor-platecore
 
    Provides basic S4 data structures and routines for analyzing plate based flow cytometry data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/plateCore.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/plateCore.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-platecore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-platecore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-platecore/meta.yaml>`_
 

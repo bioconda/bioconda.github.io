@@ -11,7 +11,7 @@ bioconductor-restfulsedata
 
    Metadata RangedSummarizedExperiment shell for use with restfulSE.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/restfulSEData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/restfulSEData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-restfulsedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-restfulsedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-restfulsedata/meta.yaml>`_
 

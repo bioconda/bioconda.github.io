@@ -11,7 +11,7 @@ bioconductor-sigsquared
 
    By leveraging statistical properties \(log\-rank test for survival\) of patient cohorts defined by binary thresholds\, poor\-prognosis patients are identified by the sigsquared package via optimization over a cost function reducing type I and II error.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/sigsquared.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/sigsquared.html
    :license: GPL version 3
    :recipe: /`bioconductor-sigsquared <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigsquared>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigsquared/meta.yaml>`_
 

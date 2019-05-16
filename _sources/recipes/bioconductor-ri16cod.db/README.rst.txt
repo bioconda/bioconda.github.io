@@ -11,7 +11,7 @@ bioconductor-ri16cod.db
 
    Codelink Rat Inflammation 16 Bioarray annotation data \(chip ri16cod\) assembled using data from public repositories
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/ri16cod.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/ri16cod.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ri16cod.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ri16cod.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ri16cod.db/meta.yaml>`_
 

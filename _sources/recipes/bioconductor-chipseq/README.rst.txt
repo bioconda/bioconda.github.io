@@ -11,7 +11,7 @@ bioconductor-chipseq
 
    Tools for helping process short read data for chipseq experiments
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/chipseq.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/chipseq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-chipseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipseq/meta.yaml>`_
    :links: biotools: :biotools:`chipseq`, doi: :doi:`10.1038/nmeth.3252`

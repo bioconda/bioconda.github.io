@@ -11,7 +11,7 @@ bioconductor-gem
 
    Tools for analyzing EWAS\, methQTL and GxE genome widely.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GEM.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GEM.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gem/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-chopsticks
 
    Implements classes and methods for large\-scale SNP association studies
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/chopsticks.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/chopsticks.html
    :license: GPL-3
    :recipe: /`bioconductor-chopsticks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chopsticks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chopsticks/meta.yaml>`_
    :links: biotools: :biotools:`chopsticks`, doi: :doi:`10.1038/nmeth.3252`

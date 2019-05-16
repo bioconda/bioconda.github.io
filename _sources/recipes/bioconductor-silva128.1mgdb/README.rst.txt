@@ -11,7 +11,7 @@ bioconductor-silva128.1mgdb
 
    Metagenome annotation package with for the SILVA SSR rRNA database release 128.1\, Bacterial and Archeal sequences. Contains a MgDb\-class object\, defined in the metagenomeFeatures package.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/silva128.1MgDb.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/silva128.1MgDb.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-silva128.1mgdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-silva128.1mgdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-silva128.1mgdb/meta.yaml>`_
 

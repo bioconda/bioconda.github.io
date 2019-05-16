@@ -11,7 +11,7 @@ bioconductor-difflogo
 
    DiffLogo is an easy\-to\-use tool to visualize motif differences.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DiffLogo.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DiffLogo.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-difflogo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-difflogo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-difflogo/meta.yaml>`_
 

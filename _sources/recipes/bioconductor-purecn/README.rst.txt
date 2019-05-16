@@ -11,7 +11,7 @@ bioconductor-purecn
 
    This package estimates tumor purity\, copy number\, and loss of heterozygosity \(LOH\)\, and classifies single nucleotide variants \(SNVs\) by somatic status and clonality. PureCN is designed for targeted short read sequencing data\, integrates well with standard somatic variant detection and copy number pipelines\, and has support for tumor samples without matching normal samples.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/PureCN.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PureCN.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-purecn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-purecn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-purecn/meta.yaml>`_
    :links: biotools: :biotools:`purecn`

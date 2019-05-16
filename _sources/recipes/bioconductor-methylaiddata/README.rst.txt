@@ -11,7 +11,7 @@ bioconductor-methylaiddata
 
    A data package containing summarized Illumina 450k array data on 2800 samples and summarized EPIC data for 2620 samples. The data can be use as a background data set in the interactive application.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/MethylAidData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/MethylAidData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-methylaiddata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylaiddata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylaiddata/meta.yaml>`_
 

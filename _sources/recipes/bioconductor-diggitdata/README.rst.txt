@@ -11,7 +11,7 @@ bioconductor-diggitdata
 
    This package provides expression profile and CNV data for glioblastoma from TCGA\, and transcriptional and post\-translational regulatory networks assembled with the ARACNe and MINDy algorithms\, respectively.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/diggitdata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/diggitdata.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-diggitdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diggitdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diggitdata/meta.yaml>`_
 

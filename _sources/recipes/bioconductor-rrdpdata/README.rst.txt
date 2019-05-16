@@ -11,7 +11,7 @@ bioconductor-rrdpdata
 
    Database used by the default RDP Classifier
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/rRDPData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/rRDPData.html
    :license: GPL-2
    :recipe: /`bioconductor-rrdpdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrdpdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrdpdata/meta.yaml>`_
 

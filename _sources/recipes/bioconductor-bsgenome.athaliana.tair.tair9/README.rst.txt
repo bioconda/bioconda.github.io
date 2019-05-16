@@ -11,7 +11,7 @@ bioconductor-bsgenome.athaliana.tair.tair9
 
    Full genome sequences for Arabidopsis thaliana as provided by TAIR \(TAIR9 Genome Release\) and stored in Biostrings objects. Note that TAIR10 is an \"annotation release\" based on the same genome assembly as TAIR9.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Athaliana.TAIR.TAIR9.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Athaliana.TAIR.TAIR9.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.athaliana.tair.tair9 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.athaliana.tair.tair9>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.athaliana.tair.tair9/meta.yaml>`_
 

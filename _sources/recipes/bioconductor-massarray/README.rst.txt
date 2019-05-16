@@ -11,7 +11,7 @@ bioconductor-massarray
 
    This package is designed for the import\, quality control\, analysis\, and visualization of methylation data generated using Sequenom\'s MassArray platform.  The tools herein contain a highly detailed amplicon prediction for optimal assay design. Also included are quality control measures of data\, such as primer dimer and bisulfite conversion efficiency estimation. Methylation data are calculated using the same algorithms contained in the EpiTyper software package.  Additionally\, automatic SNP\-detection can be used to flag potentially confounded data from specific CG sites.  Visualization includes barplots of methylation data as well as UCSC Genome Browser\-compatible BED tracks.  Multiple assays can be positionally combined for integrated analysis.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MassArray.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MassArray.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-massarray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-massarray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-massarray/meta.yaml>`_
    :links: biotools: :biotools:`massarray`, doi: :doi:`10.1093/bioinformatics/btp382`

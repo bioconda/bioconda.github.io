@@ -11,7 +11,7 @@ bioconductor-pcagopromoter.rn.rn4
 
    Contains the data for transciption factors analysis of organism Rattus norvegicus with package pcaGoPromoter
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/pcaGoPromoter.Rn.rn4.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/pcaGoPromoter.Rn.rn4.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-pcagopromoter.rn.rn4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcagopromoter.rn.rn4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcagopromoter.rn.rn4/meta.yaml>`_
 

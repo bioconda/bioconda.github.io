@@ -11,7 +11,7 @@ bioconductor-levi
 
    The tool integrates data from biological networks with transcriptomes\, displaying a heatmap with surface curves to evidence the altered regions.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/levi.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/levi.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-levi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-levi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-levi/meta.yaml>`_
 

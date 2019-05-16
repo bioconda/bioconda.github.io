@@ -11,7 +11,7 @@ bioconductor-celegansprobe
 
    This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was C\\\_elegans\\\_probe\\\_tab.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/celegansprobe.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/celegansprobe.html
    :license: LGPL
    :recipe: /`bioconductor-celegansprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celegansprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celegansprobe/meta.yaml>`_
 

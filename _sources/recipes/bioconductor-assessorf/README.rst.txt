@@ -11,7 +11,7 @@ bioconductor-assessorf
 
    In order to assess the quality of a set of predicted genes for a genome\, evidence must first be mapped to that genome. Next\, each gene must be categorized based on how strong the evidence is for or against that gene. The AssessORF package provides the functions and class structures necessary for accomplishing those tasks\, using proteomic hits and evolutionarily conserved start codons as the forms of evidence.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/AssessORF.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/AssessORF.html
    :license: GPL-3
    :recipe: /`bioconductor-assessorf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-assessorf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-assessorf/meta.yaml>`_
 

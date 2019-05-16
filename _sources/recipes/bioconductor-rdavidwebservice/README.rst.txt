@@ -11,7 +11,7 @@ bioconductor-rdavidwebservice
 
    Tools for retrieving data from the Database for Annotation\, Visualization and Integrated Discovery \(DAVID\) using Web Services into R objects. This package offers the main functionalities of DAVID website including\: i\) user friendly connectivity to upload gene\/background list\/s\, change gene\/background position\, select current specie\/s\, select annotations\, etc. ii\) Reports of the submitted Gene List\, Annotation Category Summary\, Gene\/Term Clusters\, Functional Annotation Chart\, Functional Annotation Table
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RDAVIDWebService.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RDAVIDWebService.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-rdavidwebservice <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rdavidwebservice>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rdavidwebservice/meta.yaml>`_
 

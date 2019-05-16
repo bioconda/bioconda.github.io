@@ -9,9 +9,9 @@ bioconductor-cohcap
 .. conda:recipe:: bioconductor-cohcap
    :replaces_section_title:
 
-   This package provides a pipeline to analyze single\-nucleotide resolution methylation data \(Illumina 450k\/EPIC methylation array\, targeted BS\-Seq\, etc.\). It provides differential methylation for CpG Sites\, differential methylation for CpG Islands\, integration with gene expression data\, with visualizaton options. Discussion Group\: https\:\/\/sourceforge.net\/p\/cohcap\/discussion\/bioconductor\/
+   COHCAP \(pronounced \"co\-cap\"\) provides a pipeline to analyze single\-nucleotide resolution methylation data \(Illumina 450k\/EPIC methylation array\, targeted BS\-Seq\, etc.\). It provides differential methylation for CpG Sites\, differential methylation for CpG Islands\, integration with gene expression data\, with visualizaton options. Discussion Group\: https\:\/\/sourceforge.net\/p\/cohcap\/discussion\/bioconductor\/
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/COHCAP.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/COHCAP.html
    :license: GPL-3
    :recipe: /`bioconductor-cohcap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cohcap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cohcap/meta.yaml>`_
    :links: biotools: :biotools:`cohcap`

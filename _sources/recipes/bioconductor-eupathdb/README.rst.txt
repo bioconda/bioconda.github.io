@@ -11,7 +11,7 @@ bioconductor-eupathdb
 
    Brings together annotation resources from the various EuPathDB databases \(PlasmoDB\, ToxoDB\, TriTrypDB\, etc.\) and makes them available in R using the AnnotationHub framework.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/EuPathDB.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/EuPathDB.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-eupathdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eupathdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eupathdb/meta.yaml>`_
 

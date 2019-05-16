@@ -11,7 +11,7 @@ bioconductor-dama
 
    This package contains functions for the efficient design of factorial two\-colour microarray experiments and for the statistical analysis of factorial microarray data. Statistical details are described in Bretz et al. \(2003\, submitted\)
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/daMA.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/daMA.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-dama <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dama>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dama/meta.yaml>`_
    :links: biotools: :biotools:`dama`, doi: :doi:`10.1016/j.csda.2004.08.014`

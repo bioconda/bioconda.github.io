@@ -11,7 +11,7 @@ bioconductor-trendy
 
    Trendy implements segmented \(or breakpoint\) regression models to estimate breakpoints which represent changes in expression for each feature\/gene in high throughput data with ordered conditions.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Trendy.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Trendy.html
    :license: GPL-3
    :recipe: /`bioconductor-trendy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trendy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trendy/meta.yaml>`_
 

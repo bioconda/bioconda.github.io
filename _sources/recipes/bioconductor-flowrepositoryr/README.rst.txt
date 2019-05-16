@@ -11,7 +11,7 @@ bioconductor-flowrepositoryr
 
    This package provides an interface to search and download data and annotations from FlowRepository \(flowrepository.org\). It uses the FlowRepository programming interface to communicate with a FlowRepository server.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/FlowRepositoryR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/FlowRepositoryR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowrepositoryr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowrepositoryr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowrepositoryr/meta.yaml>`_
    :links: biotools: :biotools:`flowrepositoryr`, doi: :doi:`10.1002/cyto.a.22106`

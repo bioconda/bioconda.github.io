@@ -11,7 +11,7 @@ bioconductor-ripseeker
 
    Infer and discriminate RIP peaks from RIP\-seq alignments using two\-state HMM with negative binomial emission probability. While RIPSeeker is specifically tailored for RIP\-seq data analysis\, it also provides a suite of bioinformatics tools integrated within this self\-contained software package comprehensively addressing issues ranging from post\-alignments processing to visualization and annotation.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RIPSeeker.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RIPSeeker.html
    :license: GPL-2
    :recipe: /`bioconductor-ripseeker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ripseeker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ripseeker/meta.yaml>`_
    :links: biotools: :biotools:`ripseeker`

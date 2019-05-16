@@ -11,7 +11,7 @@ bioconductor-bloodcancermultiomics2017
 
    The package contains data of the Primary Blood Cancer Encyclopedia \(PACE\) project together with a complete executable transcript of the statistical analysis and reproduces figures presented in the paper \"Drug\-perturbation\-based stratification of blood cancer\" by Dietrich S\, Oles M\, Lu J et al.\, J. Clin. Invest. \(2018\) 128\(1\)\:427\-445. doi\:10.1172\/JCI93801.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/BloodCancerMultiOmics2017.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/BloodCancerMultiOmics2017.html
    :license: LGPL (>= 3)
    :recipe: /`bioconductor-bloodcancermultiomics2017 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bloodcancermultiomics2017>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bloodcancermultiomics2017/meta.yaml>`_
 

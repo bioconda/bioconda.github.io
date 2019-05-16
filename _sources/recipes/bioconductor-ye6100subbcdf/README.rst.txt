@@ -11,7 +11,7 @@ bioconductor-ye6100subbcdf
 
    A package containing an environment representing the Ye6100subB.CDF file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/ye6100subbcdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/ye6100subbcdf.html
    :license: LGPL
    :recipe: /`bioconductor-ye6100subbcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ye6100subbcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ye6100subbcdf/meta.yaml>`_
 

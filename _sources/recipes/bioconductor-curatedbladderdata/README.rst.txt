@@ -11,7 +11,7 @@ bioconductor-curatedbladderdata
 
    The curatedBladderData package provides relevant functions and data for gene expression analysis in patients with bladder cancer.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/curatedBladderData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/curatedBladderData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-curatedbladderdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedbladderdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedbladderdata/meta.yaml>`_
 

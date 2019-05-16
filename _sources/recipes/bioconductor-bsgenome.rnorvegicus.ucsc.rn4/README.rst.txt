@@ -11,7 +11,7 @@ bioconductor-bsgenome.rnorvegicus.ucsc.rn4
 
    Full genome sequences for Rattus norvegicus \(Rat\) as provided by UCSC \(rn4\, Nov. 2004\) and stored in Biostrings objects.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Rnorvegicus.UCSC.rn4.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Rnorvegicus.UCSC.rn4.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.rnorvegicus.ucsc.rn4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.rnorvegicus.ucsc.rn4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.rnorvegicus.ucsc.rn4/meta.yaml>`_
 

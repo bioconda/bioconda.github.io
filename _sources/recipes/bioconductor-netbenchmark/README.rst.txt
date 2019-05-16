@@ -11,7 +11,7 @@ bioconductor-netbenchmark
 
    This package implements a benchmarking of several gene network inference algorithms from gene expression data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/netbenchmark.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/netbenchmark.html
    :license: CC BY-NC-SA 4.0
    :recipe: /`bioconductor-netbenchmark <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netbenchmark>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netbenchmark/meta.yaml>`_
 

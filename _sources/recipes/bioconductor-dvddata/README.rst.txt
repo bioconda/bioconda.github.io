@@ -11,7 +11,7 @@ bioconductor-dvddata
 
    Data package which provides default drug and disease expression profiles for the DvD package.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/DvDdata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/DvDdata.html
    :license: GPL-3
    :recipe: /`bioconductor-dvddata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dvddata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dvddata/meta.yaml>`_
 

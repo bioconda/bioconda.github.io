@@ -11,7 +11,7 @@ bioconductor-h20kcod.db
 
    Codelink UniSet Human 20k I Bioarray annotation data \(chip h20kcod\) assembled using data from public repositories
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/h20kcod.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/h20kcod.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-h20kcod.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-h20kcod.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-h20kcod.db/meta.yaml>`_
 

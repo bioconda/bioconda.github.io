@@ -11,7 +11,7 @@ bioconductor-pogos
 
    Provide simple utilities for querying bhklab PharmacoDB\, modeling API outputs\, and integrating to cell and compound ontologies.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/pogos.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/pogos.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pogos <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pogos>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pogos/meta.yaml>`_
 

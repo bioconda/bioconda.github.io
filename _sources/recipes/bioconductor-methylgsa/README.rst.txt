@@ -11,7 +11,7 @@ bioconductor-methylgsa
 
    The main functions for methylGSA are methylglm and methylRRA. methylGSA implements logistic regression adjusting number of probes as a covariate. methylRRA adjusts multiple p\-values of each gene by Robust Rank Aggregation. For more detailed help information\, please see the vignette.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/methylGSA.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/methylGSA.html
    :license: GPL-2
    :recipe: /`bioconductor-methylgsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylgsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylgsa/meta.yaml>`_
 

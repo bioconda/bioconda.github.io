@@ -11,7 +11,7 @@ bioconductor-pcaexplorer
 
    This package provides functionality for interactive visualization of RNA\-seq datasets based on Principal Components Analysis. The methods provided allow for quick information extraction and effective data exploration. A Shiny application encapsulates the whole analysis.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/pcaExplorer.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/pcaExplorer.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-pcaexplorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcaexplorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcaexplorer/meta.yaml>`_
    :links: biotools: :biotools:`pcaexplorer`, doi: :doi:`10.18547/gcb.2017.vol3.iss1.e39`

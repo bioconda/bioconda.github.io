@@ -11,7 +11,7 @@ bioconductor-clusterseq
 
    Identification of clusters of co\-expressed genes based on their expression across multiple \(replicated\) biological samples.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/clusterSeq.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/clusterSeq.html
    :license: GPL-3
    :recipe: /`bioconductor-clusterseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterseq/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-meigor
 
    Global Optimization
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MEIGOR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MEIGOR.html
    :license: GPL-3
    :recipe: /`bioconductor-meigor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meigor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meigor/meta.yaml>`_
    :links: biotools: :biotools:`meigor`, doi: :doi:`10.1186/1471-2105-15-136`

@@ -11,7 +11,7 @@ bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene
 
    Exposes an annotation databases generated from UCSC by exposing these as TxDb objects
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/TxDb.Scerevisiae.UCSC.sacCer2.sgdGene.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/TxDb.Scerevisiae.UCSC.sacCer2.sgdGene.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene/meta.yaml>`_
 

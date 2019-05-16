@@ -23,7 +23,6 @@ pal_finder
    regions containing microsatellite loci.
 
 
-
 .. conda:package:: pal_finder
 
    |downloads_pal_finder| |docker_pal_finder|

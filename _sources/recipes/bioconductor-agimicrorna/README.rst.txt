@@ -11,7 +11,7 @@ bioconductor-agimicrorna
 
    Processing and Analysis of Agilent microRNA data
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/AgiMicroRna.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/AgiMicroRna.html
    :license: GPL-3
    :recipe: /`bioconductor-agimicrorna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-agimicrorna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-agimicrorna/meta.yaml>`_
 

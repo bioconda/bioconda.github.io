@@ -11,7 +11,7 @@ bioconductor-cormotif
 
    It fits correlation motif model to multiple studies to detect study specific differential expression patterns.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Cormotif.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Cormotif.html
    :license: GPL-2
    :recipe: /`bioconductor-cormotif <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cormotif>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cormotif/meta.yaml>`_
    :links: biotools: :biotools:`cormotif`

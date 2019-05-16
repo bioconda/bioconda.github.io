@@ -11,7 +11,7 @@ bioconductor-prolocdata
 
    Mass\-spectrometry based spatial proteomics data sets and protein complex separation data. Also contains the time course expression experiment from Mulvey et al. 2015.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/pRolocdata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/pRolocdata.html
    :license: GPL-2
    :recipe: /`bioconductor-prolocdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prolocdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prolocdata/meta.yaml>`_
 

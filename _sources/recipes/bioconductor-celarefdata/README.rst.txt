@@ -11,7 +11,7 @@ bioconductor-celarefdata
 
    This experiment data contains some processed data used in the celaref package vignette. These are publically available datasets\, that have been processed by celaref package\, and can be manipulated further with it.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/celarefData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/celarefData.html
    :license: GPL-3
    :recipe: /`bioconductor-celarefdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celarefdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celarefdata/meta.yaml>`_
 

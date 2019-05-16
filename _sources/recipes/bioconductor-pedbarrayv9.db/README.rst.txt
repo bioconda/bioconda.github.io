@@ -11,7 +11,7 @@ bioconductor-pedbarrayv9.db
 
    FHCRC Nelson Lab pedbarrayv9 Annotation Data \(pedbarrayv9\) assembled using data from public repositories
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/pedbarrayv9.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pedbarrayv9.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pedbarrayv9.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pedbarrayv9.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pedbarrayv9.db/meta.yaml>`_
 

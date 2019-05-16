@@ -11,7 +11,7 @@ bioconductor-clusterprofiler
 
    This package implements methods to analyze and visualize functional profiles \(GO and KEGG\) of gene and gene clusters.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/clusterProfiler.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/clusterProfiler.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-clusterprofiler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterprofiler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterprofiler/meta.yaml>`_
    :links: biotools: :biotools:`clusterprofiler`

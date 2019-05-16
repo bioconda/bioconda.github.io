@@ -11,7 +11,7 @@ bioconductor-rdisop
 
    Identification of metabolites using high precision mass spectrometry. MS Peaks are used to derive a ranked list of sum formulae\, alternatively for a given sum formula the theoretical isotope distribution can be calculated to search in MS peak lists.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Rdisop.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Rdisop.html
    :license: GPL-2
    :recipe: /`bioconductor-rdisop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rdisop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rdisop/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-expressionatlas
 
    This package is for searching for datasets in EMBL\-EBI Expression Atlas\, and downloading them into R for further analysis. Each Expression Atlas dataset is represented as a SimpleList object with one element per platform. Sequencing data is contained in a SummarizedExperiment object\, while microarray data is contained in an ExpressionSet or MAList object.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ExpressionAtlas.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ExpressionAtlas.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-expressionatlas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-expressionatlas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-expressionatlas/meta.yaml>`_
 

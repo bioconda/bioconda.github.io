@@ -11,7 +11,7 @@ bioconductor-affycompdata
 
    Data needed by the affycomp package.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/affycompData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/affycompData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-affycompdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affycompdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affycompdata/meta.yaml>`_
 

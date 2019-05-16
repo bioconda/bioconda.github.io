@@ -11,7 +11,7 @@ bioconductor-quantsmooth
 
    Implements quantile smoothing as introduced in\: Quantile smoothing of array CGH data\; Eilers PH\, de Menezes RX\; Bioinformatics. 2005 Apr 1\;21\(7\)\:1146\-53.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/quantsmooth.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/quantsmooth.html
    :license: GPL-2
    :recipe: /`bioconductor-quantsmooth <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quantsmooth>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quantsmooth/meta.yaml>`_
    :links: biotools: :biotools:`quantsmooth`, doi: :doi:`10.1038/nmeth.3252`

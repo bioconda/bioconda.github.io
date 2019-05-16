@@ -11,7 +11,7 @@ bioconductor-ga4ghshiny
 
    GA4GHshiny package provides an easy way to interact with data servers based on Global Alliance for Genomics and Health \(GA4GH\) genomics API through a Shiny application. It also integrates with Beacon Network.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GA4GHshiny.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GA4GHshiny.html
    :license: GPL-3
    :recipe: /`bioconductor-ga4ghshiny <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ga4ghshiny>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ga4ghshiny/meta.yaml>`_
 

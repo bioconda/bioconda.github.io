@@ -11,7 +11,7 @@ bioconductor-moe430aprobe
 
    This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was MOE430A\\\_probe\\\_tab.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/moe430aprobe.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/moe430aprobe.html
    :license: LGPL
    :recipe: /`bioconductor-moe430aprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moe430aprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moe430aprobe/meta.yaml>`_
 

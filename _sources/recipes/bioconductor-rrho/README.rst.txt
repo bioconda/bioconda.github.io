@@ -11,7 +11,7 @@ bioconductor-rrho
 
    The package is aimed at inference on the amount of agreement in two sorted lists using the Rank\-Rank Hypergeometric Overlap test.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RRHO.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RRHO.html
    :license: GPL-2
    :recipe: /`bioconductor-rrho <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrho>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrho/meta.yaml>`_
    :links: biotools: :biotools:`rrho`, doi: :doi:`10.1038/nmeth.3252`

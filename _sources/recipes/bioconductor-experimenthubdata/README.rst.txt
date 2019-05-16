@@ -11,7 +11,7 @@ bioconductor-experimenthubdata
 
    Functions to add metadata to ExperimentHub db and resource files to AWS S3 buckets.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ExperimentHubData.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ExperimentHubData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-experimenthubdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-experimenthubdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-experimenthubdata/meta.yaml>`_
 

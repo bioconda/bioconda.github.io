@@ -11,7 +11,7 @@ bioconductor-bsgenome.ptroglodytes.ucsc.pantro2
 
    Full genome sequences for Pan troglodytes \(Chimp\) as provided by UCSC \(panTro2\, Mar. 2006\) and stored in Biostrings objects.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Ptroglodytes.UCSC.panTro2.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Ptroglodytes.UCSC.panTro2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.ptroglodytes.ucsc.pantro2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.ptroglodytes.ucsc.pantro2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.ptroglodytes.ucsc.pantro2/meta.yaml>`_
 

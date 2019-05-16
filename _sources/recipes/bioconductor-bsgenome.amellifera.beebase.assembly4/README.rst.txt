@@ -11,7 +11,7 @@ bioconductor-bsgenome.amellifera.beebase.assembly4
 
    iFull genome sequences for Apis mellifera \(Honey Bee\) as provided by BeeBase \(assembly4\, Feb. 2008\) and stored in Biostrings objects.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Amellifera.BeeBase.assembly4.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Amellifera.BeeBase.assembly4.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.amellifera.beebase.assembly4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.amellifera.beebase.assembly4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.amellifera.beebase.assembly4/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-brainimagerdata
 
    brainImageRdata contains image masks for the developing human and the adult human brain. These masks can be used in conjunction with the gene expression data to generate spatial gene set enrichment plots. It also contains the expression data for the 15 pcw human brain\, the adult human brain\, and the developing human brain.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/brainImageRdata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/brainImageRdata.html
    :license: CC BY-SA 4.0
    :recipe: /`bioconductor-brainimagerdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brainimagerdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brainimagerdata/meta.yaml>`_
 

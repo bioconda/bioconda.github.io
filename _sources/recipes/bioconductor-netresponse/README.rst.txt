@@ -11,7 +11,7 @@ bioconductor-netresponse
 
    Algorithms for functional network analysis. Includes an implementation of a variational Dirichlet process Gaussian mixture model for nonparametric mixture modeling.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/netresponse.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/netresponse.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-netresponse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netresponse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netresponse/meta.yaml>`_
 

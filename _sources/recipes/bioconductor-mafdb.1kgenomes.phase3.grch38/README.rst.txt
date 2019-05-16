@@ -11,7 +11,7 @@ bioconductor-mafdb.1kgenomes.phase3.grch38
 
    Store minor allele frequency data from the Phase 3 of the 1000 Genomes Project for the human genome version GRCh38.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/MafDb.1Kgenomes.phase3.GRCh38.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/MafDb.1Kgenomes.phase3.GRCh38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mafdb.1kgenomes.phase3.grch38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.1kgenomes.phase3.grch38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.1kgenomes.phase3.grch38/meta.yaml>`_
 

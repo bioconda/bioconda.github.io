@@ -11,7 +11,7 @@ bioconductor-ioniser
 
    IONiseR provides tools for the quality assessment of Oxford Nanopore MinION data. It extracts summary statistics from a set of fast5 files and can be used either before or after base calling.  In addition to standard summaries of the read\-types produced\, it provides a number of plots for visualising metrics relative to experiment run time or spatially over the surface of a flowcell.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/IONiseR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/IONiseR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-ioniser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ioniser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ioniser/meta.yaml>`_
    :links: biotools: :biotools:`ioniser`, doi: :doi:`10.1038/nmeth.3252`

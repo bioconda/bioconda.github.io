@@ -11,7 +11,7 @@ bioconductor-ribosomaldatabaseproject11.5mgdb
 
    Metagenome annotation package with for the Ribosomal Database Project 16S rRNA Database version 11.5\, Bacterial and Archeal sequences. Contains a MgDb\-class object\, defined in the metagenomeFeatures package.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/ribosomaldatabaseproject11.5MgDb.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/ribosomaldatabaseproject11.5MgDb.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ribosomaldatabaseproject11.5mgdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ribosomaldatabaseproject11.5mgdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ribosomaldatabaseproject11.5mgdb/meta.yaml>`_
 

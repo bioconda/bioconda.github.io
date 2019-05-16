@@ -11,7 +11,7 @@ bioconductor-specond
 
    This package performs a gene expression data analysis to detect condition\-specific genes. Such genes are significantly up\- or down\-regulated in a small number of conditions. It does so by fitting a mixture of normal distributions to the expression values. Conditions can be environmental conditions\, different tissues\, organs or any other sources that you wish to compare in terms of gene expression.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SpeCond.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SpeCond.html
    :license: LGPL (>=2)
    :recipe: /`bioconductor-specond <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-specond>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-specond/meta.yaml>`_
    :links: biotools: :biotools:`specond`, doi: :doi:`10.1186/gb-2011-12-12-413`

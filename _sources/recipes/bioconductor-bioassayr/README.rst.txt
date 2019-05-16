@@ -11,7 +11,7 @@ bioconductor-bioassayr
 
    bioassayR is a computational tool that enables simultaneous analysis of thousands of bioassay experiments performed over a diverse set of compounds and biological targets. Unique features include support for large\-scale cross\-target analyses of both public and custom bioassays\, generation of high throughput screening fingerprints \(HTSFPs\)\, and an optional preloaded database that provides access to a substantial portion of publicly available bioactivity data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/bioassayR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/bioassayR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bioassayr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioassayr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioassayr/meta.yaml>`_
 

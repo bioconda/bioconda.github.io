@@ -9,9 +9,9 @@ bioconductor-consensusde
 .. conda:recipe:: bioconductor-consensusde
    :replaces_section_title:
 
-   This package allows users to perform DE analysis using multiple algorithms. It seeks consensus from multiple methods. Currently it supports \"Voom\"\, \"EdgeR\" and \"DESeq\"\, but can be easily extended. It uses RUV\-seq \(optional\) to remove batch effects.
+   This package allows users to perform DE analysis using multiple algorithms. It seeks consensus from multiple methods. Currently it supports \"Voom\"\, \"EdgeR\" and \"DESeq\". It uses RUV\-seq \(optional\) to remove batch effects.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/consensusDE.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/consensusDE.html
    :license: GPL-3
    :recipe: /`bioconductor-consensusde <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensusde>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensusde/meta.yaml>`_
 

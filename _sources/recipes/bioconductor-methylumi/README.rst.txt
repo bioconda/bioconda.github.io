@@ -11,7 +11,7 @@ bioconductor-methylumi
 
    This package provides classes for holding and manipulating Illumina methylation data.  Based on eSet\, it can contain MIAME information\, sample information\, feature information\, and multiple matrices of data.  An \"intelligent\" import function\, methylumiR can read the Illumina text files and create a MethyLumiSet. methylumIDAT can directly read raw IDAT files from HumanMethylation27 and HumanMethylation450 microarrays. Normalization\, background correction\, and quality control features for GoldenGate\, Infinium\, and Infinium HD arrays are also included.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/methylumi.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/methylumi.html
    :license: GPL-2
    :recipe: /`bioconductor-methylumi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylumi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylumi/meta.yaml>`_
    :links: biotools: :biotools:`methylumi`, doi: :doi:`10.1186/1471-2164-14-293`

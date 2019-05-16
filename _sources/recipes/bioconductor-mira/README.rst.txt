@@ -11,7 +11,7 @@ bioconductor-mira
 
    MIRA measures the degree of \"dip\" in methylation level surrounding a regulatory site of interest\, such as a transcription factor binding site\, for instances of that type of site across the genome which can then be used to infer regulatory activity.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MIRA.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MIRA.html
    :license: GPL-3
    :recipe: /`bioconductor-mira <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mira>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mira/meta.yaml>`_
 

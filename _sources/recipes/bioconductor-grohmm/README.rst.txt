@@ -11,7 +11,7 @@ bioconductor-grohmm
 
    A pipeline for the analysis of GRO\-seq data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/groHMM.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/groHMM.html
    :license: GPL-3
    :recipe: /`bioconductor-grohmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grohmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grohmm/meta.yaml>`_
 

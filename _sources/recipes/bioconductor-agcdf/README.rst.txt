@@ -11,7 +11,7 @@ bioconductor-agcdf
 
    A package containing an environment representing the AG.CDF file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/agcdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/agcdf.html
    :license: LGPL
    :recipe: /`bioconductor-agcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-agcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-agcdf/meta.yaml>`_
 

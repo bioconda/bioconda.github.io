@@ -1,0 +1,67 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'bioconductor-txdb.drerio.ucsc.danrer11.refgene'
+.. highlight: bash
+
+bioconductor-txdb.drerio.ucsc.danrer11.refgene
+==============================================
+
+.. conda:recipe:: bioconductor-txdb.drerio.ucsc.danrer11.refgene
+   :replaces_section_title:
+
+   Exposes an annotation databases generated from UCSC by exposing these as TxDb objects
+
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/TxDb.Drerio.UCSC.danRer11.refGene.html
+   :license: Artistic-2.0
+   :recipe: /`bioconductor-txdb.drerio.ucsc.danrer11.refgene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.drerio.ucsc.danrer11.refgene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.drerio.ucsc.danrer11.refgene/meta.yaml>`_
+
+   
+
+
+.. conda:package:: bioconductor-txdb.drerio.ucsc.danrer11.refgene
+
+   |downloads_bioconductor-txdb.drerio.ucsc.danrer11.refgene| |docker_bioconductor-txdb.drerio.ucsc.danrer11.refgene|
+
+   :versions: 
+   
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-txdb.drerio.ucsc.danrer11.refgene
+
+   and update with::
+
+      conda update bioconductor-txdb.drerio.ucsc.danrer11.refgene
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/bioconductor-txdb.drerio.ucsc.danrer11.refgene:<tag>
+
+   (see `bioconductor-txdb.drerio.ucsc.danrer11.refgene/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_bioconductor-txdb.drerio.ucsc.danrer11.refgene| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-txdb.drerio.ucsc.danrer11.refgene.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-txdb.drerio.ucsc.danrer11.refgene
+   :alt:   (downloads)
+.. |docker_bioconductor-txdb.drerio.ucsc.danrer11.refgene| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.drerio.ucsc.danrer11.refgene/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-txdb.drerio.ucsc.danrer11.refgene
+.. _`bioconductor-txdb.drerio.ucsc.danrer11.refgene/tags`: https://quay.io/repository/biocontainers/bioconductor-txdb.drerio.ucsc.danrer11.refgene?tab=tags
+
+
+
+
+
+
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-txdb.drerio.ucsc.danrer11.refgene/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-txdb.drerio.ucsc.danrer11.refgene/README.html

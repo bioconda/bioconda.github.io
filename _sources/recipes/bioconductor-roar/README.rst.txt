@@ -11,7 +11,7 @@ bioconductor-roar
 
    Identify preferential usage of APA sites\, comparing two biological conditions\, starting from known alternative sites and alignments obtained from standard RNA\-seq experiments.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/roar.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/roar.html
    :license: GPL-3
    :recipe: /`bioconductor-roar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-roar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-roar/meta.yaml>`_
    :links: biotools: :biotools:`roar`, doi: :doi:`10.1038/nmeth.3252`

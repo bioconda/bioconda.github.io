@@ -11,7 +11,7 @@ bioconductor-affycoretools
 
    Various wrapper functions that have been written to streamline the more common analyses that a core Biostatistician might see.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/affycoretools.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/affycoretools.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-affycoretools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affycoretools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affycoretools/meta.yaml>`_
    :links: biotools: :biotools:`affycoretools`, doi: :doi:`10.1038/nmeth.3252`

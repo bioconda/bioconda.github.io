@@ -11,7 +11,7 @@ bioconductor-genebreak
 
    Recurrent breakpoint gene detection on copy number aberration profiles.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GeneBreak.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GeneBreak.html
    :license: GPL-2
    :recipe: /`bioconductor-genebreak <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genebreak>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genebreak/meta.yaml>`_
    :links: biotools: :biotools:`genebreak`, doi: :doi:`10.12688/f1000research.9259.1`

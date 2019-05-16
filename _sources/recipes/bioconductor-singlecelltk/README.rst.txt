@@ -11,7 +11,7 @@ bioconductor-singlecelltk
 
    Run common single cell analysis directly through your browser including differential expression\, downsampling analysis\, and clustering.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/singleCellTK.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/singleCellTK.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-singlecelltk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecelltk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecelltk/meta.yaml>`_
 

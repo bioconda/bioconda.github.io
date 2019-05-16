@@ -11,7 +11,7 @@ bioconductor-bsgenome.celegans.ucsc.ce2
 
    Full genome sequences for Caenorhabditis elegans \(Worm\) as provided by UCSC \(ce2\, Mar. 2004\) and stored in Biostrings objects.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Celegans.UCSC.ce2.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Celegans.UCSC.ce2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.celegans.ucsc.ce2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.celegans.ucsc.ce2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.celegans.ucsc.ce2/meta.yaml>`_
 

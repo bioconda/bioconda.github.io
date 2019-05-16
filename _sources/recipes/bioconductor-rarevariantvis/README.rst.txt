@@ -11,7 +11,7 @@ bioconductor-rarevariantvis
 
    Second version of RareVariantVis package aims to provide comprehensive information about rare variants for your genome data. It annotates\, filters and presents genomic variants \(especially rare ones\) in a global\, per chromosome way. For discovered rare variants CRISPR guide RNAs are designed\, so the user can plan further functional studies. Large structural variants\, including copy number variants are also supported. Package accepts variants directly from variant caller \- for example GATK or Speedseq. Output of package are lists of variants together with adequate visualization. Visualization of variants is performed in two ways \- standard that outputs png figures and interactive that uses JavaScript d3 package. Interactive visualization allows to analyze trio\/family data\, for example in search for causative variants in rare Mendelian diseases\, in point\-and\-click interface. The package includes homozygous region caller and allows to analyse whole human genomes in less than 30 minutes on a desktop computer. RareVariantVis disclosed novel causes of several rare monogenic disorders\, including one with non\-coding causative variant \- keratolythic winter erythema.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RareVariantVis.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RareVariantVis.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rarevariantvis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rarevariantvis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rarevariantvis/meta.yaml>`_
    :links: biotools: :biotools:`rarevariantvis`, doi: :doi:`10.1093/bioinformatics/btw359`

@@ -11,7 +11,7 @@ bioconductor-flowbeads
 
    This package extends flowCore to provide functionality specific to bead data. One of the goals of this package is to automate analysis of bead data for the purpose of normalisation.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/flowBeads.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flowBeads.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowbeads <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowbeads>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowbeads/meta.yaml>`_
    :links: biotools: :biotools:`flowbeads`, doi: :doi:`10.1038/nmeth.3252`

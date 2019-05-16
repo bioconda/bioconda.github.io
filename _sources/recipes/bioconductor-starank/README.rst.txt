@@ -11,7 +11,7 @@ bioconductor-starank
 
    Detecting all relevant variables from a data set is challenging\, especially when only few samples are available and data is noisy. Stability ranking provides improved variable rankings of increased robustness using resampling or subsampling.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/staRank.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/staRank.html
    :license: GPL
    :recipe: /`bioconductor-starank <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-starank>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-starank/meta.yaml>`_
    :links: biotools: :biotools:`starank`, doi: :doi:`10.1093/bioinformatics/bts192`

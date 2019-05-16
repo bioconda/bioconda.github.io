@@ -11,7 +11,7 @@ bioconductor-kcsmart
 
    Multi sample aCGH analysis package using kernel convolution
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/KCsmart.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/KCsmart.html
    :license: GPL-3
    :recipe: /`bioconductor-kcsmart <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kcsmart>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kcsmart/meta.yaml>`_
    :links: biotools: :biotools:`kcsmart`, doi: :doi:`10.1186/1756-0500-3-298`

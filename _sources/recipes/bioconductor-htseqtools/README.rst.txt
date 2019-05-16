@@ -11,7 +11,7 @@ bioconductor-htseqtools
 
    We provide efficient\, easy\-to\-use tools for High\-Throughput Sequencing \(ChIP\-seq\, RNAseq etc.\). These include MDS plots \(analogues to PCA\)\, detecting inefficient immuno\-precipitation or over\-amplification artifacts\, tools to identify and test for genomic regions with large accumulation of reads\, and visualization of coverage profiles.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/htSeqTools.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/htSeqTools.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-htseqtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htseqtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htseqtools/meta.yaml>`_
    :links: biotools: :biotools:`htseqtools`, doi: :doi:`10.1093/bioinformatics/btr700`

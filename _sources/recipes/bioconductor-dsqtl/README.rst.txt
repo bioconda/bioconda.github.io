@@ -11,7 +11,7 @@ bioconductor-dsqtl
 
    dsQTL\, excerpt from Degner et al. 2012 Nature letter on DNA variants associated with DnaseI hypersensitivity
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/dsQTL.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/dsQTL.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-dsqtl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dsqtl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dsqtl/meta.yaml>`_
 

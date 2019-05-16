@@ -11,7 +11,7 @@ bioconductor-fitcons.ucsc.hg19
 
    Store UCSC fitCons fitness consequences scores version 1.01 for the human genome \(hg19\).
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/fitCons.UCSC.hg19.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/fitCons.UCSC.hg19.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-fitcons.ucsc.hg19 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fitcons.ucsc.hg19>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fitcons.ucsc.hg19/meta.yaml>`_
 

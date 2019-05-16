@@ -11,7 +11,7 @@ bioconductor-vega
 
    Vega \(Variational Estimator for Genomic Aberrations\) is an algorithm that adapts a very popular variational model \(Mumford and Shah\) used in image segmentation so that chromosomal aberrant regions can be efficiently detected.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Vega.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Vega.html
    :license: GPL-2
    :recipe: /`bioconductor-vega <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vega>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vega/meta.yaml>`_
    :links: biotools: :biotools:`vega`, doi: :doi:`10.1093/bioinformatics/btq586`

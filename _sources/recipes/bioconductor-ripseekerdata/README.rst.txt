@@ -11,7 +11,7 @@ bioconductor-ripseekerdata
 
    The RIP\-seq data in BAM format are the test data for the package RIPSeeker. The data correspond to two RIP\-seq experiments\, namely PRC2 and CCNT1. Raw data from NCBI Gene Expression Omnibus under accession numbers GSE17064 for PRC2 and in\-house for CCNT1.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RIPSeekerData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RIPSeekerData.html
    :license: GPL-2
    :recipe: /`bioconductor-ripseekerdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ripseekerdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ripseekerdata/meta.yaml>`_
 

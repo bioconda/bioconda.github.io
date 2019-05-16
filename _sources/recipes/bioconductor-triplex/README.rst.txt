@@ -11,7 +11,7 @@ bioconductor-triplex
 
    This package provides functions for identification and visualization of potential intramolecular triplex patterns in DNA sequence. The main functionality is to detect the positions of subsequences capable of folding into an intramolecular triplex \(H\-DNA\) in a much larger sequence. The potential H\-DNA \(triplexes\) should be made of as many cannonical nucleotide triplets as possible. The package includes visualization showing the exact base\-pairing in 1D\, 2D or 3D.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/triplex.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/triplex.html
    :license: BSD_2_clause + file LICENSE
    :recipe: /`bioconductor-triplex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-triplex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-triplex/meta.yaml>`_
    :links: biotools: :biotools:`triplex`

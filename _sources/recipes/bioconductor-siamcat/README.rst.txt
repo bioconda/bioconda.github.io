@@ -11,7 +11,7 @@ bioconductor-siamcat
 
    Pipeline for Statistical Inference of Associations between Microbial Communities And host phenoTypes \(SIAMCAT\). A primary goal of analyzing microbiome data is to determine changes in community composition that are associated with environmental factors. In particular\, linking human microbiome composition to host phenotypes such as diseases has become an area of intense research. For this\, robust statistical modeling and biomarker extraction toolkits are crucially needed. SIAMCAT provides a full pipeline supporting data preprocessing\, statistical association testing\, statistical modeling \(LASSO logistic regression\) including tools for evaluation and interpretation of these models \(such as cross validation\, parameter selection\, ROC analysis and diagnostic model plots\).
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SIAMCAT.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SIAMCAT.html
    :license: GPL-3
    :recipe: /`bioconductor-siamcat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-siamcat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-siamcat/meta.yaml>`_
 

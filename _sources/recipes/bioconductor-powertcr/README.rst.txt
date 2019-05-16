@@ -11,7 +11,7 @@ bioconductor-powertcr
 
    This package provides a model for the clone size distribution of the TCR repertoire. Further\, it permits comparative analysis of TCR repertoire libraries based on theoretical model fits.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/powerTCR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/powerTCR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-powertcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-powertcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-powertcr/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-hgu95ccdf
 
    A package containing an environment representing the HG U95C.CDF file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/hgu95ccdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hgu95ccdf.html
    :license: LGPL
    :recipe: /`bioconductor-hgu95ccdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95ccdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95ccdf/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-mesh.sce.s288c.eg.db
 
    Entrez Gene ID to MeSH ID table.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/MeSH.Sce.S288c.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/MeSH.Sce.S288c.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.sce.s288c.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.sce.s288c.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.sce.s288c.eg.db/meta.yaml>`_
 

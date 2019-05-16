@@ -11,7 +11,7 @@ bioconductor-tfarm
 
    It searches for relevant associations of transcription factors with a transcription factor target\, in specific genomic regions. It also allows to evaluate the Importance Index distribution of transcription factors \(and combinations of transcription factors\) in association rules.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/TFARM.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/TFARM.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tfarm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tfarm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tfarm/meta.yaml>`_
 

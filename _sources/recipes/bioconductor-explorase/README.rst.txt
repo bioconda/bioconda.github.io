@@ -11,7 +11,7 @@ bioconductor-explorase
 
    explore and analyze \*omics data with R and GGobi
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/explorase.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/explorase.html
    :license: GPL-2
    :recipe: /`bioconductor-explorase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-explorase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-explorase/meta.yaml>`_
 

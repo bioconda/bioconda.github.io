@@ -11,7 +11,7 @@ bioconductor-debrowser
 
    Bioinformatics platform containing interactive plots and tables for differential gene and region expression studies. Allows visualizing expression data much more deeply in an interactive and faster way. By changing the parameters\, users can easily discover different parts of the data that like never have been done before. Manually creating and looking these plots takes time. With DEBrowser users can prepare plots without writing any code. Differential expression\, PCA and clustering analysis are made on site and the results are shown in various plots such as scatter\, bar\, box\, volcano\, ma plots and Heatmaps.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/debrowser.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/debrowser.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-debrowser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-debrowser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-debrowser/meta.yaml>`_
 

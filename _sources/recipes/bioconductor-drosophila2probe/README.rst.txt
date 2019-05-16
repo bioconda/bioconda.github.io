@@ -11,7 +11,7 @@ bioconductor-drosophila2probe
 
    This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Drosophila\\\_2\\\_probe\\\_tab.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/drosophila2probe.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/drosophila2probe.html
    :license: LGPL
    :recipe: /`bioconductor-drosophila2probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drosophila2probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drosophila2probe/meta.yaml>`_
 

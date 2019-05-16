@@ -11,7 +11,7 @@ bioconductor-lfa
 
    LFA is a method for a PCA analogue on Binomial data via estimation of latent structure in the natural parameter.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/lfa.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/lfa.html
    :license: GPL-3
    :recipe: /`bioconductor-lfa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lfa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lfa/meta.yaml>`_
    :links: biotools: :biotools:`lfa`, doi: :doi:`10.1093/bioinformatics/btv641`

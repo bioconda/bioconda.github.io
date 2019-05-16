@@ -11,7 +11,7 @@ bioconductor-papi
 
    The Pathway Activity Profiling \- PAPi \- is an R package for predicting the activity of metabolic pathways based solely on a metabolomics data set containing a list of metabolites identified and their respective abundances in different biological samples. PAPi generates hypothesis that improves the final biological interpretation. See Aggio\, R.B.M\; Ruggiero\, K. and Villas\-Boas\, S.G. \(2010\) \- Pathway Activity Profiling \(PAPi\)\: from metabolite profile to metabolic pathway activity. Bioinformatics.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/PAPi.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PAPi.html
    :license: GPL(>= 2)
    :recipe: /`bioconductor-papi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-papi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-papi/meta.yaml>`_
    :links: biotools: :biotools:`papi`, doi: :doi:`10.1093/bioinformatics/btq567`

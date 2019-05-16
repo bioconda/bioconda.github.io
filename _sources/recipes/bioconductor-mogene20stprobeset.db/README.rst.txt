@@ -11,7 +11,7 @@ bioconductor-mogene20stprobeset.db
 
    Affymetrix mogene20 annotation data \(chip mogene20stprobeset\) assembled using data from public repositories
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/mogene20stprobeset.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mogene20stprobeset.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mogene20stprobeset.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogene20stprobeset.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogene20stprobeset.db/meta.yaml>`_
 

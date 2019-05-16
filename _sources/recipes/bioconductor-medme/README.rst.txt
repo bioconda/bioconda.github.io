@@ -11,7 +11,7 @@ bioconductor-medme
 
    Description\: MEDME allows the prediction of absolute and relative methylation levels based on measures obtained by MeDIP\-microarray experiments
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MEDME.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MEDME.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-medme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medme/meta.yaml>`_
    :links: biotools: :biotools:`medme`, doi: :doi:`10.1101/gr.080721.108`

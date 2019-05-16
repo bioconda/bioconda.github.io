@@ -11,7 +11,7 @@ bioconductor-rnaseqmap
 
    The rnaSeqMap library provides classes and functions to analyze the RNA\-sequencing data using the coverage profiles in multiple samples at a time
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/rnaSeqMap.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/rnaSeqMap.html
    :license: GPL-2
    :recipe: /`bioconductor-rnaseqmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqmap/meta.yaml>`_
    :links: biotools: :biotools:`rnaseqmap`, doi: :doi:`10.1186/1471-2105-12-200`

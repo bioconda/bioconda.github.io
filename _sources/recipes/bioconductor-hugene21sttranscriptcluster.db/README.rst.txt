@@ -11,7 +11,7 @@ bioconductor-hugene21sttranscriptcluster.db
 
    Affymetrix hugene21 annotation data \(chip hugene21sttranscriptcluster\) assembled using data from public repositories
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/hugene21sttranscriptcluster.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hugene21sttranscriptcluster.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hugene21sttranscriptcluster.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hugene21sttranscriptcluster.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hugene21sttranscriptcluster.db/meta.yaml>`_
 

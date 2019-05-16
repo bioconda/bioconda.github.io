@@ -9,9 +9,9 @@ bioconductor-isoformswitchanalyzer
 .. conda:recipe:: bioconductor-isoformswitchanalyzer
    :replaces_section_title:
 
-   IsoformSwitchAnalyzeR enables identification and analysis of alternative splicing and isoform switches with predicted functional consequences \(such as gain\/loss of protein domains etc\) from quantification by Kallisto\, Salmon\, Cufflinks\/Cuffdiff\, RSEM etc.
+   IsoformSwitchAnalyzeR enables identification and analysis of alternative splicing and isoform switches with predicted functional consequences \(e.g. gain\/loss of protein domains etc.\) from quantification by Kallisto\, Salmon\, Cufflinks\/Cuffdiff\, RSEM etc.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/IsoformSwitchAnalyzeR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/IsoformSwitchAnalyzeR.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-isoformswitchanalyzer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isoformswitchanalyzer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isoformswitchanalyzer/meta.yaml>`_
    :links: biotools: :biotools:`IsoformSwitchAnalyzeR`, doi: :doi:`10.1158/1541-7786.MCR-16-0459`

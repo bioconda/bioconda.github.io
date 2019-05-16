@@ -11,7 +11,7 @@ bioconductor-bsgenome.mmusculus.ucsc.mm10.masked
 
    Full genome sequences for Mus musculus \(Mouse\) as provided by UCSC \(mm10\, Dec. 2011\) and stored in Biostrings objects. The sequences are the same as in BSgenome.Mmusculus.UCSC.mm10\, except that each of them has the 2 following masks on top\: \(1\) the mask of assembly gaps \(AGAPS mask\)\, and \(2\) the mask of intra\-contig ambiguities \(AMB mask\).
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Mmusculus.UCSC.mm10.masked.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Mmusculus.UCSC.mm10.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.mmusculus.ucsc.mm10.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmusculus.ucsc.mm10.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmusculus.ucsc.mm10.masked/meta.yaml>`_
 

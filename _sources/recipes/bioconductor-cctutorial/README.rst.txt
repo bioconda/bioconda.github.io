@@ -11,7 +11,7 @@ bioconductor-cctutorial
 
    This is a data package that accompanies a ChIP\-chip tutorial\, which has been published in PLoS Computational Biology. The data and source code in this package allow the reader to completely reproduce the steps in the tutorial.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/ccTutorial.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ccTutorial.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cctutorial <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cctutorial>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cctutorial/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-pga
 
    This package provides functions for construction of customized protein databases based on RNA\-Seq data with\/without genome guided\, database searching\, post\-processing and report generation. This kind of customized protein database includes both the reference database \(such as Refseq or ENSEMBL\) and the novel peptide sequences form RNA\-Seq data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/PGA.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PGA.html
    :license: GPL-2
    :recipe: /`bioconductor-pga <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pga>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pga/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-flowdensity
 
    This package provides tools for automated sequential gating analogous to the manual gating strategy based on the density of the data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/flowDensity.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flowDensity.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowdensity <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowdensity>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowdensity/meta.yaml>`_
    :links: biotools: :biotools:`flowdensity`, doi: :doi:`10.1093/bioinformatics/btu677`

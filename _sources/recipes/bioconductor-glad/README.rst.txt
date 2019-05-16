@@ -11,7 +11,7 @@ bioconductor-glad
 
    Analysis of array CGH data \: detection of breakpoints in genomic profiles and assignment of a status \(gain\, normal or loss\) to each chromosomal regions identified.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GLAD.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GLAD.html
    :license: GPL-2
    :recipe: /`bioconductor-glad <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-glad>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-glad/meta.yaml>`_
 

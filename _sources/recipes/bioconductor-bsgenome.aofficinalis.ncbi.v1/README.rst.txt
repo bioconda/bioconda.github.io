@@ -11,7 +11,7 @@ bioconductor-bsgenome.aofficinalis.ncbi.v1
 
    Full genome sequences for Asparagus officinalis \(Garden asparagus\) as provided by NCBI \(Aspof.V1\, Feb. 2017\) and stored in Biostrings objects.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Aofficinalis.NCBI.V1.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Aofficinalis.NCBI.V1.html
    :license: GPL-3
    :recipe: /`bioconductor-bsgenome.aofficinalis.ncbi.v1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.aofficinalis.ncbi.v1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.aofficinalis.ncbi.v1/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-phenotest
 
    Tools to test correlation between gene expression and phenotype in a way that is efficient\, structured\, fast and scalable. GSEA is also provided.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/phenoTest.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/phenoTest.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-phenotest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phenotest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phenotest/meta.yaml>`_
 

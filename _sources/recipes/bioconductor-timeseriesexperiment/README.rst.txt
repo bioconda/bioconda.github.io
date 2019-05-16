@@ -11,7 +11,7 @@ bioconductor-timeseriesexperiment
 
    Visualization and analysis toolbox for short time course data which includes dimensionality reduction\, clustering\, two\-sample differential expression testing and gene ranking techniques. The package also provides methods for retrieving enriched pathways.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/TimeSeriesExperiment.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/TimeSeriesExperiment.html
    :license: LGPL (>= 3)
    :recipe: /`bioconductor-timeseriesexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timeseriesexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timeseriesexperiment/meta.yaml>`_
 

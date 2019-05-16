@@ -11,7 +11,7 @@ bioconductor-prodata
 
    A data package of SELDI\-TOF protein mass spectrometry data of 167 breast cancer and normal samples.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/ProData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ProData.html
    :license: GPL
    :recipe: /`bioconductor-prodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prodata/meta.yaml>`_
 

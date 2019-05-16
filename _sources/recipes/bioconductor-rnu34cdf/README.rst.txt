@@ -11,7 +11,7 @@ bioconductor-rnu34cdf
 
    A package containing an environment representing the RN\_U34.CDF file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/rnu34cdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/rnu34cdf.html
    :license: LGPL
    :recipe: /`bioconductor-rnu34cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnu34cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnu34cdf/meta.yaml>`_
 

@@ -9,9 +9,9 @@ bioconductor-rseqan
 .. conda:recipe:: bioconductor-rseqan
    :replaces_section_title:
 
-   Headers from the SeqAn C\+\+ library for easy of usage in R.
+   Headers and some wrapper functions from the SeqAn C\+\+ library for ease of usage in R.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RSeqAn.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RSeqAn.html
    :license: BSD_3_clause + file LICENSE
    :recipe: /`bioconductor-rseqan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rseqan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rseqan/meta.yaml>`_
 

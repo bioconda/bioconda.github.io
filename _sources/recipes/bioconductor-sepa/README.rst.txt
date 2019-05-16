@@ -11,7 +11,7 @@ bioconductor-sepa
 
    Given single\-cell RNA\-seq data and true experiment time of cells or pseudo\-time cell ordering\, SEPA provides convenient functions for users to assign genes into different gene expression patterns such as constant\, monotone increasing and increasing then decreasing. SEPA then performs GO enrichment analysis to analysis the functional roles of genes with same or similar patterns.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SEPA.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SEPA.html
    :license: GPL(>=2)
    :recipe: /`bioconductor-sepa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sepa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sepa/meta.yaml>`_
    :links: biotools: :biotools:`sepa`, doi: :doi:`10.1038/nmeth.3252`

@@ -11,7 +11,7 @@ bioconductor-safe
 
    SAFE is a resampling\-based method for testing functional categories in gene expression experiments. SAFE can be applied to 2\-sample and multi\-class comparisons\, or simple linear regressions. Other experimental designs can also be accommodated through user\-defined functions.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/safe.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/safe.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-safe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-safe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-safe/meta.yaml>`_
    :links: biotools: :biotools:`safe`, doi: :doi:`10.1093/bioinformatics/bti260`

@@ -11,7 +11,7 @@ bioconductor-pcxndata
 
    PCxN database contains correlation coefficients and p values between pre\-defined gene sets within MSigDB H hallmark gene sets\, MSigDB C2 CP \(Canonical pathways\)\, MSigDB C5 GO BP gene sets and Pathprint respectively\, as well as adjusted pathway correlations to account for the shared genes between pathway pairs.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/pcxnData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/pcxnData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-pcxndata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcxndata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcxndata/meta.yaml>`_
 

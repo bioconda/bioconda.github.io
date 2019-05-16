@@ -11,7 +11,7 @@ bioconductor-pviz
 
    Pviz adapts the Gviz package for protein sequences and data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Pviz.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Pviz.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pviz/meta.yaml>`_
    :links: biotools: :biotools:`pviz`, doi: :doi:`10.1007/978-1-4939-3037-1_10`

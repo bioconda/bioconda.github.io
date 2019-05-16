@@ -11,7 +11,7 @@ bioconductor-mogene20sttranscriptcluster.db
 
    Affymetrix mogene20 annotation data \(chip mogene20sttranscriptcluster\) assembled using data from public repositories
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/mogene20sttranscriptcluster.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mogene20sttranscriptcluster.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mogene20sttranscriptcluster.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogene20sttranscriptcluster.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogene20sttranscriptcluster.db/meta.yaml>`_
 

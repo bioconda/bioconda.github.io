@@ -11,7 +11,7 @@ bioconductor-damirseq
 
    The DaMiRseq package offers a tidy pipeline of data mining procedures to identify transcriptional biomarkers and exploit them for both binary and multi\-class classification purposes. The package accepts any kind of data presented as a table of raw counts and allows including both continous and factorial variables that occur with the experimental setting. A series of functions enable the user to clean up the data by filtering genomic features and samples\, to adjust data by identifying and removing the unwanted source of variation \(i.e. batches and confounding factors\) and to select the best predictors for modeling. Finally\, a \"stacking\" ensemble learning technique is applied to build a robust classification model. Every step includes a checkpoint that the user may exploit to assess the effects of data management by looking at diagnostic plots\, such as clustering and heatmaps\, RLE boxplots\, MDS or correlation plot.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DaMiRseq.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DaMiRseq.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-damirseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-damirseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-damirseq/meta.yaml>`_
 

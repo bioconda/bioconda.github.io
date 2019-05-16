@@ -11,7 +11,7 @@ bioconductor-mcsurvdata
 
    This package stores two merged expressionSet objects that contain the gene expression profile and clinical information of \-a\- six breast cancer cohorts and \-b\- four colorectal cancer cohorts. Breast cancer data are employed in the vignette of the hrunbiased package for survival analysis of gene signatures.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/mcsurvdata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/mcsurvdata.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-mcsurvdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcsurvdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcsurvdata/meta.yaml>`_
 

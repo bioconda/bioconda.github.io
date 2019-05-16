@@ -11,7 +11,7 @@ bioconductor-proteomm
 
    ProteoMM is a statistical method to perform model\-based peptide\-level differential expression analysis of single or multiple datasets. For multiple datasets ProteoMM produces a single fold change and p\-value for each protein across multiple datasets. ProteoMM provides functionality for normalization\, missing value imputation and differential expression. Model\-based peptide\-level imputation and differential expression analysis component of package follows the analysis described in “A statistical framework for protein quantitation in bottom\-up MS based proteomics\" \(Karpievitch et al. Bioinformatics 2009\). EigenMS normalisation is implemented as described in \"Normalization of peak intensities in bottom\-up MS\-based proteomics using singular value decomposition.\" \(Karpievitch et al. Bioinformatics 2009\).
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ProteoMM.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ProteoMM.html
    :license: MIT
    :recipe: /`bioconductor-proteomm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteomm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteomm/meta.yaml>`_
 

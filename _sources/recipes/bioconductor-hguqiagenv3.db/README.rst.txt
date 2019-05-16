@@ -11,7 +11,7 @@ bioconductor-hguqiagenv3.db
 
    Qiagen Qiagen V3.0 oligo set annotation data \(chip hguqiagenv3\) assembled using data from public repositories
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/hguqiagenv3.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hguqiagenv3.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hguqiagenv3.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hguqiagenv3.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hguqiagenv3.db/meta.yaml>`_
 

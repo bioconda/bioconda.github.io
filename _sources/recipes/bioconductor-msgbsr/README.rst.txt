@@ -11,7 +11,7 @@ bioconductor-msgbsr
 
    Pipeline for the anaysis of a MS\-GBS experiment.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/msgbsR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/msgbsR.html
    :license: GPL-2
    :recipe: /`bioconductor-msgbsr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msgbsr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msgbsr/meta.yaml>`_
 

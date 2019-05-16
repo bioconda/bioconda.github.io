@@ -11,7 +11,7 @@ bioconductor-pd.porcine
 
    Platform Design Info for The Manufacturer\'s Name Porcine
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/pd.porcine.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.porcine.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.porcine <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.porcine>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.porcine/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-chromvar
 
    Determine variation in chromatin accessibility across sets of annotations or peaks. Designed primarily for single\-cell or sparse chromatin accessibility data\, e.g. from scATAC\-seq or sparse bulk ATAC or DNAse\-seq experiments.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/chromVAR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/chromVAR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-chromvar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromvar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromvar/meta.yaml>`_
    :links: biotools: :biotools:`chromvar`

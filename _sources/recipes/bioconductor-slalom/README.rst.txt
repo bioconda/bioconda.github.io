@@ -11,7 +11,7 @@ bioconductor-slalom
 
    slalom is a scalable modelling framework for single\-cell RNA\-seq data that uses gene set annotations to dissect single\-cell transcriptome heterogeneity\, thereby allowing to identify biological drivers of cell\-to\-cell variability and model confounding factors.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/slalom.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/slalom.html
    :license: GPL-2
    :recipe: /`bioconductor-slalom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slalom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slalom/meta.yaml>`_
 

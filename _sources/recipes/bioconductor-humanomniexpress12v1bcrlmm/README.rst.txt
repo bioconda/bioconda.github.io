@@ -11,7 +11,7 @@ bioconductor-humanomniexpress12v1bcrlmm
 
    Package with metadata for genotyping Illumina Omni Express 12 arrays using the \'crlmm\' package.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/humanomniexpress12v1bCrlmm.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/humanomniexpress12v1bCrlmm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-humanomniexpress12v1bcrlmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humanomniexpress12v1bcrlmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humanomniexpress12v1bcrlmm/meta.yaml>`_
 

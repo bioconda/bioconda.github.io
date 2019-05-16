@@ -11,7 +11,7 @@ bioconductor-mpra
 
    Tools for data management\, count preprocessing\, and differential analysis in massively parallel report assays \(MPRA\).
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/mpra.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/mpra.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mpra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mpra>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mpra/meta.yaml>`_
 

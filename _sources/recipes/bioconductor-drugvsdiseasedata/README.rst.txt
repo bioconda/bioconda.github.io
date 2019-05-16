@@ -11,7 +11,7 @@ bioconductor-drugvsdiseasedata
 
    Data package which provides default disease expression profiles\, clusters and annotation information for use with the DrugVsDisease package.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/DrugVsDiseasedata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/DrugVsDiseasedata.html
    :license: GPL-3
    :recipe: /`bioconductor-drugvsdiseasedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drugvsdiseasedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drugvsdiseasedata/meta.yaml>`_
 

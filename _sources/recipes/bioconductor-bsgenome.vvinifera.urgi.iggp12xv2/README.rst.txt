@@ -11,7 +11,7 @@ bioconductor-bsgenome.vvinifera.urgi.iggp12xv2
 
    Full reference nuclear genome sequences for Vitis vinifera subsp. vinifera PN40024 \(derived from Pinot Noir and close to homozygosity after 6\-9 rounds of selfing\) as assembled by the IGGP \(version 12Xv2\) and available at the URGI \(INRA\)
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Vvinifera.URGI.IGGP12Xv2.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Vvinifera.URGI.IGGP12Xv2.html
    :license: CC0
    :recipe: /`bioconductor-bsgenome.vvinifera.urgi.iggp12xv2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.vvinifera.urgi.iggp12xv2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.vvinifera.urgi.iggp12xv2/meta.yaml>`_
 

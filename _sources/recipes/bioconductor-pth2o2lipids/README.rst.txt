@@ -11,7 +11,7 @@ bioconductor-pth2o2lipids
 
    Annotated HPLC\-ESI\-MS lipid data in positive ionization mode from an experiment in which cultures of the marine diatom Phaeodactylum tricornutum were treated with various concentrations of hydrogen peroxide \(H2O2\) to induce oxidative stress. The experiment is described in Graff van Creveld\, et al.\, 2015\, \"Early perturbation in mitochondria redox homeostasis in response to environmental stress predicts cell fate in diatoms\,\" ISME Journal 9\:385\-395. PtH2O2lipids consists of two objects\: A CAMERA xsAnnotate object \(ptH2O2lipids\$xsAnnotate\) and LOBSTAHS LOBSet object \(ptH2O2lipids\$xsAnnotate\$LOBSet\). The LOBSet includes putative compound assignments from the default LOBSTAHS database. Isomer annotation is recorded in three other LOBSet slots.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/PtH2O2lipids.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/PtH2O2lipids.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-pth2o2lipids <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pth2o2lipids>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pth2o2lipids/meta.yaml>`_
 

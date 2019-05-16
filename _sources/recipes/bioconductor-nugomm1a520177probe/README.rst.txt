@@ -11,7 +11,7 @@ bioconductor-nugomm1a520177probe
 
    This package was automatically created by package AnnotationForge version 1.11.20. The probe sequence data was obtained from http\:\/\/www.affymetrix.com.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/nugomm1a520177probe.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/nugomm1a520177probe.html
    :license: LGPL
    :recipe: /`bioconductor-nugomm1a520177probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nugomm1a520177probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nugomm1a520177probe/meta.yaml>`_
 

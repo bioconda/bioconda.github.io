@@ -11,7 +11,7 @@ bioconductor-synlet
 
    Select hits from synthetic lethal RNAi screen data. For example\, there are two identical celllines except one gene is knocked\-down in one cellline. The interest is to find genes that lead to stronger lethal effect when they are knocked\-down further by siRNA. Quality control and various visualisation tools are implemented. Four different algorithms could be used to pick up the interesting hits. This package is designed based on 384 wells plates\, but may apply to other platforms with proper configuration.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/synlet.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/synlet.html
    :license: GPL-3
    :recipe: /`bioconductor-synlet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synlet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synlet/meta.yaml>`_
    :links: biotools: :biotools:`synlet`, doi: :doi:`10.1101/043570`

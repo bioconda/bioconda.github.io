@@ -11,7 +11,7 @@ bioconductor-r3cpet
 
    The package provides a method to infer the set of proteins that are more probably to work together to maintain chormatin interaction given a ChIA\-PET experiment results.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/R3CPET.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/R3CPET.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-r3cpet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r3cpet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r3cpet/meta.yaml>`_
 

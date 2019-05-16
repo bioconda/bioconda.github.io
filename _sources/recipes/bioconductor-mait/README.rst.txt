@@ -11,7 +11,7 @@ bioconductor-mait
 
    The MAIT package contains functions to perform end\-to\-end statistical analysis of LC\/MS Metabolomic Data. Special emphasis is put on peak annotation and in modular function design of the functions.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MAIT.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MAIT.html
    :license: GPL-2
    :recipe: /`bioconductor-mait <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mait>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mait/meta.yaml>`_
 

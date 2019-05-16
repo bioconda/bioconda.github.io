@@ -11,7 +11,7 @@ bioconductor-rcistarget
 
    RcisTarget identifies transcription factor binding motifs \(TFBS\) over\-represented on a gene list. In a first step\, RcisTarget selects DNA motifs that are significantly over\-represented in the surroundings of the transcription start site \(TSS\) of the genes in the gene\-set. This is achieved by using a database that contains genome\-wide cross\-species rankings for each motif. The motifs that are then annotated to TFs and those that have a high Normalized Enrichment Score \(NES\) are retained. Finally\, for each motif and gene\-set\, RcisTarget predicts the candidate target genes \(i.e. genes in the gene\-set that are ranked above the leading edge\).
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RcisTarget.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RcisTarget.html
    :license: GPL-3
    :recipe: /`bioconductor-rcistarget <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcistarget>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcistarget/meta.yaml>`_
 

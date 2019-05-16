@@ -11,7 +11,7 @@ bioconductor-rnaseqdata.hnrnpc.bam.chr14
 
    The package contains 8 BAM files\, 1 per sequencing run. Each BAM file was obtained by \(1\) aligning the reads \(paired\-end\) to the full hg19 genome with TopHat2\, and then \(2\) subsetting to keep only alignments on chr14. See accession number E\-MTAB\-1147 in the ArrayExpress database for details about the experiment\, including links to the published study \(by Zarnack et al.\, 2012\) and to the FASTQ files.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RNAseqData.HNRNPC.bam.chr14.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RNAseqData.HNRNPC.bam.chr14.html
    :license: LGPL
    :recipe: /`bioconductor-rnaseqdata.hnrnpc.bam.chr14 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqdata.hnrnpc.bam.chr14>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqdata.hnrnpc.bam.chr14/meta.yaml>`_
 

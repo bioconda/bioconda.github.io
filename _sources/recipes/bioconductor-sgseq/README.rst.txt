@@ -11,7 +11,7 @@ bioconductor-sgseq
 
    SGSeq is a software package for analyzing splice events from RNA\-seq data. Input data are RNA\-seq reads mapped to a reference genome in BAM format. Genes are represented as a splice graph\, which can be obtained from existing annotation or predicted from the mapped sequence reads. Splice events are identified from the graph and are quantified locally using structurally compatible reads at the start or end of each splice variant. The software includes functions for splice event prediction\, quantification\, visualization and interpretation.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SGSeq.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SGSeq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sgseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sgseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sgseq/meta.yaml>`_
    :links: biotools: :biotools:`sgseq`

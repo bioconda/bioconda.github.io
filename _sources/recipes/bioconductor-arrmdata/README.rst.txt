@@ -11,7 +11,7 @@ bioconductor-arrmdata
 
    Raw Beta values from 36 samples across 3 groups from Illumina 450k methylation arrays
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/ARRmData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ARRmData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-arrmdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrmdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrmdata/meta.yaml>`_
 

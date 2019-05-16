@@ -11,7 +11,7 @@ bioconductor-dmchmm
 
    A pipeline for identifying differentially methylated CpG sites using Hidden Markov Model in bisulfite sequencing data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DMCHMM.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DMCHMM.html
    :license: GPL-3
    :recipe: /`bioconductor-dmchmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmchmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmchmm/meta.yaml>`_
 

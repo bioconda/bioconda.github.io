@@ -11,7 +11,7 @@ bioconductor-rnaseqsamplesize
 
    RnaSeqSampleSize package provides a sample size calculation method based on negative binomial model and the exact test for assessing differential expression analysis of RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RnaSeqSampleSize.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RnaSeqSampleSize.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-rnaseqsamplesize <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqsamplesize>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqsamplesize/meta.yaml>`_
 

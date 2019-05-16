@@ -11,7 +11,7 @@ bioconductor-sclcbam
 
    Whole\-exome sequencing data from a murine small\-cell lung tumor\; only contains data of chromosome 4.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/SCLCBam.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/SCLCBam.html
    :license: GPL-2
    :recipe: /`bioconductor-sclcbam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sclcbam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sclcbam/meta.yaml>`_
 

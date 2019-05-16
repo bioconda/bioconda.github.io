@@ -11,7 +11,7 @@ bioconductor-protgenerics
 
    S4 generic functions needed by Bioconductor proteomics packages.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ProtGenerics.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ProtGenerics.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-protgenerics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-protgenerics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-protgenerics/meta.yaml>`_
    :links: biotools: :biotools:`protgenerics`, doi: :doi:`10.1038/nmeth.3252`

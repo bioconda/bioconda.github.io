@@ -11,7 +11,7 @@ bioconductor-mogsa
 
    This package provide a method for doing gene set analysis based on multiple omics data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/mogsa.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/mogsa.html
    :license: GPL-2
    :recipe: /`bioconductor-mogsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogsa/meta.yaml>`_
 

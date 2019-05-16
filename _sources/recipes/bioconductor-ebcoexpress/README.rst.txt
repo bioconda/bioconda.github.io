@@ -11,7 +11,7 @@ bioconductor-ebcoexpress
 
    An Empirical Bayesian Approach to Differential Co\-Expression Analysis at the Gene\-Pair Level
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/EBcoexpress.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/EBcoexpress.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ebcoexpress <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebcoexpress>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebcoexpress/meta.yaml>`_
 

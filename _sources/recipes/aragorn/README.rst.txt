@@ -6,14 +6,14 @@
 aragorn
 =======
 
-.. conda:recipe:: aragorn/1.2.38
+.. conda:recipe:: aragorn
    :replaces_section_title:
 
    ARAGORN\, tRNA \(and tmRNA\) detection
 
    :homepage: http://mbio-serv2.mbioekol.lu.se/ARAGORN/
    :license: GPLv3
-   :recipe: /`aragorn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aragorn>`_/`1.2.38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aragorn/1.2.38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aragorn/1.2.38/meta.yaml>`_
+   :recipe: /`aragorn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aragorn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aragorn/meta.yaml>`_
 
    
 

@@ -11,7 +11,7 @@ bioconductor-iseq
 
    Bayesian hidden Ising models are implemented to identify IP\-enriched genomic regions from ChIP\-seq data. They can be used to analyze ChIP\-seq data with and without controls and replicates.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/iSeq.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/iSeq.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-iseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseq/meta.yaml>`_
    :links: biotools: :biotools:`iseq`, doi: :doi:`10.1111/j.1541-0420.2009.01379.x`

@@ -11,7 +11,7 @@ bioconductor-stager
 
    The stageR package allows automated stage\-wise analysis of high\-throughput gene expression data. The method is published in Genome Biology at https\:\/\/genomebiology.biomedcentral.com\/articles\/10.1186\/s13059\-017\-1277\-0
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/stageR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/stageR.html
    :license: GNU General Public License version 3
    :recipe: /`bioconductor-stager <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stager>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stager/meta.yaml>`_
 

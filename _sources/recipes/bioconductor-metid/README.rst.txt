@@ -11,7 +11,7 @@ bioconductor-metid
 
    This package uses an innovative network\-based approach that will enhance our ability to determine the identities of significant ions detected by LC\-MS.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MetID.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MetID.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-metid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metid/meta.yaml>`_
 

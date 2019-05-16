@@ -11,7 +11,7 @@ bioconductor-abaenrichment
 
    The package ABAEnrichment is designed to test for enrichment of user defined candidate genes in the set of expressed genes in different human brain regions. The core function \'aba\_enrich\' integrates the expression of the candidate gene set \(averaged across donors\) and the structural information of the brain using an ontology\, both provided by the Allen Brain Atlas project. \'aba\_enrich\' interfaces the ontology enrichment software FUNC to perform the statistical analyses. Additional functions provided in this package like \'get\_expression\' and \'plot\_expression\' facilitate exploring the expression data\, and besides the standard candidate vs. background gene set enrichment\, also three additional tests are implemented\, e.g. for cases when genes are ranked instead of divided into candidate and background.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ABAEnrichment.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ABAEnrichment.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-abaenrichment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-abaenrichment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-abaenrichment/meta.yaml>`_
    :links: biotools: :biotools:`abaenrichment`

@@ -11,7 +11,7 @@ bioconductor-allenpvc
 
    Celular taxonomy of the primary visual cortex in adult mice based on single cell RNA\-sequencing from a study performed by the Allen Institute for Brain Science. In said study 49 transcriptomic cell types are identified.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/allenpvc.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/allenpvc.html
    :license: CC0
    :recipe: /`bioconductor-allenpvc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-allenpvc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-allenpvc/meta.yaml>`_
 

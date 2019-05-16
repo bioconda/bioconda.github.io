@@ -11,7 +11,7 @@ bioconductor-methyvim
 
    This package provides facilities for differential methylation analysis based on variable importance measures \(VIMs\)\, a class of statistical target parameters that arise in causal inference. The estimation and inference procedures provided are nonparametric\, relying on ensemble machine learning to flexibly assess functional relationships among covariates and the outcome of interest. These tools can be applied to differential methylation at the level of CpG sites\, to obtain valid statistical inference even after corrections for multiple hypothesis testing.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/methyvim.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/methyvim.html
    :license: file LICENSE
    :recipe: /`bioconductor-methyvim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methyvim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methyvim/meta.yaml>`_
 

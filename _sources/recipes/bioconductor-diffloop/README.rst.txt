@@ -11,7 +11,7 @@ bioconductor-diffloop
 
    A suite of tools for subsetting\, visualizing\, annotating\, and statistically analyzing the results of one or more ChIA\-PET experiments or other assays that infer chromatin loops.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/diffloop.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/diffloop.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-diffloop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffloop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffloop/meta.yaml>`_
    :links: biotools: :biotools:`diffloop`, doi: :doi:`10.1101/087338`

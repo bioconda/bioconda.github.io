@@ -11,7 +11,7 @@ bioconductor-systempiperdata
 
    systemPipeRdata is a helper package to generate with a single command NGS workflow templates that are intended to be used by its parent package systemPipeR. The latter is an environment for building end\-to\-end analysis pipelines with automated report generation for next generation sequence \(NGS\) applications such as RNA\-Seq\, RIBO\-Seq\, ChIP\-Seq\, VAR\-Seq and many others. Detailed examples for using systemPipeRdata are given in systemPipeR\'s overview vignette.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/systemPipeRdata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/systemPipeRdata.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-systempiperdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-systempiperdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-systempiperdata/meta.yaml>`_
 

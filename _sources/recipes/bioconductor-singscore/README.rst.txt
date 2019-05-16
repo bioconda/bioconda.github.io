@@ -11,7 +11,7 @@ bioconductor-singscore
 
    A simple single\-sample gene signature scoring method that uses rank\-based statistics to analyze the sample\'s gene expression profile. It scores the expression activities of gene sets at a single\-sample level.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/singscore.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/singscore.html
    :license: GPL-3
    :recipe: /`bioconductor-singscore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singscore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singscore/meta.yaml>`_
 

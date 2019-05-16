@@ -11,7 +11,7 @@ bioconductor-yrimulti
 
    expression\, methylation\, DHS for YRI
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/yriMulti.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/yriMulti.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-yrimulti <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yrimulti>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yrimulti/meta.yaml>`_
 

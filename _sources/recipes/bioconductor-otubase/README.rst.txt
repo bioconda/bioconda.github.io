@@ -11,7 +11,7 @@ bioconductor-otubase
 
    Provides a platform for Operational Taxonomic Unit based analysis
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/OTUbase.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/OTUbase.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-otubase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-otubase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-otubase/meta.yaml>`_
    :links: biotools: :biotools:`otubase`, doi: :doi:`10.1093/bioinformatics/btr196`

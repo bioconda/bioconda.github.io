@@ -11,7 +11,7 @@ bioconductor-lpeadj
 
    Two options are added to the LPE algorithm. The original LPE method sets all variances below the max variance in the ordered distribution of variances to the maximum variance. in LPEadj this option is turned off by default.  The second option is to use a variance adjustment based on sample size rather than pi\/2.  By default the LPEadj uses the sample size based variance adjustment.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/LPEadj.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/LPEadj.html
    :license: LGPL
    :recipe: /`bioconductor-lpeadj <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lpeadj>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lpeadj/meta.yaml>`_
    :links: biotools: :biotools:`lpeadj`, doi: :doi:`10.1038/nmeth.3252`

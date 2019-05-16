@@ -11,7 +11,7 @@ bioconductor-genomicscores
 
    Provide infrastructure to store and access genomewide position\-specific scores within R and Bioconductor.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GenomicScores.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GenomicScores.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomicscores <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicscores>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicscores/meta.yaml>`_
 

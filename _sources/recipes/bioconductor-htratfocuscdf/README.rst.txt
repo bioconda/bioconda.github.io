@@ -11,7 +11,7 @@ bioconductor-htratfocuscdf
 
    A package containing an environment representing the HT\_Rat\-Focus.cdf file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/htratfocuscdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/htratfocuscdf.html
    :license: LGPL
    :recipe: /`bioconductor-htratfocuscdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htratfocuscdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htratfocuscdf/meta.yaml>`_
 

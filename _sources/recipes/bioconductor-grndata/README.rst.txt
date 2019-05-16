@@ -11,7 +11,7 @@ bioconductor-grndata
 
    Simulated expression data for five large Gene Regulatory Networks from different simulators
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/grndata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/grndata.html
    :license: GPL-3
    :recipe: /`bioconductor-grndata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grndata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grndata/meta.yaml>`_
 

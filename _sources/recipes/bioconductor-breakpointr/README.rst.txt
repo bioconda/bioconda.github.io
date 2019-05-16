@@ -11,7 +11,7 @@ bioconductor-breakpointr
 
    This package implements functions for finding breakpoints\, plotting and export of Strand\-seq data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/breakpointR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/breakpointR.html
    :license: file LICENSE
    :recipe: /`bioconductor-breakpointr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breakpointr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breakpointr/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-hthgu133pluspmcdf
 
    A package containing an environment representing the HT\_HG\-U133\_Plus\_PM.CDF file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/hthgu133pluspmcdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hthgu133pluspmcdf.html
    :license: LGPL
    :recipe: /`bioconductor-hthgu133pluspmcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hthgu133pluspmcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hthgu133pluspmcdf/meta.yaml>`_
 

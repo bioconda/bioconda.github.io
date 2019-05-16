@@ -11,7 +11,7 @@ bioconductor-rat2302probe
 
    This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Rat230\\\_2\\\_probe\\\_tab.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/rat2302probe.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/rat2302probe.html
    :license: LGPL
    :recipe: /`bioconductor-rat2302probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rat2302probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rat2302probe/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-hd2013sgi
 
    This package contains the experimental data and a complete executable transcript \(vignette\) of the analysis of the HCT116 genetic interaction matrix presented in the paper \"Mapping genetic interactions in human cancer cells with RNAi and multiparametric phenotyping\" by C. Laufer\, B. Fischer\, M. Billmann\, W. Huber\, M. Boutros\; Nature Methods \(2013\) 10\:427\-31. doi\: 10.1038\/nmeth.2436.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/HD2013SGI.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/HD2013SGI.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hd2013sgi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hd2013sgi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hd2013sgi/meta.yaml>`_
 

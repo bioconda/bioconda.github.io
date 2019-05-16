@@ -11,7 +11,7 @@ bioconductor-rtcga.methylation
 
    Package provides methylation \(humanmethylation27\) datasets from The Cancer Genome Atlas Project for all available cohorts types from http\:\/\/gdac.broadinstitute.org\/. Data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/DNA\+methylation Data from 2015\-11\-01 snapshot.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RTCGA.methylation.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RTCGA.methylation.html
    :license: GPL-2
    :recipe: /`bioconductor-rtcga.methylation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.methylation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.methylation/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-flowmeans
 
    Identifies cell populations in Flow Cytometry data using non\-parametric clustering and segmented\-regression\-based change point detection. Note\: R 2.11.0 or newer is required.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/flowMeans.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flowMeans.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowmeans <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowmeans>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowmeans/meta.yaml>`_
 

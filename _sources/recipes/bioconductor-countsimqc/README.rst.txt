@@ -11,7 +11,7 @@ bioconductor-countsimqc
 
    countsimQC provides functionality to create a comprehensive report comparing a broad range of characteristics across a collection of count matrices. One important use case is the comparison of one or more synthetic count matrices to a real count matrix\, possibly the one underlying the simulations. However\, any collection of count matrices can be compared.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/countsimQC.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/countsimQC.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-countsimqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-countsimqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-countsimqc/meta.yaml>`_
 

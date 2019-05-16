@@ -11,7 +11,7 @@ bioconductor-omicsmarker
 
    Tools for classification and feature selection for \'omics\' level datasets.  It is a tool to provide multiple multivariate classification and feature selection techniques complete with multiple stability metrics and aggregation techniques.  It is primarily designed for analysis of metabolomics datasets but potentially extendable to proteomics and transcriptomics applications.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/OmicsMarkeR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/OmicsMarkeR.html
    :license: GPL-3
    :recipe: /`bioconductor-omicsmarker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicsmarker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicsmarker/meta.yaml>`_
 

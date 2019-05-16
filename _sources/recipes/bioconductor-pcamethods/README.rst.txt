@@ -11,7 +11,7 @@ bioconductor-pcamethods
 
    Provides Bayesian PCA\, Probabilistic PCA\, Nipals PCA\, Inverse Non\-Linear PCA and the conventional SVD PCA. A cluster based method for missing value estimation is included for comparison. BPCA\, PPCA and NipalsPCA may be used to perform PCA on incomplete data as well as for accurate missing value estimation. A set of methods for printing and plotting the results is also provided. All PCA methods make use of the same data structure \(pcaRes\) to provide a common interface to the PCA results. Initiated at the Max\-Planck Institute for Molecular Plant Physiology\, Golm\, Germany.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/pcaMethods.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/pcaMethods.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-pcamethods <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcamethods>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcamethods/meta.yaml>`_
    :links: biotools: :biotools:`pcamethods`, doi: :doi:`10.1093/bioinformatics/btm069`

@@ -11,7 +11,7 @@ bioconductor-breastcancervdx
 
    Gene expression data from a breast cancer study published by Wang et al. in 2005 and Minn et al. in 2007\, provided as an eSet.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/breastCancerVDX.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/breastCancerVDX.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-breastcancervdx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancervdx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancervdx/meta.yaml>`_
 

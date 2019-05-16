@@ -11,7 +11,7 @@ bioconductor-canine2probe
 
    This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Canine\\\_2\\\_probe\\\_tab.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/canine2probe.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/canine2probe.html
    :license: LGPL
    :recipe: /`bioconductor-canine2probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-canine2probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-canine2probe/meta.yaml>`_
 

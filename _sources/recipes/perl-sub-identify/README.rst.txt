@@ -6,14 +6,14 @@
 perl-sub-identify
 =================
 
-.. conda:recipe:: perl-sub-identify/0.12
+.. conda:recipe:: perl-sub-identify
    :replaces_section_title:
 
    Retrieve names of code references
 
    :homepage: http://metacpan.org/pod/Sub::Identify
    :license: perl_5
-   :recipe: /`perl-sub-identify <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-identify>`_/`0.12 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-identify/0.12>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-identify/0.12/meta.yaml>`_
+   :recipe: /`perl-sub-identify <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-identify>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-identify/meta.yaml>`_
 
    
 
@@ -22,9 +22,10 @@ perl-sub-identify
 
    |downloads_perl-sub-identify| |docker_perl-sub-identify|
 
-   :versions: 0.12-1, 0.12-0
+   :versions: 0.14-0, 0.12-1, 0.12-0
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -11,7 +11,7 @@ bioconductor-cosnet
 
    Package that implements the COSNet classification algorithm. The algorithm predicts node labels in partially labeled graphs where few positives are available for the class being predicted.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/COSNet.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/COSNet.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-cosnet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cosnet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cosnet/meta.yaml>`_
 

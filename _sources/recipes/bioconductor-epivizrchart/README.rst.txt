@@ -11,7 +11,7 @@ bioconductor-epivizrchart
 
    This package provides an API for interactive visualization of genomic data using epiviz web components. Objects in R\/BioConductor can be used to generate interactive R markdown\/notebook documents or can be visualized in the R Studio\'s default viewer.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/epivizrChart.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/epivizrChart.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-epivizrchart <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizrchart>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizrchart/meta.yaml>`_
 

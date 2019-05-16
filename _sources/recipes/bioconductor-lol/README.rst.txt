@@ -11,7 +11,7 @@ bioconductor-lol
 
    Various optimization methods for Lasso inference with matrix warpper
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/lol.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/lol.html
    :license: GPL-2
    :recipe: /`bioconductor-lol <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lol>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lol/meta.yaml>`_
    :links: biotools: :biotools:`lol`, doi: :doi:`10.1038/nmeth.3252`

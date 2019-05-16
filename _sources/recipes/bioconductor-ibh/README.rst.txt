@@ -11,7 +11,7 @@ bioconductor-ibh
 
    This package contains methods for calculating Interaction Based Homogeneity to evaluate fitness of gene lists to an interaction network which is useful for evaluation of clustering results and gene list analysis. BioGRID interactions are used in the calculation. The user can also provide their own interactions.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ibh.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ibh.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ibh <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ibh>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ibh/meta.yaml>`_
    :links: biotools: :biotools:`ibh`, doi: :doi:`10.1038/nmeth.3252`

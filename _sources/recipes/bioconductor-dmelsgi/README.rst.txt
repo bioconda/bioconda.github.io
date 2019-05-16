@@ -11,7 +11,7 @@ bioconductor-dmelsgi
 
    The package contains the experimental data and documented source code of the manuscript \"Fischer et al.\, A Map of Directional Genetic Interactions in a Metazoan Cell\, eLife\, 2015\, in Press.\". The vignette code generates all figures in the paper.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/DmelSGI.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/DmelSGI.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-dmelsgi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmelsgi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmelsgi/meta.yaml>`_
 

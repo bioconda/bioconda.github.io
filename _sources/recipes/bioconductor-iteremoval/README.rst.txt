@@ -11,7 +11,7 @@ bioconductor-iteremoval
 
    The package provides a flexible algorithm to screen features of two distinct groups in consideration of overfitting and overall performance. It was originally tailored for methylation locus screening of NGS data\, and it can also be used as a generic method for feature selection. Each step of the algorithm provides a default method for simple implemention\, and the method can be replaced by a user defined function.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/iteremoval.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/iteremoval.html
    :license: GPL-2
    :recipe: /`bioconductor-iteremoval <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iteremoval>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iteremoval/meta.yaml>`_
 

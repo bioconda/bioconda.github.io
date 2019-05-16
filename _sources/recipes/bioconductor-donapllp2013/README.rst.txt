@@ -11,7 +11,7 @@ bioconductor-donapllp2013
 
    An experiment data package associated with the publication Dona et al. \(2013\). Package contains runnable vignettes showing an example image segmentation for one posterior lateral line primordium\, and also the data table and code used to analyze tissue\-scale lifetime\-ratio statistics.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/DonaPLLP2013.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/DonaPLLP2013.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-donapllp2013 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-donapllp2013>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-donapllp2013/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-pasillatranscriptexpr
 
    Provides kallisto workflow and transcript expression of RNA\-Seq data from Brooks et al.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/PasillaTranscriptExpr.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/PasillaTranscriptExpr.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-pasillatranscriptexpr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pasillatranscriptexpr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pasillatranscriptexpr/meta.yaml>`_
 

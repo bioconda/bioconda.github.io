@@ -11,7 +11,7 @@ bioconductor-gatingmldata
 
    Test data and XML files for testing compliance of the flowUtils\/flowCore packages with Gating\-ML \(1.5 and 2.0\) standards.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/gatingMLData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/gatingMLData.html
    :license: GPL
    :recipe: /`bioconductor-gatingmldata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gatingmldata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gatingmldata/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-motifmatchr
 
    Quickly find motif matches for many motifs and many sequences. Wraps C\+\+ code from the MOODS motif calling library\, which was developed by Pasi Rastas\, Janne Korhonen\, and Petri Martinmäki.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/motifmatchr.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/motifmatchr.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-motifmatchr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifmatchr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifmatchr/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-mergemaid
 
    The functions in this R extension are intended for cross\-study comparison of gene expression array data. Required from the user is gene expression matrices\, their corresponding gene\-id vectors and other useful information\, and they could be \'list\'\,\'matrix\'\, or \'ExpressionSet\'. The main function is \'mergeExprs\' which transforms the input objects into data in the merged format\, such that common genes in different datasets can be easily found. And the function \'intcor\' calculate the correlation coefficients. Other functions use the output from \'modelOutcome\' to graphically display the results and cross\-validate associations of gene expression data with survival.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MergeMaid.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MergeMaid.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mergemaid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mergemaid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mergemaid/meta.yaml>`_
    :links: biotools: :biotools:`mergemaid`, doi: :doi:`10.2202/1544-6115.1046`

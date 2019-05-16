@@ -11,7 +11,7 @@ bioconductor-synapterdata
 
    Data independant acquisition of UPS1 protein mix in an E. coli background obtained on a Waters Synapt G2 instrument.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/synapterdata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/synapterdata.html
    :license: GPL-2
    :recipe: /`bioconductor-synapterdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synapterdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synapterdata/meta.yaml>`_
 

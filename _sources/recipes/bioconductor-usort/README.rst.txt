@@ -11,7 +11,7 @@ bioconductor-usort
 
    This package is designed to uncover the intrinsic cell progression path from single\-cell RNA\-seq data. It incorporates data pre\-processing\, preliminary PCA gene selection\, preliminary cell ordering\, feature selection\, refined cell ordering\, and post\-analysis interpretation and visualization.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/uSORT.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/uSORT.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-usort <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-usort>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-usort/meta.yaml>`_
 

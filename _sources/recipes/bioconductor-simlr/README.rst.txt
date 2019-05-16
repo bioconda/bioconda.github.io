@@ -11,7 +11,7 @@ bioconductor-simlr
 
    Single\-cell RNA\-seq technologies enable high throughput gene expression measurement of individual cells\, and allow the discovery of heterogeneity within cell populations. Measurement of cell\-to\-cell gene expression similarity is critical for the identification\, visualization and analysis of cell populations. However\, single\-cell data introduce challenges to conventional measures of gene expression similarity because of the high level of noise\, outliers and dropouts. We develop a novel similarity\-learning framework\, SIMLR \(Single\-cell Interpretation via Multi\-kernel LeaRning\)\, which learns an appropriate distance metric from the data for dimension reduction\, clustering and visualization.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SIMLR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SIMLR.html
    :license: file LICENSE
    :recipe: /`bioconductor-simlr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simlr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simlr/meta.yaml>`_
    :links: biotools: :biotools:`simlr`, doi: :doi:`10.1101/118901`

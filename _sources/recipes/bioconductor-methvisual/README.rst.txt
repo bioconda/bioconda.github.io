@@ -11,7 +11,7 @@ bioconductor-methvisual
 
    The package \'methVisual\' allows the visualization of DNA methylation data after bisulfite sequencing.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/methVisual.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/methVisual.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-methvisual <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methvisual>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methvisual/meta.yaml>`_
 

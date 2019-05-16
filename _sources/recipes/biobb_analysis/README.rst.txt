@@ -15,7 +15,7 @@ biobb_analysis
    :license: APACHE / Apache Software License
    :recipe: /`biobb_analysis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_analysis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_analysis/meta.yaml>`_
 
-   \[\!\[Documentation Status\]\(https\:\/\/readthedocs.org\/projects\/biobb\-analysis\/badge\/\?version\=latest\)\]\(https\:\/\/biobb\-analysis.readthedocs.io\/en\/latest\/\?badge\=latest\)
+   \[\!\[\]\(https\:\/\/readthedocs.org\/projects\/biobb\-analysis\/badge\/\?version\=latest\)\]\(https\:\/\/biobb\-analysis.readthedocs.io\/en\/latest\/\?badge\=latest\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/install\%20with\-bioconda\-brightgreen.svg\?style\=flat\)\]\(https\:\/\/anaconda.org\/bioconda\/biobb\_analysis\) \[\!\[\]\(https\:\/\/quay.io\/repository\/biocontainers\/biobb\_io\/status\)\]\(https\:\/\/hub.docker.com\/r\/mmbirb\/biobb\_analysis\) \[\!\[\]\(https\:\/\/www.singularity\-hub.org\/static\/img\/hosted\-singularity\-\-hub\-\%23e32929.svg\)\]\(https\:\/\/singularity\-hub.org\/collections\/2423\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/License\-Apache\%202.0\-blue.svg\)\]\(https\:\/\/opensource.org\/licenses\/Apache\-2.0\)
 
    \# biobb\_analysis
 
@@ -50,9 +50,9 @@ biobb_analysis
 
    |downloads_biobb_analysis| |docker_biobb_analysis|
 
-   :versions: 1.0.1-0, 0.2.0-0, 0.1.9-0, 0.1.8-0, 0.1.7-0, 0.1.6-0, 0.1.4-0, 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.9-0, 0.0.8-0, 0.0.4-0
+   :versions: 1.0.2-0, 1.0.1-0, 0.2.0-0, 0.1.9-0, 0.1.8-0, 0.1.7-0, 0.1.6-0, 0.1.4-0, 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.9-0, 0.0.8-0, 0.0.4-0
    
-   :depends biobb_common: 0.1.4
+   :depends biobb_common: 1.1.6
    :depends gromacs: 2018.4
    :depends python: 3.6.*
    :requirements:

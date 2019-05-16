@@ -11,7 +11,7 @@ bioconductor-rtcga.cnv
 
    Package provides CNV \(based on Merge snp\) datasets from The Cancer Genome Atlas Project for all cohorts types from http\:\/\/gdac.broadinstitute.org\/. Data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/Retrieving \+Data\+Using\+the\+Data\+Matrix. Data from 2015\-11\-01 snapshot.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RTCGA.CNV.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RTCGA.CNV.html
    :license: GPL-2
    :recipe: /`bioconductor-rtcga.cnv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.cnv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.cnv/meta.yaml>`_
 

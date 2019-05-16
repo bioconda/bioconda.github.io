@@ -11,7 +11,7 @@ bioconductor-brgedata
 
    This package contains several sets of omics data including Gene Expression \(ExpressionSet\)\, Methylation \(GenomicRatioSet\)\, Proteome and Exposome \(ExposomeSet\). This data is used in vignettes and exaples at MEAL\, MultiDataSet and omicRexposome.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/brgedata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/brgedata.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-brgedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brgedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brgedata/meta.yaml>`_
 

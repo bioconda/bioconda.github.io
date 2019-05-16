@@ -12,7 +12,7 @@ desman
    De novo Extraction of Strains from MetAgeNomes
 
    :homepage: https://github.com/chrisquince/DESMAN
-   :license: BSD
+   :license: BSD / BSD
    :recipe: /`desman <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/desman>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/desman/meta.yaml>`_
    :links: doi: :doi:`10.1186/s13059-017-1309-9`
 
@@ -23,23 +23,23 @@ desman
 
    |downloads_desman| |docker_desman|
 
-   :versions: 2.1-1, 2.1-0
+   :versions: 2.1-2, 2.1-1, 2.1-0
    
-   :depends bcbiogff: 
+   :depends bcbio-gff: 
    :depends biopython: 
-   :depends cython: 
-   :depends gsl: >=2.2.1,<2.3.0a0
-   :depends numpy: 
-   :depends pandas: 
-   :depends perl: 
+   :depends cython: >=0.19.1
+   :depends gsl: >=2.4,<2.5.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends numpy: >=1.7.1
+   :depends pandas: >=0.11.0
    :depends pysam: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3.6,<3.7.0a0
    :depends r-getopt: 
-   :depends r-ggplot2: 
+   :depends r-ggplot2: >=2.2.2
    :depends r-labeling: 
-   :depends r-reshape: 
+   :depends r-reshape: >=0.8.7
    :depends scikit-learn: 
-   :depends scipy: 
+   :depends scipy: >=0.12.0
    :requirements:
 
    .. rubric:: Installation

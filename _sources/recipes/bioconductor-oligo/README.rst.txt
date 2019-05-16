@@ -11,7 +11,7 @@ bioconductor-oligo
 
    A package to analyze oligonucleotide arrays \(expression\/SNP\/tiling\/exon\) at probe\-level. It currently supports Affymetrix \(CEL files\) and NimbleGen arrays \(XYS files\).
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/oligo.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/oligo.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-oligo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oligo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oligo/meta.yaml>`_
    :links: biotools: :biotools:`oligo`

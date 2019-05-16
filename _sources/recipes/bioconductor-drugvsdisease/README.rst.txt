@@ -11,7 +11,7 @@ bioconductor-drugvsdisease
 
    This package generates ranked lists of differential gene expression for either disease or drug profiles. Input data can be downloaded from Array Express or GEO\, or from local CEL files. Ranked lists of differential expression and associated p\-values are calculated using Limma. Enrichment scores \(Subramanian et al. PNAS 2005\) are calculated to a reference set of default drug or disease profiles\, or a set of custom data supplied by the user. Network visualisation of significant scores are output in Cytoscape format.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DrugVsDisease.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DrugVsDisease.html
    :license: GPL-3
    :recipe: /`bioconductor-drugvsdisease <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drugvsdisease>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drugvsdisease/meta.yaml>`_
    :links: biotools: :biotools:`drugvsdisease`, doi: :doi:`10.1038/nmeth.3252`

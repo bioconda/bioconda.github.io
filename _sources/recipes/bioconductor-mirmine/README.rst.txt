@@ -11,7 +11,7 @@ bioconductor-mirmine
 
    miRmine database is a collection of expression profiles from different publicly available miRNA\-seq datasets\, Panwar et al \(2017\) miRmine\: A Database of Human miRNA Expression\, prepared with this data package as RangedSummarizedExperiment.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/miRmine.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/miRmine.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-mirmine <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirmine>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirmine/meta.yaml>`_
 

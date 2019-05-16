@@ -11,7 +11,7 @@ bioconductor-garfield
 
    GARFIELD is a non\-parametric functional enrichment analysis approach described in the paper GARFIELD\: GWAS analysis of regulatory or functional information enrichment with LD correction. Briefly\, it is a method that leverages GWAS findings with regulatory or functional annotations \(primarily from ENCODE and Roadmap epigenomics data\) to find features relevant to a phenotype of interest. It performs greedy pruning of GWAS SNPs \(LD r2 \> 0.1\) and then annotates them based on functional information overlap. Next\, it quantifies Fold Enrichment \(FE\) at various GWAS significance cutoffs and assesses them by permutation testing\, while matching for minor allele frequency\, distance to nearest transcription start site and number of LD proxies \(r2 \> 0.8\).
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/garfield.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/garfield.html
    :license: GPL-3
    :recipe: /`bioconductor-garfield <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-garfield>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-garfield/meta.yaml>`_
 

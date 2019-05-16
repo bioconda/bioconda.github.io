@@ -11,7 +11,7 @@ bioconductor-org.mm.eg.db
 
    Genome wide annotation for Mouse\, primarily based on mapping using Entrez Gene identifiers.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/org.Mm.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/org.Mm.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-org.mm.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.mm.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.mm.eg.db/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-conumee
 
    This package contains a set of processing and plotting methods for performing copy\-number variation \(CNV\) analysis using Illumina 450k or EPIC methylation arrays.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/conumee.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/conumee.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-conumee <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-conumee>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-conumee/meta.yaml>`_
 

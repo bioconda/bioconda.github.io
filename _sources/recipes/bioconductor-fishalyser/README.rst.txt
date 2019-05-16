@@ -11,7 +11,7 @@ bioconductor-fishalyser
 
    FISHalyseR provides functionality to process and analyse digital cell culture images\, in particular to quantify FISH probes within nuclei. Furthermore\, it extract the spatial location of each nucleus as well as each probe enabling spatial co\-localisation analysis.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/FISHalyseR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/FISHalyseR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-fishalyser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fishalyser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fishalyser/meta.yaml>`_
    :links: biotools: :biotools:`fishalyser`, doi: :doi:`10.1038/nmeth.3252`

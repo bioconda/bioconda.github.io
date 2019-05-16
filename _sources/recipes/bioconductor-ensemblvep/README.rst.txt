@@ -11,7 +11,7 @@ bioconductor-ensemblvep
 
    Query the Ensembl Variant Effect Predictor via the perl API.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ensemblVEP.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ensemblVEP.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ensemblvep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ensemblvep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ensemblvep/meta.yaml>`_
    :links: biotools: :biotools:`ensemblvep`, doi: :doi:`10.1186/s13059-016-0974-4`

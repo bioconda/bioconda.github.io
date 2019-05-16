@@ -11,7 +11,7 @@ bioconductor-bionetstat
 
    A package to perform differential network analysis\, differential node analysis \(differential coexpression analysis\)\, network and metabolic pathways view.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BioNetStat.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BioNetStat.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-bionetstat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bionetstat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bionetstat/meta.yaml>`_
 

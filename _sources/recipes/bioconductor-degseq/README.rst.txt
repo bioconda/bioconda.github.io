@@ -11,7 +11,7 @@ bioconductor-degseq
 
    DEGseq is an R package to identify differentially expressed genes from RNA\-Seq data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DEGseq.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DEGseq.html
    :license: LGPL (>=2)
    :recipe: /`bioconductor-degseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-degseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-degseq/meta.yaml>`_
    :links: biotools: :biotools:`degseq`, doi: :doi:`10.1093/bioinformatics/btp612`

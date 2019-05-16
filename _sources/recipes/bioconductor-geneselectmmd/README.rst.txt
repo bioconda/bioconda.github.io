@@ -11,7 +11,7 @@ bioconductor-geneselectmmd
 
    Gene selection based on a mixture of marginal distributions
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GeneSelectMMD.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GeneSelectMMD.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-geneselectmmd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneselectmmd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneselectmmd/meta.yaml>`_
 

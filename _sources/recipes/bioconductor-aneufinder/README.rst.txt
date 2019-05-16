@@ -11,7 +11,7 @@ bioconductor-aneufinder
 
    AneuFinder implements functions for copy\-number detection\, breakpoint detection\, and karyotype and heterogeneity analysis in single\-cell whole genome sequencing and strand\-seq data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/AneuFinder.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/AneuFinder.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-aneufinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aneufinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aneufinder/meta.yaml>`_
 

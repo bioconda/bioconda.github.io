@@ -9,9 +9,9 @@ bioconductor-biocgenerics
 .. conda:recipe:: bioconductor-biocgenerics
    :replaces_section_title:
 
-   S4 generic functions needed by many Bioconductor packages.
+   The package defines S4 generic functions used in Bioconductor.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BiocGenerics.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BiocGenerics.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biocgenerics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocgenerics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocgenerics/meta.yaml>`_
    :links: biotools: :biotools:`biocgenerics`

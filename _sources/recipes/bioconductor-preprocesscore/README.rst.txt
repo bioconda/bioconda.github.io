@@ -11,7 +11,7 @@ bioconductor-preprocesscore
 
    A library of core preprocessing routines.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/preprocessCore.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/preprocessCore.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-preprocesscore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-preprocesscore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-preprocesscore/meta.yaml>`_
    :links: biotools: :biotools:`preprocesscore`, doi: :doi:`10.1038/nmeth.3252`

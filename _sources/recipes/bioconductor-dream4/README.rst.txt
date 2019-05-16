@@ -11,7 +11,7 @@ bioconductor-dream4
 
    Simulated expression data for five 10\-node\, and five 100\-node networks\, with associated data \(including solutions\) from the 2009 DREAM4 challenge.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/DREAM4.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/DREAM4.html
    :license: GPL
    :recipe: /`bioconductor-dream4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dream4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dream4/meta.yaml>`_
 

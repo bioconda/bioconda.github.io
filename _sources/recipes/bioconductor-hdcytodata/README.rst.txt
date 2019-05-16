@@ -9,9 +9,9 @@ bioconductor-hdcytodata
 .. conda:recipe:: bioconductor-hdcytodata
    :replaces_section_title:
 
-   Data package containing a set of high\-dimensional cytometry datasets saved in SummarizedExperiment and flowSet Bioconductor object formats\, including row and column metadata describing samples\, cell populations \(clusters\)\, and protein markers.
+   Data package containing a collection of high\-dimensional cytometry benchmark datasets saved in SummarizedExperiment and flowSet Bioconductor object formats\, including row and column metadata describing samples\, cell populations \(clusters\)\, and protein markers.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/HDCytoData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/HDCytoData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-hdcytodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdcytodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdcytodata/meta.yaml>`_
 

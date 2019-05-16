@@ -11,7 +11,7 @@ bioconductor-genenetworkbuilder
 
    Appliation for discovering direct or indirect targets of transcription factors using ChIP\-chip or ChIP\-seq\, and microarray or RNA\-seq gene expression data. Inputting a list of genes of potential targets of one TF from ChIP\-chip or ChIP\-seq\, and the gene expression results\, GeneNetworkBuilder generates a regulatory network of the TF.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GeneNetworkBuilder.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GeneNetworkBuilder.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-genenetworkbuilder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genenetworkbuilder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genenetworkbuilder/meta.yaml>`_
 

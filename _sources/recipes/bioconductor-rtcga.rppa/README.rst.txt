@@ -11,7 +11,7 @@ bioconductor-rtcga.rppa
 
    Package provides RPPA datasets from The Cancer Genome Atlas Project for all available cohorts types from http\:\/\/gdac.broadinstitute.org\/. Data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/Protein\+Array \+Data\+Format\+Specification\?src\=search
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RTCGA.RPPA.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RTCGA.RPPA.html
    :license: GPL-2
    :recipe: /`bioconductor-rtcga.rppa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.rppa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.rppa/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-bsgenome.drerio.ucsc.danrer6
 
    Full genome sequences for Danio rerio \(Zebrafish\) as provided by UCSC \(danRer6\, Dec. 2008\) and stored in Biostrings objects.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Drerio.UCSC.danRer6.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Drerio.UCSC.danRer6.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.drerio.ucsc.danrer6 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.drerio.ucsc.danrer6>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.drerio.ucsc.danrer6/meta.yaml>`_
 

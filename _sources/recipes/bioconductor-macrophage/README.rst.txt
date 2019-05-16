@@ -1,0 +1,69 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'bioconductor-macrophage'
+.. highlight: bash
+
+bioconductor-macrophage
+=======================
+
+.. conda:recipe:: bioconductor-macrophage
+   :replaces_section_title:
+
+   This package provides the output of running Salmon on a set of 24 RNA\-seq samples from Alasoo\, et al. \"Shared genetic effects on chromatin and gene expression indicate a role for enhancer priming in immune response\"\, published in Nature Genetics\, January 2018. For details on version numbers and how the samples were processed see the package vignette.
+
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/macrophage.html
+   :license: GPL (>= 2)
+   :recipe: /`bioconductor-macrophage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macrophage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macrophage/meta.yaml>`_
+
+   
+
+
+.. conda:package:: bioconductor-macrophage
+
+   |downloads_bioconductor-macrophage| |docker_bioconductor-macrophage|
+
+   :versions: 1.0.0-0
+   
+   :depends curl: >=7.64.1,<8.0a0
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-macrophage
+
+   and update with::
+
+      conda update bioconductor-macrophage
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/bioconductor-macrophage:<tag>
+
+   (see `bioconductor-macrophage/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_bioconductor-macrophage| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-macrophage.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-macrophage
+   :alt:   (downloads)
+.. |docker_bioconductor-macrophage| image:: https://quay.io/repository/biocontainers/bioconductor-macrophage/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-macrophage
+.. _`bioconductor-macrophage/tags`: https://quay.io/repository/biocontainers/bioconductor-macrophage?tab=tags
+
+
+
+
+
+
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-macrophage/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-macrophage/README.html

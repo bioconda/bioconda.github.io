@@ -11,7 +11,7 @@ bioconductor-rtcga.pancan12
 
    Package provides clinical\, expression\, cnv and mutation data from Genome Cancer Browser.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RTCGA.PANCAN12.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RTCGA.PANCAN12.html
    :license: GPL-2
    :recipe: /`bioconductor-rtcga.pancan12 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.pancan12>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.pancan12/meta.yaml>`_
 

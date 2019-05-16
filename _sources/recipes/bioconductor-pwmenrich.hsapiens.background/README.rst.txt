@@ -11,7 +11,7 @@ bioconductor-pwmenrich.hsapiens.background
 
    PWMEnrich pre\-compiled background objects for H. sapiens \(human\) and MotifDb H. sapiens motifs.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/PWMEnrich.Hsapiens.background.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/PWMEnrich.Hsapiens.background.html
    :license: GPL-3
    :recipe: /`bioconductor-pwmenrich.hsapiens.background <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwmenrich.hsapiens.background>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwmenrich.hsapiens.background/meta.yaml>`_
 

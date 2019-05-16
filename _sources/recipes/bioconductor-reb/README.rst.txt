@@ -11,7 +11,7 @@ bioconductor-reb
 
    A set of functions to dentify regional expression biases
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/reb.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/reb.html
    :license: GPL-2
    :recipe: /`bioconductor-reb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reb/meta.yaml>`_
 

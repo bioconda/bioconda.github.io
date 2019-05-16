@@ -11,7 +11,7 @@ bioconductor-process
 
    A package for processing protein mass spectrometry data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/PROcess.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PROcess.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-process <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-process>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-process/meta.yaml>`_
    :links: biotools: :biotools:`process`, doi: :doi:`10.1038/nmeth.3252`

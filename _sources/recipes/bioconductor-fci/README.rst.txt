@@ -11,7 +11,7 @@ bioconductor-fci
 
    \(f\-divergence Cutoff Index\)\, is to find DEGs in the transcriptomic \& proteomic data\, and identify DEGs by computing the difference between the distribution of fold\-changes for the control\-control and remaining \(non\-differential\) case\-control gene expression ratio data. fCI provides several advantages compared to existing methods.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/fCI.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/fCI.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-fci <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fci>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fci/meta.yaml>`_
 
@@ -22,7 +22,7 @@ bioconductor-fci
 
    |downloads_bioconductor-fci| |docker_bioconductor-fci|
 
-   :versions: 1.12.0-0
+   :versions: 1.14.0-0, 1.12.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-fnn: 

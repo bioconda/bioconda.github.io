@@ -6,14 +6,14 @@
 ccat
 ====
 
-.. conda:recipe:: ccat/3.0
+.. conda:recipe:: ccat
    :replaces_section_title:
 
    CCAT is a software package for the analysis of ChIP\-seq data with negative control.
 
    :homepage: http://cmb.gis.a-star.edu.sg/ChIPSeq/paperCCAT.htm
-   :license: None
-   :recipe: /`ccat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ccat>`_/`3.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ccat/3.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ccat/3.0/meta.yaml>`_
+   :license: unknown
+   :recipe: /`ccat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ccat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ccat/meta.yaml>`_
    :links: biotools: :biotools:`CCAT`, doi: :doi:`10.1093/bioinformatics/btq128`
 
    

@@ -11,7 +11,7 @@ bioconductor-eir
 
    The eiR package provides utilities for accelerated structure similarity searching of very large small molecule data sets using an embedding and indexing approach.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/eiR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/eiR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-eir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eir/meta.yaml>`_
 

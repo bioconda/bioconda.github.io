@@ -11,7 +11,7 @@ bioconductor-ricecdf
 
    A package containing an environment representing the Rice.cdf file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/ricecdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/ricecdf.html
    :license: LGPL
    :recipe: /`bioconductor-ricecdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ricecdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ricecdf/meta.yaml>`_
 

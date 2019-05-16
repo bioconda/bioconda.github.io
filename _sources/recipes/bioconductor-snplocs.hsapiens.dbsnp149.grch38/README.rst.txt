@@ -11,7 +11,7 @@ bioconductor-snplocs.hsapiens.dbsnp149.grch38
 
    SNP locations and alleles for Homo sapiens extracted from NCBI dbSNP Build 149. The source data files used for this package were created by NCBI between November 8\-12\, 2016\, and contain SNPs mapped to reference genome GRCh38.p7 \(a patched version of GRCh38 that doesn\'t alter chromosomes 1\-22\, X\, Y\, MT\). Note that these SNPs can be \"injected\" in BSgenome.Hsapiens.NCBI.GRCh38 or in BSgenome.Hsapiens.UCSC.hg38.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/SNPlocs.Hsapiens.dbSNP149.GRCh38.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/SNPlocs.Hsapiens.dbSNP149.GRCh38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-snplocs.hsapiens.dbsnp149.grch38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snplocs.hsapiens.dbsnp149.grch38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snplocs.hsapiens.dbsnp149.grch38/meta.yaml>`_
 

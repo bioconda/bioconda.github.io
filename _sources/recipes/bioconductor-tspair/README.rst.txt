@@ -11,7 +11,7 @@ bioconductor-tspair
 
    These functions calculate the pair of genes that show the maximum difference in ranking between two user specified groups. This \"top scoring pair\" maximizes the average of sensitivity and specificity over all rank based classifiers using a pair of genes in the data set. The advantage of classifying samples based on only the relative rank of a pair of genes is \(a\) the classifiers are much simpler and often more interpretable than more complicated classification schemes and \(b\) if arrays can be classified using only a pair of genes\, PCR based tests could be used for classification of samples. See the references for the tspcalc\(\) function for references regarding TSP classifiers.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/tspair.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/tspair.html
    :license: GPL-2
    :recipe: /`bioconductor-tspair <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tspair>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tspair/meta.yaml>`_
    :links: biotools: :biotools:`tspair`, doi: :doi:`10.1093/bioinformatics/btp126`

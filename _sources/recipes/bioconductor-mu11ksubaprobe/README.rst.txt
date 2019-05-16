@@ -11,7 +11,7 @@ bioconductor-mu11ksubaprobe
 
    This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Mu11KsubA\\\_probe\\\_tab.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/mu11ksubaprobe.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mu11ksubaprobe.html
    :license: LGPL
    :recipe: /`bioconductor-mu11ksubaprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu11ksubaprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu11ksubaprobe/meta.yaml>`_
 

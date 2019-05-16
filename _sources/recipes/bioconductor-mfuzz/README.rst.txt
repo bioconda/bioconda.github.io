@@ -11,7 +11,7 @@ bioconductor-mfuzz
 
    Package for noise\-robust soft clustering of gene expression time\-series data \(including a graphical user interface\)
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Mfuzz.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Mfuzz.html
    :license: GPL-2
    :recipe: /`bioconductor-mfuzz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mfuzz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mfuzz/meta.yaml>`_
 

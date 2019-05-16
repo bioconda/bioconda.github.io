@@ -11,7 +11,7 @@ bioconductor-adsplit
 
    This package implements clustering of microarray gene expression profiles according to functional annotations. For each term genes are annotated to\, splits into two subclasses are computed and a significance of the supporting gene set is determined.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/adSplit.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/adSplit.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-adsplit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adsplit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adsplit/meta.yaml>`_
 

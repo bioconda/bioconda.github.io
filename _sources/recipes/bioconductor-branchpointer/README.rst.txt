@@ -11,7 +11,7 @@ bioconductor-branchpointer
 
    Predicts branchpoint probability for sites in intronic branchpoint windows. Queries can be supplied as intronic regions\; or to evaluate the effects of mutations\, SNPs.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/branchpointer.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/branchpointer.html
    :license: BSD_3_clause + file LICENSE
    :recipe: /`bioconductor-branchpointer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-branchpointer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-branchpointer/meta.yaml>`_
 

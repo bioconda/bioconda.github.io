@@ -11,7 +11,7 @@ bioconductor-redseq
 
    The package includes functions to build restriction enzyme cut site \(RECS\) map\, distribute mapped sequences on the map with five different approaches\, find enriched\/depleted RECSs for a sample\, and identify differentially enriched\/depleted RECSs between samples.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/REDseq.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/REDseq.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-redseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-redseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-redseq/meta.yaml>`_
 

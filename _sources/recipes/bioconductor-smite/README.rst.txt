@@ -11,7 +11,7 @@ bioconductor-smite
 
    This package builds on the Epimods framework which facilitates finding weighted subnetworks \(\"modules\"\) on Illumina Infinium 27k arrays using the SpinGlass algorithm\, as implemented in the iGraph package. We have created a class of gene centric annotations associated with p\-values and effect sizes and scores from any researchers prior statistical results to find functional modules.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SMITE.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SMITE.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-smite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-smite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-smite/meta.yaml>`_
    :links: biotools: :biotools:`smite`, doi: :doi:`10.1186/s12859-017-1477-3`

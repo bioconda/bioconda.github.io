@@ -11,7 +11,7 @@ bioconductor-plyranges
 
    A dplyr\-like interface for interacting with the common Bioconductor classes Ranges and GenomicRanges. By providing a grammatical and consistent way of manipulating these classes their accessiblity for new Bioconductor users is hopefully increased.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/plyranges.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/plyranges.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-plyranges <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plyranges>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plyranges/meta.yaml>`_
 

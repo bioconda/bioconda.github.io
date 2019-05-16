@@ -11,7 +11,7 @@ bioconductor-rcpi
 
    Rcpi offers a molecular informatics toolkit with a comprehensive integration of bioinformatics and chemoinformatics tools for drug discovery.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Rcpi.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Rcpi.html
    :license: Artistic-2.0 | file LICENSE
    :recipe: /`bioconductor-rcpi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcpi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcpi/meta.yaml>`_
 

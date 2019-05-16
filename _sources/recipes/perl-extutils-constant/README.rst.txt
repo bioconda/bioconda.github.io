@@ -6,14 +6,14 @@
 perl-extutils-constant
 ======================
 
-.. conda:recipe:: perl-extutils-constant/0.24
+.. conda:recipe:: perl-extutils-constant
    :replaces_section_title:
 
    generate XS code to import C header constants
 
    :homepage: http://metacpan.org/pod/ExtUtils::Constant
    :license: perl_5
-   :recipe: /`perl-extutils-constant <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-constant>`_/`0.24 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-constant/0.24>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-constant/0.24/meta.yaml>`_
+   :recipe: /`perl-extutils-constant <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-constant>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-constant/meta.yaml>`_
 
    
 
@@ -22,9 +22,10 @@ perl-extutils-constant
 
    |downloads_perl-extutils-constant| |docker_perl-extutils-constant|
 
-   :versions: 0.24-1, 0.24-0
+   :versions: 0.25-0, 0.24-1, 0.24-0
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -11,7 +11,7 @@ bioconductor-rtandem
 
    This package interfaces the tandem protein identification algorithm in R. Identification can be launched in the X\!Tandem style\, by using as sole parameter the path to a parameter file. But rTANDEM aslo provides extended syntax and functions to streamline launching analyses\, as well as function to convert results\, parameters and taxonomy to\/from R. A related package\, shinyTANDEM\, provides visualization interface for result objects.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/rTANDEM.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/rTANDEM.html
    :license: Artistic-1.0 | file LICENSE
    :recipe: /`bioconductor-rtandem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtandem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtandem/meta.yaml>`_
 

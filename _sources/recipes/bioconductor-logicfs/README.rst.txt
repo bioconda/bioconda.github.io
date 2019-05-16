@@ -11,7 +11,7 @@ bioconductor-logicfs
 
    Identification of interactions between binary variables using Logic Regression. Can\, e.g.\, be used to find interesting SNP interactions. Contains also a bagging version of logic regression for classification.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/logicFS.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/logicFS.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-logicfs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-logicfs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-logicfs/meta.yaml>`_
 

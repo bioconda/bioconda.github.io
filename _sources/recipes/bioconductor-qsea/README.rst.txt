@@ -11,7 +11,7 @@ bioconductor-qsea
 
    qsea \(quantitative sequencing enrichment analysis\) was developed as the successor of the MEDIPS package for analyzing data derived from methylated DNA immunoprecipitation \(MeDIP\) experiments followed by sequencing \(MeDIP\-seq\). However\, qsea provides several functionalities for the analysis of other kinds of quantitative sequencing data \(e.g. ChIP\-seq\, MBD\-seq\, CMS\-seq and others\) including calculation of differential enrichment between groups of samples.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/qsea.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/qsea.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-qsea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qsea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qsea/meta.yaml>`_
    :links: biotools: :biotools:`qsea`

@@ -11,7 +11,7 @@ bioconductor-htmg430acdf
 
    A package containing an environment representing the HT\_MG\-430A.cdf file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/htmg430acdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/htmg430acdf.html
    :license: LGPL
    :recipe: /`bioconductor-htmg430acdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htmg430acdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htmg430acdf/meta.yaml>`_
 

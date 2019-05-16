@@ -11,7 +11,7 @@ bioconductor-metacca
 
    metaCCA performs multivariate analysis of a single or multiple GWAS based on univariate regression coefficients. It allows multivariate representation of both phenotype and genotype. metaCCA extends the statistical technique of canonical correlation analysis to the setting where original individual\-level records are not available\, and employs a covariance shrinkage algorithm to achieve robustness.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/metaCCA.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/metaCCA.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-metacca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metacca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metacca/meta.yaml>`_
    :links: biotools: :biotools:`metacca`

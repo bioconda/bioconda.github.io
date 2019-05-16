@@ -11,7 +11,7 @@ bioconductor-gcrisprtools
 
    Set of tools for evaluating pooled high\-throughput screening experiments\, typically employing CRISPR\/Cas9 or shRNA expression cassettes. Contains methods for interrogating library and cassette behavior within an experiment\, identifying differentially abundant cassettes\, aggregating signals to identify candidate targets for empirical validation\, hypothesis testing\, and comprehensive reporting.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/gCrisprTools.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/gCrisprTools.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gcrisprtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcrisprtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcrisprtools/meta.yaml>`_
    :links: biotools: :biotools:`gcrisprtools`, doi: :doi:`10.1038/nmeth.3252`

@@ -11,7 +11,7 @@ bioconductor-rnaither
 
    RNAither analyzes cell\-based RNAi screens\, and includes quality assessment\, customizable normalization and statistical tests\, leading to lists of significant genes and biological processes.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RNAither.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RNAither.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rnaither <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaither>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaither/meta.yaml>`_
    :links: biotools: :biotools:`rnaither`, doi: :doi:`10.1093/bioinformatics/btp014`

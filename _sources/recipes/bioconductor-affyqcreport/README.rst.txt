@@ -11,7 +11,7 @@ bioconductor-affyqcreport
 
    This package creates a QC report for an AffyBatch object. The report is intended to allow the user to quickly assess the quality of a set of arrays in an AffyBatch object.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/affyQCReport.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/affyQCReport.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-affyqcreport <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyqcreport>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyqcreport/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-imman
 
    Reconstructing Interlog Protein Network \(IPN\) integrated from several Protein protein Interaction Networks \(PPINs\). Using this package\, overlaying different PPINs to mine conserved common networks between diverse species will be applicable.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/IMMAN.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/IMMAN.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-imman <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-imman>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-imman/meta.yaml>`_
 

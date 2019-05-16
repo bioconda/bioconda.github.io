@@ -11,7 +11,7 @@ bioconductor-cancerclass
 
    The classification protocol starts with a feature selection step and continues with nearest\-centroid classification. The accurarcy of the predictor can be evaluated using training and test set validation\, leave\-one\-out cross\-validation or in a multiple random validation protocol. Methods for calculation and visualization of continuous prediction scores allow to balance sensitivity and specificity and define a cutoff value according to clinical requirements.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/cancerclass.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/cancerclass.html
    :license: GPL 3
    :recipe: /`bioconductor-cancerclass <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancerclass>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancerclass/meta.yaml>`_
 

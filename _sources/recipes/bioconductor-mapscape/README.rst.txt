@@ -11,7 +11,7 @@ bioconductor-mapscape
 
    MapScape integrates clonal prevalence\, clonal hierarchy\, anatomic and mutational information to provide interactive visualization of spatial clonal evolution. There are four inputs to MapScape\: \(i\) the clonal phylogeny\, \(ii\) clonal prevalences\, \(iii\) an image reference\, which may be a medical image or drawing and \(iv\) pixel locations for each sample on the referenced image. Optionally\, MapScape can accept a data table of mutations for each clone and their variant allele frequencies in each sample. The output of MapScape consists of a cropped anatomical image surrounded by two representations of each tumour sample. The first\, a cellular aggregate\, visually displays the prevalence of each clone. The second shows a skeleton of the clonal phylogeny while highlighting only those clones present in the sample. Together\, these representations enable the analyst to visualize the distribution of clones throughout anatomic space.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/mapscape.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/mapscape.html
    :license: GPL-3
    :recipe: /`bioconductor-mapscape <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapscape>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapscape/meta.yaml>`_
 
@@ -22,7 +22,7 @@ bioconductor-mapscape
 
    |downloads_bioconductor-mapscape| |docker_bioconductor-mapscape|
 
-   :versions: 1.6.0-0
+   :versions: 1.8.0-0, 1.6.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-base64enc: >=0.1-3

@@ -11,7 +11,7 @@ bioconductor-rhvdm
 
    A R implementation of HVDM \(Genome Biol 2006\, V7\(3\) R25\)
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/rHVDM.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/rHVDM.html
    :license: GPL-2
    :recipe: /`bioconductor-rhvdm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhvdm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhvdm/meta.yaml>`_
 

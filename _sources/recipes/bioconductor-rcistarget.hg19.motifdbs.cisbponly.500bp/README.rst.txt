@@ -11,7 +11,7 @@ bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp
 
    RcisTarget databases\: Gene\-based motif rankings and annotation to transcription factors. This package contains a subset of 4.6k motifs \(cisbp motifs\)\, scored only within 500bp upstream and the TSS. See RcisTarget tutorial to download the full databases\, containing 20k motifs and search space up to 10kbp around the TSS.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RcisTarget.hg19.motifDBs.cisbpOnly.500bp.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RcisTarget.hg19.motifDBs.cisbpOnly.500bp.html
    :license: GPL-3
    :recipe: /`bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp/meta.yaml>`_
 

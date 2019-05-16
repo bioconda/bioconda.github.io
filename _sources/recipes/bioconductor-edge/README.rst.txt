@@ -11,7 +11,7 @@ bioconductor-edge
 
    The edge package implements methods for carrying out differential expression analyses of genome\-wide gene expression studies. Significance testing using the optimal discovery procedure and generalized likelihood ratio tests \(equivalent to F\-tests and t\-tests\) are implemented for general study designs. Special functions are available to facilitate the analysis of common study designs\, including time course experiments. Other packages such as snm\, sva\, and qvalue are integrated in edge to provide a wide range of tools for gene expression analysis.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/edge.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/edge.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-edge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edge/meta.yaml>`_
 

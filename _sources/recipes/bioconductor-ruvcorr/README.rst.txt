@@ -11,7 +11,7 @@ bioconductor-ruvcorr
 
    RUVcorr allows to apply global removal of unwanted variation \(ridged version of RUV\) to real and simulated gene expression data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RUVcorr.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RUVcorr.html
    :license: GPL-2
    :recipe: /`bioconductor-ruvcorr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ruvcorr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ruvcorr/meta.yaml>`_
 

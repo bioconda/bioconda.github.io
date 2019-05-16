@@ -11,7 +11,7 @@ bioconductor-geoquery
 
    The NCBI Gene Expression Omnibus \(GEO\) is a public repository of microarray data.  Given the rich and varied nature of this resource\, it is only natural to want to apply BioConductor tools to these data.  GEOquery is the bridge between GEO and BioConductor.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GEOquery.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GEOquery.html
    :license: GPL-2
    :recipe: /`bioconductor-geoquery <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geoquery>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geoquery/meta.yaml>`_
    :links: biotools: :biotools:`geoquery`

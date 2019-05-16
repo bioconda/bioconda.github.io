@@ -11,7 +11,7 @@ bioconductor-panther.db
 
    A set of annotation maps describing the entire Gene Ontology assembled using data from PANTHER.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/PANTHER.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/PANTHER.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-panther.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panther.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panther.db/meta.yaml>`_
 

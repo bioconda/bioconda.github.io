@@ -11,7 +11,7 @@ bioconductor-pathifier
 
    Pathifier is an algorithm that infers pathway deregulation scores for each tumor sample on the basis of expression data. This score is determined\, in a context\-specific manner\, for every particular dataset and type of cancer that is being investigated. The algorithm transforms gene\-level information into pathway\-level information\, generating a compact and biologically relevant representation of each sample.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/pathifier.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/pathifier.html
    :license: Artistic-1.0
    :recipe: /`bioconductor-pathifier <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathifier>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathifier/meta.yaml>`_
    :links: biotools: :biotools:`pathifier`, doi: :doi:`10.1073/pnas.1219651110`
@@ -23,7 +23,7 @@ bioconductor-pathifier
 
    |downloads_bioconductor-pathifier| |docker_bioconductor-pathifier|
 
-   :versions: 1.20.0-1, 1.20.0-0, 1.16.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.16.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-princurve: >=2.0.4

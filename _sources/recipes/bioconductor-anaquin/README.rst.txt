@@ -11,7 +11,7 @@ bioconductor-anaquin
 
    The project is intended to support the use of sequins \(synthetic sequencing spike\-in controls\) owned and made available by the Garvan Institute of Medical Research. The goal is to provide a standard open source library for quantitative analysis\, modelling and visualization of spike\-in controls.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Anaquin.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Anaquin.html
    :license: BSD_3_clause + file LICENSE
    :recipe: /`bioconductor-anaquin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anaquin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anaquin/meta.yaml>`_
 

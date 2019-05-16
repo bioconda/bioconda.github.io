@@ -11,7 +11,7 @@ bioconductor-cellnoptr
 
    This package does optimisation of boolean logic networks of signalling pathways based on a previous knowledge network and a set of data upon perturbation of the nodes in the network.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CellNOptR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CellNOptR.html
    :license: GPL-3
    :recipe: /`bioconductor-cellnoptr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellnoptr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellnoptr/meta.yaml>`_
    :links: biotools: :biotools:`cellnoptr`, doi: :doi:`10.1186/1752-0509-6-133`

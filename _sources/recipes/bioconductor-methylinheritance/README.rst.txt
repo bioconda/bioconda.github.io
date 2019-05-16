@@ -11,7 +11,7 @@ bioconductor-methylinheritance
 
    Permutation analysis\, based on Monte Carlo sampling\, for testing the hypothesis that the number of conserved differentially methylated elements\, between several generations\, is associated to an effect inherited from a treatment and that stochastic effect can be dismissed.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/methylInheritance.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/methylInheritance.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-methylinheritance <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylinheritance>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylinheritance/meta.yaml>`_
 

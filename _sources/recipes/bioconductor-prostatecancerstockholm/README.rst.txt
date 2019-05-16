@@ -11,7 +11,7 @@ bioconductor-prostatecancerstockholm
 
    A Bioconductor data package for the Stockholm dataset
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/prostateCancerStockholm.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/prostateCancerStockholm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-prostatecancerstockholm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prostatecancerstockholm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prostatecancerstockholm/meta.yaml>`_
 

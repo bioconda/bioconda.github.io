@@ -11,7 +11,7 @@ bioconductor-txdb.sscrofa.ucsc.susscr11.refgene
 
    Exposes an annotation databases generated from UCSC by exposing these as TxDb objects
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/TxDb.Sscrofa.UCSC.susScr11.refGene.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/TxDb.Sscrofa.UCSC.susScr11.refGene.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.sscrofa.ucsc.susscr11.refgene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.sscrofa.ucsc.susscr11.refgene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.sscrofa.ucsc.susscr11.refgene/meta.yaml>`_
 

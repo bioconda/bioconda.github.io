@@ -11,7 +11,7 @@ bioconductor-micrornaome
 
    This package provides a SummarizedExperiment object of read counts for microRNAs across tissues\, cell\-types\, and cancer cell\-lines. The read count matrix was prepared and provided by the author of the study\: Towards the human cellular microRNAome.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/microRNAome.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/microRNAome.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-micrornaome <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-micrornaome>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-micrornaome/meta.yaml>`_
 

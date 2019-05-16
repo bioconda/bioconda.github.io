@@ -11,7 +11,7 @@ bioconductor-hcg110cdf
 
    A package containing an environment representing the HC\_G110.cdf file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/hcg110cdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hcg110cdf.html
    :license: LGPL
    :recipe: /`bioconductor-hcg110cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hcg110cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hcg110cdf/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-biocsklearn
 
    This package provides interfaces to selected sklearn elements\, and demonstrates fault tolerant use of python modules requiring extensive iteration.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BiocSklearn.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BiocSklearn.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biocsklearn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocsklearn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocsklearn/meta.yaml>`_
 

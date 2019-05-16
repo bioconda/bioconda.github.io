@@ -11,7 +11,7 @@ bioconductor-metagxpancreas
 
    A collection of pancreatic Cancer transcriptomic datasets that are part of the MetaGxData package compendium.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/MetaGxPancreas.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/MetaGxPancreas.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-metagxpancreas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagxpancreas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagxpancreas/meta.yaml>`_
 

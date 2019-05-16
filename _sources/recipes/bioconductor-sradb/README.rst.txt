@@ -11,7 +11,7 @@ bioconductor-sradb
 
    The Sequence Read Archive \(SRA\) is the largest public repository of sequencing data from the next generation of sequencing platforms including Roche 454 GS System\, Illumina Genome Analyzer\, Applied Biosystems SOLiD System\, Helicos Heliscope\, and others. However\, finding data of interest can be challenging using current tools. SRAdb is an attempt to make access to the metadata associated with submission\, study\, sample\, experiment and run much more feasible. This is accomplished by parsing all the NCBI SRA metadata into a SQLite database that can be stored and queried locally. Fulltext search in the package make querying metadata very flexible and powerful.  fastq and sra files can be downloaded for doing alignment locally. Beside ftp protocol\, the SRAdb has funcitons supporting fastp protocol \(ascp from Aspera Connect\) for faster downloading large data files over long distance. The SQLite database is updated regularly as new data is added to SRA and can be downloaded at will for the most up\-to\-date metadata.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SRAdb.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SRAdb.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sradb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sradb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sradb/meta.yaml>`_
    :links: biotools: :biotools:`sradb`

@@ -11,7 +11,7 @@ bioconductor-affycomp
 
    The package contains functions that can be used to compare expression measures for Affymetrix Oligonucleotide Arrays.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/affycomp.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/affycomp.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-affycomp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affycomp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affycomp/meta.yaml>`_
    :links: biotools: :biotools:`affycomp`, doi: :doi:`10.1093/bioinformatics/btg410`

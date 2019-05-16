@@ -11,7 +11,7 @@ bioconductor-bsgenome.scerevisiae.ucsc.saccer1
 
    Saccharomyces cerevisiae \(Yeast\) full genome as provided by UCSC \(sacCer1\, Oct. 2003\) and stored in Biostrings objects.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Scerevisiae.UCSC.sacCer1.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Scerevisiae.UCSC.sacCer1.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.scerevisiae.ucsc.saccer1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.scerevisiae.ucsc.saccer1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.scerevisiae.ucsc.saccer1/meta.yaml>`_
 

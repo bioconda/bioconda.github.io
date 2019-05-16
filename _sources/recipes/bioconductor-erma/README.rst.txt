@@ -11,7 +11,7 @@ bioconductor-erma
 
    Software and data to support epigenomic road map adventures.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/erma.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/erma.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-erma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-erma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-erma/meta.yaml>`_
 

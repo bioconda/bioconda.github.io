@@ -11,7 +11,7 @@ bioconductor-methylpipe
 
    Memory efficient analysis of base resolution DNA methylation data in both the CpG and non\-CpG sequence context. Integration of DNA methylation data derived from any methodology providing base\- or low\-resolution data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/methylPipe.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/methylPipe.html
    :license: GPL(>=2)
    :recipe: /`bioconductor-methylpipe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylpipe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylpipe/meta.yaml>`_
    :links: biotools: :biotools:`methylpipe`

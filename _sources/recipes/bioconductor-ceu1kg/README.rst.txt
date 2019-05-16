@@ -11,7 +11,7 @@ bioconductor-ceu1kg
 
    CEU genotypes from 1000 genomes \"low coverage\" pilot phase I \(approx 8 million SNP calls released July 2010\)\; includes Wellcome trust GENEVAR expression for 43 indiv
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/ceu1kg.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ceu1kg.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ceu1kg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ceu1kg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ceu1kg/meta.yaml>`_
 

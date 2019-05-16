@@ -11,7 +11,7 @@ bioconductor-meal
 
    Package to integrate methylation and expression data. It can also perform methylation or expression analysis alone. Several plotting functionalities are included as well as a new region analysis based on redundancy analysis. Effect of SNPs on a region can also be estimated.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MEAL.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MEAL.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-meal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meal/meta.yaml>`_
 

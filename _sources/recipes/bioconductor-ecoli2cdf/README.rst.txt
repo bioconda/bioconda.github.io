@@ -11,7 +11,7 @@ bioconductor-ecoli2cdf
 
    A package containing an environment representing the E\_coli\_2.cdf file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/ecoli2cdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/ecoli2cdf.html
    :license: LGPL
    :recipe: /`bioconductor-ecoli2cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecoli2cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecoli2cdf/meta.yaml>`_
 

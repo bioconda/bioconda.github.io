@@ -11,7 +11,7 @@ bioconductor-arrayexpress
 
    Access the ArrayExpress Repository at EBI and build Bioconductor data structures\: ExpressionSet\, AffyBatch\, NChannelSet
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ArrayExpress.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ArrayExpress.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-arrayexpress <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrayexpress>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrayexpress/meta.yaml>`_
 

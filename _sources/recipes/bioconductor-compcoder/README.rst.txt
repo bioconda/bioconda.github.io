@@ -11,7 +11,7 @@ bioconductor-compcoder
 
    This package provides extensive functionality for comparing results obtained by different methods for differential expression analysis of RNAseq data. It also contains functions for simulating count data and interfaces to several packages for performing the differential expression analysis.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/compcodeR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/compcodeR.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-compcoder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compcoder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compcoder/meta.yaml>`_
 

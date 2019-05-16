@@ -11,7 +11,7 @@ bioconductor-mmdiffbamsubset
 
    Subset of BAM files\, including WT\_2.bam\, Null\_2.bam\, Resc\_2.bam\, Input.bam from the \"Cfp1\" experiment \(see Clouaire et al.\, Genes Dev. 2012\). Data is available under ArrayExpress accession numbers E\-ERAD\-79. Additionally\, corresponding subset of peaks called by MACS
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/MMDiffBamSubset.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/MMDiffBamSubset.html
    :license: LGPL
    :recipe: /`bioconductor-mmdiffbamsubset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mmdiffbamsubset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mmdiffbamsubset/meta.yaml>`_
 

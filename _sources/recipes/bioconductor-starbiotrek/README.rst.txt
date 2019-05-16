@@ -11,7 +11,7 @@ bioconductor-starbiotrek
 
    This tool StarBioTrek presents some methodologies to measure pathway activity and cross\-talk among pathways integrating also the information of network data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/StarBioTrek.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/StarBioTrek.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-starbiotrek <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-starbiotrek>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-starbiotrek/meta.yaml>`_
    :links: biotools: :biotools:`starbiotrek`, doi: :doi:`10.1186/s12918-015-0211-x`

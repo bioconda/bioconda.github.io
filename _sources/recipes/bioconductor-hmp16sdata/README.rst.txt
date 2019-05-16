@@ -11,7 +11,7 @@ bioconductor-hmp16sdata
 
    HMP16SData is a Bioconductor ExperimentData package of the Human Microbiome Project \(HMP\) 16S rRNA sequencing data for variable regions 1–3 and 3–5. Raw data files are provided in the package as downloaded from the HMP Data Analysis and Coordination Center. Processed data is provided as SummarizedExperiment class objects via ExperimentHub.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/HMP16SData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/HMP16SData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hmp16sdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hmp16sdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hmp16sdata/meta.yaml>`_
 

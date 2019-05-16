@@ -11,7 +11,7 @@ bioconductor-normalyzerde
 
    NormalyzerDE provides screening of normalization methods for LC\-MS based expression data. It calculates a range of normalized matrices using both existing approaches and a novel time\-segmented approach\, calculates performance measures and generates an evaluation report. Furthermore\, it provides an easy utility for Limma\- or ANOVA\- based differential expression analysis.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/NormalyzerDE.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/NormalyzerDE.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-normalyzerde <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-normalyzerde>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-normalyzerde/meta.yaml>`_
 

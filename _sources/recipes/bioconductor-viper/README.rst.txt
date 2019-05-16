@@ -11,7 +11,7 @@ bioconductor-viper
 
    Inference of protein activity from gene expression data\, including the VIPER and msVIPER algorithms
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/viper.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/viper.html
    :license: file LICENSE
    :recipe: /`bioconductor-viper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-viper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-viper/meta.yaml>`_
    :links: biotools: :biotools:`viper`

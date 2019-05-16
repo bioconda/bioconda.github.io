@@ -11,7 +11,7 @@ bioconductor-hu6800subdcdf
 
    A package containing an environment representing the Hu6800subD.CDF file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/hu6800subdcdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hu6800subdcdf.html
    :license: LGPL
    :recipe: /`bioconductor-hu6800subdcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu6800subdcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu6800subdcdf/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-splinetimer
 
    This package provides functions for differential gene expression analysis of gene expression time\-course data. Natural cubic spline regression models are used. Identified genes may further be used for pathway enrichment analysis and\/or the reconstruction of time dependent gene regulatory association networks.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/splineTimeR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/splineTimeR.html
    :license: GPL-3
    :recipe: /`bioconductor-splinetimer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splinetimer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splinetimer/meta.yaml>`_
    :links: biotools: :biotools:`splinetimer`, doi: :doi:`10.1371/journal.pone.0160791`

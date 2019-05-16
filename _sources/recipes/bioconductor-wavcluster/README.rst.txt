@@ -11,7 +11,7 @@ bioconductor-wavcluster
 
    The package provides an integrated pipeline for the analysis of PAR\-CLIP data. PAR\-CLIP\-induced transitions are first discriminated from sequencing errors\, SNPs and additional non\-experimental sources by a non\- parametric mixture model. The protein binding sites \(clusters\) are then resolved at high resolution and cluster statistics are estimated using a rigorous Bayesian framework. Post\-processing of the results\, data export for UCSC genome browser visualization and motif search analysis are provided. In addition\, the package allows to integrate RNA\-Seq data to estimate the False Discovery Rate of cluster detection. Key functions support parallel multicore computing. Note\: while wavClusteR was designed for PAR\-CLIP data analysis\, it can be applied to the analysis of other NGS data obtained from experimental procedures that induce nucleotide substitutions \(e.g. BisSeq\).
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/wavClusteR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/wavClusteR.html
    :license: GPL-2
    :recipe: /`bioconductor-wavcluster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wavcluster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wavcluster/meta.yaml>`_
    :links: biotools: :biotools:`wavcluster`

@@ -11,7 +11,7 @@ bioconductor-lumiratidmapping
 
    This package includes mappings information between different types of Illumina IDs of Illumina Rat chips and nuIDs. It also includes mappings of all nuIDs included in Illumina Rat chips to RefSeq IDs with mapping qualities information.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/lumiRatIDMapping.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/lumiRatIDMapping.html
    :license: The Artistic License, Version 2.0
    :recipe: /`bioconductor-lumiratidmapping <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumiratidmapping>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumiratidmapping/meta.yaml>`_
 

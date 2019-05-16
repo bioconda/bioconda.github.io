@@ -11,7 +11,7 @@ bioconductor-snpstats
 
    Classes and statistical methods for large SNP association studies. This extends the earlier snpMatrix package\, allowing for uncertainty in genotypes.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/snpStats.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/snpStats.html
    :license: GPL-3
    :recipe: /`bioconductor-snpstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snpstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snpstats/meta.yaml>`_
    :links: biotools: :biotools:`snpstats`, doi: :doi:`10.1038/nmeth.3252`

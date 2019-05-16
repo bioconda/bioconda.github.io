@@ -11,7 +11,7 @@ bioconductor-nugohs1a520180probe
 
    This package was automatically created by package AnnotationForge version 1.11.20. The probe sequence data was obtained from http\:\/\/www.affymetrix.com.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/nugohs1a520180probe.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/nugohs1a520180probe.html
    :license: LGPL
    :recipe: /`bioconductor-nugohs1a520180probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nugohs1a520180probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nugohs1a520180probe/meta.yaml>`_
 

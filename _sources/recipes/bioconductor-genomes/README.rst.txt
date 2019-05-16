@@ -11,7 +11,7 @@ bioconductor-genomes
 
    Download genome and assembly reports from NCBI
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/genomes.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/genomes.html
    :license: GPL-3
    :recipe: /`bioconductor-genomes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomes/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-dks
 
    The dks package consists of a set of diagnostic functions for multiple testing methods. The functions can be used to determine if the p\-values produced by a multiple testing procedure are correct. These functions are designed to be applied to simulated data. The functions require the entire set of p\-values from multiple simulated studies\, so that the joint distribution can be evaluated.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/dks.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/dks.html
    :license: GPL
    :recipe: /`bioconductor-dks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dks/meta.yaml>`_
 

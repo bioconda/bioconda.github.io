@@ -11,7 +11,7 @@ bioconductor-hilbertcurve
 
    Hilbert curve is a type of space\-filling curves that fold one dimensional axis into a two dimensional space\, but with still preserves the locality. This package aims to provide an easy and flexible way to visualize data through Hilbert curve.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/HilbertCurve.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/HilbertCurve.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-hilbertcurve <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hilbertcurve>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hilbertcurve/meta.yaml>`_
 

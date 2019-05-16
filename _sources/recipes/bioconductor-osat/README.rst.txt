@@ -11,7 +11,7 @@ bioconductor-osat
 
    A sizable genomics study such as microarray often involves the use of multiple batches \(groups\) of experiment due to practical complication. To minimize batch effects\, a careful experiment design should ensure the even distribution of biological groups and confounding factors across batches. OSAT \(Optimal Sample Assignment Tool\) is developed to facilitate the allocation of collected samples to different batches. With minimum steps\, it produces setup that optimizes the even distribution of samples in groups of biological interest into different batches\, reducing the confounding or correlation between batches and the biological variables of interest. It can also optimize the even distribution of confounding factors across batches. Our tool can handle challenging instances where incomplete and unbalanced sample collections are involved as well as ideal balanced RCBD. OSAT provides a number of predefined layout for some of the most commonly used genomics platform. Related paper can be find at http\:\/\/www.biomedcentral.com\/1471\-2164\/13\/689 .
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/OSAT.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/OSAT.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-osat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-osat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-osat/meta.yaml>`_
    :links: biotools: :biotools:`osat`, doi: :doi:`10.1186/1471-2164-13-689`

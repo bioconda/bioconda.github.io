@@ -11,7 +11,7 @@ bioconductor-msstatsqcgui
 
    MSstatsQCgui is a Shiny app which provides longitudinal system suitability monitoring and quality control tools for proteomic experiments.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MSstatsQCgui.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MSstatsQCgui.html
    :license: Artistic License 2.0
    :recipe: /`bioconductor-msstatsqcgui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatsqcgui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatsqcgui/meta.yaml>`_
 

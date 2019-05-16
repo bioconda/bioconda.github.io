@@ -11,7 +11,7 @@ bioconductor-logolas
 
    Produces logo plots highlighting both enrichment and depletion of characters\, allows for plotting of string symbols\, and performs scaling of position\-weights adaptively\, along with several fun stylizations.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Logolas.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Logolas.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-logolas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-logolas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-logolas/meta.yaml>`_
 

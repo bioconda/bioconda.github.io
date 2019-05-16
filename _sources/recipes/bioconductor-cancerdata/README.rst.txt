@@ -11,7 +11,7 @@ bioconductor-cancerdata
 
    Dataset for the R package cancerclass
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/cancerdata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/cancerdata.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-cancerdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancerdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancerdata/meta.yaml>`_
 

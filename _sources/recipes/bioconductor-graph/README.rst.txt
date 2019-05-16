@@ -11,7 +11,7 @@ bioconductor-graph
 
    A package that implements some simple graph handling capabilities.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/graph.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/graph.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-graph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graph/meta.yaml>`_
    :links: biotools: :biotools:`graph`, doi: :doi:`10.1038/nmeth.3252`

@@ -11,7 +11,7 @@ bioconductor-h5vcdata
 
    This package contains the data used in the vignettes and examples of the \'h5vc\' package
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/h5vcData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/h5vcData.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-h5vcdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-h5vcdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-h5vcdata/meta.yaml>`_
 

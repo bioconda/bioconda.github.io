@@ -11,7 +11,7 @@ bioconductor-nanostringdiff
 
    This Package utilizes a generalized linear model\(GLM\) of the negative binomial family to characterize count data and allows for multi\-factor design. NanoStrongDiff incorporate size factors\, calculated from positive controls and housekeeping controls\, and background level\, obtained from negative controls\, in the model framework so that all the normalization information provided by NanoString nCounter Analyzer is fully utilized.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/NanoStringDiff.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/NanoStringDiff.html
    :license: GPL
    :recipe: /`bioconductor-nanostringdiff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanostringdiff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanostringdiff/meta.yaml>`_
 

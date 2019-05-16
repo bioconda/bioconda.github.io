@@ -11,7 +11,7 @@ bioconductor-grenits
 
    The package offers four network inference statistical models using Dynamic Bayesian Networks and Gibbs Variable Selection\: a linear interaction model\, two linear interaction models with added experimental noise \(Gaussian and Student distributed\) for the case where replicates are available and a non\-linear interaction model.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GRENITS.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GRENITS.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-grenits <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grenits>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grenits/meta.yaml>`_
 

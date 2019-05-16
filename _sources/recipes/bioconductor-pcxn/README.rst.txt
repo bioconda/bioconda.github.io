@@ -11,7 +11,7 @@ bioconductor-pcxn
 
    Discover the correlated pathways\/gene sets of a single pathway\/gene set or discover correlation relationships among multiple pathways\/gene sets. Draw a heatmap or create a network of your query and extract members of each pathway\/gene set found in the available collections \(MSigDB H hallmark\, MSigDB C2 Canonical pathways\, MSigDB C5 GO BP and Pathprint\).
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/pcxn.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/pcxn.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-pcxn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcxn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcxn/meta.yaml>`_
 

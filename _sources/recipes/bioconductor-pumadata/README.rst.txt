@@ -11,7 +11,7 @@ bioconductor-pumadata
 
    This is a simple data package including various data sets derived from the estrogen data for use with the puma \(Propagating Uncertainty in Microarray Analysis\) package.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/pumadata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/pumadata.html
    :license: LGPL
    :recipe: /`bioconductor-pumadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pumadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pumadata/meta.yaml>`_
 

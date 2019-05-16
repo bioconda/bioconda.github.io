@@ -9,9 +9,9 @@ bioconductor-rsubread
 .. conda:recipe:: bioconductor-rsubread
    :replaces_section_title:
 
-   Rsubread is a toolbox developed for the analyses of second and third generation sequencing data. It can be used for read mapping\, read counting\, SNP calling\, structural variant detection and gene fusion discovery. It can be applied to all major sequencing techologies and is suitable for the analysis of both short and long reads.
+   Alignment\, quantification and analysis of second and third generation sequencing data. Includes functionality for read mapping\, read counting\, SNP calling\, structural variant detection and gene fusion discovery. Can be applied to all major sequencing techologies and to both short and long sequence reads.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Rsubread.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Rsubread.html
    :license: GPL-3
    :recipe: /`bioconductor-rsubread <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsubread>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsubread/meta.yaml>`_
    :links: biotools: :biotools:`rsubread`

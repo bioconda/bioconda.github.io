@@ -9,10 +9,10 @@ bioconductor-mapkl
 .. conda:recipe:: bioconductor-mapkl
    :replaces_section_title:
 
-   We proposie a hybrid FS method \(mAP\-KL\)\, which combines multiple hypothesis testing and affinity propagation \(AP\)\-clustering algorithm along with the Krzanowski \& Lai cluster quality index\, to select a small yet informative subset of genes.
+   We propose a hybrid FS method \(mAP\-KL\)\, which combines multiple hypothesis testing and affinity propagation \(AP\)\-clustering algorithm along with the Krzanowski \& Lai cluster quality index\, to select a small yet informative subset of genes.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/mAPKL.html
-   :license: GPL / GPL (>= 2)
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/mAPKL.html
+   :license: GPL (>= 2)
    :recipe: /`bioconductor-mapkl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapkl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapkl/meta.yaml>`_
 
    

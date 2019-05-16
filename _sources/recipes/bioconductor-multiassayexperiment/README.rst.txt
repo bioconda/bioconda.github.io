@@ -11,7 +11,7 @@ bioconductor-multiassayexperiment
 
    MultiAssayExperiment harmonizes data management of multiple assays performed on an overlapping set of specimens. It provides a familiar Bioconductor user experience by extending concepts from SummarizedExperiment\, supporting an open\-ended mix of standard data classes for individual assays\, and allowing subsetting by genomic ranges or rownames.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MultiAssayExperiment.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MultiAssayExperiment.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-multiassayexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiassayexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiassayexperiment/meta.yaml>`_
    :links: biotools: :biotools:`multiassayexperiment`, doi: :doi:`10.1101/144774`

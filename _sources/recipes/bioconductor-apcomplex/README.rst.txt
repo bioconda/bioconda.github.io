@@ -11,7 +11,7 @@ bioconductor-apcomplex
 
    Functions to estimate a bipartite graph of protein complex membership using AP\-MS data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/apComplex.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/apComplex.html
    :license: LGPL
    :recipe: /`bioconductor-apcomplex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-apcomplex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-apcomplex/meta.yaml>`_
    :links: biotools: :biotools:`apcomplex`, doi: :doi:`10.1093/bioinformatics/bti567`

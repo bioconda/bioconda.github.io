@@ -11,7 +11,7 @@ bioconductor-flowfit
 
    This package estimate the proliferation of a cell population in cell\-tracking dye studies. The package uses an R implementation of the Levenberg\-Marquardt algorithm \(minpack.lm\) to fit a set of peaks \(corresponding to different generations of cells\) over the proliferation\-tracking dye distribution in a FACS experiment.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/flowFit.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flowFit.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowfit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowfit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowfit/meta.yaml>`_
 

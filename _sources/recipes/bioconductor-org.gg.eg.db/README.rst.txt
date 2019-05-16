@@ -11,7 +11,7 @@ bioconductor-org.gg.eg.db
 
    Genome wide annotation for Chicken\, primarily based on mapping using Entrez Gene identifiers.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/org.Gg.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/org.Gg.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-org.gg.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.gg.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.gg.eg.db/meta.yaml>`_
 

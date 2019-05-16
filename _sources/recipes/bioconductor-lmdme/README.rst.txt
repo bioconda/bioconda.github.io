@@ -11,7 +11,7 @@ bioconductor-lmdme
 
    linear ANOVA decomposition of Multivariate Designed Experiments implementation based on limma lmFit. Features\: i\)Flexible formula type interface\, ii\) Fast limma based implementation\, iii\) p\-values for each estimated coefficient levels in each factor\, iv\) F values for factor effects and v\) plotting functions for PCA and PLS.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/lmdme.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/lmdme.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-lmdme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lmdme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lmdme/meta.yaml>`_
    :links: biotools: :biotools:`lmdme`

@@ -11,7 +11,7 @@ bioconductor-bsgenome.gaculeatus.ucsc.gasacu1
 
    Full genome sequences for Gasterosteus aculeatus \(Stickleback\) as provided by UCSC \(gasAcu1\, Feb. 2006\) and stored in Biostrings objects.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Gaculeatus.UCSC.gasAcu1.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Gaculeatus.UCSC.gasAcu1.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.gaculeatus.ucsc.gasacu1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.gaculeatus.ucsc.gasacu1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.gaculeatus.ucsc.gasacu1/meta.yaml>`_
 

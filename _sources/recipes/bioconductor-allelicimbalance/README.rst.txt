@@ -11,7 +11,7 @@ bioconductor-allelicimbalance
 
    Provides a framework for allelic specific expression investigation using RNA\-seq data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/AllelicImbalance.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/AllelicImbalance.html
    :license: GPL-3
    :recipe: /`bioconductor-allelicimbalance <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-allelicimbalance>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-allelicimbalance/meta.yaml>`_
 

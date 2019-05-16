@@ -11,7 +11,7 @@ bioconductor-codex
 
    A normalization and copy number variation calling procedure for whole exome DNA sequencing data. CODEX relies on the availability of multiple samples processed using the same sequencing pipeline for normalization\, and does not require matched controls. The normalization model in CODEX includes terms that specifically remove biases due to GC content\, exon length and targeting and amplification efficiency\, and latent systemic artifacts. CODEX also includes a Poisson likelihood\-based recursive segmentation procedure that explicitly models the count\-based exome sequencing data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CODEX.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CODEX.html
    :license: GPL-2
    :recipe: /`bioconductor-codex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-codex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-codex/meta.yaml>`_
    :links: biotools: :biotools:`codex`, doi: :doi:`10.1093/nar/gku1363`

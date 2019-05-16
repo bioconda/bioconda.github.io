@@ -11,7 +11,7 @@ bioconductor-arraymvout
 
    This package supports the application of diverse quality metrics to AffyBatch instances\, summarizing these metrics via PCA\, and then performing parametric outlier detection on the PCs to identify aberrant arrays with a fixed Type I error rate
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/arrayMvout.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/arrayMvout.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-arraymvout <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arraymvout>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arraymvout/meta.yaml>`_
 

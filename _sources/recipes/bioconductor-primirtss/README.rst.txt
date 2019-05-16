@@ -11,7 +11,7 @@ bioconductor-primirtss
 
    A fast\, convenient tool to identify the TSSs of miRNAs by integrating the data of H3K4me3 and Pol II as well as combining the conservation level and sequence feature\, provided within both command\-line and graphical interfaces\, which achieves a better performance than the previous non\-cell\-specific methods on miRNA TSSs.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/primirTSS.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/primirTSS.html
    :license: GPL-2
    :recipe: /`bioconductor-primirtss <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-primirtss>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-primirtss/meta.yaml>`_
 

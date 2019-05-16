@@ -11,7 +11,7 @@ bioconductor-hilbertvisgui
 
    An interactive tool to visualize long vectors of integer data by means of Hilbert curves
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/HilbertVisGUI.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/HilbertVisGUI.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-hilbertvisgui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hilbertvisgui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hilbertvisgui/meta.yaml>`_
 

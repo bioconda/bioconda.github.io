@@ -11,7 +11,7 @@ bioconductor-pkgdeptools
 
    This package provides tools for computing and analyzing dependency relationships among R packages.  It provides tools for building a graph\-based representation of the dependencies among all packages in a list of CRAN\-style package repositories.  There are also utilities for computing installation order of a given package.  If the RCurl package is available\, an estimate of the download size required to install a given package and its dependencies can be obtained.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/pkgDepTools.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/pkgDepTools.html
    :license: GPL-2
    :recipe: /`bioconductor-pkgdeptools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pkgdeptools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pkgdeptools/meta.yaml>`_
    :links: biotools: :biotools:`pkgdeptools`, doi: :doi:`10.1038/nmeth.3252`

@@ -11,7 +11,7 @@ bioconductor-pepxmltab
 
    Parsing pepXML files based one XML package. The package tries to handle pepXML files generated from different softwares. The output will be a peptide\-spectrum\-matching tabular file. The package also provide function to filter the PSMs based on FDR.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/pepXMLTab.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/pepXMLTab.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pepxmltab <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pepxmltab>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pepxmltab/meta.yaml>`_
    :links: biotools: :biotools:`pepxmltab`, doi: :doi:`10.1038/nmeth.3252`

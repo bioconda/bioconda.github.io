@@ -11,7 +11,7 @@ bioconductor-rnaseqpower
 
    RNA\-seq\, sample size
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RNASeqPower.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RNASeqPower.html
    :license: LGPL (>=2)
    :recipe: /`bioconductor-rnaseqpower <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqpower>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqpower/meta.yaml>`_
    :links: biotools: :biotools:`rnaseqpower`, doi: :doi:`10.1089/cmb.2012.0283`

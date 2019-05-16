@@ -11,7 +11,7 @@ bioconductor-eatonetalchipseq
 
    ChIP\-seq analysis subset from \"Conserved nucleosome positioning defines replication origins\" \(PMID 20351051\)
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/EatonEtAlChIPseq.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/EatonEtAlChIPseq.html
    :license: Artistic 2.0
    :recipe: /`bioconductor-eatonetalchipseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eatonetalchipseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eatonetalchipseq/meta.yaml>`_
 

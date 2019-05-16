@@ -11,7 +11,7 @@ bioconductor-fabiadata
 
    Supplying gene expression data sets for the demos of the biclustering method \"Factor Analysis for Bicluster Acquisition\" \(FABIA\). The following three data sets are provided\: A\) breast cancer \(van\'t Veer\, Nature\, 2002\)\, B\) multiple tissues \(Su\, PNAS\, 2002\)\, and C\) diffuse large\-B\-cell lymphoma \(Rosenwald\, N Engl J Med\, 2002\).
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/fabiaData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/fabiaData.html
    :license: LGPL (>= 2.1)
    :recipe: /`bioconductor-fabiadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fabiadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fabiadata/meta.yaml>`_
 

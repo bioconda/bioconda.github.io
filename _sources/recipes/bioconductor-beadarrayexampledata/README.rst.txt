@@ -11,7 +11,7 @@ bioconductor-beadarrayexampledata
 
    An small dataset that can be used to run examples from the beadarray vignette and examples
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/beadarrayExampleData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/beadarrayExampleData.html
    :license: GPL-2
    :recipe: /`bioconductor-beadarrayexampledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadarrayexampledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadarrayexampledata/meta.yaml>`_
 

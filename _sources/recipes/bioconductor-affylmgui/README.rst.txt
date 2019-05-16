@@ -11,7 +11,7 @@ bioconductor-affylmgui
 
    A Graphical User Interface \(GUI\) for analysis of Affymetrix microarray gene expression data using the affy and limma packages.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/affylmGUI.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/affylmGUI.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-affylmgui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affylmgui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affylmgui/meta.yaml>`_
 

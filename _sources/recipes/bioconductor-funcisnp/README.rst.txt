@@ -11,7 +11,7 @@ bioconductor-funcisnp
 
    FunciSNP integrates information from GWAS\, 1000genomes and chromatin feature to identify functional SNP in coding or non\-coding regions.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/FunciSNP.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/FunciSNP.html
    :license: GPL-3
    :recipe: /`bioconductor-funcisnp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-funcisnp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-funcisnp/meta.yaml>`_
 

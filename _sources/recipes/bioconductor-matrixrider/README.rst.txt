@@ -11,7 +11,7 @@ bioconductor-matrixrider
 
    Calculates a single number for a whole sequence that reflects the propensity of a DNA binding protein to interact with it. The DNA binding protein has to be described with a PFM matrix\, for example gotten from Jaspar.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MatrixRider.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MatrixRider.html
    :license: GPL-3
    :recipe: /`bioconductor-matrixrider <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matrixrider>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matrixrider/meta.yaml>`_
 

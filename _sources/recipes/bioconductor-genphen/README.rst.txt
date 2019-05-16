@@ -9,9 +9,9 @@ bioconductor-genphen
 .. conda:recipe:: bioconductor-genphen
    :replaces_section_title:
 
-   Genetic association studies are an essential tool for studying the relationship between genotypes and phenotypes. With genphen we can quantify the association between genotypes and phenotypes using a hybrid method which uses statistical learning techniques such as random forest and support vector machines\, and Bayesian inference using hierarchical models.
+   Genetic association studies are an essential tool for studying the relationship between genotypes and phenotypes. With genphen we can jointly study multiple phenotypes of different types\, by quantifying the association between different genotypes and each phenotype using a hybrid method which uses statistical learning techniques such as random forest and support vector machines\, and Bayesian inference using hierarchical models.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/genphen.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/genphen.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-genphen <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genphen>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genphen/meta.yaml>`_
 

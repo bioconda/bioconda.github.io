@@ -11,7 +11,7 @@ bioconductor-duoclustering2018
 
    Preprocessed experimental and simulated scRNA\-seq data sets used for evaluation of clustering methods for scRNA\-seq data in Duò et al \(2018\). Also contains results from applying several clustering methods to each of the data sets\, and functions for plotting method performance.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/DuoClustering2018.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/DuoClustering2018.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-duoclustering2018 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-duoclustering2018>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-duoclustering2018/meta.yaml>`_
 

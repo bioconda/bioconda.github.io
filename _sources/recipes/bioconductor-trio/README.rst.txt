@@ -11,7 +11,7 @@ bioconductor-trio
 
    Testing SNPs and SNP interactions with a genotypic TDT. This package furthermore contains functions for computing pairwise values of LD measures and for identifying LD blocks\, as well as functions for setting up matched case pseudo\-control genotype data for case\-parent trios in order to run trio logic regression\, for imputing missing genotypes in trios\, for simulating case\-parent trios with disease risk dependent on SNP interaction\, and for power and sample size calculation in trio data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/trio.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/trio.html
    :license: LGPL-2
    :recipe: /`bioconductor-trio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trio/meta.yaml>`_
    :links: biotools: :biotools:`trio`, doi: :doi:`10.1038/nmeth.3252`

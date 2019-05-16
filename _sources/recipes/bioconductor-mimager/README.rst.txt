@@ -11,7 +11,7 @@ bioconductor-mimager
 
    Easily visualize and inspect microarrays for spatial artifacts.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/mimager.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/mimager.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-mimager <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mimager>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mimager/meta.yaml>`_
 

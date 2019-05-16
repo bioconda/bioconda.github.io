@@ -11,7 +11,7 @@ bioconductor-pd.aragene.1.0.st
 
    Platform Design Info for Affymetrix AraGene\-1\_0\-st
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/pd.aragene.1.0.st.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.aragene.1.0.st.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.aragene.1.0.st <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.aragene.1.0.st>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.aragene.1.0.st/meta.yaml>`_
 

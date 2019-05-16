@@ -11,7 +11,7 @@ bioconductor-scoreinvhap
 
    scoreInvHap can get the samples\' inversion status of known inversions. scoreInvHap uses SNP data as input and requires the following information about the inversion\: genotype frequencies in the different haplotypes\, R2 between the region SNPs and inversion status and heterozygote genotypes in the reference. The package include this data for two well known inversions \(8p23 and 17q21.31\) and for two additional regions.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/scoreInvHap.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/scoreInvHap.html
    :license: file LICENSE
    :recipe: /`bioconductor-scoreinvhap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scoreinvhap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scoreinvhap/meta.yaml>`_
 

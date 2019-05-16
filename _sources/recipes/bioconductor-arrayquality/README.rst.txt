@@ -11,7 +11,7 @@ bioconductor-arrayquality
 
    Functions for performing print\-run and array level quality assessment.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/arrayQuality.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/arrayQuality.html
    :license: LGPL
    :recipe: /`bioconductor-arrayquality <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrayquality>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrayquality/meta.yaml>`_
    :links: biotools: :biotools:`arrayquality`, doi: :doi:`10.1093/bioinformatics/btn647`

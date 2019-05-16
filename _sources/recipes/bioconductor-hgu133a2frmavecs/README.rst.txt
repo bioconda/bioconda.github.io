@@ -11,7 +11,7 @@ bioconductor-hgu133a2frmavecs
 
    This package was created by frmaTools version 1.19.3 and hgu133ahsentrezgcdf version 19.0.0.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/hgu133a2frmavecs.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hgu133a2frmavecs.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-hgu133a2frmavecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133a2frmavecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133a2frmavecs/meta.yaml>`_
 

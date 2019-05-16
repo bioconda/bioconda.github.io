@@ -11,7 +11,7 @@ bioconductor-nugohs1a520180cdf
 
    A package containing an environment representing the NuGO\_Hs1a520180.cdf file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/nugohs1a520180cdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/nugohs1a520180cdf.html
    :license: LGPL
    :recipe: /`bioconductor-nugohs1a520180cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nugohs1a520180cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nugohs1a520180cdf/meta.yaml>`_
 

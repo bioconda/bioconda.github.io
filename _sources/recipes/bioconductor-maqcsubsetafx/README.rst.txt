@@ -11,7 +11,7 @@ bioconductor-maqcsubsetafx
 
    MAQC data subset for the Affymetrix platform
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/MAQCsubsetAFX.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/MAQCsubsetAFX.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-maqcsubsetafx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maqcsubsetafx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maqcsubsetafx/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-ddct
 
    The Delta\-Delta\-Ct \(ddCt\) Algorithm is an approximation method to determine relative gene expression with quantitative real\-time PCR \(qRT\-PCR\) experiments. Compared to other approaches\, it requires no standard curve for each primer\-target pair\, therefore reducing the working load and yet returning accurate enough results as long as the assumptions of the amplification efficiency hold. The ddCt package implements a pipeline to collect\, analyse and visualize qRT\-PCR results\, for example those from TaqMan SDM software\, mainly using the ddCt method. The pipeline can be either invoked by a script in command\-line or through the API consisting of S4\-Classes\, methods and functions.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ddCt.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ddCt.html
    :license: LGPL-3
    :recipe: /`bioconductor-ddct <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ddct>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ddct/meta.yaml>`_
    :links: biotools: :biotools:`ddct`, doi: :doi:`10.1038/nmeth.3252`

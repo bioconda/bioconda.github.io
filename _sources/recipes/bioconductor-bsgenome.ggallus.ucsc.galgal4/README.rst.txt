@@ -11,7 +11,7 @@ bioconductor-bsgenome.ggallus.ucsc.galgal4
 
    Full genome sequences for Gallus gallus \(Chicken\) as provided by UCSC \(galGal4\, Nov. 2011\) and stored in Biostrings objects.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Ggallus.UCSC.galGal4.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Ggallus.UCSC.galGal4.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.ggallus.ucsc.galgal4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.ggallus.ucsc.galgal4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.ggallus.ucsc.galgal4/meta.yaml>`_
 

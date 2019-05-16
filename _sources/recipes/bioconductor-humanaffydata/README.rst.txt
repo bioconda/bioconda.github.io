@@ -11,7 +11,7 @@ bioconductor-humanaffydata
 
    Re\-analysis of human gene expression data generated on the Affymetrix HG U133PlusV2 \(EH176\) and Affymetrix HG U133A \(EH177\) platforms. The original data were normalized using robust multiarray averaging \(RMA\) to obtain an integrated gene expression atlas across diverse biological sample types and conditions. The entire compendia comprisee 9395 arrays for EH176 and 5372 arrays for EH177.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/HumanAffyData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/HumanAffyData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-humanaffydata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humanaffydata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humanaffydata/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-widgettools
 
    This packages contains tools to support the construction of tcltk widgets
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/widgetTools.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/widgetTools.html
    :license: LGPL
    :recipe: /`bioconductor-widgettools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-widgettools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-widgettools/meta.yaml>`_
 

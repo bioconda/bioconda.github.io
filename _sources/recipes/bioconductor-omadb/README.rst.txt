@@ -11,8 +11,8 @@ bioconductor-omadb
 
    A package for the orthology prediction data download from OMA database.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/OmaDB.html
-   :license: GPL-2
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/OmaDB.html
+   :license: GPL-3
    :recipe: /`bioconductor-omadb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omadb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omadb/meta.yaml>`_
 
    

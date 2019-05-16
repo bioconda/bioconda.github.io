@@ -11,7 +11,7 @@ bioconductor-genominator
 
    Tools for storing\, accessing\, analyzing and visualizing genomic data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Genominator.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Genominator.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genominator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genominator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genominator/meta.yaml>`_
    :links: biotools: :biotools:`genominator`, doi: :doi:`10.1038/nmeth.3252`

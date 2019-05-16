@@ -11,7 +11,7 @@ bioconductor-cellhts2
 
    This package provides tools for the analysis of high\-throughput assays that were performed in microtitre plate formats \(including but not limited to 384\-well plates\). The functionality includes data import and management\, normalisation\, quality assessment\, replicate summarisation and statistical scoring. A webpage that provides a detailed graphical overview over the data and analysis results is produced. In our work\, we have applied the package to RNAi screens on fly and human cells\, and for screens of yeast libraries. See \?cellHTS2 for a brief introduction.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/cellHTS2.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/cellHTS2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cellhts2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellhts2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellhts2/meta.yaml>`_
    :links: biotools: :biotools:`cellhts2`

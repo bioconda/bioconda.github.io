@@ -11,7 +11,7 @@ bioconductor-msd16s
 
    Gut 16S sequencing expression data from 992 healthy and moderate\-to\-severe diarrhetic samples used in \'Diarrhea in young children from low\-income countries leads to large\-scale alterations in intestinal microbiota composition\'.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/msd16s.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/msd16s.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msd16s <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msd16s>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msd16s/meta.yaml>`_
 

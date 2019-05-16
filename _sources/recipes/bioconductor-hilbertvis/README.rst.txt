@@ -11,7 +11,7 @@ bioconductor-hilbertvis
 
    Functions to visualize long vectors of integer data by means of Hilbert curves
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/HilbertVis.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/HilbertVis.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-hilbertvis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hilbertvis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hilbertvis/meta.yaml>`_
    :links: biotools: :biotools:`hilbertvis`, doi: :doi:`10.1093/bioinformatics/btp152`

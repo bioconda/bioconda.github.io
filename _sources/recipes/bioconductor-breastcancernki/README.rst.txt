@@ -11,7 +11,7 @@ bioconductor-breastcancernki
 
    Genexpression data from a breast cancer study published by van\'t Veer et al. in 2002 and van de Vijver et al. in 2002\, provided as an eSet.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/breastCancerNKI.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/breastCancerNKI.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-breastcancernki <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancernki>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancernki/meta.yaml>`_
 

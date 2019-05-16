@@ -11,7 +11,7 @@ bioconductor-countclust
 
    Fits grade of membership models \(GoM\, also known as admixture models\) to cluster RNA\-seq gene expression count data\, identifies characteristic genes driving cluster memberships\, and provides a visual summary of the cluster memberships.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CountClust.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CountClust.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-countclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-countclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-countclust/meta.yaml>`_
 

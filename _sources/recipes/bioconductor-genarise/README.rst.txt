@@ -11,7 +11,7 @@ bioconductor-genarise
 
    genArise is an easy to use tool for dual color microarray data. Its GUI\-Tk based environment let any non\-experienced user performs a basic\, but not simple\, data analysis just following a wizard. In addition it provides some tools for the developer.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/genArise.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/genArise.html
    :license: file LICENSE
    :recipe: /`bioconductor-genarise <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genarise>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genarise/meta.yaml>`_
 

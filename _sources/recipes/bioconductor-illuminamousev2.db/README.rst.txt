@@ -11,7 +11,7 @@ bioconductor-illuminamousev2.db
 
    Illumina MouseWG6v2 annotation data \(chip illuminaMousev2\) assembled using data from public repositories
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/illuminaMousev2.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/illuminaMousev2.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-illuminamousev2.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminamousev2.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminamousev2.db/meta.yaml>`_
 

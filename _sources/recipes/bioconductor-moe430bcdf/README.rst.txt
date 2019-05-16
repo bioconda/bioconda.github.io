@@ -11,7 +11,7 @@ bioconductor-moe430bcdf
 
    A package containing an environment representing the MOE430B.CDF file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/moe430bcdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/moe430bcdf.html
    :license: LGPL
    :recipe: /`bioconductor-moe430bcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moe430bcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moe430bcdf/meta.yaml>`_
 

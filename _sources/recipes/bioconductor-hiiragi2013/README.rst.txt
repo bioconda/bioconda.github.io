@@ -11,7 +11,7 @@ bioconductor-hiiragi2013
 
    This package contains the experimental data and a complete executable transcript \(vignette\) of the statistical analysis presented in the paper \"Cell\-to\-cell expression variability followed by signal reinforcement progressively segregates early mouse lineages\" by Y. Ohnishi\, W. Huber\, A. Tsumura\, M. Kang\, P. Xenopoulos\, K. Kurimoto\, A. K. Oles\, M. J. Arauzo\-Bravo\, M. Saitou\, A.\-K. Hadjantonakis and T. Hiiragi\; Nature Cell Biology \(2014\) 16\(1\)\: 27\-37. doi\: 10.1038\/ncb2881.\"
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/Hiiragi2013.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/Hiiragi2013.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hiiragi2013 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hiiragi2013>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hiiragi2013/meta.yaml>`_
 

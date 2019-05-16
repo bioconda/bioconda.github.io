@@ -11,7 +11,7 @@ bioconductor-opossom
 
    This package translates microarray expression data into metadata of reduced dimension. It provides various sample\-centered and group\-centered visualizations\, sample similarity analyses and functional enrichment analyses. The underlying SOM algorithm combines feature clustering\, multidimensional scaling and dimension reduction\, along with strong visualization capabilities. It enables extraction and description of functional expression modules inherent in the data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/oposSOM.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/oposSOM.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-opossom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-opossom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-opossom/meta.yaml>`_
 

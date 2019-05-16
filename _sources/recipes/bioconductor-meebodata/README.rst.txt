@@ -11,7 +11,7 @@ bioconductor-meebodata
 
    R objects describing the MEEBO set.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/MEEBOdata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/MEEBOdata.html
    :license: LGPL
    :recipe: /`bioconductor-meebodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meebodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meebodata/meta.yaml>`_
 

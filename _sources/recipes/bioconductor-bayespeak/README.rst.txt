@@ -11,7 +11,7 @@ bioconductor-bayespeak
 
    This package is an implementation of the BayesPeak algorithm for peak\-calling in ChIP\-seq data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BayesPeak.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BayesPeak.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-bayespeak <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bayespeak>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bayespeak/meta.yaml>`_
    :links: biotools: :biotools:`bayespeak`

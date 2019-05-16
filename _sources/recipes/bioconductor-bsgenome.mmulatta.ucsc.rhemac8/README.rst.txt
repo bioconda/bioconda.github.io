@@ -11,7 +11,7 @@ bioconductor-bsgenome.mmulatta.ucsc.rhemac8
 
    Full genome sequences for Macaca mulatta \(Rhesus\) as provided by UCSC \(rheMac8\, Nov. 2015\) and stored in Biostrings objects.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Mmulatta.UCSC.rheMac8.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Mmulatta.UCSC.rheMac8.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.mmulatta.ucsc.rhemac8 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmulatta.ucsc.rhemac8>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmulatta.ucsc.rhemac8/meta.yaml>`_
 

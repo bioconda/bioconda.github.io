@@ -11,7 +11,7 @@ bioconductor-clstutils
 
    Tools for performing taxonomic assignment based on phylogeny using pplacer and clst.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/clstutils.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/clstutils.html
    :license: GPL-3
    :recipe: /`bioconductor-clstutils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clstutils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clstutils/meta.yaml>`_
    :links: biotools: :biotools:`clstutils`, doi: :doi:`10.1038/nmeth.3252`

@@ -11,7 +11,7 @@ bioconductor-motifrg
 
    Tools for discriminative motif discovery using regression methods
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/motifRG.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/motifRG.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-motifrg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifrg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifrg/meta.yaml>`_
    :links: biotools: :biotools:`motifrg`, doi: :doi:`10.1093/bioinformatics/btt615`

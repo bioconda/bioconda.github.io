@@ -11,7 +11,7 @@ bioconductor-mogene10stv1cdf
 
    A package containing an environment representing the MoGene\-1\_0\-st\-v1.cdf file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/mogene10stv1cdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mogene10stv1cdf.html
    :license: LGPL
    :recipe: /`bioconductor-mogene10stv1cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogene10stv1cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogene10stv1cdf/meta.yaml>`_
 

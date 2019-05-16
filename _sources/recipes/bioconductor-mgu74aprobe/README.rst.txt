@@ -11,7 +11,7 @@ bioconductor-mgu74aprobe
 
    This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was MG\-U74A\\\_probe\\\_tab.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/mgu74aprobe.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mgu74aprobe.html
    :license: LGPL
    :recipe: /`bioconductor-mgu74aprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgu74aprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgu74aprobe/meta.yaml>`_
 

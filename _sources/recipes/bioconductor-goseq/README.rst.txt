@@ -11,7 +11,7 @@ bioconductor-goseq
 
    Detects Gene Ontology and\/or other user defined categories which are over\/under represented in RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/goseq.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/goseq.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-goseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-goseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-goseq/meta.yaml>`_
    :links: biotools: :biotools:`goseq`

@@ -9,9 +9,9 @@ bioconductor-inspect
 .. conda:recipe:: bioconductor-inspect
    :replaces_section_title:
 
-   INSPEcT \(INference of Synthesis\, Processing and dEgradation rates in Time\-Course experiments\) analyses 4sU\-seq and RNA\-seq time\-course data in order to evaluate synthesis\, processing and degradation rates and asses via modeling the rates that determines changes in mature mRNA levels.
+   INSPEcT \(INference of Synthesis\, Processing and dEgradation rates from Transcriptomic data\) RNA\-seq data in time\-course experiments or different conditions\, with or without the support of nascent RNA data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/INSPEcT.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/INSPEcT.html
    :license: GPL-2
    :recipe: /`bioconductor-inspect <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-inspect>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-inspect/meta.yaml>`_
    :links: biotools: :biotools:`inspect`

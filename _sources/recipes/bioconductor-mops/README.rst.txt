@@ -11,7 +11,7 @@ bioconductor-mops
 
    Identification and characterization of periodic fluctuations in time\-series data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MoPS.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MoPS.html
    :license: GPL-3
    :recipe: /`bioconductor-mops <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mops>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mops/meta.yaml>`_
    :links: biotools: :biotools:`mops`, doi: :doi:`10.1002/msb.134886`

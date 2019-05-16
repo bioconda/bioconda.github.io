@@ -11,7 +11,7 @@ bioconductor-dupchecker
 
    Meta\-analysis has become a popular approach for high\-throughput genomic data analysis because it often can significantly increase power to detect biological signals or patterns in datasets. However\, when using public\-available databases for meta\-analysis\, duplication of samples is an often encountered problem\, especially for gene expression data. Not removing duplicates would make study results questionable. We developed a Bioconductor package DupChecker that efficiently identifies duplicated samples by generating MD5 fingerprints for raw data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DupChecker.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DupChecker.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-dupchecker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dupchecker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dupchecker/meta.yaml>`_
    :links: biotools: :biotools:`dupchecker`

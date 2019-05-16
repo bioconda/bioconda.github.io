@@ -11,7 +11,7 @@ bioconductor-progeny
 
    This package provides a function to infer pathway activity from gene expression using PROGENy. It contains the linear model we inferred in the publication \"Perturbation\-response genes reveal signaling footprints in cancer gene expression\".
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/progeny.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/progeny.html
    :license: Apache License (== 2.0) | file LICENSE
    :recipe: /`bioconductor-progeny <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-progeny>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-progeny/meta.yaml>`_
 

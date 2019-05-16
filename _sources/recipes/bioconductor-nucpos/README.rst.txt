@@ -11,7 +11,7 @@ bioconductor-nucpos
 
    nuCpos\, a derivative of NuPoP\, is an R package for prediction of nucleosome positions. In nuCpos\, a duration hidden Markov model is trained with a chemical map of nucleosomes either from budding yeast\, fission yeast\, or mouse embryonic stem cells. nuCpos outputs the Viterbi \(most probable\) path of nucleosome\-linker states\, predicted nucleosome occupancy scores and histone binding affinity \(HBA\) scores as NuPoP does. nuCpos can also calculate local and whole nucleosomal HBA scores for a given 147\-bp sequence. Furthermore\, effect of genetic alterations on nucleosome occupancy can be predicted with this package. The parental package NuPoP\, which is based on an MNase\-seq\-based map of budding yeast nucleosomes\, was developed by Ji\-Ping Wang and Liqun Xi\, licensed under GPL\-2.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/nuCpos.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/nuCpos.html
    :license: GPL-2
    :recipe: /`bioconductor-nucpos <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nucpos>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nucpos/meta.yaml>`_
 

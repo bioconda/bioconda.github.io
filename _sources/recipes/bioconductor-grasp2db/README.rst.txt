@@ -11,7 +11,7 @@ bioconductor-grasp2db
 
    grasp2db\, sqlite wrap of NHLBI GRASP 2.0\, an extended GWAS catalog.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/grasp2db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/grasp2db.html
    :license: Artistic-2.0 + file LICENSE
    :recipe: /`bioconductor-grasp2db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grasp2db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grasp2db/meta.yaml>`_
 

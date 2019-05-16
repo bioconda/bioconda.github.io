@@ -11,7 +11,7 @@ bioconductor-opweight
 
    This package perform weighted\-pvalue based multiple hypothesis test and provides corresponding information such as ranking probability\, weight\, significant tests\, etc . To conduct this testing procedure\, the testing method apply a probabilistic relationship between the test rank and the corresponding test effect size.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/OPWeight.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/OPWeight.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-opweight <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-opweight>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-opweight/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-bioccasestudies
 
    Software and data to support the case studies.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BiocCaseStudies.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BiocCaseStudies.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bioccasestudies <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioccasestudies>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioccasestudies/meta.yaml>`_
 

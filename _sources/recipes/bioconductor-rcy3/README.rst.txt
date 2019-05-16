@@ -11,7 +11,7 @@ bioconductor-rcy3
 
    Vizualize\, analyze and explore networks using Cytoscape via R.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RCy3.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RCy3.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-rcy3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcy3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcy3/meta.yaml>`_
 

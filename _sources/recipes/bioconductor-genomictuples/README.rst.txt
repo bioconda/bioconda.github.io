@@ -11,7 +11,7 @@ bioconductor-genomictuples
 
    GenomicTuples defines general purpose containers for storing genomic tuples. It aims to provide functionality for tuples of genomic co\-ordinates that are analogous to those available for genomic ranges in the GenomicRanges Bioconductor package.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GenomicTuples.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GenomicTuples.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomictuples <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomictuples>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomictuples/meta.yaml>`_
    :links: biotools: :biotools:`genomictuples`, doi: :doi:`10.21105/joss.00020`

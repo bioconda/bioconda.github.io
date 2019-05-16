@@ -11,7 +11,7 @@ bioconductor-sizepower
 
    This package has been prepared to assist users in computing either a sample size or power value for a microarray experimental study. The user is referred to the cited references for technical background on the methodology underpinning these calculations. This package provides support for five types of sample size and power calculations. These five types can be adapted in various ways to encompass many of the standard designs encountered in practice.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/sizepower.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/sizepower.html
    :license: LGPL
    :recipe: /`bioconductor-sizepower <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sizepower>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sizepower/meta.yaml>`_
    :links: biotools: :biotools:`sizepower`, doi: :doi:`10.1038/nmeth.3252`

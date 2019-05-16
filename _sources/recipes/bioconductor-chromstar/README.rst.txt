@@ -11,7 +11,7 @@ bioconductor-chromstar
 
    This package implements functions for combinatorial and differential analysis of ChIP\-seq data. It includes uni\- and multivariate peak\-calling\, export to genome browser viewable files\, and functions for enrichment analyses.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/chromstaR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/chromstaR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-chromstar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromstar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromstar/meta.yaml>`_
    :links: biotools: :biotools:`chromstar`, doi: :doi:`10.1101/038612`

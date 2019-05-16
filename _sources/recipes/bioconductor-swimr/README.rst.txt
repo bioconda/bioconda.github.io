@@ -11,7 +11,7 @@ bioconductor-swimr
 
    SwimR is an R\-based suite that calculates\, analyses\, and plots the frequency of C. elegans swimming behavior over time. It places a particular emphasis on identifying paralysis and quantifying the kinetic elements of paralysis during swimming. Data is input to SwipR from a custom built program that fits a 5 point morphometric spine to videos of single worms swimming in a buffer called Worm Tracker.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SwimR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SwimR.html
    :license: LGPL-2
    :recipe: /`bioconductor-swimr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-swimr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-swimr/meta.yaml>`_
    :links: biotools: :biotools:`swimr`, doi: :doi:`10.1016/j.jneumeth.2014.04.024`

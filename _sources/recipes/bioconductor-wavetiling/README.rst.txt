@@ -11,7 +11,7 @@ bioconductor-wavetiling
 
    This package is designed to conduct transcriptome analysis for tiling arrays based on fast wavelet\-based functional models.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/waveTiling.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/waveTiling.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-wavetiling <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wavetiling>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wavetiling/meta.yaml>`_
    :links: biotools: :biotools:`wavetiling`, doi: :doi:`10.1186/1471-2105-13-234`

@@ -11,7 +11,7 @@ bioconductor-hapmapsnp6
 
    Sample dataset obtained from http\:\/\/www.hapmap.org
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/hapmapsnp6.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/hapmapsnp6.html
    :license: GPL
    :recipe: /`bioconductor-hapmapsnp6 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmapsnp6>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmapsnp6/meta.yaml>`_
 

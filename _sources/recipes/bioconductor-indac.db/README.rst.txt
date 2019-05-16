@@ -11,7 +11,7 @@ bioconductor-indac.db
 
    INDAC FlyChip\_long\_oligonucleotide\_002 \(FL002\) annotation data \(chip indac\) assembled using data from public repositories
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/indac.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/indac.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-indac.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-indac.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-indac.db/meta.yaml>`_
 

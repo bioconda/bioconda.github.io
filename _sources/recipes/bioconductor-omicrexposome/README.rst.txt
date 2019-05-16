@@ -11,7 +11,7 @@ bioconductor-omicrexposome
 
    omicRexposome systematizes the association evaluation between exposures and omic data\, taking advantage of MultiDataSet for coordinated data management\, rexposome for exposome data definition and limma for association testing. Also to perform data integration mixing exposome and omic data using multi co\-inherent analysis \(omicade4\) and multi\-canonical correlation analysis \(PMA\).
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/omicRexposome.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/omicRexposome.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-omicrexposome <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicrexposome>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicrexposome/meta.yaml>`_
 

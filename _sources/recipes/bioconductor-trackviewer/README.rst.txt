@@ -11,7 +11,7 @@ bioconductor-trackviewer
 
    Visualize mapped reads along with annotation as track layers for NGS dataset such as ChIP\-seq\, RNA\-seq\, miRNA\-seq\, DNA\-seq\, SNPs and methylation data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/trackViewer.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/trackViewer.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-trackviewer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trackviewer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trackviewer/meta.yaml>`_
    :links: biotools: :biotools:`trackviewer`, doi: :doi:`10.1038/nmeth.3252`

@@ -11,7 +11,7 @@ bioconductor-amplican
 
    \`amplican\` performs alignment of the amplicon reads\, normalizes gathered data\, calculates multiple statistics \(e.g. cut rates\, frameshifts\) and presents results in form of aggregated reports. Data and statistics can be broken down by experiments\, barcodes\, user defined groups\, guides and amplicons allowing for quick identification of potential problems.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/amplican.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/amplican.html
    :license: GPL-3
    :recipe: /`bioconductor-amplican <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-amplican>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-amplican/meta.yaml>`_
 

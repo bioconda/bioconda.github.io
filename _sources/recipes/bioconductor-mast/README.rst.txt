@@ -11,7 +11,7 @@ bioconductor-mast
 
    Methods and models for handling zero\-inflated single cell assay data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MAST.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MAST.html
    :license: GPL(>= 2)
    :recipe: /`bioconductor-mast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mast/meta.yaml>`_
    :links: biotools: :biotools:`mast`, doi: :doi:`10.1186/s13059-015-0844-5`

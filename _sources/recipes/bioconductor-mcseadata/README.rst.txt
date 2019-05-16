@@ -11,7 +11,7 @@ bioconductor-mcseadata
 
    Data objects necessary to some mCSEA package functions. There are also example data objects to illustrate mCSEA package functionality.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/mCSEAdata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/mCSEAdata.html
    :license: GPL-2
    :recipe: /`bioconductor-mcseadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcseadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcseadata/meta.yaml>`_
 

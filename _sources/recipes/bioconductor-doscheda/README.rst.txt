@@ -11,7 +11,7 @@ bioconductor-doscheda
 
    Doscheda focuses on quantitative chemoproteomics used to determine protein interaction profiles of small molecules from whole cell or tissue lysates using Mass Spectrometry data. The package provides a shiny application to run the pipeline\, several visualisations and a downloadable report of an experiment.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Doscheda.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Doscheda.html
    :license: GPL-3
    :recipe: /`bioconductor-doscheda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-doscheda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-doscheda/meta.yaml>`_
 

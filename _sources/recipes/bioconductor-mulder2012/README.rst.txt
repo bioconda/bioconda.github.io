@@ -11,7 +11,7 @@ bioconductor-mulder2012
 
    This package provides functions to reproduce results and figures in Mulder K. et. al. published in Nature Cell Biology 2012 and Wang X. et. al. published in PLoS Computational Biology 2012.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/Mulder2012.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/Mulder2012.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mulder2012 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mulder2012>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mulder2012/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-sispa
 
    Sample Integrated Set Profile Analysis \(SISPA\) is a method designed to define sample groups with similar gene set enrichment profiles.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SISPA.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SISPA.html
    :license: GPL-2
    :recipe: /`bioconductor-sispa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sispa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sispa/meta.yaml>`_
    :links: biotools: :biotools:`sispa`, doi: :doi:`10.1093/nar/gkv1503`

@@ -11,7 +11,7 @@ bioconductor-brainimager
 
    BrainImageR is a package that provides the user with information of where in the human brain their gene set corresponds to. This is provided both as a continuous variable and as a easily\-interpretable image. BrainImageR has additional functionality of identifying approximately when in developmental time that a gene expression dataset corresponds to. Both the spatial gene set enrichment and the developmental time point prediction are assessed in comparison to the Allen Brain Atlas reference data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/brainImageR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/brainImageR.html
    :license: CC BY-SA 4.0
    :recipe: /`bioconductor-brainimager <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brainimager>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brainimager/meta.yaml>`_
 

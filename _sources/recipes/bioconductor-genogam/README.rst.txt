@@ -11,7 +11,7 @@ bioconductor-genogam
 
    This package allows statistical analysis of genome\-wide data with smooth functions using generalized additive models based on the implementation from the R\-package \'mgcv\'. It provides methods for the statistical analysis of ChIP\-Seq data including inference of protein occupancy\, and pointwise and region\-wise differential analysis. Estimation of dispersion and smoothing parameters is performed by cross\-validation. Scaling of generalized additive model fitting to whole chromosomes is achieved by parallelization over overlapping genomic intervals.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GenoGAM.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GenoGAM.html
    :license: GPL-2
    :recipe: /`bioconductor-genogam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genogam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genogam/meta.yaml>`_
    :links: biotools: :biotools:`genogam`, doi: :doi:`10.1093/bioinformatics/btx150`

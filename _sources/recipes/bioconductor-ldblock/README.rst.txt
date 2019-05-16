@@ -11,7 +11,7 @@ bioconductor-ldblock
 
    Define data structures for linkage disequilibrium measures in populations.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ldblock.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ldblock.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ldblock <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ldblock>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ldblock/meta.yaml>`_
 

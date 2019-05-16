@@ -11,7 +11,7 @@ bioconductor-reqon
 
    Algorithm for recalibrating the base quality scores for aligned sequencing data in BAM format.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ReQON.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ReQON.html
    :license: GPL-2
    :recipe: /`bioconductor-reqon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reqon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reqon/meta.yaml>`_
 

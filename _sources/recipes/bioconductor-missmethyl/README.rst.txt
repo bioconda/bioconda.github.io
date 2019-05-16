@@ -11,7 +11,7 @@ bioconductor-missmethyl
 
    Normalisation and testing for differential variability and differential methylation for data from Illumina\'s Infinium HumanMethylation450 array. The normalisation procedure is subset\-quantile within\-array normalisation \(SWAN\)\, which allows Infinium I and II type probes on a single array to be normalised together. The test for differential variability is based on an empirical Bayes version of Levene\'s test. Differential methylation testing is performed using RUV\, which can adjust for systematic errors of unknown origin in high\-dimensional data by using negative control probes. Gene ontology analysis is performed by taking into account the number of probes per gene on the array.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/missMethyl.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/missMethyl.html
    :license: GPL-2
    :recipe: /`bioconductor-missmethyl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-missmethyl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-missmethyl/meta.yaml>`_
    :links: biotools: :biotools:`missmethyl`

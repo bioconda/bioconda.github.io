@@ -11,7 +11,7 @@ bioconductor-metagenomefeatures
 
    metagenomeFeatures was developed for use in exploring the taxonomic annotations for a marker\-gene metagenomic sequence dataset. The package can be used to explore the taxonomic composition of a marker\-gene database or annotated sequences from a marker\-gene metagenome experiment.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/metagenomeFeatures.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/metagenomeFeatures.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-metagenomefeatures <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagenomefeatures>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagenomefeatures/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-genomeinfodb
 
    Contains data and functions that define and allow translation between different chromosome sequence naming conventions \(e.g.\, \"chr1\" versus \"1\"\)\, including a function that attempts to place sequence names in their natural\, rather than lexicographic\, order.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GenomeInfoDb.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GenomeInfoDb.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomeinfodb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomeinfodb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomeinfodb/meta.yaml>`_
    :links: biotools: :biotools:`genomeinfodb`, doi: :doi:`10.1038/nmeth.3252`

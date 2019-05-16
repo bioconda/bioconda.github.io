@@ -11,7 +11,7 @@ bioconductor-hu35ksubbprobe
 
    This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Hu35KsubB\\\_probe\\\_tab.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/hu35ksubbprobe.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hu35ksubbprobe.html
    :license: LGPL
    :recipe: /`bioconductor-hu35ksubbprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu35ksubbprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu35ksubbprobe/meta.yaml>`_
 

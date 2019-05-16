@@ -11,7 +11,7 @@ bioconductor-trna
 
    The tRNA package allows tRNA sequences and structures to be accessed and used for subsetting. In addition\, it provides visualization tools to compare feature parameters of multiple tRNA sets and correlate them to additional data. The tRNA package uses GRanges objects as inputs requiring only few additional column data sets.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/tRNA.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/tRNA.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-trna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trna/meta.yaml>`_
 

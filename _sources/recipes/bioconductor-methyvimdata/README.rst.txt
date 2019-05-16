@@ -11,7 +11,7 @@ bioconductor-methyvimdata
 
    Contains a reduced set of simulated data inspired by data produced by the Infinium EPIC BeadChip assays by Illumina. The example data set is made available to highlight many of the key procedures that are available within the core functions of the methyvim package.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/methyvimData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/methyvimData.html
    :license: file LICENSE
    :recipe: /`bioconductor-methyvimdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methyvimdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methyvimdata/meta.yaml>`_
 

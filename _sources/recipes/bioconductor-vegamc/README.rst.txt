@@ -11,7 +11,7 @@ bioconductor-vegamc
 
    This package enables the detection of driver chromosomal imbalances including loss of heterozygosity \(LOH\) from array comparative genomic hybridization \(aCGH\) data. VegaMC performs a joint segmentation of a dataset and uses a statistical framework to distinguish between driver and passenger mutation. VegaMC has been implemented so that it can be immediately integrated with the output produced by PennCNV tool. In addition\, VegaMC produces in output two web pages that allows a rapid navigation between both the detected regions and the altered genes. In the web page that summarizes the altered genes\, the link to the respective Ensembl gene web page is reported.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/VegaMC.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/VegaMC.html
    :license: GPL-2
    :recipe: /`bioconductor-vegamc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vegamc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vegamc/meta.yaml>`_
    :links: biotools: :biotools:`vegamc`, doi: :doi:`10.1093/bioinformatics/bts453`

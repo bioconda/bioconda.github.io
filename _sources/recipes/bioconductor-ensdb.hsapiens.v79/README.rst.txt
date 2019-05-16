@@ -11,7 +11,7 @@ bioconductor-ensdb.hsapiens.v79
 
    Exposes an annotation databases generated from Ensembl.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/EnsDb.Hsapiens.v79.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/EnsDb.Hsapiens.v79.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ensdb.hsapiens.v79 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ensdb.hsapiens.v79>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ensdb.hsapiens.v79/meta.yaml>`_
 

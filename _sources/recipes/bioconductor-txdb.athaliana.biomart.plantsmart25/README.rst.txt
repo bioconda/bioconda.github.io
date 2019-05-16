@@ -11,7 +11,7 @@ bioconductor-txdb.athaliana.biomart.plantsmart25
 
    Exposes an annotation databases generated from BioMart by exposing these as TxDb objects
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/TxDb.Athaliana.BioMart.plantsmart25.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/TxDb.Athaliana.BioMart.plantsmart25.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.athaliana.biomart.plantsmart25 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.athaliana.biomart.plantsmart25>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.athaliana.biomart.plantsmart25/meta.yaml>`_
 

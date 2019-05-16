@@ -11,7 +11,7 @@ bioconductor-alpinedata
 
    A small subset of paired\-end RNA\-seq reads from four samples of the GEUVADIS project.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/alpineData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/alpineData.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-alpinedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alpinedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alpinedata/meta.yaml>`_
 

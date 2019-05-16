@@ -11,7 +11,7 @@ bioconductor-scdd
 
    This package implements a method to analyze single\-cell RNA\- seq Data utilizing flexible Dirichlet Process mixture models. Genes with differential distributions of expression are classified into several interesting patterns of differences between two conditions. The package also includes functions for simulating data with these patterns from negative binomial distributions.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/scDD.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/scDD.html
    :license: GPL-2
    :recipe: /`bioconductor-scdd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scdd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scdd/meta.yaml>`_
 

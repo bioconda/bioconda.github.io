@@ -11,7 +11,7 @@ bioconductor-liquidassociation
 
    The package contains functions for calculate direct and model\-based estimators for liquid association. It also provides functions for testing the existence of liquid association given a gene triplet data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/LiquidAssociation.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/LiquidAssociation.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-liquidassociation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-liquidassociation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-liquidassociation/meta.yaml>`_
    :links: biotools: :biotools:`liquidassociation`, doi: :doi:`10.1038/nmeth.3252`

@@ -11,7 +11,7 @@ bioconductor-heatplus
 
    Display a rectangular heatmap \(intensity plot\) of a data matrix. By default\, both samples \(columns\) and features \(row\) of the matrix are sorted according to a hierarchical clustering\, and the corresponding dendrogram is plotted. Optionally\, panels with additional information about samples and features can be added to the plot.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Heatplus.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Heatplus.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-heatplus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-heatplus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-heatplus/meta.yaml>`_
    :links: biotools: :biotools:`heatplus`, doi: :doi:`10.1038/nmeth.3252`

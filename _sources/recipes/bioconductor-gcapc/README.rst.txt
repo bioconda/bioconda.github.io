@@ -11,7 +11,7 @@ bioconductor-gcapc
 
    Peak calling for ChIP\-seq data with consideration of potential GC bias in sequencing reads. GC bias is first estimated with generalized linear mixture models using effective GC strategy\, then applied into peak significance estimation.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/gcapc.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/gcapc.html
    :license: GPL-3
    :recipe: /`bioconductor-gcapc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcapc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcapc/meta.yaml>`_
 

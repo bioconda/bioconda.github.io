@@ -11,7 +11,7 @@ bioconductor-generecommender
 
    This package contains a targeted clustering algorithm for the analysis of microarray data. The algorithm can aid in the discovery of new genes with similar functions to a given list of genes already known to have closely related functions.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/geneRecommender.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/geneRecommender.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-generecommender <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-generecommender>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-generecommender/meta.yaml>`_
    :links: biotools: :biotools:`generecommender`, doi: :doi:`10.1101/gr.1125403`

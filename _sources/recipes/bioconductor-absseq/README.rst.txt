@@ -11,7 +11,7 @@ bioconductor-absseq
 
    Inferring differential expression genes by absolute counts difference between two groups\, utilizing Negative binomial distribution and moderating fold\-change according to heterogeneity of dispersion across expression level.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ABSSeq.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ABSSeq.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-absseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-absseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-absseq/meta.yaml>`_
    :links: biotools: :biotools:`absseq`

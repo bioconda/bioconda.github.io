@@ -11,7 +11,7 @@ bioconductor-hem
 
    This package fits heterogeneous error models for analysis of microarray data
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/HEM.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/HEM.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-hem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hem/meta.yaml>`_
    :links: biotools: :biotools:`hem`, doi: :doi:`10.1093/bioinformatics/bth192`

@@ -11,7 +11,7 @@ bioconductor-wavetilingdata
 
    Experiment and Annotation Data files used by the examples \/ vignette in the waveTiling package
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/waveTilingData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/waveTilingData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-wavetilingdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wavetilingdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wavetilingdata/meta.yaml>`_
 
@@ -22,10 +22,10 @@ bioconductor-wavetilingdata
 
    |downloads_bioconductor-wavetilingdata| |docker_bioconductor-wavetilingdata|
 
-   :versions: 1.18.0-0
+   :versions: 1.20.0-0, 1.18.0-0
    
+   :depends curl: >=7.64.1,<8.0a0
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
    :requirements:
 
    .. rubric:: Installation

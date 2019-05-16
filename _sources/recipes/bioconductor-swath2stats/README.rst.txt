@@ -11,7 +11,7 @@ bioconductor-swath2stats
 
    This package is intended to transform SWATH data from the OpenSWATH software into a format readable by other statistics packages while performing filtering\, annotation and FDR estimation.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SWATH2stats.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SWATH2stats.html
    :license: GPL-3
    :recipe: /`bioconductor-swath2stats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-swath2stats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-swath2stats/meta.yaml>`_
    :links: biotools: :biotools:`swath2stats`

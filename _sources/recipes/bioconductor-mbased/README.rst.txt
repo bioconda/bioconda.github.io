@@ -11,7 +11,7 @@ bioconductor-mbased
 
    The package implements MBASED algorithm for detecting allele\-specific gene expression from RNA count data\, where allele counts at individual loci \(SNVs\) are integrated into a gene\-specific measure of ASE\, and utilizes simulations to appropriately assess the statistical significance of observed ASE.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MBASED.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MBASED.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mbased <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbased>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbased/meta.yaml>`_
    :links: biotools: :biotools:`mbased`, doi: :doi:`10.1186/s13059-014-0405-3`

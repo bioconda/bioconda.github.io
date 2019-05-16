@@ -11,7 +11,7 @@ bioconductor-tinesath1probe
 
    This package was automatically created by package matchprobes version 1.4.0. The probe sequence data was obtained from http\:\/\/www.affymetrix.com.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/tinesath1probe.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/tinesath1probe.html
    :license: LGPL
    :recipe: /`bioconductor-tinesath1probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tinesath1probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tinesath1probe/meta.yaml>`_
 

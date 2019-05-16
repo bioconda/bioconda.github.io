@@ -11,7 +11,7 @@ bioconductor-annaffy
 
    Functions for handling data from Bioconductor Affymetrix annotation data packages. Produces compact HTML and text reports including experimental data and URL links to many online databases. Allows searching biological metadata using various criteria.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/annaffy.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/annaffy.html
    :license: LGPL
    :recipe: /`bioconductor-annaffy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annaffy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annaffy/meta.yaml>`_
    :links: biotools: :biotools:`annaffy`, doi: :doi:`10.1038/nmeth.3252`

@@ -11,7 +11,7 @@ bioconductor-hpar
 
    The hpar package provides a simple R interface to and data from the Human Protein Atlas project.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/hpar.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/hpar.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hpar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hpar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hpar/meta.yaml>`_
    :links: biotools: :biotools:`hpar`, doi: :doi:`10.1038/nmeth.3252`

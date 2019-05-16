@@ -11,7 +11,7 @@ bioconductor-gseabenchmarker
 
    The GSEABenchmarkeR package implements an extendable framework for reproducible evaluation of set\- and network\-based methods for enrichment analysis of gene expression data. This includes support for the efficient execution of these methods on comprehensive real data compendia \(microarray and RNA\-seq\) using parallel computation on standard workstations and institutional computer grids. Methods can then be assessed with respect to runtime\, statistical significance\, and relevance of the results for the phenotypes investigated.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GSEABenchmarkeR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GSEABenchmarkeR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gseabenchmarker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gseabenchmarker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gseabenchmarker/meta.yaml>`_
 

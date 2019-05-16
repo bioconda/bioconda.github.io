@@ -11,7 +11,7 @@ bioconductor-mafdb.exac.r1.0.hs37d5
 
    Store minor allele frequency data from the Exome Aggregation Consortium \(ExAC release 1.0\) for the human genome version hs37d5.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/MafDb.ExAC.r1.0.hs37d5.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/MafDb.ExAC.r1.0.hs37d5.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mafdb.exac.r1.0.hs37d5 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.exac.r1.0.hs37d5>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.exac.r1.0.hs37d5/meta.yaml>`_
 

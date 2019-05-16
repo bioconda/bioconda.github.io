@@ -11,7 +11,7 @@ bioconductor-randomwalkrestartmh
 
    This package performs Random Walk with Restart on multiplex and heterogeneous networks. It is described in the following article\: \"Random Walk With Restart On Multiplex And Heterogeneous Biological Networks\". https\:\/\/www.biorxiv.org\/content\/early\/2017\/08\/30\/134734 .
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RandomWalkRestartMH.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RandomWalkRestartMH.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-randomwalkrestartmh <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-randomwalkrestartmh>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-randomwalkrestartmh/meta.yaml>`_
 

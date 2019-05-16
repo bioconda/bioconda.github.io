@@ -11,7 +11,7 @@ bioconductor-pd.rabgene.1.1.st
 
    Platform Design Info for Affymetrix RabGene\-1\_1\-st
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/pd.rabgene.1.1.st.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.rabgene.1.1.st.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.rabgene.1.1.st <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.rabgene.1.1.st>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.rabgene.1.1.st/meta.yaml>`_
 

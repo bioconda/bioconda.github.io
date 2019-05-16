@@ -11,7 +11,7 @@ bioconductor-splicinggraphs
 
    This package allows the user to create\, manipulate\, and visualize splicing graphs and their bubbles based on a gene model for a given organism. Additionally it allows the user to assign RNA\-seq reads to the edges of a set of splicing graphs\, and to summarize them in different ways.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SplicingGraphs.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SplicingGraphs.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-splicinggraphs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicinggraphs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicinggraphs/meta.yaml>`_
    :links: biotools: :biotools:`splicinggraphs`, doi: :doi:`10.1093/bioinformatics/18.suppl_1.s181`

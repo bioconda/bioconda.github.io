@@ -11,7 +11,7 @@ bioconductor-snapcgh
 
    Methods for segmenting\, normalising and processing aCGH data\; including plotting functions for visualising raw and segmented data for individual and multiple arrays.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/snapCGH.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/snapCGH.html
    :license: GPL
    :recipe: /`bioconductor-snapcgh <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snapcgh>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snapcgh/meta.yaml>`_
 

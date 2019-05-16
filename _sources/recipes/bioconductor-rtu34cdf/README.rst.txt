@@ -11,7 +11,7 @@ bioconductor-rtu34cdf
 
    A package containing an environment representing the RT\_U34.cdf file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/rtu34cdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/rtu34cdf.html
    :license: LGPL
    :recipe: /`bioconductor-rtu34cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtu34cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtu34cdf/meta.yaml>`_
 

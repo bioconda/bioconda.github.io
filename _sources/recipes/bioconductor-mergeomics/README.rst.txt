@@ -11,7 +11,7 @@ bioconductor-mergeomics
 
    The Mergeomics pipeline serves as a flexible framework for integrating multidimensional omics\-disease associations\, functional genomics\, canonical pathways and gene\-gene interaction networks to generate mechanistic hypotheses. It includes two main parts\, 1\) Marker set enrichment analysis \(MSEA\)\; 2\) Weighted Key Driver Analysis \(wKDA\).
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Mergeomics.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Mergeomics.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mergeomics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mergeomics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mergeomics/meta.yaml>`_
    :links: biotools: :biotools:`mergeomics`, doi: :doi:`10.1101/036012`

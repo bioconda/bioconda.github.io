@@ -11,7 +11,7 @@ bioconductor-confess
 
    Single Cell Fluidigm Spot Detector.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CONFESS.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CONFESS.html
    :license: GPL-2
    :recipe: /`bioconductor-confess <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-confess>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-confess/meta.yaml>`_
 

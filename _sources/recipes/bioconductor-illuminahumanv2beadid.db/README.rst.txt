@@ -11,7 +11,7 @@ bioconductor-illuminahumanv2beadid.db
 
    Illumina HumanWGv2 annotation data \(chip illuminaHumanv2BeadID\) assembled using data from public repositories to be used with data summarized from bead\-level data with numeric ArrayAddressIDs as keys. Illumina probes with a No match or Bad quality score were removed prior to annotation. See http\:\/\/www.compbio.group.cam.ac.uk\/Resources\/Annotation\/index.html and Barbosa\-Morais et al \(2010\) A re\-annotation pipeline for Illumina BeadArrays\: improving the interpretation of gene expression data. Nucleic Acids Research.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/illuminaHumanv2BeadID.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/illuminaHumanv2BeadID.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-illuminahumanv2beadid.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanv2beadid.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanv2beadid.db/meta.yaml>`_
 

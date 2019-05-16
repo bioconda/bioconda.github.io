@@ -11,7 +11,7 @@ bioconductor-italics
 
    A Method to normalize of Affymetrix GeneChip Human Mapping 100K and 500K set
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ITALICS.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ITALICS.html
    :license: GPL-2
    :recipe: /`bioconductor-italics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-italics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-italics/meta.yaml>`_
 

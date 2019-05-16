@@ -11,7 +11,7 @@ bioconductor-ipo
 
    The outcome of XCMS data processing strongly depends on the parameter settings. IPO \(\`Isotopologue Parameter Optimization\`\) is a parameter optimization tool that is applicable for different kinds of samples and liquid chromatography coupled to high resolution mass spectrometry devices\, fast and free of labeling steps. IPO uses natural\, stable 13C isotopes to calculate a peak picking score. Retention time correction is optimized by minimizing the relative retention time differences within features and grouping parameters are optimized by maximizing the number of features showing exactly one peak from each injection of a pooled sample. The different parameter settings are achieved by design of experiment. The resulting scores are evaluated using response surface models.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/IPO.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/IPO.html
    :license: GPL (>= 2) + file LICENSE
    :recipe: /`bioconductor-ipo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ipo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ipo/meta.yaml>`_
    :links: biotools: :biotools:`ipo`

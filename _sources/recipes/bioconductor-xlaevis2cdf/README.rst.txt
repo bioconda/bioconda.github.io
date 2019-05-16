@@ -11,7 +11,7 @@ bioconductor-xlaevis2cdf
 
    A package containing an environment representing the X\_laevis\_2.CDF file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/xlaevis2cdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/xlaevis2cdf.html
    :license: LGPL
    :recipe: /`bioconductor-xlaevis2cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xlaevis2cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xlaevis2cdf/meta.yaml>`_
 

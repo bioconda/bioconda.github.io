@@ -11,7 +11,7 @@ bioconductor-bsgenome.amellifera.ucsc.apimel2.masked
 
    Full genome sequences for Apis mellifera \(Honey Bee\) as provided by UCSC \(apiMel2\, Jan. 2005\) and stored in Biostrings objects. The sequences are the same as in BSgenome.Amellifera.UCSC.apiMel2\, except that each of them has the 3 following masks on top\: \(1\) the mask of assembly gaps \(AGAPS mask\)\, \(2\) the mask of intra\-contig ambiguities \(AMB mask\)\, and \(3\) the mask of repeats from RepeatMasker \(RM mask\). Only the AGAPS and AMB masks are \"active\" by default.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Amellifera.UCSC.apiMel2.masked.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Amellifera.UCSC.apiMel2.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.amellifera.ucsc.apimel2.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.amellifera.ucsc.apimel2.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.amellifera.ucsc.apimel2.masked/meta.yaml>`_
 

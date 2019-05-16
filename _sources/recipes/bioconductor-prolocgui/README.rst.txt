@@ -11,7 +11,7 @@ bioconductor-prolocgui
 
    The package pRolocGUI comprises functions to interactively visualise organelle \(spatial\) proteomics data on the basis of pRoloc\, pRolocdata and shiny.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/pRolocGUI.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/pRolocGUI.html
    :license: GPL-2
    :recipe: /`bioconductor-prolocgui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prolocgui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prolocgui/meta.yaml>`_
    :links: biotools: :biotools:`prolocgui`, doi: :doi:`10.1038/ncomms9992`

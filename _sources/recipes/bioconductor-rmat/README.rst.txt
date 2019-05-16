@@ -11,7 +11,7 @@ bioconductor-rmat
 
    This package is an R version of the package MAT and contains functions to parse and merge Affymetrix BPMAP and CEL tiling array files \(using C\+\+ based Fusion SDK and Bioconductor package affxparser\)\, normalize tiling arrays using sequence specific models\, detect enriched regions from ChIP\-chip experiments. Note\: users should have GSL and GenomeGraphs installed. Windows users\: \'consult the README file available in the inst directory of the source distribution for necessary configuration instructions\'. Snow Leopard users can take advantage of increase speed with Grand Central Dispatch\!
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/rMAT.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/rMAT.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rmat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmat/meta.yaml>`_
    :links: biotools: :biotools:`rmat`, doi: :doi:`10.1093/bioinformatics/btq023`

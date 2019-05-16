@@ -11,7 +11,7 @@ bioconductor-traser
 
    traseR performs GWAS trait\-associated SNP enrichment analyses in genomic intervals using different hypothesis testing approaches\, also provides various functionalities to explore and visualize the results.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/traseR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/traseR.html
    :license: GPL
    :recipe: /`bioconductor-traser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-traser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-traser/meta.yaml>`_
    :links: biotools: :biotools:`traser`, doi: :doi:`10.1093/bioinformatics/btv741`

@@ -11,7 +11,7 @@ bioconductor-mapredictdsc
 
    This package implements the classification pipeline of the best overall team \(Team221\) in the IMPROVER Diagnostic Signature Challenge. Additional functionality is added to compare 27 combinations of data preprocessing\, feature selection and classifier types.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/maPredictDSC.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/maPredictDSC.html
    :license: GPL-2
    :recipe: /`bioconductor-mapredictdsc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapredictdsc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapredictdsc/meta.yaml>`_
    :links: biotools: :biotools:`mapredictdsc`, doi: :doi:`10.1093/bioinformatics/btt492`

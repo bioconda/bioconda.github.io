@@ -11,7 +11,7 @@ bioconductor-sugarcanecdf
 
    A package containing an environment representing the Sugar\_Cane.cdf file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/sugarcanecdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/sugarcanecdf.html
    :license: LGPL
    :recipe: /`bioconductor-sugarcanecdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sugarcanecdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sugarcanecdf/meta.yaml>`_
 

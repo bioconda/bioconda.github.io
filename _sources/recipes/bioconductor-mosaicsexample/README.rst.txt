@@ -11,7 +11,7 @@ bioconductor-mosaicsexample
 
    Data for the mosaics package\, consisting of \(1\) chromosome 22 ChIP and control sample data from a ChIP\-seq experiment of STAT1 binding and H3K4me3 modification in MCF7 cell line from ENCODE database \(HG19\) and \(2\) chromosome 21 ChIP and control sample data from a ChIP\-seq experiment of STAT1 binding\, with mappability\, GC content\, and sequence ambiguity scores of human genome HG18.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/mosaicsExample.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/mosaicsExample.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mosaicsexample <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mosaicsexample>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mosaicsexample/meta.yaml>`_
 

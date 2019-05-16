@@ -11,7 +11,7 @@ bioconductor-yeastgsdata
 
    A collection of so\-called gold \(and other\) standard data sets
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/yeastGSData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/yeastGSData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-yeastgsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastgsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastgsdata/meta.yaml>`_
 

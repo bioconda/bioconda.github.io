@@ -11,7 +11,7 @@ bioconductor-director
 
    Director is an R package designed to streamline the visualization of molecular effects in regulatory cascades. It utilizes the R package htmltools and a modified Sankey plugin of the JavaScript library D3 to provide a fast and easy\, browser\-enabled solution to discovering potentially interesting downstream effects of regulatory and\/or co\-expressed molecules. The diagrams are robust\, interactive\, and packaged as highly\-portable HTML files that eliminate the need for third\-party software to view. This enables a straightforward approach for scientists to interpret the data produced\, and bioinformatics developers an alternative means to present relevant data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Director.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Director.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-director <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-director>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-director/meta.yaml>`_
    :links: biotools: :biotools:`director`, doi: :doi:`10.1038/nmeth.3252`

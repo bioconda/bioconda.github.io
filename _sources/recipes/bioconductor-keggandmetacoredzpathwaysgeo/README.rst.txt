@@ -11,7 +11,7 @@ bioconductor-keggandmetacoredzpathwaysgeo
 
    This is a collection of 18 data sets for which the phenotype is a disease with a corresponding pathway in either KEGG or metacore database.This collection of datasets were used as gold standard in comparing gene set analysis methods.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/KEGGandMetacoreDzPathwaysGEO.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/KEGGandMetacoreDzPathwaysGEO.html
    :license: GPL-2
    :recipe: /`bioconductor-keggandmetacoredzpathwaysgeo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggandmetacoredzpathwaysgeo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggandmetacoredzpathwaysgeo/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-hgubeta7.db
 
    Unknown annotation data \(chip hgubeta7\) assembled using data from public repositories
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/hgubeta7.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hgubeta7.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hgubeta7.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgubeta7.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgubeta7.db/meta.yaml>`_
 

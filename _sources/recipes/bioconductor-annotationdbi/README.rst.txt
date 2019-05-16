@@ -9,9 +9,9 @@ bioconductor-annotationdbi
 .. conda:recipe:: bioconductor-annotationdbi
    :replaces_section_title:
 
-   Provides user interface and database connection code for annotation data packages using SQLite data storage.
+   Implements a user\-friendly interface for querying SQLite\-based annotation data packages.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/AnnotationDbi.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/AnnotationDbi.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-annotationdbi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationdbi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationdbi/meta.yaml>`_
    :links: biotools: :biotools:`annotationdbi`, doi: :doi:`10.1038/nmeth.3252`

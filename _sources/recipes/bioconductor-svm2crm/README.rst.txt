@@ -11,7 +11,7 @@ bioconductor-svm2crm
 
    Detection of cis\-regulatory elements using svm implemented in LiblineaR.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SVM2CRM.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SVM2CRM.html
    :license: GPL-3
    :recipe: /`bioconductor-svm2crm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-svm2crm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-svm2crm/meta.yaml>`_
 

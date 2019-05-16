@@ -11,7 +11,7 @@ bioconductor-copywriter
 
    CopywriteR extracts DNA copy number information from targeted sequencing by utiizing off\-target reads. It allows for extracting uniformly distributed copy number information\, can be used without reference\, and can be applied to sequencing data obtained from various techniques including chromatin immunoprecipitation and target enrichment on small gene panels. Thereby\, CopywriteR constitutes a widely applicable alternative to available copy number detection tools.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CopywriteR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CopywriteR.html
    :license: GPL-2
    :recipe: /`bioconductor-copywriter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copywriter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copywriter/meta.yaml>`_
    :links: biotools: :biotools:`copywriter`, doi: :doi:`10.1186/s13059-015-0617-1`

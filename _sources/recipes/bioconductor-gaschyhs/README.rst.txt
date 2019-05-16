@@ -11,7 +11,7 @@ bioconductor-gaschyhs
 
    Data from PMID 11102521
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/gaschYHS.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/gaschYHS.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gaschyhs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaschyhs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaschyhs/meta.yaml>`_
 

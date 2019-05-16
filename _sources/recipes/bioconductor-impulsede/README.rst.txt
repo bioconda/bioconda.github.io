@@ -11,7 +11,7 @@ bioconductor-impulsede
 
    ImpulseDE is suited to capture single impulse\-like patterns in high throughput time series datasets. By fitting a representative impulse model to each gene\, it reports differentially expressed genes whether across time points in a single experiment or between two time courses from two experiments. To optimize the running time\, the code makes use of clustering steps and multi\-threading.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ImpulseDE.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ImpulseDE.html
    :license: GPL-3
    :recipe: /`bioconductor-impulsede <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-impulsede>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-impulsede/meta.yaml>`_
    :links: biotools: :biotools:`impulsede`, doi: :doi:`10.1093/bioinformatics/btw665`

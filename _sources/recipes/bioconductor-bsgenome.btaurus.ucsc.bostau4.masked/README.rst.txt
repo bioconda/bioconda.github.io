@@ -11,7 +11,7 @@ bioconductor-bsgenome.btaurus.ucsc.bostau4.masked
 
    Full genome sequences for Bos taurus \(Cow\) as provided by UCSC \(bosTau4\, Oct. 2007\) and stored in Biostrings objects. The sequences are the same as in BSgenome.Btaurus.UCSC.bosTau4\, except that each of them has the 4 following masks on top\: \(1\) the mask of assembly gaps \(AGAPS mask\)\, \(2\) the mask of intra\-contig ambiguities \(AMB mask\)\, \(3\) the mask of repeats from RepeatMasker \(RM mask\)\, and \(4\) the mask of repeats from Tandem Repeats Finder \(TRF mask\). Only the AGAPS and AMB masks are \"active\" by default.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Btaurus.UCSC.bosTau4.masked.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Btaurus.UCSC.bosTau4.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.btaurus.ucsc.bostau4.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.btaurus.ucsc.bostau4.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.btaurus.ucsc.bostau4.masked/meta.yaml>`_
 

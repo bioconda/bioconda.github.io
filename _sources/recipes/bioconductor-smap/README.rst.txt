@@ -11,7 +11,7 @@ bioconductor-smap
 
    Functions and classes for DNA copy number profiling of array\-CGH data
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SMAP.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SMAP.html
    :license: GPL-2
    :recipe: /`bioconductor-smap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-smap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-smap/meta.yaml>`_
    :links: biotools: :biotools:`smap`, doi: :doi:`10.1093/bioinformatics/btn003`

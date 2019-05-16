@@ -11,7 +11,7 @@ bioconductor-bsgenome.btaurus.ucsc.bostau6
 
    Full genome sequences for Bos taurus \(Cow\) as provided by UCSC \(bosTau6\, Nov. 2009\) and stored in Biostrings objects.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Btaurus.UCSC.bosTau6.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Btaurus.UCSC.bosTau6.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.btaurus.ucsc.bostau6 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.btaurus.ucsc.bostau6>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.btaurus.ucsc.bostau6/meta.yaml>`_
 

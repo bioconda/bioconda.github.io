@@ -9,9 +9,9 @@ bioconductor-enhancedvolcano
 .. conda:recipe:: bioconductor-enhancedvolcano
    :replaces_section_title:
 
-   Volcano plots represent a useful way to visualise the results of differential expression analyses. Here\, we present a highly\-configurable function that produces publication\-ready volcano plots. EnhancedVolcano will attempt to fit as many transcript names in the plot window as possible\, thus avoiding \'clogging\' up the plot with labels that could not otherwise have been read.
+   Volcano plots represent a useful way to visualise the results of differential expression analyses. Here\, we present a highly\-configurable function that produces publication\-ready volcano plots. EnhancedVolcano will attempt to fit as many transcript names in the plot window as possible\, thus avoiding clogging up the plot with labels that could not otherwise have been read. Other functionality allows the user to identify up to 3 different types of attributes in the same plot space via colour\, shape\, and shade parameter configurations.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/EnhancedVolcano.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/EnhancedVolcano.html
    :license: GPL-3
    :recipe: /`bioconductor-enhancedvolcano <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enhancedvolcano>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enhancedvolcano/meta.yaml>`_
 

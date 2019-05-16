@@ -11,7 +11,7 @@ bioconductor-splicesites
 
    Performs splice centered analysis on RNA\-seq data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/spliceSites.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/spliceSites.html
    :license: GPL-2
    :recipe: /`bioconductor-splicesites <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicesites>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicesites/meta.yaml>`_
 

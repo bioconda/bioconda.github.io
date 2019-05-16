@@ -11,7 +11,7 @@ bioconductor-citruscdf
 
    A package containing an environment representing the Citrus.cdf file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/citruscdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/citruscdf.html
    :license: LGPL
    :recipe: /`bioconductor-citruscdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-citruscdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-citruscdf/meta.yaml>`_
 

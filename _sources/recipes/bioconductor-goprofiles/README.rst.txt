@@ -11,7 +11,7 @@ bioconductor-goprofiles
 
    The package implements methods to compare lists of genes based on comparing the corresponding \'functional profiles\'.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/goProfiles.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/goProfiles.html
    :license: GPL-2
    :recipe: /`bioconductor-goprofiles <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-goprofiles>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-goprofiles/meta.yaml>`_
 

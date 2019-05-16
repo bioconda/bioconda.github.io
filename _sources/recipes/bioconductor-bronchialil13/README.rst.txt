@@ -11,7 +11,7 @@ bioconductor-bronchialil13
 
    derived from CNMC \(pepr.cnmcresearch.org\) http\:\/\/pepr.cnmcresearch.org\/browse.do\?action\=list\_prj\_exp\&projectId\=95 Human Bronchial Cell line A549
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/bronchialIL13.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/bronchialIL13.html
    :license: GPL-2
    :recipe: /`bioconductor-bronchialil13 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bronchialil13>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bronchialil13/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-flowtype
 
    Phenotyping Flow Cytometry Assays using multidimentional expansion of single dimentional partitions.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/flowType.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flowType.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowtype <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowtype>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowtype/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-ggcyto
 
    With the dedicated fortify method implemented for flowSet\, ncdfFlowSet and GatingSet classes\, both raw and gated flow cytometry data can be plotted directly with ggplot. ggcyto wrapper and some customed layers also make it easy to add gates and population statistics to the plot.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ggcyto.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ggcyto.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ggcyto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggcyto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggcyto/meta.yaml>`_
    :links: biotools: :biotools:`ggcyto`, doi: :doi:`10.1038/nmeth.3252`

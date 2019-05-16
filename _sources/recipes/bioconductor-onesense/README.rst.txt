@@ -11,7 +11,7 @@ bioconductor-onesense
 
    A graphical user interface that facilitates the dimensional reduction method based on the t\-distributed stochastic neighbor embedding \(t\-SNE\) algorithm\, for categorical analysis of mass cytometry data. With One\-SENSE\, measured parameters are grouped into predefined categories\, and cells are projected onto a space composed of one dimension for each category. Each dimension is informative and can be annotated through the use of heatplots aligned in parallel to each axis\, allowing for simultaneous visualization of two catergories across a two\-dimensional plot. The cellular occupancy of the resulting plots alllows for direct assessment of the relationships between the categories.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/oneSENSE.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/oneSENSE.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-onesense <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-onesense>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-onesense/meta.yaml>`_
 

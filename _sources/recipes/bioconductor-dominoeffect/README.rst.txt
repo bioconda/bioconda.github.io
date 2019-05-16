@@ -11,7 +11,7 @@ bioconductor-dominoeffect
 
    The functions support identification and annotation of hotspot residues in proteins. These are individual amino acids that accumulate mutations at a much higher rate than their surrounding regions.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DominoEffect.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DominoEffect.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-dominoeffect <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dominoeffect>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dominoeffect/meta.yaml>`_
 

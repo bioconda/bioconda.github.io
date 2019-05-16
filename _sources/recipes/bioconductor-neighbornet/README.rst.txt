@@ -11,7 +11,7 @@ bioconductor-neighbornet
 
    Identify the putative mechanism explaining the active interactions between genes in the investigated phenotype.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/NeighborNet.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/NeighborNet.html
    :license: CC BY-NC-ND 4.0
    :recipe: /`bioconductor-neighbornet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-neighbornet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-neighbornet/meta.yaml>`_
 

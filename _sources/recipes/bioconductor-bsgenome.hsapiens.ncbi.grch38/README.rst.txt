@@ -11,7 +11,7 @@ bioconductor-bsgenome.hsapiens.ncbi.grch38
 
    Full genome sequences for Homo sapiens \(Human\) as provided by NCBI \(GRCh38\, 2013\-12\-17\) and stored in Biostrings objects.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Hsapiens.NCBI.GRCh38.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Hsapiens.NCBI.GRCh38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.hsapiens.ncbi.grch38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ncbi.grch38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ncbi.grch38/meta.yaml>`_
 

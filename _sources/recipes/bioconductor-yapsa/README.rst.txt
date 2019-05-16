@@ -11,7 +11,7 @@ bioconductor-yapsa
 
    This package provides functions and routines useful in the analysis of somatic signatures \(cf. L. Alexandrov et al.\, Nature 2013\). In particular\, functions to perform a signature analysis with known signatures \(LCD \= linear combination decomposition\) and a signature analysis on stratified mutational catalogue \(SMC \= stratify mutational catalogue\) are provided.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/YAPSA.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/YAPSA.html
    :license: GPL-3
    :recipe: /`bioconductor-yapsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yapsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yapsa/meta.yaml>`_
    :links: biotools: :biotools:`yapsa`, doi: :doi:`10.1038/nmeth.3252`

@@ -11,7 +11,7 @@ bioconductor-netbiov
 
    A package that provides an effective visualization of large biological networks
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/netbiov.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/netbiov.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-netbiov <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netbiov>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netbiov/meta.yaml>`_
    :links: biotools: :biotools:`netbiov`, doi: :doi:`10.1093/bioinformatics/btu384`

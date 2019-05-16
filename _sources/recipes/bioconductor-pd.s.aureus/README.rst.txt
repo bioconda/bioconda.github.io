@@ -11,7 +11,7 @@ bioconductor-pd.s.aureus
 
    Platform Design Info for The Manufacturer\'s Name S\_aureus
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/pd.s.aureus.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.s.aureus.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.s.aureus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.s.aureus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.s.aureus/meta.yaml>`_
 

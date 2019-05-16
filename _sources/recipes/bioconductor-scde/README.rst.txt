@@ -11,7 +11,7 @@ bioconductor-scde
 
    The scde package implements a set of statistical methods for analyzing single\-cell RNA\-seq data. scde fits individual error models for single\-cell RNA\-seq measurements. These models can then be used for assessment of differential expression between groups of cells\, as well as other types of analysis. The scde package also contains the pagoda framework which applies pathway and gene set overdispersion analysis to identify and characterize putative cell subpopulations based on transcriptional signatures. The overall approach to the differential expression analysis is detailed in the following publication\: \"Bayesian approach to single\-cell differential expression analysis\" \(Kharchenko PV\, Silberstein L\, Scadden DT\, Nature Methods\, doi\: 10.1038\/nmeth.2967\). The overall approach to subpopulation identification and characterization is detailed in the following pre\-print\: \"Characterizing transcriptional heterogeneity through pathway and gene set overdispersion analysis\" \(Fan J\, Salathia N\, Liu R\, Kaeser G\, Yung Y\, Herman J\, Kaper F\, Fan JB\, Zhang K\, Chun J\, and Kharchenko PV\, Nature Methods\, doi\:10.1038\/nmeth.3734\).
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/scde.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/scde.html
    :license: GPL-2
    :recipe: /`bioconductor-scde <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scde>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scde/meta.yaml>`_
    :links: biotools: :biotools:`scde`, doi: :doi:`10.1038/nmeth.2967`

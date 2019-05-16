@@ -11,7 +11,7 @@ bioconductor-vulcandata
 
    This package provides a dummy regulatory network and ChIP\-Seq dataset for running examples in the vulcan package
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/vulcandata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/vulcandata.html
    :license: LGPL-3
    :recipe: /`bioconductor-vulcandata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vulcandata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vulcandata/meta.yaml>`_
 

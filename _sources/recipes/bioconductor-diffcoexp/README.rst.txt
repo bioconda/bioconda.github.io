@@ -11,7 +11,7 @@ bioconductor-diffcoexp
 
    A tool for the identification of differentially coexpressed links \(DCLs\) and differentially coexpressed genes \(DCGs\). DCLs are gene pairs with significantly different correlation coefficients under two conditions. DCGs are genes with significantly more DCLs than by chance.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/diffcoexp.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/diffcoexp.html
    :license: GPL (>2)
    :recipe: /`bioconductor-diffcoexp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffcoexp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffcoexp/meta.yaml>`_
 

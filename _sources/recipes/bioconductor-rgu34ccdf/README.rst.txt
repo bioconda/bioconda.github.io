@@ -11,7 +11,7 @@ bioconductor-rgu34ccdf
 
    A package containing an environment representing the RG\_U34C.cdf file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/rgu34ccdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/rgu34ccdf.html
    :license: LGPL
    :recipe: /`bioconductor-rgu34ccdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgu34ccdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgu34ccdf/meta.yaml>`_
 

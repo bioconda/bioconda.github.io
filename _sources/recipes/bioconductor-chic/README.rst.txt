@@ -11,7 +11,7 @@ bioconductor-chic
 
    Quality control \(QC\) pipeline for ChIP\-seq data using a comprehensive set of QC metrics\, including previously proposed metrics as well as novel ones\, based on local characteristics of the enrichment profile. The package provides functions to calculate a set of QC metrics\, a compendium with reference values and machine learning models to score sample quality.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ChIC.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ChIC.html
    :license: GPL-2
    :recipe: /`bioconductor-chic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chic/meta.yaml>`_
 

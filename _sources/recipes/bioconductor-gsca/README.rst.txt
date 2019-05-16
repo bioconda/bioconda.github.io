@@ -11,7 +11,7 @@ bioconductor-gsca
 
    GSCA takes as input several lists of activated and repressed genes. GSCA then searches through a compendium of publicly available gene expression profiles for biological contexts that are enriched with a specified pattern of gene expression. GSCA provides both traditional R functions and interactive\, user\-friendly user interface.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GSCA.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GSCA.html
    :license: GPL(>=2)
    :recipe: /`bioconductor-gsca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsca/meta.yaml>`_
    :links: biotools: :biotools:`gsca`

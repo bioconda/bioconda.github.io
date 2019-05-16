@@ -11,7 +11,7 @@ bioconductor-timerquant
 
    Supplementary Data package for tandem timer methods paper by Barry et al. \(2015\) including TimerQuant shiny applications.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/TimerQuant.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/TimerQuant.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-timerquant <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timerquant>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timerquant/meta.yaml>`_
 

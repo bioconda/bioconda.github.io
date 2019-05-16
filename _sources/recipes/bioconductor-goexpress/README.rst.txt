@@ -11,7 +11,7 @@ bioconductor-goexpress
 
    The package contains methods to visualise the expression profile of genes from a microarray or RNA\-seq experiment\, and offers a supervised clustering approach to identify GO terms containing genes with expression levels that best classify two or more predefined groups of samples. Annotations for the genes present in the expression dataset may be obtained from Ensembl through the biomaRt package\, if not provided by the user. The default random forest framework is used to evaluate the capacity of each gene to cluster samples according to the factor of interest. Finally\, GO terms are scored by averaging the rank \(alternatively\, score\) of their respective gene sets to cluster the samples. P\-values may be computed to assess the significance of GO term ranking. Visualisation function include gene expression profile\, gene ontology\-based heatmaps\, and hierarchical clustering of experimental samples using gene expression data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GOexpress.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GOexpress.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-goexpress <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-goexpress>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-goexpress/meta.yaml>`_
 

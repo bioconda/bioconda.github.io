@@ -11,7 +11,7 @@ bioconductor-methylaid
 
    A visual and interactive web application using RStudio\'s shiny package. Bad quality samples are detected using sample\-dependent and sample\-independent controls present on the array and user adjustable thresholds. In depth exploration of bad quality samples can be performed using several interactive diagnostic plots of the quality control probes present on the array. Furthermore\, the impact of any batch effect provided by the user can be explored.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MethylAid.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MethylAid.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-methylaid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylaid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylaid/meta.yaml>`_
 

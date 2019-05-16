@@ -11,7 +11,7 @@ bioconductor-soybeanprobe
 
    This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Soybean\\\_probe\\\_tab.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/soybeanprobe.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/soybeanprobe.html
    :license: LGPL
    :recipe: /`bioconductor-soybeanprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-soybeanprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-soybeanprobe/meta.yaml>`_
 

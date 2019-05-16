@@ -11,7 +11,7 @@ bioconductor-normalize450k
 
    Precise measurements are important for epigenome\-wide studies investigating DNA methylation in whole blood samples\, where effect sizes are expected to be small in magnitude. The 450K platform is often affected by batch effects and proper preprocessing is recommended. This package provides functions to read and normalize 450K \'.idat\' files. The normalization corrects for dye bias and biases related to signal intensity and methylation of probes using local regression. No adjustment for probe type bias is performed to avoid the trade\-off of precision for accuracy of beta\-values.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/normalize450K.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/normalize450K.html
    :license: BSD_2_clause + file LICENSE
    :recipe: /`bioconductor-normalize450k <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-normalize450k>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-normalize450k/meta.yaml>`_
 

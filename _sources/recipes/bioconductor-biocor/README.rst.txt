@@ -11,7 +11,7 @@ bioconductor-biocor
 
    Calculates functional similarities based on the pathways described on KEGG and REACTOME or in gene sets. These similarities can be calculated for pathways or gene sets\, genes\, or clusters and combined with other similarities. They can be used to improve networks\, gene selection\, testing relationships...
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BioCor.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BioCor.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-biocor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocor/meta.yaml>`_
 

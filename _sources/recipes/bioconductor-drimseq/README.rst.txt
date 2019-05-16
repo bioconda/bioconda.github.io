@@ -11,7 +11,7 @@ bioconductor-drimseq
 
    The package provides two frameworks. One for the differential transcript usage analysis between different conditions and one for the tuQTL analysis. Both are based on modeling the counts of genomic features \(i.e.\, transcripts\) with the Dirichlet\-multinomial distribution. The package also makes available functions for visualization and exploration of the data and results.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DRIMSeq.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DRIMSeq.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-drimseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drimseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drimseq/meta.yaml>`_
    :links: biotools: :biotools:`drimseq`

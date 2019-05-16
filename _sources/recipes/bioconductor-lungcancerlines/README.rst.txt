@@ -11,7 +11,7 @@ bioconductor-lungcancerlines
 
    Reads from an RNA\-seq experiment between two lung cancer cell lines\: H1993 \(met\) and H2073 \(primary\). The reads are stored as Fastq files and are meant for use with the TP53Genome object in the gmapR package.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/LungCancerLines.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/LungCancerLines.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lungcancerlines <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lungcancerlines>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lungcancerlines/meta.yaml>`_
 

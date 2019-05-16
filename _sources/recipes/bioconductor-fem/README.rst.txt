@@ -11,7 +11,7 @@ bioconductor-fem
 
    The FEM package performs a systems\-level integrative analysis of DNA methylation and gene expression data. It seeks modules of functionally related genes which exhibit differential promoter DNA methylation and differential expression\, where an inverse association between promoter DNA methylation and gene expression is assumed. For full details\, see Jiao et al Bioinformatics 2014.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/FEM.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/FEM.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-fem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fem/meta.yaml>`_
 

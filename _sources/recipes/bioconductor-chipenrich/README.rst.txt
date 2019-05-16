@@ -11,7 +11,7 @@ bioconductor-chipenrich
 
    ChIP\-Enrich performs gene set enrichment testing using peaks called from a ChIP\-seq experiment. The method empirically corrects for confounding factors such as the length of genes\, and the mappability of the sequence surrounding genes.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/chipenrich.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/chipenrich.html
    :license: GPL-3
    :recipe: /`bioconductor-chipenrich <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipenrich>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipenrich/meta.yaml>`_
 

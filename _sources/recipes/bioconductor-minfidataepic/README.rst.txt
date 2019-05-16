@@ -11,7 +11,7 @@ bioconductor-minfidataepic
 
    Data from 3 technical replicates of the cell line GM12878 from the EPIC methylation array.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/minfiDataEPIC.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/minfiDataEPIC.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-minfidataepic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minfidataepic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minfidataepic/meta.yaml>`_
 

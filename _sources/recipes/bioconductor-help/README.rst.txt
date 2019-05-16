@@ -11,7 +11,7 @@ bioconductor-help
 
    The package contains a modular pipeline for analysis of HELP microarray data\, and includes graphical and mathematical tools with more general applications.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/HELP.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/HELP.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-help <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-help>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-help/meta.yaml>`_
    :links: biotools: :biotools:`help`, doi: :doi:`10.1038/nmeth.3252`

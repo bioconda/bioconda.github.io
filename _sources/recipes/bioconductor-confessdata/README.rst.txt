@@ -11,7 +11,7 @@ bioconductor-confessdata
 
    Example text\-converted C01 image files for use in the CONFESS Bioconductor package.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/CONFESSdata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/CONFESSdata.html
    :license: GPL-2
    :recipe: /`bioconductor-confessdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-confessdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-confessdata/meta.yaml>`_
 

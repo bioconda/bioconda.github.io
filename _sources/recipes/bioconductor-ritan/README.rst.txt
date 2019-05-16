@@ -11,7 +11,7 @@ bioconductor-ritan
 
    Tools for comprehensive gene set enrichment and extraction of multi\-resource high confidence subnetworks. RITAN facilitates bioinformatic tasks for enabling network biology research.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RITAN.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RITAN.html
    :license: file LICENSE
    :recipe: /`bioconductor-ritan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ritan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ritan/meta.yaml>`_
 

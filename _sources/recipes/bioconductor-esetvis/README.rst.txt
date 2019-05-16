@@ -11,7 +11,7 @@ bioconductor-esetvis
 
    Utility functions for visualization of expressionSet \(or SummarizedExperiment\) Bioconductor object\, including spectral map\, tsne and linear discriminant analysis. Static plot via the ggplot2 package or interactive via the ggvis or rbokeh packages are available.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/esetVis.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/esetVis.html
    :license: GPL-3
    :recipe: /`bioconductor-esetvis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-esetvis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-esetvis/meta.yaml>`_
    :links: biotools: :biotools:`esetvis`, doi: :doi:`10.1038/nmeth.3252`

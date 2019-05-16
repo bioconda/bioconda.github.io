@@ -11,7 +11,7 @@ bioconductor-frmaexampledata
 
    Data files used by the examples in frma and frmaTools packages
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/frmaExampleData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/frmaExampleData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-frmaexampledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-frmaexampledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-frmaexampledata/meta.yaml>`_
 

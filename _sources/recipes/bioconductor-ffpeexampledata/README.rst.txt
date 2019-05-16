@@ -11,7 +11,7 @@ bioconductor-ffpeexampledata
 
    A subset of GSE17565 \(April et al. 2009\) containing 32 FFPE samples of Burkitts Lymphoma and Breast Adenocarcinoma\, with a dilution series in technical duplicate.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/ffpeExampleData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ffpeExampleData.html
    :license: GPL (>2)
    :recipe: /`bioconductor-ffpeexampledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ffpeexampledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ffpeexampledata/meta.yaml>`_
 

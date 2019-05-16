@@ -11,7 +11,7 @@ bioconductor-bgx
 
    Bayesian integrated analysis of Affymetrix GeneChips
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/bgx.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/bgx.html
    :license: GPL-2
    :recipe: /`bioconductor-bgx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bgx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bgx/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-graphalignment
 
    Graph alignment is an extension package for the R programming environment which provides functions for finding an alignment between two networks based on link and node similarity scores. \(J. Berg and M. Laessig\, \"Cross\-species analysis of biological networks by Bayesian alignment\"\, PNAS 103 \(29\)\, 10967\-10972 \(2006\)\)
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GraphAlignment.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GraphAlignment.html
    :license: file LICENSE
    :recipe: /`bioconductor-graphalignment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graphalignment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graphalignment/meta.yaml>`_
 

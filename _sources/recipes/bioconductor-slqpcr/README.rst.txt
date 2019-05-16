@@ -11,7 +11,7 @@ bioconductor-slqpcr
 
    Functions for analysis of real\-time quantitative PCR data at SIRS\-Lab GmbH
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SLqPCR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SLqPCR.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-slqpcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slqpcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slqpcr/meta.yaml>`_
    :links: biotools: :biotools:`slqpcr`, doi: :doi:`10.1038/nmeth.3252`

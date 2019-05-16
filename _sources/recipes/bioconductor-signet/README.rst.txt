@@ -11,7 +11,7 @@ bioconductor-signet
 
    An R package to detect selection in biological pathways. Using gene selection scores and biological pathways data\, one can search for high\-scoring subnetworks of genes within pathways and test their significance.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/signet.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/signet.html
    :license: GPL-2
    :recipe: /`bioconductor-signet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-signet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-signet/meta.yaml>`_
 

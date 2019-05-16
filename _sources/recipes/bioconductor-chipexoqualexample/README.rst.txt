@@ -11,7 +11,7 @@ bioconductor-chipexoqualexample
 
    Data for the ChIPexoQual package\, consisting of \(3\) chromosome 1 aligned reads from a ChIP\-exo experiment for FoxA1 in mouse liver cell lines aligned to the mm9 genome.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/ChIPexoQualExample.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ChIPexoQualExample.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-chipexoqualexample <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipexoqualexample>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipexoqualexample/meta.yaml>`_
 

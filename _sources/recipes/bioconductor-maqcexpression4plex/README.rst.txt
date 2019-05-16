@@ -11,7 +11,7 @@ bioconductor-maqcexpression4plex
 
    Data from human \(HG18\) 4plex NimbleGen array. It has 24k genes with 3 60mer probes per gene.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/maqcExpression4plex.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/maqcExpression4plex.html
    :license: GPL
    :recipe: /`bioconductor-maqcexpression4plex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maqcexpression4plex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maqcexpression4plex/meta.yaml>`_
 

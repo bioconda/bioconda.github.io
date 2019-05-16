@@ -11,7 +11,7 @@ bioconductor-hgu133plus2cellscore
 
    The CellScore Standard Dataset contains expression data from a wide variety of human cells and tissues\, which should be used as standard cell types in the calculation of the CellScore. All data was curated from public databases such as Gene Expression Omnibus \(https\:\/\/www.ncbi.nlm.nih.gov\/geo\/\) or ArrayExpress \(https\:\/\/www.ebi.ac.uk\/arrayexpress\/\). This standard dataset only contains data from the Affymetrix GeneChip Human Genome U133 Plus 2.0 microarrays. Samples were manually annotated using the database information or consulting the publications in which the datasets originated. The sample annotations are stored in the phenoData slot of the expressionSet object. Raw data \(CEL files\) were processed with the affy package to generate present\/absent calls \(mas5calls\) and background\-subtracted values\, which were then normalized by the R\-package yugene to yield the final expression values for the standard expression matrix. The annotation table for the microarray was retrieved from the BioC annotation package hgu133plus2. All data are stored in an expressionSet object.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/hgu133plus2CellScore.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/hgu133plus2CellScore.html
    :license: GPL-3
    :recipe: /`bioconductor-hgu133plus2cellscore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133plus2cellscore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133plus2cellscore/meta.yaml>`_
 

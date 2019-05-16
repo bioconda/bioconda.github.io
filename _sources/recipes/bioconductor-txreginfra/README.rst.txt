@@ -11,7 +11,7 @@ bioconductor-txreginfra
 
    This package provides interfaces to genomic metadata employed in regulatory network creation\, with a focus on noSQL solutions.  Currently quantitative representations of eQTLs\, DnaseI hypersensitivity sites and digital genomic footprints are assembled using an out\-of\-memory extension of the RaggedExperiment API.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/TxRegInfra.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/TxRegInfra.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txreginfra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txreginfra>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txreginfra/meta.yaml>`_
 

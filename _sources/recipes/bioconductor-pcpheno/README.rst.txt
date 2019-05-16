@@ -11,7 +11,7 @@ bioconductor-pcpheno
 
    Tools to integrate\, annotate\, and link phenotypes to cellular organizational units such as protein complexes and pathways.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/PCpheno.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PCpheno.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pcpheno <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcpheno>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcpheno/meta.yaml>`_
    :links: biotools: :biotools:`pcpheno`, doi: :doi:`10.1038/nmeth.3252`

@@ -11,7 +11,7 @@ bioconductor-illumina450probevariants.db
 
    Includes details on variants for each probe on the 450k bead chip for each of the four populations \(Asian\, American\, African and European\)
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/Illumina450ProbeVariants.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/Illumina450ProbeVariants.db.html
    :license: GPL-3
    :recipe: /`bioconductor-illumina450probevariants.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illumina450probevariants.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illumina450probevariants.db/meta.yaml>`_
 

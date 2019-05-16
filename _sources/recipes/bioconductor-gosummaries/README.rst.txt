@@ -11,7 +11,7 @@ bioconductor-gosummaries
 
    A package to visualise Gene Ontology \(GO\) enrichment analysis results on gene lists arising from different analyses such clustering or PCA. The significant GO categories are visualised as word clouds that can be combined with different plots summarising the underlying data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GOsummaries.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GOsummaries.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-gosummaries <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gosummaries>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gosummaries/meta.yaml>`_
 

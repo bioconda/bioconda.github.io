@@ -11,7 +11,7 @@ bioconductor-geometadb
 
    The NCBI Gene Expression Omnibus \(GEO\) represents the largest public repository of microarray data. However\, finding data of interest can be challenging using current tools. GEOmetadb is an attempt to make access to the metadata associated with samples\, platforms\, and datasets much more feasible. This is accomplished by parsing all the NCBI GEO metadata into a SQLite database that can be stored and queried locally. GEOmetadb is simply a thin wrapper around the SQLite database along with associated documentation. Finally\, the SQLite database is updated regularly as new data is added to GEO and can be downloaded at will for the most up\-to\-date metadata. GEOmetadb paper\: http\:\/\/bioinformatics.oxfordjournals.org\/cgi\/content\/short\/24\/23\/2798 .
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GEOmetadb.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GEOmetadb.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-geometadb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geometadb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geometadb/meta.yaml>`_
    :links: biotools: :biotools:`geometadb`

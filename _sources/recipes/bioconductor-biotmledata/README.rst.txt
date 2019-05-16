@@ -11,7 +11,7 @@ bioconductor-biotmledata
 
    Microarray data \(from the Illumina Ref\-8 BeadChips platform\) and phenotype\-level data from an epidemiological investigation of benzene exposure\, packaged using \"SummarizedExperiemnt\"\, for use as an example with the \"biotmle\" R package.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/biotmleData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/biotmleData.html
    :license: file LICENSE
    :recipe: /`bioconductor-biotmledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biotmledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biotmledata/meta.yaml>`_
 

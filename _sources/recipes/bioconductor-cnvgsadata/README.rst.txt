@@ -11,7 +11,7 @@ bioconductor-cnvgsadata
 
    This package contains the data used in the vignette of the cnvGSA package.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/cnvGSAdata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/cnvGSAdata.html
    :license: LGPL
    :recipe: /`bioconductor-cnvgsadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvgsadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvgsadata/meta.yaml>`_
 

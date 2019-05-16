@@ -11,7 +11,7 @@ bioconductor-ddpcrclust
 
    The ddPCRclust algorithm can automatically quantify the CPDs of non\-orthogonal ddPCR reactions with up to four targets. In order to determine the correct droplet count for each target\, it is crucial to both identify all clusters and label them correctly based on their position. For more information on what data can be analyzed and how a template needs to be formatted\, please check the vignette.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ddPCRclust.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ddPCRclust.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ddpcrclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ddpcrclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ddpcrclust/meta.yaml>`_
 

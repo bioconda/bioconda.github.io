@@ -11,7 +11,7 @@ bioconductor-prebsdata
 
    This package contains data required to run examples in \'prebs\' package. The data files include\: 1\) Small sample bam files for demonstration purposes 2\) Probe sequence mappings for Custom CDF \(taken from http\:\/\/brainarray.mbni.med.umich.edu\/brainarray\/Database\/CustomCDF\/genomic\_curated\_CDF.asp\) 3\) Probe sequence mappings for manufacturer\'s CDF \(manually created using bowtie\)
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/prebsdata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/prebsdata.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-prebsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prebsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prebsdata/meta.yaml>`_
 

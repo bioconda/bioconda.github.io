@@ -11,7 +11,7 @@ bioconductor-ecolileucine
 
    Experimental data with Affymetrix E. coli chips\, as reported in She\-pin Hung\, Pierre Baldi\, and G. Wesley Hatfield\, J. Biol. Chem.\, Vol. 277\, Issue 43\, 40309\-40323\, October 25\, 2002
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/ecoliLeucine.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ecoliLeucine.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ecolileucine <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecolileucine>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecolileucine/meta.yaml>`_
 

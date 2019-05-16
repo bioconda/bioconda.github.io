@@ -11,7 +11,7 @@ bioconductor-mitoode
 
    The package contains the methods to fit a cell\-cycle model on cell count data and the code to reproduce the results shown in our paper \"Dynamical modelling of phenotypes in a genome\-wide RNAi live\-cell imaging assay\" by Pau\, G.\, Walter\, T.\, Neumann\, B.\, Heriche\, J.\-K.\, Ellenberg\, J.\, \& Huber\, W.\, BMC Bioinformatics \(2013\)\, 14\(1\)\, 308. doi\:10.1186\/1471\-2105\-14\-308
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/mitoODE.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/mitoODE.html
    :license: LGPL
    :recipe: /`bioconductor-mitoode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mitoode>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mitoode/meta.yaml>`_
 

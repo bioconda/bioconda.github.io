@@ -11,7 +11,7 @@ bioconductor-normqpcr
 
    Functions for the selection of optimal reference genes and the normalisation of real\-time quantitative PCR data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/NormqPCR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/NormqPCR.html
    :license: LGPL-3
    :recipe: /`bioconductor-normqpcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-normqpcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-normqpcr/meta.yaml>`_
 

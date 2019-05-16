@@ -11,7 +11,7 @@ bioconductor-methylmnm
 
    To give the exactly p\-value and q\-value of MeDIP\-seq and MRE\-seq data for different samples comparation.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/methylMnM.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/methylMnM.html
    :license: GPL-3
    :recipe: /`bioconductor-methylmnm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylmnm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylmnm/meta.yaml>`_
    :links: biotools: :biotools:`methylmnm`, doi: :doi:`10.1101/gr.156539.113`

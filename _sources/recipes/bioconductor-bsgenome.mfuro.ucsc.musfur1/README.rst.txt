@@ -11,7 +11,7 @@ bioconductor-bsgenome.mfuro.ucsc.musfur1
 
    Full genome sequences for Mustela putorius furo \(Ferret\) as provided by UCSC \(musFur1\, Apr. 2011\) and stored in Biostrings objects.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Mfuro.UCSC.musFur1.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Mfuro.UCSC.musFur1.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.mfuro.ucsc.musfur1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mfuro.ucsc.musfur1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mfuro.ucsc.musfur1/meta.yaml>`_
 

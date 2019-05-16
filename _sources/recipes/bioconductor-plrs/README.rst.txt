@@ -11,7 +11,7 @@ bioconductor-plrs
 
    The present package implements a flexible framework for modeling the relationship between DNA copy number and gene expression data using Piecewise Linear Regression Splines \(PLRS\).
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/plrs.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/plrs.html
    :license: GPL (>=2.0)
    :recipe: /`bioconductor-plrs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plrs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plrs/meta.yaml>`_
 

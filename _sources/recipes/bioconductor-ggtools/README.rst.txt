@@ -11,7 +11,7 @@ bioconductor-ggtools
 
    software and data for analyses in genetics of gene expression and\/or DNA methylation
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GGtools.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GGtools.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ggtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggtools/meta.yaml>`_
    :links: biotools: :biotools:`ggtools`

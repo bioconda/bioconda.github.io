@@ -9,9 +9,9 @@ bioconductor-curatedtcgadata
 .. conda:recipe:: bioconductor-curatedtcgadata
    :replaces_section_title:
 
-   This package provides publicly available data from The Cancer Genome Atlas \(TCGA\) Bioconductor MultiAssayExperiment class objects. These objects integrate multiple assays \(e.g. RNA\-seq\, copy number\, mutation\, microRNA\, protein\, and others\) with clinical \/ pathological data. The MultiAssayExperiment class links assay barcodes with patient IDs\, enabling harmonized subsetting of rows \(features\) and columns \(patients \/ samples\) across the entire experiment.
+   This package provides publicly available data from The Cancer Genome Atlas \(TCGA\) as MultiAssayExperiment objects. MultiAssayExperiment integrates multiple assays \(e.g.\, RNA\-seq\, copy number\, mutation\, microRNA\, protein\, and others\) with clinical \/ pathological data. It also links assay barcodes with patient identifiers\, enabling harmonized subsetting of rows \(features\) and columns \(patients \/ samples\) across the entire multi\-\'omics experiment.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/curatedTCGAData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/curatedTCGAData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-curatedtcgadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedtcgadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedtcgadata/meta.yaml>`_
 

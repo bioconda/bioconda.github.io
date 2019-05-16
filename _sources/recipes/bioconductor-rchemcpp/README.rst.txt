@@ -11,7 +11,7 @@ bioconductor-rchemcpp
 
    The Rchemcpp package implements the marginalized graph kernel and extensions\, Tanimoto kernels\, graph kernels\, pharmacophore and 3D kernels suggested for measuring the similarity of molecules.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Rchemcpp.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Rchemcpp.html
    :license: GPL (>= 2.1)
    :recipe: /`bioconductor-rchemcpp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rchemcpp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rchemcpp/meta.yaml>`_
    :links: biotools: :biotools:`rchemcpp`

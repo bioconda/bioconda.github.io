@@ -9,9 +9,9 @@ bioconductor-biocneighbors
 .. conda:recipe:: bioconductor-biocneighbors
    :replaces_section_title:
 
-   Implements exact and approximate methods for nearest neighbor detection\, in a framework that allows them to be easily switched within Bioconductor packages or workflows. The exact algorithm is implemented using pre\-clustering with the k\-means algorithm\, as described by Wang \(2012\). This is faster than conventional kd\-trees for neighbor searching in higher \(\> 20\) dimensional data. The approximate method uses the Annoy algorithm. Functions are also provided to search for all neighbors within a given distance. Parallelization is achieved for all methods using the BiocParallel framework.
+   Implements exact and approximate methods for nearest neighbor detection\, in a framework that allows them to be easily switched within Bioconductor packages or workflows. Exact searches can be performed using the k\-means for k\-nearest neighbors algorithm or with vantage point trees. Approximate searches can be performed using the Annoy or HNSW libraries. Searching on either Euclidean or Manhattan distances is supported. Parallelization is achieved for all methods by using BiocParallel. Functions are also provided to search for all neighbors within a given distance.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BiocNeighbors.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BiocNeighbors.html
    :license: GPL-3
    :recipe: /`bioconductor-biocneighbors <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocneighbors>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocneighbors/meta.yaml>`_
 

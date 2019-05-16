@@ -11,7 +11,7 @@ bioconductor-ngscopy
 
    NGScopy provides a quantitative caller for detecting copy number variations in next generation sequencing \(NGS\)\, including whole genome sequencing \(WGS\)\, whole exome sequencing \(WES\) and targeted panel sequencing \(TPS\). The caller can be parallelized by chromosomes to use multiple processors\/cores on one computer.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/NGScopy.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/NGScopy.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-ngscopy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ngscopy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ngscopy/meta.yaml>`_
 

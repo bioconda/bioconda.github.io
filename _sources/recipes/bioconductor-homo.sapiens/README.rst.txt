@@ -11,7 +11,7 @@ bioconductor-homo.sapiens
 
    Contains the Homo.sapiens object to access data from several related annotation packages.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/Homo.sapiens.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/Homo.sapiens.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-homo.sapiens <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-homo.sapiens>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-homo.sapiens/meta.yaml>`_
 

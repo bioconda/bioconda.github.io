@@ -22,7 +22,7 @@ picrust2
 
    |downloads_picrust2| |docker_picrust2|
 
-   :versions: 2.1.3_b-0, 2.1.2_b-0, 2.1.1_b-0, 2.1.0_b-0, 2.0.3_b-0
+   :versions: 2.1.4_b-0, 2.1.3_b-0, 2.1.2_b-0, 2.1.1_b-0, 2.1.0_b-0, 2.0.3_b-0
    
    :depends biom-format: 2.1.7.*
    :depends epa-ng: 0.3.5.*
@@ -37,7 +37,7 @@ picrust2
    :depends pytest-cov: 2.6.1.*
    :depends python: >=3.5,<3.7
    :depends r-base: 3.5.1.*
-   :depends r-castor: 1.3.4.*
+   :depends r-castor: 1.3.6.*
    :depends scipy: 1.2.1.*
    :depends wget: 
    :requirements:

@@ -11,7 +11,7 @@ bioconductor-ritandata
 
    Data such as is contained in these two R data files in this package are required for the RITAN package. Users may use their own or additional resources in conjunction with RITANdata. See the RITAN vignettes for more information.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RITANdata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RITANdata.html
    :license: file LICENSE
    :recipe: /`bioconductor-ritandata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ritandata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ritandata/meta.yaml>`_
 

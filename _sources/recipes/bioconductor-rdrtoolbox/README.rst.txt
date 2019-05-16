@@ -11,7 +11,7 @@ bioconductor-rdrtoolbox
 
    A package for nonlinear dimension reduction using the Isomap and LLE algorithm. It also includes a routine for computing the Davis\-Bouldin\-Index for cluster validation\, a plotting tool and a data generator for microarray gene expression data and for the Swiss Roll dataset.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RDRToolbox.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RDRToolbox.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-rdrtoolbox <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rdrtoolbox>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rdrtoolbox/meta.yaml>`_
 
@@ -22,7 +22,7 @@ bioconductor-rdrtoolbox
 
    |downloads_bioconductor-rdrtoolbox| |docker_bioconductor-rdrtoolbox|
 
-   :versions: 1.32.0-0
+   :versions: 1.34.0-0, 1.32.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-mass: 

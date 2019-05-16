@@ -11,7 +11,7 @@ bioconductor-flowchic
 
    A package to analyze flow cytometric data of complex microbial communities based on histogram images
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/flowCHIC.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flowCHIC.html
    :license: GPL-2
    :recipe: /`bioconductor-flowchic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowchic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowchic/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-listeretalbsseq
 
    Base resolution bisulfite sequencing data of Human DNA methylomes
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/ListerEtAlBSseq.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ListerEtAlBSseq.html
    :license: Artistic 2.0
    :recipe: /`bioconductor-listeretalbsseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-listeretalbsseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-listeretalbsseq/meta.yaml>`_
 

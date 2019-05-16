@@ -11,7 +11,7 @@ bioconductor-flowstats
 
    Methods and functionality to analyse flow data that is beyond the basic infrastructure provided by the flowCore package.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/flowStats.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flowStats.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowstats/meta.yaml>`_
 

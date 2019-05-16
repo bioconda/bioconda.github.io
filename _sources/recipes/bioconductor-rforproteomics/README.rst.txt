@@ -11,7 +11,7 @@ bioconductor-rforproteomics
 
    This package contains code to illustrate the \'Using R and Bioconductor for proteomics data analysis\' and \'Visualisation of proteomics data using R and Bioconductor\' manuscripts. The vignettes describe the code and data needed to reproduce the examples and figures described in the paper and functionality for proteomics visualisation. It also contain various function to discover R software for mass spectrometry and proteomics.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RforProteomics.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RforProteomics.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rforproteomics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rforproteomics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rforproteomics/meta.yaml>`_
 

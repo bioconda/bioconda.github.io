@@ -11,7 +11,7 @@ bioconductor-massir
 
    Predicts the sex of samples in gene expression microarray datasets
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/massiR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/massiR.html
    :license: GPL-3
    :recipe: /`bioconductor-massir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-massir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-massir/meta.yaml>`_
    :links: biotools: :biotools:`massir`

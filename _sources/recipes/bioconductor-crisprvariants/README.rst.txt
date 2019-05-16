@@ -11,7 +11,7 @@ bioconductor-crisprvariants
 
    CrispRVariants provides tools for analysing the results of a CRISPR\-Cas9 mutagenesis sequencing experiment\, or other sequencing experiments where variants within a given region are of interest. These tools allow users to localize variant allele combinations with respect to any genomic location \(e.g. the Cas9 cut site\)\, plot allele combinations and calculate mutation rates with flexible filtering of unrelated variants.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CrispRVariants.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CrispRVariants.html
    :license: GPL-2
    :recipe: /`bioconductor-crisprvariants <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprvariants>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprvariants/meta.yaml>`_
    :links: biotools: :biotools:`crisprvariants`

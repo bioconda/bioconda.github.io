@@ -11,7 +11,7 @@ bioconductor-profia
 
    Flow Injection Analysis coupled to High\-Resolution Mass Spectrometry is a promising approach for high\-throughput metabolomics. FIA\- HRMS data\, however\, cannot be pre\-processed with current software tools which rely on liquid chromatography separation\, or handle low resolution data only. Here we present the proFIA package\, which implements a new methodology to pre\-process FIA\-HRMS raw data \(netCDF\, mzData\, mzXML\, and mzML\) including noise modelling and injection peak reconstruction\, and generate the peak table. The workflow includes noise modelling\, band detection and filtering then signal matching and missing value imputation. The peak table can then be exported as a .tsv file for further analysis. Visualisations to assess the quality of the data and of the signal made are easely produced.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/proFIA.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/proFIA.html
    :license: CeCILL
    :recipe: /`bioconductor-profia <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-profia>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-profia/meta.yaml>`_
    :links: biotools: :biotools:`profia`, doi: :doi:`10.1038/nmeth.3252`

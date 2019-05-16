@@ -11,7 +11,7 @@ bioconductor-xina
 
    An intuitive R package simplifies network analyses output from multiplexed high\-dimensional proteomics\/trascriptomics kinetics data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/XINA.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/XINA.html
    :license: GPL-3
    :recipe: /`bioconductor-xina <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xina>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xina/meta.yaml>`_
 

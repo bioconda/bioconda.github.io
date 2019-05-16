@@ -11,7 +11,7 @@ bioconductor-oncoscore
 
    OncoScore is a tool to measure the association of genes to cancer based on citation frequencies in biomedical literature. The score is evaluated from PubMed literature by dynamically updatable web queries.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/OncoScore.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/OncoScore.html
    :license: file LICENSE
    :recipe: /`bioconductor-oncoscore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oncoscore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oncoscore/meta.yaml>`_
 

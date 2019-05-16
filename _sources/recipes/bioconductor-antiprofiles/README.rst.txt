@@ -11,7 +11,7 @@ bioconductor-antiprofiles
 
    Implements gene expression anti\-profiles as described in Corrada Bravo et al.\, BMC Bioinformatics 2012\, 13\:272 doi\:10.1186\/1471\-2105\-13\-272.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/antiProfiles.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/antiProfiles.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-antiprofiles <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-antiprofiles>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-antiprofiles/meta.yaml>`_
    :links: biotools: :biotools:`antiprofiles`, doi: :doi:`10.1186/1471-2105-13-272`

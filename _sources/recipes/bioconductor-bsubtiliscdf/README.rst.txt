@@ -11,7 +11,7 @@ bioconductor-bsubtiliscdf
 
    A package containing an environment representing the Bsubtilis.CDF file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/bsubtiliscdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/bsubtiliscdf.html
    :license: LGPL
    :recipe: /`bioconductor-bsubtiliscdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsubtiliscdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsubtiliscdf/meta.yaml>`_
 

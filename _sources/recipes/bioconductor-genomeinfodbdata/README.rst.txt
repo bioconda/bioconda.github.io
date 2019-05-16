@@ -11,7 +11,7 @@ bioconductor-genomeinfodbdata
 
    Files for mapping between NCBI taxonomy ID and species. Used by functions in the GenomeInfoDb package.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/GenomeInfoDbData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/GenomeInfoDbData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomeinfodbdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomeinfodbdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomeinfodbdata/meta.yaml>`_
 

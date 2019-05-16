@@ -11,7 +11,7 @@ bioconductor-tximportdata
 
    This package provides the output of running various transcript abundance quantifiers on a set of 6 RNA\-seq samples from the GEUVADIS project. The quantifiers were Cufflinks\, RSEM\, kallisto\, Salmon and Sailfish. For details on version numbers\, sample information\, and details on calls\, see the package vignette.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/tximportData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/tximportData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-tximportdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tximportdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tximportdata/meta.yaml>`_
 

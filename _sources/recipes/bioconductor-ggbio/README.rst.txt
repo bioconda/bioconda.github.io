@@ -11,7 +11,7 @@ bioconductor-ggbio
 
    The ggbio package extends and specializes the grammar of graphics for biological data. The graphics are designed to answer common scientific questions\, in particular those often asked of high throughput genomics data. All core Bioconductor data structures are supported\, where appropriate. The package supports detailed views of particular genomic regions\, as well as genome\-wide overviews. Supported overviews include ideograms and grand linear views. High\-level plots include sequence fragment length\, edge\-linked interval to data view\, mismatch pileup\, and several splicing summaries.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ggbio.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ggbio.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ggbio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggbio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggbio/meta.yaml>`_
    :links: biotools: :biotools:`ggbio`

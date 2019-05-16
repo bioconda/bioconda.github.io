@@ -11,7 +11,7 @@ bioconductor-epivizrdata
 
    Serve data from Bioconductor Objects through a WebSocket connection.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/epivizrData.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/epivizrData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-epivizrdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizrdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizrdata/meta.yaml>`_
    :links: biotools: :biotools:`epivizrdata`, doi: :doi:`10.1038/nmeth.3252`

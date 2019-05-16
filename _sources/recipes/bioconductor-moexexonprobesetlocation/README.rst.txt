@@ -11,7 +11,7 @@ bioconductor-moexexonprobesetlocation
 
    This package was automatically created by package AnnotationForge version 1.7.17. The exon\-level probeset genome location was retrieved from Netaffx using AffyCompatible.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/MoExExonProbesetLocation.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/MoExExonProbesetLocation.html
    :license: LGPL
    :recipe: /`bioconductor-moexexonprobesetlocation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moexexonprobesetlocation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moexexonprobesetlocation/meta.yaml>`_
 

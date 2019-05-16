@@ -11,7 +11,7 @@ bioconductor-transite
 
    transite is a computational method that allows comprehensive analysis of the regulatory role of RNA\-binding proteins in various cellular processes by leveraging preexisting gene expression data and current knowledge of binding preferences of RNA\-binding proteins.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/transite.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/transite.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-transite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-transite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-transite/meta.yaml>`_
 

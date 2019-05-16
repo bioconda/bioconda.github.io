@@ -11,7 +11,7 @@ bioconductor-variantannotation
 
    Annotate variants\, compute amino acid coding changes\, predict coding outcomes.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/VariantAnnotation.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/VariantAnnotation.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-variantannotation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-variantannotation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-variantannotation/meta.yaml>`_
    :links: biotools: :biotools:`variantannotation`

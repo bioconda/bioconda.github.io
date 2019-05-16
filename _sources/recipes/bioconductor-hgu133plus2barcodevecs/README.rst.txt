@@ -11,7 +11,7 @@ bioconductor-hgu133plus2barcodevecs
 
    Data used by the barcode package for microarrays of type hgu133plus2.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/hgu133plus2barcodevecs.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/hgu133plus2barcodevecs.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-hgu133plus2barcodevecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133plus2barcodevecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133plus2barcodevecs/meta.yaml>`_
 

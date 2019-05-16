@@ -11,7 +11,7 @@ bioconductor-champ
 
    The package includes quality control metrics\, a selection of normalization methods and novel methods to identify differentially methylated regions and to highlight copy number alterations.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/ChAMP.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ChAMP.html
    :license: GPL-3
    :recipe: /`bioconductor-champ <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-champ>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-champ/meta.yaml>`_
 

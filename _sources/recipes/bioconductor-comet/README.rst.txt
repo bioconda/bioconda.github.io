@@ -11,7 +11,7 @@ bioconductor-comet
 
    Visualisation of EWAS results in a genomic region. In addition to phenotype\-association P\-values\, coMET also generates plots of co\-methylation patterns and provides a series of annotation tracks. It can be used to other omic\-wide association scans as long as the data can be translated to genomic level and for any species.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/coMET.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/coMET.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-comet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-comet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-comet/meta.yaml>`_
 

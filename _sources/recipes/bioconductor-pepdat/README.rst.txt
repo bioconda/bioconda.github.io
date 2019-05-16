@@ -11,7 +11,7 @@ bioconductor-pepdat
 
    Provides sample files and data for the vignettes of pepStat and Pviz as well as peptide collections for HIV and SIV.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/pepDat.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/pepDat.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pepdat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pepdat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pepdat/meta.yaml>`_
 

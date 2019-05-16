@@ -11,7 +11,7 @@ bioconductor-bsgenome.tguttata.ucsc.taegut2
 
    Full genome sequences for Taeniopygia guttata \(Zebra finch\) as provided by UCSC \(taeGut2\, Feb. 2013\) and stored in Biostrings objects.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Tguttata.UCSC.taeGut2.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Tguttata.UCSC.taeGut2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.tguttata.ucsc.taegut2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.tguttata.ucsc.taegut2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.tguttata.ucsc.taegut2/meta.yaml>`_
 

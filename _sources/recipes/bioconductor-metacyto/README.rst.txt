@@ -11,7 +11,7 @@ bioconductor-metacyto
 
    This package provides functions for preprocessing\, automated gating and meta\-analysis of cytometry data. It also provides functions that facilitate the collection of cytometry data from the ImmPort database.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MetaCyto.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MetaCyto.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-metacyto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metacyto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metacyto/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-snadata
 
    Data from Wasserman \& Faust \(1999\) \"Social Network Analysis\"
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/SNAData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/SNAData.html
    :license: LGPL
    :recipe: /`bioconductor-snadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snadata/meta.yaml>`_
 

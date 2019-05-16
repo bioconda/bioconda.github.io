@@ -11,7 +11,7 @@ bioconductor-liebermanaidenhic2009
 
    This package provides data that were presented in the article \"Comprehensive mapping of long\-range interactions reveals folding principles of the human genome\"\, Science 2009 Oct 9\;326\(5950\)\:289\-93. PMID\: 19815776
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/LiebermanAidenHiC2009.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/LiebermanAidenHiC2009.html
    :license: LGPL
    :recipe: /`bioconductor-liebermanaidenhic2009 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-liebermanaidenhic2009>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-liebermanaidenhic2009/meta.yaml>`_
 

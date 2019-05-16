@@ -11,7 +11,7 @@ bioconductor-rnbeads
 
    RnBeads facilitates comprehensive analysis of various types of DNA methylation data at the genome scale.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/RnBeads.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RnBeads.html
    :license: GPL-3
    :recipe: /`bioconductor-rnbeads <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnbeads>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnbeads/meta.yaml>`_
 

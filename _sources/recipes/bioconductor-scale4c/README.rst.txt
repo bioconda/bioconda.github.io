@@ -11,7 +11,7 @@ bioconductor-scale4c
 
    Scale4C is an R\/Bioconductor package for scale\-space transformation and visualization of 4C\-seq data. The scale\-space transformation is a multi\-scale visualization technique to transform a 2D signal \(e.g. 4C\-seq reads on a genomic interval of choice\) into a tesselation in the scale space \(2D\, genomic position x scale factor\) by applying different smoothing kernels \(Gauss\, with increasing sigma\). This transformation allows for explorative analysis and comparisons of the data\'s structure with other samples.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/Scale4C.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Scale4C.html
    :license: LGPL-3
    :recipe: /`bioconductor-scale4c <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scale4c>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scale4c/meta.yaml>`_
 

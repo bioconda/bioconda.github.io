@@ -11,7 +11,7 @@ bioconductor-loci2path
 
    loci2path performs statistics\-rigorous enrichment analysis of eQTLs in genomic regions of interest. Using eQTL collections provided by the Genotype\-Tissue Expression \(GTEx\) project and pathway collections from MSigDB.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/loci2path.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/loci2path.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-loci2path <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-loci2path>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-loci2path/meta.yaml>`_
 

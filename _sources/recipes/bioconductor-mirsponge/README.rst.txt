@@ -9,9 +9,9 @@ bioconductor-mirsponge
 .. conda:recipe:: bioconductor-mirsponge
    :replaces_section_title:
 
-   This package provides several functions to study miRNA sponge \(also called ceRNA or miRNA decoy\)\, including popular methods for identifying miRNA sponge interactions\, and the integrative method to integrate miRNA sponge interactions from different methods\, as well as the functions to validate miRNA sponge interactions\, and infer miRNA sponge modules\, conduct enrichment analysis of modules\, and conduct survival analysis of modules.
+   The name of the miRsponge package has been changed into \"miRspongeR\". Future updates will be seen in the miRspongeR package \(http\:\/\/bioconductor.org\/packages\/miRspongeR\/\). This package provides several functions to study miRNA sponge \(also called ceRNA or miRNA decoy\)\, including popular methods for identifying miRNA sponge interactions\, and the integrative method to integrate miRNA sponge interactions from different methods\, as well as the functions to validate miRNA sponge interactions\, and infer miRNA sponge modules\, conduct enrichment analysis of modules\, and conduct survival analysis of modules.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/miRsponge.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/miRsponge.html
    :license: GPL-3
    :recipe: /`bioconductor-mirsponge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirsponge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirsponge/meta.yaml>`_
 

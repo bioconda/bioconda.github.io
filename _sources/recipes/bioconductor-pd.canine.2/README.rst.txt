@@ -11,7 +11,7 @@ bioconductor-pd.canine.2
 
    Platform Design Info for The Manufacturer\'s Name Canine\_2
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/pd.canine.2.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.canine.2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.canine.2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.canine.2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.canine.2/meta.yaml>`_
 

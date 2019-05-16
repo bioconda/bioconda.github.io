@@ -9,10 +9,10 @@ bioconductor-beclear
 .. conda:recipe:: bioconductor-beclear
    :replaces_section_title:
 
-   Provides some functions to detect and correct for batch effects in DNA methylation data. The core function is based on latent factor models and can also be used to predict missing values in any other matrix containing real numbers.
+   Provides functions to detect and correct for batch effects in DNA methylation data. The core function is based on latent factor models and can also be used to predict missing values in any other matrix containing real numbers.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BEclear.html
-   :license: GPL-2
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BEclear.html
+   :license: GPL-3
    :recipe: /`bioconductor-beclear <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beclear>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beclear/meta.yaml>`_
    :links: biotools: :biotools:`beclear`, doi: :doi:`10.1371/journal.pone.0159921`
 

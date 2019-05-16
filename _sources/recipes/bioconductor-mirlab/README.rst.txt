@@ -11,7 +11,7 @@ bioconductor-mirlab
 
    Provide tools exploring miRNA\-mRNA relationships\, including popular miRNA target prediction methods\, ensemble methods that integrate individual methods\, functions to get data from online resources\, functions to validate the results\, and functions to conduct enrichment analyses.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/miRLAB.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/miRLAB.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-mirlab <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirlab>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirlab/meta.yaml>`_
 

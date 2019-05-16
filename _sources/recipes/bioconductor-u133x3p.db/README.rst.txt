@@ -11,7 +11,7 @@ bioconductor-u133x3p.db
 
    Affymetrix Human X3P Array annotation data \(chip u133x3p\) assembled using data from public repositories
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/u133x3p.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/u133x3p.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-u133x3p.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-u133x3p.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-u133x3p.db/meta.yaml>`_
 

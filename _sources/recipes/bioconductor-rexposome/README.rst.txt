@@ -11,7 +11,7 @@ bioconductor-rexposome
 
    Package that allows to explore the exposome and to perform association analyses between exposures and health outcomes.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/rexposome.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/rexposome.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-rexposome <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rexposome>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rexposome/meta.yaml>`_
 

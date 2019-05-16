@@ -11,7 +11,7 @@ bioconductor-flowplots
 
    Graphical displays with embedded statistical tests for gated ICS flow cytometry data\, and a data class which stores \"stacked\" data and has methods for computing summary measures on stacked data\, such as marginal and polyfunctional degree data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/flowPlots.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flowPlots.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowplots <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowplots>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowplots/meta.yaml>`_
 

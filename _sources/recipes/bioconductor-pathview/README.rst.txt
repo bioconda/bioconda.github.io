@@ -11,7 +11,7 @@ bioconductor-pathview
 
    Pathview is a tool set for pathway based data integration and visualization. It maps and renders a wide variety of biological data on relevant pathway graphs. All users need is to supply their data and specify the target pathway. Pathview automatically downloads the pathway graph data\, parses the data file\, maps user data to the pathway\, and render pathway graph with the mapped data. In addition\, Pathview also seamlessly integrates with pathway and gene set \(enrichment\) analysis tools for large\-scale and fully automated analysis.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/pathview.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/pathview.html
    :license: GPL (>=3.0)
    :recipe: /`bioconductor-pathview <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathview>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathview/meta.yaml>`_
    :links: biotools: :biotools:`pathview`

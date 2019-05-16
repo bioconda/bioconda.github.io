@@ -11,7 +11,7 @@ bioconductor-sdams
 
    This Package utilizes a Semi\-parametric Differential Abundance analysis \(SDA\) method for metabolomics and proteomics data from mass spectrometry. SDA is able to robustly handle non\-normally distributed data and provides a clear quantification of the effect size.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/SDAMS.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SDAMS.html
    :license: GPL
    :recipe: /`bioconductor-sdams <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sdams>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sdams/meta.yaml>`_
 

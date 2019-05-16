@@ -11,7 +11,7 @@ bioconductor-fastliquidassociation
 
    This package extends the function of the LiquidAssociation package for genome\-wide application. It integrates a screening method into the LA analysis to reduce the number of triplets to be examined for a high LA value and provides code for use in subsequent significance analyses.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/fastLiquidAssociation.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/fastLiquidAssociation.html
    :license: GPL-2
    :recipe: /`bioconductor-fastliquidassociation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fastliquidassociation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fastliquidassociation/meta.yaml>`_
 

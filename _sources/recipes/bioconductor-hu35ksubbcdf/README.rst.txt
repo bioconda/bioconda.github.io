@@ -11,7 +11,7 @@ bioconductor-hu35ksubbcdf
 
    A package containing an environment representing the Hu35KsubB.CDF file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/hu35ksubbcdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hu35ksubbcdf.html
    :license: LGPL
    :recipe: /`bioconductor-hu35ksubbcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu35ksubbcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu35ksubbcdf/meta.yaml>`_
 

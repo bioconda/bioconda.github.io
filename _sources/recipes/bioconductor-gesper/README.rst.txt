@@ -11,7 +11,7 @@ bioconductor-gesper
 
    Estimates gene\-specific phenotypes from off\-target confounded RNAi screens. The phenotype of each siRNA is modeled based on on\-targeted and off\-targeted genes\, using a regularized linear regression model.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/gespeR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/gespeR.html
    :license: GPL-3
    :recipe: /`bioconductor-gesper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gesper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gesper/meta.yaml>`_
 

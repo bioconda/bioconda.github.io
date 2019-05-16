@@ -11,7 +11,7 @@ bioconductor-mgsa
 
    Model\-based Gene Set Analysis \(MGSA\) is a Bayesian modeling approach for gene set enrichment. The package mgsa implements MGSA and tools to use MGSA together with the Gene Ontology.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/mgsa.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/mgsa.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mgsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgsa/meta.yaml>`_
    :links: biotools: :biotools:`mgsa`, doi: :doi:`10.1093/nar/gkq045`

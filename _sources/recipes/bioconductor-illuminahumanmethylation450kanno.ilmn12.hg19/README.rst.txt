@@ -11,7 +11,7 @@ bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19
 
    Manifests and annotation for Illumina\'s 450k array data.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/IlluminaHumanMethylation450kanno.ilmn12.hg19.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/IlluminaHumanMethylation450kanno.ilmn12.hg19.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19/meta.yaml>`_
 

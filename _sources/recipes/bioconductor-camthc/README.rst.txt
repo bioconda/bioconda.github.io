@@ -11,7 +11,7 @@ bioconductor-camthc
 
    An R package for tissue heterogeneity characterization by convex analysis of mixtures \(CAM\). It provides basic functions to perform unsupervised deconvolution on mixture expression profiles by CAM and some auxiliary functions to help understand the subpopulation\-specific results. It also implements functions to perform supervised deconvolution based on prior knowledge of molecular markers\, S matrix or A matrix. Combining molecular markers from CAM and from prior knowledge can achieve semi\-supervised deconvolution of mixtures.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CAMTHC.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CAMTHC.html
    :license: GPL-2
    :recipe: /`bioconductor-camthc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-camthc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-camthc/meta.yaml>`_
 

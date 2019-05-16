@@ -11,7 +11,7 @@ bioconductor-genocn
 
    Simultaneous identification of copy number states and genotype calls for regions of either copy number variations or copy number aberrations
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/genoCN.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/genoCN.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-genocn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genocn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genocn/meta.yaml>`_
 

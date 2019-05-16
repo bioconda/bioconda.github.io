@@ -11,7 +11,7 @@ bioconductor-dapar
 
    This package contains a collection of functions for the visualisation and the statistical analysis of proteomic data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DAPAR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DAPAR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-dapar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dapar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dapar/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-ensdb.rnorvegicus.v75
 
    Exposes an annotation databases generated from Ensembl.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/EnsDb.Rnorvegicus.v75.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/EnsDb.Rnorvegicus.v75.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ensdb.rnorvegicus.v75 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ensdb.rnorvegicus.v75>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ensdb.rnorvegicus.v75/meta.yaml>`_
 

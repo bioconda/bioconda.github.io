@@ -11,7 +11,7 @@ bioconductor-metamsdata
 
    Example CDF data for the metaMS package
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/metaMSdata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/metaMSdata.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-metamsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metamsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metamsdata/meta.yaml>`_
 

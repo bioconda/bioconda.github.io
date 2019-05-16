@@ -11,7 +11,7 @@ bioconductor-normr
 
    Robust normalization and difference calling procedures for ChIP\-seq and alike data. Read counts are modeled jointly as a binomial mixture model with a user\-specified number of components. A fitted background estimate accounts for the effect of enrichment in certain regions and\, therefore\, represents an appropriate null hypothesis. This robust background is used to identify significantly enriched or depleted regions.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/normr.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/normr.html
    :license: GPL-2
    :recipe: /`bioconductor-normr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-normr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-normr/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-soybeancdf
 
    A package containing an environment representing the Soybean.cdf file.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/soybeancdf.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/soybeancdf.html
    :license: LGPL
    :recipe: /`bioconductor-soybeancdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-soybeancdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-soybeancdf/meta.yaml>`_
 

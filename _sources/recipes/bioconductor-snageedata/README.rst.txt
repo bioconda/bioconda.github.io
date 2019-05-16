@@ -11,7 +11,7 @@ bioconductor-snageedata
 
    SNAGEE data \- gene list and correlation matrix
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/SNAGEEdata.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/SNAGEEdata.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-snageedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snageedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snageedata/meta.yaml>`_
 

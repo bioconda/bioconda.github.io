@@ -11,7 +11,7 @@ bioconductor-triform
 
    The Triform algorithm uses model\-free statistics to identify peak\-like distributions of TF ChIP sequencing reads\, taking advantage of an improved peak definition in combination with known profile characteristics.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/triform.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/triform.html
    :license: GPL-2
    :recipe: /`bioconductor-triform <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-triform>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-triform/meta.yaml>`_
    :links: biotools: :biotools:`triform`

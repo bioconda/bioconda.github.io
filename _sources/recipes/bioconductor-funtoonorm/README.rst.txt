@@ -11,7 +11,7 @@ bioconductor-funtoonorm
 
    Provides a function to normalize Illumina Infinium Human Methylation 450 BeadChip \(Illumina 450K\)\, correcting for tissue and\/or cell type.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/funtooNorm.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/funtooNorm.html
    :license: GPL-3
    :recipe: /`bioconductor-funtoonorm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-funtoonorm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-funtoonorm/meta.yaml>`_
 

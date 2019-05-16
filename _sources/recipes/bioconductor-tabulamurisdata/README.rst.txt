@@ -11,7 +11,7 @@ bioconductor-tabulamurisdata
 
    Access to processed 10x \(droplet\) and SmartSeq2 \(on FACS\-sorted cells\) single\-cell RNA\-seq data from the Tabula Muris consortium \(http\:\/\/tabula\-muris.ds.czbiohub.org\/\).
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/TabulaMurisData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/TabulaMurisData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tabulamurisdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tabulamurisdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tabulamurisdata/meta.yaml>`_
 

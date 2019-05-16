@@ -11,7 +11,7 @@ bioconductor-mutationalpatterns
 
    An extensive toolset for the characterization and visualization of a wide range of mutational patterns in base substitution catalogs.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MutationalPatterns.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MutationalPatterns.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-mutationalpatterns <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mutationalpatterns>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mutationalpatterns/meta.yaml>`_
 

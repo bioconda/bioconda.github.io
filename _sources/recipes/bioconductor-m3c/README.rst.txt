@@ -9,9 +9,9 @@ bioconductor-m3c
 .. conda:recipe:: bioconductor-m3c
    :replaces_section_title:
 
-   Genome\-wide data is used to stratify large complex datasets into classes using class discovery algorithms. A widely applied technique is consensus clustering\, however\; the approach is prone to overfitting and false positives. These issues arise from not considering reference distributions while selecting the number of classes \(K\). As a solution\, we developed Monte Carlo reference\-based consensus clustering \(M3C\). M3C uses a multi\-core enabled Monte Carlo simulation to generate null distributions along the range of K which are used to select its value. Using a reference\, that maintains the correlation structure of the input features\, eliminates the limitations of consensus clustering. M3C uses the Relative Cluster Stability Index \(RCSI\) and p values to decide on the value of K and reject the null hypothesis\, K\=1. M3C can also quantify structural relationships between clusters\, and uses spectral clustering to deal with non\-Gaussian and complex structures. M3C can automatically analyse biological or clinical data with respect to the discovered classes.
+   M3C is a consensus clustering algorithm that uses a Monte Carlo simulation to eliminate overfitting and can reject the null hypothesis K\=1.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/M3C.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/M3C.html
    :license: AGPL-3
    :recipe: /`bioconductor-m3c <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m3c>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m3c/meta.yaml>`_
 

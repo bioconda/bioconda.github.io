@@ -11,7 +11,7 @@ bioconductor-huexexonprobesetlocation
 
    This package was automatically created by package AnnotationForge version 1.7.17. The exon\-level probeset genome location was retrieved from Netaffx using AffyCompatible.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/HuExExonProbesetLocation.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/HuExExonProbesetLocation.html
    :license: LGPL
    :recipe: /`bioconductor-huexexonprobesetlocation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-huexexonprobesetlocation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-huexexonprobesetlocation/meta.yaml>`_
 

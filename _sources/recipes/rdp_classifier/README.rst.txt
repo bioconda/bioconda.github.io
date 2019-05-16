@@ -6,14 +6,14 @@
 rdp_classifier
 ==============
 
-.. conda:recipe:: rdp_classifier/2.2
+.. conda:recipe:: rdp_classifier
    :replaces_section_title:
 
    Naive Bayesian classifier that can rapidly and accurately provide taxonomic assignments from domain to genus
 
    :homepage: http://rdp.cme.msu.edu/
    :license: GPLv2
-   :recipe: /`rdp_classifier <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdp_classifier>`_/`2.2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdp_classifier/2.2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdp_classifier/2.2/meta.yaml>`_
+   :recipe: /`rdp_classifier <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdp_classifier>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdp_classifier/meta.yaml>`_
 
    
 

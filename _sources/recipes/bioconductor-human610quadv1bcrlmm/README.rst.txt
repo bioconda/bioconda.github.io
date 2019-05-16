@@ -11,7 +11,7 @@ bioconductor-human610quadv1bcrlmm
 
    Package with metadata for genotyping Illumina 610kQuad arrays using the \'crlmm\' package.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/human610quadv1bCrlmm.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/human610quadv1bCrlmm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-human610quadv1bcrlmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-human610quadv1bcrlmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-human610quadv1bcrlmm/meta.yaml>`_
 

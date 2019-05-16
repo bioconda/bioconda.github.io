@@ -11,7 +11,7 @@ bioconductor-compass
 
    COMPASS is a statistical framework that enables unbiased analysis of antigen\-specific T\-cell subsets. COMPASS uses a Bayesian hierarchical framework to model all observed cell\-subsets and select the most likely to be antigen\-specific while regularizing the small cell counts that often arise in multi\-parameter space. The model provides a posterior probability of specificity for each cell subset and each sample\, which can be used to profile a subject\'s immune response to external stimuli such as infection or vaccination.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/COMPASS.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/COMPASS.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-compass <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compass>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compass/meta.yaml>`_
    :links: biotools: :biotools:`compass`, doi: :doi:`10.1038/nbt.3187`

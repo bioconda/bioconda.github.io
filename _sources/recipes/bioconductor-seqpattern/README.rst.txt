@@ -11,7 +11,7 @@ bioconductor-seqpattern
 
    Visualising oligonucleotide patterns and sequence motifs occurrences across a large set of sequences centred at a common reference point and sorted by a user defined feature.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/seqPattern.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/seqPattern.html
    :license: GPL-3
    :recipe: /`bioconductor-seqpattern <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqpattern>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqpattern/meta.yaml>`_
    :links: biotools: :biotools:`seqpattern`, doi: :doi:`10.1038/nmeth.3252`

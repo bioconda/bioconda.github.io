@@ -11,7 +11,7 @@ bioconductor-hgug4845a.db
 
    agilent AMADID 026652 annotation data \(chip hgug4845a\) assembled using data from public repositories
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/hgug4845a.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hgug4845a.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hgug4845a.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgug4845a.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgug4845a.db/meta.yaml>`_
 

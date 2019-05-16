@@ -11,7 +11,7 @@ bioconductor-varianttools
 
    Explore\, diagnose\, and compare variant calls using filters.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/VariantTools.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/VariantTools.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-varianttools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-varianttools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-varianttools/meta.yaml>`_
    :links: biotools: :biotools:`varianttools`, doi: :doi:`10.1101/027227`

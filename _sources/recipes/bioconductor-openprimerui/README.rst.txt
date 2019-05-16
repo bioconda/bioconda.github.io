@@ -11,7 +11,7 @@ bioconductor-openprimerui
 
    A Shiny application providing methods for designing\, evaluating\, and comparing primer sets for multiplex polymerase chain reaction. Primers are designed by solving a set cover problem such that the number of covered template sequences is maximized with the smallest possible set of primers. To guarantee that high\-quality primers are generated\, only primers fulfilling constraints on their physicochemical properties are selected.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/openPrimeRui.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/openPrimeRui.html
    :license: GPL-2
    :recipe: /`bioconductor-openprimerui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-openprimerui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-openprimerui/meta.yaml>`_
 

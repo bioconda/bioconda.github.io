@@ -11,7 +11,7 @@ bioconductor-bags
 
    R package providing functions to perform geneset significance analysis over simple cross\-sectional data between 2 and 5 phenotypes of interest.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BAGS.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BAGS.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bags <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bags>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bags/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-karyoploter
 
    karyoploteR creates karyotype plots of arbitrary genomes and offers a complete set of functions to plot arbitrary data on them. It mimicks many R base graphics functions coupling them with a coordinate change function automatically mapping the chromosome and data coordinates into the plot coordinates. In addition to the provided data plotting functions\, it is easy to add new ones.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/karyoploteR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/karyoploteR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-karyoploter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-karyoploter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-karyoploter/meta.yaml>`_
 

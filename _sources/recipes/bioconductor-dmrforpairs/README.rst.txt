@@ -11,7 +11,7 @@ bioconductor-dmrforpairs
 
    DMRforPairs \(formerly DMR2\+\) allows researchers to compare n\>\=2 unique samples with regard to their methylation profile. The \(pairwise\) comparison of n unique single samples distinguishes DMRforPairs from other existing pipelines as these often compare groups of samples in either single CpG locus or region based analysis. DMRforPairs defines regions of interest as genomic ranges with sufficient probes located in close proximity to each other. Probes in one region are optionally annotated to the same functional class\(es\). Differential methylation is evaluated by comparing the methylation values within each region between individual samples and \(if the difference is sufficiently large\)\, testing this difference formally for statistical significance.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/DMRforPairs.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DMRforPairs.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-dmrforpairs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrforpairs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrforpairs/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-globaltest
 
    The global test tests groups of covariates \(or features\) for association with a response variable. This package implements the test with diagnostic plots and multiple testing utilities\, along with several functions to facilitate the use of this test for gene set testing of GO and KEGG terms.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/globaltest.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/globaltest.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-globaltest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-globaltest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-globaltest/meta.yaml>`_
    :links: biotools: :biotools:`globaltest`

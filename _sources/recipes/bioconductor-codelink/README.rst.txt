@@ -11,7 +11,7 @@ bioconductor-codelink
 
    This package facilitates reading\, preprocessing and manipulating Codelink microarray data. The raw data must be exported as text file using the Codelink software.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/codelink.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/codelink.html
    :license: GPL-2
    :recipe: /`bioconductor-codelink <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-codelink>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-codelink/meta.yaml>`_
    :links: biotools: :biotools:`codelink`

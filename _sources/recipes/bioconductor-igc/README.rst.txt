@@ -11,7 +11,7 @@ bioconductor-igc
 
    This package is intended to identify differentially expressed genes driven by Copy Number Alterations from samples with both gene expression and CNA data.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/iGC.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/iGC.html
    :license: GPL-2
    :recipe: /`bioconductor-igc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-igc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-igc/meta.yaml>`_
 
@@ -22,7 +22,7 @@ bioconductor-igc
 
    |downloads_bioconductor-igc| |docker_bioconductor-igc|
 
-   :versions: 1.12.0-0
+   :versions: 1.14.0-0, 1.12.0-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-data.table: 

@@ -11,7 +11,7 @@ bioconductor-metaseqr
 
    Provides an interface to several normalization and statistical testing packages for RNA\-Seq gene expression data. Additionally\, it creates several diagnostic plots\, performs meta\-analysis by combinining the results of several statistical tests and reports the results in an interactive way.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/metaseqR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/metaseqR.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-metaseqr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaseqr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaseqr/meta.yaml>`_
 

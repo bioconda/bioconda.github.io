@@ -11,7 +11,7 @@ bioconductor-consensusov
 
    This package implements four major subtype classifiers for high\-grade serous \(HGS\) ovarian cancer as described by Helland et al. \(PLoS One\, 2011\)\, Bentink et al. \(PLoS One\, 2012\)\, Verhaak et al. \(J Clin Invest\, 2013\)\, and Konecny et al. \(J Natl Cancer Inst\, 2014\). In addition\, the package implements a consensus classifier\, which consolidates and improves on the robustness of the proposed subtype classifiers\, thereby providing reliable stratification of patients with HGS ovarian tumors of clearly defined subtype.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/consensusOV.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/consensusOV.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-consensusov <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensusov>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensusov/meta.yaml>`_
 

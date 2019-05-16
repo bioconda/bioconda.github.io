@@ -11,7 +11,7 @@ bioconductor-rgmqllib
 
    A package that contains scala libraries to call GMQL from R used by RGMQL package. It contains a scalable data management engine written in Scala programming language.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/RGMQLlib.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RGMQLlib.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rgmqllib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgmqllib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgmqllib/meta.yaml>`_
 

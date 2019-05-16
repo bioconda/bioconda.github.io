@@ -11,7 +11,7 @@ bioconductor-geuvpack
 
    FPKM from GEUVADIS\, annotated to gencode regions
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/geuvPack.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/geuvPack.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-geuvpack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geuvpack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geuvpack/meta.yaml>`_
 

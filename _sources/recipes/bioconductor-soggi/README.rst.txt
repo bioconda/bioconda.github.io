@@ -11,7 +11,7 @@ bioconductor-soggi
 
    The soGGi package provides a toolset to create genomic interval aggregate\/summary plots of signal or motif occurence from BAM and bigWig files as well as PWM\, rlelist\, GRanges and GAlignments Bioconductor objects. soGGi allows for normalisation\, transformation and arithmetic operation on and between summary plot objects as well as grouping and subsetting of plots by GRanges objects and user supplied metadata. Plots are created using the GGplot2 libary to allow user defined manipulation of the returned plot object. Coupled together\, soGGi features a broad set of methods to visualise genomics data in the context of groups of genomic intervals such as genes\, superenhancers and transcription factor binding events.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/soGGi.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/soGGi.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-soggi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-soggi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-soggi/meta.yaml>`_
    :links: biotools: :biotools:`soggi`, doi: :doi:`10.1038/nmeth.3252`

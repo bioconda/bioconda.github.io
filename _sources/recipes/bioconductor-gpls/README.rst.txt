@@ -11,7 +11,7 @@ bioconductor-gpls
 
    Classification using generalized partial least squares for two\-group and multi\-group \(more than 2 group\) classification.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/gpls.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/gpls.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gpls <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gpls>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gpls/meta.yaml>`_
    :links: biotools: :biotools:`gpls`, doi: :doi:`10.1198/106186005X47697`

@@ -11,7 +11,7 @@ bioconductor-cnvrd2
 
    CNVrd2 uses next\-generation sequencing data to measure human gene copy number for multiple samples\, indentify SNPs tagging copy number variants and detect copy number polymorphic genomic regions.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/CNVrd2.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CNVrd2.html
    :license: GPL-2
    :recipe: /`bioconductor-cnvrd2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvrd2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvrd2/meta.yaml>`_
 

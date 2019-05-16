@@ -11,7 +11,7 @@ bioconductor-brain
 
    Package for calculating aggregated isotopic distribution and exact center\-masses for chemical substances \(in this version composed of C\, H\, N\, O and S\). This is an implementation of the BRAIN algorithm described in the paper by J. Claesen\, P. Dittwald\, T. Burzykowski and D. Valkenborg.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/BRAIN.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BRAIN.html
    :license: GPL-2
    :recipe: /`bioconductor-brain <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brain>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brain/meta.yaml>`_
    :links: biotools: :biotools:`brain`, doi: :doi:`10.1021/ac303439m`

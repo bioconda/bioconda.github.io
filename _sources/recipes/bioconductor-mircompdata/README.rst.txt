@@ -11,7 +11,7 @@ bioconductor-mircompdata
 
    Raw amplification data from a large microRNA mixture \/ dilution study. These data are used by the miRcomp package to assess the performance of methods that estimate expression from the amplification curves.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/miRcompData.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/miRcompData.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-mircompdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mircompdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mircompdata/meta.yaml>`_
 

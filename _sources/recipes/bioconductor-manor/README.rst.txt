@@ -11,7 +11,7 @@ bioconductor-manor
 
    Importation\, normalization\, visualization\, and quality control functions to correct identified sources of variability in array\-CGH experiments.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/MANOR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MANOR.html
    :license: GPL-2
    :recipe: /`bioconductor-manor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-manor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-manor/meta.yaml>`_
 

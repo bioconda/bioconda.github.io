@@ -11,7 +11,7 @@ bioconductor-cllmethylation
 
    The package includes DNA methylation data for the primary Chronic Lymphocytic Leukemia samples included in the Primary Blood Cancer Encyclopedia \(PACE\) project. Raw data from the 450k DNA methylation arrays is stored in the European Genome\-Phenome Archive \(EGA\) under accession number EGAS0000100174. For more information concerning the project please refer to the paper \"Drug\-perturbation\-based stratification of blood cancer\" by Dietrich S\, Oles M\, Lu J et al.\, J. Clin. Invest. \(2018\) and R\/Bioconductor package BloodCancerMultiOmics2017.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/CLLmethylation.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/CLLmethylation.html
    :license: LGPL
    :recipe: /`bioconductor-cllmethylation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cllmethylation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cllmethylation/meta.yaml>`_
 

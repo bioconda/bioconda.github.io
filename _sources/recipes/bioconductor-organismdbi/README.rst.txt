@@ -11,7 +11,7 @@ bioconductor-organismdbi
 
    The package enables a simple unified interface to several annotation packages each of which has its own schema by taking advantage of the fact that each of these packages implements a select methods.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/OrganismDbi.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/OrganismDbi.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-organismdbi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-organismdbi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-organismdbi/meta.yaml>`_
    :links: biotools: :biotools:`organismdbi`, doi: :doi:`10.1038/nmeth.3252`

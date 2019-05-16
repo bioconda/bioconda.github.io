@@ -11,7 +11,7 @@ bioconductor-samexplorer
 
    This R package is designed for subsampling procedure to simulate sequencing experiments with reduced sequencing depth. This package can be used to anlayze data generated from all major sequencing platforms such as Illumina GA\, HiSeq\, MiSeq\, Roche GS\-FLX\, ABI SOLiD and LifeTech Ion PGM Proton sequencers. It supports multiple operating systems incluidng Linux\, Mac OS X\, FreeBSD and Solaris. Was developed with usage of Rsubread.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/samExploreR.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/samExploreR.html
    :license: GPL-3
    :recipe: /`bioconductor-samexplorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-samexplorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-samexplorer/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-gofunction
 
    The GO\-function package provides a tool to address the redundancy that result from the GO structure or multiple annotation genes and derive biologically relevant functions from the statistically significant functions based on some intuitive assumption and statistical testing.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/GOFunction.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GOFunction.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-gofunction <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gofunction>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gofunction/meta.yaml>`_
    :links: biotools: :biotools:`gofunction`, doi: :doi:`10.1093/bib/bbr041`

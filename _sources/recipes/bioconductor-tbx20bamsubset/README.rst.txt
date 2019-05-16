@@ -11,7 +11,7 @@ bioconductor-tbx20bamsubset
 
    Dual transcriptional activator and repressor roles of TBX20 regulate adult cardiac structure and function. A subset of the RNA\-Seq data.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/experiment/html/TBX20BamSubset.html
+   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/TBX20BamSubset.html
    :license: LGPL
    :recipe: /`bioconductor-tbx20bamsubset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tbx20bamsubset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tbx20bamsubset/meta.yaml>`_
 

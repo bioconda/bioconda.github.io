@@ -9,9 +9,9 @@ bioconductor-seqsetvis
 .. conda:recipe:: bioconductor-seqsetvis
    :replaces_section_title:
 
-   seqsetvis enables the visualization and analysis of multiple genomic datasets. Although seqsetvis was designed for the comparison of mulitple ChIP\-seq datasets\, this package is domain\-agnostic and allows the processing of multiple genomic coordinate files \(bed\-like files\) and signal files \(bigwig files or bam pileups\).
+   seqsetvis enables the visualization and analysis of multiple genomic samples. Although seqsetvis was designed for the comparison of mulitple ChIP\-seq samples\, this package is domain\-agnostic and allows the processing of multiple genomic coordinate files \(bed\-like files\) and signal files \(bigwig files or bam pileups\).
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/seqsetvis.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/seqsetvis.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-seqsetvis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqsetvis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqsetvis/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-msmseda
 
    Exploratory data analysis to assess the quality of a set of LC\-MS\/MS experiments\, and visualize de influence of the involved factors.
 
-   :homepage: https://bioconductor.org/packages/3.8/bioc/html/msmsEDA.html
+   :homepage: https://bioconductor.org/packages/3.9/bioc/html/msmsEDA.html
    :license: GPL-2
    :recipe: /`bioconductor-msmseda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msmseda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msmseda/meta.yaml>`_
    :links: biotools: :biotools:`msmseda`, doi: :doi:`10.1038/nmeth.3252`
