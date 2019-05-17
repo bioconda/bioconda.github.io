@@ -22,8 +22,13 @@ bioconductor-glad
 
    |downloads_bioconductor-glad| |docker_bioconductor-glad|
 
-   :versions: 
+   :versions: 2.48.0-0
    
+   :depends gsl: >=2.4,<2.5.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends r-aws: 
+   :depends r-base: >=3.5.1,<3.5.2.0a0
    :requirements:
 
    .. rubric:: Installation

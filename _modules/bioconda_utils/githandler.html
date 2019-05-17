@@ -234,7 +234,7 @@
             <span class="k">pass</span>
         <span class="k">return</span> <span class="kc">None</span></div>
 
-<div class="viewcode-block" id="GitHandlerBase.get_remote_branch"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.get_remote_branch">[docs]</a>    <span class="k">def</span> <span class="nf">get_remote_branch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">try_fetch</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+<div class="viewcode-block" id="GitHandlerBase.get_remote_branch"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.get_remote_branch">[docs]</a>    <span class="k">def</span> <span class="nf">get_remote_branch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">try_fetch</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Finds fork remote branch named **branch_name**&quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="n">branch_name</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">fork_remote</span><span class="o">.</span><span class="n">refs</span><span class="p">:</span>
             <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">fork_remote</span><span class="o">.</span><span class="n">refs</span><span class="p">[</span><span class="n">branch_name</span><span class="p">]</span>
@@ -513,12 +513,11 @@
 
         <span class="c1">#: Branch to restore after running</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">prev_active_branch</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">active_branch</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">master</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_local_branch</span><span class="p">(</span><span class="s2">&quot;master&quot;</span><span class="p">)</span>
 
 <div class="viewcode-block" id="GitHandler.checkout_master"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandler.checkout_master">[docs]</a>    <span class="k">def</span> <span class="nf">checkout_master</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Check out master branch (original branch restored by `close()`)&quot;&quot;&quot;</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Checking out master&quot;</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">master</span><span class="o">.</span><span class="n">checkout</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">get_local_branch</span><span class="p">(</span><span class="s2">&quot;master&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">checkout</span><span class="p">()</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Updating master to latest project master&quot;</span><span class="p">)</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">home_remote</span><span class="o">.</span><span class="n">pull</span><span class="p">(</span><span class="s2">&quot;master&quot;</span><span class="p">)</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Updating and pruning remotes&quot;</span><span class="p">)</span>

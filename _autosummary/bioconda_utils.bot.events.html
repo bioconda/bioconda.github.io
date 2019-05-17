@@ -123,6 +123,12 @@
   <div class="section" id="module-bioconda_utils.bot.events">
 <span id="events"></span><h1>events<a class="headerlink" href="#module-bioconda_utils.bot.events" title="Permalink to this headline">¶</a></h1>
 <p>Handlers for incoming Github Events</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The incoming webhook from Github is still open and unanswered
+while these are processed. Commands should not do anything taking
+more than milliseconds.</p>
+</div>
 <p class="rubric">Functions</p>
 <table class="longtable docutils align-center">
 <colgroup>
@@ -137,7 +143,7 @@
 <td><p>Handle check suite event</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.events.handle_comment_created" title="bioconda_utils.bot.events.handle_comment_created"><code class="xref py py-obj docutils literal notranslate"><span class="pre">handle_comment_created</span></code></a>(event, ghapi, *args, …)</p></td>
-<td><p>Dispatches &#64;bioconda-bot commands</p></td>
+<td><p>Handles comments on issues</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.events.handle_pull_request" title="bioconda_utils.bot.events.handle_pull_request"><code class="xref py py-obj docutils literal notranslate"><span class="pre">handle_pull_request</span></code></a>(event, ghapi)</p></td>
 <td><p>pull_request can have the following actions: - assigned / unassigned - review_requested / review_request_removed - labeled / unlabeled - opened / closed / reopened - edited - ready_for_review - synchronize</p></td>
@@ -160,9 +166,11 @@
 <dl class="function">
 <dt id="bioconda_utils.bot.events.handle_comment_created">
 <code class="descclassname">bioconda_utils.bot.events.</code><code class="descname">handle_comment_created</code><span class="sig-paren">(</span><em>event</em>, <em>ghapi</em>, <em>*args</em>, <em>**_kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/events.html#handle_comment_created"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.events.handle_comment_created" title="Permalink to this definition">¶</a></dt>
-<dd><p>Dispatches &#64;bioconda-bot commands</p>
-<p>This function watches for comments on issues. Lines starting with
-an &#64;mention of the bot are considered commands and dispatched.</p>
+<dd><p>Handles comments on issues</p>
+<ul class="simple">
+<li><p>dispatches &#64;biocondabot commands</p></li>
+<li><p>re-iterates commenets from non-members attempting to &#64;mention &#64;bioconda/xxx</p></li>
+</ul>
 </dd></dl>
 
 <dl class="function">

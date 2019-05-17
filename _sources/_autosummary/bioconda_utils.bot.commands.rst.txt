@@ -12,6 +12,7 @@ commands
 
    .. autosummary::
    
+      command_autobump
       command_bump
       command_hello
       command_lint

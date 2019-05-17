@@ -112,10 +112,7 @@
 <span class="kn">import</span> <span class="nn">functools</span>
 <span class="kn">from</span> <span class="nn">typing</span> <span class="k">import</span> <span class="n">Callable</span><span class="p">,</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">Optional</span>
 
-<span class="kn">from</span> <span class="nn">.tasks</span> <span class="k">import</span> <span class="p">(</span>
-    <span class="n">bump</span><span class="p">,</span> <span class="n">create_check_run</span><span class="p">,</span> <span class="n">get_latest_pr_commit</span><span class="p">,</span> <span class="n">check_circle_artifacts</span><span class="p">,</span>
-    <span class="n">trigger_circle_rebuild</span><span class="p">,</span> <span class="n">merge_pr</span><span class="p">,</span> <span class="n">post_result</span>
-<span class="p">)</span>
+<span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">tasks</span>
 
 
 <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>  <span class="c1"># pylint: disable=invalid-name</span>
@@ -166,35 +163,35 @@
     <span class="k">def</span> <span class="nf">decorator</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
         <span class="nd">@functools</span><span class="o">.</span><span class="n">wraps</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
         <span class="k">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">user</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
-            <span class="n">ok</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+            <span class="n">okmsg</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
             <span class="n">err</span> <span class="o">=</span> <span class="p">[]</span>
-            <span class="k">if</span> <span class="ow">not</span> <span class="n">ok</span> <span class="ow">and</span> <span class="n">member</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">okmsg</span> <span class="ow">and</span> <span class="n">member</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
                 <span class="k">if</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">is_member</span><span class="p">(</span><span class="n">user</span><span class="p">):</span>
-                    <span class="n">ok</span> <span class="o">=</span> <span class="s2">&quot;User is member&quot;</span>
+                    <span class="n">okmsg</span> <span class="o">=</span> <span class="s2">&quot;User is member&quot;</span>
                 <span class="k">elif</span> <span class="ow">not</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">is_org</span><span class="p">():</span>
-                    <span class="n">ok</span> <span class="o">=</span> <span class="s2">&quot;Repo is not on Org&quot;</span>
+                    <span class="n">okmsg</span> <span class="o">=</span> <span class="s2">&quot;Repo is not on Org&quot;</span>
                 <span class="k">else</span><span class="p">:</span>
                     <span class="n">err</span> <span class="o">+=</span> <span class="p">[</span><span class="n">f</span><span class="s2">&quot;a member of {ghapi.user.capitalize()}&quot;</span><span class="p">]</span>
-            <span class="k">if</span> <span class="ow">not</span> <span class="n">ok</span> <span class="ow">and</span> <span class="n">author</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
-                <span class="n">pr</span> <span class="o">=</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">get_prs</span><span class="p">(</span><span class="n">number</span><span class="o">=</span><span class="n">issue_number</span><span class="p">)</span>
-                <span class="n">pr_author</span> <span class="o">=</span> <span class="n">pr</span><span class="p">[</span><span class="s1">&#39;user&#39;</span><span class="p">][</span><span class="s1">&#39;login&#39;</span><span class="p">]</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">okmsg</span> <span class="ow">and</span> <span class="n">author</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">prq</span> <span class="o">=</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">get_prs</span><span class="p">(</span><span class="n">number</span><span class="o">=</span><span class="n">issue_number</span><span class="p">)</span>
+                <span class="n">pr_author</span> <span class="o">=</span> <span class="n">prq</span><span class="p">[</span><span class="s1">&#39;user&#39;</span><span class="p">][</span><span class="s1">&#39;login&#39;</span><span class="p">]</span>
                 <span class="n">negate</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span> <span class="k">if</span> <span class="n">author</span> <span class="k">else</span> <span class="s2">&quot;not &quot;</span>
                 <span class="k">if</span> <span class="p">(</span><span class="n">pr_author</span> <span class="o">==</span> <span class="n">user</span><span class="p">)</span> <span class="o">==</span> <span class="n">author</span><span class="p">:</span>
-                    <span class="n">ok</span> <span class="o">=</span> <span class="n">f</span><span class="s2">&quot;User is </span><span class="si">{negate}</span><span class="s2">PR author&quot;</span>
+                    <span class="n">okmsg</span> <span class="o">=</span> <span class="n">f</span><span class="s2">&quot;User is </span><span class="si">{negate}</span><span class="s2">PR author&quot;</span>
                 <span class="k">else</span><span class="p">:</span>
                     <span class="n">err</span> <span class="o">+=</span> <span class="p">[</span><span class="n">f</span><span class="s2">&quot;</span><span class="si">{negate}</span><span class="s2">author of the PR&quot;</span><span class="p">]</span>
-            <span class="k">if</span> <span class="ow">not</span> <span class="n">ok</span> <span class="ow">and</span> <span class="n">team</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">okmsg</span> <span class="ow">and</span> <span class="n">team</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
                 <span class="k">if</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">is_team_member</span><span class="p">(</span><span class="n">user</span><span class="p">,</span> <span class="n">team</span><span class="p">):</span>
-                    <span class="n">ok</span> <span class="o">=</span> <span class="n">f</span><span class="s2">&quot;User is member of </span><span class="si">{ghapi.user}</span><span class="s2">/</span><span class="si">{team}</span><span class="s2">&quot;</span>
+                    <span class="n">okmsg</span> <span class="o">=</span> <span class="n">f</span><span class="s2">&quot;User is member of </span><span class="si">{ghapi.user}</span><span class="s2">/</span><span class="si">{team}</span><span class="s2">&quot;</span>
                 <span class="k">else</span><span class="p">:</span>
                     <span class="n">err</span> <span class="o">+=</span> <span class="p">[</span><span class="n">f</span><span class="s2">&quot;a member of </span><span class="si">{ghapi.user}</span><span class="s2">/</span><span class="si">{team}</span><span class="s2">&quot;</span><span class="p">]</span>
 
-            <span class="n">msg</span> <span class="o">=</span> <span class="n">ok</span> <span class="ow">or</span> <span class="n">f</span><span class="s2">&quot;Permission denied. You need to be {&#39; or &#39;.join(err)}.&quot;</span>
+            <span class="n">msg</span> <span class="o">=</span> <span class="n">okmsg</span> <span class="ow">or</span> <span class="n">f</span><span class="s2">&quot;Permission denied. You need to be {&#39; or &#39;.join(err)}.&quot;</span>
 
             <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Access </span><span class="si">%s</span><span class="s2">: </span><span class="si">%s</span><span class="s2"> wants to run </span><span class="si">%s</span><span class="s2"> on </span><span class="si">%s</span><span class="s2">#</span><span class="si">%s</span><span class="s2"> (&#39;</span><span class="si">%s</span><span class="s2">&#39;)&quot;</span><span class="p">,</span>
-                           <span class="s2">&quot;GRANTED&quot;</span> <span class="k">if</span> <span class="n">ok</span> <span class="k">else</span> <span class="s2">&quot;DENIED&quot;</span><span class="p">,</span>
+                           <span class="s2">&quot;GRANTED&quot;</span> <span class="k">if</span> <span class="n">okmsg</span> <span class="k">else</span> <span class="s2">&quot;DENIED&quot;</span><span class="p">,</span>
                            <span class="n">user</span><span class="p">,</span> <span class="n">func</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
-            <span class="k">if</span> <span class="n">ok</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">okmsg</span><span class="p">:</span>
                 <span class="k">return</span> <span class="k">await</span> <span class="n">func</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">user</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span>
             <span class="k">return</span> <span class="n">msg</span>
         <span class="k">return</span> <span class="n">wrapper</span>
@@ -203,7 +200,7 @@
 
 <div class="viewcode-block" id="command_hello"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_hello">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;hello&quot;</span><span class="p">)</span>
 <span class="k">async</span> <span class="k">def</span> <span class="nf">command_hello</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">user</span><span class="p">,</span> <span class="o">*</span><span class="n">_args</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Simple demo function answering to hello&quot;&quot;&quot;</span>
+    <span class="sd">&quot;&quot;&quot;Check whether the bot is listening. If it is, it will answer.&quot;&quot;&quot;</span>
     <span class="n">msg</span> <span class="o">=</span> <span class="n">f</span><span class="s2">&quot;Hello @</span><span class="si">{user}</span><span class="s2">!&quot;</span>
     <span class="k">if</span> <span class="n">issue_number</span><span class="p">:</span>
         <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">create_comment</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
@@ -215,7 +212,7 @@
 <span class="nd">@permissions</span><span class="p">(</span><span class="n">member</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">author</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="k">async</span> <span class="k">def</span> <span class="nf">command_bump</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">_user</span><span class="p">,</span> <span class="o">*</span><span class="n">_args</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Bump the build number of a recipe    &quot;&quot;&quot;</span>
-    <span class="n">bump</span><span class="o">.</span><span class="n">apply_async</span><span class="p">((</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">))</span>
+    <span class="n">tasks</span><span class="o">.</span><span class="n">bump</span><span class="o">.</span><span class="n">apply_async</span><span class="p">((</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">))</span>
     <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;Scheduled bump of build number for #</span><span class="si">{issue_number}</span><span class="s2">&quot;</span></div>
 
 
@@ -223,8 +220,8 @@
 <span class="k">async</span> <span class="k">def</span> <span class="nf">command_lint</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">_user</span><span class="p">,</span> <span class="o">*</span><span class="n">_args</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Lint the current recipe&quot;&quot;&quot;</span>
     <span class="p">(</span>
-        <span class="n">get_latest_pr_commit</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span> <span class="o">|</span>
-        <span class="n">create_check_run</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">ghapi</span><span class="p">)</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">get_latest_pr_commit</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span> <span class="o">|</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">create_check_run</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">ghapi</span><span class="p">)</span>
     <span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
     <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;Scheduled creation of new check run for latest commit in #</span><span class="si">{issue_number}</span><span class="s2">&quot;</span></div>
 
@@ -233,11 +230,11 @@
 <span class="k">async</span> <span class="k">def</span> <span class="nf">command_recheck</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">_user</span><span class="p">,</span> <span class="o">*</span><span class="n">_args</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Trigger check_check_run and check_circle_artifacts&quot;&quot;&quot;</span>
     <span class="c1"># queue check for artifacts</span>
-    <span class="n">check_circle_artifacts</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
+    <span class="n">tasks</span><span class="o">.</span><span class="n">check_circle_artifacts</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
     <span class="c1"># queue lint check</span>
     <span class="p">(</span>
-        <span class="n">get_latest_pr_commit</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span> <span class="o">|</span>
-        <span class="n">create_check_run</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">ghapi</span><span class="p">)</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">get_latest_pr_commit</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span> <span class="o">|</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">create_check_run</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">ghapi</span><span class="p">)</span>
     <span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
     <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;Scheduled check run and circle artificats verification on #</span><span class="si">{issue_number}</span><span class="s2">&quot;</span></div>
 
@@ -246,22 +243,29 @@
 <span class="nd">@permissions</span><span class="p">(</span><span class="n">member</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">author</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="k">async</span> <span class="k">def</span> <span class="nf">command_rebuild</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">_user</span><span class="p">,</span> <span class="o">*</span><span class="n">_args</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Trigger rebuild of PR as of latest sha&quot;&quot;&quot;</span>
-    <span class="n">trigger_circle_rebuild</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
+    <span class="n">tasks</span><span class="o">.</span><span class="n">trigger_circle_rebuild</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
     <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;Scheduled triggering of rebuild for #</span><span class="si">{issue_number}</span><span class="s2">&quot;</span></div>
 
 
 <div class="viewcode-block" id="command_merge"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_merge">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;merge&quot;</span><span class="p">)</span>
-<span class="c1">#@permissions(member=True)</span>
+<span class="nd">@permissions</span><span class="p">(</span><span class="n">member</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="c1">#@permissions(author=False, team=&quot;core&quot;)</span>
-<span class="nd">@permissions</span><span class="p">(</span><span class="n">team</span><span class="o">=</span><span class="s2">&quot;core&quot;</span><span class="p">)</span>
 <span class="k">async</span> <span class="k">def</span> <span class="nf">command_merge</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">user</span><span class="p">,</span> <span class="o">*</span><span class="n">_args</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Merge PR&quot;&quot;&quot;</span>
     <span class="n">comment_id</span> <span class="o">=</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">create_comment</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="s2">&quot;Scheduled Upload &amp; Merge&quot;</span><span class="p">)</span>
     <span class="p">(</span>
-        <span class="n">merge_pr</span><span class="o">.</span><span class="n">si</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">comment_id</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span> <span class="o">|</span>
-        <span class="n">post_result</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">comment_id</span><span class="p">,</span> <span class="s2">&quot;merge&quot;</span><span class="p">,</span> <span class="n">user</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">merge_pr</span><span class="o">.</span><span class="n">si</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">comment_id</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span> <span class="o">|</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">post_result</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">comment_id</span><span class="p">,</span> <span class="s2">&quot;merge&quot;</span><span class="p">,</span> <span class="n">user</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span>
     <span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
     <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;Scheduled merge of #</span><span class="si">{issue_number}</span><span class="s2">&quot;</span></div>
+
+
+<div class="viewcode-block" id="command_autobump"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_autobump">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;autobump&quot;</span><span class="p">)</span>
+<span class="nd">@permissions</span><span class="p">(</span><span class="n">member</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">command_autobump</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">_issue_number</span><span class="p">,</span> <span class="n">_user</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Run Autobump on recipes&quot;&quot;&quot;</span>
+    <span class="n">tasks</span><span class="o">.</span><span class="n">run_autobump</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">args</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;Scheduled autobump check of recipe(s) {&#39;, &#39;.join(args)}&quot;</span></div>
 </pre></div>
 
           </div>

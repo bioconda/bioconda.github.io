@@ -107,6 +107,7 @@
 <span></span><span class="sd">&quot;&quot;&quot;Wrappers for Github Web-API Bindings&quot;&quot;&quot;</span>
 
 <span class="kn">import</span> <span class="nn">abc</span>
+<span class="kn">import</span> <span class="nn">base64</span>
 <span class="kn">import</span> <span class="nn">datetime</span>
 <span class="kn">import</span> <span class="nn">logging</span>
 <span class="kn">import</span> <span class="nn">time</span>
@@ -167,12 +168,15 @@
     <span class="n">CHECK_RUN</span>         <span class="o">=</span> <span class="s2">&quot;/repos/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/check-runs{/id}&quot;</span>
     <span class="n">GET_CHECK_RUNS</span>    <span class="o">=</span> <span class="s2">&quot;/repos/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/commits/</span><span class="si">{commit}</span><span class="s2">/check-runs&quot;</span>
     <span class="n">GET_STATUSES</span>      <span class="o">=</span> <span class="s2">&quot;/repos/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/commits/</span><span class="si">{commit}</span><span class="s2">/statuses&quot;</span>
+    <span class="n">CONTENTS</span>          <span class="o">=</span> <span class="s2">&quot;/repos/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/contents/</span><span class="si">{path}</span><span class="s2">{?ref}&quot;</span>
 
     <span class="n">ORG_MEMBERS</span>       <span class="o">=</span> <span class="s2">&quot;/orgs/</span><span class="si">{user}</span><span class="s2">/members{/username}&quot;</span>
     <span class="n">ORG</span>               <span class="o">=</span> <span class="s2">&quot;/orgs/</span><span class="si">{user}</span><span class="s2">&quot;</span>
     <span class="n">ORG_TEAMS</span>         <span class="o">=</span> <span class="s2">&quot;/orgs/</span><span class="si">{user}</span><span class="s2">/teams{/team_slug}&quot;</span>
 
     <span class="n">TEAMS_MEMBERSHIP</span>  <span class="o">=</span> <span class="s2">&quot;/teams/</span><span class="si">{team_id}</span><span class="s2">/memberships/</span><span class="si">{username}</span><span class="s2">&quot;</span>
+
+    <span class="n">SEARCH_ISSUES</span>     <span class="o">=</span> <span class="s2">&quot;/search/issues?q=&quot;</span>
 
     <span class="n">STATE</span> <span class="o">=</span> <span class="n">IssueState</span>
 
@@ -247,8 +251,11 @@
         <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">token</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">username</span> <span class="o">=</span> <span class="s2">&quot;UNKNOWN [no token]&quot;</span>
         <span class="k">else</span><span class="p">:</span>
-            <span class="n">user</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">getitem</span><span class="p">(</span><span class="s2">&quot;/user&quot;</span><span class="p">)</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">username</span> <span class="o">=</span> <span class="n">user</span><span class="p">[</span><span class="s2">&quot;login&quot;</span><span class="p">]</span></div>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">user</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">getitem</span><span class="p">(</span><span class="s2">&quot;/user&quot;</span><span class="p">)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">username</span> <span class="o">=</span> <span class="n">user</span><span class="p">[</span><span class="s2">&quot;login&quot;</span><span class="p">]</span>
+            <span class="k">except</span> <span class="n">gidgethub</span><span class="o">.</span><span class="n">GitHubException</span><span class="p">:</span>
+                <span class="k">pass</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.iter_teams"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.iter_teams">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">iter_teams</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AsyncIterator</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]:</span>
         <span class="sd">&quot;&quot;&quot;List organization teams</span>
@@ -344,6 +351,38 @@
         <span class="k">if</span> <span class="n">team</span><span class="p">:</span>
             <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">is_team_member</span><span class="p">(</span><span class="n">username</span><span class="p">,</span> <span class="n">team</span><span class="p">)</span>
         <span class="k">return</span> <span class="kc">True</span></div>
+
+<div class="viewcode-block" id="GitHubHandler.search_issues"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.search_issues">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">search_issues</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">author</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">pr</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">issue</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Search issues/PRs on our repos</span>
+
+<span class="sd">        Arguments:</span>
+<span class="sd">          author: login name of user to search</span>
+<span class="sd">          pr: whether to consider only PRs</span>
+<span class="sd">          issue: whether to consider only non-PR issues</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">query</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;org:&quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">user</span><span class="p">]</span>
+
+        <span class="k">if</span> <span class="n">pr</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">issue</span><span class="p">:</span>
+            <span class="n">query</span> <span class="o">+=</span> <span class="p">[</span><span class="s2">&quot;is:pr&quot;</span><span class="p">]</span>
+        <span class="k">elif</span> <span class="n">issue</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">pr</span><span class="p">:</span>
+            <span class="n">query</span> <span class="o">+=</span> <span class="p">[</span><span class="s2">&quot;is:issue&quot;</span><span class="p">]</span>
+
+        <span class="k">if</span> <span class="n">author</span><span class="p">:</span>
+            <span class="n">query</span> <span class="o">+=</span> <span class="p">[</span><span class="s2">&quot;author:&quot;</span> <span class="o">+</span> <span class="n">author</span><span class="p">]</span>
+
+        <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">getitem</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">SEARCH_ISSUES</span> <span class="o">+</span> <span class="s1">&#39;+&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">query</span><span class="p">))</span></div>
+
+<div class="viewcode-block" id="GitHubHandler.get_pr_count"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_pr_count">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_pr_count</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">user</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Get the number of PRs opened by user</span>
+
+<span class="sd">        Arguments:</span>
+<span class="sd">          user: login of user to query</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">          Number of PRs that **user** has opened so far</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">search_issues</span><span class="p">(</span><span class="n">pr</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">author</span><span class="o">=</span><span class="n">user</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">result</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;total_count&#39;</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.is_org"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.is_org">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">is_org</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Check if we are operating on an organization&quot;&quot;&quot;</span>
@@ -769,7 +808,34 @@
             <span class="n">logger</span><span class="o">.</span><span class="n">Info</span><span class="p">(</span><span class="s2">&quot;Missing checks for #</span><span class="si">%s</span><span class="s2">: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">pr_number</span><span class="p">,</span> <span class="n">required_checks</span><span class="p">)</span>
             <span class="k">return</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;Not all required checks have passed&quot;</span>
 
-        <span class="k">return</span> <span class="kc">True</span><span class="p">,</span> <span class="s2">&quot;LGTM&quot;</span></div></div>
+        <span class="k">return</span> <span class="kc">True</span><span class="p">,</span> <span class="s2">&quot;LGTM&quot;</span></div>
+
+<div class="viewcode-block" id="GitHubHandler.get_contents"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_contents">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_contents</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">ref</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Get contents of a file in repo</span>
+
+<span class="sd">        Arguments:</span>
+<span class="sd">          path: file path</span>
+<span class="sd">          ref: git reference (branch, commit, tag)</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">          The contents of the file</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">          RuntimeError if the content encoding is not understood.</span>
+<span class="sd">          (Should always be base64)</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">var_data</span> <span class="o">=</span> <span class="n">copy</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">var_default</span><span class="p">)</span>
+        <span class="n">var_data</span><span class="p">[</span><span class="s1">&#39;path&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">path</span>
+        <span class="k">if</span> <span class="n">ref</span><span class="p">:</span>
+            <span class="n">var_data</span><span class="p">[</span><span class="s1">&#39;ref&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ref</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">ref</span> <span class="o">=</span> <span class="s1">&#39;master&#39;</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">getitem</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">CONTENTS</span><span class="p">,</span> <span class="n">var_data</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">result</span><span class="p">[</span><span class="s1">&#39;encoding&#39;</span><span class="p">]</span> <span class="o">!=</span> <span class="s1">&#39;base64&#39;</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;Got unknown encoding for </span><span class="si">{self}</span><span class="s2">/</span><span class="si">{path}</span><span class="s2">:</span><span class="si">{ref}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">content_bytes</span> <span class="o">=</span> <span class="n">base64</span><span class="o">.</span><span class="n">b64decode</span><span class="p">(</span><span class="n">result</span><span class="p">[</span><span class="s1">&#39;content&#39;</span><span class="p">])</span>
+        <span class="n">content</span> <span class="o">=</span> <span class="n">content_bytes</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">content</span></div></div>
 
 
 <div class="viewcode-block" id="AiohttpGitHubHandler"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.AiohttpGitHubHandler">[docs]</a><span class="k">class</span> <span class="nc">AiohttpGitHubHandler</span><span class="p">(</span><span class="n">GitHubHandler</span><span class="p">):</span>

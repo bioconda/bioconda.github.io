@@ -22,9 +22,9 @@ perl-math-random-mt-auto
 
    |downloads_perl-math-random-mt-auto| |docker_perl-math-random-mt-auto|
 
-   :versions: 6.23-0, 6.22-0
+   :versions: 6.23-1, 6.23-0, 6.22-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-carp: 
    :depends perl-data-dumper: 

@@ -385,6 +385,11 @@ of an app.</p>
 <dd></dd></dl>
 
 <dl class="attribute">
+<dt id="bioconda_utils.githubhandler.GitHubHandler.CONTENTS">
+<code class="descname">CONTENTS</code><em class="property"> = '/repos/{user}/{repo}/contents/{path}{?ref}'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.CONTENTS" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
 <dt id="bioconda_utils.githubhandler.GitHubHandler.GET_CHECK_RUNS">
 <code class="descname">GET_CHECK_RUNS</code><em class="property"> = '/repos/{user}/{repo}/commits/{commit}/check-runs'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.GET_CHECK_RUNS" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
@@ -437,6 +442,11 @@ of an app.</p>
 <dl class="attribute">
 <dt id="bioconda_utils.githubhandler.GitHubHandler.PULL_MERGE">
 <code class="descname">PULL_MERGE</code><em class="property"> = '/repos/{user}/{repo}/pulls/{number}/merge'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.PULL_MERGE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.githubhandler.GitHubHandler.SEARCH_ISSUES">
+<code class="descname">SEARCH_ISSUES</code><em class="property"> = '/search/issues?q='</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.SEARCH_ISSUES" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
@@ -613,12 +623,55 @@ in dict.</p>
 </dd></dl>
 
 <dl class="method">
+<dt id="bioconda_utils.githubhandler.GitHubHandler.get_contents">
+<code class="descname">get_contents</code><span class="sig-paren">(</span><em>path</em>, <em>ref=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.get_contents"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.get_contents" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get contents of a file in repo</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>path</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – file path</p></li>
+<li><p><strong>ref</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – git reference (branch, commit, tag)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>The contents of the file</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>RuntimeError if the content encoding is not understood.</strong> – </p></li>
+<li><p><strong>(</strong><strong>Should always be base64</strong><strong>)</strong> – </p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
 <dt id="bioconda_utils.githubhandler.GitHubHandler.get_file_relurl">
 <code class="descname">get_file_relurl</code><span class="sig-paren">(</span><em>path</em>, <em>branch_name='master'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.get_file_relurl"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.get_file_relurl" title="Permalink to this definition">¶</a></dt>
 <dd><p>Format domain relative url for <strong>path</strong> on <strong>branch_name</strong></p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
 <dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.githubhandler.GitHubHandler.get_pr_count">
+<code class="descname">get_pr_count</code><span class="sig-paren">(</span><em>user</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.get_pr_count"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.get_pr_count" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the number of PRs opened by user</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>user</strong> – login of user to query</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Number of PRs that <strong>user</strong> has opened so far</p>
 </dd>
 </dl>
 </dd></dl>
@@ -896,6 +949,21 @@ is provided, if user is member of that team.</p>
 <dt id="bioconda_utils.githubhandler.GitHubHandler.repo">
 <code class="descname">repo</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.repo" title="Permalink to this definition">¶</a></dt>
 <dd><p>Name of the Repo</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.githubhandler.GitHubHandler.search_issues">
+<code class="descname">search_issues</code><span class="sig-paren">(</span><em>author=None</em>, <em>pr=False</em>, <em>issue=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.search_issues"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.search_issues" title="Permalink to this definition">¶</a></dt>
+<dd><p>Search issues/PRs on our repos</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>author</strong> – login name of user to search</p></li>
+<li><p><strong>pr</strong> – whether to consider only PRs</p></li>
+<li><p><strong>issue</strong> – whether to consider only non-PR issues</p></li>
+</ul>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="method">

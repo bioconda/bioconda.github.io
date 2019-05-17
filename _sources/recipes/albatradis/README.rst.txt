@@ -22,10 +22,10 @@ albatradis
 
    |downloads_albatradis| |docker_albatradis|
 
-   :versions: 1.0.0-2, 1.0.0-1, 1.0.0-0, 0.0.5-4
+   :versions: 1.0.0-3, 1.0.0-2, 1.0.0-1, 1.0.0-0, 0.0.5-4
    
    :depends biopython: >=1.68
-   :depends biotradis: 
+   :depends biotradis: 1.4.1.dev.*
    :depends cython: 
    :depends dendropy: 
    :depends graphviz: >=2.38.0,<3.0a0

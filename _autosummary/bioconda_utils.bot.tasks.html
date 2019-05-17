@@ -305,6 +305,12 @@ promise will only evaluate it once.</p>
 </dd></dl>
 
 <dl class="task">
+<dt id="bioconda_utils.bot.tasks.create_welcome_post">
+<em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">create_welcome_post</code><span class="sig-paren">(</span><em>pr_number</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.create_welcome_post" title="Permalink to this definition">¶</a></dt>
+<dd><p>Post welcome message for first timers</p>
+</dd></dl>
+
+<dl class="task">
 <dt id="bioconda_utils.bot.tasks.get_latest_pr_commit">
 <em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">get_latest_pr_commit</code><span class="sig-paren">(</span><em>issue_number</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.get_latest_pr_commit" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns last commit</p>
@@ -340,6 +346,14 @@ promise will only evaluate it once.</p>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
 </dd>
 </dl>
+</dd></dl>
+
+<dl class="task">
+<dt id="bioconda_utils.bot.tasks.run_autobump">
+<em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">run_autobump</code><span class="sig-paren">(</span><em>package_names</em>, <em>ghapi</em>, <em>*args</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.run_autobump" title="Permalink to this definition">¶</a></dt>
+<dd><p>Proxy that evaluates object once.</p>
+<p><code class="xref py py-class docutils literal notranslate"><span class="pre">Proxy</span></code> will evaluate the object each time, while the
+promise will only evaluate it once.</p>
 </dd></dl>
 
 <dl class="task">

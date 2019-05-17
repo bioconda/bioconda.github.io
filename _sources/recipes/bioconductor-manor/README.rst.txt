@@ -22,8 +22,11 @@ bioconductor-manor
 
    |downloads_bioconductor-manor| |docker_bioconductor-manor|
 
-   :versions: 
+   :versions: 1.56.0-0
    
+   :depends bioconductor-glad: >=2.48.0,<2.49.0
+   :depends libgcc-ng: >=7.3.0
+   :depends r-base: >=3.5.1,<3.5.2.0a0
    :requirements:
 
    .. rubric:: Installation

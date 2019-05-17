@@ -209,14 +209,20 @@
         <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Selected </span><span class="si">%i</span><span class="s2"> packages&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">recipe_dirs</span><span class="p">))</span>
 
 <div class="viewcode-block" id="RecipeSource.queue_items"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.RecipeSource.queue_items">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">queue_items</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">send_q</span><span class="p">,</span> <span class="n">return_q</span><span class="p">):</span>
+        <span class="n">n_items</span> <span class="o">=</span> <span class="mi">0</span>
         <span class="k">for</span> <span class="n">recipe_dir</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">recipe_dirs</span><span class="p">:</span>
             <span class="k">await</span> <span class="n">send_q</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="n">Recipe</span><span class="p">(</span><span class="n">recipe_dir</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">recipe_base</span><span class="p">))</span>
+            <span class="n">n_items</span> <span class="o">+=</span> <span class="mi">1</span>
             <span class="k">while</span> <span class="n">return_q</span><span class="o">.</span><span class="n">qsize</span><span class="p">():</span>
                 <span class="k">try</span><span class="p">:</span>
                     <span class="n">return_q</span><span class="o">.</span><span class="n">get_nowait</span><span class="p">()</span>
                     <span class="n">return_q</span><span class="o">.</span><span class="n">task_done</span><span class="p">()</span>
+                    <span class="n">n_items</span> <span class="o">-=</span> <span class="mi">1</span>
                 <span class="k">except</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">QueueEmpty</span><span class="p">:</span>
-                    <span class="k">break</span></div>
+                    <span class="k">break</span>
+        <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_items</span><span class="p">):</span>
+            <span class="k">await</span> <span class="n">return_q</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
+            <span class="n">return_q</span><span class="o">.</span><span class="n">task_done</span><span class="p">()</span></div>
 
 <div class="viewcode-block" id="RecipeSource.get_item_count"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.RecipeSource.get_item_count">[docs]</a>    <span class="k">def</span> <span class="nf">get_item_count</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">recipe_dirs</span><span class="p">)</span></div></div>
@@ -310,8 +316,8 @@
         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;SUM: </span><span class="si">%i</span><span class="s2">&quot;</span><span class="p">,</span> <span class="nb">sum</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">stats</span><span class="o">.</span><span class="n">values</span><span class="p">()))</span>
         <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">status_fn</span><span class="p">:</span>
             <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">status_fn</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">out</span><span class="p">:</span>
-                <span class="k">for</span> <span class="n">entry</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">status</span><span class="p">:</span>
-                    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">entry</span><span class="p">)</span><span class="o">+</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+                <span class="k">for</span> <span class="n">rname</span><span class="p">,</span> <span class="n">result</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">status</span><span class="p">:</span>
+                    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">f</span><span class="s1">&#39;</span><span class="si">{rname}</span><span class="se">\t</span><span class="si">{result.name}</span><span class="s1">&#39;</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">res</span></div>
 
 <div class="viewcode-block" id="Scanner.queue_items"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.Scanner.queue_items">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">queue_items</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">send_q</span><span class="p">,</span> <span class="n">return_q</span><span class="p">):</span>
@@ -335,7 +341,7 @@
             <span class="k">return</span> <span class="kc">False</span>
         <span class="k">except</span> <span class="n">EndProcessingItem</span> <span class="k">as</span> <span class="n">recipe_error</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">stats</span><span class="p">[</span><span class="n">recipe_error</span><span class="o">.</span><span class="n">name</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">status</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">recipe</span><span class="o">.</span><span class="n">reldir</span><span class="p">,</span> <span class="n">recipe_error</span><span class="o">.</span><span class="n">name</span><span class="p">))</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">status</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">recipe</span><span class="o">.</span><span class="n">reldir</span><span class="p">,</span> <span class="n">recipe_error</span><span class="p">))</span>
             <span class="n">res</span> <span class="o">=</span> <span class="kc">True</span>
         <span class="k">return</span> <span class="n">res</span></div></div>
 
@@ -1066,8 +1072,10 @@
             <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">delete_local_branch</span><span class="p">(</span><span class="n">local_branch</span><span class="p">)</span>
 
         <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Recipe </span><span class="si">%s</span><span class="s2">: loading from master&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
-        <span class="n">recipe_text</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">pipeline</span><span class="o">.</span><span class="n">run_io</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">read_from_branch</span><span class="p">,</span>
-                                                 <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">master</span><span class="p">,</span> <span class="n">recipe</span><span class="o">.</span><span class="n">path</span><span class="p">)</span>
+        <span class="n">recipe_text</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">pipeline</span><span class="o">.</span><span class="n">run_io</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">read_from_branch</span><span class="p">,</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">get_local_branch</span><span class="p">(</span><span class="s1">&#39;master&#39;</span><span class="p">),</span>
+            <span class="n">recipe</span><span class="o">.</span><span class="n">path</span><span class="p">)</span>
         <span class="n">recipe</span><span class="o">.</span><span class="n">load_from_string</span><span class="p">(</span><span class="n">recipe_text</span><span class="p">)</span>
         <span class="n">recipe</span><span class="o">.</span><span class="n">set_original</span><span class="p">()</span>
 

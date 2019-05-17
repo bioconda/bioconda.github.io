@@ -130,25 +130,28 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_bump" title="bioconda_utils.bot.commands.command_bump"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_bump</span></code></a>(ghapi, issue_number, _user, *_args)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_autobump" title="bioconda_utils.bot.commands.command_autobump"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_autobump</span></code></a>(ghapi, _issue_number, …)</p></td>
+<td><p>Run Autobump on recipes</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_bump" title="bioconda_utils.bot.commands.command_bump"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_bump</span></code></a>(ghapi, issue_number, _user, *_args)</p></td>
 <td><p>Bump the build number of a recipe</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_hello" title="bioconda_utils.bot.commands.command_hello"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_hello</span></code></a>(ghapi, issue_number, user, *_args)</p></td>
-<td><p>Simple demo function answering to hello</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_hello" title="bioconda_utils.bot.commands.command_hello"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_hello</span></code></a>(ghapi, issue_number, user, *_args)</p></td>
+<td><p>Check whether the bot is listening.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_lint" title="bioconda_utils.bot.commands.command_lint"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_lint</span></code></a>(ghapi, issue_number, _user, *_args)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_lint" title="bioconda_utils.bot.commands.command_lint"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_lint</span></code></a>(ghapi, issue_number, _user, *_args)</p></td>
 <td><p>Lint the current recipe</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_merge" title="bioconda_utils.bot.commands.command_merge"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_merge</span></code></a>(ghapi, issue_number, user, *_args)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_merge" title="bioconda_utils.bot.commands.command_merge"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_merge</span></code></a>(ghapi, issue_number, user, *_args)</p></td>
 <td><p>Merge PR</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_rebuild" title="bioconda_utils.bot.commands.command_rebuild"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_rebuild</span></code></a>(ghapi, issue_number, _user, …)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_rebuild" title="bioconda_utils.bot.commands.command_rebuild"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_rebuild</span></code></a>(ghapi, issue_number, _user, …)</p></td>
 <td><p>Trigger rebuild of PR as of latest sha</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_recheck" title="bioconda_utils.bot.commands.command_recheck"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_recheck</span></code></a>(ghapi, issue_number, _user, …)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_recheck" title="bioconda_utils.bot.commands.command_recheck"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_recheck</span></code></a>(ghapi, issue_number, _user, …)</p></td>
 <td><p>Trigger check_check_run and check_circle_artifacts</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.permissions" title="bioconda_utils.bot.commands.permissions"><code class="xref py py-obj docutils literal notranslate"><span class="pre">permissions</span></code></a>([member, author, team])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.permissions" title="bioconda_utils.bot.commands.permissions"><code class="xref py py-obj docutils literal notranslate"><span class="pre">permissions</span></code></a>([member, author, team])</p></td>
 <td><p>Decorator for commands checking for permissions</p></td>
 </tr>
 </tbody>
@@ -196,6 +199,12 @@
 </dd></dl>
 
 <dl class="function">
+<dt id="bioconda_utils.bot.commands.command_autobump">
+<code class="descclassname">bioconda_utils.bot.commands.</code><code class="descname">command_autobump</code><span class="sig-paren">(</span><em>ghapi</em>, <em>_issue_number</em>, <em>_user</em>, <em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_autobump"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_autobump" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run Autobump on recipes</p>
+</dd></dl>
+
+<dl class="function">
 <dt id="bioconda_utils.bot.commands.command_bump">
 <code class="descclassname">bioconda_utils.bot.commands.</code><code class="descname">command_bump</code><span class="sig-paren">(</span><em>ghapi</em>, <em>issue_number</em>, <em>_user</em>, <em>*_args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_bump"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_bump" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bump the build number of a recipe</p>
@@ -204,7 +213,7 @@
 <dl class="function">
 <dt id="bioconda_utils.bot.commands.command_hello">
 <code class="descclassname">bioconda_utils.bot.commands.</code><code class="descname">command_hello</code><span class="sig-paren">(</span><em>ghapi</em>, <em>issue_number</em>, <em>user</em>, <em>*_args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_hello"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_hello" title="Permalink to this definition">¶</a></dt>
-<dd><p>Simple demo function answering to hello</p>
+<dd><p>Check whether the bot is listening. If it is, it will answer.</p>
 </dd></dl>
 
 <dl class="function">

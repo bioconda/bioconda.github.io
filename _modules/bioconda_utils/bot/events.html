@@ -106,16 +106,20 @@
   <h1>Source code for bioconda_utils.bot.events</h1><div class="highlight"><pre>
 <span></span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">Handlers for incoming Github Events</span>
+
+<span class="sd">Note:</span>
+<span class="sd">  The incoming webhook from Github is still open and unanswered</span>
+<span class="sd">  while these are processed. Commands should not do anything taking</span>
+<span class="sd">  more than milliseconds.</span>
 <span class="sd">&quot;&quot;&quot;</span>
 
 <span class="kn">import</span> <span class="nn">logging</span>
 <span class="kn">import</span> <span class="nn">re</span>
-<span class="kn">import</span> <span class="nn">asyncio</span>
 
 <span class="kn">import</span> <span class="nn">gidgethub.routing</span>
 
 <span class="kn">from</span> <span class="nn">.commands</span> <span class="k">import</span> <span class="n">command_routes</span>
-<span class="kn">from</span> <span class="nn">.tasks</span> <span class="k">import</span> <span class="n">lint_check</span><span class="p">,</span> <span class="n">create_check_run</span><span class="p">,</span> <span class="n">check_circle_artifacts</span>
+<span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">tasks</span>
 <span class="kn">from</span> <span class="nn">.config</span> <span class="k">import</span> <span class="n">APP_ID</span>
 
 
@@ -127,23 +131,38 @@
 
 <div class="viewcode-block" id="handle_comment_created"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.events.html#bioconda_utils.bot.events.handle_comment_created">[docs]</a><span class="nd">@event_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;issue_comment&quot;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&quot;created&quot;</span><span class="p">)</span>
 <span class="k">async</span> <span class="k">def</span> <span class="nf">handle_comment_created</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">_kwargs</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Dispatches @bioconda-bot commands</span>
+    <span class="sd">&quot;&quot;&quot;Handles comments on issues</span>
 
-<span class="sd">    This function watches for comments on issues. Lines starting with</span>
-<span class="sd">    an @mention of the bot are considered commands and dispatched.</span>
+<span class="sd">    - dispatches @biocondabot commands</span>
+<span class="sd">    - re-iterates commenets from non-members attempting to @mention @bioconda/xxx</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">issue_number</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;issue/number&#39;</span><span class="p">,</span> <span class="s2">&quot;NA&quot;</span><span class="p">)</span>
     <span class="n">comment_author</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;comment/user/login&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="n">comment_body</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;comment/body&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+
+    <span class="c1"># Ignore self mentions. This is important not only to avoid loops,</span>
+    <span class="c1"># but critical because we are repeating what non-members say below.</span>
+    <span class="k">if</span> <span class="n">BOT_ALIAS_RE</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="s1">&#39;@&#39;</span><span class="o">+</span><span class="n">comment_author</span><span class="p">):</span>
+        <span class="k">return</span>
+
     <span class="n">commands</span> <span class="o">=</span> <span class="p">[</span>
         <span class="n">line</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">1</span><span class="p">:]</span>
-        <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;comment/body&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">splitlines</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">comment_body</span><span class="o">.</span><span class="n">splitlines</span><span class="p">()</span>
         <span class="k">if</span> <span class="n">BOT_ALIAS_RE</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
     <span class="p">]</span>
-    <span class="k">if</span> <span class="ow">not</span> <span class="n">commands</span><span class="p">:</span>
-        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;No command in comment on #</span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">)</span>
     <span class="k">for</span> <span class="n">cmd</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span> <span class="ow">in</span> <span class="n">commands</span><span class="p">:</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Dispatching command from #</span><span class="si">%s</span><span class="s2">: &#39;</span><span class="si">%s</span><span class="s2">&#39; </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">cmd</span><span class="p">,</span> <span class="n">args</span><span class="p">)</span>
-        <span class="k">await</span> <span class="n">command_routes</span><span class="o">.</span><span class="n">dispatch</span><span class="p">(</span><span class="n">cmd</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">comment_author</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span></div>
+        <span class="k">await</span> <span class="n">command_routes</span><span class="o">.</span><span class="n">dispatch</span><span class="p">(</span><span class="n">cmd</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">comment_author</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="s1">&#39;@bioconda/&#39;</span> <span class="ow">in</span> <span class="n">comment_body</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">and</span> <span class="ow">not</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">is_member</span><span class="p">(</span><span class="n">comment_author</span><span class="p">):</span>
+        <span class="k">if</span> <span class="s1">&#39;@bioconda/all&#39;</span> <span class="ow">in</span> <span class="n">comment_body</span><span class="o">.</span><span class="n">lower</span><span class="p">():</span>
+            <span class="k">return</span>  <span class="c1"># not pinging everyone</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Repeating comment from </span><span class="si">%s</span><span class="s2"> on #</span><span class="si">%s</span><span class="s2"> to allow ping&quot;</span><span class="p">)</span>
+        <span class="n">quoted_msg</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">&#39;&gt; &#39;</span> <span class="o">+</span> <span class="n">line</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">comment_body</span><span class="o">.</span><span class="n">splitlines</span><span class="p">())</span>
+        <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">create_comment</span><span class="p">(</span>
+            <span class="n">issue_number</span><span class="p">,</span>
+            <span class="n">f</span><span class="s2">&quot;Repeating comment from @</span><span class="si">{comment_author}</span><span class="s2"> to enable @mention:</span><span class="se">\n</span><span class="s2">&quot;</span>
+            <span class="o">+</span> <span class="n">quoted_msg</span><span class="p">)</span></div>
 
 
 <div class="viewcode-block" id="handle_check_suite"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.events.html#bioconda_utils.bot.events.handle_check_suite">[docs]</a><span class="nd">@event_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;check_suite&quot;</span><span class="p">)</span>
@@ -154,7 +173,7 @@
     <span class="k">if</span> <span class="n">action</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;requested&#39;</span><span class="p">,</span> <span class="s1">&#39;rerequested&#39;</span><span class="p">]:</span>
         <span class="k">return</span>
     <span class="n">head_sha</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;check_suite/head_sha&quot;</span><span class="p">)</span>
-    <span class="n">create_check_run</span><span class="o">.</span><span class="n">apply_async</span><span class="p">((</span><span class="n">head_sha</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">))</span>
+    <span class="n">tasks</span><span class="o">.</span><span class="n">create_check_run</span><span class="o">.</span><span class="n">apply_async</span><span class="p">((</span><span class="n">head_sha</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">))</span>
     <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Scheduled create_check_run for </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">)</span></div>
 
 
@@ -171,7 +190,7 @@
                 <span class="c1"># PR away from us, not to us</span>
                 <span class="k">continue</span>
             <span class="n">pr_number</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">pr</span><span class="p">[</span><span class="s2">&quot;number&quot;</span><span class="p">])</span>
-            <span class="n">check_circle_artifacts</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">pr_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
+            <span class="n">tasks</span><span class="o">.</span><span class="n">check_circle_artifacts</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">pr_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
             <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Scheduled check_circle_artifacts on #</span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">pr_number</span><span class="p">)</span>
 
     <span class="c1"># Ignore check runs coming from other apps</span>
@@ -179,11 +198,11 @@
         <span class="k">return</span>
 
     <span class="k">if</span> <span class="n">action</span> <span class="o">==</span> <span class="s2">&quot;rerequested&quot;</span><span class="p">:</span>
-        <span class="n">create_check_run</span><span class="o">.</span><span class="n">apply_async</span><span class="p">((</span><span class="n">head_sha</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">))</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">create_check_run</span><span class="o">.</span><span class="n">apply_async</span><span class="p">((</span><span class="n">head_sha</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">))</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Scheduled create_check_run for </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">)</span>
     <span class="k">elif</span> <span class="n">action</span> <span class="o">==</span> <span class="s2">&quot;created&quot;</span><span class="p">:</span>
         <span class="n">check_run_number</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;check_run/id&#39;</span><span class="p">)</span>
-        <span class="n">lint_check</span><span class="o">.</span><span class="n">apply_async</span><span class="p">((</span><span class="n">check_run_number</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">))</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">lint_check</span><span class="o">.</span><span class="n">apply_async</span><span class="p">((</span><span class="n">check_run_number</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">))</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Scheduled lint_check for </span><span class="si">%s</span><span class="s2"> </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">check_run_number</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">)</span></div>
 
 
@@ -204,9 +223,11 @@
     <span class="n">pr_number</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;number&#39;</span><span class="p">))</span>
     <span class="n">head_sha</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;pull_request/head/sha&#39;</span><span class="p">)</span>
     <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Handling pull_request/</span><span class="si">%s</span><span class="s2"> #</span><span class="si">%s</span><span class="s2"> (</span><span class="si">%s</span><span class="s2">)&quot;</span><span class="p">,</span> <span class="n">action</span><span class="p">,</span> <span class="n">pr_number</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">action</span> <span class="o">==</span> <span class="s2">&quot;opened&quot;</span><span class="p">:</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">create_welcome_post</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">pr_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
+
     <span class="k">if</span> <span class="n">action</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">&#39;opened&#39;</span><span class="p">,</span> <span class="s1">&#39;reopened&#39;</span><span class="p">,</span> <span class="s1">&#39;synchronize&#39;</span><span class="p">):</span>
-        <span class="k">await</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
-        <span class="n">create_check_run</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">head_sha</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">,</span> <span class="n">recreate</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">create_check_run</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">head_sha</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">,</span> <span class="n">recreate</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">(</span><span class="n">countdown</span><span class="o">=</span><span class="mi">30</span><span class="p">)</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Scheduled create_check_run(recreate=False) for </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">)</span></div>
 </pre></div>
 
