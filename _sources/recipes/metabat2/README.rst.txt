@@ -9,10 +9,10 @@ metabat2
 .. conda:recipe:: metabat2
    :replaces_section_title:
 
-   MetaBAT2 is a program for binning metagenome\-assembled contigs into bins\/MAGs.
+   Metagenome binning
 
    :homepage: https://bitbucket.org/berkeleylab/metabat
-   :license: Academic and Research License
+   :license: BSD-3-Clause-LBNL
    :recipe: /`metabat2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metabat2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metabat2/meta.yaml>`_
 
    
@@ -22,9 +22,13 @@ metabat2
 
    |downloads_metabat2| |docker_metabat2|
 
-   :versions: 2.12.1-1, 2.12.1-0
+   :versions: 2.13-0, 2.12.1-1, 2.12.1-0
    
+   :depends htslib: >=1.9,<1.10.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends perl: >=5
+   :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -22,10 +22,13 @@ circlator
 
    |downloads_circlator| |docker_circlator|
 
-   :versions: 1.5.5-2, 1.5.5-1, 1.5.5-0, 1.5.2-1, 1.5.2-0, 1.5.1-0, 1.5.0-0, 1.4.0-0, 1.3.1-0, 1.3.0-0, 1.1.2-0
+   :versions: 1.5.5-3, 1.5.5-2, 1.5.5-1, 1.5.5-0, 1.5.2-1, 1.5.2-0, 1.5.1-0, 1.5.0-0, 1.4.0-0, 1.3.1-0, 1.3.0-0, 1.1.2-0
    
+   :depends amos: >=3.1.0
    :depends bio_assembly_refinement: >=0.4.0
    :depends bwa: 
+   :depends canu: >=1.8
+   :depends mummer: >=3.23
    :depends openpyxl: 
    :depends prodigal: 
    :depends pyfastaq: >=3.12.1

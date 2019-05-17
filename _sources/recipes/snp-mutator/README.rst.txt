@@ -22,7 +22,7 @@ snp-mutator
 
    |downloads_snp-mutator| |docker_snp-mutator|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-0
    
    :depends biopython: 
    :depends numpy: 

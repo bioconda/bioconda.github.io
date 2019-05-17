@@ -24,7 +24,7 @@ medaka
 
    |downloads_medaka| |docker_medaka|
 
-   :versions: 0.7.0-0, 0.6.5-0, 0.6.4-0, 0.6.2-0, 0.6.0-0, 0.5.2-0
+   :versions: 0.7.0-1, 0.7.0-0, 0.6.5-0, 0.6.4-0, 0.6.2-0, 0.6.0-0, 0.5.2-0
    
    :depends bcftools: 1.9
    :depends biopython: 
@@ -42,7 +42,7 @@ medaka
    :depends python: >=3.6,<3.7.0a0
    :depends pyyaml: 5.1
    :depends samtools: 1.9
-   :depends tensorflow: 1.12.0
+   :depends tensorflow: >=1.12.2
    :depends whatshap: 0.18
    :depends xz: >=5.2.4,<5.3.0a0
    :depends zlib: >=1.2.11,<1.3.0a0

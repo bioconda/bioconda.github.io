@@ -13,7 +13,7 @@ spades
 
 
    :homepage: http://cab.spbu.ru/software/spades/
-   :documentation: http://cab.spbu.ru/files/release3.13.0/manual.html
+   :documentation: http://cab.spbu.ru/files/release3.13.1/manual.html
    
    :developer docs: https://github.com/ablab/spades
    :license: GPL / GPLv2
@@ -27,7 +27,7 @@ spades
 
    |downloads_spades| |docker_spades|
 
-   :versions: 3.13.0-0, 3.12.0-1, 3.12.0-0, 3.11.1-3, 3.11.1-2, 3.11.1-1, 3.11.1-0, 3.11.0-1, 3.11.0-0, 3.10.1-0, 3.10.0-0, 3.9.0-2, 3.9.0-1, 3.9.0-0, 3.8.1-0, 3.8.0-0, 3.7.0-0, 3.6.2-0, 3.5.0-0
+   :versions: 3.13.1-0, 3.13.0-0, 3.12.0-1, 3.12.0-0, 3.11.1-3, 3.11.1-2, 3.11.1-1, 3.11.1-0, 3.11.0-1, 3.11.0-0, 3.10.1-0, 3.10.0-0, 3.9.0-2, 3.9.0-1, 3.9.0-0, 3.8.1-0, 3.8.0-0, 3.7.0-0, 3.6.2-0, 3.5.0-0
    
    :depends python: 
    :requirements:

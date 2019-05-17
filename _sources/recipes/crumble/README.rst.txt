@@ -12,8 +12,9 @@ crumble
    Controllable lossy compression of BAM\/CRAM files
 
    :homepage: https://github.com/jkbonfield/crumble
-   :license: open source
+   :license: BSD / multiple BSD style licenses
    :recipe: /`crumble <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crumble>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crumble/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/bty608`
 
    
 
@@ -22,7 +23,7 @@ crumble
 
    |downloads_crumble| |docker_crumble|
 
-   :versions: 0.8.1-0
+   :versions: 0.8.2-0, 0.8.1-0
    
    :depends htslib: >=1.9,<1.10.0a0
    :depends libgcc-ng: >=7.3.0
