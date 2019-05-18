@@ -23,17 +23,17 @@ maker
 
    |downloads_maker| |docker_maker|
 
-   :versions: 2.31.10-13, 2.31.10-12, 2.31.10-11, 2.31.10-10, 2.31.10-9, 2.31.10-8, 2.31.10-7, 2.31.10-6, 2.31.9-6, 2.31.9-3, 2.31.9-2, 2.31.9-1, 2.31.9-0
+   :versions: 2.31.10-14, 2.31.10-13, 2.31.10-12, 2.31.10-11, 2.31.10-10, 2.31.10-9, 2.31.10-8, 2.31.10-7, 2.31.10-6, 2.31.9-6, 2.31.9-3, 2.31.9-2, 2.31.9-1, 2.31.9-0
    
    :depends augustus: >=3.2.3
    :depends blast: 
    :depends exonerate: 
    :depends infernal: 
-   :depends libpq: >=11.2,<12.0a0
+   :depends libpq: >=11.3,<12.0a0
    :depends mir-prefer: 
    :depends mpich: >=3.2,<3.3.0a0
    :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends perl-bioperl: >=1.7
+   :depends perl-bioperl-core: >=1.007002
    :depends perl-bit-vector: 
    :depends perl-dbd-pg: 
    :depends perl-dbd-sqlite: 
