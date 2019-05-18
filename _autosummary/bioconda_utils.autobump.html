@@ -225,7 +225,7 @@ have come past it, to avoid too many PRs opened at once.</p></li>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.autobump.RecipeGraphSource" title="bioconda_utils.autobump.RecipeGraphSource"><code class="xref py py-obj docutils literal notranslate"><span class="pre">RecipeGraphSource</span></code></a>(recipe_base, packages, …)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.autobump.RecipeSource" title="bioconda_utils.autobump.RecipeSource"><code class="xref py py-obj docutils literal notranslate"><span class="pre">RecipeSource</span></code></a>(recipe_base, packages[, shuffle])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.autobump.RecipeSource" title="bioconda_utils.autobump.RecipeSource"><code class="xref py py-obj docutils literal notranslate"><span class="pre">RecipeSource</span></code></a>(recipe_base, packages, exclude)</p></td>
 <td><p>Source for <strong>Recipe</strong> objects to feed into Scanner</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.autobump.Scanner" title="bioconda_utils.autobump.Scanner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Scanner</span></code></a>(recipe_source[, cache_fn, …])</p></td>
@@ -858,7 +858,7 @@ work from there so that we don’t recreate the “same” update.</p>
 
 <dl class="class">
 <dt id="bioconda_utils.autobump.RecipeGraphSource">
-<em class="property">class </em><code class="descclassname">bioconda_utils.autobump.</code><code class="descname">RecipeGraphSource</code><span class="sig-paren">(</span><em>recipe_base</em>, <em>packages</em>, <em>shuffle</em>, <em>config</em>, <em>cache_fn=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/autobump.html#RecipeGraphSource"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.RecipeGraphSource" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">bioconda_utils.autobump.</code><code class="descname">RecipeGraphSource</code><span class="sig-paren">(</span><em>recipe_base</em>, <em>packages</em>, <em>exclude</em>, <em>shuffle</em>, <em>config</em>, <em>cache_fn=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/autobump.html#RecipeGraphSource"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.RecipeGraphSource" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.RecipeSource" title="bioconda_utils.autobump.RecipeSource"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.RecipeSource</span></code></a></p>
 <dl class="method">
 <dt id="bioconda_utils.autobump.RecipeGraphSource.get_item_count">
@@ -879,7 +879,7 @@ work from there so that we don’t recreate the “same” update.</p>
 
 <dl class="class">
 <dt id="bioconda_utils.autobump.RecipeSource">
-<em class="property">class </em><code class="descclassname">bioconda_utils.autobump.</code><code class="descname">RecipeSource</code><span class="sig-paren">(</span><em>recipe_base</em>, <em>packages</em>, <em>shuffle=True</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/autobump.html#RecipeSource"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.RecipeSource" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">bioconda_utils.autobump.</code><code class="descname">RecipeSource</code><span class="sig-paren">(</span><em>recipe_base</em>, <em>packages</em>, <em>exclude</em>, <em>shuffle=True</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/autobump.html#RecipeSource"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.RecipeSource" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
 <p>Source for <strong>Recipe</strong> objects to feed into Scanner</p>
 <dl class="field-list simple">

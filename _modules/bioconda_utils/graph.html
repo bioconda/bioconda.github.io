@@ -109,10 +109,12 @@
 <span class="sd">&quot;&quot;&quot;</span>
 
 <span class="kn">import</span> <span class="nn">logging</span>
-<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
 
 <span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">defaultdict</span>
+<span class="kn">from</span> <span class="nn">fnmatch</span> <span class="k">import</span> <span class="n">fnmatch</span>
 <span class="kn">from</span> <span class="nn">itertools</span> <span class="k">import</span> <span class="n">chain</span>
+
+<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
 
 <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">utils</span>
 
@@ -222,12 +224,13 @@
     <span class="k">return</span> <span class="n">dag</span></div>
 
 
-<div class="viewcode-block" id="filter_recipe_dag"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.graph.html#bioconda_utils.graph.filter_recipe_dag">[docs]</a><span class="k">def</span> <span class="nf">filter_recipe_dag</span><span class="p">(</span><span class="n">dag</span><span class="p">,</span> <span class="n">names</span><span class="p">):</span>
+<div class="viewcode-block" id="filter_recipe_dag"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.graph.html#bioconda_utils.graph.filter_recipe_dag">[docs]</a><span class="k">def</span> <span class="nf">filter_recipe_dag</span><span class="p">(</span><span class="n">dag</span><span class="p">,</span> <span class="n">include</span><span class="p">,</span> <span class="n">exclude</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Reduces **dag** to packages in **names** and their requirements&quot;&quot;&quot;</span>
-    <span class="n">name_set</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
     <span class="n">nodes</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
     <span class="k">for</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="n">dag</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">recipe</span><span class="o">.</span><span class="n">reldir</span> <span class="ow">in</span> <span class="n">name_set</span> <span class="ow">and</span> <span class="n">recipe</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">nodes</span><span class="p">:</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">recipe</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">nodes</span>
+            <span class="ow">and</span> <span class="nb">any</span><span class="p">(</span><span class="n">fnmatch</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">reldir</span><span class="p">,</span> <span class="n">p</span><span class="p">)</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">include</span><span class="p">)</span>
+            <span class="ow">and</span> <span class="ow">not</span> <span class="nb">any</span><span class="p">(</span><span class="n">fnmatch</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">reldir</span><span class="p">,</span> <span class="n">p</span><span class="p">)</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">exclude</span><span class="p">)):</span>
             <span class="n">nodes</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
             <span class="n">nodes</span> <span class="o">|=</span> <span class="n">nx</span><span class="o">.</span><span class="n">ancestors</span><span class="p">(</span><span class="n">dag</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">nx</span><span class="o">.</span><span class="n">subgraph</span><span class="p">(</span><span class="n">dag</span><span class="p">,</span> <span class="n">nodes</span><span class="p">)</span></div>

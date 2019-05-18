@@ -190,7 +190,7 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.utils.get_package_paths" title="bioconda_utils.utils.get_package_paths"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_package_paths</span></code></a>(recipe, check_channels[, …])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.get_recipes" title="bioconda_utils.utils.get_recipes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_recipes</span></code></a>(recipe_folder[, package])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.utils.get_recipes" title="bioconda_utils.utils.get_recipes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_recipes</span></code></a>(recipe_folder[, package, exclude])</p></td>
 <td><p>Generator of recipes.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.utils.last_commit_to_master" title="bioconda_utils.utils.last_commit_to_master"><code class="xref py py-obj docutils literal notranslate"><span class="pre">last_commit_to_master</span></code></a>()</p></td>
@@ -759,7 +759,7 @@ the latest version of each recipe.</p>
 
 <dl class="function">
 <dt id="bioconda_utils.utils.get_recipes">
-<code class="descclassname">bioconda_utils.utils.</code><code class="descname">get_recipes</code><span class="sig-paren">(</span><em>recipe_folder</em>, <em>package='*'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#get_recipes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.get_recipes" title="Permalink to this definition">¶</a></dt>
+<code class="descclassname">bioconda_utils.utils.</code><code class="descname">get_recipes</code><span class="sig-paren">(</span><em>recipe_folder</em>, <em>package='*'</em>, <em>exclude=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/utils.html#get_recipes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.get_recipes" title="Permalink to this definition">¶</a></dt>
 <dd><p>Generator of recipes.</p>
 <p>Finds (possibly nested) directories containing a <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> file.</p>
 <dl class="field-list simple">
