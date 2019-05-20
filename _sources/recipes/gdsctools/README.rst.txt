@@ -11,8 +11,8 @@ gdsctools
 
    Set of tools and pipelines to analyse GDSC data \(cancerrxgene.org\)
 
-   :homepage: ['http://pypi.python.org/pypi/gdsctools']
-   :license: BSD / BSD 3-clause
+   :homepage: http://pypi.python.org/pypi/gdsctools
+   :license: BSD / BSD
    :recipe: /`gdsctools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gdsctools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gdsctools/meta.yaml>`_
 
    
