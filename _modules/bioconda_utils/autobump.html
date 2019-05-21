@@ -180,9 +180,8 @@
 <span class="kn">from</span> <span class="nn">.recipe</span> <span class="k">import</span> <span class="n">load_parallel_iter</span> <span class="k">as</span> <span class="n">recipes_load_parallel_iter</span>
 <span class="kn">from</span> <span class="nn">.aiopipe</span> <span class="k">import</span> <span class="n">AsyncFilter</span><span class="p">,</span> <span class="n">AsyncPipeline</span><span class="p">,</span> <span class="n">AsyncRequests</span><span class="p">,</span> <span class="n">EndProcessingItem</span><span class="p">,</span> <span class="n">EndProcessing</span>
 
-<span class="k">if</span> <span class="n">TYPE_CHECKING</span><span class="p">:</span>
-    <span class="kn">from</span> <span class="nn">.githandler</span> <span class="k">import</span> <span class="n">GitHandler</span>
-    <span class="kn">from</span> <span class="nn">.githubhandler</span> <span class="k">import</span> <span class="n">AiohttpGitHubHandler</span><span class="p">,</span> <span class="n">GitHubHandler</span>
+<span class="kn">from</span> <span class="nn">.githandler</span> <span class="k">import</span> <span class="n">GitHandler</span>
+<span class="kn">from</span> <span class="nn">.githubhandler</span> <span class="k">import</span> <span class="n">AiohttpGitHubHandler</span><span class="p">,</span> <span class="n">GitHubHandler</span>
 
 <span class="c1"># pkg_resources.parse_version returns a Version or LegacyVersion object</span>
 <span class="c1"># as defined in packaging.version. Since it&#39;s bundling it&#39;s own copy of</span>
@@ -209,7 +208,7 @@
             <span class="n">random</span><span class="o">.</span><span class="n">shuffle</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">recipe_dirs</span><span class="p">)</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Selected </span><span class="si">%i</span><span class="s2"> packages&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">recipe_dirs</span><span class="p">))</span>
 
-<div class="viewcode-block" id="RecipeSource.queue_items"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.RecipeSource.queue_items">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">queue_items</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">send_q</span><span class="p">,</span> <span class="n">return_q</span><span class="p">):</span>
+    <span class="k">async</span> <span class="k">def</span> <span class="nf">queue_items</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">send_q</span><span class="p">,</span> <span class="n">return_q</span><span class="p">):</span>
         <span class="n">n_items</span> <span class="o">=</span> <span class="mi">0</span>
         <span class="k">for</span> <span class="n">recipe_dir</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">recipe_dirs</span><span class="p">:</span>
             <span class="k">await</span> <span class="n">send_q</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="n">Recipe</span><span class="p">(</span><span class="n">recipe_dir</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">recipe_base</span><span class="p">))</span>
@@ -223,10 +222,10 @@
                     <span class="k">break</span>
         <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_items</span><span class="p">):</span>
             <span class="k">await</span> <span class="n">return_q</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
-            <span class="n">return_q</span><span class="o">.</span><span class="n">task_done</span><span class="p">()</span></div>
+            <span class="n">return_q</span><span class="o">.</span><span class="n">task_done</span><span class="p">()</span>
 
-<div class="viewcode-block" id="RecipeSource.get_item_count"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.RecipeSource.get_item_count">[docs]</a>    <span class="k">def</span> <span class="nf">get_item_count</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">recipe_dirs</span><span class="p">)</span></div></div>
+    <span class="k">def</span> <span class="nf">get_item_count</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">recipe_dirs</span><span class="p">)</span></div>
 
 
 <div class="viewcode-block" id="RecipeGraphSource"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.RecipeGraphSource">[docs]</a><span class="k">class</span> <span class="nc">RecipeGraphSource</span><span class="p">(</span><span class="n">RecipeSource</span><span class="p">):</span>
@@ -240,7 +239,7 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">dag</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">filter_recipe_dag</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dag</span><span class="p">,</span> <span class="n">packages</span><span class="p">,</span> <span class="n">exclude</span><span class="p">)</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Graph contains </span><span class="si">%i</span><span class="s2"> packages (blacklist excluded)&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dag</span><span class="p">))</span>
 
-<div class="viewcode-block" id="RecipeGraphSource.queue_items"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.RecipeGraphSource.queue_items">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">queue_items</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">send_q</span><span class="p">,</span> <span class="n">return_q</span><span class="p">):</span>
+    <span class="k">async</span> <span class="k">def</span> <span class="nf">queue_items</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">send_q</span><span class="p">,</span> <span class="n">return_q</span><span class="p">):</span>
         <span class="c1"># Build a copy of the graph we can meddle with</span>
         <span class="n">dag</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">dag</span><span class="o">.</span><span class="vm">__class__</span><span class="p">()</span>
         <span class="n">dag</span><span class="o">.</span><span class="n">add_nodes_from</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dag</span><span class="p">)</span>
@@ -258,17 +257,17 @@
             <span class="n">item</span> <span class="o">=</span> <span class="k">await</span> <span class="n">return_q</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
             <span class="n">dag</span><span class="o">.</span><span class="n">remove_node</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
             <span class="n">sent</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
-            <span class="n">return_q</span><span class="o">.</span><span class="n">task_done</span><span class="p">()</span></div>
+            <span class="n">return_q</span><span class="o">.</span><span class="n">task_done</span><span class="p">()</span>
 
-<div class="viewcode-block" id="RecipeGraphSource.get_item_count"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.RecipeGraphSource.get_item_count">[docs]</a>    <span class="k">def</span> <span class="nf">get_item_count</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dag</span><span class="p">)</span></div>
+    <span class="k">def</span> <span class="nf">get_item_count</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dag</span><span class="p">)</span>
 
-<div class="viewcode-block" id="RecipeGraphSource.load_graph"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.RecipeGraphSource.load_graph">[docs]</a>    <span class="k">def</span> <span class="nf">load_graph</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">load_graph</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">cache_fn</span> <span class="ow">and</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cache_fn</span><span class="p">):</span>
             <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cache_fn</span><span class="p">,</span> <span class="s2">&quot;rb&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">stream</span><span class="p">:</span>
                 <span class="n">dag</span> <span class="o">=</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">stream</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
-            <span class="n">blacklist</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">get_blacklist</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;blacklists&#39;</span><span class="p">),</span> <span class="bp">self</span><span class="o">.</span><span class="n">recipe_base</span><span class="p">)</span>
+            <span class="n">blacklist</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">get_blacklist</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">recipe_base</span><span class="p">)</span>
             <span class="n">dag</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">build_from_recipes</span><span class="p">(</span>
                 <span class="n">recipe</span> <span class="k">for</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="n">recipes_load_parallel_iter</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">recipe_base</span><span class="p">,</span> <span class="s2">&quot;*&quot;</span><span class="p">)</span>
                 <span class="k">if</span> <span class="n">recipe</span><span class="o">.</span><span class="n">reldir</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">blacklist</span>
@@ -276,7 +275,7 @@
             <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">cache_fn</span><span class="p">:</span>
                 <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cache_fn</span><span class="p">,</span> <span class="s2">&quot;wb&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">stream</span><span class="p">:</span>
                     <span class="n">pickle</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">dag</span><span class="p">,</span> <span class="n">stream</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">dag</span></div></div>
+        <span class="k">return</span> <span class="n">dag</span></div>
 
 
 <div class="viewcode-block" id="Scanner"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.Scanner">[docs]</a><span class="k">class</span> <span class="nc">Scanner</span><span class="p">(</span><span class="n">AsyncPipeline</span><span class="p">[</span><span class="n">Recipe</span><span class="p">]):</span>
@@ -320,11 +319,11 @@
                     <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">f</span><span class="s1">&#39;</span><span class="si">{rname}</span><span class="se">\t</span><span class="si">{result.name}</span><span class="s1">&#39;</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">res</span></div>
 
-<div class="viewcode-block" id="Scanner.queue_items"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.Scanner.queue_items">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">queue_items</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">send_q</span><span class="p">,</span> <span class="n">return_q</span><span class="p">):</span>
-        <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">recipe_source</span><span class="o">.</span><span class="n">queue_items</span><span class="p">(</span><span class="n">send_q</span><span class="p">,</span> <span class="n">return_q</span><span class="p">)</span></div>
+    <span class="k">async</span> <span class="k">def</span> <span class="nf">queue_items</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">send_q</span><span class="p">,</span> <span class="n">return_q</span><span class="p">):</span>
+        <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">recipe_source</span><span class="o">.</span><span class="n">queue_items</span><span class="p">(</span><span class="n">send_q</span><span class="p">,</span> <span class="n">return_q</span><span class="p">)</span>
 
-<div class="viewcode-block" id="Scanner.get_item_count"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.Scanner.get_item_count">[docs]</a>    <span class="k">def</span> <span class="nf">get_item_count</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">recipe_source</span><span class="o">.</span><span class="n">get_item_count</span><span class="p">()</span></div>
+    <span class="k">def</span> <span class="nf">get_item_count</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">recipe_source</span><span class="o">.</span><span class="n">get_item_count</span><span class="p">()</span>
 
     <span class="k">async</span> <span class="k">def</span> <span class="nf">_async_run</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Runner within async loop&quot;&quot;&quot;</span>
@@ -388,17 +387,17 @@
             <span class="k">raise</span> <span class="bp">self</span><span class="o">.</span><span class="n">OtherChannel</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span></div></div>
 
 
-<div class="viewcode-block" id="AutoBumpConfigMixin"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.AutoBumpConfigMixin">[docs]</a><span class="k">class</span> <span class="nc">AutoBumpConfigMixin</span><span class="p">:</span>
+<span class="k">class</span> <span class="nc">AutoBumpConfigMixin</span><span class="p">:</span>
     <span class="c1">#: Name of key under ``extra`` containing config for autobump</span>
     <span class="n">EXTRA_CONFIG</span> <span class="o">=</span> <span class="s2">&quot;autobump&quot;</span>
     <span class="c1">#: Name of key under `EXTRA_CONFIG` to enable/disable autobump</span>
     <span class="n">ENABLE</span> <span class="o">=</span> <span class="s2">&quot;enable&quot;</span>
 
-<div class="viewcode-block" id="AutoBumpConfigMixin.get_config"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.AutoBumpConfigMixin.get_config">[docs]</a>    <span class="k">def</span> <span class="nf">get_config</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="n">Any</span><span class="p">,</span> <span class="n">Any</span><span class="p">]:</span>
+    <span class="k">def</span> <span class="nf">get_config</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="n">Any</span><span class="p">,</span> <span class="n">Any</span><span class="p">]:</span>
         <span class="sd">&quot;&quot;&quot;Returns the configuration dict from the recipe&quot;&quot;&quot;</span>
-        <span class="k">return</span> <span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;extra&quot;</span><span class="p">,</span> <span class="p">{})</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">EXTRA_CONFIG</span><span class="p">,</span> <span class="p">{})</span></div>
+        <span class="k">return</span> <span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;extra&quot;</span><span class="p">,</span> <span class="p">{})</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">EXTRA_CONFIG</span><span class="p">,</span> <span class="p">{})</span>
 
-<div class="viewcode-block" id="AutoBumpConfigMixin.is_enabled"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.AutoBumpConfigMixin.is_enabled">[docs]</a>    <span class="k">def</span> <span class="nf">is_enabled</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">bool</span><span class="p">]:</span>
+    <span class="k">def</span> <span class="nf">is_enabled</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">bool</span><span class="p">]:</span>
         <span class="sd">&quot;&quot;&quot;Checks if autobump is enabled for the recipe</span>
 
 <span class="sd">        The result is:</span>
@@ -409,7 +408,7 @@
 <span class="sd">          if it is written in a way that cannot be updated automatically)</span>
 <span class="sd">        - `None` if no explicit setting is present.</span>
 <span class="sd">        &quot;&quot;&quot;</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_config</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">ENABLE</span><span class="p">)</span></div></div>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_config</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">ENABLE</span><span class="p">)</span>
 
 
 <div class="viewcode-block" id="ExcludeSubrecipe"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.ExcludeSubrecipe">[docs]</a><span class="k">class</span> <span class="nc">ExcludeSubrecipe</span><span class="p">(</span><span class="n">Filter</span><span class="p">,</span> <span class="n">AutoBumpConfigMixin</span><span class="p">):</span>
@@ -459,7 +458,7 @@
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scanner</span><span class="p">:</span> <span class="n">Scanner</span><span class="p">,</span> <span class="n">recipe_base</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">config</span><span class="p">:</span> <span class="n">Dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">scanner</span><span class="p">)</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">blacklists</span> <span class="o">=</span> <span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;blacklists&#39;</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">blacklisted</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">get_blacklist</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">blacklists</span><span class="p">,</span> <span class="n">recipe_base</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">blacklisted</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">get_blacklist</span><span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="n">recipe_base</span><span class="p">)</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Excluding </span><span class="si">%i</span><span class="s2"> blacklisted recipes&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">blacklisted</span><span class="p">))</span>
 
 <div class="viewcode-block" id="ExcludeBlacklisted.get_info"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.ExcludeBlacklisted.get_info">[docs]</a>    <span class="k">def</span> <span class="nf">get_info</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
@@ -530,7 +529,7 @@
             <span class="n">recipe</span><span class="o">.</span><span class="n">reset_buildnumber</span><span class="p">(</span><span class="n">new_buildno</span><span class="p">)</span>
             <span class="n">recipe</span><span class="o">.</span><span class="n">render</span><span class="p">()</span></div>
 
-<div class="viewcode-block" id="CheckPinning.find_reason"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.CheckPinning.find_reason">[docs]</a>    <span class="k">def</span> <span class="nf">find_reason</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="n">metas</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">find_reason</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="n">metas</span><span class="p">):</span>
         <span class="c1"># Decypher variants:</span>
         <span class="n">pinnings</span> <span class="o">=</span> <span class="p">{}</span>
         <span class="k">for</span> <span class="n">variant</span> <span class="ow">in</span> <span class="n">metas</span><span class="p">:</span>
@@ -580,7 +579,7 @@
             <span class="n">compiler_pins</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">pinnings</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">v</span> <span class="k">if</span> <span class="s1">&#39;compiler&#39;</span> <span class="ow">in</span> <span class="n">k</span><span class="p">]</span>
             <span class="k">if</span> <span class="n">compiler_pins</span><span class="p">:</span>
                 <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;compiler&#39;</span><span class="p">:</span> <span class="nb">set</span><span class="p">([</span><span class="n">f</span><span class="s2">&quot;Recompiling with {&#39; / &#39;.join(compiler_pins)}&quot;</span><span class="p">])}</span>
-        <span class="k">return</span> <span class="n">causes</span></div></div>
+        <span class="k">return</span> <span class="n">causes</span></div>
 
 
 <div class="viewcode-block" id="UpdateVersion"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.UpdateVersion">[docs]</a><span class="k">class</span> <span class="nc">UpdateVersion</span><span class="p">(</span><span class="n">Filter</span><span class="p">,</span> <span class="n">AutoBumpConfigMixin</span><span class="p">):</span>
@@ -1093,10 +1092,10 @@
                 <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Recipe </span><span class="si">%s</span><span class="s2">: deleting outdated remote </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">)</span>
                 <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">pipeline</span><span class="o">.</span><span class="n">run_io</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">delete_remote_branch</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">)</span></div></div>
 
-<div class="viewcode-block" id="WritingFilter"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.WritingFilter">[docs]</a><span class="k">class</span> <span class="nc">WritingFilter</span><span class="p">:</span>
-<div class="viewcode-block" id="WritingFilter.NoChanges"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.WritingFilter.NoChanges">[docs]</a>    <span class="k">class</span> <span class="nc">NoChanges</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
+<span class="k">class</span> <span class="nc">WritingFilter</span><span class="p">:</span>
+    <span class="k">class</span> <span class="nc">NoChanges</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Recipe had no changes after applying updates&quot;&quot;&quot;</span>
-        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;had no changes&quot;</span></div></div>
+        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;had no changes&quot;</span>
 
 
 <div class="viewcode-block" id="WriteRecipe"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.WriteRecipe">[docs]</a><span class="k">class</span> <span class="nc">WriteRecipe</span><span class="p">(</span><span class="n">Filter</span><span class="p">,</span> <span class="n">WritingFilter</span><span class="p">):</span>

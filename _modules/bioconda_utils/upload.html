@@ -169,11 +169,11 @@
             <span class="k">return</span> <span class="kc">False</span></div>
 
 
-<div class="viewcode-block" id="mulled_upload"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.upload.html#bioconda_utils.upload.mulled_upload">[docs]</a><span class="k">def</span> <span class="nf">mulled_upload</span><span class="p">(</span><span class="n">image</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">quay_target</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;subprocess.CompletedProcess&quot;</span><span class="p">:</span>
+<div class="viewcode-block" id="mulled_upload"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.upload.html#bioconda_utils.upload.mulled_upload">[docs]</a><span class="k">def</span> <span class="nf">mulled_upload</span><span class="p">(</span><span class="n">image</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">quay_target</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">sp</span><span class="o">.</span><span class="n">CompletedProcess</span><span class="p">:</span>
     <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    Upload the build Docker images to quay.io with &#39;mulled-build push&#39;</span>
+<span class="sd">    Upload the build Docker images to quay.io with ``mulled-build push``.</span>
 
-<span class="sd">    Calls `mulled-build push &lt;image&gt; -n &lt;quay_target&gt;`</span>
+<span class="sd">    Calls ``mulled-build push &lt;image&gt; -n &lt;quay_target&gt;``</span>
 
 <span class="sd">    Args:</span>
 <span class="sd">      image: name of image to push</span>

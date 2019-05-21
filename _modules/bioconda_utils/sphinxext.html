@@ -107,11 +107,29 @@
 <span></span><span class="sd">&quot;&quot;&quot;Bioconda-Utils sphinx extension</span>
 
 <span class="sd">This module builds the documentation for our recipes</span>
+
+<span class="sd">To build the documentation locally, use e.g::</span>
+
+<span class="sd">    make -C docs/ BIOCONDA_FILTER_RECIPES=10 SPHINXOPTS=&quot;-E&quot; html</span>
+
+<span class="sd">.. rubric:: Environment Variables</span>
+
+<span class="sd">.. envvar:: BIOCONDA_FILTER_RECIPES</span>
+
+<span class="sd">   Use this environment variable to reduce the number of recipes for</span>
+<span class="sd">   which documentation pages are built. If set to an integer</span>
+<span class="sd">   (including 0), the first *n* recipes are included. Otherwise, the</span>
+<span class="sd">   contents are considered a regular expression recipes must match to</span>
+<span class="sd">   be included.</span>
+
+
+
 <span class="sd">&quot;&quot;&quot;</span>
 
 <span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">import</span> <span class="nn">os.path</span> <span class="k">as</span> <span class="nn">op</span>
 <span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">import</span> <span class="nn">inspect</span>
 <span class="kn">from</span> <span class="nn">typing</span> <span class="k">import</span> <span class="n">Any</span><span class="p">,</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Tuple</span><span class="p">,</span> <span class="n">Optional</span>
 
 <span class="kn">from</span> <span class="nn">jinja2.sandbox</span> <span class="k">import</span> <span class="n">SandboxedEnvironment</span>
@@ -139,6 +157,7 @@
 <span class="kn">from</span> <span class="nn">bioconda_utils.utils</span> <span class="k">import</span> <span class="n">RepoData</span><span class="p">,</span> <span class="n">load_config</span>
 <span class="kn">from</span> <span class="nn">bioconda_utils.recipe</span> <span class="k">import</span> <span class="n">Recipe</span><span class="p">,</span> <span class="n">RecipeError</span>
 <span class="kn">from</span> <span class="nn">bioconda_utils.githandler</span> <span class="k">import</span> <span class="n">BiocondaRepo</span>
+<span class="kn">from</span> <span class="nn">bioconda_utils.lint</span> <span class="k">import</span> <span class="n">get_checks</span>
 
 <span class="c1"># Aquire a logger</span>
 <span class="k">try</span><span class="p">:</span>
@@ -193,6 +212,7 @@
 
 
 <div class="viewcode-block" id="prefixes_filter"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.prefixes_filter">[docs]</a><span class="k">def</span> <span class="nf">prefixes_filter</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">split</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Jinja2 filter&quot;&quot;&quot;</span>
     <span class="n">path</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="k">for</span> <span class="n">part</span> <span class="ow">in</span> <span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">split</span><span class="p">):</span>
         <span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">part</span><span class="p">)</span>
@@ -200,6 +220,11 @@
 
 
 <div class="viewcode-block" id="rst_link_filter"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.rst_link_filter">[docs]</a><span class="k">def</span> <span class="nf">rst_link_filter</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">url</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Jinja2 filter creating RST link</span>
+
+<span class="sd">    &gt;&gt;&gt; rst_link_filter(&quot;bla&quot;, &quot;https://somewhere&quot;)</span>
+<span class="sd">    &quot;`bla &lt;https://somewhere&gt;`_&quot;</span>
+<span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">if</span> <span class="n">url</span><span class="p">:</span>
         <span class="k">return</span> <span class="s2">&quot;`</span><span class="si">{}</span><span class="s2"> &lt;</span><span class="si">{}</span><span class="s2">&gt;`_&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">url</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">text</span></div>
@@ -279,7 +304,7 @@
 <span class="sd">    - Entry added to domain data ``backrefs`` so that we can</span>
 <span class="sd">      use the requirements to collect required-by data later.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-<div class="viewcode-block" id="RequirementsField.make_field"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.RequirementsField.make_field">[docs]</a>    <span class="k">def</span> <span class="nf">make_field</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">types</span><span class="p">,</span> <span class="n">domain</span><span class="p">,</span> <span class="n">items</span><span class="p">,</span> <span class="n">env</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">make_field</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">types</span><span class="p">,</span> <span class="n">domain</span><span class="p">,</span> <span class="n">items</span><span class="p">,</span> <span class="n">env</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
         <span class="n">fieldname</span> <span class="o">=</span> <span class="n">nodes</span><span class="o">.</span><span class="n">field_name</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">label</span><span class="p">)</span>
         <span class="n">listnode</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">list_type</span><span class="p">()</span>
         <span class="k">for</span> <span class="n">fieldarg</span><span class="p">,</span> <span class="n">content</span> <span class="ow">in</span> <span class="n">items</span><span class="p">:</span>
@@ -297,7 +322,7 @@
 
         <span class="n">fieldbody</span> <span class="o">=</span> <span class="n">nodes</span><span class="o">.</span><span class="n">field_body</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">listnode</span><span class="p">)</span>
         <span class="n">fieldbody</span><span class="o">.</span><span class="n">set_class</span><span class="p">(</span><span class="s1">&#39;field-list-wrapped&#39;</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">nodes</span><span class="o">.</span><span class="n">field</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">fieldname</span><span class="p">,</span> <span class="n">fieldbody</span><span class="p">)</span></div></div>
+        <span class="k">return</span> <span class="n">nodes</span><span class="o">.</span><span class="n">field</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">fieldname</span><span class="p">,</span> <span class="n">fieldbody</span><span class="p">)</span></div>
 
 
 <div class="viewcode-block" id="RequiredByField"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.RequiredByField">[docs]</a><span class="k">class</span> <span class="nc">RequiredByField</span><span class="p">(</span><span class="n">Field</span><span class="p">):</span>
@@ -307,7 +332,7 @@
 <span class="sd">    body that will later be filled with the reverse dependencies by</span>
 <span class="sd">    `resolve_required_by_xrefs`</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-<div class="viewcode-block" id="RequiredByField.make_field"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.RequiredByField.make_field">[docs]</a>    <span class="k">def</span> <span class="nf">make_field</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">types</span><span class="p">,</span> <span class="n">domain</span><span class="p">,</span> <span class="n">item</span><span class="p">,</span> <span class="n">env</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">make_field</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">types</span><span class="p">,</span> <span class="n">domain</span><span class="p">,</span> <span class="n">item</span><span class="p">,</span> <span class="n">env</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
         <span class="n">fieldname</span> <span class="o">=</span> <span class="n">nodes</span><span class="o">.</span><span class="n">field_name</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">label</span><span class="p">)</span>
         <span class="n">backref</span> <span class="o">=</span> <span class="n">addnodes</span><span class="o">.</span><span class="n">pending_xref</span><span class="p">(</span>
             <span class="s1">&#39;&#39;</span><span class="p">,</span>
@@ -318,7 +343,7 @@
         <span class="p">)</span>
         <span class="n">backref</span> <span class="o">+=</span> <span class="n">nodes</span><span class="o">.</span><span class="n">inline</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
         <span class="n">fieldbody</span> <span class="o">=</span> <span class="n">nodes</span><span class="o">.</span><span class="n">field_body</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">backref</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">nodes</span><span class="o">.</span><span class="n">field</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">fieldname</span><span class="p">,</span> <span class="n">fieldbody</span><span class="p">)</span></div></div>
+        <span class="k">return</span> <span class="n">nodes</span><span class="o">.</span><span class="n">field</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">fieldname</span><span class="p">,</span> <span class="n">fieldbody</span><span class="p">)</span></div>
 
 
 <div class="viewcode-block" id="resolve_required_by_xrefs"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.resolve_required_by_xrefs">[docs]</a><span class="k">def</span> <span class="nf">resolve_required_by_xrefs</span><span class="p">(</span><span class="n">app</span><span class="p">,</span> <span class="n">env</span><span class="p">,</span> <span class="n">node</span><span class="p">,</span> <span class="n">contnode</span><span class="p">):</span>
@@ -604,9 +629,9 @@
     <span class="p">}</span>
     <span class="n">has_content</span> <span class="o">=</span> <span class="kc">False</span>
 
-<div class="viewcode-block" id="AutoRecipesDirective.run"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.AutoRecipesDirective.run">[docs]</a>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="c1">#self.env: BuildEnvironment = self.state.document.settings.env</span>
-        <span class="k">return</span> <span class="p">[</span><span class="n">nodes</span><span class="o">.</span><span class="n">paragraph</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)]</span></div></div>
+        <span class="k">return</span> <span class="p">[</span><span class="n">nodes</span><span class="o">.</span><span class="n">paragraph</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)]</span></div>
 
 
 <div class="viewcode-block" id="generate_readme"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.generate_readme">[docs]</a><span class="k">def</span> <span class="nf">generate_readme</span><span class="p">(</span><span class="n">recipe_basedir</span><span class="p">,</span> <span class="n">output_dir</span><span class="p">,</span> <span class="n">folder</span><span class="p">,</span> <span class="n">repodata</span><span class="p">,</span> <span class="n">renderer</span><span class="p">):</span>
@@ -675,8 +700,8 @@
 
     <span class="n">template_options</span> <span class="o">=</span> <span class="p">{</span>
         <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="n">recipe</span><span class="o">.</span><span class="n">name</span><span class="p">,</span>
-        <span class="s1">&#39;about&#39;</span><span class="p">:</span> <span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;about&#39;</span><span class="p">),</span>
-        <span class="s1">&#39;extra&#39;</span><span class="p">:</span> <span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;extra&#39;</span><span class="p">),</span>
+        <span class="s1">&#39;about&#39;</span><span class="p">:</span> <span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;about&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
+        <span class="s1">&#39;extra&#39;</span><span class="p">:</span> <span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;extra&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
         <span class="s1">&#39;recipe&#39;</span><span class="p">:</span> <span class="n">recipe</span><span class="p">,</span>
         <span class="s1">&#39;packages&#39;</span><span class="p">:</span> <span class="n">packages</span><span class="p">,</span>
     <span class="p">}</span>
@@ -690,7 +715,7 @@
 
 <span class="sd">    - Checks out repository</span>
 <span class="sd">    - Prepares `RepoData`</span>
-<span class="sd">    - Selects recipes (if BIOCONDA_FILTER_RECIPES in environment)</span>
+<span class="sd">    - Selects recipes (if `BIOCONDA_FILTER_RECIPES` in environment)</span>
 <span class="sd">    - Dispatches calls to `generate_readme` for each recipe</span>
 <span class="sd">    - Removes old RST files</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -824,10 +849,53 @@
     <span class="n">context</span><span class="p">[</span><span class="s1">&#39;git_ribbon_message&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Edit me on GitHub&quot;</span></div>
 
 
+<div class="viewcode-block" id="LintDescriptionDirective"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.LintDescriptionDirective">[docs]</a><span class="k">class</span> <span class="nc">LintDescriptionDirective</span><span class="p">(</span><span class="n">rst</span><span class="o">.</span><span class="n">Directive</span><span class="p">):</span>
+    <span class="n">required_arguments</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">optional_argument</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">has_content</span> <span class="o">=</span> <span class="kc">True</span>
+    <span class="n">add_index</span> <span class="o">=</span> <span class="kc">True</span>
+
+    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="c1"># gather data</span>
+        <span class="n">check_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">arguments</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">check</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="n">check</span> <span class="k">for</span> <span class="n">check</span> <span class="ow">in</span> <span class="n">get_checks</span><span class="p">()</span> <span class="k">if</span> <span class="nb">str</span><span class="p">(</span><span class="n">check</span><span class="p">)</span> <span class="o">==</span> <span class="n">check_name</span><span class="p">)</span>
+        <span class="n">_</span><span class="p">,</span> <span class="n">lineno</span> <span class="o">=</span> <span class="n">inspect</span><span class="o">.</span><span class="n">getsourcelines</span><span class="p">(</span><span class="n">check</span><span class="p">)</span>
+        <span class="n">lineno</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="n">fname</span> <span class="o">=</span> <span class="n">inspect</span><span class="o">.</span><span class="n">getfile</span><span class="p">(</span><span class="n">check</span><span class="p">)</span>
+        <span class="n">doclines</span> <span class="o">=</span> <span class="n">inspect</span><span class="o">.</span><span class="n">getdoc</span><span class="p">(</span><span class="n">check</span><span class="p">)</span><span class="o">.</span><span class="n">splitlines</span><span class="p">()</span>
+        <span class="n">docline_src</span> <span class="o">=</span> <span class="p">[(</span><span class="n">fname</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+                       <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">lineno</span><span class="p">,</span> <span class="n">lineno</span><span class="o">+</span><span class="nb">len</span><span class="p">(</span><span class="n">doclines</span><span class="p">))]</span>
+        <span class="n">lines</span> <span class="o">=</span> <span class="n">StringList</span><span class="p">(</span><span class="n">doclines</span><span class="p">,</span> <span class="n">items</span><span class="o">=</span><span class="n">docline_src</span><span class="p">)</span>
+
+        <span class="c1"># create a new section with title</span>
+        <span class="n">section</span> <span class="o">=</span> <span class="n">nodes</span><span class="o">.</span><span class="n">section</span><span class="p">(</span><span class="n">ids</span><span class="o">=</span><span class="p">[</span><span class="n">nodes</span><span class="o">.</span><span class="n">make_id</span><span class="p">(</span><span class="n">check_name</span><span class="p">)])</span>
+        <span class="n">title_text</span> <span class="o">=</span> <span class="n">f</span><span class="s1">&#39;&quot;``</span><span class="si">{check_name}</span><span class="s1">``&quot;&#39;</span>
+        <span class="n">title_nodes</span><span class="p">,</span> <span class="n">messages</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">state</span><span class="o">.</span><span class="n">inline_text</span><span class="p">(</span><span class="n">title_text</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">lineno</span><span class="p">)</span>
+        <span class="n">title</span> <span class="o">=</span> <span class="n">nodes</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="n">check_name</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="o">*</span><span class="n">title_nodes</span><span class="p">)</span>
+        <span class="n">section</span> <span class="o">+=</span> <span class="n">title</span>
+
+        <span class="n">admonition</span> <span class="o">=</span> <span class="n">nodes</span><span class="o">.</span><span class="n">admonition</span><span class="p">()</span>
+        <span class="n">title_text</span> <span class="o">=</span> <span class="n">doclines</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">rstrip</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">)</span>
+        <span class="n">title_nodes</span><span class="p">,</span> <span class="n">messages</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">state</span><span class="o">.</span><span class="n">inline_text</span><span class="p">(</span><span class="n">title_text</span><span class="p">,</span> <span class="n">lineno</span><span class="p">)</span>
+        <span class="n">title</span> <span class="o">=</span> <span class="n">nodes</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="n">title_text</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="o">*</span><span class="n">title_nodes</span><span class="p">)</span>
+        <span class="n">admonition</span> <span class="o">+=</span> <span class="n">title</span>
+        <span class="n">admonition</span> <span class="o">+=</span> <span class="n">messages</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">state</span><span class="o">.</span><span class="n">nested_parse</span><span class="p">(</span><span class="n">lines</span><span class="p">[</span><span class="mi">1</span><span class="p">:],</span> <span class="mi">0</span><span class="p">,</span> <span class="n">admonition</span><span class="p">)</span>
+        <span class="n">section</span> <span class="o">+=</span> <span class="n">admonition</span>
+
+        <span class="c1"># add remaining content of directive</span>
+        <span class="n">par</span> <span class="o">=</span> <span class="n">nodes</span><span class="o">.</span><span class="n">paragraph</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">state</span><span class="o">.</span><span class="n">nested_parse</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">content</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">content_offset</span><span class="p">,</span> <span class="n">par</span><span class="p">)</span>
+        <span class="n">section</span> <span class="o">+=</span> <span class="n">par</span>
+
+        <span class="k">return</span> <span class="p">[</span><span class="n">section</span><span class="p">]</span></div>
+
+
 <div class="viewcode-block" id="setup"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.setup">[docs]</a><span class="k">def</span> <span class="nf">setup</span><span class="p">(</span><span class="n">app</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Set up sphinx extension&quot;&quot;&quot;</span>
     <span class="n">app</span><span class="o">.</span><span class="n">add_domain</span><span class="p">(</span><span class="n">CondaDomain</span><span class="p">)</span>
     <span class="n">app</span><span class="o">.</span><span class="n">add_directive</span><span class="p">(</span><span class="s1">&#39;autorecipes&#39;</span><span class="p">,</span> <span class="n">AutoRecipesDirective</span><span class="p">)</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">add_directive</span><span class="p">(</span><span class="s1">&#39;lint-check&#39;</span><span class="p">,</span> <span class="n">LintDescriptionDirective</span><span class="p">)</span>
     <span class="n">app</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s1">&#39;builder-inited&#39;</span><span class="p">,</span> <span class="n">generate_recipes</span><span class="p">)</span>
     <span class="n">app</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s1">&#39;missing-reference&#39;</span><span class="p">,</span> <span class="n">resolve_required_by_xrefs</span><span class="p">)</span>
     <span class="n">app</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s1">&#39;html-page-context&#39;</span><span class="p">,</span> <span class="n">add_ribbon</span><span class="p">)</span>

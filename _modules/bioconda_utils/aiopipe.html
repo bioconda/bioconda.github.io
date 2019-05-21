@@ -211,7 +211,7 @@
         <span class="sd">&quot;&quot;&quot;Adds `Filter` to this `Scanner`&quot;&quot;&quot;</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">filters</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">filt</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">))</span></div>
 
-<div class="viewcode-block" id="AsyncPipeline.shutdown"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncPipeline.shutdown">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">shutdown</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sig</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="k">async</span> <span class="k">def</span> <span class="nf">shutdown</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sig</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">_shutting_down</span> <span class="o">=</span> <span class="kc">True</span>
         <span class="k">if</span> <span class="n">sig</span> <span class="o">==</span> <span class="n">signal</span><span class="o">.</span><span class="n">SIGINT</span><span class="p">:</span>
             <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Ctrl-C pressed - aborting...&quot;</span><span class="p">)</span>
@@ -220,7 +220,7 @@
         <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">tasks</span><span class="p">:</span>
             <span class="n">t</span><span class="o">.</span><span class="n">cancel</span><span class="p">()</span>
         <span class="n">res_and_excs</span> <span class="o">=</span> <span class="k">await</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">gather</span><span class="p">(</span><span class="o">*</span><span class="n">tasks</span><span class="p">,</span> <span class="n">return_exceptions</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">loop</span><span class="o">.</span><span class="n">stop</span><span class="p">()</span></div>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loop</span><span class="o">.</span><span class="n">stop</span><span class="p">()</span>
 
 <div class="viewcode-block" id="AsyncPipeline.run"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncPipeline.run">[docs]</a>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Enters the asyncio loop and manages shutdown.&quot;&quot;&quot;</span>
@@ -241,12 +241,12 @@
         <span class="k">for</span> <span class="n">filt</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">filters</span><span class="p">:</span>
             <span class="n">filt</span><span class="o">.</span><span class="n">finalize</span><span class="p">()</span></div>
 
-<div class="viewcode-block" id="AsyncPipeline.queue_items"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncPipeline.queue_items">[docs]</a>    <span class="nd">@abc</span><span class="o">.</span><span class="n">abstractmethod</span>
+    <span class="nd">@abc</span><span class="o">.</span><span class="n">abstractmethod</span>
     <span class="k">async</span> <span class="k">def</span> <span class="nf">queue_items</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">queue</span><span class="p">):</span>
-        <span class="k">pass</span></div>
+        <span class="k">pass</span>
 
-<div class="viewcode-block" id="AsyncPipeline.get_item_count"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncPipeline.get_item_count">[docs]</a>    <span class="k">def</span> <span class="nf">get_item_count</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
-        <span class="k">return</span> <span class="mi">0</span></div>
+    <span class="k">def</span> <span class="nf">get_item_count</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+        <span class="k">return</span> <span class="mi">0</span>
 
     <span class="k">async</span> <span class="k">def</span> <span class="nf">_async_run</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Runner within async loop&quot;&quot;&quot;</span>
@@ -281,15 +281,15 @@
         <span class="k">except</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">CancelledError</span><span class="p">:</span>
             <span class="k">pass</span>
 
-<div class="viewcode-block" id="AsyncPipeline.show_progress"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncPipeline.show_progress">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">show_progress</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">in_q</span><span class="p">,</span> <span class="n">out_q</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="k">async</span> <span class="k">def</span> <span class="nf">show_progress</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">in_q</span><span class="p">,</span> <span class="n">out_q</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="k">with</span> <span class="n">tqdm</span><span class="p">(</span><span class="n">total</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">get_item_count</span><span class="p">())</span> <span class="k">as</span> <span class="n">progress</span><span class="p">:</span>
             <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
                 <span class="n">item</span> <span class="o">=</span> <span class="k">await</span> <span class="n">in_q</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
                 <span class="n">progress</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
                 <span class="k">await</span> <span class="n">out_q</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
-                <span class="n">in_q</span><span class="o">.</span><span class="n">task_done</span><span class="p">()</span></div>
+                <span class="n">in_q</span><span class="o">.</span><span class="n">task_done</span><span class="p">()</span>
 
-<div class="viewcode-block" id="AsyncPipeline.worker"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncPipeline.worker">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">worker</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">in_q</span><span class="p">,</span> <span class="n">out_q</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="k">async</span> <span class="k">def</span> <span class="nf">worker</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">in_q</span><span class="p">,</span> <span class="n">out_q</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="k">try</span><span class="p">:</span>
             <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
                 <span class="n">item</span> <span class="o">=</span> <span class="k">await</span> <span class="n">in_q</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
@@ -297,7 +297,7 @@
                 <span class="k">await</span> <span class="n">out_q</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
                 <span class="n">in_q</span><span class="o">.</span><span class="n">task_done</span><span class="p">()</span>
         <span class="k">except</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">CancelledError</span><span class="p">:</span>
-            <span class="k">return</span></div>
+            <span class="k">return</span>
 
 <div class="viewcode-block" id="AsyncPipeline.process"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncPipeline.process">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">process</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">item</span><span class="p">:</span> <span class="n">ITEM</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Applies the filters to an item&quot;&quot;&quot;</span>

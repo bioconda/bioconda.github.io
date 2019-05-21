@@ -17,6 +17,7 @@ utils
       built_package_paths
       changed_since_master
       check_recipe_skippable
+      ellipsize_recipes
       ensure_list
       envstr
       file_from_commit
@@ -34,7 +35,6 @@ utils
       load_config
       load_first_metadata
       load_meta_fast
-      modified_recipes
       newly_unblacklisted
       parallel_iter
       run

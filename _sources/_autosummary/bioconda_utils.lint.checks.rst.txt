@@ -1,0 +1,57 @@
+checks
+======
+
+
+.. currentmodule:: bioconda_utils.lint.checks
+.. automodule:: bioconda_utils.lint.checks
+   :members:
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      build_number_needs_bump
+      compilers_must_be_in_build
+      deprecated_numpy_spec
+      extra_identifiers_missing_colon
+      extra_identifiers_not_list
+      extra_identifiers_not_string
+      extra_skip_lints_not_list
+      folder_and_package_name_must_match
+      gpl_requires_license_distributed
+      has_windows_bat_file
+      in_other_channels
+      missing_build_number
+      missing_hash
+      missing_home
+      missing_license
+      missing_summary
+      missing_tests
+      recipe_is_blacklisted
+      setup_py_install_args
+      should_be_noarch
+      should_be_noarch_python
+      should_not_be_noarch_compiler
+      should_not_be_noarch_skip
+      should_not_use_fn
+      should_not_use_skip_python
+      should_use_compilers
+      uses_git_url
+      uses_javajdk
+      uses_perl_threaded
+      uses_setuptools
+   
+   
+
+   
+   
+   
+
+
+   .. rubric:: Documentation

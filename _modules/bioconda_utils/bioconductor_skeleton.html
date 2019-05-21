@@ -369,7 +369,7 @@
     <span class="k">return</span> <span class="n">d</span></div>
 
 
-<div class="viewcode-block" id="BioCProjectPage"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.BioCProjectPage">[docs]</a><span class="k">class</span> <span class="nc">BioCProjectPage</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+<span class="k">class</span> <span class="nc">BioCProjectPage</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">package</span><span class="p">,</span> <span class="n">bioc_version</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">pkg_version</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">packages</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Represents a single Bioconductor package page and provides access to</span>
@@ -615,7 +615,7 @@
                 <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Found </span><span class="si">{0}</span><span class="s2"> toks: </span><span class="si">{1}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">toks</span><span class="p">),</span> <span class="n">toks</span><span class="p">))</span>
         <span class="k">return</span> <span class="n">results</span>
 
-<div class="viewcode-block" id="BioCProjectPage.pin_version"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.BioCProjectPage.pin_version">[docs]</a>    <span class="k">def</span> <span class="nf">pin_version</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">pin_version</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Given a package name, return the version pin string.</span>
 
@@ -634,7 +634,7 @@
         <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span>
             <span class="k">return</span> <span class="s2">&quot;&gt;=</span><span class="si">{}</span><span class="s2">.</span><span class="si">{}</span><span class="s2">.0,&lt;</span><span class="si">{}</span><span class="s2">.</span><span class="si">{}</span><span class="s2">.0&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">s</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="nb">int</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
-            <span class="k">return</span> <span class="s2">&quot;</span><span class="si">{}</span><span class="s2">.</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">s</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span></div>
+            <span class="k">return</span> <span class="s2">&quot;</span><span class="si">{}</span><span class="s2">.</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">s</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
 
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">dependencies</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -776,7 +776,7 @@
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;MD5sum&#39;</span><span class="p">]</span>
 
-<div class="viewcode-block" id="BioCProjectPage.pacified_description"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.BioCProjectPage.pacified_description">[docs]</a>    <span class="k">def</span> <span class="nf">pacified_description</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">pacified_description</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Linting will fail if ``GIT_``, ``HG_``, or ``SVN_`` appear in the description.</span>
 <span class="sd">        This usually isn&#39;t an issue, except some microarray annotation packages</span>
@@ -786,7 +786,7 @@
         <span class="n">description</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;Description&#39;</span><span class="p">]</span>
         <span class="k">for</span> <span class="n">vcs</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;HG&#39;</span><span class="p">,</span> <span class="s1">&#39;SVN&#39;</span><span class="p">,</span> <span class="s1">&#39;GIT&#39;</span><span class="p">]:</span>
             <span class="n">description</span> <span class="o">=</span> <span class="n">description</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1">_&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">vcs</span><span class="p">),</span> <span class="s1">&#39;</span><span class="si">{}</span><span class="s1"> &#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">vcs</span><span class="p">))</span>
-        <span class="k">return</span> <span class="n">description</span></div>
+        <span class="k">return</span> <span class="n">description</span>
 
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">meta_yaml</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -923,7 +923,7 @@
         <span class="n">tmpdir</span> <span class="o">=</span> <span class="n">tempfile</span><span class="o">.</span><span class="n">mkdtemp</span><span class="p">()</span>
         <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">tmpdir</span><span class="p">,</span> <span class="s1">&#39;meta.yaml&#39;</span><span class="p">),</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fout</span><span class="p">:</span>
             <span class="n">fout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">rendered</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">fout</span><span class="o">.</span><span class="n">name</span></div>
+        <span class="k">return</span> <span class="n">fout</span><span class="o">.</span><span class="n">name</span>
 
 
 <div class="viewcode-block" id="write_recipe_recursive"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.write_recipe_recursive">[docs]</a><span class="k">def</span> <span class="nf">write_recipe_recursive</span><span class="p">(</span><span class="n">proj</span><span class="p">,</span> <span class="n">seen_dependencies</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">force</span><span class="p">,</span>

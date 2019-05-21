@@ -123,7 +123,7 @@
 <span class="kn">import</span> <span class="nn">logging</span>
 <span class="kn">import</span> <span class="nn">datetime</span>
 <span class="kn">from</span> <span class="nn">threading</span> <span class="k">import</span> <span class="n">Event</span><span class="p">,</span> <span class="n">Thread</span>
-<span class="kn">from</span> <span class="nn">typing</span> <span class="k">import</span> <span class="n">Sequence</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">Any</span><span class="p">,</span> <span class="n">Union</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="k">import</span> <span class="n">Sequence</span><span class="p">,</span> <span class="n">Collection</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">Any</span><span class="p">,</span> <span class="n">Union</span>
 <span class="kn">from</span> <span class="nn">pathlib</span> <span class="k">import</span> <span class="n">PurePath</span>
 <span class="kn">import</span> <span class="nn">json</span>
 <span class="kn">import</span> <span class="nn">warnings</span>
@@ -259,7 +259,7 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">consecutive</span> <span class="o">=</span> <span class="n">consecutive</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">trunc_msg</span> <span class="o">=</span> <span class="n">trunc_msg</span>
 
-<div class="viewcode-block" id="LogFuncFilter.filter"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.LogFuncFilter.filter">[docs]</a>    <span class="k">def</span> <span class="nf">filter</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">record</span><span class="p">:</span> <span class="n">logging</span><span class="o">.</span><span class="n">LogRecord</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">filter</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">record</span><span class="p">:</span> <span class="n">logging</span><span class="o">.</span><span class="n">LogRecord</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
         <span class="k">if</span> <span class="n">record</span><span class="o">.</span><span class="n">name</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">func</span><span class="o">.</span><span class="vm">__module__</span> <span class="ow">and</span> <span class="n">record</span><span class="o">.</span><span class="n">funcName</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">func</span><span class="o">.</span><span class="vm">__name__</span><span class="p">:</span>
             <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">cur_max_lines</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
                 <span class="bp">self</span><span class="o">.</span><span class="n">cur_max_lines</span> <span class="o">-=</span> <span class="mi">1</span>
@@ -271,7 +271,7 @@
             <span class="k">return</span> <span class="kc">False</span>
         <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">consecutive</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">cur_max_lines</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">max_lines</span>
-        <span class="k">return</span> <span class="kc">True</span></div></div>
+        <span class="k">return</span> <span class="kc">True</span></div>
 
 <div class="viewcode-block" id="setup_logger"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.setup_logger">[docs]</a><span class="k">def</span> <span class="nf">setup_logger</span><span class="p">(</span><span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">loglevel</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">INFO</span><span class="p">,</span>
                  <span class="n">logfile</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">logfile_level</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">,</span>
@@ -347,6 +347,32 @@
     <span class="k">return</span> <span class="n">new_logger</span></div>
 
 
+<div class="viewcode-block" id="ellipsize_recipes"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.ellipsize_recipes">[docs]</a><span class="k">def</span> <span class="nf">ellipsize_recipes</span><span class="p">(</span><span class="n">recipes</span><span class="p">:</span> <span class="n">Collection</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">recipe_folder</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+                      <span class="n">n</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">5</span><span class="p">,</span> <span class="n">m</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">50</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Logging helper showing recipe list</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">      recipes: List of recipes</span>
+<span class="sd">      recipe_folder: Folder name to strip from recipes.</span>
+<span class="sd">      n: Show at most this number of recipes, with &quot;...&quot; if more are found.</span>
+<span class="sd">      m: Don&#39;t show anything if more recipes than this</span>
+<span class="sd">         (pointless to show first 5 of 5000)</span>
+<span class="sd">    Returns:</span>
+<span class="sd">      A string like &quot; (htslib, samtools, ...)&quot; or &quot;&quot;</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">recipes</span> <span class="ow">or</span> <span class="nb">len</span><span class="p">(</span><span class="n">recipes</span><span class="p">)</span> <span class="o">&gt;</span> <span class="n">m</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">&quot;&quot;</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">recipes</span><span class="p">)</span> <span class="o">&gt;</span> <span class="n">n</span><span class="p">:</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">recipes</span><span class="p">,</span> <span class="n">Sequence</span><span class="p">):</span>
+            <span class="n">recipes</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">recipes</span><span class="p">)</span>
+        <span class="n">recipes</span> <span class="o">=</span> <span class="n">recipes</span><span class="p">[:</span><span class="n">n</span><span class="p">]</span>
+        <span class="n">append</span> <span class="o">=</span> <span class="s2">&quot;, ...&quot;</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">append</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+    <span class="k">return</span> <span class="s1">&#39; (&#39;</span><span class="o">+</span><span class="s1">&#39;, &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">lstrip</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">)</span><span class="o">.</span><span class="n">lstrip</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">)</span>
+                     <span class="k">for</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="n">recipes</span><span class="p">)</span> <span class="o">+</span> <span class="n">append</span> <span class="o">+</span> <span class="s1">&#39;)&#39;</span></div>
+
+
 <div class="viewcode-block" id="JinjaSilentUndefined"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.JinjaSilentUndefined">[docs]</a><span class="k">class</span> <span class="nc">JinjaSilentUndefined</span><span class="p">(</span><span class="n">jinja2</span><span class="o">.</span><span class="n">Undefined</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">_fail_with_undefined_error</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
         <span class="k">return</span> <span class="s2">&quot;&quot;</span>
@@ -397,7 +423,7 @@
     <span class="k">return</span> <span class="n">s</span><span class="o">.</span><span class="n">f_frsize</span> <span class="o">*</span> <span class="n">s</span><span class="o">.</span><span class="n">f_bavail</span> <span class="o">/</span> <span class="p">(</span><span class="mi">1024</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="allowed_env_var"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.allowed_env_var">[docs]</a><span class="k">def</span> <span class="nf">allowed_env_var</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">docker</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">allowed_env_var</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">docker</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
     <span class="k">for</span> <span class="n">pattern</span> <span class="ow">in</span> <span class="n">ENV_VAR_WHITELIST</span><span class="p">:</span>
         <span class="k">if</span> <span class="n">fnmatch</span><span class="o">.</span><span class="n">fnmatch</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">pattern</span><span class="p">):</span>
             <span class="k">for</span> <span class="n">bpattern</span> <span class="ow">in</span> <span class="n">ENV_VAR_BLACKLIST</span><span class="p">:</span>
@@ -407,13 +433,13 @@
                 <span class="k">for</span> <span class="n">dpattern</span> <span class="ow">in</span> <span class="n">ENV_VAR_DOCKER_BLACKLIST</span><span class="p">:</span>
                     <span class="k">if</span> <span class="n">fnmatch</span><span class="o">.</span><span class="n">fnmatch</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">dpattern</span><span class="p">):</span>
                         <span class="k">return</span> <span class="kc">False</span>
-            <span class="k">return</span> <span class="kc">True</span></div>
+            <span class="k">return</span> <span class="kc">True</span>
 
 
-<div class="viewcode-block" id="bin_for"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.bin_for">[docs]</a><span class="k">def</span> <span class="nf">bin_for</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;conda&#39;</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">bin_for</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;conda&#39;</span><span class="p">):</span>
     <span class="k">if</span> <span class="s1">&#39;CONDA_ROOT&#39;</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">:</span>
         <span class="k">return</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;CONDA_ROOT&#39;</span><span class="p">],</span> <span class="s1">&#39;bin&#39;</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">name</span></div>
+    <span class="k">return</span> <span class="n">name</span>
 
 
 <div class="viewcode-block" id="temp_env"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.temp_env">[docs]</a><span class="nd">@contextlib</span><span class="o">.</span><span class="n">contextmanager</span>
@@ -544,14 +570,14 @@
 <span class="p">))</span>
 
 
-<div class="viewcode-block" id="get_conda_build_config_files"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.get_conda_build_config_files">[docs]</a><span class="k">def</span> <span class="nf">get_conda_build_config_files</span><span class="p">(</span><span class="n">config</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">get_conda_build_config_files</span><span class="p">(</span><span class="n">config</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
     <span class="k">if</span> <span class="n">config</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
         <span class="n">config</span> <span class="o">=</span> <span class="n">load_conda_build_config</span><span class="p">()</span>
     <span class="c1"># TODO: open PR upstream for conda-build to support multiple exclusive_config_files</span>
     <span class="k">for</span> <span class="n">file_path</span> <span class="ow">in</span> <span class="p">([</span><span class="n">config</span><span class="o">.</span><span class="n">exclusive_config_file</span><span class="p">]</span> <span class="k">if</span> <span class="n">config</span><span class="o">.</span><span class="n">exclusive_config_file</span> <span class="k">else</span> <span class="p">[]):</span>
         <span class="k">yield</span> <span class="n">CondaBuildConfigFile</span><span class="p">(</span><span class="s1">&#39;-e&#39;</span><span class="p">,</span> <span class="n">file_path</span><span class="p">)</span>
     <span class="k">for</span> <span class="n">file_path</span> <span class="ow">in</span> <span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">variant_config_files</span> <span class="ow">or</span> <span class="p">[]):</span>
-        <span class="k">yield</span> <span class="n">CondaBuildConfigFile</span><span class="p">(</span><span class="s1">&#39;-m&#39;</span><span class="p">,</span> <span class="n">file_path</span><span class="p">)</span></div>
+        <span class="k">yield</span> <span class="n">CondaBuildConfigFile</span><span class="p">(</span><span class="s1">&#39;-m&#39;</span><span class="p">,</span> <span class="n">file_path</span><span class="p">)</span>
 
 
 <div class="viewcode-block" id="load_first_metadata"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.load_first_metadata">[docs]</a><span class="k">def</span> <span class="nf">load_first_metadata</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">config</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">finalize</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
@@ -636,6 +662,8 @@
             <span class="n">arg</span> <span class="o">=</span> <span class="n">arg</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">mitem</span><span class="p">,</span> <span class="s1">&#39;&lt;hidden&gt;&#39;</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">arg</span>
 
+    <span class="n">mylogger</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">loglevel</span><span class="p">,</span> <span class="s2">&quot;Executing: &#39;</span><span class="si">%s</span><span class="s2">&#39;&quot;</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">do_mask</span><span class="p">(</span><span class="n">arg</span><span class="p">)</span> <span class="k">for</span> <span class="n">arg</span> <span class="ow">in</span> <span class="n">cmds</span><span class="p">))</span>
+
     <span class="c1"># bufsize=4 result of manual experimentation. Changing it can</span>
     <span class="c1"># drop performance drastically.</span>
     <span class="k">with</span> <span class="n">sp</span><span class="o">.</span><span class="n">Popen</span><span class="p">(</span><span class="n">cmds</span><span class="p">,</span> <span class="n">stdout</span><span class="o">=</span><span class="n">sp</span><span class="o">.</span><span class="n">PIPE</span><span class="p">,</span> <span class="n">stderr</span><span class="o">=</span><span class="n">sp</span><span class="o">.</span><span class="n">PIPE</span><span class="p">,</span>
@@ -679,16 +707,16 @@
         <span class="k">return</span> <span class="n">sp</span><span class="o">.</span><span class="n">CompletedProcess</span><span class="p">(</span><span class="n">returncode</span><span class="p">,</span> <span class="n">masked_cmds</span><span class="p">,</span> <span class="n">output</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="envstr"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.envstr">[docs]</a><span class="k">def</span> <span class="nf">envstr</span><span class="p">(</span><span class="n">env</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">envstr</span><span class="p">(</span><span class="n">env</span><span class="p">):</span>
     <span class="n">env</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">env</span><span class="p">)</span>
-    <span class="k">return</span> <span class="s1">&#39;;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="s1">&#39;=&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">i</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">j</span><span class="p">)])</span> <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">env</span><span class="o">.</span><span class="n">items</span><span class="p">())])</span></div>
+    <span class="k">return</span> <span class="s1">&#39;;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="s1">&#39;=&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">i</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">j</span><span class="p">)])</span> <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">env</span><span class="o">.</span><span class="n">items</span><span class="p">())])</span>
 
 
-<div class="viewcode-block" id="flatten_dict"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.flatten_dict">[docs]</a><span class="k">def</span> <span class="nf">flatten_dict</span><span class="p">(</span><span class="nb">dict</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">flatten_dict</span><span class="p">(</span><span class="nb">dict</span><span class="p">):</span>
     <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">values</span> <span class="ow">in</span> <span class="nb">dict</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
         <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">values</span><span class="p">,</span> <span class="nb">str</span><span class="p">)</span> <span class="ow">or</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">values</span><span class="p">,</span> <span class="n">Iterable</span><span class="p">):</span>
             <span class="n">values</span> <span class="o">=</span> <span class="p">[</span><span class="n">values</span><span class="p">]</span>
-        <span class="k">yield</span> <span class="p">[(</span><span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span> <span class="k">for</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">values</span><span class="p">]</span></div>
+        <span class="k">yield</span> <span class="p">[(</span><span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span> <span class="k">for</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">values</span><span class="p">]</span>
 
 
 <div class="viewcode-block" id="EnvMatrix"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.EnvMatrix">[docs]</a><span class="k">class</span> <span class="nc">EnvMatrix</span><span class="p">:</span>
@@ -789,9 +817,9 @@
 <span class="n">_max_threads</span> <span class="o">=</span> <span class="mi">1</span>
 
 
-<div class="viewcode-block" id="set_max_threads"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.set_max_threads">[docs]</a><span class="k">def</span> <span class="nf">set_max_threads</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">set_max_threads</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
     <span class="k">global</span> <span class="n">_max_threads</span>
-    <span class="n">_max_threads</span> <span class="o">=</span> <span class="n">n</span></div>
+    <span class="n">_max_threads</span> <span class="o">=</span> <span class="n">n</span>
 
 
 <div class="viewcode-block" id="threads_to_use"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.threads_to_use">[docs]</a><span class="k">def</span> <span class="nf">threads_to_use</span><span class="p">():</span>
@@ -803,14 +831,14 @@
     <span class="k">return</span> <span class="nb">min</span><span class="p">(</span><span class="n">_max_threads</span><span class="p">,</span> <span class="n">cores</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="parallel_iter"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.parallel_iter">[docs]</a><span class="k">def</span> <span class="nf">parallel_iter</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">items</span><span class="p">,</span> <span class="n">desc</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">parallel_iter</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">items</span><span class="p">,</span> <span class="n">desc</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
     <span class="n">pfunc</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
     <span class="k">with</span> <span class="n">Pool</span><span class="p">(</span><span class="n">threads_to_use</span><span class="p">())</span> <span class="k">as</span> <span class="n">pool</span><span class="p">:</span>
         <span class="k">yield from</span> <span class="n">tqdm</span><span class="p">(</span>
             <span class="n">pool</span><span class="o">.</span><span class="n">imap_unordered</span><span class="p">(</span><span class="n">pfunc</span><span class="p">,</span> <span class="n">items</span><span class="p">),</span>
             <span class="n">desc</span><span class="o">=</span><span class="n">desc</span><span class="p">,</span>
             <span class="n">total</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">items</span><span class="p">)</span>
-        <span class="p">)</span></div>
+        <span class="p">)</span>
 
 
 
@@ -951,7 +979,8 @@
     <span class="k">if</span> <span class="n">commit</span> <span class="o">==</span> <span class="s1">&#39;HEAD&#39;</span><span class="p">:</span>
         <span class="k">return</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
 
-    <span class="n">p</span> <span class="o">=</span> <span class="n">run</span><span class="p">([</span><span class="s1">&#39;git&#39;</span><span class="p">,</span> <span class="s1">&#39;show&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">{0}</span><span class="s1">:</span><span class="si">{1}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">commit</span><span class="p">,</span> <span class="n">filename</span><span class="p">)],</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="n">p</span> <span class="o">=</span> <span class="n">run</span><span class="p">([</span><span class="s1">&#39;git&#39;</span><span class="p">,</span> <span class="s1">&#39;show&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">{0}</span><span class="s1">:</span><span class="si">{1}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">commit</span><span class="p">,</span> <span class="n">filename</span><span class="p">)],</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+            <span class="n">loglevel</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
     <span class="k">return</span> <span class="nb">str</span><span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">stdout</span><span class="p">)</span></div>
 
 
@@ -994,12 +1023,11 @@
     <span class="k">for</span> <span class="n">bl</span> <span class="ow">in</span> <span class="n">yaml</span><span class="o">.</span><span class="n">safe_load</span><span class="p">(</span><span class="n">orig_config</span><span class="p">)[</span><span class="s1">&#39;blacklists&#39;</span><span class="p">]:</span>
         <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;.tmp.blacklist&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fout</span><span class="p">:</span>
             <span class="n">fout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">file_from_commit</span><span class="p">(</span><span class="n">git_range</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">bl</span><span class="p">))</span>
-        <span class="n">previous</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">get_blacklist</span><span class="p">([</span><span class="s1">&#39;.tmp.blacklist&#39;</span><span class="p">],</span> <span class="n">recipe_folder</span><span class="p">))</span>
+        <span class="n">previous</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">get_blacklist</span><span class="p">({</span><span class="s1">&#39;blacklists&#39;</span><span class="p">:</span> <span class="s1">&#39;.tmp.blacklist&#39;</span><span class="p">},</span> <span class="n">recipe_folder</span><span class="p">))</span>
         <span class="n">os</span><span class="o">.</span><span class="n">unlink</span><span class="p">(</span><span class="s1">&#39;.tmp.blacklist&#39;</span><span class="p">)</span>
 
     <span class="n">current</span> <span class="o">=</span> <span class="n">get_blacklist</span><span class="p">(</span>
-        <span class="n">yaml</span><span class="o">.</span><span class="n">safe_load</span><span class="p">(</span>
-            <span class="n">file_from_commit</span><span class="p">(</span><span class="n">git_range</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">config_file</span><span class="p">))[</span><span class="s1">&#39;blacklists&#39;</span><span class="p">],</span>
+        <span class="n">yaml</span><span class="o">.</span><span class="n">safe_load</span><span class="p">(</span><span class="n">file_from_commit</span><span class="p">(</span><span class="n">git_range</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">config_file</span><span class="p">)),</span>
         <span class="n">recipe_folder</span><span class="p">)</span>
     <span class="n">results</span> <span class="o">=</span> <span class="n">previous</span><span class="o">.</span><span class="n">difference</span><span class="p">(</span><span class="n">current</span><span class="p">)</span>
     <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Recipes newly unblacklisted:</span><span class="se">\n</span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">results</span><span class="p">)))</span>
@@ -1014,8 +1042,8 @@
 <span class="sd">    repo and have added the main repo as ``upstream``, then you&#39;ll have to do</span>
 <span class="sd">    a ``git checkout master &amp;&amp; git pull upstream master`` to update your fork.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">p</span> <span class="o">=</span> <span class="n">run</span><span class="p">([</span><span class="s1">&#39;git&#39;</span><span class="p">,</span> <span class="s1">&#39;fetch&#39;</span><span class="p">,</span> <span class="s1">&#39;origin&#39;</span><span class="p">,</span> <span class="s1">&#39;master&#39;</span><span class="p">],</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-    <span class="n">p</span> <span class="o">=</span> <span class="n">run</span><span class="p">([</span><span class="s1">&#39;git&#39;</span><span class="p">,</span> <span class="s1">&#39;diff&#39;</span><span class="p">,</span> <span class="s1">&#39;FETCH_HEAD&#39;</span><span class="p">,</span> <span class="s1">&#39;--name-only&#39;</span><span class="p">],</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="n">p</span> <span class="o">=</span> <span class="n">run</span><span class="p">([</span><span class="s1">&#39;git&#39;</span><span class="p">,</span> <span class="s1">&#39;fetch&#39;</span><span class="p">,</span> <span class="s1">&#39;origin&#39;</span><span class="p">,</span> <span class="s1">&#39;master&#39;</span><span class="p">],</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">loglevel</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">p</span> <span class="o">=</span> <span class="n">run</span><span class="p">([</span><span class="s1">&#39;git&#39;</span><span class="p">,</span> <span class="s1">&#39;diff&#39;</span><span class="p">,</span> <span class="s1">&#39;FETCH_HEAD&#39;</span><span class="p">,</span> <span class="s1">&#39;--name-only&#39;</span><span class="p">],</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">loglevel</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
     <span class="k">return</span> <span class="p">[</span>
         <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">relpath</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">))</span>
         <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">p</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">splitlines</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
@@ -1099,7 +1127,7 @@
     <span class="k">return</span> <span class="n">new_metas</span><span class="p">,</span> <span class="n">existing_metas</span><span class="p">,</span> <span class="n">divergent_builds</span>
 
 
-<div class="viewcode-block" id="get_package_paths"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.get_package_paths">[docs]</a><span class="k">def</span> <span class="nf">get_package_paths</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">check_channels</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">get_package_paths</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">check_channels</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="n">force</span><span class="p">:</span>
         <span class="k">if</span> <span class="n">check_recipe_skippable</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">check_channels</span><span class="p">):</span>
             <span class="c1"># NB: If we skip early here, we don&#39;t detect possible divergent builds.</span>
@@ -1140,13 +1168,13 @@
     <span class="k">else</span><span class="p">:</span>
         <span class="n">build_metas</span> <span class="o">=</span> <span class="n">new_metas</span>
     <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="n">chain</span><span class="o">.</span><span class="n">from_iterable</span><span class="p">(</span>
-        <span class="n">api</span><span class="o">.</span><span class="n">get_output_file_paths</span><span class="p">(</span><span class="n">meta</span><span class="p">)</span> <span class="k">for</span> <span class="n">meta</span> <span class="ow">in</span> <span class="n">build_metas</span><span class="p">))</span></div>
+        <span class="n">api</span><span class="o">.</span><span class="n">get_output_file_paths</span><span class="p">(</span><span class="n">meta</span><span class="p">)</span> <span class="k">for</span> <span class="n">meta</span> <span class="ow">in</span> <span class="n">build_metas</span><span class="p">))</span>
 
 
-<div class="viewcode-block" id="get_blacklist"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.get_blacklist">[docs]</a><span class="k">def</span> <span class="nf">get_blacklist</span><span class="p">(</span><span class="n">blacklists</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">):</span>
+<div class="viewcode-block" id="get_blacklist"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.get_blacklist">[docs]</a><span class="k">def</span> <span class="nf">get_blacklist</span><span class="p">(</span><span class="n">config</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">],</span> <span class="n">recipe_folder</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">set</span><span class="p">:</span>
     <span class="s2">&quot;Return list of recipes to skip from blacklists&quot;</span>
     <span class="n">blacklist</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
-    <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">blacklists</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;blacklists&#39;</span><span class="p">,</span> <span class="p">[]):</span>
         <span class="n">blacklist</span><span class="o">.</span><span class="n">update</span><span class="p">(</span>
             <span class="p">[</span>
                 <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">relpath</span><span class="p">(</span><span class="n">i</span><span class="o">.</span><span class="n">strip</span><span class="p">(),</span> <span class="n">recipe_folder</span><span class="p">)</span>
@@ -1226,73 +1254,16 @@
     <span class="k">pass</span></div>
 
 
-<div class="viewcode-block" id="modified_recipes"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.modified_recipes">[docs]</a><span class="k">def</span> <span class="nf">modified_recipes</span><span class="p">(</span><span class="n">git_range</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">config_file</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    Returns files under the recipes dir that have been modified within the git</span>
-<span class="sd">    range. Includes meta.yaml files for recipes that have been unblacklisted in</span>
-<span class="sd">    the git range. Filenames are returned with the ``recipe_folder`` included.</span>
-
-<span class="sd">    git_range : list or tuple of length 1 or 2</span>
-<span class="sd">        For example, ``[&#39;00232ffe&#39;, &#39;10fab113&#39;]``, or commonly ``[&#39;master&#39;, &#39;HEAD&#39;]``</span>
-<span class="sd">        or ``[&#39;master&#39;]``. If length 2, then the commits are provided to ``git diff``</span>
-<span class="sd">        using the triple-dot syntax, ``commit1...commit2``. If length 1, the</span>
-<span class="sd">        comparison is any changes in the working tree relative to the commit.</span>
-
-<span class="sd">    recipe_folder : str</span>
-<span class="sd">        Top-level recipes dir in which to search for meta.yaml files.</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">orig_git_range</span> <span class="o">=</span> <span class="n">git_range</span><span class="p">[:]</span>
-    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">git_range</span><span class="p">)</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
-        <span class="n">git_range</span> <span class="o">=</span> <span class="s1">&#39;...&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">git_range</span><span class="p">)</span>
-    <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">git_range</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span> <span class="ow">and</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">git_range</span><span class="p">,</span> <span class="nb">list</span><span class="p">):</span>
-        <span class="n">git_range</span> <span class="o">=</span> <span class="n">git_range</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;Expected 1 or 2 args for git_range; got </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">git_range</span><span class="p">))</span>
-
-    <span class="n">cmds</span> <span class="o">=</span> <span class="p">(</span>
-        <span class="p">[</span>
-            <span class="s1">&#39;git&#39;</span><span class="p">,</span> <span class="s1">&#39;diff&#39;</span><span class="p">,</span> <span class="s1">&#39;--relative=</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">),</span>
-            <span class="s1">&#39;--name-only&#39;</span><span class="p">,</span>
-            <span class="n">git_range</span><span class="p">,</span>
-            <span class="s2">&quot;--&quot;</span>
-        <span class="p">]</span> <span class="o">+</span>
-        <span class="p">[</span>
-            <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="s1">&#39;*&#39;</span><span class="p">),</span>
-            <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="s1">&#39;*&#39;</span><span class="p">,</span> <span class="s1">&#39;*&#39;</span><span class="p">)</span>
-        <span class="p">]</span>
-    <span class="p">)</span>
-
-    <span class="n">p</span> <span class="o">=</span> <span class="n">run</span><span class="p">(</span><span class="n">cmds</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-
-    <span class="n">modified</span> <span class="o">=</span> <span class="p">[</span>
-        <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">m</span><span class="p">)</span>
-        <span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="n">p</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
-    <span class="p">]</span>
-
-    <span class="c1"># exclude recipes that were deleted in the git-range</span>
-    <span class="n">existing</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">,</span> <span class="n">modified</span><span class="p">))</span>
-
-    <span class="c1"># if the only diff is that files were deleted, we can have [&#39;recipes/&#39;], so</span>
-    <span class="c1"># filter on existing *files*</span>
-    <span class="n">existing</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isfile</span><span class="p">,</span> <span class="n">existing</span><span class="p">))</span>
-
-    <span class="n">unblacklisted</span> <span class="o">=</span> <span class="n">newly_unblacklisted</span><span class="p">(</span><span class="n">config_file</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">orig_git_range</span><span class="p">)</span>
-    <span class="n">unblacklisted</span> <span class="o">=</span> <span class="p">[</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="s1">&#39;meta.yaml&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">unblacklisted</span><span class="p">]</span>
-    <span class="n">existing</span> <span class="o">+=</span> <span class="n">unblacklisted</span>
-
-    <span class="k">return</span> <span class="n">existing</span></div>
-
-
-<div class="viewcode-block" id="Progress"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.Progress">[docs]</a><span class="k">class</span> <span class="nc">Progress</span><span class="p">:</span>
+<span class="k">class</span> <span class="nc">Progress</span><span class="p">:</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">thread</span> <span class="o">=</span> <span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">progress</span><span class="p">)</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">stop</span> <span class="o">=</span> <span class="n">Event</span><span class="p">()</span>
 
-<div class="viewcode-block" id="Progress.progress"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.Progress.progress">[docs]</a>    <span class="k">def</span> <span class="nf">progress</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">progress</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">while</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">stop</span><span class="o">.</span><span class="n">wait</span><span class="p">(</span><span class="mi">60</span><span class="p">):</span>
             <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;.&quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
             <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">flush</span><span class="p">()</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span></div>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="nf">__enter__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">thread</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
@@ -1300,7 +1271,7 @@
 
     <span class="k">def</span> <span class="nf">__exit__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">exc_type</span><span class="p">,</span> <span class="n">exc_val</span><span class="p">,</span> <span class="n">exc_tb</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">stop</span><span class="o">.</span><span class="n">set</span><span class="p">()</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">thread</span><span class="o">.</span><span class="n">join</span><span class="p">()</span></div>
+        <span class="bp">self</span><span class="o">.</span><span class="n">thread</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
 
 
 <div class="viewcode-block" id="AsyncRequests"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.AsyncRequests">[docs]</a><span class="k">class</span> <span class="nc">AsyncRequests</span><span class="p">:</span>
@@ -1353,7 +1324,7 @@
 
         <span class="k">return</span> <span class="n">task</span><span class="o">.</span><span class="n">result</span><span class="p">()</span></div>
 
-<div class="viewcode-block" id="AsyncRequests.async_fetch"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.AsyncRequests.async_fetch">[docs]</a>    <span class="nd">@classmethod</span>
+    <span class="nd">@classmethod</span>
     <span class="k">async</span> <span class="k">def</span> <span class="nf">async_fetch</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">urls</span><span class="p">,</span> <span class="n">descs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">cb</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">datas</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">fds</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
         <span class="k">if</span> <span class="n">descs</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
             <span class="n">descs</span> <span class="o">=</span> <span class="p">[]</span>
@@ -1374,7 +1345,7 @@
                       <span class="n">total</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">coros</span><span class="p">),</span>
                       <span class="n">desc</span><span class="o">=</span><span class="s2">&quot;Downloading&quot;</span><span class="p">,</span> <span class="n">unit</span><span class="o">=</span><span class="s2">&quot;files&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">t</span><span class="p">:</span>
                 <span class="n">result</span> <span class="o">=</span> <span class="p">[</span><span class="k">await</span> <span class="n">coro</span> <span class="k">for</span> <span class="n">coro</span> <span class="ow">in</span> <span class="n">t</span><span class="p">]</span>
-        <span class="k">return</span> <span class="n">result</span></div>
+        <span class="k">return</span> <span class="n">result</span>
 
     <span class="nd">@staticmethod</span>
     <span class="nd">@backoff</span><span class="o">.</span><span class="n">on_exception</span><span class="p">(</span><span class="n">backoff</span><span class="o">.</span><span class="n">fibo</span><span class="p">,</span> <span class="n">aiohttp</span><span class="o">.</span><span class="n">ClientResponseError</span><span class="p">,</span> <span class="n">max_tries</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span>
@@ -1477,9 +1448,9 @@
     <span class="c1">#: default lifetime for repodata cache</span>
     <span class="n">cache_timeout</span> <span class="o">=</span> <span class="mi">60</span><span class="o">*</span><span class="mi">60</span><span class="o">*</span><span class="mi">8</span>
 
-<div class="viewcode-block" id="RepoData.register_config"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.RepoData.register_config">[docs]</a>    <span class="nd">@classmethod</span>
+    <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">register_config</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">config</span><span class="p">):</span>
-        <span class="bp">cls</span><span class="o">.</span><span class="n">config</span> <span class="o">=</span> <span class="n">config</span></div>
+        <span class="bp">cls</span><span class="o">.</span><span class="n">config</span> <span class="o">=</span> <span class="n">config</span>
 
     <span class="n">__instance</span> <span class="o">=</span> <span class="kc">None</span>
     <span class="k">def</span> <span class="nf">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">):</span>
@@ -1490,11 +1461,11 @@
             <span class="n">RepoData</span><span class="o">.</span><span class="n">__instance</span> <span class="o">=</span> <span class="nb">object</span><span class="o">.</span><span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">RepoData</span><span class="o">.</span><span class="n">__instance</span>
 
-<div class="viewcode-block" id="RepoData.set_cache"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.RepoData.set_cache">[docs]</a>    <span class="k">def</span> <span class="nf">set_cache</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">cache</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">set_cache</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">cache</span><span class="p">):</span>
         <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_df</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
             <span class="n">warnings</span><span class="o">.</span><span class="n">warn</span><span class="p">(</span><span class="s2">&quot;RepoData cache set after first use&quot;</span><span class="p">,</span> <span class="n">BiocondaUtilsWarning</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">cache_file</span> <span class="o">=</span> <span class="n">cache</span></div>
+            <span class="bp">self</span><span class="o">.</span><span class="n">cache_file</span> <span class="o">=</span> <span class="n">cache</span>
 
 <div class="viewcode-block" id="RepoData.set_timeout"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.RepoData.set_timeout">[docs]</a>    <span class="k">def</span> <span class="nf">set_timeout</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">timeout</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Set the timeout after which the repodata should be reloaded&quot;&quot;&quot;</span>
@@ -1566,23 +1537,27 @@
             <span class="n">df</span><span class="p">[</span><span class="s1">&#39;subdir&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">repo</span><span class="p">[</span><span class="s1">&#39;info&#39;</span><span class="p">][</span><span class="s1">&#39;subdir&#39;</span><span class="p">]</span>
             <span class="k">return</span> <span class="n">df</span>
 
-        <span class="n">dfs</span> <span class="o">=</span> <span class="n">AsyncRequests</span><span class="o">.</span><span class="n">fetch</span><span class="p">(</span><span class="n">urls</span><span class="p">,</span> <span class="n">descs</span><span class="p">,</span> <span class="n">to_dataframe</span><span class="p">,</span> <span class="n">repos</span><span class="p">)</span>
-        <span class="n">res</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">dfs</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">urls</span><span class="p">:</span>
+            <span class="n">dfs</span> <span class="o">=</span> <span class="n">AsyncRequests</span><span class="o">.</span><span class="n">fetch</span><span class="p">(</span><span class="n">urls</span><span class="p">,</span> <span class="n">descs</span><span class="p">,</span> <span class="n">to_dataframe</span><span class="p">,</span> <span class="n">repos</span><span class="p">)</span>
+            <span class="n">res</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">dfs</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">res</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
+
         <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">&#39;channel&#39;</span><span class="p">,</span> <span class="s1">&#39;platform&#39;</span><span class="p">,</span> <span class="s1">&#39;subdir&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;version&#39;</span><span class="p">,</span> <span class="s1">&#39;build&#39;</span><span class="p">):</span>
             <span class="n">res</span><span class="p">[</span><span class="n">col</span><span class="p">]</span> <span class="o">=</span> <span class="n">res</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;category&#39;</span><span class="p">)</span>
         <span class="n">res</span> <span class="o">=</span> <span class="n">res</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
         <span class="k">return</span> <span class="n">res</span>
 
-<div class="viewcode-block" id="RepoData.native_platform"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.RepoData.native_platform">[docs]</a>    <span class="nd">@staticmethod</span>
+    <span class="nd">@staticmethod</span>
     <span class="k">def</span> <span class="nf">native_platform</span><span class="p">():</span>
         <span class="k">if</span> <span class="n">sys</span><span class="o">.</span><span class="n">platform</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;linux&quot;</span><span class="p">):</span>
             <span class="k">return</span> <span class="s2">&quot;linux&quot;</span>
         <span class="k">if</span> <span class="n">sys</span><span class="o">.</span><span class="n">platform</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;darwin&quot;</span><span class="p">):</span>
             <span class="k">return</span> <span class="s2">&quot;osx&quot;</span>
-        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Running on unsupported platform&quot;</span><span class="p">)</span></div>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Running on unsupported platform&quot;</span><span class="p">)</span>
 
-<div class="viewcode-block" id="RepoData.platform2subdir"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.RepoData.platform2subdir">[docs]</a>    <span class="nd">@staticmethod</span>
+    <span class="nd">@staticmethod</span>
     <span class="k">def</span> <span class="nf">platform2subdir</span><span class="p">(</span><span class="n">platform</span><span class="p">):</span>
         <span class="k">if</span> <span class="n">platform</span> <span class="o">==</span> <span class="s1">&#39;linux&#39;</span><span class="p">:</span>
             <span class="k">return</span> <span class="s1">&#39;linux-64&#39;</span>
@@ -1592,7 +1567,7 @@
             <span class="k">return</span> <span class="s1">&#39;noarch&#39;</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
-                <span class="s1">&#39;Unsupported platform: bioconda only supports linux, osx and noarch.&#39;</span><span class="p">)</span></div>
+                <span class="s1">&#39;Unsupported platform: bioconda only supports linux, osx and noarch.&#39;</span><span class="p">)</span>
 
 
 

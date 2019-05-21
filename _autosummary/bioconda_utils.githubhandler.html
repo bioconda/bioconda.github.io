@@ -79,6 +79,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.aiopipe.html">aiopipe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html">bioconductor_skeleton</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.build.html">build</a></li>
@@ -92,8 +93,6 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.gitter.html">gitter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.graph.html">graph</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.hosters.html">hosters</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint_functions.html">lint_functions</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.linting.html">linting</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">recipe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
@@ -104,6 +103,7 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 </ul>
 </li>
 </ul>
@@ -215,36 +215,6 @@
 <em class="property">class </em><code class="descclassname">bioconda_utils.githubhandler.</code><code class="descname">CheckRunConclusion</code><a class="headerlink" href="#bioconda_utils.githubhandler.CheckRunConclusion" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">enum.Enum</span></code></a></p>
 <p>Conclusion of Github Check Run</p>
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.CheckRunConclusion.action_required">
-<code class="descname">action_required</code><em class="property"> = 6</em><a class="headerlink" href="#bioconda_utils.githubhandler.CheckRunConclusion.action_required" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.CheckRunConclusion.cancelled">
-<code class="descname">cancelled</code><em class="property"> = 4</em><a class="headerlink" href="#bioconda_utils.githubhandler.CheckRunConclusion.cancelled" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.CheckRunConclusion.failure">
-<code class="descname">failure</code><em class="property"> = 2</em><a class="headerlink" href="#bioconda_utils.githubhandler.CheckRunConclusion.failure" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.CheckRunConclusion.neutral">
-<code class="descname">neutral</code><em class="property"> = 3</em><a class="headerlink" href="#bioconda_utils.githubhandler.CheckRunConclusion.neutral" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.CheckRunConclusion.success">
-<code class="descname">success</code><em class="property"> = 1</em><a class="headerlink" href="#bioconda_utils.githubhandler.CheckRunConclusion.success" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.CheckRunConclusion.timed_out">
-<code class="descname">timed_out</code><em class="property"> = 5</em><a class="headerlink" href="#bioconda_utils.githubhandler.CheckRunConclusion.timed_out" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
 </dd></dl>
 
 <dl class="attribute">
@@ -370,95 +340,10 @@ of an app.</p>
 </dd>
 </dl>
 <dl class="attribute">
-<dt id="bioconda_utils.githubhandler.GitHubHandler.BRANCH_PROTECTION">
-<code class="descname">BRANCH_PROTECTION</code><em class="property"> = '/repos/{user}/{repo}/branches/{branch}/protection'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.BRANCH_PROTECTION" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.GitHubHandler.CHECK_RUN">
-<code class="descname">CHECK_RUN</code><em class="property"> = '/repos/{user}/{repo}/check-runs{/id}'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.CHECK_RUN" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.GitHubHandler.COMMENTS">
-<code class="descname">COMMENTS</code><em class="property"> = '/repos/{user}/{repo}/issues/comments{/comment_id}'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.COMMENTS" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.GitHubHandler.CONTENTS">
-<code class="descname">CONTENTS</code><em class="property"> = '/repos/{user}/{repo}/contents/{path}{?ref}'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.CONTENTS" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.GitHubHandler.GET_CHECK_RUNS">
-<code class="descname">GET_CHECK_RUNS</code><em class="property"> = '/repos/{user}/{repo}/commits/{commit}/check-runs'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.GET_CHECK_RUNS" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.GitHubHandler.GET_STATUSES">
-<code class="descname">GET_STATUSES</code><em class="property"> = '/repos/{user}/{repo}/commits/{commit}/statuses'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.GET_STATUSES" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.GitHubHandler.ISSUES">
-<code class="descname">ISSUES</code><em class="property"> = '/repos/{user}/{repo}/issues{/number}'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.ISSUES" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.GitHubHandler.ISSUE_COMMENTS">
-<code class="descname">ISSUE_COMMENTS</code><em class="property"> = '/repos/{user}/{repo}/issues/{number}/comments'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.ISSUE_COMMENTS" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.GitHubHandler.ORG">
-<code class="descname">ORG</code><em class="property"> = '/orgs/{user}'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.ORG" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.GitHubHandler.ORG_MEMBERS">
-<code class="descname">ORG_MEMBERS</code><em class="property"> = '/orgs/{user}/members{/username}'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.ORG_MEMBERS" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.GitHubHandler.ORG_TEAMS">
-<code class="descname">ORG_TEAMS</code><em class="property"> = '/orgs/{user}/teams{/team_slug}'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.ORG_TEAMS" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.GitHubHandler.PULLS">
-<code class="descname">PULLS</code><em class="property"> = '/repos/{user}/{repo}/pulls{/number}{?head,base,state}'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.PULLS" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.GitHubHandler.PULL_COMMITS">
-<code class="descname">PULL_COMMITS</code><em class="property"> = '/repos/{user}/{repo}/pulls/{number}/commits'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.PULL_COMMITS" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.GitHubHandler.PULL_FILES">
-<code class="descname">PULL_FILES</code><em class="property"> = '/repos/{user}/{repo}/pulls/{number}/files'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.PULL_FILES" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.GitHubHandler.PULL_MERGE">
-<code class="descname">PULL_MERGE</code><em class="property"> = '/repos/{user}/{repo}/pulls/{number}/merge'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.PULL_MERGE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.GitHubHandler.SEARCH_ISSUES">
-<code class="descname">SEARCH_ISSUES</code><em class="property"> = '/search/issues?q='</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.SEARCH_ISSUES" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
 <dt id="bioconda_utils.githubhandler.GitHubHandler.STATE">
 <code class="descname">STATE</code><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.STATE" title="Permalink to this definition">¶</a></dt>
 <dd><p>alias of <a class="reference internal" href="#bioconda_utils.githubhandler.IssueState" title="bioconda_utils.githubhandler.IssueState"><code class="xref py py-class docutils literal notranslate"><span class="pre">IssueState</span></code></a></p>
 </dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.GitHubHandler.TEAMS_MEMBERSHIP">
-<code class="descname">TEAMS_MEMBERSHIP</code><em class="property"> = '/teams/{team_id}/memberships/{username}'</em><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.TEAMS_MEMBERSHIP" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
 
 <dl class="attribute">
 <dt id="bioconda_utils.githubhandler.GitHubHandler.api">
@@ -496,7 +381,7 @@ of an app.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – The name of the check, e.g. <code class="xref any docutils literal notranslate"><span class="pre">bioconda-test</span></code></p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – The name of the check, e.g. <code class="docutils literal notranslate"><span class="pre">bioconda-test</span></code></p></li>
 <li><p><strong>head_sha</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – The sha of the commit to check</p></li>
 <li><p><strong>details_url</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – URL for “View more details on &lt;App name&gt;” link</p></li>
 <li><p><strong>external_id</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – ID for us</p></li>
@@ -880,14 +765,11 @@ is provided, if user is member of that team.</p>
 <li><p><strong>output_title</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – title string for result window</p></li>
 <li><p><strong>output_summary</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – subtitle/summary string for result window (reqired if title given)</p></li>
 <li><p><strong>output_text</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Markdown text for result window</p></li>
-<li><p><strong>annotations</strong> – <p>List of annotated code pieces, each has to have <code class="docutils literal notranslate"><span class="pre">path</span></code>,
+<li><p><strong>annotations</strong> – List of annotated code pieces, each has to have <code class="docutils literal notranslate"><span class="pre">path</span></code>,
 <code class="docutils literal notranslate"><span class="pre">start_line</span></code> and <code class="docutils literal notranslate"><span class="pre">end_line</span></code>, <code class="docutils literal notranslate"><span class="pre">annotation_level</span></code> (<code class="docutils literal notranslate"><span class="pre">notice</span></code>,
-<code class="docutils literal notranslate"><span class="pre">warning</span></code>, <code class="docutils literal notranslate"><span class="pre">failure</span></code>), and a <code class="docutils literal notranslate"><span class="pre">message</span></code>. May also have</p>
-<blockquote>
-<div><p>may have <code class="docutils literal notranslate"><span class="pre">start_column</span></code> and <code class="docutils literal notranslate"><span class="pre">end_column</span></code> (if only one line),</p>
-</div></blockquote>
-<p><code class="docutils literal notranslate"><span class="pre">title</span></code> and <code class="docutils literal notranslate"><span class="pre">raw_details</span></code>.</p>
-</p></li>
+<code class="docutils literal notranslate"><span class="pre">warning</span></code>, <code class="docutils literal notranslate"><span class="pre">failure</span></code>), and a <code class="docutils literal notranslate"><span class="pre">message</span></code>. May also have
+may have <code class="docutils literal notranslate"><span class="pre">start_column</span></code> and <code class="docutils literal notranslate"><span class="pre">end_column</span></code> (if only one line),
+<code class="docutils literal notranslate"><span class="pre">title</span></code> and <code class="docutils literal notranslate"><span class="pre">raw_details</span></code>.</p></li>
 </ul>
 </dd>
 <dt class="field-even">Return type</dt>
@@ -1025,21 +907,6 @@ is provided, if user is member of that team.</p>
 <em class="property">class </em><code class="descclassname">bioconda_utils.githubhandler.</code><code class="descname">IssueState</code><a class="headerlink" href="#bioconda_utils.githubhandler.IssueState" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">enum.Enum</span></code></a></p>
 <p>State for Github Issues</p>
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.IssueState.all">
-<code class="descname">all</code><em class="property"> = 3</em><a class="headerlink" href="#bioconda_utils.githubhandler.IssueState.all" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.IssueState.closed">
-<code class="descname">closed</code><em class="property"> = 2</em><a class="headerlink" href="#bioconda_utils.githubhandler.IssueState.closed" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.IssueState.open">
-<code class="descname">open</code><em class="property"> = 1</em><a class="headerlink" href="#bioconda_utils.githubhandler.IssueState.open" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
 </dd></dl>
 
 <dl class="class">
@@ -1047,21 +914,6 @@ is provided, if user is member of that team.</p>
 <em class="property">class </em><code class="descclassname">bioconda_utils.githubhandler.</code><code class="descname">MergeMethod</code><a class="headerlink" href="#bioconda_utils.githubhandler.MergeMethod" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">enum.Enum</span></code></a></p>
 <p>Merge method</p>
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.MergeMethod.merge">
-<code class="descname">merge</code><em class="property"> = 1</em><a class="headerlink" href="#bioconda_utils.githubhandler.MergeMethod.merge" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.MergeMethod.rebase">
-<code class="descname">rebase</code><em class="property"> = 3</em><a class="headerlink" href="#bioconda_utils.githubhandler.MergeMethod.rebase" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="bioconda_utils.githubhandler.MergeMethod.squash">
-<code class="descname">squash</code><em class="property"> = 2</em><a class="headerlink" href="#bioconda_utils.githubhandler.MergeMethod.squash" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
 </dd></dl>
 
 <dl class="function">

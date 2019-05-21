@@ -121,9 +121,11 @@
 <span class="kn">import</span> <span class="nn">logging</span>
 <span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">defaultdict</span><span class="p">,</span> <span class="n">Counter</span>
 <span class="kn">from</span> <span class="nn">functools</span> <span class="k">import</span> <span class="n">partial</span>
+<span class="kn">import</span> <span class="nn">inspect</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="k">import</span> <span class="n">List</span><span class="p">,</span> <span class="n">Tuple</span>
 
 <span class="kn">import</span> <span class="nn">argh</span>
-<span class="kn">from</span> <span class="nn">argh</span> <span class="k">import</span> <span class="n">arg</span>
+<span class="kn">from</span> <span class="nn">argh</span> <span class="k">import</span> <span class="n">arg</span><span class="p">,</span> <span class="n">named</span>
 <span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
 <span class="kn">from</span> <span class="nn">networkx.drawing.nx_pydot</span> <span class="k">import</span> <span class="n">write_dot</span>
 <span class="kn">import</span> <span class="nn">pandas</span>
@@ -131,13 +133,13 @@
 <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">utils</span>
 <span class="kn">from</span> <span class="nn">.build</span> <span class="k">import</span> <span class="n">build_recipes</span>
 <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">docker_utils</span>
-<span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">lint_functions</span>
-<span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">linting</span>
+<span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">lint</span>
 <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">github_integration</span>
 <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">bioconductor_skeleton</span> <span class="k">as</span> <span class="n">_bioconductor_skeleton</span>
 <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">cran_skeleton</span>
 <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">update_pinnings</span>
 <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">graph</span>
+<span class="kn">from</span> <span class="nn">.githandler</span> <span class="k">import</span> <span class="n">BiocondaRepo</span>
 
 <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
 
@@ -173,6 +175,7 @@
             <span class="k">try</span><span class="p">:</span>
                 <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
             <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">exception</span><span class="p">(</span><span class="s2">&quot;Dropping into debugger&quot;</span><span class="p">)</span>
                 <span class="k">if</span> <span class="n">pdb</span><span class="p">:</span>
                     <span class="kn">import</span> <span class="nn">pdb</span>
                     <span class="n">pdb</span><span class="o">.</span><span class="n">post_mortem</span><span class="p">()</span>
@@ -183,7 +186,7 @@
 
 
 <div class="viewcode-block" id="enable_threads"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.enable_threads">[docs]</a><span class="k">def</span> <span class="nf">enable_threads</span><span class="p">():</span>
-    <span class="sd">&quot;&quot;&quot;Adds the paremeter ``--threads`` (or ``-t``) to limit parallelism&quot;&quot;&quot;</span>
+    <span class="sd">&quot;&quot;&quot;Adds the parameter ``--threads`` (or ``-t``) to limit parallelism&quot;&quot;&quot;</span>
     <span class="k">def</span> <span class="nf">decorator</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
         <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;-t&#39;</span><span class="p">,</span> <span class="s1">&#39;--threads&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Limit maximum number of processes used.&quot;</span><span class="p">)</span>
         <span class="nd">@utils</span><span class="o">.</span><span class="n">wraps</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
@@ -192,6 +195,63 @@
             <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">wrapper</span>
     <span class="k">return</span> <span class="n">decorator</span></div>
+
+
+<div class="viewcode-block" id="recipe_folder_and_config"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.recipe_folder_and_config">[docs]</a><span class="k">def</span> <span class="nf">recipe_folder_and_config</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;Adds optional positional arguments recipe_folder and config</span>
+
+<span class="sd">    Requires that func has synopsis ``def x(recipe_folder, config,...)``.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">check_arg</span><span class="p">(</span><span class="n">args</span><span class="p">,</span> <span class="n">idx</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">default</span><span class="p">):</span>
+        <span class="n">val</span> <span class="o">=</span> <span class="n">args</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">val</span><span class="p">:</span>
+            <span class="n">val</span> <span class="o">=</span> <span class="n">default</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">val</span><span class="p">):</span>
+            <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;Argument &#39;</span><span class="si">{name}</span><span class="s2">&#39; points to missing file &#39;</span><span class="si">{val}</span><span class="s2">&#39;&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">val</span> <span class="o">!=</span> <span class="n">args</span><span class="p">[</span><span class="n">idx</span><span class="p">]:</span>
+            <span class="n">lst</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+            <span class="n">lst</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span> <span class="o">=</span> <span class="n">val</span>
+            <span class="k">return</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">args</span>
+
+    <span class="k">def</span> <span class="nf">decorator</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
+        <span class="n">args</span> <span class="o">=</span> <span class="n">inspect</span><span class="o">.</span><span class="n">getfullargspec</span><span class="p">(</span><span class="n">func</span><span class="p">)</span><span class="o">.</span><span class="n">args</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">recipe_folder_idx</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;recipe_folder&#39;</span><span class="p">)</span>
+            <span class="n">config_idx</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;config&#39;</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
+            <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;Function </span><span class="si">{func}</span><span class="s2"> must have &#39;recipe_folder&#39; and &#39;config&#39; args&quot;</span><span class="p">)</span>
+        <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;recipe_folder&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s1">&#39;?&#39;</span><span class="p">,</span>
+             <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Path to folder containing recipes (default: recipes/)&#39;</span><span class="p">)</span>
+        <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;config&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s1">&#39;?&#39;</span><span class="p">,</span>
+             <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Path to Bioconda config (default: config.yml)&#39;</span><span class="p">)</span>
+        <span class="nd">@utils</span><span class="o">.</span><span class="n">wraps</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+        <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+            <span class="n">args</span> <span class="o">=</span> <span class="n">check_arg</span><span class="p">(</span><span class="n">args</span><span class="p">,</span> <span class="n">recipe_folder_idx</span><span class="p">,</span> <span class="s1">&#39;recipe_folder&#39;</span><span class="p">,</span> <span class="s1">&#39;recipes/&#39;</span><span class="p">)</span>
+            <span class="n">args</span> <span class="o">=</span> <span class="n">check_arg</span><span class="p">(</span><span class="n">args</span><span class="p">,</span> <span class="n">config_idx</span><span class="p">,</span> <span class="s1">&#39;config&#39;</span><span class="p">,</span> <span class="s1">&#39;config.yml&#39;</span><span class="p">)</span>
+            <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">wrapper</span>
+    <span class="k">return</span> <span class="n">decorator</span></div>
+
+
+<div class="viewcode-block" id="get_recipes_to_build"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.get_recipes_to_build">[docs]</a><span class="k">def</span> <span class="nf">get_recipes_to_build</span><span class="p">(</span><span class="n">git_range</span><span class="p">:</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">recipe_folder</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;Gets list of modified recipes according to git_range and blacklist</span>
+
+<span class="sd">    See `BiocondaRepoMixin.get_recipes_to_build()`.</span>
+
+<span class="sd">    Arguments:</span>
+<span class="sd">      git_range: one or two-tuple containing &quot;from&quot; and &quot;to&quot; git refs,</span>
+<span class="sd">                 with &quot;to&quot; defaulting to &quot;HEAD&quot;</span>
+<span class="sd">    Returns:</span>
+<span class="sd">      List of recipes for which meta.yaml or build.sh was modified or</span>
+<span class="sd">      which were unblacklisted.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">git_range</span> <span class="ow">or</span> <span class="nb">len</span><span class="p">(</span><span class="n">git_range</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="s2">&quot;--git-range may have only one or two arguments&quot;</span><span class="p">)</span>
+    <span class="n">other</span> <span class="o">=</span> <span class="n">git_range</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">ref</span> <span class="o">=</span> <span class="s2">&quot;HEAD&quot;</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">git_range</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span> <span class="k">else</span> <span class="n">git_range</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+    <span class="n">repo</span> <span class="o">=</span> <span class="n">BiocondaRepo</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">repo</span><span class="o">.</span><span class="n">get_recipes_to_build</span><span class="p">(</span><span class="n">ref</span><span class="p">,</span> <span class="n">other</span><span class="p">)</span></div>
 
 
 <span class="c1"># NOTE:</span>
@@ -290,8 +350,7 @@
                 <span class="nb">print</span><span class="p">(</span><span class="o">*</span><span class="n">spec</span><span class="p">,</span> <span class="s1">&#39;,&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">dup_channels</span><span class="p">),</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="lint"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.lint">[docs]</a><span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;recipe_folder&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Path to top-level dir of recipes.&#39;</span><span class="p">)</span>
-<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;config&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Path to yaml file specifying the configuration&#39;</span><span class="p">)</span>
+<div class="viewcode-block" id="do_lint"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.do_lint">[docs]</a><span class="nd">@recipe_folder_and_config</span><span class="p">()</span>
 <span class="nd">@arg</span><span class="p">(</span>
     <span class="s1">&#39;--packages&#39;</span><span class="p">,</span>
     <span class="n">nargs</span><span class="o">=</span><span class="s2">&quot;+&quot;</span><span class="p">,</span>
@@ -300,15 +359,12 @@
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--cache&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;To speed up debugging, use repodata cached locally in</span>
 <span class="s1">     the provided filename. If the file does not exist, it will be created the</span>
 <span class="s1">     first time.&#39;&#39;&#39;</span><span class="p">)</span>
-<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--list-funcs&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;List the linting functions to be used and then</span>
+<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--list-checks&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;List the linting functions to be used and then</span>
 <span class="s1">     exit&#39;&#39;&#39;</span><span class="p">)</span>
-<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--only&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s1">&#39;+&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Only run this linting function. Can be used</span>
+<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--only&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s1">&#39;+&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Only run these linting functions. Can be used</span>
 <span class="s1">     multiple times.&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--exclude&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s1">&#39;+&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Exclude this linting function. Can be used</span>
 <span class="s1">     multiple times.&#39;&#39;&#39;</span><span class="p">)</span>
-<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--force&#39;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s1">&#39;store_true&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Force linting of packages. If</span>
-<span class="s1">     specified, --git-range will be ignored and only those packages matching</span>
-<span class="s1">     --packages globs will be linted.&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--push-status&#39;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s1">&#39;store_true&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;If set, the lint status will</span>
 <span class="s1">     be sent to the current commit on github. Also needs --user and --repo to</span>
 <span class="s1">     be set. Requires the env var GITHUB_TOKEN to be set. Note that pull</span>
@@ -332,75 +388,57 @@
 <span class="s1">     summarize the linting results; use this argument to get the full</span>
 <span class="s1">     results as a TSV printed to stdout.&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@enable_logging</span><span class="p">()</span>
-<span class="k">def</span> <span class="nf">lint</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">packages</span><span class="o">=</span><span class="s2">&quot;*&quot;</span><span class="p">,</span> <span class="n">cache</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">list_funcs</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-         <span class="n">only</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">exclude</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">push_status</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">user</span><span class="o">=</span><span class="s1">&#39;bioconda&#39;</span><span class="p">,</span>
-         <span class="n">commit</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">push_comment</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">pull_request</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-         <span class="n">repo</span><span class="o">=</span><span class="s1">&#39;bioconda-recipes&#39;</span><span class="p">,</span> <span class="n">git_range</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">full_report</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+<span class="nd">@enable_debugging</span><span class="p">()</span>
+<span class="nd">@named</span><span class="p">(</span><span class="s1">&#39;lint&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">do_lint</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">packages</span><span class="o">=</span><span class="s2">&quot;*&quot;</span><span class="p">,</span> <span class="n">cache</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">list_checks</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+            <span class="n">exclude</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">push_status</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">user</span><span class="o">=</span><span class="s1">&#39;bioconda&#39;</span><span class="p">,</span>
+            <span class="n">commit</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">push_comment</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">pull_request</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+            <span class="n">repo</span><span class="o">=</span><span class="s1">&#39;bioconda-recipes&#39;</span><span class="p">,</span> <span class="n">git_range</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">full_report</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Lint recipes</span>
 
 <span class="sd">    If --push-status is not set, reports a TSV of linting results to stdout.</span>
 <span class="sd">    Otherwise pushes a commit status to the specified commit on github.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">if</span> <span class="n">list_funcs</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">i</span><span class="o">.</span><span class="vm">__name__</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">lint_functions</span><span class="o">.</span><span class="n">registry</span><span class="p">]))</span>
+    <span class="n">config_filename</span> <span class="o">=</span> <span class="n">config</span>
+    <span class="n">config</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">load_config</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">list_checks</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">i</span><span class="o">.</span><span class="vm">__name__</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">registry</span><span class="p">))</span>
         <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
 
     <span class="k">if</span> <span class="n">cache</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
         <span class="n">utils</span><span class="o">.</span><span class="n">RepoData</span><span class="p">()</span><span class="o">.</span><span class="n">set_cache</span><span class="p">(</span><span class="n">cache</span><span class="p">)</span>
-    <span class="n">registry</span> <span class="o">=</span> <span class="n">lint_functions</span><span class="o">.</span><span class="n">registry</span>
 
-    <span class="k">if</span> <span class="n">only</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="n">registry</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="vm">__name__</span> <span class="ow">in</span> <span class="n">only</span><span class="p">,</span> <span class="n">registry</span><span class="p">))</span>
-        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">registry</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-            <span class="n">sys</span><span class="o">.</span><span class="n">stderr</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;No valid linting functions selected, exiting.</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
-            <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">recipes</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">utils</span><span class="o">.</span><span class="n">get_recipes</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">packages</span><span class="p">))</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Considering total of </span><span class="si">%s</span><span class="s2"> recipes</span><span class="si">%s</span><span class="s2">.&quot;</span><span class="p">,</span>
+                <span class="nb">len</span><span class="p">(</span><span class="n">recipes</span><span class="p">),</span> <span class="n">utils</span><span class="o">.</span><span class="n">ellipsize_recipes</span><span class="p">(</span><span class="n">recipes</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">))</span>
 
-    <span class="n">config_filename</span> <span class="o">=</span> <span class="n">config</span>
-    <span class="n">config</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">load_config</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">git_range</span><span class="p">:</span>
+        <span class="n">changed_recipes</span> <span class="o">=</span> <span class="n">get_recipes_to_build</span><span class="p">(</span><span class="n">git_range</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">)</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Constraining to </span><span class="si">%s</span><span class="s2"> git modified recipes</span><span class="si">%s</span><span class="s2">.&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">changed_recipes</span><span class="p">),</span>
+                    <span class="n">utils</span><span class="o">.</span><span class="n">ellipsize_recipes</span><span class="p">(</span><span class="n">changed_recipes</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">))</span>
+        <span class="n">recipes</span> <span class="o">=</span> <span class="p">[</span><span class="n">recipe</span> <span class="k">for</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="n">recipes</span> <span class="k">if</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="nb">set</span><span class="p">(</span><span class="n">changed_recipes</span><span class="p">)]</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">recipes</span><span class="p">)</span> <span class="o">!=</span> <span class="nb">len</span><span class="p">(</span><span class="n">changed_recipes</span><span class="p">):</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Overlap was </span><span class="si">%s</span><span class="s2"> recipes</span><span class="si">%s</span><span class="s2">.&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">recipes</span><span class="p">),</span>
+                        <span class="n">utils</span><span class="o">.</span><span class="n">ellipsize_recipes</span><span class="p">(</span><span class="n">recipes</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">))</span>
 
-    <span class="n">_recipes</span> <span class="o">=</span> <span class="n">linting</span><span class="o">.</span><span class="n">select_recipes</span><span class="p">(</span><span class="n">packages</span><span class="p">,</span> <span class="n">git_range</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">,</span>
-                                      <span class="n">config_filename</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">force</span><span class="p">)</span>
+    <span class="n">linter</span> <span class="o">=</span> <span class="n">lint</span><span class="o">.</span><span class="n">Linter</span><span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">exclude</span><span class="p">)</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">linter</span><span class="o">.</span><span class="n">lint</span><span class="p">(</span><span class="n">recipes</span><span class="p">)</span>
+    <span class="n">messages</span> <span class="o">=</span> <span class="n">linter</span><span class="o">.</span><span class="n">get_messages</span><span class="p">()</span>
 
-    <span class="n">lint_args</span> <span class="o">=</span> <span class="n">linting</span><span class="o">.</span><span class="n">LintArgs</span><span class="p">(</span><span class="n">exclude</span><span class="o">=</span><span class="n">exclude</span><span class="p">,</span> <span class="n">registry</span><span class="o">=</span><span class="n">registry</span><span class="p">)</span>
-    <span class="n">report</span> <span class="o">=</span> <span class="n">linting</span><span class="o">.</span><span class="n">lint</span><span class="p">(</span><span class="n">_recipes</span><span class="p">,</span> <span class="n">lint_args</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">messages</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The following problems have been found:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">msg</span> <span class="ow">in</span> <span class="n">messages</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;</span><span class="si">{msg.severity.name}</span><span class="s2">: </span><span class="si">{msg.fname}</span><span class="s2">:</span><span class="si">{msg.end_line}</span><span class="s2">: </span><span class="si">{msg.check}</span><span class="s2">: </span><span class="si">{msg.title}</span><span class="s2">&quot;</span><span class="p">)</span>
 
-    <span class="c1"># The returned dataframe is in tidy format; summarize a bit to get a more</span>
-    <span class="c1"># reasonable log</span>
-    <span class="k">if</span> <span class="n">report</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="n">pandas</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">&#39;max_colwidth&#39;</span><span class="p">,</span> <span class="mi">500</span><span class="p">)</span>
-        <span class="n">summarized</span> <span class="o">=</span> <span class="n">pandas</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span>
-            <span class="nb">dict</span><span class="p">(</span><span class="n">failed_tests</span><span class="o">=</span><span class="n">report</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;recipe&#39;</span><span class="p">)[</span><span class="s1">&#39;check&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">agg</span><span class="p">(</span><span class="s1">&#39;unique&#39;</span><span class="p">)))</span>
-        <span class="k">if</span> <span class="ow">not</span> <span class="n">full_report</span><span class="p">:</span>
-            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n\n</span><span class="s1">The following recipes failed linting. See &#39;</span>
-                         <span class="s1">&#39;https://bioconda.github.io/linting.html for details:</span><span class="se">\n\n</span><span class="si">%s</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span>
-                         <span class="n">summarized</span><span class="o">.</span><span class="n">to_string</span><span class="p">())</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="n">report</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)</span>
-
-        <span class="k">if</span> <span class="n">push_status</span><span class="p">:</span>
-            <span class="n">github_integration</span><span class="o">.</span><span class="n">update_status</span><span class="p">(</span>
-                <span class="n">user</span><span class="p">,</span> <span class="n">repo</span><span class="p">,</span> <span class="n">commit</span><span class="p">,</span> <span class="n">state</span><span class="o">=</span><span class="s1">&#39;error&#39;</span><span class="p">,</span> <span class="n">context</span><span class="o">=</span><span class="s1">&#39;linting&#39;</span><span class="p">,</span>
-                <span class="n">description</span><span class="o">=</span><span class="s1">&#39;linting failed, see travis log&#39;</span><span class="p">,</span> <span class="n">target_url</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">push_comment</span><span class="p">:</span>
-            <span class="n">msg</span> <span class="o">=</span> <span class="n">linting</span><span class="o">.</span><span class="n">markdown_report</span><span class="p">(</span><span class="n">summarized</span><span class="p">)</span>
-            <span class="n">github_integration</span><span class="o">.</span><span class="n">push_comment</span><span class="p">(</span>
-                <span class="n">user</span><span class="p">,</span> <span class="n">repo</span><span class="p">,</span> <span class="n">pull_request</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
-        <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-
+    <span class="k">if</span> <span class="n">result</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;All checks OK&quot;</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">push_status</span><span class="p">:</span>
-            <span class="n">github_integration</span><span class="o">.</span><span class="n">update_status</span><span class="p">(</span>
-                <span class="n">user</span><span class="p">,</span> <span class="n">repo</span><span class="p">,</span> <span class="n">commit</span><span class="p">,</span> <span class="n">state</span><span class="o">=</span><span class="s1">&#39;success&#39;</span><span class="p">,</span> <span class="n">context</span><span class="o">=</span><span class="s1">&#39;linting&#39;</span><span class="p">,</span>
-                <span class="n">description</span><span class="o">=</span><span class="s1">&#39;linting passed&#39;</span><span class="p">,</span> <span class="n">target_url</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">push_comment</span><span class="p">:</span>
-            <span class="n">msg</span> <span class="o">=</span> <span class="n">linting</span><span class="o">.</span><span class="n">markdown_report</span><span class="p">()</span>
-            <span class="n">github_integration</span><span class="o">.</span><span class="n">push_comment</span><span class="p">(</span>
-                <span class="n">user</span><span class="p">,</span> <span class="n">repo</span><span class="p">,</span> <span class="n">pull_request</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span></div>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Errors were found&quot;</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="build"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.build">[docs]</a><span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;recipe_folder&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Path to top-level dir of recipes.&#39;</span><span class="p">)</span>
-<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;config&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Path to yaml file specifying the configuration&#39;</span><span class="p">)</span>
+<span class="nd">@recipe_folder_and_config</span><span class="p">()</span>
 <span class="nd">@arg</span><span class="p">(</span>
     <span class="s1">&#39;--packages&#39;</span><span class="p">,</span>
     <span class="n">nargs</span><span class="o">=</span><span class="s2">&quot;+&quot;</span><span class="p">,</span>
@@ -438,8 +476,6 @@
 <span class="s1">     the linting functions to it. This can be used as an alternative to linting</span>
 <span class="s1">     all recipes before any building takes place with the `bioconda-utils lint`</span>
 <span class="s1">     command.&#39;&#39;&#39;</span><span class="p">)</span>
-<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--lint-only&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s1">&#39;+&#39;</span><span class="p">,</span>
-     <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Only run this linting function. Can be used multiple times.&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--lint-exclude&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s1">&#39;+&#39;</span><span class="p">,</span>
      <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Exclude this linting function. Can be used multiple times.&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--check-channels&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s1">&#39;+&#39;</span><span class="p">,</span>
@@ -464,7 +500,6 @@
     <span class="n">build_image</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
     <span class="n">keep_image</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
     <span class="n">lint</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-    <span class="n">lint_only</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
     <span class="n">lint_exclude</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
     <span class="n">check_channels</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
 <span class="p">):</span>
@@ -477,22 +512,10 @@
 
     <span class="c1"># handle git range</span>
     <span class="k">if</span> <span class="n">git_range</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">force</span><span class="p">:</span>
-        <span class="n">modified</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">modified_recipes</span><span class="p">(</span><span class="n">git_range</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">config</span><span class="p">)</span>
+        <span class="n">modified</span> <span class="o">=</span> <span class="n">get_recipes_to_build</span><span class="p">(</span><span class="n">git_range</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">)</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">modified</span><span class="p">:</span>
             <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;No recipe modified according to git, exiting.&#39;</span><span class="p">)</span>
             <span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-        <span class="c1"># obtain list of packages to build. `modified` will be a list of *all*</span>
-        <span class="c1"># files so we need to extract just the package names since</span>
-        <span class="c1"># build_recipes expects globs</span>
-
-        <span class="n">packages</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span>
-            <span class="nb">set</span><span class="p">(</span>
-                <span class="p">[</span>
-                    <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">relpath</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">))</span>
-                    <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">modified</span>
-                <span class="p">]</span>
-            <span class="p">)</span>
-        <span class="p">)</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Recipes modified according to git: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">packages</span><span class="p">)))</span>
 
     <span class="k">if</span> <span class="n">docker</span><span class="p">:</span>
@@ -515,20 +538,8 @@
     <span class="k">else</span><span class="p">:</span>
         <span class="n">docker_builder</span> <span class="o">=</span> <span class="kc">None</span>
 
-    <span class="k">if</span> <span class="n">lint</span><span class="p">:</span>
-        <span class="n">registry</span> <span class="o">=</span> <span class="n">lint_functions</span><span class="o">.</span><span class="n">registry</span>
-        <span class="k">if</span> <span class="n">lint_only</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
-            <span class="n">registry</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">func</span> <span class="k">for</span> <span class="n">func</span> <span class="ow">in</span> <span class="n">registry</span> <span class="k">if</span> <span class="n">func</span><span class="o">.</span><span class="vm">__name__</span> <span class="ow">in</span> <span class="n">lint_only</span><span class="p">)</span>
-            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">registry</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-                <span class="n">sys</span><span class="o">.</span><span class="n">stderr</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;No valid linting functions selected, exiting.</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
-                <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-        <span class="n">lint_args</span> <span class="o">=</span> <span class="n">linting</span><span class="o">.</span><span class="n">LintArgs</span><span class="p">(</span><span class="n">exclude</span><span class="o">=</span><span class="n">lint_exclude</span><span class="p">,</span> <span class="n">registry</span><span class="o">=</span><span class="n">registry</span><span class="p">)</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="n">lint_args</span> <span class="o">=</span> <span class="kc">None</span>
-        <span class="k">if</span> <span class="n">lint_only</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
-            <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s1">&#39;--lint-only has no effect unless --lint is specified.&#39;</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">lint_exclude</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
-            <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s1">&#39;--lint-exclude has no effect unless --lint is specified.&#39;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">lint_exclude</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">lint</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s1">&#39;--lint-exclude has no effect unless --lint is specified.&#39;</span><span class="p">)</span>
 
     <span class="n">label</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">&#39;BIOCONDA_LABEL&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">label</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
@@ -544,15 +555,15 @@
         <span class="n">docker_builder</span><span class="o">=</span><span class="n">docker_builder</span><span class="p">,</span>
         <span class="n">anaconda_upload</span><span class="o">=</span><span class="n">anaconda_upload</span><span class="p">,</span>
         <span class="n">mulled_upload_target</span><span class="o">=</span><span class="n">mulled_upload_target</span><span class="p">,</span>
-        <span class="n">lint_args</span><span class="o">=</span><span class="n">lint_args</span><span class="p">,</span>
+        <span class="n">lint</span><span class="o">=</span><span class="n">lint</span><span class="p">,</span>
+        <span class="n">lint_exclude</span><span class="o">=</span><span class="n">lint_exclude</span><span class="p">,</span>
         <span class="n">check_channels</span><span class="o">=</span><span class="n">check_channels</span><span class="p">,</span>
         <span class="n">label</span><span class="o">=</span><span class="n">label</span><span class="p">,</span>
     <span class="p">)</span>
-    <span class="n">exit</span><span class="p">(</span><span class="mi">0</span> <span class="k">if</span> <span class="n">success</span> <span class="k">else</span> <span class="mi">1</span><span class="p">)</span></div>
+    <span class="n">exit</span><span class="p">(</span><span class="mi">0</span> <span class="k">if</span> <span class="n">success</span> <span class="k">else</span> <span class="mi">1</span><span class="p">)</span>
 
 
-<div class="viewcode-block" id="dag"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.dag">[docs]</a><span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;recipe_folder&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Path to recipes directory&#39;</span><span class="p">)</span>
-<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;config&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Path to yaml file specifying the configuration&#39;</span><span class="p">)</span>
+<div class="viewcode-block" id="dag"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.dag">[docs]</a><span class="nd">@recipe_folder_and_config</span><span class="p">()</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--packages&#39;</span><span class="p">,</span>
      <span class="n">nargs</span><span class="o">=</span><span class="s2">&quot;+&quot;</span><span class="p">,</span>
      <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Glob for package[s] to show in DAG. Default is to show all &#39;</span>
@@ -603,8 +614,7 @@
             <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipes</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="update_pinning"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.update_pinning">[docs]</a><span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;recipe_folder&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Path to recipes directory&#39;</span><span class="p">)</span>
-<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;config&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Path to yaml file specifying the configuration&#39;</span><span class="p">)</span>
+<div class="viewcode-block" id="update_pinning"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.update_pinning">[docs]</a><span class="nd">@recipe_folder_and_config</span><span class="p">()</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--packages&#39;</span><span class="p">,</span>
      <span class="n">nargs</span><span class="o">=</span><span class="s2">&quot;+&quot;</span><span class="p">,</span>
      <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Glob for package[s] to update, as needed due to a change in pinnings&#39;</span><span class="p">)</span>
@@ -639,7 +649,7 @@
     <span class="n">utils</span><span class="o">.</span><span class="n">RepoData</span><span class="p">()</span><span class="o">.</span><span class="n">df</span>  <span class="c1"># trigger load</span>
 
     <span class="n">build_config</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">load_conda_build_config</span><span class="p">()</span>
-    <span class="n">blacklist</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">get_blacklist</span><span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;blacklists&#39;</span><span class="p">),</span> <span class="n">recipe_folder</span><span class="p">)</span>
+    <span class="n">blacklist</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">get_blacklist</span><span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">)</span>
 
     <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">recipe</span>
     <span class="n">dag</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">build_from_recipes</span><span class="p">(</span>
@@ -687,8 +697,7 @@
               <span class="s2">&quot;could not be incremented: </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">bumpErrors</span><span class="p">)))</span></div>
 
 
-<div class="viewcode-block" id="dependent"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.dependent">[docs]</a><span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;recipe_folder&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Path to recipes directory&#39;</span><span class="p">)</span>
-<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;config&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Path to yaml file specifying the configuration&#39;</span><span class="p">)</span>
+<div class="viewcode-block" id="dependent"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.dependent">[docs]</a><span class="nd">@recipe_folder_and_config</span><span class="p">()</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--dependencies&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s1">&#39;+&#39;</span><span class="p">,</span>
      <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Return recipes in `recipe_folder` in the dependency chain for the</span>
 <span class="s1">     packages listed here. Answers the question &quot;what does PACKAGE need?&quot;&#39;&#39;&#39;</span><span class="p">)</span>
@@ -730,8 +739,7 @@
 <span class="s1">     must match the package name on the Bioconductor site. If &quot;update-all-packages&quot;</span>
 <span class="s1">     is specified, then all packages in a given bioconductor release will be</span>
 <span class="s1">     created/updated (--force is then implied).&#39;&#39;&#39;</span><span class="p">)</span>
-<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;recipe_folder&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Path to recipes directory&#39;</span><span class="p">)</span>
-<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;config&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Path to yaml file specifying the configuration&#39;</span><span class="p">)</span>
+<span class="nd">@recipe_folder_and_config</span><span class="p">()</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--versioned&#39;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s1">&#39;store_true&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;If specified, recipe will be</span>
 <span class="s1">     created in RECIPES/&lt;package&gt;/&lt;version&gt;&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--force&#39;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s1">&#39;store_true&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Overwrite the contents of an</span>
@@ -818,6 +826,7 @@
 
 <div class="viewcode-block" id="autobump"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.autobump">[docs]</a><span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;recipe_folder&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Path to recipes directory&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;config&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Path to yaml file specifying the configuration&#39;</span><span class="p">)</span>
+<span class="nd">@recipe_folder_and_config</span><span class="p">()</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--packages&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s2">&quot;+&quot;</span><span class="p">,</span>
      <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Glob(s) for package[s] to scan. Can be specified more than once&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--exclude&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s2">&quot;+&quot;</span><span class="p">,</span>
@@ -883,7 +892,6 @@
     <span class="c1"># load and register config</span>
     <span class="n">config_dict</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">load_config</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
     <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">autobump</span>
-    <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">githandler</span>
     <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">githubhandler</span>
     <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">hosters</span>
 
@@ -923,7 +931,7 @@
     <span class="k">if</span> <span class="n">check_branch</span> <span class="ow">or</span> <span class="n">create_branch</span> <span class="ow">or</span> <span class="n">create_pr</span> <span class="ow">or</span> <span class="n">only_active</span><span class="p">:</span>
         <span class="c1"># We need to take the recipe from the git repo. This</span>
         <span class="c1"># loads the bump/&lt;recipe&gt; branch if available</span>
-        <span class="n">git_handler</span> <span class="o">=</span> <span class="n">githandler</span><span class="o">.</span><span class="n">BiocondaRepo</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">dry_run</span><span class="p">)</span>
+        <span class="n">git_handler</span> <span class="o">=</span> <span class="n">BiocondaRepo</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">dry_run</span><span class="p">)</span>
         <span class="n">git_handler</span><span class="o">.</span><span class="n">checkout_master</span><span class="p">()</span>
         <span class="k">if</span> <span class="n">only_active</span><span class="p">:</span>
             <span class="n">scanner</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">autobump</span><span class="o">.</span><span class="n">ExcludeNoActiveUpdate</span><span class="p">,</span> <span class="n">git_handler</span><span class="p">)</span>
@@ -981,6 +989,7 @@
     <span class="k">if</span> <span class="n">git_handler</span><span class="p">:</span>
         <span class="n">git_handler</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></div>
 
+
 <div class="viewcode-block" id="bot"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.bot">[docs]</a><span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--loglevel&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s1">&#39;info&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Log level&#39;</span><span class="p">)</span>
 <span class="k">def</span> <span class="nf">bot</span><span class="p">(</span><span class="n">loglevel</span><span class="o">=</span><span class="s1">&#39;info&#39;</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Locally accedd bioconda-bot command API</span>
@@ -996,11 +1005,11 @@
 
     <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Nothing here yet&quot;</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="main"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.main">[docs]</a><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
     <span class="n">argh</span><span class="o">.</span><span class="n">dispatch_commands</span><span class="p">([</span>
-        <span class="n">build</span><span class="p">,</span> <span class="n">dag</span><span class="p">,</span> <span class="n">dependent</span><span class="p">,</span> <span class="n">lint</span><span class="p">,</span> <span class="n">duplicates</span><span class="p">,</span> <span class="n">update_pinning</span><span class="p">,</span>
+        <span class="n">build</span><span class="p">,</span> <span class="n">dag</span><span class="p">,</span> <span class="n">dependent</span><span class="p">,</span> <span class="n">do_lint</span><span class="p">,</span> <span class="n">duplicates</span><span class="p">,</span> <span class="n">update_pinning</span><span class="p">,</span>
         <span class="n">bioconductor_skeleton</span><span class="p">,</span> <span class="n">clean_cran_skeleton</span><span class="p">,</span> <span class="n">autobump</span><span class="p">,</span> <span class="n">bot</span>
-    <span class="p">])</span></div>
+    <span class="p">])</span>
 </pre></div>
 
           </div>

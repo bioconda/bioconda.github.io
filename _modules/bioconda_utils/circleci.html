@@ -214,13 +214,13 @@
 <span class="sd">        Note: skip rebuild seems to only apply to jobs, not workflow reruns.</span>
 
 <span class="sd">        Arguments:</span>
-<span class="sd">          path: Must be ``pull/123` if on a fork, otherwise name of branch</span>
+<span class="sd">          path: Must be ``pull/123`` if on a fork, otherwise name of branch</span>
 <span class="sd">          sha: name of optional sha to filter by</span>
 <span class="sd">          skip_rebuilt: Skip artifacts from builds that have been rebuilt</span>
 <span class="sd">        Returns:</span>
 <span class="sd">          List of builds, each having ``build_num``, ``has_artifacts``, ``status``,</span>
-<span class="sd">          ``timeout``, `canceled``, `canceller``, ``workflows/job_name``,</span>
-<span class="sd">          ``vc_revision`, ``build_time_millis`</span>
+<span class="sd">          ``timeout``, ``canceled``, ``canceller``, ``workflows/job_name``,</span>
+<span class="sd">          ``vc_revision`, ``build_time_millis``</span>
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="n">var_data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">var_data</span>
         <span class="n">var_data</span><span class="p">[</span><span class="s1">&#39;path&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">path</span>

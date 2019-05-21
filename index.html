@@ -198,7 +198,7 @@ found in the <code class="docutils literal notranslate"><span class="pre">defaul
 so that their pull requests don’t require merging by the core team or other members. To do
 so, please fork our <a class="reference external" href="https://github.com/bioconda/bioconda-recipes">recipes</a> have a read
 through the <a class="reference external" href="http://conda.pydata.org/docs/building/recipe.html#conda-recipe-files-overview">Conda documentation</a>.
-If you ping <code class="xref any docutils literal notranslate"><span class="pre">&#64;bioconda/core</span></code> in a pull request we will review it and then add you to the team, if you desire.</p>
+If you ping <code class="docutils literal notranslate"><span class="pre">&#64;bioconda/core</span></code> in a pull request we will review it and then add you to the team, if you desire.</p>
 </div>
 <div class="section" id="spread-the-word">
 <h2>5. Spread the word<a class="headerlink" href="#spread-the-word" title="Permalink to this headline">¶</a></h2>
@@ -299,33 +299,35 @@ channel.</p>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
 <li class="toctree-l1"><a class="reference internal" href="linting.html">Linting</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="linting.html#skipping-a-linting-test">Skipping a linting test</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#skipping-on-a-per-commit-basis">Skipping on a per-commit basis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="linting.html#skipping-a-lint-check">Skipping a lint check</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="linting.html#skipping-persistently-on-a-per-recipe-basis">Skipping persistently on a per-recipe basis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#skipping-on-a-per-commit-basis">Skipping on a per-commit basis</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="linting.html#recipes-duplicated-in-conda-forge">Recipes duplicated in conda-forge</a></li>
-<li class="toctree-l2"><a class="reference internal" href="linting.html#linting-functions">Linting functions</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#in-other-channels"><code class="docutils literal notranslate"><span class="pre">in_other_channels</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#already-in-bioconda"><code class="docutils literal notranslate"><span class="pre">already_in_bioconda</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#missing-home"><code class="docutils literal notranslate"><span class="pre">missing_home</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#missing-summary"><code class="docutils literal notranslate"><span class="pre">missing_summary</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#missing-license"><code class="docutils literal notranslate"><span class="pre">missing_license</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#missing-tests"><code class="docutils literal notranslate"><span class="pre">missing_tests</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#missing-hash"><code class="docutils literal notranslate"><span class="pre">missing_hash</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#should-be-noarch"><code class="docutils literal notranslate"><span class="pre">should_be_noarch</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#should-not-be-noarch"><code class="docutils literal notranslate"><span class="pre">should_not_be_noarch</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#uses-git-url"><code class="docutils literal notranslate"><span class="pre">uses_git_url</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#uses-perl-threaded"><code class="docutils literal notranslate"><span class="pre">uses_perl_threaded</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#uses-javajdk"><code class="docutils literal notranslate"><span class="pre">uses_javajdk</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#uses-setuptools-currently-disabled"><code class="docutils literal notranslate"><span class="pre">uses_setuptools</span></code> (currently disabled)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#has-windows-bat-file"><code class="docutils literal notranslate"><span class="pre">has_windows_bat_file</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#setup-py-install-args"><code class="docutils literal notranslate"><span class="pre">setup_py_install_args</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#invalid-identifiers"><code class="docutils literal notranslate"><span class="pre">invalid_identifiers</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#deprecated-numpy-spec"><code class="docutils literal notranslate"><span class="pre">deprecated_numpy_spec</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#should-not-use-fn"><code class="docutils literal notranslate"><span class="pre">should_not_use_fn</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#should-use-compilers"><code class="docutils literal notranslate"><span class="pre">should_use_compilers</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#compilers-must-be-in-build"><code class="docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="linting.html#description-of-lint-checks">Description of Lint Checks</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#in-other-channels">“<code class="docutils literal notranslate"><span class="pre">in_other_channels</span></code>”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#build-number-needs-bump">“<code class="docutils literal notranslate"><span class="pre">build_number_needs_bump</span></code>”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#missing-home">“<code class="docutils literal notranslate"><span class="pre">missing_home</span></code>”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#missing-summary">“<code class="docutils literal notranslate"><span class="pre">missing_summary</span></code>”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#missing-license">“<code class="docutils literal notranslate"><span class="pre">missing_license</span></code>”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#missing-tests">“<code class="docutils literal notranslate"><span class="pre">missing_tests</span></code>”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#missing-hash">“<code class="docutils literal notranslate"><span class="pre">missing_hash</span></code>”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#should-be-noarch">“<code class="docutils literal notranslate"><span class="pre">should_be_noarch</span></code>”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#should-not-be-noarch-compiler">“<code class="docutils literal notranslate"><span class="pre">should_not_be_noarch_compiler</span></code>”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#uses-git-url">“<code class="docutils literal notranslate"><span class="pre">uses_git_url</span></code>”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#uses-perl-threaded">“<code class="docutils literal notranslate"><span class="pre">uses_perl_threaded</span></code>”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#uses-javajdk">“<code class="docutils literal notranslate"><span class="pre">uses_javajdk</span></code>”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#uses-setuptools">“<code class="docutils literal notranslate"><span class="pre">uses_setuptools</span></code>”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#has-windows-bat-file">“<code class="docutils literal notranslate"><span class="pre">has_windows_bat_file</span></code>”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#setup-py-install-args">“<code class="docutils literal notranslate"><span class="pre">setup_py_install_args</span></code>”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#extra-identifiers-not-list">“<code class="docutils literal notranslate"><span class="pre">extra_identifiers_not_list</span></code>”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#extra-identifiers-not-string">“<code class="docutils literal notranslate"><span class="pre">extra_identifiers_not_string</span></code>”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#extra-identifiers-missing-colon">“<code class="docutils literal notranslate"><span class="pre">extra_identifiers_missing_colon</span></code>”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#deprecated-numpy-spec">“<code class="docutils literal notranslate"><span class="pre">deprecated_numpy_spec</span></code>”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#should-not-use-fn">“<code class="docutils literal notranslate"><span class="pre">should_not_use_fn</span></code>”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#should-use-compilers">“<code class="docutils literal notranslate"><span class="pre">should_use_compilers</span></code>”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#compilers-must-be-in-build">“<code class="docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code>”</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="linting.html#developer-docs">Developer docs</a></li>
@@ -361,6 +363,7 @@ channel.</p>
 <li class="toctree-l2"><a class="reference internal" href="bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="_autosummary/bioconda_utils.html">bioconda_utils</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.bot.html">bot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.lint.html">lint</a></li>
 <li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.aiopipe.html">aiopipe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.bioconductor_skeleton.html">bioconductor_skeleton</a></li>
 <li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.build.html">build</a></li>
@@ -374,8 +377,6 @@ channel.</p>
 <li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.gitter.html">gitter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.graph.html">graph</a></li>
 <li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.hosters.html">hosters</a></li>
-<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.lint_functions.html">lint_functions</a></li>
-<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.linting.html">linting</a></li>
 <li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.pkg_test.html">pkg_test</a></li>
 <li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.recipe.html">recipe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.sphinxext.html">sphinxext</a></li>
@@ -394,6 +395,11 @@ channel.</p>
 <li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.bot.views.html">views</a></li>
 <li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.bot.web.html">web</a></li>
 <li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.bot.worker.html">worker</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="_autosummary/bioconda_utils.lint.html">lint</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.lint.html#writing-additional-checks">Writing additional checks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/bioconda_utils.lint.html#module-autodocs">Module Autodocs</a></li>
 </ul>
 </li>
 </ul>

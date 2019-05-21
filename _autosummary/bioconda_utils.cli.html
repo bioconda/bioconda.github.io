@@ -79,6 +79,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.aiopipe.html">aiopipe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html">bioconductor_skeleton</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.build.html">build</a></li>
@@ -92,8 +93,6 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.gitter.html">gitter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.graph.html">graph</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.hosters.html">hosters</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint_functions.html">lint_functions</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.linting.html">linting</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">recipe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
@@ -104,6 +103,7 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 </ul>
 </li>
 </ul>
@@ -154,7 +154,7 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.cli.bot" title="bioconda_utils.cli.bot"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bot</span></code></a>([loglevel])</p></td>
 <td><p>Locally accedd bioconda-bot command API</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.cli.build" title="bioconda_utils.cli.build"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build</span></code></a>(recipe_folder, config[, packages, …])</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">build</span></code>(recipe_folder, config[, packages, …])</p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.cli.clean_cran_skeleton" title="bioconda_utils.cli.clean_cran_skeleton"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clean_cran_skeleton</span></code></a>(recipe[, no_windows])</p></td>
@@ -166,23 +166,29 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.cli.dependent" title="bioconda_utils.cli.dependent"><code class="xref py py-obj docutils literal notranslate"><span class="pre">dependent</span></code></a>(recipe_folder, config[, restrict, …])</p></td>
 <td><p>Print recipes dependent on a package</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.cli.duplicates" title="bioconda_utils.cli.duplicates"><code class="xref py py-obj docutils literal notranslate"><span class="pre">duplicates</span></code></a>(config[, strict_version, …])</p></td>
-<td><p>Detect packages in bioconda that have duplicates in the other defined channels.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.cli.enable_debugging" title="bioconda_utils.cli.enable_debugging"><code class="xref py py-obj docutils literal notranslate"><span class="pre">enable_debugging</span></code></a>()</p></td>
-<td><p>Adds the paremeter <code class="docutils literal notranslate"><span class="pre">--pdb</span></code> (or <code class="docutils literal notranslate"><span class="pre">-P</span></code>) to enable dropping into PDB</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.cli.enable_logging" title="bioconda_utils.cli.enable_logging"><code class="xref py py-obj docutils literal notranslate"><span class="pre">enable_logging</span></code></a>([default_loglevel])</p></td>
-<td><p>Adds the parameter <code class="docutils literal notranslate"><span class="pre">--loglevel</span></code> and sets up logging</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.cli.enable_threads" title="bioconda_utils.cli.enable_threads"><code class="xref py py-obj docutils literal notranslate"><span class="pre">enable_threads</span></code></a>()</p></td>
-<td><p>Adds the paremeter <code class="docutils literal notranslate"><span class="pre">--threads</span></code> (or <code class="docutils literal notranslate"><span class="pre">-t</span></code>) to limit parallelism</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.cli.lint" title="bioconda_utils.cli.lint"><code class="xref py py-obj docutils literal notranslate"><span class="pre">lint</span></code></a>(recipe_folder, config[, packages, …])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.cli.do_lint" title="bioconda_utils.cli.do_lint"><code class="xref py py-obj docutils literal notranslate"><span class="pre">do_lint</span></code></a>(recipe_folder, config[, packages, …])</p></td>
 <td><p>Lint recipes</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.cli.main" title="bioconda_utils.cli.main"><code class="xref py py-obj docutils literal notranslate"><span class="pre">main</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.cli.duplicates" title="bioconda_utils.cli.duplicates"><code class="xref py py-obj docutils literal notranslate"><span class="pre">duplicates</span></code></a>(config[, strict_version, …])</p></td>
+<td><p>Detect packages in bioconda that have duplicates in the other defined channels.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.cli.enable_debugging" title="bioconda_utils.cli.enable_debugging"><code class="xref py py-obj docutils literal notranslate"><span class="pre">enable_debugging</span></code></a>()</p></td>
+<td><p>Adds the paremeter <code class="docutils literal notranslate"><span class="pre">--pdb</span></code> (or <code class="docutils literal notranslate"><span class="pre">-P</span></code>) to enable dropping into PDB</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.cli.enable_logging" title="bioconda_utils.cli.enable_logging"><code class="xref py py-obj docutils literal notranslate"><span class="pre">enable_logging</span></code></a>([default_loglevel])</p></td>
+<td><p>Adds the parameter <code class="docutils literal notranslate"><span class="pre">--loglevel</span></code> and sets up logging</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.cli.enable_threads" title="bioconda_utils.cli.enable_threads"><code class="xref py py-obj docutils literal notranslate"><span class="pre">enable_threads</span></code></a>()</p></td>
+<td><p>Adds the parameter <code class="docutils literal notranslate"><span class="pre">--threads</span></code> (or <code class="docutils literal notranslate"><span class="pre">-t</span></code>) to limit parallelism</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.cli.get_recipes_to_build" title="bioconda_utils.cli.get_recipes_to_build"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_recipes_to_build</span></code></a>(git_range, recipe_folder)</p></td>
+<td><p>Gets list of modified recipes according to git_range and blacklist</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">main</span></code>()</p></td>
 <td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.cli.recipe_folder_and_config" title="bioconda_utils.cli.recipe_folder_and_config"><code class="xref py py-obj docutils literal notranslate"><span class="pre">recipe_folder_and_config</span></code></a>()</p></td>
+<td><p>Adds optional positional arguments recipe_folder and config</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.cli.update_pinning" title="bioconda_utils.cli.update_pinning"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_pinning</span></code></a>(recipe_folder, config[, …])</p></td>
 <td><p>Bump a package build number and all dependencies as required due to a change in pinnings</p></td>
@@ -225,11 +231,6 @@ and submit to conda-forge.</p>
 </dd></dl>
 
 <dl class="function">
-<dt id="bioconda_utils.cli.build">
-<code class="descclassname">bioconda_utils.cli.</code><code class="descname">build</code><span class="sig-paren">(</span><em>recipe_folder</em>, <em>config</em>, <em>packages='*'</em>, <em>git_range=None</em>, <em>testonly=False</em>, <em>force=False</em>, <em>docker=None</em>, <em>mulled_test=False</em>, <em>build_script_template=None</em>, <em>pkg_dir=None</em>, <em>anaconda_upload=False</em>, <em>mulled_upload_target=None</em>, <em>build_image=False</em>, <em>keep_image=False</em>, <em>lint=False</em>, <em>lint_only=None</em>, <em>lint_exclude=None</em>, <em>check_channels=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/cli.html#build"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.build" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
 <dt id="bioconda_utils.cli.clean_cran_skeleton">
 <code class="descclassname">bioconda_utils.cli.</code><code class="descname">clean_cran_skeleton</code><span class="sig-paren">(</span><em>recipe</em>, <em>no_windows=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/cli.html#clean_cran_skeleton"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.clean_cran_skeleton" title="Permalink to this definition">¶</a></dt>
 <dd><p>Cleans skeletons created by <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cran</span></code>.</p>
@@ -249,6 +250,14 @@ other linting.</p>
 <dt id="bioconda_utils.cli.dependent">
 <code class="descclassname">bioconda_utils.cli.</code><code class="descname">dependent</code><span class="sig-paren">(</span><em>recipe_folder</em>, <em>config</em>, <em>restrict=False</em>, <em>dependencies=None</em>, <em>reverse_dependencies=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/cli.html#dependent"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.dependent" title="Permalink to this definition">¶</a></dt>
 <dd><p>Print recipes dependent on a package</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.cli.do_lint">
+<code class="descclassname">bioconda_utils.cli.</code><code class="descname">do_lint</code><span class="sig-paren">(</span><em>recipe_folder</em>, <em>config</em>, <em>packages='*'</em>, <em>cache=None</em>, <em>list_checks=False</em>, <em>exclude=None</em>, <em>push_status=False</em>, <em>user='bioconda'</em>, <em>commit=None</em>, <em>push_comment=False</em>, <em>pull_request=None</em>, <em>repo='bioconda-recipes'</em>, <em>git_range=None</em>, <em>full_report=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/cli.html#do_lint"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.do_lint" title="Permalink to this definition">¶</a></dt>
+<dd><p>Lint recipes</p>
+<p>If –push-status is not set, reports a TSV of linting results to stdout.
+Otherwise pushes a commit status to the specified commit on github.</p>
 </dd></dl>
 
 <dl class="function">
@@ -278,21 +287,35 @@ channels.</p>
 <dl class="function">
 <dt id="bioconda_utils.cli.enable_threads">
 <code class="descclassname">bioconda_utils.cli.</code><code class="descname">enable_threads</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/cli.html#enable_threads"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.enable_threads" title="Permalink to this definition">¶</a></dt>
-<dd><p>Adds the paremeter <code class="docutils literal notranslate"><span class="pre">--threads</span></code> (or <code class="docutils literal notranslate"><span class="pre">-t</span></code>) to limit parallelism</p>
+<dd><p>Adds the parameter <code class="docutils literal notranslate"><span class="pre">--threads</span></code> (or <code class="docutils literal notranslate"><span class="pre">-t</span></code>) to limit parallelism</p>
 </dd></dl>
 
 <dl class="function">
-<dt id="bioconda_utils.cli.lint">
-<code class="descclassname">bioconda_utils.cli.</code><code class="descname">lint</code><span class="sig-paren">(</span><em>recipe_folder</em>, <em>config</em>, <em>packages='*'</em>, <em>cache=None</em>, <em>list_funcs=False</em>, <em>only=None</em>, <em>exclude=None</em>, <em>force=False</em>, <em>push_status=False</em>, <em>user='bioconda'</em>, <em>commit=None</em>, <em>push_comment=False</em>, <em>pull_request=None</em>, <em>repo='bioconda-recipes'</em>, <em>git_range=None</em>, <em>full_report=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/cli.html#lint"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.lint" title="Permalink to this definition">¶</a></dt>
-<dd><p>Lint recipes</p>
-<p>If –push-status is not set, reports a TSV of linting results to stdout.
-Otherwise pushes a commit status to the specified commit on github.</p>
+<dt id="bioconda_utils.cli.get_recipes_to_build">
+<code class="descclassname">bioconda_utils.cli.</code><code class="descname">get_recipes_to_build</code><span class="sig-paren">(</span><em>git_range</em>, <em>recipe_folder</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/cli.html#get_recipes_to_build"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.get_recipes_to_build" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets list of modified recipes according to git_range and blacklist</p>
+<p>See <a class="reference internal" href="bioconda_utils.githandler.html#bioconda_utils.githandler.BiocondaRepoMixin.get_recipes_to_build" title="bioconda_utils.githandler.BiocondaRepoMixin.get_recipes_to_build"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">BiocondaRepoMixin.get_recipes_to_build()</span></code></a>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>git_range</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Tuple</span></code>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – one or two-tuple containing “from” and “to” git refs,
+with “to” defaulting to “HEAD”</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>List of recipes for which meta.yaml or build.sh was modified or
+which were unblacklisted.</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="function">
-<dt id="bioconda_utils.cli.main">
-<code class="descclassname">bioconda_utils.cli.</code><code class="descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/cli.html#main"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.main" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dt id="bioconda_utils.cli.recipe_folder_and_config">
+<code class="descclassname">bioconda_utils.cli.</code><code class="descname">recipe_folder_and_config</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/cli.html#recipe_folder_and_config"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.recipe_folder_and_config" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds optional positional arguments recipe_folder and config</p>
+<p>Requires that func has synopsis <code class="docutils literal notranslate"><span class="pre">def</span> <span class="pre">x(recipe_folder,</span> <span class="pre">config,...)</span></code>.</p>
+</dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.cli.update_pinning">

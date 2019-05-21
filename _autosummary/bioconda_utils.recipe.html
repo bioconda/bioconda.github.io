@@ -79,6 +79,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.aiopipe.html">aiopipe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html">bioconductor_skeleton</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.build.html">build</a></li>
@@ -92,8 +93,6 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.gitter.html">gitter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.graph.html">graph</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.hosters.html">hosters</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint_functions.html">lint_functions</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.linting.html">linting</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">recipe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
@@ -104,6 +103,7 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 </ul>
 </li>
 </ul>
@@ -150,7 +150,7 @@ edit the meta.yaml.</p>
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.recipe.load_parallel_iter" title="bioconda_utils.recipe.load_parallel_iter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">load_parallel_iter</span></code></a>(recipe_folder, packages)</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">load_parallel_iter</span></code>(recipe_folder, packages)</p></td>
 <td><p></p></td>
 </tr>
 </tbody>
@@ -174,31 +174,31 @@ edit the meta.yaml.</p>
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.recipe.CondaRenderFailure" title="bioconda_utils.recipe.CondaRenderFailure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CondaRenderFailure</span></code></a>(item, *args)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.recipe.CondaRenderFailure" title="bioconda_utils.recipe.CondaRenderFailure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CondaRenderFailure</span></code></a>(item[, message, line, column])</p></td>
 <td><p>Raised when conda_build.api.render fails</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.recipe.DuplicateKey" title="bioconda_utils.recipe.DuplicateKey"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DuplicateKey</span></code></a>(item, *args)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.recipe.DuplicateKey" title="bioconda_utils.recipe.DuplicateKey"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DuplicateKey</span></code></a>(item[, message, line, column])</p></td>
 <td><p>Raised for recipes with duplicate keys in the meta.yaml.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.recipe.EmptyRecipe" title="bioconda_utils.recipe.EmptyRecipe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">EmptyRecipe</span></code></a>(item, *args)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.recipe.EmptyRecipe" title="bioconda_utils.recipe.EmptyRecipe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">EmptyRecipe</span></code></a>(item[, message, line, column])</p></td>
 <td><p>Raised if the recipe file is empty</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.recipe.HasSelector" title="bioconda_utils.recipe.HasSelector"><code class="xref py py-obj docutils literal notranslate"><span class="pre">HasSelector</span></code></a>(item, *args)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.recipe.HasSelector" title="bioconda_utils.recipe.HasSelector"><code class="xref py py-obj docutils literal notranslate"><span class="pre">HasSelector</span></code></a>(item[, message, line, column])</p></td>
 <td><p>Raised when recplacements fail due to <code class="docutils literal notranslate"><span class="pre">#</span> <span class="pre">[cond]</span></code> line selectors FIXME: This should no longer be an error</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.recipe.MissingBuild" title="bioconda_utils.recipe.MissingBuild"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MissingBuild</span></code></a>(item, *args)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.recipe.MissingBuild" title="bioconda_utils.recipe.MissingBuild"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MissingBuild</span></code></a>(item[, message, line, column])</p></td>
 <td><p>Raised if the recipe is missing the build section</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.recipe.MissingKey" title="bioconda_utils.recipe.MissingKey"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MissingKey</span></code></a>(item, *args)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.recipe.MissingKey" title="bioconda_utils.recipe.MissingKey"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MissingKey</span></code></a>(item[, message, line, column])</p></td>
 <td><p>Raised if a recipe is missing package/version or package/name</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.recipe.MissingMetaYaml" title="bioconda_utils.recipe.MissingMetaYaml"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MissingMetaYaml</span></code></a>(item, *args)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.recipe.MissingMetaYaml" title="bioconda_utils.recipe.MissingMetaYaml"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MissingMetaYaml</span></code></a>(item[, message, line, column])</p></td>
 <td><p>Raised when FileNotFoundError is encountered</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.recipe.RecipeError" title="bioconda_utils.recipe.RecipeError"><code class="xref py py-obj docutils literal notranslate"><span class="pre">RecipeError</span></code></a>(item, *args)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.recipe.RecipeError" title="bioconda_utils.recipe.RecipeError"><code class="xref py py-obj docutils literal notranslate"><span class="pre">RecipeError</span></code></a>(item[, message, line, column])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.recipe.RenderFailure" title="bioconda_utils.recipe.RenderFailure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">RenderFailure</span></code></a>(item, message[, line])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.recipe.RenderFailure" title="bioconda_utils.recipe.RenderFailure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">RenderFailure</span></code></a>(item[, message, line, column])</p></td>
 <td><p>Raised on Jinja rendering problems</p></td>
 </tr>
 </tbody>
@@ -206,92 +206,57 @@ edit the meta.yaml.</p>
 <p class="rubric">Documentation</p>
 <dl class="exception">
 <dt id="bioconda_utils.recipe.CondaRenderFailure">
-<em class="property">exception </em><code class="descclassname">bioconda_utils.recipe.</code><code class="descname">CondaRenderFailure</code><span class="sig-paren">(</span><em>item</em>, <em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#CondaRenderFailure"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.CondaRenderFailure" title="Permalink to this definition">¶</a></dt>
+<em class="property">exception </em><code class="descclassname">bioconda_utils.recipe.</code><code class="descname">CondaRenderFailure</code><span class="sig-paren">(</span><em>item</em>, <em>message=None</em>, <em>line=None</em>, <em>column=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#CondaRenderFailure"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.CondaRenderFailure" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#bioconda_utils.recipe.RecipeError" title="bioconda_utils.recipe.RecipeError"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.recipe.RecipeError</span></code></a></p>
 <p>Raised when conda_build.api.render fails</p>
-<dl class="attribute">
-<dt id="bioconda_utils.recipe.CondaRenderFailure.template">
-<code class="descname">template</code><em class="property"> = 'could not be rendered by conda-build: %s'</em><a class="headerlink" href="#bioconda_utils.recipe.CondaRenderFailure.template" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
 </dd></dl>
 
 <dl class="exception">
 <dt id="bioconda_utils.recipe.DuplicateKey">
-<em class="property">exception </em><code class="descclassname">bioconda_utils.recipe.</code><code class="descname">DuplicateKey</code><span class="sig-paren">(</span><em>item</em>, <em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#DuplicateKey"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.DuplicateKey" title="Permalink to this definition">¶</a></dt>
+<em class="property">exception </em><code class="descclassname">bioconda_utils.recipe.</code><code class="descname">DuplicateKey</code><span class="sig-paren">(</span><em>item</em>, <em>message=None</em>, <em>line=None</em>, <em>column=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#DuplicateKey"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.DuplicateKey" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#bioconda_utils.recipe.RecipeError" title="bioconda_utils.recipe.RecipeError"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.recipe.RecipeError</span></code></a></p>
 <p>Raised for recipes with duplicate keys in the meta.yaml. YAML
 does not allow those, but the PyYAML parser silently overwrites
 previous keys.</p>
 <p>For duplicate keys that are a result of <code class="docutils literal notranslate"><span class="pre">#</span> <span class="pre">[osx]</span></code> style line selectors,
 <a class="reference internal" href="#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Recipe</span></code></a> attempts to resolve them as a list of dictionaries instead.</p>
-<dl class="attribute">
-<dt id="bioconda_utils.recipe.DuplicateKey.template">
-<code class="descname">template</code><em class="property"> = 'has duplicate key'</em><a class="headerlink" href="#bioconda_utils.recipe.DuplicateKey.template" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
 </dd></dl>
 
 <dl class="exception">
 <dt id="bioconda_utils.recipe.EmptyRecipe">
-<em class="property">exception </em><code class="descclassname">bioconda_utils.recipe.</code><code class="descname">EmptyRecipe</code><span class="sig-paren">(</span><em>item</em>, <em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#EmptyRecipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.EmptyRecipe" title="Permalink to this definition">¶</a></dt>
+<em class="property">exception </em><code class="descclassname">bioconda_utils.recipe.</code><code class="descname">EmptyRecipe</code><span class="sig-paren">(</span><em>item</em>, <em>message=None</em>, <em>line=None</em>, <em>column=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#EmptyRecipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.EmptyRecipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#bioconda_utils.recipe.RecipeError" title="bioconda_utils.recipe.RecipeError"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.recipe.RecipeError</span></code></a></p>
 <p>Raised if the recipe file is empty</p>
-<dl class="attribute">
-<dt id="bioconda_utils.recipe.EmptyRecipe.template">
-<code class="descname">template</code><em class="property"> = 'is empty'</em><a class="headerlink" href="#bioconda_utils.recipe.EmptyRecipe.template" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
 </dd></dl>
 
 <dl class="exception">
 <dt id="bioconda_utils.recipe.HasSelector">
-<em class="property">exception </em><code class="descclassname">bioconda_utils.recipe.</code><code class="descname">HasSelector</code><span class="sig-paren">(</span><em>item</em>, <em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#HasSelector"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.HasSelector" title="Permalink to this definition">¶</a></dt>
+<em class="property">exception </em><code class="descclassname">bioconda_utils.recipe.</code><code class="descname">HasSelector</code><span class="sig-paren">(</span><em>item</em>, <em>message=None</em>, <em>line=None</em>, <em>column=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#HasSelector"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.HasSelector" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#bioconda_utils.recipe.RecipeError" title="bioconda_utils.recipe.RecipeError"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.recipe.RecipeError</span></code></a></p>
 <p>Raised when recplacements fail due to <code class="docutils literal notranslate"><span class="pre">#</span> <span class="pre">[cond]</span></code> line selectors
 FIXME: This should no longer be an error</p>
-<dl class="attribute">
-<dt id="bioconda_utils.recipe.HasSelector.template">
-<code class="descname">template</code><em class="property"> = 'has selector in line %i (replace failed)'</em><a class="headerlink" href="#bioconda_utils.recipe.HasSelector.template" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
 </dd></dl>
 
 <dl class="exception">
 <dt id="bioconda_utils.recipe.MissingBuild">
-<em class="property">exception </em><code class="descclassname">bioconda_utils.recipe.</code><code class="descname">MissingBuild</code><span class="sig-paren">(</span><em>item</em>, <em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#MissingBuild"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.MissingBuild" title="Permalink to this definition">¶</a></dt>
+<em class="property">exception </em><code class="descclassname">bioconda_utils.recipe.</code><code class="descname">MissingBuild</code><span class="sig-paren">(</span><em>item</em>, <em>message=None</em>, <em>line=None</em>, <em>column=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#MissingBuild"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.MissingBuild" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#bioconda_utils.recipe.RecipeError" title="bioconda_utils.recipe.RecipeError"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.recipe.RecipeError</span></code></a></p>
 <p>Raised if the recipe is missing the build section</p>
-<dl class="attribute">
-<dt id="bioconda_utils.recipe.MissingBuild.template">
-<code class="descname">template</code><em class="property"> = 'is missing build section'</em><a class="headerlink" href="#bioconda_utils.recipe.MissingBuild.template" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
 </dd></dl>
 
 <dl class="exception">
 <dt id="bioconda_utils.recipe.MissingKey">
-<em class="property">exception </em><code class="descclassname">bioconda_utils.recipe.</code><code class="descname">MissingKey</code><span class="sig-paren">(</span><em>item</em>, <em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#MissingKey"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.MissingKey" title="Permalink to this definition">¶</a></dt>
+<em class="property">exception </em><code class="descclassname">bioconda_utils.recipe.</code><code class="descname">MissingKey</code><span class="sig-paren">(</span><em>item</em>, <em>message=None</em>, <em>line=None</em>, <em>column=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#MissingKey"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.MissingKey" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#bioconda_utils.recipe.RecipeError" title="bioconda_utils.recipe.RecipeError"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.recipe.RecipeError</span></code></a></p>
 <p>Raised if a recipe is missing package/version or package/name</p>
-<dl class="attribute">
-<dt id="bioconda_utils.recipe.MissingKey.template">
-<code class="descname">template</code><em class="property"> = 'has missing key'</em><a class="headerlink" href="#bioconda_utils.recipe.MissingKey.template" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
 </dd></dl>
 
 <dl class="exception">
 <dt id="bioconda_utils.recipe.MissingMetaYaml">
-<em class="property">exception </em><code class="descclassname">bioconda_utils.recipe.</code><code class="descname">MissingMetaYaml</code><span class="sig-paren">(</span><em>item</em>, <em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#MissingMetaYaml"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.MissingMetaYaml" title="Permalink to this definition">¶</a></dt>
+<em class="property">exception </em><code class="descclassname">bioconda_utils.recipe.</code><code class="descname">MissingMetaYaml</code><span class="sig-paren">(</span><em>item</em>, <em>message=None</em>, <em>line=None</em>, <em>column=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#MissingMetaYaml"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.MissingMetaYaml" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#bioconda_utils.recipe.RecipeError" title="bioconda_utils.recipe.RecipeError"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.recipe.RecipeError</span></code></a></p>
 <p>Raised when FileNotFoundError is encountered</p>
 <p>self.item is NOT a Recipe but a str here</p>
-<dl class="attribute">
-<dt id="bioconda_utils.recipe.MissingMetaYaml.template">
-<code class="descname">template</code><em class="property"> = 'has missing file `meta.yaml`'</em><a class="headerlink" href="#bioconda_utils.recipe.MissingMetaYaml.template" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
 </dd></dl>
 
 <dl class="class">
@@ -321,7 +286,7 @@ handled by the representation in this class.</p>
 </dl>
 <dl class="attribute">
 <dt id="bioconda_utils.recipe.Recipe.JINJA_VARS">
-<code class="descname">JINJA_VARS</code><em class="property"> = {'compiler': &lt;function Recipe.&lt;lambda&gt;&gt;, 'cran_mirror': 'https://cloud.r-project.org'}</em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.JINJA_VARS" title="Permalink to this definition">¶</a></dt>
+<code class="descname">JINJA_VARS</code><em class="property"> = {'cdt': &lt;function Recipe.&lt;lambda&gt;&gt;, 'compiler': &lt;function Recipe.&lt;lambda&gt;&gt;, 'cran_mirror': 'https://cloud.r-project.org', 'pin_compatible': &lt;function Recipe.&lt;lambda&gt;&gt;}</em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.JINJA_VARS" title="Permalink to this definition">¶</a></dt>
 <dd><p>Variables to pass to Jinja when rendering recipe</p>
 </dd></dl>
 
@@ -359,7 +324,7 @@ current <code class="docutils literal notranslate"><span class="pre">meta.yaml</
 needless prints, ultimately call the <a class="reference internal" href="#bioconda_utils.recipe.Recipe.render" title="bioconda_utils.recipe.Recipe.render"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">render</span></code></a> function, catching
 various exceptions and rewriting them into <a class="reference internal" href="#bioconda_utils.recipe.CondaRenderFailure" title="bioconda_utils.recipe.CondaRenderFailure"><code class="xref any py py-exc docutils literal notranslate"><span class="pre">CondaRenderFailure</span></code></a>, then
 cache the result.</p>
-<p>Since the <code class="docutils literal notranslate"><span class="pre">MetaData</span></code> objects returned expect the on-disk <code class="xref any docutils literal notranslate"><span class="pre">meta.yaml</span></code>
+<p>Since the <code class="docutils literal notranslate"><span class="pre">MetaData</span></code> objects returned expect the on-disk <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>
 to persist (it can get reloaded later on), clients of this function
 must <strong>make sure to call `conda_release` once you are done</strong> with those
 objects.</p>
@@ -422,16 +387,6 @@ objects.</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="bioconda_utils.recipe.Recipe.get">
-<code class="descname">get</code><span class="sig-paren">(</span><em>key</em>, <em>default=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#Recipe.get"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.Recipe.get" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="method">
-<dt id="bioconda_utils.recipe.Recipe.get_deps">
-<code class="descname">get_deps</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#Recipe.get_deps"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.Recipe.get_deps" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="method">
 <dt id="bioconda_utils.recipe.Recipe.get_raw">
 <code class="descname">get_raw</code><span class="sig-paren">(</span><em>path</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#Recipe.get_raw"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.Recipe.get_raw" title="Permalink to this definition">¶</a></dt>
 <dd><p>Extracts the unparsed text for a node in the meta.yaml</p>
@@ -483,16 +438,6 @@ meta.yaml at a specific key.</p>
 <dt id="bioconda_utils.recipe.Recipe.get_template">
 <code class="descname">get_template</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#Recipe.get_template"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.Recipe.get_template" title="Permalink to this definition">¶</a></dt>
 <dd><p>Create a Jinja2 template from the current raw recipe</p>
-</dd></dl>
-
-<dl class="method">
-<dt id="bioconda_utils.recipe.Recipe.is_modified">
-<code class="descname">is_modified</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#Recipe.is_modified"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.Recipe.is_modified" title="Permalink to this definition">¶</a></dt>
-<dd><dl class="field-list simple">
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="method">
@@ -614,11 +559,6 @@ selectors.</p></li>
 </dd></dl>
 
 <dl class="method">
-<dt id="bioconda_utils.recipe.Recipe.save">
-<code class="descname">save</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#Recipe.save"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.Recipe.save" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="method">
 <dt id="bioconda_utils.recipe.Recipe.set_original">
 <code class="descname">set_original</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#Recipe.set_original"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.Recipe.set_original" title="Permalink to this definition">¶</a></dt>
 <dd><p>Store the current state of the recipe as “original” version</p>
@@ -644,27 +584,17 @@ selectors.</p></li>
 
 <dl class="exception">
 <dt id="bioconda_utils.recipe.RecipeError">
-<em class="property">exception </em><code class="descclassname">bioconda_utils.recipe.</code><code class="descname">RecipeError</code><span class="sig-paren">(</span><em>item</em>, <em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#RecipeError"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.RecipeError" title="Permalink to this definition">¶</a></dt>
+<em class="property">exception </em><code class="descclassname">bioconda_utils.recipe.</code><code class="descname">RecipeError</code><span class="sig-paren">(</span><em>item</em>, <em>message=None</em>, <em>line=None</em>, <em>column=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#RecipeError"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.RecipeError" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem" title="bioconda_utils.aiopipe.EndProcessingItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.EndProcessingItem</span></code></a></p>
 </dd></dl>
 
 <dl class="exception">
 <dt id="bioconda_utils.recipe.RenderFailure">
-<em class="property">exception </em><code class="descclassname">bioconda_utils.recipe.</code><code class="descname">RenderFailure</code><span class="sig-paren">(</span><em>item</em>, <em>message</em>, <em>line=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#RenderFailure"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.RenderFailure" title="Permalink to this definition">¶</a></dt>
+<em class="property">exception </em><code class="descclassname">bioconda_utils.recipe.</code><code class="descname">RenderFailure</code><span class="sig-paren">(</span><em>item</em>, <em>message=None</em>, <em>line=None</em>, <em>column=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#RenderFailure"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.RenderFailure" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#bioconda_utils.recipe.RecipeError" title="bioconda_utils.recipe.RecipeError"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.recipe.RecipeError</span></code></a></p>
 <p>Raised on Jinja rendering problems</p>
 <p>May have self.line</p>
-<dl class="attribute">
-<dt id="bioconda_utils.recipe.RenderFailure.template">
-<code class="descname">template</code><em class="property"> = 'failed to render in Jinja2. Error was: %s'</em><a class="headerlink" href="#bioconda_utils.recipe.RenderFailure.template" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
 </dd></dl>
-
-<dl class="function">
-<dt id="bioconda_utils.recipe.load_parallel_iter">
-<code class="descclassname">bioconda_utils.recipe.</code><code class="descname">load_parallel_iter</code><span class="sig-paren">(</span><em>recipe_folder</em>, <em>packages</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#load_parallel_iter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.load_parallel_iter" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
 
 </div>
 

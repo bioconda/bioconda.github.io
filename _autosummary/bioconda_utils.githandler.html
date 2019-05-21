@@ -79,6 +79,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.aiopipe.html">aiopipe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html">bioconductor_skeleton</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.build.html">build</a></li>
@@ -92,8 +93,6 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.gitter.html">gitter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.graph.html">graph</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.hosters.html">hosters</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint_functions.html">lint_functions</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.linting.html">linting</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">recipe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
@@ -104,6 +103,7 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 </ul>
 </li>
 </ul>
@@ -393,11 +393,6 @@ as compared to <strong>master</strong></p>
 </dd></dl>
 
 <dl class="method">
-<dt id="bioconda_utils.githandler.GitHandlerBase.get_latest_master">
-<code class="descname">get_latest_master</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githandler.html#GitHandlerBase.get_latest_master"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.get_latest_master" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="method">
 <dt id="bioconda_utils.githandler.GitHandlerBase.get_local_branch">
 <code class="descname">get_local_branch</code><span class="sig-paren">(</span><em>branch_name</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githandler.html#GitHandlerBase.get_local_branch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.get_local_branch" title="Permalink to this definition">¶</a></dt>
 <dd><p>Finds local branch named <strong>branch_name</strong></p>
@@ -498,16 +493,6 @@ repository is shallow and the merge base commit not available.</p>
 <dt id="bioconda_utils.githandler.GitHandlerBase.repo">
 <code class="descname">repo</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.repo" title="Permalink to this definition">¶</a></dt>
 <dd><p>GitPython Repo object representing our repository</p>
-</dd></dl>
-
-<dl class="method">
-<dt id="bioconda_utils.githandler.GitHandlerBase.set_user">
-<code class="descname">set_user</code><span class="sig-paren">(</span><em>user</em>, <em>email=None</em>, <em>key=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githandler.html#GitHandlerBase.set_user"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.set_user" title="Permalink to this definition">¶</a></dt>
-<dd><dl class="field-list simple">
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
-</dd>
-</dl>
 </dd></dl>
 
 </dd></dl>

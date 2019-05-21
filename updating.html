@@ -155,12 +155,12 @@ and <code class="docutils literal notranslate"><span class="pre">source:</span><
 and for reading and writing recipes. Notably, reading and writing recipes here
 does not rely on conda-build as we need to do things conda-build was not
 designed for.</p>
-<p>The <code class="xref any docutils literal notranslate"><span class="pre">bioconda_utils.update.Scanner</span></code> class reads recipes and applies various
+<p>The <a class="reference internal" href="_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.Scanner" title="bioconda_utils.autobump.Scanner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Scanner</span></code></a> class reads recipes and applies various
 filters (described below) in an asyncio loop to dramatically speed up the many
 http calls that are performed over the course of scanning for updates. It also
 handles other things like retrying after increasingly longer wait times when it
 encounters non-permanent HTTP errors.</p>
-<p>Subclasses of <code class="xref any docutils literal notranslate"><span class="pre">bioconda_utils.update.Filter</span></code> are added to the scanner. They
+<p>Subclasses of <a class="reference internal" href="_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref any py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Filter</span></code></a> are added to the scanner. They
 contain logic in their <code class="docutils literal notranslate"><span class="pre">apply</span></code> method. This method at least takes a recipe as
 the first argument, and either returns a (possibly modified) recipe or raises
 a custom exception. The remainder of the <code class="docutils literal notranslate"><span class="pre">apply</span></code> function can do arbitrarily
@@ -173,14 +173,14 @@ Bioconductor, and more. These are primarily used by the <a class="reference inte
 <div class="section" id="writing-a-filter">
 <h3>Writing a filter<a class="headerlink" href="#writing-a-filter" title="Permalink to this headline">¶</a></h3>
 <p>To add additional functionality to the scanner, create a filter in
-<code class="xref any docutils literal notranslate"><span class="pre">bioconda_utils.update</span></code> and add it to the scanner in
+<a class="reference internal" href="_autosummary/bioconda_utils.autobump.html#module-bioconda_utils.autobump" title="bioconda_utils.autobump"><code class="xref any py py-mod docutils literal notranslate"><span class="pre">bioconda_utils.autobump</span></code></a> and add it to the scanner in
 <a class="reference internal" href="_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.autobump" title="bioconda_utils.cli.autobump"><code class="xref any py py-func docutils literal notranslate"><span class="pre">bioconda_utils.cli.autobump()</span></code></a>. There are existing filters to exclude recipes
 based on blacklist or subrecipe status, update a recipe based on the latest
 version found by a <a class="reference internal" href="_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster" title="bioconda_utils.hosters.Hoster"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Hoster</span></code></a> (see below), update checksums, figure out where to
 load a recipe from (i.e. master branch or an existing PR), create a new PR, and
 more.</p>
 <p>Filters can be arbitrarily complex, like any Python function. See the
-<code class="xref any docutils literal notranslate"><span class="pre">bioconda_utils.update</span></code> source for examples when writing a new filter –
+<a class="reference internal" href="_autosummary/bioconda_utils.autobump.html#module-bioconda_utils.autobump" title="bioconda_utils.autobump"><code class="xref any py py-mod docutils literal notranslate"><span class="pre">bioconda_utils.autobump</span></code></a> source for examples when writing a new filter –
 <a class="reference internal" href="_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.ExcludeSubrecipe" title="bioconda_utils.autobump.ExcludeSubrecipe"><code class="xref any py py-class docutils literal notranslate"><span class="pre">ExcludeSubrecipe</span></code></a> is a relatively simple one; <a class="reference internal" href="_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.UpdateVersion" title="bioconda_utils.autobump.UpdateVersion"><code class="xref any py py-class docutils literal notranslate"><span class="pre">UpdateVersion</span></code></a> is more complex.</p>
 </div>
 <div class="section" id="writing-a-new-hoster">

@@ -79,6 +79,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.aiopipe.html">aiopipe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html">bioconductor_skeleton</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.build.html">build</a></li>
@@ -92,8 +93,6 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.gitter.html">gitter</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">graph</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.hosters.html">hosters</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint_functions.html">lint_functions</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.linting.html">linting</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">recipe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
@@ -104,6 +103,7 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 </ul>
 </li>
 </ul>
@@ -148,10 +148,10 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.graph.build" title="bioconda_utils.graph.build"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build</span></code></a>(recipes, config[, blacklist, restrict])</p></td>
 <td><p>Returns the DAG of recipe paths and a dictionary that maps package names to lists of recipe paths to all defined versions of the package.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.graph.build_from_recipes" title="bioconda_utils.graph.build_from_recipes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_from_recipes</span></code></a>(recipes)</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_from_recipes</span></code>(recipes)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.graph.filter" title="bioconda_utils.graph.filter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter</span></code></a>(dag, packages)</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter</span></code>(dag, packages)</p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.graph.filter_recipe_dag" title="bioconda_utils.graph.filter_recipe_dag"><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter_recipe_dag</span></code></a>(dag, include, exclude)</p></td>
@@ -187,16 +187,6 @@ values are lists and contain paths to all defined versions.</p></li>
 </dd>
 </dl>
 </dd></dl>
-
-<dl class="function">
-<dt id="bioconda_utils.graph.build_from_recipes">
-<code class="descclassname">bioconda_utils.graph.</code><code class="descname">build_from_recipes</code><span class="sig-paren">(</span><em>recipes</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/graph.html#build_from_recipes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.graph.build_from_recipes" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="bioconda_utils.graph.filter">
-<code class="descclassname">bioconda_utils.graph.</code><code class="descname">filter</code><span class="sig-paren">(</span><em>dag</em>, <em>packages</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/graph.html#filter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.graph.filter" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.graph.filter_recipe_dag">

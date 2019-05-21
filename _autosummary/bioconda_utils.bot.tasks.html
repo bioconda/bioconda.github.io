@@ -89,6 +89,7 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.worker.html">worker</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 </ul>
 </li>
 </ul>
@@ -123,6 +124,45 @@
   <div class="section" id="module-bioconda_utils.bot.tasks">
 <span id="tasks"></span><h1>tasks<a class="headerlink" href="#module-bioconda_utils.bot.tasks" title="Permalink to this headline">¶</a></h1>
 <p>Celery Tasks doing the actual work</p>
+<p class="rubric">Tasks</p>
+<table class="longtable docutils align-center">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.get_latest_pr_commit" title="bioconda_utils.bot.tasks.get_latest_pr_commit"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_latest_pr_commit</span></code></a>(issue_number, ghapi)</p></td>
+<td><p>Returns last commit</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.create_check_run" title="bioconda_utils.bot.tasks.create_check_run"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_check_run</span></code></a>(head_sha, ghapi[, recreate])</p></td>
+<td><p>Creates a <code class="docutils literal notranslate"><span class="pre">check_run</span></code> on GitHub</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.bump" title="bioconda_utils.bot.tasks.bump"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bump</span></code></a>(issue_number, ghapi)</p></td>
+<td><p>Bump the build number in each recipe in PR</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.lint_check" title="bioconda_utils.bot.tasks.lint_check"><code class="xref py py-obj docutils literal notranslate"><span class="pre">lint_check</span></code></a>(check_run_number, ref, ghapi)</p></td>
+<td><p>Execute linter</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.check_circle_artifacts" title="bioconda_utils.bot.tasks.check_circle_artifacts"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_circle_artifacts</span></code></a>(pr_number, ghapi)</p></td>
+<td><p>Checks for packages and images uploaded to CircleCI artifacts</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.trigger_circle_rebuild" title="bioconda_utils.bot.tasks.trigger_circle_rebuild"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_circle_rebuild</span></code></a>(pr_number, ghapi)</p></td>
+<td><p>Triggers a rebuild of the latest commit for a PR on CircleCI</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.merge_pr" title="bioconda_utils.bot.tasks.merge_pr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">merge_pr</span></code></a>(pr_number, comment_id, ghapi)</p></td>
+<td><p>Merges a PR</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.post_result" title="bioconda_utils.bot.tasks.post_result"><code class="xref py py-obj docutils literal notranslate"><span class="pre">post_result</span></code></a>(result, pr_number, comment_id, …)</p></td>
+<td><p>Proxy that evaluates object once.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.create_welcome_post" title="bioconda_utils.bot.tasks.create_welcome_post"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_welcome_post</span></code></a>(pr_number, ghapi)</p></td>
+<td><p>Post welcome message for first timers</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.run_autobump" title="bioconda_utils.bot.tasks.run_autobump"><code class="xref py py-obj docutils literal notranslate"><span class="pre">run_autobump</span></code></a>(package_names, ghapi, *args)</p></td>
+<td><p>Runs <code class="docutils literal notranslate"><span class="pre">autobump</span></code> on packages</p></td>
+</tr>
+</tbody>
+</table>
 <p class="rubric">Classes</p>
 <table class="longtable docutils align-center">
 <colgroup>
@@ -130,36 +170,21 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.Arch" title="bioconda_utils.bot.tasks.Arch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Arch</span></code></a></p></td>
-<td><p>An enumeration.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.Checkout" title="bioconda_utils.bot.tasks.Checkout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Checkout</span></code></a>(ghapi[, ref, issue_number])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.Checkout" title="bioconda_utils.bot.tasks.Checkout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Checkout</span></code></a>(ghapi[, ref, issue_number])</p></td>
 <td><p>Async context manager checking out git repo</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.Image" title="bioconda_utils.bot.tasks.Image"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Image</span></code></a>(url, name, tag)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.Image" title="bioconda_utils.bot.tasks.Image"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Image</span></code></a>(url, name, tag)</p></td>
 <td><p>Create new instance of Image(url, name, tag)</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.PRInfo" title="bioconda_utils.bot.tasks.PRInfo"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PRInfo</span></code></a>(installation, user, repo, ref, …)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.PRInfo" title="bioconda_utils.bot.tasks.PRInfo"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PRInfo</span></code></a>(installation, user, repo, ref, …)</p></td>
 <td><p>Create new instance of PRInfo(installation, user, repo, ref, recipes, issue_number)</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.Package" title="bioconda_utils.bot.tasks.Package"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Package</span></code></a>(arch, fname, url, repodata_md)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.Package" title="bioconda_utils.bot.tasks.Package"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Package</span></code></a>(arch, fname, url, repodata_md)</p></td>
 <td><p>Create new instance of Package(arch, fname, url, repodata_md)</p></td>
 </tr>
 </tbody>
 </table>
 <p class="rubric">Documentation</p>
-<dl class="class">
-<dt id="bioconda_utils.bot.tasks.Arch">
-<em class="property">class </em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">Arch</code><a class="headerlink" href="#bioconda_utils.bot.tasks.Arch" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">enum.Enum</span></code></a></p>
-<p>An enumeration.</p>
-<dl class="attribute">
-<dt id="bioconda_utils.bot.tasks.Arch.noarch">
-<code class="descname">noarch</code><em class="property"> = 3</em><a class="headerlink" href="#bioconda_utils.bot.tasks.Arch.noarch" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</dd></dl>
-
 <dl class="class">
 <dt id="bioconda_utils.bot.tasks.Checkout">
 <em class="property">class </em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">Checkout</code><span class="sig-paren">(</span><em>ghapi</em>, <em>ref=None</em>, <em>issue_number=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/tasks.html#Checkout"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.tasks.Checkout" title="Permalink to this definition">¶</a></dt>
@@ -285,23 +310,38 @@
 <dl class="task">
 <dt id="bioconda_utils.bot.tasks.bump">
 <em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">bump</code><span class="sig-paren">(</span><em>issue_number</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.bump" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bump the build number in each recipe</p>
+<dd><p>Bump the build number in each recipe in PR</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>issue_number</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – Number of PR to bump recipes in</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="task">
 <dt id="bioconda_utils.bot.tasks.check_circle_artifacts">
 <em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">check_circle_artifacts</code><span class="sig-paren">(</span><em>pr_number</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.check_circle_artifacts" title="Permalink to this definition">¶</a></dt>
-<dd><p>Proxy that evaluates object once.</p>
-<p><code class="xref py py-class docutils literal notranslate"><span class="pre">Proxy</span></code> will evaluate the object each time, while the
-promise will only evaluate it once.</p>
+<dd><p>Checks for packages and images uploaded to CircleCI artifacts</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pr_number</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – Number of PR to check</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="task">
 <dt id="bioconda_utils.bot.tasks.create_check_run">
 <em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">create_check_run</code><span class="sig-paren">(</span><em>head_sha</em>, <em>ghapi</em>, <em>recreate=True</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.create_check_run" title="Permalink to this definition">¶</a></dt>
-<dd><p>Proxy that evaluates object once.</p>
-<p><code class="xref py py-class docutils literal notranslate"><span class="pre">Proxy</span></code> will evaluate the object each time, while the
-promise will only evaluate it once.</p>
+<dd><p>Creates a <code class="docutils literal notranslate"><span class="pre">check_run</span></code> on GitHub</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>head_sha</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – SHA of commit for which <code class="docutils literal notranslate"><span class="pre">check_run</span></code> will be created</p></li>
+<li><p><strong>recreate</strong> – If true, a new <code class="docutils literal notranslate"><span class="pre">check_run</span></code> will be created even if
+one already exists</p></li>
+</ul>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="task">
@@ -320,17 +360,36 @@ promise will only evaluate it once.</p>
 <dt id="bioconda_utils.bot.tasks.lint_check">
 <em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">lint_check</code><span class="sig-paren">(</span><em>check_run_number</em>, <em>ref</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.lint_check" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute linter</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>check_run_number</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – ID of GitHub <code class="docutils literal notranslate"><span class="pre">check_run</span></code></p></li>
+<li><p><strong>ref</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – SHA of commit to check</p></li>
+</ul>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="task">
 <dt id="bioconda_utils.bot.tasks.merge_pr">
 <em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">merge_pr</code><span class="sig-paren">(</span><em>pr_number</em>, <em>comment_id</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.merge_pr" title="Permalink to this definition">¶</a></dt>
-<dd><p>Proxy that evaluates object once.</p>
-<p><code class="xref py py-class docutils literal notranslate"><span class="pre">Proxy</span></code> will evaluate the object each time, while the
-promise will only evaluate it once.</p>
+<dd><p>Merges a PR</p>
+<ul class="simple">
+<li><p>Downloads artifacts from CircleCI</p></li>
+<li><p>Uploads Docker images to Quay.io</p></li>
+<li><p>Uploads package to Anaconda.org</p></li>
+<li><p>Collects co-authors</p></li>
+<li><p>Merges with co-author trailer lines</p></li>
+</ul>
 <dl class="field-list simple">
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Tuple</span></code>[<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]</p>
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pr_number</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – number of PR to merge</p></li>
+<li><p><strong>comment_id</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – ID of comment in PR to use for posting progress</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Tuple</span></code>[<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]</p>
 </dd>
 </dl>
 </dd></dl>
@@ -351,17 +410,23 @@ promise will only evaluate it once.</p>
 <dl class="task">
 <dt id="bioconda_utils.bot.tasks.run_autobump">
 <em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">run_autobump</code><span class="sig-paren">(</span><em>package_names</em>, <em>ghapi</em>, <em>*args</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.run_autobump" title="Permalink to this definition">¶</a></dt>
-<dd><p>Proxy that evaluates object once.</p>
-<p><code class="xref py py-class docutils literal notranslate"><span class="pre">Proxy</span></code> will evaluate the object each time, while the
-promise will only evaluate it once.</p>
+<dd><p>Runs <code class="docutils literal notranslate"><span class="pre">autobump</span></code> on packages</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>package_names</strong> – List of package names to check for version updates</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="task">
 <dt id="bioconda_utils.bot.tasks.trigger_circle_rebuild">
 <em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">trigger_circle_rebuild</code><span class="sig-paren">(</span><em>pr_number</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.trigger_circle_rebuild" title="Permalink to this definition">¶</a></dt>
-<dd><p>Proxy that evaluates object once.</p>
-<p><code class="xref py py-class docutils literal notranslate"><span class="pre">Proxy</span></code> will evaluate the object each time, while the
-promise will only evaluate it once.</p>
+<dd><p>Triggers a rebuild of the latest commit for a PR on CircleCI</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pr_number</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – Number of Github PR</p>
+</dd>
+</dl>
 </dd></dl>
 
 </div>

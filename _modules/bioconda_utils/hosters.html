@@ -138,8 +138,7 @@
 
 <span class="kn">import</span> <span class="nn">regex</span> <span class="k">as</span> <span class="nn">re</span>
 
-<span class="k">if</span> <span class="n">TYPE_CHECKING</span><span class="p">:</span>
-    <span class="kn">from</span> <span class="nn">.aiopipe</span> <span class="k">import</span> <span class="n">AsyncRequests</span>
+<span class="kn">from</span> <span class="nn">.aiopipe</span> <span class="k">import</span> <span class="n">AsyncRequests</span>
 
 <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>  <span class="c1"># pylint: disable=invalid-name</span>
 
@@ -319,12 +318,12 @@
         <span class="sd">&quot;&quot;&quot;Return matches found for **link_re** in href links&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">matches</span></div>
 
-<div class="viewcode-block" id="HrefParser.handle_starttag"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.HrefParser.handle_starttag">[docs]</a>    <span class="k">def</span> <span class="nf">handle_starttag</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tag</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">attrs</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]])</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">handle_starttag</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tag</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">attrs</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]])</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="k">if</span> <span class="n">tag</span> <span class="o">==</span> <span class="s2">&quot;a&quot;</span><span class="p">:</span>
             <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">val</span> <span class="ow">in</span> <span class="n">attrs</span><span class="p">:</span>
                 <span class="k">if</span> <span class="n">key</span> <span class="o">==</span> <span class="s2">&quot;href&quot;</span><span class="p">:</span>
                     <span class="bp">self</span><span class="o">.</span><span class="n">handle_a_href</span><span class="p">(</span><span class="n">val</span><span class="p">)</span>
-                    <span class="k">break</span></div>
+                    <span class="k">break</span>
 
 <div class="viewcode-block" id="HrefParser.handle_a_href"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.HrefParser.handle_a_href">[docs]</a>    <span class="k">def</span> <span class="nf">handle_a_href</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">href</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Process href attributes of anchor tags&quot;&quot;&quot;</span>
@@ -334,8 +333,8 @@
             <span class="n">data</span><span class="p">[</span><span class="s2">&quot;href&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">href</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">matches</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="HrefParser.error"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.HrefParser.error">[docs]</a>    <span class="k">def</span> <span class="nf">error</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Error parsing HTML: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">message</span><span class="p">)</span></div></div>
+    <span class="k">def</span> <span class="nf">error</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Error parsing HTML: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">message</span><span class="p">)</span></div>
 
 
 <span class="c1"># pylint: disable=abstract-method</span>

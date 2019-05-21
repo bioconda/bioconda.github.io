@@ -153,7 +153,15 @@
 
 
 <div class="viewcode-block" id="RecipeError"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.RecipeError">[docs]</a><span class="k">class</span> <span class="nc">RecipeError</span><span class="p">(</span><span class="n">EndProcessingItem</span><span class="p">):</span>
-    <span class="k">pass</span></div>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">item</span><span class="p">,</span> <span class="n">message</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">line</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">column</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">line</span> <span class="o">=</span> <span class="n">line</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">column</span> <span class="o">=</span> <span class="n">column</span>
+        <span class="k">if</span> <span class="n">message</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">line</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">column</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">message</span> <span class="o">+=</span> <span class="s2">&quot; (at line </span><span class="si">%i</span><span class="s2"> / column </span><span class="si">%i</span><span class="s2">)&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">line</span><span class="p">,</span> <span class="n">column</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">message</span> <span class="o">+=</span> <span class="s2">&quot; (at line </span><span class="si">%i</span><span class="s2">)&quot;</span> <span class="o">%</span> <span class="n">line</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">item</span><span class="p">,</span> <span class="n">message</span><span class="p">)</span></div>
 
 
 <div class="viewcode-block" id="DuplicateKey"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.DuplicateKey">[docs]</a><span class="k">class</span> <span class="nc">DuplicateKey</span><span class="p">(</span><span class="n">RecipeError</span><span class="p">):</span>
@@ -206,11 +214,6 @@
 
 <span class="sd">    May have self.line</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">item</span><span class="p">,</span> <span class="n">message</span><span class="p">,</span> <span class="n">line</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">line</span> <span class="o">=</span> <span class="n">line</span>
-        <span class="k">if</span> <span class="n">line</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
-            <span class="n">message</span> <span class="o">+=</span> <span class="s2">&quot; (at line </span><span class="si">%i</span><span class="s2">)&quot;</span> <span class="o">%</span> <span class="n">line</span>
-        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">item</span><span class="p">,</span> <span class="n">message</span><span class="p">)</span>
     <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;failed to render in Jinja2. Error was: </span><span class="si">%s</span><span class="s2">&quot;</span></div>
 
 
@@ -238,6 +241,8 @@
     <span class="n">JINJA_VARS</span> <span class="o">=</span> <span class="p">{</span>
         <span class="s2">&quot;cran_mirror&quot;</span><span class="p">:</span> <span class="s2">&quot;https://cloud.r-project.org&quot;</span><span class="p">,</span>
         <span class="s2">&quot;compiler&quot;</span><span class="p">:</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">f</span><span class="s2">&quot;compiler_</span><span class="si">{x}</span><span class="s2">&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;pin_compatible&quot;</span><span class="p">:</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">,</span> <span class="n">max_pin</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">min_pin</span><span class="o">=</span><span class="kc">None</span><span class="p">:</span> <span class="n">f</span><span class="s2">&quot;</span><span class="si">{x}</span><span class="s2">&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;cdt&quot;</span><span class="p">:</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span>
     <span class="p">}</span>
 
 
@@ -326,16 +331,16 @@
         <span class="n">recipe</span><span class="o">.</span><span class="n">set_original</span><span class="p">()</span>
         <span class="k">return</span> <span class="n">recipe</span></div>
 
-<div class="viewcode-block" id="Recipe.save"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.save">[docs]</a>    <span class="k">def</span> <span class="nf">save</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">save</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">path</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fdes</span><span class="p">:</span>
-            <span class="n">fdes</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dump</span><span class="p">())</span></div>
+            <span class="n">fdes</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dump</span><span class="p">())</span>
 
 <div class="viewcode-block" id="Recipe.set_original"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.set_original">[docs]</a>    <span class="k">def</span> <span class="nf">set_original</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Store the current state of the recipe as &quot;original&quot; version&quot;&quot;&quot;</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">orig</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="Recipe.is_modified"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.is_modified">[docs]</a>    <span class="k">def</span> <span class="nf">is_modified</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span> <span class="o">!=</span> <span class="bp">self</span><span class="o">.</span><span class="n">orig</span><span class="o">.</span><span class="n">meta_yaml</span></div>
+    <span class="k">def</span> <span class="nf">is_modified</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span> <span class="o">!=</span> <span class="bp">self</span><span class="o">.</span><span class="n">orig</span><span class="o">.</span><span class="n">meta_yaml</span>
 
 <div class="viewcode-block" id="Recipe.dump"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.dump">[docs]</a>    <span class="k">def</span> <span class="nf">dump</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Dump recipe content&quot;&quot;&quot;</span>
@@ -398,9 +403,9 @@
                 <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">)</span>
             <span class="p">)</span>
         <span class="k">except</span> <span class="n">jinja2</span><span class="o">.</span><span class="n">exceptions</span><span class="o">.</span><span class="n">TemplateSyntaxError</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
-            <span class="k">raise</span> <span class="n">RenderFailure</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">exc</span><span class="o">.</span><span class="n">message</span><span class="p">,</span> <span class="n">exc</span><span class="o">.</span><span class="n">lineno</span><span class="p">)</span>
+            <span class="k">raise</span> <span class="n">RenderFailure</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message</span><span class="o">=</span><span class="n">exc</span><span class="o">.</span><span class="n">message</span><span class="p">,</span> <span class="n">line</span><span class="o">=</span><span class="n">exc</span><span class="o">.</span><span class="n">lineno</span><span class="p">)</span>
         <span class="k">except</span> <span class="n">jinja2</span><span class="o">.</span><span class="n">exceptions</span><span class="o">.</span><span class="n">TemplateError</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
-            <span class="k">raise</span> <span class="n">RenderFailure</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">exc</span><span class="o">.</span><span class="n">message</span><span class="p">)</span></div>
+            <span class="k">raise</span> <span class="n">RenderFailure</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message</span><span class="o">=</span><span class="n">exc</span><span class="o">.</span><span class="n">message</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="Recipe.get_simple_modules"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.get_simple_modules">[docs]</a>    <span class="k">def</span> <span class="nf">get_simple_modules</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Yield simple replacement values from template</span>
@@ -430,8 +435,9 @@
         <span class="k">try</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">meta</span> <span class="o">=</span> <span class="n">yaml</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">yaml_text</span><span class="p">)</span>
         <span class="k">except</span> <span class="n">DuplicateKeyError</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
-            <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;fixing duplicate key at </span><span class="si">%i</span><span class="s2">:</span><span class="si">%i</span><span class="s2">&quot;</span><span class="p">,</span>
-                         <span class="n">err</span><span class="o">.</span><span class="n">context_mark</span><span class="o">.</span><span class="n">line</span><span class="p">,</span> <span class="n">err</span><span class="o">.</span><span class="n">context_mark</span><span class="o">.</span><span class="n">column</span><span class="p">)</span>
+            <span class="n">line</span> <span class="o">=</span> <span class="n">err</span><span class="o">.</span><span class="n">problem_mark</span><span class="o">.</span><span class="n">line</span> <span class="o">+</span> <span class="mi">1</span>
+            <span class="n">column</span> <span class="o">=</span> <span class="n">err</span><span class="o">.</span><span class="n">problem_mark</span><span class="o">.</span><span class="n">column</span> <span class="o">+</span> <span class="mi">1</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;fixing duplicate key at </span><span class="si">%i</span><span class="s2">:</span><span class="si">%i</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">line</span><span class="p">,</span> <span class="n">column</span><span class="p">)</span>
             <span class="c1"># We may have encountered a recipe with linux/osx variants using line selectors</span>
             <span class="n">yaml_text</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_rewrite_selector_block</span><span class="p">(</span><span class="n">yaml_text</span><span class="p">,</span> <span class="n">err</span><span class="o">.</span><span class="n">context_mark</span><span class="o">.</span><span class="n">line</span><span class="p">,</span>
                                                      <span class="n">err</span><span class="o">.</span><span class="n">context_mark</span><span class="o">.</span><span class="n">column</span><span class="p">)</span>
@@ -439,9 +445,9 @@
                 <span class="k">try</span><span class="p">:</span>
                     <span class="bp">self</span><span class="o">.</span><span class="n">meta</span> <span class="o">=</span> <span class="n">yaml</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">yaml_text</span><span class="p">)</span>
                 <span class="k">except</span> <span class="n">DuplicateKeyError</span><span class="p">:</span>
-                    <span class="k">raise</span> <span class="n">DuplicateKey</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+                    <span class="k">raise</span> <span class="n">DuplicateKey</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">line</span><span class="o">=</span><span class="n">line</span><span class="p">,</span> <span class="n">column</span><span class="o">=</span><span class="n">column</span><span class="p">)</span>
             <span class="k">else</span><span class="p">:</span>
-                <span class="k">raise</span> <span class="n">DuplicateKey</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+                <span class="k">raise</span> <span class="n">DuplicateKey</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">line</span><span class="o">=</span><span class="n">line</span><span class="p">,</span> <span class="n">column</span><span class="o">=</span><span class="n">column</span><span class="p">)</span>
 
         <span class="k">if</span> <span class="s2">&quot;package&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span> \
            <span class="ow">or</span> <span class="s2">&quot;version&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="s2">&quot;package&quot;</span><span class="p">]</span> \
@@ -471,8 +477,18 @@
     <span class="k">def</span> <span class="nf">__getitem__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">):</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="n">key</span><span class="p">]</span>
 
-<div class="viewcode-block" id="Recipe.get"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.get">[docs]</a>    <span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">default</span><span class="p">)</span></div>
+    <span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="ne">KeyError</span><span class="p">):</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">key</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">):</span>
+                <span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">item</span><span class="p">]</span>
+        <span class="k">except</span> <span class="p">(</span><span class="ne">KeyError</span><span class="p">,</span> <span class="ne">TypeError</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">default</span> <span class="ow">is</span> <span class="ow">not</span> <span class="ne">KeyError</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">default</span>
+            <span class="k">raise</span> <span class="ne">KeyError</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;No &#39;</span><span class="si">{key}</span><span class="s2">&#39; in Recipe </span><span class="si">{self}</span><span class="s2">&quot;</span><span class="p">)</span> <span class="kn">from</span> <span class="nn">None</span>
+        <span class="k">if</span> <span class="n">default</span> <span class="ow">is</span> <span class="ow">not</span> <span class="ne">KeyError</span> <span class="ow">and</span> <span class="n">data</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">default</span>
+        <span class="k">return</span> <span class="n">data</span>
 
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">package_names</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
@@ -535,7 +551,7 @@
             <span class="k">if</span> <span class="ow">not</span> <span class="n">re_before</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">line</span><span class="p">):</span>
                 <span class="k">continue</span>
             <span class="k">if</span> <span class="n">re_select</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">line</span><span class="p">):</span>
-                <span class="k">raise</span> <span class="n">HasSelector</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">lineno</span><span class="p">)</span>
+                <span class="k">raise</span> <span class="n">HasSelector</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">line</span><span class="o">=</span><span class="n">lineno</span><span class="p">)</span>
             <span class="n">new</span> <span class="o">=</span> <span class="n">re_before</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">after</span><span class="p">,</span> <span class="n">line</span><span class="p">)</span>
             <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%i</span><span class="s2"> - </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">lineno</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="n">lineno</span><span class="p">])</span>
             <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%i</span><span class="s2"> + </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">lineno</span><span class="p">,</span> <span class="n">new</span><span class="p">)</span>
@@ -643,15 +659,27 @@
         <span class="n">lines</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="n">end_row</span><span class="p">][:</span><span class="n">end_col</span><span class="p">])</span>
         <span class="k">return</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">lines</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span></div>
 
-<div class="viewcode-block" id="Recipe.get_deps"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.get_deps">[docs]</a>    <span class="k">def</span> <span class="nf">get_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="n">lists</span> <span class="o">=</span> <span class="p">[</span><span class="n">buildrunhost</span> <span class="k">for</span> <span class="n">buildrunhost</span> <span class="ow">in</span>
-                 <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;requirements&#39;</span><span class="p">)</span> <span class="ow">or</span> <span class="p">{})</span><span class="o">.</span><span class="n">values</span><span class="p">()</span>
-                 <span class="k">if</span> <span class="n">buildrunhost</span><span class="p">]</span>
-        <span class="k">for</span> <span class="n">output</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;outputs&#39;</span><span class="p">,</span> <span class="p">[]):</span>
-            <span class="n">lists</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">buildrunhost</span> <span class="k">for</span> <span class="n">buildrunhost</span> <span class="ow">in</span>
-                         <span class="n">output</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;requirements&#39;</span><span class="p">,</span> <span class="p">{})</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
+    <span class="k">def</span> <span class="nf">get_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sections</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">output</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">get_deps_dict</span><span class="p">(</span><span class="n">sections</span><span class="p">,</span> <span class="n">output</span><span class="p">)</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
 
-        <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">entry</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">lst</span> <span class="ow">in</span> <span class="n">lists</span> <span class="k">for</span> <span class="n">entry</span> <span class="ow">in</span> <span class="n">lst</span> <span class="k">if</span> <span class="n">entry</span><span class="p">))</span></div>
+    <span class="k">def</span> <span class="nf">get_deps_dict</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sections</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">outputs</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">sections</span><span class="p">:</span>
+            <span class="n">sections</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;build&#39;</span><span class="p">,</span> <span class="s1">&#39;run&#39;</span><span class="p">,</span> <span class="s1">&#39;host&#39;</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">sections</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">ensure_list</span><span class="p">(</span><span class="n">sections</span><span class="p">)</span>
+        <span class="n">check_paths</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">section</span> <span class="ow">in</span> <span class="n">sections</span><span class="p">:</span>
+            <span class="n">check_paths</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">f</span><span class="s1">&#39;requirements/</span><span class="si">{section}</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">outputs</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">section</span> <span class="ow">in</span> <span class="n">sections</span><span class="p">:</span>
+                <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;outputs&#39;</span><span class="p">,</span> <span class="p">[]))):</span>
+                    <span class="n">check_paths</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">f</span><span class="s1">&#39;outputs/</span><span class="si">{n}</span><span class="s1">/requirements/</span><span class="si">{section}</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="n">deps</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">for</span> <span class="n">path</span> <span class="ow">in</span> <span class="n">check_paths</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">n</span><span class="p">,</span> <span class="n">spec</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="p">[])):</span>
+                <span class="n">dep</span> <span class="o">=</span> <span class="n">spec</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+                <span class="n">deps</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="n">dep</span><span class="p">,</span> <span class="p">[])</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;</span><span class="si">{path}</span><span class="s2">/</span><span class="si">{n}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">deps</span>
 
 <div class="viewcode-block" id="Recipe.conda_render"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.conda_render">[docs]</a>    <span class="k">def</span> <span class="nf">conda_render</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="n">MetaData</span><span class="p">,</span> <span class="nb">bool</span><span class="p">,</span> <span class="nb">bool</span><span class="p">]]:</span>
         <span class="sd">&quot;&quot;&quot;Handles calling conda_build.api.render</span>
@@ -665,7 +693,7 @@
 <span class="sd">        various exceptions and rewriting them into `CondaRenderFailure`, then</span>
 <span class="sd">        cache the result.</span>
 
-<span class="sd">        Since the ``MetaData`` objects returned expect the on-disk `meta.yaml`</span>
+<span class="sd">        Since the ``MetaData`` objects returned expect the on-disk ``meta.yaml``</span>
 <span class="sd">        to persist (it can get reloaded later on), clients of this function</span>
 <span class="sd">        must **make sure to call `conda_release` once you are done** with those</span>
 <span class="sd">        objects.</span>
@@ -721,7 +749,7 @@
             <span class="bp">self</span><span class="o">.</span><span class="n">_conda_tempdir</span> <span class="o">=</span> <span class="kc">None</span></div></div>
 
 
-<div class="viewcode-block" id="load_parallel_iter"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.load_parallel_iter">[docs]</a><span class="k">def</span> <span class="nf">load_parallel_iter</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">packages</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">load_parallel_iter</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">packages</span><span class="p">):</span>
     <span class="n">recipes</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">utils</span><span class="o">.</span><span class="n">get_recipes</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">packages</span><span class="p">))</span>
     <span class="k">for</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="n">utils</span><span class="o">.</span><span class="n">parallel_iter</span><span class="p">(</span><span class="n">Recipe</span><span class="o">.</span><span class="n">from_file</span><span class="p">,</span> <span class="n">recipes</span><span class="p">,</span> <span class="s2">&quot;Loading Recipes...&quot;</span><span class="p">,</span>
                                       <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">return_exceptions</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
@@ -730,7 +758,7 @@
         <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="ne">Exception</span><span class="p">):</span>
             <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Could not load recipe </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
-            <span class="k">yield</span> <span class="n">recipe</span></div>
+            <span class="k">yield</span> <span class="n">recipe</span>
 
 </pre></div>
 

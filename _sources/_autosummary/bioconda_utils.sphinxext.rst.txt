@@ -36,6 +36,7 @@ sphinxext
       CondaObjectDescription
       CondaPackage
       CondaRecipe
+      LintDescriptionDirective
       RecipeIndex
       Renderer
       RequiredByField

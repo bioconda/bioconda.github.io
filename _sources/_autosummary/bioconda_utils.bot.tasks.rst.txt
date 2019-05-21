@@ -16,7 +16,6 @@ tasks
 
    .. autosummary::
    
-      Arch
       Checkout
       Image
       PRInfo

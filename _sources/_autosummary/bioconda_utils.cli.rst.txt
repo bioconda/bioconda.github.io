@@ -19,12 +19,14 @@ cli
       clean_cran_skeleton
       dag
       dependent
+      do_lint
       duplicates
       enable_debugging
       enable_logging
       enable_threads
-      lint
+      get_recipes_to_build
       main
+      recipe_folder_and_config
       update_pinning
    
    

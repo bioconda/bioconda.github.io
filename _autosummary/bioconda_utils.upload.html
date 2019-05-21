@@ -79,6 +79,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.aiopipe.html">aiopipe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html">bioconductor_skeleton</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.build.html">build</a></li>
@@ -92,8 +93,6 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.gitter.html">gitter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.graph.html">graph</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.hosters.html">hosters</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint_functions.html">lint_functions</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.linting.html">linting</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">recipe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
@@ -104,6 +103,7 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
 </ul>
 </li>
 </ul>
@@ -149,7 +149,7 @@
 <td><p>Upload a package to anaconda.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.upload.mulled_upload" title="bioconda_utils.upload.mulled_upload"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mulled_upload</span></code></a>(image, quay_target)</p></td>
-<td><p>Upload the build Docker images to quay.io with ‘mulled-build push’</p></td>
+<td><p>Upload the build Docker images to quay.io with <code class="docutils literal notranslate"><span class="pre">mulled-build</span> <span class="pre">push</span></code>.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.upload.skopeo_upload" title="bioconda_utils.upload.skopeo_upload"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skopeo_upload</span></code></a>(image_file, target, creds[, …])</p></td>
 <td><p>Upload an image to docker registy</p></td>
@@ -187,8 +187,8 @@ None if it should be retried</p>
 <dl class="function">
 <dt id="bioconda_utils.upload.mulled_upload">
 <code class="descclassname">bioconda_utils.upload.</code><code class="descname">mulled_upload</code><span class="sig-paren">(</span><em>image</em>, <em>quay_target</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/upload.html#mulled_upload"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.upload.mulled_upload" title="Permalink to this definition">¶</a></dt>
-<dd><p>Upload the build Docker images to quay.io with ‘mulled-build push’</p>
-<p>Calls <code class="xref any docutils literal notranslate"><span class="pre">mulled-build</span> <span class="pre">push</span></code></p>
+<dd><p>Upload the build Docker images to quay.io with <code class="docutils literal notranslate"><span class="pre">mulled-build</span> <span class="pre">push</span></code>.</p>
+<p>Calls <code class="docutils literal notranslate"><span class="pre">mulled-build</span> <span class="pre">push</span> <span class="pre">&lt;image&gt;</span> <span class="pre">-n</span> <span class="pre">&lt;quay_target&gt;</span></code></p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
@@ -197,7 +197,7 @@ None if it should be retried</p>
 </ul>
 </dd>
 <dt class="field-even">Return type</dt>
-<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/subprocess.html#subprocess.CompletedProcess" title="(in Python v3.7)">subprocess.CompletedProcess</a></p>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/subprocess.html#subprocess.CompletedProcess" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">CompletedProcess</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
