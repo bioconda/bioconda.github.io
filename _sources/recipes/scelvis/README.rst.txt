@@ -9,7 +9,7 @@ scelvis
 .. conda:recipe:: scelvis
    :replaces_section_title:
 
-   Python 3 VCF library with good support for both reading and writing
+   SCelVis \- web\-based visualization of single\-cell data
 
    :homepage: https://github.com/bihealth/scelvis
    :license: MIT / MIT
@@ -22,7 +22,7 @@ scelvis
 
    |downloads_scelvis| |docker_scelvis|
 
-   :versions: 0.2.0-0, 0.1.0-0
+   :versions: 0.2.1-0, 0.2.0-0, 0.1.0-0
    
    :depends anndata: 
    :depends attrs: 

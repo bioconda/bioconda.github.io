@@ -22,7 +22,7 @@ cd-hit
 
    |downloads_cd-hit| |docker_cd-hit|
 
-   :versions: 4.8.1-1, 4.8.1-0, 4.6.8-2, 4.6.8-1, 4.6.8-0, 4.6.6-0, 4.6.4-1, 4.6.4-0
+   :versions: 4.8.1-2, 4.8.1-1, 4.8.1-0, 4.6.8-2, 4.6.8-1, 4.6.8-0, 4.6.6-0, 4.6.4-1, 4.6.4-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

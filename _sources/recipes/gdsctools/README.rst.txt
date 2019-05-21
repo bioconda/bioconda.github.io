@@ -22,23 +22,22 @@ gdsctools
 
    |downloads_gdsctools| |docker_gdsctools|
 
-   :versions: 0.20.1-0, 0.19.0-0
+   :versions: 1.0.1-0, 0.20.1-0, 0.19.0-0
    
-   :depends biokit: ==0.4.1
+   :depends biokit: 0.4.1
    :depends colorlog: 
-   :depends colormap: ==1.0.1
+   :depends colormap: 1.0.1
    :depends easydev: >=0.9.34
    :depends jinja2: 
    :depends matplotlib: >=1.4.3
    :depends numexpr: 
    :depends numpy: 
-   :depends pandas: ==0.20.1
-   :depends python: 3.5*
-   :depends reports: >=0.3.1
-   :depends reports: >=0.3.1
-   :depends scikit-learn: ==0.18.2
-   :depends scipy: ==0.19.1
-   :depends statsmodels: ==0.8.0
+   :depends pandas: 0.20.1
+   :depends python: 
+   :depends reports: 0.3.1
+   :depends scikit-learn: 0.18.2
+   :depends scipy: 0.19.1
+   :depends statsmodels: 0.8.0
    :depends xlrd: 
    :requirements:
 

@@ -24,11 +24,11 @@ sample-sheet
 
    |downloads_sample-sheet| |docker_sample-sheet|
 
-   :versions: 0.8.0-0
+   :versions: 0.9.0-0, 0.8.0-0
    
    :depends click: 
    :depends python: >=3.6
-   :depends smart_open: >=1.5.4
+   :depends requests: 
    :depends tabulate: 
    :depends terminaltables: 
    :requirements:

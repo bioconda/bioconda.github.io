@@ -24,8 +24,34 @@ pgcgap
 
    |downloads_pgcgap| |docker_pgcgap|
 
-   :versions: 
+   :versions: 1.0.0-0
    
+   :depends abyss: >=2.1.5
+   :depends biopython: 
+   :depends cd-hit: >=4.8.1
+   :depends diamond: >=0.9.24
+   :depends fastani: >=1.1
+   :depends fastme: >=2.1.5
+   :depends fasttree: >=2.1.10
+   :depends htslib: >=1.9
+   :depends mafft: >=7.402
+   :depends matplotlib: 
+   :depends mmseqs2: >=7-4e23d
+   :depends numpy: 
+   :depends orthofinder: >=2.2.7
+   :depends pandas: 
+   :depends perl-data-dumper: >=2.173
+   :depends perl-file-tee: 
+   :depends perl-getopt-long: >=2.50
+   :depends perl-pod-usage: >=1.69
+   :depends prokka: >=1.13.4
+   :depends r-corrplot: 
+   :depends r-ggplot2: 
+   :depends r-plotrix: 
+   :depends roary: >=3.12.0
+   :depends seaborn: 
+   :depends sickle-trim: >=1.33
+   :depends snippy: >=4.3.6
    :requirements:
 
    .. rubric:: Installation
