@@ -22,11 +22,11 @@ taxtastic
 
    |downloads_taxtastic| |docker_taxtastic|
 
-   :versions: 0.8.9-0, 0.8.5-2, 0.8.5-0, 0.5.4-0
+   :versions: 0.8.11-0, 0.8.9-0, 0.8.5-2, 0.8.5-0, 0.5.4-0
    
    :depends biopython: 
    :depends decorator: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >3
    :depends sqlalchemy: >=0.7
    :depends xlrd: 
    :requirements:

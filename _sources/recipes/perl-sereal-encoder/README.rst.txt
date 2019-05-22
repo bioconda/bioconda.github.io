@@ -22,8 +22,9 @@ perl-sereal-encoder
 
    |downloads_perl-sereal-encoder| |docker_perl-sereal-encoder|
 
-   :versions: 4.005-0, 3.015-1, 3.015-0
+   :versions: 4.007-0, 4.005-0, 3.015-1, 3.015-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 

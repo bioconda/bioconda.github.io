@@ -22,7 +22,7 @@ perl-net-http
 
    |downloads_perl-net-http| |docker_perl-net-http|
 
-   :versions: 6.18-0, 6.09-1, 6.09-0
+   :versions: 6.19-0, 6.18-0, 6.09-1, 6.09-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-base: 

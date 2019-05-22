@@ -9,7 +9,7 @@ bio_hansel
 .. conda:recipe:: bio_hansel
    :replaces_section_title:
 
-   Subtype Salmonella enterica genomes using 33bp k\-mer typing schemes.\\nIncludes schemes for Heidelberg and Enteritidis subtyping.\\nDeveloped by Genevieve Labbe\, James Robertson\, Peter Kruczkiewicz\, Marisa Rankin\, Matthew Gopez\, Chad R. Laing\, Philip Mabon\, Kim Ziebell\, Aleisha R. Reimer\, Lorelee Tschetter\, Gary Van Domselaar\, Eduardo N. Taboada\, Sadjia Bekal\, Kimberley A. MacDonald\, Linda Hoang\, Linda Chui\, Danielle Daignault\, Durda Slavic\, Frank Pollari\, E. Jane Parmley\, Elissa Giang\, Lok Kan Lee\, Jonathan Moffat\, Joanne MacKinnon\, Benjamin M. Hetman\, Roger Johnson\, John H.E. Nash.\\n
+   Subtype Salmonella enterica genomes using 33bp k\-mer typing schemes.\\nIncludes schemes for Heidelberg and Enteritidis subtyping.\\nDeveloped by Genevieve Labbe\, James Robertson\, Peter Kruczkiewicz\, Marisa Rankin\, Matthew Gopez\, Chad R. Laing\, Philip Mabon\, Kim Ziebell\, Aleisha R. Reimer\, Lorelee Tschetter\, Gary Van Domselaar\, Eduardo N. Taboada\, Sadjia Bekal\, Kimberley A. MacDonald\, Linda Hoang\, Linda Chui\, Danielle Daignault\, Durda Slavic\, Frank Pollari\, E. Jane Parmley\, David Son\, Darian Hole\, Elissa Giang\, Lok Kan Lee\, Jonathan Moffat\, Joanne MacKinnon\, Benjamin M. Hetman\, Roger Johnson\, John H.E. Nash.\\n
 
    :homepage: https://github.com/phac-nml/biohansel
    :license: GPL3 / GNU General Public License v3 or later (GPLv3+)
@@ -22,7 +22,7 @@ bio_hansel
 
    |downloads_bio_hansel| |docker_bio_hansel|
 
-   :versions: 2.1.1-0, 2.1.0-0, 2.0.0-1, 2.0.0-0, 1.3.2-0, 1.3.1-0, 1.3.0-0, 1.2.0-0, 1.1.3-0, 1.1.1-0, 1.1.0-0, 0.2.0-1, 0.1.0-0
+   :versions: 2.2.0-0, 2.1.1-0, 2.1.0-0, 2.0.0-1, 2.0.0-0, 1.3.2-0, 1.3.1-0, 1.3.0-0, 1.2.0-0, 1.1.3-0, 1.1.1-0, 1.1.0-0, 0.2.0-1, 0.1.0-0
    
    :depends attrs: 
    :depends libgcc-ng: >=7.3.0

@@ -23,9 +23,12 @@ bioconductor-mspurity
 
    |downloads_bioconductor-mspurity| |docker_bioconductor-mspurity|
 
-   :versions: 1.8.0-0, 1.5.4-1, 1.5.4-0, 1.4.0-1, 1.4.0-0, 1.3.9-0
+   :versions: 1.8.1-0, 1.8.0-0, 1.5.4-1, 1.5.4-0, 1.4.0-1, 1.4.0-0, 1.3.9-0
    
+   :depends bioconductor-camera: >=1.38.0,<1.39.0
+   :depends bioconductor-mspuritydata: >=1.10.0,<1.11.0
    :depends bioconductor-mzr: >=2.16.0,<2.17.0
+   :depends bioconductor-xcms: >=3.4.0,<3.5.0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
@@ -34,6 +37,7 @@ bioconductor-mspurity
    :depends r-fastcluster: 
    :depends r-foreach: 
    :depends r-ggplot2: 
+   :depends r-optparse: 
    :depends r-plyr: 
    :depends r-rcpp: 
    :depends r-reshape2: 

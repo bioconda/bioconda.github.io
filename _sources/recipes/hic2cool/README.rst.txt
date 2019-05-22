@@ -22,7 +22,7 @@ hic2cool
 
    |downloads_hic2cool| |docker_hic2cool|
 
-   :versions: 0.5.1-0, 0.4.2-0, 0.4.1-0
+   :versions: 0.6.0-0, 0.5.1-0, 0.4.2-0, 0.4.1-0
    
    :depends cooler: >=0.8.2
    :depends h5py: >=2.8.0
