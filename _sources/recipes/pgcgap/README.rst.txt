@@ -24,7 +24,7 @@ pgcgap
 
    |downloads_pgcgap| |docker_pgcgap|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.1-1, 1.0.1-0, 1.0.0-0
    
    :depends abyss: >=2.1.5
    :depends biopython: 
@@ -38,7 +38,9 @@ pgcgap
    :depends matplotlib: 
    :depends mmseqs2: >=7-4e23d
    :depends numpy: 
+   :depends openjdk: 8.*
    :depends orthofinder: >=2.2.7
+   :depends pal2nal: 
    :depends pandas: 
    :depends perl-data-dumper: >=2.173
    :depends perl-file-tee: 

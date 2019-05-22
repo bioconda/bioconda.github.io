@@ -22,7 +22,7 @@ tiddit
 
    |downloads_tiddit| |docker_tiddit|
 
-   :versions: 2.6.0-0
+   :versions: 2.7.1-0, 2.6.0-0
    
    :depends cmake: 
    :depends cython: 

@@ -12,7 +12,7 @@ pyani
    pyani provides a package and script for calculation of genome\-scale average nucleotide identity.
 
    :homepage: http://widdowquinn.github.io/pyani/
-   :license: MIT / MIT License
+   :license: MIT / MIT
    :recipe: /`pyani <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyani>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyani/meta.yaml>`_
 
    
@@ -22,7 +22,7 @@ pyani
 
    |downloads_pyani| |docker_pyani|
 
-   :versions: 0.2.7-1, 0.2.7-0, 0.2.3-0, 0.2.0-0
+   :versions: 0.2.9-0, 0.2.7-1, 0.2.7-0, 0.2.3-0, 0.2.0-0
    
    :depends biopython: 
    :depends blast: 
@@ -31,7 +31,7 @@ pyani
    :depends mummer: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >3
    :depends scipy: 
    :depends seaborn: 
    :requirements:

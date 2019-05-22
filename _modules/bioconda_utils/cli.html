@@ -361,8 +361,6 @@
 <span class="s1">     first time.&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--list-checks&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;List the linting functions to be used and then</span>
 <span class="s1">     exit&#39;&#39;&#39;</span><span class="p">)</span>
-<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--only&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s1">&#39;+&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Only run these linting functions. Can be used</span>
-<span class="s1">     multiple times.&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--exclude&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s1">&#39;+&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Exclude this linting function. Can be used</span>
 <span class="s1">     multiple times.&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--push-status&#39;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s1">&#39;store_true&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;If set, the lint status will</span>
@@ -897,7 +895,7 @@
 
     <span class="k">if</span> <span class="n">no_follow_graph</span><span class="p">:</span>
         <span class="n">recipe_source</span> <span class="o">=</span> <span class="n">autobump</span><span class="o">.</span><span class="n">RecipeSource</span><span class="p">(</span>
-            <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">packages</span><span class="p">,</span> <span class="n">exclude</span><span class="p">,</span> <span class="ow">not</span> <span class="n">no_shuffle</span><span class="p">)</span>
+            <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">packages</span><span class="p">,</span> <span class="n">exclude</span> <span class="ow">or</span> <span class="p">[],</span> <span class="ow">not</span> <span class="n">no_shuffle</span><span class="p">)</span>
         <span class="n">no_skip_pending_deps</span> <span class="o">=</span> <span class="kc">True</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="n">recipe_source</span> <span class="o">=</span> <span class="n">autobump</span><span class="o">.</span><span class="n">RecipeGraphSource</span><span class="p">(</span>

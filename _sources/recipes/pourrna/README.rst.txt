@@ -6,14 +6,14 @@
 pourrna
 =======
 
-.. conda:recipe:: pourRNA
+.. conda:recipe:: pourrna
    :replaces_section_title:
 
    Compute local minima and respective transition rates of an RNA energy landscape.
 
    :homepage: https://github.com/ViennaRNA/pourRNA/
    :license: GPLv2
-   :recipe: /`pourRNA <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pourRNA>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pourRNA/meta.yaml>`_
+   :recipe: /`pourrna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pourrna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pourrna/meta.yaml>`_
 
    
 
@@ -22,7 +22,7 @@ pourrna
 
    |downloads_pourrna| |docker_pourrna|
 
-   :versions: 1.1.0-0, 1.0.1-0
+   :versions: 1.2.0-0, 1.1.0-0, 1.0.1-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

@@ -22,12 +22,11 @@ r-xgr
 
    |downloads_r-xgr| |docker_r-xgr|
 
-   :versions: 1.1.4-0
+   :versions: 1.1.5-0, 1.1.4-0
    
    :depends bioconductor-biocgenerics: 
    :depends bioconductor-genomicranges: 
    :depends bioconductor-iranges: 
-   :depends bioconductor-rtracklayer: 
    :depends bioconductor-s4vectors: 
    :depends bioconductor-suprahex: 
    :depends r-base: >=3.5.1,<3.5.2.0a0
@@ -38,10 +37,8 @@ r-xgr
    :depends r-ggrepel: 
    :depends r-igraph: 
    :depends r-matrix: 
-   :depends r-plot3d: 
    :depends r-rcircos: 
    :depends r-tidyr: 
-   :depends r-xml: 
    :requirements:
 
    .. rubric:: Installation
