@@ -12,7 +12,7 @@ nanoplotter
    Plotting functions of Oxford Nanopore sequencing data for NanoPack
 
    :homepage: https://github.com/wdecoster/nanoplotter
-   :license: MIT / MIT License
+   :license: GPL / GPL-3.0
    :recipe: /`nanoplotter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoplotter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoplotter/meta.yaml>`_
 
    
@@ -22,14 +22,15 @@ nanoplotter
 
    |downloads_nanoplotter| |docker_nanoplotter|
 
-   :versions: 1.8.0-0, 1.6.1-0, 1.2.1-1, 1.2.1-0, 1.1.1-0, 1.0.0-2, 0.39.1-2, 0.39.1-0, 0.38.0-0, 0.35.4-0, 0.35.3-0, 0.29.0-0, 0.24.1-0, 0.22.1-0, 0.13.3-0, 0.13.2-0
+   :versions: 1.8.0-1, 1.8.0-0, 1.6.1-0, 1.2.1-1, 1.2.1-0, 1.1.1-0, 1.0.0-2, 0.39.1-2, 0.39.1-0, 0.38.0-0, 0.35.4-0, 0.35.3-0, 0.29.0-0, 0.24.1-0, 0.22.1-0, 0.13.3-0, 0.13.2-0
    
+   :depends joypy: 
    :depends matplotlib: >=2.1.0
    :depends numpy: 
    :depends pandas: 
    :depends pauvre: 0.1.86
    :depends plotly: >=3.4.2
-   :depends python: >=3.6,<3.7.0a0
+   :depends python: >3
    :depends scipy: 
    :depends seaborn: >=0.9.0
    :depends statsmodels: >=0.8.0

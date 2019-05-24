@@ -22,14 +22,19 @@ pycoqc
 
    |downloads_pycoqc| |docker_pycoqc|
 
-   :versions: 2.2.3-1, 1.0.alpha1-0
+   :versions: 2.2.3-2, 2.2.3-1, 1.0.alpha1-0
    
+   :depends h5py: >=2.8.0
+   :depends jinja2: >=2.10
    :depends matplotlib: 
    :depends notebook: 
    :depends numpy: 
-   :depends pandas: 
+   :depends pandas: >=0.23
+   :depends plotly: >=3.4
    :depends python: >=3
+   :depends scipy: >=1.1
    :depends seaborn: 
+   :depends tqdm: >=4.23
    :requirements:
 
    .. rubric:: Installation

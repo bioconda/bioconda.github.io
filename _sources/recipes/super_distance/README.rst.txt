@@ -9,7 +9,7 @@ super_distance
 .. conda:recipe:: super_distance
    :replaces_section_title:
 
-   Supertree methods with distances
+   Supertree method with distances
 
    :homepage: https://github.com/quadram-institute-bioscience/super_distance
    :license: GPLv3
@@ -23,7 +23,7 @@ super_distance
 
    |downloads_super_distance| |docker_super_distance|
 
-   :versions: 0.1-0
+   :versions: 1.1.0-0, 0.1-0
    
    :depends libgcc-ng: >=7.3.0
    :depends zlib: >=1.2.11,<1.3.0a0

@@ -22,8 +22,11 @@ phylommand
 
    |downloads_phylommand| |docker_phylommand|
 
-   :versions: 
+   :versions: 1.1.0-0
    
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends nlopt: >=2.5.0,<2.5.1.0a0
    :requirements:
 
    .. rubric:: Installation

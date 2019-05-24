@@ -24,11 +24,11 @@ irida-uploader
 
    |downloads_irida-uploader| |docker_irida-uploader|
 
-   :versions: 0.1-0
+   :versions: 0.2.1-0, 0.1-0
    
    :depends appdirs: >=1.4.3
    :depends cerberus: 
-   :depends python: 3.6.*
+   :depends python: >=3.5.*
    :depends rauth: >=0.7.3
    :depends requests: >=2.21.0
    :requirements:

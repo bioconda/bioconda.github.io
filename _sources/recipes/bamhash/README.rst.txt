@@ -22,10 +22,11 @@ bamhash
 
    |downloads_bamhash| |docker_bamhash|
 
-   :versions: 1.1-2, 1.1-1, 1.1-0, 1.0-2, 1.0-1, 1.0-0
+   :versions: 1.1-3, 1.1-2, 1.1-1, 1.1-0, 1.0-2, 1.0-1, 1.0-0
    
-   :depends libstdcxx-ng: >=4.9
-   :depends openssl: >=1.0.2o,<1.0.3a
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends openssl: >=1.1.1a,<1.1.2a
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
