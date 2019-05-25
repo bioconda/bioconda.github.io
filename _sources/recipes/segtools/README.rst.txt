@@ -22,7 +22,7 @@ segtools
 
    |downloads_segtools| |docker_segtools|
 
-   :versions: 1.2.1-1, 1.2.1-0, 1.1.14-2, 1.1.14-1, 1.1.14-0
+   :versions: 1.2.1-2, 1.2.1-1, 1.2.1-0, 1.1.14-2, 1.1.14-1, 1.1.14-0
    
    :depends genomedata: 
    :depends gmtk: 
@@ -36,6 +36,7 @@ segtools
    :depends r-latticeextra: 
    :depends r-reshape2: 
    :depends rpy2: >=2.6.0
+   :depends textinput: 
    :requirements:
 
    .. rubric:: Installation

@@ -6,14 +6,14 @@
 r-probmetab
 ===========
 
-.. conda:recipe:: r-probmetab/1.1
+.. conda:recipe:: r-probmetab
    :replaces_section_title:
 
    Provides probability ranking to candidate compounds assigned to masses\, with the prior assumption of connected sample and additional previous and spectral information modeled by the user.
 
    :homepage: https://github.com/rsilvabioinfo/ProbMetab
    :license: GPL (>= 3)
-   :recipe: /`r-probmetab <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-probmetab>`_/`1.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-probmetab/1.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-probmetab/1.1/meta.yaml>`_
+   :recipe: /`r-probmetab <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-probmetab>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-probmetab/meta.yaml>`_
 
    
 
@@ -22,14 +22,19 @@ r-probmetab
 
    |downloads_r-probmetab| |docker_r-probmetab|
 
-   :versions: 1.1-0, 1.0-0
+   :versions: 1.1-3, 1.1-0, 1.0-2, 1.0-0
    
-   :depends bioconductor-camera: 
+   :depends bioconductor-camera: 1.34.0.*
    :depends bioconductor-multtest: 
-   :depends bioconductor-rcytoscape: 
-   :depends r: 3.2.2*
+   :depends bioconductor-mzr: 2.6.3.*
+   :depends bioconductor-rcytoscape: 1.27.1.*
+   :depends libgcc-ng: >=7.3.0
+   :depends libnetcdf: 4.3.3.1.*
+   :depends libstdcxx-ng: >=7.3.0
+   :depends r-base: 3.4.1.*
    :depends r-genenet: 
    :depends r-hwriter: 
+   :depends r-rcpp: 
    :depends r-rcpparmadillo: 
    :depends r-rcurl: 
    :depends r-rjson: 

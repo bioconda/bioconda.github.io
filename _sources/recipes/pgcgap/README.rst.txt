@@ -15,7 +15,7 @@ pgcgap
    :developer docs: https://github.com/liaochenlanruo/pgcgap/tree/master
    :license: GPL / GPLv3
    :recipe: /`pgcgap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pgcgap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pgcgap/meta.yaml>`_
-   :links: biotools: :biotools:`'pgcgap'`
+   :links: biotools: :biotools:`pgcgap`
 
    
 
@@ -24,7 +24,7 @@ pgcgap
 
    |downloads_pgcgap| |docker_pgcgap|
 
-   :versions: 1.0.1-1, 1.0.1-0, 1.0.0-0
+   :versions: 1.0.2-2, 1.0.2-1, 1.0.1-1, 1.0.1-0, 1.0.0-0
    
    :depends abyss: >=2.1.5
    :depends biopython: 
@@ -54,6 +54,7 @@ pgcgap
    :depends seaborn: 
    :depends sickle-trim: >=1.33
    :depends snippy: >=4.3.6
+   :depends wget: 
    :requirements:
 
    .. rubric:: Installation
