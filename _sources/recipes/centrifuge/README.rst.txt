@@ -23,11 +23,12 @@ centrifuge
 
    |downloads_centrifuge| |docker_centrifuge|
 
-   :versions: 1.0.4_beta-2, 1.0.4_beta-0, 1.0.3-3, 1.0.3-2, 1.0.3-1, 1.0.3-0
+   :versions: 1.0.4_beta-3, 1.0.4_beta-2, 1.0.4_beta-0, 1.0.3-3, 1.0.3-2, 1.0.3-1, 1.0.3-0
    
-   :depends libstdcxx-ng: >=4.9
-   :depends perl: >=5.26.2,<5.27.0a0
-   :depends python: >=2.7,<2.8.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends perl: 
+   :depends python: <3
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

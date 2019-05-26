@@ -12,7 +12,7 @@ python-hyphy-python
    HyPhy package interface library
 
    :homepage: https://github.com/veg/hyphy-python
-   :license: UNKNOWN
+   :license: MIT
    :recipe: /`python-hyphy-python <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-hyphy-python>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-hyphy-python/meta.yaml>`_
 
    
@@ -22,10 +22,11 @@ python-hyphy-python
 
    |downloads_python-hyphy-python| |docker_python-hyphy-python|
 
-   :versions: 0.1.9-0, 0.1.6-1, 0.1.6-0, 0.1.3-0
+   :versions: 0.1.9-1, 0.1.9-0, 0.1.6-1, 0.1.6-0, 0.1.3-0
    
-   :depends curl: >=7.59.0,<8.0a0
-   :depends libgcc-ng: >=4.9
+   :depends curl: >=7.64.1,<8.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends python: >=2.7,<2.8.0a0
    :requirements:
 

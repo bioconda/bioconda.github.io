@@ -22,8 +22,9 @@ shustring
 
    |downloads_shustring| |docker_shustring|
 
-   :versions: 2.6-1, 2.6-0
+   :versions: 2.6-2, 2.6-1, 2.6-0
    
+   :depends libgcc-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation
