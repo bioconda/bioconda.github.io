@@ -22,13 +22,12 @@ r-loose.rock
 
    |downloads_r-loose.rock| |docker_r-loose.rock|
 
-   :versions: 1.0.12-0, 1.0.9-0
+   :versions: 1.0.13-0, 1.0.12-0, 1.0.9-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-digest: 
    :depends r-dplyr: 
    :depends r-futile.options: 
-   :depends r-ggfortify: 
    :depends r-ggplot2: 
    :depends r-mass: 
    :depends r-reshape2: 

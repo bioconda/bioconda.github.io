@@ -22,7 +22,7 @@ gxformat2
 
    |downloads_gxformat2| |docker_gxformat2|
 
-   :versions: 0.8.2-0, 0.8.0-0, 0.2.0-2, 0.2.0-0
+   :versions: 0.8.3-0, 0.8.2-0, 0.8.0-0, 0.2.0-2, 0.2.0-0
    
    :depends bioblend: 
    :depends python: 

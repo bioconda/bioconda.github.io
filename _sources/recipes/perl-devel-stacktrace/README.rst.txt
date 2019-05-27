@@ -22,9 +22,9 @@ perl-devel-stacktrace
 
    |downloads_perl-devel-stacktrace| |docker_perl-devel-stacktrace|
 
-   :versions: 2.03-1, 2.03-0, 2.00-0
+   :versions: 2.04-0, 2.03-1, 2.03-0, 2.00-0
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -22,7 +22,7 @@ perl-mailtools
 
    |downloads_perl-mailtools| |docker_perl-mailtools|
 
-   :versions: 2.20-0, 2.14-1, 2.14-0
+   :versions: 2.21-0, 2.20-0, 2.14-1, 2.14-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-date-format: 

@@ -22,7 +22,7 @@ avro-python2
 
    |downloads_avro-python2| |docker_avro-python2|
 
-   :versions: 1.8.2-1, 1.8.2-0, 1.8.1-0
+   :versions: 1.9.0-0, 1.8.2-1, 1.8.2-0, 1.8.1-0
    
    :depends python: 
    :requirements:

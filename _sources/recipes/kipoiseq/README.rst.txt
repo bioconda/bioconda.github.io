@@ -24,11 +24,12 @@ kipoiseq
 
    |downloads_kipoiseq| |docker_kipoiseq|
 
-   :versions: 0.2.2-0
+   :versions: 0.2.4-0, 0.2.2-0
    
    :depends genomelake: 
    :depends gffutils: 
    :depends kipoi: >=0.5.5
+   :depends kipoi-conda: 
    :depends numpy: 
    :depends pandas: 
    :depends pybedtools: 
