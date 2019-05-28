@@ -9,9 +9,9 @@ r-sequenza
 .. conda:recipe:: r-sequenza
    :replaces_section_title:
 
-   Tools to analyze genomic sequencing data from paired normal\-tumor samples\, including cellularity and ploidy estimation\; mutation and copy number \(allele\-specific and total copy number\) detection\, quantification  and visualization.
+   Tools to analyze genomic sequencing data from paired normal\-tumor samples\, including cellularity and ploidy estimation\; mutation and copy number \(allele\-specific and total copy number\) detection\, quantification and visualization.
 
-   :homepage: http://cbs.dtu.dk/biotools/sequenza/
+   :homepage: https://sequenzatools.bitbucket.io, Mailing list: https://groups.google.com/forum/#!forum/sequenza-user-group
    :license: GPL3 / GPL-3
    :recipe: /`r-sequenza <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sequenza>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sequenza/meta.yaml>`_
    :links: doi: :doi:`10.1093/annonc/mdu479`
@@ -23,10 +23,14 @@ r-sequenza
 
    |downloads_r-sequenza| |docker_r-sequenza|
 
-   :versions: 2.1.2-2, 2.1.2-1, 2.1.2-0
+   :versions: 3.0.0-0, 2.1.2-2, 2.1.2-1, 2.1.2-0
    
    :depends bioconductor-copynumber: 
    :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-iotools: 
+   :depends r-pbapply: 
+   :depends r-readr: 
+   :depends r-seqminer: 
    :depends r-squash: 
    :requirements:
 

@@ -22,7 +22,7 @@ r-tcr
 
    |downloads_r-tcr| |docker_r-tcr|
 
-   :versions: 2.2.2-0
+   :versions: 2.2.4-0, 2.2.2-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

@@ -12,7 +12,7 @@ hic2cool
    A converter between .hic files \(from juicer\) and .cool files \(for cooler\).
 
    :homepage: https://github.com/4dn-dcic/hic2cool
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`hic2cool <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hic2cool>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hic2cool/meta.yaml>`_
 
    
@@ -22,12 +22,13 @@ hic2cool
 
    |downloads_hic2cool| |docker_hic2cool|
 
-   :versions: 0.6.0-0, 0.5.1-0, 0.4.2-0, 0.4.1-0
+   :versions: 0.7.1-0, 0.6.0-0, 0.5.1-0, 0.4.2-0, 0.4.1-0
    
-   :depends cooler: >=0.8.2
+   :depends cooler: >=0.8.5
    :depends h5py: >=2.8.0
-   :depends numpy: >=1.10.1
+   :depends numpy: >=1.16.3
    :depends python: 
+   :depends scipy: >=1.2.1
    :requirements:
 
    .. rubric:: Installation
