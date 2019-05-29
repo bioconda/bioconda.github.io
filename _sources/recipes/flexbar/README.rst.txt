@@ -6,14 +6,14 @@
 flexbar
 =======
 
-.. conda:recipe:: flexbar/2.5.0
+.. conda:recipe:: flexbar/3.5.0
    :replaces_section_title:
 
    Flexible barcode and adapter removal
 
    :homepage: https://github.com/seqan/flexbar
    :license: BSD-3-Clause
-   :recipe: /`flexbar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexbar>`_/`2.5.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexbar/2.5.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexbar/2.5.0/meta.yaml>`_
+   :recipe: /`flexbar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexbar>`_/`3.5.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexbar/3.5.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexbar/3.5.0/meta.yaml>`_
    :links: biotools: :biotools:`flexbar`
 
    
@@ -23,14 +23,14 @@ flexbar
 
    |downloads_flexbar| |docker_flexbar|
 
-   :versions: 3.3.0-1, 2.5.0-2, 2.5.0-1, 2.5.0-0
+   :versions: 3.5.0-2, 3.3.0-1, 2.5.0-2, 2.5.0-1, 2.5.0-0
    
-   :depends bzip2: 1.0*
-   :depends libcxx: 
-   :depends libgcc: 
-   :depends seqan-library: ==2.4.0
-   :depends tbb: 
-   :depends zlib: 1.2.11*
+   :depends bzip2: >=1.0.6,<2.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends seqan-library: 
+   :depends tbb: >=2019.7
+   :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
    .. rubric:: Installation

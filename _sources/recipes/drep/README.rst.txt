@@ -22,7 +22,7 @@ drep
 
    |downloads_drep| |docker_drep|
 
-   :versions: 2.2.3-1, 2.2.3-0, 2.0.5-2, 2.0.5-0
+   :versions: 2.3.2-0, 2.2.3-1, 2.2.3-0, 2.0.5-2, 2.0.5-0
    
    :depends biopython: 
    :depends centrifuge: 
@@ -33,7 +33,7 @@ drep
    :depends numpy: 
    :depends pandas: 
    :depends prodigal: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >3
    :depends scikit-learn: 
    :depends seaborn: 
    :requirements:

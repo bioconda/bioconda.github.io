@@ -50,7 +50,7 @@ biobb_md
 
    |downloads_biobb_md| |docker_biobb_md|
 
-   :versions: 1.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.2-0, 0.0.1-0
+   :versions: 1.1.7-0, 1.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.2-0, 0.0.1-0
    
    :depends biobb_common: 1.1.6
    :depends gromacs: 2019.1

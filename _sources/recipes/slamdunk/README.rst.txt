@@ -22,11 +22,11 @@ slamdunk
 
    |downloads_slamdunk| |docker_slamdunk|
 
-   :versions: 0.3.4-0, 0.3.3-0, 0.3.2-1, 0.3.2-0
+   :versions: 0.3.4-1, 0.3.4-0, 0.3.3-0, 0.3.2-1, 0.3.2-0
    
    :depends biopython: >=1.63
    :depends bzip2: >=1.0.6,<2.0a0
-   :depends curl: >=7.64.0,<8.0a0
+   :depends curl: >=7.64.1,<8.0a0
    :depends cython: >=0.20.1
    :depends intervaltree: >=2.1.0
    :depends joblib: >=0.9.4
@@ -35,6 +35,7 @@ slamdunk
    :depends libstdcxx-ng: >=7.3.0
    :depends ncurses: >=6.1,<6.2.0a0
    :depends openjdk: 
+   :depends openssl: >=1.1.1a,<1.1.2a
    :depends pandas: >=0.13.1
    :depends pybedtools: >=0.6.4
    :depends pysam: >=0.8.3

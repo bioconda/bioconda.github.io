@@ -23,10 +23,9 @@ perl-vcftools-vcf
 
    |downloads_perl-vcftools-vcf| |docker_perl-vcftools-vcf|
 
-   :versions: 0.953-3, 0.953-2, 0.953-1, 0.953-0, 0.840-0, 0.797-0, 0.1.16-2, 0.1.16-1, 0.1.16-0, 0.1.15-2, 0.1.15-1, 0.1.14-0
+   :versions: 0.1.16-2, 0.1.16-1, 0.1.16-0, 0.1.15-2, 0.1.15-1, 0.1.14-0
    
-   :depends libgcc: 
-   :depends perl-threaded: 
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 
    .. rubric:: Installation
