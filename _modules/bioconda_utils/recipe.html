@@ -117,6 +117,7 @@
 <span class="kn">import</span> <span class="nn">logging</span>
 <span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">import</span> <span class="nn">sys</span>
 <span class="kn">import</span> <span class="nn">tempfile</span>
 
 <span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">defaultdict</span>
@@ -133,9 +134,11 @@
 <span class="k">try</span><span class="p">:</span>
     <span class="kn">from</span> <span class="nn">ruamel.yaml</span> <span class="k">import</span> <span class="n">YAML</span>
     <span class="kn">from</span> <span class="nn">ruamel.yaml.constructor</span> <span class="k">import</span> <span class="n">DuplicateKeyError</span>
+    <span class="kn">from</span> <span class="nn">ruamel.yaml.error</span> <span class="k">import</span> <span class="n">YAMLError</span>
 <span class="k">except</span> <span class="n">ModuleNotFoundError</span><span class="p">:</span>
     <span class="kn">from</span> <span class="nn">ruamel_yaml</span> <span class="k">import</span> <span class="n">YAML</span>
     <span class="kn">from</span> <span class="nn">ruamel_yaml.constructor</span> <span class="k">import</span> <span class="n">DuplicateKeyError</span>
+    <span class="kn">from</span> <span class="nn">ruamel_yaml.error</span> <span class="k">import</span> <span class="n">YAMLError</span>
 
 <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">utils</span>
 <span class="kn">from</span> <span class="nn">.aiopipe</span> <span class="k">import</span> <span class="n">EndProcessingItem</span>
@@ -319,18 +322,18 @@
         <span class="k">if</span> <span class="n">recipe_fname</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;meta.yaml&quot;</span><span class="p">):</span>
             <span class="n">recipe_fname</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">recipe_fname</span><span class="p">)</span>
         <span class="n">recipe</span> <span class="o">=</span> <span class="bp">cls</span><span class="p">(</span><span class="n">recipe_fname</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">)</span>
-        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe_fname</span><span class="p">,</span> <span class="s1">&#39;meta.yaml&#39;</span><span class="p">))</span> <span class="k">as</span> <span class="n">text</span><span class="p">:</span>
-            <span class="k">try</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe_fname</span><span class="p">,</span> <span class="s1">&#39;meta.yaml&#39;</span><span class="p">))</span> <span class="k">as</span> <span class="n">text</span><span class="p">:</span>
                 <span class="n">recipe</span><span class="o">.</span><span class="n">load_from_string</span><span class="p">(</span><span class="n">text</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
-            <span class="k">except</span> <span class="ne">FileNotFoundError</span><span class="p">:</span>
-                <span class="n">exc</span> <span class="o">=</span> <span class="n">MissingMetaYaml</span><span class="p">(</span><span class="n">recipe_fname</span><span class="p">)</span>
-                <span class="k">if</span> <span class="n">return_exceptions</span><span class="p">:</span>
-                    <span class="k">return</span> <span class="n">exc</span>
-                <span class="k">raise</span> <span class="n">exc</span>
-            <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
-                <span class="k">if</span> <span class="n">return_exceptions</span><span class="p">:</span>
-                    <span class="k">return</span> <span class="n">exc</span>
-                <span class="k">raise</span> <span class="n">exc</span>
+        <span class="k">except</span> <span class="ne">FileNotFoundError</span><span class="p">:</span>
+            <span class="n">exc</span> <span class="o">=</span> <span class="n">MissingMetaYaml</span><span class="p">(</span><span class="n">recipe_fname</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">return_exceptions</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">exc</span>
+            <span class="k">raise</span> <span class="n">exc</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">return_exceptions</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">exc</span>
+            <span class="k">raise</span> <span class="n">exc</span>
         <span class="n">recipe</span><span class="o">.</span><span class="n">set_original</span><span class="p">()</span>
         <span class="k">return</span> <span class="n">recipe</span></div>
 
@@ -418,6 +421,7 @@
 <span class="sd">        Returns:</span>
 <span class="sd">          a dictionary of replacements (e.g. version: 1.2.3)</span>
 <span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># unused</span>
         <span class="n">template</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_template</span><span class="p">()</span>
         <span class="k">return</span> <span class="p">{</span>
             <span class="n">attr</span><span class="p">:</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">template</span><span class="o">.</span><span class="n">module</span><span class="p">,</span> <span class="n">attr</span><span class="p">)</span>
@@ -455,12 +459,14 @@
         <span class="k">if</span> <span class="s2">&quot;package&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span> \
            <span class="ow">or</span> <span class="s2">&quot;version&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="s2">&quot;package&quot;</span><span class="p">]</span> \
            <span class="ow">or</span> <span class="s2">&quot;name&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="s2">&quot;package&quot;</span><span class="p">]:</span>
-            <span class="k">raise</span> <span class="n">MissingKey</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+            <span class="k">raise</span> <span class="n">MissingKey</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span></div>
 
-        <span class="c1"># make recipe-maintainers a list if it is a string</span>
-        <span class="n">maintainers</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="o">.</span><span class="n">mlget</span><span class="p">([</span><span class="s2">&quot;extra&quot;</span><span class="p">,</span> <span class="s2">&quot;recipe-maintainers&quot;</span><span class="p">])</span>
-        <span class="k">if</span> <span class="n">maintainers</span> <span class="ow">and</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">maintainers</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="s2">&quot;extra&quot;</span><span class="p">][</span><span class="s2">&quot;recipe-maintainers&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">maintainers</span><span class="p">]</span></div>
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">maintainers</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;List of recipe maintainers&quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="s1">&#39;extra&#39;</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span> <span class="ow">and</span> <span class="s1">&#39;recipe-maintainers&#39;</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="s1">&#39;extra&#39;</span><span class="p">]:</span>
+            <span class="k">return</span> <span class="n">utils</span><span class="o">.</span><span class="n">ensure_list</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="s1">&#39;extra&#39;</span><span class="p">][</span><span class="s1">&#39;recipe-maintainers&#39;</span><span class="p">])</span>
+        <span class="k">return</span> <span class="p">[]</span>
 
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">name</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
@@ -480,18 +486,162 @@
     <span class="k">def</span> <span class="nf">__getitem__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">):</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="n">key</span><span class="p">]</span>
 
-    <span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="ne">KeyError</span><span class="p">):</span>
-        <span class="n">data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span>
+    <span class="k">def</span> <span class="nf">_walk</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">noraise</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+        <span class="n">nodes</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">]</span>
+        <span class="n">keys</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">path</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">):</span>
+            <span class="n">last</span> <span class="o">=</span> <span class="n">nodes</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">key</span><span class="o">.</span><span class="n">isdigit</span><span class="p">():</span>
+                <span class="n">number</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
+                <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">last</span><span class="p">,</span> <span class="nb">list</span><span class="p">):</span>
+                    <span class="k">if</span> <span class="n">noraise</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">last</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">number</span><span class="p">:</span>
+                        <span class="k">break</span>
+                    <span class="n">nodes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">last</span><span class="p">[</span><span class="n">number</span><span class="p">])</span>
+                    <span class="n">keys</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
+                    <span class="k">continue</span>
+                <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">last</span><span class="p">,</span> <span class="nb">dict</span><span class="p">)</span> <span class="ow">and</span> <span class="n">number</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                    <span class="k">continue</span>
+            <span class="k">if</span> <span class="n">noraise</span> <span class="ow">and</span> <span class="n">key</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">last</span><span class="p">:</span>
+                <span class="k">break</span>
+            <span class="n">nodes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">last</span><span class="p">[</span><span class="n">key</span><span class="p">])</span>
+            <span class="n">keys</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">nodes</span><span class="p">,</span> <span class="n">keys</span>
+
+<div class="viewcode-block" id="Recipe.get_raw_range"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.get_raw_range">[docs]</a>    <span class="k">def</span> <span class="nf">get_raw_range</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Locate the position of a node in the YAML within the raw text</span>
+
+<span class="sd">        See also `get_raw()` if you want to get the content of the unparsed</span>
+<span class="sd">        meta.yaml at a specific key.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">          path: The &quot;path&quot; to the node. Use numbers for lists (&#39;source/1/url&#39;)</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">          a tuple of first_row, first_column, last_row, last_column</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">path</span><span class="p">:</span>
+            <span class="k">return</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+
+        <span class="n">nodes</span><span class="p">,</span> <span class="n">keys</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_walk</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+        <span class="n">nodes</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>  <span class="c1"># pop parsed value</span>
+
+        <span class="c1"># get the start row/col for the value</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">keys</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="nb">int</span><span class="p">):</span>
+            <span class="n">start_row</span><span class="p">,</span> <span class="n">start_col</span> <span class="o">=</span> <span class="n">nodes</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">lc</span><span class="o">.</span><span class="n">key</span><span class="p">(</span><span class="n">keys</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">start_row</span><span class="p">,</span> <span class="n">start_col</span> <span class="o">=</span> <span class="n">nodes</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">lc</span><span class="o">.</span><span class="n">value</span><span class="p">(</span><span class="n">keys</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+
+        <span class="c1"># getting the end is more complicated, we need to move</span>
+        <span class="c1"># up the tree to the next item in order until one is not the last</span>
+        <span class="c1"># item in its collection</span>
+        <span class="k">while</span> <span class="n">nodes</span><span class="p">:</span>
+            <span class="n">node</span> <span class="o">=</span> <span class="n">nodes</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+            <span class="n">key</span> <span class="o">=</span> <span class="n">keys</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="nb">int</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">key</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">node</span><span class="p">):</span>
+                    <span class="n">end_row</span><span class="p">,</span> <span class="n">end_col</span> <span class="o">=</span> <span class="n">node</span><span class="o">.</span><span class="n">lc</span><span class="o">.</span><span class="n">key</span><span class="p">(</span><span class="n">key</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+                    <span class="k">break</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">node_keys</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">node</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+                <span class="k">if</span> <span class="n">key</span> <span class="o">!=</span> <span class="n">node_keys</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
+                    <span class="n">next_key</span> <span class="o">=</span> <span class="n">node_keys</span><span class="p">[</span><span class="n">node_keys</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">key</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span>
+                    <span class="n">end_row</span><span class="p">,</span> <span class="n">end_col</span> <span class="o">=</span> <span class="n">node</span><span class="o">.</span><span class="n">lc</span><span class="o">.</span><span class="n">key</span><span class="p">(</span><span class="n">next_key</span><span class="p">)</span>
+                    <span class="k">break</span>
+        <span class="k">else</span><span class="p">:</span>  <span class="c1"># reached end of file</span>
+            <span class="n">end_row</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span>
+            <span class="n">end_col</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="n">end_row</span><span class="p">])</span>
+
+        <span class="c1"># now go backward</span>
+        <span class="k">return</span> <span class="p">(</span><span class="n">start_row</span><span class="p">,</span> <span class="n">start_col</span><span class="p">,</span> <span class="n">end_row</span><span class="p">,</span> <span class="n">end_col</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="Recipe.get_raw"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.get_raw">[docs]</a>    <span class="k">def</span> <span class="nf">get_raw</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Extracts the unparsed text for a node in the meta.yaml</span>
+
+<span class="sd">        This may contain separators and other characters from</span>
+<span class="sd">        the yaml!</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">          path: Slash-separated path to the node. Numbers can be used</span>
+<span class="sd">                to access indices in lists. A number &#39;0&#39; is ignored if</span>
+<span class="sd">                the node is a dict (so &#39;source/0/url&#39; will work even if</span>
+<span class="sd">                there is only one url).</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">          Extracted raw text</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">start_row</span><span class="p">,</span> <span class="n">start_col</span><span class="p">,</span> <span class="n">end_row</span><span class="p">,</span> <span class="n">end_col</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_raw_range</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">start_row</span> <span class="o">==</span> <span class="n">end_row</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="n">start_row</span><span class="p">][</span><span class="n">start_col</span><span class="p">:</span><span class="n">end_col</span><span class="p">]</span>
+
+        <span class="n">lines</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="c1"># first row</span>
+        <span class="n">lines</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="n">start_row</span><span class="p">][</span><span class="n">start_col</span><span class="p">:])</span>
+        <span class="c1"># middle rows if any</span>
+        <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">start_row</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">end_row</span><span class="p">):</span>
+            <span class="n">lines</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="n">row</span><span class="p">])</span>
+        <span class="n">lines</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="n">end_row</span><span class="p">][:</span><span class="n">end_col</span><span class="p">])</span>
+        <span class="k">return</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">lines</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span></div>
+
+<div class="viewcode-block" id="Recipe.get"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.get">[docs]</a>    <span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">default</span><span class="p">:</span> <span class="n">Any</span><span class="o">=</span><span class="ne">KeyError</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Any</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Get a value or section from the recipe</span>
+
+<span class="sd">        &gt;&gt;&gt; recipe.get(&#39;requirements/build&#39;)</span>
+<span class="sd">        [&#39;setuptools]</span>
+<span class="sd">        &gt;&gt;&gt; recipe.get(&#39;source/0/url&#39;)</span>
+<span class="sd">        &#39;https://somewhere&#39;</span>
+
+<span class="sd">        The **path** is a ``/`` separated list of dictionary keys to</span>
+<span class="sd">        be walked in the recipe meta data. Numeric sections in the path</span>
+<span class="sd">        access list elements. Using ``0`` in the path will get the first</span>
+<span class="sd">        element in a list or the contents directly if there is no list.</span>
+<span class="sd">        I.e., `source/0/url` will always get the first url, whether or</span>
+<span class="sd">        not the source section is a list.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">          path: Path through YAML</span>
+<span class="sd">          default: If not KeyError, this value will be returned</span>
+<span class="sd">                   if the path does not exist in the recipe</span>
+<span class="sd">        Raises:</span>
+<span class="sd">          KeyError if no default given and the path does not exist.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
         <span class="k">try</span><span class="p">:</span>
-            <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">key</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">):</span>
-                <span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">item</span><span class="p">]</span>
+            <span class="n">nodes</span><span class="p">,</span> <span class="n">keys</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_walk</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
         <span class="k">except</span> <span class="p">(</span><span class="ne">KeyError</span><span class="p">,</span> <span class="ne">TypeError</span><span class="p">):</span>
             <span class="k">if</span> <span class="n">default</span> <span class="ow">is</span> <span class="ow">not</span> <span class="ne">KeyError</span><span class="p">:</span>
                 <span class="k">return</span> <span class="n">default</span>
-            <span class="k">raise</span> <span class="ne">KeyError</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;No &#39;</span><span class="si">{key}</span><span class="s2">&#39; in Recipe </span><span class="si">{self}</span><span class="s2">&quot;</span><span class="p">)</span> <span class="kn">from</span> <span class="nn">None</span>
-        <span class="k">if</span> <span class="n">default</span> <span class="ow">is</span> <span class="ow">not</span> <span class="ne">KeyError</span> <span class="ow">and</span> <span class="n">data</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">KeyError</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;No &#39;</span><span class="si">{path}</span><span class="s2">&#39; in Recipe </span><span class="si">{self}</span><span class="s2">&quot;</span><span class="p">)</span> <span class="kn">from</span> <span class="nn">None</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="n">nodes</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">default</span> <span class="ow">is</span> <span class="ow">not</span> <span class="ne">KeyError</span> <span class="ow">and</span> <span class="n">res</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
             <span class="k">return</span> <span class="n">default</span>
-        <span class="k">return</span> <span class="n">data</span>
+        <span class="k">return</span> <span class="n">res</span></div>
+
+<div class="viewcode-block" id="Recipe.set"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.set">[docs]</a>    <span class="k">def</span> <span class="nf">set</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Set a value or section in the recipe</span>
+
+<span class="sd">        See `get` for a description of how **path** works.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># walk path into nodes/keys</span>
+        <span class="n">nodes</span><span class="p">,</span> <span class="n">keys</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_walk</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">noraise</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+        <span class="c1"># &quot;mkdir -p&quot;</span>
+        <span class="n">found_path</span> <span class="o">=</span> <span class="s1">&#39;/&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">key</span><span class="p">)</span> <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">keys</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">found_path</span> <span class="o">!=</span> <span class="n">path</span><span class="p">:</span>
+            <span class="n">_</span><span class="p">,</span> <span class="n">col</span><span class="p">,</span> <span class="n">row</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_raw_range</span><span class="p">(</span><span class="n">found_path</span><span class="p">)</span>
+            <span class="n">backup</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">path</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">)[</span><span class="nb">len</span><span class="p">(</span><span class="n">keys</span><span class="p">):]:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="n">row</span><span class="p">,</span> <span class="s1">&#39; &#39;</span> <span class="o">*</span> <span class="n">col</span> <span class="o">+</span> <span class="n">key</span> <span class="o">+</span> <span class="s1">&#39;:&#39;</span><span class="p">)</span>
+                <span class="n">row</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="n">col</span> <span class="o">+=</span> <span class="mi">2</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="n">row</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+=</span> <span class="s2">&quot; marker&quot;</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">render</span><span class="p">()</span>
+
+        <span class="c1"># get old content</span>
+        <span class="n">content</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+        <span class="n">row</span><span class="p">,</span> <span class="n">col</span><span class="p">,</span> <span class="n">end_row</span><span class="p">,</span> <span class="n">end_col</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_raw_range</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="n">row</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="n">row</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">content</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">value</span><span class="p">))</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="nb">str</span><span class="p">(</span><span class="n">value</span><span class="p">)</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="n">row</span><span class="p">]:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="n">row</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="n">row</span><span class="p">][:</span><span class="n">col</span><span class="p">]</span> <span class="o">+</span> <span class="n">value</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">render</span><span class="p">()</span></div>
 
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">package_names</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
@@ -580,87 +730,8 @@
 
         <span class="n">line</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="n">lineno</span><span class="p">]</span>
         <span class="n">line</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s2">&quot;number: [0-9]+&quot;</span><span class="p">,</span> <span class="s2">&quot;number: &quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">n</span><span class="p">),</span> <span class="n">line</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="n">lineno</span><span class="p">]</span> <span class="o">=</span> <span class="n">line</span></div>
-
-<div class="viewcode-block" id="Recipe.get_raw_range"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.get_raw_range">[docs]</a>    <span class="k">def</span> <span class="nf">get_raw_range</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Locate the position of a node in the YAML within the raw text</span>
-
-
-<span class="sd">        See also `get_raw()` if you want to get the content of the unparsed</span>
-<span class="sd">        meta.yaml at a specific key.</span>
-
-<span class="sd">        Args:</span>
-<span class="sd">          path: The &quot;path&quot; to the node. Use numbers for lists (&#39;source/1/url&#39;)</span>
-
-<span class="sd">        Returns:</span>
-<span class="sd">          a tuple of first_row, first_column, last_row, last_column</span>
-<span class="sd">        &quot;&quot;&quot;</span>
-        <span class="n">nodes</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">]</span>
-        <span class="n">keys</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="c1"># find items composing path</span>
-        <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">path</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">):</span>
-            <span class="n">last</span> <span class="o">=</span> <span class="n">nodes</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-            <span class="k">try</span><span class="p">:</span>
-                <span class="n">number</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
-                <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">last</span><span class="p">,</span> <span class="nb">list</span><span class="p">):</span>
-                    <span class="n">nodes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">last</span><span class="p">[</span><span class="n">number</span><span class="p">])</span>
-                    <span class="n">keys</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
-                <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">last</span><span class="p">,</span> <span class="nb">dict</span><span class="p">)</span> <span class="ow">and</span> <span class="n">number</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-                    <span class="k">pass</span>
-                <span class="k">else</span><span class="p">:</span>
-                    <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;Can&#39;t access </span><span class="si">{path}</span><span class="s2"> in meta&quot;</span><span class="p">)</span>
-            <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
-                <span class="n">nodes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">last</span><span class="p">[</span><span class="n">key</span><span class="p">])</span>
-                <span class="n">keys</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
-
-        <span class="n">nodes</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>  <span class="c1"># pop parsed value</span>
-
-        <span class="c1"># get the start row/col for the value</span>
-        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">keys</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="nb">int</span><span class="p">):</span>
-            <span class="n">start_row</span><span class="p">,</span> <span class="n">start_col</span> <span class="o">=</span> <span class="n">nodes</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">lc</span><span class="o">.</span><span class="n">key</span><span class="p">(</span><span class="n">keys</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="n">start_row</span><span class="p">,</span> <span class="n">start_col</span> <span class="o">=</span> <span class="n">nodes</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">lc</span><span class="o">.</span><span class="n">value</span><span class="p">(</span><span class="n">keys</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
-
-        <span class="c1"># getting the end is more complicated, we need to move</span>
-        <span class="c1"># up the tree to the next item in order until one is not the last</span>
-        <span class="c1"># item in its collection</span>
-        <span class="k">while</span> <span class="n">nodes</span><span class="p">:</span>
-            <span class="n">node</span> <span class="o">=</span> <span class="n">nodes</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
-            <span class="n">key</span> <span class="o">=</span> <span class="n">keys</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
-            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="nb">int</span><span class="p">):</span>
-                <span class="k">if</span> <span class="n">key</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">node</span><span class="p">):</span>
-                    <span class="n">end_row</span><span class="p">,</span> <span class="n">end_col</span> <span class="o">=</span> <span class="n">node</span><span class="o">.</span><span class="n">lc</span><span class="o">.</span><span class="n">key</span><span class="p">(</span><span class="n">key</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
-                    <span class="k">break</span>
-            <span class="k">else</span><span class="p">:</span>
-                <span class="n">node_keys</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">node</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
-                <span class="k">if</span> <span class="n">key</span> <span class="o">!=</span> <span class="n">node_keys</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
-                    <span class="n">next_key</span> <span class="o">=</span> <span class="n">node_keys</span><span class="p">[</span><span class="n">node_keys</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">key</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span>
-                    <span class="n">end_row</span><span class="p">,</span> <span class="n">end_col</span> <span class="o">=</span> <span class="n">node</span><span class="o">.</span><span class="n">lc</span><span class="o">.</span><span class="n">key</span><span class="p">(</span><span class="n">next_key</span><span class="p">)</span>
-                    <span class="k">break</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="n">end_row</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">)</span>
-            <span class="n">end_col</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
-        <span class="k">return</span> <span class="p">(</span><span class="n">start_row</span><span class="p">,</span> <span class="n">start_col</span><span class="p">,</span> <span class="n">end_row</span><span class="p">,</span> <span class="n">end_col</span><span class="p">)</span></div>
-
-<div class="viewcode-block" id="Recipe.get_raw"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.get_raw">[docs]</a>    <span class="k">def</span> <span class="nf">get_raw</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Extracts the unparsed text for a node in the meta.yaml</span>
-
-<span class="sd">        Args:</span>
-<span class="sd">          path: Slash-separated path to the node. Numbers can be used</span>
-<span class="sd">                to access indices in lists. A number &#39;0&#39; is ignored if</span>
-<span class="sd">                the node is a dict (so &#39;source/0/url&#39; will work even if</span>
-<span class="sd">                there is only one url).</span>
-
-<span class="sd">        Returns:</span>
-<span class="sd">          Extracted raw text</span>
-<span class="sd">        &quot;&quot;&quot;</span>
-        <span class="n">start_row</span><span class="p">,</span> <span class="n">start_col</span><span class="p">,</span> <span class="n">end_row</span><span class="p">,</span> <span class="n">end_col</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_raw_range</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-        <span class="n">lines</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="n">lines</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="n">start_row</span><span class="p">][</span><span class="n">start_col</span><span class="p">:])</span>
-        <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">start_row</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">end_row</span><span class="p">):</span>
-            <span class="n">lines</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="n">row</span><span class="p">])</span>
-        <span class="n">lines</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="n">end_row</span><span class="p">][:</span><span class="n">end_col</span><span class="p">])</span>
-        <span class="k">return</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">lines</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span></div>
+        <span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="n">lineno</span><span class="p">]</span> <span class="o">=</span> <span class="n">line</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">render</span><span class="p">()</span></div>
 
     <span class="k">def</span> <span class="nf">get_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sections</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">output</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
         <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">get_deps_dict</span><span class="p">(</span><span class="n">sections</span><span class="p">,</span> <span class="n">output</span><span class="p">)</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
@@ -724,6 +795,12 @@
         <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_conda_tempdir</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="s1">&#39;meta.yaml&#39;</span><span class="p">),</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">tmpfile</span><span class="p">:</span>
                 <span class="n">tmpfile</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dump</span><span class="p">())</span>
 
+        <span class="n">old_exit</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">exit</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">,</span> <span class="n">types</span><span class="o">.</span><span class="n">FunctionType</span><span class="p">):</span>
+            <span class="k">def</span> <span class="nf">new_exit</span><span class="p">(</span><span class="n">args</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+                <span class="k">raise</span> <span class="ne">SystemExit</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+            <span class="n">sys</span><span class="o">.</span><span class="n">exit</span> <span class="o">=</span> <span class="n">new_exit</span>
+
         <span class="k">try</span><span class="p">:</span>
             <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/dev/null&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">devnull</span><span class="p">:</span>
                 <span class="k">with</span> <span class="n">redirect_stdout</span><span class="p">(</span><span class="n">devnull</span><span class="p">),</span> <span class="n">redirect_stderr</span><span class="p">(</span><span class="n">devnull</span><span class="p">):</span>
@@ -741,6 +818,8 @@
                 <span class="k">raise</span> <span class="n">CondaRenderFailure</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">f</span><span class="s2">&quot;Jinja2 Template Error: &#39;</span><span class="si">{msg}</span><span class="s2">&#39;&quot;</span><span class="p">)</span>
             <span class="k">raise</span> <span class="n">CondaRenderFailure</span><span class="p">(</span>
                 <span class="bp">self</span><span class="p">,</span> <span class="n">f</span><span class="s2">&quot;Unknown SystemExit raised in Conda-Build Render API: &#39;</span><span class="si">{msg}</span><span class="s2">&#39;&quot;</span><span class="p">)</span>
+        <span class="k">finally</span><span class="p">:</span>
+            <span class="n">sys</span><span class="o">.</span><span class="n">exit</span> <span class="o">=</span> <span class="n">old_exit</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_conda_meta</span></div>
 
 <div class="viewcode-block" id="Recipe.conda_release"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.conda_release">[docs]</a>    <span class="k">def</span> <span class="nf">conda_release</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>

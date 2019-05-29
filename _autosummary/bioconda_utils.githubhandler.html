@@ -754,7 +754,7 @@ is provided, if user is member of that team.</p>
 
 <dl class="method">
 <dt id="bioconda_utils.githubhandler.GitHubHandler.modify_check_run">
-<code class="descname">modify_check_run</code><span class="sig-paren">(</span><em>number</em>, <em>status=None</em>, <em>conclusion=None</em>, <em>output_title=None</em>, <em>output_summary=None</em>, <em>output_text=None</em>, <em>output_annotations=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.modify_check_run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.modify_check_run" title="Permalink to this definition">¶</a></dt>
+<code class="descname">modify_check_run</code><span class="sig-paren">(</span><em>number</em>, <em>status=None</em>, <em>conclusion=None</em>, <em>output_title=None</em>, <em>output_summary=None</em>, <em>output_text=None</em>, <em>output_annotations=None</em>, <em>actions=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.modify_check_run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.modify_check_run" title="Permalink to this definition">¶</a></dt>
 <dd><p>Modify a check runs</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -770,6 +770,8 @@ is provided, if user is member of that team.</p>
 <code class="docutils literal notranslate"><span class="pre">warning</span></code>, <code class="docutils literal notranslate"><span class="pre">failure</span></code>), and a <code class="docutils literal notranslate"><span class="pre">message</span></code>. May also have
 may have <code class="docutils literal notranslate"><span class="pre">start_column</span></code> and <code class="docutils literal notranslate"><span class="pre">end_column</span></code> (if only one line),
 <code class="docutils literal notranslate"><span class="pre">title</span></code> and <code class="docutils literal notranslate"><span class="pre">raw_details</span></code>.</p></li>
+<li><p><strong>actions</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>[~KT, ~VT]]]) – List of up to three “actions” as dict of <code class="docutils literal notranslate"><span class="pre">label</span></code>, <code class="docutils literal notranslate"><span class="pre">description</span></code>
+and <code class="docutils literal notranslate"><span class="pre">identifier</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-even">Return type</dt>

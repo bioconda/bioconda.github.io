@@ -16,7 +16,7 @@
     <script type="text/javascript" src="../_static/language_data.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="checks" href="bioconda_utils.lint.checks.html" />
+    <link rel="next" title="check_build_help" href="bioconda_utils.lint.check_build_help.html" />
     <link rel="prev" title="worker" href="bioconda_utils.bot.worker.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
@@ -120,7 +120,7 @@
 <p>Recipe Linter</p>
 <div class="section" id="writing-additional-checks">
 <h2>Writing additional checks<a class="headerlink" href="#writing-additional-checks" title="Permalink to this headline">¶</a></h2>
-<p>Lint checks are defined in <a class="reference internal" href="bioconda_utils.lint.checks.html#module-bioconda_utils.lint.checks" title="bioconda_utils.lint.checks"><code class="xref py py-mod docutils literal notranslate"><span class="pre">bioconda_utils.lint.checks</span></code></a> as
+<p>Lint checks are defined in <code class="xref py py-mod docutils literal notranslate"><span class="pre">bioconda_utils.lint.checks</span></code> as
 subclasses of <a class="reference internal" href="#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintCheck</span></code></a>. It might be easiest to have a look at that
 module and the already existing checks and go from there.</p>
 <p>Briefly, each class becomes a check by:</p>
@@ -142,7 +142,7 @@ classes that are required to have passed before this check is
 executed. Use this to avoid duplicate errors presented, or to
 ensure that asumptions made by your check are met by the recipe.</p></li>
 <li><p>Each class is instantiated once per linting run. Do slow preparation
-work in the constructor. E.g. the <a class="reference internal" href="bioconda_utils.lint.checks.html#bioconda_utils.lint.checks.recipe_is_blacklisted" title="bioconda_utils.lint.checks.recipe_is_blacklisted"><code class="xref any py py-class docutils literal notranslate"><span class="pre">recipe_is_blacklisted</span></code></a> check
+work in the constructor. E.g. the <a class="reference internal" href="bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.recipe_is_blacklisted" title="bioconda_utils.lint.check_repo.recipe_is_blacklisted"><code class="xref any py py-class docutils literal notranslate"><span class="pre">recipe_is_blacklisted</span></code></a> check
 loads and parses the blacklist here.</p></li>
 <li><p>As each recipe is linted, your check will get called on three
 functions: <a class="reference internal" href="#bioconda_utils.lint.LintCheck.check_recipe" title="bioconda_utils.lint.LintCheck.check_recipe"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">check_recipe</span></code></a>, <a class="reference internal" href="#bioconda_utils.lint.LintCheck.check_deps" title="bioconda_utils.lint.LintCheck.check_deps"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">check_deps</span></code></a> and <a class="reference internal" href="#bioconda_utils.lint.LintCheck.check_source" title="bioconda_utils.lint.LintCheck.check_source"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">check_source</span></code></a>.</p>
@@ -191,8 +191,26 @@ checks for specific recipes, add strings of the following form:</p>
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.lint.checks.html#module-bioconda_utils.lint.checks" title="bioconda_utils.lint.checks"><code class="xref py py-obj docutils literal notranslate"><span class="pre">checks</span></code></a></p></td>
-<td><p>Lint Checks for Recipe Linter</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.lint.check_build_help.html#module-bioconda_utils.lint.check_build_help" title="bioconda_utils.lint.check_build_help"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_build_help</span></code></a></p></td>
+<td><p>Build tool usage</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.lint.check_completeness.html#module-bioconda_utils.lint.check_completeness" title="bioconda_utils.lint.check_completeness"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_completeness</span></code></a></p></td>
+<td><p>Completeness</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.lint.check_deprecation.html#module-bioconda_utils.lint.check_deprecation" title="bioconda_utils.lint.check_deprecation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_deprecation</span></code></a></p></td>
+<td><p>Deprecated packages and syntax</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.lint.check_noarch.html#module-bioconda_utils.lint.check_noarch" title="bioconda_utils.lint.check_noarch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_noarch</span></code></a></p></td>
+<td><p>Use of <code class="docutils literal notranslate"><span class="pre">noarch</span></code> and <code class="docutils literal notranslate"><span class="pre">skip</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.lint.check_policy.html#module-bioconda_utils.lint.check_policy" title="bioconda_utils.lint.check_policy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_policy</span></code></a></p></td>
+<td><p>Policy compliance</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.lint.check_repo.html#module-bioconda_utils.lint.check_repo" title="bioconda_utils.lint.check_repo"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_repo</span></code></a></p></td>
+<td><p>Repository checks</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.lint.check_syntax.html#module-bioconda_utils.lint.check_syntax" title="bioconda_utils.lint.check_syntax"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_syntax</span></code></a></p></td>
+<td><p>Syntax checks</p></td>
 </tr>
 </tbody>
 </table>
@@ -204,7 +222,7 @@ checks for specific recipes, add strings of the following form:</p>
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.get_checks" title="bioconda_utils.lint.get_checks"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_checks</span></code></a>()</p></td>
-<td><p>Returns the registered lint checks</p></td>
+<td><p>Loads and returns the available lint checks</p></td>
 </tr>
 </tbody>
 </table>
@@ -224,7 +242,7 @@ checks for specific recipes, add strings of the following form:</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LintMessage</span></code></a></p></td>
 <td><p>Message issued by LintChecks</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint.Linter" title="bioconda_utils.lint.Linter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Linter</span></code></a>(config, recipe_folder[, exclude])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint.Linter" title="bioconda_utils.lint.Linter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Linter</span></code></a>(config, recipe_folder[, exclude, nocatch])</p></td>
 <td><p>Lint executor</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.Severity" title="bioconda_utils.lint.Severity"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Severity</span></code></a></p></td>
@@ -327,15 +345,31 @@ to issue <a class="reference internal" href="#bioconda_utils.lint.LintMessage" t
 </dl>
 </dd></dl>
 
+<dl class="method">
+<dt id="bioconda_utils.lint.LintCheck.fix">
+<code class="descname">fix</code><span class="sig-paren">(</span><em>message</em>, <em>data</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint.html#LintCheck.fix"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.fix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Attempt to fix the problem</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
 <dl class="classmethod">
 <dt id="bioconda_utils.lint.LintCheck.make_message">
-<em class="property">classmethod </em><code class="descname">make_message</code><span class="sig-paren">(</span><em>recipe</em>, <em>section=None</em>, <em>fname=None</em>, <em>line=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint.html#LintCheck.make_message"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.make_message" title="Permalink to this definition">¶</a></dt>
+<em class="property">classmethod </em><code class="descname">make_message</code><span class="sig-paren">(</span><em>recipe</em>, <em>section=None</em>, <em>fname=None</em>, <em>line=None</em>, <em>canfix=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint.html#LintCheck.make_message"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.make_message" title="Permalink to this definition">¶</a></dt>
 <dd><p>Create a LintMessage</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>section</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – If specified, a lint location within the recipe
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>section</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – If specified, a lint location within the recipe
 meta.yaml pointing to this section/subsection will
-be added to the message</p>
+be added to the message</p></li>
+<li><p><strong>fname</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – If specified, the message will apply to this file, rather than the
+recipe meta.yaml</p></li>
+<li><p><strong>line</strong> – If specified, sets the line number for the message directly</p></li>
+</ul>
 </dd>
 <dt class="field-even">Return type</dt>
 <dd class="field-even"><p><a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a></p>
@@ -345,18 +379,38 @@ be added to the message</p>
 
 <dl class="method">
 <dt id="bioconda_utils.lint.LintCheck.message">
-<code class="descname">message</code><span class="sig-paren">(</span><em>section=None</em>, <em>fname=None</em>, <em>line=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint.html#LintCheck.message"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.message" title="Permalink to this definition">¶</a></dt>
+<code class="descname">message</code><span class="sig-paren">(</span><em>section=None</em>, <em>fname=None</em>, <em>line=None</em>, <em>data=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint.html#LintCheck.message"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.message" title="Permalink to this definition">¶</a></dt>
 <dd><p>Add a message to the lint results</p>
+<p>Also calls <a class="reference internal" href="#bioconda_utils.lint.LintCheck.fix" title="bioconda_utils.lint.LintCheck.fix"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">fix</span></code></a> if we are supposed to be fixing.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>section</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – If specified, a lint location within the recipe
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>section</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – If specified, a lint location within the recipe
 meta.yaml pointing to this section/subsection will
-be added to the message</p>
+be added to the message</p></li>
+<li><p><strong>fname</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – If specified, the message will apply to this file, rather than the
+recipe meta.yaml</p></li>
+<li><p><strong>line</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>]) – If specified, sets the line number for the message directly</p></li>
+<li><p><strong>data</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]) – Data to be passed to <a class="reference internal" href="#bioconda_utils.lint.LintCheck.fix" title="bioconda_utils.lint.LintCheck.fix"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">fix</span></code></a>. If check can fix, set this to
+something other than None.</p></li>
+</ul>
 </dd>
 <dt class="field-even">Return type</dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
 </dd>
 </dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.lint.LintCheck.messages">
+<code class="descname">messages</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Messages collected running tests</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.lint.LintCheck.recipe">
+<code class="descname">recipe</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe currently being checked</p>
 </dd></dl>
 
 <dl class="attribute">
@@ -367,11 +421,17 @@ be added to the message</p>
 
 <dl class="method">
 <dt id="bioconda_utils.lint.LintCheck.run">
-<code class="descname">run</code><span class="sig-paren">(</span><em>recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint.html#LintCheck.run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.run" title="Permalink to this definition">¶</a></dt>
+<code class="descname">run</code><span class="sig-paren">(</span><em>recipe</em>, <em>fix=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint.html#LintCheck.run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.run" title="Permalink to this definition">¶</a></dt>
 <dd><p>Run the check on a recipe. Called by Linter</p>
 <dl class="field-list simple">
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a>]</p>
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>recipe</strong> (<a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><code class="xref py py-class docutils literal notranslate"><span class="pre">Recipe</span></code></a>) – The recipe to be linted</p></li>
+<li><p><strong>fix</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>) – Whether to attempt to fix the recipe</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a>]</p>
 </dd>
 </dl>
 </dd></dl>
@@ -380,6 +440,12 @@ be added to the message</p>
 <dt id="bioconda_utils.lint.LintCheck.severity">
 <code class="descname">severity</code><em class="property"> = 30</em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.severity" title="Permalink to this definition">¶</a></dt>
 <dd><p>Severity of this check. Only ERROR causes a lint failure.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.lint.LintCheck.try_fix">
+<code class="descname">try_fix</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.try_fix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Whether we are supposed to fix</p>
 </dd></dl>
 
 </dd></dl>
@@ -398,11 +464,17 @@ be added to the message</p>
 <em class="property">class </em><code class="descclassname">bioconda_utils.lint.</code><code class="descname">LintMessage</code><a class="reference internal" href="../_modules/bioconda_utils/lint.html#LintMessage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintMessage" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">tuple</span></code></a></p>
 <p>Message issued by LintChecks</p>
-<p>Create new instance of LintMessage(recipe, check, severity, title, body, start_line, end_line, fname)</p>
+<p>Create new instance of LintMessage(recipe, check, severity, title, body, start_line, end_line, fname, canfix)</p>
 <dl class="attribute">
 <dt id="bioconda_utils.lint.LintMessage.body">
 <code class="descname">body</code><a class="headerlink" href="#bioconda_utils.lint.LintMessage.body" title="Permalink to this definition">¶</a></dt>
 <dd><p>Message body to be presented to user</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.lint.LintMessage.canfix">
+<code class="descname">canfix</code><a class="headerlink" href="#bioconda_utils.lint.LintMessage.canfix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Whether the problem can be auto fixed</p>
 </dd></dl>
 
 <dl class="attribute">
@@ -457,15 +529,15 @@ be added to the message</p>
 
 <dl class="class">
 <dt id="bioconda_utils.lint.Linter">
-<em class="property">class </em><code class="descclassname">bioconda_utils.lint.</code><code class="descname">Linter</code><span class="sig-paren">(</span><em>config</em>, <em>recipe_folder</em>, <em>exclude=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint.html#Linter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.Linter" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">bioconda_utils.lint.</code><code class="descname">Linter</code><span class="sig-paren">(</span><em>config</em>, <em>recipe_folder</em>, <em>exclude=None</em>, <em>nocatch=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint.html#Linter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.Linter" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
 <p>Lint executor</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>config</strong> – Configuration dict as provided by <a class="reference internal" href="bioconda_utils.utils.html#bioconda_utils.utils.load_config" title="bioconda_utils.utils.load_config"><code class="xref any py py-func docutils literal notranslate"><span class="pre">utils.load_config()</span></code></a>.</p></li>
+<li><p><strong>config</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>[~KT, ~VT]) – Configuration dict as provided by <a class="reference internal" href="bioconda_utils.utils.html#bioconda_utils.utils.load_config" title="bioconda_utils.utils.load_config"><code class="xref any py py-func docutils literal notranslate"><span class="pre">utils.load_config()</span></code></a>.</p></li>
 <li><p><strong>recipe_folder</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Folder which recipes are located.</p></li>
-<li><p><strong>exclude</strong> – List of function names in <code class="docutils literal notranslate"><span class="pre">registry</span></code> to skip globally.
+<li><p><strong>exclude</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]]) – List of function names in <code class="docutils literal notranslate"><span class="pre">registry</span></code> to skip globally.
 When running on CI, this will be merged with anything
 else detected from the commit message or LINT_SKIP
 environment variable using the special string “[skip
@@ -473,9 +545,81 @@ lint &lt;function name&gt; for &lt;recipe name&gt;]”. While those
 other mechanisms define skipping on a recipe-specific
 basis, this argument can be used to skip tests for all
 recipes. Use sparingly.</p></li>
+<li><p><strong>nocatch</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>) – Don’t catch exceptions in lint checks and turn them into
+linter_error lint messages. Used by tests.</p></li>
 </ul>
 </dd>
 </dl>
+<dl class="method">
+<dt id="bioconda_utils.lint.Linter.clear_messages">
+<code class="descname">clear_messages</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint.html#Linter.clear_messages"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.Linter.clear_messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Clears the lint messages stored in linter</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.lint.Linter.get_blacklist">
+<code class="descname">get_blacklist</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint.html#Linter.get_blacklist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.Linter.get_blacklist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Loads the blacklist as per linter configuration</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Set" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Set</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.lint.Linter.get_messages">
+<code class="descname">get_messages</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint.html#Linter.get_messages"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.Linter.get_messages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the lint messages collected during linting</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.lint.Linter.lint">
+<code class="descname">lint</code><span class="sig-paren">(</span><em>recipe_names</em>, <em>fix=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint.html#Linter.lint"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.Linter.lint" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run linter on multiple recipes</p>
+<p>Lint messages are collected in the linter. They can be retrieved
+with <a class="reference internal" href="#bioconda_utils.lint.Linter.get_messages" title="bioconda_utils.lint.Linter.get_messages"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">get_messages</span></code></a> and the list cleared with <a class="reference internal" href="#bioconda_utils.lint.Linter.clear_messages" title="bioconda_utils.lint.Linter.clear_messages"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">clear_messages</span></code></a>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>recipe_names</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – List of names of recipes to lint</p></li>
+<li><p><strong>fix</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>) – Whether checks should attempt to fix detected issues</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>True if issues with errors were found</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.lint.Linter.lint_one">
+<code class="descname">lint_one</code><span class="sig-paren">(</span><em>recipe_name</em>, <em>fix=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint.html#Linter.lint_one"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.Linter.lint_one" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run the linter on a single recipe</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>recipe_name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Mames of recipe to lint</p></li>
+<li><p><strong>fix</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>) – Whether checks should attempt to fix detected issues</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a>]</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>List of collected messages</p>
+</dd>
+</dl>
+</dd></dl>
+
 <dl class="method">
 <dt id="bioconda_utils.lint.Linter.load_skips">
 <code class="descname">load_skips</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint.html#Linter.load_skips"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.Linter.load_skips" title="Permalink to this definition">¶</a></dt>
@@ -540,7 +684,7 @@ become. Please merge the two offending sections</p>
 <dl class="function">
 <dt id="bioconda_utils.lint.get_checks">
 <code class="descclassname">bioconda_utils.lint.</code><code class="descname">get_checks</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint.html#get_checks"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.get_checks" title="Permalink to this definition">¶</a></dt>
-<dd><p>Returns the registered lint checks</p>
+<dd><p>Loads and returns the available lint checks</p>
 </dd></dl>
 
 <dl class="class">

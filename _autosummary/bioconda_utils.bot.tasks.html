@@ -170,7 +170,7 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.Checkout" title="bioconda_utils.bot.tasks.Checkout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Checkout</span></code></a>(ghapi[, ref, issue_number])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.Checkout" title="bioconda_utils.bot.tasks.Checkout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Checkout</span></code></a>(ghapi[, ref, issue_number, branch_name])</p></td>
 <td><p>Async context manager checking out git repo</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.Image" title="bioconda_utils.bot.tasks.Image"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Image</span></code></a>(url, name, tag)</p></td>
@@ -187,7 +187,7 @@
 <p class="rubric">Documentation</p>
 <dl class="class">
 <dt id="bioconda_utils.bot.tasks.Checkout">
-<em class="property">class </em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">Checkout</code><span class="sig-paren">(</span><em>ghapi</em>, <em>ref=None</em>, <em>issue_number=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/tasks.html#Checkout"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.tasks.Checkout" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">Checkout</code><span class="sig-paren">(</span><em>ghapi</em>, <em>ref=None</em>, <em>issue_number=None</em>, <em>branch_name='master'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/tasks.html#Checkout"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.tasks.Checkout" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
 <p>Async context manager checking out git repo</p>
 <dl class="field-list simple">
@@ -365,6 +365,20 @@ one already exists</p></li>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>check_run_number</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – ID of GitHub <code class="docutils literal notranslate"><span class="pre">check_run</span></code></p></li>
 <li><p><strong>ref</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – SHA of commit to check</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="task">
+<dt id="bioconda_utils.bot.tasks.lint_fix">
+<em class="property">(task)</em><code class="descclassname">bioconda_utils.bot.tasks.</code><code class="descname">lint_fix</code><span class="sig-paren">(</span><em>head_branch</em>, <em>_head_sha</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.lint_fix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Execute linter in fix mode</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>check_run_number</strong> – ID of GitHub <code class="docutils literal notranslate"><span class="pre">check_run</span></code></p></li>
+<li><p><strong>ref</strong> – SHA of commit to check</p></li>
 </ul>
 </dd>
 </dl>

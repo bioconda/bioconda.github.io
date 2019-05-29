@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>check_syntax &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="aiopipe" href="bioconda_utils.aiopipe.html" />
+    <link rel="prev" title="check_repo" href="bioconda_utils.lint.check_repo.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../index.html">
+    <img class="logo" src="../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../updating.html">Updating recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linting.html">Linting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cb3.html">Conda build v3</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../developer.html">Developer Docs</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.lint.html">lint</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint.html#writing-additional-checks">Writing additional checks</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="bioconda_utils.lint.html#module-autodocs">Module Autodocs</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="../conda-recipe_index.html">Recipe Index</a></li>
+  
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-bioconda_utils.lint.check_syntax">
+<span id="check-syntax"></span><h1>check_syntax<a class="headerlink" href="#module-bioconda_utils.lint.check_syntax" title="Permalink to this headline">¶</a></h1>
+<p>Syntax checks</p>
+<p>These checks verify syntax (schema), in particular for the <code class="docutils literal notranslate"><span class="pre">extra</span></code>
+section that is otherwise free-form.</p>
+<p class="rubric">Classes</p>
+<table class="longtable docutils align-center">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon" title="bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon"><code class="xref py py-obj docutils literal notranslate"><span class="pre">extra_identifiers_missing_colon</span></code></a>(_linter)</p></td>
+<td><p>Each item in the extra/identifiers section must be of form <code class="docutils literal notranslate"><span class="pre">type:value</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_syntax.extra_identifiers_not_list" title="bioconda_utils.lint.check_syntax.extra_identifiers_not_list"><code class="xref py py-obj docutils literal notranslate"><span class="pre">extra_identifiers_not_list</span></code></a>(_linter)</p></td>
+<td><p>The extra/identifiers section must be a list</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_syntax.extra_identifiers_not_string" title="bioconda_utils.lint.check_syntax.extra_identifiers_not_string"><code class="xref py py-obj docutils literal notranslate"><span class="pre">extra_identifiers_not_string</span></code></a>(_linter)</p></td>
+<td><p>Each item in the extra/identifiers section must be a string</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_syntax.extra_skip_lints_not_list" title="bioconda_utils.lint.check_syntax.extra_skip_lints_not_list"><code class="xref py py-obj docutils literal notranslate"><span class="pre">extra_skip_lints_not_list</span></code></a>(_linter)</p></td>
+<td><p>The extra/skip-lints section must contain a list</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Documentation</p>
+<dl class="class">
+<dt id="bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon">
+<em class="property">class </em><code class="descclassname">bioconda_utils.lint.check_syntax.</code><code class="descname">extra_identifiers_missing_colon</code><span class="sig-paren">(</span><em>_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_identifiers_missing_colon"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
+<p>Each item in the extra/identifiers section must be of form <code class="docutils literal notranslate"><span class="pre">type:value</span></code></p>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">extra</span><span class="p">:</span>
+   <span class="n">identifiers</span><span class="p">:</span>
+      <span class="o">-</span> <span class="n">doi</span><span class="p">:</span><span class="mi">123</span>
+</pre></div>
+</div>
+<dl class="method">
+<dt id="bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon.check_recipe">
+<code class="descname">check_recipe</code><span class="sig-paren">(</span><em>recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_identifiers_missing_colon.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon.check_recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Execute check on recipe</p>
+<p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
+to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>recipe</strong> – The recipe under test.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="bioconda_utils.lint.check_syntax.extra_identifiers_not_list">
+<em class="property">class </em><code class="descclassname">bioconda_utils.lint.check_syntax.</code><code class="descname">extra_identifiers_not_list</code><span class="sig-paren">(</span><em>_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_identifiers_not_list"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_identifiers_not_list" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
+<p>The extra/identifiers section must be a list</p>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">extra</span><span class="p">:</span>
+   <span class="n">identifiers</span><span class="p">:</span>
+      <span class="o">-</span> <span class="n">doi</span><span class="p">:</span><span class="mi">123</span>
+</pre></div>
+</div>
+<dl class="method">
+<dt id="bioconda_utils.lint.check_syntax.extra_identifiers_not_list.check_recipe">
+<code class="descname">check_recipe</code><span class="sig-paren">(</span><em>recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_identifiers_not_list.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_identifiers_not_list.check_recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Execute check on recipe</p>
+<p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
+to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>recipe</strong> – The recipe under test.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="bioconda_utils.lint.check_syntax.extra_identifiers_not_string">
+<em class="property">class </em><code class="descclassname">bioconda_utils.lint.check_syntax.</code><code class="descname">extra_identifiers_not_string</code><span class="sig-paren">(</span><em>_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_identifiers_not_string"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_identifiers_not_string" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
+<p>Each item in the extra/identifiers section must be a string</p>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">extra</span><span class="p">:</span>
+   <span class="n">identifiers</span><span class="p">:</span>
+      <span class="o">-</span> <span class="n">doi</span><span class="p">:</span><span class="mi">123</span>
+</pre></div>
+</div>
+<p>Note that there is no space around the colon</p>
+<dl class="method">
+<dt id="bioconda_utils.lint.check_syntax.extra_identifiers_not_string.check_recipe">
+<code class="descname">check_recipe</code><span class="sig-paren">(</span><em>recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_identifiers_not_string.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_identifiers_not_string.check_recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Execute check on recipe</p>
+<p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
+to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>recipe</strong> – The recipe under test.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="bioconda_utils.lint.check_syntax.extra_skip_lints_not_list">
+<em class="property">class </em><code class="descclassname">bioconda_utils.lint.check_syntax.</code><code class="descname">extra_skip_lints_not_list</code><span class="sig-paren">(</span><em>_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_skip_lints_not_list"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_skip_lints_not_list" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
+<p>The extra/skip-lints section must contain a list</p>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">extra</span><span class="p">:</span>
+   <span class="n">skip</span><span class="o">-</span><span class="n">lints</span><span class="p">:</span>
+      <span class="o">-</span> <span class="n">should_use_compilers</span>
+</pre></div>
+</div>
+<dl class="method">
+<dt id="bioconda_utils.lint.check_syntax.extra_skip_lints_not_list.check_recipe">
+<code class="descname">check_recipe</code><span class="sig-paren">(</span><em>recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_skip_lints_not_list.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_skip_lints_not_list.check_recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Execute check on recipe</p>
+<p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
+to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>recipe</strong> – The recipe under test.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2019, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/_autosummary/bioconda_utils.lint.check_syntax.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/bioconda_utils/lint/check_syntax.py" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

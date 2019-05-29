@@ -179,11 +179,12 @@
 <span class="sd">    &gt;&gt;&gt;   else:</span>
 <span class="sd">    &gt;&gt;&gt;      for filename in git.list_changed_files():</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">,</span> <span class="n">ref</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">issue_number</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">,</span> <span class="n">ref</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">issue_number</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">branch_name</span><span class="o">=</span><span class="s2">&quot;master&quot;</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">ghapi</span> <span class="o">=</span> <span class="n">ghapi</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">orig_cwd</span> <span class="o">=</span> <span class="kc">None</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">git</span> <span class="o">=</span> <span class="kc">None</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">ref</span> <span class="o">=</span> <span class="n">ref</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">branch_name</span> <span class="o">=</span> <span class="n">branch_name</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">issue_number</span> <span class="o">=</span> <span class="n">issue_number</span>
 
     <span class="k">async</span> <span class="k">def</span> <span class="nf">__aenter__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -202,7 +203,7 @@
             <span class="k">else</span><span class="p">:</span>
                 <span class="n">fork_user</span> <span class="o">=</span> <span class="kc">None</span>
                 <span class="n">fork_repo</span> <span class="o">=</span> <span class="kc">None</span>
-                <span class="n">branch_name</span> <span class="o">=</span> <span class="s2">&quot;master&quot;</span>
+                <span class="n">branch_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">branch_name</span>
                 <span class="n">ref</span> <span class="o">=</span> <span class="kc">None</span>
 
             <span class="bp">self</span><span class="o">.</span><span class="n">git</span> <span class="o">=</span> <span class="n">TempBiocondaRepo</span><span class="p">(</span>
@@ -220,6 +221,9 @@
 
             <span class="k">if</span> <span class="ow">not</span> <span class="n">ref</span><span class="p">:</span>
                 <span class="n">branch</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">get_local_branch</span><span class="p">(</span><span class="n">branch_name</span><span class="p">)</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="n">branch</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">create_local_branch</span><span class="p">(</span><span class="n">branch_name</span><span class="p">)</span>
+                    <span class="n">branch</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">get_local_branch</span><span class="p">(</span><span class="n">branch_name</span><span class="p">)</span>
             <span class="k">else</span><span class="p">:</span>
                 <span class="n">branch</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">create_local_branch</span><span class="p">(</span><span class="n">branch_name</span><span class="p">,</span> <span class="n">ref</span><span class="p">)</span>
             <span class="k">if</span> <span class="ow">not</span> <span class="n">branch</span><span class="p">:</span>
@@ -333,22 +337,9 @@
 
         <span class="c1"># Here we call the actual linter code</span>
         <span class="n">config</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">load_config</span><span class="p">(</span><span class="s1">&#39;config.yml&#39;</span><span class="p">)</span>
-        <span class="n">linter</span> <span class="o">=</span> <span class="n">lint</span><span class="o">.</span><span class="n">Linter</span><span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="s1">&#39;recipes&#39;</span><span class="p">)</span>
+        <span class="n">linter</span> <span class="o">=</span> <span class="n">lint</span><span class="o">.</span><span class="n">Linter</span><span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="s1">&#39;recipes&#39;</span><span class="p">)</span>  <span class="c1"># fixme, should be configurable</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="n">linter</span><span class="o">.</span><span class="n">lint</span><span class="p">(</span><span class="n">recipes</span><span class="p">)</span>
 
-        <span class="c1"># Workaround celery/billiard messing with sys.exit</span>
-        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">,</span> <span class="n">types</span><span class="o">.</span><span class="n">FunctionType</span><span class="p">):</span>
-            <span class="k">def</span> <span class="nf">new_exit</span><span class="p">(</span><span class="n">args</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-                <span class="k">raise</span> <span class="ne">SystemExit</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
-            <span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">,</span> <span class="n">old_exit</span><span class="p">)</span> <span class="o">=</span> <span class="p">(</span><span class="n">new_exit</span><span class="p">,</span> <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">)</span>
-
-            <span class="k">try</span><span class="p">:</span>
-                <span class="n">res</span> <span class="o">=</span> <span class="n">linter</span><span class="o">.</span><span class="n">lint</span><span class="p">(</span><span class="n">recipes</span><span class="p">)</span>
-            <span class="k">except</span> <span class="ne">SystemExit</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
-                <span class="n">old_exit</span><span class="p">(</span><span class="n">exc</span><span class="o">.</span><span class="n">args</span><span class="p">)</span>
-            <span class="k">finally</span><span class="p">:</span>
-                <span class="n">sys</span><span class="o">.</span><span class="n">exit</span> <span class="o">=</span> <span class="n">old_exit</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="n">res</span> <span class="o">=</span> <span class="n">linter</span><span class="o">.</span><span class="n">lint</span><span class="p">(</span><span class="n">recipes</span><span class="p">)</span>
     <span class="n">messages</span> <span class="o">=</span> <span class="n">linter</span><span class="o">.</span><span class="n">get_messages</span><span class="p">()</span>
 
     <span class="n">summary</span> <span class="o">=</span> <span class="s2">&quot;Linted recipes:</span><span class="se">\n</span><span class="s2">&quot;</span>
@@ -391,6 +382,14 @@
             <span class="n">f</span><span class="s1">&#39;[</span><span class="si">{msg.check}</span><span class="s1">](</span><span class="si">{url}</span><span class="s1">#{str(msg.check).replace(&quot;_&quot;,&quot;-&quot;)})|</span><span class="si">{msg.title}</span><span class="s1">&#39;</span>
         <span class="p">)</span>
 
+    <span class="n">actions</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">if</span> <span class="nb">any</span><span class="p">(</span><span class="n">msg</span><span class="o">.</span><span class="n">canfix</span> <span class="k">for</span> <span class="n">msg</span> <span class="ow">in</span> <span class="n">messages</span><span class="p">):</span>
+        <span class="n">actions</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+            <span class="s1">&#39;label&#39;</span><span class="p">:</span> <span class="s2">&quot;Fix Issues&quot;</span><span class="p">,</span>
+            <span class="s1">&#39;description&#39;</span><span class="p">:</span> <span class="s2">&quot;Some issues can be fixed automatically&quot;</span><span class="p">,</span>
+            <span class="s1">&#39;identifier&#39;</span><span class="p">:</span> <span class="s1">&#39;lint_fix&#39;</span>
+        <span class="p">})</span>
+
     <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">modify_check_run</span><span class="p">(</span>
         <span class="n">check_run_number</span><span class="p">,</span>
         <span class="n">status</span><span class="o">=</span><span class="n">CheckRunStatus</span><span class="o">.</span><span class="n">completed</span><span class="p">,</span>
@@ -398,7 +397,32 @@
         <span class="n">output_title</span><span class="o">=</span><span class="n">title</span><span class="p">,</span>
         <span class="n">output_summary</span><span class="o">=</span><span class="n">summary</span><span class="p">,</span>
         <span class="n">output_text</span><span class="o">=</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">details</span><span class="p">)</span> <span class="k">if</span> <span class="n">messages</span> <span class="k">else</span> <span class="kc">None</span><span class="p">,</span>
-        <span class="n">output_annotations</span><span class="o">=</span><span class="n">annotations</span><span class="p">)</span>
+        <span class="n">output_annotations</span><span class="o">=</span><span class="n">annotations</span><span class="p">,</span>
+        <span class="n">actions</span><span class="o">=</span><span class="n">actions</span><span class="p">)</span>
+
+
+<span class="nd">@celery</span><span class="o">.</span><span class="n">task</span><span class="p">(</span><span class="n">acks_late</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">lint_fix</span><span class="p">(</span><span class="n">head_branch</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">_head_sha</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Execute linter in fix mode</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">      check_run_number: ID of GitHub ``check_run``</span>
+<span class="sd">      ref: SHA of commit to check</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">async</span> <span class="k">with</span> <span class="n">Checkout</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">branch_name</span><span class="o">=</span><span class="n">head_branch</span><span class="p">)</span> <span class="k">as</span> <span class="n">git</span><span class="p">:</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">git</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;lint_fix: Failed to checkout&quot;</span><span class="p">)</span>
+            <span class="k">return</span>
+        <span class="n">recipes</span> <span class="o">=</span> <span class="n">git</span><span class="o">.</span><span class="n">get_recipes_to_build</span><span class="p">()</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">recipes</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;No recipes? Internal error&quot;</span><span class="p">)</span>
+            <span class="k">return</span>
+        <span class="n">config</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">load_config</span><span class="p">(</span><span class="s1">&#39;config.yml&#39;</span><span class="p">)</span>
+        <span class="n">linter</span> <span class="o">=</span> <span class="n">lint</span><span class="o">.</span><span class="n">Linter</span><span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="s1">&#39;recipes&#39;</span><span class="p">)</span>  <span class="c1"># fixme, should be configurable</span>
+        <span class="n">linter</span><span class="o">.</span><span class="n">lint</span><span class="p">(</span><span class="n">recipes</span><span class="p">,</span> <span class="n">fix</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+        <span class="n">msg</span> <span class="o">=</span> <span class="s2">&quot;Fixed Lint Checks&quot;</span>
+        <span class="n">git</span><span class="o">.</span><span class="n">commit_and_push_changes</span><span class="p">([</span><span class="s1">&#39;recipes&#39;</span><span class="p">],</span> <span class="kc">None</span><span class="p">,</span> <span class="n">msg</span><span class="o">=</span><span class="n">msg</span><span class="p">,</span> <span class="n">sign</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
 
 <span class="nd">@celery</span><span class="o">.</span><span class="n">task</span><span class="p">(</span><span class="n">acks_late</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>

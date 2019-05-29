@@ -387,9 +387,44 @@ objects.</p>
 </dd></dl>
 
 <dl class="method">
+<dt id="bioconda_utils.recipe.Recipe.get">
+<code class="descname">get</code><span class="sig-paren">(</span><em>path</em>, <em>default=&lt;class 'KeyError'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#Recipe.get"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.Recipe.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a value or section from the recipe</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;requirements/build&#39;</span><span class="p">)</span>
+<span class="go">[&#39;setuptools]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;source/0/url&#39;</span><span class="p">)</span>
+<span class="go">&#39;https://somewhere&#39;</span>
+</pre></div>
+</div>
+<p>The <strong>path</strong> is a <code class="docutils literal notranslate"><span class="pre">/</span></code> separated list of dictionary keys to
+be walked in the recipe meta data. Numeric sections in the path
+access list elements. Using <code class="docutils literal notranslate"><span class="pre">0</span></code> in the path will get the first
+element in a list or the contents directly if there is no list.
+I.e., <code class="xref any docutils literal notranslate"><span class="pre">source/0/url</span></code> will always get the first url, whether or
+not the source section is a list.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>path</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Path through YAML</p></li>
+<li><p><strong>default</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>) – If not KeyError, this value will be returned
+if the path does not exist in the recipe</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>KeyError if no default given and the path does not exist.</strong> – </p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
 <dt id="bioconda_utils.recipe.Recipe.get_raw">
 <code class="descname">get_raw</code><span class="sig-paren">(</span><em>path</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#Recipe.get_raw"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.Recipe.get_raw" title="Permalink to this definition">¶</a></dt>
 <dd><p>Extracts the unparsed text for a node in the meta.yaml</p>
+<p>This may contain separators and other characters from
+the yaml!</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><p><strong>path</strong> – Slash-separated path to the node. Numbers can be used
@@ -449,6 +484,12 @@ meta.yaml at a specific key.</p>
 <dd class="field-odd"><p><a class="reference internal" href="#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><code class="xref py py-class docutils literal notranslate"><span class="pre">Recipe</span></code></a></p>
 </dd>
 </dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.recipe.Recipe.maintainers">
+<code class="descname">maintainers</code><a class="headerlink" href="#bioconda_utils.recipe.Recipe.maintainers" title="Permalink to this definition">¶</a></dt>
+<dd><p>List of recipe maintainers</p>
 </dd></dl>
 
 <dl class="attribute">
@@ -556,6 +597,13 @@ selectors.</p></li>
 <code class="descname">reset_buildnumber</code><span class="sig-paren">(</span><em>n=0</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#Recipe.reset_buildnumber"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.Recipe.reset_buildnumber" title="Permalink to this definition">¶</a></dt>
 <dd><p>Resets the build number</p>
 <p>If the build number is missing, it is added after build.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.recipe.Recipe.set">
+<code class="descname">set</code><span class="sig-paren">(</span><em>path</em>, <em>value</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/recipe.html#Recipe.set"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.recipe.Recipe.set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set a value or section in the recipe</p>
+<p>See <a class="reference internal" href="#bioconda_utils.recipe.Recipe.get" title="bioconda_utils.recipe.Recipe.get"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">get</span></code></a> for a description of how <strong>path</strong> works.</p>
 </dd></dl>
 
 <dl class="method">

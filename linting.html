@@ -77,30 +77,16 @@
 <li class="toctree-l3"><a class="reference internal" href="#skipping-on-a-per-commit-basis">Skipping on a per-commit basis</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#recipes-duplicated-in-conda-forge">Recipes duplicated in conda-forge</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#description-of-lint-checks">Description of Lint Checks</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#in-other-channels">“<code class="docutils literal notranslate"><span class="pre">in_other_channels</span></code>”</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#build-number-needs-bump">“<code class="docutils literal notranslate"><span class="pre">build_number_needs_bump</span></code>”</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#missing-home">“<code class="docutils literal notranslate"><span class="pre">missing_home</span></code>”</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#missing-summary">“<code class="docutils literal notranslate"><span class="pre">missing_summary</span></code>”</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#missing-license">“<code class="docutils literal notranslate"><span class="pre">missing_license</span></code>”</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#missing-tests">“<code class="docutils literal notranslate"><span class="pre">missing_tests</span></code>”</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#missing-hash">“<code class="docutils literal notranslate"><span class="pre">missing_hash</span></code>”</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#should-be-noarch">“<code class="docutils literal notranslate"><span class="pre">should_be_noarch</span></code>”</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#should-not-be-noarch-compiler">“<code class="docutils literal notranslate"><span class="pre">should_not_be_noarch_compiler</span></code>”</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#uses-git-url">“<code class="docutils literal notranslate"><span class="pre">uses_git_url</span></code>”</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#uses-perl-threaded">“<code class="docutils literal notranslate"><span class="pre">uses_perl_threaded</span></code>”</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#uses-javajdk">“<code class="docutils literal notranslate"><span class="pre">uses_javajdk</span></code>”</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#uses-setuptools">“<code class="docutils literal notranslate"><span class="pre">uses_setuptools</span></code>”</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#has-windows-bat-file">“<code class="docutils literal notranslate"><span class="pre">has_windows_bat_file</span></code>”</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#setup-py-install-args">“<code class="docutils literal notranslate"><span class="pre">setup_py_install_args</span></code>”</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#extra-identifiers-not-list">“<code class="docutils literal notranslate"><span class="pre">extra_identifiers_not_list</span></code>”</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#extra-identifiers-not-string">“<code class="docutils literal notranslate"><span class="pre">extra_identifiers_not_string</span></code>”</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#extra-identifiers-missing-colon">“<code class="docutils literal notranslate"><span class="pre">extra_identifiers_missing_colon</span></code>”</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#deprecated-numpy-spec">“<code class="docutils literal notranslate"><span class="pre">deprecated_numpy_spec</span></code>”</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#should-not-use-fn">“<code class="docutils literal notranslate"><span class="pre">should_not_use_fn</span></code>”</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#should-use-compilers">“<code class="docutils literal notranslate"><span class="pre">should_use_compilers</span></code>”</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#compilers-must-be-in-build">“<code class="docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code>”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#lint-checks">Lint Checks</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#incomplete-recipe">Incomplete Recipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#noarch-or-not-noarch">Noarch or not noarch</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#policy">Policy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#syntax">Syntax</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#recipe-parsing">Recipe Parsing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#repository">Repository</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#deprecations">Deprecations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#build-helpers">Build helpers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#linter-errors">Linter Errors</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#developer-docs">Developer docs</a></li>
@@ -141,15 +127,15 @@
             
   <div class="section" id="linting">
 <h1>Linting<a class="headerlink" href="#linting" title="Permalink to this headline">¶</a></h1>
-<p>In order to ensure high-quality packages, we now perform routine checks on each
-recipe (called <a class="reference external" href="http://stackoverflow.com/questions/8503559/what-is-linting">linting</a>).</p>
-<p>Linting is executed as a GitHub Check on all PRs and as a guarding stage on
-all builds. It can also be executed locally using the <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span> <span class="pre">lint</span></code>
-commeand.</p>
+<p>In order to ensure high-quality packages, we now perform routine
+checks on each recipe (called <a class="reference external" href="http://stackoverflow.com/questions/8503559/what-is-linting">linting</a>).</p>
+<p>Linting is executed as a GitHub Check on all PRs and as a guarding
+stage on all builds. It can also be executed locally using the
+<code class="docutils literal notranslate"><span class="pre">bioconda-utils</span> <span class="pre">lint</span></code> commeand.</p>
 <div class="section" id="skipping-a-lint-check">
 <h2>Skipping a lint check<a class="headerlink" href="#skipping-a-lint-check" title="Permalink to this headline">¶</a></h2>
-<p>The linter may occasionally create false positives. Lint checks can therefore
-be disabled individually if there is good reason to do so.</p>
+<p>The linter may occasionally create false positives. Lint checks can
+therefore be disabled individually if there is good reason to do so.</p>
 <div class="section" id="skipping-persistently-on-a-per-recipe-basis">
 <h3>Skipping persistently on a per-recipe basis<a class="headerlink" href="#skipping-persistently-on-a-per-recipe-basis" title="Permalink to this headline">¶</a></h3>
 <p>Recipes may contain a section listing lint checks to be disabled:</p>
@@ -195,66 +181,17 @@ like this without having to make a commit:</p>
 </div>
 </div>
 </div>
-<div class="section" id="recipes-duplicated-in-conda-forge">
-<span id="in-conda-forge"></span><h2>Recipes duplicated in conda-forge<a class="headerlink" href="#recipes-duplicated-in-conda-forge" title="Permalink to this headline">¶</a></h2>
-<p>Sometimes when adding or updating a recipe in a pull request to
-<code class="docutils literal notranslate"><span class="pre">conda-forge</span></code> the conda-forge linter will warn that a recipe with
-the same name already exists in bioconda. When this happens, usually
-the best thing to do is:</p>
-<ol class="arabic simple">
-<li><p>Submit – but don’t merge yet! – a PR to bioconda that removes the
-recipe.  In that PR, reference the conda-forge/staged-recipes PR.</p></li>
-<li><p>Merge the conda-forge PR adding or updating the recipe</p></li>
-<li><p>Merge the bioconda PR deleting the recipe</p></li>
-</ol>
-</div>
-<div class="section" id="description-of-lint-checks">
-<h2>Description of Lint Checks<a class="headerlink" href="#description-of-lint-checks" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="in-other-channels">
-<h3>“<code class="docutils literal notranslate"><span class="pre">in_other_channels</span></code>”<a class="headerlink" href="#in-other-channels" title="Permalink to this headline">¶</a></h3>
-<div class="admonition">
-<p class="admonition-title">A package of the same name already exists in another channel</p>
-<p>Bioconda and Conda-Forge occupy the same name space and have
-agreed not to add packages if a package of the same name is
-already present in the respective other channel.</p>
-<p>If this is a new package, pease choose a different name
-(e.g. append <code class="docutils literal notranslate"><span class="pre">-bio</span></code>).</p>
-<p>If you are updating a package, please continue in the package’s
-new home at conda-forge.</p>
-</div>
-<p><p>Reason for failing: The package exists in another dependent channel
-(currently conda-forge and defaults). This often happens when a
-general-use package was added to bioconda first but was
-subsequently added to one of the more general channels. In this
-case we’d prefer it to be in the general channel.</p>
-<p>Rationale: We want to minimize duplicated work. If a package
-already exists in another dependent channel, it doesn’t need to be
-maintained in the bioconda channel.</p>
-<p>How to resolve: In special cases this can be overridden, for
-example if a bioconda-specific patch is required. However it is
-almost always better to fix or update the recipe in the other
-channel. Note that the package in the bioconda channel will remain
-in order to maintain reproducibility.</p>
-</p>
-</div>
-<div class="section" id="build-number-needs-bump">
-<h3>“<code class="docutils literal notranslate"><span class="pre">build_number_needs_bump</span></code>”<a class="headerlink" href="#build-number-needs-bump" title="Permalink to this headline">¶</a></h3>
-<div class="admonition">
-<p class="admonition-title">The recipe build number should be incremented</p>
-<p>A package with the same name and version and a build number at
-least as high as specified in the recipe already exists in the
-channel. Please increase the build number.</p>
-</div>
-<p><p>Reason for failing: The current package version, build, and
-platform (linux/osx) already exists in the bioconda channel.</p>
-<p>Rationale: This change does not trigger the build of any packages,
-leading to a mismatch between the recipe and our package archive.</p>
-<p>How to resolve: Increase the version number or <a class="reference external" href="https://conda.io/docs/building/meta-yaml.html#build-number-and-string">build number</a>
-as appropriate.</p>
-</p>
-</div>
+<div class="section" id="lint-checks">
+<h2>Lint Checks<a class="headerlink" href="#lint-checks" title="Permalink to this headline">¶</a></h2>
+<p>Below, each lint check executed is shown and described. Lints are
+grouped into a few sections, depending on what type of issue they aim
+at preventing.</p>
+<div class="section" id="incomplete-recipe">
+<h3>Incomplete Recipe<a class="headerlink" href="#incomplete-recipe" title="Permalink to this headline">¶</a></h3>
+<p>These are basic checks, making sure that the recipe is not missing
+anything essential.</p>
 <div class="section" id="missing-home">
-<h3>“<code class="docutils literal notranslate"><span class="pre">missing_home</span></code>”<a class="headerlink" href="#missing-home" title="Permalink to this headline">¶</a></h3>
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_home</span></code>”<a class="headerlink" href="#missing-home" title="Permalink to this headline">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe is missing a homepage URL</p>
 <p>Please add:</p>
@@ -263,17 +200,14 @@ as appropriate.</p>
 </pre></div>
 </div>
 </div>
-<p><p>Reason for failing: No homepage URL.</p>
-<p>Rationale: We want to make sure users can get additional
-information about a package, and it saves a separate search for the
-tool. Furthermore some tools with name collisions have to be
-renamed to fit into the conda channel and the homepage is an
-unambiguous original source.</p>
-<p>How to resolve: Add the url in the <a class="reference external" href="https://conda.io/docs/building/meta-yaml.html#about-section">about section</a>.</p>
+<p><p>We want to make sure users can get additional information about a
+package, and it saves a separate search for the tool. Furthermore
+some tools with name collisions have to be renamed to fit into the
+conda channel and the homepage is an unambiguous original source.</p>
 </p>
 </div>
 <div class="section" id="missing-summary">
-<h3>“<code class="docutils literal notranslate"><span class="pre">missing_summary</span></code>”<a class="headerlink" href="#missing-summary" title="Permalink to this headline">¶</a></h3>
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_summary</span></code>”<a class="headerlink" href="#missing-summary" title="Permalink to this headline">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe is missing a summary</p>
 <p>Please add:</p>
@@ -282,15 +216,13 @@ unambiguous original source.</p>
 </pre></div>
 </div>
 </div>
-<p><p>Reason for failing: Missing a summary.</p>
-<p>Rationale: We want to provide a minimal amount of information about
-the package.</p>
-<p>How to resolve: add a short descriptive summary in the <a class="reference external" href="https://conda.io/docs/building/meta-yaml.html#about-section">about
-section</a>.</p>
+<p><p>This is the “title” for the package. It will also be shown in
+package listings. Keep it brief and informative. One line does not
+mean one line on a landscape poster.</p>
 </p>
 </div>
 <div class="section" id="missing-license">
-<h3>“<code class="docutils literal notranslate"><span class="pre">missing_license</span></code>”<a class="headerlink" href="#missing-license" title="Permalink to this headline">¶</a></h3>
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_license</span></code>”<a class="headerlink" href="#missing-license" title="Permalink to this headline">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe is missing the <code class="docutils literal notranslate"><span class="pre">about/license</span></code> key</p>
 <p>Please add:</p>
@@ -299,16 +231,16 @@ section</a>.</p>
 </pre></div>
 </div>
 </div>
-<p><p>Reason for failing: No license provided.</p>
-<p>Rationale: We need to ensure that adding the package to bioconda
-does not violate the license</p>
-<p>How to resolve: Add the license in the <a class="reference external" href="https://conda.io/docs/building/meta-yaml.html#about-section">about section</a>. There
-are some ways of accommodating some licenses; see the GATK package
-for one method.</p>
+<p><p>We need to ensure that adding the package to bioconda does not
+violate the license. No license means we have no permission to
+distribute the package, so we need to have one.</p>
+<p>If the license is not a standard FOSS license, please read it to
+make sure that we are actually permitted to distribute the
+software.</p>
 </p>
 </div>
 <div class="section" id="missing-tests">
-<h3>“<code class="docutils literal notranslate"><span class="pre">missing_tests</span></code>”<a class="headerlink" href="#missing-tests" title="Permalink to this headline">¶</a></h3>
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_tests</span></code>”<a class="headerlink" href="#missing-tests" title="Permalink to this headline">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe is missing tests</p>
 <p>Please add:</p>
@@ -326,15 +258,19 @@ for one method.</p>
 <p>and/or any file named <code class="docutils literal notranslate"><span class="pre">run_test.py`,</span> <span class="pre">``run_test.sh</span></code> or
 <code class="docutils literal notranslate"><span class="pre">run_test.pl</span></code> executing tests.</p>
 </div>
-<p><p>Reason for failing: No tests provided.</p>
-<p>Rationale: We need at least minimal tests to ensure the programs
-can be found on the path to catch basic installation errors.</p>
-<p>How to resolve: Add basic tests to ensure the software gets
-installed; see <a class="reference internal" href="guidelines.html#tests"><span class="std std-ref">Tests</span></a> for more info.</p>
+<p><p>In order to provide a collection of actually working tools, some
+basic testing is required. The tests should make sure the tool was
+built (if applicable) and installed correctly, and guard against
+things breaking with e.g. a version update.</p>
+<p>The tests can include commands to be run or modules to import. You
+can also use a script (<code class="docutils literal notranslate"><span class="pre">run_test.sh</span></code>, <code class="docutils literal notranslate"><span class="pre">run_test.py</span></code> or
+<code class="docutils literal notranslate"><span class="pre">run_test.pl</span></code>) to execute tests (which must exit with exit status
+0).</p>
+<p>See <a class="reference internal" href="guidelines.html#tests"><span class="std std-ref">Tests</span></a> for more information.</p>
 </p>
 </div>
 <div class="section" id="missing-hash">
-<h3>“<code class="docutils literal notranslate"><span class="pre">missing_hash</span></code>”<a class="headerlink" href="#missing-hash" title="Permalink to this headline">¶</a></h3>
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_hash</span></code>”<a class="headerlink" href="#missing-hash" title="Permalink to this headline">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe is missing a checksum for a source file</p>
 <p>Please add:</p>
@@ -343,132 +279,271 @@ installed; see <a class="reference internal" href="guidelines.html#tests"><span 
 </pre></div>
 </div>
 </div>
-<p><p>Reason for failing: Missing a hash in the source section.</p>
-<p>Rationale: Hashes ensure that the source is downloaded correctly
-without being corrupted.</p>
-<p>How to resolve: Add a hash in the <a class="reference external" href="https://conda.io/docs/building/meta-yaml.html#source-section">source section</a>. See
-<a class="reference internal" href="guidelines.html#hashes"><span class="std std-ref">Hashes</span></a> for more info.</p>
+<p><p>The hash or checksum ensures the integrity of the downloaded source
+archive. It guards both against broken or incomplete downloads and
+against the source file’s content changing unexpectedly.</p>
+<p>While conda allows <code class="docutils literal notranslate"><span class="pre">md5</span></code>, <code class="docutils literal notranslate"><span class="pre">sha1</span></code> in addition to <code class="docutils literal notranslate"><span class="pre">sha256</span></code>, we
+prefer the latter.</p>
+<p>See <a class="reference internal" href="guidelines.html#hashes"><span class="std std-ref">Hashes</span></a> for more info.</p>
 </p>
 </div>
-<div class="section" id="should-be-noarch">
-<h3>“<code class="docutils literal notranslate"><span class="pre">should_be_noarch</span></code>”<a class="headerlink" href="#should-be-noarch" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="missing-version-or-name">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_version_or_name</span></code>”<a class="headerlink" href="#missing-version-or-name" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">The recipe is missing name and/or version</p>
+<p>Please make sure the recipe has at least:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">package</span><span class="p">:</span>
+  <span class="n">name</span><span class="p">:</span> <span class="n">package_name</span>
+  <span class="n">version</span><span class="p">:</span> <span class="mf">0.12</span><span class="o">.</span><span class="mi">34</span>
+</pre></div>
+</div>
+</div>
+<p><p>For obvious reasons, each package must at least have a name and a
+version.</p>
+</p>
+</div>
+<div class="section" id="empty-meta-yaml">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">empty_meta_yaml</span></code>”<a class="headerlink" href="#empty-meta-yaml" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">The recipe has an empty meta.yaml!?</p>
+<p>Please check if you forgot to commit its contents.</p>
+</div>
+<p><p>Intentionally left blank. Or not?</p>
+</p>
+</div>
+<div class="section" id="missing-meta-yaml">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_meta_yaml</span></code>”<a class="headerlink" href="#missing-meta-yaml" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">The recipe is missing a meta.yaml file</p>
+<p>Most commonly, this is because the file was accidentally
+named <code class="docutils literal notranslate"><span class="pre">meta.yml</span></code>. If so, rename it to <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>.</p>
+</div>
+<p></p>
+</div>
+<div class="section" id="missing-build">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_build</span></code>”<a class="headerlink" href="#missing-build" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">The recipe is missing a build section</p>
+<p>Please add:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">build</span><span class="p">:</span>
+  <span class="n">number</span><span class="p">:</span> <span class="mi">0</span>
+</pre></div>
+</div>
+</div>
+<p></p>
+</div>
+<div class="section" id="missing-build-number">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_build_number</span></code>”<a class="headerlink" href="#missing-build-number" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">The recipe is missing a build number</p>
+<p>Please add:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">build</span><span class="p">:</span>
+    <span class="n">number</span><span class="p">:</span> <span class="mi">0</span>
+</pre></div>
+</div>
+</div>
+<p><p>The build number should be <code class="docutils literal notranslate"><span class="pre">0</span></code> for any new version and
+incremented with each revised build published.</p>
+</p>
+</div>
+</div>
+<div class="section" id="noarch-or-not-noarch">
+<h3>Noarch or not noarch<a class="headerlink" href="#noarch-or-not-noarch" title="Permalink to this headline">¶</a></h3>
+<p>Not all packages are platform specific. Pure Python packages for
+example will usually work on any platform without modification. For
+this reason, we have a third “subdir” (in conda lingo) in addition to
+<code class="docutils literal notranslate"><span class="pre">linux-64</span></code> and <code class="docutils literal notranslate"><span class="pre">osx-64</span></code> called <code class="docutils literal notranslate"><span class="pre">noarch</span></code>. Packages marked with
+<code class="docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">True</span></code> or <code class="docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">python</span></code> will be built only once and can
+then be used on both supported target platforms.</p>
+<p>There are some conda idiosyncracies to be aware of when marking a package
+as noarch:</p>
+<ul class="simple">
+<li><p>A <code class="docutils literal notranslate"><span class="pre">noarch</span></code> package cannot use <code class="docutils literal notranslate"><span class="pre">skip</span></code>. Packages that are
+<code class="docutils literal notranslate"><span class="pre">noarch</span></code> but require specific Python versions should use pinning
+(e.g. <code class="docutils literal notranslate"><span class="pre">-</span> <span class="pre">python</span> <span class="pre">&gt;3</span></code>).</p></li>
+<li><p>Packages that are not <code class="docutils literal notranslate"><span class="pre">noarch</span></code> must use <code class="docutils literal notranslate"><span class="pre">skip</span></code> and must not pin
+Python (it will simply not work as expected).</p></li>
+</ul>
+<div class="section" id="should-be-noarch-python">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_be_noarch_python</span></code>”<a class="headerlink" href="#should-be-noarch-python" title="Permalink to this headline">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe should be build as <code class="docutils literal notranslate"><span class="pre">noarch</span></code></p>
 <p>Please add:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">build</span><span class="p">:</span>
-  <span class="n">noarch</span><span class="p">:</span> <span class="kc">True</span>
+  <span class="n">noarch</span><span class="p">:</span> <span class="n">python</span>
+</pre></div>
+</div>
+<p>Python packages that don’t require a compiler to build are
+normally architecture independent and go into the <code class="docutils literal notranslate"><span class="pre">noarch</span></code>
+subset of packages.</p>
+</div>
+<p><p>Python packages that do not include compiled modules (e.g. Cython
+build modules) are architecture independent and only need to be
+built (packaged) once, saving time and space.</p>
+</p>
+</div>
+<div class="section" id="should-be-noarch-generic">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_be_noarch_generic</span></code>”<a class="headerlink" href="#should-be-noarch-generic" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">The recipe should be build as <code class="docutils literal notranslate"><span class="pre">noarch</span></code></p>
+<p>Please add:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">build</span><span class="p">:</span>
+  <span class="n">noarch</span><span class="p">:</span> <span class="n">generic</span>
 </pre></div>
 </div>
 <p>Packages that don’t require a compiler to build are normally
 architecture independent and go into the <code class="docutils literal notranslate"><span class="pre">noarch</span></code> subset of
 packages.</p>
 </div>
-<p><p>Reason for failing: The package should be labelled as <code class="docutils literal notranslate"><span class="pre">noarch</span></code>.</p>
-<p>Rationale: A <code class="docutils literal notranslate"><span class="pre">noarch</span></code> package should be created for pure Python
-packages, data packages, or packages that do not require
-compilation. With this a single <code class="docutils literal notranslate"><span class="pre">noarch</span></code> package can be used
-across multiple platforms and (in case of Python) Python versions,
-which saves on build time and saves on storage space on the
-bioconda channel.</p>
-<p>How to resolve: For pure Python packages, add <code class="docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">python</span></code> to
-the <code class="docutils literal notranslate"><span class="pre">build</span></code> section.  <strong>Don’t do this if your Python package has
-a command line interface</strong>, as these are not independent of the
-Python version!  For other generic packages (like a data package),
-add <code class="docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">generic</span></code> to the <code class="docutils literal notranslate"><span class="pre">build</span></code> section.  See <a class="reference external" href="https://www.continuum.io/blog/developer-blog/condas-new-noarch-packages">here</a>
-for more details.</p>
+<p><p>Packages that contain no platform specific binaries, e.g. Java
+packages, and are not Python packages, should be marked as
+<code class="docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">generic</span></code>. This saves build time and space on our
+hosters.</p>
 </p>
 </div>
 <div class="section" id="should-not-be-noarch-compiler">
-<h3>“<code class="docutils literal notranslate"><span class="pre">should_not_be_noarch_compiler</span></code>”<a class="headerlink" href="#should-not-be-noarch-compiler" title="Permalink to this headline">¶</a></h3>
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_not_be_noarch_compiler</span></code>”<a class="headerlink" href="#should-not-be-noarch-compiler" title="Permalink to this headline">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses a compiler but is marked noarch</p>
 <p>Recipes using a compiler should not be marked noarch.</p>
 <p>Please remove the <code class="docutils literal notranslate"><span class="pre">build:</span> <span class="pre">noarch:</span></code> section.</p>
 </div>
-<p><p>Reason for failing: The package should <strong>not</strong> be labelled as
-<code class="docutils literal notranslate"><span class="pre">noarch</span></code>.</p>
-<p>Rationale: The package defines gcc as a dependency, or it contains
-a build/skip section. In both cases, this means that there should
-be platform specific versions of this package. This also holds for
-skipping Python versions, because <code class="docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">python</span></code> also implies
-that the resulting package will work with <strong>all</strong> Python
-versions. This is typically not the case if you skip a Python
-version.</p>
-<p>How to resolve: Remove the <code class="docutils literal notranslate"><span class="pre">noarch</span></code> statement.</p>
+<p><p>Packages containing platform specific binaries should not be
+marked <code class="docutils literal notranslate"><span class="pre">noarch</span></code>. Use of a compiler was detected, which
+generally indicates that platform specific binaries were built.</p>
 </p>
 </div>
-<div class="section" id="uses-git-url">
-<h3>“<code class="docutils literal notranslate"><span class="pre">uses_git_url</span></code>”<a class="headerlink" href="#uses-git-url" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="should-not-be-noarch-source">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_not_be_noarch_source</span></code>”<a class="headerlink" href="#should-not-be-noarch-source" title="Permalink to this headline">¶</a></h4>
 <div class="admonition">
-<p class="admonition-title">The recipe downloads source from git</p>
-<p>Please build from source archives and don’t use the <code class="docutils literal notranslate"><span class="pre">git_url</span></code>
-feature of conda.</p>
+<p class="admonition-title">The recipe uses per platform sources and cannot be noarch</p>
+<p>You are downloading different upstream sources for each
+platform. Remove the noarch section or use just one source for all
+platforms.</p>
 </div>
-<p><p>Reason for failing: The source section uses a git URL.</p>
-<p>Rationale: While this is supported by conda, we prefer to not use
-this method since it is not always reproducible. Furthermore, the
-Galaxy team mirrors each successfully built bioconda
-recipe. Mirroring git_urls is problematic.</p>
-<p>How to resolve: Use a direct URL. Ideally a github repo should have
-tagged releases that are accessible as tarballs from the “releases”
-section of the github repo.</p>
+<p><p>Packages downloading different sources for each platform cannot be
+marked <code class="docutils literal notranslate"><span class="pre">noarch</span></code>.</p>
 </p>
 </div>
-<div class="section" id="uses-perl-threaded">
-<h3>“<code class="docutils literal notranslate"><span class="pre">uses_perl_threaded</span></code>”<a class="headerlink" href="#uses-perl-threaded" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="should-not-be-noarch-skip">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_not_be_noarch_skip</span></code>”<a class="headerlink" href="#should-not-be-noarch-skip" title="Permalink to this headline">¶</a></h4>
 <div class="admonition">
-<p class="admonition-title">The recipe uses <code class="docutils literal notranslate"><span class="pre">perl-threaded</span></code></p>
-<p>Please use <code class="docutils literal notranslate"><span class="pre">perl</span></code> instead.</p>
+<p class="admonition-title">The recipe uses <code class="docutils literal notranslate"><span class="pre">skip:</span> <span class="pre">True</span></code> but is marked noarch</p>
+<p>Recipes marked as <code class="docutils literal notranslate"><span class="pre">noarch</span></code> cannot use skip.</p>
 </div>
-<p><p>Reason for failing: The recipe has a dependency of
-<code class="docutils literal notranslate"><span class="pre">perl-threaded</span></code>.</p>
-<p>Rationale: Previously bioconda used <code class="docutils literal notranslate"><span class="pre">perl-threaded</span></code> as a
-dependency for Perl packages, but now we are using <code class="docutils literal notranslate"><span class="pre">perl</span></code>
-instead. When one of these older recipes is updated, it will fail
-this check.</p>
-<p>How to resolve: Change <code class="docutils literal notranslate"><span class="pre">perl-threaded</span></code> to <code class="docutils literal notranslate"><span class="pre">perl</span></code>.</p>
+<p></p>
+</div>
+<div class="section" id="should-not-use-skip-python">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_not_use_skip_python</span></code>”<a class="headerlink" href="#should-not-use-skip-python" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">The recipe should be noarch and not use python based skipping</p>
+<p>Please use:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">requirements</span><span class="p">:</span>
+   <span class="n">build</span><span class="p">:</span>
+     <span class="o">-</span> <span class="n">python</span> <span class="o">&gt;</span><span class="mi">3</span>  <span class="c1"># or &lt;3</span>
+   <span class="n">run</span><span class="p">:</span>
+     <span class="o">-</span> <span class="n">python</span> <span class="o">&gt;</span><span class="mi">3</span>  <span class="c1"># or &lt;3</span>
+</pre></div>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">build:</span> <span class="pre">skip:</span> <span class="pre">True</span></code> feature only works as expected for
+packages built specifically for each “platform” (i.e. Python
+version and OS). This package should be <code class="docutils literal notranslate"><span class="pre">noarch</span></code> and not use
+skips.</p>
+</div>
+<p><p>The <code class="docutils literal notranslate"><span class="pre">skip</span></code> mechanism works by not creating packages for some of
+our target platforms and interpreters (= Python versions). It
+therefore does not work in conjunction with <code class="docutils literal notranslate"><span class="pre">noarch</span></code>.</p>
+<p>If the recipe has a <code class="docutils literal notranslate"><span class="pre">skip</span></code> only for specific Python versions
+(e.g. <code class="docutils literal notranslate"><span class="pre">skip:</span> <span class="pre">True</span> <span class="pre">#</span> <span class="pre">[py2k]</span></code>), use pinning instead:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">requirements</span><span class="p">:</span>
+  <span class="n">run</span><span class="p">:</span>
+    <span class="n">python</span> <span class="o">&gt;</span><span class="mi">3</span>
+</pre></div>
+</div>
 </p>
 </div>
-<div class="section" id="uses-javajdk">
-<h3>“<code class="docutils literal notranslate"><span class="pre">uses_javajdk</span></code>”<a class="headerlink" href="#uses-javajdk" title="Permalink to this headline">¶</a></h3>
-<div class="admonition">
-<p class="admonition-title">The recipe uses <code class="docutils literal notranslate"><span class="pre">java-jdk</span></code></p>
-<p>Please use <code class="docutils literal notranslate"><span class="pre">openjdk</span></code> instead.</p>
 </div>
-<p><p>Reason for failing: The recipe has a dependency of <code class="docutils literal notranslate"><span class="pre">java-jdk</span></code>.</p>
-<p>Rationale: Previously bioconda used <code class="docutils literal notranslate"><span class="pre">java-jdk</span></code> as a dependency
-for Java packages, but now we are using <code class="docutils literal notranslate"><span class="pre">openjdk</span></code> instead. When
-one of those older recipes is updated, it will fail this check.</p>
-<p>How to resolve: Change <code class="docutils literal notranslate"><span class="pre">java-jdk</span></code> to <code class="docutils literal notranslate"><span class="pre">openjdk</span></code>.</p>
+<div class="section" id="policy">
+<h3>Policy<a class="headerlink" href="#policy" title="Permalink to this headline">¶</a></h3>
+<p>These checks enforce some of our “policy” decisions for keeping
+Bioconda and it’s recipe repository consistent and clean.</p>
+<div class="section" id="uses-vcs-url">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_vcs_url</span></code>”<a class="headerlink" href="#uses-vcs-url" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">The recipe downloads source from a VCS</p>
+<p>Please build from source archives and don’t use the <code class="docutils literal notranslate"><span class="pre">git_url</span></code>,
+<code class="docutils literal notranslate"><span class="pre">svn_url</span></code> or <code class="docutils literal notranslate"><span class="pre">hg_url</span></code> feature of conda.</p>
+</div>
+<p><p>While <code class="docutils literal notranslate"><span class="pre">conda</span></code> technically supports downloading sources directly
+from a versioning system, we strongly discourage doing so.</p>
+<p>There are a number of reasons for this:</p>
+<ul class="simple">
+<li><p>Making a release expresses an author’s intent that the software
+is at a stable point suitable for distribution. Distributing a
+specific, unreleased revision makes it unnecessarily difficult
+for upstream authors to help with bugs users might encounter.</p></li>
+<li><p>For reproducibility, we keep a backup of all source files used to
+build packages on Bioconda, but cannot (currently) do so for
+git/svn/hg repositories.</p></li>
+<li><p>Git uses checksums (hashes) as revision labels. These have no
+implicit order, and would require assigning a pseudo version
+number to the package to allow knowing whether another release is
+newer or older than a git revision based one.</p></li>
+</ul>
+<p>With the exception of old, orphaned projects, upstream authors will
+usually be happy to create a release if asked kindly. Most hosting
+sites allow “tagging” a release via their web interface, making the
+process simple.</p>
 </p>
 </div>
-<div class="section" id="uses-setuptools">
-<h3>“<code class="docutils literal notranslate"><span class="pre">uses_setuptools</span></code>”<a class="headerlink" href="#uses-setuptools" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="folder-and-package-name-must-match">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">folder_and_package_name_must_match</span></code>”<a class="headerlink" href="#folder-and-package-name-must-match" title="Permalink to this headline">¶</a></h4>
 <div class="admonition">
-<p class="admonition-title">The recipe uses setuptools in run depends</p>
-<p>Most Python packages only need setuptools during installation.
-Check if the package really needs setuptools (e.g. because it uses
-pkg_resources or setuptools console scripts).</p>
+<p class="admonition-title">The recipe folder and package name do not match</p>
+<p>For clarity, the name of the folder the <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> resides,
+in and the name of the toplevel package should match.</p>
 </div>
-<p><p>Reason for failing: The recipe has <code class="docutils literal notranslate"><span class="pre">setuptools</span></code> as a run
-dependency.</p>
-<p>Rationale: <code class="docutils literal notranslate"><span class="pre">setuptools</span></code> is typically used to install dependencies
-for Python packages but most of the time this is not needed within
-a conda package as a run dependency.</p>
-<p>How to resolve: Ensure that all dependencies are explicitly
-defined. Some packages do need <code class="docutils literal notranslate"><span class="pre">setuptools</span></code>, in which case this
-can be overridden.  <code class="docutils literal notranslate"><span class="pre">setuptools</span></code> may be required, e.g., if a
-package loads resources via <code class="docutils literal notranslate"><span class="pre">pkg_resources</span></code> which is part of
-<code class="docutils literal notranslate"><span class="pre">setuptools</span></code>. That dependency can also be introduced implicitly
-when <code class="docutils literal notranslate"><span class="pre">setuptools</span></code>-created console scripts are used.  To avoid
-this, make sure to carry <code class="docutils literal notranslate"><span class="pre">console_scripts</span></code> entry points from
-<code class="docutils literal notranslate"><span class="pre">setup.py</span></code> over to <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> to replace them with scripts
-created by <code class="docutils literal notranslate"><span class="pre">conda</span></code>/<code class="docutils literal notranslate"><span class="pre">conda-build</span></code> which don’t require
-<code class="docutils literal notranslate"><span class="pre">pkg_resources</span></code>.</p>
+<p><p>It’s just way simpler to find the “recipe” building a “package” if
+you can expect that the recipe building “samtools” is found in the
+“samtools” folder (and not hiding in “new_release” or “bamtools”).</p>
+<p>If you are using <code class="docutils literal notranslate"><span class="pre">outputs</span></code> to split a single upstream
+distribution into multiple packages, try to make sure each output
+package name contains the name of the tool you are packaging</p>
+</p>
+</div>
+<div class="section" id="gpl-requires-license-distributed">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">gpl_requires_license_distributed</span></code>”<a class="headerlink" href="#gpl-requires-license-distributed" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">The recipe packages GPL software but is missing copy of license</p>
+<p>The GPL requires that a copy of the license accompany all distributions
+of the software. Please add:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">about</span><span class="p">:</span>
+    <span class="n">license_file</span><span class="p">:</span> <span class="n">name_of_license_file</span>
+</pre></div>
+</div>
+<p>If the upstream tar ball does not include a copy, please ask the
+authors of the software to add it to their distribution archive.</p>
+</div>
+<p><p>While many upstream authors are not aware of this when they grant
+license to use and distribute their work under the GPL, the GPL
+says that we must include a copy of the GPL with every package we
+distribute. It can be annoying and feel redundant, but it simply is
+what we must do to be permitted to distribute the software.</p>
+</p>
+</div>
+<div class="section" id="should-not-use-fn">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_not_use_fn</span></code>”<a class="headerlink" href="#should-not-use-fn" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">The recipe uses source/fn</p>
+<p>There is no need to specify the filename as the URL should give a name
+and it will in most cases be unpacked automatically.</p>
+</div>
+<p><p>The <code class="docutils literal notranslate"><span class="pre">fn</span></code> is really only needed if you have multiple <code class="docutils literal notranslate"><span class="pre">url</span></code> s that
+share a filename, which is a somewhat constructed scenario.</p>
 </p>
 </div>
 <div class="section" id="has-windows-bat-file">
-<h3>“<code class="docutils literal notranslate"><span class="pre">has_windows_bat_file</span></code>”<a class="headerlink" href="#has-windows-bat-file" title="Permalink to this headline">¶</a></h3>
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">has_windows_bat_file</span></code>”<a class="headerlink" href="#has-windows-bat-file" title="Permalink to this headline">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe directory contains a <code class="docutils literal notranslate"><span class="pre">bat</span></code> file</p>
 <p>Bioconda does not currently build packages for Windows (and has at
@@ -477,49 +552,48 @@ tested.</p>
 <p>Please remove any <code class="docutils literal notranslate"><span class="pre">*.bat</span></code> files generated by <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span></code>
 from the recipe directory.</p>
 </div>
-<p><p>Reason for failing: The recipe includes a <code class="docutils literal notranslate"><span class="pre">.bat</span></code> file.</p>
-<p>Rationale: Often when using one of the skeleton commands (<code class="docutils literal notranslate"><span class="pre">conda</span>
-<span class="pre">skeleton</span> <span class="pre">{cran,pypi,cpan}</span></code>), the command will include a Windows
-<code class="docutils literal notranslate"><span class="pre">.bat</span></code> file. Since bioconda does not support Windows, any
-<code class="docutils literal notranslate"><span class="pre">*.bat</span></code> files are unused and to reduce clutter we try to remove
-them.</p>
-<p>How to resolve: Remove the <code class="docutils literal notranslate"><span class="pre">.bat</span></code> file from the recipe.</p>
+<p><p>The skeleton commands (e.g. <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">pypi</span></code>) create this
+file automatically, but we do not build for windows, making this
+file merely clutter needlessly increasing the size of our git
+repository.</p>
 </p>
 </div>
-<div class="section" id="setup-py-install-args">
-<h3>“<code class="docutils literal notranslate"><span class="pre">setup_py_install_args</span></code>”<a class="headerlink" href="#setup-py-install-args" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="long-summary">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">long_summary</span></code>”<a class="headerlink" href="#long-summary" title="Permalink to this headline">¶</a></h4>
 <div class="admonition">
-<p class="admonition-title">The recipe uses setuptools without required arguments</p>
-<p>Please use:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$PYTHON setup.py install --single-version-externally-managed --record=record.txt
-</pre></div>
+<p class="admonition-title">The summary line is rather long</p>
+<p>Consider using the description field for longer text:</p>
+<dl>
+<dt>about:</dt><dd><p>summary: Fancy Read Simulator (makes drinks)
+description: |</p>
+<blockquote>
+<div><p>XYZ is a very fancy read simulator that will not just make coffee
+while you are waiting but prepare all kinds of exquisite caffeeinated
+beverages from freshly roasted, single source beans ground to match
+ambient humidity.</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>This will fit better into the templates listing and describing
+recipes, which assume the summary to be a title and the
+description to be one or more paragraphs.</p>
 </div>
-<p>The parameters are required to avoid <code class="docutils literal notranslate"><span class="pre">setuptools</span></code> trying (and
-failing) to install <code class="docutils literal notranslate"><span class="pre">certifi</span></code> when a package this recipe
-requires defines entrypoints in its <code class="docutils literal notranslate"><span class="pre">setup.py</span></code>.</p>
-</div>
-<p><p>Reason for failing: The recipe has <code class="docutils literal notranslate"><span class="pre">setuptools</span></code> as a build
-dependency, but <code class="docutils literal notranslate"><span class="pre">build.sh</span></code> needs to use certain arguments when
-running <code class="docutils literal notranslate"><span class="pre">setup.py</span></code>.</p>
-<p>Rationale: When a package depends on setuptools, we have to disable
-some parts of setuptools during installation to make it work
-correctly with conda. In particular, it seems that packages depend
-on other packages that specify entry points (e.g., <code class="docutils literal notranslate"><span class="pre">pyfaidx</span></code>)
-will cause errors about how <code class="docutils literal notranslate"><span class="pre">setuptools</span></code> is not allowed to
-install <code class="docutils literal notranslate"><span class="pre">certifi</span></code> in a conda package.</p>
-<p>How to resolve: Change the line in either in <code class="docutils literal notranslate"><span class="pre">build.sh</span></code> or the
-<code class="docutils literal notranslate"><span class="pre">build:script</span></code> key in <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> from:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$PYTHON setup.py install
-</pre></div>
-</div>
-<p>to:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$PYTHON setup.py install --single-version-externally-managed --record=record.txt
-</pre></div>
-</div>
+<p><p>Recipes have a <code class="docutils literal notranslate"><span class="pre">summary</span></code> and <code class="docutils literal notranslate"><span class="pre">description</span></code> field. The
+recipe/package description pages at anaconda.org/bioconda and here
+are designed to use the <code class="docutils literal notranslate"><span class="pre">summary</span></code> as a title line and provide a
+separate section for multi-paragraph descriptions filled with
+content from the <code class="docutils literal notranslate"><span class="pre">description</span></code> field. The <code class="docutils literal notranslate"><span class="pre">summary</span></code> is also
+used for package listings with only one row per package.</p>
+<p>It just looks better if the summary fits into one line.</p>
 </p>
 </div>
+</div>
+<div class="section" id="syntax">
+<h3>Syntax<a class="headerlink" href="#syntax" title="Permalink to this headline">¶</a></h3>
+<p>These checks ensure that the <code class="docutils literal notranslate"><span class="pre">extra</span></code> section conforms to our
+“schema”.</p>
 <div class="section" id="extra-identifiers-not-list">
-<h3>“<code class="docutils literal notranslate"><span class="pre">extra_identifiers_not_list</span></code>”<a class="headerlink" href="#extra-identifiers-not-list" title="Permalink to this headline">¶</a></h3>
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">extra_identifiers_not_list</span></code>”<a class="headerlink" href="#extra-identifiers-not-list" title="Permalink to this headline">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The extra/identifiers section must be a list</p>
 <p>Example:</p>
@@ -532,7 +606,7 @@ install <code class="docutils literal notranslate"><span class="pre">certifi</sp
 <p></p>
 </div>
 <div class="section" id="extra-identifiers-not-string">
-<h3>“<code class="docutils literal notranslate"><span class="pre">extra_identifiers_not_string</span></code>”<a class="headerlink" href="#extra-identifiers-not-string" title="Permalink to this headline">¶</a></h3>
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">extra_identifiers_not_string</span></code>”<a class="headerlink" href="#extra-identifiers-not-string" title="Permalink to this headline">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">Each item in the extra/identifiers section must be a string</p>
 <p>Example:</p>
@@ -546,7 +620,7 @@ install <code class="docutils literal notranslate"><span class="pre">certifi</sp
 <p></p>
 </div>
 <div class="section" id="extra-identifiers-missing-colon">
-<h3>“<code class="docutils literal notranslate"><span class="pre">extra_identifiers_missing_colon</span></code>”<a class="headerlink" href="#extra-identifiers-missing-colon" title="Permalink to this headline">¶</a></h3>
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">extra_identifiers_missing_colon</span></code>”<a class="headerlink" href="#extra-identifiers-missing-colon" title="Permalink to this headline">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">Each item in the extra/identifiers section must be of form <code class="docutils literal notranslate"><span class="pre">type:value</span></code></p>
 <p>Example:</p>
@@ -556,11 +630,7 @@ install <code class="docutils literal notranslate"><span class="pre">certifi</sp
 </pre></div>
 </div>
 </div>
-<p><p>Reason for failing: The recipe has an <code class="docutils literal notranslate"><span class="pre">extra</span> <span class="pre">-&gt;</span> <span class="pre">identifiers</span></code>
-section with an invalid format.</p>
-<p>Rationale: The identifiers section has to be machine readable.</p>
-<p>How to resolve: Ensure that the section is of the following
-format:</p>
+<p><p>Ensure that the section is of the following format:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">extra</span><span class="p">:</span>
   <span class="n">identifiers</span><span class="p">:</span>
     <span class="o">-</span> <span class="n">doi</span><span class="p">:</span><span class="mf">10.1093</span><span class="o">/</span><span class="n">bioinformatics</span><span class="o">/</span><span class="n">bts480</span>
@@ -572,40 +642,216 @@ format:</p>
 identifier.  Whitespace is not allowed.</p>
 </p>
 </div>
+<div class="section" id="extra-skip-lints-not-list">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">extra_skip_lints_not_list</span></code>”<a class="headerlink" href="#extra-skip-lints-not-list" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">The extra/skip-lints section must contain a list</p>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">extra</span><span class="p">:</span>
+   <span class="n">skip</span><span class="o">-</span><span class="n">lints</span><span class="p">:</span>
+      <span class="o">-</span> <span class="n">should_use_compilers</span>
+</pre></div>
+</div>
+</div>
+<p><p>The recipe is trying to skip a lint with an unknown name. Check
+the list here for the correct name.</p>
+</p>
+</div>
+</div>
+<div class="section" id="recipe-parsing">
+<h3>Recipe Parsing<a class="headerlink" href="#recipe-parsing" title="Permalink to this headline">¶</a></h3>
+<p>These lints happen implicitly during recipe parsing. They cannot be
+skipped!</p>
+<div class="section" id="duplicate-key-in-meta-yaml">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">duplicate_key_in_meta_yaml</span></code>”<a class="headerlink" href="#duplicate-key-in-meta-yaml" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">The recipe meta.yaml contains a duplicate key</p>
+<p>This is invalid YAML, as it’s unclear what the structure should
+become. Please merge the two offending sections</p>
+</div>
+<p><p>Say you have two <code class="docutils literal notranslate"><span class="pre">requirements:</span> <span class="pre">build:</span></code> sections, should the
+second replace the list in the first, or should it append to it?
+The YAML standard does not specify this. Instead, it just says that
+sections cannot occur twice. Some YAML parsers allow duplicate
+keys, but it’s often unclear what the result should be, and it’s
+easy to miss another section further down in the recipe, so we
+don’t.</p>
+</p>
+</div>
+<div class="section" id="unknown-selector">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">unknown_selector</span></code>”<a class="headerlink" href="#unknown-selector" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">The recipe failed to parse due to selector lines</p>
+<p>Please request help from &#64;bioconda/core.</p>
+</div>
+<p><p>The recipe uses an <code class="docutils literal notranslate"><span class="pre">#</span> <span class="pre">[abc]</span></code> selector that is not understood by
+bioconda-utils. If you actually do encounter this, ping
+<code class="docutils literal notranslate"><span class="pre">&#64;bioconda/core</span></code> at it is very likely a bug.</p>
+</p>
+</div>
+<div class="section" id="conda-render-failure">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">conda_render_failure</span></code>”<a class="headerlink" href="#conda-render-failure" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">The recipe was not understood by conda-build</p>
+<p>Please request help from &#64;bioconda/core.</p>
+</div>
+<p><p>There was an error in <code class="docutils literal notranslate"><span class="pre">conda-build</span></code> “rendering” the
+recipe. Please contact <code class="docutils literal notranslate"><span class="pre">&#64;bioconda/core</span></code> for help.</p>
+</p>
+</div>
+<div class="section" id="jinja-render-failure">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">jinja_render_failure</span></code>”<a class="headerlink" href="#jinja-render-failure" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">The recipe could not be rendered by Jinja2</p>
+<p>Check if you are missing quotes or curly braces in Jinja2 template
+expressions. (The parts with <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">something</span> <span class="pre">}}</span></code> or <code class="docutils literal notranslate"><span class="pre">{%</span> <span class="pre">set</span>
+<span class="pre">var=&quot;value&quot;</span> <span class="pre">%}</span></code>).</p>
+</div>
+<p><p>Conda recipes are technically not YAML, but Jinja YAML
+templates. The Jinja template engine turning the recipe text into
+YAML complained about a part in your recipe.</p>
+<p>Most frequently, this is due to unbalanced or missing braces,
+parentheses or quotes.</p>
+</p>
+</div>
+<div class="section" id="unknown-check">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">unknown_check</span></code>”<a class="headerlink" href="#unknown-check" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">Something went wrong inside the linter</p>
+<p>Please request help from &#64;bioconda/core</p>
+</div>
+<p><p>You broke it!!! Congratulations, you found a bug in the
+linter. Ping &#64;bioconda/core to figure out what’s going on.</p>
+</p>
+</div>
+</div>
+<div class="section" id="repository">
+<h3>Repository<a class="headerlink" href="#repository" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="in-other-channels">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">in_other_channels</span></code>”<a class="headerlink" href="#in-other-channels" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">A package of the same name already exists in another channel</p>
+<p>Bioconda and Conda-Forge occupy the same name space and have
+agreed not to add packages if a package of the same name is
+already present in the respective other channel.</p>
+<p>If this is a new package, pease choose a different name
+(e.g. append <code class="docutils literal notranslate"><span class="pre">-bio</span></code>).</p>
+<p>If you are updating a package, please continue in the package’s
+new home at conda-forge.</p>
+</div>
+<p><p>The package exists in another dependent channel (currently
+conda-forge and defaults). This often happens when a general-use
+package was added to bioconda first but was subsequently added to
+one of the more general channels. In this case we’d prefer it to be
+in the general channel.</p>
+<p>We want to minimize duplicated work. If a package already exists in
+another dependent channel, it doesn’t need to be maintained in the
+bioconda channel.</p>
+<p>In special cases this can be overridden, for example if a
+bioconda-specific patch is required. However it is almost always
+better to fix or update the recipe in the other channel. Note that
+the package in the bioconda channel will remain in order to
+maintain reproducibility.</p>
+<p>Sometimes when adding or updating a recipe in a pull request to
+<code class="docutils literal notranslate"><span class="pre">conda-forge</span></code> the conda-forge linter will warn that a recipe with
+the same name already exists in bioconda. When this happens,
+usually the best thing to do is:</p>
+<ol class="arabic simple">
+<li><p>Submit – but don’t merge yet! – a PR to bioconda that removes the
+recipe.  In that PR, reference the conda-forge/staged-recipes PR.</p></li>
+<li><p>Merge the conda-forge PR adding or updating the recipe</p></li>
+<li><p>Merge the bioconda PR deleting the recipe</p></li>
+</ol>
+</p>
+</div>
+<div class="section" id="build-number-needs-bump">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">build_number_needs_bump</span></code>”<a class="headerlink" href="#build-number-needs-bump" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">The recipe build number should be incremented</p>
+<p>A package with the same name and version and a build number at
+least as high as specified in the recipe already exists in the
+channel. Please increase the build number.</p>
+</div>
+<p><p>Every time you change a recipe, you should assign a new
+(incremented) build number. Otherwise, the package may not be built
+(it will be built only if the “build string” is different, which
+might happen only on one architecture and not the other).</p>
+</p>
+</div>
+<div class="section" id="build-number-needs-reset">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">build_number_needs_reset</span></code>”<a class="headerlink" href="#build-number-needs-reset" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">The recipe build number should be reset to 0</p>
+<p>No previous build of a package of this name and this version exists,
+the build number should therefore be 0.</p>
+</div>
+<p><p>If no previous build exists for a package/version combination, the
+build number should be 0.</p>
+</p>
+</div>
+<div class="section" id="recipe-is-blacklisted">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">recipe_is_blacklisted</span></code>”<a class="headerlink" href="#recipe-is-blacklisted" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">The recipe is currently blacklisted and will not be built</p>
+<p>If you are intending to repair this recipe, remove it from
+the build fail blacklist.</p>
+</div>
+<p><p>We maintain a list of packages that are “blacklisted”. Recipes are
+added to this list if they fail to rebuild and would block
+automatic build processes. Just remove your package from this list
+and proceed as normal. Hopefully, you can fix whatever got the
+recipe on the blacklist!</p>
+</p>
+</div>
+</div>
+<div class="section" id="deprecations">
+<h3>Deprecations<a class="headerlink" href="#deprecations" title="Permalink to this headline">¶</a></h3>
+<p>These checks catch packages or recipe idioms we no longer use or that
+no longer work and need to be changed.</p>
+<div class="section" id="uses-perl-threaded">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_perl_threaded</span></code>”<a class="headerlink" href="#uses-perl-threaded" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">The recipe uses <code class="docutils literal notranslate"><span class="pre">perl-threaded</span></code></p>
+<p>Please use <code class="docutils literal notranslate"><span class="pre">perl</span></code> instead.</p>
+</div>
+<p><p>Previously, Bioconda used <code class="docutils literal notranslate"><span class="pre">perl-threaded</span></code> as a dependency for
+Perl packages, but now we are using <code class="docutils literal notranslate"><span class="pre">perl</span></code> instead. When one of
+these older recipes is updated, it will fail this check.</p>
+</p>
+</div>
+<div class="section" id="uses-javajdk">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_javajdk</span></code>”<a class="headerlink" href="#uses-javajdk" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">The recipe uses <code class="docutils literal notranslate"><span class="pre">java-jdk</span></code></p>
+<p>Please use <code class="docutils literal notranslate"><span class="pre">openjdk</span></code> instead.</p>
+</div>
+<p><p>Previously, Bioconda used <code class="docutils literal notranslate"><span class="pre">java-jdk</span></code> as a dependency for Java
+packages, but now we are using <code class="docutils literal notranslate"><span class="pre">openjdk</span></code> instead. When one of
+those older recipes is updated, it will fail this check.</p>
+</p>
+</div>
 <div class="section" id="deprecated-numpy-spec">
-<h3>“<code class="docutils literal notranslate"><span class="pre">deprecated_numpy_spec</span></code>”<a class="headerlink" href="#deprecated-numpy-spec" title="Permalink to this headline">¶</a></h3>
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">deprecated_numpy_spec</span></code>”<a class="headerlink" href="#deprecated-numpy-spec" title="Permalink to this headline">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe contains a deprecated numpy spec</p>
 <p>Please remove the <code class="docutils literal notranslate"><span class="pre">x.x</span></code> - pinning is now handled automatically.</p>
 </div>
-<p><p>Reason for failing: The recipe contains <code class="docutils literal notranslate"><span class="pre">numpy</span> <span class="pre">x.x</span></code> in build or
-run requirements.</p>
-<p>Rationale: This kind of version pinning is deprecated, and numpy
-pinning is now handled automatically by the system.</p>
-<p>How to resolve: Remove the <code class="docutils literal notranslate"><span class="pre">x.x</span></code>.</p>
+<p><p>Originally, <code class="docutils literal notranslate"><span class="pre">conda</span></code> used the <code class="docutils literal notranslate"><span class="pre">numpy</span> <span class="pre">x.x</span></code> syntax to enable
+pinning for numpy. This way of pinning has been superceded by the
+<code class="docutils literal notranslate"><span class="pre">conda_build_config.yaml</span></code> way of automatic pinning. You can
+now just write <code class="docutils literal notranslate"><span class="pre">numpy</span></code> (without any special string appended).</p>
 </p>
 </div>
-<div class="section" id="should-not-use-fn">
-<h3>“<code class="docutils literal notranslate"><span class="pre">should_not_use_fn</span></code>”<a class="headerlink" href="#should-not-use-fn" title="Permalink to this headline">¶</a></h3>
-<div class="admonition">
-<p class="admonition-title">The recipe uses source/fn</p>
-<p>There is no need to specify the filename as the URL should give a name
-and it will in most cases be unpacked automatically.</p>
 </div>
-<p><p>Reason for failing: Recipe contains a <code class="docutils literal notranslate"><span class="pre">fn:</span></code> key in the
-<code class="docutils literal notranslate"><span class="pre">source:</span></code> section</p>
-<p>Rationale: Conda-build 3 no longer requres <code class="docutils literal notranslate"><span class="pre">fn:</span></code>, and it is
-redundant with <code class="docutils literal notranslate"><span class="pre">url:</span></code>.</p>
-<p>How to resolve: Remove the <code class="docutils literal notranslate"><span class="pre">source:</span> <span class="pre">fn:</span></code> key.</p>
-</p>
-</div>
+<div class="section" id="build-helpers">
+<h3>Build helpers<a class="headerlink" href="#build-helpers" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="should-use-compilers">
-<h3>“<code class="docutils literal notranslate"><span class="pre">should_use_compilers</span></code>”<a class="headerlink" href="#should-use-compilers" title="Permalink to this headline">¶</a></h3>
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_use_compilers</span></code>”<a class="headerlink" href="#should-use-compilers" title="Permalink to this headline">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe requires a compiler directly</p>
 <p>Since version 3, <code class="docutils literal notranslate"><span class="pre">conda-build</span></code> uses a special syntax to require
-compilers for a given language matching the architecture for
-which a package is being build. Please use:</p>
+compilers for a given language matching the architecture for which
+a package is being build. Please use:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">requirements</span><span class="p">:</span>
    <span class="n">build</span><span class="p">:</span>
      <span class="o">-</span> <span class="p">{{</span> <span class="n">compiler</span><span class="p">(</span><span class="s1">&#39;language&#39;</span><span class="p">)</span> <span class="p">}}</span>
@@ -617,28 +863,103 @@ which a package is being build. Please use:</p>
 <code class="docutils literal notranslate"><span class="pre">toolchain</span></code> to the dependencies as this will be handled by
 conda-build itself.</p>
 </div>
-<p><p>Reason for failing: The recipe has one of <code class="docutils literal notranslate"><span class="pre">gcc</span></code>, <code class="docutils literal notranslate"><span class="pre">llvm</span></code>,
-<code class="docutils literal notranslate"><span class="pre">libgfortran</span></code>, or <code class="docutils literal notranslate"><span class="pre">libgcc</span></code> as dependencies.</p>
-<p>Rationale: Conda-build 3 now uses compiler tools, which are more
-up-to-date and better-supported.</p>
-<p>How to resolve: Use <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler()</span> <span class="pre">}}</span></code> variables. See
-<a class="reference internal" href="cb3.html#compiler-tools"><span class="std std-ref">Compiler tools</span></a> for details.</p>
+<p><p>The recipe uses a compiler directly. Since version 3,
+<code class="docutils literal notranslate"><span class="pre">conda-build</span></code> has a special syntax for compilers, e.g.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">build</span><span class="p">:</span>
+  <span class="o">-</span> <span class="p">{{</span> <span class="n">compiler</span><span class="p">(</span><span class="s1">&#39;cxx&#39;</span><span class="p">)</span> <span class="p">}}</span>
+</pre></div>
+</div>
+<p>This will select the appropriate C++ compiler (<code class="docutils literal notranslate"><span class="pre">clang</span></code> on MacOS
+and <code class="docutils literal notranslate"><span class="pre">g++</span></code> on Linux) automatically, inject apropriate environment
+variables (<code class="docutils literal notranslate"><span class="pre">CXX</span></code>, <code class="docutils literal notranslate"><span class="pre">CXXFLAGS</span></code>, <code class="docutils literal notranslate"><span class="pre">LDFLAGS</span></code>, …) into the build
+environment and create the right dependencies (e.g. <code class="docutils literal notranslate"><span class="pre">libgcc</span></code>).
+Which compilers are used is configured via
+<code class="docutils literal notranslate"><span class="pre">conda_build_config.yaml</span></code>, which we “inherit” from conda-forge.</p>
+<p>Packages no longer needed are <code class="docutils literal notranslate"><span class="pre">toolchain</span></code>, <code class="docutils literal notranslate"><span class="pre">libgfortran</span></code>,
+<code class="docutils literal notranslate"><span class="pre">libgcc</span></code>. The compilers <code class="docutils literal notranslate"><span class="pre">gcc</span></code>, <code class="docutils literal notranslate"><span class="pre">llvm</span></code>, <code class="docutils literal notranslate"><span class="pre">go</span></code>, and <code class="docutils literal notranslate"><span class="pre">cgo</span></code>
+don’t need to be installed directly, instead specify <code class="docutils literal notranslate"><span class="pre">c</span></code>,
+<code class="docutils literal notranslate"><span class="pre">cxx</span></code>, <code class="docutils literal notranslate"><span class="pre">fortran</span></code>, <code class="docutils literal notranslate"><span class="pre">go</span></code> or <code class="docutils literal notranslate"><span class="pre">cgo</span></code> as language using the
+compiler syntax.</p>
+<p>One exception from this is <code class="docutils literal notranslate"><span class="pre">llvm-openmp</span> <span class="pre">#</span> <span class="pre">[osx]</span></code> which still
+needs to be added manually if your package makes use of OpenMP.</p>
+<p>See <a class="reference internal" href="cb3.html#compiler-tools"><span class="std std-ref">Compiler tools</span></a> for details.</p>
+</p>
+</div>
+<div class="section" id="uses-setuptools">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_setuptools</span></code>”<a class="headerlink" href="#uses-setuptools" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">The recipe uses setuptools in run depends</p>
+<p>Most Python packages only need setuptools during installation.
+Check if the package really needs setuptools (e.g. because it uses
+pkg_resources or setuptools console scripts).</p>
+</div>
+<p><p><code class="docutils literal notranslate"><span class="pre">setuptools</span></code> is typically used to install dependencies for Python
+packages but most of the time this is not needed within a conda
+package as a run dependency.</p>
+<p>Some packages do need <code class="docutils literal notranslate"><span class="pre">setuptools</span></code>, in which case this check can
+be overridden.  <code class="docutils literal notranslate"><span class="pre">setuptools</span></code> may be required, e.g., if a package
+loads resources via <code class="docutils literal notranslate"><span class="pre">pkg_resources</span></code> which is part of
+<code class="docutils literal notranslate"><span class="pre">setuptools</span></code>. That dependency can also be introduced implicitly
+when <code class="docutils literal notranslate"><span class="pre">setuptools</span></code>-created console scripts are used.  To avoid
+this, make sure to carry <code class="docutils literal notranslate"><span class="pre">console_scripts</span></code> entry points from
+<code class="docutils literal notranslate"><span class="pre">setup.py</span></code> over to <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> to replace them with scripts
+created by <code class="docutils literal notranslate"><span class="pre">conda</span></code>/<code class="docutils literal notranslate"><span class="pre">conda-build</span></code> which don’t require
+<code class="docutils literal notranslate"><span class="pre">pkg_resources</span></code>. Recipes generated via <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">pypi</span></code>
+already include the required section.</p>
+</p>
+</div>
+<div class="section" id="setup-py-install-args">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">setup_py_install_args</span></code>”<a class="headerlink" href="#setup-py-install-args" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">The recipe uses setuptools without required arguments</p>
+<p>Please use:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$PYTHON setup.py install --single-version-externally-managed --record=record.txt
+</pre></div>
+</div>
+<p>The parameters are required to avoid <code class="docutils literal notranslate"><span class="pre">setuptools</span></code> trying (and
+failing) to install <code class="docutils literal notranslate"><span class="pre">certifi</span></code> when a package this recipe
+requires defines entrypoints in its <code class="docutils literal notranslate"><span class="pre">setup.py</span></code>.</p>
+</div>
+<p><p>When a package depends on setuptools, we have to disable some parts
+of setuptools during installation to make it work correctly with
+conda. In particular, it seems that packages depend on other
+packages that specify entry points (e.g., <code class="docutils literal notranslate"><span class="pre">pyfaidx</span></code>) will cause
+errors about how <code class="docutils literal notranslate"><span class="pre">setuptools</span></code> is not allowed to install
+<code class="docutils literal notranslate"><span class="pre">certifi</span></code> in a conda package.</p>
+<p>Change the line in either in <code class="docutils literal notranslate"><span class="pre">build.sh</span></code> or the <code class="docutils literal notranslate"><span class="pre">build:script</span></code>
+key in <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> from:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$PYTHON setup.py install
+</pre></div>
+</div>
+<p>to:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$PYTHON setup.py install --single-version-externally-managed --record=record.txt
+</pre></div>
+</div>
 </p>
 </div>
 <div class="section" id="compilers-must-be-in-build">
-<h3>“<code class="docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code>”<a class="headerlink" href="#compilers-must-be-in-build" title="Permalink to this headline">¶</a></h3>
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code>”<a class="headerlink" href="#compilers-must-be-in-build" title="Permalink to this headline">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe requests a compiler in a section other than build</p>
 <p>Please move the <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler('language')</span> <span class="pre">}}</span></code> line into the
 <code class="docutils literal notranslate"><span class="pre">requirements:</span> <span class="pre">build:</span></code> section.</p>
 </div>
-<p><p>Reason for failing: A <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler()</span> <span class="pre">}}</span></code> varaiable was found, but
-not in the <code class="docutils literal notranslate"><span class="pre">build:</span></code> section.</p>
-<p>Rational: The compiler tools must not be in <code class="docutils literal notranslate"><span class="pre">host:</span></code> or <code class="docutils literal notranslate"><span class="pre">run:</span></code>
-sections.</p>
-<p>How to resolve: Move <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler()</span> <span class="pre">}}</span></code> variables to the
+<p><p>A <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler('xyz')</span> <span class="pre">}}</span></code> variable was found, but not in the
+<code class="docutils literal notranslate"><span class="pre">build:</span></code> section. Move <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler()</span> <span class="pre">}}</span></code> variables to the
 <code class="docutils literal notranslate"><span class="pre">build:</span></code> section.</p>
 </p>
+</div>
+</div>
+<div class="section" id="linter-errors">
+<h3>Linter Errors<a class="headerlink" href="#linter-errors" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="linter-failure">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">linter_failure</span></code>”<a class="headerlink" href="#linter-failure" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">An unexpected exception was raised during linting</p>
+<p>Please file an issue at the bioconda-utils repo</p>
+</div>
+<p></p>
+</div>
 </div>
 </div>
 <div class="section" id="developer-docs">

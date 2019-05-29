@@ -9,7 +9,8 @@ snvphyl-tools
 .. conda:recipe:: snvphyl-tools
    :replaces_section_title:
 
-   The SNVPhyl \(Single Nucleotide Variant PHYLogenomics\) pipeline is a pipeline for identifying Single Nucleotide Variants \(SNV\) within a collection of microbial genomes and constructing a phylogenetic tree
+   The SNVPhyl \(Single Nucleotide Variant PHYLogenomics\) pipeline is a pipeline for identifying
+   Single Nucleotide Variants \(SNV\) within a collection of microbial genomes and constructing a phylogenetic tree
 
    :homepage: https://github.com/phac-nml/snvphyl-tools
    :license: apache_2.0

@@ -849,16 +849,20 @@
     <span class="n">context</span><span class="p">[</span><span class="s1">&#39;git_ribbon_message&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Edit me on GitHub&quot;</span></div>
 
 
-<div class="viewcode-block" id="LintDescriptionDirective"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.LintDescriptionDirective">[docs]</a><span class="k">class</span> <span class="nc">LintDescriptionDirective</span><span class="p">(</span><span class="n">rst</span><span class="o">.</span><span class="n">Directive</span><span class="p">):</span>
+<div class="viewcode-block" id="LintDescriptionDirective"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.LintDescriptionDirective">[docs]</a><span class="k">class</span> <span class="nc">LintDescriptionDirective</span><span class="p">(</span><span class="n">SphinxDirective</span><span class="p">):</span>
     <span class="n">required_arguments</span> <span class="o">=</span> <span class="mi">1</span>
     <span class="n">optional_argument</span> <span class="o">=</span> <span class="mi">0</span>
     <span class="n">has_content</span> <span class="o">=</span> <span class="kc">True</span>
     <span class="n">add_index</span> <span class="o">=</span> <span class="kc">True</span>
 
     <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="p">,</span> <span class="s1">&#39;bioconda_lint_checks&#39;</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">bioconda_lint_checks</span> <span class="o">=</span> <span class="p">{</span><span class="nb">str</span><span class="p">(</span><span class="n">check</span><span class="p">):</span> <span class="n">check</span> <span class="k">for</span> <span class="n">check</span> <span class="ow">in</span> <span class="n">get_checks</span><span class="p">()}</span>
         <span class="c1"># gather data</span>
         <span class="n">check_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">arguments</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-        <span class="n">check</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="n">check</span> <span class="k">for</span> <span class="n">check</span> <span class="ow">in</span> <span class="n">get_checks</span><span class="p">()</span> <span class="k">if</span> <span class="nb">str</span><span class="p">(</span><span class="n">check</span><span class="p">)</span> <span class="o">==</span> <span class="n">check_name</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">check_name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">bioconda_lint_checks</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Duplicate lint description&quot;</span><span class="p">)</span>
+        <span class="n">check</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">bioconda_lint_checks</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="n">check_name</span><span class="p">)</span>
         <span class="n">_</span><span class="p">,</span> <span class="n">lineno</span> <span class="o">=</span> <span class="n">inspect</span><span class="o">.</span><span class="n">getsourcelines</span><span class="p">(</span><span class="n">check</span><span class="p">)</span>
         <span class="n">lineno</span> <span class="o">+=</span> <span class="mi">1</span>
         <span class="n">fname</span> <span class="o">=</span> <span class="n">inspect</span><span class="o">.</span><span class="n">getfile</span><span class="p">(</span><span class="n">check</span><span class="p">)</span>
@@ -869,7 +873,7 @@
 
         <span class="c1"># create a new section with title</span>
         <span class="n">section</span> <span class="o">=</span> <span class="n">nodes</span><span class="o">.</span><span class="n">section</span><span class="p">(</span><span class="n">ids</span><span class="o">=</span><span class="p">[</span><span class="n">nodes</span><span class="o">.</span><span class="n">make_id</span><span class="p">(</span><span class="n">check_name</span><span class="p">)])</span>
-        <span class="n">title_text</span> <span class="o">=</span> <span class="n">f</span><span class="s1">&#39;&quot;``</span><span class="si">{check_name}</span><span class="s1">``&quot;&#39;</span>
+        <span class="n">title_text</span> <span class="o">=</span> <span class="n">f</span><span class="s1">&#39;&quot;:py:class:`</span><span class="si">{check_name}</span><span class="s1">`&quot;&#39;</span>
         <span class="n">title_nodes</span><span class="p">,</span> <span class="n">messages</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">state</span><span class="o">.</span><span class="n">inline_text</span><span class="p">(</span><span class="n">title_text</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">lineno</span><span class="p">)</span>
         <span class="n">title</span> <span class="o">=</span> <span class="n">nodes</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="n">check_name</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="o">*</span><span class="n">title_nodes</span><span class="p">)</span>
         <span class="n">section</span> <span class="o">+=</span> <span class="n">title</span>
@@ -888,7 +892,13 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">state</span><span class="o">.</span><span class="n">nested_parse</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">content</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">content_offset</span><span class="p">,</span> <span class="n">par</span><span class="p">)</span>
         <span class="n">section</span> <span class="o">+=</span> <span class="n">par</span>
 
-        <span class="k">return</span> <span class="p">[</span><span class="n">section</span><span class="p">]</span></div>
+        <span class="k">return</span> <span class="p">[</span><span class="n">section</span><span class="p">]</span>
+
+    <span class="nd">@classmethod</span>
+    <span class="k">def</span> <span class="nf">finalize</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">app</span><span class="p">,</span> <span class="n">env</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">env</span><span class="o">.</span><span class="n">bioconda_lint_checks</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">check</span> <span class="ow">in</span> <span class="n">env</span><span class="o">.</span><span class="n">bioconda_lint_checks</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Undocumented lint checks: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">check</span><span class="p">)</span></div>
 
 
 <div class="viewcode-block" id="setup"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.setup">[docs]</a><span class="k">def</span> <span class="nf">setup</span><span class="p">(</span><span class="n">app</span><span class="p">):</span>
@@ -897,6 +907,7 @@
     <span class="n">app</span><span class="o">.</span><span class="n">add_directive</span><span class="p">(</span><span class="s1">&#39;autorecipes&#39;</span><span class="p">,</span> <span class="n">AutoRecipesDirective</span><span class="p">)</span>
     <span class="n">app</span><span class="o">.</span><span class="n">add_directive</span><span class="p">(</span><span class="s1">&#39;lint-check&#39;</span><span class="p">,</span> <span class="n">LintDescriptionDirective</span><span class="p">)</span>
     <span class="n">app</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s1">&#39;builder-inited&#39;</span><span class="p">,</span> <span class="n">generate_recipes</span><span class="p">)</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s1">&#39;env-updated&#39;</span><span class="p">,</span> <span class="n">LintDescriptionDirective</span><span class="o">.</span><span class="n">finalize</span><span class="p">)</span>
     <span class="n">app</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s1">&#39;missing-reference&#39;</span><span class="p">,</span> <span class="n">resolve_required_by_xrefs</span><span class="p">)</span>
     <span class="n">app</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s1">&#39;html-page-context&#39;</span><span class="p">,</span> <span class="n">add_ribbon</span><span class="p">)</span>
     <span class="n">app</span><span class="o">.</span><span class="n">add_config_value</span><span class="p">(</span><span class="s1">&#39;bioconda_repo_url&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="s1">&#39;env&#39;</span><span class="p">)</span>
