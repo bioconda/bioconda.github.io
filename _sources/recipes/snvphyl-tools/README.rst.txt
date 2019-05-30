@@ -23,18 +23,21 @@ snvphyl-tools
 
    |downloads_snvphyl-tools| |docker_snvphyl-tools|
 
-   :versions: 1.8.1-0
+   :versions: 1.8.2-0, 1.8.1-0
    
    :depends bcftools-snvphyl-plugin: 
+   :depends libgcc-ng: >=7.3.0
    :depends mummer: 
-   :depends perl: 5.22.0*
-   :depends perl-bioperl: 
+   :depends openssl: >=1.1.1a,<1.1.2a
+   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl-bioperl: >=1.7.2
    :depends perl-hash-merge: 
    :depends perl-list-moreutils: 
    :depends perl-math-round: 
    :depends perl-parallel-forkmanager: 
    :depends perl-string-util: 
    :depends perl-text-csv: 
+   :depends perl-vcftools-vcf: 
    :depends samtools: 
    :depends vcftools: 
    :requirements:

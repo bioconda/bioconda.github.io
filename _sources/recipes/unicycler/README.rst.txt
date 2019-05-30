@@ -22,7 +22,7 @@ unicycler
 
    |downloads_unicycler| |docker_unicycler|
 
-   :versions: 0.4.7-0, 0.4.6-0, 0.4.4-1, 0.4.4-0, 0.4.1-0, 0.3.0b-1, 0.3.0b-0, 0.2.0-0
+   :versions: 0.4.7-1, 0.4.7-0, 0.4.6-0, 0.4.4-1, 0.4.4-0, 0.4.1-0, 0.3.0b-1, 0.3.0b-0, 0.2.0-0
    
    :depends blast: 
    :depends bowtie2: 
@@ -32,7 +32,7 @@ unicycler
    :depends miniasm: 
    :depends openjdk: 
    :depends pilon: 
-   :depends python: >=3.6,<3.7.0a0
+   :depends python: >=3.7,<3.8.0a0
    :depends racon: 
    :depends samtools: >=1.0
    :depends spades: >=3.6.2
