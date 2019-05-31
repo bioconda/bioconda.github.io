@@ -22,7 +22,7 @@ tapestry
 
    |downloads_tapestry| |docker_tapestry|
 
-   :versions: 0.9.1-0
+   :versions: 0.9.3-0, 0.9.2-0, 0.9.1-0
    
    :depends biopython: 
    :depends intervaltree: 

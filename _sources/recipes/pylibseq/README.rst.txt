@@ -12,7 +12,7 @@ pylibseq
    A Python interface to libsequence
 
    :homepage: http://pypi.python.org/pypi/pylibseq
-   :license: GNU Lesser General Public License v2 or later (LGPLv2+)
+   :license: GPL / GPLv3+
    :recipe: /`pylibseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pylibseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pylibseq/meta.yaml>`_
 
    
@@ -22,12 +22,14 @@ pylibseq
 
    |downloads_pylibseq| |docker_pylibseq|
 
-   :versions: 0.2.0-2, 0.2.0-1, 0.2.0-0, 0.1.9.post0-0, 0.1.8-0
+   :versions: 0.2.1-0, 0.2.0-2, 0.2.0-1, 0.2.0-0, 0.1.9.post0-0, 0.1.8-0
    
-   :depends libsequence: 
-   :depends libstdcxx-ng: >=4.9
-   :depends msprime: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libsequence: >=1.9.6
+   :depends libstdcxx-ng: >=7.3.0
+   :depends msprime: >=0.5.0
+   :depends python: >=3.7,<3.8.0a0
+   :depends tbb: >=2019.7
    :requirements:
 
    .. rubric:: Installation

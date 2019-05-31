@@ -9,10 +9,11 @@ r-bioverbs
 .. conda:recipe:: r-bioverbs
    :replaces_section_title:
 
-   S4 generic functions for bioinformatics\, part of the basejump toolkit.
+   S4 generic functions for bioinformatics.
 
-   :homepage: https://github.com/steinbaugh/bioverbs
-   :license: MIT / MIT
+   :homepage: https://bioverbs.acidgenomics.com/
+   :developer docs: https://github.com/acidgenomics/bioverbs
+   :license: MIT
    :recipe: /`r-bioverbs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bioverbs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bioverbs/meta.yaml>`_
 
    
@@ -22,7 +23,7 @@ r-bioverbs
 
    |downloads_r-bioverbs| |docker_r-bioverbs|
 
-   :versions: 0.1.8-0, 0.1.6-0
+   :versions: 0.1.19-0, 0.1.8-0, 0.1.6-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :requirements:

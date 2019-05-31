@@ -9,21 +9,24 @@ kmc
 .. conda:recipe:: kmc
    :replaces_section_title:
 
-   K\-mer Counter is a utility designed for counting k\-mers \(sequences of consecutive k symbols\) in a set of reads from genome sequencing projects.
+   Tools for efficient k\-mer counting and filtering of reads based on k\-mer content
 
    :homepage: http://sun.aei.polsl.pl/kmc/
-   :license: GPLv2
+   :license: GPL3 / GPL3
    :recipe: /`kmc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmc/meta.yaml>`_
    :links: biotools: :biotools:`KMC`, doi: :doi:`10.1093/bioinformatics/btx304`
 
-   
+   K\-mer Counter is a utility designed for counting k\-mers \(sequences
+   of consecutive k symbols\) in a set of reads from genome sequencing
+   projects.
+
 
 
 .. conda:package:: kmc
 
    |downloads_kmc| |docker_kmc|
 
-   :versions: 3.1.1rc1-2, 3.1.1rc1-1, 3.1.1rc1-0, 3.1.0-0, 3.0.1-2, 3.0.1-1, 3.0.1-0, 3.0.0-1, 3.0.0-0, 2.3.0-3, 2.3.0-2, 2.3.0-1
+   :versions: 3.1.1-0, 3.1.1rc1-2, 3.1.1rc1-1, 3.1.1rc1-0, 3.1.0-0, 3.0.1-2, 3.0.1-1, 3.0.1-0, 3.0.0-1, 3.0.0-0, 2.3.0-3, 2.3.0-2, 2.3.0-1
    
    :depends bzip2: >=1.0.6,<2.0a0
    :depends libgcc-ng: >=7.3.0

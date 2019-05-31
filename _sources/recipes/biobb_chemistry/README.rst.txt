@@ -50,7 +50,7 @@ biobb_chemistry
 
    |downloads_biobb_chemistry| |docker_biobb_chemistry|
 
-   :versions: 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.4-0
+   :versions: 1.0.8-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.4-0
    
    :depends biobb_common: 1.1.6
    :depends openbabel: 2.4.1

@@ -22,7 +22,7 @@ sword
 
    |downloads_sword| |docker_sword|
 
-   :versions: 1.0.1-0, 1.0.0-0
+   :versions: 1.0.3-0, 1.0.1-0, 1.0.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

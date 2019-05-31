@@ -26,7 +26,7 @@ ete3
    
    :depends lxml: 
    :depends numpy: 
-   :depends pyqt: >=4.11.4,<4.12.0a0
+   :depends pyqt: >=4.11.*
    :depends python: 
    :depends scipy: 
    :depends six: 

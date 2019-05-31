@@ -9,10 +9,11 @@ r-syntactic
 .. conda:recipe:: r-syntactic
    :replaces_section_title:
 
-   Make syntactically valid names out of character vectors. This package is part of the basejump toolkit.
+   Make syntactically valid names out of character vectors.
 
-   :homepage: https://github.com/steinbaugh/syntactic
-   :license: MIT / MIT
+   :homepage: https://syntactic.acidgenomics.com/
+   :developer docs: https://github.com/acidgenomics/syntactic
+   :license: MIT
    :recipe: /`r-syntactic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-syntactic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-syntactic/meta.yaml>`_
 
    
@@ -22,17 +23,15 @@ r-syntactic
 
    |downloads_r-syntactic| |docker_r-syntactic|
 
-   :versions: 0.1.5-0, 0.1.4-0
+   :versions: 0.1.9-0, 0.1.5-0, 0.1.4-0
    
    :depends bioconductor-genomicranges: 
    :depends bioconductor-s4vectors: 
    :depends bioconductor-summarizedexperiment: 
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends r-bioverbs: >=0.1.8
-   :depends r-goalie: >=0.2.9
-   :depends r-magrittr: 
+   :depends r-bioverbs: >=0.1.10
+   :depends r-goalie: >=0.2.12
    :depends r-matrix: 
-   :depends r-r.utils: 
    :requirements:
 
    .. rubric:: Installation

@@ -9,10 +9,11 @@ r-brio
 .. conda:recipe:: r-brio
    :replaces_section_title:
 
-   Biological R input\/output. This package is part of the basejump toolkit.
+   Biological R input\/output.
 
-   :homepage: https://github.com/steinbaugh/brio
-   :license: MIT / MIT
+   :homepage: https://brio.acidgenomics.com/
+   :developer docs: https://github.com/acidgenomics/brio
+   :license: MIT
    :recipe: /`r-brio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-brio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-brio/meta.yaml>`_
 
    
@@ -22,7 +23,7 @@ r-brio
 
    |downloads_r-brio| |docker_r-brio|
 
-   :versions: 0.1.8-0, 0.1.6-0
+   :versions: 0.2.1-0, 0.1.8-0, 0.1.6-0
    
    :depends bioconductor-genomicranges: 
    :depends bioconductor-rtracklayer: 
@@ -30,18 +31,18 @@ r-brio
    :depends bioconductor-singlecellexperiment: 
    :depends bioconductor-summarizedexperiment: 
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends r-bioverbs: >=0.1.8
+   :depends r-bioverbs: >=0.1.18
    :depends r-curl: >=1.95
-   :depends r-data.table: >=1.11
-   :depends r-goalie: >=0.2.9
+   :depends r-data.table: >=1.12
+   :depends r-goalie: >=0.2.16
    :depends r-jsonlite: >=1.6
    :depends r-matrix: >=1.2
-   :depends r-r.utils: >=2.7
+   :depends r-r.utils: >=2.8
    :depends r-readr: >=1.3
    :depends r-rio: >=0.5
-   :depends r-stringr: >=1.3
-   :depends r-tibble: >=2.0
-   :depends r-transformer: >=0.1.6
+   :depends r-stringr: >=1.4
+   :depends r-tibble: >=2.1
+   :depends r-transformer: >=0.1.11
    :depends r-yaml: >=2.2
    :requirements:
 

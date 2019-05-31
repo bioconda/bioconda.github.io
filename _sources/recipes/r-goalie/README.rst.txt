@@ -9,10 +9,11 @@ r-goalie
 .. conda:recipe:: r-goalie
    :replaces_section_title:
 
-   Assertive check functions for defensive R programming. goalie is an attempt to incorporate elements of multiple assertive check packages into a single package with as few dependencies as possible. All assertive checks are written in the most basic R code possible\, without reliance on compilation \(e.g. C\+\+\/Rcpp\). It is still a work in progress\, and feature requests are welcome.
+   Assertive check functions for defensive R programming.
 
-   :homepage: https://github.com/steinbaugh/goalie
-   :license: MIT / MIT
+   :homepage: https://goalie.acidgenomics.com/
+   :developer docs: https://github.com/acidgenomics/goalie
+   :license: MIT
    :recipe: /`r-goalie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-goalie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-goalie/meta.yaml>`_
 
    
@@ -22,10 +23,11 @@ r-goalie
 
    |downloads_r-goalie| |docker_r-goalie|
 
-   :versions: 0.2.9-0, 0.2.8-0
+   :versions: 0.2.16-0, 0.2.9-0, 0.2.8-0
    
+   :depends r-backports: 
    :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends r-curl: >=3.2.*
+   :depends r-curl: >=3.2
    :requirements:
 
    .. rubric:: Installation
