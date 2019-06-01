@@ -22,7 +22,7 @@ wub
 
    |downloads_wub| |docker_wub|
 
-   :versions: 0.3.1-2, 0.3.0-2, 0.2.0-2, 0.2.0-1, 0.2.0-0, 0.1.0-1, 0.1.0-0
+   :versions: 0.4.0-2, 0.3.1-2, 0.3.0-2, 0.2.0-2, 0.2.0-1, 0.2.0-0, 0.1.0-1, 0.1.0-0
    
    :depends biopython: 
    :depends editdistance: 

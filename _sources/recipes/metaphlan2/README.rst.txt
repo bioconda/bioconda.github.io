@@ -6,11 +6,11 @@
 metaphlan2
 ==========
 
-.. conda:recipe:: metaphlan2/2.7.7
+.. conda:recipe:: metaphlan2/2.9.0
    :replaces_section_title:
 
    MetaPhlAn is a computational tool for profiling the composition of microbial
-   communities \(Bacteria\, Archaea\, Eukaryotes and Viruses\) from metagenomic
+   communities \(Bacteria\, Archaea and Eukaryotes\) from metagenomic
    shotgun sequencing data with species level resolution. From version 2.0
    MetaPhlAn is also able to identify specific strains \(in the not\-so\-frequent
    cases in which the sample contains a previously sequenced strains\) and to
@@ -18,7 +18,7 @@ metaphlan2
 
    :homepage: https://bitbucket.org/biobakery/metaphlan2
    :license: MIT / MIT License
-   :recipe: /`metaphlan2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2>`_/`2.7.7 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2/2.7.7>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2/2.7.7/meta.yaml>`_
+   :recipe: /`metaphlan2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2>`_/`2.9.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2/2.9.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2/2.9.0/meta.yaml>`_
 
    
 
