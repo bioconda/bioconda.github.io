@@ -12,7 +12,7 @@ pal2nal
    robust conversion of protein sequence alignments into the corresponding codon alignments
 
    :homepage: http://www.bork.embl.de/pal2nal/
-   :license: GPL / GPL
+   :license: GPL / GPLv2.0
    :recipe: /`pal2nal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pal2nal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pal2nal/meta.yaml>`_
    :links: biotools: :biotools:`pal2nal`
 
@@ -23,7 +23,7 @@ pal2nal
 
    |downloads_pal2nal| |docker_pal2nal|
 
-   :versions: 14-0
+   :versions: 14.1-0, 14-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-getopt-long: 
