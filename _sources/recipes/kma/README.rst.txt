@@ -23,7 +23,7 @@ kma
 
    |downloads_kma| |docker_kma|
 
-   :versions: 1.2.3-0, 1.2.1-0, 1.2.0-0, 1.1.7-0, 1.0.1-0
+   :versions: 1.2.5-0, 1.2.3-0, 1.2.1-0, 1.2.0-0, 1.1.7-0, 1.0.1-0
    
    :depends libgcc-ng: >=7.3.0
    :depends zlib: >=1.2.11,<1.3.0a0

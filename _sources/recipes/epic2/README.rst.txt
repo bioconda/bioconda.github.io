@@ -22,7 +22,7 @@ epic2
 
    |downloads_epic2| |docker_epic2|
 
-   :versions: 0.0.34-0, 0.0.33-0, 0.0.26-0, 0.0.16-0, 0.0.15-0
+   :versions: 0.0.35-0, 0.0.34-0, 0.0.33-0, 0.0.26-0, 0.0.16-0, 0.0.15-0
    
    :depends cython: 
    :depends functools32: 

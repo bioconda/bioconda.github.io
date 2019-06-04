@@ -22,7 +22,7 @@ transposcope
 
    |downloads_transposcope| |docker_transposcope|
 
-   :versions: 0.1.0-0
+   :versions: 0.1.2-0, 0.1.0-0
    
    :depends biopython: >=1.72
    :depends bowtie2: >=2.3.4.3

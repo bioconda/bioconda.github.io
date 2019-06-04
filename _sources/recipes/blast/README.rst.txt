@@ -23,7 +23,7 @@ blast
 
    |downloads_blast| |docker_blast|
 
-   :versions: 2.9.0-0, 2.7.1-6, 2.7.1-5, 2.7.1-3, 2.7.1-2, 2.7.1-1, 2.6.0-2, 2.6.0-1, 2.6.0-0, 2.5.0-3, 2.5.0-2, 2.5.0-1, 2.2.31-2, 2.2.31-1, 2.2.21-0
+   :versions: 2.9.0-1, 2.9.0-0, 2.7.1-6, 2.7.1-5, 2.7.1-3, 2.7.1-2, 2.7.1-1, 2.6.0-2, 2.6.0-1, 2.6.0-0, 2.5.0-3, 2.5.0-2, 2.5.0-1, 2.2.31-2, 2.2.31-1, 2.2.21-0
    
    :depends boost: >=1.68.0,<1.68.1.0a0
    :depends bzip2: >=1.0.6,<2.0a0
@@ -35,6 +35,7 @@ blast
    :depends pcre: >=8.41,<9.0a0
    :depends perl: 
    :depends perl-archive-tar: 
+   :depends perl-json: 
    :depends perl-list-moreutils: 
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:

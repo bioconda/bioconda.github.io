@@ -23,7 +23,7 @@ r-spp
 
    |downloads_r-spp| |docker_r-spp|
 
-   :versions: 1.15.5-2, 1.15.5-1, 1.15.5-0, 1.15.2-0, 1.14post-0, 1.14-0, 1.13-0, 1.11-0
+   :versions: 1.16.0-0, 1.15.5-2, 1.15.5-1, 1.15.5-0, 1.15.2-0, 1.14post-0, 1.14-0, 1.13-0, 1.11-0
    
    :depends bioconductor-rsamtools: 
    :depends libgcc-ng: >=7.3.0
