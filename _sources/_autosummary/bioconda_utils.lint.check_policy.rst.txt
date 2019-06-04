@@ -16,6 +16,7 @@ check\_policy
 
    .. autosummary::
    
+      cran_packages_to_conda_forge
       folder_and_package_name_must_match
       gpl_requires_license_distributed
       has_windows_bat_file

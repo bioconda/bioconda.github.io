@@ -115,7 +115,7 @@
 <span class="kn">import</span> <span class="nn">os</span>
 
 <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">LintCheck</span><span class="p">,</span> <span class="n">ERROR</span><span class="p">,</span> <span class="n">WARNING</span><span class="p">,</span> <span class="n">INFO</span>
-
+<span class="kn">from</span> <span class="nn">bioconda_utils</span> <span class="k">import</span> <span class="n">utils</span>
 
 <div class="viewcode-block" id="uses_vcs_url"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.uses_vcs_url">[docs]</a><span class="k">class</span> <span class="nc">uses_vcs_url</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe downloads source from a VCS</span>
@@ -212,6 +212,23 @@
 <div class="viewcode-block" id="long_summary.check_recipe"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.long_summary.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
         <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;about/summary&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">))</span> <span class="o">&gt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">max_length</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="s1">&#39;about/summary&#39;</span><span class="p">)</span></div></div>
+
+
+<div class="viewcode-block" id="cran_packages_to_conda_forge"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.cran_packages_to_conda_forge">[docs]</a><span class="k">class</span> <span class="nc">cran_packages_to_conda_forge</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;CRAN packages not depending on Bioconda should go to Conda-Forge</span>
+
+<span class="sd">    This recipe builds a CRAN package and does not depend on packages</span>
+<span class="sd">    from Bioconda. It should therefore be moved to Conda-Forge.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+<div class="viewcode-block" id="cran_packages_to_conda_forge.check_deps"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.cran_packages_to_conda_forge.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">):</span>
+        <span class="c1"># must have R in run a run dep</span>
+        <span class="k">if</span> <span class="s1">&#39;R&#39;</span> <span class="ow">in</span> <span class="n">deps</span> <span class="ow">and</span> <span class="nb">any</span><span class="p">(</span><span class="s1">&#39;run&#39;</span> <span class="ow">in</span> <span class="n">dep</span> <span class="k">for</span> <span class="n">dep</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">[</span><span class="s1">&#39;R&#39;</span><span class="p">]):</span>
+            <span class="c1"># and all deps satisfied in conda-forge</span>
+            <span class="k">if</span> <span class="nb">all</span><span class="p">(</span><span class="n">utils</span><span class="o">.</span><span class="n">RepoData</span><span class="p">()</span><span class="o">.</span><span class="n">get_package_data</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="n">dep</span><span class="p">,</span> <span class="n">channels</span><span class="o">=</span><span class="s1">&#39;conda-forge&#39;</span><span class="p">)</span>
+                   <span class="k">for</span> <span class="n">dep</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">):</span>
+                   <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">()</span></div></div>
+
 </pre></div>
 
           </div>

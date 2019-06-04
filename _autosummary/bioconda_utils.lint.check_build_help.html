@@ -130,6 +130,12 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_build_help.compilers_must_be_in_build" title="bioconda_utils.lint.check_build_help.compilers_must_be_in_build"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code></a>(_linter)</p></td>
 <td><p>The recipe requests a compiler in a section other than build</p></td>
 </tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_build_help.cython_must_be_in_host" title="bioconda_utils.lint.check_build_help.cython_must_be_in_host"><code class="xref py py-obj docutils literal notranslate"><span class="pre">cython_must_be_in_host</span></code></a>(_linter)</p></td>
+<td><p>Cython should be in the build section</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_build_help.cython_needs_compiler" title="bioconda_utils.lint.check_build_help.cython_needs_compiler"><code class="xref py py-obj docutils literal notranslate"><span class="pre">cython_needs_compiler</span></code></a>(_linter)</p></td>
+<td><p>Cython generates C code, which will need to be compiled</p></td>
+</tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_build_help.setup_py_install_args" title="bioconda_utils.lint.check_build_help.setup_py_install_args"><code class="xref py py-obj docutils literal notranslate"><span class="pre">setup_py_install_args</span></code></a>(_linter)</p></td>
 <td><p>The recipe uses setuptools without required arguments</p></td>
 </tr>
@@ -152,6 +158,76 @@
 <dl class="method">
 <dt id="bioconda_utils.lint.check_build_help.compilers_must_be_in_build.check_deps">
 <code class="descname">check_deps</code><span class="sig-paren">(</span><em>deps</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_build_help.html#compilers_must_be_in_build.check_deps"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_build_help.compilers_must_be_in_build.check_deps" title="Permalink to this definition">¶</a></dt>
+<dd><p>Execute check on recipe dependencies</p>
+<p>Example format for <strong>deps</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="s1">&#39;setuptools&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;requirements/run&#39;</span><span class="p">,</span>
+                 <span class="s1">&#39;outputs/0/requirements/run/1&#39;</span><span class="p">],</span>
+  <span class="s1">&#39;compiler_cxx&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;requirements/build/0&#39;</span><span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>You can use the values in the list directly as <code class="docutils literal notranslate"><span class="pre">section</span></code>
+parameter to <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>deps</strong> – Dictionary mapping requirements occurring in the recipe
+to their locations within the recipe.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="bioconda_utils.lint.check_build_help.cython_must_be_in_host">
+<em class="property">class </em><code class="descclassname">bioconda_utils.lint.check_build_help.</code><code class="descname">cython_must_be_in_host</code><span class="sig-paren">(</span><em>_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_build_help.html#cython_must_be_in_host"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_build_help.cython_must_be_in_host" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
+<p>Cython should be in the build section</p>
+<p>Move cython to <code class="docutils literal notranslate"><span class="pre">host</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">requirements</span><span class="p">:</span>
+  <span class="n">host</span><span class="p">:</span>
+    <span class="o">-</span> <span class="n">cython</span>
+</pre></div>
+</div>
+<dl class="method">
+<dt id="bioconda_utils.lint.check_build_help.cython_must_be_in_host.check_deps">
+<code class="descname">check_deps</code><span class="sig-paren">(</span><em>deps</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_build_help.html#cython_must_be_in_host.check_deps"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_build_help.cython_must_be_in_host.check_deps" title="Permalink to this definition">¶</a></dt>
+<dd><p>Execute check on recipe dependencies</p>
+<p>Example format for <strong>deps</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="s1">&#39;setuptools&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;requirements/run&#39;</span><span class="p">,</span>
+                 <span class="s1">&#39;outputs/0/requirements/run/1&#39;</span><span class="p">],</span>
+  <span class="s1">&#39;compiler_cxx&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;requirements/build/0&#39;</span><span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>You can use the values in the list directly as <code class="docutils literal notranslate"><span class="pre">section</span></code>
+parameter to <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>deps</strong> – Dictionary mapping requirements occurring in the recipe
+to their locations within the recipe.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="bioconda_utils.lint.check_build_help.cython_needs_compiler">
+<em class="property">class </em><code class="descclassname">bioconda_utils.lint.check_build_help.</code><code class="descname">cython_needs_compiler</code><span class="sig-paren">(</span><em>_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_build_help.html#cython_needs_compiler"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_build_help.cython_needs_compiler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
+<p>Cython generates C code, which will need to be compiled</p>
+<p>Add the compiler to the recipe:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">requirements</span><span class="p">:</span>
+  <span class="n">build</span><span class="p">:</span>
+    <span class="o">-</span> <span class="p">{{</span> <span class="n">compiler</span><span class="p">(</span><span class="s1">&#39;c&#39;</span><span class="p">)</span> <span class="p">}}</span>
+</pre></div>
+</div>
+<dl class="method">
+<dt id="bioconda_utils.lint.check_build_help.cython_needs_compiler.check_deps">
+<code class="descname">check_deps</code><span class="sig-paren">(</span><em>deps</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_build_help.html#cython_needs_compiler.check_deps"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_build_help.cython_needs_compiler.check_deps" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on recipe dependencies</p>
 <p>Example format for <strong>deps</strong>:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>

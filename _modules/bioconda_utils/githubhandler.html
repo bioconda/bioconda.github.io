@@ -169,7 +169,7 @@
     <span class="n">GET_CHECK_RUNS</span>    <span class="o">=</span> <span class="s2">&quot;/repos/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/commits/</span><span class="si">{commit}</span><span class="s2">/check-runs&quot;</span>
     <span class="n">GET_STATUSES</span>      <span class="o">=</span> <span class="s2">&quot;/repos/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/commits/</span><span class="si">{commit}</span><span class="s2">/statuses&quot;</span>
     <span class="n">CONTENTS</span>          <span class="o">=</span> <span class="s2">&quot;/repos/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/contents/</span><span class="si">{path}</span><span class="s2">{?ref}&quot;</span>
-
+    <span class="n">GIT_REFERENCE</span>     <span class="o">=</span> <span class="s2">&quot;/repos/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/git/refs/</span><span class="si">{ref}</span><span class="s2">&quot;</span>
     <span class="n">ORG_MEMBERS</span>       <span class="o">=</span> <span class="s2">&quot;/orgs/</span><span class="si">{user}</span><span class="s2">/members{/username}&quot;</span>
     <span class="n">ORG</span>               <span class="o">=</span> <span class="s2">&quot;/orgs/</span><span class="si">{user}</span><span class="s2">&quot;</span>
     <span class="n">ORG_TEAMS</span>         <span class="o">=</span> <span class="s2">&quot;/orgs/</span><span class="si">{user}</span><span class="s2">/teams{/team_slug}&quot;</span>
@@ -232,6 +232,7 @@
 
 <div class="viewcode-block" id="GitHubHandler.set_oauth_token"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.set_oauth_token">[docs]</a>    <span class="k">def</span> <span class="nf">set_oauth_token</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">token</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Update oauth token for the wrapped GitHubAPI object&quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">token</span> <span class="o">=</span> <span class="n">token</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">oauth_token</span> <span class="o">=</span> <span class="n">token</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.create_api_object"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.create_api_object">[docs]</a>    <span class="nd">@abc</span><span class="o">.</span><span class="n">abstractmethod</span>
@@ -840,7 +841,17 @@
             <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;Got unknown encoding for </span><span class="si">{self}</span><span class="s2">/</span><span class="si">{path}</span><span class="s2">:</span><span class="si">{ref}</span><span class="s2">&quot;</span><span class="p">)</span>
         <span class="n">content_bytes</span> <span class="o">=</span> <span class="n">base64</span><span class="o">.</span><span class="n">b64decode</span><span class="p">(</span><span class="n">result</span><span class="p">[</span><span class="s1">&#39;content&#39;</span><span class="p">])</span>
         <span class="n">content</span> <span class="o">=</span> <span class="n">content_bytes</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">content</span></div></div>
+        <span class="k">return</span> <span class="n">content</span></div>
+
+<div class="viewcode-block" id="GitHubHandler.delete_branch"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.delete_branch">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">delete_branch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ref</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Delete a branch (ref)</span>
+
+<span class="sd">        Arguments:</span>
+<span class="sd">          ref: Name of reference/branch</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">var_data</span> <span class="o">=</span> <span class="n">copy</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">var_default</span><span class="p">)</span>
+        <span class="n">var_data</span><span class="p">[</span><span class="s1">&#39;ref&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ref</span>
+        <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">GIT_REFERENCE</span><span class="p">,</span> <span class="n">var_data</span><span class="p">)</span></div></div>
 
 
 <div class="viewcode-block" id="AiohttpGitHubHandler"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.AiohttpGitHubHandler">[docs]</a><span class="k">class</span> <span class="nc">AiohttpGitHubHandler</span><span class="p">(</span><span class="n">GitHubHandler</span><span class="p">):</span>

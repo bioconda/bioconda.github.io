@@ -187,7 +187,8 @@
 <span class="sd">    requires defines entrypoints in its ``setup.py``.</span>
 
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">def</span> <span class="nf">_check_line</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">line</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">_check_line</span><span class="p">(</span><span class="n">line</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Check a line for a broken call to setup.py&quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="s1">&#39;setup.py install&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
             <span class="k">return</span> <span class="kc">True</span>
@@ -204,13 +205,43 @@
 
         <span class="k">try</span><span class="p">:</span>
             <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">recipe</span><span class="o">.</span><span class="n">dir</span><span class="p">,</span> <span class="s1">&#39;build.sh&#39;</span><span class="p">))</span> <span class="k">as</span> <span class="n">buildsh</span><span class="p">:</span>
-                <span class="k">for</span> <span class="n">n</span><span class="p">,</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">buildsh</span><span class="p">):</span>
+                <span class="k">for</span> <span class="n">num</span><span class="p">,</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">buildsh</span><span class="p">):</span>
                     <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_check_line</span><span class="p">(</span><span class="n">line</span><span class="p">):</span>
-                        <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">fname</span><span class="o">=</span><span class="s1">&#39;build.sh&#39;</span><span class="p">,</span> <span class="n">line</span><span class="o">=</span><span class="n">n</span><span class="p">)</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">fname</span><span class="o">=</span><span class="s1">&#39;build.sh&#39;</span><span class="p">,</span> <span class="n">line</span><span class="o">=</span><span class="n">num</span><span class="p">)</span>
         <span class="k">except</span> <span class="ne">FileNotFoundError</span><span class="p">:</span>
             <span class="k">pass</span></div></div>
-        
 
+
+<div class="viewcode-block" id="cython_must_be_in_host"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.cython_must_be_in_host">[docs]</a><span class="k">class</span> <span class="nc">cython_must_be_in_host</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Cython should be in the build section</span>
+
+<span class="sd">    Move cython to ``host``::</span>
+
+<span class="sd">      requirements:</span>
+<span class="sd">        host:</span>
+<span class="sd">          - cython</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+<div class="viewcode-block" id="cython_must_be_in_host.check_deps"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.cython_must_be_in_host.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">):</span>
+        <span class="k">if</span> <span class="s1">&#39;cython&#39;</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">:</span>
+            <span class="k">if</span> <span class="nb">any</span><span class="p">(</span><span class="s1">&#39;host&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">location</span>
+                   <span class="k">for</span> <span class="n">location</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">[</span><span class="s1">&#39;cython&#39;</span><span class="p">]):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">()</span></div></div>
+
+
+<div class="viewcode-block" id="cython_needs_compiler"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.cython_needs_compiler">[docs]</a><span class="k">class</span> <span class="nc">cython_needs_compiler</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Cython generates C code, which will need to be compiled</span>
+
+<span class="sd">    Add the compiler to the recipe::</span>
+
+<span class="sd">      requirements:</span>
+<span class="sd">        build:</span>
+<span class="sd">          - {{ compiler(&#39;c&#39;) }}</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">severity</span> <span class="o">=</span> <span class="n">WARNING</span>
+<div class="viewcode-block" id="cython_needs_compiler.check_deps"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.cython_needs_compiler.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">):</span>
+        <span class="k">if</span> <span class="s1">&#39;cython&#39;</span> <span class="ow">in</span> <span class="n">deps</span> <span class="ow">and</span> <span class="s1">&#39;compiler_c&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">()</span></div></div>
 </pre></div>
 
           </div>

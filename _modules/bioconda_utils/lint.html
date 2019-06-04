@@ -593,6 +593,9 @@
             <span class="bp">self</span><span class="o">.</span><span class="n">checks_ordered</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">topological_sort</span><span class="p">(</span><span class="n">dag</span><span class="p">,</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
         <span class="k">except</span> <span class="n">nx</span><span class="o">.</span><span class="n">NetworkXUnfeasible</span><span class="p">:</span>
             <span class="k">raise</span> <span class="n">RunTimeError</span><span class="p">(</span><span class="s2">&quot;Cycle in LintCheck requirements!&quot;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">reload_checks</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">reload_checks</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">check_instances</span> <span class="o">=</span> <span class="p">{</span><span class="nb">str</span><span class="p">(</span><span class="n">check</span><span class="p">):</span> <span class="n">check</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="k">for</span> <span class="n">check</span> <span class="ow">in</span> <span class="n">get_checks</span><span class="p">()}</span>
 
 <div class="viewcode-block" id="Linter.get_blacklist"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.Linter.get_blacklist">[docs]</a>    <span class="k">def</span> <span class="nf">get_blacklist</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Set</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
@@ -621,7 +624,7 @@
         <span class="k">if</span> <span class="s1">&#39;LINT_SKIP&#39;</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">:</span>
             <span class="c1"># Allow overwriting of commit message</span>
             <span class="n">commit_message</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;LINT_SKIP&#39;</span><span class="p">]</span>
-        <span class="k">else</span><span class="p">:</span>
+        <span class="k">elif</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="s1">&#39;.git&#39;</span><span class="p">):</span>
             <span class="c1"># Obtain commit message from last commit.</span>
             <span class="n">commit_message</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">run</span><span class="p">(</span>
                 <span class="p">[</span><span class="s1">&#39;git&#39;</span><span class="p">,</span> <span class="s1">&#39;log&#39;</span><span class="p">,</span> <span class="s1">&#39;--format=%B&#39;</span><span class="p">,</span> <span class="s1">&#39;-n&#39;</span><span class="p">,</span> <span class="s1">&#39;1&#39;</span><span class="p">],</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">loglevel</span><span class="o">=</span><span class="mi">0</span>

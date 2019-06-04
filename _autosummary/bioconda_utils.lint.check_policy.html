@@ -127,27 +127,61 @@ can be mechanically checked).</p>
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_policy.folder_and_package_name_must_match" title="bioconda_utils.lint.check_policy.folder_and_package_name_must_match"><code class="xref py py-obj docutils literal notranslate"><span class="pre">folder_and_package_name_must_match</span></code></a>(_linter)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_policy.cran_packages_to_conda_forge" title="bioconda_utils.lint.check_policy.cran_packages_to_conda_forge"><code class="xref py py-obj docutils literal notranslate"><span class="pre">cran_packages_to_conda_forge</span></code></a>(_linter)</p></td>
+<td><p>CRAN packages not depending on Bioconda should go to Conda-Forge</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_policy.folder_and_package_name_must_match" title="bioconda_utils.lint.check_policy.folder_and_package_name_must_match"><code class="xref py py-obj docutils literal notranslate"><span class="pre">folder_and_package_name_must_match</span></code></a>(_linter)</p></td>
 <td><p>The recipe folder and package name do not match.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_policy.gpl_requires_license_distributed" title="bioconda_utils.lint.check_policy.gpl_requires_license_distributed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">gpl_requires_license_distributed</span></code></a>(_linter)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_policy.gpl_requires_license_distributed" title="bioconda_utils.lint.check_policy.gpl_requires_license_distributed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">gpl_requires_license_distributed</span></code></a>(_linter)</p></td>
 <td><p>The recipe packages GPL software but is missing copy of license.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_policy.has_windows_bat_file" title="bioconda_utils.lint.check_policy.has_windows_bat_file"><code class="xref py py-obj docutils literal notranslate"><span class="pre">has_windows_bat_file</span></code></a>(_linter)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_policy.has_windows_bat_file" title="bioconda_utils.lint.check_policy.has_windows_bat_file"><code class="xref py py-obj docutils literal notranslate"><span class="pre">has_windows_bat_file</span></code></a>(_linter)</p></td>
 <td><p>The recipe directory contains a <code class="docutils literal notranslate"><span class="pre">bat</span></code> file.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_policy.long_summary" title="bioconda_utils.lint.check_policy.long_summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">long_summary</span></code></a>(_linter)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_policy.long_summary" title="bioconda_utils.lint.check_policy.long_summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">long_summary</span></code></a>(_linter)</p></td>
 <td><p>The summary line is rather long</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_policy.should_not_use_fn" title="bioconda_utils.lint.check_policy.should_not_use_fn"><code class="xref py py-obj docutils literal notranslate"><span class="pre">should_not_use_fn</span></code></a>(_linter)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_policy.should_not_use_fn" title="bioconda_utils.lint.check_policy.should_not_use_fn"><code class="xref py py-obj docutils literal notranslate"><span class="pre">should_not_use_fn</span></code></a>(_linter)</p></td>
 <td><p>The recipe uses source/fn</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_policy.uses_vcs_url" title="bioconda_utils.lint.check_policy.uses_vcs_url"><code class="xref py py-obj docutils literal notranslate"><span class="pre">uses_vcs_url</span></code></a>(_linter)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_policy.uses_vcs_url" title="bioconda_utils.lint.check_policy.uses_vcs_url"><code class="xref py py-obj docutils literal notranslate"><span class="pre">uses_vcs_url</span></code></a>(_linter)</p></td>
 <td><p>The recipe downloads source from a VCS</p></td>
 </tr>
 </tbody>
 </table>
 <p class="rubric">Documentation</p>
+<dl class="class">
+<dt id="bioconda_utils.lint.check_policy.cran_packages_to_conda_forge">
+<em class="property">class </em><code class="descclassname">bioconda_utils.lint.check_policy.</code><code class="descname">cran_packages_to_conda_forge</code><span class="sig-paren">(</span><em>_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_policy.html#cran_packages_to_conda_forge"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.cran_packages_to_conda_forge" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
+<p>CRAN packages not depending on Bioconda should go to Conda-Forge</p>
+<p>This recipe builds a CRAN package and does not depend on packages
+from Bioconda. It should therefore be moved to Conda-Forge.</p>
+<dl class="method">
+<dt id="bioconda_utils.lint.check_policy.cran_packages_to_conda_forge.check_deps">
+<code class="descname">check_deps</code><span class="sig-paren">(</span><em>deps</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_policy.html#cran_packages_to_conda_forge.check_deps"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.cran_packages_to_conda_forge.check_deps" title="Permalink to this definition">¶</a></dt>
+<dd><p>Execute check on recipe dependencies</p>
+<p>Example format for <strong>deps</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="s1">&#39;setuptools&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;requirements/run&#39;</span><span class="p">,</span>
+                 <span class="s1">&#39;outputs/0/requirements/run/1&#39;</span><span class="p">],</span>
+  <span class="s1">&#39;compiler_cxx&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;requirements/build/0&#39;</span><span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>You can use the values in the list directly as <code class="docutils literal notranslate"><span class="pre">section</span></code>
+parameter to <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>deps</strong> – Dictionary mapping requirements occurring in the recipe
+to their locations within the recipe.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
 <dl class="class">
 <dt id="bioconda_utils.lint.check_policy.folder_and_package_name_must_match">
 <em class="property">class </em><code class="descclassname">bioconda_utils.lint.check_policy.</code><code class="descname">folder_and_package_name_must_match</code><span class="sig-paren">(</span><em>_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_policy.html#folder_and_package_name_must_match"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.folder_and_package_name_must_match" title="Permalink to this definition">¶</a></dt>

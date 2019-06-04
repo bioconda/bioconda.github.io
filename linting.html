@@ -587,6 +587,18 @@ used for package listings with only one row per package.</p>
 <p>It just looks better if the summary fits into one line.</p>
 </p>
 </div>
+<div class="section" id="cran-packages-to-conda-forge">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">cran_packages_to_conda_forge</span></code>”<a class="headerlink" href="#cran-packages-to-conda-forge" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">CRAN packages not depending on Bioconda should go to Conda-Forge</p>
+<p>This recipe builds a CRAN package and does not depend on packages
+from Bioconda. It should therefore be moved to Conda-Forge.</p>
+</div>
+<p><p>Conda-Forge has a very active R community planning to eventually
+package all of CRAN. For that reason, we only allow CRAN packages
+on Bioconda if they depend on other Bioconda packages.</p>
+</p>
+</div>
 </div>
 <div class="section" id="syntax">
 <h3>Syntax<a class="headerlink" href="#syntax" title="Permalink to this headline">¶</a></h3>
@@ -947,6 +959,37 @@ key in <code class="docutils literal notranslate"><span class="pre">meta.yaml</s
 <p><p>A <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler('xyz')</span> <span class="pre">}}</span></code> variable was found, but not in the
 <code class="docutils literal notranslate"><span class="pre">build:</span></code> section. Move <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler()</span> <span class="pre">}}</span></code> variables to the
 <code class="docutils literal notranslate"><span class="pre">build:</span></code> section.</p>
+</p>
+</div>
+<div class="section" id="cython-must-be-in-host">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_must_be_in_host</span></code>”<a class="headerlink" href="#cython-must-be-in-host" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">Cython should be in the build section</p>
+<p>Move cython to <code class="docutils literal notranslate"><span class="pre">host</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">requirements</span><span class="p">:</span>
+  <span class="n">host</span><span class="p">:</span>
+    <span class="o">-</span> <span class="n">cython</span>
+</pre></div>
+</div>
+</div>
+<p><p>Cython should match the Python version, so we keep it in the
+host section for now.</p>
+</p>
+</div>
+<div class="section" id="cython-needs-compiler">
+<h4>“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_needs_compiler</span></code>”<a class="headerlink" href="#cython-needs-compiler" title="Permalink to this headline">¶</a></h4>
+<div class="admonition">
+<p class="admonition-title">Cython generates C code, which will need to be compiled</p>
+<p>Add the compiler to the recipe:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">requirements</span><span class="p">:</span>
+  <span class="n">build</span><span class="p">:</span>
+    <span class="o">-</span> <span class="p">{{</span> <span class="n">compiler</span><span class="p">(</span><span class="s1">&#39;c&#39;</span><span class="p">)</span> <span class="p">}}</span>
+</pre></div>
+</div>
+</div>
+<p><p>Cython is compiled into C code, which then needs to be
+compiled. You almost certainly want to have a C compiler in your
+recipe.</p>
 </p>
 </div>
 </div>

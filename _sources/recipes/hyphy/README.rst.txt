@@ -9,23 +9,23 @@ hyphy
 .. conda:recipe:: hyphy
    :replaces_section_title:
 
-   HyPhy \(Hypothesis Testing using Phylogenies\) is an open\-source software package for the analysis of genetic sequences
-   \(in particular the inference of natural selection\) using techniques in phylogenetics\, molecular evolution\, and machine learning.
-
+   An open\-source software package for comparative sequence analysis using stochastic evolutionary models.
 
    :homepage: http://hyphy.org/
    :developer docs: https://github.com/veg/hyphy
    :license: MIT / MIT
    :recipe: /`hyphy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hyphy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hyphy/meta.yaml>`_
 
-   
+   HyPhy \(Hypothesis Testing using Phylogenies\) is an open\-source software package for the analysis of genetic sequences
+   \(in particular the inference of natural selection\) using techniques in phylogenetics\, molecular evolution\, and machine learning.
+
 
 
 .. conda:package:: hyphy
 
    |downloads_hyphy| |docker_hyphy|
 
-   :versions: 2.3.14-1, 2.3.14-0, 2.3.12-1, 2.3.12-0, 2.3.11-1, 2.3.11-0
+   :versions: 2.5.0-0, 2.3.14-1, 2.3.14-0, 2.3.12-1, 2.3.12-0, 2.3.11-1, 2.3.11-0
    
    :depends curl: >=7.64.1,<8.0a0
    :depends libgcc-ng: >=7.3.0
