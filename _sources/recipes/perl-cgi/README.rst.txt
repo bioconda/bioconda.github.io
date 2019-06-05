@@ -22,9 +22,8 @@ perl-cgi
 
    |downloads_perl-cgi| |docker_perl-cgi|
 
-   :versions: 4.44-0, 4.43-0, 4.40-2, 4.40-1, 4.40-0, 4.22-4, 4.22-3, 4.22-2, 4.22-1, 4.22-0
+   :versions: 4.44-1, 4.44-0, 4.43-0, 4.40-2, 4.40-1, 4.40-0, 4.22-4, 4.22-3, 4.22-2, 4.22-1, 4.22-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-base: 
    :depends perl-carp: 
