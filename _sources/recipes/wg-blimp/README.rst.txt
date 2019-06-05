@@ -9,13 +9,15 @@ wg-blimp
 .. conda:recipe:: wg-blimp
    :replaces_section_title:
 
-   wg\-blimp \(Whole Genome BisuLfIte sequencing Methylation analysis Pipeline\) can be utilised to analyse WGBS data. It performs alignment\, qc\, methylation calling\, DMR calling and DMR annotation using a multitude of tools. 
+   wg\-blimp \(Whole Genome BisuLfIte sequencing Methylation analysis Pipeline\)
 
    :homepage: https://github.com/MarWoes/wg-blimp
    :license: GPL / AGPL-3.0
    :recipe: /`wg-blimp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wg-blimp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wg-blimp/meta.yaml>`_
 
-   
+   wg\-blimp \(Whole Genome BisuLfIte sequencing Methylation analysis Pipeline\) can be utilised to analyse WGBS data. 
+   It performs alignment\, qc\, methylation calling\, DMR calling and DMR annotation using a multitude of tools. 
+
 
 
 .. conda:package:: wg-blimp
