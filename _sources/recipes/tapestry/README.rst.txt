@@ -22,7 +22,7 @@ tapestry
 
    |downloads_tapestry| |docker_tapestry|
 
-   :versions: 0.9.3-0, 0.9.2-0, 0.9.1-0
+   :versions: 0.9.3-1, 0.9.3-0, 0.9.2-0, 0.9.1-0
    
    :depends biopython: 
    :depends intervaltree: 
@@ -35,7 +35,7 @@ tapestry
    :depends pysam: 
    :depends python: >=3
    :depends samtools: 
-   :depends scikit-learn: >=0.2.0
+   :depends scikit-learn: >=0.20
    :depends sqlalchemy: 
    :depends tqdm: 
    :requirements:
