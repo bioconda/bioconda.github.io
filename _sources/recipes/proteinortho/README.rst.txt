@@ -22,7 +22,7 @@ proteinortho
 
    |downloads_proteinortho| |docker_proteinortho|
 
-   :versions: 6.0.2c-0, 6.0.1-0, 6.0-0, 6.0b-0
+   :versions: 6.0.3-0, 6.0.2c-0, 6.0.1-0, 6.0-0, 6.0b-0
    
    :depends diamond: 
    :depends libgcc-ng: >=7.3.0

@@ -22,10 +22,11 @@ microhapulator
 
    |downloads_microhapulator| |docker_microhapulator|
 
-   :versions: 0.2-0, 0.1.3-0
+   :versions: 0.3-0, 0.2-0, 0.1.3-0
    
    :depends happer: >=0.1
    :depends insilicoseq: >=1.3.6
+   :depends jsonschema: >=3.0
    :depends microhapdb: >=0.3
    :depends numpy: >=1.15.4
    :depends pyfaidx: >=0.5.5.2

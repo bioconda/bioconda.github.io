@@ -9,7 +9,7 @@ pbsv
 .. conda:recipe:: pbsv
    :replaces_section_title:
 
-   pbsv \- Calling All Variants\: Fast\, Accurate\, Population\-Scale Structural Variant Analysis from Single\-Molecule PacBio Reads
+   pbsv \- PacBio structural variant \(SV\) calling and analysis tools
 
    :homepage: https://github.com/PacificBiosciences/pbbioconda
    :license: BSD-3-Clause-Clear
@@ -22,7 +22,7 @@ pbsv
 
    |downloads_pbsv| |docker_pbsv|
 
-   :versions: 2.2.0-0, 2.1.1-0, 2.1.0-0, 2.0.2-0, 2.0.1-0, 2.0.0-1, 2.0.0-0
+   :versions: 2.2.1-0, 2.2.0-0, 2.1.1-0, 2.1.0-0, 2.0.2-0, 2.0.1-0, 2.0.0-1, 2.0.0-0
    
    :requirements:
 
