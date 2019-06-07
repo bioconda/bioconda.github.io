@@ -198,16 +198,16 @@
     <span class="k">return</span> <span class="n">decorator</span></div>
 
 
-<div class="viewcode-block" id="recipe_folder_and_config"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.recipe_folder_and_config">[docs]</a><span class="k">def</span> <span class="nf">recipe_folder_and_config</span><span class="p">():</span>
+<div class="viewcode-block" id="recipe_folder_and_config"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.recipe_folder_and_config">[docs]</a><span class="k">def</span> <span class="nf">recipe_folder_and_config</span><span class="p">(</span><span class="n">allow_missing_for</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Adds optional positional arguments recipe_folder and config</span>
 
 <span class="sd">    Requires that func has synopsis ``def x(recipe_folder, config,...)``.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">def</span> <span class="nf">check_arg</span><span class="p">(</span><span class="n">args</span><span class="p">,</span> <span class="n">idx</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">default</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">check_arg</span><span class="p">(</span><span class="n">args</span><span class="p">,</span> <span class="n">idx</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">default</span><span class="p">,</span> <span class="n">allow_missing</span><span class="p">):</span>
         <span class="n">val</span> <span class="o">=</span> <span class="n">args</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">val</span><span class="p">:</span>
             <span class="n">val</span> <span class="o">=</span> <span class="n">default</span>
-        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">val</span><span class="p">):</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">val</span><span class="p">)</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">allow_missing</span><span class="p">:</span>
             <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;Argument &#39;</span><span class="si">{name}</span><span class="s2">&#39; points to missing file &#39;</span><span class="si">{val}</span><span class="s2">&#39;&quot;</span><span class="p">)</span>
         <span class="k">if</span> <span class="n">val</span> <span class="o">!=</span> <span class="n">args</span><span class="p">[</span><span class="n">idx</span><span class="p">]:</span>
             <span class="n">lst</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
@@ -220,6 +220,8 @@
         <span class="k">try</span><span class="p">:</span>
             <span class="n">recipe_folder_idx</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;recipe_folder&#39;</span><span class="p">)</span>
             <span class="n">config_idx</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;config&#39;</span><span class="p">)</span>
+            <span class="n">allow_missing_idx</span> <span class="o">=</span> <span class="p">[</span><span class="n">args</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">field</span><span class="p">)</span>
+                                 <span class="k">for</span> <span class="n">field</span> <span class="ow">in</span> <span class="n">allow_missing_for</span> <span class="ow">or</span> <span class="p">[]]</span>
         <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
             <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;Function </span><span class="si">{func}</span><span class="s2"> must have &#39;recipe_folder&#39; and &#39;config&#39; args&quot;</span><span class="p">)</span>
         <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;recipe_folder&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s1">&#39;?&#39;</span><span class="p">,</span>
@@ -228,8 +230,9 @@
              <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Path to Bioconda config (default: config.yml)&#39;</span><span class="p">)</span>
         <span class="nd">@utils</span><span class="o">.</span><span class="n">wraps</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
         <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-            <span class="n">args</span> <span class="o">=</span> <span class="n">check_arg</span><span class="p">(</span><span class="n">args</span><span class="p">,</span> <span class="n">recipe_folder_idx</span><span class="p">,</span> <span class="s1">&#39;recipe_folder&#39;</span><span class="p">,</span> <span class="s1">&#39;recipes/&#39;</span><span class="p">)</span>
-            <span class="n">args</span> <span class="o">=</span> <span class="n">check_arg</span><span class="p">(</span><span class="n">args</span><span class="p">,</span> <span class="n">config_idx</span><span class="p">,</span> <span class="s1">&#39;config&#39;</span><span class="p">,</span> <span class="s1">&#39;config.yml&#39;</span><span class="p">)</span>
+            <span class="n">allow</span> <span class="o">=</span> <span class="nb">any</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span> <span class="k">for</span> <span class="n">idx</span> <span class="ow">in</span> <span class="n">allow_missing_idx</span><span class="p">)</span>
+            <span class="n">args</span> <span class="o">=</span> <span class="n">check_arg</span><span class="p">(</span><span class="n">args</span><span class="p">,</span> <span class="n">recipe_folder_idx</span><span class="p">,</span> <span class="s1">&#39;recipe_folder&#39;</span><span class="p">,</span> <span class="s1">&#39;recipes/&#39;</span><span class="p">,</span> <span class="n">allow</span><span class="p">)</span>
+            <span class="n">args</span> <span class="o">=</span> <span class="n">check_arg</span><span class="p">(</span><span class="n">args</span><span class="p">,</span> <span class="n">config_idx</span><span class="p">,</span> <span class="s1">&#39;config&#39;</span><span class="p">,</span> <span class="s1">&#39;config.yml&#39;</span><span class="p">,</span> <span class="n">allow</span><span class="p">)</span>
             <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">wrapper</span>
     <span class="k">return</span> <span class="n">decorator</span></div>
@@ -351,7 +354,7 @@
                 <span class="nb">print</span><span class="p">(</span><span class="o">*</span><span class="n">spec</span><span class="p">,</span> <span class="s1">&#39;,&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">dup_channels</span><span class="p">),</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="do_lint"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.do_lint">[docs]</a><span class="nd">@recipe_folder_and_config</span><span class="p">()</span>
+<div class="viewcode-block" id="do_lint"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.do_lint">[docs]</a><span class="nd">@recipe_folder_and_config</span><span class="p">(</span><span class="n">allow_missing_for</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;list_checks&#39;</span><span class="p">])</span>
 <span class="nd">@arg</span><span class="p">(</span>
     <span class="s1">&#39;--packages&#39;</span><span class="p">,</span>
     <span class="n">nargs</span><span class="o">=</span><span class="s2">&quot;+&quot;</span><span class="p">,</span>
@@ -401,12 +404,13 @@
 <span class="sd">    If --push-status is not set, reports a TSV of linting results to stdout.</span>
 <span class="sd">    Otherwise pushes a commit status to the specified commit on github.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">list_checks</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">check</span><span class="p">)</span> <span class="k">for</span> <span class="n">check</span> <span class="ow">in</span> <span class="n">lint</span><span class="o">.</span><span class="n">get_checks</span><span class="p">()))</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+
     <span class="n">config_filename</span> <span class="o">=</span> <span class="n">config</span>
     <span class="n">config</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">load_config</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
 
-    <span class="k">if</span> <span class="n">list_checks</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">i</span><span class="o">.</span><span class="vm">__name__</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">registry</span><span class="p">))</span>
-        <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
 
     <span class="k">if</span> <span class="n">cache</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
         <span class="n">utils</span><span class="o">.</span><span class="n">RepoData</span><span class="p">()</span><span class="o">.</span><span class="n">set_cache</span><span class="p">(</span><span class="n">cache</span><span class="p">)</span>
