@@ -104,10 +104,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -125,7 +125,7 @@
 <span id="config"></span><h1>config<a class="headerlink" href="#module-bioconda_utils.bot.config" title="Permalink to this headline">¶</a></h1>
 <p>Bot configuration variables</p>
 <p class="rubric">Functions</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -139,86 +139,86 @@
 <p class="rubric">Documentation</p>
 <dl class="data">
 <dt id="bioconda_utils.bot.config.ANACONDA_TOKEN">
-<code class="descclassname">bioconda_utils.bot.config.</code><code class="descname">ANACONDA_TOKEN</code><em class="property"> = 'bi-2a469ecf-edeb-4c35-ab39-80bc4bba8ce8'</em><a class="headerlink" href="#bioconda_utils.bot.config.ANACONDA_TOKEN" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">ANACONDA_TOKEN</code><em class="property"> = 'bi-2a469ecf-edeb-4c35-ab39-80bc4bba8ce8'</em><a class="headerlink" href="#bioconda_utils.bot.config.ANACONDA_TOKEN" title="Permalink to this definition">¶</a></dt>
 <dd><p>Anaconda Token</p>
 </dd></dl>
 
 <dl class="data">
 <dt id="bioconda_utils.bot.config.APP_ID">
-<code class="descclassname">bioconda_utils.bot.config.</code><code class="descname">APP_ID</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.APP_ID" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">APP_ID</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.APP_ID" title="Permalink to this definition">¶</a></dt>
 <dd><p>Numeric App ID (not secret, technically)</p>
 </dd></dl>
 
 <dl class="data">
 <dt id="bioconda_utils.bot.config.APP_KEY">
-<code class="descclassname">bioconda_utils.bot.config.</code><code class="descname">APP_KEY</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.APP_KEY" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">APP_KEY</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.APP_KEY" title="Permalink to this definition">¶</a></dt>
 <dd><p>PEM signing key for APP requests</p>
 </dd></dl>
 
 <dl class="data">
 <dt id="bioconda_utils.bot.config.APP_SECRET">
-<code class="descclassname">bioconda_utils.bot.config.</code><code class="descname">APP_SECRET</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.APP_SECRET" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">APP_SECRET</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.APP_SECRET" title="Permalink to this definition">¶</a></dt>
 <dd><p>Secret shared with Github used by us to authenticate incoming webhooks</p>
 </dd></dl>
 
 <dl class="data">
 <dt id="bioconda_utils.bot.config.BOT_ALIAS_RE">
-<code class="descclassname">bioconda_utils.bot.config.</code><code class="descname">BOT_ALIAS_RE</code><em class="property"> = re.compile('&#64;bioconda[- ]?bot', re.IGNORECASE)</em><a class="headerlink" href="#bioconda_utils.bot.config.BOT_ALIAS_RE" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">BOT_ALIAS_RE</code><em class="property"> = re.compile('&#64;bioconda[- ]?bot', re.IGNORECASE)</em><a class="headerlink" href="#bioconda_utils.bot.config.BOT_ALIAS_RE" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bot alias regex - this is what it’ll react to in comments</p>
 </dd></dl>
 
 <dl class="data">
 <dt id="bioconda_utils.bot.config.BOT_EMAIL">
-<code class="descclassname">bioconda_utils.bot.config.</code><code class="descname">BOT_EMAIL</code><em class="property"> = '47040946+BiocondaBot&#64;users.noreply.github.com'</em><a class="headerlink" href="#bioconda_utils.bot.config.BOT_EMAIL" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">BOT_EMAIL</code><em class="property"> = '47040946+BiocondaBot&#64;users.noreply.github.com'</em><a class="headerlink" href="#bioconda_utils.bot.config.BOT_EMAIL" title="Permalink to this definition">¶</a></dt>
 <dd><p>Email address used in commits. Needs to match the account under
 which the CODE_SIGNING_KEY was registered.</p>
 </dd></dl>
 
 <dl class="data">
 <dt id="bioconda_utils.bot.config.BOT_NAME">
-<code class="descclassname">bioconda_utils.bot.config.</code><code class="descname">BOT_NAME</code><em class="property"> = 'BiocondaBot'</em><a class="headerlink" href="#bioconda_utils.bot.config.BOT_NAME" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">BOT_NAME</code><em class="property"> = 'BiocondaBot'</em><a class="headerlink" href="#bioconda_utils.bot.config.BOT_NAME" title="Permalink to this definition">¶</a></dt>
 <dd><p>Name of bot</p>
 </dd></dl>
 
 <dl class="data">
 <dt id="bioconda_utils.bot.config.CIRCLE_TOKEN">
-<code class="descclassname">bioconda_utils.bot.config.</code><code class="descname">CIRCLE_TOKEN</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.CIRCLE_TOKEN" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">CIRCLE_TOKEN</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.CIRCLE_TOKEN" title="Permalink to this definition">¶</a></dt>
 <dd><p>CircleCI Token</p>
 </dd></dl>
 
 <dl class="data">
 <dt id="bioconda_utils.bot.config.CODE_SIGNING_KEY">
-<code class="descclassname">bioconda_utils.bot.config.</code><code class="descname">CODE_SIGNING_KEY</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.CODE_SIGNING_KEY" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">CODE_SIGNING_KEY</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.CODE_SIGNING_KEY" title="Permalink to this definition">¶</a></dt>
 <dd><p>GPG key for signing git commits</p>
 </dd></dl>
 
 <dl class="data">
 <dt id="bioconda_utils.bot.config.GITTER_CHANNELS">
-<code class="descclassname">bioconda_utils.bot.config.</code><code class="descname">GITTER_CHANNELS</code><em class="property"> = {'bioconda/Lobby': 'bioconda/bioconda-recipes', 'bioconda/bot': 'bioconda/bioconda-recipes'}</em><a class="headerlink" href="#bioconda_utils.bot.config.GITTER_CHANNELS" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">GITTER_CHANNELS</code><em class="property"> = {'bioconda/Lobby': 'bioconda/bioconda-recipes', 'bioconda/bot': 'bioconda/bioconda-recipes'}</em><a class="headerlink" href="#bioconda_utils.bot.config.GITTER_CHANNELS" title="Permalink to this definition">¶</a></dt>
 <dd><p>Gitter Channels</p>
 </dd></dl>
 
 <dl class="data">
 <dt id="bioconda_utils.bot.config.GITTER_TOKEN">
-<code class="descclassname">bioconda_utils.bot.config.</code><code class="descname">GITTER_TOKEN</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.GITTER_TOKEN" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">GITTER_TOKEN</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.GITTER_TOKEN" title="Permalink to this definition">¶</a></dt>
 <dd><p>Gitter Token</p>
 </dd></dl>
 
 <dl class="data">
 <dt id="bioconda_utils.bot.config.QUAY_LOGIN">
-<code class="descclassname">bioconda_utils.bot.config.</code><code class="descname">QUAY_LOGIN</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.QUAY_LOGIN" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">QUAY_LOGIN</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.QUAY_LOGIN" title="Permalink to this definition">¶</a></dt>
 <dd><p>Quay Login</p>
 </dd></dl>
 
 <dl class="data">
 <dt id="bioconda_utils.bot.config.REPODATA_TIMEOUT">
-<code class="descclassname">bioconda_utils.bot.config.</code><code class="descname">REPODATA_TIMEOUT</code><em class="property"> = 300</em><a class="headerlink" href="#bioconda_utils.bot.config.REPODATA_TIMEOUT" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">REPODATA_TIMEOUT</code><em class="property"> = 300</em><a class="headerlink" href="#bioconda_utils.bot.config.REPODATA_TIMEOUT" title="Permalink to this definition">¶</a></dt>
 <dd><p>Time in seconds after which repodata should be reloaded</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.bot.config.get_secret">
-<code class="descclassname">bioconda_utils.bot.config.</code><code class="descname">get_secret</code><span class="sig-paren">(</span><em>name</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/config.html#get_secret"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.config.get_secret" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">get_secret</code><span class="sig-paren">(</span><em class="sig-param">name</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/config.html#get_secret"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.config.get_secret" title="Permalink to this definition">¶</a></dt>
 <dd><p>Load a secret from file or env</p>
 <p>Either provide <code class="docutils literal notranslate"><span class="pre">{name}_FILE</span></code> or <code class="docutils literal notranslate"><span class="pre">{name}</span></code> in the environment to
 configure the value for <code class="docutils literal notranslate"><span class="pre">{name}</span></code>.</p>
@@ -237,7 +237,7 @@ configure the value for <code class="docutils literal notranslate"><span class="
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

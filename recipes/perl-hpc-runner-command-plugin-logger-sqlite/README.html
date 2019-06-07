@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="perl-hpc-runner-command-plugin-logger-sqlite">
 <dl class="recipe">
 <dt id="recipe-perl-hpc-runner-command-plugin-logger-sqlite/0.0.3">
-<em class="property">recipe </em><code class="descname">perl-hpc-runner-command-plugin-logger-sqlite/0.0.3</code><a class="headerlink" href="#recipe-perl-hpc-runner-command-plugin-logger-sqlite/0.0.3" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">perl-hpc-runner-command-plugin-logger-sqlite/0.0.3</code><a class="headerlink" href="#recipe-perl-hpc-runner-command-plugin-logger-sqlite/0.0.3" title="Permalink to this definition">¶</a></dt>
 <dd><p>Log HPC::Runner workflows to a sqlite DB.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,35 +123,46 @@
 
 <dl class="package">
 <dt id="package-perl-hpc-runner-command-plugin-logger-sqlite">
-<em class="property">package </em><code class="descname">perl-hpc-runner-command-plugin-logger-sqlite</code><a class="headerlink" href="#package-perl-hpc-runner-command-plugin-logger-sqlite" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">perl-hpc-runner-command-plugin-logger-sqlite</code><a class="headerlink" href="#package-perl-hpc-runner-command-plugin-logger-sqlite" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/perl-hpc-runner-command-plugin-logger-sqlite"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/perl-hpc-runner-command-plugin-logger-sqlite.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/perl-hpc-runner-command-plugin-logger-sqlite"><img alt="docker_perl-hpc-runner-command-plugin-logger-sqlite" src="https://quay.io/repository/biocontainers/perl-hpc-runner-command-plugin-logger-sqlite/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>0.0.3-2, 0.0.3-1, 0.0.3-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> &gt;=5.26.2,&lt;5.26.3.0a0</p></li>
-<li><p><a class="conda-package reference internal" href="../perl-app-cpanminus/README.html#package-perl-app-cpanminus" title="perl-app-cpanminus package"><strong>perl-app-cpanminus</strong></a></p></li>
-<li><p><strong>perl-base</strong></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-clone/README.html#package-perl-clone" title="perl-clone package"><strong>perl-clone</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-datetime/README.html#package-perl-datetime" title="perl-datetime package"><strong>perl-datetime</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-dbd-sqlite/README.html#package-perl-dbd-sqlite" title="perl-dbd-sqlite package"><strong>perl-dbd-sqlite</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-dbi/README.html#package-perl-dbi" title="perl-dbi package"><strong>perl-dbi</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-hpc-runner-command/README.html#package-perl-hpc-runner-command" title="perl-hpc-runner-command package"><strong>perl-hpc-runner-command</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-json/README.html#package-perl-json" title="perl-json package"><strong>perl-json</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-json-xs/README.html#package-perl-json-xs" title="perl-json-xs package"><strong>perl-json-xs</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-list-uniq/README.html#package-perl-list-uniq" title="perl-list-uniq package"><strong>perl-list-uniq</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-log-log4perl/README.html#package-perl-log-log4perl" title="perl-log-log4perl package"><strong>perl-log-log4perl</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-params-validate/README.html#package-perl-params-validate" title="perl-params-validate package"><strong>perl-params-validate</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-text-asciitable/README.html#package-perl-text-asciitable" title="perl-text-asciitable package"><strong>perl-text-asciitable</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/sqlite-feedstock"><strong>sqlite</strong></a> &gt;=3.26.0,&lt;4.0a0</p></li>
-</ul>
+<dt class="field-even">Depends perl</dt>
+<dd class="field-even"><p>&gt;=5.26.2,&lt;5.26.3.0a0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends perl-app-cpanminus</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-base</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-clone</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-datetime</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-dbd-sqlite</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-dbi</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-hpc-runner-command</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-json</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-json-xs</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-list-uniq</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-log-log4perl</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-params-validate</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-text-asciitable</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends sqlite</dt>
+<dd class="field-even"><p>&gt;=3.26.0,&lt;4.0a0</p>
 </dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -189,7 +200,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

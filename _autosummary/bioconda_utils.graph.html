@@ -117,10 +117,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -138,7 +138,7 @@
 <span id="graph"></span><h1>graph<a class="headerlink" href="#module-bioconda_utils.graph" title="Permalink to this headline">¶</a></h1>
 <p>Construction and Manipulation of Package/Recipe Graphs</p>
 <p class="rubric">Functions</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -161,7 +161,7 @@
 <p class="rubric">Documentation</p>
 <dl class="function">
 <dt id="bioconda_utils.graph.build">
-<code class="descclassname">bioconda_utils.graph.</code><code class="descname">build</code><span class="sig-paren">(</span><em>recipes</em>, <em>config</em>, <em>blacklist=None</em>, <em>restrict=True</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/graph.html#build"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.graph.build" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.graph.</code><code class="sig-name descname">build</code><span class="sig-paren">(</span><em class="sig-param">recipes</em>, <em class="sig-param">config</em>, <em class="sig-param">blacklist=None</em>, <em class="sig-param">restrict=True</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/graph.html#build"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.graph.build" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns the DAG of recipe paths and a dictionary that maps package names to
 lists of recipe paths to all defined versions of the package.  defined
 versions.</p>
@@ -171,8 +171,8 @@ versions.</p>
 <li><p><strong>recipes</strong> (<em>iterable</em>) – An iterable of recipe paths, typically obtained via <a class="reference internal" href="bioconda_utils.utils.html#bioconda_utils.utils.get_recipes" title="bioconda_utils.utils.get_recipes"><code class="xref any py py-func docutils literal notranslate"><span class="pre">get_recipes()</span></code></a></p></li>
 <li><p><strong>blacklist</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#set" title="(in Python v3.7)"><em>set</em></a>) – Package names to skip</p></li>
 <li><p><strong>restrict</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – If True, then dependencies will be included in the DAG only if they are
-themselves in <a class="reference internal" href="bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.PRInfo.recipes" title="bioconda_utils.bot.tasks.PRInfo.recipes"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">recipes</span></code></a>. Otherwise, include all dependencies of
-<a class="reference internal" href="bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.PRInfo.recipes" title="bioconda_utils.bot.tasks.PRInfo.recipes"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">recipes</span></code></a>.</p></li>
+themselves in <a class="reference internal" href="bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.PRInfo.recipes" title="bioconda_utils.bot.tasks.PRInfo.recipes"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">recipes</span></code></a>. Otherwise, include all dependencies of
+<a class="reference internal" href="bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.PRInfo.recipes" title="bioconda_utils.bot.tasks.PRInfo.recipes"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">recipes</span></code></a>.</p></li>
 </ul>
 </dd>
 <dt class="field-even">Returns</dt>
@@ -189,7 +189,7 @@ values are lists and contain paths to all defined versions.</p></li>
 
 <dl class="function">
 <dt id="bioconda_utils.graph.filter_recipe_dag">
-<code class="descclassname">bioconda_utils.graph.</code><code class="descname">filter_recipe_dag</code><span class="sig-paren">(</span><em>dag</em>, <em>include</em>, <em>exclude</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/graph.html#filter_recipe_dag"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.graph.filter_recipe_dag" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.graph.</code><code class="sig-name descname">filter_recipe_dag</code><span class="sig-paren">(</span><em class="sig-param">dag</em>, <em class="sig-param">include</em>, <em class="sig-param">exclude</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/graph.html#filter_recipe_dag"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.graph.filter_recipe_dag" title="Permalink to this definition">¶</a></dt>
 <dd><p>Reduces <strong>dag</strong> to packages in <strong>names</strong> and their requirements</p>
 </dd></dl>
 
@@ -206,7 +206,7 @@ values are lists and contain paths to all defined versions.</p></li>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

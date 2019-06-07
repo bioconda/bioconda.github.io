@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="toil">
 <dl class="recipe">
 <dt id="recipe-toil">
-<em class="property">recipe </em><code class="descname">toil</code><a class="headerlink" href="#recipe-toil" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">toil</code><a class="headerlink" href="#recipe-toil" title="Permalink to this definition">¶</a></dt>
 <dd><p>A scalable, efficient, cross-platform and easy-to-use workflow engine in pure Python</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,44 +123,73 @@
 
 <dl class="package">
 <dt id="package-toil">
-<em class="property">package </em><code class="descname">toil</code><a class="headerlink" href="#package-toil" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">toil</code><a class="headerlink" href="#package-toil" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/toil"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/toil.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/toil"><img alt="docker_toil" src="https://quay.io/repository/biocontainers/toil/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>3.14.0-2, 3.14.0-1, 3.14.0-0, 3.13.0a1-0, 3.11.0-1, 3.11.0-0, 3.11.0a1-1, 3.11.0a1-0, 3.10.0-0, 3.10.0a1-1, 3.10.0a1-0, 3.9.0a1-0, 3.8.0a1-1, 3.8.0a1-0, 3.7.0a-1, 3.7.0a-0, 3.6.0-0, 3.5.0a1-3, 3.5.0a1-2, 3.5.0a1-1, 3.5.0a1-0, 3.4.0a1-3, 3.4.0a1-2, 3.4.0a1-1, 3.4.0a1-0, 3.3.0a1-0, 3.2.0a2-2, 3.2.0a2-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/azure-feedstock"><strong>azure</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bd2k-python-lib/README.html#package-bd2k-python-lib" title="bd2k-python-lib package"><strong>bd2k-python-lib</strong></a> 1.14a1.dev37</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/boto-feedstock"><strong>boto</strong></a> &gt;=2.38.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/cachecontrol-feedstock"><strong>cachecontrol</strong></a> &gt;=0.11.7,&lt;0.12</p></li>
-<li><p><a class="conda-package reference internal" href="../cgcloud-lib/README.html#package-cgcloud-lib" title="cgcloud-lib package"><strong>cgcloud-lib</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/cwltool-feedstock"><strong>cwltool</strong></a> 1.0.20180130110340</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/dill-feedstock"><strong>dill</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/docker-py-feedstock"><strong>docker-py</strong></a> &gt;=2.5.1</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/future-feedstock"><strong>future</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/futures-feedstock"><strong>futures</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../galaxy-lib/README.html#package-galaxy-lib" title="galaxy-lib package"><strong>galaxy-lib</strong></a> &gt;=17.9.3</p></li>
-<li><p><a class="conda-package reference internal" href="../gcs_oauth2_boto_plugin/README.html#package-gcs-oauth2-boto-plugin" title="gcs-oauth2-boto-plugin package"><strong>gcs-oauth2-boto-plugin</strong></a> 1.9</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/mistune-feedstock"><strong>mistune</strong></a> &gt;=0.7.3,&lt;0.8</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/psutil-feedstock"><strong>psutil</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pynacl-feedstock"><strong>pynacl</strong></a> 1.1.2</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=2.7,&lt;2.8.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/rdflib-feedstock"><strong>rdflib</strong></a> &gt;=4.2.2</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/rdflib-jsonld-feedstock"><strong>rdflib-jsonld</strong></a> &gt;=0.3.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/requests-feedstock"><strong>requests</strong></a> &gt;=2.18.4</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/ruamel.yaml-feedstock"><strong>ruamel.yaml</strong></a> &gt;=0.12.4,&lt;0.15</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/six-feedstock"><strong>six</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/typing-feedstock"><strong>typing</strong></a> &gt;=3.5.3,&lt;3.6</p></li>
-</ul>
+<dt class="field-even">Depends azure</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends bd2k-python-lib</dt>
+<dd class="field-odd"><p>1.14a1.dev37</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../comparative-annotation-toolkit/README.html#comparative-annotation-toolkit"><strong class="xref backref">comparative-annotation-toolkit</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../cactus/README.html#cactus"><strong class="xref backref">cactus</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends boto</dt>
+<dd class="field-even"><p>&gt;=2.38.0</p>
 </dd>
+<dt class="field-odd">Depends cachecontrol</dt>
+<dd class="field-odd"><p>&gt;=0.11.7,&lt;0.12</p>
+</dd>
+<dt class="field-even">Depends cgcloud-lib</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends cwltool</dt>
+<dd class="field-odd"><p>1.0.20180130110340</p>
+</dd>
+<dt class="field-even">Depends dill</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends docker-py</dt>
+<dd class="field-odd"><p>&gt;=2.5.1</p>
+</dd>
+<dt class="field-even">Depends future</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends futures</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends galaxy-lib</dt>
+<dd class="field-even"><p>&gt;=17.9.3</p>
+</dd>
+<dt class="field-odd">Depends gcs-oauth2-boto-plugin</dt>
+<dd class="field-odd"><p>1.9</p>
+</dd>
+<dt class="field-even">Depends mistune</dt>
+<dd class="field-even"><p>&gt;=0.7.3,&lt;0.8</p>
+</dd>
+<dt class="field-odd">Depends psutil</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends pynacl</dt>
+<dd class="field-even"><p>1.1.2</p>
+</dd>
+<dt class="field-odd">Depends python</dt>
+<dd class="field-odd"><p>&gt;=2.7,&lt;2.8.0a0</p>
+</dd>
+<dt class="field-even">Depends rdflib</dt>
+<dd class="field-even"><p>&gt;=4.2.2</p>
+</dd>
+<dt class="field-odd">Depends rdflib-jsonld</dt>
+<dd class="field-odd"><p>&gt;=0.3.0</p>
+</dd>
+<dt class="field-even">Depends requests</dt>
+<dd class="field-even"><p>&gt;=2.18.4</p>
+</dd>
+<dt class="field-odd">Depends ruamel.yaml</dt>
+<dd class="field-odd"><p>&gt;=0.12.4,&lt;0.15</p>
+</dd>
+<dt class="field-even">Depends six</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends typing</dt>
+<dd class="field-odd"><p>&gt;=3.5.3,&lt;3.6</p>
+</dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -198,7 +227,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

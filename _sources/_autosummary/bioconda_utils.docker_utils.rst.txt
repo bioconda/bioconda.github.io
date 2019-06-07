@@ -12,7 +12,6 @@ docker\_utils
 
    .. autosummary::
    
-      dummy_recipe
       get_host_conda_bld
    
    

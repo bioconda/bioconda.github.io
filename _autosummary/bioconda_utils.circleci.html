@@ -117,10 +117,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -138,7 +138,7 @@
 <span id="circleci"></span><h1>circleci<a class="headerlink" href="#module-bioconda_utils.circleci" title="Permalink to this headline">¶</a></h1>
 <p>CircleCI Web-API Bindings</p>
 <p class="rubric">Classes</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -158,19 +158,19 @@
 <p class="rubric">Documentation</p>
 <dl class="class">
 <dt id="bioconda_utils.circleci.AsyncCircleAPI">
-<em class="property">class </em><code class="descclassname">bioconda_utils.circleci.</code><code class="descname">AsyncCircleAPI</code><span class="sig-paren">(</span><em>session</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#AsyncCircleAPI"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.AsyncCircleAPI" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.circleci.</code><code class="sig-name descname">AsyncCircleAPI</code><span class="sig-paren">(</span><em class="sig-param">session</em>, <em class="sig-param">*args</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#AsyncCircleAPI"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.AsyncCircleAPI" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#bioconda_utils.circleci.CircleAPI" title="bioconda_utils.circleci.CircleAPI"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.circleci.CircleAPI</span></code></a></p>
 <p>CircleCI API using <a class="conda-forge reference external" href="https://github.com/conda-forge/aiohttp-feedstock"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">aiohttp</span></code></a></p>
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.circleci.CircleAPI">
-<em class="property">class </em><code class="descclassname">bioconda_utils.circleci.</code><code class="descname">CircleAPI</code><span class="sig-paren">(</span><em>token=None</em>, <em>vcs_type='github'</em>, <em>username='bioconda'</em>, <em>project='bioconda-recipes'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#CircleAPI"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.CircleAPI" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.circleci.</code><code class="sig-name descname">CircleAPI</code><span class="sig-paren">(</span><em class="sig-param">token=None</em>, <em class="sig-param">vcs_type='github'</em>, <em class="sig-param">username='bioconda'</em>, <em class="sig-param">project='bioconda-recipes'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#CircleAPI"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.CircleAPI" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/abc.html#abc.ABC" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">abc.ABC</span></code></a></p>
 <p>CircleCI API</p>
 <dl class="method">
 <dt id="bioconda_utils.circleci.CircleAPI.get_artifacts">
-<code class="descname">get_artifacts</code><span class="sig-paren">(</span><em>path</em>, <em>head_sha</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#CircleAPI.get_artifacts"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.CircleAPI.get_artifacts" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">get_artifacts</code><span class="sig-paren">(</span><em class="sig-param">path</em>, <em class="sig-param">head_sha</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#CircleAPI.get_artifacts"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.CircleAPI.get_artifacts" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get artifacts for specific branch and head_sha</p>
 <p>For each artifact built for this sha, get the latest URL. Multiple builds
 may exist e.g. if a rebuild was triggered.</p>
@@ -192,7 +192,7 @@ may exist e.g. if a rebuild was triggered.</p>
 
 <dl class="method">
 <dt id="bioconda_utils.circleci.CircleAPI.list_artifacts">
-<code class="descname">list_artifacts</code><span class="sig-paren">(</span><em>build_number</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#CircleAPI.list_artifacts"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.CircleAPI.list_artifacts" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">list_artifacts</code><span class="sig-paren">(</span><em class="sig-param">build_number</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#CircleAPI.list_artifacts"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.CircleAPI.list_artifacts" title="Permalink to this definition">¶</a></dt>
 <dd><p>Lists artifacts for build number</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -206,7 +206,7 @@ may exist e.g. if a rebuild was triggered.</p>
 
 <dl class="method">
 <dt id="bioconda_utils.circleci.CircleAPI.list_recent_builds">
-<code class="descname">list_recent_builds</code><span class="sig-paren">(</span><em>path</em>, <em>sha=None</em>, <em>skip_rebuilt=True</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#CircleAPI.list_recent_builds"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.CircleAPI.list_recent_builds" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">list_recent_builds</code><span class="sig-paren">(</span><em class="sig-param">path</em>, <em class="sig-param">sha=None</em>, <em class="sig-param">skip_rebuilt=True</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#CircleAPI.list_recent_builds"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.CircleAPI.list_recent_builds" title="Permalink to this definition">¶</a></dt>
 <dd><p>List recent builds for <strong>path</strong> (branch or pr)</p>
 <p>Note: skip rebuild seems to only apply to jobs, not workflow reruns.</p>
 <dl class="field-list simple">
@@ -230,7 +230,7 @@ may exist e.g. if a rebuild was triggered.</p>
 
 <dl class="method">
 <dt id="bioconda_utils.circleci.CircleAPI.trigger_rebuild">
-<code class="descname">trigger_rebuild</code><span class="sig-paren">(</span><em>branch</em>, <em>sha</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#CircleAPI.trigger_rebuild"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.CircleAPI.trigger_rebuild" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">trigger_rebuild</code><span class="sig-paren">(</span><em class="sig-param">branch</em>, <em class="sig-param">sha</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#CircleAPI.trigger_rebuild"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.CircleAPI.trigger_rebuild" title="Permalink to this definition">¶</a></dt>
 <dd><p>Trigger rebuilding <strong>sha</strong> on <strong>branch</strong>.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -242,9 +242,9 @@ may exist e.g. if a rebuild was triggered.</p>
 </dl>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="method">
 <dt id="bioconda_utils.circleci.CircleAPI.var_data">
-<code class="descname">var_data</code><a class="headerlink" href="#bioconda_utils.circleci.CircleAPI.var_data" title="Permalink to this definition">¶</a></dt>
+<em class="property">property </em><code class="sig-name descname">var_data</code><a class="headerlink" href="#bioconda_utils.circleci.CircleAPI.var_data" title="Permalink to this definition">¶</a></dt>
 <dd><p>Defaults for this API instance</p>
 </dd></dl>
 
@@ -252,7 +252,7 @@ may exist e.g. if a rebuild was triggered.</p>
 
 <dl class="class">
 <dt id="bioconda_utils.circleci.SlackMessage">
-<em class="property">class </em><code class="descclassname">bioconda_utils.circleci.</code><code class="descname">SlackMessage</code><span class="sig-paren">(</span><em>_headers</em>, <em>data</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#SlackMessage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.SlackMessage" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.circleci.</code><code class="sig-name descname">SlackMessage</code><span class="sig-paren">(</span><em class="sig-param">_headers</em>, <em class="sig-param">data</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#SlackMessage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.SlackMessage" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
 <p>Parses a Slack message as sent by CircleCI</p>
 </dd></dl>
@@ -270,7 +270,7 @@ may exist e.g. if a rebuild was triggered.</p>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

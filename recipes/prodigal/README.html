@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="prodigal">
 <dl class="recipe">
 <dt id="recipe-prodigal">
-<em class="property">recipe </em><code class="descname">prodigal</code><a class="headerlink" href="#recipe-prodigal" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">prodigal</code><a class="headerlink" href="#recipe-prodigal" title="Permalink to this definition">¶</a></dt>
 <dd><p>Prodigal (Prokaryotic Dynamic Programming Genefinding Algorithm) is a microbial (bacterial and archaeal) gene finding program</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,37 +123,14 @@
 
 <dl class="package">
 <dt id="package-prodigal">
-<em class="property">package </em><code class="descname">prodigal</code><a class="headerlink" href="#package-prodigal" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">prodigal</code><a class="headerlink" href="#package-prodigal" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/prodigal"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/prodigal.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/prodigal"><img alt="docker_prodigal" src="https://quay.io/repository/biocontainers/prodigal/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>2.6.3-1, 2.6.3-0, 2.6.2-3, 2.6.2-2, 2.6.2-1</p>
 </dd>
-<dt class="field-even">Required By</dt>
-<dd class="field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../perl-bio-automatedannotation/README.html#perl-bio-automatedannotation"><strong class="xref backref">perl-bio-automatedannotation</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../prokka/README.html#prokka"><strong class="xref backref">prokka</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../reparation_blast/README.html#reparation_blast"><strong class="xref backref">reparation_blast</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../drep/README.html#drep"><strong class="xref backref">drep</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../checkm-genome/README.html#checkm-genome"><strong class="xref backref">checkm-genome</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../gtdbtk/README.html#gtdbtk"><strong class="xref backref">gtdbtk</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../magpurify/README.html#magpurify"><strong class="xref backref">magpurify</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../circlator/README.html#circlator"><strong class="xref backref">circlator</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../cat/README.html#cat"><strong class="xref backref">cat</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../anvio/README.html#anvio"><strong class="xref backref">anvio</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../hicap/README.html#hicap"><strong class="xref backref">hicap</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../deepbgc/README.html#deepbgc"><strong class="xref backref">deepbgc</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../find_differential_primers/README.html#find_differential_primers"><strong class="xref backref">find_differential_primers</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../mercat/README.html#mercat"><strong class="xref backref">mercat</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../rgi/README.html#rgi"><strong class="xref backref">rgi</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../das_tool/README.html#das_tool"><strong class="xref backref">das_tool</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../pylprotpredictor/README.html#pylprotpredictor"><strong class="xref backref">pylprotpredictor</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../chewbbaca/README.html#chewbbaca"><strong class="xref backref">chewbbaca</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../antismash/README.html#antismash"><strong class="xref backref">antismash</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../metawatt/README.html#metawatt"><strong class="xref backref">metawatt</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../refinem/README.html#refinem"><strong class="xref backref">refinem</strong></a></p></li>
-</ul>
-</dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -191,7 +168,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

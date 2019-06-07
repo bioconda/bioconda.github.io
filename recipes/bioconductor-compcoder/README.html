@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-compcoder">
 <dl class="recipe">
 <dt id="recipe-bioconductor-compcoder">
-<em class="property">recipe </em><code class="descname">bioconductor-compcoder</code><a class="headerlink" href="#recipe-bioconductor-compcoder" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-compcoder</code><a class="headerlink" href="#recipe-bioconductor-compcoder" title="Permalink to this definition">¶</a></dt>
 <dd><p>This package provides extensive functionality for comparing results obtained by different methods for differential expression analysis of RNAseq data. It also contains functions for simulating count data and interfaces to several packages for performing the differential expression analysis.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,38 +123,55 @@
 
 <dl class="package">
 <dt id="package-bioconductor-compcoder">
-<em class="property">package </em><code class="descname">bioconductor-compcoder</code><a class="headerlink" href="#package-bioconductor-compcoder" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-compcoder</code><a class="headerlink" href="#package-bioconductor-compcoder" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-compcoder"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-compcoder.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-compcoder"><img alt="docker_bioconductor-compcoder" src="https://quay.io/repository/biocontainers/bioconductor-compcoder/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.20.0-0, 1.18.1-0, 1.18.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-edger/README.html#package-bioconductor-edger" title="bioconductor-edger package"><strong>bioconductor-edger</strong></a> &gt;=3.26.0,&lt;3.27.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-limma/README.html#package-bioconductor-limma" title="bioconductor-limma package"><strong>bioconductor-limma</strong></a> &gt;=3.40.0,&lt;3.41.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-catools-feedstock"><strong>r-catools</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-gdata-feedstock"><strong>r-gdata</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ggplot2-feedstock"><strong>r-ggplot2</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-gplots-feedstock"><strong>r-gplots</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-gtools-feedstock"><strong>r-gtools</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-kernsmooth-feedstock"><strong>r-kernsmooth</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-knitr-feedstock"><strong>r-knitr</strong></a> &gt;=1.2</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-lattice-feedstock"><strong>r-lattice</strong></a> &gt;=0.16</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-markdown-feedstock"><strong>r-markdown</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-mass-feedstock"><strong>r-mass</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-modeest-feedstock"><strong>r-modeest</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rocr-feedstock"><strong>r-rocr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-sm-feedstock"><strong>r-sm</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-stringr-feedstock"><strong>r-stringr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-vioplot-feedstock"><strong>r-vioplot</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-edger</dt>
+<dd class="field-even"><p>&gt;=3.26.0,&lt;3.27.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends bioconductor-limma</dt>
+<dd class="field-odd"><p>&gt;=3.40.0,&lt;3.41.0</p>
 </dd>
+<dt class="field-even">Depends r-base</dt>
+<dd class="field-even"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-odd">Depends r-catools</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-gdata</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-ggplot2</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-gplots</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-gtools</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-kernsmooth</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-knitr</dt>
+<dd class="field-odd"><p>&gt;=1.2</p>
+</dd>
+<dt class="field-even">Depends r-lattice</dt>
+<dd class="field-even"><p>&gt;=0.16</p>
+</dd>
+<dt class="field-odd">Depends r-markdown</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-mass</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-modeest</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-rocr</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-sm</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-stringr</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-vioplot</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -192,7 +209,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

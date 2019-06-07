@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="abeona">
 <dl class="recipe">
 <dt id="recipe-abeona">
-<em class="property">recipe </em><code class="descname">abeona</code><a class="headerlink" href="#recipe-abeona" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">abeona</code><a class="headerlink" href="#recipe-abeona" title="Permalink to this definition">¶</a></dt>
 <dd><p>A simple transcriptome assembler based on kallisto and Cortex graphs.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,28 +123,35 @@
 
 <dl class="package">
 <dt id="package-abeona">
-<em class="property">package </em><code class="descname">abeona</code><a class="headerlink" href="#package-abeona" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">abeona</code><a class="headerlink" href="#package-abeona" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/abeona"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/abeona.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/abeona"><img alt="docker_abeona" src="https://quay.io/repository/biocontainers/abeona/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>0.45.0-0, 0.44.3-0, 0.44.0-0, 0.43.0-0, 0.42.1-0, 0.42.0-0, 0.41.1-0, 0.40.2-0, 0.40.0-0, 0.39.3-0, 0.37.2-0, 0.36.0-2, 0.36.0-1, 0.36.0-0, 0.31.2-0, 0.26.0-0, 0.24.0-2, 0.23.1-2, 0.23.1-0, 0.23.0-1, 0.23.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bwa/README.html#package-bwa" title="bwa package"><strong>bwa</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../cortexpy/README.html#package-cortexpy" title="cortexpy package"><strong>cortexpy</strong></a> 0.45.7</p></li>
-<li><p><a class="conda-package reference internal" href="../kallisto/README.html#package-kallisto" title="kallisto package"><strong>kallisto</strong></a> 0.44.0</p></li>
-<li><p><a class="conda-package reference internal" href="../mccortex/README.html#package-mccortex" title="mccortex package"><strong>mccortex</strong></a> 1.0</p></li>
-<li><p><a class="conda-package reference internal" href="../nextflow/README.html#package-nextflow" title="nextflow package"><strong>nextflow</strong></a> 19.01.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/progressbar2-feedstock"><strong>progressbar2</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=3.6,&lt;3.7.0a0</p></li>
-</ul>
+<dt class="field-even">Depends bwa</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends cortexpy</dt>
+<dd class="field-odd"><p>0.45.7</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-even">Depends kallisto</dt>
+<dd class="field-even"><p>0.44.0</p>
 </dd>
+<dt class="field-odd">Depends mccortex</dt>
+<dd class="field-odd"><p>1.0</p>
+</dd>
+<dt class="field-even">Depends nextflow</dt>
+<dd class="field-even"><p>19.01.0</p>
+</dd>
+<dt class="field-odd">Depends pandas</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends progressbar2</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends python</dt>
+<dd class="field-odd"><p>&gt;=3.6,&lt;3.7.0a0</p>
+</dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -182,7 +189,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

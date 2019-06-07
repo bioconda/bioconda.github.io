@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -119,6 +119,7 @@
 <span class="kn">import</span> <span class="nn">re</span>
 <span class="kn">import</span> <span class="nn">sys</span>
 <span class="kn">import</span> <span class="nn">tempfile</span>
+<span class="kn">import</span> <span class="nn">types</span>
 
 <span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">defaultdict</span>
 <span class="kn">from</span> <span class="nn">contextlib</span> <span class="k">import</span> <span class="n">redirect_stdout</span><span class="p">,</span> <span class="n">redirect_stderr</span>
@@ -757,7 +758,11 @@
                 <span class="n">deps</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="n">dep</span><span class="p">,</span> <span class="p">[])</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;</span><span class="si">{path}</span><span class="s2">/</span><span class="si">{n}</span><span class="s2">&quot;</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">deps</span>
 
-<div class="viewcode-block" id="Recipe.conda_render"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.conda_render">[docs]</a>    <span class="k">def</span> <span class="nf">conda_render</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="n">MetaData</span><span class="p">,</span> <span class="nb">bool</span><span class="p">,</span> <span class="nb">bool</span><span class="p">]]:</span>
+<div class="viewcode-block" id="Recipe.conda_render"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.conda_render">[docs]</a>    <span class="k">def</span> <span class="nf">conda_render</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+                     <span class="n">bypass_env_check</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                     <span class="n">finalize</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                     <span class="n">permit_unsatisfiable_variants</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                     <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="n">MetaData</span><span class="p">,</span> <span class="nb">bool</span><span class="p">,</span> <span class="nb">bool</span><span class="p">]]:</span>
         <span class="sd">&quot;&quot;&quot;Handles calling conda_build.api.render</span>
 
 <span class="sd">        ``conda_build.api.render`` is fragile, loud and slow. Avoid using this</span>
@@ -775,7 +780,22 @@
 <span class="sd">        objects.</span>
 
 <span class="sd">        Args:</span>
-<span class="sd">          kwargs: passed on to ``conda_build.api.render``</span>
+<span class="sd">          bypass_env_check:</span>
+<span class="sd">             Avoids calling solver to fill in values for ``pin_compatible``</span>
+<span class="sd">             and ``resolved_packages`` in Jinja2 expansion.</span>
+<span class="sd">             **Changed default:** ``conda-build.api.render`` defaults to False,</span>
+<span class="sd">             we set this to True as it is very slow.</span>
+<span class="sd">          finalize:</span>
+<span class="sd">             Has ``render()`` run ``finalize_metadata``, which fills in</span>
+<span class="sd">             versions for host/run dependencies.</span>
+<span class="sd">          permit_unsatisfiable_variants:</span>
+<span class="sd">             Avoids raising ``UnsatisfiableError`` or</span>
+<span class="sd">             ``DependencyNeedsBuildingError`` when determining package</span>
+<span class="sd">             dependencies.</span>
+<span class="sd">             **Changed default:** Set to True upstream, we set this to False</span>
+<span class="sd">             to be informed about dependency problems.</span>
+<span class="sd">          kwargs:</span>
+<span class="sd">             passed on to ``conda_build.api.render``</span>
 
 <span class="sd">        Raises:</span>
 <span class="sd">          `CondaRenderfailure`: Some of the exceptions raised are rewritten</span>
@@ -806,7 +826,12 @@
         <span class="k">try</span><span class="p">:</span>
             <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/dev/null&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">devnull</span><span class="p">:</span>
                 <span class="k">with</span> <span class="n">redirect_stdout</span><span class="p">(</span><span class="n">devnull</span><span class="p">),</span> <span class="n">redirect_stderr</span><span class="p">(</span><span class="n">devnull</span><span class="p">):</span>
-                    <span class="bp">self</span><span class="o">.</span><span class="n">_conda_meta</span> <span class="o">=</span> <span class="n">conda_build</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">render</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_conda_tempdir</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">_conda_meta</span> <span class="o">=</span> <span class="n">conda_build</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">render</span><span class="p">(</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">_conda_tempdir</span><span class="o">.</span><span class="n">name</span><span class="p">,</span>
+                        <span class="n">finalize</span><span class="o">=</span><span class="n">finalize</span><span class="p">,</span>
+                        <span class="n">bypass_env_check</span><span class="o">=</span><span class="n">bypass_env_check</span><span class="p">,</span>
+                        <span class="n">permit_unsatisfiable_variants</span><span class="o">=</span><span class="n">permit_unsatisfiable_variants</span><span class="p">,</span>
+                        <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
         <span class="k">except</span> <span class="ne">RuntimeError</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
             <span class="k">if</span> <span class="n">exc</span><span class="o">.</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;Couldn&#39;t extract raw recipe text&quot;</span><span class="p">):</span>
                 <span class="n">line</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
@@ -856,7 +881,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>

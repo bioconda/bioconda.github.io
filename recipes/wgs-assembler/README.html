@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="wgs-assembler">
 <dl class="recipe">
 <dt id="recipe-wgs-assembler">
-<em class="property">recipe </em><code class="descname">wgs-assembler</code><a class="headerlink" href="#recipe-wgs-assembler" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">wgs-assembler</code><a class="headerlink" href="#recipe-wgs-assembler" title="Permalink to this definition">¶</a></dt>
 <dd><p>Celera Assembler (wgs-assembler) is a de novo whole-genome shotgun (WGS) DNA sequence assembler</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,33 +123,37 @@
 
 <dl class="package">
 <dt id="package-wgs-assembler">
-<em class="property">package </em><code class="descname">wgs-assembler</code><a class="headerlink" href="#package-wgs-assembler" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">wgs-assembler</code><a class="headerlink" href="#package-wgs-assembler" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/wgs-assembler"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/wgs-assembler.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/wgs-assembler"><img alt="docker_wgs-assembler" src="https://quay.io/repository/biocontainers/wgs-assembler/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>8.3-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../atac/README.html#package-atac" title="atac package"><strong>atac</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../blasr/README.html#package-blasr" title="blasr package"><strong>blasr</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../estmapper/README.html#package-estmapper" title="estmapper package"><strong>estmapper</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/falcon-feedstock"><strong>falcon</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../jellyfish/README.html#package-jellyfish" title="jellyfish package"><strong>jellyfish</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-feedstock"><strong>libgcc</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../meryl/README.html#package-meryl" title="meryl package"><strong>meryl</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../pbdagcon/README.html#package-pbdagcon" title="pbdagcon package"><strong>pbdagcon</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> 5.22.0*</p></li>
-<li><p><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../sim4db/README.html#package-sim4db" title="sim4db package"><strong>sim4db</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends atac</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends blasr</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends estmapper</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends falcon</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends jellyfish</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends libgcc</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends meryl</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends pbdagcon</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl</dt>
+<dd class="field-even"><p>5.22.0*</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../sprai/README.html#sprai"><strong class="xref backref">sprai</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../intemap/README.html#intemap"><strong class="xref backref">intemap</strong></a></p></li>
-</ul>
-</dd>
+<dt class="field-odd">Depends samtools</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends sim4db</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -187,7 +191,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

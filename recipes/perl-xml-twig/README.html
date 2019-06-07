@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="perl-xml-twig">
 <dl class="recipe">
 <dt id="recipe-perl-xml-twig">
-<em class="property">recipe </em><code class="descname">perl-xml-twig</code><a class="headerlink" href="#recipe-perl-xml-twig" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">perl-xml-twig</code><a class="headerlink" href="#recipe-perl-xml-twig" title="Permalink to this definition">¶</a></dt>
 <dd><p>XML, The Perl Way</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,33 +123,33 @@
 
 <dl class="package">
 <dt id="package-perl-xml-twig">
-<em class="property">package </em><code class="descname">perl-xml-twig</code><a class="headerlink" href="#package-perl-xml-twig" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">perl-xml-twig</code><a class="headerlink" href="#package-perl-xml-twig" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/perl-xml-twig"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/perl-xml-twig.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/perl-xml-twig"><img alt="docker_perl-xml-twig" src="https://quay.io/repository/biocontainers/perl-xml-twig/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>3.52-2, 3.52-1, 3.49-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> &gt;=5.26.2,&lt;5.26.3.0a0</p></li>
-<li><p><a class="conda-package reference internal" href="../perl-html-entities-numbered/README.html#package-perl-html-entities-numbered" title="perl-html-entities-numbered package"><strong>perl-html-entities-numbered</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-html-formatter/README.html#package-perl-html-formatter" title="perl-html-formatter package"><strong>perl-html-formatter</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-html-parser/README.html#package-perl-html-parser" title="perl-html-parser package"><strong>perl-html-parser</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-html-tidy/README.html#package-perl-html-tidy" title="perl-html-tidy package"><strong>perl-html-tidy</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-html-tree/README.html#package-perl-html-tree" title="perl-html-tree package"><strong>perl-html-tree</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-tie-ixhash/README.html#package-perl-tie-ixhash" title="perl-tie-ixhash package"><strong>perl-tie-ixhash</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-xml-parser/README.html#package-perl-xml-parser" title="perl-xml-parser package"><strong>perl-xml-parser</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-xml-xpathengine/README.html#package-perl-xml-xpathengine" title="perl-xml-xpathengine package"><strong>perl-xml-xpathengine</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends perl</dt>
+<dd class="field-even"><p>&gt;=5.26.2,&lt;5.26.3.0a0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../perl-bioperl-core/README.html#perl-bioperl-core"><strong class="xref backref">perl-bioperl-core</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-bio-phylo/README.html#perl-bio-phylo"><strong class="xref backref">perl-bio-phylo</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-test-xml/README.html#perl-test-xml"><strong class="xref backref">perl-test-xml</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-graphviz/README.html#perl-graphviz"><strong class="xref backref">perl-graphviz</strong></a></p></li>
-</ul>
-</dd>
+<dt class="field-odd">Depends perl-html-entities-numbered</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-html-formatter</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-html-parser</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-html-tidy</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-html-tree</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-tie-ixhash</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-xml-parser</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-xml-xpathengine</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -187,7 +187,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

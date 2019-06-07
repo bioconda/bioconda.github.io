@@ -61,6 +61,7 @@ utils
       EnvMatrix
       JinjaSilentUndefined
       LogFuncFilter
+      LoggingSourceRenameFilter
       Progress
       RepoData
       TqdmHandler

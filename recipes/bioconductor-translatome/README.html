@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-translatome">
 <dl class="recipe">
 <dt id="recipe-bioconductor-translatome">
-<em class="property">recipe </em><code class="descname">bioconductor-translatome</code><a class="headerlink" href="#recipe-bioconductor-translatome" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-translatome</code><a class="headerlink" href="#recipe-bioconductor-translatome" title="Permalink to this definition">¶</a></dt>
 <dd><p>Detection of differentially expressed genes (DEGs) from the comparison of two biological conditions (treated vs. untreated, diseased vs. normal, mutant vs. wild-type) among different levels of gene expression (transcriptome ,translatome, proteome), using several statistical methods: Rank Product, Translational Efficiency, t-test, Limma, ANOTA, DESeq, edgeR. Possibility to plot the results with scatterplots, histograms, MA plots, standard deviation (SD) plots, coefficient of variation (CV) plots. Detection of significantly enriched post-transcriptional regulatory factors (RBPs, miRNAs, etc) and Gene Ontology terms in the lists of DEGs previously identified for the two expression levels. Comparison of GO terms enriched only in one of the levels or in both. Calculation of the semantic similarity score between the lists of enriched GO terms coming from the two expression levels. Visual examination and comparison of the enriched terms with heatmaps, radar plots and barplots.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -126,34 +126,54 @@
 
 <dl class="package">
 <dt id="package-bioconductor-translatome">
-<em class="property">package </em><code class="descname">bioconductor-translatome</code><a class="headerlink" href="#package-bioconductor-translatome" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-translatome</code><a class="headerlink" href="#package-bioconductor-translatome" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-translatome"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-translatome.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-translatome"><img alt="docker_bioconductor-translatome" src="https://quay.io/repository/biocontainers/bioconductor-translatome/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.20.0-0, 1.18.5-0, 1.16.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-anota/README.html#package-bioconductor-anota" title="bioconductor-anota package"><strong>bioconductor-anota</strong></a> &gt;=1.30.0,&lt;1.31.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-biobase/README.html#package-bioconductor-biobase" title="bioconductor-biobase package"><strong>bioconductor-biobase</strong></a> &gt;=2.42.0,&lt;2.43.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-deseq/README.html#package-bioconductor-deseq" title="bioconductor-deseq package"><strong>bioconductor-deseq</strong></a> &gt;=1.34.0,&lt;1.35.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-edger/README.html#package-bioconductor-edger" title="bioconductor-edger package"><strong>bioconductor-edger</strong></a> &gt;=3.24.0,&lt;3.25.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-gosemsim/README.html#package-bioconductor-gosemsim" title="bioconductor-gosemsim package"><strong>bioconductor-gosemsim</strong></a> &gt;=2.8.0,&lt;2.9.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-heatplus/README.html#package-bioconductor-heatplus" title="bioconductor-heatplus package"><strong>bioconductor-heatplus</strong></a> &gt;=2.28.0,&lt;2.29.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-limma/README.html#package-bioconductor-limma" title="bioconductor-limma package"><strong>bioconductor-limma</strong></a> &gt;=3.38.0,&lt;3.39.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-org.hs.eg.db/README.html#package-bioconductor-org.hs.eg.db" title="bioconductor-org.hs.eg.db package"><strong>bioconductor-org.hs.eg.db</strong></a> &gt;=3.7.0,&lt;3.8.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-rankprod/README.html#package-bioconductor-rankprod" title="bioconductor-rankprod package"><strong>bioconductor-rankprod</strong></a> &gt;=3.8.0,&lt;3.9.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-sigpathway/README.html#package-bioconductor-sigpathway" title="bioconductor-sigpathway package"><strong>bioconductor-sigpathway</strong></a> &gt;=1.50.0,&lt;1.51.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-topgo/README.html#package-bioconductor-topgo" title="bioconductor-topgo package"><strong>bioconductor-topgo</strong></a> &gt;=2.34.0,&lt;2.35.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-gplots-feedstock"><strong>r-gplots</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-plotrix-feedstock"><strong>r-plotrix</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-anota</dt>
+<dd class="field-even"><p>&gt;=1.30.0,&lt;1.31.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends bioconductor-biobase</dt>
+<dd class="field-odd"><p>&gt;=2.42.0,&lt;2.43.0</p>
 </dd>
+<dt class="field-even">Depends bioconductor-deseq</dt>
+<dd class="field-even"><p>&gt;=1.34.0,&lt;1.35.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-edger</dt>
+<dd class="field-odd"><p>&gt;=3.24.0,&lt;3.25.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-gosemsim</dt>
+<dd class="field-even"><p>&gt;=2.8.0,&lt;2.9.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-heatplus</dt>
+<dd class="field-odd"><p>&gt;=2.28.0,&lt;2.29.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-limma</dt>
+<dd class="field-even"><p>&gt;=3.38.0,&lt;3.39.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-org.hs.eg.db</dt>
+<dd class="field-odd"><p>&gt;=3.7.0,&lt;3.8.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-rankprod</dt>
+<dd class="field-even"><p>&gt;=3.8.0,&lt;3.9.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-sigpathway</dt>
+<dd class="field-odd"><p>&gt;=1.50.0,&lt;1.51.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-topgo</dt>
+<dd class="field-even"><p>&gt;=2.34.0,&lt;2.35.0</p>
+</dd>
+<dt class="field-odd">Depends r-base</dt>
+<dd class="field-odd"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-even">Depends r-gplots</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-plotrix</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -191,7 +211,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

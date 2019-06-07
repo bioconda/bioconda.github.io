@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-rmmquant">
 <dl class="recipe">
 <dt id="recipe-bioconductor-rmmquant">
-<em class="property">recipe </em><code class="descname">bioconductor-rmmquant</code><a class="headerlink" href="#recipe-bioconductor-rmmquant" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-rmmquant</code><a class="headerlink" href="#recipe-bioconductor-rmmquant" title="Permalink to this definition">¶</a></dt>
 <dd><p>RNA-Seq is currently used routinely, and it provides accurate information on gene transcription. However, the method cannot accurately estimate duplicated genes expression. Several strategies have been previously used, but all of them provide biased results. With Rmmquant, if a read maps at different positions, the tool detects that the corresponding genes are duplicated; it merges the genes and creates a merged gene. The counts of ambiguous reads is then based on the input genes and the merged genes. Rmmquant is a drop-in replacement of the widely used tools findOverlaps and featureCounts that handles multi-mapping reads in an unabiased way.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,33 +123,52 @@
 
 <dl class="package">
 <dt id="package-bioconductor-rmmquant">
-<em class="property">package </em><code class="descname">bioconductor-rmmquant</code><a class="headerlink" href="#package-bioconductor-rmmquant" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-rmmquant</code><a class="headerlink" href="#package-bioconductor-rmmquant" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-rmmquant"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-rmmquant.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-rmmquant"><img alt="docker_bioconductor-rmmquant" src="https://quay.io/repository/biocontainers/bioconductor-rmmquant/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.0.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-biocstyle/README.html#package-bioconductor-biocstyle" title="bioconductor-biocstyle package"><strong>bioconductor-biocstyle</strong></a> &gt;=2.10.0,&lt;2.11.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-deseq2/README.html#package-bioconductor-deseq2" title="bioconductor-deseq2 package"><strong>bioconductor-deseq2</strong></a> &gt;=1.22.0,&lt;1.23.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-genomicranges/README.html#package-bioconductor-genomicranges" title="bioconductor-genomicranges package"><strong>bioconductor-genomicranges</strong></a> &gt;=1.34.0,&lt;1.35.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-org.mm.eg.db/README.html#package-bioconductor-org.mm.eg.db" title="bioconductor-org.mm.eg.db package"><strong>bioconductor-org.mm.eg.db</strong></a> &gt;=3.7.0,&lt;3.8.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-s4vectors/README.html#package-bioconductor-s4vectors" title="bioconductor-s4vectors package"><strong>bioconductor-s4vectors</strong></a> &gt;=0.20.0,&lt;0.21.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-summarizedexperiment/README.html#package-bioconductor-summarizedexperiment" title="bioconductor-summarizedexperiment package"><strong>bioconductor-summarizedexperiment</strong></a> &gt;=1.12.0,&lt;1.13.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-tbx20bamsubset/README.html#package-bioconductor-tbx20bamsubset" title="bioconductor-tbx20bamsubset package"><strong>bioconductor-tbx20bamsubset</strong></a> &gt;=1.18.0,&lt;1.19.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-txdb.mmusculus.ucsc.mm9.knowngene/README.html#package-bioconductor-txdb.mmusculus.ucsc.mm9.knowngene" title="bioconductor-txdb.mmusculus.ucsc.mm9.knowngene package"><strong>bioconductor-txdb.mmusculus.ucsc.mm9.knowngene</strong></a> &gt;=3.2.0,&lt;3.3.0</p></li>
-<li><p><strong>libgcc-ng</strong> &gt;=7.3.0</p></li>
-<li><p><strong>libstdcxx-ng</strong> &gt;=7.3.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-devtools-feedstock"><strong>r-devtools</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rcpp-feedstock"><strong>r-rcpp</strong></a> &gt;=0.12.8</p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-biocstyle</dt>
+<dd class="field-even"><p>&gt;=2.10.0,&lt;2.11.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends bioconductor-deseq2</dt>
+<dd class="field-odd"><p>&gt;=1.22.0,&lt;1.23.0</p>
 </dd>
+<dt class="field-even">Depends bioconductor-genomicranges</dt>
+<dd class="field-even"><p>&gt;=1.34.0,&lt;1.35.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-org.mm.eg.db</dt>
+<dd class="field-odd"><p>&gt;=3.7.0,&lt;3.8.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-s4vectors</dt>
+<dd class="field-even"><p>&gt;=0.20.0,&lt;0.21.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-summarizedexperiment</dt>
+<dd class="field-odd"><p>&gt;=1.12.0,&lt;1.13.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-tbx20bamsubset</dt>
+<dd class="field-even"><p>&gt;=1.18.0,&lt;1.19.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-txdb.mmusculus.ucsc.mm9.knowngene</dt>
+<dd class="field-odd"><p>&gt;=3.2.0,&lt;3.3.0</p>
+</dd>
+<dt class="field-even">Depends libgcc-ng</dt>
+<dd class="field-even"><p>&gt;=7.3.0</p>
+</dd>
+<dt class="field-odd">Depends libstdcxx-ng</dt>
+<dd class="field-odd"><p>&gt;=7.3.0</p>
+</dd>
+<dt class="field-even">Depends r-base</dt>
+<dd class="field-even"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-odd">Depends r-devtools</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-rcpp</dt>
+<dd class="field-even"><p>&gt;=0.12.8</p>
+</dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -187,7 +206,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

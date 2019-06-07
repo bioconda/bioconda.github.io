@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-gseabenchmarker">
 <dl class="recipe">
 <dt id="recipe-bioconductor-gseabenchmarker">
-<em class="property">recipe </em><code class="descname">bioconductor-gseabenchmarker</code><a class="headerlink" href="#recipe-bioconductor-gseabenchmarker" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-gseabenchmarker</code><a class="headerlink" href="#recipe-bioconductor-gseabenchmarker" title="Permalink to this definition">¶</a></dt>
 <dd><p>The GSEABenchmarkeR package implements an extendable framework for reproducible evaluation of set- and network-based methods for enrichment analysis of gene expression data. This includes support for the efficient execution of these methods on comprehensive real data compendia (microarray and RNA-seq) using parallel computation on standard workstations and institutional computer grids. Methods can then be assessed with respect to runtime, statistical significance, and relevance of the results for the phenotypes investigated.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,35 +123,58 @@
 
 <dl class="package">
 <dt id="package-bioconductor-gseabenchmarker">
-<em class="property">package </em><code class="descname">bioconductor-gseabenchmarker</code><a class="headerlink" href="#package-bioconductor-gseabenchmarker" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-gseabenchmarker</code><a class="headerlink" href="#package-bioconductor-gseabenchmarker" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-gseabenchmarker"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-gseabenchmarker.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-gseabenchmarker"><img alt="docker_bioconductor-gseabenchmarker" src="https://quay.io/repository/biocontainers/bioconductor-gseabenchmarker/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.2.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-annotationdbi/README.html#package-bioconductor-annotationdbi" title="bioconductor-annotationdbi package"><strong>bioconductor-annotationdbi</strong></a> &gt;=1.44.0,&lt;1.45.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-annotationhub/README.html#package-bioconductor-annotationhub" title="bioconductor-annotationhub package"><strong>bioconductor-annotationhub</strong></a> &gt;=2.14.0,&lt;2.15.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-biobase/README.html#package-bioconductor-biobase" title="bioconductor-biobase package"><strong>bioconductor-biobase</strong></a> &gt;=2.42.0,&lt;2.43.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-biocfilecache/README.html#package-bioconductor-biocfilecache" title="bioconductor-biocfilecache package"><strong>bioconductor-biocfilecache</strong></a> &gt;=1.6.0,&lt;1.7.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-biocparallel/README.html#package-bioconductor-biocparallel" title="bioconductor-biocparallel package"><strong>bioconductor-biocparallel</strong></a> &gt;=1.16.0,&lt;1.17.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-edger/README.html#package-bioconductor-edger" title="bioconductor-edger package"><strong>bioconductor-edger</strong></a> &gt;=3.24.0,&lt;3.25.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-enrichmentbrowser/README.html#package-bioconductor-enrichmentbrowser" title="bioconductor-enrichmentbrowser package"><strong>bioconductor-enrichmentbrowser</strong></a> &gt;=2.12.0,&lt;2.13.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-experimenthub/README.html#package-bioconductor-experimenthub" title="bioconductor-experimenthub package"><strong>bioconductor-experimenthub</strong></a> &gt;=1.8.0,&lt;1.9.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-geoquery/README.html#package-bioconductor-geoquery" title="bioconductor-geoquery package"><strong>bioconductor-geoquery</strong></a> &gt;=2.50.0,&lt;2.51.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-keggandmetacoredzpathwaysgeo/README.html#package-bioconductor-keggandmetacoredzpathwaysgeo" title="bioconductor-keggandmetacoredzpathwaysgeo package"><strong>bioconductor-keggandmetacoredzpathwaysgeo</strong></a> &gt;=1.2.0,&lt;1.3.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-keggdzpathwaysgeo/README.html#package-bioconductor-keggdzpathwaysgeo" title="bioconductor-keggdzpathwaysgeo package"><strong>bioconductor-keggdzpathwaysgeo</strong></a> &gt;=1.20.0,&lt;1.21.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-s4vectors/README.html#package-bioconductor-s4vectors" title="bioconductor-s4vectors package"><strong>bioconductor-s4vectors</strong></a> &gt;=0.20.0,&lt;0.21.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-summarizedexperiment/README.html#package-bioconductor-summarizedexperiment" title="bioconductor-summarizedexperiment package"><strong>bioconductor-summarizedexperiment</strong></a> &gt;=1.12.0,&lt;1.13.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rappdirs-feedstock"><strong>r-rappdirs</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-annotationdbi</dt>
+<dd class="field-even"><p>&gt;=1.44.0,&lt;1.45.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends bioconductor-annotationhub</dt>
+<dd class="field-odd"><p>&gt;=2.14.0,&lt;2.15.0</p>
 </dd>
+<dt class="field-even">Depends bioconductor-biobase</dt>
+<dd class="field-even"><p>&gt;=2.42.0,&lt;2.43.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-biocfilecache</dt>
+<dd class="field-odd"><p>&gt;=1.6.0,&lt;1.7.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-biocparallel</dt>
+<dd class="field-even"><p>&gt;=1.16.0,&lt;1.17.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-edger</dt>
+<dd class="field-odd"><p>&gt;=3.24.0,&lt;3.25.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-enrichmentbrowser</dt>
+<dd class="field-even"><p>&gt;=2.12.0,&lt;2.13.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-experimenthub</dt>
+<dd class="field-odd"><p>&gt;=1.8.0,&lt;1.9.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-geoquery</dt>
+<dd class="field-even"><p>&gt;=2.50.0,&lt;2.51.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-keggandmetacoredzpathwaysgeo</dt>
+<dd class="field-odd"><p>&gt;=1.2.0,&lt;1.3.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-keggdzpathwaysgeo</dt>
+<dd class="field-even"><p>&gt;=1.20.0,&lt;1.21.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-s4vectors</dt>
+<dd class="field-odd"><p>&gt;=0.20.0,&lt;0.21.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-summarizedexperiment</dt>
+<dd class="field-even"><p>&gt;=1.12.0,&lt;1.13.0</p>
+</dd>
+<dt class="field-odd">Depends r-base</dt>
+<dd class="field-odd"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-even">Depends r-rappdirs</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -189,7 +212,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

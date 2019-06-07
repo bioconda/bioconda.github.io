@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="r-grbase">
 <dl class="recipe">
 <dt id="recipe-r-grbase">
-<em class="property">recipe </em><code class="descname">r-grbase</code><a class="headerlink" href="#recipe-r-grbase" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">r-grbase</code><a class="headerlink" href="#recipe-r-grbase" title="Permalink to this definition">¶</a></dt>
 <dd><p>The ‘gRbase’ package provides general features which are used by other graphical modelling packages, in particular by the packages ‘gRain’, ‘gRim’ and ‘gRc’. ‘gRbase’ contains several data sets relevant for use in connection with graphical models. Almost all data sets used in the book Graphical Models with R (2012) are contained in ‘gRbase’. ‘gRbase’ implements several graph algorithms (based mainly on representing graphs as adjacency matrices - either in the form of a standard matrix or a sparse matrix). Some graph algorithms are: (i) maximum cardinality search (for marked and unmarked graphs). (ii) moralize. (iii) triangulate. (iv) junction tree. ‘gRbase’ facilitates array operations, ‘gRbase’ implements functions for testing for conditional independence. ‘gRbase’ illustrates how hierarchical log-linear models may be implemented and describes concept of graphical meta data. These features, however, are not maintained anymore and remains in ‘gRbase’ only because there exists a paper describing these facilities: A Common Platform for Graphical Models in R: The ‘gRbase’ Package, Journal of Statistical Software, Vol 14, No 17, 2005. NOTICE Proper functionality of ‘gRbase’ requires that the packages graph, ‘Rgraphviz’ and ‘RBGL’ are installed from ‘bioconductor’; for installation instructions please refer to the web page given below.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,35 +123,40 @@
 
 <dl class="package">
 <dt id="package-r-grbase">
-<em class="property">package </em><code class="descname">r-grbase</code><a class="headerlink" href="#package-r-grbase" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">r-grbase</code><a class="headerlink" href="#package-r-grbase" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-grbase"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-grbase.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-grbase"><img alt="docker_r-grbase" src="https://quay.io/repository/biocontainers/r-grbase/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.8_3.4-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-graph/README.html#package-bioconductor-graph" title="bioconductor-graph package"><strong>bioconductor-graph</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-rbgl/README.html#package-bioconductor-rbgl" title="bioconductor-rbgl package"><strong>bioconductor-rbgl</strong></a></p></li>
-<li><p><strong>libgcc-ng</strong> &gt;=7.3.0</p></li>
-<li><p><strong>libstdcxx-ng</strong> &gt;=7.3.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-igraph-feedstock"><strong>r-igraph</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-magrittr-feedstock"><strong>r-magrittr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-matrix-feedstock"><strong>r-matrix</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rcpp-feedstock"><strong>r-rcpp</strong></a> &gt;=0.11.1</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rcpparmadillo-feedstock"><strong>r-rcpparmadillo</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rcppeigen-feedstock"><strong>r-rcppeigen</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-graph</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends bioconductor-rbgl</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends libgcc-ng</dt>
+<dd class="field-even"><p>&gt;=7.3.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-clipper/README.html#bioconductor-clipper"><strong class="xref backref">bioconductor-clipper</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-sponge/README.html#bioconductor-sponge"><strong class="xref backref">bioconductor-sponge</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../r-grain/README.html#r-grain"><strong class="xref backref">r-grain</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-cemitool/README.html#bioconductor-cemitool"><strong class="xref backref">bioconductor-cemitool</strong></a></p></li>
-</ul>
+<dt class="field-odd">Depends libstdcxx-ng</dt>
+<dd class="field-odd"><p>&gt;=7.3.0</p>
 </dd>
+<dt class="field-even">Depends r-base</dt>
+<dd class="field-even"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-odd">Depends r-igraph</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-magrittr</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-matrix</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-rcpp</dt>
+<dd class="field-even"><p>&gt;=0.11.1</p>
+</dd>
+<dt class="field-odd">Depends r-rcpparmadillo</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-rcppeigen</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -189,7 +194,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

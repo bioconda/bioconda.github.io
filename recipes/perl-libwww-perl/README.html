@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="perl-libwww-perl">
 <dl class="recipe">
 <dt id="recipe-perl-libwww-perl">
-<em class="property">recipe </em><code class="descname">perl-libwww-perl</code><a class="headerlink" href="#recipe-perl-libwww-perl" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">perl-libwww-perl</code><a class="headerlink" href="#recipe-perl-libwww-perl" title="Permalink to this definition">¶</a></dt>
 <dd><p>The World-Wide Web library for Perl</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,45 +123,52 @@
 
 <dl class="package">
 <dt id="package-perl-libwww-perl">
-<em class="property">package </em><code class="descname">perl-libwww-perl</code><a class="headerlink" href="#package-perl-libwww-perl" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">perl-libwww-perl</code><a class="headerlink" href="#package-perl-libwww-perl" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/perl-libwww-perl"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/perl-libwww-perl.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/perl-libwww-perl"><img alt="docker_perl-libwww-perl" src="https://quay.io/repository/biocontainers/perl-libwww-perl/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>6.36-1, 6.36-0, 6.15-1, 6.15-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> &gt;=5.26.2,&lt;5.26.3.0a0</p></li>
-<li><p><strong>perl-base</strong></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-digest-md5/README.html#package-perl-digest-md5" title="perl-digest-md5 package"><strong>perl-digest-md5</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-encode/README.html#package-perl-encode" title="perl-encode package"><strong>perl-encode</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-encode-locale/README.html#package-perl-encode-locale" title="perl-encode-locale package"><strong>perl-encode-locale</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-file-listing/README.html#package-perl-file-listing" title="perl-file-listing package"><strong>perl-file-listing</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-html-parser/README.html#package-perl-html-parser" title="perl-html-parser package"><strong>perl-html-parser</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-http-cookies/README.html#package-perl-http-cookies" title="perl-http-cookies package"><strong>perl-http-cookies</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-http-daemon/README.html#package-perl-http-daemon" title="perl-http-daemon package"><strong>perl-http-daemon</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-http-date/README.html#package-perl-http-date" title="perl-http-date package"><strong>perl-http-date</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-http-negotiate/README.html#package-perl-http-negotiate" title="perl-http-negotiate package"><strong>perl-http-negotiate</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-lwp-mediatypes/README.html#package-perl-lwp-mediatypes" title="perl-lwp-mediatypes package"><strong>perl-lwp-mediatypes</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-mime-base64/README.html#package-perl-mime-base64" title="perl-mime-base64 package"><strong>perl-mime-base64</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-net-http/README.html#package-perl-net-http" title="perl-net-http package"><strong>perl-net-http</strong></a> &gt;=6.07</p></li>
-<li><p><a class="conda-package reference internal" href="../perl-ntlm/README.html#package-perl-ntlm" title="perl-ntlm package"><strong>perl-ntlm</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-try-tiny/README.html#package-perl-try-tiny" title="perl-try-tiny package"><strong>perl-try-tiny</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-uri/README.html#package-perl-uri" title="perl-uri package"><strong>perl-uri</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-www-robotrules/README.html#package-perl-www-robotrules" title="perl-www-robotrules package"><strong>perl-www-robotrules</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends perl</dt>
+<dd class="field-even"><p>&gt;=5.26.2,&lt;5.26.3.0a0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../perl-lwp-protocol-https/README.html#perl-lwp-protocol-https"><strong class="xref backref">perl-lwp-protocol-https</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-xml-dom/README.html#perl-xml-dom"><strong class="xref backref">perl-xml-dom</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-digest-md5-file/README.html#perl-digest-md5-file"><strong class="xref backref">perl-digest-md5-file</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-soap-lite/README.html#perl-soap-lite"><strong class="xref backref">perl-soap-lite</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-www-mechanize/README.html#perl-www-mechanize"><strong class="xref backref">perl-www-mechanize</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../krakenuniq/README.html#krakenuniq"><strong class="xref backref">krakenuniq</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../irida-linker/README.html#irida-linker"><strong class="xref backref">irida-linker</strong></a></p></li>
-</ul>
+<dt class="field-odd">Depends perl-base</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-digest-md5</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-encode</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-encode-locale</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-file-listing</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-html-parser</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-http-cookies</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-http-daemon</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-http-date</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-http-negotiate</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-lwp-mediatypes</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-mime-base64</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-net-http</dt>
+<dd class="field-odd"><p>&gt;=6.07</p>
 </dd>
+<dt class="field-even">Depends perl-ntlm</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-try-tiny</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-uri</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-www-robotrules</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -199,7 +206,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

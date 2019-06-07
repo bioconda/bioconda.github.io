@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="xyalign">
 <dl class="recipe">
 <dt id="recipe-xyalign">
-<em class="property">recipe </em><code class="descname">xyalign</code><a class="headerlink" href="#recipe-xyalign" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">xyalign</code><a class="headerlink" href="#recipe-xyalign" title="Permalink to this definition">¶</a></dt>
 <dd><p>Command line tools and python library to infer ploidy, correct for sex chromosome complement, and work with NGS data</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,33 +123,41 @@
 
 <dl class="package">
 <dt id="package-xyalign">
-<em class="property">package </em><code class="descname">xyalign</code><a class="headerlink" href="#package-xyalign" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">xyalign</code><a class="headerlink" href="#package-xyalign" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/xyalign"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/xyalign.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/xyalign"><img alt="docker_xyalign" src="https://quay.io/repository/biocontainers/xyalign/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.1.5-0, 1.1.4-2, 1.1.4-0, 1.1.3-0, 1.0.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bbmap/README.html#package-bbmap" title="bbmap package"><strong>bbmap</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bedtools/README.html#package-bedtools" title="bedtools package"><strong>bedtools</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bwa/README.html#package-bwa" title="bwa package"><strong>bwa</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/matplotlib-feedstock"><strong>matplotlib</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../platypus-variant/README.html#package-platypus-variant" title="platypus-variant package"><strong>platypus-variant</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../pybedtools/README.html#package-pybedtools" title="pybedtools package"><strong>pybedtools</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../pysam/README.html#package-pysam" title="pysam package"><strong>pysam</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &lt;3</p></li>
-<li><p><a class="conda-package reference internal" href="../sambamba/README.html#package-sambamba" title="sambamba package"><strong>sambamba</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scipy-feedstock"><strong>scipy</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bbmap</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends bedtools</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends bwa</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends matplotlib</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends numpy</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends pandas</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends platypus-variant</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends pybedtools</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends pysam</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends python</dt>
+<dd class="field-odd"><p>&lt;3</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
-</dd>
+<dt class="field-even">Depends sambamba</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends samtools</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends scipy</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -187,7 +195,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

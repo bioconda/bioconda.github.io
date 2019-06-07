@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-fmcsr">
 <dl class="recipe">
 <dt id="recipe-bioconductor-fmcsr">
-<em class="property">recipe </em><code class="descname">bioconductor-fmcsr</code><a class="headerlink" href="#recipe-bioconductor-fmcsr" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-fmcsr</code><a class="headerlink" href="#recipe-bioconductor-fmcsr" title="Permalink to this definition">¶</a></dt>
 <dd><p>The fmcsR package introduces an efficient maximum common substructure (MCS) algorithms combined with a novel matching strategy that allows for atom and/or bond mismatches in the substructures shared among two small molecules. The resulting flexible MCSs (FMCSs) are often larger than strict MCSs, resulting in the identification of more common features in their source structures, as well as a higher sensitivity in finding compounds with weak structural similarities. The fmcsR package provides several utilities to use the FMCS algorithm for pairwise compound comparisons, structure similarity searching and clustering.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,27 +123,31 @@
 
 <dl class="package">
 <dt id="package-bioconductor-fmcsr">
-<em class="property">package </em><code class="descname">bioconductor-fmcsr</code><a class="headerlink" href="#package-bioconductor-fmcsr" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-fmcsr</code><a class="headerlink" href="#package-bioconductor-fmcsr" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-fmcsr"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-fmcsr.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-fmcsr"><img alt="docker_bioconductor-fmcsr" src="https://quay.io/repository/biocontainers/bioconductor-fmcsr/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.24.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-biocgenerics/README.html#package-bioconductor-biocgenerics" title="bioconductor-biocgenerics package"><strong>bioconductor-biocgenerics</strong></a> &gt;=0.28.0,&lt;0.29.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-chemminer/README.html#package-bioconductor-chemminer" title="bioconductor-chemminer package"><strong>bioconductor-chemminer</strong></a> &gt;=3.34.0,&lt;3.35.0</p></li>
-<li><p><strong>libgcc-ng</strong> &gt;=7.3.0</p></li>
-<li><p><strong>libstdcxx-ng</strong> &gt;=7.3.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-runit-feedstock"><strong>r-runit</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-biocgenerics</dt>
+<dd class="field-even"><p>&gt;=0.28.0,&lt;0.29.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-rcpi/README.html#bioconductor-rcpi"><strong class="xref backref">bioconductor-rcpi</strong></a></p></li>
-</ul>
+<dt class="field-odd">Depends bioconductor-chemminer</dt>
+<dd class="field-odd"><p>&gt;=3.34.0,&lt;3.35.0</p>
 </dd>
+<dt class="field-even">Depends libgcc-ng</dt>
+<dd class="field-even"><p>&gt;=7.3.0</p>
+</dd>
+<dt class="field-odd">Depends libstdcxx-ng</dt>
+<dd class="field-odd"><p>&gt;=7.3.0</p>
+</dd>
+<dt class="field-even">Depends r-base</dt>
+<dd class="field-even"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-odd">Depends r-runit</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -181,7 +185,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

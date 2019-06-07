@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="perl-bio-eutilities">
 <dl class="recipe">
 <dt id="recipe-perl-bio-eutilities">
-<em class="property">recipe </em><code class="descname">perl-bio-eutilities</code><a class="headerlink" href="#recipe-perl-bio-eutilities" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">perl-bio-eutilities</code><a class="headerlink" href="#recipe-perl-bio-eutilities" title="Permalink to this definition">¶</a></dt>
 <dd><p>Webagent which interacts with and retrieves data from NCBI eUtils.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,43 +123,59 @@
 
 <dl class="package">
 <dt id="package-perl-bio-eutilities">
-<em class="property">package </em><code class="descname">perl-bio-eutilities</code><a class="headerlink" href="#package-perl-bio-eutilities" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">perl-bio-eutilities</code><a class="headerlink" href="#package-perl-bio-eutilities" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/perl-bio-eutilities"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/perl-bio-eutilities.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/perl-bio-eutilities"><img alt="docker_perl-bio-eutilities" src="https://quay.io/repository/biocontainers/perl-bio-eutilities/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.75-2, 1.75-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> &gt;=5.26.2,&lt;5.26.3.0a0</p></li>
-<li><p><a class="conda-package reference internal" href="../perl-bio-asn1-entrezgene/README.html#package-perl-bio-asn1-entrezgene" title="perl-bio-asn1-entrezgene package"><strong>perl-bio-asn1-entrezgene</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-bioperl/README.html#package-perl-bioperl" title="perl-bioperl package"><strong>perl-bioperl</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-capture-tiny/README.html#package-perl-capture-tiny" title="perl-capture-tiny package"><strong>perl-capture-tiny</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-class-data-inheritable/README.html#package-perl-class-data-inheritable" title="perl-class-data-inheritable package"><strong>perl-class-data-inheritable</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-data-stag/README.html#package-perl-data-stag" title="perl-data-stag package"><strong>perl-data-stag</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-devel-stacktrace/README.html#package-perl-devel-stacktrace" title="perl-devel-stacktrace package"><strong>perl-devel-stacktrace</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-exception-class/README.html#package-perl-exception-class" title="perl-exception-class package"><strong>perl-exception-class</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-sub-uplevel/README.html#package-perl-sub-uplevel" title="perl-sub-uplevel package"><strong>perl-sub-uplevel</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-test-deep/README.html#package-perl-test-deep" title="perl-test-deep package"><strong>perl-test-deep</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-test-differences/README.html#package-perl-test-differences" title="perl-test-differences package"><strong>perl-test-differences</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-test-exception/README.html#package-perl-test-exception" title="perl-test-exception package"><strong>perl-test-exception</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-test-most/README.html#package-perl-test-most" title="perl-test-most package"><strong>perl-test-most</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-test-simple/README.html#package-perl-test-simple" title="perl-test-simple package"><strong>perl-test-simple</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-test-warn/README.html#package-perl-test-warn" title="perl-test-warn package"><strong>perl-test-warn</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-text-csv/README.html#package-perl-text-csv" title="perl-text-csv package"><strong>perl-text-csv</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-text-diff/README.html#package-perl-text-diff" title="perl-text-diff package"><strong>perl-text-diff</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-xml-namespacesupport/README.html#package-perl-xml-namespacesupport" title="perl-xml-namespacesupport package"><strong>perl-xml-namespacesupport</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-xml-sax/README.html#package-perl-xml-sax" title="perl-xml-sax package"><strong>perl-xml-sax</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-xml-sax-base/README.html#package-perl-xml-sax-base" title="perl-xml-sax-base package"><strong>perl-xml-sax-base</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-xml-sax-expat/README.html#package-perl-xml-sax-expat" title="perl-xml-sax-expat package"><strong>perl-xml-sax-expat</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-xml-simple/README.html#package-perl-xml-simple" title="perl-xml-simple package"><strong>perl-xml-simple</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends perl</dt>
+<dd class="field-even"><p>&gt;=5.26.2,&lt;5.26.3.0a0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../coprarna/README.html#coprarna"><strong class="xref backref">coprarna</strong></a></p></li>
-</ul>
-</dd>
+<dt class="field-odd">Depends perl-bio-asn1-entrezgene</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-bioperl</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-capture-tiny</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-class-data-inheritable</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-data-stag</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-devel-stacktrace</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-exception-class</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-sub-uplevel</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-test-deep</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-test-differences</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-test-exception</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-test-most</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-test-simple</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-test-warn</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-text-csv</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-text-diff</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-xml-namespacesupport</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-xml-sax</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-xml-sax-base</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-xml-sax-expat</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-xml-simple</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -197,7 +213,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

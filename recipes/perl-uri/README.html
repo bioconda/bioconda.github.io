@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="perl-uri">
 <dl class="recipe">
 <dt id="recipe-perl-uri">
-<em class="property">recipe </em><code class="descname">perl-uri</code><a class="headerlink" href="#recipe-perl-uri" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">perl-uri</code><a class="headerlink" href="#recipe-perl-uri" title="Permalink to this definition">¶</a></dt>
 <dd><p>Uniform Resource Identifiers (absolute and relative)</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,46 +123,33 @@
 
 <dl class="package">
 <dt id="package-perl-uri">
-<em class="property">package </em><code class="descname">perl-uri</code><a class="headerlink" href="#package-perl-uri" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">perl-uri</code><a class="headerlink" href="#package-perl-uri" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/perl-uri"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/perl-uri.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/perl-uri"><img alt="docker_perl-uri" src="https://quay.io/repository/biocontainers/perl-uri/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.76-0, 1.74-0, 1.71-3, 1.71-2, 1.71-1, 1.71-0, 1.69-7, 1.69-6, 1.69-5, 1.69-4, 1.69-3, 1.69-2, 1.69-1, 1.69-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> &gt;=5.26.2,&lt;5.26.3.0a0</p></li>
-<li><p><a class="conda-package reference internal" href="../perl-business-isbn/README.html#package-perl-business-isbn" title="perl-business-isbn package"><strong>perl-business-isbn</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-carp/README.html#package-perl-carp" title="perl-carp package"><strong>perl-carp</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-constant/README.html#package-perl-constant" title="perl-constant package"><strong>perl-constant</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-data-dumper/README.html#package-perl-data-dumper" title="perl-data-dumper package"><strong>perl-data-dumper</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-encode/README.html#package-perl-encode" title="perl-encode package"><strong>perl-encode</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-exporter/README.html#package-perl-exporter" title="perl-exporter package"><strong>perl-exporter</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-mime-base64/README.html#package-perl-mime-base64" title="perl-mime-base64 package"><strong>perl-mime-base64</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-parent/README.html#package-perl-parent" title="perl-parent package"><strong>perl-parent</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends perl</dt>
+<dd class="field-even"><p>&gt;=5.26.2,&lt;5.26.3.0a0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../star-fusion/README.html#star-fusion"><strong class="xref backref">star-fusion</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-html-form/README.html#perl-html-form"><strong class="xref backref">perl-html-form</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../wgs2ncbi/README.html#wgs2ncbi"><strong class="xref backref">wgs2ncbi</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../entrez-direct/README.html#entrez-direct"><strong class="xref backref">entrez-direct</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-net-http/README.html#perl-net-http"><strong class="xref backref">perl-net-http</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-bio-phylo/README.html#perl-bio-phylo"><strong class="xref backref">perl-bio-phylo</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-libwww-perl/README.html#perl-libwww-perl"><strong class="xref backref">perl-libwww-perl</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-soap-lite/README.html#perl-soap-lite"><strong class="xref backref">perl-soap-lite</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../fusion-inspector/README.html#fusion-inspector"><strong class="xref backref">fusion-inspector</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-www-robotrules/README.html#perl-www-robotrules"><strong class="xref backref">perl-www-robotrules</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../jbrowse/README.html#jbrowse"><strong class="xref backref">jbrowse</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-bio-featureio/README.html#perl-bio-featureio"><strong class="xref backref">perl-bio-featureio</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-bio-gff3/README.html#perl-bio-gff3"><strong class="xref backref">perl-bio-gff3</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../fusion-filter/README.html#fusion-filter"><strong class="xref backref">fusion-filter</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../transdecoder/README.html#transdecoder"><strong class="xref backref">transdecoder</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-http-message/README.html#perl-http-message"><strong class="xref backref">perl-http-message</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../pasa/README.html#pasa"><strong class="xref backref">pasa</strong></a></p></li>
-</ul>
-</dd>
+<dt class="field-odd">Depends perl-business-isbn</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-carp</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-constant</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-data-dumper</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-encode</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-exporter</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-mime-base64</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-parent</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -200,7 +187,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

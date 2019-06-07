@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-cardinal">
 <dl class="recipe">
 <dt id="recipe-bioconductor-cardinal">
-<em class="property">recipe </em><code class="descname">bioconductor-cardinal</code><a class="headerlink" href="#recipe-bioconductor-cardinal" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-cardinal</code><a class="headerlink" href="#recipe-bioconductor-cardinal" title="Permalink to this definition">¶</a></dt>
 <dd><p>Implements statistical &amp; computational tools for analyzing mass spectrometry imaging datasets, including methods for efficient pre-processing, spatial segmentation, and classification.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -126,37 +126,56 @@
 
 <dl class="package">
 <dt id="package-bioconductor-cardinal">
-<em class="property">package </em><code class="descname">bioconductor-cardinal</code><a class="headerlink" href="#package-bioconductor-cardinal" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-cardinal</code><a class="headerlink" href="#package-bioconductor-cardinal" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-cardinal"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-cardinal.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-cardinal"><img alt="docker_bioconductor-cardinal" src="https://quay.io/repository/biocontainers/bioconductor-cardinal/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>2.0.4-0, 2.0.2-0, 1.12.1-1, 1.12.1-0, 1.10.0-0, 1.8.0-0, 1.7.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-biobase/README.html#package-bioconductor-biobase" title="bioconductor-biobase package"><strong>bioconductor-biobase</strong></a> &gt;=2.42.0,&lt;2.43.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-biocgenerics/README.html#package-bioconductor-biocgenerics" title="bioconductor-biocgenerics package"><strong>bioconductor-biocgenerics</strong></a> &gt;=0.28.0,&lt;0.29.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-biocparallel/README.html#package-bioconductor-biocparallel" title="bioconductor-biocparallel package"><strong>bioconductor-biocparallel</strong></a> &gt;=1.16.0,&lt;1.17.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-ebimage/README.html#package-bioconductor-ebimage" title="bioconductor-ebimage package"><strong>bioconductor-ebimage</strong></a> &gt;=4.24.0,&lt;4.25.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-matter/README.html#package-bioconductor-matter" title="bioconductor-matter package"><strong>bioconductor-matter</strong></a> &gt;=1.8.0,&lt;1.9.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-protgenerics/README.html#package-bioconductor-protgenerics" title="bioconductor-protgenerics package"><strong>bioconductor-protgenerics</strong></a> &gt;=1.14.0,&lt;1.15.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-s4vectors/README.html#package-bioconductor-s4vectors" title="bioconductor-s4vectors package"><strong>bioconductor-s4vectors</strong></a> &gt;=0.20.0,&lt;0.21.0</p></li>
-<li><p><strong>libgcc-ng</strong> &gt;=7.3.0</p></li>
-<li><p><strong>libstdcxx-ng</strong> &gt;=7.3.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-dplyr-feedstock"><strong>r-dplyr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-irlba-feedstock"><strong>r-irlba</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-lattice-feedstock"><strong>r-lattice</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-magrittr-feedstock"><strong>r-magrittr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-signal-feedstock"><strong>r-signal</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-sp-feedstock"><strong>r-sp</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-biobase</dt>
+<dd class="field-even"><p>&gt;=2.42.0,&lt;2.43.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-cardinalworkflows/README.html#bioconductor-cardinalworkflows"><strong class="xref backref">bioconductor-cardinalworkflows</strong></a></p></li>
-</ul>
+<dt class="field-odd">Depends bioconductor-biocgenerics</dt>
+<dd class="field-odd"><p>&gt;=0.28.0,&lt;0.29.0</p>
 </dd>
+<dt class="field-even">Depends bioconductor-biocparallel</dt>
+<dd class="field-even"><p>&gt;=1.16.0,&lt;1.17.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-ebimage</dt>
+<dd class="field-odd"><p>&gt;=4.24.0,&lt;4.25.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-matter</dt>
+<dd class="field-even"><p>&gt;=1.8.0,&lt;1.9.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-protgenerics</dt>
+<dd class="field-odd"><p>&gt;=1.14.0,&lt;1.15.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-s4vectors</dt>
+<dd class="field-even"><p>&gt;=0.20.0,&lt;0.21.0</p>
+</dd>
+<dt class="field-odd">Depends libgcc-ng</dt>
+<dd class="field-odd"><p>&gt;=7.3.0</p>
+</dd>
+<dt class="field-even">Depends libstdcxx-ng</dt>
+<dd class="field-even"><p>&gt;=7.3.0</p>
+</dd>
+<dt class="field-odd">Depends r-base</dt>
+<dd class="field-odd"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-even">Depends r-dplyr</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-irlba</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-lattice</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-magrittr</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-signal</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-sp</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -194,7 +213,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

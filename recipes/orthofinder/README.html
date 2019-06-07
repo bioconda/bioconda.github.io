@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="orthofinder">
 <dl class="recipe">
 <dt id="recipe-orthofinder">
-<em class="property">recipe </em><code class="descname">orthofinder</code><a class="headerlink" href="#recipe-orthofinder" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">orthofinder</code><a class="headerlink" href="#recipe-orthofinder" title="Permalink to this definition">¶</a></dt>
 <dd><p>Accurate inference of orthogroups, orthologues, gene trees and rooted species tree made easy!</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,35 +123,43 @@
 
 <dl class="package">
 <dt id="package-orthofinder">
-<em class="property">package </em><code class="descname">orthofinder</code><a class="headerlink" href="#package-orthofinder" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">orthofinder</code><a class="headerlink" href="#package-orthofinder" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/orthofinder"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/orthofinder.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/orthofinder"><img alt="docker_orthofinder" src="https://quay.io/repository/biocontainers/orthofinder/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>2.3.3-0, 2.2.7-0, 2.2.6-0, 2.2.1-0, 2.2.0-0, 2.1.2-1, 2.1.2-0, 1.1.10-0, 1.1.8-0, 1.1.4-0, 1.1.2-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../blast/README.html#package-blast" title="blast package"><strong>blast</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/bzip2-feedstock"><strong>bzip2</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../diamond/README.html#package-diamond" title="diamond package"><strong>diamond</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../dlcpar/README.html#package-dlcpar" title="dlcpar package"><strong>dlcpar</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../fastme/README.html#package-fastme" title="fastme package"><strong>fastme</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../fasttree/README.html#package-fasttree" title="fasttree package"><strong>fasttree</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../iqtree/README.html#package-iqtree" title="iqtree package"><strong>iqtree</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../mafft/README.html#package-mafft" title="mafft package"><strong>mafft</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../mcl/README.html#package-mcl" title="mcl package"><strong>mcl</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../mmseqs2/README.html#package-mmseqs2" title="mmseqs2 package"><strong>mmseqs2</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../muscle/README.html#package-muscle" title="muscle package"><strong>muscle</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> 2.7.*</p></li>
-<li><p><a class="conda-package reference internal" href="../raxml/README.html#package-raxml" title="raxml package"><strong>raxml</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scipy-feedstock"><strong>scipy</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends blast</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends bzip2</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends diamond</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends dlcpar</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends fastme</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends fasttree</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends iqtree</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends mafft</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends mcl</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends mmseqs2</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends muscle</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends python</dt>
+<dd class="field-odd"><p>2.7.*</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../pgcgap/README.html#pgcgap"><strong class="xref backref">pgcgap</strong></a></p></li>
-</ul>
-</dd>
+<dt class="field-even">Depends raxml</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends scipy</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -189,7 +197,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

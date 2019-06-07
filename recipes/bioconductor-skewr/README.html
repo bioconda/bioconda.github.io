@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-skewr">
 <dl class="recipe">
 <dt id="recipe-bioconductor-skewr">
-<em class="property">recipe </em><code class="descname">bioconductor-skewr</code><a class="headerlink" href="#recipe-bioconductor-skewr" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-skewr</code><a class="headerlink" href="#recipe-bioconductor-skewr" title="Permalink to this definition">¶</a></dt>
 <dd><p>The skewr package is a tool for visualizing the output of the Illumina Human Methylation 450k BeadChip to aid in quality control. It creates a panel of nine plots. Six of the plots represent the density of either the methylated intensity or the unmethylated intensity given by one of three subsets of the 485,577 total probes. These subsets include Type I-red, Type I-green, and Type II.The remaining three distributions give the density of the Beta-values for these same three subsets. Each of the nine plots optionally displays the distributions of the “rs” SNP probes and the probes associated with imprinted genes as series of ‘tick’ marks located above the x-axis.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,28 +123,36 @@
 
 <dl class="package">
 <dt id="package-bioconductor-skewr">
-<em class="property">package </em><code class="descname">bioconductor-skewr</code><a class="headerlink" href="#package-bioconductor-skewr" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-skewr</code><a class="headerlink" href="#package-bioconductor-skewr" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-skewr"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-skewr.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-skewr"><img alt="docker_bioconductor-skewr" src="https://quay.io/repository/biocontainers/bioconductor-skewr/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.14.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-illuminahumanmethylation450kmanifest/README.html#package-bioconductor-illuminahumanmethylation450kmanifest" title="bioconductor-illuminahumanmethylation450kmanifest package"><strong>bioconductor-illuminahumanmethylation450kmanifest</strong></a> &gt;=0.4.0,&lt;0.5.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-methylumi/README.html#package-bioconductor-methylumi" title="bioconductor-methylumi package"><strong>bioconductor-methylumi</strong></a> &gt;=2.28.0,&lt;2.29.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-minfi/README.html#package-bioconductor-minfi" title="bioconductor-minfi package"><strong>bioconductor-minfi</strong></a> &gt;=1.28.0,&lt;1.29.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-s4vectors/README.html#package-bioconductor-s4vectors" title="bioconductor-s4vectors package"><strong>bioconductor-s4vectors</strong></a> &gt;=0.20.0,&lt;0.21.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-watermelon/README.html#package-bioconductor-watermelon" title="bioconductor-watermelon package"><strong>bioconductor-watermelon</strong></a> &gt;=1.26.0,&lt;1.27.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-mixsmsn-feedstock"><strong>r-mixsmsn</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rcolorbrewer-feedstock"><strong>r-rcolorbrewer</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-illuminahumanmethylation450kmanifest</dt>
+<dd class="field-even"><p>&gt;=0.4.0,&lt;0.5.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends bioconductor-methylumi</dt>
+<dd class="field-odd"><p>&gt;=2.28.0,&lt;2.29.0</p>
 </dd>
+<dt class="field-even">Depends bioconductor-minfi</dt>
+<dd class="field-even"><p>&gt;=1.28.0,&lt;1.29.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-s4vectors</dt>
+<dd class="field-odd"><p>&gt;=0.20.0,&lt;0.21.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-watermelon</dt>
+<dd class="field-even"><p>&gt;=1.26.0,&lt;1.27.0</p>
+</dd>
+<dt class="field-odd">Depends r-base</dt>
+<dd class="field-odd"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-even">Depends r-mixsmsn</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-rcolorbrewer</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -182,7 +190,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

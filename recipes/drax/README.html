@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="drax">
 <dl class="recipe">
 <dt id="recipe-drax">
-<em class="property">recipe </em><code class="descname">drax</code><a class="headerlink" href="#recipe-drax" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">drax</code><a class="headerlink" href="#recipe-drax" title="Permalink to this definition">¶</a></dt>
 <dd><p>A pipeline for Detecting Resistome Associated taXa.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,32 +123,50 @@
 
 <dl class="package">
 <dt id="package-drax">
-<em class="property">package </em><code class="descname">drax</code><a class="headerlink" href="#package-drax" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">drax</code><a class="headerlink" href="#package-drax" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/drax"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/drax.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/drax"><img alt="docker_drax" src="https://quay.io/repository/biocontainers/drax/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>0.0.0-2, 0.0.0-1, 0.0.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bbmap/README.html#package-bbmap" title="bbmap package"><strong>bbmap</strong></a> 37.90</p></li>
-<li><p><a class="conda-package reference internal" href="../fastp/README.html#package-fastp" title="fastp package"><strong>fastp</strong></a> 0.12.4</p></li>
-<li><p><a class="conda-package reference internal" href="../fastqc/README.html#package-fastqc" title="fastqc package"><strong>fastqc</strong></a> 0.11.7</p></li>
-<li><p><a class="conda-package reference internal" href="../groot/README.html#package-groot" title="groot package"><strong>groot</strong></a> 0.5</p></li>
-<li><p><a class="conda-package reference internal" href="../kaiju/README.html#package-kaiju" title="kaiju package"><strong>kaiju</strong></a> 1.6.2</p></li>
-<li><p><a class="conda-package reference internal" href="../krona/README.html#package-krona" title="krona package"><strong>krona</strong></a> 2.7</p></li>
-<li><p><a class="conda-package reference internal" href="../metacherchant/README.html#package-metacherchant" title="metacherchant package"><strong>metacherchant</strong></a> 0.1.0</p></li>
-<li><p><a class="conda-package reference internal" href="../multiqc/README.html#package-multiqc" title="multiqc package"><strong>multiqc</strong></a> 1.4</p></li>
-<li><p><a class="conda-package reference internal" href="../nextflow/README.html#package-nextflow" title="nextflow package"><strong>nextflow</strong></a> 0.27.6</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-essentials-feedstock"><strong>r-essentials</strong></a> 1.7.0</p></li>
-<li><p><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a> 1.4</p></li>
-<li><p><a class="conda-package reference internal" href="../seqkit/README.html#package-seqkit" title="seqkit package"><strong>seqkit</strong></a> 0.7.2</p></li>
-</ul>
+<dt class="field-even">Depends bbmap</dt>
+<dd class="field-even"><p>37.90</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends fastp</dt>
+<dd class="field-odd"><p>0.12.4</p>
 </dd>
+<dt class="field-even">Depends fastqc</dt>
+<dd class="field-even"><p>0.11.7</p>
+</dd>
+<dt class="field-odd">Depends groot</dt>
+<dd class="field-odd"><p>0.5</p>
+</dd>
+<dt class="field-even">Depends kaiju</dt>
+<dd class="field-even"><p>1.6.2</p>
+</dd>
+<dt class="field-odd">Depends krona</dt>
+<dd class="field-odd"><p>2.7</p>
+</dd>
+<dt class="field-even">Depends metacherchant</dt>
+<dd class="field-even"><p>0.1.0</p>
+</dd>
+<dt class="field-odd">Depends multiqc</dt>
+<dd class="field-odd"><p>1.4</p>
+</dd>
+<dt class="field-even">Depends nextflow</dt>
+<dd class="field-even"><p>0.27.6</p>
+</dd>
+<dt class="field-odd">Depends r-essentials</dt>
+<dd class="field-odd"><p>1.7.0</p>
+</dd>
+<dt class="field-even">Depends samtools</dt>
+<dd class="field-even"><p>1.4</p>
+</dd>
+<dt class="field-odd">Depends seqkit</dt>
+<dd class="field-odd"><p>0.7.2</p>
+</dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -186,7 +204,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

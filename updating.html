@@ -96,10 +96,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -245,9 +245,9 @@ loop starts.</p></li>
 <li><p>The scanner checks all recipes. Because it has the <a class="reference internal" href="_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.UpdateVersion" title="bioconda_utils.autobump.UpdateVersion"><code class="xref any py py-class docutils literal notranslate"><span class="pre">UpdateVersion</span></code></a>
 filter added, and because an <a class="reference internal" href="_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.UpdateVersion" title="bioconda_utils.autobump.UpdateVersion"><code class="xref any py py-class docutils literal notranslate"><span class="pre">UpdateVersion</span></code></a> filter will check a recipe
 against all configured hosters, a Bioconductor recipe will match the above
-<a class="reference internal" href="_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.url_pattern" title="bioconda_utils.hosters.Hoster.url_pattern"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">Hoster.url_pattern</span></code></a> for the <a class="reference internal" href="_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Bioconductor" title="bioconda_utils.hosters.Bioconductor"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Bioconductor</span></code></a> hoster.</p></li>
+<a class="reference internal" href="_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.url_pattern" title="bioconda_utils.hosters.Hoster.url_pattern"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">Hoster.url_pattern</span></code></a> for the <a class="reference internal" href="_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Bioconductor" title="bioconda_utils.hosters.Bioconductor"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Bioconductor</span></code></a> hoster.</p></li>
 <li><p>The hoster object will go to the site specified by <code class="docutils literal notranslate"><span class="pre">releases_format</span></code> and
-scrape links that match <a class="reference internal" href="_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.link_pattern" title="bioconda_utils.hosters.Hoster.link_pattern"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">Hoster.link_pattern</span></code></a>.</p></li>
+scrape links that match <a class="reference internal" href="_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.link_pattern" title="bioconda_utils.hosters.Hoster.link_pattern"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">Hoster.link_pattern</span></code></a>.</p></li>
 <li><p>The <a class="reference internal" href="_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.UpdateVersion" title="bioconda_utils.autobump.UpdateVersion"><code class="xref any py py-class docutils literal notranslate"><span class="pre">UpdateVersion</span></code></a> filter will inspect those links found by the hoster,
 figure out which is the most recent, and see if the existing recipe is
 up-to-date. If a more recent link was found, use that and write the new
@@ -320,7 +320,7 @@ Changes not staged <span class="k">for</span> commit:
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

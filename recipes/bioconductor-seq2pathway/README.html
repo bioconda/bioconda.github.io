@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-seq2pathway">
 <dl class="recipe">
 <dt id="recipe-bioconductor-seq2pathway">
-<em class="property">recipe </em><code class="descname">bioconductor-seq2pathway</code><a class="headerlink" href="#recipe-bioconductor-seq2pathway" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-seq2pathway</code><a class="headerlink" href="#recipe-bioconductor-seq2pathway" title="Permalink to this definition">¶</a></dt>
 <dd><p>Seq2pathway is a novel tool for functional gene-set (or termed as pathway) analysis of next-generation sequencing data, consisting of “seq2gene” and “gene2path” components. The seq2gene links sequence-level measurements of genomic regions (including SNPs or point mutation coordinates) to gene-level scores, and the gene2pathway summarizes gene scores to pathway-scores for each sample. The seq2gene has the feasibility to assign both coding and non-exon regions to a broader range of neighboring genes than only the nearest one, thus facilitating the study of functional non-coding regions. The gene2pathway takes into account the quantity of significance for gene members within a pathway compared those outside a pathway. The output of seq2pathway is a general structure of quantitative pathway-level scores, thus allowing one to functional interpret such datasets as RNA-seq, ChIP-seq, GWAS, and derived from other next generational sequencing experiments.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -126,27 +126,32 @@
 
 <dl class="package">
 <dt id="package-bioconductor-seq2pathway">
-<em class="property">package </em><code class="descname">bioconductor-seq2pathway</code><a class="headerlink" href="#package-bioconductor-seq2pathway" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-seq2pathway</code><a class="headerlink" href="#package-bioconductor-seq2pathway" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-seq2pathway"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-seq2pathway.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-seq2pathway"><img alt="docker_bioconductor-seq2pathway" src="https://quay.io/repository/biocontainers/bioconductor-seq2pathway/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.14.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-biomart/README.html#package-bioconductor-biomart" title="bioconductor-biomart package"><strong>bioconductor-biomart</strong></a> &gt;=2.38.0,&lt;2.39.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-genomicranges/README.html#package-bioconductor-genomicranges" title="bioconductor-genomicranges package"><strong>bioconductor-genomicranges</strong></a> &gt;=1.34.0,&lt;1.35.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-seq2pathway.data/README.html#package-bioconductor-seq2pathway.data" title="bioconductor-seq2pathway.data package"><strong>bioconductor-seq2pathway.data</strong></a> &gt;=1.14.0,&lt;1.15.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-gsa-feedstock"><strong>r-gsa</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-nnet-feedstock"><strong>r-nnet</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../r-wgcna/README.html#package-r-wgcna" title="r-wgcna package"><strong>r-wgcna</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-biomart</dt>
+<dd class="field-even"><p>&gt;=2.38.0,&lt;2.39.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends bioconductor-genomicranges</dt>
+<dd class="field-odd"><p>&gt;=1.34.0,&lt;1.35.0</p>
 </dd>
+<dt class="field-even">Depends bioconductor-seq2pathway.data</dt>
+<dd class="field-even"><p>&gt;=1.14.0,&lt;1.15.0</p>
+</dd>
+<dt class="field-odd">Depends r-base</dt>
+<dd class="field-odd"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-even">Depends r-gsa</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-nnet</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-wgcna</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -184,7 +189,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

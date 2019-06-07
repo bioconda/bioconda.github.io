@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -160,7 +160,7 @@
         <span class="k">else</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">fork_remote</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">home_remote</span>
 
-        <span class="c1">#: Semaphore for things that mess with workding directory</span>
+        <span class="c1">#: Semaphore for things that mess with working directory</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">lock_working_dir</span> <span class="o">=</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">Semaphore</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
 
 <div class="viewcode-block" id="GitHandlerBase.close"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.close">[docs]</a>    <span class="k">def</span> <span class="nf">close</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -235,12 +235,32 @@
             <span class="k">pass</span>
         <span class="k">return</span> <span class="kc">None</span></div>
 
+<div class="viewcode-block" id="GitHandlerBase.is_sha"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.is_sha">[docs]</a>    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">is_sha</span><span class="p">(</span><span class="n">ref</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Checks if **ref** is a commit checksum</span>
+
+<span class="sd">        Verifies that **ref** is a hex value of length 40</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">ref</span><span class="p">)</span> <span class="o">==</span> <span class="mi">40</span><span class="p">:</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="nb">int</span><span class="p">(</span><span class="n">ref</span><span class="p">,</span> <span class="mi">16</span><span class="p">)</span>
+                <span class="k">return</span> <span class="kc">True</span>
+            <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
+                <span class="k">pass</span>
+        <span class="k">return</span> <span class="kc">False</span></div>
+
 <div class="viewcode-block" id="GitHandlerBase.get_remote_branch"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.get_remote_branch">[docs]</a>    <span class="k">def</span> <span class="nf">get_remote_branch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">try_fetch</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Finds fork remote branch named **branch_name**&quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="n">branch_name</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">fork_remote</span><span class="o">.</span><span class="n">refs</span><span class="p">:</span>
             <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">fork_remote</span><span class="o">.</span><span class="n">refs</span><span class="p">[</span><span class="n">branch_name</span><span class="p">]</span>
+
+        <span class="c1"># only do slow fetch attempts for SHA refs</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">is_sha</span><span class="p">(</span><span class="n">branch_name</span><span class="p">):</span>
+            <span class="k">return</span> <span class="kc">None</span>
+
         <span class="n">depths</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">200</span><span class="p">)</span> <span class="k">if</span> <span class="n">try_fetch</span> <span class="k">else</span> <span class="p">(</span><span class="kc">None</span><span class="p">,)</span>
         <span class="k">for</span> <span class="n">depth</span> <span class="ow">in</span> <span class="n">depths</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Trying depth </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">depth</span><span class="p">)</span>
             <span class="k">try</span><span class="p">:</span>
                 <span class="k">if</span> <span class="n">depth</span><span class="p">:</span>
                     <span class="bp">self</span><span class="o">.</span><span class="n">fork_remote</span><span class="o">.</span><span class="n">fetch</span><span class="p">(</span><span class="n">depth</span><span class="o">=</span><span class="n">depth</span><span class="p">)</span>
@@ -695,7 +715,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>

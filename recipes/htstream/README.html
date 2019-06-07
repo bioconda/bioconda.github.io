@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="htstream">
 <dl class="recipe">
 <dt id="recipe-htstream">
-<em class="property">recipe </em><code class="descname">htstream</code><a class="headerlink" href="#recipe-htstream" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">htstream</code><a class="headerlink" href="#recipe-htstream" title="Permalink to this definition">¶</a></dt>
 <dd><p>HTStream is a fast, quality control pipeline for Hight Throughput Sequencing data.
 The difference between HTStream and other pipelines is that HTStreams uses a tab delimited fastq format which allows for streaming from application to application.
 This streaming creates some awesome efficiencies when processing HTS data.</p>
@@ -125,26 +125,32 @@ This streaming creates some awesome efficiencies when processing HTS data.</p>
 
 <dl class="package">
 <dt id="package-htstream">
-<em class="property">package </em><code class="descname">htstream</code><a class="headerlink" href="#package-htstream" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">htstream</code><a class="headerlink" href="#package-htstream" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/htstream"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/htstream.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/htstream"><img alt="docker_htstream" src="https://quay.io/repository/biocontainers/htstream/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.0.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/boost-feedstock"><strong>boost</strong></a> &gt;=1.67.0,&lt;1.67.1.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/bzip2-feedstock"><strong>bzip2</strong></a> &gt;=1.0.6,&lt;2.0a0</p></li>
-<li><p><strong>libgcc-ng</strong> &gt;=4.9</p></li>
-<li><p><strong>libstdcxx-ng</strong> &gt;=4.9</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/xz-feedstock"><strong>xz</strong></a> &gt;=5.2.4,&lt;5.3.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/zlib-feedstock"><strong>zlib</strong></a> &gt;=1.2.11,&lt;1.3.0a0</p></li>
-</ul>
+<dt class="field-even">Depends boost</dt>
+<dd class="field-even"><p>&gt;=1.67.0,&lt;1.67.1.0a0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends bzip2</dt>
+<dd class="field-odd"><p>&gt;=1.0.6,&lt;2.0a0</p>
 </dd>
+<dt class="field-even">Depends libgcc-ng</dt>
+<dd class="field-even"><p>&gt;=4.9</p>
+</dd>
+<dt class="field-odd">Depends libstdcxx-ng</dt>
+<dd class="field-odd"><p>&gt;=4.9</p>
+</dd>
+<dt class="field-even">Depends xz</dt>
+<dd class="field-even"><p>&gt;=5.2.4,&lt;5.3.0a0</p>
+</dd>
+<dt class="field-odd">Depends zlib</dt>
+<dd class="field-odd"><p>&gt;=1.2.11,&lt;1.3.0a0</p>
+</dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -182,7 +188,7 @@ This streaming creates some awesome efficiencies when processing HTS data.</p>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

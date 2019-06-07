@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-celaref">
 <dl class="recipe">
 <dt id="recipe-bioconductor-celaref">
-<em class="property">recipe </em><code class="descname">bioconductor-celaref</code><a class="headerlink" href="#recipe-bioconductor-celaref" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-celaref</code><a class="headerlink" href="#recipe-bioconductor-celaref" title="Permalink to this definition">¶</a></dt>
 <dd><p>After the clustering step of a single-cell RNAseq experiment, this package aims to suggest labels/cell types for the clusters, on the basis of similarity to a reference dataset. It requires a table of read counts per cell per gene, and a list of the cells belonging to each of the clusters, (for both test and reference data).</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,32 +123,43 @@
 
 <dl class="package">
 <dt id="package-bioconductor-celaref">
-<em class="property">package </em><code class="descname">bioconductor-celaref</code><a class="headerlink" href="#package-bioconductor-celaref" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-celaref</code><a class="headerlink" href="#package-bioconductor-celaref" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-celaref"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-celaref.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-celaref"><img alt="docker_bioconductor-celaref" src="https://quay.io/repository/biocontainers/bioconductor-celaref/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.0.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-biocgenerics/README.html#package-bioconductor-biocgenerics" title="bioconductor-biocgenerics package"><strong>bioconductor-biocgenerics</strong></a> &gt;=0.28.0,&lt;0.29.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-mast/README.html#package-bioconductor-mast" title="bioconductor-mast package"><strong>bioconductor-mast</strong></a> &gt;=1.8.0,&lt;1.9.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-s4vectors/README.html#package-bioconductor-s4vectors" title="bioconductor-s4vectors package"><strong>bioconductor-s4vectors</strong></a> &gt;=0.20.0,&lt;0.21.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-summarizedexperiment/README.html#package-bioconductor-summarizedexperiment" title="bioconductor-summarizedexperiment package"><strong>bioconductor-summarizedexperiment</strong></a> &gt;=1.12.0,&lt;1.13.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-dplyr-feedstock"><strong>r-dplyr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ggplot2-feedstock"><strong>r-ggplot2</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-magrittr-feedstock"><strong>r-magrittr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-matrix-feedstock"><strong>r-matrix</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-readr-feedstock"><strong>r-readr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rlang-feedstock"><strong>r-rlang</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-tibble-feedstock"><strong>r-tibble</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-biocgenerics</dt>
+<dd class="field-even"><p>&gt;=0.28.0,&lt;0.29.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends bioconductor-mast</dt>
+<dd class="field-odd"><p>&gt;=1.8.0,&lt;1.9.0</p>
 </dd>
+<dt class="field-even">Depends bioconductor-s4vectors</dt>
+<dd class="field-even"><p>&gt;=0.20.0,&lt;0.21.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-summarizedexperiment</dt>
+<dd class="field-odd"><p>&gt;=1.12.0,&lt;1.13.0</p>
+</dd>
+<dt class="field-even">Depends r-base</dt>
+<dd class="field-even"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-odd">Depends r-dplyr</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-ggplot2</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-magrittr</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-matrix</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-readr</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-rlang</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-tibble</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -186,7 +197,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

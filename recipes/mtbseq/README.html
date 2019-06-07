@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="mtbseq">
 <dl class="recipe">
 <dt id="recipe-mtbseq">
-<em class="property">recipe </em><code class="descname">mtbseq</code><a class="headerlink" href="#recipe-mtbseq" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">mtbseq</code><a class="headerlink" href="#recipe-mtbseq" title="Permalink to this definition">¶</a></dt>
 <dd><p>Pipeline for mapping, variant calling and detection of resistance mediating and phylogenetic variants from illumina whole genome sequence data of Mycobacterium tuberculosis complex isolates</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,29 +123,40 @@
 
 <dl class="package">
 <dt id="package-mtbseq">
-<em class="property">package </em><code class="descname">mtbseq</code><a class="headerlink" href="#package-mtbseq" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">mtbseq</code><a class="headerlink" href="#package-mtbseq" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/mtbseq"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/mtbseq.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/mtbseq"><img alt="docker_mtbseq" src="https://quay.io/repository/biocontainers/mtbseq/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.0.3-1, 1.0.3-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bwa/README.html#package-bwa" title="bwa package"><strong>bwa</strong></a> 0.7.17</p></li>
-<li><p><a class="conda-package reference internal" href="../gatk/README.html#package-gatk" title="gatk package"><strong>gatk</strong></a> 3.8</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/openjdk-feedstock"><strong>openjdk</strong></a> &gt;=8,&lt;9</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> &gt;=5.26.2,&lt;5.26.3.0a0</p></li>
-<li><p><a class="conda-package reference internal" href="../perl-mce/README.html#package-perl-mce" title="perl-mce package"><strong>perl-mce</strong></a> &gt;=1.836</p></li>
-<li><p><a class="conda-package reference internal" href="../perl-number-format/README.html#package-perl-number-format" title="perl-number-format package"><strong>perl-number-format</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-statistics-basic/README.html#package-perl-statistics-basic" title="perl-statistics-basic package"><strong>perl-statistics-basic</strong></a> &gt;=1.6611</p></li>
-<li><p><a class="conda-package reference internal" href="../picard/README.html#package-picard" title="picard package"><strong>picard</strong></a> &gt;=2.17.0</p></li>
-<li><p><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a> 1.6</p></li>
-</ul>
+<dt class="field-even">Depends bwa</dt>
+<dd class="field-even"><p>0.7.17</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends gatk</dt>
+<dd class="field-odd"><p>3.8</p>
 </dd>
+<dt class="field-even">Depends openjdk</dt>
+<dd class="field-even"><p>&gt;=8,&lt;9</p>
+</dd>
+<dt class="field-odd">Depends perl</dt>
+<dd class="field-odd"><p>&gt;=5.26.2,&lt;5.26.3.0a0</p>
+</dd>
+<dt class="field-even">Depends perl-mce</dt>
+<dd class="field-even"><p>&gt;=1.836</p>
+</dd>
+<dt class="field-odd">Depends perl-number-format</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-statistics-basic</dt>
+<dd class="field-even"><p>&gt;=1.6611</p>
+</dd>
+<dt class="field-odd">Depends picard</dt>
+<dd class="field-odd"><p>&gt;=2.17.0</p>
+</dd>
+<dt class="field-even">Depends samtools</dt>
+<dd class="field-even"><p>1.6</p>
+</dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -183,7 +194,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

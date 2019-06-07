@@ -104,10 +104,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -125,7 +125,7 @@
 <span id="views"></span><h1>views<a class="headerlink" href="#module-bioconda_utils.bot.views" title="Permalink to this headline">¶</a></h1>
 <p>HTTP Views (accepts and parses webhooks)</p>
 <p class="rubric">Functions</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -148,19 +148,19 @@
 <p class="rubric">Documentation</p>
 <dl class="function">
 <dt id="bioconda_utils.bot.views.generic_webhook_dispatch">
-<code class="descclassname">bioconda_utils.bot.views.</code><code class="descname">generic_webhook_dispatch</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/views.html#generic_webhook_dispatch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.generic_webhook_dispatch" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">generic_webhook_dispatch</code><span class="sig-paren">(</span><em class="sig-param">request</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/views.html#generic_webhook_dispatch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.generic_webhook_dispatch" title="Permalink to this definition">¶</a></dt>
 <dd><p>Accepts webhooks and dumps them to the log, so we can see what we would be receiving</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.bot.views.github_webhook_dispatch">
-<code class="descclassname">bioconda_utils.bot.views.</code><code class="descname">github_webhook_dispatch</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/views.html#github_webhook_dispatch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.github_webhook_dispatch" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">github_webhook_dispatch</code><span class="sig-paren">(</span><em class="sig-param">request</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/views.html#github_webhook_dispatch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.github_webhook_dispatch" title="Permalink to this definition">¶</a></dt>
 <dd><p>Accepts webhooks from Github and dispatches them to event handlers</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.bot.views.show_status">
-<code class="descclassname">bioconda_utils.bot.views.</code><code class="descname">show_status</code><span class="sig-paren">(</span><em>request</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/views.html#show_status"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.show_status" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">show_status</code><span class="sig-paren">(</span><em class="sig-param">request</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/views.html#show_status"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.show_status" title="Permalink to this definition">¶</a></dt>
 <dd><p>Shows the index page (‘/’)</p>
 </dd></dl>
 
@@ -177,7 +177,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

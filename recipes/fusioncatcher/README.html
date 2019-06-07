@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="fusioncatcher">
 <dl class="recipe">
 <dt id="recipe-fusioncatcher">
-<em class="property">recipe </em><code class="descname">fusioncatcher</code><a class="headerlink" href="#recipe-fusioncatcher" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">fusioncatcher</code><a class="headerlink" href="#recipe-fusioncatcher" title="Permalink to this definition">¶</a></dt>
 <dd><p>Finder of Somatic Fusion Genes in RNA-seq data.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -126,45 +126,82 @@
 
 <dl class="package">
 <dt id="package-fusioncatcher">
-<em class="property">package </em><code class="descname">fusioncatcher</code><a class="headerlink" href="#package-fusioncatcher" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">fusioncatcher</code><a class="headerlink" href="#package-fusioncatcher" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/fusioncatcher"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/fusioncatcher.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/fusioncatcher"><img alt="docker_fusioncatcher" src="https://quay.io/repository/biocontainers/fusioncatcher/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.00-1, 1.00-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bbmap/README.html#package-bbmap" title="bbmap package"><strong>bbmap</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/biopython-feedstock"><strong>biopython</strong></a> &gt;=1.50</p></li>
-<li><p><strong>blat</strong> 35.*</p></li>
-<li><p><a class="conda-package reference internal" href="../bowtie/README.html#package-bowtie" title="bowtie package"><strong>bowtie</strong></a> 1.2.0.*</p></li>
-<li><p><a class="conda-package reference internal" href="../bowtie2/README.html#package-bowtie2" title="bowtie2 package"><strong>bowtie2</strong></a> 2.3.0.*</p></li>
-<li><p><a class="conda-package reference internal" href="../bwa/README.html#package-bwa" title="bwa package"><strong>bwa</strong></a> 0.7.12.*</p></li>
-<li><p><a class="conda-package reference internal" href="../fusioncatcher-seqtk/README.html#package-fusioncatcher-seqtk" title="fusioncatcher-seqtk package"><strong>fusioncatcher-seqtk</strong></a> 1.2.*</p></li>
-<li><p><strong>java-jdk</strong></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/lzo-feedstock"><strong>lzo</strong></a> &gt;=2.10,&lt;3.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/lzop-feedstock"><strong>lzop</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a> 1.13.1.*</p></li>
-<li><p><a class="conda-package reference internal" href="../oases/README.html#package-oases" title="oases package"><strong>oases</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/openpyxl-feedstock"><strong>openpyxl</strong></a> 2.5.0a2.*</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/parallel-feedstock"><strong>parallel</strong></a> 20171222.*</p></li>
-<li><p><a class="conda-package reference internal" href="../picard/README.html#package-picard" title="picard package"><strong>picard</strong></a> 2.10.6.*</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pigz-feedstock"><strong>pigz</strong></a> 2.3.*</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=2.7,&lt;2.8.0a0</p></li>
-<li><p><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a> 0.1.19.*</p></li>
-<li><p><a class="conda-package reference internal" href="../sra-tools/README.html#package-sra-tools" title="sra-tools package"><strong>sra-tools</strong></a> 2.6.2.*</p></li>
-<li><p><a class="conda-package reference internal" href="../star/README.html#package-star" title="star package"><strong>star</strong></a> 2.5.2b.*</p></li>
-<li><p><a class="conda-package reference internal" href="../ucsc-fatotwobit/README.html#package-ucsc-fatotwobit" title="ucsc-fatotwobit package"><strong>ucsc-fatotwobit</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../ucsc-liftover/README.html#package-ucsc-liftover" title="ucsc-liftover package"><strong>ucsc-liftover</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../velvet/README.html#package-velvet" title="velvet package"><strong>velvet</strong></a> 1.2.10.*</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/xlrd-feedstock"><strong>xlrd</strong></a> 1.0.0.*</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/zip-feedstock"><strong>zip</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bbmap</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends biopython</dt>
+<dd class="field-odd"><p>&gt;=1.50</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-even">Depends blat</dt>
+<dd class="field-even"><p>35.*</p>
 </dd>
+<dt class="field-odd">Depends bowtie</dt>
+<dd class="field-odd"><p>1.2.0.*</p>
+</dd>
+<dt class="field-even">Depends bowtie2</dt>
+<dd class="field-even"><p>2.3.0.*</p>
+</dd>
+<dt class="field-odd">Depends bwa</dt>
+<dd class="field-odd"><p>0.7.12.*</p>
+</dd>
+<dt class="field-even">Depends fusioncatcher-seqtk</dt>
+<dd class="field-even"><p>1.2.*</p>
+</dd>
+<dt class="field-odd">Depends java-jdk</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends lzo</dt>
+<dd class="field-even"><p>&gt;=2.10,&lt;3.0a0</p>
+</dd>
+<dt class="field-odd">Depends lzop</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends numpy</dt>
+<dd class="field-even"><p>1.13.1.*</p>
+</dd>
+<dt class="field-odd">Depends oases</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends openpyxl</dt>
+<dd class="field-even"><p>2.5.0a2.*</p>
+</dd>
+<dt class="field-odd">Depends parallel</dt>
+<dd class="field-odd"><p>20171222.*</p>
+</dd>
+<dt class="field-even">Depends picard</dt>
+<dd class="field-even"><p>2.10.6.*</p>
+</dd>
+<dt class="field-odd">Depends pigz</dt>
+<dd class="field-odd"><p>2.3.*</p>
+</dd>
+<dt class="field-even">Depends python</dt>
+<dd class="field-even"><p>&gt;=2.7,&lt;2.8.0a0</p>
+</dd>
+<dt class="field-odd">Depends samtools</dt>
+<dd class="field-odd"><p>0.1.19.*</p>
+</dd>
+<dt class="field-even">Depends sra-tools</dt>
+<dd class="field-even"><p>2.6.2.*</p>
+</dd>
+<dt class="field-odd">Depends star</dt>
+<dd class="field-odd"><p>2.5.2b.*</p>
+</dd>
+<dt class="field-even">Depends ucsc-fatotwobit</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends ucsc-liftover</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends velvet</dt>
+<dd class="field-even"><p>1.2.10.*</p>
+</dd>
+<dt class="field-odd">Depends xlrd</dt>
+<dd class="field-odd"><p>1.0.0.*</p>
+</dd>
+<dt class="field-even">Depends zip</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -202,7 +239,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

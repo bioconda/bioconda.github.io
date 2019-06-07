@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="python-hppy">
 <dl class="recipe">
 <dt id="recipe-python-hppy">
-<em class="property">recipe </em><code class="descname">python-hppy</code><a class="headerlink" href="#recipe-python-hppy" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">python-hppy</code><a class="headerlink" href="#recipe-python-hppy" title="Permalink to this definition">¶</a></dt>
 <dd><p>An intuitive HyPhy interface for Python</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,26 +123,22 @@
 
 <dl class="package">
 <dt id="package-python-hppy">
-<em class="property">package </em><code class="descname">python-hppy</code><a class="headerlink" href="#package-python-hppy" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">python-hppy</code><a class="headerlink" href="#package-python-hppy" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/python-hppy"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/python-hppy.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/python-hppy"><img alt="docker_python-hppy" src="https://quay.io/repository/biocontainers/python-hppy/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>0.9.8-0, 0.9.6-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/cython-feedstock"><strong>cython</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../python-fakemp/README.html#package-python-fakemp" title="python-fakemp package"><strong>python-fakemp</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../python-hyphy-python/README.html#package-python-hyphy-python" title="python-hyphy-python package"><strong>python-hyphy-python</strong></a></p></li>
-</ul>
-</dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../hivtrace/README.html#hivtrace"><strong class="xref backref">hivtrace</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../python-hivclustering/README.html#python-hivclustering"><strong class="xref backref">python-hivclustering</strong></a></p></li>
-</ul>
-</dd>
+<dt class="field-even">Depends cython</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends python</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends python-fakemp</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends python-hyphy-python</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -180,7 +176,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

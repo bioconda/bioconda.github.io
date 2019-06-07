@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="velvet">
 <dl class="recipe">
 <dt id="recipe-velvet">
-<em class="property">recipe </em><code class="descname">velvet</code><a class="headerlink" href="#recipe-velvet" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">velvet</code><a class="headerlink" href="#recipe-velvet" title="Permalink to this definition">¶</a></dt>
 <dd><p>Sequence Assembler for short reads</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -126,33 +126,17 @@
 
 <dl class="package">
 <dt id="package-velvet">
-<em class="property">package </em><code class="descname">velvet</code><a class="headerlink" href="#package-velvet" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">velvet</code><a class="headerlink" href="#package-velvet" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/velvet"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/velvet.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/velvet"><img alt="docker_velvet" src="https://quay.io/repository/biocontainers/velvet/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.2.10-2, 1.2.10-1, 1.2.10-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><strong>libgcc-ng</strong> &gt;=4.9</p></li>
-</ul>
+<dt class="field-even">Depends libgcc-ng</dt>
+<dd class="field-even"><p>&gt;=4.9</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../metavelvet-sl/README.html#metavelvet-sl"><strong class="xref backref">metavelvet-sl</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../stacks/README.html#stacks"><strong class="xref backref">stacks</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../jaffa/README.html#jaffa"><strong class="xref backref">jaffa</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../shovill/README.html#shovill"><strong class="xref backref">shovill</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../brass/README.html#brass"><strong class="xref backref">brass</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../metavelvet-sl-pipeline/README.html#metavelvet-sl-pipeline"><strong class="xref backref">metavelvet-sl-pipeline</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../fusioncatcher/README.html#fusioncatcher"><strong class="xref backref">fusioncatcher</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../nullarbor/README.html#nullarbor"><strong class="xref backref">nullarbor</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../oases/README.html#oases"><strong class="xref backref">oases</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../metavelvet/README.html#metavelvet"><strong class="xref backref">metavelvet</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../phyluce/README.html#phyluce"><strong class="xref backref">phyluce</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-velvetoptimiser/README.html#perl-velvetoptimiser"><strong class="xref backref">perl-velvetoptimiser</strong></a></p></li>
-</ul>
-</dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -190,7 +174,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

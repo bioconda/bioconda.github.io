@@ -104,10 +104,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -125,7 +125,7 @@
 <span id="web"></span><h1>web<a class="headerlink" href="#module-bioconda_utils.bot.web" title="Permalink to this headline">¶</a></h1>
 <p>AioHTTP Web Server Setup</p>
 <p class="rubric">Functions</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -142,7 +142,7 @@
 <p class="rubric">Documentation</p>
 <dl class="function">
 <dt id="bioconda_utils.bot.web.start">
-<code class="descclassname">bioconda_utils.bot.web.</code><code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/web.html#start"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.web.start" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.web.</code><code class="sig-name descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/web.html#start"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.web.start" title="Permalink to this definition">¶</a></dt>
 <dd><p>Initialize App</p>
 <p>This function is the entry point for wrappers that take an app factory
 as argument, notably gunicorn:</p>
@@ -151,7 +151,7 @@ as argument, notably gunicorn:</p>
 
 <dl class="function">
 <dt id="bioconda_utils.bot.web.start_with_celery">
-<code class="descclassname">bioconda_utils.bot.web.</code><code class="descname">start_with_celery</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/web.html#start_with_celery"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.web.start_with_celery" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.web.</code><code class="sig-name descname">start_with_celery</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/web.html#start_with_celery"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.web.start_with_celery" title="Permalink to this definition">¶</a></dt>
 <dd><p>Initialize app and launch internal celery worker</p>
 <p>This isn’t simply a flag for <a class="reference internal" href="#bioconda_utils.bot.web.start" title="bioconda_utils.bot.web.start"><code class="xref any py py-func docutils literal notranslate"><span class="pre">start</span></code></a> because async app factories
 cannot (easily) receive parameters from the gunicorn commandline.</p>
@@ -170,7 +170,7 @@ cannot (easily) receive parameters from the gunicorn commandline.</p>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

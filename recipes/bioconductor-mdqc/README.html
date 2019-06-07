@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-mdqc">
 <dl class="recipe">
 <dt id="recipe-bioconductor-mdqc">
-<em class="property">recipe </em><code class="descname">bioconductor-mdqc</code><a class="headerlink" href="#recipe-bioconductor-mdqc" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-mdqc</code><a class="headerlink" href="#recipe-bioconductor-mdqc" title="Permalink to this definition">¶</a></dt>
 <dd><p>MDQC is a multivariate quality assessment method for microarrays based on quality control (QC) reports. The Mahalanobis distance of an array’s quality attributes is used to measure the similarity of the quality of that array against the quality of the other arrays. Then, arrays with unusually high distances can be flagged as potentially low-quality.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -126,24 +126,21 @@
 
 <dl class="package">
 <dt id="package-bioconductor-mdqc">
-<em class="property">package </em><code class="descname">bioconductor-mdqc</code><a class="headerlink" href="#package-bioconductor-mdqc" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-mdqc</code><a class="headerlink" href="#package-bioconductor-mdqc" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-mdqc"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-mdqc.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-mdqc"><img alt="docker_bioconductor-mdqc" src="https://quay.io/repository/biocontainers/bioconductor-mdqc/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.46.0-0, 1.44.0-0, 1.42.0-0, 1.40.0-0, 1.38.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-cluster-feedstock"><strong>r-cluster</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-mass-feedstock"><strong>r-mass</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends r-base</dt>
+<dd class="field-even"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-arraymvout/README.html#bioconductor-arraymvout"><strong class="xref backref">bioconductor-arraymvout</strong></a></p></li>
-</ul>
-</dd>
+<dt class="field-odd">Depends r-cluster</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-mass</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -181,7 +178,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

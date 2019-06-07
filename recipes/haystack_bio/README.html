@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="haystack-bio">
 <dl class="recipe">
 <dt id="recipe-haystack_bio">
-<em class="property">recipe </em><code class="descname">haystack_bio</code><a class="headerlink" href="#recipe-haystack_bio" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">haystack_bio</code><a class="headerlink" href="#recipe-haystack_bio" title="Permalink to this definition">¶</a></dt>
 <dd><p>Epigenetic Variability and Transcription Factor Motifs Analysis Pipeline</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,34 +123,44 @@
 
 <dl class="package">
 <dt id="package-haystack_bio">
-<em class="property">package </em><code class="descname">haystack_bio</code><a class="headerlink" href="#package-haystack_bio" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">haystack_bio</code><a class="headerlink" href="#package-haystack_bio" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/haystack_bio"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/haystack_bio.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/haystack_bio"><img alt="docker_haystack_bio" src="https://quay.io/repository/biocontainers/haystack_bio/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>0.5.5-0, 0.5.4-1, 0.5.3-1, 0.5.3-0, 0.5.2-8, 0.5.2-7, 0.5.2-6, 0.5.2-5, 0.5.2-4, 0.5.2-3, 0.5.2-2, 0.5.2-1, 0.5.2-0, v0.5.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bedtools/README.html#package-bedtools" title="bedtools package"><strong>bedtools</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bx-python/README.html#package-bx-python" title="bx-python package"><strong>bx-python</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/jinja2-feedstock"><strong>jinja2</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/matplotlib-feedstock"><strong>matplotlib</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../meme/README.html#package-meme" title="meme package"><strong>meme</strong></a> 4.11.2.*</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a> 1.15.*</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/openjdk-feedstock"><strong>openjdk</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../sambamba/README.html#package-sambamba" title="sambamba package"><strong>sambamba</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scipy-feedstock"><strong>scipy</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/tqdm-feedstock"><strong>tqdm</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../ucsc-bedgraphtobigwig/README.html#package-ucsc-bedgraphtobigwig" title="ucsc-bedgraphtobigwig package"><strong>ucsc-bedgraphtobigwig</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../ucsc-bigwigaverageoverbed/README.html#package-ucsc-bigwigaverageoverbed" title="ucsc-bigwigaverageoverbed package"><strong>ucsc-bigwigaverageoverbed</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../weblogo/README.html#package-weblogo" title="weblogo package"><strong>weblogo</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bedtools</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends bx-python</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends jinja2</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends matplotlib</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends meme</dt>
+<dd class="field-even"><p>4.11.2.*</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends numpy</dt>
+<dd class="field-odd"><p>1.15.*</p>
 </dd>
+<dt class="field-even">Depends openjdk</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends pandas</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends sambamba</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends scipy</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends tqdm</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends ucsc-bedgraphtobigwig</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends ucsc-bigwigaverageoverbed</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends weblogo</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -188,7 +198,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

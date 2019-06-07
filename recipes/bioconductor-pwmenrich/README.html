@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-pwmenrich">
 <dl class="recipe">
 <dt id="recipe-bioconductor-pwmenrich">
-<em class="property">recipe </em><code class="descname">bioconductor-pwmenrich</code><a class="headerlink" href="#recipe-bioconductor-pwmenrich" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-pwmenrich</code><a class="headerlink" href="#recipe-bioconductor-pwmenrich" title="Permalink to this definition">¶</a></dt>
 <dd><p>A toolkit of high-level functions for DNA motif scanning and enrichment analysis built upon Biostrings. The main functionality is PWM enrichment analysis of already known PWMs (e.g. from databases such as MotifDb), but the package also implements high-level functions for PWM scanning and visualisation. The package does not perform “de novo” motif discovery, but is instead focused on using motifs that are either experimentally derived or computationally constructed by other tools.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -126,29 +126,30 @@
 
 <dl class="package">
 <dt id="package-bioconductor-pwmenrich">
-<em class="property">package </em><code class="descname">bioconductor-pwmenrich</code><a class="headerlink" href="#package-bioconductor-pwmenrich" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-pwmenrich</code><a class="headerlink" href="#package-bioconductor-pwmenrich" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-pwmenrich"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-pwmenrich.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-pwmenrich"><img alt="docker_bioconductor-pwmenrich" src="https://quay.io/repository/biocontainers/bioconductor-pwmenrich/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>4.18.0-0, 4.16.0-0, 4.14.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-biocgenerics/README.html#package-bioconductor-biocgenerics" title="bioconductor-biocgenerics package"><strong>bioconductor-biocgenerics</strong></a> &gt;=0.28.0,&lt;0.29.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-biostrings/README.html#package-bioconductor-biostrings" title="bioconductor-biostrings package"><strong>bioconductor-biostrings</strong></a> &gt;=2.50.0,&lt;2.51.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-seqlogo/README.html#package-bioconductor-seqlogo" title="bioconductor-seqlogo package"><strong>bioconductor-seqlogo</strong></a> &gt;=1.48.0,&lt;1.49.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-evd-feedstock"><strong>r-evd</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-gdata-feedstock"><strong>r-gdata</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-biocgenerics</dt>
+<dd class="field-even"><p>&gt;=0.28.0,&lt;0.29.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-pwmenrich.dmelanogaster.background/README.html#bioconductor-pwmenrich.dmelanogaster.background"><strong class="xref backref">bioconductor-pwmenrich.dmelanogaster.background</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-pwmenrich.hsapiens.background/README.html#bioconductor-pwmenrich.hsapiens.background"><strong class="xref backref">bioconductor-pwmenrich.hsapiens.background</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-pwmenrich.mmusculus.background/README.html#bioconductor-pwmenrich.mmusculus.background"><strong class="xref backref">bioconductor-pwmenrich.mmusculus.background</strong></a></p></li>
-</ul>
+<dt class="field-odd">Depends bioconductor-biostrings</dt>
+<dd class="field-odd"><p>&gt;=2.50.0,&lt;2.51.0</p>
 </dd>
+<dt class="field-even">Depends bioconductor-seqlogo</dt>
+<dd class="field-even"><p>&gt;=1.48.0,&lt;1.49.0</p>
+</dd>
+<dt class="field-odd">Depends r-base</dt>
+<dd class="field-odd"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-even">Depends r-evd</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-gdata</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -186,7 +187,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

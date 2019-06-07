@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioservices">
 <dl class="recipe">
 <dt id="recipe-bioservices">
-<em class="property">recipe </em><code class="descname">bioservices</code><a class="headerlink" href="#recipe-bioservices" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioservices</code><a class="headerlink" href="#recipe-bioservices" title="Permalink to this definition">¶</a></dt>
 <dd><p>Access to Biological Web Services from Python</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,36 +123,37 @@
 
 <dl class="package">
 <dt id="package-bioservices">
-<em class="property">package </em><code class="descname">bioservices</code><a class="headerlink" href="#package-bioservices" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioservices</code><a class="headerlink" href="#package-bioservices" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioservices"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioservices.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioservices"><img alt="docker_bioservices" src="https://quay.io/repository/biocontainers/bioservices/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.6.0-0, 1.5.2-1, 1.5.2-0, 1.5.1-0, 1.4.17-0, 1.4.16-1, 1.4.10-1, 1.4.7-0, 1.4.5-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/appdirs-feedstock"><strong>appdirs</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/beautifulsoup4-feedstock"><strong>beautifulsoup4</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/easydev-feedstock"><strong>easydev</strong></a> &gt;=0.9.36</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/grequests-feedstock"><strong>grequests</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpydoc-feedstock"><strong>numpydoc</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/requests-feedstock"><strong>requests</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/requests-cache-feedstock"><strong>requests-cache</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/suds-jurko-feedstock"><strong>suds-jurko</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/wrapt-feedstock"><strong>wrapt</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends appdirs</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends beautifulsoup4</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends easydev</dt>
+<dd class="field-even"><p>&gt;=0.9.36</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../gseapy/README.html#gseapy"><strong class="xref backref">gseapy</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../dreamtools/README.html#dreamtools"><strong class="xref backref">dreamtools</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../probamconvert/README.html#probamconvert"><strong class="xref backref">probamconvert</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../biokit/README.html#biokit"><strong class="xref backref">biokit</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../sequana/README.html#sequana"><strong class="xref backref">sequana</strong></a></p></li>
-</ul>
-</dd>
+<dt class="field-odd">Depends grequests</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends numpydoc</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends pandas</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends python</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends requests</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends requests-cache</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends suds-jurko</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends wrapt</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -190,7 +191,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

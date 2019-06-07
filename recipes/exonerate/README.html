@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="exonerate">
 <dl class="recipe">
 <dt id="recipe-exonerate">
-<em class="property">recipe </em><code class="descname">exonerate</code><a class="headerlink" href="#recipe-exonerate" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">exonerate</code><a class="headerlink" href="#recipe-exonerate" title="Permalink to this definition">¶</a></dt>
 <dd><p>Exonerate - A generic tool for pairwise sequence comparison / alignment</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -126,27 +126,23 @@
 
 <dl class="package">
 <dt id="package-exonerate">
-<em class="property">package </em><code class="descname">exonerate</code><a class="headerlink" href="#package-exonerate" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">exonerate</code><a class="headerlink" href="#package-exonerate" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/exonerate"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/exonerate.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/exonerate"><img alt="docker_exonerate" src="https://quay.io/repository/biocontainers/exonerate/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>2.4.0-2, 2.4.0-1, 2.4.0-0, 2.2.0-1, 2.2.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/glib-feedstock"><strong>glib</strong></a> &gt;=2.58.2,&lt;3.0a0</p></li>
-<li><p><strong>libgcc-ng</strong> &gt;=7.3.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pcre-feedstock"><strong>pcre</strong></a> &gt;=8.41,&lt;9.0a0</p></li>
-</ul>
+<dt class="field-even">Depends glib</dt>
+<dd class="field-even"><p>&gt;=2.58.2,&lt;3.0a0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../fgmp/README.html#fgmp"><strong class="xref backref">fgmp</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../maker/README.html#maker"><strong class="xref backref">maker</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../brass/README.html#brass"><strong class="xref backref">brass</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../braker2/README.html#braker2"><strong class="xref backref">braker2</strong></a></p></li>
-</ul>
+<dt class="field-odd">Depends libgcc-ng</dt>
+<dd class="field-odd"><p>&gt;=7.3.0</p>
 </dd>
+<dt class="field-even">Depends pcre</dt>
+<dd class="field-even"><p>&gt;=8.41,&lt;9.0a0</p>
+</dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -184,7 +180,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

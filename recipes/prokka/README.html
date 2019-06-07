@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="prokka">
 <dl class="recipe">
 <dt id="recipe-prokka">
-<em class="property">recipe </em><code class="descname">prokka</code><a class="headerlink" href="#recipe-prokka" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">prokka</code><a class="headerlink" href="#recipe-prokka" title="Permalink to this definition">¶</a></dt>
 <dd><p>A tool for the rapid annotation of prokaryotic genomes</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -129,37 +129,49 @@
 
 <dl class="package">
 <dt id="package-prokka">
-<em class="property">package </em><code class="descname">prokka</code><a class="headerlink" href="#package-prokka" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">prokka</code><a class="headerlink" href="#package-prokka" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/prokka"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/prokka.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/prokka"><img alt="docker_prokka" src="https://quay.io/repository/biocontainers/prokka/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.13.4-0, 1.13.3-0, 1.13-4, 1.13-3, 1.13-2, 1.13-1, 1.13-0, 1.12-4, 1.12-3, 1.12-2, 1.12-1, 1.12-0, 1.11-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../aragorn/README.html#package-aragorn" title="aragorn package"><strong>aragorn</strong></a> &gt;=1.2</p></li>
-<li><p><a class="conda-package reference internal" href="../barrnap/README.html#package-barrnap" title="barrnap package"><strong>barrnap</strong></a> &gt;=0.7</p></li>
-<li><p><a class="conda-package reference internal" href="../blast/README.html#package-blast" title="blast package"><strong>blast</strong></a> &gt;=2.7.1</p></li>
-<li><p><a class="conda-package reference internal" href="../hmmer/README.html#package-hmmer" title="hmmer package"><strong>hmmer</strong></a> &gt;=3.1b2</p></li>
-<li><p><a class="conda-package reference internal" href="../infernal/README.html#package-infernal" title="infernal package"><strong>infernal</strong></a> &gt;=1.1.2</p></li>
-<li><p><a class="conda-package reference internal" href="../minced/README.html#package-minced" title="minced package"><strong>minced</strong></a> &gt;=0.3</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/parallel-feedstock"><strong>parallel</strong></a> &gt;=20180522</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> &gt;=5.26.2,&lt;5.26.3.0a0</p></li>
-<li><p><a class="conda-package reference internal" href="../perl-bioperl/README.html#package-perl-bioperl" title="perl-bioperl package"><strong>perl-bioperl</strong></a> &gt;=1.7.2</p></li>
-<li><p><a class="conda-package reference internal" href="../perl-xml-simple/README.html#package-perl-xml-simple" title="perl-xml-simple package"><strong>perl-xml-simple</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../prodigal/README.html#package-prodigal" title="prodigal package"><strong>prodigal</strong></a> &gt;=2.6</p></li>
-<li><p><a class="conda-package reference internal" href="../tbl2asn/README.html#package-tbl2asn" title="tbl2asn package"><strong>tbl2asn</strong></a> &gt;=25.6</p></li>
-</ul>
+<dt class="field-even">Depends aragorn</dt>
+<dd class="field-even"><p>&gt;=1.2</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../metawrap/README.html#metawrap"><strong class="xref backref">metawrap</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../smeg/README.html#smeg"><strong class="xref backref">smeg</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../nullarbor/README.html#nullarbor"><strong class="xref backref">nullarbor</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../pgcgap/README.html#pgcgap"><strong class="xref backref">pgcgap</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../asqcan/README.html#asqcan"><strong class="xref backref">asqcan</strong></a></p></li>
-</ul>
+<dt class="field-odd">Depends barrnap</dt>
+<dd class="field-odd"><p>&gt;=0.7</p>
 </dd>
+<dt class="field-even">Depends blast</dt>
+<dd class="field-even"><p>&gt;=2.7.1</p>
+</dd>
+<dt class="field-odd">Depends hmmer</dt>
+<dd class="field-odd"><p>&gt;=3.1b2</p>
+</dd>
+<dt class="field-even">Depends infernal</dt>
+<dd class="field-even"><p>&gt;=1.1.2</p>
+</dd>
+<dt class="field-odd">Depends minced</dt>
+<dd class="field-odd"><p>&gt;=0.3</p>
+</dd>
+<dt class="field-even">Depends parallel</dt>
+<dd class="field-even"><p>&gt;=20180522</p>
+</dd>
+<dt class="field-odd">Depends perl</dt>
+<dd class="field-odd"><p>&gt;=5.26.2,&lt;5.26.3.0a0</p>
+</dd>
+<dt class="field-even">Depends perl-bioperl</dt>
+<dd class="field-even"><p>&gt;=1.7.2</p>
+</dd>
+<dt class="field-odd">Depends perl-xml-simple</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends prodigal</dt>
+<dd class="field-even"><p>&gt;=2.6</p>
+</dd>
+<dt class="field-odd">Depends tbl2asn</dt>
+<dd class="field-odd"><p>&gt;=25.6</p>
+</dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -197,7 +209,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

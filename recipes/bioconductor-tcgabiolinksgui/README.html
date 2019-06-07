@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-tcgabiolinksgui">
 <dl class="recipe">
 <dt id="recipe-bioconductor-tcgabiolinksgui">
-<em class="property">recipe </em><code class="descname">bioconductor-tcgabiolinksgui</code><a class="headerlink" href="#recipe-bioconductor-tcgabiolinksgui" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-tcgabiolinksgui</code><a class="headerlink" href="#recipe-bioconductor-tcgabiolinksgui" title="Permalink to this definition">¶</a></dt>
 <dd><p>“TCGAbiolinksGUI: A Graphical User Interface to analyze cancer molecular and clinical data. A demo version of GUI is found in https://tcgabiolinksgui.shinyapps.io/tcgabiolinks/”</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,50 +123,97 @@
 
 <dl class="package">
 <dt id="package-bioconductor-tcgabiolinksgui">
-<em class="property">package </em><code class="descname">bioconductor-tcgabiolinksgui</code><a class="headerlink" href="#package-bioconductor-tcgabiolinksgui" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-tcgabiolinksgui</code><a class="headerlink" href="#package-bioconductor-tcgabiolinksgui" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-tcgabiolinksgui"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-tcgabiolinksgui.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-tcgabiolinksgui"><img alt="docker_bioconductor-tcgabiolinksgui" src="https://quay.io/repository/biocontainers/bioconductor-tcgabiolinksgui/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.8.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-clusterprofiler/README.html#package-bioconductor-clusterprofiler" title="bioconductor-clusterprofiler package"><strong>bioconductor-clusterprofiler</strong></a> &gt;=3.10.0,&lt;3.11.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-elmer/README.html#package-bioconductor-elmer" title="bioconductor-elmer package"><strong>bioconductor-elmer</strong></a> &gt;=2.6.0,&lt;2.7.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-illuminahumanmethylation27kanno.ilmn12.hg19/README.html#package-bioconductor-illuminahumanmethylation27kanno.ilmn12.hg19" title="bioconductor-illuminahumanmethylation27kanno.ilmn12.hg19 package"><strong>bioconductor-illuminahumanmethylation27kanno.ilmn12.hg19</strong></a> &gt;=0.6.0,&lt;0.7.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-illuminahumanmethylation27kmanifest/README.html#package-bioconductor-illuminahumanmethylation27kmanifest" title="bioconductor-illuminahumanmethylation27kmanifest package"><strong>bioconductor-illuminahumanmethylation27kmanifest</strong></a> &gt;=0.4.0,&lt;0.5.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19/README.html#package-bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19" title="bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19 package"><strong>bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19</strong></a> &gt;=0.6.0,&lt;0.7.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-illuminahumanmethylation450kmanifest/README.html#package-bioconductor-illuminahumanmethylation450kmanifest" title="bioconductor-illuminahumanmethylation450kmanifest package"><strong>bioconductor-illuminahumanmethylation450kmanifest</strong></a> &gt;=0.4.0,&lt;0.5.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19/README.html#package-bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19" title="bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19 package"><strong>bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19</strong></a> &gt;=0.6.0,&lt;0.7.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-illuminahumanmethylationepicmanifest/README.html#package-bioconductor-illuminahumanmethylationepicmanifest" title="bioconductor-illuminahumanmethylationepicmanifest package"><strong>bioconductor-illuminahumanmethylationepicmanifest</strong></a> &gt;=0.3.0,&lt;0.4.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-maftools/README.html#package-bioconductor-maftools" title="bioconductor-maftools package"><strong>bioconductor-maftools</strong></a> &gt;=1.8.0,&lt;1.9.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-minfi/README.html#package-bioconductor-minfi" title="bioconductor-minfi package"><strong>bioconductor-minfi</strong></a> &gt;=1.28.0,&lt;1.29.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-pathview/README.html#package-bioconductor-pathview" title="bioconductor-pathview package"><strong>bioconductor-pathview</strong></a> &gt;=1.22.0,&lt;1.23.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-summarizedexperiment/README.html#package-bioconductor-summarizedexperiment" title="bioconductor-summarizedexperiment package"><strong>bioconductor-summarizedexperiment</strong></a> &gt;=1.12.0,&lt;1.13.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-tcgabiolinks/README.html#package-bioconductor-tcgabiolinks" title="bioconductor-tcgabiolinks package"><strong>bioconductor-tcgabiolinks</strong></a> &gt;=2.10.0,&lt;2.11.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-tcgabiolinksgui.data/README.html#package-bioconductor-tcgabiolinksgui.data" title="bioconductor-tcgabiolinksgui.data package"><strong>bioconductor-tcgabiolinksgui.data</strong></a> &gt;=1.2.0,&lt;1.3.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-caret-feedstock"><strong>r-caret</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-colourpicker-feedstock"><strong>r-colourpicker</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-data.table-feedstock"><strong>r-data.table</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-downloader-feedstock"><strong>r-downloader</strong></a> &gt;=0.4</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-dt-feedstock"><strong>r-dt</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ggplot2-feedstock"><strong>r-ggplot2</strong></a> &gt;=2.1.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ggrepel-feedstock"><strong>r-ggrepel</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-plotly-feedstock"><strong>r-plotly</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-readr-feedstock"><strong>r-readr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-shiny-feedstock"><strong>r-shiny</strong></a> &gt;=0.14.1</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-shinybs-feedstock"><strong>r-shinybs</strong></a> &gt;=0.61</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-shinydashboard-feedstock"><strong>r-shinydashboard</strong></a> &gt;=0.5.3</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-shinyfiles-feedstock"><strong>r-shinyfiles</strong></a> &gt;=0.6.2</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-shinyjs-feedstock"><strong>r-shinyjs</strong></a> &gt;=0.7</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-stringr-feedstock"><strong>r-stringr</strong></a> &gt;=1.1.0</p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-clusterprofiler</dt>
+<dd class="field-even"><p>&gt;=3.10.0,&lt;3.11.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends bioconductor-elmer</dt>
+<dd class="field-odd"><p>&gt;=2.6.0,&lt;2.7.0</p>
 </dd>
+<dt class="field-even">Depends bioconductor-illuminahumanmethylation27kanno.ilmn12.hg19</dt>
+<dd class="field-even"><p>&gt;=0.6.0,&lt;0.7.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-illuminahumanmethylation27kmanifest</dt>
+<dd class="field-odd"><p>&gt;=0.4.0,&lt;0.5.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19</dt>
+<dd class="field-even"><p>&gt;=0.6.0,&lt;0.7.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-illuminahumanmethylation450kmanifest</dt>
+<dd class="field-odd"><p>&gt;=0.4.0,&lt;0.5.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19</dt>
+<dd class="field-even"><p>&gt;=0.6.0,&lt;0.7.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-illuminahumanmethylationepicmanifest</dt>
+<dd class="field-odd"><p>&gt;=0.3.0,&lt;0.4.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-maftools</dt>
+<dd class="field-even"><p>&gt;=1.8.0,&lt;1.9.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-minfi</dt>
+<dd class="field-odd"><p>&gt;=1.28.0,&lt;1.29.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-pathview</dt>
+<dd class="field-even"><p>&gt;=1.22.0,&lt;1.23.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-summarizedexperiment</dt>
+<dd class="field-odd"><p>&gt;=1.12.0,&lt;1.13.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-tcgabiolinks</dt>
+<dd class="field-even"><p>&gt;=2.10.0,&lt;2.11.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-tcgabiolinksgui.data</dt>
+<dd class="field-odd"><p>&gt;=1.2.0,&lt;1.3.0</p>
+</dd>
+<dt class="field-even">Depends r-base</dt>
+<dd class="field-even"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-odd">Depends r-caret</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-colourpicker</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-data.table</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-downloader</dt>
+<dd class="field-even"><p>&gt;=0.4</p>
+</dd>
+<dt class="field-odd">Depends r-dt</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-ggplot2</dt>
+<dd class="field-even"><p>&gt;=2.1.0</p>
+</dd>
+<dt class="field-odd">Depends r-ggrepel</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-plotly</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-readr</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-shiny</dt>
+<dd class="field-even"><p>&gt;=0.14.1</p>
+</dd>
+<dt class="field-odd">Depends r-shinybs</dt>
+<dd class="field-odd"><p>&gt;=0.61</p>
+</dd>
+<dt class="field-even">Depends r-shinydashboard</dt>
+<dd class="field-even"><p>&gt;=0.5.3</p>
+</dd>
+<dt class="field-odd">Depends r-shinyfiles</dt>
+<dd class="field-odd"><p>&gt;=0.6.2</p>
+</dd>
+<dt class="field-even">Depends r-shinyjs</dt>
+<dd class="field-even"><p>&gt;=0.7</p>
+</dd>
+<dt class="field-odd">Depends r-stringr</dt>
+<dd class="field-odd"><p>&gt;=1.1.0</p>
+</dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -204,7 +251,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

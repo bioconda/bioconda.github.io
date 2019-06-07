@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="pymisc-utils">
 <dl class="recipe">
 <dt id="recipe-pymisc-utils">
-<em class="property">recipe </em><code class="descname">pymisc-utils</code><a class="headerlink" href="#recipe-pymisc-utils" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">pymisc-utils</code><a class="headerlink" href="#recipe-pymisc-utils" title="Permalink to this definition">¶</a></dt>
 <dd><p>Utility library for rp-bp</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,42 +123,61 @@
 
 <dl class="package">
 <dt id="package-pymisc-utils">
-<em class="property">package </em><code class="descname">pymisc-utils</code><a class="headerlink" href="#package-pymisc-utils" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">pymisc-utils</code><a class="headerlink" href="#package-pymisc-utils" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/pymisc-utils"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/pymisc-utils.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/pymisc-utils"><img alt="docker_pymisc-utils" src="https://quay.io/repository/biocontainers/pymisc-utils/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>0.2.11-0, 0.2.10-1, 0.2.10-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/cython-feedstock"><strong>cython</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/dask-feedstock"><strong>dask</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/docopt-feedstock"><strong>docopt</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/fastparquet-feedstock"><strong>fastparquet</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/graphviz-feedstock"><strong>graphviz</strong></a> &gt;=2.38.0,&lt;3.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/joblib-feedstock"><strong>joblib</strong></a></p></li>
-<li><p><strong>libgcc-ng</strong> &gt;=4.9</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/matplotlib-feedstock"><strong>matplotlib</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/networkx-feedstock"><strong>networkx</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/nltk-feedstock"><strong>nltk</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/openpyxl-feedstock"><strong>openpyxl</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/paramiko-feedstock"><strong>paramiko</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pydot-feedstock"><strong>pydot</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=3.5,&lt;3.6.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scikit-learn-feedstock"><strong>scikit-learn</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scipy-feedstock"><strong>scipy</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/six-feedstock"><strong>six</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/statsmodels-feedstock"><strong>statsmodels</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/tqdm-feedstock"><strong>tqdm</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/xlrd-feedstock"><strong>xlrd</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends cython</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends dask</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends docopt</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends fastparquet</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends graphviz</dt>
+<dd class="field-even"><p>&gt;=2.38.0,&lt;3.0a0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends joblib</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends libgcc-ng</dt>
+<dd class="field-even"><p>&gt;=4.9</p>
 </dd>
+<dt class="field-odd">Depends matplotlib</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends networkx</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends nltk</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends numpy</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends openpyxl</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends pandas</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends paramiko</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends pydot</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends python</dt>
+<dd class="field-odd"><p>&gt;=3.5,&lt;3.6.0a0</p>
+</dd>
+<dt class="field-even">Depends scikit-learn</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends scipy</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends six</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends statsmodels</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends tqdm</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends xlrd</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -196,7 +215,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

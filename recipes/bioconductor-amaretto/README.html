@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-amaretto">
 <dl class="recipe">
 <dt id="recipe-bioconductor-amaretto">
-<em class="property">recipe </em><code class="descname">bioconductor-amaretto</code><a class="headerlink" href="#recipe-bioconductor-amaretto" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-amaretto</code><a class="headerlink" href="#recipe-bioconductor-amaretto" title="Permalink to this definition">¶</a></dt>
 <dd><p>Integrating an increasing number of available multi-omics cancer data remains one of the main challenges to improve our understanding of cancer. One of the main challenges is using multi-omics data for identifying novel cancer driver genes. We have developed an algorithm, called AMARETTO, that integrates copy number, DNA methylation and gene expression data to identify a set of driver genes by analyzing cancer samples and connects them to clusters of co-expressed genes, which we define as modules. We applied AMARETTO in a pancancer setting to identify cancer driver genes and their modules on multiple cancer sites. AMARETTO captures modules enriched in angiogenesis, cell cycle and EMT, and modules that accurately predict survival and molecular subtypes. This allows AMARETTO to identify novel cancer driver genes directing canonical cancer pathways.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,15 +123,13 @@
 
 <dl class="package">
 <dt id="package-bioconductor-amaretto">
-<em class="property">package </em><code class="descname">bioconductor-amaretto</code><a class="headerlink" href="#package-bioconductor-amaretto" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-amaretto</code><a class="headerlink" href="#package-bioconductor-amaretto" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-amaretto"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-amaretto.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-amaretto"><img alt="docker_bioconductor-amaretto" src="https://quay.io/repository/biocontainers/bioconductor-amaretto/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">Required By</dt>
-<dd class="field-even"><ul class="simple">
-</ul>
-</dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -169,7 +167,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

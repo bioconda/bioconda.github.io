@@ -104,10 +104,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -131,7 +131,7 @@ while these are processed. Commands should not do anything taking
 more than milliseconds.</p>
 </div>
 <p class="rubric">Functions</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -154,19 +154,19 @@ more than milliseconds.</p>
 <p class="rubric">Documentation</p>
 <dl class="function">
 <dt id="bioconda_utils.bot.events.handle_check_run">
-<code class="descclassname">bioconda_utils.bot.events.</code><code class="descname">handle_check_run</code><span class="sig-paren">(</span><em>event</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/events.html#handle_check_run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.events.handle_check_run" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.events.</code><code class="sig-name descname">handle_check_run</code><span class="sig-paren">(</span><em class="sig-param">event</em>, <em class="sig-param">ghapi</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/events.html#handle_check_run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.events.handle_check_run" title="Permalink to this definition">¶</a></dt>
 <dd><p>Handle check run event</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.bot.events.handle_check_suite">
-<code class="descclassname">bioconda_utils.bot.events.</code><code class="descname">handle_check_suite</code><span class="sig-paren">(</span><em>event</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/events.html#handle_check_suite"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.events.handle_check_suite" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.events.</code><code class="sig-name descname">handle_check_suite</code><span class="sig-paren">(</span><em class="sig-param">event</em>, <em class="sig-param">ghapi</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/events.html#handle_check_suite"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.events.handle_check_suite" title="Permalink to this definition">¶</a></dt>
 <dd><p>Handle check suite event</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.bot.events.handle_comment_created">
-<code class="descclassname">bioconda_utils.bot.events.</code><code class="descname">handle_comment_created</code><span class="sig-paren">(</span><em>event</em>, <em>ghapi</em>, <em>*args</em>, <em>**_kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/events.html#handle_comment_created"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.events.handle_comment_created" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.events.</code><code class="sig-name descname">handle_comment_created</code><span class="sig-paren">(</span><em class="sig-param">event</em>, <em class="sig-param">ghapi</em>, <em class="sig-param">*args</em>, <em class="sig-param">**_kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/events.html#handle_comment_created"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.events.handle_comment_created" title="Permalink to this definition">¶</a></dt>
 <dd><p>Handles comments on issues</p>
 <ul class="simple">
 <li><p>dispatches &#64;biocondabot commands</p></li>
@@ -176,7 +176,7 @@ more than milliseconds.</p>
 
 <dl class="function">
 <dt id="bioconda_utils.bot.events.handle_pull_request">
-<code class="descclassname">bioconda_utils.bot.events.</code><code class="descname">handle_pull_request</code><span class="sig-paren">(</span><em>event</em>, <em>ghapi</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/events.html#handle_pull_request"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.events.handle_pull_request" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.events.</code><code class="sig-name descname">handle_pull_request</code><span class="sig-paren">(</span><em class="sig-param">event</em>, <em class="sig-param">ghapi</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/events.html#handle_pull_request"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.events.handle_pull_request" title="Permalink to this definition">¶</a></dt>
 <dd><p>pull_request can have the following actions:
 - assigned / unassigned
 - review_requested / review_request_removed
@@ -200,7 +200,7 @@ more than milliseconds.</p>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

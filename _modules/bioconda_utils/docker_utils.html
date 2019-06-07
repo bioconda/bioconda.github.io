@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -242,46 +242,17 @@
     <span class="k">pass</span></div>
 
 
-<div class="viewcode-block" id="dummy_recipe"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.docker_utils.html#bioconda_utils.docker_utils.dummy_recipe">[docs]</a><span class="k">def</span> <span class="nf">dummy_recipe</span><span class="p">():</span>
-    <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    Builds a throwaway recipe in a temp dir.</span>
 
-<span class="sd">    The best way to figure out where a recipe will be built seems to be by</span>
-<span class="sd">    running ``conda build --output $RECIPE``, but this means a recipe has to</span>
-<span class="sd">    exist. This creates a minimal meta.yaml file in a temp dir that can be used</span>
-<span class="sd">    as an example recipe.</span>
-
-<span class="sd">    Caller is expected to delete when done.</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">tmpdir</span> <span class="o">=</span> <span class="n">tempfile</span><span class="o">.</span><span class="n">mkdtemp</span><span class="p">()</span>
-    <span class="n">meta</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">tmpdir</span><span class="p">,</span> <span class="s1">&#39;meta.yaml&#39;</span><span class="p">)</span>
-    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fout</span><span class="p">:</span>
-        <span class="n">fout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">dedent</span><span class="p">(</span>
-            <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">            package:</span>
-<span class="sd">                name: deleteme</span>
-<span class="sd">            &quot;&quot;&quot;</span><span class="p">))</span>
-    <span class="k">return</span> <span class="n">tmpdir</span></div>
-
-
-<div class="viewcode-block" id="get_host_conda_bld"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.docker_utils.html#bioconda_utils.docker_utils.get_host_conda_bld">[docs]</a><span class="k">def</span> <span class="nf">get_host_conda_bld</span><span class="p">(</span><span class="n">purge</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+<div class="viewcode-block" id="get_host_conda_bld"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.docker_utils.html#bioconda_utils.docker_utils.get_host_conda_bld">[docs]</a><span class="k">def</span> <span class="nf">get_host_conda_bld</span><span class="p">():</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Identifies the conda-bld directory on the host.</span>
 
 <span class="sd">    Assumes that conda-build is installed.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">recipe</span> <span class="o">=</span> <span class="n">dummy_recipe</span><span class="p">()</span>
-    <span class="n">res</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span>
-        <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span>
-            <span class="n">sp</span><span class="o">.</span><span class="n">check_output</span><span class="p">(</span>
-                <span class="p">[</span><span class="s1">&#39;conda&#39;</span><span class="p">,</span> <span class="s1">&#39;build&#39;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="s1">&#39;--output&#39;</span><span class="p">],</span>
-                <span class="n">universal_newlines</span><span class="o">=</span><span class="kc">True</span>
-            <span class="p">)</span><span class="o">.</span><span class="n">splitlines</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
-        <span class="p">)</span>
-    <span class="p">)</span>
-    <span class="k">if</span> <span class="n">purge</span><span class="p">:</span>
-        <span class="n">sp</span><span class="o">.</span><span class="n">check_call</span><span class="p">([</span><span class="s1">&#39;conda&#39;</span><span class="p">,</span> <span class="s1">&#39;build&#39;</span><span class="p">,</span> <span class="s1">&#39;purge&#39;</span><span class="p">])</span>
-    <span class="k">return</span> <span class="n">res</span></div>
+    <span class="c1"># v0.16.2: this used to have a side effect, calling conda build purge</span>
+    <span class="c1"># hopefully, it&#39;s not actually needed.</span>
+    <span class="n">build_conf</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">load_conda_build_config</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">build_conf</span><span class="o">.</span><span class="n">build_folder</span></div>
 
 
 <span class="k">class</span> <span class="nc">RecipeBuilder</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
@@ -616,7 +587,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>

@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="peptide-shaker">
 <dl class="recipe">
 <dt id="recipe-peptide-shaker">
-<em class="property">recipe </em><code class="descname">peptide-shaker</code><a class="headerlink" href="#recipe-peptide-shaker" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">peptide-shaker</code><a class="headerlink" href="#recipe-peptide-shaker" title="Permalink to this definition">¶</a></dt>
 <dd><p>PeptideShaker is a search engine independent platform for interpretation of proteomics identification results from multiple search engines,
 currently supporting X!Tandem, MS-GF+, MS Amanda, OMSSA, MyriMatch, Comet, Tide, Mascot, Andromeda and mzIdentML.
 By combining the results from multiple search engines, while re-calculating PTM localization scores and redoing the protein inference,
@@ -129,22 +129,19 @@ PeptideShaker attempts to give you the best possible understanding of your prote
 
 <dl class="package">
 <dt id="package-peptide-shaker">
-<em class="property">package </em><code class="descname">peptide-shaker</code><a class="headerlink" href="#package-peptide-shaker" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">peptide-shaker</code><a class="headerlink" href="#package-peptide-shaker" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/peptide-shaker"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/peptide-shaker.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/peptide-shaker"><img alt="docker_peptide-shaker" src="https://quay.io/repository/biocontainers/peptide-shaker/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.16.40-1, 1.16.40-0, 1.16.36-0, 1.16.35-1, 1.16.35-0, 1.16.32-1, 1.16.31-1, 1.16.30-1, 1.16.29-1, 1.16.26-1, 1.16.23-0, 1.16.22-0, 1.16.20-0, 1.16.17-0, 1.16.16-1, 1.16.16-0, 1.16.15-1, 1.16.15-0, 1.16.14-0, 1.16.13-1, 1.16.13-0, 1.16.4-1, 1.16.4-0, 1.16.3-1, 1.16.3-0, 1.16.0-1, 1.16.0-0, 1.15.1-0, 1.15.0-0, 1.14.6-0, 1.14.4-0, 1.13.6-1, 1.13.6-0, 1.13.3-1, 1.13.3-0, 1.11.0-1, 1.11.0-0, 1.1.3-3, 1.1.3-2, 1.1.3-1</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/openjdk-feedstock"><strong>openjdk</strong></a> &gt;=6</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends openjdk</dt>
+<dd class="field-even"><p>&gt;=6</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
-</dd>
+<dt class="field-odd">Depends python</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -191,7 +188,7 @@ For example run it with “peptide-shaker -Xms512m -Xmx1g”</p>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-biosvd">
 <dl class="recipe">
 <dt id="recipe-bioconductor-biosvd">
-<em class="property">recipe </em><code class="descname">bioconductor-biosvd</code><a class="headerlink" href="#recipe-bioconductor-biosvd" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-biosvd</code><a class="headerlink" href="#recipe-bioconductor-biosvd" title="Permalink to this definition">¶</a></dt>
 <dd><p>The biosvd package contains functions to reduce the input data set from the feature x assay space to the reduced diagonalized eigenfeature x eigenassay space, with the eigenfeatures and eigenassays unique orthonormal superpositions of the features and assays, respectively. Results of SVD applied to the data can subsequently be inspected based on generated graphs, such as a heatmap of the eigenfeature x assay matrix and a bar plot with the eigenexpression fractions of all eigenfeatures. These graphs aid in deciding which eigenfeatures and eigenassays to filter out (i.e., eigenfeatures representing steady state, noise, or experimental artifacts; or when applied to the variance in the data, eigenfeatures representing steady-scale variance). After possible removal of steady state expression, steady-scale variance, noise and experimental artifacts, and after re-applying SVD to the normalized data, a summary html report of the eigensystem is generated, containing among others polar plots of the assays and features, a table with the list of features sortable according to their coordinates, radius and phase in the polar plot, and a visualization of the data sorted according to the two selected eigenfeatures and eigenassays with colored feature/assay annotation information when provided. This gives a global picture of the dynamics of expression/intensity levels, in which individual features and assays are classified in groups of similar regulation and function or similar cellular state and biological phenotype.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -126,24 +126,25 @@
 
 <dl class="package">
 <dt id="package-bioconductor-biosvd">
-<em class="property">package </em><code class="descname">bioconductor-biosvd</code><a class="headerlink" href="#package-bioconductor-biosvd" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-biosvd</code><a class="headerlink" href="#package-bioconductor-biosvd" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-biosvd"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-biosvd.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-biosvd"><img alt="docker_bioconductor-biosvd" src="https://quay.io/repository/biocontainers/bioconductor-biosvd/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>2.18.0-1, 2.18.0-0, 2.16.0-0, 2.14.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-biobase/README.html#package-bioconductor-biobase" title="bioconductor-biobase package"><strong>bioconductor-biobase</strong></a> &gt;=2.42.0,&lt;2.43.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-biocgenerics/README.html#package-bioconductor-biocgenerics" title="bioconductor-biocgenerics package"><strong>bioconductor-biocgenerics</strong></a> &gt;=0.28.0,&lt;0.29.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-nmf-feedstock"><strong>r-nmf</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-biobase</dt>
+<dd class="field-even"><p>&gt;=2.42.0,&lt;2.43.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends bioconductor-biocgenerics</dt>
+<dd class="field-odd"><p>&gt;=0.28.0,&lt;0.29.0</p>
 </dd>
+<dt class="field-even">Depends r-base</dt>
+<dd class="field-even"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-odd">Depends r-nmf</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -181,7 +182,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

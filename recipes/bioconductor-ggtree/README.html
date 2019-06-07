@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-ggtree">
 <dl class="recipe">
 <dt id="recipe-bioconductor-ggtree">
-<em class="property">recipe </em><code class="descname">bioconductor-ggtree</code><a class="headerlink" href="#recipe-bioconductor-ggtree" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-ggtree</code><a class="headerlink" href="#recipe-bioconductor-ggtree" title="Permalink to this definition">¶</a></dt>
 <dd><p>‘ggtree’ extends the ‘ggplot2’ plotting system which implemented the grammar of graphics. ‘ggtree’ is designed for visualization and annotation of phylogenetic trees with their covariates and other associated data.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -126,36 +126,41 @@
 
 <dl class="package">
 <dt id="package-bioconductor-ggtree">
-<em class="property">package </em><code class="descname">bioconductor-ggtree</code><a class="headerlink" href="#package-bioconductor-ggtree" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-ggtree</code><a class="headerlink" href="#package-bioconductor-ggtree" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-ggtree"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-ggtree.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-ggtree"><img alt="docker_bioconductor-ggtree" src="https://quay.io/repository/biocontainers/bioconductor-ggtree/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.16.0-0, 1.14.6-0, 1.14.4-0, 1.12.7-0, 1.10.0-0, 1.8.2-0, 1.4.20-0, 1.2.12-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-treeio/README.html#package-bioconductor-treeio" title="bioconductor-treeio package"><strong>bioconductor-treeio</strong></a> &gt;=1.8.0,&lt;1.9.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ape-feedstock"><strong>r-ape</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-dplyr-feedstock"><strong>r-dplyr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ggplot2-feedstock"><strong>r-ggplot2</strong></a> &gt;=3.0.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-magrittr-feedstock"><strong>r-magrittr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-purrr-feedstock"><strong>r-purrr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rlang-feedstock"><strong>r-rlang</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rvcheck-feedstock"><strong>r-rvcheck</strong></a> &gt;=0.1.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-tidyr-feedstock"><strong>r-tidyr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-tidytree-feedstock"><strong>r-tidytree</strong></a> &gt;=0.2.4</p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-treeio</dt>
+<dd class="field-even"><p>&gt;=1.8.0,&lt;1.9.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-lymphoseq/README.html#bioconductor-lymphoseq"><strong class="xref backref">bioconductor-lymphoseq</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-philr/README.html#bioconductor-philr"><strong class="xref backref">bioconductor-philr</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-universalmotif/README.html#bioconductor-universalmotif"><strong class="xref backref">bioconductor-universalmotif</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-singlecelltk/README.html#bioconductor-singlecelltk"><strong class="xref backref">bioconductor-singlecelltk</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-linc/README.html#bioconductor-linc"><strong class="xref backref">bioconductor-linc</strong></a></p></li>
-</ul>
+<dt class="field-odd">Depends r-ape</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-base</dt>
+<dd class="field-even"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
 </dd>
+<dt class="field-odd">Depends r-dplyr</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-ggplot2</dt>
+<dd class="field-even"><p>&gt;=3.0.0</p>
+</dd>
+<dt class="field-odd">Depends r-magrittr</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-purrr</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-rlang</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-rvcheck</dt>
+<dd class="field-even"><p>&gt;=0.1.0</p>
+</dd>
+<dt class="field-odd">Depends r-tidyr</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-tidytree</dt>
+<dd class="field-even"><p>&gt;=0.2.4</p>
+</dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -193,7 +198,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

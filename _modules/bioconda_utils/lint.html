@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -610,6 +610,12 @@
         <span class="sd">&quot;&quot;&quot;Clears the lint messages stored in linter&quot;&quot;&quot;</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">_messages</span> <span class="o">=</span> <span class="p">[]</span></div>
 
+    <span class="k">def</span> <span class="nf">get_report</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
+            <span class="n">f</span><span class="s2">&quot;</span><span class="si">{msg.severity.name}</span><span class="s2">: </span><span class="si">{msg.fname}</span><span class="s2">:</span><span class="si">{msg.end_line}</span><span class="s2">: </span><span class="si">{msg.check}</span><span class="s2">: </span><span class="si">{msg.title}</span><span class="s2">&quot;</span>
+            <span class="k">for</span> <span class="n">msg</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_messages</span><span class="p">()</span>
+        <span class="p">)</span>
+
 <div class="viewcode-block" id="Linter.load_skips"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.Linter.load_skips">[docs]</a>    <span class="k">def</span> <span class="nf">load_skips</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Parses lint skips</span>
 
@@ -747,7 +753,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>

@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-genesis">
 <dl class="recipe">
 <dt id="recipe-bioconductor-genesis">
-<em class="property">recipe </em><code class="descname">bioconductor-genesis</code><a class="headerlink" href="#recipe-bioconductor-genesis" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-genesis</code><a class="headerlink" href="#recipe-bioconductor-genesis" title="Permalink to this definition">¶</a></dt>
 <dd><p>The GENESIS package provides methodology for estimating, inferring, and accounting for population and pedigree structure in genetic analyses.  The current implementation provides functions to perform PC-AiR (Conomos et al., 2015, Gen Epi) and PC-Relate (Conomos et al., 2016, AJHG). PC-AiR performs a Principal Components Analysis on genome-wide SNP data for the detection of population structure in a sample that may contain known or cryptic relatedness. Unlike standard PCA, PC-AiR accounts for relatedness in the sample to provide accurate ancestry inference that is not confounded by family structure. PC-Relate uses ancestry representative principal components to adjust for population structure/ancestry and accurately estimate measures of recent genetic relatedness such as kinship coefficients, IBD sharing probabilities, and inbreeding coefficients. Additionally, functions are provided to perform efficient variance component estimation and mixed model association testing for both quantitative and binary phenotypes.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,37 +123,59 @@
 
 <dl class="package">
 <dt id="package-bioconductor-genesis">
-<em class="property">package </em><code class="descname">bioconductor-genesis</code><a class="headerlink" href="#package-bioconductor-genesis" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-genesis</code><a class="headerlink" href="#package-bioconductor-genesis" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-genesis"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-genesis.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-genesis"><img alt="docker_bioconductor-genesis" src="https://quay.io/repository/biocontainers/bioconductor-genesis/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>2.12.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-biobase/README.html#package-bioconductor-biobase" title="bioconductor-biobase package"><strong>bioconductor-biobase</strong></a> &gt;=2.42.0,&lt;2.43.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-biocgenerics/README.html#package-bioconductor-biocgenerics" title="bioconductor-biocgenerics package"><strong>bioconductor-biocgenerics</strong></a> &gt;=0.28.0,&lt;0.29.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-gdsfmt/README.html#package-bioconductor-gdsfmt" title="bioconductor-gdsfmt package"><strong>bioconductor-gdsfmt</strong></a> &gt;=1.18.0,&lt;1.19.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-genomicranges/README.html#package-bioconductor-genomicranges" title="bioconductor-genomicranges package"><strong>bioconductor-genomicranges</strong></a> &gt;=1.34.0,&lt;1.35.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-gwastools/README.html#package-bioconductor-gwastools" title="bioconductor-gwastools package"><strong>bioconductor-gwastools</strong></a> &gt;=1.28.0,&lt;1.29.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-iranges/README.html#package-bioconductor-iranges" title="bioconductor-iranges package"><strong>bioconductor-iranges</strong></a> &gt;=2.16.0,&lt;2.17.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-s4vectors/README.html#package-bioconductor-s4vectors" title="bioconductor-s4vectors package"><strong>bioconductor-s4vectors</strong></a> &gt;=0.20.0,&lt;0.21.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-seqarray/README.html#package-bioconductor-seqarray" title="bioconductor-seqarray package"><strong>bioconductor-seqarray</strong></a> &gt;=1.22.0,&lt;1.23.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-seqvartools/README.html#package-bioconductor-seqvartools" title="bioconductor-seqvartools package"><strong>bioconductor-seqvartools</strong></a> &gt;=1.20.0,&lt;1.21.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-snprelate/README.html#package-bioconductor-snprelate" title="bioconductor-snprelate package"><strong>bioconductor-snprelate</strong></a> &gt;=1.16.0,&lt;1.17.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-data.table-feedstock"><strong>r-data.table</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-dplyr-feedstock"><strong>r-dplyr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-foreach-feedstock"><strong>r-foreach</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-igraph-feedstock"><strong>r-igraph</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-matrix-feedstock"><strong>r-matrix</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-reshape2-feedstock"><strong>r-reshape2</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-biobase</dt>
+<dd class="field-even"><p>&gt;=2.42.0,&lt;2.43.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends bioconductor-biocgenerics</dt>
+<dd class="field-odd"><p>&gt;=0.28.0,&lt;0.29.0</p>
 </dd>
+<dt class="field-even">Depends bioconductor-gdsfmt</dt>
+<dd class="field-even"><p>&gt;=1.18.0,&lt;1.19.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-genomicranges</dt>
+<dd class="field-odd"><p>&gt;=1.34.0,&lt;1.35.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-gwastools</dt>
+<dd class="field-even"><p>&gt;=1.28.0,&lt;1.29.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-iranges</dt>
+<dd class="field-odd"><p>&gt;=2.16.0,&lt;2.17.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-s4vectors</dt>
+<dd class="field-even"><p>&gt;=0.20.0,&lt;0.21.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-seqarray</dt>
+<dd class="field-odd"><p>&gt;=1.22.0,&lt;1.23.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-seqvartools</dt>
+<dd class="field-even"><p>&gt;=1.20.0,&lt;1.21.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-snprelate</dt>
+<dd class="field-odd"><p>&gt;=1.16.0,&lt;1.17.0</p>
+</dd>
+<dt class="field-even">Depends r-base</dt>
+<dd class="field-even"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-odd">Depends r-data.table</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-dplyr</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-foreach</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-igraph</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-matrix</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-reshape2</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -191,7 +213,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

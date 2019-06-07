@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="r-jackstraw">
 <dl class="recipe">
 <dt id="recipe-r-jackstraw">
-<em class="property">recipe </em><code class="descname">r-jackstraw</code><a class="headerlink" href="#recipe-r-jackstraw" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">r-jackstraw</code><a class="headerlink" href="#recipe-r-jackstraw" title="Permalink to this definition">¶</a></dt>
 <dd><p>Test for association between the observed data and their systematic patterns of variations. Systematic patterns may be captured by latent variables using principal component analysis (PCA), factor analysis (FA), and related methods. The jackstraw enables statistical testing for association between observed variables and latent variables, as captured by PCs or other estimates. Similarly, unsupervised clustering, such as K-means clustering, partition around medoids (PAM), and others, finds subpopulations among the observed variables. The jackstraw estimates statistical significance of cluster membership, including unsupervised evaluation of cell identities in single cell RNA-seq. P-values and posterior probabilities allows one to rigorously evaluate the strength of cluster membership assignments.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,29 +123,31 @@
 
 <dl class="package">
 <dt id="package-r-jackstraw">
-<em class="property">package </em><code class="descname">r-jackstraw</code><a class="headerlink" href="#package-r-jackstraw" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">r-jackstraw</code><a class="headerlink" href="#package-r-jackstraw" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-jackstraw"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-jackstraw.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-jackstraw"><img alt="docker_r-jackstraw" src="https://quay.io/repository/biocontainers/r-jackstraw/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.3-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-lfa/README.html#package-bioconductor-lfa" title="bioconductor-lfa package"><strong>bioconductor-lfa</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-qvalue/README.html#package-bioconductor-qvalue" title="bioconductor-qvalue package"><strong>bioconductor-qvalue</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-cluster-feedstock"><strong>r-cluster</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-clusterr-feedstock"><strong>r-clusterr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-corpcor-feedstock"><strong>r-corpcor</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-irlba-feedstock"><strong>r-irlba</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rsvd-feedstock"><strong>r-rsvd</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-lfa</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends bioconductor-qvalue</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-base</dt>
+<dd class="field-even"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-edge/README.html#bioconductor-edge"><strong class="xref backref">bioconductor-edge</strong></a></p></li>
-</ul>
-</dd>
+<dt class="field-odd">Depends r-cluster</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-clusterr</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-corpcor</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-irlba</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-rsvd</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -183,7 +185,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

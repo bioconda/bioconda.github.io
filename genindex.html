@@ -87,10 +87,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -512,7 +512,7 @@
         <li><a href="recipes/arboreto/README.html#recipe-arboreto">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.Package.arch">arch (bioconda_utils.bot.tasks.Package attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.Package.arch">arch() (bioconda_utils.bot.tasks.Package property)</a>
 </li>
       <li><a href="recipes/arem/README.html#package-arem">arem (package)</a>
 
@@ -520,7 +520,7 @@
         <li><a href="recipes/arem/README.html#recipe-arem">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.CondaBuildConfigFile.arg">arg (bioconda_utils.utils.CondaBuildConfigFile attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.CondaBuildConfigFile.arg">arg() (bioconda_utils.utils.CondaBuildConfigFile property)</a>
 </li>
       <li><a href="recipes/argutils/README.html#package-argutils">argutils (package)</a>
 
@@ -720,15 +720,15 @@
       </ul></li>
       <li><a href="_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.AutoRecipesDirective">AutoRecipesDirective (class in bioconda_utils.sphinxext)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.avatarUrl">avatarUrl (bioconda_utils.gitter.Room attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.avatarUrl">avatarUrl() (bioconda_utils.gitter.Room property)</a>
 
       <ul>
-        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User.avatarUrl">(bioconda_utils.gitter.User attribute)</a>
+        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User.avatarUrl">(bioconda_utils.gitter.User property)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User.avatarUrlMedium">avatarUrlMedium (bioconda_utils.gitter.User attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User.avatarUrlMedium">avatarUrlMedium() (bioconda_utils.gitter.User property)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User.avatarUrlSmall">avatarUrlSmall (bioconda_utils.gitter.User attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User.avatarUrlSmall">avatarUrlSmall() (bioconda_utils.gitter.User property)</a>
 </li>
       <li><a href="recipes/avro-cwl/README.html#package-avro-cwl">avro-cwl (package)</a>
 
@@ -20112,7 +20112,7 @@
         <li><a href="recipes/bmtool/README.html#recipe-bmtool">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintMessage.body">body (bioconda_utils.lint.LintMessage attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintMessage.body">body() (bioconda_utils.lint.LintMessage property)</a>
 </li>
       <li><a href="recipes/booster/README.html#package-booster">booster (package)</a>
 
@@ -20272,7 +20272,7 @@
         <li><a href="_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.UpdateVersion.build_config">(bioconda_utils.autobump.UpdateVersion attribute)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.build_number">build_number (bioconda_utils.recipe.Recipe attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.build_number">build_number() (bioconda_utils.recipe.Recipe property)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.build_number_needs_bump">build_number_needs_bump (class in bioconda_utils.lint.check_repo)</a>
 </li>
@@ -20398,7 +20398,7 @@
         <li><a href="recipes/cancerit-allelecount/README.html#recipe-cancerit-allelecount">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintMessage.canfix">canfix (bioconda_utils.lint.LintMessage attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintMessage.canfix">canfix() (bioconda_utils.lint.LintMessage property)</a>
 </li>
       <li><a href="recipes/cannoli/README.html#package-cannoli">cannoli (package)</a>
 
@@ -20614,12 +20614,14 @@
         <li><a href="recipes/chanjo/README.html#recipe-chanjo">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.RepoData.channels">channels (bioconda_utils.utils.RepoData attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.RepoData.channels">channels() (bioconda_utils.utils.RepoData property)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintMessage.check">check (bioconda_utils.lint.LintMessage attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintMessage.check">check() (bioconda_utils.lint.LintMessage property)</a>
+
+      <ul>
+        <li><a href="_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.check">(in module bioconda_utils.update_pinnings)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.check">check() (in module bioconda_utils.update_pinnings)</a>
-</li>
+      </ul></li>
       <li><a href="recipes/check-sort-order/README.html#package-check-sort-order">check-sort-order (package)</a>
 
       <ul>
@@ -21124,6 +21126,8 @@
         <li><a href="recipes/concoct/README.html#recipe-concoct">(recipe)</a>
 </li>
       </ul></li>
+      <li><a href="_autosummary/bioconda_utils.build.html#bioconda_utils.build.conda_build_purge">conda_build_purge() (in module bioconda_utils.build)</a>
+</li>
       <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.conda_release">conda_release() (bioconda_utils.recipe.Recipe method)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.conda_render">conda_render() (bioconda_utils.recipe.Recipe method)</a>
@@ -21724,7 +21728,7 @@
         <li><a href="recipes/dextractor/README.html#recipe-dextractor">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.RepoData.df">df (bioconda_utils.utils.RepoData attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.RepoData.df">df() (bioconda_utils.utils.RepoData property)</a>
 </li>
       <li><a href="recipes/dfam/README.html#package-dfam">dfam (package)</a>
 
@@ -21800,7 +21804,7 @@
         <li><a href="recipes/dinopy/README.html#recipe-dinopy">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.dir">dir (bioconda_utils.recipe.Recipe attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.dir">dir() (bioconda_utils.recipe.Recipe property)</a>
 </li>
       <li><a href="recipes/discasm/README.html#package-discasm">discasm (package)</a>
 
@@ -21830,7 +21834,7 @@
 </li>
       <li><a href="_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.CommandDispatch.dispatch">dispatch() (bioconda_utils.bot.commands.CommandDispatch method)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User.displayName">displayName (bioconda_utils.gitter.User attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User.displayName">displayName() (bioconda_utils.gitter.User property)</a>
 </li>
       <li><a href="recipes/disty/README.html#package-disty">disty (package)</a>
 
@@ -21988,8 +21992,6 @@
         <li><a href="recipes/dudes/README.html#recipe-dudes">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.docker_utils.html#bioconda_utils.docker_utils.dummy_recipe">dummy_recipe() (in module bioconda_utils.docker_utils)</a>
-</li>
       <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.dump">dump() (bioconda_utils.recipe.Recipe method)</a>
 </li>
       <li><a href="recipes/dunovo/README.html#package-dunovo">dunovo (package)</a>
@@ -22134,7 +22136,7 @@
 </li>
       <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.GitterAPI.edit_room">edit_room() (bioconda_utils.gitter.GitterAPI method)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.editedAt">editedAt (bioconda_utils.gitter.Message attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.editedAt">editedAt() (bioconda_utils.gitter.Message property)</a>
 </li>
       <li><a href="recipes/edittag/README.html#package-edittag">edittag (package)</a>
 
@@ -22246,7 +22248,7 @@
 </li>
       <li><a href="recipes/enasearch/README.html#recipe-enasearch/0.0.6">enasearch/0.0.6 (recipe)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintMessage.end_line">end_line (bioconda_utils.lint.LintMessage attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintMessage.end_line">end_line() (bioconda_utils.lint.LintMessage property)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessing">EndProcessing</a>
 </li>
@@ -22765,7 +22767,7 @@
         <li><a href="recipes/fastx_toolkit/README.html#recipe-fastx_toolkit">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.favourite">favourite (bioconda_utils.gitter.Room attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.favourite">favourite() (bioconda_utils.gitter.Room property)</a>
 </li>
       <li><a href="recipes/fcp/README.html#package-fcp">fcp (package)</a>
 
@@ -23009,10 +23011,10 @@
         <li><a href="recipes/fmlrc/README.html#recipe-fmlrc">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.Package.fname">fname (bioconda_utils.bot.tasks.Package attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.Package.fname">fname() (bioconda_utils.bot.tasks.Package property)</a>
 
       <ul>
-        <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintMessage.fname">(bioconda_utils.lint.LintMessage attribute)</a>
+        <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintMessage.fname">(bioconda_utils.lint.LintMessage property)</a>
 </li>
       </ul></li>
       <li><a href="recipes/focus/README.html#package-focus">focus (package)</a>
@@ -23109,7 +23111,7 @@
       </ul></li>
       <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.from_file">from_file() (bioconda_utils.recipe.Recipe class method)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.fromUser">fromUser (bioconda_utils.gitter.Message attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.fromUser">fromUser() (bioconda_utils.gitter.Message property)</a>
 </li>
       <li><a href="recipes/fsa/README.html#package-fsa">fsa (package)</a>
 
@@ -23821,7 +23823,7 @@
 </li>
       <li><a href="_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.GithubTag">GithubTag (class in bioconda_utils.hosters)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.githubType">githubType (bioconda_utils.gitter.Room attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.githubType">githubType() (bioconda_utils.gitter.Room property)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.GitlabTag">GitlabTag (class in bioconda_utils.hosters)</a>
 </li>
@@ -24049,7 +24051,7 @@
         <li><a href="recipes/groot/README.html#recipe-groot">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.group">group (bioconda_utils.gitter.Room attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.group">group() (bioconda_utils.gitter.Room property)</a>
 </li>
       <li><a href="recipes/group_humann2_uniref_abundances_to_go/README.html#package-group_humann2_uniref_abundances_to_go">group_humann2_uniref_abundances_to_go (package)</a>
 
@@ -24057,7 +24059,7 @@
         <li><a href="recipes/group_humann2_uniref_abundances_to_go/README.html#recipe-group_humann2_uniref_abundances_to_go">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.groupId">groupId (bioconda_utils.gitter.Room attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.groupId">groupId() (bioconda_utils.gitter.Room property)</a>
 </li>
       <li><a href="recipes/gseapy/README.html#package-gseapy">gseapy (package)</a>
 
@@ -24107,10 +24109,10 @@
         <li><a href="recipes/gustaf/README.html#recipe-gustaf">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.gv">gv (bioconda_utils.gitter.Message attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.gv">gv() (bioconda_utils.gitter.Message property)</a>
 
       <ul>
-        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User.gv">(bioconda_utils.gitter.User attribute)</a>
+        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User.gv">(bioconda_utils.gitter.User property)</a>
 </li>
       </ul></li>
       <li><a href="recipes/gvcf-regions/README.html#package-gvcf-regions">gvcf-regions (package)</a>
@@ -24215,6 +24217,8 @@
         <li><a href="recipes/harvesttools/README.html#recipe-harvesttools">(recipe)</a>
 </li>
       </ul></li>
+      <li><a href="_autosummary/bioconda_utils.build.html#bioconda_utils.build.has_conda_in_build">has_conda_in_build() (in module bioconda_utils.build)</a>
+</li>
       <li><a href="_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.has_windows_bat_file">has_windows_bat_file (class in bioconda_utils.lint.check_policy)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.HasSelector">HasSelector</a>
@@ -24451,7 +24455,7 @@
         <li><a href="recipes/hs-blastn/README.html#recipe-hs-blastn">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.html">html (bioconda_utils.gitter.Message attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.html">html() (bioconda_utils.gitter.Message property)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.HTMLHoster">HTMLHoster (class in bioconda_utils.hosters)</a>
 </li>
@@ -24563,12 +24567,12 @@
         <li><a href="recipes/icqsol/README.html#recipe-icqsol">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.id">id (bioconda_utils.gitter.Message attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.id">id() (bioconda_utils.gitter.Message property)</a>
 
       <ul>
-        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.id">(bioconda_utils.gitter.Room attribute)</a>
+        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.id">(bioconda_utils.gitter.Room property)</a>
 </li>
-        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User.id">(bioconda_utils.gitter.User attribute)</a>
+        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User.id">(bioconda_utils.gitter.User property)</a>
 </li>
       </ul></li>
       <li><a href="recipes/idba/README.html#package-idba">idba (package)</a>
@@ -24745,11 +24749,11 @@
       </ul></li>
       <li><a href="_autosummary/bioconda_utils.bot.worker.html#bioconda_utils.bot.worker.install_gpg_key">install_gpg_key() (in module bioconda_utils.bot.worker)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.PRInfo.installation">installation (bioconda_utils.bot.tasks.PRInfo attribute)</a>
-</li>
       <li><a href="_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubAppHandler.INSTALLATION">INSTALLATION (bioconda_utils.githubhandler.GitHubAppHandler attribute)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.installation">installation (bioconda_utils.githubhandler.GitHubHandler attribute)</a>
+</li>
+      <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.PRInfo.installation">installation() (bioconda_utils.bot.tasks.PRInfo property)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubAppHandler.INSTALLATION_TOKEN">INSTALLATION_TOKEN (bioconda_utils.githubhandler.GitHubAppHandler attribute)</a>
 </li>
@@ -24845,6 +24849,8 @@
 </li>
       <li><a href="_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.is_org">is_org() (bioconda_utils.githubhandler.GitHubHandler method)</a>
 </li>
+      <li><a href="_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.is_sha">is_sha() (bioconda_utils.githandler.GitHandlerBase static method)</a>
+</li>
       <li><a href="_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.is_team_member">is_team_member() (bioconda_utils.githubhandler.GitHubHandler method)</a>
 </li>
       <li><a href="recipes/isatools/README.html#package-isatools">isatools (package)</a>
@@ -24879,9 +24885,9 @@
         <li><a href="recipes/isoseq3/README.html#recipe-isoseq3">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.PRInfo.issue_number">issue_number (bioconda_utils.bot.tasks.PRInfo attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.PRInfo.issue_number">issue_number() (bioconda_utils.bot.tasks.PRInfo property)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.issues">issues (bioconda_utils.gitter.Message attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.issues">issues() (bioconda_utils.gitter.Message property)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.IssueState">IssueState (class in bioconda_utils.githubhandler)</a>
 </li>
@@ -25321,7 +25327,7 @@
       </ul></li>
       <li><a href="_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.last_commit_to_master">last_commit_to_master() (in module bioconda_utils.utils)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.lastAccessTime">lastAccessTime (bioconda_utils.gitter.Room attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.lastAccessTime">lastAccessTime() (bioconda_utils.gitter.Room property)</a>
 </li>
       <li><a href="recipes/lastz/README.html#package-lastz">lastz (package)</a>
 
@@ -25473,9 +25479,7 @@
         <li><a href="recipes/lima/README.html#recipe-lima">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncPipeline.limit_inflight">limit_inflight (bioconda_utils.aiopipe.AsyncPipeline attribute)</a>
-</li>
-      <li><a href="_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.link_pattern">link_pattern (bioconda_utils.hosters.Hoster attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.link_pattern">link_pattern() (bioconda_utils.hosters.Hoster property)</a>
 </li>
       <li><a href="recipes/linkage2allegro/README.html#package-linkage2allegro">linkage2allegro (package)</a>
 
@@ -25483,14 +25487,14 @@
         <li><a href="recipes/linkage2allegro/README.html#recipe-linkage2allegro">(recipe)</a>
 </li>
       </ul></li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="recipes/links/README.html#package-links">links (package)</a>
 
       <ul>
         <li><a href="recipes/links/README.html#recipe-links">(recipe)</a>
 </li>
       </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.Linter.lint">lint() (bioconda_utils.lint.Linter method)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.Linter.lint_one">lint_one() (bioconda_utils.lint.Linter method)</a>
@@ -25567,6 +25571,8 @@
 </li>
       <li><a href="_autosummary/bioconda_utils.bot.chat.html#bioconda_utils.bot.chat.logger">logger (in module bioconda_utils.bot.chat)</a>
 </li>
+      <li><a href="_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.LoggingSourceRenameFilter">LoggingSourceRenameFilter (class in bioconda_utils.utils)</a>
+</li>
       <li><a href="_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.login">login() (bioconda_utils.githubhandler.GitHubHandler method)</a>
 </li>
       <li><a href="recipes/logol/README.html#package-logol">logol (package)</a>
@@ -25590,11 +25596,9 @@
 </li>
       </ul></li>
       <li><a href="_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncPipeline.loop">loop (bioconda_utils.aiopipe.AsyncPipeline attribute)</a>
-
-      <ul>
-        <li><a href="_autosummary/bioconda_utils.bot.worker.html#bioconda_utils.bot.worker.AsyncTask.loop">(bioconda_utils.bot.worker.AsyncTask attribute)</a>
 </li>
-      </ul></li>
+      <li><a href="_autosummary/bioconda_utils.bot.worker.html#bioconda_utils.bot.worker.AsyncTask.loop">loop() (bioconda_utils.bot.worker.AsyncTask property)</a>
+</li>
       <li><a href="recipes/lordec/README.html#package-lordec">lordec (package)</a>
 
       <ul>
@@ -25645,7 +25649,7 @@
         <li><a href="recipes/lumpy-sv/README.html#recipe-lumpy-sv">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.lurk">lurk (bioconda_utils.gitter.Room attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.lurk">lurk() (bioconda_utils.gitter.Room property)</a>
 </li>
       <li><a href="recipes/lz4-bin/README.html#package-lz4-bin">lz4-bin (package)</a>
 
@@ -25709,7 +25713,7 @@
       </ul></li>
       <li><a href="_autosummary/bioconda_utils.cran_skeleton.html#bioconda_utils.cran_skeleton.main">main() (in module bioconda_utils.cran_skeleton)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.maintainers">maintainers (bioconda_utils.recipe.Recipe attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.maintainers">maintainers() (bioconda_utils.recipe.Recipe property)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck.make_message">make_message() (bioconda_utils.lint.LintCheck class method)</a>
 </li>
@@ -26009,10 +26013,10 @@
       </ul></li>
       <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Mention">Mention (class in bioconda_utils.gitter)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.mentions">mentions (bioconda_utils.gitter.Message attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.mentions">mentions() (bioconda_utils.gitter.Message property)</a>
 
       <ul>
-        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.mentions">(bioconda_utils.gitter.Room attribute)</a>
+        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.mentions">(bioconda_utils.gitter.Room property)</a>
 </li>
       </ul></li>
       <li><a href="recipes/meraculous/README.html#package-meraculous">meraculous (package)</a>
@@ -26063,12 +26067,10 @@
 </li>
       <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck.messages">messages (bioconda_utils.lint.LintCheck attribute)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.meta">meta (bioconda_utils.gitter.Message attribute)</a>
-
-      <ul>
-        <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.meta">(bioconda_utils.recipe.Recipe attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.meta">meta (bioconda_utils.recipe.Recipe attribute)</a>
 </li>
-      </ul></li>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.meta">meta() (bioconda_utils.gitter.Message property)</a>
+</li>
       <li><a href="recipes/meta-sparse/README.html#package-meta-sparse">meta-sparse (package)</a>
 
       <ul>
@@ -26767,7 +26769,7 @@
         <li><a href="recipes/mugsy/README.html#recipe-mugsy">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.build.html#bioconda_utils.build.BuildResult.mulled_images">mulled_images (bioconda_utils.build.BuildResult attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.build.html#bioconda_utils.build.BuildResult.mulled_images">mulled_images() (bioconda_utils.build.BuildResult property)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.upload.html#bioconda_utils.upload.mulled_upload">mulled_upload() (in module bioconda_utils.upload)</a>
 </li>
@@ -26895,16 +26897,16 @@
 <h2 id="N">N</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem.name">name (bioconda_utils.aiopipe.EndProcessingItem attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubAppHandler.name">name (bioconda_utils.githubhandler.GitHubAppHandler attribute)</a>
+</li>
+      <li><a href="_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem.name">name() (bioconda_utils.aiopipe.EndProcessingItem property)</a>
 
       <ul>
-        <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.Image.name">(bioconda_utils.bot.tasks.Image attribute)</a>
+        <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.Image.name">(bioconda_utils.bot.tasks.Image property)</a>
 </li>
-        <li><a href="_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubAppHandler.name">(bioconda_utils.githubhandler.GitHubAppHandler attribute)</a>
+        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.name">(bioconda_utils.gitter.Room property)</a>
 </li>
-        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.name">(bioconda_utils.gitter.Room attribute)</a>
-</li>
-        <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.name">(bioconda_utils.recipe.Recipe attribute)</a>
+        <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.name">(bioconda_utils.recipe.Recipe property)</a>
 </li>
       </ul></li>
       <li><a href="recipes/nanoblaster/README.html#package-nanoblaster">nanoblaster (package)</a>
@@ -27229,7 +27231,7 @@
         <li><a href="recipes/nmrpro/README.html#recipe-nmrpro">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.noindex">noindex (bioconda_utils.gitter.Room attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.noindex">noindex() (bioconda_utils.gitter.Room property)</a>
 </li>
       <li><a href="recipes/nonpareil/README.html#package-nonpareil">nonpareil (package)</a>
 
@@ -27411,7 +27413,7 @@
         <li><a href="recipes/oncotator/README.html#recipe-oncotator">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.oneToOne">oneToOne (bioconda_utils.gitter.Room attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.oneToOne">oneToOne() (bioconda_utils.gitter.Room property)</a>
 </li>
       <li><a href="recipes/ont-fast5-api/README.html#package-ont-fast5-api">ont-fast5-api (package)</a>
 
@@ -27541,7 +27543,7 @@
       </ul></li>
       <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.Package">Package (class in bioconda_utils.bot.tasks)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.package_names">package_names (bioconda_utils.recipe.Recipe attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.package_names">package_names() (bioconda_utils.recipe.Recipe property)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.PackageNotFoundError">PackageNotFoundError</a>
 </li>
@@ -27667,10 +27669,10 @@
         <li><a href="recipes/pasta/README.html#recipe-pasta">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.path">path (bioconda_utils.recipe.Recipe attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.path">path() (bioconda_utils.recipe.Recipe property)</a>
 
       <ul>
-        <li><a href="_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.CondaBuildConfigFile.path">(bioconda_utils.utils.CondaBuildConfigFile attribute)</a>
+        <li><a href="_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.CondaBuildConfigFile.path">(bioconda_utils.utils.CondaBuildConfigFile property)</a>
 </li>
       </ul></li>
       <li><a href="recipes/pathogen-profiler/README.html#package-pathogen-profiler">pathogen-profiler (package)</a>
@@ -32049,7 +32051,7 @@
         <li><a href="recipes/protrac/README.html#recipe-protrac">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User.providers">providers (bioconda_utils.gitter.User attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User.providers">providers() (bioconda_utils.gitter.User property)</a>
 </li>
       <li><a href="recipes/psascan/README.html#package-psascan">psascan (package)</a>
 
@@ -32057,7 +32059,7 @@
         <li><a href="recipes/psascan/README.html#recipe-psascan">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.public">public (bioconda_utils.gitter.Room attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.public">public() (bioconda_utils.gitter.Room property)</a>
 </li>
       <li><a href="recipes/pullseq/README.html#package-pullseq">pullseq (package)</a>
 
@@ -34059,7 +34061,7 @@
         <li><a href="recipes/rascaf/README.html#recipe-rascaf">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.rate_limit">rate_limit (bioconda_utils.githubhandler.GitHubHandler attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.rate_limit">rate_limit() (bioconda_utils.githubhandler.GitHubHandler property)</a>
 </li>
       <li><a href="recipes/rawtools/README.html#package-rawtools">rawtools (package)</a>
 
@@ -34125,7 +34127,7 @@
 </li>
       <li><a href="_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.read_from_branch">read_from_branch() (bioconda_utils.githandler.GitHandlerBase method)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.readBy">readBy (bioconda_utils.gitter.Message attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.readBy">readBy() (bioconda_utils.gitter.Message property)</a>
 </li>
       <li><a href="recipes/readfq/README.html#package-readfq">readfq (package)</a>
 
@@ -34176,12 +34178,10 @@
 </li>
       </ul></li>
       <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck.recipe">recipe (bioconda_utils.lint.LintCheck attribute)</a>
-
-      <ul>
-        <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintMessage.recipe">(bioconda_utils.lint.LintMessage attribute)</a>
 </li>
-      </ul></li>
       <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe">Recipe (class in bioconda_utils.recipe)</a>
+</li>
+      <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintMessage.recipe">recipe() (bioconda_utils.lint.LintMessage property)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.recipe_error_to_lint_check">recipe_error_to_lint_check (in module bioconda_utils.lint)</a>
 </li>
@@ -34197,7 +34197,7 @@
 </li>
       <li><a href="_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.RecipeIndex">RecipeIndex (class in bioconda_utils.sphinxext)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.PRInfo.recipes">recipes (bioconda_utils.bot.tasks.PRInfo attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.PRInfo.recipes">recipes() (bioconda_utils.bot.tasks.PRInfo property)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.BiocondaRepoMixin.recipes_folder">recipes_folder (bioconda_utils.githandler.BiocondaRepoMixin attribute)</a>
 </li>
@@ -34221,7 +34221,7 @@
         <li><a href="recipes/red/README.html#recipe-red">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.PRInfo.ref">ref (bioconda_utils.bot.tasks.PRInfo attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.PRInfo.ref">ref() (bioconda_utils.bot.tasks.PRInfo property)</a>
 </li>
       <li><a href="recipes/refinem/README.html#package-refinem">refinem (package)</a>
 
@@ -34251,7 +34251,7 @@
       </ul></li>
       <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.reldir">reldir (bioconda_utils.recipe.Recipe attribute)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.releases_formats">releases_formats (bioconda_utils.hosters.Hoster attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.releases_formats">releases_formats() (bioconda_utils.hosters.Hoster property)</a>
 </li>
       <li><a href="recipes/relocate2/README.html#package-relocate2">relocate2 (package)</a>
 
@@ -34259,7 +34259,7 @@
         <li><a href="recipes/relocate2/README.html#recipe-relocate2">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.relpath">relpath (bioconda_utils.recipe.Recipe attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.relpath">relpath() (bioconda_utils.recipe.Recipe property)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.cran_skeleton.html#bioconda_utils.cran_skeleton.remove_empty_lines">remove_empty_lines() (in module bioconda_utils.cran_skeleton)</a>
 </li>
@@ -34323,17 +34323,17 @@
 </li>
       <li><a href="_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.replace_named_capture_group">replace_named_capture_group() (in module bioconda_utils.hosters)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.PRInfo.repo">repo (bioconda_utils.bot.tasks.PRInfo attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.repo">repo (bioconda_utils.githandler.GitHandlerBase attribute)</a>
 
       <ul>
-        <li><a href="_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.repo">(bioconda_utils.githandler.GitHandlerBase attribute)</a>
-</li>
         <li><a href="_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.repo">(bioconda_utils.githubhandler.GitHubHandler attribute)</a>
 </li>
       </ul></li>
+      <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.PRInfo.repo">repo() (bioconda_utils.bot.tasks.PRInfo property)</a>
+</li>
       <li><a href="_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.RepoData">RepoData (class in bioconda_utils.utils)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.Package.repodata_md">repodata_md (bioconda_utils.bot.tasks.Package attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.Package.repodata_md">repodata_md() (bioconda_utils.bot.tasks.Package property)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.bot.config.html#bioconda_utils.bot.config.REPODATA_TIMEOUT">REPODATA_TIMEOUT (in module bioconda_utils.bot.config)</a>
 </li>
@@ -34579,7 +34579,7 @@
 </li>
       <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room">Room (class in bioconda_utils.gitter)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.roomMember">roomMember (bioconda_utils.gitter.Room attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.roomMember">roomMember() (bioconda_utils.gitter.Room property)</a>
 </li>
       <li><a href="recipes/ropebwt2/README.html#package-ropebwt2">ropebwt2 (package)</a>
 
@@ -34953,7 +34953,7 @@
         <li><a href="recipes/screed/README.html#recipe-screed">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Mention.screenName">screenName (bioconda_utils.gitter.Mention attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Mention.screenName">screenName() (bioconda_utils.gitter.Mention property)</a>
 </li>
       <li><a href="recipes/scrm/README.html#package-scrm">scrm (package)</a>
 
@@ -34999,7 +34999,7 @@
         <li><a href="recipes/secimtools/README.html#recipe-secimtools">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.security">security (bioconda_utils.gitter.Room attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.security">security() (bioconda_utils.gitter.Room property)</a>
 </li>
       <li><a href="recipes/seedme/README.html#package-seedme">seedme (package)</a>
 
@@ -35067,7 +35067,7 @@
       </ul></li>
       <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.GitterAPI.send_message">send_message() (bioconda_utils.gitter.GitterAPI method)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.sent">sent (bioconda_utils.gitter.Message attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.sent">sent() (bioconda_utils.gitter.Message property)</a>
 </li>
       <li><a href="recipes/sentieon/README.html#package-sentieon">sentieon (package)</a>
 
@@ -35238,12 +35238,10 @@
 </li>
       </ul></li>
       <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintCheck.severity">severity (bioconda_utils.lint.LintCheck attribute)</a>
-
-      <ul>
-        <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintMessage.severity">(bioconda_utils.lint.LintMessage attribute)</a>
 </li>
-      </ul></li>
       <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.Severity">Severity (class in bioconda_utils.lint)</a>
+</li>
+      <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintMessage.severity">severity() (bioconda_utils.lint.LintMessage property)</a>
 </li>
       <li><a href="recipes/sexdeterrmine/README.html#package-sexdeterrmine">sexdeterrmine (package)</a>
 
@@ -36125,7 +36123,7 @@
         <li><a href="_autosummary/bioconda_utils.bot.web.html#bioconda_utils.bot.web.start">(in module bioconda_utils.bot.web)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintMessage.start_line">start_line (bioconda_utils.lint.LintMessage attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintMessage.start_line">start_line() (bioconda_utils.lint.LintMessage property)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.bot.web.html#bioconda_utils.bot.web.start_with_celery">start_with_celery() (in module bioconda_utils.bot.web)</a>
 </li>
@@ -36247,7 +36245,7 @@
         <li><a href="recipes/subread/README.html#recipe-subread">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.build.html#bioconda_utils.build.BuildResult.success">success (bioconda_utils.build.BuildResult attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.build.html#bioconda_utils.build.BuildResult.success">success() (bioconda_utils.build.BuildResult property)</a>
 </li>
       <li><a href="recipes/suma_package/README.html#package-suma_package">suma_package (package)</a>
 
@@ -36445,7 +36443,7 @@
         <li><a href="recipes/taeper/README.html#recipe-taeper">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.Image.tag">tag (bioconda_utils.bot.tasks.Image attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.Image.tag">tag() (bioconda_utils.bot.tasks.Image property)</a>
 </li>
       <li><a href="recipes/tagger/README.html#package-tagger">tagger (package)</a>
 
@@ -36453,7 +36451,7 @@
         <li><a href="recipes/tagger/README.html#recipe-tagger">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.tags">tags (bioconda_utils.gitter.Room attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.tags">tags() (bioconda_utils.gitter.Room property)</a>
 </li>
       <li><a href="recipes/takeabreak/README.html#package-takeabreak">takeabreak (package)</a>
 
@@ -36619,7 +36617,7 @@
         <li><a href="recipes/tetoolkit/README.html#recipe-tetoolkit">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.text">text (bioconda_utils.gitter.Message attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.text">text() (bioconda_utils.gitter.Message property)</a>
 </li>
       <li><a href="recipes/textinput/README.html#package-textinput">textinput (package)</a>
 
@@ -36705,7 +36703,7 @@
         <li><a href="recipes/tirmite/README.html#recipe-tirmite">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintMessage.title">title (bioconda_utils.lint.LintMessage attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.lint.html#bioconda_utils.lint.LintMessage.title">title() (bioconda_utils.lint.LintMessage property)</a>
 </li>
       <li><a href="recipes/tmalign/README.html#package-tmalign">tmalign (package)</a>
 
@@ -36755,7 +36753,7 @@
       </ul></li>
       <li><a href="recipes/tophat2/README.html#recipe-tophat2">tophat2 (recipe)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.topic">topic (bioconda_utils.gitter.Room attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.topic">topic() (bioconda_utils.gitter.Room property)</a>
 </li>
       <li><a href="recipes/toulligqc/README.html#package-toulligqc">toulligqc (package)</a>
 
@@ -38673,9 +38671,9 @@
 </li>
       <li><a href="_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.UpdateVersion.unparsed_urls">unparsed_urls (bioconda_utils.autobump.UpdateVersion attribute)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.unread">unread (bioconda_utils.gitter.Message attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.unread">unread() (bioconda_utils.gitter.Message property)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.unreadItems">unreadItems (bioconda_utils.gitter.Room attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.unreadItems">unreadItems() (bioconda_utils.gitter.Room property)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.update_comment">update_comment() (bioconda_utils.githubhandler.GitHubHandler method)</a>
 </li>
@@ -38709,23 +38707,23 @@
 </li>
       <li><a href="_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.UpdateVersion.UrlNotVersioned">UpdateVersion.UrlNotVersioned</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.uri">uri (bioconda_utils.gitter.Room attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.uri">uri() (bioconda_utils.gitter.Room property)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.Image.url">url (bioconda_utils.bot.tasks.Image attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.Image.url">url() (bioconda_utils.bot.tasks.Image property)</a>
 
       <ul>
-        <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.Package.url">(bioconda_utils.bot.tasks.Package attribute)</a>
+        <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.Package.url">(bioconda_utils.bot.tasks.Package property)</a>
 </li>
-        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.url">(bioconda_utils.gitter.Room attribute)</a>
+        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.url">(bioconda_utils.gitter.Room property)</a>
 </li>
-        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User.url">(bioconda_utils.gitter.User attribute)</a>
+        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User.url">(bioconda_utils.gitter.User property)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.url_pattern">url_pattern (bioconda_utils.hosters.Hoster attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.url_pattern">url_pattern() (bioconda_utils.hosters.Hoster property)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.url_re">url_re (bioconda_utils.hosters.Hoster attribute)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.urls">urls (bioconda_utils.gitter.Message attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.urls">urls() (bioconda_utils.gitter.Message property)</a>
 </li>
       <li><a href="recipes/uropa/README.html#package-uropa">uropa (package)</a>
 
@@ -38733,34 +38731,32 @@
         <li><a href="recipes/uropa/README.html#recipe-uropa">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.PRInfo.user">user (bioconda_utils.bot.tasks.PRInfo attribute)</a>
-
-      <ul>
-        <li><a href="_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.user">(bioconda_utils.githubhandler.GitHubHandler attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.user">user (bioconda_utils.githubhandler.GitHubHandler attribute)</a>
 </li>
-        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.user">(bioconda_utils.gitter.Room attribute)</a>
-</li>
-      </ul></li>
       <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User">User (class in bioconda_utils.gitter)</a>
 </li>
+      <li><a href="_autosummary/bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.PRInfo.user">user() (bioconda_utils.bot.tasks.PRInfo property)</a>
+
+      <ul>
+        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.user">(bioconda_utils.gitter.Room property)</a>
+</li>
+      </ul></li>
       <li><a href="_autosummary/bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncRequests.USER_AGENT">USER_AGENT (bioconda_utils.aiopipe.AsyncRequests attribute)</a>
 
       <ul>
         <li><a href="_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.AsyncRequests.USER_AGENT">(bioconda_utils.utils.AsyncRequests attribute)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.userCount">userCount (bioconda_utils.gitter.Room attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.userCount">userCount() (bioconda_utils.gitter.Room property)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Mention.userId">userId (bioconda_utils.gitter.Mention attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Mention.userId">userId() (bioconda_utils.gitter.Mention property)</a>
 </li>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Mention.userIds">userIds (bioconda_utils.gitter.Mention attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Mention.userIds">userIds() (bioconda_utils.gitter.Mention property)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.username">username (bioconda_utils.githubhandler.GitHubHandler attribute)</a>
-
-      <ul>
-        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User.username">(bioconda_utils.gitter.User attribute)</a>
 </li>
-      </ul></li>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User.username">username() (bioconda_utils.gitter.User property)</a>
+</li>
       <li><a href="_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_javajdk">uses_javajdk (class in bioconda_utils.lint.check_deprecation)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_perl_threaded">uses_perl_threaded (class in bioconda_utils.lint.check_deprecation)</a>
@@ -38781,12 +38777,12 @@
 <h2 id="V">V</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.v">v (bioconda_utils.gitter.Message attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Message.v">v() (bioconda_utils.gitter.Message property)</a>
 
       <ul>
-        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.v">(bioconda_utils.gitter.Room attribute)</a>
+        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.Room.v">(bioconda_utils.gitter.Room property)</a>
 </li>
-        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User.v">(bioconda_utils.gitter.User attribute)</a>
+        <li><a href="_autosummary/bioconda_utils.gitter.html#bioconda_utils.gitter.User.v">(bioconda_utils.gitter.User property)</a>
 </li>
       </ul></li>
       <li><a href="recipes/valet/README.html#package-valet">valet (package)</a>
@@ -38815,7 +38811,7 @@
         <li><a href="recipes/var-agg/README.html#recipe-var-agg">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.circleci.html#bioconda_utils.circleci.CircleAPI.var_data">var_data (bioconda_utils.circleci.CircleAPI attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.circleci.html#bioconda_utils.circleci.CircleAPI.var_data">var_data() (bioconda_utils.circleci.CircleAPI property)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.var_default">var_default (bioconda_utils.githubhandler.GitHubHandler attribute)</a>
 </li>
@@ -38977,7 +38973,7 @@
         <li><a href="recipes/verse/README.html#recipe-verse">(recipe)</a>
 </li>
       </ul></li>
-      <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.version">version (bioconda_utils.recipe.Recipe attribute)</a>
+      <li><a href="_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.version">version() (bioconda_utils.recipe.Recipe property)</a>
 </li>
       <li><a href="_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.version_pattern">version_pattern (bioconda_utils.hosters.Hoster attribute)</a>
 </li>
@@ -39424,7 +39420,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>

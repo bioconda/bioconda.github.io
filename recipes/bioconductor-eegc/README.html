@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-eegc">
 <dl class="recipe">
 <dt id="recipe-bioconductor-eegc">
-<em class="property">recipe </em><code class="descname">bioconductor-eegc</code><a class="headerlink" href="#recipe-bioconductor-eegc" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-eegc</code><a class="headerlink" href="#recipe-bioconductor-eegc" title="Permalink to this definition">¶</a></dt>
 <dd><p>This package has been developed to evaluate cellular engineering processes for direct differentiation of stem cells or conversion (transdifferentiation) of somatic cells to primary cells based on high throughput gene expression data screened either by DNA microarray or RNA sequencing. The package takes gene expression profiles as inputs from three types of samples: (i) somatic or stem cells to be (trans)differentiated (input of the engineering process), (ii) induced cells to be evaluated (output of the engineering process) and (iii) target primary cells (reference for the output). The package performs differential gene expression analysis for each pair-wise sample comparison to identify and evaluate the transcriptional differences among the 3 types of samples (input, output, reference). The ideal goal is to have induced and primary reference cell showing overlapping profiles, both very different from the original cells.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,37 +123,58 @@
 
 <dl class="package">
 <dt id="package-bioconductor-eegc">
-<em class="property">package </em><code class="descname">bioconductor-eegc</code><a class="headerlink" href="#package-bioconductor-eegc" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-eegc</code><a class="headerlink" href="#package-bioconductor-eegc" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-eegc"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-eegc.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-eegc"><img alt="docker_bioconductor-eegc" src="https://quay.io/repository/biocontainers/bioconductor-eegc/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.8.1-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-annotationdbi/README.html#package-bioconductor-annotationdbi" title="bioconductor-annotationdbi package"><strong>bioconductor-annotationdbi</strong></a> &gt;=1.44.0,&lt;1.45.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-clusterprofiler/README.html#package-bioconductor-clusterprofiler" title="bioconductor-clusterprofiler package"><strong>bioconductor-clusterprofiler</strong></a> &gt;=3.10.0,&lt;3.11.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-deseq2/README.html#package-bioconductor-deseq2" title="bioconductor-deseq2 package"><strong>bioconductor-deseq2</strong></a> &gt;=1.22.0,&lt;1.23.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-dose/README.html#package-bioconductor-dose" title="bioconductor-dose package"><strong>bioconductor-dose</strong></a> &gt;=3.8.0,&lt;3.9.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-edger/README.html#package-bioconductor-edger" title="bioconductor-edger package"><strong>bioconductor-edger</strong></a> &gt;=3.24.0,&lt;3.25.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-limma/README.html#package-bioconductor-limma" title="bioconductor-limma package"><strong>bioconductor-limma</strong></a> &gt;=3.38.0,&lt;3.39.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-org.hs.eg.db/README.html#package-bioconductor-org.hs.eg.db" title="bioconductor-org.hs.eg.db package"><strong>bioconductor-org.hs.eg.db</strong></a> &gt;=3.7.0,&lt;3.8.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-org.mm.eg.db/README.html#package-bioconductor-org.mm.eg.db" title="bioconductor-org.mm.eg.db package"><strong>bioconductor-org.mm.eg.db</strong></a> &gt;=3.7.0,&lt;3.8.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-s4vectors/README.html#package-bioconductor-s4vectors" title="bioconductor-s4vectors package"><strong>bioconductor-s4vectors</strong></a> &gt;=0.20.0,&lt;0.21.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ggplot2-feedstock"><strong>r-ggplot2</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-gplots-feedstock"><strong>r-gplots</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-igraph-feedstock"><strong>r-igraph</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-pheatmap-feedstock"><strong>r-pheatmap</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-r.utils-feedstock"><strong>r-r.utils</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-sna-feedstock"><strong>r-sna</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-wordcloud-feedstock"><strong>r-wordcloud</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-annotationdbi</dt>
+<dd class="field-even"><p>&gt;=1.44.0,&lt;1.45.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends bioconductor-clusterprofiler</dt>
+<dd class="field-odd"><p>&gt;=3.10.0,&lt;3.11.0</p>
 </dd>
+<dt class="field-even">Depends bioconductor-deseq2</dt>
+<dd class="field-even"><p>&gt;=1.22.0,&lt;1.23.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-dose</dt>
+<dd class="field-odd"><p>&gt;=3.8.0,&lt;3.9.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-edger</dt>
+<dd class="field-even"><p>&gt;=3.24.0,&lt;3.25.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-limma</dt>
+<dd class="field-odd"><p>&gt;=3.38.0,&lt;3.39.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-org.hs.eg.db</dt>
+<dd class="field-even"><p>&gt;=3.7.0,&lt;3.8.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-org.mm.eg.db</dt>
+<dd class="field-odd"><p>&gt;=3.7.0,&lt;3.8.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-s4vectors</dt>
+<dd class="field-even"><p>&gt;=0.20.0,&lt;0.21.0</p>
+</dd>
+<dt class="field-odd">Depends r-base</dt>
+<dd class="field-odd"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-even">Depends r-ggplot2</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-gplots</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-igraph</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-pheatmap</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-r.utils</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-sna</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-wordcloud</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -191,7 +212,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

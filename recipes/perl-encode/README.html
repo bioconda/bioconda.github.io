@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="perl-encode">
 <dl class="recipe">
 <dt id="recipe-perl-encode/2.88">
-<em class="property">recipe </em><code class="descname">perl-encode/2.88</code><a class="headerlink" href="#recipe-perl-encode/2.88" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">perl-encode/2.88</code><a class="headerlink" href="#recipe-perl-encode/2.88" title="Permalink to this definition">¶</a></dt>
 <dd><p>allows you to write your script in non-ASCII and non-UTF-8</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,35 +123,21 @@
 
 <dl class="package">
 <dt id="package-perl-encode">
-<em class="property">package </em><code class="descname">perl-encode</code><a class="headerlink" href="#package-perl-encode" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">perl-encode</code><a class="headerlink" href="#package-perl-encode" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/perl-encode"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/perl-encode.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/perl-encode"><img alt="docker_perl-encode" src="https://quay.io/repository/biocontainers/perl-encode/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>2.88-1, 2.88-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> &gt;=5.26.2,&lt;5.27.0a0</p></li>
-<li><p><a class="conda-package reference internal" href="../perl-exporter/README.html#package-perl-exporter" title="perl-exporter package"><strong>perl-exporter</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-parent/README.html#package-perl-parent" title="perl-parent package"><strong>perl-parent</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends perl</dt>
+<dd class="field-even"><p>&gt;=5.26.2,&lt;5.27.0a0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../perl-cgi/README.html#perl-cgi"><strong class="xref backref">perl-cgi</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-file-slurper/README.html#perl-file-slurper"><strong class="xref backref">perl-file-slurper</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-html-formatter/README.html#perl-html-formatter"><strong class="xref backref">perl-html-formatter</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-libwww-perl/README.html#perl-libwww-perl"><strong class="xref backref">perl-libwww-perl</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-cpan-meta/README.html#perl-cpan-meta"><strong class="xref backref">perl-cpan-meta</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-uri/README.html#perl-uri"><strong class="xref backref">perl-uri</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-date-manip/README.html#perl-date-manip"><strong class="xref backref">perl-date-manip</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-html-tidy/README.html#perl-html-tidy"><strong class="xref backref">perl-html-tidy</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-http-message/README.html#perl-http-message"><strong class="xref backref">perl-http-message</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-encode-locale/README.html#perl-encode-locale"><strong class="xref backref">perl-encode-locale</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-text-asciitable/README.html#perl-text-asciitable"><strong class="xref backref">perl-text-asciitable</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-xml-semanticdiff/README.html#perl-xml-semanticdiff"><strong class="xref backref">perl-xml-semanticdiff</strong></a></p></li>
-</ul>
-</dd>
+<dt class="field-odd">Depends perl-exporter</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-parent</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -189,7 +175,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

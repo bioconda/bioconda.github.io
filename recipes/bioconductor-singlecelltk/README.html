@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-singlecelltk">
 <dl class="recipe">
 <dt id="recipe-bioconductor-singlecelltk">
-<em class="property">recipe </em><code class="descname">bioconductor-singlecelltk</code><a class="headerlink" href="#recipe-bioconductor-singlecelltk" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-singlecelltk</code><a class="headerlink" href="#recipe-bioconductor-singlecelltk" title="Permalink to this definition">¶</a></dt>
 <dd><p>Run common single cell analysis directly through your browser including differential expression, downsampling analysis, and clustering.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,54 +123,98 @@
 
 <dl class="package">
 <dt id="package-bioconductor-singlecelltk">
-<em class="property">package </em><code class="descname">bioconductor-singlecelltk</code><a class="headerlink" href="#package-bioconductor-singlecelltk" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-singlecelltk</code><a class="headerlink" href="#package-bioconductor-singlecelltk" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-singlecelltk"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-singlecelltk.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-singlecelltk"><img alt="docker_bioconductor-singlecelltk" src="https://quay.io/repository/biocontainers/bioconductor-singlecelltk/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.2.3-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-annotationdbi/README.html#package-bioconductor-annotationdbi" title="bioconductor-annotationdbi package"><strong>bioconductor-annotationdbi</strong></a> &gt;=1.44.0,&lt;1.45.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-biobase/README.html#package-bioconductor-biobase" title="bioconductor-biobase package"><strong>bioconductor-biobase</strong></a> &gt;=2.42.0,&lt;2.43.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-complexheatmap/README.html#package-bioconductor-complexheatmap" title="bioconductor-complexheatmap package"><strong>bioconductor-complexheatmap</strong></a> &gt;=1.20.0,&lt;1.21.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-delayedarray/README.html#package-bioconductor-delayedarray" title="bioconductor-delayedarray package"><strong>bioconductor-delayedarray</strong></a> &gt;=0.8.0,&lt;0.9.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-deseq2/README.html#package-bioconductor-deseq2" title="bioconductor-deseq2 package"><strong>bioconductor-deseq2</strong></a> &gt;=1.22.0,&lt;1.23.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-ggtree/README.html#package-bioconductor-ggtree" title="bioconductor-ggtree package"><strong>bioconductor-ggtree</strong></a> &gt;=1.14.0,&lt;1.15.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-gsva/README.html#package-bioconductor-gsva" title="bioconductor-gsva package"><strong>bioconductor-gsva</strong></a> &gt;=1.30.0,&lt;1.31.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-gsvadata/README.html#package-bioconductor-gsvadata" title="bioconductor-gsvadata package"><strong>bioconductor-gsvadata</strong></a> &gt;=1.18.0,&lt;1.19.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-limma/README.html#package-bioconductor-limma" title="bioconductor-limma package"><strong>bioconductor-limma</strong></a> &gt;=3.38.0,&lt;3.39.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-mast/README.html#package-bioconductor-mast" title="bioconductor-mast package"><strong>bioconductor-mast</strong></a> &gt;=1.8.0,&lt;1.9.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-multtest/README.html#package-bioconductor-multtest" title="bioconductor-multtest package"><strong>bioconductor-multtest</strong></a> &gt;=2.38.0,&lt;2.39.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-s4vectors/README.html#package-bioconductor-s4vectors" title="bioconductor-s4vectors package"><strong>bioconductor-s4vectors</strong></a> &gt;=0.20.0,&lt;0.21.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-singlecellexperiment/README.html#package-bioconductor-singlecellexperiment" title="bioconductor-singlecellexperiment package"><strong>bioconductor-singlecellexperiment</strong></a> &gt;=1.4.0,&lt;1.5.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-summarizedexperiment/README.html#package-bioconductor-summarizedexperiment" title="bioconductor-summarizedexperiment package"><strong>bioconductor-summarizedexperiment</strong></a> &gt;=1.12.0,&lt;1.13.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-sva/README.html#package-bioconductor-sva" title="bioconductor-sva package"><strong>bioconductor-sva</strong></a> &gt;=3.30.0,&lt;3.31.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ape-feedstock"><strong>r-ape</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-circlize-feedstock"><strong>r-circlize</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-cluster-feedstock"><strong>r-cluster</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-colourpicker-feedstock"><strong>r-colourpicker</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-data.table-feedstock"><strong>r-data.table</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-dt-feedstock"><strong>r-dt</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../r-enrichr/README.html#package-r-enrichr" title="r-enrichr package"><strong>r-enrichr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ggplot2-feedstock"><strong>r-ggplot2</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-gridextra-feedstock"><strong>r-gridextra</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-matrixstats-feedstock"><strong>r-matrixstats</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-plotly-feedstock"><strong>r-plotly</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rcolorbrewer-feedstock"><strong>r-rcolorbrewer</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-reshape2-feedstock"><strong>r-reshape2</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rtsne-feedstock"><strong>r-rtsne</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-shiny-feedstock"><strong>r-shiny</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-shinyalert-feedstock"><strong>r-shinyalert</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-shinycssloaders-feedstock"><strong>r-shinycssloaders</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-shinyjs-feedstock"><strong>r-shinyjs</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-annotationdbi</dt>
+<dd class="field-even"><p>&gt;=1.44.0,&lt;1.45.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends bioconductor-biobase</dt>
+<dd class="field-odd"><p>&gt;=2.42.0,&lt;2.43.0</p>
 </dd>
+<dt class="field-even">Depends bioconductor-complexheatmap</dt>
+<dd class="field-even"><p>&gt;=1.20.0,&lt;1.21.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-delayedarray</dt>
+<dd class="field-odd"><p>&gt;=0.8.0,&lt;0.9.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-deseq2</dt>
+<dd class="field-even"><p>&gt;=1.22.0,&lt;1.23.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-ggtree</dt>
+<dd class="field-odd"><p>&gt;=1.14.0,&lt;1.15.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-gsva</dt>
+<dd class="field-even"><p>&gt;=1.30.0,&lt;1.31.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-gsvadata</dt>
+<dd class="field-odd"><p>&gt;=1.18.0,&lt;1.19.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-limma</dt>
+<dd class="field-even"><p>&gt;=3.38.0,&lt;3.39.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-mast</dt>
+<dd class="field-odd"><p>&gt;=1.8.0,&lt;1.9.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-multtest</dt>
+<dd class="field-even"><p>&gt;=2.38.0,&lt;2.39.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-s4vectors</dt>
+<dd class="field-odd"><p>&gt;=0.20.0,&lt;0.21.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-singlecellexperiment</dt>
+<dd class="field-even"><p>&gt;=1.4.0,&lt;1.5.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-summarizedexperiment</dt>
+<dd class="field-odd"><p>&gt;=1.12.0,&lt;1.13.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-sva</dt>
+<dd class="field-even"><p>&gt;=3.30.0,&lt;3.31.0</p>
+</dd>
+<dt class="field-odd">Depends r-ape</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-base</dt>
+<dd class="field-even"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-odd">Depends r-circlize</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-cluster</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-colourpicker</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-data.table</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-dt</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-enrichr</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-ggplot2</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-gridextra</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-matrixstats</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-plotly</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-rcolorbrewer</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-reshape2</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-rtsne</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-shiny</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-shinyalert</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-shinycssloaders</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-shinyjs</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -208,7 +252,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

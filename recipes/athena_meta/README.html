@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="athena-meta">
 <dl class="recipe">
 <dt id="recipe-athena_meta">
-<em class="property">recipe </em><code class="descname">athena_meta</code><a class="headerlink" href="#recipe-athena_meta" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">athena_meta</code><a class="headerlink" href="#recipe-athena_meta" title="Permalink to this definition">¶</a></dt>
 <dd><p>Athena read cloud assembler for metagenomes</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,30 +123,44 @@
 
 <dl class="package">
 <dt id="package-athena_meta">
-<em class="property">package </em><code class="descname">athena_meta</code><a class="headerlink" href="#package-athena_meta" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">athena_meta</code><a class="headerlink" href="#package-athena_meta" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/athena_meta"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/athena_meta.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/athena_meta"><img alt="docker_athena_meta" src="https://quay.io/repository/biocontainers/athena_meta/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.3-0, 1.2-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bwa/README.html#package-bwa" title="bwa package"><strong>bwa</strong></a> 0.7.*</p></li>
-<li><p><a class="conda-package reference internal" href="../bx-python/README.html#package-bx-python" title="bx-python package"><strong>bx-python</strong></a> 0.8.*</p></li>
-<li><p><a class="conda-package reference internal" href="../flye/README.html#package-flye" title="flye package"><strong>flye</strong></a> 2.3.1.*</p></li>
-<li><p><a class="conda-package reference internal" href="../htslib/README.html#package-htslib" title="htslib package"><strong>htslib</strong></a> 1.9.*</p></li>
-<li><p><a class="conda-package reference internal" href="../idba_subasm/README.html#package-idba_subasm" title="idba_subasm package"><strong>idba_subasm</strong></a> 1.1.3a1.*</p></li>
-<li><p><a class="conda-package reference internal" href="../ipython-cluster-helper/README.html#package-ipython-cluster-helper" title="ipython-cluster-helper package"><strong>ipython-cluster-helper</strong></a> 0.6.*</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a> 1.11.*</p></li>
-<li><p><a class="conda-package reference internal" href="../pysam/README.html#package-pysam" title="pysam package"><strong>pysam</strong></a> 0.15.*</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=2.7,&lt;2.8.0a0</p></li>
-<li><p><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a> 1.9.*</p></li>
-</ul>
+<dt class="field-even">Depends bwa</dt>
+<dd class="field-even"><p>0.7.*</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends bx-python</dt>
+<dd class="field-odd"><p>0.8.*</p>
 </dd>
+<dt class="field-even">Depends flye</dt>
+<dd class="field-even"><p>2.3.1.*</p>
+</dd>
+<dt class="field-odd">Depends htslib</dt>
+<dd class="field-odd"><p>1.9.*</p>
+</dd>
+<dt class="field-even">Depends idba_subasm</dt>
+<dd class="field-even"><p>1.1.3a1.*</p>
+</dd>
+<dt class="field-odd">Depends ipython-cluster-helper</dt>
+<dd class="field-odd"><p>0.6.*</p>
+</dd>
+<dt class="field-even">Depends numpy</dt>
+<dd class="field-even"><p>1.11.*</p>
+</dd>
+<dt class="field-odd">Depends pysam</dt>
+<dd class="field-odd"><p>0.15.*</p>
+</dd>
+<dt class="field-even">Depends python</dt>
+<dd class="field-even"><p>&gt;=2.7,&lt;2.8.0a0</p>
+</dd>
+<dt class="field-odd">Depends samtools</dt>
+<dd class="field-odd"><p>1.9.*</p>
+</dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -184,7 +198,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

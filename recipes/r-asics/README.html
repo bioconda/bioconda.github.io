@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="r-asics">
 <dl class="recipe">
 <dt id="recipe-r-asics">
-<em class="property">recipe </em><code class="descname">r-asics</code><a class="headerlink" href="#recipe-r-asics" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">r-asics</code><a class="headerlink" href="#recipe-r-asics" title="Permalink to this definition">¶</a></dt>
 <dd><p>With a set of pure metabolite spectra, ASICS quantifies  metabolites concentration in a complex spectrum. The identification of  metabolites is performed by fitting a mixture model to the spectra of the library with a sparse penalty. The method and its statistical properties are  described in Tardivel et al. (2017) &lt;doi:10.1007/s11306-017-1244-5&gt;.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,27 +123,29 @@
 
 <dl class="package">
 <dt id="package-r-asics">
-<em class="property">package </em><code class="descname">r-asics</code><a class="headerlink" href="#package-r-asics" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">r-asics</code><a class="headerlink" href="#package-r-asics" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-asics"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-asics.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-asics"><img alt="docker_r-asics" src="https://quay.io/repository/biocontainers/r-asics/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.0.1-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> 3.4.1*</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-doparallel-feedstock"><strong>r-doparallel</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-foreach-feedstock"><strong>r-foreach</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ggplot2-feedstock"><strong>r-ggplot2</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-plyr-feedstock"><strong>r-plyr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-quadprog-feedstock"><strong>r-quadprog</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-zoo-feedstock"><strong>r-zoo</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends r-base</dt>
+<dd class="field-even"><p>3.4.1*</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
-</dd>
+<dt class="field-odd">Depends r-doparallel</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-foreach</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-ggplot2</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-plyr</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-quadprog</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-zoo</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -181,7 +183,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

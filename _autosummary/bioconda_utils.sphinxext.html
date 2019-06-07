@@ -117,10 +117,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -145,7 +145,7 @@
 <p class="rubric">Environment Variables</p>
 <dl class="envvar">
 <dt id="envvar-BIOCONDA_FILTER_RECIPES">
-<code class="descname">BIOCONDA_FILTER_RECIPES</code><a class="headerlink" href="#envvar-BIOCONDA_FILTER_RECIPES" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">BIOCONDA_FILTER_RECIPES</code><a class="headerlink" href="#envvar-BIOCONDA_FILTER_RECIPES" title="Permalink to this definition">¶</a></dt>
 <dd><p>Use this environment variable to reduce the number of recipes for
 which documentation pages are built. If set to an integer
 (including 0), the first <em>n</em> recipes are included. Otherwise, the
@@ -154,7 +154,7 @@ be included.</p>
 </dd></dl>
 
 <p class="rubric">Functions</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -193,7 +193,7 @@ be included.</p>
 </tbody>
 </table>
 <p class="rubric">Classes</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -234,7 +234,7 @@ be included.</p>
 <p class="rubric">Documentation</p>
 <dl class="class">
 <dt id="bioconda_utils.sphinxext.AutoRecipesDirective">
-<em class="property">class </em><code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">AutoRecipesDirective</code><span class="sig-paren">(</span><em>name</em>, <em>arguments</em>, <em>options</em>, <em>content</em>, <em>lineno</em>, <em>content_offset</em>, <em>block_text</em>, <em>state</em>, <em>state_machine</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#AutoRecipesDirective"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.AutoRecipesDirective" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">AutoRecipesDirective</code><span class="sig-paren">(</span><em class="sig-param">name</em>, <em class="sig-param">arguments</em>, <em class="sig-param">options</em>, <em class="sig-param">content</em>, <em class="sig-param">lineno</em>, <em class="sig-param">content_offset</em>, <em class="sig-param">block_text</em>, <em class="sig-param">state</em>, <em class="sig-param">state_machine</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#AutoRecipesDirective"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.AutoRecipesDirective" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://www.sphinx-doc.org/en/master/extdev/markupapi.html#docutils.parsers.rst.Directive" title="(in Sphinx v3.0.0+/5ce5c2c31)"><code class="xref py py-class docutils literal notranslate"><span class="pre">docutils.parsers.rst.Directive</span></code></a></p>
 <p>FIXME: This does not yet do ANYTHING!</p>
 <p>In theory, a directive like this should act as a hook for a repo
@@ -243,18 +243,18 @@ to generate stubs for, similar to other autoXYZ directives.</p>
 
 <dl class="class">
 <dt id="bioconda_utils.sphinxext.CondaDomain">
-<em class="property">class </em><code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">CondaDomain</code><span class="sig-paren">(</span><em>env</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaDomain"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaDomain" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">CondaDomain</code><span class="sig-paren">(</span><em class="sig-param">env</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaDomain"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaDomain" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://www.sphinx-doc.org/en/master/extdev/domainapi.html#sphinx.domains.Domain" title="(in Sphinx v3.0.0+/5ce5c2c31)"><code class="xref py py-class docutils literal notranslate"><span class="pre">sphinx.domains.Domain</span></code></a></p>
 <p>Domain for Conda Packages</p>
 <dl class="method">
 <dt id="bioconda_utils.sphinxext.CondaDomain.clear_doc">
-<code class="descname">clear_doc</code><span class="sig-paren">(</span><em>docname</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaDomain.clear_doc"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaDomain.clear_doc" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">clear_doc</code><span class="sig-paren">(</span><em class="sig-param">docname</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaDomain.clear_doc"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaDomain.clear_doc" title="Permalink to this definition">¶</a></dt>
 <dd><p>Remove traces of a document in the domain-specific inventories.</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="bioconda_utils.sphinxext.CondaDomain.get_objects">
-<code class="descname">get_objects</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaDomain.get_objects"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaDomain.get_objects" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">get_objects</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaDomain.get_objects"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaDomain.get_objects" title="Permalink to this definition">¶</a></dt>
 <dd><p>Yields “object description” 5-tuples</p>
 <p><code class="docutils literal notranslate"><span class="pre">name</span></code>:     fully qualified name
 <code class="docutils literal notranslate"><span class="pre">dispname</span></code>: name to display when searching/linking
@@ -274,7 +274,7 @@ to generate stubs for, similar to other autoXYZ directives.</p>
 
 <dl class="method">
 <dt id="bioconda_utils.sphinxext.CondaDomain.merge_domaindata">
-<code class="descname">merge_domaindata</code><span class="sig-paren">(</span><em>docnames</em>, <em>otherdata</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaDomain.merge_domaindata"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaDomain.merge_domaindata" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">merge_domaindata</code><span class="sig-paren">(</span><em class="sig-param">docnames</em>, <em class="sig-param">otherdata</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaDomain.merge_domaindata"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaDomain.merge_domaindata" title="Permalink to this definition">¶</a></dt>
 <dd><p>Merge in data regarding <em>docnames</em> from a different domaindata
 inventory (coming from a subprocess in parallel builds).</p>
 <dl class="field-list simple">
@@ -286,13 +286,13 @@ inventory (coming from a subprocess in parallel builds).</p>
 
 <dl class="method">
 <dt id="bioconda_utils.sphinxext.CondaDomain.resolve_any_xref">
-<code class="descname">resolve_any_xref</code><span class="sig-paren">(</span><em>env</em>, <em>fromdocname</em>, <em>builder</em>, <em>target</em>, <em>node</em>, <em>contnode</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaDomain.resolve_any_xref"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaDomain.resolve_any_xref" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">resolve_any_xref</code><span class="sig-paren">(</span><em class="sig-param">env</em>, <em class="sig-param">fromdocname</em>, <em class="sig-param">builder</em>, <em class="sig-param">target</em>, <em class="sig-param">node</em>, <em class="sig-param">contnode</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaDomain.resolve_any_xref"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaDomain.resolve_any_xref" title="Permalink to this definition">¶</a></dt>
 <dd><p>Resolve references from “any” role.</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="bioconda_utils.sphinxext.CondaDomain.resolve_xref">
-<code class="descname">resolve_xref</code><span class="sig-paren">(</span><em>env</em>, <em>fromdocname</em>, <em>builder</em>, <em>role</em>, <em>target</em>, <em>node</em>, <em>contnode</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaDomain.resolve_xref"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaDomain.resolve_xref" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">resolve_xref</code><span class="sig-paren">(</span><em class="sig-param">env</em>, <em class="sig-param">fromdocname</em>, <em class="sig-param">builder</em>, <em class="sig-param">role</em>, <em class="sig-param">target</em>, <em class="sig-param">node</em>, <em class="sig-param">contnode</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaDomain.resolve_xref"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaDomain.resolve_xref" title="Permalink to this definition">¶</a></dt>
 <dd><p>Resolve the <code class="docutils literal notranslate"><span class="pre">pending_xref</span></code> <strong>node</strong> with the given <strong>role</strong> and <strong>target</strong>.</p>
 </dd></dl>
 
@@ -300,12 +300,12 @@ inventory (coming from a subprocess in parallel builds).</p>
 
 <dl class="class">
 <dt id="bioconda_utils.sphinxext.CondaObjectDescription">
-<em class="property">class </em><code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">CondaObjectDescription</code><span class="sig-paren">(</span><em>name</em>, <em>arguments</em>, <em>options</em>, <em>content</em>, <em>lineno</em>, <em>content_offset</em>, <em>block_text</em>, <em>state</em>, <em>state_machine</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaObjectDescription"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaObjectDescription" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">CondaObjectDescription</code><span class="sig-paren">(</span><em class="sig-param">name</em>, <em class="sig-param">arguments</em>, <em class="sig-param">options</em>, <em class="sig-param">content</em>, <em class="sig-param">lineno</em>, <em class="sig-param">content_offset</em>, <em class="sig-param">block_text</em>, <em class="sig-param">state</em>, <em class="sig-param">state_machine</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaObjectDescription"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaObjectDescription" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sphinx.directives.ObjectDescription</span></code></p>
 <p>Base class for <code class="docutils literal notranslate"><span class="pre">ObjectDescription</span></code> types in the <a class="reference internal" href="#bioconda_utils.sphinxext.CondaDomain" title="bioconda_utils.sphinxext.CondaDomain"><code class="xref any py py-class docutils literal notranslate"><span class="pre">CondaDomain</span></code></a></p>
 <dl class="method">
 <dt id="bioconda_utils.sphinxext.CondaObjectDescription.add_target_and_index">
-<code class="descname">add_target_and_index</code><span class="sig-paren">(</span><em>name</em>, <em>sig</em>, <em>signodes</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaObjectDescription.add_target_and_index"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaObjectDescription.add_target_and_index" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">add_target_and_index</code><span class="sig-paren">(</span><em class="sig-param">name</em>, <em class="sig-param">sig</em>, <em class="sig-param">signodes</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaObjectDescription.add_target_and_index"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaObjectDescription.add_target_and_index" title="Permalink to this definition">¶</a></dt>
 <dd><p>Add to index and to domain data</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -316,7 +316,7 @@ inventory (coming from a subprocess in parallel builds).</p>
 
 <dl class="method">
 <dt id="bioconda_utils.sphinxext.CondaObjectDescription.before_content">
-<code class="descname">before_content</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaObjectDescription.before_content"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaObjectDescription.before_content" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">before_content</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaObjectDescription.before_content"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaObjectDescription.before_content" title="Permalink to this definition">¶</a></dt>
 <dd><p>We register ourselves in the <code class="docutils literal notranslate"><span class="pre">ref_context</span></code> so that a later
 call to <code class="docutils literal notranslate"><span class="pre">:depends:`packagename`</span></code> knows within which package
 the dependency was added</p>
@@ -324,7 +324,7 @@ the dependency was added</p>
 
 <dl class="method">
 <dt id="bioconda_utils.sphinxext.CondaObjectDescription.get_index_text">
-<code class="descname">get_index_text</code><span class="sig-paren">(</span><em>name</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaObjectDescription.get_index_text"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaObjectDescription.get_index_text" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">get_index_text</code><span class="sig-paren">(</span><em class="sig-param">name</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaObjectDescription.get_index_text"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaObjectDescription.get_index_text" title="Permalink to this definition">¶</a></dt>
 <dd><p>This yields the text with which the object is entered into the index.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -335,7 +335,7 @@ the dependency was added</p>
 
 <dl class="method">
 <dt id="bioconda_utils.sphinxext.CondaObjectDescription.handle_signature">
-<code class="descname">handle_signature</code><span class="sig-paren">(</span><em>sig</em>, <em>signode</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaObjectDescription.handle_signature"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaObjectDescription.handle_signature" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">handle_signature</code><span class="sig-paren">(</span><em class="sig-param">sig</em>, <em class="sig-param">signode</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaObjectDescription.handle_signature"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaObjectDescription.handle_signature" title="Permalink to this definition">¶</a></dt>
 <dd><p>Transform signature into RST nodes</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -348,7 +348,7 @@ the dependency was added</p>
 
 <dl class="class">
 <dt id="bioconda_utils.sphinxext.CondaPackage">
-<em class="property">class </em><code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">CondaPackage</code><span class="sig-paren">(</span><em>name</em>, <em>arguments</em>, <em>options</em>, <em>content</em>, <em>lineno</em>, <em>content_offset</em>, <em>block_text</em>, <em>state</em>, <em>state_machine</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaPackage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaPackage" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">CondaPackage</code><span class="sig-paren">(</span><em class="sig-param">name</em>, <em class="sig-param">arguments</em>, <em class="sig-param">options</em>, <em class="sig-param">content</em>, <em class="sig-param">lineno</em>, <em class="sig-param">content_offset</em>, <em class="sig-param">block_text</em>, <em class="sig-param">state</em>, <em class="sig-param">state_machine</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaPackage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaPackage" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#bioconda_utils.sphinxext.CondaObjectDescription" title="bioconda_utils.sphinxext.CondaObjectDescription"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.sphinxext.CondaObjectDescription</span></code></a></p>
 <p>Directive <code class="docutils literal notranslate"><span class="pre">..</span> <span class="pre">conda:package::</span></code> describing a Package</p>
 <p>This directive takes two specialized field types, <code class="docutils literal notranslate"><span class="pre">requirements</span></code>
@@ -370,25 +370,25 @@ and <code class="docutils literal notranslate"><span class="pre">depends</span><
 
 <dl class="class">
 <dt id="bioconda_utils.sphinxext.CondaRecipe">
-<em class="property">class </em><code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">CondaRecipe</code><span class="sig-paren">(</span><em>name</em>, <em>arguments</em>, <em>options</em>, <em>content</em>, <em>lineno</em>, <em>content_offset</em>, <em>block_text</em>, <em>state</em>, <em>state_machine</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaRecipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaRecipe" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">CondaRecipe</code><span class="sig-paren">(</span><em class="sig-param">name</em>, <em class="sig-param">arguments</em>, <em class="sig-param">options</em>, <em class="sig-param">content</em>, <em class="sig-param">lineno</em>, <em class="sig-param">content_offset</em>, <em class="sig-param">block_text</em>, <em class="sig-param">state</em>, <em class="sig-param">state_machine</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#CondaRecipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.CondaRecipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#bioconda_utils.sphinxext.CondaObjectDescription" title="bioconda_utils.sphinxext.CondaObjectDescription"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.sphinxext.CondaObjectDescription</span></code></a></p>
 <p>Directive <code class="docutils literal notranslate"><span class="pre">..</span> <span class="pre">conda:recipe::</span></code> describing a Recipe</p>
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.sphinxext.LintDescriptionDirective">
-<em class="property">class </em><code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">LintDescriptionDirective</code><span class="sig-paren">(</span><em>name</em>, <em>arguments</em>, <em>options</em>, <em>content</em>, <em>lineno</em>, <em>content_offset</em>, <em>block_text</em>, <em>state</em>, <em>state_machine</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#LintDescriptionDirective"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.LintDescriptionDirective" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">LintDescriptionDirective</code><span class="sig-paren">(</span><em class="sig-param">name</em>, <em class="sig-param">arguments</em>, <em class="sig-param">options</em>, <em class="sig-param">content</em>, <em class="sig-param">lineno</em>, <em class="sig-param">content_offset</em>, <em class="sig-param">block_text</em>, <em class="sig-param">state</em>, <em class="sig-param">state_machine</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#LintDescriptionDirective"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.LintDescriptionDirective" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://www.sphinx-doc.org/en/master/extdev/utils.html#sphinx.util.docutils.SphinxDirective" title="(in Sphinx v3.0.0+/5ce5c2c31)"><code class="xref py py-class docutils literal notranslate"><span class="pre">sphinx.util.docutils.SphinxDirective</span></code></a></p>
 </dd></dl>
 
 <dl class="class">
 <dt id="bioconda_utils.sphinxext.RecipeIndex">
-<em class="property">class </em><code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">RecipeIndex</code><span class="sig-paren">(</span><em>domain</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#RecipeIndex"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.RecipeIndex" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">RecipeIndex</code><span class="sig-paren">(</span><em class="sig-param">domain</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#RecipeIndex"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.RecipeIndex" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://www.sphinx-doc.org/en/master/extdev/domainapi.html#sphinx.domains.Index" title="(in Sphinx v3.0.0+/5ce5c2c31)"><code class="xref py py-class docutils literal notranslate"><span class="pre">sphinx.domains.Index</span></code></a></p>
 <p>Index of Recipes</p>
 <dl class="method">
 <dt id="bioconda_utils.sphinxext.RecipeIndex.generate">
-<code class="descname">generate</code><span class="sig-paren">(</span><em>docnames=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#RecipeIndex.generate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.RecipeIndex.generate" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">generate</code><span class="sig-paren">(</span><em class="sig-param">docnames=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#RecipeIndex.generate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.RecipeIndex.generate" title="Permalink to this definition">¶</a></dt>
 <dd><p>build index</p>
 </dd></dl>
 
@@ -396,7 +396,7 @@ and <code class="docutils literal notranslate"><span class="pre">depends</span><
 
 <dl class="class">
 <dt id="bioconda_utils.sphinxext.Renderer">
-<em class="property">class </em><code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">Renderer</code><span class="sig-paren">(</span><em>app</em>, <em>extra_context</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#Renderer"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.Renderer" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">Renderer</code><span class="sig-paren">(</span><em class="sig-param">app</em>, <em class="sig-param">extra_context</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#Renderer"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.Renderer" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
 <p>Jinja2 template renderer</p>
 <ul class="simple">
@@ -408,7 +408,7 @@ and <code class="docutils literal notranslate"><span class="pre">depends</span><
 </ul>
 <dl class="method">
 <dt id="bioconda_utils.sphinxext.Renderer.render">
-<code class="descname">render</code><span class="sig-paren">(</span><em>template_name</em>, <em>context</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#Renderer.render"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.Renderer.render" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">render</code><span class="sig-paren">(</span><em class="sig-param">template_name</em>, <em class="sig-param">context</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#Renderer.render"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.Renderer.render" title="Permalink to this definition">¶</a></dt>
 <dd><p>Render a template file to string</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -422,7 +422,7 @@ and <code class="docutils literal notranslate"><span class="pre">depends</span><
 
 <dl class="method">
 <dt id="bioconda_utils.sphinxext.Renderer.render_to_file">
-<code class="descname">render_to_file</code><span class="sig-paren">(</span><em>file_name</em>, <em>template_name</em>, <em>context</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#Renderer.render_to_file"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.Renderer.render_to_file" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">render_to_file</code><span class="sig-paren">(</span><em class="sig-param">file_name</em>, <em class="sig-param">template_name</em>, <em class="sig-param">context</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#Renderer.render_to_file"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.Renderer.render_to_file" title="Permalink to this definition">¶</a></dt>
 <dd><p>Render a template file to a file</p>
 <p>Ensures that target directories exist and only writes
 the file if the content has changed.</p>
@@ -444,7 +444,7 @@ the file if the content has changed.</p>
 
 <dl class="class">
 <dt id="bioconda_utils.sphinxext.RequiredByField">
-<em class="property">class </em><code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">RequiredByField</code><span class="sig-paren">(</span><em>name</em>, <em>names=()</em>, <em>label=None</em>, <em>has_arg=True</em>, <em>rolename=None</em>, <em>bodyrolename=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#RequiredByField"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.RequiredByField" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">RequiredByField</code><span class="sig-paren">(</span><em class="sig-param">name</em>, <em class="sig-param">names=()</em>, <em class="sig-param">label=None</em>, <em class="sig-param">has_arg=True</em>, <em class="sig-param">rolename=None</em>, <em class="sig-param">bodyrolename=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#RequiredByField"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.RequiredByField" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sphinx.util.docfields.Field</span></code></p>
 <p>Field Type for directive <code class="docutils literal notranslate"><span class="pre">..</span> <span class="pre">conda:package::</span></code> for showing required-by</p>
 <p>This just creates the field name and field body with a <code class="docutils literal notranslate"><span class="pre">pending_xref</span></code> in the
@@ -454,7 +454,7 @@ body that will later be filled with the reverse dependencies by
 
 <dl class="class">
 <dt id="bioconda_utils.sphinxext.RequirementsField">
-<em class="property">class </em><code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">RequirementsField</code><span class="sig-paren">(</span><em>name</em>, <em>names=()</em>, <em>label=None</em>, <em>rolename=None</em>, <em>can_collapse=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#RequirementsField"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.RequirementsField" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">RequirementsField</code><span class="sig-paren">(</span><em class="sig-param">name</em>, <em class="sig-param">names=()</em>, <em class="sig-param">label=None</em>, <em class="sig-param">rolename=None</em>, <em class="sig-param">can_collapse=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#RequirementsField"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.RequirementsField" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sphinx.util.docfields.GroupedField</span></code></p>
 <p>Field Type for <code class="docutils literal notranslate"><span class="pre">..</span> <span class="pre">conda:package::</span></code> for specifying dependencies</p>
 <p>This does two things different than <code class="docutils literal notranslate"><span class="pre">GroupedField</span></code>:</p>
@@ -467,7 +467,7 @@ use the requirements to collect required-by data later.</p></li>
 
 <dl class="function">
 <dt id="bioconda_utils.sphinxext.add_ribbon">
-<code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">add_ribbon</code><span class="sig-paren">(</span><em>app</em>, <em>pagename</em>, <em>templatename</em>, <em>context</em>, <em>doctree</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#add_ribbon"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.add_ribbon" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">add_ribbon</code><span class="sig-paren">(</span><em class="sig-param">app</em>, <em class="sig-param">pagename</em>, <em class="sig-param">templatename</em>, <em class="sig-param">context</em>, <em class="sig-param">doctree</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#add_ribbon"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.add_ribbon" title="Permalink to this definition">¶</a></dt>
 <dd><p>Adds “Edit me on GitHub” Ribbon to pages</p>
 <p>This hooks into <code class="docutils literal notranslate"><span class="pre">html-page-context</span></code> event and adds the parameters
 <code class="docutils literal notranslate"><span class="pre">git_ribbon_url</span></code> and <code class="docutils literal notranslate"><span class="pre">git_ribbon_message</span></code> to the context from
@@ -481,7 +481,7 @@ to the <code class="docutils literal notranslate"><span class="pre">meta.yaml</s
 <li><p>all others are assumed to be RST docs and link to the <code class="docutils literal notranslate"><span class="pre">docs/source/</span></code>
 folder in <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></p></li>
 </ul>
-<div class="admonition-todo admonition" id="index-0">
+<div class="admonition-todo admonition" id="id1">
 <p class="admonition-title">Todo</p>
 <p>Fix hardcoding of values, should be a mapping that comes from
 <code class="docutils literal notranslate"><span class="pre">conf.py</span></code>.</p>
@@ -490,7 +490,7 @@ folder in <code class="docutils literal notranslate"><span class="pre">bioconda-
 
 <dl class="function">
 <dt id="bioconda_utils.sphinxext.as_extlink_filter">
-<code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">as_extlink_filter</code><span class="sig-paren">(</span><em>text</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#as_extlink_filter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.as_extlink_filter" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">as_extlink_filter</code><span class="sig-paren">(</span><em class="sig-param">text</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#as_extlink_filter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.as_extlink_filter" title="Permalink to this definition">¶</a></dt>
 <dd><p>Jinja2 filter converting identifier (list) to extlink format</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -509,7 +509,7 @@ folder in <code class="docutils literal notranslate"><span class="pre">bioconda-
 
 <dl class="function">
 <dt id="bioconda_utils.sphinxext.generate_readme">
-<code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">generate_readme</code><span class="sig-paren">(</span><em>recipe_basedir</em>, <em>output_dir</em>, <em>folder</em>, <em>repodata</em>, <em>renderer</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#generate_readme"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.generate_readme" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">generate_readme</code><span class="sig-paren">(</span><em class="sig-param">recipe_basedir</em>, <em class="sig-param">output_dir</em>, <em class="sig-param">folder</em>, <em class="sig-param">repodata</em>, <em class="sig-param">renderer</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#generate_readme"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.generate_readme" title="Permalink to this definition">¶</a></dt>
 <dd><p>Generates README.rst for the recipe in folder</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -529,7 +529,7 @@ subfolders</p>
 
 <dl class="function">
 <dt id="bioconda_utils.sphinxext.generate_recipes">
-<code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">generate_recipes</code><span class="sig-paren">(</span><em>app</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#generate_recipes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.generate_recipes" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">generate_recipes</code><span class="sig-paren">(</span><em class="sig-param">app</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#generate_recipes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.generate_recipes" title="Permalink to this definition">¶</a></dt>
 <dd><p>Generates recipe RST files</p>
 <ul class="simple">
 <li><p>Checks out repository</p></li>
@@ -542,13 +542,13 @@ subfolders</p>
 
 <dl class="function">
 <dt id="bioconda_utils.sphinxext.prefixes_filter">
-<code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">prefixes_filter</code><span class="sig-paren">(</span><em>text</em>, <em>split</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#prefixes_filter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.prefixes_filter" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">prefixes_filter</code><span class="sig-paren">(</span><em class="sig-param">text</em>, <em class="sig-param">split</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#prefixes_filter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.prefixes_filter" title="Permalink to this definition">¶</a></dt>
 <dd><p>Jinja2 filter</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.sphinxext.resolve_required_by_xrefs">
-<code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">resolve_required_by_xrefs</code><span class="sig-paren">(</span><em>app</em>, <em>env</em>, <em>node</em>, <em>contnode</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#resolve_required_by_xrefs"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.resolve_required_by_xrefs" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">resolve_required_by_xrefs</code><span class="sig-paren">(</span><em class="sig-param">app</em>, <em class="sig-param">env</em>, <em class="sig-param">node</em>, <em class="sig-param">contnode</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#resolve_required_by_xrefs"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.resolve_required_by_xrefs" title="Permalink to this definition">¶</a></dt>
 <dd><p>Now that all recipes and packages have been parsed, we are called here
 for each <code class="docutils literal notranslate"><span class="pre">pending_xref</span></code> node that sphinx has not been able to resolve.</p>
 <p>We handle specifically the <code class="docutils literal notranslate"><span class="pre">requiredby</span></code> reftype created by the
@@ -560,7 +560,7 @@ list of reference nodes pointing to the package pages that
 
 <dl class="function">
 <dt id="bioconda_utils.sphinxext.rst_escape_filter">
-<code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">rst_escape_filter</code><span class="sig-paren">(</span><em>text</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#rst_escape_filter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.rst_escape_filter" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">rst_escape_filter</code><span class="sig-paren">(</span><em class="sig-param">text</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#rst_escape_filter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.rst_escape_filter" title="Permalink to this definition">¶</a></dt>
 <dd><p>Jinja2 filter escaping RST symbols in text</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">rst_excape_filter</span><span class="p">(</span><span class="s2">&quot;running `cmd.sh`&quot;</span><span class="p">)</span>
 <span class="go">&quot;running \`cmd.sh\`&quot;</span>
@@ -570,7 +570,7 @@ list of reference nodes pointing to the package pages that
 
 <dl class="function">
 <dt id="bioconda_utils.sphinxext.rst_link_filter">
-<code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">rst_link_filter</code><span class="sig-paren">(</span><em>text</em>, <em>url</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#rst_link_filter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.rst_link_filter" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">rst_link_filter</code><span class="sig-paren">(</span><em class="sig-param">text</em>, <em class="sig-param">url</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#rst_link_filter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.rst_link_filter" title="Permalink to this definition">¶</a></dt>
 <dd><p>Jinja2 filter creating RST link</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">rst_link_filter</span><span class="p">(</span><span class="s2">&quot;bla&quot;</span><span class="p">,</span> <span class="s2">&quot;https://somewhere&quot;</span><span class="p">)</span>
 <span class="go">&quot;`bla &lt;https://somewhere&gt;`_&quot;</span>
@@ -580,13 +580,13 @@ list of reference nodes pointing to the package pages that
 
 <dl class="function">
 <dt id="bioconda_utils.sphinxext.setup">
-<code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">setup</code><span class="sig-paren">(</span><em>app</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#setup"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.setup" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">setup</code><span class="sig-paren">(</span><em class="sig-param">app</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#setup"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.setup" title="Permalink to this definition">¶</a></dt>
 <dd><p>Set up sphinx extension</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.sphinxext.underline_filter">
-<code class="descclassname">bioconda_utils.sphinxext.</code><code class="descname">underline_filter</code><span class="sig-paren">(</span><em>text</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#underline_filter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.underline_filter" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">underline_filter</code><span class="sig-paren">(</span><em class="sig-param">text</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/sphinxext.html#underline_filter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.underline_filter" title="Permalink to this definition">¶</a></dt>
 <dd><p>Jinja2 filter adding =-underline to row of text</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">underline_filter</span><span class="p">(</span><span class="s2">&quot;headline&quot;</span><span class="p">)</span>
 <span class="go">&quot;headline\n========&quot;</span>
@@ -607,7 +607,7 @@ list of reference nodes pointing to the package pages that
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

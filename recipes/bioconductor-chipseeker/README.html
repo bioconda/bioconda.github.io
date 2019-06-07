@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-chipseeker">
 <dl class="recipe">
 <dt id="recipe-bioconductor-chipseeker">
-<em class="property">recipe </em><code class="descname">bioconductor-chipseeker</code><a class="headerlink" href="#recipe-bioconductor-chipseeker" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-chipseeker</code><a class="headerlink" href="#recipe-bioconductor-chipseeker" title="Permalink to this definition">¶</a></dt>
 <dd><p>This package implements functions to retrieve the nearest genes around the peak, annotate genomic region of the peak, statstical methods for estimate the significance of overlap among ChIP peak data sets, and incorporate GEO database for user to compare the own dataset with those deposited in database. The comparison can be used to infer cooperative regulation and thus can be used to generate hypotheses. Several visualization functions are implemented to summarize the coverage of the peak experiment, average profile and heatmap of peaks binding to TSS regions, genomic annotation, distance to TSS, and overlap of peaks or genes.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -126,42 +126,68 @@
 
 <dl class="package">
 <dt id="package-bioconductor-chipseeker">
-<em class="property">package </em><code class="descname">bioconductor-chipseeker</code><a class="headerlink" href="#package-bioconductor-chipseeker" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-chipseeker</code><a class="headerlink" href="#package-bioconductor-chipseeker" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-chipseeker"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-chipseeker.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-chipseeker"><img alt="docker_bioconductor-chipseeker" src="https://quay.io/repository/biocontainers/bioconductor-chipseeker/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.18.0-0, 1.16.1-0, 1.14.2-0, 1.14.0-0, 1.12.1-0, 1.10.0-0, 1.6.6-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-annotationdbi/README.html#package-bioconductor-annotationdbi" title="bioconductor-annotationdbi package"><strong>bioconductor-annotationdbi</strong></a> &gt;=1.44.0,&lt;1.45.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-biocgenerics/README.html#package-bioconductor-biocgenerics" title="bioconductor-biocgenerics package"><strong>bioconductor-biocgenerics</strong></a> &gt;=0.28.0,&lt;0.29.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-enrichplot/README.html#package-bioconductor-enrichplot" title="bioconductor-enrichplot package"><strong>bioconductor-enrichplot</strong></a> &gt;=1.2.0,&lt;1.3.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-genomeinfodb/README.html#package-bioconductor-genomeinfodb" title="bioconductor-genomeinfodb package"><strong>bioconductor-genomeinfodb</strong></a> &gt;=1.18.0,&lt;1.19.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-genomicfeatures/README.html#package-bioconductor-genomicfeatures" title="bioconductor-genomicfeatures package"><strong>bioconductor-genomicfeatures</strong></a> &gt;=1.34.0,&lt;1.35.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-genomicranges/README.html#package-bioconductor-genomicranges" title="bioconductor-genomicranges package"><strong>bioconductor-genomicranges</strong></a> &gt;=1.34.0,&lt;1.35.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-iranges/README.html#package-bioconductor-iranges" title="bioconductor-iranges package"><strong>bioconductor-iranges</strong></a> &gt;=2.16.0,&lt;2.17.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-rtracklayer/README.html#package-bioconductor-rtracklayer" title="bioconductor-rtracklayer package"><strong>bioconductor-rtracklayer</strong></a> &gt;=1.42.0,&lt;1.43.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-s4vectors/README.html#package-bioconductor-s4vectors" title="bioconductor-s4vectors package"><strong>bioconductor-s4vectors</strong></a> &gt;=0.20.0,&lt;0.21.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-txdb.hsapiens.ucsc.hg19.knowngene/README.html#package-bioconductor-txdb.hsapiens.ucsc.hg19.knowngene" title="bioconductor-txdb.hsapiens.ucsc.hg19.knowngene package"><strong>bioconductor-txdb.hsapiens.ucsc.hg19.knowngene</strong></a> &gt;=3.2.0,&lt;3.3.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-boot-feedstock"><strong>r-boot</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-dplyr-feedstock"><strong>r-dplyr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ggplot2-feedstock"><strong>r-ggplot2</strong></a> &gt;=2.2.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-gplots-feedstock"><strong>r-gplots</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-gridbase-feedstock"><strong>r-gridbase</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-gtools-feedstock"><strong>r-gtools</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-magrittr-feedstock"><strong>r-magrittr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-plotrix-feedstock"><strong>r-plotrix</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rcolorbrewer-feedstock"><strong>r-rcolorbrewer</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-upsetr-feedstock"><strong>r-upsetr</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-annotationdbi</dt>
+<dd class="field-even"><p>&gt;=1.44.0,&lt;1.45.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-esatac/README.html#bioconductor-esatac"><strong class="xref backref">bioconductor-esatac</strong></a></p></li>
-</ul>
+<dt class="field-odd">Depends bioconductor-biocgenerics</dt>
+<dd class="field-odd"><p>&gt;=0.28.0,&lt;0.29.0</p>
 </dd>
+<dt class="field-even">Depends bioconductor-enrichplot</dt>
+<dd class="field-even"><p>&gt;=1.2.0,&lt;1.3.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-genomeinfodb</dt>
+<dd class="field-odd"><p>&gt;=1.18.0,&lt;1.19.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-genomicfeatures</dt>
+<dd class="field-even"><p>&gt;=1.34.0,&lt;1.35.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-genomicranges</dt>
+<dd class="field-odd"><p>&gt;=1.34.0,&lt;1.35.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-iranges</dt>
+<dd class="field-even"><p>&gt;=2.16.0,&lt;2.17.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-rtracklayer</dt>
+<dd class="field-odd"><p>&gt;=1.42.0,&lt;1.43.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-s4vectors</dt>
+<dd class="field-even"><p>&gt;=0.20.0,&lt;0.21.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene</dt>
+<dd class="field-odd"><p>&gt;=3.2.0,&lt;3.3.0</p>
+</dd>
+<dt class="field-even">Depends r-base</dt>
+<dd class="field-even"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-odd">Depends r-boot</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-dplyr</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-ggplot2</dt>
+<dd class="field-odd"><p>&gt;=2.2.0</p>
+</dd>
+<dt class="field-even">Depends r-gplots</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-gridbase</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-gtools</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-magrittr</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-plotrix</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-rcolorbrewer</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-upsetr</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -199,7 +225,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-isogenegui">
 <dl class="recipe">
 <dt id="recipe-bioconductor-isogenegui">
-<em class="property">recipe </em><code class="descname">bioconductor-isogenegui</code><a class="headerlink" href="#recipe-bioconductor-isogenegui" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-isogenegui</code><a class="headerlink" href="#recipe-bioconductor-isogenegui" title="Permalink to this definition">¶</a></dt>
 <dd><p>The IsoGene Graphical User Interface (IsoGene-GUI) is a user friendly interface of the IsoGene package which is aimed to identify for genes with a monotonic trend in the expression levels with respect to the increasing doses. Additionally, GUI extension of original package contains various tools to perform clustering of dose-response profiles. Testing is addressed through several test statistics: global likelihood ratio test (E2), Bartholomew 1961, Barlow et al. 1972 and Robertson et al. 1988), Williams (1971, 1972), Marcus (1976), the M (Hu et al. 2005) and the modified M (Lin et al. 2007). The p-values of the global likelihood ratio test (E2) are obtained using the exact distribution and permutations. The other four test statistics are obtained using permutations. Several p-values adjustment are provided: Bonferroni, Holm (1979), Hochberg (1988), and Sidak procedures for controlling the family-wise Type I error rate (FWER), and BH (Benjamini and Hochberg 1995) and BY (Benjamini and Yekutieli 2001) procedures are used for controlling the FDR. The inference is based on resampling methods, which control the False Discovery Rate (FDR), for both permutations (Ge et al., 2003) and the Significance Analysis of Microarrays (SAM, Tusher et al., 2001). Clustering methods are outsourced from CRAN packages ORCME, ORIClust. The package ORCME is based on delta-clustering method (Cheng and Church, 2000) and ORIClust on Order Restricted Information Criterion (Liu et al., 2009), both perform same task but from different perspective and their outputs are clusters of genes. Additionally, profile selection for given gene based on Generalized ORIC (Kuiper et al., 2014) from package goric and permutation test for E2 based on package orQA are included in IsoGene-GUI. None of these four packages has GUI.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,39 +123,58 @@
 
 <dl class="package">
 <dt id="package-bioconductor-isogenegui">
-<em class="property">package </em><code class="descname">bioconductor-isogenegui</code><a class="headerlink" href="#package-bioconductor-isogenegui" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-isogenegui</code><a class="headerlink" href="#package-bioconductor-isogenegui" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-isogenegui"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-isogenegui.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-isogenegui"><img alt="docker_bioconductor-isogenegui" src="https://quay.io/repository/biocontainers/bioconductor-isogenegui/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>2.18.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-biobase/README.html#package-bioconductor-biobase" title="bioconductor-biobase package"><strong>bioconductor-biobase</strong></a> &gt;=2.42.0,&lt;2.43.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-geneplotter/README.html#package-bioconductor-geneplotter" title="bioconductor-geneplotter package"><strong>bioconductor-geneplotter</strong></a> &gt;=1.60.0,&lt;1.61.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-multtest/README.html#package-bioconductor-multtest" title="bioconductor-multtest package"><strong>bioconductor-multtest</strong></a> &gt;=2.38.0,&lt;2.39.0</p></li>
-<li><p><strong>libgcc-ng</strong> &gt;=7.3.0</p></li>
-<li><p><strong>libstdcxx-ng</strong> &gt;=7.3.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ff-feedstock"><strong>r-ff</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-goric-feedstock"><strong>r-goric</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-iso-feedstock"><strong>r-iso</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../r-isogene/README.html#package-r-isogene" title="r-isogene package"><strong>r-isogene</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-jpeg-feedstock"><strong>r-jpeg</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-orcme-feedstock"><strong>r-orcme</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-oriclust-feedstock"><strong>r-oriclust</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../r-orqa/README.html#package-r-orqa" title="r-orqa package"><strong>r-orqa</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rcolorbrewer-feedstock"><strong>r-rcolorbrewer</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rcpp-feedstock"><strong>r-rcpp</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-relimp-feedstock"><strong>r-relimp</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-tkrplot-feedstock"><strong>r-tkrplot</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-xlsx-feedstock"><strong>r-xlsx</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-biobase</dt>
+<dd class="field-even"><p>&gt;=2.42.0,&lt;2.43.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends bioconductor-geneplotter</dt>
+<dd class="field-odd"><p>&gt;=1.60.0,&lt;1.61.0</p>
 </dd>
+<dt class="field-even">Depends bioconductor-multtest</dt>
+<dd class="field-even"><p>&gt;=2.38.0,&lt;2.39.0</p>
+</dd>
+<dt class="field-odd">Depends libgcc-ng</dt>
+<dd class="field-odd"><p>&gt;=7.3.0</p>
+</dd>
+<dt class="field-even">Depends libstdcxx-ng</dt>
+<dd class="field-even"><p>&gt;=7.3.0</p>
+</dd>
+<dt class="field-odd">Depends r-base</dt>
+<dd class="field-odd"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-even">Depends r-ff</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-goric</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-iso</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-isogene</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-jpeg</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-orcme</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-oriclust</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-orqa</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-rcolorbrewer</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-rcpp</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-relimp</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-tkrplot</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-xlsx</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -193,7 +212,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

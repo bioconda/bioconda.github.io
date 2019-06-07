@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-consensusov">
 <dl class="recipe">
 <dt id="recipe-bioconductor-consensusov">
-<em class="property">recipe </em><code class="descname">bioconductor-consensusov</code><a class="headerlink" href="#recipe-bioconductor-consensusov" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-consensusov</code><a class="headerlink" href="#recipe-bioconductor-consensusov" title="Permalink to this definition">¶</a></dt>
 <dd><p>This package implements four major subtype classifiers for high-grade serous (HGS) ovarian cancer as described by Helland et al. (PLoS One, 2011), Bentink et al. (PLoS One, 2012), Verhaak et al. (J Clin Invest, 2013), and Konecny et al. (J Natl Cancer Inst, 2014). In addition, the package implements a consensus classifier, which consolidates and improves on the robustness of the proposed subtype classifiers, thereby providing reliable stratification of patients with HGS ovarian tumors of clearly defined subtype.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,28 +123,35 @@
 
 <dl class="package">
 <dt id="package-bioconductor-consensusov">
-<em class="property">package </em><code class="descname">bioconductor-consensusov</code><a class="headerlink" href="#package-bioconductor-consensusov" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-consensusov</code><a class="headerlink" href="#package-bioconductor-consensusov" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-consensusov"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-consensusov.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-consensusov"><img alt="docker_bioconductor-consensusov" src="https://quay.io/repository/biocontainers/bioconductor-consensusov/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.4.1-0, 1.2.0-0, 1.0.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-biobase/README.html#package-bioconductor-biobase" title="bioconductor-biobase package"><strong>bioconductor-biobase</strong></a> &gt;=2.42.0,&lt;2.43.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-genefu/README.html#package-bioconductor-genefu" title="bioconductor-genefu package"><strong>bioconductor-genefu</strong></a> &gt;=2.14.0,&lt;2.15.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-gsva/README.html#package-bioconductor-gsva" title="bioconductor-gsva package"><strong>bioconductor-gsva</strong></a> &gt;=1.30.0,&lt;1.31.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-limma/README.html#package-bioconductor-limma" title="bioconductor-limma package"><strong>bioconductor-limma</strong></a> &gt;=3.38.0,&lt;3.39.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-gdata-feedstock"><strong>r-gdata</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-matrixstats-feedstock"><strong>r-matrixstats</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-randomforest-feedstock"><strong>r-randomforest</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-biobase</dt>
+<dd class="field-even"><p>&gt;=2.42.0,&lt;2.43.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends bioconductor-genefu</dt>
+<dd class="field-odd"><p>&gt;=2.14.0,&lt;2.15.0</p>
 </dd>
+<dt class="field-even">Depends bioconductor-gsva</dt>
+<dd class="field-even"><p>&gt;=1.30.0,&lt;1.31.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-limma</dt>
+<dd class="field-odd"><p>&gt;=3.38.0,&lt;3.39.0</p>
+</dd>
+<dt class="field-even">Depends r-base</dt>
+<dd class="field-even"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-odd">Depends r-gdata</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-matrixstats</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-randomforest</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -182,7 +189,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

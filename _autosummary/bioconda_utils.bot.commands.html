@@ -104,10 +104,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -125,7 +125,7 @@
 <span id="commands"></span><h1>commands<a class="headerlink" href="#module-bioconda_utils.bot.commands" title="Permalink to this headline">¶</a></h1>
 <p>Handlers for user commmands (<code class="docutils literal notranslate"><span class="pre">&#64;biocondabot</span> <span class="pre">do</span> <span class="pre">this</span></code>)</p>
 <p class="rubric">Functions</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -158,7 +158,7 @@
 </tbody>
 </table>
 <p class="rubric">Classes</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -172,7 +172,7 @@
 <p class="rubric">Documentation</p>
 <dl class="class">
 <dt id="bioconda_utils.bot.commands.CommandDispatch">
-<em class="property">class </em><code class="descclassname">bioconda_utils.bot.commands.</code><code class="descname">CommandDispatch</code><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#CommandDispatch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.CommandDispatch" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.bot.commands.</code><code class="sig-name descname">CommandDispatch</code><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#CommandDispatch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.CommandDispatch" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
 <p>Decorator based router handling bot commands</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;hello&quot;</span><span class="p">)</span>
@@ -182,13 +182,13 @@
 </div>
 <dl class="method">
 <dt id="bioconda_utils.bot.commands.CommandDispatch.dispatch">
-<code class="descname">dispatch</code><span class="sig-paren">(</span><em>cmd</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#CommandDispatch.dispatch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.CommandDispatch.dispatch" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">dispatch</code><span class="sig-paren">(</span><em class="sig-param">cmd</em>, <em class="sig-param">*args</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#CommandDispatch.dispatch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.CommandDispatch.dispatch" title="Permalink to this definition">¶</a></dt>
 <dd><p>Calls one of the registered functions</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="bioconda_utils.bot.commands.CommandDispatch.register">
-<code class="descname">register</code><span class="sig-paren">(</span><em>cmd</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#CommandDispatch.register"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.CommandDispatch.register" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">register</code><span class="sig-paren">(</span><em class="sig-param">cmd</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#CommandDispatch.register"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.CommandDispatch.register" title="Permalink to this definition">¶</a></dt>
 <dd><p>Decorator adding decorated function to dispatcher</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -201,49 +201,49 @@
 
 <dl class="function">
 <dt id="bioconda_utils.bot.commands.command_autobump">
-<code class="descclassname">bioconda_utils.bot.commands.</code><code class="descname">command_autobump</code><span class="sig-paren">(</span><em>ghapi</em>, <em>_issue_number</em>, <em>_user</em>, <em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_autobump"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_autobump" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.commands.</code><code class="sig-name descname">command_autobump</code><span class="sig-paren">(</span><em class="sig-param">ghapi</em>, <em class="sig-param">_issue_number</em>, <em class="sig-param">_user</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_autobump"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_autobump" title="Permalink to this definition">¶</a></dt>
 <dd><p>Run Autobump on recipes</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.bot.commands.command_bump">
-<code class="descclassname">bioconda_utils.bot.commands.</code><code class="descname">command_bump</code><span class="sig-paren">(</span><em>ghapi</em>, <em>issue_number</em>, <em>_user</em>, <em>*_args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_bump"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_bump" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.commands.</code><code class="sig-name descname">command_bump</code><span class="sig-paren">(</span><em class="sig-param">ghapi</em>, <em class="sig-param">issue_number</em>, <em class="sig-param">_user</em>, <em class="sig-param">*_args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_bump"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_bump" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bump the build number of a recipe</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.bot.commands.command_hello">
-<code class="descclassname">bioconda_utils.bot.commands.</code><code class="descname">command_hello</code><span class="sig-paren">(</span><em>ghapi</em>, <em>issue_number</em>, <em>user</em>, <em>*_args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_hello"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_hello" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.commands.</code><code class="sig-name descname">command_hello</code><span class="sig-paren">(</span><em class="sig-param">ghapi</em>, <em class="sig-param">issue_number</em>, <em class="sig-param">user</em>, <em class="sig-param">*_args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_hello"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_hello" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check whether the bot is listening. If it is, it will answer.</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.bot.commands.command_lint">
-<code class="descclassname">bioconda_utils.bot.commands.</code><code class="descname">command_lint</code><span class="sig-paren">(</span><em>ghapi</em>, <em>issue_number</em>, <em>_user</em>, <em>*_args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_lint"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_lint" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.commands.</code><code class="sig-name descname">command_lint</code><span class="sig-paren">(</span><em class="sig-param">ghapi</em>, <em class="sig-param">issue_number</em>, <em class="sig-param">_user</em>, <em class="sig-param">*_args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_lint"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_lint" title="Permalink to this definition">¶</a></dt>
 <dd><p>Lint the current recipe</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.bot.commands.command_merge">
-<code class="descclassname">bioconda_utils.bot.commands.</code><code class="descname">command_merge</code><span class="sig-paren">(</span><em>ghapi</em>, <em>issue_number</em>, <em>user</em>, <em>*_args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_merge"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_merge" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.commands.</code><code class="sig-name descname">command_merge</code><span class="sig-paren">(</span><em class="sig-param">ghapi</em>, <em class="sig-param">issue_number</em>, <em class="sig-param">user</em>, <em class="sig-param">*_args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_merge"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_merge" title="Permalink to this definition">¶</a></dt>
 <dd><p>Merge PR</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.bot.commands.command_rebuild">
-<code class="descclassname">bioconda_utils.bot.commands.</code><code class="descname">command_rebuild</code><span class="sig-paren">(</span><em>ghapi</em>, <em>issue_number</em>, <em>_user</em>, <em>*_args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_rebuild"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_rebuild" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.commands.</code><code class="sig-name descname">command_rebuild</code><span class="sig-paren">(</span><em class="sig-param">ghapi</em>, <em class="sig-param">issue_number</em>, <em class="sig-param">_user</em>, <em class="sig-param">*_args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_rebuild"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_rebuild" title="Permalink to this definition">¶</a></dt>
 <dd><p>Trigger rebuild of PR as of latest sha</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.bot.commands.command_recheck">
-<code class="descclassname">bioconda_utils.bot.commands.</code><code class="descname">command_recheck</code><span class="sig-paren">(</span><em>ghapi</em>, <em>issue_number</em>, <em>_user</em>, <em>*_args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_recheck"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_recheck" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.commands.</code><code class="sig-name descname">command_recheck</code><span class="sig-paren">(</span><em class="sig-param">ghapi</em>, <em class="sig-param">issue_number</em>, <em class="sig-param">_user</em>, <em class="sig-param">*_args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_recheck"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_recheck" title="Permalink to this definition">¶</a></dt>
 <dd><p>Trigger check_check_run and check_circle_artifacts</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.bot.commands.permissions">
-<code class="descclassname">bioconda_utils.bot.commands.</code><code class="descname">permissions</code><span class="sig-paren">(</span><em>member=None</em>, <em>author=None</em>, <em>team=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#permissions"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.permissions" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.bot.commands.</code><code class="sig-name descname">permissions</code><span class="sig-paren">(</span><em class="sig-param">member=None</em>, <em class="sig-param">author=None</em>, <em class="sig-param">team=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#permissions"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.permissions" title="Permalink to this definition">¶</a></dt>
 <dd><p>Decorator for commands checking for permissions</p>
 <p>Permissions are OR combined. Repeat the decorator to get AND.</p>
 <dl class="field-list simple">
@@ -269,7 +269,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="damidseq-pipeline">
 <dl class="recipe">
 <dt id="recipe-damidseq_pipeline">
-<em class="property">recipe </em><code class="descname">damidseq_pipeline</code><a class="headerlink" href="#recipe-damidseq_pipeline" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">damidseq_pipeline</code><a class="headerlink" href="#recipe-damidseq_pipeline" title="Permalink to this definition">¶</a></dt>
 <dd><p>An automated pipeline for processing DamID sequencing datasets</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,25 +123,27 @@
 
 <dl class="package">
 <dt id="package-damidseq_pipeline">
-<em class="property">package </em><code class="descname">damidseq_pipeline</code><a class="headerlink" href="#package-damidseq_pipeline" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">damidseq_pipeline</code><a class="headerlink" href="#package-damidseq_pipeline" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/damidseq_pipeline"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/damidseq_pipeline.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/damidseq_pipeline"><img alt="docker_damidseq_pipeline" src="https://quay.io/repository/biocontainers/damidseq_pipeline/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.4-2, 1.4-1, 1.4-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bowtie2/README.html#package-bowtie2" title="bowtie2 package"><strong>bowtie2</strong></a> &gt;=2.3.0</p></li>
-<li><p><a class="conda-package reference internal" href="../igvtools/README.html#package-igvtools" title="igvtools package"><strong>igvtools</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> &gt;=5.26.2,&lt;5.26.3.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a> &lt;1.3.0</p></li>
-</ul>
+<dt class="field-even">Depends bowtie2</dt>
+<dd class="field-even"><p>&gt;=2.3.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends igvtools</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl</dt>
+<dd class="field-even"><p>&gt;=5.26.2,&lt;5.26.3.0a0</p>
 </dd>
+<dt class="field-odd">Depends r-base</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends samtools</dt>
+<dd class="field-even"><p>&lt;1.3.0</p>
+</dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -179,7 +181,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="repeatmasker">
 <dl class="recipe">
 <dt id="recipe-repeatmasker">
-<em class="property">recipe </em><code class="descname">repeatmasker</code><a class="headerlink" href="#recipe-repeatmasker" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">repeatmasker</code><a class="headerlink" href="#recipe-repeatmasker" title="Permalink to this definition">¶</a></dt>
 <dd><p>RepeatMasker is a program that screens DNA sequences for interspersed repeats and low complexity DNA sequences.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -126,28 +126,25 @@
 
 <dl class="package">
 <dt id="package-repeatmasker">
-<em class="property">package </em><code class="descname">repeatmasker</code><a class="headerlink" href="#package-repeatmasker" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">repeatmasker</code><a class="headerlink" href="#package-repeatmasker" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/repeatmasker"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/repeatmasker.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/repeatmasker"><img alt="docker_repeatmasker" src="https://quay.io/repository/biocontainers/repeatmasker/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>4.0.9_p2-0, 4.0.8-14, 4.0.8-13, 4.0.7-13, 4.0.7-11, 4.0.7-10, 4.0.6-10, 4.0.6-9, 4.0.6-8, 4.0.6-7, 4.0.6-6, 4.0.6-5, 4.0.6-4</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../hmmer/README.html#package-hmmer" title="hmmer package"><strong>hmmer</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> &gt;=5.26.2,&lt;5.26.3.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-text-soundex-feedstock"><strong>perl-text-soundex</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../rmblast/README.html#package-rmblast" title="rmblast package"><strong>rmblast</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../trf/README.html#package-trf" title="trf package"><strong>trf</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends hmmer</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl</dt>
+<dd class="field-odd"><p>&gt;=5.26.2,&lt;5.26.3.0a0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../dfam/README.html#dfam"><strong class="xref backref">dfam</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../maker/README.html#maker"><strong class="xref backref">maker</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../repeatmodeler/README.html#repeatmodeler"><strong class="xref backref">repeatmodeler</strong></a></p></li>
-</ul>
-</dd>
+<dt class="field-even">Depends perl-text-soundex</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends rmblast</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends trf</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -185,7 +182,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

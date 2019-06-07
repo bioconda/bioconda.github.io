@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="vqsr-cnn">
 <dl class="recipe">
 <dt id="recipe-vqsr_cnn">
-<em class="property">recipe </em><code class="descname">vqsr_cnn</code><a class="headerlink" href="#recipe-vqsr_cnn" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">vqsr_cnn</code><a class="headerlink" href="#recipe-vqsr_cnn" title="Permalink to this definition">¶</a></dt>
 <dd><p>Variant quality score recalibration with Convolutional Neural Networks</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,31 +123,44 @@
 
 <dl class="package">
 <dt id="package-vqsr_cnn">
-<em class="property">package </em><code class="descname">vqsr_cnn</code><a class="headerlink" href="#package-vqsr_cnn" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">vqsr_cnn</code><a class="headerlink" href="#package-vqsr_cnn" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/vqsr_cnn"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/vqsr_cnn.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/vqsr_cnn"><img alt="docker_vqsr_cnn" src="https://quay.io/repository/biocontainers/vqsr_cnn/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>0.0.194-0, 0.0.132-1, 0.0.132-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/biopython-feedstock"><strong>biopython</strong></a> &gt;=1.70</p></li>
-<li><p><a class="conda-package reference internal" href="../gatktool/README.html#package-gatktool" title="gatktool package"><strong>gatktool</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/keras-feedstock"><strong>keras</strong></a> &gt;=2.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/matplotlib-feedstock"><strong>matplotlib</strong></a> &gt;=2.1.2</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a> &gt;=1.13.1</p></li>
-<li><p><a class="conda-package reference internal" href="../pysam/README.html#package-pysam" title="pysam package"><strong>pysam</strong></a> &gt;=0.13</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pyvcf-feedstock"><strong>pyvcf</strong></a> &gt;=0.6.8</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scikit-learn-feedstock"><strong>scikit-learn</strong></a> &gt;=0.19.1</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scipy-feedstock"><strong>scipy</strong></a> &gt;=0.19.1</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/tensorflow-feedstock"><strong>tensorflow</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends biopython</dt>
+<dd class="field-even"><p>&gt;=1.70</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends gatktool</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends keras</dt>
+<dd class="field-even"><p>&gt;=2.0</p>
 </dd>
+<dt class="field-odd">Depends matplotlib</dt>
+<dd class="field-odd"><p>&gt;=2.1.2</p>
+</dd>
+<dt class="field-even">Depends numpy</dt>
+<dd class="field-even"><p>&gt;=1.13.1</p>
+</dd>
+<dt class="field-odd">Depends pysam</dt>
+<dd class="field-odd"><p>&gt;=0.13</p>
+</dd>
+<dt class="field-even">Depends python</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends pyvcf</dt>
+<dd class="field-odd"><p>&gt;=0.6.8</p>
+</dd>
+<dt class="field-even">Depends scikit-learn</dt>
+<dd class="field-even"><p>&gt;=0.19.1</p>
+</dd>
+<dt class="field-odd">Depends scipy</dt>
+<dd class="field-odd"><p>&gt;=0.19.1</p>
+</dd>
+<dt class="field-even">Depends tensorflow</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -185,7 +198,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

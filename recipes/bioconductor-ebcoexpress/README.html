@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-ebcoexpress">
 <dl class="recipe">
 <dt id="recipe-bioconductor-ebcoexpress">
-<em class="property">recipe </em><code class="descname">bioconductor-ebcoexpress</code><a class="headerlink" href="#recipe-bioconductor-ebcoexpress" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-ebcoexpress</code><a class="headerlink" href="#recipe-bioconductor-ebcoexpress" title="Permalink to this definition">¶</a></dt>
 <dd><p>An Empirical Bayesian Approach to Differential Co-Expression Analysis at the Gene-Pair Level</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,26 +123,27 @@
 
 <dl class="package">
 <dt id="package-bioconductor-ebcoexpress">
-<em class="property">package </em><code class="descname">bioconductor-ebcoexpress</code><a class="headerlink" href="#package-bioconductor-ebcoexpress" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-ebcoexpress</code><a class="headerlink" href="#package-bioconductor-ebcoexpress" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-ebcoexpress"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-ebcoexpress.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-ebcoexpress"><img alt="docker_bioconductor-ebcoexpress" src="https://quay.io/repository/biocontainers/bioconductor-ebcoexpress/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.26.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-ebarrays/README.html#package-bioconductor-ebarrays" title="bioconductor-ebarrays package"><strong>bioconductor-ebarrays</strong></a> &gt;=2.46.0,&lt;2.47.0</p></li>
-<li><p><strong>libgcc-ng</strong> &gt;=7.3.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-mclust-feedstock"><strong>r-mclust</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-minqa-feedstock"><strong>r-minqa</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-ebarrays</dt>
+<dd class="field-even"><p>&gt;=2.46.0,&lt;2.47.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-srgnet/README.html#bioconductor-srgnet"><strong class="xref backref">bioconductor-srgnet</strong></a></p></li>
-</ul>
+<dt class="field-odd">Depends libgcc-ng</dt>
+<dd class="field-odd"><p>&gt;=7.3.0</p>
 </dd>
+<dt class="field-even">Depends r-base</dt>
+<dd class="field-even"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-odd">Depends r-mclust</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-minqa</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -180,7 +181,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

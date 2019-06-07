@@ -98,10 +98,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -121,7 +121,7 @@
 <p>These checks verify syntax (schema), in particular for the <code class="docutils literal notranslate"><span class="pre">extra</span></code>
 section that is otherwise free-form.</p>
 <p class="rubric">Classes</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -144,7 +144,7 @@ section that is otherwise free-form.</p>
 <p class="rubric">Documentation</p>
 <dl class="class">
 <dt id="bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon">
-<em class="property">class </em><code class="descclassname">bioconda_utils.lint.check_syntax.</code><code class="descname">extra_identifiers_missing_colon</code><span class="sig-paren">(</span><em>_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_identifiers_missing_colon"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_syntax.</code><code class="sig-name descname">extra_identifiers_missing_colon</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_identifiers_missing_colon"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
 <p>Each item in the extra/identifiers section must be of form <code class="docutils literal notranslate"><span class="pre">type:value</span></code></p>
 <p>Example:</p>
@@ -155,7 +155,7 @@ section that is otherwise free-form.</p>
 </div>
 <dl class="method">
 <dt id="bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon.check_recipe">
-<code class="descname">check_recipe</code><span class="sig-paren">(</span><em>recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_identifiers_missing_colon.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon.check_recipe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_identifiers_missing_colon.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon.check_recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on recipe</p>
 <p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
 to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
@@ -170,7 +170,7 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
 
 <dl class="class">
 <dt id="bioconda_utils.lint.check_syntax.extra_identifiers_not_list">
-<em class="property">class </em><code class="descclassname">bioconda_utils.lint.check_syntax.</code><code class="descname">extra_identifiers_not_list</code><span class="sig-paren">(</span><em>_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_identifiers_not_list"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_identifiers_not_list" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_syntax.</code><code class="sig-name descname">extra_identifiers_not_list</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_identifiers_not_list"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_identifiers_not_list" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
 <p>The extra/identifiers section must be a list</p>
 <p>Example:</p>
@@ -181,7 +181,7 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
 </div>
 <dl class="method">
 <dt id="bioconda_utils.lint.check_syntax.extra_identifiers_not_list.check_recipe">
-<code class="descname">check_recipe</code><span class="sig-paren">(</span><em>recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_identifiers_not_list.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_identifiers_not_list.check_recipe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_identifiers_not_list.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_identifiers_not_list.check_recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on recipe</p>
 <p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
 to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
@@ -196,7 +196,7 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
 
 <dl class="class">
 <dt id="bioconda_utils.lint.check_syntax.extra_identifiers_not_string">
-<em class="property">class </em><code class="descclassname">bioconda_utils.lint.check_syntax.</code><code class="descname">extra_identifiers_not_string</code><span class="sig-paren">(</span><em>_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_identifiers_not_string"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_identifiers_not_string" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_syntax.</code><code class="sig-name descname">extra_identifiers_not_string</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_identifiers_not_string"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_identifiers_not_string" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
 <p>Each item in the extra/identifiers section must be a string</p>
 <p>Example:</p>
@@ -208,7 +208,7 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
 <p>Note that there is no space around the colon</p>
 <dl class="method">
 <dt id="bioconda_utils.lint.check_syntax.extra_identifiers_not_string.check_recipe">
-<code class="descname">check_recipe</code><span class="sig-paren">(</span><em>recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_identifiers_not_string.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_identifiers_not_string.check_recipe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_identifiers_not_string.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_identifiers_not_string.check_recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on recipe</p>
 <p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
 to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
@@ -223,7 +223,7 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
 
 <dl class="class">
 <dt id="bioconda_utils.lint.check_syntax.extra_skip_lints_not_list">
-<em class="property">class </em><code class="descclassname">bioconda_utils.lint.check_syntax.</code><code class="descname">extra_skip_lints_not_list</code><span class="sig-paren">(</span><em>_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_skip_lints_not_list"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_skip_lints_not_list" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_syntax.</code><code class="sig-name descname">extra_skip_lints_not_list</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_skip_lints_not_list"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_skip_lints_not_list" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
 <p>The extra/skip-lints section must contain a list</p>
 <p>Example:</p>
@@ -234,7 +234,7 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
 </div>
 <dl class="method">
 <dt id="bioconda_utils.lint.check_syntax.extra_skip_lints_not_list.check_recipe">
-<code class="descname">check_recipe</code><span class="sig-paren">(</span><em>recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_skip_lints_not_list.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_skip_lints_not_list.check_recipe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/lint/check_syntax.html#extra_skip_lints_not_list.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_syntax.extra_skip_lints_not_list.check_recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on recipe</p>
 <p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
 to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
@@ -260,7 +260,7 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

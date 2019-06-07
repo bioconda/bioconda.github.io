@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="perl-math-random-mt-auto">
 <dl class="recipe">
 <dt id="recipe-perl-math-random-mt-auto">
-<em class="property">recipe </em><code class="descname">perl-math-random-mt-auto</code><a class="headerlink" href="#recipe-perl-math-random-mt-auto" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">perl-math-random-mt-auto</code><a class="headerlink" href="#recipe-perl-math-random-mt-auto" title="Permalink to this definition">¶</a></dt>
 <dd><p>Auto-seeded Mersenne Twister PRNGs</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,28 +123,30 @@
 
 <dl class="package">
 <dt id="package-perl-math-random-mt-auto">
-<em class="property">package </em><code class="descname">perl-math-random-mt-auto</code><a class="headerlink" href="#package-perl-math-random-mt-auto" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">perl-math-random-mt-auto</code><a class="headerlink" href="#package-perl-math-random-mt-auto" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/perl-math-random-mt-auto"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/perl-math-random-mt-auto.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/perl-math-random-mt-auto"><img alt="docker_perl-math-random-mt-auto" src="https://quay.io/repository/biocontainers/perl-math-random-mt-auto/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>6.23-1, 6.23-0, 6.22-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><strong>libgcc-ng</strong> &gt;=7.3.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> &gt;=5.26.2,&lt;5.26.3.0a0</p></li>
-<li><p><a class="conda-package reference internal" href="../perl-carp/README.html#package-perl-carp" title="perl-carp package"><strong>perl-carp</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-data-dumper/README.html#package-perl-data-dumper" title="perl-data-dumper package"><strong>perl-data-dumper</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-exception-class/README.html#package-perl-exception-class" title="perl-exception-class package"><strong>perl-exception-class</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-object-insideout/README.html#package-perl-object-insideout" title="perl-object-insideout package"><strong>perl-object-insideout</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-xsloader/README.html#package-perl-xsloader" title="perl-xsloader package"><strong>perl-xsloader</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends libgcc-ng</dt>
+<dd class="field-even"><p>&gt;=7.3.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../kinsimriboswitch/README.html#kinsimriboswitch"><strong class="xref backref">kinsimriboswitch</strong></a></p></li>
-</ul>
+<dt class="field-odd">Depends perl</dt>
+<dd class="field-odd"><p>&gt;=5.26.2,&lt;5.26.3.0a0</p>
 </dd>
+<dt class="field-even">Depends perl-carp</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-data-dumper</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-exception-class</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-object-insideout</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-xsloader</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -182,7 +184,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

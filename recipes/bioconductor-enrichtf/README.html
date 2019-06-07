@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-enrichtf">
 <dl class="recipe">
 <dt id="recipe-bioconductor-enrichtf">
-<em class="property">recipe </em><code class="descname">bioconductor-enrichtf</code><a class="headerlink" href="#recipe-bioconductor-enrichtf" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-enrichtf</code><a class="headerlink" href="#recipe-bioconductor-enrichtf" title="Permalink to this definition">¶</a></dt>
 <dd><p>As transcription factors (TFs) play a crucial role in regulating the transcription process through binding on the genome alone or in a combinatorial manner, TF enrichment analysis is an efficient and important procedure to locate the candidate functional TFs from a set of experimentally defined regulatory regions. While it is commonly accepted that structurally related TFs may have similar binding preference to sequences (i.e. motifs) and one TF may have multiple motifs, TF enrichment analysis is much more challenging than motif enrichment analysis. Here we present a R package for TF enrichment analysis which combine motif enrichment with the PECA model.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,15 +123,13 @@
 
 <dl class="package">
 <dt id="package-bioconductor-enrichtf">
-<em class="property">package </em><code class="descname">bioconductor-enrichtf</code><a class="headerlink" href="#package-bioconductor-enrichtf" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-enrichtf</code><a class="headerlink" href="#package-bioconductor-enrichtf" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-enrichtf"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-enrichtf.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-enrichtf"><img alt="docker_bioconductor-enrichtf" src="https://quay.io/repository/biocontainers/bioconductor-enrichtf/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">Required By</dt>
-<dd class="field-even"><ul class="simple">
-</ul>
-</dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -169,7 +167,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="perl-moosex-nonmoose">
 <dl class="recipe">
 <dt id="recipe-perl-moosex-nonmoose">
-<em class="property">recipe </em><code class="descname">perl-moosex-nonmoose</code><a class="headerlink" href="#recipe-perl-moosex-nonmoose" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">perl-moosex-nonmoose</code><a class="headerlink" href="#recipe-perl-moosex-nonmoose" title="Permalink to this definition">¶</a></dt>
 <dd><p>MooseX::NonMoose - easy subclassing of non-Moose classes</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,26 +123,25 @@
 
 <dl class="package">
 <dt id="package-perl-moosex-nonmoose">
-<em class="property">package </em><code class="descname">perl-moosex-nonmoose</code><a class="headerlink" href="#package-perl-moosex-nonmoose" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">perl-moosex-nonmoose</code><a class="headerlink" href="#package-perl-moosex-nonmoose" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/perl-moosex-nonmoose"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/perl-moosex-nonmoose.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/perl-moosex-nonmoose"><img alt="docker_perl-moosex-nonmoose" src="https://quay.io/repository/biocontainers/perl-moosex-nonmoose/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>0.26-3, 0.26-2, 0.26-1, 0.26-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> &gt;=5.26.2,&lt;5.26.3.0a0</p></li>
-<li><p><a class="conda-package reference internal" href="../perl-list-moreutils/README.html#package-perl-list-moreutils" title="perl-list-moreutils package"><strong>perl-list-moreutils</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-module-runtime/README.html#package-perl-module-runtime" title="perl-module-runtime package"><strong>perl-module-runtime</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-moose/README.html#package-perl-moose" title="perl-moose package"><strong>perl-moose</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-try-tiny/README.html#package-perl-try-tiny" title="perl-try-tiny package"><strong>perl-try-tiny</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends perl</dt>
+<dd class="field-even"><p>&gt;=5.26.2,&lt;5.26.3.0a0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../perl-hpc-runner-command/README.html#perl-hpc-runner-command"><strong class="xref backref">perl-hpc-runner-command</strong></a></p></li>
-</ul>
-</dd>
+<dt class="field-odd">Depends perl-list-moreutils</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-module-runtime</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-moose</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-try-tiny</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -180,7 +179,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="snakemake">
 <dl class="recipe">
 <dt id="recipe-snakemake">
-<em class="property">recipe </em><code class="descname">snakemake</code><a class="headerlink" href="#recipe-snakemake" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">snakemake</code><a class="headerlink" href="#recipe-snakemake" title="Permalink to this definition">¶</a></dt>
 <dd><p>Snakemake is a workflow management system that aims to reduce the complexity of creating workflows by providing a fast and comfortable execution environment, together with a clean and modern specification language in python style. Snakemake workflows are essentially Python scripts extended by declarative code to define rules. Rules describe how to create output files from input files. This package provides the full installation including all optional dependencies.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -126,52 +126,50 @@
 
 <dl class="package">
 <dt id="package-snakemake">
-<em class="property">package </em><code class="descname">snakemake</code><a class="headerlink" href="#package-snakemake" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">snakemake</code><a class="headerlink" href="#package-snakemake" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/snakemake"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/snakemake.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/snakemake"><img alt="docker_snakemake" src="https://quay.io/repository/biocontainers/snakemake/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>5.5.0-0, 5.4.5-0, 5.4.4-0, 5.4.3-0, 5.4.2-0, 5.4.1-0, 5.4.0-0, 5.3.1-0, 5.3.0-2, 5.3.0-1, 5.2.4-1, 5.2.2-1, 5.2.1-0, 5.2.0-0, 5.1.5-0, 5.1.4-2, 5.1.4-0, 5.1.3-0, 5.1.2-0, 5.1.1-0, 5.0.0-0, 4.8.1-0, 4.8.0-0, 4.7.0-0, 4.6.0-0, 4.5.1-0, 4.5.0-0, 4.4.0-0, 4.3.1-0, 4.3.0-0, 4.2.0-0, 4.1.0-0, 4.0.0-1, 4.0.0-0, 3.13.3-0, 3.13.2-0, 3.13.0-1, 3.12.0-1, 3.11.2-1, 3.11.2-0, 3.11.1-1, 3.11.1-0, 3.11.0-1, 3.10.2-1, 3.10.1-1, 3.10.1-0, 3.10.0-0, 3.9.1-0, 3.9.0-0, 3.8.2-0, 3.8.1-0, 3.8.0-0, 3.7.1-0, 3.7.0-0, 3.6.1-0, 3.6.0-0, 3.5.5-1, 3.5.4-1, 3.5.3-1, 3.5.2-1, 3.5.1-1, 3.4.2-1</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/aioeasywebdav-feedstock"><strong>aioeasywebdav</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/boto3-feedstock"><strong>boto3</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/dropbox-feedstock"><strong>dropbox</strong></a> &gt;=7.2.1</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/filechunkio-feedstock"><strong>filechunkio</strong></a> &gt;=1.6</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/ftputil-feedstock"><strong>ftputil</strong></a> &gt;=3.2</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/google-cloud-storage-feedstock"><strong>google-cloud-storage</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/jinja2-feedstock"><strong>jinja2</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/jsonschema-feedstock"><strong>jsonschema</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/networkx-feedstock"><strong>networkx</strong></a> &gt;=2.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/psutil-feedstock"><strong>psutil</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pygraphviz-feedstock"><strong>pygraphviz</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pysftp-feedstock"><strong>pysftp</strong></a> &gt;=0.2.8</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-irodsclient-feedstock"><strong>python-irodsclient</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../snakemake-minimal/README.html#package-snakemake-minimal" title="snakemake-minimal package"><strong>snakemake-minimal</strong></a> 5.5.0.*</p></li>
-</ul>
+<dt class="field-even">Depends aioeasywebdav</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends boto3</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends dropbox</dt>
+<dd class="field-even"><p>&gt;=7.2.1</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../hlama/README.html#hlama"><strong class="xref backref">hlama</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../marge/README.html#marge"><strong class="xref backref">marge</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../mtsv/README.html#mtsv"><strong class="xref backref">mtsv</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../ymp/README.html#ymp"><strong class="xref backref">ymp</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../riboraptor/README.html#riboraptor"><strong class="xref backref">riboraptor</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../mageck-vispr/README.html#mageck-vispr"><strong class="xref backref">mageck-vispr</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../metagenome-atlas/README.html#metagenome-atlas"><strong class="xref backref">metagenome-atlas</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../mikado/README.html#mikado"><strong class="xref backref">mikado</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../pybda/README.html#pybda"><strong class="xref backref">pybda</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../qcumber/README.html#qcumber"><strong class="xref backref">qcumber</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../metameta/README.html#metameta"><strong class="xref backref">metameta</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../seq-seq-pan/README.html#seq-seq-pan"><strong class="xref backref">seq-seq-pan</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../augur/README.html#augur"><strong class="xref backref">augur</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../wg-blimp/README.html#wg-blimp"><strong class="xref backref">wg-blimp</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../daisysuite/README.html#daisysuite"><strong class="xref backref">daisysuite</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../sequana/README.html#sequana"><strong class="xref backref">sequana</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../digestiflow-demux/README.html#digestiflow-demux"><strong class="xref backref">digestiflow-demux</strong></a></p></li>
-</ul>
+<dt class="field-odd">Depends filechunkio</dt>
+<dd class="field-odd"><p>&gt;=1.6</p>
 </dd>
+<dt class="field-even">Depends ftputil</dt>
+<dd class="field-even"><p>&gt;=3.2</p>
+</dd>
+<dt class="field-odd">Depends google-cloud-storage</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends jinja2</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends jsonschema</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends networkx</dt>
+<dd class="field-even"><p>&gt;=2.0</p>
+</dd>
+<dt class="field-odd">Depends pandas</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends psutil</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends pygraphviz</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends pysftp</dt>
+<dd class="field-even"><p>&gt;=0.2.8</p>
+</dd>
+<dt class="field-odd">Depends python-irodsclient</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends snakemake-minimal</dt>
+<dd class="field-even"><p>5.5.0.*</p>
+</dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -209,7 +207,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

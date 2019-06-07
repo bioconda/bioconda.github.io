@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="scrappie">
 <dl class="recipe">
 <dt id="recipe-scrappie">
-<em class="property">recipe </em><code class="descname">scrappie</code><a class="headerlink" href="#recipe-scrappie" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">scrappie</code><a class="headerlink" href="#recipe-scrappie" title="Permalink to this definition">¶</a></dt>
 <dd><p>Scrappie is a technology demonstrator for the Oxford Nanopore Research Algorithms group</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,30 +123,39 @@
 
 <dl class="package">
 <dt id="package-scrappie">
-<em class="property">package </em><code class="descname">scrappie</code><a class="headerlink" href="#package-scrappie" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">scrappie</code><a class="headerlink" href="#package-scrappie" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/scrappie"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/scrappie.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/scrappie"><img alt="docker_scrappie" src="https://quay.io/repository/biocontainers/scrappie/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.4.2-0, 1.4.1-0, 1.3.2-2, 1.3.2-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/cffi-feedstock"><strong>cffi</strong></a> &gt;=1.0.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/cunit-feedstock"><strong>cunit</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/hdf5-feedstock"><strong>hdf5</strong></a> &gt;=1.10.4,&lt;1.10.5.0a0</p></li>
-<li><p><strong>libgcc-ng</strong> &gt;=7.3.0</p></li>
-<li><p><strong>libstdcxx-ng</strong> &gt;=7.3.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/openblas-feedstock"><strong>openblas</strong></a> &gt;=0.3.3,&lt;0.3.4.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=3.6,&lt;3.7.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/zlib-feedstock"><strong>zlib</strong></a> &gt;=1.2.11,&lt;1.3.0a0</p></li>
-</ul>
+<dt class="field-even">Depends cffi</dt>
+<dd class="field-even"><p>&gt;=1.0.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../pomoxis/README.html#pomoxis"><strong class="xref backref">pomoxis</strong></a></p></li>
-</ul>
+<dt class="field-odd">Depends cunit</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends hdf5</dt>
+<dd class="field-even"><p>&gt;=1.10.4,&lt;1.10.5.0a0</p>
 </dd>
+<dt class="field-odd">Depends libgcc-ng</dt>
+<dd class="field-odd"><p>&gt;=7.3.0</p>
+</dd>
+<dt class="field-even">Depends libstdcxx-ng</dt>
+<dd class="field-even"><p>&gt;=7.3.0</p>
+</dd>
+<dt class="field-odd">Depends numpy</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends openblas</dt>
+<dd class="field-even"><p>&gt;=0.3.3,&lt;0.3.4.0a0</p>
+</dd>
+<dt class="field-odd">Depends python</dt>
+<dd class="field-odd"><p>&gt;=3.6,&lt;3.7.0a0</p>
+</dd>
+<dt class="field-even">Depends zlib</dt>
+<dd class="field-even"><p>&gt;=1.2.11,&lt;1.3.0a0</p>
+</dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -184,7 +193,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="perl-moosex-app">
 <dl class="recipe">
 <dt id="recipe-perl-moosex-app">
-<em class="property">recipe </em><code class="descname">perl-moosex-app</code><a class="headerlink" href="#recipe-perl-moosex-app" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">perl-moosex-app</code><a class="headerlink" href="#recipe-perl-moosex-app" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write user-friendly command line apps with even less suffering</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,34 +123,35 @@
 
 <dl class="package">
 <dt id="package-perl-moosex-app">
-<em class="property">package </em><code class="descname">perl-moosex-app</code><a class="headerlink" href="#package-perl-moosex-app" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">perl-moosex-app</code><a class="headerlink" href="#package-perl-moosex-app" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/perl-moosex-app"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/perl-moosex-app.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/perl-moosex-app"><img alt="docker_perl-moosex-app" src="https://quay.io/repository/biocontainers/perl-moosex-app/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.3701-2, 1.3701-1, 1.3701-0, 1.39-3, 1.39-2, 1.39-1, 1.39-0, 1.35-2, 1.35-1, 1.35-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> &gt;=5.26.2,&lt;5.26.3.0a0</p></li>
-<li><p><a class="conda-package reference internal" href="../perl-config-any/README.html#package-perl-config-any" title="perl-config-any package"><strong>perl-config-any</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-file-homedir/README.html#package-perl-file-homedir" title="perl-file-homedir package"><strong>perl-file-homedir</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-io-interactive/README.html#package-perl-io-interactive" title="perl-io-interactive package"><strong>perl-io-interactive</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-moose/README.html#package-perl-moose" title="perl-moose package"><strong>perl-moose</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-moosex-types-path-class/README.html#package-perl-moosex-types-path-class" title="perl-moosex-types-path-class package"><strong>perl-moosex-types-path-class</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-path-class/README.html#package-perl-path-class" title="perl-path-class package"><strong>perl-path-class</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-pod-elemental/README.html#package-perl-pod-elemental" title="perl-pod-elemental package"><strong>perl-pod-elemental</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-scalar-list-utils/README.html#package-perl-scalar-list-utils" title="perl-scalar-list-utils package"><strong>perl-scalar-list-utils</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-termreadkey/README.html#package-perl-termreadkey" title="perl-termreadkey package"><strong>perl-termreadkey</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends perl</dt>
+<dd class="field-even"><p>&gt;=5.26.2,&lt;5.26.3.0a0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../perl-biosails/README.html#perl-biosails"><strong class="xref backref">perl-biosails</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-moosex-app-role-log4perl/README.html#perl-moosex-app-role-log4perl"><strong class="xref backref">perl-moosex-app-role-log4perl</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-biox-workflow-command/README.html#perl-biox-workflow-command"><strong class="xref backref">perl-biox-workflow-command</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-hpc-runner-command/README.html#perl-hpc-runner-command"><strong class="xref backref">perl-hpc-runner-command</strong></a></p></li>
-</ul>
-</dd>
+<dt class="field-odd">Depends perl-config-any</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-file-homedir</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-io-interactive</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-moose</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-moosex-types-path-class</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-path-class</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-pod-elemental</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-scalar-list-utils</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-termreadkey</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -188,7 +189,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

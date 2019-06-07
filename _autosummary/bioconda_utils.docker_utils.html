@@ -117,10 +117,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -173,22 +173,19 @@ environmental variables passed to the container.</p></li>
 Most magic happens here.</p></li>
 </ul>
 <p class="rubric">Functions</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.docker_utils.dummy_recipe" title="bioconda_utils.docker_utils.dummy_recipe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">dummy_recipe</span></code></a>()</p></td>
-<td><p>Builds a throwaway recipe in a temp dir.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.docker_utils.get_host_conda_bld" title="bioconda_utils.docker_utils.get_host_conda_bld"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_host_conda_bld</span></code></a>([purge])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.docker_utils.get_host_conda_bld" title="bioconda_utils.docker_utils.get_host_conda_bld"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_host_conda_bld</span></code></a>()</p></td>
 <td><p>Identifies the conda-bld directory on the host.</p></td>
 </tr>
 </tbody>
 </table>
 <p class="rubric">Classes</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -200,7 +197,7 @@ Most magic happens here.</p></li>
 </tbody>
 </table>
 <p class="rubric">Exceptions</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -217,30 +214,19 @@ Most magic happens here.</p></li>
 <p class="rubric">Documentation</p>
 <dl class="exception">
 <dt id="bioconda_utils.docker_utils.DockerBuildError">
-<em class="property">exception </em><code class="descclassname">bioconda_utils.docker_utils.</code><code class="descname">DockerBuildError</code><a class="reference internal" href="../_modules/bioconda_utils/docker_utils.html#DockerBuildError"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.docker_utils.DockerBuildError" title="Permalink to this definition">¶</a></dt>
+<em class="property">exception </em><code class="sig-prename descclassname">bioconda_utils.docker_utils.</code><code class="sig-name descname">DockerBuildError</code><a class="reference internal" href="../_modules/bioconda_utils/docker_utils.html#DockerBuildError"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.docker_utils.DockerBuildError" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/exceptions.html#Exception" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></a></p>
 </dd></dl>
 
 <dl class="exception">
 <dt id="bioconda_utils.docker_utils.DockerCalledProcessError">
-<em class="property">exception </em><code class="descclassname">bioconda_utils.docker_utils.</code><code class="descname">DockerCalledProcessError</code><span class="sig-paren">(</span><em>returncode</em>, <em>cmd</em>, <em>output=None</em>, <em>stderr=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/docker_utils.html#DockerCalledProcessError"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.docker_utils.DockerCalledProcessError" title="Permalink to this definition">¶</a></dt>
+<em class="property">exception </em><code class="sig-prename descclassname">bioconda_utils.docker_utils.</code><code class="sig-name descname">DockerCalledProcessError</code><span class="sig-paren">(</span><em class="sig-param">returncode</em>, <em class="sig-param">cmd</em>, <em class="sig-param">output=None</em>, <em class="sig-param">stderr=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/docker_utils.html#DockerCalledProcessError"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.docker_utils.DockerCalledProcessError" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/subprocess.html#subprocess.CalledProcessError" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">subprocess.CalledProcessError</span></code></a></p>
 </dd></dl>
 
 <dl class="function">
-<dt id="bioconda_utils.docker_utils.dummy_recipe">
-<code class="descclassname">bioconda_utils.docker_utils.</code><code class="descname">dummy_recipe</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/docker_utils.html#dummy_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.docker_utils.dummy_recipe" title="Permalink to this definition">¶</a></dt>
-<dd><p>Builds a throwaway recipe in a temp dir.</p>
-<p>The best way to figure out where a recipe will be built seems to be by
-running <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">build</span> <span class="pre">--output</span> <span class="pre">$RECIPE</span></code>, but this means a recipe has to
-exist. This creates a minimal meta.yaml file in a temp dir that can be used
-as an example recipe.</p>
-<p>Caller is expected to delete when done.</p>
-</dd></dl>
-
-<dl class="function">
 <dt id="bioconda_utils.docker_utils.get_host_conda_bld">
-<code class="descclassname">bioconda_utils.docker_utils.</code><code class="descname">get_host_conda_bld</code><span class="sig-paren">(</span><em>purge=True</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/docker_utils.html#get_host_conda_bld"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.docker_utils.get_host_conda_bld" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.docker_utils.</code><code class="sig-name descname">get_host_conda_bld</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/docker_utils.html#get_host_conda_bld"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.docker_utils.get_host_conda_bld" title="Permalink to this definition">¶</a></dt>
 <dd><p>Identifies the conda-bld directory on the host.</p>
 <p>Assumes that conda-build is installed.</p>
 </dd></dl>
@@ -258,7 +244,7 @@ as an example recipe.</p>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

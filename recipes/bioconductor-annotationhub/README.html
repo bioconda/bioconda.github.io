@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-annotationhub">
 <dl class="recipe">
 <dt id="recipe-bioconductor-annotationhub">
-<em class="property">recipe </em><code class="descname">bioconductor-annotationhub</code><a class="headerlink" href="#recipe-bioconductor-annotationhub" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-annotationhub</code><a class="headerlink" href="#recipe-bioconductor-annotationhub" title="Permalink to this definition">¶</a></dt>
 <dd><p>This package provides a client for the Bioconductor AnnotationHub web resource. The AnnotationHub web resource provides a central location where genomic files (e.g., VCF, bed, wig) and other resources from standard locations (e.g., UCSC, Ensembl) can be discovered. The resource includes metadata about each resource, e.g., a textual description, tags, and date of modification. The client creates and manages a local cache of files retrieved by the user, helping with quick and reproducible access.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -126,65 +126,39 @@
 
 <dl class="package">
 <dt id="package-bioconductor-annotationhub">
-<em class="property">package </em><code class="descname">bioconductor-annotationhub</code><a class="headerlink" href="#package-bioconductor-annotationhub" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-annotationhub</code><a class="headerlink" href="#package-bioconductor-annotationhub" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-annotationhub"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-annotationhub.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-annotationhub"><img alt="docker_bioconductor-annotationhub" src="https://quay.io/repository/biocontainers/bioconductor-annotationhub/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>2.14.5-0, 2.14.2-0, 2.12.1-0, 2.10.1-0, 2.10.0-0, 2.8.2-0, 2.6.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-annotationdbi/README.html#package-bioconductor-annotationdbi" title="bioconductor-annotationdbi package"><strong>bioconductor-annotationdbi</strong></a> &gt;=1.44.0,&lt;1.45.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-biocgenerics/README.html#package-bioconductor-biocgenerics" title="bioconductor-biocgenerics package"><strong>bioconductor-biocgenerics</strong></a> &gt;=0.28.0,&lt;0.29.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-interactivedisplaybase/README.html#package-bioconductor-interactivedisplaybase" title="bioconductor-interactivedisplaybase package"><strong>bioconductor-interactivedisplaybase</strong></a> &gt;=1.20.0,&lt;1.21.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-s4vectors/README.html#package-bioconductor-s4vectors" title="bioconductor-s4vectors package"><strong>bioconductor-s4vectors</strong></a> &gt;=0.20.0,&lt;0.21.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-biocmanager-feedstock"><strong>r-biocmanager</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-curl-feedstock"><strong>r-curl</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-httr-feedstock"><strong>r-httr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rsqlite-feedstock"><strong>r-rsqlite</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-yaml-feedstock"><strong>r-yaml</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-annotationdbi</dt>
+<dd class="field-even"><p>&gt;=1.44.0,&lt;1.45.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-alpinedata/README.html#bioconductor-alpinedata"><strong class="xref backref">bioconductor-alpinedata</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-curatedmetagenomicdata/README.html#bioconductor-curatedmetagenomicdata"><strong class="xref backref">bioconductor-curatedmetagenomicdata</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-hmp16sdata/README.html#bioconductor-hmp16sdata"><strong class="xref backref">bioconductor-hmp16sdata</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-pwomics/README.html#bioconductor-pwomics"><strong class="xref backref">bioconductor-pwomics</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-alternativesplicingevents.hg19/README.html#bioconductor-alternativesplicingevents.hg19"><strong class="xref backref">bioconductor-alternativesplicingevents.hg19</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-scmeth/README.html#bioconductor-scmeth"><strong class="xref backref">bioconductor-scmeth</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-grasp2db/README.html#bioconductor-grasp2db"><strong class="xref backref">bioconductor-grasp2db</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-sesamedata/README.html#bioconductor-sesamedata"><strong class="xref backref">bioconductor-sesamedata</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-hipathia/README.html#bioconductor-hipathia"><strong class="xref backref">bioconductor-hipathia</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-psichomics/README.html#bioconductor-psichomics"><strong class="xref backref">bioconductor-psichomics</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../r-freerange/README.html#r-freerange"><strong class="xref backref">r-freerange</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-pathwaysplice/README.html#bioconductor-pathwaysplice"><strong class="xref backref">bioconductor-pathwaysplice</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-genomicscores/README.html#bioconductor-genomicscores"><strong class="xref backref">bioconductor-genomicscores</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-gseabenchmarker/README.html#bioconductor-gseabenchmarker"><strong class="xref backref">bioconductor-gseabenchmarker</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-annotatr/README.html#bioconductor-annotatr"><strong class="xref backref">bioconductor-annotatr</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-restfulse/README.html#bioconductor-restfulse"><strong class="xref backref">bioconductor-restfulse</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-tenxbraindata/README.html#bioconductor-tenxbraindata"><strong class="xref backref">bioconductor-tenxbraindata</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-ipddb/README.html#bioconductor-ipddb"><strong class="xref backref">bioconductor-ipddb</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-metagxovarian/README.html#bioconductor-metagxovarian"><strong class="xref backref">bioconductor-metagxovarian</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-dmrseq/README.html#bioconductor-dmrseq"><strong class="xref backref">bioconductor-dmrseq</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-alternativesplicingevents.hg38/README.html#bioconductor-alternativesplicingevents.hg38"><strong class="xref backref">bioconductor-alternativesplicingevents.hg38</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-experimenthub/README.html#bioconductor-experimenthub"><strong class="xref backref">bioconductor-experimenthub</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-annotationhubdata/README.html#bioconductor-annotationhubdata"><strong class="xref backref">bioconductor-annotationhubdata</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-tsrchitect/README.html#bioconductor-tsrchitect"><strong class="xref backref">bioconductor-tsrchitect</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-ularcirc/README.html#bioconductor-ularcirc"><strong class="xref backref">bioconductor-ularcirc</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-tenxpbmcdata/README.html#bioconductor-tenxpbmcdata"><strong class="xref backref">bioconductor-tenxpbmcdata</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-gwascat/README.html#bioconductor-gwascat"><strong class="xref backref">bioconductor-gwascat</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-eupathdb/README.html#bioconductor-eupathdb"><strong class="xref backref">bioconductor-eupathdb</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-proteomicsannotationhubdata/README.html#bioconductor-proteomicsannotationhubdata"><strong class="xref backref">bioconductor-proteomicsannotationhubdata</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-mcsurvdata/README.html#bioconductor-mcsurvdata"><strong class="xref backref">bioconductor-mcsurvdata</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-curatedtcgadata/README.html#bioconductor-curatedtcgadata"><strong class="xref backref">bioconductor-curatedtcgadata</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-metagxpancreas/README.html#bioconductor-metagxpancreas"><strong class="xref backref">bioconductor-metagxpancreas</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-refnet/README.html#bioconductor-refnet"><strong class="xref backref">bioconductor-refnet</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-allenpvc/README.html#bioconductor-allenpvc"><strong class="xref backref">bioconductor-allenpvc</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-metagxbreast/README.html#bioconductor-metagxbreast"><strong class="xref backref">bioconductor-metagxbreast</strong></a></p></li>
-</ul>
+<dt class="field-odd">Depends bioconductor-biocgenerics</dt>
+<dd class="field-odd"><p>&gt;=0.28.0,&lt;0.29.0</p>
 </dd>
+<dt class="field-even">Depends bioconductor-interactivedisplaybase</dt>
+<dd class="field-even"><p>&gt;=1.20.0,&lt;1.21.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-s4vectors</dt>
+<dd class="field-odd"><p>&gt;=0.20.0,&lt;0.21.0</p>
+</dd>
+<dt class="field-even">Depends r-base</dt>
+<dd class="field-even"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-odd">Depends r-biocmanager</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-curl</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-httr</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-rsqlite</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-yaml</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -222,7 +196,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

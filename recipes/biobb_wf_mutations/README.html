@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="biobb-wf-mutations">
 <dl class="recipe">
 <dt id="recipe-biobb_wf_mutations">
-<em class="property">recipe </em><code class="descname">biobb_wf_mutations</code><a class="headerlink" href="#recipe-biobb_wf_mutations" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">biobb_wf_mutations</code><a class="headerlink" href="#recipe-biobb_wf_mutations" title="Permalink to this definition">¶</a></dt>
 <dd><p>Lysozyme plus Mutations workflow built using BioBB Based on the official Gromacs tutorial: http://www.mdtutorials.com/gmx/lysozyme/01_pdb2gmx.html</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -144,26 +144,32 @@ BSC (http://www.bsc.es/) &amp; IRB (https://www.irbbarcelona.org/) for the Europ
 
 <dl class="package">
 <dt id="package-biobb_wf_mutations">
-<em class="property">package </em><code class="descname">biobb_wf_mutations</code><a class="headerlink" href="#package-biobb_wf_mutations" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">biobb_wf_mutations</code><a class="headerlink" href="#package-biobb_wf_mutations" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/biobb_wf_mutations"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/biobb_wf_mutations.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/biobb_wf_mutations"><img alt="docker_biobb_wf_mutations" src="https://quay.io/repository/biocontainers/biobb_wf_mutations/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>0.0.6-0, 0.0.5-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../biobb_adapters/README.html#package-biobb_adapters" title="biobb_adapters package"><strong>biobb_adapters</strong></a> &gt;=0.1.4</p></li>
-<li><p><a class="conda-package reference internal" href="../biobb_common/README.html#package-biobb_common" title="biobb_common package"><strong>biobb_common</strong></a> &gt;=0.1.2</p></li>
-<li><p><a class="conda-package reference internal" href="../biobb_io/README.html#package-biobb_io" title="biobb_io package"><strong>biobb_io</strong></a> &gt;=0.1.4</p></li>
-<li><p><a class="conda-package reference internal" href="../biobb_md/README.html#package-biobb_md" title="biobb_md package"><strong>biobb_md</strong></a> &gt;=0.1.5</p></li>
-<li><p><a class="conda-package reference internal" href="../biobb_model/README.html#package-biobb_model" title="biobb_model package"><strong>biobb_model</strong></a> &gt;=0.1.5</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=3</p></li>
-</ul>
+<dt class="field-even">Depends biobb_adapters</dt>
+<dd class="field-even"><p>&gt;=0.1.4</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends biobb_common</dt>
+<dd class="field-odd"><p>&gt;=0.1.2</p>
 </dd>
+<dt class="field-even">Depends biobb_io</dt>
+<dd class="field-even"><p>&gt;=0.1.4</p>
+</dd>
+<dt class="field-odd">Depends biobb_md</dt>
+<dd class="field-odd"><p>&gt;=0.1.5</p>
+</dd>
+<dt class="field-even">Depends biobb_model</dt>
+<dd class="field-even"><p>&gt;=0.1.5</p>
+</dd>
+<dt class="field-odd">Depends python</dt>
+<dd class="field-odd"><p>&gt;=3</p>
+</dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -201,7 +207,7 @@ BSC (http://www.bsc.es/) &amp; IRB (https://www.irbbarcelona.org/) for the Europ
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

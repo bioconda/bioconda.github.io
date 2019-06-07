@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="fastphylo">
 <dl class="recipe">
 <dt id="recipe-fastphylo">
-<em class="property">recipe </em><code class="descname">fastphylo</code><a class="headerlink" href="#recipe-fastphylo" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">fastphylo</code><a class="headerlink" href="#recipe-fastphylo" title="Permalink to this definition">¶</a></dt>
 <dd><p>Fastphylo is software project containing the implementations of the algorithms “Fast Computation of Distance Estimators” and “Fast Neighbor Joining”.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -126,23 +126,22 @@
 
 <dl class="package">
 <dt id="package-fastphylo">
-<em class="property">package </em><code class="descname">fastphylo</code><a class="headerlink" href="#package-fastphylo" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">fastphylo</code><a class="headerlink" href="#package-fastphylo" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/fastphylo"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/fastphylo.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/fastphylo"><img alt="docker_fastphylo" src="https://quay.io/repository/biocontainers/fastphylo/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.0.3-1, 1.0.3-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libxml2-feedstock"><strong>libxml2</strong></a> &gt;=2.9.8,&lt;2.10.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/openblas-feedstock"><strong>openblas</strong></a> &gt;=0.2.20,&lt;0.2.21.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/openmpi-feedstock"><strong>openmpi</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends libxml2</dt>
+<dd class="field-even"><p>&gt;=2.9.8,&lt;2.10.0a0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends openblas</dt>
+<dd class="field-odd"><p>&gt;=0.2.20,&lt;0.2.21.0a0</p>
 </dd>
+<dt class="field-even">Depends openmpi</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -180,7 +179,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="bioconductor-multihiccompare">
 <dl class="recipe">
 <dt id="recipe-bioconductor-multihiccompare">
-<em class="property">recipe </em><code class="descname">bioconductor-multihiccompare</code><a class="headerlink" href="#recipe-bioconductor-multihiccompare" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">bioconductor-multihiccompare</code><a class="headerlink" href="#recipe-bioconductor-multihiccompare" title="Permalink to this definition">¶</a></dt>
 <dd><p>multiHiCcompare provides functions for joint normalization and difference detection in multiple Hi-C datasets. This extension of the original HiCcompare package now allows for Hi-C experiments with more than 2 groups and multiple samples per group. multiHiCcompare operates on processed Hi-C data in the form of sparse upper triangular matrices. It accepts four column (chromosome, region1, region2, IF) tab-separated text files storing chromatin interaction matrices. multiHiCcompare provides cyclic loess and fast loess (fastlo) methods adapted to jointly normalizing Hi-C data. Additionally, it provides a general linear model (GLM) framework adapting the edgeR package to detect differences in Hi-C data in a distance dependent manner.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,34 +123,50 @@
 
 <dl class="package">
 <dt id="package-bioconductor-multihiccompare">
-<em class="property">package </em><code class="descname">bioconductor-multihiccompare</code><a class="headerlink" href="#package-bioconductor-multihiccompare" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">bioconductor-multihiccompare</code><a class="headerlink" href="#package-bioconductor-multihiccompare" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-multihiccompare"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-multihiccompare.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-multihiccompare"><img alt="docker_bioconductor-multihiccompare" src="https://quay.io/repository/biocontainers/bioconductor-multihiccompare/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.0.0-1, 1.0.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-biocparallel/README.html#package-bioconductor-biocparallel" title="bioconductor-biocparallel package"><strong>bioconductor-biocparallel</strong></a> &gt;=1.16.0,&lt;1.17.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-blma/README.html#package-bioconductor-blma" title="bioconductor-blma package"><strong>bioconductor-blma</strong></a> &gt;=1.6.0,&lt;1.7.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-edger/README.html#package-bioconductor-edger" title="bioconductor-edger package"><strong>bioconductor-edger</strong></a> &gt;=3.24.0,&lt;3.25.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-genomeinfodb/README.html#package-bioconductor-genomeinfodb" title="bioconductor-genomeinfodb package"><strong>bioconductor-genomeinfodb</strong></a> &gt;=1.18.0,&lt;1.19.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-genomeinfodbdata/README.html#package-bioconductor-genomeinfodbdata" title="bioconductor-genomeinfodbdata package"><strong>bioconductor-genomeinfodbdata</strong></a> &gt;=1.2.0,&lt;1.3.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-genomicranges/README.html#package-bioconductor-genomicranges" title="bioconductor-genomicranges package"><strong>bioconductor-genomicranges</strong></a> &gt;=1.34.0,&lt;1.35.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-hiccompare/README.html#package-bioconductor-hiccompare" title="bioconductor-hiccompare package"><strong>bioconductor-hiccompare</strong></a> &gt;=1.4.0,&lt;1.5.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-data.table-feedstock"><strong>r-data.table</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-dplyr-feedstock"><strong>r-dplyr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-metap-feedstock"><strong>r-metap</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-pbapply-feedstock"><strong>r-pbapply</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-pheatmap-feedstock"><strong>r-pheatmap</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../r-qqman/README.html#package-r-qqman" title="r-qqman package"><strong>r-qqman</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-biocparallel</dt>
+<dd class="field-even"><p>&gt;=1.16.0,&lt;1.17.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends bioconductor-blma</dt>
+<dd class="field-odd"><p>&gt;=1.6.0,&lt;1.7.0</p>
 </dd>
+<dt class="field-even">Depends bioconductor-edger</dt>
+<dd class="field-even"><p>&gt;=3.24.0,&lt;3.25.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-genomeinfodb</dt>
+<dd class="field-odd"><p>&gt;=1.18.0,&lt;1.19.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-genomeinfodbdata</dt>
+<dd class="field-even"><p>&gt;=1.2.0,&lt;1.3.0</p>
+</dd>
+<dt class="field-odd">Depends bioconductor-genomicranges</dt>
+<dd class="field-odd"><p>&gt;=1.34.0,&lt;1.35.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-hiccompare</dt>
+<dd class="field-even"><p>&gt;=1.4.0,&lt;1.5.0</p>
+</dd>
+<dt class="field-odd">Depends r-base</dt>
+<dd class="field-odd"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-even">Depends r-data.table</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-dplyr</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-metap</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-pbapply</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-pheatmap</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-qqman</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -188,7 +204,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

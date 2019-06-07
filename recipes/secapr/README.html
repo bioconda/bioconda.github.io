@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="secapr">
 <dl class="recipe">
 <dt id="recipe-secapr">
-<em class="property">recipe </em><code class="descname">secapr</code><a class="headerlink" href="#recipe-secapr" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">secapr</code><a class="headerlink" href="#recipe-secapr" title="Permalink to this definition">¶</a></dt>
 <dd><p>Process sequence-capture FASTQ files into alignments for phylogenetic analyses. Integrates allele phasing, producing haplotype alignments.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,38 +123,58 @@
 
 <dl class="package">
 <dt id="package-secapr">
-<em class="property">package </em><code class="descname">secapr</code><a class="headerlink" href="#package-secapr" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">secapr</code><a class="headerlink" href="#package-secapr" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/secapr"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/secapr.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/secapr"><img alt="docker_secapr" src="https://quay.io/repository/biocontainers/secapr/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>1.1.15-1, 1.1.15-0, 1.1.14-0, 1.1.12-0, 1.1.10-2, 1.1.10-0, 1.1.9-0, 1.1.8-0, 1.1.7-0, 1.1.4-0, 1.1.0-0, 1.0.2-0, 1.0.1-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../abyss/README.html#package-abyss" title="abyss package"><strong>abyss</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bcftools/README.html#package-bcftools" title="bcftools package"><strong>bcftools</strong></a> 1.8</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/biopython-feedstock"><strong>biopython</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bwa/README.html#package-bwa" title="bwa package"><strong>bwa</strong></a> &gt;=0.7</p></li>
-<li><p><a class="conda-package reference internal" href="../cogent/README.html#package-cogent" title="cogent package"><strong>cogent</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../emboss/README.html#package-emboss" title="emboss package"><strong>emboss</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../fastqc/README.html#package-fastqc" title="fastqc package"><strong>fastqc</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../lastz/README.html#package-lastz" title="lastz package"><strong>lastz</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../mafft/README.html#package-mafft" title="mafft package"><strong>mafft</strong></a> &gt;=7.2</p></li>
-<li><p><a class="conda-package reference internal" href="../muscle/README.html#package-muscle" title="muscle package"><strong>muscle</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../picard/README.html#package-picard" title="picard package"><strong>picard</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=2.7,&lt;2.8.0a0</p></li>
-<li><p><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a> 0.1.19.*</p></li>
-<li><p><a class="conda-package reference internal" href="../seqtk/README.html#package-seqtk" title="seqtk package"><strong>seqtk</strong></a> &gt;=1.0.82,&lt;=1.2</p></li>
-<li><p><a class="conda-package reference internal" href="../trimmomatic/README.html#package-trimmomatic" title="trimmomatic package"><strong>trimmomatic</strong></a> 0.33</p></li>
-<li><p><a class="conda-package reference internal" href="../trinity/README.html#package-trinity" title="trinity package"><strong>trinity</strong></a> &lt;=2.3.2</p></li>
-</ul>
+<dt class="field-even">Depends abyss</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends bcftools</dt>
+<dd class="field-odd"><p>1.8</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-even">Depends biopython</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends bwa</dt>
+<dd class="field-odd"><p>&gt;=0.7</p>
 </dd>
+<dt class="field-even">Depends cogent</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends emboss</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends fastqc</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends lastz</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends mafft</dt>
+<dd class="field-even"><p>&gt;=7.2</p>
+</dd>
+<dt class="field-odd">Depends muscle</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends numpy</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends pandas</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends picard</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends python</dt>
+<dd class="field-odd"><p>&gt;=2.7,&lt;2.8.0a0</p>
+</dd>
+<dt class="field-even">Depends samtools</dt>
+<dd class="field-even"><p>0.1.19.*</p>
+</dd>
+<dt class="field-odd">Depends seqtk</dt>
+<dd class="field-odd"><p>&gt;=1.0.82,&lt;=1.2</p>
+</dd>
+<dt class="field-even">Depends trimmomatic</dt>
+<dd class="field-even"><p>0.33</p>
+</dd>
+<dt class="field-odd">Depends trinity</dt>
+<dd class="field-odd"><p>&lt;=2.3.2</p>
+</dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -192,7 +212,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="perl-pcap">
 <dl class="recipe">
 <dt id="recipe-perl-pcap">
-<em class="property">recipe </em><code class="descname">perl-pcap</code><a class="headerlink" href="#recipe-perl-pcap" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">perl-pcap</code><a class="headerlink" href="#recipe-perl-pcap" title="Permalink to this definition">¶</a></dt>
 <dd><p>NGS reference implementations and helper code for the IGCG/TCGA Pan-Cancer Analysis Project</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,33 +123,38 @@
 
 <dl class="package">
 <dt id="package-perl-pcap">
-<em class="property">package </em><code class="descname">perl-pcap</code><a class="headerlink" href="#package-perl-pcap" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">perl-pcap</code><a class="headerlink" href="#package-perl-pcap" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/perl-pcap"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/perl-pcap.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/perl-pcap"><img alt="docker_perl-pcap" src="https://quay.io/repository/biocontainers/perl-pcap/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>3.5.2-0, 1.11.1-2, 1.11.1-1, 1.11.1-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><strong>libgcc-ng</strong> &gt;=7.3.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> &gt;=5.26.2,&lt;5.26.3.0a0</p></li>
-<li><p><a class="conda-package reference internal" href="../perl-bio-db-hts/README.html#package-perl-bio-db-hts" title="perl-bio-db-hts package"><strong>perl-bio-db-hts</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-bio-samtools/README.html#package-perl-bio-samtools" title="perl-bio-samtools package"><strong>perl-bio-samtools</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-bioperl/README.html#package-perl-bioperl" title="perl-bioperl package"><strong>perl-bioperl</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-encode-locale/README.html#package-perl-encode-locale" title="perl-encode-locale package"><strong>perl-encode-locale</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-gd/README.html#package-perl-gd" title="perl-gd package"><strong>perl-gd</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-ipc-system-simple/README.html#package-perl-ipc-system-simple" title="perl-ipc-system-simple package"><strong>perl-ipc-system-simple</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-lwp-simple/README.html#package-perl-lwp-simple" title="perl-lwp-simple package"><strong>perl-lwp-simple</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-sanger-cgp-vcf/README.html#package-perl-sanger-cgp-vcf" title="perl-sanger-cgp-vcf package"><strong>perl-sanger-cgp-vcf</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-xml-parser/README.html#package-perl-xml-parser" title="perl-xml-parser package"><strong>perl-xml-parser</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends libgcc-ng</dt>
+<dd class="field-even"><p>&gt;=7.3.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../brass/README.html#brass"><strong class="xref backref">brass</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-sanger-cgp-battenberg/README.html#perl-sanger-cgp-battenberg"><strong class="xref backref">perl-sanger-cgp-battenberg</strong></a></p></li>
-</ul>
+<dt class="field-odd">Depends perl</dt>
+<dd class="field-odd"><p>&gt;=5.26.2,&lt;5.26.3.0a0</p>
 </dd>
+<dt class="field-even">Depends perl-bio-db-hts</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-bio-samtools</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-bioperl</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-encode-locale</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-gd</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-ipc-system-simple</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-lwp-simple</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends perl-sanger-cgp-vcf</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends perl-xml-parser</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Requirements</dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -187,7 +192,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

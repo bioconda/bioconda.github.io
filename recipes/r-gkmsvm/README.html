@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -106,7 +106,7 @@
   <div class="section" id="r-gkmsvm">
 <dl class="recipe">
 <dt id="recipe-r-gkmsvm">
-<em class="property">recipe </em><code class="descname">r-gkmsvm</code><a class="headerlink" href="#recipe-r-gkmsvm" title="Permalink to this definition">¶</a></dt>
+<em class="property">recipe </em><code class="sig-name descname">r-gkmsvm</code><a class="headerlink" href="#recipe-r-gkmsvm" title="Permalink to this definition">¶</a></dt>
 <dd><p>Imports the ‘gkmSVM’ v2.0 functionalities into R &lt;http://www.beerlab.org/gkmsvm/&gt; It also uses the ‘kernlab’ library (separate R package by different authors) for various SVM algorithms.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -123,34 +123,48 @@
 
 <dl class="package">
 <dt id="package-r-gkmsvm">
-<em class="property">package </em><code class="descname">r-gkmsvm</code><a class="headerlink" href="#package-r-gkmsvm" title="Permalink to this definition">¶</a></dt>
+<em class="property">package </em><code class="sig-name descname">r-gkmsvm</code><a class="headerlink" href="#package-r-gkmsvm" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-gkmsvm"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-gkmsvm.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-gkmsvm"><img alt="docker_r-gkmsvm" src="https://quay.io/repository/biocontainers/r-gkmsvm/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
 <dd class="field-odd"><p>0.79.0-1, 0.79.0-0, 0.71.0-0</p>
 </dd>
-<dt class="field-even">Depends</dt>
-<dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-biocgenerics/README.html#package-bioconductor-biocgenerics" title="bioconductor-biocgenerics package"><strong>bioconductor-biocgenerics</strong></a> &gt;=0.26.0,&lt;0.28.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-biostrings/README.html#package-bioconductor-biostrings" title="bioconductor-biostrings package"><strong>bioconductor-biostrings</strong></a> &gt;=2.48.0,&lt;2.50.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-genomeinfodb/README.html#package-bioconductor-genomeinfodb" title="bioconductor-genomeinfodb package"><strong>bioconductor-genomeinfodb</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-genomicranges/README.html#package-bioconductor-genomicranges" title="bioconductor-genomicranges package"><strong>bioconductor-genomicranges</strong></a> &gt;=1.32.7,&lt;1.34.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-iranges/README.html#package-bioconductor-iranges" title="bioconductor-iranges package"><strong>bioconductor-iranges</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-rtracklayer/README.html#package-bioconductor-rtracklayer" title="bioconductor-rtracklayer package"><strong>bioconductor-rtracklayer</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-s4vectors/README.html#package-bioconductor-s4vectors" title="bioconductor-s4vectors package"><strong>bioconductor-s4vectors</strong></a></p></li>
-<li><p><strong>libgcc-ng</strong> &gt;=7.3.0</p></li>
-<li><p><strong>libstdcxx-ng</strong> &gt;=7.3.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-kernlab-feedstock"><strong>r-kernlab</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rcpp-feedstock"><strong>r-rcpp</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rocr-feedstock"><strong>r-rocr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-seqinr-feedstock"><strong>r-seqinr</strong></a></p></li>
-</ul>
+<dt class="field-even">Depends bioconductor-biocgenerics</dt>
+<dd class="field-even"><p>&gt;=0.26.0,&lt;0.28.0</p>
 </dd>
-<dt class="field-odd">Required By</dt>
-<dd class="field-odd"><ul class="simple">
-</ul>
+<dt class="field-odd">Depends bioconductor-biostrings</dt>
+<dd class="field-odd"><p>&gt;=2.48.0,&lt;2.50.0</p>
 </dd>
+<dt class="field-even">Depends bioconductor-genomeinfodb</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends bioconductor-genomicranges</dt>
+<dd class="field-odd"><p>&gt;=1.32.7,&lt;1.34.0</p>
+</dd>
+<dt class="field-even">Depends bioconductor-iranges</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends bioconductor-rtracklayer</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends bioconductor-s4vectors</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends libgcc-ng</dt>
+<dd class="field-odd"><p>&gt;=7.3.0</p>
+</dd>
+<dt class="field-even">Depends libstdcxx-ng</dt>
+<dd class="field-even"><p>&gt;=7.3.0</p>
+</dd>
+<dt class="field-odd">Depends r-base</dt>
+<dd class="field-odd"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-even">Depends r-kernlab</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-rcpp</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-rocr</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-seqinr</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -188,7 +202,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

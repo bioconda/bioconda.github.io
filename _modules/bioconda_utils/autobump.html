@@ -86,10 +86,10 @@
   
 </ul>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -284,13 +284,12 @@
 <span class="sd">    Arguments:</span>
 <span class="sd">      recipe_source: Iteratable providing Recipe stubs</span>
 <span class="sd">      cache_fn: Filename prefix for caching</span>
-<span class="sd">      max_inflight: Maximum number of packages processed asynchronously</span>
 <span class="sd">      status_fn: Filename for status output</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe_source</span><span class="p">:</span> <span class="n">Iterable</span><span class="p">[</span><span class="n">Recipe</span><span class="p">],</span>
-                 <span class="n">cache_fn</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">max_inflight</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span>
+                 <span class="n">cache_fn</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                  <span class="n">status_fn</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">max_inflight</span><span class="p">)</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
         <span class="c1">#: recipe source</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">recipe_source</span> <span class="o">=</span> <span class="n">recipe_source</span>
         <span class="c1">#: counter to gather stats on various states</span>
@@ -498,9 +497,6 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">scanner</span> <span class="o">=</span> <span class="n">scanner</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">build_config</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">load_conda_build_config</span><span class="p">()</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">bump_only_python</span> <span class="o">=</span> <span class="n">bump_only_python</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">check_func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">update_pinnings</span><span class="o">.</span><span class="n">check</span><span class="p">,</span>
-                                  <span class="n">build_config</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">build_config</span><span class="p">,</span>
-                                  <span class="n">keep_metas</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
 <div class="viewcode-block" id="CheckPinning.match_version"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.CheckPinning.match_version">[docs]</a>    <span class="nd">@staticmethod</span>
     <span class="k">def</span> <span class="nf">match_version</span><span class="p">(</span><span class="n">spec</span><span class="p">,</span> <span class="n">version</span><span class="p">):</span>
@@ -520,23 +516,38 @@
                             <span class="s1">&#39;version&#39;</span><span class="p">:</span> <span class="n">version</span><span class="p">})</span></div>
 
 <div class="viewcode-block" id="CheckPinning.apply"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.CheckPinning.apply">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="n">status</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">scanner</span><span class="o">.</span><span class="n">run_sp</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">check_func</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">status</span><span class="o">.</span><span class="n">needs_bump</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">bump_only_python</span><span class="p">):</span>
+        <span class="n">reason</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">scanner</span><span class="o">.</span><span class="n">run_sp</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_sp_apply</span><span class="p">,</span>
+            <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">build_config</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">bump_only_python</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
+        <span class="p">)</span>
+        <span class="k">if</span> <span class="n">reason</span><span class="p">:</span>
+            <span class="n">recipe</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;pinning&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">reason</span>
             <span class="n">new_buildno</span> <span class="o">=</span> <span class="n">recipe</span><span class="o">.</span><span class="n">build_number</span> <span class="o">+</span> <span class="mi">1</span>
-            <span class="n">metas</span> <span class="o">=</span> <span class="n">recipe</span><span class="o">.</span><span class="n">conda_render</span><span class="p">(</span><span class="n">build_config</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">build_config</span><span class="p">)</span>
-            <span class="n">recipe</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;pinning&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">find_reason</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">metas</span><span class="p">)</span>
             <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%s</span><span class="s2"> needs rebuild. Bumping buildnumber to </span><span class="si">%i</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="n">new_buildno</span><span class="p">)</span>
             <span class="n">recipe</span><span class="o">.</span><span class="n">reset_buildnumber</span><span class="p">(</span><span class="n">new_buildno</span><span class="p">)</span>
             <span class="n">recipe</span><span class="o">.</span><span class="n">render</span><span class="p">()</span></div>
 
-    <span class="k">def</span> <span class="nf">find_reason</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="n">metas</span><span class="p">):</span>
+    <span class="nd">@classmethod</span>
+    <span class="k">def</span> <span class="nf">_sp_apply</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">config</span><span class="p">,</span> <span class="n">bop</span><span class="p">,</span> <span class="n">recipe</span> <span class="o">=</span> <span class="n">data</span>
+        <span class="n">status</span> <span class="o">=</span> <span class="n">update_pinnings</span><span class="o">.</span><span class="n">check</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">build_config</span><span class="o">=</span><span class="n">config</span><span class="p">,</span> <span class="n">keep_metas</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">status</span><span class="o">.</span><span class="n">needs_bump</span><span class="p">(</span><span class="n">bop</span><span class="p">):</span>
+            <span class="n">metas</span> <span class="o">=</span> <span class="n">recipe</span><span class="o">.</span><span class="n">conda_render</span><span class="p">(</span><span class="n">config</span><span class="o">=</span><span class="n">config</span><span class="p">)</span>
+            <span class="n">reason</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">find_reason</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">metas</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">reason</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="n">recipe</span><span class="o">.</span><span class="n">conda_release</span><span class="p">()</span>
+        <span class="k">return</span> <span class="n">reason</span>
+
+    <span class="nd">@classmethod</span>
+    <span class="k">def</span> <span class="nf">find_reason</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="n">metas</span><span class="p">):</span>
         <span class="c1"># Decypher variants:</span>
         <span class="n">pinnings</span> <span class="o">=</span> <span class="p">{}</span>
         <span class="k">for</span> <span class="n">variant</span> <span class="ow">in</span> <span class="n">metas</span><span class="p">:</span>
             <span class="n">variant0</span> <span class="o">=</span> <span class="n">variant</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
             <span class="k">for</span> <span class="n">var</span> <span class="ow">in</span> <span class="n">variant0</span><span class="o">.</span><span class="n">get_used_vars</span><span class="p">():</span>
                 <span class="n">pinnings</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="n">var</span><span class="p">,</span> <span class="nb">set</span><span class="p">())</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">variant0</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">variant</span><span class="p">[</span><span class="n">var</span><span class="p">])</span>
-        <span class="n">variants</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="n">v</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">pinnings</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">v</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">1</span><span class="p">}</span>
+        <span class="n">variants</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="n">v</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">pinnings</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">}</span>
         <span class="k">if</span> <span class="n">variants</span><span class="p">:</span>
             <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%s</span><span class="s2"> has variants: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="n">variants</span><span class="p">)</span>
 
@@ -562,13 +573,12 @@
                                                    <span class="n">name</span><span class="o">=</span><span class="n">recipe</span><span class="o">.</span><span class="n">name</span><span class="p">,</span>
                                                    <span class="n">version</span><span class="o">=</span><span class="n">recipe</span><span class="o">.</span><span class="n">version</span><span class="p">,</span>
                                                    <span class="n">build_number</span><span class="o">=</span><span class="n">recipe</span><span class="o">.</span><span class="n">build_number</span><span class="p">)</span>
-        <span class="k">for</span> <span class="n">build_id</span><span class="p">,</span> <span class="n">package_deps</span><span class="p">,</span> <span class="n">platform</span> <span class="ow">in</span> <span class="n">package_data</span><span class="p">:</span>
-            <span class="n">build_causes</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">_build_id</span><span class="p">,</span> <span class="n">package_deps</span><span class="p">,</span> <span class="n">_platform</span> <span class="ow">in</span> <span class="n">package_data</span><span class="p">:</span>
             <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">package_deps</span><span class="p">:</span>
                 <span class="n">package</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">constraint</span> <span class="o">=</span> <span class="n">item</span><span class="o">.</span><span class="n">partition</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
                 <span class="k">if</span> <span class="ow">not</span> <span class="n">constraint</span> <span class="ow">or</span> <span class="n">package</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">pinnings</span><span class="p">:</span>
                     <span class="k">continue</span>
-                <span class="k">if</span> <span class="nb">any</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">match_version</span><span class="p">(</span><span class="n">constraint</span><span class="p">,</span> <span class="n">version</span><span class="p">)</span>
+                <span class="k">if</span> <span class="nb">any</span><span class="p">(</span><span class="bp">cls</span><span class="o">.</span><span class="n">match_version</span><span class="p">(</span><span class="n">constraint</span><span class="p">,</span> <span class="n">version</span><span class="p">)</span>
                        <span class="k">for</span> <span class="n">version</span> <span class="ow">in</span> <span class="n">resolved_vers</span><span class="p">[</span><span class="n">package</span><span class="p">]):</span>
                     <span class="k">continue</span>
                 <span class="n">causes</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="nb">set</span><span class="p">())</span><span class="o">.</span><span class="n">add</span><span class="p">(</span>
@@ -580,6 +590,7 @@
             <span class="k">if</span> <span class="n">compiler_pins</span><span class="p">:</span>
                 <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;compiler&#39;</span><span class="p">:</span> <span class="nb">set</span><span class="p">([</span><span class="n">f</span><span class="s2">&quot;Recompiling with {&#39; / &#39;.join(compiler_pins)}&quot;</span><span class="p">])}</span>
         <span class="k">return</span> <span class="n">causes</span></div>
+        <span class="c1"># must return not None!</span>
 
 
 <div class="viewcode-block" id="UpdateVersion"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.UpdateVersion">[docs]</a><span class="k">class</span> <span class="nc">UpdateVersion</span><span class="p">(</span><span class="n">Filter</span><span class="p">,</span> <span class="n">AutoBumpConfigMixin</span><span class="p">):</span>
@@ -1034,7 +1045,7 @@
     <span class="sd">&quot;&quot;&quot;Load the recipe from the filesystem&quot;&quot;&quot;</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scanner</span><span class="p">:</span> <span class="n">Scanner</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">scanner</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">sem</span> <span class="o">=</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">Semaphore</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">sem</span> <span class="o">=</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">Semaphore</span><span class="p">(</span><span class="mi">64</span><span class="p">)</span>
 
 <div class="viewcode-block" id="LoadRecipe.apply"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.LoadRecipe.apply">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="k">async</span> <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">sem</span><span class="p">,</span> \
@@ -1065,6 +1076,7 @@
         <span class="n">branch_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">branch_name</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
         <span class="n">remote_branch</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">get_remote_branch</span><span class="p">(</span><span class="n">branch_name</span><span class="p">)</span>
         <span class="n">local_branch</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">get_local_branch</span><span class="p">(</span><span class="n">branch_name</span><span class="p">)</span>
+        <span class="n">master_branch</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">get_local_branch</span><span class="p">(</span><span class="s1">&#39;master&#39;</span><span class="p">)</span>
 
         <span class="k">if</span> <span class="n">local_branch</span><span class="p">:</span>
             <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Recipe </span><span class="si">%s</span><span class="s2">: removing local branch </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">)</span>
@@ -1072,9 +1084,7 @@
 
         <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Recipe </span><span class="si">%s</span><span class="s2">: loading from master&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
         <span class="n">recipe_text</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">pipeline</span><span class="o">.</span><span class="n">run_io</span><span class="p">(</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">read_from_branch</span><span class="p">,</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">get_local_branch</span><span class="p">(</span><span class="s1">&#39;master&#39;</span><span class="p">),</span>
-            <span class="n">recipe</span><span class="o">.</span><span class="n">path</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">read_from_branch</span><span class="p">,</span> <span class="n">master_branch</span><span class="p">,</span> <span class="n">recipe</span><span class="o">.</span><span class="n">path</span><span class="p">)</span>
         <span class="n">recipe</span><span class="o">.</span><span class="n">load_from_string</span><span class="p">(</span><span class="n">recipe_text</span><span class="p">)</span>
         <span class="n">recipe</span><span class="o">.</span><span class="n">set_original</span><span class="p">()</span>
 
@@ -1102,7 +1112,7 @@
     <span class="sd">&quot;&quot;&quot;Write recipe to filesystem&quot;&quot;&quot;</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scanner</span><span class="p">:</span> <span class="n">Scanner</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">scanner</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">sem</span> <span class="o">=</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">Semaphore</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">sem</span> <span class="o">=</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">Semaphore</span><span class="p">(</span><span class="mi">64</span><span class="p">)</span>
 
 <div class="viewcode-block" id="WriteRecipe.apply"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.WriteRecipe.apply">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">recipe</span><span class="o">.</span><span class="n">is_modified</span><span class="p">():</span>
@@ -1337,7 +1347,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>
