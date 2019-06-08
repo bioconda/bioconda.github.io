@@ -136,6 +136,18 @@
   <div class="section" id="module-bioconda_utils.githandler">
 <span id="githandler"></span><h1>githandler<a class="headerlink" href="#module-bioconda_utils.githandler" title="Permalink to this headline">¶</a></h1>
 <p>Wrappers for interacting with <code class="docutils literal notranslate"><span class="pre">git</span></code></p>
+<p class="rubric">Functions</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.githandler.install_gpg_key" title="bioconda_utils.githandler.install_gpg_key"><code class="xref py py-obj docutils literal notranslate"><span class="pre">install_gpg_key</span></code></a>(key)</p></td>
+<td><p>Install GPG key</p></td>
+</tr>
+</tbody>
+</table>
 <p class="rubric">Classes</p>
 <table class="longtable docutils align-default">
 <colgroup>
@@ -318,6 +330,12 @@ latter may be a fork or may be the same as the primary.</p>
 </ul>
 </dd>
 </dl>
+<dl class="attribute">
+<dt id="bioconda_utils.githandler.GitHandlerBase.actor">
+<code class="sig-name descname">actor</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.actor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Committer and Author</p>
+</dd></dl>
+
 <dl class="method">
 <dt id="bioconda_utils.githandler.GitHandlerBase.branch_is_current">
 <em class="property">async </em><code class="sig-name descname">branch_is_current</code><span class="sig-paren">(</span><em class="sig-param">branch</em>, <em class="sig-param">path</em>, <em class="sig-param">master='master'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githandler.html#GitHandlerBase.branch_is_current"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.branch_is_current" title="Permalink to this definition">¶</a></dt>
@@ -382,6 +400,22 @@ as compared to <strong>master</strong></p>
 <dt id="bioconda_utils.githandler.GitHandlerBase.dry_run">
 <code class="sig-name descname">dry_run</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.dry_run" title="Permalink to this definition">¶</a></dt>
 <dd><p>Dry-Run mode - don’t push or commit anything</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.githandler.GitHandlerBase.enable_signing">
+<code class="sig-name descname">enable_signing</code><span class="sig-paren">(</span><em class="sig-param">key=True</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githandler.html#GitHandlerBase.enable_signing"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.enable_signing" title="Permalink to this definition">¶</a></dt>
+<dd><p>Enable signing of commits</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>key</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Union" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Keyid to use for signing. Set to <code class="docutils literal notranslate"><span class="pre">True</span></code> to enable
+using the default key or to <code class="docutils literal notranslate"><span class="pre">False</span></code> to disable
+signing.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="attribute">
@@ -511,6 +545,17 @@ repository is shallow and the merge base commit not available.</p>
 <dd><p>GitPython Repo object representing our repository</p>
 </dd></dl>
 
+<dl class="method">
+<dt id="bioconda_utils.githandler.GitHandlerBase.set_user">
+<code class="sig-name descname">set_user</code><span class="sig-paren">(</span><em class="sig-param">user</em>, <em class="sig-param">email=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githandler.html#GitHandlerBase.set_user"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.set_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the user and email to use for committing</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
 </dd></dl>
 
 <dl class="exception">
@@ -562,6 +607,26 @@ of the Python interpreter.</p>
 </dl>
 </dd></dl>
 
+</dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.githandler.install_gpg_key">
+<code class="sig-prename descclassname">bioconda_utils.githandler.</code><code class="sig-name descname">install_gpg_key</code><span class="sig-paren">(</span><em class="sig-param">key</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githandler.html#install_gpg_key"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githandler.install_gpg_key" title="Permalink to this definition">¶</a></dt>
+<dd><p>Install GPG key</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>key</strong> – Key to import to GPG as string</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>GPG key ID</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError if importing the key failed</strong> – </p>
+</dd>
+</dl>
 </dd></dl>
 
 </div>

@@ -139,7 +139,7 @@
 <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">cran_skeleton</span>
 <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">update_pinnings</span>
 <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">graph</span>
-<span class="kn">from</span> <span class="nn">.githandler</span> <span class="k">import</span> <span class="n">BiocondaRepo</span>
+<span class="kn">from</span> <span class="nn">.githandler</span> <span class="k">import</span> <span class="n">BiocondaRepo</span><span class="p">,</span> <span class="n">install_gpg_key</span>
 
 <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
 
@@ -874,6 +874,9 @@
      <span class="n">help</span><span class="o">=</span><span class="s2">&quot;&quot;&quot;Bump package build numbers even if the only applicable pinning</span>
 <span class="s2">     change is the python version. This is generally required unless you plan</span>
 <span class="s2">     on building everything.&quot;&quot;&quot;</span><span class="p">)</span>
+<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--sign&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s2">&quot;?&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Enable signing. Optionally takes keyid.&#39;&#39;&#39;</span><span class="p">)</span>
+<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--commit-as&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Set user and email to use for committing. &#39;&#39;&#39;</span>
+     <span class="sd">&#39;&#39;&#39;Takes exactly two arguments.&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@enable_logging</span><span class="p">()</span>
 <span class="nd">@enable_debugging</span><span class="p">()</span>
 <span class="nd">@enable_threads</span><span class="p">()</span>
@@ -887,7 +890,8 @@
              <span class="n">max_updates</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">dry_run</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
              <span class="n">no_check_pinnings</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">no_follow_graph</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
              <span class="n">no_check_version_update</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-             <span class="n">no_check_pending_deps</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">bump_only_python</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+             <span class="n">no_check_pending_deps</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">bump_only_python</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+             <span class="n">sign</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">commit_as</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Updates recipes in recipe_folder</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -937,9 +941,25 @@
         <span class="k">if</span> <span class="n">only_active</span><span class="p">:</span>
             <span class="n">scanner</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">autobump</span><span class="o">.</span><span class="n">ExcludeNoActiveUpdate</span><span class="p">,</span> <span class="n">git_handler</span><span class="p">)</span>
         <span class="n">scanner</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">autobump</span><span class="o">.</span><span class="n">GitLoadRecipe</span><span class="p">,</span> <span class="n">git_handler</span><span class="p">)</span>
+
+        <span class="n">env_key</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;CODE_SIGNING_KEY&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">sign</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">git_handler</span><span class="o">.</span><span class="n">enable_signing</span><span class="p">()</span>
+        <span class="k">elif</span> <span class="n">sign</span><span class="p">:</span>
+            <span class="n">git_handler</span><span class="o">.</span><span class="n">enable_signing</span><span class="p">(</span><span class="n">sign</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">env_key</span><span class="p">:</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">git_handler</span><span class="o">.</span><span class="n">enable_signing</span><span class="p">(</span><span class="n">install_gpg_key</span><span class="p">(</span><span class="n">env_key</span><span class="p">))</span>
+            <span class="k">except</span> <span class="ne">ValueError</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Failed to use CODE_SIGNING_KEY from environment: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span>
+                             <span class="n">exc</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">commit_as</span><span class="p">:</span>
+            <span class="n">git_handler</span><span class="o">.</span><span class="n">set_user</span><span class="p">(</span><span class="o">*</span><span class="n">commit_as</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="c1"># Just load from local file system</span>
         <span class="n">scanner</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">autobump</span><span class="o">.</span><span class="n">LoadRecipe</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">sign</span> <span class="ow">or</span> <span class="n">sign</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Not using git. --sign has no effect&quot;</span><span class="p">)</span>
 
     <span class="c1"># Exclude recipes that are present in &quot;other channels&quot;</span>
     <span class="k">if</span> <span class="n">exclude_channels</span> <span class="o">!=</span> <span class="p">[</span><span class="s2">&quot;none&quot;</span><span class="p">]:</span>

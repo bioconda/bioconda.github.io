@@ -110,7 +110,9 @@
 <span class="kn">import</span> <span class="nn">atexit</span>
 <span class="kn">import</span> <span class="nn">logging</span>
 <span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">re</span>
 <span class="kn">import</span> <span class="nn">tempfile</span>
+<span class="kn">import</span> <span class="nn">subprocess</span>
 <span class="kn">from</span> <span class="nn">typing</span> <span class="k">import</span> <span class="n">List</span><span class="p">,</span> <span class="n">Union</span>
 
 <span class="kn">import</span> <span class="nn">git</span>
@@ -120,6 +122,37 @@
 
 
 <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>  <span class="c1"># pylint: disable=invalid-name</span>
+
+
+<div class="viewcode-block" id="install_gpg_key"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.install_gpg_key">[docs]</a><span class="k">def</span> <span class="nf">install_gpg_key</span><span class="p">(</span><span class="n">key</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Install GPG key</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">      key: Key to import to GPG as string</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">      GPG key ID</span>
+
+<span class="sd">    Raises:</span>
+<span class="sd">      ValueError if importing the key failed</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">proc</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">run</span><span class="p">([</span><span class="s1">&#39;gpg&#39;</span><span class="p">,</span> <span class="s1">&#39;--import&#39;</span><span class="p">],</span>
+                          <span class="nb">input</span><span class="o">=</span><span class="n">key</span><span class="p">,</span> <span class="n">stderr</span><span class="o">=</span><span class="n">subprocess</span><span class="o">.</span><span class="n">PIPE</span><span class="p">,</span>
+                          <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;ascii&#39;</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">proc</span><span class="o">.</span><span class="n">stderr</span><span class="o">.</span><span class="n">splitlines</span><span class="p">():</span>
+        <span class="n">match</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;gpg: key ([\dA-F]{8,16}): &#39;</span>
+                         <span class="sa">r</span><span class="s1">&#39;(secret key imported|already in secret keyring)&#39;</span><span class="p">,</span>
+                         <span class="n">line</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">match</span><span class="p">:</span>
+            <span class="n">keyid</span> <span class="o">=</span> <span class="n">match</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+            <span class="k">break</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c1"># If the key has escaped newlines (\n literally), replace those</span>
+        <span class="c1"># and try again</span>
+        <span class="k">if</span> <span class="sa">r</span><span class="s1">&#39;\n&#39;</span> <span class="ow">in</span> <span class="n">key</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">install_gpg_key</span><span class="p">(</span><span class="n">key</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;\n&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">))</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;Unable to import GPG key: </span><span class="si">{proc.stderr}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">keyid</span></div>
 
 
 <div class="viewcode-block" id="GitHandlerFailure"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerFailure">[docs]</a><span class="k">class</span> <span class="nc">GitHandlerFailure</span><span class="p">(</span><span class="ne">Exception</span><span class="p">):</span>
@@ -163,6 +196,12 @@
         <span class="c1">#: Semaphore for things that mess with working directory</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">lock_working_dir</span> <span class="o">=</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">Semaphore</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
 
+        <span class="c1">#: GPG key ID or bool, indicating whether/how to sign commits</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_sign</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">bool</span><span class="p">,</span> <span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">False</span>
+
+        <span class="c1">#: Committer and Author</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">actor</span><span class="p">:</span> <span class="n">git</span><span class="o">.</span><span class="n">Actor</span> <span class="o">=</span> <span class="kc">None</span>
+
 <div class="viewcode-block" id="GitHandlerBase.close"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.close">[docs]</a>    <span class="k">def</span> <span class="nf">close</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Release resources allocated&quot;&quot;&quot;</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></div>
@@ -175,6 +214,16 @@
         <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">fork_remote</span> <span class="o">!=</span> <span class="bp">self</span><span class="o">.</span><span class="n">home_remote</span><span class="p">:</span>
             <span class="n">name</span> <span class="o">=</span> <span class="n">f</span><span class="s2">&quot;</span><span class="si">{name}</span><span class="s2"> &lt;- {get_name(self.fork_remote)}&quot;</span>
         <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;</span><span class="si">{self.__class__.__name__}</span><span class="s2">(</span><span class="si">{name}</span><span class="s2">)&quot;</span>
+
+<div class="viewcode-block" id="GitHandlerBase.enable_signing"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.enable_signing">[docs]</a>    <span class="k">def</span> <span class="nf">enable_signing</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">bool</span><span class="p">,</span> <span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Enable signing of commits</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">          key: Keyid to use for signing. Set to ``True`` to enable</span>
+<span class="sd">               using the default key or to ``False`` to disable</span>
+<span class="sd">               signing.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_sign</span> <span class="o">=</span> <span class="n">key</span></div>
 
 <div class="viewcode-block" id="GitHandlerBase.get_remote"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.get_remote">[docs]</a>    <span class="k">def</span> <span class="nf">get_remote</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">desc</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Finds first remote containing **desc** in one of its URLs&quot;&quot;&quot;</span>
@@ -404,12 +453,23 @@
         <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">diff</span><span class="p">(</span><span class="s2">&quot;HEAD&quot;</span><span class="p">):</span>
             <span class="k">return</span> <span class="kc">False</span>
 
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_sign</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">sign</span><span class="p">:</span>
+            <span class="n">sign</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_sign</span>
         <span class="k">if</span> <span class="n">sign</span><span class="p">:</span>
             <span class="c1"># Gitpyhon does not support signing, so we use the command line client here</span>
+            <span class="n">args</span> <span class="o">=</span> <span class="p">[</span>
+                <span class="s1">&#39;-S&#39;</span> <span class="o">+</span> <span class="n">sign</span> <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">sign</span><span class="p">,</span> <span class="nb">str</span><span class="p">)</span> <span class="k">else</span> <span class="s1">&#39;-S&#39;</span><span class="p">,</span>
+                <span class="s1">&#39;-m&#39;</span><span class="p">,</span> <span class="n">msg</span><span class="p">,</span>
+            <span class="p">]</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">actor</span><span class="p">:</span>
+                <span class="n">args</span> <span class="o">+=</span> <span class="p">[</span><span class="s1">&#39;--author&#39;</span><span class="p">,</span> <span class="n">f</span><span class="s1">&#39;</span><span class="si">{self.actor.name}</span><span class="s1"> &lt;</span><span class="si">{self.actor.email}</span><span class="s1">&gt;&#39;</span><span class="p">]</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">write</span><span class="p">()</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">commit</span><span class="p">(</span><span class="s1">&#39;-S&#39;</span><span class="p">,</span> <span class="s1">&#39;-m&#39;</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">git</span><span class="o">.</span><span class="n">commit</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">commit</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">actor</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">commit</span><span class="p">(</span><span class="n">msg</span><span class="p">,</span> <span class="n">author</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">actor</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">commit</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
 
         <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">dry_run</span><span class="p">:</span>
             <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Pushing branch </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">)</span>
@@ -427,13 +487,9 @@
             <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Would push branch </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">branch_name</span><span class="p">)</span>
         <span class="k">return</span> <span class="kc">True</span></div>
 
-    <span class="k">def</span> <span class="nf">set_user</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">user</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">email</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">key</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="o">.</span><span class="n">config_writer</span><span class="p">()</span> <span class="k">as</span> <span class="n">writer</span><span class="p">:</span>
-            <span class="n">writer</span><span class="o">.</span><span class="n">set_value</span><span class="p">(</span><span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="n">user</span><span class="p">)</span>
-            <span class="n">email</span> <span class="o">=</span> <span class="n">email</span> <span class="ow">or</span> <span class="n">f</span><span class="s2">&quot;</span><span class="si">{user}</span><span class="s2">@users.noreply.github.com&quot;</span>
-            <span class="n">writer</span><span class="o">.</span><span class="n">set_value</span><span class="p">(</span><span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;email&quot;</span><span class="p">,</span> <span class="n">email</span><span class="p">)</span>
-            <span class="k">if</span> <span class="n">key</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
-                <span class="n">writer</span><span class="o">.</span><span class="n">set_value</span><span class="p">(</span><span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;signingkey&quot;</span><span class="p">,</span> <span class="n">key</span><span class="p">)</span></div>
+<div class="viewcode-block" id="GitHandlerBase.set_user"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandlerBase.set_user">[docs]</a>    <span class="k">def</span> <span class="nf">set_user</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">user</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">email</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Set the user and email to use for committing&quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">actor</span> <span class="o">=</span> <span class="n">git</span><span class="o">.</span><span class="n">Actor</span><span class="p">(</span><span class="n">user</span><span class="p">,</span> <span class="n">email</span><span class="p">)</span></div></div>
 
 
 <div class="viewcode-block" id="BiocondaRepoMixin"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githandler.html#bioconda_utils.githandler.BiocondaRepoMixin">[docs]</a><span class="k">class</span> <span class="nc">BiocondaRepoMixin</span><span class="p">(</span><span class="n">GitHandlerBase</span><span class="p">):</span>

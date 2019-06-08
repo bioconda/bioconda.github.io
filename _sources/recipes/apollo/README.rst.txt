@@ -6,14 +6,14 @@
 apollo
 ======
 
-.. conda:recipe:: python-apollo
+.. conda:recipe:: apollo
    :replaces_section_title:
 
    WebApollo API library
 
    :homepage: https://github.com/galaxy-genome-annotation/python-apollo
    :license: MIT / MIT
-   :recipe: /`python-apollo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-apollo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-apollo/meta.yaml>`_
+   :recipe: /`apollo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/apollo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/apollo/meta.yaml>`_
 
    
 
@@ -22,15 +22,15 @@ apollo
 
    |downloads_apollo| |docker_apollo|
 
-   :versions: 3.0.4-0
+   :versions: 3.1-0, 3.0.4-0
    
    :depends biopython: 
    :depends cachetools: 
    :depends click: >=6.7
+   :depends decorator: 
    :depends python: 
    :depends pyyaml: 
    :depends requests: 
-   :depends setuptools: 
    :depends wrapt: 
    :requirements:
 

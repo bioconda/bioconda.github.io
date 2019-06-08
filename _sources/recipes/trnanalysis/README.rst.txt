@@ -22,7 +22,7 @@ trnanalysis
 
    |downloads_trnanalysis| |docker_trnanalysis|
 
-   :versions: 0.1.2-0, 0.1.0-0
+   :versions: 0.1.4-0, 0.1.2-0, 0.1.0-0
    
    :depends bioconductor-deseq2: 
    :depends bioconductor-org.hs.eg.db: 
@@ -41,6 +41,7 @@ trnanalysis
    :depends pandas: 
    :depends pysam: 
    :depends python: >=3.6,<3.7.0a0
+   :depends pyyaml: >=5.1
    :depends r-base: 
    :depends r-codetools: 
    :depends r-dplyr: 

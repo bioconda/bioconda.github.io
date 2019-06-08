@@ -14,7 +14,7 @@ hicap
    :homepage: https://github.com/scwatts/hicap
    :license: GPL / GPL-3.0
    :recipe: /`hicap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicap/meta.yaml>`_
-   :links: doi: :doi:`https://doi.org/10.1101/543454`
+   :links: doi: :doi:`10.1128/JCM.00190-19`
 
    
 
@@ -23,7 +23,7 @@ hicap
 
    |downloads_hicap| |docker_hicap|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.1-0, 1.0.0-0
    
    :depends biopython: 1.72
    :depends blast: >=2.2.28
