@@ -23,7 +23,7 @@ unitig-counter
 
    |downloads_unitig-counter| |docker_unitig-counter|
 
-   :versions: 1.0.4-0
+   :versions: 1.0.5-0, 1.0.4-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

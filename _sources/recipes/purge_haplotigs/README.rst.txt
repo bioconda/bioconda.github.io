@@ -22,12 +22,11 @@ purge_haplotigs
 
    |downloads_purge_haplotigs| |docker_purge_haplotigs|
 
-   :versions: 1.0.4-0, 1.0.3-0, 1.0.1-0
+   :versions: 1.1.0-0, 1.0.4-0, 1.0.3-0, 1.0.1-0
    
    :depends bedtools: >=2.25.0
    :depends make: >=4.2.1
    :depends minimap2: >=2.12
-   :depends mummer4: >=4.0.0beta2
    :depends perl: >=5.22.0
    :depends r-base: >=3.4.1
    :depends r-ggplot2: >=2.2.1

@@ -9,20 +9,22 @@ arvados-python-client
 .. conda:recipe:: arvados-python-client
    :replaces_section_title:
 
-   Python API for Arvados\, an open source platform for managing and analyzing biomedical big data
+   Python API for Arvados
 
    :homepage: https://github.com/curoverse/arvados/tree/master/sdk/python
    :license: Apache License 2.0
    :recipe: /`arvados-python-client <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arvados-python-client>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arvados-python-client/meta.yaml>`_
 
-   
+   Python API for Arvados\, an open source platform for managing and
+   analyzing biomedical big data
+
 
 
 .. conda:package:: arvados-python-client
 
    |downloads_arvados-python-client| |docker_arvados-python-client|
 
-   :versions: 1.3.3.20190402172810-0, 1.3.2.20190402172810-0, 1.3.1.20190402172810-0, 1.3.1.20190301150258-1, 1.3.1.20190301150258-0, 1.3.0.20190221150417-0, 1.3.0.20190205182514-1, 1.3.0.20190205182514-0, 1.3.0.20181130020805-0, 1.2.1-0, 1.2.0.20181121194423-0, 1.2.0.20181109162613-0, 1.2.0.20181108215719-0, 1.2.0.20180905185317-0, 0.1.20171211211613-1, 0.1.20171211211613-0, 0.1.20171010180436-0, 0.1.20170818194607-0, 0.1.20161123074954-0, 0.1.20161031135838-0, 0.1.20160517202250-1, 0.1.20160517202250-0, 0.1.20160412193510-0, 0.1.20160331153549-0, 0.1.20160318153100-0, 0.1.20160301181511-0
+   :versions: 1.4.0-0, 1.3.3.20190402172810-0, 1.3.2.20190402172810-0, 1.3.1.20190402172810-0, 1.3.1.20190301150258-1, 1.3.1.20190301150258-0, 1.3.0.20190221150417-0, 1.3.0.20190205182514-1, 1.3.0.20190205182514-0, 1.3.0.20181130020805-0, 1.2.1-0, 1.2.0.20181121194423-0, 1.2.0.20181109162613-0, 1.2.0.20181108215719-0, 1.2.0.20180905185317-0, 0.1.20171211211613-1, 0.1.20171211211613-0, 0.1.20171010180436-0, 0.1.20170818194607-0, 0.1.20161123074954-0, 0.1.20161031135838-0, 0.1.20160517202250-1, 0.1.20160517202250-0, 0.1.20160412193510-0, 0.1.20160331153549-0, 0.1.20160318153100-0, 0.1.20160301181511-0
    
    :depends ciso8601: >=2.0.0
    :depends future: 
