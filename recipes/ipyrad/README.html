@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;wgfast&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;ipyrad&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -103,72 +103,93 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="wgfast">
+  <div class="section" id="ipyrad">
 <dl class="recipe">
-<dt id="recipe-wgfast">
-<em class="property">recipe </em><code class="sig-name descname">wgfast</code><a class="headerlink" href="#recipe-wgfast" title="Permalink to this definition">¶</a></dt>
-<dd><p>The whole genome focused array SNP typing (WG-FAST) pipeline</p>
+<dt id="recipe-ipyrad">
+<em class="property">recipe </em><code class="sig-name descname">ipyrad</code><a class="headerlink" href="#recipe-ipyrad" title="Permalink to this definition">¶</a></dt>
+<dd><p>Interactive assembly and analysis of RAD-seq data sets.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/jasonsahl/wgfast">https://github.com/jasonsahl/wgfast</a></p>
+<dd class="field-odd"><p><a class="reference external" href="http://github.com/dereneaton/ipyrad">http://github.com/dereneaton/ipyrad</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>GPL / GPL v3</p>
+<dd class="field-even"><p>GPL3</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wgfast">wgfast</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wgfast/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ipyrad">ipyrad</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ipyrad/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-wgfast">
-<em class="property">package </em><code class="sig-name descname">wgfast</code><a class="headerlink" href="#package-wgfast" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/wgfast"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/wgfast.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/wgfast"><img alt="docker_wgfast" src="https://quay.io/repository/biocontainers/wgfast/status" /></a></p>
+<dt id="package-ipyrad">
+<em class="property">package </em><code class="sig-name descname">ipyrad</code><a class="headerlink" href="#package-ipyrad" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/ipyrad"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/ipyrad.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/ipyrad"><img alt="docker_ipyrad" src="https://quay.io/repository/biocontainers/ipyrad/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>1.0.3-1, 1.0.3-0</p>
+<dd class="field-odd"><p>0.9.7-0</p>
 </dd>
-<dt class="field-even">Depends bbmap</dt>
+<dt class="field-even">Depends bedtools</dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">Depends biopython</dt>
+<dt class="field-odd">Depends bwa</dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">Depends bwa</dt>
+<dt class="field-even">Depends cutadapt</dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">Depends dendropy</dt>
+<dt class="field-odd">Depends future</dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">Depends picard</dt>
+<dt class="field-even">Depends h5py</dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">Depends python</dt>
-<dd class="field-odd"><p>&gt;3</p>
+<dt class="field-odd">Depends ipyparallel</dt>
+<dd class="field-odd"><p>&gt;=6.0.2</p>
 </dd>
-<dt class="field-even">Depends raxml</dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">Depends samtools</dt>
+<dt class="field-even">Depends mpi4py</dt>
+<dd class="field-even"><p>&gt;=3.0</p>
+</dd>
+<dt class="field-odd">Depends muscle</dt>
 <dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends numba</dt>
+<dd class="field-even"><p>&gt;=0.37</p>
+</dd>
+<dt class="field-odd">Depends numpy</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends pandas</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends pysam</dt>
+<dd class="field-odd"><p>&gt;=0.15</p>
+</dd>
+<dt class="field-even">Depends python</dt>
+<dd class="field-even"><p>2.7.*</p>
+</dd>
+<dt class="field-odd">Depends requests</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends scipy</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends vsearch</dt>
+<dd class="field-odd"><p>&gt;=2.13</p>
+</dd>
 <dt class="field-even">Requirements</dt>
 <dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">wgfast</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">ipyrad</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">wgfast</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">ipyrad</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">wgfast</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">ipyrad</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/wgfast?tab=tags">wgfast/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/ipyrad?tab=tags">ipyrad/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/wgfast/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/wgfast/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/ipyrad/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ipyrad/README.html)
 </pre></div>
 </div>
 </div>
@@ -189,14 +210,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/wgfast/README.rst.txt"
+      <a href="../../_sources/recipes/ipyrad/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/wgfast/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/ipyrad/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

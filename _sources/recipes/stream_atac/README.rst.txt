@@ -22,7 +22,7 @@ stream_atac
 
    |downloads_stream_atac| |docker_stream_atac|
 
-   :versions: 0.3.3-0, 0.3.2-0, 0.3.1-1, 0.3.1-0, 0.3.0-0, 0.2.0-1, 0.2.0-0, 0.1.0-0
+   :versions: 0.3.3-0, 0.3.3a-0, 0.3.2-0, 0.3.1-1, 0.3.1-0, 0.3.0-0, 0.2.0-1, 0.2.0-0, 0.1.0-0
    
    :depends anndata: 
    :depends bioconductor-chromvar: 1.4.1.*

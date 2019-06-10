@@ -22,14 +22,14 @@ wgfast
 
    |downloads_wgfast| |docker_wgfast|
 
-   :versions: 1.0.3-0
+   :versions: 1.0.3-1, 1.0.3-0
    
    :depends bbmap: 
    :depends biopython: 
-   :depends bwa: 0.7.8
+   :depends bwa: 
    :depends dendropy: 
    :depends picard: 
-   :depends python: 3.6.0
+   :depends python: >3
    :depends raxml: 
    :depends samtools: 
    :requirements:
