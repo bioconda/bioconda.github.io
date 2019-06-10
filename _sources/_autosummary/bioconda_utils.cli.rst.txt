@@ -24,6 +24,7 @@ cli
       enable_debugging
       enable_logging
       enable_threads
+      get_recipes
       get_recipes_to_build
       main
       recipe_folder_and_config

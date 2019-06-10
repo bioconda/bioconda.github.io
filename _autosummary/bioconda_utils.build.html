@@ -147,7 +147,7 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.build.build" title="bioconda_utils.build.build"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build</span></code></a>(recipe[, pkg_paths, testonly, …])</p></td>
 <td><p>Build a single recipe for a single env</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.build.build_recipes" title="bioconda_utils.build.build_recipes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_recipes</span></code></a>(recipe_folder, config_path[, …])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.build.build_recipes" title="bioconda_utils.build.build_recipes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_recipes</span></code></a>(recipe_folder, config_path, …)</p></td>
 <td><p>Build one or many bioconda packages.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.build.conda_build_purge" title="bioconda_utils.build.conda_build_purge"><code class="xref py py-obj docutils literal notranslate"><span class="pre">conda_build_purge</span></code></a>()</p></td>
@@ -225,7 +225,7 @@ error instead. Used for testing.</p></li>
 
 <dl class="function">
 <dt id="bioconda_utils.build.build_recipes">
-<code class="sig-prename descclassname">bioconda_utils.build.</code><code class="sig-name descname">build_recipes</code><span class="sig-paren">(</span><em class="sig-param">recipe_folder</em>, <em class="sig-param">config_path</em>, <em class="sig-param">packages='*'</em>, <em class="sig-param">mulled_test=True</em>, <em class="sig-param">testonly=False</em>, <em class="sig-param">force=False</em>, <em class="sig-param">docker_builder=None</em>, <em class="sig-param">label=None</em>, <em class="sig-param">anaconda_upload=False</em>, <em class="sig-param">mulled_upload_target=None</em>, <em class="sig-param">check_channels=None</em>, <em class="sig-param">do_lint=None</em>, <em class="sig-param">lint_exclude=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/build.html#build_recipes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.build.build_recipes" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.build.</code><code class="sig-name descname">build_recipes</code><span class="sig-paren">(</span><em class="sig-param">recipe_folder</em>, <em class="sig-param">config_path</em>, <em class="sig-param">recipes</em>, <em class="sig-param">mulled_test=True</em>, <em class="sig-param">testonly=False</em>, <em class="sig-param">force=False</em>, <em class="sig-param">docker_builder=None</em>, <em class="sig-param">label=None</em>, <em class="sig-param">anaconda_upload=False</em>, <em class="sig-param">mulled_upload_target=None</em>, <em class="sig-param">check_channels=None</em>, <em class="sig-param">do_lint=None</em>, <em class="sig-param">lint_exclude=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/build.html#build_recipes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.build.build_recipes" title="Permalink to this definition">¶</a></dt>
 <dd><p>Build one or many bioconda packages.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>

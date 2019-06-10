@@ -168,11 +168,11 @@ versions.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>recipes</strong> (<em>iterable</em>) – An iterable of recipe paths, typically obtained via <a class="reference internal" href="bioconda_utils.utils.html#bioconda_utils.utils.get_recipes" title="bioconda_utils.utils.get_recipes"><code class="xref any py py-func docutils literal notranslate"><span class="pre">get_recipes()</span></code></a></p></li>
+<li><p><strong>recipes</strong> (<em>iterable</em>) – An iterable of recipe paths, typically obtained via <a class="reference internal" href="bioconda_utils.cli.html#bioconda_utils.cli.get_recipes" title="bioconda_utils.cli.get_recipes"><code class="xref any py py-func docutils literal notranslate"><span class="pre">get_recipes()</span></code></a></p></li>
 <li><p><strong>blacklist</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#set" title="(in Python v3.7)"><em>set</em></a>) – Package names to skip</p></li>
 <li><p><strong>restrict</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – If True, then dependencies will be included in the DAG only if they are
-themselves in <code class="xref any docutils literal notranslate"><span class="pre">recipes</span></code>. Otherwise, include all dependencies of
-<code class="xref any docutils literal notranslate"><span class="pre">recipes</span></code>.</p></li>
+themselves in <a class="reference internal" href="bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.PRInfo.recipes" title="bioconda_utils.bot.tasks.PRInfo.recipes"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">recipes</span></code></a>. Otherwise, include all dependencies of
+<a class="reference internal" href="bioconda_utils.bot.tasks.html#bioconda_utils.bot.tasks.PRInfo.recipes" title="bioconda_utils.bot.tasks.PRInfo.recipes"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">recipes</span></code></a>.</p></li>
 </ul>
 </dd>
 <dt class="field-even">Returns</dt>

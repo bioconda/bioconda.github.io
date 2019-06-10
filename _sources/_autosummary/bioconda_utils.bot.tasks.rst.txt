@@ -1,0 +1,31 @@
+tasks
+=====
+
+
+.. currentmodule:: bioconda_utils.bot.tasks
+.. automodule:: bioconda_utils.bot.tasks
+   :members:
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      Checkout
+      Image
+      PRInfo
+      Package
+   
+   
+
+   
+   
+   
+
+
+   .. rubric:: Documentation

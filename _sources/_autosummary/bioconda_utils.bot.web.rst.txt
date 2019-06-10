@@ -1,0 +1,29 @@
+web
+===
+
+
+.. currentmodule:: bioconda_utils.bot.web
+.. automodule:: bioconda_utils.bot.web
+   :members:
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      start
+      start_with_celery
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+   .. rubric:: Documentation

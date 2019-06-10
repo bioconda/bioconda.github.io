@@ -180,16 +180,19 @@
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.cli.enable_threads" title="bioconda_utils.cli.enable_threads"><code class="xref py py-obj docutils literal notranslate"><span class="pre">enable_threads</span></code></a>()</p></td>
 <td><p>Adds the parameter <code class="docutils literal notranslate"><span class="pre">--threads</span></code> (or <code class="docutils literal notranslate"><span class="pre">-t</span></code>) to limit parallelism</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.cli.get_recipes_to_build" title="bioconda_utils.cli.get_recipes_to_build"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_recipes_to_build</span></code></a>(git_range, recipe_folder)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.cli.get_recipes" title="bioconda_utils.cli.get_recipes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_recipes</span></code></a>(config, recipe_folder, packages, …)</p></td>
+<td><p>Gets list of paths to recipe folders to be built</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.cli.get_recipes_to_build" title="bioconda_utils.cli.get_recipes_to_build"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_recipes_to_build</span></code></a>(git_range, recipe_folder)</p></td>
 <td><p>Gets list of modified recipes according to git_range and blacklist</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">main</span></code>()</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">main</span></code>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.cli.recipe_folder_and_config" title="bioconda_utils.cli.recipe_folder_and_config"><code class="xref py py-obj docutils literal notranslate"><span class="pre">recipe_folder_and_config</span></code></a>([allow_missing_for])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.cli.recipe_folder_and_config" title="bioconda_utils.cli.recipe_folder_and_config"><code class="xref py py-obj docutils literal notranslate"><span class="pre">recipe_folder_and_config</span></code></a>([allow_missing_for])</p></td>
 <td><p>Adds optional positional arguments recipe_folder and config</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.cli.update_pinning" title="bioconda_utils.cli.update_pinning"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_pinning</span></code></a>(recipe_folder, config[, …])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.cli.update_pinning" title="bioconda_utils.cli.update_pinning"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_pinning</span></code></a>(recipe_folder, config[, …])</p></td>
 <td><p>Bump a package build number and all dependencies as required due to a change in pinnings</p></td>
 </tr>
 </tbody>
@@ -287,6 +290,20 @@ channels.</p>
 <dt id="bioconda_utils.cli.enable_threads">
 <code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">enable_threads</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/cli.html#enable_threads"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.enable_threads" title="Permalink to this definition">¶</a></dt>
 <dd><p>Adds the parameter <code class="docutils literal notranslate"><span class="pre">--threads</span></code> (or <code class="docutils literal notranslate"><span class="pre">-t</span></code>) to limit parallelism</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.cli.get_recipes">
+<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">get_recipes</code><span class="sig-paren">(</span><em class="sig-param">config</em>, <em class="sig-param">recipe_folder</em>, <em class="sig-param">packages</em>, <em class="sig-param">git_range</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/cli.html#get_recipes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.get_recipes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets list of paths to recipe folders to be built</p>
+<p>Considers all recipes matching globs in packages, constrains to
+recipes modified or unblacklisted in the git_range if given, then
+removes blacklisted recipes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="function">

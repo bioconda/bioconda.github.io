@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>bioconda_utils.bot.commands &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../../../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../../../index.html">
+    <img class="logo" src="../../../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../updating.html">Updating recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../linting.html">Linting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../cb3.html">Conda build v3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer.html">Developer Docs</a></li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="../../../conda-recipe_index.html">Recipe Index</a></li>
+  
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for bioconda_utils.bot.commands</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Handlers for user commmands (``@biocondabot do this``)</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">import</span> <span class="nn">logging</span>
+<span class="kn">import</span> <span class="nn">functools</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="k">import</span> <span class="n">Callable</span><span class="p">,</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">Optional</span>
+
+<span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">tasks</span>
+
+
+<span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>  <span class="c1"># pylint: disable=invalid-name</span>
+
+
+<div class="viewcode-block" id="CommandDispatch"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.CommandDispatch">[docs]</a><span class="k">class</span> <span class="nc">CommandDispatch</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Decorator based router handling bot commands</span>
+
+<span class="sd">    &gt;&gt;&gt; @command_routes.register(&quot;hello&quot;)</span>
+<span class="sd">    &gt;&gt;&gt; def command_hello(event, ghapi, *args):</span>
+<span class="sd">    &gt;&gt;&gt;     logger.info(&quot;Got command &#39;hello %s&#39;&quot;, &quot; &quot;.join(args))</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">mapping</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Callable</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+
+<div class="viewcode-block" id="CommandDispatch.register"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.CommandDispatch.register">[docs]</a>    <span class="k">def</span> <span class="nf">register</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">cmd</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Callable</span><span class="p">[[</span><span class="n">Callable</span><span class="p">],</span> <span class="n">Callable</span><span class="p">]:</span>
+        <span class="sd">&quot;&quot;&quot;Decorator adding decorated function to dispatcher&quot;&quot;&quot;</span>
+        <span class="k">def</span> <span class="nf">decorator</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">mapping</span><span class="p">[</span><span class="n">cmd</span><span class="p">]</span> <span class="o">=</span> <span class="n">func</span>
+            <span class="k">return</span> <span class="n">func</span>
+        <span class="k">return</span> <span class="n">decorator</span></div>
+
+<div class="viewcode-block" id="CommandDispatch.dispatch"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.CommandDispatch.dispatch">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">dispatch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">cmd</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Calls one of the registered functions&quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">cmd</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">mapping</span><span class="p">:</span>
+            <span class="n">response</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">mapping</span><span class="p">[</span><span class="n">cmd</span><span class="p">](</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
+            <span class="k">return</span> <span class="n">response</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">None</span></div></div>
+
+
+<span class="c1"># Router for bot commands received as issue comments</span>
+<span class="n">command_routes</span> <span class="o">=</span> <span class="n">CommandDispatch</span><span class="p">()</span>  <span class="c1"># pylint: disable=invalid-name</span>
+
+
+<div class="viewcode-block" id="permissions"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.permissions">[docs]</a><span class="k">def</span> <span class="nf">permissions</span><span class="p">(</span><span class="n">member</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">bool</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+                <span class="n">author</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">bool</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+                <span class="n">team</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Decorator for commands checking for permissions</span>
+
+<span class="sd">    Permissions are OR combined. Repeat the decorator to get AND.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">      member: if true, user must be organization member</span>
+<span class="sd">      author: if true, user must be author, if false user must not be author</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">decorator</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
+        <span class="nd">@functools</span><span class="o">.</span><span class="n">wraps</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+        <span class="k">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">user</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
+            <span class="n">okmsg</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+            <span class="n">err</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">okmsg</span> <span class="ow">and</span> <span class="n">member</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="k">if</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">is_member</span><span class="p">(</span><span class="n">user</span><span class="p">):</span>
+                    <span class="n">okmsg</span> <span class="o">=</span> <span class="s2">&quot;User is member&quot;</span>
+                <span class="k">elif</span> <span class="ow">not</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">is_org</span><span class="p">():</span>
+                    <span class="n">okmsg</span> <span class="o">=</span> <span class="s2">&quot;Repo is not on Org&quot;</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">err</span> <span class="o">+=</span> <span class="p">[</span><span class="n">f</span><span class="s2">&quot;a member of {ghapi.user.capitalize()}&quot;</span><span class="p">]</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">okmsg</span> <span class="ow">and</span> <span class="n">author</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">prq</span> <span class="o">=</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">get_prs</span><span class="p">(</span><span class="n">number</span><span class="o">=</span><span class="n">issue_number</span><span class="p">)</span>
+                <span class="n">pr_author</span> <span class="o">=</span> <span class="n">prq</span><span class="p">[</span><span class="s1">&#39;user&#39;</span><span class="p">][</span><span class="s1">&#39;login&#39;</span><span class="p">]</span>
+                <span class="n">negate</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span> <span class="k">if</span> <span class="n">author</span> <span class="k">else</span> <span class="s2">&quot;not &quot;</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">pr_author</span> <span class="o">==</span> <span class="n">user</span><span class="p">)</span> <span class="o">==</span> <span class="n">author</span><span class="p">:</span>
+                    <span class="n">okmsg</span> <span class="o">=</span> <span class="n">f</span><span class="s2">&quot;User is </span><span class="si">{negate}</span><span class="s2">PR author&quot;</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">err</span> <span class="o">+=</span> <span class="p">[</span><span class="n">f</span><span class="s2">&quot;</span><span class="si">{negate}</span><span class="s2">author of the PR&quot;</span><span class="p">]</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">okmsg</span> <span class="ow">and</span> <span class="n">team</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="k">if</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">is_team_member</span><span class="p">(</span><span class="n">user</span><span class="p">,</span> <span class="n">team</span><span class="p">):</span>
+                    <span class="n">okmsg</span> <span class="o">=</span> <span class="n">f</span><span class="s2">&quot;User is member of </span><span class="si">{ghapi.user}</span><span class="s2">/</span><span class="si">{team}</span><span class="s2">&quot;</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">err</span> <span class="o">+=</span> <span class="p">[</span><span class="n">f</span><span class="s2">&quot;a member of </span><span class="si">{ghapi.user}</span><span class="s2">/</span><span class="si">{team}</span><span class="s2">&quot;</span><span class="p">]</span>
+
+            <span class="n">msg</span> <span class="o">=</span> <span class="n">okmsg</span> <span class="ow">or</span> <span class="n">f</span><span class="s2">&quot;Permission denied. You need to be {&#39; or &#39;.join(err)}.&quot;</span>
+
+            <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Access </span><span class="si">%s</span><span class="s2">: </span><span class="si">%s</span><span class="s2"> wants to run </span><span class="si">%s</span><span class="s2"> on </span><span class="si">%s</span><span class="s2">#</span><span class="si">%s</span><span class="s2"> (&#39;</span><span class="si">%s</span><span class="s2">&#39;)&quot;</span><span class="p">,</span>
+                           <span class="s2">&quot;GRANTED&quot;</span> <span class="k">if</span> <span class="n">okmsg</span> <span class="k">else</span> <span class="s2">&quot;DENIED&quot;</span><span class="p">,</span>
+                           <span class="n">user</span><span class="p">,</span> <span class="n">func</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">okmsg</span><span class="p">:</span>
+                <span class="k">return</span> <span class="k">await</span> <span class="n">func</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">user</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span>
+            <span class="k">return</span> <span class="n">msg</span>
+        <span class="k">return</span> <span class="n">wrapper</span>
+    <span class="k">return</span> <span class="n">decorator</span></div>
+
+
+<div class="viewcode-block" id="command_hello"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_hello">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;hello&quot;</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">command_hello</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">user</span><span class="p">,</span> <span class="o">*</span><span class="n">_args</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Check whether the bot is listening. If it is, it will answer.&quot;&quot;&quot;</span>
+    <span class="n">msg</span> <span class="o">=</span> <span class="n">f</span><span class="s2">&quot;Hello @</span><span class="si">{user}</span><span class="s2">!&quot;</span>
+    <span class="k">if</span> <span class="n">issue_number</span><span class="p">:</span>
+        <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">create_comment</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;I said hello on #</span><span class="si">{issue_number}</span><span class="s2">&quot;</span>
+    <span class="k">return</span> <span class="n">msg</span></div>
+
+
+<div class="viewcode-block" id="command_bump"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_bump">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;bump&quot;</span><span class="p">)</span>
+<span class="nd">@permissions</span><span class="p">(</span><span class="n">member</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">author</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">command_bump</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">_user</span><span class="p">,</span> <span class="o">*</span><span class="n">_args</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Bump the build number of a recipe    &quot;&quot;&quot;</span>
+    <span class="n">tasks</span><span class="o">.</span><span class="n">bump</span><span class="o">.</span><span class="n">apply_async</span><span class="p">((</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;Scheduled bump of build number for #</span><span class="si">{issue_number}</span><span class="s2">&quot;</span></div>
+
+
+<div class="viewcode-block" id="command_lint"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_lint">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;lint&quot;</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">command_lint</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">_user</span><span class="p">,</span> <span class="o">*</span><span class="n">_args</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Lint the current recipe&quot;&quot;&quot;</span>
+    <span class="p">(</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">get_latest_pr_commit</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span> <span class="o">|</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">create_check_run</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">ghapi</span><span class="p">)</span>
+    <span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;Scheduled creation of new check run for latest commit in #</span><span class="si">{issue_number}</span><span class="s2">&quot;</span></div>
+
+
+<div class="viewcode-block" id="command_recheck"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_recheck">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;recheck&quot;</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">command_recheck</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">_user</span><span class="p">,</span> <span class="o">*</span><span class="n">_args</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Trigger check_check_run and check_circle_artifacts&quot;&quot;&quot;</span>
+    <span class="c1"># queue check for artifacts</span>
+    <span class="n">tasks</span><span class="o">.</span><span class="n">check_circle_artifacts</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
+    <span class="c1"># queue lint check</span>
+    <span class="p">(</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">get_latest_pr_commit</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span> <span class="o">|</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">create_check_run</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">ghapi</span><span class="p">)</span>
+    <span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;Scheduled check run and circle artificats verification on #</span><span class="si">{issue_number}</span><span class="s2">&quot;</span></div>
+
+
+<div class="viewcode-block" id="command_rebuild"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_rebuild">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;rebuild&quot;</span><span class="p">)</span>
+<span class="nd">@permissions</span><span class="p">(</span><span class="n">member</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">author</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">command_rebuild</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">_user</span><span class="p">,</span> <span class="o">*</span><span class="n">_args</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Trigger rebuild of PR as of latest sha&quot;&quot;&quot;</span>
+    <span class="n">tasks</span><span class="o">.</span><span class="n">trigger_circle_rebuild</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;Scheduled triggering of rebuild for #</span><span class="si">{issue_number}</span><span class="s2">&quot;</span></div>
+
+
+<div class="viewcode-block" id="command_merge"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_merge">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;merge&quot;</span><span class="p">)</span>
+<span class="nd">@permissions</span><span class="p">(</span><span class="n">member</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="c1">#@permissions(author=False, team=&quot;core&quot;)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">command_merge</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">user</span><span class="p">,</span> <span class="o">*</span><span class="n">_args</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Merge PR&quot;&quot;&quot;</span>
+    <span class="n">comment_id</span> <span class="o">=</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">create_comment</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="s2">&quot;Scheduled Upload &amp; Merge&quot;</span><span class="p">)</span>
+    <span class="p">(</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">merge_pr</span><span class="o">.</span><span class="n">si</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">comment_id</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span> <span class="o">|</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">post_result</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">comment_id</span><span class="p">,</span> <span class="s2">&quot;merge&quot;</span><span class="p">,</span> <span class="n">user</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span>
+    <span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;Scheduled merge of #</span><span class="si">{issue_number}</span><span class="s2">&quot;</span></div>
+
+
+<div class="viewcode-block" id="command_autobump"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_autobump">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;autobump&quot;</span><span class="p">)</span>
+<span class="nd">@permissions</span><span class="p">(</span><span class="n">member</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">command_autobump</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">_issue_number</span><span class="p">,</span> <span class="n">_user</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Run Autobump on recipes&quot;&quot;&quot;</span>
+    <span class="n">tasks</span><span class="o">.</span><span class="n">run_autobump</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">args</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;Scheduled autobump check of recipe(s) {&#39;, &#39;.join(args)}&quot;</span></div>
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2019, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/bioconda_utils/bot/commands.py" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

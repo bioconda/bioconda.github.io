@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>bioconda_utils.bot.events &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../../../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../../../index.html">
+    <img class="logo" src="../../../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../updating.html">Updating recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../linting.html">Linting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../cb3.html">Conda build v3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer.html">Developer Docs</a></li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="../../../conda-recipe_index.html">Recipe Index</a></li>
+  
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for bioconda_utils.bot.events</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Handlers for incoming Github Events</span>
+
+<span class="sd">Note:</span>
+<span class="sd">  The incoming webhook from Github is still open and unanswered</span>
+<span class="sd">  while these are processed. Commands should not do anything taking</span>
+<span class="sd">  more than milliseconds.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">import</span> <span class="nn">logging</span>
+<span class="kn">import</span> <span class="nn">re</span>
+
+<span class="kn">import</span> <span class="nn">gidgethub.routing</span>
+
+<span class="kn">from</span> <span class="nn">.commands</span> <span class="k">import</span> <span class="n">command_routes</span>
+<span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">tasks</span>
+<span class="kn">from</span> <span class="nn">.config</span> <span class="k">import</span> <span class="n">APP_ID</span>
+
+
+<span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>  <span class="c1"># pylint: disable=invalid-name</span>
+<span class="n">event_routes</span> <span class="o">=</span> <span class="n">gidgethub</span><span class="o">.</span><span class="n">routing</span><span class="o">.</span><span class="n">Router</span><span class="p">()</span>  <span class="c1"># pylint: disable=invalid-name</span>
+
+<span class="n">BOT_ALIAS_RE</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;@bioconda[- ]?bot&#39;</span><span class="p">,</span> <span class="n">re</span><span class="o">.</span><span class="n">IGNORECASE</span><span class="p">)</span>
+
+
+<div class="viewcode-block" id="handle_comment_created"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.events.html#bioconda_utils.bot.events.handle_comment_created">[docs]</a><span class="nd">@event_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;issue_comment&quot;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&quot;created&quot;</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">handle_comment_created</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">_kwargs</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Handles comments on issues</span>
+
+<span class="sd">    - dispatches @biocondabot commands</span>
+<span class="sd">    - re-iterates commenets from non-members attempting to @mention @bioconda/xxx</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">issue_number</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;issue/number&#39;</span><span class="p">,</span> <span class="s2">&quot;NA&quot;</span><span class="p">)</span>
+    <span class="n">comment_author</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;comment/user/login&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="n">comment_body</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;comment/body&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+
+    <span class="c1"># Ignore self mentions. This is important not only to avoid loops,</span>
+    <span class="c1"># but critical because we are repeating what non-members say below.</span>
+    <span class="k">if</span> <span class="n">BOT_ALIAS_RE</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="s1">&#39;@&#39;</span><span class="o">+</span><span class="n">comment_author</span><span class="p">):</span>
+        <span class="k">return</span>
+
+    <span class="n">commands</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="n">line</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">1</span><span class="p">:]</span>
+        <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">comment_body</span><span class="o">.</span><span class="n">splitlines</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">BOT_ALIAS_RE</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+    <span class="p">]</span>
+    <span class="k">for</span> <span class="n">cmd</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span> <span class="ow">in</span> <span class="n">commands</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Dispatching command from #</span><span class="si">%s</span><span class="s2">: &#39;</span><span class="si">%s</span><span class="s2">&#39; </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">cmd</span><span class="p">,</span> <span class="n">args</span><span class="p">)</span>
+        <span class="k">await</span> <span class="n">command_routes</span><span class="o">.</span><span class="n">dispatch</span><span class="p">(</span><span class="n">cmd</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">comment_author</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="s1">&#39;@bioconda/&#39;</span> <span class="ow">in</span> <span class="n">comment_body</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">and</span> <span class="ow">not</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">is_member</span><span class="p">(</span><span class="n">comment_author</span><span class="p">):</span>
+        <span class="k">if</span> <span class="s1">&#39;@bioconda/all&#39;</span> <span class="ow">in</span> <span class="n">comment_body</span><span class="o">.</span><span class="n">lower</span><span class="p">():</span>
+            <span class="k">return</span>  <span class="c1"># not pinging everyone</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Repeating comment from </span><span class="si">%s</span><span class="s2"> on #</span><span class="si">%s</span><span class="s2"> to allow ping&quot;</span><span class="p">)</span>
+        <span class="n">quoted_msg</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">&#39;&gt; &#39;</span> <span class="o">+</span> <span class="n">line</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">comment_body</span><span class="o">.</span><span class="n">splitlines</span><span class="p">())</span>
+        <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">create_comment</span><span class="p">(</span>
+            <span class="n">issue_number</span><span class="p">,</span>
+            <span class="n">f</span><span class="s2">&quot;Repeating comment from @</span><span class="si">{comment_author}</span><span class="s2"> to enable @mention:</span><span class="se">\n</span><span class="s2">&quot;</span>
+            <span class="o">+</span> <span class="n">quoted_msg</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="handle_check_suite"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.events.html#bioconda_utils.bot.events.handle_check_suite">[docs]</a><span class="nd">@event_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;check_suite&quot;</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">handle_check_suite</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Handle check suite event</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">action</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;action&#39;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">action</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;requested&#39;</span><span class="p">,</span> <span class="s1">&#39;rerequested&#39;</span><span class="p">]:</span>
+        <span class="k">return</span>
+    <span class="n">head_sha</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;check_suite/head_sha&quot;</span><span class="p">)</span>
+    <span class="n">tasks</span><span class="o">.</span><span class="n">create_check_run</span><span class="o">.</span><span class="n">apply_async</span><span class="p">((</span><span class="n">head_sha</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">))</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Scheduled create_check_run for </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="handle_check_run"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.events.html#bioconda_utils.bot.events.handle_check_run">[docs]</a><span class="nd">@event_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;check_run&quot;</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">handle_check_run</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Handle check run event&quot;&quot;&quot;</span>
+    <span class="n">action</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;action&#39;</span><span class="p">)</span>
+    <span class="n">app_owner</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;check_run/check_suite/app/owner/login&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+    <span class="n">head_sha</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;check_run/head_sha&quot;</span><span class="p">)</span>
+    <span class="n">event_repo</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;repository/id&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">action</span> <span class="o">==</span> <span class="s2">&quot;completed&quot;</span> <span class="ow">and</span> <span class="n">app_owner</span> <span class="o">==</span> <span class="s2">&quot;circleci&quot;</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">pr</span> <span class="ow">in</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;check_run/check_suite/pull_requests&quot;</span><span class="p">,</span> <span class="p">[]):</span>
+            <span class="k">if</span> <span class="n">pr</span><span class="p">[</span><span class="s2">&quot;base&quot;</span><span class="p">][</span><span class="s2">&quot;repo&quot;</span><span class="p">][</span><span class="s2">&quot;id&quot;</span><span class="p">]</span> <span class="o">!=</span> <span class="n">event_repo</span><span class="p">:</span>
+                <span class="c1"># PR away from us, not to us</span>
+                <span class="k">continue</span>
+            <span class="n">pr_number</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">pr</span><span class="p">[</span><span class="s2">&quot;number&quot;</span><span class="p">])</span>
+            <span class="n">tasks</span><span class="o">.</span><span class="n">check_circle_artifacts</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">pr_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Scheduled check_circle_artifacts on #</span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">pr_number</span><span class="p">)</span>
+
+    <span class="c1"># Ignore check runs coming from other apps</span>
+    <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;check_run/app/id&quot;</span><span class="p">)</span> <span class="o">!=</span> <span class="nb">int</span><span class="p">(</span><span class="n">APP_ID</span><span class="p">):</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Ignoring - event came from </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">app_owner</span><span class="p">)</span>
+        <span class="k">return</span>
+
+    <span class="k">if</span> <span class="n">action</span> <span class="o">==</span> <span class="s2">&quot;rerequested&quot;</span><span class="p">:</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">create_check_run</span><span class="o">.</span><span class="n">apply_async</span><span class="p">((</span><span class="n">head_sha</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">))</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Scheduled create_check_run for </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">action</span> <span class="o">==</span> <span class="s2">&quot;created&quot;</span><span class="p">:</span>
+        <span class="n">check_run_number</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;check_run/id&#39;</span><span class="p">)</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">lint_check</span><span class="o">.</span><span class="n">apply_async</span><span class="p">((</span><span class="n">check_run_number</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">))</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Scheduled lint_check for </span><span class="si">%s</span><span class="s2"> </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">check_run_number</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">action</span> <span class="o">==</span> <span class="s2">&quot;requested_action&quot;</span><span class="p">:</span>
+        <span class="n">head_branch</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;check_run/check_suite/head_branch&#39;</span><span class="p">)</span>
+        <span class="n">requested_action</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;requested_action/identifier&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">requested_action</span> <span class="o">==</span> <span class="s2">&quot;lint_fix&quot;</span><span class="p">:</span>
+            <span class="n">tasks</span><span class="o">.</span><span class="n">lint_fix</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">head_branch</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Scheduled lint_fix for </span><span class="si">%s</span><span class="s2"> </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">head_branch</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Unknown requested action in check run: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">requested_action</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Unknown action </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">action</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="handle_pull_request"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.events.html#bioconda_utils.bot.events.handle_pull_request">[docs]</a><span class="nd">@event_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;pull_request&quot;</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">handle_pull_request</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+
+<span class="sd">    pull_request can have the following actions:</span>
+<span class="sd">    - assigned / unassigned</span>
+<span class="sd">    - review_requested / review_request_removed</span>
+<span class="sd">    - labeled / unlabeled</span>
+<span class="sd">    - opened / closed / reopened</span>
+<span class="sd">    - edited</span>
+<span class="sd">    - ready_for_review</span>
+<span class="sd">    - synchronize</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">action</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;action&#39;</span><span class="p">)</span>
+    <span class="n">pr_number</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;number&#39;</span><span class="p">))</span>
+    <span class="n">head_sha</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;pull_request/head/sha&#39;</span><span class="p">)</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Handling pull_request/</span><span class="si">%s</span><span class="s2"> #</span><span class="si">%s</span><span class="s2"> (</span><span class="si">%s</span><span class="s2">)&quot;</span><span class="p">,</span> <span class="n">action</span><span class="p">,</span> <span class="n">pr_number</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">action</span> <span class="o">==</span> <span class="s2">&quot;opened&quot;</span><span class="p">:</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">create_welcome_post</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">pr_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
+
+    <span class="k">if</span> <span class="n">action</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">&#39;opened&#39;</span><span class="p">,</span> <span class="s1">&#39;reopened&#39;</span><span class="p">,</span> <span class="s1">&#39;synchronize&#39;</span><span class="p">):</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">create_check_run</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">head_sha</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">,</span> <span class="n">recreate</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">(</span><span class="n">countdown</span><span class="o">=</span><span class="mi">30</span><span class="p">)</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Scheduled create_check_run(recreate=False) for </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">)</span></div>
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2019, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/bioconda_utils/bot/events.py" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

@@ -677,7 +677,7 @@
             <span class="n">arg</span> <span class="o">=</span> <span class="n">arg</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">mitem</span><span class="p">,</span> <span class="s1">&#39;&lt;hidden&gt;&#39;</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">arg</span>
 
-    <span class="n">mylogger</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">loglevel</span><span class="p">,</span> <span class="s2">&quot;Executing: &#39;</span><span class="si">%s</span><span class="s2">&#39;&quot;</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">do_mask</span><span class="p">(</span><span class="n">arg</span><span class="p">)</span> <span class="k">for</span> <span class="n">arg</span> <span class="ow">in</span> <span class="n">cmds</span><span class="p">))</span>
+    <span class="n">mylogger</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">loglevel</span><span class="p">,</span> <span class="s2">&quot;(COMMAND) </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">do_mask</span><span class="p">(</span><span class="n">arg</span><span class="p">)</span> <span class="k">for</span> <span class="n">arg</span> <span class="ow">in</span> <span class="n">cmds</span><span class="p">))</span>
 
     <span class="c1"># bufsize=4 result of manual experimentation. Changing it can</span>
     <span class="c1"># drop performance drastically.</span>
@@ -709,16 +709,34 @@
             <span class="k">raise</span>
 
         <span class="n">output</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">output_lines</span><span class="p">)</span>
-        <span class="n">returncode</span> <span class="o">=</span> <span class="n">proc</span><span class="o">.</span><span class="n">poll</span><span class="p">()</span>
         <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">cmds</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
             <span class="n">masked_cmds</span> <span class="o">=</span> <span class="n">do_mask</span><span class="p">(</span><span class="n">cmds</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="n">masked_cmds</span> <span class="o">=</span> <span class="p">[</span><span class="n">do_mask</span><span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">cmds</span><span class="p">]</span>
+
+        <span class="k">if</span> <span class="n">proc</span><span class="o">.</span><span class="n">poll</span><span class="p">()</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">mylogger</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">loglevel</span><span class="p">,</span> <span class="s1">&#39;Command closed STDOUT/STDERR but is still running&#39;</span><span class="p">)</span>
+            <span class="n">waitfor</span> <span class="o">=</span> <span class="mi">30</span>
+            <span class="n">waittimes</span> <span class="o">=</span> <span class="mi">5</span>
+            <span class="k">for</span> <span class="n">attempt</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">waittimes</span><span class="p">):</span>
+                <span class="n">mylogger</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">loglevel</span><span class="p">,</span> <span class="s2">&quot;Waiting </span><span class="si">%s</span><span class="s2"> seconds (</span><span class="si">%i</span><span class="s2">/</span><span class="si">%i</span><span class="s2">)&quot;</span><span class="p">,</span> <span class="n">waitfor</span><span class="p">,</span> <span class="n">attempt</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">waittimes</span><span class="p">)</span>
+                <span class="k">try</span><span class="p">:</span>
+                    <span class="n">proc</span><span class="o">.</span><span class="n">wait</span><span class="p">(</span><span class="n">timeout</span><span class="o">=</span><span class="n">waitfor</span><span class="p">)</span>
+                    <span class="k">break</span><span class="p">;</span>
+                <span class="k">except</span> <span class="n">sp</span><span class="o">.</span><span class="n">TimeoutExpired</span><span class="p">:</span>
+                    <span class="k">pass</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">mylogger</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">loglevel</span><span class="p">,</span> <span class="s2">&quot;Terminating process&quot;</span><span class="p">)</span>
+                <span class="n">proc</span><span class="o">.</span><span class="n">kill</span><span class="p">()</span>
+                <span class="n">proc</span><span class="o">.</span><span class="n">wait</span><span class="p">()</span>
+        <span class="n">returncode</span> <span class="o">=</span> <span class="n">proc</span><span class="o">.</span><span class="n">poll</span><span class="p">()</span>
+
         <span class="k">if</span> <span class="n">returncode</span><span class="p">:</span>
-            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;COMMAND FAILED: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">masked_cmds</span><span class="p">))</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;COMMAND FAILED (exited with </span><span class="si">%s</span><span class="s1">): </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">returncode</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">masked_cmds</span><span class="p">))</span>
             <span class="k">if</span> <span class="ow">not</span> <span class="n">live</span><span class="p">:</span>
                 <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;STDOUT+STDERR:</span><span class="se">\n</span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">output</span><span class="p">)</span>
             <span class="k">raise</span> <span class="n">sp</span><span class="o">.</span><span class="n">CalledProcessError</span><span class="p">(</span><span class="n">returncode</span><span class="p">,</span> <span class="n">masked_cmds</span><span class="p">,</span> <span class="n">output</span><span class="o">=</span><span class="n">output</span><span class="p">)</span>
+
         <span class="k">return</span> <span class="n">sp</span><span class="o">.</span><span class="n">CompletedProcess</span><span class="p">(</span><span class="n">returncode</span><span class="p">,</span> <span class="n">masked_cmds</span><span class="p">,</span> <span class="n">output</span><span class="p">)</span></div>
 
 

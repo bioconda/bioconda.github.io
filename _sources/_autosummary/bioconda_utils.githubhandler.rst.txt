@@ -30,6 +30,7 @@ githubhandler
       GitHubHandler
       IssueState
       MergeMethod
+      ReviewState
    
    
 

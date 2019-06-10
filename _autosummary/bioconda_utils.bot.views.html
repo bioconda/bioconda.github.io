@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>bot &#8212; Bioconda  documentation</title>
+    <title>views &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/style.css" />
@@ -16,8 +16,8 @@
     <script type="text/javascript" src="../_static/language_data.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="chat" href="bioconda_utils.bot.chat.html" />
-    <link rel="prev" title="bioconda_utils" href="bioconda_utils.html" />
+    <link rel="next" title="web" href="bioconda_utils.bot.web.html" />
+    <link rel="prev" title="tasks" href="bioconda_utils.bot.tasks.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 
@@ -78,13 +78,13 @@
 <li class="toctree-l1 current"><a class="reference internal" href="../developer.html">Developer Docs</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">bot</a><ul>
+<li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.bot.html">bot</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.chat.html">chat</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.commands.html">commands</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.config.html">config</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.events.html">events</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.tasks.html">tasks</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.views.html">views</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">views</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.web.html">web</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.worker.html">worker</a></li>
 </ul>
@@ -121,42 +121,49 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="module-bioconda_utils.bot">
-<span id="bot"></span><h1>bot<a class="headerlink" href="#module-bioconda_utils.bot" title="Permalink to this headline">¶</a></h1>
-<p>Bioconda Bot &amp; Github App</p>
+  <div class="section" id="module-bioconda_utils.bot.views">
+<span id="views"></span><h1>views<a class="headerlink" href="#module-bioconda_utils.bot.views" title="Permalink to this headline">¶</a></h1>
+<p>HTTP Views (accepts and parses webhooks)</p>
+<p class="rubric">Functions</p>
 <table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.bot.chat.html#module-bioconda_utils.bot.chat" title="bioconda_utils.bot.chat"><code class="xref py py-obj docutils literal notranslate"><span class="pre">chat</span></code></a></p></td>
-<td><p>Chat with the bot via Gitter</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">generic_circleci_dispatch</span></code>(request)</p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.bot.commands.html#module-bioconda_utils.bot.commands" title="bioconda_utils.bot.commands"><code class="xref py py-obj docutils literal notranslate"><span class="pre">commands</span></code></a></p></td>
-<td><p>Handlers for user commmands (<code class="docutils literal notranslate"><span class="pre">&#64;biocondabot</span> <span class="pre">do</span> <span class="pre">this</span></code>)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.generic_webhook_dispatch" title="bioconda_utils.bot.views.generic_webhook_dispatch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">generic_webhook_dispatch</span></code></a>(request)</p></td>
+<td><p>Accepts webhooks and dumps them to the log, so we can see what we would be receiving</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.bot.config.html#module-bioconda_utils.bot.config" title="bioconda_utils.bot.config"><code class="xref py py-obj docutils literal notranslate"><span class="pre">config</span></code></a></p></td>
-<td><p>Bot configuration variables</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.github_webhook_dispatch" title="bioconda_utils.bot.views.github_webhook_dispatch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">github_webhook_dispatch</span></code></a>(request)</p></td>
+<td><p>Accepts webhooks from Github and dispatches them to event handlers</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.bot.events.html#module-bioconda_utils.bot.events" title="bioconda_utils.bot.events"><code class="xref py py-obj docutils literal notranslate"><span class="pre">events</span></code></a></p></td>
-<td><p>Handlers for incoming Github Events</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.bot.tasks.html#module-bioconda_utils.bot.tasks" title="bioconda_utils.bot.tasks"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tasks</span></code></a></p></td>
-<td><p>Celery Tasks doing the actual work</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.bot.views.html#module-bioconda_utils.bot.views" title="bioconda_utils.bot.views"><code class="xref py py-obj docutils literal notranslate"><span class="pre">views</span></code></a></p></td>
-<td><p>HTTP Views (accepts and parses webhooks)</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="bioconda_utils.bot.web.html#module-bioconda_utils.bot.web" title="bioconda_utils.bot.web"><code class="xref py py-obj docutils literal notranslate"><span class="pre">web</span></code></a></p></td>
-<td><p>AioHTTP Web Server Setup</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="bioconda_utils.bot.worker.html#module-bioconda_utils.bot.worker" title="bioconda_utils.bot.worker"><code class="xref py py-obj docutils literal notranslate"><span class="pre">worker</span></code></a></p></td>
-<td><p>Celery Worker Setup</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.show_status" title="bioconda_utils.bot.views.show_status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">show_status</span></code></a>(request)</p></td>
+<td><p>Shows the index page (‘/’)</p></td>
 </tr>
 </tbody>
 </table>
 <p class="rubric">Documentation</p>
+<dl class="function">
+<dt id="bioconda_utils.bot.views.generic_webhook_dispatch">
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">generic_webhook_dispatch</code><span class="sig-paren">(</span><em class="sig-param">request</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/views.html#generic_webhook_dispatch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.generic_webhook_dispatch" title="Permalink to this definition">¶</a></dt>
+<dd><p>Accepts webhooks and dumps them to the log, so we can see what we would be receiving</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.bot.views.github_webhook_dispatch">
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">github_webhook_dispatch</code><span class="sig-paren">(</span><em class="sig-param">request</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/views.html#github_webhook_dispatch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.github_webhook_dispatch" title="Permalink to this definition">¶</a></dt>
+<dd><p>Accepts webhooks from Github and dispatches them to event handlers</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.bot.views.show_status">
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">show_status</code><span class="sig-paren">(</span><em class="sig-param">request</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/views.html#show_status"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.show_status" title="Permalink to this definition">¶</a></dt>
+<dd><p>Shows the index page (‘/’)</p>
+</dd></dl>
+
 </div>
 
 
@@ -174,14 +181,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../_sources/_autosummary/bioconda_utils.bot.rst.txt"
+      <a href="../_sources/_autosummary/bioconda_utils.bot.views.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-utils/edit/master/bioconda_utils/bot.py" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/bioconda_utils/bot/views.py" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

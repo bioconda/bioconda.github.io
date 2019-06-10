@@ -179,6 +179,9 @@
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.githubhandler.MergeMethod" title="bioconda_utils.githubhandler.MergeMethod"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MergeMethod</span></code></a></p></td>
 <td><p>Merge method</p></td>
 </tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.githubhandler.ReviewState" title="bioconda_utils.githubhandler.ReviewState"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ReviewState</span></code></a></p></td>
+<td><p>Pull request review state</p></td>
+</tr>
 </tbody>
 </table>
 <p class="rubric">Documentation</p>
@@ -588,6 +591,24 @@ in dict.</p>
 </dd></dl>
 
 <dl class="method">
+<dt id="bioconda_utils.githubhandler.GitHubHandler.get_pr_reviews">
+<em class="property">async </em><code class="sig-name descname">get_pr_reviews</code><span class="sig-paren">(</span><em class="sig-param">pr_number</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.get_pr_reviews"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.get_pr_reviews" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get reviews filed for a PR</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pr_number</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – Number of PR</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]]</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>List of dictionaries each having <code class="docutils literal notranslate"><span class="pre">body</span></code> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">str</span></code></a>), <code class="docutils literal notranslate"><span class="pre">state</span></code> (<a class="reference internal" href="#bioconda_utils.githubhandler.ReviewState" title="bioconda_utils.githubhandler.ReviewState"><code class="xref any py py-class docutils literal notranslate"><span class="pre">ReviewState</span></code></a>),
+and <code class="docutils literal notranslate"><span class="pre">commit_id</span></code> (SHA, <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">str</span></code></a>) as well as a <code class="docutils literal notranslate"><span class="pre">user</span></code> <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">dict</span></code></a>.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
 <dt id="bioconda_utils.githubhandler.GitHubHandler.get_prs">
 <code class="sig-name descname">get_prs</code><span class="sig-paren">(</span><em class="sig-param">from_branch=None</em>, <em class="sig-param">from_user=None</em>, <em class="sig-param">to_branch=None</em>, <em class="sig-param">number=None</em>, <em class="sig-param">state=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.get_prs"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.get_prs" title="Permalink to this definition">¶</a></dt>
 <dd><p>Retrieve list of PRs matching parameters</p>
@@ -928,6 +949,13 @@ and <code class="docutils literal notranslate"><span class="pre">identifier</spa
 <em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.githubhandler.</code><code class="sig-name descname">MergeMethod</code><a class="headerlink" href="#bioconda_utils.githubhandler.MergeMethod" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">enum.Enum</span></code></a></p>
 <p>Merge method</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="bioconda_utils.githubhandler.ReviewState">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.githubhandler.</code><code class="sig-name descname">ReviewState</code><a class="headerlink" href="#bioconda_utils.githubhandler.ReviewState" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">enum.Enum</span></code></a></p>
+<p>Pull request review state</p>
 </dd></dl>
 
 <dl class="function">

@@ -141,6 +141,9 @@
 <span class="c1">#: Merge method</span>
 <span class="n">MergeMethod</span> <span class="o">=</span> <span class="n">Enum</span><span class="p">(</span><span class="s2">&quot;MergeMethod&quot;</span><span class="p">,</span> <span class="s2">&quot;merge squash rebase&quot;</span><span class="p">)</span>
 
+<span class="c1">#: Pull request review state</span>
+<span class="n">ReviewState</span> <span class="o">=</span> <span class="n">Enum</span><span class="p">(</span><span class="s2">&quot;ReviewState&quot;</span><span class="p">,</span> <span class="s2">&quot;APPROVED CHANGES_REQUESTED COMMENTED DISMISSED PENDING&quot;</span><span class="p">)</span>
+
 <div class="viewcode-block" id="iso_now"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.iso_now">[docs]</a><span class="k">def</span> <span class="nf">iso_now</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
     <span class="sd">&quot;&quot;&quot;Creates ISO 8601 timestamp in format</span>
 <span class="sd">    ``YYYY-MM-DDTHH:MM:SSZ`` as required by Github</span>
@@ -161,6 +164,7 @@
     <span class="n">PULL_FILES</span>        <span class="o">=</span> <span class="s2">&quot;/repos/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/pulls/</span><span class="si">{number}</span><span class="s2">/files&quot;</span>
     <span class="n">PULL_COMMITS</span>      <span class="o">=</span> <span class="s2">&quot;/repos/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/pulls/</span><span class="si">{number}</span><span class="s2">/commits&quot;</span>
     <span class="n">PULL_MERGE</span>        <span class="o">=</span> <span class="s2">&quot;/repos/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/pulls/</span><span class="si">{number}</span><span class="s2">/merge&quot;</span>
+    <span class="n">PULL_REVIEWS</span>      <span class="o">=</span> <span class="s2">&quot;/repos/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/pulls/</span><span class="si">{number}</span><span class="s2">/reviews{/review_id}&quot;</span>
     <span class="n">BRANCH_PROTECTION</span> <span class="o">=</span> <span class="s2">&quot;/repos/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/branches/</span><span class="si">{branch}</span><span class="s2">/protection&quot;</span>
     <span class="n">ISSUES</span>            <span class="o">=</span> <span class="s2">&quot;/repos/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/issues{/number}&quot;</span>
     <span class="n">ISSUE_COMMENTS</span>    <span class="o">=</span> <span class="s2">&quot;/repos/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/issues/</span><span class="si">{number}</span><span class="s2">/comments&quot;</span>
@@ -734,6 +738,19 @@
         <span class="n">var_data</span><span class="p">[</span><span class="s1">&#39;commit&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">sha</span>
         <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">getitem</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">GET_STATUSES</span><span class="p">,</span> <span class="n">var_data</span><span class="p">)</span></div>
 
+<div class="viewcode-block" id="GitHubHandler.get_pr_reviews"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_pr_reviews">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_pr_reviews</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">pr_number</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]:</span>
+        <span class="sd">&quot;&quot;&quot;Get reviews filed for a PR</span>
+
+<span class="sd">        Arguments:</span>
+<span class="sd">          pr_number: Number of PR</span>
+<span class="sd">        Returns:</span>
+<span class="sd">          List of dictionaries each having ``body`` (`str`), ``state`` (`ReviewState`),</span>
+<span class="sd">          and ``commit_id`` (SHA, `str`) as well as a ``user`` `dict`.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">var_data</span> <span class="o">=</span> <span class="n">copy</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">var_default</span><span class="p">)</span>
+        <span class="n">var_data</span><span class="p">[</span><span class="s1">&#39;number&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">pr_number</span><span class="p">)</span>
+        <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">getitem</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">PULL_REVIEWS</span><span class="p">,</span> <span class="n">var_data</span><span class="p">)</span></div>
+
 <div class="viewcode-block" id="GitHubHandler.get_branch_protection"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_branch_protection">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_branch_protection</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">branch</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;master&quot;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]:</span>
         <span class="sd">&quot;&quot;&quot;Retrieve protection settings for branch</span>
 
@@ -800,6 +817,8 @@
 
         <span class="c1"># get required checks for target branch</span>
         <span class="n">protections</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_branch_protection</span><span class="p">(</span><span class="n">pr</span><span class="p">[</span><span class="s1">&#39;base&#39;</span><span class="p">][</span><span class="s1">&#39;ref&#39;</span><span class="p">])</span>
+
+        <span class="c1"># Verify required_checks</span>
         <span class="n">required_checks</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">protections</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;required_status_checks&#39;</span><span class="p">,</span> <span class="p">{})</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;contexts&#39;</span><span class="p">,</span> <span class="p">[]))</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Found required checks: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">required_checks</span><span class="p">)</span>
 
@@ -811,8 +830,28 @@
             <span class="k">if</span> <span class="n">check</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;conclusion&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="s2">&quot;success&quot;</span><span class="p">:</span>
                 <span class="n">required_checks</span><span class="o">.</span><span class="n">discard</span><span class="p">(</span><span class="n">check</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">])</span>
         <span class="k">if</span> <span class="n">required_checks</span><span class="p">:</span>
-            <span class="n">logger</span><span class="o">.</span><span class="n">Info</span><span class="p">(</span><span class="s2">&quot;Missing checks for #</span><span class="si">%s</span><span class="s2">: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">pr_number</span><span class="p">,</span> <span class="n">required_checks</span><span class="p">)</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Missing checks for #</span><span class="si">%s</span><span class="s2">: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">pr_number</span><span class="p">,</span> <span class="n">required_checks</span><span class="p">)</span>
             <span class="k">return</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;Not all required checks have passed&quot;</span>
+
+        <span class="c1"># Verify required reviews</span>
+        <span class="n">reviews_required</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">protections</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;required_approving_review_count&#39;</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Found required reviews: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">reviews_required</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">reviews_required</span><span class="p">:</span>
+            <span class="n">reviews</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_pr_reviews</span><span class="p">(</span><span class="n">pr_number</span><span class="p">)</span>
+            <span class="n">approving_count</span> <span class="o">=</span> <span class="mi">0</span>
+            <span class="k">for</span> <span class="n">review</span> <span class="ow">in</span> <span class="n">reviews</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">review</span><span class="p">[</span><span class="s1">&#39;state&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">ReviewState</span><span class="o">.</span><span class="n">CHANGES_REQUESTED</span><span class="p">:</span>
+                    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;  failed - a reviewer hs requested changes&quot;</span><span class="p">)</span>
+                    <span class="k">return</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;A reviewer has requested changes&quot;</span>
+                <span class="k">if</span> <span class="n">review</span><span class="p">[</span><span class="s1">&#39;state&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">ReviewState</span><span class="o">.</span><span class="n">APPROVED</span><span class="p">:</span>
+                    <span class="n">approving_count</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">if</span> <span class="n">approving_count</span> <span class="o">&lt;</span> <span class="n">reviews_required</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;  failed - only </span><span class="si">%s</span><span class="s2">/</span><span class="si">%s</span><span class="s2"> reviews approved&quot;</span><span class="p">,</span>
+                            <span class="n">approving_count</span><span class="p">,</span> <span class="n">reviews_required</span><span class="p">)</span>
+                <span class="k">return</span> <span class="kc">False</span><span class="p">,</span> <span class="p">(</span><span class="n">f</span><span class="s2">&quot;Insufficient number of approving reviews&quot;</span>
+                               <span class="n">f</span><span class="s2">&quot;(</span><span class="si">{approving_count}</span><span class="s2">/</span><span class="si">{reviews_required}</span><span class="s2">)&quot;</span><span class="p">)</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Reviews good: </span><span class="si">%s</span><span class="s2">/</span><span class="si">%s</span><span class="s2"> and no changes requested&quot;</span><span class="p">,</span>
+                        <span class="n">approving_count</span><span class="p">,</span> <span class="n">reviews_required</span><span class="p">)</span>
 
         <span class="k">return</span> <span class="kc">True</span><span class="p">,</span> <span class="s2">&quot;LGTM&quot;</span></div>
 

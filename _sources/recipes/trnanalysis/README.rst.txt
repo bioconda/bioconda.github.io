@@ -22,12 +22,12 @@ trnanalysis
 
    |downloads_trnanalysis| |docker_trnanalysis|
 
-   :versions: 0.1.4-0, 0.1.2-0, 0.1.0-0
+   :versions: 0.1.5-0, 0.1.4-0, 0.1.2-0, 0.1.0-0
    
    :depends bioconductor-deseq2: 
    :depends bioconductor-org.hs.eg.db: 
    :depends bowtie: 
-   :depends cgat-apps: 
+   :depends cgat-apps: 0.5.3
    :depends cgatcore: 
    :depends configparser: 
    :depends ez_setup: 

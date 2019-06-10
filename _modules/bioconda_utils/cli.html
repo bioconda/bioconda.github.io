@@ -258,6 +258,41 @@
     <span class="k">return</span> <span class="n">repo</span><span class="o">.</span><span class="n">get_recipes_to_build</span><span class="p">(</span><span class="n">ref</span><span class="p">,</span> <span class="n">other</span><span class="p">)</span></div>
 
 
+<div class="viewcode-block" id="get_recipes"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cli.html#bioconda_utils.cli.get_recipes">[docs]</a><span class="k">def</span> <span class="nf">get_recipes</span><span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">packages</span><span class="p">,</span> <span class="n">git_range</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;Gets list of paths to recipe folders to be built</span>
+
+<span class="sd">    Considers all recipes matching globs in packages, constrains to</span>
+<span class="sd">    recipes modified or unblacklisted in the git_range if given, then</span>
+<span class="sd">    removes blacklisted recipes.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">recipes</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">utils</span><span class="o">.</span><span class="n">get_recipes</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">packages</span><span class="p">))</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Considering total of </span><span class="si">%s</span><span class="s2"> recipes</span><span class="si">%s</span><span class="s2">.&quot;</span><span class="p">,</span>
+                <span class="nb">len</span><span class="p">(</span><span class="n">recipes</span><span class="p">),</span> <span class="n">utils</span><span class="o">.</span><span class="n">ellipsize_recipes</span><span class="p">(</span><span class="n">recipes</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">))</span>
+
+    <span class="k">if</span> <span class="n">git_range</span><span class="p">:</span>
+        <span class="n">changed_recipes</span> <span class="o">=</span> <span class="n">get_recipes_to_build</span><span class="p">(</span><span class="n">git_range</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">)</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Constraining to </span><span class="si">%s</span><span class="s2"> git modified recipes</span><span class="si">%s</span><span class="s2">.&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">changed_recipes</span><span class="p">),</span>
+                    <span class="n">utils</span><span class="o">.</span><span class="n">ellipsize_recipes</span><span class="p">(</span><span class="n">changed_recipes</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">))</span>
+        <span class="n">recipes</span> <span class="o">=</span> <span class="p">[</span><span class="n">recipe</span> <span class="k">for</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="n">recipes</span> <span class="k">if</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="nb">set</span><span class="p">(</span><span class="n">changed_recipes</span><span class="p">)]</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">recipes</span><span class="p">)</span> <span class="o">!=</span> <span class="nb">len</span><span class="p">(</span><span class="n">changed_recipes</span><span class="p">):</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Overlap was </span><span class="si">%s</span><span class="s2"> recipes</span><span class="si">%s</span><span class="s2">.&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">recipes</span><span class="p">),</span>
+                        <span class="n">utils</span><span class="o">.</span><span class="n">ellipsize_recipes</span><span class="p">(</span><span class="n">recipes</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">))</span>
+
+    <span class="n">blacklist</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">get_blacklist</span><span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">)</span>
+    <span class="n">blacklisted</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="n">recipes</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">relpath</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">)</span> <span class="ow">in</span> <span class="n">blacklist</span><span class="p">:</span>
+            <span class="n">blacklisted</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">blacklisted</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Ignoring </span><span class="si">%s</span><span class="s2"> blacklisted recipes</span><span class="si">%s</span><span class="s2">.&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">blacklisted</span><span class="p">),</span>
+                    <span class="n">utils</span><span class="o">.</span><span class="n">ellipsize_recipes</span><span class="p">(</span><span class="n">blacklisted</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">))</span>
+        <span class="n">recipes</span> <span class="o">=</span> <span class="p">[</span><span class="n">recipe</span> <span class="k">for</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="n">recipes</span> <span class="k">if</span> <span class="n">recipe</span> <span class="ow">not</span> <span class="ow">in</span> <span class="nb">set</span><span class="p">(</span><span class="n">blacklisted</span><span class="p">)]</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Processing </span><span class="si">%s</span><span class="s2"> recipes</span><span class="si">%s</span><span class="s2">.&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">recipes</span><span class="p">),</span>
+                <span class="n">utils</span><span class="o">.</span><span class="n">ellipsize_recipes</span><span class="p">(</span><span class="n">recipes</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">recipes</span></div>
+
+
 <span class="c1"># NOTE:</span>
 <span class="c1">#</span>
 <span class="c1"># A package is the name of the software package, like `bowtie`.</span>
@@ -408,26 +443,12 @@
         <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">check</span><span class="p">)</span> <span class="k">for</span> <span class="n">check</span> <span class="ow">in</span> <span class="n">lint</span><span class="o">.</span><span class="n">get_checks</span><span class="p">()))</span>
         <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
 
-    <span class="n">config_filename</span> <span class="o">=</span> <span class="n">config</span>
     <span class="n">config</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">load_config</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
-
 
     <span class="k">if</span> <span class="n">cache</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
         <span class="n">utils</span><span class="o">.</span><span class="n">RepoData</span><span class="p">()</span><span class="o">.</span><span class="n">set_cache</span><span class="p">(</span><span class="n">cache</span><span class="p">)</span>
 
-    <span class="n">recipes</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">utils</span><span class="o">.</span><span class="n">get_recipes</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">packages</span><span class="p">))</span>
-    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Considering total of </span><span class="si">%s</span><span class="s2"> recipes</span><span class="si">%s</span><span class="s2">.&quot;</span><span class="p">,</span>
-                <span class="nb">len</span><span class="p">(</span><span class="n">recipes</span><span class="p">),</span> <span class="n">utils</span><span class="o">.</span><span class="n">ellipsize_recipes</span><span class="p">(</span><span class="n">recipes</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">))</span>
-
-    <span class="k">if</span> <span class="n">git_range</span><span class="p">:</span>
-        <span class="n">changed_recipes</span> <span class="o">=</span> <span class="n">get_recipes_to_build</span><span class="p">(</span><span class="n">git_range</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">)</span>
-        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Constraining to </span><span class="si">%s</span><span class="s2"> git modified recipes</span><span class="si">%s</span><span class="s2">.&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">changed_recipes</span><span class="p">),</span>
-                    <span class="n">utils</span><span class="o">.</span><span class="n">ellipsize_recipes</span><span class="p">(</span><span class="n">changed_recipes</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">))</span>
-        <span class="n">recipes</span> <span class="o">=</span> <span class="p">[</span><span class="n">recipe</span> <span class="k">for</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="n">recipes</span> <span class="k">if</span> <span class="n">recipe</span> <span class="ow">in</span> <span class="nb">set</span><span class="p">(</span><span class="n">changed_recipes</span><span class="p">)]</span>
-        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">recipes</span><span class="p">)</span> <span class="o">!=</span> <span class="nb">len</span><span class="p">(</span><span class="n">changed_recipes</span><span class="p">):</span>
-            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Overlap was </span><span class="si">%s</span><span class="s2"> recipes</span><span class="si">%s</span><span class="s2">.&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">recipes</span><span class="p">),</span>
-                        <span class="n">utils</span><span class="o">.</span><span class="n">ellipsize_recipes</span><span class="p">(</span><span class="n">recipes</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">))</span>
-
+    <span class="n">recipes</span> <span class="o">=</span> <span class="n">get_recipes</span><span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">packages</span><span class="p">,</span> <span class="n">git_range</span><span class="p">)</span>
     <span class="n">linter</span> <span class="o">=</span> <span class="n">lint</span><span class="o">.</span><span class="n">Linter</span><span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">exclude</span><span class="p">)</span>
     <span class="n">result</span> <span class="o">=</span> <span class="n">linter</span><span class="o">.</span><span class="n">lint</span><span class="p">(</span><span class="n">recipes</span><span class="p">,</span> <span class="n">fix</span><span class="o">=</span><span class="n">try_fix</span><span class="p">)</span>
     <span class="n">messages</span> <span class="o">=</span> <span class="n">linter</span><span class="o">.</span><span class="n">get_messages</span><span class="p">()</span>
@@ -443,10 +464,9 @@
 
 
 <span class="nd">@recipe_folder_and_config</span><span class="p">()</span>
-<span class="nd">@arg</span><span class="p">(</span>
-    <span class="s1">&#39;--packages&#39;</span><span class="p">,</span>
-    <span class="n">nargs</span><span class="o">=</span><span class="s2">&quot;+&quot;</span><span class="p">,</span>
-    <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Glob for package[s] to build. Default is to build all packages. Can &#39;</span>
+<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--packages&#39;</span><span class="p">,</span>
+     <span class="n">nargs</span><span class="o">=</span><span class="s2">&quot;+&quot;</span><span class="p">,</span>
+     <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Glob for package[s] to build. Default is to build all packages. Can &#39;</span>
     <span class="s1">&#39;be specified more than once&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--git-range&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s1">&#39;+&#39;</span><span class="p">,</span>
      <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Git range (e.g. commits or something like</span>
@@ -488,41 +508,19 @@
 <span class="s1">     the first two channels specified in the config file. Note that this is</span>
 <span class="s1">     ignored if you specify --git-range.&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@enable_logging</span><span class="p">()</span>
-<span class="k">def</span> <span class="nf">build</span><span class="p">(</span>
-    <span class="n">recipe_folder</span><span class="p">,</span>
-    <span class="n">config</span><span class="p">,</span>
-    <span class="n">packages</span><span class="o">=</span><span class="s2">&quot;*&quot;</span><span class="p">,</span>
-    <span class="n">git_range</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-    <span class="n">testonly</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-    <span class="n">force</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-    <span class="n">docker</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-    <span class="n">mulled_test</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-    <span class="n">build_script_template</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-    <span class="n">pkg_dir</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-    <span class="n">anaconda_upload</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-    <span class="n">mulled_upload_target</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-    <span class="n">build_image</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-    <span class="n">keep_image</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-    <span class="n">lint</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-    <span class="n">lint_exclude</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-    <span class="n">check_channels</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-<span class="p">):</span>
+<span class="k">def</span> <span class="nf">build</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">packages</span><span class="o">=</span><span class="s2">&quot;*&quot;</span><span class="p">,</span> <span class="n">git_range</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">testonly</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+          <span class="n">force</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">docker</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">mulled_test</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">build_script_template</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+          <span class="n">pkg_dir</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">anaconda_upload</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">mulled_upload_target</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+          <span class="n">build_image</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">keep_image</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">lint</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">lint_exclude</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+          <span class="n">check_channels</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
     <span class="n">cfg</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">load_config</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
     <span class="n">setup</span> <span class="o">=</span> <span class="n">cfg</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;setup&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">setup</span><span class="p">:</span>
-        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Running setup: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">setup</span><span class="p">)</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Running setup: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">setup</span><span class="p">)</span>
         <span class="k">for</span> <span class="n">cmd</span> <span class="ow">in</span> <span class="n">setup</span><span class="p">:</span>
             <span class="n">utils</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">shlex</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">cmd</span><span class="p">),</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 
-    <span class="c1"># handle git range</span>
-    <span class="k">if</span> <span class="n">git_range</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">force</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">packages</span> <span class="o">!=</span> <span class="s1">&#39;*&#39;</span><span class="p">:</span>
-            <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="s2">&quot;Can&#39;t specifiy --packages and --git-range at the same time&quot;</span><span class="p">)</span>
-        <span class="n">packages</span> <span class="o">=</span> <span class="n">get_recipes_to_build</span><span class="p">(</span><span class="n">git_range</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">)</span>
-        <span class="k">if</span> <span class="ow">not</span> <span class="n">packages</span><span class="p">:</span>
-            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;No recipe modified according to git, exiting.&#39;</span><span class="p">)</span>
-            <span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Recipes modified according to git: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">packages</span><span class="p">)))</span>
+    <span class="n">recipes</span> <span class="o">=</span> <span class="n">get_recipes</span><span class="p">(</span><span class="n">cfg</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">packages</span><span class="p">,</span> <span class="n">git_range</span><span class="p">)</span>
 
     <span class="k">if</span> <span class="n">docker</span><span class="p">:</span>
         <span class="k">if</span> <span class="n">build_script_template</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
@@ -547,12 +545,9 @@
     <span class="k">if</span> <span class="n">lint_exclude</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">lint</span><span class="p">:</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s1">&#39;--lint-exclude has no effect unless --lint is specified.&#39;</span><span class="p">)</span>
 
-    <span class="n">label</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">&#39;BIOCONDA_LABEL&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">label</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
-        <span class="n">label</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">label</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">&#39;BIOCONDA_LABEL&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span> <span class="ow">or</span> <span class="kc">None</span>
 
-    <span class="n">success</span> <span class="o">=</span> <span class="n">build_recipes</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span>
-                            <span class="n">packages</span><span class="o">=</span><span class="p">[</span><span class="n">p</span><span class="o">.</span><span class="n">lstrip</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">)</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">packages</span><span class="p">],</span>
+    <span class="n">success</span> <span class="o">=</span> <span class="n">build_recipes</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">recipes</span><span class="p">,</span>
                             <span class="n">testonly</span><span class="o">=</span><span class="n">testonly</span><span class="p">,</span>
                             <span class="n">force</span><span class="o">=</span><span class="n">force</span><span class="p">,</span>
                             <span class="n">mulled_test</span><span class="o">=</span><span class="n">mulled_test</span><span class="p">,</span>
