@@ -22,7 +22,7 @@ ipyrad
 
    |downloads_ipyrad| |docker_ipyrad|
 
-   :versions: 0.9.7-0
+   :versions: 0.9.8-0, 0.9.7-0
    
    :depends bedtools: 
    :depends bwa: 
@@ -36,7 +36,7 @@ ipyrad
    :depends numpy: 
    :depends pandas: 
    :depends pysam: >=0.15
-   :depends python: 2.7.*
+   :depends python: 
    :depends requests: 
    :depends scipy: 
    :depends vsearch: >=2.13
