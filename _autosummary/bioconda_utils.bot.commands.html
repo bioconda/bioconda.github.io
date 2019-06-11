@@ -132,7 +132,7 @@
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_autobump" title="bioconda_utils.bot.commands.command_autobump"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_autobump</span></code></a>(ghapi, _issue_number, …)</p></td>
-<td><p>Run Autobump on recipes</p></td>
+<td><p>Run immediate Autobump on recipes</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_bump" title="bioconda_utils.bot.commands.command_bump"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_bump</span></code></a>(ghapi, issue_number, _user, *_args)</p></td>
 <td><p>Bump the build number of a recipe</p></td>
@@ -152,7 +152,10 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_recheck" title="bioconda_utils.bot.commands.command_recheck"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_recheck</span></code></a>(ghapi, issue_number, _user, …)</p></td>
 <td><p>Trigger check_check_run and check_circle_artifacts</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.permissions" title="bioconda_utils.bot.commands.permissions"><code class="xref py py-obj docutils literal notranslate"><span class="pre">permissions</span></code></a>([member, author, team])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_schedule" title="bioconda_utils.bot.commands.command_schedule"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_schedule</span></code></a>(ghapi, issue_number, user, …)</p></td>
+<td><p>Schedule autobump on CircleCI</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.permissions" title="bioconda_utils.bot.commands.permissions"><code class="xref py py-obj docutils literal notranslate"><span class="pre">permissions</span></code></a>([member, author, team])</p></td>
 <td><p>Decorator for commands checking for permissions</p></td>
 </tr>
 </tbody>
@@ -202,7 +205,7 @@
 <dl class="function">
 <dt id="bioconda_utils.bot.commands.command_autobump">
 <em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.commands.</code><code class="sig-name descname">command_autobump</code><span class="sig-paren">(</span><em class="sig-param">ghapi</em>, <em class="sig-param">_issue_number</em>, <em class="sig-param">_user</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_autobump"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_autobump" title="Permalink to this definition">¶</a></dt>
-<dd><p>Run Autobump on recipes</p>
+<dd><p>Run immediate Autobump on recipes</p>
 </dd></dl>
 
 <dl class="function">
@@ -239,6 +242,13 @@
 <dt id="bioconda_utils.bot.commands.command_recheck">
 <em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.commands.</code><code class="sig-name descname">command_recheck</code><span class="sig-paren">(</span><em class="sig-param">ghapi</em>, <em class="sig-param">issue_number</em>, <em class="sig-param">_user</em>, <em class="sig-param">*_args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_recheck"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_recheck" title="Permalink to this definition">¶</a></dt>
 <dd><p>Trigger check_check_run and check_circle_artifacts</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.bot.commands.command_schedule">
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.commands.</code><code class="sig-name descname">command_schedule</code><span class="sig-paren">(</span><em class="sig-param">ghapi</em>, <em class="sig-param">issue_number</em>, <em class="sig-param">user</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_schedule"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_schedule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Schedule autobump on CircleCI</p>
+<p>Takes the maximum number of recipes to update as optional argument.</p>
 </dd></dl>
 
 <dl class="function">

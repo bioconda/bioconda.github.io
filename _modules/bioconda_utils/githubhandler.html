@@ -357,13 +357,16 @@
             <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">is_team_member</span><span class="p">(</span><span class="n">username</span><span class="p">,</span> <span class="n">team</span><span class="p">)</span>
         <span class="k">return</span> <span class="kc">True</span></div>
 
-<div class="viewcode-block" id="GitHubHandler.search_issues"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.search_issues">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">search_issues</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">author</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">pr</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">issue</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+<div class="viewcode-block" id="GitHubHandler.search_issues"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.search_issues">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">search_issues</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">author</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">pr</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">issue</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">sha</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                            <span class="n">closed</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Search issues/PRs on our repos</span>
 
 <span class="sd">        Arguments:</span>
 <span class="sd">          author: login name of user to search</span>
+<span class="sd">          sha: SHA of commit to search for</span>
 <span class="sd">          pr: whether to consider only PRs</span>
 <span class="sd">          issue: whether to consider only non-PR issues</span>
+<span class="sd">          closed: search only closed if true, only open if false</span>
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="n">query</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;org:&quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">user</span><span class="p">]</span>
 
@@ -372,8 +375,16 @@
         <span class="k">elif</span> <span class="n">issue</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">pr</span><span class="p">:</span>
             <span class="n">query</span> <span class="o">+=</span> <span class="p">[</span><span class="s2">&quot;is:issue&quot;</span><span class="p">]</span>
 
+        <span class="k">if</span> <span class="n">closed</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">closed</span><span class="p">:</span>
+                <span class="n">query</span> <span class="o">+=</span> <span class="p">[</span><span class="s2">&quot;is:closed&quot;</span><span class="p">]</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">query</span> <span class="o">+=</span> <span class="p">[</span><span class="s2">&quot;is:open&quot;</span><span class="p">]</span>
+
         <span class="k">if</span> <span class="n">author</span><span class="p">:</span>
             <span class="n">query</span> <span class="o">+=</span> <span class="p">[</span><span class="s2">&quot;author:&quot;</span> <span class="o">+</span> <span class="n">author</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">sha</span><span class="p">:</span>
+            <span class="n">query</span> <span class="o">+=</span> <span class="p">[</span><span class="s2">&quot;sha:&quot;</span> <span class="o">+</span> <span class="n">sha</span><span class="p">]</span>
 
         <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">getitem</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">SEARCH_ISSUES</span> <span class="o">+</span> <span class="s1">&#39;+&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">query</span><span class="p">))</span></div>
 
@@ -396,6 +407,26 @@
         <span class="k">except</span> <span class="n">gidgethub</span><span class="o">.</span><span class="n">BadRequest</span><span class="p">:</span>
             <span class="k">return</span> <span class="kc">False</span>
         <span class="k">return</span> <span class="kc">True</span></div>
+
+<div class="viewcode-block" id="GitHubHandler.get_prs_from_sha"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_prs_from_sha">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_prs_from_sha</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">only_open</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]:</span>
+        <span class="sd">&quot;&quot;&quot;Searches for PRs matching **head_sha**</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">          head_sha: The head checksum to search for</span>
+<span class="sd">          only_open: If true, return only open PRs</span>
+<span class="sd">        Result:</span>
+<span class="sd">          List of PR numbers.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">pr_numbers</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">search_issues</span><span class="p">(</span><span class="n">pr</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">sha</span><span class="o">=</span><span class="n">head_sha</span><span class="p">,</span>
+                                          <span class="n">closed</span><span class="o">=</span><span class="kc">False</span> <span class="k">if</span> <span class="n">only_open</span> <span class="k">else</span> <span class="kc">None</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">pull</span> <span class="ow">in</span> <span class="n">result</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;items&#39;</span><span class="p">,</span> <span class="p">[]):</span>
+            <span class="n">pr_number</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">pull</span><span class="p">[</span><span class="s1">&#39;number&#39;</span><span class="p">])</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;checking </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">pr_number</span><span class="p">)</span>
+            <span class="n">full_pr</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_prs</span><span class="p">(</span><span class="n">number</span><span class="o">=</span><span class="n">pr_number</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">full_pr</span><span class="p">[</span><span class="s1">&#39;head&#39;</span><span class="p">][</span><span class="s1">&#39;sha&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="n">head_sha</span><span class="p">):</span>
+                <span class="n">pr_numbers</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">pr_number</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">pr_numbers</span></div>
 
     <span class="c1"># pylint: disable=too-many-arguments</span>
 <div class="viewcode-block" id="GitHubHandler.get_prs"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_prs">[docs]</a>    <span class="nd">@backoff</span><span class="o">.</span><span class="n">on_exception</span><span class="p">(</span><span class="n">backoff</span><span class="o">.</span><span class="n">fibo</span><span class="p">,</span> <span class="n">gidgethub</span><span class="o">.</span><span class="n">BadRequest</span><span class="p">,</span> <span class="n">max_tries</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
@@ -769,11 +800,11 @@
 <span class="sd">                    - bioconda-test</span>
 <span class="sd">                 enforce_admins:      # admins, too, must follow rules</span>
 <span class="sd">                    - enabled: True</span>
-<span class="sd">             required_approving_review_count: 1  # 1 - 6 valid</span>
-<span class="sd">             dismiss_stale_reviews: False  # auto dismiss approval after push</span>
-<span class="sd">             require_code_owner_reviews: False</span>
-<span class="sd">             required_pull_request_reviews:  # require approving review</span>
-<span class="sd">                 dismissal_restrictions:  # specify who may dismiss reviews</span>
+<span class="sd">             required_pull_request_reviews:          # require approving review</span>
+<span class="sd">                 required_approving_review_count: 1  # 1 - 6 valid</span>
+<span class="sd">                 dismiss_stale_reviews: False        # auto dismiss approval after push</span>
+<span class="sd">                 require_code_owner_reviews: False</span>
+<span class="sd">                 dismissal_restrictions:             # specify who may dismiss reviews</span>
 <span class="sd">                    users:</span>
 <span class="sd">                      - login: bla</span>
 <span class="sd">                    teams:</span>
@@ -785,6 +816,8 @@
 <span class="sd">                 - login: bla</span>
 <span class="sd">               teams:</span>
 <span class="sd">                 - id: 1</span>
+<span class="sd">             enforce_admins:</span>
+<span class="sd">               enabled: True  # apply to admins also</span>
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="n">var_data</span> <span class="o">=</span> <span class="n">copy</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">var_default</span><span class="p">)</span>
         <span class="n">var_data</span><span class="p">[</span><span class="s2">&quot;branch&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">branch</span>
@@ -801,6 +834,8 @@
 <span class="sd">          head_sha: if given, check that this is still the latest sha</span>
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="n">pr</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_prs</span><span class="p">(</span><span class="n">number</span><span class="o">=</span><span class="n">pr_number</span><span class="p">)</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Checking protections for PR #</span><span class="si">%s</span><span class="s2"> : </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">pr_number</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">)</span>
+
         <span class="c1"># check that no new commits were made</span>
         <span class="k">if</span> <span class="n">head_sha</span> <span class="ow">and</span> <span class="n">head_sha</span> <span class="o">!=</span> <span class="n">pr</span><span class="p">[</span><span class="s1">&#39;head&#39;</span><span class="p">][</span><span class="s1">&#39;sha&#39;</span><span class="p">]:</span>
             <span class="k">return</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;Most recent SHA in PR differs&quot;</span>
@@ -820,39 +855,36 @@
 
         <span class="c1"># Verify required_checks</span>
         <span class="n">required_checks</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">protections</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;required_status_checks&#39;</span><span class="p">,</span> <span class="p">{})</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;contexts&#39;</span><span class="p">,</span> <span class="p">[]))</span>
-        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Found required checks: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">required_checks</span><span class="p">)</span>
-
-        <span class="k">for</span> <span class="n">status</span> <span class="ow">in</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_statuses</span><span class="p">(</span><span class="n">head_sha</span><span class="p">):</span>
-            <span class="k">if</span> <span class="n">status</span><span class="p">[</span><span class="s1">&#39;state&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;success&#39;</span><span class="p">:</span>
-                <span class="n">required_checks</span><span class="o">.</span><span class="n">discard</span><span class="p">(</span><span class="n">status</span><span class="p">[</span><span class="s1">&#39;context&#39;</span><span class="p">])</span>
-        <span class="k">for</span> <span class="n">check</span> <span class="ow">in</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_check_runs</span><span class="p">(</span><span class="n">head_sha</span><span class="p">):</span>
-            <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Found check </span><span class="si">%s</span><span class="s2"> with state </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">check</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">],</span> <span class="n">check</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;conclusion&#39;</span><span class="p">))</span>
-            <span class="k">if</span> <span class="n">check</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;conclusion&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="s2">&quot;success&quot;</span><span class="p">:</span>
-                <span class="n">required_checks</span><span class="o">.</span><span class="n">discard</span><span class="p">(</span><span class="n">check</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">])</span>
         <span class="k">if</span> <span class="n">required_checks</span><span class="p">:</span>
-            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Missing checks for #</span><span class="si">%s</span><span class="s2">: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">pr_number</span><span class="p">,</span> <span class="n">required_checks</span><span class="p">)</span>
-            <span class="k">return</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;Not all required checks have passed&quot;</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Verifying </span><span class="si">%s</span><span class="s2"> required checks&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">required_checks</span><span class="p">))</span>
+            <span class="k">for</span> <span class="n">status</span> <span class="ow">in</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_statuses</span><span class="p">(</span><span class="n">head_sha</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">status</span><span class="p">[</span><span class="s1">&#39;state&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;success&#39;</span><span class="p">:</span>
+                    <span class="n">required_checks</span><span class="o">.</span><span class="n">discard</span><span class="p">(</span><span class="n">status</span><span class="p">[</span><span class="s1">&#39;context&#39;</span><span class="p">])</span>
+            <span class="k">for</span> <span class="n">check</span> <span class="ow">in</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_check_runs</span><span class="p">(</span><span class="n">head_sha</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">check</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;conclusion&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="s2">&quot;success&quot;</span><span class="p">:</span>
+                    <span class="n">required_checks</span><span class="o">.</span><span class="n">discard</span><span class="p">(</span><span class="n">check</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">])</span>
+            <span class="k">if</span> <span class="n">required_checks</span><span class="p">:</span>
+                <span class="k">return</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;Not all required checks have passed&quot;</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;All status checks passed for #</span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">pr_number</span><span class="p">)</span>
 
         <span class="c1"># Verify required reviews</span>
-        <span class="n">reviews_required</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">protections</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;required_approving_review_count&#39;</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
-        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Found required reviews: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">reviews_required</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">reviews_required</span><span class="p">:</span>
-            <span class="n">reviews</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_pr_reviews</span><span class="p">(</span><span class="n">pr_number</span><span class="p">)</span>
+        <span class="n">required_reviews</span> <span class="o">=</span> <span class="n">protections</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;required_pull_request_reviews&#39;</span><span class="p">,</span> <span class="p">{})</span>
+        <span class="k">if</span> <span class="n">required_reviews</span><span class="p">:</span>
+            <span class="n">required_count</span> <span class="o">=</span> <span class="n">required_reviews</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;required_approving_review_count&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Checking for </span><span class="si">%s</span><span class="s2"> approvng reviews and no change requests&quot;</span><span class="p">,</span>
+                        <span class="n">required_count</span><span class="p">)</span>
             <span class="n">approving_count</span> <span class="o">=</span> <span class="mi">0</span>
-            <span class="k">for</span> <span class="n">review</span> <span class="ow">in</span> <span class="n">reviews</span><span class="p">:</span>
-                <span class="k">if</span> <span class="n">review</span><span class="p">[</span><span class="s1">&#39;state&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">ReviewState</span><span class="o">.</span><span class="n">CHANGES_REQUESTED</span><span class="p">:</span>
-                    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;  failed - a reviewer hs requested changes&quot;</span><span class="p">)</span>
-                    <span class="k">return</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;A reviewer has requested changes&quot;</span>
-                <span class="k">if</span> <span class="n">review</span><span class="p">[</span><span class="s1">&#39;state&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">ReviewState</span><span class="o">.</span><span class="n">APPROVED</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">review</span> <span class="ow">in</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_pr_reviews</span><span class="p">(</span><span class="n">pr_number</span><span class="p">):</span>
+                <span class="n">user</span> <span class="o">=</span> <span class="n">review</span><span class="p">[</span><span class="s1">&#39;user&#39;</span><span class="p">][</span><span class="s1">&#39;login&#39;</span><span class="p">]</span>
+                <span class="k">if</span> <span class="n">review</span><span class="p">[</span><span class="s1">&#39;state&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">ReviewState</span><span class="o">.</span><span class="n">CHANGES_REQUESTED</span><span class="o">.</span><span class="n">name</span><span class="p">:</span>
+                    <span class="k">return</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;Changes have been requested by `@</span><span class="si">{user}</span><span class="s2">`&quot;</span>
+                <span class="k">if</span> <span class="n">review</span><span class="p">[</span><span class="s1">&#39;state&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">ReviewState</span><span class="o">.</span><span class="n">APPROVED</span><span class="o">.</span><span class="n">name</span><span class="p">:</span>
+                    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;PR #</span><span class="si">%s</span><span class="s2"> was approved by @</span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">pr_number</span><span class="p">,</span> <span class="n">user</span><span class="p">)</span>
                     <span class="n">approving_count</span> <span class="o">+=</span> <span class="mi">1</span>
-            <span class="k">if</span> <span class="n">approving_count</span> <span class="o">&lt;</span> <span class="n">reviews_required</span><span class="p">:</span>
-                <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;  failed - only </span><span class="si">%s</span><span class="s2">/</span><span class="si">%s</span><span class="s2"> reviews approved&quot;</span><span class="p">,</span>
-                            <span class="n">approving_count</span><span class="p">,</span> <span class="n">reviews_required</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">approving_count</span> <span class="o">&lt;</span> <span class="n">required_count</span><span class="p">:</span>
                 <span class="k">return</span> <span class="kc">False</span><span class="p">,</span> <span class="p">(</span><span class="n">f</span><span class="s2">&quot;Insufficient number of approving reviews&quot;</span>
-                               <span class="n">f</span><span class="s2">&quot;(</span><span class="si">{approving_count}</span><span class="s2">/</span><span class="si">{reviews_required}</span><span class="s2">)&quot;</span><span class="p">)</span>
-            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Reviews good: </span><span class="si">%s</span><span class="s2">/</span><span class="si">%s</span><span class="s2"> and no changes requested&quot;</span><span class="p">,</span>
-                        <span class="n">approving_count</span><span class="p">,</span> <span class="n">reviews_required</span><span class="p">)</span>
-
+                               <span class="n">f</span><span class="s2">&quot;(</span><span class="si">{approving_count}</span><span class="s2">/</span><span class="si">{required_count}</span><span class="s2">)&quot;</span><span class="p">)</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;PR #</span><span class="si">%s</span><span class="s2"> is passing configured checks&quot;</span><span class="p">,</span> <span class="n">pr_number</span><span class="p">)</span>
         <span class="k">return</span> <span class="kc">True</span><span class="p">,</span> <span class="s2">&quot;LGTM&quot;</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.get_contents"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.get_contents">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_contents</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">ref</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>

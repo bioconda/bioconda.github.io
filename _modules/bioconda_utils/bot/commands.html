@@ -249,7 +249,6 @@
 
 <div class="viewcode-block" id="command_merge"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_merge">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;merge&quot;</span><span class="p">)</span>
 <span class="nd">@permissions</span><span class="p">(</span><span class="n">member</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="c1">#@permissions(author=False, team=&quot;core&quot;)</span>
 <span class="k">async</span> <span class="k">def</span> <span class="nf">command_merge</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">user</span><span class="p">,</span> <span class="o">*</span><span class="n">_args</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Merge PR&quot;&quot;&quot;</span>
     <span class="n">comment_id</span> <span class="o">=</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">create_comment</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="s2">&quot;Scheduled Upload &amp; Merge&quot;</span><span class="p">)</span>
@@ -263,9 +262,44 @@
 <div class="viewcode-block" id="command_autobump"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_autobump">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;autobump&quot;</span><span class="p">)</span>
 <span class="nd">@permissions</span><span class="p">(</span><span class="n">member</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="k">async</span> <span class="k">def</span> <span class="nf">command_autobump</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">_issue_number</span><span class="p">,</span> <span class="n">_user</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Run Autobump on recipes&quot;&quot;&quot;</span>
+    <span class="sd">&quot;&quot;&quot;Run immediate Autobump on recipes&quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="nb">any</span><span class="p">(</span><span class="s1">&#39;*&#39;</span> <span class="ow">in</span> <span class="n">arg</span> <span class="k">for</span> <span class="n">arg</span> <span class="ow">in</span> <span class="n">args</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;Wildcards in autobump not allowed&quot;</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;Please don&#39;t schedule more than 5 updates at once&quot;</span>
     <span class="n">tasks</span><span class="o">.</span><span class="n">run_autobump</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">args</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span>
     <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;Scheduled autobump check of recipe(s) {&#39;, &#39;.join(args)}&quot;</span></div>
+
+
+<div class="viewcode-block" id="command_schedule"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_schedule">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;schedule&quot;</span><span class="p">)</span>
+<span class="nd">@permissions</span><span class="p">(</span><span class="n">team</span><span class="o">=</span><span class="s2">&quot;core&quot;</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">command_schedule</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">user</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Schedule autobump on CircleCI</span>
+
+<span class="sd">    Takes the maximum number of recipes to update as optional argument.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">err</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">args</span><span class="p">:</span>
+        <span class="n">err</span> <span class="o">=</span> <span class="s2">&quot;Schedule what?&quot;</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;autobump&quot;</span><span class="p">:</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">:</span>
+                <span class="n">err</span> <span class="o">=</span> <span class="s2">&quot;Too many arguments.&quot;</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+                    <span class="n">params</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;AUTOBUMP_OPTS&#39;</span><span class="p">:</span> <span class="n">f</span><span class="s1">&#39;--max-updates {int(args[1])}&#39;</span><span class="p">}</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">params</span> <span class="o">=</span> <span class="kc">None</span>
+                <span class="kn">from</span> <span class="nn">.config</span> <span class="k">import</span> <span class="n">CIRCLE_TOKEN</span>
+                <span class="kn">from</span> <span class="nn">..circleci</span> <span class="k">import</span> <span class="n">AsyncCircleAPI</span>
+                <span class="n">capi</span> <span class="o">=</span> <span class="n">AsyncCircleAPI</span><span class="p">(</span><span class="n">ghapi</span><span class="o">.</span><span class="n">session</span><span class="p">,</span> <span class="n">token</span><span class="o">=</span><span class="n">CIRCLE_TOKEN</span><span class="p">)</span>
+                <span class="n">res</span> <span class="o">=</span> <span class="k">await</span> <span class="n">capi</span><span class="o">.</span><span class="n">trigger_job</span><span class="p">(</span><span class="n">project</span><span class="o">=</span><span class="s1">&#39;bioconda-utils&#39;</span><span class="p">,</span> <span class="n">job</span><span class="o">=</span><span class="s1">&#39;autobump&#39;</span><span class="p">,</span>
+                                             <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">)</span>
+                <span class="k">return</span> <span class="s2">&quot;Scheduled Autobump: &quot;</span> <span class="o">+</span> <span class="n">res</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">err</span> <span class="o">=</span> <span class="s2">&quot;Unknown command&quot;</span>
+    <span class="k">return</span> <span class="n">err</span> <span class="o">+</span> <span class="p">(</span><span class="s2">&quot; Options are:</span><span class="se">\n</span><span class="s2">&quot;</span>
+                  <span class="s2">&quot; - `autobump [n]`: schedule *n* updates of autobump&quot;</span><span class="p">)</span></div>
 </pre></div>
 
           </div>

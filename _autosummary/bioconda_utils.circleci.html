@@ -229,6 +229,22 @@ may exist e.g. if a rebuild was triggered.</p>
 </dd></dl>
 
 <dl class="method">
+<dt id="bioconda_utils.circleci.CircleAPI.trigger_job">
+<em class="property">async </em><code class="sig-name descname">trigger_job</code><span class="sig-paren">(</span><em class="sig-param">branch='master'</em>, <em class="sig-param">project=None</em>, <em class="sig-param">job=None</em>, <em class="sig-param">params=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#CircleAPI.trigger_job"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.CircleAPI.trigger_job" title="Permalink to this definition">¶</a></dt>
+<dd><p>Trigger specific job</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>branch</strong> – Must be <code class="docutils literal notranslate"><span class="pre">pull/123</span></code> if on fork, otherwise name of branch</p></li>
+<li><p><strong>project</strong> – Optionally the project (repo) name</p></li>
+<li><p><strong>job</strong> – Specific job from circle/config.yml to run</p></li>
+<li><p><strong>params</strong> – Optional dict of parameters (envvars) to override</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
 <dt id="bioconda_utils.circleci.CircleAPI.trigger_rebuild">
 <em class="property">async </em><code class="sig-name descname">trigger_rebuild</code><span class="sig-paren">(</span><em class="sig-param">branch</em>, <em class="sig-param">sha</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/circleci.html#CircleAPI.trigger_rebuild"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.circleci.CircleAPI.trigger_rebuild" title="Permalink to this definition">¶</a></dt>
 <dd><p>Trigger rebuilding <strong>sha</strong> on <strong>branch</strong>.</p>

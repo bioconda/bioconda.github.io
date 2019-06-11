@@ -22,11 +22,10 @@ collect-columns
 
    |downloads_collect-columns| |docker_collect-columns|
 
-   :versions: 0.1.1-0
+   :versions: 0.2.0-1, 0.2.0-0, 0.1.1-0
    
    :depends bcbio-gff: 
    :depends biopython: 
-   :depends pandas: >=0.23
    :depends python: >=3.5
    :requirements:
 

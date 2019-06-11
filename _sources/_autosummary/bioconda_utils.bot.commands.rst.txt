@@ -19,6 +19,7 @@ commands
       command_merge
       command_rebuild
       command_recheck
+      command_schedule
       permissions
    
    

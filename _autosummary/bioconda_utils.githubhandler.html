@@ -482,11 +482,11 @@ in dict.</p>
        <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">bioconda-test</span>
     <span class="nt">enforce_admins</span><span class="p">:</span>      <span class="c1"># admins, too, must follow rules</span>
        <span class="p p-Indicator">-</span> <span class="nt">enabled</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">True</span>
-<span class="nt">required_approving_review_count</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">1</span>  <span class="c1"># 1 - 6 valid</span>
-<span class="nt">dismiss_stale_reviews</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">False</span>  <span class="c1"># auto dismiss approval after push</span>
-<span class="nt">require_code_owner_reviews</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">False</span>
-<span class="nt">required_pull_request_reviews</span><span class="p">:</span>  <span class="c1"># require approving review</span>
-    <span class="nt">dismissal_restrictions</span><span class="p">:</span>  <span class="c1"># specify who may dismiss reviews</span>
+<span class="nt">required_pull_request_reviews</span><span class="p">:</span>          <span class="c1"># require approving review</span>
+    <span class="nt">required_approving_review_count</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">1</span>  <span class="c1"># 1 - 6 valid</span>
+    <span class="nt">dismiss_stale_reviews</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">False</span>        <span class="c1"># auto dismiss approval after push</span>
+    <span class="nt">require_code_owner_reviews</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">False</span>
+    <span class="nt">dismissal_restrictions</span><span class="p">:</span>             <span class="c1"># specify who may dismiss reviews</span>
        <span class="nt">users</span><span class="p">:</span>
          <span class="p p-Indicator">-</span> <span class="nt">login</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">bla</span>
        <span class="nt">teams</span><span class="p">:</span>
@@ -498,6 +498,8 @@ in dict.</p>
     <span class="p p-Indicator">-</span> <span class="nt">login</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">bla</span>
   <span class="nt">teams</span><span class="p">:</span>
     <span class="p p-Indicator">-</span> <span class="nt">id</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">1</span>
+<span class="nt">enforce_admins</span><span class="p">:</span>
+  <span class="nt">enabled</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">True</span>  <span class="c1"># apply to admins also</span>
 </pre></div>
 </div>
 </p>
@@ -624,6 +626,29 @@ and <code class="docutils literal notranslate"><span class="pre">commit_id</span
 </dd>
 <dt class="field-even">Return type</dt>
 <dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.githubhandler.GitHubHandler.get_prs_from_sha">
+<em class="property">async </em><code class="sig-name descname">get_prs_from_sha</code><span class="sig-paren">(</span><em class="sig-param">head_sha</em>, <em class="sig-param">only_open=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.get_prs_from_sha"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.get_prs_from_sha" title="Permalink to this definition">¶</a></dt>
+<dd><p>Searches for PRs matching <strong>head_sha</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>head_sha</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – The head checksum to search for</p></li>
+<li><p><strong>only_open</strong> – If true, return only open PRs</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="simple">
+<dt>Result:</dt><dd><p>List of PR numbers.</p>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>]</p>
 </dd>
 </dl>
 </dd></dl>
@@ -870,14 +895,16 @@ and <code class="docutils literal notranslate"><span class="pre">identifier</spa
 
 <dl class="method">
 <dt id="bioconda_utils.githubhandler.GitHubHandler.search_issues">
-<em class="property">async </em><code class="sig-name descname">search_issues</code><span class="sig-paren">(</span><em class="sig-param">author=None</em>, <em class="sig-param">pr=False</em>, <em class="sig-param">issue=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.search_issues"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.search_issues" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">search_issues</code><span class="sig-paren">(</span><em class="sig-param">author=None</em>, <em class="sig-param">pr=False</em>, <em class="sig-param">issue=False</em>, <em class="sig-param">sha=None</em>, <em class="sig-param">closed=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/githubhandler.html#GitHubHandler.search_issues"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.search_issues" title="Permalink to this definition">¶</a></dt>
 <dd><p>Search issues/PRs on our repos</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>author</strong> – login name of user to search</p></li>
+<li><p><strong>sha</strong> – SHA of commit to search for</p></li>
 <li><p><strong>pr</strong> – whether to consider only PRs</p></li>
 <li><p><strong>issue</strong> – whether to consider only non-PR issues</p></li>
+<li><p><strong>closed</strong> – search only closed if true, only open if false</p></li>
 </ul>
 </dd>
 </dl>
