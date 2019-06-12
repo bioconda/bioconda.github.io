@@ -11,8 +11,8 @@ mofapy
 
    Multi\-Omics Factor Analysis
 
-   :homepage: https://github.com/PMBio/MOFA
-   :license: MIT / MIT
+   :homepage: https://github.com/bioFAM/MOFA
+   :license: LGPL / LGPL 3.0
    :recipe: /`mofapy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mofapy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mofapy/meta.yaml>`_
 
    
@@ -22,11 +22,11 @@ mofapy
 
    |downloads_mofapy| |docker_mofapy|
 
-   :versions: 1.1.1-0
+   :versions: 1.2-0, 1.1.1-0
    
    :depends argparse: 
    :depends h5py: 
-   :depends numpy: 1.11.*
+   :depends numpy: 
    :depends pandas: 
    :depends python: 
    :depends scikit-learn: 
