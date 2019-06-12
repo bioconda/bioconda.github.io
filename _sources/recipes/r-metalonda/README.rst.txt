@@ -22,7 +22,7 @@ r-metalonda
 
    |downloads_r-metalonda| |docker_r-metalonda|
 
-   :versions: 1.1.0-5, 1.1.0-4, 1.1.0-3, 1.1.0-2, 1.1.0-1, 1.1.0-0
+   :versions: 1.1.5-0, 1.1.0-5, 1.1.0-4, 1.1.0-3, 1.1.0-2, 1.1.0-1, 1.1.0-0
    
    :depends bioconductor-deseq2: >=1.20.0,<1.22.0
    :depends bioconductor-edger: 
@@ -33,6 +33,8 @@ r-metalonda
    :depends r-ggplot2: 
    :depends r-gss: 
    :depends r-plyr: 
+   :depends r-pracma: 
+   :depends r-zoo: 
    :requirements:
 
    .. rubric:: Installation

@@ -22,22 +22,21 @@ plastid
 
    |downloads_plastid| |docker_plastid|
 
-   :versions: 0.4.8-1, 0.4.8-0, 0.4.7-1, 0.4.7-0
+   :versions: 0.4.8-4, 0.4.8-1, 0.4.8-0, 0.4.7-1, 0.4.7-0
    
    :depends biopython: >=1.64
    :depends bowtie: 
-   :depends cython: >=0.22.0
    :depends fastx_toolkit: 
-   :depends libgcc: 
+   :depends libgcc-ng: >=7.3.0
    :depends matplotlib: >=1.4.0
-   :depends numpy: >=1.9.0,<1.12.0
+   :depends numpy: >=1.11.3,<2.0a0
    :depends pandas: >=0.17.0
-   :depends pysam: >=0.8.4
-   :depends python: 2.7*
+   :depends pysam: >=0.15.2,<1.0a0
+   :depends python: >=2.7,<2.8.0a0
    :depends scipy: >=0.15.1
    :depends termcolor: 
    :depends twobitreader: >=3.0.0
-   :depends zlib: 1.2.11*
+   :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
    .. rubric:: Installation
