@@ -22,14 +22,19 @@ thapbi-pict
 
    |downloads_thapbi-pict| |docker_thapbi-pict|
 
-   :versions: 0.2.1-0, 0.1.12-0, 0.1.10-0, 0.1.6-0
+   :versions: 0.2.2-0, 0.2.1-0, 0.1.12-0, 0.1.10-0, 0.1.6-0
    
    :depends biopython: >=1.73
    :depends blast: 
    :depends cutadapt: 
    :depends flash: 
+   :depends graphviz: 
    :depends hmmer: 
+   :depends matplotlib: 
+   :depends networkx: 
+   :depends pydot: 
    :depends python: >=3.5
+   :depends python-levenshtein: 
    :depends sqlalchemy: 
    :depends swarm: 
    :depends trimmomatic: 

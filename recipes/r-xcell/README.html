@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;riborex&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;r-xcell&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -103,66 +103,84 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="riborex">
+  <div class="section" id="r-xcell">
 <dl class="recipe">
-<dt id="recipe-riborex">
-<em class="property">recipe </em><code class="sig-name descname">riborex</code><a class="headerlink" href="#recipe-riborex" title="Permalink to this definition">¶</a></dt>
-<dd><p>Riborex is a R package for identification of differential translation from Ribo-seq data.</p>
+<dt id="recipe-r-xcell">
+<em class="property">recipe </em><code class="sig-name descname">r-xcell</code><a class="headerlink" href="#recipe-r-xcell" title="Permalink to this definition">¶</a></dt>
+<dd><p>Estimate immune cell proportions from gene expression data</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/smithlabcode/riborex">https://github.com/smithlabcode/riborex</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/dviraran/xCell">https://github.com/dviraran/xCell</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>GPL-3</p>
+<dd class="field-even"><p>GPL / GPL-3</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/riborex">riborex</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/riborex/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-xcell">r-xcell</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-xcell/meta.yaml">meta.yaml</a></p>
+</dd>
+<dt class="field-even">Links</dt>
+<dd class="field-even"><p>doi: <a class="reference external" href="https://doi.org/10.1186/s13059-017-1349-1">10.1186/s13059-017-1349-1</a></p>
 </dd>
 </dl>
+<p>“Tissues are a complex milieu consisting of numerous cell types. In cancer, understanding the cellular heterogeneity in the tumor microenvironment is an emerging field of research. Numerous methods have been published in recent years for the enumeration of cell subsets from tissue expression profiles. However, the available methods suffer from three major problems: inferring cell subset based on gene sets learned and verified from limited sources; displaying only partial portrayal of the full cellular heterogeneity; and insufficient validation in mixed tissues. The xCell package performs cell type enrichment analysis from gene expression data for 64 immune and stroma cell types. xCell is a gene signatures-based method learned from thousands of pure cell types from various sources. xCell applies a novel technique for reducing associations between closley related cell types. xCell signatures were validated using extensive in-silico simulations and also cytometry immunophenotyping, and were shown to outperform previous methods. xCell allows researchers to reliably portray the cellular heterogeneity landscape of tissue expression profiles.”</p>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-riborex">
-<em class="property">package </em><code class="sig-name descname">riborex</code><a class="headerlink" href="#package-riborex" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/riborex"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/riborex.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/riborex"><img alt="docker_riborex" src="https://quay.io/repository/biocontainers/riborex/status" /></a></p>
+<dt id="package-r-xcell">
+<em class="property">package </em><code class="sig-name descname">r-xcell</code><a class="headerlink" href="#package-r-xcell" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-xcell"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-xcell.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-xcell"><img alt="docker_r-xcell" src="https://quay.io/repository/biocontainers/r-xcell/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>2.4.0-0, 2.3.4-0</p>
+<dd class="field-odd"><p>1.2-0</p>
 </dd>
-<dt class="field-even">Depends bioconductor-biobase</dt>
+<dt class="field-even">Depends bioconductor-gseabase</dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">Depends bioconductor-deseq2</dt>
+<dt class="field-odd">Depends bioconductor-gsva</dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">Depends bioconductor-edger</dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">Depends r-base</dt>
-<dd class="field-odd"><p>&gt;=3.4.1,&lt;3.4.2.0a0</p>
+<dt class="field-even">Depends libgcc-ng</dt>
+<dd class="field-even"><p>&gt;=7.3.0</p>
 </dd>
-<dt class="field-even">Depends r-fdrtool</dt>
+<dt class="field-odd">Depends libstdcxx-ng</dt>
+<dd class="field-odd"><p>&gt;=7.3.0</p>
+</dd>
+<dt class="field-even">Depends r-base</dt>
+<dd class="field-even"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
+</dd>
+<dt class="field-odd">Depends r-curl</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-digest</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-mass</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-pracma</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends r-quadprog</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">Depends r-roxygen2</dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">Requirements</dt>
 <dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">riborex</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">xcell</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">riborex</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">xcell</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">riborex</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">r</span><span class="o">-</span><span class="n">xcell</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/riborex?tab=tags">riborex/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/r-xcell?tab=tags">r-xcell/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/riborex/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/riborex/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-xcell/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-xcell/README.html)
 </pre></div>
 </div>
 </div>
@@ -183,14 +201,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/riborex/README.rst.txt"
+      <a href="../../_sources/recipes/r-xcell/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/riborex/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/r-xcell/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

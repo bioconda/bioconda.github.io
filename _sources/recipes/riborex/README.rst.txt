@@ -22,7 +22,7 @@ riborex
 
    |downloads_riborex| |docker_riborex|
 
-   :versions: 2.3.4-0
+   :versions: 2.4.0-0, 2.3.4-0
    
    :depends bioconductor-biobase: 
    :depends bioconductor-deseq2: 

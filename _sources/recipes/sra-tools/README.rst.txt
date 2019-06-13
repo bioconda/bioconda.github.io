@@ -9,22 +9,25 @@ sra-tools
 .. conda:recipe:: sra-tools
    :replaces_section_title:
 
-   The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives.
+   SRA Toolkit and SDK from NCBI
 
    :homepage: https://github.com/ncbi/sra-tools
    :license: Public Domain
    :recipe: /`sra-tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sra-tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sra-tools/meta.yaml>`_
 
-   
+   The SRA Toolkit and SDK from NCBI is a collection of tools and libraries
+   for using data in the INSDC Sequence Read Archives.
+
 
 
 .. conda:package:: sra-tools
 
    |downloads_sra-tools| |docker_sra-tools|
 
-   :versions: 2.9.1_1-0, 2.9.1-0, 2.9.0-1, 2.8.2-1, 2.8.2-0, 2.8.1-0, 2.8.0-0, 2.7.0-0, 2.6.3-0, 2.6.2-0
+   :versions: 2.9.6-0, 2.9.1_1-0, 2.9.1-0, 2.9.0-1, 2.8.2-1, 2.8.2-0, 2.8.1-0, 2.8.0-0, 2.7.0-0, 2.6.3-0, 2.6.2-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation
