@@ -22,9 +22,9 @@ scprep
 
    |downloads_scprep| |docker_scprep|
 
-   :versions: 0.12.0-0, 0.8.1-0, 0.7.1-0
+   :versions: 0.12.1-0, 0.12.0-0, 0.8.1-0, 0.7.1-0
    
-   :depends decorator: 
+   :depends decorator: >=4.3.0
    :depends numpy: >=1.10.0
    :depends pandas: >=0.19.0,<0.24
    :depends python: >=3.5

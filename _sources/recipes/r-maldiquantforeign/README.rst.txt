@@ -22,7 +22,7 @@ r-maldiquantforeign
 
    |downloads_r-maldiquantforeign| |docker_r-maldiquantforeign|
 
-   :versions: 0.11.5-2, 0.11.5-1, 0.11.5-0, 0.11-0, 0.10-0
+   :versions: 0.12-0, 0.11.5-2, 0.11.5-1, 0.11.5-0, 0.11-0, 0.10-0
    
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-base64enc: 

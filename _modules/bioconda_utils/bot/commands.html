@@ -286,10 +286,12 @@
             <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">:</span>
                 <span class="n">err</span> <span class="o">=</span> <span class="s2">&quot;Too many arguments.&quot;</span>
             <span class="k">else</span><span class="p">:</span>
-                <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
-                    <span class="n">params</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;AUTOBUMP_OPTS&#39;</span><span class="p">:</span> <span class="n">f</span><span class="s1">&#39;--max-updates {int(args[1])}&#39;</span><span class="p">}</span>
+                <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
+                    <span class="n">max_updates</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
                 <span class="k">else</span><span class="p">:</span>
-                    <span class="n">params</span> <span class="o">=</span> <span class="kc">None</span>
+                    <span class="n">max_updates</span> <span class="o">=</span> <span class="mi">5</span>
+                <span class="n">params</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;AUTOBUMP_OPTS&#39;</span><span class="p">:</span> <span class="n">f</span><span class="s1">&#39;--max-updates </span><span class="si">{max_updates}</span><span class="s1">&#39;</span><span class="p">}</span>
+
                 <span class="kn">from</span> <span class="nn">.config</span> <span class="k">import</span> <span class="n">CIRCLE_TOKEN</span>
                 <span class="kn">from</span> <span class="nn">..circleci</span> <span class="k">import</span> <span class="n">AsyncCircleAPI</span>
                 <span class="n">capi</span> <span class="o">=</span> <span class="n">AsyncCircleAPI</span><span class="p">(</span><span class="n">ghapi</span><span class="o">.</span><span class="n">session</span><span class="p">,</span> <span class="n">token</span><span class="o">=</span><span class="n">CIRCLE_TOKEN</span><span class="p">)</span>
@@ -299,7 +301,7 @@
         <span class="k">else</span><span class="p">:</span>
             <span class="n">err</span> <span class="o">=</span> <span class="s2">&quot;Unknown command&quot;</span>
     <span class="k">return</span> <span class="n">err</span> <span class="o">+</span> <span class="p">(</span><span class="s2">&quot; Options are:</span><span class="se">\n</span><span class="s2">&quot;</span>
-                  <span class="s2">&quot; - `autobump [n]`: schedule *n* updates of autobump&quot;</span><span class="p">)</span></div>
+                  <span class="s2">&quot; - `autobump [n=5]`: schedule *n* updates of autobump&quot;</span><span class="p">)</span></div>
 </pre></div>
 
           </div>
@@ -312,7 +314,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>
