@@ -22,11 +22,12 @@ socru
 
    |downloads_socru| |docker_socru|
 
-   :versions: 2.0.0-0, 1.0.1-0, 1.0.0-0, 0.0.5-0
+   :versions: 2.1.0-0, 2.0.0-0, 1.0.1-0, 1.0.0-0, 0.0.5-0
    
    :depends barrnap: 
    :depends biopython: >=1.68
    :depends blast: 
+   :depends matplotlib: 
    :depends numpy: 
    :depends python: >=3
    :depends pyyaml: 

@@ -9,20 +9,22 @@ mtbseq
 .. conda:recipe:: mtbseq
    :replaces_section_title:
 
-   Pipeline for mapping\, variant calling and detection of resistance mediating and phylogenetic variants from illumina whole genome sequence data of Mycobacterium tuberculosis complex isolates
+   Pipeline for WGS analysis of M. tuberculosis
 
    :homepage: https://github.com/ngs-fzb/MTBseq_source
    :license: GPLv3
    :recipe: /`mtbseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mtbseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mtbseq/meta.yaml>`_
 
-   
+   MTBseq is a semi\-automated pipeline for mapping\, variant calling and
+   detection of resistance mediating and phylogenetic variants from Illumina
+   whole genome sequence data of Mycobacterium tuberculosis complex isolates
 
 
 .. conda:package:: mtbseq
 
    |downloads_mtbseq| |docker_mtbseq|
 
-   :versions: 1.0.3-1, 1.0.3-0
+   :versions: 1.0.4-0, 1.0.3-1, 1.0.3-0
    
    :depends bwa: 0.7.17
    :depends gatk: 3.8

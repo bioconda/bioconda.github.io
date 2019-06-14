@@ -22,32 +22,31 @@ cgat-apps
 
    |downloads_cgat-apps| |docker_cgat-apps|
 
-   :versions: 0.5.4-0, 0.5.3-0
+   :versions: 0.5.5-0, 0.5.4-0, 0.5.3-0
    
    :depends alignlib-lite: 
    :depends bedtools: 
    :depends biopython: 
    :depends cgatcore: 
    :depends coreutils: 
-   :depends cython: 0.29.*
    :depends future: 
    :depends grep: 
    :depends libgcc-ng: >=7.3.0
    :depends libpng: >=1.6.35,<1.7.0a0
    :depends libstdcxx-ng: >=7.3.0
    :depends matplotlib: 
-   :depends numpy: 
+   :depends numpy: >=1.9.3,<2.0a0
    :depends pandas: 
    :depends pybedtools: 
    :depends pybigwig: 
-   :depends pysam: 
+   :depends pysam: >=0.15.2,<0.15.3.0a0
    :depends python: >=3.6,<3.7.0a0
    :depends python-lzo: 
    :depends pyyaml: 
    :depends quicksect: 
    :depends scipy: 
-   :depends setuptools: 
    :depends six: 
+   :depends sortedcontainers: 
    :depends ucsc-bedgraphtobigwig: 
    :depends ucsc-bedtobigbed: 
    :depends ucsc-wigtobigwig: 

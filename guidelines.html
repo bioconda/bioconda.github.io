@@ -276,6 +276,14 @@ added is probably sufficient. The exception is when the package also installs
 a command-line tool, in which case that should be tested as well.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
+<p><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">pypi</span></code> only works with packages that have a source
+distribution produced with <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">setup.py</span> <span class="pre">sdist</span></code>. Packages on PyPI
+which only have a wheel will not work with <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">pypi</span></code>.
+Packages containing only “built source” distributions produced with
+<code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">setup.py</span> <span class="pre">bdist</span></code> on UNIX will likewise not work.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
 <p>Make sure you have a conda-build version 3.x when running
 <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">pypi</span> <span class="pre">&lt;packagename&gt;</span></code>. If you are still using conda-build
 2.x, either update your conda-build package, or follow the migration

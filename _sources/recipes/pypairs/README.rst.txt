@@ -24,7 +24,7 @@ pypairs
 
    |downloads_pypairs| |docker_pypairs|
 
-   :versions: 3.1.0-0, 3.0.9-0, 2.0.6-0, 2.0.5-0
+   :versions: 3.1.1-0, 3.1.0-0, 3.0.9-0, 2.0.6-0, 2.0.5-0
    
    :depends anndata: >=0.6.13
    :depends colorama: 

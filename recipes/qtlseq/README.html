@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;mutmap&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;qtlseq&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -103,34 +103,34 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="mutmap">
+  <div class="section" id="qtlseq">
 <dl class="recipe">
-<dt id="recipe-mutmap">
-<em class="property">recipe </em><code class="sig-name descname">mutmap</code><a class="headerlink" href="#recipe-mutmap" title="Permalink to this definition">¶</a></dt>
-<dd><p>MutMap: pipeline to identify causative mutations responsible for a phenotype</p>
+<dt id="recipe-qtlseq">
+<em class="property">recipe </em><code class="sig-name descname">qtlseq</code><a class="headerlink" href="#recipe-qtlseq" title="Permalink to this definition">¶</a></dt>
+<dd><p>QTL-seq: pipeline to identify causative mutations responsible for a phenotype</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/YuSugihara/MutMap">https://github.com/YuSugihara/MutMap</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/YuSugihara/QTL-seq">https://github.com/YuSugihara/QTL-seq</a></p>
 </dd>
 <dt class="field-even">License</dt>
 <dd class="field-even"><p>GPL / GPL-3.0-or-later</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mutmap">mutmap</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mutmap/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qtlseq">qtlseq</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qtlseq/meta.yaml">meta.yaml</a></p>
 </dd>
 <dt class="field-even">Links</dt>
-<dd class="field-even"><p>biotools: <a class="reference external" href="https://bio.tools/mutmap">mutmap</a>, doi: <a class="reference external" href="https://doi.org/10.1038/nbt.2095">10.1038/nbt.2095</a></p>
+<dd class="field-even"><p>biotools: <a class="reference external" href="https://bio.tools/qtlseq">qtlseq</a>, doi: <a class="reference external" href="https://doi.org/10.1111/tpj">10.1111/tpj</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-mutmap">
-<em class="property">package </em><code class="sig-name descname">mutmap</code><a class="headerlink" href="#package-mutmap" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/mutmap"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/mutmap.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/mutmap"><img alt="docker_mutmap" src="https://quay.io/repository/biocontainers/mutmap/status" /></a></p>
+<dt id="package-qtlseq">
+<em class="property">package </em><code class="sig-name descname">qtlseq</code><a class="headerlink" href="#package-qtlseq" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/qtlseq"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/qtlseq.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/qtlseq"><img alt="docker_qtlseq" src="https://quay.io/repository/biocontainers/qtlseq/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>2.0.7-0, 2.0.6-0, 2.0.5-0</p>
+<dd class="field-odd"><p>2.0.0-0</p>
 </dd>
 <dt class="field-even">Depends bcftools</dt>
 <dd class="field-even"><p>&gt;=1.7</p>
@@ -160,24 +160,24 @@
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">mutmap</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">qtlseq</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">mutmap</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">qtlseq</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">mutmap</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">qtlseq</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/mutmap?tab=tags">mutmap/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/qtlseq?tab=tags">qtlseq/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/mutmap/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mutmap/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/qtlseq/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/qtlseq/README.html)
 </pre></div>
 </div>
 </div>
@@ -198,14 +198,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/mutmap/README.rst.txt"
+      <a href="../../_sources/recipes/qtlseq/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/mutmap/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/qtlseq/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>
