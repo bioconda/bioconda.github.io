@@ -22,7 +22,7 @@ maaslin2
 
    |downloads_maaslin2| |docker_maaslin2|
 
-   :versions: 0.3.0-0
+   :versions: 0.99.1-0, 0.3.0-0
    
    :depends bioconductor-edger: 
    :depends bioconductor-metagenomeseq: 

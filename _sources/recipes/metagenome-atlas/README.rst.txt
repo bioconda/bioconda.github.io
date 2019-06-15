@@ -11,7 +11,6 @@ metagenome-atlas
 
    ATLAS \- Three commands to start analysing your metagenome data
 
-
    :homepage: https://github.com/metagenome-atlas
    :documentation: https://metagenome-atlas.rtfd.io
    
@@ -44,16 +43,16 @@ metagenome-atlas
 
    |downloads_metagenome-atlas| |docker_metagenome-atlas|
 
-   :versions: 2.1.1-0, 2.0.6-1, 2.0.5-1, 2.0.4-1, 2.0.3-1, 2.0.1-1, 2.0.1-0
+   :versions: 2.1.3-0, 2.1.1-0, 2.0.6-1, 2.0.5-1, 2.0.4-1, 2.0.3-1, 2.0.1-1, 2.0.1-0
    
-   :depends bbmap: 37.78.*
+   :depends bbmap: >=37.78
    :depends biopython: >=1.70
-   :depends click: 7.*
+   :depends click: >=7
    :depends git: 
-   :depends pandas: 0.23.*
-   :depends python: 3.6.*
-   :depends ruamel.yaml: 0.15.*
-   :depends snakemake: >=5.4.5
+   :depends pandas: >=0.23
+   :depends python: >3.6,<3.7
+   :depends ruamel.yaml: >=0.15
+   :depends snakemake: >=5.4.5,<6
    :requirements:
 
    .. rubric:: Installation

@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;r-gap&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;biobasehttptools&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -103,64 +103,59 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="r-gap">
+  <div class="section" id="biobasehttptools">
 <dl class="recipe">
-<dt id="recipe-r-gap">
-<em class="property">recipe </em><code class="sig-name descname">r-gap</code><a class="headerlink" href="#recipe-r-gap" title="Permalink to this definition">¶</a></dt>
-<dd><p>It is designed as an integrated package for genetic data analysis of both population and family data. Currently, it contains functions for sample size calculations of both population-based and family-based designs, probability of familial disease aggregation, kinship calculation, statistics in linkage analysis, and association analysis involving genetic markers including haplotype analysis with or without environmental covariates.</p>
+<dt id="recipe-biobasehttptools">
+<em class="property">recipe </em><code class="sig-name descname">biobasehttptools</code><a class="headerlink" href="#recipe-biobasehttptools" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tools for querying bioinformatics web resources</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://jinghuazhao.github.io">https://jinghuazhao.github.io</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/eggzilla/BiobaseHTTPTools">https://github.com/eggzilla/BiobaseHTTPTools</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>GPL3 / GPL (&gt;= 2)</p>
+<dd class="field-even"><p>GPL-3</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gap">r-gap</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gap/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobasehttptools">biobasehttptools</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobasehttptools/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-r-gap">
-<em class="property">package </em><code class="sig-name descname">r-gap</code><a class="headerlink" href="#package-r-gap" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-gap"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-gap.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-gap"><img alt="docker_r-gap" src="https://quay.io/repository/biocontainers/r-gap/status" /></a></p>
+<dt id="package-biobasehttptools">
+<em class="property">package </em><code class="sig-name descname">biobasehttptools</code><a class="headerlink" href="#package-biobasehttptools" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/biobasehttptools"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/biobasehttptools.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/biobasehttptools"><img alt="docker_biobasehttptools" src="https://quay.io/repository/biocontainers/biobasehttptools/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>1.2.1-0, 1.1_22-0</p>
+<dd class="field-odd"><p>1.0.1-0</p>
 </dd>
-<dt class="field-even">Depends libgcc-ng</dt>
-<dd class="field-even"><p>&gt;=7.3.0</p>
-</dd>
-<dt class="field-odd">Depends libgfortran-ng</dt>
-<dd class="field-odd"><p>&gt;=7,&lt;8.0a0</p>
-</dd>
-<dt class="field-even">Depends r-base</dt>
-<dd class="field-even"><p>&gt;=3.5.1,&lt;3.5.2.0a0</p>
-</dd>
-<dt class="field-odd">Requirements</dt>
+<dt class="field-even">Depends ca-certificates</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">Depends openssl</dt>
 <dd class="field-odd"><p></p></dd>
+<dt class="field-even">Requirements</dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">gap</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">biobasehttptools</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">gap</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">biobasehttptools</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">r</span><span class="o">-</span><span class="n">gap</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">biobasehttptools</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/r-gap?tab=tags">r-gap/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/biobasehttptools?tab=tags">biobasehttptools/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-gap/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-gap/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/biobasehttptools/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/biobasehttptools/README.html)
 </pre></div>
 </div>
 </div>
@@ -181,14 +176,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/r-gap/README.rst.txt"
+      <a href="../../_sources/recipes/biobasehttptools/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/r-gap/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/biobasehttptools/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

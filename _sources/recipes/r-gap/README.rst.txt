@@ -22,7 +22,7 @@ r-gap
 
    |downloads_r-gap| |docker_r-gap|
 
-   :versions: 1.1_22-0
+   :versions: 1.2.1-0, 1.1_22-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libgfortran-ng: >=7,<8.0a0

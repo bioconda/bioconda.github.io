@@ -15,14 +15,18 @@ ribotricer
    :license: GPL3 / GNU General Public v3 (GPLv3)
    :recipe: /`ribotricer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribotricer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribotricer/meta.yaml>`_
 
-   
+   Ribotricer is a method for detecting actively\-translating 
+   ORFs by directly leveraging the three\-nucleotide periodicity of
+   Ribo\-seq data. It accurately identifies both short and long
+   active ORFs.
+
 
 
 .. conda:package:: ribotricer
 
    |downloads_ribotricer| |docker_ribotricer|
 
-   :versions: 1.0.2-0
+   :versions: 1.0.3-0, 1.0.2-0
    
    :depends click: >=6.0
    :depends click-help-colors: >=0.3
@@ -31,7 +35,7 @@ ribotricer
    :depends pandas: >=0.20.3
    :depends pyfaidx: >=0.5.0
    :depends pysam: >=0.11.2.2
-   :depends python: >=3.6,<3.7.0a0
+   :depends python: >3
    :depends quicksect: >=0.2.0
    :depends scipy: >=0.19.1
    :depends tqdm: >=4.23.4
