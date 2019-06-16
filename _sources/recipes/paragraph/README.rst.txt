@@ -22,7 +22,7 @@ paragraph
 
    |downloads_paragraph| |docker_paragraph|
 
-   :versions: 2.2a-0
+   :versions: 2.2b-0, 2.2a-0
    
    :depends bzip2: >=1.0.6,<2.0a0
    :depends htslib: >=1.9,<1.10.0a0

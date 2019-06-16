@@ -22,9 +22,10 @@ regtools
 
    |downloads_regtools| |docker_regtools|
 
-   :versions: 0.5.0-0
+   :versions: 0.5.1-0, 0.5.0-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

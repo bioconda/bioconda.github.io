@@ -24,7 +24,7 @@ cesm
 
    |downloads_cesm| |docker_cesm|
 
-   :versions: 2.1.0-0
+   :versions: 2.1.1-0, 2.1.0-0
    
    :depends cmake: 
    :depends gcc_linux-64: 
@@ -35,7 +35,7 @@ cesm
    :depends libiconv: 
    :depends libxml2: 
    :depends make: 
-   :depends mpich: >=3.2,<3.3.0a0
+   :depends mpich: >=3.2.1,<3.3.0a0
    :depends netcdf-fortran: >=4.4.5,<4.5.0a0
    :depends perl-xml-libxml: 
    :depends python: >=3.7,<3.8.0a0
