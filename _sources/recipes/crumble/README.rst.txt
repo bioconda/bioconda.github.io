@@ -23,7 +23,7 @@ crumble
 
    |downloads_crumble| |docker_crumble|
 
-   :versions: 0.8.2-0, 0.8.1-0
+   :versions: 0.8.3-0, 0.8.2-0, 0.8.1-0
    
    :depends htslib: >=1.9,<1.10.0a0
    :depends libgcc-ng: >=7.3.0

@@ -22,9 +22,9 @@ perl-super
 
    |downloads_perl-super| |docker_perl-super|
 
-   :versions: 1.20141117-1, 1.20141117-0
+   :versions: 1.20190531-0, 1.20141117-1, 1.20141117-0
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-carp: 
    :depends perl-sub-identify: 
    :requirements:

@@ -9,22 +9,22 @@ reparation_blast
 .. conda:recipe:: reparation_blast
    :replaces_section_title:
 
-   a pipeline that uses ribosome profiling data for a de novo open reading frame delineation in prokaryotic \(bacterial\) genomes. I changed the original reparation project to use the open\-source blast tool \(https\:\/\/blast.ncbi.nlm.nih.gov\/Blast.cgi\) instead of the commercial usearch \-\-ublast tool \(https\:\/\/drive5.com\/usearch\/manual\/ublast\_algo.html\). I did this in order to add this tool to bioconda without having licensing issues with the commercial usearch \-ublast tool. The original software was created at VIB\-UGent Center for Medical Biotechnology and Lab of Bioinformatics and Computational Genomics \(Biobix\)\, University of Gent\, Belgium\, by Elvis Ndah. \(https\:\/\/github.com\/Biobix\/REPARATION\). Be advised that the adapted version has slightly different results and is slower than the original reparation software.
+   A pipeline that detects novel open reading frames with ribseq data for bacteria.
 
    :homepage: https://github.com/RickGelhausen/REPARATION_blast
    :license: GPL3
    :recipe: /`reparation_blast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reparation_blast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reparation_blast/meta.yaml>`_
 
-   
+   A pipeline that uses ribosome profiling data for a de novo open reading frame delineation in prokaryotic \(bacterial\) genomes. I changed the original reparation project to use the open\-source blast tool \(https\:\/\/blast.ncbi.nlm.nih.gov\/Blast.cgi\) instead of the commercial usearch \-\-ublast tool \(https\:\/\/drive5.com\/usearch\/manual\/ublast\_algo.html\). I did this in order to add this tool to bioconda without having licensing issues with the commercial usearch \-ublast tool. The original software was created at VIB\-UGent Center for Medical Biotechnology and Lab of Bioinformatics and Computational Genomics \(Biobix\)\, University of Gent\, Belgium\, by Elvis Ndah. \(https\:\/\/github.com\/Biobix\/REPARATION\). Be advised that the adapted version has slightly different results and is slower than the original reparation software.
 
 
 .. conda:package:: reparation_blast
 
    |downloads_reparation_blast| |docker_reparation_blast|
 
-   :versions: v1.0.7-1, v1.0.7-0, v1.0.6-0, v1.0.5-0, v1.0.4-0, v1.0.3-2, v1.0.2-1, v1.0.1-0
+   :versions: 1.0.7-2, 1.0.7-0, v1.0.7-1, v1.0.7-0, v1.0.6-0, v1.0.5-0, v1.0.4-0, v1.0.3-2, v1.0.2-1, v1.0.1-0
    
-   :depends blast: >=2.7.1
+   :depends blast: 2.7.1.*
    :depends glimmer: 
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-bioperl: >=1.7.2

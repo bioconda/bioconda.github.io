@@ -22,7 +22,7 @@ perl-xml-sax
 
    |downloads_perl-xml-sax| |docker_perl-xml-sax|
 
-   :versions: 1.00-0, 0.99-1, 0.99-0
+   :versions: 1.02-0, 1.00-0, 0.99-1, 0.99-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-file-temp: 

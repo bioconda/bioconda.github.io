@@ -22,9 +22,9 @@ perl-config-tiny
 
    |downloads_perl-config-tiny| |docker_perl-config-tiny|
 
-   :versions: 2.23-1, 2.23-0
+   :versions: 2.24-0, 2.23-1, 2.23-0
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-pathtools: 
    :requirements:
 

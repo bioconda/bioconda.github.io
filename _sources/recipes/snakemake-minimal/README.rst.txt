@@ -9,21 +9,21 @@ snakemake-minimal
 .. conda:recipe:: snakemake-minimal
    :replaces_section_title:
 
-   Snakemake is a workflow management system that aims to reduce the complexity of creating workflows by providing a fast and comfortable execution environment\, together with a clean and modern specification language in python style. Snakemake workflows are essentially Python scripts extended by declarative code to define rules. Rules describe how to create output files from input files. This package provides the core snakemake functionility. For features like reports and remote files\, check out the snakemake package which provides all optional dependencies.
+   A popular workflow management system aiming at full in\-silico reproducibility.
 
    :homepage: https://snakemake.readthedocs.io
    :license: MIT
    :recipe: /`snakemake-minimal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-minimal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-minimal/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/bts480`, biotools: :biotools:`Snakemake`
 
-   
+   Snakemake is a workflow management system that aims to reduce the complexity of creating workflows by providing a fast and comfortable execution environment\, together with a clean and modern specification language in python style. Snakemake workflows are essentially Python scripts extended by declarative code to define rules. Rules describe how to create output files from input files. This package provides the core snakemake functionility. For features like reports and remote files\, check out the snakemake package which provides all optional dependencies.
 
 
 .. conda:package:: snakemake-minimal
 
    |downloads_snakemake-minimal| |docker_snakemake-minimal|
 
-   :versions: 5.5.0-0, 5.4.5-0, 5.4.4-1, 5.4.3-1, 5.4.3-0, 5.4.2-1, 5.4.2-0, 5.4.1-0, 5.4.0-0, 5.3.1-0, 5.3.0-2, 5.3.0-1, 5.3.0-0, 5.2.4-0, 5.2.2-1, 5.2.2-0, 5.2.1-0
+   :versions: 5.5.1-0, 5.5.0-0, 5.4.5-0, 5.4.4-1, 5.4.3-1, 5.4.3-0, 5.4.2-1, 5.4.2-0, 5.4.1-0, 5.4.0-0, 5.3.1-0, 5.3.0-2, 5.3.0-1, 5.3.0-0, 5.2.4-0, 5.2.2-1, 5.2.2-0, 5.2.1-0
    
    :depends appdirs: 
    :depends configargparse: 

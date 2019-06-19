@@ -22,14 +22,14 @@ graftm
 
    |downloads_graftm| |docker_graftm|
 
-   :versions: 0.11.1-0, 0.10.1-1, 0.10.1-0
+   :versions: 0.12.2-0, 0.11.1-0, 0.10.1-1, 0.10.1-0
    
    :depends biom-format: >=2.1.4
    :depends biopython: >=1.64
    :depends dendropy: >=4.1.0
    :depends extern: >=0.0.4
    :depends nose: >=1.0
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends seqmagick: >=0.5.0
    :depends subprocess32: >=3.2.6
    :depends taxtastic: >=0.5.4

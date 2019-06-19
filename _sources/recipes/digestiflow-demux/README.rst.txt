@@ -9,20 +9,21 @@ digestiflow-demux
 .. conda:recipe:: digestiflow-demux
    :replaces_section_title:
 
-   A command line client tool to perform semiautomatic demultiplexing of Illumina flowcells using data from Digestiflow Web.
+   Digestiflow Command Line Client.
 
    :homepage: https://github.com/bihealth/digestiflow-demux
    :license: MIT
    :recipe: /`digestiflow-demux <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/digestiflow-demux>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/digestiflow-demux/meta.yaml>`_
 
-   
+   A command line client tool to perform semiautomatic demultiplexing of Illumina
+   flowcells using data from Digestiflow Server.
 
 
 .. conda:package:: digestiflow-demux
 
    |downloads_digestiflow-demux| |docker_digestiflow-demux|
 
-   :versions: 0.2.0-0, 0.1.0-0
+   :versions: 0.3.0-0, 0.2.0-0, 0.1.0-0
    
    :depends attrs: >=18.2.0
    :depends coloredlogs: >=10.0

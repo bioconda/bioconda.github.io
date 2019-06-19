@@ -9,14 +9,19 @@ snakemake
 .. conda:recipe:: snakemake
    :replaces_section_title:
 
-   Snakemake is a workflow management system that aims to reduce the complexity of creating workflows by providing a fast and comfortable execution environment\, together with a clean and modern specification language in python style. Snakemake workflows are essentially Python scripts extended by declarative code to define rules. Rules describe how to create output files from input files. This package provides the full installation including all optional dependencies.
+   A popular workflow management system aiming at full in\-silico reproducibility.
 
    :homepage: https://snakemake.readthedocs.io
    :license: MIT
    :recipe: /`snakemake <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/bts480`, biotools: :biotools:`Snakemake`
 
-   
+   Snakemake is a workflow management system that aims to reduce the complexity of creating 
+   workflows by providing a fast and comfortable execution environment\, together with a clean 
+   and modern specification language in python style. Snakemake workflows are essentially Python 
+   scripts extended by declarative code to define rules. Rules describe how to create output 
+   files from input files.
+
 
 
 .. conda:package:: snakemake

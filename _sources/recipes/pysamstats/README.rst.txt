@@ -9,7 +9,7 @@ pysamstats
 .. conda:recipe:: pysamstats
    :replaces_section_title:
 
-   A Python utility for calculating statistics against genome position based on sequence alignments from a SAM\, BAM or CRAM file.
+   Calculate read mapping stats from SAM\/BAM\/CRAM
 
    :homepage: https://github.com/alimanfoo/pysamstats
    :license: MIT
@@ -23,11 +23,11 @@ pysamstats
 
    |downloads_pysamstats| |docker_pysamstats|
 
-   :versions: 1.1.2-3, 1.1.2-2, 1.1.2-1, 1.1.2-0, 1.0.1-2, 1.0.1-1, 1.0.1-0, 1.0.0-0, 0.24.3-0, 0.24.2-1, 0.24.0-0
+   :versions: 1.1.2-4, 1.1.2-3, 1.1.2-2, 1.1.2-1, 1.1.2-0, 1.0.1-2, 1.0.1-1, 1.0.1-0, 1.0.0-0, 0.24.3-0, 0.24.2-1, 0.24.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends numpy: 
-   :depends pysam: >=0.15.2,<0.16.0a0
+   :depends pysam: >=0.15.2,<0.15.3.0a0
    :depends pytables: 
    :depends python: >=2.7,<2.8.0a0
    :depends zlib: >=1.2.11,<1.3.0a0

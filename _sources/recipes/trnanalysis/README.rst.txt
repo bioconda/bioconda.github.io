@@ -22,25 +22,23 @@ trnanalysis
 
    |downloads_trnanalysis| |docker_trnanalysis|
 
-   :versions: 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.2-0, 0.1.0-0
+   :versions: 0.1.6-1, 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.2-0, 0.1.0-0
    
    :depends bioconductor-deseq2: 
    :depends bioconductor-org.hs.eg.db: 
    :depends bowtie: 
-   :depends cgat-apps: 0.5.3
+   :depends cgat-apps: 
    :depends cgatcore: 
    :depends configparser: 
    :depends ez_setup: 
    :depends fastq-screen: 
    :depends fastqc: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
    :depends multiqc: 
    :depends mysqlclient: 
-   :depends numpy: 
+   :depends numpy: >=1.16.4
    :depends pandas: 
    :depends pysam: 
-   :depends python: >=3.6,<3.7.0a0
+   :depends python: >=3
    :depends pyyaml: >=5.1
    :depends r-base: 
    :depends r-codetools: 
