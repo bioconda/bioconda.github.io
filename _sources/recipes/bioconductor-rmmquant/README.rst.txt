@@ -32,8 +32,7 @@ bioconductor-rmmquant
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
    :depends bioconductor-tbx20bamsubset: >=1.18.0,<1.19.0
    :depends bioconductor-txdb.mmusculus.ucsc.mm9.knowngene: >=3.2.0,<3.3.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-devtools: 
    :depends r-rcpp: >=0.12.8

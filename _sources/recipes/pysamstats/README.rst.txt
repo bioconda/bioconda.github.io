@@ -25,7 +25,6 @@ pysamstats
 
    :versions: 1.1.2-4, 1.1.2-3, 1.1.2-2, 1.1.2-1, 1.1.2-0, 1.0.1-2, 1.0.1-1, 1.0.1-0, 1.0.0-0, 0.24.3-0, 0.24.2-1, 0.24.0-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends numpy: 
    :depends pysam: >=0.15.2,<0.15.3.0a0
    :depends pytables: 

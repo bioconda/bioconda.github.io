@@ -20,6 +20,7 @@ commands
       command_rebuild
       command_recheck
       command_schedule
+      command_update
       permissions
    
    

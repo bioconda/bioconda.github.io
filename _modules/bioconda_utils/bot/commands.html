@@ -302,6 +302,18 @@
             <span class="n">err</span> <span class="o">=</span> <span class="s2">&quot;Unknown command&quot;</span>
     <span class="k">return</span> <span class="n">err</span> <span class="o">+</span> <span class="p">(</span><span class="s2">&quot; Options are:</span><span class="se">\n</span><span class="s2">&quot;</span>
                   <span class="s2">&quot; - `autobump [n=5]`: schedule *n* updates of autobump&quot;</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="command_update"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_update">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;update&quot;</span><span class="p">)</span>
+<span class="nd">@permissions</span><span class="p">(</span><span class="n">member</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">author</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">command_update</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">user</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Update PR branch with it&#39;s target branch (&quot;base&quot;)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">pr_update_branch</span><span class="p">(</span><span class="n">issue_number</span><span class="p">):</span>
+        <span class="n">msg</span> <span class="o">=</span> <span class="s2">&quot;Ok. Branch update triggered.&quot;</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">msg</span> <span class="o">=</span> <span class="s2">&quot;Sorry, I was unable to trigger branch update.&quot;</span>
+    <span class="k">await</span> <span class="n">ghapi</span><span class="o">.</span><span class="n">create_comment</span><span class="p">(</span><span class="n">issue_number</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span></div>
+
 </pre></div>
 
           </div>

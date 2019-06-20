@@ -24,7 +24,6 @@ bioconductor-hireewas
 
    :versions: 1.2.0-0, 1.0.2-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-gplots: 
    :depends r-quadprog: 

@@ -24,7 +24,6 @@ ncls
 
    :versions: 0.0.42-3, 0.0.42-2, 0.0.42-1, 0.0.42-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends numpy: 
    :requirements:
 

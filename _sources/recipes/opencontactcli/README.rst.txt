@@ -24,8 +24,7 @@ opencontactcli
 
    :versions: 1.1-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libgfortran-ng: >=7,<8.0a0
+   :depends libgfortran: >=3.0.1,<4.0.0.a0
    :depends numpy: 
    :requirements:
 

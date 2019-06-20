@@ -24,8 +24,7 @@ perl-list-someutils
 
    :versions: 0.56-1, 0.56-0, 0.53-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-carp: 
    :depends perl-exporter: 

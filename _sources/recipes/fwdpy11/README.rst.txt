@@ -25,8 +25,7 @@ fwdpy11
    :versions: 0.4.5-0, 0.4.4-0, 0.4.3-0, 0.4.2-0, 0.4.1-0, 0.4.0-0, 0.3.2-0, 0.3.1-0, 0.2.1-0, 0.1.4-2, 0.1.4-1, 0.1.4-0, 0.1.3.post3-0, 0.1.3.post1-0, 0.1.3a1-0, 0.1.3a0-0, 0.1.2-0, 0.1.1-0, 0.1.post4-0, 0.1.post2-0
    
    :depends gsl: >=2.4,<2.5.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends numpy: >=1.10
    :depends openblas: >=0.3.3,<0.3.4.0a0
    :depends python: >=3.6,<3.7.0a0

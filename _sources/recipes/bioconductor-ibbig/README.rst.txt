@@ -24,7 +24,6 @@ bioconductor-ibbig
 
    :versions: 1.28.0-0, 1.26.0-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends r-ade4: 
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-biclust: 

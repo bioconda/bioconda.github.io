@@ -116,7 +116,7 @@
 <span class="kn">from</span> <span class="nn">..githubhandler</span> <span class="k">import</span> <span class="n">Event</span>
 <span class="kn">from</span> <span class="nn">..circleci</span> <span class="k">import</span> <span class="n">SlackMessage</span>
 <span class="kn">from</span> <span class="nn">..</span> <span class="k">import</span> <span class="n">__version__</span> <span class="k">as</span> <span class="n">VERSION</span>
-<span class="kn">from</span> <span class="nn">.worker</span> <span class="k">import</span> <span class="n">celery</span>
+<span class="kn">from</span> <span class="nn">.worker</span> <span class="k">import</span> <span class="n">capp</span>
 <span class="kn">from</span> <span class="nn">.config</span> <span class="k">import</span> <span class="n">APP_SECRET</span>
 
 <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>  <span class="c1"># pylint: disable=invalid-name</span>
@@ -209,7 +209,7 @@
 <span class="s2">        {request.app.get(&#39;gh_rate_limit&#39;)}</span>
 
 <span class="s2">        &quot;&quot;&quot;</span>
-        <span class="n">worker_status</span> <span class="o">=</span> <span class="n">celery</span><span class="o">.</span><span class="n">control</span><span class="o">.</span><span class="n">inspect</span><span class="p">(</span><span class="n">timeout</span><span class="o">=</span><span class="mf">0.1</span><span class="p">)</span>
+        <span class="n">worker_status</span> <span class="o">=</span> <span class="n">capp</span><span class="o">.</span><span class="n">control</span><span class="o">.</span><span class="n">inspect</span><span class="p">(</span><span class="n">timeout</span><span class="o">=</span><span class="mf">0.1</span><span class="p">)</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">worker_status</span><span class="p">:</span>
             <span class="n">msg</span> <span class="o">+=</span> <span class="s2">&quot;&quot;&quot;</span>
 <span class="s2">            no workers online</span>

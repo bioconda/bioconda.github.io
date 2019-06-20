@@ -28,7 +28,6 @@ openslide
    :depends gdk-pixbuf: 
    :depends glib: >=2.48.0
    :depends jpeg: 
-   :depends libgcc: 
    :depends libpng: 
    :depends libtiff: >=4
    :depends libxml2: 

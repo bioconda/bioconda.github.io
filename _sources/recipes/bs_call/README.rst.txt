@@ -27,7 +27,6 @@ bs_call
    
    :depends bzip2: >=1.0.6,<2.0a0
    :depends gsl: >=2.4,<2.5.0a0
-   :depends libgcc-ng: >=7.3.0
    :depends openmp: 
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:

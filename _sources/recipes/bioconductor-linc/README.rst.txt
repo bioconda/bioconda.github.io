@@ -32,8 +32,7 @@ bioconductor-linc
    :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
    :depends bioconductor-reactomepa: >=1.26.0,<1.27.0
    :depends bioconductor-sva: >=3.30.0,<3.31.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-ape: 
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-ggplot2: 

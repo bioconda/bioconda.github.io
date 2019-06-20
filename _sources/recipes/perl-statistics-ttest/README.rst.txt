@@ -24,7 +24,7 @@ perl-statistics-ttest
 
    :versions: 1.1-1, 1.1-0
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: >=5.26.0,<5.27.0a0
    :depends perl-statistics-descriptive: 
    :depends perl-statistics-distributions: 
    :requirements:

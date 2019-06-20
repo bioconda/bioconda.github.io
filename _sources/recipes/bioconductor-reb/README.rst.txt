@@ -26,7 +26,6 @@ bioconductor-reb
    
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    :depends bioconductor-idiogram: >=1.58.0,<1.59.0
-   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :requirements:
 

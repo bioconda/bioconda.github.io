@@ -26,7 +26,6 @@ msproteomicstools
    
    :depends biopython: 
    :depends configobj: 
-   :depends libgcc-ng: >=7.3.0
    :depends lxml: 
    :depends numpy: 
    :depends pymzml: 0.7.8

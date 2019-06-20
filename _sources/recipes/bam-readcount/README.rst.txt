@@ -24,7 +24,6 @@ bam-readcount
 
    :versions: 0.8-4, 0.8-3, 0.8-2, 0.8-1
    
-   :depends libgcc-ng: >=7.3.0
    :depends ncurses: >=6.1,<6.2.0a0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends python: >=2.7,<2.8.0a0

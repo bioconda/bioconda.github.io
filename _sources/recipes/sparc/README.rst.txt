@@ -24,8 +24,7 @@ sparc
 
    :versions: 20160205-5, 20160205-4, 20160205-3, 20160205-2, 20160205-1, 20160205-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

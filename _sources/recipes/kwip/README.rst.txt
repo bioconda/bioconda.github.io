@@ -26,8 +26,7 @@ kwip
    :versions: 0.2.0-2, 0.2.0-1, 0.2.0-0
    
    :depends khmer: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

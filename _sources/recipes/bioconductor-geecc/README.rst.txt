@@ -24,8 +24,7 @@ bioconductor-geecc
 
    :versions: 1.18.0-0, 1.16.1-0, 1.16.0-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-gplots: 
    :depends r-hypergea: >=1.3.0

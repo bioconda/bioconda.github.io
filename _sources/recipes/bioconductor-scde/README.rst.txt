@@ -28,8 +28,7 @@ bioconductor-scde
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
    :depends bioconductor-edger: >=3.24.0,<3.25.0
    :depends bioconductor-pcamethods: >=1.74.0,<1.75.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-cairo: 
    :depends r-extremes: 

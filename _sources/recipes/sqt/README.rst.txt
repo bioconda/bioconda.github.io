@@ -25,7 +25,6 @@ sqt
    :versions: 0.8.0-2, 0.8.0-0, 0.7.0-2, 0.7.0-1, 0.7.0-0, 0.6.3-0, 0.6.1-0
    
    :depends cutadapt: 
-   :depends libgcc-ng: >=4.9
    :depends matplotlib: 
    :depends pysam: 
    :depends python: >=3.5,<3.6.0a0

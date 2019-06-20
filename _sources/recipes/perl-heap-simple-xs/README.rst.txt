@@ -24,7 +24,6 @@ perl-heap-simple-xs
 
    :versions: 0.10-2, 0.10-1, 0.10-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 

@@ -29,7 +29,6 @@ crispresso
    :depends bowtie2: 
    :depends emboss: 
    :depends flash: 
-   :depends libgcc-ng: >=7.3.0
    :depends matplotlib: >=1.3.1
    :depends mock: 
    :depends nose: 

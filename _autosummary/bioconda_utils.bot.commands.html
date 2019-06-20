@@ -155,7 +155,10 @@
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_schedule" title="bioconda_utils.bot.commands.command_schedule"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_schedule</span></code></a>(ghapi, issue_number, user, …)</p></td>
 <td><p>Schedule autobump on CircleCI</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.permissions" title="bioconda_utils.bot.commands.permissions"><code class="xref py py-obj docutils literal notranslate"><span class="pre">permissions</span></code></a>([member, author, team])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_update" title="bioconda_utils.bot.commands.command_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_update</span></code></a>(ghapi, issue_number, user, *args)</p></td>
+<td><p>Update PR branch with it’s target branch (“base”)</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.permissions" title="bioconda_utils.bot.commands.permissions"><code class="xref py py-obj docutils literal notranslate"><span class="pre">permissions</span></code></a>([member, author, team])</p></td>
 <td><p>Decorator for commands checking for permissions</p></td>
 </tr>
 </tbody>
@@ -249,6 +252,12 @@
 <em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.commands.</code><code class="sig-name descname">command_schedule</code><span class="sig-paren">(</span><em class="sig-param">ghapi</em>, <em class="sig-param">issue_number</em>, <em class="sig-param">user</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_schedule"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_schedule" title="Permalink to this definition">¶</a></dt>
 <dd><p>Schedule autobump on CircleCI</p>
 <p>Takes the maximum number of recipes to update as optional argument.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.bot.commands.command_update">
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.commands.</code><code class="sig-name descname">command_update</code><span class="sig-paren">(</span><em class="sig-param">ghapi</em>, <em class="sig-param">issue_number</em>, <em class="sig-param">user</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/commands.html#command_update"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_update" title="Permalink to this definition">¶</a></dt>
+<dd><p>Update PR branch with it’s target branch (“base”)</p>
 </dd></dl>
 
 <dl class="function">

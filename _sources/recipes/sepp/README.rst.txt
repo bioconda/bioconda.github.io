@@ -25,10 +25,10 @@ sepp
 
    :versions: 4.3.8-0
    
-   :depends dendropy: 
+   :depends dendropy: >=4.0.3,<4.4
    :depends hmmer: 3.1b2
    :depends openjdk: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

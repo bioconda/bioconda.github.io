@@ -32,8 +32,7 @@ bioconductor-ihwpaper
    :depends bioconductor-ihw: >=1.10.0,<1.11.0
    :depends bioconductor-qvalue: >=2.14.0,<2.15.0
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-cowplot: 
    :depends r-dplyr: 

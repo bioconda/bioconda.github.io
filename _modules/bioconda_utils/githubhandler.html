@@ -165,6 +165,7 @@
     <span class="n">PULL_COMMITS</span>      <span class="o">=</span> <span class="s2">&quot;/repos/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/pulls/</span><span class="si">{number}</span><span class="s2">/commits&quot;</span>
     <span class="n">PULL_MERGE</span>        <span class="o">=</span> <span class="s2">&quot;/repos/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/pulls/</span><span class="si">{number}</span><span class="s2">/merge&quot;</span>
     <span class="n">PULL_REVIEWS</span>      <span class="o">=</span> <span class="s2">&quot;/repos/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/pulls/</span><span class="si">{number}</span><span class="s2">/reviews{/review_id}&quot;</span>
+    <span class="n">PULL_UPDATE</span>       <span class="o">=</span> <span class="s2">&quot;/repos/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/pulls/</span><span class="si">{number}</span><span class="s2">/update-branch&quot;</span>
     <span class="n">BRANCH_PROTECTION</span> <span class="o">=</span> <span class="s2">&quot;/repos/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/branches/</span><span class="si">{branch}</span><span class="s2">/protection&quot;</span>
     <span class="n">ISSUES</span>            <span class="o">=</span> <span class="s2">&quot;/repos/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/issues{/number}&quot;</span>
     <span class="n">ISSUE_COMMENTS</span>    <span class="o">=</span> <span class="s2">&quot;/repos/</span><span class="si">{user}</span><span class="s2">/</span><span class="si">{repo}</span><span class="s2">/issues/</span><span class="si">{number}</span><span class="s2">/comments&quot;</span>
@@ -575,6 +576,22 @@
             <span class="k">if</span> <span class="n">exc</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">404</span><span class="p">:</span>
                 <span class="k">return</span> <span class="kc">False</span>
             <span class="k">raise</span></div>
+
+<div class="viewcode-block" id="GitHubHandler.pr_update_branch"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.pr_update_branch">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">pr_update_branch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">number</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Updates PR branch</span>
+
+<span class="sd">        Merges changes to &quot;base&quot; into &quot;head&quot;</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">var_data</span> <span class="o">=</span> <span class="n">copy</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">var_default</span><span class="p">)</span>
+        <span class="n">var_data</span><span class="p">[</span><span class="s1">&#39;number&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
+        <span class="n">accept</span> <span class="o">=</span> <span class="s2">&quot;application/vnd.github.lydian-preview+json&quot;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">PULL_UPDATE</span><span class="p">,</span> <span class="n">var_data</span><span class="p">,</span> <span class="n">accept</span><span class="o">=</span><span class="n">accept</span><span class="p">)</span>
+            <span class="k">return</span> <span class="kc">True</span>
+        <span class="k">except</span> <span class="n">gidgethub</span><span class="o">.</span><span class="n">BadRequest</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">exception</span><span class="p">(</span><span class="s2">&quot;pr_update_branch failed. status_code=</span><span class="si">%s</span><span class="s2"> args=</span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span>
+                             <span class="n">exc_status_code</span><span class="p">,</span> <span class="n">exc</span><span class="o">.</span><span class="n">args</span><span class="p">)</span>
+            <span class="k">return</span> <span class="kc">False</span></div>
 
 <div class="viewcode-block" id="GitHubHandler.modify_issue"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.githubhandler.html#bioconda_utils.githubhandler.GitHubHandler.modify_issue">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">modify_issue</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">number</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span>
                            <span class="n">labels</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>

@@ -48,10 +48,9 @@ sina
    :depends arb-bio-tools: 
    :depends boost-cpp: >=1.68.0,<1.68.1.0a0
    :depends glib: >=2.58.3,<3.0a0
-   :depends libarbdb: 6.0.6 haa8b8d8_8
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends tbb: >=2019.5
+   :depends libarbdb: 6.0.6 h82bc0eb_8
+   :depends libcxx: >=4.0.1
+   :depends tbb: >=2019.4
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

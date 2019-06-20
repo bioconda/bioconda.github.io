@@ -29,7 +29,6 @@ desman
    :depends biopython: 
    :depends cython: >=0.19.1
    :depends gsl: >=2.4,<2.5.0a0
-   :depends libgcc-ng: >=7.3.0
    :depends numpy: >=1.7.1
    :depends pandas: >=0.11.0
    :depends pysam: 

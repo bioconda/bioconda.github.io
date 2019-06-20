@@ -25,7 +25,6 @@ bicseq2-seg
 
    :versions: 0.7.2-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends perl: 
    :depends r-base: 
    :requirements:

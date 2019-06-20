@@ -27,8 +27,7 @@ bioconductor-baynorm
    :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
    :depends bioconductor-singlecellexperiment: >=1.4.0,<1.5.0
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-bb: 
    :depends r-dosnow: 

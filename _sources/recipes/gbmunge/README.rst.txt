@@ -24,7 +24,6 @@ gbmunge
 
    :versions: 2018.07.06-1, 2018.07.06-0
    
-   :depends libgcc-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

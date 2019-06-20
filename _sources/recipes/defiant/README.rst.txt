@@ -24,7 +24,7 @@ defiant
 
    :versions: 1.1.4-0
    
-   :depends libgcc-ng: >=7.3.0
+   :depends llvm-openmp: 
    :depends mpc: >=1.1.0,<2.0a0
    :requirements:
 

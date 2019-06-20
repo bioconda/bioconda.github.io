@@ -24,7 +24,6 @@ perl-devel-size
 
    :versions: 0.83-0, 0.82-0, 0.80-1, 0.80-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-test-simple: 
    :requirements:

@@ -26,7 +26,6 @@ exonerate
    :versions: 2.4.0-2, 2.4.0-1, 2.4.0-0, 2.2.0-1, 2.2.0-0
    
    :depends glib: >=2.58.2,<3.0a0
-   :depends libgcc-ng: >=7.3.0
    :depends pcre: >=8.41,<9.0a0
    :requirements:
 

@@ -25,7 +25,6 @@ pizzly
    :versions: 0.37.3-3, 0.37.3-2, 0.37.1-0
    
    :depends h5py: 
-   :depends libgcc-ng: >=4.9
    :depends numpy: 
    :depends python: 
    :requirements:

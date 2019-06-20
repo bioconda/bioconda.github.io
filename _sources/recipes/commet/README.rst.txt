@@ -25,7 +25,6 @@ commet
 
    :versions: 24.7.14-1, 24.7.14-0
    
-   :depends libgcc: 
    :depends libgfortran: 
    :depends python: 2.7*
    :depends r-base: 3.4.1*

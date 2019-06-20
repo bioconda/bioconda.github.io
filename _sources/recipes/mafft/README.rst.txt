@@ -25,8 +25,7 @@ mafft
 
    :versions: 7.407-2, 7.407-1, 7.407-0, 7.402-0, 7.313-1, 7.313-0, 7.310-2, 7.310-1, 7.310-0, 7.305-1, 7.305-0, 7.221-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :requirements:
 
    .. rubric:: Installation

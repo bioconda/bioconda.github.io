@@ -24,7 +24,6 @@ snp-sites
 
    :versions: 2.4.1-1, 2.4.1-0, 2.4.0-3, 2.4.0-0, 2.3.3-1, 2.3.3-0, 2.3.2-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

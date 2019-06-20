@@ -25,9 +25,8 @@ proteinortho
    :versions: 6.0.3-0, 6.0.2c-0, 6.0.1-0, 6.0-0, 6.0b-0
    
    :depends diamond: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libgfortran-ng: >=7,<8.0a0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
+   :depends libgfortran: >=3.0.1,<4.0.0.a0
    :depends openblas: >=0.3.3,<0.3.4.0a0
    :depends openmp: 
    :depends perl: 

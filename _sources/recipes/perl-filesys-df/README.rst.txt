@@ -24,7 +24,6 @@ perl-filesys-df
 
    :versions: 0.92-3, 0.92-2, 0.92-1, 0.92-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 

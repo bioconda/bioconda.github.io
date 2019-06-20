@@ -267,7 +267,7 @@
 
 <span class="c1"># Instantiate Celery app, setting our AsyncTask as default</span>
 <span class="c1"># task class and loading the tasks from tasks.py</span>
-<span class="n">celery</span> <span class="o">=</span> <span class="n">Celery</span><span class="p">(</span>  <span class="c1"># pylint: disable=invalid-name</span>
+<span class="n">capp</span> <span class="o">=</span> <span class="n">Celery</span><span class="p">(</span>  <span class="c1"># pylint: disable=invalid-name</span>
     <span class="n">task_cls</span><span class="o">=</span><span class="n">AsyncTask</span><span class="p">,</span>
     <span class="n">include</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;bioconda_utils.bot.tasks&#39;</span><span class="p">]</span>
 <span class="p">)</span>
@@ -275,7 +275,7 @@
 
 <span class="c1"># Celery must be configured at module level to catch worker as well</span>
 <span class="c1"># Settings are suggestions from CloudAMPQ</span>
-<span class="n">celery</span><span class="o">.</span><span class="n">conf</span><span class="o">.</span><span class="n">update</span><span class="p">(</span>
+<span class="n">capp</span><span class="o">.</span><span class="n">conf</span><span class="o">.</span><span class="n">update</span><span class="p">(</span>
     <span class="c1"># Set the URL to the AMQP broker using environment variable</span>
     <span class="n">broker_url</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;CLOUDAMQP_URL&#39;</span><span class="p">),</span>
 
@@ -307,8 +307,6 @@
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">install_gpg_key</span><span class="p">(</span><span class="n">CODE_SIGNING_KEY</span><span class="p">)</span>
     <span class="n">RepoData</span><span class="p">()</span><span class="o">.</span><span class="n">set_timeout</span><span class="p">(</span><span class="n">REPODATA_TIMEOUT</span><span class="p">)</span></div>
-
-
 </pre></div>
 
           </div>

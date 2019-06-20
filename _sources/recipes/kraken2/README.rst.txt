@@ -26,8 +26,9 @@ kraken2
    :versions: 2.0.8_beta-0, 2.0.7_beta-3, 2.0.7_beta-2, 2.0.7_beta-1, 2.0.7_beta-0
    
    :depends blast: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0
+   :depends libcxx: >=4.0.1
+   :depends llvm-openmp: 
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends rsync: 
    :depends wget: 
