@@ -23,7 +23,7 @@ mutmap
 
    |downloads_mutmap| |docker_mutmap|
 
-   :versions: 2.0.8-0, 2.0.7-0, 2.0.6-0, 2.0.5-0
+   :versions: 2.0.9-0, 2.0.8-0, 2.0.7-0, 2.0.6-0, 2.0.5-0
    
    :depends bcftools: >=1.7
    :depends bwa: 
@@ -34,6 +34,7 @@ mutmap
    :depends samtools: >=1.7
    :depends seaborn: 
    :depends snpeff: 
+   :depends tabix: 
    :depends trimmomatic: 
    :requirements:
 

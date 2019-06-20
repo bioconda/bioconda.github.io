@@ -14,7 +14,7 @@ qtlseq
    :homepage: https://github.com/YuSugihara/QTL-seq
    :license: GPL / GPL-3.0-or-later
    :recipe: /`qtlseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qtlseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qtlseq/meta.yaml>`_
-   :links: biotools: :biotools:`qtlseq`, doi: :doi:`10.1111/tpj`
+   :links: biotools: :biotools:`qtlseq`, doi: :doi:`10.1111/tpj.12105`
 
    
 
@@ -23,7 +23,7 @@ qtlseq
 
    |downloads_qtlseq| |docker_qtlseq|
 
-   :versions: 2.0.1-0, 2.0.0-0
+   :versions: 2.0.2-0, 2.0.1-0, 2.0.0-0
    
    :depends bcftools: >=1.7
    :depends bwa: 
@@ -34,6 +34,7 @@ qtlseq
    :depends samtools: >=1.7
    :depends seaborn: 
    :depends snpeff: 
+   :depends tabix: 
    :depends trimmomatic: 
    :requirements:
 

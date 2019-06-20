@@ -22,7 +22,7 @@ perl-libwww-perl
 
    |downloads_perl-libwww-perl| |docker_perl-libwww-perl|
 
-   :versions: 6.36-1, 6.36-0, 6.15-1, 6.15-0
+   :versions: 6.39-0, 6.36-1, 6.36-0, 6.15-1, 6.15-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-base: 
@@ -37,7 +37,7 @@ perl-libwww-perl
    :depends perl-http-negotiate: 
    :depends perl-lwp-mediatypes: 
    :depends perl-mime-base64: 
-   :depends perl-net-http: >=6.07
+   :depends perl-net-http: >=6.18
    :depends perl-ntlm: 
    :depends perl-try-tiny: 
    :depends perl-uri: 

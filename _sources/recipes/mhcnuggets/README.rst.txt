@@ -47,11 +47,11 @@ mhcnuggets
 
    |downloads_mhcnuggets| |docker_mhcnuggets|
 
-   :versions: 2.2-0
+   :versions: 2.3.1-0, 2.2-0
    
    :depends keras: 
    :depends numpy: >=1.16.1
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: 
    :depends scikit-learn: 
    :depends scipy: 
    :depends tensorflow: 1.13.1.*

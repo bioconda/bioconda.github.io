@@ -22,7 +22,7 @@ perl-sql-statement
 
    |downloads_perl-sql-statement| |docker_perl-sql-statement|
 
-   :versions: 1.407-1, 1.407-0
+   :versions: 1.412-0, 1.407-1, 1.407-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-clone: 

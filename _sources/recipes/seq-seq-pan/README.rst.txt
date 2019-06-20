@@ -9,27 +9,27 @@ seq-seq-pan
 .. conda:recipe:: seq-seq-pan
    :replaces_section_title:
 
-   seq\-seq\-pan is a workflow for the SEQuential alignment of SEQuences to build a PAN\-genome data structure and a whole\-genome\-alignment.
+   seq\-seq\-pan
 
    :homepage: https://gitlab.com/chrjan/seq-seq-pan
    :license: FreeBSD
    :recipe: /`seq-seq-pan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seq-seq-pan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seq-seq-pan/meta.yaml>`_
 
-   
+   seq\-seq\-pan is a workflow for the SEQuential alignment of SEQuences to build a PAN\-genome data structure and a whole\-genome\-alignment.
 
 
 .. conda:package:: seq-seq-pan
 
    |downloads_seq-seq-pan| |docker_seq-seq-pan|
 
-   :versions: 1.0.1-1, 1.0.1-0, 1.0.0-1, 1.0.0-0
+   :versions: 1.0.1-3, 1.0.1-1, 1.0.1-0, 1.0.0-1, 1.0.0-0
    
-   :depends argparse: 
    :depends biopython: 1.69
    :depends blat: 35
+   :depends libgenome: 1.3.1 h470a237_0
    :depends mauvealigner: 1.2.0
    :depends openjdk: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :depends snakemake: 
    :requirements:
 
