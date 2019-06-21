@@ -24,7 +24,7 @@ pgcgap
 
    |downloads_pgcgap| |docker_pgcgap|
 
-   :versions: 1.0.3-0, 1.0.2-4, 1.0.2-3, 1.0.2-2, 1.0.2-1, 1.0.1-1, 1.0.1-0, 1.0.0-0
+   :versions: 1.0.4-0, 1.0.3-0, 1.0.2-4, 1.0.2-3, 1.0.2-2, 1.0.2-1, 1.0.1-1, 1.0.1-0, 1.0.0-0
    
    :depends abyss: >=2.1.5
    :depends biopython: 
@@ -47,10 +47,12 @@ pgcgap
    :depends perl-data-dumper: >=2.173
    :depends perl-file-tee: 
    :depends perl-getopt-long: >=2.50
+   :depends perl-parallel-forkmanager: 
    :depends perl-pod-usage: >=1.69
    :depends prokka: >=1.13.4
    :depends r-corrplot: 
    :depends r-ggplot2: 
+   :depends r-gplots: 
    :depends r-pheatmap: 
    :depends r-plotrix: 
    :depends roary: >=3.12.0

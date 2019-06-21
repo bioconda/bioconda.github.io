@@ -14,6 +14,7 @@ mirtop
    :homepage: http://github.com/mirtop/mirtop
    :license: MIT / MIT License
    :recipe: /`mirtop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirtop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirtop/meta.yaml>`_
+   :links: biotools: :biotools:`mirtop`
 
    
 
@@ -22,13 +23,13 @@ mirtop
 
    |downloads_mirtop| |docker_mirtop|
 
-   :versions: 0.4.18a-2, 0.4.18a-1, 0.4.18a-0, 0.4.17a-0, 0.4.15a-0, 0.3.17-1, 0.3.17-0, 0.3.11a0-2, 0.3.11a0-0, 0.3.6a0-0, 0.3.2a0-0, 0.1.8a0-0
+   :versions: 0.4.19-0, 0.4.18a-2, 0.4.18a-1, 0.4.18a-0, 0.4.17a-0, 0.4.15a-0, 0.3.17-1, 0.3.17-0, 0.3.11a0-2, 0.3.11a0-0, 0.3.6a0-0, 0.3.2a0-0, 0.1.8a0-0
    
    :depends biopython: 
    :depends pandas: 
    :depends pybedtools: 
    :depends pysam: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: 
    :requirements:
 
    .. rubric:: Installation

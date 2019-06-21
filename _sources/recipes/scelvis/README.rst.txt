@@ -22,7 +22,7 @@ scelvis
 
    |downloads_scelvis| |docker_scelvis|
 
-   :versions: 0.2.1-0, 0.2.0-0, 0.1.0-0
+   :versions: 0.3.0-0, 0.2.1-0, 0.2.0-0, 0.1.0-0
    
    :depends anndata: 
    :depends attrs: 
@@ -43,6 +43,7 @@ scelvis
    :depends python: >=3.6
    :depends python-irodsclient: 
    :depends ruamel_yaml: 
+   :depends s3fs: 
    :depends scanpy: 
    :requirements:
 
