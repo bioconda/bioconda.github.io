@@ -26,6 +26,7 @@ umis
    
    :depends click: >=7.0
    :depends cython: 
+   :depends libgcc-ng: >=7.3.0
    :depends pandas: 
    :depends pysam: 
    :depends python: >=2.7,<2.8.0a0

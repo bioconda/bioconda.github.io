@@ -28,7 +28,8 @@ advntr
    :depends cython: 
    :depends htslib: 1.9.*
    :depends joblib: 
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends matplotlib: 
    :depends muscle: 
    :depends networkx: 1.11.*

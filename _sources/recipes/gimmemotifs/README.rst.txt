@@ -34,6 +34,7 @@ gimmemotifs
    :depends ghostscript: 
    :depends homer: 
    :depends jinja2: 
+   :depends libgcc-ng: >=7.3.0
    :depends matplotlib: >=2.0
    :depends meme: 
    :depends ncurses: >=6.1,<6.2.0a0

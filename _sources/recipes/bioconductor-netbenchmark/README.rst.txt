@@ -27,7 +27,8 @@ bioconductor-netbenchmark
    :depends bioconductor-genie3: >=1.6.0,<1.7.0
    :depends bioconductor-grndata: >=1.16.0,<1.17.0
    :depends bioconductor-minet: >=3.42.0,<3.43.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-c3net: 
    :depends r-corpcor: 

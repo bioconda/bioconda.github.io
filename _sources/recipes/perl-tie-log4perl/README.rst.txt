@@ -24,7 +24,7 @@ perl-tie-log4perl
 
    :versions: 0.1-1, 0.1-0
    
-   :depends perl: >=5.26.0,<5.27.0a0
+   :depends perl: >=5.26.2,<5.27.0a0
    :depends perl-log-log4perl: 
    :requirements:
 

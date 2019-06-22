@@ -28,6 +28,7 @@ telescope
    :depends cython: 
    :depends future: >=0.17.1
    :depends intervaltree: >=3.0.2
+   :depends libgcc-ng: >=7.3.0
    :depends numpy: >=1.16.3
    :depends pysam: >=0.15.2
    :depends python: >=3.6,<3.7.0a0

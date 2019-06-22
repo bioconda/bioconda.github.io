@@ -24,6 +24,7 @@ hmmer2
 
    :versions: 2.3.2-3, 2.3.2-2, 2.3.2-1
    
+   :depends libgcc-ng: >=4.9
    :requirements:
 
    .. rubric:: Installation

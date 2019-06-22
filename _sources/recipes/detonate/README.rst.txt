@@ -25,6 +25,8 @@ detonate
    :versions: 1.11-3, 1.11-2, 1.11-1, 1.11-0
    
    :depends boost: >=1.66.0,<1.66.1.0a0
+   :depends libgcc-ng: >=4.9
+   :depends libstdcxx-ng: >=4.9
    :depends ncurses: >=5.9,<5.10.0a0
    :depends perl: 
    :depends samtools: 1.3

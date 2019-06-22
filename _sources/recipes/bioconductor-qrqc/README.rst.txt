@@ -28,6 +28,7 @@ bioconductor-qrqc
    :depends bioconductor-biostrings: >=2.50.0,<2.51.0
    :depends bioconductor-biovizbase: >=1.30.0,<1.31.0
    :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-brew: 
    :depends r-ggplot2: 

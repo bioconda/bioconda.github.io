@@ -29,6 +29,7 @@ roary
    :depends blast: 
    :depends cd-hit: 
    :depends fasttree: 
+   :depends libgcc-ng: >=4.9
    :depends mafft: 
    :depends mcl: 
    :depends parallel: >=20180522

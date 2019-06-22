@@ -24,6 +24,8 @@ lordfast
 
    :versions: 0.0.10-0, 0.0.9-0
    
+   :depends libgcc-ng: >=4.9
+   :depends libstdcxx-ng: >=4.9
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

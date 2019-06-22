@@ -24,7 +24,8 @@ perl-b-hooks-endofscope
 
    :versions: 0.21-4, 0.21-3, 0.21-0
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-app-cpanminus: 
    :depends perl-module-implementation: 

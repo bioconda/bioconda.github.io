@@ -25,6 +25,7 @@ mcl
    :versions: 14.137-4, 14.137-3, 14.137-2, 14.137-1, 14.137-0
    
    :depends blast: 
+   :depends libgcc-ng: >=4.9
    :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 

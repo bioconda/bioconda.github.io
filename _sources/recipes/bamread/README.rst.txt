@@ -25,6 +25,7 @@ bamread
    :versions: 0.0.4-0
    
    :depends cython: 
+   :depends libgcc-ng: >=7.3.0
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 

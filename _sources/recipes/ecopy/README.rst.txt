@@ -25,6 +25,7 @@ ecopy
    :versions: 0.1.2.2-1, 0.1.2.2-0, 0.1.2-0
    
    :depends cython: 
+   :depends libgcc-ng: >=4.9
    :depends matplotlib: >=1.3.1
    :depends numpy: >=1.7
    :depends pandas: >=0.13

@@ -25,6 +25,7 @@ sorted_nearest
    :versions: 0.0.23-1, 0.0.22-1, 0.0.20-1, 0.0.19-1, 0.0.18-1, 0.0.17-1, 0.0.17-0
    
    :depends cython: 
+   :depends libgcc-ng: >=7.3.0
    :depends numpy: 
    :depends python: >=2.7,<2.8.0a0
    :requirements:

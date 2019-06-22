@@ -25,7 +25,8 @@ bio_hansel
    :versions: 2.2.0-0, 2.1.1-0, 2.1.0-0, 2.0.0-1, 2.0.0-0, 1.3.2-0, 1.3.1-0, 1.3.0-0, 1.2.0-0, 1.1.3-0, 1.1.1-0, 1.1.0-0, 0.2.0-1, 0.1.0-0
    
    :depends attrs: 
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends numpy: >=1.12.1
    :depends pandas: >=0.20.1
    :depends pyahocorasick: >=1.1.6

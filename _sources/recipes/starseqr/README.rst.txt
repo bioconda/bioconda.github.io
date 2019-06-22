@@ -27,6 +27,7 @@ starseqr
    :depends cython: 
    :depends gffread: 
    :depends intervaltree_bio: 
+   :depends libgcc-ng: >=4.9
    :depends networkx: 
    :depends numpy: 
    :depends pandas: >=0.18.1

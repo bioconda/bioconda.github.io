@@ -22,12 +22,13 @@ ncbi-amrfinderplus
 
    |downloads_ncbi-amrfinderplus| |docker_ncbi-amrfinderplus|
 
-   :versions: 3.0.8-0
+   :versions: 3.0.9-0, 3.0.8-0
    
    :depends blast: >=2.9
    :depends hmmer: >=3.2
    :depends libcurl: >=7.64.1,<8.0a0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

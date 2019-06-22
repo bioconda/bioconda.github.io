@@ -24,7 +24,8 @@ perl-compress-raw-bzip2
 
    :versions: 2.086-0, 2.084-0, 2.083-0, 2.081-0, 2.074-0, 2.069-2, 2.069-1
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 

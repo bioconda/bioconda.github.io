@@ -25,6 +25,7 @@ pyquant-ms
    :versions: 0.2.3-0, 0.2.1-1, 0.2.1-0, 0.1.43rc3-0, 0.1.42-0
    
    :depends cython: 
+   :depends libgcc-ng: >=4.9
    :depends lxml: 
    :depends numpy: 
    :depends pandas: 

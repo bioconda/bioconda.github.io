@@ -24,7 +24,7 @@ perl-module-fromperlver
 
    :versions: 0.008002-1, 0.008002-0
    
-   :depends perl: >=5.22.0.1,<5.23.0a0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-archive-tar: 
    :depends perl-carp: 
    :depends perl-file-copy-recursive: 

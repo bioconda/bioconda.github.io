@@ -24,7 +24,8 @@ pbmm2
 
    :versions: 1.0.0-0, 0.12.0-0, 0.11.0-0, 0.10.1-1, 0.10.1-0, 0.10.0-0, 0.9.0-0, 0.8.1-0, 0.7.0-0, 0.6.0-0, 0.5.1-0
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends pbbam: 0.23.0.*
    :depends pbcopper: 0.4.2.*
    :depends zlib: >=1.2.11,<1.3.0a0

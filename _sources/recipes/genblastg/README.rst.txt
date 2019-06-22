@@ -25,6 +25,7 @@ genblastg
    :versions: 1.39-1, 1.38-2, 1.38-1, 1.38-0
    
    :depends blast: 
+   :depends libgcc: 
    :depends zlib: 1.2.11*
    :requirements:
 

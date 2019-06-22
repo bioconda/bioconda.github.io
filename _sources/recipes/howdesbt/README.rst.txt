@@ -26,7 +26,8 @@ howdesbt
    
    :depends croaring: >=0.2.60,<0.2.61.0a0
    :depends jellyfish: >=2.2.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends sdsl-lite: 
    :requirements:
 

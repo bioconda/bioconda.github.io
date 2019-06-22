@@ -22,7 +22,7 @@ triqler
 
    |downloads_triqler| |docker_triqler|
 
-   :versions: 0.2.0-0
+   :versions: 0.2.1-0, 0.2.0-0
    
    :depends numpy: >=1.12
    :depends python: 

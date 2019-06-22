@@ -24,6 +24,7 @@ ncbi-vdb
 
    :versions: 2.9.3-0, 2.9.1-0, 2.9.0-0
    
+   :depends libgcc-ng: >=4.9
    :requirements:
 
    .. rubric:: Installation

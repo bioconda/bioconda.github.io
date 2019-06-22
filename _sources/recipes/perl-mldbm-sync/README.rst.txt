@@ -24,7 +24,7 @@ perl-mldbm-sync
 
    :versions: 0.30-1, 0.30-0
    
-   :depends perl: >=5.26.0,<5.27.0a0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-mldbm: 
    :depends perl-tie-cache: 
    :requirements:

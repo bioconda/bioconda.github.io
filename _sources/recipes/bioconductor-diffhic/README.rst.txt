@@ -41,7 +41,8 @@ bioconductor-diffhic
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
    :depends bioconductor-zlibbioc: >=1.28.0,<1.29.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-locfit: 
    :depends r-rcpp: 

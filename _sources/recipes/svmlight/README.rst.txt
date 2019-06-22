@@ -24,6 +24,7 @@ svmlight
 
    :versions: 6.02-1
    
+   :depends libgcc-ng: >=4.9
    :requirements:
 
    .. rubric:: Installation

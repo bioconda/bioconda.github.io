@@ -25,6 +25,7 @@ misopy
    :versions: 0.5.4-1, 0.5.4-0
    
    :depends bedtools: 
+   :depends libgcc-ng: >=4.9
    :depends matplotlib: 
    :depends numpy: >=1.5.0
    :depends pysam: >=0.6.0

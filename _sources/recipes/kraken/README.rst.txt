@@ -26,8 +26,8 @@ kraken
    :versions: 1.1.1-0, 1.1-2, 1.1-1, 1.1-0, 1.0-0, 0.10.6_eaf8fb68-4, 0.10.6_eaf8fb68-3, 0.10.6_eaf8fb68-2, 0.10.6_eaf8fb68-1, 0.10.6_eaf8fb68-0, 0.10.5beta-2, 0.10.5beta-0
    
    :depends jellyfish: 1.*
-   :depends libcxx: >=4.0.1
-   :depends llvm-openmp: 
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends rsync: 
    :depends wget: 

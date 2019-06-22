@@ -25,6 +25,7 @@ satrap
 
    :versions: 0.2-1, 0.2-0
    
+   :depends libstdcxx-ng: >=4.9
    :depends openmp: 
    :requirements:
 

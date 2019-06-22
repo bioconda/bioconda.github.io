@@ -12,7 +12,7 @@ rnasamba
    A tool for computing the coding potential of RNA transcript sequences using deep learning.
 
    :homepage: https://github.com/apcamargo/RNAsamba
-   :license: LGPL / GNU General Public (GPL)
+   :license: GPL / GPL-3
    :recipe: /`rnasamba <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnasamba>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnasamba/meta.yaml>`_
 
    
@@ -22,11 +22,11 @@ rnasamba
 
    |downloads_rnasamba| |docker_rnasamba|
 
-   :versions: 0.1.0-0
+   :versions: 0.1.0-1, 0.1.0-0
    
    :depends biopython: 
    :depends keras: >=2.1.0
-   :depends python: >3
+   :depends python: >=3.6
    :depends tensorflow: >=1.5.0,<2.0
    :requirements:
 

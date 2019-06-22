@@ -28,6 +28,7 @@ fraggenescan
 
    :versions: 1.31-1, 1.31-0, 1.30-2, 1.30-1, 1.30-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends perl: 
    :requirements:
 

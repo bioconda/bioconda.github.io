@@ -24,7 +24,7 @@ perl-mime-quotedprint
 
    :versions: 3.13-1, 3.13-0
    
-   :depends perl: >=5.26.0,<5.27.0a0
+   :depends perl: >=5.26.2,<5.27.0a0
    :requirements:
 
    .. rubric:: Installation

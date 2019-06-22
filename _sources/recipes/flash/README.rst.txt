@@ -25,6 +25,7 @@ flash
 
    :versions: 1.2.11-3, 1.2.11-2, 1.2.11-1, 1.2.11-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

@@ -28,6 +28,7 @@ rsem
    :depends bioconductor-biobase: 
    :depends bioconductor-ebseq: 
    :depends htslib: >=1.9,<1.10.0a0
+   :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-module-build: 
    :depends r-base: >=3.5.1,<3.5.2.0a0

@@ -25,7 +25,8 @@ moods
 
    :versions: 1.9.4.1-0, 1.9.3-4, 1.9.3-2, 1.9.3-1, 1.9.3-0, 1.9.0-0
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends python: >=2.7,<2.8.0a0
    :requirements:
 

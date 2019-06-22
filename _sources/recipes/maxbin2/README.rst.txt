@@ -28,6 +28,7 @@ maxbin2
    :depends fraggenescan: >=1.30
    :depends hmmer: 
    :depends idba: 
+   :depends libgcc-ng: >=7.3.0
    :depends perl-lwp-simple: 
    :depends r-base: 
    :depends r-gplots: 

@@ -25,6 +25,7 @@ addrg
    :versions: 0.2.1-4, 0.2.1-3, 0.2.1-2, 0.2.1-1, 0.2.1-0, 0.2-0, 0.1-0
    
    :depends htslib: >=1.9,<1.10.0a0
+   :depends libgcc-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation
