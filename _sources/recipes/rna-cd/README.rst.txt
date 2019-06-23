@@ -24,7 +24,7 @@ rna-cd
 
    |downloads_rna-cd| |docker_rna-cd|
 
-   :versions: 0.1.0-0
+   :versions: 0.2.0-0, 0.1.0-0
    
    :depends click: 
    :depends joblib: 
