@@ -22,9 +22,10 @@ sqlalchemy-datatables
 
    |downloads_sqlalchemy-datatables| |docker_sqlalchemy-datatables|
 
-   :versions: 0.3.0-1, 0.3.0-0, 0.2.1-0
+   :versions: 2.0.1-0, 0.3.0-1, 0.3.0-0, 0.2.1-0
    
-   :depends python: 
+   :depends dateutil: 
+   :depends python: >3
    :depends sqlalchemy: 
    :requirements:
 
