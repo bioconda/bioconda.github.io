@@ -23,7 +23,7 @@ rnablueprint
 
    |downloads_rnablueprint| |docker_rnablueprint|
 
-   :versions: 1.2.3-0, 1.2.2-0, 1.2-1, 1.2-0
+   :versions: 1.3.0-0, 1.2.3-0, 1.2.2-0, 1.2-1, 1.2-0
    
    :depends boost: >=1.68.0,<1.68.1.0a0
    :depends libgcc-ng: >=7.3.0

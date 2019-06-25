@@ -6,14 +6,14 @@
 glimmerhmm
 ==========
 
-.. conda:recipe:: glimmerHMM
+.. conda:recipe:: glimmerhmm
    :replaces_section_title:
 
    GlimmerHMM is a gene finder based on a Generalized Hidden Markov Model \(GHMM\)
 
    :homepage: https://ccb.jhu.edu/software/glimmerhmm/
    :license: Artistic License
-   :recipe: /`glimmerHMM <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/glimmerHMM>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/glimmerHMM/meta.yaml>`_
+   :recipe: /`glimmerhmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/glimmerhmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/glimmerhmm/meta.yaml>`_
 
    
 
@@ -22,9 +22,11 @@ glimmerhmm
 
    |downloads_glimmerhmm| |docker_glimmerhmm|
 
-   :versions: 3.0.4-2, 3.0.4-1, 3.0.4-0
+   :versions: 3.0.4-3, 3.0.4-2, 3.0.4-1, 3.0.4-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 
    .. rubric:: Installation
