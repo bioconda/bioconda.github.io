@@ -11,7 +11,7 @@ tspex
 
    A Python package for calculating tissue\-specificity metrics for gene expression.
 
-   :homepage: https://github.com/apcamargo/tspex
+   :homepage: http://apcamargo.github.io/tspex/
    :license: LGPL / GNU General Public (GPL)
    :recipe: /`tspex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tspex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tspex/meta.yaml>`_
 
@@ -22,7 +22,7 @@ tspex
 
    |downloads_tspex| |docker_tspex|
 
-   :versions: 0.5.0-0, 0.4.0-0, 0.3.1-0, 0.3.0-0, 0.2.0-0, 0.1.1-0
+   :versions: 0.5.1-0, 0.5.0-0, 0.4.0-0, 0.3.1-0, 0.3.0-0, 0.2.0-0, 0.1.1-0
    
    :depends matplotlib: >=2.2
    :depends numpy: 

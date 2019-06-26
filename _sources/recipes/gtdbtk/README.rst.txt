@@ -22,7 +22,7 @@ gtdbtk
 
    |downloads_gtdbtk| |docker_gtdbtk|
 
-   :versions: 0.2.2-0, 0.1.6-0, 0.1.5-0, 0.1.3-0
+   :versions: 0.3.0-0, 0.2.2-0, 0.1.6-0, 0.1.5-0, 0.1.3-0
    
    :depends dendropy: >=4.1.0
    :depends fastani: 
@@ -31,7 +31,7 @@ gtdbtk
    :depends hmmer: 
    :depends pplacer: 
    :depends prodigal: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation
