@@ -23,6 +23,7 @@ githubhandler
    .. autosummary::
    
       AiohttpGitHubHandler
+      CardContentType
       CheckRunConclusion
       CheckRunStatus
       Event

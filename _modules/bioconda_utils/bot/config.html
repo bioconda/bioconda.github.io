@@ -138,6 +138,12 @@
 <span class="c1">#: Numeric App ID (not secret, technically)</span>
 <span class="n">APP_ID</span> <span class="o">=</span> <span class="n">get_secret</span><span class="p">(</span><span class="s2">&quot;APP_ID&quot;</span><span class="p">)</span>
 
+<span class="c1">#: App OAuth client ID</span>
+<span class="n">APP_CLIENT_ID</span> <span class="o">=</span> <span class="n">get_secret</span><span class="p">(</span><span class="s2">&quot;APP_CLIENT_ID&quot;</span><span class="p">)</span>
+
+<span class="c1">#: App OAuth client secret</span>
+<span class="n">APP_CLIENT_SECRET</span> <span class="o">=</span> <span class="n">get_secret</span><span class="p">(</span><span class="s2">&quot;APP_CLIENT_SECRET&quot;</span><span class="p">)</span>
+
 <span class="c1">#: Secret shared with Github used by us to authenticate incoming webhooks</span>
 <span class="n">APP_SECRET</span> <span class="o">=</span> <span class="n">get_secret</span><span class="p">(</span><span class="s2">&quot;APP_SECRET&quot;</span><span class="p">)</span>
 
@@ -175,8 +181,16 @@
 <span class="c1">#: which the CODE_SIGNING_KEY was registered.</span>
 <span class="n">BOT_EMAIL</span> <span class="o">=</span> <span class="s2">&quot;47040946+BiocondaBot@users.noreply.github.com&quot;</span>
 
+<span class="c1">#: Baseurl of bot (for oauth redirects we need to know where we are)</span>
+<span class="n">BOT_BASEURL</span> <span class="o">=</span> <span class="n">get_secret</span><span class="p">(</span><span class="s2">&quot;BOT_BASEURL&quot;</span><span class="p">)</span>
+
 <span class="c1">#: Time in seconds after which repodata should be reloaded</span>
 <span class="n">REPODATA_TIMEOUT</span> <span class="o">=</span> <span class="mi">300</span>
+
+<span class="c1">#: Assign PRs to project columns by label</span>
+<span class="n">PROJECT_COLUMN_LABEL_MAP</span> <span class="o">=</span> <span class="p">{</span>
+     <span class="mi">5706816</span><span class="p">:</span> <span class="nb">set</span><span class="p">((</span><span class="s1">&#39;please review &amp; merge&#39;</span><span class="p">,)),</span>
+<span class="p">}</span>
 </pre></div>
 
           </div>
@@ -189,7 +203,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>

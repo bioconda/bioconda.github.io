@@ -176,10 +176,7 @@
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.Image" title="bioconda_utils.bot.tasks.Image"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Image</span></code></a>(url, name, tag)</p></td>
 <td><p>Create new instance of Image(url, name, tag)</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.PRInfo" title="bioconda_utils.bot.tasks.PRInfo"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PRInfo</span></code></a>(installation, user, repo, ref, …)</p></td>
-<td><p>Create new instance of PRInfo(installation, user, repo, ref, recipes, issue_number)</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.Package" title="bioconda_utils.bot.tasks.Package"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Package</span></code></a>(arch, fname, url, repodata_md)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.tasks.Package" title="bioconda_utils.bot.tasks.Package"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Package</span></code></a>(arch, fname, url, repodata_md)</p></td>
 <td><p>Create new instance of Package(arch, fname, url, repodata_md)</p></td>
 </tr>
 </tbody>
@@ -229,49 +226,6 @@
 <dt id="bioconda_utils.bot.tasks.Image.url">
 <em class="property">property </em><code class="sig-name descname">url</code><a class="headerlink" href="#bioconda_utils.bot.tasks.Image.url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Alias for field number 0</p>
-</dd></dl>
-
-</dd></dl>
-
-<dl class="class">
-<dt id="bioconda_utils.bot.tasks.PRInfo">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.bot.tasks.</code><code class="sig-name descname">PRInfo</code><span class="sig-paren">(</span><em class="sig-param">installation</em>, <em class="sig-param">user</em>, <em class="sig-param">repo</em>, <em class="sig-param">ref</em>, <em class="sig-param">recipes</em>, <em class="sig-param">issue_number</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.PRInfo" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">tuple</span></code></a></p>
-<p>Create new instance of PRInfo(installation, user, repo, ref, recipes, issue_number)</p>
-<dl class="method">
-<dt id="bioconda_utils.bot.tasks.PRInfo.installation">
-<em class="property">property </em><code class="sig-name descname">installation</code><a class="headerlink" href="#bioconda_utils.bot.tasks.PRInfo.installation" title="Permalink to this definition">¶</a></dt>
-<dd><p>Alias for field number 0</p>
-</dd></dl>
-
-<dl class="method">
-<dt id="bioconda_utils.bot.tasks.PRInfo.issue_number">
-<em class="property">property </em><code class="sig-name descname">issue_number</code><a class="headerlink" href="#bioconda_utils.bot.tasks.PRInfo.issue_number" title="Permalink to this definition">¶</a></dt>
-<dd><p>Alias for field number 5</p>
-</dd></dl>
-
-<dl class="method">
-<dt id="bioconda_utils.bot.tasks.PRInfo.recipes">
-<em class="property">property </em><code class="sig-name descname">recipes</code><a class="headerlink" href="#bioconda_utils.bot.tasks.PRInfo.recipes" title="Permalink to this definition">¶</a></dt>
-<dd><p>Alias for field number 4</p>
-</dd></dl>
-
-<dl class="method">
-<dt id="bioconda_utils.bot.tasks.PRInfo.ref">
-<em class="property">property </em><code class="sig-name descname">ref</code><a class="headerlink" href="#bioconda_utils.bot.tasks.PRInfo.ref" title="Permalink to this definition">¶</a></dt>
-<dd><p>Alias for field number 3</p>
-</dd></dl>
-
-<dl class="method">
-<dt id="bioconda_utils.bot.tasks.PRInfo.repo">
-<em class="property">property </em><code class="sig-name descname">repo</code><a class="headerlink" href="#bioconda_utils.bot.tasks.PRInfo.repo" title="Permalink to this definition">¶</a></dt>
-<dd><p>Alias for field number 2</p>
-</dd></dl>
-
-<dl class="method">
-<dt id="bioconda_utils.bot.tasks.PRInfo.user">
-<em class="property">property </em><code class="sig-name descname">user</code><a class="headerlink" href="#bioconda_utils.bot.tasks.PRInfo.user" title="Permalink to this definition">¶</a></dt>
-<dd><p>Alias for field number 1</p>
 </dd></dl>
 
 </dd></dl>
@@ -443,6 +397,12 @@ promise will only evaluate it once.</p>
 </dl>
 </dd></dl>
 
+<dl class="task">
+<dt id="bioconda_utils.bot.tasks.update_pr_project_columns">
+<em class="property">(task)</em><code class="sig-prename descclassname">bioconda_utils.bot.tasks.</code><code class="sig-name descname">update_pr_project_columns</code><span class="sig-paren">(</span><em class="sig-param">issue_number</em>, <em class="sig-param">ghapi</em>, <em class="sig-param">*_args</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.update_pr_project_columns" title="Permalink to this definition">¶</a></dt>
+<dd><p>Updates project columns for PR according to labels</p>
+</dd></dl>
+
 </div>
 
 
@@ -456,7 +416,7 @@ promise will only evaluate it once.</p>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

@@ -131,37 +131,151 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">generic_circleci_dispatch</span></code>(request)</p></td>
-<td><p></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.add_to_navbar" title="bioconda_utils.bot.views.add_to_navbar"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_to_navbar</span></code></a>(title)</p></td>
+<td><p>Decorator adding a view to the navigation bar</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.generic_webhook_dispatch" title="bioconda_utils.bot.views.generic_webhook_dispatch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">generic_webhook_dispatch</span></code></a>(request)</p></td>
-<td><p>Accepts webhooks and dumps them to the log, so we can see what we would be receiving</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.auth_github" title="bioconda_utils.bot.views.auth_github"><code class="xref py py-obj docutils literal notranslate"><span class="pre">auth_github</span></code></a>(request)</p></td>
+<td><p>View for signing in with Github</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.github_webhook_dispatch" title="bioconda_utils.bot.views.github_webhook_dispatch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">github_webhook_dispatch</span></code></a>(request)</p></td>
-<td><p>Accepts webhooks from Github and dispatches them to event handlers</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.check_permission" title="bioconda_utils.bot.views.check_permission"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_permission</span></code></a>(request, permission[, context])</p></td>
+<td><p>Checks permissions</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.show_status" title="bioconda_utils.bot.views.show_status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">show_status</span></code></a>(request)</p></td>
-<td><p>Shows the index page (‘/’)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.generic_circleci_dispatch" title="bioconda_utils.bot.views.generic_circleci_dispatch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">generic_circleci_dispatch</span></code></a>(request)</p></td>
+<td><p>View for incoming webhooks from CircleCI</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.generic_webhook_dispatch" title="bioconda_utils.bot.views.generic_webhook_dispatch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">generic_webhook_dispatch</span></code></a>(request)</p></td>
+<td><p>View for all other incoming webhooks</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.github_webhook_dispatch" title="bioconda_utils.bot.views.github_webhook_dispatch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">github_webhook_dispatch</span></code></a>(request)</p></td>
+<td><p>View for incoming webhooks from Github</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.list_commands" title="bioconda_utils.bot.views.list_commands"><code class="xref py py-obj docutils literal notranslate"><span class="pre">list_commands</span></code></a>(request)</p></td>
+<td><p>Self documents available commands</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.login" title="bioconda_utils.bot.views.login"><code class="xref py py-obj docutils literal notranslate"><span class="pre">login</span></code></a>(request)</p></td>
+<td><p>View for login page</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.logout" title="bioconda_utils.bot.views.logout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">logout</span></code></a>(request)</p></td>
+<td><p>View for logging out user</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.show_index" title="bioconda_utils.bot.views.show_index"><code class="xref py py-obj docutils literal notranslate"><span class="pre">show_index</span></code></a>(_request)</p></td>
+<td><p>View for the Bot’s home page.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.show_status" title="bioconda_utils.bot.views.show_status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">show_status</span></code></a>(request)</p></td>
+<td><p>View for checking in on the bots status</p></td>
 </tr>
 </tbody>
 </table>
 <p class="rubric">Documentation</p>
 <dl class="function">
+<dt id="bioconda_utils.bot.views.add_to_navbar">
+<code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">add_to_navbar</code><span class="sig-paren">(</span><em class="sig-param">title</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/views.html#add_to_navbar"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.add_to_navbar" title="Permalink to this definition">¶</a></dt>
+<dd><p>Decorator adding a view to the navigation bar</p>
+<p>Must be “above” the <code class="docutils literal notranslate"><span class="pre">&#64;web_routes</span></code> decorator.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>title</strong> – Title to register for this page. Will be the HTML title
+and the name in the navbar.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.bot.views.auth_github">
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">auth_github</code><span class="sig-paren">(</span><em class="sig-param">request</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/views.html#auth_github"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.auth_github" title="Permalink to this definition">¶</a></dt>
+<dd><p>View for signing in with Github</p>
+<p>Currently the only authentication method (and probably will remain so).</p>
+<p>This will redirect to Github to allow OAUTH authentication if
+necessary.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.bot.views.check_permission">
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">check_permission</code><span class="sig-paren">(</span><em class="sig-param">request</em>, <em class="sig-param">permission</em>, <em class="sig-param">context=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/views.html#check_permission"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.check_permission" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks permissions</p>
+<p>Custom implementation replacing aiohttp-security one. This one
+adds the requested permissions to the request so they can
+be presented in the error handler.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p><strong>HTTPForbidden</strong> – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.bot.views.generic_circleci_dispatch">
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">generic_circleci_dispatch</code><span class="sig-paren">(</span><em class="sig-param">request</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/views.html#generic_circleci_dispatch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.generic_circleci_dispatch" title="Permalink to this definition">¶</a></dt>
+<dd><p>View for incoming webhooks from CircleCI</p>
+<p>These are actually slack messages. We try to deparse them, but
+nothing is implemented on acting upon them yet.</p>
+</dd></dl>
+
+<dl class="function">
 <dt id="bioconda_utils.bot.views.generic_webhook_dispatch">
 <em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">generic_webhook_dispatch</code><span class="sig-paren">(</span><em class="sig-param">request</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/views.html#generic_webhook_dispatch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.generic_webhook_dispatch" title="Permalink to this definition">¶</a></dt>
-<dd><p>Accepts webhooks and dumps them to the log, so we can see what we would be receiving</p>
+<dd><p>View for all other incoming webhooks</p>
+<p>This is just for debugging, so we can see what we would be
+receiving</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.bot.views.github_webhook_dispatch">
 <em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">github_webhook_dispatch</code><span class="sig-paren">(</span><em class="sig-param">request</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/views.html#github_webhook_dispatch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.github_webhook_dispatch" title="Permalink to this definition">¶</a></dt>
-<dd><p>Accepts webhooks from Github and dispatches them to event handlers</p>
+<dd><p>View for incoming webhooks from Github</p>
+<p>Here, webhooks (events) from Github are accepted and dispatched to
+the event handlers defined in <a class="reference internal" href="bioconda_utils.bot.events.html#module-bioconda_utils.bot.events" title="bioconda_utils.bot.events"><code class="xref any py py-mod docutils literal notranslate"><span class="pre">events</span></code></a> module and registered with
+<code class="xref any docutils literal notranslate"><span class="pre">event_routes</span></code>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.bot.views.list_commands">
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">list_commands</code><span class="sig-paren">(</span><em class="sig-param">request</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/views.html#list_commands"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.list_commands" title="Permalink to this definition">¶</a></dt>
+<dd><p>Self documents available commands</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.bot.views.login">
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">login</code><span class="sig-paren">(</span><em class="sig-param">request</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/views.html#login"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.login" title="Permalink to this definition">¶</a></dt>
+<dd><p>View for login page</p>
+<p>Redirects to <code class="docutils literal notranslate"><span class="pre">/auth/github</span></code> in all cases - no other login
+methods supported.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.bot.views.logout">
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">logout</code><span class="sig-paren">(</span><em class="sig-param">request</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/views.html#logout"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.logout" title="Permalink to this definition">¶</a></dt>
+<dd><p>View for logging out user</p>
+<p>Accepts a <strong>next</strong> parameter in the URL. This is where the user is
+sent back to (via HTTP redirect) after logging out.</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="bioconda_utils.bot.views.navigation_bar">
+<code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">navigation_bar</code><em class="property"> = [('/', 'home', 'Home'), ('/status', 'status', 'Status'), ('/commands', 'commands', 'Commands')]</em><a class="headerlink" href="#bioconda_utils.bot.views.navigation_bar" title="Permalink to this definition">¶</a></dt>
+<dd><p>List of navigation bar entries defined by this module</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.bot.views.show_index">
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">show_index</code><span class="sig-paren">(</span><em class="sig-param">_request</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/views.html#show_index"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.show_index" title="Permalink to this definition">¶</a></dt>
+<dd><p>View for the Bot’s home page.</p>
+<p>Renders nothing special at the moment, just the template.</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="bioconda_utils.bot.views.show_status">
 <em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">show_status</code><span class="sig-paren">(</span><em class="sig-param">request</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/bioconda_utils/bot/views.html#show_status"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.show_status" title="Permalink to this definition">¶</a></dt>
-<dd><p>Shows the index page (‘/’)</p>
+<dd><p>View for checking in on the bots status</p>
+<p>Shows the status of each responsding worker.  This page may take
+100ms extra to render. If workers are busy, they may not respons
+within that time.</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="bioconda_utils.bot.views.web_routes">
+<code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">web_routes</code><em class="property"> = &lt;RouteTableDef count=9&gt;</em><a class="headerlink" href="#bioconda_utils.bot.views.web_routes" title="Permalink to this definition">¶</a></dt>
+<dd><p>List of routes from url path to handler defined in this module</p>
 </dd></dl>
 
 </div>
@@ -177,7 +291,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

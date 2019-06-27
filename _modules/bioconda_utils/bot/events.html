@@ -239,7 +239,10 @@
 
     <span class="k">if</span> <span class="n">action</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">&#39;opened&#39;</span><span class="p">,</span> <span class="s1">&#39;reopened&#39;</span><span class="p">,</span> <span class="s1">&#39;synchronize&#39;</span><span class="p">):</span>
         <span class="n">tasks</span><span class="o">.</span><span class="n">create_check_run</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">head_sha</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">,</span> <span class="n">recreate</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">(</span><span class="n">countdown</span><span class="o">=</span><span class="mi">30</span><span class="p">)</span>
-        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Scheduled create_check_run(recreate=False) for </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">)</span></div>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Scheduled create_check_run(recreate=False) for </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">action</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">&#39;labeled&#39;</span><span class="p">,</span> <span class="s1">&#39;unlabeled&#39;</span><span class="p">,</span> <span class="s1">&#39;closed&#39;</span><span class="p">):</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">update_pr_project_columns</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">pr_number</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span><span class="o">.</span><span class="n">apply_async</span><span class="p">()</span></div>
 </pre></div>
 
           </div>
@@ -252,7 +255,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>

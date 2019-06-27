@@ -109,20 +109,138 @@
 <span class="kn">import</span> <span class="nn">logging</span>
 <span class="kn">import</span> <span class="nn">subprocess</span>
 <span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">import</span> <span class="nn">os</span>
 
+<span class="kn">import</span> <span class="nn">base64</span>
+<span class="kn">from</span> <span class="nn">cryptography</span> <span class="k">import</span> <span class="n">fernet</span>
 <span class="kn">import</span> <span class="nn">aiohttp</span>
-
-<span class="kn">from</span> <span class="nn">.config</span> <span class="k">import</span> <span class="n">BOT_NAME</span><span class="p">,</span> <span class="n">APP_KEY</span><span class="p">,</span> <span class="n">APP_ID</span><span class="p">,</span> <span class="n">GITTER_TOKEN</span><span class="p">,</span> <span class="n">GITTER_CHANNELS</span>
-<span class="kn">from</span> <span class="nn">.views</span> <span class="k">import</span> <span class="n">web_routes</span>
+<span class="kn">import</span> <span class="nn">aiohttp_jinja2</span>
+<span class="kn">import</span> <span class="nn">jinja2</span>
+<span class="kn">import</span> <span class="nn">markdown</span>
+<span class="kn">import</span> <span class="nn">markupsafe</span>
+<span class="kn">from</span> <span class="nn">aiohttp_session</span> <span class="k">import</span> <span class="n">setup</span> <span class="k">as</span> <span class="n">setup_session</span>
+<span class="kn">from</span> <span class="nn">aiohttp_session.cookie_storage</span> <span class="k">import</span> <span class="n">EncryptedCookieStorage</span>
+<span class="kn">from</span> <span class="nn">aiohttp_security</span> <span class="k">import</span> <span class="p">(</span><span class="n">authorized_userid</span><span class="p">,</span>
+                              <span class="n">setup</span> <span class="k">as</span> <span class="n">setup_security</span><span class="p">,</span>
+                              <span class="n">SessionIdentityPolicy</span><span class="p">,</span> <span class="n">AbstractAuthorizationPolicy</span><span class="p">)</span>
+<span class="kn">from</span> <span class="nn">.config</span> <span class="k">import</span> <span class="p">(</span><span class="n">BOT_NAME</span><span class="p">,</span> <span class="n">APP_KEY</span><span class="p">,</span> <span class="n">APP_ID</span><span class="p">,</span> <span class="n">GITTER_TOKEN</span><span class="p">,</span> <span class="n">GITTER_CHANNELS</span><span class="p">,</span>
+                     <span class="n">APP_CLIENT_ID</span><span class="p">,</span> <span class="n">APP_CLIENT_SECRET</span><span class="p">)</span>
+<span class="kn">from</span> <span class="nn">.views</span> <span class="k">import</span> <span class="n">web_routes</span><span class="p">,</span> <span class="n">navigation_bar</span>
 <span class="kn">from</span> <span class="nn">.chat</span> <span class="k">import</span> <span class="n">GitterListener</span>
 <span class="kn">from</span> <span class="nn">..</span> <span class="k">import</span> <span class="n">utils</span>
-<span class="kn">from</span> <span class="nn">..githubhandler</span> <span class="k">import</span> <span class="n">GitHubAppHandler</span>
+<span class="kn">from</span> <span class="nn">..githubhandler</span> <span class="k">import</span> <span class="n">GitHubAppHandler</span><span class="p">,</span> <span class="n">AiohttpGitHubHandler</span>
 <span class="kn">from</span> <span class="nn">..</span> <span class="k">import</span> <span class="n">__version__</span> <span class="k">as</span> <span class="n">VERSION</span>
 
 
 <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>  <span class="c1"># pylint: disable=invalid-name</span>
-<span class="n">loglevel</span> <span class="o">=</span> <span class="s1">&#39;INFO&#39;</span>
 
+<span class="c1">#: Override this to get more verbose logging of web app (and, if launched</span>
+<span class="c1">#: with web frontend, the worker).</span>
+<span class="n">LOGLEVEL</span> <span class="o">=</span> <span class="s1">&#39;INFO&#39;</span>
+
+
+<div class="viewcode-block" id="AuthorizationPolicy"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.web.html#bioconda_utils.bot.web.AuthorizationPolicy">[docs]</a><span class="k">class</span> <span class="nc">AuthorizationPolicy</span><span class="p">(</span><span class="n">AbstractAuthorizationPolicy</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Authorization policy for web interface&quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">app</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">app</span> <span class="o">=</span> <span class="n">app</span>
+
+<div class="viewcode-block" id="AuthorizationPolicy.authorized_userid"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.web.html#bioconda_utils.bot.web.AuthorizationPolicy.authorized_userid">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">authorized_userid</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">identity</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AiohttpGitHubHandler</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Retrieve authorized user id.</span>
+
+<span class="sd">        Arguments:</span>
+<span class="sd">          identity: random string identifying user. We use bearer token.</span>
+<span class="sd">        Returns:</span>
+<span class="sd">          Logged in Github API client.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">app</span><span class="p">[</span><span class="s1">&#39;ghappapi&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">get_github_user_api</span><span class="p">(</span><span class="n">identity</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="AuthorizationPolicy.permits"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.web.html#bioconda_utils.bot.web.AuthorizationPolicy.permits">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">permits</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">identity</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">permission</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">context</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Check user permissions.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">          True if the **identity** is allowed the **permission**</span>
+<span class="sd">          in the current **context**.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># Fail if no identity</span>
+        <span class="k">if</span> <span class="n">identity</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">False</span>
+
+        <span class="n">org</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">team</span> <span class="o">=</span> <span class="n">permission</span><span class="o">.</span><span class="n">partition</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">)</span>
+
+        <span class="c1"># Fail if no permissions requested</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">org</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Internal error: checking for empty permission not allowed&quot;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="kc">False</span>
+
+        <span class="c1"># Fail if not logged in</span>
+        <span class="n">userapi</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">app</span><span class="p">[</span><span class="s1">&#39;ghappapi&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">get_github_user_api</span><span class="p">(</span><span class="n">identity</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">userapi</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">False</span>
+
+        <span class="c1"># Fail if not in requested org</span>
+        <span class="k">if</span> <span class="n">org</span> <span class="ow">not</span> <span class="ow">in</span> <span class="k">await</span> <span class="n">userapi</span><span class="o">.</span><span class="n">get_user_orgs</span><span class="p">():</span>
+            <span class="k">return</span> <span class="kc">False</span>
+
+        <span class="c1"># Fail if team requested and user not in team</span>
+        <span class="k">if</span> <span class="n">team</span> <span class="ow">and</span> <span class="ow">not</span> <span class="k">await</span> <span class="n">userapi</span><span class="o">.</span><span class="n">is_team_member</span><span class="p">(</span><span class="n">userapi</span><span class="o">.</span><span class="n">username</span><span class="p">,</span> <span class="n">team</span><span class="p">):</span>
+            <span class="k">return</span> <span class="kc">False</span>
+
+        <span class="k">return</span> <span class="kc">True</span></div></div>
+
+
+<div class="viewcode-block" id="jinja_defaults"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.web.html#bioconda_utils.bot.web.jinja_defaults">[docs]</a><span class="k">async</span> <span class="k">def</span> <span class="nf">jinja_defaults</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Provides all web views using aiohttp-jinja2 with default values</span>
+
+<span class="sd">    Values are:</span>
+<span class="sd">      - **user**: The `AiohttpGitHubHandler for the user if a user is logged in.</span>
+<span class="sd">      - **version**: The version of the bot running</span>
+<span class="sd">      - **navigation_bar**: List of 3-tuples for building nav bar. Each tuple</span>
+<span class="sd">        comprises the location, ID and natural name for the page to be added</span>
+<span class="sd">        to the main nav bar.</span>
+<span class="sd">      - **active_page**: The ID of the currently rendered page. This is set in</span>
+<span class="sd">        the aiohttp router as ``name`` field.</span>
+<span class="sd">      - **title**: The title of the current page. Parsed from **navigation_bar**</span>
+<span class="sd">        using **active_page**.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">active_page</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">match_info</span><span class="o">.</span><span class="n">route</span><span class="o">.</span><span class="n">name</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">title</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="n">item</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">navigation_bar</span> <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="n">active_page</span><span class="p">)[</span><span class="mi">2</span><span class="p">]</span>
+    <span class="k">except</span> <span class="ne">StopIteration</span><span class="p">:</span>
+        <span class="n">title</span> <span class="o">=</span> <span class="s1">&#39;Unknown&#39;</span>
+    <span class="n">ghapi</span> <span class="o">=</span> <span class="k">await</span> <span class="n">authorized_userid</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="s1">&#39;user&#39;</span><span class="p">:</span> <span class="n">ghapi</span><span class="p">,</span>
+        <span class="s1">&#39;version&#39;</span><span class="p">:</span> <span class="n">VERSION</span><span class="p">,</span>
+        <span class="s1">&#39;navigation_bar&#39;</span><span class="p">:</span> <span class="n">navigation_bar</span><span class="p">,</span>
+        <span class="s1">&#39;active_page&#39;</span><span class="p">:</span> <span class="n">active_page</span><span class="p">,</span>
+        <span class="s1">&#39;title&#39;</span><span class="p">:</span> <span class="n">title</span><span class="p">,</span>
+        <span class="s1">&#39;request&#39;</span><span class="p">:</span> <span class="n">request</span><span class="p">,</span>
+    <span class="p">}</span></div>
+
+
+<span class="n">md2html</span> <span class="o">=</span> <span class="n">markdown</span><span class="o">.</span><span class="n">Markdown</span><span class="p">(</span><span class="n">extensions</span><span class="o">=</span><span class="p">[</span>
+    <span class="s1">&#39;markdown.extensions.fenced_code&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;markdown.extensions.tables&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;markdown.extensions.admonition&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;markdown.extensions.codehilite&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;markdown.extensions.sane_lists&#39;</span><span class="p">,</span>
+<span class="p">])</span>
+
+<span class="k">def</span> <span class="nf">jinja2_filter_markdown</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">markupsafe</span><span class="o">.</span><span class="n">Markup</span><span class="p">(</span><span class="n">md2html</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span><span class="o">.</span><span class="n">convert</span><span class="p">(</span><span class="n">text</span><span class="p">))</span>
+
+
+<span class="nd">@aiohttp</span><span class="o">.</span><span class="n">web</span><span class="o">.</span><span class="n">middleware</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">handle_errors</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">handler</span><span class="p">):</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="k">return</span> <span class="k">await</span> <span class="n">handler</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
+    <span class="k">except</span> <span class="n">aiohttp</span><span class="o">.</span><span class="n">web</span><span class="o">.</span><span class="n">HTTPException</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">exc</span><span class="o">.</span><span class="n">status</span> <span class="ow">in</span> <span class="p">(</span><span class="mi">302</span><span class="p">,):</span>
+            <span class="k">raise</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">aiohttp_jinja2</span><span class="o">.</span><span class="n">render_template</span><span class="p">(</span><span class="s1">&#39;bot_40x.html&#39;</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;exc&#39;</span><span class="p">:</span><span class="n">exc</span><span class="p">})</span>
+        <span class="k">except</span> <span class="ne">KeyError</span> <span class="k">as</span> <span class="n">XYZ</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">exc</span>
 
 <div class="viewcode-block" id="start"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.web.html#bioconda_utils.bot.web.start">[docs]</a><span class="k">async</span> <span class="k">def</span> <span class="nf">start</span><span class="p">():</span>
     <span class="sd">&quot;&quot;&quot;Initialize App</span>
@@ -134,22 +252,49 @@
 <span class="sd">      --worker-class aiohttp.worker.GunicornWebWorker \</span>
 <span class="sd">      --reload</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">utils</span><span class="o">.</span><span class="n">setup_logger</span><span class="p">(</span><span class="s1">&#39;bioconda_utils&#39;</span><span class="p">,</span> <span class="n">loglevel</span><span class="p">,</span> <span class="n">prefix</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="n">utils</span><span class="o">.</span><span class="n">setup_logger</span><span class="p">(</span><span class="s1">&#39;bioconda_utils&#39;</span><span class="p">,</span> <span class="n">LOGLEVEL</span><span class="p">,</span> <span class="n">prefix</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
     <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Starting bot (version=</span><span class="si">%s</span><span class="s2">)&quot;</span><span class="p">,</span> <span class="n">VERSION</span><span class="p">)</span>
 
     <span class="n">app</span> <span class="o">=</span> <span class="n">aiohttp</span><span class="o">.</span><span class="n">web</span><span class="o">.</span><span class="n">Application</span><span class="p">()</span>
+    <span class="n">app</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">BOT_NAME</span>
+
+    <span class="c1"># Set up session storage</span>
+    <span class="n">fernet_key</span> <span class="o">=</span> <span class="n">fernet</span><span class="o">.</span><span class="n">Fernet</span><span class="o">.</span><span class="n">generate_key</span><span class="p">()</span>
+    <span class="n">secret_key</span> <span class="o">=</span> <span class="n">base64</span><span class="o">.</span><span class="n">urlsafe_b64decode</span><span class="p">(</span><span class="n">fernet_key</span><span class="p">)</span>
+    <span class="n">session_store</span> <span class="o">=</span> <span class="n">EncryptedCookieStorage</span><span class="p">(</span><span class="n">secret_key</span><span class="p">)</span>
+    <span class="n">setup_session</span><span class="p">(</span><span class="n">app</span><span class="p">,</span> <span class="n">session_store</span><span class="p">)</span>
+
+    <span class="c1"># Set up security</span>
+    <span class="n">setup_security</span><span class="p">(</span><span class="n">app</span><span class="p">,</span> <span class="n">SessionIdentityPolicy</span><span class="p">(),</span> <span class="n">AuthorizationPolicy</span><span class="p">(</span><span class="n">app</span><span class="p">))</span>
+
+    <span class="c1"># Set up jinja2 rendering</span>
+    <span class="n">loader</span> <span class="o">=</span> <span class="n">jinja2</span><span class="o">.</span><span class="n">PackageLoader</span><span class="p">(</span><span class="s1">&#39;bioconda_utils&#39;</span><span class="p">,</span> <span class="s1">&#39;templates&#39;</span><span class="p">)</span>
+    <span class="n">aiohttp_jinja2</span><span class="o">.</span><span class="n">setup</span><span class="p">(</span><span class="n">app</span><span class="p">,</span> <span class="n">loader</span><span class="o">=</span><span class="n">loader</span><span class="p">,</span>
+                         <span class="n">context_processors</span><span class="o">=</span><span class="p">[</span><span class="n">jinja_defaults</span><span class="p">],</span>
+                         <span class="n">filters</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;markdown&#39;</span><span class="p">:</span> <span class="n">jinja2_filter_markdown</span><span class="p">})</span>
+
+    <span class="c1"># Set up error handlers</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">middlewares</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">handle_errors</span><span class="p">)</span>
 
     <span class="c1"># Prepare persistent client session</span>
     <span class="n">app</span><span class="p">[</span><span class="s1">&#39;client_session&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">aiohttp</span><span class="o">.</span><span class="n">ClientSession</span><span class="p">()</span>
-    <span class="n">app</span><span class="p">[</span><span class="s1">&#39;ghappapi&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">GitHubAppHandler</span><span class="p">(</span><span class="n">app</span><span class="p">[</span><span class="s1">&#39;client_session&#39;</span><span class="p">],</span>
-                                       <span class="n">BOT_NAME</span><span class="p">,</span> <span class="n">APP_KEY</span><span class="p">,</span> <span class="n">APP_ID</span><span class="p">)</span>
 
+    <span class="c1"># Create Github client</span>
+    <span class="n">app</span><span class="p">[</span><span class="s1">&#39;ghappapi&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">GitHubAppHandler</span><span class="p">(</span><span class="n">app</span><span class="p">[</span><span class="s1">&#39;client_session&#39;</span><span class="p">],</span>
+                                       <span class="n">BOT_NAME</span><span class="p">,</span> <span class="n">APP_KEY</span><span class="p">,</span> <span class="n">APP_ID</span><span class="p">,</span>
+                                       <span class="n">APP_CLIENT_ID</span><span class="p">,</span> <span class="n">APP_CLIENT_SECRET</span><span class="p">)</span>
+
+    <span class="c1"># Create Gitter Client (background process)</span>
     <span class="n">app</span><span class="p">[</span><span class="s1">&#39;gitter_listener&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">GitterListener</span><span class="p">(</span>
         <span class="n">app</span><span class="p">,</span> <span class="n">GITTER_TOKEN</span><span class="p">,</span> <span class="n">GITTER_CHANNELS</span><span class="p">,</span> <span class="n">app</span><span class="p">[</span><span class="s1">&#39;client_session&#39;</span><span class="p">],</span>
         <span class="n">app</span><span class="p">[</span><span class="s1">&#39;ghappapi&#39;</span><span class="p">])</span>
 
     <span class="c1"># Add routes collected above</span>
     <span class="n">app</span><span class="o">.</span><span class="n">add_routes</span><span class="p">(</span><span class="n">web_routes</span><span class="p">)</span>
+
+    <span class="c1"># Set up static files</span>
+    <span class="n">utils_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="vm">__file__</span><span class="p">))</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">router</span><span class="o">.</span><span class="n">add_static</span><span class="p">(</span><span class="s2">&quot;/css&quot;</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">utils_path</span><span class="p">,</span> <span class="s1">&#39;templates/css&#39;</span><span class="p">))</span>
 
     <span class="c1"># Close session - this needs to be at the end of the</span>
     <span class="c1"># on shutdown pieces so the client session remains available</span>
@@ -173,7 +318,7 @@
         <span class="s1">&#39;celery&#39;</span><span class="p">,</span>
         <span class="s1">&#39;-A&#39;</span><span class="p">,</span> <span class="s1">&#39;bioconda_utils.bot.worker&#39;</span><span class="p">,</span>
         <span class="s1">&#39;worker&#39;</span><span class="p">,</span>
-        <span class="s1">&#39;-l&#39;</span><span class="p">,</span> <span class="n">loglevel</span><span class="p">,</span>
+        <span class="s1">&#39;-l&#39;</span><span class="p">,</span> <span class="n">LOGLEVEL</span><span class="p">,</span>
         <span class="s1">&#39;--without-heartbeat&#39;</span><span class="p">,</span>
         <span class="s1">&#39;-c&#39;</span><span class="p">,</span> <span class="s1">&#39;1&#39;</span><span class="p">,</span>
     <span class="p">])</span>
@@ -201,7 +346,6 @@
     <span class="n">app</span><span class="o">.</span><span class="n">on_shutdown</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">collect_worker</span><span class="p">)</span>
 
     <span class="k">return</span> <span class="n">app</span></div>
-
 </pre></div>
 
           </div>
@@ -214,7 +358,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>

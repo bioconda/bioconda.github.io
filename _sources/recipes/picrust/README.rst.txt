@@ -22,14 +22,14 @@ picrust
 
    |downloads_picrust| |docker_picrust|
 
-   :versions: 1.1.3-2, 1.1.3-1, 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.1.0-0, 1.0.1-0
+   :versions: 1.1.4-0, 1.1.3-2, 1.1.3-1, 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.1.0-0, 1.0.1-0
    
    :depends biom-format: >=2.1.4,<2.2.0
    :depends cogent: >=1.5.3
    :depends future: >=0.16
-   :depends h5py: >=1.7.0
-   :depends numpy: >=1.5.1
-   :depends python: >=2.7,<2.8.0a0
+   :depends h5py: >=2.7.1
+   :depends numpy: 
+   :depends python: 2.7.*
    :depends r-ape: >=5.0
    :requirements:
 
@@ -64,7 +64,7 @@ picrust
 
 Notes
 -----
-PICRUST requires a set of large pre\-calculated data files. PICRUST contains a script\, \"download\_picrust\_files.py\"\, which downloads the data in the proper location\, and which can be run after PICRUST has been installed.
+PICRUSt requires a set of large pre\-calculated data files. PICRUSt contains a script\, \"download\_picrust\_files.py\"\, which downloads the data in the proper location\, and which can be run after PICRUSt has been installed.
 
 
 Link to this page

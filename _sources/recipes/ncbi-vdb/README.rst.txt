@@ -9,22 +9,25 @@ ncbi-vdb
 .. conda:recipe:: ncbi-vdb
    :replaces_section_title:
 
-   VDB is the database engine that all SRA tools use. It is a columnar database system with a number of unique features. All SRA objects are stored in VDB.
+   SRA tools database engine
 
    :homepage: https://github.com/ncbi/ncbi-vdb
    :license: Public Domain
    :recipe: /`ncbi-vdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncbi-vdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncbi-vdb/meta.yaml>`_
 
-   
+   VDB is the database engine that all SRA tools use. It is a columnar database
+   system with a number of unique features. All SRA objects are stored in VDB.
+
 
 
 .. conda:package:: ncbi-vdb
 
    |downloads_ncbi-vdb| |docker_ncbi-vdb|
 
-   :versions: 2.9.3-0, 2.9.1-0, 2.9.0-0
+   :versions: 2.9.6-0, 2.9.3-0, 2.9.1-0, 2.9.0-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

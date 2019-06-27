@@ -12,12 +12,21 @@ web
 
    .. autosummary::
    
+      handle_errors
+      jinja2_filter_markdown
+      jinja_defaults
       start
       start_with_celery
    
    
 
    
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      AuthorizationPolicy
    
    
 

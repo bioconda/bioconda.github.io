@@ -18,7 +18,6 @@ tasks
    
       Checkout
       Image
-      PRInfo
       Package
    
    

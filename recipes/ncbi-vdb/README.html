@@ -107,7 +107,7 @@
 <dl class="recipe">
 <dt id="recipe-ncbi-vdb">
 <em class="property">recipe </em><code class="sig-name descname">ncbi-vdb</code><a class="headerlink" href="#recipe-ncbi-vdb" title="Permalink to this definition">¶</a></dt>
-<dd><p>VDB is the database engine that all SRA tools use. It is a columnar database system with a number of unique features. All SRA objects are stored in VDB.</p>
+<dd><p>SRA tools database engine</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/ncbi/ncbi-vdb">https://github.com/ncbi/ncbi-vdb</a></p>
@@ -119,6 +119,8 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncbi-vdb">ncbi-vdb</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncbi-vdb/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
+<p>VDB is the database engine that all SRA tools use. It is a columnar database
+system with a number of unique features. All SRA objects are stored in VDB.</p>
 </dd></dl>
 
 <dl class="package">
@@ -127,13 +129,18 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/ncbi-vdb"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/ncbi-vdb.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/ncbi-vdb"><img alt="docker_ncbi-vdb" src="https://quay.io/repository/biocontainers/ncbi-vdb/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>2.9.3-0, 2.9.1-0, 2.9.0-0</p>
+<dd class="field-odd"><p>2.9.6-0, 2.9.3-0, 2.9.1-0, 2.9.0-0</p>
 </dd>
-<dt class="field-even">Depends libgcc-ng</dt>
-<dd class="field-even"><p>&gt;=4.9</p>
+<dt class="field-even">Depends</dt>
+<dd class="field-list-wrapped field-even"><ul class="simple">
+<li><p><strong>libgcc-ng</strong> &gt;=7.3.0</p></li>
+<li><p><strong>libstdcxx-ng</strong> &gt;=7.3.0</p></li>
+</ul>
 </dd>
-<dt class="field-odd">Requirements</dt>
-<dd class="field-odd"><p></p></dd>
+<dt class="field-odd">Required By</dt>
+<dd class="field-odd"><ul class="simple">
+</ul>
+</dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
@@ -171,7 +178,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

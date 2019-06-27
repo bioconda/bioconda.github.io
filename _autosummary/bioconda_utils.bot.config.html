@@ -144,6 +144,18 @@
 </dd></dl>
 
 <dl class="data">
+<dt id="bioconda_utils.bot.config.APP_CLIENT_ID">
+<code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">APP_CLIENT_ID</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.APP_CLIENT_ID" title="Permalink to this definition">¶</a></dt>
+<dd><p>App OAuth client ID</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="bioconda_utils.bot.config.APP_CLIENT_SECRET">
+<code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">APP_CLIENT_SECRET</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.APP_CLIENT_SECRET" title="Permalink to this definition">¶</a></dt>
+<dd><p>App OAuth client secret</p>
+</dd></dl>
+
+<dl class="data">
 <dt id="bioconda_utils.bot.config.APP_ID">
 <code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">APP_ID</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.APP_ID" title="Permalink to this definition">¶</a></dt>
 <dd><p>Numeric App ID (not secret, technically)</p>
@@ -165,6 +177,12 @@
 <dt id="bioconda_utils.bot.config.BOT_ALIAS_RE">
 <code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">BOT_ALIAS_RE</code><em class="property"> = re.compile('&#64;bioconda[- ]?bot', re.IGNORECASE)</em><a class="headerlink" href="#bioconda_utils.bot.config.BOT_ALIAS_RE" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bot alias regex - this is what it’ll react to in comments</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="bioconda_utils.bot.config.BOT_BASEURL">
+<code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">BOT_BASEURL</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.BOT_BASEURL" title="Permalink to this definition">¶</a></dt>
+<dd><p>Baseurl of bot (for oauth redirects we need to know where we are)</p>
 </dd></dl>
 
 <dl class="data">
@@ -205,6 +223,12 @@ which the CODE_SIGNING_KEY was registered.</p>
 </dd></dl>
 
 <dl class="data">
+<dt id="bioconda_utils.bot.config.PROJECT_COLUMN_LABEL_MAP">
+<code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">PROJECT_COLUMN_LABEL_MAP</code><em class="property"> = {5706816: {'please review &amp; merge'}}</em><a class="headerlink" href="#bioconda_utils.bot.config.PROJECT_COLUMN_LABEL_MAP" title="Permalink to this definition">¶</a></dt>
+<dd><p>Assign PRs to project columns by label</p>
+</dd></dl>
+
+<dl class="data">
 <dt id="bioconda_utils.bot.config.QUAY_LOGIN">
 <code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">QUAY_LOGIN</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.QUAY_LOGIN" title="Permalink to this definition">¶</a></dt>
 <dd><p>Quay Login</p>
@@ -237,7 +261,7 @@ configure the value for <code class="docutils literal notranslate"><span class="
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
