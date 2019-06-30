@@ -22,7 +22,7 @@ perl-json-pp
 
    |downloads_perl-json-pp| |docker_perl-json-pp|
 
-   :versions: 4.03-0, 4.02-0, 4.00-0, 2.97001-0
+   :versions: 4.04-0, 4.03-0, 4.02-0, 4.00-0, 2.97001-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:

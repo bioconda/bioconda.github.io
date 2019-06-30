@@ -22,7 +22,7 @@ tbl2asn
 
    |downloads_tbl2asn| |docker_tbl2asn|
 
-   :versions: 25.6-3, 25.6-2, 25.6-1, 25.6-0, 25.3-0, 25.0-0
+   :versions: 25.7-0, 25.6-3, 25.6-2, 25.6-1, 25.6-0, 25.3-0, 25.0-0
    
    :depends libidn11: 
    :depends zlib: 

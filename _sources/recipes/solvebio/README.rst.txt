@@ -22,7 +22,7 @@ solvebio
 
    |downloads_solvebio| |docker_solvebio|
 
-   :versions: 2.8.4-0, 2.8.0-0, 2.7.0-0, 2.6.1-0, 2.5.1-2, 2.5.1-0, 2.4.6-0
+   :versions: 2.8.5-0, 2.8.4-0, 2.8.0-0, 2.7.0-0, 2.6.1-0, 2.5.1-2, 2.5.1-0, 2.4.6-0
    
    :depends pycurl: >=7.0.0
    :depends pyprind: 
