@@ -25,7 +25,7 @@ dia_umpire
 
    |downloads_dia_umpire| |docker_dia_umpire|
 
-   :versions: 2.1.3-1, 2.1.3-0, 2.1.2-0
+   :versions: 2.1.6-0, 2.1.3-1, 2.1.3-0, 2.1.2-0
    
    :depends openjdk: >=7
    :depends python: 
