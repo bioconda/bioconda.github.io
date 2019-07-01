@@ -66,14 +66,9 @@
 
 <h3>Navigation</h3>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../updating.html">Updating recipes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../linting.html">Linting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../faqs.html">FAQs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../build-system.html">Build system</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../cb3.html">Conda build v3</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../developer.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../user/index.html">User Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/index.html">Developer Docs</a></li>
 </ul>
 
 <ul>
@@ -135,7 +130,7 @@
 <span class="n">BuildResult</span> <span class="o">=</span> <span class="n">namedtuple</span><span class="p">(</span><span class="s2">&quot;BuildResult&quot;</span><span class="p">,</span> <span class="p">[</span><span class="s2">&quot;success&quot;</span><span class="p">,</span> <span class="s2">&quot;mulled_images&quot;</span><span class="p">])</span>
 
 
-<div class="viewcode-block" id="conda_build_purge"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.build.html#bioconda_utils.build.conda_build_purge">[docs]</a><span class="k">def</span> <span class="nf">conda_build_purge</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<div class="viewcode-block" id="conda_build_purge"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.build.html#bioconda_utils.build.conda_build_purge">[docs]</a><span class="k">def</span> <span class="nf">conda_build_purge</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
     <span class="sd">&quot;&quot;&quot;Calls conda build purge and optionally conda clean</span>
 
 <span class="sd">    ``conda clean --all`` is called if we haveless than 300 MB free space</span>
@@ -151,14 +146,14 @@
                     <span class="n">utils</span><span class="o">.</span><span class="n">get_free_space</span><span class="p">())</span></div>
 
 
-<div class="viewcode-block" id="has_conda_in_build"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.build.html#bioconda_utils.build.has_conda_in_build">[docs]</a><span class="k">def</span> <span class="nf">has_conda_in_build</span><span class="p">(</span><span class="n">recipe</span><span class="p">):</span>
+<div class="viewcode-block" id="has_conda_in_build"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.build.html#bioconda_utils.build.has_conda_in_build">[docs]</a><span class="k">def</span> <span class="nf">has_conda_in_build</span><span class="p">(</span><span class="n">recipe</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Checks if recipe has conda or conda build in deps&quot;&quot;&quot;</span>
     <span class="n">deps</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">get_deps</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">build</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
     <span class="n">deps</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">utils</span><span class="o">.</span><span class="n">get_deps</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">build</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
     <span class="k">return</span> <span class="nb">any</span><span class="p">(</span><span class="n">pkg</span> <span class="ow">in</span> <span class="n">deps</span> <span class="k">for</span> <span class="n">pkg</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">&#39;conda&#39;</span><span class="p">,</span> <span class="s1">&#39;conda-build&#39;</span><span class="p">))</span></div>
 
 
-<div class="viewcode-block" id="build"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.build.html#bioconda_utils.build.build">[docs]</a><span class="k">def</span> <span class="nf">build</span><span class="p">(</span><span class="n">recipe</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">pkg_paths</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+<div class="viewcode-block" id="build"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.build.html#bioconda_utils.build.build">[docs]</a><span class="k">def</span> <span class="nf">build</span><span class="p">(</span><span class="n">recipe</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">pkg_paths</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
           <span class="n">testonly</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span> <span class="n">mulled_test</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span>
           <span class="n">channels</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
           <span class="n">docker_builder</span><span class="p">:</span> <span class="n">docker_utils</span><span class="o">.</span><span class="n">RecipeBuilder</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
@@ -319,7 +314,7 @@
     <span class="k">return</span> <span class="n">subdag</span>
 
 
-<div class="viewcode-block" id="build_recipes"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.build.html#bioconda_utils.build.build_recipes">[docs]</a><span class="k">def</span> <span class="nf">build_recipes</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">config_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">recipes</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span>
+<div class="viewcode-block" id="build_recipes"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.build.html#bioconda_utils.build.build_recipes">[docs]</a><span class="k">def</span> <span class="nf">build_recipes</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">config_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">recipes</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span>
                   <span class="n">mulled_test</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">testonly</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
                   <span class="n">force</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
                   <span class="n">docker_builder</span><span class="p">:</span> <span class="n">docker_utils</span><span class="o">.</span><span class="n">RecipeBuilder</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>

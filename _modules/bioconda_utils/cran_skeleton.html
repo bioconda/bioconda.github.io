@@ -66,14 +66,9 @@
 
 <h3>Navigation</h3>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../updating.html">Updating recipes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../linting.html">Linting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../faqs.html">FAQs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../build-system.html">Build system</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../cb3.html">Conda build v3</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../developer.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../user/index.html">User Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/index.html">Developer Docs</a></li>
 </ul>
 
 <ul>
@@ -147,7 +142,7 @@
 <span class="n">win32_string</span> <span class="o">=</span> <span class="s1">&#39;number: 0</span><span class="se">\n</span><span class="s1">  skip: true  # [win32]&#39;</span>
 
 
-<div class="viewcode-block" id="write_recipe"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cran_skeleton.html#bioconda_utils.cran_skeleton.write_recipe">[docs]</a><span class="k">def</span> <span class="nf">write_recipe</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="o">=</span><span class="s1">&#39;.&#39;</span><span class="p">,</span> <span class="n">recursive</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+<div class="viewcode-block" id="write_recipe"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.cran_skeleton.html#bioconda_utils.cran_skeleton.write_recipe">[docs]</a><span class="k">def</span> <span class="nf">write_recipe</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="o">=</span><span class="s1">&#39;.&#39;</span><span class="p">,</span> <span class="n">recursive</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
                  <span class="n">no_windows</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Call out to to ``conda skeleton cran``.</span>
@@ -206,7 +201,7 @@
             <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%s</span><span class="s1"> had dependencies that specified versions: skipping.&#39;</span><span class="p">,</span> <span class="n">package</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="clean_skeleton_files"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cran_skeleton.html#bioconda_utils.cran_skeleton.clean_skeleton_files">[docs]</a><span class="k">def</span> <span class="nf">clean_skeleton_files</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">no_windows</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+<div class="viewcode-block" id="clean_skeleton_files"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.cran_skeleton.html#bioconda_utils.cran_skeleton.clean_skeleton_files">[docs]</a><span class="k">def</span> <span class="nf">clean_skeleton_files</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">no_windows</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Cleans output files created by ``conda skeleton cran`` to make them</span>
 <span class="sd">    conda-forge compatible.</span>
@@ -226,7 +221,7 @@
     <span class="n">clean_bld_file</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">no_windows</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="clean_yaml_file"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cran_skeleton.html#bioconda_utils.cran_skeleton.clean_yaml_file">[docs]</a><span class="k">def</span> <span class="nf">clean_yaml_file</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">no_windows</span><span class="p">):</span>
+<div class="viewcode-block" id="clean_yaml_file"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.cran_skeleton.html#bioconda_utils.cran_skeleton.clean_yaml_file">[docs]</a><span class="k">def</span> <span class="nf">clean_yaml_file</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">no_windows</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Cleans the YAML file output by ``conda skeleton cran`` to make it conda-forge</span>
 <span class="sd">    compatible.</span>
@@ -277,7 +272,7 @@
         <span class="n">yaml</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">out</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="clean_build_file"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cran_skeleton.html#bioconda_utils.cran_skeleton.clean_build_file">[docs]</a><span class="k">def</span> <span class="nf">clean_build_file</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">no_windows</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+<div class="viewcode-block" id="clean_build_file"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.cran_skeleton.html#bioconda_utils.cran_skeleton.clean_build_file">[docs]</a><span class="k">def</span> <span class="nf">clean_build_file</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">no_windows</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Cleans build.sh file created by ``conda skeleton cran`` to be compatible with</span>
 <span class="sd">    conda-forge.</span>
@@ -311,7 +306,7 @@
         <span class="n">build</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">lines</span><span class="p">))</span></div>
 
 
-<div class="viewcode-block" id="clean_bld_file"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cran_skeleton.html#bioconda_utils.cran_skeleton.clean_bld_file">[docs]</a><span class="k">def</span> <span class="nf">clean_bld_file</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">no_windows</span><span class="p">):</span>
+<div class="viewcode-block" id="clean_bld_file"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.cran_skeleton.html#bioconda_utils.cran_skeleton.clean_bld_file">[docs]</a><span class="k">def</span> <span class="nf">clean_bld_file</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">no_windows</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Cleans bld.bat file created by ``conda skeleton cran`` to be compatible with</span>
 <span class="sd">    conda-forge.</span>
@@ -341,7 +336,7 @@
         <span class="n">bld</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">lines</span><span class="p">))</span></div>
 
 
-<div class="viewcode-block" id="filter_lines_regex"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cran_skeleton.html#bioconda_utils.cran_skeleton.filter_lines_regex">[docs]</a><span class="k">def</span> <span class="nf">filter_lines_regex</span><span class="p">(</span><span class="n">lines</span><span class="p">,</span> <span class="n">regex</span><span class="p">,</span> <span class="n">substitute</span><span class="p">):</span>
+<div class="viewcode-block" id="filter_lines_regex"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.cran_skeleton.html#bioconda_utils.cran_skeleton.filter_lines_regex">[docs]</a><span class="k">def</span> <span class="nf">filter_lines_regex</span><span class="p">(</span><span class="n">lines</span><span class="p">,</span> <span class="n">regex</span><span class="p">,</span> <span class="n">substitute</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Substitutes **substitute** for every match to **regex** in each line of</span>
 <span class="sd">    **lines**.</span>
@@ -356,7 +351,7 @@
     <span class="k">return</span> <span class="p">[</span><span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">regex</span><span class="p">,</span> <span class="n">substitute</span><span class="p">,</span> <span class="n">line</span><span class="p">)</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">lines</span><span class="p">]</span></div>
 
 
-<div class="viewcode-block" id="remove_empty_lines"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cran_skeleton.html#bioconda_utils.cran_skeleton.remove_empty_lines">[docs]</a><span class="k">def</span> <span class="nf">remove_empty_lines</span><span class="p">(</span><span class="n">lines</span><span class="p">):</span>
+<div class="viewcode-block" id="remove_empty_lines"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.cran_skeleton.html#bioconda_utils.cran_skeleton.remove_empty_lines">[docs]</a><span class="k">def</span> <span class="nf">remove_empty_lines</span><span class="p">(</span><span class="n">lines</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Removes consecutive empty lines in **lines**.</span>
 
@@ -380,7 +375,7 @@
     <span class="k">return</span> <span class="n">cleaned_lines</span></div>
 
 
-<div class="viewcode-block" id="add_maintainers"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cran_skeleton.html#bioconda_utils.cran_skeleton.add_maintainers">[docs]</a><span class="k">def</span> <span class="nf">add_maintainers</span><span class="p">(</span><span class="n">lines</span><span class="p">):</span>
+<div class="viewcode-block" id="add_maintainers"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.cran_skeleton.html#bioconda_utils.cran_skeleton.add_maintainers">[docs]</a><span class="k">def</span> <span class="nf">add_maintainers</span><span class="p">(</span><span class="n">lines</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Append the contents of &quot;maintainers.yaml&quot; to the end of a YAML file.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -391,7 +386,7 @@
         <span class="n">lines</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">extra_lines</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="main"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.cran_skeleton.html#bioconda_utils.cran_skeleton.main">[docs]</a><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+<div class="viewcode-block" id="main"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.cran_skeleton.html#bioconda_utils.cran_skeleton.main">[docs]</a><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
     <span class="sd">&quot;&quot;&quot; Adding support for arguments here &quot;&quot;&quot;</span>
     <span class="n">setup_logger</span><span class="p">()</span>
     <span class="n">parser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">()</span>

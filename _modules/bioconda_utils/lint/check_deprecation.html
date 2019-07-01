@@ -66,14 +66,9 @@
 
 <h3>Navigation</h3>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../contributing.html">Contributing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../updating.html">Updating recipes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../linting.html">Linting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../faqs.html">FAQs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../build-system.html">Build system</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../cb3.html">Conda build v3</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../developer.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../user/index.html">User Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer/index.html">Developer Docs</a></li>
 </ul>
 
 <ul>
@@ -111,46 +106,46 @@
 <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">LintCheck</span><span class="p">,</span> <span class="n">ERROR</span><span class="p">,</span> <span class="n">WARNING</span><span class="p">,</span> <span class="n">INFO</span>
 
 
-<div class="viewcode-block" id="uses_perl_threaded"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_perl_threaded">[docs]</a><span class="k">class</span> <span class="nc">uses_perl_threaded</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="uses_perl_threaded"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_perl_threaded">[docs]</a><span class="k">class</span> <span class="nc">uses_perl_threaded</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe uses ``perl-threaded``</span>
 
 <span class="sd">    Please use ``perl`` instead.</span>
 
 <span class="sd">    &quot;&quot;&quot;</span>
-<div class="viewcode-block" id="uses_perl_threaded.check_deps"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_perl_threaded.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">):</span>
+<div class="viewcode-block" id="uses_perl_threaded.check_deps"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_perl_threaded.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">):</span>
         <span class="k">if</span> <span class="s1">&#39;perl-threaded&#39;</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="uses_perl_threaded.fix"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_perl_threaded.fix">[docs]</a>    <span class="k">def</span> <span class="nf">fix</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_message</span><span class="p">,</span> <span class="n">_data</span><span class="p">):</span>
+<div class="viewcode-block" id="uses_perl_threaded.fix"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_perl_threaded.fix">[docs]</a>    <span class="k">def</span> <span class="nf">fix</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_message</span><span class="p">,</span> <span class="n">_data</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">recipe</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;perl-threaded&#39;</span><span class="p">,</span> <span class="s1">&#39;perl&#39;</span><span class="p">,</span>
                             <span class="n">within</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;requirements&#39;</span><span class="p">,</span> <span class="s1">&#39;outputs&#39;</span><span class="p">))</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">recipe</span><span class="o">.</span><span class="n">render</span><span class="p">()</span>
         <span class="k">return</span> <span class="kc">True</span></div></div>
 
 
-<div class="viewcode-block" id="uses_javajdk"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_javajdk">[docs]</a><span class="k">class</span> <span class="nc">uses_javajdk</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="uses_javajdk"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_javajdk">[docs]</a><span class="k">class</span> <span class="nc">uses_javajdk</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe uses ``java-jdk``</span>
 
 <span class="sd">    Please use ``openjdk`` instead.</span>
 
 <span class="sd">    &quot;&quot;&quot;</span>
-<div class="viewcode-block" id="uses_javajdk.check_deps"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_javajdk.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">):</span>
+<div class="viewcode-block" id="uses_javajdk.check_deps"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_javajdk.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">):</span>
         <span class="k">if</span> <span class="s1">&#39;java-jdk&#39;</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="uses_javajdk.fix"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_javajdk.fix">[docs]</a>    <span class="k">def</span> <span class="nf">fix</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_message</span><span class="p">,</span> <span class="n">_data</span><span class="p">):</span>
+<div class="viewcode-block" id="uses_javajdk.fix"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_javajdk.fix">[docs]</a>    <span class="k">def</span> <span class="nf">fix</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_message</span><span class="p">,</span> <span class="n">_data</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">recipe</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;java-jdk&#39;</span><span class="p">,</span> <span class="s1">&#39;openjdk&#39;</span><span class="p">,</span>
                             <span class="n">within</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;requirements&#39;</span><span class="p">,</span> <span class="s1">&#39;outputs&#39;</span><span class="p">))</span>
         <span class="k">return</span> <span class="kc">True</span></div></div>
 
 
-<div class="viewcode-block" id="deprecated_numpy_spec"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.deprecated_numpy_spec">[docs]</a><span class="k">class</span> <span class="nc">deprecated_numpy_spec</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="deprecated_numpy_spec"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.deprecated_numpy_spec">[docs]</a><span class="k">class</span> <span class="nc">deprecated_numpy_spec</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe contains a deprecated numpy spec</span>
 
 <span class="sd">    Please remove the ``x.x`` - pinning is now handled automatically.</span>
 
 <span class="sd">    &quot;&quot;&quot;</span>
-<div class="viewcode-block" id="deprecated_numpy_spec.check_deps"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.deprecated_numpy_spec.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">):</span>
+<div class="viewcode-block" id="deprecated_numpy_spec.check_deps"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.deprecated_numpy_spec.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">):</span>
         <span class="k">if</span> <span class="s1">&#39;numpy&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">:</span>
             <span class="k">return</span>
         <span class="k">for</span> <span class="n">path</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">[</span><span class="s1">&#39;numpy&#39;</span><span class="p">]:</span>
@@ -158,7 +153,7 @@
             <span class="k">if</span> <span class="s1">&#39;x.x&#39;</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
                 <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">section</span><span class="o">=</span><span class="n">path</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="deprecated_numpy_spec.fix"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.deprecated_numpy_spec.fix">[docs]</a>    <span class="k">def</span> <span class="nf">fix</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_message</span><span class="p">,</span> <span class="n">_data</span><span class="p">):</span>
+<div class="viewcode-block" id="deprecated_numpy_spec.fix"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.deprecated_numpy_spec.fix">[docs]</a>    <span class="k">def</span> <span class="nf">fix</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_message</span><span class="p">,</span> <span class="n">_data</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">recipe</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;numpy x.x&#39;</span><span class="p">,</span> <span class="s1">&#39;numpy&#39;</span><span class="p">,</span>
                             <span class="n">within</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;requirements&#39;</span><span class="p">,</span> <span class="s1">&#39;outputs&#39;</span><span class="p">))</span>
         <span class="k">return</span> <span class="kc">True</span></div></div>

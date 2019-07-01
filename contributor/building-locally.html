@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Testing Recipes Locally &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Troubleshooting" href="troubleshooting.html" />
+    <link rel="prev" title="Contribution Workflow" href="workflow.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../index.html">
+    <img class="logo" src="../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../user/index.html">User Docs</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Contributing to Bioconda</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="setup.html">Initial Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="workflow.html">Contribution Workflow</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Testing Recipes Locally</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#using-the-circle-ci-client">Using the Circle CI Client</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#using-the-bootstrap-method">Using the “Bootstrap” Method</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#using-the-debug-method">Using the “Debug” Method</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="build-system.html">Build system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="guidelines.html">Guidelines for <code class="docutils literal notranslate"><span class="pre">bioconda</span></code> recipes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="linting.html">Linting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faqs.html">FAQs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="updating.html">Updating recipes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cb3.html">Conda build v3</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/index.html">Developer Docs</a></li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="../conda-recipe_index.html">Recipe Index</a></li>
+  
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="testing-recipes-locally">
+<h1>Testing Recipes Locally<a class="headerlink" href="#testing-recipes-locally" title="Permalink to this headline">¶</a></h1>
+<p>Queue times on CircleCI may sometimes make it more convenient and
+faster to work on complex packages locally. There are several ways to
+do so, each with their own caveats.</p>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#using-the-circle-ci-client" id="id2">Using the Circle CI Client</a></p></li>
+<li><p><a class="reference internal" href="#using-the-bootstrap-method" id="id3">Using the “Bootstrap” Method</a></p></li>
+<li><p><a class="reference internal" href="#using-the-debug-method" id="id4">Using the “Debug” Method</a></p></li>
+</ul>
+</div>
+<div class="section" id="using-the-circle-ci-client">
+<span id="circleci-client"></span><h2><a class="toc-backref" href="#id2">Using the Circle CI Client</a><a class="headerlink" href="#using-the-circle-ci-client" title="Permalink to this headline">¶</a></h2>
+<p>You can execute an almost exact copy of our Linux build pipeline by
+<a class="reference external" href="https://circleci.com/docs/2.0/local-cli">installing the CircleCI client locally</a> and running it from the
+folder where your copy of <code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code> resides:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Ensure the builc container is up-to-date</span>
+<span class="n">docker</span> <span class="n">pull</span> <span class="n">bioconda</span><span class="o">/</span><span class="n">bioconda</span><span class="o">-</span><span class="n">utils</span><span class="o">-</span><span class="n">build</span><span class="o">-</span><span class="n">env</span><span class="p">:</span><span class="n">latest</span>
+
+<span class="c1"># Run the build locally</span>
+<span class="n">circleci</span> <span class="n">build</span>
+</pre></div>
+</div>
+<p>You will have to have “commited” some changes as described above. The
+command will run our build system just as it is run online in a docker
+container. It will detect which recipes where modified using the
+<code class="docutils literal notranslate"><span class="pre">git</span></code> history and proceed with linting and building those.</p>
+<p>Please note that this will only run the Linux build steps.</p>
+</div>
+<div class="section" id="using-the-bootstrap-method">
+<h2><a class="toc-backref" href="#id3">Using the “Bootstrap” Method</a><a class="headerlink" href="#using-the-bootstrap-method" title="Permalink to this headline">¶</a></h2>
+<p>Due to technical limitations of the Circle CI client, the above test does
+<strong>not</strong> run the more stringent <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code> tests. To do so, use the
+following commands:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>./bootstrap.py /tmp/miniconda
+<span class="nb">source</span> ~/.config/bioconda/activate
+
+<span class="c1"># optional linting</span>
+bioconda-utils lint --git-range master
+
+<span class="c1"># build and test</span>
+bioconda-utils build --docker --mulled-test --git-range master
+</pre></div>
+</div>
+<p>The above commands do the following:</p>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Install a separate miniconda installation in a temporary directory:</dt><dd><ul>
+<li><p>Set up bioconda channels,</p></li>
+<li><p>install bioconda-utils dependencies into the root environment of
+that installation,</p></li>
+<li><p>and write the file <code class="docutils literal notranslate"><span class="pre">~/.config/bioconda/activate</span></code></p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Source that new file to specifically activate the root environment
+of the new installation</p></li>
+<li><dl class="simple">
+<dt>Run <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> in the new installation:</dt><dd><ul>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">lint</span></code> command will run the lint checks on your recipes</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">build</span></code> command will run the build pipeline</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>You can select recipes to lint/build using <code class="docutils literal notranslate"><span class="pre">--git-range</span> <span class="pre">master</span></code>,
+which which will select those recipes that have been changed
+between your master and your branch. Or you can specify recipes
+directly using <code class="docutils literal notranslate"><span class="pre">--packages</span> <span class="pre">mypackage1</span> <span class="pre">mypackage2</span></code>.</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">--docker</span></code> flag instructs <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> to execute the
+build within a docker container. On MacOS, this will do a Linux
+build in addition to the local MacOS build.</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">--mulled-test</span></code> flag instructs <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> to repeat
+the recipes test in a clean, freshly created docker container to
+ensure that the package does not depend on anything that happens
+to be included in the build container.</p></li>
+</ul>
+</div>
+<p>If you do not have access to Docker, you can still run the basic test by
+telling the bootstrap setup to not use docker, and by excluding the
+<code class="docutils literal notranslate"><span class="pre">--docker</span></code> and <code class="docutils literal notranslate"><span class="pre">--mulled-test</span></code> arguments in the last command:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">./</span><span class="n">bootstrap</span><span class="o">.</span><span class="n">py</span> <span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">docker</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">miniconda</span>
+<span class="n">source</span> <span class="o">~/.</span><span class="n">config</span><span class="o">/</span><span class="n">bioconda</span><span class="o">/</span><span class="n">activate</span>
+<span class="n">bioconda</span><span class="o">-</span><span class="n">utils</span> <span class="n">build</span> <span class="o">--</span><span class="n">git</span><span class="o">-</span><span class="nb">range</span> <span class="n">master</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="using-the-debug-method">
+<h2><a class="toc-backref" href="#id4">Using the “Debug” Method</a><a class="headerlink" href="#using-the-debug-method" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-todo admonition" id="id1">
+<p class="admonition-title">Todo</p>
+<ul class="simple">
+<li><p>Explain how to use <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">debug</span></code> for difficult recipes.</p></li>
+<li><p>Explain how to create patch series.</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2019, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/contributor/building-locally.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/docs/source/contributor/building-locally.rst" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

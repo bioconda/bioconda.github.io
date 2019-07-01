@@ -66,14 +66,9 @@
 
 <h3>Navigation</h3>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../contributing.html">Contributing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../updating.html">Updating recipes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../linting.html">Linting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../faqs.html">FAQs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../build-system.html">Build system</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../cb3.html">Conda build v3</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../developer.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../user/index.html">User Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer/index.html">Developer Docs</a></li>
 </ul>
 
 <ul>
@@ -117,31 +112,31 @@
 <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">LintCheck</span><span class="p">,</span> <span class="n">ERROR</span><span class="p">,</span> <span class="n">WARNING</span><span class="p">,</span> <span class="n">INFO</span>
 <span class="kn">from</span> <span class="nn">bioconda_utils</span> <span class="k">import</span> <span class="n">utils</span>
 
-<div class="viewcode-block" id="uses_vcs_url"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.uses_vcs_url">[docs]</a><span class="k">class</span> <span class="nc">uses_vcs_url</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="uses_vcs_url"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.uses_vcs_url">[docs]</a><span class="k">class</span> <span class="nc">uses_vcs_url</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe downloads source from a VCS</span>
 
 <span class="sd">    Please build from source archives and don&#39;t use the ``git_url``,</span>
 <span class="sd">    ``svn_url`` or ``hg_url`` feature of conda.</span>
 
 <span class="sd">    &quot;&quot;&quot;</span>
-<div class="viewcode-block" id="uses_vcs_url.check_source"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.uses_vcs_url.check_source">[docs]</a>    <span class="k">def</span> <span class="nf">check_source</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">source</span><span class="p">,</span> <span class="n">section</span><span class="p">):</span>
+<div class="viewcode-block" id="uses_vcs_url.check_source"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.uses_vcs_url.check_source">[docs]</a>    <span class="k">def</span> <span class="nf">check_source</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">source</span><span class="p">,</span> <span class="n">section</span><span class="p">):</span>
         <span class="k">for</span> <span class="n">vcs</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">&#39;git&#39;</span><span class="p">,</span> <span class="s1">&#39;svn&#39;</span><span class="p">,</span> <span class="s1">&#39;hg&#39;</span><span class="p">):</span>
             <span class="k">if</span> <span class="n">f</span><span class="s2">&quot;</span><span class="si">{vcs}</span><span class="s2">_url&quot;</span> <span class="ow">in</span> <span class="n">source</span><span class="p">:</span>
                 <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">section</span><span class="o">=</span><span class="n">f</span><span class="s2">&quot;</span><span class="si">{section}</span><span class="s2">/</span><span class="si">{vcs}</span><span class="s2">_url&quot;</span><span class="p">)</span></div></div>
 
-<div class="viewcode-block" id="folder_and_package_name_must_match"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.folder_and_package_name_must_match">[docs]</a><span class="k">class</span> <span class="nc">folder_and_package_name_must_match</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="folder_and_package_name_must_match"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.folder_and_package_name_must_match">[docs]</a><span class="k">class</span> <span class="nc">folder_and_package_name_must_match</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe folder and package name do not match.</span>
 
 <span class="sd">    For clarity, the name of the folder the ``meta.yaml`` resides,</span>
 <span class="sd">    in and the name of the toplevel package should match.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-<div class="viewcode-block" id="folder_and_package_name_must_match.check_recipe"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.folder_and_package_name_must_match.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
+<div class="viewcode-block" id="folder_and_package_name_must_match.check_recipe"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.folder_and_package_name_must_match.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
         <span class="n">recipe_base_folder</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">recipe</span><span class="o">.</span><span class="n">reldir</span><span class="o">.</span><span class="n">partition</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">)</span>
         <span class="k">if</span> <span class="n">recipe</span><span class="o">.</span><span class="n">name</span> <span class="o">!=</span>  <span class="n">recipe_base_folder</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">section</span><span class="o">=</span><span class="s1">&#39;package/name&#39;</span><span class="p">)</span></div></div>
 
 
-<div class="viewcode-block" id="gpl_requires_license_distributed"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.gpl_requires_license_distributed">[docs]</a><span class="k">class</span> <span class="nc">gpl_requires_license_distributed</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="gpl_requires_license_distributed"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.gpl_requires_license_distributed">[docs]</a><span class="k">class</span> <span class="nc">gpl_requires_license_distributed</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe packages GPL software but is missing copy of license.</span>
 
 <span class="sd">    The GPL requires that a copy of the license accompany all distributions</span>
@@ -156,24 +151,24 @@
     <span class="n">severity</span> <span class="o">=</span> <span class="n">WARNING</span>
     <span class="n">requires</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;missing_license&quot;</span><span class="p">]</span>
 
-<div class="viewcode-block" id="gpl_requires_license_distributed.check_recipe"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.gpl_requires_license_distributed.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
+<div class="viewcode-block" id="gpl_requires_license_distributed.check_recipe"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.gpl_requires_license_distributed.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
         <span class="k">if</span> <span class="s1">&#39;gpl&#39;</span> <span class="ow">in</span> <span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;about/license&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span><span class="p">():</span>
             <span class="k">if</span> <span class="ow">not</span> <span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;about/license_file&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">):</span>
                 <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="s1">&#39;about/license&#39;</span><span class="p">)</span></div></div>
 
 
-<div class="viewcode-block" id="should_not_use_fn"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.should_not_use_fn">[docs]</a><span class="k">class</span> <span class="nc">should_not_use_fn</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="should_not_use_fn"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.should_not_use_fn">[docs]</a><span class="k">class</span> <span class="nc">should_not_use_fn</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe uses source/fn</span>
 
 <span class="sd">    There is no need to specify the filename as the URL should give a name</span>
 <span class="sd">    and it will in most cases be unpacked automatically.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-<div class="viewcode-block" id="should_not_use_fn.check_source"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.should_not_use_fn.check_source">[docs]</a>    <span class="k">def</span> <span class="nf">check_source</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">source</span><span class="p">,</span> <span class="n">section</span><span class="p">):</span>
+<div class="viewcode-block" id="should_not_use_fn.check_source"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.should_not_use_fn.check_source">[docs]</a>    <span class="k">def</span> <span class="nf">check_source</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">source</span><span class="p">,</span> <span class="n">section</span><span class="p">):</span>
         <span class="k">if</span> <span class="s1">&#39;fn&#39;</span> <span class="ow">in</span> <span class="n">source</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">section</span><span class="o">=</span><span class="n">section</span><span class="o">+</span><span class="s1">&#39;/fn&#39;</span><span class="p">)</span></div></div>
 
 
-<div class="viewcode-block" id="has_windows_bat_file"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.has_windows_bat_file">[docs]</a><span class="k">class</span> <span class="nc">has_windows_bat_file</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="has_windows_bat_file"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.has_windows_bat_file">[docs]</a><span class="k">class</span> <span class="nc">has_windows_bat_file</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe directory contains a ``bat`` file.</span>
 
 <span class="sd">    Bioconda does not currently build packages for Windows (and has at</span>
@@ -184,12 +179,12 @@
 <span class="sd">    from the recipe directory.</span>
 
 <span class="sd">    &quot;&quot;&quot;</span>
-<div class="viewcode-block" id="has_windows_bat_file.check_recipe"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.has_windows_bat_file.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
+<div class="viewcode-block" id="has_windows_bat_file.check_recipe"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.has_windows_bat_file.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
         <span class="k">for</span> <span class="n">fname</span> <span class="ow">in</span> <span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">dir</span><span class="p">,</span> <span class="s1">&#39;*.bat&#39;</span><span class="p">)):</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">fname</span><span class="o">=</span><span class="n">fname</span><span class="p">)</span></div></div>
 
 
-<div class="viewcode-block" id="long_summary"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.long_summary">[docs]</a><span class="k">class</span> <span class="nc">long_summary</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="long_summary"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.long_summary">[docs]</a><span class="k">class</span> <span class="nc">long_summary</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The summary line is rather long</span>
 
 <span class="sd">    Consider using the description field for longer text::</span>
@@ -209,19 +204,19 @@
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">severity</span> <span class="o">=</span> <span class="n">WARNING</span>
     <span class="n">max_length</span> <span class="o">=</span> <span class="mi">120</span>
-<div class="viewcode-block" id="long_summary.check_recipe"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.long_summary.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
+<div class="viewcode-block" id="long_summary.check_recipe"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.long_summary.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
         <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;about/summary&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">))</span> <span class="o">&gt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">max_length</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="s1">&#39;about/summary&#39;</span><span class="p">)</span></div></div>
 
 
-<div class="viewcode-block" id="cran_packages_to_conda_forge"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.cran_packages_to_conda_forge">[docs]</a><span class="k">class</span> <span class="nc">cran_packages_to_conda_forge</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="cran_packages_to_conda_forge"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.cran_packages_to_conda_forge">[docs]</a><span class="k">class</span> <span class="nc">cran_packages_to_conda_forge</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;CRAN packages not depending on Bioconda should go to Conda-Forge</span>
 
 <span class="sd">    This recipe builds a CRAN package and does not depend on packages</span>
 <span class="sd">    from Bioconda. It should therefore be moved to Conda-Forge.</span>
 
 <span class="sd">    &quot;&quot;&quot;</span>
-<div class="viewcode-block" id="cran_packages_to_conda_forge.check_deps"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.cran_packages_to_conda_forge.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">):</span>
+<div class="viewcode-block" id="cran_packages_to_conda_forge.check_deps"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.cran_packages_to_conda_forge.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">):</span>
         <span class="c1"># must have R in run a run dep</span>
         <span class="k">if</span> <span class="s1">&#39;R&#39;</span> <span class="ow">in</span> <span class="n">deps</span> <span class="ow">and</span> <span class="nb">any</span><span class="p">(</span><span class="s1">&#39;run&#39;</span> <span class="ow">in</span> <span class="n">dep</span> <span class="k">for</span> <span class="n">dep</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">[</span><span class="s1">&#39;R&#39;</span><span class="p">]):</span>
             <span class="c1"># and all deps satisfied in conda-forge</span>

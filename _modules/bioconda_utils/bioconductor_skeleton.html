@@ -66,14 +66,9 @@
 
 <h3>Navigation</h3>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../updating.html">Updating recipes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../linting.html">Linting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../faqs.html">FAQs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../build-system.html">Build system</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../cb3.html">Conda build v3</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../developer.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../user/index.html">User Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/index.html">Developer Docs</a></li>
 </ul>
 
 <ul>
@@ -145,15 +140,15 @@
 <span class="n">HERE</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="vm">__file__</span><span class="p">))</span>
 
 
-<div class="viewcode-block" id="PackageNotFoundError"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.PackageNotFoundError">[docs]</a><span class="k">class</span> <span class="nc">PackageNotFoundError</span><span class="p">(</span><span class="ne">Exception</span><span class="p">):</span>
+<div class="viewcode-block" id="PackageNotFoundError"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.PackageNotFoundError">[docs]</a><span class="k">class</span> <span class="nc">PackageNotFoundError</span><span class="p">(</span><span class="ne">Exception</span><span class="p">):</span>
     <span class="k">pass</span></div>
 
 
-<div class="viewcode-block" id="PageNotFoundError"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.PageNotFoundError">[docs]</a><span class="k">class</span> <span class="nc">PageNotFoundError</span><span class="p">(</span><span class="ne">Exception</span><span class="p">):</span>
+<div class="viewcode-block" id="PageNotFoundError"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.PageNotFoundError">[docs]</a><span class="k">class</span> <span class="nc">PageNotFoundError</span><span class="p">(</span><span class="ne">Exception</span><span class="p">):</span>
     <span class="k">pass</span></div>
 
 
-<div class="viewcode-block" id="bioconductor_versions"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.bioconductor_versions">[docs]</a><span class="k">def</span> <span class="nf">bioconductor_versions</span><span class="p">():</span>
+<div class="viewcode-block" id="bioconductor_versions"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.bioconductor_versions">[docs]</a><span class="k">def</span> <span class="nf">bioconductor_versions</span><span class="p">():</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Returns a list of available Bioconductor versions scraped from the</span>
 <span class="sd">    Bioconductor site.</span>
@@ -167,21 +162,21 @@
     <span class="k">return</span> <span class="n">versions</span></div>
 
 
-<div class="viewcode-block" id="latest_bioconductor_release_version"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.latest_bioconductor_release_version">[docs]</a><span class="k">def</span> <span class="nf">latest_bioconductor_release_version</span><span class="p">():</span>
+<div class="viewcode-block" id="latest_bioconductor_release_version"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.latest_bioconductor_release_version">[docs]</a><span class="k">def</span> <span class="nf">latest_bioconductor_release_version</span><span class="p">():</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Latest Bioconductor release version.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">return</span> <span class="n">bioconductor_versions</span><span class="p">()[</span><span class="mi">1</span><span class="p">]</span></div>
 
 
-<div class="viewcode-block" id="latest_bioconductor_devel_version"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.latest_bioconductor_devel_version">[docs]</a><span class="k">def</span> <span class="nf">latest_bioconductor_devel_version</span><span class="p">():</span>
+<div class="viewcode-block" id="latest_bioconductor_devel_version"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.latest_bioconductor_devel_version">[docs]</a><span class="k">def</span> <span class="nf">latest_bioconductor_devel_version</span><span class="p">():</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Latest Bioconductor version in development.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">return</span> <span class="n">bioconductor_versions</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span></div>
 
 
-<div class="viewcode-block" id="bioconductor_tarball_url"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.bioconductor_tarball_url">[docs]</a><span class="k">def</span> <span class="nf">bioconductor_tarball_url</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">bioc_version</span><span class="p">):</span>
+<div class="viewcode-block" id="bioconductor_tarball_url"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.bioconductor_tarball_url">[docs]</a><span class="k">def</span> <span class="nf">bioconductor_tarball_url</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">bioc_version</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Constructs a url for a package tarball</span>
 
@@ -202,7 +197,7 @@
     <span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="bioconductor_annotation_data_url"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.bioconductor_annotation_data_url">[docs]</a><span class="k">def</span> <span class="nf">bioconductor_annotation_data_url</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">bioc_version</span><span class="p">):</span>
+<div class="viewcode-block" id="bioconductor_annotation_data_url"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.bioconductor_annotation_data_url">[docs]</a><span class="k">def</span> <span class="nf">bioconductor_annotation_data_url</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">bioc_version</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Constructs a url for an annotation package tarball</span>
 
@@ -223,7 +218,7 @@
     <span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="bioconductor_experiment_data_url"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.bioconductor_experiment_data_url">[docs]</a><span class="k">def</span> <span class="nf">bioconductor_experiment_data_url</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">bioc_version</span><span class="p">):</span>
+<div class="viewcode-block" id="bioconductor_experiment_data_url"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.bioconductor_experiment_data_url">[docs]</a><span class="k">def</span> <span class="nf">bioconductor_experiment_data_url</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">bioc_version</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Constructs a url for an experiment data package tarball</span>
 
@@ -244,7 +239,7 @@
     <span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="bioarchive_url"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.bioarchive_url">[docs]</a><span class="k">def</span> <span class="nf">bioarchive_url</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">bioc_version</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<div class="viewcode-block" id="bioarchive_url"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.bioarchive_url">[docs]</a><span class="k">def</span> <span class="nf">bioarchive_url</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">bioc_version</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Constructs a url for the package as archived on bioaRchive</span>
 
@@ -266,7 +261,7 @@
     <span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="cargoport_url"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.cargoport_url">[docs]</a><span class="k">def</span> <span class="nf">cargoport_url</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">bioc_version</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<div class="viewcode-block" id="cargoport_url"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.cargoport_url">[docs]</a><span class="k">def</span> <span class="nf">cargoport_url</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">bioc_version</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Constructs a url for the package as archived on the galaxy cargo-port</span>
 
@@ -289,7 +284,7 @@
     <span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="find_best_bioc_version"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.find_best_bioc_version">[docs]</a><span class="k">def</span> <span class="nf">find_best_bioc_version</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">version</span><span class="p">):</span>
+<div class="viewcode-block" id="find_best_bioc_version"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.find_best_bioc_version">[docs]</a><span class="k">def</span> <span class="nf">find_best_bioc_version</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">version</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Given a package version number, identifies which BioC version[s] it is in</span>
 <span class="sd">    and returns the latest.</span>
@@ -329,7 +324,7 @@
     <span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="fetchPackages"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.fetchPackages">[docs]</a><span class="k">def</span> <span class="nf">fetchPackages</span><span class="p">(</span><span class="n">bioc_version</span><span class="p">):</span>
+<div class="viewcode-block" id="fetchPackages"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.fetchPackages">[docs]</a><span class="k">def</span> <span class="nf">fetchPackages</span><span class="p">(</span><span class="n">bioc_version</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Return a dictionary of all bioconductor packages in a given release::</span>
 
@@ -924,7 +919,7 @@
         <span class="k">return</span> <span class="n">fout</span><span class="o">.</span><span class="n">name</span>
 
 
-<div class="viewcode-block" id="write_recipe_recursive"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.write_recipe_recursive">[docs]</a><span class="k">def</span> <span class="nf">write_recipe_recursive</span><span class="p">(</span><span class="n">proj</span><span class="p">,</span> <span class="n">seen_dependencies</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">force</span><span class="p">,</span>
+<div class="viewcode-block" id="write_recipe_recursive"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.write_recipe_recursive">[docs]</a><span class="k">def</span> <span class="nf">write_recipe_recursive</span><span class="p">(</span><span class="n">proj</span><span class="p">,</span> <span class="n">seen_dependencies</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">force</span><span class="p">,</span>
                            <span class="n">bioc_version</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">versioned</span><span class="p">,</span> <span class="n">recursive</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Parameters</span>
@@ -978,7 +973,7 @@
         <span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="write_recipe"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.write_recipe">[docs]</a><span class="k">def</span> <span class="nf">write_recipe</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">bioc_version</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+<div class="viewcode-block" id="write_recipe"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.write_recipe">[docs]</a><span class="k">def</span> <span class="nf">write_recipe</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">bioc_version</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
                  <span class="n">pkg_version</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">versioned</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">recursive</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">seen_dependencies</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
                  <span class="n">packages</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">skip_if_in_channels</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>

@@ -66,14 +66,9 @@
 
 <h3>Navigation</h3>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../updating.html">Updating recipes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../linting.html">Linting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../faqs.html">FAQs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../build-system.html">Build system</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../cb3.html">Conda build v3</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../developer.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../user/index.html">User Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/index.html">Developer Docs</a></li>
 </ul>
 
 <ul>
@@ -150,7 +145,7 @@
 <span class="n">RE_CAPGROUP</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;\(\?P&lt;(\w+)&gt;(?&gt;[^()]+|</span><span class="se">\\</span><span class="s2">\(|</span><span class="se">\\</span><span class="s2">\)|(\((?&gt;[^()]+|</span><span class="se">\\</span><span class="s2">\(|</span><span class="se">\\</span><span class="s2">\)|(?2))*\)))*\)&quot;</span><span class="p">)</span>
 <span class="n">RE_REFGROUP</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;\(\?P=(\w+)\)&quot;</span><span class="p">)</span>
 
-<div class="viewcode-block" id="dedup_named_capture_group"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.dedup_named_capture_group">[docs]</a><span class="k">def</span> <span class="nf">dedup_named_capture_group</span><span class="p">(</span><span class="n">pattern</span><span class="p">):</span>
+<div class="viewcode-block" id="dedup_named_capture_group"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.dedup_named_capture_group">[docs]</a><span class="k">def</span> <span class="nf">dedup_named_capture_group</span><span class="p">(</span><span class="n">pattern</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Replaces repetitions of capture groups with matches to first instance&quot;&quot;&quot;</span>
     <span class="n">seen</span><span class="p">:</span> <span class="n">Set</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
 
@@ -164,7 +159,7 @@
     <span class="k">return</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">RE_CAPGROUP</span><span class="p">,</span> <span class="n">replace</span><span class="p">,</span> <span class="n">pattern</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="replace_named_capture_group"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.replace_named_capture_group">[docs]</a><span class="k">def</span> <span class="nf">replace_named_capture_group</span><span class="p">(</span><span class="n">pattern</span><span class="p">,</span> <span class="n">vals</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]):</span>
+<div class="viewcode-block" id="replace_named_capture_group"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.replace_named_capture_group">[docs]</a><span class="k">def</span> <span class="nf">replace_named_capture_group</span><span class="p">(</span><span class="n">pattern</span><span class="p">,</span> <span class="n">vals</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]):</span>
     <span class="sd">&quot;&quot;&quot;Replaces capture groups with values from **vals**&quot;&quot;&quot;</span>
     <span class="k">def</span> <span class="nf">replace</span><span class="p">(</span><span class="n">match</span><span class="p">):</span>
         <span class="s2">&quot;inner replace&quot;</span>
@@ -177,7 +172,7 @@
     <span class="k">return</span> <span class="n">res</span></div>
 
 
-<div class="viewcode-block" id="HosterMeta"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.HosterMeta">[docs]</a><span class="k">class</span> <span class="nc">HosterMeta</span><span class="p">(</span><span class="n">abc</span><span class="o">.</span><span class="n">ABCMeta</span><span class="p">):</span>
+<div class="viewcode-block" id="HosterMeta"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.HosterMeta">[docs]</a><span class="k">class</span> <span class="nc">HosterMeta</span><span class="p">(</span><span class="n">abc</span><span class="o">.</span><span class="n">ABCMeta</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Meta-Class for Hosters</span>
 
 <span class="sd">    By making Hosters classes of a metaclass, rather than instances of a class,</span>
@@ -223,7 +218,7 @@
 
         <span class="k">return</span> <span class="n">typ</span>
 
-<div class="viewcode-block" id="HosterMeta.select_hoster"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.HosterMeta.select_hoster">[docs]</a>    <span class="nd">@classmethod</span>
+<div class="viewcode-block" id="HosterMeta.select_hoster"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.HosterMeta.select_hoster">[docs]</a>    <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">select_hoster</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">config</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="s2">&quot;Hoster&quot;</span><span class="p">]:</span>
         <span class="sd">&quot;&quot;&quot;Select `Hoster` able to handle **url**</span>
 
@@ -237,7 +232,7 @@
         <span class="k">return</span> <span class="kc">None</span></div></div>
 
 
-<div class="viewcode-block" id="Hoster"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster">[docs]</a><span class="k">class</span> <span class="nc">Hoster</span><span class="p">(</span><span class="n">metaclass</span><span class="o">=</span><span class="n">HosterMeta</span><span class="p">):</span>
+<div class="viewcode-block" id="Hoster"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster">[docs]</a><span class="k">class</span> <span class="nc">Hoster</span><span class="p">(</span><span class="n">metaclass</span><span class="o">=</span><span class="n">HosterMeta</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Hoster Baseclass&quot;&quot;&quot;</span>
 
     <span class="c1">#: matches upstream version</span>
@@ -280,7 +275,7 @@
         <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%s</span><span class="s2"> matched </span><span class="si">%s</span><span class="s2"> with </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span>
                      <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">vals</span><span class="p">)</span>
 
-<div class="viewcode-block" id="Hoster.try_make_hoster"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.try_make_hoster">[docs]</a>    <span class="nd">@classmethod</span>
+<div class="viewcode-block" id="Hoster.try_make_hoster"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.try_make_hoster">[docs]</a>    <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">try_make_hoster</span><span class="p">(</span><span class="bp">cls</span><span class="p">:</span> <span class="n">Type</span><span class="p">[</span><span class="s2">&quot;Hoster&quot;</span><span class="p">],</span> <span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
                         <span class="n">config</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="s2">&quot;Hoster&quot;</span><span class="p">]:</span>
         <span class="sd">&quot;&quot;&quot;Creates hoster if **url** is matched by its **url_pattern**&quot;&quot;&quot;</span>
@@ -301,20 +296,20 @@
             <span class="k">return</span> <span class="n">klass</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">match</span><span class="p">)</span>
         <span class="k">return</span> <span class="kc">None</span></div>
 
-<div class="viewcode-block" id="Hoster.get_versions"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.get_versions">[docs]</a>    <span class="nd">@classmethod</span>
+<div class="viewcode-block" id="Hoster.get_versions"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster.get_versions">[docs]</a>    <span class="nd">@classmethod</span>
     <span class="nd">@abc</span><span class="o">.</span><span class="n">abstractmethod</span>
     <span class="k">def</span> <span class="nf">get_versions</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">req</span><span class="p">:</span> <span class="s2">&quot;AsyncRequests&quot;</span><span class="p">,</span> <span class="n">orig_version</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Mapping</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]:</span>
         <span class="s2">&quot;Gets list of versions from upstream hosting site&quot;</span></div></div>
 
 
-<div class="viewcode-block" id="HrefParser"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.HrefParser">[docs]</a><span class="k">class</span> <span class="nc">HrefParser</span><span class="p">(</span><span class="n">HTMLParser</span><span class="p">):</span>
+<div class="viewcode-block" id="HrefParser"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.HrefParser">[docs]</a><span class="k">class</span> <span class="nc">HrefParser</span><span class="p">(</span><span class="n">HTMLParser</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Extract link targets from HTML&quot;&quot;&quot;</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">link_re</span><span class="p">:</span> <span class="n">Pattern</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">link_re</span> <span class="o">=</span> <span class="n">link_re</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">matches</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Mapping</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]</span> <span class="o">=</span> <span class="p">[]</span>
 
-<div class="viewcode-block" id="HrefParser.get_matches"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.HrefParser.get_matches">[docs]</a>    <span class="k">def</span> <span class="nf">get_matches</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Mapping</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]:</span>
+<div class="viewcode-block" id="HrefParser.get_matches"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.HrefParser.get_matches">[docs]</a>    <span class="k">def</span> <span class="nf">get_matches</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Mapping</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]:</span>
         <span class="sd">&quot;&quot;&quot;Return matches found for **link_re** in href links&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">matches</span></div>
 
@@ -325,7 +320,7 @@
                     <span class="bp">self</span><span class="o">.</span><span class="n">handle_a_href</span><span class="p">(</span><span class="n">val</span><span class="p">)</span>
                     <span class="k">break</span>
 
-<div class="viewcode-block" id="HrefParser.handle_a_href"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.HrefParser.handle_a_href">[docs]</a>    <span class="k">def</span> <span class="nf">handle_a_href</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">href</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<div class="viewcode-block" id="HrefParser.handle_a_href"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.HrefParser.handle_a_href">[docs]</a>    <span class="k">def</span> <span class="nf">handle_a_href</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">href</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Process href attributes of anchor tags&quot;&quot;&quot;</span>
         <span class="n">match</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">link_re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">href</span><span class="p">)</span>
         <span class="k">if</span> <span class="n">match</span><span class="p">:</span>
@@ -338,10 +333,10 @@
 
 
 <span class="c1"># pylint: disable=abstract-method</span>
-<div class="viewcode-block" id="HTMLHoster"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.HTMLHoster">[docs]</a><span class="k">class</span> <span class="nc">HTMLHoster</span><span class="p">(</span><span class="n">Hoster</span><span class="p">):</span>
+<div class="viewcode-block" id="HTMLHoster"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.HTMLHoster">[docs]</a><span class="k">class</span> <span class="nc">HTMLHoster</span><span class="p">(</span><span class="n">Hoster</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Base for Hosters handling release listings in HTML format&quot;&quot;&quot;</span>
 
-<div class="viewcode-block" id="HTMLHoster.get_versions"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.HTMLHoster.get_versions">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_versions</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">req</span><span class="p">,</span> <span class="n">orig_version</span><span class="p">):</span>
+<div class="viewcode-block" id="HTMLHoster.get_versions"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.HTMLHoster.get_versions">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_versions</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">req</span><span class="p">,</span> <span class="n">orig_version</span><span class="p">):</span>
         <span class="n">exclude</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exclude</span><span class="p">)</span>
         <span class="n">vals</span> <span class="o">=</span> <span class="p">{</span><span class="n">key</span><span class="p">:</span> <span class="n">val</span>
                 <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">val</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">vals</span><span class="o">.</span><span class="n">items</span><span class="p">()</span>
@@ -361,9 +356,9 @@
         <span class="k">return</span> <span class="n">result</span></div></div>
 
 
-<div class="viewcode-block" id="FTPHoster"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.FTPHoster">[docs]</a><span class="k">class</span> <span class="nc">FTPHoster</span><span class="p">(</span><span class="n">Hoster</span><span class="p">):</span>
+<div class="viewcode-block" id="FTPHoster"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.FTPHoster">[docs]</a><span class="k">class</span> <span class="nc">FTPHoster</span><span class="p">(</span><span class="n">Hoster</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Scans for updates on FTP servers&quot;&quot;&quot;</span>
-<div class="viewcode-block" id="FTPHoster.get_versions"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.FTPHoster.get_versions">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_versions</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">req</span><span class="p">,</span> <span class="n">orig_version</span><span class="p">):</span>
+<div class="viewcode-block" id="FTPHoster.get_versions"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.FTPHoster.get_versions">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_versions</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">req</span><span class="p">,</span> <span class="n">orig_version</span><span class="p">):</span>
         <span class="n">exclude</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exclude</span><span class="p">)</span>
         <span class="n">vals</span> <span class="o">=</span> <span class="p">{</span><span class="n">key</span><span class="p">:</span> <span class="n">val</span>
                 <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">val</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">vals</span><span class="o">.</span><span class="n">items</span><span class="p">()</span>
@@ -393,7 +388,7 @@
     <span class="n">releases_formats</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;ftp://</span><span class="si">{host}</span><span class="s2">/</span><span class="si">{path}</span><span class="s2">&quot;</span><span class="p">]</span></div>
 
 
-<div class="viewcode-block" id="OrderedHTMLHoster"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.OrderedHTMLHoster">[docs]</a><span class="k">class</span> <span class="nc">OrderedHTMLHoster</span><span class="p">(</span><span class="n">HTMLHoster</span><span class="p">):</span>
+<div class="viewcode-block" id="OrderedHTMLHoster"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.OrderedHTMLHoster">[docs]</a><span class="k">class</span> <span class="nc">OrderedHTMLHoster</span><span class="p">(</span><span class="n">HTMLHoster</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;HTMLHoster for which we can expected newest releases at top</span>
 
 <span class="sd">    The point isn&#39;t performance, but avoiding hassle with old versions</span>
@@ -404,7 +399,7 @@
 <span class="sd">           a pathologic case. Should be handled somewhere.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
 
-<div class="viewcode-block" id="OrderedHTMLHoster.get_versions"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.OrderedHTMLHoster.get_versions">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_versions</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">req</span><span class="p">,</span> <span class="n">orig_version</span><span class="p">):</span>
+<div class="viewcode-block" id="OrderedHTMLHoster.get_versions"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.OrderedHTMLHoster.get_versions">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_versions</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">req</span><span class="p">,</span> <span class="n">orig_version</span><span class="p">):</span>
         <span class="n">matches</span> <span class="o">=</span> <span class="k">await</span> <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">get_versions</span><span class="p">(</span><span class="n">req</span><span class="p">,</span> <span class="n">orig_version</span><span class="p">)</span>
         <span class="n">num</span> <span class="o">=</span> <span class="kc">None</span>
         <span class="k">for</span> <span class="n">num</span><span class="p">,</span> <span class="n">match</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">matches</span><span class="p">):</span>
@@ -415,7 +410,7 @@
         <span class="k">return</span> <span class="n">matches</span><span class="p">[:</span><span class="n">num</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span></div></div>
 
 
-<div class="viewcode-block" id="GithubBase"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.GithubBase">[docs]</a><span class="k">class</span> <span class="nc">GithubBase</span><span class="p">(</span><span class="n">OrderedHTMLHoster</span><span class="p">):</span>
+<div class="viewcode-block" id="GithubBase"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.GithubBase">[docs]</a><span class="k">class</span> <span class="nc">GithubBase</span><span class="p">(</span><span class="n">OrderedHTMLHoster</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Base class for software hosted on github.com&quot;&quot;&quot;</span>
     <span class="n">exclude</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;version&#39;</span><span class="p">,</span> <span class="s1">&#39;fname&#39;</span><span class="p">]</span>
     <span class="n">account_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;(?P&lt;account&gt;[-\w]+)&quot;</span>
@@ -429,23 +424,23 @@
     <span class="n">releases_formats</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;https://github.com/</span><span class="si">{account}</span><span class="s2">/</span><span class="si">{project}</span><span class="s2">/releases&quot;</span><span class="p">]</span></div>
 
 
-<div class="viewcode-block" id="GithubRelease"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.GithubRelease">[docs]</a><span class="k">class</span> <span class="nc">GithubRelease</span><span class="p">(</span><span class="n">GithubBase</span><span class="p">):</span>
+<div class="viewcode-block" id="GithubRelease"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.GithubRelease">[docs]</a><span class="k">class</span> <span class="nc">GithubRelease</span><span class="p">(</span><span class="n">GithubBase</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Matches release artifacts uploaded to Github&quot;&quot;&quot;</span>
     <span class="n">link_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;/</span><span class="si">{account}</span><span class="s2">/</span><span class="si">{project}</span><span class="s2">/releases/download/</span><span class="si">{tag}</span><span class="s2">/</span><span class="si">{fname}{ext}</span><span class="s2">?&quot;</span></div>
 
 
-<div class="viewcode-block" id="GithubTag"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.GithubTag">[docs]</a><span class="k">class</span> <span class="nc">GithubTag</span><span class="p">(</span><span class="n">GithubBase</span><span class="p">):</span>
+<div class="viewcode-block" id="GithubTag"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.GithubTag">[docs]</a><span class="k">class</span> <span class="nc">GithubTag</span><span class="p">(</span><span class="n">GithubBase</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Matches GitHub repository archives created automatically from tags&quot;&quot;&quot;</span>
     <span class="n">link_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;/</span><span class="si">{account}</span><span class="s2">/</span><span class="si">{project}</span><span class="s2">/archive/</span><span class="si">{tag}{ext}</span><span class="s2">&quot;</span>
     <span class="n">releases_formats</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;https://github.com/</span><span class="si">{account}</span><span class="s2">/</span><span class="si">{project}</span><span class="s2">/tags&quot;</span><span class="p">]</span></div>
 
 
-<div class="viewcode-block" id="GithubReleaseAttachment"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.GithubReleaseAttachment">[docs]</a><span class="k">class</span> <span class="nc">GithubReleaseAttachment</span><span class="p">(</span><span class="n">GithubBase</span><span class="p">):</span>
+<div class="viewcode-block" id="GithubReleaseAttachment"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.GithubReleaseAttachment">[docs]</a><span class="k">class</span> <span class="nc">GithubReleaseAttachment</span><span class="p">(</span><span class="n">GithubBase</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Matches release artifacts uploaded as attachment to release notes&quot;&quot;&quot;</span>
     <span class="n">link_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;/</span><span class="si">{account}</span><span class="s2">/</span><span class="si">{project}</span><span class="s2">/files/\d+/</span><span class="si">{tag}{ext}</span><span class="s2">&quot;</span></div>
 
 
-<div class="viewcode-block" id="GithubRepoStore"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.GithubRepoStore">[docs]</a><span class="k">class</span> <span class="nc">GithubRepoStore</span><span class="p">(</span><span class="n">GithubBase</span><span class="p">):</span>
+<div class="viewcode-block" id="GithubRepoStore"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.GithubRepoStore">[docs]</a><span class="k">class</span> <span class="nc">GithubRepoStore</span><span class="p">(</span><span class="n">GithubBase</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Matches release artifacts stored in a github repo&quot;&quot;&quot;</span>
     <span class="n">branch_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;(master|[\da-f]</span><span class="si">{40}</span><span class="s2">)&quot;</span>
     <span class="n">subdir_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;(?P&lt;subdir&gt;([-._\w]+/)+)&quot;</span>
@@ -455,7 +450,7 @@
                    <span class="sa">r</span><span class="s2">&quot;</span><span class="si">{branch}</span><span class="s2">/</span><span class="si">{subdir}</span><span class="s2">?</span><span class="si">{tag}{ext}</span><span class="s2">(?(blob)\?raw|)&quot;</span><span class="p">)</span>
     <span class="n">releases_formats</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;https://github.com/</span><span class="si">{account}</span><span class="s2">/</span><span class="si">{project}</span><span class="s2">/tree/master/</span><span class="si">{subdir}</span><span class="s2">&quot;</span><span class="p">]</span></div>
 
-<div class="viewcode-block" id="Bioconductor"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Bioconductor">[docs]</a><span class="k">class</span> <span class="nc">Bioconductor</span><span class="p">(</span><span class="n">HTMLHoster</span><span class="p">):</span>
+<div class="viewcode-block" id="Bioconductor"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Bioconductor">[docs]</a><span class="k">class</span> <span class="nc">Bioconductor</span><span class="p">(</span><span class="n">HTMLHoster</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Matches R packages hosted at Bioconductor&quot;&quot;&quot;</span>
     <span class="n">link_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;/src/contrib/(?P&lt;package&gt;[^/]+)_</span><span class="si">{version}{ext}</span><span class="s2">&quot;</span>
     <span class="n">section_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;/(bioc|data/annotation|data/experiment)&quot;</span>
@@ -463,7 +458,7 @@
     <span class="n">releases_formats</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;https://bioconductor.org/packages/</span><span class="si">{bioc}</span><span class="s2">/bioc/html/</span><span class="si">{package}</span><span class="s2">.html&quot;</span><span class="p">]</span></div>
 
 
-<div class="viewcode-block" id="CargoPort"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.CargoPort">[docs]</a><span class="k">class</span> <span class="nc">CargoPort</span><span class="p">(</span><span class="n">HTMLHoster</span><span class="p">):</span>
+<div class="viewcode-block" id="CargoPort"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.CargoPort">[docs]</a><span class="k">class</span> <span class="nc">CargoPort</span><span class="p">(</span><span class="n">HTMLHoster</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Matches source backup urls created by cargo-port&quot;&quot;&quot;</span>
     <span class="n">os_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;_(?P&lt;os&gt;src_all|linux_x86|darwin_x86)&quot;</span>
     <span class="n">link_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;(?P&lt;package&gt;[^/]+)_</span><span class="si">{version}{os}{ext}</span><span class="s2">&quot;</span>
@@ -471,7 +466,7 @@
     <span class="n">releases_formats</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;https://depot.galaxyproject.org/software/</span><span class="si">{package}</span><span class="s2">&quot;</span><span class="p">]</span></div>
 
 
-<div class="viewcode-block" id="SourceForge"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.SourceForge">[docs]</a><span class="k">class</span> <span class="nc">SourceForge</span><span class="p">(</span><span class="n">HTMLHoster</span><span class="p">):</span>
+<div class="viewcode-block" id="SourceForge"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.SourceForge">[docs]</a><span class="k">class</span> <span class="nc">SourceForge</span><span class="p">(</span><span class="n">HTMLHoster</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Matches packages hosted at SourceForge&quot;&quot;&quot;</span>
     <span class="n">project_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;(?P&lt;project&gt;[-\w]+)&quot;</span>
     <span class="n">subproject_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;((?P&lt;subproject&gt;[-\w%]+)/)?&quot;</span>
@@ -488,9 +483,9 @@
     <span class="n">releases_formats</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;https://sourceforge.net/projects/</span><span class="si">{project}</span><span class="s2">/files/&quot;</span><span class="p">]</span></div>
 
 
-<div class="viewcode-block" id="JSONHoster"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.JSONHoster">[docs]</a><span class="k">class</span> <span class="nc">JSONHoster</span><span class="p">(</span><span class="n">Hoster</span><span class="p">):</span>
+<div class="viewcode-block" id="JSONHoster"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.JSONHoster">[docs]</a><span class="k">class</span> <span class="nc">JSONHoster</span><span class="p">(</span><span class="n">Hoster</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Base for Hosters handling release listings in JSON format&quot;&quot;&quot;</span>
-<div class="viewcode-block" id="JSONHoster.get_versions"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.JSONHoster.get_versions">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_versions</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">req</span><span class="p">,</span> <span class="n">orig_version</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+<div class="viewcode-block" id="JSONHoster.get_versions"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.JSONHoster.get_versions">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_versions</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">req</span><span class="p">,</span> <span class="n">orig_version</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
         <span class="n">result</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="k">for</span> <span class="n">url</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">releases_urls</span><span class="p">:</span>
             <span class="n">text</span> <span class="o">=</span> <span class="k">await</span> <span class="n">req</span><span class="o">.</span><span class="n">get_text_from_url</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
@@ -502,15 +497,15 @@
         <span class="k">return</span> <span class="n">result</span></div>
     <span class="n">link_pattern</span> <span class="o">=</span> <span class="s2">&quot;https://</span><span class="si">{url}</span><span class="s2">&quot;</span>
 
-<div class="viewcode-block" id="JSONHoster.get_versions_from_json"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.JSONHoster.get_versions_from_json">[docs]</a>    <span class="nd">@abc</span><span class="o">.</span><span class="n">abstractmethod</span>
+<div class="viewcode-block" id="JSONHoster.get_versions_from_json"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.JSONHoster.get_versions_from_json">[docs]</a>    <span class="nd">@abc</span><span class="o">.</span><span class="n">abstractmethod</span>
     <span class="k">async</span> <span class="k">def</span> <span class="nf">get_versions_from_json</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">req</span><span class="p">,</span> <span class="n">orig_version</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]:</span>
         <span class="sd">&quot;&quot;&quot;Extract matches from json data in **data**</span>
 <span class="sd">        &quot;&quot;&quot;</span></div></div>
 
 
-<div class="viewcode-block" id="PyPi"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.PyPi">[docs]</a><span class="k">class</span> <span class="nc">PyPi</span><span class="p">(</span><span class="n">JSONHoster</span><span class="p">):</span>
+<div class="viewcode-block" id="PyPi"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.PyPi">[docs]</a><span class="k">class</span> <span class="nc">PyPi</span><span class="p">(</span><span class="n">JSONHoster</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Scans PyPi for updates&quot;&quot;&quot;</span>
-<div class="viewcode-block" id="PyPi.get_versions_from_json"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.PyPi.get_versions_from_json">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_versions_from_json</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">req</span><span class="p">,</span> <span class="n">orig_version</span><span class="p">):</span>
+<div class="viewcode-block" id="PyPi.get_versions_from_json"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.PyPi.get_versions_from_json">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_versions_from_json</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">req</span><span class="p">,</span> <span class="n">orig_version</span><span class="p">):</span>
         <span class="n">latest</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;info&quot;</span><span class="p">][</span><span class="s2">&quot;version&quot;</span><span class="p">]</span>
         <span class="n">result</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="k">for</span> <span class="n">vers</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">([</span><span class="n">latest</span><span class="p">,</span> <span class="n">orig_version</span><span class="p">])):</span>
@@ -599,7 +594,7 @@
         <span class="k">return</span> <span class="s1">&#39;2.7&#39;</span>
 
 
-<div class="viewcode-block" id="PyPi.get_deps"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.PyPi.get_deps">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">pipeline</span><span class="p">,</span> <span class="n">build_config</span><span class="p">,</span> <span class="n">package</span><span class="p">,</span> <span class="n">rel</span><span class="p">):</span>
+<div class="viewcode-block" id="PyPi.get_deps"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.PyPi.get_deps">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">pipeline</span><span class="p">,</span> <span class="n">build_config</span><span class="p">,</span> <span class="n">package</span><span class="p">,</span> <span class="n">rel</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Get dependencies for **package** using version data **rel**</span>
 
 <span class="sd">        This is messy even though we use conda_build.skeleton.pypi to</span>
@@ -652,9 +647,9 @@
     <span class="n">url_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;</span><span class="si">{hoster}</span><span class="s2">/.*/</span><span class="si">{source}</span><span class="s2">&quot;</span></div>
 
 
-<div class="viewcode-block" id="Bioarchive"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Bioarchive">[docs]</a><span class="k">class</span> <span class="nc">Bioarchive</span><span class="p">(</span><span class="n">JSONHoster</span><span class="p">):</span>
+<div class="viewcode-block" id="Bioarchive"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Bioarchive">[docs]</a><span class="k">class</span> <span class="nc">Bioarchive</span><span class="p">(</span><span class="n">JSONHoster</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Scans for updates to packages hosted on bioarchive.galaxyproject.org&quot;&quot;&quot;</span>
-<div class="viewcode-block" id="Bioarchive.get_versions_from_json"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Bioarchive.get_versions_from_json">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_versions_from_json</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">req</span><span class="p">,</span> <span class="n">orig_version</span><span class="p">):</span>
+<div class="viewcode-block" id="Bioarchive.get_versions_from_json"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Bioarchive.get_versions_from_json">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_versions_from_json</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">req</span><span class="p">,</span> <span class="n">orig_version</span><span class="p">):</span>
         <span class="k">try</span><span class="p">:</span>
             <span class="n">latest</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;info&quot;</span><span class="p">][</span><span class="s2">&quot;Version&quot;</span><span class="p">]</span>
             <span class="n">vals</span> <span class="o">=</span> <span class="p">{</span><span class="n">key</span><span class="p">:</span> <span class="n">val</span>
@@ -674,9 +669,9 @@
     <span class="n">url_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;bioarchive.galaxyproject.org/</span><span class="si">{package}</span><span class="s2">_</span><span class="si">{version}{ext}</span><span class="s2">&quot;</span></div>
 
 
-<div class="viewcode-block" id="CPAN"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.CPAN">[docs]</a><span class="k">class</span> <span class="nc">CPAN</span><span class="p">(</span><span class="n">JSONHoster</span><span class="p">):</span>
+<div class="viewcode-block" id="CPAN"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.CPAN">[docs]</a><span class="k">class</span> <span class="nc">CPAN</span><span class="p">(</span><span class="n">JSONHoster</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Scans for updates to Perl packages hosted on CPAN&quot;&quot;&quot;</span>
-<div class="viewcode-block" id="CPAN.parse_deps"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.CPAN.parse_deps">[docs]</a>    <span class="nd">@staticmethod</span>
+<div class="viewcode-block" id="CPAN.parse_deps"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.CPAN.parse_deps">[docs]</a>    <span class="nd">@staticmethod</span>
     <span class="k">def</span> <span class="nf">parse_deps</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Parse CPAN format dependencies&quot;&quot;&quot;</span>
         <span class="n">run_deps</span> <span class="o">=</span> <span class="p">{}</span>
@@ -703,7 +698,7 @@
 
         <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;host&#39;</span><span class="p">:</span> <span class="n">host_deps</span><span class="p">,</span> <span class="s1">&#39;run&#39;</span><span class="p">:</span> <span class="n">run_deps</span><span class="p">}</span></div>
 
-<div class="viewcode-block" id="CPAN.get_versions_from_json"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.CPAN.get_versions_from_json">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_versions_from_json</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">req</span><span class="p">,</span> <span class="n">orig_version</span><span class="p">):</span>
+<div class="viewcode-block" id="CPAN.get_versions_from_json"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.CPAN.get_versions_from_json">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_versions_from_json</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">req</span><span class="p">,</span> <span class="n">orig_version</span><span class="p">):</span>
         <span class="k">try</span><span class="p">:</span>
             <span class="n">version</span> <span class="o">=</span> <span class="p">{</span>
                 <span class="s1">&#39;link&#39;</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;download_url&#39;</span><span class="p">],</span>
@@ -738,9 +733,9 @@
                            <span class="s2">&quot;?q=distribution:</span><span class="si">{dist}</span><span class="s2">%20AND%20version:</span><span class="si">{vers}</span><span class="s2">&quot;</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="CRAN"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.CRAN">[docs]</a><span class="k">class</span> <span class="nc">CRAN</span><span class="p">(</span><span class="n">JSONHoster</span><span class="p">):</span>
+<div class="viewcode-block" id="CRAN"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.CRAN">[docs]</a><span class="k">class</span> <span class="nc">CRAN</span><span class="p">(</span><span class="n">JSONHoster</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;R packages hosted on r-project.org (CRAN)&quot;&quot;&quot;</span>
-<div class="viewcode-block" id="CRAN.get_versions_from_json"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.CRAN.get_versions_from_json">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_versions_from_json</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">orig_version</span><span class="p">):</span>
+<div class="viewcode-block" id="CRAN.get_versions_from_json"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.CRAN.get_versions_from_json">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">get_versions_from_json</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">orig_version</span><span class="p">):</span>
         <span class="n">res</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="n">versions</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">((</span><span class="nb">str</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s2">&quot;latest&quot;</span><span class="p">]),</span> <span class="bp">self</span><span class="o">.</span><span class="n">vals</span><span class="p">[</span><span class="s2">&quot;version&quot;</span><span class="p">],</span> <span class="n">orig_version</span><span class="p">)))</span>
         <span class="k">for</span> <span class="n">vers</span> <span class="ow">in</span> <span class="n">versions</span><span class="p">:</span>
@@ -770,7 +765,7 @@
 
 
 <span class="c1"># pylint: disable=abstract-method</span>
-<div class="viewcode-block" id="BitBucketBase"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.BitBucketBase">[docs]</a><span class="k">class</span> <span class="nc">BitBucketBase</span><span class="p">(</span><span class="n">OrderedHTMLHoster</span><span class="p">):</span>  <span class="c1"># abstract</span>
+<div class="viewcode-block" id="BitBucketBase"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.BitBucketBase">[docs]</a><span class="k">class</span> <span class="nc">BitBucketBase</span><span class="p">(</span><span class="n">OrderedHTMLHoster</span><span class="p">):</span>  <span class="c1"># abstract</span>
     <span class="sd">&quot;&quot;&quot;Base class for hosting at bitbucket.org&quot;&quot;&quot;</span>
     <span class="n">account_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;(?P&lt;account&gt;[-\w]+)&quot;</span>
     <span class="n">project_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;(?P&lt;project&gt;[-.\w]+)&quot;</span>
@@ -778,20 +773,20 @@
     <span class="n">url_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;bitbucket\.org</span><span class="si">{link}</span><span class="s2">&quot;</span></div>
 
 
-<div class="viewcode-block" id="BitBucketTag"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.BitBucketTag">[docs]</a><span class="k">class</span> <span class="nc">BitBucketTag</span><span class="p">(</span><span class="n">BitBucketBase</span><span class="p">):</span>
+<div class="viewcode-block" id="BitBucketTag"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.BitBucketTag">[docs]</a><span class="k">class</span> <span class="nc">BitBucketTag</span><span class="p">(</span><span class="n">BitBucketBase</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Tag based releases hosted at bitbucket.org&quot;&quot;&quot;</span>
     <span class="n">link_pattern</span> <span class="o">=</span> <span class="s2">&quot;/</span><span class="si">{account}</span><span class="s2">/</span><span class="si">{project}</span><span class="s2">/get/</span><span class="si">{prefix}{version}{ext}</span><span class="s2">&quot;</span>
     <span class="n">releases_formats</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;https://bitbucket.org/</span><span class="si">{account}</span><span class="s2">/</span><span class="si">{project}</span><span class="s2">/downloads/?tab=tags&quot;</span><span class="p">,</span>
                         <span class="s2">&quot;https://bitbucket.org/</span><span class="si">{account}</span><span class="s2">/</span><span class="si">{project}</span><span class="s2">/downloads/?tab=branches&quot;</span><span class="p">]</span></div>
 
 
-<div class="viewcode-block" id="BitBucketDownload"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.BitBucketDownload">[docs]</a><span class="k">class</span> <span class="nc">BitBucketDownload</span><span class="p">(</span><span class="n">BitBucketBase</span><span class="p">):</span>
+<div class="viewcode-block" id="BitBucketDownload"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.BitBucketDownload">[docs]</a><span class="k">class</span> <span class="nc">BitBucketDownload</span><span class="p">(</span><span class="n">BitBucketBase</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Uploaded releases hosted at bitbucket.org&quot;&quot;&quot;</span>
     <span class="n">link_pattern</span> <span class="o">=</span> <span class="s2">&quot;/</span><span class="si">{account}</span><span class="s2">/</span><span class="si">{project}</span><span class="s2">/downloads/</span><span class="si">{prefix}{version}{ext}</span><span class="s2">&quot;</span>
     <span class="n">releases_formats</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;https://bitbucket.org/</span><span class="si">{account}</span><span class="s2">/</span><span class="si">{project}</span><span class="s2">/downloads/?tab=downloads&quot;</span><span class="p">]</span></div>
 
 
-<div class="viewcode-block" id="GitlabTag"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.GitlabTag">[docs]</a><span class="k">class</span> <span class="nc">GitlabTag</span><span class="p">(</span><span class="n">OrderedHTMLHoster</span><span class="p">):</span>
+<div class="viewcode-block" id="GitlabTag"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.GitlabTag">[docs]</a><span class="k">class</span> <span class="nc">GitlabTag</span><span class="p">(</span><span class="n">OrderedHTMLHoster</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Tag based releases hosted at gitlab.com&quot;&quot;&quot;</span>
     <span class="n">account_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;(?P&lt;account&gt;[-\w]+)&quot;</span>
     <span class="n">subgroup_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;(?P&lt;subgroup&gt;(?:/[-\w]+|))&quot;</span>

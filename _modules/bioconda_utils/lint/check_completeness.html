@@ -66,14 +66,9 @@
 
 <h3>Navigation</h3>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../contributing.html">Contributing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../updating.html">Updating recipes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../linting.html">Linting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../faqs.html">FAQs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../build-system.html">Build system</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../cb3.html">Conda build v3</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../developer.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../user/index.html">User Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer/index.html">Developer Docs</a></li>
 </ul>
 
 <ul>
@@ -113,7 +108,7 @@
 <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">LintCheck</span><span class="p">,</span> <span class="n">ERROR</span><span class="p">,</span> <span class="n">WARNING</span><span class="p">,</span> <span class="n">INFO</span>
 
 
-<div class="viewcode-block" id="missing_build_number"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_build_number">[docs]</a><span class="k">class</span> <span class="nc">missing_build_number</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="missing_build_number"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_build_number">[docs]</a><span class="k">class</span> <span class="nc">missing_build_number</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe is missing a build number</span>
 
 <span class="sd">    Please add::</span>
@@ -121,12 +116,12 @@
 <span class="sd">        build:</span>
 <span class="sd">            number: 0</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-<div class="viewcode-block" id="missing_build_number.check_recipe"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_build_number.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
+<div class="viewcode-block" id="missing_build_number.check_recipe"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_build_number.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;build/number&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">):</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">section</span><span class="o">=</span><span class="s1">&#39;build&#39;</span><span class="p">)</span></div></div>
 
 
-<div class="viewcode-block" id="missing_home"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_home">[docs]</a><span class="k">class</span> <span class="nc">missing_home</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="missing_home"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_home">[docs]</a><span class="k">class</span> <span class="nc">missing_home</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe is missing a homepage URL</span>
 
 <span class="sd">    Please add::</span>
@@ -135,12 +130,12 @@
 <span class="sd">          home: &lt;URL to homepage&gt;</span>
 
 <span class="sd">    &quot;&quot;&quot;</span>
-<div class="viewcode-block" id="missing_home.check_recipe"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_home.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
+<div class="viewcode-block" id="missing_home.check_recipe"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_home.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;about/home&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">):</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">section</span><span class="o">=</span><span class="s1">&#39;about&#39;</span><span class="p">)</span></div></div>
 
 
-<div class="viewcode-block" id="missing_summary"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_summary">[docs]</a><span class="k">class</span> <span class="nc">missing_summary</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="missing_summary"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_summary">[docs]</a><span class="k">class</span> <span class="nc">missing_summary</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe is missing a summary</span>
 
 <span class="sd">    Please add::</span>
@@ -149,12 +144,12 @@
 <span class="sd">         summary: One line briefly describing package</span>
 
 <span class="sd">    &quot;&quot;&quot;</span>
-<div class="viewcode-block" id="missing_summary.check_recipe"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_summary.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
+<div class="viewcode-block" id="missing_summary.check_recipe"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_summary.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;about/summary&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">):</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">section</span><span class="o">=</span><span class="s1">&#39;about&#39;</span><span class="p">)</span></div></div>
 
 
-<div class="viewcode-block" id="missing_license"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_license">[docs]</a><span class="k">class</span> <span class="nc">missing_license</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="missing_license"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_license">[docs]</a><span class="k">class</span> <span class="nc">missing_license</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe is missing the ``about/license`` key.</span>
 
 <span class="sd">    Please add::</span>
@@ -163,12 +158,12 @@
 <span class="sd">           license: &lt;name of license&gt;</span>
 
 <span class="sd">    &quot;&quot;&quot;</span>
-<div class="viewcode-block" id="missing_license.check_recipe"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_license.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
+<div class="viewcode-block" id="missing_license.check_recipe"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_license.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;about/license&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">):</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">section</span><span class="o">=</span><span class="s1">&#39;about&#39;</span><span class="p">)</span></div></div>
 
 
-<div class="viewcode-block" id="missing_tests"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_tests">[docs]</a><span class="k">class</span> <span class="nc">missing_tests</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="missing_tests"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_tests">[docs]</a><span class="k">class</span> <span class="nc">missing_tests</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe is missing tests.</span>
 
 <span class="sd">    Please add::</span>
@@ -190,7 +185,7 @@
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">test_files</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;run_test.py&#39;</span><span class="p">,</span> <span class="s1">&#39;run_test.sh&#39;</span><span class="p">,</span> <span class="s1">&#39;run_test.pl&#39;</span><span class="p">]</span>
 
-<div class="viewcode-block" id="missing_tests.check_recipe"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_tests.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
+<div class="viewcode-block" id="missing_tests.check_recipe"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_tests.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
         <span class="k">if</span> <span class="nb">any</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">dir</span><span class="p">,</span> <span class="n">f</span><span class="p">))</span>
                <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">test_files</span><span class="p">):</span>
             <span class="k">return</span>
@@ -202,7 +197,7 @@
             <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">()</span></div></div>
 
 
-<div class="viewcode-block" id="missing_hash"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_hash">[docs]</a><span class="k">class</span> <span class="nc">missing_hash</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="missing_hash"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_hash">[docs]</a><span class="k">class</span> <span class="nc">missing_hash</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe is missing a checksum for a source file</span>
 
 <span class="sd">    Please add::</span>
@@ -213,7 +208,7 @@
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">checksum_names</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;md5&#39;</span><span class="p">,</span> <span class="s1">&#39;sha1&#39;</span><span class="p">,</span> <span class="s1">&#39;sha256&#39;</span><span class="p">)</span>
 
-<div class="viewcode-block" id="missing_hash.check_source"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_hash.check_source">[docs]</a>    <span class="k">def</span> <span class="nf">check_source</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">source</span><span class="p">,</span> <span class="n">section</span><span class="p">):</span>
+<div class="viewcode-block" id="missing_hash.check_source"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_completeness.html#bioconda_utils.lint.check_completeness.missing_hash.check_source">[docs]</a>    <span class="k">def</span> <span class="nf">check_source</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">source</span><span class="p">,</span> <span class="n">section</span><span class="p">):</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="nb">any</span><span class="p">(</span><span class="n">source</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">chk</span><span class="p">)</span> <span class="k">for</span> <span class="n">chk</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">checksum_names</span><span class="p">):</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">section</span><span class="o">=</span><span class="n">section</span><span class="p">)</span></div></div>
 

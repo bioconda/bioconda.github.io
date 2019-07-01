@@ -66,14 +66,9 @@
 
 <h3>Navigation</h3>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../contributing.html">Contributing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../updating.html">Updating recipes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../linting.html">Linting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../faqs.html">FAQs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../build-system.html">Build system</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../cb3.html">Conda build v3</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../developer.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../user/index.html">User Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer/index.html">Developer Docs</a></li>
 </ul>
 
 <ul>
@@ -116,7 +111,7 @@
 <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">LintCheck</span><span class="p">,</span> <span class="n">ERROR</span><span class="p">,</span> <span class="n">WARNING</span><span class="p">,</span> <span class="n">INFO</span>
 
 
-<div class="viewcode-block" id="should_use_compilers"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.should_use_compilers">[docs]</a><span class="k">class</span> <span class="nc">should_use_compilers</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="should_use_compilers"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.should_use_compilers">[docs]</a><span class="k">class</span> <span class="nc">should_use_compilers</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe requires a compiler directly</span>
 
 <span class="sd">    Since version 3, ``conda-build`` uses a special syntax to require</span>
@@ -138,20 +133,20 @@
     <span class="n">compilers</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;gcc&#39;</span><span class="p">,</span> <span class="s1">&#39;llvm&#39;</span><span class="p">,</span> <span class="s1">&#39;libgfortran&#39;</span><span class="p">,</span> <span class="s1">&#39;libgcc&#39;</span><span class="p">,</span> <span class="s1">&#39;go&#39;</span><span class="p">,</span> <span class="s1">&#39;cgo&#39;</span><span class="p">,</span>
                  <span class="s1">&#39;toolchain&#39;</span><span class="p">)</span>
 
-<div class="viewcode-block" id="should_use_compilers.check_deps"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.should_use_compilers.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">):</span>
+<div class="viewcode-block" id="should_use_compilers.check_deps"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.should_use_compilers.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">):</span>
         <span class="k">for</span> <span class="n">compiler</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">compilers</span><span class="p">:</span>
             <span class="k">for</span> <span class="n">location</span> <span class="ow">in</span> <span class="n">deps</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">compiler</span><span class="p">,</span> <span class="p">[]):</span>
                 <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">section</span><span class="o">=</span><span class="n">location</span><span class="p">)</span></div></div>
 
 
-<div class="viewcode-block" id="compilers_must_be_in_build"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.compilers_must_be_in_build">[docs]</a><span class="k">class</span> <span class="nc">compilers_must_be_in_build</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="compilers_must_be_in_build"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.compilers_must_be_in_build">[docs]</a><span class="k">class</span> <span class="nc">compilers_must_be_in_build</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe requests a compiler in a section other than build</span>
 
 <span class="sd">    Please move the ``{{ compiler(&#39;language&#39;) }}`` line into the</span>
 <span class="sd">    ``requirements: build:`` section.</span>
 
 <span class="sd">    &quot;&quot;&quot;</span>
-<div class="viewcode-block" id="compilers_must_be_in_build.check_deps"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.compilers_must_be_in_build.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">):</span>
+<div class="viewcode-block" id="compilers_must_be_in_build.check_deps"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.compilers_must_be_in_build.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">):</span>
         <span class="k">for</span> <span class="n">dep</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">:</span>
             <span class="k">if</span> <span class="n">dep</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;compiler_&#39;</span><span class="p">):</span>
                 <span class="k">for</span> <span class="n">location</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">[</span><span class="n">dep</span><span class="p">]:</span>
@@ -160,7 +155,7 @@
 
 
 
-<div class="viewcode-block" id="uses_setuptools"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.uses_setuptools">[docs]</a><span class="k">class</span> <span class="nc">uses_setuptools</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="uses_setuptools"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.uses_setuptools">[docs]</a><span class="k">class</span> <span class="nc">uses_setuptools</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe uses setuptools in run depends</span>
 
 <span class="sd">    Most Python packages only need setuptools during installation.</span>
@@ -170,12 +165,12 @@
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">severity</span> <span class="o">=</span> <span class="n">INFO</span>
 
-<div class="viewcode-block" id="uses_setuptools.check_recipe"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.uses_setuptools.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
+<div class="viewcode-block" id="uses_setuptools.check_recipe"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.uses_setuptools.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
         <span class="k">if</span> <span class="s1">&#39;setuptools&#39;</span> <span class="ow">in</span> <span class="n">recipe</span><span class="o">.</span><span class="n">get_deps</span><span class="p">(</span><span class="s1">&#39;run&#39;</span><span class="p">):</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">()</span></div></div>
 
 
-<div class="viewcode-block" id="setup_py_install_args"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.setup_py_install_args">[docs]</a><span class="k">class</span> <span class="nc">setup_py_install_args</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="setup_py_install_args"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.setup_py_install_args">[docs]</a><span class="k">class</span> <span class="nc">setup_py_install_args</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe uses setuptools without required arguments</span>
 
 <span class="sd">    Please use::</span>
@@ -196,7 +191,7 @@
             <span class="k">return</span> <span class="kc">True</span>
         <span class="k">return</span> <span class="kc">False</span>
 
-<div class="viewcode-block" id="setup_py_install_args.check_deps"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.setup_py_install_args.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">):</span>
+<div class="viewcode-block" id="setup_py_install_args.check_deps"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.setup_py_install_args.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">):</span>
         <span class="k">if</span> <span class="s1">&#39;setuptools&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">:</span>
             <span class="k">return</span>  <span class="c1"># no setuptools, no problem</span>
 
@@ -212,7 +207,7 @@
             <span class="k">pass</span></div></div>
 
 
-<div class="viewcode-block" id="cython_must_be_in_host"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.cython_must_be_in_host">[docs]</a><span class="k">class</span> <span class="nc">cython_must_be_in_host</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="cython_must_be_in_host"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.cython_must_be_in_host">[docs]</a><span class="k">class</span> <span class="nc">cython_must_be_in_host</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Cython should be in the build section</span>
 
 <span class="sd">    Move cython to ``host``::</span>
@@ -221,14 +216,14 @@
 <span class="sd">        host:</span>
 <span class="sd">          - cython</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-<div class="viewcode-block" id="cython_must_be_in_host.check_deps"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.cython_must_be_in_host.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">):</span>
+<div class="viewcode-block" id="cython_must_be_in_host.check_deps"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.cython_must_be_in_host.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">):</span>
         <span class="k">if</span> <span class="s1">&#39;cython&#39;</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">:</span>
             <span class="k">if</span> <span class="nb">any</span><span class="p">(</span><span class="s1">&#39;host&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">location</span>
                    <span class="k">for</span> <span class="n">location</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">[</span><span class="s1">&#39;cython&#39;</span><span class="p">]):</span>
                 <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">()</span></div></div>
 
 
-<div class="viewcode-block" id="cython_needs_compiler"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.cython_needs_compiler">[docs]</a><span class="k">class</span> <span class="nc">cython_needs_compiler</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="cython_needs_compiler"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.cython_needs_compiler">[docs]</a><span class="k">class</span> <span class="nc">cython_needs_compiler</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Cython generates C code, which will need to be compiled</span>
 
 <span class="sd">    Add the compiler to the recipe::</span>
@@ -239,7 +234,7 @@
 
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">severity</span> <span class="o">=</span> <span class="n">WARNING</span>
-<div class="viewcode-block" id="cython_needs_compiler.check_deps"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.cython_needs_compiler.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">):</span>
+<div class="viewcode-block" id="cython_needs_compiler.check_deps"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_build_help.html#bioconda_utils.lint.check_build_help.cython_needs_compiler.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">):</span>
         <span class="k">if</span> <span class="s1">&#39;cython&#39;</span> <span class="ow">in</span> <span class="n">deps</span> <span class="ow">and</span> <span class="s1">&#39;compiler_c&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">()</span></div></div>
 </pre></div>

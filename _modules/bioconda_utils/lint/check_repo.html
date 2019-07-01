@@ -66,14 +66,9 @@
 
 <h3>Navigation</h3>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../contributing.html">Contributing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../updating.html">Updating recipes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../linting.html">Linting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../faqs.html">FAQs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../build-system.html">Build system</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../cb3.html">Conda build v3</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../developer.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../user/index.html">User Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer/index.html">Developer Docs</a></li>
 </ul>
 
 <ul>
@@ -113,7 +108,7 @@
 <span class="kn">from</span> <span class="nn">..</span> <span class="k">import</span> <span class="n">utils</span>
 <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">LintCheck</span><span class="p">,</span> <span class="n">ERROR</span><span class="p">,</span> <span class="n">WARNING</span><span class="p">,</span> <span class="n">INFO</span>
 
-<div class="viewcode-block" id="in_other_channels"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.in_other_channels">[docs]</a><span class="k">class</span> <span class="nc">in_other_channels</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="in_other_channels"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.in_other_channels">[docs]</a><span class="k">class</span> <span class="nc">in_other_channels</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;A package of the same name already exists in another channel</span>
 
 <span class="sd">    Bioconda and Conda-Forge occupy the same name space and have</span>
@@ -127,13 +122,13 @@
 <span class="sd">    new home at conda-forge.</span>
 
 <span class="sd">    &quot;&quot;&quot;</span>
-<div class="viewcode-block" id="in_other_channels.check_recipe"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.in_other_channels.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
+<div class="viewcode-block" id="in_other_channels.check_recipe"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.in_other_channels.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
         <span class="n">channels</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">RepoData</span><span class="p">()</span><span class="o">.</span><span class="n">get_package_data</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="s2">&quot;channel&quot;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="n">recipe</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
         <span class="k">if</span> <span class="nb">set</span><span class="p">(</span><span class="n">channels</span><span class="p">)</span> <span class="o">-</span> <span class="nb">set</span><span class="p">((</span><span class="s1">&#39;bioconda&#39;</span><span class="p">,)):</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">section</span><span class="o">=</span><span class="s1">&#39;package/name&#39;</span><span class="p">)</span></div></div>
 
 
-<div class="viewcode-block" id="build_number_needs_bump"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.build_number_needs_bump">[docs]</a><span class="k">class</span> <span class="nc">build_number_needs_bump</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="build_number_needs_bump"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.build_number_needs_bump">[docs]</a><span class="k">class</span> <span class="nc">build_number_needs_bump</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe build number should be incremented</span>
 
 <span class="sd">    A package with the same name and version and a build number at</span>
@@ -141,38 +136,38 @@
 <span class="sd">    channel. Please increase the build number.</span>
 
 <span class="sd">    &quot;&quot;&quot;</span>
-<div class="viewcode-block" id="build_number_needs_bump.check_recipe"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.build_number_needs_bump.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
+<div class="viewcode-block" id="build_number_needs_bump.check_recipe"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.build_number_needs_bump.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
         <span class="n">bldnos</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">RepoData</span><span class="p">()</span><span class="o">.</span><span class="n">get_package_data</span><span class="p">(</span>
             <span class="n">key</span><span class="o">=</span><span class="s2">&quot;build_number&quot;</span><span class="p">,</span>
             <span class="n">name</span><span class="o">=</span><span class="n">recipe</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">version</span><span class="o">=</span><span class="n">recipe</span><span class="o">.</span><span class="n">version</span><span class="p">)</span>
         <span class="k">if</span> <span class="n">bldnos</span> <span class="ow">and</span> <span class="n">recipe</span><span class="o">.</span><span class="n">build_number</span> <span class="o">&lt;=</span> <span class="nb">max</span><span class="p">(</span><span class="n">bldnos</span><span class="p">):</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="s1">&#39;build/number&#39;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="nb">max</span><span class="p">(</span><span class="n">bldnos</span><span class="p">))</span></div>
 
-<div class="viewcode-block" id="build_number_needs_bump.fix"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.build_number_needs_bump.fix">[docs]</a>    <span class="k">def</span> <span class="nf">fix</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_message</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
+<div class="viewcode-block" id="build_number_needs_bump.fix"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.build_number_needs_bump.fix">[docs]</a>    <span class="k">def</span> <span class="nf">fix</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_message</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">recipe</span><span class="o">.</span><span class="n">reset_buildnumber</span><span class="p">(</span><span class="n">data</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
         <span class="k">return</span> <span class="kc">True</span></div></div>
 
 
-<div class="viewcode-block" id="build_number_needs_reset"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.build_number_needs_reset">[docs]</a><span class="k">class</span> <span class="nc">build_number_needs_reset</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="build_number_needs_reset"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.build_number_needs_reset">[docs]</a><span class="k">class</span> <span class="nc">build_number_needs_reset</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe build number should be reset to 0</span>
 
 <span class="sd">    No previous build of a package of this name and this version exists,</span>
 <span class="sd">    the build number should therefore be 0.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">requires</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;missing_build_number&#39;</span><span class="p">]</span>
-<div class="viewcode-block" id="build_number_needs_reset.check_recipe"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.build_number_needs_reset.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
+<div class="viewcode-block" id="build_number_needs_reset.check_recipe"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.build_number_needs_reset.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
         <span class="n">bldnos</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">RepoData</span><span class="p">()</span><span class="o">.</span><span class="n">get_package_data</span><span class="p">(</span>
             <span class="n">key</span><span class="o">=</span><span class="s2">&quot;build_number&quot;</span><span class="p">,</span>
             <span class="n">name</span><span class="o">=</span><span class="n">recipe</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">version</span><span class="o">=</span><span class="n">recipe</span><span class="o">.</span><span class="n">version</span><span class="p">)</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">bldnos</span> <span class="ow">and</span> <span class="n">recipe</span><span class="o">.</span><span class="n">build_number</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="s1">&#39;build/number&#39;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="build_number_needs_reset.fix"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.build_number_needs_reset.fix">[docs]</a>    <span class="k">def</span> <span class="nf">fix</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_message</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
+<div class="viewcode-block" id="build_number_needs_reset.fix"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.build_number_needs_reset.fix">[docs]</a>    <span class="k">def</span> <span class="nf">fix</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_message</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">recipe</span><span class="o">.</span><span class="n">reset_buildnumber</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
         <span class="k">return</span> <span class="kc">True</span></div></div>
 
 
-<div class="viewcode-block" id="recipe_is_blacklisted"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.recipe_is_blacklisted">[docs]</a><span class="k">class</span> <span class="nc">recipe_is_blacklisted</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="recipe_is_blacklisted"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.recipe_is_blacklisted">[docs]</a><span class="k">class</span> <span class="nc">recipe_is_blacklisted</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe is currently blacklisted and will not be built.</span>
 
 <span class="sd">    If you are intending to repair this recipe, remove it from</span>
@@ -183,11 +178,11 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">blacklist</span> <span class="o">=</span> <span class="n">linter</span><span class="o">.</span><span class="n">get_blacklist</span><span class="p">()</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">blacklists</span> <span class="o">=</span> <span class="n">linter</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;blacklists&#39;</span><span class="p">)</span>
 
-<div class="viewcode-block" id="recipe_is_blacklisted.check_recipe"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.recipe_is_blacklisted.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
+<div class="viewcode-block" id="recipe_is_blacklisted.check_recipe"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.recipe_is_blacklisted.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
         <span class="k">if</span> <span class="n">recipe</span><span class="o">.</span><span class="n">name</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">blacklist</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">section</span><span class="o">=</span><span class="s1">&#39;package/name&#39;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="recipe_is_blacklisted.fix"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.recipe_is_blacklisted.fix">[docs]</a>    <span class="k">def</span> <span class="nf">fix</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_message</span><span class="p">,</span> <span class="n">_data</span><span class="p">):</span>
+<div class="viewcode-block" id="recipe_is_blacklisted.fix"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_repo.html#bioconda_utils.lint.check_repo.recipe_is_blacklisted.fix">[docs]</a>    <span class="k">def</span> <span class="nf">fix</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_message</span><span class="p">,</span> <span class="n">_data</span><span class="p">):</span>
         <span class="k">for</span> <span class="n">blacklist</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">blacklists</span><span class="p">:</span>
             <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">blacklist</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fdes</span><span class="p">:</span>
                 <span class="n">data</span> <span class="o">=</span> <span class="n">fdes</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>

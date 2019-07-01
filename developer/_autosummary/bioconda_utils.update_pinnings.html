@@ -1,0 +1,340 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>update_pinnings &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="upload" href="bioconda_utils.upload.html" />
+    <link rel="prev" title="autobump" href="bioconda_utils.autobump.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../../index.html">
+    <img class="logo" src="../../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../user/index.html">User Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Developer Docs</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.aiopipe.html">aiopipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html">bioconductor_skeleton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.build.html">build</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.circleci.html">circleci</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.cli.html">cli</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.cran_skeleton.html">cran_skeleton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.docker_utils.html">docker_utils</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.githandler.html">githandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.githubhandler.html">githubhandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.gitter.html">gitter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.graph.html">graph</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.hosters.html">hosters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">recipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.autobump.html">autobump</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">update_pinnings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.upload.html">upload</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.utils.html">utils</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
+</ul>
+</li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="../../conda-recipe_index.html">Recipe Index</a></li>
+  
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-bioconda_utils.update_pinnings">
+<span id="update-pinnings"></span><h1>update_pinnings<a class="headerlink" href="#module-bioconda_utils.update_pinnings" title="Permalink to this headline">¶</a></h1>
+<p>Determine which packages need updates after pinning change</p>
+<p class="rubric">Functions</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.update_pinnings.check" title="bioconda_utils.update_pinnings.check"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check</span></code></a>(recipe, build_config[, keep_metas])</p></td>
+<td><p>Determine if a given recipe should have its build number increments (bumped) due to a recent change in pinnings.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.update_pinnings.have_variant" title="bioconda_utils.update_pinnings.have_variant"><code class="xref py py-obj docutils literal notranslate"><span class="pre">have_variant</span></code></a>(meta)</p></td>
+<td><p>Checks if we have an exact match to name/version/buildstring</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.update_pinnings.have_variant_but_for_python" title="bioconda_utils.update_pinnings.have_variant_but_for_python"><code class="xref py py-obj docutils literal notranslate"><span class="pre">have_variant_but_for_python</span></code></a>(meta)</p></td>
+<td><p>Checks if we have an exact or <code class="docutils literal notranslate"><span class="pre">py[23]_</span></code> prefixed match to name/version/buildstring</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.update_pinnings.will_build_variant" title="bioconda_utils.update_pinnings.will_build_variant"><code class="xref py py-obj docutils literal notranslate"><span class="pre">will_build_variant</span></code></a>(meta)</p></td>
+<td><p>Check if the recipe variant will be built as currently rendered</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Classes</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.update_pinnings.State" title="bioconda_utils.update_pinnings.State"><code class="xref py py-obj docutils literal notranslate"><span class="pre">State</span></code></a></p></td>
+<td><p>Recipe Pinning State</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Documentation</p>
+<dl class="class">
+<dt id="bioconda_utils.update_pinnings.State">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.update_pinnings.</code><code class="sig-name descname">State</code><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#State"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.State" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Flag" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">enum.Flag</span></code></a></p>
+<p>Recipe Pinning State</p>
+<dl class="attribute">
+<dt id="bioconda_utils.update_pinnings.State.BUMP">
+<code class="sig-name descname">BUMP</code><em class="property"> = 16</em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.BUMP" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe has a variant that needs bumping</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.update_pinnings.State.BUMPED">
+<code class="sig-name descname">BUMPED</code><em class="property"> = 8</em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.BUMPED" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe has a variant that was bumped already</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.update_pinnings.State.BUMP_PYTHON_ONLY">
+<code class="sig-name descname">BUMP_PYTHON_ONLY</code><em class="property"> = 32</em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.BUMP_PYTHON_ONLY" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe has a variant that needs bumping only for python</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.update_pinnings.State.FAIL">
+<code class="sig-name descname">FAIL</code><em class="property"> = 1</em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.FAIL" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe had a failure rendering</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.update_pinnings.State.HAVE">
+<code class="sig-name descname">HAVE</code><em class="property"> = 4</em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.HAVE" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe has a variant that exists already</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bioconda_utils.update_pinnings.State.SKIP">
+<code class="sig-name descname">SKIP</code><em class="property"> = 2</em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.SKIP" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe has a variant that will be skipped</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.update_pinnings.State.failed">
+<code class="sig-name descname">failed</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#State.failed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.State.failed" title="Permalink to this definition">¶</a></dt>
+<dd><p>True if the update pinning check failed</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.update_pinnings.State.needs_bump">
+<code class="sig-name descname">needs_bump</code><span class="sig-paren">(</span><em class="sig-param">bump_python_only=True</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#State.needs_bump"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.State.needs_bump" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if the state indicates that the recipe needs to be bumped</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>bump_python_only</strong> – FIXME</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.update_pinnings.check">
+<code class="sig-prename descclassname">bioconda_utils.update_pinnings.</code><code class="sig-name descname">check</code><span class="sig-paren">(</span><em class="sig-param">recipe</em>, <em class="sig-param">build_config</em>, <em class="sig-param">keep_metas=False</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#check"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.check" title="Permalink to this definition">¶</a></dt>
+<dd><p>Determine if a given recipe should have its build number increments
+(bumped) due to a recent change in pinnings.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>recipe</strong> (<a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><code class="xref py py-class docutils literal notranslate"><span class="pre">Recipe</span></code></a>) – The recipe to check</p></li>
+<li><p><strong>build_config</strong> – conda build config object</p></li>
+<li><p><strong>keep_metas</strong> – If true, <a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.conda_release" title="bioconda_utils.recipe.Recipe.conda_release"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">Recipe.conda_release</span></code></a> is not called</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#bioconda_utils.update_pinnings.State" title="bioconda_utils.update_pinnings.State"><code class="xref py py-class docutils literal notranslate"><span class="pre">State</span></code></a></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Tuple of state and a list of rendered MetaYaml variant objects</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.update_pinnings.have_variant">
+<code class="sig-prename descclassname">bioconda_utils.update_pinnings.</code><code class="sig-name descname">have_variant</code><span class="sig-paren">(</span><em class="sig-param">meta</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#have_variant"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.have_variant" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if we have an exact match to name/version/buildstring</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>meta</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">MetaData</span></code>) – Variant MetaData object</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>True if the variant’s build string exists already in the repodata</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.update_pinnings.have_variant_but_for_python">
+<code class="sig-prename descclassname">bioconda_utils.update_pinnings.</code><code class="sig-name descname">have_variant_but_for_python</code><span class="sig-paren">(</span><em class="sig-param">meta</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#have_variant_but_for_python"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.have_variant_but_for_python" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if we have an exact or <code class="docutils literal notranslate"><span class="pre">py[23]_</span></code> prefixed match to
+name/version/buildstring</p>
+<p>Ignores osx.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>meta</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">MetaData</span></code>) – Variant MetaData object</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>True if FIXME</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="bioconda_utils.update_pinnings.will_build_variant">
+<code class="sig-prename descclassname">bioconda_utils.update_pinnings.</code><code class="sig-name descname">will_build_variant</code><span class="sig-paren">(</span><em class="sig-param">meta</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#will_build_variant"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.will_build_variant" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if the recipe variant will be built as currently rendered</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>meta</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">MetaData</span></code>) – Variant MetaData object</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>True if all extant build numbers are smaller than the one indicated
+by the variant MetaData.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2019, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../_sources/developer/_autosummary/bioconda_utils.update_pinnings.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/docs/source/developer/_autosummary/bioconda_utils.update_pinnings.rst" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

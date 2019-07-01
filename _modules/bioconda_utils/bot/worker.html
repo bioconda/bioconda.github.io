@@ -66,14 +66,9 @@
 
 <h3>Navigation</h3>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../contributing.html">Contributing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../updating.html">Updating recipes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../linting.html">Linting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../faqs.html">FAQs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../build-system.html">Build system</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../cb3.html">Conda build v3</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../developer.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../user/index.html">User Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer/index.html">Developer Docs</a></li>
 </ul>
 
 <ul>
@@ -136,7 +131,7 @@
 <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>  <span class="c1"># pylint: disable=invalid-name</span>
 
 
-<div class="viewcode-block" id="AsyncTask"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.worker.html#bioconda_utils.bot.worker.AsyncTask">[docs]</a><span class="k">class</span> <span class="nc">AsyncTask</span><span class="p">(</span><span class="n">Task</span><span class="p">):</span>
+<div class="viewcode-block" id="AsyncTask"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.worker.html#bioconda_utils.bot.worker.AsyncTask">[docs]</a><span class="k">class</span> <span class="nc">AsyncTask</span><span class="p">(</span><span class="n">Task</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Task class with support for async tasks</span>
 
 <span class="sd">    We override celery.Task with our own version, with some extra</span>
@@ -177,7 +172,7 @@
     <span class="c1">#: Stores the async run method when the sync run wrapper is installed</span>
     <span class="n">_async_run</span> <span class="o">=</span> <span class="kc">None</span>
 
-<div class="viewcode-block" id="AsyncTask.bind"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.worker.html#bioconda_utils.bot.worker.AsyncTask.bind">[docs]</a>    <span class="k">def</span> <span class="nf">bind</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">app</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<div class="viewcode-block" id="AsyncTask.bind"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.worker.html#bioconda_utils.bot.worker.AsyncTask.bind">[docs]</a>    <span class="k">def</span> <span class="nf">bind</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">app</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Intercept binding of task to (celery) app</span>
 
 <span class="sd">        Here we take the half-finished generated Task class and</span>
@@ -198,7 +193,7 @@
                 <span class="bp">self</span><span class="o">.</span><span class="n">loop</span><span class="o">.</span><span class="n">run_until_complete</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">async_init</span><span class="p">())</span>
         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">bind</span><span class="p">(</span><span class="n">app</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="AsyncTask.async_init"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.worker.html#bioconda_utils.bot.worker.AsyncTask.async_init">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">async_init</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="AsyncTask.async_init"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.worker.html#bioconda_utils.bot.worker.AsyncTask.async_init">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">async_init</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Init things that need to be run inside the loop</span>
 
 <span class="sd">        This happens during binding -&gt; on load.</span>
@@ -209,7 +204,7 @@
                                              <span class="n">APP_CLIENT_ID</span><span class="p">,</span> <span class="n">APP_CLIENT_SECRET</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="AsyncTask.async_pre_run"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.worker.html#bioconda_utils.bot.worker.AsyncTask.async_pre_run">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">async_pre_run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">args</span><span class="p">,</span> <span class="n">_kwargs</span><span class="p">):</span>
+<div class="viewcode-block" id="AsyncTask.async_pre_run"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.worker.html#bioconda_utils.bot.worker.AsyncTask.async_pre_run">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">async_pre_run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">args</span><span class="p">,</span> <span class="n">_kwargs</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Per-call async initialization</span>
 
 <span class="sd">        Prepares the `ghapi` property for tasks.</span>
@@ -222,7 +217,7 @@
                     <span class="kc">False</span><span class="p">,</span> <span class="n">arg</span><span class="o">.</span><span class="n">user</span><span class="p">,</span> <span class="n">arg</span><span class="o">.</span><span class="n">repo</span><span class="p">,</span>
                     <span class="n">arg</span><span class="o">.</span><span class="n">installation</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="AsyncTask.run"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.worker.html#bioconda_utils.bot.worker.AsyncTask.run">[docs]</a>    <span class="nd">@abc</span><span class="o">.</span><span class="n">abstractmethod</span>
+<div class="viewcode-block" id="AsyncTask.run"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.worker.html#bioconda_utils.bot.worker.AsyncTask.run">[docs]</a>    <span class="nd">@abc</span><span class="o">.</span><span class="n">abstractmethod</span>
     <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">_args</span><span class="p">,</span> <span class="o">**</span><span class="n">_kwargs</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;The tasks actual run method. Will be replaced during bind&quot;&quot;&quot;</span></div>
 
@@ -237,12 +232,12 @@
             <span class="k">return</span> <span class="n">loop</span></div>
 
 
-<div class="viewcode-block" id="custom_dumps"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.worker.html#bioconda_utils.bot.worker.custom_dumps">[docs]</a><span class="k">def</span> <span class="nf">custom_dumps</span><span class="p">(</span><span class="n">string</span><span class="p">):</span>
+<div class="viewcode-block" id="custom_dumps"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.worker.html#bioconda_utils.bot.worker.custom_dumps">[docs]</a><span class="k">def</span> <span class="nf">custom_dumps</span><span class="p">(</span><span class="n">string</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Serialize **s** to JSON accepting **for_json** serializer method&quot;&quot;&quot;</span>
     <span class="k">return</span> <span class="n">simplejson</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">string</span><span class="p">,</span> <span class="n">for_json</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="custom_loads"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.worker.html#bioconda_utils.bot.worker.custom_loads">[docs]</a><span class="k">def</span> <span class="nf">custom_loads</span><span class="p">(</span><span class="n">string</span><span class="p">):</span>
+<div class="viewcode-block" id="custom_loads"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.worker.html#bioconda_utils.bot.worker.custom_loads">[docs]</a><span class="k">def</span> <span class="nf">custom_loads</span><span class="p">(</span><span class="n">string</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Deserialize **s** recreating objects</span>
 
 <span class="sd">    JSON objects (dicts) containing a __type__ and a __module__</span>
@@ -304,7 +299,7 @@
 <span class="p">)</span>
 
 
-<div class="viewcode-block" id="setup_new_celery_process"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.worker.html#bioconda_utils.bot.worker.setup_new_celery_process">[docs]</a><span class="nd">@celeryd_init</span><span class="o">.</span><span class="n">connect</span>
+<div class="viewcode-block" id="setup_new_celery_process"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.worker.html#bioconda_utils.bot.worker.setup_new_celery_process">[docs]</a><span class="nd">@celeryd_init</span><span class="o">.</span><span class="n">connect</span>
 <span class="k">def</span> <span class="nf">setup_new_celery_process</span><span class="p">(</span><span class="n">sender</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">conf</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="o">**</span><span class="n">_kwargs</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;This hook is called when a celery worker is initialized</span>
 

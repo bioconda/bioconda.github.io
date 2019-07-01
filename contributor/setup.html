@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Initial Setup &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Contribution Workflow" href="workflow.html" />
+    <link rel="prev" title="Contributing to Bioconda" href="index.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../index.html">
+    <img class="logo" src="../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../user/index.html">User Docs</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Contributing to Bioconda</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Initial Setup</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#create-a-fork-of-our-recipes-repo">1. Create a Fork of our Recipes Repo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#create-local-clone">2. Create Local “Clone”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#continue-with-or-without-local-builds">3. Continue with or without local builds</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="workflow.html">Contribution Workflow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="building-locally.html">Testing Recipes Locally</a></li>
+<li class="toctree-l2"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="build-system.html">Build system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="guidelines.html">Guidelines for <code class="docutils literal notranslate"><span class="pre">bioconda</span></code> recipes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="linting.html">Linting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faqs.html">FAQs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="updating.html">Updating recipes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cb3.html">Conda build v3</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/index.html">Developer Docs</a></li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="../conda-recipe_index.html">Recipe Index</a></li>
+  
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="initial-setup">
+<h1>Initial Setup<a class="headerlink" href="#initial-setup" title="Permalink to this headline">¶</a></h1>
+<p>Bioconda employs the “standard” GitHub Fork &amp; Pull Request workflow
+for edits to the collection of recipes from which the packages are
+built.</p>
+<p>To get started, you need to get yourself a copy of our recipes
+repository.</p>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#create-a-fork-of-our-recipes-repo" id="id1">1. Create a Fork of our Recipes Repo</a></p></li>
+<li><p><a class="reference internal" href="#create-local-clone" id="id2">2. Create Local “Clone”</a></p></li>
+<li><p><a class="reference internal" href="#continue-with-or-without-local-builds" id="id3">3. Continue with or without local builds</a></p></li>
+</ul>
+</div>
+<div class="section" id="create-a-fork-of-our-recipes-repo">
+<h2><a class="toc-backref" href="#id1">1. Create a Fork of our Recipes Repo</a><a class="headerlink" href="#create-a-fork-of-our-recipes-repo" title="Permalink to this headline">¶</a></h2>
+<p>Click <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/fork">here</a> to
+create a “fork” of our recipes repository (if you haven’t already). A
+“fork” is essentially a copy of a repository in your own account where
+you will be able to make edits. GitHub will remember where it came
+from, so you will be able to feed your edits back to us (called Pull
+Requests).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Bioconda members may create branches directly in the
+<code class="docutils literal notranslate"><span class="pre">bioconda/bioconda-recipes</span></code> repository. Please try to remember to
+delete branches once you are done with them if you do so.</p>
+</div>
+</div>
+<div class="section" id="create-local-clone">
+<h2><a class="toc-backref" href="#id2">2. Create Local “Clone”</a><a class="headerlink" href="#create-local-clone" title="Permalink to this headline">¶</a></h2>
+<p>To start working on a recipe (new or existing), you first need to get
+a local copy of the repo on your computer. Make sure you have <code class="docutils literal notranslate"><span class="pre">git</span></code>
+installed, and then run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/&lt;</span><span class="n">USERNAME</span><span class="o">&gt;/</span><span class="n">bioconda</span><span class="o">-</span><span class="n">recipes</span><span class="o">.</span><span class="n">git</span>
+</pre></div>
+</div>
+<p>This will create a folder <code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code>. To be able to update
+this folder more easily with changes to made to our repository, add
+the main bioconda-recipes repo as an upstream remote:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="n">bioconda</span><span class="o">-</span><span class="n">recipes</span>
+<span class="n">git</span> <span class="n">remote</span> <span class="n">add</span> <span class="n">upstream</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">bioconda</span><span class="o">/</span><span class="n">bioconda</span><span class="o">-</span><span class="n">recipes</span><span class="o">.</span><span class="n">git</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="continue-with-or-without-local-builds">
+<h2><a class="toc-backref" href="#id3">3. Continue with or without local builds</a><a class="headerlink" href="#continue-with-or-without-local-builds" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Continue reading <a class="reference internal" href="workflow.html"><span class="doc">Contribution Workflow</span></a> to learn how to make changes to recipes
+and get packages into our channel.</p></li>
+<li><p>Have a look at <a class="reference internal" href="building-locally.html"><span class="doc">Testing Recipes Locally</span></a> to learn how to build and debug
+packages on your own computer.</p></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2019, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/contributor/setup.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/docs/source/contributor/setup.rst" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

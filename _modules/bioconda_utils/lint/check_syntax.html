@@ -66,14 +66,9 @@
 
 <h3>Navigation</h3>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../contributing.html">Contributing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../updating.html">Updating recipes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../linting.html">Linting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../faqs.html">FAQs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../build-system.html">Build system</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../cb3.html">Conda build v3</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../developer.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../user/index.html">User Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer/index.html">Developer Docs</a></li>
 </ul>
 
 <ul>
@@ -114,7 +109,7 @@
 <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">LintCheck</span><span class="p">,</span> <span class="n">ERROR</span><span class="p">,</span> <span class="n">WARNING</span><span class="p">,</span> <span class="n">INFO</span>
 
 
-<div class="viewcode-block" id="extra_identifiers_not_list"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_not_list">[docs]</a><span class="k">class</span> <span class="nc">extra_identifiers_not_list</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="extra_identifiers_not_list"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_not_list">[docs]</a><span class="k">class</span> <span class="nc">extra_identifiers_not_list</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The extra/identifiers section must be a list</span>
 
 <span class="sd">    Example::</span>
@@ -124,13 +119,13 @@
 <span class="sd">              - doi:123</span>
 
 <span class="sd">    &quot;&quot;&quot;</span>
-<div class="viewcode-block" id="extra_identifiers_not_list.check_recipe"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_not_list.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
+<div class="viewcode-block" id="extra_identifiers_not_list.check_recipe"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_not_list.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
         <span class="n">identifiers</span> <span class="o">=</span> <span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;extra/identifiers&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
         <span class="k">if</span> <span class="n">identifiers</span> <span class="ow">and</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">identifiers</span><span class="p">,</span> <span class="nb">list</span><span class="p">):</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">section</span><span class="o">=</span><span class="s1">&#39;extra/identifiers&#39;</span><span class="p">)</span></div></div>
 
 
-<div class="viewcode-block" id="extra_identifiers_not_string"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_not_string">[docs]</a><span class="k">class</span> <span class="nc">extra_identifiers_not_string</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="extra_identifiers_not_string"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_not_string">[docs]</a><span class="k">class</span> <span class="nc">extra_identifiers_not_string</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Each item in the extra/identifiers section must be a string</span>
 
 <span class="sd">    Example::</span>
@@ -144,14 +139,14 @@
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">requires</span> <span class="o">=</span> <span class="p">[</span><span class="n">extra_identifiers_not_list</span><span class="p">]</span>
 
-<div class="viewcode-block" id="extra_identifiers_not_string.check_recipe"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_not_string.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
+<div class="viewcode-block" id="extra_identifiers_not_string.check_recipe"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_not_string.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
         <span class="n">identifiers</span> <span class="o">=</span> <span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;extra/identifiers&#39;</span><span class="p">,</span> <span class="p">[])</span>
         <span class="k">for</span> <span class="n">n</span><span class="p">,</span> <span class="n">identifier</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">identifiers</span><span class="p">):</span>
             <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">identifier</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
                 <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">section</span><span class="o">=</span><span class="n">f</span><span class="s1">&#39;extra/identifiers/</span><span class="si">{n}</span><span class="s1">&#39;</span><span class="p">)</span></div></div>
 
 
-<div class="viewcode-block" id="extra_identifiers_missing_colon"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon">[docs]</a><span class="k">class</span> <span class="nc">extra_identifiers_missing_colon</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="extra_identifiers_missing_colon"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon">[docs]</a><span class="k">class</span> <span class="nc">extra_identifiers_missing_colon</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Each item in the extra/identifiers section must be of form ``type:value``</span>
 
 <span class="sd">    Example::</span>
@@ -163,14 +158,14 @@
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">requires</span> <span class="o">=</span> <span class="p">[</span><span class="n">extra_identifiers_not_string</span><span class="p">]</span>
 
-<div class="viewcode-block" id="extra_identifiers_missing_colon.check_recipe"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
+<div class="viewcode-block" id="extra_identifiers_missing_colon.check_recipe"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_identifiers_missing_colon.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
         <span class="n">identifiers</span> <span class="o">=</span> <span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;extra/identifiers&#39;</span><span class="p">,</span> <span class="p">[])</span>
         <span class="k">for</span> <span class="n">n</span><span class="p">,</span> <span class="n">identifier</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">identifiers</span><span class="p">):</span>
             <span class="k">if</span> <span class="s1">&#39;:&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">identifier</span><span class="p">:</span>
                 <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">section</span><span class="o">=</span><span class="n">f</span><span class="s1">&#39;extra/identifiers/</span><span class="si">{n}</span><span class="s1">&#39;</span><span class="p">)</span></div></div>
 
 
-<div class="viewcode-block" id="extra_skip_lints_not_list"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_skip_lints_not_list">[docs]</a><span class="k">class</span> <span class="nc">extra_skip_lints_not_list</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+<div class="viewcode-block" id="extra_skip_lints_not_list"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_skip_lints_not_list">[docs]</a><span class="k">class</span> <span class="nc">extra_skip_lints_not_list</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The extra/skip-lints section must contain a list</span>
 
 <span class="sd">    Example::</span>
@@ -180,7 +175,7 @@
 <span class="sd">              - should_use_compilers</span>
 
 <span class="sd">    &quot;&quot;&quot;</span>
-<div class="viewcode-block" id="extra_skip_lints_not_list.check_recipe"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_skip_lints_not_list.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
+<div class="viewcode-block" id="extra_skip_lints_not_list.check_recipe"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_syntax.html#bioconda_utils.lint.check_syntax.extra_skip_lints_not_list.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;extra/skip-lints&#39;</span><span class="p">,</span> <span class="p">[]),</span> <span class="nb">list</span><span class="p">):</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">section</span><span class="o">=</span><span class="s1">&#39;extra/skip-lints&#39;</span><span class="p">)</span></div></div>
 

@@ -66,14 +66,9 @@
 
 <h3>Navigation</h3>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../contributing.html">Contributing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../updating.html">Updating recipes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../linting.html">Linting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../faqs.html">FAQs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../build-system.html">Build system</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../cb3.html">Conda build v3</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../developer.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../user/index.html">User Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer/index.html">Developer Docs</a></li>
 </ul>
 
 <ul>
@@ -129,7 +124,7 @@
 <span class="n">BOT_ALIAS_RE</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;@bioconda[- ]?bot&#39;</span><span class="p">,</span> <span class="n">re</span><span class="o">.</span><span class="n">IGNORECASE</span><span class="p">)</span>
 
 
-<div class="viewcode-block" id="handle_comment_created"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.events.html#bioconda_utils.bot.events.handle_comment_created">[docs]</a><span class="nd">@event_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;issue_comment&quot;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&quot;created&quot;</span><span class="p">)</span>
+<div class="viewcode-block" id="handle_comment_created"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.events.html#bioconda_utils.bot.events.handle_comment_created">[docs]</a><span class="nd">@event_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;issue_comment&quot;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&quot;created&quot;</span><span class="p">)</span>
 <span class="k">async</span> <span class="k">def</span> <span class="nf">handle_comment_created</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">_kwargs</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Handles comments on issues</span>
 
@@ -165,7 +160,7 @@
             <span class="o">+</span> <span class="n">quoted_msg</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="handle_check_suite"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.events.html#bioconda_utils.bot.events.handle_check_suite">[docs]</a><span class="nd">@event_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;check_suite&quot;</span><span class="p">)</span>
+<div class="viewcode-block" id="handle_check_suite"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.events.html#bioconda_utils.bot.events.handle_check_suite">[docs]</a><span class="nd">@event_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;check_suite&quot;</span><span class="p">)</span>
 <span class="k">async</span> <span class="k">def</span> <span class="nf">handle_check_suite</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Handle check suite event</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -177,7 +172,7 @@
     <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Scheduled create_check_run for </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">head_sha</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="handle_check_run"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.events.html#bioconda_utils.bot.events.handle_check_run">[docs]</a><span class="nd">@event_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;check_run&quot;</span><span class="p">)</span>
+<div class="viewcode-block" id="handle_check_run"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.events.html#bioconda_utils.bot.events.handle_check_run">[docs]</a><span class="nd">@event_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;check_run&quot;</span><span class="p">)</span>
 <span class="k">async</span> <span class="k">def</span> <span class="nf">handle_check_run</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Handle check run event&quot;&quot;&quot;</span>
     <span class="n">action</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;action&#39;</span><span class="p">)</span>
@@ -217,7 +212,7 @@
     <span class="k">else</span><span class="p">:</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Unknown action </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">action</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="handle_pull_request"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.events.html#bioconda_utils.bot.events.handle_pull_request">[docs]</a><span class="nd">@event_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;pull_request&quot;</span><span class="p">)</span>
+<div class="viewcode-block" id="handle_pull_request"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.events.html#bioconda_utils.bot.events.handle_pull_request">[docs]</a><span class="nd">@event_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;pull_request&quot;</span><span class="p">)</span>
 <span class="k">async</span> <span class="k">def</span> <span class="nf">handle_pull_request</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 

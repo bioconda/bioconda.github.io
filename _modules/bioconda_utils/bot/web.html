@@ -66,14 +66,9 @@
 
 <h3>Navigation</h3>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../contributing.html">Contributing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../updating.html">Updating recipes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../linting.html">Linting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../faqs.html">FAQs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../build-system.html">Build system</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../cb3.html">Conda build v3</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../developer.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../user/index.html">User Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer/index.html">Developer Docs</a></li>
 </ul>
 
 <ul>
@@ -139,12 +134,12 @@
 <span class="n">LOGLEVEL</span> <span class="o">=</span> <span class="s1">&#39;INFO&#39;</span>
 
 
-<div class="viewcode-block" id="AuthorizationPolicy"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.web.html#bioconda_utils.bot.web.AuthorizationPolicy">[docs]</a><span class="k">class</span> <span class="nc">AuthorizationPolicy</span><span class="p">(</span><span class="n">AbstractAuthorizationPolicy</span><span class="p">):</span>
+<div class="viewcode-block" id="AuthorizationPolicy"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.web.html#bioconda_utils.bot.web.AuthorizationPolicy">[docs]</a><span class="k">class</span> <span class="nc">AuthorizationPolicy</span><span class="p">(</span><span class="n">AbstractAuthorizationPolicy</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Authorization policy for web interface&quot;&quot;&quot;</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">app</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">app</span> <span class="o">=</span> <span class="n">app</span>
 
-<div class="viewcode-block" id="AuthorizationPolicy.authorized_userid"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.web.html#bioconda_utils.bot.web.AuthorizationPolicy.authorized_userid">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">authorized_userid</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">identity</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AiohttpGitHubHandler</span><span class="p">:</span>
+<div class="viewcode-block" id="AuthorizationPolicy.authorized_userid"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.web.html#bioconda_utils.bot.web.AuthorizationPolicy.authorized_userid">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">authorized_userid</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">identity</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AiohttpGitHubHandler</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Retrieve authorized user id.</span>
 
 <span class="sd">        Arguments:</span>
@@ -154,7 +149,7 @@
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">app</span><span class="p">[</span><span class="s1">&#39;ghappapi&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">get_github_user_api</span><span class="p">(</span><span class="n">identity</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="AuthorizationPolicy.permits"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.web.html#bioconda_utils.bot.web.AuthorizationPolicy.permits">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">permits</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">identity</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">permission</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">context</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+<div class="viewcode-block" id="AuthorizationPolicy.permits"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.web.html#bioconda_utils.bot.web.AuthorizationPolicy.permits">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">permits</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">identity</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">permission</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">context</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Check user permissions.</span>
 
 <span class="sd">        Returns:</span>
@@ -188,7 +183,7 @@
         <span class="k">return</span> <span class="kc">True</span></div></div>
 
 
-<div class="viewcode-block" id="jinja_defaults"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.web.html#bioconda_utils.bot.web.jinja_defaults">[docs]</a><span class="k">async</span> <span class="k">def</span> <span class="nf">jinja_defaults</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+<div class="viewcode-block" id="jinja_defaults"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.web.html#bioconda_utils.bot.web.jinja_defaults">[docs]</a><span class="k">async</span> <span class="k">def</span> <span class="nf">jinja_defaults</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Provides all web views using aiohttp-jinja2 with default values</span>
 
 <span class="sd">    Values are:</span>
@@ -242,7 +237,7 @@
         <span class="k">except</span> <span class="ne">KeyError</span> <span class="k">as</span> <span class="n">XYZ</span><span class="p">:</span>
             <span class="k">raise</span> <span class="n">exc</span>
 
-<div class="viewcode-block" id="start"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.web.html#bioconda_utils.bot.web.start">[docs]</a><span class="k">async</span> <span class="k">def</span> <span class="nf">start</span><span class="p">():</span>
+<div class="viewcode-block" id="start"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.web.html#bioconda_utils.bot.web.start">[docs]</a><span class="k">async</span> <span class="k">def</span> <span class="nf">start</span><span class="p">():</span>
     <span class="sd">&quot;&quot;&quot;Initialize App</span>
 
 <span class="sd">    This function is the entry point for wrappers that take an app factory</span>
@@ -306,7 +301,7 @@
     <span class="k">return</span> <span class="n">app</span></div>
 
 
-<div class="viewcode-block" id="start_with_celery"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.web.html#bioconda_utils.bot.web.start_with_celery">[docs]</a><span class="k">async</span> <span class="k">def</span> <span class="nf">start_with_celery</span><span class="p">():</span>
+<div class="viewcode-block" id="start_with_celery"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.web.html#bioconda_utils.bot.web.start_with_celery">[docs]</a><span class="k">async</span> <span class="k">def</span> <span class="nf">start_with_celery</span><span class="p">():</span>
     <span class="sd">&quot;&quot;&quot;Initialize app and launch internal celery worker</span>
 
 <span class="sd">    This isn&#39;t simply a flag for `start` because async app factories</span>

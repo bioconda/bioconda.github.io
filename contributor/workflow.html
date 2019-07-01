@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Contribution Workflow &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Testing Recipes Locally" href="building-locally.html" />
+    <link rel="prev" title="Initial Setup" href="setup.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../index.html">
+    <img class="logo" src="../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../user/index.html">User Docs</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Contributing to Bioconda</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="setup.html">Initial Setup</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Contribution Workflow</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#create-a-branch">1. Create a Branch</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#make-some-edits">2. Make Some Edits</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#push-changes">3. Push Changes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#create-a-pull-request">4. Create a Pull Request</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#delete-your-branch">5. Delete your Branch</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#install-your-package">6. Install Your Package</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="building-locally.html">Testing Recipes Locally</a></li>
+<li class="toctree-l2"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="build-system.html">Build system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="guidelines.html">Guidelines for <code class="docutils literal notranslate"><span class="pre">bioconda</span></code> recipes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="linting.html">Linting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faqs.html">FAQs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="updating.html">Updating recipes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cb3.html">Conda build v3</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/index.html">Developer Docs</a></li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="../conda-recipe_index.html">Recipe Index</a></li>
+  
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="contribution-workflow">
+<h1>Contribution Workflow<a class="headerlink" href="#contribution-workflow" title="Permalink to this headline">¶</a></h1>
+<p>The following steps are done for each recipe or batch of recipes you’d
+like to contribute.</p>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#create-a-branch" id="id4">1. Create a Branch</a></p></li>
+<li><p><a class="reference internal" href="#make-some-edits" id="id5">2. Make Some Edits</a></p></li>
+<li><p><a class="reference internal" href="#push-changes" id="id6">3. Push Changes</a></p></li>
+<li><p><a class="reference internal" href="#create-a-pull-request" id="id7">4. Create a Pull Request</a></p></li>
+<li><p><a class="reference internal" href="#delete-your-branch" id="id8">5. Delete your Branch</a></p></li>
+<li><p><a class="reference internal" href="#install-your-package" id="id9">6. Install Your Package</a></p></li>
+</ul>
+</div>
+<div class="section" id="create-a-branch">
+<span id="create-branch"></span><h2><a class="toc-backref" href="#id4">1. Create a Branch</a><a class="headerlink" href="#create-a-branch" title="Permalink to this headline">¶</a></h2>
+<p>Next, we create a “branch”. You could in theory work on the <code class="docutils literal notranslate"><span class="pre">master</span></code>
+branch, but it helps if you give the work you are intending to do a
+name. That way you can more easily work on separate issues if one of
+them turns out to be more complicated than you thought.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Make sure our master is up to date with Bioconda</span>
+git checkout master
+git pull upstream master
+git push origin master
+
+<span class="c1"># Create and checkout a new branch for our work</span>
+git checkout -b update_my_recipe
+</pre></div>
+</div>
+</div>
+<div class="section" id="make-some-edits">
+<span id="make-edits"></span><h2><a class="toc-backref" href="#id5">2. Make Some Edits</a><a class="headerlink" href="#make-some-edits" title="Permalink to this headline">¶</a></h2>
+<p>Now you need to make your edits. Naturally, this can become rather
+complex.</p>
+<p>If you have a PyPi recipe you want to package for Bioconda, you could
+start with the <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span></code> command creating a template
+automatically:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="n">recipes</span>
+<span class="n">conda</span> <span class="n">skeleton</span> <span class="n">pypi</span> <span class="n">pyaml</span>
+</pre></div>
+</div>
+<p>(<code class="docutils literal notranslate"><span class="pre">pyaml</span></code> is just an example. It would not be included in Bioconda as
+it is a general purpose package. Those need to be added to
+<code class="docutils literal notranslate"><span class="pre">conda-forge</span></code>, where <code class="docutils literal notranslate"><span class="pre">pyaml</span></code> is already present.)</p>
+<p>Now edit the file(s) in the newly created folder (named according to
+the package).</p>
+<p>You can verify your edits by looking at the <code class="docutils literal notranslate"><span class="pre">diff</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">diff</span>
+</pre></div>
+</div>
+<p>Or, you can have a look at the changed files and status of your repository using <code class="docutils literal notranslate"><span class="pre">status</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">status</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="push-changes">
+<span id="id1"></span><h2><a class="toc-backref" href="#id6">3. Push Changes</a><a class="headerlink" href="#push-changes" title="Permalink to this headline">¶</a></h2>
+<p>To publish your changes, “add” them, then “commit” all added changes,
+then push the branch to GitHub:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Choose the edited files to commit:</span>
+<span class="n">git</span> <span class="n">add</span> <span class="n">pyaml</span>
+<span class="c1"># Create a commit (will open editor)</span>
+<span class="n">git</span> <span class="n">commit</span>
+<span class="c1"># Push your commit to GitHub</span>
+<span class="n">git</span> <span class="n">push</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="create-a-pull-request">
+<span id="create-pr"></span><h2><a class="toc-backref" href="#id7">4. Create a Pull Request</a><a class="headerlink" href="#create-a-pull-request" title="Permalink to this headline">¶</a></h2>
+<p>Now head back to GitHub. Go to your fork of the <code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code>
+repository and find the branch you have just created in the
+<code class="docutils literal notranslate"><span class="pre">Branch:</span></code> drop down. You should now see a message saying <code class="docutils literal notranslate"><span class="pre">This</span>
+<span class="pre">branch</span> <span class="pre">is</span> <span class="pre">1</span> <span class="pre">commit</span> <span class="pre">ahead</span> <span class="pre">[...]</span> <span class="pre">bioconda:master</span></code>. To the right of that
+line you will find a button <code class="docutils literal notranslate"><span class="pre">Pull</span> <span class="pre">Request</span></code>. Click this and follow
+the instructions to open a new Pull Request.</p>
+<p>If you get stuck, have a look at GitHub’s own <a class="reference external" href="https://help.github.com/articles/about-pull-requests/">About Pull Requests</a>
+documentation.</p>
+<p>Once you have opened a PR, our build system will start testing your
+changes. The recipes you have added or modified will be linted and
+built. Unless you are very lucky, you will encounter some errors
+during the build you will have to fix. Repeat <span class="xref std std-ref">make_some_edits</span> and
+<a class="reference internal" href="#push-changes"><span class="std std-ref">3. Push Changes</span></a> as often as needed.</p>
+<p>Eventually, your build will “turn green”. If you are a member of
+Bioconda, you can now add the <code class="docutils literal notranslate"><span class="pre">please</span> <span class="pre">review</span> <span class="pre">&amp;</span> <span class="pre">merge</span></code> label to
+submit your PR for review. Otherwise, just ask on <a href="#id10"><span class="problematic" id="id11">Gitter_</span></a> or ping
+<a href="#id2"><span class="problematic" id="id3">``</span></a>&#64;bioconda/core`.</p>
+<p>Once you changes have been approved, they will be “merged” into our
+main repository and the altered packages uploaded to our channel.</p>
+</div>
+<div class="section" id="delete-your-branch">
+<span id="delete-branch"></span><h2><a class="toc-backref" href="#id8">5. Delete your Branch</a><a class="headerlink" href="#delete-your-branch" title="Permalink to this headline">¶</a></h2>
+<p>Once the Pull Request has been merged, you can click <code class="docutils literal notranslate"><span class="pre">Delete</span> <span class="pre">Branch</span></code>
+directly on GitHub, or you can remove the branch with <code class="docutils literal notranslate"><span class="pre">git</span></code>:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Delete local branch</span>
+git branch -D my_branch
+<span class="c1"># Delete branch in your fork via the remote named &quot;origin&quot;</span>
+git push origin -d my_branch
+</pre></div>
+</div>
+</div>
+<div class="section" id="install-your-package">
+<h2><a class="toc-backref" href="#id9">6. Install Your Package</a><a class="headerlink" href="#install-your-package" title="Permalink to this headline">¶</a></h2>
+<p>After the Pull Request has been merged, you will need to wait for a
+little while for the package to become available. Our channel is so
+popular that Anaconda decided to give us the “CDN treatment”. While
+this makes downloads faster, it means that updates to the Bioconda
+channel take approximately a half hour to propagate. Once this has
+happened, you can enjoy:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">my</span><span class="o">-</span><span class="n">package</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2019, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/contributor/workflow.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/docs/source/contributor/workflow.rst" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

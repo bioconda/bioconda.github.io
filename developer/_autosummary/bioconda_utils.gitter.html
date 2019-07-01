@@ -1,0 +1,762 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>gitter &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="graph" href="bioconda_utils.graph.html" />
+    <link rel="prev" title="githubhandler" href="bioconda_utils.githubhandler.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../../index.html">
+    <img class="logo" src="../../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../user/index.html">User Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Developer Docs</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.aiopipe.html">aiopipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html">bioconductor_skeleton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.build.html">build</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.circleci.html">circleci</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.cli.html">cli</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.cran_skeleton.html">cran_skeleton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.docker_utils.html">docker_utils</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.githandler.html">githandler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.githubhandler.html">githubhandler</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">gitter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.graph.html">graph</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.hosters.html">hosters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">recipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.autobump.html">autobump</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update_pinnings.html">update_pinnings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.upload.html">upload</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.utils.html">utils</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
+</ul>
+</li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="../../conda-recipe_index.html">Recipe Index</a></li>
+  
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-bioconda_utils.gitter">
+<span id="gitter"></span><h1>gitter<a class="headerlink" href="#module-bioconda_utils.gitter" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://gitter.im">Gitter.im</a> Web-API Bindings</p>
+<p class="rubric">Classes</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.gitter.AioGitterAPI" title="bioconda_utils.gitter.AioGitterAPI"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AioGitterAPI</span></code></a>(session, *args, **kwargs)</p></td>
+<td><p>AioHTTP based implementation of GitterAPI</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.gitter.GitterAPI" title="bioconda_utils.gitter.GitterAPI"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GitterAPI</span></code></a>(token)</p></td>
+<td><p>Sans-IO Base Class for Gitter API</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.gitter.Mention" title="bioconda_utils.gitter.Mention"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Mention</span></code></a></p></td>
+<td><p>Gitter User Mention</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.gitter.Message" title="bioconda_utils.gitter.Message"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Message</span></code></a></p></td>
+<td><p>Gitter Chat Message</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.gitter.Room" title="bioconda_utils.gitter.Room"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Room</span></code></a></p></td>
+<td><p>Gitter Chat Room</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.gitter.User" title="bioconda_utils.gitter.User"><code class="xref py py-obj docutils literal notranslate"><span class="pre">User</span></code></a></p></td>
+<td><p>Gitter User</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Documentation</p>
+<dl class="class">
+<dt id="bioconda_utils.gitter.AioGitterAPI">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.gitter.</code><code class="sig-name descname">AioGitterAPI</code><span class="sig-paren">(</span><em class="sig-param">session</em>, <em class="sig-param">*args</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#AioGitterAPI"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.AioGitterAPI" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.gitter.GitterAPI" title="bioconda_utils.gitter.GitterAPI"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.gitter.GitterAPI</span></code></a></p>
+<p>AioHTTP based implementation of GitterAPI</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="bioconda_utils.gitter.GitterAPI">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.gitter.</code><code class="sig-name descname">GitterAPI</code><span class="sig-paren">(</span><em class="sig-param">token</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#GitterAPI"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.GitterAPI" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Sans-IO Base Class for Gitter API</p>
+<p class="rubric">Methods</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.gitter.GitterAPI.list_rooms" title="bioconda_utils.gitter.GitterAPI.list_rooms"><code class="xref py py-obj docutils literal notranslate"><span class="pre">list_rooms</span></code></a>([name])</p></td>
+<td><p>Get list of current user’s rooms</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.gitter.GitterAPI.get_room" title="bioconda_utils.gitter.GitterAPI.get_room"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_room</span></code></a>(uri)</p></td>
+<td><p>Get a room using its URI</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.gitter.GitterAPI.join_room" title="bioconda_utils.gitter.GitterAPI.join_room"><code class="xref py py-obj docutils literal notranslate"><span class="pre">join_room</span></code></a>(user, room)</p></td>
+<td><p>Add <strong>user</strong> to a <strong>room</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.gitter.GitterAPI.leave_room" title="bioconda_utils.gitter.GitterAPI.leave_room"><code class="xref py py-obj docutils literal notranslate"><span class="pre">leave_room</span></code></a>(user, room)</p></td>
+<td><p>Remove <strong>user</strong> from <strong>room</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.gitter.GitterAPI.edit_room" title="bioconda_utils.gitter.GitterAPI.edit_room"><code class="xref py py-obj docutils literal notranslate"><span class="pre">edit_room</span></code></a>(room[, topic, tags, noindex])</p></td>
+<td><p>Set <strong>topic</strong>, <strong>tags</strong> or <strong>noindex</strong> for <strong>room</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.gitter.GitterAPI.list_unread_items" title="bioconda_utils.gitter.GitterAPI.list_unread_items"><code class="xref py py-obj docutils literal notranslate"><span class="pre">list_unread_items</span></code></a>(user, room)</p></td>
+<td><p>Get Ids for unread items of <strong>user</strong> in <strong>room</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.gitter.GitterAPI.mark_as_read" title="bioconda_utils.gitter.GitterAPI.mark_as_read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mark_as_read</span></code></a>(user, room, ids)</p></td>
+<td><p>Mark chat messages listed in <strong>ids</strong> as read</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.gitter.GitterAPI.get_message" title="bioconda_utils.gitter.GitterAPI.get_message"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_message</span></code></a>(room, msgid)</p></td>
+<td><p>Get a single message by its <strong>id</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.gitter.GitterAPI.send_message" title="bioconda_utils.gitter.GitterAPI.send_message"><code class="xref py py-obj docutils literal notranslate"><span class="pre">send_message</span></code></a>(room, text, *args)</p></td>
+<td><p>Send a new message</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.gitter.GitterAPI.edit_message" title="bioconda_utils.gitter.GitterAPI.edit_message"><code class="xref py py-obj docutils literal notranslate"><span class="pre">edit_message</span></code></a>(room, message, text)</p></td>
+<td><p>Edit a message</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.gitter.GitterAPI.list_groups" title="bioconda_utils.gitter.GitterAPI.list_groups"><code class="xref py py-obj docutils literal notranslate"><span class="pre">list_groups</span></code></a>()</p></td>
+<td><p>Get list of current user’s groups</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.gitter.GitterAPI.get_user" title="bioconda_utils.gitter.GitterAPI.get_user"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_user</span></code></a>()</p></td>
+<td><p>Get current user</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.gitter.GitterAPI.iter_chat" title="bioconda_utils.gitter.GitterAPI.iter_chat"><code class="xref py py-obj docutils literal notranslate"><span class="pre">iter_chat</span></code></a>(room)</p></td>
+<td><p>Listen to chat messages</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Details</p>
+<dl class="method">
+<dt id="bioconda_utils.gitter.GitterAPI.edit_message">
+<em class="property">async </em><code class="sig-name descname">edit_message</code><span class="sig-paren">(</span><em class="sig-param">room</em>, <em class="sig-param">message</em>, <em class="sig-param">text</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#GitterAPI.edit_message"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.GitterAPI.edit_message" title="Permalink to this definition">¶</a></dt>
+<dd><p>Edit a message</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#bioconda_utils.gitter.Message" title="bioconda_utils.gitter.Message"><code class="xref py py-class docutils literal notranslate"><span class="pre">Message</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.GitterAPI.edit_room">
+<em class="property">async </em><code class="sig-name descname">edit_room</code><span class="sig-paren">(</span><em class="sig-param">room</em>, <em class="sig-param">topic=None</em>, <em class="sig-param">tags=None</em>, <em class="sig-param">noindex=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#GitterAPI.edit_room"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.GitterAPI.edit_room" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set <strong>topic</strong>, <strong>tags</strong> or <strong>noindex</strong> for <strong>room</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.GitterAPI.get_message">
+<em class="property">async </em><code class="sig-name descname">get_message</code><span class="sig-paren">(</span><em class="sig-param">room</em>, <em class="sig-param">msgid</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#GitterAPI.get_message"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.GitterAPI.get_message" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a single message by its <strong>id</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#bioconda_utils.gitter.Message" title="bioconda_utils.gitter.Message"><code class="xref py py-class docutils literal notranslate"><span class="pre">Message</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.GitterAPI.get_room">
+<em class="property">async </em><code class="sig-name descname">get_room</code><span class="sig-paren">(</span><em class="sig-param">uri</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#GitterAPI.get_room"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.GitterAPI.get_room" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a room using its URI</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#bioconda_utils.gitter.Room" title="bioconda_utils.gitter.Room"><code class="xref py py-class docutils literal notranslate"><span class="pre">Room</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.GitterAPI.get_user">
+<em class="property">async </em><code class="sig-name descname">get_user</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#GitterAPI.get_user"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.GitterAPI.get_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get current user</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#bioconda_utils.gitter.User" title="bioconda_utils.gitter.User"><code class="xref py py-class docutils literal notranslate"><span class="pre">User</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.GitterAPI.iter_chat">
+<code class="sig-name descname">iter_chat</code><span class="sig-paren">(</span><em class="sig-param">room</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#GitterAPI.iter_chat"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.GitterAPI.iter_chat" title="Permalink to this definition">¶</a></dt>
+<dd><p>Listen to chat messages</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>room</strong> (<a class="reference internal" href="#bioconda_utils.gitter.Room" title="bioconda_utils.gitter.Room"><code class="xref py py-class docutils literal notranslate"><span class="pre">Room</span></code></a>) – Room to listen in. Use <a class="reference internal" href="#bioconda_utils.gitter.GitterAPI.list_rooms" title="bioconda_utils.gitter.GitterAPI.list_rooms"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">list_rooms</span></code></a> to find <a class="reference internal" href="#bioconda_utils.gitter.Room" title="bioconda_utils.gitter.Room"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Room</span></code></a>.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Asynciterator</span></code>[<a class="reference internal" href="#bioconda_utils.gitter.Message" title="bioconda_utils.gitter.Message"><code class="xref py py-class docutils literal notranslate"><span class="pre">Message</span></code></a>]</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>async iterator over chat messages</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.GitterAPI.join_room">
+<em class="property">async </em><code class="sig-name descname">join_room</code><span class="sig-paren">(</span><em class="sig-param">user</em>, <em class="sig-param">room</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#GitterAPI.join_room"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.GitterAPI.join_room" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add <strong>user</strong> to a <strong>room</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.GitterAPI.leave_room">
+<em class="property">async </em><code class="sig-name descname">leave_room</code><span class="sig-paren">(</span><em class="sig-param">user</em>, <em class="sig-param">room</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#GitterAPI.leave_room"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.GitterAPI.leave_room" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove <strong>user</strong> from <strong>room</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.GitterAPI.list_groups">
+<em class="property">async </em><code class="sig-name descname">list_groups</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#GitterAPI.list_groups"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.GitterAPI.list_groups" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get list of current user’s groups</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.GitterAPI.list_rooms">
+<em class="property">async </em><code class="sig-name descname">list_rooms</code><span class="sig-paren">(</span><em class="sig-param">name=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#GitterAPI.list_rooms"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.GitterAPI.list_rooms" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get list of current user’s rooms</p>
+<p>The list is filtered to match provided arguments.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Room name</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference internal" href="#bioconda_utils.gitter.Room" title="bioconda_utils.gitter.Room"><code class="xref py py-class docutils literal notranslate"><span class="pre">Room</span></code></a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.GitterAPI.list_unread_items">
+<em class="property">async </em><code class="sig-name descname">list_unread_items</code><span class="sig-paren">(</span><em class="sig-param">user</em>, <em class="sig-param">room</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#GitterAPI.list_unread_items"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.GitterAPI.list_unread_items" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get Ids for unread items of <strong>user</strong> in <strong>room</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Tuple</span></code>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>], <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]]</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Two lists of chat IDs are returned. The first are all unread mentions, the second only
+those in which the user was &#64;Mentioned.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.GitterAPI.mark_as_read">
+<em class="property">async </em><code class="sig-name descname">mark_as_read</code><span class="sig-paren">(</span><em class="sig-param">user</em>, <em class="sig-param">room</em>, <em class="sig-param">ids</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#GitterAPI.mark_as_read"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.GitterAPI.mark_as_read" title="Permalink to this definition">¶</a></dt>
+<dd><p>Mark chat messages listed in <strong>ids</strong> as read</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.GitterAPI.send_message">
+<em class="property">async </em><code class="sig-name descname">send_message</code><span class="sig-paren">(</span><em class="sig-param">room</em>, <em class="sig-param">text</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#GitterAPI.send_message"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.GitterAPI.send_message" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send a new message</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#bioconda_utils.gitter.Message" title="bioconda_utils.gitter.Message"><code class="xref py py-class docutils literal notranslate"><span class="pre">Message</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="bioconda_utils.gitter.Mention">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.gitter.</code><code class="sig-name descname">Mention</code><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#Mention"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.Mention" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">tuple</span></code></a></p>
+<p>Gitter User Mention</p>
+<p>Create new instance of Mention(screenName, userId, userIds)</p>
+<dl class="method">
+<dt id="bioconda_utils.gitter.Mention.from_dict">
+<em class="property">classmethod </em><code class="sig-name descname">from_dict</code><span class="sig-paren">(</span><em class="sig-param">data</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#Mention.from_dict"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.Mention.from_dict" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create <a class="reference internal" href="#bioconda_utils.gitter.User" title="bioconda_utils.gitter.User"><code class="xref any py py-class docutils literal notranslate"><span class="pre">User</span></code></a> from <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">dict</span></code></a></p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Mention.screenName">
+<em class="property">property </em><code class="sig-name descname">screenName</code><a class="headerlink" href="#bioconda_utils.gitter.Mention.screenName" title="Permalink to this definition">¶</a></dt>
+<dd><p>User Name</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Mention.userId">
+<em class="property">property </em><code class="sig-name descname">userId</code><a class="headerlink" href="#bioconda_utils.gitter.Mention.userId" title="Permalink to this definition">¶</a></dt>
+<dd><p>User ID</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Mention.userIds">
+<em class="property">property </em><code class="sig-name descname">userIds</code><a class="headerlink" href="#bioconda_utils.gitter.Mention.userIds" title="Permalink to this definition">¶</a></dt>
+<dd><p>User IDs</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="bioconda_utils.gitter.Message">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.gitter.</code><code class="sig-name descname">Message</code><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#Message"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.Message" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">tuple</span></code></a></p>
+<p>Gitter Chat Message</p>
+<p>Create new instance of Message(id, text, html, sent, fromUser, unread, readBy, urls, mentions, issues, meta, v, gv, editedAt)</p>
+<dl class="method">
+<dt id="bioconda_utils.gitter.Message.editedAt">
+<em class="property">property </em><code class="sig-name descname">editedAt</code><a class="headerlink" href="#bioconda_utils.gitter.Message.editedAt" title="Permalink to this definition">¶</a></dt>
+<dd><p>Edit timestamp (ISO)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Message.fromUser">
+<em class="property">property </em><code class="sig-name descname">fromUser</code><a class="headerlink" href="#bioconda_utils.gitter.Message.fromUser" title="Permalink to this definition">¶</a></dt>
+<dd><p>User by whom message was sent</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Message.from_dict">
+<em class="property">classmethod </em><code class="sig-name descname">from_dict</code><span class="sig-paren">(</span><em class="sig-param">data</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#Message.from_dict"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.Message.from_dict" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create <a class="reference internal" href="#bioconda_utils.gitter.Message" title="bioconda_utils.gitter.Message"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Message</span></code></a> from <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">dict</span></code></a></p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Message.gv">
+<em class="property">property </em><code class="sig-name descname">gv</code><a class="headerlink" href="#bioconda_utils.gitter.Message.gv" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gravatar Version (used to force cache flushing)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Message.html">
+<em class="property">property </em><code class="sig-name descname">html</code><a class="headerlink" href="#bioconda_utils.gitter.Message.html" title="Permalink to this definition">¶</a></dt>
+<dd><p>Message content (HTML)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Message.id">
+<em class="property">property </em><code class="sig-name descname">id</code><a class="headerlink" href="#bioconda_utils.gitter.Message.id" title="Permalink to this definition">¶</a></dt>
+<dd><p>Message ID</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Message.issues">
+<em class="property">property </em><code class="sig-name descname">issues</code><a class="headerlink" href="#bioconda_utils.gitter.Message.issues" title="Permalink to this definition">¶</a></dt>
+<dd><p>Github #ISSUE references in message</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Message.mentions">
+<em class="property">property </em><code class="sig-name descname">mentions</code><a class="headerlink" href="#bioconda_utils.gitter.Message.mentions" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;mentions in message</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Message.meta">
+<em class="property">property </em><code class="sig-name descname">meta</code><a class="headerlink" href="#bioconda_utils.gitter.Message.meta" title="Permalink to this definition">¶</a></dt>
+<dd><p>(Unused)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Message.readBy">
+<em class="property">property </em><code class="sig-name descname">readBy</code><a class="headerlink" href="#bioconda_utils.gitter.Message.readBy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Number of users who read message</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Message.sent">
+<em class="property">property </em><code class="sig-name descname">sent</code><a class="headerlink" href="#bioconda_utils.gitter.Message.sent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Posting timestamp (ISO)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Message.text">
+<em class="property">property </em><code class="sig-name descname">text</code><a class="headerlink" href="#bioconda_utils.gitter.Message.text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Message content (markdown)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Message.unread">
+<em class="property">property </em><code class="sig-name descname">unread</code><a class="headerlink" href="#bioconda_utils.gitter.Message.unread" title="Permalink to this definition">¶</a></dt>
+<dd><p>Flag indicating whether we have read this</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Message.urls">
+<em class="property">property </em><code class="sig-name descname">urls</code><a class="headerlink" href="#bioconda_utils.gitter.Message.urls" title="Permalink to this definition">¶</a></dt>
+<dd><p>URLs present in message</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Message.v">
+<em class="property">property </em><code class="sig-name descname">v</code><a class="headerlink" href="#bioconda_utils.gitter.Message.v" title="Permalink to this definition">¶</a></dt>
+<dd><p>Version</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="bioconda_utils.gitter.Room">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.gitter.</code><code class="sig-name descname">Room</code><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#Room"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.Room" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">tuple</span></code></a></p>
+<p>Gitter Chat Room</p>
+<p>Create new instance of Room(id, name, topic, userCount, mentions, lurk, url, githubType, tags, unreadItems, avatarUrl, roomMember, groupId, public, lastAccessTime, favourite, oneToOne, user, uri, security, noindex, group, v)</p>
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.avatarUrl">
+<em class="property">property </em><code class="sig-name descname">avatarUrl</code><a class="headerlink" href="#bioconda_utils.gitter.Room.avatarUrl" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gravatar URL</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.favourite">
+<em class="property">property </em><code class="sig-name descname">favourite</code><a class="headerlink" href="#bioconda_utils.gitter.Room.favourite" title="Permalink to this definition">¶</a></dt>
+<dd><p>Flag marking this room as favorite</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.from_dict">
+<em class="property">classmethod </em><code class="sig-name descname">from_dict</code><span class="sig-paren">(</span><em class="sig-param">data</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#Room.from_dict"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.Room.from_dict" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create <a class="reference internal" href="#bioconda_utils.gitter.Room" title="bioconda_utils.gitter.Room"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Room</span></code></a> from <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">dict</span></code></a></p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.githubType">
+<em class="property">property </em><code class="sig-name descname">githubType</code><a class="headerlink" href="#bioconda_utils.gitter.Room.githubType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Type of room (<code class="docutils literal notranslate"><span class="pre">ORG</span></code>, <code class="docutils literal notranslate"><span class="pre">REPO</span></code>, <code class="docutils literal notranslate"><span class="pre">ONETOONE</span></code>,
+<code class="docutils literal notranslate"><span class="pre">ORG_CHANNEL</span></code>, <code class="docutils literal notranslate"><span class="pre">REPO_CHANNEL</span></code>, <code class="docutils literal notranslate"><span class="pre">USER_CHANNEL</span></code>)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.group">
+<em class="property">property </em><code class="sig-name descname">group</code><a class="headerlink" href="#bioconda_utils.gitter.Room.group" title="Permalink to this definition">¶</a></dt>
+<dd><p>Unknown</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.groupId">
+<em class="property">property </em><code class="sig-name descname">groupId</code><a class="headerlink" href="#bioconda_utils.gitter.Room.groupId" title="Permalink to this definition">¶</a></dt>
+<dd><p>unknown</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.id">
+<em class="property">property </em><code class="sig-name descname">id</code><a class="headerlink" href="#bioconda_utils.gitter.Room.id" title="Permalink to this definition">¶</a></dt>
+<dd><p>Room ID</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.lastAccessTime">
+<em class="property">property </em><code class="sig-name descname">lastAccessTime</code><a class="headerlink" href="#bioconda_utils.gitter.Room.lastAccessTime" title="Permalink to this definition">¶</a></dt>
+<dd><p>Last time (ISO) room was accessed</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.lurk">
+<em class="property">property </em><code class="sig-name descname">lurk</code><a class="headerlink" href="#bioconda_utils.gitter.Room.lurk" title="Permalink to this definition">¶</a></dt>
+<dd><p>Flag marking this room as silenced (no notifications)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.mentions">
+<em class="property">property </em><code class="sig-name descname">mentions</code><a class="headerlink" href="#bioconda_utils.gitter.Room.mentions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Number of unread mentions of current user</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.name">
+<em class="property">property </em><code class="sig-name descname">name</code><a class="headerlink" href="#bioconda_utils.gitter.Room.name" title="Permalink to this definition">¶</a></dt>
+<dd><p>Room Name (e.g. <code class="docutils literal notranslate"><span class="pre">bioconda/Lobby</span></code>)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.noindex">
+<em class="property">property </em><code class="sig-name descname">noindex</code><a class="headerlink" href="#bioconda_utils.gitter.Room.noindex" title="Permalink to this definition">¶</a></dt>
+<dd><p>unknown</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.oneToOne">
+<em class="property">property </em><code class="sig-name descname">oneToOne</code><a class="headerlink" href="#bioconda_utils.gitter.Room.oneToOne" title="Permalink to this definition">¶</a></dt>
+<dd><p>Flag marking personal chats</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.public">
+<em class="property">property </em><code class="sig-name descname">public</code><a class="headerlink" href="#bioconda_utils.gitter.Room.public" title="Permalink to this definition">¶</a></dt>
+<dd><p>unknown</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.roomMember">
+<em class="property">property </em><code class="sig-name descname">roomMember</code><a class="headerlink" href="#bioconda_utils.gitter.Room.roomMember" title="Permalink to this definition">¶</a></dt>
+<dd><p>unknown</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.security">
+<em class="property">property </em><code class="sig-name descname">security</code><a class="headerlink" href="#bioconda_utils.gitter.Room.security" title="Permalink to this definition">¶</a></dt>
+<dd><p>Unknown</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.tags">
+<em class="property">property </em><code class="sig-name descname">tags</code><a class="headerlink" href="#bioconda_utils.gitter.Room.tags" title="Permalink to this definition">¶</a></dt>
+<dd><p>List of tags attached to room</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.topic">
+<em class="property">property </em><code class="sig-name descname">topic</code><a class="headerlink" href="#bioconda_utils.gitter.Room.topic" title="Permalink to this definition">¶</a></dt>
+<dd><p>Room Topic</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.unreadItems">
+<em class="property">property </em><code class="sig-name descname">unreadItems</code><a class="headerlink" href="#bioconda_utils.gitter.Room.unreadItems" title="Permalink to this definition">¶</a></dt>
+<dd><p>Number of unread messages for current user</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.uri">
+<em class="property">property </em><code class="sig-name descname">uri</code><a class="headerlink" href="#bioconda_utils.gitter.Room.uri" title="Permalink to this definition">¶</a></dt>
+<dd><p>Room URI</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.url">
+<em class="property">property </em><code class="sig-name descname">url</code><a class="headerlink" href="#bioconda_utils.gitter.Room.url" title="Permalink to this definition">¶</a></dt>
+<dd><p>URL to this room for browser</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.user">
+<em class="property">property </em><code class="sig-name descname">user</code><a class="headerlink" href="#bioconda_utils.gitter.Room.user" title="Permalink to this definition">¶</a></dt>
+<dd><p>User if one-to-one</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.userCount">
+<em class="property">property </em><code class="sig-name descname">userCount</code><a class="headerlink" href="#bioconda_utils.gitter.Room.userCount" title="Permalink to this definition">¶</a></dt>
+<dd><p>List of users joined in room</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.Room.v">
+<em class="property">property </em><code class="sig-name descname">v</code><a class="headerlink" href="#bioconda_utils.gitter.Room.v" title="Permalink to this definition">¶</a></dt>
+<dd><p>Version</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="bioconda_utils.gitter.User">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.gitter.</code><code class="sig-name descname">User</code><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#User"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.User" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">tuple</span></code></a></p>
+<p>Gitter User</p>
+<p>Create new instance of User(id, username, displayName, url, avatarUrl, avatarUrlSmall, avatarUrlMedium, v, gv, providers)</p>
+<dl class="method">
+<dt id="bioconda_utils.gitter.User.avatarUrl">
+<em class="property">property </em><code class="sig-name descname">avatarUrl</code><a class="headerlink" href="#bioconda_utils.gitter.User.avatarUrl" title="Permalink to this definition">¶</a></dt>
+<dd><p>Avatar URL</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.User.avatarUrlMedium">
+<em class="property">property </em><code class="sig-name descname">avatarUrlMedium</code><a class="headerlink" href="#bioconda_utils.gitter.User.avatarUrlMedium" title="Permalink to this definition">¶</a></dt>
+<dd><p>Medium avatar URL</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.User.avatarUrlSmall">
+<em class="property">property </em><code class="sig-name descname">avatarUrlSmall</code><a class="headerlink" href="#bioconda_utils.gitter.User.avatarUrlSmall" title="Permalink to this definition">¶</a></dt>
+<dd><p>Small avatar URL</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.User.displayName">
+<em class="property">property </em><code class="sig-name descname">displayName</code><a class="headerlink" href="#bioconda_utils.gitter.User.displayName" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gitter displayname (real name)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.User.from_dict">
+<em class="property">classmethod </em><code class="sig-name descname">from_dict</code><span class="sig-paren">(</span><em class="sig-param">data</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/gitter.html#User.from_dict"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.gitter.User.from_dict" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create <a class="reference internal" href="#bioconda_utils.gitter.User" title="bioconda_utils.gitter.User"><code class="xref any py py-class docutils literal notranslate"><span class="pre">User</span></code></a> from <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">dict</span></code></a></p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.User.gv">
+<em class="property">property </em><code class="sig-name descname">gv</code><a class="headerlink" href="#bioconda_utils.gitter.User.gv" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gravatar Version (used to force cache flushing)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.User.id">
+<em class="property">property </em><code class="sig-name descname">id</code><a class="headerlink" href="#bioconda_utils.gitter.User.id" title="Permalink to this definition">¶</a></dt>
+<dd><p>User ID</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.User.providers">
+<em class="property">property </em><code class="sig-name descname">providers</code><a class="headerlink" href="#bioconda_utils.gitter.User.providers" title="Permalink to this definition">¶</a></dt>
+<dd><p>List of OAUTH providers for user</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.User.url">
+<em class="property">property </em><code class="sig-name descname">url</code><a class="headerlink" href="#bioconda_utils.gitter.User.url" title="Permalink to this definition">¶</a></dt>
+<dd><p>Profile URL (relative)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.User.username">
+<em class="property">property </em><code class="sig-name descname">username</code><a class="headerlink" href="#bioconda_utils.gitter.User.username" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gitter username (OAUTH - Github/Gitlab)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.gitter.User.v">
+<em class="property">property </em><code class="sig-name descname">v</code><a class="headerlink" href="#bioconda_utils.gitter.User.v" title="Permalink to this definition">¶</a></dt>
+<dd><p>Version</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2019, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../_sources/developer/_autosummary/bioconda_utils.gitter.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/docs/source/developer/_autosummary/bioconda_utils.gitter.rst" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

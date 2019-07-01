@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>FAQs &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Updating recipes" href="updating.html" />
+    <link rel="prev" title="Linting" href="linting.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../index.html">
+    <img class="logo" src="../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../user/index.html">User Docs</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Contributing to Bioconda</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="setup.html">Initial Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="workflow.html">Contribution Workflow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="building-locally.html">Testing Recipes Locally</a></li>
+<li class="toctree-l2"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="build-system.html">Build system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="guidelines.html">Guidelines for <code class="docutils literal notranslate"><span class="pre">bioconda</span></code> recipes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="linting.html">Linting</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">FAQs</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#what-s-the-difference-between-anaconda-conda-and-miniconda">What’s the difference between Anaconda, conda, and Miniconda?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#recipe-vs-package">Recipe vs package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#continuous-integration-circle-ci">Continuous integration (Circle CI)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-is-circle-ci-set-up-and-configured">How is Circle CI set up and configured?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-are-dependencies-pinned-to-particular-versions">How are dependencies pinned to particular versions?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#what-s-the-lifecycle-of-a-bioconda-package">What’s the lifecycle of a bioconda package?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#circleci-macos-plans">CircleCI macOS plans</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#testing-bioconda-utils-locally">Testing <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> locally</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="updating.html">Updating recipes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cb3.html">Conda build v3</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/index.html">Developer Docs</a></li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="../conda-recipe_index.html">Recipe Index</a></li>
+  
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="faqs">
+<h1>FAQs<a class="headerlink" href="#faqs" title="Permalink to this headline">¶</a></h1>
+<p>This section is to help contributors get up to speed on various topics related
+to building and testing conda packages.</p>
+<div class="section" id="what-s-the-difference-between-anaconda-conda-and-miniconda">
+<span id="conda-anaconda-minconda"></span><h2>What’s the difference between Anaconda, conda, and Miniconda?<a class="headerlink" href="#what-s-the-difference-between-anaconda-conda-and-miniconda" title="Permalink to this headline">¶</a></h2>
+<p>The <a class="reference external" href="https://www.continuum.io/downloads">Anaconda Python distribution</a>
+started out as a bundle of scientific Python packages that were otherwise
+difficult to install. It was created by <a class="reference external" href="https://www.continuum.io/">ContinuumIO</a> and remains the easiest way to install the full
+scientific Python stack.</p>
+<p>Many packaging problems had to be solved in order to provide a cross-platform
+bundle, and one of the tools that came out of that work was the conda package
+manager. So conda is part of Anaconda. But conda ended up being very useful on
+its own and for things other than Python, so ContinuumIO spun it out into its
+own separate <a class="reference external" href="https://github.com/conda/conda">open-source package</a>.</p>
+<p>However, conda is not just for Python, it is not “pip-installable” and rather
+needs to be installed in a language-agnostic manner. The conda installer is
+called Miniconda, to differentiate it from the full-size Anaconda.</p>
+<p>So: conda is a package manager, Miniconda is the conda installer, and Anaconda
+is a scientific Python distribution that also includes conda.</p>
+</div>
+<div class="section" id="recipe-vs-package">
+<h2>Recipe vs package<a class="headerlink" href="#recipe-vs-package" title="Permalink to this headline">¶</a></h2>
+<p>A <em>recipe</em> is a directory containing small set of files that defines name,
+version, dependencies, and URL for source code. A recipe typically contains
+a <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> file that defines these settings and a <code class="docutils literal notranslate"><span class="pre">build.sh</span></code> script that
+builds the software. A recipe is converted into a <em>package</em> by running
+<a class="conda-forge reference external" href="https://github.com/conda-forge/conda-build-feedstock"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">conda-build</span></code></a> on the recipe. A package is a bgzipped tar file (<code class="docutils literal notranslate"><span class="pre">.tar.bz2</span></code>) that
+contains the built software. Packages are uploaded to anaconda.org so that
+users can install them with <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span></code>.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>The <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/package-spec.html" title="(in conda build v3.18.6+9.g53d00e33.dirty)"><code class="docutils literal notranslate"><span class="pre">Conda</span> <span class="pre">package</span> <span class="pre">specification</span></code></a> has details on exactly
+what a package contains and how it is installed into an
+environment.</p>
+</div>
+</div>
+<div class="section" id="continuous-integration-circle-ci">
+<h2>Continuous integration (Circle CI)<a class="headerlink" href="#continuous-integration-circle-ci" title="Permalink to this headline">¶</a></h2>
+<p>We use the Circle CI continuous integration service. Continuous integration
+tests each small incremental change to code to ensure that everything is
+up-to-date and correct. Circle CI graciously provides this service for free to
+open-source projects. It is connected to GitHub such that each time a pull
+request or merge occurs, a new Circle CI build is created. For bioconda,
+a “build” means identifying any recipes that need to built, running
+<a class="conda-forge reference external" href="https://github.com/conda-forge/conda-build-feedstock"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">conda-build</span></code></a> on them, and testing to make sure they work.</p>
+</div>
+<div class="section" id="how-is-circle-ci-set-up-and-configured">
+<h2>How is Circle CI set up and configured?<a class="headerlink" href="#how-is-circle-ci-set-up-and-configured" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">.circleci/config.yml</span></code> is read by the Circle CI worker.</p></li>
+<li><p>The worker runs <code class="docutils literal notranslate"><span class="pre">.circleci/setup.sh</span></code>. This installs conda, adds
+channels, and installs <span class="xref std std-doc">bioconda-utils</span></p></li>
+<li><p>The worker runs tests defined in <code class="docutils literal notranslate"><span class="pre">.circleci/config.yml</span></code>.</p></li>
+</ul>
+<p>A local version of the Circle CI tests can be executed via the
+<a class="reference internal" href="building-locally.html#circleci-client"><span class="std std-ref">Circle CI client</span></a>. Note that this version lacks some
+additional tests that are executed in the online version. Thus, it can be that
+a local test passes while the online test fails.
+Nevertheless, the local test should capture most problems, such that it is highly
+encouraged to first run a local test in order to save quota on Circle CI.</p>
+</div>
+<div class="section" id="how-are-dependencies-pinned-to-particular-versions">
+<h2>How are dependencies pinned to particular versions?<a class="headerlink" href="#how-are-dependencies-pinned-to-particular-versions" title="Permalink to this headline">¶</a></h2>
+<p>In some cases a recipe may need to pin the version of a dependency.
+A global set of default versions to pin against is shared with conda-forge and
+can be found <a class="reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/master/recipe/conda_build_config.yaml">here</a>.
+For new dependencies that are contained in conda-forge and not yet in this list,
+please update the list via a pull request.
+Local pinnings can be achieved by adding a file <code class="docutils literal notranslate"><span class="pre">conda_build_config.yaml</span></code> next
+to your <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>.</p>
+<p>To find out against which version you can pin a package, e.g. x.y.* or x.* please use [ABI-Laboratory](<a class="reference external" href="https://abi-laboratory.pro/tracker/">https://abi-laboratory.pro/tracker/</a>).</p>
+</div>
+<div class="section" id="what-s-the-lifecycle-of-a-bioconda-package">
+<h2>What’s the lifecycle of a bioconda package?<a class="headerlink" href="#what-s-the-lifecycle-of-a-bioconda-package" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Submit a pull request with a new recipe or an updated recipe</p></li>
+<li><p>Circle CI automatically builds and tests the changed recipe[s] using
+conda-build. Test results are shown on the PR.</p></li>
+<li><p>If tests fail, push changes to PR until they pass.</p></li>
+<li><p>Once tests pass, merge into master branch</p></li>
+<li><p>Circle CI tests again, but this time after testing the built packages are
+uploaded to the bioconda channel on anaconda.org.</p></li>
+<li><p>Users can now install the package just like any other conda package with
+<code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span></code>.</p></li>
+</ul>
+<p>Once uploaded to anaconda.org, it is our intention to never delete any old
+packages. Even if a recipe in the bioconda repo is updated to a new version,
+the old version will remain on anaconda.org. ContinuumIO has graciously agreed
+to sponsor the storage required by the bioconda channel.
+Nevertheless, it can sometimes happen that we have to mark packages as broken
+in order to avoid that they are accidentally pulled by the conda solver.
+In such a case it is only possible to install them by specifically considering
+the <code class="docutils literal notranslate"><span class="pre">broken</span></code> label, i.e.,</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda install -c conda-forge -c bioconda -c defaults -c bioconda/label/broken my-package<span class="o">=</span>&lt;broken-version&gt;
+</pre></div>
+</div>
+</div>
+<div class="section" id="circleci-macos-plans">
+<span id="circlecimacos"></span><h2>CircleCI macOS plans<a class="headerlink" href="#circleci-macos-plans" title="Permalink to this headline">¶</a></h2>
+<p>In the past we had recommended enabling CircleCI for your fork to help conserve
+the bioconda team’s build time quota. However this did not work very well:
+macOS builds on CircleCI require an extra macOS plan, which is not free to
+users. The result was that contributors’ pull requests would fail tests simply
+due to not having a paid macOS plan. Luckily, CircleCI has generously provided
+macOS builds to the bioconda team.</p>
+<p>To ensure that CircleCI uses the bioconda team account, please <strong>disable</strong>
+CircleCI on your fork (look for the big red “Stop Building” button at
+<a class="reference external" href="https://circleci.com/dashboard">https://circleci.com/dashboard</a> under the settings for your fork).</p>
+</div>
+<div class="section" id="testing-bioconda-utils-locally">
+<h2>Testing <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> locally<a class="headerlink" href="#testing-bioconda-utils-locally" title="Permalink to this headline">¶</a></h2>
+<p>Follow the instructions at <span class="xref std std-ref">bootstrap</span> to create a separate Miniconda
+installation using the <code class="docutils literal notranslate"><span class="pre">bootstrap.py</span></code> script in the <code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code> repo.</p>
+<p>Then, in the activated environment, install the bioconda-utils test
+requirements, from the top-level directory of the <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> repo.
+While the bootstrap script installs bioconda-utils dependencies, if there are
+any changes in <code class="docutils literal notranslate"><span class="pre">requirements.txt</span></code> you will want to install them as well.</p>
+<p>The bootstrap script already installed bioconda-utils, but we want to install
+it in develop mode so we can make local changes and they will be immediately
+picked up. So we need to uninstall and then reinstall bioconda-utils.</p>
+<p>Finally, run the tests using <code class="docutils literal notranslate"><span class="pre">pytest</span></code>.</p>
+<p>In summary:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># activate env</span>
+<span class="nb">source</span> ~/.config/bioconda/activate
+
+<span class="c1"># install dependencies</span>
+conda install --file test-requirements.txt --file bioconda_utils/bioconda_utils-requirements.txt
+
+<span class="c1"># uninstall and then reinstall</span>
+pip uninstall bioconda_utils
+python setup.py develop
+
+<span class="c1"># run tests</span>
+pytest <span class="nb">test</span> -vv
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2019, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/contributor/faqs.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/docs/source/contributor/faqs.rst" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

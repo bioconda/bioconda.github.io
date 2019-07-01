@@ -66,14 +66,9 @@
 
 <h3>Navigation</h3>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../updating.html">Updating recipes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../linting.html">Linting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../faqs.html">FAQs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../build-system.html">Build system</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../cb3.html">Conda build v3</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../developer.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../user/index.html">User Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/index.html">Developer Docs</a></li>
 </ul>
 
 <ul>
@@ -167,7 +162,7 @@
     <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>  <span class="c1"># pylint: disable=invalid-name</span>
 
 
-<div class="viewcode-block" id="as_extlink_filter"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.as_extlink_filter">[docs]</a><span class="k">def</span> <span class="nf">as_extlink_filter</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+<div class="viewcode-block" id="as_extlink_filter"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.as_extlink_filter">[docs]</a><span class="k">def</span> <span class="nf">as_extlink_filter</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Jinja2 filter converting identifier (list) to extlink format</span>
 
 <span class="sd">    Args:</span>
@@ -190,7 +185,7 @@
     <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="n">fmt</span><span class="p">,</span> <span class="n">text</span><span class="p">))</span></div>
 
 
-<div class="viewcode-block" id="underline_filter"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.underline_filter">[docs]</a><span class="k">def</span> <span class="nf">underline_filter</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+<div class="viewcode-block" id="underline_filter"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.underline_filter">[docs]</a><span class="k">def</span> <span class="nf">underline_filter</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Jinja2 filter adding =-underline to row of text</span>
 
 <span class="sd">    &gt;&gt;&gt; underline_filter(&quot;headline&quot;)</span>
@@ -200,7 +195,7 @@
     <span class="k">return</span> <span class="n">text</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span> <span class="o">+</span> <span class="s2">&quot;=&quot;</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">text</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="rst_escape_filter"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.rst_escape_filter">[docs]</a><span class="k">def</span> <span class="nf">rst_escape_filter</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+<div class="viewcode-block" id="rst_escape_filter"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.rst_escape_filter">[docs]</a><span class="k">def</span> <span class="nf">rst_escape_filter</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Jinja2 filter escaping RST symbols in text</span>
 
 <span class="sd">    &gt;&gt;&gt; rst_excape_filter(&quot;running `cmd.sh`&quot;)</span>
@@ -211,7 +206,7 @@
     <span class="k">return</span> <span class="n">text</span></div>
 
 
-<div class="viewcode-block" id="prefixes_filter"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.prefixes_filter">[docs]</a><span class="k">def</span> <span class="nf">prefixes_filter</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">split</span><span class="p">):</span>
+<div class="viewcode-block" id="prefixes_filter"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.prefixes_filter">[docs]</a><span class="k">def</span> <span class="nf">prefixes_filter</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">split</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Jinja2 filter&quot;&quot;&quot;</span>
     <span class="n">path</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="k">for</span> <span class="n">part</span> <span class="ow">in</span> <span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">split</span><span class="p">):</span>
@@ -219,7 +214,7 @@
         <span class="k">yield</span> <span class="p">{</span><span class="s1">&#39;path&#39;</span><span class="p">:</span> <span class="n">split</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">path</span><span class="p">),</span> <span class="s1">&#39;part&#39;</span><span class="p">:</span> <span class="n">part</span><span class="p">}</span></div>
 
 
-<div class="viewcode-block" id="rst_link_filter"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.rst_link_filter">[docs]</a><span class="k">def</span> <span class="nf">rst_link_filter</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">url</span><span class="p">):</span>
+<div class="viewcode-block" id="rst_link_filter"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.rst_link_filter">[docs]</a><span class="k">def</span> <span class="nf">rst_link_filter</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">url</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Jinja2 filter creating RST link</span>
 
 <span class="sd">    &gt;&gt;&gt; rst_link_filter(&quot;bla&quot;, &quot;https://somewhere&quot;)</span>
@@ -230,7 +225,7 @@
     <span class="k">return</span> <span class="n">text</span></div>
 
 
-<div class="viewcode-block" id="Renderer"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.Renderer">[docs]</a><span class="k">class</span> <span class="nc">Renderer</span><span class="p">:</span>
+<div class="viewcode-block" id="Renderer"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.Renderer">[docs]</a><span class="k">class</span> <span class="nc">Renderer</span><span class="p">:</span>
     <span class="sd">&quot;&quot;&quot;Jinja2 template renderer</span>
 
 <span class="sd">    - Loads and caches templates from paths configured in conf.py</span>
@@ -252,7 +247,7 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">templates</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">extra_context</span> <span class="o">=</span> <span class="n">extra_context</span>
 
-<div class="viewcode-block" id="Renderer.render"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.Renderer.render">[docs]</a>    <span class="k">def</span> <span class="nf">render</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">template_name</span><span class="p">,</span> <span class="n">context</span><span class="p">):</span>
+<div class="viewcode-block" id="Renderer.render"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.Renderer.render">[docs]</a>    <span class="k">def</span> <span class="nf">render</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">template_name</span><span class="p">,</span> <span class="n">context</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Render a template file to string</span>
 
 <span class="sd">        Args:</span>
@@ -267,7 +262,7 @@
 
         <span class="k">return</span> <span class="n">template</span><span class="o">.</span><span class="n">render</span><span class="p">(</span><span class="o">**</span><span class="n">context</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="Renderer.render_to_file"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.Renderer.render_to_file">[docs]</a>    <span class="k">def</span> <span class="nf">render_to_file</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">file_name</span><span class="p">,</span> <span class="n">template_name</span><span class="p">,</span> <span class="n">context</span><span class="p">):</span>
+<div class="viewcode-block" id="Renderer.render_to_file"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.Renderer.render_to_file">[docs]</a>    <span class="k">def</span> <span class="nf">render_to_file</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">file_name</span><span class="p">,</span> <span class="n">template_name</span><span class="p">,</span> <span class="n">context</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Render a template file to a file</span>
 
 <span class="sd">        Ensures that target directories exist and only writes</span>
@@ -295,7 +290,7 @@
         <span class="k">return</span> <span class="kc">True</span></div></div>
 
 
-<div class="viewcode-block" id="RequirementsField"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.RequirementsField">[docs]</a><span class="k">class</span> <span class="nc">RequirementsField</span><span class="p">(</span><span class="n">GroupedField</span><span class="p">):</span>
+<div class="viewcode-block" id="RequirementsField"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.RequirementsField">[docs]</a><span class="k">class</span> <span class="nc">RequirementsField</span><span class="p">(</span><span class="n">GroupedField</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Field Type for ``.. conda:package::`` for specifying dependencies</span>
 
 <span class="sd">    This does two things different than ``GroupedField``:</span>
@@ -325,7 +320,7 @@
         <span class="k">return</span> <span class="n">nodes</span><span class="o">.</span><span class="n">field</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">fieldname</span><span class="p">,</span> <span class="n">fieldbody</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="RequiredByField"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.RequiredByField">[docs]</a><span class="k">class</span> <span class="nc">RequiredByField</span><span class="p">(</span><span class="n">Field</span><span class="p">):</span>
+<div class="viewcode-block" id="RequiredByField"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.RequiredByField">[docs]</a><span class="k">class</span> <span class="nc">RequiredByField</span><span class="p">(</span><span class="n">Field</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Field Type for directive ``.. conda:package::`` for showing required-by</span>
 
 <span class="sd">    This just creates the field name and field body with a ``pending_xref`` in the</span>
@@ -346,7 +341,7 @@
         <span class="k">return</span> <span class="n">nodes</span><span class="o">.</span><span class="n">field</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">fieldname</span><span class="p">,</span> <span class="n">fieldbody</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="resolve_required_by_xrefs"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.resolve_required_by_xrefs">[docs]</a><span class="k">def</span> <span class="nf">resolve_required_by_xrefs</span><span class="p">(</span><span class="n">app</span><span class="p">,</span> <span class="n">env</span><span class="p">,</span> <span class="n">node</span><span class="p">,</span> <span class="n">contnode</span><span class="p">):</span>
+<div class="viewcode-block" id="resolve_required_by_xrefs"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.resolve_required_by_xrefs">[docs]</a><span class="k">def</span> <span class="nf">resolve_required_by_xrefs</span><span class="p">(</span><span class="n">app</span><span class="p">,</span> <span class="n">env</span><span class="p">,</span> <span class="n">node</span><span class="p">,</span> <span class="n">contnode</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Now that all recipes and packages have been parsed, we are called here</span>
 <span class="sd">    for each ``pending_xref`` node that sphinx has not been able to resolve.</span>
 
@@ -373,7 +368,7 @@
         <span class="k">return</span> <span class="n">listnode</span></div>
 
 
-<div class="viewcode-block" id="CondaObjectDescription"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaObjectDescription">[docs]</a><span class="k">class</span> <span class="nc">CondaObjectDescription</span><span class="p">(</span><span class="n">ObjectDescription</span><span class="p">):</span>
+<div class="viewcode-block" id="CondaObjectDescription"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaObjectDescription">[docs]</a><span class="k">class</span> <span class="nc">CondaObjectDescription</span><span class="p">(</span><span class="n">ObjectDescription</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Base class for ``ObjectDescription`` types in the `CondaDomain`&quot;&quot;&quot;</span>
     <span class="n">typename</span> <span class="o">=</span> <span class="s2">&quot;[UNKNOWN]&quot;</span>
 
@@ -383,7 +378,7 @@
         <span class="s1">&#39;replaces_section_title&#39;</span><span class="p">:</span> <span class="n">rst</span><span class="o">.</span><span class="n">directives</span><span class="o">.</span><span class="n">flag</span>
     <span class="p">}</span>
 
-<div class="viewcode-block" id="CondaObjectDescription.handle_signature"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaObjectDescription.handle_signature">[docs]</a>    <span class="k">def</span> <span class="nf">handle_signature</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sig</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">signode</span><span class="p">:</span> <span class="n">addnodes</span><span class="o">.</span><span class="n">desc</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<div class="viewcode-block" id="CondaObjectDescription.handle_signature"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaObjectDescription.handle_signature">[docs]</a>    <span class="k">def</span> <span class="nf">handle_signature</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sig</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">signode</span><span class="p">:</span> <span class="n">addnodes</span><span class="o">.</span><span class="n">desc</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Transform signature into RST nodes&quot;&quot;&quot;</span>
         <span class="n">signode</span> <span class="o">+=</span> <span class="n">addnodes</span><span class="o">.</span><span class="n">desc_annotation</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">typename</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">typename</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span><span class="p">)</span>
         <span class="n">signode</span> <span class="o">+=</span> <span class="n">addnodes</span><span class="o">.</span><span class="n">desc_name</span><span class="p">(</span><span class="n">sig</span><span class="p">,</span> <span class="n">sig</span><span class="p">)</span>
@@ -415,7 +410,7 @@
 
         <span class="k">return</span> <span class="n">sig</span></div>
 
-<div class="viewcode-block" id="CondaObjectDescription.add_target_and_index"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaObjectDescription.add_target_and_index">[docs]</a>    <span class="k">def</span> <span class="nf">add_target_and_index</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">sig</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+<div class="viewcode-block" id="CondaObjectDescription.add_target_and_index"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaObjectDescription.add_target_and_index">[docs]</a>    <span class="k">def</span> <span class="nf">add_target_and_index</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">sig</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
                              <span class="n">signodes</span><span class="p">:</span> <span class="n">addnodes</span><span class="o">.</span><span class="n">desc</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Add to index and to domain data&quot;&quot;&quot;</span>
         <span class="n">target_name</span> <span class="o">=</span> <span class="s2">&quot;-&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">((</span><span class="bp">self</span><span class="o">.</span><span class="n">objtype</span><span class="p">,</span> <span class="n">name</span><span class="p">))</span>
@@ -439,24 +434,24 @@
         <span class="k">if</span> <span class="n">index_text</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">indexnode</span><span class="p">[</span><span class="s1">&#39;entries&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="s1">&#39;single&#39;</span><span class="p">,</span> <span class="n">index_text</span><span class="p">,</span> <span class="n">target_name</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">))</span></div>
 
-<div class="viewcode-block" id="CondaObjectDescription.get_index_text"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaObjectDescription.get_index_text">[docs]</a>    <span class="k">def</span> <span class="nf">get_index_text</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<div class="viewcode-block" id="CondaObjectDescription.get_index_text"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaObjectDescription.get_index_text">[docs]</a>    <span class="k">def</span> <span class="nf">get_index_text</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;This yields the text with which the object is entered into the index.&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="s2">&quot;</span><span class="si">{}</span><span class="s2"> (</span><span class="si">{}</span><span class="s2">)&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">objtype</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="CondaObjectDescription.before_content"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaObjectDescription.before_content">[docs]</a>    <span class="k">def</span> <span class="nf">before_content</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="CondaObjectDescription.before_content"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaObjectDescription.before_content">[docs]</a>    <span class="k">def</span> <span class="nf">before_content</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;We register ourselves in the ``ref_context`` so that a later</span>
 <span class="sd">        call to ``:depends:`packagename``` knows within which package</span>
 <span class="sd">        the dependency was added&quot;&quot;&quot;</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">ref_context</span><span class="p">[</span><span class="s1">&#39;conda:&#39;</span><span class="o">+</span><span class="bp">self</span><span class="o">.</span><span class="n">typename</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">names</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span></div></div>
 
 
-<div class="viewcode-block" id="CondaRecipe"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaRecipe">[docs]</a><span class="k">class</span> <span class="nc">CondaRecipe</span><span class="p">(</span><span class="n">CondaObjectDescription</span><span class="p">):</span>
+<div class="viewcode-block" id="CondaRecipe"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaRecipe">[docs]</a><span class="k">class</span> <span class="nc">CondaRecipe</span><span class="p">(</span><span class="n">CondaObjectDescription</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Directive ``.. conda:recipe::`` describing a Recipe</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">typename</span> <span class="o">=</span> <span class="s2">&quot;recipe&quot;</span></div>
 
 
-<div class="viewcode-block" id="CondaPackage"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaPackage">[docs]</a><span class="k">class</span> <span class="nc">CondaPackage</span><span class="p">(</span><span class="n">CondaObjectDescription</span><span class="p">):</span>
+<div class="viewcode-block" id="CondaPackage"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaPackage">[docs]</a><span class="k">class</span> <span class="nc">CondaPackage</span><span class="p">(</span><span class="n">CondaObjectDescription</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Directive ``.. conda:package::`` describing a Package</span>
 
 <span class="sd">    This directive takes two specialized field types, ``requirements``</span>
@@ -486,14 +481,14 @@
     <span class="p">]</span></div>
 
 
-<div class="viewcode-block" id="RecipeIndex"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.RecipeIndex">[docs]</a><span class="k">class</span> <span class="nc">RecipeIndex</span><span class="p">(</span><span class="n">Index</span><span class="p">):</span>
+<div class="viewcode-block" id="RecipeIndex"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.RecipeIndex">[docs]</a><span class="k">class</span> <span class="nc">RecipeIndex</span><span class="p">(</span><span class="n">Index</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Index of Recipes&quot;&quot;&quot;</span>
 
     <span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;recipe_index&quot;</span>
     <span class="n">localname</span> <span class="o">=</span> <span class="s2">&quot;Recipe Index&quot;</span>
     <span class="n">shortname</span> <span class="o">=</span> <span class="s2">&quot;Recipes&quot;</span>
 
-<div class="viewcode-block" id="RecipeIndex.generate"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.RecipeIndex.generate">[docs]</a>    <span class="k">def</span> <span class="nf">generate</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">docnames</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
+<div class="viewcode-block" id="RecipeIndex.generate"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.RecipeIndex.generate">[docs]</a>    <span class="k">def</span> <span class="nf">generate</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">docnames</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;build index&quot;&quot;&quot;</span>
         <span class="n">content</span> <span class="o">=</span> <span class="p">{}</span>
 
@@ -511,7 +506,7 @@
         <span class="k">return</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">content</span><span class="o">.</span><span class="n">items</span><span class="p">()),</span> <span class="n">collapse</span></div></div>
 
 
-<div class="viewcode-block" id="CondaDomain"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain">[docs]</a><span class="k">class</span> <span class="nc">CondaDomain</span><span class="p">(</span><span class="n">Domain</span><span class="p">):</span>
+<div class="viewcode-block" id="CondaDomain"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain">[docs]</a><span class="k">class</span> <span class="nc">CondaDomain</span><span class="p">(</span><span class="n">Domain</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Domain for Conda Packages&quot;&quot;&quot;</span>
     <span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;conda&quot;</span>
     <span class="n">label</span> <span class="o">=</span> <span class="s2">&quot;Conda&quot;</span>
@@ -537,7 +532,7 @@
         <span class="n">RecipeIndex</span>
     <span class="p">]</span>
 
-<div class="viewcode-block" id="CondaDomain.clear_doc"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain.clear_doc">[docs]</a>    <span class="k">def</span> <span class="nf">clear_doc</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">docname</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+<div class="viewcode-block" id="CondaDomain.clear_doc"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain.clear_doc">[docs]</a>    <span class="k">def</span> <span class="nf">clear_doc</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">docname</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Remove traces of a document in the domain-specific inventories.&quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="s1">&#39;objects&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">:</span>
             <span class="k">return</span>
@@ -548,7 +543,7 @@
         <span class="k">for</span> <span class="n">key</span>  <span class="ow">in</span> <span class="n">to_remove</span><span class="p">:</span>
             <span class="k">del</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;objects&#39;</span><span class="p">][</span><span class="n">key</span><span class="p">]</span></div>
 
-<div class="viewcode-block" id="CondaDomain.resolve_any_xref"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain.resolve_any_xref">[docs]</a>    <span class="k">def</span> <span class="nf">resolve_any_xref</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">env</span><span class="p">:</span> <span class="n">BuildEnvironment</span><span class="p">,</span> <span class="n">fromdocname</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+<div class="viewcode-block" id="CondaDomain.resolve_any_xref"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain.resolve_any_xref">[docs]</a>    <span class="k">def</span> <span class="nf">resolve_any_xref</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">env</span><span class="p">:</span> <span class="n">BuildEnvironment</span><span class="p">,</span> <span class="n">fromdocname</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
                          <span class="n">builder</span><span class="p">,</span> <span class="n">target</span><span class="p">,</span> <span class="n">node</span><span class="p">,</span> <span class="n">contnode</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Resolve references from &quot;any&quot; role.&quot;&quot;&quot;</span>
         <span class="n">res</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">resolve_xref</span><span class="p">(</span><span class="n">env</span><span class="p">,</span> <span class="n">fromdocname</span><span class="p">,</span> <span class="n">builder</span><span class="p">,</span> <span class="s1">&#39;package&#39;</span><span class="p">,</span> <span class="n">target</span><span class="p">,</span> <span class="n">node</span><span class="p">,</span> <span class="n">contnode</span><span class="p">)</span>
@@ -557,7 +552,7 @@
         <span class="k">else</span><span class="p">:</span>
             <span class="k">return</span> <span class="p">[]</span></div>
 
-<div class="viewcode-block" id="CondaDomain.resolve_xref"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain.resolve_xref">[docs]</a>    <span class="k">def</span> <span class="nf">resolve_xref</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">env</span><span class="p">:</span> <span class="n">BuildEnvironment</span><span class="p">,</span> <span class="n">fromdocname</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+<div class="viewcode-block" id="CondaDomain.resolve_xref"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain.resolve_xref">[docs]</a>    <span class="k">def</span> <span class="nf">resolve_xref</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">env</span><span class="p">:</span> <span class="n">BuildEnvironment</span><span class="p">,</span> <span class="n">fromdocname</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
                      <span class="n">builder</span><span class="p">,</span> <span class="n">role</span><span class="p">,</span> <span class="n">target</span><span class="p">,</span> <span class="n">node</span><span class="p">,</span> <span class="n">contnode</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Resolve the ``pending_xref`` **node** with the given **role** and **target**.&quot;&quot;&quot;</span>
         <span class="k">for</span> <span class="n">objtype</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">objtypes_for_role</span><span class="p">(</span><span class="n">role</span><span class="p">)</span> <span class="ow">or</span> <span class="p">[]:</span>
@@ -581,7 +576,7 @@
 
         <span class="k">return</span> <span class="kc">None</span>  <span class="c1"># triggers missing-reference</span></div>
 
-<div class="viewcode-block" id="CondaDomain.get_objects"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain.get_objects">[docs]</a>    <span class="k">def</span> <span class="nf">get_objects</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="CondaDomain.get_objects"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain.get_objects">[docs]</a>    <span class="k">def</span> <span class="nf">get_objects</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Yields &quot;object description&quot; 5-tuples</span>
 
 <span class="sd">        ``name``:     fully qualified name</span>
@@ -600,7 +595,7 @@
             <span class="n">dispname</span> <span class="o">=</span> <span class="s2">&quot;Recipe &#39;</span><span class="si">{}</span><span class="s2">&#39;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
             <span class="k">yield</span> <span class="n">name</span><span class="p">,</span> <span class="n">dispname</span><span class="p">,</span> <span class="n">typ</span><span class="p">,</span> <span class="n">docname</span><span class="p">,</span> <span class="n">ref</span><span class="p">,</span> <span class="mi">1</span></div>
 
-<div class="viewcode-block" id="CondaDomain.merge_domaindata"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain.merge_domaindata">[docs]</a>    <span class="k">def</span> <span class="nf">merge_domaindata</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">docnames</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">otherdata</span><span class="p">:</span> <span class="n">Dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<div class="viewcode-block" id="CondaDomain.merge_domaindata"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain.merge_domaindata">[docs]</a>    <span class="k">def</span> <span class="nf">merge_domaindata</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">docnames</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">otherdata</span><span class="p">:</span> <span class="n">Dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Merge in data regarding *docnames* from a different domaindata</span>
 <span class="sd">        inventory (coming from a subprocess in parallel builds).</span>
 <span class="sd">        &quot;&quot;&quot;</span>
@@ -614,7 +609,7 @@
         <span class="c1">#        xdata |= data</span>
 
 
-<div class="viewcode-block" id="AutoRecipesDirective"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.AutoRecipesDirective">[docs]</a><span class="k">class</span> <span class="nc">AutoRecipesDirective</span><span class="p">(</span><span class="n">rst</span><span class="o">.</span><span class="n">Directive</span><span class="p">):</span>
+<div class="viewcode-block" id="AutoRecipesDirective"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.AutoRecipesDirective">[docs]</a><span class="k">class</span> <span class="nc">AutoRecipesDirective</span><span class="p">(</span><span class="n">rst</span><span class="o">.</span><span class="n">Directive</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;FIXME: This does not yet do ANYTHING!</span>
 
 <span class="sd">    In theory, a directive like this should act as a hook for a repo</span>
@@ -634,7 +629,7 @@
         <span class="k">return</span> <span class="p">[</span><span class="n">nodes</span><span class="o">.</span><span class="n">paragraph</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)]</span></div>
 
 
-<div class="viewcode-block" id="generate_readme"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.generate_readme">[docs]</a><span class="k">def</span> <span class="nf">generate_readme</span><span class="p">(</span><span class="n">recipe_basedir</span><span class="p">,</span> <span class="n">output_dir</span><span class="p">,</span> <span class="n">folder</span><span class="p">,</span> <span class="n">repodata</span><span class="p">,</span> <span class="n">renderer</span><span class="p">):</span>
+<div class="viewcode-block" id="generate_readme"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.generate_readme">[docs]</a><span class="k">def</span> <span class="nf">generate_readme</span><span class="p">(</span><span class="n">recipe_basedir</span><span class="p">,</span> <span class="n">output_dir</span><span class="p">,</span> <span class="n">folder</span><span class="p">,</span> <span class="n">repodata</span><span class="p">,</span> <span class="n">renderer</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Generates README.rst for the recipe in folder</span>
 
 <span class="sd">    Args:</span>
@@ -710,7 +705,7 @@
     <span class="k">return</span> <span class="p">[</span><span class="n">output_file</span><span class="p">]</span></div>
 
 
-<div class="viewcode-block" id="generate_recipes"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.generate_recipes">[docs]</a><span class="k">def</span> <span class="nf">generate_recipes</span><span class="p">(</span><span class="n">app</span><span class="p">):</span>
+<div class="viewcode-block" id="generate_recipes"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.generate_recipes">[docs]</a><span class="k">def</span> <span class="nf">generate_recipes</span><span class="p">(</span><span class="n">app</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Generates recipe RST files</span>
 
 <span class="sd">    - Checks out repository</span>
@@ -810,7 +805,7 @@
                 <span class="k">pass</span></div>
 
 
-<div class="viewcode-block" id="add_ribbon"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.add_ribbon">[docs]</a><span class="k">def</span> <span class="nf">add_ribbon</span><span class="p">(</span><span class="n">app</span><span class="p">,</span> <span class="n">pagename</span><span class="p">,</span> <span class="n">templatename</span><span class="p">,</span> <span class="n">context</span><span class="p">,</span> <span class="n">doctree</span><span class="p">):</span>
+<div class="viewcode-block" id="add_ribbon"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.add_ribbon">[docs]</a><span class="k">def</span> <span class="nf">add_ribbon</span><span class="p">(</span><span class="n">app</span><span class="p">,</span> <span class="n">pagename</span><span class="p">,</span> <span class="n">templatename</span><span class="p">,</span> <span class="n">context</span><span class="p">,</span> <span class="n">doctree</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Adds &quot;Edit me on GitHub&quot; Ribbon to pages</span>
 
 <span class="sd">    This hooks into ``html-page-context`` event and adds the parameters</span>
@@ -849,7 +844,7 @@
     <span class="n">context</span><span class="p">[</span><span class="s1">&#39;git_ribbon_message&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Edit me on GitHub&quot;</span></div>
 
 
-<div class="viewcode-block" id="LintDescriptionDirective"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.LintDescriptionDirective">[docs]</a><span class="k">class</span> <span class="nc">LintDescriptionDirective</span><span class="p">(</span><span class="n">SphinxDirective</span><span class="p">):</span>
+<div class="viewcode-block" id="LintDescriptionDirective"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.LintDescriptionDirective">[docs]</a><span class="k">class</span> <span class="nc">LintDescriptionDirective</span><span class="p">(</span><span class="n">SphinxDirective</span><span class="p">):</span>
     <span class="n">required_arguments</span> <span class="o">=</span> <span class="mi">1</span>
     <span class="n">optional_argument</span> <span class="o">=</span> <span class="mi">0</span>
     <span class="n">has_content</span> <span class="o">=</span> <span class="kc">True</span>
@@ -901,7 +896,7 @@
                 <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Undocumented lint checks: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">check</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="setup"><a class="viewcode-back" href="../../_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.setup">[docs]</a><span class="k">def</span> <span class="nf">setup</span><span class="p">(</span><span class="n">app</span><span class="p">):</span>
+<div class="viewcode-block" id="setup"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.setup">[docs]</a><span class="k">def</span> <span class="nf">setup</span><span class="p">(</span><span class="n">app</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Set up sphinx extension&quot;&quot;&quot;</span>
     <span class="n">app</span><span class="o">.</span><span class="n">add_domain</span><span class="p">(</span><span class="n">CondaDomain</span><span class="p">)</span>
     <span class="n">app</span><span class="o">.</span><span class="n">add_directive</span><span class="p">(</span><span class="s1">&#39;autorecipes&#39;</span><span class="p">,</span> <span class="n">AutoRecipesDirective</span><span class="p">)</span>

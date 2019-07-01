@@ -1,0 +1,336 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Build system &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Guidelines for bioconda recipes" href="guidelines.html" />
+    <link rel="prev" title="Troubleshooting" href="troubleshooting.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../index.html">
+    <img class="logo" src="../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../user/index.html">User Docs</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Contributing to Bioconda</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="setup.html">Initial Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="workflow.html">Contribution Workflow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="building-locally.html">Testing Recipes Locally</a></li>
+<li class="toctree-l2"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Build system</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#stages-of-a-bioconda-build">Stages of a bioconda build</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#configure-the-environment">Configure the environment</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#the-bulk-branch">The <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#labels">Labels</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="guidelines.html">Guidelines for <code class="docutils literal notranslate"><span class="pre">bioconda</span></code> recipes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="linting.html">Linting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faqs.html">FAQs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="updating.html">Updating recipes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cb3.html">Conda build v3</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/index.html">Developer Docs</a></li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="../conda-recipe_index.html">Recipe Index</a></li>
+  
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="build-system">
+<h1>Build system<a class="headerlink" href="#build-system" title="Permalink to this headline">¶</a></h1>
+<p>The build system for Bioconda takes recipes and converts them into conda
+packages that are uploaded to anaconda.org as well as Docker containers that
+are uploaded to quay.io. All of this happens in a transparent way, with all
+build logs available for inspection. The code for the build system can be found
+in <a class="reference external" href="https://github.com/bioconda/bioconda-utils">bioconda-utils</a>, but parts
+are also with the <code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code> repo. This document serves as
+a high-level overview; the code remains the authoritative source on exactly
+what happens during a build.</p>
+<p>Why so complicated? We have to work within the constraints of conda-build,
+Docker, and CircleCI, while simultaneously supporting the same build system on
+a local machine so contributors can test. We also have isolated bioconda-utils
+from bioconda-recipes to better facilitate testing of the infrastructure, and
+to (one day!) make it general enough that others can use the framework for
+their own specific channels. So there are a lot of moving parts that have to be
+coordinated, resulting in a complex system. That said, we do have some room to
+simplify, and do so where we can.</p>
+<div class="section" id="stages-of-a-bioconda-build">
+<h2>Stages of a bioconda build<a class="headerlink" href="#stages-of-a-bioconda-build" title="Permalink to this headline">¶</a></h2>
+<p>A GitHub pull request, or any pushed changes to a GitHub pull request, triggers
+a new build on CircleCI. One build can contain mulitple recipes, limited only
+by the time limit imposed by CircleCI (they have generously given us an
+extended build time).  Each build on CircleCI starts with a fresh VM, so we
+need to create the entire bioconda-build system environment from scratch for
+each build.</p>
+<p>When testing locally with <code class="docutils literal notranslate"><span class="pre">circleci</span> <span class="pre">build</span></code>, we use the
+<code class="docutils literal notranslate"><span class="pre">bioconda/bioconda-utils-build-env</span></code> Docker container to avoid changing the
+local system. This container is defined by <a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/Dockerfile">this Dockerfile</a>.</p>
+<p>Otherwise, when running on CircleCI, a new Linux or MacOS VM is created for
+each build.</p>
+<p>The steps are orchestrated by the <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.circleci/config.yml">circleci config file</a>.</p>
+<div class="section" id="configure-the-environment">
+<h3>Configure the environment<a class="headerlink" href="#configure-the-environment" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><dl class="simple">
+<dt>Configure the CI environment:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">bioconda-recipes:</span> <span class="pre">.circleci/config.yml</span></code> is the primary configuration
+file for the steps that are run. See <a class="reference external" href="https://circleci.com/docs/2.0/">https://circleci.com/docs/2.0/</a> for
+the configuration documentation.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">bioconda-common:</span> <span class="pre">common.sh</span></code> defines the versions of Miniconda and
+bioconda-utils to use.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">bioconda-recipes:</span> <span class="pre">.circleci/setup.sh</span></code> installs Miniconda and
+bioconda-utils, sets the correct channel order</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Run linting on changed recipes</dt><dd><ul class="simple">
+<li><p>This is triggered by the <code class="docutils literal notranslate"><span class="pre">bioconda-recipes:</span> <span class="pre">.circleci/config.yml</span></code> “lint”
+job, which runs <code class="docutils literal notranslate"><span class="pre">bioconda-utils:</span> <span class="pre">bioconda_utils/cli.py</span></code> and
+<code class="docutils literal notranslate"><span class="pre">bioconda_utils/linting.py</span></code></p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Build recipes</dt><dd><ul class="simple">
+<li><p>Triggered by the <code class="docutils literal notranslate"><span class="pre">bioconda-recipes:</span> <span class="pre">.circleci/config.yaml</span></code> “test-linux”
+job, which runs <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span> <span class="pre">build</span></code>. This performs the next steps.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Filter recipes to only focus on recipes that satisfy the following criteria:</dt><dd><ul class="simple">
+<li><p>changed recently (we use a <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">diff</span></code> command to identify these
+recipes; see <code class="docutils literal notranslate"><span class="pre">bioconda-utils:</span> <span class="pre">bioconda_utils/build.py</span></code></p></li>
+<li><p>not on any blacklists listed in <code class="docutils literal notranslate"><span class="pre">config.yaml</span></code></p></li>
+<li><p>package with that version number and build number does not exist in
+bioconda channel (we check the channel for each of the changed recipes)</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Download the configured Docker container (currently based on CentOS 6)</dt><dd><ul class="simple">
+<li><p>default configured in <code class="docutils literal notranslate"><span class="pre">bioconda-utils:</span> <span class="pre">docker_utils.py</span></code></p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Build a new, temporary Docker container</dt><dd><ul class="simple">
+<li><p>Dockerfile configured in <code class="docutils literal notranslate"><span class="pre">bioconda-utils:</span> <span class="pre">docker_utils.py</span></code>; we hope to
+move to simply pulling from DockerHub now that our build dependencies are
+not changing as often)</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Topologically sort changed recipes, and build them one-by-one in the Docker
+container. This runs <code class="docutils literal notranslate"><span class="pre">conda-build</span></code> on the recipe while also specifying the
+correct environment variables.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>The conda-build directory is exported to the docker container to a temp
+file and added as a channel. This way, packages built by one container
+will be visible to containers building subsequent packages in the same
+Travis-CI build.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">bioconda-utils:</span> <span class="pre">docker_utils.py</span></code> specifies the build script that is
+run in the container.</p></li>
+<li><p>At the end of the build, the build script copies the package to the
+exported conda-bld directory</p></li>
+<li><p>A whitelist of env vars is exported. The whitelist is configured in
+<code class="docutils literal notranslate"><span class="pre">bioconda-utils:</span> <span class="pre">utils.py</span></code>.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Upon successfully building and testing via <code class="docutils literal notranslate"><span class="pre">conda-build</span></code>, the built package
+is added to a minimal BusyBox container using <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code> (maintained in
+<a class="reference external" href="https://github.com/galaxyproject/galaxy-lib">galaxy-lib</a>). This acts as
+a more stringent test than <code class="docutils literal notranslate"><span class="pre">conda-build</span></code> alone. The BusyBox container
+purposefully is missing many system libraries (like libgcc) that may be
+present in the CentOS 6 container. Note that it is common for a package to
+build in the CentOS 6 container but fail in the BusyBox container. When this
+happens, it is often because a dependency needs to be added to the recipe.</p></li>
+<li><p>Upon successfully testing the package in the BusyBox container, we have a branch point:</p>
+<blockquote>
+<div><ul class="simple">
+<li><dl class="simple">
+<dt>if we are on a pull request:</dt><dd><ul>
+<li><p>report the successful test back to the GitHub PR, at which time it
+can be merged into the master branch</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>if we are on the master branch:</dt><dd><ul>
+<li><p>upload the built conda package to anaconda.org, with an optional label</p></li>
+<li><p>upload the BusyBox container to quay.io</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<p>As soon as the package is uploaded to anaconda.org, it is available for
+installing via <code class="docutils literal notranslate"><span class="pre">conda</span></code>. As soon as the BusyBox container is uploaded to
+quay.io, it is available for use via <code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">pull</span></code>.</p>
+</div>
+</div>
+<div class="section" id="the-bulk-branch">
+<h2>The <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch<a class="headerlink" href="#the-bulk-branch" title="Permalink to this headline">¶</a></h2>
+<p>Periodically, large-scale maintenance needs to be done on the channel. For
+example, when a new version of Bioconductor comes out, we need to update all
+<code class="docutils literal notranslate"><span class="pre">bioconductor-*</span></code> packages and rebuild them. Or if we change the version of
+a pinned package in <code class="docutils literal notranslate"><span class="pre">scripts/env.yaml</span></code>, then all packages depending
+on that package need to be rebuilt. While our build infrastructure will build
+recipes in the correct toplogically sorted order, if there are too many recipes
+then Travis-CI will timeout and the build will fail.</p>
+<p>Our solution to avoiding builds failing due to timeouts is the special <code class="docutils literal notranslate"><span class="pre">bulk</span></code>
+branch. This branch is used by the bioconda core team for maintenance and
+behaves much like the <code class="docutils literal notranslate"><span class="pre">master</span></code> branch in that packages, once successfully
+built and tested, are immediately uploaded to anaconda.org. The major
+difference is that <code class="docutils literal notranslate"><span class="pre">bulk</span></code> does not go through the pull-request-and-review
+process in order for packages to be built and uploaded to the channel. As such,
+only bioconda core members are able to push to the <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch.</p>
+<p>The workflow is to first merge the latest master into <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch and
+resolve any conflicts. Then push (often a large number of) changes to the
+branch, without opening a PR. Unlike the <code class="docutils literal notranslate"><span class="pre">master</span></code> branch, which uses
+the shortcut of only checking for recipes in the channel if they have been changed
+according to <code class="docutils literal notranslate"><span class="pre">git</span></code>, the <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch is configured to do the exhaustive
+check against the channel (which can take some time). Any existing recipe that
+does not exist in the channel will therefore be re-built. As packages build,
+they are uploaded; as they fail, the testing moves on to the next package.  The
+<code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch runs up until the Travis-CI timeout, at which time the entire
+build fails. But since individual packages were uploaded as they are
+successfully built, our work is saved and we can start the next build where we
+left off. Failing tests are fixed in another round of commits, and these
+changes are then pushed to <code class="docutils literal notranslate"><span class="pre">bulk</span></code> and the process repeats. Once <code class="docutils literal notranslate"><span class="pre">bulk</span></code> is
+fully successful, a PR is opened to merge the changes into master.</p>
+</div>
+<div class="section" id="labels">
+<h2>Labels<a class="headerlink" href="#labels" title="Permalink to this headline">¶</a></h2>
+<p>If the <code class="docutils literal notranslate"><span class="pre">BIOCONDA_LABEL</span></code> environment variable is set, then all uploads will
+have that label assigned to them, rather than <code class="docutils literal notranslate"><span class="pre">main</span></code>. Consequently, they can
+only be installed by adding <code class="docutils literal notranslate"><span class="pre">-c</span> <span class="pre">bioconda/BIOCONDA_LABEL</span></code> to the channels,
+where <code class="docutils literal notranslate"><span class="pre">BIOCONDA_LABEL</span></code> is whatever that environment variable is set to. Note
+that uploads of biocontainers to quay.io will still occur!</p>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2019, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/contributor/build-system.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/docs/source/contributor/build-system.rst" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

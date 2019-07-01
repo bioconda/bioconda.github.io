@@ -66,14 +66,9 @@
 
 <h3>Navigation</h3>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../contributing.html">Contributing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../updating.html">Updating recipes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../linting.html">Linting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../faqs.html">FAQs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../build-system.html">Build system</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../cb3.html">Conda build v3</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../developer.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../user/index.html">User Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer/index.html">Developer Docs</a></li>
 </ul>
 
 <ul>
@@ -128,7 +123,7 @@
 <span class="sd">&quot;&quot;&quot;</span>
 
 
-<div class="viewcode-block" id="GitterListener"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.chat.html#bioconda_utils.bot.chat.GitterListener">[docs]</a><span class="k">class</span> <span class="nc">GitterListener</span><span class="p">:</span>
+<div class="viewcode-block" id="GitterListener"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.chat.html#bioconda_utils.bot.chat.GitterListener">[docs]</a><span class="k">class</span> <span class="nc">GitterListener</span><span class="p">:</span>
     <span class="sd">&quot;&quot;&quot;Listens to messages in a Gitter chat room</span>
 
 <span class="sd">    Args:</span>
@@ -150,7 +145,7 @@
     <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
         <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;</span><span class="si">{self.__class__.__name__}</span><span class="s2">&quot;</span>
 
-<div class="viewcode-block" id="GitterListener.start"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.chat.html#bioconda_utils.bot.chat.GitterListener.start">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">start</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">app</span><span class="p">:</span> <span class="n">aiohttp</span><span class="o">.</span><span class="n">web</span><span class="o">.</span><span class="n">Application</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<div class="viewcode-block" id="GitterListener.start"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.chat.html#bioconda_utils.bot.chat.GitterListener.start">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">start</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">app</span><span class="p">:</span> <span class="n">aiohttp</span><span class="o">.</span><span class="n">web</span><span class="o">.</span><span class="n">Application</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Start listeners&quot;&quot;&quot;</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">_user</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">_api</span><span class="o">.</span><span class="n">get_user</span><span class="p">()</span>
 
@@ -162,7 +157,7 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">_tasks</span> <span class="o">=</span> <span class="p">[</span><span class="n">app</span><span class="o">.</span><span class="n">loop</span><span class="o">.</span><span class="n">create_task</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">listen</span><span class="p">(</span><span class="n">room</span><span class="p">))</span>
                        <span class="k">for</span> <span class="n">room</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">rooms</span><span class="p">]</span></div>
 
-<div class="viewcode-block" id="GitterListener.shutdown"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.chat.html#bioconda_utils.bot.chat.GitterListener.shutdown">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">shutdown</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_app</span><span class="p">:</span> <span class="n">aiohttp</span><span class="o">.</span><span class="n">web</span><span class="o">.</span><span class="n">Application</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<div class="viewcode-block" id="GitterListener.shutdown"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.chat.html#bioconda_utils.bot.chat.GitterListener.shutdown">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">shutdown</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_app</span><span class="p">:</span> <span class="n">aiohttp</span><span class="o">.</span><span class="n">web</span><span class="o">.</span><span class="n">Application</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Send cancel signal to listener&quot;&quot;&quot;</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%s</span><span class="s2">: Shutting down listeners&quot;</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span>
         <span class="k">for</span> <span class="n">task</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_tasks</span><span class="p">:</span>
@@ -171,7 +166,7 @@
             <span class="k">await</span> <span class="n">task</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%s</span><span class="s2">: Shut down all listeners&quot;</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="GitterListener.listen"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.chat.html#bioconda_utils.bot.chat.GitterListener.listen">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">listen</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">room_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<div class="viewcode-block" id="GitterListener.listen"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.chat.html#bioconda_utils.bot.chat.GitterListener.listen">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">listen</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">room_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Main run loop&quot;&quot;&quot;</span>
         <span class="k">try</span><span class="p">:</span>
             <span class="n">user</span><span class="p">,</span> <span class="n">repo</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">rooms</span><span class="p">[</span><span class="n">room_name</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">)</span>
@@ -217,7 +212,7 @@
                 <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">_api</span><span class="o">.</span><span class="n">leave_room</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_user</span><span class="p">,</span> <span class="n">room</span><span class="p">)</span>
                 <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%s</span><span class="s2">: left room </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="bp">self</span><span class="p">,</span> <span class="n">room_name</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="GitterListener.handle_msg"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.chat.html#bioconda_utils.bot.chat.GitterListener.handle_msg">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">handle_msg</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">room</span><span class="p">:</span> <span class="n">gitter</span><span class="o">.</span><span class="n">Room</span><span class="p">,</span> <span class="n">message</span><span class="p">:</span> <span class="n">gitter</span><span class="o">.</span><span class="n">Message</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<div class="viewcode-block" id="GitterListener.handle_msg"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.chat.html#bioconda_utils.bot.chat.GitterListener.handle_msg">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">handle_msg</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">room</span><span class="p">:</span> <span class="n">gitter</span><span class="o">.</span><span class="n">Room</span><span class="p">,</span> <span class="n">message</span><span class="p">:</span> <span class="n">gitter</span><span class="o">.</span><span class="n">Message</span><span class="p">,</span> <span class="n">ghapi</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Parse Gitter message and dispatch via command_routes&quot;&quot;&quot;</span>
         <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">_api</span><span class="o">.</span><span class="n">mark_as_read</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_user</span><span class="p">,</span> <span class="n">room</span><span class="p">,</span> <span class="p">[</span><span class="n">message</span><span class="o">.</span><span class="n">id</span><span class="p">])</span>
         <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_user</span><span class="o">.</span><span class="n">id</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">userId</span> <span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="n">message</span><span class="o">.</span><span class="n">mentions</span><span class="p">):</span>

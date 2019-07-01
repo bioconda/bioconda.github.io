@@ -66,14 +66,9 @@
 
 <h3>Navigation</h3>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../contributing.html">Contributing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../updating.html">Updating recipes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../updating.html#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../linting.html">Linting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../faqs.html">FAQs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../build-system.html">Build system</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../cb3.html">Conda build v3</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../developer.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../user/index.html">User Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer/index.html">Developer Docs</a></li>
 </ul>
 
 <ul>
@@ -119,7 +114,7 @@
 <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>  <span class="c1"># pylint: disable=invalid-name</span>
 
 
-<div class="viewcode-block" id="CommandDispatch"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.CommandDispatch">[docs]</a><span class="k">class</span> <span class="nc">CommandDispatch</span><span class="p">:</span>
+<div class="viewcode-block" id="CommandDispatch"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.CommandDispatch">[docs]</a><span class="k">class</span> <span class="nc">CommandDispatch</span><span class="p">:</span>
     <span class="sd">&quot;&quot;&quot;Decorator based router handling bot commands</span>
 
 <span class="sd">    &gt;&gt;&gt; @command_routes.register(&quot;hello&quot;)</span>
@@ -129,7 +124,7 @@
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">mapping</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Callable</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
 
-<div class="viewcode-block" id="CommandDispatch.register"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.CommandDispatch.register">[docs]</a>    <span class="k">def</span> <span class="nf">register</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">cmd</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">description</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Callable</span><span class="p">[[</span><span class="n">Callable</span><span class="p">],</span> <span class="n">Callable</span><span class="p">]:</span>
+<div class="viewcode-block" id="CommandDispatch.register"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.CommandDispatch.register">[docs]</a>    <span class="k">def</span> <span class="nf">register</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">cmd</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">description</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Callable</span><span class="p">[[</span><span class="n">Callable</span><span class="p">],</span> <span class="n">Callable</span><span class="p">]:</span>
         <span class="sd">&quot;&quot;&quot;Decorator adding decorated function to dispatcher&quot;&quot;&quot;</span>
         <span class="k">def</span> <span class="nf">decorator</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
             <span class="n">desc</span> <span class="o">=</span> <span class="n">description</span> <span class="ow">or</span> <span class="n">getdoc</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
@@ -137,7 +132,7 @@
             <span class="k">return</span> <span class="n">func</span>
         <span class="k">return</span> <span class="n">decorator</span></div>
 
-<div class="viewcode-block" id="CommandDispatch.dispatch"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.CommandDispatch.dispatch">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">dispatch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">cmd</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+<div class="viewcode-block" id="CommandDispatch.dispatch"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.CommandDispatch.dispatch">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">dispatch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">cmd</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Calls one of the registered functions&quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="n">cmd</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">mapping</span><span class="p">:</span>
             <span class="n">func</span><span class="p">,</span> <span class="n">_desc</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">mapping</span><span class="p">[</span><span class="n">cmd</span><span class="p">]</span>
@@ -152,7 +147,7 @@
 <span class="n">command_routes</span> <span class="o">=</span> <span class="n">CommandDispatch</span><span class="p">()</span>  <span class="c1"># pylint: disable=invalid-name</span>
 
 
-<div class="viewcode-block" id="permissions"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.permissions">[docs]</a><span class="k">def</span> <span class="nf">permissions</span><span class="p">(</span><span class="n">member</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">bool</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+<div class="viewcode-block" id="permissions"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.permissions">[docs]</a><span class="k">def</span> <span class="nf">permissions</span><span class="p">(</span><span class="n">member</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">bool</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                 <span class="n">author</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">bool</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                 <span class="n">team</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Decorator for commands checking for permissions</span>
@@ -201,7 +196,7 @@
     <span class="k">return</span> <span class="n">decorator</span></div>
 
 
-<div class="viewcode-block" id="command_hello"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_hello">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;hello&quot;</span><span class="p">)</span>
+<div class="viewcode-block" id="command_hello"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_hello">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;hello&quot;</span><span class="p">)</span>
 <span class="k">async</span> <span class="k">def</span> <span class="nf">command_hello</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">user</span><span class="p">,</span> <span class="o">*</span><span class="n">_args</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Check whether the bot is listening. If it is, it will answer.</span>
 
@@ -214,7 +209,7 @@
     <span class="k">return</span> <span class="n">msg</span></div>
 
 
-<div class="viewcode-block" id="command_bump"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_bump">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;bump&quot;</span><span class="p">)</span>
+<div class="viewcode-block" id="command_bump"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_bump">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;bump&quot;</span><span class="p">)</span>
 <span class="nd">@permissions</span><span class="p">(</span><span class="n">member</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">author</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="k">async</span> <span class="k">def</span> <span class="nf">command_bump</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">_user</span><span class="p">,</span> <span class="o">*</span><span class="n">_args</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Bump the build number of a recipe    &quot;&quot;&quot;</span>
@@ -222,7 +217,7 @@
     <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;Scheduled bump of build number for #</span><span class="si">{issue_number}</span><span class="s2">&quot;</span></div>
 
 
-<div class="viewcode-block" id="command_lint"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_lint">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;lint&quot;</span><span class="p">)</span>
+<div class="viewcode-block" id="command_lint"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_lint">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;lint&quot;</span><span class="p">)</span>
 <span class="k">async</span> <span class="k">def</span> <span class="nf">command_lint</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">_user</span><span class="p">,</span> <span class="o">*</span><span class="n">_args</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Lint the current recipe&quot;&quot;&quot;</span>
     <span class="p">(</span>
@@ -232,7 +227,7 @@
     <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;Scheduled creation of new check run for latest commit in #</span><span class="si">{issue_number}</span><span class="s2">&quot;</span></div>
 
 
-<div class="viewcode-block" id="command_recheck"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_recheck">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;recheck&quot;</span><span class="p">)</span>
+<div class="viewcode-block" id="command_recheck"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_recheck">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;recheck&quot;</span><span class="p">)</span>
 <span class="k">async</span> <span class="k">def</span> <span class="nf">command_recheck</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">_user</span><span class="p">,</span> <span class="o">*</span><span class="n">_args</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Trigger check_check_run and check_circle_artifacts&quot;&quot;&quot;</span>
     <span class="c1"># queue check for artifacts</span>
@@ -245,7 +240,7 @@
     <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;Scheduled check run and circle artificats verification on #</span><span class="si">{issue_number}</span><span class="s2">&quot;</span></div>
 
 
-<div class="viewcode-block" id="command_rebuild"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_rebuild">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;rebuild&quot;</span><span class="p">)</span>
+<div class="viewcode-block" id="command_rebuild"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_rebuild">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;rebuild&quot;</span><span class="p">)</span>
 <span class="nd">@permissions</span><span class="p">(</span><span class="n">member</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">author</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="k">async</span> <span class="k">def</span> <span class="nf">command_rebuild</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">_user</span><span class="p">,</span> <span class="o">*</span><span class="n">_args</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Trigger rebuild of PR as of latest sha&quot;&quot;&quot;</span>
@@ -253,7 +248,7 @@
     <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;Scheduled triggering of rebuild for #</span><span class="si">{issue_number}</span><span class="s2">&quot;</span></div>
 
 
-<div class="viewcode-block" id="command_merge"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_merge">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;merge&quot;</span><span class="p">)</span>
+<div class="viewcode-block" id="command_merge"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_merge">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;merge&quot;</span><span class="p">)</span>
 <span class="nd">@permissions</span><span class="p">(</span><span class="n">member</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="k">async</span> <span class="k">def</span> <span class="nf">command_merge</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">user</span><span class="p">,</span> <span class="o">*</span><span class="n">_args</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Merge PR&quot;&quot;&quot;</span>
@@ -265,7 +260,7 @@
     <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;Scheduled merge of #</span><span class="si">{issue_number}</span><span class="s2">&quot;</span></div>
 
 
-<div class="viewcode-block" id="command_autobump"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_autobump">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;autobump&quot;</span><span class="p">)</span>
+<div class="viewcode-block" id="command_autobump"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_autobump">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;autobump&quot;</span><span class="p">)</span>
 <span class="nd">@permissions</span><span class="p">(</span><span class="n">member</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="k">async</span> <span class="k">def</span> <span class="nf">command_autobump</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">_issue_number</span><span class="p">,</span> <span class="n">_user</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Run immediate Autobump on recipes&quot;&quot;&quot;</span>
@@ -277,7 +272,7 @@
     <span class="k">return</span> <span class="n">f</span><span class="s2">&quot;Scheduled autobump check of recipe(s) {&#39;, &#39;.join(args)}&quot;</span></div>
 
 
-<div class="viewcode-block" id="command_schedule"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_schedule">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;schedule&quot;</span><span class="p">)</span>
+<div class="viewcode-block" id="command_schedule"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_schedule">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;schedule&quot;</span><span class="p">)</span>
 <span class="nd">@permissions</span><span class="p">(</span><span class="n">team</span><span class="o">=</span><span class="s2">&quot;core&quot;</span><span class="p">)</span>
 <span class="k">async</span> <span class="k">def</span> <span class="nf">command_schedule</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">user</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Schedule autobump on CircleCI</span>
@@ -309,7 +304,7 @@
     <span class="k">return</span> <span class="n">err</span> <span class="o">+</span> <span class="p">(</span><span class="s2">&quot; Options are:</span><span class="se">\n</span><span class="s2">&quot;</span>
                   <span class="s2">&quot; - `autobump [n=5]`: schedule *n* updates of autobump&quot;</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="command_update"><a class="viewcode-back" href="../../../_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_update">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;update&quot;</span><span class="p">)</span>
+<div class="viewcode-block" id="command_update"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.commands.html#bioconda_utils.bot.commands.command_update">[docs]</a><span class="nd">@command_routes</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;update&quot;</span><span class="p">)</span>
 <span class="nd">@permissions</span><span class="p">(</span><span class="n">member</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">author</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="k">async</span> <span class="k">def</span> <span class="nf">command_update</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">,</span> <span class="n">user</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Update PR branch with it&#39;s target branch (&quot;base&quot;)</span>
