@@ -24,7 +24,7 @@ imctools
 
    |downloads_imctools| |docker_imctools|
 
-   :versions: 0.2-0
+   :versions: 1.0.1-0, 0.2-0
    
    :depends numpy: 
    :depends pandas: 
