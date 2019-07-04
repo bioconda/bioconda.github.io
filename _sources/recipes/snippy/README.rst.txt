@@ -23,7 +23,7 @@ snippy
 
    |downloads_snippy| |docker_snippy|
 
-   :versions: 4.4.0-1, 4.4.0-0, 4.3.6-0, 4.3.5-0, 4.3.3-0, 4.2.3-0, 4.1.0-0, 4.0.7-0, 4.0.5-0, 4.0.2-0, 3.2-1, 3.1-4, 3.1-3, 3.1-2, 3.1-1, 3.1-0, 3.0-1, 3.0-0, 2.9-1, 2.9-0
+   :versions: 4.4.0-2, 4.4.0-1, 4.4.0-0, 4.3.6-0, 4.3.5-0, 4.3.3-0, 4.2.3-0, 4.1.0-0, 4.0.7-0, 4.0.5-0, 4.0.2-0, 3.2-1, 3.1-4, 3.1-3, 3.1-2, 3.1-1, 3.1-0, 3.0-1, 3.0-0, 2.9-1, 2.9-0
    
    :depends bcftools: >=1.8
    :depends bedtools: 
@@ -31,7 +31,7 @@ snippy
    :depends emboss: >=6.0
    :depends freebayes: >=1.1
    :depends minimap2: >=2.10
-   :depends openjdk: >=8
+   :depends openjdk: 8.*
    :depends parallel: >=20170422
    :depends perl: 
    :depends perl-bioperl: >=1.7.2

@@ -12,7 +12,7 @@ stream_atac
    STREAM\-Single\-cell Trajectories Reconstruction\, Exploration And Mapping of single\-cell data. Preprocessing steps for single cell atac\-seq data.
 
    :homepage: https://github.com/pinellolab/STREAM_atac
-   :license: Affero
+   :license: AGPL-3
    :recipe: /`stream_atac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stream_atac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stream_atac/meta.yaml>`_
 
    

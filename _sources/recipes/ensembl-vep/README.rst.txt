@@ -9,20 +9,20 @@ ensembl-vep
 .. conda:recipe:: ensembl-vep
    :replaces_section_title:
 
-   The VEP determines the effect of your variants \(SNPs\, insertions\, deletions\, CNVs or structural variants\) on genes\, transcripts\, and protein sequence\, as well as regulatory regions.
+   Ensembl Variant Effect Predictor
 
    :homepage: http://www.ensembl.org/info/docs/tools/vep/index.html
    :license: Apache 2.0
    :recipe: /`ensembl-vep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ensembl-vep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ensembl-vep/meta.yaml>`_
 
-   
+   The VEP determines the effect of your variants \(SNPs\, insertions\, deletions\, CNVs or structural variants\) on genes\, transcripts\, and protein sequence\, as well as regulatory regions.
 
 
 .. conda:package:: ensembl-vep
 
    |downloads_ensembl-vep| |docker_ensembl-vep|
 
-   :versions: 96.3-0, 96.0-0, 95.3-0, 95.2-0, 95.1-0, 95.0-1, 95.0-0, 94.5-0, 94.4-0, 94.0-0, 93.4-0, 93.2-0, 92.4-0, 92.3-0, 92.0-1, 91.3-1, 91.3-0, 91.2-0, 91.1-0, 91.0-0, 90.10-0, 90.9-1, 90.7-1, 90.7-0, 90.6-0, 90.5-0, 90.3-0, 90.1-1, 90.1-0, 89.7-0, 89.4-0, 89.1-2, 89.1-1, 88.10-1, 88.10-0, 88.9-2, 88.9-1, 88.9-0, 88.8-0, 88-0
+   :versions: 97.0-0, 96.3-0, 96.0-0, 95.3-0, 95.2-0, 95.1-0, 95.0-1, 95.0-0, 94.5-0, 94.4-0, 94.0-0, 93.4-0, 93.2-0, 92.4-0, 92.3-0, 92.0-1, 91.3-1, 91.3-0, 91.2-0, 91.1-0, 91.0-0, 90.10-0, 90.9-1, 90.7-1, 90.7-0, 90.6-0, 90.5-0, 90.3-0, 90.1-1, 90.1-0, 89.7-0, 89.4-0, 89.1-2, 89.1-1, 88.10-1, 88.10-0, 88.9-2, 88.9-1, 88.9-0, 88.8-0, 88-0
    
    :depends htslib: 
    :depends perl: >=5.26.2,<5.26.3.0a0
