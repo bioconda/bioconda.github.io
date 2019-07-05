@@ -24,7 +24,7 @@ sample-sheet
 
    |downloads_sample-sheet| |docker_sample-sheet|
 
-   :versions: 0.9.0-0, 0.8.0-0
+   :versions: 0.9.1-0, 0.9.0-0, 0.8.0-0
    
    :depends click: 
    :depends python: >=3.6

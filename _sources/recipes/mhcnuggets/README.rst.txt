@@ -47,7 +47,7 @@ mhcnuggets
 
    |downloads_mhcnuggets| |docker_mhcnuggets|
 
-   :versions: 2.3.1-0, 2.2-0
+   :versions: 2.3.2-0, 2.3.1-0, 2.2-0
    
    :depends keras: 
    :depends numpy: >=1.16.1
