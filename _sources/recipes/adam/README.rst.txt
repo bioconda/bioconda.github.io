@@ -9,7 +9,7 @@ adam
 .. conda:recipe:: adam
    :replaces_section_title:
 
-   Genomics analysis platform built on Apache Avro\, Apache Spark and Parquet
+   Genomics analysis platform built on Apache Avro\, Apache Spark\, and Apache Parquet
 
    :homepage: https://github.com/bigdatagenomics/adam
    :license: Apache 2
@@ -22,7 +22,7 @@ adam
 
    |downloads_adam| |docker_adam|
 
-   :versions: 0.27.0-1, 0.26.0-1, 0.25.0-1, 0.24.0-1, 0.24.0-0, 0.23.0-0, 0.22.0-0
+   :versions: 0.28.0-0, 0.27.0-1, 0.26.0-1, 0.25.0-1, 0.24.0-1, 0.24.0-0, 0.23.0-0, 0.22.0-0
    
    :depends openjdk: >=8,<9
    :depends pyspark: 

@@ -9,10 +9,10 @@ scanpy-scripts
 .. conda:recipe:: scanpy-scripts
    :replaces_section_title:
 
-   A set of wrappers for individual components of the scanpy package. Functions in python packages are hard to call when building workflows outside of python\, so this package adds a set of simple wrappers with robust argument parsing.
+   Scripts for using scanpy from the command line
 
    :homepage: https://github.com/ebi-gene-expression-group/scanpy-scripts
-   :license: GPL / GPL-3
+   :license: Apache / Apache-2.0
    :recipe: /`scanpy-scripts <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scanpy-scripts>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scanpy-scripts/meta.yaml>`_
 
    
