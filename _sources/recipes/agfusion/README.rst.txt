@@ -22,7 +22,7 @@ agfusion
 
    |downloads_agfusion| |docker_agfusion|
 
-   :versions: 1.231-0, 1.23-0, 1.2-2, 1.2-0, 1.0-0
+   :versions: 1.251-0, 1.231-0, 1.23-0, 1.2-2, 1.2-0, 1.0-0
    
    :depends biopython: >=1.67
    :depends future: >=0.16.0
