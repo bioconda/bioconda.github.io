@@ -22,22 +22,18 @@ scanpy-scripts
 
    |downloads_scanpy-scripts| |docker_scanpy-scripts|
 
-   :versions: 0.0.5-2, 0.0.5-1, 0.0.5-0, 0.0.4-2, 0.0.4-1, 0.0.3-1, 0.0.2-0
+   :versions: 0.2.2-0, 0.0.5-2, 0.0.5-1, 0.0.5-0, 0.0.4-2, 0.0.4-1, 0.0.3-1, 0.0.2-0
    
-   :depends bzip2: >=1.0.6,<2.0a0
-   :depends libffi: >=3.2.1,<3.3.0a0
+   :depends click: 
+   :depends leidenalg: 
    :depends loompy: 
-   :depends matplotlib: >=3.0.0
-   :depends multicore-tsne: 0.1_d4ff4aab
-   :depends openssl: >=1.1.1b,<1.1.2a
-   :depends pandas: >=0.21,<0.24
-   :depends python: >=3.6
-   :depends readline: >=7.0,<8.0a0
-   :depends scanpy: 1.3.2
-   :depends sqlite: >=3.26.0,<4.0a0
-   :depends tk: >=8.6.9,<8.7.0a0
-   :depends xz: >=5.2.4,<5.3.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends louvain: 
+   :depends matplotlib: 
+   :depends multicore-tsne: 
+   :depends pandas: 
+   :depends python: >=3
+   :depends scanpy: >=1.4.2
+   :depends scipy: >=1.2.0,<1.3.0
    :requirements:
 
    .. rubric:: Installation

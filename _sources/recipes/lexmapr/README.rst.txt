@@ -22,12 +22,12 @@ lexmapr
 
    |downloads_lexmapr| |docker_lexmapr|
 
-   :versions: 0.1.2-0, 0.1.1-0, 0.1.0-0
+   :versions: 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.1.0-0
    
    :depends inflection: 
-   :depends nltk: 
+   :depends nltk: 3.2.5.*
    :depends nltk_data: 
-   :depends python: 
+   :depends python: >=2.7,<2.8.0a0
    :depends python-dateutil: 
    :depends rdflib: 
    :depends wikipedia: 

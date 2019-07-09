@@ -22,8 +22,10 @@ dbgraph
 
    |downloads_dbgraph| |docker_dbgraph|
 
-   :versions: 
+   :versions: v1.0.0-1
    
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation
