@@ -22,7 +22,7 @@ unifrac
 
    |downloads_unifrac| |docker_unifrac|
 
-   :versions: 0.9.3-1, 0.9.3-0
+   :versions: 0.10.0-0, 0.9.3-1, 0.9.3-0
    
    :depends biom-format: 
    :depends h5py: 

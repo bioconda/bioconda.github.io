@@ -22,7 +22,7 @@ galaxy-ml
 
    |downloads_galaxy-ml| |docker_galaxy-ml|
 
-   :versions: 0.7.4.1-0
+   :versions: 0.7.5-0, 0.7.4.1-0
    
    :depends asteval: >=0.9.13
    :depends imbalanced-learn: 0.4.3
@@ -39,6 +39,7 @@ galaxy-ml
    :depends scikit-learn: 0.20.3
    :depends scipy: >=1.2.1
    :depends skrebate: 0.6
+   :depends tabix: 
    :depends tensorflow: 1.13.1
    :depends xgboost: 0.80
    :requirements:

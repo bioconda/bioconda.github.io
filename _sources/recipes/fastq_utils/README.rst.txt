@@ -9,7 +9,7 @@ fastq_utils
 .. conda:recipe:: fastq_utils
    :replaces_section_title:
 
-   Set of Linux utilities to validate and manipulate fastq files. It also includes a set of programs to preprocess barcodes \(namely UMIs\, cells and samples\)\, add the barcodes as tags in BAM files and count UMIs.
+   Validation and manipulation of FASTQ files\, scRNA\-seq barcode pre\-processing and UMI quantification.
 
    :homepage: https://github.com/nunofonseca/fastq_utils
    :license: GPL / GPL-3
@@ -22,7 +22,7 @@ fastq_utils
 
    |downloads_fastq_utils| |docker_fastq_utils|
 
-   :versions: 0.19.2-0, 0.18.2-1
+   :versions: 0.19.3-0, 0.19.2-0, 0.18.2-1
    
    :depends libgcc-ng: >=7.3.0
    :depends samtools: 1.9

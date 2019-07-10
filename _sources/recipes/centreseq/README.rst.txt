@@ -22,12 +22,13 @@ centreseq
 
    |downloads_centreseq| |docker_centreseq|
 
-   :versions: v0.2.3-0
+   :versions: 0.3.0-0, v0.2.3-0
    
    :depends biopython: >=1.70
    :depends click: >=7.0
    :depends cyvcf2: 
    :depends dataclasses: >=0.6
+   :depends minced: 
    :depends mmseqs2: 
    :depends muscle: 
    :depends pandas: >=0.24.0
@@ -36,7 +37,7 @@ centreseq
    :depends scipy: >=1.1
    :depends seqkit: 
    :depends snp-sites: 
-   :depends tqdm: >=2.2.3
+   :depends tqdm: >=4.32.2
    :depends xlsxwriter: >=1.1.8
    :requirements:
 

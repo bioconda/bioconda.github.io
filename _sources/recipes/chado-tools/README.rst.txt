@@ -22,13 +22,14 @@ chado-tools
 
    |downloads_chado-tools| |docker_chado-tools|
 
-   :versions: 0.2.11-0, 0.2.10-0, 0.2.8-0, 0.2.5-0, 0.0.5-0, 0.0.4-0, 0.0.3-0
+   :versions: 0.2.12-0, 0.2.11-0, 0.2.10-0, 0.2.8-0, 0.2.5-0, 0.0.5-0, 0.0.4-0, 0.0.3-0
    
    :depends biopython: 
    :depends gffutils: 
+   :depends postgresql: >=9.6
    :depends pronto: >=0.11.0
    :depends psycopg2: 
-   :depends python: >=3.6
+   :depends python: 3.6.*
    :depends pyyaml: 
    :depends sqlalchemy: 
    :depends sqlalchemy-utils: 
