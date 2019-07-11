@@ -22,7 +22,7 @@ varlociraptor
 
    |downloads_varlociraptor| |docker_varlociraptor|
 
-   :versions: 1.1.0-0, 1.0.1-0
+   :versions: 1.1.1-0, 1.1.0-0, 1.0.1-0
    
    :depends bzip2: >=1.0.6,<2.0a0
    :depends gsl: >=2.4,<2.5.0a0

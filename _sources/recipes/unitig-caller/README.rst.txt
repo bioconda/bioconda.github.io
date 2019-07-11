@@ -22,13 +22,15 @@ unitig-caller
 
    |downloads_unitig-caller| |docker_unitig-caller|
 
-   :versions: 0.2.0-0
+   :versions: 1.0.0-0, 0.2.0-0
    
+   :depends bzip2: >=1.0.6,<2.0a0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends mantis: 
+   :depends mantis: >=0.2.0
    :depends python: >=3.6,<3.7.0a0
    :depends squeakr: >=0.6
+   :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
    .. rubric:: Installation

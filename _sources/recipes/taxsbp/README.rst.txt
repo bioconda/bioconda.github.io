@@ -9,23 +9,27 @@ taxsbp
 .. conda:recipe:: taxsbp
    :replaces_section_title:
 
-   TaxSBP\: Implementation of the approximation algorithm for the hierarchically structured bin packing problem based on the NCBI Taxonomy database
+   TaxSBP\: taxonomic structured bin packing
 
    :homepage: https://github.com/pirovc/taxsbp
    :license: MIT / MIT License
    :recipe: /`taxsbp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxsbp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxsbp/meta.yaml>`_
    :links: doi: :doi:`10.1101/406017`
 
-   
+   TaxSBP is an Implementation of the approximation algorithm for the
+   hierarchically structured bin packing problem based on the NCBI
+   Taxonomy database
+
 
 
 .. conda:package:: taxsbp
 
    |downloads_taxsbp| |docker_taxsbp|
 
-   :versions: 0.1.1-0
+   :versions: 0.1.2-0, 0.1.1-0
    
-   :depends binpacking: >=1.3
+   :depends binpacking: >=1.4.1
+   :depends python: >=3.4
    :requirements:
 
    .. rubric:: Installation

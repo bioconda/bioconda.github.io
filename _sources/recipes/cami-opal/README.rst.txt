@@ -9,7 +9,7 @@ cami-opal
 .. conda:recipe:: cami-opal
    :replaces_section_title:
 
-   OPAL performs performance comparisons of taxonomic metagenome profilers.
+   OPAL assesses and compares the performance of taxonomic metagenome profilers.
 
    :homepage: https://github.com/CAMI-challenge/OPAL
    :license: Apache-2.0
@@ -22,11 +22,12 @@ cami-opal
 
    |downloads_cami-opal| |docker_cami-opal|
 
-   :versions: 1.0.2-0
+   :versions: 1.0.2-1, 1.0.2-0
    
    :depends biom-format: >=2.1.7
    :depends bokeh: >=0.13.0
    :depends dendropy: >=4.3.0
+   :depends docker-py: >=3.5.1
    :depends h5py: >=2.8.0
    :depends matplotlib: >=2.0.2
    :depends numpy: >=1.15.3
