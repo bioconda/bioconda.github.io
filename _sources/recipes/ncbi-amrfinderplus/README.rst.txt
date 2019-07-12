@@ -22,7 +22,7 @@ ncbi-amrfinderplus
 
    |downloads_ncbi-amrfinderplus| |docker_ncbi-amrfinderplus|
 
-   :versions: 3.0.11-0, 3.0.9-0, 3.0.8-0
+   :versions: 3.0.12-0, 3.0.11-0, 3.0.9-0, 3.0.8-0
    
    :depends blast: >=2.9
    :depends hmmer: >=3.2

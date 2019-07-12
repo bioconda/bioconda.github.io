@@ -9,27 +9,31 @@ ganon
 .. conda:recipe:: ganon
    :replaces_section_title:
 
-   ganon is a k\-mer based read classification tool which uses Interleaved Bloom Filters in conjunction with a taxonomic clustering and a k\-mer counting\-filtering scheme
+   ganon\: a read classification tool using Interleaved Bloom Filters
 
    :homepage: https://github.com/pirovc/ganon
    :license: MIT / MIT License
    :recipe: /`ganon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ganon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ganon/meta.yaml>`_
    :links: doi: :doi:`10.1101/406017`
 
-   
+   ganon is a k\-mer based read classification tool which uses Interleaved Bloom Filters
+   in conjunction with a taxonomic clustering and a k\-mer counting\-filtering scheme
+
 
 
 .. conda:package:: ganon
 
    |downloads_ganon| |docker_ganon|
 
-   :versions: 0.1.2-0
+   :versions: 0.1.3-0, 0.1.2-0
    
+   :depends coreutils: 
+   :depends gawk: 
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends pandas: 
-   :depends python: 
-   :depends taxsbp: >=0.1.1
+   :depends python: >=3.4
+   :depends taxsbp: >=0.1.2
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

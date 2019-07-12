@@ -28,7 +28,7 @@ snakemake
 
    |downloads_snakemake| |docker_snakemake|
 
-   :versions: 5.5.2-0, 5.5.1-0, 5.5.0-0, 5.4.5-0, 5.4.4-0, 5.4.3-0, 5.4.2-0, 5.4.1-0, 5.4.0-0, 5.3.1-0, 5.3.0-2, 5.3.0-1, 5.2.4-1, 5.2.2-1, 5.2.1-0, 5.2.0-0, 5.1.5-0, 5.1.4-2, 5.1.4-0, 5.1.3-0, 5.1.2-0, 5.1.1-0, 5.0.0-0, 4.8.1-0, 4.8.0-0, 4.7.0-0, 4.6.0-0, 4.5.1-0, 4.5.0-0, 4.4.0-0, 4.3.1-0, 4.3.0-0, 4.2.0-0, 4.1.0-0, 4.0.0-1, 4.0.0-0, 3.13.3-0, 3.13.2-0, 3.13.0-1, 3.12.0-1, 3.11.2-1, 3.11.2-0, 3.11.1-1, 3.11.1-0, 3.11.0-1, 3.10.2-1, 3.10.1-1, 3.10.1-0, 3.10.0-0, 3.9.1-0, 3.9.0-0, 3.8.2-0, 3.8.1-0, 3.8.0-0, 3.7.1-0, 3.7.0-0, 3.6.1-0, 3.6.0-0, 3.5.5-1, 3.5.4-1, 3.5.3-1, 3.5.2-1, 3.5.1-1, 3.4.2-1
+   :versions: 5.5.3-0, 5.5.2-0, 5.5.1-0, 5.5.0-0, 5.4.5-0, 5.4.4-0, 5.4.3-0, 5.4.2-0, 5.4.1-0, 5.4.0-0, 5.3.1-0, 5.3.0-2, 5.3.0-1, 5.2.4-1, 5.2.2-1, 5.2.1-0, 5.2.0-0, 5.1.5-0, 5.1.4-2, 5.1.4-0, 5.1.3-0, 5.1.2-0, 5.1.1-0, 5.0.0-0, 4.8.1-0, 4.8.0-0, 4.7.0-0, 4.6.0-0, 4.5.1-0, 4.5.0-0, 4.4.0-0, 4.3.1-0, 4.3.0-0, 4.2.0-0, 4.1.0-0, 4.0.0-1, 4.0.0-0, 3.13.3-0, 3.13.2-0, 3.13.0-1, 3.12.0-1, 3.11.2-1, 3.11.2-0, 3.11.1-1, 3.11.1-0, 3.11.0-1, 3.10.2-1, 3.10.1-1, 3.10.1-0, 3.10.0-0, 3.9.1-0, 3.9.0-0, 3.8.2-0, 3.8.1-0, 3.8.0-0, 3.7.1-0, 3.7.0-0, 3.6.1-0, 3.6.0-0, 3.5.5-1, 3.5.4-1, 3.5.3-1, 3.5.2-1, 3.5.1-1, 3.4.2-1
    
    :depends aioeasywebdav: 
    :depends boto3: 
@@ -44,7 +44,7 @@ snakemake
    :depends pygraphviz: 
    :depends pysftp: >=0.2.8
    :depends python-irodsclient: 
-   :depends snakemake-minimal: 5.5.2.*
+   :depends snakemake-minimal: 5.5.3.*
    :requirements:
 
    .. rubric:: Installation
@@ -70,6 +70,53 @@ snakemake
 .. |docker_snakemake| image:: https://quay.io/repository/biocontainers/snakemake/status
    :target: https://quay.io/repository/biocontainers/snakemake
 .. _`snakemake/tags`: https://quay.io/repository/biocontainers/snakemake?tab=tags
+
+
+
+.. conda:package:: snakemake-minimal
+
+   |downloads_snakemake-minimal| |docker_snakemake-minimal|
+
+   :versions: 5.5.3-0, 5.5.2-0, 5.5.1-0, 5.5.0-0, 5.4.5-0, 5.4.4-1, 5.4.3-1, 5.4.3-0, 5.4.2-1, 5.4.2-0, 5.4.1-0, 5.4.0-0, 5.3.1-0, 5.3.0-2, 5.3.0-1, 5.3.0-0, 5.2.4-0, 5.2.2-1, 5.2.2-0, 5.2.1-0
+   
+   :depends appdirs: 
+   :depends configargparse: 
+   :depends datrie: 
+   :depends docutils: 
+   :depends gitpython: 
+   :depends jsonschema: 
+   :depends psutil: 
+   :depends python: >=3.5
+   :depends pyyaml: 
+   :depends ratelimiter: 
+   :depends requests: >=2.8.1
+   :depends setuptools: 
+   :depends wrapt: 
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install snakemake-minimal
+
+   and update with::
+
+      conda update snakemake-minimal
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/snakemake-minimal:<tag>
+
+   (see `snakemake-minimal/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_snakemake-minimal| image:: https://img.shields.io/conda/dn/bioconda/snakemake-minimal.svg?style=flat
+   :target: https://anaconda.org/bioconda/snakemake-minimal
+   :alt:   (downloads)
+.. |docker_snakemake-minimal| image:: https://quay.io/repository/biocontainers/snakemake/status
+   :target: https://quay.io/repository/biocontainers/snakemake
+.. _`snakemake-minimal/tags`: https://quay.io/repository/biocontainers/snakemake-minimal?tab=tags
 
 
 

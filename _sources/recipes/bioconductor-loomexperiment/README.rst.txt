@@ -22,7 +22,7 @@ bioconductor-loomexperiment
 
    |downloads_bioconductor-loomexperiment| |docker_bioconductor-loomexperiment|
 
-   :versions: 1.0.1-0
+   :versions: 1.0.4-0, 1.0.1-0
    
    :depends bioconductor-delayedarray: >=0.8.0,<0.9.0
    :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
