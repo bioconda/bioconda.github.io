@@ -22,7 +22,7 @@ r-xgr
 
    |downloads_r-xgr| |docker_r-xgr|
 
-   :versions: 1.1.5-0, 1.1.4-0
+   :versions: 1.1.6-0, 1.1.5-0, 1.1.4-0
    
    :depends bioconductor-biocgenerics: 
    :depends bioconductor-genomicranges: 

@@ -12,17 +12,23 @@ seq-to-first-iso
    Compute first two isotopologues intensity from peptide sequence
 
    :homepage: https://github.com/pierrepo/seq-to-first-iso
+   :documentation: https://seq-to-first-iso.readthedocs.io/
+   
    :license: BSD / BSD 3-Clause License
    :recipe: /`seq-to-first-iso <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seq-to-first-iso>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seq-to-first-iso/meta.yaml>`_
 
-   
+   Seq\-to\-first\-iso is a Python package that computes isotopologues M0 and M1
+   of peptides with a 99.99 \% 12C enrichment for quantification by SLIM\-labeling.
+   It simulates auxotrophies by differentiating labelled and unlabelled
+   amino acids.
+
 
 
 .. conda:package:: seq-to-first-iso
 
    |downloads_seq-to-first-iso| |docker_seq-to-first-iso|
 
-   :versions: 0.5.0-0
+   :versions: 0.5.1-0, 0.5.0-0
    
    :depends pandas: 
    :depends pyteomics: 

@@ -22,7 +22,7 @@ basic
 
    |downloads_basic| |docker_basic|
 
-   :versions: 1.4.1-0, 1.4.0-1, 1.4.0-0, 1.3.1-0, 1.0.1-0
+   :versions: 1.5.1-0, 1.5.0-0, 1.4.1-0, 1.4.0-1, 1.4.0-0, 1.3.1-0, 1.0.1-0
    
    :depends bowtie2: 
    :depends python: 

@@ -25,7 +25,7 @@ ganon
 
    |downloads_ganon| |docker_ganon|
 
-   :versions: 0.1.3-0, 0.1.2-0
+   :versions: 0.1.3-1, 0.1.3-0, 0.1.2-0
    
    :depends coreutils: 
    :depends gawk: 

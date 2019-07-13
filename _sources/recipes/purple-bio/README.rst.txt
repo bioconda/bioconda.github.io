@@ -22,7 +22,7 @@ purple-bio
 
    |downloads_purple-bio| |docker_purple-bio|
 
-   :versions: 0.4.2.1-0
+   :versions: 0.4.2.5-0, 0.4.2.1-0
    
    :depends biopython: 
    :depends python: >=3

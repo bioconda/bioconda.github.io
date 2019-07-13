@@ -22,7 +22,7 @@ crispresso2
 
    |downloads_crispresso2| |docker_crispresso2|
 
-   :versions: 2.0.29-0, 2.0.28-0, 2.0.27-3, 2.0.23-1, 2.0.23-0
+   :versions: 2.0.30-0, 2.0.29-0, 2.0.28-0, 2.0.27-3, 2.0.23-1, 2.0.23-0
    
    :depends argparse: 
    :depends biopython: >=1.6.5

@@ -22,7 +22,7 @@ cami-opal
 
    |downloads_cami-opal| |docker_cami-opal|
 
-   :versions: 1.0.2-1, 1.0.2-0
+   :versions: 1.0.5-0, 1.0.2-1, 1.0.2-0
    
    :depends biom-format: >=2.1.7
    :depends bokeh: >=0.13.0

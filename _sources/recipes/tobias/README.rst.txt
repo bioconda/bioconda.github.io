@@ -9,9 +9,7 @@ tobias
 .. conda:recipe:: tobias
    :replaces_section_title:
 
-   TOBIAS \(Transcription factor Occupancy prediction By Investigation of ATAC\-seq Signal\) is a collection of command\-line 
-   bioinformatics tools for performing footprinting analysis on ATAC\-seq data. 
-
+   Transcription factor Occupancy prediction By Investigation of ATAC\-seq Signal
 
    :homepage: https://github.molgen.mpg.de/loosolab/TOBIAS
    :documentation: https://github.molgen.mpg.de/loosolab/TOBIAS/wiki
@@ -19,20 +17,22 @@ tobias
    :license: MIT
    :recipe: /`tobias <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tobias>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tobias/meta.yaml>`_
 
-   
+   TOBIAS \(Transcription factor Occupancy prediction By Investigation of ATAC\-seq Signal\) is a collection
+   of command\-line bioinformatics tools for performing footprinting analysis on ATAC\-seq data. 
+
 
 
 .. conda:package:: tobias
 
    |downloads_tobias| |docker_tobias|
 
-   :versions: 0.5.0-0
+   :versions: 0.6.1-0, 0.5.0-0
    
    :depends adjusttext: 
    :depends libgcc-ng: >=7.3.0
    :depends matplotlib: >=2
    :depends moods: 
-   :depends numpy: 
+   :depends numpy: >=1.9.3,<2.0a0
    :depends pandas: 
    :depends pybedtools: 
    :depends pybigwig: 

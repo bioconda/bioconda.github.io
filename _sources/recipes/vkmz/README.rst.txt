@@ -22,7 +22,7 @@ vkmz
 
    |downloads_vkmz| |docker_vkmz|
 
-   :versions: 1.4dev2-0, v1.4dev1-0, v1.3.1-0
+   :versions: 1.4.2-0, 1.4dev2-0, v1.4dev1-0, v1.3.1-0
    
    :depends python: >=3.6
    :requirements:
