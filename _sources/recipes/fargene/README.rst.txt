@@ -22,8 +22,20 @@ fargene
 
    |downloads_fargene| |docker_fargene|
 
-   :versions: 
+   :versions: 0.1-0
    
+   :depends biopython: >=1.68
+   :depends clustalo: 
+   :depends emboss: 
+   :depends hmmer: 
+   :depends matplotlib: 
+   :depends numpy: 
+   :depends pip: 
+   :depends prodigal: 
+   :depends python: <3
+   :depends pyyaml: 
+   :depends seqtk: 
+   :depends trim-galore: 
    :requirements:
 
    .. rubric:: Installation
