@@ -22,9 +22,9 @@ bioconductor-igc
 
    |downloads_bioconductor-igc| |docker_bioconductor-igc|
 
-   :versions: 1.14.0-0, 1.12.0-0
+   :versions: 1.14.0-1, 1.14.0-0, 1.12.0-0
    
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-plyr: 
    :requirements:
