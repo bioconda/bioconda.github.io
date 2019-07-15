@@ -9,10 +9,10 @@ r-annotables
 .. conda:recipe:: r-annotables
    :replaces_section_title:
 
-   
+   Provides tables for converting and annotating Ensembl Gene IDs.
 
-   :homepage: 
-   :license: 
+   :homepage: https://github.com/stephenturner/annotables
+   :license: GPL3 / GPL-3
    :recipe: /`r-annotables <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-annotables>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-annotables/meta.yaml>`_
    :links: doi: :doi:`10.5281/zenodo.996854`
 
@@ -23,9 +23,9 @@ r-annotables
 
    |downloads_r-annotables| |docker_r-annotables|
 
-   :versions: v0.1.90-1, v0.1.90-0
+   :versions: v0.1.90-2, v0.1.90-1, v0.1.90-0
    
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-tibble: 
    :requirements:
 

@@ -22,7 +22,7 @@ socru
 
    |downloads_socru| |docker_socru|
 
-   :versions: 2.1.4-0, 2.1.2-0, 2.1.1-0, 2.1.0-0, 2.0.0-0, 1.0.1-0, 1.0.0-0, 0.0.5-0
+   :versions: 2.1.6-0, 2.1.4-0, 2.1.2-0, 2.1.1-0, 2.1.0-0, 2.0.0-0, 1.0.1-0, 1.0.0-0, 0.0.5-0
    
    :depends barrnap: 
    :depends biopython: >=1.68

@@ -22,7 +22,7 @@ mashtree
 
    |downloads_mashtree| |docker_mashtree|
 
-   :versions: 0.55-0, 0.37-0, 0.36-0, 0.35.4-0, 0.30-2, 0.30-0, 0.28-0, 0.26-0, 0.25-0, 0.21-0, 0.20-0, 0.12-0
+   :versions: 0.57-0, 0.55-0, 0.37-0, 0.36-0, 0.35.4-0, 0.30-2, 0.30-0, 0.28-0, 0.26-0, 0.25-0, 0.21-0, 0.20-0, 0.12-0
    
    :depends libgcc-ng: >=7.3.0
    :depends mash: >=1.1
@@ -30,7 +30,7 @@ mashtree
    :depends perl-bioperl: >=1.7.2
    :depends perl-dbd-sqlite: >=1.58
    :depends quicktree: 
-   :depends sqlite: >=3.28.0,<4.0a0
+   :depends sqlite: >=3.29.0,<4.0a0
    :requirements:
 
    .. rubric:: Installation
