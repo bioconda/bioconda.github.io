@@ -9,7 +9,7 @@ hulk
 .. conda:recipe:: hulk
    :replaces_section_title:
 
-   Histosketching Using Little Kmers.
+   Histosketching Using Little Kmers
 
    :homepage: https://github.com/will-rowe/hulk
    :license: MIT
@@ -22,7 +22,7 @@ hulk
 
    |downloads_hulk| |docker_hulk|
 
-   :versions: 0.1.2-1, 0.1.0-1, 0.0.2-1, 0.0.1-1
+   :versions: 1.0.0-0, 0.1.2-1, 0.1.0-1, 0.0.2-1, 0.0.1-1
    
    :requirements:
 

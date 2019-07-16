@@ -557,17 +557,14 @@
     <span class="c1"># get environment root</span>
     <span class="n">env_root</span> <span class="o">=</span> <span class="n">PurePath</span><span class="p">(</span><span class="n">shutil</span><span class="o">.</span><span class="n">which</span><span class="p">(</span><span class="s2">&quot;bioconda-utils&quot;</span><span class="p">))</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
     <span class="c1"># set path to pinnings from conda forge package</span>
-    <span class="n">config</span><span class="o">.</span><span class="n">exclusive_config_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">env_root</span><span class="p">,</span>
-                                                <span class="s2">&quot;conda_build_config.yaml&quot;</span><span class="p">)</span>
-    <span class="n">config</span><span class="o">.</span><span class="n">variant_config_files</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="n">config</span><span class="o">.</span><span class="n">exclusive_config_files</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">env_root</span><span class="p">,</span> <span class="s2">&quot;conda_build_config.yaml&quot;</span><span class="p">),</span>
         <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
             <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="vm">__file__</span><span class="p">),</span>
-            <span class="s1">&#39;bioconda_utils-conda_build_config.yaml&#39;</span><span class="p">)</span>
+            <span class="s1">&#39;bioconda_utils-conda_build_config.yaml&#39;</span><span class="p">),</span>
     <span class="p">]</span>
-    <span class="k">for</span> <span class="n">cfg</span> <span class="ow">in</span> <span class="n">config</span><span class="o">.</span><span class="n">variant_config_files</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">cfg</span> <span class="ow">in</span> <span class="n">chain</span><span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">exclusive_config_files</span><span class="p">,</span> <span class="n">config</span><span class="o">.</span><span class="n">variant_config_files</span> <span class="ow">or</span> <span class="p">[]):</span>
         <span class="k">assert</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">cfg</span><span class="p">),</span> <span class="p">(</span><span class="s1">&#39;error: </span><span class="si">{0}</span><span class="s1"> does not exist&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">cfg</span><span class="p">))</span>
-    <span class="k">assert</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">exclusive_config_file</span><span class="p">),</span> <span class="p">(</span>
-        <span class="s2">&quot;error: conda_build_config.yaml not found in environment root&quot;</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">platform</span><span class="p">:</span>
         <span class="n">config</span><span class="o">.</span><span class="n">platform</span> <span class="o">=</span> <span class="n">platform</span>
     <span class="n">config</span><span class="o">.</span><span class="n">trim_skip</span> <span class="o">=</span> <span class="n">trim_skip</span>
@@ -584,7 +581,7 @@
     <span class="k">if</span> <span class="n">config</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
         <span class="n">config</span> <span class="o">=</span> <span class="n">load_conda_build_config</span><span class="p">()</span>
     <span class="c1"># TODO: open PR upstream for conda-build to support multiple exclusive_config_files</span>
-    <span class="k">for</span> <span class="n">file_path</span> <span class="ow">in</span> <span class="p">([</span><span class="n">config</span><span class="o">.</span><span class="n">exclusive_config_file</span><span class="p">]</span> <span class="k">if</span> <span class="n">config</span><span class="o">.</span><span class="n">exclusive_config_file</span> <span class="k">else</span> <span class="p">[]):</span>
+    <span class="k">for</span> <span class="n">file_path</span> <span class="ow">in</span> <span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">exclusive_config_files</span> <span class="ow">or</span> <span class="p">[]):</span>
         <span class="k">yield</span> <span class="n">CondaBuildConfigFile</span><span class="p">(</span><span class="s1">&#39;-e&#39;</span><span class="p">,</span> <span class="n">file_path</span><span class="p">)</span>
     <span class="k">for</span> <span class="n">file_path</span> <span class="ow">in</span> <span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">variant_config_files</span> <span class="ow">or</span> <span class="p">[]):</span>
         <span class="k">yield</span> <span class="n">CondaBuildConfigFile</span><span class="p">(</span><span class="s1">&#39;-m&#39;</span><span class="p">,</span> <span class="n">file_path</span><span class="p">)</span>

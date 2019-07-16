@@ -14,6 +14,7 @@ deepstats
    :homepage: https://github.com/gtrichard/deepStats
    :license: GPL3
    :recipe: /`deepstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deepstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deepstats/meta.yaml>`_
+   :links: doi: :doi:`10.5281/zenodo.3336594`
 
    
 
@@ -22,7 +23,7 @@ deepstats
 
    |downloads_deepstats| |docker_deepstats|
 
-   :versions: 0.2-0
+   :versions: 0.3-0, 0.2-0
    
    :depends r-base: >=3.5.1
    :depends r-boot: 

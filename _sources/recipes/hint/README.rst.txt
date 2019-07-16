@@ -22,11 +22,11 @@ hint
 
    |downloads_hint| |docker_hint|
 
-   :versions: 2.1.9-0, 2.1.7-0, 2.0.1-0
+   :versions: 2.1.9-1, 2.1.9-0, 2.1.7-0, 2.0.1-0
    
    :depends argparse: >=1.1
    :depends bwa: >=0.7.16
-   :depends cooler: >=0.8.2
+   :depends cooler: 0.8.3
    :depends h5py: >=2.8.0
    :depends multiprocess: >=0.70.5
    :depends numpy: >=1.16.1

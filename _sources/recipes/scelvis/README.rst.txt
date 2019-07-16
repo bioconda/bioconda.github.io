@@ -22,16 +22,16 @@ scelvis
 
    |downloads_scelvis| |docker_scelvis|
 
-   :versions: 0.3.0-0, 0.2.1-0, 0.2.0-0, 0.1.0-0
+   :versions: 0.4.0-0, 0.3.0-0, 0.2.1-0, 0.2.0-0, 0.1.0-0
    
    :depends anndata: 
    :depends attrs: 
-   :depends dash: 
+   :depends dash: <1.0
    :depends dash-bootstrap-components: 
-   :depends dash-core-components: 
-   :depends dash-html-components: 
-   :depends dash-renderer: 
-   :depends dash-table: 
+   :depends dash-core-components: <1.0
+   :depends dash-html-components: <1.0
+   :depends dash-renderer: <1.0
+   :depends dash-table: 3.7.*
    :depends flask: 
    :depends flask-caching: 
    :depends fs: 

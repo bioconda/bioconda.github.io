@@ -22,7 +22,7 @@ qcat
 
    |downloads_qcat| |docker_qcat|
 
-   :versions: 1.0.7-0, 1.0.1-0, 1.0.0-0
+   :versions: 1.1.0-0, 1.0.7-0, 1.0.1-0, 1.0.0-0
    
    :depends biopython: 
    :depends mappy: 

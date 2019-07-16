@@ -23,7 +23,7 @@ womtool
 
    |downloads_womtool| |docker_womtool|
 
-   :versions: 43-0, 42-0, 41-0, 40-0, 38-0, 36-0, 31-1, 31-0
+   :versions: 44-0, 43-0, 42-0, 41-0, 40-0, 38-0, 36-0, 31-1, 31-0
    
    :depends openjdk: 8.*
    :depends python: 

@@ -14,6 +14,7 @@ segtools
    :homepage: http://segtools.hoffmanlab.org/
    :license: GPL2
    :recipe: /`segtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segtools/meta.yaml>`_
+   :links: doi: :doi:`10.1186/1471-2105-12-415`
 
    
 
@@ -22,7 +23,7 @@ segtools
 
    |downloads_segtools| |docker_segtools|
 
-   :versions: 1.2.1-2, 1.2.1-1, 1.2.1-0, 1.1.14-2, 1.1.14-1, 1.1.14-0
+   :versions: 1.2.2-0, 1.2.1-2, 1.2.1-1, 1.2.1-0, 1.1.14-2, 1.1.14-1, 1.1.14-0
    
    :depends genomedata: 
    :depends gmtk: 
@@ -30,7 +31,7 @@ segtools
    :depends numpy: 
    :depends pygraphviz: 
    :depends python: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-cairo: 
    :depends r-cluster: 
    :depends r-latticeextra: 
