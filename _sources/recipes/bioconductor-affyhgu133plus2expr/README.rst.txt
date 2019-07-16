@@ -22,10 +22,10 @@ bioconductor-affyhgu133plus2expr
 
    |downloads_bioconductor-affyhgu133plus2expr| |docker_bioconductor-affyhgu133plus2expr|
 
-   :versions: 1.18.0-1, 1.16.0-0
+   :versions: 1.18.0-2, 1.18.0-1, 1.16.0-0
    
    :depends curl: >=7.64.1,<8.0a0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -22,8 +22,10 @@ bioconductor-clumsiddata
 
    |downloads_bioconductor-clumsiddata| |docker_bioconductor-clumsiddata|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends curl: >=7.64.1,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

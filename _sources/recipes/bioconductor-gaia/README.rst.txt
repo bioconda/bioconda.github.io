@@ -22,9 +22,9 @@ bioconductor-gaia
 
    |downloads_bioconductor-gaia| |docker_bioconductor-gaia|
 
-   :versions: 2.28.0-0, 2.26.0-0
+   :versions: 2.28.0-1, 2.28.0-0, 2.26.0-0
    
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -23,11 +23,15 @@ bioconda-utils
 
    |downloads_bioconda-utils| |docker_bioconda-utils|
 
-   :versions: 0.16.3-0, 0.16.2-0, 0.15.13-0, 0.15.12-0, 0.15.11-0, 0.15.10-1, 0.15.10-0, 0.15.8-0, 0.15.7-0, 0.15.3-0, 0.15.2-0, 0.15.1-0, 0.14.9-0, 0.14.3-0, 0.14.2-0, 0.12.3-1, 0.12.3-0, 0.12.0-0, 0.11.4-1, 0.11.4-0, 0.11.3-0, 0.11.2-0, 0.11.1-0
+   :versions: 0.16.5-0, 0.16.3-0, 0.16.2-0, 0.15.13-0, 0.15.12-0, 0.15.11-0, 0.15.10-1, 0.15.10-0, 0.15.8-0, 0.15.7-0, 0.15.3-0, 0.15.2-0, 0.15.1-0, 0.14.9-0, 0.14.3-0, 0.14.2-0, 0.12.3-1, 0.12.3-0, 0.12.0-0, 0.11.4-1, 0.11.4-0, 0.11.3-0, 0.11.2-0, 0.11.1-0
    
    :depends aiofiles: 0.4.*
    :depends aioftp: 0.12.*
    :depends aiohttp: 3.4.*
+   :depends aiohttp-jinja2: 1.1.*
+   :depends aiohttp-security: 0.4.*
+   :depends aiohttp-session: 2.7.*
+   :depends aioredis: 1.2.*
    :depends alabaster: 0.7.*
    :depends anaconda-client: 1.6.*
    :depends argh: 0.26.*
@@ -37,9 +41,11 @@ bioconda-utils
    :depends cachetools: 3.0.*
    :depends celery: 4.2.*
    :depends colorlog: 3.1.*
-   :depends conda: 4.6.12.*
-   :depends conda-build: 3.17.8.*
-   :depends conda-forge-pinning: 2019.03.04.*
+   :depends conda: 4.6.14.*
+   :depends conda-build: 3.18.7.*
+   :depends conda-forge-pinning: 2019.07.11.*
+   :depends conda-verify: 3.1.*
+   :depends cryptography: 2.*
    :depends docutils: 
    :depends galaxy-lib: >=18.9.1
    :depends gidgethub: 3.0.*
@@ -49,17 +55,19 @@ bioconda-utils
    :depends involucro: 1.1.*
    :depends jinja2: 2.10.*
    :depends jsonschema: 2.6.*
+   :depends libblas: * *openblas
+   :depends markdown: 3.1.*
    :depends networkx: 1.11.*
-   :depends numpy: 1.15.*
    :depends pandas: 0.23.*
    :depends pyaml: 17.12.*
    :depends pygithub: 1.34.*
    :depends pyjwt: 1.7.*
-   :depends python: >=3
+   :depends python: >=3.6
    :depends regex: 2018.08.29.*
    :depends requests: 2.20.*
    :depends ruamel_yaml: 0.15.*
    :depends six: 1.11.*
+   :depends skopeo: 0.1.35.*
    :depends sphinx: 
    :depends sphinx-autodoc-typehints: 
    :depends tqdm: >=4.26

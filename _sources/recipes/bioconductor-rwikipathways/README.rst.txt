@@ -22,9 +22,9 @@ bioconductor-rwikipathways
 
    |downloads_bioconductor-rwikipathways| |docker_bioconductor-rwikipathways|
 
-   :versions: 1.4.0-0, 1.2.0-0
+   :versions: 1.4.0-1, 1.4.0-0, 1.2.0-0
    
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-catools: 
    :depends r-httr: 
    :depends r-rjsonio: 
