@@ -22,10 +22,10 @@ bioconductor-msmb
 
    |downloads_bioconductor-msmb| |docker_bioconductor-msmb|
 
-   :versions: 1.2.0-0
+   :versions: 1.2.0-1, 1.2.0-0
    
    :depends curl: >=7.64.1,<8.0a0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

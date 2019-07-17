@@ -22,9 +22,9 @@ bioconductor-biocversion
 
    |downloads_bioconductor-biocversion| |docker_bioconductor-biocversion|
 
-   :versions: 3.8.0-0
+   :versions: 3.9.0-1, 3.8.0-0
    
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation
