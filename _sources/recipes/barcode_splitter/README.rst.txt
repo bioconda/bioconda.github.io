@@ -23,7 +23,7 @@ barcode_splitter
 
    |downloads_barcode_splitter| |docker_barcode_splitter|
 
-   :versions: 0.18.4-0
+   :versions: 0.18.5-0, 0.18.4-0
    
    :depends python: 
    :requirements:

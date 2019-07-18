@@ -22,7 +22,7 @@ scelvis
 
    |downloads_scelvis| |docker_scelvis|
 
-   :versions: 0.4.0-0, 0.3.0-0, 0.2.1-0, 0.2.0-0, 0.1.0-0
+   :versions: 0.4.0-1, 0.4.0-0, 0.3.0-0, 0.2.1-0, 0.2.0-0, 0.1.0-0
    
    :depends anndata: 
    :depends attrs: 
@@ -36,6 +36,7 @@ scelvis
    :depends flask-caching: 
    :depends fs: 
    :depends fs.sshfs: 
+   :depends htmllistparse: 
    :depends logzero: 
    :depends numpy: 
    :depends pandas: 

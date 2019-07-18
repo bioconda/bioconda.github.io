@@ -22,7 +22,7 @@ fargene
 
    |downloads_fargene| |docker_fargene|
 
-   :versions: 0.1-0
+   :versions: 0.1-2, 0.1-0
    
    :depends biopython: >=1.68
    :depends clustalo: 
@@ -35,6 +35,7 @@ fargene
    :depends python: <3
    :depends pyyaml: 
    :depends seqtk: 
+   :depends spades: 
    :depends trim-galore: 
    :requirements:
 
