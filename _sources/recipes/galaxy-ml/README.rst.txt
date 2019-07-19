@@ -22,9 +22,11 @@ galaxy-ml
 
    |downloads_galaxy-ml| |docker_galaxy-ml|
 
-   :versions: 0.7.7-0, 0.7.5-0, 0.7.4.1-0
+   :versions: 0.7.7-1, 0.7.7-0, 0.7.5-0, 0.7.4.1-0
    
    :depends asteval: >=0.9.13
+   :depends cudatoolkit: 10.0.130
+   :depends cudnn: 7.6.0
    :depends imbalanced-learn: 0.4.3
    :depends joblib: >=0.13.2
    :depends keras: 2.2.4

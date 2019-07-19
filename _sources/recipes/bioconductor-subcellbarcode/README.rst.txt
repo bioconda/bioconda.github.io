@@ -22,8 +22,17 @@ bioconductor-subcellbarcode
 
    |downloads_bioconductor-subcellbarcode| |docker_bioconductor-subcellbarcode|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-caret: 
+   :depends r-e1071: 
+   :depends r-ggplot2: 
+   :depends r-ggrepel: 
+   :depends r-gridextra: 
+   :depends r-networkd3: 
+   :depends r-rtsne: 
+   :depends r-scatterplot3d: 
    :requirements:
 
    .. rubric:: Installation

@@ -22,8 +22,18 @@ bioconductor-graper
 
    |downloads_bioconductor-graper| |docker_bioconductor-graper|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-bh: 
+   :depends r-cowplot: 
+   :depends r-ggplot2: 
+   :depends r-matrix: 
+   :depends r-matrixstats: 
+   :depends r-rcpp: 
+   :depends r-rcpparmadillo: 
    :requirements:
 
    .. rubric:: Installation

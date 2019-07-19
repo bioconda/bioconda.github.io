@@ -22,10 +22,10 @@ bioconductor-hapmap370k
 
    |downloads_bioconductor-hapmap370k| |docker_bioconductor-hapmap370k|
 
-   :versions: 1.0.1-1, 1.0.1-0
+   :versions: 1.0.1-2, 1.0.1-1, 1.0.1-0
    
-   :depends curl: >=7.64.1,<8.0a0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends curl: >=7.65.2,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -22,8 +22,11 @@ bioconductor-rmelting
 
    |downloads_bioconductor-rmelting| |docker_bioconductor-rmelting|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-rdpack: 
+   :depends r-rjava: >=0.5-0
    :requirements:
 
    .. rubric:: Installation

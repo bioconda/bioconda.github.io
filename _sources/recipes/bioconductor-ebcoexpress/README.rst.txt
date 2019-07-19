@@ -22,11 +22,10 @@ bioconductor-ebcoexpress
 
    |downloads_bioconductor-ebcoexpress| |docker_bioconductor-ebcoexpress|
 
-   :versions: 1.26.0-0
+   :versions: 1.28.0-1, 1.26.0-0
    
-   :depends bioconductor-ebarrays: >=2.46.0,<2.47.0
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-ebarrays: >=2.48.0,<2.49.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-mclust: 
    :depends r-minqa: 
    :requirements:

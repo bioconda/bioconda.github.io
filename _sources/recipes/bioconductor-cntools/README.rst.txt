@@ -23,11 +23,10 @@ bioconductor-cntools
 
    |downloads_bioconductor-cntools| |docker_bioconductor-cntools|
 
-   :versions: 1.38.0-0, 1.36.0-0, 1.34.0-0, 1.32.0-0
+   :versions: 1.40.0-1, 1.38.0-0, 1.36.0-0, 1.34.0-0, 1.32.0-0
    
-   :depends bioconductor-genefilter: >=1.64.0,<1.65.0
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-genefilter: >=1.66.0,<1.67.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

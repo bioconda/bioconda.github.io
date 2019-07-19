@@ -15,6 +15,7 @@ megahit
    :homepage: https://github.com/voutcn/megahit
    :license: GPL / GPL-3.0
    :recipe: /`megahit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/megahit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/megahit/meta.yaml>`_
+   :links: biotools: :biotools:`megahit`, doi: :doi:`10.1093/bioinformatics/btv033`
 
    
 
@@ -23,11 +24,12 @@ megahit
 
    |downloads_megahit| |docker_megahit|
 
-   :versions: 1.1.3-0, 1.1.2-1, 1.1.2-0, 1.1.1-0, 1.0.6-1, 1.0.3-1, 1.0.3-0
+   :versions: 1.2.6-0, 1.1.3-0, 1.1.2-1, 1.1.2-0, 1.1.1-0, 1.0.6-1, 1.0.3-1, 1.0.3-0
    
-   :depends libgcc: 
-   :depends python: 2.7*
-   :depends zlib: 1.2.11*
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends python: 
+   :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
    .. rubric:: Installation

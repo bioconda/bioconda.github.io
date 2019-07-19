@@ -22,7 +22,7 @@ treemaker
 
    |downloads_treemaker| |docker_treemaker|
 
-   :versions: 1.2-0, 1.1-1, 1.1-0
+   :versions: 1.3-0, 1.2-0, 1.1-1, 1.1-0
    
    :depends python: 
    :requirements:

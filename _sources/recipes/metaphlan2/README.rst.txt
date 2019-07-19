@@ -28,20 +28,20 @@ metaphlan2
 
    |downloads_metaphlan2| |docker_metaphlan2|
 
-   :versions: 2.9.14-0, 2.9.13-0, 2.9.12-0, 2.9.11-0, 2.9.1-0, 2.7.8-0, 2.7.7-4, 2.7.7-3, 2.7.7-2, 2.7.7-1, 2.7.5-1, 2.7.5-0, 2.6.0-2, 2.6.0-1, 2.5.0-2, 2.5.0-0, 2.2.0-1, 2.2.0-0
+   :versions: 2.9.15-0, 2.9.14-0, 2.9.13-0, 2.9.12-0, 2.9.11-0, 2.9.1-0, 2.7.8-0, 2.7.7-4, 2.7.7-3, 2.7.7-2, 2.7.7-1, 2.7.5-1, 2.7.5-0, 2.6.0-2, 2.6.0-1, 2.5.0-2, 2.5.0-0, 2.2.0-1, 2.2.0-0
    
    :depends biom-format: 
    :depends biopython: 
    :depends blast: >=2.6.0
    :depends bowtie2: >=2.0.0
-   :depends dendropy: 3.12.3.*
+   :depends dendropy: 
    :depends matplotlib: 
    :depends msgpack-python: 
    :depends muscle: >=3.8.1551
-   :depends numpy: 1.14.2.*
-   :depends pandas: 0.22.*
+   :depends numpy: 
+   :depends pandas: 
    :depends pysam: >=0.8.3
-   :depends python: 2.7.*
+   :depends python: 3.*
    :depends raxml: >=8.2.10
    :depends requests: 
    :depends samtools: >=0.1.19,<1.0

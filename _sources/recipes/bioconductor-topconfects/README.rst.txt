@@ -22,8 +22,11 @@ bioconductor-topconfects
 
    |downloads_bioconductor-topconfects| |docker_bioconductor-topconfects|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends r-assertthat: 
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-ggplot2: 
    :requirements:
 
    .. rubric:: Installation

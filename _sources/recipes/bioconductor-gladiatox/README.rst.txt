@@ -22,8 +22,24 @@ bioconductor-gladiatox
 
    |downloads_bioconductor-gladiatox| |docker_bioconductor-gladiatox|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-brew: 
+   :depends r-data.table: >=1.9.4
+   :depends r-dbi: 
+   :depends r-ggplot2: 
+   :depends r-ggrepel: 
+   :depends r-numderiv: 
+   :depends r-rcolorbrewer: 
+   :depends r-rcurl: 
+   :depends r-rjsonio: 
+   :depends r-rmysql: 
+   :depends r-rsqlite: 
+   :depends r-stringr: 
+   :depends r-tidyr: 
+   :depends r-xml: 
+   :depends r-xtable: 
    :requirements:
 
    .. rubric:: Installation
