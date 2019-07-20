@@ -22,9 +22,9 @@ bioconductor-dks
 
    |downloads_bioconductor-dks| |docker_bioconductor-dks|
 
-   :versions: 1.30.0-0, 1.28.0-0
+   :versions: 1.30.0-1, 1.30.0-0, 1.28.0-0
    
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-cubature: 
    :requirements:
 

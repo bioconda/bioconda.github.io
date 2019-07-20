@@ -22,10 +22,10 @@ bioconductor-simpintlists
 
    |downloads_bioconductor-simpintlists| |docker_bioconductor-simpintlists|
 
-   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions: 1.20.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
-   :depends curl: >=7.64.1,<8.0a0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends curl: >=7.65.2,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

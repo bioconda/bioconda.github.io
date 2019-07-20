@@ -23,14 +23,15 @@ bioconductor-hdf5array
 
    |downloads_bioconductor-hdf5array| |docker_bioconductor-hdf5array|
 
-   :versions: 1.10.1-0, 1.8.1-0, 1.6.0-0
+   :versions: 1.12.1-0, 1.10.1-0, 1.8.1-0, 1.6.0-0
    
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends bioconductor-delayedarray: >=0.8.0,<0.9.0
-   :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
-   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-delayedarray: >=0.10.0,<0.11.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-rhdf5: >=2.28.0,<2.29.0
+   :depends bioconductor-rhdf5lib: >=1.6.0,<1.7.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

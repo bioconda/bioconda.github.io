@@ -23,14 +23,13 @@ bioconductor-biostrings
 
    |downloads_bioconductor-biostrings| |docker_bioconductor-biostrings|
 
-   :versions: 2.50.2-0, 2.50.1-0, 2.48.0-0, 2.46.0-0, 2.44.2-0, 2.42.1-0, 2.40.2-0, 2.40.0-0, 2.38.4-0, 2.38.3-0, 2.38.2-0, 2.38.0-0
+   :versions: 2.52.0-1, 2.50.2-0, 2.50.1-0, 2.48.0-0, 2.46.0-0, 2.44.2-0, 2.42.1-0, 2.40.2-0, 2.40.0-0, 2.38.4-0, 2.38.3-0, 2.38.2-0, 2.38.0-0
    
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   :depends bioconductor-xvector: >=0.22.0,<0.23.0
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-xvector: >=0.24.0,<0.25.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

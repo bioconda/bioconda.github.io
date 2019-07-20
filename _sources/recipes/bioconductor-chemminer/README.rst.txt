@@ -23,12 +23,11 @@ bioconductor-chemminer
 
    |downloads_bioconductor-chemminer| |docker_bioconductor-chemminer|
 
-   :versions: 3.34.1-0, 3.32.1-0, 2.30.0-0, 2.28.3-0
+   :versions: 3.36.0-1, 3.34.1-0, 3.32.1-0, 2.30.0-0, 2.28.3-0
    
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends libcxx: >=4.0.1
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-base64enc: 
    :depends r-bh: 
    :depends r-dbi: 

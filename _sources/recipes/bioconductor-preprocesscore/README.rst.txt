@@ -25,6 +25,7 @@ bioconductor-preprocesscore
 
    :versions: 1.46.0-1, 1.46.0-0, 1.44.0-0, 1.42.0-0, 1.40.0-0, 1.38.1-0, 1.34.0-0, 1.32.0-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

@@ -22,8 +22,18 @@ bioconductor-dcanr
 
    |downloads_bioconductor-dcanr| |docker_bioconductor-dcanr|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-circlize: 
+   :depends r-dorng: 
+   :depends r-foreach: 
+   :depends r-igraph: 
+   :depends r-matrix: 
+   :depends r-plyr: 
+   :depends r-rcolorbrewer: 
+   :depends r-reshape2: 
+   :depends r-stringr: 
    :requirements:
 
    .. rubric:: Installation

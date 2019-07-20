@@ -22,17 +22,12 @@ bioconductor-beachmat
 
    |downloads_bioconductor-beachmat| |docker_bioconductor-beachmat|
 
-   :versions: 1.4.0-1, 1.4.0-0, 1.2.1-0, 1.0.1-0
+   :versions: 2.0.0-1, 1.4.0-1, 1.4.0-0, 1.2.1-0, 1.0.1-0
    
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends bioconductor-delayedarray: >=0.8.0,<0.9.0
-   :depends bioconductor-hdf5array: >=1.10.0,<1.11.0
-   :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
-   :depends bioconductor-rhdf5lib: >=1.4.0,<1.5.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends r-rcpp: >=0.12.14
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-delayedarray: >=0.10.0,<0.11.0
+   :depends libcxx: >=4.0.1
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation
