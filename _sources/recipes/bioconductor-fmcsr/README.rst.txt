@@ -22,13 +22,12 @@ bioconductor-fmcsr
 
    |downloads_bioconductor-fmcsr| |docker_bioconductor-fmcsr|
 
-   :versions: 1.24.0-0
+   :versions: 1.26.0-1, 1.24.0-0
    
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends bioconductor-chemminer: >=3.34.0,<3.35.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-chemminer: >=3.36.0,<3.37.0
+   :depends libcxx: >=4.0.1
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-runit: 
    :requirements:
 

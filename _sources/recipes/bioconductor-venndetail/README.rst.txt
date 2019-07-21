@@ -22,10 +22,11 @@ bioconductor-venndetail
 
    |downloads_bioconductor-venndetail| |docker_bioconductor-venndetail|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.1-0, 1.0.0-0
    
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: 
+   :depends r-futile.logger: 
    :depends r-ggplot2: 
    :depends r-magrittr: 
    :depends r-purrr: 

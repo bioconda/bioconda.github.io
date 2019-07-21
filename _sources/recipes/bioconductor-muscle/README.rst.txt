@@ -22,12 +22,11 @@ bioconductor-muscle
 
    |downloads_bioconductor-muscle| |docker_bioconductor-muscle|
 
-   :versions: 3.24.0-0
+   :versions: 3.26.0-1, 3.24.0-0
    
-   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends libcxx: >=4.0.1
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

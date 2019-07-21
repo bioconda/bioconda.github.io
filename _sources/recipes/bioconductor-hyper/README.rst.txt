@@ -22,8 +22,15 @@ bioconductor-hyper
 
    |downloads_bioconductor-hyper| |docker_bioconductor-hyper|
 
-   :versions: 
+   :versions: 1.00.0-1
    
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-dplyr: 
+   :depends r-dt: 
+   :depends r-magrittr: 
+   :depends r-msigdbr: 
+   :depends r-openxlsx: 
+   :depends r-plotly: 
    :requirements:
 
    .. rubric:: Installation

@@ -22,8 +22,17 @@ bioconductor-structstrings
 
    |downloads_bioconductor-structstrings| |docker_bioconductor-structstrings|
 
-   :versions: 
+   :versions: 1.0.3-0
    
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-xvector: >=0.24.0,<0.25.0
+   :depends r-assertive: 
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-stringi: 
+   :depends r-stringr: 
    :requirements:
 
    .. rubric:: Installation

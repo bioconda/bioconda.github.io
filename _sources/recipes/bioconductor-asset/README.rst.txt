@@ -22,9 +22,9 @@ bioconductor-asset
 
    |downloads_bioconductor-asset| |docker_bioconductor-asset|
 
-   :versions: 2.2.0-0, 2.0.0-0
+   :versions: 2.2.0-1, 2.2.0-0, 2.0.0-0
    
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-mass: 
    :depends r-msm: 
    :depends r-rmeta: 

@@ -22,8 +22,12 @@ bioconductor-isocorrectorgui
 
    |downloads_bioconductor-isocorrectorgui| |docker_bioconductor-isocorrectorgui|
 
-   :versions: 
+   :versions: 1.0.2-0
    
+   :depends bioconductor-isocorrector: >=1.2.0,<1.3.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-readxl: 
+   :depends r-tcltk2: 
    :requirements:
 
    .. rubric:: Installation
