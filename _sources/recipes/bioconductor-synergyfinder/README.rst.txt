@@ -23,13 +23,11 @@ bioconductor-synergyfinder
 
    |downloads_bioconductor-synergyfinder| |docker_bioconductor-synergyfinder|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.1-0, 1.4.0-0, 1.2.0-0, 1.0.0-0
+   :versions: 1.10.2-0, 1.10.0-0, 1.8.0-0, 1.6.1-0, 1.4.0-0, 1.2.0-0, 1.0.0-0
    
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-drc: >=2.5-12
    :depends r-ggplot2: >=2.1.0
-   :depends r-gplots: >=3.0.0
-   :depends r-gridbase: >=0.4-7
    :depends r-lattice: >=0.20-33
    :depends r-nleqslv: >=3.0
    :depends r-reshape2: >=1.4.1

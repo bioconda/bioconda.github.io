@@ -22,12 +22,11 @@ bioconductor-gosummaries
 
    |downloads_bioconductor-gosummaries| |docker_bioconductor-gosummaries|
 
-   :versions: 2.20.0-0, 2.18.0-0
+   :versions: 2.20.0-1, 2.20.0-0, 2.18.0-0
    
    :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends libcxx: >=4.0.1
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 
    :depends r-gprofiler: 
    :depends r-gtable: 

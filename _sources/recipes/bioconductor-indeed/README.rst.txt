@@ -22,9 +22,9 @@ bioconductor-indeed
 
    |downloads_bioconductor-indeed| |docker_bioconductor-indeed|
 
-   :versions: 1.2.0-0, 1.0.1-0
+   :versions: 1.2.0-1, 1.2.0-0, 1.0.1-0
    
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-devtools: >=1.13.0
    :depends r-glasso: >=1.8
    :requirements:

@@ -22,9 +22,9 @@ bioconductor-plotgrouper
 
    |downloads_bioconductor-plotgrouper| |docker_bioconductor-plotgrouper|
 
-   :versions: 1.2.0-0, 1.0.1-0
+   :versions: 1.2.0-1, 1.2.0-0, 1.0.1-0
    
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-colourpicker: >=1.0
    :depends r-dplyr: >=0.7.6
    :depends r-egg: >=0.4.0

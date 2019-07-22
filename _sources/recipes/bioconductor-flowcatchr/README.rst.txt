@@ -22,12 +22,12 @@ bioconductor-flowcatchr
 
    |downloads_bioconductor-flowcatchr| |docker_bioconductor-flowcatchr|
 
-   :versions: 1.16.0-0
+   :versions: 1.18.0-1, 1.16.0-0
    
-   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   :depends bioconductor-ebimage: >=4.24.0,<4.25.0
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-ebimage: >=4.26.0,<4.27.0
    :depends r-abind: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-colorramps: 
    :depends r-plotly: 
    :depends r-shiny: 

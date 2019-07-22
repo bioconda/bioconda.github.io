@@ -23,11 +23,11 @@ bioconductor-survcomp
 
    |downloads_bioconductor-survcomp| |docker_bioconductor-survcomp|
 
-   :versions: 1.34.0-0, 1.32.0-0, 1.30.0-0, 1.28.4-0
+   :versions: 1.34.0-1, 1.34.0-0, 1.32.0-0, 1.30.0-0, 1.28.4-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-bootstrap: 
    :depends r-ipred: 
    :depends r-kernsmooth: 

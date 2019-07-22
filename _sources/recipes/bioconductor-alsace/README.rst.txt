@@ -22,10 +22,10 @@ bioconductor-alsace
 
    |downloads_bioconductor-alsace| |docker_bioconductor-alsace|
 
-   :versions: 1.20.0-0, 1.18.0-0
+   :versions: 1.20.0-1, 1.20.0-0, 1.18.0-0
    
    :depends r-als: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-ptw: >=1.0.6
    :requirements:
 

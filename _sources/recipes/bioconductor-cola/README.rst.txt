@@ -22,13 +22,13 @@ bioconductor-cola
 
    |downloads_bioconductor-cola| |docker_bioconductor-cola|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.0-1, 1.0.0-0
    
    :depends bioconductor-complexheatmap: >=2.0.0,<2.1.0
    :depends bioconductor-impute: >=1.58.0,<1.59.0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-brew: 
    :depends r-circlize: >=0.4.5
    :depends r-clue: 

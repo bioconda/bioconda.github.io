@@ -23,13 +23,12 @@ bioconductor-tweedeseq
 
    |downloads_bioconductor-tweedeseq| |docker_bioconductor-tweedeseq|
 
-   :versions: 1.30.0-0, 1.28.1-0, 1.28.0-0, 1.26.0-0, 1.24.0-0, 1.22.0-0
+   :versions: 1.30.0-1, 1.30.0-0, 1.28.1-0, 1.28.0-0, 1.26.0-0, 1.24.0-0, 1.22.0-0
    
    :depends bioconductor-cqn: >=1.30.0,<1.31.0
    :depends bioconductor-edger: >=3.26.0,<3.27.0
    :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-mass: 
    :requirements:
 

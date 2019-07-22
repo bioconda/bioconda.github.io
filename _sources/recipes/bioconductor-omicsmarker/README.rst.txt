@@ -22,11 +22,11 @@ bioconductor-omicsmarker
 
    |downloads_bioconductor-omicsmarker| |docker_bioconductor-omicsmarker|
 
-   :versions: 1.16.0-0, 1.14.0-0
+   :versions: 1.16.0-1, 1.16.0-0, 1.14.0-0
    
    :depends r-assertive: >=0.3-0
    :depends r-assertive.base: >=0.0-1
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-caret: >=6.0-37
    :depends r-catools: >=1.14
    :depends r-data.table: >=1.9.4

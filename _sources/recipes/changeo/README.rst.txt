@@ -22,7 +22,7 @@ changeo
 
    |downloads_changeo| |docker_changeo|
 
-   :versions: 0.4.5-0, 0.4.4-0
+   :versions: 0.4.6-0, 0.4.5-0, 0.4.4-0
    
    :depends airr: >=1.2.1
    :depends biopython: >=1.65

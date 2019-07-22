@@ -22,7 +22,7 @@ starfish
 
    |downloads_starfish| |docker_starfish|
 
-   :versions: 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.31-0, 0.0.30-0, 0.0.29-0, 0.0.27-0, 0.0.26-2, 0.0.25-2, 0.0.23-2, 0.0.21-2, 0.0.20-2, 0.0.19-2, 0.0.18-2, 0.0.17-2, 0.0.16-2, 0.0.14-2, 0.0.14-1, 0.0.14-0
+   :versions: 0.1.4-0, 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.31-0, 0.0.30-0, 0.0.29-0, 0.0.27-0, 0.0.26-2, 0.0.25-2, 0.0.23-2, 0.0.21-2, 0.0.20-2, 0.0.19-2, 0.0.18-2, 0.0.17-2, 0.0.16-2, 0.0.14-2, 0.0.14-1, 0.0.14-0
    
    :depends click: 
    :depends jsonschema: 
@@ -39,7 +39,7 @@ starfish
    :depends seaborn: 
    :depends semantic_version: 
    :depends showit: >=1.1.4
-   :depends slicedimage: >=3.1.1
+   :depends slicedimage: >=4.0.0
    :depends sympy: 
    :depends tqdm: 
    :depends trackpy: 

@@ -22,8 +22,19 @@ bioconductor-alevinqc
 
    |downloads_bioconductor-alevinqc| |docker_bioconductor-alevinqc|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-tximport: >=1.12.0,<1.13.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-cowplot: 
+   :depends r-dplyr: 
+   :depends r-dt: 
+   :depends r-ggally: 
+   :depends r-ggplot2: 
+   :depends r-rjson: 
+   :depends r-rmarkdown: 
+   :depends r-shiny: 
+   :depends r-shinydashboard: 
    :requirements:
 
    .. rubric:: Installation

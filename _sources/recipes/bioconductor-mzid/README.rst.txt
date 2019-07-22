@@ -23,10 +23,10 @@ bioconductor-mzid
 
    |downloads_bioconductor-mzid| |docker_bioconductor-mzid|
 
-   :versions: 1.22.0-0, 1.20.1-0, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions: 1.22.0-1, 1.22.0-0, 1.20.1-0, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
    :depends bioconductor-protgenerics: >=1.16.0,<1.17.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-doparallel: 
    :depends r-foreach: 
    :depends r-iterators: 
