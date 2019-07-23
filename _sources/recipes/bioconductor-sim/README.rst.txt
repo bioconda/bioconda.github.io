@@ -23,12 +23,11 @@ bioconductor-sim
 
    |downloads_bioconductor-sim| |docker_bioconductor-sim|
 
-   :versions: 1.52.0-1, 1.52.0-0, 1.50.0-0, 1.48.0-0
+   :versions: 1.54.0-1, 1.52.0-1, 1.52.0-0, 1.50.0-0, 1.48.0-0
    
-   :depends bioconductor-globaltest: >=5.36.0,<5.37.0
-   :depends bioconductor-quantsmooth: >=1.48.0,<1.49.0
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-globaltest: >=5.38.0,<5.39.0
+   :depends bioconductor-quantsmooth: >=1.50.0,<1.51.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-quantreg: 
    :requirements:
 

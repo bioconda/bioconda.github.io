@@ -22,10 +22,10 @@ bioconductor-neighbornet
 
    |downloads_bioconductor-neighbornet| |docker_bioconductor-neighbornet|
 
-   :versions: 1.0.0-1, 1.0.0-0
+   :versions: 1.2.0-1, 1.0.0-1, 1.0.0-0
    
-   :depends bioconductor-graph: >=1.60.0,<1.61.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-graph: >=1.62.0,<1.63.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

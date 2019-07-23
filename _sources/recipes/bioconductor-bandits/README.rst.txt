@@ -22,8 +22,20 @@ bioconductor-bandits
 
    |downloads_bioconductor-bandits| |docker_bioconductor-bandits|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-drimseq: >=1.12.0,<1.13.0
+   :depends libcxx: >=4.0.1
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-data.table: 
+   :depends r-doparallel: 
+   :depends r-dorng: 
+   :depends r-foreach: 
+   :depends r-ggplot2: 
+   :depends r-mass: 
+   :depends r-rcpp: 
+   :depends r-rcpparmadillo: 
    :requirements:
 
    .. rubric:: Installation

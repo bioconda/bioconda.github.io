@@ -22,8 +22,22 @@ bioconductor-hcabrowser
 
    |downloads_bioconductor-hcabrowser| |docker_bioconductor-hcabrowser|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-biocfilecache: >=1.8.0,<1.9.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-dplyr: 
+   :depends r-googleauthr: 
+   :depends r-httr: 
+   :depends r-jsonlite: 
+   :depends r-plyr: 
+   :depends r-readr: 
+   :depends r-rlang: 
+   :depends r-stringr: 
+   :depends r-tibble: 
+   :depends r-tidygraph: 
+   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation

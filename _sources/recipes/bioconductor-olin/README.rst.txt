@@ -23,11 +23,11 @@ bioconductor-olin
 
    |downloads_bioconductor-olin| |docker_bioconductor-olin|
 
-   :versions: 1.62.0-0, 1.60.0-0, 1.58.0-0, 1.56.0-0, 1.54.0-0
+   :versions: 1.62.0-1, 1.62.0-0, 1.60.0-0, 1.58.0-0, 1.56.0-0, 1.54.0-0
    
    :depends bioconductor-limma: >=3.40.0,<3.41.0
    :depends bioconductor-marray: >=1.62.0,<1.63.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-locfit: 
    :requirements:
 

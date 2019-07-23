@@ -22,10 +22,10 @@ bioconductor-tronco
 
    |downloads_bioconductor-tronco| |docker_bioconductor-tronco|
 
-   :versions: 2.14.2-0
+   :versions: 2.16.2-0, 2.14.2-0
    
-   :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-rgraphviz: >=2.28.0,<2.29.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-bnlearn: 
    :depends r-cgdsr: 
    :depends r-circlize: 

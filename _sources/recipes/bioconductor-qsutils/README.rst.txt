@@ -22,12 +22,12 @@ bioconductor-qsutils
 
    |downloads_bioconductor-qsutils| |docker_bioconductor-qsutils|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-1, 1.0.0-0
    
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
    :depends r-ape: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-psych: 
    :requirements:
 

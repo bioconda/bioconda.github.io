@@ -23,10 +23,10 @@ bioconductor-rrdp
 
    |downloads_bioconductor-rrdp| |docker_bioconductor-rrdp|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions: 1.18.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
    
-   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

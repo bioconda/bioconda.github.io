@@ -23,24 +23,27 @@ bioconductor-cardinal
 
    |downloads_bioconductor-cardinal| |docker_bioconductor-cardinal|
 
-   :versions: 2.0.4-0, 2.0.2-0, 1.12.1-1, 1.12.1-0, 1.10.0-0, 1.8.0-0, 1.7.0-0
+   :versions: 2.2.6-0, 2.0.4-0, 2.0.2-0, 1.12.1-1, 1.12.1-0, 1.10.0-0, 1.8.0-0, 1.7.0-0
    
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   :depends bioconductor-ebimage: >=4.24.0,<4.25.0
-   :depends bioconductor-matter: >=1.8.0,<1.9.0
-   :depends bioconductor-protgenerics: >=1.14.0,<1.15.0
-   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-ebimage: >=4.26.0,<4.27.0
+   :depends bioconductor-matter: >=1.10.0,<1.11.0
+   :depends bioconductor-protgenerics: >=1.16.0,<1.17.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends libcxx: >=4.0.1
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: 
    :depends r-irlba: 
    :depends r-lattice: 
    :depends r-magrittr: 
+   :depends r-matrix: 
+   :depends r-mclust: 
+   :depends r-nlme: 
    :depends r-signal: 
    :depends r-sp: 
+   :depends r-viridislite: 
    :requirements:
 
    .. rubric:: Installation

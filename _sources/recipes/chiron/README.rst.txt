@@ -23,8 +23,15 @@ chiron
 
    |downloads_chiron| |docker_chiron|
 
-   :versions: 
+   :versions: 0.4.2.1-0
    
+   :depends h5py: >=2.7.0
+   :depends mappy: >=2.10.0
+   :depends numpy: >=1.13.3
+   :depends python: 2.7.*
+   :depends statsmodels: >=0.8.0
+   :depends tensorflow: >=1.3.0
+   :depends tqdm: >=4.23.0
    :requirements:
 
    .. rubric:: Installation

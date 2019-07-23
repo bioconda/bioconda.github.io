@@ -22,8 +22,13 @@ bioconductor-synmut
 
    |downloads_bioconductor-synmut| |docker_bioconductor-synmut|
 
-   :versions: 
+   :versions: 1.0.1-0
    
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-seqinr: 
+   :depends r-stringr: 
    :requirements:
 
    .. rubric:: Installation

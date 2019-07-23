@@ -23,19 +23,17 @@ bioconductor-mzr
 
    |downloads_bioconductor-mzr| |docker_bioconductor-mzr|
 
-   :versions: 2.16.2-1, 2.16.2-0, 2.16.0-0, 2.12.0-1, 2.10.0-0, 2.6.3-1, 2.6.3-0, 2.4.1-1
+   :versions: 2.18.0-1, 2.16.2-1, 2.16.2-0, 2.16.0-0, 2.12.0-1, 2.10.0-0, 2.6.3-1, 2.6.3-0, 2.4.1-1
    
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends bioconductor-protgenerics: >=1.14.0,<1.15.0
-   :depends bioconductor-rhdf5lib: >=1.4.0,<1.5.0
-   :depends bioconductor-zlibbioc: >=1.28.0,<1.29.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-protgenerics: >=1.16.0,<1.17.0
+   :depends bioconductor-rhdf5lib: >=1.6.0,<1.7.0
+   :depends bioconductor-zlibbioc: >=1.30.0,<1.31.0
+   :depends libcxx: >=4.0.1
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-ncdf4: 
    :depends r-rcpp: >=0.10.1
-   :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
    .. rubric:: Installation

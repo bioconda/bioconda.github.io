@@ -23,10 +23,10 @@ bioconductor-absseq
 
    |downloads_bioconductor-absseq| |docker_bioconductor-absseq|
 
-   :versions: 1.38.0-0, 1.36.0-0, 1.34.1-0, 1.32.0-0, 1.22.8-0
+   :versions: 1.38.0-1, 1.38.0-0, 1.36.0-0, 1.34.1-0, 1.32.0-0, 1.22.8-0
    
    :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-locfit: 
    :requirements:
 

@@ -22,7 +22,7 @@ blast-legacy
 
    |downloads_blast-legacy| |docker_blast-legacy|
 
-   :versions: 2.2.26-1, 2.2.26-0, 2.2.22-1, 2.2.22-0
+   :versions: 2.2.26-2, 2.2.26-1, 2.2.26-0, 2.2.22-1, 2.2.22-0
    
    :requirements:
 
