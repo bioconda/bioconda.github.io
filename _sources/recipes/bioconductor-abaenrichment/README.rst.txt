@@ -23,13 +23,12 @@ bioconductor-abaenrichment
 
    |downloads_bioconductor-abaenrichment| |docker_bioconductor-abaenrichment|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-0
+   :versions: 1.14.0-1, 1.12.0-0, 1.10.0-0, 1.8.0-0
    
-   :depends bioconductor-abadata: >=1.12.0,<1.13.0
-   :depends bioconductor-gofuncr: >=1.2.0,<1.3.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-abadata: >=1.14.0,<1.15.0
+   :depends bioconductor-gofuncr: >=1.4.0,<1.5.0
+   :depends libcxx: >=4.0.1
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: >=1.10.4
    :depends r-gplots: >=2.14.2
    :depends r-gtools: >=3.5.0

@@ -22,12 +22,12 @@ bioconductor-loci2path
 
    |downloads_bioconductor-loci2path| |docker_bioconductor-loci2path|
 
-   :versions: 1.2.0-1, 1.2.0-0
+   :versions: 1.4.0-1, 1.2.0-1, 1.2.0-0
    
-   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-pheatmap: 
    :depends r-rcolorbrewer: 

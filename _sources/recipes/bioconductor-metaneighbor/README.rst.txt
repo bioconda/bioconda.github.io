@@ -22,13 +22,18 @@ bioconductor-metaneighbor
 
    |downloads_bioconductor-metaneighbor| |docker_bioconductor-metaneighbor|
 
-   :versions: 1.2.0-0
+   :versions: 1.4.0-1, 1.2.0-0
    
-   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends libcxx: >=4.0.1
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-beanplot: >=1.2
    :depends r-gplots: >=3.0.1
+   :depends r-matrix: >=1.2
+   :depends r-matrixstats: >=0.54
    :depends r-rcolorbrewer: >=1.1
+   :depends r-rcpp: 
    :requirements:
 
    .. rubric:: Installation

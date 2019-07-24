@@ -22,11 +22,11 @@ bioconductor-nbsplice
 
    |downloads_bioconductor-nbsplice| |docker_bioconductor-nbsplice|
 
-   :versions: 1.2.0-0, 1.0.6-0, 1.0.0-0
+   :versions: 1.2.1-0, 1.2.0-0, 1.0.6-0, 1.0.0-0
    
    :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
    :depends bioconductor-edger: >=3.26.0,<3.27.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-car: 
    :depends r-ggplot2: 
    :depends r-mass: 

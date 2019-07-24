@@ -22,8 +22,17 @@ bioconductor-gnet2
 
    |downloads_bioconductor-gnet2| |docker_bioconductor-gnet2|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends libcxx: >=4.0.1
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-diagrammer: 
+   :depends r-ggplot2: 
+   :depends r-matrixstats: 
+   :depends r-rcpp: 
+   :depends r-reshape2: 
+   :depends r-xgboost: 
    :requirements:
 
    .. rubric:: Installation

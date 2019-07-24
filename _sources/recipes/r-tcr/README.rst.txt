@@ -22,11 +22,11 @@ r-tcr
 
    |downloads_r-tcr| |docker_r-tcr|
 
-   :versions: 2.2.4-0, 2.2.2-0
+   :versions: 2.2.4-1, 2.2.4-0, 2.2.2-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: >=1.9.0
    :depends r-dplyr: >=0.4.0
    :depends r-ggplot2: >=1.0.0
