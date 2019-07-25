@@ -22,10 +22,10 @@ bioconductor-deconrnaseq
 
    |downloads_bioconductor-deconrnaseq| |docker_bioconductor-deconrnaseq|
 
-   :versions: 1.24.0-1, 1.24.0-0
+   :versions: 1.26.0-1, 1.24.0-1, 1.24.0-0
    
-   :depends bioconductor-pcamethods: >=1.74.0,<1.75.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-pcamethods: >=1.76.0,<1.77.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 
    :depends r-limsolve: 
    :requirements:

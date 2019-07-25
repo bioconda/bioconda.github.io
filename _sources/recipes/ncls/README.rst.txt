@@ -9,9 +9,9 @@ ncls
 .. conda:recipe:: ncls
    :replaces_section_title:
 
-   The Nested Containment List for Python.
+   Fast overlap datastructure.
 
-   :homepage: http://github.com/hunt-genes/ncls
+   :homepage: https://github.com/endrebak/ncls
    :license: BSD
    :recipe: /`ncls <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncls>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncls/meta.yaml>`_
 
@@ -22,10 +22,11 @@ ncls
 
    |downloads_ncls| |docker_ncls|
 
-   :versions: 0.0.42-3, 0.0.42-2, 0.0.42-1, 0.0.42-0
+   :versions: 0.0.43-0, 0.0.42-3, 0.0.42-2, 0.0.42-1, 0.0.42-0
    
    :depends libgcc-ng: >=7.3.0
    :depends numpy: 
+   :depends python: >=2.7,<2.8.0a0
    :requirements:
 
    .. rubric:: Installation

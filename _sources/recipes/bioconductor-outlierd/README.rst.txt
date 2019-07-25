@@ -23,10 +23,10 @@ bioconductor-outlierd
 
    |downloads_bioconductor-outlierd| |docker_bioconductor-outlierd|
 
-   :versions: 1.46.0-0, 1.44.0-0, 1.42.0-0, 1.40.0-0
+   :versions: 1.48.0-1, 1.46.0-0, 1.44.0-0, 1.42.0-0, 1.40.0-0
    
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-quantreg: 
    :requirements:
 

@@ -23,12 +23,12 @@ bioconductor-procoil
 
    |downloads_bioconductor-procoil| |docker_bioconductor-procoil|
 
-   :versions: 2.10.0-0, 2.8.0-0, 2.6.0-0
+   :versions: 2.12.0-1, 2.10.0-0, 2.8.0-0, 2.6.0-0
    
-   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   :depends bioconductor-kebabs: >=1.16.0,<1.17.0
-   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-kebabs: >=1.18.0,<1.19.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

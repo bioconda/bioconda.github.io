@@ -23,13 +23,13 @@ bioconductor-rontotools
 
    |downloads_bioconductor-rontotools| |docker_bioconductor-rontotools|
 
-   :versions: 2.10.0-0, 2.8.0-0, 2.6.0-0, 2.4.0-0
+   :versions: 2.12.0-1, 2.10.0-0, 2.8.0-0, 2.6.0-0, 2.4.0-0
    
-   :depends bioconductor-graph: >=1.60.0,<1.61.0
-   :depends bioconductor-kegggraph: >=1.42.0,<1.43.0
-   :depends bioconductor-keggrest: >=1.22.0,<1.23.0
-   :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-graph: >=1.62.0,<1.63.0
+   :depends bioconductor-kegggraph: >=1.44.0,<1.45.0
+   :depends bioconductor-keggrest: >=1.24.0,<1.25.0
+   :depends bioconductor-rgraphviz: >=2.28.0,<2.29.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-boot: 
    :requirements:
 

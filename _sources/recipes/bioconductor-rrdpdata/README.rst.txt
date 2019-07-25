@@ -22,11 +22,11 @@ bioconductor-rrdpdata
 
    |downloads_bioconductor-rrdpdata| |docker_bioconductor-rrdpdata|
 
-   :versions: 1.2.0-0
+   :versions: 1.4.0-1, 1.2.0-0
    
-   :depends bioconductor-rrdp: >=1.16.0,<1.17.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
+   :depends bioconductor-rrdp: >=1.18.0,<1.19.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -23,10 +23,10 @@ bioconductor-noiseq
 
    |downloads_bioconductor-noiseq| |docker_bioconductor-noiseq|
 
-   :versions: 2.26.1-0, 2.26.0-0, 2.24.0-0, 2.22.0-0, 2.20.0-0, 2.18.0-0
+   :versions: 2.28.0-1, 2.26.1-0, 2.26.0-0, 2.24.0-0, 2.22.0-0, 2.20.0-0, 2.18.0-0
    
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-matrix: >=1.2
    :requirements:
 

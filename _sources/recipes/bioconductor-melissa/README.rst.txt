@@ -22,8 +22,25 @@ bioconductor-melissa
 
    |downloads_bioconductor-melissa| |docker_bioconductor-melissa|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-biocstyle: >=2.12.0,<2.13.0
+   :depends bioconductor-bprmeth: >=1.10.0,<1.11.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends r-assertthat: 
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-clues: 
+   :depends r-cowplot: 
+   :depends r-data.table: 
+   :depends r-doparallel: 
+   :depends r-foreach: 
+   :depends r-ggplot2: 
+   :depends r-magrittr: 
+   :depends r-matrixcalc: 
+   :depends r-mcmcpack: 
+   :depends r-mvtnorm: 
+   :depends r-rocr: 
+   :depends r-truncnorm: 
    :requirements:
 
    .. rubric:: Installation

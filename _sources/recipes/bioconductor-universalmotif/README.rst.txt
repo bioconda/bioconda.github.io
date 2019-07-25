@@ -28,7 +28,8 @@ bioconductor-universalmotif
    :depends bioconductor-biostrings: >=2.52.0,<2.53.0
    :depends bioconductor-ggtree: >=1.16.0,<1.17.0
    :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-ape: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 

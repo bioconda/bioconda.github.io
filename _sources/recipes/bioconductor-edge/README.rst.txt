@@ -22,14 +22,13 @@ bioconductor-edge
 
    |downloads_bioconductor-edge| |docker_bioconductor-edge|
 
-   :versions: 2.14.0-0
+   :versions: 2.16.0-1, 2.14.0-0
    
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends bioconductor-qvalue: >=2.14.0,<2.15.0
-   :depends bioconductor-snm: >=1.30.0,<1.31.0
-   :depends bioconductor-sva: >=3.30.0,<3.31.0
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-qvalue: >=2.16.0,<2.17.0
+   :depends bioconductor-snm: >=1.32.0,<1.33.0
+   :depends bioconductor-sva: >=3.32.0,<3.33.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-jackstraw: 
    :depends r-mass: 
    :requirements:

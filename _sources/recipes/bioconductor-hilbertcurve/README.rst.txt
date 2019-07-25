@@ -22,14 +22,15 @@ bioconductor-hilbertcurve
 
    |downloads_bioconductor-hilbertcurve| |docker_bioconductor-hilbertcurve|
 
-   :versions: 1.12.0-0
+   :versions: 1.14.0-1, 1.12.0-0
    
-   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   :depends bioconductor-hilbertvis: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-hilbertvis: >=1.42.0,<1.43.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-circlize: >=0.3.3
    :depends r-png: 
+   :depends r-polylabelr: 
    :requirements:
 
    .. rubric:: Installation

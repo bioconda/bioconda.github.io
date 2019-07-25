@@ -23,14 +23,14 @@ bioconductor-nem
 
    |downloads_bioconductor-nem| |docker_bioconductor-nem|
 
-   :versions: 2.56.0-0, 2.54.0-0, 2.52.0-0, 2.50.0-0
+   :versions: 2.58.0-1, 2.56.0-0, 2.54.0-0, 2.52.0-0, 2.50.0-0
    
-   :depends bioconductor-graph: >=1.60.0,<1.61.0
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends bioconductor-rbgl: >=1.58.0,<1.59.0
-   :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
+   :depends bioconductor-graph: >=1.62.0,<1.63.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-rbgl: >=1.60.0,<1.61.0
+   :depends bioconductor-rgraphviz: >=2.28.0,<2.29.0
    :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-boot: 
    :depends r-e1071: 
    :depends r-plotrix: 

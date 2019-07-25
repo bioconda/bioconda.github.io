@@ -11,8 +11,8 @@ dxua
 
    command\-line tool for uploading files to the DNAnexus Platform
 
-   :homepage: https://wiki.dnanexus.com/Downloads#Upload-Agent
-   :license: Apache v2.0
+   :homepage: https://documentation.dnanexus.com/user/objects/uploading-and-downloading-files/batch/upload-agent
+   :license: Apache / Apache 2.0
    :recipe: /`dxua <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dxua>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dxua/meta.yaml>`_
 
    
@@ -22,7 +22,7 @@ dxua
 
    |downloads_dxua| |docker_dxua|
 
-   :versions: 1.5.26-1, 1.5.26-0, 1.5.11-0
+   :versions: 1.5.31-0, 1.5.26-1, 1.5.26-0, 1.5.11-0
    
    :requirements:
 
