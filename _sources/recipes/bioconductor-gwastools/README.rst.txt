@@ -22,13 +22,13 @@ bioconductor-gwastools
 
    |downloads_bioconductor-gwastools| |docker_bioconductor-gwastools|
 
-   :versions: 1.28.0-0
+   :versions: 1.30.0-1, 1.28.0-0
    
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends bioconductor-dnacopy: >=1.56.0,<1.57.0
-   :depends bioconductor-gdsfmt: >=1.18.0,<1.19.0
-   :depends bioconductor-quantsmooth: >=1.48.0,<1.49.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-dnacopy: >=1.58.0,<1.59.0
+   :depends bioconductor-gdsfmt: >=1.20.0,<1.21.0
+   :depends bioconductor-quantsmooth: >=1.50.0,<1.51.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-dbi: 
    :depends r-gwasexacthw: 
    :depends r-lmtest: 

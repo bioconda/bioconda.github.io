@@ -22,13 +22,13 @@ bioconductor-ctrap
 
    |downloads_bioconductor-ctrap| |docker_bioconductor-ctrap|
 
-   :versions: 1.0.3-0
+   :versions: 1.2.0-1, 1.0.3-0
    
-   :depends bioconductor-fgsea: >=1.8.0,<1.9.0
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends bioconductor-piano: >=1.22.0,<1.23.0
-   :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-fgsea: >=1.10.0,<1.11.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-piano: >=2.0.0,<2.1.0
+   :depends bioconductor-rhdf5: >=2.28.0,<2.29.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-cowplot: 
    :depends r-data.table: 
    :depends r-ggplot2: 

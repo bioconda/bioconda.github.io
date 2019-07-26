@@ -25,8 +25,9 @@ cfm
    :versions: 33-0
    
    :depends boost-cpp: >=1.68.0,<1.68.1.0a0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
    :depends liblbfgs: >=1.10,<1.11.0a0
+   :depends libstdcxx-ng: >=7.3.0
    :depends lp_solve: 5.5.*
    :depends mpich: >=3.2,<3.3.0a0
    :depends rdkit: 2018.09.1

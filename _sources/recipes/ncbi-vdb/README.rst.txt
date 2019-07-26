@@ -26,7 +26,8 @@ ncbi-vdb
 
    :versions: 2.9.6-0, 2.9.3-0, 2.9.1-0, 2.9.0-0
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

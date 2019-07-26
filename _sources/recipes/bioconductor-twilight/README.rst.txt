@@ -26,6 +26,7 @@ bioconductor-twilight
    :versions: 1.60.0-1, 1.58.0-1, 1.58.0-0, 1.56.0-0, 1.54.0-0, 1.52.0-0
    
    :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

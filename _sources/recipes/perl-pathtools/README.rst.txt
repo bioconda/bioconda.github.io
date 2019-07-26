@@ -24,6 +24,7 @@ perl-pathtools
 
    :versions: 3.75-1, 3.75-0, 3.73-2, 3.73-1, 3.73-0, 3.40-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-carp: 
    :requirements:

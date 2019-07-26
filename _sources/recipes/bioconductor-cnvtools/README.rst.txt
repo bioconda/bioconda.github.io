@@ -25,7 +25,8 @@ bioconductor-cnvtools
 
    :versions: 1.78.0-1, 1.78.0-0, 1.76.0-0, 1.74.0-0, 1.72.0-0
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-survival: 
    :requirements:

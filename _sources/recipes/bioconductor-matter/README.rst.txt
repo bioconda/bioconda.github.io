@@ -27,7 +27,8 @@ bioconductor-matter
    
    :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
    :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-biglm: 
    :depends r-digest: 

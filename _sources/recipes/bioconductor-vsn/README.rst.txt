@@ -28,6 +28,7 @@ bioconductor-vsn
    :depends bioconductor-affy: >=1.62.0,<1.63.0
    :depends bioconductor-biobase: >=2.44.0,<2.45.0
    :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 
    :depends r-lattice: 

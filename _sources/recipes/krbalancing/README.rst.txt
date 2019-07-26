@@ -25,8 +25,8 @@ krbalancing
    :versions: 0.0.5-0, 0.0.4-0, 0.0.3-0
    
    :depends eigen: >=3.3.7
-   :depends libcxx: >=4.0.1
-   :depends llvm-openmp: 
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends pybind11: >=2.2.4
    :depends python: >=2.7,<2.8.0a0
    :requirements:

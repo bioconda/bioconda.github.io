@@ -22,8 +22,19 @@ bioconductor-adacgh2
 
    |downloads_bioconductor-adacgh2| |docker_bioconductor-adacgh2|
 
-   :versions: 
+   :versions: 2.24.0-1
    
+   :depends bioconductor-acgh: >=1.62.0,<1.63.0
+   :depends bioconductor-dnacopy: >=1.58.0,<1.59.0
+   :depends bioconductor-glad: >=2.48.0,<2.49.0
+   :depends bioconductor-snapcgh: >=1.54.0,<1.55.0
+   :depends bioconductor-tilingarray: >=1.62.0,<1.63.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-bit: 
+   :depends r-cluster: 
+   :depends r-ff: 
+   :depends r-ffbase: 
+   :depends r-waveslim: 
    :requirements:
 
    .. rubric:: Installation

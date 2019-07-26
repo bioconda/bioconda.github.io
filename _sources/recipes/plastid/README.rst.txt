@@ -27,6 +27,7 @@ plastid
    :depends biopython: >=1.64
    :depends bowtie: 
    :depends fastx_toolkit: 
+   :depends libgcc-ng: >=7.3.0
    :depends matplotlib: >=1.4.0
    :depends numpy: >=1.11,<1.12.0a0
    :depends pandas: >=0.17.0

@@ -26,7 +26,8 @@ pheniqs
    :versions: 2.0.6-1, 2.0.6-0, 2.0.3-1, 2.0.3-0
    
    :depends htslib: >=1.9,<1.10.0a0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends python: >=2.7,<2.8.0a0
    :depends rapidjson: 
    :depends samtools: 

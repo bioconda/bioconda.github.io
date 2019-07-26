@@ -25,7 +25,8 @@ zorro
    :versions: 2011.12.01-0
    
    :depends fasttree: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends perl: 
    :requirements:
 
    .. rubric:: Installation

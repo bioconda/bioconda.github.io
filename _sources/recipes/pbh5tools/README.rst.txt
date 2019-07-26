@@ -25,6 +25,7 @@ pbh5tools
    :versions: 0.8.0-2, 0.8.0-1, 0.8.0-0
    
    :depends h5py: >=1.3.0
+   :depends libgcc-ng: >=7.3.0
    :depends numpy: >=1.6.0
    :depends pbcore: >=0.8.0
    :depends python: >=2.7,<2.8.0a0

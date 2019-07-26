@@ -22,11 +22,11 @@ bioconductor-flowfitexampledata
 
    |downloads_bioconductor-flowfitexampledata| |docker_bioconductor-flowfitexampledata|
 
-   :versions: 1.18.0-0
+   :versions: 1.20.0-1, 1.18.0-0
    
-   :depends bioconductor-flowcore: >=1.48.0,<1.49.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
+   :depends bioconductor-flowcore: >=1.50.0,<1.51.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

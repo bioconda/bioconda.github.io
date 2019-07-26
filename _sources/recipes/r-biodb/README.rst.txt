@@ -24,6 +24,7 @@ r-biodb
 
    :versions: 1.2.2-0, 1.2.1-0, 1.2.0-1, 1.2.0rc2-1, 1.2.0rc2-0, 1.2.0a-0, 1.1.0-1, 1.1.0-0, 1.0.2-1, 1.0.2-0
    
+   :depends libstdcxx-ng: >=4.9
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-bitops: 
    :depends r-digest: 

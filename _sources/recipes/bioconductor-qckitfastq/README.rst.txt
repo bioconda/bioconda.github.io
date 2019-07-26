@@ -27,7 +27,8 @@ bioconductor-qckitfastq
    :depends bioconductor-rseqan: >=1.4.0,<1.5.0
    :depends bioconductor-seqtools: >=1.18.0,<1.19.0
    :depends bioconductor-zlibbioc: >=1.30.0,<1.31.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-dplyr: 

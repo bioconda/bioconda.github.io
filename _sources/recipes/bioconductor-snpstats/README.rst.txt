@@ -27,6 +27,7 @@ bioconductor-snpstats
    
    :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
    :depends bioconductor-zlibbioc: >=1.30.0,<1.31.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-matrix: 
    :depends r-survival: 

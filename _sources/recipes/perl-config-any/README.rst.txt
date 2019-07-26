@@ -24,6 +24,7 @@ perl-config-any
 
    :versions: 0.32-1, 0.32-0, 0.27-2, 0.27-1, 0.27-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-app-cpanminus: 
    :requirements:

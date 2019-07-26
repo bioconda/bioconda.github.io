@@ -27,7 +27,8 @@ bioconductor-martini
    :depends bioconductor-rgin: >=1.4.0,<1.5.0
    :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
    :depends bioconductor-snpstats: >=1.34.0,<1.35.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-igraph: >=1.0.1
    :depends r-matrix: 

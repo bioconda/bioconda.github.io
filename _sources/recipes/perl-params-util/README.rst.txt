@@ -24,7 +24,8 @@ perl-params-util
 
    :versions: 1.07-4, 1.07-3, 1.07-2, 1.07-1, 1.07-0
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 

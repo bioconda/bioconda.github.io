@@ -26,7 +26,8 @@ last
    :versions: 982-0, 963-1, 963-0, 941-2, 941-0, 876-0, 874-2, 874-1, 874-0, 847-0, 719-2, 719-1, 638-6, 638-5, 638-4, 638-3, 638-2, 638-1, 490-4, 490-3, 490-2, 490-1
    
    :depends future: 
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends parallel: 
    :depends pillow: 
    :depends python: 

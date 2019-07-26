@@ -27,7 +27,8 @@ fsa
 
    :versions: 1.15.9-0
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

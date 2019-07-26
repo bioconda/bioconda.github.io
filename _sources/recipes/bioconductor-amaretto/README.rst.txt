@@ -22,8 +22,31 @@ bioconductor-amaretto
 
    |downloads_bioconductor-amaretto| |docker_bioconductor-amaretto|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-biocfilecache: >=1.8.0,<1.9.0
+   :depends bioconductor-complexheatmap: >=2.0.0,<2.1.0
+   :depends bioconductor-curatedtcgadata: >=1.6.0,<1.7.0
+   :depends bioconductor-impute: >=1.58.0,<1.59.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-multiassayexperiment: >=1.10.0,<1.11.0
+   :depends libcxx: >=4.0.1
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-callr: >=3.0.0.9001
+   :depends r-circlize: 
+   :depends r-doparallel: 
+   :depends r-dplyr: 
+   :depends r-dt: 
+   :depends r-foreach: 
+   :depends r-glmnet: 
+   :depends r-httr: 
+   :depends r-matrix: 
+   :depends r-matrixstats: 
+   :depends r-rcpp: 
+   :depends r-readr: 
+   :depends r-reshape2: 
+   :depends r-rmarkdown: 
+   :depends r-tibble: 
    :requirements:
 
    .. rubric:: Installation

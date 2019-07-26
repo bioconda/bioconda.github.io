@@ -32,7 +32,8 @@ pygtftk
    :depends cython: 
    :depends ftputil: >=3.3.1,<4.0.0
    :depends future: 
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends matplotlib: >=2.0.2
    :depends mpmath: 
    :depends nose: 

@@ -22,11 +22,11 @@ bioconductor-lungcancerlines
 
    |downloads_bioconductor-lungcancerlines| |docker_bioconductor-lungcancerlines|
 
-   :versions: 0.20.0-0
+   :versions: 0.22.0-1, 0.20.0-0
    
-   :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
+   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

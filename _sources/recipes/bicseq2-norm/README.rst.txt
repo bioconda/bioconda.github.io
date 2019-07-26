@@ -25,6 +25,7 @@ bicseq2-norm
 
    :versions: 0.2.4-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends perl: 
    :depends r-base: 
    :requirements:

@@ -23,11 +23,11 @@ bioconductor-graphite
 
    |downloads_bioconductor-graphite| |docker_bioconductor-graphite|
 
-   :versions: 1.28.2-0, 1.28.1-0, 1.26.3-0, 1.24.0-0, 1.22.0-0, 1.16.0-0
+   :versions: 1.30.0-1, 1.28.2-0, 1.28.1-0, 1.26.3-0, 1.24.0-0, 1.22.0-0, 1.16.0-0
    
-   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   :depends bioconductor-graph: >=1.60.0,<1.61.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-graph: >=1.62.0,<1.63.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-checkmate: 
    :depends r-httr: 
    :depends r-rappdirs: 

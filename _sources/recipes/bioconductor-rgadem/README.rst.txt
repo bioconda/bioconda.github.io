@@ -23,13 +23,13 @@ bioconductor-rgadem
 
    |downloads_bioconductor-rgadem| |docker_bioconductor-rgadem|
 
-   :versions: 2.30.0-0, 2.28.0-0, 2.26.0-0, 2.24.0-0, 2.22.0-0
+   :versions: 2.32.0-1, 2.30.0-0, 2.28.0-0, 2.26.0-0, 2.24.0-0, 2.22.0-0
    
-   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
-   :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   :depends bioconductor-seqlogo: >=1.48.0,<1.49.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-bsgenome: >=1.52.0,<1.53.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-seqlogo: >=1.50.0,<1.51.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

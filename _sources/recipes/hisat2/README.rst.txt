@@ -25,7 +25,8 @@ hisat2
 
    :versions: 2.1.0-3, 2.1.0-2, 2.1.0-1, 2.1.0-0, 2.0.5-2, 2.0.5-1, 2.0.4-1, 2.0.4-0, 2.0.3beta-0, 2.0.2beta-0, 2.0.1beta-0, 2.0.0beta-0
    
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends perl: 
    :depends python: >=2.7,<2.8.0a0
    :requirements:

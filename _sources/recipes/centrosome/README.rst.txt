@@ -25,7 +25,8 @@ centrosome
    :versions: 1.1.6-0
    
    :depends deprecation: 
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends matplotlib: 
    :depends numpy: 
    :depends pillow: 

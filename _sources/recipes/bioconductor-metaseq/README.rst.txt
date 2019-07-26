@@ -26,7 +26,8 @@ bioconductor-metaseq
    :versions: 1.24.0-1, 1.22.1-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
    
    :depends bioconductor-noiseq: >=2.28.0,<2.29.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-rcpp: 
    :depends r-snow: 

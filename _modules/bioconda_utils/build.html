@@ -362,7 +362,7 @@
 
     <span class="c1"># setup linting</span>
     <span class="k">if</span> <span class="n">do_lint</span><span class="p">:</span>
-        <span class="n">always_exclude</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;build_number_needs_bump&#39;</span><span class="p">)</span>
+        <span class="n">always_exclude</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;build_number_needs_bump&#39;</span><span class="p">,)</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">lint_exclude</span><span class="p">:</span>
             <span class="n">lint_exclude</span> <span class="o">=</span> <span class="n">always_exclude</span>
         <span class="k">else</span><span class="p">:</span>

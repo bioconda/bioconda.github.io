@@ -24,6 +24,7 @@ bioconductor-coregnet
 
    :versions: 1.22.0-1, 1.22.0-0, 1.20.0-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends r-arules: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-igraph: 

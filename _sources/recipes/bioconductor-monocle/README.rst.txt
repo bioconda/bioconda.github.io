@@ -23,15 +23,16 @@ bioconductor-monocle
 
    |downloads_bioconductor-monocle| |docker_bioconductor-monocle|
 
-   :versions: 2.10.0-0, 2.8.0-0, 2.6.0-0, 2.4.0-0
+   :versions: 2.12.0-1, 2.10.0-0, 2.8.0-0, 2.6.0-0, 2.4.0-0
    
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends bioconductor-biocviews: >=1.50.0,<1.51.0
-   :depends bioconductor-hsmmsinglecell: >=1.2.0,<1.3.0
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends libcxx: >=4.0.1
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-biocviews: >=1.52.0,<1.53.0
+   :depends bioconductor-hsmmsinglecell: >=1.4.0,<1.5.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-cluster: 
    :depends r-combinat: 
    :depends r-ddrtree: >=0.1.4

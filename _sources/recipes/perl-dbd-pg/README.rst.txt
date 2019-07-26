@@ -24,6 +24,7 @@ perl-dbd-pg
 
    :versions: 3.8.1-0, 3.8.0-0, 3.7.4-0, 3.5.3-1, 3.5.3-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends libpq: >=11.4,<12.0a0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-dbi: 

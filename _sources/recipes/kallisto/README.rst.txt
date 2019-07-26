@@ -26,7 +26,8 @@ kallisto
    :versions: 0.46.0-0, 0.45.1-0, 0.45.0-0, 0.44.0-2, 0.44.0-1, 0.43.1-1, 0.43.1-0, 0.43.0-2, 0.43.0-1, 0.42.4-2, 0.42.4-1, 0.42.3-1, 0.42.3-0
    
    :depends hdf5: >=1.10.4,<1.10.5.0a0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

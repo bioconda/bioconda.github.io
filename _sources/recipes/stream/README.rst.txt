@@ -26,8 +26,9 @@ stream
    
    :depends anndata: 
    :depends gunicorn: 
-   :depends libcxx: >=4.0.1
-   :depends libgfortran: >=3.0.1,<4.0.0.a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libgfortran-ng: >=7,<8.0a0
+   :depends libstdcxx-ng: >=7.3.0
    :depends matplotlib: 3.0.2.*
    :depends networkx: 2.1.*
    :depends numpy: 

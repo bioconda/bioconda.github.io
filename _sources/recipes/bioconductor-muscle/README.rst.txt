@@ -25,7 +25,8 @@ bioconductor-muscle
    :versions: 3.26.0-1, 3.24.0-0
    
    :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

@@ -22,7 +22,7 @@ dcplib
 
    |downloads_dcplib| |docker_dcplib|
 
-   :versions: 2.0.3-0
+   :versions: 2.1.1-0, 2.0.3-0
    
    :depends boto3: >=1.7.13
    :depends crc32c: 

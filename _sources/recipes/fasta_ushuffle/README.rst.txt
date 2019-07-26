@@ -24,6 +24,7 @@ fasta_ushuffle
 
    :versions: 0.2-1, 0.2-0
    
+   :depends libgcc-ng: >=4.9
    :requirements:
 
    .. rubric:: Installation

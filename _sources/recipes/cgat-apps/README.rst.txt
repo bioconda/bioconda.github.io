@@ -31,8 +31,9 @@ cgat-apps
    :depends coreutils: 
    :depends future: 
    :depends grep: 
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
    :depends libpng: >=1.6.35,<1.7.0a0
+   :depends libstdcxx-ng: >=7.3.0
    :depends matplotlib: 
    :depends numpy: >=1.9.3,<2.0a0
    :depends pandas: 

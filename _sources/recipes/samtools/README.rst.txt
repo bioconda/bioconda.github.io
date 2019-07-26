@@ -28,6 +28,7 @@ samtools
    :depends bzip2: >=1.0.6,<2.0a0
    :depends curl: >=7.64.0,<8.0a0
    :depends libdeflate: >=1.0,<1.1.0a0
+   :depends libgcc-ng: >=7.3.0
    :depends ncurses: >=6.1,<6.2.0a0
    :depends openssl: >=1.1.1a,<1.1.2a
    :depends xz: >=5.2.4,<5.3.0a0

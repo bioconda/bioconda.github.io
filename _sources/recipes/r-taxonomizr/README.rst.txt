@@ -24,6 +24,7 @@ r-taxonomizr
 
    :versions: 0.5.3-0, 0.5.1-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends parallel: 
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-data.table: 

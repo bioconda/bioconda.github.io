@@ -25,6 +25,7 @@ bioconductor-vega
 
    :versions: 1.32.0-1, 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.26.0-0, 1.24.0-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

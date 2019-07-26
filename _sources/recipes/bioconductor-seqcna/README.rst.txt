@@ -22,15 +22,15 @@ bioconductor-seqcna
 
    |downloads_bioconductor-seqcna| |docker_bioconductor-seqcna|
 
-   :versions: 1.30.0-0
+   :versions: 1.30.0-1, 1.30.0-0
    
    :depends bioconductor-glad: >=2.48.0,<2.49.0
    :depends bioconductor-seqcna.annot: >=1.20.0,<1.21.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-adehabitatlt: >=0.3.4
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-dosnow: >=1.0.5
-   :depends samtools: 
    :requirements:
 
    .. rubric:: Installation

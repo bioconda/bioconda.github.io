@@ -24,6 +24,7 @@ perl-pod-elemental
 
    :versions: 0.103004-3, 0.103004-2, 0.103004-1, 0.103004-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-app-cpanminus: 
    :depends perl-mixin-linewise: 

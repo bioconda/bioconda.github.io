@@ -24,6 +24,7 @@ soapaligner
 
    :versions: 2.21-0
    
+   :depends libgcc: 
    :depends zlib: 1.2.11*
    :requirements:
 
