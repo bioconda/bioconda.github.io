@@ -23,11 +23,11 @@ bioconductor-sscore
 
    |downloads_bioconductor-sscore| |docker_bioconductor-sscore|
 
-   :versions: 1.54.0-0, 1.52.0-0, 1.50.0-0, 1.48.0-0
+   :versions: 1.56.0-1, 1.54.0-0, 1.52.0-0, 1.50.0-0, 1.48.0-0
    
-   :depends bioconductor-affy: >=1.60.0,<1.61.0
-   :depends bioconductor-affyio: >=1.52.0,<1.53.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-affy: >=1.62.0,<1.63.0
+   :depends bioconductor-affyio: >=1.54.0,<1.55.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

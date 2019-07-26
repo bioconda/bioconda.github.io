@@ -29,7 +29,6 @@ mockinbird
    :depends bowtie: 
    :depends fastqc: 
    :depends jinja2: 
-   :depends libgcc-ng: >=7.3.0
    :depends matplotlib: 
    :depends numpy: 
    :depends pandas: 

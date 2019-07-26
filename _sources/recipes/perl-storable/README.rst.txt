@@ -24,7 +24,6 @@ perl-storable
 
    :versions: 3.15-0, 3.11-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-xsloader: 
    :requirements:

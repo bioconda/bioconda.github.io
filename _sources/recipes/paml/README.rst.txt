@@ -25,7 +25,6 @@ paml
 
    :versions: 4.9-4, 4.9-3, 4.9-2, 4.9-1, 4.9-0
    
-   :depends libgcc-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

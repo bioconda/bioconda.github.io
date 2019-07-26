@@ -27,7 +27,6 @@ sonicparanoid
    
    :depends biopython: >=1.67
    :depends cython: >=0.27.0
-   :depends libstdcxx-ng: >=4.9
    :depends make: 
    :depends mmseqs2: 6.f5a1c
    :depends numpy: >=1.13.0

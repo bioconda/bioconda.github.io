@@ -24,7 +24,7 @@ booster
 
    :versions: 0.1.2-0
    
-   :depends libgcc-ng: >=7.3.0
+   :depends llvm-openmp: 
    :requirements:
 
    .. rubric:: Installation

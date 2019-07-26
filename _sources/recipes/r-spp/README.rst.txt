@@ -26,8 +26,7 @@ r-spp
    :versions: 1.16.0-0, 1.15.5-2, 1.15.5-1, 1.15.5-0, 1.15.2-0, 1.14post-0, 1.14-0, 1.13-0, 1.11-0
    
    :depends bioconductor-rsamtools: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-bh: >=1.66
    :depends r-catools: 

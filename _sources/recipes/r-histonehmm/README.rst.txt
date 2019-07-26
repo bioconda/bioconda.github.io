@@ -28,9 +28,8 @@ r-histonehmm
    :depends bioconductor-biocstyle: 
    :depends bioconductor-genomicranges: 
    :depends bioconductor-rsamtools: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libgfortran-ng: >=7,<8.0a0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
+   :depends libgfortran: >=3.0.1,<4.0.0.a0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-mvtnorm: 
    :depends r-optparse: 

@@ -22,10 +22,10 @@ bioconductor-bearscc
 
    |downloads_bioconductor-bearscc| |docker_bioconductor-bearscc|
 
-   :versions: 1.2.0-0
+   :versions: 1.4.0-1, 1.2.0-0
    
-   :depends bioconductor-singlecellexperiment: >=1.4.0,<1.5.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-ggplot2: 
    :requirements:

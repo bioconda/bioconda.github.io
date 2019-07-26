@@ -22,8 +22,23 @@ bioconductor-sracipe
 
    |downloads_bioconductor-sracipe| |docker_bioconductor-sracipe|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends libcxx: >=4.0.1
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-ggplot2: 
+   :depends r-gplots: 
+   :depends r-gridextra: 
+   :depends r-htmlwidgets: 
+   :depends r-mass: 
+   :depends r-rcolorbrewer: 
+   :depends r-rcpp: 
+   :depends r-reshape2: 
+   :depends r-umap: 
+   :depends r-visnetwork: 
    :requirements:
 
    .. rubric:: Installation

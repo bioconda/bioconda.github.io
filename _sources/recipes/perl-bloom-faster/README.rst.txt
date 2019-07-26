@@ -24,7 +24,6 @@ perl-bloom-faster
 
    :versions: 1.7-2, 1.7-1, 1.7-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 

@@ -24,8 +24,8 @@ msisensor-pro
 
    :versions: 0.1.1-0, 0.0.1-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
+   :depends llvm-openmp: 
    :depends ncurses: >=6.1,<6.2.0a0
    :depends openmp: 
    :depends zlib: >=1.2.11,<1.3.0a0

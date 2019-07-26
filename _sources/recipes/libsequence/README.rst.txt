@@ -24,8 +24,7 @@ libsequence
 
    :versions: 1.9.8-0, 1.9.7-0, 1.9.6-0, 1.9.5-0, 1.9.4-0, 1.9.3-0, 1.9.2-2, 1.9.2-1, 1.9.2-0, 1.9.1-1, 1.9.0-1, 1.9.0-0, 1.8.4-2, 1.8.4-1, 1.8.4-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :requirements:
 
    .. rubric:: Installation

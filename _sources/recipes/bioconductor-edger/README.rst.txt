@@ -26,8 +26,7 @@ bioconductor-edger
    :versions: 3.26.5-0, 3.26.0-0, 3.24.3-0, 3.24.1-0, 3.22.5-0, 3.20.7-0, 3.20.1-0, 3.20.0-0, 3.18.1-0, 3.16.5-0, 3.14.0-1, 3.14.0-0, 3.12.1-1, 3.12.1-0, 3.12.0-0, 3.10.5-0
    
    :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-locfit: 
    :depends r-rcpp: 

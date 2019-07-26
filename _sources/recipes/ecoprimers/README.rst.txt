@@ -24,7 +24,6 @@ ecoprimers
 
    :versions: 1.0-2, 1.0-1, 1.0-0
    
-   :depends libgcc-ng: >=4.9
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

@@ -25,8 +25,7 @@ r-grain
    :versions: 1.3_0-0
    
    :depends bioconductor-graph: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-functional: 
    :depends r-grbase: >=1.7_2

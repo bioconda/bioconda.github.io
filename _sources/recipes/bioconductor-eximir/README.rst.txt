@@ -23,14 +23,14 @@ bioconductor-eximir
 
    |downloads_bioconductor-eximir| |docker_bioconductor-eximir|
 
-   :versions: 2.24.0-0, 2.22.0-0, 2.20.0-0
+   :versions: 2.26.0-1, 2.24.0-0, 2.22.0-0, 2.20.0-0
    
-   :depends bioconductor-affy: >=1.60.0,<1.61.0
-   :depends bioconductor-affyio: >=1.52.0,<1.53.0
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-affy: >=1.62.0,<1.63.0
+   :depends bioconductor-affyio: >=1.54.0,<1.55.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-preprocesscore: >=1.46.0,<1.47.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

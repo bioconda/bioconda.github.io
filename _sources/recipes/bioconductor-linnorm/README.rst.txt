@@ -25,8 +25,7 @@ bioconductor-linnorm
    :versions: 2.8.0-1, 2.8.0-0, 2.6.1-0, 2.6.0-0
    
    :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-amap: 
    :depends r-apcluster: 
    :depends r-base: >=3.6,<3.7.0a0

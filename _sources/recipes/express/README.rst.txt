@@ -24,8 +24,6 @@ express
 
    :versions: 1.5.1-1, 1.5.1-0
    
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

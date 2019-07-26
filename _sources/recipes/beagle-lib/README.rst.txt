@@ -24,8 +24,7 @@ beagle-lib
 
    :versions: 3.1.2-1, 3.1.2-0, 3.1.1-0, 3.1.0-0, 3.0.2-0, 2.1.2-7, 2.1.2-6, 2.1.2-5, 2.1.2-4, 2.1.2-3, 2.1.2-2, 2.1.2-1
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends libtool: 
    :depends openjdk: 
    :requirements:

@@ -27,8 +27,7 @@ ncbi-amrfinderplus
    :depends blast: >=2.9
    :depends hmmer: >=3.2
    :depends libcurl: >=7.64.1,<8.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :requirements:
 
    .. rubric:: Installation

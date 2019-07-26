@@ -24,8 +24,7 @@ r-oai
 
    :versions: 0.2.2-3, 0.2.2-2, 0.2.2-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-httr: >=1.2.0
    :depends r-plyr: >=1.8.4

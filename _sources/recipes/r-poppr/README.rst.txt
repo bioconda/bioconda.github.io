@@ -24,7 +24,6 @@ r-poppr
 
    :versions: 2.8.2-0, 2.8.1-1, 2.8.1-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends r-ade4: 
    :depends r-adegenet: 
    :depends r-ape: 

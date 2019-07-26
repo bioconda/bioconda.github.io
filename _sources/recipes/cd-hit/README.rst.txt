@@ -24,8 +24,8 @@ cd-hit
 
    :versions: 4.8.1-2, 4.8.1-1, 4.8.1-0, 4.6.8-2, 4.6.8-1, 4.6.8-0, 4.6.6-0, 4.6.4-1, 4.6.4-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
+   :depends llvm-openmp: 
    :depends openmp: 
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:

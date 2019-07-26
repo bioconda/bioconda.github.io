@@ -24,7 +24,6 @@ perl-sanger-cgp-vcf
 
    :versions: 2.2.1-3, 2.2.1-2, 2.2.1-1, 2.2.1-0, 1.3.1-3, 1.3.1-2, 1.3.1-1, 1.3.1-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-const-fast: 
    :depends perl-data-uuid: 

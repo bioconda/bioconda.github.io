@@ -31,8 +31,7 @@ spaln
 
    :versions: 2.3.3-0, 2.3.3c-0, 2.3.3b-0, 2.3.3a-0, 2.3.2-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:

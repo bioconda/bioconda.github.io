@@ -27,7 +27,6 @@ bioconductor-sspa
    
    :depends bioconductor-limma: >=3.40.0,<3.41.0
    :depends bioconductor-qvalue: >=2.16.0,<2.17.0
-   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-lattice: 
    :requirements:

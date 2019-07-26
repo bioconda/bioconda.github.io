@@ -22,7 +22,7 @@ nullarbor
 
    |downloads_nullarbor| |docker_nullarbor|
 
-   :versions: 2.0.20181010-4, 2.0.20181010-2
+   :versions: 2.0.20181010-5, 2.0.20181010-4, 2.0.20181010-2
    
    :depends abricate: >=0.8
    :depends bwa: >=0.7.17
@@ -33,6 +33,7 @@ nullarbor
    :depends kraken: >=1.1
    :depends kraken2: 
    :depends lighter: >=1.1
+   :depends make: 
    :depends mash: >=2.1
    :depends megahit: >=1.1
    :depends mlst: >=2.1

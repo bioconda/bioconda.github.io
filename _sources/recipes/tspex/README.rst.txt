@@ -22,12 +22,13 @@ tspex
 
    |downloads_tspex| |docker_tspex|
 
-   :versions: 0.5.1-0, 0.5.0-0, 0.4.0-0, 0.3.1-0, 0.3.0-0, 0.2.0-0, 0.1.1-0
+   :versions: 0.6.0-0, 0.5.1-0, 0.5.0-0, 0.4.0-0, 0.3.1-0, 0.3.0-0, 0.2.0-0, 0.1.1-0
    
    :depends matplotlib: >=2.2
    :depends numpy: 
    :depends pandas: >=0.23
    :depends python: >=3
+   :depends xlrd: >=1.1.0
    :requirements:
 
    .. rubric:: Installation

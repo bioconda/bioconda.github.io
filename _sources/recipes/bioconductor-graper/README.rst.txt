@@ -24,8 +24,7 @@ bioconductor-graper
 
    :versions: 1.0.0-1
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-bh: 
    :depends r-cowplot: 

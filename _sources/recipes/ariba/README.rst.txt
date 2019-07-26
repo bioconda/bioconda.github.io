@@ -30,8 +30,7 @@ ariba
    :depends bowtie2: >=2.3.1
    :depends cd-hit: >=4.6.5
    :depends dendropy: >=4.2.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends matplotlib: >=3.1.0
    :depends mummer: >=3.23
    :depends pyfastaq: >=3.12.0

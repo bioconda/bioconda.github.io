@@ -26,8 +26,7 @@ unifrac
    
    :depends biom-format: 
    :depends h5py: >=2.9.0,<3.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends numpy: >=1.16.4,<2.0a0
    :depends python: >=3.6,<3.7.0a0
    :depends scikit-bio: >=0.5.1

@@ -22,10 +22,9 @@ r-gwasexacthw
 
    |downloads_r-gwasexacthw| |docker_r-gwasexacthw|
 
-   :versions: 1.01-0
+   :versions: 1.01-1, 1.01-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -35,8 +35,7 @@ bioconductor-descan2
    :depends bioconductor-rtracklayer: >=1.42.0,<1.43.0
    :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
    :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-data.table: 
    :depends r-glue: 

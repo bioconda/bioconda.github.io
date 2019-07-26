@@ -25,7 +25,6 @@ pymvpa
 
    :versions: 2.6.5-0, 2.6.4-0, 2.6.0-2, 2.6.0-1, 2.6.0-0
    
-   :depends libgcc-ng: >=4.9
    :depends libsvm: >=3.21,<3.22.0a0
    :depends matplotlib: 
    :depends numpy: 

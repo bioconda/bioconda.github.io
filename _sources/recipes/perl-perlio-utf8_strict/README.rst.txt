@@ -24,8 +24,7 @@ perl-perlio-utf8_strict
 
    :versions: 0.007-1, 0.007-0, 0.006-1, 0.006-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-xsloader: 
    :requirements:

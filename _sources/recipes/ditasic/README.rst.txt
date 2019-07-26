@@ -26,7 +26,6 @@ ditasic
    
    :depends biopython: >=1.70
    :depends kallisto: >=0.43.1
-   :depends libgcc-ng: >=4.9
    :depends mason: >=2.0.7
    :depends numpy: >=1.8.0
    :depends python: >=3.7,<3.8.0a0

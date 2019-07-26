@@ -26,12 +26,11 @@ gromacs
    :versions: 2019.1-2, 2019.1-1, 2019.1-0, 2019-0, 2018.6-1, 2018.6-0, 2018.5-0, 2018.4-0, 2018.3-0, 2018.2-0, 2018-3, 2018-2, 2018-1, 2018-0, 4.6.5-0
    
    :depends fftw: 
-   :depends libgcc-ng: >=7.3.0
+   :depends khronos-opencl-icd-loader: 
+   :depends libcxx: >=4.0.1
    :depends libhwloc: 2.*
    :depends libhwloc: >=2.0.3,<2.0.4.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends ocl-icd: 
-   :depends openmp: 
+   :depends ocl_icd_wrapper_apple: 
    :requirements:
 
    .. rubric:: Installation

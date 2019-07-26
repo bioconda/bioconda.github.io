@@ -22,8 +22,9 @@ scanpy-scripts
 
    |downloads_scanpy-scripts| |docker_scanpy-scripts|
 
-   :versions: 0.2.2-0, 0.0.5-2, 0.0.5-1, 0.0.5-0, 0.0.4-2, 0.0.4-1, 0.0.3-1, 0.0.2-0
+   :versions: 0.2.4-0, 0.2.2-0, 0.0.5-2, 0.0.5-1, 0.0.5-0, 0.0.4-2, 0.0.4-1, 0.0.3-1, 0.0.2-0
    
+   :depends anndata: <0.6.20
    :depends click: 
    :depends leidenalg: 
    :depends loompy: 
@@ -32,7 +33,7 @@ scanpy-scripts
    :depends multicore-tsne: 
    :depends pandas: 
    :depends python: >=3
-   :depends scanpy: >=1.4.2
+   :depends scanpy: >=1.4.2,<1.4.4
    :depends scipy: >=1.2.0,<1.3.0
    :requirements:
 

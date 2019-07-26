@@ -26,8 +26,7 @@ ncbi-amr
    
    :depends blast: 
    :depends hmmer: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends perl: 
    :requirements:
 

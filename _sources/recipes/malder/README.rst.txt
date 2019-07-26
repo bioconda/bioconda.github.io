@@ -28,9 +28,9 @@ malder
    :depends fftw: 
    :depends gsl: >=2.2.1,<2.3.0a0
    :depends lapack: 
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libcxx: 4.0.*
    :depends openblas: >=0.2.20,<0.2.21.0a0
+   :depends openmp: 4.0.*
    :requirements:
 
    .. rubric:: Installation

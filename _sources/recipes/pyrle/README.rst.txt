@@ -25,7 +25,6 @@ pyrle
    :versions: 0.0.24-0, 0.0.23-0
    
    :depends cython: 
-   :depends libgcc-ng: >=7.3.0
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 

@@ -27,8 +27,7 @@ capc-map
    :depends biopython: >=1.70
    :depends bowtie: >=1.1.1
    :depends cutadapt: >=1.11
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends numpy: 
    :depends python: >=2.7,<2.8.0a0
    :depends samtools: >=1.3.1

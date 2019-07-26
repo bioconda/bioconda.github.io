@@ -26,8 +26,7 @@ bioconductor-ebimage
    :versions: 4.26.0-1, 4.24.0-0, 4.22.1-0, 4.20.0-0, 4.18.3-0, 4.13.0-0, 4.12.2-0
    
    :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-abind: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-fftwtools: >=0.9-7

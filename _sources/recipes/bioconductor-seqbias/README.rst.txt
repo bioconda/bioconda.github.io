@@ -22,15 +22,13 @@ bioconductor-seqbias
 
    |downloads_bioconductor-seqbias| |docker_bioconductor-seqbias|
 
-   :versions: 1.30.0-0
+   :versions: 1.32.0-1, 1.30.0-0
    
-   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
-   :depends bioconductor-zlibbioc: >=1.28.0,<1.29.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-rhtslib: >=1.16.0,<1.17.0
+   :depends libcxx: >=4.0.1
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

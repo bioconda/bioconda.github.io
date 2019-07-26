@@ -27,7 +27,6 @@ bioconductor-iranges
    
    :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
    :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

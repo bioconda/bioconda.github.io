@@ -26,8 +26,7 @@ bioconductor-depecher
    
    :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
    :depends bioconductor-mixomics: >=6.8.0,<6.9.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-beanplot: >=1.2
    :depends r-dosnow: >=1.0.16

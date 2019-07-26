@@ -33,7 +33,6 @@ ddocent
    :depends freebayes: 
    :depends gnuplot: 
    :depends grep: 
-   :depends libgcc-ng: >=7.3.0
    :depends mawk: 
    :depends parallel: 
    :depends pear: 

@@ -28,7 +28,6 @@ bioconductor-oppar
    :depends bioconductor-biobase: >=2.42.0,<2.43.0
    :depends bioconductor-gseabase: >=1.44.0,<1.45.0
    :depends bioconductor-gsva: >=1.30.0,<1.31.0
-   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :requirements:
 

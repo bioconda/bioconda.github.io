@@ -22,8 +22,30 @@ bioconductor-scmerge
 
    |downloads_bioconductor-scmerge| |docker_bioconductor-scmerge|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-m3drop: >=1.10.0,<1.11.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends libcxx: >=4.0.1
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-cluster: 
+   :depends r-distr: 
+   :depends r-dosnow: 
+   :depends r-foreach: 
+   :depends r-igraph: 
+   :depends r-irlba: 
+   :depends r-iterators: 
+   :depends r-matrixstats: 
+   :depends r-pdist: 
+   :depends r-proxy: 
+   :depends r-rcpp: >=0.12.18
+   :depends r-rcppeigen: >=0.3.3.4.0
+   :depends r-rsvd: 
+   :depends r-ruv: 
+   :depends r-testthat: 
    :requirements:
 
    .. rubric:: Installation

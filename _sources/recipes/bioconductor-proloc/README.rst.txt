@@ -31,8 +31,7 @@ bioconductor-proloc
    :depends bioconductor-biomart: >=2.38.0,<2.39.0
    :depends bioconductor-mlinterfaces: >=1.62.0,<1.63.0
    :depends bioconductor-msnbase: >=2.8.0,<2.9.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-caret: 
    :depends r-class: 

@@ -25,7 +25,6 @@ abawaca
 
    :versions: 1.00-1, 1.00-0
    
-   :depends libstdcxx-ng: >=4.9
    :requirements:
 
    .. rubric:: Installation

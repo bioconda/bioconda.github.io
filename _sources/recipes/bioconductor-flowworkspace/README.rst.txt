@@ -35,8 +35,7 @@ bioconductor-flowworkspace
    :depends bioconductor-rbgl: >=1.58.0,<1.59.0
    :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
    :depends bioconductor-rprotobuflib: >=1.4.0,<1.5.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-bh: >=1.62.0-1
    :depends r-data.table: 

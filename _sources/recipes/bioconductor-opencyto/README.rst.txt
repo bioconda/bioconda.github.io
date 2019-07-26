@@ -34,8 +34,7 @@ bioconductor-opencyto
    :depends bioconductor-graph: >=1.60.0,<1.61.0
    :depends bioconductor-ncdfflow: >=2.28.0,<2.29.0
    :depends bioconductor-rbgl: >=1.58.0,<1.59.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-clue: 
    :depends r-data.table: 

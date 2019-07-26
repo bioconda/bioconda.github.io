@@ -26,8 +26,7 @@ r-sew
    
    :depends coreutils: 
    :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.5.1,<3.5.2.0a0
    :depends r-data.table: >=1.11.8
    :depends r-rcpp: >=0.12.18

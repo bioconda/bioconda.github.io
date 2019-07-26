@@ -27,8 +27,7 @@ bioconductor-transite
    :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
    :depends bioconductor-biostrings: >=2.52.0,<2.53.0
    :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: >=0.7.6
    :depends r-ggplot2: >=3.0.0

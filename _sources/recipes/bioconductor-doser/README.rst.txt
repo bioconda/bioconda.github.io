@@ -22,8 +22,17 @@ bioconductor-doser
 
    |downloads_bioconductor-doser| |docker_bioconductor-doser|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-edger: >=3.26.0,<3.27.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-digest: 
+   :depends r-lme4: 
+   :depends r-matrixstats: 
+   :depends r-mclust: 
+   :depends r-runit: 
    :requirements:
 
    .. rubric:: Installation

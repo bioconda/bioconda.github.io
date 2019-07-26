@@ -27,7 +27,6 @@ genomedata
    
    :depends bedtools: 
    :depends hdf5: >=1.10.4,<1.10.5.0a0
-   :depends libgcc-ng: >=7.3.0
    :depends path.py: 
    :depends pytables: >=3.4.3
    :depends python: >=2.7,<2.8.0a0

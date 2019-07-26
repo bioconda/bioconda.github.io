@@ -24,7 +24,6 @@ ucsc-psltopslx
 
    :versions: 377-0, 366-0, 357-2, 357-1, 357-0, 332-0, 324-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends libpng: >=1.6.35,<1.7.0a0
    :depends libuuid: >=2.32.1,<3.0a0
    :depends mysql-connector-c: >=6.1.11,<6.1.12.0a0

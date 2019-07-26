@@ -24,8 +24,7 @@ perl-digest-sha1
 
    :versions: 2.13-1, 2.13-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 

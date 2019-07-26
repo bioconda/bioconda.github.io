@@ -25,7 +25,7 @@ pfam_scan
    :versions: 1.6-2, 1.6-1, 1.6-0
    
    :depends hmmer: >=3.0
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: >=5.26.0,<5.27.0a0
    :depends perl-bioperl: >=1.4
    :depends perl-ipc-run: 
    :depends perl-moose: 

@@ -23,12 +23,12 @@ bioconductor-qusage
 
    |downloads_bioconductor-qusage| |docker_bioconductor-qusage|
 
-   :versions: 2.16.1-0, 2.16.0-0, 2.14.0-0, 2.12.0-0, 2.10.0-0
+   :versions: 2.18.0-1, 2.16.1-0, 2.16.0-0, 2.14.0-0, 2.12.0-0, 2.10.0-0
    
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends r-lsmeans: 
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-emmeans: 
    :depends r-nlme: 
    :requirements:
 

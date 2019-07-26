@@ -29,7 +29,6 @@ crispresso2
    :depends bowtie2: 
    :depends flash: 
    :depends jinja2: 
-   :depends libgcc-ng: >=7.3.0
    :depends matplotlib: >=1.3.1
    :depends networkx: 2.2.*
    :depends numpy: >=1.9

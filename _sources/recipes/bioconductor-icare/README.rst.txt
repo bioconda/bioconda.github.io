@@ -24,7 +24,6 @@ bioconductor-icare
 
    :versions: 1.12.0-1, 1.12.0-0, 1.10.3-0, 1.10.2-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-gtools: 
    :depends r-hmisc: 
