@@ -6,14 +6,14 @@
 fasta-splitter
 ==============
 
-.. conda:recipe:: fasta-splitter/0.2.4
+.. conda:recipe:: fasta-splitter
    :replaces_section_title:
 
    Divides a large FASTA file into a set of smaller\, approximately equally sized files
 
    :homepage: http://kirill-kryukov.com/study/tools/fasta-splitter/
    :license: zlib/libpng
-   :recipe: /`fasta-splitter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fasta-splitter>`_/`0.2.4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fasta-splitter/0.2.4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fasta-splitter/0.2.4/meta.yaml>`_
+   :recipe: /`fasta-splitter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fasta-splitter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fasta-splitter/meta.yaml>`_
 
    
 
@@ -22,7 +22,7 @@ fasta-splitter
 
    |downloads_fasta-splitter| |docker_fasta-splitter|
 
-   :versions: 0.2.4-1, 0.2.4-0
+   :versions: 0.2.6-0, 0.2.4-1, 0.2.4-0
    
    :depends perl: 
    :depends perl-file-util: 

@@ -23,23 +23,24 @@ bioconductor-flowworkspace
 
    |downloads_bioconductor-flowworkspace| |docker_bioconductor-flowworkspace|
 
-   :versions: 3.30.2-0, 3.30.1-0, 3.28.2-0, 3.26.2-0, 3.24.4-0
+   :versions: 3.32.0-1, 3.30.2-0, 3.30.1-0, 3.28.2-0, 3.26.2-0, 3.24.4-0
    
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends bioconductor-cytolib: >=1.4.0,<1.5.0
-   :depends bioconductor-flowcore: >=1.48.0,<1.49.0
-   :depends bioconductor-flowviz: >=1.46.0,<1.47.0
-   :depends bioconductor-graph: >=1.60.0,<1.61.0
-   :depends bioconductor-ncdfflow: >=2.28.0,<2.29.0
-   :depends bioconductor-rbgl: >=1.58.0,<1.59.0
-   :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
-   :depends bioconductor-rprotobuflib: >=1.4.0,<1.5.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-cytolib: >=1.6.0,<1.7.0
+   :depends bioconductor-flowcore: >=1.50.0,<1.51.0
+   :depends bioconductor-flowviz: >=1.48.0,<1.49.0
+   :depends bioconductor-graph: >=1.62.0,<1.63.0
+   :depends bioconductor-ncdfflow: >=2.30.0,<2.31.0
+   :depends bioconductor-rbgl: >=1.60.0,<1.61.0
+   :depends bioconductor-rgraphviz: >=2.28.0,<2.29.0
+   :depends bioconductor-rprotobuflib: >=1.6.0,<1.7.0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-bh: >=1.62.0-1
    :depends r-data.table: 
+   :depends r-digest: 
    :depends r-dplyr: 
    :depends r-gridextra: 
    :depends r-lattice: 
@@ -47,9 +48,9 @@ bioconductor-flowworkspace
    :depends r-matrixstats: 
    :depends r-rcolorbrewer: 
    :depends r-rcpp: 
+   :depends r-rcppparallel: 
    :depends r-scales: 
    :depends r-stringr: 
-   :depends r-xml: 
    :requirements:
 
    .. rubric:: Installation

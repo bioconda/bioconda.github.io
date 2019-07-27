@@ -23,14 +23,14 @@ r-syntactic
 
    |downloads_r-syntactic| |docker_r-syntactic|
 
-   :versions: 0.1.10-0, 0.1.9-0, 0.1.5-0, 0.1.4-0
+   :versions: 0.2.0-0, 0.1.10-0, 0.1.9-0, 0.1.5-0, 0.1.4-0
    
    :depends bioconductor-genomicranges: 
    :depends bioconductor-s4vectors: 
    :depends bioconductor-summarizedexperiment: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends r-bioverbs: >=0.1.10
-   :depends r-goalie: >=0.2.12
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-bioverbs: >=0.2.0
+   :depends r-goalie: >=0.2.18
    :depends r-matrix: 
    :requirements:
 
