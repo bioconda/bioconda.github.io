@@ -33,7 +33,8 @@ bioconductor-xcms
    :depends bioconductor-mzr: >=2.18.0,<2.19.0
    :depends bioconductor-protgenerics: >=1.16.0,<1.17.0
    :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-lattice: 
    :depends r-plyr: 

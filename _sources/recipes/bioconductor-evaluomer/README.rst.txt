@@ -22,8 +22,14 @@ bioconductor-evaluomer
 
    |downloads_bioconductor-evaluomer| |docker_bioconductor-evaluomer|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-multiassayexperiment: >=1.10.0,<1.11.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-cluster: >=2.0.7-1
+   :depends r-corrplot: >=0.84
+   :depends r-rdpack: 
    :requirements:
 
    .. rubric:: Installation

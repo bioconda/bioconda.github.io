@@ -29,6 +29,7 @@ bioconductor-turbonorm
    :depends bioconductor-convert: >=1.60.0,<1.61.0
    :depends bioconductor-limma: >=3.40.0,<3.41.0
    :depends bioconductor-marray: >=1.62.0,<1.63.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-lattice: 
    :requirements:

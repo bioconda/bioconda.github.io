@@ -31,6 +31,7 @@ bioconductor-affyplm
    :depends bioconductor-gcrma: >=2.56.0,<2.57.0
    :depends bioconductor-preprocesscore: >=1.46.0,<1.47.0
    :depends bioconductor-zlibbioc: >=1.30.0,<1.31.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

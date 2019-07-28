@@ -23,10 +23,10 @@ bioconductor-metab
 
    |downloads_bioconductor-metab| |docker_bioconductor-metab|
 
-   :versions: 1.16.1-0, 1.12.0-0
+   :versions: 1.18.0-1, 1.16.1-0, 1.12.0-0
    
-   :depends bioconductor-xcms: >=3.4.0,<3.5.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-xcms: >=3.6.0,<3.7.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-pander: 
    :depends r-svdialogs: 
    :requirements:

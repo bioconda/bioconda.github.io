@@ -22,8 +22,22 @@ bioconductor-cellbench
 
    |downloads_bioconductor-cellbench| |docker_bioconductor-cellbench|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-biocfilecache: >=1.8.0,<1.9.0
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-dplyr: 
+   :depends r-glue: 
+   :depends r-lubridate: 
+   :depends r-magrittr: 
+   :depends r-memoise: 
+   :depends r-purrr: >=0.3.0
+   :depends r-rappdirs: 
+   :depends r-rlang: 
+   :depends r-tibble: 
+   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation

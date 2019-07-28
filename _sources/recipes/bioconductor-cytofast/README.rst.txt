@@ -22,8 +22,16 @@ bioconductor-cytofast
 
    |downloads_bioconductor-cytofast| |docker_bioconductor-cytofast|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-flowcore: >=1.50.0,<1.51.0
+   :depends bioconductor-flowsom: >=1.16.0,<1.17.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-ggplot2: 
+   :depends r-ggridges: 
+   :depends r-rcolorbrewer: 
+   :depends r-rdpack: 
+   :depends r-reshape2: 
    :requirements:
 
    .. rubric:: Installation

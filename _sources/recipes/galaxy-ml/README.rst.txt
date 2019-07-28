@@ -22,27 +22,25 @@ galaxy-ml
 
    |downloads_galaxy-ml| |docker_galaxy-ml|
 
-   :versions: 0.7.8-0, 0.7.7-1, 0.7.7-0, 0.7.5-0, 0.7.4.1-0
+   :versions: 0.7.9-0, 0.7.8-0, 0.7.7-1, 0.7.7-0, 0.7.5-0, 0.7.4.1-0
    
-   :depends asteval: >=0.9.13
-   :depends cudatoolkit: 10.0.130
-   :depends cudnn: 7.6.0
+   :depends asteval: 0.9.13
    :depends imbalanced-learn: 0.4.3
-   :depends joblib: >=0.13.2
+   :depends joblib: 0.13.2
    :depends keras: 2.2.4
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends mlxtend: 0.16.0
-   :depends numpy: >=1.15.1
+   :depends numpy: 1.16.4
    :depends pandas: 0.24.2
    :depends pyfaidx: 
    :depends pytabix: 
    :depends python: >=3.6,<3.7.0a0
    :depends scikit-learn: 0.20.3
-   :depends scipy: >=1.2.1
+   :depends scipy: 1.3.0
    :depends skrebate: 0.6
    :depends tabix: 
-   :depends tensorflow-gpu: 1.13.1
+   :depends tensorflow: 1.13.1
    :depends xgboost: 0.80
    :requirements:
 

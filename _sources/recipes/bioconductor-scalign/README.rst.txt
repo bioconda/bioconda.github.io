@@ -22,8 +22,17 @@ bioconductor-scalign
 
    |downloads_bioconductor-scalign| |docker_bioconductor-scalign|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-fnn: 
+   :depends r-ggplot2: 
+   :depends r-irlba: 
+   :depends r-purrr: 
+   :depends r-rtsne: 
+   :depends r-seurat: >=2.3.4
+   :depends r-tensorflow: 
    :requirements:
 
    .. rubric:: Installation

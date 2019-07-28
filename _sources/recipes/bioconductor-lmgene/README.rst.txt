@@ -23,12 +23,12 @@ bioconductor-lmgene
 
    |downloads_bioconductor-lmgene| |docker_bioconductor-lmgene|
 
-   :versions: 2.38.0-1, 2.38.0-0, 2.36.0-0, 2.34.0-0
+   :versions: 2.40.0-1, 2.38.0-1, 2.38.0-0, 2.36.0-0, 2.34.0-0
    
-   :depends bioconductor-affy: >=1.60.0,<1.61.0
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends bioconductor-multtest: >=2.38.0,<2.39.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-affy: >=1.62.0,<1.63.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-multtest: >=2.40.0,<2.41.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-survival: 
    :requirements:
 

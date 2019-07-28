@@ -23,11 +23,11 @@ bioconductor-maskbad
 
    |downloads_bioconductor-maskbad| |docker_bioconductor-maskbad|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-0
+   :versions: 1.28.0-1, 1.26.0-0, 1.24.0-0, 1.22.0-0
    
-   :depends bioconductor-affy: >=1.60.0,<1.61.0
-   :depends bioconductor-gcrma: >=2.54.0,<2.55.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-affy: >=1.62.0,<1.63.0
+   :depends bioconductor-gcrma: >=2.56.0,<2.57.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

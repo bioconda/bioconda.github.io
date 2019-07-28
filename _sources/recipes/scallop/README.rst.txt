@@ -22,7 +22,7 @@ scallop
 
    |downloads_scallop| |docker_scallop|
 
-   :versions: 0.10.4-0
+   :versions: 0.10.4-1, 0.10.4-0
    
    :depends htslib: >=1.9,<1.10.0a0
    :depends libboost: 

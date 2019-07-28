@@ -23,10 +23,10 @@ bioconductor-mirnatap
 
    |downloads_bioconductor-mirnatap| |docker_bioconductor-mirnatap|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions: 1.18.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
    
-   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-dbi: 
    :depends r-plyr: 
    :depends r-rsqlite: 

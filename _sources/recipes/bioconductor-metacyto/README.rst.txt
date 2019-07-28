@@ -22,11 +22,11 @@ bioconductor-metacyto
 
    |downloads_bioconductor-metacyto| |docker_bioconductor-metacyto|
 
-   :versions: 1.4.1-0, 1.4.0-0
+   :versions: 1.6.0-1, 1.4.1-0, 1.4.0-0
    
-   :depends bioconductor-flowcore: >=1.48.0,<1.49.0
-   :depends bioconductor-flowsom: >=1.14.0,<1.15.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-flowcore: >=1.50.0,<1.51.0
+   :depends bioconductor-flowsom: >=1.16.0,<1.17.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-cluster: 
    :depends r-fastcluster: 
    :depends r-ggplot2: 

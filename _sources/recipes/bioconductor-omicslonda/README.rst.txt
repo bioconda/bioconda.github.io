@@ -22,8 +22,17 @@ bioconductor-omicslonda
 
    |downloads_bioconductor-omicslonda| |docker_bioconductor-omicslonda|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-ggplot2: 
+   :depends r-gss: 
+   :depends r-plyr: 
+   :depends r-pracma: 
+   :depends r-zoo: 
    :requirements:
 
    .. rubric:: Installation

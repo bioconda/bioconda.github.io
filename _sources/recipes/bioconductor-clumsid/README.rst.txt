@@ -22,8 +22,22 @@ bioconductor-clumsid
 
    |downloads_bioconductor-clumsid| |docker_bioconductor-clumsid|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-msnbase: >=2.10.0,<2.11.0
+   :depends bioconductor-mzr: >=2.18.0,<2.19.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends r-ape: 
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-dbscan: 
+   :depends r-ggally: 
+   :depends r-ggplot2: 
+   :depends r-gplots: 
+   :depends r-network: 
+   :depends r-plotly: 
+   :depends r-rcolorbrewer: 
+   :depends r-sna: 
    :requirements:
 
    .. rubric:: Installation

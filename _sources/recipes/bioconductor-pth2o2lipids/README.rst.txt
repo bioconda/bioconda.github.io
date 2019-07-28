@@ -22,13 +22,13 @@ bioconductor-pth2o2lipids
 
    |downloads_bioconductor-pth2o2lipids| |docker_bioconductor-pth2o2lipids|
 
-   :versions: 1.8.0-0
+   :versions: 1.10.0-1, 1.8.0-0
    
-   :depends bioconductor-camera: >=1.38.0,<1.39.0
-   :depends bioconductor-lobstahs: >=1.8.0,<1.9.0
-   :depends bioconductor-xcms: >=3.4.0,<3.5.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
+   :depends bioconductor-camera: >=1.40.0,<1.41.0
+   :depends bioconductor-lobstahs: >=1.10.0,<1.11.0
+   :depends bioconductor-xcms: >=3.6.0,<3.7.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

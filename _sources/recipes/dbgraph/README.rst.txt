@@ -22,7 +22,7 @@ dbgraph
 
    |downloads_dbgraph| |docker_dbgraph|
 
-   :versions: v1.0.0-1
+   :versions: 1.0.0-0, v1.0.0-1
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

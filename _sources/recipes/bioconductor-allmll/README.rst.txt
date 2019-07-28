@@ -22,11 +22,11 @@ bioconductor-allmll
 
    |downloads_bioconductor-allmll| |docker_bioconductor-allmll|
 
-   :versions: 1.22.0-0
+   :versions: 1.24.0-1, 1.22.0-0
    
-   :depends bioconductor-affy: >=1.60.0,<1.61.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
+   :depends bioconductor-affy: >=1.62.0,<1.63.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation
