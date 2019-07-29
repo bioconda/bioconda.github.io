@@ -22,12 +22,12 @@ bioconductor-onassis
 
    |downloads_bioconductor-onassis| |docker_bioconductor-onassis|
 
-   :versions: 1.4.5-0
+   :versions: 1.6.0-1, 1.4.5-0
    
-   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   :depends bioconductor-geometadb: >=1.44.0,<1.45.0
-   :depends bioconductor-onassisjavalibs: >=1.4.0,<1.5.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-geometadb: >=1.46.0,<1.47.0
+   :depends bioconductor-onassisjavalibs: >=1.6.0,<1.7.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-dt: 
    :depends r-knitr: 

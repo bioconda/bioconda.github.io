@@ -23,13 +23,13 @@ bioconductor-cghmcr
 
    |downloads_bioconductor-cghmcr| |docker_bioconductor-cghmcr|
 
-   :versions: 1.40.0-0, 1.38.0-0, 1.36.0-0, 1.34.0-0
+   :versions: 1.42.0-1, 1.40.0-0, 1.38.0-0, 1.36.0-0, 1.34.0-0
    
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends bioconductor-cntools: >=1.38.0,<1.39.0
-   :depends bioconductor-dnacopy: >=1.56.0,<1.57.0
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-cntools: >=1.40.0,<1.41.0
+   :depends bioconductor-dnacopy: >=1.58.0,<1.59.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -23,12 +23,12 @@ bioconductor-ipo
 
    |downloads_bioconductor-ipo| |docker_bioconductor-ipo|
 
-   :versions: 1.8.1-1, 1.8.1-0, 1.4.0-0, 1.2.2-0, 1.0.0-0
+   :versions: 1.10.0-1, 1.8.1-1, 1.8.1-0, 1.4.0-0, 1.2.2-0, 1.0.0-0
    
-   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   :depends bioconductor-camera: >=1.38.0,<1.39.0
-   :depends bioconductor-xcms: >=3.4.0,<3.5.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-camera: >=1.40.0,<1.41.0
+   :depends bioconductor-xcms: >=3.6.0,<3.7.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-rsm: 
    :requirements:
 

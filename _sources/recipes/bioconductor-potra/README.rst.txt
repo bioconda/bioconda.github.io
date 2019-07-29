@@ -22,8 +22,14 @@ bioconductor-potra
 
    |downloads_bioconductor-potra| |docker_bioconductor-potra|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-graph: >=1.62.0,<1.63.0
+   :depends bioconductor-graphite: >=1.30.0,<1.31.0
+   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-igraph: 
    :requirements:
 
    .. rubric:: Installation

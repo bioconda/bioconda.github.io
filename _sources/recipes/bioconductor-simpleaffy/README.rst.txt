@@ -30,6 +30,7 @@ bioconductor-simpleaffy
    :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
    :depends bioconductor-gcrma: >=2.56.0,<2.57.0
    :depends bioconductor-genefilter: >=1.66.0,<1.67.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

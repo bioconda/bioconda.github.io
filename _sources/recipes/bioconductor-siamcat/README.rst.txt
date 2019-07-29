@@ -22,10 +22,10 @@ bioconductor-siamcat
 
    |downloads_bioconductor-siamcat| |docker_bioconductor-siamcat|
 
-   :versions: 1.2.0-0
+   :versions: 1.4.0-1, 1.2.0-0
    
-   :depends bioconductor-phyloseq: >=1.26.0,<1.27.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-phyloseq: >=1.28.0,<1.29.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-beanplot: 
    :depends r-corrplot: 
    :depends r-glmnet: 
@@ -37,6 +37,7 @@ bioconductor-siamcat
    :depends r-mlr: 
    :depends r-paramhelpers: 
    :depends r-proc: 
+   :depends r-progress: 
    :depends r-prroc: 
    :depends r-rcolorbrewer: 
    :depends r-scales: 

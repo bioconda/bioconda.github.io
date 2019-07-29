@@ -22,7 +22,7 @@ perl-file-copy-recursive
 
    |downloads_perl-file-copy-recursive| |docker_perl-file-copy-recursive|
 
-   :versions: 0.44-1, 0.44-0, 0.38-3, 0.38-2, 0.38-1
+   :versions: 0.45-0, 0.44-1, 0.44-0, 0.38-3, 0.38-2, 0.38-1
    
    :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0

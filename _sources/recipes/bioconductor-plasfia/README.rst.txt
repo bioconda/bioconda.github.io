@@ -22,11 +22,11 @@ bioconductor-plasfia
 
    |downloads_bioconductor-plasfia| |docker_bioconductor-plasfia|
 
-   :versions: 1.10.0-0
+   :versions: 1.12.0-1, 1.10.0-0
    
-   :depends bioconductor-profia: >=1.8.0,<1.9.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
+   :depends bioconductor-profia: >=1.10.0,<1.11.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

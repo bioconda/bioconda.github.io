@@ -22,9 +22,9 @@ fastani
 
    |downloads_fastani| |docker_fastani|
 
-   :versions: 1.1-1, 1.1-0
+   :versions: 1.2-0, 1.1-1, 1.1-0
    
-   :depends boost: >=1.68.0,<1.68.1.0a0
+   :depends boost: >=1.70.0,<1.70.1.0a0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends zlib: >=1.2.11,<1.3.0a0

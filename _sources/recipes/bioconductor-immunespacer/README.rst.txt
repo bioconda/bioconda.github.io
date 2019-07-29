@@ -22,25 +22,24 @@ bioconductor-immunespacer
 
    |downloads_bioconductor-immunespacer| |docker_bioconductor-immunespacer|
 
-   :versions: 1.10.5-0, 1.10.1-0
+   :versions: 1.12.2-0, 1.10.5-0, 1.10.1-0
    
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends bioconductor-flowcore: 
-   :depends bioconductor-flowworkspace: 
-   :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-flowcore: >=1.50.0,<1.51.0
+   :depends bioconductor-flowworkspace: >=3.32.0,<3.33.0
+   :depends bioconductor-preprocesscore: >=1.46.0,<1.47.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-curl: 
    :depends r-data.table: 
-   :depends r-ggplot2: 
+   :depends r-digest: 
+   :depends r-ggplot2: >=3.2.0
    :depends r-gplots: 
-   :depends r-gtools: 
    :depends r-heatmaply: >=0.7.0
    :depends r-httr: 
+   :depends r-jsonlite: 
    :depends r-pheatmap: 
    :depends r-plotly: 
    :depends r-r6: 
-   :depends r-reshape2: 
-   :depends r-rjson: 
    :depends r-rlabkey: >=2.1.136
    :depends r-rmarkdown: 
    :depends r-scales: 

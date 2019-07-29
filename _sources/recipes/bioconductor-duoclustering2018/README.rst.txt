@@ -22,10 +22,11 @@ bioconductor-duoclustering2018
 
    |downloads_bioconductor-duoclustering2018| |docker_bioconductor-duoclustering2018|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-1, 1.0.0-0
    
-   :depends bioconductor-experimenthub: >=1.8.0,<1.9.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-ggthemes: 
@@ -35,7 +36,6 @@ bioconductor-duoclustering2018
    :depends r-reshape2: 
    :depends r-tidyr: 
    :depends r-viridis: 
-   :depends wget: 
    :requirements:
 
    .. rubric:: Installation

@@ -26,7 +26,8 @@ bioconductor-paa
    
    :depends bioconductor-limma: >=3.40.0,<3.41.0
    :depends bioconductor-sva: >=3.32.0,<3.33.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-e1071: 
    :depends r-gplots: 

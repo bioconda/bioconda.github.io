@@ -23,16 +23,19 @@ bioconductor-annotationhub
 
    |downloads_bioconductor-annotationhub| |docker_bioconductor-annotationhub|
 
-   :versions: 2.14.5-0, 2.14.2-0, 2.12.1-0, 2.10.1-0, 2.10.0-0, 2.8.2-0, 2.6.0-0
+   :versions: 2.16.0-1, 2.14.5-0, 2.14.2-0, 2.12.1-0, 2.10.1-0, 2.10.0-0, 2.8.2-0, 2.6.0-0
    
-   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends bioconductor-interactivedisplaybase: >=1.20.0,<1.21.0
-   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-biocfilecache: >=1.8.0,<1.9.0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-interactivedisplaybase: >=1.22.0,<1.23.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-biocmanager: 
    :depends r-curl: 
+   :depends r-dplyr: 
    :depends r-httr: 
+   :depends r-rappdirs: 
    :depends r-rsqlite: 
    :depends r-yaml: 
    :requirements:

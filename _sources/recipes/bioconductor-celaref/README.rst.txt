@@ -22,13 +22,14 @@ bioconductor-celaref
 
    |downloads_bioconductor-celaref| |docker_bioconductor-celaref|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-1, 1.0.0-0
    
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends bioconductor-mast: >=1.8.0,<1.9.0
-   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-delayedarray: >=0.10.0,<0.11.0
+   :depends bioconductor-mast: >=1.10.0,<1.11.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-magrittr: 
