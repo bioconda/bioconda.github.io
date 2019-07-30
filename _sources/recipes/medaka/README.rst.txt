@@ -24,11 +24,11 @@ medaka
 
    |downloads_medaka| |docker_medaka|
 
-   :versions: 0.8.0-0, 0.7.1-1, 0.7.0-1, 0.7.0-0, 0.6.5-0, 0.6.4-0, 0.6.2-0, 0.6.0-0, 0.5.2-0
+   :versions: 0.8.1-0, 0.8.0-0, 0.7.1-1, 0.7.0-1, 0.7.0-0, 0.6.5-0, 0.6.4-0, 0.6.2-0, 0.6.0-0, 0.5.2-0
    
    :depends bcftools: 1.9
    :depends biopython: 
-   :depends bzip2: >=1.0.6,<2.0a0
+   :depends bzip2: >=1.0.8,<2.0a0
    :depends cffi: 
    :depends h5py: 2.7.1
    :depends htslib: >=1.9,<1.10.0a0

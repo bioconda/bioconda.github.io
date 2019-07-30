@@ -22,14 +22,14 @@ bioconductor-predasampledata
 
    |downloads_bioconductor-predasampledata| |docker_bioconductor-predasampledata|
 
-   :versions: 0.22.0-0
+   :versions: 0.24.0-1, 0.22.0-0
    
-   :depends bioconductor-affy: >=1.60.0,<1.61.0
-   :depends bioconductor-annotate: >=1.60.0,<1.61.0
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends bioconductor-preda: >=1.28.0,<1.29.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
+   :depends bioconductor-affy: >=1.62.0,<1.63.0
+   :depends bioconductor-annotate: >=1.62.0,<1.63.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-preda: >=1.30.0,<1.31.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

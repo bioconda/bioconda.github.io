@@ -23,9 +23,10 @@ bioconductor-encodexplorer
 
    |downloads_bioconductor-encodexplorer| |docker_bioconductor-encodexplorer|
 
-   :versions: 2.8.0-0, 2.6.0-0, 2.4.0-0
+   :versions: 2.10.0-1, 2.8.0-0, 2.6.0-0, 2.4.0-0
    
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-dt: 
