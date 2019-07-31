@@ -9,9 +9,9 @@ hmftools-amber
 .. conda:recipe:: hmftools-amber
    :replaces_section_title:
 
-   AMBER is designed to generate a tumor BAF file for use in PURPLE. Looking directly at the bam files\, it locates heterozygous sites within the reference sample then calculates the allelic frequency of corresponding sites in the tumour
+   Generates a tumor BAF file for use in PURPLE
 
-   :homepage: https://github.com/hartwigmedical/hmftools/tree/master/amber
+   :homepage: https://github.com/hartwigmedical/hmftools/blob/master/amber/README.md
    :license: MIT / MIT
    :recipe: /`hmftools-amber <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-amber>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-amber/meta.yaml>`_
 
@@ -22,7 +22,7 @@ hmftools-amber
 
    |downloads_hmftools-amber| |docker_hmftools-amber|
 
-   :versions: 2.3-0, 2.0-0
+   :versions: 2.5-0, 2.3-0, 2.0-0
    
    :depends bioconductor-copynumber: 
    :depends openjdk: >=8

@@ -30,7 +30,8 @@ bioconductor-ringo
    :depends bioconductor-genefilter: >=1.66.0,<1.67.0
    :depends bioconductor-limma: >=3.40.0,<3.41.0
    :depends bioconductor-vsn: >=3.52.0,<3.53.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-lattice: 
    :depends r-matrix: 

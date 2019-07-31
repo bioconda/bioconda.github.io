@@ -9,9 +9,9 @@ hmftools-cobalt
 .. conda:recipe:: hmftools-cobalt
    :replaces_section_title:
 
-   Count bam lines is designed to count the number of read starts within each 1000 base window of a tumor and reference bam.
+   Counts read starts within each 1000 base window to use in PURPLE
 
-   :homepage: https://github.com/hartwigmedical/hmftools/tree/master/count-bam-lines
+   :homepage: https://github.com/hartwigmedical/hmftools/blob/master/count-bam-lines/README.md
    :license: MIT / MIT
    :recipe: /`hmftools-cobalt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-cobalt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-cobalt/meta.yaml>`_
 
@@ -22,7 +22,7 @@ hmftools-cobalt
 
    |downloads_hmftools-cobalt| |docker_hmftools-cobalt|
 
-   :versions: 1.6-0, 1.5-0
+   :versions: 1.7-0, 1.6-0, 1.5-0
    
    :depends openjdk: >=8
    :requirements:

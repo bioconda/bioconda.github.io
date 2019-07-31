@@ -22,11 +22,11 @@ r-aroma.affymetrix
 
    |downloads_r-aroma.affymetrix| |docker_r-aroma.affymetrix|
 
-   :versions: 3.1.1-1, 3.1.1-0, 3.1.0-0, 3.0.0-0
+   :versions: 3.1.1-2, 3.1.1-1, 3.1.1-0, 3.1.0-0, 3.0.0-0
    
    :depends r-aroma.apd: >=0.6.0
    :depends r-aroma.core: >=3.1.1
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-future: 
    :depends r-listenv: 
    :depends r-mass: 

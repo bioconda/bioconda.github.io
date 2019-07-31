@@ -23,13 +23,12 @@ bioconductor-qrqc
 
    |downloads_bioconductor-qrqc| |docker_bioconductor-qrqc|
 
-   :versions: 1.36.0-0, 1.34.0-0, 1.32.0-0, 1.30.0-0
+   :versions: 1.38.0-1, 1.36.0-0, 1.34.0-0, 1.32.0-0, 1.30.0-0
    
-   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   :depends bioconductor-biovizbase: >=1.30.0,<1.31.0
-   :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-biovizbase: >=1.32.0,<1.33.0
+   :depends bioconductor-rhtslib: >=1.16.0,<1.17.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-brew: 
    :depends r-ggplot2: 
    :depends r-plyr: 

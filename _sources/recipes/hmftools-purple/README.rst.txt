@@ -9,7 +9,7 @@ hmftools-purple
 .. conda:recipe:: hmftools-purple
    :replaces_section_title:
 
-   PURPLE is a purity ploidy estimator. It leverages the read depth and tumor BAF to estimate the purity of a sample and generate a copy number profile.
+   Purity\/ploidy estimator. Leverages the read depth and tumor BAF to estimate the purity of a sample and generate a copy number profile
 
    :homepage: https://github.com/hartwigmedical/hmftools/tree/master/purity-ploidy-estimator
    :license: MIT / MIT
@@ -22,7 +22,7 @@ hmftools-purple
 
    |downloads_hmftools-purple| |docker_hmftools-purple|
 
-   :versions: 2.25-1, 2.17-1, 2.16-1, 2.16-0, 2.15-0
+   :versions: 2.31-0, 2.25-1, 2.17-1, 2.16-1, 2.16-0, 2.15-0
    
    :depends openjdk: >=8
    :depends xorg-libxtst: 

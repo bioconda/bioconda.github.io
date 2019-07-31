@@ -22,18 +22,20 @@ bioconductor-sesame
 
    |downloads_bioconductor-sesame| |docker_bioconductor-sesame|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-1, 1.0.0-0
    
-   :depends bioconductor-dnacopy: >=1.56.0,<1.57.0
-   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   :depends bioconductor-illuminaio: >=0.24.0,<0.25.0
-   :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
-   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   :depends bioconductor-sesamedata: >=1.0.0,<1.1.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-dnacopy: >=1.58.0,<1.59.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-illuminaio: >=0.26.0,<0.27.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-preprocesscore: >=1.46.0,<1.47.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-sesamedata: >=1.2.0,<1.3.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 
    :depends r-mass: 
+   :depends r-matrixstats: 
    :depends r-r6: 
    :depends r-randomforest: 
    :depends r-wheatmap: 

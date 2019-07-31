@@ -22,8 +22,17 @@ bioconductor-netboost
 
    |downloads_bioconductor-netboost| |docker_bioconductor-netboost|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-impute: >=1.58.0,<1.59.0
+   :depends libcxx: >=4.0.1
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-colorspace: 
+   :depends r-dynamictreecut: 
+   :depends r-r.utils: 
+   :depends r-rcpp: 
+   :depends r-rcppparallel: 
+   :depends r-wgcna: 
    :requirements:
 
    .. rubric:: Installation

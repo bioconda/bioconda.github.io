@@ -22,11 +22,11 @@ bioconductor-qdnaseq.hg19
 
    |downloads_bioconductor-qdnaseq.hg19| |docker_bioconductor-qdnaseq.hg19|
 
-   :versions: 1.12.0-1, 1.12.0-0
+   :versions: 1.14.0-1, 1.12.0-1, 1.12.0-0
    
-   :depends bioconductor-qdnaseq: >=1.18.0,<1.19.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
+   :depends bioconductor-qdnaseq: >=1.20.0,<1.21.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation
