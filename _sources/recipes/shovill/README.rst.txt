@@ -22,13 +22,13 @@ shovill
 
    |downloads_shovill| |docker_shovill|
 
-   :versions: 1.0.4-0, 1.0.1-0, 1.0.0-0, 0.9.0-1, 0.9.0-0, 0.8.0-0, 0.7.1-2, 0.7.1-1, 0.7.1-0
+   :versions: 1.0.4-1, 1.0.4-0, 1.0.1-0, 1.0.0-0, 0.9.0-1, 0.9.0-0, 0.8.0-0, 0.7.1-2, 0.7.1-1, 0.7.1-0
    
    :depends bwa: >=0.7.17
    :depends flash: >=1.2
    :depends lighter: >=1.1
    :depends mash: >=2.1
-   :depends megahit: >=1.1
+   :depends megahit: >=1.2.7
    :depends perl: 
    :depends perl-file-spec: 
    :depends perl-findbin: 

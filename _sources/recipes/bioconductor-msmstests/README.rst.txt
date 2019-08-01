@@ -22,13 +22,13 @@ bioconductor-msmstests
 
    |downloads_bioconductor-msmstests| |docker_bioconductor-msmstests|
 
-   :versions: 1.20.1-0
+   :versions: 1.22.0-1, 1.20.1-0
    
-   :depends bioconductor-edger: >=3.24.0,<3.25.0
-   :depends bioconductor-msmseda: >=1.20.0,<1.21.0
-   :depends bioconductor-msnbase: >=2.8.0,<2.9.0
-   :depends bioconductor-qvalue: >=2.14.0,<2.15.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-edger: >=3.26.0,<3.27.0
+   :depends bioconductor-msmseda: >=1.22.0,<1.23.0
+   :depends bioconductor-msnbase: >=2.10.0,<2.11.0
+   :depends bioconductor-qvalue: >=2.16.0,<2.17.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

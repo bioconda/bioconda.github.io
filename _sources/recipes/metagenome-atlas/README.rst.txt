@@ -43,7 +43,7 @@ metagenome-atlas
 
    |downloads_metagenome-atlas| |docker_metagenome-atlas|
 
-   :versions: 2.1.4-0, 2.1.3-0, 2.1.1-0, 2.0.6-1, 2.0.5-1, 2.0.4-1, 2.0.3-1, 2.0.1-1, 2.0.1-0
+   :versions: 2.1.4-1, 2.1.4-0, 2.1.3-0, 2.1.1-0, 2.0.6-1, 2.0.5-1, 2.0.4-1, 2.0.3-1, 2.0.1-1, 2.0.1-0
    
    :depends bbmap: >=37.78
    :depends biopython: >=1.70

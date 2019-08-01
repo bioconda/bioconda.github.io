@@ -22,8 +22,13 @@ bioconductor-humantranscriptomecompendium
 
    |downloads_bioconductor-humantranscriptomecompendium| |docker_bioconductor-humantranscriptomecompendium|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-ssrch: >=1.0.0,<1.1.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-shiny: 
    :requirements:
 
    .. rubric:: Installation

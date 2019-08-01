@@ -22,16 +22,17 @@ bioconductor-psichomics
 
    |downloads_bioconductor-psichomics| |docker_bioconductor-psichomics|
 
-   :versions: 1.8.1-0
+   :versions: 1.10.0-1, 1.8.1-0
    
-   :depends bioconductor-annotationhub: >=2.14.0,<2.15.0
-   :depends bioconductor-edger: >=3.24.0,<3.25.0
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends bioconductor-recount: >=1.8.0,<1.9.0
-   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
+   :depends bioconductor-edger: >=3.26.0,<3.27.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-recount: >=1.10.0,<1.11.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends libcxx: >=4.0.1
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-cluster: 
    :depends r-colourpicker: 
    :depends r-data.table: 
@@ -51,6 +52,7 @@ bioconductor-psichomics
    :depends r-plyr: 
    :depends r-r.utils: 
    :depends r-rcpp: >=0.12.14
+   :depends r-reshape2: 
    :depends r-shiny: >=1.0.3
    :depends r-shinybs: 
    :depends r-shinyjs: 

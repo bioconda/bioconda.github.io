@@ -22,7 +22,7 @@ pilon
 
    |downloads_pilon| |docker_pilon|
 
-   :versions: 1.23-0, 1.22-1, 1.22-0, 1.20-1, 1.20-0, 1.19-0, 1.18-0, 1.17-0, 1.16-0
+   :versions: 1.23-1, 1.23-0, 1.22-1, 1.22-0, 1.20-1, 1.20-0, 1.19-0, 1.18-0, 1.17-0, 1.16-0
    
    :depends openjdk: 
    :depends python: 

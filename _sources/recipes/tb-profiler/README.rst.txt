@@ -14,7 +14,7 @@ tb-profiler
    :homepage: https://github.com/jodyphelan/TBProfiler
    :license: GPL3
    :recipe: /`tb-profiler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tb-profiler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tb-profiler/meta.yaml>`_
-   :links: doi: :doi:`10.1186/s13073-015-0164-0`
+   :links: doi: :doi:`10.1186/s13073-019-0650-x`
 
    
 
@@ -23,10 +23,10 @@ tb-profiler
 
    |downloads_tb-profiler| |docker_tb-profiler|
 
-   :versions: 2.4-0, 2.3-0, 2.2-1, 2.2-0, 2.1-2, 2.1-1, 2.1-0, 2.0-0
+   :versions: 2.5-0, 2.4-0, 2.3-0, 2.2-1, 2.2-0, 2.1-2, 2.1-1, 2.1-0, 2.0-0
    
-   :depends pathogen-profiler: 1.3.*
-   :depends python: 
+   :depends pathogen-profiler: >=1.3
+   :depends python: >=3.6
    :depends tqdm: 
    :requirements:
 

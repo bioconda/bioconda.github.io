@@ -9,26 +9,26 @@ searchgui
 .. conda:recipe:: searchgui
    :replaces_section_title:
 
-   SearchGUI is a user\-friendly open\-source graphical user interface for configuring and running proteomics identification search engines\, currently supporting X\!Tandem\, MS\-GF\+\, MS Amanda\, MyriMatch\, Comet\, Tide\, Andromeda and OMSSA.
-
+   User\-friendly graphical tool for using proteomics identification search engines
 
    :homepage: https://github.com/compomics/searchgui
-   :license: Apache License, Version 2.0
+   :license: APACHE / Apache License 2.0
    :recipe: /`searchgui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/searchgui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/searchgui/meta.yaml>`_
    :links: biotools: :biotools:`searchgui`, doi: :doi:`10.1002/pmic.201000595`
 
-   
+   SearchGUI is a user\-friendly open\-source graphical user interface for configuring and running proteomics identification search engines\, currently supporting X\!Tandem\, MS\-GF\+\, MS Amanda\, MyriMatch\, Comet\, Tide\, Andromeda and OMSSA.
+
 
 
 .. conda:package:: searchgui
 
    |downloads_searchgui| |docker_searchgui|
 
-   :versions: 3.3.10-0, 3.3.9-1, 3.3.9-0, 3.3.6-1, 3.3.5-1, 3.3.3-1, 3.3.1-1, 3.3.1-0, 3.2.26-0, 3.2.24-0, 3.2.20-0, 3.2.13-1, 3.2.13-0, 3.2.11-1, 3.2.11-0, 3.2.8-1, 3.2.8-0, 3.2.7-1, 3.2.7-0, 3.2.6-1, 3.2.6-0, 3.2.5-1, 3.2.5-0, 3.2.3-1, 3.2.3-0, 3.1.4-2, 3.1.4-1, 3.1.4-0, 2.9.0-2, 2.9.0-1, 2.9.0-0, 2.1.4-3, 2.1.4-2, 2.1.4-1, 2.1.4-0
+   :versions: 4.0.1.alpha-0, 3.3.10-0, 3.3.9-1, 3.3.9-0, 3.3.6-1, 3.3.5-1, 3.3.3-1, 3.3.1-1, 3.3.1-0, 3.2.26-0, 3.2.24-0, 3.2.20-0, 3.2.13-1, 3.2.13-0, 3.2.11-1, 3.2.11-0, 3.2.8-1, 3.2.8-0, 3.2.7-1, 3.2.7-0, 3.2.6-1, 3.2.6-0, 3.2.5-1, 3.2.5-0, 3.2.3-1, 3.2.3-0, 3.1.4-2, 3.1.4-1, 3.1.4-0, 2.9.0-2, 2.9.0-1, 2.9.0-0, 2.1.4-3, 2.1.4-2, 2.1.4-1, 2.1.4-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    :depends mono: >=4.0.0
-   :depends openjdk: >=6
+   :depends openjdk: >=8
    :depends python: 
    :requirements:
 

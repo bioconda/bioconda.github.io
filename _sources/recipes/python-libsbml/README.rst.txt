@@ -9,24 +9,26 @@ python-libsbml
 .. conda:recipe:: python-libsbml
    :replaces_section_title:
 
-   LibSBML Python API. LibSBML is a library for reading\, writing and manipulating the Systems Biology Markup Language \(SBML\).
+   LibSBML Python API.
 
    :homepage: http://sbml.org
    :license: LGPL
    :recipe: /`python-libsbml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-libsbml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-libsbml/meta.yaml>`_
 
-   
+   LibSBML is a library for reading\, writing and manipulating
+   the Systems Biology Markup Language \(SBML\).
 
 
 .. conda:package:: python-libsbml
 
    |downloads_python-libsbml| |docker_python-libsbml|
 
-   :versions: 5.12.0-2, 5.12.0-1, 5.12.0-0
+   :versions: 5.18.0-0, 5.12.0-2, 5.12.0-1, 5.12.0-0
    
-   :depends bzip2: >=1.0.6,<2.0a0
-   :depends libgcc-ng: >=4.9
-   :depends libxml2: >=2.9.8,<2.10.0a0
+   :depends bzip2: >=1.0.8,<2.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends libxml2: >=2.9.9,<2.10.0a0
    :depends python: >=2.7,<2.8.0a0
    :requirements:
 

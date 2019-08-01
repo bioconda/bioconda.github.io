@@ -9,10 +9,10 @@ dadi
 .. conda:recipe:: dadi
    :replaces_section_title:
 
-   DADI implements methods for demographic history and selection inference from genetic data\, based on diffusion approximations to the allele frequency spectrum.
+   Fit population genetic models using diffusion approximations to the allele frequency spectrum
 
    :homepage: https://bitbucket.org/gutenkunstlab/dadi
-   :license: Custom
+   :license: BSD / BSD-3-Clause
    :recipe: /`dadi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dadi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dadi/meta.yaml>`_
 
    
@@ -22,12 +22,12 @@ dadi
 
    |downloads_dadi| |docker_dadi|
 
-   :versions: 1.7.0-0
+   :versions: 2.0.3-0, 1.7.0-0
    
-   :depends ipython: 
+   :depends libgcc-ng: >=7.3.0
    :depends matplotlib: 
    :depends numpy: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3.7,<3.8.0a0
    :depends scipy: 
    :requirements:
 

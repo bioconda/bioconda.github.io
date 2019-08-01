@@ -22,7 +22,7 @@ spliceai
 
    |downloads_spliceai| |docker_spliceai|
 
-   :versions: 1.2.1-0
+   :versions: 1.2.1-1, 1.2.1-0
    
    :depends keras: >=2.0.5
    :depends numpy: >=1.14.0

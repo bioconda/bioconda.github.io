@@ -22,7 +22,7 @@ trinotate
 
    |downloads_trinotate| |docker_trinotate|
 
-   :versions: 3.1.1-6, 3.1.1-5, 3.1.1-4, 3.1.1-0, 3.1.0-0, 3.0.2-0, 3.0.1-1, 3.0.1-0
+   :versions: 3.1.1-7, 3.1.1-6, 3.1.1-5, 3.1.1-4, 3.1.1-0, 3.1.0-0, 3.0.2-0, 3.0.1-1, 3.0.1-0
    
    :depends blast: 
    :depends hmmer: 
@@ -33,6 +33,7 @@ trinotate
    :depends perl-file-find-rule: 
    :depends perl-module-build: 
    :depends sqlite: 
+   :depends wget: 
    :requirements:
 
    .. rubric:: Installation

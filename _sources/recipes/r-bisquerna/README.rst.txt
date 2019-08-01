@@ -22,8 +22,11 @@ r-bisquerna
 
    |downloads_r-bisquerna| |docker_r-bisquerna|
 
-   :versions: 
+   :versions: 1.0-0
    
+   :depends bioconductor-biobase: 
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-lsei: 
    :requirements:
 
    .. rubric:: Installation

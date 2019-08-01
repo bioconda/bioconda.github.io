@@ -22,8 +22,10 @@ bioconductor-divergence
 
    |downloads_bioconductor-divergence| |docker_bioconductor-divergence|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation
