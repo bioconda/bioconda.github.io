@@ -31,7 +31,8 @@ bioconductor-cn.farms
    :depends bioconductor-oligo: >=1.48.0,<1.49.0
    :depends bioconductor-oligoclasses: >=1.46.0,<1.47.0
    :depends bioconductor-preprocesscore: >=1.46.0,<1.47.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dbi: 
    :depends r-ff: 

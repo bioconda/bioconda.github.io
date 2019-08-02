@@ -25,6 +25,7 @@ bioconductor-demixt
    :versions: 1.0.2-0
    
    :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-kernsmooth: 
    :depends r-knitr: 

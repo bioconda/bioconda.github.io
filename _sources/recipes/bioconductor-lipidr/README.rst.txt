@@ -22,8 +22,20 @@ bioconductor-lipidr
 
    |downloads_bioconductor-lipidr| |docker_bioconductor-lipidr|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-fgsea: >=1.10.0,<1.11.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-ropls: >=1.16.0,<1.17.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-dplyr: 
+   :depends r-forcats: 
+   :depends r-ggplot2: 
+   :depends r-magrittr: 
+   :depends r-rlang: 
+   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation

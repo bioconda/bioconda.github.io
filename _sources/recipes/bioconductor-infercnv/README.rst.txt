@@ -22,8 +22,34 @@ bioconductor-infercnv
 
    |downloads_bioconductor-infercnv| |docker_bioconductor-infercnv|
 
-   :versions: 
+   :versions: 1.0.3-0
    
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-edger: >=3.26.0,<3.27.0
+   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-ape: 
+   :depends r-argparse: 
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-catools: 
+   :depends r-coda: 
+   :depends r-coin: 
+   :depends r-doparallel: 
+   :depends r-dplyr: 
+   :depends r-fastcluster: 
+   :depends r-fitdistrplus: 
+   :depends r-foreach: 
+   :depends r-futile.logger: 
+   :depends r-future: 
+   :depends r-ggplot2: 
+   :depends r-gplots: 
+   :depends r-gridextra: 
+   :depends r-hiddenmarkov: 
+   :depends r-matrix: 
+   :depends r-rcolorbrewer: 
+   :depends r-reshape: 
+   :depends r-rjags: 
+   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation

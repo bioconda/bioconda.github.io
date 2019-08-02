@@ -33,6 +33,7 @@ rgi
    :depends bwa: >=0.7.17
    :depends diamond: 0.8.36
    :depends filetype: >=1.0.0
+   :depends libgcc-ng: >=7.3.0
    :depends matplotlib: >=2.1.2
    :depends mock: >=2.0.0
    :depends pandas: >=0.15.0

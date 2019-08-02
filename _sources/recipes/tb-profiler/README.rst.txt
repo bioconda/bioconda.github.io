@@ -23,9 +23,9 @@ tb-profiler
 
    |downloads_tb-profiler| |docker_tb-profiler|
 
-   :versions: 2.5-0, 2.4-0, 2.3-0, 2.2-1, 2.2-0, 2.1-2, 2.1-1, 2.1-0, 2.0-0
+   :versions: 2.5-1, 2.5-0, 2.4-0, 2.3-0, 2.2-1, 2.2-0, 2.1-2, 2.1-1, 2.1-0, 2.0-0
    
-   :depends pathogen-profiler: >=1.3
+   :depends pathogen-profiler: >=1.5
    :depends python: >=3.6
    :depends tqdm: 
    :requirements:
