@@ -22,11 +22,11 @@ r-jackstraw
 
    |downloads_r-jackstraw| |docker_r-jackstraw|
 
-   :versions: 1.3-0
+   :versions: 1.3-1, 1.3-0
    
    :depends bioconductor-lfa: 
    :depends bioconductor-qvalue: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-cluster: 
    :depends r-clusterr: 
    :depends r-corpcor: 

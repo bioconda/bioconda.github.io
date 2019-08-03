@@ -22,8 +22,22 @@ bioconductor-chetah
 
    |downloads_bioconductor-chetah| |docker_bioconductor-chetah|
 
-   :versions: 
+   :versions: 1.0.4-0
    
+   :depends bioconductor-biodist: >=1.56.0,<1.57.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-corrplot: 
+   :depends r-cowplot: 
+   :depends r-dendextend: 
+   :depends r-ggplot2: 
+   :depends r-gplots: 
+   :depends r-pheatmap: 
+   :depends r-plotly: 
+   :depends r-reshape2: 
+   :depends r-shiny: 
    :requirements:
 
    .. rubric:: Installation

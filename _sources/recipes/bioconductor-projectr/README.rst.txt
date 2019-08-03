@@ -22,8 +22,14 @@ bioconductor-projectr
 
    |downloads_bioconductor-projectr| |docker_bioconductor-projectr|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-cogaps: >=3.4.0,<3.5.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-cluster: 
+   :depends r-nmf: 
+   :depends r-rocr: 
    :requirements:
 
    .. rubric:: Installation

@@ -22,8 +22,27 @@ bioconductor-spatialcpie
 
    |downloads_bioconductor-spatialcpie| |docker_bioconductor-spatialcpie|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-colorspace: >=1.3-2
+   :depends r-dplyr: >=0.7.6
+   :depends r-ggiraph: >=0.5.0
+   :depends r-ggplot2: >=3.0.0
+   :depends r-ggrepel: >=0.8.0
+   :depends r-igraph: >=1.2.2
+   :depends r-lpsolve: >=5.6.13
+   :depends r-miniui: >=0.1.1.1
+   :depends r-purrr: >=0.2.5
+   :depends r-readr: >=1.1.1
+   :depends r-rlang: >=0.2.2
+   :depends r-scatterpie: >=0.1.2
+   :depends r-shiny: >=1.1.0
+   :depends r-tibble: >=1.4.2
+   :depends r-tidyr: >=0.8.1
+   :depends r-tidyselect: >=0.2.4
+   :depends r-zeallot: >=0.1.0
    :requirements:
 
    .. rubric:: Installation

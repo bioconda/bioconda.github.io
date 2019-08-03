@@ -22,8 +22,37 @@ bioconductor-discorhythm
 
    |downloads_bioconductor-discorhythm| |docker_bioconductor-discorhythm|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-biocstyle: >=2.12.0,<2.13.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-broom: 
+   :depends r-data.table: 
+   :depends r-dplyr: 
+   :depends r-dt: 
+   :depends r-ggextra: 
+   :depends r-ggplot2: 
+   :depends r-gridextra: 
+   :depends r-heatmaply: 
+   :depends r-kableextra: 
+   :depends r-knitr: 
+   :depends r-magick: 
+   :depends r-matrixstats: 
+   :depends r-matrixtests: 
+   :depends r-metacycle: >=1.2.0
+   :depends r-plotly: 
+   :depends r-rmarkdown: 
+   :depends r-shiny: 
+   :depends r-shinybs: 
+   :depends r-shinycssloaders: 
+   :depends r-shinydashboard: 
+   :depends r-shinyjs: 
+   :depends r-upsetr: 
+   :depends r-venndiagram: 
+   :depends r-viridis: 
    :requirements:
 
    .. rubric:: Installation

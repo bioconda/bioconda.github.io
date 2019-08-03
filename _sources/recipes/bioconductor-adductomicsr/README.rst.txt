@@ -22,8 +22,30 @@ bioconductor-adductomicsr
 
    |downloads_bioconductor-adductomicsr| |docker_bioconductor-adductomicsr|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-adductdata: >=1.0.0,<1.1.0
+   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
+   :depends bioconductor-mzr: >=2.18.0,<2.19.0
+   :depends r-ade4: >=1.7.6
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-bootstrap: >=2017.2
+   :depends r-data.table: >=1.10.4
+   :depends r-dosnow: >=1.0.14
+   :depends r-dplyr: >=0.7.5
+   :depends r-dt: >=0.2
+   :depends r-fastcluster: >=1.1.22
+   :depends r-foreach: >=1.4.3
+   :depends r-fpc: >=2.1.10
+   :depends r-orgmassspecr: >=0.4.6
+   :depends r-pastecs: >=1.3.18
+   :depends r-pracma: >=2.0.4
+   :depends r-rcppeigen: >=0.3.3.3.0
+   :depends r-reshape2: >=1.4.2
+   :depends r-rvest: >=0.3.2
+   :depends r-smoother: >=1.1
+   :depends r-zoo: >=1.8
    :requirements:
 
    .. rubric:: Installation

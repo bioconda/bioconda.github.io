@@ -27,7 +27,8 @@ bioconductor-abaenrichment
    
    :depends bioconductor-abadata: >=1.14.0,<1.15.0
    :depends bioconductor-gofuncr: >=1.4.0,<1.5.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: >=1.10.4
    :depends r-gplots: >=2.14.2

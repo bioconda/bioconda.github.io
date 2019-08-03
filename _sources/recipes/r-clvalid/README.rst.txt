@@ -22,9 +22,9 @@ r-clvalid
 
    |downloads_r-clvalid| |docker_r-clvalid|
 
-   :versions: 0.6_6-0
+   :versions: 0.6_6-1, 0.6_6-0
    
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-class: 
    :depends r-cluster: 
    :requirements:

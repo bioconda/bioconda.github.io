@@ -28,6 +28,7 @@ bioconductor-edge
    :depends bioconductor-qvalue: >=2.16.0,<2.17.0
    :depends bioconductor-snm: >=1.32.0,<1.33.0
    :depends bioconductor-sva: >=3.32.0,<3.33.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-jackstraw: 
    :depends r-mass: 
