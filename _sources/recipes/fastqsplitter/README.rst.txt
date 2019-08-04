@@ -24,10 +24,11 @@ fastqsplitter
 
    |downloads_fastqsplitter| |docker_fastqsplitter|
 
-   :versions: 1.0.0-0
+   :versions: 1.1.0-0, 1.0.0-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends pigz: 
-   :depends python: >=3.5
+   :depends python: >=3.7,<3.8.0a0
    :depends xopen: >=0.6.0
    :requirements:
 

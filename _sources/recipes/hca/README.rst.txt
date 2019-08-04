@@ -22,7 +22,7 @@ hca
 
    |downloads_hca| |docker_hca|
 
-   :versions: 6.3.0-0
+   :versions: 6.4.0-0, 6.3.0-0
    
    :depends argcomplete: >=1.9.3,<2
    :depends atomicwrites: >=1.3.0,<2

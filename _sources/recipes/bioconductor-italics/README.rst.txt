@@ -22,8 +22,16 @@ bioconductor-italics
 
    |downloads_bioconductor-italics| |docker_bioconductor-italics|
 
-   :versions: 
+   :versions: 2.44.0-1
    
+   :depends bioconductor-affxparser: >=1.56.0,<1.57.0
+   :depends bioconductor-glad: >=2.48.0,<2.49.0
+   :depends bioconductor-italicsdata: >=2.22.0,<2.23.0
+   :depends bioconductor-oligo: >=1.48.0,<1.49.0
+   :depends bioconductor-oligoclasses: >=1.46.0,<1.47.0
+   :depends bioconductor-pd.mapping50k.xba240: >=3.12.0,<3.13.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-dbi: 
    :requirements:
 
    .. rubric:: Installation
