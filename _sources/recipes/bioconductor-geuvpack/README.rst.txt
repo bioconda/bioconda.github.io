@@ -22,11 +22,11 @@ bioconductor-geuvpack
 
    |downloads_bioconductor-geuvpack| |docker_bioconductor-geuvpack|
 
-   :versions: 1.14.0-0
+   :versions: 1.16.0-1, 1.14.0-0
    
-   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -22,16 +22,16 @@ bioconductor-pd.081229.hg18.promoter.medip.hx1
 
    |downloads_bioconductor-pd.081229.hg18.promoter.medip.hx1| |docker_bioconductor-pd.081229.hg18.promoter.medip.hx1|
 
-   :versions: 0.99.4-0
+   :versions: 0.99.4-2, 0.99.4-0
    
-   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   :depends bioconductor-oligo: >=1.46.0,<1.47.0
-   :depends bioconductor-oligoclasses: >=1.44.0,<1.45.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-oligo: >=1.48.0,<1.49.0
+   :depends bioconductor-oligoclasses: >=1.46.0,<1.47.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-dbi: 
    :depends r-rsqlite: >=0.7-1
-   :depends wget: 
    :requirements:
 
    .. rubric:: Installation

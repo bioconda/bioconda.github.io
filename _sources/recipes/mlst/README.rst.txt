@@ -23,14 +23,14 @@ mlst
 
    |downloads_mlst| |docker_mlst|
 
-   :versions: 2.16.2-0, 2.16.1-0, 2.16-0, 2.15.2-0, 2.15.1-0, 2.15-0, 2.14-0, 2.13-0, 2.12-0, 2.11-0, 2.10-1, 2.10-0, 2.9-1, 2.9-0, 2.6-0
+   :versions: 2.16.4-0, 2.16.2-1, 2.16.2-0, 2.16.1-0, 2.16-0, 2.15.2-0, 2.15.1-0, 2.15-0, 2.14-0, 2.13-0, 2.12-0, 2.11-0, 2.10-1, 2.10-0, 2.9-1, 2.9-0, 2.6-0
    
    :depends blast: >=2.7.1
    :depends perl-bioperl: >=1.7.2
    :depends perl-json: 
    :depends perl-list-moreutils: 
    :depends perl-moo: 
-   :depends zlib: 
+   :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -22,8 +22,30 @@ bioconductor-phemd
 
    |downloads_bioconductor-phemd| |docker_bioconductor-phemd|
 
-   :versions: 
+   :versions: 1.0.1-0
    
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-destiny: >=2.14.0,<2.15.0
+   :depends bioconductor-monocle: >=2.12.0,<2.13.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-cluster: 
+   :depends r-cowplot: 
+   :depends r-ggplot2: 
+   :depends r-igraph: 
+   :depends r-maptree: 
+   :depends r-pheatmap: 
+   :depends r-pracma: 
+   :depends r-rann: 
+   :depends r-rcolorbrewer: 
+   :depends r-rtsne: 
+   :depends r-scatterplot3d: 
+   :depends r-seurat: 
+   :depends r-transport: 
+   :depends r-vgam: 
    :requirements:
 
    .. rubric:: Installation

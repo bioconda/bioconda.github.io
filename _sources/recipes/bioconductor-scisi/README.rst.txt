@@ -23,15 +23,15 @@ bioconductor-scisi
 
    |downloads_bioconductor-scisi| |docker_bioconductor-scisi|
 
-   :versions: 1.54.0-0, 1.52.0-0, 1.50.0-0
+   :versions: 1.56.0-1, 1.54.0-0, 1.52.0-0, 1.50.0-0
    
-   :depends bioconductor-annotate: >=1.60.0,<1.61.0
-   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   :depends bioconductor-apcomplex: >=2.48.0,<2.49.0
-   :depends bioconductor-go.db: >=3.7.0,<3.8.0
-   :depends bioconductor-org.sc.sgd.db: >=3.7.0,<3.8.0
-   :depends bioconductor-rpsixml: >=2.24.0,<2.25.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-annotate: >=1.62.0,<1.63.0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-apcomplex: >=2.50.0,<2.51.0
+   :depends bioconductor-go.db: >=3.8.0,<3.9.0
+   :depends bioconductor-org.sc.sgd.db: >=3.8.0,<3.9.0
+   :depends bioconductor-rpsixml: >=2.26.0,<2.27.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

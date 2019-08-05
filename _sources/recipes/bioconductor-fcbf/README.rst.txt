@@ -22,12 +22,13 @@ bioconductor-fcbf
 
    |downloads_bioconductor-fcbf| |docker_bioconductor-fcbf|
 
-   :versions: 1.0.1-0, 1.0.0-0
+   :versions: 1.2.2-0, 1.0.1-0, 1.0.0-0
    
-   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 
    :depends r-gridextra: 
+   :depends r-pbapply: 
    :requirements:
 
    .. rubric:: Installation
