@@ -135,7 +135,7 @@
 <td><p>The recipe requests a compiler in a section other than build</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_build_help.cython_must_be_in_host" title="bioconda_utils.lint.check_build_help.cython_must_be_in_host"><code class="xref py py-obj docutils literal notranslate"><span class="pre">cython_must_be_in_host</span></code></a>(_linter)</p></td>
-<td><p>Cython should be in the build section</p></td>
+<td><p>Cython should be in the host section</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_build_help.cython_needs_compiler" title="bioconda_utils.lint.check_build_help.cython_needs_compiler"><code class="xref py py-obj docutils literal notranslate"><span class="pre">cython_needs_compiler</span></code></a>(_linter)</p></td>
 <td><p>Cython generates C code, which will need to be compiled</p></td>
@@ -187,7 +187,7 @@ to their locations within the recipe.</p>
 <dt id="bioconda_utils.lint.check_build_help.cython_must_be_in_host">
 <em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_build_help.</code><code class="sig-name descname">cython_must_be_in_host</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_build_help.html#cython_must_be_in_host"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_build_help.cython_must_be_in_host" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
-<p>Cython should be in the build section</p>
+<p>Cython should be in the host section</p>
 <p>Move cython to <code class="docutils literal notranslate"><span class="pre">host</span></code>:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">requirements</span><span class="p">:</span>
   <span class="n">host</span><span class="p">:</span>
