@@ -22,13 +22,13 @@ bioconductor-keggprofile
 
    |downloads_bioconductor-keggprofile| |docker_bioconductor-keggprofile|
 
-   :versions: 1.24.0-0
+   :versions: 1.26.0-1, 1.24.0-0
    
-   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   :depends bioconductor-biomart: >=2.38.0,<2.39.0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-biomart: >=2.40.0,<2.41.0
    :depends bioconductor-kegg.db: >=3.2.0,<3.3.0
-   :depends bioconductor-keggrest: >=1.22.0,<1.23.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-keggrest: >=1.24.0,<1.25.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-png: 
    :depends r-rcurl: 
    :depends r-teachingdemos: 

@@ -23,12 +23,12 @@ bioconductor-uniprot.ws
 
    |downloads_bioconductor-uniprot.ws| |docker_bioconductor-uniprot.ws|
 
-   :versions: 2.22.0-0, 2.20.4-0, 2.18.0-0, 2.16.0-0
+   :versions: 2.24.1-0, 2.22.0-0, 2.20.4-0, 2.18.0-0, 2.16.0-0
    
-   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   :depends bioconductor-biocfilecache: >=1.6.0,<1.7.0
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-biocfilecache: >=1.8.0,<1.9.0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-rappdirs: 
    :depends r-rcurl: 
    :depends r-rsqlite: 

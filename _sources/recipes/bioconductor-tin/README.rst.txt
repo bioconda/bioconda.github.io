@@ -23,11 +23,11 @@ bioconductor-tin
 
    |downloads_bioconductor-tin| |docker_bioconductor-tin|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions: 1.16.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0
    
-   :depends bioconductor-impute: >=1.56.0,<1.57.0
+   :depends bioconductor-impute: >=1.58.0,<1.59.0
    :depends r-aroma.affymetrix: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-squash: 
    :depends r-stringr: 

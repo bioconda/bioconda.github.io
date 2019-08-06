@@ -22,9 +22,9 @@ portcullis
 
    |downloads_portcullis| |docker_portcullis|
 
-   :versions: 1.2.0-0, 1.1.2-0, 1.1.1-3, 1.1.0-0
+   :versions: 1.2.2-0, 1.2.0-0, 1.1.2-0, 1.1.1-3, 1.1.0-0
    
-   :depends boost-cpp: >=1.68.0,<1.68.1.0a0
+   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends numpy: 

@@ -30,7 +30,8 @@ bioconductor-amaretto
    :depends bioconductor-impute: >=1.58.0,<1.59.0
    :depends bioconductor-limma: >=3.40.0,<3.41.0
    :depends bioconductor-multiassayexperiment: >=1.10.0,<1.11.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-callr: >=3.0.0.9001
    :depends r-circlize: 

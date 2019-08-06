@@ -22,13 +22,18 @@ bioconductor-ontoproc
 
    |downloads_bioconductor-ontoproc| |docker_bioconductor-ontoproc|
 
-   :versions: 1.4.0-0
+   :versions: 1.6.0-1, 1.4.0-0
    
-   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-graph: >=1.62.0,<1.63.0
+   :depends bioconductor-rgraphviz: >=2.28.0,<2.29.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-dplyr: 
+   :depends r-magrittr: 
    :depends r-ontologyindex: 
+   :depends r-ontologyplot: 
    :depends r-shiny: 
    :requirements:
 

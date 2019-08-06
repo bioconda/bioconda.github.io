@@ -22,21 +22,21 @@ bioconductor-genegeneinter
 
    |downloads_bioconductor-genegeneinter| |docker_bioconductor-genegeneinter|
 
-   :versions: 1.8.0-0
+   :versions: 1.10.0-1, 1.8.0-0
    
-   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   :depends bioconductor-ggtools: >=5.18.0,<5.19.0
-   :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
-   :depends bioconductor-snpstats: >=1.32.0,<1.33.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-ggtools: >=5.20.0,<5.21.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
+   :depends bioconductor-snpstats: >=1.34.0,<1.35.0
+   :depends libcxx: >=4.0.1
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-factominer: 
    :depends r-igraph: 
    :depends r-kernlab: 
    :depends r-mvtnorm: 
    :depends r-plspm: 
-   :depends r-rioja: 
    :requirements:
 
    .. rubric:: Installation

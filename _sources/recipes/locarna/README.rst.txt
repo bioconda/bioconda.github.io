@@ -14,7 +14,7 @@ locarna
    :homepage: http://www.bioinf.uni-freiburg.de/Software/LocARNA/
    :license: GPL
    :recipe: /`locarna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/locarna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/locarna/meta.yaml>`_
-   :links: biotools: :biotools:`locarna`
+   :links: biotools: :biotools:`locarna`, doi: :doi:`10.1371/journal.pcbi.0030065`
 
    
 
@@ -23,11 +23,13 @@ locarna
 
    |downloads_locarna| |docker_locarna|
 
-   :versions: 1.9.2-1, 1.9.2-0, 1.9.1-2, 1.9.1-1, 1.9.1-0, 1.9.0-0, 1.8.12-0, 1.8.11-1, 1.8.10-0, 1.8.9-3, 1.8.9-2, 1.8.9-1, 1.8.7-1, 1.8.7-0
+   :versions: 2.0.0RC8-0, 1.9.2.3-0, 1.9.2-1, 1.9.2-0, 1.9.1-2, 1.9.1-1, 1.9.1-0, 1.9.0-0, 1.8.12-0, 1.8.11-1, 1.8.10-0, 1.8.9-3, 1.8.9-2, 1.8.9-1, 1.8.7-1, 1.8.7-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends perl: 
-   :depends viennarna: 2.3.5
+   :depends viennarna: 2.4.13
+   :depends viennarna: >=2.4.13,<2.5.0a0
    :requirements:
 
    .. rubric:: Installation

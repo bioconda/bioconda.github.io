@@ -33,7 +33,8 @@ bioconductor-bnbc
    :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
    :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
    :depends bioconductor-sva: >=3.32.0,<3.33.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-matrixstats: 
    :depends r-rcpp: >=0.12.12

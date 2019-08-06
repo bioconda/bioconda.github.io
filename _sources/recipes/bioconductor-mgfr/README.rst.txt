@@ -23,11 +23,11 @@ bioconductor-mgfr
 
    |downloads_bioconductor-mgfr| |docker_bioconductor-mgfr|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-0
+   :versions: 1.10.0-1, 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-0
    
-   :depends bioconductor-annotate: >=1.60.0,<1.61.0
-   :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-annotate: >=1.62.0,<1.63.0
+   :depends bioconductor-biomart: >=2.40.0,<2.41.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

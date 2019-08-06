@@ -22,8 +22,11 @@ bioconductor-qsmooth
 
    |downloads_bioconductor-qsmooth| |docker_bioconductor-qsmooth|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-sva: >=3.32.0,<3.33.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -22,8 +22,14 @@ bioconductor-hcadata
 
    |downloads_bioconductor-hcadata| |docker_bioconductor-hcadata|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
+   :depends bioconductor-hdf5array: >=1.12.0,<1.13.0
+   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

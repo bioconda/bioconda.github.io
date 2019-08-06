@@ -22,8 +22,14 @@ bioconductor-pairadise
 
    |downloads_bioconductor-pairadise| |docker_bioconductor-pairadise|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-abind: 
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-nloptr: 
    :requirements:
 
    .. rubric:: Installation

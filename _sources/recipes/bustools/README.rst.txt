@@ -22,9 +22,9 @@ bustools
 
    |downloads_bustools| |docker_bustools|
 
-   :versions: 0.39.2-0
+   :versions: 0.39.3-0, 0.39.2-0
    
-   :depends hdf5: >=1.10.4,<1.10.5.0a0
+   :depends hdf5: >=1.10.5,<1.10.6.0a0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends zlib: >=1.2.11,<1.3.0a0

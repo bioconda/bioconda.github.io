@@ -22,10 +22,10 @@ bioconductor-moda
 
    |downloads_bioconductor-moda| |docker_bioconductor-moda|
 
-   :versions: 1.8.0-0
+   :versions: 1.10.0-1, 1.8.0-0
    
-   :depends bioconductor-amountain: >=1.8.0,<1.9.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-amountain: >=1.10.0,<1.11.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-cluster: 
    :depends r-dynamictreecut: 
    :depends r-igraph: 

@@ -22,11 +22,11 @@ bioconductor-gsean
 
    |downloads_bioconductor-gsean| |docker_bioconductor-gsean|
 
-   :versions: 1.2.0-0
+   :versions: 1.4.0-1, 1.2.0-0
    
-   :depends bioconductor-fgsea: >=1.8.0,<1.9.0
-   :depends bioconductor-ppinfer: >=1.8.0,<1.9.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-fgsea: >=1.10.0,<1.11.0
+   :depends bioconductor-ppinfer: >=1.10.0,<1.11.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

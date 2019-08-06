@@ -23,12 +23,12 @@ bioconductor-genominator
 
    |downloads_bioconductor-genominator| |docker_bioconductor-genominator|
 
-   :versions: 1.36.0-1, 1.36.0-0, 1.34.0-0, 1.32.0-0, 1.30.0-0
+   :versions: 1.38.0-1, 1.36.0-1, 1.36.0-0, 1.34.0-0, 1.32.0-0, 1.30.0-0
    
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends bioconductor-genomegraphs: >=1.42.0,<1.43.0
-   :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-genomegraphs: >=1.44.0,<1.45.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-dbi: >=0.2-5
    :depends r-rsqlite: 
    :requirements:

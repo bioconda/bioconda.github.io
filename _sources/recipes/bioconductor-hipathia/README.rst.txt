@@ -22,16 +22,16 @@ bioconductor-hipathia
 
    |downloads_bioconductor-hipathia| |docker_bioconductor-hipathia|
 
-   :versions: 1.3.1-0
+   :versions: 2.0.0-1, 1.3.1-0
    
-   :depends bioconductor-annotationhub: >=2.14.0,<2.15.0
-   :depends bioconductor-delayedarray: >=0.8.0,<0.9.0
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends bioconductor-multiassayexperiment: >=1.8.0,<1.9.0
-   :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
-   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
+   :depends bioconductor-delayedarray: >=0.10.0,<0.11.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-multiassayexperiment: >=1.10.0,<1.11.0
+   :depends bioconductor-preprocesscore: >=1.46.0,<1.47.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-coin: 
    :depends r-igraph: >=1.0.1
    :depends r-matrixstats: 

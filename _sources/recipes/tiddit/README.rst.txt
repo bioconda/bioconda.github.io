@@ -22,15 +22,14 @@ tiddit
 
    |downloads_tiddit| |docker_tiddit|
 
-   :versions: 2.7.1-0, 2.6.0-0
+   :versions: 2.7.1-1, 2.7.1-0, 2.6.0-0
    
    :depends cmake: 
-   :depends cython: 
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends numpy: 
    :depends pysam: 
-   :depends python: 2.7.15.*
+   :depends python: >=2.7,<2.8.0a0
    :requirements:
 
    .. rubric:: Installation

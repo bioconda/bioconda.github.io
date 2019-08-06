@@ -22,11 +22,11 @@ rebaler
 
    |downloads_rebaler| |docker_rebaler|
 
-   :versions: 0.1.2-0, 0.1.1-2, 0.1.1-0, 0.1.0-0
+   :versions: 0.2.0-0, 0.1.2-0, 0.1.1-2, 0.1.1-0, 0.1.0-0
    
    :depends biopython: 
    :depends minimap2: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :depends racon: 
    :requirements:
 

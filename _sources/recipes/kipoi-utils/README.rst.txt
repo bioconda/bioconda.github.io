@@ -22,12 +22,14 @@ kipoi-utils
 
    |downloads_kipoi-utils| |docker_kipoi-utils|
 
-   :versions: 0.3.0-0, 0.1.12-2, 0.1.12-1, 0.1.12-0
+   :versions: 0.3.2-0, 0.3.0-0, 0.1.12-2, 0.1.12-1, 0.1.12-0
    
    :depends attrs: 
    :depends numpy: 
    :depends pandas: >=0.21.0
+   :depends psutil: 
    :depends python: 
+   :depends pyyaml: >=5.1.0
    :depends related: 
    :depends six: 
    :depends tqdm: 

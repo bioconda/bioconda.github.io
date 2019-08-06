@@ -22,8 +22,12 @@ bioconductor-bodymaprat
 
    |downloads_bioconductor-bodymaprat| |docker_bioconductor-bodymaprat|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

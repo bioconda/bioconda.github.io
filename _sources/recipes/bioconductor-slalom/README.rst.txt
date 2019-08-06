@@ -27,7 +27,8 @@ bioconductor-slalom
    :depends bioconductor-gseabase: >=1.46.0,<1.47.0
    :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
    :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-bh: 
    :depends r-ggplot2: 
