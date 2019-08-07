@@ -22,12 +22,12 @@ bioconductor-idmappingretrieval
 
    |downloads_bioconductor-idmappingretrieval| |docker_bioconductor-idmappingretrieval|
 
-   :versions: 1.30.0-0
+   :versions: 1.32.0-1, 1.30.0-0
    
-   :depends bioconductor-affycompatible: >=1.42.0,<1.43.0
-   :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   :depends bioconductor-envisionquery: >=1.30.0,<1.31.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-affycompatible: >=1.44.0,<1.45.0
+   :depends bioconductor-biomart: >=2.40.0,<2.41.0
+   :depends bioconductor-envisionquery: >=1.32.0,<1.33.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-r.methodss3: 
    :depends r-r.oo: 
    :depends r-rchoicedialogs: 

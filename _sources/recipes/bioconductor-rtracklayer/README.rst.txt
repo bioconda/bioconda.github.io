@@ -9,7 +9,7 @@ bioconductor-rtracklayer
 .. conda:recipe:: bioconductor-rtracklayer
    :replaces_section_title:
 
-   Extensible framework for interacting with multiple genome browsers \(currently UCSC built\-in\) and manipulating annotation tracks in various formats \(currently GFF\, BED\, bedGraph\, BED15\, WIG\, BigWig and 2bit built\-in\). The user may export\/import tracks to\/from the supported browsers\, as well as query and modify the browser state\, such as the current viewport.
+   Extensible framework for interacting with genome browsers
 
    :homepage: https://bioconductor.org/packages/3.9/bioc/html/rtracklayer.html
    :license: Artistic-2.0 + file LICENSE
@@ -23,7 +23,7 @@ bioconductor-rtracklayer
 
    |downloads_bioconductor-rtracklayer| |docker_bioconductor-rtracklayer|
 
-   :versions: 1.44.0-1, 1.42.1-1, 1.42.1-0, 1.40.6-0, 1.38.3-0, 1.38.0-0, 1.36.6-0, 1.34.2-1, 1.34.1-0, 1.32.2-1, 1.30.1-0, 1.30.0-1
+   :versions: 1.44.2-1, 1.44.2-0, 1.44.0-1, 1.42.1-1, 1.42.1-0, 1.40.6-0, 1.38.3-0, 1.38.0-0, 1.36.6-0, 1.34.2-1, 1.34.1-0, 1.32.2-1, 1.30.1-0, 1.30.0-1
    
    :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
    :depends bioconductor-biostrings: >=2.52.0,<2.53.0

@@ -22,13 +22,13 @@ bioconductor-rcpi
 
    |downloads_bioconductor-rcpi| |docker_bioconductor-rcpi|
 
-   :versions: 1.18.1-0
+   :versions: 1.20.1-0, 1.18.1-0
    
-   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   :depends bioconductor-chemminer: >=3.34.0,<3.35.0
-   :depends bioconductor-fmcsr: >=1.24.0,<1.25.0
-   :depends bioconductor-gosemsim: >=2.8.0,<2.9.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-chemminer: >=3.36.0,<3.37.0
+   :depends bioconductor-fmcsr: >=1.26.0,<1.27.0
+   :depends bioconductor-gosemsim: >=2.10.0,<2.11.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-doparallel: 
    :depends r-foreach: 
    :depends r-rcdk: >=3.3.8

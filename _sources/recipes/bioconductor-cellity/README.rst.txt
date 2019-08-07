@@ -22,13 +22,13 @@ bioconductor-cellity
 
    |downloads_bioconductor-cellity| |docker_bioconductor-cellity|
 
-   :versions: 1.10.0-0
+   :versions: 1.12.0-1, 1.10.0-0
    
-   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
-   :depends bioconductor-org.mm.eg.db: >=3.7.0,<3.8.0
-   :depends bioconductor-topgo: >=2.34.0,<2.35.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-org.mm.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-topgo: >=2.36.0,<2.37.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-e1071: 
    :depends r-ggplot2: 
    :depends r-mvoutlier: 

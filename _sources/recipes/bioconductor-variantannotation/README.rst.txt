@@ -23,7 +23,7 @@ bioconductor-variantannotation
 
    |downloads_bioconductor-variantannotation| |docker_bioconductor-variantannotation|
 
-   :versions: 1.30.1-0, 1.28.3-0, 1.26.1-0, 1.24.1-0, 1.22.3-0, 1.20.3-0, 1.18.7-0, 1.16.4-0, 1.16.3-0, 1.16.1-0, 1.16.0-0
+   :versions: 1.30.1-0, 1.30.0-0, 1.28.3-0, 1.26.1-0, 1.24.1-0, 1.22.3-0, 1.20.3-0, 1.18.7-0, 1.16.4-0, 1.16.3-0, 1.16.1-0, 1.16.0-0
    
    :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
    :depends bioconductor-biobase: >=2.44.0,<2.45.0

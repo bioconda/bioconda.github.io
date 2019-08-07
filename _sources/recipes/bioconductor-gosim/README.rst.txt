@@ -31,7 +31,8 @@ bioconductor-gosim
    :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
    :depends bioconductor-rbgl: >=1.60.0,<1.61.0
    :depends bioconductor-topgo: >=2.36.0,<2.37.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-cluster: 
    :depends r-corpcor: 

@@ -22,12 +22,12 @@ bioconductor-ritan
 
    |downloads_bioconductor-ritan| |docker_bioconductor-ritan|
 
-   :versions: 1.6.0-1, 1.6.0-0
+   :versions: 1.8.0-1, 1.6.0-1, 1.6.0-0
    
-   :depends bioconductor-bgeedb: >=2.8.0,<2.9.0
-   :depends bioconductor-ritandata: >=1.6.0,<1.7.0
-   :depends bioconductor-stringdb: >=1.22.0,<1.23.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-bgeedb: >=2.10.0,<2.11.0
+   :depends bioconductor-ritandata: >=1.8.0,<1.9.0
+   :depends bioconductor-stringdb: >=1.24.0,<1.25.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-dynamictreecut: 
    :depends r-ggplot2: 
    :depends r-gplots: 

@@ -29,6 +29,7 @@ bioconductor-deseq
    :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
    :depends bioconductor-genefilter: >=1.66.0,<1.67.0
    :depends bioconductor-geneplotter: >=1.62.0,<1.63.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-lattice: 
    :depends r-locfit: 

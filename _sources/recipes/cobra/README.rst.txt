@@ -9,7 +9,7 @@ cobra
 .. conda:recipe:: cobra
    :replaces_section_title:
 
-   COBRApy is a package for constraint\-based modeling of biological networks
+   COBRApy is a package for constraint\-based modeling of biological networks.
 
    :homepage: https://opencobra.github.io/cobrapy
    :license: GNU Lesser General Public License v2 or later (LGPLv2+) or GNU General Public License v2 or later (GPLv2+)
@@ -22,16 +22,18 @@ cobra
 
    |downloads_cobra| |docker_cobra|
 
-   :versions: 0.10.1-1, 0.10.1-0, 0.4.0-1, 0.4.0-0, 0.4.0b6-0
+   :versions: 0.15.4-0, 0.10.1-1, 0.10.1-0, 0.4.0-1, 0.4.0-0, 0.4.0b6-0
    
+   :depends depinfo: >=1.5.1
    :depends future: 
-   :depends numpy: >=1.6
-   :depends optlang: >=1.2.5
-   :depends pandas: >=0.17.0
+   :depends numpy: >=1.10.0
+   :depends optlang: >=1.4.4
+   :depends pandas: >=0.23.0
    :depends python: 
-   :depends ruamel.yaml: <0.15
+   :depends python-libsbml: >=5.18.0
+   :depends ruamel.yaml: >=0.15
    :depends six: 
-   :depends swiglpk: 
+   :depends swiglpk: >=4.65
    :depends tabulate: 
    :requirements:
 
