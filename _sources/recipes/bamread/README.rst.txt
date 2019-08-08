@@ -22,15 +22,14 @@ bamread
 
    |downloads_bamread| |docker_bamread|
 
-   :versions: 0.0.4-0
+   :versions: 0.0.4-1, 0.0.4-0
    
-   :depends cython: 
    :depends libgcc-ng: >=7.3.0
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 
    :depends pysam: 
-   :depends python: >=3.7,<3.8.0a0
+   :depends python: >=3.6,<3.7.0a0
    :depends scipy: 
    :requirements:
 

@@ -22,8 +22,22 @@ bioconductor-tnbc.cms
 
    |downloads_bioconductor-tnbc.cms| |docker_bioconductor-tnbc.cms|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-gsva: >=1.32.0,<1.33.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-e1071: 
+   :depends r-forestplot: 
+   :depends r-ggally: 
+   :depends r-ggplot2: 
+   :depends r-ggpubr: 
+   :depends r-pheatmap: 
+   :depends r-pracma: 
+   :depends r-quadprog: 
+   :depends r-r.utils: 
+   :depends r-rcolorbrewer: 
+   :depends r-survival: 
    :requirements:
 
    .. rubric:: Installation

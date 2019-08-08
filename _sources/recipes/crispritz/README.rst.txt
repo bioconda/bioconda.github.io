@@ -11,7 +11,7 @@ crispritz
 
    CRISPRitz\, tool package for CRISPR experiments assessment and analysis.
 
-   :homepage: https://github.com/InfOmics/CRISPRitz
+   :homepage: https://github.com/pinellolab/CRISPRitz
    :license: GPL3
    :recipe: /`crispritz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crispritz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crispritz/meta.yaml>`_
 
@@ -22,21 +22,24 @@ crispritz
 
    |downloads_crispritz| |docker_crispritz|
 
-   :versions: 1.2.1-0, 1.2.0-0, 1.1.1-1, 1.1.1-0, 1.1.0-1, 1.1.0-0, 1.0.5-0, 1.0.3-0
+   :versions: 2.1.1-0, 2.1.0-0, 1.2.1-0, 1.2.0-0, 1.1.1-1, 1.1.1-0, 1.1.0-1, 1.1.0-0, 1.0.5-0, 1.0.3-0
    
    :depends bcftools: 
-   :depends boost: >=1.68.0,<1.68.1.0a0
+   :depends bedtools: 
+   :depends biopython: 
+   :depends boost: >=1.70.0,<1.70.1.0a0
    :depends intervaltree: 
    :depends libcxx: 
    :depends libdeflate: >=1.0,<1.1.0a0
-   :depends libgcc-ng: >=5.4.0
-   :depends libstdcxx-ng: >=5.4.0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends matplotlib: 
    :depends more-itertools: 
    :depends numpy: 
    :depends openmp: 
    :depends pandas: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3.6,<3.7.0a0
+   :depends scikit-learn: 0.21.2.*
    :depends scipy: 
    :depends statsmodels: 
    :depends tk: >=8.6.9,<8.7.0a0

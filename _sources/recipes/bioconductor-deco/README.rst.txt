@@ -22,8 +22,28 @@ bioconductor-deco
 
    |downloads_bioconductor-deco| |docker_bioconductor-deco|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-biocstyle: >=2.12.0,<2.13.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-made4: >=1.58.0,<1.59.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-ade4: 
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-cluster: 
+   :depends r-foreign: 
+   :depends r-gdata: 
+   :depends r-ggplot2: 
+   :depends r-gplots: 
+   :depends r-gridextra: 
+   :depends r-locfit: 
+   :depends r-rcolorbrewer: 
+   :depends r-reshape2: 
+   :depends r-scatterplot3d: 
+   :depends r-sfsmisc: 
    :requirements:
 
    .. rubric:: Installation

@@ -22,8 +22,32 @@ bioconductor-precisiontrialdrawer
 
    |downloads_bioconductor-precisiontrialdrawer| |docker_bioconductor-precisiontrialdrawer|
 
-   :versions: 
+   :versions: 1.0.1-0
    
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-biomart: >=2.40.0,<2.41.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-lowmacaannotation: >=0.99.0,<0.100.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-brglm: 
+   :depends r-cgdsr: 
+   :depends r-data.table: 
+   :depends r-dt: 
+   :depends r-ggplot2: 
+   :depends r-ggrepel: 
+   :depends r-googlevis: 
+   :depends r-httr: 
+   :depends r-jsonlite: 
+   :depends r-magrittr: 
+   :depends r-matrixstats: 
+   :depends r-rcolorbrewer: 
+   :depends r-reshape2: 
+   :depends r-shiny: 
+   :depends r-shinybs: 
+   :depends r-stringr: 
+   :depends r-xml: 
    :requirements:
 
    .. rubric:: Installation

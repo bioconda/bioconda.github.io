@@ -22,11 +22,11 @@ maaslin2
 
    |downloads_maaslin2| |docker_maaslin2|
 
-   :versions: 0.99.2-0, 0.99.1-0, 0.3.0-0
+   :versions: 0.99.12-0, 0.99.2-0, 0.99.1-0, 0.3.0-0
    
    :depends bioconductor-edger: 
    :depends bioconductor-metagenomeseq: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-car: 
    :depends r-chemometrics: 
    :depends r-cplm: 

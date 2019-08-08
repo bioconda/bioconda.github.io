@@ -23,17 +23,17 @@ bioconductor-a4base
 
    |downloads_bioconductor-a4base| |docker_bioconductor-a4base|
 
-   :versions: 1.30.0-0, 1.28.0-0, 1.26.0-0
+   :versions: 1.32.0-1, 1.30.0-0, 1.28.0-0, 1.26.0-0
    
-   :depends bioconductor-a4core: >=1.30.0,<1.31.0
-   :depends bioconductor-a4preproc: >=1.30.0,<1.31.0
-   :depends bioconductor-annaffy: >=1.54.0,<1.55.0
-   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends bioconductor-genefilter: >=1.64.0,<1.65.0
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends bioconductor-multtest: >=2.38.0,<2.39.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-a4core: >=1.32.0,<1.33.0
+   :depends bioconductor-a4preproc: >=1.32.0,<1.33.0
+   :depends bioconductor-annaffy: >=1.56.0,<1.57.0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-genefilter: >=1.66.0,<1.67.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-multtest: >=2.40.0,<2.41.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-glmnet: 
    :depends r-gplots: 
    :depends r-mpm: 

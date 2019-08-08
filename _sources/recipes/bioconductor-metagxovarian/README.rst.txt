@@ -22,15 +22,16 @@ bioconductor-metagxovarian
 
    |downloads_bioconductor-metagxovarian| |docker_bioconductor-metagxovarian|
 
-   :versions: 1.2.0-0
+   :versions: 1.4.0-1, 1.2.0-0
    
-   :depends bioconductor-annotationhub: >=2.14.0,<2.15.0
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends bioconductor-experimenthub: >=1.8.0,<1.9.0
-   :depends bioconductor-impute: >=1.56.0,<1.57.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
+   :depends bioconductor-impute: >=1.58.0,<1.59.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-lattice: 
-   :depends wget: 
    :requirements:
 
    .. rubric:: Installation

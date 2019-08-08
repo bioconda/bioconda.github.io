@@ -29,6 +29,7 @@ bioconductor-gsva
    :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
    :depends bioconductor-geneplotter: >=1.62.0,<1.63.0
    :depends bioconductor-gseabase: >=1.46.0,<1.47.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-shiny: 
    :depends r-shinythemes: 

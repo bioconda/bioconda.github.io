@@ -23,7 +23,7 @@ bioconductor-bsgenome
 
    |downloads_bioconductor-bsgenome| |docker_bioconductor-bsgenome|
 
-   :versions: 1.52.0-0, 1.50.0-0, 1.48.0-0, 1.46.0-0, 1.44.2-0, 1.42.0-0, 1.40.1-0, 1.38.0-0
+   :versions: 1.52.0-1, 1.52.0-0, 1.50.0-0, 1.48.0-0, 1.46.0-0, 1.44.2-0, 1.42.0-0, 1.40.1-0, 1.38.0-0
    
    :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
    :depends bioconductor-biostrings: >=2.52.0,<2.53.0

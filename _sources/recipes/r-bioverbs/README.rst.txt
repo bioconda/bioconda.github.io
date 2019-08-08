@@ -23,7 +23,7 @@ r-bioverbs
 
    |downloads_r-bioverbs| |docker_r-bioverbs|
 
-   :versions: 0.2.1-0, 0.2.0-0, 0.1.19-0, 0.1.8-0, 0.1.6-0
+   :versions: 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.19-0, 0.1.8-0, 0.1.6-0
    
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

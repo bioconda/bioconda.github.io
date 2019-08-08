@@ -23,14 +23,15 @@ bioconductor-genefu
 
    |downloads_bioconductor-genefu| |docker_bioconductor-genefu|
 
-   :versions: 2.14.0-0, 2.12.0-0, 2.10.0-0
+   :versions: 2.16.0-1, 2.14.0-0, 2.12.0-0, 2.10.0-0
    
-   :depends bioconductor-aims: >=1.14.0,<1.15.0
-   :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends bioconductor-survcomp: >=1.32.0,<1.33.0
+   :depends bioconductor-aims: >=1.16.0,<1.17.0
+   :depends bioconductor-biomart: >=2.40.0,<2.41.0
+   :depends bioconductor-impute: >=1.58.0,<1.59.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-survcomp: >=1.34.0,<1.35.0
    :depends r-amap: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-ic10: 
    :depends r-mclust: 
    :requirements:

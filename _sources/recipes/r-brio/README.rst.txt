@@ -23,26 +23,26 @@ r-brio
 
    |downloads_r-brio| |docker_r-brio|
 
-   :versions: 0.2.2-0, 0.2.1-0, 0.1.8-0, 0.1.6-0
+   :versions: 0.3.2-0, 0.2.2-0, 0.2.1-0, 0.1.8-0, 0.1.6-0
    
-   :depends bioconductor-genomicranges: 
-   :depends bioconductor-rtracklayer: 
-   :depends bioconductor-s4vectors: 
-   :depends bioconductor-singlecellexperiment: 
-   :depends bioconductor-summarizedexperiment: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends r-bioverbs: >=0.1.18
+   :depends bioconductor-genomicranges: >=1.36
+   :depends bioconductor-rtracklayer: >=1.44
+   :depends bioconductor-s4vectors: >=0.22
+   :depends bioconductor-singlecellexperiment: >=1.6
+   :depends bioconductor-summarizedexperiment: >=1.14
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-bioverbs: >=0.2
    :depends r-curl: >=1.95
    :depends r-data.table: >=1.12
-   :depends r-goalie: >=0.2.16
+   :depends r-goalie: >=0.2.18
    :depends r-jsonlite: >=1.6
    :depends r-matrix: >=1.2
-   :depends r-r.utils: >=2.8
+   :depends r-r.utils: >=2.9
    :depends r-readr: >=1.3
    :depends r-rio: >=0.5
    :depends r-stringr: >=1.4
    :depends r-tibble: >=2.1
-   :depends r-transformer: >=0.1.11
+   :depends r-transformer: >=0.2
    :depends r-yaml: >=2.2
    :requirements:
 

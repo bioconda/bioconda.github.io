@@ -22,7 +22,7 @@ pathogist
 
    |downloads_pathogist| |docker_pathogist|
 
-   :versions: 0.3.2-0, 0.3.1-0, 0.3-0, 0.2.3-0
+   :versions: 0.3.6-0, 0.3.2-0, 0.3.1-0, 0.3-0, 0.2.3-0
    
    :depends coincbc: >=2.9.9
    :depends khmer: 

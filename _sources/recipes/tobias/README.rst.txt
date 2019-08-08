@@ -26,13 +26,13 @@ tobias
 
    |downloads_tobias| |docker_tobias|
 
-   :versions: 0.6.1-0, 0.5.0-0
+   :versions: 0.6.4-0, 0.6.1-0, 0.5.0-0
    
    :depends adjusttext: 
    :depends libgcc-ng: >=7.3.0
    :depends matplotlib: >=2
    :depends moods: 
-   :depends numpy: >=1.9.3,<2.0a0
+   :depends numpy: >=1.14.6,<2.0a0
    :depends pandas: 
    :depends pybedtools: 
    :depends pybigwig: 

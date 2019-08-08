@@ -11,7 +11,7 @@ gtdbtk
 
    A toolkit for assigning objective taxonomic classifications to bacterial and archaeal genomes.
 
-   :homepage: http://pypi.python.org/pypi/gtdbtk/
+   :homepage: https://github.com/Ecogenomics/GTDBTk
    :license: GPL3 / GNU General Public v3 (GPLv3)
    :recipe: /`gtdbtk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gtdbtk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gtdbtk/meta.yaml>`_
 
@@ -22,7 +22,7 @@ gtdbtk
 
    |downloads_gtdbtk| |docker_gtdbtk|
 
-   :versions: 0.3.2-0, 0.3.1-0, 0.3.0-1, 0.3.0-0, 0.2.2-0, 0.1.6-0, 0.1.5-0, 0.1.3-0
+   :versions: 0.3.2-1, 0.3.2-0, 0.3.1-0, 0.3.0-1, 0.3.0-0, 0.2.2-0, 0.1.6-0, 0.1.5-0, 0.1.3-0
    
    :depends dendropy: >=4.1.0
    :depends fastani: 
@@ -31,7 +31,7 @@ gtdbtk
    :depends hmmer: 
    :depends pplacer: 
    :depends prodigal: 
-   :depends python: <3
+   :depends python: >=2.7,<2.8.0a0
    :requirements:
 
    .. rubric:: Installation

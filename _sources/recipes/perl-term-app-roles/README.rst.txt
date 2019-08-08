@@ -22,7 +22,7 @@ perl-term-app-roles
 
    |downloads_perl-term-app-roles| |docker_perl-term-app-roles|
 
-   :versions: 0.02-0, 0.01-2, 0.01-0
+   :versions: 0.030-0, 0.02-0, 0.01-2, 0.01-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-moo: 

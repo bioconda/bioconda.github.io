@@ -22,8 +22,29 @@ bioconductor-adamgui
 
    |downloads_bioconductor-adamgui| |docker_bioconductor-adamgui|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-adam: >=1.0.0,<1.1.0
+   :depends bioconductor-go.db: >=3.8.0,<3.9.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-colorramps: >=2.3
+   :depends r-data.table: >=1.11.4
+   :depends r-dplyr: >=0.7.6
+   :depends r-dt: >=0.4
+   :depends r-ggplot2: >=3.0.0
+   :depends r-ggpubr: >=0.1.8
+   :depends r-ggrepel: >=0.8.0
+   :depends r-ggsignif: >=0.4.0
+   :depends r-gridextra: >=2.3
+   :depends r-knitr: 
+   :depends r-rcolorbrewer: >=1.1-2
+   :depends r-reshape2: >=1.4.3
+   :depends r-shiny: >=1.1.0
+   :depends r-shinyjs: >=1.0
+   :depends r-stringi: >=1.2.4
+   :depends r-stringr: >=1.3.1
+   :depends r-testthat: 
+   :depends r-varhandle: >=2.0.3
    :requirements:
 
    .. rubric:: Installation

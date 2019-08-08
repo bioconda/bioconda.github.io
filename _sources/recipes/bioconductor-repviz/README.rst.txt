@@ -22,8 +22,14 @@ bioconductor-repviz
 
    |downloads_bioconductor-repviz| |docker_bioconductor-repviz|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-biomart: >=2.40.0,<2.41.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

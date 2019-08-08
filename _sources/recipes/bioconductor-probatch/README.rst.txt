@@ -22,8 +22,33 @@ bioconductor-probatch
 
    |downloads_bioconductor-probatch| |docker_bioconductor-probatch|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-preprocesscore: >=1.46.0,<1.47.0
+   :depends bioconductor-pvca: >=1.24.0,<1.25.0
+   :depends bioconductor-sva: >=3.32.0,<3.33.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-corrplot: 
+   :depends r-data.table: 
+   :depends r-dplyr: 
+   :depends r-ggfortify: 
+   :depends r-ggplot2: 
+   :depends r-lazyeval: 
+   :depends r-lubridate: 
+   :depends r-magrittr: 
+   :depends r-pheatmap: 
+   :depends r-purrr: 
+   :depends r-rcolorbrewer: 
+   :depends r-readr: 
+   :depends r-reshape2: 
+   :depends r-rlang: 
+   :depends r-scales: 
+   :depends r-tibble: 
+   :depends r-tidyr: 
+   :depends r-viridis: 
+   :depends r-wesanderson: 
+   :depends r-wgcna: 
    :requirements:
 
    .. rubric:: Installation

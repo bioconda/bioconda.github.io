@@ -22,14 +22,14 @@ bioconductor-tenxpbmcdata
 
    |downloads_bioconductor-tenxpbmcdata| |docker_bioconductor-tenxpbmcdata|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-1, 1.0.0-0
    
-   :depends bioconductor-annotationhub: >=2.14.0,<2.15.0
-   :depends bioconductor-experimenthub: >=1.8.0,<1.9.0
-   :depends bioconductor-hdf5array: >=1.10.0,<1.11.0
-   :depends bioconductor-singlecellexperiment: >=1.4.0,<1.5.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
+   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
+   :depends bioconductor-hdf5array: >=1.12.0,<1.13.0
+   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation
