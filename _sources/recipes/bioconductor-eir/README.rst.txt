@@ -27,7 +27,8 @@ bioconductor-eir
    :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
    :depends bioconductor-chemminer: >=3.36.0,<3.37.0
    :depends bioconductor-gesper: >=1.16.0,<1.17.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dbi: 
    :depends r-digest: 

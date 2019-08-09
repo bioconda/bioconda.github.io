@@ -22,7 +22,7 @@ galaxy-ml
 
    |downloads_galaxy-ml| |docker_galaxy-ml|
 
-   :versions: 0.7.9-0, 0.7.8-0, 0.7.7-1, 0.7.7-0, 0.7.5-0, 0.7.4.1-0
+   :versions: 0.7.10-0, 0.7.9-0, 0.7.8-0, 0.7.7-1, 0.7.7-0, 0.7.5-0, 0.7.4.1-0
    
    :depends asteval: 0.9.13
    :depends imbalanced-learn: 0.4.3

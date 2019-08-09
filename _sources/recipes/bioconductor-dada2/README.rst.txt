@@ -30,7 +30,8 @@ bioconductor-dada2
    :depends bioconductor-iranges: >=2.18.0,<2.19.0
    :depends bioconductor-shortread: >=1.42.0,<1.43.0
    :depends bioconductor-xvector: >=0.24.0,<0.25.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: >=2.1.0
    :depends r-rcpp: >=0.12.0

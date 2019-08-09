@@ -23,20 +23,20 @@ bioconductor-translatome
 
    |downloads_bioconductor-translatome| |docker_bioconductor-translatome|
 
-   :versions: 1.20.0-0, 1.18.5-0, 1.16.0-0
+   :versions: 1.22.0-1, 1.20.0-0, 1.18.5-0, 1.16.0-0
    
-   :depends bioconductor-anota: >=1.30.0,<1.31.0
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends bioconductor-deseq: >=1.34.0,<1.35.0
-   :depends bioconductor-edger: >=3.24.0,<3.25.0
-   :depends bioconductor-gosemsim: >=2.8.0,<2.9.0
-   :depends bioconductor-heatplus: >=2.28.0,<2.29.0
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
-   :depends bioconductor-rankprod: >=3.8.0,<3.9.0
-   :depends bioconductor-sigpathway: >=1.50.0,<1.51.0
-   :depends bioconductor-topgo: >=2.34.0,<2.35.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-anota: >=1.32.0,<1.33.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-deseq: >=1.36.0,<1.37.0
+   :depends bioconductor-edger: >=3.26.0,<3.27.0
+   :depends bioconductor-gosemsim: >=2.10.0,<2.11.0
+   :depends bioconductor-heatplus: >=2.30.0,<2.31.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-rankprod: >=3.10.0,<3.11.0
+   :depends bioconductor-sigpathway: >=1.52.0,<1.53.0
+   :depends bioconductor-topgo: >=2.36.0,<2.37.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-gplots: 
    :depends r-plotrix: 
    :requirements:

@@ -22,16 +22,16 @@ bioconductor-rnainteractmapk
 
    |downloads_bioconductor-rnainteractmapk| |docker_bioconductor-rnainteractmapk|
 
-   :versions: 1.20.0-0
+   :versions: 1.22.0-1, 1.20.0-0
    
-   :depends bioconductor-genefilter: >=1.64.0,<1.65.0
-   :depends bioconductor-rnainteract: >=1.30.0,<1.31.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-genefilter: >=1.66.0,<1.67.0
+   :depends bioconductor-rnainteract: >=1.32.0,<1.33.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-fields: 
    :depends r-gdata: 
    :depends r-mass: 
    :depends r-sparselda: 
-   :depends wget: 
    :requirements:
 
    .. rubric:: Installation

@@ -23,16 +23,16 @@ bioconductor-dose
 
    |downloads_bioconductor-dose| |docker_bioconductor-dose|
 
-   :versions: 3.8.0-0, 3.6.1-0, 3.4.0-0, 3.2.0-0, 2.10.7-0, 2.10.6-0, 2.8.3-0, 2.8.2-0
+   :versions: 3.10.2-0, 3.8.0-0, 3.6.1-0, 3.4.0-0, 3.2.0-0, 2.10.7-0, 2.10.6-0, 2.8.3-0, 2.8.2-0
    
-   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
    :depends bioconductor-do.db: 2.9.*
-   :depends bioconductor-fgsea: >=1.8.0,<1.9.0
-   :depends bioconductor-gosemsim: >=2.8.0,<2.9.0
-   :depends bioconductor-qvalue: >=2.14.0,<2.15.0
-   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-fgsea: >=1.10.0,<1.11.0
+   :depends bioconductor-gosemsim: >=2.10.0,<2.11.0
+   :depends bioconductor-qvalue: >=2.16.0,<2.17.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 
    :depends r-reshape2: 
    :requirements:

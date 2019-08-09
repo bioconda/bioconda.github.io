@@ -22,9 +22,9 @@ pb-dazzler
 
    |downloads_pb-dazzler| |docker_pb-dazzler|
 
-   :versions: 0.0.0-0
+   :versions: 0.0.1-0, 0.0.0-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

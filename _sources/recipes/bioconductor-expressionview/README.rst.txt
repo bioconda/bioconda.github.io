@@ -28,7 +28,8 @@ bioconductor-expressionview
    :depends bioconductor-eisa: >=1.36.0,<1.37.0
    :depends bioconductor-go.db: >=3.8.0,<3.9.0
    :depends bioconductor-kegg.db: >=3.2.0,<3.3.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-bitops: 
    :depends r-catools: 

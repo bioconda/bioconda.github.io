@@ -23,7 +23,7 @@ r-transformer
 
    |downloads_r-transformer| |docker_r-transformer|
 
-   :versions: 0.2.1-0, 0.2.0-0, 0.1.12-0, 0.1.11-0, 0.1.6-0, 0.1.4-0
+   :versions: 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.12-0, 0.1.11-0, 0.1.6-0, 0.1.4-0
    
    :depends bioconductor-biocgenerics: 
    :depends bioconductor-genomicranges: 
@@ -33,6 +33,7 @@ r-transformer
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-bioverbs: >=0.2.0
    :depends r-data.table: >=1.12
+   :depends r-dplyr: >=0.8
    :depends r-goalie: >=0.2.18
    :depends r-matrix: >=1.2
    :depends r-tibble: >=2.1

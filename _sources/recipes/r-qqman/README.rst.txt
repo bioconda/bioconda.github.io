@@ -22,9 +22,9 @@ r-qqman
 
    |downloads_r-qqman| |docker_r-qqman|
 
-   :versions: 0.1.4-3, 0.1.4-2, 0.1.4-0, 0.1.2-0
+   :versions: 0.1.4-4, 0.1.4-3, 0.1.4-2, 0.1.4-0, 0.1.2-0
    
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-calibrate: 
    :requirements:
 

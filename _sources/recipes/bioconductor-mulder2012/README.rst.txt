@@ -22,18 +22,18 @@ bioconductor-mulder2012
 
    |downloads_bioconductor-mulder2012| |docker_bioconductor-mulder2012|
 
-   :versions: 0.22.0-0
+   :versions: 0.24.0-1, 0.22.0-0
    
-   :depends bioconductor-htsanalyzer: >=2.34.0,<2.35.0
+   :depends bioconductor-htsanalyzer: >=2.36.0,<2.37.0
    :depends bioconductor-kegg.db: >=3.2.0,<3.3.0
-   :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
-   :depends bioconductor-panr: >=1.28.0,<1.29.0
-   :depends bioconductor-reder: >=1.30.0,<1.31.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-panr: >=1.30.0,<1.31.0
+   :depends bioconductor-reder: >=1.32.0,<1.33.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-igraph: 
    :depends r-mass: 
    :depends r-pvclust: 
-   :depends wget: 
    :requirements:
 
    .. rubric:: Installation

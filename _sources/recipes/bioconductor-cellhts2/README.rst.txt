@@ -23,17 +23,17 @@ bioconductor-cellhts2
 
    |downloads_bioconductor-cellhts2| |docker_bioconductor-cellhts2|
 
-   :versions: 2.46.0-0, 2.44.0-0, 2.42.0-0, 2.40.0-0
+   :versions: 2.48.0-1, 2.46.0-0, 2.44.0-0, 2.42.0-0, 2.40.0-0
    
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends bioconductor-category: >=2.48.0,<2.49.0
-   :depends bioconductor-genefilter: >=1.64.0,<1.65.0
-   :depends bioconductor-gseabase: >=1.44.0,<1.45.0
-   :depends bioconductor-prada: >=1.58.0,<1.59.0
-   :depends bioconductor-splots: >=1.48.0,<1.49.0
-   :depends bioconductor-vsn: >=3.50.0,<3.51.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-category: >=2.50.0,<2.51.0
+   :depends bioconductor-genefilter: >=1.66.0,<1.67.0
+   :depends bioconductor-gseabase: >=1.46.0,<1.47.0
+   :depends bioconductor-prada: >=1.60.0,<1.61.0
+   :depends bioconductor-splots: >=1.50.0,<1.51.0
+   :depends bioconductor-vsn: >=3.52.0,<3.53.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-hwriter: 
    :depends r-locfit: 
    :depends r-rcolorbrewer: 

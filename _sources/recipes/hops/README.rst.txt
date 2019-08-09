@@ -22,7 +22,7 @@ hops
 
    |downloads_hops| |docker_hops|
 
-   :versions: 0.31-0
+   :versions: 0.31-1, 0.31-0
    
    :depends malt: 
    :depends openjdk: 8.0.144.*

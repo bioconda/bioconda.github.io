@@ -22,13 +22,13 @@ bioconductor-cemitool
 
    |downloads_bioconductor-cemitool| |docker_bioconductor-cemitool|
 
-   :versions: 1.6.10-0
+   :versions: 1.8.3-0, 1.6.10-0
    
-   :depends bioconductor-clusterprofiler: >=3.10.0,<3.11.0
-   :depends bioconductor-fgsea: >=1.8.0,<1.9.0
-   :depends bioconductor-geneoverlap: >=1.18.0,<1.19.0
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-clusterprofiler: >=3.12.0,<3.13.0
+   :depends bioconductor-fgsea: >=1.10.0,<1.11.0
+   :depends bioconductor-geneoverlap: >=1.20.0,<1.21.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: >=1.9.4
    :depends r-dplyr: 
    :depends r-dt: 

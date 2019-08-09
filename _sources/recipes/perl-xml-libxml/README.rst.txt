@@ -22,9 +22,10 @@ perl-xml-libxml
 
    |downloads_perl-xml-libxml| |docker_perl-xml-libxml|
 
-   :versions: 2.0132-0, 2.0124-0
+   :versions: 2.0132-1, 2.0132-0, 2.0124-0
    
-   :depends libxml2: >=2.9.8,<2.10.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libxml2: >=2.9.9,<2.10.0a0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-xml-namespacesupport: 
    :depends perl-xml-sax: 

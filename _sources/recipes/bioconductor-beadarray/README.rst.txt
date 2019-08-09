@@ -33,6 +33,7 @@ bioconductor-beadarray
    :depends bioconductor-illuminaio: >=0.26.0,<0.27.0
    :depends bioconductor-iranges: >=2.18.0,<2.19.0
    :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 
    :depends r-hexbin: 

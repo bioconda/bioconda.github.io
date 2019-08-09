@@ -23,15 +23,15 @@ bioconductor-ioniser
 
    |downloads_bioconductor-ioniser| |docker_bioconductor-ioniser|
 
-   :versions: 2.6.0-0, 2.4.0-0, 2.2.0-0
+   :versions: 2.8.0-1, 2.6.0-0, 2.4.0-0, 2.2.0-0
    
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
-   :depends bioconductor-shortread: >=1.40.0,<1.41.0
-   :depends bioconductor-xvector: >=0.22.0,<0.23.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-rhdf5: >=2.28.0,<2.29.0
+   :depends bioconductor-shortread: >=1.42.0,<1.43.0
+   :depends bioconductor-xvector: >=0.24.0,<0.25.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-bit64: 
    :depends r-dplyr: 
    :depends r-ggplot2: 

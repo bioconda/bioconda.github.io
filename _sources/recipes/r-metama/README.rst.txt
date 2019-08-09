@@ -22,10 +22,10 @@ r-metama
 
    |downloads_r-metama| |docker_r-metama|
 
-   :versions: 3.1.2-3, 3.1.2-2, 3.1.2-0
+   :versions: 3.1.2-4, 3.1.2-3, 3.1.2-2, 3.1.2-0
    
    :depends bioconductor-limma: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-smvar: 
    :requirements:
 

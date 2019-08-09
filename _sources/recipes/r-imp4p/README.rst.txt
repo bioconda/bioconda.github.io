@@ -22,11 +22,11 @@ r-imp4p
 
    |downloads_r-imp4p| |docker_r-imp4p|
 
-   :versions: 0.7-0
+   :versions: 0.7-1, 0.7-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-iso: 
    :depends r-norm: 
    :depends r-rcpp: >=0.12.8

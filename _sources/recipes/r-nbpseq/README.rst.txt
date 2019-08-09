@@ -22,11 +22,11 @@ r-nbpseq
 
    |downloads_r-nbpseq| |docker_r-nbpseq|
 
-   :versions: 0.3.0-0
+   :versions: 0.3.0-1, 0.3.0-0
    
    :depends bioconductor-qvalue: 
    :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

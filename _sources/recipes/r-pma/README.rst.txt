@@ -22,12 +22,12 @@ r-pma
 
    |downloads_r-pma| |docker_r-pma|
 
-   :versions: 1.1-0, 1.0.11-4, 1.0.11-3, 1.0.11-2, 1.0.11-1, 1.0.11-0
+   :versions: 1.1-1, 1.1-0, 1.0.11-4, 1.0.11-3, 1.0.11-2, 1.0.11-1, 1.0.11-0
    
-   :depends bioconductor-impute: >=1.54.0,<1.57.0
+   :depends bioconductor-impute: 
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

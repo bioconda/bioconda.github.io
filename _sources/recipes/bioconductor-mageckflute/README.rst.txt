@@ -22,15 +22,14 @@ bioconductor-mageckflute
 
    |downloads_bioconductor-mageckflute| |docker_bioconductor-mageckflute|
 
-   :versions: 1.2.3-0, 1.2.2-0
+   :versions: 1.4.2-0, 1.2.3-0, 1.2.2-0
    
-   :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   :depends bioconductor-bladderbatch: >=1.20.0,<1.21.0
-   :depends bioconductor-clusterprofiler: >=3.10.0,<3.11.0
-   :depends bioconductor-dose: >=3.8.0,<3.9.0
-   :depends bioconductor-pathview: >=1.22.0,<1.23.0
-   :depends bioconductor-sva: >=3.30.0,<3.31.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biomart: >=2.40.0,<2.41.0
+   :depends bioconductor-clusterprofiler: >=3.12.0,<3.13.0
+   :depends bioconductor-dose: >=3.10.0,<3.11.0
+   :depends bioconductor-pathview: >=1.24.0,<1.25.0
+   :depends bioconductor-sva: >=3.32.0,<3.33.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-ggextra: 
    :depends r-ggplot2: 

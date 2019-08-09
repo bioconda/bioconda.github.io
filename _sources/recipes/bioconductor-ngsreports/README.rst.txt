@@ -22,8 +22,31 @@ bioconductor-ngsreports
 
    |downloads_bioconductor-ngsreports| |docker_bioconductor-ngsreports|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
+   :depends bioconductor-shortread: >=1.42.0,<1.43.0
+   :depends bioconductor-xvector: >=0.24.0,<0.25.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-checkmate: 
+   :depends r-dplyr: >=0.7.5
+   :depends r-ggdendro: 
+   :depends r-ggplot2: 
+   :depends r-lubridate: 
+   :depends r-plotly: 
+   :depends r-readr: 
+   :depends r-reshape2: 
+   :depends r-rmarkdown: 
+   :depends r-scales: 
+   :depends r-stringr: 
+   :depends r-tibble: >=1.3.1
+   :depends r-tidyr: 
+   :depends r-tidyselect: >=0.2.3
+   :depends r-truncnorm: 
+   :depends r-viridislite: 
+   :depends r-zoo: 
    :requirements:
 
    .. rubric:: Installation

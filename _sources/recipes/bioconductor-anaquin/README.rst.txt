@@ -22,11 +22,11 @@ bioconductor-anaquin
 
    |downloads_bioconductor-anaquin| |docker_bioconductor-anaquin|
 
-   :versions: 2.6.0-0
+   :versions: 2.8.0-1, 2.6.0-0
    
-   :depends bioconductor-deseq2: >=1.22.0,<1.23.0
-   :depends bioconductor-qvalue: >=2.14.0,<2.15.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-deseq2: >=1.24.0,<1.25.0
+   :depends bioconductor-qvalue: >=2.16.0,<2.17.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: >=2.2.0
    :depends r-knitr: 
    :depends r-locfit: 

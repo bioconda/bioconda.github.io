@@ -22,14 +22,14 @@ r-xgr
 
    |downloads_r-xgr| |docker_r-xgr|
 
-   :versions: 1.1.6-0, 1.1.5-0, 1.1.4-0
+   :versions: 1.1.6-1, 1.1.6-0, 1.1.5-0, 1.1.4-0
    
    :depends bioconductor-biocgenerics: 
    :depends bioconductor-genomicranges: 
    :depends bioconductor-iranges: 
    :depends bioconductor-s4vectors: 
    :depends bioconductor-suprahex: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-dnet: 
    :depends r-dplyr: 
    :depends r-ggnetwork: 
