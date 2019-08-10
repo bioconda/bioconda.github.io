@@ -29,6 +29,7 @@ bioconductor-genextender
    :depends bioconductor-go.db: >=3.8.0,<3.9.0
    :depends bioconductor-org.rn.eg.db: >=3.8.0,<3.9.0
    :depends bioconductor-rtracklayer: >=1.44.0,<1.45.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-dplyr: 

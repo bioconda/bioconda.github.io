@@ -22,8 +22,27 @@ bioconductor-cnvranger
 
    |downloads_bioconductor-cnvranger| |docker_bioconductor-cnvranger|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-edger: >=3.26.0,<3.27.0
+   :depends bioconductor-gdsarray: >=1.4.0,<1.5.0
+   :depends bioconductor-gdsfmt: >=1.20.0,<1.21.0
+   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-raggedexperiment: >=1.8.0,<1.9.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-snprelate: >=1.18.0,<1.19.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-data.table: 
+   :depends r-lattice: 
+   :depends r-plyr: 
+   :depends r-qqman: 
+   :depends r-rappdirs: 
+   :depends r-reshape2: 
    :requirements:
 
    .. rubric:: Installation

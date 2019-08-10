@@ -22,8 +22,16 @@ bioconductor-nestlink
 
    |downloads_bioconductor-nestlink| |docker_bioconductor-nestlink|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
+   :depends bioconductor-shortread: >=1.42.0,<1.43.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-gplots: >=3.0.0
+   :depends r-protviz: >=0.4.0
    :requirements:
 
    .. rubric:: Installation

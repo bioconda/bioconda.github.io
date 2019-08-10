@@ -23,7 +23,7 @@ bioconductor-genomicfeatures
 
    |downloads_bioconductor-genomicfeatures| |docker_bioconductor-genomicfeatures|
 
-   :versions: 1.36.0-0, 1.34.1-0, 1.32.3-0, 1.30.3-0, 1.30.0-0, 1.28.5-0, 1.26.4-0, 1.26.0-2, 1.24.5-2, 1.24.5-1, 1.24.5-0, 1.22.13-0, 1.22.6-0, 1.22.4-0, 1.22.0-0
+   :versions: 1.36.4-0, 1.36.0-0, 1.34.1-0, 1.32.3-0, 1.30.3-0, 1.30.0-0, 1.28.5-0, 1.26.4-0, 1.26.0-2, 1.24.5-2, 1.24.5-1, 1.24.5-0, 1.22.13-0, 1.22.6-0, 1.22.4-0, 1.22.0-0
    
    :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
    :depends bioconductor-biobase: >=2.44.0,<2.45.0

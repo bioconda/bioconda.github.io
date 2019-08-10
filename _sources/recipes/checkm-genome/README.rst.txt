@@ -22,7 +22,7 @@ checkm-genome
 
    |downloads_checkm-genome| |docker_checkm-genome|
 
-   :versions: 1.0.13-1, 1.0.13-0, 1.0.12-0, 1.0.11-1, 1.0.11-0, 1.0.7-0, 1.0.5-0
+   :versions: 1.0.16-0, 1.0.13-1, 1.0.13-0, 1.0.12-0, 1.0.11-1, 1.0.11-0, 1.0.7-0, 1.0.5-0
    
    :depends dendropy: >=4.0.0
    :depends hmmer: >=3.1b1
@@ -31,7 +31,7 @@ checkm-genome
    :depends pplacer: >1.0
    :depends prodigal: >=2.6.1
    :depends pysam: >=0.8.3
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: 2.7.*
    :depends scipy: >=0.9.0
    :requirements:
 

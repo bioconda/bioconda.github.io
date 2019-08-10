@@ -22,8 +22,15 @@ bioconductor-nbamseq
 
    |downloads_bioconductor-nbamseq| |docker_bioconductor-nbamseq|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-deseq2: >=1.24.0,<1.25.0
+   :depends bioconductor-genefilter: >=1.66.0,<1.67.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-mgcv: >=1.8-24
    :requirements:
 
    .. rubric:: Installation

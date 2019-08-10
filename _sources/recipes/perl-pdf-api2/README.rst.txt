@@ -22,7 +22,7 @@ perl-pdf-api2
 
    |downloads_perl-pdf-api2| |docker_perl-pdf-api2|
 
-   :versions: 2.034-0, 2.033-0, 2.025-3, 2.025-2, 2.025-1, 2.025-0
+   :versions: 2.035-0, 2.034-0, 2.033-0, 2.025-3, 2.025-2, 2.025-1, 2.025-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-font-ttf: 

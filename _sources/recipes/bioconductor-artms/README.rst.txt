@@ -22,16 +22,16 @@ bioconductor-artms
 
    |downloads_bioconductor-artms| |docker_bioconductor-artms|
 
-   :versions: 1.0.10-0, 1.0.1-0
+   :versions: 1.2.6-0, 1.0.10-0, 1.0.1-0
    
-   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   :depends bioconductor-complexheatmap: >=1.20.0,<1.21.0
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends bioconductor-msstats: >=3.14.0,<3.15.0
-   :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
-   :depends bioconductor-org.mm.eg.db: >=3.7.0,<3.8.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-biomart: >=2.40.0,<2.41.0
+   :depends bioconductor-complexheatmap: >=2.0.0,<2.1.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-msstats: >=3.16.0,<3.17.0
+   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-org.mm.eg.db: >=3.8.0,<3.9.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-bit64: 
    :depends r-circlize: 
    :depends r-cluster: 
@@ -53,6 +53,7 @@ bioconductor-artms
    :depends r-plyr: 
    :depends r-rcolorbrewer: 
    :depends r-reshape2: 
+   :depends r-scales: 
    :depends r-seqinr: 
    :depends r-stringr: 
    :depends r-tidyr: 

@@ -22,14 +22,14 @@ bioconductor-countsimqc
 
    |downloads_bioconductor-countsimqc| |docker_bioconductor-countsimqc|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-1, 1.0.0-0
    
-   :depends bioconductor-deseq2: >=1.22.0,<1.23.0
-   :depends bioconductor-edger: >=3.24.0,<3.25.0
-   :depends bioconductor-genefilter: >=1.64.0,<1.65.0
+   :depends bioconductor-deseq2: >=1.24.0,<1.25.0
+   :depends bioconductor-edger: >=3.26.0,<3.27.0
+   :depends bioconductor-genefilter: >=1.66.0,<1.67.0
    :depends bioconductor-genomeinfodbdata: >=1.2.0,<1.3.0
-   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-catools: 
    :depends r-dplyr: 
    :depends r-dt: 

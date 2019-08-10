@@ -9,13 +9,12 @@ prokka
 .. conda:recipe:: prokka
    :replaces_section_title:
 
-   A tool for the rapid annotation of prokaryotic genomes
+   Rapid annotation of prokaryotic genomes
 
-   :homepage: http://www.vicbioinformatics.com/software.prokka.shtml
-   :developer docs: https://github.com/tseemann/prokka
+   :homepage: https://github.com/tseemann/prokka
    :license: GPL / GPLv2
    :recipe: /`prokka <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prokka>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prokka/meta.yaml>`_
-   :links: biotools: :biotools:`prokka`
+   :links: biotools: :biotools:`prokka`, doi: :doi:`10.1093/bioinformatics/btu153`
 
    
 
@@ -24,7 +23,7 @@ prokka
 
    |downloads_prokka| |docker_prokka|
 
-   :versions: 1.13.7-0, 1.13.4-0, 1.13.3-0, 1.13-4, 1.13-3, 1.13-2, 1.13-1, 1.13-0, 1.12-4, 1.12-3, 1.12-2, 1.12-1, 1.12-0, 1.11-0
+   :versions: 1.14.0-0, 1.13.7-0, 1.13.4-0, 1.13.3-0, 1.13-4, 1.13-3, 1.13-2, 1.13-1, 1.13-0, 1.12-4, 1.12-3, 1.12-2, 1.12-1, 1.12-0, 1.11-0
    
    :depends aragorn: >=1.2
    :depends barrnap: >=0.7
@@ -37,7 +36,7 @@ prokka
    :depends perl-bioperl: >=1.7.2
    :depends perl-xml-simple: 
    :depends prodigal: >=2.6
-   :depends tbl2asn: >=25.6
+   :depends tbl2asn: >=25.7
    :requirements:
 
    .. rubric:: Installation

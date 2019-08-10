@@ -22,7 +22,7 @@ r-minems2
 
    |downloads_r-minems2| |docker_r-minems2|
 
-   :versions: 0.9.2-0, 0.9.1-0, 0.9-0
+   :versions: 0.9.3-0, 0.9.2-0, 0.9.1-0, 0.9-0
    
    :depends bioconductor-msnbase: 
    :depends libgcc-ng: >=7.3.0

@@ -22,7 +22,7 @@ bioblend
 
    |downloads_bioblend| |docker_bioblend|
 
-   :versions: 0.12.0-1, 0.12.0-0, 0.11.0-0, 0.10.0-1, 0.10.0-0, 0.8.0-0, 0.7.0-1, 0.7.0-0
+   :versions: 0.13.0-0, 0.12.0-1, 0.12.0-0, 0.11.0-0, 0.10.0-1, 0.10.0-0, 0.8.0-0, 0.7.0-1, 0.7.0-0
    
    :depends boto: >=2.9.7
    :depends python: 

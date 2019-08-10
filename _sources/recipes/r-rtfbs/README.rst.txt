@@ -22,10 +22,10 @@ r-rtfbs
 
    |downloads_r-rtfbs| |docker_r-rtfbs|
 
-   :versions: 0.3.9-1, 0.3.9-0
+   :versions: 0.3.9-2, 0.3.9-1, 0.3.9-0
    
    :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-rphast: 
    :requirements:
 

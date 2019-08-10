@@ -22,8 +22,12 @@ bioconductor-txdb.celegans.ucsc.ce11.ensgene
 
    |downloads_bioconductor-txdb.celegans.ucsc.ce11.ensgene| |docker_bioconductor-txdb.celegans.ucsc.ce11.ensgene|
 
-   :versions: 
+   :versions: 3.4.6-1
    
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-genomicfeatures: >=1.36.0,<1.37.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

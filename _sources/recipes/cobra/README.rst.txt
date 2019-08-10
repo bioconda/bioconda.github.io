@@ -22,7 +22,7 @@ cobra
 
    |downloads_cobra| |docker_cobra|
 
-   :versions: 0.15.4-0, 0.10.1-1, 0.10.1-0, 0.4.0-1, 0.4.0-0, 0.4.0b6-0
+   :versions: 0.16.0-0, 0.15.4-0, 0.10.1-1, 0.10.1-0, 0.4.0-1, 0.4.0-0, 0.4.0b6-0
    
    :depends depinfo: >=1.5.1
    :depends future: 

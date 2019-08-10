@@ -22,16 +22,16 @@ bioconductor-multihiccompare
 
    |downloads_bioconductor-multihiccompare| |docker_bioconductor-multihiccompare|
 
-   :versions: 1.0.0-1, 1.0.0-0
+   :versions: 1.2.0-1, 1.0.0-1, 1.0.0-0
    
-   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   :depends bioconductor-blma: >=1.6.0,<1.7.0
-   :depends bioconductor-edger: >=3.24.0,<3.25.0
-   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-blma: >=1.8.0,<1.9.0
+   :depends bioconductor-edger: >=3.26.0,<3.27.0
+   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
    :depends bioconductor-genomeinfodbdata: >=1.2.0,<1.3.0
-   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   :depends bioconductor-hiccompare: >=1.4.0,<1.5.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-hiccompare: >=1.6.0,<1.7.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-metap: 

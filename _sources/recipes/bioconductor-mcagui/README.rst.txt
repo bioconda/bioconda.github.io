@@ -22,8 +22,18 @@ bioconductor-mcagui
 
    |downloads_bioconductor-mcagui| |docker_bioconductor-mcagui|
 
-   :versions: 
+   :versions: 1.32.0-1
    
+   :depends bioconductor-otubase: >=1.34.0,<1.35.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-bpca: 
+   :depends r-foreign: 
+   :depends r-gwidgets: >=0.0-36
+   :depends r-gwidgetsrgtk2: >=0.0-53
+   :depends r-lattice: 
+   :depends r-mass: 
+   :depends r-proto: 
+   :depends r-vegan: 
    :requirements:
 
    .. rubric:: Installation

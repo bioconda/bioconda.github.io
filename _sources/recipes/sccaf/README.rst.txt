@@ -22,7 +22,7 @@ sccaf
 
    |downloads_sccaf| |docker_sccaf|
 
-   :versions: 0.0.2-0
+   :versions: 0.0.3-0, 0.0.2-0
    
    :depends louvain: 
    :depends numpy: 

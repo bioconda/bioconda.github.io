@@ -22,8 +22,38 @@ bioconductor-animalcules
 
    |downloads_bioconductor-animalcules| |docker_bioconductor-animalcules|
 
-   :versions: 
+   :versions: 1.0.6-0
    
+   :depends bioconductor-deseq2: >=1.24.0,<1.25.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-multiassayexperiment: >=1.10.0,<1.11.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-ape: 
+   :depends r-assertthat: 
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-caret: 
+   :depends r-covr: 
+   :depends r-dmwr: 
+   :depends r-dplyr: 
+   :depends r-dt: 
+   :depends r-forcats: 
+   :depends r-ggplot2: 
+   :depends r-glmnet: 
+   :depends r-httr: 
+   :depends r-lattice: 
+   :depends r-magrittr: 
+   :depends r-plotly: 
+   :depends r-plotroc: 
+   :depends r-rentrez: 
+   :depends r-reshape2: 
+   :depends r-scales: 
+   :depends r-shiny: 
+   :depends r-shinyjs: 
+   :depends r-tibble: 
+   :depends r-tsne: 
+   :depends r-vegan: 
+   :depends r-xml: 
    :requirements:
 
    .. rubric:: Installation

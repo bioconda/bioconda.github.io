@@ -22,25 +22,25 @@ bioconductor-singlecelltk
 
    |downloads_bioconductor-singlecelltk| |docker_bioconductor-singlecelltk|
 
-   :versions: 1.2.3-0
+   :versions: 1.4.0-1, 1.2.3-0
    
-   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends bioconductor-complexheatmap: >=1.20.0,<1.21.0
-   :depends bioconductor-delayedarray: >=0.8.0,<0.9.0
-   :depends bioconductor-deseq2: >=1.22.0,<1.23.0
-   :depends bioconductor-ggtree: >=1.14.0,<1.15.0
-   :depends bioconductor-gsva: >=1.30.0,<1.31.0
-   :depends bioconductor-gsvadata: >=1.18.0,<1.19.0
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends bioconductor-mast: >=1.8.0,<1.9.0
-   :depends bioconductor-multtest: >=2.38.0,<2.39.0
-   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   :depends bioconductor-singlecellexperiment: >=1.4.0,<1.5.0
-   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends bioconductor-sva: >=3.30.0,<3.31.0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-complexheatmap: >=2.0.0,<2.1.0
+   :depends bioconductor-delayedarray: >=0.10.0,<0.11.0
+   :depends bioconductor-deseq2: >=1.24.0,<1.25.0
+   :depends bioconductor-ggtree: >=1.16.0,<1.17.0
+   :depends bioconductor-gsva: >=1.32.0,<1.33.0
+   :depends bioconductor-gsvadata: >=1.20.0,<1.21.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-mast: >=1.10.0,<1.11.0
+   :depends bioconductor-multtest: >=2.40.0,<2.41.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-sva: >=3.32.0,<3.33.0
    :depends r-ape: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-circlize: 
    :depends r-cluster: 
    :depends r-colourpicker: 
@@ -58,6 +58,8 @@ bioconductor-singlecelltk
    :depends r-shinyalert: 
    :depends r-shinycssloaders: 
    :depends r-shinyjs: 
+   :depends r-shinythemes: 
+   :depends r-umap: 
    :requirements:
 
    .. rubric:: Installation

@@ -29,6 +29,7 @@ bioconductor-ramwas
    :depends bioconductor-biostrings: >=2.52.0,<2.53.0
    :depends bioconductor-genomicalignments: >=1.20.0,<1.21.0
    :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-digest: 
    :depends r-filematrix: 
