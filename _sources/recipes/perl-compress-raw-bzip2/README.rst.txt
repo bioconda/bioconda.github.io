@@ -22,7 +22,7 @@ perl-compress-raw-bzip2
 
    |downloads_perl-compress-raw-bzip2| |docker_perl-compress-raw-bzip2|
 
-   :versions: 2.086-0, 2.084-0, 2.083-0, 2.081-0, 2.074-0, 2.069-2, 2.069-1
+   :versions: 2.087-0, 2.086-0, 2.084-0, 2.083-0, 2.081-0, 2.074-0, 2.069-2, 2.069-1
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

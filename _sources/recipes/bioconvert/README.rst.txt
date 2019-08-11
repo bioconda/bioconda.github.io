@@ -22,7 +22,7 @@ bioconvert
 
    |downloads_bioconvert| |docker_bioconvert|
 
-   :versions: 0.3.0-1, 0.2.0-2, 0.2.0-1, 0.0.10-1, 0.0.10-0
+   :versions: 0.4.0-0, 0.3.0-1, 0.2.0-2, 0.2.0-1, 0.0.10-1, 0.0.10-0
    
    :depends bamtools: 
    :depends bcftools: 
@@ -48,7 +48,7 @@ bioconvert
    :depends pyexcel-ods3: 
    :depends pyexcel-xls: 
    :depends pysam: 
-   :depends python: >=3.6,<3.7.0a0
+   :depends python: >=3
    :depends pyyaml: 
    :depends sambamba: 
    :depends samtools: >=1.9

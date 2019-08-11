@@ -22,11 +22,11 @@ bioconductor-bsgenome.btaurus.ucsc.bostau6
 
    |downloads_bioconductor-bsgenome.btaurus.ucsc.bostau6| |docker_bioconductor-bsgenome.btaurus.ucsc.bostau6|
 
-   :versions: 1.4.0-0
+   :versions: 1.4.0-3, 1.4.0-0
    
-   :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
+   :depends bioconductor-bsgenome: >=1.52.0,<1.53.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

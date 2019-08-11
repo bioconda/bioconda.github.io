@@ -31,7 +31,8 @@ bioconductor-gpart
    :depends bioconductor-iranges: >=2.18.0,<2.19.0
    :depends bioconductor-organismdbi: >=1.26.0,<1.27.0
    :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: >=3.4.0,<3.5.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-igraph: 

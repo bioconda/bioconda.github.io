@@ -23,11 +23,11 @@ catch
 
    |downloads_catch| |docker_catch|
 
-   :versions: 1.3.0-0, 1.2.0-0, 1.1.0-0, 1.0.0-1, 1.0.0-0
+   :versions: 1.3.1-0, 1.3.0-0, 1.2.0-0, 1.1.0-0, 1.0.0-1, 1.0.0-0
    
-   :depends numpy: >=1.9.0
+   :depends numpy: >=1.15.2
    :depends python: >=3
-   :depends scipy: >=1.0.0
+   :depends scipy: >=1.2.0
    :requirements:
 
    .. rubric:: Installation
