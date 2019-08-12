@@ -27,7 +27,8 @@ bioconductor-rhisat2
    :depends bioconductor-genomicfeatures: >=1.36.0,<1.37.0
    :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
    :depends bioconductor-sgseq: >=1.18.0,<1.19.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

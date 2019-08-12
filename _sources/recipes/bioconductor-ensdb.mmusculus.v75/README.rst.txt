@@ -22,11 +22,11 @@ bioconductor-ensdb.mmusculus.v75
 
    |downloads_bioconductor-ensdb.mmusculus.v75| |docker_bioconductor-ensdb.mmusculus.v75|
 
-   :versions: 2.99.0-0
+   :versions: 2.99.0-2, 2.99.0-0
    
-   :depends bioconductor-ensembldb: >=2.6.0,<2.7.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
+   :depends bioconductor-ensembldb: >=2.8.0,<2.9.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

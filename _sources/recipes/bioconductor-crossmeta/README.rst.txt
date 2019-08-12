@@ -22,21 +22,22 @@ bioconductor-crossmeta
 
    |downloads_bioconductor-crossmeta| |docker_bioconductor-crossmeta|
 
-   :versions: 1.8.0-0
+   :versions: 1.10.0-1, 1.8.0-0
    
-   :depends bioconductor-affxparser: >=1.54.0,<1.55.0
-   :depends bioconductor-affy: >=1.60.0,<1.61.0
-   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends bioconductor-ccmap: >=1.8.0,<1.9.0
-   :depends bioconductor-geoquery: >=2.50.0,<2.51.0
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends bioconductor-oligo: >=1.46.0,<1.47.0
-   :depends bioconductor-sva: >=3.30.0,<3.31.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends r-biocmanager: >=1.24.0
+   :depends bioconductor-affxparser: >=1.56.0,<1.57.0
+   :depends bioconductor-affy: >=1.62.0,<1.63.0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-ccmap: >=1.10.0,<1.11.0
+   :depends bioconductor-geoquery: >=2.52.0,<2.53.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-oligo: >=1.48.0,<1.49.0
+   :depends bioconductor-sva: >=3.32.0,<3.33.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-biocmanager: >=1.30.4
    :depends r-data.table: >=1.10.4
+   :depends r-dbi: >=1.0.0
    :depends r-doparallel: >=1.0.10
    :depends r-dorng: >=1.6
    :depends r-dt: >=0.2
@@ -47,13 +48,16 @@ bioconductor-crossmeta
    :depends r-metama: >=3.1.2
    :depends r-metap: >=0.8
    :depends r-miniui: >=0.1.1
-   :depends r-pander: >=0.6.0
    :depends r-plotly: >=4.5.6
    :depends r-rcolorbrewer: >=1.1.2
+   :depends r-rcurl: >=1.95.4.11
    :depends r-rdrop2: >=0.7.0
+   :depends r-reader: >=1.0.6
    :depends r-reshape: >=0.8.6
+   :depends r-rsqlite: >=2.1.1
    :depends r-shiny: >=1.0.0
    :depends r-stringr: >=1.2.0
+   :depends r-xml: >=3.98.1.17
    :requirements:
 
    .. rubric:: Installation

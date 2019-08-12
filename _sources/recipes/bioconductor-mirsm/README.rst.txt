@@ -22,8 +22,40 @@ bioconductor-mirsm
 
    |downloads_bioconductor-mirsm| |docker_bioconductor-mirsm|
 
-   :versions: 
+   :versions: 1.2.0-1
    
+   :depends bioconductor-bicare: >=1.42.0,<1.43.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-fabia: >=2.30.0,<2.31.0
+   :depends bioconductor-gseabase: >=1.46.0,<1.47.0
+   :depends bioconductor-ibbig: >=1.28.0,<1.29.0
+   :depends bioconductor-mirsponger: >=1.10.0,<1.11.0
+   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-rqubic: >=1.30.0,<1.31.0
+   :depends bioconductor-runibic: >=1.6.0,<1.7.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-bibitr: 
+   :depends r-biclust: 
+   :depends r-dbscan: 
+   :depends r-dynamictreecut: 
+   :depends r-flashclust: 
+   :depends r-gfa: 
+   :depends r-igraph: 
+   :depends r-isa2: 
+   :depends r-linkcomm: 
+   :depends r-mcl: 
+   :depends r-mclust: 
+   :depends r-nmf: 
+   :depends r-pma: 
+   :depends r-ppclust: 
+   :depends r-rcpp: 
+   :depends r-s4vd: 
+   :depends r-sombrero: 
+   :depends r-subspace: 
+   :depends r-wgcna: 
    :requirements:
 
    .. rubric:: Installation

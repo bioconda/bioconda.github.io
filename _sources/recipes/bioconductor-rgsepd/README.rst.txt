@@ -23,16 +23,16 @@ bioconductor-rgsepd
 
    |downloads_bioconductor-rgsepd| |docker_bioconductor-rgsepd|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.8.0-0
+   :versions: 1.16.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.8.0-0
    
-   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   :depends bioconductor-deseq2: >=1.22.0,<1.23.0
-   :depends bioconductor-go.db: >=3.7.0,<3.8.0
-   :depends bioconductor-goseq: >=1.34.0,<1.35.0
-   :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
-   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-biomart: >=2.40.0,<2.41.0
+   :depends bioconductor-deseq2: >=1.24.0,<1.25.0
+   :depends bioconductor-go.db: >=3.8.0,<3.9.0
+   :depends bioconductor-goseq: >=1.36.0,<1.37.0
+   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-gplots: 
    :depends r-hash: 
    :requirements:

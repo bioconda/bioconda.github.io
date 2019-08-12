@@ -23,15 +23,15 @@ bioconductor-epivizrstandalone
 
    |downloads_bioconductor-epivizrstandalone| |docker_bioconductor-epivizrstandalone|
 
-   :versions: 1.10.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   :versions: 1.12.0-1, 1.10.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0
    
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends bioconductor-epivizr: >=2.12.0,<2.13.0
-   :depends bioconductor-epivizrserver: >=1.10.0,<1.11.0
-   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
-   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-epivizr: >=2.14.0,<2.15.0
+   :depends bioconductor-epivizrserver: >=1.12.0,<1.13.0
+   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicfeatures: >=1.36.0,<1.37.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-git2r: 
    :requirements:
 

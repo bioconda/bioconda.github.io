@@ -23,23 +23,23 @@ bioconductor-tcgabiolinks
 
    |downloads_bioconductor-tcgabiolinks| |docker_bioconductor-tcgabiolinks|
 
-   :versions: 2.10.0-0, 2.8.4-0, 2.6.11-0
+   :versions: 2.12.3-0, 2.10.0-0, 2.8.4-0, 2.6.11-0
    
-   :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   :depends bioconductor-complexheatmap: >=1.20.0,<1.21.0
-   :depends bioconductor-consensusclusterplus: >=1.46.0,<1.47.0
-   :depends bioconductor-edaseq: >=2.16.0,<2.17.0
-   :depends bioconductor-edger: >=3.24.0,<3.25.0
-   :depends bioconductor-genefilter: >=1.64.0,<1.65.0
-   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
-   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends bioconductor-sva: >=3.30.0,<3.31.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biomart: >=2.40.0,<2.41.0
+   :depends bioconductor-complexheatmap: >=2.0.0,<2.1.0
+   :depends bioconductor-consensusclusterplus: >=1.48.0,<1.49.0
+   :depends bioconductor-edaseq: >=2.18.0,<2.19.0
+   :depends bioconductor-edger: >=3.26.0,<3.27.0
+   :depends bioconductor-genefilter: >=1.66.0,<1.67.0
+   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicfeatures: >=1.36.0,<1.37.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-sva: >=3.32.0,<3.33.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-circlize: 
    :depends r-data.table: 
    :depends r-doparallel: 
@@ -54,6 +54,7 @@ bioconductor-tcgabiolinks
    :depends r-knitr: 
    :depends r-matlab: 
    :depends r-plyr: 
+   :depends r-purrr: 
    :depends r-r.utils: 
    :depends r-rcolorbrewer: 
    :depends r-readr: 
@@ -64,6 +65,7 @@ bioconductor-tcgabiolinks
    :depends r-survival: 
    :depends r-survminer: 
    :depends r-tibble: 
+   :depends r-tidyr: 
    :depends r-xml: >=3.98.0
    :depends r-xml2: 
    :requirements:
