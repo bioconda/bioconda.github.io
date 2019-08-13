@@ -31,7 +31,8 @@ bioconductor-psichomics
    :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
    :depends bioconductor-recount: >=1.10.0,<1.11.0
    :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-cluster: 
    :depends r-colourpicker: 

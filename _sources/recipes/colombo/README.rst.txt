@@ -35,7 +35,7 @@ colombo
 
    |downloads_colombo| |docker_colombo|
 
-   :versions: v4.0-1, v4.0-0
+   :versions: v4.0-1, v4.0-0, v3.8-0
    
    :depends openjdk: 
    :requirements:

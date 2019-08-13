@@ -22,10 +22,10 @@ watchdog-wms
 
    |downloads_watchdog-wms| |docker_watchdog-wms|
 
-   :versions: 1.2.7-1, 1.2.6-1, 1.2.6-0, 1.2.5-1, 1.2.5-0, 1.2.4b-0, 1.2.3b-0
+   :versions: 2.0.0-0, 1.2.7-1, 1.2.6-1, 1.2.6-0, 1.2.5-1, 1.2.5-0, 1.2.4b-0, 1.2.3b-0
    
    :depends coreutils: >=8
-   :depends openjdk: >=8
+   :depends openjdk: >=11
    :requirements:
 
    .. rubric:: Installation
@@ -56,11 +56,6 @@ watchdog-wms
 
 
 
-
-Notes
------
-Graphical user interface works only with JavaFX\, which is currently not part of OpenJDK8.
-Install script automatically detects if JavaFX is installed.
 
 
 Link to this page

@@ -22,19 +22,21 @@ bioconductor-ularcirc
 
    |downloads_bioconductor-ularcirc| |docker_bioconductor-ularcirc|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-1, 1.0.0-0
    
-   :depends bioconductor-annotationhub: >=2.14.0,<2.15.0
-   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
-   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
+   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-bsgenome: >=1.52.0,<1.53.0
+   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
    :depends bioconductor-genomeinfodbdata: >=1.2.0,<1.3.0
-   :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
+   :depends bioconductor-genomicfeatures: >=1.36.0,<1.37.0
    :depends bioconductor-mirbase.db: >=1.2.0,<1.3.0
-   :depends bioconductor-sushi: >=1.20.0,<1.21.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-sushi: >=1.22.0,<1.23.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: >=1.9.4
    :depends r-dt: 
+   :depends r-ggplot2: 
+   :depends r-ggrepel: 
    :depends r-gsubfn: 
    :depends r-httpuv: 
    :depends r-moments: 

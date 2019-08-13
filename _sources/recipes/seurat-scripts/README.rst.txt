@@ -22,9 +22,10 @@ seurat-scripts
 
    |downloads_seurat-scripts| |docker_seurat-scripts|
 
-   :versions: 0.0.5-0
+   :versions: 0.0.5-1, 0.0.5-0
    
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends mscorefonts: 
+   :depends r-base: >=3.4,<3.5.0a0
    :depends r-optparse: 
    :depends r-seurat: 2.3.1.*
    :depends r-workflowscriptscommon: 

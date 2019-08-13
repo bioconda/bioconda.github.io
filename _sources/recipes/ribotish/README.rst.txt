@@ -22,13 +22,12 @@ ribotish
 
    |downloads_ribotish| |docker_ribotish|
 
-   :versions: 0.2.2-0, 0.2.1-0, 0.2.0-0
+   :versions: 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.2.0-0
    
    :depends matplotlib: 
    :depends numpy: 
-   :depends pip: 
    :depends pysam: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: 2.7.*
    :depends scipy: 
    :requirements:
 

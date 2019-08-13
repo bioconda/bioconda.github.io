@@ -22,7 +22,7 @@ galaxy-parsec
 
    |downloads_galaxy-parsec| |docker_galaxy-parsec|
 
-   :versions: 1.12.0-0, 1.0.6-0, 1.0.5-0, 1.0.4-1, 1.0.4-0
+   :versions: 1.13.0-0, 1.12.0-0, 1.0.6-0, 1.0.5-0, 1.0.4-1, 1.0.4-0
    
    :depends bioblend: 
    :depends click: >=6.7

@@ -22,11 +22,11 @@ bioconductor-bsseqdata
 
    |downloads_bioconductor-bsseqdata| |docker_bioconductor-bsseqdata|
 
-   :versions: 0.20.0-0
+   :versions: 0.22.0-1, 0.20.0-0
    
-   :depends bioconductor-bsseq: >=1.18.0,<1.19.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
+   :depends bioconductor-bsseq: >=1.20.0,<1.21.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -23,15 +23,15 @@ bioconductor-bbcanalyzer
 
    |downloads_bioconductor-bbcanalyzer| |docker_bioconductor-bbcanalyzer|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   :versions: 1.14.0-1, 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
    
-   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
-   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends bioconductor-variantannotation: >=1.28.0,<1.29.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-variantannotation: >=1.30.0,<1.31.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

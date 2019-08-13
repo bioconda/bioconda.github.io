@@ -22,8 +22,15 @@ bioconductor-pipeframe
 
    |downloads_bioconductor-pipeframe| |docker_bioconductor-pipeframe|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-bsgenome: >=1.52.0,<1.53.0
+   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-digest: 
+   :depends r-magrittr: 
+   :depends r-visnetwork: 
    :requirements:
 
    .. rubric:: Installation
