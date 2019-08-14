@@ -22,10 +22,11 @@ perl-set-intervaltree
 
    |downloads_perl-set-intervaltree| |docker_perl-set-intervaltree|
 
-   :versions: 0.11-1, 0.11-0, 0.10-4, 0.10-3, 0.10-2, 0.10-1, 0.10-0, 0.1-0
+   :versions: 0.12-0, 0.11-1, 0.11-0, 0.10-4, 0.10-3, 0.10-2, 0.10-1, 0.10-0, 0.1-0
    
-   :depends perl: >=5.26.2,<5.27.0a0
-   :depends perl-extutils-cppguess: 
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 
    .. rubric:: Installation

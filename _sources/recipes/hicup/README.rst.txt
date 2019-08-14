@@ -23,7 +23,7 @@ hicup
 
    |downloads_hicup| |docker_hicup|
 
-   :versions: 0.6.1-1, 0.6.1-0, 0.5.10-0, 0.5.9-0
+   :versions: 0.7.2-0, 0.6.1-1, 0.6.1-0, 0.5.10-0, 0.5.9-0
    
    :depends bowtie: 
    :depends bowtie2: 

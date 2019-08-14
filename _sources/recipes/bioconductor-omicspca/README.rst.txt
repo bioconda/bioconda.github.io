@@ -22,8 +22,34 @@ bioconductor-omicspca
 
    |downloads_bioconductor-omicspca| |docker_bioconductor-omicspca|
 
-   :versions: 
+   :versions: 1.2.0-1
    
+   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
+   :depends bioconductor-helloranges: >=1.10.0,<1.11.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-multiassayexperiment: >=1.10.0,<1.11.0
+   :depends bioconductor-omicspcadata: >=1.2.0,<1.3.0
+   :depends bioconductor-rtracklayer: >=1.44.0,<1.45.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-cluster: 
+   :depends r-clvalid: 
+   :depends r-corrplot: 
+   :depends r-cowplot: 
+   :depends r-data.table: 
+   :depends r-factoextra: 
+   :depends r-factominer: 
+   :depends r-fpc: 
+   :depends r-ggplot2: 
+   :depends r-kableextra: 
+   :depends r-magick: 
+   :depends r-mass: 
+   :depends r-nbclust: 
+   :depends r-pdftools: 
+   :depends r-performanceanalytics: 
+   :depends r-reshape2: 
+   :depends r-rgl: 
+   :depends r-rmarkdown: 
+   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation

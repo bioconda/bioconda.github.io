@@ -23,7 +23,7 @@ bioconductor-purecn
 
    |downloads_bioconductor-purecn| |docker_bioconductor-purecn|
 
-   :versions: 1.14.0-0, 1.13.1-2, 1.12.1-0, 1.11.20-2, 1.11.20-1, 1.11.13-1, 1.11.13-0, 1.8.0-0, 1.6.3-0
+   :versions: 1.14.2-0, 1.14.0-0, 1.13.1-2, 1.12.1-0, 1.11.20-2, 1.11.20-1, 1.11.13-1, 1.11.13-0, 1.8.0-0, 1.6.3-0
    
    :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
    :depends bioconductor-biostrings: >=2.52.0,<2.53.0

@@ -26,7 +26,7 @@ tobias
 
    |downloads_tobias| |docker_tobias|
 
-   :versions: 0.6.4-0, 0.6.1-0, 0.5.0-0
+   :versions: 0.7.0-0, 0.6.4-0, 0.6.1-0, 0.5.0-0
    
    :depends adjusttext: 
    :depends libgcc-ng: >=7.3.0

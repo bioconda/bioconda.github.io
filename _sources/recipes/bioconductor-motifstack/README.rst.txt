@@ -23,13 +23,13 @@ bioconductor-motifstack
 
    |downloads_bioconductor-motifstack| |docker_bioconductor-motifstack|
 
-   :versions: 1.26.0-1, 1.26.0-0, 1.24.1-0, 1.22.0-0, 1.20.1-0, 1.18.0-0
+   :versions: 1.28.0-1, 1.26.0-1, 1.26.0-0, 1.24.1-0, 1.22.0-0, 1.20.1-0, 1.18.0-0
    
-   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   :depends bioconductor-motiv: >=1.38.0,<1.39.0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-motiv: >=1.40.0,<1.41.0
    :depends r-ade4: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends r-grimport: 
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-grimport2: 
    :depends r-htmlwidgets: 
    :depends r-scales: 
    :depends r-xml: 

@@ -22,15 +22,16 @@ bioconductor-lowmaca
 
    |downloads_bioconductor-lowmaca| |docker_bioconductor-lowmaca|
 
-   :versions: 1.12.0-0
+   :versions: 1.14.1-0, 1.12.0-0
    
-   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
    :depends bioconductor-lowmacaannotation: >=0.99.0,<0.100.0
-   :depends bioconductor-motifstack: >=1.26.0,<1.27.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-motifstack: >=1.28.0,<1.29.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-cgdsr: 
    :depends r-data.table: 
+   :depends r-gridbase: 
    :depends r-httr: 
    :depends r-rcolorbrewer: 
    :depends r-reshape2: 

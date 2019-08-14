@@ -22,23 +22,17 @@ bioconductor-tcgabiolinksgui
 
    |downloads_bioconductor-tcgabiolinksgui| |docker_bioconductor-tcgabiolinksgui|
 
-   :versions: 1.8.0-0
+   :versions: 1.10.0-1, 1.8.0-0
    
-   :depends bioconductor-clusterprofiler: >=3.10.0,<3.11.0
-   :depends bioconductor-elmer: >=2.6.0,<2.7.0
-   :depends bioconductor-illuminahumanmethylation27kanno.ilmn12.hg19: >=0.6.0,<0.7.0
-   :depends bioconductor-illuminahumanmethylation27kmanifest: >=0.4.0,<0.5.0
-   :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: >=0.6.0,<0.7.0
-   :depends bioconductor-illuminahumanmethylation450kmanifest: >=0.4.0,<0.5.0
-   :depends bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19: >=0.6.0,<0.7.0
-   :depends bioconductor-illuminahumanmethylationepicmanifest: >=0.3.0,<0.4.0
-   :depends bioconductor-maftools: >=1.8.0,<1.9.0
-   :depends bioconductor-minfi: >=1.28.0,<1.29.0
-   :depends bioconductor-pathview: >=1.22.0,<1.23.0
-   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends bioconductor-tcgabiolinks: >=2.10.0,<2.11.0
-   :depends bioconductor-tcgabiolinksgui.data: >=1.2.0,<1.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-clusterprofiler: >=3.12.0,<3.13.0
+   :depends bioconductor-elmer: >=2.8.0,<2.9.0
+   :depends bioconductor-maftools: >=2.0.0,<2.1.0
+   :depends bioconductor-pathview: >=1.24.0,<1.25.0
+   :depends bioconductor-sesame: >=1.2.0,<1.3.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-tcgabiolinks: >=2.12.0,<2.13.0
+   :depends bioconductor-tcgabiolinksgui.data: >=1.4.0,<1.5.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-caret: 
    :depends r-colourpicker: 
    :depends r-data.table: 

@@ -22,8 +22,16 @@ bioconductor-vcfarray
 
    |downloads_bioconductor-vcfarray| |docker_bioconductor-vcfarray|
 
-   :versions: 
+   :versions: 1.0.3-0
    
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-delayedarray: >=0.10.0,<0.11.0
+   :depends bioconductor-genomicfiles: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-variantannotation: >=1.30.0,<1.31.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

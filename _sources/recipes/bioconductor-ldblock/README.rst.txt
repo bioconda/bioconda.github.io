@@ -22,18 +22,18 @@ bioconductor-ldblock
 
    |downloads_bioconductor-ldblock| |docker_bioconductor-ldblock|
 
-   :versions: 1.12.0-0
+   :versions: 1.14.0-1, 1.12.0-0
    
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends bioconductor-erma: >=0.14.0,<0.15.0
-   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   :depends bioconductor-genomicfiles: >=1.18.0,<1.19.0
-   :depends bioconductor-go.db: >=3.7.0,<3.8.0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-erma: >=1.0.0,<1.1.0
+   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicfiles: >=1.20.0,<1.21.0
+   :depends bioconductor-go.db: >=3.8.0,<3.9.0
    :depends bioconductor-homo.sapiens: >=1.3.0,<1.4.0
-   :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
-   :depends bioconductor-snpstats: >=1.32.0,<1.33.0
-   :depends bioconductor-variantannotation: >=1.28.0,<1.29.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
+   :depends bioconductor-snpstats: >=1.34.0,<1.35.0
+   :depends bioconductor-variantannotation: >=1.30.0,<1.31.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-matrix: 
    :requirements:
 

@@ -22,22 +22,25 @@ bioconductor-eventpointer
 
    |downloads_bioconductor-eventpointer| |docker_bioconductor-eventpointer|
 
-   :versions: 2.0.1-0
+   :versions: 2.2.4-0, 2.0.1-0
    
-   :depends bioconductor-affxparser: >=1.54.0,<1.55.0
-   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
-   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   :depends bioconductor-graph: >=1.60.0,<1.61.0
-   :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends bioconductor-qvalue: >=2.14.0,<2.15.0
-   :depends bioconductor-rbgl: >=1.58.0,<1.59.0
-   :depends bioconductor-rhdf5: >=2.26.0,<2.27.0
-   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   :depends bioconductor-sgseq: >=1.16.0,<1.17.0
-   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-affxparser: >=1.56.0,<1.57.0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-bsgenome: >=1.52.0,<1.53.0
+   :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: >=1.4.0,<1.5.0
+   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicfeatures: >=1.36.0,<1.37.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-graph: >=1.62.0,<1.63.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-qvalue: >=2.16.0,<2.17.0
+   :depends bioconductor-rbgl: >=1.60.0,<1.61.0
+   :depends bioconductor-rhdf5: >=2.28.0,<2.29.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-sgseq: >=1.18.0,<1.19.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-cobs: 
    :depends r-doparallel: 
    :depends r-foreach: 

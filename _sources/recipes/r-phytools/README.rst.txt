@@ -9,28 +9,30 @@ r-phytools
 .. conda:recipe:: r-phytools
    :replaces_section_title:
 
-   A wide range of functions for phylogenetic analysis. Functionality is concentrated in phylogenetic comparative biology\, but also includes a diverse array of methods for visualizing\, manipulating\, reading or writing\, and even inferring phylogenetic trees and data. Included among the functions in phylogenetic comparative biology are various for ancestral state reconstruction\, model\-fitting\, simulation of phylogenies and data\, and multivariate analysis. There are a broad range of plotting methods for phylogenies and comparative data which include\, but are not restricted to\, methods for mapping trait evolution on trees\, for projecting trees into phenotypic space or a geographic map\, and for visualizing correlated speciation between trees. Finally\, there are a number of functions for reading\, writing\, analyzing\, inferring\, simulating\, and manipulating phylogenetic trees and comparative data not covered by other packages. For instance\, there are functions for randomly or non\-randomly attaching species or clades to a phylogeny\, for estimating supertrees or consensus phylogenies from a set\, for simulating trees and phylogenetic data under a range of models\, and for a wide variety of other manipulations and analyses that phylogenetic biologists might find useful in their research.
+   Phylogenetic tools for comparative biology
 
    :homepage: http://github.com/liamrevell/phytools
    :license: GPL3 / GPL (>= 2)
    :recipe: /`r-phytools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-phytools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-phytools/meta.yaml>`_
 
-   
+   A wide range of functions for phylogenetic analysis. Functionality is concentrated in phylogenetic comparative biology\, but also includes a diverse array of methods for visualizing\, manipulating\, reading or writing\, and even inferring phylogenetic trees and data. Included among the functions in phylogenetic comparative biology are various for ancestral state reconstruction\, model\-fitting\, simulation of phylogenies and data\, and multivariate analysis. There are a broad range of plotting methods for phylogenies and comparative data which include\, but are not restricted to\, methods for mapping trait evolution on trees\, for projecting trees into phenotypic space or a geographic map\, and for visualizing correlated speciation between trees. Finally\, there are a number of functions for reading\, writing\, analyzing\, inferring\, simulating\, and manipulating phylogenetic trees and comparative data not covered by other packages. For instance\, there are functions for randomly or non\-randomly attaching species or clades to a phylogeny\, for estimating supertrees or consensus phylogenies from a set\, for simulating trees and phylogenetic data under a range of models\, and for a wide variety of other manipulations and analyses that phylogenetic biologists might find useful in their research.
 
 
 .. conda:package:: r-phytools
 
    |downloads_r-phytools| |docker_r-phytools|
 
-   :versions: 0.6_60-2, 0.6_60-1, 0.6_60-0, 0.6_44-1, 0.6_44-0
+   :versions: 0.6_99-0, 0.6_60-2, 0.6_60-1, 0.6_60-0, 0.6_44-1, 0.6_44-0
    
    :depends r-animation: 
    :depends r-ape: >=4.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-clustergeneration: 
    :depends r-coda: 
    :depends r-combinat: 
    :depends r-expm: 
+   :depends r-geiger: 
+   :depends r-gtools: 
    :depends r-maps: 
    :depends r-mass: 
    :depends r-mnormt: 
@@ -38,6 +40,8 @@ r-phytools
    :depends r-numderiv: 
    :depends r-phangorn: >=2.3.1
    :depends r-plotrix: 
+   :depends r-rcolorbrewer: 
+   :depends r-rgl: 
    :depends r-scatterplot3d: 
    :requirements:
 

@@ -29,6 +29,7 @@ bioconductor-rgadem
    :depends bioconductor-bsgenome: >=1.52.0,<1.53.0
    :depends bioconductor-iranges: >=2.18.0,<2.19.0
    :depends bioconductor-seqlogo: >=1.50.0,<1.51.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

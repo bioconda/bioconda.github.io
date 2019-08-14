@@ -22,21 +22,23 @@ bioconductor-elmer
 
    |downloads_bioconductor-elmer| |docker_bioconductor-elmer|
 
-   :versions: 2.6.1-0, 2.4.4-1, 2.4.4-0
+   :versions: 2.8.0-1, 2.6.1-0, 2.4.4-1, 2.4.4-0
    
-   :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   :depends bioconductor-complexheatmap: >=1.20.0,<1.21.0
-   :depends bioconductor-elmer.data: >=2.6.0,<2.7.0
-   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
-   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   :depends bioconductor-gviz: >=1.26.0,<1.27.0
-   :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   :depends bioconductor-multiassayexperiment: >=1.8.0,<1.9.0
-   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends bioconductor-tcgabiolinks: >=2.10.0,<2.11.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biomart: >=2.40.0,<2.41.0
+   :depends bioconductor-complexheatmap: >=2.0.0,<2.1.0
+   :depends bioconductor-delayedarray: >=0.10.0,<0.11.0
+   :depends bioconductor-elmer.data: >=2.8.0,<2.9.0
+   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicfeatures: >=1.36.0,<1.37.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-gviz: >=1.28.0,<1.29.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-multiassayexperiment: >=1.10.0,<1.11.0
+   :depends bioconductor-rtracklayer: >=1.44.0,<1.45.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-tcgabiolinks: >=2.12.0,<2.13.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-circlize: 
    :depends r-doparallel: 
    :depends r-downloader: 
@@ -49,6 +51,8 @@ bioconductor-elmer
    :depends r-matrix: 
    :depends r-plotly: 
    :depends r-plyr: 
+   :depends r-progress: 
+   :depends r-purrr: 
    :depends r-readr: 
    :depends r-reshape: 
    :depends r-rmarkdown: 

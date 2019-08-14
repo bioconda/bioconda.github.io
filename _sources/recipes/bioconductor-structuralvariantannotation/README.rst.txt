@@ -22,8 +22,18 @@ bioconductor-structuralvariantannotation
 
    |downloads_bioconductor-structuralvariantannotation| |docker_bioconductor-structuralvariantannotation|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-rtracklayer: >=1.44.0,<1.45.0
+   :depends bioconductor-variantannotation: >=1.30.0,<1.31.0
+   :depends r-assertthat: 
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-dplyr: 
+   :depends r-rlang: 
+   :depends r-stringr: 
    :requirements:
 
    .. rubric:: Installation

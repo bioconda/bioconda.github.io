@@ -29,6 +29,7 @@ bioconductor-titancna
    :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
    :depends bioconductor-iranges: >=2.18.0,<2.19.0
    :depends bioconductor-variantannotation: >=1.30.0,<1.31.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: >=1.10.4
    :depends r-dplyr: >=0.5.0
