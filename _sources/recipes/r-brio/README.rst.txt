@@ -23,7 +23,7 @@ r-brio
 
    |downloads_r-brio| |docker_r-brio|
 
-   :versions: 0.3.2-0, 0.2.2-0, 0.2.1-0, 0.1.8-0, 0.1.6-0
+   :versions: 0.3.3-0, 0.3.2-0, 0.2.2-0, 0.2.1-0, 0.1.8-0, 0.1.6-0
    
    :depends bioconductor-genomicranges: >=1.36
    :depends bioconductor-rtracklayer: >=1.44

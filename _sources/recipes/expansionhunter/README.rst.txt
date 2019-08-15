@@ -22,9 +22,9 @@ expansionhunter
 
    |downloads_expansionhunter| |docker_expansionhunter|
 
-   :versions: 3.0.0-0, 2.0.8-1, 2.0.8-0, 2.0.6-0
+   :versions: 3.0.1-0, 3.0.0-0, 2.0.8-1, 2.0.8-0, 2.0.6-0
    
-   :depends boost: >=1.68.0,<1.68.1.0a0
+   :depends boost: >=1.70.0,<1.70.1.0a0
    :depends htslib: >=1.9,<1.10.0a0
    :depends icu: >=58.2,<59.0a0
    :depends libgcc-ng: >=7.3.0

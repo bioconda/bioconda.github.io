@@ -22,11 +22,12 @@ perl-sanger-cgp-vagrent
 
    |downloads_perl-sanger-cgp-vagrent| |docker_perl-sanger-cgp-vagrent|
 
-   :versions: 3.3.3-0, 3.2.0-1, 3.2.0-0
+   :versions: 3.5.0-0, 3.3.3-0, 3.2.0-1, 3.2.0-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-bio-db-hts: 
+   :depends perl-set-intervaltree: 
    :depends perl-sub-exporter-progressive: 
    :requirements:
 

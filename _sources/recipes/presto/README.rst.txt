@@ -22,14 +22,14 @@ presto
 
    |downloads_presto| |docker_presto|
 
-   :versions: 0.5.10-0, 0.5.4-1, 0.5.4-0
+   :versions: 0.5.12-0, 0.5.10-0, 0.5.4-1, 0.5.4-0
    
    :depends biopython: >=1.65
    :depends blast: >=2.5
    :depends muscle: >=3.8
    :depends numpy: >=1.8
    :depends pandas: >=0.15
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :depends scipy: >=0.14
    :depends vsearch: >=2.3.2
    :requirements:

@@ -22,13 +22,14 @@ hichipper
 
    |downloads_hichipper| |docker_hichipper|
 
-   :versions: 0.7.0-1, 0.7.0-0
+   :versions: 0.7.7-0, 0.7.0-1, 0.7.0-0
    
    :depends click: 
    :depends macs2: 
    :depends numpy: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends pyyaml: 
+   :depends whichcraft: 
    :requirements:
 
    .. rubric:: Installation

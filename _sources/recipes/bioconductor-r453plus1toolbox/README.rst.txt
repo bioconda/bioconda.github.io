@@ -37,6 +37,7 @@ bioconductor-r453plus1toolbox
    :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
    :depends bioconductor-variantannotation: >=1.30.0,<1.31.0
    :depends bioconductor-xvector: >=0.24.0,<0.25.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-r2html: 
    :depends r-teachingdemos: 

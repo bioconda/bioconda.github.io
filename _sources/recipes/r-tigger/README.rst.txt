@@ -22,20 +22,20 @@ r-tigger
 
    |downloads_r-tigger| |docker_r-tigger|
 
-   :versions: 0.3.1-1, 0.3.1-0
+   :versions: 0.4.0-0, 0.3.1-1, 0.3.1-0
    
-   :depends r-alakazam: >=0.2.11
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-alakazam: >=0.3.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-doparallel: 
-   :depends r-dplyr: >=0.7.0
+   :depends r-dplyr: >=0.8.1
    :depends r-foreach: 
-   :depends r-ggplot2: >=2.0.0
+   :depends r-ggplot2: >=3.1.1
    :depends r-gridextra: 
    :depends r-gtools: 
    :depends r-iterators: 
    :depends r-lazyeval: 
    :depends r-rlang: 
-   :depends r-shazam: >=0.1.10
+   :depends r-shazam: >=0.2.0
    :depends r-stringi: 
    :depends r-tidyr: 
    :requirements:

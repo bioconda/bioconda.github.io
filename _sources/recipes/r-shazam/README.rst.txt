@@ -22,11 +22,11 @@ r-shazam
 
    |downloads_r-shazam| |docker_r-shazam|
 
-   :versions: 0.1.11-0, 0.1.10-1, 0.1.10-0, 0.1.9-2
+   :versions: 0.2.1-0, 0.1.11-0, 0.1.10-1, 0.1.10-0, 0.1.9-2
    
    :depends r-alakazam: >=0.2.11
    :depends r-ape: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-diptest: 
    :depends r-doparallel: 
    :depends r-dplyr: >=0.5.0

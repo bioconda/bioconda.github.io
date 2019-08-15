@@ -22,16 +22,21 @@ pyprophet
 
    |downloads_pyprophet| |docker_pyprophet|
 
-   :versions: 0.24.1-1, 0.24.1-0, 0.22.0-0
+   :versions: 2.1.3-0, 0.24.1-1, 0.24.1-0, 0.22.0-0
    
+   :depends click: 
+   :depends hyperopt: 
+   :depends libgcc-ng: >=7.3.0
    :depends matplotlib: 
    :depends numexpr: >=2.1
-   :depends numpy: >=1.9.0
+   :depends numpy: >=1.17.0,<2.0a0
    :depends pandas: >=0.17
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3.6,<3.7.0a0
    :depends scikit-learn: >=0.17
-   :depends scipy: >=0.9.0
+   :depends scipy: 
    :depends seaborn: 
+   :depends statsmodels: >=0.8.0
+   :depends xgboost: 
    :requirements:
 
    .. rubric:: Installation

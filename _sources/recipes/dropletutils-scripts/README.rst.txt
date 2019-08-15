@@ -9,25 +9,31 @@ dropletutils-scripts
 .. conda:recipe:: dropletutils-scripts
    :replaces_section_title:
 
-   A set of wrappers for operations associated with Aaron Lun\'s DropletUtils  package. Functions in R packages are hard to call when building workflows outside of R\, so this package adds a set of simple wrappers with robust argument parsing. Intermediate steps are currently mainly serialized R objects\, but the ultimate objective is to have language\-agnostic intermediate formats allowing composite workflows using a variety of software packages.
+   CLI scripts for the DropletUtils package
 
    :homepage: https://github.com/ebi-gene-expression-group/dropletutils-scripts
-   :license: GPL / GPL-3
+   :license: GPL / Apache 2.0
    :recipe: /`dropletutils-scripts <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dropletutils-scripts>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dropletutils-scripts/meta.yaml>`_
 
-   
+   A set of wrappers for operations associated with Aaron Lun\'s
+   DropletUtils  package. Functions in R packages are hard to call when
+   building workflows outside of R\, so this package adds a set of simple
+   wrappers with robust argument parsing. Intermediate steps are currently
+   mainly serialized R objects\, but the ultimate objective is to have
+   language\-agnostic intermediate formats allowing composite workflows using a
+   variety of software packages.
+
 
 
 .. conda:package:: dropletutils-scripts
 
    |downloads_dropletutils-scripts| |docker_dropletutils-scripts|
 
-   :versions: 0.0.2-1, 0.0.1-1, 0.0.1-0
+   :versions: 0.0.3-0, 0.0.2-1, 0.0.1-1, 0.0.1-0
    
    :depends bioconductor-biobase: 
-   :depends bioconductor-dropletutils: >=1.0.3,<1.3
+   :depends bioconductor-dropletutils: >=1.3,<1.5
    :depends bioconductor-singlecellexperiment: 
-   :depends r-base: 3.5.1.*
    :depends r-optparse: 
    :depends r-workflowscriptscommon: 
    :requirements:

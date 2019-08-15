@@ -22,8 +22,21 @@ bioconductor-enrichtf
 
    |downloads_bioconductor-enrichtf| |docker_bioconductor-enrichtf|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-bsgenome: >=1.52.0,<1.53.0
+   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-jaspar2018: >=1.1.0,<1.2.0
+   :depends bioconductor-motifmatchr: >=1.6.0,<1.7.0
+   :depends bioconductor-pipeframe: >=1.0.0,<1.1.0
+   :depends bioconductor-rtracklayer: >=1.44.0,<1.45.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-tfbstools: >=1.22.0,<1.23.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-r.utils: 
    :requirements:
 
    .. rubric:: Installation

@@ -22,8 +22,26 @@ bioconductor-decomptumor2sig
 
    |downloads_bioconductor-decomptumor2sig| |docker_bioconductor-decomptumor2sig|
 
-   :versions: 
+   :versions: 2.0.0-1
    
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: >=1.4.0,<1.5.0
+   :depends bioconductor-genomicfeatures: >=1.36.0,<1.37.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: >=3.2.0,<3.3.0
+   :depends bioconductor-variantannotation: >=1.30.0,<1.31.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-data.table: 
+   :depends r-ggplot2: 
+   :depends r-ggseqlogo: 
+   :depends r-gridextra: 
+   :depends r-matrix: 
+   :depends r-plyr: 
+   :depends r-quadprog: >=1.5-5
+   :depends r-vcfr: 
    :requirements:
 
    .. rubric:: Installation

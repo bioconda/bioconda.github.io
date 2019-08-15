@@ -37,7 +37,8 @@ bioconductor-diffbind
    :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
    :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
    :depends bioconductor-systempiper: >=1.18.0,<1.19.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-amap: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: 

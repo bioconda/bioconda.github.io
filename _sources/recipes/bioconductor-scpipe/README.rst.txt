@@ -36,7 +36,8 @@ bioconductor-scpipe
    :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
    :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
    :depends bioconductor-zlibbioc: >=1.30.0,<1.31.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: 
    :depends r-ggally: 

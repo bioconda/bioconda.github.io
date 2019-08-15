@@ -11,7 +11,7 @@ phizz
 
    Tool to query hpo database and some other sources
 
-   :homepage: https://github.com/moonso/query_hpo
+   :homepage: https://github.com/moonso/phizz
    :license: MIT License
    :recipe: /`phizz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phizz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phizz/meta.yaml>`_
 
@@ -22,13 +22,12 @@ phizz
 
    |downloads_phizz| |docker_phizz|
 
-   :versions: 0.0.1-2, 0.0.1-0
+   :versions: 0.2.3-0, 0.0.1-2, 0.0.1-0
    
    :depends click: 
    :depends configobj: 
-   :depends intervaltree: 
+   :depends interval_tree: 
    :depends python: 
-   :depends setuptools: 
    :requirements:
 
    .. rubric:: Installation
