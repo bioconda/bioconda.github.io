@@ -15,14 +15,17 @@ dcplib
    :license: MIT / MIT
    :recipe: /`dcplib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dcplib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dcplib/meta.yaml>`_
 
-   
+   The Data Coordination Platform \(DCP\) comprises the infrastructure that 
+   supports operation of the Human Cell Atlas \(HCA\). This package provides
+   modules to DCP components\, including the HCA command line interface \(CLI\).
+
 
 
 .. conda:package:: dcplib
 
    |downloads_dcplib| |docker_dcplib|
 
-   :versions: 3.1.0-0, 3.0.0-0, 2.1.2-0, 2.1.1-0, 2.0.3-0
+   :versions: 3.2.1-0, 3.2.0-0, 3.1.0-0, 3.0.0-0, 2.1.2-0, 2.1.1-0, 2.0.3-0
    
    :depends boto3: >=1.7.13
    :depends crc32c: 

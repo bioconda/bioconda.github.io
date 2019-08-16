@@ -22,19 +22,19 @@ bioconductor-scmeth
 
    |downloads_bioconductor-scmeth| |docker_bioconductor-scmeth|
 
-   :versions: 1.2.1-0
+   :versions: 1.4.0-1, 1.2.1-0
    
-   :depends bioconductor-annotationhub: >=2.14.0,<2.15.0
-   :depends bioconductor-annotatr: >=1.8.0,<1.9.0
-   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
-   :depends bioconductor-bsseq: >=1.18.0,<1.19.0
-   :depends bioconductor-delayedarray: >=0.8.0,<0.9.0
-   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   :depends bioconductor-hdf5array: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
+   :depends bioconductor-annotatr: >=1.10.0,<1.11.0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-bsgenome: >=1.52.0,<1.53.0
+   :depends bioconductor-bsseq: >=1.20.0,<1.21.0
+   :depends bioconductor-delayedarray: >=0.10.0,<0.11.0
+   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-hdf5array: >=1.12.0,<1.13.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-dt: 
    :depends r-knitr: 
    :depends r-reshape2: 

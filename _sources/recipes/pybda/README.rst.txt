@@ -24,7 +24,7 @@ pybda
 
    |downloads_pybda| |docker_pybda|
 
-   :versions: 0.0.6-0
+   :versions: 0.1.0-0, 0.0.6-0
    
    :depends click: >=6.7
    :depends joypy: >=0.1.10

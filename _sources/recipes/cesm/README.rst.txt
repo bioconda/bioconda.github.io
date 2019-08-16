@@ -24,17 +24,17 @@ cesm
 
    |downloads_cesm| |docker_cesm|
 
-   :versions: 2.1.1-0, 2.1.0-0
+   :versions: 2.1.1-1, 2.1.1-0, 2.1.0-0
    
    :depends cmake: 
-   :depends gcc_linux-64: 
-   :depends gfortran_linux-64: 
-   :depends hdf5: >=1.10.4,<1.10.5.0a0
-   :depends lapack: 
+   :depends gcc_linux-64: 7.*
+   :depends gfortran_linux-64: 7.*
+   :depends hdf5: >=1.10.5,<1.10.6.0a0
    :depends libgcc-ng: >=7.3.0
    :depends libiconv: 
    :depends libxml2: 
    :depends make: 
+   :depends mkl: 
    :depends mpich: >=3.2.1,<3.3.0a0
    :depends netcdf-fortran: >=4.4.5,<4.5.0a0
    :depends perl-xml-libxml: 

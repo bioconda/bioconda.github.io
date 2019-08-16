@@ -22,13 +22,13 @@ dropest
 
    |downloads_dropest| |docker_dropest|
 
-   :versions: 0.8.5-1, 0.8.5-0
+   :versions: 0.8.6-0, 0.8.5-1, 0.8.5-0
    
-   :depends boost: >=1.68.0,<1.68.1.0a0
-   :depends bzip2: >=1.0.6,<2.0a0
+   :depends boost: >=1.70.0,<1.70.1.0a0
+   :depends bzip2: >=1.0.8,<2.0a0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-ks: 

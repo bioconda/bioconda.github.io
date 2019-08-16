@@ -23,31 +23,32 @@ bioconductor-chippeakanno
 
    |downloads_bioconductor-chippeakanno| |docker_bioconductor-chippeakanno|
 
-   :versions: 3.16.0-0, 3.14.2-0, 3.12.0-0, 3.10.2-0
+   :versions: 3.18.2-0, 3.16.0-0, 3.14.2-0, 3.12.0-0, 3.10.2-0
    
-   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends bioconductor-biomart: >=2.38.0,<2.39.0
-   :depends bioconductor-biostrings: >=2.50.0,<2.51.0
-   :depends bioconductor-bsgenome: >=1.50.0,<1.51.0
-   :depends bioconductor-delayedarray: >=0.8.0,<0.9.0
-   :depends bioconductor-ensembldb: >=2.6.0,<2.7.0
-   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   :depends bioconductor-genomicalignments: >=1.18.0,<1.19.0
-   :depends bioconductor-genomicfeatures: >=1.34.0,<1.35.0
-   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   :depends bioconductor-go.db: >=3.7.0,<3.8.0
-   :depends bioconductor-graph: >=1.60.0,<1.61.0
-   :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends bioconductor-multtest: >=2.38.0,<2.39.0
-   :depends bioconductor-rbgl: >=1.58.0,<1.59.0
-   :depends bioconductor-regioner: >=1.14.0,<1.15.0
-   :depends bioconductor-rsamtools: >=1.34.0,<1.35.0
-   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-biomart: >=2.40.0,<2.41.0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-bsgenome: >=1.52.0,<1.53.0
+   :depends bioconductor-delayedarray: >=0.10.0,<0.11.0
+   :depends bioconductor-ensembldb: >=2.8.0,<2.9.0
+   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicalignments: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicfeatures: >=1.36.0,<1.37.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-go.db: >=3.8.0,<3.9.0
+   :depends bioconductor-graph: >=1.62.0,<1.63.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-multtest: >=2.40.0,<2.41.0
+   :depends bioconductor-rbgl: >=1.60.0,<1.61.0
+   :depends bioconductor-regioner: >=1.16.0,<1.17.0
+   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
+   :depends bioconductor-rtracklayer: >=1.44.0,<1.45.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-biocmanager: 
    :depends r-dbi: 
    :depends r-idr: 

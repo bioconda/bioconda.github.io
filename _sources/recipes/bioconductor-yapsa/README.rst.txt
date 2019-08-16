@@ -23,16 +23,16 @@ bioconductor-yapsa
 
    |downloads_bioconductor-yapsa| |docker_bioconductor-yapsa|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-0
+   :versions: 1.10.0-1, 1.8.0-0, 1.6.0-0, 1.4.0-0
    
-   :depends bioconductor-complexheatmap: >=1.20.0,<1.21.0
-   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   :depends bioconductor-gtrellis: >=1.14.0,<1.15.0
-   :depends bioconductor-keggrest: >=1.22.0,<1.23.0
-   :depends bioconductor-somaticsignatures: >=2.18.0,<2.19.0
-   :depends bioconductor-variantannotation: >=1.28.0,<1.29.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-complexheatmap: >=2.0.0,<2.1.0
+   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-gtrellis: >=1.16.0,<1.17.0
+   :depends bioconductor-keggrest: >=1.24.0,<1.25.0
+   :depends bioconductor-somaticsignatures: >=2.20.0,<2.21.0
+   :depends bioconductor-variantannotation: >=1.30.0,<1.31.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-circlize: 
    :depends r-corrplot: 
    :depends r-dendextend: 

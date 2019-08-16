@@ -23,23 +23,23 @@ bioconductor-madseq
 
    |downloads_bioconductor-madseq| |docker_bioconductor-madseq|
 
-   :versions: 1.6.1-0, 1.4.1-0
+   :versions: 1.10.0-1, 1.6.1-0, 1.4.1-0
    
-   :depends bioconductor-biostrings: >=2.48.0,<2.50.0
-   :depends bioconductor-bsgenome: >=1.48.0,<1.50.0
-   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: >=1.4.0,<1.6.0
-   :depends bioconductor-genomeinfodb: >=1.16.0,<1.18.0
-   :depends bioconductor-genomicalignments: >=1.16.0,<1.18.0
-   :depends bioconductor-genomicranges: >=1.32.7,<1.34.0
-   :depends bioconductor-iranges: >=2.14.12,<2.16.0
-   :depends bioconductor-preprocesscore: >=1.42.0,<1.44.0
-   :depends bioconductor-rsamtools: >=1.32.3,<1.34.0
-   :depends bioconductor-rtracklayer: >=1.40.6,<1.42.0
-   :depends bioconductor-s4vectors: >=0.18.3,<0.20.0
-   :depends bioconductor-summarizedexperiment: >=1.10.1,<1.12.0
-   :depends bioconductor-variantannotation: >=1.26.1,<1.28.0
-   :depends bioconductor-zlibbioc: >=1.26.0,<1.28.0
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-bsgenome: >=1.52.0,<1.53.0
+   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: >=1.4.0,<1.5.0
+   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicalignments: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-preprocesscore: >=1.46.0,<1.47.0
+   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
+   :depends bioconductor-rtracklayer: >=1.44.0,<1.45.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-variantannotation: >=1.30.0,<1.31.0
+   :depends bioconductor-zlibbioc: >=1.30.0,<1.31.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-coda: 
    :depends r-rjags: >=4-6
    :depends r-vcfr: 

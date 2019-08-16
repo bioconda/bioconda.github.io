@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;xopen&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;ispcr&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -98,69 +98,65 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="xopen">
+  <div class="section" id="ispcr">
 <dl class="recipe">
-<dt id="recipe-xopen">
-<em class="property">recipe </em><code class="sig-name descname">xopen</code><a class="headerlink" href="#recipe-xopen" title="Permalink to this definition">¶</a></dt>
-<dd><p>Open compressed files transparently in Python</p>
+<dt id="recipe-ispcr">
+<em class="property">recipe </em><code class="sig-name descname">ispcr</code><a class="headerlink" href="#recipe-ispcr" title="Permalink to this definition">¶</a></dt>
+<dd><p>In silico PCR</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/marcelm/xopen">https://github.com/marcelm/xopen</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://users.soe.ucsc.edu/~kent/">https://users.soe.ucsc.edu/~kent/</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>MIT</p>
+<dd class="field-even"><p>License is hereby granted for personal, academic, and non-profit use.</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xopen">xopen</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xopen/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ispcr">ispcr</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ispcr/meta.yaml">meta.yaml</a></p>
+</dd>
+<dt class="field-even">Links</dt>
+<dd class="field-even"><p>biotools: <a class="reference external" href="https://bio.tools/ispcr">ispcr</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-xopen">
-<em class="property">package </em><code class="sig-name descname">xopen</code><a class="headerlink" href="#package-xopen" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/xopen"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/xopen.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/xopen"><img alt="docker_xopen" src="https://quay.io/repository/biocontainers/xopen/status" /></a></p>
+<dt id="package-ispcr">
+<em class="property">package </em><code class="sig-name descname">ispcr</code><a class="headerlink" href="#package-ispcr" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/ispcr"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/ispcr.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/ispcr"><img alt="docker_ispcr" src="https://quay.io/repository/biocontainers/ispcr/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>0.7.3-0, 0.7.2-0, 0.7.1-0, 0.7.0-0, 0.6.0-0, 0.5.1-0, 0.5.0-0, 0.4.1-0, 0.3.5-0, 0.3.2-1, 0.3.2-0, 0.1.1-0, 0.1.0-0</p>
+<dd class="field-odd"><p>33-0</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/bz2file-feedstock"><strong>bz2file</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a></p></li>
+<li><p><strong>libgcc-ng</strong> &gt;=7.3.0</p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../igdiscover/README.html#igdiscover"><strong class="xref backref">igdiscover</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../fastqsplitter/README.html#fastqsplitter"><strong class="xref backref">fastqsplitter</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../sqt/README.html#sqt"><strong class="xref backref">sqt</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../whatshap/README.html#whatshap"><strong class="xref backref">whatshap</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../cutadapt/README.html#cutadapt"><strong class="xref backref">cutadapt</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../dnaio/README.html#dnaio"><strong class="xref backref">dnaio</strong></a></p></li>
 </ul>
 </dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">xopen</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">ispcr</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">xopen</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">ispcr</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">xopen</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">ispcr</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/xopen?tab=tags">xopen/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/ispcr?tab=tags">ispcr/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/xopen/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/xopen/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/ispcr/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ispcr/README.html)
 </pre></div>
 </div>
 </div>
@@ -181,14 +177,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/xopen/README.rst.txt"
+      <a href="../../_sources/recipes/ispcr/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/xopen/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/ispcr/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

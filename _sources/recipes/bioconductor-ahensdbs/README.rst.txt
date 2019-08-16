@@ -22,12 +22,12 @@ bioconductor-ahensdbs
 
    |downloads_bioconductor-ahensdbs| |docker_bioconductor-ahensdbs|
 
-   :versions: 1.0.8-0
+   :versions: 1.0.9-1, 1.0.8-0
    
-   :depends bioconductor-annotationhubdata: >=1.12.0,<1.13.0
-   :depends bioconductor-ensembldb: >=2.6.0,<2.7.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
+   :depends bioconductor-annotationhubdata: >=1.14.0,<1.15.0
+   :depends bioconductor-ensembldb: >=2.8.0,<2.9.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

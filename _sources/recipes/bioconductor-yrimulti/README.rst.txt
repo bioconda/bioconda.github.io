@@ -22,20 +22,20 @@ bioconductor-yrimulti
 
    |downloads_bioconductor-yrimulti| |docker_bioconductor-yrimulti|
 
-   :versions: 0.12.0-0
+   :versions: 0.14.0-1, 0.12.0-0
    
-   :depends bioconductor-dsqtl: >=0.20.0,<0.21.0
-   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   :depends bioconductor-genomicfiles: >=1.18.0,<1.19.0
-   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   :depends bioconductor-geuvpack: >=1.14.0,<1.15.0
-   :depends bioconductor-gqtlbase: >=1.14.0,<1.15.0
+   :depends bioconductor-dsqtl: >=0.22.0,<0.23.0
+   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicfiles: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-geuvpack: >=1.16.0,<1.17.0
+   :depends bioconductor-gqtlbase: >=1.16.0,<1.17.0
    :depends bioconductor-homo.sapiens: >=1.3.0,<1.4.0
-   :depends bioconductor-multiassayexperiment: >=1.8.0,<1.9.0
-   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends bioconductor-variantannotation: >=1.28.0,<1.29.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
+   :depends bioconductor-multiassayexperiment: >=1.10.0,<1.11.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-variantannotation: >=1.30.0,<1.31.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

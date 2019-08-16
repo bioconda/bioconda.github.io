@@ -22,8 +22,37 @@ bioconductor-sctensor
 
    |downloads_bioconductor-sctensor| |docker_bioconductor-sctensor|
 
-   :versions: 
+   :versions: 1.0.12-0
    
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
+   :depends bioconductor-biocstyle: >=2.12.0,<2.13.0
+   :depends bioconductor-category: >=2.50.0,<2.51.0
+   :depends bioconductor-dose: >=3.10.0,<3.11.0
+   :depends bioconductor-gostats: >=2.50.0,<2.51.0
+   :depends bioconductor-meshdbi: >=1.20.0,<1.21.0
+   :depends bioconductor-meshr: >=1.20.0,<1.21.0
+   :depends bioconductor-reactome.db: >=1.68.0,<1.69.0
+   :depends bioconductor-reactomepa: >=1.28.0,<1.29.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-abind: 
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-biocmanager: 
+   :depends r-checkmate: 
+   :depends r-crayon: 
+   :depends r-heatmaply: 
+   :depends r-igraph: 
+   :depends r-knitr: 
+   :depends r-nntensor: 
+   :depends r-outliers: 
+   :depends r-plotly: 
+   :depends r-plotrix: 
+   :depends r-rmarkdown: 
+   :depends r-rsqlite: 
+   :depends r-rtensor: 
+   :depends r-tagcloud: 
    :requirements:
 
    .. rubric:: Installation

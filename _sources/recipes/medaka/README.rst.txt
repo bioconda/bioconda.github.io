@@ -24,7 +24,7 @@ medaka
 
    |downloads_medaka| |docker_medaka|
 
-   :versions: 0.8.1-0, 0.8.0-0, 0.7.1-1, 0.7.0-1, 0.7.0-0, 0.6.5-0, 0.6.4-0, 0.6.2-0, 0.6.0-0, 0.5.2-0
+   :versions: 0.8.1-1, 0.8.1-0, 0.8.0-0, 0.7.1-1, 0.7.0-1, 0.7.0-0, 0.6.5-0, 0.6.4-0, 0.6.2-0, 0.6.0-0, 0.5.2-0
    
    :depends bcftools: 1.9
    :depends biopython: 
@@ -36,7 +36,7 @@ medaka
    :depends keras: 2.2.4
    :depends libdeflate: >=1.0,<1.1.0a0
    :depends libgcc-ng: >=7.3.0
-   :depends minimap2: 2.11
+   :depends minimap2: 2.17
    :depends numpy: 1.16.1
    :depends pysam: 
    :depends python: >=3.6,<3.7.0a0

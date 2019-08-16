@@ -22,9 +22,11 @@ r-misha
 
    |downloads_r-misha| |docker_r-misha|
 
-   :versions: 4.0.5-0, 4.0.4-1
+   :versions: 4.0.6-0, 4.0.5-0, 4.0.4-1
    
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

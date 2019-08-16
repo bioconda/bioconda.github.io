@@ -14,6 +14,7 @@ blacksheep-outliers
    :homepage: https://github.com/ruggleslab/blackSheep/
    :documentation: https://github.com/ruggleslab/blackSheep/wiki
    
+   :developer docs: https://github.com/ruggleslab/blackSheep
    :license: MIT / MIT
    :recipe: /`blacksheep-outliers <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blacksheep-outliers>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blacksheep-outliers/meta.yaml>`_
 
@@ -24,7 +25,7 @@ blacksheep-outliers
 
    |downloads_blacksheep-outliers| |docker_blacksheep-outliers|
 
-   :versions: 0.0.8-0
+   :versions: 0.0.8-0, 0.0.1-0
    
    :depends matplotlib: >=3.1.0
    :depends numpy: >=1.16.4
