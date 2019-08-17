@@ -22,8 +22,24 @@ bioconductor-cellmixs
 
    |downloads_bioconductor-cellmixs| |docker_bioconductor-cellmixs|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-biocneighbors: >=1.2.0,<1.3.0
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-scater: >=1.12.0,<1.13.0
+   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-cowplot: 
+   :depends r-dplyr: 
+   :depends r-ggplot2: 
+   :depends r-ggridges: 
+   :depends r-ksamples: 
+   :depends r-listarrays: 
+   :depends r-magrittr: 
+   :depends r-purrr: 
+   :depends r-tidyr: 
+   :depends r-viridis: 
    :requirements:
 
    .. rubric:: Installation

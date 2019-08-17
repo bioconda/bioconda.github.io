@@ -22,9 +22,9 @@ bitmapperbs
 
    |downloads_bitmapperbs| |docker_bitmapperbs|
 
-   :versions: 1.0.1.2-0
+   :versions: 1.0.1.6-0, 1.0.1.2-0
    
-   :depends bzip2: >=1.0.6,<2.0a0
+   :depends bzip2: >=1.0.8,<2.0a0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends psascan: 

@@ -22,18 +22,18 @@ bioconductor-vulcan
 
    |downloads_bioconductor-vulcan| |docker_bioconductor-vulcan|
 
-   :versions: 1.4.0-0
+   :versions: 1.6.0-1, 1.4.0-0
    
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends bioconductor-chippeakanno: >=3.16.0,<3.17.0
-   :depends bioconductor-csaw: >=1.16.0,<1.17.0
-   :depends bioconductor-deseq: >=1.34.0,<1.35.0
-   :depends bioconductor-diffbind: >=2.10.0,<2.11.0
-   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-chippeakanno: >=3.18.0,<3.19.0
+   :depends bioconductor-csaw: >=1.18.0,<1.19.0
+   :depends bioconductor-deseq: >=1.36.0,<1.37.0
+   :depends bioconductor-diffbind: >=2.12.0,<2.13.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: >=3.2.0,<3.3.0
-   :depends bioconductor-viper: >=1.16.0,<1.17.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-viper: >=1.18.0,<1.19.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-catools: 
    :depends r-gplots: 
    :depends r-locfit: 

@@ -23,12 +23,12 @@ bioconductor-kcsmart
 
    |downloads_bioconductor-kcsmart| |docker_bioconductor-kcsmart|
 
-   :versions: 2.40.0-0, 2.38.0-0, 2.36.0-0, 2.34.0-0, 2.32.0-0
+   :versions: 2.42.0-1, 2.40.0-0, 2.38.0-0, 2.36.0-0, 2.34.0-0, 2.32.0-0
    
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends bioconductor-multtest: >=2.38.0,<2.39.0
-   :depends bioconductor-siggenes: >=1.56.0,<1.57.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-multtest: >=2.40.0,<2.41.0
+   :depends bioconductor-siggenes: >=1.58.0,<1.59.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-kernsmooth: 
    :requirements:
 

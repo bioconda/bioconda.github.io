@@ -22,10 +22,11 @@ bioconductor-rvs
 
    |downloads_bioconductor-rvs| |docker_bioconductor-rvs|
 
-   :versions: 1.4.0-0
+   :versions: 1.6.0-1, 1.4.0-0
    
-   :depends bioconductor-snpstats: >=1.32.0,<1.33.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-snpstats: >=1.34.0,<1.35.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-genlib: 
    :depends r-grain: 
    :depends r-kinship2: 
    :requirements:

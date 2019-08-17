@@ -22,8 +22,18 @@ scrublet
 
    |downloads_scrublet| |docker_scrublet|
 
-   :versions: 
+   :versions: 0.2.1-0
    
+   :depends matplotlib: 
+   :depends numba: 
+   :depends numpy: >=1.13
+   :depends pandas: 
+   :depends python: 
+   :depends python-annoy: 
+   :depends scikit-image: 
+   :depends scikit-learn: 
+   :depends scipy: 
+   :depends umap-learn: 
    :requirements:
 
    .. rubric:: Installation

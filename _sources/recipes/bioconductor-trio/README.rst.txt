@@ -23,9 +23,12 @@ bioconductor-trio
 
    |downloads_bioconductor-trio| |docker_bioconductor-trio|
 
-   :versions: 3.20.0-0, 3.18.0-0, 3.16.0-0, 3.14.0-0
+   :versions: 3.22.0-1, 3.20.0-0, 3.18.0-0, 3.16.0-0, 3.14.0-0
    
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-siggenes: >=1.58.0,<1.59.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-logicreg: >=1.5.3
+   :depends r-survival: 
    :requirements:
 
    .. rubric:: Installation

@@ -9,23 +9,27 @@ synapseclient
 .. conda:recipe:: synapseclient
    :replaces_section_title:
 
-   A client for Synapse\, a collaborative compute space  that allows scientists to share and analyze data together.
+   Python client for Synapse
 
    :homepage: http://synapse.sagebase.org/
+   :developer docs: https://github.com/Sage-Bionetworks/synapsePythonClient
    :license: Apache Software License
    :recipe: /`synapseclient <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/synapseclient>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/synapseclient/meta.yaml>`_
 
-   
+   A client for Synapse\, a collaborative compute space  that allows
+   scientists to share and analyze data together.
 
 
 .. conda:package:: synapseclient
 
    |downloads_synapseclient| |docker_synapseclient|
 
-   :versions: 1.7.5-1, 1.7.5-0, 1.7.1-0, 1.6.2-0, 1.5-0
+   :versions: 1.9.3-0, 1.7.5-1, 1.7.5-0, 1.7.1-0, 1.6.2-0, 1.5-0
    
    :depends backports.csv: 
+   :depends deprecated: >=1.2.3
    :depends future: 
+   :depends keyring: >=12.0.2
    :depends python: 
    :depends requests: >=1.2
    :depends six: 

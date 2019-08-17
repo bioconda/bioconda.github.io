@@ -22,11 +22,11 @@ bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19
 
    |downloads_bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19| |docker_bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19|
 
-   :versions: 0.6.0-5, 0.6.0-4, 0.6.0-2, 0.6.0-1, 0.6.0-0
+   :versions: 0.6.0-7, 0.6.0-5, 0.6.0-4, 0.6.0-2, 0.6.0-1, 0.6.0-0
    
-   :depends bioconductor-minfi: >=1.28.0,<1.29.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends wget: 
+   :depends bioconductor-minfi: >=1.30.0,<1.31.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

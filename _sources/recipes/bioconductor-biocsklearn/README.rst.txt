@@ -22,13 +22,14 @@ bioconductor-biocsklearn
 
    |downloads_bioconductor-biocsklearn| |docker_bioconductor-biocsklearn|
 
-   :versions: 1.4.0-0
+   :versions: 1.6.0-1, 1.4.0-0
    
-   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
    :depends h5py: 
+   :depends numpy: 
    :depends pandas: 
    :depends python: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-bbmisc: 
    :depends r-knitr: 
    :depends r-reticulate: 

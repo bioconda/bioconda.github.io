@@ -22,8 +22,13 @@ bioconductor-easyqpcr
 
    |downloads_bioconductor-easyqpcr| |docker_bioconductor-easyqpcr|
 
-   :versions: 
+   :versions: 1.26.0-1
    
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-gwidgetsrgtk2: 
+   :depends r-matrixstats: 
+   :depends r-plotrix: 
+   :depends r-plyr: 
    :requirements:
 
    .. rubric:: Installation

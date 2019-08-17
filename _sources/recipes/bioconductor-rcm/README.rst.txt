@@ -22,8 +22,21 @@ bioconductor-rcm
 
    |downloads_bioconductor-rcm| |docker_bioconductor-rcm|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-edger: >=3.26.0,<3.27.0
+   :depends bioconductor-phyloseq: >=1.28.0,<1.29.0
+   :depends r-alabama: 
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-ggplot2: >=2.2.1.9000
+   :depends r-mass: 
+   :depends r-nleqslv: 
+   :depends r-rcolorbrewer: 
+   :depends r-reshape2: 
+   :depends r-tensor: 
+   :depends r-tseries: 
+   :depends r-vegan: 
+   :depends r-vgam: 
    :requirements:
 
    .. rubric:: Installation
