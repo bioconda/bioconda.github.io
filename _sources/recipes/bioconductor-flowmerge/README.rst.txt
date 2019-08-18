@@ -22,13 +22,13 @@ bioconductor-flowmerge
 
    |downloads_bioconductor-flowmerge| |docker_bioconductor-flowmerge|
 
-   :versions: 2.30.1-0
+   :versions: 2.32.0-1, 2.30.1-0
    
-   :depends bioconductor-flowclust: >=3.20.0,<3.21.0
-   :depends bioconductor-flowcore: >=1.48.0,<1.49.0
-   :depends bioconductor-graph: >=1.60.0,<1.61.0
-   :depends bioconductor-rgraphviz: >=2.26.0,<2.27.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-flowclust: >=3.22.0,<3.23.0
+   :depends bioconductor-flowcore: >=1.50.0,<1.51.0
+   :depends bioconductor-graph: >=1.62.0,<1.63.0
+   :depends bioconductor-rgraphviz: >=2.28.0,<2.29.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-feature: 
    :depends r-foreach: 
    :depends r-rrcov: 

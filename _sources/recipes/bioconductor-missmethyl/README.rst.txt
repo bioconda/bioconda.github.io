@@ -23,19 +23,19 @@ bioconductor-missmethyl
 
    |downloads_bioconductor-missmethyl| |docker_bioconductor-missmethyl|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-0
+   :versions: 1.18.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-0
    
-   :depends bioconductor-annotationdbi: >=1.44.0,<1.45.0
-   :depends bioconductor-go.db: >=3.7.0,<3.8.0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-go.db: >=3.8.0,<3.9.0
    :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: >=0.6.0,<0.7.0
    :depends bioconductor-illuminahumanmethylation450kmanifest: >=0.4.0,<0.5.0
    :depends bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19: >=0.6.0,<0.7.0
    :depends bioconductor-illuminahumanmethylationepicmanifest: >=0.3.0,<0.4.0
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends bioconductor-methylumi: >=2.28.0,<2.29.0
-   :depends bioconductor-minfi: >=1.28.0,<1.29.0
-   :depends bioconductor-org.hs.eg.db: >=3.7.0,<3.8.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-methylumi: >=2.30.0,<2.31.0
+   :depends bioconductor-minfi: >=1.30.0,<1.31.0
+   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-biasedurn: 
    :depends r-ruv: 
    :depends r-statmod: 

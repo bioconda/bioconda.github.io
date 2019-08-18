@@ -22,7 +22,7 @@ scallop-lr
 
    |downloads_scallop-lr| |docker_scallop-lr|
 
-   :versions: 0.9.2-0
+   :versions: 0.9.2-1, 0.9.2-0
    
    :depends boost-cpp: >=1.70.0,<1.70.1.0a0
    :depends htslib: >=1.9,<1.10.0a0

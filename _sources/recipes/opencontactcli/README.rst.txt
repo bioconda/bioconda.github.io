@@ -22,11 +22,12 @@ opencontactcli
 
    |downloads_opencontactcli| |docker_opencontactcli|
 
-   :versions: 1.1-0
+   :versions: 1.1-1, 1.1-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libgfortran-ng: >=7,<8.0a0
-   :depends numpy: 
+   :depends numpy: >=1.14.6,<2.0a0
+   :depends python: >=2.7,<2.8.0a0
    :requirements:
 
    .. rubric:: Installation

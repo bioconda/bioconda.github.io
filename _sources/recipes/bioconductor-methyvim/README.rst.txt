@@ -22,18 +22,18 @@ bioconductor-methyvim
 
    |downloads_bioconductor-methyvim| |docker_bioconductor-methyvim|
 
-   :versions: 1.4.0-0
+   :versions: 1.6.0-1, 1.4.0-0
    
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
-   :depends bioconductor-biocparallel: >=1.16.0,<1.17.0
-   :depends bioconductor-bumphunter: >=1.24.0,<1.25.0
-   :depends bioconductor-genomeinfodb: >=1.18.0,<1.19.0
-   :depends bioconductor-iranges: >=2.16.0,<2.17.0
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends bioconductor-minfi: >=1.28.0,<1.29.0
-   :depends bioconductor-s4vectors: >=0.20.0,<0.21.0
-   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-bumphunter: >=1.26.0,<1.27.0
+   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-minfi: >=1.30.0,<1.31.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-cluster: 
    :depends r-dofuture: 
    :depends r-dplyr: 

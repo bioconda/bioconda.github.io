@@ -22,14 +22,14 @@ bioconductor-compartmap
 
    |downloads_bioconductor-compartmap| |docker_bioconductor-compartmap|
 
-   :versions: 1.0.2-0
+   :versions: 1.2.0-1, 1.0.2-0
    
-   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
    :depends bioconductor-homo.sapiens: >=1.3.0,<1.4.0
-   :depends bioconductor-minfi: >=1.28.0,<1.29.0
-   :depends bioconductor-mixomics: >=6.6.0,<6.7.0
-   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-minfi: >=1.30.0,<1.31.0
+   :depends bioconductor-mixomics: >=6.8.0,<6.9.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-gtools: 
    :requirements:
 

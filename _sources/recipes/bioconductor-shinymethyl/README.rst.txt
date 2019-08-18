@@ -23,12 +23,12 @@ bioconductor-shinymethyl
 
    |downloads_bioconductor-shinymethyl| |docker_bioconductor-shinymethyl|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions: 1.20.0-1, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
-   :depends bioconductor-biocgenerics: >=0.28.0,<0.29.0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
    :depends bioconductor-illuminahumanmethylation450kmanifest: >=0.4.0,<0.5.0
-   :depends bioconductor-minfi: >=1.28.0,<1.29.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-minfi: >=1.30.0,<1.31.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-matrixstats: 
    :depends r-rcolorbrewer: 
    :depends r-shiny: >=0.13.2

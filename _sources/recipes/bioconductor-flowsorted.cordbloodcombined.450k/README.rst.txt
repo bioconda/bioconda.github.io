@@ -22,8 +22,16 @@ bioconductor-flowsorted.cordbloodcombined.450k
 
    |downloads_bioconductor-flowsorted.cordbloodcombined.450k| |docker_bioconductor-flowsorted.cordbloodcombined.450k|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
+   :depends bioconductor-flowsorted.blood.epic: >=1.2.0,<1.3.0
+   :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: >=0.6.0,<0.7.0
+   :depends bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19: >=0.6.0,<0.7.0
+   :depends bioconductor-minfi: >=1.30.0,<1.31.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

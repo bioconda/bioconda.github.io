@@ -22,16 +22,16 @@ bioconductor-arraymvout
 
    |downloads_bioconductor-arraymvout| |docker_bioconductor-arraymvout|
 
-   :versions: 1.40.0-0
+   :versions: 1.42.0-1, 1.40.0-0
    
-   :depends bioconductor-affy: >=1.60.0,<1.61.0
-   :depends bioconductor-affycontam: >=1.40.0,<1.41.0
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
-   :depends bioconductor-lumi: >=2.34.0,<2.35.0
-   :depends bioconductor-mdqc: >=1.44.0,<1.45.0
-   :depends bioconductor-parody: >=1.40.0,<1.41.0
-   :depends bioconductor-simpleaffy: >=2.58.0,<2.59.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-affy: >=1.62.0,<1.63.0
+   :depends bioconductor-affycontam: >=1.42.0,<1.43.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-lumi: >=2.36.0,<2.37.0
+   :depends bioconductor-mdqc: >=1.46.0,<1.47.0
+   :depends bioconductor-parody: >=1.42.0,<1.43.0
+   :depends bioconductor-simpleaffy: >=2.60.0,<2.61.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -22,10 +22,10 @@ scallop
 
    |downloads_scallop| |docker_scallop|
 
-   :versions: 0.10.4-1, 0.10.4-0
+   :versions: 0.10.4-2, 0.10.4-1, 0.10.4-0
    
+   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
    :depends htslib: >=1.9,<1.10.0a0
-   :depends libboost: 
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :requirements:
