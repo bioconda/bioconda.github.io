@@ -23,11 +23,11 @@ r-popgenome
 
    |downloads_r-popgenome| |docker_r-popgenome|
 
-   :versions: 2.6.1-2, 2.6.1-1, 2.6.1-0
+   :versions: 2.7.1-0, 2.6.1-2, 2.6.1-1, 2.6.1-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-ff: 
    :requirements:
 

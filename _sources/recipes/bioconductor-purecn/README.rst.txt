@@ -9,7 +9,7 @@ bioconductor-purecn
 .. conda:recipe:: bioconductor-purecn
    :replaces_section_title:
 
-   Copy number calling and SNV classification using targeted short read sequencing
+   This package estimates tumor purity\, copy number\, and loss of heterozygosity \(LOH\)\, and classifies single nucleotide variants \(SNVs\) by somatic status and clonality. PureCN is designed for targeted short read sequencing data\, integrates well with standard somatic variant detection and copy number pipelines\, and has support for tumor samples without matching normal samples.
 
    :homepage: https://bioconductor.org/packages/3.9/bioc/html/PureCN.html
    :license: Artistic-2.0

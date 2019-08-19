@@ -11,7 +11,7 @@ bioconductor-lrbase.xtr.eg.db
 
    Contains the LRBaseDb object to access data from several related annotation packages.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/LRBase.Xtr.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/LRBase.Xtr.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lrbase.xtr.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.xtr.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.xtr.eg.db/meta.yaml>`_
 

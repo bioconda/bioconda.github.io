@@ -22,8 +22,19 @@ bioconductor-conumee
 
    |downloads_bioconductor-conumee| |docker_bioconductor-conumee|
 
-   :versions: 
+   :versions: 1.18.0-1
    
+   :depends bioconductor-dnacopy: >=1.58.0,<1.59.0
+   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: >=0.6.0,<0.7.0
+   :depends bioconductor-illuminahumanmethylation450kmanifest: >=0.4.0,<0.5.0
+   :depends bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19: >=0.6.0,<0.7.0
+   :depends bioconductor-illuminahumanmethylationepicmanifest: >=0.3.0,<0.4.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-minfi: >=1.30.0,<1.31.0
+   :depends bioconductor-rtracklayer: >=1.44.0,<1.45.0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

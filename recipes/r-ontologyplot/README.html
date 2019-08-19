@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;cannoli&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;r-ontologyplot&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -98,63 +98,66 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="cannoli">
+  <div class="section" id="r-ontologyplot">
 <dl class="recipe">
-<dt id="recipe-cannoli">
-<em class="property">recipe </em><code class="sig-name descname">cannoli</code><a class="headerlink" href="#recipe-cannoli" title="Permalink to this definition">¶</a></dt>
-<dd><p>Big Data Genomics ADAM Pipe API wrappers for bioinformatics tools</p>
+<dt id="recipe-r-ontologyplot">
+<em class="property">recipe </em><code class="sig-name descname">r-ontologyplot</code><a class="headerlink" href="#recipe-r-ontologyplot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Functions for visualising sets of ontological terms using the ‘graphviz’ layout system.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/bigdatagenomics/cannoli">https://github.com/bigdatagenomics/cannoli</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://CRAN.R-project.org/package=ontologyPlot">https://CRAN.R-project.org/package=ontologyPlot</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>Apache 2</p>
+<dd class="field-even"><p>GPL3 / GPL (&gt;= 2)</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cannoli">cannoli</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cannoli/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ontologyplot">r-ontologyplot</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ontologyplot/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-cannoli">
-<em class="property">package </em><code class="sig-name descname">cannoli</code><a class="headerlink" href="#package-cannoli" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/cannoli"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/cannoli.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/cannoli"><img alt="docker_cannoli" src="https://quay.io/repository/biocontainers/cannoli/status" /></a></p>
+<dt id="package-r-ontologyplot">
+<em class="property">package </em><code class="sig-name descname">r-ontologyplot</code><a class="headerlink" href="#package-r-ontologyplot" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-ontologyplot"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-ontologyplot.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-ontologyplot"><img alt="docker_r-ontologyplot" src="https://quay.io/repository/biocontainers/r-ontologyplot/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>0.6.0-1, 0.6.0-0, 0.2.0-1, 0.2.0-0</p>
+<dd class="field-odd"><p>1.4-0</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/openjdk-feedstock"><strong>openjdk</strong></a> &gt;=8,&lt;9</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pyspark-feedstock"><strong>pyspark</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-rgraphviz/README.html#package-bioconductor-rgraphviz" title="bioconductor-rgraphviz package"><strong>bioconductor-rgraphviz</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.6,&lt;3.7.0a0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ontologyindex-feedstock"><strong>r-ontologyindex</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-paintmap-feedstock"><strong>r-paintmap</strong></a></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../bioconductor-ontoproc/README.html#bioconductor-ontoproc"><strong class="xref backref">bioconductor-ontoproc</strong></a></p></li>
 </ul>
 </dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">cannoli</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">ontologyplot</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">cannoli</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">ontologyplot</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">cannoli</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">r</span><span class="o">-</span><span class="n">ontologyplot</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/cannoli?tab=tags">cannoli/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/r-ontologyplot?tab=tags">r-ontologyplot/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/cannoli/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/cannoli/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-ontologyplot/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-ontologyplot/README.html)
 </pre></div>
 </div>
 </div>
@@ -175,14 +178,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/cannoli/README.rst.txt"
+      <a href="../../_sources/recipes/r-ontologyplot/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/cannoli/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/r-ontologyplot/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

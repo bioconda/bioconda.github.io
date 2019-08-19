@@ -9,7 +9,7 @@ bioconductor-smad
 .. conda:recipe:: bioconductor-smad
    :replaces_section_title:
 
-   Assigning probability scores to prey proteins captured in affinity purification mass spectrometry \(AP\-MS\) expriments to infer protein\- protein interactions. The output would facilitate non\-specific background removal as contaminants are commonly found in AP\-MS data.
+   Assigning probability scores to prey proteins captured in affinity purification mass spectrometry \(AP\-MS\) expriments to infer protein\-protein interactions. The output would facilitate non\-specific background removal as contaminants are commonly found in AP\-MS data.
 
    :homepage: https://bioconductor.org/packages/3.9/bioc/html/SMAD.html
    :license: MIT + file LICENSE

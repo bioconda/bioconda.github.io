@@ -22,31 +22,31 @@ bioconductor-champ
 
    |downloads_bioconductor-champ| |docker_bioconductor-champ|
 
-   :versions: 2.12.2-0
+   :versions: 2.14.0-1, 2.12.2-0
    
-   :depends bioconductor-bumphunter: >=1.24.0,<1.25.0
-   :depends bioconductor-champdata: >=2.14.0,<2.15.0
-   :depends bioconductor-dmrcate: >=1.18.0,<1.19.0
-   :depends bioconductor-dnacopy: >=1.56.0,<1.57.0
-   :depends bioconductor-fem: >=3.10.0,<3.11.0
-   :depends bioconductor-genomicranges: >=1.34.0,<1.35.0
-   :depends bioconductor-globaltest: >=5.36.0,<5.37.0
-   :depends bioconductor-goseq: >=1.34.0,<1.35.0
-   :depends bioconductor-illumina450probevariants.db: >=1.18.0,<1.19.0
+   :depends bioconductor-bumphunter: >=1.26.0,<1.27.0
+   :depends bioconductor-champdata: >=2.16.0,<2.17.0
+   :depends bioconductor-dmrcate: >=1.20.0,<1.21.0
+   :depends bioconductor-dnacopy: >=1.58.0,<1.59.0
+   :depends bioconductor-fem: >=3.12.0,<3.13.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-globaltest: >=5.38.0,<5.39.0
+   :depends bioconductor-goseq: >=1.36.0,<1.37.0
+   :depends bioconductor-illumina450probevariants.db: >=1.20.0,<1.21.0
    :depends bioconductor-illuminahumanmethylation450kmanifest: >=0.4.0,<0.5.0
    :depends bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19: >=0.6.0,<0.7.0
    :depends bioconductor-illuminahumanmethylationepicmanifest: >=0.3.0,<0.4.0
-   :depends bioconductor-illuminaio: >=0.24.0,<0.25.0
-   :depends bioconductor-impute: >=1.56.0,<1.57.0
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends bioconductor-marray: >=1.60.0,<1.61.0
-   :depends bioconductor-minfi: >=1.28.0,<1.29.0
-   :depends bioconductor-missmethyl: >=1.16.0,<1.17.0
-   :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
-   :depends bioconductor-qvalue: >=2.14.0,<2.15.0
-   :depends bioconductor-sva: >=3.30.0,<3.31.0
-   :depends bioconductor-watermelon: >=1.26.0,<1.27.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-illuminaio: >=0.26.0,<0.27.0
+   :depends bioconductor-impute: >=1.58.0,<1.59.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-marray: >=1.62.0,<1.63.0
+   :depends bioconductor-minfi: >=1.30.0,<1.31.0
+   :depends bioconductor-missmethyl: >=1.18.0,<1.19.0
+   :depends bioconductor-preprocesscore: >=1.46.0,<1.47.0
+   :depends bioconductor-qvalue: >=2.16.0,<2.17.0
+   :depends bioconductor-sva: >=3.32.0,<3.33.0
+   :depends bioconductor-watermelon: >=1.28.0,<1.29.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-combinat: 
    :depends r-dendextend: 
    :depends r-doparallel: 

@@ -11,7 +11,7 @@ bioconductor-lrbase.mmu.eg.db
 
    Contains the LRBaseDb object to access data from several related annotation packages.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/LRBase.Mmu.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/LRBase.Mmu.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lrbase.mmu.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.mmu.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.mmu.eg.db/meta.yaml>`_
 

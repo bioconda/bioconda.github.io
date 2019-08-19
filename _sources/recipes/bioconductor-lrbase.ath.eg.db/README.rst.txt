@@ -11,7 +11,7 @@ bioconductor-lrbase.ath.eg.db
 
    Contains the LRBaseDb object to access data from several related annotation packages.
 
-   :homepage: https://bioconductor.org/packages/3.8/data/annotation/html/LRBase.Ath.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/LRBase.Ath.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lrbase.ath.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.ath.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.ath.eg.db/meta.yaml>`_
 

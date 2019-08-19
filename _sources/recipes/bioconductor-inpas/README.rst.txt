@@ -9,7 +9,7 @@ bioconductor-inpas
 .. conda:recipe:: bioconductor-inpas
    :replaces_section_title:
 
-   Alternative polyadenylation \(APA\) is one of the important post\-transcriptional regulation mechanisms which occurs in most human genes. InPAS facilitates the discovery of novel APA sites from RNAseq data. It leverages cleanUpdTSeq to fine tune identified APA sites.
+   Alternative polyadenylation \(APA\) is one of the important post\-transcriptional regulation mechanisms which occurs in most human genes. InPAS facilitates the discovery of novel APA sites and the differential usage of APA sites from RNA\-Seq data. It leverages cleanUpdTSeq to fine tune identified APA sites by removing false sites due to internal\-priming.
 
    :homepage: https://bioconductor.org/packages/3.9/bioc/html/InPAS.html
    :license: GPL (>= 2)

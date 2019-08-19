@@ -22,19 +22,19 @@ bioconductor-enmix
 
    |downloads_bioconductor-enmix| |docker_bioconductor-enmix|
 
-   :versions: 1.18.0-0
+   :versions: 1.20.3-0, 1.18.0-0
    
-   :depends bioconductor-geneplotter: >=1.60.0,<1.61.0
-   :depends bioconductor-impute: >=1.56.0,<1.57.0
-   :depends bioconductor-minfi: >=1.28.0,<1.29.0
-   :depends bioconductor-preprocesscore: >=1.44.0,<1.45.0
-   :depends bioconductor-summarizedexperiment: >=1.12.0,<1.13.0
-   :depends bioconductor-sva: >=3.30.0,<3.31.0
-   :depends bioconductor-watermelon: >=1.26.0,<1.27.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-geneplotter: >=1.62.0,<1.63.0
+   :depends bioconductor-illuminaio: >=0.26.0,<0.27.0
+   :depends bioconductor-impute: >=1.58.0,<1.59.0
+   :depends bioconductor-preprocesscore: >=1.46.0,<1.47.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-sva: >=3.32.0,<3.33.0
+   :depends bioconductor-watermelon: >=1.28.0,<1.29.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-doparallel: 
    :depends r-foreach: 
-   :depends r-mass: 
+   :depends r-matrixstats: 
    :requirements:
 
    .. rubric:: Installation

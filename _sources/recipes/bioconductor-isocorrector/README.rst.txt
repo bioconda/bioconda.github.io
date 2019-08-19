@@ -9,7 +9,7 @@ bioconductor-isocorrector
 .. conda:recipe:: bioconductor-isocorrector
    :replaces_section_title:
 
-   IsoCorrectoR performs the correction of mass spectrometry data from stable isotope labeling\/tracing metabolomics experiments with regard to natural isotope abundance and tracer impurity. Data from both MS and MS\/MS measurements can be corrected \(with any tracer isotope\: 13C\, 15N\, 18O...\)\, as well as high resolution MS data from multiple\-tracer experiments \(e.g. 13C and 15N used simultaneously\). See the Bioconductor package IsoCorrectoRGUI for a graphical user interface to IsoCorrectoR. IsoCorrectoRGUI is currently only available in the devel version of Bioconductor.
+   IsoCorrectoR performs the correction of mass spectrometry data from stable isotope labeling\/tracing metabolomics experiments with regard to natural isotope abundance and tracer impurity. Data from both MS and MS\/MS measurements can be corrected \(with any tracer isotope\: 13C\, 15N\, 18O...\)\, as well as high resolution MS data from multiple\-tracer experiments \(e.g. 13C and 15N used simultaneously\). See the Bioconductor package IsoCorrectoRGUI for a graphical user interface to IsoCorrectoR.
 
    :homepage: https://bioconductor.org/packages/3.9/bioc/html/IsoCorrectoR.html
    :license: GPL-3

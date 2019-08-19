@@ -22,7 +22,7 @@ perl-scalar-list-utils
 
    |downloads_perl-scalar-list-utils| |docker_perl-scalar-list-utils|
 
-   :versions: 1.51-0, 1.50-0, 1.45-4, 1.45-3, 1.45-2, 1.45-1, 1.45-0, 1.42-3, 1.42-2, 1.42-1, 1.42-0
+   :versions: 1.52-0, 1.51-0, 1.50-0, 1.45-4, 1.45-3, 1.45-2, 1.45-1, 1.45-0, 1.42-3, 1.42-2, 1.42-1, 1.42-0
    
    :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0

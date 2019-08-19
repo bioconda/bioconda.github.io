@@ -23,16 +23,16 @@ bioconductor-watermelon
 
    |downloads_bioconductor-watermelon| |docker_bioconductor-watermelon|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-0
+   :versions: 1.28.0-1, 1.26.0-0, 1.24.0-0, 1.22.0-0
    
-   :depends bioconductor-biobase: >=2.42.0,<2.43.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
    :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: >=0.6.0,<0.7.0
-   :depends bioconductor-illuminaio: >=0.24.0,<0.25.0
-   :depends bioconductor-limma: >=3.38.0,<3.39.0
-   :depends bioconductor-lumi: >=2.34.0,<2.35.0
-   :depends bioconductor-methylumi: >=2.28.0,<2.29.0
-   :depends bioconductor-roc: >=1.58.0,<1.59.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-illuminaio: >=0.26.0,<0.27.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-lumi: >=2.36.0,<2.37.0
+   :depends bioconductor-methylumi: >=2.30.0,<2.31.0
+   :depends bioconductor-roc: >=1.60.0,<1.61.0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-matrixstats: 
    :requirements:
 

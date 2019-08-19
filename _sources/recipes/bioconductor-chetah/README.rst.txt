@@ -9,7 +9,7 @@ bioconductor-chetah
 .. conda:recipe:: bioconductor-chetah
    :replaces_section_title:
 
-   CHETAH is a accurate\, selective and fast scRNA\-seq classifier. Classification is guided by a reference dataset\, preferentially also a scRNA\-seq dataset. By hierarchical clustering of the reference data\, CHETAH creates a classification tree that enables a step\-wise\, top\-to\-bottom classification. Using a novel stopping rule\, CHETAH classifies the input cells to the cell types of the references and to \"intermediate types\"\: more general classifications that ended in an intermediate node of the tree.
+   CHETAH \(CHaracterization of cEll Types Aided by Hierarchical classification\) is an accurate\, selective and fast scRNA\-seq classifier. Classification is guided by a reference dataset\, preferentially also a scRNA\-seq dataset. By hierarchical clustering of the reference data\, CHETAH creates a classification tree that enables a step\-wise\, top\-to\-bottom classification. Using a novel stopping rule\, CHETAH classifies the input cells to the cell types of the references and to \"intermediate types\"\: more general classifications that ended in an intermediate node of the tree.
 
    :homepage: https://bioconductor.org/packages/3.9/bioc/html/CHETAH.html
    :license: file LICENSE
