@@ -22,11 +22,11 @@ r-speaq
 
    |downloads_r-speaq| |docker_r-speaq|
 
-   :versions: 2.3.3-1, 2.3.3-0, 2.1.0-0, 1.2.3-0, 1.2.1-1, 1.2.1-0
+   :versions: 2.6.0-0, 2.3.3-1, 2.3.3-0, 2.1.0-0, 1.2.3-0, 1.2.1-1, 1.2.1-0
    
    :depends bioconductor-impute: 
    :depends bioconductor-massspecwavelet: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-cluster: 
    :depends r-data.table: 
    :depends r-dosnow: 
@@ -36,6 +36,7 @@ r-speaq
    :depends r-missforest: 
    :depends r-mqtl: 
    :depends r-reshape2: 
+   :depends r-rfast: 
    :depends r-rvest: 
    :depends r-xml2: 
    :requirements:

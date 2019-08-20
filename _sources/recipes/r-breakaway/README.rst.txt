@@ -24,7 +24,7 @@ r-breakaway
 
    :versions: 3.0-0
    
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.5,<3.6.0a0
    :requirements:
 
    .. rubric:: Installation

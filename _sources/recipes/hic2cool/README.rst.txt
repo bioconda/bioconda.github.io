@@ -22,13 +22,14 @@ hic2cool
 
    |downloads_hic2cool| |docker_hic2cool|
 
-   :versions: 0.7.1-0, 0.6.0-0, 0.5.1-0, 0.4.2-0, 0.4.1-0
+   :versions: 0.7.3-0, 0.7.1-0, 0.6.0-0, 0.5.1-0, 0.4.2-0, 0.4.1-0
    
    :depends cooler: >=0.8.5
    :depends h5py: >=2.8.0
-   :depends numpy: >=1.16.3
+   :depends numpy: >=1.10.1,<=1.16.3
+   :depends pandas: <=0.24.2
    :depends python: 
-   :depends scipy: >=1.2.1
+   :depends scipy: <=1.2.1
    :requirements:
 
    .. rubric:: Installation

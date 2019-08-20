@@ -6,14 +6,14 @@
 n50
 ===
 
-.. conda:recipe:: n50/0.60
+.. conda:recipe:: n50
    :replaces_section_title:
 
-   calculate N50 from FASTA\/FASTQ files
+   calculate N50 from FASTA\/FASTQ files\, producing both machine and human friendly outputs
 
    :homepage: http://metacpan.org/pod/Proch::N50
    :license: mit
-   :recipe: /`n50 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/n50>`_/`0.60 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/n50/0.60>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/n50/0.60/meta.yaml>`_
+   :recipe: /`n50 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/n50>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/n50/meta.yaml>`_
 
    
 
@@ -22,7 +22,7 @@ n50
 
    |downloads_n50| |docker_n50|
 
-   :versions: 0.60-1, 0.60-0
+   :versions: 0.82-0, 0.80-0, 0.60-1, 0.60-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-exporter: 
