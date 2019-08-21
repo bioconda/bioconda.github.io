@@ -1,0 +1,69 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'pynnotator'
+.. highlight: bash
+
+pynnotator
+==========
+
+.. conda:recipe:: pynnotator
+   :replaces_section_title:
+
+   A Python Annotation Framework for VCFs using multiple tools
+
+   :homepage: http://github.com/raonyguimaraes/pynnotator
+   :license: BSD / BSD
+   :recipe: /`pynnotator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pynnotator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pynnotator/meta.yaml>`_
+
+   
+
+
+.. conda:package:: pynnotator
+
+   |downloads_pynnotator| |docker_pynnotator|
+
+   :versions: 1.8-0
+   
+   :depends pysam: 
+   :depends python: >=3
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pynnotator
+
+   and update with::
+
+      conda update pynnotator
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/pynnotator:<tag>
+
+   (see `pynnotator/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_pynnotator| image:: https://img.shields.io/conda/dn/bioconda/pynnotator.svg?style=flat
+   :target: https://anaconda.org/bioconda/pynnotator
+   :alt:   (downloads)
+.. |docker_pynnotator| image:: https://quay.io/repository/biocontainers/pynnotator/status
+   :target: https://quay.io/repository/biocontainers/pynnotator
+.. _`pynnotator/tags`: https://quay.io/repository/biocontainers/pynnotator?tab=tags
+
+
+
+
+
+
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pynnotator/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pynnotator/README.html

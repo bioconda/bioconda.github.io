@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;r-bc3net&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;motifraptor&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -98,68 +98,71 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="r-bc3net">
+  <div class="section" id="motifraptor">
 <dl class="recipe">
-<dt id="recipe-r-bc3net">
-<em class="property">recipe </em><code class="sig-name descname">r-bc3net</code><a class="headerlink" href="#recipe-r-bc3net" title="Permalink to this definition">¶</a></dt>
-<dd><p>Implementation of the BC3NET algorithm for gene regulatory network inference (de Matos Simoes and Frank Emmert-Streib, Bagging Statistical Network Inference from Large-Scale Gene Expression Data, PLoS ONE 7(3): e33624, &lt;doi:10.1371/journal.pone.0033624&gt;).</p>
+<dt id="recipe-motifraptor">
+<em class="property">recipe </em><code class="sig-name descname">motifraptor</code><a class="headerlink" href="#recipe-motifraptor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Motif-centric analysis on GWAS data</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://CRAN.R-project.org/package=bc3net">https://CRAN.R-project.org/package=bc3net</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/pinellolab/MotifRaptor">https://github.com/pinellolab/MotifRaptor</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>GPL3 / GPL (&gt;= 2)</p>
+<dd class="field-even"><p>Partners</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bc3net">r-bc3net</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bc3net/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/motifraptor">motifraptor</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/motifraptor/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-r-bc3net">
-<em class="property">package </em><code class="sig-name descname">r-bc3net</code><a class="headerlink" href="#package-r-bc3net" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-bc3net"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-bc3net.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-bc3net"><img alt="docker_r-bc3net" src="https://quay.io/repository/biocontainers/r-bc3net/status" /></a></p>
+<dt id="package-motifraptor">
+<em class="property">package </em><code class="sig-name descname">motifraptor</code><a class="headerlink" href="#package-motifraptor" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/motifraptor"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/motifraptor.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/motifraptor"><img alt="docker_motifraptor" src="https://quay.io/repository/biocontainers/motifraptor/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>1.0.4-1, 1.0.4-0</p>
+<dd class="field-odd"><p>0.2.3-0</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.6,&lt;3.7.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-c3net-feedstock"><strong>r-c3net</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-igraph-feedstock"><strong>r-igraph</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-infotheo-feedstock"><strong>r-infotheo</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-lattice-feedstock"><strong>r-lattice</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-matrix-feedstock"><strong>r-matrix</strong></a></p></li>
+<li><p><strong>libgcc-ng</strong> &gt;=7.3.0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/matplotlib-feedstock"><strong>matplotlib</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a> &gt;=1.14.6,&lt;2.0a0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../pybedtools/README.html#package-pybedtools" title="pybedtools package"><strong>pybedtools</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../pybigwig/README.html#package-pybigwig" title="pybigwig package"><strong>pybigwig</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=3.6,&lt;3.7.0a0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scipy-feedstock"><strong>scipy</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/seaborn-feedstock"><strong>seaborn</strong></a> 0.9.0.*</p></li>
+<li><p><a class="conda-package reference internal" href="../twobitreader/README.html#package-twobitreader" title="twobitreader package"><strong>twobitreader</strong></a></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-caomicsv/README.html#bioconductor-caomicsv"><strong class="xref backref">bioconductor-caomicsv</strong></a></p></li>
 </ul>
 </dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">bc3net</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">motifraptor</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">bc3net</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">motifraptor</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">r</span><span class="o">-</span><span class="n">bc3net</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">motifraptor</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/r-bc3net?tab=tags">r-bc3net/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/motifraptor?tab=tags">motifraptor/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-bc3net/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-bc3net/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/motifraptor/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/motifraptor/README.html)
 </pre></div>
 </div>
 </div>
@@ -180,14 +183,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/r-bc3net/README.rst.txt"
+      <a href="../../_sources/recipes/motifraptor/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/r-bc3net/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/motifraptor/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

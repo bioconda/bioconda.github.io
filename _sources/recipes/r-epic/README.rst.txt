@@ -23,9 +23,9 @@ r-epic
 
    |downloads_r-epic| |docker_r-epic|
 
-   :versions: 1.1-0
+   :versions: 1.1-1, 1.1-0
    
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

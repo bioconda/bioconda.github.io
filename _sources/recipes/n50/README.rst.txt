@@ -22,7 +22,7 @@ n50
 
    |downloads_n50| |docker_n50|
 
-   :versions: 0.82-0, 0.80-0, 0.60-1, 0.60-0
+   :versions: 0.83-0, 0.82-0, 0.80-0, 0.60-1, 0.60-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-exporter: 

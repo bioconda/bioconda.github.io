@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;r-ampliconduo&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;pynnotator&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -98,37 +98,36 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="r-ampliconduo">
+  <div class="section" id="pynnotator">
 <dl class="recipe">
-<dt id="recipe-r-ampliconduo">
-<em class="property">recipe </em><code class="sig-name descname">r-ampliconduo</code><a class="headerlink" href="#recipe-r-ampliconduo" title="Permalink to this definition">¶</a></dt>
-<dd><p>Increasingly powerful techniques for high-throughput sequencing open the possibility to comprehensively characterize microbial communities, including rare species. However, a still unresolved issue are the substantial error rates in the experimental process generating these sequences. To overcome these limitations we propose an approach, where each sample is split and the same amplification and sequencing protocol is applied to both halves. This procedure should allow to detect likely PCR and sequencing artifacts, and true rare species by comparison of the results of both parts. The AmpliconDuo package, whereas amplicon duo from here on refers to the two amplicon data sets of a split sample, is intended to help interpret the obtained read frequency distribution across split samples, and to filter the false positive reads.</p>
+<dt id="recipe-pynnotator">
+<em class="property">recipe </em><code class="sig-name descname">pynnotator</code><a class="headerlink" href="#recipe-pynnotator" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Python Annotation Framework for VCFs using multiple tools</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://CRAN.R-project.org/package=AmpliconDuo">https://CRAN.R-project.org/package=AmpliconDuo</a></p>
+<dd class="field-odd"><p><a class="reference external" href="http://github.com/raonyguimaraes/pynnotator">http://github.com/raonyguimaraes/pynnotator</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>GPL3 / GPL (&gt;= 3)</p>
+<dd class="field-even"><p>BSD / BSD</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ampliconduo">r-ampliconduo</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ampliconduo/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pynnotator">pynnotator</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pynnotator/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-r-ampliconduo">
-<em class="property">package </em><code class="sig-name descname">r-ampliconduo</code><a class="headerlink" href="#package-r-ampliconduo" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-ampliconduo"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-ampliconduo.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-ampliconduo"><img alt="docker_r-ampliconduo" src="https://quay.io/repository/biocontainers/r-ampliconduo/status" /></a></p>
+<dt id="package-pynnotator">
+<em class="property">package </em><code class="sig-name descname">pynnotator</code><a class="headerlink" href="#package-pynnotator" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/pynnotator"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/pynnotator.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/pynnotator"><img alt="docker_pynnotator" src="https://quay.io/repository/biocontainers/pynnotator/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>1.1-0</p>
+<dd class="field-odd"><p>1.8-0</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5,&lt;3.6.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ggplot2-feedstock"><strong>r-ggplot2</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-xtable-feedstock"><strong>r-xtable</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../pysam/README.html#package-pysam" title="pysam package"><strong>pysam</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=3</p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
@@ -138,24 +137,24 @@
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">ampliconduo</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">pynnotator</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">ampliconduo</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">pynnotator</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">r</span><span class="o">-</span><span class="n">ampliconduo</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">pynnotator</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/r-ampliconduo?tab=tags">r-ampliconduo/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/pynnotator?tab=tags">pynnotator/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-ampliconduo/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-ampliconduo/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/pynnotator/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pynnotator/README.html)
 </pre></div>
 </div>
 </div>
@@ -176,14 +175,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/r-ampliconduo/README.rst.txt"
+      <a href="../../_sources/recipes/pynnotator/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/r-ampliconduo/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/pynnotator/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;r-blockfest&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;logomaker&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -98,67 +98,66 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="r-blockfest">
+  <div class="section" id="logomaker">
 <dl class="recipe">
-<dt id="recipe-r-blockfest">
-<em class="property">recipe </em><code class="sig-name descname">r-blockfest</code><a class="headerlink" href="#recipe-r-blockfest" title="Permalink to this definition">¶</a></dt>
-<dd><p>An R implementation of an extension of the ‘BayeScan’ software (Foll, 2008) &lt;DOI:10.1534/genetics.108.092221&gt; for codominant markers, adding the option to group individual SNPs into pre-defined blocks. A typical application of this new approach is the identification of genomic regions, genes, or gene sets containing one or more SNPs that evolved under directional selection.</p>
+<dt id="recipe-logomaker">
+<em class="property">recipe </em><code class="sig-name descname">logomaker</code><a class="headerlink" href="#recipe-logomaker" title="Permalink to this definition">¶</a></dt>
+<dd><p>Package for making Sequence Logos</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://CRAN.R-project.org/package=BlockFeST">https://CRAN.R-project.org/package=BlockFeST</a></p>
+<dd class="field-odd"><p><a class="reference external" href="http://logomaker.readthedocs.io">http://logomaker.readthedocs.io</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>GPL2 / GPL-2</p>
+<dd class="field-even"><p>MIT / MIT</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-blockfest">r-blockfest</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-blockfest/meta.yaml">meta.yaml</a></p>
-</dd>
-<dt class="field-even">Links</dt>
-<dd class="field-even"><p>doi: <a class="reference external" href="https://doi.org/10.1534/genetics.108.092221">10.1534/genetics.108.092221</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/logomaker">logomaker</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/logomaker/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-r-blockfest">
-<em class="property">package </em><code class="sig-name descname">r-blockfest</code><a class="headerlink" href="#package-r-blockfest" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-blockfest"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-blockfest.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-blockfest"><img alt="docker_r-blockfest" src="https://quay.io/repository/biocontainers/r-blockfest/status" /></a></p>
+<dt id="package-logomaker">
+<em class="property">package </em><code class="sig-name descname">logomaker</code><a class="headerlink" href="#package-logomaker" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/logomaker"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/logomaker.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/logomaker"><img alt="docker_logomaker" src="https://quay.io/repository/biocontainers/logomaker/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>1.6-2, 1.6-1, 1.6-0</p>
+<dd class="field-odd"><p>0.8-0</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><strong>libgcc-ng</strong> &gt;=7.3.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-basix-feedstock"><strong>r-basix</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/matplotlib-feedstock"><strong>matplotlib</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../rgt/README.html#rgt"><strong class="xref backref">rgt</strong></a></p></li>
 </ul>
 </dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">blockfest</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">logomaker</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">blockfest</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">logomaker</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">r</span><span class="o">-</span><span class="n">blockfest</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">logomaker</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/r-blockfest?tab=tags">r-blockfest/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/logomaker?tab=tags">logomaker/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-blockfest/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-blockfest/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/logomaker/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/logomaker/README.html)
 </pre></div>
 </div>
 </div>
@@ -179,14 +178,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/r-blockfest/README.rst.txt"
+      <a href="../../_sources/recipes/logomaker/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/r-blockfest/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/logomaker/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>
