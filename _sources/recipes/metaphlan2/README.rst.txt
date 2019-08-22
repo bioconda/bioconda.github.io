@@ -6,14 +6,14 @@
 metaphlan2
 ==========
 
-.. conda:recipe:: metaphlan2/2.9.0
+.. conda:recipe:: metaphlan2
    :replaces_section_title:
 
    Metagenomic Phylogenetic Analysis
 
    :homepage: https://bitbucket.org/biobakery/metaphlan2
    :license: MIT / MIT License
-   :recipe: /`metaphlan2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2>`_/`2.9.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2/2.9.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2/2.9.0/meta.yaml>`_
+   :recipe: /`metaphlan2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2/meta.yaml>`_
 
    MetaPhlAn is a computational tool for profiling the composition of microbial
    communities \(Bacteria\, Archaea and Eukaryotes\) from metagenomic
@@ -28,7 +28,7 @@ metaphlan2
 
    |downloads_metaphlan2| |docker_metaphlan2|
 
-   :versions: 2.9.20-0, 2.9.19-0, 2.9.18-0, 2.9.17-0, 2.9.15-0, 2.9.14-0, 2.9.13-0, 2.9.12-0, 2.9.11-0, 2.9.1-0, 2.7.8-0, 2.7.7-4, 2.7.7-3, 2.7.7-2, 2.7.7-1, 2.7.5-1, 2.7.5-0, 2.6.0-2, 2.6.0-1, 2.5.0-2, 2.5.0-0, 2.2.0-1, 2.2.0-0
+   :versions: 2.9.21-0, 2.9.20-0, 2.9.19-0, 2.9.18-0, 2.9.17-0, 2.9.15-0, 2.9.14-0, 2.9.13-0, 2.9.12-0, 2.9.11-0, 2.9.1-0, 2.7.8-0, 2.7.7-4, 2.7.7-3, 2.7.7-2, 2.7.7-1, 2.7.5-1, 2.7.5-0, 2.6.0-2, 2.6.0-1, 2.5.0-2, 2.5.0-0, 2.2.0-1, 2.2.0-0
    
    :depends biom-format: 
    :depends biopython: 

@@ -22,11 +22,11 @@ bbknn
 
    |downloads_bbknn| |docker_bbknn|
 
-   :versions: 1.3.3-0
+   :versions: 1.3.5-0, 1.3.3-0
    
-   :depends cython: 
+   :depends libgcc-ng: >=7.3.0
    :depends numpy: >=1.13
-   :depends python: 
+   :depends python: >=2.7,<2.8.0a0
    :depends python-annoy: 
    :depends scikit-learn: 
    :depends scipy: 

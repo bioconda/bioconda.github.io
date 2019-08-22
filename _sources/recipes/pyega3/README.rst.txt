@@ -22,7 +22,7 @@ pyega3
 
    |downloads_pyega3| |docker_pyega3|
 
-   :versions: 3.0.38-0, 3.0.21-1, 3.0.21-0
+   :versions: 3.0.39-0, 3.0.38-0, 3.0.21-1, 3.0.21-0
    
    :depends python: >3
    :depends python-htsget: 
