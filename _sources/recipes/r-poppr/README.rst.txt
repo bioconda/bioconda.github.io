@@ -22,13 +22,13 @@ r-poppr
 
    |downloads_r-poppr| |docker_r-poppr|
 
-   :versions: 2.8.2-0, 2.8.1-1, 2.8.1-0
+   :versions: 2.8.3-0, 2.8.2-0, 2.8.1-1, 2.8.1-0
    
    :depends libgcc-ng: >=7.3.0
    :depends r-ade4: 
    :depends r-adegenet: 
    :depends r-ape: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-boot: 
    :depends r-cowplot: 
    :depends r-dplyr: 

@@ -9,20 +9,25 @@ ncbi-amrfinderplus
 .. conda:recipe:: ncbi-amrfinderplus
    :replaces_section_title:
 
-   AMRFinder find acquired antimicrobial resistance genes in protein or nucleotide sequences.
+   AMRFinderPlus finds antimicrobial resistance and other genes in protein or nucleotide sequences.
 
    :homepage: https://github.com/ncbi/amr/wiki
    :license: Public Domain
    :recipe: /`ncbi-amrfinderplus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncbi-amrfinderplus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncbi-amrfinderplus/meta.yaml>`_
 
-   
+   This software and the accompanying database are designed to
+   find acquired antimicrobial resistance genes in bacterial protein or
+   nucleotide sequences as well as known point mutations for several taxa. With
+   AMRFinderPlus we have added select members of additional classes of genes
+   such as virulence factors\, biocide\, heat\, acid\, and metal resistance genes.
+
 
 
 .. conda:package:: ncbi-amrfinderplus
 
    |downloads_ncbi-amrfinderplus| |docker_ncbi-amrfinderplus|
 
-   :versions: 3.0.12-0, 3.0.11-0, 3.0.9-0, 3.0.8-0
+   :versions: 3.1.1b-0, 3.0.12-0, 3.0.11-0, 3.0.9-0, 3.0.8-0
    
    :depends blast: >=2.9
    :depends hmmer: >=3.2

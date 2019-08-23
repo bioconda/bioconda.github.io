@@ -23,7 +23,7 @@ r-freerange
 
    |downloads_r-freerange| |docker_r-freerange|
 
-   :versions: 0.2.2-0, 0.2.1-0, 0.1.6-0
+   :versions: 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.1.6-0
    
    :depends bioconductor-annotationhub: 
    :depends bioconductor-biocgenerics: 

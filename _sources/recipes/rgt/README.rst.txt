@@ -25,7 +25,7 @@ rgt
 
    |downloads_rgt| |docker_rgt|
 
-   :versions: 0.12.2-0, 0.11.4-2, 0.11.4-1, 0.11.4-0
+   :versions: 0.12.3-0, 0.12.2-0, 0.11.4-2, 0.11.4-1, 0.11.4-0
    
    :depends biopython: >=1.64
    :depends configparser: 
