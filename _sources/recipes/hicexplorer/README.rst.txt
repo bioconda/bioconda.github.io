@@ -9,7 +9,7 @@ hicexplorer
 .. conda:recipe:: hicexplorer
    :replaces_section_title:
 
-   Set of programs to process\, analyze and visualize Hi\-C data
+   Set of programs to process\, analyze and visualize Hi\-C and capture Hi\-C data
 
    :homepage: https://github.com/deeptools/HiCExplorer
    :license: GPL3
@@ -23,28 +23,28 @@ hicexplorer
 
    |downloads_hicexplorer| |docker_hicexplorer|
 
-   :versions: 3.1-0, 3.0.2-0, 3.0.1-0, 2.2.3-0, 2.2.2-0, 2.2.1-0, 2.2-1, 2.2-0, 2.2beta-0, 2.1.4-3, 2.1.4-2, 2.1.3-0, 2.1.2-0, 2.1.1-1, 2.1.1-0, 2.1-0, 2.1alpha1-0, 2.0-1, 2.0-0, 1.8.1-0, 1.8-2, 1.8-1, 1.8-0, 1.7.2-0, 1.7.1-0, 1.6.1-0, 1.6-0, 1.4-0, 1.3-0, 1.2-0, 1.1a-0, 0.1-0
+   :versions: 3.2-0, 3.1-0, 3.0.2-0, 3.0.1-0, 2.2.3-0, 2.2.2-0, 2.2.1-0, 2.2-1, 2.2-0, 2.2beta-0, 2.1.4-3, 2.1.4-2, 2.1.3-0, 2.1.2-0, 2.1.1-1, 2.1.1-0, 2.1-0, 2.1alpha1-0, 2.0-1, 2.0-0, 1.8.1-0, 1.8-2, 1.8-1, 1.8-0, 1.7.2-0, 1.7.1-0, 1.6.1-0, 1.6-0, 1.4-0, 1.3-0, 1.2-0, 1.1a-0, 0.1-0
    
    :depends biopython: 
-   :depends configparser: 
    :depends cooler: >=0.8.5
    :depends fit_nbinom: >=1.1
    :depends future: 
    :depends hic2cool: >=0.7
-   :depends hicmatrix: >=10
+   :depends hicmatrix: >=11
    :depends intervaltree: 
    :depends jinja2: 
    :depends krbalancing: >=0.0.5
-   :depends matplotlib: 3.0.*
-   :depends numpy: >=1.16
+   :depends matplotlib: 3.1.*
+   :depends numpy: >=1.17
    :depends pandas: 
+   :depends psutil: 
+   :depends pybedtools: >=0.8
    :depends pybigwig: 
    :depends pygenometracks: >=3.0
    :depends pysam: 
    :depends pytables: 
    :depends python: >=3.5
-   :depends scipy: >=1.2
-   :depends six: 
+   :depends scipy: >=1.3
    :depends unidecode: 
    :requirements:
 

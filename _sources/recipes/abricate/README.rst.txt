@@ -22,16 +22,16 @@ abricate
 
    |downloads_abricate| |docker_abricate|
 
-   :versions: 0.8.13-0, 0.8.10-0, 0.8.7-0, 0.8-1, 0.8-0, 0.7-2, 0.7-1, 0.7-0, 0.5-2, 0.5-1, 0.5-0, 0.4-2, 0.4-1, 0.4-0, 0.3-0, 0.2-1, 0.2-0
+   :versions: 0.9.3-0, 0.8.13-0, 0.8.10-0, 0.8.7-0, 0.8-1, 0.8-0, 0.7-2, 0.7-1, 0.7-0, 0.5-2, 0.5-1, 0.5-0, 0.4-2, 0.4-1, 0.4-0, 0.3-0, 0.2-1, 0.2-0
    
+   :depends any2fasta: 
    :depends blast: >=2.7
-   :depends emboss: 
    :depends entrez-direct: 
    :depends perl-bioperl: >=1.7
-   :depends perl-file-slurp: 
    :depends perl-json: 
    :depends perl-list-moreutils: 
    :depends perl-lwp-simple: 
+   :depends perl-path-tiny: 
    :depends perl-text-csv: 
    :depends unzip: 
    :depends zlib: >=1.2.11,<1.3.0a0

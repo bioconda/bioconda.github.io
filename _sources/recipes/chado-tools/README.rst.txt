@@ -22,7 +22,7 @@ chado-tools
 
    |downloads_chado-tools| |docker_chado-tools|
 
-   :versions: 0.2.13-0, 0.2.12-0, 0.2.11-0, 0.2.10-0, 0.2.8-0, 0.2.5-0, 0.0.5-0, 0.0.4-0, 0.0.3-0
+   :versions: 0.2.14-0, 0.2.13-0, 0.2.12-0, 0.2.11-0, 0.2.10-0, 0.2.8-0, 0.2.5-0, 0.0.5-0, 0.0.4-0, 0.0.3-0
    
    :depends biopython: 
    :depends gffutils: 
