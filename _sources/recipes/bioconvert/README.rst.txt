@@ -22,7 +22,7 @@ bioconvert
 
    |downloads_bioconvert| |docker_bioconvert|
 
-   :versions: 0.4.2-0, 0.4.1-0, 0.4.0-0, 0.3.0-1, 0.2.0-2, 0.2.0-1, 0.0.10-1, 0.0.10-0
+   :versions: 0.4.3-0, 0.4.2-0, 0.4.1-0, 0.4.0-0, 0.3.0-1, 0.2.0-2, 0.2.0-1, 0.0.10-1, 0.0.10-0
    
    :depends bamtools: 
    :depends bcftools: 
