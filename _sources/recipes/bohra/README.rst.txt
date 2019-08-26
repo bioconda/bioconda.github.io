@@ -22,7 +22,7 @@ bohra
 
    |downloads_bohra| |docker_bohra|
 
-   :versions: 1.0.20-0, 1.0.19-0
+   :versions: 1.0.20-1, 1.0.20-0, 1.0.19-0
    
    :depends abricate: 
    :depends biopython: >=1.70
@@ -41,10 +41,10 @@ bohra
    :depends roary: 
    :depends seqtk: 
    :depends sh: 
-   :depends shovill: 
+   :depends shovill: >=1.0.4
    :depends snakemake: >=5.4.0
-   :depends snippy: 
-   :depends snp-dists: 
+   :depends snippy: >=4.4.3
+   :depends snp-dists: >=0.6.3
    :depends svgwrite: 
    :requirements:
 

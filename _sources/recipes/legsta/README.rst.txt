@@ -22,7 +22,7 @@ legsta
 
    |downloads_legsta| |docker_legsta|
 
-   :versions: 0.3.3-0
+   :versions: 0.3.7-0, 0.3.3-0
    
    :depends ispcr: 
    :depends perl: 
