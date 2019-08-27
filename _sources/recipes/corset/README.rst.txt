@@ -23,9 +23,10 @@ corset
 
    |downloads_corset| |docker_corset|
 
-   :versions: 1.07-0, 1.06-1, 1.06-0
+   :versions: 1.09-0, 1.07-0, 1.06-1, 1.06-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

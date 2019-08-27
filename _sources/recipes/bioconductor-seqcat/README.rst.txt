@@ -22,7 +22,7 @@ bioconductor-seqcat
 
    |downloads_bioconductor-seqcat| |docker_bioconductor-seqcat|
 
-   :versions: 1.6.0-1, 1.4.1-0, 1.4.0-0
+   :versions: 1.6.3-0, 1.6.0-1, 1.4.1-0, 1.4.0-0
    
    :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
    :depends bioconductor-genomicranges: >=1.36.0,<1.37.0

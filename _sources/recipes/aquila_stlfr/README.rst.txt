@@ -22,7 +22,7 @@ aquila_stlfr
 
    |downloads_aquila_stlfr| |docker_aquila_stlfr|
 
-   :versions: 1.2.4-0, 1.2.1-0, 1.1-2, 1.1-0
+   :versions: 1.2.8-0, 1.2.4-0, 1.2.1-0, 1.1-2, 1.1-0
    
    :depends minimap2: 
    :depends numpy: 

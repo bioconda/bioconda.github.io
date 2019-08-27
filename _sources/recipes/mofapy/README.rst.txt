@@ -22,9 +22,8 @@ mofapy
 
    |downloads_mofapy| |docker_mofapy|
 
-   :versions: 1.2-0, 1.1.1-0
+   :versions: 1.2-1, 1.2-0, 1.1.1-0
    
-   :depends argparse: 
    :depends h5py: 
    :depends numpy: 
    :depends pandas: 
