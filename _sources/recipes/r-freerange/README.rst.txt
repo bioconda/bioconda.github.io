@@ -23,21 +23,21 @@ r-freerange
 
    |downloads_r-freerange| |docker_r-freerange|
 
-   :versions: 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.1.6-0
+   :versions: 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.1.6-0
    
-   :depends bioconductor-annotationhub: 
-   :depends bioconductor-biocgenerics: 
-   :depends bioconductor-ensembldb: 
-   :depends bioconductor-genomeinfodb: 
-   :depends bioconductor-genomicfeatures: 
-   :depends bioconductor-genomicranges: 
-   :depends bioconductor-iranges: 
-   :depends bioconductor-s4vectors: 
+   :depends bioconductor-annotationhub: >=2.16
+   :depends bioconductor-biocgenerics: >=0.30
+   :depends bioconductor-ensembldb: >=2.8
+   :depends bioconductor-genomeinfodb: >=1.20
+   :depends bioconductor-genomicfeatures: >=1.36
+   :depends bioconductor-genomicranges: >=1.36
+   :depends bioconductor-iranges: >=2.18.2
+   :depends bioconductor-s4vectors: >=0.22
    :depends r-base: >=3.6,<3.7.0a0
-   :depends r-brio: >=0.3
-   :depends r-goalie: >=0.2.19
-   :depends r-syntactic: >=0.2
-   :depends r-transformer: >=0.2
+   :depends r-brio: >=0.3.6
+   :depends r-goalie: >=0.3.5
+   :depends r-syntactic: >=0.2.3
+   :depends r-transformer: >=0.2.4
    :requirements:
 
    .. rubric:: Installation

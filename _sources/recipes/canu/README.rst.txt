@@ -23,12 +23,13 @@ canu
 
    |downloads_canu| |docker_canu|
 
-   :versions: 1.8-0, 1.7.1-0, 1.7-0, 1.6-1, 1.5-1, 1.5-0, 1.4-2, 1.4-1, 1.4-0, 1.3-0, 1.1-0
+   :versions: 1.8-1, 1.8-0, 1.7.1-0, 1.7-0, 1.6-1, 1.5-1, 1.5-0, 1.4-2, 1.4-1, 1.4-0, 1.3-0, 1.1-0
    
    :depends gnuplot: >=5.0.5
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends openjdk: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: 
    :depends perl-filesys-df: 
    :requirements:
 

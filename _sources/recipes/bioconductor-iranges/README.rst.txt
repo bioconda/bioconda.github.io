@@ -23,7 +23,7 @@ bioconductor-iranges
 
    |downloads_bioconductor-iranges| |docker_bioconductor-iranges|
 
-   :versions: 2.18.1-0, 2.16.0-0, 2.14.12-0, 2.12.0-0, 2.10.5-0, 2.8.2-0, 2.8.0-0, 2.6.1-0, 2.6.0-0, 2.4.8-0, 2.4.7-0, 2.4.6-0, 2.4.1-0, 2.4.0-0, 2.2.9-0
+   :versions: 2.18.2-0, 2.18.1-0, 2.16.0-0, 2.14.12-0, 2.12.0-0, 2.10.5-0, 2.8.2-0, 2.8.0-0, 2.6.1-0, 2.6.0-0, 2.4.8-0, 2.4.7-0, 2.4.6-0, 2.4.1-0, 2.4.0-0, 2.2.9-0
    
    :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
    :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
