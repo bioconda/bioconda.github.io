@@ -9,7 +9,7 @@ pynnotator
 .. conda:recipe:: pynnotator
    :replaces_section_title:
 
-   A Python Annotation Framework for VCFs using multiple tools
+   A Python Annotation Framework for VCFs using multiple tools.
 
    :homepage: http://github.com/raonyguimaraes/pynnotator
    :license: BSD / BSD
@@ -22,10 +22,10 @@ pynnotator
 
    |downloads_pynnotator| |docker_pynnotator|
 
-   :versions: 1.8-0
+   :versions: 1.8-1, 1.8-0
    
    :depends pysam: 
-   :depends python: >=3
+   :depends python: 
    :requirements:
 
    .. rubric:: Installation
