@@ -9,10 +9,10 @@ r-spieceasi
 .. conda:recipe:: r-spieceasi
    :replaces_section_title:
 
-   A means to explore the structure of 16S rRNA surveys using a Structural  Topic Model coupled with functional prediction. The user provides an abundance  table\, sample metadata\, and taxonomy information\, and themetagenomics infers  associations between topics and sample features\, as well as topics and predicted  functional content. Functional prediction can be accomplished via Tax4Fun \(for  Silva references\) and PICRUSt \(for GreenGeenes references\).
+   Estimate networks from the precision matrix of compositional microbial abundance data.
 
-   :homepage: http://github.com/EESI/themetagenomics
-   :license: MIT / MIT
+   :homepage: http://github.com/zdk123/SpiecEasi
+   :license: GPL (>= 2)
    :recipe: /`r-spieceasi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-spieceasi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-spieceasi/meta.yaml>`_
 
    
@@ -22,12 +22,13 @@ r-spieceasi
 
    |downloads_r-spieceasi| |docker_r-spieceasi|
 
-   :versions: 0.1.4-1, 0.1.4-0
+   :versions: 1.0.7-0, 0.1.4-1, 0.1.4-0
    
-   :depends r-base: >=3.4.1,<3.4.2.0a0
-   :depends r-huge: 
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-huge: >=1.3.2
    :depends r-mass: 
    :depends r-matrix: 
+   :depends r-pulsar: 
    :depends r-vgam: 
    :requirements:
 

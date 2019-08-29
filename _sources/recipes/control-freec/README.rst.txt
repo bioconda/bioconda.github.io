@@ -25,10 +25,11 @@ control-freec
 
    |downloads_control-freec| |docker_control-freec|
 
-   :versions: 11.4-0, 10.6-0, 10.5-0
+   :versions: 11.5-0, 11.4-0, 10.6-0, 10.5-0
    
    :depends bioconductor-rtracklayer: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends perl: 
    :depends r-base: 
    :requirements:

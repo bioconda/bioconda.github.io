@@ -22,9 +22,10 @@ gprofiler-official
 
    |downloads_gprofiler-official| |docker_gprofiler-official|
 
-   :versions: 0.2.3-1, 0.2.3-0
+   :versions: 1.0.0-0, 0.2.3-1, 0.2.3-0
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3
+   :depends requests: 
    :requirements:
 
    .. rubric:: Installation
