@@ -22,7 +22,7 @@ pynnotator
 
    |downloads_pynnotator| |docker_pynnotator|
 
-   :versions: 1.9-0, 1.8-1, 1.8-0
+   :versions: 1.9.1-0, 1.9-0, 1.8-1, 1.8-0
    
    :depends pysam: >=0.15
    :depends python: 

@@ -22,10 +22,11 @@ breseq
 
    |downloads_breseq| |docker_breseq|
 
-   :versions: 0.33.0-0, 0.31.1-3, 0.31.1-2, 0.31.1-1, 0.29.0-0
+   :versions: 0.33.2-0, 0.33.0-0, 0.31.1-3, 0.31.1-2, 0.31.1-1, 0.29.0-0
    
    :depends bowtie2: >=2.0.0,!=2.0.3,!=2.0.4,!=2.3.1
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: 
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:

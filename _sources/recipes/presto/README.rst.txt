@@ -22,7 +22,7 @@ presto
 
    |downloads_presto| |docker_presto|
 
-   :versions: 0.5.12-0, 0.5.10-0, 0.5.4-1, 0.5.4-0
+   :versions: 0.5.13-0, 0.5.12-0, 0.5.10-0, 0.5.4-1, 0.5.4-0
    
    :depends biopython: >=1.65
    :depends blast: >=2.5

@@ -23,7 +23,7 @@ dca
 
    |downloads_dca| |docker_dca|
 
-   :versions: 0.2.2-1, 0.2.2-0
+   :versions: 0.2.3-0, 0.2.2-1, 0.2.2-0
    
    :depends h5py: 
    :depends keras: >=2.0.8

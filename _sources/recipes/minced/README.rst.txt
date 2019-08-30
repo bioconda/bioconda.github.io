@@ -22,9 +22,9 @@ minced
 
    |downloads_minced| |docker_minced|
 
-   :versions: 0.4.0-1, 0.4.0-0, 0.3.2-0, 0.3.0-1, 0.3.0-0, 0.2.0-2, 0.2.0-1, 0.2.0-0
+   :versions: 0.4.0-2, 0.4.0-1, 0.4.0-0, 0.3.2-0, 0.3.0-1, 0.3.0-0, 0.2.0-2, 0.2.0-1, 0.2.0-0
    
-   :depends openjdk: 11.*
+   :depends openjdk: >=8
    :requirements:
 
    .. rubric:: Installation

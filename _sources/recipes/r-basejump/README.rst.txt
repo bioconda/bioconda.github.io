@@ -23,26 +23,30 @@ r-basejump
 
    |downloads_r-basejump| |docker_r-basejump|
 
-   :versions: 0.11.10-0, 0.11.8-0, 0.11.7-0, 0.11.5-0, 0.10.9-1, 0.10.9-0, 0.9.11-0, 0.9.9-0, 0.7.2-1, 0.7.2-0, 0.5.9-0, 0.5.3-0, 0.1.1-0
+   :versions: 0.11.11-0, 0.11.10-0, 0.11.8-0, 0.11.7-0, 0.11.5-0, 0.10.9-1, 0.10.9-0, 0.9.11-0, 0.9.9-0, 0.7.2-1, 0.7.2-0, 0.5.9-0, 0.5.3-0, 0.1.1-0
    
+   :depends bioconductor-annotationdbi: >=1.46
    :depends bioconductor-biobase: >=2.44
    :depends bioconductor-biocgenerics: >=0.30
+   :depends bioconductor-biocparallel: >=1.18
+   :depends bioconductor-biomart: >=2.40
+   :depends bioconductor-biostrings: >=2.52
    :depends bioconductor-delayedarray: >=0.10
    :depends bioconductor-delayedmatrixstats: >=1.6
    :depends bioconductor-genomeinfodb: >=1.20
    :depends bioconductor-genomicranges: >=1.36
-   :depends bioconductor-iranges: >=2.18
+   :depends bioconductor-iranges: >=2.18.2
    :depends bioconductor-s4vectors: >=0.22
    :depends bioconductor-singlecellexperiment: >=1.6
    :depends bioconductor-summarizedexperiment: >=1.14
    :depends r-assertthat: >=0.2.1
    :depends r-base: >=3.6,<3.7.0a0
-   :depends r-bioverbs: >=0.2.5
-   :depends r-brio: >=0.3.5
+   :depends r-bioverbs: >=0.2.7
+   :depends r-brio: >=0.3.6
    :depends r-dplyr: >=0.8
-   :depends r-freerange: >=0.2.3
+   :depends r-freerange: >=0.2.4
    :depends r-glue: >=1.3.1
-   :depends r-goalie: >=0.3.5
+   :depends r-goalie: >=0.3.6
    :depends r-knitr: >=1.22
    :depends r-magrittr: >=1.5
    :depends r-matrix: >=1.2
@@ -60,7 +64,7 @@ r-basejump
    :depends r-tibble: >=2.1.1
    :depends r-tidyr: >=0.8
    :depends r-tidyselect: >=0.2
-   :depends r-transformer: >=0.2.4
+   :depends r-transformer: >=0.2.5
    :requirements:
 
    .. rubric:: Installation
