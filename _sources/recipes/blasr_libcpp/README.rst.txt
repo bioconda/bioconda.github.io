@@ -22,12 +22,12 @@ blasr_libcpp
 
    |downloads_blasr_libcpp| |docker_blasr_libcpp|
 
-   :versions: 5.3.3-0, 5.3.1-4, 5.3.1-3, 5.3.1-2, 5.3.1-1, 5.3.1-0, 1.1-1, 1.1-0
+   :versions: 5.3.3-1, 5.3.3-0, 5.3.1-4, 5.3.1-3, 5.3.1-2, 5.3.1-1, 5.3.1-0, 1.1-1, 1.1-0
    
-   :depends hdf5: >=1.10.4,<1.10.5.0a0
+   :depends hdf5: >=1.10.5,<1.10.6.0a0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends pbbam: 0.23.0.*
+   :depends pbbam: 1.0.6.*
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

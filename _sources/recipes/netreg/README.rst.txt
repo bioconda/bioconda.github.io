@@ -24,14 +24,15 @@ netreg
 
    |downloads_netreg| |docker_netreg|
 
-   :versions: 1.6.0-0, 1.4.0-2, 1.4.0-1, 1.2.0-1, 1.2.0-0, 1.0.0-0
+   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-2, 1.4.0-1, 1.2.0-1, 1.2.0-0, 1.0.0-0
    
    :depends armadillo: >=7.800.1
    :depends armadillo: >=9.200,<10.0a0
-   :depends boost: >=1.67.0,<1.67.1.0a0
-   :depends hdf5: >=1.10.3,<1.10.4.0a0
-   :depends libgcc-ng: >=4.9
-   :depends openblas: >=0.3.3,<0.3.4.0a0
+   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
+   :depends hdf5: >=1.10.5,<1.10.6.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends openblas: >=0.3.7,<0.3.8.0a0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

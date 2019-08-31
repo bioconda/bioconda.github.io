@@ -22,12 +22,12 @@ bam2fastx
 
    |downloads_bam2fastx| |docker_bam2fastx|
 
-   :versions: 1.3.0-7, 1.3.0-6, 1.3.0-5, 1.3.0-4, 1.3.0-3, 1.3.0-2, 1.3.0-1, 1.3.0-0
+   :versions: 1.3.0-8, 1.3.0-7, 1.3.0-6, 1.3.0-5, 1.3.0-4, 1.3.0-3, 1.3.0-2, 1.3.0-1, 1.3.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends pbbam: 0.23.0.*
-   :depends pbcopper: 0.4.2.*
+   :depends pbbam: 1.0.6.*
+   :depends pbcopper: 1.3.0.*
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

@@ -22,18 +22,20 @@ r-exomedepth
 
    |downloads_r-exomedepth| |docker_r-exomedepth|
 
-   :versions: 1.1.10-4, 1.1.10-3, 1.1.10-2, 1.1.10-0
+   :versions: 1.1.12-0, 1.1.10-4, 1.1.10-3, 1.1.10-2, 1.1.10-0
    
    :depends bioconductor-biostrings: 
    :depends bioconductor-genomicalignments: 
-   :depends bioconductor-genomicranges: 
+   :depends bioconductor-genomicranges: >=1.23.0
    :depends bioconductor-iranges: 
    :depends bioconductor-rsamtools: 
    :depends libgcc-ng: >=7.3.0
    :depends libgfortran-ng: >=7,<8.0a0
    :depends libstdcxx-ng: >=7.3.0
    :depends r-aod: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-dplyr: 
+   :depends r-magrittr: 
    :depends r-vgam: >=0.8.4
    :requirements:
 

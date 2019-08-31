@@ -22,7 +22,7 @@ rename
 
    |downloads_rename| |docker_rename|
 
-   :versions: 1.600-1, 1.600-0
+   :versions: 1.601-0, 1.600-1, 1.600-0
    
    :depends perl: 
    :requirements:
