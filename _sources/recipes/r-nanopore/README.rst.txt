@@ -22,7 +22,7 @@ r-nanopore
 
    |downloads_r-nanopore| |docker_r-nanopore|
 
-   :versions: 0.2.5-0
+   :versions: 0.2.8-0, 0.2.5-0
    
    :depends bioconductor-biostrings: 
    :depends bioconductor-genomeinfodb: 
@@ -33,21 +33,35 @@ r-nanopore
    :depends bioconductor-rsamtools: 
    :depends bioconductor-s4vectors: 
    :depends bioconductor-shortread: 
+   :depends bioconductor-variantannotation: 
    :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-data.table: 
    :depends r-digest: 
    :depends r-dplyr: 
    :depends r-emojifont: 
+   :depends r-fastmatch: 
    :depends r-gdata: 
    :depends r-ggplot2: 
    :depends r-gtools: 
+   :depends r-hmisc: 
+   :depends r-irdisplay: 
+   :depends r-jsonlite: 
+   :depends r-kableextra: 
    :depends r-magrittr: 
    :depends r-pbmcapply: 
+   :depends r-plyr: 
+   :depends r-r.utils: 
    :depends r-rcolorbrewer: 
    :depends r-rcpp: 
+   :depends r-rcurl: 
+   :depends r-reshape2: 
    :depends r-rlang: 
    :depends r-scales: 
+   :depends r-tibble: 
    :depends r-vcfr: 
+   :depends r-writexl: 
+   :depends r-yaml: 
    :requirements:
 
    .. rubric:: Installation

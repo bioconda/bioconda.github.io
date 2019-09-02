@@ -23,7 +23,7 @@ qtlseq
 
    |downloads_qtlseq| |docker_qtlseq|
 
-   :versions: 2.0.3-0, 2.0.2-0, 2.0.1-0, 2.0.0-0
+   :versions: 2.0.4-0, 2.0.3-0, 2.0.2-0, 2.0.1-0, 2.0.0-0
    
    :depends bcftools: >=1.7
    :depends bwa: 
