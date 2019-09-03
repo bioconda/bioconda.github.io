@@ -11,7 +11,7 @@ poppunk
 
    PopPUNK \(POPulation Partitioning Using Nucleotide Kmers\)
 
-   :homepage: https://github.com/johnlees/PopPUNK
+   :homepage: https://www.poppunk.net
    :license: APACHE / Apache-2.0
    :recipe: /`poppunk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poppunk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poppunk/meta.yaml>`_
    :links: doi: :doi:`10.1101/gr.241455.118`
@@ -23,7 +23,7 @@ poppunk
 
    |downloads_poppunk| |docker_poppunk|
 
-   :versions: 1.1.6-0, 1.1.5-0, 1.1.4-0, 1.1.3-0, 1.1.2-0
+   :versions: 1.1.7-0, 1.1.6-0, 1.1.5-0, 1.1.4-0, 1.1.3-0, 1.1.2-0
    
    :depends dendropy: 
    :depends hdbscan: 

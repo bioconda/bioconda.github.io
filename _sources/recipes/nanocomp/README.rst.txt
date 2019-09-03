@@ -22,7 +22,7 @@ nanocomp
 
    |downloads_nanocomp| |docker_nanocomp|
 
-   :versions: 1.9.0-0, 1.8.0-0, 1.7.0-0, 1.6.0-0, 1.1.0-1, 1.1.0-0, 1.0.0-0, 0.23.1-0, 0.23.0-1, 0.19.0-1, 0.19.0-0, 0.16.0-0, 0.15.0-0, 0.12.4-0, 0.7.0-0, 0.5.0-0
+   :versions: 1.9.1-0, 1.9.0-0, 1.8.0-0, 1.7.0-0, 1.6.0-0, 1.1.0-1, 1.1.0-0, 1.0.0-0, 0.23.1-0, 0.23.0-1, 0.19.0-1, 0.19.0-0, 0.16.0-0, 0.15.0-0, 0.12.4-0, 0.7.0-0, 0.5.0-0
    
    :depends nanoget: >=1.4.0
    :depends nanomath: >=0.15.3
@@ -31,6 +31,7 @@ nanocomp
    :depends numpy: 
    :depends orca: 
    :depends pandas: 
+   :depends pysam: >=0.15
    :depends python: >=3
    :requirements:
 
