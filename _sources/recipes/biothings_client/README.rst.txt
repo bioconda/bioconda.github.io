@@ -22,7 +22,7 @@ biothings_client
 
    |downloads_biothings_client| |docker_biothings_client|
 
-   :versions: 0.2.0-0
+   :versions: 0.2.1-0, 0.2.0-0
    
    :depends python: 
    :depends requests: >=2.3.0

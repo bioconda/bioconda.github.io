@@ -22,11 +22,11 @@ hiddendomains
 
    |downloads_hiddendomains| |docker_hiddendomains|
 
-   :versions: 3.0-0
+   :versions: 3.1-0, 3.0-0
    
    :depends bedtools: 
    :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-depmixs4: 
    :depends r-hiddenmarkov: 
    :depends samtools: 

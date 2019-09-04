@@ -11,7 +11,7 @@ metagene_annotator
 
    MetaGeneAnnotator is a gene\-finding program for prokaryote and phage
 
-   :homepage: http://metagene.cb.k.u-tokyo.ac.jp/
+   :homepage: http://metagene.nig.ac.jp/
    :license: The software is freely available for academic use
    :recipe: /`metagene_annotator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metagene_annotator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metagene_annotator/meta.yaml>`_
 
@@ -22,8 +22,9 @@ metagene_annotator
 
    |downloads_metagene_annotator| |docker_metagene_annotator|
 
-   :versions: 1.0-0
+   :versions: 1.0-2, 1.0-0
    
+   :depends libgcc-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

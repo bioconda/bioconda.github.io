@@ -22,7 +22,7 @@ pblaa
 
    |downloads_pblaa| |docker_pblaa|
 
-   :versions: 2.4.2-1, 2.4.2-0
+   :versions: 2.4.2-2, 2.4.2-1, 2.4.2-0
    
    :requirements:
 

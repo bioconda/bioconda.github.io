@@ -24,10 +24,10 @@ cromwell-tools
 
    |downloads_cromwell-tools| |docker_cromwell-tools|
 
-   :versions: 2.2.0-0, 1.1.0-0, 1.0.1-0
+   :versions: 2.3.0-0, 2.2.3-0, 2.2.0-0, 1.1.0-0, 1.0.1-0
    
    :depends google-auth: >=1.6.1,<2
-   :depends python: 
+   :depends python: >=3.6
    :depends requests: >=2.20.0,<3
    :depends setuptools_scm: >=3.1.0,<4
    :depends six: >=1.11.0

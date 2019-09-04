@@ -22,17 +22,19 @@ mob_suite
 
    |downloads_mob_suite| |docker_mob_suite|
 
-   :versions: 1.4.9.1-0, 1.4.9-1, 1.4.9-0, 1.4.8-0, 1.4.6-1, 1.4.5-1, 1.4.1-0
+   :versions: 2.0.0-0, 1.4.9.1-0, 1.4.9-1, 1.4.9-0, 1.4.8-0, 1.4.6-1, 1.4.5-1, 1.4.1-0
    
    :depends biopython: >=1.70
    :depends blast: 
    :depends circlator: 
+   :depends ete3: >=3.0
    :depends mash: 
-   :depends numpy: >=1.11
+   :depends numpy: >=1.11.1
    :depends pandas: >=0.22.0
    :depends pycurl: >=7.43
+   :depends pyqt: >=5
    :depends pytables: >=3.3
-   :depends python: >=3.4
+   :depends python: >=3.6
    :depends scipy: >=1.1
    :requirements:
 
