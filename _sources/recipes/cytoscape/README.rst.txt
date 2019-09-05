@@ -24,7 +24,7 @@ cytoscape
 
    |downloads_cytoscape| |docker_cytoscape|
 
-   :versions: 3.7.1-0
+   :versions: 3.7.2-0, 3.7.1-0
    
    :depends font-ttf-dejavu-sans-mono: 
    :depends fontconfig: >=2.13.1,<3.0a0
