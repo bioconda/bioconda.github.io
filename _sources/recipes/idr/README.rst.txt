@@ -12,7 +12,7 @@ idr
    The IDR \(Irreproducible Discovery Rate\) framework is a uniﬁed approach to measure the reproducibility of ﬁndings identiﬁed from replicate experiments and provide highly stable thresholds based on reproducibility.
 
    :homepage: https://github.com/kundajelab/idr
-   :license: GPLv2
+   :license: GPL / GPLv2
    :recipe: /`idr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/idr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/idr/meta.yaml>`_
    :links: doi: :doi:`10.1214/11-AOAS466`
 
@@ -23,11 +23,12 @@ idr
 
    |downloads_idr| |docker_idr|
 
-   :versions: 2.0.4.2-0, 2.0.3-5, 2.0.3-4, 2.0.3-3, 2.0.3-2, 2.0.3-0, 2.0.2-0
+   :versions: 2.0.4.2-1, 2.0.4.2-0, 2.0.3-5, 2.0.3-4, 2.0.3-3, 2.0.3-2, 2.0.3-0, 2.0.2-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends matplotlib: 
    :depends numpy: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3.6,<3.7.0a0
    :depends scipy: 
    :requirements:
 

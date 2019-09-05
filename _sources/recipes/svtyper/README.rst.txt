@@ -22,12 +22,12 @@ svtyper
 
    |downloads_svtyper| |docker_svtyper|
 
-   :versions: 0.7.0-1, 0.7.0-0, 0.6.1-1, 0.6.1-0, 0.1.4-0, 0.1.1-0, 0.0.4-0, 0.0.2-4, 0.0.2-3
+   :versions: 0.7.1-0, 0.7.0-1, 0.7.0-0, 0.6.1-1, 0.6.1-0, 0.1.4-0, 0.1.1-0, 0.0.4-0, 0.0.2-4, 0.0.2-3
    
    :depends cytoolz: >=0.8.2
    :depends numpy: 
    :depends pysam: >=0.15.0
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends scipy: 
    :requirements:
 

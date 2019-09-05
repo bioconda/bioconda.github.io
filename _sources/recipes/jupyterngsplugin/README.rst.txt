@@ -22,7 +22,7 @@ jupyterngsplugin
 
    |downloads_jupyterngsplugin| |docker_jupyterngsplugin|
 
-   :versions: 0.0.10a3-0
+   :versions: 0.0.11a3-0, 0.0.10a3-0
    
    :depends biopython: 
    :depends jupyter: 

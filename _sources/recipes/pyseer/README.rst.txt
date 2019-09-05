@@ -23,7 +23,7 @@ pyseer
 
    |downloads_pyseer| |docker_pyseer|
 
-   :versions: 1.3.1-1, 1.3.1-0, 1.3.0-0, 1.2.0-0, 1.1.2-0, 1.1.1-0, 1.1.0-1, 1.1.0-0, 1.0.2-0, 0.3.1-0
+   :versions: 1.3.2-0, 1.3.1-1, 1.3.1-0, 1.3.0-0, 1.2.0-0, 1.1.2-0, 1.1.1-0, 1.1.0-1, 1.1.0-0, 1.0.2-0, 0.3.1-0
    
    :depends bedops: 
    :depends bedtools: 
@@ -35,7 +35,7 @@ pyseer
    :depends numpy: 
    :depends pandas: 
    :depends pybedtools: 
-   :depends pysam: 
+   :depends pysam: >=0.15.3
    :depends python: 
    :depends python-dateutil: >=2.5.0
    :depends scikit-learn: 

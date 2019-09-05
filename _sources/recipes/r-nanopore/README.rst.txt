@@ -22,7 +22,7 @@ r-nanopore
 
    |downloads_r-nanopore| |docker_r-nanopore|
 
-   :versions: 0.2.8-0, 0.2.5-0
+   :versions: 0.2.9-0, 0.2.8-0, 0.2.5-0
    
    :depends bioconductor-biostrings: 
    :depends bioconductor-genomeinfodb: 
