@@ -6,7 +6,7 @@
 dropseq_tools
 =============
 
-.. conda:recipe:: Drop-seq_tools
+.. conda:recipe:: dropseq_tools
    :replaces_section_title:
 
    Package for the analysis of Drop\-seq data developed by Jim Nemesh in the McCarroll Lab
@@ -14,7 +14,7 @@ dropseq_tools
 
    :homepage: http://mccarrolllab.com/dropseq/
    :license: MIT / MIT License
-   :recipe: /`Drop-seq_tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/Drop-seq_tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/Drop-seq_tools/meta.yaml>`_
+   :recipe: /`dropseq_tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dropseq_tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dropseq_tools/meta.yaml>`_
 
    
 
@@ -23,7 +23,7 @@ dropseq_tools
 
    |downloads_dropseq_tools| |docker_dropseq_tools|
 
-   :versions: 2.0.0-0, 1.13-0
+   :versions: 2.3.0-0, 2.0.0-0, 1.13-0
    
    :depends openjdk: >=8
    :requirements:
