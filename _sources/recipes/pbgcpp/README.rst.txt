@@ -22,7 +22,7 @@ pbgcpp
 
    |downloads_pbgcpp| |docker_pbgcpp|
 
-   :versions: 0.0.1-0
+   :versions: 1.0.0-0, 0.0.1-0
    
    :requirements:
 
