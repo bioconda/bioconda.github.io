@@ -23,7 +23,7 @@ braker2
 
    |downloads_braker2| |docker_braker2|
 
-   :versions: 2.1.2-2, 2.1.2-1, 2.1.2-0
+   :versions: 2.1.4-0, 2.1.2-2, 2.1.2-1, 2.1.2-0
    
    :depends augustus: >=3.3.1
    :depends bamtools: >=2.5.1

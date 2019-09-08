@@ -22,10 +22,10 @@ ncrf
 
    |downloads_ncrf| |docker_ncrf|
 
-   :versions: 1.00.06-0, 1.0.4-0
+   :versions: 1.01.02-0, 1.00.06-0, 1.0.4-0
    
-   :depends libgcc-ng: >=4.9
-   :depends python: >=2.7,<2.8.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends python: >=3
    :requirements:
 
    .. rubric:: Installation

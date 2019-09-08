@@ -23,7 +23,7 @@ r-brio
 
    |downloads_r-brio| |docker_r-brio|
 
-   :versions: 0.3.7-0, 0.3.6-0, 0.3.5-0, 0.3.4-0, 0.3.3-0, 0.3.2-0, 0.2.2-0, 0.2.1-0, 0.1.8-0, 0.1.6-0
+   :versions: 0.3.7-1, 0.3.7-0, 0.3.6-0, 0.3.5-0, 0.3.4-0, 0.3.3-0, 0.3.2-0, 0.2.2-0, 0.2.1-0, 0.1.8-0, 0.1.6-0
    
    :depends bioconductor-genomicranges: >=1.36
    :depends bioconductor-rtracklayer: >=1.44
@@ -38,7 +38,6 @@ r-brio
    :depends r-jsonlite: >=1.6
    :depends r-matrix: >=1.2
    :depends r-r.utils: >=2.9
-   :depends r-readr: >=1.3
    :depends r-rio: >=0.5
    :depends r-stringr: >=1.4
    :depends r-tibble: >=2.1

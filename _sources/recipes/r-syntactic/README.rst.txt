@@ -23,15 +23,15 @@ r-syntactic
 
    |downloads_r-syntactic| |docker_r-syntactic|
 
-   :versions: 0.2.4-0, 0.2.3-0, 0.2.1-0, 0.2.0-0, 0.1.10-0, 0.1.9-0, 0.1.5-0, 0.1.4-0
+   :versions: 0.2.4-1, 0.2.4-0, 0.2.3-0, 0.2.1-0, 0.2.0-0, 0.1.10-0, 0.1.9-0, 0.1.5-0, 0.1.4-0
    
-   :depends bioconductor-genomicranges: 
-   :depends bioconductor-s4vectors: 
-   :depends bioconductor-summarizedexperiment: 
+   :depends bioconductor-genomicranges: >=1.36
+   :depends bioconductor-s4vectors: >=0.22
+   :depends bioconductor-summarizedexperiment: >=1.14
    :depends r-base: >=3.6,<3.7.0a0
-   :depends r-bioverbs: >=0.2.0
-   :depends r-goalie: >=0.2.18
-   :depends r-matrix: 
+   :depends r-bioverbs: >=0.2.7
+   :depends r-goalie: >=0.3.6
+   :depends r-matrix: >=1.2
    :requirements:
 
    .. rubric:: Installation
