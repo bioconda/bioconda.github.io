@@ -25,10 +25,10 @@ paladin
 
    |downloads_paladin| |docker_paladin|
 
-   :versions: 1.4.4-0, 1.3.1-2, 1.3.1-1, 1.3.1-0
+   :versions: 1.4.6-0, 1.4.4-0, 1.3.1-2, 1.3.1-1, 1.3.1-0
    
-   :depends curl: >=7.59.0,<8.0a0
-   :depends libgcc-ng: >=4.9
+   :depends curl: >=7.64.1,<8.0a0
+   :depends libgcc-ng: >=7.3.0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

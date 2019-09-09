@@ -22,9 +22,9 @@ mendelscan
 
    |downloads_mendelscan| |docker_mendelscan|
 
-   :versions: v1.2.2-1, v1.2.2-0
+   :versions: 1.2.2-0, v1.2.2-1, v1.2.2-0
    
-   :depends java-jdk: 
+   :depends openjdk: 
    :requirements:
 
    .. rubric:: Installation

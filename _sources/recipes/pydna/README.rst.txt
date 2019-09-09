@@ -22,7 +22,7 @@ pydna
 
    |downloads_pydna| |docker_pydna|
 
-   :versions: 2.0.1-1, 2.0.1-0, 2.0.0a3-0
+   :versions: 3.0.1-0, 2.0.1-1, 2.0.1-0, 2.0.0a3-0
    
    :depends appdirs: >=1.3.0
    :depends biopython: >=1.65
@@ -30,8 +30,7 @@ pydna
    :depends ordered-set: >=2.0.1
    :depends prettytable: >=0.7.2
    :depends pyparsing: >=2.1.10
-   :depends pytest-runner: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :depends requests: >=2.12
    :requirements:
 

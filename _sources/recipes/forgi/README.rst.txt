@@ -12,7 +12,7 @@ forgi
    RNA Graph Library
 
    :homepage: https://viennarna.github.io/forgi/
-   :license: GNU GPL 3.0
+   :license: GPL 3.0
    :recipe: /`forgi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/forgi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/forgi/meta.yaml>`_
 
    
@@ -22,7 +22,7 @@ forgi
 
    |downloads_forgi| |docker_forgi|
 
-   :versions: 2.0-2, 1.1-2, 1.1-1, 1.1-0
+   :versions: 2.0.3-0, 2.0-2, 1.1-2, 1.1-1, 1.1-0
    
    :depends appdirs: >=1.4.3
    :depends beautifulsoup4: >=4.6

@@ -22,9 +22,9 @@ quicktree
 
    |downloads_quicktree| |docker_quicktree|
 
-   :versions: 2.4-0, 2.2-1, 2.2-0
+   :versions: 2.5-0, 2.4-0, 2.2-1, 2.2-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

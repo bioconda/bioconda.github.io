@@ -22,13 +22,15 @@ ppanini
 
    |downloads_ppanini| |docker_ppanini|
 
-   :versions: 0.6.4-2, 0.6.4-0, 0.6.2-0
+   :versions: 0.7.4-0, 0.6.4-2, 0.6.4-0, 0.6.2-0
    
    :depends biopython: >=1.66
-   :depends matplotlib: >=1.1.1
+   :depends matplotlib: >=2.0.2
    :depends numpy: >=1.9.2
-   :depends python: >=2.7,<2.8.0a0
+   :depends pandas: >=0.18.1
+   :depends python: <3
    :depends scikit-learn: >=0.14.1
+   :depends scipy: >=0.13.0
    :requirements:
 
    .. rubric:: Installation

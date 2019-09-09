@@ -22,7 +22,7 @@ clinvar-tsv
 
    |downloads_clinvar-tsv| |docker_clinvar-tsv|
 
-   :versions: 0.1.0-0
+   :versions: 0.1.1-0, 0.1.0-0
    
    :depends pysam: >=0.15.1
    :depends python: >=3.5
