@@ -23,7 +23,7 @@ r-immunedeconv
 
    |downloads_r-immunedeconv| |docker_r-immunedeconv|
 
-   :versions: 1.1.1-0
+   :versions: 2.0.0-0, 1.1.1-0
    
    :depends bioconductor-biobase: 
    :depends bioconductor-biocgenerics: 

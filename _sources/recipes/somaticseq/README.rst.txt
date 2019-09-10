@@ -12,7 +12,7 @@ somaticseq
    An ensemble approach to accurately detect somatic mutations
 
    :homepage: http://bioinform.github.io/somaticseq/
-   :license: 2-clause BSD
+   :license: BSD / 2-clause BSD
    :recipe: /`somaticseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/somaticseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/somaticseq/meta.yaml>`_
 
    SomaticSeq is an ensemble caller that has the ability to use machine learning to filter out false positives. The detailed documentation is included in the package\, located in docs\/Manual.pdf. A quick guide can also be found here. SomaticSeq\'s open\-access paper\: Fang LT\, Afshar PT\, Chhibber A\, et al. An ensemble approach to accurately detect somatic mutations using SomaticSeq. Genome Biol. 2015\;16\:197.
@@ -22,7 +22,7 @@ somaticseq
 
    |downloads_somaticseq| |docker_somaticseq|
 
-   :versions: 2.8.1-0
+   :versions: 3.2.1-0, 2.8.1-0
    
    :depends bedtools: 
    :depends gatk4: 
@@ -30,9 +30,9 @@ somaticseq
    :depends muse: 
    :depends numpy: 
    :depends pysam: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :depends r-ada: 
-   :depends regex: 
+   :depends r-base: 
    :depends scalpel: 
    :depends scipy: 
    :depends vardict: 

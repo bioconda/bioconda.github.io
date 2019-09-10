@@ -23,12 +23,13 @@ mgkit
 
    |downloads_mgkit| |docker_mgkit|
 
-   :versions: 0.3.4-0, 0.3.3-0, 0.3.0-0, 0.2.2-0
+   :versions: 0.4.0-0, 0.3.4-0, 0.3.3-0, 0.3.0-0, 0.2.2-0
    
    :depends click: 
    :depends enum34: 
    :depends future: 
    :depends htseq: >=0.6.0
+   :depends libgcc-ng: >=7.3.0
    :depends matplotlib: >=2
    :depends msgpack-python: >=0.4.6
    :depends numpy: >=1.9.2
@@ -42,6 +43,7 @@ mgkit
    :depends scipy: >=0.15.1
    :depends semidbm: >=0.5.1
    :depends statsmodels: >=0.8
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation

@@ -11,7 +11,7 @@ nmrml2isa
 
    nmrml2isa \- nmrML to ISA\-Tab parsing tool
 
-   :homepage: http://github.com/althonos/nmrml2isa
+   :homepage: http://github.com/ISA-tools/nmrml2isa
    :license: GNU General Public License v3 (GPLv3)
    :recipe: /`nmrml2isa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nmrml2isa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nmrml2isa/meta.yaml>`_
 
@@ -22,12 +22,12 @@ nmrml2isa
 
    |downloads_nmrml2isa| |docker_nmrml2isa|
 
-   :versions: 0.3.0-1, 0.3.0-0
+   :versions: 0.3.1-0, 0.3.0-1, 0.3.0-0
    
-   :depends chainmap: 
    :depends lxml: 
+   :depends openpyxl: 
    :depends pronto: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3
    :depends six: 
    :requirements:
 

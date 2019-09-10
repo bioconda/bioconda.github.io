@@ -22,24 +22,22 @@ augur
 
    |downloads_augur| |docker_augur|
 
-   :versions: 5.2.1-0, 5.2.0-0, 5.1.1-0, 5.1.0-0, 4.0.0-0, 3.1.5-1, 3.1.5-0
+   :versions: 5.3.0-0, 5.2.1-0, 5.2.0-0, 5.1.1-0, 5.1.0-0, 4.0.0-0, 3.1.5-1, 3.1.5-0
    
-   :depends bcbio-gff: 0.6.*,>=0.6.4
-   :depends biopython: >=1.73
-   :depends boto: 2.*,>2.38
-   :depends cvxopt: 1.1.*,>=1.1.9
+   :depends bcbio-gff: >=0.6.0
+   :depends biopython: >=1.67
+   :depends cvxopt: >=1.1.9,<1.2
    :depends fasttree: 
-   :depends ipdb: >=0.10.1
    :depends iqtree: 
-   :depends jsonschema: 3.0.0a3.*
+   :depends jsonschema: >=3.0.0
    :depends mafft: 
    :depends matplotlib: 2.*
-   :depends pandas: 0.23.*,>=0.23.4
-   :depends python: >=3.4
+   :depends pandas: >=0.20.0
+   :depends python: >=3
    :depends raxml: 
-   :depends seaborn: 0.9.*,>=0.9.0
-   :depends snakemake: 5.*,>=5.1.5
-   :depends treetime: 0.5.*,>=0.5.2
+   :depends seaborn: >=0.9.0,<0.10
+   :depends snakemake: >=5.4.0
+   :depends treetime: >=0.5.6
    :depends vcftools: 
    :requirements:
 

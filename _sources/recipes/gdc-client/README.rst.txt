@@ -22,7 +22,7 @@ gdc-client
 
    |downloads_gdc-client| |docker_gdc-client|
 
-   :versions: 1.3.0-3, 1.3.0-1, 1.3.0-0
+   :versions: 1.4.0-0, 1.3.0-3, 1.3.0-1, 1.3.0-0
    
    :depends jsonschema: >=2,<3
    :depends lxml: >=3,<4
@@ -30,7 +30,7 @@ gdc-client
    :depends parcel: >=0.2,<1
    :depends pyasn1: >=0.2,<1
    :depends pyopenssl: >=17,<18
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends pyyaml: >=3,<4
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
