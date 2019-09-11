@@ -22,30 +22,28 @@ toil
 
    |downloads_toil| |docker_toil|
 
-   :versions: 3.14.0-2, 3.14.0-1, 3.14.0-0, 3.13.0a1-0, 3.11.0-1, 3.11.0-0, 3.11.0a1-1, 3.11.0a1-0, 3.10.0-0, 3.10.0a1-1, 3.10.0a1-0, 3.9.0a1-0, 3.8.0a1-1, 3.8.0a1-0, 3.7.0a-1, 3.7.0a-0, 3.6.0-0, 3.5.0a1-3, 3.5.0a1-2, 3.5.0a1-1, 3.5.0a1-0, 3.4.0a1-3, 3.4.0a1-2, 3.4.0a1-1, 3.4.0a1-0, 3.3.0a1-0, 3.2.0a2-2, 3.2.0a2-0
+   :versions: 3.20.0-0, 3.14.0-2, 3.14.0-1, 3.14.0-0, 3.13.0a1-0, 3.11.0-1, 3.11.0-0, 3.11.0a1-1, 3.11.0a1-0, 3.10.0-0, 3.10.0a1-1, 3.10.0a1-0, 3.9.0a1-0, 3.8.0a1-1, 3.8.0a1-0, 3.7.0a-1, 3.7.0a-0, 3.6.0-0, 3.5.0a1-3, 3.5.0a1-2, 3.5.0a1-1, 3.5.0a1-0, 3.4.0a1-3, 3.4.0a1-2, 3.4.0a1-1, 3.4.0a1-0, 3.3.0a1-0, 3.2.0a2-2, 3.2.0a2-0
    
-   :depends azure: 
-   :depends bd2k-python-lib: 1.14a1.dev37
-   :depends boto: >=2.38.0
-   :depends cachecontrol: >=0.11.7,<0.12
-   :depends cgcloud-lib: 
-   :depends cwltool: 1.0.20180130110340
-   :depends dill: 
+   :depends addict: <=2.2.0
+   :depends boto: >=2.48.0
+   :depends boto3: >=1.7.50,<2.0
+   :depends cwltool: >=1.0.20190815141648
+   :depends dill: >=0.2.7.1
    :depends docker-py: >=2.5.1
    :depends future: 
-   :depends futures: 
-   :depends galaxy-lib: >=17.9.3
-   :depends gcs-oauth2-boto-plugin: 1.9
-   :depends mistune: >=0.7.3,<0.8
-   :depends psutil: 
-   :depends pynacl: 1.1.2
-   :depends python: >=2.7,<2.8.0a0
-   :depends rdflib: >=4.2.2
-   :depends rdflib-jsonld: >=0.3.0
-   :depends requests: >=2.18.4
-   :depends ruamel.yaml: >=0.12.4,<0.15
-   :depends six: 
-   :depends typing: >=3.5.3,<3.6
+   :depends futures: >=3.1.1
+   :depends galaxy-lib: >=18.9.2
+   :depends pathlib2: >=2.3.2
+   :depends psutil: >=3.0.1,<6
+   :depends pycryptodome: >=3.5.1
+   :depends pynacl: 1.1.2.*
+   :depends python: 
+   :depends python-dateutil: 
+   :depends requests: 2.*
+   :depends schema-salad: >=4.5.20190815125611,<5
+   :depends six: >=1.10.0
+   :depends sphinx: >=1.7.5
+   :depends subprocess32: <=3.5.2
    :requirements:
 
    .. rubric:: Installation

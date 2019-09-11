@@ -22,10 +22,10 @@ ena-dl
 
    |downloads_ena-dl| |docker_ena-dl|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.0-1, 1.0.0-0
    
    :depends python: >=3.6
-   :depends request: 
+   :depends requests: 
    :requirements:
 
    .. rubric:: Installation
