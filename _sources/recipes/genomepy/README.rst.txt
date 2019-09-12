@@ -22,14 +22,13 @@ genomepy
 
    |downloads_genomepy| |docker_genomepy|
 
-   :versions: 0.5.5-1, 0.5.5-0, 0.5.4-1, 0.5.4-0, 0.5.2-2, 0.5.2-1, 0.5.1-0, 0.5.0-0, 0.4.0-0, 0.3.1-0
+   :versions: 0.6.0-0, 0.5.5-1, 0.5.5-0, 0.5.4-1, 0.5.4-0, 0.5.2-2, 0.5.2-1, 0.5.1-0, 0.5.0-0, 0.4.0-0, 0.3.1-0
    
    :depends bucketcache: >=0.12.1
    :depends click: 
-   :depends norns: >=0.1.4
+   :depends norns: >=0.1.5
    :depends pyfaidx: >=0.5.1
-   :depends pytest: 
-   :depends python: 
+   :depends python: >3
    :depends requests: 
    :depends ucsc-bedtogenepred: 
    :depends ucsc-genepredtobed: 

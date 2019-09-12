@@ -22,16 +22,16 @@ scelvis
 
    |downloads_scelvis| |docker_scelvis|
 
-   :versions: 0.5.0-0, 0.4.1-0, 0.4.0-1, 0.4.0-0, 0.3.0-0, 0.2.1-0, 0.2.0-0, 0.1.0-0
+   :versions: 0.5.0-1, 0.5.0-0, 0.4.1-0, 0.4.0-1, 0.4.0-0, 0.3.0-0, 0.2.1-0, 0.2.0-0, 0.1.0-0
    
    :depends anndata: 
    :depends attrs: 
-   :depends dash: <1.0
+   :depends dash: 
    :depends dash-bootstrap-components: 
-   :depends dash-core-components: <1.0
-   :depends dash-html-components: <1.0
-   :depends dash-renderer: <1.0
-   :depends dash-table: 3.7.*
+   :depends dash-core-components: 
+   :depends dash-html-components: 
+   :depends dash-renderer: 
+   :depends dash-table: 
    :depends flask: 
    :depends flask-caching: 
    :depends fs: 
@@ -43,7 +43,8 @@ scelvis
    :depends plotly: 
    :depends python: >=3.6
    :depends python-irodsclient: 
-   :depends ruamel_yaml: 
+   :depends requests: 
+   :depends ruamel.yaml: 
    :depends s3fs: 
    :depends scanpy: 
    :requirements:
