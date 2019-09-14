@@ -22,7 +22,7 @@ svanalyzer
 
    |downloads_svanalyzer| |docker_svanalyzer|
 
-   :versions: 0.3-0
+   :versions: 0.31-0, 0.3-0
    
    :depends bedtools: 
    :depends edlib: 

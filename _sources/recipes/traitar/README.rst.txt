@@ -22,8 +22,13 @@ traitar
 
    |downloads_traitar| |docker_traitar|
 
-   :versions: 
+   :versions: 1.1.2-0
    
+   :depends matplotlib: >=1.3.1
+   :depends numpy: >=1.6
+   :depends pandas: >=0.13.1
+   :depends python: 2.7.*
+   :depends scipy: >=0.13.3
    :requirements:
 
    .. rubric:: Installation

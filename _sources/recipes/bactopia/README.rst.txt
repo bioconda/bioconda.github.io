@@ -22,8 +22,23 @@ bactopia
 
    |downloads_bactopia| |docker_bactopia|
 
-   :versions: 
+   :versions: 1.0.1-0
    
+   :depends ariba: 
+   :depends beautifulsoup4: 
+   :depends biopython: 
+   :depends blast: 
+   :depends cd-hit: 
+   :depends conda: 
+   :depends executor: 
+   :depends lxml: 
+   :depends mash: 
+   :depends ncbi-genome-download: 
+   :depends nextflow: 
+   :depends python: >3.6
+   :depends unzip: 
+   :depends urllib3: 
+   :depends wget: 
    :requirements:
 
    .. rubric:: Installation
