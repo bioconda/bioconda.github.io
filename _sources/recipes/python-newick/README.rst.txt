@@ -22,7 +22,7 @@ python-newick
 
    |downloads_python-newick| |docker_python-newick|
 
-   :versions: 0.9.2-2, 0.9.2-0, 0.8.0-0
+   :versions: 1.0.0-0, 0.9.2-2, 0.9.2-0, 0.8.0-0
    
    :depends python: 
    :requirements:

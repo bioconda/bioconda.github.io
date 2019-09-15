@@ -23,7 +23,7 @@ segtools
 
    |downloads_segtools| |docker_segtools|
 
-   :versions: 1.2.2-0, 1.2.1-2, 1.2.1-1, 1.2.1-0, 1.1.14-2, 1.1.14-1, 1.1.14-0
+   :versions: 1.2.3-0, 1.2.2-0, 1.2.1-2, 1.2.1-1, 1.2.1-0, 1.1.14-2, 1.1.14-1, 1.1.14-0
    
    :depends genomedata: 
    :depends gmtk: 

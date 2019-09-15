@@ -23,7 +23,7 @@ bracken
 
    |downloads_bracken| |docker_bracken|
 
-   :versions: 2.5-0, 2.2-1, 2.2-0, 1.0.0-1, 1.0.0-0
+   :versions: 2.5-1, 2.5-0, 2.2-1, 2.2-0, 1.0.0-1, 1.0.0-0
    
    :depends kraken: 
    :depends kraken2: 

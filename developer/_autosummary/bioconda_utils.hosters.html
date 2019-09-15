@@ -509,6 +509,9 @@ we leave the option to add functions to a Hoster.</p>
 <em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.hosters.</code><code class="sig-name descname">HrefParser</code><span class="sig-paren">(</span><em class="sig-param">link_re</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/hosters.html#HrefParser"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.HrefParser" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/html.parser.html#html.parser.HTMLParser" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">html.parser.HTMLParser</span></code></a></p>
 <p>Extract link targets from HTML</p>
+<p>Initialize and reset this instance.</p>
+<p>If convert_charrefs is True (the default), all character references
+are automatically converted to the corresponding Unicode characters.</p>
 <dl class="method">
 <dt id="bioconda_utils.hosters.HrefParser.get_matches">
 <code class="sig-name descname">get_matches</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/hosters.html#HrefParser.get_matches"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.HrefParser.get_matches" title="Permalink to this definition">¶</a></dt>
@@ -642,7 +645,7 @@ Requires regex package for recursion.</p>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

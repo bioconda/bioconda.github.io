@@ -22,7 +22,7 @@ ariba
 
    |downloads_ariba| |docker_ariba|
 
-   :versions: 2.14.3-0, 2.14.1-0, 2.13.5-0, 2.13.3-0, 2.13.2-0, 2.12.1-0, 2.12.0-2, 2.12.0-0, 2.11.1-0, 2.11.0-0, 2.10.1-0, 2.10.0-0, 2.5.1-0, 0.6.0-0
+   :versions: 2.14.3-1, 2.14.3-0, 2.14.1-0, 2.13.5-0, 2.13.3-0, 2.13.2-0, 2.12.1-0, 2.12.0-2, 2.12.0-0, 2.11.1-0, 2.11.0-0, 2.10.1-0, 2.10.0-0, 2.5.1-0, 0.6.0-0
    
    :depends bcftools: >=1.2
    :depends beautifulsoup4: >=4.1.0
@@ -36,7 +36,7 @@ ariba
    :depends mummer: >=3.23
    :depends pyfastaq: >=3.12.0
    :depends pymummer: <=0.10.3
-   :depends pysam: >=0.9.1
+   :depends pysam: >=0.15.3
    :depends python: >=3.6,<3.7.0a0
    :depends samtools: >=1.2
    :depends spades: >=3.5.0

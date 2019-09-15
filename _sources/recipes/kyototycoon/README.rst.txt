@@ -22,7 +22,7 @@ kyototycoon
 
    |downloads_kyototycoon| |docker_kyototycoon|
 
-   :versions: 2017.04.10-1
+   :versions: 2017.04.10-2, 2017.04.10-1
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
