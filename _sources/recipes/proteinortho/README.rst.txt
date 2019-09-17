@@ -22,13 +22,13 @@ proteinortho
 
    |downloads_proteinortho| |docker_proteinortho|
 
-   :versions: 6.0.6-0, 6.0.5-0, 6.0.4-0, 6.0.3-0, 6.0.2c-0, 6.0.1-0, 6.0-0, 6.0b-0
+   :versions: 6.0.7-0, 6.0.6-0, 6.0.5-0, 6.0.4-0, 6.0.3-0, 6.0.2c-0, 6.0.1-0, 6.0-0, 6.0b-0
    
    :depends diamond: 
    :depends libgcc-ng: >=7.3.0
    :depends libgfortran-ng: >=7,<8.0a0
+   :depends liblapacke: >=3.8.0,<3.9.0a0
    :depends libstdcxx-ng: >=7.3.0
-   :depends openblas: >=0.3.3,<0.3.4.0a0
    :depends openmp: 
    :depends perl: 
    :depends python: 

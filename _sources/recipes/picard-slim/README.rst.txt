@@ -23,7 +23,7 @@ picard-slim
 
    |downloads_picard-slim| |docker_picard-slim|
 
-   :versions: 2.20.7-0, 2.20.6-0, 2.20.5-0, 2.20.4-0
+   :versions: 2.20.8-0, 2.20.7-0, 2.20.6-0, 2.20.5-0, 2.20.4-0
    
    :depends openjdk: >=8
    :requirements:

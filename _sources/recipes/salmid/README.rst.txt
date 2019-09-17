@@ -23,8 +23,9 @@ salmid
 
    |downloads_salmid| |docker_salmid|
 
-   :versions: 
+   :versions: 0.1.23-0
    
+   :depends python: >=3
    :requirements:
 
    .. rubric:: Installation

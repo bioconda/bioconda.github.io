@@ -23,7 +23,7 @@ bamscale
 
    |downloads_bamscale| |docker_bamscale|
 
-   :versions: 0.0.3-0
+   :versions: 0.0.5-0, 0.0.3-0
    
    :depends bzip2: >=1.0.8,<2.0a0
    :depends htslib: >=1.9,<1.10.0a0

@@ -22,12 +22,13 @@ xpressplot
 
    |downloads_xpressplot| |docker_xpressplot|
 
-   :versions: 0.0.5b0-0
+   :versions: 0.0.8b0-0, 0.0.5b0-0
    
    :depends matplotlib: 
    :depends numpy: 
    :depends pandas: 
-   :depends plotly: <4
+   :depends plotly: >=4
+   :depends plotly_express: 
    :depends python: 
    :depends scikit-learn: 
    :depends scipy: 

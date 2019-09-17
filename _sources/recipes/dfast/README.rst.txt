@@ -12,9 +12,10 @@ dfast
    DDBJ Fast Annotation and Submission Tool \- Prokaryotic genome annotation pipeline
 
    :homepage: https://dfast.nig.ac.jp
+   :developer docs: https://github.com/nigyta/dfast_core
    :license: GPLv3
    :recipe: /`dfast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dfast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dfast/meta.yaml>`_
-   :links: biotools: :biotools:`dfast`, doi: :doi:`https://doi.org/10.1093/bioinformatics/btx713`
+   :links: biotools: :biotools:`dfast`, doi: :doi:`10.1093/bioinformatics/btx713`
 
    
 
@@ -23,17 +24,17 @@ dfast
 
    |downloads_dfast| |docker_dfast|
 
-   :versions: 1.2.3-0
+   :versions: 1.2.3-1, 1.2.3-0
    
    :depends aragorn: 
    :depends barrnap: 
    :depends biopython: 
-   :depends blast: 
+   :depends blast: >=2.6.0
    :depends ghostx: 
    :depends hmmer: >=3.1b2
+   :depends last: 
    :depends metagene_annotator: >=1.0
    :depends openjdk: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
    :depends python: >=3.5
    :requirements:
 
