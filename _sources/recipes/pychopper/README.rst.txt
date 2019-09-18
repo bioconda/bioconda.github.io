@@ -22,14 +22,14 @@ pychopper
 
    |downloads_pychopper| |docker_pychopper|
 
-   :versions: 0.6.1-0, 0.5.0-0, 0.4.0-0
+   :versions: 2.0.3-0, 0.6.1-0, 0.5.0-0, 0.4.0-0
    
    :depends biopython: 
    :depends matplotlib: 
    :depends pandas: 
    :depends parasail-python: 
-   :depends pytest: 
    :depends python: >=3
+   :depends python-edlib: 
    :depends six: 
    :depends tqdm: 
    :requirements:

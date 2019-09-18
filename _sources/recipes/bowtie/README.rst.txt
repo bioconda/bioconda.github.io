@@ -14,7 +14,7 @@ bowtie
    :homepage: https://github.com/BenLangmead/bowtie
    :license: Artistic License 2.0
    :recipe: /`bowtie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bowtie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bowtie/meta.yaml>`_
-   :links: biotools: :biotools:`bowtie`
+   :links: biotools: :biotools:`bowtie`, doi: :doi:`10.1186/gb-2009-10-3-r25`
 
    
 
@@ -23,12 +23,13 @@ bowtie
 
    |downloads_bowtie| |docker_bowtie|
 
-   :versions: 1.2.2-1, 1.2.2-0, 1.2.1.1-0, 1.2.0-0, 1.1.2-2, 1.1.2-1, 1.1.2-0, 1.1.1-0, 1.0.0-1, 1.0.0-0
+   :versions: 1.2.3-0, 1.2.2-1, 1.2.2-0, 1.2.1.1-0, 1.2.0-0, 1.1.2-2, 1.1.2-1, 1.1.2-0, 1.1.1-0, 1.0.0-1, 1.0.0-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends perl: 
    :depends python: >=2.7,<2.8.0a0
-   :depends tbb: 
+   :depends tbb: >=2019.8
    :requirements:
 
    .. rubric:: Installation

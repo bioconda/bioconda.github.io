@@ -22,7 +22,7 @@ longshot
 
    |downloads_longshot| |docker_longshot|
 
-   :versions: v0.3.4-0, v0.3.3-0, v0.3.2-0
+   :versions: v0.3.5-0, v0.3.4-0, v0.3.3-0, v0.3.2-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
