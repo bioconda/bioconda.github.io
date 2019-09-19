@@ -23,20 +23,20 @@ r-deseqanalysis
 
    |downloads_r-deseqanalysis| |docker_r-deseqanalysis|
 
-   :versions: 0.2.7-0, 0.2.6-0, 0.2.5-0
+   :versions: 0.2.8-0, 0.2.7-0, 0.2.6-0, 0.2.5-0
    
    :depends bioconductor-biocgenerics: >=0.30
    :depends bioconductor-deseq2: >=1.24
    :depends bioconductor-iranges: >=2.18.2
    :depends bioconductor-s4vectors: >=0.22
    :depends bioconductor-summarizedexperiment: >=1.14
-   :depends r-acidplots: >=0.2.14
+   :depends r-acidplots: >=0.2.16
    :depends r-base: >=3.6,<3.7.0a0
-   :depends r-basejump: >=0.11.11
-   :depends r-bioverbs: >=0.2.7
+   :depends r-basejump: >=0.11.15
+   :depends r-bioverbs: >=0.2.10
    :depends r-cowplot: >=0.9
    :depends r-ggplot2: >=3.2
-   :depends r-goalie: >=0.3.6
+   :depends r-goalie: >=0.3.8
    :depends r-knitr: >=1.24
    :depends r-rlang: >=0.4
    :depends r-stringr: >=1.4

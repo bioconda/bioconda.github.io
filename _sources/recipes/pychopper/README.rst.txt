@@ -9,7 +9,7 @@ pychopper
 .. conda:recipe:: pychopper
    :replaces_section_title:
 
-   A tool to identify full length cDNA reads from nanopore data.
+   A tool to identify\, orient and rescue full length cDNA reads from nanopore data.
 
    :homepage: https://github.com/nanoporetech/pychopper
    :license: MPL2
@@ -22,14 +22,15 @@ pychopper
 
    |downloads_pychopper| |docker_pychopper|
 
-   :versions: 2.0.3-0, 0.6.1-0, 0.5.0-0, 0.4.0-0
+   :versions: 2.0.3-1, 2.0.3-0, 0.6.1-0, 0.5.0-0, 0.4.0-0
    
-   :depends biopython: 
+   :depends hmmer: >=3
    :depends matplotlib: 
    :depends pandas: 
    :depends parasail-python: 
    :depends python: >=3
    :depends python-edlib: 
+   :depends seaborn: 
    :depends six: 
    :depends tqdm: 
    :requirements:

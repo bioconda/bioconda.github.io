@@ -24,7 +24,7 @@ irida-uploader
 
    |downloads_irida-uploader| |docker_irida-uploader|
 
-   :versions: 0.2.1-0, 0.1-0
+   :versions: 0.3.0-0, 0.2.1-0, 0.1-0
    
    :depends appdirs: >=1.4.3
    :depends cerberus: 

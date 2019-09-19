@@ -12,7 +12,7 @@ phipack
    Simple\, rapid\, and statistically efficient test for recombination.
 
    :homepage: http://www.maths.otago.ac.nz/~dbryant/software.html
-   :license: GNU General Public License v3.0
+   :license: GPL3
    :recipe: /`phipack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phipack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phipack/meta.yaml>`_
 
    
@@ -22,9 +22,9 @@ phipack
 
    |downloads_phipack| |docker_phipack|
 
-   :versions: 1.0-0
+   :versions: 1.1-0, 1.0-0
    
-   :depends libgcc: 
+   :depends libgcc-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

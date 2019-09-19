@@ -23,7 +23,7 @@ r-bcbiornaseq
 
    |downloads_r-bcbiornaseq| |docker_r-bcbiornaseq|
 
-   :versions: 0.3.27-0, 0.3.26-0, 0.2.9-0, 0.2.8-0, 0.2.7-0, 0.2.4-0, 0.2.4a-0, 0.2.3a-0, 0.1.2-0
+   :versions: 0.3.28-0, 0.3.27-0, 0.3.26-0, 0.2.9-0, 0.2.8-0, 0.2.7-0, 0.2.4-0, 0.2.4a-0, 0.2.3a-0, 0.1.2-0
    
    :depends bioconductor-biocgenerics: >=0.30
    :depends bioconductor-clusterprofiler: >=3.12
@@ -41,15 +41,15 @@ r-bcbiornaseq
    :depends bioconductor-summarizedexperiment: >=1.14
    :depends bioconductor-tximport: >=1.12
    :depends bioconductor-vsn: >=3.52
-   :depends r-acidplots: >=0.2.14
+   :depends r-acidplots: >=0.2.15
    :depends r-base: >=3.6,<3.7.0a0
-   :depends r-basejump: >=0.11.14
+   :depends r-basejump: >=0.11.15
    :depends r-bcbiobase: >=0.6.10
-   :depends r-bioverbs: >=0.2.9
+   :depends r-bioverbs: >=0.2.10
    :depends r-cowplot: >=1.0
-   :depends r-deseqanalysis: >=0.2.5
+   :depends r-deseqanalysis: >=0.2.7
    :depends r-ggplot2: >=3.2
-   :depends r-goalie: >=0.3.7
+   :depends r-goalie: >=0.3.8
    :depends r-hexbin: >=1.27
    :depends r-knitr: >=1.24
    :depends r-rlang: >=0.4
