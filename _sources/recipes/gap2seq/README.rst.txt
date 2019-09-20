@@ -22,10 +22,12 @@ gap2seq
 
    |downloads_gap2seq| |docker_gap2seq|
 
-   :versions: 2.1-4, 2.1-3, 2.1-2, 2.1-1, 2.1-0, 2.0-8, 2.0-7, 2.0-6, 2.0-5, 2.0-4, 2.0-1
+   :versions: 3.1-0, 2.1-4, 2.1-3, 2.1-2, 2.1-1, 2.1-0, 2.0-8, 2.0-7, 2.0-6, 2.0-5, 2.0-4, 2.0-1
    
-   :depends boost: >=1.66.0,<1.66.1.0a0
-   :depends libcxx: 
+   :depends htslib: >=1.9,<1.10.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends python: >=2.7,<2.8.0a0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

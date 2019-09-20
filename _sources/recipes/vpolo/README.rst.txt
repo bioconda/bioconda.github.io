@@ -22,7 +22,7 @@ vpolo
 
    |downloads_vpolo| |docker_vpolo|
 
-   :versions: 0.1.0-0
+   :versions: 0.2.0-0, 0.1.0-0
    
    :depends python: 
    :requirements:

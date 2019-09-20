@@ -9,10 +9,10 @@ rna-seqc
 .. conda:recipe:: rna-seqc
    :replaces_section_title:
 
-   RNA\-SeQC is a java program which computes a series of quality control metrics for RNA\-seq data. The input can be one or more BAM files
+   Fast\, efficient RNA\-Seq metrics for quality control and process optimization
 
-   :homepage: http://archive.broadinstitute.org/cancer/cga/rna-seqc
-   :license: None
+   :homepage: https://github.com/broadinstitute/rnaseqc
+   :license: `BSD / BSD 3-clause <https://raw.githubusercontent.com/broadinstitute/rnaseqc/master/LICENSE>`_
    :recipe: /`rna-seqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rna-seqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rna-seqc/meta.yaml>`_
 
    
@@ -22,9 +22,15 @@ rna-seqc
 
    |downloads_rna-seqc| |docker_rna-seqc|
 
-   :versions: 1.1.8-2, 1.1.8-1, 1.1.8-0
+   :versions: 2.3.4-0, 2.3.3-0, 1.1.8-2, 1.1.8-1, 1.1.8-0
    
-   :depends openjdk: 7.*
+   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
+   :depends bzip2: >=1.0.8,<2.0a0
+   :depends curl: >=7.64.1,<8.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends xz: >=5.2.4,<5.3.0a0
+   :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
    .. rubric:: Installation

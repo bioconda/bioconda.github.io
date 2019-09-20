@@ -22,7 +22,7 @@ cgpbigwig
 
    |downloads_cgpbigwig| |docker_cgpbigwig|
 
-   :versions: 1.0.4-0, 1.0.3-0, 1.0.2-0
+   :versions: 1.1.0-0, 1.0.4-0, 1.0.3-0, 1.0.2-0
    
    :depends bzip2: >=1.0.8,<2.0a0
    :depends gmp: >=6.1.2,<7.0a0
