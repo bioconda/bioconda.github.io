@@ -22,12 +22,12 @@ macs2
 
    |downloads_macs2| |docker_macs2|
 
-   :versions: 2.1.2-1, 2.1.2-0, 2.1.1.20160309-3, 2.1.1.20160309-2, 2.1.1.20160309-1, 2.1.1.20160309-0, 2.1.1-0, 2.1.0-0
+   :versions: 2.1.3.3-0, 2.1.3.2-0, 2.1.2-1, 2.1.2-0, 2.1.1.20160309-3, 2.1.1.20160309-2, 2.1.1.20160309-1, 2.1.1.20160309-0, 2.1.1-0, 2.1.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends numpy: >=1.6
    :depends python: >=2.7,<2.8.0a0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation
