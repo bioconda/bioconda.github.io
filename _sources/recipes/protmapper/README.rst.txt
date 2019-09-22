@@ -12,6 +12,8 @@ protmapper
    Map protein sites to human reference sequence.
 
    :homepage: https://github.com/indralab/protmapper
+   :documentation: https://protmapper.readthedocs.io
+   
    :license: BSD / BSD
    :recipe: /`protmapper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/protmapper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/protmapper/meta.yaml>`_
 
@@ -22,7 +24,7 @@ protmapper
 
    |downloads_protmapper| |docker_protmapper|
 
-   :versions: 0.0.13-0
+   :versions: 0.0.14-0, 0.0.13-0
    
    :depends boto3: 
    :depends python: >=3

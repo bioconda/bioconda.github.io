@@ -22,7 +22,7 @@ bohra
 
    |downloads_bohra| |docker_bohra|
 
-   :versions: 1.0.20-1, 1.0.20-0, 1.0.19-0
+   :versions: 1.0.22-0, 1.0.20-1, 1.0.20-0, 1.0.19-0
    
    :depends abricate: 
    :depends biopython: >=1.70
