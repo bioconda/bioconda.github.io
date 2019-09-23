@@ -23,7 +23,7 @@ rseqc
 
    |downloads_rseqc| |docker_rseqc|
 
-   :versions: 3.0.0-3, 3.0.0-1, 3.0.0-0, 2.6.4-2, 2.6.4-1, 2.6.4-0, 2.6.2-0
+   :versions: 3.0.1-0, 3.0.0-3, 3.0.0-1, 3.0.0-0, 2.6.4-2, 2.6.4-1, 2.6.4-0, 2.6.2-0
    
    :depends bx-python: 
    :depends numpy: 

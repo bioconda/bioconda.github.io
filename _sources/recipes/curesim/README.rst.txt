@@ -22,10 +22,10 @@ curesim
 
    |downloads_curesim| |docker_curesim|
 
-   :versions: 1.3-1, 1.3-0
+   :versions: 1.3-2, 1.3-1, 1.3-0
    
    :depends coreutils: 
-   :depends java-jdk: >=8
+   :depends openjdk: >=8
    :requirements:
 
    .. rubric:: Installation
