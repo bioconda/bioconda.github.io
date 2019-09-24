@@ -14,6 +14,7 @@ pourrna
    :homepage: https://github.com/ViennaRNA/pourRNA/
    :license: GPLv2
    :recipe: /`pourrna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pourrna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pourrna/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btz583`
 
    
 
@@ -22,12 +23,12 @@ pourrna
 
    |downloads_pourrna| |docker_pourrna|
 
-   :versions: 1.2.0-0, 1.1.0-0, 1.0.1-0
+   :versions: 1.2.0-1, 1.2.0-0, 1.1.0-0, 1.0.1-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends viennarna: >=2.4.11,<2.5.0a0
-   :depends viennarna: >=2.4.11,<3.0.0
+   :depends viennarna: >=2.4.14,<2.5.0a0
+   :depends viennarna: >=2.4.14,<3.0.0
    :requirements:
 
    .. rubric:: Installation

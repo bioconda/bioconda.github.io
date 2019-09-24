@@ -12,7 +12,7 @@ snap
    Semi\-HMM\-based Nucleic Acid Parser \-\- gene prediction tool
 
    :homepage: http://korflab.ucdavis.edu/software.html
-   :license: GNU General Public License version 2.0
+   :license: MIT
    :recipe: /`snap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snap/meta.yaml>`_
 
    
@@ -22,9 +22,10 @@ snap
 
    |downloads_snap| |docker_snap|
 
-   :versions: 2013_11_29-1, 2013_11_29-0
+   :versions: 2013_11_29-2, 2013_11_29-1, 2013_11_29-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends perl: 
    :requirements:
 
    .. rubric:: Installation

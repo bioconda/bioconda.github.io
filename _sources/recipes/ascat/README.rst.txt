@@ -31,9 +31,9 @@ ascat
 
    |downloads_ascat| |docker_ascat|
 
-   :versions: 2.5.2-0, 2.5.1-2, 2.5.1-0, 2.5-0
+   :versions: 2.5.2-1, 2.5.2-0, 2.5.1-2, 2.5.1-0, 2.5-0
    
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-r.devices: 
    :depends r-r.utils: 
    :depends r-rcolorbrewer: 

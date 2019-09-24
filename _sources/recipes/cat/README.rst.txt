@@ -23,7 +23,7 @@ cat
 
    |downloads_cat| |docker_cat|
 
-   :versions: 5.0.1-0, 5.0-0, 4.6-0, 4.3.3-0, 4.3.1-1
+   :versions: 5.0.2-0, 5.0.1-0, 5.0-0, 4.6-0, 4.3.3-0, 4.3.1-1
    
    :depends diamond: 
    :depends prodigal: 
