@@ -22,7 +22,7 @@ cmsip
 
    |downloads_cmsip| |docker_cmsip|
 
-   :versions: 0.0.1.1.1-0, 0.0.0.9-0, 0.0.0.6-0, 0.0.0.5-0
+   :versions: 0.0.1.1.9-0, 0.0.1.1.1-0, 0.0.0.9-0, 0.0.0.6-0, 0.0.0.5-0
    
    :depends bash: 
    :depends bedtools: 

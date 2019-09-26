@@ -22,7 +22,7 @@ biopython.convert
 
    |downloads_biopython.convert| |docker_biopython.convert|
 
-   :versions: 1.0.2-0, 1.0.0-0
+   :versions: 1.0.3-0, 1.0.2-0, 1.0.0-0
    
    :depends biopython: >=1.73
    :depends gffutils: >=0.9

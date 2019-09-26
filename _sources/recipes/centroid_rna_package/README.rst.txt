@@ -9,7 +9,7 @@ centroid_rna_package
 .. conda:recipe:: centroid_rna_package
    :replaces_section_title:
 
-   Colection of RNA secondary structure prediction programs based on gamma\-centroid estimator \(Hamada et. al. 2009\)
+   Collection of RNA secondary structure prediction programs based on gamma\-centroid estimator \(Hamada et. al. 2009\)
 
    :homepage: https://github.com/satoken/centroid-rna-package
    :license: GPL-V2
@@ -23,7 +23,7 @@ centroid_rna_package
 
    |downloads_centroid_rna_package| |docker_centroid_rna_package|
 
-   :versions: 0.0.15-0
+   :versions: 0.0.16-0, 0.0.15-0
    
    :depends viennarna: >=1.8
    :requirements:

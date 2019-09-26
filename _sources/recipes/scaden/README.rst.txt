@@ -22,7 +22,7 @@ scaden
 
    |downloads_scaden| |docker_scaden|
 
-   :versions: 0.9.0-0
+   :versions: 0.9.2-0, 0.9.0-0
    
    :depends click: 
    :depends matplotlib: 

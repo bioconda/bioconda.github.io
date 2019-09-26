@@ -11,7 +11,7 @@ chromhmm
 
    ChromHMM is software for learning and characterizing chromatin states. ChromHMM can integrate multiple chromatin datasets such as ChIP\-seq data of various histone modifications to discover de novo the major re\-occuring combinatorial and spatial patterns of marks.
 
-   :homepage: http://compbio.mit.edu/ChromHMM/
+   :homepage: https://github.com/jernst98/ChromHMM
    :license: GPLv3
    :recipe: /`chromhmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chromhmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chromhmm/meta.yaml>`_
    :links: biotools: :biotools:`chromhmm`
@@ -23,7 +23,7 @@ chromhmm
 
    |downloads_chromhmm| |docker_chromhmm|
 
-   :versions: 1.15-0, 1.14-0, 1.12-0, 1.11-0
+   :versions: 1.19-0, 1.15-0, 1.14-0, 1.12-0, 1.11-0
    
    :depends openjdk: 
    :depends unzip: 

@@ -22,7 +22,7 @@ feature_merge
 
    |downloads_feature_merge| |docker_feature_merge|
 
-   :versions: 1.0.2-0, 1.0.1-0
+   :versions: 1.1.0-0, 1.0.2-0, 1.0.1-0
    
    :depends gffutils: >=0.9
    :depends python: 

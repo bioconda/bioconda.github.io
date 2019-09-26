@@ -22,7 +22,7 @@ jcvi
 
    |downloads_jcvi| |docker_jcvi|
 
-   :versions: 0.9.9-0, 0.9.6-0, 0.8.12-1, 0.8.12-0, 0.8.4-1, 0.8.4-0
+   :versions: 0.9.10-0, 0.9.9-0, 0.9.6-0, 0.8.12-1, 0.8.12-0, 0.8.4-1, 0.8.4-0
    
    :depends biopython: 
    :depends deap: 

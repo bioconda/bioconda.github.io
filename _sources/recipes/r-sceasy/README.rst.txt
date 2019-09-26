@@ -22,9 +22,9 @@ r-sceasy
 
    |downloads_r-sceasy| |docker_r-sceasy|
 
-   :versions: 0.0.1-0
+   :versions: 0.0.3-0, 0.0.2-1, 0.0.2-0, 0.0.1-0
    
-   :depends anndata: 
+   :depends anndata: <=0.6.19
    :depends bioconductor-loomexperiment: >=1.1.5
    :depends bioconductor-singlecellexperiment: >=1.4.0
    :depends r-base: >=3.6,<3.7.0a0

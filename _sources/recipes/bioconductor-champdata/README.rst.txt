@@ -22,7 +22,7 @@ bioconductor-champdata
 
    |downloads_bioconductor-champdata| |docker_bioconductor-champdata|
 
-   :versions: 2.16.0-1, 2.14.0-0
+   :versions: 2.16.0-1, 2.14.1-0, 2.14.0-0
    
    :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
    :depends bioconductor-genomicranges: >=1.36.0,<1.37.0

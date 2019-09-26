@@ -9,9 +9,9 @@ stoatydive
 .. conda:recipe:: stoatydive
    :replaces_section_title:
 
-   StoatyDive is a tool to evaluate predicted peak profiles to assess the binding specificity of a protein to its targets.
+   StoatyDive is a tool to evaluate and classify predicted peak profiles to assess the binding specificity of a protein to its targets.
 
-   :homepage: https://github.com/heylf/StoatyDive
+   :homepage: https://github.com/BackofenLab/StoatyDive
    :license: GPLv3
    :recipe: /`stoatydive <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stoatydive>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stoatydive/meta.yaml>`_
 
@@ -22,12 +22,13 @@ stoatydive
 
    |downloads_stoatydive| |docker_stoatydive|
 
-   :versions: 1.0.4-0
+   :versions: 1.1.0-0, 1.0.4-0
    
    :depends bedtools: >=2.27.1
    :depends matplotlib: 
    :depends numpy: 
    :depends python: 
+   :depends r-base: 
    :depends scipy: >=1.3
    :requirements:
 

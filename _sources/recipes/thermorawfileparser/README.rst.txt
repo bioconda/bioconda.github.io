@@ -24,7 +24,7 @@ thermorawfileparser
 
    |downloads_thermorawfileparser| |docker_thermorawfileparser|
 
-   :versions: 1.1.10-0, 1.1.9-0, 1.1.8-0, 1.1.7-0, 1.1.2-0, 1.1.0-1, 1.1.0-0, 0.0.2018.09.07-1, 0.0.2018.09.07-0
+   :versions: 1.1.11-0, 1.1.10-0, 1.1.9-0, 1.1.8-0, 1.1.7-0, 1.1.2-0, 1.1.0-1, 1.1.0-0, 0.0.2018.09.07-1, 0.0.2018.09.07-0
    
    :depends mono: >=5
    :requirements:
