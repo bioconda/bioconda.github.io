@@ -23,7 +23,7 @@ virsorter
 
    |downloads_virsorter| |docker_virsorter|
 
-   :versions: 1.0.5-2, 1.0.5-1, 1.0.5-0
+   :versions: 1.0.5-3, 1.0.5-2, 1.0.5-1, 1.0.5-0
    
    :depends blast: 
    :depends diamond: 0.9.14.*
@@ -33,7 +33,7 @@ virsorter
    :depends metagene_annotator: 
    :depends muscle: 
    :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends perl-bioperl: 
+   :depends perl-bioperl: >=1.7.2
    :depends perl-file-which: 
    :depends perl-list-moreutils: 
    :depends perl-parallel-forkmanager: 

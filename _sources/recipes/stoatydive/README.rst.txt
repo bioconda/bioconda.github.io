@@ -22,13 +22,16 @@ stoatydive
 
    |downloads_stoatydive| |docker_stoatydive|
 
-   :versions: 1.1.0-0, 1.0.4-0
+   :versions: 1.1.0-1, 1.1.0-0, 1.0.4-0
    
    :depends bedtools: >=2.27.1
    :depends matplotlib: 
    :depends numpy: 
    :depends python: 
    :depends r-base: 
+   :depends r-data.table: 
+   :depends r-umap: 
+   :depends r-zoo: 
    :depends scipy: >=1.3
    :requirements:
 

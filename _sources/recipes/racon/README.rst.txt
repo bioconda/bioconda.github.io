@@ -11,7 +11,7 @@ racon
 
    Ultrafast consensus module for raw de novo genome assembly of long uncorrected reads.
 
-   :homepage: https://github.com/isovic/racon
+   :homepage: https://github.com/lbcb-sci/racon
    :license: MIT
    :recipe: /`racon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/racon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/racon/meta.yaml>`_
 
@@ -22,7 +22,7 @@ racon
 
    |downloads_racon| |docker_racon|
 
-   :versions: 1.4.3-0, 1.4.2-0, 1.4.0-0, 1.3.3-1, 1.3.2-1, 1.3.2-0, 1.3.1-5, 1.3.1-4, 1.3.1-1, 1.3.1-0, 1.3.0-1, 1.2.1-1, 1.2.0-1, 1.2.0-0, 1.1.0-0, 1.0.1-0, 1.0.0-1, 1.0.0-0, 0.5.0-2, 0.5.0-1, 0.5.0-0
+   :versions: 1.4.7-0, 1.4.3-0, 1.4.2-0, 1.4.0-0, 1.3.3-1, 1.3.2-1, 1.3.2-0, 1.3.1-5, 1.3.1-4, 1.3.1-1, 1.3.1-0, 1.3.0-1, 1.2.1-1, 1.2.0-1, 1.2.0-0, 1.1.0-0, 1.0.1-0, 1.0.0-1, 1.0.0-0, 0.5.0-2, 0.5.0-1, 0.5.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
