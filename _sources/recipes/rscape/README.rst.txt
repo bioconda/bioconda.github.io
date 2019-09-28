@@ -22,11 +22,12 @@ rscape
 
    |downloads_rscape| |docker_rscape|
 
-   :versions: 1.2.2-1, 1.2.2-0, 1.0.4-2, 1.0.4-1, 0.8.3-2, 0.8.3-1, 0.8.3-0, 0.6.1-4, 0.6.1-3, 0.6.1-2, 0.6.1-0, 0.3.1-0, 0.2.1-0
+   :versions: 1.2.2-2, 1.2.2-1, 1.2.2-0, 1.0.4-2, 1.0.4-1, 0.8.3-2, 0.8.3-1, 0.8.3-0, 0.6.1-4, 0.6.1-3, 0.6.1-2, 0.6.1-0, 0.3.1-0, 0.2.1-0
    
    :depends gnuplot: 
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
+   :depends perl: 
    :requirements:
 
    .. rubric:: Installation

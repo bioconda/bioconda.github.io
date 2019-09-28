@@ -22,7 +22,7 @@ ppanggolin
 
    |downloads_ppanggolin| |docker_ppanggolin|
 
-   :versions: v0.3.88-0
+   :versions: v0.3.88-1, v0.3.88-0
    
    :depends aragorn: 1.2.*
    :depends colorlover: 0.3.*
@@ -37,7 +37,7 @@ ppanggolin
    :depends prodigal: 2.6.*
    :depends psutil: 5.*
    :depends pytables: 3.5.*
-   :depends python: >=3.6
+   :depends python: >=3.6,<3.7.0a0
    :depends scipy: 1.3.*
    :depends tqdm: 4.*
    :requirements:

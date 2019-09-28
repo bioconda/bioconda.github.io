@@ -22,7 +22,7 @@ pycoqc
 
    |downloads_pycoqc| |docker_pycoqc|
 
-   :versions: 2.2.4-0, 2.2.3-2, 2.2.3-1, 1.0.alpha1-0
+   :versions: 2.5.0.3-0, 2.2.4-0, 2.2.3-2, 2.2.3-1, 1.0.alpha1-0
    
    :depends h5py: >=2.8.0
    :depends jinja2: >=2.10

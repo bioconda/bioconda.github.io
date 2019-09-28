@@ -22,7 +22,7 @@ jass
 
    |downloads_jass| |docker_jass|
 
-   :versions: dummy-0
+   :versions: 1.0.1-0
    
    :depends celery: 
    :depends connexion: 

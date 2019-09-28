@@ -23,7 +23,7 @@ raxml-ng
 
    |downloads_raxml-ng| |docker_raxml-ng|
 
-   :versions: 0.9.0-0
+   :versions: 0.9.0-1, 0.9.0-0
    
    :depends gmp: >=6.1.2,<7.0a0
    :depends libgcc-ng: >=7.3.0

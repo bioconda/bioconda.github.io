@@ -22,7 +22,7 @@ perl-fastx-reader
 
    |downloads_perl-fastx-reader| |docker_perl-fastx-reader|
 
-   :versions: 0.60-0
+   :versions: 0.61-0, 0.60-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-carp: 
