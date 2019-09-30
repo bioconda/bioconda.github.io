@@ -229,10 +229,9 @@ If this is not possible, please indicate this in the PR and notify
 <p>Bioconda is a bioinformatics channel, so we prefer to host packages specific to
 this domain. If a bioinformatics recipe has more general dependencies, please
 consider opening a pull request with <a class="reference external" href="https://conda-forge.github.io/#add_recipe">conda-forge</a> which hosts general packages.</p>
-<p>The exception to this is with R packages. We are still coordinating with
-Anaconda and conda-forge about the best place to keep general R packages. In
-the meantime, R packages that are not specific to bioinformatics and that
-aren’t already in the <code class="docutils literal notranslate"><span class="pre">conda-forge</span></code> channel can be added to bioconda.</p>
+<p>All CRAN packages that do not depend on a package in bioconda should be added
+to conda-forge instead. This is still the case if the CRAN package is directly
+related to bioinformatics.</p>
 <p>If uploading of an unreleased version is necessary, please follow the
 versioning scheme of conda for pre- and post-releases (e.g. using a, b, rc, and
 dev suffixes, see <a class="reference external" href="https://github.com/conda/conda/blob/d1348cf3eca0f78093c7c46157989509572e9c25/conda/version.py#L30">here</a>).</p>
@@ -241,12 +240,10 @@ dev suffixes, see <a class="reference external" href="https://github.com/conda/c
 <span id="id3"></span><h3>“Noarch” packages<a class="headerlink" href="#noarch-packages" title="Permalink to this headline">¶</a></h3>
 <p>A <a class="reference internal" href="#id3"><span class="std std-ref">“Noarch” packages</span></a> package must be created for pure python packages. To do so,
 add <code class="docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">python</span></code> to the <code class="docutils literal notranslate"><span class="pre">build</span></code> section of the <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> file.</p>
-<blockquote>
-<div><dl class="simple">
+<dl class="simple">
 <dt>For other generic packages (like a data package), add <code class="docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">generic</span></code> to</dt><dd><p>the <code class="docutils literal notranslate"><span class="pre">build</span></code> section.</p>
 </dd>
 </dl>
-</div></blockquote>
 </div>
 <div class="section" id="dependencies">
 <h3>Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h3>
@@ -255,8 +252,8 @@ a particular dependency should come from a particular channel. This means that
 a recipe must have its dependencies in one of the following:</p>
 <ul class="simple">
 <li><p>as-yet-unbuilt recipes in the repo but that will be included in the PR</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">bioconda</span></code> channel</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">conda-forge</span></code> channel</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">bioconda</span></code> channel</p></li>
 <li><p>default Anaconda channel</p></li>
 </ul>
 <p>Otherwise, you will have to write the recipes for those dependencies and
