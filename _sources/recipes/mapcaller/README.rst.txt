@@ -23,7 +23,7 @@ mapcaller
 
    |downloads_mapcaller| |docker_mapcaller|
 
-   :versions: 0.9.9.6-0
+   :versions: 0.9.9.7-0, 0.9.9.6-0
    
    :depends boost: >=1.70.0,<1.70.1.0a0
    :depends bzip2: >=1.0.8,<2.0a0
