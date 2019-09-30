@@ -14,6 +14,7 @@ seqsero2
    :homepage: https://github.com/denglab/SeqSero2
    :license: GPL / GPLv2
    :recipe: /`seqsero2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqsero2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqsero2/meta.yaml>`_
+   :links: doi: :doi:`10.1128/AEM.01746-19`
 
    
 
@@ -22,7 +23,7 @@ seqsero2
 
    |downloads_seqsero2| |docker_seqsero2|
 
-   :versions: 1.01-0, 1.0.1-0
+   :versions: 1.01-0, 1.0.2-0, 1.0.1-0
    
    :depends bedtools: >=2.17.0
    :depends biopython: 1.73.*

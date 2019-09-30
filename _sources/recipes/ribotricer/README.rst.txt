@@ -26,7 +26,7 @@ ribotricer
 
    |downloads_ribotricer| |docker_ribotricer|
 
-   :versions: 1.0.3-0, 1.0.2-0
+   :versions: 1.1.0-0, 1.0.3-0, 1.0.2-0
    
    :depends click: >=6.0
    :depends click-help-colors: >=0.3
