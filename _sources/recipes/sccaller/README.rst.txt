@@ -14,6 +14,7 @@ sccaller
    :homepage: https://github.com/biosinodx/SCcaller
    :license: GPL-3
    :recipe: /`sccaller <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sccaller>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sccaller/meta.yaml>`_
+   :links: doi: :doi:`10.1038/nmeth.4227`
 
    
 

@@ -14,6 +14,7 @@ hanselx
    :homepage: https://github.com/SamStudio8/hansel
    :license: MIT
    :recipe: /`hanselx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hanselx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hanselx/meta.yaml>`_
+   :links: doi: :doi:`10.1101/223404`
 
    
 

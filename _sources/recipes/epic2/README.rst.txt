@@ -14,6 +14,7 @@ epic2
    :homepage: http://github.com/endrebak/epic2
    :license: MIT
    :recipe: /`epic2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/epic2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/epic2/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btz232`
 
    
 

@@ -14,6 +14,7 @@ gretel
    :homepage: https://github.com/SamStudio8/gretel
    :license: MIT
    :recipe: /`gretel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gretel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gretel/meta.yaml>`_
+   :links: doi: :doi:`10.1101/223404`
 
    
 

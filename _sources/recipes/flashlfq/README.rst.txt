@@ -14,6 +14,7 @@ flashlfq
    :homepage: https://github.com/smith-chem-wisc/FlashLFQ
    :license: GPL / LGPL-3.0
    :recipe: /`flashlfq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flashlfq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flashlfq/meta.yaml>`_
+   :links: doi: :doi:`10.1021/acs.jproteome.7b00608`
 
    
 

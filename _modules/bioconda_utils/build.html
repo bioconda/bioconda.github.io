@@ -323,7 +323,8 @@
                   <span class="n">mulled_upload_target</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
                   <span class="n">check_channels</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                   <span class="n">do_lint</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
-                  <span class="n">lint_exclude</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
+                  <span class="n">lint_exclude</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+                  <span class="n">keep_old_work</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Build one or many bioconda packages.</span>
 
@@ -345,6 +346,7 @@
 <span class="sd">        Fefaults to every channel in the config file except &quot;defaults&quot;.</span>
 <span class="sd">      do_lint: Whether to run linter</span>
 <span class="sd">      lint_exclude: List of linting functions to exclude.</span>
+<span class="sd">      keep_old_work: Do not remove anything from environment, even after successful build and test.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="n">recipes</span><span class="p">:</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Nothing to be done.&quot;</span><span class="p">)</span>
@@ -465,7 +467,8 @@
                         <span class="n">upload</span><span class="o">.</span><span class="n">mulled_upload</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="n">mulled_upload_target</span><span class="p">)</span>
 
         <span class="c1"># remove traces of the build</span>
-        <span class="n">conda_build_purge</span><span class="p">()</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">keep_old_work</span><span class="p">:</span>
+            <span class="n">conda_build_purge</span><span class="p">()</span>
 
     <span class="k">if</span> <span class="n">failed</span> <span class="ow">or</span> <span class="n">failed_uploads</span><span class="p">:</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;BUILD SUMMARY: of </span><span class="si">%s</span><span class="s1"> recipes, &#39;</span>

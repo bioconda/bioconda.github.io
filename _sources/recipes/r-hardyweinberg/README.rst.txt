@@ -14,6 +14,7 @@ r-hardyweinberg
    :homepage: https://www.r-project.org, http://www-eio.upc.edu/~jan
    :license: GPL3 / GPL (>= 2)
    :recipe: /`r-hardyweinberg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-hardyweinberg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-hardyweinberg/meta.yaml>`_
+   :links: doi: :doi:`10.1126/science.28.706.49`
 
    
 

@@ -14,7 +14,7 @@ openms
    :homepage: https://github.com/OpenMS/OpenMS
    :license: BSD
    :recipe: /`openms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openms/meta.yaml>`_
-   :links: biotools: :biotools:`openms`, doi: :doi:`10.1007/978-1-60761-987-1_23`
+   :links: biotools: :biotools:`openms`, doi: :doi:`10.1038/nmeth.3959`
 
    
 

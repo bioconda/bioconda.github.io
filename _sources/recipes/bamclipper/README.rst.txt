@@ -14,6 +14,7 @@ bamclipper
    :homepage: https://github.com/tommyau/bamclipper
    :license: MIT / MIT
    :recipe: /`bamclipper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamclipper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamclipper/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41598-017-01703-6`
 
    
 

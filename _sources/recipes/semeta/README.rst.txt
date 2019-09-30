@@ -17,6 +17,7 @@ semeta
    :homepage: http://it.hcmute.edu.vn/bioinfo/metapro/SeMeta.html
    :license: GPL-3
    :recipe: /`semeta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/semeta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/semeta/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s12859-015-0872-x`
 
    
 

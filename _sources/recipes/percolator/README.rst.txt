@@ -14,6 +14,7 @@ percolator
    :homepage: https://github.com/percolator/percolator
    :license: Apache 2.0
    :recipe: /`percolator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/percolator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/percolator/meta.yaml>`_
+   :links: biotools: :biotools:`Percolator`, doi: :doi:`10.1007/s13361-016-1460-7`
 
    
 

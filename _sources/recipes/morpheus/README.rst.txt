@@ -14,6 +14,7 @@ morpheus
    :homepage: https://github.com/cwenger/Morpheus/
    :license: MIT / MIT
    :recipe: /`morpheus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/morpheus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/morpheus/meta.yaml>`_
+   :links: doi: :doi:`10.1021/pr301024c`
 
    
 

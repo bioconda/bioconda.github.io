@@ -14,6 +14,7 @@ hardklor
    :homepage: https://github.com/mhoopmann/hardklor
    :license: Apache License, Version 2.0
    :recipe: /`hardklor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hardklor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hardklor/meta.yaml>`_
+   :links: doi: :doi:`10.1002/0471250953.bi1318s37`
 
    
 

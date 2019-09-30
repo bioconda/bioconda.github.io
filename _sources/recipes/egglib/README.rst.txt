@@ -14,6 +14,7 @@ egglib
    :homepage: http://mycor.nancy.inra.fr/egglib/
    :license: GPL / GPL3
    :recipe: /`egglib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/egglib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/egglib/meta.yaml>`_
+   :links: doi: :doi:`10.1186/1471-2156-13-27`
 
    
 

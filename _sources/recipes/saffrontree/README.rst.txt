@@ -14,6 +14,7 @@ saffrontree
    :homepage: https://github.com/sanger-pathogens/saffrontree
    :license: GNU General Public License v3 (GPLv3)
    :recipe: /`saffrontree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/saffrontree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/saffrontree/meta.yaml>`_
+   :links: doi: :doi:`10.21105/joss.00243`
 
    
 

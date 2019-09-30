@@ -14,6 +14,7 @@ agfusion
    :homepage: https://github.com/murphycj/AGFusion
    :license: MIT / MIT
    :recipe: /`agfusion <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/agfusion>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/agfusion/meta.yaml>`_
+   :links: doi: :doi:`10.1101/080903`
 
    
 

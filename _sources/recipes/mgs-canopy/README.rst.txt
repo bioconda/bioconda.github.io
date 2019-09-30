@@ -14,6 +14,7 @@ mgs-canopy
    :homepage: https://github.com/fplaza/mgs-canopy-algorithm
    :license: GPL3
    :recipe: /`mgs-canopy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mgs-canopy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mgs-canopy/meta.yaml>`_
+   :links: doi: :doi:`10.1038/nbt.2939`
 
    
 

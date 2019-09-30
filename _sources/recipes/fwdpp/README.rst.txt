@@ -14,6 +14,7 @@ fwdpp
    :homepage: https://www.github.com/molpopgen/fwdpp
    :license: https://raw.githubusercontent.com/molpopgen/fwdpp/master/LICENSE
    :recipe: /`fwdpp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fwdpp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fwdpp/meta.yaml>`_
+   :links: doi: :doi:`10.1534/genetics.114.165019`
 
    
 

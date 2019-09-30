@@ -14,6 +14,7 @@ kronik
    :homepage: https://github.com/mhoopmann/kronik
    :license: Apache License, Version 2.0
    :recipe: /`kronik <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kronik>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kronik/meta.yaml>`_
+   :links: doi: :doi:`10.1002/0471250953.bi1318s37`
 
    
 

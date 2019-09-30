@@ -17,6 +17,7 @@ dia_umpire
    :homepage: https://github.com/Nesvilab/DIA-Umpire
    :license: Apache License, Version 2.0
    :recipe: /`dia_umpire <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dia_umpire>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dia_umpire/meta.yaml>`_
+   :links: doi: :doi:`10.1038/nmeth.3255`
 
    
 
@@ -63,6 +64,7 @@ dia_umpire
 Notes
 -----
 DIA\-Umpire is a Java program.
+
 
 
 Link to this page

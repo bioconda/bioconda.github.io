@@ -14,6 +14,7 @@ r-maldiquantforeign
    :homepage: http://strimmerlab.org/software/maldiquant/ https://github.com/sgibb/MALDIquantForeign/
    :license: GPL3 / GPL (>= 3)
    :recipe: /`r-maldiquantforeign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-maldiquantforeign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-maldiquantforeign/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/bts447`
 
    
 

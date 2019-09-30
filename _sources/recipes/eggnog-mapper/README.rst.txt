@@ -16,6 +16,7 @@ eggnog-mapper
    
    :license: GPL / GPL-2.0
    :recipe: /`eggnog-mapper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eggnog-mapper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eggnog-mapper/meta.yaml>`_
+   :links: doi: :doi:`10.1093/nar/gky1085`
 
    
 

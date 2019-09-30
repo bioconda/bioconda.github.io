@@ -14,7 +14,7 @@ bsmap
    :homepage: https://code.google.com/archive/p/bsmap/
    :license: GPL / GNU GPL v3
    :recipe: /`bsmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bsmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bsmap/meta.yaml>`_
-   :links: biotools: :biotools:`bsmap`
+   :links: biotools: :biotools:`bsmap`, doi: :doi:`10.1186/1471-2105-10-232`
 
    
 

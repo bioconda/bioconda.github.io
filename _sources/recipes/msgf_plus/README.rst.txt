@@ -14,6 +14,7 @@ msgf_plus
    :homepage: https://omics.pnl.gov/software/ms-gf
    :license: https://github.com/sangtaekim/msgfplus/blob/master/LICENSE.txt
    :recipe: /`msgf_plus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msgf_plus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msgf_plus/meta.yaml>`_
+   :links: biotools: :biotools:`MSGFplus`, doi: :doi:`10.1038/ncomms6277`
 
    
 

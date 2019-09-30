@@ -14,6 +14,7 @@ metacluster
    :homepage: http://i.cs.hku.hk/~alse/MetaCluster/
    :license: GPLv2
    :recipe: /`metacluster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metacluster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metacluster/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/bts397`
 
    MetaCluster5.1 is an unsupervised binning method that can \(1\) samples with
    low\-abundance species\, or \(2\) samples \(even with high\-abundance\) with many

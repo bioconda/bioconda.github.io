@@ -14,6 +14,7 @@ ghostx
    :homepage: http://www.bi.cs.titech.ac.jp/ghostx/
    :license: BSD-2-Clause
    :recipe: /`ghostx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghostx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghostx/meta.yaml>`_
+   :links: doi: :doi:`10.1371/journal.pone.0103833`
 
    
 

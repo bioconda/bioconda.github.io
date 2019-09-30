@@ -14,7 +14,7 @@ ssake
    :homepage: https://github.com/warrenlr/SSAKE
    :license: GPL / GPL-2.0
    :recipe: /`ssake <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ssake>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ssake/meta.yaml>`_
-   :links: biotools: :biotools:`ssake`
+   :links: biotools: :biotools:`ssake`, doi: :doi:`10.1093/bioinformatics/btl629`
 
    
 
