@@ -12,7 +12,7 @@ scrm
    A coalescent simulator for genome\-scale sequences
 
    :homepage: https://scrm.github.io/
-   :license: GNU General Public License v3 or later (GPLv3+)
+   :license: GPL / GPLv3+
    :recipe: /`scrm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scrm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scrm/meta.yaml>`_
 
    
@@ -22,9 +22,10 @@ scrm
 
    |downloads_scrm| |docker_scrm|
 
-   :versions: 1.7.3-0, 1.7.2-1, 1.7.2-0, 1.7.1-0, 1.6.1-0
+   :versions: 1.7.3-1, 1.7.3-0, 1.7.2-1, 1.7.2-0, 1.7.1-0, 1.6.1-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

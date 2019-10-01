@@ -23,7 +23,7 @@ clust
 
    |downloads_clust| |docker_clust|
 
-   :versions: 1.10.7-0, 1.8.10-0, 1.8.9-0, 1.8.7-0, 1.8.4-0
+   :versions: 1.10.8-0, 1.10.7-0, 1.8.10-0, 1.8.9-0, 1.8.7-0, 1.8.4-0
    
    :depends joblib: 
    :depends matplotlib: 

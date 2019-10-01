@@ -24,12 +24,12 @@ r-fastqcr
 
    :versions: 0.1.2-0, 0.1.0-2, 0.1.0-1, 0.1.0-0
    
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.5,<3.6.0a0
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-gridextra: 
    :depends r-magrittr: 
-   :depends r-readr: 
+   :depends r-readr: >=1.3.0
    :depends r-rmarkdown: >=1.4
    :depends r-rvest: 
    :depends r-scales: 
