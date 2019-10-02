@@ -14,6 +14,7 @@ bpipe
    :homepage: http://docs.bpipe.org/
    :license: BSD-3-clause
    :recipe: /`bpipe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bpipe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bpipe/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/bts167`, biotools: :biotools:`bpipe`
 
    
 
@@ -22,9 +23,10 @@ bpipe
 
    |downloads_bpipe| |docker_bpipe|
 
-   :versions: 0.9.9.2-0
+   :versions: 0.9.9.7-0, 0.9.9.2-0
    
-   :depends openjdk: 8.0* zulu8*
+   :depends coreutils: 
+   :depends openjdk: 
    :requirements:
 
    .. rubric:: Installation

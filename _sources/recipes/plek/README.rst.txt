@@ -23,10 +23,10 @@ plek
 
    |downloads_plek| |docker_plek|
 
-   :versions: 1.2-0
+   :versions: 1.2-1, 1.2-0
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends python: >=2.7,<2.8.0a0
    :requirements:
 

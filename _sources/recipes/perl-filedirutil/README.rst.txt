@@ -22,7 +22,7 @@ perl-filedirutil
 
    |downloads_perl-filedirutil| |docker_perl-filedirutil|
 
-   :versions: v0.03-2, v0.03-1, v0.03-0
+   :versions: v0.04-0, v0.03-2, v0.03-1, v0.03-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-moose: 
