@@ -24,7 +24,7 @@ pomoxis
 
    |downloads_pomoxis| |docker_pomoxis|
 
-   :versions: 0.2.4-0, 0.2.3-0, 0.2.2-0
+   :versions: 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0
    
    :depends aiozmq: 
    :depends bcftools: 
