@@ -67,7 +67,7 @@ The above commands do the following:
 .. note::
 
    - You can select recipes to lint/build using ``--git-range master``,
-     which which will select those recipes that have been changed
+     which will select those recipes that have been changed
      between your master and your branch. Or you can specify recipes
      directly using ``--packages mypackage1 mypackage2``.
    - The ``--docker`` flag instructs ``bioconda-utils`` to execute the
