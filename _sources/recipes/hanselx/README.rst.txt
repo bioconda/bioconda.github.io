@@ -23,7 +23,7 @@ hanselx
 
    |downloads_hanselx| |docker_hanselx|
 
-   :versions: 0.0.81-1, 0.0.81-0
+   :versions: 0.0.92-0, 0.0.81-1, 0.0.81-0
    
    :depends numpy: 
    :depends python: 

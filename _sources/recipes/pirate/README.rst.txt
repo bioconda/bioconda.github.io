@@ -12,7 +12,7 @@ pirate
    Pangenome analysis and threshold evaluation toolbox
 
    :homepage: https://github.com/SionBayliss/PIRATE
-   :license: GPL3
+   :license: GPL / GPL3
    :recipe: /`pirate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pirate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pirate/meta.yaml>`_
    :links: biotools: :biotools:`pirate`, doi: :doi:`10.1101/598391`
 
@@ -23,7 +23,7 @@ pirate
 
    |downloads_pirate| |docker_pirate|
 
-   :versions: 1.0.2-0
+   :versions: 1.0.2-1, 1.0.2-0
    
    :depends bioconductor-ggtree: >=1.14.4
    :depends blast: >=2.2.31

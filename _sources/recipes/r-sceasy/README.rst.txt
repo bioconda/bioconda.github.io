@@ -22,7 +22,7 @@ r-sceasy
 
    |downloads_r-sceasy| |docker_r-sceasy|
 
-   :versions: 0.0.3-0
+   :versions: 0.0.4-0, 0.0.3-0
    
    :depends anndata: <=0.6.19
    :depends bioconductor-loomexperiment: >=1.1.5
@@ -30,6 +30,7 @@ r-sceasy
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-reticulate: 
    :depends r-seurat: >=3.0.1
+   :depends scipy: <1.3.0
    :requirements:
 
    .. rubric:: Installation

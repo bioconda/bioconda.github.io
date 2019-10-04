@@ -14,6 +14,7 @@ nanosv
    :homepage: https://github.com/mroosmalen/nanosv
    :license: MIT / MIT License
    :recipe: /`nanosv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosv/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41467-017-01343-4`
 
    
 
@@ -22,10 +23,10 @@ nanosv
 
    |downloads_nanosv| |docker_nanosv|
 
-   :versions: 1.2.3-0, 1.2.2-0, 1.2.0-1, 1.1.2-1, 1.1.2-0, 0.0.1-0
+   :versions: 1.2.4-0, 1.2.3-0, 1.2.2-0, 1.2.0-1, 1.1.2-1, 1.1.2-0, 0.0.1-0
    
    :depends pysam: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >3
    :depends pyvcf: 
    :requirements:
 

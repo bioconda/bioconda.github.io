@@ -11,7 +11,7 @@ goalign
 
    goalign is a set of command line tools to manipulate multiple alignments
 
-   :homepage: https://github.com/fredericlemoine/goalign
+   :homepage: https://github.com/evolbioinfo/goalign
    :license: GPL-2.0
    :recipe: /`goalign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/goalign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/goalign/meta.yaml>`_
 
@@ -22,7 +22,7 @@ goalign
 
    |downloads_goalign| |docker_goalign|
 
-   :versions: 0.2.9-0, 0.2.8-1, 0.2.8-0
+   :versions: 0.3.1-0, 0.2.9-0, 0.2.8-1, 0.2.8-0
    
    :requirements:
 
