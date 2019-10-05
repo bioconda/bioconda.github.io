@@ -6,14 +6,14 @@
 menetools
 =========
 
-.. conda:recipe:: menetools/1.0.4_1
+.. conda:recipe:: menetools
    :replaces_section_title:
 
    Python 3 Metabolic Network Topology Tools
 
    :homepage: https://github.com/cfrioux/MeneTools
    :license: GPLv3+
-   :recipe: /`menetools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/menetools>`_/`1.0.4_1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/menetools/1.0.4_1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/menetools/1.0.4_1/meta.yaml>`_
+   :recipe: /`menetools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/menetools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/menetools/meta.yaml>`_
 
    
 

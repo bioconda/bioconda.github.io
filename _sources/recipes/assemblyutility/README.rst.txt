@@ -12,7 +12,7 @@ assemblyutility
    Tools for DBG2OLC genoome assembler
 
    :homepage: https://github.com/yechengxi/AssemblyUtility
-   :license: 
+   :license: MIT
    :recipe: /`assemblyutility <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assemblyutility>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assemblyutility/meta.yaml>`_
 
    

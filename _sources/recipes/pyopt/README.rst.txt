@@ -9,7 +9,7 @@ pyopt
 .. conda:recipe:: pyopt
    :replaces_section_title:
 
-   
+   a Python\-based package for formulating and solving nonlinear constrained optimization problems in an efficient\, reusable and portable manner.
 
    :homepage: http://www.pyopt.org/index.html
    :license: LGPLv3

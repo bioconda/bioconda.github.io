@@ -6,14 +6,14 @@
 multigps
 ========
 
-.. conda:recipe:: multigps/0.74
+.. conda:recipe:: multigps
    :replaces_section_title:
 
    MultiGPS is a framework for analyzing collections of multi\-condition ChIP\-seq datasets and characterizing differential binding events between conditions.
 
    :homepage: http://mahonylab.org/software/multigps/
    :license: MIT
-   :recipe: /`multigps <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multigps>`_/`0.74 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multigps/0.74>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multigps/0.74/meta.yaml>`_
+   :recipe: /`multigps <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multigps>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multigps/meta.yaml>`_
 
    
 

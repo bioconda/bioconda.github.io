@@ -22,9 +22,9 @@ wtforms-alchemy
 
    |downloads_wtforms-alchemy| |docker_wtforms-alchemy|
 
-   :versions: 0.16.8-0, 0.16.7-0, 0.15.0-1, 0.15.0-0
+   :versions: 0.16.9-0, 0.16.8-0, 0.16.7-0, 0.15.0-1, 0.15.0-0
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: 
    :depends six: >=1.4.1
    :depends sqlalchemy: >=0.8.0
    :depends sqlalchemy-utils: >=0.30.0

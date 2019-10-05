@@ -6,14 +6,14 @@
 plant_tribes_assembly_post_processor
 ====================================
 
-.. conda:recipe:: plant_tribes_assembly_post_processor/1.0.4
+.. conda:recipe:: plant_tribes_assembly_post_processor
    :replaces_section_title:
 
    Transcriptome assembly post processing pipeline
 
    :homepage: https://github.com/dePamphilis/PlantTribes
    :license: GNU General Public License v3 (GPLv3)
-   :recipe: /`plant_tribes_assembly_post_processor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_assembly_post_processor>`_/`1.0.4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_assembly_post_processor/1.0.4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_assembly_post_processor/1.0.4/meta.yaml>`_
+   :recipe: /`plant_tribes_assembly_post_processor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_assembly_post_processor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_assembly_post_processor/meta.yaml>`_
 
    
 

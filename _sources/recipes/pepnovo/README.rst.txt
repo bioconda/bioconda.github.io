@@ -12,7 +12,7 @@ pepnovo
    PepNovo serves as a high throughput de novo peptide sequencing tool for tandem mass spectrometry data
 
    :homepage: http://proteomics.ucsd.edu/Software/PepNovo/
-   :license: 
+   :license: BSD
    :recipe: /`pepnovo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pepnovo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pepnovo/meta.yaml>`_
    :links: biotools: :biotools:`pepnovo`
 

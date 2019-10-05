@@ -12,7 +12,7 @@ translatorx
    Multiple alignment of nucleotide sequences guided by amino acid information
 
    :homepage: http://pc16141.mncn.csic.es/
-   :license: None
+   :license: unknown
    :recipe: /`translatorx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/translatorx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/translatorx/meta.yaml>`_
    :links: biotools: :biotools:`translatorx`
 

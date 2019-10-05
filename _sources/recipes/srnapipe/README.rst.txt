@@ -6,14 +6,14 @@
 srnapipe
 ========
 
-.. conda:recipe:: srnapipe/1.1
+.. conda:recipe:: srnapipe
    :replaces_section_title:
 
    Pipeline for bioinformatic in\-depth exploration of small RNA\-seq data
 
    :homepage: https://github.com/GReD-Clermont/sRNAPipe-cli
    :license: Academic Free License v3.0
-   :recipe: /`srnapipe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/srnapipe>`_/`1.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/srnapipe/1.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/srnapipe/1.1/meta.yaml>`_
+   :recipe: /`srnapipe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/srnapipe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/srnapipe/meta.yaml>`_
 
    
 

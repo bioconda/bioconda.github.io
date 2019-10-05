@@ -11,7 +11,7 @@ qcli
 
    qcli
 
-   :homepage: 
+   :homepage: https://pypi.org/project/qcli/
    :license: GPL
    :recipe: /`qcli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qcli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qcli/meta.yaml>`_
 

@@ -6,14 +6,14 @@
 pyasp
 =====
 
-.. conda:recipe:: pyasp/1.4.3
+.. conda:recipe:: pyasp
    :replaces_section_title:
 
    A convenience wrapper for the ASP tools gringo\, gringo4 and clasp.
 
    :homepage: http://pypi.python.org/pypi/pyasp/
    :license: GPLv3+
-   :recipe: /`pyasp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyasp>`_/`1.4.3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyasp/1.4.3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyasp/1.4.3/meta.yaml>`_
+   :recipe: /`pyasp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyasp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyasp/meta.yaml>`_
 
    
 

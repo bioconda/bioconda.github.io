@@ -9,7 +9,7 @@ nullarbor
 .. conda:recipe:: nullarbor
    :replaces_section_title:
 
-   Pipeline to generate complete public health microbiology reports from sequenced isolates
+   Reads to report pipeline for bacterial isolate NGS data
 
    :homepage: https://github.com/tseemann/nullarbor
    :license: GPL2
@@ -22,42 +22,41 @@ nullarbor
 
    |downloads_nullarbor| |docker_nullarbor|
 
-   :versions: 2.0.20181010-5, 2.0.20181010-4, 2.0.20181010-2
+   :versions: 2.0.20191003-0, 2.0.20181010-5, 2.0.20181010-4, 2.0.20181010-2
    
-   :depends abricate: >=0.8
-   :depends bwa: >=0.7.17
+   :depends abricate: >=0.9.8
+   :depends any2fasta: >=0.4.2
    :depends centrifuge: >=1.0
-   :depends fasttree: 
-   :depends flash: >=1.2
-   :depends iqtree: >=1.6
+   :depends fasttree: >=2.1.10
+   :depends iqtree: >=1.6.12
    :depends kraken: >=1.1
    :depends kraken2: 
-   :depends lighter: >=1.1
-   :depends make: 
-   :depends mash: >=2.1
-   :depends megahit: >=1.1
-   :depends mlst: >=2.1
+   :depends make: >=4.2
+   :depends mash: >=2.2
+   :depends megahit: >=1.1.3
+   :depends mlst: >=2.17.6
    :depends newick_utils: 
    :depends perl: 
    :depends perl-file-spec: 
    :depends perl-findbin: 
+   :depends perl-json: 
+   :depends perl-list-moreutils: >=0.428
    :depends perl-path-tiny: 
+   :depends perl-svg: 
+   :depends perl-text-csv: 
+   :depends perl-time-piece: 
    :depends perl-yaml-tiny: 
    :depends pigz: 
-   :depends pilon: >=1.22
-   :depends prokka: >=1.12
-   :depends quicktree: >=2.4
-   :depends roary: >=3.0
-   :depends samclip: >=0.2
-   :depends samtools: >=1.8
+   :depends prokka: >=1.14
+   :depends roary: >=3.12
+   :depends samtools: >=1.9
    :depends seqtk: >=1.3
-   :depends shovill: >=1.0
+   :depends shovill: >=1.0.9
    :depends skesa: >=2.3
-   :depends snippy: >=4.2
+   :depends snippy: >=4.4.3
    :depends snp-dists: >=0.6
-   :depends spades: >=3.6
-   :depends trimmomatic: >=0.36
-   :depends velvet: >=1.2.10
+   :depends spades: >=3.13
+   :depends trimmomatic: >=0.39
    :requirements:
 
    .. rubric:: Installation

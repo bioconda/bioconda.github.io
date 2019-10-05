@@ -6,14 +6,14 @@
 plant_tribes_gene_family_aligner
 ================================
 
-.. conda:recipe:: plant_tribes_gene_family_aligner/1.0.2
+.. conda:recipe:: plant_tribes_gene_family_aligner
    :replaces_section_title:
 
    Gene family aligner pipeline
 
    :homepage: https://github.com/dePamphilis/PlantTribes
    :license: GNU General Public License v3 (GPLv3)
-   :recipe: /`plant_tribes_gene_family_aligner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_gene_family_aligner>`_/`1.0.2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_gene_family_aligner/1.0.2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_gene_family_aligner/1.0.2/meta.yaml>`_
+   :recipe: /`plant_tribes_gene_family_aligner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_gene_family_aligner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_gene_family_aligner/meta.yaml>`_
 
    
 

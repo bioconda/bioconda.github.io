@@ -6,14 +6,14 @@
 obitools
 ========
 
-.. conda:recipe:: obitools/1.2.10
+.. conda:recipe:: obitools
    :replaces_section_title:
 
    The OBITools package is a set of programs specifically designed for analyzing NGS data in a DNA metabarcoding context\, taking into account taxonomic information
 
    :homepage: http://metabarcoding.org/obitools
    :license: CeCILL-V2
-   :recipe: /`obitools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/obitools>`_/`1.2.10 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/obitools/1.2.10>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/obitools/1.2.10/meta.yaml>`_
+   :recipe: /`obitools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/obitools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/obitools/meta.yaml>`_
 
    
 

@@ -9,10 +9,10 @@ r-diffcorr
 .. conda:recipe:: r-diffcorr
    :replaces_section_title:
 
-   
+   A method for identifying pattern changes between 2 experimental conditions in correlation networks \(e.g.\, gene co\-expression networks\)\, which builds on a commonly used association measure\, such as Pearson\'s correlation coefficient. This package includes functions to calculate correlation matrices for high\-dimensional dataset and to test differential correlation\, which means the changes in the correlation relationship among variables \(e.g.\, genes and metabolites\) between 2 experimental conditions. 
 
-   :homepage: 
-   :license: 
+   :homepage: https://CRAN.R-project.org/package=DiffCorr
+   :license: GPL3 / GPL3
    :recipe: /`r-diffcorr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-diffcorr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-diffcorr/meta.yaml>`_
 
    

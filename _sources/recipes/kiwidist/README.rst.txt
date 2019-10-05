@@ -11,7 +11,7 @@ kiwidist
 
    Combining gene\-set analysis with network properties
 
-   :homepage: 
+   :homepage: https://pypi.org/project/KiwiDist/
    :license: MIT
    :recipe: /`kiwidist <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kiwidist>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kiwidist/meta.yaml>`_
 

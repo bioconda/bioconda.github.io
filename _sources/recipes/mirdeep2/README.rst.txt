@@ -6,14 +6,14 @@
 mirdeep2
 ========
 
-.. conda:recipe:: mirdeep2/2.0.0.8
+.. conda:recipe:: mirdeep2
    :replaces_section_title:
 
    A completely overhauled tool which discovers microRNA genes by analyzing sequenced RNAs
 
    :homepage: https://www.mdc-berlin.de/8551903/en/research/research_teams/systems_biology_of_gene_regulatory_elements/projects/miRDeep
    :license: academic
-   :recipe: /`mirdeep2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirdeep2>`_/`2.0.0.8 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirdeep2/2.0.0.8>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirdeep2/2.0.0.8/meta.yaml>`_
+   :recipe: /`mirdeep2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirdeep2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirdeep2/meta.yaml>`_
 
    
 

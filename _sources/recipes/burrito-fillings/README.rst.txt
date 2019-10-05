@@ -6,14 +6,14 @@
 burrito-fillings
 ================
 
-.. conda:recipe:: burrito-fillings/0.1.1
+.. conda:recipe:: burrito-fillings
    :replaces_section_title:
 
    burrito\-fillings\: burrito application controllers for bioinformatics
 
    :homepage: https://github.com/biocore/burrito-fillings
    :license: BSD License
-   :recipe: /`burrito-fillings <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/burrito-fillings>`_/`0.1.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/burrito-fillings/0.1.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/burrito-fillings/0.1.1/meta.yaml>`_
+   :recipe: /`burrito-fillings <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/burrito-fillings>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/burrito-fillings/meta.yaml>`_
 
    
 

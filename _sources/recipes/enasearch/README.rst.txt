@@ -6,14 +6,14 @@
 enasearch
 =========
 
-.. conda:recipe:: enasearch/0.0.6
+.. conda:recipe:: enasearch
    :replaces_section_title:
 
    A Python library for interacting with ENA\'s API
 
-   :homepage: https://github.com/bebatut/enasearch
+   :homepage: http://bebatut.fr/enasearch/
    :license: MIT / MIT License
-   :recipe: /`enasearch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enasearch>`_/`0.0.6 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enasearch/0.0.6>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enasearch/0.0.6/meta.yaml>`_
+   :recipe: /`enasearch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enasearch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enasearch/meta.yaml>`_
 
    
 

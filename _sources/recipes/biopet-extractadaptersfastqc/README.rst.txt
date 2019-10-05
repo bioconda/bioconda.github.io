@@ -20,7 +20,6 @@ biopet-extractadaptersfastqc
    The sequences can be output in plain text format with a
    newline character as a separator between the sequences.
    Alternatively the sequences can be output in FASTA format.
-
    For documentation and manuals visit our github.io page\: https\:\/\/biopet.github.io\/extractadaptersfastqc
 
 

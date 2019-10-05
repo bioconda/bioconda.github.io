@@ -6,14 +6,14 @@
 plant_tribes_kaks_analysis
 ==========================
 
-.. conda:recipe:: plant_tribes_kaks_analysis/1.0.2
+.. conda:recipe:: plant_tribes_kaks_analysis
    :replaces_section_title:
 
    KaKs Analysis pipeline
 
    :homepage: https://github.com/dePamphilis/PlantTribes
    :license: GNU General Public License v3 (GPLv3)
-   :recipe: /`plant_tribes_kaks_analysis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_kaks_analysis>`_/`1.0.2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_kaks_analysis/1.0.2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_kaks_analysis/1.0.2/meta.yaml>`_
+   :recipe: /`plant_tribes_kaks_analysis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_kaks_analysis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_kaks_analysis/meta.yaml>`_
 
    
 

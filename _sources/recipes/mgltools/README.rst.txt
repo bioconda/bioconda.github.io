@@ -12,7 +12,7 @@ mgltools
    MGLTools is an program for visualization and analisys of molecular structures.
 
    :homepage: http://mgltools.scripps.edu/
-   :license: 
+   :license: custom
    :recipe: /`mgltools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mgltools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mgltools/meta.yaml>`_
 
    
