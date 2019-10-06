@@ -22,7 +22,7 @@ plant_tribes_kaks_analysis
 
    |downloads_plant_tribes_kaks_analysis| |docker_plant_tribes_kaks_analysis|
 
-   :versions: 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.0-1, 1.0.0-0
+   :versions: 1.0.4-0, 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.0-1, 1.0.0-0
    
    :depends blast: >=2.2.29
    :depends crb-blast: 

@@ -22,12 +22,12 @@ plant_tribes_gene_family_aligner
 
    |downloads_plant_tribes_gene_family_aligner| |docker_plant_tribes_gene_family_aligner|
 
-   :versions: 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.0-1, 1.0.0-0
+   :versions: 1.0.4-0, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.0-1, 1.0.0-0
    
    :depends mafft: >=7,<8
    :depends pasta: >=1.7.8
-   :depends perl: 5.22.0*
-   :depends python: 2.7*
+   :depends perl: 
+   :depends python: <3
    :depends trimal: >=1.4,<2
    :requirements:
 
