@@ -23,12 +23,12 @@ gretel
 
    |downloads_gretel| |docker_gretel|
 
-   :versions: 0.0.92-0, 0.0.90-1, 0.0.90-0, 0.0.81-0
+   :versions: 0.0.93-1, 0.0.93-0, 0.0.92-0, 0.0.90-1, 0.0.90-0, 0.0.81-0
    
-   :depends hanselx: 
+   :depends hanselx: 0.0.92.*
    :depends numpy: 
    :depends pysam: 
-   :depends python: <3
+   :depends python: 
    :depends pyvcf: 
    :requirements:
 
