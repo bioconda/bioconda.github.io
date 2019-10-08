@@ -22,14 +22,15 @@ edd
 
    |downloads_edd| |docker_edd|
 
-   :versions: 1.1.18-1, 1.1.18-0
+   :versions: 1.1.19-0, 1.1.18-1, 1.1.18-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends logbook: 
    :depends numpy: 
    :depends pandas: 
    :depends patsy: 
    :depends pybedtools: 
-   :depends pysam: >=0.10.0
+   :depends pysam: 0.10.0.*
    :depends python: >=2.7,<2.8.0a0
    :depends python-dateutil: 
    :depends scipy: 

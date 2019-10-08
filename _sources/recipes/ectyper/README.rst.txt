@@ -9,7 +9,7 @@ ectyper
 .. conda:recipe:: ectyper
    :replaces_section_title:
 
-   ECTyper is a python program for serotyping E. coli genomes
+   ECtyper is a python program for serotyping E. coli genomes
 
    :homepage: https://github.com/phac-nml/ecoli_serotyping
    :license: Apache 2
@@ -22,18 +22,20 @@ ectyper
 
    |downloads_ectyper| |docker_ectyper|
 
-   :versions: 0.8.1-0, 0.5.4-2, 0.1-2, 0.1-0
+   :versions: 0.9.0-0, 0.8.1-0, 0.5.4-2, 0.1-2, 0.1-0
    
-   :depends bcftools: >=1.8
-   :depends biopython: >=1.7.1
-   :depends blast: >=2.7.1
-   :depends bowtie2: >=2.3.4.1
-   :depends mash: >=2.0
-   :depends pandas: >=0.23.1
+   :depends bcftools: >=1.8.*
+   :depends biopython: >=1.70.*
+   :depends blast: >=2.7.1.*
+   :depends bowtie2: >=2.3.*
+   :depends mash: >=2.0.*
+   :depends pandas: >=0.23.1.*
+   :depends portalocker: >=1.5.*
    :depends pytest: >=3.5
    :depends python: >=3.5
-   :depends samtools: >=1.8
-   :depends seqtk: >=1.2
+   :depends requests: >=2.*.*
+   :depends samtools: >=1.8.*
+   :depends seqtk: >=1.2.*
    :requirements:
 
    .. rubric:: Installation

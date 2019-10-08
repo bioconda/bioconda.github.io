@@ -22,7 +22,7 @@ mapdamage2
 
    |downloads_mapdamage2| |docker_mapdamage2|
 
-   :versions: 2.1.0-0, 2.0.9-0, 2.0.8-0, 2.0.6-2, 2.0.6-1, 2.0.6-0
+   :versions: 2.1.1-0, 2.1.0-0, 2.0.9-0, 2.0.8-0, 2.0.6-2, 2.0.6-1, 2.0.6-0
    
    :depends pysam: 
    :depends python: >=3.5

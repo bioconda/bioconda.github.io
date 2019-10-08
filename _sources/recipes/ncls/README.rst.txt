@@ -22,7 +22,7 @@ ncls
 
    |downloads_ncls| |docker_ncls|
 
-   :versions: 0.0.44-0, 0.0.43-0, 0.0.42-3, 0.0.42-2, 0.0.42-1, 0.0.42-0
+   :versions: 0.0.45-0, 0.0.44-0, 0.0.43-0, 0.0.42-3, 0.0.42-2, 0.0.42-1, 0.0.42-0
    
    :depends libgcc-ng: >=7.3.0
    :depends numpy: 

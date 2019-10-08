@@ -23,15 +23,14 @@ blobtools
 
    |downloads_blobtools| |docker_blobtools|
 
-   :versions: 1.0.1-3, 1.0.1-2, 1.0.1-1, 1.0.1-0
+   :versions: 1.1.1-0, 1.0.1-3, 1.0.1-2, 1.0.1-1, 1.0.1-0
    
-   :depends curl: >=7.60.0,<8.0a0
    :depends docopt: 
    :depends matplotlib: 
-   :depends openssl: >=1.0.2o,<1.0.3a
-   :depends python: >=2.7,<2.8.0a0
-   :depends samtools: 
-   :depends ujson: 
+   :depends pysam: 
+   :depends python: >=3
+   :depends pyyaml: >=4.2b1
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation
