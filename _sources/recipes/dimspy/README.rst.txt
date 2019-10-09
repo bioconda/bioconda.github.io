@@ -12,7 +12,7 @@ dimspy
    Python package for data processing of direct\-infusion mass spectrometry\-based metabolomics and lipidomics data
 
    :homepage: https://github.com/computational-metabolomics/dimspy
-   :license: GPL3 / GPLv3
+   :license: GPL3 / GNU General Public v3 (GPLv3)
    :recipe: /`dimspy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dimspy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dimspy/meta.yaml>`_
 
    
@@ -22,15 +22,17 @@ dimspy
 
    |downloads_dimspy| |docker_dimspy|
 
-   :versions: 1.3.0-0, 1.2.0-1, 1.2.0-0, 1.1.0-0, 1.0.0-0
+   :versions: 1.4.0-0, 1.3.0-0, 1.2.0-1, 1.2.0-0, 1.1.0-0, 1.0.0-0
    
-   :depends fastcluster: 
-   :depends h5py: 
-   :depends numpy: 
-   :depends pymzml: <=2.0.0
-   :depends python: >=2.7,<2.8.0a0
-   :depends pythonnet: 
-   :depends scipy: 
+   :depends fastcluster: 1.1.23
+   :depends h5py: 2.7.0
+   :depends mono: 4.8.1.0
+   :depends numpy: 1.13.3
+   :depends plotly: 2.5.1
+   :depends pymzml: 0.7.10
+   :depends python: <3
+   :depends pythonnet: 2.4.0
+   :depends scipy: 1.1.0
    :requirements:
 
    .. rubric:: Installation

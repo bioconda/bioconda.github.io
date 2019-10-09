@@ -22,14 +22,15 @@ scprep
 
    |downloads_scprep| |docker_scprep|
 
-   :versions: 0.12.2-0, 0.12.1-0, 0.12.0-0, 0.8.1-0, 0.7.1-0
+   :versions: 1.0.0-0, 0.12.2-0, 0.12.1-0, 0.12.0-0, 0.8.1-0, 0.7.1-0
    
    :depends decorator: >=4.3.0
-   :depends numpy: >=1.10.0
-   :depends pandas: >=0.19.0,<0.24
+   :depends numpy: >=1.12.0
+   :depends pandas: >=0.25
    :depends python: >=3.5
+   :depends requests: 
    :depends scikit-learn: >=0.19.1
-   :depends scipy: >=0.18.0
+   :depends scipy: >=0.18.1
    :requirements:
 
    .. rubric:: Installation

@@ -23,7 +23,7 @@ find_differential_primers
 
    |downloads_find_differential_primers| |docker_find_differential_primers|
 
-   :versions: 0.1.3-3, 0.1.3-2, 0.1.3-1, 0.1.3-0, 0.1.3.p1-0
+   :versions: 0.1.4-0, 0.1.3-3, 0.1.3-2, 0.1.3-1, 0.1.3-0, 0.1.3.p1-0
    
    :depends biopython: 
    :depends blast: 
@@ -31,7 +31,7 @@ find_differential_primers
    :depends emboss: 
    :depends primer3: <=1.1.4
    :depends prodigal: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

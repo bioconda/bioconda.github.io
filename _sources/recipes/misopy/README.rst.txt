@@ -22,10 +22,10 @@ misopy
 
    |downloads_misopy| |docker_misopy|
 
-   :versions: 0.5.4-1, 0.5.4-0
+   :versions: 0.5.4-2, 0.5.4-1, 0.5.4-0
    
    :depends bedtools: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    :depends matplotlib: 
    :depends numpy: >=1.5.0
    :depends pysam: >=0.6.0

@@ -23,7 +23,7 @@ phyluce
 
    |downloads_phyluce| |docker_phyluce|
 
-   :versions: 1.6.7-0, 1.6.6-0, 1.6.5-0, 1.6.4-0, 1.6.3-2, 1.6.3-1, 1.6.3-0, 1.6.2-0
+   :versions: 1.6.8-0, 1.6.7-0, 1.6.6-0, 1.6.5-0, 1.6.4-0, 1.6.3-2, 1.6.3-1, 1.6.3-0, 1.6.2-0
    
    :depends abyss: 1.5.*
    :depends bcftools: 
@@ -43,7 +43,7 @@ phyluce
    :depends pandas: 
    :depends picard: 
    :depends pysam: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends pyvcf: 
    :depends raxml: 
    :depends samtools: 

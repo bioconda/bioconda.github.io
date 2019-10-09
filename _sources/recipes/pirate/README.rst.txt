@@ -23,7 +23,7 @@ pirate
 
    |downloads_pirate| |docker_pirate|
 
-   :versions: 1.0.2-1, 1.0.2-0
+   :versions: 1.0.3-0, 1.0.2-1, 1.0.2-0
    
    :depends bioconductor-ggtree: >=1.14.4
    :depends blast: >=2.2.31

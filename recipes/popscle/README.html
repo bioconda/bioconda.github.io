@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;ncbi-amr&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;popscle&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -98,39 +98,40 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="ncbi-amr">
+  <div class="section" id="popscle">
 <dl class="recipe">
-<dt id="recipe-ncbi-amr">
-<em class="property">recipe </em><code class="sig-name descname">ncbi-amr</code><a class="headerlink" href="#recipe-ncbi-amr" title="Permalink to this definition">¶</a></dt>
-<dd><p>AMRFinder find acquired antimicrobial resistance genes in protein or nucleotide sequences.</p>
+<dt id="recipe-popscle">
+<em class="property">recipe </em><code class="sig-name descname">popscle</code><a class="headerlink" href="#recipe-popscle" title="Permalink to this definition">¶</a></dt>
+<dd><p>A suite of population scale analysis tools for single-cell genomics data including implementation of Demuxlet / Freemuxlet methods and auxilary tools</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/ncbi/amr/wiki">https://github.com/ncbi/amr/wiki</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/statgen/popscle">https://github.com/statgen/popscle</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>Public Domain</p>
+<dd class="field-even"><p>MIT</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncbi-amr">ncbi-amr</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncbi-amr/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/popscle">popscle</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/popscle/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-ncbi-amr">
-<em class="property">package </em><code class="sig-name descname">ncbi-amr</code><a class="headerlink" href="#package-ncbi-amr" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/ncbi-amr"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/ncbi-amr.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/ncbi-amr"><img alt="docker_ncbi-amr" src="https://quay.io/repository/biocontainers/ncbi-amr/status" /></a></p>
+<dt id="package-popscle">
+<em class="property">package </em><code class="sig-name descname">popscle</code><a class="headerlink" href="#package-popscle" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/popscle"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/popscle.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/popscle"><img alt="docker_popscle" src="https://quay.io/repository/biocontainers/popscle/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>1.04-0</p>
+<dd class="field-odd"><p>0.1beta-0</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../blast/README.html#package-blast" title="blast package"><strong>blast</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../hmmer/README.html#package-hmmer" title="hmmer package"><strong>hmmer</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/bzip2-feedstock"><strong>bzip2</strong></a> &gt;=1.0.8,&lt;2.0a0</p></li>
+<li><p><a class="conda-package reference internal" href="../htslib/README.html#package-htslib" title="htslib package"><strong>htslib</strong></a> &gt;=1.9,&lt;1.10.0a0</p></li>
 <li><p><strong>libgcc-ng</strong> &gt;=7.3.0</p></li>
 <li><p><strong>libstdcxx-ng</strong> &gt;=7.3.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/zlib-feedstock"><strong>zlib</strong></a> &gt;=1.2.11,&lt;1.3.0a0</p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
@@ -140,24 +141,24 @@
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">ncbi</span><span class="o">-</span><span class="n">amr</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">popscle</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">ncbi</span><span class="o">-</span><span class="n">amr</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">popscle</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">ncbi</span><span class="o">-</span><span class="n">amr</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">popscle</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/ncbi-amr?tab=tags">ncbi-amr/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/popscle?tab=tags">popscle/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/ncbi-amr/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ncbi-amr/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/popscle/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/popscle/README.html)
 </pre></div>
 </div>
 </div>
@@ -178,14 +179,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/ncbi-amr/README.rst.txt"
+      <a href="../../_sources/recipes/popscle/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/ncbi-amr/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/popscle/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>
