@@ -9,11 +9,15 @@ pybel
 .. conda:recipe:: pybel
    :replaces_section_title:
 
-   PyBEL is a Python package for parsing and handling biological networks encoded in the Biological Expression Language \(BEL\)
+   PyBEL is a Python package for parsing and handling biological networks encoded in the Biological Expression Language \(BEL\).
 
-   :homepage: https://github.com/pybel/pybel
-   :license: Apache Software License
+   :homepage: https://pybel.readthedocs.io
+   :documentation: https://pybel.readthedocs.io/en/latest/
+   
+   :developer docs: https://github.com/pybel/pybel
+   :license: APACHE / Apache-2.0
    :recipe: /`pybel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybel/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btx660`
 
    
 

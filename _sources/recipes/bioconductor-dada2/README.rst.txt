@@ -23,7 +23,7 @@ bioconductor-dada2
 
    |downloads_bioconductor-dada2| |docker_bioconductor-dada2|
 
-   :versions: 1.12.1-0, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.4-0, 1.4.0-0, 1.2-0, 1.0.3-0, 0.99.10-0, 0.10.4-0, 0.10.3-0, 0.10.1-0, 0.10.0-0
+   :versions: 1.12.1-0, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.4-0, 1.2-0, 1.0.3-0, 0.99.10-0, 0.10.4-0, 0.10.3-0, 0.10.1-0, 0.10.0-0
    
    :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
    :depends bioconductor-biostrings: >=2.52.0,<2.53.0

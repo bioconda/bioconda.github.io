@@ -169,10 +169,13 @@
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bioconductor_skeleton.latest_bioconductor_release_version" title="bioconda_utils.bioconductor_skeleton.latest_bioconductor_release_version"><code class="xref py py-obj docutils literal notranslate"><span class="pre">latest_bioconductor_release_version</span></code></a>()</p></td>
 <td><p>Latest Bioconductor release version.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bioconductor_skeleton.write_recipe" title="bioconda_utils.bioconductor_skeleton.write_recipe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">write_recipe</span></code></a>(package, recipe_dir, config[, …])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bioconductor_skeleton.packagesNeedingX" title="bioconda_utils.bioconductor_skeleton.packagesNeedingX"><code class="xref py py-obj docutils literal notranslate"><span class="pre">packagesNeedingX</span></code></a>(packages)</p></td>
+<td><p>Return a set of all packages needing X.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bioconductor_skeleton.write_recipe" title="bioconda_utils.bioconductor_skeleton.write_recipe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">write_recipe</span></code></a>(package, recipe_dir, config[, …])</p></td>
 <td><p>Write the meta.yaml and build.sh files.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bioconductor_skeleton.write_recipe_recursive" title="bioconda_utils.bioconductor_skeleton.write_recipe_recursive"><code class="xref py py-obj docutils literal notranslate"><span class="pre">write_recipe_recursive</span></code></a>(proj, …)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bioconductor_skeleton.write_recipe_recursive" title="bioconda_utils.bioconductor_skeleton.write_recipe_recursive"><code class="xref py py-obj docutils literal notranslate"><span class="pre">write_recipe_recursive</span></code></a>(proj, …)</p></td>
 <td><p><dl class="field-list simple">
 <dt class="field-odd">param proj</dt>
 <dd class="field-odd"><p></p></dd>
@@ -352,8 +355,14 @@ and returns the latest.</p>
 </dd></dl>
 
 <dl class="function">
+<dt id="bioconda_utils.bioconductor_skeleton.packagesNeedingX">
+<code class="sig-prename descclassname">bioconda_utils.bioconductor_skeleton.</code><code class="sig-name descname">packagesNeedingX</code><span class="sig-paren">(</span><em class="sig-param">packages</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bioconductor_skeleton.html#packagesNeedingX"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bioconductor_skeleton.packagesNeedingX" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a set of all packages needing X. Packages needing X are defines as those that directly or indirectly require rgl.</p>
+</dd></dl>
+
+<dl class="function">
 <dt id="bioconda_utils.bioconductor_skeleton.write_recipe">
-<code class="sig-prename descclassname">bioconda_utils.bioconductor_skeleton.</code><code class="sig-name descname">write_recipe</code><span class="sig-paren">(</span><em class="sig-param">package</em>, <em class="sig-param">recipe_dir</em>, <em class="sig-param">config</em>, <em class="sig-param">force=False</em>, <em class="sig-param">bioc_version=None</em>, <em class="sig-param">pkg_version=None</em>, <em class="sig-param">versioned=False</em>, <em class="sig-param">recursive=False</em>, <em class="sig-param">seen_dependencies=None</em>, <em class="sig-param">packages=None</em>, <em class="sig-param">skip_if_in_channels=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bioconductor_skeleton.html#write_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bioconductor_skeleton.write_recipe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.bioconductor_skeleton.</code><code class="sig-name descname">write_recipe</code><span class="sig-paren">(</span><em class="sig-param">package</em>, <em class="sig-param">recipe_dir</em>, <em class="sig-param">config</em>, <em class="sig-param">force=False</em>, <em class="sig-param">bioc_version=None</em>, <em class="sig-param">pkg_version=None</em>, <em class="sig-param">versioned=False</em>, <em class="sig-param">recursive=False</em>, <em class="sig-param">seen_dependencies=None</em>, <em class="sig-param">packages=None</em>, <em class="sig-param">skip_if_in_channels=None</em>, <em class="sig-param">needs_x=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bioconductor_skeleton.html#write_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bioconductor_skeleton.write_recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write the meta.yaml and build.sh files. If the package is detected to be
 a data package (bsed on the detected URL from Bioconductor), then also
 create a post-link.sh and pre-unlink.sh script that will download and
@@ -377,6 +386,8 @@ this function. Used internally when <code class="docutils literal notranslate"><
 given bioconductor release and their versions.</p></li>
 <li><p><strong>skip_if_in_channels</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.7)"><em>list</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><em>None</em></a>) – List of channels whose existing packages will be automatically added to
 <strong>seen_dependencies</strong>. Only has an effect if <code class="docutils literal notranslate"><span class="pre">recursive=True</span></code>.</p></li>
+<li><p><strong>needs_x</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><em>None</em></a>) – If None, we need to determine if this requires X and therefore additional
+build dependencies and test environment variables.</p></li>
 </ul>
 </dd>
 </dl>

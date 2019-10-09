@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;jellyfish&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;kmer-jellyfish&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -98,10 +98,10 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="jellyfish">
+  <div class="section" id="kmer-jellyfish">
 <dl class="recipe">
-<dt id="recipe-jellyfish">
-<em class="property">recipe </em><code class="sig-name descname">jellyfish</code><a class="headerlink" href="#recipe-jellyfish" title="Permalink to this definition">¶</a></dt>
+<dt id="recipe-kmer-jellyfish">
+<em class="property">recipe </em><code class="sig-name descname">kmer-jellyfish</code><a class="headerlink" href="#recipe-kmer-jellyfish" title="Permalink to this definition">¶</a></dt>
 <dd><p>Jellyfish is a tool for fast, memory-efficient counting of k-mers in DNA. A k-mer is a substring of length k, and counting the occurrences of all such substrings is a central step in many analyses of DNA sequence</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -114,72 +114,53 @@
 <dd class="field-odd"><p>GPL / GPL-3.0</p>
 </dd>
 <dt class="field-even">Recipe</dt>
-<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jellyfish">jellyfish</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jellyfish/meta.yaml">meta.yaml</a></p>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmer-jellyfish">kmer-jellyfish</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmer-jellyfish/meta.yaml">meta.yaml</a></p>
 </dd>
 <dt class="field-odd">Links</dt>
-<dd class="field-odd"><p>biotools: <a class="reference external" href="https://bio.tools/jellyfish">jellyfish</a></p>
+<dd class="field-odd"><p>biotools: <a class="reference external" href="https://bio.tools/jellyfish">jellyfish</a>, doi: <a class="reference external" href="https://doi.org/10.1093/bioinformatics/btr011">10.1093/bioinformatics/btr011</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-jellyfish">
-<em class="property">package </em><code class="sig-name descname">jellyfish</code><a class="headerlink" href="#package-jellyfish" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/jellyfish"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/jellyfish.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/jellyfish"><img alt="docker_jellyfish" src="https://quay.io/repository/biocontainers/jellyfish/status" /></a></p>
+<dt id="package-kmer-jellyfish">
+<em class="property">package </em><code class="sig-name descname">kmer-jellyfish</code><a class="headerlink" href="#package-kmer-jellyfish" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/kmer-jellyfish"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/kmer-jellyfish.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/kmer-jellyfish"><img alt="docker_kmer-jellyfish" src="https://quay.io/repository/biocontainers/kmer-jellyfish/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>2.2.10-1, 2.2.10-0, 2.2.6-0, 2.2.3-3, 2.2.3-2, 2.2.3-1, 2.2.3-0, 1.1.12-1, 1.1.12-0, 1.1.11-1, 1.1.11-0</p>
+<dd class="field-odd"><p>2.3.0-0, 1.1.12-0</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/jemalloc-feedstock"><strong>jemalloc</strong></a></p></li>
 <li><p><strong>libgcc-ng</strong> &gt;=7.3.0</p></li>
 <li><p><strong>libstdcxx-ng</strong> &gt;=7.3.0</p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../krakenuniq/README.html#krakenuniq"><strong class="xref backref">krakenuniq</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../super-focus/README.html#super-focus"><strong class="xref backref">super-focus</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../amos/README.html#amos"><strong class="xref backref">amos</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../kraken/README.html#kraken"><strong class="xref backref">kraken</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../quake/README.html#quake"><strong class="xref backref">quake</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../quorum/README.html#quorum"><strong class="xref backref">quorum</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../skmer/README.html#skmer"><strong class="xref backref">skmer</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../wgs-assembler/README.html#wgs-assembler"><strong class="xref backref">wgs-assembler</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../rcorrector/README.html#rcorrector"><strong class="xref backref">rcorrector</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../intemap/README.html#intemap"><strong class="xref backref">intemap</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../rop/README.html#rop"><strong class="xref backref">rop</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../chorus2/README.html#chorus2"><strong class="xref backref">chorus2</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../shannon/README.html#shannon"><strong class="xref backref">shannon</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../trinity/README.html#trinity"><strong class="xref backref">trinity</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../kraken-ea/README.html#kraken-ea"><strong class="xref backref">kraken-ea</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../livekraken/README.html#livekraken"><strong class="xref backref">livekraken</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../focus/README.html#focus"><strong class="xref backref">focus</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../howdesbt/README.html#howdesbt"><strong class="xref backref">howdesbt</strong></a></p></li>
 </ul>
 </dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">jellyfish</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">kmer</span><span class="o">-</span><span class="n">jellyfish</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">jellyfish</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">kmer</span><span class="o">-</span><span class="n">jellyfish</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">jellyfish</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">kmer</span><span class="o">-</span><span class="n">jellyfish</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/jellyfish?tab=tags">jellyfish/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/kmer-jellyfish?tab=tags">kmer-jellyfish/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/jellyfish/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/jellyfish/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/kmer-jellyfish/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/kmer-jellyfish/README.html)
 </pre></div>
 </div>
 </div>
@@ -200,14 +181,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/jellyfish/README.rst.txt"
+      <a href="../../_sources/recipes/kmer-jellyfish/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/jellyfish/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/kmer-jellyfish/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

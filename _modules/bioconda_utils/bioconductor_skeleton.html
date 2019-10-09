@@ -117,6 +117,8 @@
 <span class="kn">import</span> <span class="nn">pyaml</span>
 <span class="kn">import</span> <span class="nn">requests</span>
 <span class="kn">import</span> <span class="nn">yaml</span>
+<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+<span class="kn">import</span> <span class="nn">itertools</span>
 
 <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">utils</span>
 <span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">cran_skeleton</span>
@@ -136,6 +138,87 @@
 <span class="n">BASE_R_PACKAGES</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;base&quot;</span><span class="p">,</span> <span class="s2">&quot;compiler&quot;</span><span class="p">,</span> <span class="s2">&quot;datasets&quot;</span><span class="p">,</span> <span class="s2">&quot;graphics&quot;</span><span class="p">,</span> <span class="s2">&quot;grDevices&quot;</span><span class="p">,</span>
                    <span class="s2">&quot;grid&quot;</span><span class="p">,</span> <span class="s2">&quot;methods&quot;</span><span class="p">,</span> <span class="s2">&quot;parallel&quot;</span><span class="p">,</span> <span class="s2">&quot;splines&quot;</span><span class="p">,</span> <span class="s2">&quot;stats&quot;</span><span class="p">,</span> <span class="s2">&quot;stats4&quot;</span><span class="p">,</span>
                    <span class="s2">&quot;tcltk&quot;</span><span class="p">,</span> <span class="s2">&quot;tools&quot;</span><span class="p">,</span> <span class="s2">&quot;utils&quot;</span><span class="p">]</span>
+
+<span class="c1"># These CRAN packages directly or indirectly depend on X, requiring specialized</span>
+<span class="c1"># build and test-time requirements as well as the extended container.</span>
+<span class="c1"># These can be found here: https://github.com/search?p=2&amp;q=cdt%28%27mesa-libgl-devel%27%29+user%3Aconda-forge+r-base&amp;type=Code</span>
+<span class="c1"># and here: https://github.com/search?l=YAML&amp;q=r-rgl+user%3Aconda-forge&amp;type=Code</span>
+<span class="n">CRAN_X_PACKAGES</span> <span class="o">=</span> <span class="nb">set</span><span class="p">([</span><span class="s2">&quot;rgl&quot;</span><span class="p">,</span> <span class="s2">&quot;tsdist&quot;</span><span class="p">,</span> <span class="s2">&quot;tsclust&quot;</span><span class="p">,</span> <span class="s2">&quot;plot3drgl&quot;</span><span class="p">,</span> <span class="s2">&quot;pals&quot;</span><span class="p">,</span> <span class="s2">&quot;longitudinaldata&quot;</span><span class="p">,</span>
+                       <span class="s2">&quot;bpca&quot;</span><span class="p">,</span> <span class="s2">&quot;bcrocsurface&quot;</span><span class="p">,</span> <span class="s2">&quot;feature&quot;</span><span class="p">,</span> <span class="s2">&quot;pca3d&quot;</span><span class="p">,</span> <span class="s2">&quot;forestfloor&quot;</span><span class="p">,</span> <span class="s2">&quot;oceanview&quot;</span><span class="p">,</span>
+                       <span class="s2">&quot;clustersim&quot;</span><span class="p">,</span> <span class="s2">&quot;hiver&quot;</span><span class="p">,</span> <span class="s2">&quot;lidr&quot;</span><span class="p">,</span> <span class="s2">&quot;mixomics&quot;</span><span class="p">,</span> <span class="s2">&quot;snpls&quot;</span><span class="p">,</span> <span class="s2">&quot;matlib&quot;</span><span class="p">,</span> <span class="s2">&quot;qpcr&quot;</span><span class="p">])</span>
+
+<span class="c1"># This maps items in a package&#39;s SystemRequirement to conda packages</span>
+<span class="c1"># There can be multiple resulting packages, all of which should then</span>
+<span class="c1"># be included in recipes</span>
+<span class="n">SysReqs</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;and egrep are required for some functionalities&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;grep&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;BLAS&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;openblas&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;bowtie&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;bowtie2&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;bowtie and samtools are required for some functionalities&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;bowtie2&#39;</span><span class="p">,</span> <span class="s1">&#39;samtools&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;clustalo&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;clustalo&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;cwltool (&gt;= 1.0.2018)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;cwltool &gt;=1.0.2018&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;Cytoscape (&gt;= 3.3.0)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;cytoscape &gt;=3.3.0&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;Cytoscape (&gt;= 3.6.1) (if used for visualization of results&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;cytoscape &gt;=3.6.1&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;Cytoscape (&gt;= 3.7.1)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;cytoscape &gt;=3.7.1&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;Ensembl VEP (API version 96) and the Perl modules DBI and DBD::mysql must be installed. See the package README and Ensembl installation instructions: http://www.ensembl.org/info/docs/tools/vep/script/vep_download.html#installer&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;ensembl-vep&#39;</span><span class="p">,</span> <span class="s1">&#39;perl-dbd-mysql&#39;</span><span class="p">,</span> <span class="s1">&#39;perl-dbi&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;GEOS (&gt;= 3.2.0);for building from source: GEOS from http://trac.osgeo.org/geos/; GEOS OSX frameworks built by William Kyngesburye at http://www.kyngchaos.com/ may be used for source installs on OSX.&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;geos &gt;=3.2.0&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;GLPK (&gt;= 4.42)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;glpk &gt;=4.42&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;GNU Scientific Library &gt;= 1.6 (http://www.gnu.org/software/gsl/)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;gsl &gt;=4.42&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;graphviz&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;graphviz&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;Graphviz version &gt;= 2.2&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;graphviz &gt;=2.2&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;gs&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;ghostscript&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;gsl&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;gsl&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;GSL and OpenMP&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;gsl&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;GSL (GNU Scientific Library)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;gsl&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;gsl. Note: users should have GSL installed. Windows users: </span><span class="se">\&#39;</span><span class="s1">consult the README file available in the inst directory of the source distribution for necessary configuration instructions</span><span class="se">\&#39;</span><span class="s1">.&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;gsl&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;h5py&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;h5py&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;HMMER3&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;hmmer &gt;=3&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;ImageMagick&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;imagemagick&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;JAGS 4.x.y&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;jags 4.*.*&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;Java&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;openjdk&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;Java (&gt;= 1.5)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;openjdk&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;Java (&gt;= 1.6)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;openjdk&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;Java (&gt;= 1.7)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;openjdk&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;Java (&gt;= 1.8)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;openjdk&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;Java (&gt;= 8)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;openjdk&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;Java Runtime Environment (&gt;= 6)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;openjdk&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;Java version &gt;= 1.6&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;openjdk&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;Java version &gt;= 1.7&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;openjdk&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;jQuery&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;jquery&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;jQueryUI&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;jquery-ui&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;libsbml (==5.10.2)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;libsbml 5.10.2&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;libSBML (&gt;= 5.5)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;libsbml &gt;=5.5&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;libxml2&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;libxml2&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;MAFFT (&gt;= 7.305)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;mafft &gt;=7.305&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;mofapy&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;mofapy&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;Netpbm&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;netpbm&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;nodejs&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;nodejs&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;numpy&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;numpy&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;OpenBabel&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;openbabel&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;OpenBabel (&gt;= 2.3.1) with headers (http://openbabel.org).&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;openbabel &gt;=2.3.1&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;pandas&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;pandas&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;Pandoc&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;pandoc&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;pandoc (&gt;= 1.12.3)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;pandoc &gt;=1.12.3&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;Pandoc (&gt;= 1.12.3)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;pandoc &gt;=1.12.3&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;pandoc (&gt;= 1.19.2.1)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;pandoc &gt;=1.19.2.1&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;pandoc (http://pandoc.org/installing.html) for generating reports from markdown files.&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;pandoc&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;perl&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;perl &gt;=5.6.0&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;Perl&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;perl &gt;=5.6.0&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;Perl (&gt;= 5.6.0)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;perl &gt;=5.6.0&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;python (&gt;= 2.7)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;python &gt;=2.7&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;Python (&gt;=2.7.0)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;python &gt;=2.7&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;python (&lt; 3.7)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;python &lt;3.7&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;root_v5.34.36 &lt;http://root.cern.ch&gt; - See README file for installation instructions.&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;root5 5.34.36&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;rTANDEM uses expat and pthread libraries. See the README file for details.&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;expat&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;samtools&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;samtools&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;scipy&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;scipiy&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;sklearn&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;scikit-learn&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;STAR&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;star&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;tensorflow&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;tensorflow&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;To generate html reports pandoc (http://pandoc.org/installing.html) is required.&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;pandoc&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;TopHat&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;tophat2&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;ViennaRNA (&gt;= 2.4.1)&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;viennarna &gt;=2.4.1&#39;</span><span class="p">],</span>
+           <span class="s1">&#39;xml2&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;libxml2&#39;</span><span class="p">]}</span>
+
 
 <span class="n">HERE</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="vm">__file__</span><span class="p">))</span>
 
@@ -362,6 +445,31 @@
     <span class="k">return</span> <span class="n">d</span></div>
 
 
+<div class="viewcode-block" id="packagesNeedingX"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.packagesNeedingX">[docs]</a><span class="k">def</span> <span class="nf">packagesNeedingX</span><span class="p">(</span><span class="n">packages</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Return a set of all packages needing X. Packages needing X are defines as those that directly or indirectly require rgl.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">depTree</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">DiGraph</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">p</span><span class="p">,</span> <span class="n">meta</span> <span class="ow">in</span> <span class="n">packages</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="n">p</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">p</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">depTree</span><span class="p">:</span>
+            <span class="n">depTree</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">field</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;Imports&quot;</span><span class="p">,</span> <span class="s2">&quot;Depends&quot;</span><span class="p">,</span> <span class="s2">&quot;LinkingTo&quot;</span><span class="p">]:</span>
+            <span class="k">if</span> <span class="n">field</span> <span class="ow">in</span> <span class="n">meta</span><span class="p">:</span>
+                <span class="k">for</span> <span class="n">dep</span> <span class="ow">in</span> <span class="n">meta</span><span class="p">[</span><span class="n">field</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;,&quot;</span><span class="p">):</span>
+                    <span class="c1"># This is a simplified form for BioCProjectPage._parse_dependencies</span>
+                    <span class="n">dep</span> <span class="o">=</span> <span class="n">dep</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;(&quot;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+                    <span class="k">if</span> <span class="n">dep</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">depTree</span><span class="p">:</span>
+                        <span class="n">depTree</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="n">dep</span><span class="p">)</span>
+                    <span class="n">depTree</span><span class="o">.</span><span class="n">add_edge</span><span class="p">(</span><span class="n">dep</span><span class="p">,</span> <span class="n">p</span><span class="p">)</span>
+    <span class="n">Xset</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">cxp</span> <span class="ow">in</span> <span class="n">CRAN_X_PACKAGES</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">cxp</span> <span class="ow">in</span> <span class="n">depTree</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">xp</span> <span class="ow">in</span> <span class="n">itertools</span><span class="o">.</span><span class="n">chain</span><span class="p">(</span><span class="o">*</span><span class="n">nx</span><span class="o">.</span><span class="n">dfs_successors</span><span class="p">(</span><span class="n">depTree</span><span class="p">,</span> <span class="n">cxp</span><span class="p">)</span><span class="o">.</span><span class="n">values</span><span class="p">()):</span>
+                <span class="n">Xset</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">xp</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">Xset</span></div>
+
+
 <span class="k">class</span> <span class="nc">BioCProjectPage</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">package</span><span class="p">,</span> <span class="n">bioc_version</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">pkg_version</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">packages</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
@@ -388,6 +496,7 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">package_lower</span> <span class="o">=</span> <span class="n">package</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">version</span> <span class="o">=</span> <span class="n">pkg_version</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">extra</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">needsX</span> <span class="o">=</span> <span class="kc">False</span>
 
         <span class="c1"># If no version specified, assume the latest</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">bioc_version</span><span class="p">:</span>
@@ -528,6 +637,13 @@
         <span class="k">return</span> <span class="n">fn</span>
 
     <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">title</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        The Title section fromt he VIEW file</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;Title&#39;</span><span class="p">]</span>
+
+    <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">description</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        The &quot;Description&quot; from the VIEW file</span>
@@ -537,6 +653,41 @@
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">license</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;License&#39;</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">license_file_location</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        R ships with a number of license files that we can simply refer to.</span>
+
+<span class="sd">        This supports: AGPL-3, Artistic-2.0, GPL-2, GPL-3, LGPL-2, LGPL-2.1, LGPL-3</span>
+
+<span class="sd">        MIT, and 2/3 clause BSD licenses are provided as well, but those are just templates.</span>
+
+<span class="sd">        Anything with GPL/LGPL in the name that doesn&#39;t otherwise match a lower version is assigned</span>
+<span class="sd">        GPL-3/LGPL-3</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">license</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">license</span>
+        <span class="k">if</span> <span class="s2">&quot;LICENSE&quot;</span> <span class="ow">in</span> <span class="n">license</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s2">&quot;LICENSE&quot;</span>
+
+        <span class="n">licenses</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;GPL-2&#39;</span><span class="p">:</span> <span class="s1">&#39;{{ environ[&quot;PREFIX&quot;] }}/lib/R/share/licenses/GPL-2&#39;</span><span class="p">,</span>
+                    <span class="s1">&#39;GPL (== 2)&#39;</span><span class="p">:</span> <span class="s1">&#39;{{ environ[&quot;PREFIX&quot;] }}/lib/R/share/licenses/GPL-2&#39;</span><span class="p">,</span>
+                    <span class="s1">&#39;GPL (==2)&#39;</span><span class="p">:</span> <span class="s1">&#39;{{ environ[&quot;PREFIX&quot;] }}/lib/R/share/licenses/GPL-2&#39;</span><span class="p">,</span>
+                    <span class="s1">&#39;GPL version 2&#39;</span><span class="p">:</span> <span class="s1">&#39;{{ environ[&quot;PREFIX&quot;] }}/lib/R/share/licenses/GPL-2&#39;</span><span class="p">,</span>
+                    <span class="s1">&#39;AGPL-3&#39;</span><span class="p">:</span> <span class="s1">&#39;{{ environ[&quot;PREFIX&quot;] }}/lib/R/share/licenses/AGPL-3&#39;</span><span class="p">,</span>
+                    <span class="s1">&#39;Artisitic-2.0&#39;</span><span class="p">:</span> <span class="s1">&#39;{{ environ[&quot;PREFIX&quot;] }}/lib/R/share/licenses/Artistic-2.0&#39;</span><span class="p">,</span>
+                    <span class="s1">&#39;LGPL-2&#39;</span><span class="p">:</span> <span class="s1">&#39;{{ environ[&quot;PREFIX&quot;] }}/lib/R/share/licenses/LGPL-2&#39;</span><span class="p">,</span>
+                    <span class="s1">&#39;LGPL-2.1&#39;</span><span class="p">:</span> <span class="s1">&#39;{{ environ[&quot;PREFIX&quot;] }}/lib/R/share/licenses/LGPL-2.1&#39;</span><span class="p">}</span>
+
+        <span class="k">if</span> <span class="n">license</span> <span class="ow">in</span> <span class="n">licenses</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">licenses</span><span class="p">[</span><span class="n">license</span><span class="p">]</span>
+
+        <span class="k">if</span> <span class="s2">&quot;LGPL&quot;</span> <span class="ow">in</span> <span class="n">license</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s1">&#39;{{ environ[&quot;PREFIX&quot;] }}/lib/R/share/licenses/LGPL-3&#39;</span>
+
+        <span class="k">if</span> <span class="s2">&quot;GPL&quot;</span> <span class="ow">in</span> <span class="n">license</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s1">&#39;{{ environ[&quot;PREFIX&quot;] }}/lib/R/share/licenses/GPL-3&#39;</span>
+        <span class="k">return</span> <span class="kc">None</span>
+
 
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">imports</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -554,7 +705,6 @@
 <span class="sd">        List of &quot;SystemRequirements&quot; from the VIEW file</span>
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="k">try</span><span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;SystemRequirements&#39;</span><span class="p">])</span>
             <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;SystemRequirements&#39;</span><span class="p">]</span>
         <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
             <span class="k">return</span> <span class="p">[]</span>
@@ -769,17 +919,33 @@
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;MD5sum&#39;</span><span class="p">]</span>
 
-    <span class="k">def</span> <span class="nf">pacified_description</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">pacified_text</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">section</span><span class="o">=</span><span class="s2">&quot;Description&quot;</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Linting will fail if ``GIT_``, ``HG_``, or ``SVN_`` appear in the description.</span>
 <span class="sd">        This usually isn&#39;t an issue, except some microarray annotation packages</span>
 <span class="sd">        include ``HG_`` in their summaries. The goal is to simply remove ``_`` in such</span>
 <span class="sd">        cases.</span>
+
+<span class="sd">        By default, this will pacify the Description section</span>
 <span class="sd">        &quot;&quot;&quot;</span>
-        <span class="n">description</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;Description&#39;</span><span class="p">]</span>
+        <span class="n">description</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="n">section</span><span class="p">]</span>
         <span class="k">for</span> <span class="n">vcs</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;HG&#39;</span><span class="p">,</span> <span class="s1">&#39;SVN&#39;</span><span class="p">,</span> <span class="s1">&#39;GIT&#39;</span><span class="p">]:</span>
             <span class="n">description</span> <span class="o">=</span> <span class="n">description</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1">_&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">vcs</span><span class="p">),</span> <span class="s1">&#39;</span><span class="si">{}</span><span class="s1"> &#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">vcs</span><span class="p">))</span>
         <span class="k">return</span> <span class="n">description</span>
+
+    <span class="k">def</span> <span class="nf">parseSystemRequirements</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">reqs</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Parse the text version of system requirements and return a list of conda packages</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">reqs</span> <span class="o">=</span> <span class="n">reqs</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)</span>
+        <span class="n">packages</span> <span class="o">=</span> <span class="p">[</span><span class="n">SysReqs</span><span class="p">[</span><span class="n">r</span><span class="o">.</span><span class="n">strip</span><span class="p">()]</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">reqs</span> <span class="k">if</span> <span class="n">r</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="ow">in</span> <span class="n">SysReqs</span><span class="p">]</span>
+        <span class="n">packages</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">req</span> <span class="ow">in</span> <span class="n">reqs</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">req</span> <span class="ow">in</span> <span class="n">SysReqs</span><span class="p">:</span>
+                <span class="n">packages</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">SysReqs</span><span class="p">[</span><span class="n">req</span><span class="p">])</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">packages</span><span class="p">):</span>
+            <span class="k">return</span> <span class="n">packages</span>
+        <span class="k">return</span> <span class="kc">None</span>
 
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">meta_yaml</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -877,10 +1043,32 @@
                 <span class="s1">&#39;about&#39;</span><span class="p">,</span> <span class="n">OrderedDict</span><span class="p">((</span>
                     <span class="p">(</span><span class="s1">&#39;home&#39;</span><span class="p">,</span> <span class="n">sub_placeholders</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">url</span><span class="p">)),</span>
                     <span class="p">(</span><span class="s1">&#39;license&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">license</span><span class="p">),</span>
-                    <span class="p">(</span><span class="s1">&#39;summary&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">pacified_description</span><span class="p">()),</span>
+                    <span class="p">(</span><span class="s1">&#39;summary&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">pacified_text</span><span class="p">(</span><span class="n">section</span><span class="o">=</span><span class="s2">&quot;Title&quot;</span><span class="p">)),</span>
+                    <span class="p">(</span><span class="s1">&#39;description&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">pacified_text</span><span class="p">(</span><span class="n">section</span><span class="o">=</span><span class="s2">&quot;Description&quot;</span><span class="p">)),</span>
                 <span class="p">)),</span>
             <span class="p">),</span>
         <span class="p">))</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">license_file_location</span><span class="p">():</span>
+            <span class="n">d</span><span class="p">[</span><span class="s1">&#39;about&#39;</span><span class="p">][</span><span class="s1">&#39;license_file&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">license_file_location</span><span class="p">()</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;SystemRequirements&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">):</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">parseSystemRequirements</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;SystemRequirements&#39;</span><span class="p">]):</span>
+                <span class="n">d</span><span class="p">[</span><span class="s1">&#39;requirements&#39;</span><span class="p">][</span><span class="s1">&#39;host&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">parseSystemRequirements</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;SystemRequirements&#39;</span><span class="p">]))</span>
+                <span class="n">d</span><span class="p">[</span><span class="s1">&#39;requirements&#39;</span><span class="p">][</span><span class="s1">&#39;run&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">parseSystemRequirements</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;SystemRequirements&#39;</span><span class="p">]))</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">needsX</span><span class="p">:</span>
+            <span class="c1"># Anything that causes rgl to get imported needs X around</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">extra</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">extra</span> <span class="o">=</span> <span class="n">OrderedDict</span><span class="p">()</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">extra</span><span class="p">[</span><span class="s1">&#39;container&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">OrderedDict</span><span class="p">([(</span><span class="s1">&#39;extended-base&#39;</span><span class="p">,</span> <span class="kc">True</span><span class="p">)])</span>
+
+            <span class="k">if</span> <span class="s1">&#39;build&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">d</span><span class="p">[</span><span class="s1">&#39;requirements&#39;</span><span class="p">]:</span>
+                <span class="c1"># This is filled in manually later since pyaml.dumps will mess of the formatting otherwise</span>
+                <span class="n">d</span><span class="p">[</span><span class="s1">&#39;requirements&#39;</span><span class="p">][</span><span class="s1">&#39;build&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;PLACEHOLDER&quot;</span><span class="p">]</span>
+
+            <span class="n">d</span><span class="p">[</span><span class="s1">&#39;test&#39;</span><span class="p">][</span><span class="s1">&#39;commands&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;&#39;&#39;LD_LIBRARY_PATH=&quot;$</span><span class="si">{BUILD_PREFIX}</span><span class="s1">/x86_64-conda_cos6-linux-gnu/sysroot/usr/lib64&quot; $R -e &quot;library(&#39;{{ name }}&#39;)&quot;&#39;&#39;&#39;</span><span class="p">]</span>
+
 
         <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">extra</span><span class="p">:</span>
             <span class="n">d</span><span class="p">[</span><span class="s1">&#39;extra&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">extra</span>
@@ -901,6 +1089,17 @@
             <span class="n">renderedsplit</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="n">idx</span><span class="p">,</span> <span class="s1">&#39;# SystemRequirements: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;SystemRequirements&#39;</span><span class="p">]))</span>
         <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;Suggests&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">):</span>
             <span class="n">renderedsplit</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="n">idx</span><span class="p">,</span> <span class="s1">&#39;# Suggests: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">packages</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">package</span><span class="p">][</span><span class="s1">&#39;Suggests&#39;</span><span class="p">]))</span>
+        <span class="c1"># Fix the core dependencies if this needsX</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">needsX</span><span class="p">:</span>
+            <span class="n">idx</span> <span class="o">=</span> <span class="n">renderedsplit</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;  build:&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span>
+            <span class="n">renderedsplit</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="n">idx</span><span class="p">,</span> <span class="s2">&quot;    - xorg-libxfixes  # [linux]&quot;</span><span class="p">)</span>
+            <span class="n">renderedsplit</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="n">idx</span><span class="p">,</span> <span class="s2">&quot;    - {{ cdt(&#39;libxxf86vm&#39;) }}  # [linux]&quot;</span><span class="p">)</span>
+            <span class="n">renderedsplit</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="n">idx</span><span class="p">,</span> <span class="s2">&quot;    - {{ cdt(&#39;libxdamage&#39;) }}  # [linux]&quot;</span><span class="p">)</span>
+            <span class="n">renderedsplit</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="n">idx</span><span class="p">,</span> <span class="s2">&quot;    - {{ cdt(&#39;libselinux&#39;) }}  # [linux]&quot;</span><span class="p">)</span>
+            <span class="n">renderedsplit</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="n">idx</span><span class="p">,</span> <span class="s2">&quot;    - {{ cdt(&#39;mesa-dri-drivers&#39;) }}  # [linux]&quot;</span><span class="p">)</span>
+            <span class="n">renderedsplit</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="n">idx</span><span class="p">,</span> <span class="s2">&quot;    - {{ cdt(&#39;mesa-libgl-devel&#39;) }}  # [linux]&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="s2">&quot;    - PLACEHOLDER&quot;</span> <span class="ow">in</span> <span class="n">renderedsplit</span><span class="p">:</span>
+                <span class="k">del</span> <span class="n">renderedsplit</span><span class="p">[</span><span class="n">renderedsplit</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s2">&quot;    - PLACEHOLDER&quot;</span><span class="p">)]</span>
         <span class="n">rendered</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">renderedsplit</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span>
 
         <span class="n">rendered</span> <span class="o">=</span> <span class="p">(</span>
@@ -975,7 +1174,7 @@
 
 <div class="viewcode-block" id="write_recipe"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.bioconductor_skeleton.html#bioconda_utils.bioconductor_skeleton.write_recipe">[docs]</a><span class="k">def</span> <span class="nf">write_recipe</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">bioc_version</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
                  <span class="n">pkg_version</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">versioned</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">recursive</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">seen_dependencies</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-                 <span class="n">packages</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">skip_if_in_channels</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+                 <span class="n">packages</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">skip_if_in_channels</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">needs_x</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Write the meta.yaml and build.sh files. If the package is detected to be</span>
 <span class="sd">    a data package (bsed on the detected URL from Bioconductor), then also</span>
@@ -1020,6 +1219,10 @@
 <span class="sd">    skip_if_in_channels : list or None</span>
 <span class="sd">        List of channels whose existing packages will be automatically added to</span>
 <span class="sd">        **seen_dependencies**. Only has an effect if ``recursive=True``.</span>
+
+<span class="sd">    needs_x : bool or None</span>
+<span class="sd">        If None, we need to determine if this requires X and therefore additional</span>
+<span class="sd">        build dependencies and test environment variables.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">config</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">load_config</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
     <span class="n">proj</span> <span class="o">=</span> <span class="n">BioCProjectPage</span><span class="p">(</span><span class="n">package</span><span class="p">,</span> <span class="n">bioc_version</span><span class="p">,</span> <span class="n">pkg_version</span><span class="p">,</span> <span class="n">packages</span><span class="o">=</span><span class="n">packages</span><span class="p">)</span>
@@ -1027,6 +1230,11 @@
 
     <span class="k">if</span> <span class="n">seen_dependencies</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
         <span class="n">seen_dependencies</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">needs_x</span><span class="p">:</span>
+        <span class="n">needing_x</span> <span class="o">=</span> <span class="n">packagesNeedingX</span><span class="p">(</span><span class="n">proj</span><span class="o">.</span><span class="n">packages</span><span class="p">)</span>
+        <span class="n">needs_x</span> <span class="o">=</span> <span class="n">package</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">in</span> <span class="n">needing_x</span>
+    <span class="n">proj</span><span class="o">.</span><span class="n">needsX</span> <span class="o">=</span> <span class="n">needs_x</span>
 
     <span class="k">if</span> <span class="n">recursive</span><span class="p">:</span>
         <span class="c1"># get a list of existing packages in channels</span>
@@ -1093,9 +1301,12 @@
 <span class="sd">                CXX98=$CXX</span>
 <span class="sd">                CXX11=$CXX</span>
 <span class="sd">                CXX14=$CXX&quot; &gt; ~/.R/Makevars</span>
-<span class="sd">                $R CMD INSTALL --build .&#39;&#39;&#39;</span>
-                <span class="p">)</span>
-            <span class="p">)</span>
+<span class="sd">                &#39;&#39;&#39;</span><span class="p">))</span>
+            <span class="k">if</span> <span class="n">needs_x</span><span class="p">:</span>
+                <span class="n">fout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">dedent</span><span class="p">(</span>
+                    <span class="sd">&#39;&#39;&#39;export LD_LIBRARY_PATH=${BUILD_PREFIX}/x86_64-conda_cos6-linux-gnu/sysroot/usr/lib64</span>
+<span class="sd">                    &#39;&#39;&#39;</span><span class="p">))</span>
+            <span class="n">fout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">dedent</span><span class="p">(</span><span class="s1">&#39;&#39;&#39;$R CMD INSTALL --build .&#39;&#39;&#39;</span><span class="p">))</span>
 
     <span class="k">else</span><span class="p">:</span>
         <span class="n">urls</span> <span class="o">=</span> <span class="p">[</span>

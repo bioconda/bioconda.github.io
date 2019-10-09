@@ -9,7 +9,7 @@ rmblast
 .. conda:recipe:: rmblast
    :replaces_section_title:
 
-   RMBlast is a RepeatMasker compatible version of the standard NCBI BLAST suite.
+   RMBlast is a RepeatMasker compatible version of the standard NCBI BLAST\+ suite.
 
    :homepage: http://www.repeatmasker.org/RMBlast.html
    :license: OSL-2.1
@@ -22,17 +22,19 @@ rmblast
 
    |downloads_rmblast| |docker_rmblast|
 
-   :versions: 2.6.0-0, 2.2.28-4, 2.2.28-3, 2.2.28-2
+   :versions: 2.9.0-0, 2.6.0-0, 2.2.28-4, 2.2.28-3, 2.2.28-2
    
-   :depends boost: >=1.67.0,<1.67.1.0a0
-   :depends bzip2: >=1.0.6,<2.0a0
+   :depends bzip2: >=1.0.8,<2.0a0
+   :depends curl: 
+   :depends entrez-direct: 
    :depends gnutls: >=3.5.19,<3.6.0a0
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends nettle: >=3.3,<3.4.0a0
    :depends pcre: >=8.41,<9.0a0
    :depends perl: 
    :depends perl-archive-tar: 
+   :depends perl-json: 
    :depends perl-list-moreutils: 
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:

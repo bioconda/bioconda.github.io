@@ -782,13 +782,14 @@
         <span class="k">if</span> <span class="ow">not</span> <span class="n">bioc_version</span><span class="p">:</span>
             <span class="n">bioc_version</span> <span class="o">=</span> <span class="n">_bioconductor_skeleton</span><span class="o">.</span><span class="n">latest_bioconductor_release_version</span><span class="p">()</span>
         <span class="n">packages</span> <span class="o">=</span> <span class="n">_bioconductor_skeleton</span><span class="o">.</span><span class="n">fetchPackages</span><span class="p">(</span><span class="n">bioc_version</span><span class="p">)</span>
+        <span class="n">needs_x</span> <span class="o">=</span> <span class="n">_bioconductor_skeleton</span><span class="o">.</span><span class="n">packagesNeedingX</span><span class="p">(</span><span class="n">packages</span><span class="p">)</span>
         <span class="n">problems</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">packages</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
             <span class="k">try</span><span class="p">:</span>
                 <span class="n">_bioconductor_skeleton</span><span class="o">.</span><span class="n">write_recipe</span><span class="p">(</span>
                     <span class="n">k</span><span class="p">,</span> <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">bioc_version</span><span class="o">=</span><span class="n">bioc_version</span><span class="p">,</span>
                     <span class="n">pkg_version</span><span class="o">=</span><span class="n">v</span><span class="p">[</span><span class="s1">&#39;Version&#39;</span><span class="p">],</span> <span class="n">versioned</span><span class="o">=</span><span class="n">versioned</span><span class="p">,</span> <span class="n">packages</span><span class="o">=</span><span class="n">packages</span><span class="p">,</span>
-                    <span class="n">skip_if_in_channels</span><span class="o">=</span><span class="n">skip_if_in_channels</span><span class="p">)</span>
+                    <span class="n">skip_if_in_channels</span><span class="o">=</span><span class="n">skip_if_in_channels</span><span class="p">,</span> <span class="n">needs_x</span> <span class="o">=</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">needs_x</span><span class="p">)</span>
             <span class="k">except</span><span class="p">:</span>
                 <span class="n">problems</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">k</span><span class="p">)</span>
         <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">problems</span><span class="p">):</span>

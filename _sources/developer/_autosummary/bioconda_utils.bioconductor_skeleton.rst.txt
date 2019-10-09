@@ -22,6 +22,7 @@ bioconductor\_skeleton
       find_best_bioc_version
       latest_bioconductor_devel_version
       latest_bioconductor_release_version
+      packagesNeedingX
       write_recipe
       write_recipe_recursive
    
