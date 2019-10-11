@@ -23,12 +23,11 @@ commet
 
    |downloads_commet| |docker_commet|
 
-   :versions: 24.7.14-1, 24.7.14-0
+   :versions: 24.7.14-2, 24.7.14-1, 24.7.14-0
    
-   :depends libgcc: 
-   :depends libgfortran: 
-   :depends python: 2.7*
-   :depends r-base: 3.4.1*
+   :depends libgfortran: >=3.0.1,<4.0.0.a0
+   :depends python: 
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-gplots: 
    :requirements:
 

@@ -22,7 +22,7 @@ probamconvert
 
    |downloads_probamconvert| |docker_probamconvert|
 
-   :versions: 1.0.2-1, 1.0.1-1, 1.0.0-1, 1.0.0-0
+   :versions: 1.0.2-2, 1.0.2-1, 1.0.1-1, 1.0.0-1, 1.0.0-0
    
    :depends bioservices: 
    :depends cogent: 
@@ -33,7 +33,7 @@ probamconvert
    :depends numpy: 
    :depends pysam: >=0.9
    :depends pyteomics: 
-   :depends python: 2.7*
+   :depends python: <3
    :depends xz: 
    :requirements:
 

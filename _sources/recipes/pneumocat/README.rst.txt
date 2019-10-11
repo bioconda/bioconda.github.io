@@ -22,16 +22,16 @@ pneumocat
 
    |downloads_pneumocat| |docker_pneumocat|
 
-   :versions: 1.2-0, 1.1-0
+   :versions: 1.2-2, 1.2-0, 1.1-0
    
    :depends biopython: 
    :depends bowtie2: 
    :depends lxml: 
    :depends numpy: 
    :depends pysam: 
-   :depends python: 2.7*
+   :depends python: <3
    :depends pyyaml: 
-   :depends samtools: ==0.1.19
+   :depends samtools: 0.1.19
    :requirements:
 
    .. rubric:: Installation

@@ -22,11 +22,11 @@ bs-seeker2
 
    |downloads_bs-seeker2| |docker_bs-seeker2|
 
-   :versions: 2.1.0-0
+   :versions: 2.1.0-1, 2.1.0-0
    
    :depends bowtie2: 
    :depends pysam: 
-   :depends python: 2.7*
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

@@ -22,9 +22,9 @@ roary2fripan.py
 
    |downloads_roary2fripan.py| |docker_roary2fripan.py|
 
-   :versions: 0.1-0
+   :versions: 0.1-1, 0.1-0
    
-   :depends python: 2.7*
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

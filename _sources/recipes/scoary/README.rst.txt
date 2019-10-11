@@ -23,7 +23,7 @@ scoary
 
    |downloads_scoary| |docker_scoary|
 
-   :versions: 1.6.16-1, 1.6.16-0, 1.6.9-0
+   :versions: 1.6.16-2, 1.6.16-1, 1.6.16-0, 1.6.9-0
    
    :depends argparse: 
    :depends ete3: 

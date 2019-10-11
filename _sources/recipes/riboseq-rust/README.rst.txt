@@ -22,13 +22,13 @@ riboseq-rust
 
    |downloads_riboseq-rust| |docker_riboseq-rust|
 
-   :versions: 1.2-0
+   :versions: 1.2-1, 1.2-0
    
    :depends argparse: 
    :depends matplotlib: 
    :depends numpy: 
    :depends pysam: 
-   :depends python: 2.7*
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation
