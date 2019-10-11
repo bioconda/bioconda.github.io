@@ -22,7 +22,7 @@ kaptive
 
    |downloads_kaptive| |docker_kaptive|
 
-   :versions: 0.6.0-0, 0.5.1-2, 0.5.1-0, 0.3-0, 0.2-0
+   :versions: 0.6.1-0, 0.6.0-0, 0.5.1-2, 0.5.1-0, 0.3-0, 0.2-0
    
    :depends biopython: 
    :depends blast: 

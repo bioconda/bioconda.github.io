@@ -22,13 +22,14 @@ sccaf
 
    |downloads_sccaf| |docker_sccaf|
 
-   :versions: 0.0.6-0, 0.0.5-0, 0.0.3-0, 0.0.2-0
+   :versions: 0.0.7-0, 0.0.6-0, 0.0.5-0, 0.0.3-0, 0.0.2-0
    
    :depends louvain: 
    :depends numpy: 
    :depends pandas: 
+   :depends psutil: 
    :depends python: >=3
-   :depends scanpy: 1.3.7
+   :depends scanpy: >=1.4.4
    :depends scikit-learn: 
    :requirements:
 

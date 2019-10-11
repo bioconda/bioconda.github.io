@@ -22,10 +22,10 @@ virema
 
    |downloads_virema| |docker_virema|
 
-   :versions: 0.6-0
+   :versions: 0.6-1, 0.6-0
    
    :depends bowtie: <=1.0.0
-   :depends python: 2.7*
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

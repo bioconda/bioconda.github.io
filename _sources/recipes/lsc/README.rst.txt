@@ -22,11 +22,11 @@ lsc
 
    |downloads_lsc| |docker_lsc|
 
-   :versions: 2.0-0
+   :versions: 2.0-2, 2.0-0
    
    :depends bowtie2: 
-   :depends perl: 5.22.0*
-   :depends python: 2.7*
+   :depends perl: 
+   :depends python: <3
    :depends samtools: 
    :requirements:
 

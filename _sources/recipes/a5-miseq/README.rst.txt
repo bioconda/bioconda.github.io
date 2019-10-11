@@ -22,10 +22,10 @@ a5-miseq
 
    |downloads_a5-miseq| |docker_a5-miseq|
 
-   :versions: 20160825-0
+   :versions: 20160825-1, 20160825-0
    
    :depends openjdk: >=8.0
-   :depends perl: 5.22.0*
+   :depends perl: 
    :requirements:
 
    .. rubric:: Installation

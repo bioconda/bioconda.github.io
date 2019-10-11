@@ -25,10 +25,13 @@ commet
 
    :versions: 24.7.14-2, 24.7.14-1, 24.7.14-0
    
-   :depends libgfortran: >=3.0.1,<4.0.0.a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libgfortran-ng: >=7,<8.0a0
+   :depends libstdcxx-ng: >=7.3.0
    :depends python: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-gplots: 
+   :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
    .. rubric:: Installation
