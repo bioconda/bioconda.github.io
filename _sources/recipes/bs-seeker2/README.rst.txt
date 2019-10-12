@@ -22,7 +22,7 @@ bs-seeker2
 
    |downloads_bs-seeker2| |docker_bs-seeker2|
 
-   :versions: 2.1.0-1, 2.1.0-0
+   :versions: 2.1.7-0, 2.1.0-1, 2.1.0-0
    
    :depends bowtie2: 
    :depends pysam: 

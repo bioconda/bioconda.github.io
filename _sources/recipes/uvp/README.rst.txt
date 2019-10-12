@@ -22,7 +22,7 @@ uvp
 
    |downloads_uvp| |docker_uvp|
 
-   :versions: 2.6.0-0
+   :versions: 2.7.0-0, 2.6.0-0
    
    :depends bcftools: 1.2.*
    :depends bedtools: 2.17.0.*

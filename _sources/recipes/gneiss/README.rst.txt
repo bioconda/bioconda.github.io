@@ -22,7 +22,7 @@ gneiss
 
    |downloads_gneiss| |docker_gneiss|
 
-   :versions: 0.4.5-0, 0.4.4-0
+   :versions: 0.4.6-0, 0.4.5-0, 0.4.4-0
    
    :depends biom-format: 
    :depends bokeh: 

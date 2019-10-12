@@ -23,10 +23,10 @@ pyfasta
 
    |downloads_pyfasta| |docker_pyfasta|
 
-   :versions: 0.5.2-0
+   :versions: 0.5.2-1, 0.5.2-0
    
    :depends numpy: 
-   :depends python: 2.7*
+   :depends python: >=3
    :requirements:
 
    .. rubric:: Installation
