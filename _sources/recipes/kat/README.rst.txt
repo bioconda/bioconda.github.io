@@ -6,14 +6,14 @@
 kat
 ===
 
-.. conda:recipe:: kat/2.3.1
+.. conda:recipe:: kat
    :replaces_section_title:
 
    KAT is a suite of tools that analyse jellyfish hashes or sequence files \(fasta or fastq\) using kmer counts
 
    :homepage: https://github.com/TGAC/KAT
    :license: GPL3
-   :recipe: /`kat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kat>`_/`2.3.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kat/2.3.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kat/2.3.1/meta.yaml>`_
+   :recipe: /`kat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kat/meta.yaml>`_
    :links: biotools: :biotools:`KAT`
 
    

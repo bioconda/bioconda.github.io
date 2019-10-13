@@ -23,10 +23,10 @@ shannon
 
    |downloads_shannon| |docker_shannon|
 
-   :versions: 0.0.2-0
+   :versions: 0.0.2-1, 0.0.2-0
    
    :depends cvxopt: 
-   :depends jellyfish: 
+   :depends kmer-jellyfish: 
    :depends metis: 
    :depends numpy: 
    :depends parallel: 

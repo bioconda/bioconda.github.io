@@ -22,9 +22,9 @@ quorum
 
    |downloads_quorum| |docker_quorum|
 
-   :versions: 1.1.1-2, 1.1.1-1, 1.1.1-0
+   :versions: 1.1.1-3, 1.1.1-2, 1.1.1-1, 1.1.1-0
    
-   :depends jellyfish: 2.2.10.*
+   :depends kmer-jellyfish: 2.*
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends perl: 

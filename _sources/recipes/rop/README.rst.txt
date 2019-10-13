@@ -22,7 +22,7 @@ rop
 
    |downloads_rop| |docker_rop|
 
-   :versions: 1.1.2-0, 1.1.1-0
+   :versions: 1.1.2-1, 1.1.2-0, 1.1.1-0
    
    :depends biopython: 
    :depends blast: 
@@ -30,7 +30,7 @@ rop
    :depends bwa: 
    :depends fastx_toolkit: 
    :depends intervaltree: 
-   :depends jellyfish: 
+   :depends kmer-jellyfish: 
    :depends libgcc-ng: >=7.3.0
    :depends numpy: 
    :depends pandas: 
