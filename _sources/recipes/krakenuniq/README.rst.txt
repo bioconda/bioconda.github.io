@@ -26,8 +26,8 @@ krakenuniq
    :versions: 0.5.8-1, 0.5.8-0, 0.5.7-0, 0.5.6-0, 0.5.5-0, 0.5.3-0, 0.5.2-0
    
    :depends kmer-jellyfish: 1.*
-   :depends libcxx: >=4.0.1
-   :depends llvm-openmp: >=8.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-libwww-perl: 
    :depends perl-lwp-protocol-https: 
