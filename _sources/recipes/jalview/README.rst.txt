@@ -10,24 +10,24 @@ jalview
    :replaces_section_title:
 
    Jalview is a free program for multiple sequence alignment editing\, visualisation and analysis.
+
+   :homepage: http://www.jalview.org/
+   :license: GPL3
+   :recipe: /`jalview <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jalview>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jalview/meta.yaml>`_
+
+   Jalview is a free program for multiple sequence alignment editing\, visualisation and analysis.
    Use it to view and edit sequence alignments\, analyse them with phylogenetic trees and principal
    components analysis \(PCA\) plots and explore molecular structures and annotation.
 
-
-   :homepage: http://www.jalview.org/
-   :license: GNU GENERAL PUBLIC LICENSE, Version 3.0
-   :recipe: /`jalview <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jalview>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jalview/meta.yaml>`_
-
-   
 
 
 .. conda:package:: jalview
 
    |downloads_jalview| |docker_jalview|
 
-   :versions: 2.10.5-3, 2.10.4-0, 2.10.4b1-2, 2.10.4b1-0, 2.10.3-1, 2.10.3-0, 2.10.3b1-0, 2.10.2b2-2, 2.10.2b2-1, 2.10.2b2-0
+   :versions: 2.11.0-0, 2.10.5-3, 2.10.4-0, 2.10.4b1-2, 2.10.4b1-0, 2.10.3-1, 2.10.3-0, 2.10.3b1-0, 2.10.2b2-2, 2.10.2b2-1, 2.10.2b2-0
    
-   :depends openjdk: >8.0.121
+   :depends openjdk: 8.0.192.*
    :depends psutil: 
    :depends xorg-libxtst: 
    :requirements:

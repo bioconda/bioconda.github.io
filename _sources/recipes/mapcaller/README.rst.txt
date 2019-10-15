@@ -23,9 +23,9 @@ mapcaller
 
    |downloads_mapcaller| |docker_mapcaller|
 
-   :versions: 0.9.9.19-0, 0.9.9.18-0, 0.9.9.17-0, 0.9.9.16-0, 0.9.9.15-0, 0.9.9.7-0, 0.9.9.6-0
+   :versions: 0.9.9.21-0, 0.9.9.19-0, 0.9.9.18-0, 0.9.9.17-0, 0.9.9.16-0, 0.9.9.15-0, 0.9.9.7-0, 0.9.9.6-0
    
-   :depends boost: >=1.70.0,<1.70.1.0a0
+   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
    :depends bzip2: >=1.0.8,<2.0a0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

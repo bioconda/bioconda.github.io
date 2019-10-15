@@ -22,8 +22,16 @@ repdenovo
 
    |downloads_repdenovo| |docker_repdenovo|
 
-   :versions: 
+   :versions: 0.0.1-0
    
+   :depends bamtools: >=2.5.1,<2.5.2.0a0
+   :depends bwa: 
+   :depends kmer-jellyfish: 
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends python: 
+   :depends velvet: 
+   :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
    .. rubric:: Installation

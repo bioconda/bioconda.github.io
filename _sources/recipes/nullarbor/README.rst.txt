@@ -22,7 +22,7 @@ nullarbor
 
    |downloads_nullarbor| |docker_nullarbor|
 
-   :versions: 2.0.20191013-0, 2.0.20191007-0, 2.0.20191003-0, 2.0.20181010-5, 2.0.20181010-4, 2.0.20181010-2
+   :versions: 2.0.20191013-1, 2.0.20191013-0, 2.0.20191007-0, 2.0.20191003-0, 2.0.20181010-5, 2.0.20181010-4, 2.0.20181010-2
    
    :depends abricate: >=0.9.8
    :depends any2fasta: >=0.4.2
@@ -30,14 +30,15 @@ nullarbor
    :depends fasttree: >=2.1.10
    :depends iqtree: >=1.6.12
    :depends kraken: >=1.1
-   :depends kraken2: 
+   :depends kraken2: >=2.0.7
    :depends make: >=4.2
    :depends mash: >=2.2
    :depends megahit: >=1.1.3
    :depends mlst: >=2.17.6
-   :depends newick_utils: 
-   :depends perl: 
+   :depends newick_utils: >=1.6
+   :depends perl: >=5.16
    :depends perl-file-spec: 
+   :depends perl-file-which: 
    :depends perl-findbin: 
    :depends perl-json: 
    :depends perl-list-moreutils: >=0.428
@@ -48,6 +49,7 @@ nullarbor
    :depends perl-yaml-tiny: 
    :depends pigz: 
    :depends prokka: >=1.14
+   :depends quicktree: >=2.5
    :depends roary: >=3.12
    :depends samtools: >=1.9
    :depends seqtk: >=1.3

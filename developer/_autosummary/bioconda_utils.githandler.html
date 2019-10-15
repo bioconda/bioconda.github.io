@@ -241,12 +241,12 @@ root (e.g. <code class="docutils literal notranslate"><span class="pre">recipes/
 <dl class="method">
 <dt id="bioconda_utils.githandler.BiocondaRepoMixin.get_recipes_to_build">
 <code class="sig-name descname">get_recipes_to_build</code><span class="sig-paren">(</span><em class="sig-param">ref=None</em>, <em class="sig-param">other=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#BiocondaRepoMixin.get_recipes_to_build"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githandler.BiocondaRepoMixin.get_recipes_to_build" title="Permalink to this definition">¶</a></dt>
-<dd><p>Returns <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">list</span></code></a> of recipes to build for merge of <strong>ref</strong> into <strong>other</strong></p>
+<dd><p>Returns <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">list</span></code></a> of recipes to build for merge of <strong>ref</strong> into <strong>other</strong></p>
 <p>This includes all recipes returned by <a class="reference internal" href="#bioconda_utils.githandler.BiocondaRepoMixin.get_changed_recipes" title="bioconda_utils.githandler.BiocondaRepoMixin.get_changed_recipes"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">get_changed_recipes</span></code></a> and
 all newly unblacklisted, extant recipes within <a class="reference internal" href="#bioconda_utils.githandler.BiocondaRepoMixin.recipes_folder" title="bioconda_utils.githandler.BiocondaRepoMixin.recipes_folder"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">recipes_folder</span></code></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">list</span></code></a> of recipes that should be built</p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">list</span></code></a> of recipes that should be built</p>
 </dd>
 </dl>
 </dd></dl>
@@ -310,7 +310,7 @@ all newly unblacklisted, extant recipes within <a class="reference internal" hre
 <dl class="class">
 <dt id="bioconda_utils.githandler.GitHandlerBase">
 <em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.githandler.</code><code class="sig-name descname">GitHandlerBase</code><span class="sig-paren">(</span><em class="sig-param">repo</em>, <em class="sig-param">dry_run</em>, <em class="sig-param">home='bioconda/bioconda-recipes'</em>, <em class="sig-param">fork=None</em>, <em class="sig-param">allow_dirty=False</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerBase"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
 <p>GitPython abstraction</p>
 <p>We have to work with three git repositories, the local checkout,
 the project primary repository and a working repository. The
@@ -319,7 +319,7 @@ latter may be a fork or may be the same as the primary.</p>
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>repo</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Repo</span></code>) – GitPython Repo object (created by subclasses)</p></li>
-<li><p><strong>dry_run</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>) – Don’t push anything to remote</p></li>
+<li><p><strong>dry_run</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>) – Don’t push anything to remote</p></li>
 <li><p><strong>home</strong> – string occurring in remote url marking primary project repo</p></li>
 <li><p><strong>fork</strong> – string occurring in remote url marking forked repo</p></li>
 <li><p><strong>allow_dirty</strong> – don’t bail out if repo is dirty</p></li>
@@ -339,7 +339,7 @@ latter may be a fork or may be the same as the primary.</p>
 as compared to <strong>master</strong></p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -356,7 +356,7 @@ as compared to <strong>master</strong></p>
 <dd><p>Create recipe commit and pushes to upstream remote</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><p>Boolean indicating whether there were changes committed</p>
@@ -404,7 +404,7 @@ as compared to <strong>master</strong></p>
 <dd><p>Enable signing of commits</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>key</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Union" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Keyid to use for signing. Set to <code class="docutils literal notranslate"><span class="pre">True</span></code> to enable
+<dd class="field-odd"><p><strong>key</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Union" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Keyid to use for signing. Set to <code class="docutils literal notranslate"><span class="pre">True</span></code> to enable
 using the default key or to <code class="docutils literal notranslate"><span class="pre">False</span></code> to disable
 signing.</p>
 </dd>
@@ -446,7 +446,7 @@ the first argument to <code class="docutils literal notranslate"><span class="pr
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><p>The first merge base for the two references provided if found.
-May return <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">None</span></code></a> if no merge base was found. This may for
+May return <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">None</span></code></a> if no merge base was found. This may for
 example be the case if branches were deleted or if the
 repository is shallow and the merge base commit not available.</p>
 </dd>
@@ -478,7 +478,7 @@ repository is shallow and the merge base commit not available.</p>
 <p>Verifies that <strong>ref</strong> is a hex value of length 40</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -530,7 +530,7 @@ repository is shallow and the merge base commit not available.</p>
 <dd><p>Reads contents of file <strong>file_name</strong> from git branch <strong>branch</strong></p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -557,7 +557,7 @@ repository is shallow and the merge base commit not available.</p>
 <dl class="exception">
 <dt id="bioconda_utils.githandler.GitHandlerFailure">
 <em class="property">exception </em><code class="sig-prename descclassname">bioconda_utils.githandler.</code><code class="sig-name descname">GitHandlerFailure</code><a class="reference internal" href="../../_modules/bioconda_utils/githandler.html#GitHandlerFailure"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerFailure" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/exceptions.html#Exception" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></a></p>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/exceptions.html#Exception" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></a></p>
 <p>Something went wrong interacting with git</p>
 </dd></dl>
 
@@ -595,7 +595,7 @@ repo, it will not break the entire process.</p>
 of the Python interpreter.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>dirname</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Name of directory in which remote repos will be cached.</p>
+<dd class="field-odd"><p><strong>dirname</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Name of directory in which remote repos will be cached.</p>
 </dd>
 <dt class="field-even">Return type</dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
@@ -614,7 +614,7 @@ of the Python interpreter.</p>
 <dd class="field-odd"><p><strong>key</strong> – Key to import to GPG as string</p>
 </dd>
 <dt class="field-even">Return type</dt>
-<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
 </dd>
 <dt class="field-odd">Returns</dt>
 <dd class="field-odd"><p>GPG key ID</p>

@@ -22,7 +22,7 @@ howdesbt
 
    |downloads_howdesbt| |docker_howdesbt|
 
-   :versions: 1.00.03-1, 1.00.03-0, 1.00.00-0
+   :versions: 2.00.02-0, 1.00.03-1, 1.00.03-0, 1.00.00-0
    
    :depends croaring: >=0.2.63,<0.2.64.0a0
    :depends kmer-jellyfish: >=2.2

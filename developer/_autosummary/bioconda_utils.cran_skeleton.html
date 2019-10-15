@@ -184,8 +184,8 @@ conda-forge.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – Must be sanitized “r-pkgname” package name.</p></li>
-<li><p><strong>no_windows</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – If True, then the bld.bat file will be removed.</p></li>
+<li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Must be sanitized “r-pkgname” package name.</p></li>
+<li><p><strong>no_windows</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a>) – If True, then the bld.bat file will be removed.</p></li>
 </ul>
 </dd>
 </dl>
@@ -199,8 +199,8 @@ conda-forge.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – Must be sanitized “r-pkgname” package name.</p></li>
-<li><p><strong>no_windows</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – Included for consistency with other <code class="docutils literal notranslate"><span class="pre">clean_*</span></code> functions; does not have
+<li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Must be sanitized “r-pkgname” package name.</p></li>
+<li><p><strong>no_windows</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a>) – Included for consistency with other <code class="docutils literal notranslate"><span class="pre">clean_*</span></code> functions; does not have
 any effect for this function.</p></li>
 </ul>
 </dd>
@@ -215,9 +215,9 @@ conda-forge compatible.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – Package name. Can be case-sensitive CRAN name, or sanitized
+<li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Package name. Can be case-sensitive CRAN name, or sanitized
 “r-pkgname” conda package name.</p></li>
-<li><p><strong>no_windows</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – If True, no bld.bat will be created and no <code class="docutils literal notranslate"><span class="pre">[win]</span></code> preprocess selectors
+<li><p><strong>no_windows</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a>) – If True, no bld.bat will be created and no <code class="docutils literal notranslate"><span class="pre">[win]</span></code> preprocess selectors
 will be added to the yaml</p></li>
 </ul>
 </dd>
@@ -232,8 +232,8 @@ compatible.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – Must be sanitized “r-pkgname” package name.</p></li>
-<li><p><strong>no_windows</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – If True, then adds a “build: skip: True # [win32]” line to skip Windows
+<li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Must be sanitized “r-pkgname” package name.</p></li>
+<li><p><strong>no_windows</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a>) – If True, then adds a “build: skip: True # [win32]” line to skip Windows
 builds.</p></li>
 </ul>
 </dd>
@@ -282,15 +282,15 @@ builds.</p></li>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – Package name. Can be case-sensitive CRAN name, or sanitized
+<li><p><strong>package</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Package name. Can be case-sensitive CRAN name, or sanitized
 “r-pkgname” conda package name.</p></li>
-<li><p><strong>recipe_dir</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – Recipe will be created as a subdirectory in <code class="docutils literal notranslate"><span class="pre">recipe_dir</span></code></p></li>
-<li><p><strong>recursive</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – Add the <code class="docutils literal notranslate"><span class="pre">--recursive</span></code> argument to <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cran</span></code> to
+<li><p><strong>recipe_dir</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Recipe will be created as a subdirectory in <code class="docutils literal notranslate"><span class="pre">recipe_dir</span></code></p></li>
+<li><p><strong>recursive</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a>) – Add the <code class="docutils literal notranslate"><span class="pre">--recursive</span></code> argument to <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cran</span></code> to
 recursively build CRAN recipes.</p></li>
-<li><p><strong>force</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – If True, then remove the directory <code class="docutils literal notranslate"><span class="pre">&lt;recipe_dir&gt;/&lt;pkgname&gt;</span></code>, where
+<li><p><strong>force</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a>) – If True, then remove the directory <code class="docutils literal notranslate"><span class="pre">&lt;recipe_dir&gt;/&lt;pkgname&gt;</span></code>, where
 <code class="docutils literal notranslate"><span class="pre">&lt;pkgname&gt;</span></code> the sanitized conda version of the package name,
 regardless of which format was provided as <code class="docutils literal notranslate"><span class="pre">package</span></code>.</p></li>
-<li><p><strong>no_windows</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – If True, then after creating the skeleton the files are then
+<li><p><strong>no_windows</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a>) – If True, then after creating the skeleton the files are then
 cleaned of any Windows-related lines and the bld.bat file is
 removed from the recipe.</p></li>
 </ul>

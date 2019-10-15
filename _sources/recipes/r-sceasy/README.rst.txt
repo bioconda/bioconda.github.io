@@ -12,7 +12,7 @@ r-sceasy
    A package providing functions to convert between different single\-cell data formats.
 
    :homepage: https://github.com/cellgeni/sceasy
-   :license: GPL / GPL-3.0
+   :license: GPL / GPL3
    :recipe: /`r-sceasy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sceasy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sceasy/meta.yaml>`_
 
    
@@ -22,7 +22,7 @@ r-sceasy
 
    |downloads_r-sceasy| |docker_r-sceasy|
 
-   :versions: 0.0.4-0, 0.0.3-0
+   :versions: 0.0.5-0, 0.0.4-0, 0.0.3-0
    
    :depends anndata: <=0.6.19
    :depends bioconductor-loomexperiment: >=1.1.5

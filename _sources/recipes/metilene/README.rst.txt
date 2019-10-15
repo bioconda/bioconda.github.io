@@ -22,7 +22,7 @@ metilene
 
    |downloads_metilene| |docker_metilene|
 
-   :versions: 0.2.6-2, 0.2.6-1, 0.2.6-0
+   :versions: 0.2.8-0, 0.2.6-2, 0.2.6-1, 0.2.6-0
    
    :depends bedtools: >=2.24
    :depends libgcc-ng: >=7.3.0

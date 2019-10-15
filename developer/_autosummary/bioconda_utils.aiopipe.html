@@ -169,7 +169,7 @@
 <dl class="class">
 <dt id="bioconda_utils.aiopipe.AsyncFilter">
 <em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.aiopipe.</code><code class="sig-name descname">AsyncFilter</code><span class="sig-paren">(</span><em class="sig-param">pipeline</em>, <em class="sig-param">*_args</em>, <em class="sig-param">**_kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncFilter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncFilter" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/abc.html#abc.ABC" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">abc.ABC</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Generic" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">typing.Generic</span></code></a></p>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/abc.html#abc.ABC" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">abc.ABC</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Generic" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">typing.Generic</span></code></a></p>
 <p>Function object type called by Scanner</p>
 <dl class="method">
 <dt id="bioconda_utils.aiopipe.AsyncFilter.apply">
@@ -204,7 +204,7 @@
 <dl class="class">
 <dt id="bioconda_utils.aiopipe.AsyncPipeline">
 <em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.aiopipe.</code><code class="sig-name descname">AsyncPipeline</code><span class="sig-paren">(</span><em class="sig-param">threads=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncPipeline"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Generic" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">typing.Generic</span></code></a></p>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Generic" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">typing.Generic</span></code></a></p>
 <p>Processes items in an asyncio pipeline</p>
 <dl class="method">
 <dt id="bioconda_utils.aiopipe.AsyncPipeline.add">
@@ -254,7 +254,7 @@
 <dd><p>Applies the filters to an item</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -265,7 +265,7 @@
 <dd><p>Enters the asyncio loop and manages shutdown.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -293,7 +293,7 @@
 <dl class="class">
 <dt id="bioconda_utils.aiopipe.AsyncRequests">
 <em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.aiopipe.</code><code class="sig-name descname">AsyncRequests</code><span class="sig-paren">(</span><em class="sig-param">cache_fn=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncRequests"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncRequests" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
 <p>Provides helpers for async access to URLs</p>
 <dl class="attribute">
 <dt id="bioconda_utils.aiopipe.AsyncRequests.USER_AGENT">
@@ -322,7 +322,7 @@ get file size first)</p>
 <p>Shows TQDM progress monitor with label <strong>desc</strong>.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -337,7 +337,7 @@ get file size first)</p>
 </ul>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -371,7 +371,7 @@ increasing wait times according to fibonacci series.</p></li>
 </ul>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -387,14 +387,14 @@ increasing wait times according to fibonacci series.</p></li>
 <dl class="exception">
 <dt id="bioconda_utils.aiopipe.EndProcessing">
 <em class="property">exception </em><code class="sig-prename descclassname">bioconda_utils.aiopipe.</code><code class="sig-name descname">EndProcessing</code><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#EndProcessing"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.EndProcessing" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/exceptions.html#BaseException" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">BaseException</span></code></a></p>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/exceptions.html#BaseException" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">BaseException</span></code></a></p>
 <p>Raised by <a class="reference internal" href="#bioconda_utils.aiopipe.AsyncFilter" title="bioconda_utils.aiopipe.AsyncFilter"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AsyncFilter</span></code></a> to tell <a class="reference internal" href="#bioconda_utils.aiopipe.AsyncPipeline" title="bioconda_utils.aiopipe.AsyncPipeline"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AsyncPipeline</span></code></a> to stop processing</p>
 </dd></dl>
 
 <dl class="exception">
 <dt id="bioconda_utils.aiopipe.EndProcessingItem">
 <em class="property">exception </em><code class="sig-prename descclassname">bioconda_utils.aiopipe.</code><code class="sig-name descname">EndProcessingItem</code><span class="sig-paren">(</span><em class="sig-param">item</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#EndProcessingItem"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.EndProcessingItem" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/exceptions.html#Exception" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></a></p>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/exceptions.html#Exception" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></a></p>
 <p>Raised to indicate that an item should not be processed further</p>
 <dl class="method">
 <dt id="bioconda_utils.aiopipe.EndProcessingItem.log">

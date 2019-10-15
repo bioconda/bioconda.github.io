@@ -22,7 +22,7 @@ spliceai
 
    |downloads_spliceai| |docker_spliceai|
 
-   :versions: 1.2.1-1, 1.2.1-0
+   :versions: 1.3-0, 1.2.1-1, 1.2.1-0
    
    :depends keras: >=2.0.5
    :depends numpy: >=1.14.0
@@ -30,7 +30,7 @@ spliceai
    :depends pyfaidx: >=0.5.0
    :depends pysam: >=0.10.0
    :depends python: >=3
-   :depends tensorflow: >=1.2.0
+   :depends tensorflow: >=1.13.0
    :requirements:
 
    .. rubric:: Installation

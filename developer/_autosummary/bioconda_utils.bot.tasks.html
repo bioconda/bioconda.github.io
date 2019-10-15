@@ -180,7 +180,7 @@
 <dl class="class">
 <dt id="bioconda_utils.bot.tasks.Checkout">
 <em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.bot.tasks.</code><code class="sig-name descname">Checkout</code><span class="sig-paren">(</span><em class="sig-param">ghapi</em>, <em class="sig-param">ref=None</em>, <em class="sig-param">issue_number=None</em>, <em class="sig-param">branch_name='master'</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/tasks.html#Checkout"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.tasks.Checkout" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
 <p>Async context manager checking out git repo</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -190,7 +190,7 @@
 </ul>
 </dd>
 </dl>
-<p>Returns <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><code class="xref any docutils literal notranslate"><span class="pre">None</span></code></a> if the checkout failed, otherwise the TempGitHandler object</p>
+<p>Returns <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">None</span></code></a> if the checkout failed, otherwise the TempGitHandler object</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">with</span> <span class="n">Checkout</span><span class="p">(</span><span class="n">ghapi</span><span class="p">,</span> <span class="n">issue_number</span><span class="p">)</span> <span class="k">as</span> <span class="n">git</span><span class="p">:</span>
 <span class="gp">&gt;&gt;&gt; </span>  <span class="k">if</span> <span class="n">git</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
 <span class="gp">&gt;&gt;&gt; </span>     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;checkout failed&quot;</span><span class="p">)</span>
@@ -203,7 +203,7 @@
 <dl class="class">
 <dt id="bioconda_utils.bot.tasks.Image">
 <em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.bot.tasks.</code><code class="sig-name descname">Image</code><span class="sig-paren">(</span><em class="sig-param">url</em>, <em class="sig-param">name</em>, <em class="sig-param">tag</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.Image" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">tuple</span></code></a></p>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">tuple</span></code></a></p>
 <p>Create new instance of Image(url, name, tag)</p>
 <dl class="method">
 <dt id="bioconda_utils.bot.tasks.Image.name">
@@ -228,7 +228,7 @@
 <dl class="class">
 <dt id="bioconda_utils.bot.tasks.Package">
 <em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.bot.tasks.</code><code class="sig-name descname">Package</code><span class="sig-paren">(</span><em class="sig-param">arch</em>, <em class="sig-param">fname</em>, <em class="sig-param">url</em>, <em class="sig-param">repodata_md</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.Package" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">tuple</span></code></a></p>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">tuple</span></code></a></p>
 <p>Create new instance of Package(arch, fname, url, repodata_md)</p>
 <dl class="method">
 <dt id="bioconda_utils.bot.tasks.Package.arch">
@@ -262,7 +262,7 @@
 <dd><p>Bump the build number in each recipe in PR</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>issue_number</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – Number of PR to bump recipes in</p>
+<dd class="field-odd"><p><strong>issue_number</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – Number of PR to bump recipes in</p>
 </dd>
 </dl>
 </dd></dl>
@@ -273,7 +273,7 @@
 <dd><p>Checks for packages and images uploaded to CircleCI artifacts</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>pr_number</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – Number of PR to check</p>
+<dd class="field-odd"><p><strong>pr_number</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – Number of PR to check</p>
 </dd>
 </dl>
 </dd></dl>
@@ -285,7 +285,7 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>head_sha</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – SHA of commit for which <code class="docutils literal notranslate"><span class="pre">check_run</span></code> will be created</p></li>
+<li><p><strong>head_sha</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – SHA of commit for which <code class="docutils literal notranslate"><span class="pre">check_run</span></code> will be created</p></li>
 <li><p><strong>recreate</strong> – If true, a new <code class="docutils literal notranslate"><span class="pre">check_run</span></code> will be created even if
 one already exists</p></li>
 </ul>
@@ -312,8 +312,8 @@ one already exists</p></li>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>check_run_number</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – ID of GitHub <code class="docutils literal notranslate"><span class="pre">check_run</span></code></p></li>
-<li><p><strong>ref</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – SHA of commit to check</p></li>
+<li><p><strong>check_run_number</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – ID of GitHub <code class="docutils literal notranslate"><span class="pre">check_run</span></code></p></li>
+<li><p><strong>ref</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – SHA of commit to check</p></li>
 </ul>
 </dd>
 </dl>
@@ -347,12 +347,12 @@ one already exists</p></li>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>pr_number</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – number of PR to merge</p></li>
-<li><p><strong>comment_id</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – ID of comment in PR to use for posting progress</p></li>
+<li><p><strong>pr_number</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – number of PR to merge</p></li>
+<li><p><strong>comment_id</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – ID of comment in PR to use for posting progress</p></li>
 </ul>
 </dd>
 <dt class="field-even">Return type</dt>
-<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Tuple" title="(in Python v3.7)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Tuple</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]</p>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Tuple" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Tuple</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]</p>
 </dd>
 </dl>
 </dd></dl>
@@ -387,7 +387,7 @@ promise will only evaluate it once.</p>
 <dd><p>Triggers a rebuild of the latest commit for a PR on CircleCI</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>pr_number</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – Number of Github PR</p>
+<dd class="field-odd"><p><strong>pr_number</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – Number of Github PR</p>
 </dd>
 </dl>
 </dd></dl>
