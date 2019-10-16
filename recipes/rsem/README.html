@@ -102,13 +102,13 @@
 <dl class="recipe">
 <dt id="recipe-rsem">
 <em class="property">recipe </em><code class="sig-name descname">rsem</code><a class="headerlink" href="#recipe-rsem" title="Permalink to this definition">¶</a></dt>
-<dd><p>RSEM is a software package for estimating gene and isoform expression levels from RNA-Seq data. The RSEM package provides an user-friendly interface, supports threads for parallel computation of the EM algorithm, single-end and paired-end read data, quality scores, variable-length reads and RSPD estimation. In addition, it provides posterior mean and 95% credibility interval estimates for expression levels. For visualization, It can generate BAM and Wiggle files in both transcript-coordinate and genomic-coordinate. Genomic-coordinate files can be visualized by both UCSC Genome browser and Broad Institute’s Integrative Genomics Viewer (IGV). Transcript-coordinate files can be visualized by IGV. RSEM also has its own scripts to generate transcript read depth plots in pdf format. The unique feature of RSEM is, the read depth plots can be stacked, with read depth contributed to unique reads shown in black and contributed to multi-reads shown in red. In addition, models learned from data can also be visualized. Last but not least, RSEM contains a simulator.</p>
+<dd><p>RSEM is a software package for estimating gene and isoform expression levels from RNA-Seq data.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
 <dd class="field-odd"><p><a class="reference external" href="https://deweylab.github.io/RSEM/">https://deweylab.github.io/RSEM/</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>GPLv3</p>
+<dd class="field-even"><p>GPL3</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rsem">rsem</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rsem/meta.yaml">meta.yaml</a></p>
@@ -117,6 +117,18 @@
 <dd class="field-even"><p>doi: <a class="reference external" href="https://doi.org/10.1186/1471-2105-12-323">10.1186/1471-2105-12-323</a>, biotools: <a class="reference external" href="https://bio.tools/rsem">rsem</a></p>
 </dd>
 </dl>
+<p>“RSEM is a software package for estimating gene and isoform expression levels from RNA-Seq data. ”
+“The RSEM package provides an user-friendly interface, supports threads for parallel computation ”
+“of the EM algorithm, single-end and paired-end read data, quality scores, variable-length reads ”
+“and RSPD estimation. In addition, it provides posterior mean and 95% credibility interval ”
+“estimates for expression levels. For visualization, It can generate BAM and Wiggle files in both ”
+“transcript-coordinate and genomic-coordinate. Genomic-coordinate files can be visualized by both ”
+“UCSC Genome browser and Broad Institute’s Integrative Genomics Viewer (IGV). Transcript-coordinate ”
+“files can be visualized by IGV. RSEM also has its own scripts to generate transcript read depth ”
+“plots in pdf format. The unique feature of RSEM is, the read depth plots can be stacked, with read ”
+“depth contributed to unique reads shown in black and contributed to multi-reads shown in red. In ”
+“addition, models learned from data can also be visualized. Last but not least, RSEM contains a ”
+“simulator.”</p>
 </dd></dl>
 
 <dl class="package">
@@ -125,7 +137,7 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/rsem"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/rsem.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/rsem"><img alt="docker_rsem" src="https://quay.io/repository/biocontainers/rsem/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>1.3.2-0, 1.3.1-1, 1.3.1-0, 1.3.0-4, 1.3.0-3, 1.3.0-2, 1.3.0-1, 1.3.0-0, 1.2.28-2, 1.2.28-0, 1.2.22-0, 1.2.21-5, 1.2.21-4, 1.2.21-3</p>
+<dd class="field-odd"><p>1.3.2-1, 1.3.2-0, 1.3.1-1, 1.3.1-0, 1.3.0-4, 1.3.0-3, 1.3.0-2, 1.3.0-1, 1.3.0-0, 1.2.28-2, 1.2.28-0, 1.2.22-0, 1.2.21-5, 1.2.21-4, 1.2.21-3</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
@@ -133,12 +145,12 @@
 <li><p><a class="conda-package reference internal" href="../bioconductor-ebseq/README.html#package-bioconductor-ebseq" title="bioconductor-ebseq package"><strong>bioconductor-ebseq</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../htslib/README.html#package-htslib" title="htslib package"><strong>htslib</strong></a> &gt;=1.9,&lt;1.10.0a0</p></li>
 <li><p><strong>libgcc-ng</strong> &gt;=7.3.0</p></li>
+<li><p><strong>libstdcxx-ng</strong> &gt;=7.3.0</p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a> &gt;=5.26.2,&lt;5.26.3.0a0</p></li>
 <li><p><a class="conda-package reference internal" href="../perl-module-build/README.html#package-perl-module-build" title="perl-module-build package"><strong>perl-module-build</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../ucsc-bigwigsummary/README.html#package-ucsc-bigwigsummary" title="ucsc-bigwigsummary package"><strong>ucsc-bigwigsummary</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/zlib-feedstock"><strong>zlib</strong></a> &gt;=1.2.11,&lt;1.3.0a0</p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>

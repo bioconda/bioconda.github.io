@@ -9,32 +9,44 @@ rsem
 .. conda:recipe:: rsem
    :replaces_section_title:
 
-   RSEM is a software package for estimating gene and isoform expression levels from RNA\-Seq data. The RSEM package provides an user\-friendly interface\, supports threads for parallel computation of the EM algorithm\, single\-end and paired\-end read data\, quality scores\, variable\-length reads and RSPD estimation. In addition\, it provides posterior mean and 95\% credibility interval estimates for expression levels. For visualization\, It can generate BAM and Wiggle files in both transcript\-coordinate and genomic\-coordinate. Genomic\-coordinate files can be visualized by both UCSC Genome browser and Broad Institute\'s Integrative Genomics Viewer \(IGV\). Transcript\-coordinate files can be visualized by IGV. RSEM also has its own scripts to generate transcript read depth plots in pdf format. The unique feature of RSEM is\, the read depth plots can be stacked\, with read depth contributed to unique reads shown in black and contributed to multi\-reads shown in red. In addition\, models learned from data can also be visualized. Last but not least\, RSEM contains a simulator.
+   RSEM is a software package for estimating gene and isoform expression levels from RNA\-Seq data.
 
    :homepage: https://deweylab.github.io/RSEM/
-   :license: GPLv3
+   :license: GPL3
    :recipe: /`rsem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rsem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rsem/meta.yaml>`_
    :links: doi: :doi:`10.1186/1471-2105-12-323`, biotools: :biotools:`rsem`
 
-   
+   \"RSEM is a software package for estimating gene and isoform expression levels from RNA\-Seq data. \"
+   \"The RSEM package provides an user\-friendly interface\, supports threads for parallel computation \"
+   \"of the EM algorithm\, single\-end and paired\-end read data\, quality scores\, variable\-length reads \"
+   \"and RSPD estimation. In addition\, it provides posterior mean and 95\% credibility interval \"
+   \"estimates for expression levels. For visualization\, It can generate BAM and Wiggle files in both \"
+   \"transcript\-coordinate and genomic\-coordinate. Genomic\-coordinate files can be visualized by both \"
+   \"UCSC Genome browser and Broad Institute\'s Integrative Genomics Viewer \(IGV\). Transcript\-coordinate \"
+   \"files can be visualized by IGV. RSEM also has its own scripts to generate transcript read depth \"
+   \"plots in pdf format. The unique feature of RSEM is\, the read depth plots can be stacked\, with read \"
+   \"depth contributed to unique reads shown in black and contributed to multi\-reads shown in red. In \"
+   \"addition\, models learned from data can also be visualized. Last but not least\, RSEM contains a \"
+   \"simulator.\"
+
 
 
 .. conda:package:: rsem
 
    |downloads_rsem| |docker_rsem|
 
-   :versions: 1.3.2-0, 1.3.1-1, 1.3.1-0, 1.3.0-4, 1.3.0-3, 1.3.0-2, 1.3.0-1, 1.3.0-0, 1.2.28-2, 1.2.28-0, 1.2.22-0, 1.2.21-5, 1.2.21-4, 1.2.21-3
+   :versions: 1.3.2-1, 1.3.2-0, 1.3.1-1, 1.3.1-0, 1.3.0-4, 1.3.0-3, 1.3.0-2, 1.3.0-1, 1.3.0-0, 1.2.28-2, 1.2.28-0, 1.2.22-0, 1.2.21-5, 1.2.21-4, 1.2.21-3
    
    :depends bioconductor-biobase: 
    :depends bioconductor-ebseq: 
    :depends htslib: >=1.9,<1.10.0a0
    :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-module-build: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: 
    :depends samtools: 
    :depends ucsc-bigwigsummary: 
-   :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
    .. rubric:: Installation

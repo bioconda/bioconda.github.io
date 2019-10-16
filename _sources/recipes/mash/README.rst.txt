@@ -12,7 +12,7 @@ mash
    Fast sequence distance estimator that uses MinHash
 
    :homepage: https://github.com/marbl/Mash
-   :license: https://raw.githubusercontent.com/marbl/Mash/master/LICENSE.txt
+   :license: https://github.com/marbl/Mash/blob/master/LICENSE.txt
    :recipe: /`mash <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mash>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mash/meta.yaml>`_
 
    
@@ -22,7 +22,7 @@ mash
 
    |downloads_mash| |docker_mash|
 
-   :versions: 2.2.1-0, 2.2-0, 2.1.1-0, 2.1-1, 2.1-0, 2.0-3, 2.0-2, 2.0-1, 2.0-0, 1.1-0, 1.0.2-2, 1.0.2-1
+   :versions: 2.2.1-1, 2.2.1-0, 2.2-0, 2.1.1-0, 2.1-1, 2.1-0, 2.0-3, 2.0-2, 2.0-1, 2.0-0, 1.1-0, 1.0.2-2, 1.0.2-1
    
    :depends capnproto: 
    :depends gsl: >=2.5,<2.6.0a0

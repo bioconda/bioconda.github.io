@@ -22,12 +22,12 @@ preseq
 
    |downloads_preseq| |docker_preseq|
 
-   :versions: 2.0.3-2, 2.0.3-1, 2.0.3-0, 2.0.2-0
+   :versions: 2.0.3-3, 2.0.3-2, 2.0.3-1, 2.0.3-0, 2.0.2-0
    
-   :depends gsl: >=2.2.1,<2.3.0a0
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
-   :depends openblas: >=0.2.20,<0.2.21.0a0
+   :depends gsl: >=2.5,<2.6.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends openblas: >=0.3.6,<0.3.7.0a0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
