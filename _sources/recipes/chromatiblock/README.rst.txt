@@ -22,7 +22,7 @@ chromatiblock
 
    |downloads_chromatiblock| |docker_chromatiblock|
 
-   :versions: 0.3.0-0
+   :versions: 0.3.1-0, 0.3.0-0
    
    :depends blast: >=2.2
    :depends cairosvg: 

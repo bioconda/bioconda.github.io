@@ -9,7 +9,7 @@ mitos
 .. conda:recipe:: mitos
    :replaces_section_title:
 
-   MITOS is a tool for the annotation of metazoan mitochondrial genomes. Besides MITOS the package contains scripts for the handing of mitochondrial genomes and their annotations.
+   MITOS is a tool for the annotation of metazoan mitochondrial genomes.
 
    :homepage: http://mitos.bioinf.uni-leipzig.de
    :developer docs: https://gitlab.com/Bernt/MITOS
@@ -23,10 +23,10 @@ mitos
 
    |downloads_mitos| |docker_mitos|
 
-   :versions: 2.0.1-0, 1.0.1-1, 1.0.1-0
+   :versions: 2.0.2-1, 2.0.2-0, 2.0.1-0, 1.0.2-0, 1.0.1-1, 1.0.1-0
    
    :depends biopython: 1.73
-   :depends blast-legacy: 2.2.*
+   :depends blast: 2.9.*
    :depends ete2: 2.3.*
    :depends hmmer: 3.2.*
    :depends infernal: 1.1.*

@@ -22,8 +22,9 @@ kleborate
 
    |downloads_kleborate| |docker_kleborate|
 
-   :versions: 0.3.0-0
+   :versions: 1.0.0-0, 0.3.0-0
    
+   :depends biopython: 
    :depends blast: >=2.2.31
    :depends mash: 
    :depends python: 
