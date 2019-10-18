@@ -23,7 +23,7 @@ t-coffee
 
    |downloads_t-coffee| |docker_t-coffee|
 
-   :versions: 13.39.0.d675aed-0, 12.00.7fb08c2-2, 12.00.7fb08c2-1, 12.00.7fb08c2-0, 11.00.8cbe486-0
+   :versions: 13.39.0.d675aed-1, 13.39.0.d675aed-0, 12.00.7fb08c2-2, 12.00.7fb08c2-1, 12.00.7fb08c2-0, 11.00.8cbe486-0
    
    :depends blast: 
    :depends clustalo: 
@@ -40,6 +40,7 @@ t-coffee
    :depends phylip: 
    :depends poa: 2.0.*
    :depends prank: 
+   :depends ruby: 
    :depends tmalign: 
    :depends viennarna: 2.1.9.*
    :requirements:

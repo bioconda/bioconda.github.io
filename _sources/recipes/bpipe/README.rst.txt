@@ -23,7 +23,7 @@ bpipe
 
    |downloads_bpipe| |docker_bpipe|
 
-   :versions: 0.9.9.7-0, 0.9.9.2-0
+   :versions: 0.9.9.8-0, 0.9.9.7-0, 0.9.9.2-0
    
    :depends coreutils: 
    :depends openjdk: 

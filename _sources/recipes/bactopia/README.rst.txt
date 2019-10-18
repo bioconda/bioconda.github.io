@@ -22,7 +22,7 @@ bactopia
 
    |downloads_bactopia| |docker_bactopia|
 
-   :versions: 1.1.0-1, 1.1.0-0, 1.0.1-0
+   :versions: 1.2.1-0, 1.2.0-0, 1.1.0-1, 1.1.0-0, 1.0.1-0
    
    :depends ariba: 
    :depends beautifulsoup4: 
@@ -37,8 +37,8 @@ bactopia
    :depends nextflow: 
    :depends pysam: >=0.15.3
    :depends python: >3.6
+   :depends requests: 
    :depends unzip: 
-   :depends urllib3: 
    :depends wget: 
    :requirements:
 
