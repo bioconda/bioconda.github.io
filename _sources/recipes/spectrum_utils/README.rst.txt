@@ -24,15 +24,16 @@ spectrum_utils
 
    |downloads_spectrum_utils| |docker_spectrum_utils|
 
-   :versions: 0.3.2-0, 0.3.0-0, 0.2.1-0, 0.2.0-0, 0.1.0-0
+   :versions: 0.3.2-1, 0.3.2-0, 0.3.0-0, 0.2.1-0, 0.2.0-0, 0.1.0-0
    
    :depends altair: 
    :depends matplotlib: 
-   :depends numba: 
+   :depends numba: >=0.41
    :depends numpy: 
    :depends pandas: 
    :depends pyteomics: 
    :depends python: >=3.6
+   :depends rdkit: 
    :requirements:
 
    .. rubric:: Installation

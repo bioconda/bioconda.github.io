@@ -26,7 +26,7 @@ deeplift
 
    |downloads_deeplift| |docker_deeplift|
 
-   :versions: 0.6.9.0-0
+   :versions: 0.6.9.1-0, 0.6.9.0-0
    
    :depends numpy: >=1.9
    :depends python: 

@@ -22,14 +22,18 @@ svtools
 
    |downloads_svtools| |docker_svtools|
 
-   :versions: 0.4.0-2, 0.3.2-2, 0.3.2-0, 0.3.1-3, 0.3.1-2, 0.3.1-1, 0.3.0-2, 0.3.0-1, 0.2.0-2, 0.2.0-1, 0.2.0-0, 0.1.1-2, 0.1.1-0
+   :versions: 0.5.1-0, 0.4.0-2, 0.3.2-2, 0.3.2-0, 0.3.1-3, 0.3.1-2, 0.3.1-1, 0.3.0-2, 0.3.0-1, 0.2.0-2, 0.2.0-1, 0.2.0-0, 0.1.1-2, 0.1.1-0
    
+   :depends crcmod: 
+   :depends google-auth: 
+   :depends google-compute-engine: 
+   :depends logzero: 
    :depends numpy: 
-   :depends pandas: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends pandas: 0.19.2.*
+   :depends python: <3
    :depends scipy: 
    :depends statsmodels: 
-   :depends svtyper: 0.7.0
+   :depends svtyper: 0.7.1.*
    :requirements:
 
    .. rubric:: Installation

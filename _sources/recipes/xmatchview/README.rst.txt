@@ -24,10 +24,12 @@ xmatchview
 
    |downloads_xmatchview| |docker_xmatchview|
 
-   :versions: 1.1.1-0, v1.1.1-0
+   :versions: 1.2.0-0, 1.1.1-0, v1.1.1-0
    
-   :depends pil: 
-   :depends python: 2.7.*
+   :depends minimap2: 
+   :depends pillow: 
+   :depends pip: 
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

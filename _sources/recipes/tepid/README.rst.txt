@@ -22,20 +22,18 @@ tepid
 
    |downloads_tepid| |docker_tepid|
 
-   :versions: 0.8-1, 0.8-0, 0.7-0
+   :versions: 0.8-2, 0.8-1, 0.8-0, 0.7-0
    
-   :depends bedtools: 2.25.0
+   :depends bedtools: >=2.25.0
    :depends bowtie2: 
-   :depends libgcc-ng: >=4.9
-   :depends libgfortran: 1.0
    :depends nose: 
-   :depends numpy: 1.9.2
+   :depends numpy: >=1.9.2
    :depends pandas: 
    :depends pybedtools: 
    :depends pysam: <0.9,>0.8
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends samblaster: 
-   :depends samtools: 1.2
+   :depends samtools: >=1.4
    :depends yaha: 
    :requirements:
 
