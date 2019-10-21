@@ -23,7 +23,7 @@ scanpy
 
    |downloads_scanpy| |docker_scanpy|
 
-   :versions: 1.4.4-1, 1.4.4-0, 1.4.3-0, 1.4.2-0, 1.4.1-0, 1.4-0, 1.3.7-0, 1.3.6-0, 1.3.5-0, 1.3.4-0, 1.3.3-0, 1.3.2-0, 1.3.1-0
+   :versions: 1.4.4.post1-0, 1.4.4-1, 1.4.4-0, 1.4.3-0, 1.4.2-0, 1.4.1-0, 1.4-0, 1.3.7-0, 1.3.6-0, 1.3.5-0, 1.3.4-0, 1.3.3-0, 1.3.2-0, 1.3.1-0
    
    :depends anndata: >=0.6.10
    :depends h5py: 
@@ -40,7 +40,6 @@ scanpy
    :depends scikit-learn: 
    :depends scipy: 
    :depends seaborn: 
-   :depends setuptools: 
    :depends statsmodels: 
    :depends tqdm: 
    :depends umap-learn: 
