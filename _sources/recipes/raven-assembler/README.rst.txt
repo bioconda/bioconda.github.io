@@ -22,7 +22,7 @@ raven-assembler
 
    |downloads_raven-assembler| |docker_raven-assembler|
 
-   :versions: 0.0.1-0, 0.0.0-0
+   :versions: 0.0.5-0, 0.0.1-0, 0.0.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

@@ -23,13 +23,14 @@ kat
 
    |downloads_kat| |docker_kat|
 
-   :versions: 2.4.1-3, 2.4.1-2, 2.4.1-1, 2.4.0-3, 2.4.0-2, 2.4.0-1, 2.3.4-1, 2.3.4-0, 2.3.1-2, 2.3.1-1, 2.0.8-4, 2.0.8-3, 2.0.8-2, 2.0.8-1, 2.0.8-0
+   :versions: 2.4.2-0, 2.4.1-3, 2.4.1-2, 2.4.1-1, 2.4.0-3, 2.4.0-2, 2.4.0-1, 2.3.4-1, 2.3.4-0, 2.3.1-2, 2.3.1-1, 2.0.8-4, 2.0.8-3, 2.0.8-2, 2.0.8-1, 2.0.8-0
    
-   :depends cycler: 
-   :depends libgcc-ng: >=4.9
+   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends matplotlib: 
    :depends numpy: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3.6,<3.7.0a0
    :depends scipy: 
    :depends tabulate: 
    :depends zlib: >=1.2.11,<1.3.0a0

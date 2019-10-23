@@ -22,11 +22,10 @@ hca-matrix-downloader
 
    |downloads_hca-matrix-downloader| |docker_hca-matrix-downloader|
 
-   :versions: 0.0.2-0
+   :versions: 0.0.3-0, 0.0.2-0
    
    :depends python: >=3
    :depends requests: 
-   :depends setuptools: 
    :requirements:
 
    .. rubric:: Installation
