@@ -502,6 +502,23 @@
 <span class="s1">     already present in one of these channels will be skipped. The default is</span>
 <span class="s1">     the first two channels specified in the config file. Note that this is</span>
 <span class="s1">     ignored if you specify --git-range.&#39;&#39;&#39;</span><span class="p">)</span>
+<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--n-workers&#39;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">int</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+     <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;The number of parallel workers that are in use. This is intended</span>
+<span class="s1">     for use in cases such as the &quot;bulk&quot; branch, where there are multiple</span>
+<span class="s1">     parallel workers building and uploading recipes. In essence, this causes</span>
+<span class="s1">     bioconda-utils to process every Nth sub-DAG, where N is the value you give</span>
+<span class="s1">     to this option. The default is 1, which is intended for cases where there</span>
+<span class="s1">     are NOT parallel workers (i.e., the majority of cases). This should</span>
+<span class="s1">     generally NOT be used in conjunctions with the --packages or --git-range</span>
+<span class="s1">     options!&#39;&#39;&#39;</span><span class="p">)</span>
+<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--worker-offset&#39;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">int</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+     <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;This is only used if --nWorkers is &gt;1. In that case, then each</span>
+<span class="s1">     instance of bioconda-utils will process every Nth sub-DAG. This option</span>
+<span class="s1">     gives the 0-based offset for that. For example, if &quot;--n-workers 5 --worker-offset 0&quot;</span>
+<span class="s1">     is used, then this instance of bioconda-utils will process the 1st, 6th,</span>
+<span class="s1">     11th, etc. sub-DAGs. Equivalently, using &quot;--n-workers 5 --worker-offset 1&quot;</span>
+<span class="s1">     will result in sub-DAGs 2, 7, 12, etc. being processed. If you use more</span>
+<span class="s1">     than one worker, then make sure to give each a different offset!&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--keep-old-work&#39;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s1">&#39;store_true&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Do not remove anything</span>
 <span class="s1">from environment, even after successful build and test.&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@enable_logging</span><span class="p">()</span>
@@ -509,7 +526,7 @@
           <span class="n">force</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">docker</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">mulled_test</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">build_script_template</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
           <span class="n">pkg_dir</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">anaconda_upload</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">mulled_upload_target</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
           <span class="n">build_image</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">keep_image</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">lint</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">lint_exclude</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-          <span class="n">check_channels</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">keep_old_work</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+          <span class="n">check_channels</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">n_workers</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">worker_offset</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">keep_old_work</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
     <span class="n">cfg</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">load_config</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
     <span class="n">setup</span> <span class="o">=</span> <span class="n">cfg</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;setup&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">setup</span><span class="p">:</span>
@@ -555,6 +572,8 @@
                             <span class="n">lint_exclude</span><span class="o">=</span><span class="n">lint_exclude</span><span class="p">,</span>
                             <span class="n">check_channels</span><span class="o">=</span><span class="n">check_channels</span><span class="p">,</span>
                             <span class="n">label</span><span class="o">=</span><span class="n">label</span><span class="p">,</span>
+                            <span class="n">n_workers</span><span class="o">=</span><span class="n">n_workers</span><span class="p">,</span>
+                            <span class="n">worker_offset</span><span class="o">=</span><span class="n">worker_offset</span><span class="p">,</span>
                             <span class="n">keep_old_work</span><span class="o">=</span><span class="n">keep_old_work</span><span class="p">)</span>
     <span class="n">exit</span><span class="p">(</span><span class="mi">0</span> <span class="k">if</span> <span class="n">success</span> <span class="k">else</span> <span class="mi">1</span><span class="p">)</span>
 

@@ -9,7 +9,7 @@ microhapdb
 .. conda:recipe:: microhapdb
    :replaces_section_title:
 
-   Data package providing convenient programmatic access to published microhaplotype data.
+   Portable database of microhaplotype marker and allele frequency data.
 
    :homepage: https://github.com/bioforensics/MicroHapDB/
    :license: BSD / BSD License
@@ -22,7 +22,7 @@ microhapdb
 
    |downloads_microhapdb| |docker_microhapdb|
 
-   :versions: 0.3-0, 0.2-0
+   :versions: 0.4.1-0, 0.3-0, 0.2-0
    
    :depends pandas: 
    :depends python: >=3

@@ -107,6 +107,7 @@
 <span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">defaultdict</span><span class="p">,</span> <span class="n">namedtuple</span>
 <span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">import</span> <span class="nn">logging</span>
+<span class="kn">import</span> <span class="nn">itertools</span>
 
 <span class="kn">from</span> <span class="nn">typing</span> <span class="k">import</span> <span class="n">List</span>
 
@@ -284,34 +285,38 @@
     <span class="k">return</span> <span class="n">dag</span><span class="o">.</span><span class="n">subgraph</span><span class="p">(</span><span class="n">name</span> <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">dag</span> <span class="k">if</span> <span class="n">name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">nodes_in_cycles</span><span class="p">)</span>
 
 
-<span class="k">def</span> <span class="nf">get_subdags</span><span class="p">(</span><span class="n">dag</span><span class="p">,</span> <span class="n">testonly</span><span class="p">):</span>
-    <span class="n">subdags_n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;SUBDAGS&quot;</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
-    <span class="n">subdag_i</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;SUBDAG&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
-    <span class="k">if</span> <span class="n">subdag_i</span> <span class="o">&gt;=</span> <span class="n">subdags_n</span><span class="p">:</span>
+<span class="k">def</span> <span class="nf">get_subdags</span><span class="p">(</span><span class="n">dag</span><span class="p">,</span> <span class="n">n_workers</span><span class="p">,</span> <span class="n">worker_offset</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">n_workers</span> <span class="o">&gt;</span> <span class="mi">1</span> <span class="ow">and</span> <span class="n">worker_offset</span> <span class="o">&gt;=</span> <span class="n">n_workers</span><span class="p">:</span>
         <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
-            <span class="s2">&quot;SUBDAG=</span><span class="si">%s</span><span class="s2"> (zero-based) but only SUBDAGS=</span><span class="si">%s</span><span class="s2"> &quot;</span>
-            <span class="s2">&quot;subdags are available&quot;</span><span class="p">)</span>
+            <span class="s2">&quot;n-workers is less than the worker-offset given! &quot;</span>
+            <span class="s2">&quot;Either decrease --n-workers or decrease --worker-offset!&quot;</span><span class="p">)</span>
 
     <span class="c1"># Get connected subdags and sort by nodes</span>
-    <span class="k">if</span> <span class="n">testonly</span><span class="p">:</span>
-        <span class="c1"># use each node as a subdag (they are grouped into equal sizes below)</span>
-        <span class="n">node_lists</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">([[</span><span class="n">n</span><span class="p">]</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">nx</span><span class="o">.</span><span class="n">nodes</span><span class="p">(</span><span class="n">dag</span><span class="p">)])</span>
+    <span class="k">if</span> <span class="n">n_workers</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="n">root_nodes</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">([</span><span class="n">k</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">dag</span><span class="o">.</span><span class="n">in_degree</span><span class="p">()</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="n">v</span> <span class="o">==</span> <span class="mi">0</span><span class="p">])</span>
+        <span class="n">nodes</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="n">found</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">root_node</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">root_nodes</span><span class="p">):</span>
+            <span class="c1"># Flatten the nested list</span>
+            <span class="n">children</span> <span class="o">=</span> <span class="n">itertools</span><span class="o">.</span><span class="n">chain</span><span class="p">(</span><span class="o">*</span><span class="n">nx</span><span class="o">.</span><span class="n">dfs_successors</span><span class="p">(</span><span class="n">dag</span><span class="p">,</span> <span class="n">root_node</span><span class="p">)</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
+            <span class="c1"># This is the only obvious way of ensuring that all nodes are included</span>
+            <span class="c1"># in exactly 1 subgraph</span>
+            <span class="n">found</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">root_node</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">idx</span> <span class="o">%</span> <span class="n">n_workers</span> <span class="o">==</span> <span class="n">worker_offset</span><span class="p">:</span>
+                <span class="n">nodes</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">root_node</span><span class="p">)</span>
+                <span class="k">for</span> <span class="n">child</span> <span class="ow">in</span> <span class="n">children</span><span class="p">:</span>
+                    <span class="k">if</span> <span class="n">child</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">found</span><span class="p">:</span>
+                        <span class="n">nodes</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">child</span><span class="p">)</span>
+                        <span class="n">found</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">child</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">for</span> <span class="n">child</span> <span class="ow">in</span> <span class="n">children</span><span class="p">:</span>
+                    <span class="n">found</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">child</span><span class="p">)</span>
+        <span class="n">subdags</span> <span class="o">=</span> <span class="n">dag</span><span class="o">.</span><span class="n">subgraph</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">nodes</span><span class="p">))</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Building and testing sub-DAGs </span><span class="si">%i</span><span class="s2"> in each group of </span><span class="si">%i</span><span class="s2">, which is </span><span class="si">%i</span><span class="s2"> packages&quot;</span><span class="p">,</span> <span class="n">worker_offset</span><span class="p">,</span> <span class="n">n_workers</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">subdags</span><span class="o">.</span><span class="n">nodes</span><span class="p">()))</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="n">node_lists</span> <span class="o">=</span> <span class="p">[</span><span class="nb">list</span><span class="p">(</span><span class="n">nodes</span><span class="p">)</span> <span class="k">for</span> <span class="n">nodes</span> <span class="ow">in</span> <span class="n">nx</span><span class="o">.</span><span class="n">connected_components</span><span class="p">(</span><span class="n">dag</span><span class="o">.</span><span class="n">to_undirected</span><span class="p">())]</span>
+        <span class="n">subdags</span> <span class="o">=</span> <span class="n">dag</span>
 
-    <span class="c1"># chunk subdags such that we have at most subdags_n many</span>
-    <span class="k">if</span> <span class="n">subdags_n</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">node_lists</span><span class="p">):</span>
-        <span class="n">chunks</span> <span class="o">=</span> <span class="p">[[</span><span class="n">node</span> <span class="k">for</span> <span class="n">nodes</span> <span class="ow">in</span> <span class="n">node_lists</span><span class="p">[</span><span class="n">i</span><span class="p">::</span><span class="n">subdags_n</span><span class="p">]</span> <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">nodes</span><span class="p">]</span>
-                  <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">subdags_n</span><span class="p">)]</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="n">chunks</span> <span class="o">=</span> <span class="n">node_lists</span>
-
-    <span class="k">if</span> <span class="n">subdag_i</span> <span class="o">&gt;=</span> <span class="nb">len</span><span class="p">(</span><span class="n">chunks</span><span class="p">):</span>
-        <span class="k">return</span> <span class="n">dag</span><span class="o">.</span><span class="n">subgraph</span><span class="p">([])</span>
-
-    <span class="n">subdag</span> <span class="o">=</span> <span class="n">dag</span><span class="o">.</span><span class="n">subgraph</span><span class="p">(</span><span class="n">chunks</span><span class="p">[</span><span class="n">subdag_i</span><span class="p">])</span>
-    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Building and testing subdag </span><span class="si">%s</span><span class="s2"> of </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">subdag_i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">subdags_n</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">subdag</span>
+    <span class="k">return</span> <span class="n">subdags</span>
 
 
 <div class="viewcode-block" id="build_recipes"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.build.html#bioconda_utils.build.build_recipes">[docs]</a><span class="k">def</span> <span class="nf">build_recipes</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">config_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">recipes</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span>
@@ -324,6 +329,8 @@
                   <span class="n">check_channels</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                   <span class="n">do_lint</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
                   <span class="n">lint_exclude</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+                  <span class="n">n_workers</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+                  <span class="n">worker_offset</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
                   <span class="n">keep_old_work</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Build one or many bioconda packages.</span>
@@ -343,9 +350,13 @@
 <span class="sd">      mulled_upload_target: If specified, upload the mulled docker image to the given target</span>
 <span class="sd">        on quay.io.</span>
 <span class="sd">      check_channels: Channels to check to see if packages already exist in them.</span>
-<span class="sd">        Fefaults to every channel in the config file except &quot;defaults&quot;.</span>
+<span class="sd">        Defaults to every channel in the config file except &quot;defaults&quot;.</span>
 <span class="sd">      do_lint: Whether to run linter</span>
 <span class="sd">      lint_exclude: List of linting functions to exclude.</span>
+<span class="sd">      n_workers: The number of parallel instances of bioconda-utils being run. The</span>
+<span class="sd">        sub-DAGs are then split into groups of n_workers size.</span>
+<span class="sd">      worker_offset: If n_workers is &gt;1, then every worker_offset within a given group of</span>
+<span class="sd">        sub-DAGs will be processed.</span>
 <span class="sd">      keep_old_work: Do not remove anything from environment, even after successful build and test.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="n">recipes</span><span class="p">:</span>
@@ -380,15 +391,13 @@
         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Nothing to be done.&quot;</span><span class="p">)</span>
         <span class="k">return</span> <span class="kc">True</span>
 
-    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Building and testing </span><span class="si">%s</span><span class="s2"> recipes in total&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">dag</span><span class="p">))</span>
-    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Recipes to build: </span><span class="se">\n</span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">dag</span><span class="o">.</span><span class="n">nodes</span><span class="p">()))</span>
-
     <span class="n">skip_dependent</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>
-    <span class="n">subdag</span> <span class="o">=</span> <span class="n">get_subdags</span><span class="p">(</span><span class="n">dag</span><span class="p">,</span> <span class="n">testonly</span><span class="p">)</span>
-    <span class="n">subdag</span> <span class="o">=</span> <span class="n">remove_cycles</span><span class="p">(</span><span class="n">subdag</span><span class="p">,</span> <span class="n">name2recipes</span><span class="p">,</span> <span class="n">failed</span><span class="p">,</span> <span class="n">skip_dependent</span><span class="p">)</span>
+    <span class="n">dag</span> <span class="o">=</span> <span class="n">remove_cycles</span><span class="p">(</span><span class="n">dag</span><span class="p">,</span> <span class="n">name2recipes</span><span class="p">,</span> <span class="n">failed</span><span class="p">,</span> <span class="n">skip_dependent</span><span class="p">)</span>
+    <span class="n">subdag</span> <span class="o">=</span> <span class="n">get_subdags</span><span class="p">(</span><span class="n">dag</span><span class="p">,</span> <span class="n">n_workers</span><span class="p">,</span> <span class="n">worker_offset</span><span class="p">)</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="n">subdag</span><span class="p">:</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Nothing to be done.&quot;</span><span class="p">)</span>
         <span class="k">return</span> <span class="kc">True</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%i</span><span class="s2"> recipes to build and test: </span><span class="se">\n</span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">subdag</span><span class="p">),</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">subdag</span><span class="o">.</span><span class="n">nodes</span><span class="p">()))</span>
 
     <span class="n">recipe2name</span> <span class="o">=</span> <span class="p">{}</span>
     <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">recipe_list</span> <span class="ow">in</span> <span class="n">name2recipes</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>

@@ -22,7 +22,7 @@ igv-reports
 
    |downloads_igv-reports| |docker_igv-reports|
 
-   :versions: 0.9.6-0, 0.9.5-0, 0.9.4-0, 0.9.3-0, 0.9.2-0, 0.9.1-0, 0.9.0-0, 0.2.1-0
+   :versions: 0.9.7-0, 0.9.6-0, 0.9.5-0, 0.9.4-0, 0.9.3-0, 0.9.2-0, 0.9.1-0, 0.9.0-0, 0.2.1-0
    
    :depends intervaltree: 
    :depends pysam: 
