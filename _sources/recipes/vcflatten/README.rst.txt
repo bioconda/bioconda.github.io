@@ -22,7 +22,7 @@ vcflatten
 
    |downloads_vcflatten| |docker_vcflatten|
 
-   :versions: 0.5.2-2, 0.5.2-1, 0.5.2-0
+   :versions: 0.5.2-3, 0.5.2-2, 0.5.2-1, 0.5.2-0
    
    :depends openjdk: 
    :requirements:

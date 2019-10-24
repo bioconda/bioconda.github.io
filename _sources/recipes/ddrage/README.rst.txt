@@ -22,15 +22,15 @@ ddrage
 
    |downloads_ddrage| |docker_ddrage|
 
-   :versions: 1.6.3-0, 1.6.1-0, 1.5.2-0, 1.5.1-0, 1.4.0-1, 1.4.0-0, 1.3.1-0, 1.3.0-0, 1.2.2-0, 1.1.4-0
+   :versions: 1.6.3-1, 1.6.3-0, 1.6.1-0, 1.5.2-0, 1.5.1-0, 1.4.0-1, 1.4.0-0, 1.3.1-0, 1.3.0-0, 1.2.2-0, 1.1.4-0
    
    :depends dinopy: 
    :depends matplotlib: 
    :depends numba: 
    :depends numpy: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :depends pyyaml: 
-   :depends scipy: 
+   :depends scipy: 1.2.1.*
    :depends seaborn: 
    :requirements:
 

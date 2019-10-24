@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;r-ridigbio&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;r-acidbase&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -98,66 +98,69 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="r-ridigbio">
+  <div class="section" id="r-acidbase">
 <dl class="recipe">
-<dt id="recipe-r-ridigbio">
-<em class="property">recipe </em><code class="sig-name descname">r-ridigbio</code><a class="headerlink" href="#recipe-r-ridigbio" title="Permalink to this definition">¶</a></dt>
-<dd><p>An interface to iDigBio’s search API that allows downloading specimen records. Searches are returned as a data.frame. Other functions such as the metadata end points return lists of information. iDigBio is a US project focused on digitizing and serving museum specimen collections on the web. See &lt;https://www.idigbio.org&gt; for information on iDigBio.</p>
+<dt id="recipe-r-acidbase">
+<em class="property">recipe </em><code class="sig-name descname">r-acidbase</code><a class="headerlink" href="#recipe-r-acidbase" title="Permalink to this definition">¶</a></dt>
+<dd><p>Low-level base functions imported by Acid Genomics packages.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/iDigBio/ridigbio">https://github.com/iDigBio/ridigbio</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://acidbase.acidgenomics.com/">https://acidbase.acidgenomics.com/</a></p>
 </dd>
-<dt class="field-even">License</dt>
-<dd class="field-even"><p>MIT / MIT</p>
+<dt class="field-even">Developer docs</dt>
+<dd class="field-even"><p><a class="reference external" href="https://github.com/acidgenomics/acidbase">https://github.com/acidgenomics/acidbase</a></p>
 </dd>
-<dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ridigbio">r-ridigbio</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ridigbio/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License</dt>
+<dd class="field-odd"><p>MIT</p>
+</dd>
+<dt class="field-even">Recipe</dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidbase">r-acidbase</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidbase/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-r-ridigbio">
-<em class="property">package </em><code class="sig-name descname">r-ridigbio</code><a class="headerlink" href="#package-r-ridigbio" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-ridigbio"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-ridigbio.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-ridigbio"><img alt="docker_r-ridigbio" src="https://quay.io/repository/biocontainers/r-ridigbio/status" /></a></p>
+<dt id="package-r-acidbase">
+<em class="property">package </em><code class="sig-name descname">r-acidbase</code><a class="headerlink" href="#package-r-acidbase" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-acidbase"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-acidbase.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-acidbase"><img alt="docker_r-acidbase" src="https://quay.io/repository/biocontainers/r-acidbase/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>0.3.5-3, 0.3.5-2, 0.3.5-0</p>
+<dd class="field-odd"><p>0.1.1-0</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-httr-feedstock"><strong>r-httr</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-jsonlite-feedstock"><strong>r-jsonlite</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-plyr-feedstock"><strong>r-plyr</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.6,&lt;3.7.0a0</p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../r-spocc/README.html#r-spocc"><strong class="xref backref">r-spocc</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../r-goalie/README.html#r-goalie"><strong class="xref backref">r-goalie</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../r-syntactic/README.html#r-syntactic"><strong class="xref backref">r-syntactic</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../r-transformer/README.html#r-transformer"><strong class="xref backref">r-transformer</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../r-freerange/README.html#r-freerange"><strong class="xref backref">r-freerange</strong></a></p></li>
 </ul>
 </dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">ridigbio</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">acidbase</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">ridigbio</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">acidbase</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">r</span><span class="o">-</span><span class="n">ridigbio</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">r</span><span class="o">-</span><span class="n">acidbase</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/r-ridigbio?tab=tags">r-ridigbio/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/r-acidbase?tab=tags">r-acidbase/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-ridigbio/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-ridigbio/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-acidbase/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-acidbase/README.html)
 </pre></div>
 </div>
 </div>
@@ -178,14 +181,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/r-ridigbio/README.rst.txt"
+      <a href="../../_sources/recipes/r-acidbase/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/r-ridigbio/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/r-acidbase/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

@@ -24,7 +24,7 @@ kmasker
 
    |downloads_kmasker| |docker_kmasker|
 
-   :versions: 1.1.0-0
+   :versions: 1.1.1-0, 1.1.0-0
    
    :depends blast: 
    :depends coreutils: >=8.15

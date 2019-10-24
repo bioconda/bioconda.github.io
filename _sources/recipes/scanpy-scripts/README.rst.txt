@@ -22,15 +22,17 @@ scanpy-scripts
 
    |downloads_scanpy-scripts| |docker_scanpy-scripts|
 
-   :versions: 0.2.4.post4-2, 0.2.4.post4-1, 0.2.4.post4-0, 0.2.4.post3-0, 0.2.4.post1-0, 0.2.4-0, 0.2.2-0, 0.0.5-2, 0.0.5-1, 0.0.5-0, 0.0.4-2, 0.0.4-1, 0.0.3-1, 0.0.2-0
+   :versions: 0.2.5-0, 0.2.4.post4-3, 0.2.4.post4-2, 0.2.4.post4-1, 0.2.4.post4-0, 0.2.4.post3-0, 0.2.4.post1-0, 0.2.4-0, 0.2.2-0, 0.0.5-2, 0.0.5-1, 0.0.5-0, 0.0.4-2, 0.0.4-1, 0.0.3-1, 0.0.2-0
    
    :depends anndata: <0.6.20
    :depends click: 
+   :depends h5py: <2.10
    :depends leidenalg: 
-   :depends loompy: 
+   :depends loompy: >=2.0.0,<3.0.0
    :depends louvain: 
    :depends matplotlib: 
    :depends multicore-tsne: 
+   :depends packaging: 
    :depends pandas: 
    :depends python: >=3
    :depends scanpy: >=1.4.2,<1.4.4

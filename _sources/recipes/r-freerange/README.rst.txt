@@ -23,7 +23,7 @@ r-freerange
 
    |downloads_r-freerange| |docker_r-freerange|
 
-   :versions: 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.1.6-0
+   :versions: 0.2.7-0, 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.1.6-0
    
    :depends bioconductor-annotationhub: >=2.16
    :depends bioconductor-biocgenerics: >=0.30
@@ -33,11 +33,12 @@ r-freerange
    :depends bioconductor-genomicranges: >=1.36
    :depends bioconductor-iranges: >=2.18.2
    :depends bioconductor-s4vectors: >=0.22
+   :depends r-acidbase: >=0.1.1
    :depends r-base: >=3.6,<3.7.0a0
-   :depends r-brio: >=0.3.8
-   :depends r-goalie: >=0.3.8
-   :depends r-syntactic: >=0.3.0
-   :depends r-transformer: >=0.2.7
+   :depends r-brio: >=0.3.13
+   :depends r-goalie: >=0.4.0
+   :depends r-syntactic: >=0.3.2
+   :depends r-transformer: >=0.2.8
    :requirements:
 
    .. rubric:: Installation
