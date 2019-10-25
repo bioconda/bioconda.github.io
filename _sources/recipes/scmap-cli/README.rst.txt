@@ -29,9 +29,10 @@ scmap-cli
 
    |downloads_scmap-cli| |docker_scmap-cli|
 
-   :versions: 0.0.2-0, 0.0.1-0
+   :versions: 0.0.3-0, 0.0.2-1, 0.0.2-0, 0.0.1-0
    
    :depends bioconductor-biobase: 
+   :depends bioconductor-loomexperiment: 
    :depends bioconductor-scmap: >=1.6.0,<1.7
    :depends bioconductor-singlecellexperiment: 
    :depends r-optparse: 

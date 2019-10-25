@@ -22,13 +22,14 @@ maxbin2
 
    |downloads_maxbin2| |docker_maxbin2|
 
-   :versions: 2.2.6-0, 2.2.4-1, 2.2.4-0, 2.2.1-1, 2.2.1-0
+   :versions: 2.2.7-0, 2.2.6-0, 2.2.4-1, 2.2.4-0, 2.2.1-1, 2.2.1-0
    
    :depends bowtie2: 
    :depends fraggenescan: >=1.30
    :depends hmmer: 
    :depends idba: 
    :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends perl-lwp-simple: 
    :depends r-base: 
    :depends r-gplots: 
