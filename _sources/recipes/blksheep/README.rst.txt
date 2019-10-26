@@ -25,7 +25,7 @@ blksheep
 
    |downloads_blksheep| |docker_blksheep|
 
-   :versions: 0.0.5-0, 0.0.3-0, 0.0.2-0
+   :versions: 0.0.6-0, 0.0.5-0, 0.0.3-0, 0.0.2-0
    
    :depends matplotlib: >=3.1.0
    :depends numpy: >=1.16.4

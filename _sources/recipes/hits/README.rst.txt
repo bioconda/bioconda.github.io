@@ -22,7 +22,7 @@ hits
 
    |downloads_hits| |docker_hits|
 
-   :versions: 0.0.7-0
+   :versions: 0.1-0, 0.0.7-0
    
    :depends biopython: >=1.72
    :depends bokeh: >=1.0.4

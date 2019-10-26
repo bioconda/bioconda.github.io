@@ -23,7 +23,7 @@ angsd
 
    |downloads_angsd| |docker_angsd|
 
-   :versions: 0.931-0, 0.923-0, 0.921-2, 0.921-1, 0.921-0, 0.910-0
+   :versions: 0.931-1, 0.931-0, 0.923-0, 0.921-2, 0.921-1, 0.921-0, 0.910-0
    
    :depends htslib: >=1.9,<1.10.0a0
    :depends libgcc-ng: >=7.3.0

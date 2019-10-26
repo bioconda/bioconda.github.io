@@ -11,10 +11,9 @@ plink
 
    Whole genome association analysis toolset\, designed to perform a range of basic\, large\-scale analyses in a computationally efficient manner.
 
-   :homepage: https://www.cog-genomics.org/plink
-   :license: GPLv3
+   :homepage: https://www.cog-genomics.org/plink2
+   :license: GPL
    :recipe: /`plink <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plink>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plink/meta.yaml>`_
-   :links: biotools: :biotools:`PLINK`, doi: :doi:`10.1086/519795`
 
    
 
@@ -23,11 +22,12 @@ plink
 
    |downloads_plink| |docker_plink|
 
-   :versions: 1.90b4-3, 1.90b4-2, 1.90b4-1, 1.90b4-0
+   :versions: 1.90b5-0, 1.90b4-3, 1.90b4-2, 1.90b4-1, 1.90b4-0
    
    :depends libgcc-ng: >=7.3.0
+   :depends libgfortran-ng: >=7,<8.0a0
    :depends libstdcxx-ng: >=7.3.0
-   :depends openblas: >=0.3.3,<0.3.4.0a0
+   :depends openblas: >=0.3.6,<0.3.7.0a0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

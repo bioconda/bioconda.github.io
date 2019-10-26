@@ -22,10 +22,10 @@ croo
 
    |downloads_croo| |docker_croo|
 
-   :versions: 0.1.8-0
+   :versions: 0.2.0-0, 0.1.8-0
    
-   :depends caper: 
-   :depends python: >=3
+   :depends caper: >=0.5.0
+   :depends python: >3.4.1
    :requirements:
 
    .. rubric:: Installation
