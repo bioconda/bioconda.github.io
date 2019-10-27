@@ -22,7 +22,7 @@ snns
 
    |downloads_snns| |docker_snns|
 
-   :versions: 4.3-1, 4.3-0
+   :versions: 4.3-2, 4.3-1, 4.3-0
    
    :depends bison: 
    :depends flex: 

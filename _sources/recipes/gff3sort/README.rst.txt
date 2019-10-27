@@ -22,9 +22,9 @@ gff3sort
 
    |downloads_gff3sort| |docker_gff3sort|
 
-   :versions: 0.1.a1a2bc9-0
+   :versions: 0.1.a1a2bc9-1, 0.1.a1a2bc9-0
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: 
    :depends perl-data-match: 
    :depends perl-sort-naturally: 
    :requirements:

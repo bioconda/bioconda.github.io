@@ -23,7 +23,7 @@ metaxa
 
    |downloads_metaxa| |docker_metaxa|
 
-   :versions: 2.2-0
+   :versions: 2.2-1, 2.2-0
    
    :depends blast: 2.2.*
    :depends hmmer: 3.1.*

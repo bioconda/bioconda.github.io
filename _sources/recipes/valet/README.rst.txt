@@ -22,13 +22,13 @@ valet
 
    |downloads_valet| |docker_valet|
 
-   :versions: 1.0-1, 1.0-0
+   :versions: 1.0-2, 1.0-1, 1.0-0
    
    :depends bedtools: 
    :depends bowtie2: 
    :depends numpy: 
    :depends perl: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends r-base: 
    :depends samtools: 
    :depends scipy: 

@@ -22,7 +22,7 @@ damidseq_pipeline
 
    |downloads_damidseq_pipeline| |docker_damidseq_pipeline|
 
-   :versions: 1.4-2, 1.4-1, 1.4-0
+   :versions: 1.4-3, 1.4-2, 1.4-1, 1.4-0
    
    :depends bowtie2: >=2.3.0
    :depends igvtools: 

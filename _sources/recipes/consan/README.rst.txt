@@ -22,9 +22,9 @@ consan
 
    |downloads_consan| |docker_consan|
 
-   :versions: 1.2-0
+   :versions: 1.2-1, 1.2-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

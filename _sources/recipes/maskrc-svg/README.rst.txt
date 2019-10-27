@@ -22,7 +22,7 @@ maskrc-svg
 
    |downloads_maskrc-svg| |docker_maskrc-svg|
 
-   :versions: 0.5-0
+   :versions: 0.5-1, 0.5-0
    
    :depends bcbio-gff: 
    :depends biopython: 

@@ -22,12 +22,12 @@ gatb
 
    |downloads_gatb| |docker_gatb|
 
-   :versions: 1.4.1-0
+   :versions: 1.4.1-1, 1.4.1-0
    
-   :depends boost: >=1.67.0,<1.67.1.0a0
-   :depends hdf5: >=1.10.2,<1.10.3.0a0
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends boost: >=1.70.0,<1.70.1.0a0
+   :depends hdf5: >=1.10.5,<1.10.6.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

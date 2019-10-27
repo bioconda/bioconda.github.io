@@ -23,7 +23,7 @@ trf
 
    |downloads_trf| |docker_trf|
 
-   :versions: 4.09-1, 4.09-0, 4.07b-0
+   :versions: 4.09-2, 4.09-1, 4.09-0, 4.07b-0
    
    :requirements:
 

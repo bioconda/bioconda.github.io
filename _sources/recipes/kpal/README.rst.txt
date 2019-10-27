@@ -22,7 +22,7 @@ kpal
 
    |downloads_kpal| |docker_kpal|
 
-   :versions: 2.1.1-1, 2.1.1-0
+   :versions: 2.1.1-2, 2.1.1-1, 2.1.1-0
    
    :depends biopython: 
    :depends future: 

@@ -22,7 +22,7 @@ mugsy
 
    |downloads_mugsy| |docker_mugsy|
 
-   :versions: 1.2.3-2, 1.2.3-1, 1.2.3-0
+   :versions: 1.2.3-3, 1.2.3-2, 1.2.3-1, 1.2.3-0
    
    :depends perl: 
    :requirements:

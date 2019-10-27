@@ -22,7 +22,7 @@ makehub
 
    |downloads_makehub| |docker_makehub|
 
-   :versions: 1.0.5-0, 1.0.4-0, 1.0.3-0
+   :versions: 1.0.5-1, 1.0.5-0, 1.0.4-0, 1.0.3-0
    
    :depends augustus: >=3.3.1
    :depends biopython: 

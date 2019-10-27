@@ -23,13 +23,13 @@ roary
 
    |downloads_roary| |docker_roary|
 
-   :versions: 3.12.0-1, 3.12.0-0, 3.10.2-0, 3.9.1-0, 3.8.2-0, 3.8.0-1, 3.7.0-0
+   :versions: 3.12.0-2, 3.12.0-1, 3.12.0-0, 3.10.2-0, 3.9.1-0, 3.8.2-0, 3.8.0-1, 3.7.0-0
    
    :depends bedtools: 
    :depends blast: 
    :depends cd-hit: 
    :depends fasttree: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    :depends mafft: 
    :depends mcl: 
    :depends parallel: >=20180522

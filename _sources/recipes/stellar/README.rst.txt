@@ -22,7 +22,7 @@ stellar
 
    |downloads_stellar| |docker_stellar|
 
-   :versions: 1.4.9-1, 1.4.9-0
+   :versions: 1.4.9-2, 1.4.9-1, 1.4.9-0
    
    :requirements:
 

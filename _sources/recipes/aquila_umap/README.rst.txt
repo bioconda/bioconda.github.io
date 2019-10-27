@@ -22,7 +22,7 @@ aquila_umap
 
    |downloads_aquila_umap| |docker_aquila_umap|
 
-   :versions: 1.0-0
+   :versions: 1.0-1, 1.0-0
    
    :depends bowtie2: 
    :depends pysam: 

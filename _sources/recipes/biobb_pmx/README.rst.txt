@@ -56,7 +56,7 @@ biobb_pmx
 
    |downloads_biobb_pmx| |docker_biobb_pmx|
 
-   :versions: 1.0.1-0, 1.0.0-0
+   :versions: 1.0.1-1, 1.0.1-0, 1.0.0-0
    
    :depends biobb_common: 1.1.6
    :depends python: 3.6.*

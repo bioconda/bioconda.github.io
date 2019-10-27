@@ -22,10 +22,10 @@ crimson
 
    |downloads_crimson| |docker_crimson|
 
-   :versions: 0.4.0-1, 0.3.0-1, 0.3.0-0
+   :versions: 0.4.0-2, 0.4.0-1, 0.3.0-1, 0.3.0-0
    
    :depends click: >=6.6
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: 
    :depends pyyaml: >=3.11
    :requirements:
 

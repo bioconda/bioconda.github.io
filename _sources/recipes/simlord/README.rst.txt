@@ -22,12 +22,13 @@ simlord
 
    |downloads_simlord| |docker_simlord|
 
-   :versions: 1.0.3-2, 1.0.2-2, 1.0.2-0, 1.0.1-0, 0.7.3-0
+   :versions: 1.0.3-3, 1.0.3-2, 1.0.2-2, 1.0.2-0, 1.0.1-0, 0.7.3-0
    
    :depends dinopy: 
+   :depends libgcc-ng: >=7.3.0
    :depends numpy: 
    :depends pysam: >=0.8.4
-   :depends python: 
+   :depends python: >=3.6,<3.7.0a0
    :depends scipy: 
    :requirements:
 

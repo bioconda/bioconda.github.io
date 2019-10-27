@@ -22,11 +22,11 @@ mimeo
 
    |downloads_mimeo| |docker_mimeo|
 
-   :versions: 1.1.1-1, 1.1.1-0
+   :versions: 1.1.1-2, 1.1.1-1, 1.1.1-0
    
    :depends biopython: >=1.70
    :depends pandas: >=0.20.3
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :requirements:
 
    .. rubric:: Installation

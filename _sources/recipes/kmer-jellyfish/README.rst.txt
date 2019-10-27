@@ -24,7 +24,7 @@ kmer-jellyfish
 
    |downloads_kmer-jellyfish| |docker_kmer-jellyfish|
 
-   :versions: 2.3.0-0, 1.1.12-0
+   :versions: 2.3.0-1, 2.3.0-0, 1.1.12-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

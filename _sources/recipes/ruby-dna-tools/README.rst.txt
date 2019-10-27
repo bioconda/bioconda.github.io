@@ -22,7 +22,7 @@ ruby-dna-tools
 
    |downloads_ruby-dna-tools| |docker_ruby-dna-tools|
 
-   :versions: 1.0-1, 1.0-0
+   :versions: 1.0-2, 1.0-1, 1.0-0
    
    :depends jemalloc: 
    :depends python: 

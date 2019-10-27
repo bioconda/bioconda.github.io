@@ -22,10 +22,11 @@ spectacle
 
    |downloads_spectacle| |docker_spectacle|
 
-   :versions: 1.4-1, 1.4-0
+   :versions: 1.4-2, 1.4-1, 1.4-0
    
    :depends numpy: 
    :depends openjdk: 
+   :depends python: 
    :depends scipy: 
    :requirements:
 

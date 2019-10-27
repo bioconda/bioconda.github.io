@@ -24,7 +24,7 @@ r-xcell
 
    |downloads_r-xcell| |docker_r-xcell|
 
-   :versions: 1.2-1, 1.2-0
+   :versions: 1.2-2, 1.2-1, 1.2-0
    
    :depends bioconductor-gseabase: 
    :depends bioconductor-gsva: 

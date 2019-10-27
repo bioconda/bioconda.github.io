@@ -22,7 +22,7 @@ clustalw
 
    |downloads_clustalw| |docker_clustalw|
 
-   :versions: 2.1-4, 2.1-3, 2.1-2, 2.1-1, 2.1-0
+   :versions: 2.1-5, 2.1-4, 2.1-3, 2.1-2, 2.1-1, 2.1-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

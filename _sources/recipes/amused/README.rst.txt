@@ -22,7 +22,7 @@ amused
 
    |downloads_amused| |docker_amused|
 
-   :versions: 1.0-1, 1.0-0
+   :versions: 1.0-2, 1.0-1, 1.0-0
    
    :depends jemalloc: 
    :depends ruby: >=2.4

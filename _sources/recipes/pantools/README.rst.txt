@@ -23,7 +23,7 @@ pantools
 
    |downloads_pantools| |docker_pantools|
 
-   :versions: 1.2-0, 1.0-0
+   :versions: 1.2-1, 1.2-0, 1.0-0
    
    :depends kmc: 
    :depends mcl: 

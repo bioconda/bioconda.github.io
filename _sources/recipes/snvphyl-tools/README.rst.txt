@@ -23,7 +23,7 @@ snvphyl-tools
 
    |downloads_snvphyl-tools| |docker_snvphyl-tools|
 
-   :versions: 1.8.2-0, 1.8.1-0
+   :versions: 1.8.2-1, 1.8.2-0, 1.8.1-0
    
    :depends bcftools-snvphyl-plugin: 
    :depends libgcc-ng: >=7.3.0

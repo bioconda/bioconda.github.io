@@ -22,7 +22,7 @@ athena_meta
 
    |downloads_athena_meta| |docker_athena_meta|
 
-   :versions: 1.3-0, 1.2-0
+   :versions: 1.3-1, 1.3-0, 1.2-0
    
    :depends bwa: 0.7.*
    :depends bx-python: 0.8.*
@@ -32,7 +32,7 @@ athena_meta
    :depends ipython-cluster-helper: 0.6.*
    :depends numpy: 1.11.*
    :depends pysam: 0.15.*
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends samtools: 1.9.*
    :requirements:
 

@@ -22,13 +22,13 @@ poretools
 
    |downloads_poretools| |docker_poretools|
 
-   :versions: 0.6.1a1-6, 0.6.1a1-5, 0.6.1a1-4, 0.6.1a1-3, 0.6.1a0-0, 0.6.0-0, 0.5.1-1, 0.5.1-0, 0.5.0-0
+   :versions: 0.6.1a1-7, 0.6.1a1-6, 0.6.1a1-5, 0.6.1a1-4, 0.6.1a1-3, 0.6.1a0-0, 0.6.0-0, 0.5.1-1, 0.5.1-0, 0.5.0-0
    
    :depends h5py: >=2.2.0
-   :depends hdf5: >=1.10.2,<1.10.3.0a0
+   :depends hdf5: 
    :depends matplotlib: 
    :depends pandas: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends seaborn: 
    :requirements:
 

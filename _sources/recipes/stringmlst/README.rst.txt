@@ -22,13 +22,13 @@ stringmlst
 
    |downloads_stringmlst| |docker_stringmlst|
 
-   :versions: 0.6.2-0, 0.6.1-0, 0.5.1-0, 0.5.1a-1, 0.5.1a-0, 0.4.2-0, 0.4.1-0, 0.4-0, 0.3.7-0, 0.3.6.1-0
+   :versions: 0.6.2-1, 0.6.2-0, 0.6.1-0, 0.5.1-0, 0.5.1a-1, 0.5.1a-0, 0.4.2-0, 0.4.1-0, 0.4-0, 0.3.7-0, 0.3.6.1-0
    
    :depends bedtools: 
    :depends bwa: 
    :depends lxml: 
    :depends pyfaidx: 
-   :depends python: >=3.6,<3.7.0a0
+   :depends python: >=3
    :depends samtools: >=1.0
    :requirements:
 

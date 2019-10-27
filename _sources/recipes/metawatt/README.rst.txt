@@ -30,7 +30,7 @@ metawatt
 
    |downloads_metawatt| |docker_metawatt|
 
-   :versions: 3.5.3-1, 3.5.3-0
+   :versions: 3.5.3-2, 3.5.3-1, 3.5.3-0
    
    :depends aragorn: 
    :depends bbmap: 

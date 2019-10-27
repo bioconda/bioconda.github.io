@@ -22,12 +22,12 @@ marge
 
    |downloads_marge| |docker_marge|
 
-   :versions: 1.0-1, 1.0-0
+   :versions: 1.0-2, 1.0-1, 1.0-0
    
-   :depends hdf5: >=1.10.1,<1.10.2.0a0
+   :depends hdf5: 
    :depends numpy: 
    :depends pytables: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >3
    :depends scikit-learn: 
    :depends scipy: 
    :depends snakemake: 3.*

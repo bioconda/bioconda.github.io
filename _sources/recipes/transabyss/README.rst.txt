@@ -22,12 +22,12 @@ transabyss
 
    |downloads_transabyss| |docker_transabyss|
 
-   :versions: 2.0.1-4, 2.0.1-3, 1.5.5-3, 1.5.5-2, 1.5.5-1, 1.5.4-1, 1.5.4-0
+   :versions: 2.0.1-5, 2.0.1-4, 2.0.1-3, 1.5.5-3, 1.5.5-2, 1.5.5-1, 1.5.4-1, 1.5.4-0
    
    :depends abyss: 2.0.*
    :depends blat: 
    :depends bowtie2: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends python-igraph: 0.7.*
    :depends samtools: 1.3.1.*
    :requirements:

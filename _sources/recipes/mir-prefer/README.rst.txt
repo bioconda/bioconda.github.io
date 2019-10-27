@@ -22,10 +22,10 @@ mir-prefer
 
    |downloads_mir-prefer| |docker_mir-prefer|
 
-   :versions: 0.24-2, 0.24-1, 0.24-0
+   :versions: 0.24-3, 0.24-2, 0.24-1, 0.24-0
    
    :depends bowtie: >=1.2.0
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends samtools: >=0.1.15
    :depends viennarna: >=1.8.5
    :requirements:

@@ -22,10 +22,10 @@ snakeparse
 
    |downloads_snakeparse| |docker_snakeparse|
 
-   :versions: 0.1.0-1, 0.1.0-0, 0.0.1-0
+   :versions: 0.1.0-2, 0.1.0-1, 0.1.0-0, 0.0.1-0
    
    :depends pyhocon: >=0.3.38
-   :depends python: >=3.6,<3.7.0a0
+   :depends python: >=3.6
    :depends pyyaml: >=3.12
    :requirements:
 

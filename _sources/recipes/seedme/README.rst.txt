@@ -22,10 +22,10 @@ seedme
 
    |downloads_seedme| |docker_seedme|
 
-   :versions: 1.2.4-1, 1.2.4-0, 1.2.0-1, 1.2.0-0
+   :versions: 1.2.4-2, 1.2.4-1, 1.2.4-0, 1.2.0-1, 1.2.0-0
    
    :depends curl: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends requests: 2.7.0
    :requirements:
 

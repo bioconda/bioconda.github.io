@@ -22,7 +22,7 @@ beast2
 
    |downloads_beast2| |docker_beast2|
 
-   :versions: 2.6.1-0, 2.6.0-0, 2.5.0-0, 2.4.5-1, 2.4.5-0
+   :versions: 2.6.1-0, 2.6.0-0, 2.5.0-2, 2.5.0-1, 2.5.0-0, 2.4.5-2, 2.4.5-1, 2.4.5-0
    
    :depends beagle-lib: 
    :depends font-ttf-ubuntu: 

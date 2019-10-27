@@ -22,14 +22,14 @@ spectrassembler
 
    |downloads_spectrassembler| |docker_spectrassembler|
 
-   :versions: 0.0.1a1-3, 0.0.1a1-2, 0.0.1a1-1, 0.0.1a1-0
+   :versions: 0.0.1a1-4, 0.0.1a1-3, 0.0.1a1-2, 0.0.1a1-1, 0.0.1a1-0
    
    :depends biopython: 
    :depends bwa: 
    :depends minimap: 
    :depends numpy: 
    :depends poa: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends scipy: 
    :requirements:
 

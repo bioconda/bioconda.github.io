@@ -23,7 +23,7 @@ unitas
 
    |downloads_unitas| |docker_unitas|
 
-   :versions: 1.6.1-0
+   :versions: 1.6.1-1, 1.6.1-0
    
    :depends dnapi: 
    :depends perl: 

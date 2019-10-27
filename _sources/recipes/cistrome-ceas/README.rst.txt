@@ -27,10 +27,10 @@ cistrome-ceas
 
    |downloads_cistrome-ceas| |docker_cistrome-ceas|
 
-   :versions: 1.0.2b1-1, 1.0.2b1-0
+   :versions: 1.0.2b1-2, 1.0.2b1-1, 1.0.2b1-0
    
    :depends bx-python: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends r-base: 
    :requirements:
 

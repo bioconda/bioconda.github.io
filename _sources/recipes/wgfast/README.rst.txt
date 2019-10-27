@@ -22,7 +22,7 @@ wgfast
 
    |downloads_wgfast| |docker_wgfast|
 
-   :versions: 1.0.3-1, 1.0.3-0
+   :versions: 1.0.3-2, 1.0.3-1, 1.0.3-0
    
    :depends bbmap: 
    :depends biopython: 

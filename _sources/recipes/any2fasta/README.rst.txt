@@ -22,7 +22,7 @@ any2fasta
 
    |downloads_any2fasta| |docker_any2fasta|
 
-   :versions: 0.4.2-1
+   :versions: 0.4.2-2, 0.4.2-1
    
    :depends perl: 
    :requirements:

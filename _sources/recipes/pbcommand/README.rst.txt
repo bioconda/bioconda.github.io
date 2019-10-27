@@ -22,12 +22,12 @@ pbcommand
 
    |downloads_pbcommand| |docker_pbcommand|
 
-   :versions: 1.1.1-2, 1.1.1-1, 1.1.1-0, 0.3.29-0, 0.2.17-0
+   :versions: 1.1.1-3, 1.1.1-2, 1.1.1-1, 1.1.1-0, 0.3.29-0, 0.2.17-0
    
    :depends avro-python2: 
    :depends iso8601: 
    :depends numpy: >=1.15
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends pytz: 
    :depends requests: 
    :requirements:

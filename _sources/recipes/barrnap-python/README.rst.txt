@@ -22,10 +22,10 @@ barrnap-python
 
    |downloads_barrnap-python| |docker_barrnap-python|
 
-   :versions: 0.0.5-1, 0.0.5-0
+   :versions: 0.0.5-2, 0.0.5-1, 0.0.5-0
    
    :depends barrnap: >=0.8
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :requirements:
 
    .. rubric:: Installation

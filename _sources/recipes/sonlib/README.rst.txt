@@ -22,9 +22,9 @@ sonlib
 
    |downloads_sonlib| |docker_sonlib|
 
-   :versions: 1.1.0-1, 1.1.0-0
+   :versions: 1.1.0-2, 1.1.0-1, 1.1.0-0
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

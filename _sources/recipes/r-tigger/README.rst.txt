@@ -22,7 +22,7 @@ r-tigger
 
    |downloads_r-tigger| |docker_r-tigger|
 
-   :versions: 0.4.0-0, 0.3.1-1, 0.3.1-0
+   :versions: 0.4.0-1, 0.4.0-0, 0.3.1-1, 0.3.1-0
    
    :depends r-alakazam: >=0.3.0
    :depends r-base: >=3.6,<3.7.0a0

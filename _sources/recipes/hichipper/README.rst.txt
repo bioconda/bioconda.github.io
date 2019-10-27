@@ -22,7 +22,7 @@ hichipper
 
    |downloads_hichipper| |docker_hichipper|
 
-   :versions: 0.7.7-0, 0.7.0-1, 0.7.0-0
+   :versions: 0.7.7-1, 0.7.7-0, 0.7.0-1, 0.7.0-0
    
    :depends click: 
    :depends macs2: 

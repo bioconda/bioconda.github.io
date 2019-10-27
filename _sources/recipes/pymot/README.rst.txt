@@ -22,10 +22,10 @@ pymot
 
    |downloads_pymot| |docker_pymot|
 
-   :versions: 13.09.2016-1, 13.09.2016-0
+   :versions: 13.09.2016-2, 13.09.2016-1, 13.09.2016-0
    
    :depends munkres: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

@@ -22,14 +22,14 @@ smallgenomeutilities
 
    |downloads_smallgenomeutilities| |docker_smallgenomeutilities|
 
-   :versions: 0.2.1-1, 0.2.1-0, 0.1-1, 0.1-0
+   :versions: 0.2.1-2, 0.2.1-1, 0.2.1-0, 0.1-1, 0.1-0
    
    :depends biopython: 
    :depends matplotlib: 
    :depends numpy: 
    :depends progress: 
    :depends pysam: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :depends scikit-learn: 
    :depends scipy: 
    :requirements:

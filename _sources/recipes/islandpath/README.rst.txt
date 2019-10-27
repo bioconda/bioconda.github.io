@@ -24,10 +24,10 @@ islandpath
 
    |downloads_islandpath| |docker_islandpath|
 
-   :versions: 1.0.4-0, 1.0.3-0
+   :versions: 1.0.4-1, 1.0.4-0, 1.0.3-0
    
    :depends hmmer: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: 
    :depends perl-bioperl: >=1.7.2
    :depends perl-config-simple: 
    :depends perl-data-dumper: 

@@ -22,7 +22,7 @@ sierrapy
 
    |downloads_sierrapy| |docker_sierrapy|
 
-   :versions: 0.2.1-1, 0.2.1-0
+   :versions: 0.2.1-2, 0.2.1-1, 0.2.1-0
    
    :depends click: >=6.7
    :depends gql: >=0.1.0

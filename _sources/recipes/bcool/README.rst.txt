@@ -22,13 +22,13 @@ bcool
 
    |downloads_bcool| |docker_bcool|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.0-1, 1.0.0-0
    
    :depends bcalm: 
    :depends bgreat: 
    :depends btrim: 
    :depends ntcard: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :requirements:
 
    .. rubric:: Installation

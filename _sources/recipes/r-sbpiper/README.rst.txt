@@ -23,9 +23,9 @@ r-sbpiper
 
    |downloads_r-sbpiper| |docker_r-sbpiper|
 
-   :versions: 1.9.0-2, 1.9.0-1, 1.8.0-0
+   :versions: 1.9.0-3, 1.9.0-2, 1.9.0-1, 1.8.0-0
    
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-colorramps: 
    :depends r-data.table: 
    :depends r-factoextra: 

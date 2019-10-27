@@ -22,9 +22,9 @@ tdrmapper
 
    |downloads_tdrmapper| |docker_tdrmapper|
 
-   :versions: 1.1-3, 1.1-2, 1.1-1, 1.0-1
+   :versions: 1.1-4, 1.1-3, 1.1-2, 1.1-1, 1.0-1
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: 
    :requirements:
 
    .. rubric:: Installation

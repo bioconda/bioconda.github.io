@@ -22,10 +22,10 @@ tinscan
 
    |downloads_tinscan| |docker_tinscan|
 
-   :versions: 0.2.0-1, 0.2.0-0
+   :versions: 0.2.0-2, 0.2.0-1, 0.2.0-0
    
    :depends biopython: >=1.70
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :requirements:
 
    .. rubric:: Installation

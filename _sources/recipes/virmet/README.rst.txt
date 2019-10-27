@@ -23,7 +23,7 @@ virmet
 
    |downloads_virmet| |docker_virmet|
 
-   :versions: v1.1.1-4, v1.1.1-3, v1.1.1-2, v1.1.1-1, v1.1.1-0, v1.1-2, v1.1-1, v1.1-0, v1.0-0
+   :versions: v1.1.1-5, v1.1.1-4, v1.1.1-3, v1.1.1-2, v1.1.1-1, v1.1.1-0, v1.1-2, v1.1-1, v1.1-0, v1.0-0
    
    :depends biopython: 
    :depends blast: >=2.3

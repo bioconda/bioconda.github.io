@@ -22,11 +22,11 @@ pybamtools
 
    |downloads_pybamtools| |docker_pybamtools|
 
-   :versions: 0.0.4-2, 0.0.4-1, 0.0.4-0, 0.0.3-1, 0.0.3-0
+   :versions: 0.0.4-3, 0.0.4-2, 0.0.4-1, 0.0.4-0, 0.0.3-1, 0.0.3-0
    
    :depends numpy: 
    :depends pybamparser: 0.0.3
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

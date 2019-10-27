@@ -22,7 +22,7 @@ sbg-cwl-runner
 
    |downloads_sbg-cwl-runner| |docker_sbg-cwl-runner|
 
-   :versions: 2018.11-0
+   :versions: 2018.11-1, 2018.11-0
    
    :depends docopt: 
    :depends python: >3.5

@@ -22,7 +22,7 @@ ericscript
 
    |downloads_ericscript| |docker_ericscript|
 
-   :versions: 0.5.5-3, 0.5.5-2, 0.5.5-1, 0.5.5-0
+   :versions: 0.5.5-4, 0.5.5-3, 0.5.5-2, 0.5.5-1, 0.5.5-0
    
    :depends bedtools: 
    :depends blat: 

@@ -22,7 +22,7 @@ clairvoyante
 
    |downloads_clairvoyante| |docker_clairvoyante|
 
-   :versions: 1.02-0, 1.01-1, 1.01-0, 1.0-1, 1.0-0
+   :versions: 1.02-1, 1.02-0, 1.01-1, 1.01-0, 1.0-1, 1.0-0
    
    :depends intervaltree: 2.1.0
    :depends numpy: 1.16.2

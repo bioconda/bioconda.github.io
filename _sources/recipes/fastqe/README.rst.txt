@@ -25,11 +25,11 @@ fastqe
 
    |downloads_fastqe| |docker_fastqe|
 
-   :versions: 0.1.1-0
+   :versions: 0.1.1-1, 0.1.1-0
    
    :depends biopython: >=1.66
    :depends pyemojify: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: 
    :requirements:
 
    .. rubric:: Installation

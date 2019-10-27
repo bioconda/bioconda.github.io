@@ -22,9 +22,9 @@ flux-simulator
 
    |downloads_flux-simulator| |docker_flux-simulator|
 
-   :versions: 1.2.1-1, 1.2.1-0
+   :versions: 1.2.1-2, 1.2.1-1, 1.2.1-0
    
-   :depends java-jdk: 
+   :depends openjdk: 
    :requirements:
 
    .. rubric:: Installation

@@ -22,10 +22,10 @@ pathoscope
 
    |downloads_pathoscope| |docker_pathoscope|
 
-   :versions: 2.0.7-0, 2.0.6-1, 2.0.6-0
+   :versions: 2.0.7-1, 2.0.7-0, 2.0.6-1, 2.0.6-0
    
    :depends bowtie2: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends samtools: <1.0
    :requirements:
 

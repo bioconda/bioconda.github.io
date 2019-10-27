@@ -22,18 +22,18 @@ fusion-filter
 
    |downloads_fusion-filter| |docker_fusion-filter|
 
-   :versions: 0.5.0-1, 0.5.0-0
+   :versions: 0.5.0-2, 0.5.0-1, 0.5.0-0
    
    :depends blast: >=2.7.1
    :depends gmap: >=2017.10.30
-   :depends perl: 5.22.0*
+   :depends perl: 
    :depends perl-carp: 
    :depends perl-db-file: 
    :depends perl-json-xs: 
    :depends perl-perlio-gzip: 
    :depends perl-set-intervaltree: 
    :depends perl-uri: 
-   :depends python: 2.7*
+   :depends python: <3
    :depends samtools: 
    :depends star: >=2.5.4a
    :requirements:

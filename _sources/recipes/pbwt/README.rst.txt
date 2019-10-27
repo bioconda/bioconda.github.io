@@ -23,7 +23,7 @@ pbwt
 
    |downloads_pbwt| |docker_pbwt|
 
-   :versions: 3.0-1, 3.0-0
+   :versions: 3.0-2, 3.0-1, 3.0-0
    
    :depends htslib: >=1.9,<1.10.0a0
    :depends libgcc-ng: >=7.3.0

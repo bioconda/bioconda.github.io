@@ -22,7 +22,7 @@ bd2k-python-lib
 
    |downloads_bd2k-python-lib| |docker_bd2k-python-lib|
 
-   :versions: 1.14a1.dev48-0, 1.14a1.dev37-1, 1.14a1.dev37-0, 1.14a1.dev33-0, 1.14a1.dev29-0, 1.14a1.dev28-0, 1.13.dev14-0
+   :versions: 1.14a1.dev48-1, 1.14a1.dev48-0, 1.14a1.dev37-1, 1.14a1.dev37-0, 1.14a1.dev33-0, 1.14a1.dev29-0, 1.14a1.dev28-0, 1.13.dev14-0
    
    :depends python: 
    :requirements:

@@ -22,10 +22,10 @@ mcl
 
    |downloads_mcl| |docker_mcl|
 
-   :versions: 14.137-4, 14.137-3, 14.137-2, 14.137-1, 14.137-0
+   :versions: 14.137-5, 14.137-4, 14.137-3, 14.137-2, 14.137-1, 14.137-0
    
    :depends blast: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 

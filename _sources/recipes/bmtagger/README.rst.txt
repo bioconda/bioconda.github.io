@@ -22,12 +22,13 @@ bmtagger
 
    |downloads_bmtagger| |docker_bmtagger|
 
-   :versions: 3.101-4, 3.101-3, 3.101-1
+   :versions: 3.101-5, 3.101-4, 3.101-3, 3.101-1
    
    :depends blast: 
    :depends bmfilter: 
    :depends bmtool: 
    :depends extract_fullseq: 
+   :depends gnu-getopt: 
    :depends srprism: 
    :requirements:
 

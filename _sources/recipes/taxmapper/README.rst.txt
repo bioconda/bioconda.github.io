@@ -22,13 +22,13 @@ taxmapper
 
    |downloads_taxmapper| |docker_taxmapper|
 
-   :versions: 1.0.2-2, 1.0.2-0, 1.0.1-0, 1.0.0-0
+   :versions: 1.0.2-3, 1.0.2-2, 1.0.2-0, 1.0.1-0, 1.0.0-0
    
    :depends deepdish: 
    :depends matplotlib: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :requirements:
 
    .. rubric:: Installation

@@ -22,7 +22,7 @@ wgs2ncbi
 
    |downloads_wgs2ncbi| |docker_wgs2ncbi|
 
-   :versions: 1.0.3-0, 1.0.1-0
+   :versions: 1.0.3-1, 1.0.3-0, 1.0.1-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-uri: 

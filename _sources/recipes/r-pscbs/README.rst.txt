@@ -22,7 +22,7 @@ r-pscbs
 
    |downloads_r-pscbs| |docker_r-pscbs|
 
-   :versions: 0.65.0-1, 0.65.0-0, 0.64.0-2, 0.64.0-1, 0.64.0-0, 0.63.0-0, 0.61.0-0, 0.60.3-0, 0.60.0-2, 0.60.0-0
+   :versions: 0.65.0-2, 0.65.0-1, 0.65.0-0, 0.64.0-2, 0.64.0-1, 0.64.0-0, 0.63.0-0, 0.61.0-0, 0.60.3-0, 0.60.0-2, 0.60.0-0
    
    :depends bioconductor-aroma.light: 
    :depends bioconductor-dnacopy: 

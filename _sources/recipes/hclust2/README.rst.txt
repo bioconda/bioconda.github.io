@@ -22,12 +22,12 @@ hclust2
 
    |downloads_hclust2| |docker_hclust2|
 
-   :versions: 0.99-1, 0.99-0, 0.98.3d589ab-1, 0.98.3d589ab-0
+   :versions: 0.99-2, 0.99-1, 0.99-0, 0.98.3d589ab-1, 0.98.3d589ab-0
    
    :depends matplotlib: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends scipy: 0.18.1
    :requirements:
 

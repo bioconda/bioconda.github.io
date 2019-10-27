@@ -22,7 +22,7 @@ python-msgpack
 
    |downloads_python-msgpack| |docker_python-msgpack|
 
-   :versions: 0.6.1-0, 0.5.6-0
+   :versions: 0.6.1-1, 0.6.1-0, 0.5.6-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

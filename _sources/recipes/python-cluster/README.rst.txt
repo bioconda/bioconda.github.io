@@ -22,7 +22,7 @@ python-cluster
 
    |downloads_python-cluster| |docker_python-cluster|
 
-   :versions: 1.4.1.post1-1, 1.4.1.post1-0, 1.4.1-2, 1.4.1-0, 1.3.3-0
+   :versions: 1.4.1.post1-2, 1.4.1.post1-1, 1.4.1.post1-0, 1.4.1-2, 1.4.1-0, 1.3.3-0
    
    :depends python: 
    :requirements:

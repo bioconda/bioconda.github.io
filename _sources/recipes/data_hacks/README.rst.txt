@@ -22,9 +22,9 @@ data_hacks
 
    |downloads_data_hacks| |docker_data_hacks|
 
-   :versions: 0.3.1-1, 0.3.1-0
+   :versions: 0.3.1-2, 0.3.1-1, 0.3.1-0
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

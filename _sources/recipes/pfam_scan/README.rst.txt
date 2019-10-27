@@ -22,10 +22,10 @@ pfam_scan
 
    |downloads_pfam_scan| |docker_pfam_scan|
 
-   :versions: 1.6-2, 1.6-1, 1.6-0
+   :versions: 1.6-3, 1.6-2, 1.6-1, 1.6-0
    
    :depends hmmer: >=3.0
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: 
    :depends perl-bioperl: >=1.4
    :depends perl-ipc-run: 
    :depends perl-moose: 

@@ -24,7 +24,7 @@ mockinbird
 
    |downloads_mockinbird| |docker_mockinbird|
 
-   :versions: 1.0.0a1-2, 1.0.0a1-1, 1.0.0a1-0
+   :versions: 1.0.0a1-3, 1.0.0a1-2, 1.0.0a1-1, 1.0.0a1-0
    
    :depends bowtie: 
    :depends fastqc: 

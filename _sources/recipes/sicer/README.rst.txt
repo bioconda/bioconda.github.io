@@ -22,10 +22,10 @@ sicer
 
    |downloads_sicer| |docker_sicer|
 
-   :versions: 1.1-3, 1.1-2, 1.1-1, 1.1-0
+   :versions: 1.1-4, 1.1-3, 1.1-2, 1.1-1, 1.1-0
    
    :depends numpy: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends scipy: 
    :requirements:
 

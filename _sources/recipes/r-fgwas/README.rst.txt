@@ -23,11 +23,11 @@ r-fgwas
 
    |downloads_r-fgwas| |docker_r-fgwas|
 
-   :versions: 0.3.6-1, 0.3.6-0, 0.3.5-0
+   :versions: 0.3.6-2, 0.3.6-1, 0.3.6-0, 0.3.5-0
    
    :depends bioconductor-snpstats: 
    :depends parallel: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-devtools: 
    :depends r-minpack.lm: 
    :depends r-mvtnorm: 

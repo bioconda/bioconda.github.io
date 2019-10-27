@@ -22,9 +22,9 @@ graphlite
 
    |downloads_graphlite| |docker_graphlite|
 
-   :versions: 1.0.5-1, 1.0.5-0
+   :versions: 1.0.5-2, 1.0.5-1, 1.0.5-0
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: 
    :requirements:
 
    .. rubric:: Installation

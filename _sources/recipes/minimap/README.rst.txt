@@ -22,7 +22,7 @@ minimap
 
    |downloads_minimap| |docker_minimap|
 
-   :versions: 0.2-0, 0.2_r124-1, 0.2_r124-0
+   :versions: 0.2-0, 0.2_r124-2, 0.2_r124-1, 0.2_r124-0
    
    :depends libgcc: 
    :requirements:

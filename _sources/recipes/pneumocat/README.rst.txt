@@ -22,7 +22,7 @@ pneumocat
 
    |downloads_pneumocat| |docker_pneumocat|
 
-   :versions: 1.2-2, 1.2-0, 1.1-0
+   :versions: 1.2-3, 1.2-2, 1.2-0, 1.1-0
    
    :depends biopython: 
    :depends bowtie2: 

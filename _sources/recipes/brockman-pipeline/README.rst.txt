@@ -22,7 +22,7 @@ brockman-pipeline
 
    |downloads_brockman-pipeline| |docker_brockman-pipeline|
 
-   :versions: 1.0-2, 1.0-1, 1.0-0
+   :versions: 1.0-3, 1.0-2, 1.0-1, 1.0-0
    
    :depends amused: 
    :depends bedtools: 

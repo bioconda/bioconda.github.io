@@ -22,11 +22,11 @@ pancake
 
    |downloads_pancake| |docker_pancake|
 
-   :versions: 1.1.2-1, 1.1.2-0
+   :versions: 1.1.2-2, 1.1.2-1, 1.1.2-0
    
    :depends biopython: 
    :depends numpy: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :requirements:
 
    .. rubric:: Installation

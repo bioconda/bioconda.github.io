@@ -22,11 +22,11 @@ ctat-metagenomics
 
    |downloads_ctat-metagenomics| |docker_ctat-metagenomics|
 
-   :versions: 1.0.1-1
+   :versions: 1.0.1-2, 1.0.1-1
    
    :depends blast: 
    :depends centrifuge: 
-   :depends python: 2.7*
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

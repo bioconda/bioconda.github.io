@@ -22,14 +22,14 @@ nanopore_simulation
 
    |downloads_nanopore_simulation| |docker_nanopore_simulation|
 
-   :versions: 0.3-1, 0.3-0
+   :versions: 0.3-2, 0.3-1, 0.3-0
    
    :depends biopython: 
    :depends h5py: 
    :depends matplotlib: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :depends scipy: 
    :requirements:
 

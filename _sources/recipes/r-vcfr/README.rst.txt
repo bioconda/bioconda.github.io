@@ -22,7 +22,7 @@ r-vcfr
 
    |downloads_r-vcfr| |docker_r-vcfr|
 
-   :versions: 1.8.0-2, 1.8.0-1, 1.8.0-0, 1.5.0-0
+   :versions: 1.8.0-3, 1.8.0-2, 1.8.0-1, 1.8.0-0, 1.5.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

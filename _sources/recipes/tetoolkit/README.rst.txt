@@ -22,12 +22,12 @@ tetoolkit
 
    |downloads_tetoolkit| |docker_tetoolkit|
 
-   :versions: 2.0.3-0, 1.5.1-1, 1.5.1-0
+   :versions: 2.0.3-1, 2.0.3-0, 1.5.1-1, 1.5.1-0
    
-   :depends argparse: 
    :depends bioconductor-deseq: >=1.10
    :depends pysam: >=0.9
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
+   :depends r-base: 
    :requirements:
 
    .. rubric:: Installation

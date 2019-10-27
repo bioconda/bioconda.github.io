@@ -23,10 +23,10 @@ scaffold_builder
 
    |downloads_scaffold_builder| |docker_scaffold_builder|
 
-   :versions: 2.2-0
+   :versions: 2.2-1, 2.2-0
    
    :depends mummer: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

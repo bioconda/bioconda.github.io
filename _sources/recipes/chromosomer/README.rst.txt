@@ -22,12 +22,12 @@ chromosomer
 
    |downloads_chromosomer| |docker_chromosomer|
 
-   :versions: 0.1.4a-1, 0.1.4a-0
+   :versions: 0.1.4a-2, 0.1.4a-1, 0.1.4a-0
    
    :depends bioformats: 
    :depends future: 
    :depends pyfaidx: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

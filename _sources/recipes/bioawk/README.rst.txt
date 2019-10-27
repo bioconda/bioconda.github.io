@@ -22,7 +22,7 @@ bioawk
 
    |downloads_bioawk| |docker_bioawk|
 
-   :versions: 1.0-4, 1.0-3, 1.0-2, 1.0-1, 1.0-0
+   :versions: 1.0-5, 1.0-4, 1.0-3, 1.0-2, 1.0-1, 1.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends zlib: >=1.2.11,<1.3.0a0

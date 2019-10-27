@@ -22,7 +22,7 @@ seq-seq-pan
 
    |downloads_seq-seq-pan| |docker_seq-seq-pan|
 
-   :versions: 1.0.1-3, 1.0.1-1, 1.0.1-0, 1.0.0-3, 1.0.0-1, 1.0.0-0
+   :versions: 1.0.1-4, 1.0.1-3, 1.0.1-1, 1.0.1-0, 1.0.0-3, 1.0.0-1, 1.0.0-0
    
    :depends biopython: 1.69
    :depends blat: 35

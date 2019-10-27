@@ -25,7 +25,8 @@ revbayes
    :versions: 1.0.13-1, 1.0.13-0
    
    :depends boost-cpp: >=1.69.0,<1.69.1.0a0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends openmpi: >=4.0.1,<4.1.0a0
    :requirements:
 

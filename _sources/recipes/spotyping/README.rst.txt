@@ -23,10 +23,10 @@ spotyping
 
    |downloads_spotyping| |docker_spotyping|
 
-   :versions: 2.1-2, 2.1-1, 2.1-0
+   :versions: 2.1-3, 2.1-2, 2.1-1, 2.1-0
    
    :depends blast: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends r-gdata: 
    :requirements:
 

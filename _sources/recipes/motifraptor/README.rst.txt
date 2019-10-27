@@ -22,7 +22,7 @@ motifraptor
 
    |downloads_motifraptor| |docker_motifraptor|
 
-   :versions: 0.2.3-0
+   :versions: 0.2.3-1, 0.2.3-0
    
    :depends libgcc-ng: >=7.3.0
    :depends matplotlib: 

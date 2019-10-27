@@ -23,7 +23,7 @@ eoulsan
 
    |downloads_eoulsan| |docker_eoulsan|
 
-   :versions: 2.3-0, 2.2-0, 2.0_beta4-1
+   :versions: 2.3-1, 2.3-0, 2.2-0, 2.0_beta4-1
    
    :depends openjdk: 
    :requirements:

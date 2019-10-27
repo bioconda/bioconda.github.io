@@ -23,13 +23,13 @@ metaquant
 
    |downloads_metaquant| |docker_metaquant|
 
-   :versions: 0.1.2-0
+   :versions: 0.1.2-1, 0.1.2-0
    
    :depends ete3: 
    :depends goatools: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :depends statsmodels: 
    :depends wget: 
    :requirements:

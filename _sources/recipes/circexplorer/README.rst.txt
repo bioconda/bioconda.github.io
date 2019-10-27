@@ -22,11 +22,11 @@ circexplorer
 
    |downloads_circexplorer| |docker_circexplorer|
 
-   :versions: 1.1.10-3, 1.1.10-2, 1.1.10-0, 1.1.9-0, 0.1-1, 0.1-0
+   :versions: 1.1.10-4, 1.1.10-3, 1.1.10-2, 1.1.10-0, 1.1.9-0, 0.1-1, 0.1-0
    
    :depends docopt: 
    :depends pysam: >=0.8.4
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

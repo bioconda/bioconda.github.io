@@ -22,7 +22,7 @@ genomestrip
 
    |downloads_genomestrip| |docker_genomestrip|
 
-   :versions: 2.00.1833-1, 2.00.1833-0
+   :versions: 2.00.1833-2, 2.00.1833-1, 2.00.1833-0
    
    :depends openjdk: >=8
    :depends r-base: >=3.4

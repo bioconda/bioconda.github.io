@@ -22,11 +22,11 @@ pyrad
 
    |downloads_pyrad| |docker_pyrad|
 
-   :versions: 3.0.66-2, 3.0.66-0, 3.0.64-0
+   :versions: 3.0.66-3, 3.0.66-2, 3.0.66-0, 3.0.64-0
    
    :depends muscle: 
    :depends numpy: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends scipy: 
    :depends vsearch: 
    :requirements:

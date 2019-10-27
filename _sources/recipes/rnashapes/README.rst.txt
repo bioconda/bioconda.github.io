@@ -22,7 +22,7 @@ rnashapes
 
    |downloads_rnashapes| |docker_rnashapes|
 
-   :versions: 3.3.0-0, 2.1.6-2, 2.1.6-1, 2.1.6-0
+   :versions: 3.3.0-0, 2.1.6-3, 2.1.6-2, 2.1.6-1, 2.1.6-0
    
    :depends bellmans-gapc: 
    :depends boost: 1.61*

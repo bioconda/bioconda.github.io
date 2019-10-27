@@ -22,11 +22,11 @@ pepr
 
    |downloads_pepr| |docker_pepr|
 
-   :versions: 1.1.24-1, 1.1.24-0, 1.1.18-0, 1.0.9-0
+   :versions: 1.1.24-2, 1.1.24-1, 1.1.24-0, 1.1.18-0, 1.0.9-0
    
    :depends numpy: >=1.6.0
    :depends pysam: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: 
    :depends scipy: >=0.14.0
    :depends sharedmem: 
    :requirements:

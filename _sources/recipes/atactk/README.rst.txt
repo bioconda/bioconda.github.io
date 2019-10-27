@@ -22,10 +22,10 @@ atactk
 
    |downloads_atactk| |docker_atactk|
 
-   :versions: 0.1.6-1, 0.1.6-0
+   :versions: 0.1.6-2, 0.1.6-1, 0.1.6-0
    
    :depends pysam: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: 
    :depends python-levenshtein: 
    :depends r-base: 
    :depends r-ggplot2: 

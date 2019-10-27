@@ -22,7 +22,7 @@ tepid
 
    |downloads_tepid| |docker_tepid|
 
-   :versions: 0.8-2, 0.8-1, 0.8-0, 0.7-0
+   :versions: 0.8-3, 0.8-2, 0.8-1, 0.8-0, 0.7-0
    
    :depends bedtools: >=2.25.0
    :depends bowtie2: 

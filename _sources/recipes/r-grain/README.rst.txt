@@ -22,7 +22,7 @@ r-grain
 
    |downloads_r-grain| |docker_r-grain|
 
-   :versions: 1.3_0-1, 1.3_0-0
+   :versions: 1.3_0-2, 1.3_0-1, 1.3_0-0
    
    :depends bioconductor-graph: 
    :depends libgcc-ng: >=7.3.0

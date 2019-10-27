@@ -22,7 +22,7 @@ hlaprofiler
 
    |downloads_hlaprofiler| |docker_hlaprofiler|
 
-   :versions: 1.0.5-1, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-0, 1.0.1-0
+   :versions: 1.0.5-2, 1.0.5-1, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-0, 1.0.1-0
    
    :depends kraken-ea: 
    :depends perl-base: 

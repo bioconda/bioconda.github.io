@@ -22,7 +22,7 @@ sequana
 
    |downloads_sequana| |docker_sequana|
 
-   :versions: 0.7.1-1, 0.7.0-0, 0.6.3.post1-0, 0.6.1-0, 0.6.0-0, 0.5.2-0, 0.5.1-0, 0.5.0-0, 0.4.1-0, 0.4.0-0, 0.3.0-0, 0.2.1-0, 0.2.0-0
+   :versions: 0.7.1-2, 0.7.1-1, 0.7.0-0, 0.6.3.post1-0, 0.6.1-0, 0.6.0-0, 0.5.2-0, 0.5.1-0, 0.5.0-0, 0.4.1-0, 0.4.0-0, 0.3.0-0, 0.2.1-0, 0.2.0-0
    
    :depends atropos: 1.1.16
    :depends bcftools: 
@@ -50,7 +50,7 @@ sequana
    :depends pigz: 
    :depends psutil: 
    :depends pysam: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :depends pyvcf: 
    :depends pyyaml: 
    :depends qtconsole: 

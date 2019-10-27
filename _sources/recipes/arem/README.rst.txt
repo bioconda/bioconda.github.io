@@ -23,9 +23,9 @@ arem
 
    |downloads_arem| |docker_arem|
 
-   :versions: 1.0.1-1, 1.0.1-0
+   :versions: 1.0.1-2, 1.0.1-1, 1.0.1-0
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

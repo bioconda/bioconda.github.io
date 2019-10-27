@@ -23,7 +23,7 @@ pirate
 
    |downloads_pirate| |docker_pirate|
 
-   :versions: 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0
+   :versions: 1.0.3-2, 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0
    
    :depends blast: >=2.2.31
    :depends cd-hit: >=4.7

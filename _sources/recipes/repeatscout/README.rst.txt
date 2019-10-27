@@ -22,9 +22,9 @@ repeatscout
 
    |downloads_repeatscout| |docker_repeatscout|
 
-   :versions: 1.0.5-1, 1.0.5-0
+   :versions: 1.0.5-2, 1.0.5-1, 1.0.5-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

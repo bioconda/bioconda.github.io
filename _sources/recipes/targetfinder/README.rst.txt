@@ -22,10 +22,10 @@ targetfinder
 
    |downloads_targetfinder| |docker_targetfinder|
 
-   :versions: 1.7-2, 1.7-1, 1.7-0
+   :versions: 1.7-3, 1.7-2, 1.7-1, 1.7-0
    
    :depends fasta3: 
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: 
    :requirements:
 
    .. rubric:: Installation

@@ -24,11 +24,11 @@ irida-sistr-results
 
    |downloads_irida-sistr-results| |docker_irida-sistr-results|
 
-   :versions: 0.6.0-0, 0.5.0-0, 0.4.0-2, 0.4.0-0, 0.3.1-0
+   :versions: 0.6.0-1, 0.6.0-0, 0.5.0-0, 0.4.0-2, 0.4.0-0, 0.3.1-0
    
    :depends appdirs: >=1.4.3
    :depends pandas: >=0.23.0
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :depends rauth: >=0.7.3
    :depends urllib3: >=1.21.1
    :depends xlsxwriter: >=0.9.8

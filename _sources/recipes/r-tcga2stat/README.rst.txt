@@ -22,10 +22,10 @@ r-tcga2stat
 
    |downloads_r-tcga2stat| |docker_r-tcga2stat|
 
-   :versions: 1.2-4, 1.2-3, 1.2-2, 1.2-0
+   :versions: 1.2-5, 1.2-4, 1.2-3, 1.2-2, 1.2-0
    
    :depends bioconductor-cntools: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-xml: 
    :requirements:
 

@@ -22,10 +22,10 @@ tophat-recondition
 
    |downloads_tophat-recondition| |docker_tophat-recondition|
 
-   :versions: 1.4-1, 1.4-0, 1.3-0, 1.2-0, 1.1-0
+   :versions: 1.4-2, 1.4-1, 1.4-0, 1.3-0, 1.2-0, 1.1-0
    
    :depends pysam: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: 
    :requirements:
 
    .. rubric:: Installation

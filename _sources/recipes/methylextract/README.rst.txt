@@ -22,7 +22,7 @@ methylextract
 
    |downloads_methylextract| |docker_methylextract|
 
-   :versions: 1.9.1-0
+   :versions: 1.9.1-1, 1.9.1-0
    
    :depends perl: 
    :depends samtools: 

@@ -22,7 +22,7 @@ capc-map
 
    |downloads_capc-map| |docker_capc-map|
 
-   :versions: 1.1.3-0, 1.1.2-0
+   :versions: 1.1.3-1, 1.1.3-0, 1.1.2-0
    
    :depends biopython: >=1.70
    :depends bowtie: >=1.1.1

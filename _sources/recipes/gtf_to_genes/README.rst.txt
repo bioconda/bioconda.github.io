@@ -22,9 +22,9 @@ gtf_to_genes
 
    |downloads_gtf_to_genes| |docker_gtf_to_genes|
 
-   :versions: 1.40-1, 1.40-0
+   :versions: 1.40-2, 1.40-1, 1.40-0
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

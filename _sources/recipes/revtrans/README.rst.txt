@@ -23,9 +23,9 @@ revtrans
 
    |downloads_revtrans| |docker_revtrans|
 
-   :versions: 1.4-0
+   :versions: 1.4-1, 1.4-0
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

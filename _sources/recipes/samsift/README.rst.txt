@@ -22,10 +22,10 @@ samsift
 
    |downloads_samsift| |docker_samsift|
 
-   :versions: 0.2.5-2, 0.2.5-1, 0.2.5-0, 0.2.3-1, 0.2.3-0, 0.2.2-1, 0.2.2-0, 0.2.1-1, 0.2.1-0, 0.2.0-1, 0.2.0-0, 0.1.0-1, 0.1.0-0
+   :versions: 0.2.5-3, 0.2.5-2, 0.2.5-1, 0.2.5-0, 0.2.3-1, 0.2.3-0, 0.2.2-1, 0.2.2-0, 0.2.1-1, 0.2.1-0, 0.2.0-1, 0.2.0-0, 0.1.0-1, 0.1.0-0
    
    :depends pysam: 
-   :depends python: >=3.6,<3.7.0a0
+   :depends python: >=3
    :depends python-dateutil: 
    :requirements:
 

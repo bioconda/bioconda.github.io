@@ -23,7 +23,7 @@ encode-blacklist
 
    |downloads_encode-blacklist| |docker_encode-blacklist|
 
-   :versions: 2.0-0
+   :versions: 2.0-1, 2.0-0
    
    :depends bamtools: >=2.5.1,<2.5.2.0a0
    :depends libgcc-ng: >=7.3.0

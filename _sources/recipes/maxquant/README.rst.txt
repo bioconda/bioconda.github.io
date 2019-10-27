@@ -23,7 +23,7 @@ maxquant
 
    |downloads_maxquant| |docker_maxquant|
 
-   :versions: 1.6.3.4-0, 1.6.2.10-0
+   :versions: 1.6.3.4-1, 1.6.3.4-0, 1.6.2.10-0
    
    :depends mono: >=5.0.0
    :requirements:

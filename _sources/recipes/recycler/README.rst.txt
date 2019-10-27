@@ -22,13 +22,13 @@ recycler
 
    |downloads_recycler| |docker_recycler|
 
-   :versions: 0.7-2, 0.7-0, 0.6.2-0, 0.6-0, 0.6p1-0
+   :versions: 0.7-3, 0.7-2, 0.7-0, 0.6.2-0, 0.6-0, 0.6p1-0
    
    :depends networkx: 
    :depends nose: 
    :depends numpy: 
    :depends pysam: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

@@ -22,7 +22,7 @@ moca
 
    |downloads_moca| |docker_moca|
 
-   :versions: 0.4.3-0, 0.3.4-2, 0.3.4-0, 0.3.3-0, 0.2.9-0
+   :versions: 0.4.3-1, 0.4.3-0, 0.3.4-2, 0.3.4-0, 0.3.3-0, 0.2.9-0
    
    :depends biopython: >=1.68
    :depends certifi: >=2016.2.28
@@ -56,14 +56,13 @@ moca
    :depends pytest: >=3.0.5
    :depends pytest-cov: >=2.4.0
    :depends pytest-mpl: >=0.5
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends python-dateutil: >=2.3
    :depends pytz: >=2016.10
    :depends pyyaml: >=3.12
    :depends reportlab: >=3.3.0
    :depends scipy: >=0.18.1
    :depends seaborn: >=0.7.1
-   :depends setuptools: 
    :depends six: >=1.10.0
    :depends statsmodels: >=0.6.1
    :depends subprocess32: >=3.2.7

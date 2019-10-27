@@ -22,7 +22,7 @@ advntr
 
    |downloads_advntr| |docker_advntr|
 
-   :versions: 1.3.2-0, 1.3.1-0, 1.3.0-1, 1.2.0-0, 1.1.1-1, 1.1.1-0, 1.1.0-1, 1.1.0-0, 1.0.3-0
+   :versions: 1.3.2-1, 1.3.2-0, 1.3.1-0, 1.3.0-1, 1.2.0-0, 1.1.1-1, 1.1.1-0, 1.1.0-1, 1.1.0-0, 1.0.3-0
    
    :depends biopython: 
    :depends cython: 
@@ -33,7 +33,7 @@ advntr
    :depends matplotlib: 
    :depends muscle: 
    :depends networkx: 1.11.*
-   :depends numpy: >=1.9.3,<2.0a0
+   :depends numpy: >=1.14.6,<2.0a0
    :depends pysam: 0.15.1.*
    :depends python: >=2.7,<2.8.0a0
    :depends scikit-learn: 
