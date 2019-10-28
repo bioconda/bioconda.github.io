@@ -22,13 +22,13 @@ fsnviz
 
    |downloads_fsnviz| |docker_fsnviz|
 
-   :versions: 0.3.0-1, 0.3.0-0, 0.2.0-1, 0.2.0-0, 0.1.0-1, 0.1.0-0
+   :versions: 0.3.0-2, 0.3.0-1, 0.3.0-0, 0.2.0-1, 0.2.0-0, 0.1.0-1, 0.1.0-0
    
    :depends circos: >=0.69.2
    :depends click: >=6.6
    :depends crimson: >=0.3.0
    :depends jinja2: 2.9.5
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :requirements:
 
    .. rubric:: Installation

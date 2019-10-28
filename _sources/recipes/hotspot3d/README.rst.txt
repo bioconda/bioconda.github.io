@@ -22,7 +22,7 @@ hotspot3d
 
    |downloads_hotspot3d| |docker_hotspot3d|
 
-   :versions: 1.8.2-0, 0.6.0-0
+   :versions: 1.8.2-1, 1.8.2-0, 0.6.0-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-archive-extract: 

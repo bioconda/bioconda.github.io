@@ -22,7 +22,7 @@ metawrap
 
    |downloads_metawrap| |docker_metawrap|
 
-   :versions: 1.2-0, 1.1-0, 1.0-0
+   :versions: 1.2-1, 1.2-0, 1.1-0, 1.0-0
    
    :depends biopython: 1.68.*
    :depends blas: 2.5.*

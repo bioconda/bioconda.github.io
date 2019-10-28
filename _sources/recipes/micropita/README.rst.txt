@@ -23,7 +23,7 @@ micropita
 
    |downloads_micropita| |docker_micropita|
 
-   :versions: 1.1.0-0
+   :versions: 1.1.0-1, 1.1.0-0
    
    :depends biom-format: 
    :depends blist: 

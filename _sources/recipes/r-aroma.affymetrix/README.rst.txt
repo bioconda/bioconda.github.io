@@ -22,7 +22,7 @@ r-aroma.affymetrix
 
    |downloads_r-aroma.affymetrix| |docker_r-aroma.affymetrix|
 
-   :versions: 3.2.0-0, 3.1.1-2, 3.1.1-1, 3.1.1-0, 3.1.0-0, 3.0.0-0
+   :versions: 3.2.0-1, 3.2.0-0, 3.1.1-2, 3.1.1-1, 3.1.1-0, 3.1.0-0, 3.0.0-0
    
    :depends r-aroma.apd: >=0.6.0
    :depends r-aroma.core: >=3.2.0

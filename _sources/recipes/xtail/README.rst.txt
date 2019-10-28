@@ -22,7 +22,7 @@ xtail
 
    |downloads_xtail| |docker_xtail|
 
-   :versions: 1.1.5-2, 1.1.5-1, 1.1.5-0
+   :versions: 1.1.5-3, 1.1.5-2, 1.1.5-1, 1.1.5-0
    
    :depends bioconductor-biobase: 
    :depends bioconductor-biocgenerics: >=0.7.5
@@ -35,7 +35,7 @@ xtail
    :depends bioconductor-s4vectors: >=0.9.25
    :depends bioconductor-summarizedexperiment: >=1.8.0
    :depends bioconductor-tximport: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-getopt: 
    :depends r-ggplot2: 
    :depends r-gplots: 

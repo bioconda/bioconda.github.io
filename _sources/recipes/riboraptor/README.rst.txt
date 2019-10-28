@@ -24,7 +24,7 @@ riboraptor
 
    |downloads_riboraptor| |docker_riboraptor|
 
-   :versions: 0.2.2-1, 0.2.2-0
+   :versions: 0.2.2-2, 0.2.2-1, 0.2.2-0
    
    :depends biopython: >=1.70
    :depends click: >=6.0
@@ -38,7 +38,7 @@ riboraptor
    :depends pybigwig: >=0.2.8
    :depends pyfaidx: >=0.5.0
    :depends pysam: >=0.11.2.2
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :depends scipy: >=0.19.1
    :depends seaborn: >=0.8.1
    :depends six: >=1.11.0

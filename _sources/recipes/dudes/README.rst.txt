@@ -22,11 +22,11 @@ dudes
 
    |downloads_dudes| |docker_dudes|
 
-   :versions: 0.08-1, 0.08-0, 0.07-1, 0.07-0, 0.06-3, 0.06-2, 0.06-1, 0.06-0
+   :versions: 0.08-2, 0.08-1, 0.08-0, 0.07-1, 0.07-0, 0.06-3, 0.06-2, 0.06-1, 0.06-0
    
    :depends numpy: 
    :depends pandas: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :requirements:
 
    .. rubric:: Installation

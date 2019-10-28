@@ -22,11 +22,11 @@ r-popgenreport
 
    |downloads_r-popgenreport| |docker_r-popgenreport|
 
-   :versions: 3.0.4-0
+   :versions: 3.0.4-1, 3.0.4-0
    
    :depends r-ade4: 
    :depends r-adegenet: >=2.0.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-calibrate: 
    :depends r-data.table: 
    :depends r-dismo: 

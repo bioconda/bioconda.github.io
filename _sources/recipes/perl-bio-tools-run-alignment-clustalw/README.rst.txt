@@ -22,7 +22,7 @@ perl-bio-tools-run-alignment-clustalw
 
    |downloads_perl-bio-tools-run-alignment-clustalw| |docker_perl-bio-tools-run-alignment-clustalw|
 
-   :versions: 1.7.4-0
+   :versions: 1.7.4-1, 1.7.4-0
    
    :depends clustalw: 
    :depends perl: >=5.26.2,<5.26.3.0a0

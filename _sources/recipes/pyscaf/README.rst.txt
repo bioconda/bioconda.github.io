@@ -22,10 +22,10 @@ pyscaf
 
    |downloads_pyscaf| |docker_pyscaf|
 
-   :versions: 0.12a4-2, 0.12a4-0
+   :versions: 0.12a4-3, 0.12a4-2, 0.12a4-0
    
    :depends fastaindex: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

@@ -22,7 +22,7 @@ perl-bio-mlst-check
 
    |downloads_perl-bio-mlst-check| |docker_perl-bio-mlst-check|
 
-   :versions: 2.1.1706216-1, 2.1.1706216-0
+   :versions: 2.1.1706216-2, 2.1.1706216-1, 2.1.1706216-0
    
    :depends blast: 
    :depends perl: >=5.26.2,<5.26.3.0a0

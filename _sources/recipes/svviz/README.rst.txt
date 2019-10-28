@@ -22,10 +22,11 @@ svviz
 
    |downloads_svviz| |docker_svviz|
 
-   :versions: 1.6.2-0, 1.5.1-1, 1.5.1-0, 1.4.0-0
+   :versions: 1.6.2-2, 1.6.2-0, 1.5.1-1, 1.5.1-0, 1.4.0-0
    
    :depends flask: 
    :depends joblib: 
+   :depends libgcc-ng: >=7.3.0
    :depends numpy: 
    :depends pyfaidx: 
    :depends pysam: >=0.7.8

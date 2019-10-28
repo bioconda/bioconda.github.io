@@ -22,11 +22,10 @@ flaimapper
 
    |downloads_flaimapper| |docker_flaimapper|
 
-   :versions: 3.0.0-1, 3.0.0-0, 2.5.0-1, 2.5.0-0, 2.4.0-1, 2.4.0-0, 2.3.4-0, 2.3.3-0, 2.0.0-0
+   :versions: 3.0.0-2, 3.0.0-1, 3.0.0-0, 2.5.0-1, 2.5.0-0, 2.4.0-1, 2.4.0-0, 2.3.4-0, 2.3.3-0, 2.0.0-0
    
    :depends pysam: >=0.14.1
-   :depends python: >=3.5,<3.6.0a0
-   :depends setuptools: 
+   :depends python: >=3
    :requirements:
 
    .. rubric:: Installation

@@ -22,15 +22,13 @@ vtools
 
    |downloads_vtools| |docker_vtools|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.0-1, 1.0.0-0
    
    :depends click: 
-   :depends cython: 
    :depends cyvcf2: 
    :depends libgcc-ng: >=7.3.0
    :depends numpy: 
-   :depends python: >=3.7,<3.8.0a0
-   :depends setuptools: 
+   :depends python: >=3.6,<3.7.0a0
    :depends tqdm: 
    :requirements:
 

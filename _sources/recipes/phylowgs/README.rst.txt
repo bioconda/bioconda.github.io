@@ -26,7 +26,8 @@ phylowgs
    
    :depends ete2: 
    :depends gsl: >=2.5,<2.6.0a0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends numpy: 
    :depends openblas: >=0.3.6,<0.3.7.0a0
    :depends python: >=2.7,<2.8.0a0

@@ -22,7 +22,7 @@ perl-biox-seq
 
    |downloads_perl-biox-seq| |docker_perl-biox-seq|
 
-   :versions: 0.006007-0
+   :versions: 0.006007-1, 0.006007-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-compress-bgzf: 

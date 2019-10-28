@@ -22,7 +22,7 @@ genomicassertions
 
    |downloads_genomicassertions| |docker_genomicassertions|
 
-   :versions: 0.2.5-1, 0.2.5-0
+   :versions: 0.2.5-2, 0.2.5-1, 0.2.5-0
    
    :depends pysam: 
    :depends python: 

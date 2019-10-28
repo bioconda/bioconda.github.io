@@ -22,12 +22,12 @@ deepmedic
 
    |downloads_deepmedic| |docker_deepmedic|
 
-   :versions: 0.6.1-0, 0.6-0, 0.5.4-0
+   :versions: 0.6.1-1, 0.6.1-0, 0.6-0, 0.5.4-0
    
    :depends nibabel: 
    :depends numpy: 
    :depends pp: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends scipy: 
    :depends six: 
    :depends theano: 

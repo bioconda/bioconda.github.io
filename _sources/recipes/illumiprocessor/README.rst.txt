@@ -22,9 +22,9 @@ illumiprocessor
 
    |downloads_illumiprocessor| |docker_illumiprocessor|
 
-   :versions: 2.0.9-1, 2.0.9-0
+   :versions: 2.0.9-2, 2.0.9-1, 2.0.9-0
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends trimmomatic: 
    :requirements:
 

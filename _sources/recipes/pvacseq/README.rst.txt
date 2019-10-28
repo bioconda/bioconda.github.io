@@ -24,11 +24,11 @@ pvacseq
 
    |downloads_pvacseq| |docker_pvacseq|
 
-   :versions: 4.0.10-2, 4.0.10-0, 4.0.9-0
+   :versions: 4.0.10-3, 4.0.10-2, 4.0.10-0, 4.0.9-0
    
    :depends connexion: 
    :depends pandas: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :depends pyvcf: 
    :depends pyyaml: 
    :depends requests: 

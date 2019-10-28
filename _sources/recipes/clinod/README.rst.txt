@@ -22,7 +22,7 @@ clinod
 
    |downloads_clinod| |docker_clinod|
 
-   :versions: 1.3-2, 1.3-1, 1.3-0
+   :versions: 1.3-3, 1.3-2, 1.3-1, 1.3-0
    
    :depends openjdk: >=6
    :depends python: 

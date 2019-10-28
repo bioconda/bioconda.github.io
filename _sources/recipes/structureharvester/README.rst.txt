@@ -22,9 +22,9 @@ structureharvester
 
    |downloads_structureharvester| |docker_structureharvester|
 
-   :versions: 0.6.94-1, 0.6.94-0
+   :versions: 0.6.94-2, 0.6.94-1, 0.6.94-0
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

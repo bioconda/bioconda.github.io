@@ -24,7 +24,7 @@ kronos
 
    |downloads_kronos| |docker_kronos|
 
-   :versions: 2.3.0-0
+   :versions: 2.3.0-1, 2.3.0-0
    
    :depends python: <3
    :depends pyyaml: >=3.11

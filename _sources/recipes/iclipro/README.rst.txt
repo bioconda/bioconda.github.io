@@ -22,11 +22,11 @@ iclipro
 
    |downloads_iclipro| |docker_iclipro|
 
-   :versions: 0.1.1-1, 0.1.1-0
+   :versions: 0.1.1-2, 0.1.1-1, 0.1.1-0
    
    :depends matplotlib: 
    :depends pysam: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

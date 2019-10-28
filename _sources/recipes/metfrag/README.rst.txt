@@ -22,7 +22,7 @@ metfrag
 
    |downloads_metfrag| |docker_metfrag|
 
-   :versions: 2.4.5-3, 2.4.5-1, 2.4.2-2, 2.4.2-1, 2.4.2-0, 2.3.1-1, 2.3.1-0
+   :versions: 2.4.5-4, 2.4.5-3, 2.4.5-1, 2.4.2-2, 2.4.2-1, 2.4.2-0, 2.3.1-1, 2.3.1-0
    
    :depends openjdk: >=7
    :depends parallel: 

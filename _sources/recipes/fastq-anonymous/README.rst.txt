@@ -22,10 +22,10 @@ fastq-anonymous
 
    |downloads_fastq-anonymous| |docker_fastq-anonymous|
 
-   :versions: 1.0.1-1, 1.0.1-0
+   :versions: 1.0.1-2, 1.0.1-1, 1.0.1-0
    
    :depends biopython: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :requirements:
 
    .. rubric:: Installation

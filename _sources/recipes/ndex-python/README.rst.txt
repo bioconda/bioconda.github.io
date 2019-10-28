@@ -22,10 +22,10 @@ ndex-python
 
    |downloads_ndex-python| |docker_ndex-python|
 
-   :versions: 3.0.11.23-1, 3.0.11.23-0
+   :versions: 3.0.11.23-2, 3.0.11.23-1, 3.0.11.23-0
    
    :depends networkx: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends requests: 
    :depends requests-toolbelt: 
    :depends urllib3: >=1.16

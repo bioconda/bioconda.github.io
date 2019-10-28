@@ -22,14 +22,14 @@ asqcan
 
    |downloads_asqcan| |docker_asqcan|
 
-   :versions: 0.2-1, 0.2-0, 0.1-0
+   :versions: 0.2-2, 0.2-1, 0.2-0, 0.1-0
    
    :depends blast: 
    :depends blobtools: 
    :depends fastqc: 
    :depends parallel: 
    :depends prokka: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends quast: 
    :depends spades: 
    :requirements:

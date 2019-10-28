@@ -28,18 +28,19 @@ das_tool
 
    |downloads_das_tool| |docker_das_tool|
 
-   :versions: 1.1.1-2, 1.1.1-1, 1.1.1-0
+   :versions: 1.1.1-3, 1.1.1-2, 1.1.1-1, 1.1.1-0
    
    :depends blast: >=2.7.1
    :depends diamond: >=0.9.14
    :depends gawk: 
    :depends prodigal: >=2.6.3
    :depends pullseq: >=1.0.2
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: >=1.9.6
    :depends r-domc: >=1.3.5
    :depends r-ggplot2: >=3.1
    :depends ruby: >=2.4.4
+   :depends ruby: >=2.6.5,<2.7.0a0
    :depends unzip: 
    :requirements:
 

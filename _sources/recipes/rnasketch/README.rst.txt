@@ -22,10 +22,10 @@ rnasketch
 
    |downloads_rnasketch| |docker_rnasketch|
 
-   :versions: 1.5-1, 1.4-1, 1.4-0
+   :versions: 1.5-2, 1.5-1, 1.4-1, 1.4-0
    
    :depends numpy: >=1.15*
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends python-igraph: 
    :depends rnablueprint: >=1.2
    :depends scipy: >=1.1*

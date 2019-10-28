@@ -22,9 +22,9 @@ cistrome_beta
 
    |downloads_cistrome_beta| |docker_cistrome_beta|
 
-   :versions: 1.0.7-1, 1.0.7-0
+   :versions: 1.0.7-2, 1.0.7-1, 1.0.7-0
    
-   :depends argparse: 
+   :depends libgcc-ng: >=7.3.0
    :depends numpy: 
    :depends python: >=2.7,<2.8.0a0
    :depends r-base: 

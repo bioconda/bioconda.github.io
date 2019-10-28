@@ -22,7 +22,7 @@ perl-bio-automatedannotation
 
    |downloads_perl-bio-automatedannotation| |docker_perl-bio-automatedannotation|
 
-   :versions: 1.182770-0
+   :versions: 1.182770-1, 1.182770-0
    
    :depends blast: 
    :depends hmmer: 

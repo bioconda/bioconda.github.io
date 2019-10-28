@@ -22,9 +22,9 @@ gfapy
 
    |downloads_gfapy| |docker_gfapy|
 
-   :versions: 1.0.0-1, 1.0.0-0, 1.0.0rc10-0, 1.0.0rc9-0
+   :versions: 1.0.0-2, 1.0.0-1, 1.0.0-0, 1.0.0rc10-0, 1.0.0rc9-0
    
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :requirements:
 
    .. rubric:: Installation

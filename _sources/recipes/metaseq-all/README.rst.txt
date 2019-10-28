@@ -22,7 +22,7 @@ metaseq-all
 
    |downloads_metaseq-all| |docker_metaseq-all|
 
-   :versions: 0.5.6-2, 0.5.6-1, 0.5.6-0
+   :versions: 0.5.6-3, 0.5.6-2, 0.5.6-1, 0.5.6-0
    
    :depends bedtools: 
    :depends metaseq: 

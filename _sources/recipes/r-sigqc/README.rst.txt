@@ -22,12 +22,12 @@ r-sigqc
 
    |downloads_r-sigqc| |docker_r-sigqc|
 
-   :versions: 0.1.21-1, 0.1.21-0, 0.1.14-0
+   :versions: 0.1.21-2, 0.1.21-1, 0.1.21-0, 0.1.14-0
    
    :depends bioconductor-complexheatmap: 
    :depends bioconductor-gsva: 
    :depends bioconductor-rankprod: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-biclust: 
    :depends r-circlize: 
    :depends r-class: 

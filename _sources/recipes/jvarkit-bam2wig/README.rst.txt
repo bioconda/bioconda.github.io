@@ -22,7 +22,7 @@ jvarkit-bam2wig
 
    |downloads_jvarkit-bam2wig| |docker_jvarkit-bam2wig|
 
-   :versions: 201904251722-0
+   :versions: 201904251722-1, 201904251722-0
    
    :depends openjdk: >=11
    :requirements:

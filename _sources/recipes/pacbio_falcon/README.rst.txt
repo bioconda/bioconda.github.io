@@ -22,8 +22,9 @@ pacbio_falcon
 
    |downloads_pacbio_falcon| |docker_pacbio_falcon|
 
-   :versions: 052016-1, 052016-0
+   :versions: 052016-2, 052016-1, 052016-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends networkx: 
    :depends pypeflow: 
    :depends python: >=2.7,<2.8.0a0

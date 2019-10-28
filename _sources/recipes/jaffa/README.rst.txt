@@ -26,7 +26,7 @@ jaffa
 
    |downloads_jaffa| |docker_jaffa|
 
-   :versions: 1.09-1, 1.09-0, 1.08-0
+   :versions: 1.09-2, 1.09-1, 1.09-0, 1.08-0
    
    :depends bbmap: 
    :depends bioconductor-iranges: 

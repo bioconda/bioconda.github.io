@@ -22,16 +22,15 @@ fred2
 
    |downloads_fred2| |docker_fred2|
 
-   :versions: 2.0.4-0, 2.0.3-3, 2.0.3-1, 2.0.2-2, 2.0.2-1
+   :versions: 2.0.4-1, 2.0.4-0, 2.0.3-3, 2.0.3-1, 2.0.2-2, 2.0.2-1
    
    :depends biopython: 
    :depends pandas: 
    :depends pymysql: 
    :depends pyomo: 
    :depends pysvmlight: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends pyvcf: 
-   :depends setuptools: 
    :depends svmlight: 
    :requirements:
 

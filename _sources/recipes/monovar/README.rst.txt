@@ -23,11 +23,11 @@ monovar
 
    |downloads_monovar| |docker_monovar|
 
-   :versions: v0.0.1-1, v0.0.1-0
+   :versions: v0.0.1-2, v0.0.1-1, v0.0.1-0
    
    :depends numpy: 
    :depends pysam: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends scipy: 
    :requirements:
 

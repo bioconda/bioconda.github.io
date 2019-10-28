@@ -22,13 +22,13 @@ plasmidtron
 
    |downloads_plasmidtron| |docker_plasmidtron|
 
-   :versions: 0.4.1-1, 0.4.1-0, 0.3.5-0, 0.3.3-0
+   :versions: 0.4.1-2, 0.4.1-1, 0.4.1-0, 0.3.5-0, 0.3.3-0
    
    :depends biopython: 
    :depends kmc: >=2.3.0
    :depends matplotlib: 
    :depends pyfastaq: >=3.12.0
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :depends spades: >=3.9.0
    :requirements:
 

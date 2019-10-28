@@ -22,11 +22,11 @@ nanolyse
 
    |downloads_nanolyse| |docker_nanolyse|
 
-   :versions: 1.1.0-1, 1.1.0-0, 1.0.0-0, 0.5.1-0, 0.4.0-0, 0.2.0-0
+   :versions: 1.1.0-2, 1.1.0-1, 1.1.0-0, 1.0.0-0, 0.5.1-0, 0.4.0-0, 0.2.0-0
    
    :depends biopython: 
    :depends mappy: >=2.2
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :requirements:
 
    .. rubric:: Installation

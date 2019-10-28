@@ -22,7 +22,7 @@ circos-tools
 
    |downloads_circos-tools| |docker_circos-tools|
 
-   :versions: 0.23-1, 0.23-0
+   :versions: 0.23-2, 0.23-1, 0.23-0
    
    :depends perl: 
    :depends perl-bioperl: >=1.7

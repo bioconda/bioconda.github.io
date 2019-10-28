@@ -22,10 +22,10 @@ python-hppy
 
    |downloads_python-hppy| |docker_python-hppy|
 
-   :versions: 0.9.8-0, 0.9.6-0
+   :versions: 0.9.8-1, 0.9.8-0, 0.9.6-0
    
-   :depends cython: 
-   :depends python: 
+   :depends libgcc-ng: >=7.3.0
+   :depends python: >=2.7,<2.8.0a0
    :depends python-fakemp: 
    :depends python-hyphy-python: 
    :requirements:

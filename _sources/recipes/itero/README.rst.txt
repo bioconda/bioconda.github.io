@@ -22,7 +22,7 @@ itero
 
    |downloads_itero| |docker_itero|
 
-   :versions: 1.1.2-0, 1.1.1-2, 1.1.1-0, 1.1.0-0, 1.0.1-0, 1.0.0-0
+   :versions: 1.1.2-1, 1.1.2-0, 1.1.1-2, 1.1.1-0, 1.1.0-0, 1.0.1-0, 1.0.0-0
    
    :depends argcomplete: 
    :depends bedtools: 
@@ -33,7 +33,7 @@ itero
    :depends mpi4py: 
    :depends nomkl: 
    :depends numpy: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends samtools: 
    :depends schwimmbad: 
    :depends six: 

@@ -22,9 +22,9 @@ irida-linker
 
    |downloads_irida-linker| |docker_irida-linker|
 
-   :versions: 1.0.2-0, 1.0.1-1, 1.0.1-0
+   :versions: 1.0.2-1, 1.0.2-0, 1.0.1-1, 1.0.1-0
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: >=5.22
    :depends perl-config-simple: 
    :depends perl-file-path: 
    :depends perl-getopt-long: 

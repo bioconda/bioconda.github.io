@@ -23,7 +23,7 @@ translatorx
 
    |downloads_translatorx| |docker_translatorx|
 
-   :versions: 1.1-1, 1.1-0
+   :versions: 1.1-2, 1.1-1, 1.1-0
    
    :depends muscle: 
    :depends perl: 

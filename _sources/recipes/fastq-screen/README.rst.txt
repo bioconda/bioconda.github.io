@@ -22,7 +22,7 @@ fastq-screen
 
    |downloads_fastq-screen| |docker_fastq-screen|
 
-   :versions: 0.13.0-0, 0.11.3-1, 0.11.3-0, 0.11.1-1, 0.11.1-0, 0.5.2-1, 0.5.2-0
+   :versions: 0.13.0-1, 0.13.0-0, 0.11.3-1, 0.11.3-0, 0.11.1-1, 0.11.1-0, 0.5.2-1, 0.5.2-0
    
    :depends bowtie: 
    :depends bowtie2: 

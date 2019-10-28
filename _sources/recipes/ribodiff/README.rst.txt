@@ -22,11 +22,11 @@ ribodiff
 
    |downloads_ribodiff| |docker_ribodiff|
 
-   :versions: 0.2.2-1, 0.2.2-0
+   :versions: 0.2.2-2, 0.2.2-1, 0.2.2-0
    
    :depends matplotlib: >=1.3.0
    :depends numpy: >=1.8.0
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends scipy: >=0.13.3
    :depends statsmodels: >=0.5.0
    :requirements:

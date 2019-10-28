@@ -22,7 +22,7 @@ drax
 
    |downloads_drax| |docker_drax|
 
-   :versions: 0.0.0-2, 0.0.0-1, 0.0.0-0
+   :versions: 0.0.0-3, 0.0.0-2, 0.0.0-1, 0.0.0-0
    
    :depends bbmap: 37.90
    :depends fastp: 0.12.4

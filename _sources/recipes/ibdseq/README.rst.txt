@@ -23,9 +23,9 @@ ibdseq
 
    |downloads_ibdseq| |docker_ibdseq|
 
-   :versions: r1206-1, r1206-0
+   :versions: r1206-2, r1206-1, r1206-0
    
-   :depends java-jdk: >=6.0.77
+   :depends openjdk: >=6.0.77
    :requirements:
 
    .. rubric:: Installation

@@ -22,13 +22,13 @@ deblur
 
    |downloads_deblur| |docker_deblur|
 
-   :versions: 1.1.0-0, 1.0.4-2, 1.0.4-1, 1.0.4-0
+   :versions: 1.1.0-1, 1.1.0-0, 1.0.4-2, 1.0.4-1, 1.0.4-0
    
    :depends biom-format: 
    :depends click: 
    :depends h5py: 
    :depends mafft: 7.310
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :depends scikit-bio: >=0.5.0
    :depends sortmerna: 2.0
    :depends vsearch: >=2.0.3

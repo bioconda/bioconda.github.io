@@ -22,7 +22,7 @@ dehomopolymerate
 
    |downloads_dehomopolymerate| |docker_dehomopolymerate|
 
-   :versions: 0.3-0
+   :versions: 0.4.0-0, 0.3-0
    
    :depends libgcc-ng: >=7.3.0
    :depends zlib: >=1.2.11,<1.3.0a0

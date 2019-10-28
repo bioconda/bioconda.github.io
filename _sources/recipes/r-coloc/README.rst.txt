@@ -22,10 +22,10 @@ r-coloc
 
    |downloads_r-coloc| |docker_r-coloc|
 
-   :versions: 3.1-1, 3.1-0, 2.3_1-0
+   :versions: 3.1-2, 3.1-1, 3.1-0, 2.3_1-0
    
    :depends bioconductor-snpstats: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-bma: 
    :depends r-flashclust: 
    :depends r-ggplot2: 

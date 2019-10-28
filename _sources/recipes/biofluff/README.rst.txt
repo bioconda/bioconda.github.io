@@ -22,7 +22,7 @@ biofluff
 
    |downloads_biofluff| |docker_biofluff|
 
-   :versions: 3.0.3-0, 3.0.2-1, 3.0.2-0, 2.1.3-0, 2.1.2-0, 2.1.1-0, 2.1.0-0, 2.0.2-0, 2.0.1-1
+   :versions: 3.0.3-1, 3.0.3-0, 3.0.2-1, 3.0.2-0, 2.1.3-0, 2.1.2-0, 2.1.1-0, 2.1.0-0, 2.0.2-0, 2.0.1-1
    
    :depends htseq: 
    :depends matplotlib: >=2
@@ -30,7 +30,7 @@ biofluff
    :depends pybedtools: 
    :depends pybigwig: 
    :depends pysam: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :depends scikit-learn: 
    :depends scipy: 
    :requirements:

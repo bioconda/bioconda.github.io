@@ -23,7 +23,7 @@ moff
 
    |downloads_moff| |docker_moff|
 
-   :versions: 2.0.3-2, 2.0.2-2, 2.0.2-1, 2.0.2-0, 2.0.1-0, 1.2.1-1, 1.2.1-0, 1.2-0, 1.1-0
+   :versions: 2.0.3-3, 2.0.3-2, 2.0.2-2, 2.0.2-1, 2.0.2-0, 2.0.1-0, 1.2.1-1, 1.2.1-0, 1.2-0, 1.1-0
    
    :depends brain-isotopic-distribution: 
    :depends mono: 
@@ -32,7 +32,7 @@ moff
    :depends pymzml: >=2.0.6
    :depends pynumpress: 
    :depends pyteomics: >=3.5
-   :depends python: >=3.6,<3.7.0a0
+   :depends python: >=3.4,<3.7
    :depends scikit-learn: >0.19
    :depends scipy: >=1.1
    :depends simplejson: >=3.16.1

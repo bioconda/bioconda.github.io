@@ -22,10 +22,10 @@ r-structssi
 
    |downloads_r-structssi| |docker_r-structssi|
 
-   :versions: 1.1.1-4, 1.1.1-3, 1.1.1-2, 1.1.1-1, 1.1.1-0
+   :versions: 1.1.1-5, 1.1.1-4, 1.1.1-3, 1.1.1-2, 1.1.1-1, 1.1.1-0
    
    :depends bioconductor-multtest: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 
    :depends r-igraph: 
    :depends r-reshape2: 

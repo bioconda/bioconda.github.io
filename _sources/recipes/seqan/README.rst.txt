@@ -22,7 +22,7 @@ seqan
 
    |downloads_seqan| |docker_seqan|
 
-   :versions: 2.4.0-0, 2.1.1-0
+   :versions: 2.4.0-1, 2.4.0-0, 2.1.1-1, 2.1.1-0
    
    :requirements:
 

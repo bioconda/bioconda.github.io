@@ -23,10 +23,10 @@ bamclipper
 
    |downloads_bamclipper| |docker_bamclipper|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.0-1, 1.0.0-0
    
    :depends parallel: 
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: 
    :depends samtools: 
    :requirements:
 

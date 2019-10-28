@@ -22,11 +22,11 @@ fuma
 
    |downloads_fuma| |docker_fuma|
 
-   :versions: 3.0.5-1, 3.0.5-0, 3.0.3-0
+   :versions: 3.0.5-2, 3.0.5-1, 3.0.5-0, 3.0.3-0
    
    :depends htseq: >=0.6.1
    :depends numpy: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

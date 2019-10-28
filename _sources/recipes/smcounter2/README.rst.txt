@@ -22,13 +22,13 @@ smcounter2
 
    |downloads_smcounter2| |docker_smcounter2|
 
-   :versions: 0.1.2018.08.28-1, 0.1.2018.08.28-0
+   :versions: 0.1.2018.08.28-2, 0.1.2018.08.28-1, 0.1.2018.08.28-0
    
    :depends bedtools: 
    :depends openpyxl: 
    :depends pysam: 
-   :depends python: >=2.7,<2.8.0a0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends python: <3
+   :depends r-base: 
    :depends r-plyr: 
    :depends scipy: 
    :depends statistics: 

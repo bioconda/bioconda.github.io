@@ -22,12 +22,12 @@ pyloh
 
    |downloads_pyloh| |docker_pyloh|
 
-   :versions: 1.4.3-1, 1.4.3-0, 1.4.1-1
+   :versions: 1.4.3-2, 1.4.3-1, 1.4.3-0, 1.4.1-1
    
    :depends matplotlib: >=1.2
    :depends numpy: >=1.6.1
    :depends pysam: >=0.7
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends scipy: >=0.10
    :requirements:
 

@@ -24,7 +24,7 @@ magpurify
 
    |downloads_magpurify| |docker_magpurify|
 
-   :versions: 1.0-1
+   :versions: 1.0-2, 1.0-1
    
    :depends biopython: 
    :depends blast: 2.7.1.*

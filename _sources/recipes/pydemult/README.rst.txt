@@ -22,11 +22,11 @@ pydemult
 
    |downloads_pydemult| |docker_pydemult|
 
-   :versions: 0.4.1-0
+   :versions: 0.4.1-1, 0.4.1-0
    
    :depends mputil: 
    :depends pandas: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :requirements:
 
    .. rubric:: Installation

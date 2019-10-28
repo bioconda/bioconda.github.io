@@ -22,8 +22,9 @@ cogent
 
    |downloads_cogent| |docker_cogent|
 
-   :versions: 1.9-0, 1.5.3-2, 1.5.3-1, 1.5.3-0
+   :versions: 1.9-1, 1.9-0, 1.5.3-2, 1.5.3-1, 1.5.3-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends matplotlib: >=1.1.0
    :depends mpi4py: >=1.0
    :depends mysql-python: >=1.2.2

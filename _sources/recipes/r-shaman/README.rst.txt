@@ -22,11 +22,11 @@ r-shaman
 
    |downloads_r-shaman| |docker_r-shaman|
 
-   :versions: 2.0-0
+   :versions: 2.0-1, 2.0-0
    
    :depends bioconductor-genomeinfodb: 
    :depends bioconductor-gviz: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-domc: 
    :depends r-misha: 
    :depends r-rann: 

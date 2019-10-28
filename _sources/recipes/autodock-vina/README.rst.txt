@@ -22,7 +22,7 @@ autodock-vina
 
    |downloads_autodock-vina| |docker_autodock-vina|
 
-   :versions: 1.1.2-1, 1.1.2-0
+   :versions: 1.1.2-2, 1.1.2-1, 1.1.2-0
    
    :requirements:
 

@@ -22,12 +22,13 @@ cpat
 
    |downloads_cpat| |docker_cpat|
 
-   :versions: 2.0.0-0, 1.2.4-1, 1.2.4-0, 1.2.3-1, 1.2.3-0, 1.2.2-2
+   :versions: 2.0.0-1, 2.0.0-0, 1.2.4-1, 1.2.4-0, 1.2.3-1, 1.2.3-0, 1.2.2-2
    
    :depends bx-python: 
+   :depends libgcc-ng: >=7.3.0
    :depends numpy: 
    :depends pysam: 
-   :depends python: >=3.5
+   :depends python: >=3.6,<3.7.0a0
    :depends r-base: 
    :requirements:
 

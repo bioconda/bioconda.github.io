@@ -22,9 +22,9 @@ pybamparser
 
    |downloads_pybamparser| |docker_pybamparser|
 
-   :versions: 0.0.3-1, 0.0.3-0
+   :versions: 0.0.3-2, 0.0.3-1, 0.0.3-0
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

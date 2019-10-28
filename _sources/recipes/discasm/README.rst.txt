@@ -22,12 +22,12 @@ discasm
 
    |downloads_discasm| |docker_discasm|
 
-   :versions: 0.1.3-0, 0.1.2-2, 0.1.2-1, 0.1.2-0
+   :versions: 0.1.3-1, 0.1.3-0, 0.1.2-2, 0.1.2-1, 0.1.2-0
    
    :depends oases: >=0.2
-   :depends perl: 5.22.0*
+   :depends perl: 
    :depends pysam: >=0.10.0
-   :depends python: 2.7*
+   :depends python: <3
    :depends star: >=2.4
    :depends trinity: >=2.4
    :requirements:

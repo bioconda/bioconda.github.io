@@ -22,10 +22,10 @@ menetools
 
    |downloads_menetools| |docker_menetools|
 
-   :versions: 1.0.4_1-1, 1.0.4_1-0
+   :versions: 1.0.4_1-2, 1.0.4_1-1, 1.0.4_1-0
    
    :depends pyasp: >=1.4.3
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :requirements:
 
    .. rubric:: Installation

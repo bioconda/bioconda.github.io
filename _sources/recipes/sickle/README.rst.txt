@@ -22,10 +22,10 @@ sickle
 
    |downloads_sickle| |docker_sickle|
 
-   :versions: 0.6.4-0, 0.6.3-2, 0.6.3-0, 0.5-0
+   :versions: 0.6.4-1, 0.6.4-0, 0.6.3-2, 0.6.3-0, 0.5-0
    
    :depends lxml: >=3.2.3
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: 
    :depends requests: >=1.1.0
    :requirements:
 

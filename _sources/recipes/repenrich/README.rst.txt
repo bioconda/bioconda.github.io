@@ -22,12 +22,12 @@ repenrich
 
    |downloads_repenrich| |docker_repenrich|
 
-   :versions: 1.2-1, 1.2-0
+   :versions: 1.2-2, 1.2-1, 1.2-0
    
    :depends bedtools: <2.24.0
    :depends biopython: 
    :depends bowtie: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends samtools: 
    :requirements:
 
