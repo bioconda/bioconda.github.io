@@ -23,7 +23,7 @@ anvio-minimal
 
    |downloads_anvio-minimal| |docker_anvio-minimal|
 
-   :versions: 6-0, 5.5.0-0, 5.4.0-0, 5.3.0-0, 5.2.0-1, 5.2.0-0
+   :versions: 6.1-0, 6-0, 5.5.0-0, 5.4.0-0, 5.3.0-0, 5.2.0-1, 5.2.0-0
    
    :depends bottle: 0.12.13
    :depends cherrypy: 8.0.0

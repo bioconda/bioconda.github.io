@@ -22,7 +22,7 @@ variant_tools
 
    |downloads_variant_tools| |docker_variant_tools|
 
-   :versions: 3.0.8-0
+   :versions: 3.0.9-0, 3.0.8-0
    
    :depends boost-cpp: >=1.70.0,<1.70.1.0a0
    :depends gsl: >=2.5,<2.6.0a0

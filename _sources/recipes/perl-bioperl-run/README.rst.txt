@@ -22,7 +22,7 @@ perl-bioperl-run
 
    |downloads_perl-bioperl-run| |docker_perl-bioperl-run|
 
-   :versions: 1.007002-3, 1.006900-2, 1.006900-1, 1.006900-0
+   :versions: 1.007002-4, 1.007002-3, 1.006900-2, 1.006900-1, 1.006900-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-bio-samtools: 

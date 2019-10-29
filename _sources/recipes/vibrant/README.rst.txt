@@ -22,7 +22,7 @@ vibrant
 
    |downloads_vibrant| |docker_vibrant|
 
-   :versions: 1.0.1-0
+   :versions: 1.0.1-1, 1.0.1-0
    
    :depends biopython: 
    :depends hmmer: 
@@ -33,6 +33,7 @@ vibrant
    :depends python: >=3.5
    :depends scikit-learn: 
    :depends seaborn: 
+   :depends wget: 
    :requirements:
 
    .. rubric:: Installation

@@ -22,13 +22,13 @@ pbhoover
 
    |downloads_pbhoover| |docker_pbhoover|
 
-   :versions: 1.0.7-2, 1.0.7-0, 1.0.6-0
+   :versions: 1.0.7-3, 1.0.7-2, 1.0.7-0, 1.0.6-0
    
    :depends bcftools: 
    :depends numpy: 
    :depends pbcore: >=1.2.10
    :depends pbh5tools: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends pyvcf: 
    :depends tabix: 
    :requirements:

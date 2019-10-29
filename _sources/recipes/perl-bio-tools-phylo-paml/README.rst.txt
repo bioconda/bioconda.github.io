@@ -22,7 +22,7 @@ perl-bio-tools-phylo-paml
 
    |downloads_perl-bio-tools-phylo-paml| |docker_perl-bio-tools-phylo-paml|
 
-   :versions: 1.7.3-0
+   :versions: 1.7.3-1, 1.7.3-0
    
    :depends paml: 
    :depends perl: >=5.26.2,<5.26.3.0a0
