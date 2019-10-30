@@ -24,11 +24,11 @@ biasaway
 
    |downloads_biasaway| |docker_biasaway|
 
-   :versions: 1.0.2-0
+   :versions: 1.0.4-0, 1.0.2-0
    
    :depends biopython: 
    :depends numpy: <=1.16.5
-   :depends python: <3
+   :depends python: 
    :requirements:
 
    .. rubric:: Installation

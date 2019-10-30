@@ -23,7 +23,7 @@ bioconda-utils
 
    |downloads_bioconda-utils| |docker_bioconda-utils|
 
-   :versions: 0.16.8-1, 0.16.8-0, 0.16.7-1, 0.16.7-0, 0.16.6-0, 0.16.5-0, 0.16.3-0, 0.16.2-0, 0.15.13-0, 0.15.12-0, 0.15.11-0, 0.15.10-1, 0.15.10-0, 0.15.8-0, 0.15.7-0, 0.15.3-0, 0.15.2-0, 0.15.1-0, 0.14.9-0, 0.14.3-0, 0.14.2-0, 0.12.3-1, 0.12.3-0, 0.12.0-0, 0.11.4-1, 0.11.4-0, 0.11.3-0, 0.11.2-0, 0.11.1-0
+   :versions: 0.16.8-3, 0.16.8-2, 0.16.7-1, 0.16.7-0, 0.16.6-0, 0.16.5-0, 0.16.3-0, 0.16.2-0, 0.15.13-0, 0.15.12-0, 0.15.11-0, 0.15.10-1, 0.15.10-0, 0.15.8-0, 0.15.7-0, 0.15.3-0, 0.15.2-0, 0.15.1-0, 0.14.9-0, 0.14.3-0, 0.14.2-0, 0.12.3-1, 0.12.3-0, 0.12.0-0, 0.11.4-1, 0.11.4-0, 0.11.3-0, 0.11.2-0, 0.11.1-0
    
    :depends aiofiles: 0.4.*
    :depends aioftp: 0.12.*
@@ -43,13 +43,13 @@ bioconda-utils
    :depends colorlog: 3.1.*
    :depends conda: 4.6.14.*
    :depends conda-build: 3.18.9.*
-   :depends conda-forge-pinning: 2019.07.11.*
+   :depends conda-forge-pinning: 2019.09.27.*
    :depends conda-verify: 3.1.*
    :depends cryptography: 2.*
    :depends docutils: 
    :depends galaxy-lib: >=18.9.1
    :depends gidgethub: 3.0.*
-   :depends git: 
+   :depends git: 2.14.*
    :depends gitpython: 2.1.*
    :depends gunicorn: 19.9.*
    :depends involucro: 1.1.*
@@ -60,13 +60,11 @@ bioconda-utils
    :depends networkx: 1.11.*
    :depends pandas: 0.23.*
    :depends pyaml: 17.12.*
-   :depends pygithub: 1.34.*
    :depends pyjwt: 1.7.*
-   :depends python: >=3.6
+   :depends python: >=3.7
    :depends regex: 2018.08.29.*
    :depends requests: 2.20.*
    :depends ruamel_yaml: 0.15.*
-   :depends six: 1.11.*
    :depends skopeo: 0.1.35.*
    :depends sphinx: 
    :depends sphinx-autodoc-typehints: 

@@ -23,13 +23,13 @@ fusioncatcher
 
    |downloads_fusioncatcher| |docker_fusioncatcher|
 
-   :versions: 1.10-0, 1.00-1, 1.00-0
+   :versions: 1.10-2, 1.10-0, 1.00-1, 1.00-0
    
-   :depends bbmap: 
+   :depends bbmap: 38.44.*
    :depends biopython: >=1.50
    :depends blat: 35.*
-   :depends bowtie: 1.2.0.*
-   :depends bowtie2: 2.3.0.*
+   :depends bowtie: 1.2.2.*
+   :depends bowtie2: 2.2.*
    :depends bwa: 0.7.12.*
    :depends fusioncatcher-seqtk: 1.2.*
    :depends lzo: 
@@ -44,7 +44,7 @@ fusioncatcher
    :depends python: <3
    :depends samtools: 0.1.19.*
    :depends sra-tools: 2.6.2.*
-   :depends star: 2.5.2b.*
+   :depends star: 2.7.0f.*
    :depends ucsc-fatotwobit: 
    :depends ucsc-liftover: 
    :depends velvet: 1.2.10.*

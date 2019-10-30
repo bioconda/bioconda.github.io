@@ -23,9 +23,10 @@ tmalign
 
    |downloads_tmalign| |docker_tmalign|
 
-   :versions: 20170708-0
+   :versions: 20170708-1, 20170708-0
    
-   :depends libgfortran: >=3.0
+   :depends libgcc-ng: >=7.3.0
+   :depends libgfortran-ng: >=7,<8.0a0
    :requirements:
 
    .. rubric:: Installation

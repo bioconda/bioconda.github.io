@@ -22,10 +22,10 @@ apoc
 
    |downloads_apoc| |docker_apoc|
 
-   :versions: 1b16-1, 1b16-0
+   :versions: 1b16-2, 1b16-1, 1b16-0
    
-   :depends libgcc-ng: >=4.9
-   :depends libgfortran: >=3.0
+   :depends libgcc-ng: >=7.3.0
+   :depends libgfortran-ng: >=7,<8.0a0
    :requirements:
 
    .. rubric:: Installation

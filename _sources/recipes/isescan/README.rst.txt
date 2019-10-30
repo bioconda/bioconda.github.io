@@ -22,7 +22,7 @@ isescan
 
    |downloads_isescan| |docker_isescan|
 
-   :versions: 1.7.1-0
+   :versions: 1.7.1-1, 1.7.1-0
    
    :depends biopython: >=1.62
    :depends blast: >=2.2.31

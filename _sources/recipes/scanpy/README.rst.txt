@@ -23,26 +23,26 @@ scanpy
 
    |downloads_scanpy| |docker_scanpy|
 
-   :versions: 1.4.4.post1-0, 1.4.4-1, 1.4.4-0, 1.4.3-0, 1.4.2-0, 1.4.1-0, 1.4-0, 1.3.7-0, 1.3.6-0, 1.3.5-0, 1.3.4-0, 1.3.3-0, 1.3.2-0, 1.3.1-0
+   :versions: 1.4.4.post1-1, 1.4.4.post1-0, 1.4.4-1, 1.4.4-0, 1.4.3-0, 1.4.2-0, 1.4.1-0, 1.4-0, 1.3.7-0, 1.3.6-0, 1.3.5-0, 1.3.4-0, 1.3.3-0, 1.3.2-0, 1.3.1-0
    
-   :depends anndata: >=0.6.10
-   :depends h5py: 
-   :depends importlib-metadata: 
-   :depends louvain: 
-   :depends matplotlib: >=2.2
+   :depends anndata: >=0.6.22rc1
+   :depends h5py: !=2.10.0
+   :depends importlib_metadata: >=0.7
+   :depends joblib: 
+   :depends matplotlib: 3.0.*
    :depends natsort: 
    :depends networkx: 
-   :depends numba: 
+   :depends numba: >=0.41.0
    :depends pandas: >=0.21
+   :depends patsy: 
    :depends pytables: 
    :depends python: >=3.6
-   :depends python-igraph: 
-   :depends scikit-learn: 
-   :depends scipy: 
+   :depends scikit-learn: >=0.21.2
+   :depends scipy: >=1.3
    :depends seaborn: 
-   :depends statsmodels: 
+   :depends statsmodels: >=0.10.0rc2
    :depends tqdm: 
-   :depends umap-learn: 
+   :depends umap-learn: >=0.3.0
    :requirements:
 
    .. rubric:: Installation

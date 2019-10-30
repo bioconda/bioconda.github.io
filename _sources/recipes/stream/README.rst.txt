@@ -22,7 +22,7 @@ stream
 
    |downloads_stream| |docker_stream|
 
-   :versions: 0.3.9-0, 0.3.8-0, 0.3.7-1, 0.3.7-0, 0.3.6-1, 0.3.5-0, 0.3.4-0, 0.3.3-0, 0.3.2-2, 0.3.2-1, 0.3.2-0, 0.3.1-2, 0.3.1-1, 0.3.1-0, 0.3.0-0, 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.2.0-0
+   :versions: 0.3.9-1, 0.3.9-0, 0.3.8-0, 0.3.7-1, 0.3.7-0, 0.3.6-1, 0.3.5-0, 0.3.4-0, 0.3.3-0, 0.3.2-2, 0.3.2-1, 0.3.2-0, 0.3.1-2, 0.3.1-1, 0.3.1-0, 0.3.0-0, 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.2.0-0
    
    :depends anndata: 
    :depends gunicorn: 
@@ -34,7 +34,7 @@ stream
    :depends numpy: 
    :depends python: >=3.6,<3.7.0a0
    :depends python-slugify: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-devtools: 
    :depends r-distutils: 
    :depends r-elpigraph.r: 

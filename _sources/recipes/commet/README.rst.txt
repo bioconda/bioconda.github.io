@@ -23,7 +23,7 @@ commet
 
    |downloads_commet| |docker_commet|
 
-   :versions: 24.7.14-2, 24.7.14-1, 24.7.14-0
+   :versions: 24.7.14-3, 24.7.14-2, 24.7.14-1, 24.7.14-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libgfortran-ng: >=7,<8.0a0
