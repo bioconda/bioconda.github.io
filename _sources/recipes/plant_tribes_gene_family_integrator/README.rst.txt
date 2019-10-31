@@ -6,14 +6,14 @@
 plant_tribes_gene_family_integrator
 ===================================
 
-.. conda:recipe:: plant_tribes_gene_family_integrator/1.0.2
+.. conda:recipe:: plant_tribes_gene_family_integrator
    :replaces_section_title:
 
    Gene family integrator pipeline
 
    :homepage: https://github.com/dePamphilis/PlantTribes
    :license: GNU General Public License v3 (GPLv3)
-   :recipe: /`plant_tribes_gene_family_integrator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_gene_family_integrator>`_/`1.0.2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_gene_family_integrator/1.0.2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_gene_family_integrator/1.0.2/meta.yaml>`_
+   :recipe: /`plant_tribes_gene_family_integrator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_gene_family_integrator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_gene_family_integrator/meta.yaml>`_
 
    
 
@@ -22,7 +22,7 @@ plant_tribes_gene_family_integrator
 
    |downloads_plant_tribes_gene_family_integrator| |docker_plant_tribes_gene_family_integrator|
 
-   :versions: 1.0.3-2, 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.0-1, 1.0.0-0
+   :versions: 1.0.4-0, 1.0.3-2, 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.0-1, 1.0.0-0
    
    :depends perl: 
    :requirements:

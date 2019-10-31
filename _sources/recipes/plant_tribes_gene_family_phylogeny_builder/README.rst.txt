@@ -6,14 +6,14 @@
 plant_tribes_gene_family_phylogeny_builder
 ==========================================
 
-.. conda:recipe:: plant_tribes_gene_family_phylogeny_builder/1.0.2
+.. conda:recipe:: plant_tribes_gene_family_phylogeny_builder
    :replaces_section_title:
 
    Gene family phylogeny builder pipeline
 
    :homepage: https://github.com/dePamphilis/PlantTribes
    :license: GNU General Public License v3 (GPLv3)
-   :recipe: /`plant_tribes_gene_family_phylogeny_builder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_gene_family_phylogeny_builder>`_/`1.0.2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_gene_family_phylogeny_builder/1.0.2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_gene_family_phylogeny_builder/1.0.2/meta.yaml>`_
+   :recipe: /`plant_tribes_gene_family_phylogeny_builder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_gene_family_phylogeny_builder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_gene_family_phylogeny_builder/meta.yaml>`_
 
    
 
@@ -22,7 +22,7 @@ plant_tribes_gene_family_phylogeny_builder
 
    |downloads_plant_tribes_gene_family_phylogeny_builder| |docker_plant_tribes_gene_family_phylogeny_builder|
 
-   :versions: 1.0.3-2, 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.0-1, 1.0.0-0
+   :versions: 1.0.4-0, 1.0.3-2, 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.0-1, 1.0.0-0
    
    :depends fasttree: >=2,<3
    :depends perl: 

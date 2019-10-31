@@ -22,7 +22,7 @@ fastq-dl
 
    |downloads_fastq-dl| |docker_fastq-dl|
 
-   :versions: 1.0.1-0, 1.0.0-0
+   :versions: 1.0.2-0, 1.0.1-0, 1.0.0-0
    
    :depends executor: 
    :depends pigz: 

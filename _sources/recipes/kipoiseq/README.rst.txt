@@ -24,7 +24,7 @@ kipoiseq
 
    |downloads_kipoiseq| |docker_kipoiseq|
 
-   :versions: 0.2.7-1, 0.2.7-0, 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.2-0
+   :versions: 0.3.0-0, 0.2.7-1, 0.2.7-0, 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.2-0
    
    :depends genomelake: 
    :depends gffutils: 

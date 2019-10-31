@@ -22,7 +22,7 @@ modeltest-ng
 
    |downloads_modeltest-ng| |docker_modeltest-ng|
 
-   :versions: 0.1.5-0
+   :versions: 0.1.6-0, 0.1.5-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

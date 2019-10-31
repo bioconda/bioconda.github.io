@@ -6,14 +6,14 @@
 gatb
 ====
 
-.. conda:recipe:: gatb/1.4.1
+.. conda:recipe:: gatb
    :replaces_section_title:
 
    The Genome Analysis Toolbox with de\-Bruijn graph
 
    :homepage: https://gatb.inria.fr/
    :license: AGPL 3.0
-   :recipe: /`gatb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatb>`_/`1.4.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatb/1.4.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatb/1.4.1/meta.yaml>`_
+   :recipe: /`gatb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatb/meta.yaml>`_
 
    
 

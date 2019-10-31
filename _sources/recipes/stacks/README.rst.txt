@@ -6,14 +6,14 @@
 stacks
 ======
 
-.. conda:recipe:: stacks/1.37
+.. conda:recipe:: stacks
    :replaces_section_title:
 
    Stacks is a software pipeline for building loci from RAD\-seq
 
    :homepage: http://catchenlab.life.illinois.edu/stacks/
    :license: GPL
-   :recipe: /`stacks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stacks>`_/`1.37 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stacks/1.37>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stacks/1.37/meta.yaml>`_
+   :recipe: /`stacks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stacks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stacks/meta.yaml>`_
    :links: biotools: :biotools:`Stacks`, doi: :doi:`10.1111/mec.12354`
 
    
