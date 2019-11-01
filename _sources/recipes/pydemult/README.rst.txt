@@ -22,7 +22,7 @@ pydemult
 
    |downloads_pydemult| |docker_pydemult|
 
-   :versions: 0.4.1-1, 0.4.1-0
+   :versions: 0.5-0, 0.4.1-1, 0.4.1-0
    
    :depends mputil: 
    :depends pandas: 

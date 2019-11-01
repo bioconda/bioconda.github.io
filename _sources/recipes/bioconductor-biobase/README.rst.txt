@@ -9,23 +9,23 @@ bioconductor-biobase
 .. conda:recipe:: bioconductor-biobase
    :replaces_section_title:
 
-   Functions that are needed by many other packages or which replace R functions.
+   Biobase\: Base functions for Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Biobase.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Biobase.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biobase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biobase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biobase/meta.yaml>`_
    :links: biotools: :biotools:`biobase`
 
-   
+   Functions that are needed by many other packages or which replace R functions.
 
 
 .. conda:package:: bioconductor-biobase
 
    |downloads_bioconductor-biobase| |docker_bioconductor-biobase|
 
-   :versions: 2.44.0-1, 2.42.0-1, 2.42.0-0, 2.40.0-1, 2.40.0-0, 2.38.0-1, 2.38.0-0, 2.36.2-0, 2.34.0-0, 2.32.0-0, 2.30.0-0
+   :versions: 2.46.0-0, 2.44.0-1, 2.42.0-1, 2.42.0-0, 2.40.0-1, 2.40.0-0, 2.38.0-1, 2.38.0-0, 2.36.2-0, 2.34.0-0, 2.32.0-0, 2.30.0-0
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
    :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
