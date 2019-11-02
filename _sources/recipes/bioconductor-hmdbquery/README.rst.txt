@@ -22,9 +22,9 @@ bioconductor-hmdbquery
 
    |downloads_bioconductor-hmdbquery| |docker_bioconductor-hmdbquery|
 
-   :versions: 1.4.0-1, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0
    
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-xml: 
    :requirements:

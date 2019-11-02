@@ -23,15 +23,16 @@ bioconductor-flowsom
 
    |downloads_bioconductor-flowsom| |docker_bioconductor-flowsom|
 
-   :versions: 1.16.0-1, 1.14.1-0, 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.8.0-0
+   :versions: 1.18.0-0, 1.16.0-1, 1.14.1-0, 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.8.0-0
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-consensusclusterplus: >=1.48.0,<1.49.0
-   :depends bioconductor-flowcore: >=1.50.0,<1.51.0
-   :depends bioconductor-flowutils: >=1.48.0,<1.49.0
-   :depends libgcc-ng: >=7.3.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-consensusclusterplus: >=1.50.0,<1.51.0
+   :depends bioconductor-cytoml: >=1.12.0,<1.13.0
+   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
+   :depends bioconductor-flowworkspace: >=3.34.0,<3.35.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-igraph: 
+   :depends r-rcolorbrewer: 
    :depends r-tsne: 
    :depends r-xml: 
    :requirements:

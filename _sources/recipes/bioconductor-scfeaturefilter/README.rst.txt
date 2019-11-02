@@ -22,7 +22,7 @@ bioconductor-scfeaturefilter
 
    |downloads_bioconductor-scfeaturefilter| |docker_bioconductor-scfeaturefilter|
 
-   :versions: 1.4.0-1, 1.4.0-0, 1.2.1-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.1-0
    
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: >=0.7.3

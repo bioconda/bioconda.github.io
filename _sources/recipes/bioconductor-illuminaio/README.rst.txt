@@ -23,7 +23,7 @@ bioconductor-illuminaio
 
    |downloads_bioconductor-illuminaio| |docker_bioconductor-illuminaio|
 
-   :versions: 0.26.0-1, 0.26.0-0, 0.24.0-0, 0.22.0-0, 0.20.0-0, 0.18.0-0, 0.14.0-0, 0.12.0-0
+   :versions: 0.28.0-0, 0.26.0-1, 0.26.0-0, 0.24.0-0, 0.22.0-0, 0.20.0-0, 0.18.0-0, 0.14.0-0, 0.12.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0

@@ -22,10 +22,10 @@ bioconductor-diggitdata
 
    |downloads_bioconductor-diggitdata| |docker_bioconductor-diggitdata|
 
-   :versions: 1.16.0-1, 1.14.0-0
+   :versions: 1.17.2-0, 1.16.0-1, 1.14.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-viper: >=1.18.0,<1.19.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-viper: >=1.20.0,<1.21.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

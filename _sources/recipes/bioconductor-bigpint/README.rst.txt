@@ -22,7 +22,7 @@ bioconductor-bigpint
 
    |downloads_bioconductor-bigpint| |docker_bioconductor-bigpint|
 
-   :versions: 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: >=0.7.2

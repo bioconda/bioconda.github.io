@@ -22,7 +22,7 @@ bioconductor-cmap
 
    |downloads_bioconductor-cmap| |docker_bioconductor-cmap|
 
-   :versions: 1.15.1-5, 1.15.1-4, 1.15.1-3, 1.15.1-2, 1.15.1-0
+   :versions: 1.15.1-6, 1.15.1-5, 1.15.1-4, 1.15.1-3, 1.15.1-2, 1.15.1-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

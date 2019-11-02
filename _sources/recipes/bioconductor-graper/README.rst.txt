@@ -22,7 +22,7 @@ bioconductor-graper
 
    |downloads_bioconductor-graper| |docker_bioconductor-graper|
 
-   :versions: 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

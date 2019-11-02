@@ -22,9 +22,10 @@ bioconductor-coregflux
 
    |downloads_bioconductor-coregflux| |docker_bioconductor-coregflux|
 
-   :versions: 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-coregnet: >=1.22.0,<1.23.0
+   :depends bioconductor-coregnet: >=1.24.0,<1.25.0
+   :depends glpk: >=4.65,<4.66.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-sybil: 
    :requirements:

@@ -22,7 +22,7 @@ umi_tools
 
    |downloads_umi_tools| |docker_umi_tools|
 
-   :versions: 1.0.0-0, 0.5.5-1, 0.5.5-0, 0.5.4-3, 0.5.4-2, 0.5.4-1, 0.5.4-0, 0.5.3-1, 0.5.3-0, 0.5.2-0, 0.5.1-0, 0.5.0-0, 0.4.4-0, 0.4.3-0, 0.2.3-2, 0.2.3-1, 0.2.3-0
+   :versions: 1.0.0-1, 1.0.0-0, 0.5.5-1, 0.5.5-0, 0.5.4-3, 0.5.4-2, 0.5.4-1, 0.5.4-0, 0.5.3-1, 0.5.3-0, 0.5.2-0, 0.5.1-0, 0.5.0-0, 0.4.4-0, 0.4.3-0, 0.2.3-2, 0.2.3-1, 0.2.3-0
    
    :depends future: 
    :depends libgcc-ng: >=7.3.0
@@ -30,7 +30,7 @@ umi_tools
    :depends numpy: >=1.7
    :depends pandas: >=0.12.0
    :depends pysam: >=0.9
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3.7,<3.8.0a0
    :depends regex: 
    :depends scipy: 
    :requirements:

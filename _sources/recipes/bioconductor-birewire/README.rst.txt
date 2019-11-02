@@ -23,7 +23,7 @@ bioconductor-birewire
 
    |downloads_bioconductor-birewire| |docker_bioconductor-birewire|
 
-   :versions: 3.16.0-1, 3.16.0-0, 3.14.0-0, 3.12.0-0, 3.10.0-0
+   :versions: 3.18.0-0, 3.16.0-1, 3.16.0-0, 3.14.0-0, 3.12.0-0, 3.10.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0

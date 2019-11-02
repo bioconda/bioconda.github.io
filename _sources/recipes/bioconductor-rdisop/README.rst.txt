@@ -22,7 +22,7 @@ bioconductor-rdisop
 
    |downloads_bioconductor-rdisop| |docker_bioconductor-rdisop|
 
-   :versions: 1.44.0-1, 1.44.0-0, 1.42.1-0, 1.42.0-0
+   :versions: 1.46.0-0, 1.44.0-1, 1.44.0-0, 1.42.1-0, 1.42.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

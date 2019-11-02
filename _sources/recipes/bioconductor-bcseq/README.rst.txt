@@ -22,11 +22,10 @@ bioconductor-bcseq
 
    |downloads_bioconductor-bcseq| |docker_bioconductor-bcseq|
 
-   :versions: 1.6.0-1, 1.4.0-0
+   :versions: 1.8.0-0, 1.6.0-1, 1.4.0-0
    
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-matrix: 
    :depends r-rcpp: >=0.12.12

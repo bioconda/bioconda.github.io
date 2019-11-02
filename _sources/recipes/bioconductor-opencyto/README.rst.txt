@@ -22,20 +22,19 @@ bioconductor-opencyto
 
    |downloads_bioconductor-opencyto| |docker_bioconductor-opencyto|
 
-   :versions: 1.22.2-0, 1.20.1-0
+   :versions: 1.24.0-0, 1.22.2-0, 1.20.1-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-flowclust: >=3.22.0,<3.23.0
-   :depends bioconductor-flowcore: >=1.50.0,<1.51.0
-   :depends bioconductor-flowstats: >=3.42.0,<3.43.0
-   :depends bioconductor-flowviz: >=1.48.0,<1.49.0
-   :depends bioconductor-flowworkspace: >=3.32.0,<3.33.0
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
-   :depends bioconductor-ncdfflow: >=2.30.0,<2.31.0
-   :depends bioconductor-rbgl: >=1.60.0,<1.61.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-flowclust: >=3.24.0,<3.25.0
+   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
+   :depends bioconductor-flowstats: >=3.44.0,<3.45.0
+   :depends bioconductor-flowviz: >=1.50.0,<1.51.0
+   :depends bioconductor-flowworkspace: >=3.34.0,<3.35.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
+   :depends bioconductor-ncdfflow: >=2.32.0,<2.33.0
+   :depends bioconductor-rbgl: >=1.62.0,<1.63.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-clue: 
    :depends r-data.table: 

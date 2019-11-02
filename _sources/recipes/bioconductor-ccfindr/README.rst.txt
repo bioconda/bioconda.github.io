@@ -22,13 +22,12 @@ bioconductor-ccfindr
 
    |downloads_bioconductor-ccfindr| |docker_bioconductor-ccfindr|
 
-   :versions: 1.4.2-0, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.2-0, 1.2.0-0
    
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-singlecellexperiment: >=1.8.0,<1.9.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends libcxx: >=4.0.1
    :depends r-ape: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-gtools: 
@@ -37,6 +36,7 @@ bioconductor-ccfindr
    :depends r-rcolorbrewer: 
    :depends r-rcpp: 
    :depends r-rcppeigen: 
+   :depends r-rdpack: >=0.7
    :depends r-rmpi: 
    :depends r-rtsne: 
    :requirements:

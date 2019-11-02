@@ -23,9 +23,9 @@ bioconductor-clstutils
 
    |downloads_bioconductor-clstutils| |docker_bioconductor-clstutils|
 
-   :versions: 1.32.0-1, 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.26.0-0
+   :versions: 1.34.0-0, 1.32.0-1, 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.26.0-0
    
-   :depends bioconductor-clst: >=1.32.0,<1.33.0
+   :depends bioconductor-clst: >=1.34.0,<1.35.0
    :depends r-ape: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-lattice: 

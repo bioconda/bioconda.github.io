@@ -23,9 +23,10 @@ bioconductor-rgraph2js
 
    |downloads_bioconductor-rgraph2js| |docker_bioconductor-rgraph2js|
 
-   :versions: 1.12.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
    
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
+   :depends jquery: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-digest: 
    :depends r-rjson: 

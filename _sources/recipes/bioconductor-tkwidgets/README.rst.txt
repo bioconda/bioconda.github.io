@@ -22,10 +22,10 @@ bioconductor-tkwidgets
 
    |downloads_bioconductor-tkwidgets| |docker_bioconductor-tkwidgets|
 
-   :versions: 1.62.0-1, 1.62.0-0, 1.60.0-0
+   :versions: 1.64.0-0, 1.62.0-1, 1.62.0-0, 1.60.0-0
    
-   :depends bioconductor-dyndoc: >=1.62.0,<1.63.0
-   :depends bioconductor-widgettools: >=1.62.0,<1.63.0
+   :depends bioconductor-dyndoc: >=1.64.0,<1.65.0
+   :depends bioconductor-widgettools: >=1.64.0,<1.65.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

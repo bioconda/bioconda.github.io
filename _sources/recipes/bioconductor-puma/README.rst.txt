@@ -23,14 +23,13 @@ bioconductor-puma
 
    |downloads_bioconductor-puma| |docker_bioconductor-puma|
 
-   :versions: 3.26.0-1, 3.24.0-0, 3.22.0-0, 3.20.0-0
+   :versions: 3.28.0-0, 3.26.0-1, 3.24.0-0, 3.22.0-0, 3.20.0-0
    
-   :depends bioconductor-affy: >=1.62.0,<1.63.0
-   :depends bioconductor-affyio: >=1.54.0,<1.55.0
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-oligo: >=1.48.0,<1.49.0
-   :depends bioconductor-oligoclasses: >=1.46.0,<1.47.0
-   :depends libgcc-ng: >=7.3.0
+   :depends bioconductor-affy: >=1.64.0,<1.65.0
+   :depends bioconductor-affyio: >=1.56.0,<1.57.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-oligo: >=1.50.0,<1.51.0
+   :depends bioconductor-oligoclasses: >=1.48.0,<1.49.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-mclust: 
    :requirements:

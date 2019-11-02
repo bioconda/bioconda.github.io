@@ -23,10 +23,10 @@ bioconductor-affyexpress
 
    |downloads_bioconductor-affyexpress| |docker_bioconductor-affyexpress|
 
-   :versions: 1.50.0-1, 1.48.0-0, 1.46.0-0, 1.44.0-0, 1.42.0-0
+   :versions: 1.52.0-0, 1.50.0-1, 1.48.0-0, 1.46.0-0, 1.44.0-0, 1.42.0-0
    
-   :depends bioconductor-affy: >=1.62.0,<1.63.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-affy: >=1.64.0,<1.65.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

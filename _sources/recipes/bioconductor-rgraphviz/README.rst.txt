@@ -22,9 +22,9 @@ bioconductor-rgraphviz
 
    |downloads_bioconductor-rgraphviz| |docker_bioconductor-rgraphviz|
 
-   :versions: 2.28.0-1, 2.26.0-0, 2.24.0-0, 2.22.0-0, 2.20.0-1, 2.20.0-0, 2.16.0-1, 2.16.0-0, 2.14.0-0, 2.13.0-1, 2.13.0-0
+   :versions: 2.30.0-0, 2.28.0-1, 2.26.0-0, 2.24.0-0, 2.22.0-0, 2.20.0-1, 2.20.0-0, 2.16.0-1, 2.16.0-0, 2.14.0-0, 2.13.0-1, 2.13.0-0
    
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0

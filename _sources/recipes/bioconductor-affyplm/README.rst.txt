@@ -23,14 +23,14 @@ bioconductor-affyplm
 
    |downloads_bioconductor-affyplm| |docker_bioconductor-affyplm|
 
-   :versions: 1.60.0-1, 1.58.0-0, 1.56.0-0, 1.54.0-0
+   :versions: 1.62.0-0, 1.60.0-1, 1.58.0-0, 1.56.0-0, 1.54.0-0
    
-   :depends bioconductor-affy: >=1.62.0,<1.63.0
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-gcrma: >=2.56.0,<2.57.0
-   :depends bioconductor-preprocesscore: >=1.46.0,<1.47.0
-   :depends bioconductor-zlibbioc: >=1.30.0,<1.31.0
+   :depends bioconductor-affy: >=1.64.0,<1.65.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-gcrma: >=2.58.0,<2.59.0
+   :depends bioconductor-preprocesscore: >=1.48.0,<1.49.0
+   :depends bioconductor-zlibbioc: >=1.32.0,<1.33.0
    :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

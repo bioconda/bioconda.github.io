@@ -23,9 +23,9 @@ bioconductor-ebarrays
 
    |downloads_bioconductor-ebarrays| |docker_bioconductor-ebarrays|
 
-   :versions: 2.48.0-1, 2.46.0-0, 2.44.0-0, 2.42.0-0, 2.40.0-0
+   :versions: 2.50.0-0, 2.48.0-1, 2.46.0-0, 2.44.0-0, 2.42.0-0, 2.40.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-cluster: 

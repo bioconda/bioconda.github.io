@@ -22,7 +22,7 @@ bioconductor-fgnet
 
    |downloads_bioconductor-fgnet| |docker_bioconductor-fgnet|
 
-   :versions: 3.18.0-1, 3.18.0-0, 3.16.0-0
+   :versions: 3.20.0-0, 3.18.0-1, 3.18.0-0, 3.16.0-0
    
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-hwriter: 

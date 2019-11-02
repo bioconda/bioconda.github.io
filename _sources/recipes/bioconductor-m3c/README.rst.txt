@@ -22,7 +22,7 @@ bioconductor-m3c
 
    |downloads_bioconductor-m3c| |docker_bioconductor-m3c|
 
-   :versions: 1.6.0-1, 1.6.0-0, 1.4.1-0
+   :versions: 1.8.0-0, 1.6.0-1, 1.6.0-0, 1.4.1-0
    
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-cluster: 

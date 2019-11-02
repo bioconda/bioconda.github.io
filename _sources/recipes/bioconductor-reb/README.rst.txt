@@ -22,11 +22,10 @@ bioconductor-reb
 
    |downloads_bioconductor-reb| |docker_bioconductor-reb|
 
-   :versions: 1.62.0-1, 1.60.0-0
+   :versions: 1.64.0-0, 1.62.0-1, 1.60.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-idiogram: >=1.60.0,<1.61.0
-   :depends libgcc-ng: >=7.3.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-idiogram: >=1.62.0,<1.63.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

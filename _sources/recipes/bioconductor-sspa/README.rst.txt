@@ -23,10 +23,10 @@ bioconductor-sspa
 
    |downloads_bioconductor-sspa| |docker_bioconductor-sspa|
 
-   :versions: 2.24.0-1, 2.24.0-0, 2.22.1-0, 2.22.0-0, 2.20.0-0, 2.18.0-0, 2.16.0-0
+   :versions: 2.26.0-0, 2.24.0-1, 2.24.0-0, 2.22.1-0, 2.22.0-0, 2.20.0-0, 2.18.0-0, 2.16.0-0
    
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-qvalue: >=2.16.0,<2.17.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-qvalue: >=2.18.0,<2.19.0
    :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-lattice: 

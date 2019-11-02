@@ -22,25 +22,25 @@ bioconductor-cytoml
 
    |downloads_bioconductor-cytoml| |docker_bioconductor-cytoml|
 
-   :versions: 1.10.0-1, 1.8.1-0
+   :versions: 1.12.0-0, 1.10.0-1, 1.8.1-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-cytolib: >=1.6.0,<1.7.0
-   :depends bioconductor-flowcore: >=1.50.0,<1.51.0
-   :depends bioconductor-flowutils: >=1.48.0,<1.49.0
-   :depends bioconductor-flowworkspace: >=3.32.0,<3.33.0
-   :depends bioconductor-ggcyto: >=1.12.0,<1.13.0
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
-   :depends bioconductor-ncdfflow: >=2.30.0,<2.31.0
-   :depends bioconductor-opencyto: >=1.22.0,<1.23.0
-   :depends bioconductor-rbgl: >=1.60.0,<1.61.0
-   :depends bioconductor-rgraphviz: >=2.28.0,<2.29.0
-   :depends bioconductor-rprotobuflib: >=1.6.0,<1.7.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-cytolib: >=1.8.0,<1.9.0
+   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
+   :depends bioconductor-flowworkspace: >=3.34.0,<3.35.0
+   :depends bioconductor-ggcyto: >=1.14.0,<1.15.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
+   :depends bioconductor-ncdfflow: >=2.32.0,<2.33.0
+   :depends bioconductor-opencyto: >=1.24.0,<1.25.0
+   :depends bioconductor-rbgl: >=1.62.0,<1.63.0
+   :depends bioconductor-rgraphviz: >=2.30.0,<2.31.0
+   :depends bioconductor-rprotobuflib: >=1.8.0,<1.9.0
+   :depends libcxx: >=4.0.1
+   :depends libxml2: >=2.9.10,<2.10.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-base64enc: 
    :depends r-bh: >=1.62.0-1
+   :depends r-corpcor: 
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-jsonlite: 
@@ -48,6 +48,7 @@ bioconductor-cytoml
    :depends r-plyr: 
    :depends r-rcpp: 
    :depends r-rcppparallel: 
+   :depends r-runit: 
    :depends r-xml: 
    :depends r-yaml: 
    :requirements:

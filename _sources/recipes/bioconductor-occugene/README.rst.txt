@@ -23,7 +23,7 @@ bioconductor-occugene
 
    |downloads_bioconductor-occugene| |docker_bioconductor-occugene|
 
-   :versions: 1.44.0-1, 1.44.0-0, 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0
+   :versions: 1.46.0-0, 1.44.0-1, 1.44.0-0, 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0
    
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

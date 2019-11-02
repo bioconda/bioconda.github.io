@@ -22,7 +22,7 @@ bioconductor-levi
 
    |downloads_bioconductor-levi| |docker_bioconductor-levi|
 
-   :versions: 1.2.0-1, 1.2.0-0, 1.0.0-0
+   :versions: 1.4.0-0, 1.2.0-1, 1.2.0-0, 1.0.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

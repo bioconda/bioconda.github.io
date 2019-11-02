@@ -22,9 +22,9 @@ bioconductor-dnabarcodecompatibility
 
    |downloads_bioconductor-dnabarcodecompatibility| |docker_bioconductor-dnabarcodecompatibility|
 
-   :versions: 1.0.2-0
+   :versions: 1.2.0-0, 1.0.2-0
    
-   :depends bioconductor-dnabarcodes: >=1.14.0,<1.15.0
+   :depends bioconductor-dnabarcodes: >=1.16.0,<1.17.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: 
    :depends r-numbers: 

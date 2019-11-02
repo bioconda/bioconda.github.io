@@ -23,7 +23,7 @@ bioconductor-bader
 
    |downloads_bioconductor-bader| |docker_bioconductor-bader|
 
-   :versions: 1.22.0-1, 1.22.0-0, 1.20.1-0, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.1-0, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

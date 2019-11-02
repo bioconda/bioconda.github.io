@@ -23,11 +23,11 @@ bioconductor-scde
 
    |downloads_bioconductor-scde| |docker_bioconductor-scde|
 
-   :versions: 2.12.0-1, 2.10.0-0, 2.8.0-0, 2.6.0-1, 2.6.0-0
+   :versions: 2.14.0-0, 2.12.0-1, 2.10.0-0, 2.8.0-0, 2.6.0-1, 2.6.0-0
    
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-edger: >=3.26.0,<3.27.0
-   :depends bioconductor-pcamethods: >=1.76.0,<1.77.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-edger: >=3.28.0,<3.29.0
+   :depends bioconductor-pcamethods: >=1.78.0,<1.79.0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0

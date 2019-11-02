@@ -22,7 +22,7 @@ bioconductor-lowmacaannotation
 
    |downloads_bioconductor-lowmacaannotation| |docker_bioconductor-lowmacaannotation|
 
-   :versions: 0.99.3-2, 0.99.3-1, 0.99.3-0
+   :versions: 0.99.3-3, 0.99.3-2, 0.99.3-1, 0.99.3-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

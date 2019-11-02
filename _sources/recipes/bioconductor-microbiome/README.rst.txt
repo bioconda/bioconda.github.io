@@ -22,9 +22,9 @@ bioconductor-microbiome
 
    |downloads_bioconductor-microbiome| |docker_bioconductor-microbiome|
 
-   :versions: 1.6.0-1, 1.4.2-0, 1.2.1-0, 1.0.2-0
+   :versions: 1.8.0-0, 1.6.0-1, 1.4.2-0, 1.2.1-0, 1.0.2-0
    
-   :depends bioconductor-phyloseq: >=1.28.0,<1.29.0
+   :depends bioconductor-phyloseq: >=1.30.0,<1.31.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: 
    :depends r-ggplot2: 

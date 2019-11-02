@@ -23,9 +23,9 @@ bioconductor-ebimage
 
    |downloads_bioconductor-ebimage| |docker_bioconductor-ebimage|
 
-   :versions: 4.26.0-1, 4.24.0-0, 4.22.1-0, 4.20.0-0, 4.18.3-0, 4.13.0-0, 4.12.2-0
+   :versions: 4.28.0-0, 4.26.0-1, 4.24.0-0, 4.22.1-0, 4.20.0-0, 4.18.3-0, 4.13.0-0, 4.12.2-0
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends r-abind: 

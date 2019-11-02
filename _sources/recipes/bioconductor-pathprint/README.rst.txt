@@ -22,7 +22,7 @@ bioconductor-pathprint
 
    |downloads_bioconductor-pathprint| |docker_bioconductor-pathprint|
 
-   :versions: 1.14.0-1, 1.14.0-0, 1.12.0-0, 1.10.4-0, 1.6.0-0
+   :versions: 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0, 1.10.4-0, 1.6.0-0
    
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

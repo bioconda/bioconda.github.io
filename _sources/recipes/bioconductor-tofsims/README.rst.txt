@@ -22,9 +22,9 @@ bioconductor-tofsims
 
    |downloads_bioconductor-tofsims| |docker_bioconductor-tofsims|
 
-   :versions: 1.12.0-1, 1.12.0-0, 1.10.1-0, 1.10.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.12.0-0, 1.10.1-0, 1.10.0-0
    
-   :depends bioconductor-protgenerics: >=1.16.0,<1.17.0
+   :depends bioconductor-protgenerics: >=1.18.0,<1.19.0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends r-als: 

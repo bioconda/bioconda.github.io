@@ -22,9 +22,9 @@ bioconductor-linnorm
 
    |downloads_bioconductor-linnorm| |docker_bioconductor-linnorm|
 
-   :versions: 2.8.0-1, 2.8.0-0, 2.6.1-0, 2.6.0-0
+   :versions: 2.10.0-0, 2.8.0-1, 2.8.0-0, 2.6.1-0, 2.6.0-0
    
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends r-amap: 

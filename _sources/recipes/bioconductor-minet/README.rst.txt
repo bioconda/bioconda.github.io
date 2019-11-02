@@ -23,7 +23,7 @@ bioconductor-minet
 
    |downloads_bioconductor-minet| |docker_bioconductor-minet|
 
-   :versions: 3.42.0-1, 3.42.0-0, 3.40.0-0, 3.38.0-0, 3.36.0-0
+   :versions: 3.44.0-0, 3.42.0-1, 3.42.0-0, 3.40.0-0, 3.38.0-0, 3.36.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

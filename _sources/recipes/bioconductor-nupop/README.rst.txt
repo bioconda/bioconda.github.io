@@ -22,7 +22,7 @@ bioconductor-nupop
 
    |downloads_bioconductor-nupop| |docker_bioconductor-nupop|
 
-   :versions: 1.34.0-2, 1.34.0-1, 1.34.0-0, 1.32.0-0
+   :versions: 1.36.0-0, 1.34.0-2, 1.34.0-1, 1.34.0-0, 1.32.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libgfortran-ng: >=7,<8.0a0

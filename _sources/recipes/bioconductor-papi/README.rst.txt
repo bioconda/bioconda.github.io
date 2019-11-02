@@ -23,9 +23,9 @@ bioconductor-papi
 
    |downloads_bioconductor-papi| |docker_bioconductor-papi|
 
-   :versions: 1.24.0-1, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
+   :versions: 1.26.0-0, 1.24.0-1, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
    
-   :depends bioconductor-keggrest: >=1.24.0,<1.25.0
+   :depends bioconductor-keggrest: >=1.26.0,<1.27.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-svdialogs: 
    :requirements:

@@ -22,9 +22,9 @@ bioconductor-pasillabamsubset
 
    |downloads_bioconductor-pasillabamsubset| |docker_bioconductor-pasillabamsubset|
 
-   :versions: 0.22.0-1, 0.22.0-0, 0.20.0-0
+   :versions: 0.23.0-0, 0.22.0-1, 0.22.0-0, 0.20.0-0
    
-   :depends curl: >=7.65.2,<8.0a0
+   :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

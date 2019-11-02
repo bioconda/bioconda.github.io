@@ -23,7 +23,7 @@ bioconductor-diffgeneanalysis
 
    |downloads_bioconductor-diffgeneanalysis| |docker_bioconductor-diffgeneanalysis|
 
-   :versions: 1.66.0-1, 1.66.0-0, 1.64.0-0, 1.62.0-0, 1.60.0-0
+   :versions: 1.68.0-0, 1.66.0-1, 1.66.0-0, 1.64.0-0, 1.62.0-0, 1.60.0-0
    
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-minpack.lm: >=1.0-4

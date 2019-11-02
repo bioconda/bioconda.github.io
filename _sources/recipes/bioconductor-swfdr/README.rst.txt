@@ -22,12 +22,9 @@ bioconductor-swfdr
 
    |downloads_bioconductor-swfdr| |docker_bioconductor-swfdr|
 
-   :versions: 1.10.0-1, 1.10.0-0, 1.8.0-0
+   :versions: 1.12.0-0, 1.10.0-1, 1.10.0-0, 1.8.0-0
    
    :depends r-base: >=3.6,<3.7.0a0
-   :depends r-dplyr: 
-   :depends r-ggplot2: 
-   :depends r-reshape2: 
    :requirements:
 
    .. rubric:: Installation

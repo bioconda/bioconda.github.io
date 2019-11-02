@@ -23,12 +23,11 @@ bioconductor-vegamc
 
    |downloads_bioconductor-vegamc| |docker_bioconductor-vegamc|
 
-   :versions: 3.22.0-1, 3.20.0-0, 3.18.0-0, 3.16.0-0
+   :versions: 3.24.0-0, 3.22.0-1, 3.20.0-0, 3.18.0-0, 3.16.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biomart: >=2.40.0,<2.41.0
-   :depends bioconductor-genoset: >=1.40.0,<1.41.0
-   :depends libgcc-ng: >=7.3.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biomart: >=2.42.0,<2.43.0
+   :depends bioconductor-genoset: >=1.42.0,<1.43.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

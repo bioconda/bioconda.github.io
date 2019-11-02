@@ -22,9 +22,9 @@ bioconductor-human1mduov3bcrlmm
 
    |downloads_bioconductor-human1mduov3bcrlmm| |docker_bioconductor-human1mduov3bcrlmm|
 
-   :versions: 1.0.4-2, 1.0.4-1, 1.0.4-0
+   :versions: 1.0.4-3, 1.0.4-2, 1.0.4-1, 1.0.4-0
    
-   :depends curl: >=7.64.1,<8.0a0
+   :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

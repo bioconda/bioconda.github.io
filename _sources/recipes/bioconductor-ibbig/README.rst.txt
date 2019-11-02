@@ -22,7 +22,7 @@ bioconductor-ibbig
 
    |downloads_bioconductor-ibbig| |docker_bioconductor-ibbig|
 
-   :versions: 1.28.0-1, 1.28.0-0, 1.26.0-0
+   :versions: 1.30.0-0, 1.28.0-1, 1.28.0-0, 1.26.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends r-ade4: 

@@ -23,7 +23,7 @@ bioconductor-rbowtie
 
    |downloads_bioconductor-rbowtie| |docker_bioconductor-rbowtie|
 
-   :versions: 1.24.0-1, 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
+   :versions: 1.26.0-0, 1.24.0-1, 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

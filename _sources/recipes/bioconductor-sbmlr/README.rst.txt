@@ -22,7 +22,7 @@ bioconductor-sbmlr
 
    |downloads_bioconductor-sbmlr| |docker_bioconductor-sbmlr|
 
-   :versions: 1.80.0-1, 1.80.0-0, 1.78.0-0
+   :versions: 1.82.0-0, 1.80.0-1, 1.80.0-0, 1.78.0-0
    
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-desolve: 

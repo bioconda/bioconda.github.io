@@ -22,9 +22,9 @@ bioconductor-profilescoredist
 
    |downloads_bioconductor-profilescoredist| |docker_bioconductor-profilescoredist|
 
-   :versions: 1.12.0-1, 1.10.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.10.0-0
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0

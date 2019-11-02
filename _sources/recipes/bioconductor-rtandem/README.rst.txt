@@ -22,7 +22,7 @@ bioconductor-rtandem
 
    |downloads_bioconductor-rtandem| |docker_bioconductor-rtandem|
 
-   :versions: 1.24.0-2, 1.24.0-1, 1.24.0-0, 1.22.1-0, 1.22.0-0
+   :versions: 1.26.0-0, 1.24.0-2, 1.24.0-1, 1.24.0-0, 1.22.1-0, 1.22.0-0
    
    :depends expat: >=2.2.5,<2.3.0a0
    :depends libgcc-ng: >=7.3.0

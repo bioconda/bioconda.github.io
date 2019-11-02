@@ -23,12 +23,12 @@ bioconductor-generegionscan
 
    |downloads_bioconductor-generegionscan| |docker_bioconductor-generegionscan|
 
-   :versions: 1.40.0-1, 1.38.0-0, 1.36.0-0, 1.34.0-0
+   :versions: 1.42.0-0, 1.40.0-1, 1.38.0-0, 1.36.0-0, 1.34.0-0
    
-   :depends bioconductor-affxparser: >=1.56.0,<1.57.0
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-affxparser: >=1.58.0,<1.59.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-rcolorbrewer: 
    :requirements:

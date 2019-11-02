@@ -22,11 +22,11 @@ bioconductor-bgx
 
    |downloads_bioconductor-bgx| |docker_bioconductor-bgx|
 
-   :versions: 1.50.0-1
+   :versions: 1.52.0-0, 1.50.0-1
    
-   :depends bioconductor-affy: >=1.62.0,<1.63.0
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-gcrma: >=2.56.0,<2.57.0
+   :depends bioconductor-affy: >=1.64.0,<1.65.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-gcrma: >=2.58.0,<2.59.0
    :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-rcpp: >=0.11.0

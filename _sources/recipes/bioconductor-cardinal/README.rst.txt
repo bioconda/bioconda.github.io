@@ -23,15 +23,15 @@ bioconductor-cardinal
 
    |downloads_bioconductor-cardinal| |docker_bioconductor-cardinal|
 
-   :versions: 2.2.6-0, 2.0.4-0, 2.0.2-0, 1.12.1-1, 1.12.1-0, 1.10.0-0, 1.8.0-0, 1.7.0-0
+   :versions: 2.4.0-0, 2.2.6-0, 2.0.4-0, 2.0.2-0, 1.12.1-1, 1.12.1-0, 1.10.0-0, 1.8.0-0, 1.7.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-ebimage: >=4.26.0,<4.27.0
-   :depends bioconductor-matter: >=1.10.0,<1.11.0
-   :depends bioconductor-protgenerics: >=1.16.0,<1.17.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-ebimage: >=4.28.0,<4.29.0
+   :depends bioconductor-matter: >=1.12.0,<1.13.0
+   :depends bioconductor-protgenerics: >=1.18.0,<1.19.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0

@@ -22,8 +22,9 @@ bioconductor-paxtoolsr
 
    |downloads_bioconductor-paxtoolsr| |docker_bioconductor-paxtoolsr|
 
-   :versions: 1.18.0-1, 1.18.0-0, 1.16.0-0
+   :versions: 1.20.0-0, 1.18.0-1, 1.18.0-0, 1.16.0-0
    
+   :depends openjdk: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-httr: 
    :depends r-igraph: 

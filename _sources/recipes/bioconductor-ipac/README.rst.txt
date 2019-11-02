@@ -23,10 +23,10 @@ bioconductor-ipac
 
    |downloads_bioconductor-ipac| |docker_bioconductor-ipac|
 
-   :versions: 1.28.0-1, 1.26.0-1, 1.26.0-0, 1.24.2-0, 1.22.0-0
+   :versions: 1.30.0-0, 1.28.0-1, 1.26.0-1, 1.26.0-0, 1.24.2-0, 1.22.0-0
    
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-multtest: >=2.40.0,<2.41.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-multtest: >=2.42.0,<2.43.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-gdata: 
    :depends r-scatterplot3d: 

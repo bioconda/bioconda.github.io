@@ -22,9 +22,9 @@ bioconductor-sconify
 
    |downloads_bioconductor-sconify| |docker_bioconductor-sconify|
 
-   :versions: 1.4.0-1, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0
    
-   :depends bioconductor-flowcore: >=1.50.0,<1.51.0
+   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: 
    :depends r-fnn: 

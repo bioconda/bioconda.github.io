@@ -22,9 +22,9 @@ bioconductor-curatedcrcdata
 
    |downloads_bioconductor-curatedcrcdata| |docker_bioconductor-curatedcrcdata|
 
-   :versions: 2.16.0-1, 2.14.0-0
+   :versions: 2.17.0-0, 2.16.0-1, 2.14.0-0
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-nlme: 

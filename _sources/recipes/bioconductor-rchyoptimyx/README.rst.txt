@@ -22,11 +22,11 @@ bioconductor-rchyoptimyx
 
    |downloads_bioconductor-rchyoptimyx| |docker_bioconductor-rchyoptimyx|
 
-   :versions: 2.24.0-1, 2.22.0-0
+   :versions: 2.26.0-0, 2.24.0-1, 2.22.0-0
    
-   :depends bioconductor-flowtype: >=2.22.0,<2.23.0
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
-   :depends bioconductor-rgraphviz: >=2.28.0,<2.29.0
+   :depends bioconductor-flowtype: >=2.24.0,<2.25.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
+   :depends bioconductor-rgraphviz: >=2.30.0,<2.31.0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0

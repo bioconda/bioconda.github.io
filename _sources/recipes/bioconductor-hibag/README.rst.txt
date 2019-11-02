@@ -23,7 +23,7 @@ bioconductor-hibag
 
    |downloads_bioconductor-hibag| |docker_bioconductor-hibag|
 
-   :versions: 1.20.0-1, 1.20.0-0, 1.18.1-0, 1.16.0-0, 1.14.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.1-0, 1.16.0-0, 1.14.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

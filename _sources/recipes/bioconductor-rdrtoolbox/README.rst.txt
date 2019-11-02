@@ -22,7 +22,7 @@ bioconductor-rdrtoolbox
 
    |downloads_bioconductor-rdrtoolbox| |docker_bioconductor-rdrtoolbox|
 
-   :versions: 1.34.0-1, 1.34.0-0, 1.32.0-0
+   :versions: 1.36.0-0, 1.34.0-1, 1.34.0-0, 1.32.0-0
    
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-mass: 

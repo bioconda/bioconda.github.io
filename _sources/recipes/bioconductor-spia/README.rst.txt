@@ -23,9 +23,9 @@ bioconductor-spia
 
    |downloads_bioconductor-spia| |docker_bioconductor-spia|
 
-   :versions: 2.36.0-1, 2.34.0-0, 2.32.0-0, 2.30.0-0, 2.28.0-0
+   :versions: 2.38.0-0, 2.36.0-1, 2.34.0-0, 2.32.0-0, 2.30.0-0, 2.28.0-0
    
-   :depends bioconductor-kegggraph: >=1.44.0,<1.45.0
+   :depends bioconductor-kegggraph: >=1.46.0,<1.47.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

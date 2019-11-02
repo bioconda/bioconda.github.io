@@ -23,16 +23,15 @@ bioconductor-xde
 
    |downloads_bioconductor-xde| |docker_bioconductor-xde|
 
-   :versions: 2.30.0-1, 2.28.0-0, 2.26.0-0, 2.24.0-0, 2.22.0-0
+   :versions: 2.32.0-0, 2.30.0-1, 2.28.0-0, 2.26.0-0, 2.24.0-0, 2.22.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-genefilter: >=1.66.0,<1.67.0
-   :depends bioconductor-genemeta: >=1.56.0,<1.57.0
-   :depends bioconductor-mergemaid: >=2.56.0,<2.57.0
-   :depends bioconductor-siggenes: >=1.58.0,<1.59.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-genefilter: >=1.68.0,<1.69.0
+   :depends bioconductor-genemeta: >=1.58.0,<1.59.0
+   :depends bioconductor-mergemaid: >=2.58.0,<2.59.0
+   :depends bioconductor-siggenes: >=1.60.0,<1.61.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-gtools: 
    :depends r-mvtnorm: 

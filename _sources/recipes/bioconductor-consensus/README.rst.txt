@@ -22,7 +22,7 @@ bioconductor-consensus
 
    |downloads_bioconductor-consensus| |docker_bioconductor-consensus|
 
-   :versions: 1.2.2-0, 1.2.0-0, 1.0.2-0
+   :versions: 1.4.0-0, 1.2.2-0, 1.2.0-0, 1.0.2-0
    
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-gplots: 

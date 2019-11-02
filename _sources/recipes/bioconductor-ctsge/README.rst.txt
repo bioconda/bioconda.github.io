@@ -23,9 +23,9 @@ bioconductor-ctsge
 
    |downloads_bioconductor-ctsge| |docker_bioconductor-ctsge|
 
-   :versions: 1.10.0-1, 1.10.0-0, 1.8.1-0, 1.8.0-0, 1.6.1-0, 1.4.0-0
+   :versions: 1.12.0-0, 1.10.0-1, 1.10.0-0, 1.8.1-0, 1.8.0-0, 1.6.1-0, 1.4.0-0
    
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ccapp: 
    :depends r-ggplot2: 

@@ -22,10 +22,10 @@ bioconductor-chemminedrugs
 
    |downloads_bioconductor-chemminedrugs| |docker_bioconductor-chemminedrugs|
 
-   :versions: 1.0.2-2, 1.0.2-0
+   :versions: 1.0.2-3, 1.0.2-2, 1.0.2-0
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-chemminer: >=3.36.0,<3.37.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-chemminer: >=3.38.0,<3.39.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-rsqlite: 

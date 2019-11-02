@@ -22,9 +22,9 @@ bioconductor-alevinqc
 
    |downloads_bioconductor-alevinqc| |docker_bioconductor-alevinqc|
 
-   :versions: 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-tximport: >=1.12.0,<1.13.0
+   :depends bioconductor-tximport: >=1.14.0,<1.15.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-cowplot: 
    :depends r-dplyr: 

@@ -23,7 +23,7 @@ bioconductor-aseb
 
    |downloads_bioconductor-aseb| |docker_bioconductor-aseb|
 
-   :versions: 1.28.0-1, 1.28.0-0, 1.26.0-0, 1.24.0-0, 1.22.0-0, 1.20.0-0
+   :versions: 1.30.0-0, 1.28.0-1, 1.28.0-0, 1.26.0-0, 1.24.0-0, 1.22.0-0, 1.20.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

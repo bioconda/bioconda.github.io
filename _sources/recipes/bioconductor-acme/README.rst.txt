@@ -23,10 +23,10 @@ bioconductor-acme
 
    |downloads_bioconductor-acme| |docker_bioconductor-acme|
 
-   :versions: 2.40.0-1, 2.38.0-0, 2.36.0-0, 2.34.0-0, 2.32.0-0
+   :versions: 2.42.0-0, 2.40.0-1, 2.38.0-0, 2.36.0-0, 2.34.0-0, 2.32.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
    :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

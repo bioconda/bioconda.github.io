@@ -22,9 +22,9 @@ bioconductor-human650v3acrlmm
 
    |downloads_bioconductor-human650v3acrlmm| |docker_bioconductor-human650v3acrlmm|
 
-   :versions: 1.0.3-2, 1.0.3-1, 1.0.3-0
+   :versions: 1.0.3-3, 1.0.3-2, 1.0.3-1, 1.0.3-0
    
-   :depends curl: >=7.64.1,<8.0a0
+   :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

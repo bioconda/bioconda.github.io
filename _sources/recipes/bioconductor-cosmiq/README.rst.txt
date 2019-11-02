@@ -23,13 +23,12 @@ bioconductor-cosmiq
 
    |downloads_bioconductor-cosmiq| |docker_bioconductor-cosmiq|
 
-   :versions: 1.18.0-1, 1.16.1-0, 1.16.0-0, 1.12.0-0
+   :versions: 1.20.0-0, 1.18.0-1, 1.16.1-0, 1.16.0-0, 1.12.0-0
    
-   :depends bioconductor-faahko: >=1.24.0,<1.25.0
-   :depends bioconductor-massspecwavelet: >=1.50.0,<1.51.0
-   :depends bioconductor-xcms: >=3.6.0,<3.7.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-faahko: >=1.25.0,<1.26.0
+   :depends bioconductor-massspecwavelet: >=1.52.0,<1.53.0
+   :depends bioconductor-xcms: >=3.8.0,<3.9.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-pracma: 
    :depends r-rcpp: 

@@ -23,20 +23,17 @@ bioconductor-flowcore
 
    |downloads_bioconductor-flowcore| |docker_bioconductor-flowcore|
 
-   :versions: 1.50.0-1, 1.48.1-0, 1.48.0-0, 1.46.2-0, 1.44.0-0, 1.42.3-0, 1.42.0-0, 1.38.2-1, 1.38.2-0
+   :versions: 1.52.0-0, 1.50.0-1, 1.48.1-0, 1.48.0-0, 1.46.2-0, 1.44.0-0, 1.42.3-0, 1.42.0-0, 1.38.2-1, 1.38.2-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-cytolib: >=1.8.0,<1.9.0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-bh: >=1.65.0.1
-   :depends r-corpcor: 
-   :depends r-mass: 
    :depends r-matrixstats: 
    :depends r-rcpp: 
-   :depends r-rrcov: 
    :requirements:
 
    .. rubric:: Installation

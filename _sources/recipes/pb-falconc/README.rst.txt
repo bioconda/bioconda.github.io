@@ -22,12 +22,12 @@ pb-falconc
 
    |downloads_pb-falconc| |docker_pb-falconc|
 
-   :versions: 0.1.1-0
+   :versions: 0.1.2-0, 0.1.1-0
    
    :depends htslib: >=1.9,<1.10.0a0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends pcre: >=8.41,<9.0a0
+   :depends pcre: >=8.43,<9.0a0
    :requirements:
 
    .. rubric:: Installation

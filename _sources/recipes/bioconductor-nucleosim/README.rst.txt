@@ -23,10 +23,10 @@ bioconductor-nucleosim
 
    |downloads_bioconductor-nucleosim| |docker_bioconductor-nucleosim|
 
-   :versions: 1.12.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
    
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

@@ -22,14 +22,14 @@ bioconductor-heatmaps
 
    |downloads_bioconductor-heatmaps| |docker_bioconductor-heatmaps|
 
-   :versions: 1.8.0-1, 1.6.0-0, 1.4.0-0, 1.2.0-0, 1.0.0-0
+   :versions: 1.10.0-0, 1.8.0-1, 1.6.0-0, 1.4.0-0, 1.2.0-0, 1.0.0-0
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-ebimage: >=4.26.0,<4.27.0
-   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-ebimage: >=4.28.0,<4.29.0
+   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-kernsmooth: 
    :depends r-matrix: 

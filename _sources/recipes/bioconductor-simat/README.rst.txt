@@ -23,11 +23,10 @@ bioconductor-simat
 
    |downloads_bioconductor-simat| |docker_bioconductor-simat|
 
-   :versions: 1.16.0-1, 1.14.0-0, 1.10.0-0
+   :versions: 1.18.0-0, 1.16.0-1, 1.14.0-0, 1.10.0-0
    
-   :depends bioconductor-mzr: >=2.18.0,<2.19.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-mzr: >=2.20.0,<2.21.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 
    :depends r-rcpp: >=0.11.3

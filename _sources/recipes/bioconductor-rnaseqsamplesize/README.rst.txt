@@ -22,14 +22,13 @@ bioconductor-rnaseqsamplesize
 
    |downloads_bioconductor-rnaseqsamplesize| |docker_bioconductor-rnaseqsamplesize|
 
-   :versions: 1.16.0-1, 1.14.0-0, 1.12.0-2
+   :versions: 1.17.0-0, 1.16.0-1, 1.14.0-0, 1.12.0-2
    
-   :depends bioconductor-biomart: >=2.40.0,<2.41.0
-   :depends bioconductor-edger: >=3.26.0,<3.27.0
-   :depends bioconductor-keggrest: >=1.24.0,<1.25.0
-   :depends bioconductor-rnaseqsamplesizedata: >=1.16.0,<1.17.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-biomart: >=2.42.0,<2.43.0
+   :depends bioconductor-edger: >=3.28.0,<3.29.0
+   :depends bioconductor-keggrest: >=1.26.0,<1.27.0
+   :depends bioconductor-rnaseqsamplesizedata: >=1.17.0,<1.18.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-heatmap3: 
    :depends r-matlab: 

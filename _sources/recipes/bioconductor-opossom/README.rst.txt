@@ -22,12 +22,11 @@ bioconductor-opossom
 
    |downloads_bioconductor-opossom| |docker_bioconductor-opossom|
 
-   :versions: 2.2.0-1, 2.0.0-0
+   :versions: 2.4.0-0, 2.2.0-1, 2.0.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biomart: >=2.40.0,<2.41.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biomart: >=2.42.0,<2.43.0
+   :depends libcxx: >=4.0.1
    :depends r-ape: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-fastica: 

@@ -23,11 +23,10 @@ bioconductor-microrna
 
    |downloads_bioconductor-microrna| |docker_bioconductor-microrna|
 
-   :versions: 1.42.0-1, 1.40.0-0, 1.38.0-0, 1.36.0-0, 1.34.0-0
+   :versions: 1.44.0-0, 1.42.0-1, 1.40.0-0, 1.38.0-0, 1.36.0-0, 1.34.0-0
    
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

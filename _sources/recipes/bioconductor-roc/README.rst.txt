@@ -23,11 +23,12 @@ bioconductor-roc
 
    |downloads_bioconductor-roc| |docker_bioconductor-roc|
 
-   :versions: 1.60.0-1, 1.60.0-0, 1.58.0-0, 1.56.0-0, 1.54.0-0, 1.52.0-0
+   :versions: 1.62.0-0, 1.60.0-1, 1.60.0-0, 1.58.0-0, 1.56.0-0, 1.54.0-0, 1.52.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
+   :depends r-knitr: 
    :requirements:
 
    .. rubric:: Installation

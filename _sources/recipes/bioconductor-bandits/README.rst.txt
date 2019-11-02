@@ -22,12 +22,11 @@ bioconductor-bandits
 
    |downloads_bioconductor-bandits| |docker_bioconductor-bandits|
 
-   :versions: 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-drimseq: >=1.12.0,<1.13.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-drimseq: >=1.14.0,<1.15.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-doparallel: 

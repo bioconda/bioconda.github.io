@@ -23,7 +23,7 @@ bioconductor-massspecwavelet
 
    |downloads_bioconductor-massspecwavelet| |docker_bioconductor-massspecwavelet|
 
-   :versions: 1.50.0-1, 1.50.0-0, 1.48.1-0, 1.48.0-0, 1.46.0-0, 1.44.0-0, 1.42.0-0, 1.40.0-0
+   :versions: 1.52.0-0, 1.50.0-1, 1.50.0-0, 1.48.1-0, 1.48.0-0, 1.46.0-0, 1.44.0-0, 1.42.0-0, 1.40.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0

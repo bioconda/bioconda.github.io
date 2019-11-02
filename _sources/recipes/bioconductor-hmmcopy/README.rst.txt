@@ -23,12 +23,11 @@ bioconductor-hmmcopy
 
    |downloads_bioconductor-hmmcopy| |docker_bioconductor-hmmcopy|
 
-   :versions: 1.26.0-1, 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0
+   :versions: 1.28.0-0, 1.26.0-1, 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0
    
-   :depends bioconductor-geneplotter: >=1.62.0,<1.63.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
    :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
+   :depends r-data.table: >=1.11.8
    :requirements:
 
    .. rubric:: Installation

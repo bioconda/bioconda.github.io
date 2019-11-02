@@ -22,9 +22,9 @@ bioconductor-hapmapsnp6
 
    |downloads_bioconductor-hapmapsnp6| |docker_bioconductor-hapmapsnp6|
 
-   :versions: 1.26.0-1, 1.26.0-0, 1.24.0-0
+   :versions: 1.27.0-0, 1.26.0-1, 1.26.0-0, 1.24.0-0
    
-   :depends curl: >=7.64.1,<8.0a0
+   :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

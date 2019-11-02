@@ -22,7 +22,7 @@ bioconductor-egseadata
 
    |downloads_bioconductor-egseadata| |docker_bioconductor-egseadata|
 
-   :versions: 1.12.0-1, 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.6.0-0
+   :versions: 1.13.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.6.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

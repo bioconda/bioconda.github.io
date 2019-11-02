@@ -22,9 +22,9 @@ bioconductor-gagedata
 
    |downloads_bioconductor-gagedata| |docker_bioconductor-gagedata|
 
-   :versions: 2.22.0-1, 2.22.0-0, 2.20.0-0, 2.18.0-0, 2.16.0-1, 2.16.0-0, 2.14.0-0, 2.10.0-0, 2.8.0-0
+   :versions: 2.23.0-0, 2.22.0-1, 2.22.0-0, 2.20.0-0, 2.18.0-0, 2.16.0-1, 2.16.0-0, 2.14.0-0, 2.10.0-0, 2.8.0-0
    
-   :depends curl: >=7.65.2,<8.0a0
+   :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

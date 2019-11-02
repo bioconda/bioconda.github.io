@@ -23,7 +23,7 @@ bioconductor-networkbma
 
    |downloads_bioconductor-networkbma| |docker_bioconductor-networkbma|
 
-   :versions: 2.24.0-1, 2.24.0-0, 2.22.0-0, 2.20.0-0, 2.18.0-0
+   :versions: 2.26.0-0, 2.24.0-1, 2.24.0-0, 2.22.0-0, 2.20.0-0, 2.18.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

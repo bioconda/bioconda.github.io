@@ -23,15 +23,14 @@ bioconductor-msnid
 
    |downloads_bioconductor-msnid| |docker_bioconductor-msnid|
 
-   :versions: 1.18.1-0, 1.16.1-0, 1.12.1-0
+   :versions: 1.20.0-0, 1.18.1-0, 1.16.1-0, 1.12.1-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-msnbase: >=2.10.0,<2.11.0
-   :depends bioconductor-mzid: >=1.22.0,<1.23.0
-   :depends bioconductor-mzr: >=2.18.0,<2.19.0
-   :depends bioconductor-protgenerics: >=1.16.0,<1.17.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-msnbase: >=2.12.0,<2.13.0
+   :depends bioconductor-mzid: >=1.24.0,<1.25.0
+   :depends bioconductor-mzr: >=2.20.0,<2.21.0
+   :depends bioconductor-protgenerics: >=1.18.0,<1.19.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-doparallel: 

@@ -23,18 +23,17 @@ bioconductor-wavetiling
 
    |downloads_bioconductor-wavetiling| |docker_bioconductor-wavetiling|
 
-   :versions: 1.26.0-1, 1.24.0-0, 1.22.0-0, 1.20.0-0
+   :versions: 1.28.0-0, 1.26.0-1, 1.24.0-0, 1.22.0-0, 1.20.0-0
    
-   :depends bioconductor-affy: >=1.62.0,<1.63.0
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-genomegraphs: >=1.44.0,<1.45.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-oligo: >=1.48.0,<1.49.0
-   :depends bioconductor-oligoclasses: >=1.46.0,<1.47.0
-   :depends bioconductor-preprocesscore: >=1.46.0,<1.47.0
-   :depends libgcc-ng: >=7.3.0
+   :depends bioconductor-affy: >=1.64.0,<1.65.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-genomegraphs: >=1.46.0,<1.47.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-oligo: >=1.50.0,<1.51.0
+   :depends bioconductor-oligoclasses: >=1.48.0,<1.49.0
+   :depends bioconductor-preprocesscore: >=1.48.0,<1.49.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-waveslim: 
    :requirements:

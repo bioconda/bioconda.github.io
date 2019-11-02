@@ -23,7 +23,7 @@ bioconductor-seqlogo
 
    |downloads_bioconductor-seqlogo| |docker_bioconductor-seqlogo|
 
-   :versions: 1.50.0-1, 1.50.0-0, 1.48.0-0, 1.46.0-0, 1.44.0-0, 1.42.0-0, 1.38.0-0, 1.36.0-0
+   :versions: 1.52.0-0, 1.50.0-1, 1.50.0-0, 1.48.0-0, 1.46.0-0, 1.44.0-0, 1.42.0-0, 1.38.0-0, 1.36.0-0
    
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

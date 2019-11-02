@@ -22,12 +22,10 @@ bioconductor-maftools
 
    |downloads_bioconductor-maftools| |docker_bioconductor-maftools|
 
-   :versions: 2.0.10-0, 2.0.0-0, 1.8.0-0, 1.6.15-0, 1.4.27-0
+   :versions: 2.2.0-0, 2.0.10-0, 2.0.0-0, 1.8.0-0, 1.6.15-0, 1.4.27-0
    
    :depends r-base: >=3.6,<3.7.0a0
-   :depends r-cometexacttest: 
    :depends r-data.table: 
-   :depends r-nmf: 
    :depends r-rcolorbrewer: 
    :depends r-survival: 
    :depends r-wordcloud: 

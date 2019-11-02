@@ -22,7 +22,7 @@ bioconductor-topconfects
 
    |downloads_bioconductor-topconfects| |docker_bioconductor-topconfects|
 
-   :versions: 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
    :depends r-assertthat: 
    :depends r-base: >=3.6,<3.7.0a0

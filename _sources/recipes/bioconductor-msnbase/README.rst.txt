@@ -23,23 +23,22 @@ bioconductor-msnbase
 
    |downloads_bioconductor-msnbase| |docker_bioconductor-msnbase|
 
-   :versions: 2.10.1-0, 2.8.3-0, 2.8.2-0, 2.4.0-1, 2.4.0-0, 2.2.0-0
+   :versions: 2.12.0-0, 2.10.1-0, 2.8.3-0, 2.8.2-0, 2.4.0-1, 2.4.0-0, 2.2.0-0
    
-   :depends bioconductor-affy: >=1.62.0,<1.63.0
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-impute: >=1.58.0,<1.59.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-mzid: >=1.22.0,<1.23.0
-   :depends bioconductor-mzr: >=2.18.0,<2.19.0
-   :depends bioconductor-pcamethods: >=1.76.0,<1.77.0
-   :depends bioconductor-preprocesscore: >=1.46.0,<1.47.0
-   :depends bioconductor-protgenerics: >=1.16.0,<1.17.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-vsn: >=3.52.0,<3.53.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-affy: >=1.64.0,<1.65.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-impute: >=1.60.0,<1.61.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-mzid: >=1.24.0,<1.25.0
+   :depends bioconductor-mzr: >=2.20.0,<2.21.0
+   :depends bioconductor-pcamethods: >=1.78.0,<1.79.0
+   :depends bioconductor-preprocesscore: >=1.48.0,<1.49.0
+   :depends bioconductor-protgenerics: >=1.18.0,<1.19.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-vsn: >=3.54.0,<3.55.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-digest: 
    :depends r-ggplot2: 

@@ -22,26 +22,29 @@ bioconductor-celda
 
    |downloads_bioconductor-celda| |docker_bioconductor-celda|
 
-   :versions: 1.0.4-0
+   :versions: 1.2.0-0, 1.0.4-0
    
-   :depends bioconductor-mast: >=1.10.0,<1.11.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-mast: >=1.12.0,<1.13.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
+   :depends r-dendextend: 
    :depends r-digest: 
    :depends r-doparallel: 
    :depends r-enrichr: 
    :depends r-foreach: 
+   :depends r-ggdendro: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-gridextra: 
    :depends r-gtable: 
+   :depends r-magrittr: 
    :depends r-matrixstats: 
    :depends r-mcmcprecision: 
    :depends r-plyr: 
+   :depends r-proc: 
    :depends r-rcolorbrewer: 
    :depends r-rcpp: 
    :depends r-rcppeigen: 
@@ -49,7 +52,7 @@ bioconductor-celda
    :depends r-rtsne: 
    :depends r-scales: 
    :depends r-stringi: 
-   :depends r-umap: 
+   :depends r-uwot: 
    :depends r-withr: 
    :requirements:
 

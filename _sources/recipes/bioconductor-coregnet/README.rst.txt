@@ -22,7 +22,7 @@ bioconductor-coregnet
 
    |downloads_bioconductor-coregnet| |docker_bioconductor-coregnet|
 
-   :versions: 1.22.0-1, 1.22.0-0, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends r-arules: 

@@ -22,7 +22,7 @@ bioconductor-isocorrector
 
    |downloads_bioconductor-isocorrector| |docker_bioconductor-isocorrector|
 
-   :versions: 1.2.1-0, 1.2.0-0, 1.0.5-0
+   :versions: 1.4.0-0, 1.2.1-0, 1.2.0-0, 1.0.5-0
    
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: 

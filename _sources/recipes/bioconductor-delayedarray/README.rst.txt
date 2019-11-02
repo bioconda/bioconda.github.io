@@ -22,12 +22,12 @@ bioconductor-delayedarray
 
    |downloads_bioconductor-delayedarray| |docker_bioconductor-delayedarray|
 
-   :versions: 0.10.0-1, 0.8.0-0, 0.6.6-0, 0.4.1-0, 0.2.7-0
+   :versions: 0.12.0-0, 0.10.0-1, 0.8.0-0, 0.6.6-0, 0.4.1-0, 0.2.7-0
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
    :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-matrix: 

@@ -22,7 +22,7 @@ bioconductor-geneticsped
 
    |downloads_bioconductor-geneticsped| |docker_bioconductor-geneticsped|
 
-   :versions: 1.46.0-1, 1.46.0-0, 1.44.0-0
+   :versions: 1.48.0-0, 1.46.0-1, 1.46.0-0, 1.44.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libgfortran-ng: >=7,<8.0a0

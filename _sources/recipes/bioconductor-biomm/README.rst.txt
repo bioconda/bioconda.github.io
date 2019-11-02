@@ -22,18 +22,21 @@ bioconductor-biomm
 
    |downloads_bioconductor-biomm| |docker_bioconductor-biomm|
 
-   :versions: 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-variancepartition: >=1.14.0,<1.15.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-variancepartition: >=1.16.0,<1.17.0
    :depends r-base: >=3.6,<3.7.0a0
+   :depends r-cmplot: 
    :depends r-e1071: 
    :depends r-ggplot2: 
    :depends r-glmnet: 
    :depends r-lattice: 
    :depends r-nsprcomp: 
+   :depends r-proc: 
    :depends r-ranger: 
    :depends r-rms: 
+   :depends r-vioplot: 
    :requirements:
 
    .. rubric:: Installation

@@ -23,10 +23,11 @@ bioconductor-cnanorm
 
    |downloads_bioconductor-cnanorm| |docker_bioconductor-cnanorm|
 
-   :versions: 1.30.0-1, 1.30.0-0, 1.28.0-0, 1.26.0-0, 1.24.0-0, 1.22.1-0
+   :versions: 1.32.0-0, 1.30.0-1, 1.30.0-0, 1.28.0-0, 1.26.0-0, 1.24.0-0, 1.22.1-0
    
-   :depends bioconductor-dnacopy: >=1.58.0,<1.59.0
+   :depends bioconductor-dnacopy: >=1.60.0,<1.61.0
    :depends libgcc-ng: >=7.3.0
+   :depends libgfortran-ng: >=7,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

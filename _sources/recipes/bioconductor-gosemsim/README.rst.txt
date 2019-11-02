@@ -23,12 +23,11 @@ bioconductor-gosemsim
 
    |downloads_bioconductor-gosemsim| |docker_bioconductor-gosemsim|
 
-   :versions: 2.10.0-1, 2.8.0-0, 2.6.2-0, 2.4.0-0, 2.2.0-1, 2.2.0-0, 1.30.3-0, 1.29.0-0, 1.28.2-0
+   :versions: 2.12.0-0, 2.10.0-1, 2.8.0-0, 2.6.2-0, 2.4.0-0, 2.2.0-1, 2.2.0-0, 1.30.3-0, 1.29.0-0, 1.28.2-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-go.db: >=3.8.0,<3.9.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-go.db: >=3.10.0,<3.11.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-rcpp: 
    :requirements:

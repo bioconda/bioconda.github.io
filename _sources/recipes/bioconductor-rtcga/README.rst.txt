@@ -23,7 +23,7 @@ bioconductor-rtcga
 
    |downloads_bioconductor-rtcga| |docker_bioconductor-rtcga|
 
-   :versions: 1.14.0-1, 1.14.0-0, 1.12.1-0, 1.10.0-0, 1.8.0-0
+   :versions: 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.1-0, 1.10.0-0, 1.8.0-0
    
    :depends r-assertthat: 
    :depends r-base: >=3.6,<3.7.0a0

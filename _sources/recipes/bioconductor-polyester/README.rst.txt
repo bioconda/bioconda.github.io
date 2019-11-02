@@ -22,13 +22,13 @@ bioconductor-polyester
 
    |downloads_bioconductor-polyester| |docker_bioconductor-polyester|
 
-   :versions: 1.20.0-1, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.18.0-0
    
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-zlibbioc: >=1.30.0,<1.31.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-zlibbioc: >=1.32.0,<1.33.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-logspline: 
    :requirements:

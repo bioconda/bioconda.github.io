@@ -22,11 +22,11 @@ bioconductor-netbenchmark
 
    |downloads_bioconductor-netbenchmark| |docker_bioconductor-netbenchmark|
 
-   :versions: 1.16.0-1, 1.16.0-0, 1.14.0-0
+   :versions: 1.18.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0
    
-   :depends bioconductor-genie3: >=1.6.0,<1.7.0
-   :depends bioconductor-grndata: >=1.16.0,<1.17.0
-   :depends bioconductor-minet: >=3.42.0,<3.43.0
+   :depends bioconductor-genie3: >=1.8.0,<1.9.0
+   :depends bioconductor-grndata: >=1.17.0,<1.18.0
+   :depends bioconductor-minet: >=3.44.0,<3.45.0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0

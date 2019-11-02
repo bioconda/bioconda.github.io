@@ -23,11 +23,11 @@ bioconductor-flowutils
 
    |downloads_bioconductor-flowutils| |docker_bioconductor-flowutils|
 
-   :versions: 1.48.0-1, 1.46.1-0, 1.46.0-0, 1.44.0-0, 1.42.0-0, 1.40.0-0
+   :versions: 1.50.0-0, 1.48.0-1, 1.46.1-0, 1.46.0-0, 1.44.0-0, 1.42.0-0, 1.40.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-flowcore: >=1.50.0,<1.51.0
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-corpcor: 
    :depends r-runit: 
