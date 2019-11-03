@@ -24,7 +24,7 @@ dfast
 
    |downloads_dfast| |docker_dfast|
 
-   :versions: 1.2.3-2, 1.2.3-1, 1.2.3-0
+   :versions: 1.2.4-0, 1.2.3-2, 1.2.3-1, 1.2.3-0
    
    :depends aragorn: 
    :depends barrnap: 
@@ -32,11 +32,10 @@ dfast
    :depends blast: >=2.6.0
    :depends ghostx: 
    :depends hmmer: >=3.1b2
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=4.0.1
    :depends metagene_annotator: >=1.0
    :depends openjdk: 
-   :depends python: >=3.5
+   :depends python: >=3.7,<3.8.0a0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

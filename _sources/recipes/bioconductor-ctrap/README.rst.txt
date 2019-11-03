@@ -22,21 +22,23 @@ bioconductor-ctrap
 
    |downloads_bioconductor-ctrap| |docker_bioconductor-ctrap|
 
-   :versions: 1.2.0-1, 1.0.3-0
+   :versions: 1.4.0-0, 1.2.0-1, 1.0.3-0
    
-   :depends bioconductor-fgsea: >=1.10.0,<1.11.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-piano: >=2.0.0,<2.1.0
-   :depends bioconductor-rhdf5: >=2.28.0,<2.29.0
+   :depends bioconductor-biomart: >=2.42.0,<2.43.0
+   :depends bioconductor-fgsea: >=1.12.0,<1.13.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-rhdf5: >=2.30.0,<2.31.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-cowplot: 
    :depends r-data.table: 
+   :depends r-dplyr: 
    :depends r-ggplot2: 
+   :depends r-ggrepel: 
    :depends r-httr: 
    :depends r-pbapply: 
-   :depends r-plyr: 
    :depends r-r.utils: 
-   :depends r-readr: 
+   :depends r-readxl: 
+   :depends r-reshape2: 
    :requirements:
 
    .. rubric:: Installation

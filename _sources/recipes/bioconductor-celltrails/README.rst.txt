@@ -22,12 +22,12 @@ bioconductor-celltrails
 
    |downloads_bioconductor-celltrails| |docker_bioconductor-celltrails|
 
-   :versions: 1.2.0-1, 1.0.0-0
+   :versions: 1.4.0-0, 1.2.0-1, 1.0.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-singlecellexperiment: >=1.8.0,<1.9.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-cba: 
    :depends r-dendextend: 

@@ -22,9 +22,9 @@ bioconductor-joda
 
    |downloads_bioconductor-joda| |docker_bioconductor-joda|
 
-   :versions: 1.32.0-1, 1.30.0-0
+   :versions: 1.34.0-0, 1.32.0-1, 1.30.0-0
    
-   :depends bioconductor-rbgl: >=1.60.0,<1.61.0
+   :depends bioconductor-rbgl: >=1.62.0,<1.63.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-bgmm: 
    :requirements:

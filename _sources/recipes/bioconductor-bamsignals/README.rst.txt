@@ -30,7 +30,8 @@ bioconductor-bamsignals
    :depends bioconductor-iranges: >=2.20.0,<2.21.0
    :depends bioconductor-rhtslib: >=1.18.0,<1.19.0
    :depends bioconductor-zlibbioc: >=1.32.0,<1.33.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-rcpp: >=0.10.6
    :requirements:

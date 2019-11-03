@@ -23,18 +23,17 @@ bioconductor-dropletutils
 
    |downloads_bioconductor-dropletutils| |docker_bioconductor-dropletutils|
 
-   :versions: 1.4.2-0, 1.2.1-0, 1.0.3-0
+   :versions: 1.6.1-0, 1.4.2-0, 1.2.1-0, 1.0.3-0
    
-   :depends bioconductor-beachmat: >=2.0.0,<2.1.0
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-edger: >=3.26.0,<3.27.0
-   :depends bioconductor-hdf5array: >=1.12.0,<1.13.0
-   :depends bioconductor-rhdf5: >=2.28.0,<2.29.0
-   :depends bioconductor-rhdf5lib: >=1.6.0,<1.7.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-beachmat: >=2.2.0,<2.3.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-edger: >=3.28.0,<3.29.0
+   :depends bioconductor-hdf5array: >=1.14.0,<1.15.0
+   :depends bioconductor-rhdf5: >=2.30.0,<2.31.0
+   :depends bioconductor-rhdf5lib: >=1.8.0,<1.9.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-singlecellexperiment: >=1.8.0,<1.9.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-bh: 
    :depends r-dqrng: 

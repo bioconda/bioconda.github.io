@@ -23,9 +23,9 @@ bioconductor-rtrm
 
    |downloads_bioconductor-rtrm| |docker_bioconductor-rtrm|
 
-   :versions: 1.22.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dbi: 
    :depends r-igraph: >=1.0

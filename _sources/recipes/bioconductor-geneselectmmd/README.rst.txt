@@ -26,7 +26,8 @@ bioconductor-geneselectmmd
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends libgfortran: >=4.0.0,<5.0.0.a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libgfortran-ng: >=7,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-mass: 
    :depends r-survival: 

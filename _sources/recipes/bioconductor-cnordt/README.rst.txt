@@ -22,9 +22,9 @@ bioconductor-cnordt
 
    |downloads_bioconductor-cnordt| |docker_bioconductor-cnordt|
 
-   :versions: 1.26.0-1, 1.24.1-0, 1.24.0-0
+   :versions: 1.28.0-0, 1.26.0-1, 1.24.1-0, 1.24.0-0
    
-   :depends bioconductor-cellnoptr: >=1.30.0,<1.31.0
+   :depends bioconductor-cellnoptr: >=1.32.0,<1.33.0
    :depends libgcc-ng: >=7.3.0
    :depends r-abind: 
    :depends r-base: >=3.6,<3.7.0a0

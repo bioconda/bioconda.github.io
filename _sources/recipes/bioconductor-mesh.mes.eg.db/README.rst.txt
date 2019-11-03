@@ -22,9 +22,9 @@ bioconductor-mesh.mes.eg.db
 
    |downloads_bioconductor-mesh.mes.eg.db| |docker_bioconductor-mesh.mes.eg.db|
 
-   :versions: 1.12.0-1, 1.11.0-0
+   :versions: 1.13.0-0, 1.12.0-1, 1.11.0-0
    
-   :depends bioconductor-meshdbi: >=1.20.0,<1.21.0
+   :depends bioconductor-meshdbi: >=1.22.0,<1.23.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

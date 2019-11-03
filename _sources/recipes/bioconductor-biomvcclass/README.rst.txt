@@ -23,12 +23,12 @@ bioconductor-biomvcclass
 
    |downloads_bioconductor-biomvcclass| |docker_bioconductor-biomvcclass|
 
-   :versions: 1.52.0-1, 1.50.0-0, 1.48.0-0, 1.46.0-0
+   :versions: 1.54.0-0, 1.52.0-1, 1.50.0-0, 1.48.0-0, 1.46.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
-   :depends bioconductor-mvcclass: >=1.58.0,<1.59.0
-   :depends bioconductor-rgraphviz: >=2.28.0,<2.29.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
+   :depends bioconductor-mvcclass: >=1.60.0,<1.61.0
+   :depends bioconductor-rgraphviz: >=2.30.0,<2.31.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

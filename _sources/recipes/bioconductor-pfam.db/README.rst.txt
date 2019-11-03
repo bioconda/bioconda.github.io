@@ -22,9 +22,9 @@ bioconductor-pfam.db
 
    |downloads_bioconductor-pfam.db| |docker_bioconductor-pfam.db|
 
-   :versions: 3.8.2-1, 3.7.0-0, 3.6.0-0, 3.5.0-0
+   :versions: 3.10.0-0, 3.8.2-1, 3.7.0-0, 3.6.0-0, 3.5.0-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

@@ -35,7 +35,8 @@ bioconductor-cytoml
    :depends bioconductor-rbgl: >=1.62.0,<1.63.0
    :depends bioconductor-rgraphviz: >=2.30.0,<2.31.0
    :depends bioconductor-rprotobuflib: >=1.8.0,<1.9.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends libxml2: >=2.9.10,<2.10.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-base64enc: 

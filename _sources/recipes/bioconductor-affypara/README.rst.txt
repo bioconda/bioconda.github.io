@@ -22,11 +22,11 @@ bioconductor-affypara
 
    |downloads_bioconductor-affypara| |docker_bioconductor-affypara|
 
-   :versions: 1.44.0-1, 1.42.0-0
+   :versions: 1.46.0-0, 1.44.0-1, 1.42.0-0
    
-   :depends bioconductor-affy: >=1.62.0,<1.63.0
-   :depends bioconductor-affyio: >=1.54.0,<1.55.0
-   :depends bioconductor-vsn: >=3.52.0,<3.53.0
+   :depends bioconductor-affy: >=1.64.0,<1.65.0
+   :depends bioconductor-affyio: >=1.56.0,<1.57.0
+   :depends bioconductor-vsn: >=3.54.0,<3.55.0
    :depends r-aplpack: >=1.1.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-snow: >=0.2-3

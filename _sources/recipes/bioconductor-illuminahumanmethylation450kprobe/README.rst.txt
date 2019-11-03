@@ -22,9 +22,9 @@ bioconductor-illuminahumanmethylation450kprobe
 
    |downloads_bioconductor-illuminahumanmethylation450kprobe| |docker_bioconductor-illuminahumanmethylation450kprobe|
 
-   :versions: 2.0.6-2, 2.0.6-0
+   :versions: 2.0.6-3, 2.0.6-2, 2.0.6-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

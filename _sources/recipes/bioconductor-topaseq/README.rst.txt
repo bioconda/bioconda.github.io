@@ -22,13 +22,19 @@ bioconductor-topaseq
 
    |downloads_bioconductor-topaseq| |docker_bioconductor-topaseq|
 
-   :versions: 1.17.1-1, 1.16.0-0
+   :versions: 1.20.0-0, 1.17.1-1, 1.16.0-0
    
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
-   :depends bioconductor-graphite: >=1.30.0,<1.31.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
+   :depends bioconductor-graphite: >=1.32.0,<1.33.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-rbgl: >=1.62.0,<1.63.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
+   :depends r-corpcor: 
+   :depends r-grbase: 
    :depends r-rcpp: 
    :requirements:
 

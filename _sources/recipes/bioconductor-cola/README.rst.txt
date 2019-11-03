@@ -27,7 +27,8 @@ bioconductor-cola
    :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
    :depends bioconductor-complexheatmap: >=2.2.0,<2.3.0
    :depends bioconductor-impute: >=1.60.0,<1.61.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-brew: 
    :depends r-circlize: >=0.4.7

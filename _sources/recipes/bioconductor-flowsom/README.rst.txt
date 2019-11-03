@@ -30,6 +30,7 @@ bioconductor-flowsom
    :depends bioconductor-cytoml: >=1.12.0,<1.13.0
    :depends bioconductor-flowcore: >=1.52.0,<1.53.0
    :depends bioconductor-flowworkspace: >=3.34.0,<3.35.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-igraph: 
    :depends r-rcolorbrewer: 

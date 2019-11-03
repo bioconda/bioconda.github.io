@@ -23,10 +23,10 @@ bioconductor-sscu
 
    |downloads_bioconductor-sscu| |docker_bioconductor-sscu|
 
-   :versions: 2.14.0-1, 2.12.0-0, 2.10.0-0, 2.8.0-0, 2.6.0-0
+   :versions: 2.16.0-0, 2.14.0-1, 2.12.0-0, 2.10.0-0, 2.8.0-0, 2.6.0-0
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-seqinr: >=3.1-3
    :requirements:

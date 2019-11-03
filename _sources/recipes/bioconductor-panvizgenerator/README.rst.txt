@@ -22,10 +22,10 @@ bioconductor-panvizgenerator
 
    |downloads_bioconductor-panvizgenerator| |docker_bioconductor-panvizgenerator|
 
-   :versions: 1.12.0-1, 1.10.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.10.0-0
    
-   :depends bioconductor-findmyfriends: >=1.14.0,<1.15.0
-   :depends bioconductor-pcamethods: >=1.76.0,<1.77.0
+   :depends bioconductor-findmyfriends: >=1.16.0,<1.17.0
+   :depends bioconductor-pcamethods: >=1.78.0,<1.79.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-igraph: 
    :depends r-jsonlite: 

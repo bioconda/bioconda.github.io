@@ -22,15 +22,14 @@ bioconductor-mbkmeans
 
    |downloads_bioconductor-mbkmeans| |docker_bioconductor-mbkmeans|
 
-   :versions: 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-beachmat: >=2.0.0,<2.1.0
-   :depends bioconductor-delayedarray: >=0.10.0,<0.11.0
-   :depends bioconductor-rhdf5lib: >=1.6.0,<1.7.0
-   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-beachmat: >=2.2.0,<2.3.0
+   :depends bioconductor-delayedarray: >=0.12.0,<0.13.0
+   :depends bioconductor-rhdf5lib: >=1.8.0,<1.9.0
+   :depends bioconductor-singlecellexperiment: >=1.8.0,<1.9.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-benchmarkme: 
    :depends r-clusterr: 

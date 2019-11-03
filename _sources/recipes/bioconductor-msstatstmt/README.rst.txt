@@ -22,10 +22,10 @@ bioconductor-msstatstmt
 
    |downloads_bioconductor-msstatstmt| |docker_bioconductor-msstatstmt|
 
-   :versions: 1.2.5-0, 1.1.2-0, 1.0.0-0
+   :versions: 1.4.0-0, 1.2.5-0, 1.1.2-0, 1.0.0-0
    
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-msstats: >=3.16.0,<3.17.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-msstats: >=3.18.0,<3.19.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-dplyr: 

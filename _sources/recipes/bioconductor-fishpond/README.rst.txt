@@ -22,15 +22,17 @@ bioconductor-fishpond
 
    |downloads_bioconductor-fishpond| |docker_bioconductor-fishpond|
 
-   :versions: 1.0.1-0
+   :versions: 1.2.0-0, 1.0.1-0
    
-   :depends bioconductor-qvalue: >=2.16.0,<2.17.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-qvalue: >=2.18.0,<2.19.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends libcxx: >=4.0.1
    :depends r-abind: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-gtools: 
    :depends r-matrixstats: 
+   :depends r-rcpp: 
    :depends r-svmisc: 
    :requirements:
 

@@ -22,9 +22,9 @@ bioconductor-pwmenrich.dmelanogaster.background
 
    |downloads_bioconductor-pwmenrich.dmelanogaster.background| |docker_bioconductor-pwmenrich.dmelanogaster.background|
 
-   :versions: 4.18.0-1, 4.16.0-0
+   :versions: 4.19.0-0, 4.18.0-1, 4.16.0-0
    
-   :depends bioconductor-pwmenrich: >=4.20.0,<4.21.0
+   :depends bioconductor-pwmenrich: >=4.22.0,<4.23.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

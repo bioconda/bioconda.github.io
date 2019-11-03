@@ -22,11 +22,11 @@ bioconductor-doscheda
 
    |downloads_bioconductor-doscheda| |docker_bioconductor-doscheda|
 
-   :versions: 1.6.0-1, 1.4.0-0
+   :versions: 1.8.0-0, 1.6.0-1, 1.4.0-0
    
-   :depends bioconductor-affy: >=1.62.0,<1.63.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-vsn: >=3.52.0,<3.53.0
+   :depends bioconductor-affy: >=1.64.0,<1.65.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-vsn: >=3.54.0,<3.55.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-calibrate: 
    :depends r-corrgram: 

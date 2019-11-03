@@ -22,9 +22,9 @@ bioconductor-hspeccdf
 
    |downloads_bioconductor-hspeccdf| |docker_bioconductor-hspeccdf|
 
-   :versions: 0.99.1-2, 0.99.1-0
+   :versions: 0.99.1-3, 0.99.1-2, 0.99.1-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

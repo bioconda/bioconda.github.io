@@ -22,10 +22,10 @@ bioconductor-goexpress
 
    |downloads_bioconductor-goexpress| |docker_bioconductor-goexpress|
 
-   :versions: 1.18.0-1, 1.16.0-0
+   :versions: 1.20.0-0, 1.18.0-1, 1.16.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biomart: >=2.40.0,<2.41.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biomart: >=2.42.0,<2.43.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: >=0.9.0
    :depends r-gplots: >=2.13.0

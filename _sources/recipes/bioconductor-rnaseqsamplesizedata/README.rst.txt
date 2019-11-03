@@ -22,9 +22,9 @@ bioconductor-rnaseqsamplesizedata
 
    |downloads_bioconductor-rnaseqsamplesizedata| |docker_bioconductor-rnaseqsamplesizedata|
 
-   :versions: 1.16.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-1
+   :versions: 1.17.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-1
    
-   :depends bioconductor-edger: >=3.26.0,<3.27.0
+   :depends bioconductor-edger: >=3.28.0,<3.29.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

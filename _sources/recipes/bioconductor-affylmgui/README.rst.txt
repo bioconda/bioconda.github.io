@@ -22,14 +22,14 @@ bioconductor-affylmgui
 
    |downloads_bioconductor-affylmgui| |docker_bioconductor-affylmgui|
 
-   :versions: 1.58.0-1, 1.56.0-0
+   :versions: 1.60.0-0, 1.58.0-1, 1.56.0-0
    
-   :depends bioconductor-affy: >=1.62.0,<1.63.0
-   :depends bioconductor-affyio: >=1.54.0,<1.55.0
-   :depends bioconductor-affyplm: >=1.60.0,<1.61.0
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-gcrma: >=2.56.0,<2.57.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-affy: >=1.64.0,<1.65.0
+   :depends bioconductor-affyio: >=1.56.0,<1.57.0
+   :depends bioconductor-affyplm: >=1.62.0,<1.63.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-gcrma: >=2.58.0,<2.59.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-biocmanager: 
    :depends r-r2html: 

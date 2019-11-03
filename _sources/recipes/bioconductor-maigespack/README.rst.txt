@@ -23,12 +23,12 @@ bioconductor-maigespack
 
    |downloads_bioconductor-maigespack| |docker_bioconductor-maigespack|
 
-   :versions: 1.48.0-1, 1.46.0-0, 1.44.0-0, 1.42.0-0
+   :versions: 1.50.0-0, 1.48.0-1, 1.46.0-0, 1.44.0-0, 1.42.0-0
    
-   :depends bioconductor-convert: >=1.60.0,<1.61.0
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-marray: >=1.62.0,<1.63.0
+   :depends bioconductor-convert: >=1.62.0,<1.63.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-marray: >=1.64.0,<1.65.0
    :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

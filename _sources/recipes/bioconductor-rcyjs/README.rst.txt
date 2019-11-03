@@ -22,11 +22,11 @@ bioconductor-rcyjs
 
    |downloads_bioconductor-rcyjs| |docker_bioconductor-rcyjs|
 
-   :versions: 2.6.0-1, 2.4.0-0
+   :versions: 2.8.0-0, 2.6.0-1, 2.4.0-0
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-browserviz: >=2.6.0,<2.7.0
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-browserviz: >=2.8.0,<2.9.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-base64enc: 
    :depends r-httpuv: >=1.5.0

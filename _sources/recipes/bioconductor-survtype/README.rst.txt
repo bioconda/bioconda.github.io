@@ -22,9 +22,9 @@ bioconductor-survtype
 
    |downloads_bioconductor-survtype| |docker_bioconductor-survtype|
 
-   :versions: 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-clustvarsel: 
    :depends r-pheatmap: 

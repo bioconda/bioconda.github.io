@@ -23,10 +23,10 @@ bioconductor-cormotif
 
    |downloads_bioconductor-cormotif| |docker_bioconductor-cormotif|
 
-   :versions: 1.30.0-1, 1.28.0-0, 1.26.0-0, 1.24.0-0
+   :versions: 1.32.0-0, 1.30.0-1, 1.28.0-0, 1.26.0-0, 1.24.0-0
    
-   :depends bioconductor-affy: >=1.62.0,<1.63.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-affy: >=1.64.0,<1.65.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

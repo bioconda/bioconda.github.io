@@ -22,18 +22,16 @@ bioconductor-cogaps
 
    |downloads_bioconductor-cogaps| |docker_bioconductor-cogaps|
 
-   :versions: 3.4.1-0, 3.2.1-0
+   :versions: 3.6.0-0, 3.4.1-0, 3.2.1-0
    
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-rhdf5: >=2.28.0,<2.29.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-rhdf5: >=2.30.0,<2.31.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-singlecellexperiment: >=1.8.0,<1.9.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-cluster: 
-   :depends r-data.table: 
    :depends r-gplots: 
    :depends r-rcolorbrewer: 
    :depends r-rcpp: 

@@ -22,9 +22,9 @@ bioconductor-seqcombo
 
    |downloads_bioconductor-seqcombo| |docker_bioconductor-seqcombo|
 
-   :versions: 1.6.0-1, 1.4.0-0
+   :versions: 1.8.0-0, 1.6.0-1, 1.4.0-0
    
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-cowplot: 
    :depends r-dplyr: 

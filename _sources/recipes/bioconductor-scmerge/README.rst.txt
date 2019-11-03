@@ -22,29 +22,25 @@ bioconductor-scmerge
 
    |downloads_bioconductor-scmerge| |docker_bioconductor-scmerge|
 
-   :versions: 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-m3drop: >=1.10.0,<1.11.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-biocsingular: >=1.2.0,<1.3.0
+   :depends bioconductor-delayedarray: >=0.12.0,<0.13.0
+   :depends bioconductor-delayedmatrixstats: >=1.8.0,<1.9.0
+   :depends bioconductor-m3drop: >=1.12.0,<1.13.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-singlecellexperiment: >=1.8.0,<1.9.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-cluster: 
    :depends r-distr: 
-   :depends r-dosnow: 
-   :depends r-foreach: 
    :depends r-igraph: 
-   :depends r-irlba: 
-   :depends r-iterators: 
-   :depends r-matrixstats: 
    :depends r-pdist: 
    :depends r-proxy: 
    :depends r-rcpp: >=0.12.18
    :depends r-rcppeigen: >=0.3.3.4.0
-   :depends r-rsvd: 
    :depends r-ruv: 
    :depends r-testthat: 
    :requirements:

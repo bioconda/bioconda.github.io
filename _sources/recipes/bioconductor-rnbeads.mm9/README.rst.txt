@@ -22,9 +22,9 @@ bioconductor-rnbeads.mm9
 
    |downloads_bioconductor-rnbeads.mm9| |docker_bioconductor-rnbeads.mm9|
 
-   :versions: 1.16.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions: 1.17.0-0, 1.16.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0
    
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

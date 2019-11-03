@@ -22,13 +22,23 @@ bioconductor-pcatools
 
    |downloads_bioconductor-pcatools| |docker_bioconductor-pcatools|
 
-   :versions: 1.0.0-1, 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-1, 1.0.0-0
    
+   :depends bioconductor-beachmat: >=2.2.0,<2.3.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-biocsingular: >=1.2.0,<1.3.0
+   :depends bioconductor-delayedarray: >=0.12.0,<0.13.0
+   :depends bioconductor-delayedmatrixstats: >=1.8.0,<1.9.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
+   :depends r-bh: 
    :depends r-cowplot: 
+   :depends r-dqrng: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-lattice: 
+   :depends r-matrix: 
+   :depends r-rcpp: 
    :depends r-reshape2: 
    :requirements:
 

@@ -23,9 +23,9 @@ bioconductor-swath2stats
 
    |downloads_bioconductor-swath2stats| |docker_bioconductor-swath2stats|
 
-   :versions: 1.14.0-1, 1.12.1-0, 1.10.2-0, 1.8.1-0, 1.6.1-0
+   :versions: 1.16.0-0, 1.14.0-1, 1.12.1-0, 1.10.2-0, 1.8.1-0, 1.6.1-0
    
-   :depends bioconductor-biomart: >=2.40.0,<2.41.0
+   :depends bioconductor-biomart: >=2.42.0,<2.43.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-ggplot2: 

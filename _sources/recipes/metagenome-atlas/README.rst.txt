@@ -19,8 +19,6 @@ metagenome-atlas
    :recipe: /`metagenome-atlas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metagenome-atlas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metagenome-atlas/meta.yaml>`_
 
    Atlas is a easy to use metagenomic pipeline
-   \!\[scheme of workflow\]\(https\:\/\/github.com\/metagenome\-atlas\/atlas\/blob\/f8627545bcfb8f2b55733a35ecd0426ae4bbd5d1\/resources\/images\/ATLAS\_scheme.png\)
-
    \# Quick Start
 
    Three commands to start analysing your metagenome data\:
@@ -43,7 +41,7 @@ metagenome-atlas
 
    |downloads_metagenome-atlas| |docker_metagenome-atlas|
 
-   :versions: 2.1.4-1, 2.1.4-0, 2.1.3-0, 2.1.1-0, 2.0.6-1, 2.0.5-1, 2.0.4-1, 2.0.3-1, 2.0.1-1, 2.0.1-0
+   :versions: 2.2.0-0, 2.1.4-1, 2.1.4-0, 2.1.3-0, 2.1.1-0, 2.0.6-1, 2.0.5-1, 2.0.4-1, 2.0.3-1, 2.0.1-1, 2.0.1-0
    
    :depends bbmap: >=37.78
    :depends biopython: >=1.70

@@ -22,15 +22,15 @@ bioconductor-artms
 
    |downloads_bioconductor-artms| |docker_bioconductor-artms|
 
-   :versions: 1.2.6-0, 1.0.10-0, 1.0.1-0
+   :versions: 1.4.0-0, 1.2.6-0, 1.0.10-0, 1.0.1-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-biomart: >=2.40.0,<2.41.0
-   :depends bioconductor-complexheatmap: >=2.0.0,<2.1.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-msstats: >=3.16.0,<3.17.0
-   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
-   :depends bioconductor-org.mm.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-biomart: >=2.42.0,<2.43.0
+   :depends bioconductor-complexheatmap: >=2.2.0,<2.3.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-msstats: >=3.18.0,<3.19.0
+   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
+   :depends bioconductor-org.mm.eg.db: >=3.10.0,<3.11.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-bit64: 
    :depends r-circlize: 
@@ -52,7 +52,6 @@ bioconductor-artms
    :depends r-plotly: 
    :depends r-plyr: 
    :depends r-rcolorbrewer: 
-   :depends r-reshape2: 
    :depends r-scales: 
    :depends r-seqinr: 
    :depends r-stringr: 

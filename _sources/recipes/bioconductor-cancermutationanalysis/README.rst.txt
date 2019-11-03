@@ -28,6 +28,7 @@ bioconductor-cancermutationanalysis
    :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
    :depends bioconductor-limma: >=3.42.0,<3.43.0
    :depends bioconductor-qvalue: >=2.18.0,<2.19.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

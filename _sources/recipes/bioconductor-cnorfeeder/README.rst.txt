@@ -22,10 +22,10 @@ bioconductor-cnorfeeder
 
    |downloads_bioconductor-cnorfeeder| |docker_bioconductor-cnorfeeder|
 
-   :versions: 1.24.0-1, 1.22.0-0
+   :versions: 1.26.0-0, 1.24.0-1, 1.22.0-0
    
-   :depends bioconductor-cellnoptr: >=1.30.0,<1.31.0
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
+   :depends bioconductor-cellnoptr: >=1.32.0,<1.33.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

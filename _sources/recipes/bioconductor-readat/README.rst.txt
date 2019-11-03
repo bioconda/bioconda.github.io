@@ -22,10 +22,10 @@ bioconductor-readat
 
    |downloads_bioconductor-readat| |docker_bioconductor-readat|
 
-   :versions: 1.10.0-1, 1.8.0-0
+   :versions: 1.11.0-0, 1.10.0-1, 1.8.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends r-assertive.base: >=0.0-7
    :depends r-assertive.files: >=0.0-2
    :depends r-assertive.numbers: >=0.0-2

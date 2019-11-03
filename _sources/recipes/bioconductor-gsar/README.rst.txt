@@ -22,7 +22,7 @@ bioconductor-gsar
 
    |downloads_bioconductor-gsar| |docker_bioconductor-gsar|
 
-   :versions: 1.18.0-1, 1.18.0-0, 1.16.0-0
+   :versions: 1.20.0-0, 1.18.0-1, 1.18.0-0, 1.16.0-0
    
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-igraph: >=0.7.1

@@ -22,12 +22,11 @@ bioconductor-biomvrcns
 
    |downloads_bioconductor-biomvrcns| |docker_bioconductor-biomvrcns|
 
-   :versions: 1.24.0-1, 1.22.0-0
+   :versions: 1.26.0-0, 1.24.0-1, 1.22.0-0
    
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-gviz: >=1.28.0,<1.29.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends libgcc-ng: >=7.3.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-gviz: >=1.30.0,<1.31.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-mvtnorm: 
    :requirements:

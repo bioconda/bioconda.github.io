@@ -22,10 +22,10 @@ bioconductor-sdams
 
    |downloads_bioconductor-sdams| |docker_bioconductor-sdams|
 
-   :versions: 1.4.0-1, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0
    
-   :depends bioconductor-qvalue: >=2.16.0,<2.17.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-qvalue: >=2.18.0,<2.19.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-trust: 
    :requirements:

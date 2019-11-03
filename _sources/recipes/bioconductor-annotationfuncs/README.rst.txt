@@ -23,9 +23,9 @@ bioconductor-annotationfuncs
 
    |downloads_bioconductor-annotationfuncs| |docker_bioconductor-annotationfuncs|
 
-   :versions: 1.34.0-1, 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.26.0-0
+   :versions: 1.36.0-0, 1.34.0-1, 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.26.0-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dbi: 
    :requirements:

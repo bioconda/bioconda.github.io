@@ -22,12 +22,12 @@ bioconductor-netresponse
 
    |downloads_bioconductor-netresponse| |docker_bioconductor-netresponse|
 
-   :versions: 1.44.0-1, 1.42.0-0
+   :versions: 1.46.0-0, 1.44.0-1, 1.42.0-0
    
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
-   :depends bioconductor-minet: >=3.42.0,<3.43.0
-   :depends bioconductor-qvalue: >=2.16.0,<2.17.0
-   :depends bioconductor-rgraphviz: >=2.28.0,<2.29.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
+   :depends bioconductor-minet: >=3.44.0,<3.45.0
+   :depends bioconductor-qvalue: >=2.18.0,<2.19.0
+   :depends bioconductor-rgraphviz: >=2.30.0,<2.31.0
    :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dmt: 

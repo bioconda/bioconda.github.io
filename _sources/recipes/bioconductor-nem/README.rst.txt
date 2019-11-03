@@ -29,6 +29,7 @@ bioconductor-nem
    :depends bioconductor-limma: >=3.42.0,<3.43.0
    :depends bioconductor-rbgl: >=1.62.0,<1.63.0
    :depends bioconductor-rgraphviz: >=2.30.0,<2.31.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-boot: 
    :depends r-e1071: 

@@ -22,10 +22,10 @@ bioconductor-multimir
 
    |downloads_bioconductor-multimir| |docker_bioconductor-multimir|
 
-   :versions: 1.6.0-1, 1.4.0-1, 1.4.0-0
+   :versions: 1.8.0-0, 1.6.0-1, 1.4.0-1, 1.4.0-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: 
    :depends r-purrr: >=0.2.2

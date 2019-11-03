@@ -26,7 +26,8 @@ bioconductor-rbgl
    :versions: 1.62.1-0, 1.60.0-1, 1.58.2-0, 1.58.1-0, 1.56.0-0, 1.54.0-0, 1.52.0-0, 1.48.1-1, 1.46.0-1, 1.46.0-0
    
    :depends bioconductor-graph: >=1.64.0,<1.65.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-bh: 
    :requirements:

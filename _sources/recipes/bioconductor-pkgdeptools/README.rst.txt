@@ -23,10 +23,10 @@ bioconductor-pkgdeptools
 
    |downloads_bioconductor-pkgdeptools| |docker_bioconductor-pkgdeptools|
 
-   :versions: 1.50.0-1, 1.48.0-0, 1.46.0-0, 1.44.0-0, 1.42.0-0
+   :versions: 1.52.0-0, 1.50.0-1, 1.48.0-0, 1.46.0-0, 1.44.0-0, 1.42.0-0
    
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
-   :depends bioconductor-rbgl: >=1.60.0,<1.61.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
+   :depends bioconductor-rbgl: >=1.62.0,<1.63.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

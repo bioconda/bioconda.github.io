@@ -22,10 +22,10 @@ bioconductor-bioseqclass
 
    |downloads_bioconductor-bioseqclass| |docker_bioconductor-bioseqclass|
 
-   :versions: 1.42.0-1, 1.40.0-0
+   :versions: 1.44.0-0, 1.42.0-1, 1.40.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-class: 
    :depends r-e1071: 

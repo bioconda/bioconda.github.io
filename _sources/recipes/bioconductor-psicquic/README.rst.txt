@@ -23,11 +23,11 @@ bioconductor-psicquic
 
    |downloads_bioconductor-psicquic| |docker_bioconductor-psicquic|
 
-   :versions: 1.22.0-1, 1.20.0-1, 1.20.0-0, 1.18.1-0, 1.16.1-0, 1.14.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-1, 1.20.0-0, 1.18.1-0, 1.16.1-0, 1.14.0-0
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-biomart: >=2.40.0,<2.41.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-biomart: >=2.42.0,<2.43.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-httr: 
    :depends r-plyr: 

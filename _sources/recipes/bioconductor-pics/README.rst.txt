@@ -23,15 +23,15 @@ bioconductor-pics
 
    |downloads_bioconductor-pics| |docker_bioconductor-pics|
 
-   :versions: 2.28.0-1, 2.26.0-0, 2.24.0-0, 2.22.0-0, 2.20.0-0
+   :versions: 2.30.0-0, 2.28.0-1, 2.26.0-0, 2.24.0-0, 2.22.0-0, 2.20.0-0
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-genomicalignments: >=1.20.0,<1.21.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends libgcc-ng: >=7.3.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-genomicalignments: >=1.22.0,<1.23.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends gsl: >=2.5,<2.6.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

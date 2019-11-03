@@ -23,14 +23,13 @@ bioconductor-gsreg
 
    |downloads_bioconductor-gsreg| |docker_bioconductor-gsreg|
 
-   :versions: 1.18.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-0
+   :versions: 1.20.0-0, 1.18.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-genomicfeatures: >=1.36.0,<1.37.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-genomicfeatures: >=1.38.0,<1.39.0
    :depends bioconductor-homo.sapiens: >=1.3.0,<1.4.0
-   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

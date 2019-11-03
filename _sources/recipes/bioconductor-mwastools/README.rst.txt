@@ -22,13 +22,13 @@ bioconductor-mwastools
 
    |downloads_bioconductor-mwastools| |docker_bioconductor-mwastools|
 
-   :versions: 1.8.0-1, 1.6.0-0, 1.4.0-0, 1.2.0-0
+   :versions: 1.10.0-0, 1.8.0-1, 1.6.0-0, 1.4.0-0, 1.2.0-0
    
-   :depends bioconductor-complexheatmap: >=2.0.0,<2.1.0
-   :depends bioconductor-kegggraph: >=1.44.0,<1.45.0
-   :depends bioconductor-keggrest: >=1.24.0,<1.25.0
-   :depends bioconductor-qvalue: >=2.16.0,<2.17.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-complexheatmap: >=2.2.0,<2.3.0
+   :depends bioconductor-kegggraph: >=1.46.0,<1.47.0
+   :depends bioconductor-keggrest: >=1.26.0,<1.27.0
+   :depends bioconductor-qvalue: >=2.18.0,<2.19.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-boot: 
    :depends r-car: 

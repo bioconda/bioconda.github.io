@@ -22,9 +22,9 @@ bioconductor-pepdat
 
    |downloads_bioconductor-pepdat| |docker_bioconductor-pepdat|
 
-   :versions: 1.4.0-1, 1.2.0-0
+   :versions: 1.5.0-0, 1.4.0-1, 1.2.0-0
    
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

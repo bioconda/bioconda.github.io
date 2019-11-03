@@ -22,21 +22,20 @@ bioconductor-batchelor
 
    |downloads_bioconductor-batchelor| |docker_bioconductor-batchelor|
 
-   :versions: 1.0.1-0
+   :versions: 1.2.1-0, 1.0.1-0
    
-   :depends bioconductor-beachmat: >=2.0.0,<2.1.0
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-biocneighbors: >=1.2.0,<1.3.0
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-biocsingular: >=1.0.0,<1.1.0
-   :depends bioconductor-delayedarray: >=0.10.0,<0.11.0
-   :depends bioconductor-delayedmatrixstats: >=1.6.0,<1.7.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-scater: >=1.12.0,<1.13.0
-   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-beachmat: >=2.2.0,<2.3.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-biocneighbors: >=1.4.0,<1.5.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-biocsingular: >=1.2.0,<1.3.0
+   :depends bioconductor-delayedarray: >=0.12.0,<0.13.0
+   :depends bioconductor-delayedmatrixstats: >=1.8.0,<1.9.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-scater: >=1.14.0,<1.15.0
+   :depends bioconductor-singlecellexperiment: >=1.8.0,<1.9.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-matrix: 
    :depends r-rcpp: 

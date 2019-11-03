@@ -23,9 +23,9 @@ bioconductor-rbioinf
 
    |downloads_bioconductor-rbioinf| |docker_bioconductor-rbioinf|
 
-   :versions: 1.44.0-1, 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0
+   :versions: 1.46.0-0, 1.44.0-1, 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0
    
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
    :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

@@ -27,6 +27,7 @@ bioconductor-generxcluster
    
    :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
    :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

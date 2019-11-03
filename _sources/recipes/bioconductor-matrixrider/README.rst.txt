@@ -22,14 +22,13 @@ bioconductor-matrixrider
 
    |downloads_bioconductor-matrixrider| |docker_bioconductor-matrixrider|
 
-   :versions: 1.16.0-1, 1.14.0-1, 1.14.0-0
+   :versions: 1.18.0-0, 1.16.0-1, 1.14.0-1, 1.14.0-0
    
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-tfbstools: >=1.22.0,<1.23.0
-   :depends bioconductor-xvector: >=0.24.0,<0.25.0
-   :depends libgcc-ng: >=7.3.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-tfbstools: >=1.24.0,<1.25.0
+   :depends bioconductor-xvector: >=0.26.0,<0.27.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

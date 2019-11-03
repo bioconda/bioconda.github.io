@@ -22,9 +22,9 @@ bioconductor-predictionet
 
    |downloads_bioconductor-predictionet| |docker_bioconductor-predictionet|
 
-   :versions: 1.30.0-1, 1.28.0-0
+   :versions: 1.32.0-0, 1.30.0-1, 1.28.0-0
    
-   :depends bioconductor-rbgl: >=1.60.0,<1.61.0
+   :depends bioconductor-rbgl: >=1.62.0,<1.63.0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0

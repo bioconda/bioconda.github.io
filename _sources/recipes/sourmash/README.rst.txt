@@ -14,7 +14,7 @@ sourmash
    :homepage: https://github.com/dib-lab/sourmash
    :license: BSD / BSD License
    :recipe: /`sourmash <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sourmash>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sourmash/meta.yaml>`_
-   :links: doi: :doi:`10.21105/joss.00027`
+   :links: biotools: :biotools:`sourmash`, doi: :doi:`10.21105/joss.00027`, doi: :doi:`10.12688/f1000research.19675.1`
 
    
 
@@ -23,7 +23,7 @@ sourmash
 
    |downloads_sourmash| |docker_sourmash|
 
-   :versions: 2.2.0-0, 2.1.0-0, 2.0.1-0, 2.0.0-1, 2.0.0-0, 2.0.0a11-0, 2.0.0a10-0, 2.0.0a9-0, 2.0.0a8-2, 2.0.0a8-1, 2.0.0a8-0, 2.0.0a7-0, 2.0.0a6-0, 2.0.0a5-0, 2.0.0a4-0, 2.0.0a3-0, 2.0.0a2-0, 2.0.0a1-3, 2.0.0a1-2, 2.0.0a1-1, 2.0.0a1-0, 1.0-0
+   :versions: 2.2.0-1, 2.2.0-0, 2.1.0-0, 2.0.1-0, 2.0.0-1, 2.0.0-0, 2.0.0a11-0, 2.0.0a10-0, 2.0.0a9-0, 2.0.0a8-2, 2.0.0a8-1, 2.0.0a8-0, 2.0.0a7-0, 2.0.0a6-0, 2.0.0a5-0, 2.0.0a4-0, 2.0.0a3-0, 2.0.0a2-0, 2.0.0a1-3, 2.0.0a1-2, 2.0.0a1-1, 2.0.0a1-0, 1.0-0
    
    :depends ijson: <2.5
    :depends khmer: >=2.1

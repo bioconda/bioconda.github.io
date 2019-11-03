@@ -28,6 +28,7 @@ bioconductor-tweedeseq
    :depends bioconductor-cqn: >=1.32.0,<1.33.0
    :depends bioconductor-edger: >=3.28.0,<3.29.0
    :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-mass: 
    :requirements:

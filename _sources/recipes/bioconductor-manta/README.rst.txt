@@ -23,9 +23,9 @@ bioconductor-manta
 
    |downloads_bioconductor-manta| |docker_bioconductor-manta|
 
-   :versions: 1.30.0-1, 1.30.0-0, 1.28.1-0, 1.28.0-0, 1.26.0-0, 1.24.0-0, 1.22.0-0
+   :versions: 1.32.0-0, 1.30.0-1, 1.30.0-0, 1.28.1-0, 1.28.0-0, 1.26.0-0, 1.24.0-0, 1.22.0-0
    
-   :depends bioconductor-edger: >=3.26.0,<3.27.0
+   :depends bioconductor-edger: >=3.28.0,<3.29.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-caroline: >=0.6.6
    :depends r-hmisc: 

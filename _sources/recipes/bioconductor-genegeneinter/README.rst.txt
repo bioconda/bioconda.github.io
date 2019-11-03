@@ -22,15 +22,14 @@ bioconductor-genegeneinter
 
    |downloads_bioconductor-genegeneinter| |docker_bioconductor-genegeneinter|
 
-   :versions: 1.10.0-1, 1.8.0-0
+   :versions: 1.12.0-0, 1.10.0-1, 1.8.0-0
    
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-ggtools: >=5.20.0,<5.21.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
-   :depends bioconductor-snpstats: >=1.34.0,<1.35.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-ggtools: >=5.22.0,<5.23.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
+   :depends bioconductor-snpstats: >=1.36.0,<1.37.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-factominer: 

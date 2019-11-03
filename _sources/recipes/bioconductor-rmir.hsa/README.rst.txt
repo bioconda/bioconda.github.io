@@ -22,9 +22,9 @@ bioconductor-rmir.hsa
 
    |downloads_bioconductor-rmir.hsa| |docker_bioconductor-rmir.hsa|
 
-   :versions: 1.0.5-2, 1.0.5-0
+   :versions: 1.0.5-3, 1.0.5-2, 1.0.5-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

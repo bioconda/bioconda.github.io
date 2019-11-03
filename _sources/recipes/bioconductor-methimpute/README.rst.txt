@@ -28,7 +28,8 @@ bioconductor-methimpute
    :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
    :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
    :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-ggplot2: 

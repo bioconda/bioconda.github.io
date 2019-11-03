@@ -22,13 +22,13 @@ bioconductor-mapkl
 
    |downloads_bioconductor-mapkl| |docker_bioconductor-mapkl|
 
-   :versions: 1.14.1-0, 1.12.0-0
+   :versions: 1.16.0-0, 1.14.1-0, 1.12.0-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-multtest: >=2.40.0,<2.41.0
-   :depends bioconductor-reactome.db: >=1.68.0,<1.69.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-multtest: >=2.42.0,<2.43.0
+   :depends bioconductor-reactome.db: >=1.70.0,<1.71.0
    :depends r-apcluster: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-clustersim: 

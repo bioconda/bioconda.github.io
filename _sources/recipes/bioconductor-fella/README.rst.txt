@@ -22,9 +22,9 @@ bioconductor-fella
 
    |downloads_bioconductor-fella| |docker_bioconductor-fella|
 
-   :versions: 1.4.0-1, 1.2.0-1, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-1, 1.2.0-0
    
-   :depends bioconductor-keggrest: >=1.24.0,<1.25.0
+   :depends bioconductor-keggrest: >=1.26.0,<1.27.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-igraph: 
    :depends r-matrix: 

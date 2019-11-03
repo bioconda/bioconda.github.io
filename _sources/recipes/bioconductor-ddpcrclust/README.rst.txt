@@ -22,12 +22,12 @@ bioconductor-ddpcrclust
 
    |downloads_bioconductor-ddpcrclust| |docker_bioconductor-ddpcrclust|
 
-   :versions: 1.4.0-1, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0
    
-   :depends bioconductor-flowcore: >=1.50.0,<1.51.0
-   :depends bioconductor-flowdensity: >=1.18.0,<1.19.0
-   :depends bioconductor-flowpeaks: >=1.30.0,<1.31.0
-   :depends bioconductor-samspectral: >=1.38.0,<1.39.0
+   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
+   :depends bioconductor-flowdensity: >=1.20.0,<1.21.0
+   :depends bioconductor-flowpeaks: >=1.32.0,<1.33.0
+   :depends bioconductor-samspectral: >=1.40.0,<1.41.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-clue: 
    :depends r-ggplot2: 

@@ -31,6 +31,7 @@ bioconductor-hdf5array
    :depends bioconductor-rhdf5: >=2.30.0,<2.31.0
    :depends bioconductor-rhdf5lib: >=1.8.0,<1.9.0
    :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-matrix: 
    :requirements:

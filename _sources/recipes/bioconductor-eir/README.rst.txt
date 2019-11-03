@@ -22,13 +22,12 @@ bioconductor-eir
 
    |downloads_bioconductor-eir| |docker_bioconductor-eir|
 
-   :versions: 1.24.0-1, 1.22.0-0
+   :versions: 1.26.0-0, 1.24.0-1, 1.22.0-0
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-chemminer: >=3.36.0,<3.37.0
-   :depends bioconductor-gesper: >=1.16.0,<1.17.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-chemminer: >=3.38.0,<3.39.0
+   :depends bioconductor-gesper: >=1.18.0,<1.19.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dbi: 
    :depends r-digest: 

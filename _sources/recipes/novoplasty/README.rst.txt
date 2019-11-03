@@ -9,24 +9,24 @@ novoplasty
 .. conda:recipe:: novoplasty
    :replaces_section_title:
 
-   
+   The organelle assembler and heteroplasmy caller
 
    :homepage: https://github.com/ndierckx/NOVOPlasty
-   :license: 
+   :license: other
    :recipe: /`novoplasty <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/novoplasty>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/novoplasty/meta.yaml>`_
+   :links: doi: :doi:`10.1093/nar/gkw955`
 
    NOVOPlasty is a de novo assembler for short circular genomes.
+
 
 
 .. conda:package:: novoplasty
 
    |downloads_novoplasty| |docker_novoplasty|
 
-   :versions: 2.2.2-1, 2.2.2-0
+   :versions: 3.7-0, 2.2.2-1, 2.2.2-0
    
-   :depends perl: >=5.26.2,<5.27.0a0
-   :depends perl-app-cpanminus: 
-   :depends perl-module-build: 
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 
    .. rubric:: Installation

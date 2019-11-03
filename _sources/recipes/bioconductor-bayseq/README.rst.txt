@@ -23,10 +23,10 @@ bioconductor-bayseq
 
    |downloads_bioconductor-bayseq| |docker_bioconductor-bayseq|
 
-   :versions: 2.18.0-1, 2.16.0-0, 2.14.0-0, 2.12.0-0, 2.10.0-0
+   :versions: 2.20.0-0, 2.18.0-1, 2.16.0-0, 2.14.0-0, 2.12.0-0, 2.10.0-0
    
-   :depends bioconductor-edger: >=3.26.0,<3.27.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-edger: >=3.28.0,<3.29.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
    :depends r-abind: 
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

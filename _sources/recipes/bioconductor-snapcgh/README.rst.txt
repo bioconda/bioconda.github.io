@@ -22,14 +22,13 @@ bioconductor-snapcgh
 
    |downloads_bioconductor-snapcgh| |docker_bioconductor-snapcgh|
 
-   :versions: 1.54.0-1
+   :versions: 1.56.0-0, 1.54.0-1
    
-   :depends bioconductor-acgh: >=1.62.0,<1.63.0
-   :depends bioconductor-dnacopy: >=1.58.0,<1.59.0
-   :depends bioconductor-glad: >=2.48.0,<2.49.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-tilingarray: >=1.62.0,<1.63.0
-   :depends libgcc-ng: >=7.3.0
+   :depends bioconductor-acgh: >=1.64.0,<1.65.0
+   :depends bioconductor-dnacopy: >=1.60.0,<1.61.0
+   :depends bioconductor-glad: >=2.50.0,<2.51.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-tilingarray: >=1.64.0,<1.65.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-cluster: 
    :requirements:
