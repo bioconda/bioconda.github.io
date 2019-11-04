@@ -29,7 +29,8 @@ bioconductor-adsplit
    :depends bioconductor-go.db: >=3.10.0,<3.11.0
    :depends bioconductor-kegg.db: >=3.2.0,<3.3.0
    :depends bioconductor-multtest: >=2.42.0,<2.43.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-cluster: >=1.9.1
    :requirements:

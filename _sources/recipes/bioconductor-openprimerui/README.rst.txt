@@ -22,9 +22,9 @@ bioconductor-openprimerui
 
    |downloads_bioconductor-openprimerui| |docker_bioconductor-openprimerui|
 
-   :versions: 1.6.0-1, 1.4.1-0
+   :versions: 1.8.0-0, 1.6.0-1, 1.4.1-0
    
-   :depends bioconductor-openprimer: >=1.6.0,<1.7.0
+   :depends bioconductor-openprimer: >=1.8.0,<1.9.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dt: >=0.2
    :depends r-rmarkdown: >=1.0

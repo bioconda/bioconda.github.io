@@ -23,11 +23,12 @@ bioconductor-chronos
 
    |downloads_bioconductor-chronos| |docker_bioconductor-chronos|
 
-   :versions: 1.12.0-1, 1.10.0-0, 1.8.1-0, 1.6.0-0, 1.4.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.10.0-0, 1.8.1-0, 1.6.0-0, 1.4.0-0
    
-   :depends bioconductor-biomart: >=2.40.0,<2.41.0
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
-   :depends bioconductor-rbgl: >=1.60.0,<1.61.0
+   :depends bioconductor-biomart: >=2.42.0,<2.43.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
+   :depends bioconductor-rbgl: >=1.62.0,<1.63.0
+   :depends openjdk: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-circlize: 
    :depends r-doparallel: 

@@ -28,6 +28,7 @@ bioconductor-sva
    :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
    :depends bioconductor-genefilter: >=1.68.0,<1.69.0
    :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-matrixstats: 
    :depends r-mgcv: 

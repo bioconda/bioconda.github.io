@@ -22,12 +22,12 @@ bioconductor-olingui
 
    |downloads_bioconductor-olingui| |docker_bioconductor-olingui|
 
-   :versions: 1.58.0-1, 1.58.0-0, 1.56.0-0
+   :versions: 1.60.0-0, 1.58.0-1, 1.58.0-0, 1.56.0-0
    
-   :depends bioconductor-marray: >=1.62.0,<1.63.0
-   :depends bioconductor-olin: >=1.62.0,<1.63.0
-   :depends bioconductor-tkwidgets: >=1.62.0,<1.63.0
-   :depends bioconductor-widgettools: >=1.62.0,<1.63.0
+   :depends bioconductor-marray: >=1.64.0,<1.65.0
+   :depends bioconductor-olin: >=1.64.0,<1.65.0
+   :depends bioconductor-tkwidgets: >=1.64.0,<1.65.0
+   :depends bioconductor-widgettools: >=1.64.0,<1.65.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

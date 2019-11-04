@@ -32,7 +32,8 @@ dfast
    :depends blast: >=2.6.0
    :depends ghostx: 
    :depends hmmer: >=3.1b2
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends metagene_annotator: >=1.0
    :depends openjdk: 
    :depends python: >=3.7,<3.8.0a0

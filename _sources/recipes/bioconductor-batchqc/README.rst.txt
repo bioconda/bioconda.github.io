@@ -23,10 +23,11 @@ bioconductor-batchqc
 
    |downloads_bioconductor-batchqc| |docker_bioconductor-batchqc|
 
-   :versions: 1.12.0-1, 1.10.1-0, 1.8.1-0, 1.6.1-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.10.1-0, 1.8.1-0, 1.6.1-0
    
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-sva: >=3.32.0,<3.33.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-sva: >=3.34.0,<3.35.0
+   :depends pandoc: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-corpcor: 
    :depends r-d3heatmap: 

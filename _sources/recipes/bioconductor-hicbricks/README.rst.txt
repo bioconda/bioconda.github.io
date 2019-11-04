@@ -22,23 +22,28 @@ bioconductor-hicbricks
 
    |downloads_bioconductor-hicbricks| |docker_bioconductor-hicbricks|
 
-   :versions: 1.2.0-1, 1.0.0-0
+   :versions: 1.4.0-0, 1.2.0-1, 1.0.0-0
    
-   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-rhdf5: >=2.28.0,<2.29.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-rhdf5: >=2.30.0,<2.31.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-curl: 
    :depends r-data.table: 
    :depends r-digest: 
    :depends r-ggplot2: 
+   :depends r-jsonlite: 
+   :depends r-r.utils: 
    :depends r-r6: 
    :depends r-rcolorbrewer: 
+   :depends r-readr: 
    :depends r-reshape2: 
    :depends r-scales: 
    :depends r-stringr: 
+   :depends r-tibble: 
    :depends r-viridis: 
    :requirements:
 

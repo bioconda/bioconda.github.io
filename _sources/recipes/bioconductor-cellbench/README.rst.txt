@@ -22,11 +22,11 @@ bioconductor-cellbench
 
    |downloads_bioconductor-cellbench| |docker_bioconductor-cellbench|
 
-   :versions: 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-biocfilecache: >=1.8.0,<1.9.0
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
+   :depends bioconductor-biocfilecache: >=1.10.0,<1.11.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-singlecellexperiment: >=1.8.0,<1.9.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: 
    :depends r-glue: 

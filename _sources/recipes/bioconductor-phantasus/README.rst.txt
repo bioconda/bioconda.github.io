@@ -22,14 +22,14 @@ bioconductor-phantasus
 
    |downloads_bioconductor-phantasus| |docker_bioconductor-phantasus|
 
-   :versions: 1.4.0-1, 1.2.1-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.1-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-fgsea: >=1.10.0,<1.11.0
-   :depends bioconductor-geoquery: >=2.52.0,<2.53.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-rhdf5: >=2.28.0,<2.29.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-fgsea: >=1.12.0,<1.13.0
+   :depends bioconductor-geoquery: >=2.54.0,<2.55.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-rhdf5: >=2.30.0,<2.31.0
    :depends r-assertthat: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ccapp: 

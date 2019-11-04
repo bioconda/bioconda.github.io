@@ -22,9 +22,9 @@ bioconductor-lrbase.ath.eg.db
 
    |downloads_bioconductor-lrbase.ath.eg.db| |docker_bioconductor-lrbase.ath.eg.db|
 
-   :versions: 1.1.0-0, 0.99.1-0
+   :versions: 1.2.0-0, 1.1.0-0, 0.99.1-0
    
-   :depends bioconductor-lrbasedbi: >=1.2.0,<1.3.0
+   :depends bioconductor-lrbasedbi: >=1.4.0,<1.5.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-rsqlite: 

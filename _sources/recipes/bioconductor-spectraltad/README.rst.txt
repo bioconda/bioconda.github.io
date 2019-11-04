@@ -22,11 +22,11 @@ bioconductor-spectraltad
 
    |downloads_bioconductor-spectraltad| |docker_bioconductor-spectraltad|
 
-   :versions: 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-hiccompare: >=1.6.0,<1.7.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-hiccompare: >=1.8.0,<1.9.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-cluster: 
    :depends r-dplyr: 

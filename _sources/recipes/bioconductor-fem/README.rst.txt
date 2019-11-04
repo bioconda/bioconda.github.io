@@ -22,15 +22,15 @@ bioconductor-fem
 
    |downloads_bioconductor-fem| |docker_bioconductor-fem|
 
-   :versions: 3.12.0-1, 3.10.0-0
+   :versions: 3.14.0-0, 3.12.0-1, 3.10.0-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
-   :depends bioconductor-impute: >=1.58.0,<1.59.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-marray: >=1.62.0,<1.63.0
-   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
+   :depends bioconductor-impute: >=1.60.0,<1.61.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-marray: >=1.64.0,<1.65.0
+   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-corrplot: 
    :depends r-igraph: 

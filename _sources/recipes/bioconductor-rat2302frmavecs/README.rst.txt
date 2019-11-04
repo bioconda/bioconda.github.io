@@ -22,10 +22,10 @@ bioconductor-rat2302frmavecs
 
    |downloads_bioconductor-rat2302frmavecs| |docker_bioconductor-rat2302frmavecs|
 
-   :versions: 0.99.11-1
+   :versions: 0.99.11-2, 0.99.11-1
    
-   :depends bioconductor-affy: >=1.62.0,<1.63.0
-   :depends bioconductor-frma: >=1.36.0,<1.37.0
+   :depends bioconductor-affy: >=1.64.0,<1.65.0
+   :depends bioconductor-frma: >=1.38.0,<1.39.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

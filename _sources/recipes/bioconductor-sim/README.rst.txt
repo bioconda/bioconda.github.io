@@ -27,6 +27,7 @@ bioconductor-sim
    
    :depends bioconductor-globaltest: >=5.40.0,<5.41.0
    :depends bioconductor-quantsmooth: >=1.52.0,<1.53.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-quantreg: 
    :requirements:

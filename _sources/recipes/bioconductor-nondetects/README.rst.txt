@@ -23,11 +23,11 @@ bioconductor-nondetects
 
    |downloads_bioconductor-nondetects| |docker_bioconductor-nondetects|
 
-   :versions: 2.14.0-1, 2.12.0-0, 2.10.0-0, 2.8.0-0
+   :versions: 2.16.0-0, 2.14.0-1, 2.12.0-0, 2.10.0-0, 2.8.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-htqpcr: >=1.38.0,<1.39.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-htqpcr: >=1.40.0,<1.41.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
    :depends r-arm: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-mvtnorm: 

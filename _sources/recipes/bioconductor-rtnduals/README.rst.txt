@@ -22,9 +22,9 @@ bioconductor-rtnduals
 
    |downloads_bioconductor-rtnduals| |docker_bioconductor-rtnduals|
 
-   :versions: 1.8.1-0, 1.6.0-0
+   :versions: 1.10.0-0, 1.8.1-0, 1.6.0-0
    
-   :depends bioconductor-rtn: >=2.8.0,<2.9.0
+   :depends bioconductor-rtn: >=2.10.0,<2.11.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

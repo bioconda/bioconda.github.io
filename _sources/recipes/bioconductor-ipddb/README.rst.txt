@@ -22,13 +22,13 @@ bioconductor-ipddb
 
    |downloads_bioconductor-ipddb| |docker_bioconductor-ipddb|
 
-   :versions: 1.2.0-1, 1.0.0-0
+   :versions: 1.4.0-0, 1.2.0-1, 1.0.0-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
    :depends r-assertthat: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dbi: 

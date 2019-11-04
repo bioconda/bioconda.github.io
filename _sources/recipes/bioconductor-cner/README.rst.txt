@@ -37,6 +37,7 @@ bioconductor-cner
    :depends bioconductor-rtracklayer: >=1.46.0,<1.47.0
    :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
    :depends bioconductor-xvector: >=0.26.0,<0.27.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dbi: >=0.7
    :depends r-ggplot2: >=2.1.0

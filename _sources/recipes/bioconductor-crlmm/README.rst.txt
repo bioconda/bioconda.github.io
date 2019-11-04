@@ -33,6 +33,7 @@ bioconductor-crlmm
    :depends bioconductor-oligoclasses: >=1.48.0,<1.49.0
    :depends bioconductor-preprocesscore: >=1.48.0,<1.49.0
    :depends bioconductor-snpchip: >=2.32.0,<2.33.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-beanplot: 
    :depends r-ellipse: 

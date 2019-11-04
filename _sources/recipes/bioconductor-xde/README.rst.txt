@@ -31,7 +31,8 @@ bioconductor-xde
    :depends bioconductor-genemeta: >=1.58.0,<1.59.0
    :depends bioconductor-mergemaid: >=2.58.0,<2.59.0
    :depends bioconductor-siggenes: >=1.60.0,<1.61.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-gtools: 
    :depends r-mvtnorm: 

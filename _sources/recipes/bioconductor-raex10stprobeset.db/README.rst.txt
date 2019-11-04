@@ -22,10 +22,10 @@ bioconductor-raex10stprobeset.db
 
    |downloads_bioconductor-raex10stprobeset.db| |docker_bioconductor-raex10stprobeset.db|
 
-   :versions: 8.7.0-2, 8.7.0-0
+   :versions: 8.7.0-3, 8.7.0-2, 8.7.0-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-org.rn.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-org.rn.eg.db: >=3.10.0,<3.11.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

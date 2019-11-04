@@ -22,10 +22,10 @@ bioconductor-funcisnp.data
 
    |downloads_bioconductor-funcisnp.data| |docker_bioconductor-funcisnp.data|
 
-   :versions: 1.20.0-1, 1.18.0-0
+   :versions: 1.21.0-0, 1.20.0-1, 1.18.0-0
    
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-rtracklayer: >=1.44.0,<1.45.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-rtracklayer: >=1.46.0,<1.47.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

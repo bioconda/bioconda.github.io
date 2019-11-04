@@ -22,14 +22,15 @@ bioconductor-openprimer
 
    |downloads_bioconductor-openprimer| |docker_bioconductor-openprimer|
 
-   :versions: 1.6.0-1, 1.4.1-0
+   :versions: 1.8.0-0, 1.6.0-1, 1.4.1-0
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-decipher: >=2.12.0,<2.13.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-decipher: >=2.14.0,<2.15.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends mafft: >=7.305
    :depends r-ape: >=3.5
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-digest: >=0.6.9

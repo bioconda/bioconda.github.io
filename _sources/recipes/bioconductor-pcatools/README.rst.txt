@@ -29,7 +29,8 @@ bioconductor-pcatools
    :depends bioconductor-biocsingular: >=1.2.0,<1.3.0
    :depends bioconductor-delayedarray: >=0.12.0,<0.13.0
    :depends bioconductor-delayedmatrixstats: >=1.8.0,<1.9.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-bh: 
    :depends r-cowplot: 

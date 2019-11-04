@@ -22,10 +22,10 @@ bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene
 
    |downloads_bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene| |docker_bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene|
 
-   :versions: 3.2.2-7, 3.2.2-5, 3.2.2-4, 3.2.2-2, 3.2.2-1, 3.2.2-0
+   :versions: 3.2.2-8, 3.2.2-7, 3.2.2-5, 3.2.2-4, 3.2.2-2, 3.2.2-1, 3.2.2-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-genomicfeatures: >=1.36.0,<1.37.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-genomicfeatures: >=1.38.0,<1.39.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

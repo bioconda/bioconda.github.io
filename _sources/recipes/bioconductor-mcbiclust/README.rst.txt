@@ -22,12 +22,12 @@ bioconductor-mcbiclust
 
    |downloads_bioconductor-mcbiclust| |docker_bioconductor-mcbiclust|
 
-   :versions: 1.8.0-1, 1.6.0-0
+   :versions: 1.10.0-0, 1.8.0-1, 1.6.0-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-go.db: >=3.8.0,<3.9.0
-   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-go.db: >=3.10.0,<3.11.0
+   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-cluster: 
    :depends r-ggally: 

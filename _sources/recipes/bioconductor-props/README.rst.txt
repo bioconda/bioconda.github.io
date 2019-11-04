@@ -22,10 +22,10 @@ bioconductor-props
 
    |downloads_bioconductor-props| |docker_bioconductor-props|
 
-   :versions: 1.6.0-1, 1.4.0-0
+   :versions: 1.8.0-0, 1.6.0-1, 1.4.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-sva: >=3.32.0,<3.33.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-sva: >=3.34.0,<3.35.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-bnlearn: 
    :depends r-reshape2: 

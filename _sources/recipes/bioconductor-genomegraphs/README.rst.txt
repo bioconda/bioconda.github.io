@@ -23,9 +23,9 @@ bioconductor-genomegraphs
 
    |downloads_bioconductor-genomegraphs| |docker_bioconductor-genomegraphs|
 
-   :versions: 1.44.0-1, 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0
+   :versions: 1.46.0-0, 1.44.0-1, 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0
    
-   :depends bioconductor-biomart: >=2.40.0,<2.41.0
+   :depends bioconductor-biomart: >=2.42.0,<2.43.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

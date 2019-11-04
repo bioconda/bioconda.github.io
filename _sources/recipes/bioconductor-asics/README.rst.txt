@@ -22,12 +22,12 @@ bioconductor-asics
 
    |downloads_bioconductor-asics| |docker_bioconductor-asics|
 
-   :versions: 2.0.1-0, 1.2.0-0
+   :versions: 2.2.0-0, 2.0.1-0, 1.2.0-0
    
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-pepsnmr: >=1.2.0,<1.3.0
-   :depends bioconductor-ropls: >=1.16.0,<1.17.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-pepsnmr: >=1.4.0,<1.5.0
+   :depends bioconductor-ropls: >=1.18.0,<1.19.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 
    :depends r-gridextra: 

@@ -22,10 +22,10 @@ bioconductor-tissueenrich
 
    |downloads_bioconductor-tissueenrich| |docker_bioconductor-tissueenrich|
 
-   :versions: 1.4.0-1, 1.2.1-0, 1.0.7-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.1-0, 1.0.7-0
    
-   :depends bioconductor-gseabase: >=1.46.0,<1.47.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-gseabase: >=1.48.0,<1.49.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: >=0.7.3
    :depends r-ensurer: >=1.1.0

@@ -22,10 +22,10 @@ bioconductor-past
 
    |downloads_bioconductor-past| |docker_bioconductor-past|
 
-   :versions: 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-qvalue: >=2.16.0,<2.17.0
-   :depends bioconductor-rtracklayer: >=1.44.0,<1.45.0
+   :depends bioconductor-qvalue: >=2.18.0,<2.19.0
+   :depends bioconductor-rtracklayer: >=1.46.0,<1.47.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-doparallel: 
    :depends r-dplyr: 

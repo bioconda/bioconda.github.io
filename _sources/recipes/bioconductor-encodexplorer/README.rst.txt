@@ -23,17 +23,18 @@ bioconductor-encodexplorer
 
    |downloads_bioconductor-encodexplorer| |docker_bioconductor-encodexplorer|
 
-   :versions: 2.10.0-1, 2.8.0-0, 2.6.0-0, 2.4.0-0
+   :versions: 2.12.0-0, 2.10.0-1, 2.8.0-0, 2.6.0-0, 2.4.0-0
    
-   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
+   :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
+   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-rtracklayer: >=1.46.0,<1.47.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-dplyr: 
-   :depends r-dt: 
    :depends r-jsonlite: 
    :depends r-rcurl: 
-   :depends r-shiny: 
-   :depends r-shinythemes: 
    :depends r-stringi: 
    :depends r-stringr: 
    :depends r-tidyr: 

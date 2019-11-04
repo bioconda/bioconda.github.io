@@ -23,14 +23,14 @@ bioconductor-synapter
 
    |downloads_bioconductor-synapter| |docker_bioconductor-synapter|
 
-   :versions: 2.8.0-1, 2.6.1-0, 2.2.0-0
+   :versions: 2.10.0-0, 2.8.0-1, 2.6.1-0, 2.2.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-cleaver: >=1.22.0,<1.23.0
-   :depends bioconductor-msnbase: >=2.10.0,<2.11.0
-   :depends bioconductor-multtest: >=2.40.0,<2.41.0
-   :depends bioconductor-qvalue: >=2.16.0,<2.17.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-cleaver: >=1.24.0,<1.25.0
+   :depends bioconductor-msnbase: >=2.12.0,<2.13.0
+   :depends bioconductor-multtest: >=2.42.0,<2.43.0
+   :depends bioconductor-qvalue: >=2.18.0,<2.19.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-knitr: 
    :depends r-lattice: 

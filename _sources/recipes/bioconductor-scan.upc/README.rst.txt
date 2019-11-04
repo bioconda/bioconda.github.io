@@ -23,16 +23,16 @@ bioconductor-scan.upc
 
    |downloads_bioconductor-scan.upc| |docker_bioconductor-scan.upc|
 
-   :versions: 2.26.0-1, 2.24.1-0, 2.22.0-0, 2.20.0-0, 2.18.0-0
+   :versions: 2.28.0-0, 2.26.0-1, 2.24.1-0, 2.22.0-0, 2.20.0-0, 2.18.0-0
    
-   :depends bioconductor-affy: >=1.62.0,<1.63.0
-   :depends bioconductor-affyio: >=1.54.0,<1.55.0
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-geoquery: >=2.52.0,<2.53.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-oligo: >=1.48.0,<1.49.0
-   :depends bioconductor-sva: >=3.32.0,<3.33.0
+   :depends bioconductor-affy: >=1.64.0,<1.65.0
+   :depends bioconductor-affyio: >=1.56.0,<1.57.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-geoquery: >=2.54.0,<2.55.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-oligo: >=1.50.0,<1.51.0
+   :depends bioconductor-sva: >=3.34.0,<3.35.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-foreach: 
    :depends r-mass: 

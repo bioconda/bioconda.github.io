@@ -22,13 +22,13 @@ bioconductor-pd.hugene.1.0.st.v1
 
    |downloads_bioconductor-pd.hugene.1.0.st.v1| |docker_bioconductor-pd.hugene.1.0.st.v1|
 
-   :versions: 3.14.1-2, 3.14.1-0
+   :versions: 3.14.1-3, 3.14.1-2, 3.14.1-0
    
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-oligo: >=1.48.0,<1.49.0
-   :depends bioconductor-oligoclasses: >=1.46.0,<1.47.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-oligo: >=1.50.0,<1.51.0
+   :depends bioconductor-oligoclasses: >=1.48.0,<1.49.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dbi: >=0.3.1

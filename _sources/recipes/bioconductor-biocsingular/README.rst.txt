@@ -29,7 +29,8 @@ bioconductor-biocsingular
    :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
    :depends bioconductor-delayedarray: >=0.12.0,<0.13.0
    :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-irlba: 
    :depends r-matrix: 

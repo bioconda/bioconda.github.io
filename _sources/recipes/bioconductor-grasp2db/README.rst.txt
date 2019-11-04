@@ -22,10 +22,10 @@ bioconductor-grasp2db
 
    |downloads_bioconductor-grasp2db| |docker_bioconductor-grasp2db|
 
-   :versions: 1.1.0-2, 1.1.0-0
+   :versions: 1.1.0-3, 1.1.0-2, 1.1.0-0
    
-   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
-   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
+   :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
+   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dbplyr: 

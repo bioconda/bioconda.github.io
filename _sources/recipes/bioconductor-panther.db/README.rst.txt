@@ -22,9 +22,10 @@ bioconductor-panther.db
 
    |downloads_bioconductor-panther.db| |docker_bioconductor-panther.db|
 
-   :versions: 1.0.4-5, 1.0.4-3, 1.0.4-2, 1.0.4-0
+   :versions: 1.0.5-0, 1.0.4-5, 1.0.4-3, 1.0.4-2, 1.0.4-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-rsqlite: 

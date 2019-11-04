@@ -22,10 +22,10 @@ bioconductor-cellmapperdata
 
    |downloads_bioconductor-cellmapperdata| |docker_bioconductor-cellmapperdata|
 
-   :versions: 1.10.0-1, 1.8.0-0
+   :versions: 1.11.0-0, 1.10.0-1, 1.8.0-0
    
-   :depends bioconductor-cellmapper: >=1.10.0,<1.11.0
-   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
+   :depends bioconductor-cellmapper: >=1.12.0,<1.13.0
+   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

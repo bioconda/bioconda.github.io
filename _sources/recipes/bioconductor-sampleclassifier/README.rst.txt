@@ -22,11 +22,11 @@ bioconductor-sampleclassifier
 
    |downloads_bioconductor-sampleclassifier| |docker_bioconductor-sampleclassifier|
 
-   :versions: 1.8.0-1, 1.6.0-0
+   :versions: 1.10.0-0, 1.8.0-1, 1.6.0-0
    
-   :depends bioconductor-annotate: >=1.62.0,<1.63.0
-   :depends bioconductor-mgfm: >=1.18.0,<1.19.0
-   :depends bioconductor-mgfr: >=1.10.0,<1.11.0
+   :depends bioconductor-annotate: >=1.64.0,<1.65.0
+   :depends bioconductor-mgfm: >=1.20.0,<1.21.0
+   :depends bioconductor-mgfr: >=1.12.0,<1.13.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-e1071: 
    :depends r-ggplot2: 

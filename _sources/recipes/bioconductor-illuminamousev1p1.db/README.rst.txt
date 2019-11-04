@@ -22,10 +22,10 @@ bioconductor-illuminamousev1p1.db
 
    |downloads_bioconductor-illuminamousev1p1.db| |docker_bioconductor-illuminamousev1p1.db|
 
-   :versions: 1.26.0-2, 1.26.0-0
+   :versions: 1.26.0-3, 1.26.0-2, 1.26.0-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-org.mm.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-org.mm.eg.db: >=3.10.0,<3.11.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

@@ -23,10 +23,10 @@ bioconductor-mgfm
 
    |downloads_bioconductor-mgfm| |docker_bioconductor-mgfm|
 
-   :versions: 1.18.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions: 1.20.0-0, 1.18.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
    
-   :depends bioconductor-annotate: >=1.62.0,<1.63.0
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-annotate: >=1.64.0,<1.65.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

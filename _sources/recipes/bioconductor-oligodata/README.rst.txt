@@ -22,9 +22,9 @@ bioconductor-oligodata
 
    |downloads_bioconductor-oligodata| |docker_bioconductor-oligodata|
 
-   :versions: 1.8.0-2, 1.8.0-0
+   :versions: 1.8.0-3, 1.8.0-2, 1.8.0-0
    
-   :depends bioconductor-oligo: >=1.48.0,<1.49.0
+   :depends bioconductor-oligo: >=1.50.0,<1.51.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

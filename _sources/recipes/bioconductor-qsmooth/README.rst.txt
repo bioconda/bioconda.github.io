@@ -22,10 +22,10 @@ bioconductor-qsmooth
 
    |downloads_bioconductor-qsmooth| |docker_bioconductor-qsmooth|
 
-   :versions: 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
-   :depends bioconductor-sva: >=3.32.0,<3.33.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends bioconductor-sva: >=3.34.0,<3.35.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

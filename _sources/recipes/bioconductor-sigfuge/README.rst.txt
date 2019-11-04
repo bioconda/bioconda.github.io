@@ -23,9 +23,9 @@ bioconductor-sigfuge
 
    |downloads_bioconductor-sigfuge| |docker_bioconductor-sigfuge|
 
-   :versions: 1.22.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0
    
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 
    :depends r-matlab: 

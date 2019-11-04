@@ -22,14 +22,14 @@ bioconductor-mdts
 
    |downloads_bioconductor-mdts| |docker_bioconductor-mdts|
 
-   :versions: 1.4.0-1, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0
    
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-dnacopy: >=1.58.0,<1.59.0
-   :depends bioconductor-genomicalignments: >=1.20.0,<1.21.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-dnacopy: >=1.60.0,<1.61.0
+   :depends bioconductor-genomicalignments: >=1.22.0,<1.23.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-stringr: 
    :requirements:

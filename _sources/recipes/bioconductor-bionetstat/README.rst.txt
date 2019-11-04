@@ -22,10 +22,10 @@ bioconductor-bionetstat
 
    |downloads_bioconductor-bionetstat| |docker_bioconductor-bionetstat|
 
-   :versions: 1.4.0-1, 1.2.2-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.2-0
    
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-pathview: >=1.24.0,<1.25.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-pathview: >=1.26.0,<1.27.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 
    :depends r-hmisc: 

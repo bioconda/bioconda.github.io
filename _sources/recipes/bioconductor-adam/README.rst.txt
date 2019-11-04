@@ -27,7 +27,8 @@ bioconductor-adam
    :depends bioconductor-go.db: >=3.10.0,<3.11.0
    :depends bioconductor-keggrest: >=1.26.0,<1.27.0
    :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: >=0.7.6
    :depends r-dt: >=0.4

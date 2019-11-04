@@ -22,11 +22,11 @@ bioconductor-a4classif
 
    |downloads_bioconductor-a4classif| |docker_bioconductor-a4classif|
 
-   :versions: 1.32.0-1, 1.30.0-0
+   :versions: 1.34.0-0, 1.32.0-1, 1.30.0-0
    
-   :depends bioconductor-a4core: >=1.32.0,<1.33.0
-   :depends bioconductor-a4preproc: >=1.32.0,<1.33.0
-   :depends bioconductor-mlinterfaces: >=1.64.0,<1.65.0
+   :depends bioconductor-a4core: >=1.34.0,<1.35.0
+   :depends bioconductor-a4preproc: >=1.34.0,<1.35.0
+   :depends bioconductor-mlinterfaces: >=1.66.0,<1.67.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-glmnet: 
    :depends r-pamr: 

@@ -22,13 +22,15 @@ bioconductor-scds
 
    |downloads_bioconductor-scds| |docker_bioconductor-scds|
 
-   :versions: 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-singlecellexperiment: >=1.8.0,<1.9.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends r-base: >=3.6,<3.7.0a0
+   :depends r-dplyr: 
    :depends r-matrix: 
+   :depends r-proc: 
    :depends r-xgboost: 
    :requirements:
 

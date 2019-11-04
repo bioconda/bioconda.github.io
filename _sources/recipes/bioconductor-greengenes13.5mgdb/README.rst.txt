@@ -22,9 +22,9 @@ bioconductor-greengenes13.5mgdb
 
    |downloads_bioconductor-greengenes13.5mgdb| |docker_bioconductor-greengenes13.5mgdb|
 
-   :versions: 2.0.0-2, 2.0.0-0
+   :versions: 2.0.0-3, 2.0.0-2, 2.0.0-0
    
-   :depends bioconductor-metagenomefeatures: >=2.4.0,<2.5.0
+   :depends bioconductor-metagenomefeatures: >=2.6.0,<2.7.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

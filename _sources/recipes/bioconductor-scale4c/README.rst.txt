@@ -22,11 +22,11 @@ bioconductor-scale4c
 
    |downloads_bioconductor-scale4c| |docker_bioconductor-scale4c|
 
-   :versions: 1.6.0-1, 1.4.0-0
+   :versions: 1.8.0-0, 1.6.0-1, 1.4.0-0
    
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-smoothie: 
    :requirements:

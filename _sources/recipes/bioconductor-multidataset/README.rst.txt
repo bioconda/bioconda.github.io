@@ -23,15 +23,15 @@ bioconductor-multidataset
 
    |downloads_bioconductor-multidataset| |docker_bioconductor-multidataset|
 
-   :versions: 1.12.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 
    :depends r-ggrepel: 

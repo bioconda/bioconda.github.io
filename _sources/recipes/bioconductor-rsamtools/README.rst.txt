@@ -35,7 +35,8 @@ bioconductor-rsamtools
    :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
    :depends bioconductor-xvector: >=0.26.0,<0.27.0
    :depends bioconductor-zlibbioc: >=1.32.0,<1.33.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-bitops: 
    :requirements:

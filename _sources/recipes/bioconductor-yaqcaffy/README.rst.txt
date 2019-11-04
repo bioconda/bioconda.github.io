@@ -23,9 +23,9 @@ bioconductor-yaqcaffy
 
    |downloads_bioconductor-yaqcaffy| |docker_bioconductor-yaqcaffy|
 
-   :versions: 1.44.0-1, 1.42.0-0, 1.40.0-0, 1.38.0-0
+   :versions: 1.46.0-0, 1.44.0-1, 1.42.0-0, 1.40.0-0, 1.38.0-0
    
-   :depends bioconductor-simpleaffy: >=2.60.0,<2.61.0
+   :depends bioconductor-simpleaffy: >=2.62.0,<2.63.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

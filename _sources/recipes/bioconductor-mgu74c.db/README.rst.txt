@@ -22,10 +22,10 @@ bioconductor-mgu74c.db
 
    |downloads_bioconductor-mgu74c.db| |docker_bioconductor-mgu74c.db|
 
-   :versions: 3.2.3-2, 3.2.3-0
+   :versions: 3.2.3-3, 3.2.3-2, 3.2.3-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-org.mm.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-org.mm.eg.db: >=3.10.0,<3.11.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

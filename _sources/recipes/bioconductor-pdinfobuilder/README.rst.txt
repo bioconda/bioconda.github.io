@@ -33,6 +33,7 @@ bioconductor-pdinfobuilder
    :depends bioconductor-oligo: >=1.50.0,<1.51.0
    :depends bioconductor-oligoclasses: >=1.48.0,<1.49.0
    :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dbi: >=0.3.1
    :depends r-rsqlite: >=1.0.0

@@ -28,6 +28,7 @@ bioconductor-tilingarray
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends bioconductor-genefilter: >=1.68.0,<1.69.0
    :depends bioconductor-vsn: >=3.54.0,<3.55.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-pixmap: 
    :depends r-rcolorbrewer: 

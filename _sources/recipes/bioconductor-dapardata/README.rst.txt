@@ -22,9 +22,9 @@ bioconductor-dapardata
 
    |downloads_bioconductor-dapardata| |docker_bioconductor-dapardata|
 
-   :versions: 1.14.0-1, 1.12.1-0
+   :versions: 1.15.9-0, 1.14.0-1, 1.12.1-0
    
-   :depends bioconductor-msnbase: >=2.10.0,<2.11.0
+   :depends bioconductor-msnbase: >=2.12.0,<2.13.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-knitr: 

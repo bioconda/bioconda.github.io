@@ -22,14 +22,14 @@ bioconductor-curatedtcgadata
 
    |downloads_bioconductor-curatedtcgadata| |docker_bioconductor-curatedtcgadata|
 
-   :versions: 1.6.0-1, 1.4.0-0
+   :versions: 1.7.3-0, 1.6.0-1, 1.4.0-0
    
-   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
-   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
-   :depends bioconductor-hdf5array: >=1.12.0,<1.13.0
-   :depends bioconductor-multiassayexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
+   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
+   :depends bioconductor-hdf5array: >=1.14.0,<1.15.0
+   :depends bioconductor-multiassayexperiment: >=1.12.0,<1.13.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

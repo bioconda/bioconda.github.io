@@ -23,11 +23,11 @@ bioconductor-classifyr
 
    |downloads_bioconductor-classifyr| |docker_bioconductor-classifyr|
 
-   :versions: 2.4.4-0, 2.2.6-0, 2.2.4-0, 2.0.10-0, 1.12.2-0
+   :versions: 2.6.0-0, 2.4.4-0, 2.2.6-0, 2.2.4-0, 2.0.10-0, 1.12.2-0
    
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-multiassayexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-multiassayexperiment: >=1.12.0,<1.13.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-locfit: 
    :depends r-plyr: 

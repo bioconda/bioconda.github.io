@@ -22,11 +22,11 @@ bioconductor-gghumanmethcancerpanelv1.db
 
    |downloads_bioconductor-gghumanmethcancerpanelv1.db| |docker_bioconductor-gghumanmethcancerpanelv1.db|
 
-   :versions: 1.4.1-2, 1.4.1-0
+   :versions: 1.4.1-3, 1.4.1-2, 1.4.1-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-annotationforge: >=1.26.0,<1.27.0
-   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-annotationforge: >=1.28.0,<1.29.0
+   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

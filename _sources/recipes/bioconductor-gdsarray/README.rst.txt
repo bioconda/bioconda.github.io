@@ -22,14 +22,14 @@ bioconductor-gdsarray
 
    |downloads_bioconductor-gdsarray| |docker_bioconductor-gdsarray|
 
-   :versions: 1.4.2-0, 1.2.0-1, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.2-0, 1.2.0-1, 1.2.0-0
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-delayedarray: >=0.10.0,<0.11.0
-   :depends bioconductor-gdsfmt: >=1.20.0,<1.21.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-seqarray: >=1.24.0,<1.25.0
-   :depends bioconductor-snprelate: >=1.18.0,<1.19.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-delayedarray: >=0.12.0,<0.13.0
+   :depends bioconductor-gdsfmt: >=1.22.0,<1.23.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-seqarray: >=1.26.0,<1.27.0
+   :depends bioconductor-snprelate: >=1.20.0,<1.21.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

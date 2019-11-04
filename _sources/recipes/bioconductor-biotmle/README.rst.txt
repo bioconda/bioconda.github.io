@@ -22,13 +22,13 @@ bioconductor-biotmle
 
    |downloads_bioconductor-biotmle| |docker_bioconductor-biotmle|
 
-   :versions: 1.8.0-1, 1.6.0-0
+   :versions: 1.10.0-0, 1.8.0-1, 1.6.0-0
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends r-assertthat: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dofuture: 
@@ -38,7 +38,7 @@ bioconductor-biotmle
    :depends r-ggsci: 
    :depends r-superheat: 
    :depends r-tibble: 
-   :depends r-tmle: 
+   :depends r-tmle: >=1.4.0.1
    :requirements:
 
    .. rubric:: Installation

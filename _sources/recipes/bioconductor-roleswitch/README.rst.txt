@@ -23,12 +23,12 @@ bioconductor-roleswitch
 
    |downloads_bioconductor-roleswitch| |docker_bioconductor-roleswitch|
 
-   :versions: 1.22.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biomart: >=2.40.0,<2.41.0
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-microrna: >=1.42.0,<1.43.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biomart: >=2.42.0,<2.43.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-microrna: >=1.44.0,<1.45.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dbi: 
    :depends r-plotrix: 

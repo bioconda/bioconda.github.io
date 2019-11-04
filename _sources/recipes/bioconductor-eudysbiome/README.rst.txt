@@ -23,10 +23,10 @@ bioconductor-eudysbiome
 
    |downloads_bioconductor-eudysbiome| |docker_bioconductor-eudysbiome|
 
-   :versions: 1.14.0-1, 1.12.0-1, 1.12.0-0, 1.10.0-0, 1.8.0-0
+   :versions: 1.16.0-0, 1.14.0-1, 1.12.0-1, 1.12.0-0, 1.10.0-0, 1.8.0-0
    
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-plyr: 
    :depends r-r.utils: 

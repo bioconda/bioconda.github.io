@@ -30,6 +30,7 @@ bioconductor-grohmm
    :depends bioconductor-iranges: >=2.20.0,<2.21.0
    :depends bioconductor-rtracklayer: >=1.46.0,<1.47.0
    :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-mass: 
    :requirements:

@@ -22,13 +22,14 @@ pasa
 
    |downloads_pasa| |docker_pasa|
 
-   :versions: 2.3.3-1, 2.3.3-0
+   :versions: 2.3.3-2, 2.3.3-1, 2.3.3-0
    
    :depends blat: 
    :depends cdbtools: 
    :depends fasta3: 
-   :depends gmap: 
-   :depends libgcc: 
+   :depends gmap: 2017.11.15
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends lighttpd: 
    :depends perl: 
    :depends perl-cgi: 
@@ -37,6 +38,7 @@ pasa
    :depends perl-uri: 
    :depends r-base: 
    :depends samtools: 
+   :depends slclust: 
    :depends transdecoder: >=5.2.0
    :requirements:
 

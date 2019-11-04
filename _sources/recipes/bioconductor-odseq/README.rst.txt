@@ -22,10 +22,10 @@ bioconductor-odseq
 
    |downloads_bioconductor-odseq| |docker_bioconductor-odseq|
 
-   :versions: 1.12.0-1, 1.10.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.10.0-0
    
-   :depends bioconductor-kebabs: >=1.18.0,<1.19.0
-   :depends bioconductor-msa: >=1.16.0,<1.17.0
+   :depends bioconductor-kebabs: >=1.20.0,<1.21.0
+   :depends bioconductor-msa: >=1.18.0,<1.19.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-mclust: >=5.1
    :requirements:

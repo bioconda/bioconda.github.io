@@ -22,11 +22,11 @@ bioconductor-fletcher2013b
 
    |downloads_bioconductor-fletcher2013b| |docker_bioconductor-fletcher2013b|
 
-   :versions: 1.20.0-1, 1.18.0-0
+   :versions: 1.21.0-0, 1.20.0-1, 1.18.0-0
    
-   :depends bioconductor-fletcher2013a: >=1.20.0,<1.21.0
-   :depends bioconductor-reder: >=1.32.0,<1.33.0
-   :depends bioconductor-rtn: >=2.8.0,<2.9.0
+   :depends bioconductor-fletcher2013a: >=1.21.0,<1.22.0
+   :depends bioconductor-reder: >=1.34.0,<1.35.0
+   :depends bioconductor-rtn: >=2.10.0,<2.11.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-igraph: 
