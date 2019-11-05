@@ -22,26 +22,26 @@ bioconductor-icetea
 
    |downloads_bioconductor-icetea| |docker_bioconductor-icetea|
 
-   :versions: 1.2.0-1, 1.0.0-0
+   :versions: 1.4.0-0, 1.2.0-1, 1.0.0-0
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-csaw: >=1.18.0,<1.19.0
-   :depends bioconductor-deseq2: >=1.24.0,<1.25.0
-   :depends bioconductor-edger: >=3.26.0,<3.27.0
-   :depends bioconductor-genomicalignments: >=1.20.0,<1.21.0
-   :depends bioconductor-genomicfeatures: >=1.36.0,<1.37.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
-   :depends bioconductor-rtracklayer: >=1.44.0,<1.45.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-shortread: >=1.42.0,<1.43.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-csaw: >=1.20.0,<1.21.0
+   :depends bioconductor-deseq2: >=1.26.0,<1.27.0
+   :depends bioconductor-edger: >=3.28.0,<3.29.0
+   :depends bioconductor-genomicalignments: >=1.22.0,<1.23.0
+   :depends bioconductor-genomicfeatures: >=1.38.0,<1.39.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
+   :depends bioconductor-rtracklayer: >=1.46.0,<1.47.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-shortread: >=1.44.0,<1.45.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene: >=3.4.0,<3.5.0
-   :depends bioconductor-variantannotation: >=1.30.0,<1.31.0
+   :depends bioconductor-variantannotation: >=1.32.0,<1.33.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 
    :requirements:

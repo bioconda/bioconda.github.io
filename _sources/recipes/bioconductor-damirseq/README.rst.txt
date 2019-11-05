@@ -22,14 +22,14 @@ bioconductor-damirseq
 
    |downloads_bioconductor-damirseq| |docker_bioconductor-damirseq|
 
-   :versions: 1.8.0-1, 1.6.2-0
+   :versions: 1.10.0-0, 1.8.0-1, 1.6.2-0
    
-   :depends bioconductor-deseq2: >=1.24.0,<1.25.0
-   :depends bioconductor-edaseq: >=2.18.0,<2.19.0
-   :depends bioconductor-edger: >=3.26.0,<3.27.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
-   :depends bioconductor-sva: >=3.32.0,<3.33.0
+   :depends bioconductor-deseq2: >=1.26.0,<1.27.0
+   :depends bioconductor-edaseq: >=2.20.0,<2.21.0
+   :depends bioconductor-edger: >=3.28.0,<3.29.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends bioconductor-sva: >=3.34.0,<3.35.0
    :depends r-arm: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-caret: 

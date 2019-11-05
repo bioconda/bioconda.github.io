@@ -22,13 +22,13 @@ bioconductor-dep
 
    |downloads_bioconductor-dep| |docker_bioconductor-dep|
 
-   :versions: 1.6.0-1, 1.4.0-0
+   :versions: 1.8.0-0, 1.6.0-1, 1.4.0-0
    
-   :depends bioconductor-complexheatmap: >=2.0.0,<2.1.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-msnbase: >=2.10.0,<2.11.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
-   :depends bioconductor-vsn: >=3.52.0,<3.53.0
+   :depends bioconductor-complexheatmap: >=2.2.0,<2.3.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-msnbase: >=2.12.0,<2.13.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends bioconductor-vsn: >=3.54.0,<3.55.0
    :depends r-assertthat: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-circlize: 

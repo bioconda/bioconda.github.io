@@ -28,6 +28,7 @@ bioconductor-dss
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends bioconductor-bsseq: >=1.22.0,<1.23.0
    :depends bioconductor-delayedarray: >=0.12.0,<0.13.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

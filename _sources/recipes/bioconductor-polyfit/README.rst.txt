@@ -23,9 +23,9 @@ bioconductor-polyfit
 
    |downloads_bioconductor-polyfit| |docker_bioconductor-polyfit|
 
-   :versions: 1.18.0-1, 1.16.1-0, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions: 1.20.0-0, 1.18.0-1, 1.16.1-0, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
    
-   :depends bioconductor-deseq: >=1.36.0,<1.37.0
+   :depends bioconductor-deseq: >=1.38.0,<1.39.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

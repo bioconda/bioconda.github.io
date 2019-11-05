@@ -22,15 +22,15 @@ bioconductor-powerexplorer
 
    |downloads_bioconductor-powerexplorer| |docker_bioconductor-powerexplorer|
 
-   :versions: 1.4.0-1, 1.2.2-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.2-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-deseq2: >=1.24.0,<1.25.0
-   :depends bioconductor-rots: >=1.12.0,<1.13.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
-   :depends bioconductor-vsn: >=3.52.0,<3.53.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-deseq2: >=1.26.0,<1.27.0
+   :depends bioconductor-rots: >=1.14.0,<1.15.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends bioconductor-vsn: >=3.54.0,<3.55.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-ggplot2: 

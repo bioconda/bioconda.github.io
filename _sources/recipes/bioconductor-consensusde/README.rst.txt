@@ -22,28 +22,28 @@ bioconductor-consensusde
 
    |downloads_bioconductor-consensusde| |docker_bioconductor-consensusde|
 
-   :versions: 1.2.1-0, 1.0.0-0
+   :versions: 1.4.0-0, 1.2.1-0, 1.0.0-0
    
-   :depends bioconductor-airway: >=1.4.0,<1.5.0
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-deseq2: >=1.24.0,<1.25.0
-   :depends bioconductor-edaseq: >=2.18.0,<2.19.0
-   :depends bioconductor-edger: >=3.26.0,<3.27.0
+   :depends bioconductor-airway: >=1.5.0,<1.6.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-deseq2: >=1.26.0,<1.27.0
+   :depends bioconductor-edaseq: >=2.20.0,<2.21.0
+   :depends bioconductor-edger: >=3.28.0,<3.29.0
    :depends bioconductor-ensdb.hsapiens.v86: >=2.99.0,<2.100.0
-   :depends bioconductor-ensembldb: >=2.8.0,<2.9.0
-   :depends bioconductor-genomicalignments: >=1.20.0,<1.21.0
-   :depends bioconductor-genomicfeatures: >=1.36.0,<1.37.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
-   :depends bioconductor-pcamethods: >=1.76.0,<1.77.0
-   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
-   :depends bioconductor-ruvseq: >=1.18.0,<1.19.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-ensembldb: >=2.10.0,<2.11.0
+   :depends bioconductor-genomicalignments: >=1.22.0,<1.23.0
+   :depends bioconductor-genomicfeatures: >=1.38.0,<1.39.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
+   :depends bioconductor-pcamethods: >=1.78.0,<1.79.0
+   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
+   :depends bioconductor-ruvseq: >=1.20.0,<1.21.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene: >=3.2.0,<3.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 

@@ -29,6 +29,7 @@ bioconductor-adacgh2
    :depends bioconductor-glad: >=2.50.0,<2.51.0
    :depends bioconductor-snapcgh: >=1.56.0,<1.57.0
    :depends bioconductor-tilingarray: >=1.64.0,<1.65.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-bit: 
    :depends r-cluster: 

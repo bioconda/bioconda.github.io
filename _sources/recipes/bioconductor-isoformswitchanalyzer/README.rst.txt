@@ -37,6 +37,7 @@ bioconductor-isoformswitchanalyzer
    :depends bioconductor-rtracklayer: >=1.46.0,<1.47.0
    :depends bioconductor-tximport: >=1.14.0,<1.15.0
    :depends bioconductor-xvector: >=0.26.0,<0.27.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dbi: 
    :depends r-dplyr: 

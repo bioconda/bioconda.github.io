@@ -22,12 +22,12 @@ bioconductor-hd2013sgi
 
    |downloads_bioconductor-hd2013sgi| |docker_bioconductor-hd2013sgi|
 
-   :versions: 1.24.0-1, 1.22.0-0
+   :versions: 1.25.0-0, 1.24.0-1, 1.22.0-0
    
-   :depends bioconductor-ebimage: >=4.26.0,<4.27.0
-   :depends bioconductor-geneplotter: >=1.62.0,<1.63.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-splots: >=1.50.0,<1.51.0
+   :depends bioconductor-ebimage: >=4.28.0,<4.29.0
+   :depends bioconductor-geneplotter: >=1.64.0,<1.65.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-splots: >=1.52.0,<1.53.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-gplots: 

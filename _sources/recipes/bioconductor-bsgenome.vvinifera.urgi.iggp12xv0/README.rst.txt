@@ -22,9 +22,9 @@ bioconductor-bsgenome.vvinifera.urgi.iggp12xv0
 
    |downloads_bioconductor-bsgenome.vvinifera.urgi.iggp12xv0| |docker_bioconductor-bsgenome.vvinifera.urgi.iggp12xv0|
 
-   :versions: 0.1-2, 0.1-0
+   :versions: 0.1-3, 0.1-2, 0.1-0
    
-   :depends bioconductor-bsgenome: >=1.52.0,<1.53.0
+   :depends bioconductor-bsgenome: >=1.54.0,<1.55.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

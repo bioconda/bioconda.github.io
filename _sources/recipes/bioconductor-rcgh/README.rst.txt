@@ -23,21 +23,21 @@ bioconductor-rcgh
 
    |downloads_bioconductor-rcgh| |docker_bioconductor-rcgh|
 
-   :versions: 1.14.0-1, 1.12.0-0, 1.10.0-0, 1.8.1-0
+   :versions: 1.16.0-0, 1.14.0-1, 1.12.0-0, 1.10.0-0, 1.8.1-0
    
-   :depends bioconductor-acgh: >=1.62.0,<1.63.0
-   :depends bioconductor-affy: >=1.62.0,<1.63.0
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-dnacopy: >=1.58.0,<1.59.0
-   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
-   :depends bioconductor-genomicfeatures: >=1.36.0,<1.37.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-acgh: >=1.64.0,<1.65.0
+   :depends bioconductor-affy: >=1.64.0,<1.65.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-dnacopy: >=1.60.0,<1.61.0
+   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
+   :depends bioconductor-genomicfeatures: >=1.38.0,<1.39.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
    :depends bioconductor-txdb.hsapiens.ucsc.hg18.knowngene: >=3.2.0,<3.3.0
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: >=3.2.0,<3.3.0
-   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: >=3.4.0,<3.5.0
+   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: >=3.10.0,<3.11.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 
    :depends r-lattice: 

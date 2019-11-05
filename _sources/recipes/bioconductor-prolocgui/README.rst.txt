@@ -23,11 +23,11 @@ bioconductor-prolocgui
 
    |downloads_bioconductor-prolocgui| |docker_bioconductor-prolocgui|
 
-   :versions: 1.18.0-1, 1.16.0-0, 1.12.0-0
+   :versions: 1.20.0-0, 1.18.0-1, 1.16.0-0, 1.12.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-msnbase: >=2.10.0,<2.11.0
-   :depends bioconductor-proloc: >=1.24.0,<1.25.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-msnbase: >=2.12.0,<2.13.0
+   :depends bioconductor-proloc: >=1.26.0,<1.27.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: 
    :depends r-dt: >=0.1.40

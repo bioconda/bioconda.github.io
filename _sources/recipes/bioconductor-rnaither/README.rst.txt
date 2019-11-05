@@ -23,15 +23,15 @@ bioconductor-rnaither
 
    |downloads_bioconductor-rnaither| |docker_bioconductor-rnaither|
 
-   :versions: 2.32.0-1, 2.30.0-0, 2.28.0-0, 2.24.0-0
+   :versions: 2.34.0-0, 2.32.0-1, 2.30.0-0, 2.28.0-0, 2.24.0-0
    
-   :depends bioconductor-biomart: >=2.40.0,<2.41.0
-   :depends bioconductor-geneplotter: >=1.62.0,<1.63.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-prada: >=1.60.0,<1.61.0
-   :depends bioconductor-rankprod: >=3.10.0,<3.11.0
-   :depends bioconductor-splots: >=1.50.0,<1.51.0
-   :depends bioconductor-topgo: >=2.36.0,<2.37.0
+   :depends bioconductor-biomart: >=2.42.0,<2.43.0
+   :depends bioconductor-geneplotter: >=1.64.0,<1.65.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-prada: >=1.62.0,<1.63.0
+   :depends bioconductor-rankprod: >=3.12.0,<3.13.0
+   :depends bioconductor-splots: >=1.52.0,<1.53.0
+   :depends bioconductor-topgo: >=2.37.0,<2.38.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-car: 
    :requirements:

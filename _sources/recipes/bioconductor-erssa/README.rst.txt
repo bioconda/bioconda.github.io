@@ -22,11 +22,11 @@ bioconductor-erssa
 
    |downloads_bioconductor-erssa| |docker_bioconductor-erssa|
 
-   :versions: 1.2.0-1, 1.0.0-0
+   :versions: 1.4.0-0, 1.2.0-1, 1.0.0-0
    
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-deseq2: >=1.24.0,<1.25.0
-   :depends bioconductor-edger: >=3.26.0,<3.27.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-deseq2: >=1.26.0,<1.27.0
+   :depends bioconductor-edger: >=3.28.0,<3.29.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: >=3.0.0
    :depends r-plyr: >=1.8.4

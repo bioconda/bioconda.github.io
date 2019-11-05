@@ -23,17 +23,17 @@ bioconductor-gostats
 
    |downloads_bioconductor-gostats| |docker_bioconductor-gostats|
 
-   :versions: 2.50.0-1, 2.48.0-0, 2.46.0-0, 2.44.0-0, 2.42.0-0, 2.38.1-1, 2.38.1-0, 2.36.0-0
+   :versions: 2.52.0-0, 2.50.0-1, 2.48.0-0, 2.46.0-0, 2.44.0-0, 2.42.0-0, 2.38.1-1, 2.38.1-0, 2.36.0-0
    
-   :depends bioconductor-annotate: >=1.62.0,<1.63.0
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-annotationforge: >=1.26.0,<1.27.0
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-category: >=2.50.0,<2.51.0
-   :depends bioconductor-go.db: >=3.8.0,<3.9.0
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
-   :depends bioconductor-rbgl: >=1.60.0,<1.61.0
-   :depends bioconductor-rgraphviz: >=2.28.0,<2.29.0
+   :depends bioconductor-annotate: >=1.64.0,<1.65.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-annotationforge: >=1.28.0,<1.29.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-category: >=2.52.0,<2.53.0
+   :depends bioconductor-go.db: >=3.10.0,<3.11.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
+   :depends bioconductor-rbgl: >=1.62.0,<1.63.0
+   :depends bioconductor-rgraphviz: >=2.30.0,<2.31.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

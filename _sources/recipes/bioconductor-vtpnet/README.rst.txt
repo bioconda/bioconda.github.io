@@ -22,11 +22,11 @@ bioconductor-vtpnet
 
    |downloads_bioconductor-vtpnet| |docker_bioconductor-vtpnet|
 
-   :versions: 0.24.0-1, 0.22.0-0
+   :versions: 0.26.0-0, 0.24.0-1, 0.22.0-0
    
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
-   :depends bioconductor-gwascat: >=2.16.0,<2.17.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
+   :depends bioconductor-gwascat: >=2.18.0,<2.19.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-doparallel: 
    :depends r-foreach: 

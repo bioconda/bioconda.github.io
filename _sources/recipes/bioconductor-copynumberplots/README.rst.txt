@@ -22,17 +22,18 @@ bioconductor-copynumberplots
 
    |downloads_bioconductor-copynumberplots| |docker_bioconductor-copynumberplots|
 
-   :versions: 1.0.1-0
+   :versions: 1.2.0-0, 1.0.1-0
    
-   :depends bioconductor-cn.mops: >=1.30.0,<1.31.0
-   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-karyoploter: >=1.10.0,<1.11.0
-   :depends bioconductor-regioner: >=1.16.0,<1.17.0
-   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
-   :depends bioconductor-variantannotation: >=1.30.0,<1.31.0
+   :depends bioconductor-cn.mops: >=1.32.0,<1.33.0
+   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-karyoploter: >=1.12.0,<1.13.0
+   :depends bioconductor-regioner: >=1.18.0,<1.19.0
+   :depends bioconductor-rhdf5: >=2.30.0,<2.31.0
+   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends bioconductor-variantannotation: >=1.32.0,<1.33.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

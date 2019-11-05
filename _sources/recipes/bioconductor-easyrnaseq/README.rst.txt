@@ -23,25 +23,25 @@ bioconductor-easyrnaseq
 
    |downloads_bioconductor-easyrnaseq| |docker_bioconductor-easyrnaseq|
 
-   :versions: 2.20.0-1, 2.18.2-0, 2.16.0-0, 2.14.0-0
+   :versions: 2.22.0-0, 2.20.0-1, 2.18.2-0, 2.16.0-0, 2.14.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biocfilecache: >=1.8.0,<1.9.0
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-biomart: >=2.40.0,<2.41.0
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-deseq: >=1.36.0,<1.37.0
-   :depends bioconductor-edger: >=3.26.0,<3.27.0
-   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
-   :depends bioconductor-genomeintervals: >=1.40.0,<1.41.0
-   :depends bioconductor-genomicalignments: >=1.20.0,<1.21.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-shortread: >=1.42.0,<1.43.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biocfilecache: >=1.10.0,<1.11.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-biomart: >=2.42.0,<2.43.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-deseq: >=1.38.0,<1.39.0
+   :depends bioconductor-edger: >=3.28.0,<3.29.0
+   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
+   :depends bioconductor-genomeintervals: >=1.42.0,<1.43.0
+   :depends bioconductor-genomicalignments: >=1.22.0,<1.23.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-shortread: >=1.44.0,<1.45.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-locfit: 
    :depends r-lsd: >=4.0

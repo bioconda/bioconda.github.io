@@ -22,10 +22,10 @@ bioconductor-tnbc.cms
 
    |downloads_bioconductor-tnbc.cms| |docker_bioconductor-tnbc.cms|
 
-   :versions: 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-gsva: >=1.32.0,<1.33.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-gsva: >=1.34.0,<1.35.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-e1071: 
    :depends r-forestplot: 

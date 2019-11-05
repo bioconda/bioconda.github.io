@@ -39,6 +39,7 @@ bioconductor-tfbstools
    :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
    :depends bioconductor-seqlogo: >=1.52.0,<1.53.0
    :depends bioconductor-xvector: >=0.26.0,<0.27.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-catools: >=1.17.1
    :depends r-dbi: >=0.6

@@ -22,9 +22,9 @@ bioconductor-bsgenome.sscrofa.ucsc.susscr3
 
    |downloads_bioconductor-bsgenome.sscrofa.ucsc.susscr3| |docker_bioconductor-bsgenome.sscrofa.ucsc.susscr3|
 
-   :versions: 1.4.0-3, 1.4.0-0
+   :versions: 1.4.0-4, 1.4.0-3, 1.4.0-0
    
-   :depends bioconductor-bsgenome: >=1.52.0,<1.53.0
+   :depends bioconductor-bsgenome: >=1.54.0,<1.55.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

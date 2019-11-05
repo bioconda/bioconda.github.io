@@ -22,35 +22,31 @@ bioconductor-enrichmentbrowser
 
    |downloads_bioconductor-enrichmentbrowser| |docker_bioconductor-enrichmentbrowser|
 
-   :versions: 2.14.3-0, 2.12.0-0, 2.10.11-0
+   :versions: 2.16.0-0, 2.14.3-0, 2.12.0-0, 2.10.11-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-biocfilecache: >=1.8.0,<1.9.0
-   :depends bioconductor-biocgraph: >=1.46.0,<1.47.0
-   :depends bioconductor-complexheatmap: >=2.0.0,<2.1.0
-   :depends bioconductor-deseq2: >=1.24.0,<1.25.0
-   :depends bioconductor-edaseq: >=2.18.0,<2.19.0
-   :depends bioconductor-edger: >=3.26.0,<3.27.0
-   :depends bioconductor-geneplotter: >=1.62.0,<1.63.0
-   :depends bioconductor-go.db: >=3.8.0,<3.9.0
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
-   :depends bioconductor-graphite: >=1.30.0,<1.31.0
-   :depends bioconductor-gseabase: >=1.46.0,<1.47.0
-   :depends bioconductor-kegggraph: >=1.44.0,<1.45.0
-   :depends bioconductor-keggrest: >=1.24.0,<1.25.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-pathview: >=1.24.0,<1.25.0
-   :depends bioconductor-reportingtools: >=2.24.0,<2.25.0
-   :depends bioconductor-rgraphviz: >=2.28.0,<2.29.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-safe: >=3.24.0,<3.25.0
-   :depends bioconductor-spia: >=2.36.0,<2.37.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
-   :depends bioconductor-topgo: >=2.36.0,<2.37.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-biocfilecache: >=1.10.0,<1.11.0
+   :depends bioconductor-biocgraph: >=1.48.0,<1.49.0
+   :depends bioconductor-complexheatmap: >=2.2.0,<2.3.0
+   :depends bioconductor-edger: >=3.28.0,<3.29.0
+   :depends bioconductor-geneplotter: >=1.64.0,<1.65.0
+   :depends bioconductor-go.db: >=3.10.0,<3.11.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
+   :depends bioconductor-graphite: >=1.32.0,<1.33.0
+   :depends bioconductor-gseabase: >=1.48.0,<1.49.0
+   :depends bioconductor-kegggraph: >=1.46.0,<1.47.0
+   :depends bioconductor-keggrest: >=1.26.0,<1.27.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-pathview: >=1.26.0,<1.27.0
+   :depends bioconductor-rgraphviz: >=2.30.0,<2.31.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-safe: >=3.26.0,<3.27.0
+   :depends bioconductor-spia: >=2.38.0,<2.39.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends bioconductor-topgo: >=2.37.0,<2.38.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-biocmanager: 
    :depends r-hwriter: 
-   :depends r-mass: 
    :depends r-rappdirs: 
    :requirements:
 

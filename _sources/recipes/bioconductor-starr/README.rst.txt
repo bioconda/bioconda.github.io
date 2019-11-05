@@ -29,6 +29,7 @@ bioconductor-starr
    :depends bioconductor-affy: >=1.64.0,<1.65.0
    :depends bioconductor-ringo: >=1.50.0,<1.51.0
    :depends bioconductor-zlibbioc: >=1.32.0,<1.33.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-mass: 
    :depends r-pspline: 

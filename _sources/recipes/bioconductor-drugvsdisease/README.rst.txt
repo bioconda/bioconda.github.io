@@ -23,21 +23,21 @@ bioconductor-drugvsdisease
 
    |downloads_bioconductor-drugvsdisease| |docker_bioconductor-drugvsdisease|
 
-   :versions: 2.26.0-1, 2.24.2-0, 2.22.0-0, 2.20.1-0
+   :versions: 2.28.0-0, 2.26.0-1, 2.24.2-0, 2.22.0-0, 2.20.1-0
    
-   :depends bioconductor-affy: >=1.62.0,<1.63.0
-   :depends bioconductor-annotate: >=1.62.0,<1.63.0
-   :depends bioconductor-arrayexpress: >=1.44.0,<1.45.0
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-biomart: >=2.40.0,<2.41.0
-   :depends bioconductor-cmap2data: >=1.20.0,<1.21.0
-   :depends bioconductor-drugvsdiseasedata: >=1.20.0,<1.21.0
-   :depends bioconductor-geoquery: >=2.52.0,<2.53.0
+   :depends bioconductor-affy: >=1.64.0,<1.65.0
+   :depends bioconductor-annotate: >=1.64.0,<1.65.0
+   :depends bioconductor-arrayexpress: >=1.46.0,<1.47.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-biomart: >=2.42.0,<2.43.0
+   :depends bioconductor-cmap2data: >=1.21.0,<1.22.0
+   :depends bioconductor-drugvsdiseasedata: >=1.21.0,<1.22.0
+   :depends bioconductor-geoquery: >=2.54.0,<2.55.0
    :depends bioconductor-hgu133a.db: >=3.2.0,<3.3.0
    :depends bioconductor-hgu133a2.db: >=3.2.0,<3.3.0
    :depends bioconductor-hgu133plus2.db: >=3.2.0,<3.3.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-qvalue: >=2.16.0,<2.17.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-qvalue: >=2.18.0,<2.19.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-runit: 
    :depends r-xtable: 

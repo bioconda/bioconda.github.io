@@ -29,6 +29,7 @@ bioconductor-camera
    :depends bioconductor-graph: >=1.64.0,<1.65.0
    :depends bioconductor-rbgl: >=1.62.0,<1.63.0
    :depends bioconductor-xcms: >=3.8.0,<3.9.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-hmisc: 
    :depends r-igraph: 

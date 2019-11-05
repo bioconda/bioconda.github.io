@@ -22,12 +22,12 @@ bioconductor-omadb
 
    |downloads_bioconductor-omadb| |docker_bioconductor-omadb|
 
-   :versions: 2.0.0-1, 1.2.0-0
+   :versions: 2.2.0-0, 2.0.0-1, 1.2.0-0
    
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-topgo: >=2.36.0,<2.37.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-topgo: >=2.37.0,<2.38.0
    :depends r-ape: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-httr: >=1.2.1

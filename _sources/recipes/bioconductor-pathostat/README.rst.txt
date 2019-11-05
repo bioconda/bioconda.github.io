@@ -23,14 +23,14 @@ bioconductor-pathostat
 
    |downloads_bioconductor-pathostat| |docker_bioconductor-pathostat|
 
-   :versions: 1.10.0-1, 1.8.4-0, 1.6.1-0, 1.4.1-0
+   :versions: 1.12.0-0, 1.10.0-1, 1.8.4-0, 1.6.1-0, 1.4.1-0
    
-   :depends bioconductor-biocstyle: >=2.12.0,<2.13.0
-   :depends bioconductor-complexheatmap: >=2.0.0,<2.1.0
-   :depends bioconductor-deseq2: >=1.24.0,<1.25.0
-   :depends bioconductor-edger: >=3.26.0,<3.27.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-phyloseq: >=1.28.0,<1.29.0
+   :depends bioconductor-biocstyle: >=2.14.0,<2.15.0
+   :depends bioconductor-complexheatmap: >=2.2.0,<2.3.0
+   :depends bioconductor-deseq2: >=1.26.0,<1.27.0
+   :depends bioconductor-edger: >=3.28.0,<3.29.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-phyloseq: >=1.30.0,<1.31.0
    :depends r-ape: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-corpcor: 

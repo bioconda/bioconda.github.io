@@ -23,21 +23,21 @@ bioconductor-compepitools
 
    |downloads_bioconductor-compepitools| |docker_bioconductor-compepitools|
 
-   :versions: 1.18.0-1, 1.16.0-0, 1.14.1-0, 1.12.0-0, 1.10.0-0
+   :versions: 1.20.0-0, 1.18.0-1, 1.16.0-0, 1.14.1-0, 1.12.0-0, 1.10.0-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
-   :depends bioconductor-genomicfeatures: >=1.36.0,<1.37.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-go.db: >=3.8.0,<3.9.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-methylpipe: >=1.18.0,<1.19.0
-   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-topgo: >=2.36.0,<2.37.0
-   :depends bioconductor-xvector: >=0.24.0,<0.25.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
+   :depends bioconductor-genomicfeatures: >=1.38.0,<1.39.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-go.db: >=3.10.0,<3.11.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-methylpipe: >=1.20.0,<1.21.0
+   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-topgo: >=2.37.0,<2.38.0
+   :depends bioconductor-xvector: >=0.26.0,<0.27.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-gplots: 
    :requirements:

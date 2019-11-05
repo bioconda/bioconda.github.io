@@ -23,9 +23,9 @@ bioconductor-msmseda
 
    |downloads_bioconductor-msmseda| |docker_bioconductor-msmseda|
 
-   :versions: 1.22.0-1, 1.20.0-0, 1.16.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-0, 1.16.0-0
    
-   :depends bioconductor-msnbase: >=2.10.0,<2.11.0
+   :depends bioconductor-msnbase: >=2.12.0,<2.13.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-gplots: 
    :depends r-mass: 

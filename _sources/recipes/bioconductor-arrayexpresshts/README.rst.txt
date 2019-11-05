@@ -35,6 +35,7 @@ bioconductor-arrayexpresshts
    :depends bioconductor-rhtslib: >=1.18.0,<1.19.0
    :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
    :depends bioconductor-shortread: >=1.44.0,<1.45.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-bitops: 
    :depends r-hmisc: 

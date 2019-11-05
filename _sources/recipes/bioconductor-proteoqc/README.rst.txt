@@ -22,11 +22,11 @@ bioconductor-proteoqc
 
    |downloads_bioconductor-proteoqc| |docker_bioconductor-proteoqc|
 
-   :versions: 1.20.0-0, 1.18.1-0
+   :versions: 1.21.0-0, 1.20.0-0, 1.18.1-0
    
-   :depends bioconductor-msnbase: >=2.10.0,<2.11.0
-   :depends bioconductor-rpx: >=1.20.0,<1.21.0
-   :depends bioconductor-rtandem: >=1.24.0,<1.25.0
+   :depends bioconductor-msnbase: >=2.12.0,<2.13.0
+   :depends bioconductor-rpx: >=1.22.0,<1.23.0
+   :depends bioconductor-rtandem: >=1.26.0,<1.27.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: 
    :depends r-ggplot2: 

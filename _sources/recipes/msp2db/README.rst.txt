@@ -22,7 +22,7 @@ msp2db
 
    |downloads_msp2db| |docker_msp2db|
 
-   :versions: 0.0.6-0
+   :versions: 0.0.9-0, 0.0.7-0, 0.0.6-0
    
    :depends pubchempy: 
    :depends python: 

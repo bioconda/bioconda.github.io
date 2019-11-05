@@ -29,7 +29,8 @@ bioconductor-clipper
    :depends bioconductor-kegggraph: >=1.46.0,<1.47.0
    :depends bioconductor-qpgraph: >=2.20.0,<2.21.0
    :depends bioconductor-rbgl: >=1.62.0,<1.63.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-corpcor: 
    :depends r-grbase: >=1.6.6

@@ -22,13 +22,13 @@ bioconductor-rdavidwebservice
 
    |downloads_bioconductor-rdavidwebservice| |docker_bioconductor-rdavidwebservice|
 
-   :versions: 1.22.0-1, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-0
    
-   :depends bioconductor-category: >=2.50.0,<2.51.0
-   :depends bioconductor-go.db: >=3.8.0,<3.9.0
-   :depends bioconductor-gostats: >=2.50.0,<2.51.0
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
-   :depends bioconductor-rbgl: >=1.60.0,<1.61.0
+   :depends bioconductor-category: >=2.52.0,<2.53.0
+   :depends bioconductor-go.db: >=3.10.0,<3.11.0
+   :depends bioconductor-gostats: >=2.52.0,<2.53.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
+   :depends bioconductor-rbgl: >=1.62.0,<1.63.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 
    :depends r-rjava: 

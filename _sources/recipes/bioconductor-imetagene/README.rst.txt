@@ -22,9 +22,9 @@ bioconductor-imetagene
 
    |downloads_bioconductor-imetagene| |docker_bioconductor-imetagene|
 
-   :versions: 1.14.0-1, 1.12.0-0
+   :versions: 1.16.0-0, 1.14.0-1, 1.12.0-0
    
-   :depends bioconductor-metagene: >=2.16.0,<2.17.0
+   :depends bioconductor-metagene: >=2.18.0,<2.19.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-d3heatmap: 
    :depends r-ggplot2: 

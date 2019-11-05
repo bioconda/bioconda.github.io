@@ -22,8 +22,9 @@ apollo
 
    |downloads_apollo| |docker_apollo|
 
-   :versions: 3.1-0, 3.0.4-0
+   :versions: 4.0.1-0, 3.1-0, 3.0.4-0
    
+   :depends bcbio-gff: 
    :depends biopython: 
    :depends cachetools: 
    :depends click: >=6.7

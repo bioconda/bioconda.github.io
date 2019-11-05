@@ -23,13 +23,13 @@ bioconductor-chipxpress
 
    |downloads_bioconductor-chipxpress| |docker_bioconductor-chipxpress|
 
-   :versions: 1.28.0-1, 1.26.0-0, 1.24.0-0, 1.22.0-0
+   :versions: 1.30.0-0, 1.28.0-1, 1.26.0-0, 1.24.0-0, 1.22.0-0
    
-   :depends bioconductor-affy: >=1.62.0,<1.63.0
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-chipxpressdata: >=1.22.0,<1.23.0
-   :depends bioconductor-frma: >=1.36.0,<1.37.0
-   :depends bioconductor-geoquery: >=2.52.0,<2.53.0
+   :depends bioconductor-affy: >=1.64.0,<1.65.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-chipxpressdata: >=1.23.0,<1.24.0
+   :depends bioconductor-frma: >=1.38.0,<1.39.0
+   :depends bioconductor-geoquery: >=2.54.0,<2.55.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-biganalytics: 
    :depends r-bigmemory: 

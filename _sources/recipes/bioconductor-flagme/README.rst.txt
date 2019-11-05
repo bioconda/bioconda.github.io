@@ -28,6 +28,7 @@ bioconductor-flagme
    :depends bioconductor-camera: >=1.42.0,<1.43.0
    :depends bioconductor-gcspikelite: >=1.23.0,<1.24.0
    :depends bioconductor-xcms: >=3.8.0,<3.9.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-gplots: 
    :depends r-mass: 

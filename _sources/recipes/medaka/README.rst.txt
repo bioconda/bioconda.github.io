@@ -24,7 +24,7 @@ medaka
 
    |downloads_medaka| |docker_medaka|
 
-   :versions: 0.10.0-0, 0.9.2-0, 0.9.1-0, 0.9.0-0, 0.8.1-1, 0.8.1-0, 0.8.0-0, 0.7.1-1, 0.7.0-1, 0.7.0-0, 0.6.5-0, 0.6.4-0, 0.6.2-0, 0.6.0-0, 0.5.2-0
+   :versions: 0.10.0-1, 0.10.0-0, 0.9.2-0, 0.9.1-0, 0.9.0-0, 0.8.1-1, 0.8.1-0, 0.8.0-0, 0.7.1-1, 0.7.0-1, 0.7.0-0, 0.6.5-0, 0.6.4-0, 0.6.2-0, 0.6.0-0, 0.5.2-0
    
    :depends bcftools: 1.9
    :depends biopython: 
@@ -33,17 +33,16 @@ medaka
    :depends h5py: 2.7.1
    :depends htslib: >=1.9,<1.10.0a0
    :depends intervaltree: >=3.0.0
-   :depends keras: 2.2.4
-   :depends libdeflate: >=1.0,<1.1.0a0
+   :depends libdeflate: >=1.3,<1.4.0a0
    :depends libgcc-ng: >=7.3.0
    :depends mappy: 
    :depends minimap2: 2.17
    :depends numpy: 1.16.1
    :depends parasail-python: 
-   :depends pysam: 
+   :depends pysam: >=0.15.2
    :depends python: >=3.6,<3.7.0a0
    :depends samtools: 1.9
-   :depends tensorflow: >=1.12.2
+   :depends tensorflow: 1.14.0
    :depends whatshap: 0.18
    :depends xz: >=5.2.4,<5.3.0a0
    :depends zlib: >=1.2.11,<1.3.0a0

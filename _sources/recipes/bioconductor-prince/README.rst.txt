@@ -22,10 +22,10 @@ bioconductor-prince
 
    |downloads_bioconductor-prince| |docker_bioconductor-prince|
 
-   :versions: 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-msnbase: >=2.10.0,<2.11.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-msnbase: >=2.12.0,<2.13.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: >=0.7.4
    :depends r-forecast: >=8.2
@@ -40,7 +40,7 @@ bioconductor-prince
    :depends r-robustbase: >=0.92-7
    :depends r-speedglm: >=0.3-2
    :depends r-tester: >=0.1.7
-   :depends r-tidyr: >=0.7.2
+   :depends r-tidyr: >=0.8.99
    :requirements:
 
    .. rubric:: Installation

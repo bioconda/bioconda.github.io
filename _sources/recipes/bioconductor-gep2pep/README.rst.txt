@@ -22,11 +22,11 @@ bioconductor-gep2pep
 
    |downloads_bioconductor-gep2pep| |docker_bioconductor-gep2pep|
 
-   :versions: 1.4.0-1, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-gseabase: >=1.46.0,<1.47.0
-   :depends bioconductor-rhdf5: >=2.28.0,<2.29.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-gseabase: >=1.48.0,<1.49.0
+   :depends bioconductor-rhdf5: >=2.30.0,<2.31.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-digest: 
    :depends r-foreach: 

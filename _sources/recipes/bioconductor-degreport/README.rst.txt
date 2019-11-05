@@ -23,16 +23,16 @@ bioconductor-degreport
 
    |downloads_bioconductor-degreport| |docker_bioconductor-degreport|
 
-   :versions: 1.20.0-1, 1.19.1-0, 1.18.0-0, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.8.2-1, 1.8.2-0, 1.7.2-1
+   :versions: 1.22.0-0, 1.20.0-1, 1.19.1-0, 1.18.0-0, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.8.2-1, 1.8.2-0, 1.7.2-1
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-complexheatmap: >=2.0.0,<2.1.0
-   :depends bioconductor-consensusclusterplus: >=1.48.0,<1.49.0
-   :depends bioconductor-deseq2: >=1.24.0,<1.25.0
-   :depends bioconductor-edger: >=3.26.0,<3.27.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-complexheatmap: >=2.2.0,<2.3.0
+   :depends bioconductor-consensusclusterplus: >=1.50.0,<1.51.0
+   :depends bioconductor-deseq2: >=1.26.0,<1.27.0
+   :depends bioconductor-edger: >=3.28.0,<3.29.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-broom: 
    :depends r-circlize: 

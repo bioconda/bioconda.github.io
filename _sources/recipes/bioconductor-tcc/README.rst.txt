@@ -23,13 +23,13 @@ bioconductor-tcc
 
    |downloads_bioconductor-tcc| |docker_bioconductor-tcc|
 
-   :versions: 1.24.0-1, 1.22.0-0, 1.20.1-0, 1.18.0-0
+   :versions: 1.26.0-0, 1.24.0-1, 1.22.0-0, 1.20.1-0, 1.18.0-0
    
-   :depends bioconductor-bayseq: >=2.18.0,<2.19.0
-   :depends bioconductor-deseq: >=1.36.0,<1.37.0
-   :depends bioconductor-deseq2: >=1.24.0,<1.25.0
-   :depends bioconductor-edger: >=3.26.0,<3.27.0
-   :depends bioconductor-roc: >=1.60.0,<1.61.0
+   :depends bioconductor-bayseq: >=2.20.0,<2.21.0
+   :depends bioconductor-deseq: >=1.38.0,<1.39.0
+   :depends bioconductor-deseq2: >=1.26.0,<1.27.0
+   :depends bioconductor-edger: >=3.28.0,<3.29.0
+   :depends bioconductor-roc: >=1.62.0,<1.63.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

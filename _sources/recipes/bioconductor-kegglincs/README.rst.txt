@@ -23,14 +23,15 @@ bioconductor-kegglincs
 
    |downloads_bioconductor-kegglincs| |docker_bioconductor-kegglincs|
 
-   :versions: 1.10.0-1, 1.8.0-0, 1.6.2-0, 1.4.0-0
+   :versions: 1.12.0-0, 1.10.0-1, 1.8.0-0, 1.6.2-0, 1.4.0-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
    :depends bioconductor-hgu133a.db: >=3.2.0,<3.3.0
-   :depends bioconductor-kegggraph: >=1.44.0,<1.45.0
-   :depends bioconductor-keggrest: >=1.24.0,<1.25.0
-   :depends bioconductor-kodata: >=1.10.0,<1.11.0
-   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-kegggraph: >=1.46.0,<1.47.0
+   :depends bioconductor-keggrest: >=1.26.0,<1.27.0
+   :depends bioconductor-kodata: >=1.11.0,<1.12.0
+   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
+   :depends cytoscape: >=3.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-gtools: 
    :depends r-httr: 

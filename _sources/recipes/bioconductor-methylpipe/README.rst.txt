@@ -36,6 +36,7 @@ bioconductor-methylpipe
    :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
    :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
    :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-gplots: 

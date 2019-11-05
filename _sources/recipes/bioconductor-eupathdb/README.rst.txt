@@ -22,14 +22,14 @@ bioconductor-eupathdb
 
    |downloads_bioconductor-eupathdb| |docker_bioconductor-eupathdb|
 
-   :versions: 1.0.1-2, 1.0.1-0
+   :versions: 1.0.1-3, 1.0.1-2, 1.0.1-0
    
-   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
-   :depends bioconductor-annotationhubdata: >=1.14.0,<1.15.0
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
+   :depends bioconductor-annotationhubdata: >=1.16.0,<1.17.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
    :depends bioconductor-genomeinfodbdata: >=1.2.0,<1.3.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-biocmanager: 

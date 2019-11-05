@@ -26,7 +26,8 @@ bioconductor-mspurity
    :versions: 1.12.0-0, 1.10.0-1, 1.8.1-0, 1.8.0-0, 1.5.4-1, 1.5.4-0, 1.4.0-1, 1.4.0-0, 1.3.9-0
    
    :depends bioconductor-mzr: >=2.20.0,<2.21.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dbi: 
    :depends r-dbplyr: 

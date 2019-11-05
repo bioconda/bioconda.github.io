@@ -34,7 +34,8 @@ bioconductor-outrider
    :depends bioconductor-pcamethods: >=1.78.0,<1.79.0
    :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
    :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-bbmisc: 
    :depends r-data.table: 

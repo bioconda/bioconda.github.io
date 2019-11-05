@@ -22,18 +22,18 @@ bioconductor-tximeta
 
    |downloads_bioconductor-tximeta| |docker_bioconductor-tximeta|
 
-   :versions: 1.2.2-0, 1.0.3-0, 1.0.1-0
+   :versions: 1.4.0-0, 1.2.2-0, 1.0.3-0, 1.0.1-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-biocfilecache: >=1.8.0,<1.9.0
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-ensembldb: >=2.8.0,<2.9.0
-   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
-   :depends bioconductor-genomicfeatures: >=1.36.0,<1.37.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
-   :depends bioconductor-tximport: >=1.12.0,<1.13.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-biocfilecache: >=1.10.0,<1.11.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-ensembldb: >=2.10.0,<2.11.0
+   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
+   :depends bioconductor-genomicfeatures: >=1.38.0,<1.39.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends bioconductor-tximport: >=1.14.0,<1.15.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-jsonlite: 
    :depends r-rappdirs: 

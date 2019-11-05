@@ -22,13 +22,14 @@ bioconductor-genextender
 
    |downloads_bioconductor-genextender| |docker_bioconductor-genextender|
 
-   :versions: 1.11.0-0, 1.10.0-1, 1.8.0-0
+   :versions: 1.12.0-0, 1.11.0-0, 1.10.0-1, 1.8.0-0
    
    :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
    :depends bioconductor-biocstyle: >=2.14.0,<2.15.0
    :depends bioconductor-go.db: >=3.10.0,<3.11.0
    :depends bioconductor-org.rn.eg.db: >=3.10.0,<3.11.0
    :depends bioconductor-rtracklayer: >=1.46.0,<1.47.0
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-dplyr: 

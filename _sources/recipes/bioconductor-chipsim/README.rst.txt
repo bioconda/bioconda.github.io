@@ -23,12 +23,12 @@ bioconductor-chipsim
 
    |downloads_bioconductor-chipsim| |docker_bioconductor-chipsim|
 
-   :versions: 1.38.0-1, 1.36.0-0, 1.34.0-0, 1.32.0-0
+   :versions: 1.40.0-0, 1.38.0-1, 1.36.0-0, 1.34.0-0, 1.32.0-0
    
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-shortread: >=1.42.0,<1.43.0
-   :depends bioconductor-xvector: >=0.24.0,<0.25.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-shortread: >=1.44.0,<1.45.0
+   :depends bioconductor-xvector: >=0.26.0,<0.27.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

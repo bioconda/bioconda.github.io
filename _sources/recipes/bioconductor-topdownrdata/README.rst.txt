@@ -22,9 +22,9 @@ bioconductor-topdownrdata
 
    |downloads_bioconductor-topdownrdata| |docker_bioconductor-topdownrdata|
 
-   :versions: 1.6.0-1, 1.4.0-0
+   :versions: 1.7.0-0, 1.6.0-1, 1.4.0-0
    
-   :depends bioconductor-topdownr: >=1.6.0,<1.7.0
+   :depends bioconductor-topdownr: >=1.8.0,<1.9.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

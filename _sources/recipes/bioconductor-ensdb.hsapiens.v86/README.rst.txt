@@ -22,9 +22,9 @@ bioconductor-ensdb.hsapiens.v86
 
    |downloads_bioconductor-ensdb.hsapiens.v86| |docker_bioconductor-ensdb.hsapiens.v86|
 
-   :versions: 2.99.0-2, 2.99.0-0
+   :versions: 2.99.0-3, 2.99.0-2, 2.99.0-0
    
-   :depends bioconductor-ensembldb: >=2.8.0,<2.9.0
+   :depends bioconductor-ensembldb: >=2.10.0,<2.11.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

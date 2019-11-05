@@ -22,14 +22,15 @@ bioconductor-lipidr
 
    |downloads_bioconductor-lipidr| |docker_bioconductor-lipidr|
 
-   :versions: 1.0.0-1
+   :versions: 2.0.0-0, 1.0.0-1
    
-   :depends bioconductor-fgsea: >=1.10.0,<1.11.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-ropls: >=1.16.0,<1.17.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-fgsea: >=1.12.0,<1.13.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-ropls: >=1.18.0,<1.19.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends r-base: >=3.6,<3.7.0a0
+   :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-forcats: 
    :depends r-ggplot2: 

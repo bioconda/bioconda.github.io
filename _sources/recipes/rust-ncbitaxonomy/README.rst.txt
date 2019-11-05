@@ -9,10 +9,10 @@ rust-ncbitaxonomy
 .. conda:recipe:: rust-ncbitaxonomy
    :replaces_section_title:
 
-   A Rust crate for working with a local copy of the NCBI Taxonomy database\, which provides the taxonomy\_filter\_refseq commmand
+   A Rust crate for working with a local copy of the NCBI Taxonomy database\, which provides utilities for taxonomic filtering.
 
    :homepage: https://github.com/pvanheus/ncbitaxonomy
-   :documentation: https://docs.rs/crate/ncbitaxonomy/0.1.5
+   :documentation: https://docs.rs/crate/ncbitaxonomy/0.2.2
    
    :license: MIT
    :recipe: /`rust-ncbitaxonomy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-ncbitaxonomy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-ncbitaxonomy/meta.yaml>`_
@@ -24,9 +24,9 @@ rust-ncbitaxonomy
 
    |downloads_rust-ncbitaxonomy| |docker_rust-ncbitaxonomy|
 
-   :versions: 0.1.5-0, 0.1.4-0, 0.1.3-0
+   :versions: 0.2.2-1, 0.2.2-0, 0.1.5-0, 0.1.4-0, 0.1.3-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

@@ -22,18 +22,19 @@ bioconductor-atsnp
 
    |downloads_bioconductor-atsnp| |docker_bioconductor-atsnp|
 
-   :versions: 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-biocfilecache: >=1.8.0,<1.9.0
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-bsgenome: >=1.52.0,<1.53.0
-   :depends bioconductor-motifstack: >=1.28.0,<1.29.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-biocfilecache: >=1.10.0,<1.11.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-bsgenome: >=1.54.0,<1.55.0
+   :depends bioconductor-motifstack: >=1.30.0,<1.31.0
+   :depends libcxx: >=4.0.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
+   :depends r-ggplot2: 
    :depends r-rappdirs: 
    :depends r-rcpp: 
+   :depends r-testit: 
    :requirements:
 
    .. rubric:: Installation

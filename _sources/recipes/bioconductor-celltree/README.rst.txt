@@ -22,9 +22,9 @@ bioconductor-celltree
 
    |downloads_bioconductor-celltree| |docker_bioconductor-celltree|
 
-   :versions: 1.14.0-1, 1.12.0-0
+   :versions: 1.16.0-0, 1.14.0-1, 1.12.0-0
    
-   :depends bioconductor-topgo: >=2.36.0,<2.37.0
+   :depends bioconductor-topgo: >=2.37.0,<2.38.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-gplots: 
    :depends r-igraph: 

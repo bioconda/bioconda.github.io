@@ -23,16 +23,16 @@ bioconductor-category
 
    |downloads_bioconductor-category| |docker_bioconductor-category|
 
-   :versions: 2.50.0-1, 2.48.0-0, 2.46.0-0, 2.44.0-0, 2.42.1-0, 2.38.0-1, 2.38.0-0, 2.36.0-0
+   :versions: 2.52.0-0, 2.50.0-1, 2.48.0-0, 2.46.0-0, 2.44.0-0, 2.42.1-0, 2.38.0-1, 2.38.0-0, 2.36.0-0
    
-   :depends bioconductor-annotate: >=1.62.0,<1.63.0
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-genefilter: >=1.66.0,<1.67.0
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
-   :depends bioconductor-gseabase: >=1.46.0,<1.47.0
-   :depends bioconductor-rbgl: >=1.60.0,<1.61.0
+   :depends bioconductor-annotate: >=1.64.0,<1.65.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-genefilter: >=1.68.0,<1.69.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
+   :depends bioconductor-gseabase: >=1.48.0,<1.49.0
+   :depends bioconductor-rbgl: >=1.62.0,<1.63.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dbi: 
    :depends r-matrix: 

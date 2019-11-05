@@ -22,13 +22,13 @@ bioconductor-wiggleplotr
 
    |downloads_bioconductor-wiggleplotr| |docker_bioconductor-wiggleplotr|
 
-   :versions: 1.8.0-1, 1.6.0-0, 1.4.0-0, 1.2.0-0, 1.0.0-0
+   :versions: 1.10.1-0, 1.8.0-1, 1.6.0-0, 1.4.0-0, 1.2.0-0, 1.0.0-0
    
-   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-rtracklayer: >=1.44.0,<1.45.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-rtracklayer: >=1.46.0,<1.47.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
    :depends r-assertthat: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-cowplot: 
