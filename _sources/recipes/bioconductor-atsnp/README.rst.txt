@@ -28,7 +28,8 @@ bioconductor-atsnp
    :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
    :depends bioconductor-bsgenome: >=1.54.0,<1.55.0
    :depends bioconductor-motifstack: >=1.30.0,<1.31.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-ggplot2: 

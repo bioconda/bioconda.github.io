@@ -23,7 +23,7 @@ bioconductor-scran
 
    |downloads_bioconductor-scran| |docker_bioconductor-scran|
 
-   :versions: 1.14.0-0, 1.12.1-0, 1.10.1-0, 1.8.4-0, 1.6.2-0, 1.4.5-0
+   :versions: 1.14.1-0, 1.14.0-0, 1.12.1-0, 1.10.1-0, 1.8.4-0, 1.6.2-0, 1.4.5-0
    
    :depends bioconductor-beachmat: >=2.2.0,<2.3.0
    :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
@@ -38,7 +38,8 @@ bioconductor-scran
    :depends bioconductor-scater: >=1.14.0,<1.15.0
    :depends bioconductor-singlecellexperiment: >=1.8.0,<1.9.0
    :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-bh: 
    :depends r-dqrng: 

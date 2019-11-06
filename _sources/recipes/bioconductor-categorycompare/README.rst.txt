@@ -22,17 +22,18 @@ bioconductor-categorycompare
 
    |downloads_bioconductor-categorycompare| |docker_bioconductor-categorycompare|
 
-   :versions: 1.28.0-1, 1.26.0-0
+   :versions: 1.30.0-0, 1.28.0-1, 1.26.0-0
    
-   :depends bioconductor-annotate: >=1.62.0,<1.63.0
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-category: >=2.50.0,<2.51.0
-   :depends bioconductor-gostats: >=2.50.0,<2.51.0
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
-   :depends bioconductor-gseabase: >=1.46.0,<1.47.0
-   :depends bioconductor-rcy3: >=2.4.0,<2.5.0
+   :depends bioconductor-annotate: >=1.64.0,<1.65.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-category: >=2.52.0,<2.53.0
+   :depends bioconductor-gostats: >=2.52.0,<2.53.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
+   :depends bioconductor-gseabase: >=1.48.0,<1.49.0
+   :depends bioconductor-rcy3: >=2.6.0,<2.7.0
+   :depends cytoscape: >=3.6.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-colorspace: 
    :depends r-hwriter: 

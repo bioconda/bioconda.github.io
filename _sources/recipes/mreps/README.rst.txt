@@ -23,9 +23,9 @@ mreps
 
    |downloads_mreps| |docker_mreps|
 
-   :versions: 0.1-0
+   :versions: 2.6.01-0, 0.1-0
    
-   :depends libgcc: 
+   :depends libgcc-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

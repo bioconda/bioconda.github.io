@@ -23,11 +23,11 @@ bioconductor-metams
 
    |downloads_bioconductor-metams| |docker_bioconductor-metams|
 
-   :versions: 1.20.0-1, 1.18.1-0, 1.14.0-0, 1.12.0-0, 1.8.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.18.1-0, 1.14.0-0, 1.12.0-0, 1.8.0-0
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-camera: >=1.40.0,<1.41.0
-   :depends bioconductor-xcms: >=3.6.0,<3.7.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-camera: >=1.42.0,<1.43.0
+   :depends bioconductor-xcms: >=3.8.0,<3.9.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-matrix: 
    :depends r-robustbase: 

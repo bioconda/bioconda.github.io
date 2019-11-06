@@ -22,10 +22,10 @@ bioconductor-lumimouseidmapping
 
    |downloads_bioconductor-lumimouseidmapping| |docker_bioconductor-lumimouseidmapping|
 
-   :versions: 1.10.0-2, 1.10.0-0
+   :versions: 1.10.0-3, 1.10.0-2, 1.10.0-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-lumi: >=2.36.0,<2.37.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-lumi: >=2.38.0,<2.39.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

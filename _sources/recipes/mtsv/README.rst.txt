@@ -22,7 +22,7 @@ mtsv
 
    |downloads_mtsv| |docker_mtsv|
 
-   :versions: 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-0
+   :versions: 1.0.6-0, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-0
    
    :depends biopython: 
    :depends bwa: 

@@ -28,7 +28,8 @@ bioconductor-mirsponger
    :depends bioconductor-dose: >=3.12.0,<3.13.0
    :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
    :depends bioconductor-reactomepa: >=1.30.0,<1.31.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-corpcor: 
    :depends r-igraph: 

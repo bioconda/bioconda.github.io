@@ -23,20 +23,21 @@ bioconductor-rtcgatoolbox
 
    |downloads_bioconductor-rtcgatoolbox| |docker_bioconductor-rtcgatoolbox|
 
-   :versions: 2.14.0-1, 2.12.1-0, 2.10.0-0, 2.8.0-0, 2.6.0-0
+   :versions: 2.16.0-0, 2.14.0-1, 2.12.1-0, 2.10.0-0, 2.8.0-0, 2.6.0-0
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-delayedarray: >=0.10.0,<0.11.0
-   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-raggedexperiment: >=1.8.0,<1.9.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
-   :depends bioconductor-tcgautils: >=1.4.0,<1.5.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-delayedarray: >=0.12.0,<0.13.0
+   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-raggedexperiment: >=1.10.0,<1.11.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends bioconductor-tcgautils: >=1.6.0,<1.7.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
+   :depends r-httr: 
    :depends r-rcircos: 
    :depends r-rcurl: 
    :depends r-rjsonio: 

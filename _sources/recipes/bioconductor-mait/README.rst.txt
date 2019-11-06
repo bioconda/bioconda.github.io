@@ -26,7 +26,8 @@ bioconductor-mait
    
    :depends bioconductor-camera: >=1.42.0,<1.43.0
    :depends bioconductor-xcms: >=3.8.0,<3.9.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-agricolae: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-caret: 

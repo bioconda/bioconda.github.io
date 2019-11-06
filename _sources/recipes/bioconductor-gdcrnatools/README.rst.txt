@@ -22,18 +22,18 @@ bioconductor-gdcrnatools
 
    |downloads_bioconductor-gdcrnatools| |docker_bioconductor-gdcrnatools|
 
-   :versions: 1.4.0-1, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0
    
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-biomart: >=2.40.0,<2.41.0
-   :depends bioconductor-clusterprofiler: >=3.12.0,<3.13.0
-   :depends bioconductor-deseq2: >=1.24.0,<1.25.0
-   :depends bioconductor-dose: >=3.10.0,<3.11.0
-   :depends bioconductor-edger: >=3.26.0,<3.27.0
-   :depends bioconductor-genomicdatacommons: >=1.8.0,<1.9.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
-   :depends bioconductor-pathview: >=1.24.0,<1.25.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-biomart: >=2.42.0,<2.43.0
+   :depends bioconductor-clusterprofiler: >=3.14.0,<3.15.0
+   :depends bioconductor-deseq2: >=1.26.0,<1.27.0
+   :depends bioconductor-dose: >=3.12.0,<3.13.0
+   :depends bioconductor-edger: >=3.28.0,<3.29.0
+   :depends bioconductor-genomicdatacommons: >=1.10.0,<1.11.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
+   :depends bioconductor-pathview: >=1.26.0,<1.27.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dt: 
    :depends r-ggplot2: 

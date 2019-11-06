@@ -22,19 +22,30 @@ bioconductor-enmix
 
    |downloads_bioconductor-enmix| |docker_bioconductor-enmix|
 
-   :versions: 1.20.3-0, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.3-0, 1.18.0-0
    
-   :depends bioconductor-geneplotter: >=1.62.0,<1.63.0
-   :depends bioconductor-illuminaio: >=0.26.0,<0.27.0
-   :depends bioconductor-impute: >=1.58.0,<1.59.0
-   :depends bioconductor-preprocesscore: >=1.46.0,<1.47.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
-   :depends bioconductor-sva: >=3.32.0,<3.33.0
-   :depends bioconductor-watermelon: >=1.28.0,<1.29.0
+   :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
+   :depends bioconductor-genefilter: >=1.68.0,<1.69.0
+   :depends bioconductor-geneplotter: >=1.64.0,<1.65.0
+   :depends bioconductor-illuminaio: >=0.28.0,<0.29.0
+   :depends bioconductor-impute: >=1.60.0,<1.61.0
+   :depends bioconductor-minfi: >=1.32.0,<1.33.0
+   :depends bioconductor-preprocesscore: >=1.48.0,<1.49.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends bioconductor-sva: >=3.34.0,<3.35.0
+   :depends bioconductor-watermelon: >=1.30.0,<1.31.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-doparallel: 
+   :depends r-dynamictreecut: 
    :depends r-foreach: 
+   :depends r-gplots: 
+   :depends r-irr: 
    :depends r-matrixstats: 
+   :depends r-quadprog: 
+   :depends r-rpmm: 
    :requirements:
 
    .. rubric:: Installation

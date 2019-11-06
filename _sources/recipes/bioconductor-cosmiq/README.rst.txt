@@ -28,7 +28,8 @@ bioconductor-cosmiq
    :depends bioconductor-faahko: >=1.25.0,<1.26.0
    :depends bioconductor-massspecwavelet: >=1.52.0,<1.53.0
    :depends bioconductor-xcms: >=3.8.0,<3.9.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-pracma: 
    :depends r-rcpp: 

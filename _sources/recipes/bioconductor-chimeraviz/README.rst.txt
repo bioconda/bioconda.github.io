@@ -22,24 +22,25 @@ bioconductor-chimeraviz
 
    |downloads_bioconductor-chimeraviz| |docker_bioconductor-chimeraviz|
 
-   :versions: 1.10.0-1, 1.8.0-0, 1.6.2-0, 1.0.4-0
+   :versions: 1.12.0-0, 1.10.0-1, 1.8.0-0, 1.6.2-0, 1.0.4-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-annotationfilter: >=1.8.0,<1.9.0
-   :depends bioconductor-biocstyle: >=2.12.0,<2.13.0
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-ensembldb: >=2.8.0,<2.9.0
-   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
-   :depends bioconductor-genomicalignments: >=1.20.0,<1.21.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
-   :depends bioconductor-gviz: >=1.28.0,<1.29.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
-   :depends bioconductor-org.mm.eg.db: >=3.8.0,<3.9.0
-   :depends bioconductor-rgraphviz: >=2.28.0,<2.29.0
-   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-annotationfilter: >=1.10.0,<1.11.0
+   :depends bioconductor-biocstyle: >=2.14.0,<2.15.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-ensembldb: >=2.10.0,<2.11.0
+   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
+   :depends bioconductor-genomicalignments: >=1.22.0,<1.23.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
+   :depends bioconductor-gviz: >=1.30.0,<1.31.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
+   :depends bioconductor-org.mm.eg.db: >=3.10.0,<3.11.0
+   :depends bioconductor-rgraphviz: >=2.30.0,<2.31.0
+   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bowtie2: 
    :depends r-argumentcheck: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 

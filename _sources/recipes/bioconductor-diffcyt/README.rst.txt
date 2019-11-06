@@ -22,15 +22,15 @@ bioconductor-diffcyt
 
    |downloads_bioconductor-diffcyt| |docker_bioconductor-diffcyt|
 
-   :versions: 1.4.3-0, 1.2.23-1, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.3-0, 1.2.23-1, 1.2.0-0
    
-   :depends bioconductor-complexheatmap: >=2.0.0,<2.1.0
-   :depends bioconductor-edger: >=3.26.0,<3.27.0
-   :depends bioconductor-flowcore: >=1.50.0,<1.51.0
-   :depends bioconductor-flowsom: >=1.16.0,<1.17.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-complexheatmap: >=2.2.0,<2.3.0
+   :depends bioconductor-edger: >=3.28.0,<3.29.0
+   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
+   :depends bioconductor-flowsom: >=1.18.0,<1.19.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-circlize: 
    :depends r-dplyr: 

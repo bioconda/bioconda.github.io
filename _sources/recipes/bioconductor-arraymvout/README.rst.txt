@@ -22,15 +22,15 @@ bioconductor-arraymvout
 
    |downloads_bioconductor-arraymvout| |docker_bioconductor-arraymvout|
 
-   :versions: 1.42.0-1, 1.40.0-0
+   :versions: 1.44.0-0, 1.42.0-1, 1.40.0-0
    
-   :depends bioconductor-affy: >=1.62.0,<1.63.0
-   :depends bioconductor-affycontam: >=1.42.0,<1.43.0
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-lumi: >=2.36.0,<2.37.0
-   :depends bioconductor-mdqc: >=1.46.0,<1.47.0
-   :depends bioconductor-parody: >=1.42.0,<1.43.0
-   :depends bioconductor-simpleaffy: >=2.60.0,<2.61.0
+   :depends bioconductor-affy: >=1.64.0,<1.65.0
+   :depends bioconductor-affycontam: >=1.44.0,<1.45.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-lumi: >=2.38.0,<2.39.0
+   :depends bioconductor-mdqc: >=1.48.0,<1.49.0
+   :depends bioconductor-parody: >=1.44.0,<1.45.0
+   :depends bioconductor-simpleaffy: >=2.62.0,<2.63.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

@@ -22,21 +22,21 @@ bioconductor-meshr
 
    |downloads_bioconductor-meshr| |docker_bioconductor-meshr|
 
-   :versions: 1.20.0-1, 1.18.0-1, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.18.0-1, 1.18.0-0
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-category: >=2.50.0,<2.51.0
-   :depends bioconductor-cummerbund: >=2.26.0,<2.27.0
-   :depends bioconductor-mesh.aca.eg.db: >=1.12.0,<1.13.0
-   :depends bioconductor-mesh.aor.db: >=1.12.0,<1.13.0
-   :depends bioconductor-mesh.bsu.168.eg.db: >=1.12.0,<1.13.0
-   :depends bioconductor-mesh.db: >=1.12.0,<1.13.0
-   :depends bioconductor-mesh.hsa.eg.db: >=1.12.0,<1.13.0
-   :depends bioconductor-mesh.pcr.db: >=1.12.0,<1.13.0
-   :depends bioconductor-mesh.syn.eg.db: >=1.12.0,<1.13.0
-   :depends bioconductor-meshdbi: >=1.20.0,<1.21.0
-   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-category: >=2.52.0,<2.53.0
+   :depends bioconductor-cummerbund: >=2.28.0,<2.29.0
+   :depends bioconductor-mesh.aca.eg.db: >=1.13.0,<1.14.0
+   :depends bioconductor-mesh.aor.db: >=1.13.0,<1.14.0
+   :depends bioconductor-mesh.bsu.168.eg.db: >=1.13.0,<1.14.0
+   :depends bioconductor-mesh.db: >=1.13.0,<1.14.0
+   :depends bioconductor-mesh.hsa.eg.db: >=1.13.0,<1.14.0
+   :depends bioconductor-mesh.pcr.db: >=1.13.0,<1.14.0
+   :depends bioconductor-mesh.syn.eg.db: >=1.13.0,<1.14.0
+   :depends bioconductor-meshdbi: >=1.22.0,<1.23.0
+   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-fdrtool: 
    :depends r-rsqlite: 

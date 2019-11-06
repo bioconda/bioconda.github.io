@@ -22,14 +22,14 @@ bioconductor-scdd
 
    |downloads_bioconductor-scdd| |docker_bioconductor-scdd|
 
-   :versions: 1.8.0-1, 1.6.0-0
+   :versions: 1.10.0-0, 1.8.0-1, 1.6.0-0
    
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-ebseq: >=1.24.0,<1.25.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-scran: >=1.12.0,<1.13.0
-   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-ebseq: >=1.26.0,<1.27.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-scran: >=1.14.0,<1.15.0
+   :depends bioconductor-singlecellexperiment: >=1.8.0,<1.9.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends r-arm: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-fields: 

@@ -22,27 +22,31 @@ bioconductor-pga
 
    |downloads_bioconductor-pga| |docker_bioconductor-pga|
 
-   :versions: 1.14.0-0, 1.12.1-0
+   :versions: 1.16.0-0, 1.14.0-0, 1.12.1-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-biomart: >=2.40.0,<2.41.0
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-customprodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicfeatures: >=1.36.0,<1.37.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
-   :depends bioconductor-rtandem: >=1.24.0,<1.25.0
-   :depends bioconductor-rtracklayer: >=1.44.0,<1.45.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-variantannotation: >=1.30.0,<1.31.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-biomart: >=2.42.0,<2.43.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-customprodb: >=1.26.0,<1.27.0
+   :depends bioconductor-genomicfeatures: >=1.38.0,<1.39.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
+   :depends bioconductor-rtandem: >=1.26.0,<1.27.0
+   :depends bioconductor-rtracklayer: >=1.46.0,<1.47.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-variantannotation: >=1.32.0,<1.33.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
+   :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-nozzle.r1: 
    :depends r-pheatmap: 
+   :depends r-processx: 
    :depends r-rcurl: 
+   :depends r-readr: 
    :depends r-rsqlite: 
+   :depends r-seqinr: 
    :depends r-stringr: 
    :requirements:
 

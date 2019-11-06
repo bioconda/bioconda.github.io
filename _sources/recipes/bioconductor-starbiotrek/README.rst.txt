@@ -23,11 +23,11 @@ bioconductor-starbiotrek
 
    |downloads_bioconductor-starbiotrek| |docker_bioconductor-starbiotrek|
 
-   :versions: 1.10.0-1, 1.8.1-1, 1.8.1-0, 1.6.0-0, 1.4.0-0
+   :versions: 1.12.0-0, 1.10.0-1, 1.8.1-1, 1.8.1-0, 1.6.0-0, 1.4.0-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-graphite: >=1.30.0,<1.31.0
-   :depends bioconductor-spidermir: >=1.14.0,<1.15.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-graphite: >=1.32.0,<1.33.0
+   :depends bioconductor-spidermir: >=1.16.0,<1.17.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-e1071: 
    :depends r-ggplot2: 

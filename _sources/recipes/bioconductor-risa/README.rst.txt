@@ -29,7 +29,8 @@ bioconductor-risa
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends bioconductor-biocviews: >=1.54.0,<1.55.0
    :depends bioconductor-xcms: >=3.8.0,<3.9.0
-   :depends libcxx: >=4.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-rcpp: >=0.9.13
    :requirements:

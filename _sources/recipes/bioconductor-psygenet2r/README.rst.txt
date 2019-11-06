@@ -23,13 +23,13 @@ bioconductor-psygenet2r
 
    |downloads_bioconductor-psygenet2r| |docker_bioconductor-psygenet2r|
 
-   :versions: 1.16.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions: 1.18.0-0, 1.16.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0
    
-   :depends bioconductor-bgeedb: >=2.10.0,<2.11.0
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biomart: >=2.40.0,<2.41.0
-   :depends bioconductor-go.db: >=3.8.0,<3.9.0
-   :depends bioconductor-topgo: >=2.36.0,<2.37.0
+   :depends bioconductor-bgeedb: >=2.12.0,<2.13.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biomart: >=2.42.0,<2.43.0
+   :depends bioconductor-go.db: >=3.10.0,<3.11.0
+   :depends bioconductor-topgo: >=2.37.0,<2.38.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-biocmanager: 
    :depends r-ggplot2: 

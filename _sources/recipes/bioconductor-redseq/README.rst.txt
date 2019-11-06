@@ -22,16 +22,16 @@ bioconductor-redseq
 
    |downloads_bioconductor-redseq| |docker_bioconductor-redseq|
 
-   :versions: 1.30.0-1, 1.28.0-0
+   :versions: 1.32.0-0, 1.30.0-1, 1.28.0-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-bsgenome: >=1.52.0,<1.53.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-bsgenome: >=1.54.0,<1.55.0
    :depends bioconductor-bsgenome.celegans.ucsc.ce2: >=1.4.0,<1.5.0
-   :depends bioconductor-chippeakanno: >=3.18.0,<3.19.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-multtest: >=2.40.0,<2.41.0
+   :depends bioconductor-chippeakanno: >=3.20.0,<3.21.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-multtest: >=2.42.0,<2.43.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

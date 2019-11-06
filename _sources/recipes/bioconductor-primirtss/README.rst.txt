@@ -22,20 +22,20 @@ bioconductor-primirtss
 
    |downloads_bioconductor-primirtss| |docker_bioconductor-primirtss|
 
-   :versions: 1.2.0-1, 1.0.1-0
+   :versions: 1.4.0-1, 1.2.0-1, 1.0.1-0
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: >=1.4.0,<1.5.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-genomicscores: >=1.8.0,<1.9.0
-   :depends bioconductor-gviz: >=1.28.0,<1.29.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-genomicscores: >=1.10.0,<1.11.0
+   :depends bioconductor-gviz: >=1.30.0,<1.31.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
    :depends bioconductor-jaspar2018: >=1.1.0,<1.2.0
    :depends bioconductor-phastcons100way.ucsc.hg38: >=3.7.0,<3.8.0
-   :depends bioconductor-rtracklayer: >=1.44.0,<1.45.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-tfbstools: >=1.22.0,<1.23.0
+   :depends bioconductor-rtracklayer: >=1.46.0,<1.47.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-tfbstools: >=1.24.0,<1.25.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: >=0.7.6
    :depends r-purrr: >=0.2.5

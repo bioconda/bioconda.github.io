@@ -22,19 +22,19 @@ bioconductor-trena
 
    |downloads_bioconductor-trena| |docker_bioconductor-trena|
 
-   :versions: 1.6.1-0, 1.4.2-0
+   :versions: 1.8.0-0, 1.6.1-0, 1.4.2-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-biomart: >=2.40.0,<2.41.0
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-bsgenome: >=1.52.0,<1.53.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-biomart: >=2.42.0,<2.43.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-bsgenome: >=1.54.0,<1.55.0
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: >=1.4.0,<1.5.0
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: >=1.4.0,<1.5.0
    :depends bioconductor-bsgenome.mmusculus.ucsc.mm10: >=1.4.0,<1.5.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-motifdb: >=1.26.0,<1.27.0
-   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-motifdb: >=1.28.0,<1.29.0
+   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
    :depends bioconductor-snplocs.hsapiens.dbsnp150.grch38: >=0.99.0,<0.100.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dbi: 
@@ -46,6 +46,7 @@ bioconductor-trena
    :depends r-rpostgresql: 
    :depends r-rsqlite: 
    :depends r-vbsr: 
+   :depends r-xgboost: 
    :requirements:
 
    .. rubric:: Installation

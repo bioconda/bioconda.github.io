@@ -23,19 +23,19 @@ bioconductor-mineica
 
    |downloads_bioconductor-mineica| |docker_bioconductor-mineica|
 
-   :versions: 1.24.0-1, 1.22.0-0, 1.18.0-0
+   :versions: 1.26.0-0, 1.24.0-1, 1.22.0-0, 1.18.0-0
    
-   :depends bioconductor-annotate: >=1.62.0,<1.63.0
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-biomart: >=2.40.0,<2.41.0
-   :depends bioconductor-gostats: >=2.50.0,<2.51.0
-   :depends bioconductor-graph: >=1.62.0,<1.63.0
-   :depends bioconductor-lumi: >=2.36.0,<2.37.0
+   :depends bioconductor-annotate: >=1.64.0,<1.65.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-biomart: >=2.42.0,<2.43.0
+   :depends bioconductor-gostats: >=2.52.0,<2.53.0
+   :depends bioconductor-graph: >=1.64.0,<1.65.0
+   :depends bioconductor-lumi: >=2.38.0,<2.39.0
    :depends bioconductor-lumihumanall.db: >=1.22.0,<1.23.0
-   :depends bioconductor-marray: >=1.62.0,<1.63.0
-   :depends bioconductor-rgraphviz: >=2.28.0,<2.29.0
+   :depends bioconductor-marray: >=1.64.0,<1.65.0
+   :depends bioconductor-rgraphviz: >=2.30.0,<2.31.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-cluster: 
    :depends r-colorspace: 

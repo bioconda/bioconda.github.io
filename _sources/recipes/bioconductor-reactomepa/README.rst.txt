@@ -23,13 +23,13 @@ bioconductor-reactomepa
 
    |downloads_bioconductor-reactomepa| |docker_bioconductor-reactomepa|
 
-   :versions: 1.28.0-1, 1.26.0-0, 1.24.0-0, 1.22.0-0
+   :versions: 1.30.0-0, 1.28.0-1, 1.26.0-0, 1.24.0-0, 1.22.0-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-dose: >=3.10.0,<3.11.0
-   :depends bioconductor-enrichplot: >=1.4.0,<1.5.0
-   :depends bioconductor-graphite: >=1.30.0,<1.31.0
-   :depends bioconductor-reactome.db: >=1.68.0,<1.69.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-dose: >=3.12.0,<3.13.0
+   :depends bioconductor-enrichplot: >=1.6.0,<1.7.0
+   :depends bioconductor-graphite: >=1.32.0,<1.33.0
+   :depends bioconductor-reactome.db: >=1.70.0,<1.71.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 
    :depends r-ggraph: 

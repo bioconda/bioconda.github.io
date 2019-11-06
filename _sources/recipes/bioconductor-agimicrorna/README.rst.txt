@@ -22,13 +22,13 @@ bioconductor-agimicrorna
 
    |downloads_bioconductor-agimicrorna| |docker_bioconductor-agimicrorna|
 
-   :versions: 2.34.0-1, 2.32.0-1, 2.32.0-0
+   :versions: 2.36.0-0, 2.34.0-1, 2.32.0-1, 2.32.0-0
    
-   :depends bioconductor-affy: >=1.62.0,<1.63.0
-   :depends bioconductor-affycoretools: >=1.56.0,<1.57.0
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-preprocesscore: >=1.46.0,<1.47.0
+   :depends bioconductor-affy: >=1.64.0,<1.65.0
+   :depends bioconductor-affycoretools: >=1.58.0,<1.59.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-preprocesscore: >=1.48.0,<1.49.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

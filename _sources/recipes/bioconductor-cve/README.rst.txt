@@ -23,9 +23,10 @@ bioconductor-cve
 
    |downloads_bioconductor-cve| |docker_bioconductor-cve|
 
-   :versions: 1.10.0-1, 1.8.0-0, 1.6.0-0, 1.4.0-0
+   :versions: 1.11.2-0, 1.10.0-1, 1.8.0-0, 1.6.0-0, 1.4.0-0
    
-   :depends bioconductor-consensusclusterplus: >=1.48.0,<1.49.0
+   :depends bioconductor-consensusclusterplus: >=1.50.0,<1.51.0
+   :depends bioconductor-rtcgatoolbox: >=2.16.0,<2.17.0
    :depends r-ape: 
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 

@@ -22,13 +22,13 @@ bioconductor-skewr
 
    |downloads_bioconductor-skewr| |docker_bioconductor-skewr|
 
-   :versions: 1.16.0-1, 1.14.0-0
+   :versions: 1.18.0-0, 1.16.0-1, 1.14.0-0
    
    :depends bioconductor-illuminahumanmethylation450kmanifest: >=0.4.0,<0.5.0
-   :depends bioconductor-methylumi: >=2.30.0,<2.31.0
-   :depends bioconductor-minfi: >=1.30.0,<1.31.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-watermelon: >=1.28.0,<1.29.0
+   :depends bioconductor-methylumi: >=2.32.0,<2.33.0
+   :depends bioconductor-minfi: >=1.32.0,<1.33.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-watermelon: >=1.30.0,<1.31.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-mixsmsn: 
    :depends r-rcolorbrewer: 
