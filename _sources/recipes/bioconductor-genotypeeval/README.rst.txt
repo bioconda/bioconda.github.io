@@ -9,13 +9,13 @@ bioconductor-genotypeeval
 .. conda:recipe:: bioconductor-genotypeeval
    :replaces_section_title:
 
-   Takes in a gVCF or VCF and reports metrics to assess quality of calls.
+   QA\/QC of a gVCF or VCF file
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/genotypeeval.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/genotypeeval.html
    :license: file LICENSE
    :recipe: /`bioconductor-genotypeeval <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genotypeeval>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genotypeeval/meta.yaml>`_
 
-   
+   Takes in a gVCF or VCF and reports metrics to assess quality of calls.
 
 
 .. conda:package:: bioconductor-genotypeeval

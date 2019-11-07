@@ -102,10 +102,10 @@
 <dl class="recipe">
 <dt id="recipe-bioconductor-snplocs.hsapiens.dbsnp.20120608">
 <em class="property">recipe </em><code class="sig-name descname">bioconductor-snplocs.hsapiens.dbsnp.20120608</code><a class="headerlink" href="#recipe-bioconductor-snplocs.hsapiens.dbsnp.20120608" title="Permalink to this definition">¶</a></dt>
-<dd><p>SNP locations and alleles for Homo sapiens extracted from NCBI dbSNP Build 137. The source data files used for this package were created by NCBI on June 7-8, 2012, and contain SNPs mapped to reference genome GRCh37.p5. WARNING: Note that the GRCh37.p5 genome is a patched version of GRCh37 but the patch doesn’t alter chromosomes 1-22, X, Y, MT. GRCh37 itself is the same as the hg19 genome from UCSC *except* for the mitochondrion chromosome. Therefore, the SNPs in this package can be “injected” in BSgenome.Hsapiens.UCSC.hg19 and they will land at the correct location but this injection will exclude chrM (i.e. nothing will be injected in that sequence). IMPORTANT NOTE: This package is deprecated. Please use a SNPlocs data package based on a more recent dbSNP BUILD instead (e.g. BUILD 144 or BUILD 149). You can call BSgenome::available.SNPs() from R to get the list of available SNPlocs data packages.</p>
+<dd><p>SNP locations for Homo sapiens (dbSNP Build 137)</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.9/data/annotation/html/SNPlocs.Hsapiens.dbSNP.20120608.html">https://bioconductor.org/packages/3.9/data/annotation/html/SNPlocs.Hsapiens.dbSNP.20120608.html</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.10/data/annotation/html/SNPlocs.Hsapiens.dbSNP.20120608.html">https://bioconductor.org/packages/3.10/data/annotation/html/SNPlocs.Hsapiens.dbSNP.20120608.html</a></p>
 </dd>
 <dt class="field-even">License</dt>
 <dd class="field-even"><p>Artistic-2.0</p>
@@ -114,6 +114,7 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snplocs.hsapiens.dbsnp.20120608">bioconductor-snplocs.hsapiens.dbsnp.20120608</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snplocs.hsapiens.dbsnp.20120608/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
+<p>SNP locations and alleles for Homo sapiens extracted from NCBI dbSNP Build 137. The source data files used for this package were created by NCBI on June 7-8, 2012, and contain SNPs mapped to reference genome GRCh37.p5. WARNING: Note that the GRCh37.p5 genome is a patched version of GRCh37 but the patch doesn’t alter chromosomes 1-22, X, Y, MT. GRCh37 itself is the same as the hg19 genome from UCSC *except* for the mitochondrion chromosome. Therefore, the SNPs in this package can be “injected” in BSgenome.Hsapiens.UCSC.hg19 and they will land at the correct location but this injection will exclude chrM (i.e. nothing will be injected in that sequence). IMPORTANT NOTE: This package is deprecated. Please use a SNPlocs data package based on a more recent dbSNP BUILD instead (e.g. BUILD 144 or BUILD 149). You can call BSgenome::available.SNPs() from R to get the list of available SNPlocs data packages.</p>
 </dd></dl>
 
 <dl class="package">

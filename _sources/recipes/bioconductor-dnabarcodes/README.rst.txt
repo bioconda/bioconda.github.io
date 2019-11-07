@@ -9,14 +9,14 @@ bioconductor-dnabarcodes
 .. conda:recipe:: bioconductor-dnabarcodes
    :replaces_section_title:
 
-   The package offers a function to create DNA barcode sets capable of correcting insertion\, deletion\, and substitution errors. Existing barcodes can be analysed regarding their minimal\, maximal and average distances between barcodes. Finally\, reads that start with a \(possibly mutated\) barcode can be demultiplexed\, i.e.\, assigned to their original reference barcode.
+   A tool for creating and analysing DNA barcodes used in Next Generation Sequencing multiplexing experiments
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DNABarcodes.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DNABarcodes.html
    :license: GPL-2
    :recipe: /`bioconductor-dnabarcodes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnabarcodes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnabarcodes/meta.yaml>`_
    :links: biotools: :biotools:`dnabarcodes`
 
-   
+   The package offers a function to create DNA barcode sets capable of correcting insertion\, deletion\, and substitution errors. Existing barcodes can be analysed regarding their minimal\, maximal and average distances between barcodes. Finally\, reads that start with a \(possibly mutated\) barcode can be demultiplexed\, i.e.\, assigned to their original reference barcode.
 
 
 .. conda:package:: bioconductor-dnabarcodes

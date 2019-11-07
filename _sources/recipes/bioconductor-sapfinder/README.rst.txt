@@ -9,13 +9,13 @@ bioconductor-sapfinder
 .. conda:recipe:: bioconductor-sapfinder
    :replaces_section_title:
 
-   sapFinder is developed to automate \(1\) variation\-associated database construction\, \(2\) database searching\, \(3\) post\-processing\, \(4\) HTML\-based report generation in shotgun proteomics.
+   A package for variant peptides detection and visualization in shotgun proteomics.
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/sapFinder.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/sapFinder.html
    :license: GPL-2
    :recipe: /`bioconductor-sapfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sapfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sapfinder/meta.yaml>`_
 
-   
+   sapFinder is developed to automate \(1\) variation\-associated database construction\, \(2\) database searching\, \(3\) post\-processing\, \(4\) HTML\-based report generation in shotgun proteomics.
 
 
 .. conda:package:: bioconductor-sapfinder

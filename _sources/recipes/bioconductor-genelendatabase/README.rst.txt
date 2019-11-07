@@ -9,20 +9,20 @@ bioconductor-genelendatabase
 .. conda:recipe:: bioconductor-genelendatabase
    :replaces_section_title:
 
-   Length of mRNA transcripts for a number of genomes and gene ID formats\, largely based on UCSC table browser
+   Lengths of mRNA transcripts for a number of genomes
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/geneLenDataBase.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/geneLenDataBase.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-genelendatabase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genelendatabase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genelendatabase/meta.yaml>`_
 
-   
+   Length of mRNA transcripts for a number of genomes and gene ID formats\, largely based on UCSC table browser
 
 
 .. conda:package:: bioconductor-genelendatabase
 
    |downloads_bioconductor-genelendatabase| |docker_bioconductor-genelendatabase|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.6.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.6.0-0
    
    :depends bioconductor-genomicfeatures: >=1.38.0,<1.39.0
    :depends bioconductor-rtracklayer: >=1.46.0,<1.47.0

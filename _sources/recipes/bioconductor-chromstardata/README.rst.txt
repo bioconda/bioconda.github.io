@@ -9,20 +9,20 @@ bioconductor-chromstardata
 .. conda:recipe:: bioconductor-chromstardata
    :replaces_section_title:
 
-   ChIP\-seq data for demonstration purposes in the chromstaR package.
+   ChIP\-seq data for Demonstration Purposes
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/chromstaRData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/chromstaRData.html
    :license: GPL-3
    :recipe: /`bioconductor-chromstardata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromstardata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromstardata/meta.yaml>`_
 
-   
+   ChIP\-seq data for demonstration purposes in the chromstaR package.
 
 
 .. conda:package:: bioconductor-chromstardata
 
    |downloads_bioconductor-chromstardata| |docker_bioconductor-chromstardata|
 
-   :versions: 1.11.0-0, 1.10.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
+   :versions: 1.12.0-0, 1.10.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

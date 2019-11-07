@@ -9,13 +9,13 @@ bioconductor-bcseq
 .. conda:recipe:: bioconductor-bcseq
    :replaces_section_title:
 
-   This Rcpp\-based package implements a highly efficient data structure and algorithm for performing alignment of short reads from CRISPR or shRNA screens to reference barcode library. Sequencing error are considered and matching qualities are evaluated based on Phred scores. A Bayes\' classifier is employed to predict the originating barcode of a read. The package supports provision of user\-defined probability models for evaluating matching qualities. The package also supports multi\-threading.
+   Fast Sequence Mapping in High\-Throughput shRNA and CRISPR Screens
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/bcSeq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/bcSeq.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-bcseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bcseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bcseq/meta.yaml>`_
 
-   
+   This Rcpp\-based package implements a highly efficient data structure and algorithm for performing alignment of short reads from CRISPR or shRNA screens to reference barcode library. Sequencing error are considered and matching qualities are evaluated based on Phred scores. A Bayes\' classifier is employed to predict the originating barcode of a read. The package supports provision of user\-defined probability models for evaluating matching qualities. The package also supports multi\-threading.
 
 
 .. conda:package:: bioconductor-bcseq

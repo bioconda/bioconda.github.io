@@ -9,13 +9,13 @@ bioconductor-asics
 .. conda:recipe:: bioconductor-asics
    :replaces_section_title:
 
-   With a set of pure metabolite reference spectra\, ASICS quantifies concentration of metabolites in a complex spectrum. The identification of metabolites is performed by fitting a mixture model to the spectra of the library with a sparse penalty. The method and its statistical properties are described in Tardivel et al. \(2017\) \<doi\:10.1007\/s11306\-017\-1244\-5\>.
+   Automatic Statistical Identification in Complex Spectra
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ASICS.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ASICS.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-asics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asics/meta.yaml>`_
 
-   
+   With a set of pure metabolite reference spectra\, ASICS quantifies concentration of metabolites in a complex spectrum. The identification of metabolites is performed by fitting a mixture model to the spectra of the library with a sparse penalty. The method and its statistical properties are described in Tardivel et al. \(2017\) \<doi\:10.1007\/s11306\-017\-1244\-5\>.
 
 
 .. conda:package:: bioconductor-asics

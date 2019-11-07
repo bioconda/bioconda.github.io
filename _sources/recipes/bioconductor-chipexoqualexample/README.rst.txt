@@ -9,20 +9,20 @@ bioconductor-chipexoqualexample
 .. conda:recipe:: bioconductor-chipexoqualexample
    :replaces_section_title:
 
-   Data for the ChIPexoQual package\, consisting of \(3\) chromosome 1 aligned reads from a ChIP\-exo experiment for FoxA1 in mouse liver cell lines aligned to the mm9 genome.
+   Example data for the ChIPexoQual package\, which implements a quality control pipeline for ChIP\-exo data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ChIPexoQualExample.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ChIPexoQualExample.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-chipexoqualexample <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipexoqualexample>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipexoqualexample/meta.yaml>`_
 
-   
+   Data for the ChIPexoQual package\, consisting of \(3\) chromosome 1 aligned reads from a ChIP\-exo experiment for FoxA1 in mouse liver cell lines aligned to the mm9 genome.
 
 
 .. conda:package:: bioconductor-chipexoqualexample
 
    |downloads_bioconductor-chipexoqualexample| |docker_bioconductor-chipexoqualexample|
 
-   :versions: 1.9.0-0, 1.8.0-1, 1.8.0-0, 1.6.0-0
+   :versions: 1.10.0-0, 1.8.0-1, 1.8.0-0, 1.6.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

@@ -9,20 +9,20 @@ bioconductor-fibroeset
 .. conda:recipe:: bioconductor-fibroeset
    :replaces_section_title:
 
-   exprSet for Karaman et al. \(2003\) human\, bonobo and gorilla fibroblasts data
+   exprSet for Karaman et al. \(2003\) fibroblasts data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/fibroEset.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/fibroEset.html
    :license: LGPL
    :recipe: /`bioconductor-fibroeset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fibroeset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fibroeset/meta.yaml>`_
 
-   
+   exprSet for Karaman et al. \(2003\) human\, bonobo and gorilla fibroblasts data
 
 
 .. conda:package:: bioconductor-fibroeset
 
    |downloads_bioconductor-fibroeset| |docker_bioconductor-fibroeset|
 
-   :versions: 1.27.0-0, 1.26.0-1, 1.24.0-0
+   :versions: 1.28.0-0, 1.26.0-1, 1.24.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends curl: >=7.65.3,<8.0a0

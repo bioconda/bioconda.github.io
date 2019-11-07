@@ -9,13 +9,13 @@ bioconductor-fdb.ucsc.trnas
 .. conda:recipe:: bioconductor-fdb.ucsc.trnas
    :replaces_section_title:
 
-   Exposes an annotation databases generated from UCSC by exposing these as FeatureDb objects
+   Annotation package for FeatureDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/FDb.UCSC.tRNAs.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/FDb.UCSC.tRNAs.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-fdb.ucsc.trnas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fdb.ucsc.trnas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fdb.ucsc.trnas/meta.yaml>`_
 
-   
+   Exposes an annotation databases generated from UCSC by exposing these as FeatureDb objects
 
 
 .. conda:package:: bioconductor-fdb.ucsc.trnas

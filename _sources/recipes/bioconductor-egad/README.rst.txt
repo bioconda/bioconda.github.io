@@ -9,13 +9,13 @@ bioconductor-egad
 .. conda:recipe:: bioconductor-egad
    :replaces_section_title:
 
-   The package implements a series of highly efficient tools to calculate functional properties of networks based on guilt by association methods.
+   Extending guilt by association by degree
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/EGAD.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/EGAD.html
    :license: GPL-2
    :recipe: /`bioconductor-egad <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-egad>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-egad/meta.yaml>`_
 
-   
+   The package implements a series of highly efficient tools to calculate functional properties of networks based on guilt by association methods.
 
 
 .. conda:package:: bioconductor-egad

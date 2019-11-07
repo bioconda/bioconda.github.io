@@ -9,13 +9,13 @@ bioconductor-arraytv
 .. conda:recipe:: bioconductor-arraytv
    :replaces_section_title:
 
-   Wave correction for genotyping and copy number arrays
+   Implementation of wave correction for arrays
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ArrayTV.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ArrayTV.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-arraytv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arraytv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arraytv/meta.yaml>`_
 
-   
+   Wave correction for genotyping and copy number arrays
 
 
 .. conda:package:: bioconductor-arraytv

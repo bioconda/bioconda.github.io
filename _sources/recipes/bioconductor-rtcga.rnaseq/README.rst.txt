@@ -9,22 +9,22 @@ bioconductor-rtcga.rnaseq
 .. conda:recipe:: bioconductor-rtcga.rnaseq
    :replaces_section_title:
 
-   Package provides rna\-seq datasets from The Cancer Genome Atlas Project for all cohorts types from http\:\/\/gdac.broadinstitute.org\/. Rna\-seq data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/RNASeq\+Version\+2. Data source is illumina hiseq Level 3 RSEM normalized expression data. Data from 2015\-11\-01 snapshot.
+   Rna\-seq datasets from The Cancer Genome Atlas Project
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RTCGA.rnaseq.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RTCGA.rnaseq.html
    :license: GPL-2
    :recipe: /`bioconductor-rtcga.rnaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.rnaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.rnaseq/meta.yaml>`_
 
-   
+   Package provides rna\-seq datasets from The Cancer Genome Atlas Project for all cohorts types from http\:\/\/gdac.broadinstitute.org\/. Rna\-seq data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/RNASeq\+Version\+2. Data source is illumina hiseq Level 3 RSEM normalized expression data. Data from 2015\-11\-01 snapshot.
 
 
 .. conda:package:: bioconductor-rtcga.rnaseq
 
    |downloads_bioconductor-rtcga.rnaseq| |docker_bioconductor-rtcga.rnaseq|
 
-   :versions: 20151101.15.0-0, 20151101.14.0-1, 20151101.14.0-0, 20151101.12.0-0
+   :versions: 20151101.14.0-1, 20151101.14.0-0, 20151101.12.0-0
    
-   :depends bioconductor-rtcga: >=1.16.0,<1.17.0
+   :depends bioconductor-rtcga: >=1.14.0,<1.15.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

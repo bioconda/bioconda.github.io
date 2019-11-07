@@ -9,14 +9,14 @@ bioconductor-rbiopaxparser
 .. conda:recipe:: bioconductor-rbiopaxparser
    :replaces_section_title:
 
-   Parses BioPAX files and represents them in R\, at the moment BioPAX level 2 and level 3 are supported.
+   Parses BioPax files and represents them in R
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/rBiopaxParser.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/rBiopaxParser.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-rbiopaxparser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbiopaxparser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbiopaxparser/meta.yaml>`_
    :links: biotools: :biotools:`rbiopaxparser`
 
-   
+   Parses BioPAX files and represents them in R\, at the moment BioPAX level 2 and level 3 are supported.
 
 
 .. conda:package:: bioconductor-rbiopaxparser

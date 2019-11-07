@@ -9,20 +9,20 @@ bioconductor-nanotubes
 .. conda:recipe:: bioconductor-nanotubes
    :replaces_section_title:
 
-   Cap Analysis of Gene Expression \(CAGE\) data from \"Identification of Gene Transcription Start Sites and Enhancers Responding to Pulmonary Carbon Nanotube Exposure in Vivo\" by Bornholdt et al. supplied as CAGE Transcription Start Sites \(CTSSs\).
+   Mouse nanotube CAGE data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/nanotubes.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/nanotubes.html
    :license: GPL-3
    :recipe: /`bioconductor-nanotubes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanotubes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanotubes/meta.yaml>`_
 
-   
+   Cap Analysis of Gene Expression \(CAGE\) data from \"Identification of Gene Transcription Start Sites and Enhancers Responding to Pulmonary Carbon Nanotube Exposure in Vivo\" by Bornholdt et al. supplied as CAGE Transcription Start Sites \(CTSSs\).
 
 
 .. conda:package:: bioconductor-nanotubes
 
    |downloads_bioconductor-nanotubes| |docker_bioconductor-nanotubes|
 
-   :versions: 1.1.0-0, 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

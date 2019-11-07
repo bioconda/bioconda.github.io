@@ -11,12 +11,12 @@ bioconductor-a4reporting
 
    Automated Affymetrix Array Analysis Reporting Package
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/a4Reporting.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/a4Reporting.html
    :license: GPL-3
    :recipe: /`bioconductor-a4reporting <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4reporting>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4reporting/meta.yaml>`_
    :links: biotools: :biotools:`a4reporting`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Automated Affymetrix Array Analysis Reporting Package
 
 
 .. conda:package:: bioconductor-a4reporting

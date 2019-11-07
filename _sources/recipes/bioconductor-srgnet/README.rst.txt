@@ -9,13 +9,13 @@ bioconductor-srgnet
 .. conda:recipe:: bioconductor-srgnet
    :replaces_section_title:
 
-   We developed SRGnet to analyze synergistic regulatory mechanisms in transcriptome profiles that act to enhance the overall cell response to combination of mutations\, drugs or environmental exposure. This package can be used to identify regulatory modules downstream of synergistic response genes\, prioritize synergistic regulatory genes that may be potential intervention targets\, and contextualize gene perturbation experiments.
+   SRGnet\: An R package for studying synergistic response to gene mutations from transcriptomics data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SRGnet.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SRGnet.html
    :license: GPL-2
    :recipe: /`bioconductor-srgnet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-srgnet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-srgnet/meta.yaml>`_
 
-   
+   We developed SRGnet to analyze synergistic regulatory mechanisms in transcriptome profiles that act to enhance the overall cell response to combination of mutations\, drugs or environmental exposure. This package can be used to identify regulatory modules downstream of synergistic response genes\, prioritize synergistic regulatory genes that may be potential intervention targets\, and contextualize gene perturbation experiments.
 
 
 .. conda:package:: bioconductor-srgnet

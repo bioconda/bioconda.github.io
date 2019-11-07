@@ -9,14 +9,14 @@ bioconductor-harman
 .. conda:recipe:: bioconductor-harman
    :replaces_section_title:
 
-   Harman is a PCA and constrained optimisation based technique that maximises the removal of batch effects from datasets\, with the constraint that the probability of overcorrection \(i.e. removing genuine biological signal along with batch noise\) is kept to a fraction which is set by the end\-user.
+   The removal of batch effects from datasets using a PCA and constrained optimisation based technique
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Harman.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Harman.html
    :license: GPL-3 + file LICENCE
    :recipe: /`bioconductor-harman <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harman>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harman/meta.yaml>`_
    :links: biotools: :biotools:`harman`
 
-   
+   Harman is a PCA and constrained optimisation based technique that maximises the removal of batch effects from datasets\, with the constraint that the probability of overcorrection \(i.e. removing genuine biological signal along with batch noise\) is kept to a fraction which is set by the end\-user.
 
 
 .. conda:package:: bioconductor-harman

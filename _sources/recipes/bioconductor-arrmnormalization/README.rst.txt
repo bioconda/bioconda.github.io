@@ -9,23 +9,23 @@ bioconductor-arrmnormalization
 .. conda:recipe:: bioconductor-arrmnormalization
    :replaces_section_title:
 
-   Perform the Adaptive Robust Regression method \(ARRm\) for the normalization of methylation data from the Illumina Infinium HumanMethylation 450k assay.
+   Adaptive Robust Regression normalization for Illumina methylation data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ARRmNormalization.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ARRmNormalization.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-arrmnormalization <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrmnormalization>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrmnormalization/meta.yaml>`_
    :links: biotools: :biotools:`arrmnormalization`, doi: :doi:`10.1186/s13059-014-0503-2`
 
-   
+   Perform the Adaptive Robust Regression method \(ARRm\) for the normalization of methylation data from the Illumina Infinium HumanMethylation 450k assay.
 
 
 .. conda:package:: bioconductor-arrmnormalization
 
    |downloads_bioconductor-arrmnormalization| |docker_bioconductor-arrmnormalization|
 
-   :versions: 1.26.0-0, 1.24.0-1, 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0
+   :versions: 1.24.0-1, 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0
    
-   :depends bioconductor-arrmdata: >=1.21.0,<1.22.0
+   :depends bioconductor-arrmdata: >=1.20.0,<1.21.0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

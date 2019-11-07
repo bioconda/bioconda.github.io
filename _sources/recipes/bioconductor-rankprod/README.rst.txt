@@ -9,14 +9,14 @@ bioconductor-rankprod
 .. conda:recipe:: bioconductor-rankprod
    :replaces_section_title:
 
-   Non\-parametric method for identifying differentially expressed \(up\- or down\- regulated\) genes based on the estimated percentage of false predictions \(pfp\). The method can combine data sets from different origins \(meta\-analysis\) to increase the power of the identification.
+   Rank Product method for identifying differentially expressed genes with application in meta\-analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RankProd.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RankProd.html
    :license: file LICENSE
    :recipe: /`bioconductor-rankprod <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rankprod>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rankprod/meta.yaml>`_
    :links: biotools: :biotools:`rankprod`, doi: :doi:`10.1093/bioinformatics/btl476`
 
-   
+   Non\-parametric method for identifying differentially expressed \(up\- or down\- regulated\) genes based on the estimated percentage of false predictions \(pfp\). The method can combine data sets from different origins \(meta\-analysis\) to increase the power of the identification.
 
 
 .. conda:package:: bioconductor-rankprod

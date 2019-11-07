@@ -9,24 +9,24 @@ bioconductor-ritan
 .. conda:recipe:: bioconductor-ritan
    :replaces_section_title:
 
-   Tools for comprehensive gene set enrichment and extraction of multi\-resource high confidence subnetworks. RITAN facilitates bioinformatic tasks for enabling network biology research.
+   Rapid Integration of Term Annotation and Network resources
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RITAN.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RITAN.html
    :license: file LICENSE
    :recipe: /`bioconductor-ritan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ritan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ritan/meta.yaml>`_
 
-   
+   Tools for comprehensive gene set enrichment and extraction of multi\-resource high confidence subnetworks. RITAN facilitates bioinformatic tasks for enabling network biology research.
 
 
 .. conda:package:: bioconductor-ritan
 
    |downloads_bioconductor-ritan| |docker_bioconductor-ritan|
 
-   :versions: 1.10.0-0, 1.8.0-1, 1.6.0-1, 1.6.0-0
+   :versions: 1.8.0-1, 1.6.0-1, 1.6.0-0
    
-   :depends bioconductor-bgeedb: >=2.12.0,<2.13.0
-   :depends bioconductor-ritandata: >=1.9.0,<1.10.0
-   :depends bioconductor-stringdb: >=1.26.0,<1.27.0
+   :depends bioconductor-bgeedb: >=2.10.0,<2.11.0
+   :depends bioconductor-ritandata: >=1.8.0,<1.9.0
+   :depends bioconductor-stringdb: >=1.24.0,<1.25.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dynamictreecut: 
    :depends r-ggplot2: 

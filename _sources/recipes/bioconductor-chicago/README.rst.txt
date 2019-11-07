@@ -9,14 +9,14 @@ bioconductor-chicago
 .. conda:recipe:: bioconductor-chicago
    :replaces_section_title:
 
-   A pipeline for analysing Capture Hi\-C data.
+   CHiCAGO\: Capture Hi\-C Analysis of Genomic Organization
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Chicago.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Chicago.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-chicago <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chicago>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chicago/meta.yaml>`_
    :links: biotools: :biotools:`chicago`
 
-   
+   A pipeline for analysing Capture Hi\-C data.
 
 
 .. conda:package:: bioconductor-chicago

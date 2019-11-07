@@ -9,20 +9,20 @@ bioconductor-dyebiasexamples
 .. conda:recipe:: bioconductor-dyebiasexamples
    :replaces_section_title:
 
-   Data for the dyebias package\, consisting of 4 self\-self hybrizations of self\-spotted yeast slides\, as well as data from Array Express accession E\-MTAB\-32
+   Example data for the dyebias package\, which implements the GASSCO method.
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/dyebiasexamples.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/dyebiasexamples.html
    :license: GPL-3
    :recipe: /`bioconductor-dyebiasexamples <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dyebiasexamples>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dyebiasexamples/meta.yaml>`_
 
-   
+   Data for the dyebias package\, consisting of 4 self\-self hybrizations of self\-spotted yeast slides\, as well as data from Array Express accession E\-MTAB\-32
 
 
 .. conda:package:: bioconductor-dyebiasexamples
 
    |downloads_bioconductor-dyebiasexamples| |docker_bioconductor-dyebiasexamples|
 
-   :versions: 1.25.0-0, 1.24.0-1, 1.22.0-0
+   :versions: 1.26.0-0, 1.24.0-1, 1.22.0-0
    
    :depends bioconductor-geoquery: >=2.54.0,<2.55.0
    :depends bioconductor-marray: >=1.64.0,<1.65.0

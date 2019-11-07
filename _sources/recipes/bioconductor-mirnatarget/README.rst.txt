@@ -11,18 +11,18 @@ bioconductor-mirnatarget
 
    gene target tabale of miRNA for human\/mouse used for MiRaGE package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/miRNATarget.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/miRNATarget.html
    :license: GPL
    :recipe: /`bioconductor-mirnatarget <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnatarget>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnatarget/meta.yaml>`_
 
-   
+   gene target tabale of miRNA for human\/mouse used for MiRaGE package
 
 
 .. conda:package:: bioconductor-mirnatarget
 
    |downloads_bioconductor-mirnatarget| |docker_bioconductor-mirnatarget|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends curl: >=7.65.3,<8.0a0

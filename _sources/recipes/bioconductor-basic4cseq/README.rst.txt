@@ -9,14 +9,14 @@ bioconductor-basic4cseq
 .. conda:recipe:: bioconductor-basic4cseq
    :replaces_section_title:
 
-   Basic4Cseq is an R\/Bioconductor package for basic filtering\, analysis and subsequent visualization of 4C\-seq data. Virtual fragment libraries can be created for any BSGenome package\, and filter functions for both reads and fragments and basic quality controls are included. Fragment data in the vicinity of the experiment\'s viewpoint can be visualized as a coverage plot based on a running median approach and a multi\-scale contact profile.
+   Basic4Cseq\: an R\/Bioconductor package for analyzing 4C\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Basic4Cseq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Basic4Cseq.html
    :license: LGPL-3
    :recipe: /`bioconductor-basic4cseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basic4cseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basic4cseq/meta.yaml>`_
    :links: biotools: :biotools:`basic4cseq`, doi: :doi:`10.1093/bioinformatics/btu497`
 
-   
+   Basic4Cseq is an R\/Bioconductor package for basic filtering\, analysis and subsequent visualization of 4C\-seq data. Virtual fragment libraries can be created for any BSGenome package\, and filter functions for both reads and fragments and basic quality controls are included. Fragment data in the vicinity of the experiment\'s viewpoint can be visualized as a coverage plot based on a running median approach and a multi\-scale contact profile.
 
 
 .. conda:package:: bioconductor-basic4cseq

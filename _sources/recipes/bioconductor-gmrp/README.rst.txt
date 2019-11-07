@@ -9,14 +9,14 @@ bioconductor-gmrp
 .. conda:recipe:: bioconductor-gmrp
    :replaces_section_title:
 
-   Perform Mendelian randomization analysis of multiple SNPs to determine risk factors causing disease of study and to exclude confounding variabels and perform path analysis to construct path of risk factors to the disease.
+   GWAS\-based Mendelian Randomization and Path Analyses
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GMRP.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GMRP.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-gmrp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gmrp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gmrp/meta.yaml>`_
    :links: biotools: :biotools:`gmrp`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Perform Mendelian randomization analysis of multiple SNPs to determine risk factors causing disease of study and to exclude confounding variabels and perform path analysis to construct path of risk factors to the disease.
 
 
 .. conda:package:: bioconductor-gmrp

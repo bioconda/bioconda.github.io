@@ -9,13 +9,13 @@ bioconductor-factdesign
 .. conda:recipe:: bioconductor-factdesign
    :replaces_section_title:
 
-   This package provides a set of tools for analyzing data from a factorial designed microarray experiment\, or any microarray experiment for which a linear model is appropriate. The functions can be used to evaluate tests of contrast of biological interest and perform single outlier detection.
+   Factorial designed microarray experiment analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/factDesign.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/factDesign.html
    :license: LGPL
    :recipe: /`bioconductor-factdesign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-factdesign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-factdesign/meta.yaml>`_
 
-   
+   This package provides a set of tools for analyzing data from a factorial designed microarray experiment\, or any microarray experiment for which a linear model is appropriate. The functions can be used to evaluate tests of contrast of biological interest and perform single outlier detection.
 
 
 .. conda:package:: bioconductor-factdesign

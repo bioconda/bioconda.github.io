@@ -9,13 +9,13 @@ bioconductor-genomes
 .. conda:recipe:: bioconductor-genomes
    :replaces_section_title:
 
-   Download genome and assembly reports from NCBI
+   Genome sequencing project metadata
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/genomes.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/genomes.html
    :license: GPL-3
    :recipe: /`bioconductor-genomes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomes/meta.yaml>`_
 
-   
+   Download genome and assembly reports from NCBI
 
 
 .. conda:package:: bioconductor-genomes

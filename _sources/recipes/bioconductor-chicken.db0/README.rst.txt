@@ -9,13 +9,13 @@ bioconductor-chicken.db0
 .. conda:recipe:: bioconductor-chicken.db0
    :replaces_section_title:
 
-   Base annotation databases for chicken\, intended ONLY to be used by AnnotationDbi to produce regular annotation packages.
+   Base Level Annotation databases for chicken
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/chicken.db0.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/chicken.db0.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-chicken.db0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chicken.db0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chicken.db0/meta.yaml>`_
 
-   
+   Base annotation databases for chicken\, intended ONLY to be used by AnnotationDbi to produce regular annotation packages.
 
 
 .. conda:package:: bioconductor-chicken.db0

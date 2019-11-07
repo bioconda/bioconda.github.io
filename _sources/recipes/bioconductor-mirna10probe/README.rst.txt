@@ -9,13 +9,13 @@ bioconductor-mirna10probe
 .. conda:recipe:: bioconductor-mirna10probe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was miRNA\-1\\\_0\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type mirna10
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mirna10probe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mirna10probe.html
    :license: LGPL
    :recipe: /`bioconductor-mirna10probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirna10probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirna10probe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was miRNA\-1\\\_0\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-mirna10probe

@@ -9,13 +9,13 @@ bioconductor-decomptumor2sig
 .. conda:recipe:: bioconductor-decomptumor2sig
    :replaces_section_title:
 
-   Uses quadratic programming for signature refitting\, i.e.\, to decompose the mutation catalog from an individual tumor sample into a set of given mutational signatures \(either Alexandrov\-model signatures or Shiraishi\-model signatures\)\, computing weights that reflect the contributions of the signatures to the mutation load of the tumor.
+   Decomposition of individual tumors into mutational signatures by signature refitting
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/decompTumor2Sig.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/decompTumor2Sig.html
    :license: GPL-2
    :recipe: /`bioconductor-decomptumor2sig <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decomptumor2sig>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decomptumor2sig/meta.yaml>`_
 
-   
+   Uses quadratic programming for signature refitting\, i.e.\, to decompose the mutation catalog from an individual tumor sample into a set of given mutational signatures \(either Alexandrov\-model signatures or Shiraishi\-model signatures\)\, computing weights that reflect the contributions of the signatures to the mutation load of the tumor.
 
 
 .. conda:package:: bioconductor-decomptumor2sig

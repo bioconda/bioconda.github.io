@@ -9,13 +9,13 @@ bioconductor-u133x3p.db
 .. conda:recipe:: bioconductor-u133x3p.db
    :replaces_section_title:
 
-   Affymetrix Human X3P Array annotation data \(chip u133x3p\) assembled using data from public repositories
+   Affymetrix Human X3P Array annotation data \(chip u133x3p\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/u133x3p.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/u133x3p.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-u133x3p.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-u133x3p.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-u133x3p.db/meta.yaml>`_
 
-   
+   Affymetrix Human X3P Array annotation data \(chip u133x3p\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-u133x3p.db

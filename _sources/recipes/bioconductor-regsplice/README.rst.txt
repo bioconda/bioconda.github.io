@@ -9,14 +9,14 @@ bioconductor-regsplice
 .. conda:recipe:: bioconductor-regsplice
    :replaces_section_title:
 
-   Statistical methods for detection of differential splicing \(differential exon usage\) in RNA\-seq and exon microarray data\, using L1\-regularization \(lasso\) to improve power.
+   L1\-regularization based methods for detection of differential splicing
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/regsplice.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/regsplice.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-regsplice <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regsplice>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regsplice/meta.yaml>`_
    :links: biotools: :biotools:`regsplice`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Statistical methods for detection of differential splicing \(differential exon usage\) in RNA\-seq and exon microarray data\, using L1\-regularization \(lasso\) to improve power.
 
 
 .. conda:package:: bioconductor-regsplice

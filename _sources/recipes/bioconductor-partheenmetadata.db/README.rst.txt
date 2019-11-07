@@ -9,13 +9,13 @@ bioconductor-partheenmetadata.db
 .. conda:recipe:: bioconductor-partheenmetadata.db
    :replaces_section_title:
 
-   PartheenMetaData http\:\/\/swegene.onk.lu.se Annotation Data \(PartheenMetaData\) assembled using data from public repositories
+   PartheenMetaData http\:\/\/swegene.onk.lu.se Annotation Data \(PartheenMetaData\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/PartheenMetaData.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/PartheenMetaData.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-partheenmetadata.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-partheenmetadata.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-partheenmetadata.db/meta.yaml>`_
 
-   
+   PartheenMetaData http\:\/\/swegene.onk.lu.se Annotation Data \(PartheenMetaData\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-partheenmetadata.db

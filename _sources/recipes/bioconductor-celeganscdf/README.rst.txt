@@ -9,13 +9,13 @@ bioconductor-celeganscdf
 .. conda:recipe:: bioconductor-celeganscdf
    :replaces_section_title:
 
-   A package containing an environment representing the Celegans.CDF file.
+   celeganscdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/celeganscdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/celeganscdf.html
    :license: LGPL
    :recipe: /`bioconductor-celeganscdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celeganscdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celeganscdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the Celegans.CDF file.
 
 
 .. conda:package:: bioconductor-celeganscdf

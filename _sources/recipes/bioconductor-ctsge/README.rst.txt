@@ -9,14 +9,14 @@ bioconductor-ctsge
 .. conda:recipe:: bioconductor-ctsge
    :replaces_section_title:
 
-   Methodology for supervised clustering of potentially many predictor variables\, such as genes etc.\, in time series datasets Provides functions that help the user assigning genes to predefined set of model profiles.
+   Clustering of Time Series Gene Expression data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ctsGE.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ctsGE.html
    :license: GPL-2
    :recipe: /`bioconductor-ctsge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctsge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctsge/meta.yaml>`_
    :links: biotools: :biotools:`ctsge`, doi: :doi:`10.1093/bioinformatics/btx116`
 
-   
+   Methodology for supervised clustering of potentially many predictor variables\, such as genes etc.\, in time series datasets Provides functions that help the user assigning genes to predefined set of model profiles.
 
 
 .. conda:package:: bioconductor-ctsge

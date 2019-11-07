@@ -9,14 +9,14 @@ bioconductor-messina
 .. conda:recipe:: bioconductor-messina
    :replaces_section_title:
 
-   Messina is a collection of algorithms for constructing optimally robust single\-gene classifiers\, and for identifying differential expression in the presence of outliers or unknown sample subgroups.  The methods have application in identifying lead features to develop into clinical tests \(both diagnostic and prognostic\)\, and in identifying differential expression when a fraction of samples show unusual patterns of expression.
+   Single\-gene classifiers and outlier\-resistant detection of differential expression for two\-group and survival problems.
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/messina.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/messina.html
    :license: EPL (>= 1.0)
    :recipe: /`bioconductor-messina <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-messina>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-messina/meta.yaml>`_
    :links: biotools: :biotools:`messina`
 
-   
+   Messina is a collection of algorithms for constructing optimally robust single\-gene classifiers\, and for identifying differential expression in the presence of outliers or unknown sample subgroups.  The methods have application in identifying lead features to develop into clinical tests \(both diagnostic and prognostic\)\, and in identifying differential expression when a fraction of samples show unusual patterns of expression.
 
 
 .. conda:package:: bioconductor-messina

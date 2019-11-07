@@ -9,13 +9,13 @@ bioconductor-polyester
 .. conda:recipe:: bioconductor-polyester
    :replaces_section_title:
 
-   This package can be used to simulate RNA\-seq reads from differential expression experiments with replicates. The reads can then be aligned and used to perform comparisons of methods for differential expression.
+   Simulate RNA\-seq reads
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/polyester.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/polyester.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-polyester <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-polyester>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-polyester/meta.yaml>`_
 
-   
+   This package can be used to simulate RNA\-seq reads from differential expression experiments with replicates. The reads can then be aligned and used to perform comparisons of methods for differential expression.
 
 
 .. conda:package:: bioconductor-polyester

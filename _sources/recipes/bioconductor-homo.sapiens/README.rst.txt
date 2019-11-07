@@ -9,13 +9,13 @@ bioconductor-homo.sapiens
 .. conda:recipe:: bioconductor-homo.sapiens
    :replaces_section_title:
 
-   Contains the Homo.sapiens object to access data from several related annotation packages.
+   Annotation package for the Homo.sapiens object
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/Homo.sapiens.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/Homo.sapiens.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-homo.sapiens <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-homo.sapiens>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-homo.sapiens/meta.yaml>`_
 
-   
+   Contains the Homo.sapiens object to access data from several related annotation packages.
 
 
 .. conda:package:: bioconductor-homo.sapiens

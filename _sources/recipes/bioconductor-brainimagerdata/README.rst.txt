@@ -9,22 +9,22 @@ bioconductor-brainimagerdata
 .. conda:recipe:: bioconductor-brainimagerdata
    :replaces_section_title:
 
-   brainImageRdata contains image masks for the developing human and the adult human brain. These masks can be used in conjunction with the gene expression data to generate spatial gene set enrichment plots. It also contains the expression data for the 15 pcw human brain\, the adult human brain\, and the developing human brain.
+   Image masks and expression data for use with BrainImageR
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/brainImageRdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/brainImageRdata.html
    :license: CC BY-SA 4.0
    :recipe: /`bioconductor-brainimagerdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brainimagerdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brainimagerdata/meta.yaml>`_
 
-   
+   brainImageRdata contains image masks for the developing human and the adult human brain. These masks can be used in conjunction with the gene expression data to generate spatial gene set enrichment plots. It also contains the expression data for the 15 pcw human brain\, the adult human brain\, and the developing human brain.
 
 
 .. conda:package:: bioconductor-brainimagerdata
 
    |downloads_bioconductor-brainimagerdata| |docker_bioconductor-brainimagerdata|
 
-   :versions: 1.3.0-0, 1.2.0-1, 1.0.0-0
+   :versions: 1.2.0-1, 1.0.0-0
    
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

@@ -9,20 +9,20 @@ bioconductor-sampleclassifierdata
 .. conda:recipe:: bioconductor-sampleclassifierdata
    :replaces_section_title:
 
-   This package contains two microarray and two RNA\-seq datasets that have been preprocessed for use with the sampleClassifier package. The RNA\-seq data are derived from Fagerberg et al. \(2014\) and the Illumina Body Map 2.0 data. The microarray data are derived from Roth et al. \(2006\) and Ge et al. \(2005\).
+   Pre\-processed data for use with the sampleClassifier package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/sampleClassifierData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/sampleClassifierData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sampleclassifierdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sampleclassifierdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sampleclassifierdata/meta.yaml>`_
 
-   
+   This package contains two microarray and two RNA\-seq datasets that have been preprocessed for use with the sampleClassifier package. The RNA\-seq data are derived from Fagerberg et al. \(2014\) and the Illumina Body Map 2.0 data. The microarray data are derived from Roth et al. \(2006\) and Ge et al. \(2005\).
 
 
 .. conda:package:: bioconductor-sampleclassifierdata
 
    |downloads_bioconductor-sampleclassifierdata| |docker_bioconductor-sampleclassifierdata|
 
-   :versions: 1.9.0-0, 1.8.0-1, 1.6.0-0
+   :versions: 1.10.0-0, 1.8.0-1, 1.6.0-0
    
    :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends curl: >=7.65.3,<8.0a0

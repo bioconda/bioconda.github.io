@@ -9,20 +9,20 @@ bioconductor-ritandata
 .. conda:recipe:: bioconductor-ritandata
    :replaces_section_title:
 
-   Data such as is contained in these two R data files in this package are required for the RITAN package. Users may use their own or additional resources in conjunction with RITANdata. See the RITAN vignettes for more information.
+   This package contains the annotation and network data sets
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RITANdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RITANdata.html
    :license: file LICENSE
    :recipe: /`bioconductor-ritandata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ritandata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ritandata/meta.yaml>`_
 
-   
+   Data such as is contained in these two R data files in this package are required for the RITAN package. Users may use their own or additional resources in conjunction with RITANdata. See the RITAN vignettes for more information.
 
 
 .. conda:package:: bioconductor-ritandata
 
    |downloads_bioconductor-ritandata| |docker_bioconductor-ritandata|
 
-   :versions: 1.9.0-0, 1.8.0-1, 1.8.0-0, 1.6.0-0
+   :versions: 1.10.0-0, 1.8.0-1, 1.8.0-0, 1.6.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

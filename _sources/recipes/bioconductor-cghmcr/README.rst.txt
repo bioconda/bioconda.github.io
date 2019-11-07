@@ -9,14 +9,14 @@ bioconductor-cghmcr
 .. conda:recipe:: bioconductor-cghmcr
    :replaces_section_title:
 
-   This package provides functions to identify genomic regions of interests based on segmented copy number data from multiple samples.
+   Find chromosome regions showing common gains\/losses
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/cghMCR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/cghMCR.html
    :license: LGPL
    :recipe: /`bioconductor-cghmcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghmcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghmcr/meta.yaml>`_
    :links: biotools: :biotools:`cghmcr`, doi: :doi:`10.1093/bioinformatics/btv298`
 
-   
+   This package provides functions to identify genomic regions of interests based on segmented copy number data from multiple samples.
 
 
 .. conda:package:: bioconductor-cghmcr

@@ -9,13 +9,13 @@ bioconductor-countclust
 .. conda:recipe:: bioconductor-countclust
    :replaces_section_title:
 
-   Fits grade of membership models \(GoM\, also known as admixture models\) to cluster RNA\-seq gene expression count data\, identifies characteristic genes driving cluster memberships\, and provides a visual summary of the cluster memberships.
+   Clustering and Visualizing RNA\-Seq Expression Data using Grade of Membership Models
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CountClust.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CountClust.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-countclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-countclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-countclust/meta.yaml>`_
 
-   
+   Fits grade of membership models \(GoM\, also known as admixture models\) to cluster RNA\-seq gene expression count data\, identifies characteristic genes driving cluster memberships\, and provides a visual summary of the cluster memberships.
 
 
 .. conda:package:: bioconductor-countclust

@@ -9,14 +9,14 @@ bioconductor-hitc
 .. conda:recipe:: bioconductor-hitc
    :replaces_section_title:
 
-   The HiTC package was developed to explore high\-throughput \'C\' data such as 5C or Hi\-C. Dedicated R classes as well as standard methods for quality controls\, normalization\, visualization\, and further analysis are also provided.
+   High Throughput Chromosome Conformation Capture analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/HiTC.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/HiTC.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hitc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hitc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hitc/meta.yaml>`_
    :links: biotools: :biotools:`hitc`
 
-   
+   The HiTC package was developed to explore high\-throughput \'C\' data such as 5C or Hi\-C. Dedicated R classes as well as standard methods for quality controls\, normalization\, visualization\, and further analysis are also provided.
 
 
 .. conda:package:: bioconductor-hitc

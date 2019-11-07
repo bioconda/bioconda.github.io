@@ -9,14 +9,14 @@ bioconductor-sigfuge
 .. conda:recipe:: bioconductor-sigfuge
    :replaces_section_title:
 
-   Algorithm for testing significance of clustering in RNA\-seq data.
+   SigFuge
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SigFuge.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SigFuge.html
    :license: GPL-3
    :recipe: /`bioconductor-sigfuge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigfuge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigfuge/meta.yaml>`_
    :links: biotools: :biotools:`sigfuge`, doi: :doi:`10.1093/nar/gku521`
 
-   
+   Algorithm for testing significance of clustering in RNA\-seq data.
 
 
 .. conda:package:: bioconductor-sigfuge

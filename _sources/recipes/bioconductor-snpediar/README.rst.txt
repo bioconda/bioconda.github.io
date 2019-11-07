@@ -9,14 +9,14 @@ bioconductor-snpediar
 .. conda:recipe:: bioconductor-snpediar
    :replaces_section_title:
 
-   SNPediaR provides some tools for downloading and parsing data from the SNPedia web site \<http\:\/\/www.snpedia.com\>. The implemented functions allow users to import the wiki text available in SNPedia pages and to extract the most relevant information out of them. If some information in the downloaded pages is not automatically processed by the library functions\, users can easily implement their own parsers to access it in an efficient way.
+   Query data from SNPedia
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SNPediaR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SNPediaR.html
    :license: GPL-2
    :recipe: /`bioconductor-snpediar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snpediar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snpediar/meta.yaml>`_
    :links: biotools: :biotools:`snpediar`, doi: :doi:`10.1007/978-1-4419-9863-7_1039`
 
-   
+   SNPediaR provides some tools for downloading and parsing data from the SNPedia web site \<http\:\/\/www.snpedia.com\>. The implemented functions allow users to import the wiki text available in SNPedia pages and to extract the most relevant information out of them. If some information in the downloaded pages is not automatically processed by the library functions\, users can easily implement their own parsers to access it in an efficient way.
 
 
 .. conda:package:: bioconductor-snpediar

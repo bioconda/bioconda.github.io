@@ -9,13 +9,13 @@ bioconductor-metagene
 .. conda:recipe:: bioconductor-metagene
    :replaces_section_title:
 
-   This package produces metagene plots to compare the behavior of DNA\-interacting proteins at selected groups of genes\/features. Bam files are used to increase the resolution. Multiple combination of group of bam files and\/or group of genomic regions can be compared in a single analysis. Bootstraping analysis is used to compare the groups and locate regions with statistically different enrichment profiles.
+   A package to produce metagene plots
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/metagene.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/metagene.html
    :license: Artistic-2.0 | file LICENSE
    :recipe: /`bioconductor-metagene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagene/meta.yaml>`_
 
-   
+   This package produces metagene plots to compare the behavior of DNA\-interacting proteins at selected groups of genes\/features. Bam files are used to increase the resolution. Multiple combination of group of bam files and\/or group of genomic regions can be compared in a single analysis. Bootstraping analysis is used to compare the groups and locate regions with statistically different enrichment profiles.
 
 
 .. conda:package:: bioconductor-metagene

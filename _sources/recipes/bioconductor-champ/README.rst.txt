@@ -9,13 +9,13 @@ bioconductor-champ
 .. conda:recipe:: bioconductor-champ
    :replaces_section_title:
 
-   The package includes quality control metrics\, a selection of normalization methods and novel methods to identify differentially methylated regions and to highlight copy number alterations.
+   Chip Analysis Methylation Pipeline for Illumina HumanMethylation450 and EPIC
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ChAMP.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ChAMP.html
    :license: GPL-3
    :recipe: /`bioconductor-champ <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-champ>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-champ/meta.yaml>`_
 
-   
+   The package includes quality control metrics\, a selection of normalization methods and novel methods to identify differentially methylated regions and to highlight copy number alterations.
 
 
 .. conda:package:: bioconductor-champ

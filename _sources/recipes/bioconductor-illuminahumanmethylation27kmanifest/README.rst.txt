@@ -9,13 +9,13 @@ bioconductor-illuminahumanmethylation27kmanifest
 .. conda:recipe:: bioconductor-illuminahumanmethylation27kmanifest
    :replaces_section_title:
 
-   Manifest for Illumina\'s 27k array data
+   Annotation for Illumina\'s 27k methylation arrays
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/IlluminaHumanMethylation27kmanifest.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/IlluminaHumanMethylation27kmanifest.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-illuminahumanmethylation27kmanifest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylation27kmanifest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylation27kmanifest/meta.yaml>`_
 
-   
+   Manifest for Illumina\'s 27k array data
 
 
 .. conda:package:: bioconductor-illuminahumanmethylation27kmanifest

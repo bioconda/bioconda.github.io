@@ -9,13 +9,13 @@ bioconductor-hgubeta7.db
 .. conda:recipe:: bioconductor-hgubeta7.db
    :replaces_section_title:
 
-   Unknown annotation data \(chip hgubeta7\) assembled using data from public repositories
+   Unknown annotation data \(chip hgubeta7\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hgubeta7.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hgubeta7.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hgubeta7.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgubeta7.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgubeta7.db/meta.yaml>`_
 
-   
+   Unknown annotation data \(chip hgubeta7\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-hgubeta7.db

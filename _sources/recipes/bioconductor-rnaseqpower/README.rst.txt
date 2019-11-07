@@ -9,14 +9,14 @@ bioconductor-rnaseqpower
 .. conda:recipe:: bioconductor-rnaseqpower
    :replaces_section_title:
 
-   RNA\-seq\, sample size
+   Sample size for RNAseq studies
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RNASeqPower.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RNASeqPower.html
    :license: LGPL (>=2)
    :recipe: /`bioconductor-rnaseqpower <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqpower>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqpower/meta.yaml>`_
    :links: biotools: :biotools:`rnaseqpower`, doi: :doi:`10.1089/cmb.2012.0283`
 
-   
+   RNA\-seq\, sample size
 
 
 .. conda:package:: bioconductor-rnaseqpower

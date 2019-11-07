@@ -9,13 +9,13 @@ bioconductor-rgraphviz
 .. conda:recipe:: bioconductor-rgraphviz
    :replaces_section_title:
 
-   Interfaces R with the AT and T graphviz library for plotting R graph objects from the graph package.
+   Provides plotting capabilities for R graph objects
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Rgraphviz.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Rgraphviz.html
    :license: EPL
    :recipe: /`bioconductor-rgraphviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgraphviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgraphviz/meta.yaml>`_
 
-   
+   Interfaces R with the AT and T graphviz library for plotting R graph objects from the graph package.
 
 
 .. conda:package:: bioconductor-rgraphviz

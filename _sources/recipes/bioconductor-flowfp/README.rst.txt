@@ -9,14 +9,14 @@ bioconductor-flowfp
 .. conda:recipe:: bioconductor-flowfp
    :replaces_section_title:
 
-   Fingerprint generation of flow cytometry data\, used to facilitate the application of machine learning and datamining tools for flow cytometry.
+   Fingerprinting for Flow Cytometry
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flowFP.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flowFP.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowfp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowfp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowfp/meta.yaml>`_
    :links: biotools: :biotools:`flowfp`, doi: :doi:`10.1155/2009/193947`
 
-   
+   Fingerprint generation of flow cytometry data\, used to facilitate the application of machine learning and datamining tools for flow cytometry.
 
 
 .. conda:package:: bioconductor-flowfp

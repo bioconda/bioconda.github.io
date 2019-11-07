@@ -9,25 +9,25 @@ bioconductor-adductomicsr
 .. conda:recipe:: bioconductor-adductomicsr
    :replaces_section_title:
 
-   Processes MS2 data to identify potentially adducted peptides from spectra that has been corrected for mass drift and retention time drift and quantifies MS1 level mass spectral peaks.
+   Processing of adductomic mass spectral datasets
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/adductomicsR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/adductomicsR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-adductomicsr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adductomicsr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adductomicsr/meta.yaml>`_
 
-   
+   Processes MS2 data to identify potentially adducted peptides from spectra that has been corrected for mass drift and retention time drift and quantifies MS1 level mass spectral peaks.
 
 
 .. conda:package:: bioconductor-adductomicsr
 
    |downloads_bioconductor-adductomicsr| |docker_bioconductor-adductomicsr|
 
-   :versions: 1.2.0-0, 1.0.0-1
+   :versions: 1.0.0-1
    
-   :depends bioconductor-adductdata: >=1.1.0,<1.2.0
-   :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
-   :depends bioconductor-mzr: >=2.20.0,<2.21.0
+   :depends bioconductor-adductdata: >=1.0.0,<1.1.0
+   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
+   :depends bioconductor-mzr: >=2.18.0,<2.19.0
    :depends r-ade4: >=1.7.6
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-bootstrap: >=2017.2

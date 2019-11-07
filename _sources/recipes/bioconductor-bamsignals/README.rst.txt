@@ -9,14 +9,14 @@ bioconductor-bamsignals
 .. conda:recipe:: bioconductor-bamsignals
    :replaces_section_title:
 
-   This package allows to efficiently obtain count vectors from indexed bam files. It counts the number of reads in given genomic ranges and it computes reads profiles and coverage profiles. It also handles paired\-end data.
+   Extract read count signals from bam files
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/bamsignals.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/bamsignals.html
    :license: GPL-2
    :recipe: /`bioconductor-bamsignals <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bamsignals>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bamsignals/meta.yaml>`_
    :links: biotools: :biotools:`bamsignals`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package allows to efficiently obtain count vectors from indexed bam files. It counts the number of reads in given genomic ranges and it computes reads profiles and coverage profiles. It also handles paired\-end data.
 
 
 .. conda:package:: bioconductor-bamsignals

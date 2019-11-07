@@ -9,13 +9,13 @@ bioconductor-metaseqr
 .. conda:recipe:: bioconductor-metaseqr
    :replaces_section_title:
 
-   Provides an interface to several normalization and statistical testing packages for RNA\-Seq gene expression data. Additionally\, it creates several diagnostic plots\, performs meta\-analysis by combinining the results of several statistical tests and reports the results in an interactive way.
+   An R package for the analysis and result reporting of RNA\-Seq data by combining multiple statistical algorithms.
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/metaseqR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/metaseqR.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-metaseqr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaseqr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaseqr/meta.yaml>`_
 
-   
+   Provides an interface to several normalization and statistical testing packages for RNA\-Seq gene expression data. Additionally\, it creates several diagnostic plots\, performs meta\-analysis by combinining the results of several statistical tests and reports the results in an interactive way.
 
 
 .. conda:package:: bioconductor-metaseqr

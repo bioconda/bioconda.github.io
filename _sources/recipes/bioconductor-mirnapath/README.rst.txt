@@ -9,14 +9,14 @@ bioconductor-mirnapath
 .. conda:recipe:: bioconductor-mirnapath
    :replaces_section_title:
 
-   This package provides pathway enrichment techniques for miRNA expression data. Specifically\, the set of methods handles the many\-to\-many relationship between miRNAs and the multiple genes they are predicted to target \(and thus affect.\)  It also handles the gene\-to\-pathway relationships separately. Both steps are designed to preserve the additive effects of miRNAs on genes\, many miRNAs affecting one gene\, one miRNA affecting multiple genes\, or many miRNAs affecting many genes.
+   miRNApath\: Pathway Enrichment for miRNA Expression Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/miRNApath.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/miRNApath.html
    :license: LGPL-2.1
    :recipe: /`bioconductor-mirnapath <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnapath>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnapath/meta.yaml>`_
    :links: biotools: :biotools:`mirnapath`
 
-   
+   This package provides pathway enrichment techniques for miRNA expression data. Specifically\, the set of methods handles the many\-to\-many relationship between miRNAs and the multiple genes they are predicted to target \(and thus affect.\)  It also handles the gene\-to\-pathway relationships separately. Both steps are designed to preserve the additive effects of miRNAs on genes\, many miRNAs affecting one gene\, one miRNA affecting multiple genes\, or many miRNAs affecting many genes.
 
 
 .. conda:package:: bioconductor-mirnapath

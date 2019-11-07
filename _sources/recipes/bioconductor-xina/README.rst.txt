@@ -9,13 +9,13 @@ bioconductor-xina
 .. conda:recipe:: bioconductor-xina
    :replaces_section_title:
 
-   An intuitive R package simplifies network analyses output from multiplexed high\-dimensional proteomics\/trascriptomics kinetics data.
+   Multiplexes isobaric mass tagged\-based kinetics data for network analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/XINA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/XINA.html
    :license: GPL-3
    :recipe: /`bioconductor-xina <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xina>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xina/meta.yaml>`_
 
-   
+   An intuitive R package simplifies network analyses output from multiplexed high\-dimensional proteomics\/trascriptomics kinetics data.
 
 
 .. conda:package:: bioconductor-xina

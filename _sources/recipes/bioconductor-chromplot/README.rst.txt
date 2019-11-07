@@ -9,14 +9,14 @@ bioconductor-chromplot
 .. conda:recipe:: bioconductor-chromplot
    :replaces_section_title:
 
-   Package designed to visualize genomic data along the chromosomes\, where the vertical chromosomes are sorted by number\, with sex chromosomes at the end.
+   Global visualization tool of genomic data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/chromPlot.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/chromPlot.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-chromplot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromplot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromplot/meta.yaml>`_
    :links: biotools: :biotools:`chromplot`, doi: :doi:`10.1093/bioinformatics/btw137`
 
-   
+   Package designed to visualize genomic data along the chromosomes\, where the vertical chromosomes are sorted by number\, with sex chromosomes at the end.
 
 
 .. conda:package:: bioconductor-chromplot

@@ -9,33 +9,34 @@ bioconductor-gseabenchmarker
 .. conda:recipe:: bioconductor-gseabenchmarker
    :replaces_section_title:
 
-   The GSEABenchmarkeR package implements an extendable framework for reproducible evaluation of set\- and network\-based methods for enrichment analysis of gene expression data. This includes support for the efficient execution of these methods on comprehensive real data compendia \(microarray and RNA\-seq\) using parallel computation on standard workstations and institutional computer grids. Methods can then be assessed with respect to runtime\, statistical significance\, and relevance of the results for the phenotypes investigated.
+   Reproducible GSEA Benchmarking
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GSEABenchmarkeR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GSEABenchmarkeR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gseabenchmarker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gseabenchmarker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gseabenchmarker/meta.yaml>`_
 
-   
+   The GSEABenchmarkeR package implements an extendable framework for reproducible evaluation of set\- and network\-based methods for enrichment analysis of gene expression data. This includes support for the efficient execution of these methods on comprehensive real data compendia \(microarray and RNA\-seq\) using parallel computation on standard workstations and institutional computer grids. Methods can then be assessed with respect to runtime\, statistical significance\, and relevance of the results for the phenotypes investigated.
 
 
 .. conda:package:: bioconductor-gseabenchmarker
 
    |downloads_bioconductor-gseabenchmarker| |docker_bioconductor-gseabenchmarker|
 
-   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions: 1.4.0-1, 1.2.0-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-biocfilecache: >=1.10.0,<1.11.0
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-edger: >=3.28.0,<3.29.0
-   :depends bioconductor-enrichmentbrowser: >=2.16.0,<2.17.0
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
-   :depends bioconductor-keggandmetacoredzpathwaysgeo: >=1.5.0,<1.6.0
-   :depends bioconductor-keggdzpathwaysgeo: >=1.23.0,<1.24.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-biocfilecache: >=1.8.0,<1.9.0
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-edger: >=3.26.0,<3.27.0
+   :depends bioconductor-enrichmentbrowser: >=2.14.0,<2.15.0
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
+   :depends bioconductor-geoquery: >=2.52.0,<2.53.0
+   :depends bioconductor-keggandmetacoredzpathwaysgeo: >=1.4.0,<1.5.0
+   :depends bioconductor-keggdzpathwaysgeo: >=1.22.0,<1.23.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-rappdirs: 
    :requirements:

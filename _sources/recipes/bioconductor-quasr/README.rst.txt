@@ -9,14 +9,14 @@ bioconductor-quasr
 .. conda:recipe:: bioconductor-quasr
    :replaces_section_title:
 
-   This package provides a framework for the quantification and analysis of Short Reads. It covers a complete workflow starting from raw sequence reads\, over creation of alignments and quality control plots\, to the quantification of genomic regions of interest.
+   Quantify and Annotate Short Reads in R
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/QuasR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/QuasR.html
    :license: GPL-2
    :recipe: /`bioconductor-quasr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quasr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quasr/meta.yaml>`_
    :links: biotools: :biotools:`quasr`
 
-   
+   This package provides a framework for the quantification and analysis of Short Reads. It covers a complete workflow starting from raw sequence reads\, over creation of alignments and quality control plots\, to the quantification of genomic regions of interest.
 
 
 .. conda:package:: bioconductor-quasr

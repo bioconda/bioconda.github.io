@@ -9,13 +9,13 @@ bioconductor-descan2
 .. conda:recipe:: bioconductor-descan2
    :replaces_section_title:
 
-   Integrated peak and differential caller\, specifically designed for broad epigenomic signals.
+   Differential Enrichment Scan 2
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DEScan2.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DEScan2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-descan2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-descan2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-descan2/meta.yaml>`_
 
-   
+   Integrated peak and differential caller\, specifically designed for broad epigenomic signals.
 
 
 .. conda:package:: bioconductor-descan2

@@ -9,13 +9,13 @@ bioconductor-htseqgenie
 .. conda:recipe:: bioconductor-htseqgenie
    :replaces_section_title:
 
-   Libraries to perform NGS analysis.
+   A NGS analysis pipeline.
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/HTSeqGenie.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/HTSeqGenie.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-htseqgenie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htseqgenie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htseqgenie/meta.yaml>`_
 
-   
+   Libraries to perform NGS analysis.
 
 
 .. conda:package:: bioconductor-htseqgenie

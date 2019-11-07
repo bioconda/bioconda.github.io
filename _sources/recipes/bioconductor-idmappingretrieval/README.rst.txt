@@ -9,13 +9,13 @@ bioconductor-idmappingretrieval
 .. conda:recipe:: bioconductor-idmappingretrieval
    :replaces_section_title:
 
-   Data retrieval for identifier mapping performance analysis
+   ID Mapping Data Retrieval
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/IdMappingRetrieval.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/IdMappingRetrieval.html
    :license: GPL-2
    :recipe: /`bioconductor-idmappingretrieval <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-idmappingretrieval>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-idmappingretrieval/meta.yaml>`_
 
-   
+   Data retrieval for identifier mapping performance analysis
 
 
 .. conda:package:: bioconductor-idmappingretrieval

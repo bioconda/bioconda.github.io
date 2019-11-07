@@ -9,13 +9,13 @@ bioconductor-runibic
 .. conda:recipe:: bioconductor-runibic
    :replaces_section_title:
 
-   This package implements UbiBic algorithm in R. This biclustering algorithm for analysis of gene expression data was introduced by Zhenjia Wang et al. in 2016. It is currently considered the most promising biclustering method for identification of meaningful structures in complex and noisy data.
+   runibic\: row\-based biclustering algorithm for analysis of gene expression data in R
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/runibic.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/runibic.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-runibic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-runibic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-runibic/meta.yaml>`_
 
-   
+   This package implements UbiBic algorithm in R. This biclustering algorithm for analysis of gene expression data was introduced by Zhenjia Wang et al. in 2016. It is currently considered the most promising biclustering method for identification of meaningful structures in complex and noisy data.
 
 
 .. conda:package:: bioconductor-runibic

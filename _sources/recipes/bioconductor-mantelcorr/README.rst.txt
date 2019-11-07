@@ -9,14 +9,14 @@ bioconductor-mantelcorr
 .. conda:recipe:: bioconductor-mantelcorr
    :replaces_section_title:
 
-   Computes Mantel cluster correlations from a \(p x n\) numeric data matrix \(e.g. microarray gene\-expression data\).
+   Compute Mantel Cluster Correlations
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MantelCorr.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MantelCorr.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mantelcorr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mantelcorr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mantelcorr/meta.yaml>`_
    :links: biotools: :biotools:`mantelcorr`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Computes Mantel cluster correlations from a \(p x n\) numeric data matrix \(e.g. microarray gene\-expression data\).
 
 
 .. conda:package:: bioconductor-mantelcorr

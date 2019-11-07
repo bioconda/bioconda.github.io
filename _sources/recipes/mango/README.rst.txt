@@ -25,7 +25,7 @@ mango
 
    |downloads_mango| |docker_mango|
 
-   :versions: 0.0.5-2, 0.0.5-1, 0.0.5-0
+   :versions: 0.0.5-3, 0.0.5-2, 0.0.5-1, 0.0.5-0
    
    :depends cigar: 0.1.3
    :depends dask: 

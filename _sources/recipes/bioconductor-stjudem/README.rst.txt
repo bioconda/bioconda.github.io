@@ -9,20 +9,20 @@ bioconductor-stjudem
 .. conda:recipe:: bioconductor-stjudem
    :replaces_section_title:
 
-   This is a microarray data set on acute lymphoblastic leukemia\, published in 2002 \(Yeoh et al.Cancer Cell 2002\). The experiments were conducted in the St.Jude Children\'s Research Hospital\, Memphis\, Tenessee\, USA. The raw data was preprocessed by variance stabilizing normalization \(Huber et al.\) on probe and subsequent summarization of probe expression values into probe set expression values using median polish.
+   Microarray Data from Yeoh et al. in MACAT format
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/stjudem.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/stjudem.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-stjudem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stjudem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stjudem/meta.yaml>`_
 
-   
+   This is a microarray data set on acute lymphoblastic leukemia\, published in 2002 \(Yeoh et al.Cancer Cell 2002\). The experiments were conducted in the St.Jude Children\'s Research Hospital\, Memphis\, Tenessee\, USA. The raw data was preprocessed by variance stabilizing normalization \(Huber et al.\) on probe and subsequent summarization of probe expression values into probe set expression values using median polish.
 
 
 .. conda:package:: bioconductor-stjudem
 
    |downloads_bioconductor-stjudem| |docker_bioconductor-stjudem|
 
-   :versions: 1.25.0-0, 1.24.0-1, 1.24.0-0, 1.22.0-0
+   :versions: 1.26.0-0, 1.24.0-1, 1.24.0-0, 1.22.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

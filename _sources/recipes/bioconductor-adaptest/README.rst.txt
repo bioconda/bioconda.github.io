@@ -9,13 +9,13 @@ bioconductor-adaptest
 .. conda:recipe:: bioconductor-adaptest
    :replaces_section_title:
 
-   Data\-adaptive test statistics represent a general methodology for performing multiple hypothesis testing on effects sizes while maintaining honest statistical inference when operating in high\-dimensional settings \(\<doi here\>\). The utilities provided here extend the use of this general methodology to many common data analytic challenges that arise in modern computational and genomic biology.
+   Data\-Adaptive Statistics for High\-Dimensional Multiple Testing
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/adaptest.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/adaptest.html
    :license: GPL-2
    :recipe: /`bioconductor-adaptest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adaptest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adaptest/meta.yaml>`_
 
-   
+   Data\-adaptive test statistics represent a general methodology for performing multiple hypothesis testing on effects sizes while maintaining honest statistical inference when operating in high\-dimensional settings \(\<doi here\>\). The utilities provided here extend the use of this general methodology to many common data analytic challenges that arise in modern computational and genomic biology.
 
 
 .. conda:package:: bioconductor-adaptest

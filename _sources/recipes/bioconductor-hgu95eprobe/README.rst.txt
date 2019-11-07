@@ -9,13 +9,13 @@ bioconductor-hgu95eprobe
 .. conda:recipe:: bioconductor-hgu95eprobe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was HG\-U95E\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type hgu95e
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hgu95eprobe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hgu95eprobe.html
    :license: LGPL
    :recipe: /`bioconductor-hgu95eprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95eprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95eprobe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was HG\-U95E\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-hgu95eprobe

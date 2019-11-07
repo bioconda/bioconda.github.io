@@ -9,14 +9,14 @@ bioconductor-xbseq
 .. conda:recipe:: bioconductor-xbseq
    :replaces_section_title:
 
-   We developed a novel algorithm\, XBSeq\, where a statistical model was established based on the assumption that observed signals are the convolution of true expression signals and sequencing noises. The mapped reads in non\-exonic regions are considered as sequencing noises\, which follows a Poisson distribution. Given measureable observed and noise signals from RNA\-seq data\, true expression signals\, assuming governed by the negative binomial distribution\, can be delineated and thus the accurate detection of differential expressed genes.
+   Test for differential expression for RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/XBSeq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/XBSeq.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-xbseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xbseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xbseq/meta.yaml>`_
    :links: biotools: :biotools:`xbseq`, doi: :doi:`10.1186/1471-2164-16-S7-S14`
 
-   
+   We developed a novel algorithm\, XBSeq\, where a statistical model was established based on the assumption that observed signals are the convolution of true expression signals and sequencing noises. The mapped reads in non\-exonic regions are considered as sequencing noises\, which follows a Poisson distribution. Given measureable observed and noise signals from RNA\-seq data\, true expression signals\, assuming governed by the negative binomial distribution\, can be delineated and thus the accurate detection of differential expressed genes.
 
 
 .. conda:package:: bioconductor-xbseq

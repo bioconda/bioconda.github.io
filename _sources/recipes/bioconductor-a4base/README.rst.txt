@@ -9,14 +9,14 @@ bioconductor-a4base
 .. conda:recipe:: bioconductor-a4base
    :replaces_section_title:
 
-   Automated Affymetrix Array Analysis
+   Automated Affymetrix Array Analysis Base Package
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/a4Base.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/a4Base.html
    :license: GPL-3
    :recipe: /`bioconductor-a4base <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4base>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4base/meta.yaml>`_
    :links: biotools: :biotools:`a4base`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Automated Affymetrix Array Analysis
 
 
 .. conda:package:: bioconductor-a4base

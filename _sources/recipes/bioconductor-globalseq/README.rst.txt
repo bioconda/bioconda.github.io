@@ -9,14 +9,14 @@ bioconductor-globalseq
 .. conda:recipe:: bioconductor-globalseq
    :replaces_section_title:
 
-   The method may be conceptualised as a test of overall significance in regression analysis\, where the response variable is overdispersed and the number of explanatory variables exceeds the sample size. Useful for testing for association between RNA\-Seq and high\-dimensional data.
+   Global Test for Counts
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/globalSeq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/globalSeq.html
    :license: GPL-3
    :recipe: /`bioconductor-globalseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-globalseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-globalseq/meta.yaml>`_
    :links: biotools: :biotools:`globalseq`
 
-   
+   The method may be conceptualised as a test of overall significance in regression analysis\, where the response variable is overdispersed and the number of explanatory variables exceeds the sample size. Useful for testing for association between RNA\-Seq and high\-dimensional data.
 
 
 .. conda:package:: bioconductor-globalseq

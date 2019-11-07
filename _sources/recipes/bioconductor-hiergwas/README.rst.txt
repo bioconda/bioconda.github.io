@@ -9,13 +9,13 @@ bioconductor-hiergwas
 .. conda:recipe:: bioconductor-hiergwas
    :replaces_section_title:
 
-   Testing individual SNPs\, as well as arbitrarily large groups of SNPs in GWA studies\, using a joint model of all SNPs. The method controls the FWER\, and provides an automatic\, data\-driven refinement of the SNP clusters to smaller groups or single markers.
+   Asessing statistical significance in predictive GWA studies
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/hierGWAS.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/hierGWAS.html
    :license: GPL-3
    :recipe: /`bioconductor-hiergwas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hiergwas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hiergwas/meta.yaml>`_
 
-   
+   Testing individual SNPs\, as well as arbitrarily large groups of SNPs in GWA studies\, using a joint model of all SNPs. The method controls the FWER\, and provides an automatic\, data\-driven refinement of the SNP clusters to smaller groups or single markers.
 
 
 .. conda:package:: bioconductor-hiergwas

@@ -9,20 +9,20 @@ bioconductor-shinymethyldata
 .. conda:recipe:: bioconductor-shinymethyldata
    :replaces_section_title:
 
-   Extracted data from 369 TCGA Head and Neck Cancer DNA methylation samples. The extracted data serve as an example dataset for the package shinyMethyl. Original samples are from 450k methylation arrays\, and were obtained from The Cancer Genome Atlas \(TCGA\). 310 samples are from tumor\, 50 are matched normals and 9 are technical replicates of a control cell line.
+   Example dataset of input data for shinyMethyl
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/shinyMethylData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/shinyMethylData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-shinymethyldata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-shinymethyldata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-shinymethyldata/meta.yaml>`_
 
-   
+   Extracted data from 369 TCGA Head and Neck Cancer DNA methylation samples. The extracted data serve as an example dataset for the package shinyMethyl. Original samples are from 450k methylation arrays\, and were obtained from The Cancer Genome Atlas \(TCGA\). 310 samples are from tumor\, 50 are matched normals and 9 are technical replicates of a control cell line.
 
 
 .. conda:package:: bioconductor-shinymethyldata
 
    |downloads_bioconductor-shinymethyldata| |docker_bioconductor-shinymethyldata|
 
-   :versions: 1.5.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

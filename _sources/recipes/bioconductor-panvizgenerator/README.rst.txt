@@ -9,13 +9,13 @@ bioconductor-panvizgenerator
 .. conda:recipe:: bioconductor-panvizgenerator
    :replaces_section_title:
 
-   PanViz is a JavaScript based visualisation tool for functionaly annotated pangenomes. PanVizGenerator is a companion for PanViz that facilitates the necessary data preprocessing step necessary to create a working PanViz visualization. The output is fully self\-contained so the recipient of the visualization does not need R or PanVizGenerator installed.
+   Generate PanViz visualisations from your pangenome
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PanVizGenerator.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PanVizGenerator.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-panvizgenerator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panvizgenerator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panvizgenerator/meta.yaml>`_
 
-   
+   PanViz is a JavaScript based visualisation tool for functionaly annotated pangenomes. PanVizGenerator is a companion for PanViz that facilitates the necessary data preprocessing step necessary to create a working PanViz visualization. The output is fully self\-contained so the recipient of the visualization does not need R or PanVizGenerator installed.
 
 
 .. conda:package:: bioconductor-panvizgenerator

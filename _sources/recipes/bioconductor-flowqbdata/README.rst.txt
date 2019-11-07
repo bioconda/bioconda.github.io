@@ -9,20 +9,20 @@ bioconductor-flowqbdata
 .. conda:recipe:: bioconductor-flowqbdata
    :replaces_section_title:
 
-   The flowQBData package provides data files used as examples and for testing of the software provided in the flowQB package.
+   flowQB test and example data files
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/flowQBData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/flowQBData.html
    :license: Artistic License 2.0
    :recipe: /`bioconductor-flowqbdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowqbdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowqbdata/meta.yaml>`_
 
-   
+   The flowQBData package provides data files used as examples and for testing of the software provided in the flowQB package.
 
 
 .. conda:package:: bioconductor-flowqbdata
 
    |downloads_bioconductor-flowqbdata| |docker_bioconductor-flowqbdata|
 
-   :versions: 1.10.0-1, 1.10.0-0, 1.9.0-0, 1.8.0-0
+   :versions: 1.10.0-1, 1.10.0-0, 1.8.0-0
    
    :depends curl: >=7.64.1,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

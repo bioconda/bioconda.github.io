@@ -9,13 +9,13 @@ bioconductor-plasmodiumanophelescdf
 .. conda:recipe:: bioconductor-plasmodiumanophelescdf
    :replaces_section_title:
 
-   A package containing an environment representing the Plasmodium\_Anopheles.cdf file.
+   plasmodiumanophelescdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/plasmodiumanophelescdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/plasmodiumanophelescdf.html
    :license: LGPL
    :recipe: /`bioconductor-plasmodiumanophelescdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plasmodiumanophelescdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plasmodiumanophelescdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the Plasmodium\_Anopheles.cdf file.
 
 
 .. conda:package:: bioconductor-plasmodiumanophelescdf

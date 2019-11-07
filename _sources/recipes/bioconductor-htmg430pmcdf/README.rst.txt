@@ -9,13 +9,13 @@ bioconductor-htmg430pmcdf
 .. conda:recipe:: bioconductor-htmg430pmcdf
    :replaces_section_title:
 
-   A package containing an environment representing the HT\_MG\-430\_PM.cdf file.
+   htmg430pmcdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/htmg430pmcdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/htmg430pmcdf.html
    :license: LGPL
    :recipe: /`bioconductor-htmg430pmcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htmg430pmcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htmg430pmcdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the HT\_MG\-430\_PM.cdf file.
 
 
 .. conda:package:: bioconductor-htmg430pmcdf

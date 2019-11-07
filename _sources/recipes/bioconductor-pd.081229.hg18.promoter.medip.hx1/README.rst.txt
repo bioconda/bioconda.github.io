@@ -11,11 +11,11 @@ bioconductor-pd.081229.hg18.promoter.medip.hx1
 
    Platform Design Info for NimbleGen 081229\_hg18\_promoter\_medip\_hx1
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.081229.hg18.promoter.medip.hx1.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.081229.hg18.promoter.medip.hx1.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.081229.hg18.promoter.medip.hx1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.081229.hg18.promoter.medip.hx1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.081229.hg18.promoter.medip.hx1/meta.yaml>`_
 
-   
+   Platform Design Info for NimbleGen 081229\_hg18\_promoter\_medip\_hx1
 
 
 .. conda:package:: bioconductor-pd.081229.hg18.promoter.medip.hx1

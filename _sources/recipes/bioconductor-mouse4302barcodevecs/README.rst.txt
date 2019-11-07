@@ -9,20 +9,20 @@ bioconductor-mouse4302barcodevecs
 .. conda:recipe:: bioconductor-mouse4302barcodevecs
    :replaces_section_title:
 
-   Data used by the barcode package for microarrays of type mouse4302.
+   mouse4302 data for barcode
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/mouse4302barcodevecs.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/mouse4302barcodevecs.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mouse4302barcodevecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse4302barcodevecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse4302barcodevecs/meta.yaml>`_
 
-   
+   Data used by the barcode package for microarrays of type mouse4302.
 
 
 .. conda:package:: bioconductor-mouse4302barcodevecs
 
    |downloads_bioconductor-mouse4302barcodevecs| |docker_bioconductor-mouse4302barcodevecs|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

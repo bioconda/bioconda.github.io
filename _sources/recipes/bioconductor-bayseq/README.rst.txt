@@ -9,14 +9,14 @@ bioconductor-bayseq
 .. conda:recipe:: bioconductor-bayseq
    :replaces_section_title:
 
-   This package identifies differential expression in high\-throughput \'count\' data\, such as that derived from next\-generation sequencing machines\, calculating estimated posterior likelihoods of differential expression \(or more complex hypotheses\) via empirical Bayesian methods.
+   Empirical Bayesian analysis of patterns of differential expression in count data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/baySeq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/baySeq.html
    :license: GPL-3
    :recipe: /`bioconductor-bayseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bayseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bayseq/meta.yaml>`_
    :links: biotools: :biotools:`bayseq`, doi: :doi:`10.1186/1471-2105-11-422`
 
-   
+   This package identifies differential expression in high\-throughput \'count\' data\, such as that derived from next\-generation sequencing machines\, calculating estimated posterior likelihoods of differential expression \(or more complex hypotheses\) via empirical Bayesian methods.
 
 
 .. conda:package:: bioconductor-bayseq

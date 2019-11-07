@@ -9,13 +9,13 @@ bioconductor-allelicimbalance
 .. conda:recipe:: bioconductor-allelicimbalance
    :replaces_section_title:
 
-   Provides a framework for allelic specific expression investigation using RNA\-seq data.
+   Investigates Allele Specific Expression
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/AllelicImbalance.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/AllelicImbalance.html
    :license: GPL-3
    :recipe: /`bioconductor-allelicimbalance <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-allelicimbalance>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-allelicimbalance/meta.yaml>`_
 
-   
+   Provides a framework for allelic specific expression investigation using RNA\-seq data.
 
 
 .. conda:package:: bioconductor-allelicimbalance

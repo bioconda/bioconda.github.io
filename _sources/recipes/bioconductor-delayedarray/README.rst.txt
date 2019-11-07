@@ -9,13 +9,13 @@ bioconductor-delayedarray
 .. conda:recipe:: bioconductor-delayedarray
    :replaces_section_title:
 
-   Wrapping an array\-like object \(typically an on\-disk object\) in a DelayedArray object allows one to perform common array operations on it without loading the object in memory. In order to reduce memory usage and optimize performance\, operations on the object are either delayed or executed using a block processing mechanism. Note that this also works on in\-memory array\-like objects like DataFrame objects \(typically with Rle columns\)\, Matrix objects\, and ordinary arrays and data frames.
+   A unified framework for working transparently with on\-disk and in\-memory array\-like datasets
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DelayedArray.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DelayedArray.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-delayedarray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-delayedarray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-delayedarray/meta.yaml>`_
 
-   
+   Wrapping an array\-like object \(typically an on\-disk object\) in a DelayedArray object allows one to perform common array operations on it without loading the object in memory. In order to reduce memory usage and optimize performance\, operations on the object are either delayed or executed using a block processing mechanism. Note that this also works on in\-memory array\-like objects like DataFrame objects \(typically with Rle columns\)\, Matrix objects\, and ordinary arrays and data frames.
 
 
 .. conda:package:: bioconductor-delayedarray

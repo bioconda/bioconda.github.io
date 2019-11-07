@@ -9,13 +9,13 @@ bioconductor-biocsklearn
 .. conda:recipe:: bioconductor-biocsklearn
    :replaces_section_title:
 
-   This package provides interfaces to selected sklearn elements\, and demonstrates fault tolerant use of python modules requiring extensive iteration.
+   interface to python sklearn via Rstudio reticulate
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BiocSklearn.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BiocSklearn.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biocsklearn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocsklearn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocsklearn/meta.yaml>`_
 
-   
+   This package provides interfaces to selected sklearn elements\, and demonstrates fault tolerant use of python modules requiring extensive iteration.
 
 
 .. conda:package:: bioconductor-biocsklearn

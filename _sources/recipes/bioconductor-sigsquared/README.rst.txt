@@ -9,13 +9,13 @@ bioconductor-sigsquared
 .. conda:recipe:: bioconductor-sigsquared
    :replaces_section_title:
 
-   By leveraging statistical properties \(log\-rank test for survival\) of patient cohorts defined by binary thresholds\, poor\-prognosis patients are identified by the sigsquared package via optimization over a cost function reducing type I and II error.
+   Gene signature generation for functionally validated signaling pathways
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/sigsquared.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/sigsquared.html
    :license: GPL version 3
    :recipe: /`bioconductor-sigsquared <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigsquared>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigsquared/meta.yaml>`_
 
-   
+   By leveraging statistical properties \(log\-rank test for survival\) of patient cohorts defined by binary thresholds\, poor\-prognosis patients are identified by the sigsquared package via optimization over a cost function reducing type I and II error.
 
 
 .. conda:package:: bioconductor-sigsquared

@@ -9,13 +9,13 @@ bioconductor-adam
 .. conda:recipe:: bioconductor-adam
    :replaces_section_title:
 
-   ADAM is a GSEA R package created to group a set of genes from comparative samples \(control versus experiment\) belonging to different species according to their respective functions \(Gene Ontology and KEGG pathways as default\) and show their significance by calculating p\-values referring togene diversity and activity. Each group of genes is called GFAG \(Group of Functionally Associated Genes\).
+   ADAM\: Activity and Diversity Analysis Module
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ADAM.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ADAM.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-adam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adam/meta.yaml>`_
 
-   
+   ADAM is a GSEA R package created to group a set of genes from comparative samples \(control versus experiment\) belonging to different species according to their respective functions \(Gene Ontology and KEGG pathways as default\) and show their significance by calculating p\-values referring togene diversity and activity. Each group of genes is called GFAG \(Group of Functionally Associated Genes\).
 
 
 .. conda:package:: bioconductor-adam

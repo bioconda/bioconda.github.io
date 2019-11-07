@@ -9,13 +9,13 @@ bioconductor-do.db
 .. conda:recipe:: bioconductor-do.db
    :replaces_section_title:
 
-   A set of annotation maps describing the entire Disease Ontology assembled using data from DO
+   A set of annotation maps describing the entire Disease Ontology
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/DO.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/DO.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-do.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-do.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-do.db/meta.yaml>`_
 
-   
+   A set of annotation maps describing the entire Disease Ontology assembled using data from DO
 
 
 .. conda:package:: bioconductor-do.db

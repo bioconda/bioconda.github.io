@@ -9,13 +9,13 @@ bioconductor-rwgcod.db
 .. conda:recipe:: bioconductor-rwgcod.db
    :replaces_section_title:
 
-   Codelink Rat Whole Genome Bioarray \(\~34 000 rat gene targets\) annotation data \(chip rwgcod\) assembled using data from public repositories
+   Codelink Rat Whole Genome Bioarray \(\~34 000 rat gene targets\) annotation data \(chip rwgcod\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/rwgcod.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/rwgcod.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rwgcod.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rwgcod.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rwgcod.db/meta.yaml>`_
 
-   
+   Codelink Rat Whole Genome Bioarray \(\~34 000 rat gene targets\) annotation data \(chip rwgcod\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-rwgcod.db

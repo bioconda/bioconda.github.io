@@ -9,14 +9,14 @@ bioconductor-undo
 .. conda:recipe:: bioconductor-undo
    :replaces_section_title:
 
-   UNDO is an R package for unsupervised deconvolution of tumor and stromal mixed expression data. It detects marker genes and deconvolutes the mixing expression data without any prior knowledge.
+   Unsupervised Deconvolution of Tumor\-Stromal Mixed Expressions
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/UNDO.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/UNDO.html
    :license: GPL-2
    :recipe: /`bioconductor-undo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-undo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-undo/meta.yaml>`_
    :links: biotools: :biotools:`undo`, doi: :doi:`10.1093/bioinformatics/btu607`
 
-   
+   UNDO is an R package for unsupervised deconvolution of tumor and stromal mixed expression data. It detects marker genes and deconvolutes the mixing expression data without any prior knowledge.
 
 
 .. conda:package:: bioconductor-undo

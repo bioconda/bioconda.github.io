@@ -9,13 +9,13 @@ bioconductor-celda
 .. conda:recipe:: bioconductor-celda
    :replaces_section_title:
 
-   celda leverages Bayesian hierarchical modeling to cluster genes\, cells\, or both simultaneously from single cell sequencing data.
+   CEllular Latent Dirichlet Allocation
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/celda.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/celda.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-celda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celda/meta.yaml>`_
 
-   
+   celda is a Bayesian hierarchical model that can co\-cluster features and cells in single cell sequencing data.
 
 
 .. conda:package:: bioconductor-celda

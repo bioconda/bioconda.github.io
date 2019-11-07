@@ -9,20 +9,20 @@ bioconductor-flowsorted.blood.epic
 .. conda:recipe:: bioconductor-flowsorted.blood.epic
    :replaces_section_title:
 
-   Raw data objects to be used for blood cell proportion estimation in minfi and similar packages. The FlowSorted.Blood.EPIC object is based in samples assayed by Brock Christensen and colleagues\; for details see Salas et al. 2018. https\:\/\/www.ncbi.nlm.nih.gov\/geo\/query\/acc.cgi\?acc\=GSE110554.
+   Illumina EPIC data on immunomagnetic sorted peripheral adult blood cells
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/FlowSorted.Blood.EPIC.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/FlowSorted.Blood.EPIC.html
    :license: GPL-3
    :recipe: /`bioconductor-flowsorted.blood.epic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.blood.epic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.blood.epic/meta.yaml>`_
 
-   
+   Raw data objects to be used for blood cell proportion estimation in minfi and similar packages. The FlowSorted.Blood.EPIC object is based in samples assayed by Brock Christensen and colleagues\; for details see Salas et al. 2018. https\:\/\/www.ncbi.nlm.nih.gov\/geo\/query\/acc.cgi\?acc\=GSE110554.
 
 
 .. conda:package:: bioconductor-flowsorted.blood.epic
 
    |downloads_bioconductor-flowsorted.blood.epic| |docker_bioconductor-flowsorted.blood.epic|
 
-   :versions: 1.3.0-0, 1.2.0-1, 1.0.0-0
+   :versions: 1.4.0-0, 1.2.0-1, 1.0.0-0
    
    :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
    :depends bioconductor-genefilter: >=1.68.0,<1.69.0

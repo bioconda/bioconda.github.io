@@ -9,13 +9,13 @@ bioconductor-guitar
 .. conda:recipe:: bioconductor-guitar
    :replaces_section_title:
 
-   The package is designed for visualization of RNA\-related genomic features with respect to the landmarks of RNA transcripts\, i.e.\, transcription starting site\, start codon\, stop codon and transcription ending site.
+   Guitar
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Guitar.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Guitar.html
    :license: GPL-2
    :recipe: /`bioconductor-guitar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-guitar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-guitar/meta.yaml>`_
 
-   
+   The package is designed for visualization of RNA\-related genomic features with respect to the landmarks of RNA transcripts\, i.e.\, transcription starting site\, start codon\, stop codon and transcription ending site.
 
 
 .. conda:package:: bioconductor-guitar

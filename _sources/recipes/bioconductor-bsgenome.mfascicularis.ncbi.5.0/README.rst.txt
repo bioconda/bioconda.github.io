@@ -9,13 +9,13 @@ bioconductor-bsgenome.mfascicularis.ncbi.5.0
 .. conda:recipe:: bioconductor-bsgenome.mfascicularis.ncbi.5.0
    :replaces_section_title:
 
-   Full genome sequences for Macaca fascicularis \(long\-tailed macaque\) as provided by NCBI \(Macaca\_fascicularis\_5.0\, 2013\-06\-12\) and stored in Biostrings objects.
+   Full genome sequences for Macaca fascicularis \(Macaca\_fascicularis\_5.0\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Mfascicularis.NCBI.5.0.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Mfascicularis.NCBI.5.0.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.mfascicularis.ncbi.5.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mfascicularis.ncbi.5.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mfascicularis.ncbi.5.0/meta.yaml>`_
 
-   
+   Full genome sequences for Macaca fascicularis \(long\-tailed macaque\) as provided by NCBI \(Macaca\_fascicularis\_5.0\, 2013\-06\-12\) and stored in Biostrings objects.
 
 
 .. conda:package:: bioconductor-bsgenome.mfascicularis.ncbi.5.0

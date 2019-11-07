@@ -9,13 +9,13 @@ bioconductor-norway981.db
 .. conda:recipe:: bioconductor-norway981.db
    :replaces_section_title:
 
-   Norway981 http\:\/\/genome\-www5.stanford.edu\/ Annotation Data \(Norway981\) assembled using data from public repositories
+   Norway981 http\:\/\/genome\-www5.stanford.edu\/ Annotation Data \(Norway981\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/Norway981.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/Norway981.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-norway981.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-norway981.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-norway981.db/meta.yaml>`_
 
-   
+   Norway981 http\:\/\/genome\-www5.stanford.edu\/ Annotation Data \(Norway981\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-norway981.db

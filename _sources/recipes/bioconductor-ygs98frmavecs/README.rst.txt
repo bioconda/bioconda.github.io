@@ -9,13 +9,13 @@ bioconductor-ygs98frmavecs
 .. conda:recipe:: bioconductor-ygs98frmavecs
    :replaces_section_title:
 
-   This package was created by frmaTools version 1.19.3 and hgu133ahsentrezgcdf version 19.0.0.
+   Vectors used by frma for microarrays of type ygs98
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/ygs98frmavecs.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/ygs98frmavecs.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ygs98frmavecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ygs98frmavecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ygs98frmavecs/meta.yaml>`_
 
-   
+   This package was created by frmaTools version 1.19.3 and hgu133ahsentrezgcdf version 19.0.0.
 
 
 .. conda:package:: bioconductor-ygs98frmavecs

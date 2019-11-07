@@ -9,14 +9,14 @@ bioconductor-ogsa
 .. conda:recipe:: bioconductor-ogsa
    :replaces_section_title:
 
-   OGSA provides a global estimate of pathway deregulation in cancer subtypes by integrating the estimates of significance for individual pathway members that have been identified by outlier analysis.
+   Outlier Gene Set Analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/OGSA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/OGSA.html
    :license: GPL (== 2)
    :recipe: /`bioconductor-ogsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ogsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ogsa/meta.yaml>`_
    :links: biotools: :biotools:`ogsa`, doi: :doi:`10.1109/TCBB.2013.153`
 
-   
+   OGSA provides a global estimate of pathway deregulation in cancer subtypes by integrating the estimates of significance for individual pathway members that have been identified by outlier analysis.
 
 
 .. conda:package:: bioconductor-ogsa

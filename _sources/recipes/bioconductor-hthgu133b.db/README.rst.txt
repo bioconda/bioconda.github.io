@@ -9,13 +9,13 @@ bioconductor-hthgu133b.db
 .. conda:recipe:: bioconductor-hthgu133b.db
    :replaces_section_title:
 
-   Affymetrix HT Human Genome U133 Array Plate Set annotation data \(chip hthgu133b\) assembled using data from public repositories
+   Affymetrix HT Human Genome U133 Array Plate Set annotation data \(chip hthgu133b\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hthgu133b.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hthgu133b.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hthgu133b.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hthgu133b.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hthgu133b.db/meta.yaml>`_
 
-   
+   Affymetrix HT Human Genome U133 Array Plate Set annotation data \(chip hthgu133b\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-hthgu133b.db

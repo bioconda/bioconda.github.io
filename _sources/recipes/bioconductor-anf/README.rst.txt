@@ -9,13 +9,13 @@ bioconductor-anf
 .. conda:recipe:: bioconductor-anf
    :replaces_section_title:
 
-   This package is used for complex patient clustering by integrating multi\-omic data through affinity network fusion.
+   Affinity Network Fusion for Complex Patient Clustering
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ANF.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ANF.html
    :license: GPL-3
    :recipe: /`bioconductor-anf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anf/meta.yaml>`_
 
-   
+   This package is used for complex patient clustering by integrating multi\-omic data through affinity network fusion.
 
 
 .. conda:package:: bioconductor-anf

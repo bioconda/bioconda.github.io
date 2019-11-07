@@ -9,13 +9,13 @@ bioconductor-cordon
 .. conda:recipe:: bioconductor-cordon
    :replaces_section_title:
 
-   Tool for analysis of codon usage in various unannotated or KEGG\/COG annotated DNA sequences. Calculates different measures of CU bias and CU\-based predictors of gene expressivity\, and performs gene set enrichment analysis for annotated sequences. Implements several methods for visualization of CU and enrichment analysis results.
+   Codon Usage Analysis and Prediction of Gene Expressivity
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/coRdon.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/coRdon.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cordon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cordon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cordon/meta.yaml>`_
 
-   
+   Tool for analysis of codon usage in various unannotated or KEGG\/COG annotated DNA sequences. Calculates different measures of CU bias and CU\-based predictors of gene expressivity\, and performs gene set enrichment analysis for annotated sequences. Implements several methods for visualization of CU and enrichment analysis results.
 
 
 .. conda:package:: bioconductor-cordon

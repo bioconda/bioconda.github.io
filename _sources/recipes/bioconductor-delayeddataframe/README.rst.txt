@@ -9,13 +9,13 @@ bioconductor-delayeddataframe
 .. conda:recipe:: bioconductor-delayeddataframe
    :replaces_section_title:
 
-   Based on the standard DataFrame metaphor\, we are trying to implement the feature of delayed operation on the DelayedDataFrame\, with a slot of lazyIndex\, which saves the mapping indexes for each column of DelayedDataFrame. Methods like show\, validity check\, \[\/\[\[ subsetting\, rbind\/cbind are implemented for DelayedDataFrame to be operated around lazyIndex. The listData slot stays untouched until a realization call e.g.\, DataFrame constructor OR as.list\(\) is invoked.
+   Delayed operation on DataFrame using standard DataFrame metaphor
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DelayedDataFrame.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DelayedDataFrame.html
    :license: GPL-3
    :recipe: /`bioconductor-delayeddataframe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-delayeddataframe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-delayeddataframe/meta.yaml>`_
 
-   
+   Based on the standard DataFrame metaphor\, we are trying to implement the feature of delayed operation on the DelayedDataFrame\, with a slot of lazyIndex\, which saves the mapping indexes for each column of DelayedDataFrame. Methods like show\, validity check\, \[\/\[\[ subsetting\, rbind\/cbind are implemented for DelayedDataFrame to be operated around lazyIndex. The listData slot stays untouched until a realization call e.g.\, DataFrame constructor OR as.list\(\) is invoked.
 
 
 .. conda:package:: bioconductor-delayeddataframe

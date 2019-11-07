@@ -9,13 +9,13 @@ bioconductor-iterclust
 .. conda:recipe:: bioconductor-iterclust
    :replaces_section_title:
 
-   A framework for performing clustering analysis iteratively.
+   Iterative Clustering
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/iterClust.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/iterClust.html
    :license: file LICENSE
    :recipe: /`bioconductor-iterclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iterclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iterclust/meta.yaml>`_
 
-   
+   A framework for performing clustering analysis iteratively.
 
 
 .. conda:package:: bioconductor-iterclust

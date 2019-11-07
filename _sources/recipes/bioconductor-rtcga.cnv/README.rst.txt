@@ -9,20 +9,20 @@ bioconductor-rtcga.cnv
 .. conda:recipe:: bioconductor-rtcga.cnv
    :replaces_section_title:
 
-   Package provides CNV \(based on Merge snp\) datasets from The Cancer Genome Atlas Project for all cohorts types from http\:\/\/gdac.broadinstitute.org\/. Data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/Retrieving \+Data\+Using\+the\+Data\+Matrix. Data from 2015\-11\-01 snapshot.
+   CNV \(Copy\-number variation\) datasets from The Cancer Genome Atlas Project
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RTCGA.CNV.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RTCGA.CNV.html
    :license: GPL-2
    :recipe: /`bioconductor-rtcga.cnv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.cnv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.cnv/meta.yaml>`_
 
-   
+   Package provides CNV \(based on Merge snp\) datasets from The Cancer Genome Atlas Project for all cohorts types from http\:\/\/gdac.broadinstitute.org\/. Data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/Retrieving \+Data\+Using\+the\+Data\+Matrix. Data from 2015\-11\-01 snapshot.
 
 
 .. conda:package:: bioconductor-rtcga.cnv
 
    |downloads_bioconductor-rtcga.cnv| |docker_bioconductor-rtcga.cnv|
 
-   :versions: 1.13.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0
    
    :depends bioconductor-rtcga: >=1.16.0,<1.17.0
    :depends curl: >=7.65.3,<8.0a0

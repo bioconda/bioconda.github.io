@@ -9,20 +9,20 @@ bioconductor-affydata
 .. conda:recipe:: bioconductor-affydata
    :replaces_section_title:
 
-   Example datasets of a slightly large size. They represent \'real world examples\'\, unlike the artificial examples included in the package affy.
+   Affymetrix Data for Demonstration Purpose
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/affydata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/affydata.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-affydata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affydata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affydata/meta.yaml>`_
 
-   
+   Example datasets of a slightly large size. They represent \'real world examples\'\, unlike the artificial examples included in the package affy.
 
 
 .. conda:package:: bioconductor-affydata
 
    |downloads_bioconductor-affydata| |docker_bioconductor-affydata|
 
-   :versions: 1.33.0-0, 1.32.0-2, 1.30.0-1, 1.30.0-0, 1.28.0-0, 1.26.0-1, 1.26.0-0, 1.24.0-1, 1.24.0-0
+   :versions: 1.34.0-0, 1.32.0-2, 1.30.0-1, 1.30.0-0, 1.28.0-0, 1.26.0-1, 1.26.0-0, 1.24.0-1, 1.24.0-0
    
    :depends bioconductor-affy: >=1.64.0,<1.65.0
    :depends curl: >=7.65.3,<8.0a0

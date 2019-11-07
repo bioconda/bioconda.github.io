@@ -9,13 +9,13 @@ bioconductor-blma
 .. conda:recipe:: bioconductor-blma
    :replaces_section_title:
 
-   Suit of tools for bi\-level meta\-analysis. The package can be used in a wide range of applications\, including general hypothesis testings\, differential expression analysis\, functional analysis\, and pathway analysis.
+   BLMA\: A package for bi\-level meta\-analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BLMA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BLMA.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-blma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-blma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-blma/meta.yaml>`_
 
-   
+   Suit of tools for bi\-level meta\-analysis. The package can be used in a wide range of applications\, including general hypothesis testings\, differential expression analysis\, functional analysis\, and pathway analysis.
 
 
 .. conda:package:: bioconductor-blma

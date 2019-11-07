@@ -9,13 +9,13 @@ bioconductor-bigpint
 .. conda:recipe:: bioconductor-bigpint
    :replaces_section_title:
 
-   Methods for visualizing large multivariate datasets using static and interactive scatterplot matrices\, parallel coordinate plots\, volcano plots\, and litre plots. Includes examples for visualizing RNA\-sequencing datasets and differentially expressed genes.
+   Big multivariate data plotted interactively
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/bigPint.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/bigPint.html
    :license: GPL-3
    :recipe: /`bioconductor-bigpint <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bigpint>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bigpint/meta.yaml>`_
 
-   
+   Methods for visualizing large multivariate datasets using static and interactive scatterplot matrices\, parallel coordinate plots\, volcano plots\, and litre plots. Includes examples for visualizing RNA\-sequencing datasets and differentially expressed genes.
 
 
 .. conda:package:: bioconductor-bigpint

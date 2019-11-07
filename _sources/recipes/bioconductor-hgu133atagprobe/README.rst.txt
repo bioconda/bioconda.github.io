@@ -9,13 +9,13 @@ bioconductor-hgu133atagprobe
 .. conda:recipe:: bioconductor-hgu133atagprobe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was HG\-U133A\\\_tag\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type hgu133atag
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hgu133atagprobe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hgu133atagprobe.html
    :license: LGPL
    :recipe: /`bioconductor-hgu133atagprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133atagprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133atagprobe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was HG\-U133A\\\_tag\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-hgu133atagprobe

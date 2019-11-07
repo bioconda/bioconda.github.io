@@ -9,20 +9,20 @@ bioconductor-arrmdata
 .. conda:recipe:: bioconductor-arrmdata
    :replaces_section_title:
 
-   Raw Beta values from 36 samples across 3 groups from Illumina 450k methylation arrays
+   Example dataset for normalization of Illumina 450k Methylation data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ARRmData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ARRmData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-arrmdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrmdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrmdata/meta.yaml>`_
 
-   
+   Raw Beta values from 36 samples across 3 groups from Illumina 450k methylation arrays
 
 
 .. conda:package:: bioconductor-arrmdata
 
    |downloads_bioconductor-arrmdata| |docker_bioconductor-arrmdata|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

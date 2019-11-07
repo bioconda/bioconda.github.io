@@ -9,20 +9,20 @@ bioconductor-rnaseqrdata
 .. conda:recipe:: bioconductor-rnaseqrdata
    :replaces_section_title:
 
-   RNASeqRData is a helper experiment package for vignette demonstration purpose in RNASeqR software package.
+   RNASeqRData\: sample data for RNASeqR software package demonstration
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RNASeqRData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RNASeqRData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rnaseqrdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqrdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqrdata/meta.yaml>`_
 
-   
+   RNASeqRData is a helper experiment package for vignette demonstration purpose in RNASeqR software package.
 
 
 .. conda:package:: bioconductor-rnaseqrdata
 
    |downloads_bioconductor-rnaseqrdata| |docker_bioconductor-rnaseqrdata|
 
-   :versions: 1.3.0-0, 1.2.0-1, 1.2.0-0, 1.0.0-0
+   :versions: 1.4.0-0, 1.2.0-1, 1.2.0-0, 1.0.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

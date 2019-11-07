@@ -9,14 +9,14 @@ bioconductor-flowmatch
 .. conda:recipe:: bioconductor-flowmatch
    :replaces_section_title:
 
-   Matching cell populations and building meta\-clusters and templates from a collection of FC samples.
+   Matching and meta\-clustering in flow cytometry
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flowMatch.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flowMatch.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowmatch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowmatch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowmatch/meta.yaml>`_
    :links: biotools: :biotools:`flowmatch`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Matching cell populations and building meta\-clusters and templates from a collection of FC samples.
 
 
 .. conda:package:: bioconductor-flowmatch

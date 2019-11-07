@@ -9,20 +9,20 @@ bioconductor-oct4
 .. conda:recipe:: bioconductor-oct4
    :replaces_section_title:
 
-   This package provides the output of running Salmon on a set of 12 RNA\-seq samples from King \& Klose\, \"The pioneer factor OCT4 requires the chromatin remodeller BRG1 to support gene regulatory element function in mouse embryonic stem cells\"\, published in eLIFE\, March 2017. For details on version numbers and how the samples were processed see the package vignette.
+   Conditional knockdown of OCT4 in mouse ESCs
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/oct4.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/oct4.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-oct4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oct4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oct4/meta.yaml>`_
 
-   
+   This package provides the output of running Salmon on a set of 12 RNA\-seq samples from King \& Klose\, \"The pioneer factor OCT4 requires the chromatin remodeller BRG1 to support gene regulatory element function in mouse embryonic stem cells\"\, published in eLIFE\, March 2017. For details on version numbers and how the samples were processed see the package vignette.
 
 
 .. conda:package:: bioconductor-oct4
 
    |downloads_bioconductor-oct4| |docker_bioconductor-oct4|
 
-   :versions: 1.1.0-0, 1.0.0-1, 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-1, 1.0.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

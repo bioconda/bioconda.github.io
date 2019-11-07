@@ -9,20 +9,20 @@ bioconductor-keggandmetacoredzpathwaysgeo
 .. conda:recipe:: bioconductor-keggandmetacoredzpathwaysgeo
    :replaces_section_title:
 
-   This is a collection of 18 data sets for which the phenotype is a disease with a corresponding pathway in either KEGG or metacore database.This collection of datasets were used as gold standard in comparing gene set analysis methods.
+   Disease Datasets from GEO
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/KEGGandMetacoreDzPathwaysGEO.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/KEGGandMetacoreDzPathwaysGEO.html
    :license: GPL-2
    :recipe: /`bioconductor-keggandmetacoredzpathwaysgeo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggandmetacoredzpathwaysgeo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggandmetacoredzpathwaysgeo/meta.yaml>`_
 
-   
+   This is a collection of 18 data sets for which the phenotype is a disease with a corresponding pathway in either KEGG or metacore database.This collection of datasets were used as gold standard in comparing gene set analysis methods.
 
 
 .. conda:package:: bioconductor-keggandmetacoredzpathwaysgeo
 
    |downloads_bioconductor-keggandmetacoredzpathwaysgeo| |docker_bioconductor-keggandmetacoredzpathwaysgeo|
 
-   :versions: 1.5.0-0, 1.4.0-1, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0

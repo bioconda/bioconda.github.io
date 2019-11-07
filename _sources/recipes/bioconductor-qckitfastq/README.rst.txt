@@ -9,13 +9,13 @@ bioconductor-qckitfastq
 .. conda:recipe:: bioconductor-qckitfastq
    :replaces_section_title:
 
-   Assessment of FASTQ file format with multiple metrics including quality score\, sequence content\, overrepresented sequence and Kmers.
+   FASTQ Quality Control
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/qckitfastq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/qckitfastq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-qckitfastq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qckitfastq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qckitfastq/meta.yaml>`_
 
-   
+   Assessment of FASTQ file format with multiple metrics including quality score\, sequence content\, overrepresented sequence and Kmers.
 
 
 .. conda:package:: bioconductor-qckitfastq

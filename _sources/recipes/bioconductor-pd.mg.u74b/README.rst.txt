@@ -11,11 +11,11 @@ bioconductor-pd.mg.u74b
 
    Platform Design Info for The Manufacturer\'s Name MG\_U74B
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.mg.u74b.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.mg.u74b.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.mg.u74b <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.mg.u74b>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.mg.u74b/meta.yaml>`_
 
-   
+   Platform Design Info for The Manufacturer\'s Name MG\_U74B
 
 
 .. conda:package:: bioconductor-pd.mg.u74b

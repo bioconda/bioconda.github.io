@@ -9,14 +9,14 @@ bioconductor-biomart
 .. conda:recipe:: bioconductor-biomart
    :replaces_section_title:
 
-   In recent years a wealth of biological data has become available in public data repositories. Easy access to these valuable data resources and firm integration with data analysis is needed for comprehensive bioinformatics data analysis. biomaRt provides an interface to a growing collection of databases implementing the BioMart software suite \(\<http\:\/\/www.biomart.org\>\). The package enables retrieval of large amounts of data in a uniform way without the need to know the underlying database schemas or write complex SQL queries. The most prominent examples of BioMart databases are maintain by Ensembl\, which provides biomaRt users direct access to a diverse set of data and enables a wide range of powerful online queries from gene annotation to database mining.
+   Interface to BioMart databases \(i.e. Ensembl\)
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/biomaRt.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/biomaRt.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biomart <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomart>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomart/meta.yaml>`_
    :links: biotools: :biotools:`biomaRt`, doi: :doi:`10.1038/nprot.2009.97`
 
-   
+   In recent years a wealth of biological data has become available in public data repositories. Easy access to these valuable data resources and firm integration with data analysis is needed for comprehensive bioinformatics data analysis. biomaRt provides an interface to a growing collection of databases implementing the BioMart software suite \(\<http\:\/\/www.biomart.org\>\). The package enables retrieval of large amounts of data in a uniform way without the need to know the underlying database schemas or write complex SQL queries. The most prominent examples of BioMart databases are maintain by Ensembl\, which provides biomaRt users direct access to a diverse set of data and enables a wide range of powerful online queries from gene annotation to database mining.
 
 
 .. conda:package:: bioconductor-biomart

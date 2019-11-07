@@ -9,13 +9,13 @@ bioconductor-hgu133plus2frmavecs
 .. conda:recipe:: bioconductor-hgu133plus2frmavecs
    :replaces_section_title:
 
-   This package was created by frmaTools version 1.19.3 and hgu133ahsentrezgcdf version 19.0.0.
+   Vectors used by frma for microarrays of type hgu133plus2
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hgu133plus2frmavecs.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hgu133plus2frmavecs.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-hgu133plus2frmavecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133plus2frmavecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133plus2frmavecs/meta.yaml>`_
 
-   
+   This package was created by frmaTools version 1.19.3 and hgu133ahsentrezgcdf version 19.0.0.
 
 
 .. conda:package:: bioconductor-hgu133plus2frmavecs

@@ -9,20 +9,20 @@ bioconductor-cohcapanno
 .. conda:recipe:: bioconductor-cohcapanno
    :replaces_section_title:
 
-   Provides genomic location\, nearby CpG island and nearby gene information for common Illumina methylation array platforms
+   Annotations for City of Hope CpG Island Analysis Pipeline
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/COHCAPanno.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/COHCAPanno.html
    :license: GPL-3
    :recipe: /`bioconductor-cohcapanno <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cohcapanno>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cohcapanno/meta.yaml>`_
 
-   
+   Provides genomic location\, nearby CpG island and nearby gene information for common Illumina methylation array platforms
 
 
 .. conda:package:: bioconductor-cohcapanno
 
    |downloads_bioconductor-cohcapanno| |docker_bioconductor-cohcapanno|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-1, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-1, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

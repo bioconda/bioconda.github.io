@@ -9,23 +9,23 @@ bioconductor-rtcga.pancan12
 .. conda:recipe:: bioconductor-rtcga.pancan12
    :replaces_section_title:
 
-   Package provides clinical\, expression\, cnv and mutation data from Genome Cancer Browser.
+   PanCan 12 from Genome Cancer Browser
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RTCGA.PANCAN12.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RTCGA.PANCAN12.html
    :license: GPL-2
    :recipe: /`bioconductor-rtcga.pancan12 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.pancan12>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.pancan12/meta.yaml>`_
 
-   
+   Package provides clinical\, expression\, cnv and mutation data from Genome Cancer Browser.
 
 
 .. conda:package:: bioconductor-rtcga.pancan12
 
    |downloads_bioconductor-rtcga.pancan12| |docker_bioconductor-rtcga.pancan12|
 
-   :versions: 1.13.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0
+   :versions: 1.12.0-1, 1.12.0-0, 1.10.0-0
    
-   :depends bioconductor-rtcga: >=1.16.0,<1.17.0
-   :depends curl: >=7.65.3,<8.0a0
+   :depends bioconductor-rtcga: >=1.14.0,<1.15.0
+   :depends curl: >=7.65.2,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

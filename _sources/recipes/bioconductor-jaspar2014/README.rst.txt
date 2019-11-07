@@ -9,20 +9,20 @@ bioconductor-jaspar2014
 .. conda:recipe:: bioconductor-jaspar2014
    :replaces_section_title:
 
-   Data package for JASPAR 2014. To search this databases\, please use the package TFBSTools.
+   Data package for JASPAR
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/JASPAR2014.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/JASPAR2014.html
    :license: GPL-2
    :recipe: /`bioconductor-jaspar2014 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jaspar2014>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jaspar2014/meta.yaml>`_
 
-   
+   Data package for JASPAR 2014. To search this databases\, please use the package TFBSTools.
 
 
 .. conda:package:: bioconductor-jaspar2014
 
    |downloads_bioconductor-jaspar2014| |docker_bioconductor-jaspar2014|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0
    
    :depends bioconductor-biostrings: >=2.54.0,<2.55.0
    :depends curl: >=7.65.3,<8.0a0

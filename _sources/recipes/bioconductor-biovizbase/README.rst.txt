@@ -9,14 +9,14 @@ bioconductor-biovizbase
 .. conda:recipe:: bioconductor-biovizbase
    :replaces_section_title:
 
-   The biovizBase package is designed to provide a set of utilities\, color schemes and conventions for genomic data. It serves as the base for various high\-level packages for biological data visualization. This saves development effort and encourages consistency.
+   Basic graphic utilities for visualization of genomic data.
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/biovizBase.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/biovizBase.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biovizbase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biovizbase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biovizbase/meta.yaml>`_
    :links: biotools: :biotools:`biovizbase`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   The biovizBase package is designed to provide a set of utilities\, color schemes and conventions for genomic data. It serves as the base for various high\-level packages for biological data visualization. This saves development effort and encourages consistency.
 
 
 .. conda:package:: bioconductor-biovizbase

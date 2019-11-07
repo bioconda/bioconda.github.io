@@ -9,14 +9,14 @@ bioconductor-meshdbi
 .. conda:recipe:: bioconductor-meshdbi
    :replaces_section_title:
 
-   The package is unified implementation of MeSH.db\, MeSH.AOR.db\, and MeSH.PCR.db and also is interface to construct Gene\-MeSH package \(MeSH.XXX.eg.db\). loadMeSHDbiPkg import sqlite file and generate MeSH.XXX.eg.db.
+   DBI to construct MeSH\-related package from sqlite file
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MeSHDbi.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MeSHDbi.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-meshdbi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meshdbi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meshdbi/meta.yaml>`_
    :links: biotools: :biotools:`meshdbi`
 
-   
+   The package is unified implementation of MeSH.db\, MeSH.AOR.db\, and MeSH.PCR.db and also is interface to construct Gene\-MeSH package \(MeSH.XXX.eg.db\). loadMeSHDbiPkg import sqlite file and generate MeSH.XXX.eg.db.
 
 
 .. conda:package:: bioconductor-meshdbi

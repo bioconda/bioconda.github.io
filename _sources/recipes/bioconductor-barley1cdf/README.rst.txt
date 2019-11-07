@@ -9,13 +9,13 @@ bioconductor-barley1cdf
 .. conda:recipe:: bioconductor-barley1cdf
    :replaces_section_title:
 
-   A package containing an environment representing the Barley1.CDF file.
+   barley1cdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/barley1cdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/barley1cdf.html
    :license: LGPL
    :recipe: /`bioconductor-barley1cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-barley1cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-barley1cdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the Barley1.CDF file.
 
 
 .. conda:package:: bioconductor-barley1cdf

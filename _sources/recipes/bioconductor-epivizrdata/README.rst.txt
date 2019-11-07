@@ -9,14 +9,14 @@ bioconductor-epivizrdata
 .. conda:recipe:: bioconductor-epivizrdata
    :replaces_section_title:
 
-   Serve data from Bioconductor Objects through a WebSocket connection.
+   Data Management API for epiviz interactive visualization app
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/epivizrData.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/epivizrData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-epivizrdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizrdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizrdata/meta.yaml>`_
    :links: biotools: :biotools:`epivizrdata`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Serve data from Bioconductor Objects through a WebSocket connection.
 
 
 .. conda:package:: bioconductor-epivizrdata

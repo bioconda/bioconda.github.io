@@ -9,13 +9,13 @@ bioconductor-coseq
 .. conda:recipe:: bioconductor-coseq
    :replaces_section_title:
 
-   Co\-expression analysis for expression profiles arising from high\-throughput sequencing data. Feature \(e.g.\, gene\) profiles are clustered using adapted transformations and mixture models or a K\-means algorithm\, and model selection criteria \(to choose an appropriate number of clusters\) are provided.
+   Co\-Expression Analysis of Sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/coseq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/coseq.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-coseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coseq/meta.yaml>`_
 
-   
+   Co\-expression analysis for expression profiles arising from high\-throughput sequencing data. Feature \(e.g.\, gene\) profiles are clustered using adapted transformations and mixture models or a K\-means algorithm\, and model selection criteria \(to choose an appropriate number of clusters\) are provided.
 
 
 .. conda:package:: bioconductor-coseq

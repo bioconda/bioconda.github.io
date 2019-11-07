@@ -9,13 +9,13 @@ bioconductor-evaluomer
 .. conda:recipe:: bioconductor-evaluomer
    :replaces_section_title:
 
-   Evaluating the reliability of your own metrics and the measurements done on your own datasets by analysing the stability and goodness of the classifications of such metrics.
+   Evaluation of Bioinformatics Metrics
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/evaluomeR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/evaluomeR.html
    :license: GPL-3
    :recipe: /`bioconductor-evaluomer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-evaluomer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-evaluomer/meta.yaml>`_
 
-   
+   Evaluating the reliability of your own metrics and the measurements done on your own datasets by analysing the stability and goodness of the classifications of such metrics.
 
 
 .. conda:package:: bioconductor-evaluomer

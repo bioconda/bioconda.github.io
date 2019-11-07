@@ -9,13 +9,13 @@ bioconductor-greylistchip
 .. conda:recipe:: bioconductor-greylistchip
    :replaces_section_title:
 
-   Identify regions of ChIP experiments with high signal in the input\, that lead to spurious peaks during peak calling. Remove reads aligning to these regions prior to peak calling\, for cleaner ChIP analysis.
+   Grey Lists \-\- Mask Artefact Regions Based on ChIP Inputs
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GreyListChIP.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GreyListChIP.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-greylistchip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-greylistchip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-greylistchip/meta.yaml>`_
 
-   
+   Identify regions of ChIP experiments with high signal in the input\, that lead to spurious peaks during peak calling. Remove reads aligning to these regions prior to peak calling\, for cleaner ChIP analysis.
 
 
 .. conda:package:: bioconductor-greylistchip

@@ -9,13 +9,13 @@ bioconductor-copynumberplots
 .. conda:recipe:: bioconductor-copynumberplots
    :replaces_section_title:
 
-   CopyNumberPlots have a set of functions extending karyoploteRs functionality to create beautiful\, customizable and flexible plots of copy\-number related data.
+   Create Copy\-Number Plots using karyoploteR functionality
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CopyNumberPlots.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CopyNumberPlots.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-copynumberplots <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copynumberplots>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copynumberplots/meta.yaml>`_
 
-   
+   CopyNumberPlots have a set of functions extending karyoploteRs functionality to create beautiful\, customizable and flexible plots of copy\-number related data.
 
 
 .. conda:package:: bioconductor-copynumberplots

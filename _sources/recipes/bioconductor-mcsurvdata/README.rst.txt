@@ -9,24 +9,24 @@ bioconductor-mcsurvdata
 .. conda:recipe:: bioconductor-mcsurvdata
    :replaces_section_title:
 
-   This package stores two merged expressionSet objects that contain the gene expression profile and clinical information of \-a\- six breast cancer cohorts and \-b\- four colorectal cancer cohorts. Breast cancer data are employed in the vignette of the hrunbiased package for survival analysis of gene signatures.
+   Meta cohort survival data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/mcsurvdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/mcsurvdata.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-mcsurvdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcsurvdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcsurvdata/meta.yaml>`_
 
-   
+   This package stores two merged expressionSet objects that contain the gene expression profile and clinical information of \-a\- six breast cancer cohorts and \-b\- four colorectal cancer cohorts. Breast cancer data are employed in the vignette of the hrunbiased package for survival analysis of gene signatures.
 
 
 .. conda:package:: bioconductor-mcsurvdata
 
    |downloads_bioconductor-mcsurvdata| |docker_bioconductor-mcsurvdata|
 
-   :versions: 1.3.0-0, 1.2.0-1, 1.0.0-1, 1.0.0-0
+   :versions: 1.2.0-1, 1.0.0-1, 1.0.0-0
    
-   :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
+   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

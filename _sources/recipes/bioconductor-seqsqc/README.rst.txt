@@ -9,13 +9,13 @@ bioconductor-seqsqc
 .. conda:recipe:: bioconductor-seqsqc
    :replaces_section_title:
 
-   The SeqSQC is designed to identify problematic samples in NGS data\, including samples with gender mismatch\, contamination\, cryptic relatedness\, and population outlier.
+   A bioconductor package for sample quality check with next generation sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SeqSQC.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SeqSQC.html
    :license: GPL-3
    :recipe: /`bioconductor-seqsqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqsqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqsqc/meta.yaml>`_
 
-   
+   The SeqSQC is designed to identify problematic samples in NGS data\, including samples with gender mismatch\, contamination\, cryptic relatedness\, and population outlier.
 
 
 .. conda:package:: bioconductor-seqsqc

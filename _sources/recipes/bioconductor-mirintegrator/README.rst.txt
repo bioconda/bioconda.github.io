@@ -9,14 +9,14 @@ bioconductor-mirintegrator
 .. conda:recipe:: bioconductor-mirintegrator
    :replaces_section_title:
 
-   Tools for augmenting signaling pathways to perform pathway analysis of microRNA and mRNA expression levels.
+   Integrating microRNA expression into signaling pathways for pathway analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/mirIntegrator.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/mirIntegrator.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-mirintegrator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirintegrator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirintegrator/meta.yaml>`_
    :links: biotools: :biotools:`mirintegrator`, doi: :doi:`10.1038/srep29251`
 
-   
+   Tools for augmenting signaling pathways to perform pathway analysis of microRNA and mRNA expression levels.
 
 
 .. conda:package:: bioconductor-mirintegrator

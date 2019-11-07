@@ -9,13 +9,13 @@ bioconductor-xenopuslaeviscdf
 .. conda:recipe:: bioconductor-xenopuslaeviscdf
    :replaces_section_title:
 
-   A package containing an environment representing the Xenopus\_laevis.cdf file.
+   xenopuslaeviscdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/xenopuslaeviscdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/xenopuslaeviscdf.html
    :license: LGPL
    :recipe: /`bioconductor-xenopuslaeviscdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xenopuslaeviscdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xenopuslaeviscdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the Xenopus\_laevis.cdf file.
 
 
 .. conda:package:: bioconductor-xenopuslaeviscdf

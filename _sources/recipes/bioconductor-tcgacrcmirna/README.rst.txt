@@ -9,20 +9,20 @@ bioconductor-tcgacrcmirna
 .. conda:recipe:: bioconductor-tcgacrcmirna
    :replaces_section_title:
 
-   colorectal cancer miRNA profile provided by TCGA
+   TCGA CRC 450 miRNA dataset
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/TCGAcrcmiRNA.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/TCGAcrcmiRNA.html
    :license: GPL-2
    :recipe: /`bioconductor-tcgacrcmirna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgacrcmirna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgacrcmirna/meta.yaml>`_
 
-   
+   colorectal cancer miRNA profile provided by TCGA
 
 
 .. conda:package:: bioconductor-tcgacrcmirna
 
    |downloads_bioconductor-tcgacrcmirna| |docker_bioconductor-tcgacrcmirna|
 
-   :versions: 1.5.0-0, 1.4.0-1, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends curl: >=7.65.3,<8.0a0

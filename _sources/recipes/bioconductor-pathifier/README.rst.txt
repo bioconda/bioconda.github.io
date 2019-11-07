@@ -9,14 +9,14 @@ bioconductor-pathifier
 .. conda:recipe:: bioconductor-pathifier
    :replaces_section_title:
 
-   Pathifier is an algorithm that infers pathway deregulation scores for each tumor sample on the basis of expression data. This score is determined\, in a context\-specific manner\, for every particular dataset and type of cancer that is being investigated. The algorithm transforms gene\-level information into pathway\-level information\, generating a compact and biologically relevant representation of each sample.
+   Quantify deregulation of pathways in cancer
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/pathifier.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/pathifier.html
    :license: Artistic-1.0
    :recipe: /`bioconductor-pathifier <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathifier>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathifier/meta.yaml>`_
    :links: biotools: :biotools:`pathifier`, doi: :doi:`10.1073/pnas.1219651110`
 
-   
+   Pathifier is an algorithm that infers pathway deregulation scores for each tumor sample on the basis of expression data. This score is determined\, in a context\-specific manner\, for every particular dataset and type of cancer that is being investigated. The algorithm transforms gene\-level information into pathway\-level information\, generating a compact and biologically relevant representation of each sample.
 
 
 .. conda:package:: bioconductor-pathifier

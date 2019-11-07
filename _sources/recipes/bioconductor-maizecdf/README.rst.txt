@@ -9,13 +9,13 @@ bioconductor-maizecdf
 .. conda:recipe:: bioconductor-maizecdf
    :replaces_section_title:
 
-   A package containing an environment representing the Maize.cdf file.
+   maizecdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/maizecdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/maizecdf.html
    :license: LGPL
    :recipe: /`bioconductor-maizecdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maizecdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maizecdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the Maize.cdf file.
 
 
 .. conda:package:: bioconductor-maizecdf

@@ -9,14 +9,14 @@ bioconductor-minimumdistance
 .. conda:recipe:: bioconductor-minimumdistance
    :replaces_section_title:
 
-   Analysis of de novo copy number variants in trios from high\-dimensional genotyping platforms.
+   A Package for De Novo CNV Detection in Case\-Parent Trios
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MinimumDistance.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MinimumDistance.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-minimumdistance <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minimumdistance>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minimumdistance/meta.yaml>`_
    :links: biotools: :biotools:`minimumdistance`, doi: :doi:`10.1186/1471-2105-13-330`
 
-   
+   Analysis of de novo copy number variants in trios from high\-dimensional genotyping platforms.
 
 
 .. conda:package:: bioconductor-minimumdistance

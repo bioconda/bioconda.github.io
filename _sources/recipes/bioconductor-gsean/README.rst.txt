@@ -9,13 +9,13 @@ bioconductor-gsean
 .. conda:recipe:: bioconductor-gsean
    :replaces_section_title:
 
-   Biological molecules in a living organism seldom work individually. They usually interact each other in a cooperative way. Biological process is too complicated to understand without considering such interactions. Thus\, network\-based procedures can be seen as powerful methods for studying complex process. However\, many methods are devised for analyzing individual genes. It is said that techniques based on biological networks such as gene co\-expression are more precise ways to represent information than those using lists of genes only. This package is aimed to integrate the gene expression and biological network. A biological network is constructed from gene expression data and it is used for Gene Set Enrichment Analysis.
+   Gene Set Enrichment Analysis with Networks
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/gsean.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/gsean.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gsean <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsean>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsean/meta.yaml>`_
 
-   
+   Biological molecules in a living organism seldom work individually. They usually interact each other in a cooperative way. Biological process is too complicated to understand without considering such interactions. Thus\, network\-based procedures can be seen as powerful methods for studying complex process. However\, many methods are devised for analyzing individual genes. It is said that techniques based on biological networks such as gene co\-expression are more precise ways to represent information than those using lists of genes only. This package is aimed to integrate the gene expression and biological network. A biological network is constructed from gene expression data and it is used for Gene Set Enrichment Analysis.
 
 
 .. conda:package:: bioconductor-gsean

@@ -9,13 +9,13 @@ bioconductor-sctensor
 .. conda:recipe:: bioconductor-sctensor
    :replaces_section_title:
 
-   The algorithm is based on the non\-negative tucker decomposition \(NTD\) of nnTensor.
+   Detection of cell\-cell interaction from single\-cell RNA\-seq dataset by tensor decomposition
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/scTensor.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/scTensor.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sctensor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sctensor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sctensor/meta.yaml>`_
 
-   
+   The algorithm is based on the non\-negative tucker decomposition \(NTD2\) of nnTensor.
 
 
 .. conda:package:: bioconductor-sctensor

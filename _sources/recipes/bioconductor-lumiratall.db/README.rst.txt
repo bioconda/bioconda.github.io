@@ -9,13 +9,13 @@ bioconductor-lumiratall.db
 .. conda:recipe:: bioconductor-lumiratall.db
    :replaces_section_title:
 
-   Illumina Rat Illumina expression annotation data \(chip lumiRatAll\) assembled using data from public repositories
+   Illumina Rat Illumina expression annotation data \(chip lumiRatAll\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/lumiRatAll.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/lumiRatAll.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lumiratall.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumiratall.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumiratall.db/meta.yaml>`_
 
-   
+   Illumina Rat Illumina expression annotation data \(chip lumiRatAll\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-lumiratall.db

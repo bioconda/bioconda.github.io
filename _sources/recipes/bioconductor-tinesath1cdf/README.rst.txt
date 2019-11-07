@@ -9,20 +9,20 @@ bioconductor-tinesath1cdf
 .. conda:recipe:: bioconductor-tinesath1cdf
    :replaces_section_title:
 
-   A package containing an environment represeting the newcdf\/tinesATH1.cdf.cdf file.
+   tinesath1cdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/tinesath1cdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/tinesath1cdf.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tinesath1cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tinesath1cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tinesath1cdf/meta.yaml>`_
 
-   
+   A package containing an environment represeting the newcdf\/tinesATH1.cdf.cdf file.
 
 
 .. conda:package:: bioconductor-tinesath1cdf
 
    |downloads_bioconductor-tinesath1cdf| |docker_bioconductor-tinesath1cdf|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.22.0-0, 1.21.0-0, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.21.0-0, 1.20.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

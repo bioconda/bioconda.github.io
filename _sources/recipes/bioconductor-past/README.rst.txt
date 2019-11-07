@@ -9,13 +9,13 @@ bioconductor-past
 .. conda:recipe:: bioconductor-past
    :replaces_section_title:
 
-   PAST takes GWAS output and assigns SNPs to genes\, uses those genes to find pathways associated with the genes\, and plots pathways based on significance. Implements methods for reading GWAS input data\, finding genes associated with SNPs\, calculating enrichment score and significance of pathways\, and plotting pathways.
+   Pathway Association Study Tool \(PAST\)
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PAST.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PAST.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-past <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-past>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-past/meta.yaml>`_
 
-   
+   PAST takes GWAS output and assigns SNPs to genes\, uses those genes to find pathways associated with the genes\, and plots pathways based on significance. Implements methods for reading GWAS input data\, finding genes associated with SNPs\, calculating enrichment score and significance of pathways\, and plotting pathways.
 
 
 .. conda:package:: bioconductor-past

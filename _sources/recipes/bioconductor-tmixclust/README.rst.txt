@@ -9,13 +9,13 @@ bioconductor-tmixclust
 .. conda:recipe:: bioconductor-tmixclust
    :replaces_section_title:
 
-   Implementation of a clustering method for time series gene expression data based on mixed\-effects models with Gaussian variables and non\-parametric cubic splines estimation. The method can robustly account for the high levels of noise present in typical gene expression time series datasets.
+   Time Series Clustering of Gene Expression with Gaussian Mixed\-Effects Models and Smoothing Splines
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/TMixClust.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/TMixClust.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-tmixclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tmixclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tmixclust/meta.yaml>`_
 
-   
+   Implementation of a clustering method for time series gene expression data based on mixed\-effects models with Gaussian variables and non\-parametric cubic splines estimation. The method can robustly account for the high levels of noise present in typical gene expression time series datasets.
 
 
 .. conda:package:: bioconductor-tmixclust

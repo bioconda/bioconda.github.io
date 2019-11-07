@@ -9,13 +9,13 @@ bioconductor-yeast.db0
 .. conda:recipe:: bioconductor-yeast.db0
    :replaces_section_title:
 
-   Base annotation databases for yeast\, intended ONLY to be used by AnnotationDbi to produce regular annotation packages.
+   Base Level Annotation databases for yeast
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/yeast.db0.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/yeast.db0.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-yeast.db0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeast.db0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeast.db0/meta.yaml>`_
 
-   
+   Base annotation databases for yeast\, intended ONLY to be used by AnnotationDbi to produce regular annotation packages.
 
 
 .. conda:package:: bioconductor-yeast.db0

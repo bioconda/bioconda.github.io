@@ -9,13 +9,13 @@ bioconductor-prince
 .. conda:recipe:: bioconductor-prince
    :replaces_section_title:
 
-   PrInCE \(Predicting Interactomes from Co\-Elution\) uses a naive Bayes classifier trained on dataset\-derived features to recover protein\-protein interactions from co\-elution chromatogram profiles. This package contains the R implementation of PrInCE.
+   Predicting Interactomes from Co\-Elution
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PrInCE.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PrInCE.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-prince <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prince>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prince/meta.yaml>`_
 
-   
+   PrInCE \(Predicting Interactomes from Co\-Elution\) uses a naive Bayes classifier trained on dataset\-derived features to recover protein\-protein interactions from co\-elution chromatogram profiles. This package contains the R implementation of PrInCE.
 
 
 .. conda:package:: bioconductor-prince

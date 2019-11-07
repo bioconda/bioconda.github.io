@@ -9,13 +9,13 @@ bioconductor-vitisviniferaprobe
 .. conda:recipe:: bioconductor-vitisviniferaprobe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Vitis\\\_Vinifera\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type vitisvinifera
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/vitisviniferaprobe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/vitisviniferaprobe.html
    :license: LGPL
    :recipe: /`bioconductor-vitisviniferaprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vitisviniferaprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vitisviniferaprobe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Vitis\\\_Vinifera\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-vitisviniferaprobe

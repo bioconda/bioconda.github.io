@@ -9,14 +9,14 @@ bioconductor-measurementerror.cor
 .. conda:recipe:: bioconductor-measurementerror.cor
    :replaces_section_title:
 
-   Two\-stage measurement error model for correlation estimation with smaller bias than the usual sample correlation
+   Measurement Error model estimate for correlation coefficient
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MeasurementError.cor.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MeasurementError.cor.html
    :license: LGPL
    :recipe: /`bioconductor-measurementerror.cor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-measurementerror.cor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-measurementerror.cor/meta.yaml>`_
    :links: biotools: :biotools:`measurementerror.cor`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Two\-stage measurement error model for correlation estimation with smaller bias than the usual sample correlation
 
 
 .. conda:package:: bioconductor-measurementerror.cor

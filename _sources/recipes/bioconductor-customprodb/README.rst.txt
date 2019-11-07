@@ -9,13 +9,13 @@ bioconductor-customprodb
 .. conda:recipe:: bioconductor-customprodb
    :replaces_section_title:
 
-   Database search is the most widely used approach for peptide and protein identification in mass spectrometry\-based proteomics studies. Our previous study showed that sample\-specific protein databases derived from RNA\-Seq data can better approximate the real protein pools in the samples and thus improve protein identification. More importantly\, single nucleotide variations\, short insertion and deletions and novel junctions identified from RNA\-Seq data make protein database more complete and sample\-specific. Here\, we report an R package customProDB that enables the easy generation of customized databases from RNA\-Seq data for proteomics search. This work bridges genomics and proteomics studies and facilitates cross\-omics data integration.
+   Generate customized protein database from NGS data\, with a focus on RNA\-Seq data\, for proteomics search
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/customProDB.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/customProDB.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-customprodb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-customprodb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-customprodb/meta.yaml>`_
 
-   
+   Database search is the most widely used approach for peptide and protein identification in mass spectrometry\-based proteomics studies. Our previous study showed that sample\-specific protein databases derived from RNA\-Seq data can better approximate the real protein pools in the samples and thus improve protein identification. More importantly\, single nucleotide variations\, short insertion and deletions and novel junctions identified from RNA\-Seq data make protein database more complete and sample\-specific. Here\, we report an R package customProDB that enables the easy generation of customized databases from RNA\-Seq data for proteomics search. This work bridges genomics and proteomics studies and facilitates cross\-omics data integration.
 
 
 .. conda:package:: bioconductor-customprodb

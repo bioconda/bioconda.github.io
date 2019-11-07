@@ -9,22 +9,22 @@ bioconductor-targetscoredata
 .. conda:recipe:: bioconductor-targetscoredata
    :replaces_section_title:
 
-   Precompiled and processed miRNA\-overexpression fold\-changes from 84 Gene Expression Omnibus \(GEO\) series corresponding to 6 platforms\, 77 human cells or tissues\, and 113 distinct miRNAs. Accompanied with the data\, we also included in this package the sequence feature scores from TargetScanHuman 6.1 including the context\+ score and the probabilities of conserved targeting for each miRNA\-mRNA interaction. Thus\, the user can use these static sequence\-based scores together with user\-supplied tissue\/cell\-specific fold\-change due to miRNA overexpression to predict miRNA targets using the package TargetScore \(download separately\)
+   TargetScoreData
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/TargetScoreData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/TargetScoreData.html
    :license: GPL-2
    :recipe: /`bioconductor-targetscoredata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetscoredata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetscoredata/meta.yaml>`_
 
-   
+   Precompiled and processed miRNA\-overexpression fold\-changes from 84 Gene Expression Omnibus \(GEO\) series corresponding to 6 platforms\, 77 human cells or tissues\, and 113 distinct miRNAs. Accompanied with the data\, we also included in this package the sequence feature scores from TargetScanHuman 6.1 including the context\+ score and the probabilities of conserved targeting for each miRNA\-mRNA interaction. Thus\, the user can use these static sequence\-based scores together with user\-supplied tissue\/cell\-specific fold\-change due to miRNA overexpression to predict miRNA targets using the package TargetScore \(download separately\)
 
 
 .. conda:package:: bioconductor-targetscoredata
 
    |downloads_bioconductor-targetscoredata| |docker_bioconductor-targetscoredata|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions: 1.20.0-1, 1.20.0-0, 1.18.0-0
    
-   :depends curl: >=7.65.3,<8.0a0
+   :depends curl: >=7.65.2,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

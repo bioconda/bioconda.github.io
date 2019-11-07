@@ -9,14 +9,14 @@ bioconductor-diffgeneanalysis
 .. conda:recipe:: bioconductor-diffgeneanalysis
    :replaces_section_title:
 
-   Analyze microarray data
+   Performs differential gene expression Analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/diffGeneAnalysis.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/diffGeneAnalysis.html
    :license: GPL
    :recipe: /`bioconductor-diffgeneanalysis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffgeneanalysis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffgeneanalysis/meta.yaml>`_
    :links: biotools: :biotools:`diffgeneanalysis`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Analyze microarray data
 
 
 .. conda:package:: bioconductor-diffgeneanalysis

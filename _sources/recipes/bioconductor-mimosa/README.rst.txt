@@ -9,13 +9,13 @@ bioconductor-mimosa
 .. conda:recipe:: bioconductor-mimosa
    :replaces_section_title:
 
-   Modeling count data using Dirichlet\-multinomial and beta\-binomial mixtures with applications to single\-cell assays.
+   Mixture Models for Single\-Cell Assays
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MIMOSA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MIMOSA.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mimosa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mimosa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mimosa/meta.yaml>`_
 
-   
+   Modeling count data using Dirichlet\-multinomial and beta\-binomial mixtures with applications to single\-cell assays.
 
 
 .. conda:package:: bioconductor-mimosa

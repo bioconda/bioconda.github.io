@@ -9,14 +9,14 @@ bioconductor-tarseqqc
 .. conda:recipe:: bioconductor-tarseqqc
    :replaces_section_title:
 
-   The package allows the representation of targeted experiment in R. This is based on current packages and incorporates functions to do a quality control over this kind of experiments and a fast exploration of the sequenced regions. An xlsx file is generated as output.
+   TARgeted SEQuencing Experiment Quality Control
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/TarSeqQC.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/TarSeqQC.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-tarseqqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tarseqqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tarseqqc/meta.yaml>`_
    :links: biotools: :biotools:`tarseqqc`
 
-   
+   The package allows the representation of targeted experiment in R. This is based on current packages and incorporates functions to do a quality control over this kind of experiments and a fast exploration of the sequenced regions. An xlsx file is generated as output.
 
 
 .. conda:package:: bioconductor-tarseqqc

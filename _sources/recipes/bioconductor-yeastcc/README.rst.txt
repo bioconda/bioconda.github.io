@@ -9,20 +9,20 @@ bioconductor-yeastcc
 .. conda:recipe:: bioconductor-yeastcc
    :replaces_section_title:
 
-   ExpressionSet for Spellman et al. \(1998\) yeast cell cycle microarray experiment
+   Spellman et al. \(1998\) and Pramila\/Breeden \(2006\) yeast cell cycle microarray data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/yeastCC.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/yeastCC.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-yeastcc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastcc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastcc/meta.yaml>`_
 
-   
+   ExpressionSet for Spellman et al. \(1998\) yeast cell cycle microarray experiment
 
 
 .. conda:package:: bioconductor-yeastcc
 
    |downloads_bioconductor-yeastcc| |docker_bioconductor-yeastcc|
 
-   :versions: 1.25.0-0, 1.24.0-1, 1.22.0-0, 1.20.0-0, 1.18.0-0
+   :versions: 1.26.0-0, 1.24.0-1, 1.22.0-0, 1.20.0-0, 1.18.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends curl: >=7.65.3,<8.0a0

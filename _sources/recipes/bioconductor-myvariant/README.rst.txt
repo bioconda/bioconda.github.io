@@ -9,14 +9,14 @@ bioconductor-myvariant
 .. conda:recipe:: bioconductor-myvariant
    :replaces_section_title:
 
-   MyVariant.info is a comprehensive aggregation of variant annotation resources. myvariant is a wrapper for querying MyVariant.info services
+   Accesses MyVariant.info variant query and annotation services
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/myvariant.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/myvariant.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-myvariant <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-myvariant>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-myvariant/meta.yaml>`_
    :links: biotools: :biotools:`myvariant`, doi: :doi:`10.1101/035667`
 
-   
+   MyVariant.info is a comprehensive aggregation of variant annotation resources. myvariant is a wrapper for querying MyVariant.info services
 
 
 .. conda:package:: bioconductor-myvariant

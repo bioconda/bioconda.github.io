@@ -9,13 +9,13 @@ bioconductor-bsgenome.scerevisiae.ucsc.saccer3
 .. conda:recipe:: bioconductor-bsgenome.scerevisiae.ucsc.saccer3
    :replaces_section_title:
 
-   Saccharomyces cerevisiae \(Yeast\) full genome as provided by UCSC \(sacCer3\, April 2011\) and stored in Biostrings objects.
+   Saccharomyces cerevisiae \(Yeast\) full genome \(UCSC version sacCer3\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Scerevisiae.UCSC.sacCer3.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Scerevisiae.UCSC.sacCer3.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.scerevisiae.ucsc.saccer3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.scerevisiae.ucsc.saccer3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.scerevisiae.ucsc.saccer3/meta.yaml>`_
 
-   
+   Saccharomyces cerevisiae \(Yeast\) full genome as provided by UCSC \(sacCer3\, April 2011\) and stored in Biostrings objects.
 
 
 .. conda:package:: bioconductor-bsgenome.scerevisiae.ucsc.saccer3

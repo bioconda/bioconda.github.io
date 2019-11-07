@@ -9,20 +9,20 @@ bioconductor-cll
 .. conda:recipe:: bioconductor-cll
    :replaces_section_title:
 
-   The CLL package contains the chronic lymphocytic leukemia \(CLL\) gene expression data.  The CLL data had 24 samples that were either classified as progressive or stable in regards to disease progression.  The data came from Dr. Sabina Chiaretti at Division of Hematology\, Department of Cellular Biotechnologies and Hematology\, University La Sapienza\, Rome\, Italy and Dr. Jerome Ritz at Department of Medicine\, Brigham and Women\'s Hospital\, Harvard Medical School\, Boston\, Massachusetts.
+   A Package for CLL Gene Expression Data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/CLL.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/CLL.html
    :license: LGPL
    :recipe: /`bioconductor-cll <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cll>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cll/meta.yaml>`_
 
-   
+   The CLL package contains the chronic lymphocytic leukemia \(CLL\) gene expression data.  The CLL data had 24 samples that were either classified as progressive or stable in regards to disease progression.  The data came from Dr. Sabina Chiaretti at Division of Hematology\, Department of Cellular Biotechnologies and Hematology\, University La Sapienza\, Rome\, Italy and Dr. Jerome Ritz at Department of Medicine\, Brigham and Women\'s Hospital\, Harvard Medical School\, Boston\, Massachusetts.
 
 
 .. conda:package:: bioconductor-cll
 
    |downloads_bioconductor-cll| |docker_bioconductor-cll|
 
-   :versions: 1.25.0-0, 1.24.0-1, 1.22.0-0
+   :versions: 1.26.0-0, 1.24.0-1, 1.22.0-0
    
    :depends bioconductor-affy: >=1.64.0,<1.65.0
    :depends bioconductor-biobase: >=2.46.0,<2.47.0

@@ -9,14 +9,14 @@ bioconductor-lvsmirna
 .. conda:recipe:: bioconductor-lvsmirna
    :replaces_section_title:
 
-   Normalization of Agilent miRNA arrays.
+   LVS normalization for Agilent miRNA data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/LVSmiRNA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/LVSmiRNA.html
    :license: GPL-2
    :recipe: /`bioconductor-lvsmirna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lvsmirna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lvsmirna/meta.yaml>`_
    :links: biotools: :biotools:`lvsmirna`, doi: :doi:`10.1261/rna.2345710`
 
-   
+   Normalization of Agilent miRNA arrays.
 
 
 .. conda:package:: bioconductor-lvsmirna

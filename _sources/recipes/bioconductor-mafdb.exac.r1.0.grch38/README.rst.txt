@@ -9,13 +9,13 @@ bioconductor-mafdb.exac.r1.0.grch38
 .. conda:recipe:: bioconductor-mafdb.exac.r1.0.grch38
    :replaces_section_title:
 
-   Store minor allele frequency data from the Exome Aggregation Consortium \(ExAC release 1.0\) for the human genome version GRCh38.
+   Minor allele frequency data from ExAC release 1.0 for GRCh38
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/MafDb.ExAC.r1.0.GRCh38.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/MafDb.ExAC.r1.0.GRCh38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mafdb.exac.r1.0.grch38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.exac.r1.0.grch38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.exac.r1.0.grch38/meta.yaml>`_
 
-   
+   Store minor allele frequency data from the Exome Aggregation Consortium \(ExAC release 1.0\) for the human genome version GRCh38.
 
 
 .. conda:package:: bioconductor-mafdb.exac.r1.0.grch38

@@ -9,13 +9,13 @@ bioconductor-destiny
 .. conda:recipe:: bioconductor-destiny
    :replaces_section_title:
 
-   Create and plot diffusion maps.
+   Creates diffusion maps
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/destiny.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/destiny.html
    :license: GPL
    :recipe: /`bioconductor-destiny <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-destiny>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-destiny/meta.yaml>`_
 
-   
+   Create and plot diffusion maps.
 
 
 .. conda:package:: bioconductor-destiny

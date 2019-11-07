@@ -9,24 +9,24 @@ bioconductor-mcrestimate
 .. conda:recipe:: bioconductor-mcrestimate
    :replaces_section_title:
 
-   This package includes a function for combining preprocessing and classification methods to calculate misclassification errors
+   Misclassification error estimation with cross\-validation
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MCRestimate.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MCRestimate.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mcrestimate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcrestimate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcrestimate/meta.yaml>`_
    :links: biotools: :biotools:`mcrestimate`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package includes a function for combining preprocessing and classification methods to calculate misclassification errors
 
 
 .. conda:package:: bioconductor-mcrestimate
 
    |downloads_bioconductor-mcrestimate| |docker_bioconductor-mcrestimate|
 
-   :versions: 2.42.0-0, 2.40.0-1, 2.38.0-0, 2.36.0-0, 2.34.0-0
+   :versions: 2.40.0-1, 2.38.0-0, 2.36.0-0, 2.34.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-golubesets: >=1.27.0,<1.28.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-golubesets: >=1.26.0,<1.27.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-e1071: >=1.5-12
    :depends r-pamr: >=1.22

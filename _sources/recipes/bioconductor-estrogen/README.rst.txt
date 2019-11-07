@@ -9,22 +9,22 @@ bioconductor-estrogen
 .. conda:recipe:: bioconductor-estrogen
    :replaces_section_title:
 
-   Data from 8 Affymetrix genechips\, looking at a 2x2 factorial design \(with 2 repeats per level\).
+   Microarray dataset that can be used as example for 2x2 factorial designs
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/estrogen.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/estrogen.html
    :license: LGPL
    :recipe: /`bioconductor-estrogen <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-estrogen>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-estrogen/meta.yaml>`_
 
-   
+   Data from 8 Affymetrix genechips\, looking at a 2x2 factorial design \(with 2 repeats per level\).
 
 
 .. conda:package:: bioconductor-estrogen
 
    |downloads_bioconductor-estrogen| |docker_bioconductor-estrogen|
 
-   :versions: 1.31.0-0, 1.30.0-1, 1.30.0-0, 1.28.0-0
+   :versions: 1.30.0-1, 1.30.0-0, 1.28.0-0
    
-   :depends curl: >=7.65.3,<8.0a0
+   :depends curl: >=7.65.2,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

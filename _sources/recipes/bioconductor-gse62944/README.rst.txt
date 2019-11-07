@@ -9,20 +9,20 @@ bioconductor-gse62944
 .. conda:recipe:: bioconductor-gse62944
    :replaces_section_title:
 
-   TCGA processed RNA\-Seq data for 9264 tumor and 741 normal samples across 24 cancer types and made them available as GEO accession \[GSE62944\]\(http\:\/\/www.ncbi.nlm.nih.gov\/geo\/query\/acc.cgi\?acc\=GSE62944\). GSE62944 data have been parsed into a SummarizedExperiment object available in ExperimentHub.
+   GEO accession data GSE62944 as a SummarizedExperiment
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/GSE62944.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/GSE62944.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gse62944 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gse62944>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gse62944/meta.yaml>`_
 
-   
+   TCGA processed RNA\-Seq data for 9264 tumor and 741 normal samples across 24 cancer types and made them available as GEO accession \[GSE62944\]\(http\:\/\/www.ncbi.nlm.nih.gov\/geo\/query\/acc.cgi\?acc\=GSE62944\). GSE62944 data have been parsed into a SummarizedExperiment object available in ExperimentHub.
 
 
 .. conda:package:: bioconductor-gse62944
 
    |downloads_bioconductor-gse62944| |docker_bioconductor-gse62944|
 
-   :versions: 1.13.0-0, 1.12.0-1, 1.10.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.10.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends bioconductor-geoquery: >=2.54.0,<2.55.0

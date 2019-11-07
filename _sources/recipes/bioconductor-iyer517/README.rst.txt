@@ -9,20 +9,20 @@ bioconductor-iyer517
 .. conda:recipe:: bioconductor-iyer517
    :replaces_section_title:
 
-   representation of public Iyer data from http\:\/\/genome\-www.stanford.edu\/serum\/clusters.html
+   exprSets for Iyer\, Eisen et all 1999 Science paper
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/Iyer517.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/Iyer517.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-iyer517 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iyer517>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iyer517/meta.yaml>`_
 
-   
+   representation of public Iyer data from http\:\/\/genome\-www.stanford.edu\/serum\/clusters.html
 
 
 .. conda:package:: bioconductor-iyer517
 
    |downloads_bioconductor-iyer517| |docker_bioconductor-iyer517|
 
-   :versions: 1.27.0-0, 1.26.0-1, 1.24.0-0
+   :versions: 1.28.0-0, 1.26.0-1, 1.24.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends curl: >=7.65.3,<8.0a0

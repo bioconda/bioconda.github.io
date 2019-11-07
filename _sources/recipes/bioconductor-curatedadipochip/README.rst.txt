@@ -9,23 +9,23 @@ bioconductor-curatedadipochip
 .. conda:recipe:: bioconductor-curatedadipochip
    :replaces_section_title:
 
-   A curated dataset of publicly available ChIP\-sequencing of transcription factors\, chromatin remodelers and histone modifications in the 3T3\-L1 pre\-adipocyte cell line. The package document the data collection\, pre\-processing and processing of the data. In addition to the documentation\, the package contains the scripts that was used to generated the data.
+   A Curated ChIP\-Seq Dataset of MDI\-induced Differentiated Adipocytes \(3T3\-L1\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/curatedAdipoChIP.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/curatedAdipoChIP.html
    :license: GPL-3
    :recipe: /`bioconductor-curatedadipochip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedadipochip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedadipochip/meta.yaml>`_
 
-   
+   A curated dataset of publicly available ChIP\-sequencing of transcription factors\, chromatin remodelers and histone modifications in the 3T3\-L1 pre\-adipocyte cell line. The package document the data collection\, pre\-processing and processing of the data. In addition to the documentation\, the package contains the scripts that was used to generated the data.
 
 
 .. conda:package:: bioconductor-curatedadipochip
 
    |downloads_bioconductor-curatedadipochip| |docker_bioconductor-curatedadipochip|
 
-   :versions: 1.1.0-0, 1.0.0-1
+   :versions: 1.0.0-1
    
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

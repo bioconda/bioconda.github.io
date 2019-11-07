@@ -9,13 +9,13 @@ bioconductor-basicstarrseq
 .. conda:recipe:: bioconductor-basicstarrseq
    :replaces_section_title:
 
-   Basic peak calling on STARR\-seq data based on a method introduced in \"Genome\-Wide Quantitative Enhancer Activity Maps Identified by STARR\-seq\" Arnold et al. Science. 2013 Mar 1\;339\(6123\)\:1074\-7. doi\: 10.1126\/science. 1232542. Epub 2013 Jan 17.
+   Basic peak calling on STARR\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BasicSTARRseq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BasicSTARRseq.html
    :license: LGPL-3
    :recipe: /`bioconductor-basicstarrseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basicstarrseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basicstarrseq/meta.yaml>`_
 
-   
+   Basic peak calling on STARR\-seq data based on a method introduced in \"Genome\-Wide Quantitative Enhancer Activity Maps Identified by STARR\-seq\" Arnold et al. Science. 2013 Mar 1\;339\(6123\)\:1074\-7. doi\: 10.1126\/science. 1232542. Epub 2013 Jan 17.
 
 
 .. conda:package:: bioconductor-basicstarrseq

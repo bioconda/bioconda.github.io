@@ -11,11 +11,11 @@ bioconductor-ibmq
 
    integrated Bayesian Modeling of eQTL data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/iBMQ.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/iBMQ.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ibmq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ibmq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ibmq/meta.yaml>`_
 
-   
+   integrated Bayesian Modeling of eQTL data
 
 
 .. conda:package:: bioconductor-ibmq

@@ -9,14 +9,14 @@ bioconductor-nucleosim
 .. conda:recipe:: bioconductor-nucleosim
    :replaces_section_title:
 
-   This package can generate a synthetic map with reads covering the nucleosome regions as well as a synthetic map with forward and reverse reads emulating next\-generation sequencing. The user has choice between three different distributions for the read positioning\: Normal\, Student and Uniform.
+   Generate synthetic nucleosome maps
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/nucleoSim.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/nucleoSim.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-nucleosim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nucleosim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nucleosim/meta.yaml>`_
    :links: biotools: :biotools:`nucleosim`, doi: :doi:`10.1515/sagmb-2014-0098`
 
-   
+   This package can generate a synthetic map with reads covering the nucleosome regions as well as a synthetic map with forward and reverse reads emulating next\-generation sequencing. The user has choice between three different distributions for the read positioning\: Normal\, Student and Uniform.
 
 
 .. conda:package:: bioconductor-nucleosim

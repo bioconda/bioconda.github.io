@@ -9,14 +9,14 @@ bioconductor-process
 .. conda:recipe:: bioconductor-process
    :replaces_section_title:
 
-   A package for processing protein mass spectrometry data.
+   Ciphergen SELDI\-TOF Processing
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PROcess.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PROcess.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-process <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-process>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-process/meta.yaml>`_
    :links: biotools: :biotools:`process`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   A package for processing protein mass spectrometry data.
 
 
 .. conda:package:: bioconductor-process

@@ -9,13 +9,13 @@ bioconductor-potra
 .. conda:recipe:: bioconductor-potra
    :replaces_section_title:
 
-   The PoTRA analysis is based on topological ranks of genes in biological pathways. PoTRA can be used to detect pathways involved in disease \(Li\, Liu \& Dinu\, 2018\). We use PageRank to measure the relative topological ranks of genes in each biological pathway\, then select hub genes for each pathway\, and use Fishers Exact test to determine if the number of hub genes in each pathway is altered from normal to cancer \(Li\, Liu \& Dinu\, 2018\). Alternatively\, if the distribution of topological ranks of gene in a pathway is altered between normal and cancer\, this pathway might also be involved in cancer \(Li\, Liu \& Dinu\, 2018\). Hence\, we use the Kolmogorov–Smirnov test to detect pathways that have an altered distribution of topological ranks of genes between two phenotypes \(Li\, Liu \& Dinu\, 2018\). PoTRA can be used with the KEGG\, Biocarta\, Reactome\, NCI\, SMPDB and PharmGKB databases from the devel graphite library.
+   PoTRA\: Pathways of Topological Rank Analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PoTRA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PoTRA.html
    :license: LGPL
    :recipe: /`bioconductor-potra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-potra>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-potra/meta.yaml>`_
 
-   
+   The PoTRA analysis is based on topological ranks of genes in biological pathways. PoTRA can be used to detect pathways involved in disease \(Li\, Liu \& Dinu\, 2018\). We use PageRank to measure the relative topological ranks of genes in each biological pathway\, then select hub genes for each pathway\, and use Fishers Exact test to determine if the number of hub genes in each pathway is altered from normal to cancer \(Li\, Liu \& Dinu\, 2018\). Alternatively\, if the distribution of topological ranks of gene in a pathway is altered between normal and cancer\, this pathway might also be involved in cancer \(Li\, Liu \& Dinu\, 2018\). Hence\, we use the Kolmogorov–Smirnov test to detect pathways that have an altered distribution of topological ranks of genes between two phenotypes \(Li\, Liu \& Dinu\, 2018\). PoTRA can be used with the KEGG\, Biocarta\, Reactome\, NCI\, SMPDB and PharmGKB databases from the devel graphite library.
 
 
 .. conda:package:: bioconductor-potra

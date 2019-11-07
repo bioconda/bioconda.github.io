@@ -9,13 +9,13 @@ bioconductor-genomicdatacommons
 .. conda:recipe:: bioconductor-genomicdatacommons
    :replaces_section_title:
 
-   Programmatically access the NIH \/ NCI Genomic Data Commons RESTful service.
+   NIH \/ NCI Genomic Data Commons Access
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GenomicDataCommons.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GenomicDataCommons.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomicdatacommons <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicdatacommons>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicdatacommons/meta.yaml>`_
 
-   
+   Programmatically access the NIH \/ NCI Genomic Data Commons RESTful service.
 
 
 .. conda:package:: bioconductor-genomicdatacommons

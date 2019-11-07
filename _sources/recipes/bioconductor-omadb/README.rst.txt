@@ -9,13 +9,13 @@ bioconductor-omadb
 .. conda:recipe:: bioconductor-omadb
    :replaces_section_title:
 
-   A package for the orthology prediction data download from OMA database.
+   R wrapper for the OMA REST API
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/OmaDB.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/OmaDB.html
    :license: GPL-3
    :recipe: /`bioconductor-omadb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omadb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omadb/meta.yaml>`_
 
-   
+   A package for the orthology prediction data download from OMA database.
 
 
 .. conda:package:: bioconductor-omadb

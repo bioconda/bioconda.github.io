@@ -9,13 +9,13 @@ bioconductor-scalign
 .. conda:recipe:: bioconductor-scalign
    :replaces_section_title:
 
-   An unsupervised deep learning method for data alignment\, integration and estimation of per\-cell differences in \-omic data \(e.g. gene expression\) across datasets \(conditions\, tissues\, species\). See Johansen and Quon \(2019\) \<doi\:10.1101\/504944\> for more details.
+   An alignment and integration method for single cell genomics
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/scAlign.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/scAlign.html
    :license: GPL-3
    :recipe: /`bioconductor-scalign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scalign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scalign/meta.yaml>`_
 
-   
+   An unsupervised deep learning method for data alignment\, integration and estimation of per\-cell differences in \-omic data \(e.g. gene expression\) across datasets \(conditions\, tissues\, species\). See Johansen and Quon \(2019\) \<doi\:10.1101\/504944\> for more details.
 
 
 .. conda:package:: bioconductor-scalign

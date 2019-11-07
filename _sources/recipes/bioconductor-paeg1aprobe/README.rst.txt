@@ -9,13 +9,13 @@ bioconductor-paeg1aprobe
 .. conda:recipe:: bioconductor-paeg1aprobe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was P\\\_aeg1a\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type paeg1a
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/paeg1aprobe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/paeg1aprobe.html
    :license: LGPL
    :recipe: /`bioconductor-paeg1aprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-paeg1aprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-paeg1aprobe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was P\\\_aeg1a\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-paeg1aprobe

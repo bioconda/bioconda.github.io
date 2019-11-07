@@ -9,13 +9,13 @@ bioconductor-hgfocuscdf
 .. conda:recipe:: bioconductor-hgfocuscdf
    :replaces_section_title:
 
-   A package containing an environment representing the HG\-Focus.CDF file.
+   hgfocuscdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hgfocuscdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hgfocuscdf.html
    :license: LGPL
    :recipe: /`bioconductor-hgfocuscdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgfocuscdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgfocuscdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the HG\-Focus.CDF file.
 
 
 .. conda:package:: bioconductor-hgfocuscdf

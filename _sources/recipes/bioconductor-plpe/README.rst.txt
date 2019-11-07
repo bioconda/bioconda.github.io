@@ -9,14 +9,14 @@ bioconductor-plpe
 .. conda:recipe:: bioconductor-plpe
    :replaces_section_title:
 
-   This package performs tests for paired high\-throughput data.
+   Local Pooled Error Test for Differential Expression with Paired High\-throughput Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PLPE.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PLPE.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-plpe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plpe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plpe/meta.yaml>`_
    :links: biotools: :biotools:`plpe`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package performs tests for paired high\-throughput data.
 
 
 .. conda:package:: bioconductor-plpe

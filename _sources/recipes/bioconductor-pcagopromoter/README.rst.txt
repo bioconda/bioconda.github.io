@@ -9,14 +9,14 @@ bioconductor-pcagopromoter
 .. conda:recipe:: bioconductor-pcagopromoter
    :replaces_section_title:
 
-   This package contains functions to ease the analyses of DNA micro arrays. It utilizes principal component analysis as the initial multivariate analysis\, followed by functional interpretation of the principal component dimensions with overrepresentation analysis for GO terms and regulatory interpretations using overrepresentation analysis of predicted transcription factor binding sites with the primo algorithm.
+   pcaGoPromoter is used to analyze DNA micro array data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/pcaGoPromoter.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/pcaGoPromoter.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-pcagopromoter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcagopromoter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcagopromoter/meta.yaml>`_
    :links: biotools: :biotools:`pcagopromoter`
 
-   
+   This package contains functions to ease the analyses of DNA micro arrays. It utilizes principal component analysis as the initial multivariate analysis\, followed by functional interpretation of the principal component dimensions with overrepresentation analysis for GO terms and regulatory interpretations using overrepresentation analysis of predicted transcription factor binding sites with the primo algorithm.
 
 
 .. conda:package:: bioconductor-pcagopromoter

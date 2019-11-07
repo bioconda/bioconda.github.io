@@ -9,14 +9,14 @@ bioconductor-metahdep
 .. conda:recipe:: bioconductor-metahdep
    :replaces_section_title:
 
-   Tools for meta\-analysis in the presence of hierarchical \(and\/or sampling\) dependence\, including with gene expression studies
+   Hierarchical Dependence in Meta\-Analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/metahdep.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/metahdep.html
    :license: GPL-3
    :recipe: /`bioconductor-metahdep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metahdep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metahdep/meta.yaml>`_
    :links: biotools: :biotools:`metahdep`, doi: :doi:`10.1093/bioinformatics/btp468`
 
-   
+   Tools for meta\-analysis in the presence of hierarchical \(and\/or sampling\) dependence\, including with gene expression studies
 
 
 .. conda:package:: bioconductor-metahdep

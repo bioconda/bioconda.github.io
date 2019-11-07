@@ -9,13 +9,13 @@ bioconductor-abarray
 .. conda:recipe:: bioconductor-abarray
    :replaces_section_title:
 
-   Automated pipline to perform gene expression analysis for Applied Biosystems Genome Survey Microarray \(AB1700\) data format. Functions include data preprocessing\, filtering\, control probe analysis\, statistical analysis in one single function. A GUI interface is also provided. The raw data\, processed data\, graphics output and statistical results are organized into folders according to the analysis settings used.
+   Microarray QA and statistical data analysis for Applied Biosystems Genome Survey Microrarray \(AB1700\) gene expression data.
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ABarray.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ABarray.html
    :license: GPL
    :recipe: /`bioconductor-abarray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-abarray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-abarray/meta.yaml>`_
 
-   
+   Automated pipline to perform gene expression analysis for Applied Biosystems Genome Survey Microarray \(AB1700\) data format. Functions include data preprocessing\, filtering\, control probe analysis\, statistical analysis in one single function. A GUI interface is also provided. The raw data\, processed data\, graphics output and statistical results are organized into folders according to the analysis settings used.
 
 
 .. conda:package:: bioconductor-abarray

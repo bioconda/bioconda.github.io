@@ -9,13 +9,13 @@ bioconductor-rgin
 .. conda:recipe:: bioconductor-rgin
    :replaces_section_title:
 
-   C\+\+ implementation of SConES.
+   gin in R
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Rgin.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Rgin.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-rgin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgin/meta.yaml>`_
 
-   
+   C\+\+ implementation of SConES.
 
 
 .. conda:package:: bioconductor-rgin

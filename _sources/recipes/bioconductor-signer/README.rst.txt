@@ -9,14 +9,14 @@ bioconductor-signer
 .. conda:recipe:: bioconductor-signer
    :replaces_section_title:
 
-   The signeR package provides an empirical Bayesian approach to mutational signature discovery. It is designed to analyze single nucleotide variaton \(SNV\) counts in cancer genomes\, but can also be applied to other features as well. Functionalities to characterize signatures or genome samples according to exposure patterns are also provided.
+   Empirical Bayesian approach to mutational signature discovery
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/signeR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/signeR.html
    :license: GPL-3
    :recipe: /`bioconductor-signer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-signer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-signer/meta.yaml>`_
    :links: biotools: :biotools:`signer`
 
-   
+   The signeR package provides an empirical Bayesian approach to mutational signature discovery. It is designed to analyze single nucleotide variaton \(SNV\) counts in cancer genomes\, but can also be applied to other features as well. Functionalities to characterize signatures or genome samples according to exposure patterns are also provided.
 
 
 .. conda:package:: bioconductor-signer

@@ -9,14 +9,14 @@ bioconductor-genvisr
 .. conda:recipe:: bioconductor-genvisr
    :replaces_section_title:
 
-   Produce highly customizable publication quality graphics for genomic data primarily at the cohort level.
+   Genomic Visualizations in R
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GenVisR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GenVisR.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-genvisr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genvisr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genvisr/meta.yaml>`_
    :links: biotools: :biotools:`genvisr`
 
-   
+   Produce highly customizable publication quality graphics for genomic data primarily at the cohort level.
 
 
 .. conda:package:: bioconductor-genvisr

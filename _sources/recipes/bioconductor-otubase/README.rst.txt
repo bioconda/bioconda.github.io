@@ -9,14 +9,14 @@ bioconductor-otubase
 .. conda:recipe:: bioconductor-otubase
    :replaces_section_title:
 
-   Provides a platform for Operational Taxonomic Unit based analysis
+   Provides structure and functions for the analysis of OTU data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/OTUbase.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/OTUbase.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-otubase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-otubase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-otubase/meta.yaml>`_
    :links: biotools: :biotools:`otubase`, doi: :doi:`10.1093/bioinformatics/btr196`
 
-   
+   Provides a platform for Operational Taxonomic Unit based analysis
 
 
 .. conda:package:: bioconductor-otubase

@@ -9,14 +9,14 @@ bioconductor-mipp
 .. conda:recipe:: bioconductor-mipp
    :replaces_section_title:
 
-   This package finds optimal sets of genes that seperate samples into two or more classes.
+   Misclassification Penalized Posterior Classification
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MiPP.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MiPP.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mipp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mipp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mipp/meta.yaml>`_
    :links: biotools: :biotools:`mipp`, doi: :doi:`10.1093/bioinformatics/bti1020`
 
-   
+   This package finds optimal sets of genes that seperate samples into two or more classes.
 
 
 .. conda:package:: bioconductor-mipp

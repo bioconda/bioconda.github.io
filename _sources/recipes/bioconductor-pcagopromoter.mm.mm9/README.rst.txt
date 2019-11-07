@@ -9,20 +9,20 @@ bioconductor-pcagopromoter.mm.mm9
 .. conda:recipe:: bioconductor-pcagopromoter.mm.mm9
    :replaces_section_title:
 
-   Contains the data for transciption factors analysis of organism Mus musculus with package pcaGoPromoter
+   pcaGoPromoter.Mm.mm9 is a data package used by pcaGoPromoter
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/pcaGoPromoter.Mm.mm9.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/pcaGoPromoter.Mm.mm9.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-pcagopromoter.mm.mm9 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcagopromoter.mm.mm9>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcagopromoter.mm.mm9/meta.yaml>`_
 
-   
+   Contains the data for transciption factors analysis of organism Mus musculus with package pcaGoPromoter
 
 
 .. conda:package:: bioconductor-pcagopromoter.mm.mm9
 
    |downloads_bioconductor-pcagopromoter.mm.mm9| |docker_bioconductor-pcagopromoter.mm.mm9|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

@@ -9,14 +9,14 @@ bioconductor-xvector
 .. conda:recipe:: bioconductor-xvector
    :replaces_section_title:
 
-   Provides memory efficient S4 classes for storing sequences \"externally\" \(e.g. behind an R external pointer\, or on disk\).
+   Foundation of external vector representation and manipulation in Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/XVector.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/XVector.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-xvector <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xvector>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xvector/meta.yaml>`_
    :links: biotools: :biotools:`xvector`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Provides memory efficient S4 classes for storing sequences \"externally\" \(e.g. behind an R external pointer\, or on disk\).
 
 
 .. conda:package:: bioconductor-xvector

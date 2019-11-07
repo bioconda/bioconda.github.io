@@ -9,14 +9,14 @@ bioconductor-metcirc
 .. conda:recipe:: bioconductor-metcirc
    :replaces_section_title:
 
-   MetCirc comprises a workflow to interactively explore high\-resolution MS\/MS metabolomics data\: create an MSP object\, a format for MS\/MS library data\, bin m\/z values of precursors\, calculate similarity between precursors based on the normalised dot product and visualise similarities in a circular layout. Within the interactive framework the user can annotate MS\/MS features based on their similarity to \(known\) related MS\/MS features.
+   Navigating mass spectral similarity in high\-resolution MS\/MS metabolomics data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MetCirc.html
-   :license: GPL-2
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MetCirc.html
+   :license: GPL (>= 3)
    :recipe: /`bioconductor-metcirc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metcirc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metcirc/meta.yaml>`_
    :links: biotools: :biotools:`metcirc`, doi: :doi:`10.1093/bioinformatics/btx159`
 
-   
+   MetCirc comprises a workflow to interactively explore high\-resolution MS\/MS metabolomics data. MetCirc uses the Spectrum2 and Spectra infrastructure defined in the package MSnbase that stores MS\/MS spectra. MetCirc offers functionality to calculate similarity between precursors based on the normalised dot product\, neutral losses or user\-defined functions and visualise similarities in a circular layout. Within the interactive framework the user can annotate MS\/MS features based on their similarity to \(known\) related MS\/MS features.
 
 
 .. conda:package:: bioconductor-metcirc

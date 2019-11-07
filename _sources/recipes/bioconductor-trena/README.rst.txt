@@ -9,13 +9,13 @@ bioconductor-trena
 .. conda:recipe:: bioconductor-trena
    :replaces_section_title:
 
-   Methods for reconstructing transcriptional regulatory networks\, especially in species for which genome\-wide TF binding site information is available.
+   Fit transcriptional regulatory networks using gene expression\, priors\, machine learning
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/trena.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/trena.html
    :license: GPL-3
    :recipe: /`bioconductor-trena <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trena>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trena/meta.yaml>`_
 
-   
+   Methods for reconstructing transcriptional regulatory networks\, especially in species for which genome\-wide TF binding site information is available.
 
 
 .. conda:package:: bioconductor-trena

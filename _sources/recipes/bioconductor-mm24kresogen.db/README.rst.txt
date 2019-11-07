@@ -9,13 +9,13 @@ bioconductor-mm24kresogen.db
 .. conda:recipe:: bioconductor-mm24kresogen.db
    :replaces_section_title:
 
-   RNG\_MRC Mouse Pangenomic 24k Set annotation data \(chip mm24kresogen\) assembled using data from public repositories
+   RNG\_MRC Mouse Pangenomic 24k Set annotation data \(chip mm24kresogen\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mm24kresogen.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mm24kresogen.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mm24kresogen.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mm24kresogen.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mm24kresogen.db/meta.yaml>`_
 
-   
+   RNG\_MRC Mouse Pangenomic 24k Set annotation data \(chip mm24kresogen\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-mm24kresogen.db

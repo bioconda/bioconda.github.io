@@ -9,13 +9,13 @@ bioconductor-riceprobe
 .. conda:recipe:: bioconductor-riceprobe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Rice\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type rice
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/riceprobe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/riceprobe.html
    :license: LGPL
    :recipe: /`bioconductor-riceprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-riceprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-riceprobe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Rice\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-riceprobe

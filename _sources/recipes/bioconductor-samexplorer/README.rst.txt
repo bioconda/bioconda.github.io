@@ -9,24 +9,24 @@ bioconductor-samexplorer
 .. conda:recipe:: bioconductor-samexplorer
    :replaces_section_title:
 
-   This R package is designed for subsampling procedure to simulate sequencing experiments with reduced sequencing depth. This package can be used to anlayze data generated from all major sequencing platforms such as Illumina GA\, HiSeq\, MiSeq\, Roche GS\-FLX\, ABI SOLiD and LifeTech Ion PGM Proton sequencers. It supports multiple operating systems incluidng Linux\, Mac OS X\, FreeBSD and Solaris. Was developed with usage of Rsubread.
+   samExploreR package high\-performance read summarisation to count vectors with avaliability of sequencing depth reduction simulation
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/samExploreR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/samExploreR.html
    :license: GPL-3
    :recipe: /`bioconductor-samexplorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-samexplorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-samexplorer/meta.yaml>`_
 
-   
+   This R package is designed for subsampling procedure to simulate sequencing experiments with reduced sequencing depth. This package can be used to anlayze data generated from all major sequencing platforms such as Illumina GA\, HiSeq\, MiSeq\, Roche GS\-FLX\, ABI SOLiD and LifeTech Ion PGM Proton sequencers. It supports multiple operating systems incluidng Linux\, Mac OS X\, FreeBSD and Solaris. Was developed with usage of Rsubread.
 
 
 .. conda:package:: bioconductor-samexplorer
 
    |downloads_bioconductor-samexplorer| |docker_bioconductor-samexplorer|
 
-   :versions: 1.10.0-0, 1.8.0-1, 1.8.0-0, 1.6.1-0, 1.6.0-0
+   :versions: 1.8.0-1, 1.8.0-0, 1.6.1-0, 1.6.0-0
    
-   :depends bioconductor-edger: >=3.28.0,<3.29.0
-   :depends bioconductor-rnaseqdata.hnrnpc.bam.chr14: >=0.23.0,<0.24.0
-   :depends bioconductor-rsubread: >=2.0.0,<2.1.0
+   :depends bioconductor-edger: >=3.26.0,<3.27.0
+   :depends bioconductor-rnaseqdata.hnrnpc.bam.chr14: >=0.22.0,<0.23.0
+   :depends bioconductor-rsubread: >=1.34.0,<1.35.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 
    :requirements:

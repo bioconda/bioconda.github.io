@@ -9,13 +9,13 @@ bioconductor-mouse4302probe
 .. conda:recipe:: bioconductor-mouse4302probe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Mouse430\\\_2\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type mouse4302
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mouse4302probe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mouse4302probe.html
    :license: LGPL
    :recipe: /`bioconductor-mouse4302probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse4302probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse4302probe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Mouse430\\\_2\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-mouse4302probe

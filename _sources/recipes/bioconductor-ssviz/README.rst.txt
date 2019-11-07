@@ -9,14 +9,14 @@ bioconductor-ssviz
 .. conda:recipe:: bioconductor-ssviz
    :replaces_section_title:
 
-   Small RNA sequencing viewer
+   A small RNA\-seq visualizer and analysis toolkit
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ssviz.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ssviz.html
    :license: GPL-2
    :recipe: /`bioconductor-ssviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ssviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ssviz/meta.yaml>`_
    :links: biotools: :biotools:`ssviz`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Small RNA sequencing viewer
 
 
 .. conda:package:: bioconductor-ssviz

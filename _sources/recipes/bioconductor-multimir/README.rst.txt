@@ -9,13 +9,13 @@ bioconductor-multimir
 .. conda:recipe:: bioconductor-multimir
    :replaces_section_title:
 
-   A collection of microRNAs\/targets from external resources\, including validated microRNA\-target databases \(miRecords\, miRTarBase and TarBase\)\, predicted microRNA\-target databases \(DIANA\-microT\, ElMMo\, MicroCosm\, miRanda\, miRDB\, PicTar\, PITA and TargetScan\) and microRNA\-disease\/drug databases \(miR2Disease\, Pharmaco\-miR VerSe and PhenomiR\).
+   Integration of multiple microRNA\-target databases with their disease and drug associations
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/multiMiR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/multiMiR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-multimir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multimir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multimir/meta.yaml>`_
 
-   
+   A collection of microRNAs\/targets from external resources\, including validated microRNA\-target databases \(miRecords\, miRTarBase and TarBase\)\, predicted microRNA\-target databases \(DIANA\-microT\, ElMMo\, MicroCosm\, miRanda\, miRDB\, PicTar\, PITA and TargetScan\) and microRNA\-disease\/drug databases \(miR2Disease\, Pharmaco\-miR VerSe and PhenomiR\).
 
 
 .. conda:package:: bioconductor-multimir

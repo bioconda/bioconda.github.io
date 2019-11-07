@@ -9,14 +9,14 @@ bioconductor-affy
 .. conda:recipe:: bioconductor-affy
    :replaces_section_title:
 
-   The package contains functions for exploratory oligonucleotide array analysis. The dependence on tkWidgets only concerns few convenience functions. \'affy\' is fully functional without it.
+   Methods for Affymetrix Oligonucleotide Arrays
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/affy.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/affy.html
    :license: LGPL (>= 2.0)
    :recipe: /`bioconductor-affy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affy/meta.yaml>`_
    :links: biotools: :biotools:`affy`
 
-   
+   The package contains functions for exploratory oligonucleotide array analysis. The dependence on tkWidgets only concerns few convenience functions. \'affy\' is fully functional without it.
 
 
 .. conda:package:: bioconductor-affy

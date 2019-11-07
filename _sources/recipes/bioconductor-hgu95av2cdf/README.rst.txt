@@ -9,13 +9,13 @@ bioconductor-hgu95av2cdf
 .. conda:recipe:: bioconductor-hgu95av2cdf
    :replaces_section_title:
 
-   A package containing an environment representing the HG U95Av2.CDF file.
+   hgu95av2cdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hgu95av2cdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hgu95av2cdf.html
    :license: LGPL
    :recipe: /`bioconductor-hgu95av2cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95av2cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95av2cdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the HG U95Av2.CDF file.
 
 
 .. conda:package:: bioconductor-hgu95av2cdf

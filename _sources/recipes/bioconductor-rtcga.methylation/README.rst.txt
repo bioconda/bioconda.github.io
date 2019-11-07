@@ -9,22 +9,22 @@ bioconductor-rtcga.methylation
 .. conda:recipe:: bioconductor-rtcga.methylation
    :replaces_section_title:
 
-   Package provides methylation \(humanmethylation27\) datasets from The Cancer Genome Atlas Project for all available cohorts types from http\:\/\/gdac.broadinstitute.org\/. Data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/DNA\+methylation Data from 2015\-11\-01 snapshot.
+   Methylation datasets from The Cancer Genome Atlas Project
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RTCGA.methylation.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RTCGA.methylation.html
    :license: GPL-2
    :recipe: /`bioconductor-rtcga.methylation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.methylation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.methylation/meta.yaml>`_
 
-   
+   Package provides methylation \(humanmethylation27\) datasets from The Cancer Genome Atlas Project for all available cohorts types from http\:\/\/gdac.broadinstitute.org\/. Data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/DNA\+methylation Data from 2015\-11\-01 snapshot.
 
 
 .. conda:package:: bioconductor-rtcga.methylation
 
    |downloads_bioconductor-rtcga.methylation| |docker_bioconductor-rtcga.methylation|
 
-   :versions: 1.13.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0
+   :versions: 1.12.0-1, 1.12.0-0, 1.10.0-0
    
-   :depends bioconductor-rtcga: >=1.16.0,<1.17.0
+   :depends bioconductor-rtcga: >=1.14.0,<1.15.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

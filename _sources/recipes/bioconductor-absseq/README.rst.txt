@@ -9,14 +9,14 @@ bioconductor-absseq
 .. conda:recipe:: bioconductor-absseq
    :replaces_section_title:
 
-   Inferring differential expression genes by absolute counts difference between two groups\, utilizing Negative binomial distribution and moderating fold\-change according to heterogeneity of dispersion across expression level.
+   ABSSeq\: a new RNA\-Seq analysis method based on modelling absolute expression differences
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ABSSeq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ABSSeq.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-absseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-absseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-absseq/meta.yaml>`_
    :links: biotools: :biotools:`absseq`
 
-   
+   Inferring differential expression genes by absolute counts difference between two groups\, utilizing Negative binomial distribution and moderating fold\-change according to heterogeneity of dispersion across expression level.
 
 
 .. conda:package:: bioconductor-absseq

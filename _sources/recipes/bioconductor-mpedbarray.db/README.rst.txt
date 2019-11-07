@@ -9,13 +9,13 @@ bioconductor-mpedbarray.db
 .. conda:recipe:: bioconductor-mpedbarray.db
    :replaces_section_title:
 
-   FHCRC Nelson Lab mpedbarray Annotation Data \(mpedbarray\) assembled using data from public repositories
+   FHCRC Nelson Lab mpedbarray Annotation Data \(mpedbarray\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mpedbarray.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mpedbarray.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mpedbarray.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mpedbarray.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mpedbarray.db/meta.yaml>`_
 
-   
+   FHCRC Nelson Lab mpedbarray Annotation Data \(mpedbarray\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-mpedbarray.db

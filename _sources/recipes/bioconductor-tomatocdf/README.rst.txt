@@ -9,13 +9,13 @@ bioconductor-tomatocdf
 .. conda:recipe:: bioconductor-tomatocdf
    :replaces_section_title:
 
-   A package containing an environment representing the Tomato.cdf file.
+   tomatocdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/tomatocdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/tomatocdf.html
    :license: LGPL
    :recipe: /`bioconductor-tomatocdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tomatocdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tomatocdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the Tomato.cdf file.
 
 
 .. conda:package:: bioconductor-tomatocdf

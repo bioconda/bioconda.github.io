@@ -9,20 +9,20 @@ bioconductor-affyhgu133a2expr
 .. conda:recipe:: bioconductor-affyhgu133a2expr
    :replaces_section_title:
 
-   Contains pre\-built human \(GPL571\) databases of gene expression profiles. The gene expression data was downloaded from NCBI GEO and preprocessed and normalized consistently. The biological context of each sample was recorded and manually verified based on the sample description in GEO.
+   Affymetrix Human Genome U133A 2.0 Array \(GPL571\) Expression Data Package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/Affyhgu133A2Expr.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/Affyhgu133A2Expr.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-affyhgu133a2expr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyhgu133a2expr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyhgu133a2expr/meta.yaml>`_
 
-   
+   Contains pre\-built human \(GPL571\) databases of gene expression profiles. The gene expression data was downloaded from NCBI GEO and preprocessed and normalized consistently. The biological context of each sample was recorded and manually verified based on the sample description in GEO.
 
 
 .. conda:package:: bioconductor-affyhgu133a2expr
 
    |downloads_bioconductor-affyhgu133a2expr| |docker_bioconductor-affyhgu133a2expr|
 
-   :versions: 1.21.0-0, 1.20.0-2, 1.20.0-1, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-2, 1.20.0-1, 1.18.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

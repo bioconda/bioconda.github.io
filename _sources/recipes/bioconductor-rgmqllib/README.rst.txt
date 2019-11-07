@@ -9,20 +9,20 @@ bioconductor-rgmqllib
 .. conda:recipe:: bioconductor-rgmqllib
    :replaces_section_title:
 
-   A package that contains scala libraries to call GMQL from R used by RGMQL package. It contains a scalable data management engine written in Scala programming language.
+   RGMQLlib\, java libraries to run GMQL scala API
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RGMQLlib.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RGMQLlib.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rgmqllib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgmqllib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgmqllib/meta.yaml>`_
 
-   
+   A package that contains scala libraries to call GMQL from R used by RGMQL package. It contains a scalable data management engine written in Scala programming language.
 
 
 .. conda:package:: bioconductor-rgmqllib
 
    |downloads_bioconductor-rgmqllib| |docker_bioconductor-rgmqllib|
 
-   :versions: 1.5.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-1, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-1, 1.2.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

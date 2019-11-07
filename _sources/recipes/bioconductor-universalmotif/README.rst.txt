@@ -9,13 +9,13 @@ bioconductor-universalmotif
 .. conda:recipe:: bioconductor-universalmotif
    :replaces_section_title:
 
-   Allows for importing most common motif types into R for use by functions provided by other Bioconductor motif\-related packages. Motifs can be exported into most major motif formats from various classes as defined by other Bioconductor packages. A suite of motif and sequence manipulation and analysis functions are included\, including enrichment\, comparison\, P\-value calculation\, shuffling\, trimming\, higher\-order motifs\, and others.
+   Import\, Modify\, and Export Motifs with R
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/universalmotif.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/universalmotif.html
    :license: GPL-3
    :recipe: /`bioconductor-universalmotif <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-universalmotif>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-universalmotif/meta.yaml>`_
 
-   
+   Allows for importing most common motif types into R for use by functions provided by other Bioconductor motif\-related packages. Motifs can be exported into most major motif formats from various classes as defined by other Bioconductor packages. A suite of motif and sequence manipulation and analysis functions are included\, including enrichment\, comparison\, P\-value calculation\, shuffling\, trimming\, higher\-order motifs\, and others.
 
 
 .. conda:package:: bioconductor-universalmotif

@@ -9,13 +9,13 @@ bioconductor-bovinecdf
 .. conda:recipe:: bioconductor-bovinecdf
    :replaces_section_title:
 
-   A package containing an environment representing the Bovine.cdf file.
+   bovinecdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/bovinecdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/bovinecdf.html
    :license: LGPL
    :recipe: /`bioconductor-bovinecdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bovinecdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bovinecdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the Bovine.cdf file.
 
 
 .. conda:package:: bioconductor-bovinecdf

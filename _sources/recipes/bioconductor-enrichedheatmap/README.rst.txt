@@ -9,13 +9,13 @@ bioconductor-enrichedheatmap
 .. conda:recipe:: bioconductor-enrichedheatmap
    :replaces_section_title:
 
-   Enriched heatmap is a special type of heatmap which visualizes the enrichment of genomic signals on specific target regions. Here we implement enriched heatmap by ComplexHeatmap package. Since this type of heatmap is just a normal heatmap but with some special settings\, with the functionality of ComplexHeatmap\, it would be much easier to customize the heatmap as well as concatenating to a list of heatmaps to show correspondance between different data sources.
+   Making Enriched Heatmaps
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/EnrichedHeatmap.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/EnrichedHeatmap.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-enrichedheatmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enrichedheatmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enrichedheatmap/meta.yaml>`_
 
-   
+   Enriched heatmap is a special type of heatmap which visualizes the enrichment of genomic signals on specific target regions. Here we implement enriched heatmap by ComplexHeatmap package. Since this type of heatmap is just a normal heatmap but with some special settings\, with the functionality of ComplexHeatmap\, it would be much easier to customize the heatmap as well as concatenating to a list of heatmaps to show correspondance between different data sources.
 
 
 .. conda:package:: bioconductor-enrichedheatmap

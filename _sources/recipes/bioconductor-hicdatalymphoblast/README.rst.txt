@@ -9,20 +9,20 @@ bioconductor-hicdatalymphoblast
 .. conda:recipe:: bioconductor-hicdatalymphoblast
    :replaces_section_title:
 
-   The HiC data from human lymphoblastoid cell line \(HindIII restriction\) was retrieved from the sequence read archive and two ends of the paired reads were aligned separately with bowtie.
+   Human lymphoblastoid HiC data from Lieberman\-Aiden et al. 2009
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/HiCDataLymphoblast.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/HiCDataLymphoblast.html
    :license: GPL-3
    :recipe: /`bioconductor-hicdatalymphoblast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicdatalymphoblast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicdatalymphoblast/meta.yaml>`_
 
-   
+   The HiC data from human lymphoblastoid cell line \(HindIII restriction\) was retrieved from the sequence read archive and two ends of the paired reads were aligned separately with bowtie.
 
 
 .. conda:package:: bioconductor-hicdatalymphoblast
 
    |downloads_bioconductor-hicdatalymphoblast| |docker_bioconductor-hicdatalymphoblast|
 
-   :versions: 1.21.1-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

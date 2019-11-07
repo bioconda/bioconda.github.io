@@ -9,32 +9,32 @@ bioconductor-copywriter
 .. conda:recipe:: bioconductor-copywriter
    :replaces_section_title:
 
-   CopywriteR extracts DNA copy number information from targeted sequencing by utiizing off\-target reads. It allows for extracting uniformly distributed copy number information\, can be used without reference\, and can be applied to sequencing data obtained from various techniques including chromatin immunoprecipitation and target enrichment on small gene panels. Thereby\, CopywriteR constitutes a widely applicable alternative to available copy number detection tools.
+   Copy number information from targeted sequencing using off\-target reads
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CopywriteR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CopywriteR.html
    :license: GPL-2
    :recipe: /`bioconductor-copywriter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copywriter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copywriter/meta.yaml>`_
    :links: biotools: :biotools:`copywriter`, doi: :doi:`10.1186/s13059-015-0617-1`
 
-   
+   CopywriteR extracts DNA copy number information from targeted sequencing by utiizing off\-target reads. It allows for extracting uniformly distributed copy number information\, can be used without reference\, and can be applied to sequencing data obtained from various techniques including chromatin immunoprecipitation and target enrichment on small gene panels. Thereby\, CopywriteR constitutes a widely applicable alternative to available copy number detection tools.
 
 
 .. conda:package:: bioconductor-copywriter
 
    |downloads_bioconductor-copywriter| |docker_bioconductor-copywriter|
 
-   :versions: 2.18.0-0, 2.16.0-1, 2.14.0-0, 2.12.0-0, 2.10.0-0
+   :versions: 2.16.0-1, 2.14.0-0, 2.12.0-0, 2.10.0-0
    
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-chipseq: >=1.36.0,<1.37.0
-   :depends bioconductor-copyhelper: >=1.17.0,<1.18.0
-   :depends bioconductor-dnacopy: >=1.60.0,<1.61.0
-   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicalignments: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
+   :depends bioconductor-chipseq: >=1.34.0,<1.35.0
+   :depends bioconductor-copyhelper: >=1.16.0,<1.17.0
+   :depends bioconductor-dnacopy: >=1.58.0,<1.59.0
+   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicalignments: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-futile.logger: 

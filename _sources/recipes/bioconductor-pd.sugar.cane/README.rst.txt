@@ -11,11 +11,11 @@ bioconductor-pd.sugar.cane
 
    Platform Design Info for The Manufacturer\'s Name Sugar\_Cane
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.sugar.cane.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.sugar.cane.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.sugar.cane <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.sugar.cane>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.sugar.cane/meta.yaml>`_
 
-   
+   Platform Design Info for The Manufacturer\'s Name Sugar\_Cane
 
 
 .. conda:package:: bioconductor-pd.sugar.cane

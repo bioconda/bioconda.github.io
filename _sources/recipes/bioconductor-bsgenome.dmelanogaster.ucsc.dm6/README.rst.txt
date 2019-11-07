@@ -9,13 +9,13 @@ bioconductor-bsgenome.dmelanogaster.ucsc.dm6
 .. conda:recipe:: bioconductor-bsgenome.dmelanogaster.ucsc.dm6
    :replaces_section_title:
 
-   Full genome sequences for Drosophila melanogaster \(Fly\) as provided by UCSC \(dm6\, Aug. 2014\) and stored in Biostrings objects.
+   Full genome sequences for Drosophila melanogaster \(UCSC version dm6\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Dmelanogaster.UCSC.dm6.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Dmelanogaster.UCSC.dm6.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.dmelanogaster.ucsc.dm6 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.dmelanogaster.ucsc.dm6>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.dmelanogaster.ucsc.dm6/meta.yaml>`_
 
-   
+   Full genome sequences for Drosophila melanogaster \(Fly\) as provided by UCSC \(dm6\, Aug. 2014\) and stored in Biostrings objects.
 
 
 .. conda:package:: bioconductor-bsgenome.dmelanogaster.ucsc.dm6

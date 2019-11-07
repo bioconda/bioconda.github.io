@@ -9,14 +9,14 @@ bioconductor-promise
 .. conda:recipe:: bioconductor-promise
    :replaces_section_title:
 
-   A general tool to identify genomic features with a specific biologically interesting pattern of associations with multiple endpoint variables as described in Pounds et. al. \(2009\) Bioinformatics 25\: 2013\-2019
+   PRojection Onto the Most Interesting Statistical Evidence
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PROMISE.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PROMISE.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-promise <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-promise>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-promise/meta.yaml>`_
    :links: biotools: :biotools:`promise`, doi: :doi:`10.1093/bioinformatics/btp357`
 
-   
+   A general tool to identify genomic features with a specific biologically interesting pattern of associations with multiple endpoint variables as described in Pounds et. al. \(2009\) Bioinformatics 25\: 2013\-2019
 
 
 .. conda:package:: bioconductor-promise

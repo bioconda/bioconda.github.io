@@ -9,23 +9,23 @@ bioconductor-bodymaprat
 .. conda:recipe:: bioconductor-bodymaprat
    :replaces_section_title:
 
-   This package contains a SummarizedExperiment from the Yu et al. \(2013\) paper that performed the rat BodyMap across 11 organs and 4 developmental stages. Raw FASTQ files were downloaded and mapped using STAR. Data is available on ExperimentHub as a data package.
+   Experimental dataset from the rat BodyMap project
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/bodymapRat.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/bodymapRat.html
    :license: CC BY 4.0
    :recipe: /`bioconductor-bodymaprat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bodymaprat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bodymaprat/meta.yaml>`_
 
-   
+   This package contains a SummarizedExperiment from the Yu et al. \(2013\) paper that performed the rat BodyMap across 11 organs and 4 developmental stages. Raw FASTQ files were downloaded and mapped using STAR. Data is available on ExperimentHub as a data package.
 
 
 .. conda:package:: bioconductor-bodymaprat
 
    |downloads_bioconductor-bodymaprat| |docker_bioconductor-bodymaprat|
 
-   :versions: 1.1.0-0, 1.0.0-1
+   :versions: 1.0.0-1
    
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

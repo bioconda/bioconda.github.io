@@ -9,13 +9,13 @@ bioconductor-wrench
 .. conda:recipe:: bioconductor-wrench
    :replaces_section_title:
 
-   Wrench is a package for normalization sparse genomic count data\, like that arising from 16s metagenomic surveys.
+   Wrench normalization for sparse count data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Wrench.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Wrench.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-wrench <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wrench>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wrench/meta.yaml>`_
 
-   
+   Wrench is a package for normalization sparse genomic count data\, like that arising from 16s metagenomic surveys.
 
 
 .. conda:package:: bioconductor-wrench

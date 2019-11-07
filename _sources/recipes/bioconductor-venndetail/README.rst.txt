@@ -9,13 +9,13 @@ bioconductor-venndetail
 .. conda:recipe:: bioconductor-venndetail
    :replaces_section_title:
 
-   A set of functions to generate high\-resolution Venn\,Vennpie plot\,extract and combine details of these subsets with user datasets in data frame is available.
+   A package for visualization and extract details
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/VennDetail.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/VennDetail.html
    :license: GPL-2
    :recipe: /`bioconductor-venndetail <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-venndetail>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-venndetail/meta.yaml>`_
 
-   
+   A set of functions to generate high\-resolution Venn\,Vennpie plot\,extract and combine details of these subsets with user datasets in data frame is available.
 
 
 .. conda:package:: bioconductor-venndetail

@@ -9,14 +9,14 @@ bioconductor-dnashaper
 .. conda:recipe:: bioconductor-dnashaper
    :replaces_section_title:
 
-   DNAhapeR is an R\/BioConductor package for ultra\-fast\, high\-throughput predictions of DNA shape features. The package allows to predict\, visualize and encode DNA shape features for statistical learning.
+   High\-throughput prediction of DNA shape features
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DNAshapeR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DNAshapeR.html
    :license: GPL-2
    :recipe: /`bioconductor-dnashaper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnashaper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnashaper/meta.yaml>`_
    :links: biotools: :biotools:`dnashaper`
 
-   
+   DNAhapeR is an R\/BioConductor package for ultra\-fast\, high\-throughput predictions of DNA shape features. The package allows to predict\, visualize and encode DNA shape features for statistical learning.
 
 
 .. conda:package:: bioconductor-dnashaper

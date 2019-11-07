@@ -9,13 +9,13 @@ bioconductor-categorycompare
 .. conda:recipe:: bioconductor-categorycompare
    :replaces_section_title:
 
-   Calculates significant annotations \(categories\) in each of two \(or more\) feature \(i.e. gene\) lists\, determines the overlap between the annotations\, and returns graphical and tabular data about the significant annotations and which combinations of feature lists the annotations were found to be significant. Interactive exploration is facilitated through the use of RCytoscape \(heavily suggested\).
+   Meta\-analysis of high\-throughput experiments using feature annotations
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/categoryCompare.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/categoryCompare.html
    :license: GPL-2
    :recipe: /`bioconductor-categorycompare <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-categorycompare>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-categorycompare/meta.yaml>`_
 
-   
+   Calculates significant annotations \(categories\) in each of two \(or more\) feature \(i.e. gene\) lists\, determines the overlap between the annotations\, and returns graphical and tabular data about the significant annotations and which combinations of feature lists the annotations were found to be significant. Interactive exploration is facilitated through the use of RCytoscape \(heavily suggested\).
 
 
 .. conda:package:: bioconductor-categorycompare

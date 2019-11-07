@@ -9,13 +9,13 @@ bioconductor-pairadise
 .. conda:recipe:: bioconductor-pairadise
    :replaces_section_title:
 
-   This package implements the PAIRADISE procedure for detecting differential isoform expression between matched replicates in paired RNA\-Seq data.
+   PAIRADISE\: Paired analysis of differential isoform expression
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PAIRADISE.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PAIRADISE.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-pairadise <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pairadise>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pairadise/meta.yaml>`_
 
-   
+   This package implements the PAIRADISE procedure for detecting differential isoform expression between matched replicates in paired RNA\-Seq data.
 
 
 .. conda:package:: bioconductor-pairadise

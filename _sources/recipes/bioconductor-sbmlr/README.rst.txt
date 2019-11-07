@@ -9,13 +9,13 @@ bioconductor-sbmlr
 .. conda:recipe:: bioconductor-sbmlr
    :replaces_section_title:
 
-   This package contains a systems biology markup language \(SBML\) interface to R.
+   SBML\-R Interface and Analysis Tools
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SBMLR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SBMLR.html
    :license: GPL-2
    :recipe: /`bioconductor-sbmlr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sbmlr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sbmlr/meta.yaml>`_
 
-   
+   This package contains a systems biology markup language \(SBML\) interface to R.
 
 
 .. conda:package:: bioconductor-sbmlr

@@ -9,13 +9,13 @@ bioconductor-sponge
 .. conda:recipe:: bioconductor-sponge
    :replaces_section_title:
 
-   This package provides methods to efficiently detect competitive endogeneous RNA interactions between two genes. Such interactions are mediated by one or several miRNAs such that both gene and miRNA expression data for a larger number of samples is needed as input.
+   Sparse Partial Correlations On Gene Expression
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SPONGE.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SPONGE.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-sponge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sponge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sponge/meta.yaml>`_
 
-   
+   This package provides methods to efficiently detect competitive endogeneous RNA interactions between two genes. Such interactions are mediated by one or several miRNAs such that both gene and miRNA expression data for a larger number of samples is needed as input.
 
 
 .. conda:package:: bioconductor-sponge

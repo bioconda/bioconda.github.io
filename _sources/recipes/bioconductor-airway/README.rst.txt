@@ -9,20 +9,20 @@ bioconductor-airway
 .. conda:recipe:: bioconductor-airway
    :replaces_section_title:
 
-   This package provides a RangedSummarizedExperiment object of read counts in genes for an RNA\-Seq experiment on four human airway smooth muscle cell lines treated with dexamethasone. Details on the gene model and read counting procedure are provided in the package vignette. The citation for the experiment is\: Himes BE\, Jiang X\, Wagner P\, Hu R\, Wang Q\, Klanderman B\, Whitaker RM\, Duan Q\, Lasky\-Su J\, Nikolos C\, Jester W\, Johnson M\, Panettieri R Jr\, Tantisira KG\, Weiss ST\, Lu Q. \'RNA\-Seq Transcriptome Profiling Identifies CRISPLD2 as a Glucocorticoid Responsive Gene that Modulates Cytokine Function in Airway Smooth Muscle Cells.\' PLoS One. 2014 Jun 13\;9\(6\)\:e99625. PMID\: 24926665. GEO\: GSE52778.
+   RangedSummarizedExperiment for RNA\-Seq in airway smooth muscle cells\, by Himes et al PLoS One 2014
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/airway.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/airway.html
    :license: LGPL
    :recipe: /`bioconductor-airway <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-airway>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-airway/meta.yaml>`_
 
-   
+   This package provides a RangedSummarizedExperiment object of read counts in genes for an RNA\-Seq experiment on four human airway smooth muscle cell lines treated with dexamethasone. Details on the gene model and read counting procedure are provided in the package vignette. The citation for the experiment is\: Himes BE\, Jiang X\, Wagner P\, Hu R\, Wang Q\, Klanderman B\, Whitaker RM\, Duan Q\, Lasky\-Su J\, Nikolos C\, Jester W\, Johnson M\, Panettieri R Jr\, Tantisira KG\, Weiss ST\, Lu Q. \'RNA\-Seq Transcriptome Profiling Identifies CRISPLD2 as a Glucocorticoid Responsive Gene that Modulates Cytokine Function in Airway Smooth Muscle Cells.\' PLoS One. 2014 Jun 13\;9\(6\)\:e99625. PMID\: 24926665. GEO\: GSE52778.
 
 
 .. conda:package:: bioconductor-airway
 
    |downloads_bioconductor-airway| |docker_bioconductor-airway|
 
-   :versions: 1.5.3-0, 1.4.0-1, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0
    
    :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends curl: >=7.65.3,<8.0a0

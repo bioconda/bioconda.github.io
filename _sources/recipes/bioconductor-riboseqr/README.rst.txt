@@ -9,14 +9,14 @@ bioconductor-riboseqr
 .. conda:recipe:: bioconductor-riboseqr
    :replaces_section_title:
 
-   Plotting functions\, frameshift detection and parsing of sequencing data from ribosome profiling experiments.
+   Analysis of sequencing data from ribosome profiling experiments
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/riboSeqR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/riboSeqR.html
    :license: GPL-3
    :recipe: /`bioconductor-riboseqr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-riboseqr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-riboseqr/meta.yaml>`_
    :links: biotools: :biotools:`riboseqr`, doi: :doi:`10.1080/15476286.2016.1141862`
 
-   
+   Plotting functions\, frameshift detection and parsing of sequencing data from ribosome profiling experiments.
 
 
 .. conda:package:: bioconductor-riboseqr

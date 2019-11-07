@@ -9,13 +9,13 @@ bioconductor-rsbml
 .. conda:recipe:: bioconductor-rsbml
    :replaces_section_title:
 
-   Links R to libsbml for SBML parsing\, validating output\, provides an S4 SBML DOM\, converts SBML to R graph objects. Optionally links to the SBML ODE Solver Library \(SOSLib\) for simulating models.
+   R support for SBML\, using libsbml
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/rsbml.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/rsbml.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rsbml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsbml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsbml/meta.yaml>`_
 
-   
+   Links R to libsbml for SBML parsing\, validating output\, provides an S4 SBML DOM\, converts SBML to R graph objects. Optionally links to the SBML ODE Solver Library \(SOSLib\) for simulating models.
 
 
 .. conda:package:: bioconductor-rsbml

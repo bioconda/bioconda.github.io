@@ -9,14 +9,14 @@ bioconductor-simat
 .. conda:recipe:: bioconductor-simat
    :replaces_section_title:
 
-   This package provides a pipeline for analysis of GC\-MS data acquired in selected ion monitoring \(SIM\) mode. The tool also provides a guidance in choosing appropriate fragments for the targets of interest by using an optimization algorithm. This is done by considering overlapping peaks from a provided library by the user.
+   GC\-SIM\-MS data processing and alaysis tool
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SIMAT.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SIMAT.html
    :license: GPL-2
    :recipe: /`bioconductor-simat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simat/meta.yaml>`_
    :links: biotools: :biotools:`simat`, doi: :doi:`10.1186/s12859-015-0681-2`
 
-   
+   This package provides a pipeline for analysis of GC\-MS data acquired in selected ion monitoring \(SIM\) mode. The tool also provides a guidance in choosing appropriate fragments for the targets of interest by using an optimization algorithm. This is done by considering overlapping peaks from a provided library by the user.
 
 
 .. conda:package:: bioconductor-simat

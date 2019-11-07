@@ -9,13 +9,13 @@ bioconductor-easyqpcr
 .. conda:recipe:: bioconductor-easyqpcr
    :replaces_section_title:
 
-   This package is based on the qBase algorithms published by Hellemans et al. in 2007. The EasyqpcR package allows you to import easily qPCR data files as described in the vignette. Thereafter\, you can calculate amplification efficiencies\, relative quantities and their standard errors\, normalization factors based on the best reference genes choosen \(using the SLqPCR package\)\, and then the normalized relative quantities\, the NRQs scaled to your control and their standard errors. This package has been created for low\-throughput qPCR data analysis.
+   EasyqpcR for low\-throughput real\-time quantitative PCR data analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/EasyqpcR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/EasyqpcR.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-easyqpcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easyqpcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easyqpcr/meta.yaml>`_
 
-   
+   This package is based on the qBase algorithms published by Hellemans et al. in 2007. The EasyqpcR package allows you to import easily qPCR data files as described in the vignette. Thereafter\, you can calculate amplification efficiencies\, relative quantities and their standard errors\, normalization factors based on the best reference genes choosen \(using the SLqPCR package\)\, and then the normalized relative quantities\, the NRQs scaled to your control and their standard errors. This package has been created for low\-throughput qPCR data analysis.
 
 
 .. conda:package:: bioconductor-easyqpcr

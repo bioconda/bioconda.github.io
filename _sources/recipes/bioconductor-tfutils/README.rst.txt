@@ -9,13 +9,13 @@ bioconductor-tfutils
 .. conda:recipe:: bioconductor-tfutils
    :replaces_section_title:
 
-   Package to work with TF data.
+   TFutils
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/TFutils.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/TFutils.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tfutils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tfutils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tfutils/meta.yaml>`_
 
-   
+   Package to work with TF metadata from various sources.
 
 
 .. conda:package:: bioconductor-tfutils

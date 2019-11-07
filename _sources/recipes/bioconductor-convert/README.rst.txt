@@ -9,14 +9,14 @@ bioconductor-convert
 .. conda:recipe:: bioconductor-convert
    :replaces_section_title:
 
-   Define coerce methods for microarray data objects.
+   Convert Microarray Data Objects
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/convert.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/convert.html
    :license: LGPL
    :recipe: /`bioconductor-convert <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-convert>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-convert/meta.yaml>`_
    :links: biotools: :biotools:`convert`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Define coerce methods for microarray data objects.
 
 
 .. conda:package:: bioconductor-convert

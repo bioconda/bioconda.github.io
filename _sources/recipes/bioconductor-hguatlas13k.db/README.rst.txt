@@ -9,13 +9,13 @@ bioconductor-hguatlas13k.db
 .. conda:recipe:: bioconductor-hguatlas13k.db
    :replaces_section_title:
 
-   Clontech BD Atlas Long Oligos Human 13K annotation data \(chip hguatlas13k\) assembled using data from public repositories
+   Clontech BD Atlas Long Oligos Human 13K annotation data \(chip hguatlas13k\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hguatlas13k.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hguatlas13k.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hguatlas13k.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hguatlas13k.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hguatlas13k.db/meta.yaml>`_
 
-   
+   Clontech BD Atlas Long Oligos Human 13K annotation data \(chip hguatlas13k\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-hguatlas13k.db

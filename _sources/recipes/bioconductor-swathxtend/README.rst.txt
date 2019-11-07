@@ -9,14 +9,14 @@ bioconductor-swathxtend
 .. conda:recipe:: bioconductor-swathxtend
    :replaces_section_title:
 
-   Contains utility functions for integrating spectral libraries for SWATH and statistical data analysis for SWATH generated data.
+   SWATH extended library generation and statistical data analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SwathXtend.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SwathXtend.html
    :license: GPL-2
    :recipe: /`bioconductor-swathxtend <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-swathxtend>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-swathxtend/meta.yaml>`_
    :links: biotools: :biotools:`swathxtend`, doi: :doi:`10.1074/mcp.M115.055558`
 
-   
+   Contains utility functions for integrating spectral libraries for SWATH and statistical data analysis for SWATH generated data.
 
 
 .. conda:package:: bioconductor-swathxtend

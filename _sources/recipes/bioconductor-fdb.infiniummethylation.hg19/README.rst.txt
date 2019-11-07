@@ -9,13 +9,13 @@ bioconductor-fdb.infiniummethylation.hg19
 .. conda:recipe:: bioconductor-fdb.infiniummethylation.hg19
    :replaces_section_title:
 
-   Compiled HumanMethylation27 and HumanMethylation450 annotations
+   Annotation package for Illumina Infinium DNA methylation probes
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/FDb.InfiniumMethylation.hg19.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/FDb.InfiniumMethylation.hg19.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-fdb.infiniummethylation.hg19 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fdb.infiniummethylation.hg19>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fdb.infiniummethylation.hg19/meta.yaml>`_
 
-   
+   Compiled HumanMethylation27 and HumanMethylation450 annotations
 
 
 .. conda:package:: bioconductor-fdb.infiniummethylation.hg19

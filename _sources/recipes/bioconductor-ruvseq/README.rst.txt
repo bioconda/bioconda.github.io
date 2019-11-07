@@ -9,14 +9,14 @@ bioconductor-ruvseq
 .. conda:recipe:: bioconductor-ruvseq
    :replaces_section_title:
 
-   This package implements the remove unwanted variation \(RUV\) methods of Risso et al. \(2014\) for the normalization of RNA\-Seq read counts between samples.
+   Remove Unwanted Variation from RNA\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RUVSeq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RUVSeq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ruvseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ruvseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ruvseq/meta.yaml>`_
    :links: biotools: :biotools:`ruvseq`
 
-   
+   This package implements the remove unwanted variation \(RUV\) methods of Risso et al. \(2014\) for the normalization of RNA\-Seq read counts between samples.
 
 
 .. conda:package:: bioconductor-ruvseq

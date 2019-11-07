@@ -9,14 +9,14 @@ bioconductor-cleanupdtseq
 .. conda:recipe:: bioconductor-cleanupdtseq
    :replaces_section_title:
 
-   This package implements a Naive Bayes classifier for accurate identification of polyadenylation sites \(pA sites\) from oligodT based 3 prime end sequencing such as PAS\-Seq\, PolyA\-Seq and RNA\-Seq. The classifer is highly accurate and outperforms heuristic methods.
+   This package classifies putative polyadenylation sites as true or false\/internally oligodT primed
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/cleanUpdTSeq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/cleanUpdTSeq.html
    :license: GPL-2
    :recipe: /`bioconductor-cleanupdtseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cleanupdtseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cleanupdtseq/meta.yaml>`_
    :links: biotools: :biotools:`cleanupdtseq`
 
-   
+   This package implements a Naive Bayes classifier for accurate identification of polyadenylation sites \(pA sites\) from oligodT based 3 prime end sequencing such as PAS\-Seq\, PolyA\-Seq and RNA\-Seq. The classifer is highly accurate and outperforms heuristic methods.
 
 
 .. conda:package:: bioconductor-cleanupdtseq

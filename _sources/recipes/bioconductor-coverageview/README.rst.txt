@@ -9,13 +9,13 @@ bioconductor-coverageview
 .. conda:recipe:: bioconductor-coverageview
    :replaces_section_title:
 
-   This package provides a framework for the visualization of genome coverage profiles. It can be used for ChIP\-seq experiments\, but it can be also used for genome\-wide nucleosome positioning experiments or other experiment types where it is important to have a framework in order to inspect how the coverage distributed across the genome
+   Coverage visualization package for R
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CoverageView.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CoverageView.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-coverageview <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coverageview>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coverageview/meta.yaml>`_
 
-   
+   This package provides a framework for the visualization of genome coverage profiles. It can be used for ChIP\-seq experiments\, but it can be also used for genome\-wide nucleosome positioning experiments or other experiment types where it is important to have a framework in order to inspect how the coverage distributed across the genome
 
 
 .. conda:package:: bioconductor-coverageview

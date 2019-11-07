@@ -9,13 +9,13 @@ bioconductor-rae230bcdf
 .. conda:recipe:: bioconductor-rae230bcdf
    :replaces_section_title:
 
-   A package containing an environment representing the RAE230B.CDF file.
+   rae230bcdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/rae230bcdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/rae230bcdf.html
    :license: LGPL
    :recipe: /`bioconductor-rae230bcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rae230bcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rae230bcdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the RAE230B.CDF file.
 
 
 .. conda:package:: bioconductor-rae230bcdf

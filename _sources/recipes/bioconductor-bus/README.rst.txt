@@ -9,14 +9,14 @@ bioconductor-bus
 .. conda:recipe:: bioconductor-bus
    :replaces_section_title:
 
-   This package can be used to compute associations among genes \(gene\-networks\) or between genes and some external traits \(i.e. clinical\).
+   Gene network reconstruction
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BUS.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BUS.html
    :license: GPL-3
    :recipe: /`bioconductor-bus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bus/meta.yaml>`_
    :links: biotools: :biotools:`bus`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package can be used to compute associations among genes \(gene\-networks\) or between genes and some external traits \(i.e. clinical\).
 
 
 .. conda:package:: bioconductor-bus

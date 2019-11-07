@@ -9,13 +9,13 @@ bioconductor-cnordt
 .. conda:recipe:: bioconductor-cnordt
    :replaces_section_title:
 
-   This add\-on to the package CellNOptR handles time\-course data\, as opposed to steady state data in CellNOptR. It scales the simulation step to allow comparison and model fitting for time\-course data. Future versions will optimize delays and strengths for each edge.
+   Add\-on to CellNOptR\: Discretized time treatments
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CNORdt.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CNORdt.html
    :license: GPL-2
    :recipe: /`bioconductor-cnordt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnordt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnordt/meta.yaml>`_
 
-   
+   This add\-on to the package CellNOptR handles time\-course data\, as opposed to steady state data in CellNOptR. It scales the simulation step to allow comparison and model fitting for time\-course data. Future versions will optimize delays and strengths for each edge.
 
 
 .. conda:package:: bioconductor-cnordt

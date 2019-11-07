@@ -9,13 +9,13 @@ bioconductor-structuralvariantannotation
 .. conda:recipe:: bioconductor-structuralvariantannotation
    :replaces_section_title:
 
-   StructuralVariantAnnotation contains useful helper functions for dealing with structural variants in VCF format. The packages contains functions for parsing VCFs from a number of popular callers as well as functions for dealing with breakpoints involving two separate genomic loci encoded as GRanges objects.
+   Variant annotations for structural variants
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/StructuralVariantAnnotation.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/StructuralVariantAnnotation.html
    :license: GPL-3
    :recipe: /`bioconductor-structuralvariantannotation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-structuralvariantannotation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-structuralvariantannotation/meta.yaml>`_
 
-   
+   StructuralVariantAnnotation contains useful helper functions for dealing with structural variants in VCF format. The packages contains functions for parsing VCFs from a number of popular callers as well as functions for dealing with breakpoints involving two separate genomic loci encoded as GRanges objects.
 
 
 .. conda:package:: bioconductor-structuralvariantannotation

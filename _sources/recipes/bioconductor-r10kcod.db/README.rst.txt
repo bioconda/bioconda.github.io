@@ -9,13 +9,13 @@ bioconductor-r10kcod.db
 .. conda:recipe:: bioconductor-r10kcod.db
    :replaces_section_title:
 
-   Codelink UniSet Rat I Bioarray \(\~10 000 rat gene targets\) annotation data \(chip r10kcod\) assembled using data from public repositories
+   Codelink UniSet Rat I Bioarray \(\~10 000 rat gene targets\) annotation data \(chip r10kcod\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/r10kcod.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/r10kcod.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-r10kcod.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r10kcod.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r10kcod.db/meta.yaml>`_
 
-   
+   Codelink UniSet Rat I Bioarray \(\~10 000 rat gene targets\) annotation data \(chip r10kcod\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-r10kcod.db

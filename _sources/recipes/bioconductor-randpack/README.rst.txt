@@ -9,14 +9,14 @@ bioconductor-randpack
 .. conda:recipe:: bioconductor-randpack
    :replaces_section_title:
 
-   A suite of classes and functions for randomizing patients in clinical trials.
+   Randomization routines for Clinical Trials
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/randPack.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/randPack.html
    :license: Artistic 2.0
    :recipe: /`bioconductor-randpack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-randpack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-randpack/meta.yaml>`_
    :links: biotools: :biotools:`randpack`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   A suite of classes and functions for randomizing patients in clinical trials.
 
 
 .. conda:package:: bioconductor-randpack

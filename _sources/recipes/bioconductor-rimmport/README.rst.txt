@@ -9,14 +9,14 @@ bioconductor-rimmport
 .. conda:recipe:: bioconductor-rimmport
    :replaces_section_title:
 
-   The RImmPort package simplifies access to ImmPort data for analysis in the R environment. It provides a standards\-based interface to the ImmPort study data that is in a proprietary format.
+   RImmPort\: Enabling Ready\-for\-analysis Immunology Research Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RImmPort.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RImmPort.html
    :license: GPL-3
    :recipe: /`bioconductor-rimmport <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rimmport>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rimmport/meta.yaml>`_
    :links: biotools: :biotools:`rimmport`, doi: :doi:`10.1093/bioinformatics/btw719`
 
-   
+   The RImmPort package simplifies access to ImmPort data for analysis in the R environment. It provides a standards\-based interface to the ImmPort study data that is in a proprietary format.
 
 
 .. conda:package:: bioconductor-rimmport

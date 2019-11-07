@@ -9,14 +9,14 @@ bioconductor-xmapbridge
 .. conda:recipe:: bioconductor-xmapbridge
    :replaces_section_title:
 
-   xmapBridge can plot graphs in the X\:Map genome browser. This package exports plotting files in a suitable format.
+   Export plotting files to the xmapBridge for visualisation in X\:Map
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/xmapbridge.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/xmapbridge.html
    :license: LGPL-3
    :recipe: /`bioconductor-xmapbridge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xmapbridge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xmapbridge/meta.yaml>`_
    :links: biotools: :biotools:`xmapbridge`
 
-   
+   xmapBridge can plot graphs in the X\:Map genome browser. This package exports plotting files in a suitable format.
 
 
 .. conda:package:: bioconductor-xmapbridge

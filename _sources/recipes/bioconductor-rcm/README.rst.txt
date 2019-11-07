@@ -9,13 +9,13 @@ bioconductor-rcm
 .. conda:recipe:: bioconductor-rcm
    :replaces_section_title:
 
-   Combine ideas of log\-linear analysis of contingency table\, flexible response function estimation and empirical Bayes dispersion estimation for explorative visualization of microbiome datasets. The package includes unconstrained as well as constrained analysis.
+   Fit row\-column association models with the negative binomial distribution for the microbiome
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RCM.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RCM.html
    :license: GPL-2
    :recipe: /`bioconductor-rcm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcm/meta.yaml>`_
 
-   
+   Combine ideas of log\-linear analysis of contingency table\, flexible response function estimation and empirical Bayes dispersion estimation for explorative visualization of microbiome datasets. The package includes unconstrained as well as constrained analysis.
 
 
 .. conda:package:: bioconductor-rcm

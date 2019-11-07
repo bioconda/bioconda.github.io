@@ -9,20 +9,20 @@ bioconductor-hapmap500ksty
 .. conda:recipe:: bioconductor-hapmap500ksty
    :replaces_section_title:
 
-   Sample dataset obtained from http\:\/\/www.hapmap.org
+   Sample data \- Hapmap 500K STY Affymetrix
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/hapmap500ksty.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/hapmap500ksty.html
    :license: GPL
    :recipe: /`bioconductor-hapmap500ksty <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmap500ksty>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmap500ksty/meta.yaml>`_
 
-   
+   Sample dataset obtained from http\:\/\/www.hapmap.org
 
 
 .. conda:package:: bioconductor-hapmap500ksty
 
    |downloads_bioconductor-hapmap500ksty| |docker_bioconductor-hapmap500ksty|
 
-   :versions: 1.27.0-0, 1.26.0-1, 1.26.0-0, 1.24.0-0
+   :versions: 1.28.0-0, 1.26.0-1, 1.26.0-0, 1.24.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

@@ -9,13 +9,13 @@ bioconductor-dualks
 .. conda:recipe:: bioconductor-dualks
    :replaces_section_title:
 
-   This package implements a Kolmogorov Smirnov rank\-sum based algorithm for training \(i.e. discriminant analysis\-\-identification of genes that discriminate between classes\) and classification of gene expression data sets.  One of the chief strengths of this approach is that it is amenable to the \"multiclass\" problem. That is\, it can discriminate between more than 2 classes.
+   Dual KS Discriminant Analysis and Classification
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/dualKS.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/dualKS.html
    :license: LGPL (>= 2.0)
    :recipe: /`bioconductor-dualks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dualks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dualks/meta.yaml>`_
 
-   
+   This package implements a Kolmogorov Smirnov rank\-sum based algorithm for training \(i.e. discriminant analysis\-\-identification of genes that discriminate between classes\) and classification of gene expression data sets.  One of the chief strengths of this approach is that it is amenable to the \"multiclass\" problem. That is\, it can discriminate between more than 2 classes.
 
 
 .. conda:package:: bioconductor-dualks

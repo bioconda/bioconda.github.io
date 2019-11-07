@@ -9,25 +9,25 @@ bioconductor-flagme
 .. conda:recipe:: bioconductor-flagme
    :replaces_section_title:
 
-   Fragment\-level analysis of gas chromatography \- mass spectrometry metabolomics data
+   Analysis of Metabolomics GC\/MS Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flagme.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flagme.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-flagme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flagme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flagme/meta.yaml>`_
    :links: biotools: :biotools:`flagme`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Fragment\-level analysis of gas chromatography \- mass spectrometry metabolomics data
 
 
 .. conda:package:: bioconductor-flagme
 
    |downloads_bioconductor-flagme| |docker_bioconductor-flagme|
 
-   :versions: 1.42.0-0, 1.40.0-1, 1.38.1-0, 1.38.0-0, 1.34.0-0
+   :versions: 1.40.0-1, 1.38.1-0, 1.38.0-0, 1.34.0-0
    
-   :depends bioconductor-camera: >=1.42.0,<1.43.0
-   :depends bioconductor-gcspikelite: >=1.23.0,<1.24.0
-   :depends bioconductor-xcms: >=3.8.0,<3.9.0
+   :depends bioconductor-camera: >=1.40.0,<1.41.0
+   :depends bioconductor-gcspikelite: >=1.22.0,<1.23.0
+   :depends bioconductor-xcms: >=3.6.0,<3.7.0
    :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-gplots: 

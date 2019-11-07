@@ -9,13 +9,13 @@ bioconductor-fdb.ucsc.snp137common.hg19
 .. conda:recipe:: bioconductor-fdb.ucsc.snp137common.hg19
    :replaces_section_title:
 
-   makeFeatureDbFromUCSC cannot cope with this track\, hence a package
+   UCSC common SNPs track for dbSNP build 137
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/FDb.UCSC.snp137common.hg19.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/FDb.UCSC.snp137common.hg19.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-fdb.ucsc.snp137common.hg19 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fdb.ucsc.snp137common.hg19>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fdb.ucsc.snp137common.hg19/meta.yaml>`_
 
-   
+   makeFeatureDbFromUCSC cannot cope with this track\, hence a package
 
 
 .. conda:package:: bioconductor-fdb.ucsc.snp137common.hg19

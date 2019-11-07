@@ -9,14 +9,14 @@ bioconductor-mast
 .. conda:recipe:: bioconductor-mast
    :replaces_section_title:
 
-   Methods and models for handling zero\-inflated single cell assay data.
+   Model\-based Analysis of Single Cell Transcriptomics
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MAST.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MAST.html
    :license: GPL(>= 2)
    :recipe: /`bioconductor-mast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mast/meta.yaml>`_
    :links: biotools: :biotools:`mast`, doi: :doi:`10.1186/s13059-015-0844-5`
 
-   
+   Methods and models for handling zero\-inflated single cell assay data.
 
 
 .. conda:package:: bioconductor-mast

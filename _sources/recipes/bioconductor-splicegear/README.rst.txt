@@ -9,14 +9,14 @@ bioconductor-splicegear
 .. conda:recipe:: bioconductor-splicegear
    :replaces_section_title:
 
-   A set of tools to work with alternative splicing
+   splicegear
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/splicegear.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/splicegear.html
    :license: LGPL
    :recipe: /`bioconductor-splicegear <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicegear>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicegear/meta.yaml>`_
    :links: biotools: :biotools:`splicegear`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   A set of tools to work with alternative splicing
 
 
 .. conda:package:: bioconductor-splicegear

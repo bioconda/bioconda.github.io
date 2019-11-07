@@ -11,12 +11,12 @@ bioconductor-omicade4
 
    Multiple co\-inertia analysis of omics datasets
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/omicade4.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/omicade4.html
    :license: GPL-2
    :recipe: /`bioconductor-omicade4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicade4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicade4/meta.yaml>`_
    :links: biotools: :biotools:`omicade4`
 
-   
+   Multiple co\-inertia analysis of omics datasets
 
 
 .. conda:package:: bioconductor-omicade4

@@ -11,11 +11,11 @@ bioconductor-pd.feinberg.mm8.me.hx1
 
    Platform Design Info for NimbleGen feinberg\_mm8\_me\_hx1
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.feinberg.mm8.me.hx1.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.feinberg.mm8.me.hx1.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.feinberg.mm8.me.hx1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.feinberg.mm8.me.hx1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.feinberg.mm8.me.hx1/meta.yaml>`_
 
-   
+   Platform Design Info for NimbleGen feinberg\_mm8\_me\_hx1
 
 
 .. conda:package:: bioconductor-pd.feinberg.mm8.me.hx1

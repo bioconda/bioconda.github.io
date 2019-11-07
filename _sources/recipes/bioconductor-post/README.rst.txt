@@ -9,13 +9,13 @@ bioconductor-post
 .. conda:recipe:: bioconductor-post
    :replaces_section_title:
 
-   Perform orthogonal projection of high dimensional data of a set\, and statistical modeling of phenotye with projected vectors as predictor.
+   Projection onto Orthogonal Space Testing for High Dimensional Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/POST.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/POST.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-post <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-post>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-post/meta.yaml>`_
 
-   
+   Perform orthogonal projection of high dimensional data of a set\, and statistical modeling of phenotye with projected vectors as predictor.
 
 
 .. conda:package:: bioconductor-post

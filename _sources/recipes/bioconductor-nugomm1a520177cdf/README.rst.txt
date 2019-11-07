@@ -9,13 +9,13 @@ bioconductor-nugomm1a520177cdf
 .. conda:recipe:: bioconductor-nugomm1a520177cdf
    :replaces_section_title:
 
-   A package containing an environment representing the NuGO\_Mm1a520177.cdf file.
+   nugomm1a520177cdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/nugomm1a520177cdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/nugomm1a520177cdf.html
    :license: LGPL
    :recipe: /`bioconductor-nugomm1a520177cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nugomm1a520177cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nugomm1a520177cdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the NuGO\_Mm1a520177.cdf file.
 
 
 .. conda:package:: bioconductor-nugomm1a520177cdf

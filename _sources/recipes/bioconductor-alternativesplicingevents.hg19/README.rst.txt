@@ -9,13 +9,13 @@ bioconductor-alternativesplicingevents.hg19
 .. conda:recipe:: bioconductor-alternativesplicingevents.hg19
    :replaces_section_title:
 
-   Data frame containing alternative splicing events. The splicing events were compiled from the annotation files used by the alternative splicing quantification tools MISO\, VAST\-TOOLS\, SUPPA and rMATS.
+   Alternative splicing event annotation for Human \(hg19\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/alternativeSplicingEvents.hg19.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/alternativeSplicingEvents.hg19.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alternativesplicingevents.hg19 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alternativesplicingevents.hg19>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alternativesplicingevents.hg19/meta.yaml>`_
 
-   
+   Data frame containing alternative splicing events. The splicing events were compiled from the annotation files used by the alternative splicing quantification tools MISO\, VAST\-TOOLS\, SUPPA and rMATS.
 
 
 .. conda:package:: bioconductor-alternativesplicingevents.hg19

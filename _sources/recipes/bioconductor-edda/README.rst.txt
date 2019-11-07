@@ -9,14 +9,14 @@ bioconductor-edda
 .. conda:recipe:: bioconductor-edda
    :replaces_section_title:
 
-   EDDA can aid in the design of a range of common experiments such as RNA\-seq\, Nanostring assays\, RIP\-seq and Metagenomic sequencing\, and enables researchers to comprehensively investigate the impact of experimental decisions on the ability to detect differential abundance. This work was published on 3 December 2014 at Genome Biology under the title \"The importance of study design for detecting differentially abundant features in high\-throughput experiments\" \(http\:\/\/genomebiology.com\/2014\/15\/12\/527\).
+   Experimental Design in Differential Abundance analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/EDDA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/EDDA.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-edda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edda/meta.yaml>`_
    :links: biotools: :biotools:`edda`, doi: :doi:`10.1186/s13059-014-0527-7`
 
-   
+   EDDA can aid in the design of a range of common experiments such as RNA\-seq\, Nanostring assays\, RIP\-seq and Metagenomic sequencing\, and enables researchers to comprehensively investigate the impact of experimental decisions on the ability to detect differential abundance. This work was published on 3 December 2014 at Genome Biology under the title \"The importance of study design for detecting differentially abundant features in high\-throughput experiments\" \(http\:\/\/genomebiology.com\/2014\/15\/12\/527\).
 
 
 .. conda:package:: bioconductor-edda

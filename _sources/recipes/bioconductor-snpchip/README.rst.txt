@@ -9,14 +9,14 @@ bioconductor-snpchip
 .. conda:recipe:: bioconductor-snpchip
    :replaces_section_title:
 
-   Functions for plotting SNP array data\; maintained for historical reasons
+   Visualizations for copy number alterations
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SNPchip.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SNPchip.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-snpchip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snpchip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snpchip/meta.yaml>`_
    :links: biotools: :biotools:`snpchip`
 
-   
+   Functions for plotting SNP array data\; maintained for historical reasons
 
 
 .. conda:package:: bioconductor-snpchip

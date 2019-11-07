@@ -9,20 +9,20 @@ bioconductor-healthyflowdata
 .. conda:recipe:: bioconductor-healthyflowdata
    :replaces_section_title:
 
-   A healthy dataset with 20 flow cytometry samples used by the flowMatch package.
+   Healthy dataset used by the flowMatch package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/healthyFlowData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/healthyFlowData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-healthyflowdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-healthyflowdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-healthyflowdata/meta.yaml>`_
 
-   
+   A healthy dataset with 20 flow cytometry samples used by the flowMatch package.
 
 
 .. conda:package:: bioconductor-healthyflowdata
 
    |downloads_bioconductor-healthyflowdata| |docker_bioconductor-healthyflowdata|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-0
    
    :depends bioconductor-flowcore: >=1.52.0,<1.53.0
    :depends curl: >=7.65.3,<8.0a0

@@ -9,13 +9,13 @@ bioconductor-cytofast
 .. conda:recipe:: bioconductor-cytofast
    :replaces_section_title:
 
-   Multi\-parametric flow and mass cytometry allows exceptional high\-resolution exploration of the cellular composition of the immune system. Together with tools like FlowSOM and Cytosplore it is possible to identify novel cell types. By introducing cytofast we hope to offer a workflow for visualization and quantification of cell clusters for an efficient discovery of cell populations associated with diseases or other clinical outcomes.
+   cytofast \- A quick visualization and analysis tool for CyTOF data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/cytofast.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/cytofast.html
    :license: GPL-3
    :recipe: /`bioconductor-cytofast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytofast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytofast/meta.yaml>`_
 
-   
+   Multi\-parametric flow and mass cytometry allows exceptional high\-resolution exploration of the cellular composition of the immune system. Together with tools like FlowSOM and Cytosplore it is possible to identify novel cell types. By introducing cytofast we hope to offer a workflow for visualization and quantification of cell clusters for an efficient discovery of cell populations associated with diseases or other clinical outcomes.
 
 
 .. conda:package:: bioconductor-cytofast

@@ -9,20 +9,20 @@ bioconductor-hapmap100kxba
 .. conda:recipe:: bioconductor-hapmap100kxba
    :replaces_section_title:
 
-   Sample dataset obtained from http\:\/\/www.hapmap.org
+   Sample data \- Hapmap 100K XBA Affymetrix
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/hapmap100kxba.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/hapmap100kxba.html
    :license: GPL
    :recipe: /`bioconductor-hapmap100kxba <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmap100kxba>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmap100kxba/meta.yaml>`_
 
-   
+   Sample dataset obtained from http\:\/\/www.hapmap.org
 
 
 .. conda:package:: bioconductor-hapmap100kxba
 
    |downloads_bioconductor-hapmap100kxba| |docker_bioconductor-hapmap100kxba|
 
-   :versions: 1.27.0-0, 1.26.0-1, 1.26.0-0, 1.24.0-0
+   :versions: 1.28.0-0, 1.26.0-1, 1.26.0-0, 1.24.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

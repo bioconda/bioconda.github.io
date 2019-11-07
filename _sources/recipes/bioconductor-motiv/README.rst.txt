@@ -9,14 +9,14 @@ bioconductor-motiv
 .. conda:recipe:: bioconductor-motiv
    :replaces_section_title:
 
-   This package makes use of STAMP for comparing a set of motifs to a given database \(e.g. JASPAR\). It can also be used to visualize motifs\, motif distributions\, modules and filter motifs.
+   Motif Identification and Validation
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MotIV.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MotIV.html
    :license: GPL-2
    :recipe: /`bioconductor-motiv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motiv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motiv/meta.yaml>`_
    :links: biotools: :biotools:`motiv`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package makes use of STAMP for comparing a set of motifs to a given database \(e.g. JASPAR\). It can also be used to visualize motifs\, motif distributions\, modules and filter motifs.
 
 
 .. conda:package:: bioconductor-motiv

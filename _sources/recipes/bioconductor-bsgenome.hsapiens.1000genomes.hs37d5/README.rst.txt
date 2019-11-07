@@ -9,13 +9,13 @@ bioconductor-bsgenome.hsapiens.1000genomes.hs37d5
 .. conda:recipe:: bioconductor-bsgenome.hsapiens.1000genomes.hs37d5
    :replaces_section_title:
 
-   1000genomes Phase2 Reference Genome Sequence \(hs37d5\)\, based on NCBI GRCh37.
+   1000genomes Reference Genome Sequence \(hs37d5\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Hsapiens.1000genomes.hs37d5.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Hsapiens.1000genomes.hs37d5.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.hsapiens.1000genomes.hs37d5 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.1000genomes.hs37d5>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.1000genomes.hs37d5/meta.yaml>`_
 
-   
+   1000genomes Phase2 Reference Genome Sequence \(hs37d5\)\, based on NCBI GRCh37.
 
 
 .. conda:package:: bioconductor-bsgenome.hsapiens.1000genomes.hs37d5

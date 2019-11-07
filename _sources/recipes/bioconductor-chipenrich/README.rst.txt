@@ -9,38 +9,37 @@ bioconductor-chipenrich
 .. conda:recipe:: bioconductor-chipenrich
    :replaces_section_title:
 
-   ChIP\-Enrich performs gene set enrichment testing using peaks called from a ChIP\-seq experiment. The method empirically corrects for confounding factors such as the length of genes\, and the mappability of the sequence surrounding genes.
+   Gene Set Enrichment For ChIP\-seq Peak Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/chipenrich.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/chipenrich.html
    :license: GPL-3
    :recipe: /`bioconductor-chipenrich <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipenrich>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipenrich/meta.yaml>`_
 
-   
+   ChIP\-Enrich and Poly\-Enrich perform gene set enrichment testing using peaks called from a ChIP\-seq experiment. The method empirically corrects for confounding factors such as the length of genes\, and the mappability of the sequence surrounding genes.
 
 
 .. conda:package:: bioconductor-chipenrich
 
    |downloads_bioconductor-chipenrich| |docker_bioconductor-chipenrich|
 
-   :versions: 2.10.0-0, 2.8.0-1, 2.6.0-0
+   :versions: 2.8.0-1, 2.6.0-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-chipenrich.data: >=2.9.0,<2.10.0
-   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-org.dm.eg.db: >=3.10.0,<3.11.0
-   :depends bioconductor-org.dr.eg.db: >=3.10.0,<3.11.0
-   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
-   :depends bioconductor-org.mm.eg.db: >=3.10.0,<3.11.0
-   :depends bioconductor-org.rn.eg.db: >=3.10.0,<3.11.0
-   :depends bioconductor-rtracklayer: >=1.46.0,<1.47.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-chipenrich.data: >=2.8.0,<2.9.0
+   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-org.dm.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-org.dr.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-org.mm.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-org.rn.eg.db: >=3.8.0,<3.9.0
+   :depends bioconductor-rtracklayer: >=1.44.0,<1.45.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-lattice: 
    :depends r-latticeextra: 
-   :depends r-mass: 
    :depends r-mgcv: 
    :depends r-plyr: 
    :depends r-rms: 

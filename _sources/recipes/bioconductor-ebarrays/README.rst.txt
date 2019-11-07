@@ -9,14 +9,14 @@ bioconductor-ebarrays
 .. conda:recipe:: bioconductor-ebarrays
    :replaces_section_title:
 
-   EBarrays provides tools for the analysis of replicated\/unreplicated microarray data.
+   Unified Approach for Simultaneous Gene Clustering and Differential Expression Identification
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/EBarrays.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/EBarrays.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ebarrays <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebarrays>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebarrays/meta.yaml>`_
    :links: biotools: :biotools:`ebarrays`, doi: :doi:`10.1111/j.1541-0420.2006.00611.x`
 
-   
+   EBarrays provides tools for the analysis of replicated\/unreplicated microarray data.
 
 
 .. conda:package:: bioconductor-ebarrays

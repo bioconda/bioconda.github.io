@@ -9,20 +9,20 @@ bioconductor-gsbenchmark
 .. conda:recipe:: bioconductor-gsbenchmark
    :replaces_section_title:
 
-   Benchmarks for Machine Learning Analysis of the Gene Sets. The package contains a list of pathways and gene expression data sets used in \"Identifying Tightly Regulated and Variably Expressed Networks by Differential Rank Conservation \(DIRAC\)\" \(2010\) by Eddy et al.
+   Gene Set Benchmark
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/GSBenchMark.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/GSBenchMark.html
    :license: GPL-2
    :recipe: /`bioconductor-gsbenchmark <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsbenchmark>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsbenchmark/meta.yaml>`_
 
-   
+   Benchmarks for Machine Learning Analysis of the Gene Sets. The package contains a list of pathways and gene expression data sets used in \"Identifying Tightly Regulated and Variably Expressed Networks by Differential Rank Conservation \(DIRAC\)\" \(2010\) by Eddy et al.
 
 
 .. conda:package:: bioconductor-gsbenchmark
 
    |downloads_bioconductor-gsbenchmark| |docker_bioconductor-gsbenchmark|
 
-   :versions: 1.5.0-0, 1.4.0-2, 1.4.0-1, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-2, 1.4.0-1, 1.2.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

@@ -11,11 +11,11 @@ bioconductor-pd.clariom.s.mouse
 
    Platform Design Info for Affymetrix Clariom\_S\_Mouse
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.clariom.s.mouse.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.clariom.s.mouse.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.clariom.s.mouse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.clariom.s.mouse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.clariom.s.mouse/meta.yaml>`_
 
-   
+   Platform Design Info for Affymetrix Clariom\_S\_Mouse
 
 
 .. conda:package:: bioconductor-pd.clariom.s.mouse

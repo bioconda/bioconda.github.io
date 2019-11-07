@@ -9,13 +9,13 @@ bioconductor-restfulse
 .. conda:recipe:: bioconductor-restfulse
    :replaces_section_title:
 
-   This package provides functions and classes to interface with remote data stores by operating on SummarizedExperiment\-like objects.
+   Access matrix\-like HDF5 server content or BigQuery content through a SummarizedExperiment interface
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/restfulSE.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/restfulSE.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-restfulse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-restfulse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-restfulse/meta.yaml>`_
 
-   
+   This package provides functions and classes to interface with remote data stores by operating on SummarizedExperiment\-like objects.
 
 
 .. conda:package:: bioconductor-restfulse

@@ -9,13 +9,13 @@ bioconductor-omicslonda
 .. conda:recipe:: bioconductor-omicslonda
    :replaces_section_title:
 
-   Statistical method that provides robust identification of time intervals where omics features \(such as proteomics\, lipidomics\, metabolomics\, transcriptomics\, microbiome\, as well as physiological parameters captured by wearable sensors such as heart rhythm\, body temperature\, and activity level\) are significantly different between groups.
+   Omics Longitudinal Differential Analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/OmicsLonDA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/OmicsLonDA.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-omicslonda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicslonda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicslonda/meta.yaml>`_
 
-   
+   Statistical method that provides robust identification of time intervals where omics features \(such as proteomics\, lipidomics\, metabolomics\, transcriptomics\, microbiome\, as well as physiological parameters captured by wearable sensors such as heart rhythm\, body temperature\, and activity level\) are significantly different between groups.
 
 
 .. conda:package:: bioconductor-omicslonda

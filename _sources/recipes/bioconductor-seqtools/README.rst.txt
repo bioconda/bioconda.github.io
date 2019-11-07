@@ -9,14 +9,14 @@ bioconductor-seqtools
 .. conda:recipe:: bioconductor-seqtools
    :replaces_section_title:
 
-   Analyze read length\, phred scores and alphabet frequency and DNA k\-mers on uncompressed and compressed fastq files.
+   Analysis of nucleotide\, sequence and quality content on fastq files
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/seqTools.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/seqTools.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-seqtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqtools/meta.yaml>`_
    :links: biotools: :biotools:`seqtools`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Analyze read length\, phred scores and alphabet frequency and DNA k\-mers on uncompressed and compressed fastq files.
 
 
 .. conda:package:: bioconductor-seqtools

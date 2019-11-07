@@ -9,13 +9,13 @@ bioconductor-mesh.aor.db
 .. conda:recipe:: bioconductor-mesh.aor.db
    :replaces_section_title:
 
-   A set of AOR \(ancestor\-offspring relationship\) in MeSH.
+   A set of annotation maps describing the entire MeSH
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/MeSH.AOR.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/MeSH.AOR.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.aor.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.aor.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.aor.db/meta.yaml>`_
 
-   
+   A set of AOR \(ancestor\-offspring relationship\) in MeSH.
 
 
 .. conda:package:: bioconductor-mesh.aor.db

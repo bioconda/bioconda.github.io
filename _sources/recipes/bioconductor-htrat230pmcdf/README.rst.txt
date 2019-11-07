@@ -9,13 +9,13 @@ bioconductor-htrat230pmcdf
 .. conda:recipe:: bioconductor-htrat230pmcdf
    :replaces_section_title:
 
-   A package containing an environment representing the HT\_Rat230\_PM.cdf file.
+   htrat230pmcdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/htrat230pmcdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/htrat230pmcdf.html
    :license: LGPL
    :recipe: /`bioconductor-htrat230pmcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htrat230pmcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htrat230pmcdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the HT\_Rat230\_PM.cdf file.
 
 
 .. conda:package:: bioconductor-htrat230pmcdf

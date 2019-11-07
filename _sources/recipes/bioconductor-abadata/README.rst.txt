@@ -9,20 +9,20 @@ bioconductor-abadata
 .. conda:recipe:: bioconductor-abadata
    :replaces_section_title:
 
-   Provides the data for the gene expression enrichment analysis conducted in the package \'ABAEnrichment\'. The package includes three datasets which are derived from the Allen Brain Atlas\: \(1\) Gene expression data from Human Brain \(adults\) averaged across donors\, \(2\) Gene expression data from the Developing Human Brain pooled into five age categories and averaged across donors and \(3\) a developmental effect score based on the Developing Human Brain expression data. All datasets are restricted to protein coding genes.
+   Averaged gene expression in human brain regions from Allen Brain Atlas
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ABAData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ABAData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-abadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-abadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-abadata/meta.yaml>`_
 
-   
+   Provides the data for the gene expression enrichment analysis conducted in the package \'ABAEnrichment\'. The package includes three datasets which are derived from the Allen Brain Atlas\: \(1\) Gene expression data from Human Brain \(adults\) averaged across donors\, \(2\) Gene expression data from the Developing Human Brain pooled into five age categories and averaged across donors and \(3\) a developmental effect score based on the Developing Human Brain expression data. All datasets are restricted to protein coding genes.
 
 
 .. conda:package:: bioconductor-abadata
 
    |downloads_bioconductor-abadata| |docker_bioconductor-abadata|
 
-   :versions: 1.15.0-0, 1.14.0-2, 1.14.0-1, 1.12.0-0, 1.10.0-0, 1.8.0-0
+   :versions: 1.14.0-2, 1.14.0-1, 1.12.0-0, 1.10.0-0, 1.8.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

@@ -9,14 +9,14 @@ bioconductor-bioqc
 .. conda:recipe:: bioconductor-bioqc
    :replaces_section_title:
 
-   BioQC performs quality control of high\-throughput expression data based on tissue gene signatures. It can detect tissue heterogeneity in gene expression data. The core algorithm is a Wilcoxon\-Mann\-Whitney test that is optimised for high performance.
+   Detect tissue heterogeneity in expression profiles with gene sets
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BioQC.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BioQC.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-bioqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioqc/meta.yaml>`_
    :links: biotools: :biotools:`bioqc`, doi: :doi:`10.1186/s12864-017-3661-2`
 
-   
+   BioQC performs quality control of high\-throughput expression data based on tissue gene signatures. It can detect tissue heterogeneity in gene expression data. The core algorithm is a Wilcoxon\-Mann\-Whitney test that is optimised for high performance.
 
 
 .. conda:package:: bioconductor-bioqc

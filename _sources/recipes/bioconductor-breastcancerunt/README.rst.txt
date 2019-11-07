@@ -9,20 +9,20 @@ bioconductor-breastcancerunt
 .. conda:recipe:: bioconductor-breastcancerunt
    :replaces_section_title:
 
-   Gene expression data from a breast cancer study published by Sotiriou et al. in 2007\, provided as an eSet.
+   Gene expression dataset published by Sotiriou et al. \[2007\] \(UNT\).
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/breastCancerUNT.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/breastCancerUNT.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-breastcancerunt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancerunt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancerunt/meta.yaml>`_
 
-   
+   Gene expression data from a breast cancer study published by Sotiriou et al. in 2007\, provided as an eSet.
 
 
 .. conda:package:: bioconductor-breastcancerunt
 
    |downloads_bioconductor-breastcancerunt| |docker_bioconductor-breastcancerunt|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

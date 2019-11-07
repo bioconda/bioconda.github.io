@@ -9,14 +9,14 @@ bioconductor-bumphunter
 .. conda:recipe:: bioconductor-bumphunter
    :replaces_section_title:
 
-   Tools for finding bumps in genomic data
+   Bump Hunter
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/bumphunter.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/bumphunter.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bumphunter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bumphunter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bumphunter/meta.yaml>`_
    :links: biotools: :biotools:`bumphunter`
 
-   
+   Tools for finding bumps in genomic data
 
 
 .. conda:package:: bioconductor-bumphunter

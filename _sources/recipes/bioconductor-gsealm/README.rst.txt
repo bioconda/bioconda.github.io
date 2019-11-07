@@ -9,14 +9,14 @@ bioconductor-gsealm
 .. conda:recipe:: bioconductor-gsealm
    :replaces_section_title:
 
-   Models and methods for fitting linear models to gene expression data\, together with tools for computing and using various regression diagnostics.
+   Linear Model Toolset for Gene Set Enrichment Analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GSEAlm.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GSEAlm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gsealm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsealm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsealm/meta.yaml>`_
    :links: biotools: :biotools:`gsealm`, doi: :doi:`10.1093/bioinformatics/btn465`
 
-   
+   Models and methods for fitting linear models to gene expression data\, together with tools for computing and using various regression diagnostics.
 
 
 .. conda:package:: bioconductor-gsealm

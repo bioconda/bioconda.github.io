@@ -9,14 +9,14 @@ bioconductor-topgo
 .. conda:recipe:: bioconductor-topgo
    :replaces_section_title:
 
-   topGO package provides tools for testing GO terms while accounting for the topology of the GO graph. Different test statistics and different methods for eliminating local similarities and dependencies between GO terms can be implemented and applied.
+   Enrichment Analysis for Gene Ontology
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/topGO.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/topGO.html
    :license: LGPL
    :recipe: /`bioconductor-topgo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-topgo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-topgo/meta.yaml>`_
    :links: biotools: :biotools:`topgo`, doi: :doi:`10.1093/bioinformatics/btl140`
 
-   
+   topGO package provides tools for testing GO terms while accounting for the topology of the GO graph. Different test statistics and different methods for eliminating local similarities and dependencies between GO terms can be implemented and applied.
 
 
 .. conda:package:: bioconductor-topgo

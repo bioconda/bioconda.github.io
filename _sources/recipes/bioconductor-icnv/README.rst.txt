@@ -9,13 +9,13 @@ bioconductor-icnv
 .. conda:recipe:: bioconductor-icnv
    :replaces_section_title:
 
-   Integrative copy number variation \(CNV\) detection from multiple platform and experimental design.
+   Integrated Copy Number Variation detection
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/iCNV.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/iCNV.html
    :license: GPL-2
    :recipe: /`bioconductor-icnv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icnv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icnv/meta.yaml>`_
 
-   
+   Integrative copy number variation \(CNV\) detection from multiple platform and experimental design.
 
 
 .. conda:package:: bioconductor-icnv

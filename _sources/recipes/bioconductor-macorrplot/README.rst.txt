@@ -9,14 +9,14 @@ bioconductor-macorrplot
 .. conda:recipe:: bioconductor-macorrplot
    :replaces_section_title:
 
-   Graphically displays correlation in microarray data that is due to insufficient normalization
+   Visualize artificial correlation in microarray data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/maCorrPlot.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/maCorrPlot.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-macorrplot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macorrplot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macorrplot/meta.yaml>`_
    :links: biotools: :biotools:`macorrplot`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Graphically displays correlation in microarray data that is due to insufficient normalization
 
 
 .. conda:package:: bioconductor-macorrplot

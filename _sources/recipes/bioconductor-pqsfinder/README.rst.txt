@@ -9,14 +9,14 @@ bioconductor-pqsfinder
 .. conda:recipe:: bioconductor-pqsfinder
    :replaces_section_title:
 
-   Pqsfinder detects DNA sequence patterns that are likely to fold into an intramolecular G\-quadruplex \(G4\). Unlike many other approaches\, pqsfinder is able to detect G4s folded from imperfect G\-runs containing bulges or mismatches or G4s having long loops. Pqsfinder also assigns an integer score to each hit that was fitted on G4 sequencing data and corresponds to expected stability of the folded G4.
+   Identification of potential quadruplex forming sequences
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/pqsfinder.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/pqsfinder.html
    :license: BSD_2_clause + file LICENSE
    :recipe: /`bioconductor-pqsfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pqsfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pqsfinder/meta.yaml>`_
    :links: biotools: :biotools:`pqsfinder`, doi: :doi:`10.1093/bioinformatics/btv272`
 
-   
+   Pqsfinder detects DNA and RNA sequence patterns that are likely to fold into an intramolecular G\-quadruplex \(G4\). Unlike many other approaches\, pqsfinder is able to detect G4s folded from imperfect G\-runs containing bulges or mismatches or G4s having long loops. Pqsfinder also assigns an integer score to each hit that was fitted on G4 sequencing data and corresponds to expected stability of the folded G4.
 
 
 .. conda:package:: bioconductor-pqsfinder

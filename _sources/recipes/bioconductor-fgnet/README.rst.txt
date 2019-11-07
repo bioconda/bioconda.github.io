@@ -9,13 +9,13 @@ bioconductor-fgnet
 .. conda:recipe:: bioconductor-fgnet
    :replaces_section_title:
 
-   Build and visualize functional gene and term networks from clustering of enrichment analyses in multiple annotation spaces. The package includes a graphical user interface \(GUI\) and functions to perform the functional enrichment analysis through DAVID\, GeneTerm Linker\, gage \(GSEA\) and topGO.
+   Functional Gene Networks derived from biological enrichment analyses
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/FGNet.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/FGNet.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-fgnet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fgnet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fgnet/meta.yaml>`_
 
-   
+   Build and visualize functional gene and term networks from clustering of enrichment analyses in multiple annotation spaces. The package includes a graphical user interface \(GUI\) and functions to perform the functional enrichment analysis through DAVID\, GeneTerm Linker\, gage \(GSEA\) and topGO.
 
 
 .. conda:package:: bioconductor-fgnet

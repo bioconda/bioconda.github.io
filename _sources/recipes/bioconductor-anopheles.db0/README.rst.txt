@@ -9,13 +9,13 @@ bioconductor-anopheles.db0
 .. conda:recipe:: bioconductor-anopheles.db0
    :replaces_section_title:
 
-   Base annotation databases for anopheles\, intended ONLY to be used by AnnotationDbi to produce regular annotation packages.
+   Base Level Annotation databases for anopheles
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/anopheles.db0.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/anopheles.db0.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-anopheles.db0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anopheles.db0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anopheles.db0/meta.yaml>`_
 
-   
+   Base annotation databases for anopheles\, intended ONLY to be used by AnnotationDbi to produce regular annotation packages.
 
 
 .. conda:package:: bioconductor-anopheles.db0

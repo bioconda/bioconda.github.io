@@ -9,13 +9,13 @@ bioconductor-igvr
 .. conda:recipe:: bioconductor-igvr
    :replaces_section_title:
 
-   Access to igv.js\, the Integrative Genomics Viewer running in a web browser.
+   igvR\: integrative genomics viewer
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/igvR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/igvR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-igvr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-igvr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-igvr/meta.yaml>`_
 
-   
+   Access to igv.js\, the Integrative Genomics Viewer running in a web browser.
 
 
 .. conda:package:: bioconductor-igvr

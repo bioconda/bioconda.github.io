@@ -9,13 +9,13 @@ bioconductor-cytoml
 .. conda:recipe:: bioconductor-cytoml
    :replaces_section_title:
 
-   Uses platform\-specific implemenations of the GatingML2.0 standard to exchange gated cytometry data with other software platforms.
+   A GatingML Interface for Cross Platform Cytometry Data Sharing
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CytoML.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CytoML.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cytoml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytoml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytoml/meta.yaml>`_
 
-   
+   Uses platform\-specific implemenations of the GatingML2.0 standard to exchange gated cytometry data with other software platforms.
 
 
 .. conda:package:: bioconductor-cytoml

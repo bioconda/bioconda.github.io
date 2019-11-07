@@ -9,13 +9,13 @@ bioconductor-mirlab
 .. conda:recipe:: bioconductor-mirlab
    :replaces_section_title:
 
-   Provide tools exploring miRNA\-mRNA relationships\, including popular miRNA target prediction methods\, ensemble methods that integrate individual methods\, functions to get data from online resources\, functions to validate the results\, and functions to conduct enrichment analyses.
+   Dry lab for exploring miRNA\-mRNA relationships
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/miRLAB.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/miRLAB.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-mirlab <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirlab>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirlab/meta.yaml>`_
 
-   
+   Provide tools exploring miRNA\-mRNA relationships\, including popular miRNA target prediction methods\, ensemble methods that integrate individual methods\, functions to get data from online resources\, functions to validate the results\, and functions to conduct enrichment analyses.
 
 
 .. conda:package:: bioconductor-mirlab

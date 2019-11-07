@@ -9,13 +9,13 @@ bioconductor-atsnp
 .. conda:recipe:: bioconductor-atsnp
    :replaces_section_title:
 
-   atSNP performs affinity tests of motif matches with the SNP or the reference genomes and SNP\-led changes in motif matches.
+   Affinity test for identifying regulatory SNPs
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/atSNP.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/atSNP.html
    :license: GPL-2
    :recipe: /`bioconductor-atsnp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-atsnp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-atsnp/meta.yaml>`_
 
-   
+   atSNP performs affinity tests of motif matches with the SNP or the reference genomes and SNP\-led changes in motif matches.
 
 
 .. conda:package:: bioconductor-atsnp

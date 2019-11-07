@@ -9,14 +9,14 @@ bioconductor-rcaspar
 .. conda:recipe:: bioconductor-rcaspar
    :replaces_section_title:
 
-   The package is the R\-version of the C\-based software \\bold\{CASPAR\} \(Kaderali\,2006\: \\url\{http\:\/\/bioinformatics.oxfordjournals.org\/content\/22\/12\/1495\}\). It is meant to help predict survival times in the presence of high\-dimensional explanatory covariates. The model is a piecewise baseline hazard Cox regression model with an Lq\-norm based prior that selects for the most important regression coefficients\, and in turn the most relevant covariates for survival analysis. It was primarily tried on gene expression and aCGH data\, but can be used on any other type of high\-dimensional data and in disciplines other than biology and medicine.
+   A package for survival time prediction based on a piecewise baseline hazard Cox regression model.
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RCASPAR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RCASPAR.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-rcaspar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcaspar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcaspar/meta.yaml>`_
    :links: biotools: :biotools:`rcaspar`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   The package is the R\-version of the C\-based software \\bold\{CASPAR\} \(Kaderali\,2006\: \\url\{http\:\/\/bioinformatics.oxfordjournals.org\/content\/22\/12\/1495\}\). It is meant to help predict survival times in the presence of high\-dimensional explanatory covariates. The model is a piecewise baseline hazard Cox regression model with an Lq\-norm based prior that selects for the most important regression coefficients\, and in turn the most relevant covariates for survival analysis. It was primarily tried on gene expression and aCGH data\, but can be used on any other type of high\-dimensional data and in disciplines other than biology and medicine.
 
 
 .. conda:package:: bioconductor-rcaspar

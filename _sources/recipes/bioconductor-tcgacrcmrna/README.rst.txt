@@ -9,20 +9,20 @@ bioconductor-tcgacrcmrna
 .. conda:recipe:: bioconductor-tcgacrcmrna
    :replaces_section_title:
 
-   colorectal cancer mRNA profile provided by TCGA
+   TCGA CRC 450 mRNA dataset
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/TCGAcrcmRNA.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/TCGAcrcmRNA.html
    :license: GPL-2
    :recipe: /`bioconductor-tcgacrcmrna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgacrcmrna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgacrcmrna/meta.yaml>`_
 
-   
+   colorectal cancer mRNA profile provided by TCGA
 
 
 .. conda:package:: bioconductor-tcgacrcmrna
 
    |downloads_bioconductor-tcgacrcmrna| |docker_bioconductor-tcgacrcmrna|
 
-   :versions: 1.5.0-0, 1.4.0-1, 1.2.0-1, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-1, 1.2.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends curl: >=7.65.3,<8.0a0

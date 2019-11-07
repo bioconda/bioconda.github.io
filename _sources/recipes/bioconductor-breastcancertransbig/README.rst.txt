@@ -9,20 +9,20 @@ bioconductor-breastcancertransbig
 .. conda:recipe:: bioconductor-breastcancertransbig
    :replaces_section_title:
 
-   Gene expression data from a breast cancer study published by Desmedt et al. in 2007\, provided as an eSet.
+   Gene expression dataset published by Desmedt et al. \[2007\] \(TRANSBIG\).
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/breastCancerTRANSBIG.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/breastCancerTRANSBIG.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-breastcancertransbig <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancertransbig>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancertransbig/meta.yaml>`_
 
-   
+   Gene expression data from a breast cancer study published by Desmedt et al. in 2007\, provided as an eSet.
 
 
 .. conda:package:: bioconductor-breastcancertransbig
 
    |downloads_bioconductor-breastcancertransbig| |docker_bioconductor-breastcancertransbig|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

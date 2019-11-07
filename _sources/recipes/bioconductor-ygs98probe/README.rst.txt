@@ -9,13 +9,13 @@ bioconductor-ygs98probe
 .. conda:recipe:: bioconductor-ygs98probe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was YG\-S98\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type ygs98
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/ygs98probe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/ygs98probe.html
    :license: LGPL
    :recipe: /`bioconductor-ygs98probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ygs98probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ygs98probe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was YG\-S98\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-ygs98probe

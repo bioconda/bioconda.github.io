@@ -9,20 +9,20 @@ bioconductor-bronchialil13
 .. conda:recipe:: bioconductor-bronchialil13
    :replaces_section_title:
 
-   derived from CNMC \(pepr.cnmcresearch.org\) http\:\/\/pepr.cnmcresearch.org\/browse.do\?action\=list\_prj\_exp\&projectId\=95 Human Bronchial Cell line A549
+   time course experiment involving il13
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/bronchialIL13.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/bronchialIL13.html
    :license: GPL-2
    :recipe: /`bioconductor-bronchialil13 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bronchialil13>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bronchialil13/meta.yaml>`_
 
-   
+   derived from CNMC \(pepr.cnmcresearch.org\) http\:\/\/pepr.cnmcresearch.org\/browse.do\?action\=list\_prj\_exp\&projectId\=95 Human Bronchial Cell line A549
 
 
 .. conda:package:: bioconductor-bronchialil13
 
    |downloads_bioconductor-bronchialil13| |docker_bioconductor-bronchialil13|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.20.0-1, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-1, 1.20.0-0
    
    :depends bioconductor-affy: >=1.64.0,<1.65.0
    :depends curl: >=7.65.3,<8.0a0

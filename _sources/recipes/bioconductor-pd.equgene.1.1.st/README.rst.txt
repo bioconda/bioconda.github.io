@@ -11,11 +11,11 @@ bioconductor-pd.equgene.1.1.st
 
    Platform Design Info for Affymetrix EquGene\-1\_1\-st
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.equgene.1.1.st.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.equgene.1.1.st.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.equgene.1.1.st <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.equgene.1.1.st>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.equgene.1.1.st/meta.yaml>`_
 
-   
+   Platform Design Info for Affymetrix EquGene\-1\_1\-st
 
 
 .. conda:package:: bioconductor-pd.equgene.1.1.st

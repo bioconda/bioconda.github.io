@@ -9,13 +9,13 @@ bioconductor-topaseq
 .. conda:recipe:: bioconductor-topaseq
    :replaces_section_title:
 
-   Implementation of methods for topology\-based pathway analysis of RNA\-seq data. This includes Topological Analysis of Pathway Phenotype Association \(TAPPA\; Gao and Wang\, 2007\)\, PathWay Enrichment Analysis \(PWEA\; Hung et al.\, 2010\)\, and the Pathway Regulation Score \(PRS\; Ibrahim et al.\, 2012\).
+   Topology\-based pathway analysis of RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ToPASeq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ToPASeq.html
    :license: AGPL-3
    :recipe: /`bioconductor-topaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-topaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-topaseq/meta.yaml>`_
 
-   
+   Implementation of methods for topology\-based pathway analysis of RNA\-seq data. This includes Topological Analysis of Pathway Phenotype Association \(TAPPA\; Gao and Wang\, 2007\)\, PathWay Enrichment Analysis \(PWEA\; Hung et al.\, 2010\)\, and the Pathway Regulation Score \(PRS\; Ibrahim et al.\, 2012\).
 
 
 .. conda:package:: bioconductor-topaseq

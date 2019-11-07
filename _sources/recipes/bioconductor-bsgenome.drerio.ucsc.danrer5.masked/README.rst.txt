@@ -9,13 +9,13 @@ bioconductor-bsgenome.drerio.ucsc.danrer5.masked
 .. conda:recipe:: bioconductor-bsgenome.drerio.ucsc.danrer5.masked
    :replaces_section_title:
 
-   Full genome sequences for Danio rerio \(Zebrafish\) as provided by UCSC \(danRer5\, Jul. 2007\) and stored in Biostrings objects. The sequences are the same as in BSgenome.Drerio.UCSC.danRer5\, except that each of them has the 4 following masks on top\: \(1\) the mask of assembly gaps \(AGAPS mask\)\, \(2\) the mask of intra\-contig ambiguities \(AMB mask\)\, \(3\) the mask of repeats from RepeatMasker \(RM mask\)\, and \(4\) the mask of repeats from Tandem Repeats Finder \(TRF mask\). Only the AGAPS and AMB masks are \"active\" by default.
+   Full masked genome sequences for Danio rerio \(UCSC version danRer5\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Drerio.UCSC.danRer5.masked.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Drerio.UCSC.danRer5.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.drerio.ucsc.danrer5.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.drerio.ucsc.danrer5.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.drerio.ucsc.danrer5.masked/meta.yaml>`_
 
-   
+   Full genome sequences for Danio rerio \(Zebrafish\) as provided by UCSC \(danRer5\, Jul. 2007\) and stored in Biostrings objects. The sequences are the same as in BSgenome.Drerio.UCSC.danRer5\, except that each of them has the 4 following masks on top\: \(1\) the mask of assembly gaps \(AGAPS mask\)\, \(2\) the mask of intra\-contig ambiguities \(AMB mask\)\, \(3\) the mask of repeats from RepeatMasker \(RM mask\)\, and \(4\) the mask of repeats from Tandem Repeats Finder \(TRF mask\). Only the AGAPS and AMB masks are \"active\" by default.
 
 
 .. conda:package:: bioconductor-bsgenome.drerio.ucsc.danrer5.masked

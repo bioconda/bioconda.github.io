@@ -9,13 +9,13 @@ bioconductor-mouse4302.db
 .. conda:recipe:: bioconductor-mouse4302.db
    :replaces_section_title:
 
-   Affymetrix Mouse Genome 430 2.0 Array annotation data \(chip mouse4302\) assembled using data from public repositories
+   Affymetrix Mouse Genome 430 2.0 Array annotation data \(chip mouse4302\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mouse4302.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mouse4302.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mouse4302.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse4302.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse4302.db/meta.yaml>`_
 
-   
+   Affymetrix Mouse Genome 430 2.0 Array annotation data \(chip mouse4302\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-mouse4302.db

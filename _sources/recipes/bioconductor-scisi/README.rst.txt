@@ -9,14 +9,14 @@ bioconductor-scisi
 .. conda:recipe:: bioconductor-scisi
    :replaces_section_title:
 
-   Package to create In Silico Interactomes
+   In Silico Interactome
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ScISI.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ScISI.html
    :license: LGPL
    :recipe: /`bioconductor-scisi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scisi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scisi/meta.yaml>`_
    :links: biotools: :biotools:`scisi`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Package to create In Silico Interactomes
 
 
 .. conda:package:: bioconductor-scisi

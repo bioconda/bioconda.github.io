@@ -9,13 +9,13 @@ bioconductor-projectr
 .. conda:recipe:: bioconductor-projectr
    :replaces_section_title:
 
-   Functions for the projection of data into the spaces defined by PCA\, CoGAPS\, NMF\, correlation\, and clustering.
+   Functions for the projection of weights from PCA\, CoGAPS\, NMF\, correlation\, and clustering
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/projectR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/projectR.html
    :license: GPL (==2)
    :recipe: /`bioconductor-projectr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-projectr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-projectr/meta.yaml>`_
 
-   
+   Functions for the projection of data into the spaces defined by PCA\, CoGAPS\, NMF\, correlation\, and clustering.
 
 
 .. conda:package:: bioconductor-projectr

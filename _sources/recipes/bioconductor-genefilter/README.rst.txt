@@ -9,14 +9,14 @@ bioconductor-genefilter
 .. conda:recipe:: bioconductor-genefilter
    :replaces_section_title:
 
-   Some basic functions for filtering genes.
+   genefilter\: methods for filtering genes from high\-throughput experiments
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/genefilter.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/genefilter.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genefilter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genefilter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genefilter/meta.yaml>`_
    :links: biotools: :biotools:`genefilter`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Some basic functions for filtering genes.
 
 
 .. conda:package:: bioconductor-genefilter

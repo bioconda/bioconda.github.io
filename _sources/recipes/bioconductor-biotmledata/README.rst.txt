@@ -9,20 +9,20 @@ bioconductor-biotmledata
 .. conda:recipe:: bioconductor-biotmledata
    :replaces_section_title:
 
-   Microarray data \(from the Illumina Ref\-8 BeadChips platform\) and phenotype\-level data from an epidemiological investigation of benzene exposure\, packaged using \"SummarizedExperiemnt\"\, for use as an example with the \"biotmle\" R package.
+   Example experimental microarray data set for the \"biotmle\" R package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/biotmleData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/biotmleData.html
    :license: file LICENSE
    :recipe: /`bioconductor-biotmledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biotmledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biotmledata/meta.yaml>`_
 
-   
+   Microarray data \(from the Illumina Ref\-8 BeadChips platform\) and phenotype\-level data from an epidemiological investigation of benzene exposure\, packaged using \"SummarizedExperiemnt\"\, for use as an example with the \"biotmle\" R package.
 
 
 .. conda:package:: bioconductor-biotmledata
 
    |downloads_bioconductor-biotmledata| |docker_bioconductor-biotmledata|
 
-   :versions: 1.9.0-0, 1.8.0-1, 1.8.0-0, 1.6.0-0
+   :versions: 1.10.0-0, 1.8.0-1, 1.8.0-0, 1.6.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

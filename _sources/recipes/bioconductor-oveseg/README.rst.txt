@@ -9,13 +9,13 @@ bioconductor-oveseg
 .. conda:recipe:: bioconductor-oveseg
    :replaces_section_title:
 
-   An R package for multiple\-group comparison to detect tissue\/cell\-specific marker genes among subtypes. It provides functions to compute OVESEG\-test statistics\, derive component weights in the mixture null distribution model and estimate p\-values from weightedly aggregated permutations. Obtained posterior probabilities of component null hypotheses can also portrait all kinds of upregulation patterns among subtypes.
+   OVESEG\-test to detect tissue\/cell\-specific markers
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/OVESEG.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/OVESEG.html
    :license: GPL-2
    :recipe: /`bioconductor-oveseg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oveseg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oveseg/meta.yaml>`_
 
-   
+   An R package for multiple\-group comparison to detect tissue\/cell\-specific marker genes among subtypes. It provides functions to compute OVESEG\-test statistics\, derive component weights in the mixture null distribution model and estimate p\-values from weightedly aggregated permutations. Obtained posterior probabilities of component null hypotheses can also portrait all kinds of upregulation patterns among subtypes.
 
 
 .. conda:package:: bioconductor-oveseg

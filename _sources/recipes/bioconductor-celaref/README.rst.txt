@@ -9,13 +9,13 @@ bioconductor-celaref
 .. conda:recipe:: bioconductor-celaref
    :replaces_section_title:
 
-   After the clustering step of a single\-cell RNAseq experiment\, this package aims to suggest labels\/cell types for the clusters\, on the basis of similarity to a reference dataset. It requires a table of read counts per cell per gene\, and a list of the cells belonging to each of the clusters\, \(for both test and reference data\).
+   Single\-cell RNAseq cell cluster labelling by reference
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/celaref.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/celaref.html
    :license: GPL-3
    :recipe: /`bioconductor-celaref <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celaref>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celaref/meta.yaml>`_
 
-   
+   After the clustering step of a single\-cell RNAseq experiment\, this package aims to suggest labels\/cell types for the clusters\, on the basis of similarity to a reference dataset. It requires a table of read counts per cell per gene\, and a list of the cells belonging to each of the clusters\, \(for both test and reference data\).
 
 
 .. conda:package:: bioconductor-celaref

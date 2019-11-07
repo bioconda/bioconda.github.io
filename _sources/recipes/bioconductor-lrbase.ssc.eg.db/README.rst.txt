@@ -9,13 +9,13 @@ bioconductor-lrbase.ssc.eg.db
 .. conda:recipe:: bioconductor-lrbase.ssc.eg.db
    :replaces_section_title:
 
-   Contains the LRBaseDb object to access data from several related annotation packages.
+   An annotation package for the LRBaseDb object
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/LRBase.Ssc.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/LRBase.Ssc.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lrbase.ssc.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.ssc.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.ssc.eg.db/meta.yaml>`_
 
-   
+   Contains the LRBaseDb object to access data from several related annotation packages.
 
 
 .. conda:package:: bioconductor-lrbase.ssc.eg.db

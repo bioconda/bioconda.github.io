@@ -9,13 +9,13 @@ bioconductor-regionreport
 .. conda:recipe:: bioconductor-regionreport
    :replaces_section_title:
 
-   Generate HTML or PDF reports to explore a set of regions such as the results from annotation\-agnostic expression analysis of RNA\-seq data at base\-pair resolution performed by derfinder. You can also create reports for DESeq2 or edgeR results.
+   Generate HTML or PDF reports for a set of genomic regions or DESeq2\/edgeR results
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/regionReport.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/regionReport.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-regionreport <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regionreport>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regionreport/meta.yaml>`_
 
-   
+   Generate HTML or PDF reports to explore a set of regions such as the results from annotation\-agnostic expression analysis of RNA\-seq data at base\-pair resolution performed by derfinder. You can also create reports for DESeq2 or edgeR results.
 
 
 .. conda:package:: bioconductor-regionreport

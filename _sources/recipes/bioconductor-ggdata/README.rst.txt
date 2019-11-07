@@ -9,26 +9,26 @@ bioconductor-ggdata
 .. conda:recipe:: bioconductor-ggdata
    :replaces_section_title:
 
-   data exemplars dealing with hapmap SNP reports\, GWAS\, etc.
+   all 90 hapmap CEU samples\, 47K expression\, 4mm SNP
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/GGdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/GGdata.html
    :license: LGPL
    :recipe: /`bioconductor-ggdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggdata/meta.yaml>`_
 
-   
+   data exemplars dealing with hapmap SNP reports\, GWAS\, etc.
 
 
 .. conda:package:: bioconductor-ggdata
 
    |downloads_bioconductor-ggdata| |docker_bioconductor-ggdata|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.20.0-0
+   :versions: 1.22.0-1, 1.20.0-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-ggbase: >=3.48.0,<3.49.0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-ggbase: >=3.46.0,<3.47.0
    :depends bioconductor-illuminahumanv1.db: >=1.26.0,<1.27.0
-   :depends bioconductor-snpstats: >=1.36.0,<1.37.0
+   :depends bioconductor-snpstats: >=1.34.0,<1.35.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

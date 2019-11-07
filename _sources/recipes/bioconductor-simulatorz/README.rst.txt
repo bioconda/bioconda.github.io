@@ -9,13 +9,13 @@ bioconductor-simulatorz
 .. conda:recipe:: bioconductor-simulatorz
    :replaces_section_title:
 
-   simulatorZ is a package intended primarily to simulate collections of independent genomic data sets\, as well as performing training and validation with predicting algorithms. It supports ExpressionSet and RangedSummarizedExperiment objects.
+   Simulator for Collections of Independent Genomic Data Sets
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/simulatorZ.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/simulatorZ.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-simulatorz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simulatorz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simulatorz/meta.yaml>`_
 
-   
+   simulatorZ is a package intended primarily to simulate collections of independent genomic data sets\, as well as performing training and validation with predicting algorithms. It supports ExpressionSet and RangedSummarizedExperiment objects.
 
 
 .. conda:package:: bioconductor-simulatorz

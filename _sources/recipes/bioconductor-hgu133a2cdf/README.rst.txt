@@ -9,13 +9,13 @@ bioconductor-hgu133a2cdf
 .. conda:recipe:: bioconductor-hgu133a2cdf
    :replaces_section_title:
 
-   A package containing an environment representing the HG\-U133A\_2.cdf file.
+   hgu133a2cdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hgu133a2cdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hgu133a2cdf.html
    :license: LGPL
    :recipe: /`bioconductor-hgu133a2cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133a2cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133a2cdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the HG\-U133A\_2.cdf file.
 
 
 .. conda:package:: bioconductor-hgu133a2cdf

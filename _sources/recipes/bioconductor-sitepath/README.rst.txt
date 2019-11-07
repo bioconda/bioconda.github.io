@@ -9,13 +9,13 @@ bioconductor-sitepath
 .. conda:recipe:: bioconductor-sitepath
    :replaces_section_title:
 
-   The package does hierarchical search for fixation events given multiple sequence alignment and phylogenetic tree. These fixation events can be specific to a phylogenetic lineages or shared by multiple lineages.
+   Detection of sites with fixation of amino acid substitutions in protein evolution
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/sitePath.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/sitePath.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-sitepath <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sitepath>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sitepath/meta.yaml>`_
 
-   
+   The package does hierarchical search for fixation events given multiple sequence alignment and phylogenetic tree. These fixation events can be specific to a phylogenetic lineages or shared by multiple lineages.
 
 
 .. conda:package:: bioconductor-sitepath

@@ -9,13 +9,13 @@ bioconductor-iasva
 .. conda:recipe:: bioconductor-iasva
    :replaces_section_title:
 
-   Iteratively Adjusted Surrogate Variable Analysis \(IA\-SVA\) is a statistical framework to uncover hidden sources of variation even when these sources are correlated. IA\-SVA provides a flexible methodology to i\) identify a hidden factor for unwanted heterogeneity while adjusting for all known factors\; ii\) test the significance of the putative hidden factor for explaining the unmodeled variation in the data\; and iii\)\, if significant\, use the estimated factor as an additional known factor in the next iteration to uncover further hidden factors.
+   Iteratively Adjusted Surrogate Variable Analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/iasva.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/iasva.html
    :license: GPL-2
    :recipe: /`bioconductor-iasva <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iasva>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iasva/meta.yaml>`_
 
-   
+   Iteratively Adjusted Surrogate Variable Analysis \(IA\-SVA\) is a statistical framework to uncover hidden sources of variation even when these sources are correlated. IA\-SVA provides a flexible methodology to i\) identify a hidden factor for unwanted heterogeneity while adjusting for all known factors\; ii\) test the significance of the putative hidden factor for explaining the unmodeled variation in the data\; and iii\)\, if significant\, use the estimated factor as an additional known factor in the next iteration to uncover further hidden factors.
 
 
 .. conda:package:: bioconductor-iasva

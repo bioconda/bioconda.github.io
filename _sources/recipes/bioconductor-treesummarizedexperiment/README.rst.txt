@@ -9,13 +9,13 @@ bioconductor-treesummarizedexperiment
 .. conda:recipe:: bioconductor-treesummarizedexperiment
    :replaces_section_title:
 
-   TreeSummarizedExperiment has extended SingleCellExperiment to include hierarchical information on the rows or columns of the rectangular data.
+   TreeSummarizedExperiment\: a S4 Class for Data with Tree Structures
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/TreeSummarizedExperiment.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/TreeSummarizedExperiment.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-treesummarizedexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-treesummarizedexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-treesummarizedexperiment/meta.yaml>`_
 
-   
+   TreeSummarizedExperiment has extended SingleCellExperiment to include hierarchical information on the rows or columns of the rectangular data.
 
 
 .. conda:package:: bioconductor-treesummarizedexperiment

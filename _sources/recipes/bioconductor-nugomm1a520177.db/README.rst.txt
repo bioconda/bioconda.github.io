@@ -9,13 +9,13 @@ bioconductor-nugomm1a520177.db
 .. conda:recipe:: bioconductor-nugomm1a520177.db
    :replaces_section_title:
 
-   Affymetrix nugomm1a520177 annotation data \(chip nugomm1a520177\) assembled using data from public repositories
+   Affymetrix nugomm1a520177 annotation data \(chip nugomm1a520177\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/nugomm1a520177.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/nugomm1a520177.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-nugomm1a520177.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nugomm1a520177.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nugomm1a520177.db/meta.yaml>`_
 
-   
+   Affymetrix nugomm1a520177 annotation data \(chip nugomm1a520177\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-nugomm1a520177.db

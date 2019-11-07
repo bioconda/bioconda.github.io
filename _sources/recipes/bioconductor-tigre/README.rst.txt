@@ -9,14 +9,14 @@ bioconductor-tigre
 .. conda:recipe:: bioconductor-tigre
    :replaces_section_title:
 
-   The tigre package implements our methodology of Gaussian process differential equation models for analysis of gene expression time series from single input motif networks. The package can be used for inferring unobserved transcription factor \(TF\) protein concentrations from expression measurements of known target genes\, or for ranking candidate targets of a TF.
+   Transcription factor Inference through Gaussian process Reconstruction of Expression
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/tigre.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/tigre.html
    :license: AGPL-3
    :recipe: /`bioconductor-tigre <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tigre>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tigre/meta.yaml>`_
    :links: biotools: :biotools:`tigre`
 
-   
+   The tigre package implements our methodology of Gaussian process differential equation models for analysis of gene expression time series from single input motif networks. The package can be used for inferring unobserved transcription factor \(TF\) protein concentrations from expression measurements of known target genes\, or for ranking candidate targets of a TF.
 
 
 .. conda:package:: bioconductor-tigre

@@ -9,14 +9,14 @@ bioconductor-oncosimulr
 .. conda:recipe:: bioconductor-oncosimulr
    :replaces_section_title:
 
-   Functions for forward population genetic simulation in asexual populations\, with special focus on cancer progression. Fitness can be an arbitrary function of genetic interactions between multiple genes or modules of genes\, including epistasis\, order restrictions in mutation accumulation\, and order effects.  Mutation rates can differ between genes\, and we can include mutator\/antimutator genes \(to model mutator phenotypes\). Simulations use continuous\-time models and can include driver and passenger genes and modules.  Also included are functions for\: simulating random DAGs of the type found in Oncogenetic Trees\, Conjunctive Bayesian Networks\, and other cancer progression models\; plotting and sampling from single or multiple realizations of the simulations\, including single\-cell sampling\; plotting the parent\-child relationships of the clones\; generating random fitness landscapes \(Rough Mount Fuji\, House of Cards\, and additive models\) and plotting them.
+   Forward Genetic Simulation of Cancer Progression with Epistasis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/OncoSimulR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/OncoSimulR.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-oncosimulr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oncosimulr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oncosimulr/meta.yaml>`_
    :links: biotools: :biotools:`oncosimulr`
 
-   
+   Functions for forward population genetic simulation in asexual populations\, with special focus on cancer progression. Fitness can be an arbitrary function of genetic interactions between multiple genes or modules of genes\, including epistasis\, order restrictions in mutation accumulation\, and order effects.  Mutation rates can differ between genes\, and we can include mutator\/antimutator genes \(to model mutator phenotypes\). Simulations use continuous\-time models and can include driver and passenger genes and modules.  Also included are functions for\: simulating random DAGs of the type found in Oncogenetic Trees\, Conjunctive Bayesian Networks\, and other cancer progression models\; plotting and sampling from single or multiple realizations of the simulations\, including single\-cell sampling\; plotting the parent\-child relationships of the clones\; generating random fitness landscapes \(Rough Mount Fuji\, House of Cards\, and additive models\) and plotting them.
 
 
 .. conda:package:: bioconductor-oncosimulr

@@ -9,20 +9,20 @@ bioconductor-connectivitymap
 .. conda:recipe:: bioconductor-connectivitymap
    :replaces_section_title:
 
-   The Broad Institute\'s Connectivity Map \(cmap02\) is a \"large reference catalogue of gene\-expression data from cultured human cells perturbed with many chemicals and genetic reagents\"\, containing more than 7000 gene expression profiles and 1300 small molecules.
+   Functional connections between drugs\, genes and diseases as revealed by common gene\-expression changes
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ConnectivityMap.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ConnectivityMap.html
    :license: GPL-3
    :recipe: /`bioconductor-connectivitymap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-connectivitymap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-connectivitymap/meta.yaml>`_
 
-   
+   The Broad Institute\'s Connectivity Map \(cmap02\) is a \"large reference catalogue of gene\-expression data from cultured human cells perturbed with many chemicals and genetic reagents\"\, containing more than 7000 gene expression profiles and 1300 small molecules.
 
 
 .. conda:package:: bioconductor-connectivitymap
 
    |downloads_bioconductor-connectivitymap| |docker_bioconductor-connectivitymap|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

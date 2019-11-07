@@ -9,14 +9,14 @@ bioconductor-cager
 .. conda:recipe:: bioconductor-cager
    :replaces_section_title:
 
-   Preprocessing of CAGE sequencing data\, identification and normalization of transcription start sites and downstream analysis of transcription start sites clusters \(promoters\).
+   Analysis of CAGE \(Cap Analysis of Gene Expression\) sequencing data for precise mapping of transcription start sites and promoterome mining
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CAGEr.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CAGEr.html
    :license: GPL-3
    :recipe: /`bioconductor-cager <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cager>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cager/meta.yaml>`_
    :links: biotools: :biotools:`cager`
 
-   
+   Preprocessing of CAGE sequencing data\, identification and normalization of transcription start sites and downstream analysis of transcription start sites clusters \(promoters\).
 
 
 .. conda:package:: bioconductor-cager

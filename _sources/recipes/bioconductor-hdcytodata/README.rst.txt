@@ -9,20 +9,20 @@ bioconductor-hdcytodata
 .. conda:recipe:: bioconductor-hdcytodata
    :replaces_section_title:
 
-   Data package containing a collection of high\-dimensional cytometry benchmark datasets saved in SummarizedExperiment and flowSet Bioconductor object formats\, including row and column metadata describing samples\, cell populations \(clusters\)\, and protein markers.
+   Collection of high\-dimensional cytometry benchmark datasets in Bioconductor object formats
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/HDCytoData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/HDCytoData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-hdcytodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdcytodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdcytodata/meta.yaml>`_
 
-   
+   Data package containing a set of publicly available high\-dimensional cytometry benchmark datasets\, formatted into SummarizedExperiment and flowSet Bioconductor object formats\, including all required metadata. Row metadata includes sample IDs\, group IDs\, patient IDs\, reference cell population or cluster labels \(where available\)\, and labels identifying \'spiked in\' cells \(where available\). Column metadata includes channel names\, protein marker names\, and protein marker classes \(cell type or cell state\).
 
 
 .. conda:package:: bioconductor-hdcytodata
 
    |downloads_bioconductor-hdcytodata| |docker_bioconductor-hdcytodata|
 
-   :versions: 1.5.14-0, 1.4.0-1, 1.2.1-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.1-0
    
    :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
    :depends bioconductor-flowcore: >=1.52.0,<1.53.0

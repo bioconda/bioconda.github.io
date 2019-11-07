@@ -9,13 +9,13 @@ bioconductor-scruff
 .. conda:recipe:: bioconductor-scruff
    :replaces_section_title:
 
-   A pipeline which processes single cell RNA\-seq \(scRNA\-seq\) reads from CEL\-seq and CEL\-seq2 protocols. Demultiplex scRNA\-seq FASTQ files\, align reads to reference genome using Rsubread\, and generate UMI filtered count matrix. Also provide visualizations of read alignments and pre\- and post\-alignment QC metrics.
+   Single Cell RNA\-Seq UMI Filtering Facilitator \(scruff\)
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/scruff.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/scruff.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-scruff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scruff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scruff/meta.yaml>`_
 
-   
+   A pipeline which processes single cell RNA\-seq \(scRNA\-seq\) reads from CEL\-seq and CEL\-seq2 protocols. Demultiplex scRNA\-seq FASTQ files\, align reads to reference genome using Rsubread\, and generate UMI filtered count matrix. Also provide visualizations of read alignments and pre\- and post\-alignment QC metrics.
 
 
 .. conda:package:: bioconductor-scruff

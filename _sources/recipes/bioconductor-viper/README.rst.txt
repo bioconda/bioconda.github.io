@@ -9,14 +9,14 @@ bioconductor-viper
 .. conda:recipe:: bioconductor-viper
    :replaces_section_title:
 
-   Inference of protein activity from gene expression data\, including the VIPER and msVIPER algorithms
+   Virtual Inference of Protein\-activity by Enriched Regulon analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/viper.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/viper.html
    :license: file LICENSE
    :recipe: /`bioconductor-viper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-viper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-viper/meta.yaml>`_
    :links: biotools: :biotools:`viper`
 
-   
+   Inference of protein activity from gene expression data\, including the VIPER and msVIPER algorithms
 
 
 .. conda:package:: bioconductor-viper

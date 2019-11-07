@@ -9,13 +9,13 @@ bioconductor-mdp
 .. conda:recipe:: bioconductor-mdp
    :replaces_section_title:
 
-   The Molecular Degree of Perturbation webtool quantifies the heterogeneity of samples. It takes a data.frame of omic data that contains at least two classes \(control and test\) and assigns a score to all samples based on how perturbed they are compared to the controls. It is based on the Molecular Distance to Health \(Pankla et al. 2009\)\, and expands on this algorithm by adding the options to calculate the z\-score using the modified z\-score \(using median absolute deviation\)\, change the z\-score zeroing threshold\, and look at genes that are most perturbed in the test versus control classes.
+   Molecular Degree of Perturbation calculates scores for transcriptome data samples based on their perturbation from controls
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/mdp.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/mdp.html
    :license: GPL-3
    :recipe: /`bioconductor-mdp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mdp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mdp/meta.yaml>`_
 
-   
+   The Molecular Degree of Perturbation webtool quantifies the heterogeneity of samples. It takes a data.frame of omic data that contains at least two classes \(control and test\) and assigns a score to all samples based on how perturbed they are compared to the controls. It is based on the Molecular Distance to Health \(Pankla et al. 2009\)\, and expands on this algorithm by adding the options to calculate the z\-score using the modified z\-score \(using median absolute deviation\)\, change the z\-score zeroing threshold\, and look at genes that are most perturbed in the test versus control classes.
 
 
 .. conda:package:: bioconductor-mdp

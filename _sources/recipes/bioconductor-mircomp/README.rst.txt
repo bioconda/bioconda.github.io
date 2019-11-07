@@ -9,23 +9,23 @@ bioconductor-mircomp
 .. conda:recipe:: bioconductor-mircomp
    :replaces_section_title:
 
-   Based on a large miRNA dilution study\, this package provides tools to read in the raw amplification data and use these data to assess the performance of methods that estimate expression from the amplification curves.
+   Tools to assess and compare miRNA expression estimatation methods
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/miRcomp.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/miRcomp.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-mircomp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mircomp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mircomp/meta.yaml>`_
 
-   
+   Based on a large miRNA dilution study\, this package provides tools to read in the raw amplification data and use these data to assess the performance of methods that estimate expression from the amplification curves.
 
 
 .. conda:package:: bioconductor-mircomp
 
    |downloads_bioconductor-mircomp| |docker_bioconductor-mircomp|
 
-   :versions: 1.16.0-0, 1.14.0-1, 1.12.0-0
+   :versions: 1.14.0-1, 1.12.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-mircompdata: >=1.15.0,<1.16.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-mircompdata: >=1.14.0,<1.15.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-kernsmooth: 
    :requirements:

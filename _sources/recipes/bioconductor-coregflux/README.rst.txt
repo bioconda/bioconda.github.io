@@ -9,13 +9,13 @@ bioconductor-coregflux
 .. conda:recipe:: bioconductor-coregflux
    :replaces_section_title:
 
-   CoRegFlux aims at providing tools to integrate reverse engineered gene regulatory networks and gene\-expression into metabolic models to improve prediction of phenotypes\, both for metabolic engineering\, through transcription factor or gene \(TF\) knock\-out or overexpression in various conditions as well as to improve our understanding of the interactions and cell inner\-working.
+   CoRegFlux
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CoRegFlux.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CoRegFlux.html
    :license: GPL-3
    :recipe: /`bioconductor-coregflux <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coregflux>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coregflux/meta.yaml>`_
 
-   
+   CoRegFlux aims at providing tools to integrate reverse engineered gene regulatory networks and gene\-expression into metabolic models to improve prediction of phenotypes\, both for metabolic engineering\, through transcription factor or gene \(TF\) knock\-out or overexpression in various conditions as well as to improve our understanding of the interactions and cell inner\-working.
 
 
 .. conda:package:: bioconductor-coregflux

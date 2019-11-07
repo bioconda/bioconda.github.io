@@ -9,22 +9,22 @@ bioconductor-fabiadata
 .. conda:recipe:: bioconductor-fabiadata
    :replaces_section_title:
 
-   Supplying gene expression data sets for the demos of the biclustering method \"Factor Analysis for Bicluster Acquisition\" \(FABIA\). The following three data sets are provided\: A\) breast cancer \(van\'t Veer\, Nature\, 2002\)\, B\) multiple tissues \(Su\, PNAS\, 2002\)\, and C\) diffuse large\-B\-cell lymphoma \(Rosenwald\, N Engl J Med\, 2002\).
+   Data sets for FABIA \(Factor Analysis for Bicluster Acquisition\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/fabiaData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/fabiaData.html
    :license: LGPL (>= 2.1)
    :recipe: /`bioconductor-fabiadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fabiadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fabiadata/meta.yaml>`_
 
-   
+   Supplying gene expression data sets for the demos of the biclustering method \"Factor Analysis for Bicluster Acquisition\" \(FABIA\). The following three data sets are provided\: A\) breast cancer \(van\'t Veer\, Nature\, 2002\)\, B\) multiple tissues \(Su\, PNAS\, 2002\)\, and C\) diffuse large\-B\-cell lymphoma \(Rosenwald\, N Engl J Med\, 2002\).
 
 
 .. conda:package:: bioconductor-fabiadata
 
    |downloads_bioconductor-fabiadata| |docker_bioconductor-fabiadata|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.20.0-0
+   :versions: 1.22.0-1, 1.20.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

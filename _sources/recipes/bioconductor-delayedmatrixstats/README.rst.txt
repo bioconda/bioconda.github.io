@@ -9,13 +9,13 @@ bioconductor-delayedmatrixstats
 .. conda:recipe:: bioconductor-delayedmatrixstats
    :replaces_section_title:
 
-   A port of the \'matrixStats\' API for use with DelayedMatrix objects from the \'DelayedArray\' package. High\-performing functions operating on rows and columns of DelayedMatrix objects\, e.g. col \/ rowMedians\(\)\, col \/ rowRanks\(\)\, and col \/ rowSds\(\). Functions optimized per data type and for subsetted calculations such that both memory usage and processing time is minimized.
+   Functions that Apply to Rows and Columns of \'DelayedMatrix\' Objects
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DelayedMatrixStats.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DelayedMatrixStats.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-delayedmatrixstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-delayedmatrixstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-delayedmatrixstats/meta.yaml>`_
 
-   
+   A port of the \'matrixStats\' API for use with DelayedMatrix objects from the \'DelayedArray\' package. High\-performing functions operating on rows and columns of DelayedMatrix objects\, e.g. col \/ rowMedians\(\)\, col \/ rowRanks\(\)\, and col \/ rowSds\(\). Functions optimized per data type and for subsetted calculations such that both memory usage and processing time is minimized.
 
 
 .. conda:package:: bioconductor-delayedmatrixstats

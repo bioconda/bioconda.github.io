@@ -9,20 +9,20 @@ bioconductor-copyhelper
 .. conda:recipe:: bioconductor-copyhelper
    :replaces_section_title:
 
-   This package contains the helper files that are required to run the Bioconductor package CopywriteR. It contains pre\-assembled 1kb bin GC\-content and mappability files for the reference genomes hg18\, hg19\, hg38\, mm9 and mm10. In addition\, it contains a blacklist filter to remove regions that display CNV. Files are stored as GRanges objects from the GenomicRanges Bioconductor package.
+   Helper files for CopywriteR
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/CopyhelpeR.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/CopyhelpeR.html
    :license: GPL-2
    :recipe: /`bioconductor-copyhelper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copyhelper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copyhelper/meta.yaml>`_
 
-   
+   This package contains the helper files that are required to run the Bioconductor package CopywriteR. It contains pre\-assembled 1kb bin GC\-content and mappability files for the reference genomes hg18\, hg19\, hg38\, mm9 and mm10. In addition\, it contains a blacklist filter to remove regions that display CNV. Files are stored as GRanges objects from the GenomicRanges Bioconductor package.
 
 
 .. conda:package:: bioconductor-copyhelper
 
    |downloads_bioconductor-copyhelper| |docker_bioconductor-copyhelper|
 
-   :versions: 1.17.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions: 1.18.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

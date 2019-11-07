@@ -9,13 +9,13 @@ bioconductor-meshr
 .. conda:recipe:: bioconductor-meshr
    :replaces_section_title:
 
-   A set of annotation maps describing the entire MeSH assembled using data from MeSH.
+   Tools for conducting enrichment analysis of MeSH
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/meshr.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/meshr.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-meshr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meshr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meshr/meta.yaml>`_
 
-   
+   A set of annotation maps describing the entire MeSH assembled using data from MeSH.
 
 
 .. conda:package:: bioconductor-meshr

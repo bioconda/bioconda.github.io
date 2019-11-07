@@ -9,13 +9,13 @@ bioconductor-hapmap370k
 .. conda:recipe:: bioconductor-hapmap370k
    :replaces_section_title:
 
-   Example HapMap data from Illumina 370k BeadChips
+   Example Illumina 370k HapMap Data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hapmap370k.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hapmap370k.html
    :license: GPL
    :recipe: /`bioconductor-hapmap370k <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmap370k>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmap370k/meta.yaml>`_
 
-   
+   Example HapMap data from Illumina 370k BeadChips
 
 
 .. conda:package:: bioconductor-hapmap370k

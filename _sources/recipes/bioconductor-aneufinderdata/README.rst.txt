@@ -9,20 +9,20 @@ bioconductor-aneufinderdata
 .. conda:recipe:: bioconductor-aneufinderdata
    :replaces_section_title:
 
-   Whole\-genome single cell sequencing data for demonstration purposes in the AneuFinder package.
+   WGSCS Data for Demonstration Purposes
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/AneuFinderData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/AneuFinderData.html
    :license: file LICENSE
    :recipe: /`bioconductor-aneufinderdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aneufinderdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aneufinderdata/meta.yaml>`_
 
-   
+   Whole\-genome single cell sequencing data for demonstration purposes in the AneuFinder package.
 
 
 .. conda:package:: bioconductor-aneufinderdata
 
    |downloads_bioconductor-aneufinderdata| |docker_bioconductor-aneufinderdata|
 
-   :versions: 1.13.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

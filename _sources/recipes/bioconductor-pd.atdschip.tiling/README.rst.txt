@@ -11,18 +11,18 @@ bioconductor-pd.atdschip.tiling
 
    Platform Design Info for Affymetrix Atdschip\_tiling
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/pd.atdschip.tiling.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/pd.atdschip.tiling.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.atdschip.tiling <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.atdschip.tiling>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.atdschip.tiling/meta.yaml>`_
 
-   
+   Platform Design Info for Affymetrix Atdschip\_tiling
 
 
 .. conda:package:: bioconductor-pd.atdschip.tiling
 
    |downloads_bioconductor-pd.atdschip.tiling| |docker_bioconductor-pd.atdschip.tiling|
 
-   :versions: 0.23.0-0, 0.22.0-1, 0.20.0-1, 0.20.0-0
+   :versions: 0.24.0-0, 0.22.0-1, 0.20.0-1, 0.20.0-0
    
    :depends bioconductor-biostrings: >=2.54.0,<2.55.0
    :depends bioconductor-iranges: >=2.20.0,<2.21.0

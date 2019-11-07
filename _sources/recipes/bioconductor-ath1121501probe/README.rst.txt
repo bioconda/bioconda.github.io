@@ -9,13 +9,13 @@ bioconductor-ath1121501probe
 .. conda:recipe:: bioconductor-ath1121501probe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was ATH1\-121501\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type ath1121501
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/ath1121501probe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/ath1121501probe.html
    :license: LGPL
    :recipe: /`bioconductor-ath1121501probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ath1121501probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ath1121501probe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was ATH1\-121501\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-ath1121501probe

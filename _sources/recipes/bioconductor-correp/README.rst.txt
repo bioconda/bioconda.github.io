@@ -9,14 +9,14 @@ bioconductor-correp
 .. conda:recipe:: bioconductor-correp
    :replaces_section_title:
 
-   Multivariate correlation estimation and statistical inference. See package vignette.
+   Multivariate Correlation Estimator and Statistical Inference Procedures.
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CORREP.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CORREP.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-correp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-correp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-correp/meta.yaml>`_
    :links: biotools: :biotools:`correp`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Multivariate correlation estimation and statistical inference. See package vignette.
 
 
 .. conda:package:: bioconductor-correp

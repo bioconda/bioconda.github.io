@@ -9,20 +9,20 @@ bioconductor-zebrafishrnaseq
 .. conda:recipe:: bioconductor-zebrafishrnaseq
    :replaces_section_title:
 
-   Gene\-level read counts from RNA\-Seq for gallein\-treated and control zebrafish.
+   Zebrafish RNA\-Seq Experimental Data from Ferreira et al. \(2014\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/zebrafishRNASeq.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/zebrafishRNASeq.html
    :license: GPL
    :recipe: /`bioconductor-zebrafishrnaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zebrafishrnaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zebrafishrnaseq/meta.yaml>`_
 
-   
+   Gene\-level read counts from RNA\-Seq for gallein\-treated and control zebrafish.
 
 
 .. conda:package:: bioconductor-zebrafishrnaseq
 
    |downloads_bioconductor-zebrafishrnaseq| |docker_bioconductor-zebrafishrnaseq|
 
-   :versions: 1.5.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

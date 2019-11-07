@@ -9,13 +9,13 @@ bioconductor-arrayexpresshts
 .. conda:recipe:: bioconductor-arrayexpresshts
    :replaces_section_title:
 
-   RNA\-Seq processing pipeline for public ArrayExpress experiments or local datasets
+   ArrayExpress High Throughput Sequencing Processing Pipeline
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ArrayExpressHTS.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ArrayExpressHTS.html
    :license: Artistic License 2.0
    :recipe: /`bioconductor-arrayexpresshts <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrayexpresshts>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrayexpresshts/meta.yaml>`_
 
-   
+   RNA\-Seq processing pipeline for public ArrayExpress experiments or local datasets
 
 
 .. conda:package:: bioconductor-arrayexpresshts

@@ -9,13 +9,13 @@ bioconductor-hthgu133pluspmcdf
 .. conda:recipe:: bioconductor-hthgu133pluspmcdf
    :replaces_section_title:
 
-   A package containing an environment representing the HT\_HG\-U133\_Plus\_PM.CDF file.
+   hthgu133pluspmcdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hthgu133pluspmcdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hthgu133pluspmcdf.html
    :license: LGPL
    :recipe: /`bioconductor-hthgu133pluspmcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hthgu133pluspmcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hthgu133pluspmcdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the HT\_HG\-U133\_Plus\_PM.CDF file.
 
 
 .. conda:package:: bioconductor-hthgu133pluspmcdf

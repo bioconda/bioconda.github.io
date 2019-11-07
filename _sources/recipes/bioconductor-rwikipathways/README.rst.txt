@@ -9,13 +9,13 @@ bioconductor-rwikipathways
 .. conda:recipe:: bioconductor-rwikipathways
    :replaces_section_title:
 
-   Use this package to interface with the WikiPathways API.
+   rWikiPathways \- R client library for the WikiPathways API
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/rWikiPathways.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/rWikiPathways.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-rwikipathways <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rwikipathways>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rwikipathways/meta.yaml>`_
 
-   
+   Use this package to interface with the WikiPathways API.
 
 
 .. conda:package:: bioconductor-rwikipathways

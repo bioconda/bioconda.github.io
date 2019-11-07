@@ -9,14 +9,14 @@ bioconductor-bionet
 .. conda:recipe:: bioconductor-bionet
    :replaces_section_title:
 
-   This package provides functions for the integrated analysis of protein\-protein interaction networks and the detection of functional modules. Different datasets can be integrated into the network by assigning p\-values of statistical tests to the nodes of the network. E.g. p\-values obtained from the differential expression of the genes from an Affymetrix array are assigned to the nodes of the network. By fitting a beta\-uniform mixture model and calculating scores from the p\-values\, overall scores of network regions can be calculated and an integer linear programming algorithm identifies the maximum scoring subnetwork.
+   Routines for the functional analysis of biological networks
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BioNet.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BioNet.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-bionet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bionet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bionet/meta.yaml>`_
    :links: biotools: :biotools:`bionet`
 
-   
+   This package provides functions for the integrated analysis of protein\-protein interaction networks and the detection of functional modules. Different datasets can be integrated into the network by assigning p\-values of statistical tests to the nodes of the network. E.g. p\-values obtained from the differential expression of the genes from an Affymetrix array are assigned to the nodes of the network. By fitting a beta\-uniform mixture model and calculating scores from the p\-values\, overall scores of network regions can be calculated and an integer linear programming algorithm identifies the maximum scoring subnetwork.
 
 
 .. conda:package:: bioconductor-bionet

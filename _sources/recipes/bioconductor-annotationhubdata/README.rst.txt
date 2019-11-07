@@ -9,14 +9,14 @@ bioconductor-annotationhubdata
 .. conda:recipe:: bioconductor-annotationhubdata
    :replaces_section_title:
 
-   These recipes convert a wide variety and a growing number of public bioinformatic data sets into easily\-used standard Bioconductor data structures.
+   Transform public data resources into Bioconductor Data Structures
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/AnnotationHubData.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/AnnotationHubData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-annotationhubdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationhubdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationhubdata/meta.yaml>`_
    :links: biotools: :biotools:`annotationhubdata`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   These recipes convert a wide variety and a growing number of public bioinformatic data sets into easily\-used standard Bioconductor data structures.
 
 
 .. conda:package:: bioconductor-annotationhubdata

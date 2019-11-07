@@ -9,20 +9,20 @@ bioconductor-tcgabiolinksgui.data
 .. conda:recipe:: bioconductor-tcgabiolinksgui.data
    :replaces_section_title:
 
-   Supporting data for the TCGAbiolinksGUI package. It includes the following objects\: glioma.gcimp.model\, glioma.idhwt.model glioma.idhmut.model\,glioma.idh.mode\, probes2rm\, maf.tumor\,GDCdisease.
+   Data for the TCGAbiolinksGUI package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/TCGAbiolinksGUI.data.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/TCGAbiolinksGUI.data.html
    :license: GPL-3
    :recipe: /`bioconductor-tcgabiolinksgui.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgabiolinksgui.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgabiolinksgui.data/meta.yaml>`_
 
-   
+   Supporting data for the TCGAbiolinksGUI package. It includes the following objects\: glioma.gcimp.model\, glioma.idhwt.model glioma.idhmut.model\,glioma.idh.mode\, probes2rm\, maf.tumor\,GDCdisease.
 
 
 .. conda:package:: bioconductor-tcgabiolinksgui.data
 
    |downloads_bioconductor-tcgabiolinksgui.data| |docker_bioconductor-tcgabiolinksgui.data|
 
-   :versions: 1.5.0-0, 1.4.0-1, 1.4.0-0, 1.3.0-0, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.3.0-0, 1.2.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

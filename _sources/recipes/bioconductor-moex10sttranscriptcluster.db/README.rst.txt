@@ -9,13 +9,13 @@ bioconductor-moex10sttranscriptcluster.db
 .. conda:recipe:: bioconductor-moex10sttranscriptcluster.db
    :replaces_section_title:
 
-   Affymetrix moex10 annotation data \(chip moex10sttranscriptcluster\) assembled using data from public repositories
+   Affymetrix moex10 annotation data \(chip moex10sttranscriptcluster\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/moex10sttranscriptcluster.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/moex10sttranscriptcluster.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-moex10sttranscriptcluster.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moex10sttranscriptcluster.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moex10sttranscriptcluster.db/meta.yaml>`_
 
-   
+   Affymetrix moex10 annotation data \(chip moex10sttranscriptcluster\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-moex10sttranscriptcluster.db

@@ -9,20 +9,20 @@ bioconductor-hivcdnavantwout03
 .. conda:recipe:: bioconductor-hivcdnavantwout03
    :replaces_section_title:
 
-   The expression levels of approximately 4600 cellular RNA transcripts were assessed in CD4\+ T cell lines at different times after infection with HIV\-1BRU using DNA microarrays. This data corresponds to the first block of a 12 block array image \(001030\_08\_1.GEL\) in the first data set \(2000095918 A\) in the first experiment \(CEM LAI vs HI\-LAI 24hr\). There are two data sets\, which are part of a dye\-swap experiment with replicates\, representing the Cy3 \(green\) absorption intensities for channel 1 \(hiv1raw\) and the Cy5 \(red\) absorption intensities for channel 2 \(hiv2raw\).
+   T cell line infections with HIV\-1 LAI \(BRU\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/HIVcDNAvantWout03.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/HIVcDNAvantWout03.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-hivcdnavantwout03 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hivcdnavantwout03>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hivcdnavantwout03/meta.yaml>`_
 
-   
+   The expression levels of approximately 4600 cellular RNA transcripts were assessed in CD4\+ T cell lines at different times after infection with HIV\-1BRU using DNA microarrays. This data corresponds to the first block of a 12 block array image \(001030\_08\_1.GEL\) in the first data set \(2000095918 A\) in the first experiment \(CEM LAI vs HI\-LAI 24hr\). There are two data sets\, which are part of a dye\-swap experiment with replicates\, representing the Cy3 \(green\) absorption intensities for channel 1 \(hiv1raw\) and the Cy5 \(red\) absorption intensities for channel 2 \(hiv2raw\).
 
 
 .. conda:package:: bioconductor-hivcdnavantwout03
 
    |downloads_bioconductor-hivcdnavantwout03| |docker_bioconductor-hivcdnavantwout03|
 
-   :versions: 1.25.0-0, 1.24.0-1, 1.24.0-0, 1.22.0-0
+   :versions: 1.26.0-0, 1.24.0-1, 1.24.0-0, 1.22.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

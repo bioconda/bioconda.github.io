@@ -9,14 +9,14 @@ bioconductor-rgsepd
 .. conda:recipe:: bioconductor-rgsepd
    :replaces_section_title:
 
-   R\/GSEPD is a bioinformatics package for R to help disambiguate transcriptome samples \(a matrix of RNA\-Seq counts at transcript IDs\) by automating differential expression \(with DESeq2\)\, then gene set enrichment \(with GOSeq\)\, and finally a N\-dimensional projection to quantify in which ways each sample is like either treatment group.
+   Gene Set Enrichment \/ Projection Displays
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/rgsepd.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/rgsepd.html
    :license: GPL-3
    :recipe: /`bioconductor-rgsepd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgsepd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgsepd/meta.yaml>`_
    :links: biotools: :biotools:`rgsepd`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   R\/GSEPD is a bioinformatics package for R to help disambiguate transcriptome samples \(a matrix of RNA\-Seq counts at transcript IDs\) by automating differential expression \(with DESeq2\)\, then gene set enrichment \(with GOSeq\)\, and finally a N\-dimensional projection to quantify in which ways each sample is like either treatment group.
 
 
 .. conda:package:: bioconductor-rgsepd

@@ -9,14 +9,14 @@ bioconductor-pcan
 .. conda:recipe:: bioconductor-pcan
    :replaces_section_title:
 
-   Phenotypes comparison based on a pathway consensus approach. Assess the relationship between candidate genes and a set of phenotypes based on additional genes related to the candidate \(e.g. Pathways or network neighbors\).
+   Phenotype Consensus ANalysis \(PCAN\)
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PCAN.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PCAN.html
    :license: CC BY-NC-ND 4.0
    :recipe: /`bioconductor-pcan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcan/meta.yaml>`_
    :links: biotools: :biotools:`pcan`
 
-   
+   Phenotypes comparison based on a pathway consensus approach. Assess the relationship between candidate genes and a set of phenotypes based on additional genes related to the candidate \(e.g. Pathways or network neighbors\).
 
 
 .. conda:package:: bioconductor-pcan

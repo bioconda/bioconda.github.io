@@ -9,22 +9,22 @@ bioconductor-illuminadatatestfiles
 .. conda:recipe:: bioconductor-illuminadatatestfiles
    :replaces_section_title:
 
-   Example data for Illumina microarray output files\, for testing purposes
+   Illumina microarray files \(IDAT\) for testing
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/IlluminaDataTestFiles.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/IlluminaDataTestFiles.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-illuminadatatestfiles <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminadatatestfiles>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminadatatestfiles/meta.yaml>`_
 
-   
+   Example data for Illumina microarray output files\, for testing purposes
 
 
 .. conda:package:: bioconductor-illuminadatatestfiles
 
    |downloads_bioconductor-illuminadatatestfiles| |docker_bioconductor-illuminadatatestfiles|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
+   :versions: 1.22.0-1, 1.22.0-0, 1.20.0-0
    
-   :depends curl: >=7.65.3,<8.0a0
+   :depends curl: >=7.65.2,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

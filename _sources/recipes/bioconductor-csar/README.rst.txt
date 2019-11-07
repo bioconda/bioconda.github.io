@@ -9,13 +9,13 @@ bioconductor-csar
 .. conda:recipe:: bioconductor-csar
    :replaces_section_title:
 
-   Statistical tools for ChIP\-seq data analysis. The package includes the statistical method described in Kaufmann et al. \(2009\) PLoS Biology\: 7\(4\)\:e1000090. Briefly\, Taking the average DNA fragment size subjected to sequencing into account\, the software calculates genomic single\-nucleotide read\-enrichment values. After normalization\, sample and control are compared using a test based on the Poisson distribution. Test statistic thresholds to control the false discovery rate are obtained through random permutation.
+   Statistical tools for the analysis of ChIP\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CSAR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CSAR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-csar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-csar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-csar/meta.yaml>`_
 
-   
+   Statistical tools for ChIP\-seq data analysis. The package includes the statistical method described in Kaufmann et al. \(2009\) PLoS Biology\: 7\(4\)\:e1000090. Briefly\, Taking the average DNA fragment size subjected to sequencing into account\, the software calculates genomic single\-nucleotide read\-enrichment values. After normalization\, sample and control are compared using a test based on the Poisson distribution. Test statistic thresholds to control the false discovery rate are obtained through random permutation.
 
 
 .. conda:package:: bioconductor-csar

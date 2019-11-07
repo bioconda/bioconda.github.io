@@ -9,14 +9,14 @@ bioconductor-genomicinteractions
 .. conda:recipe:: bioconductor-genomicinteractions
    :replaces_section_title:
 
-   R package for handling Genomic interaction data\, such as ChIA\-PET\/Hi\-C\, annotating genomic features with interaction information and producing various plots \/ statistics.
+   R package for handling genomic interaction data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GenomicInteractions.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GenomicInteractions.html
    :license: GPL-3
    :recipe: /`bioconductor-genomicinteractions <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicinteractions>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicinteractions/meta.yaml>`_
    :links: biotools: :biotools:`genomicinteractions`, doi: :doi:`10.1186/s12864-015-2140-x`
 
-   
+   R package for handling Genomic interaction data\, such as ChIA\-PET\/Hi\-C\, annotating genomic features with interaction information and producing various plots \/ statistics.
 
 
 .. conda:package:: bioconductor-genomicinteractions

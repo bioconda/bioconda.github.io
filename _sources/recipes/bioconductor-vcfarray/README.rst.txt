@@ -9,13 +9,13 @@ bioconductor-vcfarray
 .. conda:recipe:: bioconductor-vcfarray
    :replaces_section_title:
 
-   VCFArray extends the DelayedArray to represent VCF data entries as array\-like objects with on\-disk \/ remote VCF file as backend. Data entries from VCF files\, including info fields\, FORMAT fields\, and the fixed columns \(REF\, ALT\, QUAL\, FILTER\) could be converted into VCFArray instances with different dimensions.
+   Representing on\-disk \/ remote VCF files as array\-like objects
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/VCFArray.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/VCFArray.html
    :license: GPL-3
    :recipe: /`bioconductor-vcfarray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vcfarray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vcfarray/meta.yaml>`_
 
-   
+   VCFArray extends the DelayedArray to represent VCF data entries as array\-like objects with on\-disk \/ remote VCF file as backend. Data entries from VCF files\, including info fields\, FORMAT fields\, and the fixed columns \(REF\, ALT\, QUAL\, FILTER\) could be converted into VCFArray instances with different dimensions.
 
 
 .. conda:package:: bioconductor-vcfarray

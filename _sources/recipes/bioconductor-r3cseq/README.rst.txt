@@ -9,14 +9,14 @@ bioconductor-r3cseq
 .. conda:recipe:: bioconductor-r3cseq
    :replaces_section_title:
 
-   This package is used for the analysis of long\-range chromatin interactions from 3C\-seq assay.
+   Analysis of Chromosome Conformation Capture and Next\-generation Sequencing \(3C\-seq\)
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/r3Cseq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/r3Cseq.html
    :license: GPL-3
    :recipe: /`bioconductor-r3cseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r3cseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r3cseq/meta.yaml>`_
    :links: biotools: :biotools:`r3cseq`, doi: :doi:`10.1093/nar/gkt373`
 
-   
+   This package is used for the analysis of long\-range chromatin interactions from 3C\-seq assay.
 
 
 .. conda:package:: bioconductor-r3cseq

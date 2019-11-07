@@ -9,20 +9,20 @@ bioconductor-lungexpression
 .. conda:recipe:: bioconductor-lungexpression
    :replaces_section_title:
 
-   Data from three large lung cancer studies provided as ExpressionSets
+   ExpressionSets for Parmigiani et al.\, 2004 Clinical Cancer Research paper
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/lungExpression.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/lungExpression.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-lungexpression <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lungexpression>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lungexpression/meta.yaml>`_
 
-   
+   Data from three large lung cancer studies provided as ExpressionSets
 
 
 .. conda:package:: bioconductor-lungexpression
 
    |downloads_bioconductor-lungexpression| |docker_bioconductor-lungexpression|
 
-   :versions: 0.23.0-0, 0.22.0-1, 0.20.0-0
+   :versions: 0.24.0-0, 0.22.0-1, 0.20.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends curl: >=7.65.3,<8.0a0

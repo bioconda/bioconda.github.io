@@ -9,20 +9,20 @@ bioconductor-derfinderdata
 .. conda:recipe:: bioconductor-derfinderdata
    :replaces_section_title:
 
-   Processed 22 samples from BrainSpan keeping only the information for chromosome 21. Data is stored in the BigWig format and is used for examples in other packages.
+   Processed BigWigs from BrainSpan for examples
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/derfinderData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/derfinderData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-derfinderdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-derfinderdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-derfinderdata/meta.yaml>`_
 
-   
+   Processed 22 samples from BrainSpan keeping only the information for chromosome 21. Data is stored in the BigWig format and is used for examples in other packages.
 
 
 .. conda:package:: bioconductor-derfinderdata
 
    |downloads_bioconductor-derfinderdata| |docker_bioconductor-derfinderdata|
 
-   :versions: 2.3.5-0, 2.2.1-0, 2.2.0-0, 2.0.0-0
+   :versions: 2.4.0-0, 2.2.1-0, 2.2.0-0, 2.0.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

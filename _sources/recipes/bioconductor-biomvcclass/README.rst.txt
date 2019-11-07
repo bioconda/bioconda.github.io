@@ -9,14 +9,14 @@ bioconductor-biomvcclass
 .. conda:recipe:: bioconductor-biomvcclass
    :replaces_section_title:
 
-   Creates classes used in model\-view\-controller \(MVC\) design
+   Model\-View\-Controller \(MVC\) Classes That Use Biobase
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BioMVCClass.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BioMVCClass.html
    :license: LGPL
    :recipe: /`bioconductor-biomvcclass <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomvcclass>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomvcclass/meta.yaml>`_
    :links: biotools: :biotools:`biomvcclass`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Creates classes used in model\-view\-controller \(MVC\) design
 
 
 .. conda:package:: bioconductor-biomvcclass

@@ -9,13 +9,13 @@ bioconductor-rqt
 .. conda:recipe:: bioconductor-rqt
    :replaces_section_title:
 
-   Despite the recent advances of modern GWAS methods\, it still remains an important problem of addressing calculation an effect size and corresponding p\-value for the whole gene rather than for single variant. The R\- package rqt offers gene\-level GWAS meta\-analysis. For more information\, see\: \"Gene\-set association tests for next\-generation sequencing data\" by Lee et al \(2016\)\, Bioinformatics\, 32\(17\)\, i611\-i619\, \<doi\:10.1093\/bioinformatics\/btw429\>.
+   rqt\: utilities for gene\-level meta\-analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/rqt.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/rqt.html
    :license: GPL
    :recipe: /`bioconductor-rqt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rqt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rqt/meta.yaml>`_
 
-   
+   Despite the recent advances of modern GWAS methods\, it still remains an important problem of addressing calculation an effect size and corresponding p\-value for the whole gene rather than for single variant. The R\- package rqt offers gene\-level GWAS meta\-analysis. For more information\, see\: \"Gene\-set association tests for next\-generation sequencing data\" by Lee et al \(2016\)\, Bioinformatics\, 32\(17\)\, i611\-i619\, \<doi\:10.1093\/bioinformatics\/btw429\>.
 
 
 .. conda:package:: bioconductor-rqt

@@ -9,13 +9,13 @@ bioconductor-cytodx
 .. conda:recipe:: bioconductor-cytodx
    :replaces_section_title:
 
-   This package provides functions that predict clinical outcomes using single cell data \(such as flow cytometry data\, RNA single cell sequencing data\) without the requirement of cell gating or clustering.
+   Robust prediction of clinical outcomes using cytometry data without cell gating
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CytoDx.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CytoDx.html
    :license: GPL-2
    :recipe: /`bioconductor-cytodx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytodx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytodx/meta.yaml>`_
 
-   
+   This package provides functions that predict clinical outcomes using single cell data \(such as flow cytometry data\, RNA single cell sequencing data\) without the requirement of cell gating or clustering.
 
 
 .. conda:package:: bioconductor-cytodx

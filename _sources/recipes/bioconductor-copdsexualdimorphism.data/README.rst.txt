@@ -9,20 +9,20 @@ bioconductor-copdsexualdimorphism.data
 .. conda:recipe:: bioconductor-copdsexualdimorphism.data
    :replaces_section_title:
 
-   Datasets to support COPDSexaulDimorphism Package.
+   Data to support sexually dimorphic and COPD differential analysis for gene expression and methylation.
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/COPDSexualDimorphism.data.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/COPDSexualDimorphism.data.html
    :license: LGPL-2.1
    :recipe: /`bioconductor-copdsexualdimorphism.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copdsexualdimorphism.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copdsexualdimorphism.data/meta.yaml>`_
 
-   
+   Datasets to support COPDSexaulDimorphism Package.
 
 
 .. conda:package:: bioconductor-copdsexualdimorphism.data
 
    |downloads_bioconductor-copdsexualdimorphism.data| |docker_bioconductor-copdsexualdimorphism.data|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

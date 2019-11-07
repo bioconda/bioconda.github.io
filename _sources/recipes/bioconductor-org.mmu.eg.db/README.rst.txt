@@ -9,13 +9,13 @@ bioconductor-org.mmu.eg.db
 .. conda:recipe:: bioconductor-org.mmu.eg.db
    :replaces_section_title:
 
-   Genome wide annotation for Rhesus\, primarily based on mapping using Entrez Gene identifiers.
+   Genome wide annotation for Rhesus
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/org.Mmu.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/org.Mmu.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-org.mmu.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.mmu.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.mmu.eg.db/meta.yaml>`_
 
-   
+   Genome wide annotation for Rhesus\, primarily based on mapping using Entrez Gene identifiers.
 
 
 .. conda:package:: bioconductor-org.mmu.eg.db

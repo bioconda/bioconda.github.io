@@ -9,13 +9,13 @@ bioconductor-moda
 .. conda:recipe:: bioconductor-moda
    :replaces_section_title:
 
-   MODA can be used to estimate and construct condition\-specific gene co\-expression networks\, and identify differentially expressed subnetworks as conserved or condition specific modules which are potentially associated with relevant biological processes.
+   MODA\: MOdule Differential Analysis for weighted gene co\-expression network
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MODA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MODA.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-moda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moda/meta.yaml>`_
 
-   
+   MODA can be used to estimate and construct condition\-specific gene co\-expression networks\, and identify differentially expressed subnetworks as conserved or condition specific modules which are potentially associated with relevant biological processes.
 
 
 .. conda:package:: bioconductor-moda

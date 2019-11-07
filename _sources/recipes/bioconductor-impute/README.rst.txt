@@ -9,14 +9,14 @@ bioconductor-impute
 .. conda:recipe:: bioconductor-impute
    :replaces_section_title:
 
-   Imputation for microarray data \(currently KNN only\)
+   impute\: Imputation for microarray data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/impute.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/impute.html
    :license: GPL-2
    :recipe: /`bioconductor-impute <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-impute>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-impute/meta.yaml>`_
    :links: biotools: :biotools:`impute`, doi: :doi:`10.1007/978-3-642-57489-4_7`
 
-   
+   Imputation for microarray data \(currently KNN only\)
 
 
 .. conda:package:: bioconductor-impute

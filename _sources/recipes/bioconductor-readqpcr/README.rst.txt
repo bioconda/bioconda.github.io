@@ -9,14 +9,14 @@ bioconductor-readqpcr
 .. conda:recipe:: bioconductor-readqpcr
    :replaces_section_title:
 
-   The package provides functions to read raw RT\-qPCR data of different platforms.
+   Read qPCR data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ReadqPCR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ReadqPCR.html
    :license: LGPL-3
    :recipe: /`bioconductor-readqpcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-readqpcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-readqpcr/meta.yaml>`_
    :links: biotools: :biotools:`readqpcr`
 
-   
+   The package provides functions to read raw RT\-qPCR data of different platforms.
 
 
 .. conda:package:: bioconductor-readqpcr

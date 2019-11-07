@@ -9,13 +9,13 @@ bioconductor-hcg110cdf
 .. conda:recipe:: bioconductor-hcg110cdf
    :replaces_section_title:
 
-   A package containing an environment representing the HC\_G110.cdf file.
+   hcg110cdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hcg110cdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hcg110cdf.html
    :license: LGPL
    :recipe: /`bioconductor-hcg110cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hcg110cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hcg110cdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the HC\_G110.cdf file.
 
 
 .. conda:package:: bioconductor-hcg110cdf

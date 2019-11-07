@@ -9,13 +9,13 @@ bioconductor-hs6ug171.db
 .. conda:recipe:: bioconductor-hs6ug171.db
    :replaces_section_title:
 
-   A package containing metadata for Hs6UG171 arrays assembled using data from public repositories
+   A package containing metadata for Hs6UG171 arrays
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/Hs6UG171.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/Hs6UG171.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hs6ug171.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hs6ug171.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hs6ug171.db/meta.yaml>`_
 
-   
+   A package containing metadata for Hs6UG171 arrays assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-hs6ug171.db

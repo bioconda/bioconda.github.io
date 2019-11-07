@@ -9,13 +9,13 @@ bioconductor-sracipe
 .. conda:recipe:: bioconductor-sracipe
    :replaces_section_title:
 
-   sRACIPE implements a randomization\-based method for gene circuit modeling. It allows us to study the effect of both the gene expression noise and the parametric variation on any gene regulatory circuit \(GRC\) using only its topology\, and simulates an ensemble of models with random kinetic parameters at multiple noise levels. Statistical analysis of the generated gene expressions reveals the basin of attraction and stability of various phenotypic states and their changes associated with intrinsic and extrinsic noises. sRACIPE provides a holistic picture to evaluate the effects of both the stochastic nature of cellular processes and the parametric variation.
+   Systems biology tool to simulate gene regulatory circuits
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/sRACIPE.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/sRACIPE.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-sracipe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sracipe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sracipe/meta.yaml>`_
 
-   
+   sRACIPE implements a randomization\-based method for gene circuit modeling. It allows us to study the effect of both the gene expression noise and the parametric variation on any gene regulatory circuit \(GRC\) using only its topology\, and simulates an ensemble of models with random kinetic parameters at multiple noise levels. Statistical analysis of the generated gene expressions reveals the basin of attraction and stability of various phenotypic states and their changes associated with intrinsic and extrinsic noises. sRACIPE provides a holistic picture to evaluate the effects of both the stochastic nature of cellular processes and the parametric variation.
 
 
 .. conda:package:: bioconductor-sracipe

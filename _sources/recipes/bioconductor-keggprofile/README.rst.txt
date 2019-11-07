@@ -9,13 +9,13 @@ bioconductor-keggprofile
 .. conda:recipe:: bioconductor-keggprofile
    :replaces_section_title:
 
-   KEGGprofile is an annotation and visualization tool which integrated the expression profiles and the function annotation in KEGG pathway maps. The multi\-types and multi\-groups expression data can be visualized in one pathway map. KEGGprofile facilitated more detailed analysis about the specific function changes inner pathway or temporal correlations in different genes and samples.
+   An annotation and visualization package for multi\-types and multi\-groups expression data in KEGG pathway
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/KEGGprofile.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/KEGGprofile.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-keggprofile <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggprofile>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggprofile/meta.yaml>`_
 
-   
+   KEGGprofile is an annotation and visualization tool which integrated the expression profiles and the function annotation in KEGG pathway maps. The multi\-types and multi\-groups expression data can be visualized in one pathway map. KEGGprofile facilitated more detailed analysis about the specific function changes inner pathway or temporal correlations in different genes and samples.
 
 
 .. conda:package:: bioconductor-keggprofile

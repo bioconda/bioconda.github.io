@@ -9,14 +9,14 @@ bioconductor-mpfe
 .. conda:recipe:: bioconductor-mpfe
    :replaces_section_title:
 
-   Estimate distribution of methylation patterns from a table of counts from a bisulphite sequencing experiment given a non\-conversion rate and read error rate.
+   Estimation of the amplicon methylation pattern distribution from bisulphite sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MPFE.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MPFE.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-mpfe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mpfe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mpfe/meta.yaml>`_
    :links: biotools: :biotools:`mpfe`, doi: :doi:`10.1186/s12859-015-0600-6`
 
-   
+   Estimate distribution of methylation patterns from a table of counts from a bisulphite sequencing experiment given a non\-conversion rate and read error rate.
 
 
 .. conda:package:: bioconductor-mpfe

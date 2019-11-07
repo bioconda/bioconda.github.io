@@ -9,14 +9,14 @@ bioconductor-cghnormaliter
 .. conda:recipe:: bioconductor-cghnormaliter
    :replaces_section_title:
 
-   Normalization and centralization of array comparative genomic hybridization \(aCGH\) data. The algorithm uses an iterative procedure that effectively eliminates the influence of imbalanced copy numbers. This leads to a more reliable assessment of copy number alterations \(CNAs\).
+   Normalization of array CGH data with imbalanced aberrations.
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CGHnormaliter.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CGHnormaliter.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-cghnormaliter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghnormaliter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghnormaliter/meta.yaml>`_
    :links: biotools: :biotools:`cghnormaliter`, doi: :doi:`10.1186/1471-2164-10-401`
 
-   
+   Normalization and centralization of array comparative genomic hybridization \(aCGH\) data. The algorithm uses an iterative procedure that effectively eliminates the influence of imbalanced copy numbers. This leads to a more reliable assessment of copy number alterations \(CNAs\).
 
 
 .. conda:package:: bioconductor-cghnormaliter

@@ -9,13 +9,13 @@ bioconductor-precisiontrialdrawer
 .. conda:recipe:: bioconductor-precisiontrialdrawer
    :replaces_section_title:
 
-   A suite of methods to design umbrella and basket trials for preision oncology.
+   A Tool to Analyze and Design NGS Based Custom Gene Panels
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PrecisionTrialDrawer.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PrecisionTrialDrawer.html
    :license: GPL-3
    :recipe: /`bioconductor-precisiontrialdrawer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-precisiontrialdrawer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-precisiontrialdrawer/meta.yaml>`_
 
-   
+   A suite of methods to design umbrella and basket trials for precision oncology.
 
 
 .. conda:package:: bioconductor-precisiontrialdrawer

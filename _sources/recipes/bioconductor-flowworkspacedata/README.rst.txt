@@ -9,20 +9,20 @@ bioconductor-flowworkspacedata
 .. conda:recipe:: bioconductor-flowworkspacedata
    :replaces_section_title:
 
-   The necessary external data to run the flowWorkspace and openCyto vignette is found in this package.
+   A data package containing two flowJo\, one diva xml workspace and the associated fcs files as well as three GatingSets for testing the flowWorkspace\, openCyto and CytoML packages.
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/flowWorkspaceData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/flowWorkspaceData.html
    :license: GPL-2
    :recipe: /`bioconductor-flowworkspacedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowworkspacedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowworkspacedata/meta.yaml>`_
 
-   
+   The necessary external data to run the flowWorkspace and openCyto vignette is found in this package.
 
 
 .. conda:package:: bioconductor-flowworkspacedata
 
    |downloads_bioconductor-flowworkspacedata| |docker_bioconductor-flowworkspacedata|
 
-   :versions: 2.21.0-0, 2.20.0-1, 2.20.0-0, 2.18.0-0
+   :versions: 2.22.0-0, 2.20.0-1, 2.20.0-0, 2.18.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

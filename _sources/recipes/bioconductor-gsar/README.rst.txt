@@ -9,13 +9,13 @@ bioconductor-gsar
 .. conda:recipe:: bioconductor-gsar
    :replaces_section_title:
 
-   Gene set analysis using specific alternative hypotheses. Tests for differential expression\, scale and net correlation structure.
+   Gene Set Analysis in R
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GSAR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GSAR.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-gsar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsar/meta.yaml>`_
 
-   
+   Gene set analysis using specific alternative hypotheses. Tests for differential expression\, scale and net correlation structure.
 
 
 .. conda:package:: bioconductor-gsar

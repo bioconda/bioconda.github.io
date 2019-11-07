@@ -9,13 +9,13 @@ bioconductor-saureuscdf
 .. conda:recipe:: bioconductor-saureuscdf
    :replaces_section_title:
 
-   A package containing an environment representing the S\_aureus.cdf file.
+   saureuscdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/saureuscdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/saureuscdf.html
    :license: LGPL
    :recipe: /`bioconductor-saureuscdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-saureuscdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-saureuscdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the S\_aureus.cdf file.
 
 
 .. conda:package:: bioconductor-saureuscdf

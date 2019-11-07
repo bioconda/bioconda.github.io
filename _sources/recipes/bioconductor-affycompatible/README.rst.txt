@@ -9,14 +9,14 @@ bioconductor-affycompatible
 .. conda:recipe:: bioconductor-affycompatible
    :replaces_section_title:
 
-   This package provides an interface to Affymetrix chip annotation and sample attribute files. The package allows an easy way for users to download and manage local data bases of Affynmetrix NetAffx annotation files. The package also provides access to GeneChip Operating System \(GCOS\) and GeneChip Command Console \(AGCC\)\-compatible sample annotation files.
+   Affymetrix GeneChip software compatibility
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/AffyCompatible.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/AffyCompatible.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-affycompatible <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affycompatible>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affycompatible/meta.yaml>`_
    :links: biotools: :biotools:`affycompatible`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package provides an interface to Affymetrix chip annotation and sample attribute files. The package allows an easy way for users to download and manage local data bases of Affynmetrix NetAffx annotation files. The package also provides access to GeneChip Operating System \(GCOS\) and GeneChip Command Console \(AGCC\)\-compatible sample annotation files.
 
 
 .. conda:package:: bioconductor-affycompatible

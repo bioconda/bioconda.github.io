@@ -9,13 +9,13 @@ bioconductor-ensdb.mmusculus.v75
 .. conda:recipe:: bioconductor-ensdb.mmusculus.v75
    :replaces_section_title:
 
-   Exposes an annotation databases generated from Ensembl.
+   Ensembl based annotation package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/EnsDb.Mmusculus.v75.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/EnsDb.Mmusculus.v75.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ensdb.mmusculus.v75 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ensdb.mmusculus.v75>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ensdb.mmusculus.v75/meta.yaml>`_
 
-   
+   Exposes an annotation databases generated from Ensembl.
 
 
 .. conda:package:: bioconductor-ensdb.mmusculus.v75

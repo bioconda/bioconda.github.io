@@ -9,20 +9,20 @@ bioconductor-kodata
 .. conda:recipe:: bioconductor-kodata
    :replaces_section_title:
 
-   Contains consensus genomic signatures \(CGS\) for experimental cell\-line specific gene knock\-outs as well as baseline gene expression data for a subset of experimental cell\-lines. Intended for use with package KEGGlincs.
+   LINCS Knock\-Out Data Package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/KOdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/KOdata.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-kodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kodata/meta.yaml>`_
 
-   
+   Contains consensus genomic signatures \(CGS\) for experimental cell\-line specific gene knock\-outs as well as baseline gene expression data for a subset of experimental cell\-lines. Intended for use with package KEGGlincs.
 
 
 .. conda:package:: bioconductor-kodata
 
    |downloads_bioconductor-kodata| |docker_bioconductor-kodata|
 
-   :versions: 1.11.0-0, 1.10.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
+   :versions: 1.12.0-0, 1.10.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

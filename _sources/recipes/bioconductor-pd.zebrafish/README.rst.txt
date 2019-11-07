@@ -11,11 +11,11 @@ bioconductor-pd.zebrafish
 
    Platform Design Info for The Manufacturer\'s Name Zebrafish
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.zebrafish.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.zebrafish.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.zebrafish <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.zebrafish>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.zebrafish/meta.yaml>`_
 
-   
+   Platform Design Info for The Manufacturer\'s Name Zebrafish
 
 
 .. conda:package:: bioconductor-pd.zebrafish

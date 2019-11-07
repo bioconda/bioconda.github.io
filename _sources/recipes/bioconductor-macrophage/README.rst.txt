@@ -9,20 +9,20 @@ bioconductor-macrophage
 .. conda:recipe:: bioconductor-macrophage
    :replaces_section_title:
 
-   This package provides the output of running Salmon on a set of 24 RNA\-seq samples from Alasoo\, et al. \"Shared genetic effects on chromatin and gene expression indicate a role for enhancer priming in immune response\"\, published in Nature Genetics\, January 2018. For details on version numbers and how the samples were processed see the package vignette.
+   Human macrophage immune response
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/macrophage.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/macrophage.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-macrophage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macrophage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macrophage/meta.yaml>`_
 
-   
+   This package provides the output of running Salmon on a set of 24 RNA\-seq samples from Alasoo\, et al. \"Shared genetic effects on chromatin and gene expression indicate a role for enhancer priming in immune response\"\, published in Nature Genetics\, January 2018. For details on version numbers and how the samples were processed see the package vignette.
 
 
 .. conda:package:: bioconductor-macrophage
 
    |downloads_bioconductor-macrophage| |docker_bioconductor-macrophage|
 
-   :versions: 1.1.2-0, 1.0.0-1, 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-1, 1.0.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

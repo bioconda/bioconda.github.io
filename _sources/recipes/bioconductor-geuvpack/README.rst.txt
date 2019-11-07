@@ -9,20 +9,20 @@ bioconductor-geuvpack
 .. conda:recipe:: bioconductor-geuvpack
    :replaces_section_title:
 
-   FPKM from GEUVADIS\, annotated to gencode regions
+   summarized experiment with expression data from GEUVADIS
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/geuvPack.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/geuvPack.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-geuvpack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geuvpack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geuvpack/meta.yaml>`_
 
-   
+   FPKM from GEUVADIS\, annotated to gencode regions
 
 
 .. conda:package:: bioconductor-geuvpack
 
    |downloads_bioconductor-geuvpack| |docker_bioconductor-geuvpack|
 
-   :versions: 1.17.0-0, 1.16.0-1, 1.14.0-0
+   :versions: 1.18.0-0, 1.16.0-1, 1.14.0-0
    
    :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends curl: >=7.65.3,<8.0a0

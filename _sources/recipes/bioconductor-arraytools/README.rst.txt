@@ -9,14 +9,14 @@ bioconductor-arraytools
 .. conda:recipe:: bioconductor-arraytools
    :replaces_section_title:
 
-   This package is designed to provide solutions for quality assessment and to detect differentially expressed genes for the Affymetrix GeneChips\, including both 3\' \-arrays and gene 1.0\-ST arrays. The package generates comprehensive analysis reports in HTML format. Hyperlinks on the report page will lead to a series of QC plots\, processed data\, and differentially expressed gene lists. Differentially expressed genes are reported in tabular format with annotations hyperlinked to online biological databases.
+   geneChip Analysis Package
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ArrayTools.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ArrayTools.html
    :license: LGPL (>= 2.0)
    :recipe: /`bioconductor-arraytools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arraytools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arraytools/meta.yaml>`_
    :links: biotools: :biotools:`arraytools`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package is designed to provide solutions for quality assessment and to detect differentially expressed genes for the Affymetrix GeneChips\, including both 3\' \-arrays and gene 1.0\-ST arrays. The package generates comprehensive analysis reports in HTML format. Hyperlinks on the report page will lead to a series of QC plots\, processed data\, and differentially expressed gene lists. Differentially expressed genes are reported in tabular format with annotations hyperlinked to online biological databases.
 
 
 .. conda:package:: bioconductor-arraytools

@@ -9,13 +9,13 @@ bioconductor-survtype
 .. conda:recipe:: bioconductor-survtype
    :replaces_section_title:
 
-   Subtypes are defined as groups of samples that have distinct molecular and clinical features. Genomic data can be analyzed for discovering patient subtypes\, associated with clinical data\, especially for survival information. This package is aimed to identify subtypes that are both clinically relevant and biologically meaningful.
+   Subtype Identification with Survival Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/survtype.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/survtype.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-survtype <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-survtype>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-survtype/meta.yaml>`_
 
-   
+   Subtypes are defined as groups of samples that have distinct molecular and clinical features. Genomic data can be analyzed for discovering patient subtypes\, associated with clinical data\, especially for survival information. This package is aimed to identify subtypes that are both clinically relevant and biologically meaningful.
 
 
 .. conda:package:: bioconductor-survtype

@@ -9,13 +9,13 @@ bioconductor-mousechrloc
 .. conda:recipe:: bioconductor-mousechrloc
    :replaces_section_title:
 
-   Annotation data file for mouseCHRLOC assembled using data from public data repositories
+   A data package containing annotation data for mouseCHRLOC
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mouseCHRLOC.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mouseCHRLOC.html
    :license: The Artistic License, Version 2.0
    :recipe: /`bioconductor-mousechrloc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mousechrloc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mousechrloc/meta.yaml>`_
 
-   
+   Annotation data file for mouseCHRLOC assembled using data from public data repositories
 
 
 .. conda:package:: bioconductor-mousechrloc

@@ -9,13 +9,13 @@ bioconductor-bsgenome.btaurus.ucsc.bostau8
 .. conda:recipe:: bioconductor-bsgenome.btaurus.ucsc.bostau8
    :replaces_section_title:
 
-   Full genome sequences for Bos taurus \(Cow\) as provided by UCSC \(bosTau8\, Jun. 2014\) and stored in Biostrings objects.
+   Full genome sequences for Bos taurus \(UCSC version bosTau8\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Btaurus.UCSC.bosTau8.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Btaurus.UCSC.bosTau8.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.btaurus.ucsc.bostau8 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.btaurus.ucsc.bostau8>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.btaurus.ucsc.bostau8/meta.yaml>`_
 
-   
+   Full genome sequences for Bos taurus \(Cow\) as provided by UCSC \(bosTau8\, Jun. 2014\) and stored in Biostrings objects.
 
 
 .. conda:package:: bioconductor-bsgenome.btaurus.ucsc.bostau8

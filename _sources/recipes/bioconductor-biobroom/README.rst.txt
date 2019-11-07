@@ -9,13 +9,13 @@ bioconductor-biobroom
 .. conda:recipe:: bioconductor-biobroom
    :replaces_section_title:
 
-   This package contains methods for converting standard objects constructed by bioinformatics packages\, especially those in Bioconductor\, and converting them to tidy data. It thus serves as a complement to the broom package\, and follows the same the tidy\, augment\, glance division of tidying methods. Tidying data makes it easy to recombine\, reshape and visualize bioinformatics analyses.
+   Turn Bioconductor objects into tidy data frames
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/biobroom.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/biobroom.html
    :license: LGPL
    :recipe: /`bioconductor-biobroom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biobroom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biobroom/meta.yaml>`_
 
-   
+   This package contains methods for converting standard objects constructed by bioinformatics packages\, especially those in Bioconductor\, and converting them to tidy data. It thus serves as a complement to the broom package\, and follows the same the tidy\, augment\, glance division of tidying methods. Tidying data makes it easy to recombine\, reshape and visualize bioinformatics analyses.
 
 
 .. conda:package:: bioconductor-biobroom

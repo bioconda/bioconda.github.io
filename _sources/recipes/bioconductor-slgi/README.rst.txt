@@ -9,14 +9,14 @@ bioconductor-slgi
 .. conda:recipe:: bioconductor-slgi
    :replaces_section_title:
 
-   A variety of data files and functions for the analysis of genetic interactions
+   Synthetic Lethal Genetic Interaction
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SLGI.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SLGI.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-slgi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slgi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slgi/meta.yaml>`_
    :links: biotools: :biotools:`slgi`, doi: :doi:`10.1186/gb-2008-9-9-r135`
 
-   
+   A variety of data files and functions for the analysis of genetic interactions
 
 
 .. conda:package:: bioconductor-slgi

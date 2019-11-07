@@ -9,13 +9,13 @@ bioconductor-seqvartools
 .. conda:recipe:: bioconductor-seqvartools
    :replaces_section_title:
 
-   An interface to the fast\-access storage format for VCF data provided in SeqArray\, with tools for common operations and analysis.
+   Tools for variant data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SeqVarTools.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SeqVarTools.html
    :license: GPL-3
    :recipe: /`bioconductor-seqvartools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqvartools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqvartools/meta.yaml>`_
 
-   
+   An interface to the fast\-access storage format for VCF data provided in SeqArray\, with tools for common operations and analysis.
 
 
 .. conda:package:: bioconductor-seqvartools

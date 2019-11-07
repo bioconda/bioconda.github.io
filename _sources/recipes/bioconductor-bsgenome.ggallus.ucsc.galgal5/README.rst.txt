@@ -9,13 +9,13 @@ bioconductor-bsgenome.ggallus.ucsc.galgal5
 .. conda:recipe:: bioconductor-bsgenome.ggallus.ucsc.galgal5
    :replaces_section_title:
 
-   Full genome sequences for Gallus gallus \(Chicken\) as provided by UCSC \(galGal5\, Dec. 2015\) and stored in Biostrings objects.
+   Full genome sequences for Gallus gallus \(UCSC version galGal5\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Ggallus.UCSC.galGal5.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Ggallus.UCSC.galGal5.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.ggallus.ucsc.galgal5 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.ggallus.ucsc.galgal5>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.ggallus.ucsc.galgal5/meta.yaml>`_
 
-   
+   Full genome sequences for Gallus gallus \(Chicken\) as provided by UCSC \(galGal5\, Dec. 2015\) and stored in Biostrings objects.
 
 
 .. conda:package:: bioconductor-bsgenome.ggallus.ucsc.galgal5

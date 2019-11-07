@@ -9,13 +9,13 @@ bioconductor-flowmerge
 .. conda:recipe:: bioconductor-flowmerge
    :replaces_section_title:
 
-   Merging of mixture components for model\-based automated gating of flow cytometry data using the flowClust framework. Note\: users should have a working copy of flowClust 2.0 installed.
+   Cluster Merging for Flow Cytometry Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flowMerge.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flowMerge.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowmerge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowmerge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowmerge/meta.yaml>`_
 
-   
+   Merging of mixture components for model\-based automated gating of flow cytometry data using the flowClust framework. Note\: users should have a working copy of flowClust 2.0 installed.
 
 
 .. conda:package:: bioconductor-flowmerge

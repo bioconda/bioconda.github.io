@@ -9,13 +9,13 @@ bioconductor-mlm4omics
 .. conda:recipe:: bioconductor-mlm4omics
    :replaces_section_title:
 
-   To conduct Bayesian inference regression for responses with multilevel explanatory variables and missing values\; It uses function from \'Stan\'\, a software to implement posterior sampling using Hamiltonian MC and its variation Non\-U\-Turn algorithms. It implements the posterior sampling of regression coefficients from the multilevel regression models. The package has two main functions to handle not\-missing\-at\-random missing responses and left\-censored with not\-missing\-at random responses. The purpose is to provide a similar format as the other R regression functions but using \'Stan\' models.
+   Multilevel Model for Multivariate Responses with Missing Values
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/mlm4omics.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/mlm4omics.html
    :license: GPL-3
    :recipe: /`bioconductor-mlm4omics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mlm4omics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mlm4omics/meta.yaml>`_
 
-   
+   To conduct Bayesian inference regression for responses with multilevel explanatory variables and missing values\; It uses function from \'Stan\'\, a software to implement posterior sampling using Hamiltonian MC and its variation Non\-U\-Turn algorithms. It implements the posterior sampling of regression coefficients from the multilevel regression models. The package has two main functions to handle not\-missing\-at\-random missing responses and left\-censored with not\-missing\-at random responses. The purpose is to provide a similar format as the other R regression functions but using \'Stan\' models.
 
 
 .. conda:package:: bioconductor-mlm4omics

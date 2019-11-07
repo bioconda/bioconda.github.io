@@ -9,14 +9,14 @@ bioconductor-inspect
 .. conda:recipe:: bioconductor-inspect
    :replaces_section_title:
 
-   INSPEcT \(INference of Synthesis\, Processing and dEgradation rates from Transcriptomic data\) RNA\-seq data in time\-course experiments or different conditions\, with or without the support of nascent RNA data.
+   Modeling RNA synthesis\, processing and degradation with RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/INSPEcT.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/INSPEcT.html
    :license: GPL-2
    :recipe: /`bioconductor-inspect <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-inspect>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-inspect/meta.yaml>`_
    :links: biotools: :biotools:`inspect`
 
-   
+   INSPEcT \(INference of Synthesis\, Processing and dEgradation rates from Transcriptomic data\) RNA\-seq data in time\-course experiments or steady\-state conditions\, with or without the support of nascent RNA data.
 
 
 .. conda:package:: bioconductor-inspect

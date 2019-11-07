@@ -9,14 +9,14 @@ bioconductor-inpower
 .. conda:recipe:: bioconductor-inpower
    :replaces_section_title:
 
-   An R package for computing the number of susceptibility SNPs and power of future studies
+   An R package for computing the number of susceptibility SNPs
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/INPower.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/INPower.html
    :license: GPL-2 + file LICENSE
    :recipe: /`bioconductor-inpower <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-inpower>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-inpower/meta.yaml>`_
    :links: biotools: :biotools:`inpower`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   An R package for computing the number of susceptibility SNPs and power of future studies
 
 
 .. conda:package:: bioconductor-inpower

@@ -9,13 +9,13 @@ bioconductor-mesh.bfl.eg.db
 .. conda:recipe:: bioconductor-mesh.bfl.eg.db
    :replaces_section_title:
 
-   Entrez Gene ID to MeSH ID table.
+   Mapping table for Branchiostoma floridae Gene ID to MeSH
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/MeSH.Bfl.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/MeSH.Bfl.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.bfl.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.bfl.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.bfl.eg.db/meta.yaml>`_
 
-   
+   Entrez Gene ID to MeSH ID table.
 
 
 .. conda:package:: bioconductor-mesh.bfl.eg.db

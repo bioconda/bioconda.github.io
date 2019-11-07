@@ -9,13 +9,13 @@ bioconductor-hcg110probe
 .. conda:recipe:: bioconductor-hcg110probe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was HC\-G110\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type hcg110
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hcg110probe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hcg110probe.html
    :license: LGPL
    :recipe: /`bioconductor-hcg110probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hcg110probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hcg110probe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was HC\-G110\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-hcg110probe

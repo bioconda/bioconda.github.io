@@ -9,14 +9,14 @@ bioconductor-degreport
 .. conda:recipe:: bioconductor-degreport
    :replaces_section_title:
 
-   Creation of a HTML report of differential expression analyses of count data. It integrates some of the code mentioned in DESeq2 and edgeR vignettes\, and report a ranked list of genes according to the fold changes mean and variability for each selected gene.
+   Report of DEG analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DEGreport.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DEGreport.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-degreport <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-degreport>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-degreport/meta.yaml>`_
    :links: biotools: :biotools:`degreport`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Creation of a HTML report of differential expression analyses of count data. It integrates some of the code mentioned in DESeq2 and edgeR vignettes\, and report a ranked list of genes according to the fold changes mean and variability for each selected gene.
 
 
 .. conda:package:: bioconductor-degreport

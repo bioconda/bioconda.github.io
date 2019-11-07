@@ -9,13 +9,13 @@ bioconductor-gem
 .. conda:recipe:: bioconductor-gem
    :replaces_section_title:
 
-   Tools for analyzing EWAS\, methQTL and GxE genome widely.
+   GEM\: fast association study for the interplay of Gene\, Environment and Methylation
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GEM.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GEM.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gem/meta.yaml>`_
 
-   
+   Tools for analyzing EWAS\, methQTL and GxE genome widely.
 
 
 .. conda:package:: bioconductor-gem

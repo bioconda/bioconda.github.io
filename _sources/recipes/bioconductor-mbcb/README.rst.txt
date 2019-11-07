@@ -9,13 +9,13 @@ bioconductor-mbcb
 .. conda:recipe:: bioconductor-mbcb
    :replaces_section_title:
 
-   This package provides a model\-based background correction method\, which incorporates the negative control beads to pre\-process Illumina BeadArray data.
+   MBCB \(Model\-based Background Correction for Beadarray\)
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MBCB.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MBCB.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mbcb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbcb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbcb/meta.yaml>`_
 
-   
+   This package provides a model\-based background correction method\, which incorporates the negative control beads to pre\-process Illumina BeadArray data.
 
 
 .. conda:package:: bioconductor-mbcb

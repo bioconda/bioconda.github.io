@@ -9,13 +9,13 @@ bioconductor-geneselectmmd
 .. conda:recipe:: bioconductor-geneselectmmd
    :replaces_section_title:
 
-   Gene selection based on a mixture of marginal distributions
+   Gene selection based on the marginal distributions of gene profiles that characterized by a mixture of three\-component multivariate distributions
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GeneSelectMMD.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GeneSelectMMD.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-geneselectmmd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneselectmmd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneselectmmd/meta.yaml>`_
 
-   
+   Gene selection based on a mixture of marginal distributions
 
 
 .. conda:package:: bioconductor-geneselectmmd

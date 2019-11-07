@@ -9,13 +9,13 @@ bioconductor-scone
 .. conda:recipe:: bioconductor-scone
    :replaces_section_title:
 
-   SCONE is an R package for comparing and ranking the performance of different normalization schemes for single\-cell RNA\-seq and other high\-throughput analyses.
+   Single Cell Overview of Normalized Expression data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/scone.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/scone.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-scone <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scone>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scone/meta.yaml>`_
 
-   
+   SCONE is an R package for comparing and ranking the performance of different normalization schemes for single\-cell RNA\-seq and other high\-throughput analyses.
 
 
 .. conda:package:: bioconductor-scone

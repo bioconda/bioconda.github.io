@@ -9,27 +9,27 @@ bioconductor-chipxpress
 .. conda:recipe:: bioconductor-chipxpress
    :replaces_section_title:
 
-   ChIPXpress takes as input predicted TF bound genes from ChIPx data and uses a corresponding database of gene expression profiles downloaded from NCBI GEO to rank the TF bound targets in order of which gene is most likely to be functional TF target.
+   ChIPXpress\: enhanced transcription factor target gene identification from ChIP\-seq and ChIP\-chip data using publicly available gene expression profiles
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ChIPXpress.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ChIPXpress.html
    :license: GPL(>=2)
    :recipe: /`bioconductor-chipxpress <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipxpress>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipxpress/meta.yaml>`_
    :links: biotools: :biotools:`chipxpress`, doi: :doi:`10.1186/1471-2105-14-188`
 
-   
+   ChIPXpress takes as input predicted TF bound genes from ChIPx data and uses a corresponding database of gene expression profiles downloaded from NCBI GEO to rank the TF bound targets in order of which gene is most likely to be functional TF target.
 
 
 .. conda:package:: bioconductor-chipxpress
 
    |downloads_bioconductor-chipxpress| |docker_bioconductor-chipxpress|
 
-   :versions: 1.30.0-0, 1.28.0-1, 1.26.0-0, 1.24.0-0, 1.22.0-0
+   :versions: 1.28.0-1, 1.26.0-0, 1.24.0-0, 1.22.0-0
    
-   :depends bioconductor-affy: >=1.64.0,<1.65.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-chipxpressdata: >=1.23.0,<1.24.0
-   :depends bioconductor-frma: >=1.38.0,<1.39.0
-   :depends bioconductor-geoquery: >=2.54.0,<2.55.0
+   :depends bioconductor-affy: >=1.62.0,<1.63.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-chipxpressdata: >=1.22.0,<1.23.0
+   :depends bioconductor-frma: >=1.36.0,<1.37.0
+   :depends bioconductor-geoquery: >=2.52.0,<2.53.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-biganalytics: 
    :depends r-bigmemory: 

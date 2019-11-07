@@ -9,13 +9,13 @@ bioconductor-hyper
 .. conda:recipe:: bioconductor-hyper
    :replaces_section_title:
 
-   Geneset enrichment analysis based on hyper\-geometric test.
+   Hyper Enrichment
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/hypeR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/hypeR.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-hyper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hyper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hyper/meta.yaml>`_
 
-   
+   An R Package for Geneset Enrichment Workflows.
 
 
 .. conda:package:: bioconductor-hyper

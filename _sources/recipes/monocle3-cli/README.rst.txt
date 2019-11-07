@@ -22,7 +22,7 @@ monocle3-cli
 
    |downloads_monocle3-cli| |docker_monocle3-cli|
 
-   :versions: 0.0.3-1, 0.0.3-0
+   :versions: 0.0.4-0, 0.0.3-1, 0.0.3-0
    
    :depends bioconductor-delayedarray: 
    :depends bioconductor-delayedmatrixstats: 
@@ -50,6 +50,7 @@ monocle3-cli
    :depends r-lmtest: 
    :depends r-matrix: 
    :depends r-matrix.utils: 
+   :depends r-monocle3: >=0.1.2
    :depends r-optparse: 
    :depends r-pbapply: 
    :depends r-pbmcapply: 

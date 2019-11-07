@@ -9,14 +9,14 @@ bioconductor-cve
 .. conda:recipe:: bioconductor-cve
    :replaces_section_title:
 
-   Shiny app for interactive variant prioritisation in precision oncology. The input file for CVE is the output file of the recently released Oncotator Variant Annotation tool summarising variant\-centric information from 14 different publicly available resources relevant for cancer researches. Interactive priortisation in CVE is based on known germline and cancer variants\, DNA repair genes and functional prediction scores. An optional feature of CVE is the exploration of the tumour\-specific pathway context that is facilitated using co\-expression modules generated from publicly available transcriptome data. Finally druggability of prioritised variants is assessed using the Drug Gene Interaction Database \(DGIdb\).
+   Cancer Variant Explorer
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CVE.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CVE.html
    :license: GPL-3
    :recipe: /`bioconductor-cve <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cve>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cve/meta.yaml>`_
    :links: biotools: :biotools:`cve`, doi: :doi:`10.1186/s12920-017-0261-6`
 
-   
+   Shiny app for interactive variant prioritisation in precision oncology. The input file for CVE is the output file of the recently released Oncotator Variant Annotation tool summarising variant\-centric information from 14 different publicly available resources relevant for cancer researches. Interactive priortisation in CVE is based on known germline and cancer variants\, DNA repair genes and functional prediction scores. An optional feature of CVE is the exploration of the tumour\-specific pathway context that is facilitated using co\-expression modules generated from publicly available transcriptome data. Finally druggability of prioritised variants is assessed using the Drug Gene Interaction Database \(DGIdb\).
 
 
 .. conda:package:: bioconductor-cve

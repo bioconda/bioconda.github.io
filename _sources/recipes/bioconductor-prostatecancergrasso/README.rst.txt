@@ -9,20 +9,20 @@ bioconductor-prostatecancergrasso
 .. conda:recipe:: bioconductor-prostatecancergrasso
    :replaces_section_title:
 
-   A Bioconductor data package for the Grasso \(2012\) Prostate Cancer dataset.
+   Prostate Cancer Data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/prostateCancerGrasso.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/prostateCancerGrasso.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-prostatecancergrasso <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prostatecancergrasso>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prostatecancergrasso/meta.yaml>`_
 
-   
+   A Bioconductor data package for the Grasso \(2012\) Prostate Cancer dataset.
 
 
 .. conda:package:: bioconductor-prostatecancergrasso
 
    |downloads_bioconductor-prostatecancergrasso| |docker_bioconductor-prostatecancergrasso|
 
-   :versions: 1.13.0-0, 1.12.0-1, 1.10.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.10.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends curl: >=7.65.3,<8.0a0

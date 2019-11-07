@@ -9,13 +9,13 @@ bioconductor-famagg
 .. conda:recipe:: bioconductor-famagg
    :replaces_section_title:
 
-   Framework providing basic pedigree analysis and plotting utilities as well as a variety of methods to evaluate familial aggregation of traits in large pedigrees.
+   Pedigree Analysis and Familial Aggregation
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/FamAgg.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/FamAgg.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-famagg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-famagg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-famagg/meta.yaml>`_
 
-   
+   Framework providing basic pedigree analysis and plotting utilities as well as a variety of methods to evaluate familial aggregation of traits in large pedigrees.
 
 
 .. conda:package:: bioconductor-famagg

@@ -9,14 +9,14 @@ bioconductor-biseq
 .. conda:recipe:: bioconductor-biseq
    :replaces_section_title:
 
-   The BiSeq package provides useful classes and functions to handle and analyze targeted bisulfite sequencing \(BS\) data such as reduced\-representation bisulfite sequencing \(RRBS\) data. In particular\, it implements an algorithm to detect differentially methylated regions \(DMRs\). The package takes already aligned BS data from one or multiple samples.
+   Processing and analyzing bisulfite sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BiSeq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BiSeq.html
    :license: LGPL-3
    :recipe: /`bioconductor-biseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biseq/meta.yaml>`_
    :links: biotools: :biotools:`biseq`, doi: :doi:`10.1093/bib/bbv095`
 
-   
+   The BiSeq package provides useful classes and functions to handle and analyze targeted bisulfite sequencing \(BS\) data such as reduced\-representation bisulfite sequencing \(RRBS\) data. In particular\, it implements an algorithm to detect differentially methylated regions \(DMRs\). The package takes already aligned BS data from one or multiple samples.
 
 
 .. conda:package:: bioconductor-biseq

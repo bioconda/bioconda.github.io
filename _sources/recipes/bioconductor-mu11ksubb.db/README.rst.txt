@@ -9,13 +9,13 @@ bioconductor-mu11ksubb.db
 .. conda:recipe:: bioconductor-mu11ksubb.db
    :replaces_section_title:
 
-   Affymetrix Murine 11K Set annotation data \(chip mu11ksubb\) assembled using data from public repositories
+   Affymetrix Murine 11K Set annotation data \(chip mu11ksubb\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mu11ksubb.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mu11ksubb.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mu11ksubb.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu11ksubb.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu11ksubb.db/meta.yaml>`_
 
-   
+   Affymetrix Murine 11K Set annotation data \(chip mu11ksubb\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-mu11ksubb.db

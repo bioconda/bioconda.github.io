@@ -9,13 +9,13 @@ bioconductor-pharmacogx
 .. conda:recipe:: bioconductor-pharmacogx
    :replaces_section_title:
 
-   Contains a set of functions to perform large\-scale analysis of pharmacogenomic data.
+   Analysis of Large\-Scale Pharmacogenomic Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PharmacoGx.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PharmacoGx.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pharmacogx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pharmacogx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pharmacogx/meta.yaml>`_
 
-   
+   Contains a set of functions to perform large\-scale analysis of pharmacogenomic data.
 
 
 .. conda:package:: bioconductor-pharmacogx

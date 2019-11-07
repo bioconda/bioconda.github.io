@@ -9,13 +9,13 @@ bioconductor-rdrtoolbox
 .. conda:recipe:: bioconductor-rdrtoolbox
    :replaces_section_title:
 
-   A package for nonlinear dimension reduction using the Isomap and LLE algorithm. It also includes a routine for computing the Davis\-Bouldin\-Index for cluster validation\, a plotting tool and a data generator for microarray gene expression data and for the Swiss Roll dataset.
+   A package for nonlinear dimension reduction with Isomap and LLE.
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RDRToolbox.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RDRToolbox.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-rdrtoolbox <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rdrtoolbox>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rdrtoolbox/meta.yaml>`_
 
-   
+   A package for nonlinear dimension reduction using the Isomap and LLE algorithm. It also includes a routine for computing the Davis\-Bouldin\-Index for cluster validation\, a plotting tool and a data generator for microarray gene expression data and for the Swiss Roll dataset.
 
 
 .. conda:package:: bioconductor-rdrtoolbox

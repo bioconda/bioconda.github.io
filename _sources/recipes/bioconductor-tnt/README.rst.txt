@@ -9,13 +9,13 @@ bioconductor-tnt
 .. conda:recipe:: bioconductor-tnt
    :replaces_section_title:
 
-   A R interface to the TnT javascript library \(https\:\/\/github.com\/ tntvis\) to provide interactive and flexible visualization of track\-based genomic data.
+   Interactive Visualization for Genomic Features
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/TnT.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/TnT.html
    :license: AGPL-3
    :recipe: /`bioconductor-tnt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tnt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tnt/meta.yaml>`_
 
-   
+   A R interface to the TnT javascript library \(https\:\/\/github.com\/ tntvis\) to provide interactive and flexible visualization of track\-based genomic data.
 
 
 .. conda:package:: bioconductor-tnt

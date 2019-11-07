@@ -9,13 +9,13 @@ bioconductor-hsagilentdesign026652.db
 .. conda:recipe:: bioconductor-hsagilentdesign026652.db
    :replaces_section_title:
 
-   Agilent Chips that use Agilent design number 026652 annotation data \(chip HsAgilentDesign026652\) assembled using data from public repositories
+   Agilent Chips that use Agilent design number 026652 annotation data \(chip HsAgilentDesign026652\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/HsAgilentDesign026652.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/HsAgilentDesign026652.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hsagilentdesign026652.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hsagilentdesign026652.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hsagilentdesign026652.db/meta.yaml>`_
 
-   
+   Agilent Chips that use Agilent design number 026652 annotation data \(chip HsAgilentDesign026652\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-hsagilentdesign026652.db

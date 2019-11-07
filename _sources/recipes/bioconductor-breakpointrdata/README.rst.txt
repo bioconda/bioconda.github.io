@@ -9,20 +9,20 @@ bioconductor-breakpointrdata
 .. conda:recipe:: bioconductor-breakpointrdata
    :replaces_section_title:
 
-   Strand\-seq data to demonstrate functionalities of breakpointR package.
+   Strand\-seq data for demonstration purposes
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/breakpointRdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/breakpointRdata.html
    :license: file LICENSE
    :recipe: /`bioconductor-breakpointrdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breakpointrdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breakpointrdata/meta.yaml>`_
 
-   
+   Strand\-seq data to demonstrate functionalities of breakpointR package.
 
 
 .. conda:package:: bioconductor-breakpointrdata
 
    |downloads_bioconductor-breakpointrdata| |docker_bioconductor-breakpointrdata|
 
-   :versions: 1.3.0-0, 1.2.0-1, 1.2.0-0, 1.0.0-0
+   :versions: 1.4.0-0, 1.2.0-1, 1.2.0-0, 1.0.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

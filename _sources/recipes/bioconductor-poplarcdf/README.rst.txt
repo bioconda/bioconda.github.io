@@ -9,13 +9,13 @@ bioconductor-poplarcdf
 .. conda:recipe:: bioconductor-poplarcdf
    :replaces_section_title:
 
-   A package containing an environment representing the Poplar.cdf file.
+   poplarcdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/poplarcdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/poplarcdf.html
    :license: LGPL
    :recipe: /`bioconductor-poplarcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-poplarcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-poplarcdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the Poplar.cdf file.
 
 
 .. conda:package:: bioconductor-poplarcdf

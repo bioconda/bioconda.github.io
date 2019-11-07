@@ -9,22 +9,22 @@ bioconductor-harmonizedtcgadata
 .. conda:recipe:: bioconductor-harmonizedtcgadata
    :replaces_section_title:
 
-   This package contains the processed harmonized TCGA data of five cancer types used in \"Tianle Ma and Aidong Zhang\, Integrate Multi\-omic Data Using Affinity Network Fusion \(ANF\) for Cancer Patient Clustering\".
+   Processed Harmonized TCGA Data of Five Selected Cancer Types
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/HarmonizedTCGAData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/HarmonizedTCGAData.html
    :license: GPL-3
    :recipe: /`bioconductor-harmonizedtcgadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harmonizedtcgadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harmonizedtcgadata/meta.yaml>`_
 
-   
+   This package contains the processed harmonized TCGA data of five cancer types used in \"Tianle Ma and Aidong Zhang\, Integrate Multi\-omic Data Using Affinity Network Fusion \(ANF\) for Cancer Patient Clustering\".
 
 
 .. conda:package:: bioconductor-harmonizedtcgadata
 
    |downloads_bioconductor-harmonizedtcgadata| |docker_bioconductor-harmonizedtcgadata|
 
-   :versions: 1.7.0-0, 1.6.0-1, 1.4.0-0
+   :versions: 1.6.0-1, 1.4.0-0
    
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

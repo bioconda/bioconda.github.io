@@ -9,14 +9,14 @@ bioconductor-pviz
 .. conda:recipe:: bioconductor-pviz
    :replaces_section_title:
 
-   Pviz adapts the Gviz package for protein sequences and data.
+   Peptide Annotation and Data Visualization using Gviz
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Pviz.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Pviz.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pviz/meta.yaml>`_
    :links: biotools: :biotools:`pviz`, doi: :doi:`10.1007/978-1-4939-3037-1_10`
 
-   
+   Pviz adapts the Gviz package for protein sequences and data.
 
 
 .. conda:package:: bioconductor-pviz

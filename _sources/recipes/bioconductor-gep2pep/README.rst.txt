@@ -9,13 +9,13 @@ bioconductor-gep2pep
 .. conda:recipe:: bioconductor-gep2pep
    :replaces_section_title:
 
-   Pathway Expression Profiles \(PEPs\) are based on the expression of pathways \(defined as sets of genes\) as opposed to individual genes. This package converts gene expression profiles to PEPs and performs enrichment analysis of both pathways and experimental conditions\, such as \"drug set enrichment analysis\" and \"gene2drug\" drug discovery analysis respectively.
+   Creation and Analysis of Pathway Expression Profiles \(PEPs\)
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/gep2pep.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/gep2pep.html
    :license: GPL-3
    :recipe: /`bioconductor-gep2pep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gep2pep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gep2pep/meta.yaml>`_
 
-   
+   Pathway Expression Profiles \(PEPs\) are based on the expression of pathways \(defined as sets of genes\) as opposed to individual genes. This package converts gene expression profiles to PEPs and performs enrichment analysis of both pathways and experimental conditions\, such as \"drug set enrichment analysis\" and \"gene2drug\" drug discovery analysis respectively.
 
 
 .. conda:package:: bioconductor-gep2pep

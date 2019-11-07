@@ -11,11 +11,11 @@ bioconductor-pd.rhesus
 
    Platform Design Info for The Manufacturer\'s Name Rhesus
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.rhesus.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.rhesus.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.rhesus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.rhesus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.rhesus/meta.yaml>`_
 
-   
+   Platform Design Info for The Manufacturer\'s Name Rhesus
 
 
 .. conda:package:: bioconductor-pd.rhesus

@@ -9,14 +9,14 @@ bioconductor-pvca
 .. conda:recipe:: bioconductor-pvca
    :replaces_section_title:
 
-   This package contains the function to assess the batch sourcs by fitting all \"sources\" as random effects including two\-way interaction terms in the Mixed Model\(depends on lme4 package\) to selected principal components\, which were obtained from the original data correlation matrix. This package accompanies the book \"Batch Effects and Noise in Microarray Experiements\, chapter 12.
+   Principal Variance Component Analysis \(PVCA\)
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/pvca.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/pvca.html
    :license: LGPL (>= 2.0)
    :recipe: /`bioconductor-pvca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pvca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pvca/meta.yaml>`_
    :links: biotools: :biotools:`pvca`, doi: :doi:`10.1002/9780470685983.ch12`
 
-   
+   This package contains the function to assess the batch sourcs by fitting all \"sources\" as random effects including two\-way interaction terms in the Mixed Model\(depends on lme4 package\) to selected principal components\, which were obtained from the original data correlation matrix. This package accompanies the book \"Batch Effects and Noise in Microarray Experiements\, chapter 12.
 
 
 .. conda:package:: bioconductor-pvca

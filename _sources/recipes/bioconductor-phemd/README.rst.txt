@@ -9,13 +9,13 @@ bioconductor-phemd
 .. conda:recipe:: bioconductor-phemd
    :replaces_section_title:
 
-   Package for comparing and generating a low\-dimensional embedding of multiple single\-cell samples.
+   Phenotypic EMD for comparison of single\-cell samples
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/phemd.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/phemd.html
    :license: GPL-2
    :recipe: /`bioconductor-phemd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phemd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phemd/meta.yaml>`_
 
-   
+   Package for comparing and generating a low\-dimensional embedding of multiple single\-cell samples.
 
 
 .. conda:package:: bioconductor-phemd

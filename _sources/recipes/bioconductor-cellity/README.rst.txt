@@ -9,13 +9,13 @@ bioconductor-cellity
 .. conda:recipe:: bioconductor-cellity
    :replaces_section_title:
 
-   A support vector machine approach to identifying and filtering low quality cells from single\-cell RNA\-seq datasets.
+   Quality Control for Single\-Cell RNA\-seq Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/cellity.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/cellity.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-cellity <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellity>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellity/meta.yaml>`_
 
-   
+   A support vector machine approach to identifying and filtering low quality cells from single\-cell RNA\-seq datasets.
 
 
 .. conda:package:: bioconductor-cellity

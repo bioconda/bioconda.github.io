@@ -9,13 +9,13 @@ bioconductor-bsgenome.celegans.ucsc.ce11
 .. conda:recipe:: bioconductor-bsgenome.celegans.ucsc.ce11
    :replaces_section_title:
 
-   Full genome sequences for Caenorhabditis elegans \(Worm\) as provided by UCSC \(ce11\, Feb. 2013\) and stored in Biostrings objects.
+   Full genome sequences for Caenorhabditis elegans \(UCSC version ce11\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Celegans.UCSC.ce11.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Celegans.UCSC.ce11.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.celegans.ucsc.ce11 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.celegans.ucsc.ce11>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.celegans.ucsc.ce11/meta.yaml>`_
 
-   
+   Full genome sequences for Caenorhabditis elegans \(Worm\) as provided by UCSC \(ce11\, Feb. 2013\) and stored in Biostrings objects.
 
 
 .. conda:package:: bioconductor-bsgenome.celegans.ucsc.ce11

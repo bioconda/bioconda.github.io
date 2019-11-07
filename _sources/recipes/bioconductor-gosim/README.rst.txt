@@ -9,13 +9,13 @@ bioconductor-gosim
 .. conda:recipe:: bioconductor-gosim
    :replaces_section_title:
 
-   This package implements several functions useful for computing similarities between GO terms and gene products based on their GO annotation. Moreover it allows for computing a GO enrichment analysis
+   Computation of functional similarities between GO terms and gene products\; GO enrichment analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GOSim.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GOSim.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-gosim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gosim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gosim/meta.yaml>`_
 
-   
+   This package implements several functions useful for computing similarities between GO terms and gene products based on their GO annotation. Moreover it allows for computing a GO enrichment analysis
 
 
 .. conda:package:: bioconductor-gosim

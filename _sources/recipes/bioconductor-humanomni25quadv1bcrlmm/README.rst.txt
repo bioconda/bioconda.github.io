@@ -9,13 +9,13 @@ bioconductor-humanomni25quadv1bcrlmm
 .. conda:recipe:: bioconductor-humanomni25quadv1bcrlmm
    :replaces_section_title:
 
-   Package with metadata for genotyping Illumina Omni2.5 Quad arrays using the \'crlmm\' package.
+   Metadata for fast genotyping with the \'crlmm\' package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/humanomni25quadv1bCrlmm.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/humanomni25quadv1bCrlmm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-humanomni25quadv1bcrlmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humanomni25quadv1bcrlmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humanomni25quadv1bcrlmm/meta.yaml>`_
 
-   
+   Package with metadata for genotyping Illumina Omni2.5 Quad arrays using the \'crlmm\' package.
 
 
 .. conda:package:: bioconductor-humanomni25quadv1bcrlmm

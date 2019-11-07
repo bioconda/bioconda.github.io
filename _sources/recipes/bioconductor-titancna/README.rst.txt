@@ -9,14 +9,14 @@ bioconductor-titancna
 .. conda:recipe:: bioconductor-titancna
    :replaces_section_title:
 
-   Hidden Markov model to segment and predict regions of subclonal copy number alterations \(CNA\) and loss of heterozygosity \(LOH\)\, and estimate cellular prevalence of clonal clusters in tumour whole genome sequencing data.
+   Subclonal copy number and LOH prediction from whole genome sequencing of tumours
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/TitanCNA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/TitanCNA.html
    :license: GPL-3
    :recipe: /`bioconductor-titancna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-titancna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-titancna/meta.yaml>`_
    :links: biotools: :biotools:`titancna`
 
-   
+   Hidden Markov model to segment and predict regions of subclonal copy number alterations \(CNA\) and loss of heterozygosity \(LOH\)\, and estimate cellular prevalence of clonal clusters in tumour whole genome sequencing data.
 
 
 .. conda:package:: bioconductor-titancna

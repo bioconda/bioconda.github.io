@@ -9,20 +9,20 @@ bioconductor-cardinalworkflows
 .. conda:recipe:: bioconductor-cardinalworkflows
    :replaces_section_title:
 
-   Datasets and workflows for Cardinal\: DESI and MALDI examples including pig fetus\, cardinal painting\, and human RCC.
+   Datasets and workflows for the Cardinal mass spectrometry imaging package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/CardinalWorkflows.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/CardinalWorkflows.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cardinalworkflows <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cardinalworkflows>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cardinalworkflows/meta.yaml>`_
 
-   
+   Datasets and workflows for Cardinal\: DESI and MALDI examples including pig fetus\, cardinal painting\, and human RCC.
 
 
 .. conda:package:: bioconductor-cardinalworkflows
 
    |downloads_bioconductor-cardinalworkflows| |docker_bioconductor-cardinalworkflows|
 
-   :versions: 1.17.1-0, 1.16.0-1, 1.14.0-0
+   :versions: 1.18.0-0, 1.16.0-1, 1.14.0-0
    
    :depends bioconductor-cardinal: >=2.4.0,<2.5.0
    :depends curl: >=7.65.3,<8.0a0

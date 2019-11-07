@@ -9,20 +9,20 @@ bioconductor-somaticcanceralterations
 .. conda:recipe:: bioconductor-somaticcanceralterations
    :replaces_section_title:
 
-   Collection of somatic cancer alteration datasets
+   Somatic Cancer Alterations
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/SomaticCancerAlterations.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/SomaticCancerAlterations.html
    :license: GPL-3
    :recipe: /`bioconductor-somaticcanceralterations <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-somaticcanceralterations>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-somaticcanceralterations/meta.yaml>`_
 
-   
+   Collection of somatic cancer alteration datasets
 
 
 .. conda:package:: bioconductor-somaticcanceralterations
 
    |downloads_bioconductor-somaticcanceralterations| |docker_bioconductor-somaticcanceralterations|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.18.0-0
    
    :depends bioconductor-exomecopy: >=1.32.0,<1.33.0
    :depends bioconductor-genomicranges: >=1.38.0,<1.39.0

@@ -9,13 +9,13 @@ bioconductor-scfeaturefilter
 .. conda:recipe:: bioconductor-scfeaturefilter
    :replaces_section_title:
 
-   An R implementation of the correlation\-based method developed in the Joshi laboratory to analyse and filter processed single\-cell RNAseq data. It returns a filtered version of the data containing only genes expression values unaffected by systematic noise.
+   A correlation\-based method for quality filtering of single\-cell RNAseq data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/scFeatureFilter.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/scFeatureFilter.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-scfeaturefilter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scfeaturefilter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scfeaturefilter/meta.yaml>`_
 
-   
+   An R implementation of the correlation\-based method developed in the Joshi laboratory to analyse and filter processed single\-cell RNAseq data. It returns a filtered version of the data containing only genes expression values unaffected by systematic noise.
 
 
 .. conda:package:: bioconductor-scfeaturefilter

@@ -9,13 +9,13 @@ bioconductor-seqcat
 .. conda:recipe:: bioconductor-seqcat
    :replaces_section_title:
 
-   The seqCAT package uses variant calling data \(in the form of VCF files\) from high throughput sequencing technologies to authenticate and validate the source\, function and characteristics of biological samples used in scientific endeavours.
+   High Throughput Sequencing Cell Authentication Toolkit
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/seqCAT.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/seqCAT.html
    :license: MIT + file LICENCE
    :recipe: /`bioconductor-seqcat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqcat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqcat/meta.yaml>`_
 
-   
+   The seqCAT package uses variant calling data \(in the form of VCF files\) from high throughput sequencing technologies to authenticate and validate the source\, function and characteristics of biological samples used in scientific endeavours.
 
 
 .. conda:package:: bioconductor-seqcat

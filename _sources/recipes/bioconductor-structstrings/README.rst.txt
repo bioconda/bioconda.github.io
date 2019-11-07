@@ -9,13 +9,13 @@ bioconductor-structstrings
 .. conda:recipe:: bioconductor-structstrings
    :replaces_section_title:
 
-   The Structstrings package implements the widely used dot bracket annotation for storing base pairing information in structured RNA. Structstrings uses the infrastructure provided by the Biostrings package and derives the DotBracketString and related classes from the BString class. From these\, base pair tables can be produced for in depth analysis. In addition\, the loop indices of the base pairs can be retrieved as well. For better efficiency\, information conversion is implemented in C\, inspired to a large extend by the ViennaRNA package.
+   Implementation of the dot bracket annotations with Biostrings
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Structstrings.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Structstrings.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-structstrings <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-structstrings>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-structstrings/meta.yaml>`_
 
-   
+   The Structstrings package implements the widely used dot bracket annotation for storing base pairing information in structured RNA. Structstrings uses the infrastructure provided by the Biostrings package and derives the DotBracketString and related classes from the BString class. From these\, base pair tables can be produced for in depth analysis. In addition\, the loop indices of the base pairs can be retrieved as well. For better efficiency\, information conversion is implemented in C\, inspired to a large extend by the ViennaRNA package.
 
 
 .. conda:package:: bioconductor-structstrings

@@ -9,14 +9,14 @@ bioconductor-paircompviz
 .. conda:recipe:: bioconductor-paircompviz
    :replaces_section_title:
 
-   This package provides visualization of the results from the multiple \(i.e. pairwise\) comparison tests such as pairwise.t.test\, pairwise.prop.test or pairwise.wilcox.test. The groups being compared are visualized as nodes in Hasse diagram. Such approach enables very clear and vivid depiction of which group is significantly greater than which others\, especially if comparing a large number of groups.
+   Multiple comparison test visualization
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/paircompviz.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/paircompviz.html
    :license: GPL (>=3.0)
    :recipe: /`bioconductor-paircompviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-paircompviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-paircompviz/meta.yaml>`_
    :links: biotools: :biotools:`paircompviz`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package provides visualization of the results from the multiple \(i.e. pairwise\) comparison tests such as pairwise.t.test\, pairwise.prop.test or pairwise.wilcox.test. The groups being compared are visualized as nodes in Hasse diagram. Such approach enables very clear and vivid depiction of which group is significantly greater than which others\, especially if comparing a large number of groups.
 
 
 .. conda:package:: bioconductor-paircompviz

@@ -9,14 +9,14 @@ bioconductor-affyilm
 .. conda:recipe:: bioconductor-affyilm
    :replaces_section_title:
 
-   affyILM is a preprocessing tool which estimates gene expression levels for Affymetrix Gene Chips. Input from physical chemistry is employed to first background subtract intensities before calculating concentrations on behalf of the Langmuir model.
+   Linear Model of background subtraction and the Langmuir isotherm
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/affyILM.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/affyILM.html
    :license: GPL-3
    :recipe: /`bioconductor-affyilm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyilm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyilm/meta.yaml>`_
    :links: biotools: :biotools:`affyilm`, doi: :doi:`10.1186/1748-7188-4-15`
 
-   
+   affyILM is a preprocessing tool which estimates gene expression levels for Affymetrix Gene Chips. Input from physical chemistry is employed to first background subtract intensities before calculating concentrations on behalf of the Langmuir model.
 
 
 .. conda:package:: bioconductor-affyilm

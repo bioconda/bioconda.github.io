@@ -9,13 +9,13 @@ bioconductor-mcagui
 .. conda:recipe:: bioconductor-mcagui
    :replaces_section_title:
 
-   Microbial community analysis GUI for R using gWidgets.
+   Microbial Community Analysis GUI
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/mcaGUI.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/mcaGUI.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mcagui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcagui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcagui/meta.yaml>`_
 
-   
+   Microbial community analysis GUI for R using gWidgets.
 
 
 .. conda:package:: bioconductor-mcagui

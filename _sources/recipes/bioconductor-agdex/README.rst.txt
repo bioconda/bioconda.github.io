@@ -9,14 +9,14 @@ bioconductor-agdex
 .. conda:recipe:: bioconductor-agdex
    :replaces_section_title:
 
-   A tool to evaluate agreement of differential expression for cross\-species genomics
+   Agreement of Differential Expression Analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/AGDEX.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/AGDEX.html
    :license: GPL Version 2 or later
    :recipe: /`bioconductor-agdex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-agdex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-agdex/meta.yaml>`_
    :links: biotools: :biotools:`agdex`, doi: :doi:`10.1093/bioinformatics/btr362`
 
-   
+   A tool to evaluate agreement of differential expression for cross\-species genomics
 
 
 .. conda:package:: bioconductor-agdex

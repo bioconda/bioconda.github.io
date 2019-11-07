@@ -9,20 +9,20 @@ bioconductor-msstatsbiodata
 .. conda:recipe:: bioconductor-msstatsbiodata
    :replaces_section_title:
 
-   Provides the peak intensity data for detecting differentially abundant proteins in seven published biological investigations.
+   Datasets of published biological studies with DDA or SRM experiments
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/MSstatsBioData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/MSstatsBioData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msstatsbiodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatsbiodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatsbiodata/meta.yaml>`_
 
-   
+   Provides the peak intensity data for detecting differentially abundant proteins in seven published biological investigations.
 
 
 .. conda:package:: bioconductor-msstatsbiodata
 
    |downloads_bioconductor-msstatsbiodata| |docker_bioconductor-msstatsbiodata|
 
-   :versions: 1.7.0-0, 1.6.0-1, 1.6.0-0, 1.4.0-0
+   :versions: 1.8.0-0, 1.6.0-1, 1.6.0-0, 1.4.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

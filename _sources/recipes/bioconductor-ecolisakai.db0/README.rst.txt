@@ -9,13 +9,13 @@ bioconductor-ecolisakai.db0
 .. conda:recipe:: bioconductor-ecolisakai.db0
    :replaces_section_title:
 
-   Base annotation databases for E coli Sakai Strain\, intended ONLY to be used by AnnotationDbi to produce regular annotation packages.
+   Base Level Annotation databases for E coli Sakai Strain
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/ecoliSakai.db0.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/ecoliSakai.db0.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ecolisakai.db0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecolisakai.db0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecolisakai.db0/meta.yaml>`_
 
-   
+   Base annotation databases for E coli Sakai Strain\, intended ONLY to be used by AnnotationDbi to produce regular annotation packages.
 
 
 .. conda:package:: bioconductor-ecolisakai.db0

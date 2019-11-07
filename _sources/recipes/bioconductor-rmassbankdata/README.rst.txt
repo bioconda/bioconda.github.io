@@ -9,20 +9,20 @@ bioconductor-rmassbankdata
 .. conda:recipe:: bioconductor-rmassbankdata
    :replaces_section_title:
 
-   Example spectra\, example compound list\(s\) and an example annotation list for a narcotics dataset\; required to test RMassBank. The package is described in the man page for RMassBankData. Includes new XCMS test data.
+   Test dataset for RMassBank
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RMassBankData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RMassBankData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rmassbankdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmassbankdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmassbankdata/meta.yaml>`_
 
-   
+   Example spectra\, example compound list\(s\) and an example annotation list for a narcotics dataset\; required to test RMassBank. The package is described in the man page for RMassBankData. Includes new XCMS test data.
 
 
 .. conda:package:: bioconductor-rmassbankdata
 
    |downloads_bioconductor-rmassbankdata| |docker_bioconductor-rmassbankdata|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

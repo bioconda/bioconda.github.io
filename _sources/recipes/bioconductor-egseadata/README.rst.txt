@@ -9,20 +9,20 @@ bioconductor-egseadata
 .. conda:recipe:: bioconductor-egseadata
    :replaces_section_title:
 
-   This package includes gene set collections that are used for the Ensemble of Gene Set Enrichment Analyses \(EGSEA\) method for gene set testing. It includes Human and Mouse versions of the MSidDB \(Subramanian\, et al. \(2005\) PNAS\, 102\(43\)\:15545\-15550\) and GeneSetDB \(Araki\, et al. \(2012\) FEBS Open Bio\, 2\:76\-82\) collections.
+   Gene set collections for the EGSEA package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/EGSEAdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/EGSEAdata.html
    :license: file LICENSE
    :recipe: /`bioconductor-egseadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-egseadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-egseadata/meta.yaml>`_
 
-   
+   This package includes gene set collections that are used for the Ensemble of Gene Set Enrichment Analyses \(EGSEA\) method for gene set testing. It includes Human and Mouse versions of the MSidDB \(Subramanian\, et al. \(2005\) PNAS\, 102\(43\)\:15545\-15550\) and GeneSetDB \(Araki\, et al. \(2012\) FEBS Open Bio\, 2\:76\-82\) collections.
 
 
 .. conda:package:: bioconductor-egseadata
 
    |downloads_bioconductor-egseadata| |docker_bioconductor-egseadata|
 
-   :versions: 1.13.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.6.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.6.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

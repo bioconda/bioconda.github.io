@@ -9,13 +9,13 @@ bioconductor-apeglm
 .. conda:recipe:: bioconductor-apeglm
    :replaces_section_title:
 
-   apeglm provides Bayesian shrinkage estimators for effect sizes for a variety of GLM models\, using approximation of the posterior for individual coefficients.
+   Approximate posterior estimation for GLM coefficients
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/apeglm.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/apeglm.html
    :license: GPL-2
    :recipe: /`bioconductor-apeglm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-apeglm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-apeglm/meta.yaml>`_
 
-   
+   apeglm provides Bayesian shrinkage estimators for effect sizes for a variety of GLM models\, using approximation of the posterior for individual coefficients.
 
 
 .. conda:package:: bioconductor-apeglm

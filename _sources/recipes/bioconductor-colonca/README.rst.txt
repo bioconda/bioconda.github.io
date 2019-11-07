@@ -11,18 +11,18 @@ bioconductor-colonca
 
    exprSet for Alon et al. \(1999\) colon cancer data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/colonCA.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/colonCA.html
    :license: LGPL
    :recipe: /`bioconductor-colonca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-colonca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-colonca/meta.yaml>`_
 
-   
+   exprSet for Alon et al. \(1999\) colon cancer data
 
 
 .. conda:package:: bioconductor-colonca
 
    |downloads_bioconductor-colonca| |docker_bioconductor-colonca|
 
-   :versions: 1.27.0-0, 1.26.0-1, 1.24.0-0
+   :versions: 1.28.0-0, 1.26.0-1, 1.24.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends curl: >=7.65.3,<8.0a0

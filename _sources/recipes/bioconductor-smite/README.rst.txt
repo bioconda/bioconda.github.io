@@ -9,26 +9,26 @@ bioconductor-smite
 .. conda:recipe:: bioconductor-smite
    :replaces_section_title:
 
-   This package builds on the Epimods framework which facilitates finding weighted subnetworks \(\"modules\"\) on Illumina Infinium 27k arrays using the SpinGlass algorithm\, as implemented in the iGraph package. We have created a class of gene centric annotations associated with p\-values and effect sizes and scores from any researchers prior statistical results to find functional modules.
+   Significance\-based Modules Integrating the Transcriptome and Epigenome
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SMITE.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SMITE.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-smite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-smite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-smite/meta.yaml>`_
    :links: biotools: :biotools:`smite`, doi: :doi:`10.1186/s12859-017-1477-3`
 
-   
+   This package builds on the Epimods framework which facilitates finding weighted subnetworks \(\"modules\"\) on Illumina Infinium 27k arrays using the SpinGlass algorithm\, as implemented in the iGraph package. We have created a class of gene centric annotations associated with p\-values and effect sizes and scores from any researchers prior statistical results to find functional modules.
 
 
 .. conda:package:: bioconductor-smite
 
    |downloads_bioconductor-smite| |docker_bioconductor-smite|
 
-   :versions: 1.14.0-0, 1.12.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   :versions: 1.14.0-1, 1.12.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0
    
    :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends bioconductor-bionet: >=1.46.0,<1.47.0
-   :depends bioconductor-genelendatabase: >=1.21.0,<1.22.0
+   :depends bioconductor-genelendatabase: >=1.22.0,<1.23.0
    :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
    :depends bioconductor-goseq: >=1.38.0,<1.39.0
    :depends bioconductor-iranges: >=2.20.0,<2.21.0

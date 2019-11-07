@@ -9,13 +9,13 @@ bioconductor-sampleclassifier
 .. conda:recipe:: bioconductor-sampleclassifier
    :replaces_section_title:
 
-   The package is designed to classify gene expression profiles.
+   Sample Classifier
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/sampleClassifier.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/sampleClassifier.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sampleclassifier <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sampleclassifier>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sampleclassifier/meta.yaml>`_
 
-   
+   The package is designed to classify gene expression profiles.
 
 
 .. conda:package:: bioconductor-sampleclassifier

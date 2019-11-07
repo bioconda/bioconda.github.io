@@ -9,13 +9,13 @@ bioconductor-chipexoqual
 .. conda:recipe:: bioconductor-chipexoqual
    :replaces_section_title:
 
-   Package with a quality control pipeline for ChIP\-exo\/nexus data.
+   ChIPexoQual
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ChIPexoQual.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ChIPexoQual.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-chipexoqual <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipexoqual>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipexoqual/meta.yaml>`_
 
-   
+   Package with a quality control pipeline for ChIP\-exo\/nexus data.
 
 
 .. conda:package:: bioconductor-chipexoqual

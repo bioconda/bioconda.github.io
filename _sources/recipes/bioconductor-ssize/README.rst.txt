@@ -9,14 +9,14 @@ bioconductor-ssize
 .. conda:recipe:: bioconductor-ssize
    :replaces_section_title:
 
-   Functions for computing and displaying sample size information for gene expression arrays.
+   Estimate Microarray Sample Size
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ssize.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ssize.html
    :license: LGPL
    :recipe: /`bioconductor-ssize <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ssize>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ssize/meta.yaml>`_
    :links: biotools: :biotools:`ssize`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Functions for computing and displaying sample size information for gene expression arrays.
 
 
 .. conda:package:: bioconductor-ssize

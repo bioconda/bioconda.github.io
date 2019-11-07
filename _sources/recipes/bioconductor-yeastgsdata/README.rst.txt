@@ -9,20 +9,20 @@ bioconductor-yeastgsdata
 .. conda:recipe:: bioconductor-yeastgsdata
    :replaces_section_title:
 
-   A collection of so\-called gold \(and other\) standard data sets
+   Yeast Gold Standard Data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/yeastGSData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/yeastGSData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-yeastgsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastgsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastgsdata/meta.yaml>`_
 
-   
+   A collection of so\-called gold \(and other\) standard data sets
 
 
 .. conda:package:: bioconductor-yeastgsdata
 
    |downloads_bioconductor-yeastgsdata| |docker_bioconductor-yeastgsdata|
 
-   :versions: 0.23.0-0, 0.22.0-1, 0.22.0-0, 0.20.0-0
+   :versions: 0.24.0-0, 0.22.0-1, 0.22.0-0, 0.20.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

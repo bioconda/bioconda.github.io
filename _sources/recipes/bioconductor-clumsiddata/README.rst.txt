@@ -9,20 +9,20 @@ bioconductor-clumsiddata
 .. conda:recipe:: bioconductor-clumsiddata
    :replaces_section_title:
 
-   This package contains various LC\-MS\/MS and GC\-MS data that is used in vignettes and examples in the CluMSID package.
+   Data for the CluMSID package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/CluMSIDdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/CluMSIDdata.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-clumsiddata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clumsiddata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clumsiddata/meta.yaml>`_
 
-   
+   This package contains various LC\-MS\/MS and GC\-MS data that is used in vignettes and examples in the CluMSID package.
 
 
 .. conda:package:: bioconductor-clumsiddata
 
    |downloads_bioconductor-clumsiddata| |docker_bioconductor-clumsiddata|
 
-   :versions: 1.1.0-0, 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

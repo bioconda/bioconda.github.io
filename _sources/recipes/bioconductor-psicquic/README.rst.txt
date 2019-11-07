@@ -9,14 +9,14 @@ bioconductor-psicquic
 .. conda:recipe:: bioconductor-psicquic
    :replaces_section_title:
 
-   PSICQUIC is a project within the HUPO Proteomics Standard Initiative \(HUPO\-PSI\).  It standardises programmatic access to molecular interaction databases.
+   Proteomics Standard Initiative Common QUery InterfaCe
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PSICQUIC.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PSICQUIC.html
    :license: Apache License 2.0
    :recipe: /`bioconductor-psicquic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-psicquic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-psicquic/meta.yaml>`_
    :links: biotools: :biotools:`psicquic`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   PSICQUIC is a project within the HUPO Proteomics Standard Initiative \(HUPO\-PSI\).  It standardises programmatic access to molecular interaction databases.
 
 
 .. conda:package:: bioconductor-psicquic

@@ -9,14 +9,14 @@ bioconductor-splots
 .. conda:recipe:: bioconductor-splots
    :replaces_section_title:
 
-   The splots package provides the plotScreen function for visualising data in microtitre plate or slide format.
+   Visualization of high\-throughput assays in microtitre plate or slide format
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/splots.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/splots.html
    :license: LGPL
    :recipe: /`bioconductor-splots <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splots>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splots/meta.yaml>`_
    :links: biotools: :biotools:`splots`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   The splots package provides the plotScreen function for visualising data in microtitre plate or slide format.
 
 
 .. conda:package:: bioconductor-splots

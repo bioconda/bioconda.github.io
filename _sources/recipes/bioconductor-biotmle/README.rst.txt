@@ -9,13 +9,13 @@ bioconductor-biotmle
 .. conda:recipe:: bioconductor-biotmle
    :replaces_section_title:
 
-   This package facilitates the discovery of biomarkers from biological sequencing data \(e.g.\, microarrays\, RNA\-seq\) based on the associations of potential biomarkers with exposure and outcome variables by implementing an estimation procedure that combines a generalization of moderated statistics with targeted minimum loss\-based estimates \(TMLE\) of causal parameters \(e.g.\, Average Treatment Effect\) whose estimators admit asymptotically linear representations \(in terms of influence functions\).
+   Targeted Learning with Moderated Statistics for Biomarker Discovery
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/biotmle.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/biotmle.html
    :license: file LICENSE
    :recipe: /`bioconductor-biotmle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biotmle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biotmle/meta.yaml>`_
 
-   
+   This package facilitates the discovery of biomarkers from biological sequencing data \(e.g.\, microarrays\, RNA\-seq\) based on the associations of potential biomarkers with exposure variables by implementing an inferential procedure that combines a generalization of moderated statistics with targeted minimum loss estimates of the average treatment effect whose estimator admits an asymptotically linear representations \(in terms of an efficient influence function\).
 
 
 .. conda:package:: bioconductor-biotmle

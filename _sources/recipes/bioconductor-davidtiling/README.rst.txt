@@ -9,20 +9,20 @@ bioconductor-davidtiling
 .. conda:recipe:: bioconductor-davidtiling
    :replaces_section_title:
 
-   This package contains the data for the paper by L. David et al. in PNAS 2006 \(PMID 16569694\)\: 8 CEL files of Affymetrix genechips\, an ExpressionSet object with the raw feature data\, a probe annotation data structure for the chip and the yeast genome annotation \(GFF file\) that was used. In addition\, some custom\-written analysis functions are provided\, as well as R scripts in the scripts directory.
+   Data and analysis scripts for David\, Huber et al. yeast tiling array paper
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/davidTiling.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/davidTiling.html
    :license: LGPL
    :recipe: /`bioconductor-davidtiling <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-davidtiling>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-davidtiling/meta.yaml>`_
 
-   
+   This package contains the data for the paper by L. David et al. in PNAS 2006 \(PMID 16569694\)\: 8 CEL files of Affymetrix genechips\, an ExpressionSet object with the raw feature data\, a probe annotation data structure for the chip and the yeast genome annotation \(GFF file\) that was used. In addition\, some custom\-written analysis functions are provided\, as well as R scripts in the scripts directory.
 
 
 .. conda:package:: bioconductor-davidtiling
 
    |downloads_bioconductor-davidtiling| |docker_bioconductor-davidtiling|
 
-   :versions: 1.25.0-0, 1.24.0-1, 1.22.0-0
+   :versions: 1.26.0-0, 1.24.0-1, 1.22.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends bioconductor-go.db: >=3.10.0,<3.11.0

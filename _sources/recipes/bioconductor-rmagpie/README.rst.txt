@@ -9,13 +9,13 @@ bioconductor-rmagpie
 .. conda:recipe:: bioconductor-rmagpie
    :replaces_section_title:
 
-   Microarray Classification is designed for both biologists and statisticians. It offers the ability to train a classifier on a labelled microarray dataset and to then use that classifier to predict the class of new observations. A range of modern classifiers are available\, including support vector machines \(SVMs\)\, nearest shrunken centroids \(NSCs\)... Advanced methods are provided to estimate the predictive error rate and to report the subset of genes which appear essential in discriminating between classes.
+   MicroArray Gene\-expression\-based Program In Error rate estimation
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Rmagpie.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Rmagpie.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-rmagpie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmagpie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmagpie/meta.yaml>`_
 
-   
+   Microarray Classification is designed for both biologists and statisticians. It offers the ability to train a classifier on a labelled microarray dataset and to then use that classifier to predict the class of new observations. A range of modern classifiers are available\, including support vector machines \(SVMs\)\, nearest shrunken centroids \(NSCs\)... Advanced methods are provided to estimate the predictive error rate and to report the subset of genes which appear essential in discriminating between classes.
 
 
 .. conda:package:: bioconductor-rmagpie

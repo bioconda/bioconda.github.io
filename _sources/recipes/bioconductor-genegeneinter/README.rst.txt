@@ -9,13 +9,13 @@ bioconductor-genegeneinter
 .. conda:recipe:: bioconductor-genegeneinter
    :replaces_section_title:
 
-   The aim of this package is to propose several methods for testing gene\-gene interaction in case\-control association studies. Such a test can be done by aggregating SNP\-SNP interaction tests performed at the SNP level \(SSI\) or by using gene\-gene multidimensionnal methods \(GGI\) methods. The package also proposes tools for a graphic display of the results.
+   Tools for Testing Gene\-Gene Interaction at the Gene Level
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GeneGeneInteR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GeneGeneInteR.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-genegeneinter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genegeneinter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genegeneinter/meta.yaml>`_
 
-   
+   The aim of this package is to propose several methods for testing gene\-gene interaction in case\-control association studies. Such a test can be done by aggregating SNP\-SNP interaction tests performed at the SNP level \(SSI\) or by using gene\-gene multidimensionnal methods \(GGI\) methods. The package also proposes tools for a graphic display of the results.
 
 
 .. conda:package:: bioconductor-genegeneinter

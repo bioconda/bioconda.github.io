@@ -9,13 +9,13 @@ bioconductor-diffcyt
 .. conda:recipe:: bioconductor-diffcyt
    :replaces_section_title:
 
-   Statistical methods for differential discovery analyses in high\-dimensional cytometry data \(including flow cytometry\, mass cytometry or CyTOF\, and oligonucleotide\-tagged cytometry\)\, based on a combination of high\-resolution clustering and empirical Bayes moderated tests adapted from transcriptomics.
+   Differential discovery in high\-dimensional cytometry via high\-resolution clustering
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/diffcyt.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/diffcyt.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-diffcyt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffcyt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffcyt/meta.yaml>`_
 
-   
+   Statistical methods for differential discovery analyses in high\-dimensional cytometry data \(including flow cytometry\, mass cytometry or CyTOF\, and oligonucleotide\-tagged cytometry\)\, based on a combination of high\-resolution clustering and empirical Bayes moderated tests adapted from transcriptomics.
 
 
 .. conda:package:: bioconductor-diffcyt

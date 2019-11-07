@@ -9,13 +9,13 @@ bioconductor-gaggle
 .. conda:recipe:: bioconductor-gaggle
    :replaces_section_title:
 
-   This package contains functions enabling data exchange between R and Gaggle enabled bioinformatics software\, including Cytoscape\, Firegoose and Gaggle Genome Browser.
+   Broadcast data between R and Gaggle
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/gaggle.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/gaggle.html
    :license: GPL version 2 or newer
    :recipe: /`bioconductor-gaggle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaggle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaggle/meta.yaml>`_
 
-   
+   This package contains functions enabling data exchange between R and Gaggle enabled bioinformatics software\, including Cytoscape\, Firegoose and Gaggle Genome Browser.
 
 
 .. conda:package:: bioconductor-gaggle

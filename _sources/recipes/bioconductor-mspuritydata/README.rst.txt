@@ -11,18 +11,18 @@ bioconductor-mspuritydata
 
    Fragmentation spectral libraries and data to test the msPurity package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/msPurityData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/msPurityData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mspuritydata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mspuritydata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mspuritydata/meta.yaml>`_
 
-   
+   Fragmentation spectral libraries and data to test the msPurity package
 
 
 .. conda:package:: bioconductor-mspuritydata
 
    |downloads_bioconductor-mspuritydata| |docker_bioconductor-mspuritydata|
 
-   :versions: 1.13.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.8.0-0
+   :versions: 1.12.0-1, 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.8.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

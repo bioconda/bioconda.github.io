@@ -9,13 +9,13 @@ bioconductor-ecolicdf
 .. conda:recipe:: bioconductor-ecolicdf
    :replaces_section_title:
 
-   A package containing an environment representing the Ecoli.CDF file.
+   ecolicdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/ecolicdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/ecolicdf.html
    :license: LGPL
    :recipe: /`bioconductor-ecolicdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecolicdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecolicdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the Ecoli.CDF file.
 
 
 .. conda:package:: bioconductor-ecolicdf

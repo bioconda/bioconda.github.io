@@ -9,20 +9,20 @@ bioconductor-rnaseqsamplesizedata
 .. conda:recipe:: bioconductor-rnaseqsamplesizedata
    :replaces_section_title:
 
-   RnaSeqSampleSizeData package provides the read counts and dispersion distribution from real RNA\-seq experiments. It can be used by RnaSeqSampleSize package to estimate sample size and power for RNA\-seq experiment design.
+   RnaSeqSampleSizeData
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RnaSeqSampleSizeData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RnaSeqSampleSizeData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-rnaseqsamplesizedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqsamplesizedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqsamplesizedata/meta.yaml>`_
 
-   
+   RnaSeqSampleSizeData package provides the read counts and dispersion distribution from real RNA\-seq experiments. It can be used by RnaSeqSampleSize package to estimate sample size and power for RNA\-seq experiment design.
 
 
 .. conda:package:: bioconductor-rnaseqsamplesizedata
 
    |downloads_bioconductor-rnaseqsamplesizedata| |docker_bioconductor-rnaseqsamplesizedata|
 
-   :versions: 1.17.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-1
+   :versions: 1.18.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-1
    
    :depends bioconductor-edger: >=3.28.0,<3.29.0
    :depends curl: >=7.65.3,<8.0a0

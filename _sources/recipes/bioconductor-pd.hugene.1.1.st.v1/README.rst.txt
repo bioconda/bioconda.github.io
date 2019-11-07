@@ -11,11 +11,11 @@ bioconductor-pd.hugene.1.1.st.v1
 
    Platform Design Info for Affymetrix HuGene\-1\_1\-st\-v1
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.hugene.1.1.st.v1.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.hugene.1.1.st.v1.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.hugene.1.1.st.v1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.hugene.1.1.st.v1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.hugene.1.1.st.v1/meta.yaml>`_
 
-   
+   Platform Design Info for Affymetrix HuGene\-1\_1\-st\-v1
 
 
 .. conda:package:: bioconductor-pd.hugene.1.1.st.v1

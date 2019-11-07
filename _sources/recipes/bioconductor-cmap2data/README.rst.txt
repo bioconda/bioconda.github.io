@@ -9,20 +9,20 @@ bioconductor-cmap2data
 .. conda:recipe:: bioconductor-cmap2data
    :replaces_section_title:
 
-   Data package which provides default drug profiles for the DrugVsDisease package as well as associated gene lists and data clusters used by the DrugVsDisease package.
+   Connectivity Map \(version 2\) Data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/cMap2data.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/cMap2data.html
    :license: GPL-3
    :recipe: /`bioconductor-cmap2data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cmap2data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cmap2data/meta.yaml>`_
 
-   
+   Data package which provides default drug profiles for the DrugVsDisease package as well as associated gene lists and data clusters used by the DrugVsDisease package.
 
 
 .. conda:package:: bioconductor-cmap2data
 
    |downloads_bioconductor-cmap2data| |docker_bioconductor-cmap2data|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

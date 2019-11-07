@@ -9,13 +9,13 @@ bioconductor-rhesusprobe
 .. conda:recipe:: bioconductor-rhesusprobe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Rhesus\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type rhesus
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/rhesusprobe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/rhesusprobe.html
    :license: LGPL
    :recipe: /`bioconductor-rhesusprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhesusprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhesusprobe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Rhesus\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-rhesusprobe

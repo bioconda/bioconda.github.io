@@ -9,14 +9,14 @@ bioconductor-seqgsea
 .. conda:recipe:: bioconductor-seqgsea
    :replaces_section_title:
 
-   The package generally provides methods for gene set enrichment analysis of high\-throughput RNA\-Seq data by integrating differential expression and splicing. It uses negative binomial distribution to model read count data\, which accounts for sequencing biases and biological variation. Based on permutation tests\, statistical significance can also be achieved regarding each gene\'s differential expression and splicing\, respectively.
+   Gene Set Enrichment Analysis \(GSEA\) of RNA\-Seq Data\: integrating differential expression and splicing
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SeqGSEA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SeqGSEA.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-seqgsea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqgsea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqgsea/meta.yaml>`_
    :links: biotools: :biotools:`seqgsea`
 
-   
+   The package generally provides methods for gene set enrichment analysis of high\-throughput RNA\-Seq data by integrating differential expression and splicing. It uses negative binomial distribution to model read count data\, which accounts for sequencing biases and biological variation. Based on permutation tests\, statistical significance can also be achieved regarding each gene\'s differential expression and splicing\, respectively.
 
 
 .. conda:package:: bioconductor-seqgsea

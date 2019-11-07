@@ -9,13 +9,13 @@ bioconductor-r3cpet
 .. conda:recipe:: bioconductor-r3cpet
    :replaces_section_title:
 
-   The package provides a method to infer the set of proteins that are more probably to work together to maintain chormatin interaction given a ChIA\-PET experiment results.
+   3CPET\: Finding Co\-factor Complexes in Chia\-PET experiment using a Hierarchical Dirichlet Process
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/R3CPET.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/R3CPET.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-r3cpet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r3cpet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r3cpet/meta.yaml>`_
 
-   
+   The package provides a method to infer the set of proteins that are more probably to work together to maintain chormatin interaction given a ChIA\-PET experiment results.
 
 
 .. conda:package:: bioconductor-r3cpet

@@ -9,13 +9,13 @@ bioconductor-anamir
 .. conda:recipe:: bioconductor-anamir
    :replaces_section_title:
 
-   This package is intended to identify potential interactions of miRNA\-target gene interactions from miRNA and mRNA expression data. It contains functions for statistical test\, databases of miRNA\-target gene interaction and functional analysis.
+   An integrated analysis package of miRNA and mRNA expression data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/anamiR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/anamiR.html
    :license: GPL-2
    :recipe: /`bioconductor-anamir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anamir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anamir/meta.yaml>`_
 
-   
+   This package is intended to identify potential interactions of miRNA\-target gene interactions from miRNA and mRNA expression data. It contains functions for statistical test\, databases of miRNA\-target gene interaction and functional analysis.
 
 
 .. conda:package:: bioconductor-anamir

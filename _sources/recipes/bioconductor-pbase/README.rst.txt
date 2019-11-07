@@ -9,14 +9,14 @@ bioconductor-pbase
 .. conda:recipe:: bioconductor-pbase
    :replaces_section_title:
 
-   A set of classes and functions to investigate and understand protein sequence data in the context of a proteomics experiment.
+   Manipulating and exploring protein and proteomics data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Pbase.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Pbase.html
    :license: GPL-3
    :recipe: /`bioconductor-pbase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pbase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pbase/meta.yaml>`_
    :links: biotools: :biotools:`pbase`, doi: :doi:`10.1002/pmic.201400392`
 
-   
+   A set of classes and functions to investigate and understand protein sequence data in the context of a proteomics experiment.
 
 
 .. conda:package:: bioconductor-pbase

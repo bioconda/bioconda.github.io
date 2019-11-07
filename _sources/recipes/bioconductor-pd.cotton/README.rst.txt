@@ -11,11 +11,11 @@ bioconductor-pd.cotton
 
    Platform Design Info for The Manufacturer\'s Name Cotton
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.cotton.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.cotton.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.cotton <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.cotton>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.cotton/meta.yaml>`_
 
-   
+   Platform Design Info for The Manufacturer\'s Name Cotton
 
 
 .. conda:package:: bioconductor-pd.cotton

@@ -9,13 +9,13 @@ bioconductor-mgu74bv2probe
 .. conda:recipe:: bioconductor-mgu74bv2probe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was MG\-U74Bv2\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type mgu74bv2
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mgu74bv2probe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mgu74bv2probe.html
    :license: LGPL
    :recipe: /`bioconductor-mgu74bv2probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgu74bv2probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgu74bv2probe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was MG\-U74Bv2\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-mgu74bv2probe

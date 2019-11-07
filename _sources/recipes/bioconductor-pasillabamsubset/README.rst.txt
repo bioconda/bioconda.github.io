@@ -9,20 +9,20 @@ bioconductor-pasillabamsubset
 .. conda:recipe:: bioconductor-pasillabamsubset
    :replaces_section_title:
 
-   Subset of BAM files untreated1.bam \(single\-end reads\) and untreated3.bam \(paired\-end reads\) from \"Pasilla\" experiment \(Pasilla knock\-down by Brooks et al.\, Genome Research 2011\). See the vignette in the pasilla data package for how BAM files untreated1.bam and untreated3.bam were obtained from the RNA\-Seq read sequence data that is provided by NCBI Gene Expression Omnibus under accession numbers GSM461176 to GSM461181.  Also contains the DNA sequence for fly chromosome 4 to which the reads can be mapped.
+   Subset of BAM files from \"Pasilla\" experiment
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/pasillaBamSubset.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/pasillaBamSubset.html
    :license: LGPL
    :recipe: /`bioconductor-pasillabamsubset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pasillabamsubset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pasillabamsubset/meta.yaml>`_
 
-   
+   Subset of BAM files untreated1.bam \(single\-end reads\) and untreated3.bam \(paired\-end reads\) from \"Pasilla\" experiment \(Pasilla knock\-down by Brooks et al.\, Genome Research 2011\). See the vignette in the pasilla data package for how BAM files untreated1.bam and untreated3.bam were obtained from the RNA\-Seq read sequence data that is provided by NCBI Gene Expression Omnibus under accession numbers GSM461176 to GSM461181.  Also contains the DNA sequence for fly chromosome 4 to which the reads can be mapped.
 
 
 .. conda:package:: bioconductor-pasillabamsubset
 
    |downloads_bioconductor-pasillabamsubset| |docker_bioconductor-pasillabamsubset|
 
-   :versions: 0.23.0-0, 0.22.0-1, 0.22.0-0, 0.20.0-0
+   :versions: 0.24.0-0, 0.22.0-1, 0.22.0-0, 0.20.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

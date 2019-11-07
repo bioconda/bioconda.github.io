@@ -9,13 +9,13 @@ bioconductor-flowtrans
 .. conda:recipe:: bioconductor-flowtrans
    :replaces_section_title:
 
-   Profile maximum likelihood estimation of parameters for flow cytometry data transformations.
+   Parameter Optimization for Flow Cytometry Data Transformation
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flowTrans.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flowTrans.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowtrans <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowtrans>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowtrans/meta.yaml>`_
 
-   
+   Profile maximum likelihood estimation of parameters for flow cytometry data transformations.
 
 
 .. conda:package:: bioconductor-flowtrans

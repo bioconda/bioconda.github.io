@@ -9,14 +9,14 @@ bioconductor-les
 .. conda:recipe:: bioconductor-les
    :replaces_section_title:
 
-   The \'les\' package estimates Loci of Enhanced Significance \(LES\) in tiling microarray data. These are regions of regulation such as found in differential transcription\, CHiP\-chip\, or DNA modification analysis. The package provides a universal framework suitable for identifying differential effects in tiling microarray data sets\, and is independent of the underlying statistics at the level of single probes.
+   Identifying Differential Effects in Tiling Microarray Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/les.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/les.html
    :license: GPL-3
    :recipe: /`bioconductor-les <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-les>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-les/meta.yaml>`_
    :links: biotools: :biotools:`les`, doi: :doi:`10.1089/cmb.2008.0226`
 
-   
+   The \'les\' package estimates Loci of Enhanced Significance \(LES\) in tiling microarray data. These are regions of regulation such as found in differential transcription\, CHiP\-chip\, or DNA modification analysis. The package provides a universal framework suitable for identifying differential effects in tiling microarray data sets\, and is independent of the underlying statistics at the level of single probes.
 
 
 .. conda:package:: bioconductor-les

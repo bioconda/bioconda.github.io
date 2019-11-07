@@ -9,13 +9,13 @@ bioconductor-lapointe.db
 .. conda:recipe:: bioconductor-lapointe.db
    :replaces_section_title:
 
-   A package containing metadata for LAPOINTE arrays assembled using data from public repositories
+   A package containing metadata for LAPOINTE arrays
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/LAPOINTE.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/LAPOINTE.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lapointe.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lapointe.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lapointe.db/meta.yaml>`_
 
-   
+   A package containing metadata for LAPOINTE arrays assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-lapointe.db

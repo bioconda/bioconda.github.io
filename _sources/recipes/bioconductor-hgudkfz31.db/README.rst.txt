@@ -9,13 +9,13 @@ bioconductor-hgudkfz31.db
 .. conda:recipe:: bioconductor-hgudkfz31.db
    :replaces_section_title:
 
-   Unknown annotation data \(chip hguDKFZ31\) assembled using data from public repositories
+   Unknown annotation data \(chip hguDKFZ31\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hguDKFZ31.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hguDKFZ31.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hgudkfz31.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgudkfz31.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgudkfz31.db/meta.yaml>`_
 
-   
+   Unknown annotation data \(chip hguDKFZ31\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-hgudkfz31.db

@@ -9,13 +9,13 @@ bioconductor-phenopath
 .. conda:recipe:: bioconductor-phenopath
    :replaces_section_title:
 
-   PhenoPath infers genomic trajectories \(pseudotimes\) in the presence of heterogeneous genetic and environmental backgrounds and tests for interactions between them.
+   Genomic trajectories with heterogeneous genetic and environmental backgrounds
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/phenopath.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/phenopath.html
    :license: Apache License (== 2.0)
    :recipe: /`bioconductor-phenopath <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phenopath>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phenopath/meta.yaml>`_
 
-   
+   PhenoPath infers genomic trajectories \(pseudotimes\) in the presence of heterogeneous genetic and environmental backgrounds and tests for interactions between them.
 
 
 .. conda:package:: bioconductor-phenopath

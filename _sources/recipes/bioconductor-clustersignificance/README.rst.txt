@@ -9,14 +9,14 @@ bioconductor-clustersignificance
 .. conda:recipe:: bioconductor-clustersignificance
    :replaces_section_title:
 
-   The ClusterSignificance package provides tools to assess if class clusters in dimensionality reduced data representations have a separation different from permuted data. The term class clusters here refers to\, clusters of points representing known classes in the data. This is particularly useful to determine if a subset of the variables\, e.g. genes in a specific pathway\, alone can separate samples into these established classes. ClusterSignificance accomplishes this by\, projecting all points onto a one dimensional line. Cluster separations are then scored and the probability of the seen separation being due to chance is evaluated using a permutation method.
+   The ClusterSignificance package provides tools to assess if class clusters in dimensionality reduced data representations have a separation different from permuted data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ClusterSignificance.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ClusterSignificance.html
    :license: GPL-3
    :recipe: /`bioconductor-clustersignificance <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clustersignificance>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clustersignificance/meta.yaml>`_
    :links: biotools: :biotools:`clustersignificance`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   The ClusterSignificance package provides tools to assess if class clusters in dimensionality reduced data representations have a separation different from permuted data. The term class clusters here refers to\, clusters of points representing known classes in the data. This is particularly useful to determine if a subset of the variables\, e.g. genes in a specific pathway\, alone can separate samples into these established classes. ClusterSignificance accomplishes this by\, projecting all points onto a one dimensional line. Cluster separations are then scored and the probability of the seen separation being due to chance is evaluated using a permutation method.
 
 
 .. conda:package:: bioconductor-clustersignificance

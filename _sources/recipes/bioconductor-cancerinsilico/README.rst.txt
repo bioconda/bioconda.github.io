@@ -9,14 +9,14 @@ bioconductor-cancerinsilico
 .. conda:recipe:: bioconductor-cancerinsilico
    :replaces_section_title:
 
-   The CancerInSilico package provides an R interface for running mathematical models of tumor progresson and generating gene expression data from the results. This package has the underlying models implemented in C\+\+ and the output and analysis features implemented in R.
+   An R interface for computational modeling of tumor progression
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CancerInSilico.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CancerInSilico.html
    :license: GPL-2
    :recipe: /`bioconductor-cancerinsilico <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancerinsilico>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancerinsilico/meta.yaml>`_
    :links: biotools: :biotools:`cancerinsilico`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   The CancerInSilico package provides an R interface for running mathematical models of tumor progresson and generating gene expression data from the results. This package has the underlying models implemented in C\+\+ and the output and analysis features implemented in R.
 
 
 .. conda:package:: bioconductor-cancerinsilico

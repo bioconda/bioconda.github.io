@@ -9,13 +9,13 @@ bioconductor-humantranscriptomecompendium
 .. conda:recipe:: bioconductor-humantranscriptomecompendium
    :replaces_section_title:
 
-   Provide tools for working with a compendium of human transcriptome sequences \(originally htxcomp\).
+   Tools to work with a Compendium of 181000 human transcriptome sequencing studies
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/HumanTranscriptomeCompendium.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/HumanTranscriptomeCompendium.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-humantranscriptomecompendium <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humantranscriptomecompendium>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humantranscriptomecompendium/meta.yaml>`_
 
-   
+   Provide tools for working with a compendium of human transcriptome sequences \(originally htxcomp\).
 
 
 .. conda:package:: bioconductor-humantranscriptomecompendium

@@ -9,13 +9,13 @@ bioconductor-scfind
 .. conda:recipe:: bioconductor-scfind
    :replaces_section_title:
 
-   Recently a very large collection of single\-cell RNA\-seq \(scRNA\-seq\) datasets has been generated and publicly released. For the collection to be useful\, the information must be organized in a way that supports queries that are relevant to researchers. \`scfind\` builds an index from scRNA\-seq datasets which organizes the information in a suitable and compact manner so that the datasets can be very efficiently searched for either cells or cell types in which a given list of genes is expressed.
+   A search tool for single cell RNA\-seq data by gene lists
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/scfind.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/scfind.html
    :license: GPL-3
    :recipe: /`bioconductor-scfind <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scfind>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scfind/meta.yaml>`_
 
-   
+   Recently a very large collection of single\-cell RNA\-seq \(scRNA\-seq\) datasets has been generated and publicly released. For the collection to be useful\, the information must be organized in a way that supports queries that are relevant to researchers. \`scfind\` builds an index from scRNA\-seq datasets which organizes the information in a suitable and compact manner so that the datasets can be very efficiently searched for either cells or cell types in which a given list of genes is expressed.
 
 
 .. conda:package:: bioconductor-scfind

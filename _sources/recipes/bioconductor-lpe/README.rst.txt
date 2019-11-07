@@ -9,14 +9,14 @@ bioconductor-lpe
 .. conda:recipe:: bioconductor-lpe
    :replaces_section_title:
 
-   This LPE library is used to do significance analysis of microarray data with small number of replicates. It uses resampling based FDR adjustment\, and gives less conservative results than traditional \'BH\' or \'BY\' procedures. Data accepted is raw data in txt format from MAS4\, MAS5 or dChip. Data can also be supplied after normalization. LPE library is primarily used for analyzing data between two conditions. To use it for paired data\, see LPEP library. For using LPE in multiple conditions\, use HEM library.
+   Methods for analyzing microarray data using Local Pooled Error \(LPE\) method
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/LPE.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/LPE.html
    :license: LGPL
    :recipe: /`bioconductor-lpe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lpe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lpe/meta.yaml>`_
    :links: biotools: :biotools:`lpe`, doi: :doi:`10.1093/bioinformatics/btg264`
 
-   
+   This LPE library is used to do significance analysis of microarray data with small number of replicates. It uses resampling based FDR adjustment\, and gives less conservative results than traditional \'BH\' or \'BY\' procedures. Data accepted is raw data in txt format from MAS4\, MAS5 or dChip. Data can also be supplied after normalization. LPE library is primarily used for analyzing data between two conditions. To use it for paired data\, see LPEP library. For using LPE in multiple conditions\, use HEM library.
 
 
 .. conda:package:: bioconductor-lpe

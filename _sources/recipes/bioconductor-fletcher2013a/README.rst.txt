@@ -9,20 +9,20 @@ bioconductor-fletcher2013a
 .. conda:recipe:: bioconductor-fletcher2013a
    :replaces_section_title:
 
-   The package Fletcher2013a contains time\-course gene expression data from MCF\-7 cells treated under different experimental systems in order to perturb FGFR2 signalling. The data comes from Fletcher et al. \(Nature Comms 4\:2464\, 2013\) where further details about the background and the experimental design of the study can be found.
+   Gene expression data from breast cancer cells under FGFR2 signalling perturbation
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/Fletcher2013a.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/Fletcher2013a.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-fletcher2013a <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fletcher2013a>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fletcher2013a/meta.yaml>`_
 
-   
+   The package Fletcher2013a contains time\-course gene expression data from MCF\-7 cells treated under different experimental systems in order to perturb FGFR2 signalling. The data comes from Fletcher et al. \(Nature Comms 4\:2464\, 2013\) where further details about the background and the experimental design of the study can be found.
 
 
 .. conda:package:: bioconductor-fletcher2013a
 
    |downloads_bioconductor-fletcher2013a| |docker_bioconductor-fletcher2013a|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.18.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends bioconductor-limma: >=3.42.0,<3.43.0

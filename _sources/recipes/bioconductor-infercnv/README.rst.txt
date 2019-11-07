@@ -9,13 +9,13 @@ bioconductor-infercnv
 .. conda:recipe:: bioconductor-infercnv
    :replaces_section_title:
 
-   Using single\-cell RNA\-Seq expression to visualize CNV in cells.
+   Infer Copy Number Variation from Single\-Cell RNA\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/infercnv.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/infercnv.html
    :license: BSD_3_clause + file LICENSE
    :recipe: /`bioconductor-infercnv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-infercnv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-infercnv/meta.yaml>`_
 
-   
+   Using single\-cell RNA\-Seq expression to visualize CNV in cells.
 
 
 .. conda:package:: bioconductor-infercnv

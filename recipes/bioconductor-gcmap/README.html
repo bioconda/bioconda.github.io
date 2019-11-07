@@ -102,10 +102,10 @@
 <dl class="recipe">
 <dt id="recipe-bioconductor-gcmap">
 <em class="property">recipe </em><code class="sig-name descname">bioconductor-gcmap</code><a class="headerlink" href="#recipe-bioconductor-gcmap" title="Permalink to this definition">¶</a></dt>
-<dd><p>The gCMAP package provides a toolkit for comparing differential gene expression profiles through gene set enrichment analysis. Starting from normalized microarray or RNA-seq gene expression values (stored in lists of ExpressionSet and CountDataSet objects) the package performs differential expression analysis using the limma or DESeq packages. Supplying a simple list of gene identifiers, global differential expression profiles or data from complete experiments as input, users can use a unified set of several well-known gene set enrichment analysis methods to retrieve experiments with similar changes in gene expression. To take into account the directionality of gene expression changes, gCMAPQuery introduces the SignedGeneSet class, directly extending GeneSet from the GSEABase package.  To increase performance of large queries, multiple gene sets are stored as sparse incidence matrices within CMAPCollection eSets. gCMAP offers implementations of 1. Fisher’s exact test (Fisher, J R Stat Soc, 1922) 2. The “connectivity map” method (Lamb et al, Science, 2006) 3. Parametric and non-parametric t-statistic summaries (Jiang &amp; Gentleman, Bioinformatics, 2007) and 4. Wilcoxon / Mann-Whitney rank sum statistics (Wilcoxon, Biometrics Bulletin, 1945) as well as wrappers for the 5. camera (Wu &amp; Smyth, Nucleic Acid Res, 2012) 6. mroast and romer (Wu et al, Bioinformatics, 2010) functions from the limma package and 7. wraps the gsea method from the mgsa package (Bauer et al, NAR, 2010). All methods return CMAPResult objects, an S4 class inheriting from AnnotatedDataFrame, containing enrichment statistics as well as annotation data and providing simple high-level summary plots.</p>
+<dd><p>Tools for Connectivity Map-like analyses</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.9/bioc/html/gCMAP.html">https://bioconductor.org/packages/3.9/bioc/html/gCMAP.html</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.10/bioc/html/gCMAP.html">https://bioconductor.org/packages/3.10/bioc/html/gCMAP.html</a></p>
 </dd>
 <dt class="field-even">License</dt>
 <dd class="field-even"><p>Artistic-2.0</p>
@@ -114,6 +114,7 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcmap">bioconductor-gcmap</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcmap/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
+<p>The gCMAP package provides a toolkit for comparing differential gene expression profiles through gene set enrichment analysis. Starting from normalized microarray or RNA-seq gene expression values (stored in lists of ExpressionSet and CountDataSet objects) the package performs differential expression analysis using the limma or DESeq packages. Supplying a simple list of gene identifiers, global differential expression profiles or data from complete experiments as input, users can use a unified set of several well-known gene set enrichment analysis methods to retrieve experiments with similar changes in gene expression. To take into account the directionality of gene expression changes, gCMAPQuery introduces the SignedGeneSet class, directly extending GeneSet from the GSEABase package.  To increase performance of large queries, multiple gene sets are stored as sparse incidence matrices within CMAPCollection eSets. gCMAP offers implementations of 1. Fisher’s exact test (Fisher, J R Stat Soc, 1922) 2. The “connectivity map” method (Lamb et al, Science, 2006) 3. Parametric and non-parametric t-statistic summaries (Jiang &amp; Gentleman, Bioinformatics, 2007) and 4. Wilcoxon / Mann-Whitney rank sum statistics (Wilcoxon, Biometrics Bulletin, 1945) as well as wrappers for the 5. camera (Wu &amp; Smyth, Nucleic Acid Res, 2012) 6. mroast and romer (Wu et al, Bioinformatics, 2010) functions from the limma package and 7. wraps the gsea method from the mgsa package (Bauer et al, NAR, 2010). All methods return CMAPResult objects, an S4 class inheriting from AnnotatedDataFrame, containing enrichment statistics as well as annotation data and providing simple high-level summary plots.</p>
 </dd></dl>
 
 <dl class="package">
@@ -144,6 +145,7 @@
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><a class="conda-package reference internal" href="../bioconductor-gcmapweb/README.html#bioconductor-gcmapweb"><strong class="xref backref">bioconductor-gcmapweb</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-signaturesearch/README.html#bioconductor-signaturesearch"><strong class="xref backref">bioconductor-signaturesearch</strong></a></p></li>
 </ul>
 </dd>
 </dl>

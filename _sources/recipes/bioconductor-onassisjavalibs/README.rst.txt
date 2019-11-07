@@ -9,20 +9,20 @@ bioconductor-onassisjavalibs
 .. conda:recipe:: bioconductor-onassisjavalibs
    :replaces_section_title:
 
-   A package that contains java libraries to call conceptmapper and compute semnatic similarity from R
+   OnassisJavaLibs\, java libraries to run conceptmapper and semantic similarity
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/OnassisJavaLibs.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/OnassisJavaLibs.html
    :license: GPL-2
    :recipe: /`bioconductor-onassisjavalibs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-onassisjavalibs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-onassisjavalibs/meta.yaml>`_
 
-   
+   A package that contains java libraries to call conceptmapper and compute semnatic similarity from R
 
 
 .. conda:package:: bioconductor-onassisjavalibs
 
    |downloads_bioconductor-onassisjavalibs| |docker_bioconductor-onassisjavalibs|
 
-   :versions: 1.7.0-0, 1.6.0-1, 1.6.0-0, 1.4.2-0
+   :versions: 1.8.0-0, 1.6.0-1, 1.6.0-0, 1.4.2-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends openjdk: 

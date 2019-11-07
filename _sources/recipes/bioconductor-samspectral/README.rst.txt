@@ -9,13 +9,13 @@ bioconductor-samspectral
 .. conda:recipe:: bioconductor-samspectral
    :replaces_section_title:
 
-   Samples large data such that spectral clustering is possible while preserving density information in edge weights. More specifically\, given a matrix of coordinates as input\, SamSPECTRAL first builds the communities to sample the data points. Then\, it builds a graph and after weighting the edges by conductance computation\, the graph is passed to a classic spectral clustering algorithm to find the spectral clusters. The last stage of SamSPECTRAL is to combine the spectral clusters. The resulting \"connected components\" estimate biological cell populations in the data. See the vignette for more details on how to use this package\, some illustrations\, and simple examples.
+   Identifies cell population in flow cytometry data.
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SamSPECTRAL.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SamSPECTRAL.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-samspectral <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-samspectral>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-samspectral/meta.yaml>`_
 
-   
+   Samples large data such that spectral clustering is possible while preserving density information in edge weights. More specifically\, given a matrix of coordinates as input\, SamSPECTRAL first builds the communities to sample the data points. Then\, it builds a graph and after weighting the edges by conductance computation\, the graph is passed to a classic spectral clustering algorithm to find the spectral clusters. The last stage of SamSPECTRAL is to combine the spectral clusters. The resulting \"connected components\" estimate biological cell populations in the data. See the vignette for more details on how to use this package\, some illustrations\, and simple examples.
 
 
 .. conda:package:: bioconductor-samspectral

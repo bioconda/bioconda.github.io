@@ -9,20 +9,20 @@ bioconductor-lumibarnes
 .. conda:recipe:: bioconductor-lumibarnes
    :replaces_section_title:
 
-   The Barnes benchmark dataset can be used to evaluate the algorithms for Illumina microarrays. It measured a titration series of two human tissues\, blood and placenta\, and includes six samples with the titration ratio of blood and placenta as 100\:0\, 95\:5\, 75\:25\, 50\:50\, 25\:75 and 0\:100. The samples were hybridized on HumanRef\-8 BeadChip \(Illumina\, Inc\) in duplicate. The data is loaded as an LumiBatch Object \(see documents in the lumi package\).
+   Barnes Benchmark Illumina Tissues Titration Data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/lumiBarnes.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/lumiBarnes.html
    :license: LGPL
    :recipe: /`bioconductor-lumibarnes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumibarnes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumibarnes/meta.yaml>`_
 
-   
+   The Barnes benchmark dataset can be used to evaluate the algorithms for Illumina microarrays. It measured a titration series of two human tissues\, blood and placenta\, and includes six samples with the titration ratio of blood and placenta as 100\:0\, 95\:5\, 75\:25\, 50\:50\, 25\:75 and 0\:100. The samples were hybridized on HumanRef\-8 BeadChip \(Illumina\, Inc\) in duplicate. The data is loaded as an LumiBatch Object \(see documents in the lumi package\).
 
 
 .. conda:package:: bioconductor-lumibarnes
 
    |downloads_bioconductor-lumibarnes| |docker_bioconductor-lumibarnes|
 
-   :versions: 1.25.0-0, 1.24.0-1, 1.22.0-0
+   :versions: 1.26.0-0, 1.24.0-1, 1.22.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends bioconductor-lumi: >=2.38.0,<2.39.0

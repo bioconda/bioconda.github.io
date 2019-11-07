@@ -9,13 +9,13 @@ bioconductor-bsgenome.osativa.msu.msu7
 .. conda:recipe:: bioconductor-bsgenome.osativa.msu.msu7
    :replaces_section_title:
 
-   Oryza sativa full genome as provided by MSU \(MSU7 Genome Release\) and stored in Biostrings objects.
+   Oryza sativa full genome \(MSU7\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Osativa.MSU.MSU7.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Osativa.MSU.MSU7.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.osativa.msu.msu7 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.osativa.msu.msu7>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.osativa.msu.msu7/meta.yaml>`_
 
-   
+   Oryza sativa full genome as provided by MSU \(MSU7 Genome Release\) and stored in Biostrings objects.
 
 
 .. conda:package:: bioconductor-bsgenome.osativa.msu.msu7

@@ -9,13 +9,13 @@ bioconductor-pathwaypca
 .. conda:recipe:: bioconductor-pathwaypca
    :replaces_section_title:
 
-   Apply the Supervised PCA and Adaptive\, Elastic\-Net\, Sparse PCA methods to extract principal components from each pathway. Use these pathway\- specific principal components as the design matrix relating the response to each pathway. Return the model fit statistic p\-values\, and adjust these values for False Discovery Rate. Return a data frame of the pathways sorted by their adjusted p\-values. This package has corresponding vignettes hosted in the \'\'User Guides\'\' page of \<https\:\/\/gabrielodom.github.io\/pathwayPCA\/index.html\>\, and the website for the development information is hosted at \<https\:\/\/github.com\/gabrielodom\/pathwayPCA\>.
+   Integrative Pathway Analysis with Modern PCA Methodology and Gene Selection
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/pathwayPCA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/pathwayPCA.html
    :license: GPL-3
    :recipe: /`bioconductor-pathwaypca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathwaypca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathwaypca/meta.yaml>`_
 
-   
+   pathwayPCA is an integrative analysis tool that implements the principal component analysis \(PCA\) based pathway analysis approaches described in Chen et al. \(2008\)\, Chen et al. \(2010\)\, and Chen \(2011\). pathwayPCA allows users to\: \(1\) Test pathway association with binary\, continuous\, or survival phenotypes. \(2\) Extract relevant genes in the pathways using the SuperPCA and AES\-PCA approaches. \(3\) Compute principal components \(PCs\) based on the selected genes. These estimated latent variables represent pathway activities for individual subjects\, which can then be used to perform integrative pathway analysis\, such as multi\-omics analysis. \(4\) Extract relevant genes that drive pathway significance as well as data corresponding to these relevant genes for additional in\-depth analysis. \(5\) Perform analyses with enhanced computational efficiency with parallel computing and enhanced data safety with S4\-class data objects. \(6\) Analyze studies with complex experimental designs\, with multiple covariates\, and with interaction effects\, e.g.\, testing whether pathway association with clinical phenotype is different between male and female subjects. Citations\: Chen et al. \(2008\) \<https\:\/\/doi.org\/10.1093\/bioinformatics\/btn458\>\; Chen et al. \(2010\) \<https\:\/\/doi.org\/10.1002\/gepi.20532\>\; and Chen \(2011\) \<https\:\/\/doi.org\/10.2202\/1544\-6115.1697\>.
 
 
 .. conda:package:: bioconductor-pathwaypca

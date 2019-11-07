@@ -9,20 +9,20 @@ bioconductor-diggitdata
 .. conda:recipe:: bioconductor-diggitdata
    :replaces_section_title:
 
-   This package provides expression profile and CNV data for glioblastoma from TCGA\, and transcriptional and post\-translational regulatory networks assembled with the ARACNe and MINDy algorithms\, respectively.
+   Example data for the diggit package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/diggitdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/diggitdata.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-diggitdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diggitdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diggitdata/meta.yaml>`_
 
-   
+   This package provides expression profile and CNV data for glioblastoma from TCGA\, and transcriptional and post\-translational regulatory networks assembled with the ARACNe and MINDy algorithms\, respectively.
 
 
 .. conda:package:: bioconductor-diggitdata
 
    |downloads_bioconductor-diggitdata| |docker_bioconductor-diggitdata|
 
-   :versions: 1.17.2-0, 1.16.0-1, 1.14.0-0
+   :versions: 1.18.0-0, 1.16.0-1, 1.14.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends bioconductor-viper: >=1.20.0,<1.21.0

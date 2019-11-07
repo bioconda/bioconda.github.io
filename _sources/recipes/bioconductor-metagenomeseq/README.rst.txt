@@ -9,14 +9,14 @@ bioconductor-metagenomeseq
 .. conda:recipe:: bioconductor-metagenomeseq
    :replaces_section_title:
 
-   metagenomeSeq is designed to determine features \(be it Operational Taxanomic Unit \(OTU\)\, species\, etc.\) that are differentially abundant between two or more groups of multiple samples. metagenomeSeq is designed to address the effects of both normalization and under\-sampling of microbial communities on disease association detection and the testing of feature correlations.
+   Statistical analysis for sparse high\-throughput sequencing
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/metagenomeSeq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/metagenomeSeq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-metagenomeseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagenomeseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagenomeseq/meta.yaml>`_
    :links: biotools: :biotools:`metagenomeseq`, doi: :doi:`10.1038/nmeth.2658`
 
-   
+   metagenomeSeq is designed to determine features \(be it Operational Taxanomic Unit \(OTU\)\, species\, etc.\) that are differentially abundant between two or more groups of multiple samples. metagenomeSeq is designed to address the effects of both normalization and under\-sampling of microbial communities on disease association detection and the testing of feature correlations.
 
 
 .. conda:package:: bioconductor-metagenomeseq

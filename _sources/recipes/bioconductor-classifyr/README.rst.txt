@@ -9,14 +9,14 @@ bioconductor-classifyr
 .. conda:recipe:: bioconductor-classifyr
    :replaces_section_title:
 
-   The software formalises a framework for classification in R. There are four stages\; Data transformation\, feature selection\, classifier training\, and prediction. The requirements of variable types and names are fixed\, but specialised variables for functions can also be provided. The classification framework is wrapped in a driver loop\, that reproducibly carries out a number of cross\-validation schemes. Functions for differential expression\, differential variability\, and differential distribution are included. Additional functions may be developed by the user\, by creating an interface to the framework.
+   A framework for cross\-validated classification problems\, with applications to differential variability and differential distribution testing
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ClassifyR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ClassifyR.html
    :license: GPL-3
    :recipe: /`bioconductor-classifyr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-classifyr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-classifyr/meta.yaml>`_
    :links: biotools: :biotools:`classifyr`
 
-   
+   The software formalises a framework for classification in R. There are four stages\; Data transformation\, feature selection\, classifier training\, and prediction. The requirements of variable types and names are fixed\, but specialised variables for functions can also be provided. The classification framework is wrapped in a driver loop\, that reproducibly carries out a number of cross\-validation schemes. Functions for differential expression\, differential variability\, and differential distribution are included. Additional functions may be developed by the user\, by creating an interface to the framework.
 
 
 .. conda:package:: bioconductor-classifyr

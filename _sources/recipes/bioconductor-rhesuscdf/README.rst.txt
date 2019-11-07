@@ -9,13 +9,13 @@ bioconductor-rhesuscdf
 .. conda:recipe:: bioconductor-rhesuscdf
    :replaces_section_title:
 
-   A package containing an environment representing the Rhesus.cdf file.
+   rhesuscdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/rhesuscdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/rhesuscdf.html
    :license: LGPL
    :recipe: /`bioconductor-rhesuscdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhesuscdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhesuscdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the Rhesus.cdf file.
 
 
 .. conda:package:: bioconductor-rhesuscdf

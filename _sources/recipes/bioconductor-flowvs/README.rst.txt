@@ -9,13 +9,13 @@ bioconductor-flowvs
 .. conda:recipe:: bioconductor-flowvs
    :replaces_section_title:
 
-   Per\-channel variance stabilization from a collection of flow cytometry samples by Bertlett test for homogeneity of variances. The approach is applicable to microarrays data as well.
+   Variance stabilization in flow cytometry \(and microarrays\)
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flowVS.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flowVS.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowvs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowvs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowvs/meta.yaml>`_
 
-   
+   Per\-channel variance stabilization from a collection of flow cytometry samples by Bertlett test for homogeneity of variances. The approach is applicable to microarrays data as well.
 
 
 .. conda:package:: bioconductor-flowvs

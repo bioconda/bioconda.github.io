@@ -9,13 +9,13 @@ bioconductor-gatefinder
 .. conda:recipe:: bioconductor-gatefinder
    :replaces_section_title:
 
-   Given a vector of cluster memberships for a cell population\, identifies a sequence of gates \(polygon filters on 2D scatter plots\) for isolation of that cell type.
+   Projection\-based Gating Strategy Optimization for Flow and Mass Cytometry
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GateFinder.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GateFinder.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gatefinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gatefinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gatefinder/meta.yaml>`_
 
-   
+   Given a vector of cluster memberships for a cell population\, identifies a sequence of gates \(polygon filters on 2D scatter plots\) for isolation of that cell type.
 
 
 .. conda:package:: bioconductor-gatefinder

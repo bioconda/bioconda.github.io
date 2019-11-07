@@ -9,22 +9,22 @@ bioconductor-mitoode
 .. conda:recipe:: bioconductor-mitoode
    :replaces_section_title:
 
-   The package contains the methods to fit a cell\-cycle model on cell count data and the code to reproduce the results shown in our paper \"Dynamical modelling of phenotypes in a genome\-wide RNAi live\-cell imaging assay\" by Pau\, G.\, Walter\, T.\, Neumann\, B.\, Heriche\, J.\-K.\, Ellenberg\, J.\, \& Huber\, W.\, BMC Bioinformatics \(2013\)\, 14\(1\)\, 308. doi\:10.1186\/1471\-2105\-14\-308
+   Implementation of the differential equation model described in \"Dynamical modelling of phenotypes in a genome\-wide RNAi live\-cell imaging assay\"
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/mitoODE.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/mitoODE.html
    :license: LGPL
    :recipe: /`bioconductor-mitoode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mitoode>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mitoode/meta.yaml>`_
 
-   
+   The package contains the methods to fit a cell\-cycle model on cell count data and the code to reproduce the results shown in our paper \"Dynamical modelling of phenotypes in a genome\-wide RNAi live\-cell imaging assay\" by Pau\, G.\, Walter\, T.\, Neumann\, B.\, Heriche\, J.\-K.\, Ellenberg\, J.\, \& Huber\, W.\, BMC Bioinformatics \(2013\)\, 14\(1\)\, 308. doi\:10.1186\/1471\-2105\-14\-308
 
 
 .. conda:package:: bioconductor-mitoode
 
    |downloads_bioconductor-mitoode| |docker_bioconductor-mitoode|
 
-   :versions: 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.1-0, 1.20.0-0
+   :versions: 1.22.0-1, 1.22.0-0, 1.20.1-0, 1.20.0-0
    
-   :depends bioconductor-mitoodedata: >=1.21.0,<1.22.0
+   :depends bioconductor-mitoodedata: >=1.20.0,<1.21.0
    :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-kernsmooth: 

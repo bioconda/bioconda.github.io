@@ -9,13 +9,13 @@ bioconductor-oncomix
 .. conda:recipe:: bioconductor-oncomix
    :replaces_section_title:
 
-   This package helps identify mRNAs that are overexpressed in subsets of tumors relative to normal tissue. Ideal inputs would be paired tumor\-normal data from the same tissue from many patients \(\>15 pairs\). This unsupervised approach relies on the observation that oncogenes are characteristically overexpressed in only a subset of tumors in the population\, and may help identify oncogene candidates purely based on differences in mRNA expression between previously unknown subtypes.
+   Identifying Genes Overexpressed in Subsets of Tumors from Tumor\-Normal mRNA Expression Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/oncomix.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/oncomix.html
    :license: GPL-3
    :recipe: /`bioconductor-oncomix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oncomix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oncomix/meta.yaml>`_
 
-   
+   This package helps identify mRNAs that are overexpressed in subsets of tumors relative to normal tissue. Ideal inputs would be paired tumor\-normal data from the same tissue from many patients \(\>15 pairs\). This unsupervised approach relies on the observation that oncogenes are characteristically overexpressed in only a subset of tumors in the population\, and may help identify oncogene candidates purely based on differences in mRNA expression between previously unknown subtypes.
 
 
 .. conda:package:: bioconductor-oncomix

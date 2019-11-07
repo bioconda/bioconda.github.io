@@ -9,13 +9,13 @@ bioconductor-bsgenome.cfamiliaris.ucsc.canfam3
 .. conda:recipe:: bioconductor-bsgenome.cfamiliaris.ucsc.canfam3
    :replaces_section_title:
 
-   Full genome sequences for Canis lupus familiaris \(Dog\) as provided by UCSC \(canFam3\, Sep. 2011\) and stored in Biostrings objects.
+   Full genome sequences for Canis lupus familiaris \(UCSC version canFam3\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Cfamiliaris.UCSC.canFam3.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Cfamiliaris.UCSC.canFam3.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.cfamiliaris.ucsc.canfam3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.cfamiliaris.ucsc.canfam3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.cfamiliaris.ucsc.canfam3/meta.yaml>`_
 
-   
+   Full genome sequences for Canis lupus familiaris \(Dog\) as provided by UCSC \(canFam3\, Sep. 2011\) and stored in Biostrings objects.
 
 
 .. conda:package:: bioconductor-bsgenome.cfamiliaris.ucsc.canfam3

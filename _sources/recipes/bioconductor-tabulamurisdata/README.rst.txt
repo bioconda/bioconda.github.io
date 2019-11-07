@@ -9,22 +9,22 @@ bioconductor-tabulamurisdata
 .. conda:recipe:: bioconductor-tabulamurisdata
    :replaces_section_title:
 
-   Access to processed 10x \(droplet\) and SmartSeq2 \(on FACS\-sorted cells\) single\-cell RNA\-seq data from the Tabula Muris consortium \(http\:\/\/tabula\-muris.ds.czbiohub.org\/\).
+   10x And SmartSeq2 Data From The Tabula Muris Consortium
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/TabulaMurisData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/TabulaMurisData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tabulamurisdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tabulamurisdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tabulamurisdata/meta.yaml>`_
 
-   
+   Access to processed 10x \(droplet\) and SmartSeq2 \(on FACS\-sorted cells\) single\-cell RNA\-seq data from the Tabula Muris consortium \(http\:\/\/tabula\-muris.ds.czbiohub.org\/\).
 
 
 .. conda:package:: bioconductor-tabulamurisdata
 
    |downloads_bioconductor-tabulamurisdata| |docker_bioconductor-tabulamurisdata|
 
-   :versions: 1.3.0-0, 1.2.0-1, 1.0.0-0
+   :versions: 1.2.0-1, 1.0.0-0
    
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

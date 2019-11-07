@@ -9,13 +9,13 @@ bioconductor-bnbc
 .. conda:recipe:: bioconductor-bnbc
    :replaces_section_title:
 
-   Tools to normalize \(several\) Hi\-C data from replicates.
+   Bandwise normalization and batch correction of Hi\-C data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/bnbc.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/bnbc.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bnbc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bnbc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bnbc/meta.yaml>`_
 
-   
+   Tools to normalize \(several\) Hi\-C data from replicates.
 
 
 .. conda:package:: bioconductor-bnbc

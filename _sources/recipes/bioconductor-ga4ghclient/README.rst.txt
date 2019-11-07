@@ -9,13 +9,13 @@ bioconductor-ga4ghclient
 .. conda:recipe:: bioconductor-ga4ghclient
    :replaces_section_title:
 
-   GA4GHclient provides an easy way to access public data servers through Global Alliance for Genomics and Health \(GA4GH\) genomics API. It provides low\-level access to GA4GH API and translates response data into Bioconductor\-based class objects.
+   A Bioconductor package for accessing GA4GH API data servers
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GA4GHclient.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GA4GHclient.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ga4ghclient <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ga4ghclient>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ga4ghclient/meta.yaml>`_
 
-   
+   GA4GHclient provides an easy way to access public data servers through Global Alliance for Genomics and Health \(GA4GH\) genomics API. It provides low\-level access to GA4GH API and translates response data into Bioconductor\-based class objects.
 
 
 .. conda:package:: bioconductor-ga4ghclient

@@ -9,13 +9,13 @@ bioconductor-erccdashboard
 .. conda:recipe:: bioconductor-erccdashboard
    :replaces_section_title:
 
-   Technical performance metrics for differential gene expression experiments using External RNA Controls Consortium \(ERCC\) spike\-in ratio mixtures.
+   Assess Differential Gene Expression Experiments with ERCC Controls
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/erccdashboard.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/erccdashboard.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-erccdashboard <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-erccdashboard>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-erccdashboard/meta.yaml>`_
 
-   
+   Technical performance metrics for differential gene expression experiments using External RNA Controls Consortium \(ERCC\) spike\-in ratio mixtures.
 
 
 .. conda:package:: bioconductor-erccdashboard

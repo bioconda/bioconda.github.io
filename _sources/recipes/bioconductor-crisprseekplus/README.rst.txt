@@ -9,14 +9,14 @@ bioconductor-crisprseekplus
 .. conda:recipe:: bioconductor-crisprseekplus
    :replaces_section_title:
 
-   Bioinformatics platform containing interface to work with offTargetAnalysis and compare2Sequences in the CRISPRseek package\, and GUIDEseqAnalysis.
+   crisprseekplus
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/crisprseekplus.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/crisprseekplus.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-crisprseekplus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprseekplus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprseekplus/meta.yaml>`_
    :links: biotools: :biotools:`crisprseekplus`, doi: :doi:`10.1371/journal.pone.0108424`
 
-   
+   Bioinformatics platform containing interface to work with offTargetAnalysis and compare2Sequences in the CRISPRseek package\, and GUIDEseqAnalysis.
 
 
 .. conda:package:: bioconductor-crisprseekplus

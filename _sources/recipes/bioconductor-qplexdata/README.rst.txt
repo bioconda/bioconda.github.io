@@ -9,20 +9,20 @@ bioconductor-qplexdata
 .. conda:recipe:: bioconductor-qplexdata
    :replaces_section_title:
 
-   qPLEX\-RIME and Full proteome TMT mass spectrometry datasets.
+   Data accompanying qPLEXanalyzer package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/qPLEXdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/qPLEXdata.html
    :license: GPL-2
    :recipe: /`bioconductor-qplexdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qplexdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qplexdata/meta.yaml>`_
 
-   
+   qPLEX\-RIME and Full proteome TMT mass spectrometry datasets.
 
 
 .. conda:package:: bioconductor-qplexdata
 
    |downloads_bioconductor-qplexdata| |docker_bioconductor-qplexdata|
 
-   :versions: 1.3.0-0, 1.2.0-1, 1.0.1-0
+   :versions: 1.4.0-0, 1.2.0-1, 1.0.1-0
    
    :depends bioconductor-msnbase: >=2.12.0,<2.13.0
    :depends bioconductor-qplexanalyzer: >=1.4.0,<1.5.0

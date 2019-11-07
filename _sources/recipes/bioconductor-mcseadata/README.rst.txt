@@ -9,20 +9,20 @@ bioconductor-mcseadata
 .. conda:recipe:: bioconductor-mcseadata
    :replaces_section_title:
 
-   Data objects necessary to some mCSEA package functions. There are also example data objects to illustrate mCSEA package functionality.
+   Data package for mCSEA package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/mCSEAdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/mCSEAdata.html
    :license: GPL-2
    :recipe: /`bioconductor-mcseadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcseadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcseadata/meta.yaml>`_
 
-   
+   Data objects necessary to some mCSEA package functions. There are also example data objects to illustrate mCSEA package functionality.
 
 
 .. conda:package:: bioconductor-mcseadata
 
    |downloads_bioconductor-mcseadata| |docker_bioconductor-mcseadata|
 
-   :versions: 1.5.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

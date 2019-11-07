@@ -9,13 +9,13 @@ bioconductor-limmagui
 .. conda:recipe:: bioconductor-limmagui
    :replaces_section_title:
 
-   A Graphical User Interface for differential expression analysis of two\-color microarray data using the limma package.
+   GUI for limma Package With Two Color Microarrays
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/limmaGUI.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/limmaGUI.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-limmagui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-limmagui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-limmagui/meta.yaml>`_
 
-   
+   A Graphical User Interface for differential expression analysis of two\-color microarray data using the limma package.
 
 
 .. conda:package:: bioconductor-limmagui

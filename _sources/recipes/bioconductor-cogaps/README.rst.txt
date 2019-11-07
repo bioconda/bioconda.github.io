@@ -9,13 +9,13 @@ bioconductor-cogaps
 .. conda:recipe:: bioconductor-cogaps
    :replaces_section_title:
 
-   Coordinated Gene Activity in Pattern Sets \(CoGAPS\) implements a Bayesian MCMC matrix factorization algorithm\, GAPS\, and links it to gene set statistic methods to infer biological process activity.  It can be used to perform sparse matrix factorization on any data\, and when this data represents biomolecules\, to do gene set analysis.
+   Coordinated Gene Activity in Pattern Sets
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CoGAPS.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CoGAPS.html
    :license: GPL (==2)
    :recipe: /`bioconductor-cogaps <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cogaps>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cogaps/meta.yaml>`_
 
-   
+   Coordinated Gene Activity in Pattern Sets \(CoGAPS\) implements a Bayesian MCMC matrix factorization algorithm\, GAPS\, and links it to gene set statistic methods to infer biological process activity.  It can be used to perform sparse matrix factorization on any data\, and when this data represents biomolecules\, to do gene set analysis.
 
 
 .. conda:package:: bioconductor-cogaps

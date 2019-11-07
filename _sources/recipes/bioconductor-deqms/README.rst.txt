@@ -9,13 +9,13 @@ bioconductor-deqms
 .. conda:recipe:: bioconductor-deqms
    :replaces_section_title:
 
-   DEqMS is developped on top of Limma. However\, Limma assumes same prior variance for all genes. In proteomics\, the accuracy of protein abundance estimates varies by the number of peptides\/PSMs quantified in both label\-free and labelled data. Proteins quantification by multiple peptides or PSMs are more accurate. DEqMS package is able to estimate different prior variances for proteins quantified by different number of PSMs\/peptides\, therefore acchieving better accuracy. The package can be applied to analyze both label\-free and labelled proteomics data.
+   a tool to perform statistical analysis of differential protein expression for quantitative proteomics data.
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DEqMS.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DEqMS.html
    :license: LGPL
    :recipe: /`bioconductor-deqms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deqms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deqms/meta.yaml>`_
 
-   
+   DEqMS is developped on top of Limma. However\, Limma assumes same prior variance for all genes. In proteomics\, the accuracy of protein abundance estimates varies by the number of peptides\/PSMs quantified in both label\-free and labelled data. Proteins quantification by multiple peptides or PSMs are more accurate. DEqMS package is able to estimate different prior variances for proteins quantified by different number of PSMs\/peptides\, therefore acchieving better accuracy. The package can be applied to analyze both label\-free and labelled proteomics data.
 
 
 .. conda:package:: bioconductor-deqms

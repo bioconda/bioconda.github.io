@@ -9,14 +9,14 @@ bioconductor-aseb
 .. conda:recipe:: bioconductor-aseb
    :replaces_section_title:
 
-   ASEB is an R package to predict lysine sites that can be acetylated by a specific KAT\-family.
+   Predict Acetylated Lysine Sites
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ASEB.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ASEB.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-aseb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aseb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aseb/meta.yaml>`_
    :links: biotools: :biotools:`aseb`, doi: :doi:`10.1093/nar/gks437`
 
-   
+   ASEB is an R package to predict lysine sites that can be acetylated by a specific KAT\-family.
 
 
 .. conda:package:: bioconductor-aseb

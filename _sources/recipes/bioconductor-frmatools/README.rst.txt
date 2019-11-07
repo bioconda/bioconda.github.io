@@ -9,14 +9,14 @@ bioconductor-frmatools
 .. conda:recipe:: bioconductor-frmatools
    :replaces_section_title:
 
-   Tools for advanced use of the frma package.
+   Frozen RMA Tools
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/frmaTools.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/frmaTools.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-frmatools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-frmatools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-frmatools/meta.yaml>`_
    :links: biotools: :biotools:`frmatools`
 
-   
+   Tools for advanced use of the frma package.
 
 
 .. conda:package:: bioconductor-frmatools

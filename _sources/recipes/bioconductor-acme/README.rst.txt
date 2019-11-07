@@ -9,14 +9,14 @@ bioconductor-acme
 .. conda:recipe:: bioconductor-acme
    :replaces_section_title:
 
-   ACME \(Algorithms for Calculating Microarray Enrichment\) is a set of tools for analysing tiling array ChIP\/chip\, DNAse hypersensitivity\, or other experiments that result in regions of the genome showing \"enrichment\".  It does not rely on a specific array technology \(although the array should be a \"tiling\" array\)\, is very general \(can be applied in experiments resulting in regions of enrichment\)\, and is very insensitive to array noise or normalization methods.  It is also very fast and can be applied on whole\-genome tiling array experiments quite easily with enough memory.
+   Algorithms for Calculating Microarray Enrichment \(ACME\)
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ACME.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ACME.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-acme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-acme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-acme/meta.yaml>`_
    :links: biotools: :biotools:`acme`
 
-   
+   ACME \(Algorithms for Calculating Microarray Enrichment\) is a set of tools for analysing tiling array ChIP\/chip\, DNAse hypersensitivity\, or other experiments that result in regions of the genome showing \"enrichment\".  It does not rely on a specific array technology \(although the array should be a \"tiling\" array\)\, is very general \(can be applied in experiments resulting in regions of enrichment\)\, and is very insensitive to array noise or normalization methods.  It is also very fast and can be applied on whole\-genome tiling array experiments quite easily with enough memory.
 
 
 .. conda:package:: bioconductor-acme

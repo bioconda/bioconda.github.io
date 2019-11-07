@@ -9,14 +9,14 @@ bioconductor-refnet
 .. conda:recipe:: bioconductor-refnet
    :replaces_section_title:
 
-   Molecular interactions with metadata\, some archived\, some dynamically obtained
+   A queryable collection of molecular interactions\, from many sources
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RefNet.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RefNet.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-refnet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-refnet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-refnet/meta.yaml>`_
    :links: biotools: :biotools:`refnet`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Obtain molecular interactions with metadata\, some archived\, some dynamically queried.
 
 
 .. conda:package:: bioconductor-refnet

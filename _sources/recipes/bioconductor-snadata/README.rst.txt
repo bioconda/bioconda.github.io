@@ -9,20 +9,20 @@ bioconductor-snadata
 .. conda:recipe:: bioconductor-snadata
    :replaces_section_title:
 
-   Data from Wasserman \& Faust \(1999\) \"Social Network Analysis\"
+   Social Networks Analysis Data Examples
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/SNAData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/SNAData.html
    :license: LGPL
    :recipe: /`bioconductor-snadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snadata/meta.yaml>`_
 
-   
+   Data from Wasserman \& Faust \(1999\) \"Social Network Analysis\"
 
 
 .. conda:package:: bioconductor-snadata
 
    |downloads_bioconductor-snadata| |docker_bioconductor-snadata|
 
-   :versions: 1.31.0-0, 1.30.0-1, 1.28.0-0
+   :versions: 1.32.0-0, 1.30.0-1, 1.28.0-0
    
    :depends bioconductor-graph: >=1.64.0,<1.65.0
    :depends curl: >=7.65.3,<8.0a0

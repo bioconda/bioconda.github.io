@@ -9,14 +9,14 @@ bioconductor-motifstack
 .. conda:recipe:: bioconductor-motifstack
    :replaces_section_title:
 
-   The motifStack package is designed for graphic representation of multiple motifs with different similarity scores. It works with both DNA\/RNA sequence motif and amino acid sequence motif. In addition\, it provides the flexibility for users to customize the graphic parameters such as the font type and symbol colors.
+   Plot stacked logos for single or multiple DNA\, RNA and amino acid sequence
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/motifStack.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/motifStack.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-motifstack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifstack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifstack/meta.yaml>`_
    :links: biotools: :biotools:`motifstack`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   The motifStack package is designed for graphic representation of multiple motifs with different similarity scores. It works with both DNA\/RNA sequence motif and amino acid sequence motif. In addition\, it provides the flexibility for users to customize the graphic parameters such as the font type and symbol colors.
 
 
 .. conda:package:: bioconductor-motifstack

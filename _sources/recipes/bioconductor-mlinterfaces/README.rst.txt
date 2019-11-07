@@ -9,14 +9,14 @@ bioconductor-mlinterfaces
 .. conda:recipe:: bioconductor-mlinterfaces
    :replaces_section_title:
 
-   This package provides uniform interfaces to machine learning code for data in R and Bioconductor containers.
+   Uniform interfaces to R machine learning procedures for data in Bioconductor containers
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MLInterfaces.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MLInterfaces.html
    :license: LGPL
    :recipe: /`bioconductor-mlinterfaces <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mlinterfaces>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mlinterfaces/meta.yaml>`_
    :links: biotools: :biotools:`mlinterfaces`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package provides uniform interfaces to machine learning code for data in R and Bioconductor containers.
 
 
 .. conda:package:: bioconductor-mlinterfaces

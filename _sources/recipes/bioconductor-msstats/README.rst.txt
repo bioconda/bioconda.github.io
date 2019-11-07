@@ -9,13 +9,13 @@ bioconductor-msstats
 .. conda:recipe:: bioconductor-msstats
    :replaces_section_title:
 
-   A set of tools for statistical relative protein significance analysis in DDA\, SRM and DIA experiments.
+   Protein Significance Analysis in DDA\, SRM and DIA for Label\-free or Label\-based Proteomics Experiments
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MSstats.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MSstats.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstats/meta.yaml>`_
 
-   
+   A set of tools for statistical relative protein significance analysis in DDA\, SRM and DIA experiments.
 
 
 .. conda:package:: bioconductor-msstats

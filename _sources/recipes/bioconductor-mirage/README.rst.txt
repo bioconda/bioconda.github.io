@@ -9,14 +9,14 @@ bioconductor-mirage
 .. conda:recipe:: bioconductor-mirage
    :replaces_section_title:
 
-   The package contains functions for inferece of target gene regulation by miRNA\, based on only target gene expression profile.
+   MiRNA Ranking by Gene Expression
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MiRaGE.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MiRaGE.html
    :license: GPL
    :recipe: /`bioconductor-mirage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirage/meta.yaml>`_
    :links: biotools: :biotools:`mirage`
 
-   
+   The package contains functions for inferece of target gene regulation by miRNA\, based on only target gene expression profile.
 
 
 .. conda:package:: bioconductor-mirage

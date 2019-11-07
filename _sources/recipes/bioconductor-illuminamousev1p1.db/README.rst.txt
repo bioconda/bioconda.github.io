@@ -9,13 +9,13 @@ bioconductor-illuminamousev1p1.db
 .. conda:recipe:: bioconductor-illuminamousev1p1.db
    :replaces_section_title:
 
-   Illumina MouseWG6v1p1 annotation data \(chip illuminaMousev1p1\) assembled using data from public repositories
+   Illumina MouseWG6v1p1 annotation data \(chip illuminaMousev1p1\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/illuminaMousev1p1.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/illuminaMousev1p1.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-illuminamousev1p1.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminamousev1p1.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminamousev1p1.db/meta.yaml>`_
 
-   
+   Illumina MouseWG6v1p1 annotation data \(chip illuminaMousev1p1\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-illuminamousev1p1.db

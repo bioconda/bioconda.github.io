@@ -9,13 +9,13 @@ bioconductor-hom.ce.inp.db
 .. conda:recipe:: bioconductor-hom.ce.inp.db
    :replaces_section_title:
 
-   Homology information for Caenorhabditis elegans from Inparanoid assembled using data from public repositories
+   Homology information for Caenorhabditis elegans from Inparanoid
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hom.Ce.inp.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hom.Ce.inp.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hom.ce.inp.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hom.ce.inp.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hom.ce.inp.db/meta.yaml>`_
 
-   
+   Homology information for Caenorhabditis elegans from Inparanoid assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-hom.ce.inp.db

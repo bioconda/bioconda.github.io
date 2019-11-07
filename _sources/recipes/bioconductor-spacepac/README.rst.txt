@@ -9,14 +9,14 @@ bioconductor-spacepac
 .. conda:recipe:: bioconductor-spacepac
    :replaces_section_title:
 
-   Identifies clustering of somatic mutations in proteins via a simulation approach while considering the protein\'s tertiary structure.
+   Identification of Mutational Clusters in 3D Protein Space via Simulation.
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SpacePAC.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SpacePAC.html
    :license: GPL-2
    :recipe: /`bioconductor-spacepac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spacepac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spacepac/meta.yaml>`_
    :links: biotools: :biotools:`spacepac`, doi: :doi:`10.1186/1471-2105-15-231`
 
-   
+   Identifies clustering of somatic mutations in proteins via a simulation approach while considering the protein\'s tertiary structure.
 
 
 .. conda:package:: bioconductor-spacepac

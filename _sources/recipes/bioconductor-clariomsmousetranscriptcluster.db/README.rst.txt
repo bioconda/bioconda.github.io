@@ -9,13 +9,13 @@ bioconductor-clariomsmousetranscriptcluster.db
 .. conda:recipe:: bioconductor-clariomsmousetranscriptcluster.db
    :replaces_section_title:
 
-   Affymetrix clariomsmouse annotation data \(chip clariomsmousetranscriptcluster\) assembled using data from public repositories
+   Affymetrix clariomsmouse annotation data \(chip clariomsmousetranscriptcluster\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/clariomsmousetranscriptcluster.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/clariomsmousetranscriptcluster.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-clariomsmousetranscriptcluster.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clariomsmousetranscriptcluster.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clariomsmousetranscriptcluster.db/meta.yaml>`_
 
-   
+   Affymetrix clariomsmouse annotation data \(chip clariomsmousetranscriptcluster\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-clariomsmousetranscriptcluster.db

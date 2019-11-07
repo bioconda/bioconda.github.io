@@ -9,14 +9,14 @@ bioconductor-cghbase
 .. conda:recipe:: bioconductor-cghbase
    :replaces_section_title:
 
-   Contains functions and classes that are needed by arrayCGH packages.
+   CGHbase\: Base functions and classes for arrayCGH data analysis.
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CGHbase.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CGHbase.html
    :license: GPL
    :recipe: /`bioconductor-cghbase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghbase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghbase/meta.yaml>`_
    :links: biotools: :biotools:`cghbase`, doi: :doi:`10.1016/j.ejmg.2005.10.046`
 
-   
+   Contains functions and classes that are needed by arrayCGH packages.
 
 
 .. conda:package:: bioconductor-cghbase

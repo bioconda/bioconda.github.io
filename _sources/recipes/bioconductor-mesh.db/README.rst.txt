@@ -9,13 +9,13 @@ bioconductor-mesh.db
 .. conda:recipe:: bioconductor-mesh.db
    :replaces_section_title:
 
-   A set of annotation maps describing the entire MeSH assembled using data from MeSH.
+   A set of annotation maps describing the entire MeSH
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/MeSH.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/MeSH.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.db/meta.yaml>`_
 
-   
+   A set of annotation maps describing the entire MeSH assembled using data from MeSH.
 
 
 .. conda:package:: bioconductor-mesh.db

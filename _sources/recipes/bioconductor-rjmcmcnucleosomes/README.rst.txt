@@ -9,13 +9,13 @@ bioconductor-rjmcmcnucleosomes
 .. conda:recipe:: bioconductor-rjmcmcnucleosomes
    :replaces_section_title:
 
-   This package does nucleosome positioning using informative Multinomial\-Dirichlet prior in a t\-mixture with reversible jump estimation of nucleosome positions for genome\-wide profiling.
+   Bayesian hierarchical model for genome\-wide nucleosome positioning with high\-throughput short\-read data \(MNase\-Seq\)
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RJMCMCNucleosomes.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RJMCMCNucleosomes.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rjmcmcnucleosomes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rjmcmcnucleosomes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rjmcmcnucleosomes/meta.yaml>`_
 
-   
+   This package does nucleosome positioning using informative Multinomial\-Dirichlet prior in a t\-mixture with reversible jump estimation of nucleosome positions for genome\-wide profiling.
 
 
 .. conda:package:: bioconductor-rjmcmcnucleosomes

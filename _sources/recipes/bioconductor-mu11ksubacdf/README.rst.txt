@@ -9,13 +9,13 @@ bioconductor-mu11ksubacdf
 .. conda:recipe:: bioconductor-mu11ksubacdf
    :replaces_section_title:
 
-   A package containing an environment representing the Mu11KsubA.CDF file.
+   mu11ksubacdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mu11ksubacdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mu11ksubacdf.html
    :license: LGPL
    :recipe: /`bioconductor-mu11ksubacdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu11ksubacdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu11ksubacdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the Mu11KsubA.CDF file.
 
 
 .. conda:package:: bioconductor-mu11ksubacdf

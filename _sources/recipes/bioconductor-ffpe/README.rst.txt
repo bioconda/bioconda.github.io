@@ -9,14 +9,14 @@ bioconductor-ffpe
 .. conda:recipe:: bioconductor-ffpe
    :replaces_section_title:
 
-   Identify low\-quality data using metrics developed for expression data derived from Formalin\-Fixed\, Paraffin\-Embedded \(FFPE\) data.  Also a function for making Concordance at the Top plots \(CAT\-plots\).
+   Quality assessment and control for FFPE microarray expression data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ffpe.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ffpe.html
    :license: GPL (>2)
    :recipe: /`bioconductor-ffpe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ffpe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ffpe/meta.yaml>`_
    :links: biotools: :biotools:`ffpe`
 
-   
+   Identify low\-quality data using metrics developed for expression data derived from Formalin\-Fixed\, Paraffin\-Embedded \(FFPE\) data.  Also a function for making Concordance at the Top plots \(CAT\-plots\).
 
 
 .. conda:package:: bioconductor-ffpe

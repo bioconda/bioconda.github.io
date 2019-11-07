@@ -11,11 +11,11 @@ bioconductor-pd.bsubtilis
 
    Platform Design Info for The Manufacturer\'s Name Bsubtilis
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.bsubtilis.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.bsubtilis.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.bsubtilis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.bsubtilis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.bsubtilis/meta.yaml>`_
 
-   
+   Platform Design Info for The Manufacturer\'s Name Bsubtilis
 
 
 .. conda:package:: bioconductor-pd.bsubtilis

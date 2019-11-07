@@ -9,13 +9,13 @@ bioconductor-divergence
 .. conda:recipe:: bioconductor-divergence
    :replaces_section_title:
 
-   This package provides functionality for performing divergence analysis as presented in Dinalankara et al\, \"Digitizing omics profiles by divergence from a baseline\"\, PANS 2018. This allows the user to simplify high dimensional omics data into a binary or ternary format which encapsulates how the data is divergent from a specified baseline group with the same univariate or multivariate features.
+   Divergence\: Functionality for assessing omics data by divergence with respect to a baseline
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/divergence.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/divergence.html
    :license: GPL-2
    :recipe: /`bioconductor-divergence <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-divergence>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-divergence/meta.yaml>`_
 
-   
+   This package provides functionality for performing divergence analysis as presented in Dinalankara et al\, \"Digitizing omics profiles by divergence from a baseline\"\, PANS 2018. This allows the user to simplify high dimensional omics data into a binary or ternary format which encapsulates how the data is divergent from a specified baseline group with the same univariate or multivariate features.
 
 
 .. conda:package:: bioconductor-divergence

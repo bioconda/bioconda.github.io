@@ -9,14 +9,14 @@ bioconductor-prize
 .. conda:recipe:: bioconductor-prize
    :replaces_section_title:
 
-   The high throughput studies often produce large amounts of numerous genes and proteins of interest. While it is difficult to study and validate all of them. Analytic Hierarchy Process \(AHP\) offers a novel approach to narrowing down long lists of candidates by prioritizing them based on how well they meet the research goal. AHP is a mathematical technique for organizing and analyzing complex decisions where multiple criteria are involved. The technique structures problems into a hierarchy of elements\, and helps to specify numerical weights representing the relative importance of each element. Numerical weight or priority derived from each element allows users to find alternatives that best suit their goal and their understanding of the problem.
+   Prize\: an R package for prioritization estimation based on analytic hierarchy process
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Prize.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Prize.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-prize <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prize>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prize/meta.yaml>`_
    :links: biotools: :biotools:`prize`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   The high throughput studies often produce large amounts of numerous genes and proteins of interest. While it is difficult to study and validate all of them. Analytic Hierarchy Process \(AHP\) offers a novel approach to narrowing down long lists of candidates by prioritizing them based on how well they meet the research goal. AHP is a mathematical technique for organizing and analyzing complex decisions where multiple criteria are involved. The technique structures problems into a hierarchy of elements\, and helps to specify numerical weights representing the relative importance of each element. Numerical weight or priority derived from each element allows users to find alternatives that best suit their goal and their understanding of the problem.
 
 
 .. conda:package:: bioconductor-prize

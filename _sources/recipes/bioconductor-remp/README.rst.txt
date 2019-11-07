@@ -9,13 +9,13 @@ bioconductor-remp
 .. conda:recipe:: bioconductor-remp
    :replaces_section_title:
 
-   Machine learning\-based tools to predict DNA methylation of locus\-specific repetitive elements \(RE\) by learning surrounding genetic and epigenetic information. These tools provide genomewide and single\-base resolution of DNA methylation prediction on RE that are difficult to measure using array\-based or sequencing\-based platforms\, which enables epigenome\-wide association study \(EWAS\) and differentially methylated region \(DMR\) analysis on RE.
+   Repetitive Element Methylation Prediction
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/REMP.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/REMP.html
    :license: GPL-3
    :recipe: /`bioconductor-remp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-remp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-remp/meta.yaml>`_
 
-   
+   Machine learning\-based tools to predict DNA methylation of locus\-specific repetitive elements \(RE\) by learning surrounding genetic and epigenetic information. These tools provide genomewide and single\-base resolution of DNA methylation prediction on RE that are difficult to measure using array\-based or sequencing\-based platforms\, which enables epigenome\-wide association study \(EWAS\) and differentially methylated region \(DMR\) analysis on RE.
 
 
 .. conda:package:: bioconductor-remp

@@ -9,13 +9,13 @@ bioconductor-immunoclust
 .. conda:recipe:: bioconductor-immunoclust
    :replaces_section_title:
 
-   Model based clustering and meta\-clustering of Flow Cytometry Data
+   immunoClust \- Automated Pipeline for Population Detection in Flow Cytometry
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/immunoClust.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/immunoClust.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-immunoclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-immunoclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-immunoclust/meta.yaml>`_
 
-   
+   Model based clustering and meta\-clustering of Flow Cytometry Data
 
 
 .. conda:package:: bioconductor-immunoclust

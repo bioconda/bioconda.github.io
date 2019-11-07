@@ -9,14 +9,14 @@ bioconductor-philr
 .. conda:recipe:: bioconductor-philr
    :replaces_section_title:
 
-   PhILR is short for Phylogenetic Isometric Log\-Ratio Transform. This package provides functions for the analysis of compositional data \(e.g.\, data representing proportions of different variables\/parts\). Specifically this package allows analysis of compositional data where the parts can be related through a phylogenetic tree \(as is common in microbiota survey data\) and makes available the Isometric Log Ratio transform built from the phylogenetic tree and utilizing a weighted reference measure.
+   Phylogenetic partitioning based ILR transform for metagenomics data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/philr.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/philr.html
    :license: GPL-3
    :recipe: /`bioconductor-philr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-philr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-philr/meta.yaml>`_
    :links: biotools: :biotools:`philr`
 
-   
+   PhILR is short for Phylogenetic Isometric Log\-Ratio Transform. This package provides functions for the analysis of compositional data \(e.g.\, data representing proportions of different variables\/parts\). Specifically this package allows analysis of compositional data where the parts can be related through a phylogenetic tree \(as is common in microbiota survey data\) and makes available the Isometric Log Ratio transform built from the phylogenetic tree and utilizing a weighted reference measure.
 
 
 .. conda:package:: bioconductor-philr

@@ -9,14 +9,14 @@ bioconductor-pics
 .. conda:recipe:: bioconductor-pics
    :replaces_section_title:
 
-   Probabilistic inference of ChIP\-Seq using an empirical Bayes mixture model approach.
+   Probabilistic inference of ChIP\-seq
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PICS.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PICS.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pics/meta.yaml>`_
    :links: biotools: :biotools:`pics`
 
-   
+   Probabilistic inference of ChIP\-Seq using an empirical Bayes mixture model approach.
 
 
 .. conda:package:: bioconductor-pics

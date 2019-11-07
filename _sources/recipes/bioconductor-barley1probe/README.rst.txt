@@ -9,13 +9,13 @@ bioconductor-barley1probe
 .. conda:recipe:: bioconductor-barley1probe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Barley1\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type barley1
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/barley1probe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/barley1probe.html
    :license: LGPL
    :recipe: /`bioconductor-barley1probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-barley1probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-barley1probe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Barley1\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-barley1probe

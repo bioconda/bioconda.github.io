@@ -9,14 +9,14 @@ bioconductor-cpvsnp
 .. conda:recipe:: bioconductor-cpvsnp
    :replaces_section_title:
 
-   Gene set analysis methods exist to combine SNP\-level association p\-values into gene sets\, calculating a single association p\-value for each gene set. This package implements two such methods that require only the calculated SNP p\-values\, the gene set\(s\) of interest\, and a correlation matrix \(if desired\). One method \(GLOSSI\) requires independent SNPs and the other \(VEGAS\) can take into account correlation \(LD\) among the SNPs. Built\-in plotting functions are available to help users visualize results.
+   Gene set analysis methods for SNP association p\-values that lie in genes in given gene sets
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/cpvSNP.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/cpvSNP.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cpvsnp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cpvsnp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cpvsnp/meta.yaml>`_
    :links: biotools: :biotools:`cpvsnp`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Gene set analysis methods exist to combine SNP\-level association p\-values into gene sets\, calculating a single association p\-value for each gene set. This package implements two such methods that require only the calculated SNP p\-values\, the gene set\(s\) of interest\, and a correlation matrix \(if desired\). One method \(GLOSSI\) requires independent SNPs and the other \(VEGAS\) can take into account correlation \(LD\) among the SNPs. Built\-in plotting functions are available to help users visualize results.
 
 
 .. conda:package:: bioconductor-cpvsnp

@@ -9,13 +9,13 @@ bioconductor-batchelor
 .. conda:recipe:: bioconductor-batchelor
    :replaces_section_title:
 
-   Implements a variety of methods for batch correction of single\-cell \(RNA sequencing\) data. This includes methods based on detecting mutually nearest neighbors as well as a simple sparsity\-preserving translation of the population means. Functions are also provided for global rescaling to remove differences in depth between batches\, and to perform a principal components analysis that is robust to differences in the numbers of cells across different batches.
+   Single\-Cell Batch Correction Methods
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/batchelor.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/batchelor.html
    :license: GPL-3
    :recipe: /`bioconductor-batchelor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-batchelor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-batchelor/meta.yaml>`_
 
-   
+   Implements a variety of methods for batch correction of single\-cell \(RNA sequencing\) data. This includes methods based on detecting mutually nearest neighbors\, as well as several efficient variants of linear regression of the log\-expression values. Functions are also provided to perform global rescaling to remove differences in depth between batches\, and to perform a principal components analysis that is robust to differences in the numbers of cells across batches.
 
 
 .. conda:package:: bioconductor-batchelor

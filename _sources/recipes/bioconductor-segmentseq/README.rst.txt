@@ -9,14 +9,14 @@ bioconductor-segmentseq
 .. conda:recipe:: bioconductor-segmentseq
    :replaces_section_title:
 
-   High\-throughput sequencing technologies allow the production of large volumes of short sequences\, which can be aligned to the genome to create a set of matches to the genome. By looking for regions of the genome which to which there are high densities of matches\, we can infer a segmentation of the genome into regions of biological significance. The methods in this package allow the simultaneous segmentation of data from multiple samples\, taking into account replicate data\, in order to create a consensus segmentation. This has obvious applications in a number of classes of sequencing experiments\, particularly in the discovery of small RNA loci and novel mRNA transcriptome discovery.
+   Methods for identifying small RNA loci from high\-throughput sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/segmentSeq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/segmentSeq.html
    :license: GPL-3
    :recipe: /`bioconductor-segmentseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-segmentseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-segmentseq/meta.yaml>`_
    :links: biotools: :biotools:`segmentseq`, doi: :doi:`10.1093/bioinformatics/btr687`
 
-   
+   High\-throughput sequencing technologies allow the production of large volumes of short sequences\, which can be aligned to the genome to create a set of matches to the genome. By looking for regions of the genome which to which there are high densities of matches\, we can infer a segmentation of the genome into regions of biological significance. The methods in this package allow the simultaneous segmentation of data from multiple samples\, taking into account replicate data\, in order to create a consensus segmentation. This has obvious applications in a number of classes of sequencing experiments\, particularly in the discovery of small RNA loci and novel mRNA transcriptome discovery.
 
 
 .. conda:package:: bioconductor-segmentseq

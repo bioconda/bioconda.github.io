@@ -9,13 +9,13 @@ bioconductor-chrogps
 .. conda:recipe:: bioconductor-chrogps
    :replaces_section_title:
 
-   We provide intuitive maps to visualize\, analyze and compare the association between genetic elements based on their epigenetic profiles. The approach is based on Multi\-Dimensional Scaling\, and includes a parallelized implementation for handling high dimensional datasets. We provide several sensible distance metrics\, and adjustment procedures to remove systematic biases typically observed when merging data obtained under different technologies or genetic backgrounds. We also provide functions and methods to perform differential analysis of epigenome maps at factor and gene level.
+   chroGPS2\: Generation\, visualization and differential analysis of epigenome maps
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/chroGPS.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/chroGPS.html
    :license: GPL (>=2.14)
    :recipe: /`bioconductor-chrogps <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chrogps>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chrogps/meta.yaml>`_
 
-   
+   We provide intuitive maps to visualize\, analyze and compare the association between genetic elements based on their epigenetic profiles. The approach is based on Multi\-Dimensional Scaling\, and includes a parallelized implementation for handling high dimensional datasets. We provide several sensible distance metrics\, and adjustment procedures to remove systematic biases typically observed when merging data obtained under different technologies or genetic backgrounds. We also provide functions and methods to perform differential analysis of epigenome maps at factor and gene level.
 
 
 .. conda:package:: bioconductor-chrogps

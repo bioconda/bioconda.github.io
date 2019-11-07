@@ -11,11 +11,11 @@ bioconductor-pd.rn.u34
 
    Platform Design Info for The Manufacturer\'s Name RN\_U34
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.rn.u34.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.rn.u34.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.rn.u34 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.rn.u34>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.rn.u34/meta.yaml>`_
 
-   
+   Platform Design Info for The Manufacturer\'s Name RN\_U34
 
 
 .. conda:package:: bioconductor-pd.rn.u34

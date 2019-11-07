@@ -9,14 +9,14 @@ bioconductor-sushi
 .. conda:recipe:: bioconductor-sushi
    :replaces_section_title:
 
-   Flexible\, quantitative\, and integrative genomic visualizations for publication\-quality multi\-panel figures
+   Tools for visualizing genomics data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Sushi.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Sushi.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-sushi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sushi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sushi/meta.yaml>`_
    :links: biotools: :biotools:`sushi`, doi: :doi:`10.1093/bioinformatics/btu379`
 
-   
+   Flexible\, quantitative\, and integrative genomic visualizations for publication\-quality multi\-panel figures
 
 
 .. conda:package:: bioconductor-sushi

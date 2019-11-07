@@ -9,20 +9,20 @@ bioconductor-geuvstore2
 .. conda:recipe:: bioconductor-geuvstore2
    :replaces_section_title:
 
-   demonstrate storage discipline for eQTL enumerations and analyses based on a selection of GEUVADIS results
+   demonstrate storage discipline for eQTL enumerations\, revised
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/geuvStore2.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/geuvStore2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-geuvstore2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geuvstore2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geuvstore2/meta.yaml>`_
 
-   
+   demonstrate storage discipline for eQTL enumerations and analyses based on a selection of GEUVADIS results
 
 
 .. conda:package:: bioconductor-geuvstore2
 
    |downloads_bioconductor-geuvstore2| |docker_bioconductor-geuvstore2|
 
-   :versions: 1.15.0-0, 1.14.0-1, 1.12.0-0
+   :versions: 1.16.0-0, 1.14.0-1, 1.12.0-0
    
    :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
    :depends bioconductor-gqtlbase: >=1.18.0,<1.19.0

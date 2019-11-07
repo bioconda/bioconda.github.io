@@ -9,14 +9,14 @@ bioconductor-ichip
 .. conda:recipe:: bioconductor-ichip
    :replaces_section_title:
 
-   Hidden Ising models are implemented to identify enriched genomic regions in ChIP\-chip data.  They can be used to analyze the data from multiple platforms \(e.g.\, Affymetrix\, Agilent\, and NimbleGen\)\, and the data with single to multiple replicates.
+   Bayesian Modeling of ChIP\-chip Data Through Hidden Ising Models
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/iChip.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/iChip.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ichip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ichip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ichip/meta.yaml>`_
    :links: biotools: :biotools:`ichip`, doi: :doi:`10.1093/bioinformatics/btq032`
 
-   
+   Hidden Ising models are implemented to identify enriched genomic regions in ChIP\-chip data.  They can be used to analyze the data from multiple platforms \(e.g.\, Affymetrix\, Agilent\, and NimbleGen\)\, and the data with single to multiple replicates.
 
 
 .. conda:package:: bioconductor-ichip

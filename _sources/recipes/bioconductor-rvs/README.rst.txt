@@ -9,13 +9,13 @@ bioconductor-rvs
 .. conda:recipe:: bioconductor-rvs
    :replaces_section_title:
 
-   Rare Variant Sharing \(RVS\) implements tests of association and linkage between rare genetic variant genotypes and a dichotomous phenotype\, e.g. a disease status\, in family samples. The tests are based on probabilities of rare variant sharing by relatives under the null hypothesis of absence of linkage and association between the rare variants and the phenotype and apply to single variants or multiple variants in a region \(e.g. gene\-based test\).
+   Computes estimates of the probability of related individuals sharing a rare variant
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RVS.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RVS.html
    :license: GPL-2
    :recipe: /`bioconductor-rvs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rvs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rvs/meta.yaml>`_
 
-   
+   Rare Variant Sharing \(RVS\) implements tests of association and linkage between rare genetic variant genotypes and a dichotomous phenotype\, e.g. a disease status\, in family samples. The tests are based on probabilities of rare variant sharing by relatives under the null hypothesis of absence of linkage and association between the rare variants and the phenotype and apply to single variants or multiple variants in a region \(e.g. gene\-based test\).
 
 
 .. conda:package:: bioconductor-rvs

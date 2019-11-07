@@ -9,13 +9,13 @@ bioconductor-impcdata
 .. conda:recipe:: bioconductor-impcdata
    :replaces_section_title:
 
-   Package contains methods for data retrieval from IMPC Database.
+   Retrieves data from IMPC database
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/IMPCdata.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/IMPCdata.html
    :license: file LICENSE
    :recipe: /`bioconductor-impcdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-impcdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-impcdata/meta.yaml>`_
 
-   
+   Package contains methods for data retrieval from IMPC Database.
 
 
 .. conda:package:: bioconductor-impcdata

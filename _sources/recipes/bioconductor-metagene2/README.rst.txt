@@ -9,13 +9,13 @@ bioconductor-metagene2
 .. conda:recipe:: bioconductor-metagene2
    :replaces_section_title:
 
-   This package produces metagene plots to compare coverages of sequencing experiments at selected groups of genomic regions. It can be used for such analyses as assessing the binding of DNA\-interacting proteins at promoter regions or surveying antisense transcription over the length of a gene. The metagene2 package can manage all aspects of the analysis\, from normalization of coverages to plot facetting according to experimental metadata. Bootstraping analysis is used to provide confidence intervals of per\-sample mean coverages.
+   A package to produce metagene plots
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/metagene2.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/metagene2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-metagene2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagene2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagene2/meta.yaml>`_
 
-   
+   This package produces metagene plots to compare coverages of sequencing experiments at selected groups of genomic regions. It can be used for such analyses as assessing the binding of DNA\-interacting proteins at promoter regions or surveying antisense transcription over the length of a gene. The metagene2 package can manage all aspects of the analysis\, from normalization of coverages to plot facetting according to experimental metadata. Bootstraping analysis is used to provide confidence intervals of per\-sample mean coverages.
 
 
 .. conda:package:: bioconductor-metagene2

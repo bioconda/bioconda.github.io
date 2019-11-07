@@ -9,20 +9,20 @@ bioconductor-confessdata
 .. conda:recipe:: bioconductor-confessdata
    :replaces_section_title:
 
-   Example text\-converted C01 image files for use in the CONFESS Bioconductor package.
+   Example dataset for CONFESS package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/CONFESSdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/CONFESSdata.html
    :license: GPL-2
    :recipe: /`bioconductor-confessdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-confessdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-confessdata/meta.yaml>`_
 
-   
+   Example text\-converted C01 image files for use in the CONFESS Bioconductor package.
 
 
 .. conda:package:: bioconductor-confessdata
 
    |downloads_bioconductor-confessdata| |docker_bioconductor-confessdata|
 
-   :versions: 1.13.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

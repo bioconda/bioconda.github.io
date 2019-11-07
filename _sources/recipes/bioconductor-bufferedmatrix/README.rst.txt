@@ -9,14 +9,14 @@ bioconductor-bufferedmatrix
 .. conda:recipe:: bioconductor-bufferedmatrix
    :replaces_section_title:
 
-   A tabular style data object where most data is stored outside main memory. A buffer is used to speed up access to data.
+   A matrix data storage object held in temporary files
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BufferedMatrix.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BufferedMatrix.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-bufferedmatrix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bufferedmatrix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bufferedmatrix/meta.yaml>`_
    :links: biotools: :biotools:`bufferedmatrix`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   A tabular style data object where most data is stored outside main memory. A buffer is used to speed up access to data.
 
 
 .. conda:package:: bioconductor-bufferedmatrix

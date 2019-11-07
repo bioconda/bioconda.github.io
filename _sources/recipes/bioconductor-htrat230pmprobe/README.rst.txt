@@ -9,13 +9,13 @@ bioconductor-htrat230pmprobe
 .. conda:recipe:: bioconductor-htrat230pmprobe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was HT\\\_Rat230\\\_PM\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type htrat230pm
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/htrat230pmprobe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/htrat230pmprobe.html
    :license: LGPL
    :recipe: /`bioconductor-htrat230pmprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htrat230pmprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htrat230pmprobe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was HT\\\_Rat230\\\_PM\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-htrat230pmprobe

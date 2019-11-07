@@ -9,13 +9,13 @@ bioconductor-affypara
 .. conda:recipe:: bioconductor-affypara
    :replaces_section_title:
 
-   The package contains parallelized functions for exploratory oligonucleotide array analysis. The package is designed for large numbers of microarray data.
+   Parallelized preprocessing methods for Affymetrix Oligonucleotide Arrays
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/affyPara.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/affyPara.html
    :license: GPL-3
    :recipe: /`bioconductor-affypara <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affypara>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affypara/meta.yaml>`_
 
-   
+   The package contains parallelized functions for exploratory oligonucleotide array analysis. The package is designed for large numbers of microarray data.
 
 
 .. conda:package:: bioconductor-affypara

@@ -9,14 +9,14 @@ bioconductor-csaw
 .. conda:recipe:: bioconductor-csaw
    :replaces_section_title:
 
-   Detection of differentially bound regions in ChIP\-seq data with sliding windows\, with methods for normalization and proper FDR control.
+   ChIP\-Seq Analysis with Windows
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/csaw.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/csaw.html
    :license: GPL-3
    :recipe: /`bioconductor-csaw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-csaw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-csaw/meta.yaml>`_
    :links: biotools: :biotools:`csaw`
 
-   
+   Detection of differentially bound regions in ChIP\-seq data with sliding windows\, with methods for normalization and proper FDR control.
 
 
 .. conda:package:: bioconductor-csaw

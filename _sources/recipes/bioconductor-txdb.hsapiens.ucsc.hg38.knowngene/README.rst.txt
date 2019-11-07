@@ -9,13 +9,13 @@ bioconductor-txdb.hsapiens.ucsc.hg38.knowngene
 .. conda:recipe:: bioconductor-txdb.hsapiens.ucsc.hg38.knowngene
    :replaces_section_title:
 
-   Exposes an annotation databases generated from UCSC by exposing these as TxDb objects
+   Annotation package for TxDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/TxDb.Hsapiens.UCSC.hg38.knownGene.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/TxDb.Hsapiens.UCSC.hg38.knownGene.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.hsapiens.ucsc.hg38.knowngene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene/meta.yaml>`_
 
-   
+   Exposes an annotation databases generated from UCSC by exposing these as TxDb objects
 
 
 .. conda:package:: bioconductor-txdb.hsapiens.ucsc.hg38.knowngene

@@ -9,14 +9,14 @@ bioconductor-parody
 .. conda:recipe:: bioconductor-parody
    :replaces_section_title:
 
-   routines for univariate and multivariate outlier detection with a focus on parametric methods\, but support for some methods based on resistant statistics
+   Parametric And Resistant Outlier DYtection
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/parody.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/parody.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-parody <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-parody>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-parody/meta.yaml>`_
    :links: biotools: :biotools:`parody`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   routines for univariate and multivariate outlier detection with a focus on parametric methods\, but support for some methods based on resistant statistics
 
 
 .. conda:package:: bioconductor-parody

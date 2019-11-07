@@ -9,13 +9,13 @@ bioconductor-cydar
 .. conda:recipe:: bioconductor-cydar
    :replaces_section_title:
 
-   Identifies differentially abundant populations between samples and groups in mass cytometry data. Provides methods for counting cells into hyperspheres\, controlling the spatial false discovery rate\, and visualizing changes in abundance in the high\-dimensional marker space.
+   Using Mass Cytometry for Differential Abundance Analyses
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/cydar.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/cydar.html
    :license: GPL-3
    :recipe: /`bioconductor-cydar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cydar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cydar/meta.yaml>`_
 
-   
+   Identifies differentially abundant populations between samples and groups in mass cytometry data. Provides methods for counting cells into hyperspheres\, controlling the spatial false discovery rate\, and visualizing changes in abundance in the high\-dimensional marker space.
 
 
 .. conda:package:: bioconductor-cydar

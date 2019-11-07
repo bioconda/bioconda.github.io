@@ -9,14 +9,14 @@ bioconductor-rgreat
 .. conda:recipe:: bioconductor-rgreat
    :replaces_section_title:
 
-   This package makes GREAT \(Genomic Regions Enrichment of Annotations Tool\) analysis automatic by constructing a HTTP POST request according to user\'s input and automatically retrieving results from GREAT web server.
+   Client for GREAT Analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/rGREAT.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/rGREAT.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-rgreat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgreat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgreat/meta.yaml>`_
    :links: biotools: :biotools:`rgreat`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package makes GREAT \(Genomic Regions Enrichment of Annotations Tool\) analysis automatic by constructing a HTTP POST request according to user\'s input and automatically retrieving results from GREAT web server.
 
 
 .. conda:package:: bioconductor-rgreat

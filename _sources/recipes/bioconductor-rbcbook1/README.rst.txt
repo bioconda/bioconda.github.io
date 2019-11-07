@@ -9,14 +9,14 @@ bioconductor-rbcbook1
 .. conda:recipe:: bioconductor-rbcbook1
    :replaces_section_title:
 
-   tools for building book
+   Support for Springer monograph on Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RbcBook1.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RbcBook1.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rbcbook1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbcbook1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbcbook1/meta.yaml>`_
    :links: biotools: :biotools:`rbcbook1`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   tools for building book
 
 
 .. conda:package:: bioconductor-rbcbook1

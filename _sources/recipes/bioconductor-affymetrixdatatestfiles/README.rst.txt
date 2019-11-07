@@ -9,20 +9,20 @@ bioconductor-affymetrixdatatestfiles
 .. conda:recipe:: bioconductor-affymetrixdatatestfiles
    :replaces_section_title:
 
-   This package contains annotation data files and sample data files of Affymetrix file formats.  The files originate from the Affymetrix\' Fusion SDK distribution and other official sources.
+   Affymetrix data files \(CEL\, CDF\, CHP\, EXP\, PGF\, PSI\) for testing
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/AffymetrixDataTestFiles.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/AffymetrixDataTestFiles.html
    :license: LGPL-2.1
    :recipe: /`bioconductor-affymetrixdatatestfiles <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affymetrixdatatestfiles>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affymetrixdatatestfiles/meta.yaml>`_
 
-   
+   This package contains annotation data files and sample data files of Affymetrix file formats.  The files originate from the Affymetrix\' Fusion SDK distribution and other official sources.
 
 
 .. conda:package:: bioconductor-affymetrixdatatestfiles
 
    |downloads_bioconductor-affymetrixdatatestfiles| |docker_bioconductor-affymetrixdatatestfiles|
 
-   :versions: 0.23.0-0, 0.22.0-1, 0.22.0-0, 0.20.0-0
+   :versions: 0.24.0-0, 0.22.0-1, 0.22.0-0, 0.20.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

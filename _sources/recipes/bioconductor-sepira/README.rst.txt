@@ -9,13 +9,13 @@ bioconductor-sepira
 .. conda:recipe:: bioconductor-sepira
    :replaces_section_title:
 
-   SEPIRA \(Systems EPigenomics Inference of Regulatory Activity\) is an algorithm that infers sample\-specific transcription factor activity from the genome\-wide expression or DNA methylation profile of the sample.
+   Systems EPigenomics Inference of Regulatory Activity
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SEPIRA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SEPIRA.html
    :license: GPL-3
    :recipe: /`bioconductor-sepira <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sepira>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sepira/meta.yaml>`_
 
-   
+   SEPIRA \(Systems EPigenomics Inference of Regulatory Activity\) is an algorithm that infers sample\-specific transcription factor activity from the genome\-wide expression or DNA methylation profile of the sample.
 
 
 .. conda:package:: bioconductor-sepira

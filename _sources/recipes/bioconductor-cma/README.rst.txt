@@ -9,14 +9,14 @@ bioconductor-cma
 .. conda:recipe:: bioconductor-cma
    :replaces_section_title:
 
-   This package provides a comprehensive collection of various microarray\-based classification algorithms both from Machine Learning and Statistics. Variable Selection\, Hyperparameter tuning\, Evaluation and Comparison can be performed combined or stepwise in a user\-friendly environment.
+   Synthesis of microarray\-based classification
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CMA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CMA.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-cma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cma/meta.yaml>`_
    :links: biotools: :biotools:`cma`, doi: :doi:`10.1186/1471-2105-9-439`
 
-   
+   This package provides a comprehensive collection of various microarray\-based classification algorithms both from Machine Learning and Statistics. Variable Selection\, Hyperparameter tuning\, Evaluation and Comparison can be performed combined or stepwise in a user\-friendly environment.
 
 
 .. conda:package:: bioconductor-cma

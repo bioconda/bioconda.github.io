@@ -9,22 +9,22 @@ bioconductor-rtcga.mirnaseq
 .. conda:recipe:: bioconductor-rtcga.mirnaseq
    :replaces_section_title:
 
-   Package provides miRNASeq datasets from The Cancer Genome Atlas Project for all available cohorts types from http\:\/\/gdac.broadinstitute.org\/. Data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/miRNASeq\#miRNASeq\-DataOverview Data from 2015\-11\-01 snapshot.
+   miRNASeq datasets from The Cancer Genome Atlas Project
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RTCGA.miRNASeq.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RTCGA.miRNASeq.html
    :license: GPL-2
    :recipe: /`bioconductor-rtcga.mirnaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.mirnaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.mirnaseq/meta.yaml>`_
 
-   
+   Package provides miRNASeq datasets from The Cancer Genome Atlas Project for all available cohorts types from http\:\/\/gdac.broadinstitute.org\/. Data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/miRNASeq\#miRNASeq\-DataOverview Data from 2015\-11\-01 snapshot.
 
 
 .. conda:package:: bioconductor-rtcga.mirnaseq
 
    |downloads_bioconductor-rtcga.mirnaseq| |docker_bioconductor-rtcga.mirnaseq|
 
-   :versions: 1.13.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0
+   :versions: 1.12.0-1, 1.12.0-0, 1.10.0-0
    
-   :depends bioconductor-rtcga: >=1.16.0,<1.17.0
+   :depends bioconductor-rtcga: >=1.14.0,<1.15.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

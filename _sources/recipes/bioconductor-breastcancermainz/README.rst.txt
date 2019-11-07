@@ -9,20 +9,20 @@ bioconductor-breastcancermainz
 .. conda:recipe:: bioconductor-breastcancermainz
    :replaces_section_title:
 
-   Gene expression data from the breast cancer study published by Schmidt et al. in 2008\, provided as an eSet.
+   Gene expression dataset published by Schmidt et al. \[2008\] \(MAINZ\).
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/breastCancerMAINZ.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/breastCancerMAINZ.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-breastcancermainz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancermainz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancermainz/meta.yaml>`_
 
-   
+   Gene expression data from the breast cancer study published by Schmidt et al. in 2008\, provided as an eSet.
 
 
 .. conda:package:: bioconductor-breastcancermainz
 
    |downloads_bioconductor-breastcancermainz| |docker_bioconductor-breastcancermainz|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

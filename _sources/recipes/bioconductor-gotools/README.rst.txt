@@ -9,14 +9,14 @@ bioconductor-gotools
 .. conda:recipe:: bioconductor-gotools
    :replaces_section_title:
 
-   Wraper functions for description\/comparison of oligo ID list using Gene Ontology database
+   Functions for Gene Ontology database
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/goTools.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/goTools.html
    :license: GPL-2
    :recipe: /`bioconductor-gotools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gotools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gotools/meta.yaml>`_
    :links: biotools: :biotools:`gotools`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Wraper functions for description\/comparison of oligo ID list using Gene Ontology database
 
 
 .. conda:package:: bioconductor-gotools

@@ -9,13 +9,13 @@ bioconductor-m3c
 .. conda:recipe:: bioconductor-m3c
    :replaces_section_title:
 
-   M3C is a consensus clustering algorithm that uses a Monte Carlo simulation to eliminate overfitting and can reject the null hypothesis K\=1.
+   Monte Carlo Reference\-based Consensus Clustering
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/M3C.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/M3C.html
    :license: AGPL-3
    :recipe: /`bioconductor-m3c <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m3c>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m3c/meta.yaml>`_
 
-   
+   M3C is a consensus clustering algorithm that uses a Monte Carlo simulation to eliminate overestimation of K and can reject the null hypothesis K\=1.
 
 
 .. conda:package:: bioconductor-m3c

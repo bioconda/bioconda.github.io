@@ -9,13 +9,13 @@ bioconductor-imetagene
 .. conda:recipe:: bioconductor-imetagene
    :replaces_section_title:
 
-   This package provide a graphical user interface to the metagene package. This will allow people with minimal R experience to easily complete metagene analysis.
+   A graphical interface for the metagene package
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Imetagene.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Imetagene.html
    :license: Artistic-2.0 | file LICENSE
    :recipe: /`bioconductor-imetagene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-imetagene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-imetagene/meta.yaml>`_
 
-   
+   This package provide a graphical user interface to the metagene package. This will allow people with minimal R experience to easily complete metagene analysis.
 
 
 .. conda:package:: bioconductor-imetagene

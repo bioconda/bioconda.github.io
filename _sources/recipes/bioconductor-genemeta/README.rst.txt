@@ -9,14 +9,14 @@ bioconductor-genemeta
 .. conda:recipe:: bioconductor-genemeta
    :replaces_section_title:
 
-   A collection of meta\-analysis tools for analysing high throughput experimental data
+   MetaAnalysis for High Throughput Experiments
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GeneMeta.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GeneMeta.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genemeta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genemeta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genemeta/meta.yaml>`_
    :links: biotools: :biotools:`genemeta`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   A collection of meta\-analysis tools for analysing high throughput experimental data
 
 
 .. conda:package:: bioconductor-genemeta

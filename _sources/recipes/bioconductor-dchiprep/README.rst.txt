@@ -9,14 +9,14 @@ bioconductor-dchiprep
 .. conda:recipe:: bioconductor-dchiprep
    :replaces_section_title:
 
-   The DChIPRep package implements a methodology to assess differences between chromatin modification profiles in replicated ChIP\-Seq studies as described in Chabbert et. al \- http\:\/\/www.dx.doi.org\/10.15252\/msb.20145776. A detailed description of the method is given in the software paper at https\:\/\/doi.org\/10.7717\/peerj.1981
+   DChIPRep \- Analysis of chromatin modification ChIP\-Seq data with replication
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DChIPRep.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DChIPRep.html
    :license: MIT + file LICENCE
    :recipe: /`bioconductor-dchiprep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dchiprep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dchiprep/meta.yaml>`_
    :links: biotools: :biotools:`dchiprep`
 
-   
+   The DChIPRep package implements a methodology to assess differences between chromatin modification profiles in replicated ChIP\-Seq studies as described in Chabbert et. al \- http\:\/\/www.dx.doi.org\/10.15252\/msb.20145776. A detailed description of the method is given in the software paper at https\:\/\/doi.org\/10.7717\/peerj.1981
 
 
 .. conda:package:: bioconductor-dchiprep

@@ -9,13 +9,13 @@ bioconductor-hireadsprocessor
 .. conda:recipe:: bioconductor-hireadsprocessor
    :replaces_section_title:
 
-   hiReadsProcessor contains set of functions which allow users to process LM\-PCR products sequenced using any platform. Given an excel\/txt file containing parameters for demultiplexing and sample metadata\, the functions automate trimming of adaptors and identification of the genomic product. Genomic products are further processed for QC and abundance quantification.
+   Functions to process LM\-PCR reads from 454\/Illumina data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/hiReadsProcessor.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/hiReadsProcessor.html
    :license: GPL-3
    :recipe: /`bioconductor-hireadsprocessor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hireadsprocessor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hireadsprocessor/meta.yaml>`_
 
-   
+   hiReadsProcessor contains set of functions which allow users to process LM\-PCR products sequenced using any platform. Given an excel\/txt file containing parameters for demultiplexing and sample metadata\, the functions automate trimming of adaptors and identification of the genomic product. Genomic products are further processed for QC and abundance quantification.
 
 
 .. conda:package:: bioconductor-hireadsprocessor

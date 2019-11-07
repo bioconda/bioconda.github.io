@@ -9,13 +9,13 @@ bioconductor-hcabrowser
 .. conda:recipe:: bioconductor-hcabrowser
    :replaces_section_title:
 
-   Search\, browse\, reference\, and download resources from the Human Cell Atlas data portal. Development of this package is supported through funds from the Chan \/ Zuckerberg initiative.
+   Browse the Human Cell Atlas data portal
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/HCABrowser.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/HCABrowser.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hcabrowser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hcabrowser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hcabrowser/meta.yaml>`_
 
-   
+   Search\, browse\, reference\, and download resources from the Human Cell Atlas data portal. Development of this package is supported through funds from the Chan \/ Zuckerberg initiative.
 
 
 .. conda:package:: bioconductor-hcabrowser

@@ -9,13 +9,13 @@ bioconductor-h10kcod.db
 .. conda:recipe:: bioconductor-h10kcod.db
    :replaces_section_title:
 
-   Codelink UniSet Human I Bioarray \(\~10 000 human genes\) annotation data \(chip h10kcod\) assembled using data from public repositories
+   Codelink UniSet Human I Bioarray \(\~10 000 human genes\) annotation data \(chip h10kcod\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/h10kcod.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/h10kcod.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-h10kcod.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-h10kcod.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-h10kcod.db/meta.yaml>`_
 
-   
+   Codelink UniSet Human I Bioarray \(\~10 000 human genes\) annotation data \(chip h10kcod\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-h10kcod.db

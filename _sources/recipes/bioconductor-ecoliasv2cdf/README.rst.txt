@@ -9,13 +9,13 @@ bioconductor-ecoliasv2cdf
 .. conda:recipe:: bioconductor-ecoliasv2cdf
    :replaces_section_title:
 
-   A package containing an environment representing the Ecoli\_ASv2.CDF file.
+   ecoliasv2cdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/ecoliasv2cdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/ecoliasv2cdf.html
    :license: LGPL
    :recipe: /`bioconductor-ecoliasv2cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecoliasv2cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecoliasv2cdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the Ecoli\_ASv2.CDF file.
 
 
 .. conda:package:: bioconductor-ecoliasv2cdf

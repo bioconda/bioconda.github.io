@@ -9,13 +9,13 @@ bioconductor-ye6100subbcdf
 .. conda:recipe:: bioconductor-ye6100subbcdf
    :replaces_section_title:
 
-   A package containing an environment representing the Ye6100subB.CDF file.
+   ye6100subbcdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/ye6100subbcdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/ye6100subbcdf.html
    :license: LGPL
    :recipe: /`bioconductor-ye6100subbcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ye6100subbcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ye6100subbcdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the Ye6100subB.CDF file.
 
 
 .. conda:package:: bioconductor-ye6100subbcdf

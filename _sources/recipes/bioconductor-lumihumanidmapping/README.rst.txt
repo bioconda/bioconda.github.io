@@ -9,13 +9,13 @@ bioconductor-lumihumanidmapping
 .. conda:recipe:: bioconductor-lumihumanidmapping
    :replaces_section_title:
 
-   This package includes mappings information between different types of Illumina IDs of Illumina Human chips and nuIDs. It also includes mappings of all nuIDs included in Illumina Human chips to RefSeq IDs with mapping qualities information.
+   Illumina Identifier mapping for Human
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/lumiHumanIDMapping.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/lumiHumanIDMapping.html
    :license: The Artistic License, Version 2.0
    :recipe: /`bioconductor-lumihumanidmapping <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumihumanidmapping>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumihumanidmapping/meta.yaml>`_
 
-   
+   This package includes mappings information between different types of Illumina IDs of Illumina Human chips and nuIDs. It also includes mappings of all nuIDs included in Illumina Human chips to RefSeq IDs with mapping qualities information.
 
 
 .. conda:package:: bioconductor-lumihumanidmapping

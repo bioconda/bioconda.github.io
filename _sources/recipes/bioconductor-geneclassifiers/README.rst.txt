@@ -9,13 +9,13 @@ bioconductor-geneclassifiers
 .. conda:recipe:: bioconductor-geneclassifiers
    :replaces_section_title:
 
-   This packages aims for easy accessible application of classifiers which have been published in literature using an ExpressionSet as input.
+   Application of gene classifiers
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/geneClassifiers.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/geneClassifiers.html
    :license: GPL-2
    :recipe: /`bioconductor-geneclassifiers <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneclassifiers>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneclassifiers/meta.yaml>`_
 
-   
+   This packages aims for easy accessible application of classifiers which have been published in literature using an ExpressionSet as input.
 
 
 .. conda:package:: bioconductor-geneclassifiers

@@ -9,13 +9,13 @@ bioconductor-mogene11stprobeset.db
 .. conda:recipe:: bioconductor-mogene11stprobeset.db
    :replaces_section_title:
 
-   Affymetrix mogene11 annotation data \(chip mogene11stprobeset\) assembled using data from public repositories
+   Affymetrix mogene11 annotation data \(chip mogene11stprobeset\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mogene11stprobeset.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mogene11stprobeset.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mogene11stprobeset.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogene11stprobeset.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogene11stprobeset.db/meta.yaml>`_
 
-   
+   Affymetrix mogene11 annotation data \(chip mogene11stprobeset\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-mogene11stprobeset.db

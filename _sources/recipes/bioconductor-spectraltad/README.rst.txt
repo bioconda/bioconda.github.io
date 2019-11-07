@@ -9,13 +9,13 @@ bioconductor-spectraltad
 .. conda:recipe:: bioconductor-spectraltad
    :replaces_section_title:
 
-   SpectralTAD is an R package designed to identify Topologically Associated Domains \(TADs\) from Hi\-C contact matrices. It uses a modified version of spectral clustering that uses a sliding window to quickly detect TADs. The function works on a range of different formats of contact matrices and returns a bed file of TAD coordinates. The method does not require users to adjust any parameters to work and gives them control over the number of hierarchical levels to be returned.
+   SpectralTAD\: Hierarchical TAD detection using spectral clustering
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SpectralTAD.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SpectralTAD.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-spectraltad <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spectraltad>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spectraltad/meta.yaml>`_
 
-   
+   SpectralTAD is an R package designed to identify Topologically Associated Domains \(TADs\) from Hi\-C contact matrices. It uses a modified version of spectral clustering that uses a sliding window to quickly detect TADs. The function works on a range of different formats of contact matrices and returns a bed file of TAD coordinates. The method does not require users to adjust any parameters to work and gives them control over the number of hierarchical levels to be returned.
 
 
 .. conda:package:: bioconductor-spectraltad

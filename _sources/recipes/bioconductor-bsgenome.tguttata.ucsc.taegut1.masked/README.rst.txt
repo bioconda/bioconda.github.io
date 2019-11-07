@@ -9,13 +9,13 @@ bioconductor-bsgenome.tguttata.ucsc.taegut1.masked
 .. conda:recipe:: bioconductor-bsgenome.tguttata.ucsc.taegut1.masked
    :replaces_section_title:
 
-   Full genome sequences for Taeniopygia guttata \(Zebra finch\) as provided by UCSC \(taeGut1\, Jul. 2008\) and stored in Biostrings objects. The sequences are the same as in BSgenome.Tguttata.UCSC.taeGut1\, except that each of them has the 2 following masks on top\: \(1\) the mask of assembly gaps \(AGAPS mask\)\, and \(2\) the mask of intra\-contig ambiguities \(AMB mask\). Both masks are \"active\" by default.
+   Full masked genome sequences for Taeniopygia guttata \(UCSC version taeGut1\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Tguttata.UCSC.taeGut1.masked.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Tguttata.UCSC.taeGut1.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.tguttata.ucsc.taegut1.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.tguttata.ucsc.taegut1.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.tguttata.ucsc.taegut1.masked/meta.yaml>`_
 
-   
+   Full genome sequences for Taeniopygia guttata \(Zebra finch\) as provided by UCSC \(taeGut1\, Jul. 2008\) and stored in Biostrings objects. The sequences are the same as in BSgenome.Tguttata.UCSC.taeGut1\, except that each of them has the 2 following masks on top\: \(1\) the mask of assembly gaps \(AGAPS mask\)\, and \(2\) the mask of intra\-contig ambiguities \(AMB mask\). Both masks are \"active\" by default.
 
 
 .. conda:package:: bioconductor-bsgenome.tguttata.ucsc.taegut1.masked

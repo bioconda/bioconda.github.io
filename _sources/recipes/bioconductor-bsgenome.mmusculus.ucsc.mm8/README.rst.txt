@@ -9,13 +9,13 @@ bioconductor-bsgenome.mmusculus.ucsc.mm8
 .. conda:recipe:: bioconductor-bsgenome.mmusculus.ucsc.mm8
    :replaces_section_title:
 
-   Full genome sequences for Mus musculus \(Mouse\) as provided by UCSC \(mm8\, Feb. 2006\) and stored in Biostrings objects.
+   Full genome sequences for Mus musculus \(UCSC version mm8\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Mmusculus.UCSC.mm8.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Mmusculus.UCSC.mm8.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.mmusculus.ucsc.mm8 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmusculus.ucsc.mm8>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmusculus.ucsc.mm8/meta.yaml>`_
 
-   
+   Full genome sequences for Mus musculus \(Mouse\) as provided by UCSC \(mm8\, Feb. 2006\) and stored in Biostrings objects.
 
 
 .. conda:package:: bioconductor-bsgenome.mmusculus.ucsc.mm8

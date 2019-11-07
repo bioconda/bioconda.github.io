@@ -9,14 +9,14 @@ bioconductor-derfinderhelper
 .. conda:recipe:: bioconductor-derfinderhelper
    :replaces_section_title:
 
-   Helper package for speeding up the derfinder package when using multiple cores.
+   derfinder helper package
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/derfinderHelper.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/derfinderHelper.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-derfinderhelper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-derfinderhelper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-derfinderhelper/meta.yaml>`_
    :links: biotools: :biotools:`derfinderhelper`
 
-   
+   Helper package for speeding up the derfinder package when using multiple cores.
 
 
 .. conda:package:: bioconductor-derfinderhelper

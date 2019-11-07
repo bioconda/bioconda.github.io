@@ -9,13 +9,13 @@ bioconductor-cnorfeeder
 .. conda:recipe:: bioconductor-cnorfeeder
    :replaces_section_title:
 
-   This package integrates literature\-constrained and data\-driven methods to infer signalling networks from perturbation experiments. It permits to extends a given network with links derived from the data via various inference methods and uses information on physical interactions of proteins to guide and validate the integration of links.
+   Integration of CellNOptR to add missing links
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CNORfeeder.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CNORfeeder.html
    :license: GPL-3
    :recipe: /`bioconductor-cnorfeeder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnorfeeder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnorfeeder/meta.yaml>`_
 
-   
+   This package integrates literature\-constrained and data\-driven methods to infer signalling networks from perturbation experiments. It permits to extends a given network with links derived from the data via various inference methods and uses information on physical interactions of proteins to guide and validate the integration of links.
 
 
 .. conda:package:: bioconductor-cnorfeeder

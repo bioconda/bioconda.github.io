@@ -9,20 +9,20 @@ bioconductor-ecolileucine
 .. conda:recipe:: bioconductor-ecolileucine
    :replaces_section_title:
 
-   Experimental data with Affymetrix E. coli chips\, as reported in She\-pin Hung\, Pierre Baldi\, and G. Wesley Hatfield\, J. Biol. Chem.\, Vol. 277\, Issue 43\, 40309\-40323\, October 25\, 2002
+   Experimental data with Affymetrix E. coli chips
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ecoliLeucine.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ecoliLeucine.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ecolileucine <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecolileucine>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecolileucine/meta.yaml>`_
 
-   
+   Experimental data with Affymetrix E. coli chips\, as reported in She\-pin Hung\, Pierre Baldi\, and G. Wesley Hatfield\, J. Biol. Chem.\, Vol. 277\, Issue 43\, 40309\-40323\, October 25\, 2002
 
 
 .. conda:package:: bioconductor-ecolileucine
 
    |downloads_bioconductor-ecolileucine| |docker_bioconductor-ecolileucine|
 
-   :versions: 1.25.0-0, 1.24.0-1, 1.22.0-0
+   :versions: 1.26.0-0, 1.24.0-1, 1.22.0-0
    
    :depends bioconductor-affy: >=1.64.0,<1.65.0
    :depends bioconductor-ecolicdf: >=2.18.0,<2.19.0

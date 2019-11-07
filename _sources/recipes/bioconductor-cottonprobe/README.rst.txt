@@ -9,13 +9,13 @@ bioconductor-cottonprobe
 .. conda:recipe:: bioconductor-cottonprobe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Cotton\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type cotton
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/cottonprobe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/cottonprobe.html
    :license: LGPL
    :recipe: /`bioconductor-cottonprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cottonprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cottonprobe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Cotton\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-cottonprobe

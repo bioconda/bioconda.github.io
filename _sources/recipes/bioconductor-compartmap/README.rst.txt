@@ -9,13 +9,13 @@ bioconductor-compartmap
 .. conda:recipe:: bioconductor-compartmap
    :replaces_section_title:
 
-   Compartmap performs shrunken A\/B compartment inference from ATAC\-seq and methylation arrays.
+   A\/B compartment inference from ATAC\-seq and methylation array data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/compartmap.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/compartmap.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-compartmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compartmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compartmap/meta.yaml>`_
 
-   
+   Compartmap performs shrunken A\/B compartment inference from ATAC\-seq and methylation arrays.
 
 
 .. conda:package:: bioconductor-compartmap

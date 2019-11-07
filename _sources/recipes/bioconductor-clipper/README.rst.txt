@@ -9,13 +9,13 @@ bioconductor-clipper
 .. conda:recipe:: bioconductor-clipper
    :replaces_section_title:
 
-   Implements topological gene set analysis using a two\-step empirical approach. It exploits graph decomposition theory to create a junction tree and reconstruct the most relevant signal path. In the first step clipper selects significant pathways according to statistical tests on the means and the concentration matrices of the graphs derived from pathway topologies. Then\, it \"clips\" the whole pathway identifying the signal paths having the greatest association with a specific phenotype.
+   Gene Set Analysis Exploiting Pathway Topology
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/clipper.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/clipper.html
    :license: AGPL-3
    :recipe: /`bioconductor-clipper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clipper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clipper/meta.yaml>`_
 
-   
+   Implements topological gene set analysis using a two\-step empirical approach. It exploits graph decomposition theory to create a junction tree and reconstruct the most relevant signal path. In the first step clipper selects significant pathways according to statistical tests on the means and the concentration matrices of the graphs derived from pathway topologies. Then\, it \"clips\" the whole pathway identifying the signal paths having the greatest association with a specific phenotype.
 
 
 .. conda:package:: bioconductor-clipper

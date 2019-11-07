@@ -9,13 +9,13 @@ bioconductor-geneexpressionsignature
 .. conda:recipe:: bioconductor-geneexpressionsignature
    :replaces_section_title:
 
-   This package gives the implementations of the gene expression signature and its distance to each. Gene expression signature is represented as a list of genes whose expression is correlated with a biological state of interest. And its distance is defined using a nonparametric\, rank\-based pattern\-matching strategy based on the Kolmogorov\-Smirnov statistic. Gene expression signature and its distance can be used to detect similarities among the signatures of drugs\, diseases\, and biological states of interest.
+   Gene Expression Signature based Similarity Metric
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GeneExpressionSignature.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GeneExpressionSignature.html
    :license: GPL-2
    :recipe: /`bioconductor-geneexpressionsignature <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneexpressionsignature>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneexpressionsignature/meta.yaml>`_
 
-   
+   This package gives the implementations of the gene expression signature and its distance to each. Gene expression signature is represented as a list of genes whose expression is correlated with a biological state of interest. And its distance is defined using a nonparametric\, rank\-based pattern\-matching strategy based on the Kolmogorov\-Smirnov statistic. Gene expression signature and its distance can be used to detect similarities among the signatures of drugs\, diseases\, and biological states of interest.
 
 
 .. conda:package:: bioconductor-geneexpressionsignature

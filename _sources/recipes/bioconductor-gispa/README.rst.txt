@@ -9,13 +9,13 @@ bioconductor-gispa
 .. conda:recipe:: bioconductor-gispa
    :replaces_section_title:
 
-   GISPA is a method intended for the researchers who are interested in defining gene sets with similar\, a priori specified molecular profile. GISPA method has been previously published in Nucleic Acid Research \(Kowalski et al.\, 2016\; PMID\: 26826710\).
+   GISPA\: Method for Gene Integrated Set Profile Analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GISPA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GISPA.html
    :license: GPL-2
    :recipe: /`bioconductor-gispa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gispa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gispa/meta.yaml>`_
 
-   
+   GISPA is a method intended for the researchers who are interested in defining gene sets with similar\, a priori specified molecular profile. GISPA method has been previously published in Nucleic Acid Research \(Kowalski et al.\, 2016\; PMID\: 26826710\).
 
 
 .. conda:package:: bioconductor-gispa

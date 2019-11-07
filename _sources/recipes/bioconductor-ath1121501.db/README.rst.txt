@@ -9,13 +9,13 @@ bioconductor-ath1121501.db
 .. conda:recipe:: bioconductor-ath1121501.db
    :replaces_section_title:
 
-   Affymetrix Arabidopsis ATH1 Genome Array annotation data \(chip ath1121501\) assembled using data from public repositories
+   Affymetrix Arabidopsis ATH1 Genome Array annotation data \(chip ath1121501\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/ath1121501.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/ath1121501.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ath1121501.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ath1121501.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ath1121501.db/meta.yaml>`_
 
-   
+   Affymetrix Arabidopsis ATH1 Genome Array annotation data \(chip ath1121501\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-ath1121501.db

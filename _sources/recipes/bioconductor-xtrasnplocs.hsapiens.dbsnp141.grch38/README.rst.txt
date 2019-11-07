@@ -9,13 +9,13 @@ bioconductor-xtrasnplocs.hsapiens.dbsnp141.grch38
 .. conda:recipe:: bioconductor-xtrasnplocs.hsapiens.dbsnp141.grch38
    :replaces_section_title:
 
-   Extra SNP locations and alleles for Homo sapiens extracted from NCBI dbSNP Build 141. The source data files used for this package were created by NCBI on May 1st\, 2014\, and contain SNPs mapped to reference genome GRCh38. While the SNPlocs.Hsapiens.dbSNP141.GRCh38 package contains only molecular variations of class \"snp\"\, this package contains molecular variations of other classes \(in\-del\, heterozygous\, microsatellite\, named\-locus\, no\-variation\, mixed\, and multinucleotide\-polymorphism\).
+   Extra SNP locations for Homo sapiens \(dbSNP Build 141\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/XtraSNPlocs.Hsapiens.dbSNP141.GRCh38.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/XtraSNPlocs.Hsapiens.dbSNP141.GRCh38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-xtrasnplocs.hsapiens.dbsnp141.grch38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xtrasnplocs.hsapiens.dbsnp141.grch38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xtrasnplocs.hsapiens.dbsnp141.grch38/meta.yaml>`_
 
-   
+   Extra SNP locations and alleles for Homo sapiens extracted from NCBI dbSNP Build 141. The source data files used for this package were created by NCBI on May 1st\, 2014\, and contain SNPs mapped to reference genome GRCh38. While the SNPlocs.Hsapiens.dbSNP141.GRCh38 package contains only molecular variations of class \"snp\"\, this package contains molecular variations of other classes \(in\-del\, heterozygous\, microsatellite\, named\-locus\, no\-variation\, mixed\, and multinucleotide\-polymorphism\).
 
 
 .. conda:package:: bioconductor-xtrasnplocs.hsapiens.dbsnp141.grch38

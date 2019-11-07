@@ -9,14 +9,14 @@ bioconductor-acgh
 .. conda:recipe:: bioconductor-acgh
    :replaces_section_title:
 
-   Functions for reading aCGH data from image analysis output files and clone information files\, creation of aCGH S3 objects for storing these data. Basic methods for accessing\/replacing\, subsetting\, printing and plotting aCGH objects.
+   Classes and functions for Array Comparative Genomic Hybridization data.
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/aCGH.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/aCGH.html
    :license: GPL-2
    :recipe: /`bioconductor-acgh <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-acgh>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-acgh/meta.yaml>`_
    :links: biotools: :biotools:`acgh`, doi: :doi:`10.1093/bioinformatics/bti677`
 
-   
+   Functions for reading aCGH data from image analysis output files and clone information files\, creation of aCGH S3 objects for storing these data. Basic methods for accessing\/replacing\, subsetting\, printing and plotting aCGH objects.
 
 
 .. conda:package:: bioconductor-acgh

@@ -9,14 +9,14 @@ bioconductor-epivizr
 .. conda:recipe:: bioconductor-epivizr
    :replaces_section_title:
 
-   This package provides connections to the epiviz web app \(http\:\/\/epiviz.cbcb.umd.edu\) for interactive visualization of genomic data. Objects in R\/bioc interactive sessions can be displayed in genome browser tracks or plots to be explored by navigation through genomic regions. Fundamental Bioconductor data structures are supported \(e.g.\, GenomicRanges and RangedSummarizedExperiment objects\)\, while providing an easy mechanism to support other data structures \(through package epivizrData\). Visualizations \(using d3.js\) can be easily added to the web app as well.
+   R Interface to epiviz web app
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/epivizr.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/epivizr.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-epivizr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizr/meta.yaml>`_
    :links: biotools: :biotools:`epivizr`, doi: :doi:`10.1038/nmeth.3038`
 
-   
+   This package provides connections to the epiviz web app \(http\:\/\/epiviz.cbcb.umd.edu\) for interactive visualization of genomic data. Objects in R\/bioc interactive sessions can be displayed in genome browser tracks or plots to be explored by navigation through genomic regions. Fundamental Bioconductor data structures are supported \(e.g.\, GenomicRanges and RangedSummarizedExperiment objects\)\, while providing an easy mechanism to support other data structures \(through package epivizrData\). Visualizations \(using d3.js\) can be easily added to the web app as well.
 
 
 .. conda:package:: bioconductor-epivizr

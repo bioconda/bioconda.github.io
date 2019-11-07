@@ -9,14 +9,14 @@ bioconductor-weaver
 .. conda:recipe:: bioconductor-weaver
    :replaces_section_title:
 
-   This package provides enhancements on the Sweave\(\) function in the base package.  In particular a facility for caching code chunk results is included.
+   Tools and extensions for processing Sweave documents
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/weaver.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/weaver.html
    :license: GPL-2
    :recipe: /`bioconductor-weaver <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-weaver>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-weaver/meta.yaml>`_
    :links: biotools: :biotools:`weaver`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package provides enhancements on the Sweave\(\) function in the base package.  In particular a facility for caching code chunk results is included.
 
 
 .. conda:package:: bioconductor-weaver

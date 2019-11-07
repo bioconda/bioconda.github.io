@@ -9,14 +9,14 @@ bioconductor-olin
 .. conda:recipe:: bioconductor-olin
    :replaces_section_title:
 
-   Functions for normalisation of two\-color microarrays by optimised local regression and for detection of artefacts in microarray data
+   Optimized local intensity\-dependent normalisation of two\-color microarrays
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/OLIN.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/OLIN.html
    :license: GPL-2
    :recipe: /`bioconductor-olin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-olin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-olin/meta.yaml>`_
    :links: biotools: :biotools:`olin`
 
-   
+   Functions for normalisation of two\-color microarrays by optimised local regression and for detection of artefacts in microarray data
 
 
 .. conda:package:: bioconductor-olin

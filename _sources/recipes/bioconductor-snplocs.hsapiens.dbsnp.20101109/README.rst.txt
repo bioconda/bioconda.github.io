@@ -9,13 +9,13 @@ bioconductor-snplocs.hsapiens.dbsnp.20101109
 .. conda:recipe:: bioconductor-snplocs.hsapiens.dbsnp.20101109
    :replaces_section_title:
 
-   SNP locations and alleles for Homo sapiens extracted from NCBI dbSNP Build 132. The source data files used for this package were created by NCBI on 9 November 2010 and contain SNPs mapped to reference genome GRCh37. WARNING\: Note that the GRCh37 genome is the same as the hg19 genome from UCSC except for the mitochondrion chromosome. Therefore\, the SNPs in this package can be \"injected\" in BSgenome.Hsapiens.UCSC.hg19 but this injection will exclude chrM \(i.e. nothing will be injected in that sequence\).
+   SNP locations for Homo sapiens \(dbSNP Build 132\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/SNPlocs.Hsapiens.dbSNP.20101109.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/SNPlocs.Hsapiens.dbSNP.20101109.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-snplocs.hsapiens.dbsnp.20101109 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snplocs.hsapiens.dbsnp.20101109>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snplocs.hsapiens.dbsnp.20101109/meta.yaml>`_
 
-   
+   SNP locations and alleles for Homo sapiens extracted from NCBI dbSNP Build 132. The source data files used for this package were created by NCBI on 9 November 2010 and contain SNPs mapped to reference genome GRCh37. WARNING\: Note that the GRCh37 genome is the same as the hg19 genome from UCSC except for the mitochondrion chromosome. Therefore\, the SNPs in this package can be \"injected\" in BSgenome.Hsapiens.UCSC.hg19 but this injection will exclude chrM \(i.e. nothing will be injected in that sequence\).
 
 
 .. conda:package:: bioconductor-snplocs.hsapiens.dbsnp.20101109

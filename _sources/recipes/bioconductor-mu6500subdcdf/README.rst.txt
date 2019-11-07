@@ -9,13 +9,13 @@ bioconductor-mu6500subdcdf
 .. conda:recipe:: bioconductor-mu6500subdcdf
    :replaces_section_title:
 
-   A package containing an environment representing the Mu6500subD.CDF file.
+   mu6500subdcdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mu6500subdcdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mu6500subdcdf.html
    :license: LGPL
    :recipe: /`bioconductor-mu6500subdcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu6500subdcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu6500subdcdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the Mu6500subD.CDF file.
 
 
 .. conda:package:: bioconductor-mu6500subdcdf

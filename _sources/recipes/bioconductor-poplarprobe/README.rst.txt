@@ -9,13 +9,13 @@ bioconductor-poplarprobe
 .. conda:recipe:: bioconductor-poplarprobe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Poplar\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type poplar
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/poplarprobe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/poplarprobe.html
    :license: LGPL
    :recipe: /`bioconductor-poplarprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-poplarprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-poplarprobe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Poplar\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-poplarprobe

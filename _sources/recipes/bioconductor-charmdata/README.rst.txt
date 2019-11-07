@@ -11,11 +11,11 @@ bioconductor-charmdata
 
    An example dataset for use with the charm package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/charmData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/charmData.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-charmdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-charmdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-charmdata/meta.yaml>`_
 
-   
+   An example dataset for use with the charm package
 
 
 .. conda:package:: bioconductor-charmdata

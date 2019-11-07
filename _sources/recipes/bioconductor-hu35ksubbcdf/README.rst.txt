@@ -9,13 +9,13 @@ bioconductor-hu35ksubbcdf
 .. conda:recipe:: bioconductor-hu35ksubbcdf
    :replaces_section_title:
 
-   A package containing an environment representing the Hu35KsubB.CDF file.
+   hu35ksubbcdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hu35ksubbcdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hu35ksubbcdf.html
    :license: LGPL
    :recipe: /`bioconductor-hu35ksubbcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu35ksubbcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu35ksubbcdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the Hu35KsubB.CDF file.
 
 
 .. conda:package:: bioconductor-hu35ksubbcdf

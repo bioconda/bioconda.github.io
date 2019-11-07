@@ -9,13 +9,13 @@ bioconductor-icetea
 .. conda:recipe:: bioconductor-icetea
    :replaces_section_title:
 
-   icetea \(Integrating Cap Enrichment with Transcript Expression Analysis\) provides functions for end\-to\-end analysis of multiple 5\'\-profiling methods such as CAGE\, RAMPAGE and MAPCap\, beginning from raw reads to detection of transcription start sites using replicates. It also allows performing differential TSS detection between group of samples\, therefore\, integrating the mRNA cap enrichment information with transcript expression analysis.
+   Integrating Cap Enrichment with Transcript Expression Analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/icetea.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/icetea.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-icetea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icetea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icetea/meta.yaml>`_
 
-   
+   icetea \(Integrating Cap Enrichment with Transcript Expression Analysis\) provides functions for end\-to\-end analysis of multiple 5\'\-profiling methods such as CAGE\, RAMPAGE and MAPCap\, beginning from raw reads to detection of transcription start sites using replicates. It also allows performing differential TSS detection between group of samples\, therefore\, integrating the mRNA cap enrichment information with transcript expression analysis.
 
 
 .. conda:package:: bioconductor-icetea

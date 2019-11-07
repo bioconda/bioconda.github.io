@@ -9,13 +9,13 @@ bioconductor-mgug4120a.db
 .. conda:recipe:: bioconductor-mgug4120a.db
    :replaces_section_title:
 
-   Agilent annotation data \(chip mgug4120a\) assembled using data from public repositories
+   Agilent annotation data \(chip mgug4120a\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mgug4120a.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mgug4120a.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mgug4120a.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgug4120a.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgug4120a.db/meta.yaml>`_
 
-   
+   Agilent annotation data \(chip mgug4120a\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-mgug4120a.db

@@ -9,23 +9,23 @@ bioconductor-prostar
 .. conda:recipe:: bioconductor-prostar
    :replaces_section_title:
 
-   This package provides a GUI interface for DAPAR.
+   Provides a GUI for DAPAR
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Prostar.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Prostar.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-prostar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prostar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prostar/meta.yaml>`_
 
-   
+   This package provides a GUI interface for DAPAR.
 
 
 .. conda:package:: bioconductor-prostar
 
    |downloads_bioconductor-prostar| |docker_bioconductor-prostar|
 
-   :versions: 1.18.0-0, 1.16.7-0, 1.14.8-0
+   :versions: 1.16.7-0, 1.14.8-0
    
-   :depends bioconductor-dapar: >=1.18.0,<1.19.0
-   :depends bioconductor-dapardata: >=1.15.0,<1.16.0
+   :depends bioconductor-dapar: >=1.16.0,<1.17.0
+   :depends bioconductor-dapardata: >=1.14.0,<1.15.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-biocmanager: 
    :depends r-colourpicker: 
@@ -37,7 +37,6 @@ bioconductor-prostar
    :depends r-later: 
    :depends r-promises: 
    :depends r-r.utils: 
-   :depends r-rclipboard: 
    :depends r-rhandsontable: 
    :depends r-shiny: 
    :depends r-shinyace: 

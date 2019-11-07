@@ -9,13 +9,13 @@ bioconductor-scnorm
 .. conda:recipe:: bioconductor-scnorm
    :replaces_section_title:
 
-   This package implements SCnorm — a method to normalize single\-cell RNA\-seq data.
+   Normalization of single cell RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SCnorm.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SCnorm.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-scnorm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scnorm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scnorm/meta.yaml>`_
 
-   
+   This package implements SCnorm — a method to normalize single\-cell RNA\-seq data.
 
 
 .. conda:package:: bioconductor-scnorm

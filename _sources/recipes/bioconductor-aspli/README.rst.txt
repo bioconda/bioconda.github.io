@@ -9,14 +9,14 @@ bioconductor-aspli
 .. conda:recipe:: bioconductor-aspli
    :replaces_section_title:
 
-   Integrative pipeline for the analysis of alternative splicing using RNAseq.
+   Analysis of alternative splicing using RNA\-Seq
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ASpli.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ASpli.html
    :license: GPL
    :recipe: /`bioconductor-aspli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aspli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aspli/meta.yaml>`_
    :links: biotools: :biotools:`aspli`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Integrative pipeline for the analysis of alternative splicing using RNAseq.
 
 
 .. conda:package:: bioconductor-aspli

@@ -9,20 +9,20 @@ bioconductor-harmandata
 .. conda:recipe:: bioconductor-harmandata
    :replaces_section_title:
 
-   Datasets of accompany Harman\, a PCA and constrained optimisation based technique. Contains three datasets\: IMR90\, Human lung fibroblast cells exposed to nitric oxide\; NPM\, an experiment to test skin penetration of metal oxide nanoparticles following topical application of sunscreens in non\-pregnant mice\; OLF\; an experiment to gauge the response of human olfactory neurosphere\-derived \(hONS\) cells to ZnO nanoparticles.
+   Data for the Harman package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/HarmanData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/HarmanData.html
    :license: GPL-3
    :recipe: /`bioconductor-harmandata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harmandata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harmandata/meta.yaml>`_
 
-   
+   Datasets of accompany Harman\, a PCA and constrained optimisation based technique. Contains three datasets\: IMR90\, Human lung fibroblast cells exposed to nitric oxide\; NPM\, an experiment to test skin penetration of metal oxide nanoparticles following topical application of sunscreens in non\-pregnant mice\; OLF\; an experiment to gauge the response of human olfactory neurosphere\-derived \(hONS\) cells to ZnO nanoparticles.
 
 
 .. conda:package:: bioconductor-harmandata
 
    |downloads_bioconductor-harmandata| |docker_bioconductor-harmandata|
 
-   :versions: 1.13.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

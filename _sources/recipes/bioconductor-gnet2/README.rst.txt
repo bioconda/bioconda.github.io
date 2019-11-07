@@ -9,13 +9,13 @@ bioconductor-gnet2
 .. conda:recipe:: bioconductor-gnet2
    :replaces_section_title:
 
-   Cluster genes to functional groups with E\-M process. Iteratively perform TF assigning and Gene assigning\, until the assignment of genes did not change\, or max number of iterations is reached.
+   Constructing gene regulatory networks from expression data through functional module inference
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GNET2.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GNET2.html
    :license: Apache License 2.0
    :recipe: /`bioconductor-gnet2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gnet2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gnet2/meta.yaml>`_
 
-   
+   Cluster genes to functional groups with E\-M process. Iteratively perform TF assigning and Gene assigning\, until the assignment of genes did not change\, or max number of iterations is reached.
 
 
 .. conda:package:: bioconductor-gnet2

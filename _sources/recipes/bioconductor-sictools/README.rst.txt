@@ -9,13 +9,13 @@ bioconductor-sictools
 .. conda:recipe:: bioconductor-sictools
    :replaces_section_title:
 
-   This package is to find SNV\/Indel differences between two bam files with near relationship in a way of pairwise comparison thourgh each base position across the genome region of interest. The difference is inferred by fisher test and euclidean distance\, the input of which is the base count \(A\,T\,G\,C\) in a given position and read counts for indels that span no less than 2bp on both sides of indel region.
+   Find SNV\/Indel differences between two bam files with near relationship
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SICtools.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SICtools.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-sictools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sictools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sictools/meta.yaml>`_
 
-   
+   This package is to find SNV\/Indel differences between two bam files with near relationship in a way of pairwise comparison thourgh each base position across the genome region of interest. The difference is inferred by fisher test and euclidean distance\, the input of which is the base count \(A\,T\,G\,C\) in a given position and read counts for indels that span no less than 2bp on both sides of indel region.
 
 
 .. conda:package:: bioconductor-sictools

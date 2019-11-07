@@ -9,14 +9,14 @@ bioconductor-basespacer
 .. conda:recipe:: bioconductor-basespacer
    :replaces_section_title:
 
-   A rich R interface to Illumina\'s BaseSpace cloud computing environment\, enabling the fast development of data analysis and visualisation tools.
+   R SDK for BaseSpace RESTful API
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BaseSpaceR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BaseSpaceR.html
    :license: Apache License 2.0
    :recipe: /`bioconductor-basespacer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basespacer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basespacer/meta.yaml>`_
    :links: biotools: :biotools:`basespacer`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   A rich R interface to Illumina\'s BaseSpace cloud computing environment\, enabling the fast development of data analysis and visualisation tools.
 
 
 .. conda:package:: bioconductor-basespacer

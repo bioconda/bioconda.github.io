@@ -9,14 +9,14 @@ bioconductor-spikeli
 .. conda:recipe:: bioconductor-spikeli
    :replaces_section_title:
 
-   SpikeLI is a package that performs the analysis of the Affymetrix spike\-in data using the Langmuir Isotherm. The aim of this package is to show the advantages of a physical\-chemistry based analysis of the Affymetrix microarray data compared to the traditional methods. The spike\-in \(or Latin square\) data for the HGU95 and HGU133 chipsets have been downloaded from the Affymetrix web site. The model used in the spikeLI package is described in details in E. Carlon and T. Heim\, Physica A 362\, 433 \(2006\).
+   Affymetrix Spike\-in Langmuir Isotherm Data Analysis Tool
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/spikeLI.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/spikeLI.html
    :license: GPL-2
    :recipe: /`bioconductor-spikeli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spikeli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spikeli/meta.yaml>`_
    :links: biotools: :biotools:`spikeli`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   SpikeLI is a package that performs the analysis of the Affymetrix spike\-in data using the Langmuir Isotherm. The aim of this package is to show the advantages of a physical\-chemistry based analysis of the Affymetrix microarray data compared to the traditional methods. The spike\-in \(or Latin square\) data for the HGU95 and HGU133 chipsets have been downloaded from the Affymetrix web site. The model used in the spikeLI package is described in details in E. Carlon and T. Heim\, Physica A 362\, 433 \(2006\).
 
 
 .. conda:package:: bioconductor-spikeli

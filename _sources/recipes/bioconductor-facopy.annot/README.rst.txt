@@ -9,20 +9,20 @@ bioconductor-facopy.annot
 .. conda:recipe:: bioconductor-facopy.annot
    :replaces_section_title:
 
-   Provides facopy with genome annotation on chromosome arms\, genomic features and copy number alterations.
+   Annotation for the copy number alteration association and enrichment analyses with facopy
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/facopy.annot.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/facopy.annot.html
    :license: GPL-3
    :recipe: /`bioconductor-facopy.annot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-facopy.annot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-facopy.annot/meta.yaml>`_
 
-   
+   Provides facopy with genome annotation on chromosome arms\, genomic features and copy number alterations.
 
 
 .. conda:package:: bioconductor-facopy.annot
 
    |downloads_bioconductor-facopy.annot| |docker_bioconductor-facopy.annot|
 
-   :versions: 1.5.1-0, 1.4.0-1, 1.4.0-0, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

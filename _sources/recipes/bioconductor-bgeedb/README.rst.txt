@@ -9,14 +9,14 @@ bioconductor-bgeedb
 .. conda:recipe:: bioconductor-bgeedb
    :replaces_section_title:
 
-   A package for the annotation and gene expression data download from Bgee database\, and TopAnat analysis\: GO\-like enrichment of anatomical terms\, mapped to genes by expression patterns.
+   Annotation and gene expression data retrieval from Bgee database
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BgeeDB.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BgeeDB.html
    :license: GPL-3
    :recipe: /`bioconductor-bgeedb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bgeedb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bgeedb/meta.yaml>`_
    :links: biotools: :biotools:`bgeedb`, doi: :doi:`10.12688/f1000research.9973.1`
 
-   
+   A package for the annotation and gene expression data download from Bgee database\, and TopAnat analysis\: GO\-like enrichment of anatomical terms\, mapped to genes by expression patterns.
 
 
 .. conda:package:: bioconductor-bgeedb

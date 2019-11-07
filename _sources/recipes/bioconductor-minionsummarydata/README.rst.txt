@@ -9,20 +9,20 @@ bioconductor-minionsummarydata
 .. conda:recipe:: bioconductor-minionsummarydata
    :replaces_section_title:
 
-   Summarised MinION sequencing data for Salmonella Typhi published by Ashton et al. in 2015. Three replicate runs are each provided as Fast5Summary objects.
+   Summarised MinION sequencing data published by Ashton et al. 2015
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/minionSummaryData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/minionSummaryData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-minionsummarydata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minionsummarydata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minionsummarydata/meta.yaml>`_
 
-   
+   Summarised MinION sequencing data for Salmonella Typhi published by Ashton et al. in 2015. Three replicate runs are each provided as Fast5Summary objects.
 
 
 .. conda:package:: bioconductor-minionsummarydata
 
    |downloads_bioconductor-minionsummarydata| |docker_bioconductor-minionsummarydata|
 
-   :versions: 1.15.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0
+   :versions: 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

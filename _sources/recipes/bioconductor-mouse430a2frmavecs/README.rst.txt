@@ -9,13 +9,13 @@ bioconductor-mouse430a2frmavecs
 .. conda:recipe:: bioconductor-mouse430a2frmavecs
    :replaces_section_title:
 
-   This package was created by frmaTools version 1.19.3 and hgu133ahsentrezgcdf version 19.0.0.
+   Vectors used by frma for microarrays of type mouse430a2
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mouse430a2frmavecs.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mouse430a2frmavecs.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mouse430a2frmavecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse430a2frmavecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse430a2frmavecs/meta.yaml>`_
 
-   
+   This package was created by frmaTools version 1.19.3 and hgu133ahsentrezgcdf version 19.0.0.
 
 
 .. conda:package:: bioconductor-mouse430a2frmavecs

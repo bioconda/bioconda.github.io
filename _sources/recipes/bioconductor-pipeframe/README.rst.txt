@@ -9,13 +9,13 @@ bioconductor-pipeframe
 .. conda:recipe:: bioconductor-pipeframe
    :replaces_section_title:
 
-   pipeFrame is an R package for building a componentized bioinformatics pipeline. Each step in this pipeline is wrapped in the framework\, so the connection among steps is created seamlessly and automatically. Users could focus more on fine\-tuning arguments rather than spending a lot of time on transforming file format\, passing task outputs to task inputs or installing the dependencies. Componentized step elements can be customized into other new pipelines flexibly as well. This pipeline can be split into several important functional steps\, so it is much easier for users to understand the complex arguments from each step rather than parameter combination from the whole pipeline. At the same time\, componentized pipeline can restart at the breakpoint and avoid rerunning the whole pipeline\, which may save a lot of time for users on pipeline tuning or such issues as power off or process other interrupts.
+   Pipeline framework for bioinformatics in R
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/pipeFrame.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/pipeFrame.html
    :license: GPL-3
    :recipe: /`bioconductor-pipeframe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pipeframe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pipeframe/meta.yaml>`_
 
-   
+   pipeFrame is an R package for building a componentized bioinformatics pipeline. Each step in this pipeline is wrapped in the framework\, so the connection among steps is created seamlessly and automatically. Users could focus more on fine\-tuning arguments rather than spending a lot of time on transforming file format\, passing task outputs to task inputs or installing the dependencies. Componentized step elements can be customized into other new pipelines flexibly as well. This pipeline can be split into several important functional steps\, so it is much easier for users to understand the complex arguments from each step rather than parameter combination from the whole pipeline. At the same time\, componentized pipeline can restart at the breakpoint and avoid rerunning the whole pipeline\, which may save a lot of time for users on pipeline tuning or such issues as power off or process other interrupts.
 
 
 .. conda:package:: bioconductor-pipeframe

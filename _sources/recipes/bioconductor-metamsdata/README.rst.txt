@@ -11,18 +11,18 @@ bioconductor-metamsdata
 
    Example CDF data for the metaMS package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/metaMSdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/metaMSdata.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-metamsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metamsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metamsdata/meta.yaml>`_
 
-   
+   Example CDF data for the metaMS package
 
 
 .. conda:package:: bioconductor-metamsdata
 
    |downloads_bioconductor-metamsdata| |docker_bioconductor-metamsdata|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

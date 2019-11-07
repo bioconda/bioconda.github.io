@@ -9,13 +9,13 @@ bioconductor-metavizr
 .. conda:recipe:: bioconductor-metavizr
    :replaces_section_title:
 
-   This package provides Websocket communication to the metaviz web app \(http\:\/\/metaviz.cbcb.umd.edu\) for interactive visualization of metagenomics data. Objects in R\/bioc interactive sessions can be displayed in plots and data can be explored using a facetzoom visualization. Fundamental Bioconductor data structures are supported \(e.g.\, MRexperiment objects\)\, while providing an easy mechanism to support other data structures. Visualizations \(using d3.js\) can be easily added to the web app as well.
+   R Interface to the metaviz web app for interactive metagenomics data analysis and visualization
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/metavizr.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/metavizr.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-metavizr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metavizr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metavizr/meta.yaml>`_
 
-   
+   This package provides Websocket communication to the metaviz web app \(http\:\/\/metaviz.cbcb.umd.edu\) for interactive visualization of metagenomics data. Objects in R\/bioc interactive sessions can be displayed in plots and data can be explored using a facetzoom visualization. Fundamental Bioconductor data structures are supported \(e.g.\, MRexperiment objects\)\, while providing an easy mechanism to support other data structures. Visualizations \(using d3.js\) can be easily added to the web app as well.
 
 
 .. conda:package:: bioconductor-metavizr

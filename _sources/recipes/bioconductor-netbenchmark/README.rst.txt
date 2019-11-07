@@ -9,24 +9,24 @@ bioconductor-netbenchmark
 .. conda:recipe:: bioconductor-netbenchmark
    :replaces_section_title:
 
-   This package implements a benchmarking of several gene network inference algorithms from gene expression data.
+   Benchmarking of several gene network inference methods
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/netbenchmark.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/netbenchmark.html
    :license: CC BY-NC-SA 4.0
    :recipe: /`bioconductor-netbenchmark <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netbenchmark>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netbenchmark/meta.yaml>`_
 
-   
+   This package implements a benchmarking of several gene network inference algorithms from gene expression data.
 
 
 .. conda:package:: bioconductor-netbenchmark
 
    |downloads_bioconductor-netbenchmark| |docker_bioconductor-netbenchmark|
 
-   :versions: 1.18.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0
+   :versions: 1.16.0-1, 1.16.0-0, 1.14.0-0
    
-   :depends bioconductor-genie3: >=1.8.0,<1.9.0
-   :depends bioconductor-grndata: >=1.17.0,<1.18.0
-   :depends bioconductor-minet: >=3.44.0,<3.45.0
+   :depends bioconductor-genie3: >=1.6.0,<1.7.0
+   :depends bioconductor-grndata: >=1.16.0,<1.17.0
+   :depends bioconductor-minet: >=3.42.0,<3.43.0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0

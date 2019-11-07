@@ -9,20 +9,20 @@ bioconductor-predasampledata
 .. conda:recipe:: bioconductor-predasampledata
    :replaces_section_title:
 
-   Sample data for PREDA package. \(annotations objects synchronized with GeneAnnot custom CDFs version 2.2.0\)
+   expression and copy number data on clear cell renal carcinoma samples
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/PREDAsampledata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/PREDAsampledata.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-predasampledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-predasampledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-predasampledata/meta.yaml>`_
 
-   
+   Sample data for PREDA package. \(annotations objects synchronized with GeneAnnot custom CDFs version 2.2.0\)
 
 
 .. conda:package:: bioconductor-predasampledata
 
    |downloads_bioconductor-predasampledata| |docker_bioconductor-predasampledata|
 
-   :versions: 0.25.0-0, 0.24.0-1, 0.22.0-0
+   :versions: 0.26.0-0, 0.24.0-1, 0.22.0-0
    
    :depends bioconductor-affy: >=1.64.0,<1.65.0
    :depends bioconductor-annotate: >=1.64.0,<1.65.0

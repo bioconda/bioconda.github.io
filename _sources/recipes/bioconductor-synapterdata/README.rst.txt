@@ -9,20 +9,20 @@ bioconductor-synapterdata
 .. conda:recipe:: bioconductor-synapterdata
    :replaces_section_title:
 
-   Data independant acquisition of UPS1 protein mix in an E. coli background obtained on a Waters Synapt G2 instrument.
+   Data accompanying the synapter package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/synapterdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/synapterdata.html
    :license: GPL-2
    :recipe: /`bioconductor-synapterdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synapterdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synapterdata/meta.yaml>`_
 
-   
+   Data independant acquisition of UPS1 protein mix in an E. coli background obtained on a Waters Synapt G2 instrument.
 
 
 .. conda:package:: bioconductor-synapterdata
 
    |downloads_bioconductor-synapterdata| |docker_bioconductor-synapterdata|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-0
    
    :depends bioconductor-synapter: >=2.10.0,<2.11.0
    :depends curl: >=7.65.3,<8.0a0

@@ -9,14 +9,14 @@ bioconductor-imagehts
 .. conda:recipe:: bioconductor-imagehts
    :replaces_section_title:
 
-   imageHTS is an R package dedicated to the analysis of high\-throughput microscopy\-based screens. The package provides a modular and extensible framework to segment cells\, extract quantitative cell features\, predict cell types and browse screen data through web interfaces. Designed to operate in distributed environments\, imageHTS provides a standardized access to remote data and facilitates the dissemination of high\-throughput microscopy\-based datasets.
+   Analysis of high\-throughput microscopy\-based screens
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/imageHTS.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/imageHTS.html
    :license: LGPL-2.1
    :recipe: /`bioconductor-imagehts <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-imagehts>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-imagehts/meta.yaml>`_
    :links: biotools: :biotools:`imagehts`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   imageHTS is an R package dedicated to the analysis of high\-throughput microscopy\-based screens. The package provides a modular and extensible framework to segment cells\, extract quantitative cell features\, predict cell types and browse screen data through web interfaces. Designed to operate in distributed environments\, imageHTS provides a standardized access to remote data and facilitates the dissemination of high\-throughput microscopy\-based datasets.
 
 
 .. conda:package:: bioconductor-imagehts

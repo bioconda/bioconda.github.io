@@ -9,20 +9,20 @@ bioconductor-timerquant
 .. conda:recipe:: bioconductor-timerquant
    :replaces_section_title:
 
-   Supplementary Data package for tandem timer methods paper by Barry et al. \(2015\) including TimerQuant shiny applications.
+   Timer Quantification
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/TimerQuant.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/TimerQuant.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-timerquant <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timerquant>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timerquant/meta.yaml>`_
 
-   
+   Supplementary Data package for tandem timer methods paper by Barry et al. \(2015\) including TimerQuant shiny applications.
 
 
 .. conda:package:: bioconductor-timerquant
 
    |downloads_bioconductor-timerquant| |docker_bioconductor-timerquant|
 
-   :versions: 1.15.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0
+   :versions: 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

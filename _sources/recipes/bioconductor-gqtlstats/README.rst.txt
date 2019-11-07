@@ -9,13 +9,13 @@ bioconductor-gqtlstats
 .. conda:recipe:: bioconductor-gqtlstats
    :replaces_section_title:
 
-   computationally efficient analysis of eQTL\, mQTL\, dsQTL\, etc.
+   gQTLstats\: computationally efficient analysis for eQTL and allied studies
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/gQTLstats.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/gQTLstats.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gqtlstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gqtlstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gqtlstats/meta.yaml>`_
 
-   
+   computationally efficient analysis of eQTL\, mQTL\, dsQTL\, etc.
 
 
 .. conda:package:: bioconductor-gqtlstats

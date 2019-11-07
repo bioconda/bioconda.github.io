@@ -9,22 +9,22 @@ bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp
 .. conda:recipe:: bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp
    :replaces_section_title:
 
-   RcisTarget databases\: Gene\-based motif rankings and annotation to transcription factors. This package contains a subset of 4.6k motifs \(cisbp motifs\)\, scored only within 500bp upstream and the TSS. See RcisTarget tutorial to download the full databases\, containing 20k motifs and search space up to 10kbp around the TSS.
+   RcisTarget motif databases for human \(hg19\) \- Subset of 4.6k motifs
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RcisTarget.hg19.motifDBs.cisbpOnly.500bp.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RcisTarget.hg19.motifDBs.cisbpOnly.500bp.html
    :license: GPL-3
    :recipe: /`bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp/meta.yaml>`_
 
-   
+   RcisTarget databases\: Gene\-based motif rankings and annotation to transcription factors. This package contains a subset of 4.6k motifs \(cisbp motifs\)\, scored only within 500bp upstream and the TSS. See RcisTarget tutorial to download the full databases\, containing 20k motifs and search space up to 10kbp around the TSS.
 
 
 .. conda:package:: bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp
 
    |downloads_bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp| |docker_bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp|
 
-   :versions: 1.5.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-0
+   :versions: 1.4.0-1, 1.4.0-0, 1.2.0-0
    
-   :depends curl: >=7.65.3,<8.0a0
+   :depends curl: >=7.64.1,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :requirements:

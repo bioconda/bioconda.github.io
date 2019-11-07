@@ -9,13 +9,13 @@ bioconductor-gladiatox
 .. conda:recipe:: bioconductor-gladiatox
    :replaces_section_title:
 
-   GladiaTOX R package is an open\-source\, flexible solution to high\-content screening data processing and reporting in biomedical research. GladiaTOX takes advantage of the tcpl core functionalities and provides a number of extensions\: it provides a web\-service solution to fetch raw data\; it computes severity scores and exports ToxPi formatted files\; furthermore it contains a suite of functionalities to generate pdf reports for quality control and data processing.
+   R Package for Processing High Content Screening data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GladiaTOX.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GladiaTOX.html
    :license: GPL-2
    :recipe: /`bioconductor-gladiatox <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gladiatox>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gladiatox/meta.yaml>`_
 
-   
+   GladiaTOX R package is an open\-source\, flexible solution to high\-content screening data processing and reporting in biomedical research. GladiaTOX takes advantage of the tcpl core functionalities and provides a number of extensions\: it provides a web\-service solution to fetch raw data\; it computes severity scores and exports ToxPi formatted files\; furthermore it contains a suite of functionalities to generate pdf reports for quality control and data processing.
 
 
 .. conda:package:: bioconductor-gladiatox

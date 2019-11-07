@@ -9,13 +9,13 @@ bioconductor-htmg430bprobe
 .. conda:recipe:: bioconductor-htmg430bprobe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was HT\\\_MG\-430B\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type htmg430b
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/htmg430bprobe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/htmg430bprobe.html
    :license: LGPL
    :recipe: /`bioconductor-htmg430bprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htmg430bprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htmg430bprobe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was HT\\\_MG\-430B\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-htmg430bprobe

@@ -9,13 +9,13 @@ bioconductor-rta10transcriptcluster.db
 .. conda:recipe:: bioconductor-rta10transcriptcluster.db
    :replaces_section_title:
 
-   Affymetrix rta10 annotation data \(chip rta10transcriptcluster\) assembled using data from public repositories
+   Affymetrix rta10 annotation data \(chip rta10transcriptcluster\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/rta10transcriptcluster.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/rta10transcriptcluster.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rta10transcriptcluster.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rta10transcriptcluster.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rta10transcriptcluster.db/meta.yaml>`_
 
-   
+   Affymetrix rta10 annotation data \(chip rta10transcriptcluster\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-rta10transcriptcluster.db

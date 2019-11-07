@@ -9,14 +9,14 @@ bioconductor-occugene
 .. conda:recipe:: bioconductor-occugene
    :replaces_section_title:
 
-   Statistical tools for building random mutagenesis libraries for prokaryotes. The package has functions for handling the occupancy distribution for a multinomial and for estimating the number of essential genes in random transposon mutagenesis libraries.
+   Functions for Multinomial Occupancy Distribution
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/occugene.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/occugene.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-occugene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-occugene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-occugene/meta.yaml>`_
    :links: biotools: :biotools:`occugene`, doi: :doi:`10.1007/978-1-59745-321-9_22`
 
-   
+   Statistical tools for building random mutagenesis libraries for prokaryotes. The package has functions for handling the occupancy distribution for a multinomial and for estimating the number of essential genes in random transposon mutagenesis libraries.
 
 
 .. conda:package:: bioconductor-occugene

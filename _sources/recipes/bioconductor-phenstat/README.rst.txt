@@ -9,13 +9,13 @@ bioconductor-phenstat
 .. conda:recipe:: bioconductor-phenstat
    :replaces_section_title:
 
-   Package contains methods for statistical analysis of phenotypic data.
+   Statistical analysis of phenotypic data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PhenStat.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PhenStat.html
    :license: file LICENSE
    :recipe: /`bioconductor-phenstat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phenstat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phenstat/meta.yaml>`_
 
-   
+   Package contains methods for statistical analysis of phenotypic data.
 
 
 .. conda:package:: bioconductor-phenstat

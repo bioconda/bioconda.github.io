@@ -9,13 +9,13 @@ bioconductor-mofa
 .. conda:recipe:: bioconductor-mofa
    :replaces_section_title:
 
-   Multi\-Omics Factor Analysis\: an unsupervised framework for the integration of multi\-omics data sets.
+   Multi\-Omics Factor Analysis \(MOFA\)
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MOFA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MOFA.html
    :license: LGPL-3 | file LICENSE
    :recipe: /`bioconductor-mofa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mofa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mofa/meta.yaml>`_
 
-   
+   Multi\-Omics Factor Analysis\: an unsupervised framework for the integration of multi\-omics data sets.
 
 
 .. conda:package:: bioconductor-mofa

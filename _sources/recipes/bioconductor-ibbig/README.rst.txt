@@ -9,13 +9,13 @@ bioconductor-ibbig
 .. conda:recipe:: bioconductor-ibbig
    :replaces_section_title:
 
-   iBBiG is a bi\-clustering algorithm which is optimizes for binary data analysis. We apply it to meta\-gene set analysis of large numbers of gene expression datasets. The iterative algorithm extracts groups of phenotypes from multiple studies that are associated with similar gene sets. iBBiG does not require prior knowledge of the number or scale of clusters and allows discovery of clusters with diverse sizes
+   Iterative Binary Biclustering of Genesets
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/iBBiG.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/iBBiG.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ibbig <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ibbig>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ibbig/meta.yaml>`_
 
-   
+   iBBiG is a bi\-clustering algorithm which is optimizes for binary data analysis. We apply it to meta\-gene set analysis of large numbers of gene expression datasets. The iterative algorithm extracts groups of phenotypes from multiple studies that are associated with similar gene sets. iBBiG does not require prior knowledge of the number or scale of clusters and allows discovery of clusters with diverse sizes
 
 
 .. conda:package:: bioconductor-ibbig

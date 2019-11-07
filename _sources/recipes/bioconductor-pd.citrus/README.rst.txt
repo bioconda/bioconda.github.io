@@ -11,11 +11,11 @@ bioconductor-pd.citrus
 
    Platform Design Info for The Manufacturer\'s Name Citrus
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.citrus.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.citrus.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.citrus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.citrus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.citrus/meta.yaml>`_
 
-   
+   Platform Design Info for The Manufacturer\'s Name Citrus
 
 
 .. conda:package:: bioconductor-pd.citrus

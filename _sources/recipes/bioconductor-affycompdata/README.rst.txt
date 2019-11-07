@@ -9,20 +9,20 @@ bioconductor-affycompdata
 .. conda:recipe:: bioconductor-affycompdata
    :replaces_section_title:
 
-   Data needed by the affycomp package.
+   affycomp data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/affycompData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/affycompData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-affycompdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affycompdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affycompdata/meta.yaml>`_
 
-   
+   Data needed by the affycomp package.
 
 
 .. conda:package:: bioconductor-affycompdata
 
    |downloads_bioconductor-affycompdata| |docker_bioconductor-affycompdata|
 
-   :versions: 1.23.0-0, 1.22.0-2, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-2, 1.20.0-0
    
    :depends bioconductor-affycomp: >=1.62.0,<1.63.0
    :depends bioconductor-biobase: >=2.46.0,<2.47.0

@@ -9,20 +9,20 @@ bioconductor-italicsdata
 .. conda:recipe:: bioconductor-italicsdata
    :replaces_section_title:
 
-   Data needed to use the ITALICS package
+   ITALICSData
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ITALICSData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ITALICSData.html
    :license: GPL
    :recipe: /`bioconductor-italicsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-italicsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-italicsdata/meta.yaml>`_
 
-   
+   Data needed to use the ITALICS package
 
 
 .. conda:package:: bioconductor-italicsdata
 
    |downloads_bioconductor-italicsdata| |docker_bioconductor-italicsdata|
 
-   :versions: 2.23.0-0, 2.22.0-1, 2.22.0-0, 2.20.0-0
+   :versions: 2.24.0-0, 2.22.0-1, 2.22.0-0, 2.20.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

@@ -9,13 +9,13 @@ bioconductor-rmassbank
 .. conda:recipe:: bioconductor-rmassbank
    :replaces_section_title:
 
-   Workflow to process tandem MS files and build MassBank records. Functions include automated extraction of tandem MS spectra\, formula assignment to tandem MS fragments\, recalibration of tandem MS spectra with assigned fragments\, spectrum cleanup\, automated retrieval of compound information from Internet databases\, and export to MassBank records.
+   Workflow to process tandem MS files and build MassBank records
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RMassBank.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RMassBank.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rmassbank <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmassbank>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmassbank/meta.yaml>`_
 
-   
+   Workflow to process tandem MS files and build MassBank records. Functions include automated extraction of tandem MS spectra\, formula assignment to tandem MS fragments\, recalibration of tandem MS spectra with assigned fragments\, spectrum cleanup\, automated retrieval of compound information from Internet databases\, and export to MassBank records.
 
 
 .. conda:package:: bioconductor-rmassbank

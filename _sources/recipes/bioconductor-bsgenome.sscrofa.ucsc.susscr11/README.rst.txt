@@ -9,13 +9,13 @@ bioconductor-bsgenome.sscrofa.ucsc.susscr11
 .. conda:recipe:: bioconductor-bsgenome.sscrofa.ucsc.susscr11
    :replaces_section_title:
 
-   Full genome sequences for Sus scrofa \(Pig\) as provided by UCSC \(susScr11\, Feb. 2017\) and stored in Biostrings objects.
+   Full genome sequences for Sus scrofa \(UCSC version susScr11\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Sscrofa.UCSC.susScr11.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Sscrofa.UCSC.susScr11.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.sscrofa.ucsc.susscr11 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.sscrofa.ucsc.susscr11>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.sscrofa.ucsc.susscr11/meta.yaml>`_
 
-   
+   Full genome sequences for Sus scrofa \(Pig\) as provided by UCSC \(susScr11\, Feb. 2017\) and stored in Biostrings objects.
 
 
 .. conda:package:: bioconductor-bsgenome.sscrofa.ucsc.susscr11

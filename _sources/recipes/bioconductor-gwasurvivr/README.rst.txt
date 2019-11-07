@@ -9,13 +9,13 @@ bioconductor-gwasurvivr
 .. conda:recipe:: bioconductor-gwasurvivr
    :replaces_section_title:
 
-   gwasurvivr is a package to perform survival analysis using Cox proportional hazard models on imputed genetic data.
+   gwasurvivr\: an R package for genome wide survival analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/gwasurvivr.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/gwasurvivr.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gwasurvivr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwasurvivr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwasurvivr/meta.yaml>`_
 
-   
+   gwasurvivr is a package to perform survival analysis using Cox proportional hazard models on imputed genetic data.
 
 
 .. conda:package:: bioconductor-gwasurvivr

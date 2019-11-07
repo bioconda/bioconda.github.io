@@ -9,14 +9,14 @@ bioconductor-turbonorm
 .. conda:recipe:: bioconductor-turbonorm
    :replaces_section_title:
 
-   A fast scatterplot smoother based on B\-splines with second\-order difference penalty. Functions for microarray normalization of single\-colour data i.e. Affymetrix\/Illumina and two\-colour data supplied as marray MarrayRaw\-objects or limma RGList\-objects are available.
+   A fast scatterplot smoother suitable for microarray normalization
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/TurboNorm.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/TurboNorm.html
    :license: LGPL
    :recipe: /`bioconductor-turbonorm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-turbonorm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-turbonorm/meta.yaml>`_
    :links: biotools: :biotools:`turbonorm`
 
-   
+   A fast scatterplot smoother based on B\-splines with second\-order difference penalty. Functions for microarray normalization of single\-colour data i.e. Affymetrix\/Illumina and two\-colour data supplied as marray MarrayRaw\-objects or limma RGList\-objects are available.
 
 
 .. conda:package:: bioconductor-turbonorm

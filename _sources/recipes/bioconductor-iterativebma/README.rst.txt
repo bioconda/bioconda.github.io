@@ -9,14 +9,14 @@ bioconductor-iterativebma
 .. conda:recipe:: bioconductor-iterativebma
    :replaces_section_title:
 
-   The iterative Bayesian Model Averaging \(BMA\) algorithm is a variable selection and classification algorithm with an application of classifying 2\-class microarray samples\, as described in Yeung\, Bumgarner and Raftery \(Bioinformatics 2005\, 21\: 2394\-2402\).
+   The Iterative Bayesian Model Averaging \(BMA\) algorithm
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/iterativeBMA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/iterativeBMA.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-iterativebma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iterativebma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iterativebma/meta.yaml>`_
    :links: biotools: :biotools:`iterativebma`, doi: :doi:`10.1186/gb-2008-9-7-r118`
 
-   
+   The iterative Bayesian Model Averaging \(BMA\) algorithm is a variable selection and classification algorithm with an application of classifying 2\-class microarray samples\, as described in Yeung\, Bumgarner and Raftery \(Bioinformatics 2005\, 21\: 2394\-2402\).
 
 
 .. conda:package:: bioconductor-iterativebma

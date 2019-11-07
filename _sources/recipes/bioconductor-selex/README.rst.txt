@@ -9,13 +9,13 @@ bioconductor-selex
 .. conda:recipe:: bioconductor-selex
    :replaces_section_title:
 
-   Tools for quantifying DNA binding specificities based on SELEX\-seq data
+   Functions for analyzing SELEX\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SELEX.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SELEX.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-selex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-selex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-selex/meta.yaml>`_
 
-   
+   Tools for quantifying DNA binding specificities based on SELEX\-seq data
 
 
 .. conda:package:: bioconductor-selex

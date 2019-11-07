@@ -9,14 +9,14 @@ bioconductor-cnorfuzzy
 .. conda:recipe:: bioconductor-cnorfuzzy
    :replaces_section_title:
 
-   This package is an extension to CellNOptR.  It contains additional functionality needed to simulate and train a prior knowledge network to experimental data using constrained fuzzy logic \(cFL\, rather than Boolean logic as is the case in CellNOptR\).  Additionally\, this package will contain functions to use for the compilation of multiple optimization results \(either Boolean or cFL\).
+   Addon to CellNOptR\: Fuzzy Logic
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CNORfuzzy.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CNORfuzzy.html
    :license: GPL-2
    :recipe: /`bioconductor-cnorfuzzy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnorfuzzy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnorfuzzy/meta.yaml>`_
    :links: biotools: :biotools:`cnorfuzzy`, doi: :doi:`10.1186/1752-0509-6-133`
 
-   
+   This package is an extension to CellNOptR.  It contains additional functionality needed to simulate and train a prior knowledge network to experimental data using constrained fuzzy logic \(cFL\, rather than Boolean logic as is the case in CellNOptR\).  Additionally\, this package will contain functions to use for the compilation of multiple optimization results \(either Boolean or cFL\).
 
 
 .. conda:package:: bioconductor-cnorfuzzy

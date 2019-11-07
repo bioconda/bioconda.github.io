@@ -9,13 +9,13 @@ bioconductor-shdz.db
 .. conda:recipe:: bioconductor-shdz.db
    :replaces_section_title:
 
-   SHDZ http\:\/\/genome\-www5.stanford.edu\/ Annotation Data \(SHDZ\) assembled using data from public repositories
+   SHDZ http\:\/\/genome\-www5.stanford.edu\/ Annotation Data \(SHDZ\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/SHDZ.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/SHDZ.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-shdz.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-shdz.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-shdz.db/meta.yaml>`_
 
-   
+   SHDZ http\:\/\/genome\-www5.stanford.edu\/ Annotation Data \(SHDZ\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-shdz.db

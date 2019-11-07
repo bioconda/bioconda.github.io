@@ -9,14 +9,14 @@ bioconductor-sigar
 .. conda:recipe:: bioconductor-sigar
    :replaces_section_title:
 
-   Facilitates the joint analysis of high\-throughput data from multiple molecular levels. Contains functions for manipulation of objects\, various analysis types\, and some visualization.
+   Statistics for Integrative Genomics Analyses in R
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/sigaR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/sigaR.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-sigar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigar/meta.yaml>`_
    :links: biotools: :biotools:`sigar`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Facilitates the joint analysis of high\-throughput data from multiple molecular levels. Contains functions for manipulation of objects\, various analysis types\, and some visualization.
 
 
 .. conda:package:: bioconductor-sigar

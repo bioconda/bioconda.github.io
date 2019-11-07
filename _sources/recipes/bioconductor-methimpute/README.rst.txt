@@ -9,13 +9,13 @@ bioconductor-methimpute
 .. conda:recipe:: bioconductor-methimpute
    :replaces_section_title:
 
-   This package implements functions for calling methylation for all cytosines in the genome.
+   Imputation\-guided re\-construction of complete methylomes from WGBS data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/methimpute.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/methimpute.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-methimpute <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methimpute>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methimpute/meta.yaml>`_
 
-   
+   This package implements functions for calling methylation for all cytosines in the genome.
 
 
 .. conda:package:: bioconductor-methimpute

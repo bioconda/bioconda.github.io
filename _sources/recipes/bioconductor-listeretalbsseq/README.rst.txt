@@ -9,20 +9,20 @@ bioconductor-listeretalbsseq
 .. conda:recipe:: bioconductor-listeretalbsseq
    :replaces_section_title:
 
-   Base resolution bisulfite sequencing data of Human DNA methylomes
+   BS\-seq data of H1 and IMR90 cell line excerpted from Lister et al. 2009
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ListerEtAlBSseq.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ListerEtAlBSseq.html
    :license: Artistic 2.0
    :recipe: /`bioconductor-listeretalbsseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-listeretalbsseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-listeretalbsseq/meta.yaml>`_
 
-   
+   Base resolution bisulfite sequencing data of Human DNA methylomes
 
 
 .. conda:package:: bioconductor-listeretalbsseq
 
    |downloads_bioconductor-listeretalbsseq| |docker_bioconductor-listeretalbsseq|
 
-   :versions: 1.17.0-0, 1.16.0-1, 1.14.0-1, 1.14.0-0
+   :versions: 1.18.0-0, 1.16.0-1, 1.14.0-1, 1.14.0-0
    
    :depends bioconductor-methylpipe: >=1.20.0,<1.21.0
    :depends curl: >=7.65.3,<8.0a0

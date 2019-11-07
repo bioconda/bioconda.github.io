@@ -9,13 +9,13 @@ bioconductor-kegg.db
 .. conda:recipe:: bioconductor-kegg.db
    :replaces_section_title:
 
-   A set of annotation maps for KEGG assembled using data from KEGG
+   A set of annotation maps for KEGG
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/KEGG.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/KEGG.db.html
    :license: file LICENSE
    :recipe: /`bioconductor-kegg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kegg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kegg.db/meta.yaml>`_
 
-   
+   A set of annotation maps for KEGG assembled using data from KEGG
 
 
 .. conda:package:: bioconductor-kegg.db

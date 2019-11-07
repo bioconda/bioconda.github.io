@@ -9,33 +9,33 @@ bioconductor-funcisnp
 .. conda:recipe:: bioconductor-funcisnp
    :replaces_section_title:
 
-   FunciSNP integrates information from GWAS\, 1000genomes and chromatin feature to identify functional SNP in coding or non\-coding regions.
+   Integrating Functional Non\-coding Datasets with Genetic Association Studies to Identify Candidate Regulatory SNPs
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/FunciSNP.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/FunciSNP.html
    :license: GPL-3
    :recipe: /`bioconductor-funcisnp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-funcisnp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-funcisnp/meta.yaml>`_
 
-   
+   FunciSNP integrates information from GWAS\, 1000genomes and chromatin feature to identify functional SNP in coding or non\-coding regions.
 
 
 .. conda:package:: bioconductor-funcisnp
 
    |downloads_bioconductor-funcisnp| |docker_bioconductor-funcisnp|
 
-   :versions: 1.30.0-0, 1.28.0-1, 1.26.0-0
+   :versions: 1.28.0-1, 1.26.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-chippeakanno: >=3.20.0,<3.21.0
-   :depends bioconductor-funcisnp.data: >=1.21.0,<1.22.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
-   :depends bioconductor-rtracklayer: >=1.46.0,<1.47.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends bioconductor-snpstats: >=1.36.0,<1.37.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-chippeakanno: >=3.18.0,<3.19.0
+   :depends bioconductor-funcisnp.data: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
+   :depends bioconductor-rtracklayer: >=1.44.0,<1.45.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-snpstats: >=1.34.0,<1.35.0
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: >=3.2.0,<3.3.0
-   :depends bioconductor-variantannotation: >=1.32.0,<1.33.0
+   :depends bioconductor-variantannotation: >=1.30.0,<1.31.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: >=0.9.0
    :depends r-plyr: 

@@ -9,13 +9,13 @@ bioconductor-org.bt.eg.db
 .. conda:recipe:: bioconductor-org.bt.eg.db
    :replaces_section_title:
 
-   Genome wide annotation for Bovine\, primarily based on mapping using Entrez Gene identifiers.
+   Genome wide annotation for Bovine
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/org.Bt.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/org.Bt.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-org.bt.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.bt.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.bt.eg.db/meta.yaml>`_
 
-   
+   Genome wide annotation for Bovine\, primarily based on mapping using Entrez Gene identifiers.
 
 
 .. conda:package:: bioconductor-org.bt.eg.db

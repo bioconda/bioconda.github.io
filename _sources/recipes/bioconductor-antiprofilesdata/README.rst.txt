@@ -9,20 +9,20 @@ bioconductor-antiprofilesdata
 .. conda:recipe:: bioconductor-antiprofilesdata
    :replaces_section_title:
 
-   Colon normal tissue and cancer samples used in Corrada Bravo\, et al. gene expression anti\-profiles paper\: BMC Bioinformatics 2012\, 13\:272 doi\:10.1186\/1471\-2105\-13\-272. Measurements are z\-scores obtained from the GeneExpression Barcode in the \'frma\' package
+   Normal colon and cancer preprocessed affy data for antiProfile building.
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/antiProfilesData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/antiProfilesData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-antiprofilesdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-antiprofilesdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-antiprofilesdata/meta.yaml>`_
 
-   
+   Colon normal tissue and cancer samples used in Corrada Bravo\, et al. gene expression anti\-profiles paper\: BMC Bioinformatics 2012\, 13\:272 doi\:10.1186\/1471\-2105\-13\-272. Measurements are z\-scores obtained from the GeneExpression Barcode in the \'frma\' package
 
 
 .. conda:package:: bioconductor-antiprofilesdata
 
    |downloads_bioconductor-antiprofilesdata| |docker_bioconductor-antiprofilesdata|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.18.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends curl: >=7.65.3,<8.0a0

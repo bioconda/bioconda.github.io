@@ -9,20 +9,20 @@ bioconductor-bcellviper
 .. conda:recipe:: bioconductor-bcellviper
    :replaces_section_title:
 
-   This package provides a human B\-cell context\-specific transcriptional regulatory network and a human normal B\-cells dataset for the examples in package viper.
+   Human B\-cell transcriptional interactome and normal human B\-cell expression data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/bcellViper.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/bcellViper.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-bcellviper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bcellviper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bcellviper/meta.yaml>`_
 
-   
+   This package provides a human B\-cell context\-specific transcriptional regulatory network and a human normal B\-cells dataset for the examples in package viper.
 
 
 .. conda:package:: bioconductor-bcellviper
 
    |downloads_bioconductor-bcellviper| |docker_bioconductor-bcellviper|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.18.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends curl: >=7.65.3,<8.0a0

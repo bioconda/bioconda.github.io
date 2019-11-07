@@ -9,20 +9,20 @@ bioconductor-jctseqdata
 .. conda:recipe:: bioconductor-jctseqdata
    :replaces_section_title:
 
-   Junction count data from an example dataset taken from a subset of the RNA\-seq reads from six samples. Data was subsampled and modified to provide edge cases for testing and to reduce file sizes.
+   Example Junction Count data for use with JunctionSeq
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/JctSeqData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/JctSeqData.html
    :license: file LICENSE
    :recipe: /`bioconductor-jctseqdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jctseqdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jctseqdata/meta.yaml>`_
 
-   
+   Junction count data from an example dataset taken from a subset of the RNA\-seq reads from six samples. Data was subsampled and modified to provide edge cases for testing and to reduce file sizes.
 
 
 .. conda:package:: bioconductor-jctseqdata
 
    |downloads_bioconductor-jctseqdata| |docker_bioconductor-jctseqdata|
 
-   :versions: 1.15.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0
+   :versions: 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

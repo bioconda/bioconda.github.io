@@ -9,14 +9,14 @@ bioconductor-amountain
 .. conda:recipe:: bioconductor-amountain
    :replaces_section_title:
 
-   A pure data\-driven gene network\, weighted gene co\-expression network \(WGCN\) could be constructed only from expression profile. Different layers in such networks may represent different time points\, multiple conditions or various species. AMOUNTAIN aims to search active modules in multi\-layer WGCN using a continuous optimization approach.
+   Active modules for multilayer weighted gene co\-expression networks\: a continuous optimization approach
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/AMOUNTAIN.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/AMOUNTAIN.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-amountain <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-amountain>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-amountain/meta.yaml>`_
    :links: biotools: :biotools:`amountain`, doi: :doi:`10.1101/056952`
 
-   
+   A pure data\-driven gene network\, weighted gene co\-expression network \(WGCN\) could be constructed only from expression profile. Different layers in such networks may represent different time points\, multiple conditions or various species. AMOUNTAIN aims to search active modules in multi\-layer WGCN using a continuous optimization approach.
 
 
 .. conda:package:: bioconductor-amountain

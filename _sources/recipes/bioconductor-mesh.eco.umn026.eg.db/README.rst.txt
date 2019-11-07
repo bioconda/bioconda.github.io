@@ -9,13 +9,13 @@ bioconductor-mesh.eco.umn026.eg.db
 .. conda:recipe:: bioconductor-mesh.eco.umn026.eg.db
    :replaces_section_title:
 
-   Entrez Gene ID to MeSH ID table.
+   Mapping table for Escherichia coli UMN026 Gene ID to MeSH
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/MeSH.Eco.UMN026.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/MeSH.Eco.UMN026.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.eco.umn026.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.eco.umn026.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.eco.umn026.eg.db/meta.yaml>`_
 
-   
+   Entrez Gene ID to MeSH ID table.
 
 
 .. conda:package:: bioconductor-mesh.eco.umn026.eg.db

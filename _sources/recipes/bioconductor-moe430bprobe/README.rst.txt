@@ -9,13 +9,13 @@ bioconductor-moe430bprobe
 .. conda:recipe:: bioconductor-moe430bprobe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was MOE430B\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type moe430b
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/moe430bprobe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/moe430bprobe.html
    :license: LGPL
    :recipe: /`bioconductor-moe430bprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moe430bprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moe430bprobe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was MOE430B\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-moe430bprobe

@@ -9,13 +9,13 @@ bioconductor-biocsingular
 .. conda:recipe:: bioconductor-biocsingular
    :replaces_section_title:
 
-   Implements exact and approximate methods for singular value decomposition and principal components analysis\, in a framework that allows them to be easily switched within Bioconductor packages or workflows. Where possible\, parallelization is achieved using the BiocParallel framework.
+   Singular Value Decomposition for Bioconductor Packages
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BiocSingular.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BiocSingular.html
    :license: GPL-3
    :recipe: /`bioconductor-biocsingular <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocsingular>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocsingular/meta.yaml>`_
 
-   
+   Implements exact and approximate methods for singular value decomposition and principal components analysis\, in a framework that allows them to be easily switched within Bioconductor packages or workflows. Where possible\, parallelization is achieved using the BiocParallel framework.
 
 
 .. conda:package:: bioconductor-biocsingular

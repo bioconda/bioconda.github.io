@@ -9,20 +9,20 @@ bioconductor-pwmenrich.dmelanogaster.background
 .. conda:recipe:: bioconductor-pwmenrich.dmelanogaster.background
    :replaces_section_title:
 
-   PWMEnrich pre\-compiled background objects for Drosophila melanogaster and MotifDb D. melanogaster motifs.
+   D. melanogaster background for PWMEnrich
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/PWMEnrich.Dmelanogaster.background.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/PWMEnrich.Dmelanogaster.background.html
    :license: GPL-3
    :recipe: /`bioconductor-pwmenrich.dmelanogaster.background <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwmenrich.dmelanogaster.background>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwmenrich.dmelanogaster.background/meta.yaml>`_
 
-   
+   PWMEnrich pre\-compiled background objects for Drosophila melanogaster and MotifDb D. melanogaster motifs.
 
 
 .. conda:package:: bioconductor-pwmenrich.dmelanogaster.background
 
    |downloads_bioconductor-pwmenrich.dmelanogaster.background| |docker_bioconductor-pwmenrich.dmelanogaster.background|
 
-   :versions: 4.19.0-0, 4.18.0-1, 4.16.0-0
+   :versions: 4.20.0-0, 4.18.0-1, 4.16.0-0
    
    :depends bioconductor-pwmenrich: >=4.22.0,<4.23.0
    :depends curl: >=7.65.3,<8.0a0

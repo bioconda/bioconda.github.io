@@ -9,13 +9,13 @@ bioconductor-missrows
 .. conda:recipe:: bioconductor-missrows
    :replaces_section_title:
 
-   The missRows package implements the MI\-MFA method to deal with missing individuals \(\'biological units\'\) in multi\-omics data integration. The MI\-MFA method generates multiple imputed datasets from a Multiple Factor Analysis model\, then the yield results are combined in a single consensus solution. The package provides functions for estimating coordinates of individuals and variables\, imputing missing individuals\, and various diagnostic plots to inspect the pattern of missingness and visualize the uncertainty due to missing values.
+   Handling Missing Individuals in Multi\-Omics Data Integration
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/missRows.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/missRows.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-missrows <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-missrows>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-missrows/meta.yaml>`_
 
-   
+   The missRows package implements the MI\-MFA method to deal with missing individuals \(\'biological units\'\) in multi\-omics data integration. The MI\-MFA method generates multiple imputed datasets from a Multiple Factor Analysis model\, then the yield results are combined in a single consensus solution. The package provides functions for estimating coordinates of individuals and variables\, imputing missing individuals\, and various diagnostic plots to inspect the pattern of missingness and visualize the uncertainty due to missing values.
 
 
 .. conda:package:: bioconductor-missrows

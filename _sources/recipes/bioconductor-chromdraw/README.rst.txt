@@ -9,14 +9,14 @@ bioconductor-chromdraw
 .. conda:recipe:: bioconductor-chromdraw
    :replaces_section_title:
 
-   ChromDraw is a R package for drawing the schemes of karyotype\(s\) in the linear and circular fashion. It is possible to visualized cytogenetic marsk on the chromosomes. This tool has own input data format. Input data can be imported from the GenomicRanges data structure. This package can visualized the data in the BED file format. Here is requirement on to the first nine fields of the BED format. Output files format are \*.eps and \*.svg.
+   chromDraw is a R package for drawing the schemes of karyotypes in the linear and circular fashion.
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/chromDraw.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/chromDraw.html
    :license: GPL-3
    :recipe: /`bioconductor-chromdraw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromdraw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromdraw/meta.yaml>`_
    :links: biotools: :biotools:`chromdraw`
 
-   
+   ChromDraw is a R package for drawing the schemes of karyotype\(s\) in the linear and circular fashion. It is possible to visualized cytogenetic marsk on the chromosomes. This tool has own input data format. Input data can be imported from the GenomicRanges data structure. This package can visualized the data in the BED file format. Here is requirement on to the first nine fields of the BED format. Output files format are \*.eps and \*.svg.
 
 
 .. conda:package:: bioconductor-chromdraw

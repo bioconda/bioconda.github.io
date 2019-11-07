@@ -9,13 +9,13 @@ bioconductor-nanostringqcpro
 .. conda:recipe:: bioconductor-nanostringqcpro
    :replaces_section_title:
 
-   NanoStringQCPro provides a set of quality metrics that can be used to assess the quality of NanoString mRNA gene expression data \-\- i.e. to identify outlier probes and outlier samples. It also provides different background subtraction and normalization approaches for this data. It outputs suggestions for flagging samples\/probes and an easily sharable html quality control output.
+   Quality metrics and data processing methods for NanoString mRNA gene expression data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/NanoStringQCPro.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/NanoStringQCPro.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-nanostringqcpro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanostringqcpro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanostringqcpro/meta.yaml>`_
 
-   
+   NanoStringQCPro provides a set of quality metrics that can be used to assess the quality of NanoString mRNA gene expression data \-\- i.e. to identify outlier probes and outlier samples. It also provides different background subtraction and normalization approaches for this data. It outputs suggestions for flagging samples\/probes and an easily sharable html quality control output.
 
 
 .. conda:package:: bioconductor-nanostringqcpro

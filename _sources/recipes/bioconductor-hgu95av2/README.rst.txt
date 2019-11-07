@@ -9,13 +9,13 @@ bioconductor-hgu95av2
 .. conda:recipe:: bioconductor-hgu95av2
    :replaces_section_title:
 
-   Affymetrix Human Genome U95 Set annotation data \(hgu95av2\) assembled using data from public data repositories
+   Affymetrix Human Genome U95 Set Annotation Data \(hgu95av2\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hgu95av2.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hgu95av2.html
    :license: The Artistic License, Version 2.0
    :recipe: /`bioconductor-hgu95av2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95av2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95av2/meta.yaml>`_
 
-   
+   Affymetrix Human Genome U95 Set annotation data \(hgu95av2\) assembled using data from public data repositories
 
 
 .. conda:package:: bioconductor-hgu95av2

@@ -9,13 +9,13 @@ bioconductor-cellbaser
 .. conda:recipe:: bioconductor-cellbaser
    :replaces_section_title:
 
-   This R package makes use of the exhaustive RESTful Web service API that has been implemented for the Cellabase database. It enable researchers to query and obtain a wealth of biological information from a single database saving a lot of time. Another benefit is that researchers can easily make queries about different biological topics and link all this information together as all information is integrated.
+   Querying annotation data from the high performance Cellbase web
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/cellbaseR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/cellbaseR.html
    :license: Apache License (== 2.0)
    :recipe: /`bioconductor-cellbaser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellbaser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellbaser/meta.yaml>`_
 
-   
+   This R package makes use of the exhaustive RESTful Web service API that has been implemented for the Cellabase database. It enable researchers to query and obtain a wealth of biological information from a single database saving a lot of time. Another benefit is that researchers can easily make queries about different biological topics and link all this information together as all information is integrated.
 
 
 .. conda:package:: bioconductor-cellbaser

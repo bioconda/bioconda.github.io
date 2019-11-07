@@ -9,20 +9,20 @@ bioconductor-tofsimsdata
 .. conda:recipe:: bioconductor-tofsimsdata
    :replaces_section_title:
 
-   This packages contains data to be used with the \'tofsims\' package.
+   Import\, process and analysis of ToF\-SIMS imaging data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/tofsimsData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/tofsimsData.html
    :license: GPL-3
    :recipe: /`bioconductor-tofsimsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tofsimsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tofsimsdata/meta.yaml>`_
 
-   
+   This packages contains data to be used with the \'tofsims\' package.
 
 
 .. conda:package:: bioconductor-tofsimsdata
 
    |downloads_bioconductor-tofsimsdata| |docker_bioconductor-tofsimsdata|
 
-   :versions: 1.13.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

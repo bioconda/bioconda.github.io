@@ -9,13 +9,13 @@ bioconductor-hgu219cdf
 .. conda:recipe:: bioconductor-hgu219cdf
    :replaces_section_title:
 
-   A package containing an environment representing the HG\-U219.cdf file.
+   hgu219cdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hgu219cdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hgu219cdf.html
    :license: LGPL
    :recipe: /`bioconductor-hgu219cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu219cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu219cdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the HG\-U219.cdf file.
 
 
 .. conda:package:: bioconductor-hgu219cdf

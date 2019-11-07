@@ -9,14 +9,14 @@ bioconductor-rtrmui
 .. conda:recipe:: bioconductor-rtrmui
    :replaces_section_title:
 
-   This package provides a web interface to compute transcriptional regulatory modules with rTRM.
+   A shiny user interface for rTRM
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/rTRMui.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/rTRMui.html
    :license: GPL-3
    :recipe: /`bioconductor-rtrmui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtrmui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtrmui/meta.yaml>`_
    :links: biotools: :biotools:`rtrmui`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package provides a web interface to compute transcriptional regulatory modules with rTRM.
 
 
 .. conda:package:: bioconductor-rtrmui

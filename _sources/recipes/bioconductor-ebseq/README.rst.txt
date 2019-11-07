@@ -9,14 +9,14 @@ bioconductor-ebseq
 .. conda:recipe:: bioconductor-ebseq
    :replaces_section_title:
 
-   Differential Expression analysis at both gene and isoform level using RNA\-seq data
+   An R package for gene and isoform differential expression analysis of RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/EBSeq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/EBSeq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ebseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebseq/meta.yaml>`_
    :links: biotools: :biotools:`ebseq`, doi: :doi:`10.1093/bioinformatics/btt087`
 
-   
+   Differential Expression analysis at both gene and isoform level using RNA\-seq data
 
 
 .. conda:package:: bioconductor-ebseq

@@ -9,13 +9,13 @@ bioconductor-targetscan.mm.eg.db
 .. conda:recipe:: bioconductor-targetscan.mm.eg.db
    :replaces_section_title:
 
-   TargetScan miRNA target predictions for mouse assembled using data from the TargetScan website. TargetScan predicts biological targets of miRNAs by searching for the presence of conserved 8mer and 7mer sites that match the seed region of each miRNA. Also identified are sites with mismatches in the seed region that are compensated by conserved 3\' pairing. In mammals\, predictions are ranked based on the predicted efficacy of targeting as calculated using the context scores of the sites.
+   TargetScan miRNA target predictions for mouse
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/targetscan.Mm.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/targetscan.Mm.eg.db.html
    :license: file LICENSE
    :recipe: /`bioconductor-targetscan.mm.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetscan.mm.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetscan.mm.eg.db/meta.yaml>`_
 
-   
+   TargetScan miRNA target predictions for mouse assembled using data from the TargetScan website. TargetScan predicts biological targets of miRNAs by searching for the presence of conserved 8mer and 7mer sites that match the seed region of each miRNA. Also identified are sites with mismatches in the seed region that are compensated by conserved 3\' pairing. In mammals\, predictions are ranked based on the predicted efficacy of targeting as calculated using the context scores of the sites.
 
 
 .. conda:package:: bioconductor-targetscan.mm.eg.db

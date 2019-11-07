@@ -9,20 +9,20 @@ bioconductor-seqcna.annot
 .. conda:recipe:: bioconductor-seqcna.annot
    :replaces_section_title:
 
-   Provides annotation on GC content\, mappability and genomic features for various genomes
+   Annotation for the copy number analysis of deep sequencing cancer data with seqCNA
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/seqCNA.annot.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/seqCNA.annot.html
    :license: GPL-3
    :recipe: /`bioconductor-seqcna.annot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqcna.annot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqcna.annot/meta.yaml>`_
 
-   
+   Provides annotation on GC content\, mappability and genomic features for various genomes
 
 
 .. conda:package:: bioconductor-seqcna.annot
 
    |downloads_bioconductor-seqcna.annot| |docker_bioconductor-seqcna.annot|
 
-   :versions: 1.21.0-0, 1.20.0-2, 1.20.0-1, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-2, 1.20.0-1, 1.18.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

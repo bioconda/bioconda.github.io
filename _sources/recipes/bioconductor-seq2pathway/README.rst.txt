@@ -9,25 +9,25 @@ bioconductor-seq2pathway
 .. conda:recipe:: bioconductor-seq2pathway
    :replaces_section_title:
 
-   Seq2pathway is a novel tool for functional gene\-set \(or termed as pathway\) analysis of next\-generation sequencing data\, consisting of \"seq2gene\" and \"gene2path\" components. The seq2gene links sequence\-level measurements of genomic regions \(including SNPs or point mutation coordinates\) to gene\-level scores\, and the gene2pathway summarizes gene scores to pathway\-scores for each sample. The seq2gene has the feasibility to assign both coding and non\-exon regions to a broader range of neighboring genes than only the nearest one\, thus facilitating the study of functional non\-coding regions. The gene2pathway takes into account the quantity of significance for gene members within a pathway compared those outside a pathway. The output of seq2pathway is a general structure of quantitative pathway\-level scores\, thus allowing one to functional interpret such datasets as RNA\-seq\, ChIP\-seq\, GWAS\, and derived from other next generational sequencing experiments.
+   a novel tool for functional gene\-set \(or termed as pathway\) analysis of next\-generation sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/seq2pathway.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/seq2pathway.html
    :license: GPL-2
    :recipe: /`bioconductor-seq2pathway <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seq2pathway>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seq2pathway/meta.yaml>`_
    :links: biotools: :biotools:`seq2pathway`
 
-   
+   Seq2pathway is a novel tool for functional gene\-set \(or termed as pathway\) analysis of next\-generation sequencing data\, consisting of \"seq2gene\" and \"gene2path\" components. The seq2gene links sequence\-level measurements of genomic regions \(including SNPs or point mutation coordinates\) to gene\-level scores\, and the gene2pathway summarizes gene scores to pathway\-scores for each sample. The seq2gene has the feasibility to assign both coding and non\-exon regions to a broader range of neighboring genes than only the nearest one\, thus facilitating the study of functional non\-coding regions. The gene2pathway takes into account the quantity of significance for gene members within a pathway compared those outside a pathway. The output of seq2pathway is a general structure of quantitative pathway\-level scores\, thus allowing one to functional interpret such datasets as RNA\-seq\, ChIP\-seq\, GWAS\, and derived from other next generational sequencing experiments.
 
 
 .. conda:package:: bioconductor-seq2pathway
 
    |downloads_bioconductor-seq2pathway| |docker_bioconductor-seq2pathway|
 
-   :versions: 1.18.0-0, 1.16.0-1, 1.14.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions: 1.16.0-1, 1.14.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0
    
-   :depends bioconductor-biomart: >=2.42.0,<2.43.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-seq2pathway.data: >=1.17.0,<1.18.0
+   :depends bioconductor-biomart: >=2.40.0,<2.41.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-seq2pathway.data: >=1.16.0,<1.17.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-gsa: 
    :depends r-nnet: 

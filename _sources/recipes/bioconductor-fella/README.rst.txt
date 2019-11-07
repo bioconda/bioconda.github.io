@@ -9,13 +9,13 @@ bioconductor-fella
 .. conda:recipe:: bioconductor-fella
    :replaces_section_title:
 
-   Enrichment of metabolomics data using KEGG entries. Given a set of affected compounds\, FELLA suggests affected reactions\, enzymes\, modules and pathways using label propagation in a knowledge model network. The resulting subnetwork can be visualised and exported.
+   Interpretation and enrichment for metabolomics data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/FELLA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/FELLA.html
    :license: GPL-3
    :recipe: /`bioconductor-fella <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fella>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fella/meta.yaml>`_
 
-   
+   Enrichment of metabolomics data using KEGG entries. Given a set of affected compounds\, FELLA suggests affected reactions\, enzymes\, modules and pathways using label propagation in a knowledge model network. The resulting subnetwork can be visualised and exported.
 
 
 .. conda:package:: bioconductor-fella

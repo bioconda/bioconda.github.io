@@ -9,14 +9,14 @@ bioconductor-qrqc
 .. conda:recipe:: bioconductor-qrqc
    :replaces_section_title:
 
-   Quickly scans reads and gathers statistics on base and quality frequencies\, read length\, k\-mers by position\, and frequent sequences. Produces graphical output of statistics for use in quality control pipelines\, and an optional HTML quality report. S4 SequenceSummary objects allow specific tests and functionality to be written around the data collected.
+   Quick Read Quality Control
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/qrqc.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/qrqc.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-qrqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qrqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qrqc/meta.yaml>`_
    :links: biotools: :biotools:`qrqc`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Quickly scans reads and gathers statistics on base and quality frequencies\, read length\, k\-mers by position\, and frequent sequences. Produces graphical output of statistics for use in quality control pipelines\, and an optional HTML quality report. S4 SequenceSummary objects allow specific tests and functionality to be written around the data collected.
 
 
 .. conda:package:: bioconductor-qrqc

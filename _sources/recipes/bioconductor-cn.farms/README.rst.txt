@@ -9,14 +9,14 @@ bioconductor-cn.farms
 .. conda:recipe:: bioconductor-cn.farms
    :replaces_section_title:
 
-   This package implements the cn.FARMS algorithm for copy number variation \(CNV\) analysis. cn.FARMS allows to analyze the most common Affymetrix \(250K\-SNP6.0\) array types\, supports high\-performance computing using snow and ff.
+   cn.FARMS \- factor analysis for copy number estimation
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/cn.farms.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/cn.farms.html
    :license: LGPL (>= 2.0)
    :recipe: /`bioconductor-cn.farms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cn.farms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cn.farms/meta.yaml>`_
    :links: biotools: :biotools:`cn.farms`, doi: :doi:`10.1093/nar/gkr197`
 
-   
+   This package implements the cn.FARMS algorithm for copy number variation \(CNV\) analysis. cn.FARMS allows to analyze the most common Affymetrix \(250K\-SNP6.0\) array types\, supports high\-performance computing using snow and ff.
 
 
 .. conda:package:: bioconductor-cn.farms

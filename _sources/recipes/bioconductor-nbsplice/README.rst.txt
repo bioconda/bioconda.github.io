@@ -9,13 +9,13 @@ bioconductor-nbsplice
 .. conda:recipe:: bioconductor-nbsplice
    :replaces_section_title:
 
-   The package proposes a differential splicing evaluation method based on isoform quantification. It applies generalized linear models with negative binomial distribution to infer changes in isoform relative expression.
+   Negative Binomial Models to detect Differential Splicing
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/NBSplice.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/NBSplice.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-nbsplice <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nbsplice>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nbsplice/meta.yaml>`_
 
-   
+   The package proposes a differential splicing evaluation method based on isoform quantification. It applies generalized linear models with negative binomial distribution to infer changes in isoform relative expression.
 
 
 .. conda:package:: bioconductor-nbsplice

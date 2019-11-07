@@ -9,13 +9,13 @@ bioconductor-snplocs.hsapiens.dbsnp150.grch38
 .. conda:recipe:: bioconductor-snplocs.hsapiens.dbsnp150.grch38
    :replaces_section_title:
 
-   SNP locations and alleles for Homo sapiens extracted from NCBI dbSNP Build 150. The source data files used for this package were created by NCBI between March 12\-14\, 2017\, and contain SNPs mapped to reference genome GRCh38.p7 \(a patched version of GRCh38 that doesn\'t alter chromosomes 1\-22\, X\, Y\, MT\). Note that these SNPs can be \"injected\" in BSgenome.Hsapiens.NCBI.GRCh38 or in BSgenome.Hsapiens.UCSC.hg38.
+   SNP locations for Homo sapiens \(dbSNP Build 150\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/SNPlocs.Hsapiens.dbSNP150.GRCh38.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/SNPlocs.Hsapiens.dbSNP150.GRCh38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-snplocs.hsapiens.dbsnp150.grch38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snplocs.hsapiens.dbsnp150.grch38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snplocs.hsapiens.dbsnp150.grch38/meta.yaml>`_
 
-   
+   SNP locations and alleles for Homo sapiens extracted from NCBI dbSNP Build 150. The source data files used for this package were created by NCBI between March 12\-14\, 2017\, and contain SNPs mapped to reference genome GRCh38.p7 \(a patched version of GRCh38 that doesn\'t alter chromosomes 1\-22\, X\, Y\, MT\). Note that these SNPs can be \"injected\" in BSgenome.Hsapiens.NCBI.GRCh38 or in BSgenome.Hsapiens.UCSC.hg38.
 
 
 .. conda:package:: bioconductor-snplocs.hsapiens.dbsnp150.grch38

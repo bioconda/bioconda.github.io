@@ -9,20 +9,20 @@ bioconductor-sclcbam
 .. conda:recipe:: bioconductor-sclcbam
    :replaces_section_title:
 
-   Whole\-exome sequencing data from a murine small\-cell lung tumor\; only contains data of chromosome 4.
+   Sequence data from chromosome 4 of a small\-cell lung tumor
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/SCLCBam.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/SCLCBam.html
    :license: GPL-2
    :recipe: /`bioconductor-sclcbam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sclcbam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sclcbam/meta.yaml>`_
 
-   
+   Whole\-exome sequencing data from a murine small\-cell lung tumor\; only contains data of chromosome 4.
 
 
 .. conda:package:: bioconductor-sclcbam
 
    |downloads_bioconductor-sclcbam| |docker_bioconductor-sclcbam|
 
-   :versions: 1.17.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0
+   :versions: 1.18.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

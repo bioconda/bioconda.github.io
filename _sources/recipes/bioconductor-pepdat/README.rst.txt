@@ -9,20 +9,20 @@ bioconductor-pepdat
 .. conda:recipe:: bioconductor-pepdat
    :replaces_section_title:
 
-   Provides sample files and data for the vignettes of pepStat and Pviz as well as peptide collections for HIV and SIV.
+   Peptide microarray data package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/pepDat.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/pepDat.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pepdat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pepdat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pepdat/meta.yaml>`_
 
-   
+   Provides sample files and data for the vignettes of pepStat and Pviz as well as peptide collections for HIV and SIV.
 
 
 .. conda:package:: bioconductor-pepdat
 
    |downloads_bioconductor-pepdat| |docker_bioconductor-pepdat|
 
-   :versions: 1.5.0-0, 1.4.0-1, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0
    
    :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
    :depends curl: >=7.65.3,<8.0a0

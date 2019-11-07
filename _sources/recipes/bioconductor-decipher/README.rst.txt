@@ -9,14 +9,14 @@ bioconductor-decipher
 .. conda:recipe:: bioconductor-decipher
    :replaces_section_title:
 
-   A toolset for deciphering and managing biological sequences.
+   Tools for curating\, analyzing\, and manipulating biological sequences
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DECIPHER.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DECIPHER.html
    :license: GPL-3
    :recipe: /`bioconductor-decipher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decipher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decipher/meta.yaml>`_
    :links: biotools: :biotools:`DECIPHER`
 
-   
+   A toolset for deciphering and managing biological sequences.
 
 
 .. conda:package:: bioconductor-decipher

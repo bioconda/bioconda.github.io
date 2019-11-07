@@ -9,23 +9,23 @@ bioconductor-rtcga.clinical
 .. conda:recipe:: bioconductor-rtcga.clinical
    :replaces_section_title:
 
-   Package provides clinical datasets from The Cancer Genome Atlas Project for all cohorts types from http\:\/\/gdac.broadinstitute.org\/. Clinical data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/Clinical\+Data\+Overview. Data from 2015\-11\-01 snapshot.
+   Clinical datasets from The Cancer Genome Atlas Project
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RTCGA.clinical.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RTCGA.clinical.html
    :license: GPL-2
    :recipe: /`bioconductor-rtcga.clinical <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.clinical>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.clinical/meta.yaml>`_
 
-   
+   Package provides clinical datasets from The Cancer Genome Atlas Project for all cohorts types from http\:\/\/gdac.broadinstitute.org\/. Clinical data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/Clinical\+Data\+Overview. Data from 2015\-11\-01 snapshot.
 
 
 .. conda:package:: bioconductor-rtcga.clinical
 
    |downloads_bioconductor-rtcga.clinical| |docker_bioconductor-rtcga.clinical|
 
-   :versions: 20151101.15.0-0, 20151101.14.0-1, 20151101.14.0-0, 20151101.12.0-0
+   :versions: 20151101.14.0-1, 20151101.14.0-0, 20151101.12.0-0
    
-   :depends bioconductor-rtcga: >=1.16.0,<1.17.0
-   :depends curl: >=7.65.3,<8.0a0
+   :depends bioconductor-rtcga: >=1.14.0,<1.15.0
+   :depends curl: >=7.65.2,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

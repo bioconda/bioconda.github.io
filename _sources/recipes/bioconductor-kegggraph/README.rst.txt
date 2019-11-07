@@ -9,14 +9,14 @@ bioconductor-kegggraph
 .. conda:recipe:: bioconductor-kegggraph
    :replaces_section_title:
 
-   KEGGGraph is an interface between KEGG pathway and graph object as well as a collection of tools to analyze\, dissect and visualize these graphs. It parses the regularly updated KGML \(KEGG XML\) files into graph models maintaining all essential pathway attributes. The package offers functionalities including parsing\, graph operation\, visualization and etc.
+   KEGGgraph\: A graph approach to KEGG PATHWAY in R and Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/KEGGgraph.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/KEGGgraph.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-kegggraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kegggraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kegggraph/meta.yaml>`_
    :links: biotools: :biotools:`kegggraph`
 
-   
+   KEGGGraph is an interface between KEGG pathway and graph object as well as a collection of tools to analyze\, dissect and visualize these graphs. It parses the regularly updated KGML \(KEGG XML\) files into graph models maintaining all essential pathway attributes. The package offers functionalities including parsing\, graph operation\, visualization and etc.
 
 
 .. conda:package:: bioconductor-kegggraph

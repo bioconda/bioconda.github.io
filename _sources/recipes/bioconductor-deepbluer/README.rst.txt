@@ -9,14 +9,14 @@ bioconductor-deepbluer
 .. conda:recipe:: bioconductor-deepbluer
    :replaces_section_title:
 
-   Accessing the DeepBlue Epigenetics Data Server through R.
+   DeepBlueR
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DeepBlueR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DeepBlueR.html
    :license: GPL (>=2.0)
    :recipe: /`bioconductor-deepbluer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deepbluer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deepbluer/meta.yaml>`_
    :links: biotools: :biotools:`deepbluer`
 
-   
+   Accessing the DeepBlue Epigenetics Data Server through R.
 
 
 .. conda:package:: bioconductor-deepbluer

@@ -9,13 +9,13 @@ bioconductor-huex10sttranscriptcluster.db
 .. conda:recipe:: bioconductor-huex10sttranscriptcluster.db
    :replaces_section_title:
 
-   Affymetrix huex10 annotation data \(chip huex10sttranscriptcluster\) assembled using data from public repositories
+   Affymetrix huex10 annotation data \(chip huex10sttranscriptcluster\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/huex10sttranscriptcluster.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/huex10sttranscriptcluster.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-huex10sttranscriptcluster.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-huex10sttranscriptcluster.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-huex10sttranscriptcluster.db/meta.yaml>`_
 
-   
+   Affymetrix huex10 annotation data \(chip huex10sttranscriptcluster\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-huex10sttranscriptcluster.db

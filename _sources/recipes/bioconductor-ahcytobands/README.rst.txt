@@ -9,13 +9,13 @@ bioconductor-ahcytobands
 .. conda:recipe:: bioconductor-ahcytobands
    :replaces_section_title:
 
-   Supplies AnnotationHub with CytoBand information from UCSC. There is a track for each major organism. Giemsa\-stained bands are commonly used to decorate chromosomal overviews in visualizations of genomic data.
+   CytoBands for AnnotationHub
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/AHCytoBands.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/AHCytoBands.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ahcytobands <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ahcytobands>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ahcytobands/meta.yaml>`_
 
-   
+   Supplies AnnotationHub with CytoBand information from UCSC. There is a track for each major organism. Giemsa\-stained bands are commonly used to decorate chromosomal overviews in visualizations of genomic data.
 
 
 .. conda:package:: bioconductor-ahcytobands

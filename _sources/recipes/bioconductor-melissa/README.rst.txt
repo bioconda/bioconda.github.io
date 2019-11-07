@@ -9,13 +9,13 @@ bioconductor-melissa
 .. conda:recipe:: bioconductor-melissa
    :replaces_section_title:
 
-   Melissa is a Baysian probabilistic model for jointly clustering and imputing single cell methylomes. This is done by taking into account local correlations via a Generalised Linear Model approach and global similarities using a mixture modelling approach.
+   Bayesian clustering and imputationa of single cell methylomes
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Melissa.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Melissa.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-melissa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-melissa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-melissa/meta.yaml>`_
 
-   
+   Melissa is a Baysian probabilistic model for jointly clustering and imputing single cell methylomes. This is done by taking into account local correlations via a Generalised Linear Model approach and global similarities using a mixture modelling approach.
 
 
 .. conda:package:: bioconductor-melissa

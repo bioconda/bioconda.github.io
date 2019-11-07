@@ -9,13 +9,13 @@ bioconductor-wheatcdf
 .. conda:recipe:: bioconductor-wheatcdf
    :replaces_section_title:
 
-   A package containing an environment representing the wheat.cdf file.
+   wheatcdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/wheatcdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/wheatcdf.html
    :license: LGPL
    :recipe: /`bioconductor-wheatcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wheatcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wheatcdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the wheat.cdf file.
 
 
 .. conda:package:: bioconductor-wheatcdf

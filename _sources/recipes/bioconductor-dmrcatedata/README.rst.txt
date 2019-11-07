@@ -9,31 +9,24 @@ bioconductor-dmrcatedata
 .. conda:recipe:: bioconductor-dmrcatedata
    :replaces_section_title:
 
-   This package contains 8 data objects supporting functionality and examples of the Bioconductor package DMRcate.
+   Data Package for DMRcate
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/DMRcatedata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/DMRcatedata.html
    :license: GPL-3
    :recipe: /`bioconductor-dmrcatedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrcatedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrcatedata/meta.yaml>`_
 
-   
+   This package contains 9 data objects supporting functionality and examples of the Bioconductor package DMRcate.
 
 
 .. conda:package:: bioconductor-dmrcatedata
 
    |downloads_bioconductor-dmrcatedata| |docker_bioconductor-dmrcatedata|
 
-   :versions: 1.99.0-0, 1.20.0-1, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions: 1.20.0-1, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
-   :depends bioconductor-genomicfeatures: >=1.38.0,<1.39.0
-   :depends bioconductor-gviz: >=1.30.0,<1.31.0
-   :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: >=0.6.0,<0.7.0
-   :depends bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19: >=0.6.0,<0.7.0
-   :depends bioconductor-rtracklayer: >=1.46.0,<1.47.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
-   :depends r-plyr: 
-   :depends r-readxl: 
    :requirements:
 
    .. rubric:: Installation

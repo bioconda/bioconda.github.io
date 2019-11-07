@@ -9,13 +9,13 @@ bioconductor-bsgenome.alyrata.jgi.v1
 .. conda:recipe:: bioconductor-bsgenome.alyrata.jgi.v1
    :replaces_section_title:
 
-   Arabidopsis lyrata 8x Release \[project ID 4002920\] as provided by JGI \( snapshot from March 24\, 2011\) and stored in Biostrings objects.
+   Arabidopsis lyrata full genome \(JGI version V1.0\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Alyrata.JGI.v1.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Alyrata.JGI.v1.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.alyrata.jgi.v1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.alyrata.jgi.v1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.alyrata.jgi.v1/meta.yaml>`_
 
-   
+   Arabidopsis lyrata 8x Release \[project ID 4002920\] as provided by JGI \( snapshot from March 24\, 2011\) and stored in Biostrings objects.
 
 
 .. conda:package:: bioconductor-bsgenome.alyrata.jgi.v1

@@ -9,14 +9,14 @@ bioconductor-netpathminer
 .. conda:recipe:: bioconductor-netpathminer
    :replaces_section_title:
 
-   NetPathMiner is a general framework for network path mining using genome\-scale networks. It constructs networks from KGML\, SBML and BioPAX files\, providing three network representations\, metabolic\, reaction and gene representations. NetPathMiner finds active paths and applies machine learning methods to summarize found paths for easy interpretation. It also provides static and interactive visualizations of networks and paths to aid manual investigation.
+   NetPathMiner for Biological Network Construction\, Path Mining and Visualization
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/NetPathMiner.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/NetPathMiner.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-netpathminer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netpathminer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netpathminer/meta.yaml>`_
    :links: biotools: :biotools:`netpathminer`
 
-   
+   NetPathMiner is a general framework for network path mining using genome\-scale networks. It constructs networks from KGML\, SBML and BioPAX files\, providing three network representations\, metabolic\, reaction and gene representations. NetPathMiner finds active paths and applies machine learning methods to summarize found paths for easy interpretation. It also provides static and interactive visualizations of networks and paths to aid manual investigation.
 
 
 .. conda:package:: bioconductor-netpathminer

@@ -9,20 +9,20 @@ bioconductor-pwmenrich.mmusculus.background
 .. conda:recipe:: bioconductor-pwmenrich.mmusculus.background
    :replaces_section_title:
 
-   PWMEnrich pre\-compiled background objects for M.musculus \(mouse\) and MotifDb M. musculus motifs.
+   M. musculus background for PWMEnrich
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/PWMEnrich.Mmusculus.background.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/PWMEnrich.Mmusculus.background.html
    :license: GPL-3
    :recipe: /`bioconductor-pwmenrich.mmusculus.background <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwmenrich.mmusculus.background>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwmenrich.mmusculus.background/meta.yaml>`_
 
-   
+   PWMEnrich pre\-compiled background objects for M.musculus \(mouse\) and MotifDb M. musculus motifs.
 
 
 .. conda:package:: bioconductor-pwmenrich.mmusculus.background
 
    |downloads_bioconductor-pwmenrich.mmusculus.background| |docker_bioconductor-pwmenrich.mmusculus.background|
 
-   :versions: 4.19.0-0, 4.18.0-1, 4.16.0-0
+   :versions: 4.20.0-0, 4.18.0-1, 4.16.0-0
    
    :depends bioconductor-pwmenrich: >=4.22.0,<4.23.0
    :depends curl: >=7.65.3,<8.0a0

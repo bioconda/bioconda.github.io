@@ -9,13 +9,13 @@ bioconductor-celltrails
 .. conda:recipe:: bioconductor-celltrails
    :replaces_section_title:
 
-   CellTrails is an unsupervised algorithm for the de novo chronological ordering\, visualization and analysis of single\-cell expression data. CellTrails makes use of a geometrically motivated concept of lower\-dimensional manifold learning\, which exhibits a multitude of virtues that counteract intrinsic noise of single cell data caused by drop\-outs\, technical variance\, and redundancy of predictive variables. CellTrails enables the reconstruction of branching trajectories and provides an intuitive graphical representation of expression patterns along all branches simultaneously. It allows the user to define and infer the expression dynamics of individual and multiple pathways towards distinct phenotypes.
+   Reconstruction\, visualization and analysis of branching trajectories
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CellTrails.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CellTrails.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-celltrails <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celltrails>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celltrails/meta.yaml>`_
 
-   
+   CellTrails is an unsupervised algorithm for the de novo chronological ordering\, visualization and analysis of single\-cell expression data. CellTrails makes use of a geometrically motivated concept of lower\-dimensional manifold learning\, which exhibits a multitude of virtues that counteract intrinsic noise of single cell data caused by drop\-outs\, technical variance\, and redundancy of predictive variables. CellTrails enables the reconstruction of branching trajectories and provides an intuitive graphical representation of expression patterns along all branches simultaneously. It allows the user to define and infer the expression dynamics of individual and multiple pathways towards distinct phenotypes.
 
 
 .. conda:package:: bioconductor-celltrails

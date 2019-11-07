@@ -9,13 +9,13 @@ bioconductor-seqcombo
 .. conda:recipe:: bioconductor-seqcombo
    :replaces_section_title:
 
-   Provides useful functions for visualizing sequence recombination and virus reassortment events.
+   Visualization Tool for Sequence Recombination and Reassortment
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/seqcombo.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/seqcombo.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-seqcombo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqcombo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqcombo/meta.yaml>`_
 
-   
+   Provides useful functions for visualizing sequence recombination and virus reassortment events.
 
 
 .. conda:package:: bioconductor-seqcombo

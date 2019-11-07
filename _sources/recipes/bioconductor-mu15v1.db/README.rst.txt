@@ -9,13 +9,13 @@ bioconductor-mu15v1.db
 .. conda:recipe:: bioconductor-mu15v1.db
    :replaces_section_title:
 
-   FHCRC Genomics Shared Resource Mu15v1 Annotation Data \(Mu15v1\) assembled using data from public repositories
+   FHCRC Genomics Shared Resource Mu15v1 Annotation Data \(Mu15v1\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/Mu15v1.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/Mu15v1.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mu15v1.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu15v1.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu15v1.db/meta.yaml>`_
 
-   
+   FHCRC Genomics Shared Resource Mu15v1 Annotation Data \(Mu15v1\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-mu15v1.db

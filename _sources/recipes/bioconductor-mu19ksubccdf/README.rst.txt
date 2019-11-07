@@ -9,13 +9,13 @@ bioconductor-mu19ksubccdf
 .. conda:recipe:: bioconductor-mu19ksubccdf
    :replaces_section_title:
 
-   A package containing an environment representing the Mu19KsubC.CDF file.
+   mu19ksubccdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mu19ksubccdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mu19ksubccdf.html
    :license: LGPL
    :recipe: /`bioconductor-mu19ksubccdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu19ksubccdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu19ksubccdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the Mu19KsubC.CDF file.
 
 
 .. conda:package:: bioconductor-mu19ksubccdf

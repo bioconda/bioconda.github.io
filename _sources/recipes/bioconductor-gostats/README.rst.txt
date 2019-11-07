@@ -9,14 +9,14 @@ bioconductor-gostats
 .. conda:recipe:: bioconductor-gostats
    :replaces_section_title:
 
-   A set of tools for interacting with GO and microarray data. A variety of basic manipulation tools for graphs\, hypothesis testing and other simple calculations.
+   Tools for manipulating GO and microarrays
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GOstats.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GOstats.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gostats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gostats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gostats/meta.yaml>`_
    :links: biotools: :biotools:`gostats`
 
-   
+   A set of tools for interacting with GO and microarray data. A variety of basic manipulation tools for graphs\, hypothesis testing and other simple calculations.
 
 
 .. conda:package:: bioconductor-gostats

@@ -9,14 +9,14 @@ bioconductor-riboprofiling
 .. conda:recipe:: bioconductor-riboprofiling
    :replaces_section_title:
 
-   Starting with a BAM file\, this package provides the necessary functions for quality assessment\, read start position recalibration\, the counting of reads on CDS\, 3\'UTR\, and 5\'UTR\, plotting of count data\: pairs\, log fold\-change\, codon frequency and coverage assessment\, principal component analysis on codon coverage.
+   Ribosome Profiling Data Analysis\: from BAM to Data Representation and Interpretation
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RiboProfiling.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RiboProfiling.html
    :license: GPL-3
    :recipe: /`bioconductor-riboprofiling <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-riboprofiling>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-riboprofiling/meta.yaml>`_
    :links: biotools: :biotools:`riboprofiling`, doi: :doi:`10.12688/f1000research.8964.1`
 
-   
+   Starting with a BAM file\, this package provides the necessary functions for quality assessment\, read start position recalibration\, the counting of reads on CDS\, 3\'UTR\, and 5\'UTR\, plotting of count data\: pairs\, log fold\-change\, codon frequency and coverage assessment\, principal component analysis on codon coverage.
 
 
 .. conda:package:: bioconductor-riboprofiling

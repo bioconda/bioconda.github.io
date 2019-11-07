@@ -9,13 +9,13 @@ bioconductor-envisionquery
 .. conda:recipe:: bioconductor-envisionquery
    :replaces_section_title:
 
-   Tools to retrieve data from ENVISION\, the Database for Annotation\, Visualization and Integrated Discovery portal
+   Retrieval from the ENVISION bioinformatics data portal into R
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ENVISIONQuery.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ENVISIONQuery.html
    :license: GPL-2
    :recipe: /`bioconductor-envisionquery <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-envisionquery>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-envisionquery/meta.yaml>`_
 
-   
+   Tools to retrieve data from ENVISION\, the Database for Annotation\, Visualization and Integrated Discovery portal
 
 
 .. conda:package:: bioconductor-envisionquery

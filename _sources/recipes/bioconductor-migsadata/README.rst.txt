@@ -9,20 +9,20 @@ bioconductor-migsadata
 .. conda:recipe:: bioconductor-migsadata
    :replaces_section_title:
 
-   MIGSA vignette data. The MIGSAdata package provides several data objects needed by MIGSA package to correctly generate its vignette\, and follow it step by step.
+   MIGSA vignette data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/MIGSAdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/MIGSAdata.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-migsadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-migsadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-migsadata/meta.yaml>`_
 
-   
+   MIGSA vignette data. The MIGSAdata package provides several data objects needed by MIGSA package to correctly generate its vignette\, and follow it step by step.
 
 
 .. conda:package:: bioconductor-migsadata
 
    |downloads_bioconductor-migsadata| |docker_bioconductor-migsadata|
 
-   :versions: 1.9.0-0, 1.8.0-1, 1.8.0-0, 1.6.0-0
+   :versions: 1.10.0-0, 1.8.0-1, 1.8.0-0, 1.6.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

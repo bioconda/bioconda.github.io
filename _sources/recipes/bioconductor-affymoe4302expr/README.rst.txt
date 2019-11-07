@@ -9,20 +9,20 @@ bioconductor-affymoe4302expr
 .. conda:recipe:: bioconductor-affymoe4302expr
    :replaces_section_title:
 
-   Contains pre\-built mouse \(GPL1261\) database of gene expression profiles. The gene expression data was downloaded from NCBI GEO\, preprocessed and normalized consistently. The biological context of each sample was recorded and manually verified based on the sample description in GEO.
+   Affymetrix Mouse Genome 430 2.0 Array \(GPL1261\) Expression Data Package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/Affymoe4302Expr.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/Affymoe4302Expr.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-affymoe4302expr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affymoe4302expr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affymoe4302expr/meta.yaml>`_
 
-   
+   Contains pre\-built mouse \(GPL1261\) database of gene expression profiles. The gene expression data was downloaded from NCBI GEO\, preprocessed and normalized consistently. The biological context of each sample was recorded and manually verified based on the sample description in GEO.
 
 
 .. conda:package:: bioconductor-affymoe4302expr
 
    |downloads_bioconductor-affymoe4302expr| |docker_bioconductor-affymoe4302expr|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

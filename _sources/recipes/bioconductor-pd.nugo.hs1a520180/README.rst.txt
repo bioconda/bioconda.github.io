@@ -11,11 +11,11 @@ bioconductor-pd.nugo.hs1a520180
 
    Platform Design Info for The Manufacturer\'s Name NuGO\_Hs1a520180
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.nugo.hs1a520180.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.nugo.hs1a520180.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.nugo.hs1a520180 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.nugo.hs1a520180>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.nugo.hs1a520180/meta.yaml>`_
 
-   
+   Platform Design Info for The Manufacturer\'s Name NuGO\_Hs1a520180
 
 
 .. conda:package:: bioconductor-pd.nugo.hs1a520180

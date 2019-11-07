@@ -9,13 +9,13 @@ bioconductor-mdts
 .. conda:recipe:: bioconductor-mdts
    :replaces_section_title:
 
-   A package for the detection of de novo copy number deletions in targeted sequencing of trios with high sensitivity and positive predictive value.
+   Detection of de novo deletion in targeted sequencing trios
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MDTS.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MDTS.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mdts <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mdts>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mdts/meta.yaml>`_
 
-   
+   A package for the detection of de novo copy number deletions in targeted sequencing of trios with high sensitivity and positive predictive value.
 
 
 .. conda:package:: bioconductor-mdts

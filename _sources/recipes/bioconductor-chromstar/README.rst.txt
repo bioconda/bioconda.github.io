@@ -9,31 +9,30 @@ bioconductor-chromstar
 .. conda:recipe:: bioconductor-chromstar
    :replaces_section_title:
 
-   This package implements functions for combinatorial and differential analysis of ChIP\-seq data. It includes uni\- and multivariate peak\-calling\, export to genome browser viewable files\, and functions for enrichment analyses.
+   Combinatorial and Differential Chromatin State Analysis for ChIP\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/chromstaR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/chromstaR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-chromstar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromstar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromstar/meta.yaml>`_
    :links: biotools: :biotools:`chromstar`, doi: :doi:`10.1101/038612`
 
-   
+   This package implements functions for combinatorial and differential analysis of ChIP\-seq data. It includes uni\- and multivariate peak\-calling\, export to genome browser viewable files\, and functions for enrichment analyses.
 
 
 .. conda:package:: bioconductor-chromstar
 
    |downloads_bioconductor-chromstar| |docker_bioconductor-chromstar|
 
-   :versions: 1.12.0-0, 1.10.0-1, 1.8.1-0, 1.8.0-0, 1.6.2-0, 1.4.0-0
+   :versions: 1.10.0-1, 1.8.1-0, 1.8.0-0, 1.6.2-0, 1.4.0-0
    
-   :depends bioconductor-bamsignals: >=1.18.0,<1.19.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-chromstardata: >=1.11.0,<1.12.0
-   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicalignments: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-bamsignals: >=1.16.0,<1.17.0
+   :depends bioconductor-chromstardata: >=1.10.0,<1.11.0
+   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicalignments: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0

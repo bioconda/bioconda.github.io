@@ -9,13 +9,13 @@ bioconductor-dnabarcodecompatibility
 .. conda:recipe:: bioconductor-dnabarcodecompatibility
    :replaces_section_title:
 
-   The package allows one to obtain optimised combinations of DNA barcodes to be used for multiplex sequencing. In each barcode combination\, barcodes are pooled with respect to Illumina chemistry constraints. Combinations can be filtered to keep those that are robust against substitution and insertion\/deletion errors thereby facilitating the demultiplexing step. In addition\, the package provides an optimiser function to further favor the selection of barcode combinations with least heterogeneity in barcode usage.
+   A Tool for Optimizing Combinations of DNA Barcodes Used in Multiplexed Experiments on Next Generation Sequencing Platforms
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DNABarcodeCompatibility.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DNABarcodeCompatibility.html
    :license: file LICENSE
    :recipe: /`bioconductor-dnabarcodecompatibility <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnabarcodecompatibility>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnabarcodecompatibility/meta.yaml>`_
 
-   
+   The package allows one to obtain optimised combinations of DNA barcodes to be used for multiplex sequencing. In each barcode combination\, barcodes are pooled with respect to Illumina chemistry constraints. Combinations can be filtered to keep those that are robust against substitution and insertion\/deletion errors thereby facilitating the demultiplexing step. In addition\, the package provides an optimiser function to further favor the selection of barcode combinations with least heterogeneity in barcode usage.
 
 
 .. conda:package:: bioconductor-dnabarcodecompatibility

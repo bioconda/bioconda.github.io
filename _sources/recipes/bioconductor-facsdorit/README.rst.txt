@@ -9,20 +9,20 @@ bioconductor-facsdorit
 .. conda:recipe:: bioconductor-facsdorit
    :replaces_section_title:
 
-   FACS example data for cell\-based assays. This data is used in the examples and vignettes of the package prada.
+   DKFZ FACS example data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/facsDorit.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/facsDorit.html
    :license: GPL-2
    :recipe: /`bioconductor-facsdorit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-facsdorit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-facsdorit/meta.yaml>`_
 
-   
+   FACS example data for cell\-based assays. This data is used in the examples and vignettes of the package prada.
 
 
 .. conda:package:: bioconductor-facsdorit
 
    |downloads_bioconductor-facsdorit| |docker_bioconductor-facsdorit|
 
-   :versions: 1.27.0-0, 1.26.0-1, 1.24.0-0
+   :versions: 1.28.0-0, 1.26.0-1, 1.24.0-0
    
    :depends bioconductor-prada: >=1.62.0,<1.63.0
    :depends curl: >=7.65.3,<8.0a0

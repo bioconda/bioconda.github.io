@@ -9,20 +9,20 @@ bioconductor-spikein
 .. conda:recipe:: bioconductor-spikein
    :replaces_section_title:
 
-   Contains the HGU133 and HGU95 spikein experiment data.
+   Affymetrix Spike\-In Experiment Data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/SpikeIn.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/SpikeIn.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-spikein <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spikein>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spikein/meta.yaml>`_
 
-   
+   Contains the HGU133 and HGU95 spikein experiment data.
 
 
 .. conda:package:: bioconductor-spikein
 
    |downloads_bioconductor-spikein| |docker_bioconductor-spikein|
 
-   :versions: 1.27.0-0, 1.26.0-1, 1.24.0-0
+   :versions: 1.28.0-0, 1.26.0-1, 1.24.0-0
    
    :depends bioconductor-affy: >=1.64.0,<1.65.0
    :depends curl: >=7.65.3,<8.0a0

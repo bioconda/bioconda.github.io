@@ -9,13 +9,13 @@ bioconductor-rgu34acdf
 .. conda:recipe:: bioconductor-rgu34acdf
    :replaces_section_title:
 
-   A package containing an environment representing the RG\_U34A.cdf file.
+   rgu34acdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/rgu34acdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/rgu34acdf.html
    :license: LGPL
    :recipe: /`bioconductor-rgu34acdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgu34acdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgu34acdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the RG\_U34A.cdf file.
 
 
 .. conda:package:: bioconductor-rgu34acdf

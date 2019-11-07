@@ -9,13 +9,13 @@ bioconductor-sift.hsapiens.dbsnp137
 .. conda:recipe:: bioconductor-sift.hsapiens.dbsnp137
    :replaces_section_title:
 
-   Database of PROVEAN\/SIFT predictions for Homo sapiens dbSNP build 137
+   PROVEAN\/SIFT Predictions for Homo sapiens dbSNP build 137
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/SIFT.Hsapiens.dbSNP137.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/SIFT.Hsapiens.dbSNP137.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sift.hsapiens.dbsnp137 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sift.hsapiens.dbsnp137>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sift.hsapiens.dbsnp137/meta.yaml>`_
 
-   
+   Database of PROVEAN\/SIFT predictions for Homo sapiens dbSNP build 137
 
 
 .. conda:package:: bioconductor-sift.hsapiens.dbsnp137

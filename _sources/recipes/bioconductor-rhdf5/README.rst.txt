@@ -9,14 +9,14 @@ bioconductor-rhdf5
 .. conda:recipe:: bioconductor-rhdf5
    :replaces_section_title:
 
-   This package provides an interface between HDF5 and R. HDF5\'s main features are the ability to store and access very large and\/or complex datasets and a wide variety of metadata on mass storage \(disk\) through a completely portable file format. The rhdf5 package is thus suited for the exchange of large and\/or complex datasets between R and other software package\, and for letting R applications work on datasets that are larger than the available RAM.
+   R Interface to HDF5
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/rhdf5.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/rhdf5.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rhdf5 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5/meta.yaml>`_
    :links: biotools: :biotools:`rhdf5`
 
-   
+   This package provides an interface between HDF5 and R. HDF5\'s main features are the ability to store and access very large and\/or complex datasets and a wide variety of metadata on mass storage \(disk\) through a completely portable file format. The rhdf5 package is thus suited for the exchange of large and\/or complex datasets between R and other software package\, and for letting R applications work on datasets that are larger than the available RAM.
 
 
 .. conda:package:: bioconductor-rhdf5

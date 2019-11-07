@@ -9,13 +9,13 @@ bioconductor-mirbaseconverter
 .. conda:recipe:: bioconductor-mirbaseconverter
    :replaces_section_title:
 
-   A comprehensive tool for converting and retrieving the miRNA Name\, Accession\, Sequence\, Version\, History and Family information in different miRBase versions. It can process a huge number of miRNAs in a short time without other depends.
+   A comprehensive and high\-efficiency tool for converting and retrieving the information of miRNAs in different miRBase versions
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/miRBaseConverter.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/miRBaseConverter.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mirbaseconverter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirbaseconverter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirbaseconverter/meta.yaml>`_
 
-   
+   A comprehensive tool for converting and retrieving the miRNA Name\, Accession\, Sequence\, Version\, History and Family information in different miRBase versions. It can process a huge number of miRNAs in a short time without other depends.
 
 
 .. conda:package:: bioconductor-mirbaseconverter

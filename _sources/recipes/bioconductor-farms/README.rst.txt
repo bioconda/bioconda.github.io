@@ -9,14 +9,14 @@ bioconductor-farms
 .. conda:recipe:: bioconductor-farms
    :replaces_section_title:
 
-   The package provides the summarization algorithm called Factor Analysis for Robust Microarray Summarization \(FARMS\) and a novel unsupervised feature selection criterion called \"I\/NI\-calls\"
+   FARMS \- Factor Analysis for Robust Microarray Summarization
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/farms.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/farms.html
    :license: LGPL (>= 2.1)
    :recipe: /`bioconductor-farms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-farms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-farms/meta.yaml>`_
    :links: biotools: :biotools:`farms`
 
-   
+   The package provides the summarization algorithm called Factor Analysis for Robust Microarray Summarization \(FARMS\) and a novel unsupervised feature selection criterion called \"I\/NI\-calls\"
 
 
 .. conda:package:: bioconductor-farms

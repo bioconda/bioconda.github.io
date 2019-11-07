@@ -9,13 +9,13 @@ bioconductor-agimicrorna
 .. conda:recipe:: bioconductor-agimicrorna
    :replaces_section_title:
 
-   Processing and Analysis of Agilent microRNA data
+   Processing and Differential Expression Analysis of Agilent microRNA chips
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/AgiMicroRna.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/AgiMicroRna.html
    :license: GPL-3
    :recipe: /`bioconductor-agimicrorna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-agimicrorna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-agimicrorna/meta.yaml>`_
 
-   
+   Processing and Analysis of Agilent microRNA data
 
 
 .. conda:package:: bioconductor-agimicrorna

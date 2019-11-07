@@ -9,14 +9,14 @@ bioconductor-chipsim
 .. conda:recipe:: bioconductor-chipsim
    :replaces_section_title:
 
-   A general framework for the simulation of ChIP\-seq data. Although currently focused on nucleosome positioning the package is designed to support different types of experiments.
+   Simulation of ChIP\-seq experiments
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ChIPsim.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ChIPsim.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-chipsim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipsim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipsim/meta.yaml>`_
    :links: biotools: :biotools:`chipsim`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   A general framework for the simulation of ChIP\-seq data. Although currently focused on nucleosome positioning the package is designed to support different types of experiments.
 
 
 .. conda:package:: bioconductor-chipsim

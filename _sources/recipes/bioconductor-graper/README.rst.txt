@@ -9,13 +9,13 @@ bioconductor-graper
 .. conda:recipe:: bioconductor-graper
    :replaces_section_title:
 
-   This package enables regression and classification on high\-dimensional data with different relative strengths of penalization for different feature groups\, such as different assays or omic types. The optimal relative strengths are chosen adaptively. Optimisation is performed using a variational Bayes approach.
+   Adaptive penalization in high\-dimensional regression and classification with external covariates using variational Bayes
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/graper.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/graper.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-graper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graper/meta.yaml>`_
 
-   
+   This package enables regression and classification on high\-dimensional data with different relative strengths of penalization for different feature groups\, such as different assays or omic types. The optimal relative strengths are chosen adaptively. Optimisation is performed using a variational Bayes approach.
 
 
 .. conda:package:: bioconductor-graper

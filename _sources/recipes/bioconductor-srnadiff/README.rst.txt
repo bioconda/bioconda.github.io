@@ -9,13 +9,13 @@ bioconductor-srnadiff
 .. conda:recipe:: bioconductor-srnadiff
    :replaces_section_title:
 
-   Differential expression of small RNA\-seq when reference annotation is not given.
+   Finding differentially expressed unannotated genomic regions from RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/srnadiff.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/srnadiff.html
    :license: GPL-3
    :recipe: /`bioconductor-srnadiff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-srnadiff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-srnadiff/meta.yaml>`_
 
-   
+   srnadiff is a package that finds differently expressed regions from RNA\-seq data at base\-resolution level without relying on existing annotation. To do so\, the package implements the identify\-then\-annotate methodology that builds on the idea of combining two pipelines approachs differential expressed regions detection and differential expression quantification.
 
 
 .. conda:package:: bioconductor-srnadiff

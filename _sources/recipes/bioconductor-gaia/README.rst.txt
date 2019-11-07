@@ -9,13 +9,13 @@ bioconductor-gaia
 .. conda:recipe:: bioconductor-gaia
    :replaces_section_title:
 
-   This package allows to assess the statistical significance of chromosomal aberrations.
+   GAIA\: An R package for genomic analysis of significant chromosomal aberrations.
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/gaia.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/gaia.html
    :license: GPL-2
    :recipe: /`bioconductor-gaia <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaia>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaia/meta.yaml>`_
 
-   
+   This package allows to assess the statistical significance of chromosomal aberrations.
 
 
 .. conda:package:: bioconductor-gaia

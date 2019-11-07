@@ -9,14 +9,14 @@ bioconductor-methylseekr
 .. conda:recipe:: bioconductor-methylseekr
    :replaces_section_title:
 
-   This is a package for the discovery of regulatory regions from Bis\-seq data
+   Segmentation of Bis\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MethylSeekR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MethylSeekR.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-methylseekr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylseekr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylseekr/meta.yaml>`_
    :links: biotools: :biotools:`methylseekr`
 
-   
+   This is a package for the discovery of regulatory regions from Bis\-seq data
 
 
 .. conda:package:: bioconductor-methylseekr

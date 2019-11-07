@@ -9,20 +9,20 @@ bioconductor-prolocdata
 .. conda:recipe:: bioconductor-prolocdata
    :replaces_section_title:
 
-   Mass\-spectrometry based spatial proteomics data sets and protein complex separation data. Also contains the time course expression experiment from Mulvey et al. 2015.
+   Data accompanying the pRoloc package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/pRolocdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/pRolocdata.html
    :license: GPL-2
    :recipe: /`bioconductor-prolocdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prolocdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prolocdata/meta.yaml>`_
 
-   
+   Mass\-spectrometry based spatial proteomics data sets and protein complex separation data. Also contains the time course expression experiment from Mulvey et al. 2015.
 
 
 .. conda:package:: bioconductor-prolocdata
 
    |downloads_bioconductor-prolocdata| |docker_bioconductor-prolocdata|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends bioconductor-msnbase: >=2.12.0,<2.13.0

@@ -9,14 +9,14 @@ bioconductor-cfassay
 .. conda:recipe:: bioconductor-cfassay
    :replaces_section_title:
 
-   The package provides functions for calculation of linear\-quadratic cell survival curves and for ANOVA of experimental 2\-way designs along with the colony formation assay.
+   Statistical analysis for the Colony Formation Assay
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CFAssay.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CFAssay.html
    :license: LGPL
    :recipe: /`bioconductor-cfassay <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cfassay>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cfassay/meta.yaml>`_
    :links: biotools: :biotools:`cfassay`, doi: :doi:`10.1186/s13014-015-0529-y`
 
-   
+   The package provides functions for calculation of linear\-quadratic cell survival curves and for ANOVA of experimental 2\-way designs along with the colony formation assay.
 
 
 .. conda:package:: bioconductor-cfassay

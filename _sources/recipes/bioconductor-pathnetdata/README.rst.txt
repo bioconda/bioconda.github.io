@@ -9,20 +9,20 @@ bioconductor-pathnetdata
 .. conda:recipe:: bioconductor-pathnetdata
    :replaces_section_title:
 
-   This package contains the data employed in the vignette of the PathNet package. These data belong to the following publication\: PathNet\: A tool for pathway analysis using topological information. Dutta B\, Wallqvist A\, and Reifman J.\, Source Code for Biology and Medicine 2012 Sep 24\;7\(1\)\:10.
+   Experimental data for the PathNet package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/PathNetData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/PathNetData.html
    :license: GPL-3
    :recipe: /`bioconductor-pathnetdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathnetdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathnetdata/meta.yaml>`_
 
-   
+   This package contains the data employed in the vignette of the PathNet package. These data belong to the following publication\: PathNet\: A tool for pathway analysis using topological information. Dutta B\, Wallqvist A\, and Reifman J.\, Source Code for Biology and Medicine 2012 Sep 24\;7\(1\)\:10.
 
 
 .. conda:package:: bioconductor-pathnetdata
 
    |downloads_bioconductor-pathnetdata| |docker_bioconductor-pathnetdata|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

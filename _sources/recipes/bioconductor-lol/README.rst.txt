@@ -9,14 +9,14 @@ bioconductor-lol
 .. conda:recipe:: bioconductor-lol
    :replaces_section_title:
 
-   Various optimization methods for Lasso inference with matrix warpper
+   Lots Of Lasso
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/lol.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/lol.html
    :license: GPL-2
    :recipe: /`bioconductor-lol <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lol>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lol/meta.yaml>`_
    :links: biotools: :biotools:`lol`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Various optimization methods for Lasso inference with matrix warpper
 
 
 .. conda:package:: bioconductor-lol

@@ -9,14 +9,14 @@ bioconductor-annotate
 .. conda:recipe:: bioconductor-annotate
    :replaces_section_title:
 
-   Using R enviroments for annotation.
+   Annotation for microarrays
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/annotate.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/annotate.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-annotate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotate/meta.yaml>`_
    :links: biotools: :biotools:`annotate`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Using R enviroments for annotation.
 
 
 .. conda:package:: bioconductor-annotate

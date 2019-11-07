@@ -9,13 +9,13 @@ bioconductor-m10kcod.db
 .. conda:recipe:: bioconductor-m10kcod.db
    :replaces_section_title:
 
-   Codelink UniSet Mouse I Bioarray \(\~10 000 mouse gene targets\) annotation data \(chip m10kcod\) assembled using data from public repositories
+   Codelink UniSet Mouse I Bioarray \(\~10 000 mouse gene targets\) annotation data \(chip m10kcod\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/m10kcod.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/m10kcod.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-m10kcod.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m10kcod.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m10kcod.db/meta.yaml>`_
 
-   
+   Codelink UniSet Mouse I Bioarray \(\~10 000 mouse gene targets\) annotation data \(chip m10kcod\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-m10kcod.db

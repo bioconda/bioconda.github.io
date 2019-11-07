@@ -9,21 +9,21 @@ bioconductor-purecn
 .. conda:recipe:: bioconductor-purecn
    :replaces_section_title:
 
-   This package estimates tumor purity\, copy number\, and loss of heterozygosity \(LOH\)\, and classifies single nucleotide variants \(SNVs\) by somatic status and clonality. PureCN is designed for targeted short read sequencing data\, integrates well with standard somatic variant detection and copy number pipelines\, and has support for tumor samples without matching normal samples.
+   Copy number calling and SNV classification using targeted short read sequencing
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PureCN.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PureCN.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-purecn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-purecn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-purecn/meta.yaml>`_
    :links: biotools: :biotools:`purecn`
 
-   
+   This package estimates tumor purity\, copy number\, and loss of heterozygosity \(LOH\)\, and classifies single nucleotide variants \(SNVs\) by somatic status and clonality. PureCN is designed for targeted short read sequencing data\, integrates well with standard somatic variant detection and copy number pipelines\, and has support for tumor samples without matching normal samples.
 
 
 .. conda:package:: bioconductor-purecn
 
    |downloads_bioconductor-purecn| |docker_bioconductor-purecn|
 
-   :versions: 1.16.0-0, 1.14.2-0, 1.14.0-0, 1.13.1-2, 1.12.1-0, 1.11.20-2, 1.11.20-1, 1.11.13-1, 1.11.13-0, 1.8.0-0, 1.6.3-0
+   :versions: 1.16.0-1, 1.16.0-0, 1.14.2-0, 1.14.0-0, 1.13.1-2, 1.12.1-0, 1.11.20-2, 1.11.20-1, 1.11.13-1, 1.11.13-0, 1.8.0-0, 1.6.3-0
    
    :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
    :depends bioconductor-biostrings: >=2.54.0,<2.55.0

@@ -9,20 +9,20 @@ bioconductor-geuvadistranscriptexpr
 .. conda:recipe:: bioconductor-geuvadistranscriptexpr
    :replaces_section_title:
 
-   Provides transcript expression and bi\-allelic genotypes corresponding to the chromosome 19 for CEU individuals from the GEUVADIS project\, Lappalainen et al.
+   Data package with transcript expression and bi\-allelic genotypes from the GEUVADIS project
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/GeuvadisTranscriptExpr.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/GeuvadisTranscriptExpr.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-geuvadistranscriptexpr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geuvadistranscriptexpr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geuvadistranscriptexpr/meta.yaml>`_
 
-   
+   Provides transcript expression and bi\-allelic genotypes corresponding to the chromosome 19 for CEU individuals from the GEUVADIS project\, Lappalainen et al.
 
 
 .. conda:package:: bioconductor-geuvadistranscriptexpr
 
    |downloads_bioconductor-geuvadistranscriptexpr| |docker_bioconductor-geuvadistranscriptexpr|
 
-   :versions: 1.13.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

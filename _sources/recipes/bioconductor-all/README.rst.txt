@@ -9,20 +9,20 @@ bioconductor-all
 .. conda:recipe:: bioconductor-all
    :replaces_section_title:
 
-   Data of T\- and B\-cell Acute Lymphocytic Leukemia from the Ritz Laboratory at the DFCI \(includes Apr 2004 versions\)
+   A data package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ALL.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ALL.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-all <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-all>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-all/meta.yaml>`_
 
-   
+   Data of T\- and B\-cell Acute Lymphocytic Leukemia from the Ritz Laboratory at the DFCI \(includes Apr 2004 versions\)
 
 
 .. conda:package:: bioconductor-all
 
    |downloads_bioconductor-all| |docker_bioconductor-all|
 
-   :versions: 1.27.0-0, 1.26.0-1, 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-1, 1.18.0-0
+   :versions: 1.28.0-0, 1.26.0-1, 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-1, 1.18.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends curl: >=7.65.3,<8.0a0

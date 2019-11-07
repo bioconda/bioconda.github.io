@@ -11,11 +11,11 @@ bioconductor-pd.ht.mg.430a
 
    Platform Design Info for The Manufacturer\'s Name HT\_MG\-430A
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.ht.mg.430a.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.ht.mg.430a.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.ht.mg.430a <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.ht.mg.430a>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.ht.mg.430a/meta.yaml>`_
 
-   
+   Platform Design Info for The Manufacturer\'s Name HT\_MG\-430A
 
 
 .. conda:package:: bioconductor-pd.ht.mg.430a

@@ -9,20 +9,20 @@ bioconductor-ihwpaper
 .. conda:recipe:: bioconductor-ihwpaper
    :replaces_section_title:
 
-   This package conveniently wraps all functions needed to reproduce the figures in the IHW paper \(https\:\/\/www.nature.com\/articles\/nmeth.3885\) and the latest arXiv preprint available under http\:\/\/arxiv.org\/abs\/1701.05179. Thus it is a companion package to the Bioconductor IHW package.
+   Reproduce figures in IHW paper
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/IHWpaper.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/IHWpaper.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ihwpaper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ihwpaper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ihwpaper/meta.yaml>`_
 
-   
+   This package conveniently wraps all functions needed to reproduce the figures in the IHW paper \(https\:\/\/www.nature.com\/articles\/nmeth.3885\) and the latest arXiv preprint available under http\:\/\/arxiv.org\/abs\/1701.05179. Thus it is a companion package to the Bioconductor IHW package.
 
 
 .. conda:package:: bioconductor-ihwpaper
 
    |downloads_bioconductor-ihwpaper| |docker_bioconductor-ihwpaper|
 
-   :versions: 1.13.0-0, 1.12.0-1, 1.10.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.10.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0

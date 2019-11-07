@@ -9,20 +9,20 @@ bioconductor-tinesath1probe
 .. conda:recipe:: bioconductor-tinesath1probe
    :replaces_section_title:
 
-   This package was automatically created by package matchprobes version 1.4.0. The probe sequence data was obtained from http\:\/\/www.affymetrix.com.
+   Probe sequence data for microarrays of type tinesath1
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/tinesath1probe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/tinesath1probe.html
    :license: LGPL
    :recipe: /`bioconductor-tinesath1probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tinesath1probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tinesath1probe/meta.yaml>`_
 
-   
+   This package was automatically created by package matchprobes version 1.4.0. The probe sequence data was obtained from http\:\/\/www.affymetrix.com.
 
 
 .. conda:package:: bioconductor-tinesath1probe
 
    |downloads_bioconductor-tinesath1probe| |docker_bioconductor-tinesath1probe|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-0
    
    :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
    :depends curl: >=7.65.3,<8.0a0

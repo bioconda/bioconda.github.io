@@ -9,14 +9,14 @@ bioconductor-brainstars
 .. conda:recipe:: bioconductor-brainstars
    :replaces_section_title:
 
-   This package can search and get gene expression data and plots from BrainStars \(B\*\). BrainStars is a quantitative expression database of the adult mouse brain. The database has genome\-wide expression profile at 51 adult mouse CNS regions.
+   query gene expression data and plots from BrainStars \(B\*\)
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BrainStars.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BrainStars.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-brainstars <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brainstars>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brainstars/meta.yaml>`_
    :links: biotools: :biotools:`brainstars`, doi: :doi:`10.1097/HTR.0b013e3181a7ecb0`
 
-   
+   This package can search and get gene expression data and plots from BrainStars \(B\*\). BrainStars is a quantitative expression database of the adult mouse brain. The database has genome\-wide expression profile at 51 adult mouse CNS regions.
 
 
 .. conda:package:: bioconductor-brainstars

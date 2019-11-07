@@ -9,13 +9,13 @@ bioconductor-nbamseq
 .. conda:recipe:: bioconductor-nbamseq
    :replaces_section_title:
 
-   High\-throughput sequencing experiments followed by differential expression analysis is a widely used approach to detect genomic biomarkers. A fundamental step in differential expression analysis is to model the association between gene counts and covariates of interest. NBAMSeq a flexible statistical model based on the generalized additive model and allows for information sharing across genes in variance estimation.
+   Negative Binomial Additive Model for RNA\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/NBAMSeq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/NBAMSeq.html
    :license: GPL-2
    :recipe: /`bioconductor-nbamseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nbamseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nbamseq/meta.yaml>`_
 
-   
+   High\-throughput sequencing experiments followed by differential expression analysis is a widely used approach to detect genomic biomarkers. A fundamental step in differential expression analysis is to model the association between gene counts and covariates of interest. NBAMSeq a flexible statistical model based on the generalized additive model and allows for information sharing across genes in variance estimation.
 
 
 .. conda:package:: bioconductor-nbamseq

@@ -9,14 +9,14 @@ bioconductor-asafe
 .. conda:recipe:: bioconductor-asafe
    :replaces_section_title:
 
-   Given admixed individuals\' bi\-allelic SNP genotypes and ancestry pairs \(where each ancestry can take one of three values\) for multiple SNPs\, perform an EM algorithm to deal with the fact that SNP genotypes are unphased with respect to ancestry pairs\, in order to estimate ancestry\-specific allele frequencies for all SNPs.
+   Ancestry Specific Allele Frequency Estimation
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ASAFE.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ASAFE.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-asafe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asafe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asafe/meta.yaml>`_
    :links: biotools: :biotools:`asafe`, doi: :doi:`10.1093/bioinformatics/btw220`
 
-   
+   Given admixed individuals\' bi\-allelic SNP genotypes and ancestry pairs \(where each ancestry can take one of three values\) for multiple SNPs\, perform an EM algorithm to deal with the fact that SNP genotypes are unphased with respect to ancestry pairs\, in order to estimate ancestry\-specific allele frequencies for all SNPs.
 
 
 .. conda:package:: bioconductor-asafe

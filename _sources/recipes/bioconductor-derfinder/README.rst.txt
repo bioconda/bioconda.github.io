@@ -11,17 +11,12 @@ bioconductor-derfinder
 
    Annotation\-agnostic differential expression analysis of RNA\-seq data at base\-pair resolution via the DER Finder approach
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/derfinder.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/derfinder.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-derfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-derfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-derfinder/meta.yaml>`_
    :links: biotools: :biotools:`derfinder`
 
-   This package provides functions for annotation\-agnostic differential 
-   expression analysis of RNA\-seq data. Two implementations of the DER Finder 
-   approach are included in this package\: \(1\) single base\-level F\-statistics 
-   and \(2\) DER identification at the expressed regions\-level. The DER Finder 
-   approach can also be used to identify differentially bounded ChIP\-seq peaks.
-
+   This package provides functions for annotation\-agnostic differential expression analysis of RNA\-seq data. Two implementations of the DER Finder approach are included in this package \(1\) single base\-level F\-statistics and \(2\) DER identification at the expressed regions\-level. The DER Finder approach can also be used to identify differentially bounded ChIP\-seq peaks.
 
 
 .. conda:package:: bioconductor-derfinder

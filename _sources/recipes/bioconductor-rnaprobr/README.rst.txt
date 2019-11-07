@@ -9,14 +9,14 @@ bioconductor-rnaprobr
 .. conda:recipe:: bioconductor-rnaprobr
    :replaces_section_title:
 
-   This package facilitates analysis of Next Generation Sequencing data for which positional information with a single nucleotide resolution is a key. It allows for applying different types of relevant normalizations\, data visualization and export in a table or UCSC compatible bedgraph file.
+   An R package for analysis of massive parallel sequencing based RNA structure probing data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RNAprobR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RNAprobR.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-rnaprobr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaprobr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaprobr/meta.yaml>`_
    :links: biotools: :biotools:`rnaprobr`
 
-   
+   This package facilitates analysis of Next Generation Sequencing data for which positional information with a single nucleotide resolution is a key. It allows for applying different types of relevant normalizations\, data visualization and export in a table or UCSC compatible bedgraph file.
 
 
 .. conda:package:: bioconductor-rnaprobr

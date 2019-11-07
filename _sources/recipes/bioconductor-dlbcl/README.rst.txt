@@ -9,20 +9,20 @@ bioconductor-dlbcl
 .. conda:recipe:: bioconductor-dlbcl
    :replaces_section_title:
 
-   This package provides additional expression data on diffuse large B\-cell lymphomas for the BioNet package.
+   Diffuse large B\-cell lymphoma expression data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/DLBCL.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/DLBCL.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-dlbcl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dlbcl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dlbcl/meta.yaml>`_
 
-   
+   This package provides additional expression data on diffuse large B\-cell lymphomas for the BioNet package.
 
 
 .. conda:package:: bioconductor-dlbcl
 
    |downloads_bioconductor-dlbcl| |docker_bioconductor-dlbcl|
 
-   :versions: 1.25.0-0, 1.24.0-1, 1.22.0-0
+   :versions: 1.26.0-0, 1.24.0-1, 1.22.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends curl: >=7.65.3,<8.0a0

@@ -9,20 +9,20 @@ bioconductor-golubesets
 .. conda:recipe:: bioconductor-golubesets
    :replaces_section_title:
 
-   representation of public golub data with some covariate data of provenance unknown to the maintainer at present\; now employs ExpressionSet format
+   exprSets for golub leukemia data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/golubEsets.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/golubEsets.html
    :license: LGPL
    :recipe: /`bioconductor-golubesets <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-golubesets>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-golubesets/meta.yaml>`_
 
-   
+   representation of public golub data with some covariate data of provenance unknown to the maintainer at present\; now employs ExpressionSet format
 
 
 .. conda:package:: bioconductor-golubesets
 
    |downloads_bioconductor-golubesets| |docker_bioconductor-golubesets|
 
-   :versions: 1.27.0-0, 1.26.0-1, 1.24.0-0, 1.22.0-0, 1.20.0-0
+   :versions: 1.28.0-0, 1.26.0-1, 1.24.0-0, 1.22.0-0, 1.20.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends curl: >=7.65.3,<8.0a0

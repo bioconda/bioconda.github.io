@@ -9,13 +9,13 @@ bioconductor-affylmgui
 .. conda:recipe:: bioconductor-affylmgui
    :replaces_section_title:
 
-   A Graphical User Interface \(GUI\) for analysis of Affymetrix microarray gene expression data using the affy and limma packages.
+   GUI for limma Package with Affymetrix Microarrays
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/affylmGUI.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/affylmGUI.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-affylmgui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affylmgui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affylmgui/meta.yaml>`_
 
-   
+   A Graphical User Interface \(GUI\) for analysis of Affymetrix microarray gene expression data using the affy and limma packages.
 
 
 .. conda:package:: bioconductor-affylmgui

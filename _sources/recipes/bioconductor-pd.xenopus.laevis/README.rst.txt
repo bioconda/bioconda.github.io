@@ -11,11 +11,11 @@ bioconductor-pd.xenopus.laevis
 
    Platform Design Info for The Manufacturer\'s Name Xenopus\_laevis
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.xenopus.laevis.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.xenopus.laevis.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.xenopus.laevis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.xenopus.laevis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.xenopus.laevis/meta.yaml>`_
 
-   
+   Platform Design Info for The Manufacturer\'s Name Xenopus\_laevis
 
 
 .. conda:package:: bioconductor-pd.xenopus.laevis

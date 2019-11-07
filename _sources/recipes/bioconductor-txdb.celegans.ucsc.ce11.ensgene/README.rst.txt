@@ -9,13 +9,13 @@ bioconductor-txdb.celegans.ucsc.ce11.ensgene
 .. conda:recipe:: bioconductor-txdb.celegans.ucsc.ce11.ensgene
    :replaces_section_title:
 
-   Exposes an annotation databases generated from UCSC by exposing these as TxDb objects
+   Annotation package for TxDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/TxDb.Celegans.UCSC.ce11.ensGene.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/TxDb.Celegans.UCSC.ce11.ensGene.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.celegans.ucsc.ce11.ensgene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.celegans.ucsc.ce11.ensgene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.celegans.ucsc.ce11.ensgene/meta.yaml>`_
 
-   
+   Exposes an annotation databases generated from UCSC by exposing these as TxDb objects
 
 
 .. conda:package:: bioconductor-txdb.celegans.ucsc.ce11.ensgene

@@ -9,13 +9,13 @@ bioconductor-cnvranger
 .. conda:recipe:: bioconductor-cnvranger
    :replaces_section_title:
 
-   The CNVRanger package implements a comprehensive tool suite for CNV analysis. This includes functionality for summarizing individual CNV calls across a population\, assessing overlap with functional genomic regions\, and association analysis with gene expression and quantitative phenotypes.
+   Summarization and expression\/phenotype association of CNV ranges
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CNVRanger.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CNVRanger.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cnvranger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvranger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvranger/meta.yaml>`_
 
-   
+   The CNVRanger package implements a comprehensive tool suite for CNV analysis. This includes functionality for summarizing individual CNV calls across a population\, assessing overlap with functional genomic regions\, and association analysis with gene expression and quantitative phenotypes.
 
 
 .. conda:package:: bioconductor-cnvranger

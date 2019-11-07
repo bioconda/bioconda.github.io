@@ -9,13 +9,13 @@ bioconductor-diffhic
 .. conda:recipe:: bioconductor-diffhic
    :replaces_section_title:
 
-   Detects differential interactions across biological conditions in a Hi\-C experiment. Methods are provided for read alignment and data pre\-processing into interaction counts. Statistical analysis is based on edgeR and supports normalization and filtering. Several visualization options are also available.
+   Differential Analyis of Hi\-C Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/diffHic.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/diffHic.html
    :license: GPL-3
    :recipe: /`bioconductor-diffhic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffhic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffhic/meta.yaml>`_
 
-   
+   Detects differential interactions across biological conditions in a Hi\-C experiment. Methods are provided for read alignment and data pre\-processing into interaction counts. Statistical analysis is based on edgeR and supports normalization and filtering. Several visualization options are also available.
 
 
 .. conda:package:: bioconductor-diffhic

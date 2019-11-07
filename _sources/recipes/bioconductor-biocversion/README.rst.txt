@@ -9,13 +9,13 @@ bioconductor-biocversion
 .. conda:recipe:: bioconductor-biocversion
    :replaces_section_title:
 
-   This package provides repository information for the appropriate version of Bioconductor.
+   Set the appropriate version of Bioconductor packages
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BiocVersion.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BiocVersion.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biocversion <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocversion>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocversion/meta.yaml>`_
 
-   
+   This package provides repository information for the appropriate version of Bioconductor.
 
 
 .. conda:package:: bioconductor-biocversion

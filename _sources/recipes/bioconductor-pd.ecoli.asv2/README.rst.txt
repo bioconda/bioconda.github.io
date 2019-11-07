@@ -11,11 +11,11 @@ bioconductor-pd.ecoli.asv2
 
    Platform Design Info for The Manufacturer\'s Name Ecoli\_ASv2
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.ecoli.asv2.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.ecoli.asv2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.ecoli.asv2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.ecoli.asv2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.ecoli.asv2/meta.yaml>`_
 
-   
+   Platform Design Info for The Manufacturer\'s Name Ecoli\_ASv2
 
 
 .. conda:package:: bioconductor-pd.ecoli.asv2

@@ -11,11 +11,11 @@ bioconductor-rmir.hs.mirna
 
    Various databases of microRNA Targets
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/RmiR.Hs.miRNA.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/RmiR.Hs.miRNA.html
    :license: The Artistic License, Version 2.0
    :recipe: /`bioconductor-rmir.hs.mirna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmir.hs.mirna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmir.hs.mirna/meta.yaml>`_
 
-   
+   Various databases of microRNA Targets
 
 
 .. conda:package:: bioconductor-rmir.hs.mirna

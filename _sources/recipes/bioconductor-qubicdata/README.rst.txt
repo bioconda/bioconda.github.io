@@ -9,20 +9,20 @@ bioconductor-qubicdata
 .. conda:recipe:: bioconductor-qubicdata
    :replaces_section_title:
 
-   The data employed in the vignette of the QUBIC package. These data belong to Many Microbe Microarrays Database and STRING v10.
+   Data employed in the vignette of the QUBIC package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/QUBICdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/QUBICdata.html
    :license: Unlimited | file LICENSE
    :recipe: /`bioconductor-qubicdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qubicdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qubicdata/meta.yaml>`_
 
-   
+   The data employed in the vignette of the QUBIC package. These data belong to Many Microbe Microarrays Database and STRING v10.
 
 
 .. conda:package:: bioconductor-qubicdata
 
    |downloads_bioconductor-qubicdata| |docker_bioconductor-qubicdata|
 
-   :versions: 1.13.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

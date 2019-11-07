@@ -9,13 +9,13 @@ bioconductor-geneticsped
 .. conda:recipe:: bioconductor-geneticsped
    :replaces_section_title:
 
-   Classes and methods for handling pedigree data. It also includes functions to calculate genetic relationship measures as relationship and inbreeding coefficients and other utilities. Note that package is not yet stable. Use it with care\!
+   Pedigree and genetic relationship functions
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GeneticsPed.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GeneticsPed.html
    :license: LGPL (>= 2.1) | file LICENSE
    :recipe: /`bioconductor-geneticsped <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneticsped>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneticsped/meta.yaml>`_
 
-   
+   Classes and methods for handling pedigree data. It also includes functions to calculate genetic relationship measures as relationship and inbreeding coefficients and other utilities. Note that package is not yet stable. Use it with care\!
 
 
 .. conda:package:: bioconductor-geneticsped

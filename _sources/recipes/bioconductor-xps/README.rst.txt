@@ -9,13 +9,13 @@ bioconductor-xps
 .. conda:recipe:: bioconductor-xps
    :replaces_section_title:
 
-   The package handles pre\-processing\, normalization\, filtering and analysis of Affymetrix GeneChip expression arrays\, including exon arrays \(Exon 1.0 ST\: core\, extended\, full probesets\)\, gene arrays \(Gene 1.0 ST\) and plate arrays on computers with 1 GB RAM only. It imports Affymetrix .CDF\, .CLF\, .PGF and .CEL as well as annotation files\, and computes e.g. RMA\, MAS5\, FARMS\, DFW\, FIRMA\, tRMA\, MAS5\-calls\, DABG\-calls\, I\/NI\-calls. It is an R wrapper to XPS \(eXpression Profiling System\)\, which is based on ROOT\, an object\-oriented framework developed at CERN. Thus\, the prior installation of ROOT is a prerequisite for the usage of this package\, however\, no knowledge of ROOT is required. ROOT is licensed under LGPL and can be downloaded from http\:\/\/root.cern.ch.
+   Processing and Analysis of Affymetrix Oligonucleotide Arrays including Exon Arrays\, Whole Genome Arrays and Plate Arrays
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/xps.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/xps.html
    :license: GPL (>= 2.0)
    :recipe: /`bioconductor-xps <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xps>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xps/meta.yaml>`_
 
-   
+   The package handles pre\-processing\, normalization\, filtering and analysis of Affymetrix GeneChip expression arrays\, including exon arrays \(Exon 1.0 ST\: core\, extended\, full probesets\)\, gene arrays \(Gene 1.0 ST\) and plate arrays on computers with 1 GB RAM only. It imports Affymetrix .CDF\, .CLF\, .PGF and .CEL as well as annotation files\, and computes e.g. RMA\, MAS5\, FARMS\, DFW\, FIRMA\, tRMA\, MAS5\-calls\, DABG\-calls\, I\/NI\-calls. It is an R wrapper to XPS \(eXpression Profiling System\)\, which is based on ROOT\, an object\-oriented framework developed at CERN. Thus\, the prior installation of ROOT is a prerequisite for the usage of this package\, however\, no knowledge of ROOT is required. ROOT is licensed under LGPL and can be downloaded from http\:\/\/root.cern.ch.
 
 
 .. conda:package:: bioconductor-xps

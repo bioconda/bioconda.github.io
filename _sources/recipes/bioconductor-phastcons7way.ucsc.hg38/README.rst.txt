@@ -9,13 +9,13 @@ bioconductor-phastcons7way.ucsc.hg38
 .. conda:recipe:: bioconductor-phastcons7way.ucsc.hg38
    :replaces_section_title:
 
-   Store UCSC phastCons conservation scores for the human genome \(hg38\) calculated from multiple alignments with other 6 vertebrate species.
+   UCSC phastCons conservation scores for hg38
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/phastCons7way.UCSC.hg38.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/phastCons7way.UCSC.hg38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-phastcons7way.ucsc.hg38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phastcons7way.ucsc.hg38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phastcons7way.ucsc.hg38/meta.yaml>`_
 
-   
+   Store UCSC phastCons conservation scores for the human genome \(hg38\) calculated from multiple alignments with other 6 vertebrate species.
 
 
 .. conda:package:: bioconductor-phastcons7way.ucsc.hg38

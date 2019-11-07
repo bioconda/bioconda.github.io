@@ -9,13 +9,13 @@ bioconductor-trnascanimport
 .. conda:recipe:: bioconductor-trnascanimport
    :replaces_section_title:
 
-   The package imports the result of tRNAscan\-SE as a GRanges object.
+   Importing a tRNAscan\-SE result file as GRanges object
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/tRNAscanImport.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/tRNAscanImport.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-trnascanimport <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trnascanimport>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trnascanimport/meta.yaml>`_
 
-   
+   The package imports the result of tRNAscan\-SE as a GRanges object.
 
 
 .. conda:package:: bioconductor-trnascanimport

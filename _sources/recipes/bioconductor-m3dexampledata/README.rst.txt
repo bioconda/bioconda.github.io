@@ -9,20 +9,20 @@ bioconductor-m3dexampledata
 .. conda:recipe:: bioconductor-m3dexampledata
    :replaces_section_title:
 
-   Example data for M3Drop package.
+   M3Drop Example Data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/M3DExampleData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/M3DExampleData.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-m3dexampledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m3dexampledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m3dexampledata/meta.yaml>`_
 
-   
+   Example data for M3Drop package.
 
 
 .. conda:package:: bioconductor-m3dexampledata
 
    |downloads_bioconductor-m3dexampledata| |docker_bioconductor-m3dexampledata|
 
-   :versions: 1.11.0-0, 1.10.0-1, 1.10.0-0, 1.8.0-0
+   :versions: 1.12.0-0, 1.10.0-1, 1.10.0-0, 1.8.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

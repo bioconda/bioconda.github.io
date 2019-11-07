@@ -9,14 +9,14 @@ bioconductor-crlmm
 .. conda:recipe:: bioconductor-crlmm
    :replaces_section_title:
 
-   Faster implementation of CRLMM specific to SNP 5.0 and 6.0 arrays\, as well as a copy number tool specific to 5.0\, 6.0\, and Illumina platforms.
+   Genotype Calling \(CRLMM\) and Copy Number Analysis tool for Affymetrix SNP 5.0 and 6.0 and Illumina arrays
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/crlmm.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/crlmm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-crlmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crlmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crlmm/meta.yaml>`_
    :links: biotools: :biotools:`crlmm`
 
-   
+   Faster implementation of CRLMM specific to SNP 5.0 and 6.0 arrays\, as well as a copy number tool specific to 5.0\, 6.0\, and Illumina platforms.
 
 
 .. conda:package:: bioconductor-crlmm

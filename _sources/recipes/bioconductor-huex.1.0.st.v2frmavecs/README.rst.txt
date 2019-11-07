@@ -9,13 +9,13 @@ bioconductor-huex.1.0.st.v2frmavecs
 .. conda:recipe:: bioconductor-huex.1.0.st.v2frmavecs
    :replaces_section_title:
 
-   This package was created by frmaTools version 1.9.2.
+   Vectors used by frma for microarrays of type huex.1.0.st.v2
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/huex.1.0.st.v2frmavecs.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/huex.1.0.st.v2frmavecs.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-huex.1.0.st.v2frmavecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-huex.1.0.st.v2frmavecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-huex.1.0.st.v2frmavecs/meta.yaml>`_
 
-   
+   This package was created by frmaTools version 1.9.2.
 
 
 .. conda:package:: bioconductor-huex.1.0.st.v2frmavecs

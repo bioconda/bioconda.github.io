@@ -9,20 +9,20 @@ bioconductor-dream4
 .. conda:recipe:: bioconductor-dream4
    :replaces_section_title:
 
-   Simulated expression data for five 10\-node\, and five 100\-node networks\, with associated data \(including solutions\) from the 2009 DREAM4 challenge.
+   Synthetic Expression Data for Gene Regulatory Network Inference from the 2009 DREAM4 challenge
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/DREAM4.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/DREAM4.html
    :license: GPL
    :recipe: /`bioconductor-dream4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dream4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dream4/meta.yaml>`_
 
-   
+   Simulated expression data for five 10\-node\, and five 100\-node networks\, with associated data \(including solutions\) from the 2009 DREAM4 challenge.
 
 
 .. conda:package:: bioconductor-dream4
 
    |downloads_bioconductor-dream4| |docker_bioconductor-dream4|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.18.0-0
    
    :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends curl: >=7.65.3,<8.0a0

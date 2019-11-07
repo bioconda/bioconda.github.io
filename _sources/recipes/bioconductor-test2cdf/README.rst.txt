@@ -9,13 +9,13 @@ bioconductor-test2cdf
 .. conda:recipe:: bioconductor-test2cdf
    :replaces_section_title:
 
-   A package containing an environment representing the Test2.CDF file.
+   test2cdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/test2cdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/test2cdf.html
    :license: LGPL
    :recipe: /`bioconductor-test2cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-test2cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-test2cdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the Test2.CDF file.
 
 
 .. conda:package:: bioconductor-test2cdf

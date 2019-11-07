@@ -9,13 +9,13 @@ bioconductor-dmrseq
 .. conda:recipe:: bioconductor-dmrseq
    :replaces_section_title:
 
-   This package implements an approach for scanning the genome to detect and perform accurate inference on differentially methylated regions from Whole Genome Bisulfite Sequencing data. The method is based on comparing detected regions to a pooled null distribution\, that can be implemented even when as few as two samples per population are available. Region\-level statistics are obtained by fitting a generalized least squares \(GLS\) regression model with a nested autoregressive correlated error structure for the effect of interest on transformed methylation proportions.
+   Detection and inference of differentially methylated regions from Whole Genome Bisulfite Sequencing
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/dmrseq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/dmrseq.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-dmrseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrseq/meta.yaml>`_
 
-   
+   This package implements an approach for scanning the genome to detect and perform accurate inference on differentially methylated regions from Whole Genome Bisulfite Sequencing data. The method is based on comparing detected regions to a pooled null distribution\, that can be implemented even when as few as two samples per population are available. Region\-level statistics are obtained by fitting a generalized least squares \(GLS\) regression model with a nested autoregressive correlated error structure for the effect of interest on transformed methylation proportions.
 
 
 .. conda:package:: bioconductor-dmrseq

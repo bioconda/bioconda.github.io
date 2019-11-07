@@ -9,13 +9,13 @@ bioconductor-org.cf.eg.db
 .. conda:recipe:: bioconductor-org.cf.eg.db
    :replaces_section_title:
 
-   Genome wide annotation for Canine\, primarily based on mapping using Entrez Gene identifiers.
+   Genome wide annotation for Canine
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/org.Cf.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/org.Cf.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-org.cf.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.cf.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.cf.eg.db/meta.yaml>`_
 
-   
+   Genome wide annotation for Canine\, primarily based on mapping using Entrez Gene identifiers.
 
 
 .. conda:package:: bioconductor-org.cf.eg.db

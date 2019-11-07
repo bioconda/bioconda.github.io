@@ -9,13 +9,13 @@ bioconductor-screcover
 .. conda:recipe:: bioconductor-screcover
    :replaces_section_title:
 
-   scRecover is an R package for imputation of single\-cell RNA\-seq \(scRNA\-seq\) data. It will detect and impute dropout values in a scRNA\-seq raw read counts matrix while keeping the real zeros unchanged\, since there are both dropout zeros and real zeros in scRNA\-seq data. By combination with scImpute\, SAVER and MAGIC\, scRecover not only detects dropout and real zeros at higher accuracy\, but also improve the downstream clustering and visualization results.
+   scRecover for imputation of single\-cell RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/scRecover.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/scRecover.html
    :license: GPL
    :recipe: /`bioconductor-screcover <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-screcover>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-screcover/meta.yaml>`_
 
-   
+   scRecover is an R package for imputation of single\-cell RNA\-seq \(scRNA\-seq\) data. It will detect and impute dropout values in a scRNA\-seq raw read counts matrix while keeping the real zeros unchanged\, since there are both dropout zeros and real zeros in scRNA\-seq data. By combination with scImpute\, SAVER and MAGIC\, scRecover not only detects dropout and real zeros at higher accuracy\, but also improve the downstream clustering and visualization results.
 
 
 .. conda:package:: bioconductor-screcover

@@ -9,13 +9,13 @@ bioconductor-mirbaseversions.db
 .. conda:recipe:: bioconductor-mirbaseversions.db
    :replaces_section_title:
 
-   Annotation package containing all available miRNA names from 22 versions \(data from http\:\/\/www.mirbase.org\/\).
+   Collection of mature miRNA names of 22 different miRBase release versions
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/miRBaseVersions.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/miRBaseVersions.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mirbaseversions.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirbaseversions.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirbaseversions.db/meta.yaml>`_
 
-   
+   Annotation package containing all available miRNA names from 22 versions \(data from http\:\/\/www.mirbase.org\/\).
 
 
 .. conda:package:: bioconductor-mirbaseversions.db

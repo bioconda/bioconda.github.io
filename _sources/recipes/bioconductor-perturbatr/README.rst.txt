@@ -9,13 +9,13 @@ bioconductor-perturbatr
 .. conda:recipe:: bioconductor-perturbatr
    :replaces_section_title:
 
-   perturbatr does stage\-wise analysis of large\-scale genetic perturbation screens for integrated data sets consisting of multiple screens. For multiple integrated perturbation screens a hierarchical model that considers the variance between different biological conditions is fitted. The resulting list of gene effects is then further extended using a network propagation algorithm to correct for false negatives.
+   Statistical Analysis of High\-Throughput Genetic Perturbation Screens
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/perturbatr.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/perturbatr.html
    :license: GPL-3
    :recipe: /`bioconductor-perturbatr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-perturbatr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-perturbatr/meta.yaml>`_
 
-   
+   perturbatr does stage\-wise analysis of large\-scale genetic perturbation screens for integrated data sets consisting of multiple screens. For multiple integrated perturbation screens a hierarchical model that considers the variance between different biological conditions is fitted. The resulting list of gene effects is then further extended using a network propagation algorithm to correct for false negatives.
 
 
 .. conda:package:: bioconductor-perturbatr

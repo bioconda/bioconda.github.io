@@ -9,13 +9,13 @@ bioconductor-zfpkm
 .. conda:recipe:: bioconductor-zfpkm
    :replaces_section_title:
 
-   Perform the zFPKM transform on RNA\-seq FPKM data. This algorithm is based on the publication by Hart et al.\, 2013 \(Pubmed ID 24215113\). Reference recommends using zFPKM \> \-3 to select expressed genes. Validated with encode open\/closed chromosome data. Works well for gene level data using FPKM or TPM. Does not appear to calibrate well for transcript level data.
+   A suite of functions to facilitate zFPKM transformations
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/zFPKM.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/zFPKM.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-zfpkm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zfpkm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zfpkm/meta.yaml>`_
 
-   
+   Perform the zFPKM transform on RNA\-seq FPKM data. This algorithm is based on the publication by Hart et al.\, 2013 \(Pubmed ID 24215113\). Reference recommends using zFPKM \> \-3 to select expressed genes. Validated with encode open\/closed chromosome data. Works well for gene level data using FPKM or TPM. Does not appear to calibrate well for transcript level data.
 
 
 .. conda:package:: bioconductor-zfpkm

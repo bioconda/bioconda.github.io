@@ -9,20 +9,20 @@ bioconductor-mapkldata
 .. conda:recipe:: bioconductor-mapkldata
    :replaces_section_title:
 
-   Gene expression data from a breast cancer study published by Turashvili et al. in 2007\, provided as an eSet.
+   Gene expression data for testing of the package mAPKL.
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/mAPKLData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/mAPKLData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mapkldata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapkldata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapkldata/meta.yaml>`_
 
-   
+   Gene expression data from a breast cancer study published by Turashvili et al. in 2007\, provided as an eSet.
 
 
 .. conda:package:: bioconductor-mapkldata
 
    |downloads_bioconductor-mapkldata| |docker_bioconductor-mapkldata|
 
-   :versions: 1.17.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0
+   :versions: 1.18.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

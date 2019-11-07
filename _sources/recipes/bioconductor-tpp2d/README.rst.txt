@@ -9,13 +9,13 @@ bioconductor-tpp2d
 .. conda:recipe:: bioconductor-tpp2d
    :replaces_section_title:
 
-   FDR\-controlled analysis of 2D\-TPP experiments by functional analysis of dose\-response curves across temperatures.
+   FDR\-controlled analysis of 2D\-TPP experiments
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/TPP2D.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/TPP2D.html
    :license: GPL-3
    :recipe: /`bioconductor-tpp2d <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tpp2d>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tpp2d/meta.yaml>`_
 
-   
+   FDR\-controlled analysis of 2D\-TPP experiments by functional analysis of dose\-response curves across temperatures.
 
 
 .. conda:package:: bioconductor-tpp2d

@@ -9,14 +9,14 @@ bioconductor-mspurity
 .. conda:recipe:: bioconductor-mspurity
    :replaces_section_title:
 
-   msPurity R package was developed to\: 1\) Assess the spectral quality of fragmentation spectra by evaluating the \"precursor ion purity\". 2\) Process fragmentation spectra. 3\) Perform spectral matching. What is precursor ion purity\? \-What we call \"Precursor ion purity\" is a measure of the contribution of a selected precursor peak in an isolation window used for fragmentation. The simple calculation involves dividing the intensity of the selected precursor peak by the total intensity of the isolation window. When assessing MS\/MS spectra this calculation is done before and after the MS\/MS scan of interest and the purity is interpolated at the recorded time of the MS\/MS acquisition. Additionally\, isotopic peaks can be removed\, low abundance peaks are removed that are thought to have limited contribution to the resulting MS\/MS spectra and the isolation efficiency of the mass spectrometer can be used to normalise the intensities used for the calculation.
+   Automated Evaluation of Precursor Ion Purity for Mass Spectrometry Based Fragmentation in Metabolomics
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/msPurity.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/msPurity.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mspurity <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mspurity>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mspurity/meta.yaml>`_
    :links: biotools: :biotools:`mspurity`, doi: :doi:`10.1021/acs.analchem.6b04358`
 
-   
+   msPurity R package was developed to\: 1\) Assess the spectral quality of fragmentation spectra by evaluating the \"precursor ion purity\". 2\) Process fragmentation spectra. 3\) Perform spectral matching. What is precursor ion purity\? \-What we call \"Precursor ion purity\" is a measure of the contribution of a selected precursor peak in an isolation window used for fragmentation. The simple calculation involves dividing the intensity of the selected precursor peak by the total intensity of the isolation window. When assessing MS\/MS spectra this calculation is done before and after the MS\/MS scan of interest and the purity is interpolated at the recorded time of the MS\/MS acquisition. Additionally\, isotopic peaks can be removed\, low abundance peaks are removed that are thought to have limited contribution to the resulting MS\/MS spectra and the isolation efficiency of the mass spectrometer can be used to normalise the intensities used for the calculation.
 
 
 .. conda:package:: bioconductor-mspurity

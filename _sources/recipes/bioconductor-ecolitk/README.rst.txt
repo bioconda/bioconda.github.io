@@ -9,13 +9,13 @@ bioconductor-ecolitk
 .. conda:recipe:: bioconductor-ecolitk
    :replaces_section_title:
 
-   Meta\-data and tools to work with E. coli. The tools are mostly plotting functions to work with circular genomes. They can used with other genomes\/plasmids.
+   Meta\-data and tools for E. coli
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ecolitk.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ecolitk.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ecolitk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecolitk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecolitk/meta.yaml>`_
 
-   
+   Meta\-data and tools to work with E. coli. The tools are mostly plotting functions to work with circular genomes. They can used with other genomes\/plasmids.
 
 
 .. conda:package:: bioconductor-ecolitk

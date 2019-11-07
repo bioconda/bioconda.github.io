@@ -9,22 +9,22 @@ bioconductor-mtbls2
 .. conda:recipe:: bioconductor-mtbls2
    :replaces_section_title:
 
-   Indole\-3\-acetaldoxime \(IAOx\) represents an early intermediate of the biosynthesis of a variety of indolic secondary metabolites including the phytoanticipin indol\-3\-ylmethyl glucosinolate and the phytoalexin camalexin \(3\-thiazol\-2\'\-yl\-indole\). Arabidopsis thaliana cyp79B2 cyp79B3 double knockout plants are completely impaired in the conversion of tryptophan to indole\-3\-acetaldoxime and do not accumulate IAOx\-derived metabolites any longer. Consequently\, comparative analysis of wild\-type and cyp79B2 cyp79B3 plant lines has the potential to explore the complete range of IAOx\-derived indolic secondary metabolites.
+   MetaboLights MTBLS2\: Comparative LC\/MS\-based profiling of silver nitrate\-treated Arabidopsis thaliana leaves of wild\-type and cyp79B2 cyp79B3 double knockout plants. Böttcher et al. \(2004\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/mtbls2.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/mtbls2.html
    :license: CC0
    :recipe: /`bioconductor-mtbls2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mtbls2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mtbls2/meta.yaml>`_
 
-   
+   Indole\-3\-acetaldoxime \(IAOx\) represents an early intermediate of the biosynthesis of a variety of indolic secondary metabolites including the phytoanticipin indol\-3\-ylmethyl glucosinolate and the phytoalexin camalexin \(3\-thiazol\-2\'\-yl\-indole\). Arabidopsis thaliana cyp79B2 cyp79B3 double knockout plants are completely impaired in the conversion of tryptophan to indole\-3\-acetaldoxime and do not accumulate IAOx\-derived metabolites any longer. Consequently\, comparative analysis of wild\-type and cyp79B2 cyp79B3 plant lines has the potential to explore the complete range of IAOx\-derived indolic secondary metabolites.
 
 
 .. conda:package:: bioconductor-mtbls2
 
    |downloads_bioconductor-mtbls2| |docker_bioconductor-mtbls2|
 
-   :versions: 1.15.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0
+   :versions: 1.14.0-1, 1.14.0-0, 1.12.0-0
    
-   :depends curl: >=7.65.3,<8.0a0
+   :depends curl: >=7.65.2,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

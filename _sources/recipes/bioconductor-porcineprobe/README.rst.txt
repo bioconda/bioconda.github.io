@@ -9,13 +9,13 @@ bioconductor-porcineprobe
 .. conda:recipe:: bioconductor-porcineprobe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Porcine\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type porcine
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/porcineprobe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/porcineprobe.html
    :license: LGPL
    :recipe: /`bioconductor-porcineprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-porcineprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-porcineprobe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Porcine\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-porcineprobe

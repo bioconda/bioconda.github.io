@@ -9,13 +9,13 @@ bioconductor-predictionet
 .. conda:recipe:: bioconductor-predictionet
    :replaces_section_title:
 
-   This package contains a set of functions related to network inference combining genomic data and prior information extracted from biomedical literature and structured biological databases. The main function is able to generate networks using Bayesian or regression\-based inference methods\; while the former is limited to \< 100 of variables\, the latter may infer networks with hundreds of variables. Several statistics at the edge and node levels have been implemented \(edge stability\, predictive ability of each node\, ...\) in order to help the user to focus on high quality subnetworks. Ultimately\, this package is used in the \'Predictive Networks\' web application developed by the Dana\-Farber Cancer Institute in collaboration with Entagen.
+   Inference for predictive networks designed for \(but not limited to\) genomic data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/predictionet.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/predictionet.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-predictionet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-predictionet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-predictionet/meta.yaml>`_
 
-   
+   This package contains a set of functions related to network inference combining genomic data and prior information extracted from biomedical literature and structured biological databases. The main function is able to generate networks using Bayesian or regression\-based inference methods\; while the former is limited to \< 100 of variables\, the latter may infer networks with hundreds of variables. Several statistics at the edge and node levels have been implemented \(edge stability\, predictive ability of each node\, ...\) in order to help the user to focus on high quality subnetworks. Ultimately\, this package is used in the \'Predictive Networks\' web application developed by the Dana\-Farber Cancer Institute in collaboration with Entagen.
 
 
 .. conda:package:: bioconductor-predictionet

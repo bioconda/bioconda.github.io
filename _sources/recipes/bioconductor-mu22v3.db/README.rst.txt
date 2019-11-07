@@ -9,13 +9,13 @@ bioconductor-mu22v3.db
 .. conda:recipe:: bioconductor-mu22v3.db
    :replaces_section_title:
 
-   FHCRC Genomics Shared Resource Mu22v3 Annotation Data \(Mu22v3\) assembled using data from public repositories
+   FHCRC Genomics Shared Resource Mu22v3 Annotation Data \(Mu22v3\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/Mu22v3.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/Mu22v3.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mu22v3.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu22v3.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu22v3.db/meta.yaml>`_
 
-   
+   FHCRC Genomics Shared Resource Mu22v3 Annotation Data \(Mu22v3\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-mu22v3.db

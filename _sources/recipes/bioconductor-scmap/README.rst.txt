@@ -9,13 +9,13 @@ bioconductor-scmap
 .. conda:recipe:: bioconductor-scmap
    :replaces_section_title:
 
-   Single\-cell RNA\-seq \(scRNA\-seq\) is widely used to investigate the composition of complex tissues since the technology allows researchers to define cell\-types using unsupervised clustering of the transcriptome. However\, due to differences in experimental methods and computational analyses\, it is often challenging to directly compare the cells identified in two different experiments. scmap is a method for projecting cells from a scRNA\-seq experiment on to the cell\-types or individual cells identified in a different experiment.
+   A tool for unsupervised projection of single cell RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/scmap.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/scmap.html
    :license: GPL-3
    :recipe: /`bioconductor-scmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scmap/meta.yaml>`_
 
-   
+   Single\-cell RNA\-seq \(scRNA\-seq\) is widely used to investigate the composition of complex tissues since the technology allows researchers to define cell\-types using unsupervised clustering of the transcriptome. However\, due to differences in experimental methods and computational analyses\, it is often challenging to directly compare the cells identified in two different experiments. scmap is a method for projecting cells from a scRNA\-seq experiment on to the cell\-types or individual cells identified in a different experiment.
 
 
 .. conda:package:: bioconductor-scmap

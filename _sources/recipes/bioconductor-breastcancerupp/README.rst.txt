@@ -9,20 +9,20 @@ bioconductor-breastcancerupp
 .. conda:recipe:: bioconductor-breastcancerupp
    :replaces_section_title:
 
-   Gene expression data from a breast cancer study published by Miller et al. in 2005\, provided as an eSet.
+   Gene expression dataset published by Miller et al. \[2005\] \(UPP\).
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/breastCancerUPP.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/breastCancerUPP.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-breastcancerupp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancerupp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancerupp/meta.yaml>`_
 
-   
+   Gene expression data from a breast cancer study published by Miller et al. in 2005\, provided as an eSet.
 
 
 .. conda:package:: bioconductor-breastcancerupp
 
    |downloads_bioconductor-breastcancerupp| |docker_bioconductor-breastcancerupp|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

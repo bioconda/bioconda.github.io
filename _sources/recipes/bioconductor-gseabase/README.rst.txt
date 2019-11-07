@@ -9,14 +9,14 @@ bioconductor-gseabase
 .. conda:recipe:: bioconductor-gseabase
    :replaces_section_title:
 
-   This package provides classes and methods to support Gene Set Enrichment Analysis \(GSEA\).
+   Gene set enrichment data structures and methods
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GSEABase.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GSEABase.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gseabase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gseabase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gseabase/meta.yaml>`_
    :links: biotools: :biotools:`gseabase`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package provides classes and methods to support Gene Set Enrichment Analysis \(GSEA\).
 
 
 .. conda:package:: bioconductor-gseabase

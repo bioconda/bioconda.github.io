@@ -9,13 +9,13 @@ bioconductor-semisup
 .. conda:recipe:: bioconductor-semisup
    :replaces_section_title:
 
-   Useful for detecting SNPs with interactive effects on a quantitative trait. This R packages moves away from testing interaction terms\, and moves towards testing whether an individual SNP is involved in any interaction. This reduces the multiple testing burden to one test per SNP\, and allows for interactions with unobserved factors. Analysing one SNP at a time\, it splits the individuals into two groups\, based on the number of minor alleles. If the quantitative trait differs in mean between the two groups\, the SNP has a main effect. If the quantitative trait differs in distribution between some individuals in one group and all other individuals\, it possibly has an interactive effect. Implicitly\, the membership probabilities may suggest potential interacting variables.
+   Semi\-Supervised Mixture Model
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/semisup.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/semisup.html
    :license: GPL-3
    :recipe: /`bioconductor-semisup <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-semisup>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-semisup/meta.yaml>`_
 
-   
+   Useful for detecting SNPs with interactive effects on a quantitative trait. This R packages moves away from testing interaction terms\, and moves towards testing whether an individual SNP is involved in any interaction. This reduces the multiple testing burden to one test per SNP\, and allows for interactions with unobserved factors. Analysing one SNP at a time\, it splits the individuals into two groups\, based on the number of minor alleles. If the quantitative trait differs in mean between the two groups\, the SNP has a main effect. If the quantitative trait differs in distribution between some individuals in one group and all other individuals\, it possibly has an interactive effect. Implicitly\, the membership probabilities may suggest potential interacting variables.
 
 
 .. conda:package:: bioconductor-semisup

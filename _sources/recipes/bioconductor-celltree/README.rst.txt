@@ -9,13 +9,13 @@ bioconductor-celltree
 .. conda:recipe:: bioconductor-celltree
    :replaces_section_title:
 
-   This packages computes a Latent Dirichlet Allocation \(LDA\) model of single\-cell RNA\-seq data and builds a compact tree modelling the relationship between individual cells over time or space.
+   Inference and visualisation of Single\-Cell RNA\-seq data as a hierarchical tree structure
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/cellTree.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/cellTree.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-celltree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celltree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celltree/meta.yaml>`_
 
-   
+   This packages computes a Latent Dirichlet Allocation \(LDA\) model of single\-cell RNA\-seq data and builds a compact tree modelling the relationship between individual cells over time or space.
 
 
 .. conda:package:: bioconductor-celltree

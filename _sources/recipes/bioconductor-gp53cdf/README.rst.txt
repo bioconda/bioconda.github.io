@@ -9,13 +9,13 @@ bioconductor-gp53cdf
 .. conda:recipe:: bioconductor-gp53cdf
    :replaces_section_title:
 
-   A package containing an environment representing the GP53.CDF file.
+   gp53cdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/gp53cdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/gp53cdf.html
    :license: LGPL
    :recipe: /`bioconductor-gp53cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gp53cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gp53cdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the GP53.CDF file.
 
 
 .. conda:package:: bioconductor-gp53cdf

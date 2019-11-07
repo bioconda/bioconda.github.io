@@ -9,14 +9,14 @@ bioconductor-genomation
 .. conda:recipe:: bioconductor-genomation
    :replaces_section_title:
 
-   A package for summary and annotation of genomic intervals. Users can visualize and quantify genomic intervals over pre\-defined functional regions\, such as promoters\, exons\, introns\, etc. The genomic intervals represent regions with a defined chromosome position\, which may be associated with a score\, such as aligned reads from HT\-seq experiments\, TF binding sites\, methylation scores\, etc. The package can use any tabular genomic feature data as long as it has minimal information on the locations of genomic intervals. In addition\, It can use BAM or BigWig files as input.
+   Summary\, annotation and visualization of genomic data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/genomation.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/genomation.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomation/meta.yaml>`_
    :links: biotools: :biotools:`genomation`
 
-   
+   A package for summary and annotation of genomic intervals. Users can visualize and quantify genomic intervals over pre\-defined functional regions\, such as promoters\, exons\, introns\, etc. The genomic intervals represent regions with a defined chromosome position\, which may be associated with a score\, such as aligned reads from HT\-seq experiments\, TF binding sites\, methylation scores\, etc. The package can use any tabular genomic feature data as long as it has minimal information on the locations of genomic intervals. In addition\, It can use BAM or BigWig files as input.
 
 
 .. conda:package:: bioconductor-genomation

@@ -9,25 +9,25 @@ bioconductor-nestlink
 .. conda:recipe:: bioconductor-nestlink
    :replaces_section_title:
 
-   Provides next\-generation sequencing \(NGS\) and mass spectrometry \(MS\) sample data\, code snippets and replication material used for developing NestLink. The NestLink approach is a protein binder selection and identification technology able to biophysically characterize thousands of library members at once without handling individual clones at any stage of the process. Data were acquired on NGS and MS platforms at the Functional Genomics Center Zurich.
+   NestLink an R data package to guide through Engineered Peptide Barcodes for In\-Depth Analyzes of Binding Protein Ensembles
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/NestLink.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/NestLink.html
    :license: GPL
    :recipe: /`bioconductor-nestlink <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nestlink>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nestlink/meta.yaml>`_
 
-   
+   Provides next\-generation sequencing \(NGS\) and mass spectrometry \(MS\) sample data\, code snippets and replication material used for developing NestLink. The NestLink approach is a protein binder selection and identification technology able to biophysically characterize thousands of library members at once without handling individual clones at any stage of the process. Data were acquired on NGS and MS platforms at the Functional Genomics Center Zurich.
 
 
 .. conda:package:: bioconductor-nestlink
 
    |downloads_bioconductor-nestlink| |docker_bioconductor-nestlink|
 
-   :versions: 1.1.0-0, 1.0.0-1
+   :versions: 1.0.0-1
    
-   :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
-   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
-   :depends bioconductor-shortread: >=1.44.0,<1.45.0
+   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
+   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
+   :depends bioconductor-shortread: >=1.42.0,<1.43.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-gplots: >=3.0.0

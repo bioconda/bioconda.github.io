@@ -9,14 +9,14 @@ bioconductor-contibait
 .. conda:recipe:: bioconductor-contibait
    :replaces_section_title:
 
-   Using strand inheritance data from multiple single cells from the organism whose genome is to be assembled\, contiBAIT can cluster unbridged contigs together into putative chromosomes\, and order the contigs within those chromosomes.
+   Improves Early Build Genome Assemblies using Strand\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/contiBAIT.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/contiBAIT.html
    :license: BSD_2_clause + file LICENSE
    :recipe: /`bioconductor-contibait <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-contibait>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-contibait/meta.yaml>`_
    :links: biotools: :biotools:`contibait`, doi: :doi:`10.1093/bioinformatics/btx281`
 
-   
+   Using strand inheritance data from multiple single cells from the organism whose genome is to be assembled\, contiBAIT can cluster unbridged contigs together into putative chromosomes\, and order the contigs within those chromosomes.
 
 
 .. conda:package:: bioconductor-contibait

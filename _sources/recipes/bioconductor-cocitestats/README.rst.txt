@@ -9,13 +9,13 @@ bioconductor-cocitestats
 .. conda:recipe:: bioconductor-cocitestats
    :replaces_section_title:
 
-   A collection of software tools for dealing with co\-citation data.
+   Different test statistics based on co\-citation.
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CoCiteStats.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CoCiteStats.html
    :license: CPL
    :recipe: /`bioconductor-cocitestats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cocitestats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cocitestats/meta.yaml>`_
 
-   
+   A collection of software tools for dealing with co\-citation data.
 
 
 .. conda:package:: bioconductor-cocitestats

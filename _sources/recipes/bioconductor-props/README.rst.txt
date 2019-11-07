@@ -9,13 +9,13 @@ bioconductor-props
 .. conda:recipe:: bioconductor-props
    :replaces_section_title:
 
-   This package calculates probabilistic pathway scores using gene expression data. Gene expression values are aggregated into pathway\-based scores using Bayesian network representations of biological pathways.
+   PRObabilistic Pathway Score \(PROPS\)
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PROPS.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PROPS.html
    :license: GPL-2
    :recipe: /`bioconductor-props <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-props>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-props/meta.yaml>`_
 
-   
+   This package calculates probabilistic pathway scores using gene expression data. Gene expression values are aggregated into pathway\-based scores using Bayesian network representations of biological pathways.
 
 
 .. conda:package:: bioconductor-props

@@ -9,14 +9,14 @@ bioconductor-mulcom
 .. conda:recipe:: bioconductor-mulcom
    :replaces_section_title:
 
-   Identification of differentially expressed genes and false discovery rate \(FDR\) calculation by Multiple Comparison test
+   Calculates Mulcom test
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Mulcom.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Mulcom.html
    :license: GPL-2
    :recipe: /`bioconductor-mulcom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mulcom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mulcom/meta.yaml>`_
    :links: biotools: :biotools:`mulcom`, doi: :doi:`10.1186/1471-2105-12-382`
 
-   
+   Identification of differentially expressed genes and false discovery rate \(FDR\) calculation by Multiple Comparison test.
 
 
 .. conda:package:: bioconductor-mulcom

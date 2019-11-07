@@ -9,13 +9,13 @@ bioconductor-agilp
 .. conda:recipe:: bioconductor-agilp
    :replaces_section_title:
 
-   More about what it does \(maybe more than one line\)
+   Agilent expression array processing package
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/agilp.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/agilp.html
    :license: GPL-3
    :recipe: /`bioconductor-agilp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-agilp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-agilp/meta.yaml>`_
 
-   
+   More about what it does \(maybe more than one line\)
 
 
 .. conda:package:: bioconductor-agilp

@@ -9,13 +9,13 @@ bioconductor-bprmeth
 .. conda:recipe:: bioconductor-bprmeth
    :replaces_section_title:
 
-   The BPRMeth package is a probabilistic method to quantify explicit features of methylation profiles\, in a way that would make it easier to formally use such profiles in downstream modelling efforts\, such as predicting gene expression levels or clustering genomic regions or cells according to their methylation profiles.
+   Model higher\-order methylation profiles
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BPRMeth.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BPRMeth.html
+   :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-bprmeth <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bprmeth>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bprmeth/meta.yaml>`_
 
-   
+   The BPRMeth package is a probabilistic method to quantify explicit features of methylation profiles\, in a way that would make it easier to formally use such profiles in downstream modelling efforts\, such as predicting gene expression levels or clustering genomic regions or cells according to their methylation profiles.
 
 
 .. conda:package:: bioconductor-bprmeth

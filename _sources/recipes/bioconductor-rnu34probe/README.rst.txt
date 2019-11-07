@@ -9,13 +9,13 @@ bioconductor-rnu34probe
 .. conda:recipe:: bioconductor-rnu34probe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was RN\-U34\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type rnu34
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/rnu34probe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/rnu34probe.html
    :license: LGPL
    :recipe: /`bioconductor-rnu34probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnu34probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnu34probe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was RN\-U34\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-rnu34probe

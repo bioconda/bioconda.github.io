@@ -9,20 +9,20 @@ bioconductor-allmll
 .. conda:recipe:: bioconductor-allmll
    :replaces_section_title:
 
-   This package provides probe\-level data for 20 HGU133A and 20 HGU133B arrays which are a subset of arrays from a large ALL study. The data is for the MLL arrays. This data was published in Mary E. Ross\, Xiaodong Zhou\, Guangchun Song\, Sheila A. Shurtleff\, Kevin Girtman\, W. Kent Williams\, Hsi\-Che Liu\, Rami Mahfouz\, Susana C. Raimondi\, Noel Lenny\, Anami Patel\, and James R. Downing \(2003\) Classification of pediatric acute lymphoblastic leukemia by gene expression profiling Blood 102\: 2951\-2959
+   A subset of arrays from a large acute lymphoblastic leukemia \(ALL\) study
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ALLMLL.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ALLMLL.html
    :license: GPL-2
    :recipe: /`bioconductor-allmll <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-allmll>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-allmll/meta.yaml>`_
 
-   
+   This package provides probe\-level data for 20 HGU133A and 20 HGU133B arrays which are a subset of arrays from a large ALL study. The data is for the MLL arrays. This data was published in Mary E. Ross\, Xiaodong Zhou\, Guangchun Song\, Sheila A. Shurtleff\, Kevin Girtman\, W. Kent Williams\, Hsi\-Che Liu\, Rami Mahfouz\, Susana C. Raimondi\, Noel Lenny\, Anami Patel\, and James R. Downing \(2003\) Classification of pediatric acute lymphoblastic leukemia by gene expression profiling Blood 102\: 2951\-2959
 
 
 .. conda:package:: bioconductor-allmll
 
    |downloads_bioconductor-allmll| |docker_bioconductor-allmll|
 
-   :versions: 1.25.0-0, 1.24.0-1, 1.22.0-0
+   :versions: 1.26.0-0, 1.24.0-1, 1.22.0-0
    
    :depends bioconductor-affy: >=1.64.0,<1.65.0
    :depends curl: >=7.65.3,<8.0a0

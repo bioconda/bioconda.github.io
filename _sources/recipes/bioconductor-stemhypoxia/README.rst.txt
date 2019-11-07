@@ -9,20 +9,20 @@ bioconductor-stemhypoxia
 .. conda:recipe:: bioconductor-stemhypoxia
    :replaces_section_title:
 
-   Expression profiling using microarray technology to prove if \'Hypoxia Promotes Efficient Differentiation of Human Embryonic Stem Cells to Functional Endothelium\' by Prado\-Lopez et al. \(2010\) Stem Cells 28\:407\-418. Full data available at Gene Expression Omnibus series GSE37761.
+   Differentiation of Human Embryonic Stem Cells under Hypoxia gene expression dataset by Prado\-Lopez et al. \(2010\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/stemHypoxia.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/stemHypoxia.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-stemhypoxia <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stemhypoxia>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stemhypoxia/meta.yaml>`_
 
-   
+   Expression profiling using microarray technology to prove if \'Hypoxia Promotes Efficient Differentiation of Human Embryonic Stem Cells to Functional Endothelium\' by Prado\-Lopez et al. \(2010\) Stem Cells 28\:407\-418. Full data available at Gene Expression Omnibus series GSE37761.
 
 
 .. conda:package:: bioconductor-stemhypoxia
 
    |downloads_bioconductor-stemhypoxia| |docker_bioconductor-stemhypoxia|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.20.0-0, 1.19.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions: 1.20.0-1, 1.20.0-0, 1.19.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

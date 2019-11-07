@@ -9,20 +9,20 @@ bioconductor-yeastnagalakshmi
 .. conda:recipe:: bioconductor-yeastnagalakshmi
    :replaces_section_title:
 
-   The yeast genome data was retrieved from the sequence read archive\, aligned with bwa\, and converted to BAM format with samtools.
+   Yeast genome RNA sequencing data based on Nagalakshmi et. al.
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/yeastNagalakshmi.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/yeastNagalakshmi.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-yeastnagalakshmi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastnagalakshmi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastnagalakshmi/meta.yaml>`_
 
-   
+   The yeast genome data was retrieved from the sequence read archive\, aligned with bwa\, and converted to BAM format with samtools.
 
 
 .. conda:package:: bioconductor-yeastnagalakshmi
 
    |downloads_bioconductor-yeastnagalakshmi| |docker_bioconductor-yeastnagalakshmi|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

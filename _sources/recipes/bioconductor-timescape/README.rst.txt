@@ -9,13 +9,13 @@ bioconductor-timescape
 .. conda:recipe:: bioconductor-timescape
    :replaces_section_title:
 
-   TimeScape is an automated tool for navigating temporal clonal evolution data. The key attributes of this implementation involve the enumeration of clones\, their evolutionary relationships and their shifting dynamics over time. TimeScape requires two inputs\: \(i\) the clonal phylogeny and \(ii\) the clonal prevalences. Optionally\, TimeScape accepts a data table of targeted mutations observed in each clone and their allele prevalences over time. The output is the TimeScape plot showing clonal prevalence vertically\, time horizontally\, and the plot height optionally encoding tumour volume during tumour\-shrinking events. At each sampling time point \(denoted by a faint white line\)\, the height of each clone accurately reflects its proportionate prevalence. These prevalences form the anchors for bezier curves that visually represent the dynamic transitions between time points.
+   Patient Clonal Timescapes
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/timescape.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/timescape.html
    :license: GPL-3
    :recipe: /`bioconductor-timescape <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timescape>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timescape/meta.yaml>`_
 
-   
+   TimeScape is an automated tool for navigating temporal clonal evolution data. The key attributes of this implementation involve the enumeration of clones\, their evolutionary relationships and their shifting dynamics over time. TimeScape requires two inputs\: \(i\) the clonal phylogeny and \(ii\) the clonal prevalences. Optionally\, TimeScape accepts a data table of targeted mutations observed in each clone and their allele prevalences over time. The output is the TimeScape plot showing clonal prevalence vertically\, time horizontally\, and the plot height optionally encoding tumour volume during tumour\-shrinking events. At each sampling time point \(denoted by a faint white line\)\, the height of each clone accurately reflects its proportionate prevalence. These prevalences form the anchors for bezier curves that visually represent the dynamic transitions between time points.
 
 
 .. conda:package:: bioconductor-timescape

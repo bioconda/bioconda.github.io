@@ -9,13 +9,13 @@ bioconductor-mgu74cv2cdf
 .. conda:recipe:: bioconductor-mgu74cv2cdf
    :replaces_section_title:
 
-   A package containing an environment representing the MG\_U74Cv2.CDF file.
+   mgu74cv2cdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mgu74cv2cdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mgu74cv2cdf.html
    :license: LGPL
    :recipe: /`bioconductor-mgu74cv2cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgu74cv2cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgu74cv2cdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the MG\_U74Cv2.CDF file.
 
 
 .. conda:package:: bioconductor-mgu74cv2cdf

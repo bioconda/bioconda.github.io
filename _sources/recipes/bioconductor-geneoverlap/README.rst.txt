@@ -9,14 +9,14 @@ bioconductor-geneoverlap
 .. conda:recipe:: bioconductor-geneoverlap
    :replaces_section_title:
 
-   Test two sets of gene lists and visualize the results.
+   Test and visualize gene overlaps
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GeneOverlap.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GeneOverlap.html
    :license: GPL-3
    :recipe: /`bioconductor-geneoverlap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneoverlap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneoverlap/meta.yaml>`_
    :links: biotools: :biotools:`geneoverlap`, doi: :doi:`10.1167/iovs.16-20618`
 
-   
+   Test two sets of gene lists and visualize the results.
 
 
 .. conda:package:: bioconductor-geneoverlap

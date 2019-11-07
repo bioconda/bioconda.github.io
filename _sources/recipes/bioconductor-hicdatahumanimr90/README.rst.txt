@@ -9,20 +9,20 @@ bioconductor-hicdatahumanimr90
 .. conda:recipe:: bioconductor-hicdatahumanimr90
    :replaces_section_title:
 
-   The HiC data from Human Fibroblast IMR90 cell line \(HindIII restriction\) was retrieved from the GEO website\, accession number GSE35156 \(http\:\/\/www.ncbi.nlm.nih.gov\/geo\/query\/acc.cgi\?acc\=GSE35156\). The raw reads were processed as explained in Dixon et al. \(Nature 2012\).
+   Human IMR90 Fibroblast HiC data from Dixon et al. 2012
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/HiCDataHumanIMR90.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/HiCDataHumanIMR90.html
    :license: GPL-3
    :recipe: /`bioconductor-hicdatahumanimr90 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicdatahumanimr90>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicdatahumanimr90/meta.yaml>`_
 
-   
+   The HiC data from Human Fibroblast IMR90 cell line \(HindIII restriction\) was retrieved from the GEO website\, accession number GSE35156 \(http\:\/\/www.ncbi.nlm.nih.gov\/geo\/query\/acc.cgi\?acc\=GSE35156\). The raw reads were processed as explained in Dixon et al. \(Nature 2012\).
 
 
 .. conda:package:: bioconductor-hicdatahumanimr90
 
    |downloads_bioconductor-hicdatahumanimr90| |docker_bioconductor-hicdatahumanimr90|
 
-   :versions: 1.5.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

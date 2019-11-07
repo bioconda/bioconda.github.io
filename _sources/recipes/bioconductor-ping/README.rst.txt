@@ -9,14 +9,14 @@ bioconductor-ping
 .. conda:recipe:: bioconductor-ping
    :replaces_section_title:
 
-   Probabilistic inference of ChIP\-Seq using an empirical Bayes mixture model approach.
+   Probabilistic inference for Nucleosome Positioning with MNase\-based or Sonicated Short\-read Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PING.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PING.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ping <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ping>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ping/meta.yaml>`_
    :links: biotools: :biotools:`ping`
 
-   
+   Probabilistic inference of ChIP\-Seq using an empirical Bayes mixture model approach.
 
 
 .. conda:package:: bioconductor-ping

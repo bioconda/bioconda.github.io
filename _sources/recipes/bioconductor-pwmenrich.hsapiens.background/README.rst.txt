@@ -9,20 +9,20 @@ bioconductor-pwmenrich.hsapiens.background
 .. conda:recipe:: bioconductor-pwmenrich.hsapiens.background
    :replaces_section_title:
 
-   PWMEnrich pre\-compiled background objects for H. sapiens \(human\) and MotifDb H. sapiens motifs.
+   H. sapiens background for PWMEnrich
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/PWMEnrich.Hsapiens.background.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/PWMEnrich.Hsapiens.background.html
    :license: GPL-3
    :recipe: /`bioconductor-pwmenrich.hsapiens.background <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwmenrich.hsapiens.background>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwmenrich.hsapiens.background/meta.yaml>`_
 
-   
+   PWMEnrich pre\-compiled background objects for H. sapiens \(human\) and MotifDb H. sapiens motifs.
 
 
 .. conda:package:: bioconductor-pwmenrich.hsapiens.background
 
    |downloads_bioconductor-pwmenrich.hsapiens.background| |docker_bioconductor-pwmenrich.hsapiens.background|
 
-   :versions: 4.19.0-0, 4.18.0-1, 4.16.0-0
+   :versions: 4.20.0-0, 4.18.0-1, 4.16.0-0
    
    :depends bioconductor-pwmenrich: >=4.22.0,<4.23.0
    :depends curl: >=7.65.3,<8.0a0

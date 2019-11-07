@@ -9,13 +9,13 @@ bioconductor-flowbin
 .. conda:recipe:: bioconductor-flowbin
    :replaces_section_title:
 
-   Software to combine flow cytometry data that has been multiplexed into multiple tubes with common markers between them\, by establishing common bins across tubes in terms of the common markers\, then determining expression within each tube for each bin in terms of the tube\-specific markers.
+   Combining multitube flow cytometry data by binning
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flowBin.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flowBin.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowbin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowbin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowbin/meta.yaml>`_
 
-   
+   Software to combine flow cytometry data that has been multiplexed into multiple tubes with common markers between them\, by establishing common bins across tubes in terms of the common markers\, then determining expression within each tube for each bin in terms of the tube\-specific markers.
 
 
 .. conda:package:: bioconductor-flowbin

@@ -9,13 +9,13 @@ bioconductor-rtn
 .. conda:recipe:: bioconductor-rtn
    :replaces_section_title:
 
-   This package provides classes and methods for transcriptional network inference and analysis. Modulators of transcription factor activity are assessed by conditional mutual information\, and master regulators are mapped to phenotypes using different strategies\, e.g.\, gene set enrichment\, shadow and synergy analyses. Additionally\, master regulators can be linked to genetic markers using eQTL\/VSE analysis\, taking advantage of the haplotype block structure mapped to the human genome in order to explore risk\-associated SNPs identified in GWAS studies.
+   RTN\: Reconstruction of Transcriptional regulatory Networks and analysis of regulons
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RTN.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RTN.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rtn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtn/meta.yaml>`_
 
-   
+   A transcriptional regulatory network \(TRN\) consists of a collection of transcription factors \(TFs\) and the regulated target genes. TFs are regulators that recognize specific DNA sequences and guide the expression of the genome\, either activating or repressing the expression the target genes. The set of genes controlled by the same TF forms a regulon. This package provides classes and methods for the reconstruction of TRNs and analysis of regulons.
 
 
 .. conda:package:: bioconductor-rtn

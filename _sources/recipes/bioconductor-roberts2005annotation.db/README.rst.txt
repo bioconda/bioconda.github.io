@@ -9,13 +9,13 @@ bioconductor-roberts2005annotation.db
 .. conda:recipe:: bioconductor-roberts2005annotation.db
    :replaces_section_title:
 
-   Roberts2005Annotation Annotation Data \(Roberts2005Annotation\) assembled using data from public repositories
+   Roberts2005Annotation Annotation Data \(Roberts2005Annotation\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/Roberts2005Annotation.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/Roberts2005Annotation.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-roberts2005annotation.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-roberts2005annotation.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-roberts2005annotation.db/meta.yaml>`_
 
-   
+   Roberts2005Annotation Annotation Data \(Roberts2005Annotation\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-roberts2005annotation.db

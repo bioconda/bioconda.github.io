@@ -9,14 +9,14 @@ bioconductor-uniquorn
 .. conda:recipe:: bioconductor-uniquorn
    :replaces_section_title:
 
-   This packages enables users to identify cancer cell lines. Cancer cell line misidentification and cross\-contamination reprents a significant challenge for cancer researchers. The identification is vital and in the frame of this package based on the locations\/ loci of somatic and germline mutations\/ variations. The input format is vcf\/ vcf.gz and the files have to contain a single cancer cell line sample \(i.e. a single member\/genotype\/gt column in the vcf file\). The implemented method is optimized for the Next\-generation whole exome and whole genome DNA\-sequencing technology. RNA\-seq data is very likely to work as well but hasn\'t been rigiously tested yet. Panel\-seq will require manual adjustment of thresholds
+   Identification of cancer cell lines based on their weighted mutational\/ variational fingerprint
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Uniquorn.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Uniquorn.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-uniquorn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-uniquorn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-uniquorn/meta.yaml>`_
    :links: biotools: :biotools:`uniquorn`, doi: :doi:`10.18632/oncotarget.16110`
 
-   
+   This packages enables users to identify cancer cell lines. Cancer cell line misidentification and cross\-contamination reprents a significant challenge for cancer researchers. The identification is vital and in the frame of this package based on the locations\/ loci of somatic and germline mutations\/ variations. The input format is vcf\/ vcf.gz and the files have to contain a single cancer cell line sample \(i.e. a single member\/genotype\/gt column in the vcf file\). The implemented method is optimized for the Next\-generation whole exome and whole genome DNA\-sequencing technology. RNA\-seq data is very likely to work as well but hasn\'t been rigiously tested yet. Panel\-seq will require manual adjustment of thresholds
 
 
 .. conda:package:: bioconductor-uniquorn

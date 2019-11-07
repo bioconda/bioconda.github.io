@@ -9,20 +9,20 @@ bioconductor-varianttoolsdata
 .. conda:recipe:: bioconductor-varianttoolsdata
    :replaces_section_title:
 
-   Data from the sequencing of a 50\/50 mixture of HapMap trio samples NA12878 \(CEU\) and NA19240 \(YRI\)\, subset to the TP53 region.
+   Data for the VariantTools tutorial
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/VariantToolsData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/VariantToolsData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-varianttoolsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-varianttoolsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-varianttoolsdata/meta.yaml>`_
 
-   
+   Data from the sequencing of a 50\/50 mixture of HapMap trio samples NA12878 \(CEU\) and NA19240 \(YRI\)\, subset to the TP53 region.
 
 
 .. conda:package:: bioconductor-varianttoolsdata
 
    |downloads_bioconductor-varianttoolsdata| |docker_bioconductor-varianttoolsdata|
 
-   :versions: 1.9.0-0, 1.8.0-1, 1.6.0-0
+   :versions: 1.10.0-0, 1.8.0-1, 1.6.0-0
    
    :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
    :depends bioconductor-genomicranges: >=1.38.0,<1.39.0

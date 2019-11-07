@@ -9,14 +9,14 @@ bioconductor-aroma.light
 .. conda:recipe:: bioconductor-aroma.light
    :replaces_section_title:
 
-   Methods for microarray analysis that take basic data types such as matrices and lists of vectors.  These methods can be used standalone\, be utilized in other packages\, or be wrapped up in higher\-level classes.
+   Light\-Weight Methods for Normalization and Visualization of Microarray Data using Only Basic R Data Types
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/aroma.light.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/aroma.light.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-aroma.light <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aroma.light>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aroma.light/meta.yaml>`_
    :links: biotools: :biotools:`aroma.light`
 
-   
+   Methods for microarray analysis that take basic data types such as matrices and lists of vectors.  These methods can be used standalone\, be utilized in other packages\, or be wrapped up in higher\-level classes.
 
 
 .. conda:package:: bioconductor-aroma.light

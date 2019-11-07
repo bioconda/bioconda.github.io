@@ -9,14 +9,14 @@ bioconductor-msnbase
 .. conda:recipe:: bioconductor-msnbase
    :replaces_section_title:
 
-   MSnbase provides infrastructure for manipulation\, processing and visualisation of mass spectrometry and proteomics data\, ranging from raw to quantitative and annotated data.
+   Base Functions and Classes for Mass Spectrometry and Proteomics
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MSnbase.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MSnbase.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msnbase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msnbase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msnbase/meta.yaml>`_
    :links: biotools: :biotools:`msnbase`
 
-   
+   MSnbase provides infrastructure for manipulation\, processing and visualisation of mass spectrometry and proteomics data\, ranging from raw to quantitative and annotated data.
 
 
 .. conda:package:: bioconductor-msnbase

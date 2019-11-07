@@ -9,20 +9,20 @@ bioconductor-mulder2012
 .. conda:recipe:: bioconductor-mulder2012
    :replaces_section_title:
 
-   This package provides functions to reproduce results and figures in Mulder K. et. al. published in Nature Cell Biology 2012 and Wang X. et. al. published in PLoS Computational Biology 2012.
+   Predicting functional networks and modules of chromatin factors controlling adult stem cell fate from RNA interference screens
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/Mulder2012.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/Mulder2012.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mulder2012 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mulder2012>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mulder2012/meta.yaml>`_
 
-   
+   This package provides functions to reproduce results and figures in Mulder K. et. al. published in Nature Cell Biology 2012 and Wang X. et. al. published in PLoS Computational Biology 2012.
 
 
 .. conda:package:: bioconductor-mulder2012
 
    |downloads_bioconductor-mulder2012| |docker_bioconductor-mulder2012|
 
-   :versions: 0.25.0-0, 0.24.0-1, 0.22.0-0
+   :versions: 0.26.0-0, 0.24.0-1, 0.22.0-0
    
    :depends bioconductor-htsanalyzer: >=2.38.0,<2.39.0
    :depends bioconductor-kegg.db: >=3.2.0,<3.3.0

@@ -9,20 +9,20 @@ bioconductor-meebodata
 .. conda:recipe:: bioconductor-meebodata
    :replaces_section_title:
 
-   R objects describing the MEEBO set.
+   MEEBO set and MEEBO controls.
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/MEEBOdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/MEEBOdata.html
    :license: LGPL
    :recipe: /`bioconductor-meebodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meebodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meebodata/meta.yaml>`_
 
-   
+   R objects describing the MEEBO set.
 
 
 .. conda:package:: bioconductor-meebodata
 
    |downloads_bioconductor-meebodata| |docker_bioconductor-meebodata|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

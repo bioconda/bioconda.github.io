@@ -9,13 +9,13 @@ bioconductor-metid
 .. conda:recipe:: bioconductor-metid
    :replaces_section_title:
 
-   This package uses an innovative network\-based approach that will enhance our ability to determine the identities of significant ions detected by LC\-MS.
+   Network\-based prioritization of putative metabolite IDs
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MetID.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MetID.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-metid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metid/meta.yaml>`_
 
-   
+   This package uses an innovative network\-based approach that will enhance our ability to determine the identities of significant ions detected by LC\-MS.
 
 
 .. conda:package:: bioconductor-metid

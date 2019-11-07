@@ -9,13 +9,13 @@ bioconductor-treeio
 .. conda:recipe:: bioconductor-treeio
    :replaces_section_title:
 
-   Base classes and functions for parsing and exporting phylogenetic trees. \'treeio\' supports parsing analysis findings from commonly used software packages\, allows linking external data to phylogeny and merging tree data obtained from different sources. It also supports exporting phylogenetic tree with heterogeneous associated data to a single tree file.
+   Base Classes and Functions for Phylogenetic Tree Input and Output
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/treeio.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/treeio.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-treeio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-treeio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-treeio/meta.yaml>`_
 
-   
+   \'treeio\' is an R package to make it easier to import and store phylogenetic tree with associated data\; and to link external data from different sources to phylogeny. It also supports exporting phylogenetic tree with heterogeneous associated data to a single tree file and can be served as a platform for merging tree with associated data and converting file formats.
 
 
 .. conda:package:: bioconductor-treeio

@@ -9,20 +9,20 @@ bioconductor-seqc
 .. conda:recipe:: bioconductor-seqc
    :replaces_section_title:
 
-   The SEQC\/MAQC\-III Consortium has produced benchmark RNA\-seq data for the assessment of RNA sequencing technologies and data analysis methods \(Nat Biotechnol\, 2014\). Billions of sequence reads have been generated from ten different sequencing sites. This package contains the summarized read count data for \~2000 sequencing libraries. It also includes all the exon\-exon junctions discovered from the study. TaqMan RT\-PCR data for \~1000 genes and ERCC spike\-in sequence data are included in this package as well.
+   RNA\-seq data generated from SEQC \(MAQC\-III\) study
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/seqc.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/seqc.html
    :license: GPL-3
    :recipe: /`bioconductor-seqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqc/meta.yaml>`_
 
-   
+   The SEQC\/MAQC\-III Consortium has produced benchmark RNA\-seq data for the assessment of RNA sequencing technologies and data analysis methods \(Nat Biotechnol\, 2014\). Billions of sequence reads have been generated from ten different sequencing sites. This package contains the summarized read count data for \~2000 sequencing libraries. It also includes all the exon\-exon junctions discovered from the study. TaqMan RT\-PCR data for \~1000 genes and ERCC spike\-in sequence data are included in this package as well.
 
 
 .. conda:package:: bioconductor-seqc
 
    |downloads_bioconductor-seqc| |docker_bioconductor-seqc|
 
-   :versions: 1.19.0-0, 1.18.0-1, 1.16.0-0
+   :versions: 1.20.0-0, 1.18.0-1, 1.16.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends curl: >=7.65.3,<8.0a0

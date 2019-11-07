@@ -9,20 +9,20 @@ bioconductor-sesamedata
 .. conda:recipe:: bioconductor-sesamedata
    :replaces_section_title:
 
-   Provides supporting annotation and test data for SeSAMe package.
+   Supporting Data for SeSAMe Package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/sesameData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/sesameData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sesamedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sesamedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sesamedata/meta.yaml>`_
 
-   
+   Provides supporting annotation and test data for SeSAMe package.
 
 
 .. conda:package:: bioconductor-sesamedata
 
    |downloads_bioconductor-sesamedata| |docker_bioconductor-sesamedata|
 
-   :versions: 1.3.1-0, 1.2.0-1, 1.0.0-1, 1.0.0-0
+   :versions: 1.4.0-0, 1.2.0-1, 1.0.0-1, 1.0.0-0
    
    :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
    :depends bioconductor-experimenthub: >=1.12.0,<1.13.0

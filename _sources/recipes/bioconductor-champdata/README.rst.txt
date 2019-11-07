@@ -9,20 +9,20 @@ bioconductor-champdata
 .. conda:recipe:: bioconductor-champdata
    :replaces_section_title:
 
-   Provides datasets needed for ChAMP including a test dataset and blood controls for CNA analysis.
+   Data Packages for ChAMP package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ChAMPdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ChAMPdata.html
    :license: GPL-3
    :recipe: /`bioconductor-champdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-champdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-champdata/meta.yaml>`_
 
-   
+   Provides datasets needed for ChAMP including a test dataset and blood controls for CNA analysis.
 
 
 .. conda:package:: bioconductor-champdata
 
    |downloads_bioconductor-champdata| |docker_bioconductor-champdata|
 
-   :versions: 2.17.0-0, 2.16.0-1, 2.14.1-0, 2.14.0-0
+   :versions: 2.18.0-0, 2.16.0-1, 2.14.1-0, 2.14.0-0
    
    :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
    :depends bioconductor-genomicranges: >=1.38.0,<1.39.0

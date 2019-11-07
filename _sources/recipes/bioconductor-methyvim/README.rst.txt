@@ -9,30 +9,30 @@ bioconductor-methyvim
 .. conda:recipe:: bioconductor-methyvim
    :replaces_section_title:
 
-   This package provides facilities for differential methylation analysis based on variable importance measures \(VIMs\)\, a class of statistical target parameters that arise in causal inference. The estimation and inference procedures provided are nonparametric\, relying on ensemble machine learning to flexibly assess functional relationships among covariates and the outcome of interest. These tools can be applied to differential methylation at the level of CpG sites\, to obtain valid statistical inference even after corrections for multiple hypothesis testing.
+   Targeted\, Robust\, and Model\-free Differential Methylation Analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/methyvim.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/methyvim.html
    :license: file LICENSE
    :recipe: /`bioconductor-methyvim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methyvim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methyvim/meta.yaml>`_
 
-   
+   This package provides facilities for differential methylation analysis based on variable importance measures \(VIMs\)\, a class of statistical target parameters that arise in causal inference. The estimation and inference procedures provided are nonparametric\, relying on ensemble machine learning to flexibly assess functional relationships among covariates and the outcome of interest. These tools can be applied to differential methylation at the level of CpG sites\, to obtain valid statistical inference even after corrections for multiple hypothesis testing.
 
 
 .. conda:package:: bioconductor-methyvim
 
    |downloads_bioconductor-methyvim| |docker_bioconductor-methyvim|
 
-   :versions: 1.6.0-1, 1.4.0-0
+   :versions: 1.8.0-0, 1.6.0-1, 1.4.0-0
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-bumphunter: >=1.26.0,<1.27.0
-   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-minfi: >=1.30.0,<1.31.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-bumphunter: >=1.28.0,<1.29.0
+   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-minfi: >=1.32.0,<1.33.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-cluster: 
    :depends r-dofuture: 
@@ -43,7 +43,7 @@ bioconductor-methyvim
    :depends r-gridextra: 
    :depends r-gtools: 
    :depends r-superheat: 
-   :depends r-tmle: 
+   :depends r-tmle: >=1.4.0.1
    :requirements:
 
    .. rubric:: Installation

@@ -9,13 +9,13 @@ bioconductor-human1mduov3bcrlmm
 .. conda:recipe:: bioconductor-human1mduov3bcrlmm
    :replaces_section_title:
 
-   Package with metadata for genotyping Illumina 1M Duo arrays using the \'crlmm\' package.
+   Metadata for fast genotyping with the \'crlmm\' package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/human1mduov3bCrlmm.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/human1mduov3bCrlmm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-human1mduov3bcrlmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-human1mduov3bcrlmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-human1mduov3bcrlmm/meta.yaml>`_
 
-   
+   Package with metadata for genotyping Illumina 1M Duo arrays using the \'crlmm\' package.
 
 
 .. conda:package:: bioconductor-human1mduov3bcrlmm

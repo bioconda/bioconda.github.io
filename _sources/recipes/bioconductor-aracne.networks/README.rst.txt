@@ -9,20 +9,20 @@ bioconductor-aracne.networks
 .. conda:recipe:: bioconductor-aracne.networks
    :replaces_section_title:
 
-   This package contains ARACNe\-inferred networks from TCGA tumor datasets. It also contains a function to export them into plain\-text format.
+   ARACNe\-inferred gene networks from TCGA tumor datasets
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/aracne.networks.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/aracne.networks.html
    :license: file LICENSE
    :recipe: /`bioconductor-aracne.networks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aracne.networks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aracne.networks/meta.yaml>`_
 
-   
+   This package contains ARACNe\-inferred networks from TCGA tumor datasets. It also contains a function to export them into plain\-text format.
 
 
 .. conda:package:: bioconductor-aracne.networks
 
    |downloads_bioconductor-aracne.networks| |docker_bioconductor-aracne.networks|
 
-   :versions: 1.11.0-0, 1.10.0-1, 1.8.0-0
+   :versions: 1.12.0-0, 1.10.0-1, 1.8.0-0
    
    :depends bioconductor-viper: >=1.20.0,<1.21.0
    :depends curl: >=7.65.3,<8.0a0

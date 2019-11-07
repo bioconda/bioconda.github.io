@@ -9,13 +9,13 @@ bioconductor-gopro
 .. conda:recipe:: bioconductor-gopro
    :replaces_section_title:
 
-   Find the most characteristic gene ontology terms for groups of human genes. This package was created as a part of the thesis which was developed under the auspices of MI\^2 Group \(http\:\/\/mi2.mini.pw.edu.pl\/\, https\:\/\/github.com\/geneticsMiNIng\).
+   Find the most characteristic gene ontology terms for groups of human genes
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GOpro.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GOpro.html
    :license: GPL-3
    :recipe: /`bioconductor-gopro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gopro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gopro/meta.yaml>`_
 
-   
+   Find the most characteristic gene ontology terms for groups of human genes. This package was created as a part of the thesis which was developed under the auspices of MI\^2 Group \(http\:\/\/mi2.mini.pw.edu.pl\/\, https\:\/\/github.com\/geneticsMiNIng\).
 
 
 .. conda:package:: bioconductor-gopro

@@ -9,14 +9,14 @@ bioconductor-sc3
 .. conda:recipe:: bioconductor-sc3
    :replaces_section_title:
 
-   A tool for unsupervised clustering and analysis of single cell RNA\-Seq data.
+   Single\-Cell Consensus Clustering
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SC3.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SC3.html
    :license: GPL-3
    :recipe: /`bioconductor-sc3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sc3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sc3/meta.yaml>`_
    :links: biotools: :biotools:`sc3`
 
-   
+   A tool for unsupervised clustering and analysis of single cell RNA\-Seq data.
 
 
 .. conda:package:: bioconductor-sc3

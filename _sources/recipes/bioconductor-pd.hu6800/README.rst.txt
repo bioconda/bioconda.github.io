@@ -11,11 +11,11 @@ bioconductor-pd.hu6800
 
    Platform Design Info for The Manufacturer\'s Name Hu6800
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.hu6800.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.hu6800.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.hu6800 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.hu6800>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.hu6800/meta.yaml>`_
 
-   
+   Platform Design Info for The Manufacturer\'s Name Hu6800
 
 
 .. conda:package:: bioconductor-pd.hu6800

@@ -9,13 +9,13 @@ bioconductor-lumimouseidmapping
 .. conda:recipe:: bioconductor-lumimouseidmapping
    :replaces_section_title:
 
-   This package includes mappings information between different types of Illumina IDs of Illumina Mouse chips and nuIDs. It also includes mappings of all nuIDs included in Illumina Mouse chips to RefSeq IDs with mapping qualities information.
+   Illumina Identifier mapping for Mouse
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/lumiMouseIDMapping.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/lumiMouseIDMapping.html
    :license: The Artistic License, Version 2.0
    :recipe: /`bioconductor-lumimouseidmapping <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumimouseidmapping>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumimouseidmapping/meta.yaml>`_
 
-   
+   This package includes mappings information between different types of Illumina IDs of Illumina Mouse chips and nuIDs. It also includes mappings of all nuIDs included in Illumina Mouse chips to RefSeq IDs with mapping qualities information.
 
 
 .. conda:package:: bioconductor-lumimouseidmapping

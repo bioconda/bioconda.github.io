@@ -9,14 +9,14 @@ bioconductor-proteomicsannotationhubdata
 .. conda:recipe:: bioconductor-proteomicsannotationhubdata
    :replaces_section_title:
 
-   These recipes convert a variety and a growing number of public proteomics data sets into easily\-used standard Bioconductor data structures.
+   Transform public proteomics data resources into Bioconductor Data Structures
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ProteomicsAnnotationHubData.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ProteomicsAnnotationHubData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-proteomicsannotationhubdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteomicsannotationhubdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteomicsannotationhubdata/meta.yaml>`_
    :links: biotools: :biotools:`proteomicsannotationhubdata`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   These recipes convert a variety and a growing number of public proteomics data sets into easily\-used standard Bioconductor data structures.
 
 
 .. conda:package:: bioconductor-proteomicsannotationhubdata

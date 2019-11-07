@@ -9,14 +9,14 @@ bioconductor-geneplotter
 .. conda:recipe:: bioconductor-geneplotter
    :replaces_section_title:
 
-   Functions for plotting genomic data
+   Graphics related functions for Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/geneplotter.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/geneplotter.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-geneplotter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneplotter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneplotter/meta.yaml>`_
    :links: biotools: :biotools:`geneplotter`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Functions for plotting genomic data
 
 
 .. conda:package:: bioconductor-geneplotter

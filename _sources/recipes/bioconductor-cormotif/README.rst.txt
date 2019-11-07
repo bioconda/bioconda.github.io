@@ -9,14 +9,14 @@ bioconductor-cormotif
 .. conda:recipe:: bioconductor-cormotif
    :replaces_section_title:
 
-   It fits correlation motif model to multiple studies to detect study specific differential expression patterns.
+   Correlation Motif Fit
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Cormotif.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Cormotif.html
    :license: GPL-2
    :recipe: /`bioconductor-cormotif <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cormotif>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cormotif/meta.yaml>`_
    :links: biotools: :biotools:`cormotif`
 
-   
+   It fits correlation motif model to multiple studies to detect study specific differential expression patterns.
 
 
 .. conda:package:: bioconductor-cormotif

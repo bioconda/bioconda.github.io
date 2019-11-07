@@ -9,14 +9,14 @@ bioconductor-consensusseeker
 .. conda:recipe:: bioconductor-consensusseeker
    :replaces_section_title:
 
-   This package compares genomic positions and genomic ranges from multiple experiments to extract common regions. The size of the analyzed region is adjustable as well as the number of experiences in which a feature must be present in a potential region to tag this region as a consensus region.
+   Detection of consensus regions inside a group of experiences using genomic positions and genomic ranges
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/consensusSeekeR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/consensusSeekeR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-consensusseeker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensusseeker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensusseeker/meta.yaml>`_
    :links: biotools: :biotools:`consensusseeker`, doi: :doi:`10.1515/sagmb-2014-0098`
 
-   
+   This package compares genomic positions and genomic ranges from multiple experiments to extract common regions. The size of the analyzed region is adjustable as well as the number of experiences in which a feature must be present in a potential region to tag this region as a consensus region.
 
 
 .. conda:package:: bioconductor-consensusseeker

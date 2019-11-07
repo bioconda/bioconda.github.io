@@ -9,14 +9,14 @@ bioconductor-starr
 .. conda:recipe:: bioconductor-starr
    :replaces_section_title:
 
-   Starr facilitates the analysis of ChIP\-chip data\, in particular that of Affymetrix tiling arrays. The package provides functions for data import\, quality assessment\, data visualization and exploration. Furthermore\, it includes high\-level analysis features like association of ChIP signals with annotated features\, correlation analysis of ChIP signals and other genomic data \(e.g. gene expression\)\, peak\-finding with the CMARRT algorithm and comparative display of multiple clusters of ChIP\-profiles. It uses the basic Bioconductor classes ExpressionSet and probeAnno for maximum compatibility with other software on Bioconductor. All functions from Starr can be used to investigate preprocessed data from the Ringo package\, and vice versa. An important novel tool is the the automated generation of correct\, up\-to\-date microarray probe annotation \(bpmap\) files\, which relies on an efficient mapping of short sequences \(e.g. the probe sequences on a microarray\) to an arbitrary genome.
+   Simple tiling array analysis of Affymetrix ChIP\-chip data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Starr.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Starr.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-starr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-starr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-starr/meta.yaml>`_
    :links: biotools: :biotools:`starr`, doi: :doi:`10.1186/1471-2105-11-194`
 
-   
+   Starr facilitates the analysis of ChIP\-chip data\, in particular that of Affymetrix tiling arrays. The package provides functions for data import\, quality assessment\, data visualization and exploration. Furthermore\, it includes high\-level analysis features like association of ChIP signals with annotated features\, correlation analysis of ChIP signals and other genomic data \(e.g. gene expression\)\, peak\-finding with the CMARRT algorithm and comparative display of multiple clusters of ChIP\-profiles. It uses the basic Bioconductor classes ExpressionSet and probeAnno for maximum compatibility with other software on Bioconductor. All functions from Starr can be used to investigate preprocessed data from the Ringo package\, and vice versa. An important novel tool is the the automated generation of correct\, up\-to\-date microarray probe annotation \(bpmap\) files\, which relies on an efficient mapping of short sequences \(e.g. the probe sequences on a microarray\) to an arbitrary genome.
 
 
 .. conda:package:: bioconductor-starr

@@ -9,13 +9,13 @@ bioconductor-go.db
 .. conda:recipe:: bioconductor-go.db
    :replaces_section_title:
 
-   A set of annotation maps describing the entire Gene Ontology assembled using data from GO
+   A set of annotation maps describing the entire Gene Ontology
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/GO.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/GO.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-go.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-go.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-go.db/meta.yaml>`_
 
-   
+   A set of annotation maps describing the entire Gene Ontology assembled using data from GO
 
 
 .. conda:package:: bioconductor-go.db

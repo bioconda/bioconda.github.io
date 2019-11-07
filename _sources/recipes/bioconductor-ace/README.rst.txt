@@ -9,13 +9,13 @@ bioconductor-ace
 .. conda:recipe:: bioconductor-ace
    :replaces_section_title:
 
-   Uses segmented copy number data to estimate tumor cell percentage and produce copy number plots displaying absolute copy numbers.
+   Absolute Copy Number Estimation from Low\-coverage Whole Genome Sequencing
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ACE.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ACE.html
    :license: GPL-2
    :recipe: /`bioconductor-ace <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ace>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ace/meta.yaml>`_
 
-   
+   Uses segmented copy number data to estimate tumor cell percentage and produce copy number plots displaying absolute copy numbers.
 
 
 .. conda:package:: bioconductor-ace

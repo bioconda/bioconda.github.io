@@ -9,13 +9,13 @@ bioconductor-indeed
 .. conda:recipe:: bioconductor-indeed
    :replaces_section_title:
 
-   An Implementation of Integrated Differential Expression and Differential Network Analysis of Omic Data. The differential network is obtained based on partial correlation or correlation.
+   Interactive Visualization of Integrated Differential Expression and Differential Network Analysis for Biomarker Candidate Selection Package
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/INDEED.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/INDEED.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-indeed <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-indeed>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-indeed/meta.yaml>`_
 
-   
+   An R package for integrated differential expression and differential network analysis based on omic data for cancer biomarker discovery. Both correlation and partial correlation can be used to generate differential network to aid the traditional differential expression analysis to identify changes between biomolecules on both their expression and pairwise association levels. A detailed description of the methodology has been published in Methods journal \(PMID\: 27592383\). An interactive visualization feature allows for the exploration and selection of candidate biomarkers.
 
 
 .. conda:package:: bioconductor-indeed

@@ -9,20 +9,20 @@ bioconductor-rnbeads.rn5
 .. conda:recipe:: bioconductor-rnbeads.rn5
    :replaces_section_title:
 
-   Automatically generated RnBeads annotation package for the assembly rn5.
+   RnBeads.rn5
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RnBeads.rn5.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RnBeads.rn5.html
    :license: GPL-3
    :recipe: /`bioconductor-rnbeads.rn5 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnbeads.rn5>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnbeads.rn5/meta.yaml>`_
 
-   
+   Automatically generated RnBeads annotation package for the assembly rn5.
 
 
 .. conda:package:: bioconductor-rnbeads.rn5
 
    |downloads_bioconductor-rnbeads.rn5| |docker_bioconductor-rnbeads.rn5|
 
-   :versions: 1.17.0-0, 1.16.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions: 1.18.0-0, 1.16.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0
    
    :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
    :depends curl: >=7.65.3,<8.0a0

@@ -11,11 +11,11 @@ bioconductor-pd.mapping50k.hind240
 
    Platform Design Info for Affymetrix Mapping50K\_Hind240
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.mapping50k.hind240.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.mapping50k.hind240.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.mapping50k.hind240 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.mapping50k.hind240>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.mapping50k.hind240/meta.yaml>`_
 
-   
+   Platform Design Info for Affymetrix Mapping50K\_Hind240
 
 
 .. conda:package:: bioconductor-pd.mapping50k.hind240

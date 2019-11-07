@@ -9,14 +9,14 @@ bioconductor-nondetects
 .. conda:recipe:: bioconductor-nondetects
    :replaces_section_title:
 
-   Methods to model and impute non\-detects in the results of qPCR experiments.
+   Non\-detects in qPCR data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/nondetects.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/nondetects.html
    :license: GPL-3
    :recipe: /`bioconductor-nondetects <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nondetects>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nondetects/meta.yaml>`_
    :links: biotools: :biotools:`nondetects`
 
-   
+   Methods to model and impute non\-detects in the results of qPCR experiments.
 
 
 .. conda:package:: bioconductor-nondetects

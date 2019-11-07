@@ -9,31 +9,35 @@ bioconductor-dmrcate
 .. conda:recipe:: bioconductor-dmrcate
    :replaces_section_title:
 
-   De novo identification and extraction of differentially methylated regions \(DMRs\) from the human genome using Whole Genome Bisulphite Sequencing \(WGBS\) and Illumina Infinium Array \(450K and EPIC\) data. Provides functionality for filtering probes possibly confounded by SNPs and cross\-hybridisation. Includes GRanges generation and plotting functions.
+   Methylation array and sequencing spatial analysis methods
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DMRcate.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DMRcate.html
    :license: file LICENSE
    :recipe: /`bioconductor-dmrcate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrcate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrcate/meta.yaml>`_
    :links: biotools: :biotools:`dmrcate`
 
-   
+   De novo identification and extraction of differentially methylated regions \(DMRs\) from the human genome using Whole Genome Bisulfite Sequencing \(WGBS\) and Illumina Infinium Array \(450K and EPIC\) data. Provides functionality for filtering probes possibly confounded by SNPs and cross\-hybridisation. Includes GRanges generation and plotting functions.
 
 
 .. conda:package:: bioconductor-dmrcate
 
    |downloads_bioconductor-dmrcate| |docker_bioconductor-dmrcate|
 
-   :versions: 1.20.0-1, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions: 2.0.0-0, 1.20.0-1, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
-   :depends bioconductor-dmrcatedata: >=1.20.0,<1.21.0
-   :depends bioconductor-dss: >=2.32.0,<2.33.0
-   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
-   :depends bioconductor-gviz: >=1.28.0,<1.29.0
-   :depends bioconductor-iranges: >=2.18.0,<2.19.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-minfi: >=1.30.0,<1.31.0
-   :depends bioconductor-missmethyl: >=1.18.0,<1.19.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-bsseq: >=1.22.0,<1.23.0
+   :depends bioconductor-dss: >=2.34.0,<2.35.0
+   :depends bioconductor-edger: >=3.28.0,<3.29.0
+   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
+   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
+   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
+   :depends bioconductor-gviz: >=1.30.0,<1.31.0
+   :depends bioconductor-iranges: >=2.20.0,<2.21.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-minfi: >=1.32.0,<1.33.0
+   :depends bioconductor-missmethyl: >=1.20.0,<1.21.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-plyr: 
    :requirements:

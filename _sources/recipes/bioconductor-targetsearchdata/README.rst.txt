@@ -9,20 +9,20 @@ bioconductor-targetsearchdata
 .. conda:recipe:: bioconductor-targetsearchdata
    :replaces_section_title:
 
-   This package provides example GC\-MS data for TargetSearch Package.
+   Example GC\-MS data for TargetSearch Package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/TargetSearchData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/TargetSearchData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-targetsearchdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetsearchdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetsearchdata/meta.yaml>`_
 
-   
+   This package provides example GC\-MS data for TargetSearch Package.
 
 
 .. conda:package:: bioconductor-targetsearchdata
 
    |downloads_bioconductor-targetsearchdata| |docker_bioconductor-targetsearchdata|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

@@ -9,14 +9,14 @@ bioconductor-icens
 .. conda:recipe:: bioconductor-icens
    :replaces_section_title:
 
-   Many functions for computing the NPMLE for censored and truncated data.
+   NPMLE for Censored and Truncated Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Icens.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Icens.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-icens <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icens>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icens/meta.yaml>`_
    :links: biotools: :biotools:`icens`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Many functions for computing the NPMLE for censored and truncated data.
 
 
 .. conda:package:: bioconductor-icens

@@ -9,13 +9,13 @@ bioconductor-gwastools
 .. conda:recipe:: bioconductor-gwastools
    :replaces_section_title:
 
-   Classes for storing very large GWAS data sets and annotation\, and functions for GWAS data cleaning and analysis.
+   Tools for Genome Wide Association Studies
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GWASTools.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GWASTools.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gwastools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwastools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwastools/meta.yaml>`_
 
-   
+   Classes for storing very large GWAS data sets and annotation\, and functions for GWAS data cleaning and analysis.
 
 
 .. conda:package:: bioconductor-gwastools

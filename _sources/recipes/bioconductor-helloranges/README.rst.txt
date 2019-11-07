@@ -9,14 +9,14 @@ bioconductor-helloranges
 .. conda:recipe:: bioconductor-helloranges
    :replaces_section_title:
 
-   Translates bedtools command\-line invocations to R code calling functions from the Bioconductor \*Ranges infrastructure. This is intended to educate novice Bioconductor users and to compare the syntax and semantics of the two frameworks.
+   Introduce \*Ranges to bedtools users
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/HelloRanges.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/HelloRanges.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-helloranges <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-helloranges>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-helloranges/meta.yaml>`_
    :links: biotools: :biotools:`helloranges`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Translates bedtools command\-line invocations to R code calling functions from the Bioconductor \*Ranges infrastructure. This is intended to educate novice Bioconductor users and to compare the syntax and semantics of the two frameworks.
 
 
 .. conda:package:: bioconductor-helloranges

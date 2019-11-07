@@ -9,20 +9,20 @@ bioconductor-prostatecancervarambally
 .. conda:recipe:: bioconductor-prostatecancervarambally
    :replaces_section_title:
 
-   A Bioconductor data package for the Varambally dataset
+   Prostate Cancer Data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/prostateCancerVarambally.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/prostateCancerVarambally.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-prostatecancervarambally <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prostatecancervarambally>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prostatecancervarambally/meta.yaml>`_
 
-   
+   A Bioconductor data package for the Varambally dataset
 
 
 .. conda:package:: bioconductor-prostatecancervarambally
 
    |downloads_bioconductor-prostatecancervarambally| |docker_bioconductor-prostatecancervarambally|
 
-   :versions: 1.13.0-0, 1.12.0-1, 1.10.0-1, 1.10.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.10.0-1, 1.10.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends curl: >=7.65.3,<8.0a0

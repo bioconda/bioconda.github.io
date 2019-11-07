@@ -9,13 +9,13 @@ bioconductor-jaspar2018
 .. conda:recipe:: bioconductor-jaspar2018
    :replaces_section_title:
 
-   Data package for JASPAR 2018. To search this databases\, please use the package TFBSTools \(\>\= 1.15.6\).
+   Data package for JASPAR 2018
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/JASPAR2018.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/JASPAR2018.html
    :license: GPL-2
    :recipe: /`bioconductor-jaspar2018 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jaspar2018>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jaspar2018/meta.yaml>`_
 
-   
+   Data package for JASPAR 2018. To search this databases\, please use the package TFBSTools \(\>\= 1.15.6\).
 
 
 .. conda:package:: bioconductor-jaspar2018

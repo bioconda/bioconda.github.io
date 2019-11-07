@@ -9,13 +9,13 @@ bioconductor-ragene11sttranscriptcluster.db
 .. conda:recipe:: bioconductor-ragene11sttranscriptcluster.db
    :replaces_section_title:
 
-   Affymetrix ragene11 annotation data \(chip ragene11sttranscriptcluster\) assembled using data from public repositories
+   Affymetrix ragene11 annotation data \(chip ragene11sttranscriptcluster\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/ragene11sttranscriptcluster.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/ragene11sttranscriptcluster.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ragene11sttranscriptcluster.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ragene11sttranscriptcluster.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ragene11sttranscriptcluster.db/meta.yaml>`_
 
-   
+   Affymetrix ragene11 annotation data \(chip ragene11sttranscriptcluster\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-ragene11sttranscriptcluster.db

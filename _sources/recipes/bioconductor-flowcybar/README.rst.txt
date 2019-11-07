@@ -9,13 +9,13 @@ bioconductor-flowcybar
 .. conda:recipe:: bioconductor-flowcybar
    :replaces_section_title:
 
-   A package to analyze flow cytometric data using gate information to follow population\/community dynamics
+   Analyze flow cytometric data using gate information
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flowCyBar.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flowCyBar.html
    :license: GPL-2
    :recipe: /`bioconductor-flowcybar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowcybar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowcybar/meta.yaml>`_
 
-   
+   A package to analyze flow cytometric data using gate information to follow population\/community dynamics
 
 
 .. conda:package:: bioconductor-flowcybar

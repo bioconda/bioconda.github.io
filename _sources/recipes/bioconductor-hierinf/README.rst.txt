@@ -9,13 +9,13 @@ bioconductor-hierinf
 .. conda:recipe:: bioconductor-hierinf
    :replaces_section_title:
 
-   Tools to perform hierarchical inference for one or multiple studies \/ data sets based on high\-dimensional multivariate \(generalised\) linear models. A possible application is to perform hierarchical inference for GWA studies to find significant groups or single SNPs \(if the signal is strong\) in a data\-driven and automated procedure. The method is based on an efficient hierarchical multiple testing correction and controls the FWER. The functions can easily be run in parallel.
+   Hierarchical Inference
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/hierinf.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/hierinf.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-hierinf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hierinf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hierinf/meta.yaml>`_
 
-   
+   Tools to perform hierarchical inference for one or multiple studies \/ data sets based on high\-dimensional multivariate \(generalised\) linear models. A possible application is to perform hierarchical inference for GWA studies to find significant groups or single SNPs \(if the signal is strong\) in a data\-driven and automated procedure. The method is based on an efficient hierarchical multiple testing correction and controls the FWER. The functions can easily be run in parallel.
 
 
 .. conda:package:: bioconductor-hierinf

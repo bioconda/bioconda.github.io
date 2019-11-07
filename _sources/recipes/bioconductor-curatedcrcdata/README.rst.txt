@@ -9,20 +9,20 @@ bioconductor-curatedcrcdata
 .. conda:recipe:: bioconductor-curatedcrcdata
    :replaces_section_title:
 
-   The curatedCRC package provides relevant functions and data for gene expression analysis in patients with colorectal cancer.
+   Colorectal Cancer Gene Expression Analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/curatedCRCData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/curatedCRCData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-curatedcrcdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedcrcdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedcrcdata/meta.yaml>`_
 
-   
+   The curatedCRC package provides relevant functions and data for gene expression analysis in patients with colorectal cancer.
 
 
 .. conda:package:: bioconductor-curatedcrcdata
 
    |downloads_bioconductor-curatedcrcdata| |docker_bioconductor-curatedcrcdata|
 
-   :versions: 2.17.0-0, 2.16.0-1, 2.14.0-0
+   :versions: 2.18.0-0, 2.16.0-1, 2.14.0-0
    
    :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
    :depends curl: >=7.65.3,<8.0a0

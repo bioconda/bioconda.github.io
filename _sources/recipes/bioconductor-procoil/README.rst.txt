@@ -9,14 +9,14 @@ bioconductor-procoil
 .. conda:recipe:: bioconductor-procoil
    :replaces_section_title:
 
-   The package allows for predicting whether a coiled coil sequence \(amino acid sequence plus heptad register\) is more likely to form a dimer or more likely to form a trimer. Additionally to the prediction itself\, a prediction profile is computed which allows for determining the strengths to which the individual residues are indicative for either class. Prediction profiles can also be visualized as curves or heatmaps.
+   Prediction of Oligomerization of Coiled Coil Proteins
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/procoil.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/procoil.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-procoil <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-procoil>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-procoil/meta.yaml>`_
    :links: biotools: :biotools:`procoil`
 
-   
+   The package allows for predicting whether a coiled coil sequence \(amino acid sequence plus heptad register\) is more likely to form a dimer or more likely to form a trimer. Additionally to the prediction itself\, a prediction profile is computed which allows for determining the strengths to which the individual residues are indicative for either class. Prediction profiles can also be visualized as curves or heatmaps.
 
 
 .. conda:package:: bioconductor-procoil

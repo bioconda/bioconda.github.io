@@ -9,13 +9,13 @@ bioconductor-citruscdf
 .. conda:recipe:: bioconductor-citruscdf
    :replaces_section_title:
 
-   A package containing an environment representing the Citrus.cdf file.
+   citruscdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/citruscdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/citruscdf.html
    :license: LGPL
    :recipe: /`bioconductor-citruscdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-citruscdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-citruscdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the Citrus.cdf file.
 
 
 .. conda:package:: bioconductor-citruscdf

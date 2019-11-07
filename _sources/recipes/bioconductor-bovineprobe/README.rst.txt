@@ -9,13 +9,13 @@ bioconductor-bovineprobe
 .. conda:recipe:: bioconductor-bovineprobe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Bovine\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type bovine
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/bovineprobe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/bovineprobe.html
    :license: LGPL
    :recipe: /`bioconductor-bovineprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bovineprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bovineprobe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Bovine\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-bovineprobe

@@ -9,20 +9,20 @@ bioconductor-faahko
 .. conda:recipe:: bioconductor-faahko
    :replaces_section_title:
 
-   Positive ionization mode data in NetCDF file format. Centroided subset from 200\-600 m\/z and 2500\-4500 seconds. Data originally reported in \"Assignment of Endogenous Substrates to Enzymes by Global Metabolite Profiling\" Biochemistry\; 2004\; 43\(45\). Also includes detected peaks in an xcmsSet.
+   Saghatelian et al. \(2004\) FAAH knockout LC\/MS data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/faahKO.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/faahKO.html
    :license: LGPL
    :recipe: /`bioconductor-faahko <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-faahko>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-faahko/meta.yaml>`_
 
-   
+   Positive ionization mode data in NetCDF file format. Centroided subset from 200\-600 m\/z and 2500\-4500 seconds. Data originally reported in \"Assignment of Endogenous Substrates to Enzymes by Global Metabolite Profiling\" Biochemistry\; 2004\; 43\(45\). Also includes detected peaks in an xcmsSet.
 
 
 .. conda:package:: bioconductor-faahko
 
    |downloads_bioconductor-faahko| |docker_bioconductor-faahko|
 
-   :versions: 1.25.0-0, 1.24.0-1, 1.22.0-0, 1.18.0-0
+   :versions: 1.26.0-0, 1.24.0-1, 1.22.0-0, 1.18.0-0
    
    :depends bioconductor-xcms: >=3.8.0,<3.9.0
    :depends curl: >=7.65.3,<8.0a0

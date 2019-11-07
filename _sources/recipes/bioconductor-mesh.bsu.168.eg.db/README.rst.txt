@@ -9,13 +9,13 @@ bioconductor-mesh.bsu.168.eg.db
 .. conda:recipe:: bioconductor-mesh.bsu.168.eg.db
    :replaces_section_title:
 
-   Entrez Gene ID to MeSH ID table.
+   Mapping table for Bacillus subtilis subsp. spizizenii str. 168 Gene ID to MeSH
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/MeSH.Bsu.168.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/MeSH.Bsu.168.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.bsu.168.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.bsu.168.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.bsu.168.eg.db/meta.yaml>`_
 
-   
+   Entrez Gene ID to MeSH ID table.
 
 
 .. conda:package:: bioconductor-mesh.bsu.168.eg.db

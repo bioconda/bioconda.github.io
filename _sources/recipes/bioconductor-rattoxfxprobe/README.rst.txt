@@ -9,13 +9,13 @@ bioconductor-rattoxfxprobe
 .. conda:recipe:: bioconductor-rattoxfxprobe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was RatToxFX\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type rattoxfx
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/rattoxfxprobe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/rattoxfxprobe.html
    :license: LGPL
    :recipe: /`bioconductor-rattoxfxprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rattoxfxprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rattoxfxprobe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was RatToxFX\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-rattoxfxprobe

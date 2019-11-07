@@ -11,18 +11,18 @@ bioconductor-gcspikelite
 
    Spike\-in data for GC\/MS data and methods within flagme
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/gcspikelite.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/gcspikelite.html
    :license: LGPL
    :recipe: /`bioconductor-gcspikelite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcspikelite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcspikelite/meta.yaml>`_
 
-   
+   Spike\-in data for GC\/MS data and methods within flagme
 
 
 .. conda:package:: bioconductor-gcspikelite
 
    |downloads_bioconductor-gcspikelite| |docker_bioconductor-gcspikelite|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

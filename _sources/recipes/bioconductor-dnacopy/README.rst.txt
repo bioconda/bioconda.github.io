@@ -9,14 +9,14 @@ bioconductor-dnacopy
 .. conda:recipe:: bioconductor-dnacopy
    :replaces_section_title:
 
-   Implements the circular binary segmentation \(CBS\) algorithm to segment DNA copy number data and identify genomic regions with abnormal copy number.
+   DNA copy number data analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DNAcopy.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DNAcopy.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-dnacopy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnacopy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnacopy/meta.yaml>`_
    :links: biotools: :biotools:`dnacopy`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Implements the circular binary segmentation \(CBS\) algorithm to segment DNA copy number data and identify genomic regions with abnormal copy number.
 
 
 .. conda:package:: bioconductor-dnacopy

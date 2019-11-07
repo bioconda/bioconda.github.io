@@ -102,10 +102,10 @@
 <dl class="recipe">
 <dt id="recipe-bioconductor-pathwaypca">
 <em class="property">recipe </em><code class="sig-name descname">bioconductor-pathwaypca</code><a class="headerlink" href="#recipe-bioconductor-pathwaypca" title="Permalink to this definition">¶</a></dt>
-<dd><p>Apply the Supervised PCA and Adaptive, Elastic-Net, Sparse PCA methods to extract principal components from each pathway. Use these pathway- specific principal components as the design matrix relating the response to each pathway. Return the model fit statistic p-values, and adjust these values for False Discovery Rate. Return a data frame of the pathways sorted by their adjusted p-values. This package has corresponding vignettes hosted in the ‘’User Guides’’ page of &lt;https://gabrielodom.github.io/pathwayPCA/index.html&gt;, and the website for the development information is hosted at &lt;https://github.com/gabrielodom/pathwayPCA&gt;.</p>
+<dd><p>Integrative Pathway Analysis with Modern PCA Methodology and Gene Selection</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.9/bioc/html/pathwayPCA.html">https://bioconductor.org/packages/3.9/bioc/html/pathwayPCA.html</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.10/bioc/html/pathwayPCA.html">https://bioconductor.org/packages/3.10/bioc/html/pathwayPCA.html</a></p>
 </dd>
 <dt class="field-even">License</dt>
 <dd class="field-even"><p>GPL-3</p>
@@ -114,6 +114,7 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathwaypca">bioconductor-pathwaypca</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathwaypca/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
+<p>pathwayPCA is an integrative analysis tool that implements the principal component analysis (PCA) based pathway analysis approaches described in Chen et al. (2008), Chen et al. (2010), and Chen (2011). pathwayPCA allows users to: (1) Test pathway association with binary, continuous, or survival phenotypes. (2) Extract relevant genes in the pathways using the SuperPCA and AES-PCA approaches. (3) Compute principal components (PCs) based on the selected genes. These estimated latent variables represent pathway activities for individual subjects, which can then be used to perform integrative pathway analysis, such as multi-omics analysis. (4) Extract relevant genes that drive pathway significance as well as data corresponding to these relevant genes for additional in-depth analysis. (5) Perform analyses with enhanced computational efficiency with parallel computing and enhanced data safety with S4-class data objects. (6) Analyze studies with complex experimental designs, with multiple covariates, and with interaction effects, e.g., testing whether pathway association with clinical phenotype is different between male and female subjects. Citations: Chen et al. (2008) &lt;https://doi.org/10.1093/bioinformatics/btn458&gt;; Chen et al. (2010) &lt;https://doi.org/10.1002/gepi.20532&gt;; and Chen (2011) &lt;https://doi.org/10.2202/1544-6115.1697&gt;.</p>
 </dd></dl>
 
 <dl class="package">
@@ -133,6 +134,7 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../bioconductor-fcoex/README.html#bioconductor-fcoex"><strong class="xref backref">bioconductor-fcoex</strong></a></p></li>
 </ul>
 </dd>
 </dl>

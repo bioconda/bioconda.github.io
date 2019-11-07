@@ -9,13 +9,13 @@ bioconductor-decontam
 .. conda:recipe:: bioconductor-decontam
    :replaces_section_title:
 
-   Simple statistical identification of contaminating sequence features in marker\-gene or metagenomics data. Works on any kind of feature derived from environmental sequencing data \(e.g. ASVs\, OTUs\, taxonomic groups\, MAGs\,...\). Requires DNA quantitation data or sequenced negative control samples.
+   Identify Contaminants in Marker\-gene and Metagenomics Sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/decontam.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/decontam.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-decontam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decontam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decontam/meta.yaml>`_
 
-   
+   Simple statistical identification of contaminating sequence features in marker\-gene or metagenomics data. Works on any kind of feature derived from environmental sequencing data \(e.g. ASVs\, OTUs\, taxonomic groups\, MAGs\,...\). Requires DNA quantitation data or sequenced negative control samples.
 
 
 .. conda:package:: bioconductor-decontam

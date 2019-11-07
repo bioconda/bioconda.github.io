@@ -9,14 +9,14 @@ bioconductor-metams
 .. conda:recipe:: bioconductor-metams
    :replaces_section_title:
 
-   MS\-based metabolomics data processing and compound annotation pipeline.
+   MS\-based metabolomics annotation pipeline
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/metaMS.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/metaMS.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-metams <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metams>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metams/meta.yaml>`_
    :links: biotools: :biotools:`metams`
 
-   
+   MS\-based metabolomics data processing and compound annotation pipeline.
 
 
 .. conda:package:: bioconductor-metams

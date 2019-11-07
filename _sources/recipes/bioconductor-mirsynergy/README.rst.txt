@@ -9,14 +9,14 @@ bioconductor-mirsynergy
 .. conda:recipe:: bioconductor-mirsynergy
    :replaces_section_title:
 
-   Detect synergistic miRNA regulatory modules by overlapping neighbourhood expansion.
+   Mirsynergy
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Mirsynergy.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Mirsynergy.html
    :license: GPL-2
    :recipe: /`bioconductor-mirsynergy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirsynergy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirsynergy/meta.yaml>`_
    :links: biotools: :biotools:`mirsynergy`
 
-   
+   Detect synergistic miRNA regulatory modules by overlapping neighbourhood expansion.
 
 
 .. conda:package:: bioconductor-mirsynergy

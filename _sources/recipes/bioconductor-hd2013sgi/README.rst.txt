@@ -9,20 +9,20 @@ bioconductor-hd2013sgi
 .. conda:recipe:: bioconductor-hd2013sgi
    :replaces_section_title:
 
-   This package contains the experimental data and a complete executable transcript \(vignette\) of the analysis of the HCT116 genetic interaction matrix presented in the paper \"Mapping genetic interactions in human cancer cells with RNAi and multiparametric phenotyping\" by C. Laufer\, B. Fischer\, M. Billmann\, W. Huber\, M. Boutros\; Nature Methods \(2013\) 10\:427\-31. doi\: 10.1038\/nmeth.2436.
+   Mapping genetic interactions in human cancer cells with RNAi and multiparametric phenotyping
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/HD2013SGI.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/HD2013SGI.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hd2013sgi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hd2013sgi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hd2013sgi/meta.yaml>`_
 
-   
+   This package contains the experimental data and a complete executable transcript \(vignette\) of the analysis of the HCT116 genetic interaction matrix presented in the paper \"Mapping genetic interactions in human cancer cells with RNAi and multiparametric phenotyping\" by C. Laufer\, B. Fischer\, M. Billmann\, W. Huber\, M. Boutros\; Nature Methods \(2013\) 10\:427\-31. doi\: 10.1038\/nmeth.2436.
 
 
 .. conda:package:: bioconductor-hd2013sgi
 
    |downloads_bioconductor-hd2013sgi| |docker_bioconductor-hd2013sgi|
 
-   :versions: 1.25.0-0, 1.24.0-1, 1.22.0-0
+   :versions: 1.26.0-0, 1.24.0-1, 1.22.0-0
    
    :depends bioconductor-ebimage: >=4.28.0,<4.29.0
    :depends bioconductor-geneplotter: >=1.64.0,<1.65.0

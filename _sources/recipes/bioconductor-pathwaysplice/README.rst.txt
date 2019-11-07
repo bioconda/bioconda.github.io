@@ -9,20 +9,20 @@ bioconductor-pathwaysplice
 .. conda:recipe:: bioconductor-pathwaysplice
    :replaces_section_title:
 
-   Pathway analysis of alternative splicing would be biased without accounting for the different number of exons associated with each gene\, because genes with higher number of exons are more likely to be included in the \'significant\' gene list in alternative splicing. PathwaySplice is an R package that\: \(1\) performs pathway analysis that explicitly adjusts for the number of exons associated with each gene \(2\) visualizes selection bias due to different number of exons for each gene \(3\) formally tests for presence of bias using logistic regression \(4\) supports gene sets based on the Gene Ontology terms\, as well as more broadly defined gene sets \(e.g. MSigDB\) or user defined gene sets \(5\) identifies the significant genes driving pathway significance \(6\) organizes significant pathways with an enrichment map\, where pathways with large number of overlapping genes are grouped together in a network graph
+   An R Package for Unbiased Splicing Pathway Analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PathwaySplice.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PathwaySplice.html
    :license: LGPL(>=2)
    :recipe: /`bioconductor-pathwaysplice <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathwaysplice>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathwaysplice/meta.yaml>`_
 
-   
+   Pathway analysis of alternative splicing would be biased without accounting for the different number of exons associated with each gene\, because genes with higher number of exons are more likely to be included in the \'significant\' gene list in alternative splicing. PathwaySplice is an R package that\: \(1\) performs pathway analysis that explicitly adjusts for the number of exons associated with each gene \(2\) visualizes selection bias due to different number of exons for each gene \(3\) formally tests for presence of bias using logistic regression \(4\) supports gene sets based on the Gene Ontology terms\, as well as more broadly defined gene sets \(e.g. MSigDB\) or user defined gene sets \(5\) identifies the significant genes driving pathway significance \(6\) organizes significant pathways with an enrichment map\, where pathways with large number of overlapping genes are grouped together in a network graph
 
 
 .. conda:package:: bioconductor-pathwaysplice
 
    |downloads_bioconductor-pathwaysplice| |docker_bioconductor-pathwaysplice|
 
-   :versions: 1.10.0-0, 1.8.0-1, 1.6.0-0
+   :versions: 1.10.0-1, 1.8.0-1, 1.6.0-0
    
    :depends bioconductor-annotate: >=1.64.0,<1.65.0
    :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
@@ -32,7 +32,7 @@ bioconductor-pathwaysplice
    :depends bioconductor-dose: >=3.12.0,<3.13.0
    :depends bioconductor-enrichmentbrowser: >=2.16.0,<2.17.0
    :depends bioconductor-ensembldb: >=2.10.0,<2.11.0
-   :depends bioconductor-genelendatabase: >=1.21.0,<1.22.0
+   :depends bioconductor-genelendatabase: >=1.22.0,<1.23.0
    :depends bioconductor-go.db: >=3.10.0,<3.11.0
    :depends bioconductor-goseq: >=1.38.0,<1.39.0
    :depends bioconductor-junctionseq: >=1.16.0,<1.17.0

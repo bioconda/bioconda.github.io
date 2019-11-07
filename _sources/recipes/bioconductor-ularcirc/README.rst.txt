@@ -9,13 +9,13 @@ bioconductor-ularcirc
 .. conda:recipe:: bioconductor-ularcirc
    :replaces_section_title:
 
-   Ularcirc reads in STAR aligned splice junction files and provides visualisation and analysis tools for splicing analysis. Users can assess backsplice junctions and forward canonical junctions.
+   Shiny app for canonical and back splicing analysis \(i.e. circular and mRNA analysis\)
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Ularcirc.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Ularcirc.html
    :license: file LICENSE
    :recipe: /`bioconductor-ularcirc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ularcirc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ularcirc/meta.yaml>`_
 
-   
+   Ularcirc reads in STAR aligned splice junction files and provides visualisation and analysis tools for splicing analysis. Users can assess backsplice junctions and forward canonical junctions.
 
 
 .. conda:package:: bioconductor-ularcirc

@@ -9,13 +9,13 @@ bioconductor-scds
 .. conda:recipe:: bioconductor-scds
    :replaces_section_title:
 
-   In single cell RNA sequencing \(scRNA\-seq\) data combinations of cells are sometimes considered a single cell \(doublets\). The scds package provides methods to annotate doublets in scRNA\-seq data computationally.
+   In\-Silico Annotation of Doublets for Single Cell RNA Sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/scds.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/scds.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-scds <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scds>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scds/meta.yaml>`_
 
-   
+   In single cell RNA sequencing \(scRNA\-seq\) data combinations of cells are sometimes considered a single cell \(doublets\). The scds package provides methods to annotate doublets in scRNA\-seq data computationally.
 
 
 .. conda:package:: bioconductor-scds

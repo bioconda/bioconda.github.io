@@ -9,13 +9,13 @@ bioconductor-gdsarray
 .. conda:recipe:: bioconductor-gdsarray
    :replaces_section_title:
 
-   GDS files are widely used to represent genotyping or sequence data. The GDSArray package implements the \`GDSArray\` class to represent nodes in GDS files in a matrix\-like representation that allows easy manipulation \(e.g.\, subsetting\, mathematical transformation\) in \_R\_. The data remains on disk until needed\, so that very large files can be processed.
+   Representing GDS files as array\-like objects
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GDSArray.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GDSArray.html
    :license: GPL-3
    :recipe: /`bioconductor-gdsarray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdsarray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdsarray/meta.yaml>`_
 
-   
+   GDS files are widely used to represent genotyping or sequence data. The GDSArray package implements the \`GDSArray\` class to represent nodes in GDS files in a matrix\-like representation that allows easy manipulation \(e.g.\, subsetting\, mathematical transformation\) in \_R\_. The data remains on disk until needed\, so that very large files can be processed.
 
 
 .. conda:package:: bioconductor-gdsarray

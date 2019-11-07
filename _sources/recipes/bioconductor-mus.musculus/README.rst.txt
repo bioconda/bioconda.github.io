@@ -9,13 +9,13 @@ bioconductor-mus.musculus
 .. conda:recipe:: bioconductor-mus.musculus
    :replaces_section_title:
 
-   Contains the Mus.musculus object to access data from several related annotation packages.
+   Annotation package for the Mus.musculus object
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/Mus.musculus.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/Mus.musculus.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mus.musculus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mus.musculus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mus.musculus/meta.yaml>`_
 
-   
+   Contains the Mus.musculus object to access data from several related annotation packages.
 
 
 .. conda:package:: bioconductor-mus.musculus

@@ -9,13 +9,13 @@ bioconductor-huexexonprobesetlocationhg19
 .. conda:recipe:: bioconductor-huexexonprobesetlocationhg19
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationDbi version 1.11.8. The exon\-level probeset genome location was retrieved from Netaffx using AffyCompatible. The exon\-level probeset genome location was retrieved from Netaffx using AffyCompatible. Genome release hg19.
+   Exon\-level probeset chromosome location for microarrays of type HuEx
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/HuExExonProbesetLocationHg19.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/HuExExonProbesetLocationHg19.html
    :license: LGPL
    :recipe: /`bioconductor-huexexonprobesetlocationhg19 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-huexexonprobesetlocationhg19>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-huexexonprobesetlocationhg19/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationDbi version 1.11.8. The exon\-level probeset genome location was retrieved from Netaffx using AffyCompatible. The exon\-level probeset genome location was retrieved from Netaffx using AffyCompatible. Genome release hg19.
 
 
 .. conda:package:: bioconductor-huexexonprobesetlocationhg19

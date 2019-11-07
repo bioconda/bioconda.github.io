@@ -9,23 +9,23 @@ bioconductor-rforproteomics
 .. conda:recipe:: bioconductor-rforproteomics
    :replaces_section_title:
 
-   This package contains code to illustrate the \'Using R and Bioconductor for proteomics data analysis\' and \'Visualisation of proteomics data using R and Bioconductor\' manuscripts. The vignettes describe the code and data needed to reproduce the examples and figures described in the paper and functionality for proteomics visualisation. It also contain various function to discover R software for mass spectrometry and proteomics.
+   Companion package to the \'Using R and Bioconductor for proteomics data analysis\' publication
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RforProteomics.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RforProteomics.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rforproteomics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rforproteomics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rforproteomics/meta.yaml>`_
 
-   
+   This package contains code to illustrate the \'Using R and Bioconductor for proteomics data analysis\' and \'Visualisation of proteomics data using R and Bioconductor\' manuscripts. The vignettes describe the code and data needed to reproduce the examples and figures described in the paper and functionality for proteomics visualisation. It also contain various function to discover R software for mass spectrometry and proteomics.
 
 
 .. conda:package:: bioconductor-rforproteomics
 
    |downloads_bioconductor-rforproteomics| |docker_bioconductor-rforproteomics|
 
-   :versions: 1.23.1-0, 1.22.0-1, 1.20.0-0
+   :versions: 1.22.0-1, 1.20.0-0
    
-   :depends bioconductor-biocviews: >=1.54.0,<1.55.0
-   :depends bioconductor-msnbase: >=2.12.0,<2.13.0
+   :depends bioconductor-biocviews: >=1.52.0,<1.53.0
+   :depends bioconductor-msnbase: >=2.10.0,<2.11.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-biocmanager: 

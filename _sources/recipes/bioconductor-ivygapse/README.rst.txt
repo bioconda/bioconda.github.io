@@ -9,13 +9,13 @@ bioconductor-ivygapse
 .. conda:recipe:: bioconductor-ivygapse
    :replaces_section_title:
 
-   Define a SummarizedExperiment and exploratory app for Ivy\-GAP glioblastoma image\, expression\, and clinical data.
+   A SummarizedExperiment for Ivy\-GAP data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ivygapSE.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ivygapSE.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ivygapse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ivygapse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ivygapse/meta.yaml>`_
 
-   
+   Define a SummarizedExperiment and exploratory app for Ivy\-GAP glioblastoma image\, expression\, and clinical data.
 
 
 .. conda:package:: bioconductor-ivygapse

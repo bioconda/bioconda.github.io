@@ -9,13 +9,13 @@ bioconductor-hireewas
 .. conda:recipe:: bioconductor-hireewas
    :replaces_section_title:
 
-   In epigenome\-wide association studies\, the measured signals for each sample are a mixture of methylation profiles from different cell types. The current approaches to the association detection only claim whether a cytosine\-phosphate\-guanine \(CpG\) site is associated with the phenotype or not\, but they cannot determine the cell type in which the risk\-CpG site is affected by the phenotype. We propose a solid statistical method\, HIgh REsolution \(HIRE\)\, which not only substantially improves the power of association detection at the aggregated level as compared to the existing methods but also enables the detection of risk\-CpG sites for individual cell types. The \"HIREewas\" R package is to implement HIRE model in R.
+   Detection of cell\-type\-specific risk\-CpG sites in epigenome\-wide association studies
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/HIREewas.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/HIREewas.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-hireewas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hireewas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hireewas/meta.yaml>`_
 
-   
+   In epigenome\-wide association studies\, the measured signals for each sample are a mixture of methylation profiles from different cell types. The current approaches to the association detection only claim whether a cytosine\-phosphate\-guanine \(CpG\) site is associated with the phenotype or not\, but they cannot determine the cell type in which the risk\-CpG site is affected by the phenotype. We propose a solid statistical method\, HIgh REsolution \(HIRE\)\, which not only substantially improves the power of association detection at the aggregated level as compared to the existing methods but also enables the detection of risk\-CpG sites for individual cell types. The \"HIREewas\" R package is to implement HIRE model in R.
 
 
 .. conda:package:: bioconductor-hireewas

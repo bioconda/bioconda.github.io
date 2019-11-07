@@ -9,27 +9,27 @@ bioconductor-flowsorted.cordbloodcombined.450k
 .. conda:recipe:: bioconductor-flowsorted.cordbloodcombined.450k
    :replaces_section_title:
 
-   Raw data objects to be used for umbilical cord blood cell proportion estimation in minfi and similar packages. The FlowSorted.CordBloodCombined.450k object is based in samples assayed by Bakulski et al\, Gervin et al.\, de Goede et al.\, and Lin et al.
+   Illumina 450k\/EPIC data on FACS and MACS umbilical blood cells
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/FlowSorted.CordBloodCombined.450k.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/FlowSorted.CordBloodCombined.450k.html
    :license: GPL-3
    :recipe: /`bioconductor-flowsorted.cordbloodcombined.450k <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.cordbloodcombined.450k>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.cordbloodcombined.450k/meta.yaml>`_
 
-   
+   Raw data objects to be used for umbilical cord blood cell proportion estimation in minfi and similar packages. The FlowSorted.CordBloodCombined.450k object is based in samples assayed by Bakulski et al\, Gervin et al.\, de Goede et al.\, and Lin et al.
 
 
 .. conda:package:: bioconductor-flowsorted.cordbloodcombined.450k
 
    |downloads_bioconductor-flowsorted.cordbloodcombined.450k| |docker_bioconductor-flowsorted.cordbloodcombined.450k|
 
-   :versions: 1.1.0-0, 1.0.0-1
+   :versions: 1.0.0-1
    
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
-   :depends bioconductor-flowsorted.blood.epic: >=1.3.0,<1.4.0
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
+   :depends bioconductor-flowsorted.blood.epic: >=1.2.0,<1.3.0
    :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: >=0.6.0,<0.7.0
    :depends bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19: >=0.6.0,<0.7.0
-   :depends bioconductor-minfi: >=1.32.0,<1.33.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends bioconductor-minfi: >=1.30.0,<1.31.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

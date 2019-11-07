@@ -9,14 +9,14 @@ bioconductor-oligoclasses
 .. conda:recipe:: bioconductor-oligoclasses
    :replaces_section_title:
 
-   This package contains class definitions\, validity checks\, and initialization methods for classes used by the oligo and crlmm packages.
+   Classes for high\-throughput arrays supported by oligo and crlmm
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/oligoClasses.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/oligoClasses.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-oligoclasses <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oligoclasses>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oligoclasses/meta.yaml>`_
    :links: biotools: :biotools:`oligoclasses`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package contains class definitions\, validity checks\, and initialization methods for classes used by the oligo and crlmm packages.
 
 
 .. conda:package:: bioconductor-oligoclasses

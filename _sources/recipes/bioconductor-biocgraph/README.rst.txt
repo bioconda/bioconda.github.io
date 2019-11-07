@@ -9,14 +9,14 @@ bioconductor-biocgraph
 .. conda:recipe:: bioconductor-biocgraph
    :replaces_section_title:
 
-   This package provides examples and code that make use of the different graph related packages produced by Bioconductor.
+   Graph examples and use cases in Bioinformatics
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/biocGraph.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/biocGraph.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biocgraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocgraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocgraph/meta.yaml>`_
    :links: biotools: :biotools:`biocgraph`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package provides examples and code that make use of the different graph related packages produced by Bioconductor.
 
 
 .. conda:package:: bioconductor-biocgraph

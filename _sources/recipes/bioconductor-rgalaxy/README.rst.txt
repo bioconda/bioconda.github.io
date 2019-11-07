@@ -9,14 +9,14 @@ bioconductor-rgalaxy
 .. conda:recipe:: bioconductor-rgalaxy
    :replaces_section_title:
 
-   Given an R function and its manual page\, make the documented function available in Galaxy.
+   Make an R function available in the Galaxy web platform
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RGalaxy.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RGalaxy.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rgalaxy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgalaxy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgalaxy/meta.yaml>`_
    :links: biotools: :biotools:`rgalaxy`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Given an R function and its manual page\, make the documented function available in Galaxy.
 
 
 .. conda:package:: bioconductor-rgalaxy

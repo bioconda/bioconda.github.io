@@ -9,14 +9,14 @@ bioconductor-pgsea
 .. conda:recipe:: bioconductor-pgsea
    :replaces_section_title:
 
-   Parametric Analysis of Gene Set Enrichment
+   Parametric Gene Set Enrichment Analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PGSEA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PGSEA.html
    :license: GPL-2
    :recipe: /`bioconductor-pgsea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pgsea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pgsea/meta.yaml>`_
    :links: biotools: :biotools:`pgsea`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Parametric Analysis of Gene Set Enrichment
 
 
 .. conda:package:: bioconductor-pgsea

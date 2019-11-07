@@ -11,11 +11,11 @@ bioconductor-pd.medicago
 
    Platform Design Info for The Manufacturer\'s Name Medicago
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.medicago.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.medicago.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.medicago <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.medicago>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.medicago/meta.yaml>`_
 
-   
+   Platform Design Info for The Manufacturer\'s Name Medicago
 
 
 .. conda:package:: bioconductor-pd.medicago

@@ -9,13 +9,13 @@ bioconductor-bandits
 .. conda:recipe:: bioconductor-bandits
    :replaces_section_title:
 
-   BANDITS is a Bayesian hierarchical model for detecting differential splicing of genes and transcripts\, via differential transcript usage \(DTU\)\, between two or more conditions. The method uses a Bayesian hierarchical framework\, which allows for sample specific proportions in a Dirichlet\-Multinomial model\, and samples the allocation of fragments to the transcripts. Parameters are inferred via Markov chain Monte Carlo \(MCMC\) techniques and a DTU test is performed via a multivariate Wald test on the posterior densities for the average relative abundance of transcripts.
+   BANDITS\: Bayesian ANalysis of DIfferenTial Splicing
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BANDITS.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BANDITS.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-bandits <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bandits>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bandits/meta.yaml>`_
 
-   
+   BANDITS is a Bayesian hierarchical model for detecting differential splicing of genes and transcripts\, via differential transcript usage \(DTU\)\, between two or more conditions. The method uses a Bayesian hierarchical framework\, which allows for sample specific proportions in a Dirichlet\-Multinomial model\, and samples the allocation of fragments to the transcripts. Parameters are inferred via Markov chain Monte Carlo \(MCMC\) techniques and a DTU test is performed via a multivariate Wald test on the posterior densities for the average relative abundance of transcripts.
 
 
 .. conda:package:: bioconductor-bandits

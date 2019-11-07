@@ -9,13 +9,13 @@ bioconductor-illuminaratv1.db
 .. conda:recipe:: bioconductor-illuminaratv1.db
    :replaces_section_title:
 
-   Illumina Ratv1 annotation data \(chip illuminaRatv1\) assembled using data from public repositories
+   Illumina Ratv1 annotation data \(chip illuminaRatv1\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/illuminaRatv1.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/illuminaRatv1.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-illuminaratv1.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminaratv1.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminaratv1.db/meta.yaml>`_
 
-   
+   Illumina Ratv1 annotation data \(chip illuminaRatv1\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-illuminaratv1.db

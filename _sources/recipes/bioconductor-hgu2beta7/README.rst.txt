@@ -9,20 +9,20 @@ bioconductor-hgu2beta7
 .. conda:recipe:: bioconductor-hgu2beta7
    :replaces_section_title:
 
-   Annotation data file for hgu2beta7 assembled using data from public data repositories
+   A data package containing annotation data for hgu2beta7
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/hgu2beta7.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/hgu2beta7.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hgu2beta7 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu2beta7>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu2beta7/meta.yaml>`_
 
-   
+   Annotation data file for hgu2beta7 assembled using data from public data repositories
 
 
 .. conda:package:: bioconductor-hgu2beta7
 
    |downloads_bioconductor-hgu2beta7| |docker_bioconductor-hgu2beta7|
 
-   :versions: 1.25.0-0, 1.24.0-1, 1.24.0-0, 1.22.0-0
+   :versions: 1.26.0-0, 1.24.0-1, 1.24.0-0, 1.22.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

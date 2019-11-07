@@ -9,20 +9,20 @@ bioconductor-lydata
 .. conda:recipe:: bioconductor-lydata
    :replaces_section_title:
 
-   Raw data downloaded from GEO for the compound LY294002. Raw data is from multiple platforms from Affymetrix and Illumina. This data is used to illustrate the cross\-platform meta\-analysis of microarray data using the crossmeta package.
+   Example Dataset for crossmeta Package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/lydata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/lydata.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-lydata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lydata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lydata/meta.yaml>`_
 
-   
+   Raw data downloaded from GEO for the compound LY294002. Raw data is from multiple platforms from Affymetrix and Illumina. This data is used to illustrate the cross\-platform meta\-analysis of microarray data using the crossmeta package.
 
 
 .. conda:package:: bioconductor-lydata
 
    |downloads_bioconductor-lydata| |docker_bioconductor-lydata|
 
-   :versions: 1.11.0-0, 1.10.0-1, 1.10.0-0, 1.8.0-0
+   :versions: 1.12.0-0, 1.10.0-1, 1.10.0-0, 1.8.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

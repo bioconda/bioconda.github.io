@@ -9,13 +9,13 @@ bioconductor-rbowtie2
 .. conda:recipe:: bioconductor-rbowtie2
    :replaces_section_title:
 
-   This package provides an R wrapper of the popular bowtie2 sequencing reads aligner and AdapterRemoval\, a convenient tool for rapid adapter trimming\, identification\, and read merging.
+   An R Wrapper for Bowtie2 and AdapterRemoval
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Rbowtie2.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Rbowtie2.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-rbowtie2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbowtie2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbowtie2/meta.yaml>`_
 
-   
+   This package provides an R wrapper of the popular bowtie2 sequencing reads aligner and AdapterRemoval\, a convenient tool for rapid adapter trimming\, identification\, and read merging.
 
 
 .. conda:package:: bioconductor-rbowtie2

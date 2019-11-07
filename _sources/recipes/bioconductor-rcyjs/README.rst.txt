@@ -9,13 +9,13 @@ bioconductor-rcyjs
 .. conda:recipe:: bioconductor-rcyjs
    :replaces_section_title:
 
-   Interactive viewing and exploration of graphs\, connecting R to Cytoscape.js\, using websockets.
+   Display and manipulate graphs in cytoscape.js
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RCyjs.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RCyjs.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-rcyjs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcyjs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcyjs/meta.yaml>`_
 
-   
+   Interactive viewing and exploration of graphs\, connecting R to Cytoscape.js\, using websockets.
 
 
 .. conda:package:: bioconductor-rcyjs

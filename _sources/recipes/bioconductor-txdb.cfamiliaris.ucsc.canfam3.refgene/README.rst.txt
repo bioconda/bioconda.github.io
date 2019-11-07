@@ -9,13 +9,13 @@ bioconductor-txdb.cfamiliaris.ucsc.canfam3.refgene
 .. conda:recipe:: bioconductor-txdb.cfamiliaris.ucsc.canfam3.refgene
    :replaces_section_title:
 
-   Exposes an annotation databases generated from UCSC by exposing these as TxDb objects
+   Annotation package for TxDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/TxDb.Cfamiliaris.UCSC.canFam3.refGene.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/TxDb.Cfamiliaris.UCSC.canFam3.refGene.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.cfamiliaris.ucsc.canfam3.refgene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.cfamiliaris.ucsc.canfam3.refgene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.cfamiliaris.ucsc.canfam3.refgene/meta.yaml>`_
 
-   
+   Exposes an annotation databases generated from UCSC by exposing these as TxDb objects
 
 
 .. conda:package:: bioconductor-txdb.cfamiliaris.ucsc.canfam3.refgene

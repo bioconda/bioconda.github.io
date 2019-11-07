@@ -9,20 +9,20 @@ bioconductor-fantom3and4cage
 .. conda:recipe:: bioconductor-fantom3and4cage
    :replaces_section_title:
 
-   CAGE \(Cap Analysis Gene Expression\) data from FANTOM3 and FANTOM4 projects produced by RIKEN Omics Science Center.
+   CAGE data from FANTOM3 and FANTOM4 projects
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/FANTOM3and4CAGE.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/FANTOM3and4CAGE.html
    :license: GPL-3
    :recipe: /`bioconductor-fantom3and4cage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fantom3and4cage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fantom3and4cage/meta.yaml>`_
 
-   
+   CAGE \(Cap Analysis Gene Expression\) data from FANTOM3 and FANTOM4 projects produced by RIKEN Omics Science Center.
 
 
 .. conda:package:: bioconductor-fantom3and4cage
 
    |downloads_bioconductor-fantom3and4cage| |docker_bioconductor-fantom3and4cage|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions: 1.20.0-1, 1.20.0-0, 1.18.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

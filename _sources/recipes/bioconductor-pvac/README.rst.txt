@@ -9,14 +9,14 @@ bioconductor-pvac
 .. conda:recipe:: bioconductor-pvac
    :replaces_section_title:
 
-   The package contains the function for filtering genes by the proportion of variation accounted for by the first principal component \(PVAC\).
+   PCA\-based gene filtering for Affymetrix arrays
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/pvac.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/pvac.html
    :license: LGPL (>= 2.0)
    :recipe: /`bioconductor-pvac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pvac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pvac/meta.yaml>`_
    :links: biotools: :biotools:`pvac`, doi: :doi:`10.1093/nar/gkr241`
 
-   
+   The package contains the function for filtering genes by the proportion of variation accounted for by the first principal component \(PVAC\).
 
 
 .. conda:package:: bioconductor-pvac

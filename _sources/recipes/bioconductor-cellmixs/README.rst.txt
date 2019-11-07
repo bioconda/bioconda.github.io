@@ -9,13 +9,13 @@ bioconductor-cellmixs
 .. conda:recipe:: bioconductor-cellmixs
    :replaces_section_title:
 
-   Evaluate Cellspecific Mixing Scores \(CMS\) for different batches\/groups in scRNA\-seq data.
+   Evaluate Cellspecific Mixing
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CellMixS.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CellMixS.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-cellmixs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellmixs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellmixs/meta.yaml>`_
 
-   
+   Evaluate Cellspecific Mixing Scores \(CMS\) for different batches\/groups in scRNA\-seq data.
 
 
 .. conda:package:: bioconductor-cellmixs

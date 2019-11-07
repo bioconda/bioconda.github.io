@@ -9,14 +9,14 @@ bioconductor-annotationfuncs
 .. conda:recipe:: bioconductor-annotationfuncs
    :replaces_section_title:
 
-   Functions for handling translating between different identifieres using the Biocore Data Team data\-packages \(e.g. org.Bt.eg.db\).
+   Annotation translation functions
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/AnnotationFuncs.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/AnnotationFuncs.html
    :license: GPL-2
    :recipe: /`bioconductor-annotationfuncs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationfuncs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationfuncs/meta.yaml>`_
    :links: biotools: :biotools:`annotationfuncs`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Functions for handling translating between different identifieres using the Biocore Data Team data\-packages \(e.g. org.Bt.eg.db\).
 
 
 .. conda:package:: bioconductor-annotationfuncs

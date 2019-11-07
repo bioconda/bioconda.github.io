@@ -11,11 +11,11 @@ bioconductor-pd.hg.focus
 
    Platform Design Info for The Manufacturer\'s Name HG\-Focus
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.hg.focus.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.hg.focus.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.hg.focus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.hg.focus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.hg.focus/meta.yaml>`_
 
-   
+   Platform Design Info for The Manufacturer\'s Name HG\-Focus
 
 
 .. conda:package:: bioconductor-pd.hg.focus

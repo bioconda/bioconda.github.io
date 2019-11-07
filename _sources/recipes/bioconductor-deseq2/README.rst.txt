@@ -9,14 +9,14 @@ bioconductor-deseq2
 .. conda:recipe:: bioconductor-deseq2
    :replaces_section_title:
 
-   Estimate variance\-mean dependence in count data from high\-throughput sequencing assays and test for differential expression based on a model using the negative binomial distribution.
+   Differential gene expression analysis based on the negative binomial distribution
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DESeq2.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DESeq2.html
    :license: LGPL (>= 3)
    :recipe: /`bioconductor-deseq2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deseq2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deseq2/meta.yaml>`_
    :links: biotools: :biotools:`deseq2`, doi: :doi:`10.1186/s13059-014-0550-8`
 
-   
+   Estimate variance\-mean dependence in count data from high\-throughput sequencing assays and test for differential expression based on a model using the negative binomial distribution.
 
 
 .. conda:package:: bioconductor-deseq2

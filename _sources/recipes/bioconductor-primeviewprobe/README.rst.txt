@@ -9,13 +9,13 @@ bioconductor-primeviewprobe
 .. conda:recipe:: bioconductor-primeviewprobe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was PrimeView\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type primeview
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/primeviewprobe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/primeviewprobe.html
    :license: LGPL
    :recipe: /`bioconductor-primeviewprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-primeviewprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-primeviewprobe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was PrimeView\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-primeviewprobe

@@ -9,20 +9,20 @@ bioconductor-tcgawgbsdata.hg19
 .. conda:recipe:: bioconductor-tcgawgbsdata.hg19
    :replaces_section_title:
 
-   Data package for WGBS Data in TCGA. Data is stored as SummarizedExperiment Format. See vignette on how to extract the data and perform differential methylation analysis.
+   Data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/tcgaWGBSData.hg19.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/tcgaWGBSData.hg19.html
    :license: GPL-2
    :recipe: /`bioconductor-tcgawgbsdata.hg19 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgawgbsdata.hg19>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgawgbsdata.hg19/meta.yaml>`_
 
-   
+   Data package for WGBS Data in TCGA. Data is stored as SummarizedExperiment Format. See vignette on how to extract the data and perform differential methylation analysis.
 
 
 .. conda:package:: bioconductor-tcgawgbsdata.hg19
 
    |downloads_bioconductor-tcgawgbsdata.hg19| |docker_bioconductor-tcgawgbsdata.hg19|
 
-   :versions: 1.3.0-0, 1.2.0-1, 1.0.0-1, 1.0.0-0
+   :versions: 1.4.0-0, 1.2.0-1, 1.0.0-1, 1.0.0-0
    
    :depends bioconductor-bsseq: >=1.22.0,<1.23.0
    :depends bioconductor-experimenthub: >=1.12.0,<1.13.0

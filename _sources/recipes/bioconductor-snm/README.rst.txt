@@ -9,14 +9,14 @@ bioconductor-snm
 .. conda:recipe:: bioconductor-snm
    :replaces_section_title:
 
-   SNM is a modeling strategy especially designed for normalizing high\-throughput genomic data. The underlying premise of our approach is that your data is a function of what we refer to as study\-specific variables. These variables are either biological variables that represent the target of the statistical analysis\, or adjustment variables that represent factors arising from the experimental or biological setting the data is drawn from. The SNM approach aims to simultaneously model all study\-specific variables in order to more accurately characterize the biological or clinical variables of interest.
+   Supervised Normalization of Microarrays
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/snm.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/snm.html
    :license: LGPL
    :recipe: /`bioconductor-snm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snm/meta.yaml>`_
    :links: biotools: :biotools:`snm`
 
-   
+   SNM is a modeling strategy especially designed for normalizing high\-throughput genomic data. The underlying premise of our approach is that your data is a function of what we refer to as study\-specific variables. These variables are either biological variables that represent the target of the statistical analysis\, or adjustment variables that represent factors arising from the experimental or biological setting the data is drawn from. The SNM approach aims to simultaneously model all study\-specific variables in order to more accurately characterize the biological or clinical variables of interest.
 
 
 .. conda:package:: bioconductor-snm

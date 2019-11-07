@@ -9,14 +9,14 @@ bioconductor-watermelon
 .. conda:recipe:: bioconductor-watermelon
    :replaces_section_title:
 
-   15 flavours of betas and three performance metrics\, with methods for objects produced by methylumi and minfi packages.
+   Illumina 450 methylation array normalization and metrics
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/wateRmelon.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/wateRmelon.html
    :license: GPL-3
    :recipe: /`bioconductor-watermelon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-watermelon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-watermelon/meta.yaml>`_
    :links: biotools: :biotools:`watermelon`
 
-   
+   15 flavours of betas and three performance metrics\, with methods for objects produced by methylumi and minfi packages.
 
 
 .. conda:package:: bioconductor-watermelon

@@ -9,13 +9,13 @@ bioconductor-human660quadv1acrlmm
 .. conda:recipe:: bioconductor-human660quadv1acrlmm
    :replaces_section_title:
 
-   Package with metadata for genotyping Illumina 660kQuad arrays using the \'crlmm\' package.
+   Metadata for fast genotyping with the \'crlmm\' package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/human660quadv1aCrlmm.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/human660quadv1aCrlmm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-human660quadv1acrlmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-human660quadv1acrlmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-human660quadv1acrlmm/meta.yaml>`_
 
-   
+   Package with metadata for genotyping Illumina 660kQuad arrays using the \'crlmm\' package.
 
 
 .. conda:package:: bioconductor-human660quadv1acrlmm

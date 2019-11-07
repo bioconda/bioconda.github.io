@@ -9,20 +9,20 @@ bioconductor-tcgamethylation450k
 .. conda:recipe:: bioconductor-tcgamethylation450k
    :replaces_section_title:
 
-   The Cancer Genome Atlas \(TCGA\) is applying genomics technologies to over 20 different types of cancer.  This package contains a small set of 450k array data in idat format.
+   The Cancer Genome Atlas Illumina 450k methylation example data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/TCGAMethylation450k.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/TCGAMethylation450k.html
    :license: GPL-2
    :recipe: /`bioconductor-tcgamethylation450k <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgamethylation450k>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgamethylation450k/meta.yaml>`_
 
-   
+   The Cancer Genome Atlas \(TCGA\) is applying genomics technologies to over 20 different types of cancer.  This package contains a small set of 450k array data in idat format.
 
 
 .. conda:package:: bioconductor-tcgamethylation450k
 
    |downloads_bioconductor-tcgamethylation450k| |docker_bioconductor-tcgamethylation450k|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

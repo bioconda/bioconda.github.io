@@ -9,13 +9,13 @@ bioconductor-illuminahumanv4.db
 .. conda:recipe:: bioconductor-illuminahumanv4.db
    :replaces_section_title:
 
-   Illumina HumanHT12v4 annotation data \(chip illuminaHumanv4\) assembled using data from public repositories
+   Illumina HumanHT12v4 annotation data \(chip illuminaHumanv4\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/illuminaHumanv4.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/illuminaHumanv4.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-illuminahumanv4.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanv4.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanv4.db/meta.yaml>`_
 
-   
+   Illumina HumanHT12v4 annotation data \(chip illuminaHumanv4\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-illuminahumanv4.db

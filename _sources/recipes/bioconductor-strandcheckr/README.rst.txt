@@ -9,13 +9,13 @@ bioconductor-strandcheckr
 .. conda:recipe:: bioconductor-strandcheckr
    :replaces_section_title:
 
-   This package aims to quantify and remove putative double strand DNA from a strand\-specific RNA sample. There are also options and methods to plot the positive\/negative proportions of all sliding windows\, which allow users to have an idea of how much the sample was contaminated and the appropriate threshold to be used for filtering.
+   Calculate strandness information of a bam file
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/strandCheckR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/strandCheckR.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-strandcheckr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-strandcheckr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-strandcheckr/meta.yaml>`_
 
-   
+   This package aims to quantify and remove putative double strand DNA from a strand\-specific RNA sample. There are also options and methods to plot the positive\/negative proportions of all sliding windows\, which allow users to have an idea of how much the sample was contaminated and the appropriate threshold to be used for filtering.
 
 
 .. conda:package:: bioconductor-strandcheckr

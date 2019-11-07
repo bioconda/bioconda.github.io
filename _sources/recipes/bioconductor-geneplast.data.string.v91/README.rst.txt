@@ -9,13 +9,13 @@ bioconductor-geneplast.data.string.v91
 .. conda:recipe:: bioconductor-geneplast.data.string.v91
    :replaces_section_title:
 
-   The package geneplast.data.string.v91 contains input data used in the analysis pipelines available in the geneplast package.
+   Input data for the geneplast package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/geneplast.data.string.v91.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/geneplast.data.string.v91.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-geneplast.data.string.v91 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneplast.data.string.v91>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneplast.data.string.v91/meta.yaml>`_
 
-   
+   The package geneplast.data.string.v91 contains input data used in the analysis pipelines available in the geneplast package.
 
 
 .. conda:package:: bioconductor-geneplast.data.string.v91

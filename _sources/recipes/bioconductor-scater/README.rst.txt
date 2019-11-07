@@ -9,14 +9,14 @@ bioconductor-scater
 .. conda:recipe:: bioconductor-scater
    :replaces_section_title:
 
-   A collection of tools for doing various analyses of single\-cell RNA\-seq gene expression data\, with a focus on quality control and visualization.
+   Single\-Cell Analysis Toolkit for Gene Expression Data in R
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/scater.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/scater.html
    :license: GPL-3
    :recipe: /`bioconductor-scater <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scater>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scater/meta.yaml>`_
    :links: biotools: :biotools:`scater`
 
-   
+   A collection of tools for doing various analyses of single\-cell RNA\-seq gene expression data\, with a focus on quality control and visualization.
 
 
 .. conda:package:: bioconductor-scater

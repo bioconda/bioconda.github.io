@@ -9,13 +9,13 @@ bioconductor-fastqcleaner
 .. conda:recipe:: bioconductor-fastqcleaner
    :replaces_section_title:
 
-   An interactive web application for quality control\, filtering and trimming of FASTQ files. This user\-friendly tool combines a pipeline for data processing based on Biostrings and ShortRead infrastructure\, with a cutting\-edge visual environment. Single\-Read and Paired\-End files can be locally processed. Diagnostic interactive plots \(CG content\, per\-base sequence quality\, etc.\) are provided for both the input and output files.
+   A Shiny Application for Quality Control\, Filtering and Trimming of FASTQ Files
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/FastqCleaner.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/FastqCleaner.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-fastqcleaner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fastqcleaner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fastqcleaner/meta.yaml>`_
 
-   
+   An interactive web application for quality control\, filtering and trimming of FASTQ files. This user\-friendly tool combines a pipeline for data processing based on Biostrings and ShortRead infrastructure\, with a cutting\-edge visual environment. Single\-Read and Paired\-End files can be locally processed. Diagnostic interactive plots \(CG content\, per\-base sequence quality\, etc.\) are provided for both the input and output files.
 
 
 .. conda:package:: bioconductor-fastqcleaner

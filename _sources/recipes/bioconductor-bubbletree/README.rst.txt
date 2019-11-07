@@ -9,14 +9,14 @@ bioconductor-bubbletree
 .. conda:recipe:: bioconductor-bubbletree
    :replaces_section_title:
 
-   CNV analysis in groups of tumor samples.
+   BubbleTree\: an intuitive visualization to elucidate tumoral aneuploidy and clonality in somatic mosaicism using next generation sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BubbleTree.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BubbleTree.html
    :license: LGPL (>= 3)
    :recipe: /`bioconductor-bubbletree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bubbletree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bubbletree/meta.yaml>`_
    :links: biotools: :biotools:`bubbletree`, doi: :doi:`10.1093/nar/gkv1102`
 
-   
+   CNV analysis in groups of tumor samples.
 
 
 .. conda:package:: bioconductor-bubbletree

@@ -9,13 +9,13 @@ bioconductor-mutationalpatterns
 .. conda:recipe:: bioconductor-mutationalpatterns
    :replaces_section_title:
 
-   An extensive toolset for the characterization and visualization of a wide range of mutational patterns in base substitution catalogs.
+   Comprehensive genome\-wide analysis of mutational processes
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MutationalPatterns.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MutationalPatterns.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-mutationalpatterns <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mutationalpatterns>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mutationalpatterns/meta.yaml>`_
 
-   
+   An extensive toolset for the characterization and visualization of a wide range of mutational patterns in base substitution catalogs.
 
 
 .. conda:package:: bioconductor-mutationalpatterns

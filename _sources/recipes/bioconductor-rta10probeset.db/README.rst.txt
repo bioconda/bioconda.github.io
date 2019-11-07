@@ -9,13 +9,13 @@ bioconductor-rta10probeset.db
 .. conda:recipe:: bioconductor-rta10probeset.db
    :replaces_section_title:
 
-   Affymetrix rta10 annotation data \(chip rta10probeset\) assembled using data from public repositories
+   Affymetrix rta10 annotation data \(chip rta10probeset\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/rta10probeset.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/rta10probeset.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rta10probeset.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rta10probeset.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rta10probeset.db/meta.yaml>`_
 
-   
+   Affymetrix rta10 annotation data \(chip rta10probeset\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-rta10probeset.db

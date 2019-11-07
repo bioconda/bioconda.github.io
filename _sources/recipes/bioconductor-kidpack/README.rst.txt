@@ -9,20 +9,20 @@ bioconductor-kidpack
 .. conda:recipe:: bioconductor-kidpack
    :replaces_section_title:
 
-   kidney microarray data
+   DKFZ kidney package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/kidpack.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/kidpack.html
    :license: GPL-2
    :recipe: /`bioconductor-kidpack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kidpack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kidpack/meta.yaml>`_
 
-   
+   kidney microarray data
 
 
 .. conda:package:: bioconductor-kidpack
 
    |downloads_bioconductor-kidpack| |docker_bioconductor-kidpack|
 
-   :versions: 1.27.0-0, 1.26.0-1, 1.24.0-0
+   :versions: 1.28.0-0, 1.26.0-1, 1.24.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends curl: >=7.65.3,<8.0a0

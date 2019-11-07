@@ -9,13 +9,13 @@ bioconductor-illuminahumanmethylation27kanno.ilmn12.hg19
 .. conda:recipe:: bioconductor-illuminahumanmethylation27kanno.ilmn12.hg19
    :replaces_section_title:
 
-   An annotation package for Illumina\'s EPIC methylation arrays.
+   Annotation for Illumina\'s 27k methylation arrays
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/IlluminaHumanMethylation27kanno.ilmn12.hg19.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/IlluminaHumanMethylation27kanno.ilmn12.hg19.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-illuminahumanmethylation27kanno.ilmn12.hg19 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylation27kanno.ilmn12.hg19>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylation27kanno.ilmn12.hg19/meta.yaml>`_
 
-   
+   An annotation package for Illumina\'s EPIC methylation arrays.
 
 
 .. conda:package:: bioconductor-illuminahumanmethylation27kanno.ilmn12.hg19

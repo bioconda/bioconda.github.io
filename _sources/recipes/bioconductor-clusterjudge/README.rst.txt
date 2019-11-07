@@ -9,13 +9,13 @@ bioconductor-clusterjudge
 .. conda:recipe:: bioconductor-clusterjudge
    :replaces_section_title:
 
-   ClusterJudge implements the functions\, examples and other software published as an algorithm by Gibbons\, FD and Roth FP. The article is called \"Judging the Quality of Gene Expression\-Based Clustering Methods Using Gene Annotation\" and it appeared in Genome Research\, vol. 12\, pp1574\-1581 \(2002\). See package\?ClusterJudge for an overview.
+   Judging Quality of Clustering Methods using Mutual Information
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ClusterJudge.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ClusterJudge.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-clusterjudge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterjudge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterjudge/meta.yaml>`_
 
-   
+   ClusterJudge implements the functions\, examples and other software published as an algorithm by Gibbons\, FD and Roth FP. The article is called \"Judging the Quality of Gene Expression\-Based Clustering Methods Using Gene Annotation\" and it appeared in Genome Research\, vol. 12\, pp1574\-1581 \(2002\). See package\?ClusterJudge for an overview.
 
 
 .. conda:package:: bioconductor-clusterjudge

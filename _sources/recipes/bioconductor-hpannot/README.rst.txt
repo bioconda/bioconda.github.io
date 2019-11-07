@@ -9,13 +9,13 @@ bioconductor-hpannot
 .. conda:recipe:: bioconductor-hpannot
    :replaces_section_title:
 
-   Package containing example and annotation data for Hipathia package. Hipathia is a method for the computation of signal transduction along signaling pathways from transcriptomic data. The method is based on an iterative algorithm which is able to compute the signal intensity passing through the nodes of a network by taking into account the level of expression of each gene and the intensity of the signal arriving to it. It also provides a new approach to functional analysis allowing to compute the signal arriving to the functions annotated to each pathway. Hipathia depends on this package to be functional.
+   Anotation package for Hipathia package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hpAnnot.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hpAnnot.html
    :license: GPL-2
    :recipe: /`bioconductor-hpannot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hpannot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hpannot/meta.yaml>`_
 
-   
+   Package containing example and annotation data for Hipathia package. Hipathia is a method for the computation of signal transduction along signaling pathways from transcriptomic data. The method is based on an iterative algorithm which is able to compute the signal intensity passing through the nodes of a network by taking into account the level of expression of each gene and the intensity of the signal arriving to it. It also provides a new approach to functional analysis allowing to compute the signal arriving to the functions annotated to each pathway. Hipathia depends on this package to be functional.
 
 
 .. conda:package:: bioconductor-hpannot

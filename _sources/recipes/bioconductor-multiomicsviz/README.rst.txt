@@ -9,13 +9,13 @@ bioconductor-multiomicsviz
 .. conda:recipe:: bioconductor-multiomicsviz
    :replaces_section_title:
 
-   Calculate the spearman correlation between the source omics data and other target omics data\, identify the significant correlations and plot the significant correlations on the heat map in which the x\-axis and y\-axis are ordered by the chromosomal location.
+   Plot the effect of one omics data on other omics data along the chromosome
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/multiOmicsViz.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/multiOmicsViz.html
    :license: LGPL
    :recipe: /`bioconductor-multiomicsviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiomicsviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiomicsviz/meta.yaml>`_
 
-   
+   Calculate the spearman correlation between the source omics data and other target omics data\, identify the significant correlations and plot the significant correlations on the heat map in which the x\-axis and y\-axis are ordered by the chromosomal location.
 
 
 .. conda:package:: bioconductor-multiomicsviz

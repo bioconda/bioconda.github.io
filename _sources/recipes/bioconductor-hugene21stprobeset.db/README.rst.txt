@@ -9,13 +9,13 @@ bioconductor-hugene21stprobeset.db
 .. conda:recipe:: bioconductor-hugene21stprobeset.db
    :replaces_section_title:
 
-   Affymetrix hugene21 annotation data \(chip hugene21stprobeset\) assembled using data from public repositories
+   Affymetrix hugene21 annotation data \(chip hugene21stprobeset\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hugene21stprobeset.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hugene21stprobeset.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hugene21stprobeset.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hugene21stprobeset.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hugene21stprobeset.db/meta.yaml>`_
 
-   
+   Affymetrix hugene21 annotation data \(chip hugene21stprobeset\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-hugene21stprobeset.db

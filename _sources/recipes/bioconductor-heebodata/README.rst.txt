@@ -9,20 +9,20 @@ bioconductor-heebodata
 .. conda:recipe:: bioconductor-heebodata
    :replaces_section_title:
 
-   R objects describing the HEEBO oligo set.
+   HEEBO set and HEEBO controls.
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/HEEBOdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/HEEBOdata.html
    :license: LGPL
    :recipe: /`bioconductor-heebodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-heebodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-heebodata/meta.yaml>`_
 
-   
+   R objects describing the HEEBO oligo set.
 
 
 .. conda:package:: bioconductor-heebodata
 
    |downloads_bioconductor-heebodata| |docker_bioconductor-heebodata|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

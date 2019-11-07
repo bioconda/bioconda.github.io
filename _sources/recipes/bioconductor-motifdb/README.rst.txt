@@ -9,14 +9,14 @@ bioconductor-motifdb
 .. conda:recipe:: bioconductor-motifdb
    :replaces_section_title:
 
-   More than 9900 annotated position frequency matrices from 14 public sources\, for multiple organisms.
+   An Annotated Collection of Protein\-DNA Binding Sequence Motifs
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MotifDb.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MotifDb.html
    :license: Artistic-2.0 | file LICENSE
    :recipe: /`bioconductor-motifdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifdb/meta.yaml>`_
    :links: biotools: :biotools:`motifdb`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   More than 9900 annotated position frequency matrices from 14 public sources\, for multiple organisms.
 
 
 .. conda:package:: bioconductor-motifdb

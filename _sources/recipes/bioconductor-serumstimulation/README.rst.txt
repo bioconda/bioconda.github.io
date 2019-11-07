@@ -9,20 +9,20 @@ bioconductor-serumstimulation
 .. conda:recipe:: bioconductor-serumstimulation
    :replaces_section_title:
 
-   Contains 13 micro array data results from a serum stimulation experiment
+   serumStimulation is a data package which is used by examples in package pcaGoPromoter
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/serumStimulation.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/serumStimulation.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-serumstimulation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-serumstimulation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-serumstimulation/meta.yaml>`_
 
-   
+   Contains 13 micro array data results from a serum stimulation experiment
 
 
 .. conda:package:: bioconductor-serumstimulation
 
    |downloads_bioconductor-serumstimulation| |docker_bioconductor-serumstimulation|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

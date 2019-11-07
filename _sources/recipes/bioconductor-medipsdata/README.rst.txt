@@ -9,20 +9,20 @@ bioconductor-medipsdata
 .. conda:recipe:: bioconductor-medipsdata
    :replaces_section_title:
 
-   Example data for MEDIPS and QSEA packages\, consisting of chromosome 22 MeDIP and control\/Input sample data. Additionally\, the package contains MeDIP seq data from 3 NSCLC samples and adjacent normal tissue \(chr 20\-22\). All data has been aligned to human genome hg19.
+   Example data for MEDIPS and QSEA packages
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/MEDIPSData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/MEDIPSData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-medipsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medipsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medipsdata/meta.yaml>`_
 
-   
+   Example data for MEDIPS and QSEA packages\, consisting of chromosome 22 MeDIP and control\/Input sample data. Additionally\, the package contains MeDIP seq data from 3 NSCLC samples and adjacent normal tissue \(chr 20\-22\). All data has been aligned to human genome hg19.
 
 
 .. conda:package:: bioconductor-medipsdata
 
    |downloads_bioconductor-medipsdata| |docker_bioconductor-medipsdata|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

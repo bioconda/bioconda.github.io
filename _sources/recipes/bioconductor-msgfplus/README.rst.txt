@@ -9,13 +9,13 @@ bioconductor-msgfplus
 .. conda:recipe:: bioconductor-msgfplus
    :replaces_section_title:
 
-   This package contains function to perform peptide identification using the MS\-GF\+ algorithm. The package contains functionality for building up a parameter set both in code and through a simple GUI\, as well as running the algorithm in batches\, potentially asynchronously.
+   An interface between R and MS\-GF\+
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MSGFplus.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MSGFplus.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-msgfplus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msgfplus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msgfplus/meta.yaml>`_
 
-   
+   This package contains function to perform peptide identification using the MS\-GF\+ algorithm. The package contains functionality for building up a parameter set both in code and through a simple GUI\, as well as running the algorithm in batches\, potentially asynchronously.
 
 
 .. conda:package:: bioconductor-msgfplus

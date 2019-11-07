@@ -9,13 +9,13 @@ bioconductor-coveb
 .. conda:recipe:: bioconductor-coveb
    :replaces_section_title:
 
-   Using bayesian methods to estimate correlation matrices assuming that they can be written and estimated as block diagonal matrices. These block diagonal matrices are determined using shrinkage parameters that values below this parameter to zero.
+   Empirical Bayes estimate of block diagonal covariance matrices
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/covEB.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/covEB.html
    :license: GPL-3
    :recipe: /`bioconductor-coveb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coveb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coveb/meta.yaml>`_
 
-   
+   Using bayesian methods to estimate correlation matrices assuming that they can be written and estimated as block diagonal matrices. These block diagonal matrices are determined using shrinkage parameters that values below this parameter to zero.
 
 
 .. conda:package:: bioconductor-coveb

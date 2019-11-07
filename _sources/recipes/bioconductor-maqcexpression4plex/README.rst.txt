@@ -9,20 +9,20 @@ bioconductor-maqcexpression4plex
 .. conda:recipe:: bioconductor-maqcexpression4plex
    :replaces_section_title:
 
-   Data from human \(HG18\) 4plex NimbleGen array. It has 24k genes with 3 60mer probes per gene.
+   Sample Expression Data \- MAQC \/ HG18 \- NimbleGen
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/maqcExpression4plex.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/maqcExpression4plex.html
    :license: GPL
    :recipe: /`bioconductor-maqcexpression4plex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maqcexpression4plex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maqcexpression4plex/meta.yaml>`_
 
-   
+   Data from human \(HG18\) 4plex NimbleGen array. It has 24k genes with 3 60mer probes per gene.
 
 
 .. conda:package:: bioconductor-maqcexpression4plex
 
    |downloads_bioconductor-maqcexpression4plex| |docker_bioconductor-maqcexpression4plex|
 
-   :versions: 1.29.0-0, 1.28.0-1, 1.28.0-0, 1.26.0-0
+   :versions: 1.30.0-0, 1.28.0-1, 1.28.0-0, 1.26.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

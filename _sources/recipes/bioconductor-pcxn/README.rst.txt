@@ -9,22 +9,22 @@ bioconductor-pcxn
 .. conda:recipe:: bioconductor-pcxn
    :replaces_section_title:
 
-   Discover the correlated pathways\/gene sets of a single pathway\/gene set or discover correlation relationships among multiple pathways\/gene sets. Draw a heatmap or create a network of your query and extract members of each pathway\/gene set found in the available collections \(MSigDB H hallmark\, MSigDB C2 Canonical pathways\, MSigDB C5 GO BP and Pathprint\).
+   Exploring\, analyzing and visualizing functions utilizing the pcxnData package
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/pcxn.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/pcxn.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-pcxn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcxn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcxn/meta.yaml>`_
 
-   
+   Discover the correlated pathways\/gene sets of a single pathway\/gene set or discover correlation relationships among multiple pathways\/gene sets. Draw a heatmap or create a network of your query and extract members of each pathway\/gene set found in the available collections \(MSigDB H hallmark\, MSigDB C2 Canonical pathways\, MSigDB C5 GO BP and Pathprint\).
 
 
 .. conda:package:: bioconductor-pcxn
 
    |downloads_bioconductor-pcxn| |docker_bioconductor-pcxn|
 
-   :versions: 2.8.0-0, 2.6.0-1, 2.6.0-0, 2.4.0-0
+   :versions: 2.6.0-1, 2.6.0-0, 2.4.0-0
    
-   :depends bioconductor-pcxndata: >=2.7.0,<2.8.0
+   :depends bioconductor-pcxndata: >=2.6.0,<2.7.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-pheatmap: 
    :requirements:

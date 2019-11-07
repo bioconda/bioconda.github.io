@@ -9,14 +9,14 @@ bioconductor-rpa
 .. conda:recipe:: bioconductor-rpa
    :replaces_section_title:
 
-   Probabilistic analysis of probe reliability and differential gene expression on short oligonucleotide arrays.
+   RPA\: Robust Probabilistic Averaging for probe\-level analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RPA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RPA.html
    :license: BSD_2_clause + file LICENSE
    :recipe: /`bioconductor-rpa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rpa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rpa/meta.yaml>`_
    :links: biotools: :biotools:`rpa`
 
-   
+   Probabilistic analysis of probe reliability and differential gene expression on short oligonucleotide arrays.
 
 
 .. conda:package:: bioconductor-rpa

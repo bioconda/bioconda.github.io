@@ -9,13 +9,13 @@ bioconductor-sevenbridges
 .. conda:recipe:: bioconductor-sevenbridges
    :replaces_section_title:
 
-   R client and utilities for Seven Bridges platform API\, from Cancer Genomics Cloud to other Seven Bridges supported platforms.
+   Seven Bridges Platform API Client and Common Workflow Language Tool Builder in R
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/sevenbridges.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/sevenbridges.html
    :license: Apache License 2.0 | file LICENSE
    :recipe: /`bioconductor-sevenbridges <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sevenbridges>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sevenbridges/meta.yaml>`_
 
-   
+   R client and utilities for Seven Bridges platform API\, from Cancer Genomics Cloud to other Seven Bridges supported platforms.
 
 
 .. conda:package:: bioconductor-sevenbridges

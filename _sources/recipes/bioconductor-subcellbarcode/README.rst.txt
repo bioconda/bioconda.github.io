@@ -9,13 +9,13 @@ bioconductor-subcellbarcode
 .. conda:recipe:: bioconductor-subcellbarcode
    :replaces_section_title:
 
-   Mass\-Spectrometry based spatial proteomics have enabled the proteome\-wide mapping of protein subcellular localization \(Orre et al. 2019\, Molecular Cell\). SubCellBarCode R package robustly classifies proteins into corresponding subcellular localization.
+   SubCellBarCode\: Integrated workflow for robust mapping and visualizing whole human spatial proteome
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SubCellBarCode.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SubCellBarCode.html
    :license: GPL-2
    :recipe: /`bioconductor-subcellbarcode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-subcellbarcode>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-subcellbarcode/meta.yaml>`_
 
-   
+   Mass\-Spectrometry based spatial proteomics have enabled the proteome\-wide mapping of protein subcellular localization \(Orre et al. 2019\, Molecular Cell\). SubCellBarCode R package robustly classifies proteins into corresponding subcellular localization.
 
 
 .. conda:package:: bioconductor-subcellbarcode

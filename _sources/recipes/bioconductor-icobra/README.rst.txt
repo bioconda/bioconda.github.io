@@ -9,14 +9,14 @@ bioconductor-icobra
 .. conda:recipe:: bioconductor-icobra
    :replaces_section_title:
 
-   This package provides functions for calculation and visualization of performance metrics for evaluation of ranking and binary classification \(assignment\) methods. It also contains a shiny application for interactive exploration of results.
+   Comparison and Visualization of Ranking and Assignment Methods
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/iCOBRA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/iCOBRA.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-icobra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icobra>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icobra/meta.yaml>`_
    :links: biotools: :biotools:`icobra`
 
-   
+   This package provides functions for calculation and visualization of performance metrics for evaluation of ranking and binary classification \(assignment\) methods. It also contains a shiny application for interactive exploration of results.
 
 
 .. conda:package:: bioconductor-icobra

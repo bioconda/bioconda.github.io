@@ -9,13 +9,13 @@ bioconductor-paxtoolsr
 .. conda:recipe:: bioconductor-paxtoolsr
    :replaces_section_title:
 
-   The package provides a set of R functions for interacting with BioPAX OWL files using Paxtools and the querying Pathway Commons \(PC\) molecular interaction database that are hosted by the Computational Biology Center at Memorial Sloan\-Kettering Cancer Center \(MSKCC\). Pathway Commons databases include\: BIND\, BioGRID\, CORUM\, CTD\, DIP\, DrugBank\, HPRD\, HumanCyc\, IntAct\, KEGG\, MirTarBase\, Panther\, PhosphoSitePlus\, Reactome\, RECON\, TRANSFAC.
+   PaxtoolsR\: Access Pathways from Multiple Databases through BioPAX and Pathway Commons
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/paxtoolsr.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/paxtoolsr.html
    :license: LGPL-3
    :recipe: /`bioconductor-paxtoolsr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-paxtoolsr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-paxtoolsr/meta.yaml>`_
 
-   
+   The package provides a set of R functions for interacting with BioPAX OWL files using Paxtools and the querying Pathway Commons \(PC\) molecular interaction database that are hosted by the Computational Biology Center at Memorial Sloan\-Kettering Cancer Center \(MSKCC\). Pathway Commons databases include\: BIND\, BioGRID\, CORUM\, CTD\, DIP\, DrugBank\, HPRD\, HumanCyc\, IntAct\, KEGG\, MirTarBase\, Panther\, PhosphoSitePlus\, Reactome\, RECON\, TRANSFAC.
 
 
 .. conda:package:: bioconductor-paxtoolsr

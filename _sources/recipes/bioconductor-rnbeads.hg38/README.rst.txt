@@ -9,20 +9,20 @@ bioconductor-rnbeads.hg38
 .. conda:recipe:: bioconductor-rnbeads.hg38
    :replaces_section_title:
 
-   Automatically generated RnBeads annotation package for the assembly hg38.
+   RnBeads.hg38
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RnBeads.hg38.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RnBeads.hg38.html
    :license: GPL-3
    :recipe: /`bioconductor-rnbeads.hg38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnbeads.hg38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnbeads.hg38/meta.yaml>`_
 
-   
+   Automatically generated RnBeads annotation package for the assembly hg38.
 
 
 .. conda:package:: bioconductor-rnbeads.hg38
 
    |downloads_bioconductor-rnbeads.hg38| |docker_bioconductor-rnbeads.hg38|
 
-   :versions: 1.17.0-0, 1.16.0-1, 1.14.0-0
+   :versions: 1.18.0-0, 1.16.0-1, 1.14.0-0
    
    :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
    :depends curl: >=7.65.3,<8.0a0

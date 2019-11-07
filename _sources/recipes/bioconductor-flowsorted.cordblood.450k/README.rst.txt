@@ -9,20 +9,20 @@ bioconductor-flowsorted.cordblood.450k
 .. conda:recipe:: bioconductor-flowsorted.cordblood.450k
    :replaces_section_title:
 
-   Raw data objects to be used for cord blood cell proportion estimation in minfi.
+   Illumina 450k data on sorted cord blood cells
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/FlowSorted.CordBlood.450k.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/FlowSorted.CordBlood.450k.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowsorted.cordblood.450k <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.cordblood.450k>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.cordblood.450k/meta.yaml>`_
 
-   
+   Raw data objects to be used for cord blood cell proportion estimation in minfi.
 
 
 .. conda:package:: bioconductor-flowsorted.cordblood.450k
 
    |downloads_bioconductor-flowsorted.cordblood.450k| |docker_bioconductor-flowsorted.cordblood.450k|
 
-   :versions: 1.13.0-0, 1.10.0-1, 1.10.0-0
+   :versions: 1.14.0-0, 1.10.0-1, 1.10.0-0
    
    :depends bioconductor-minfi: >=1.32.0,<1.33.0
    :depends curl: >=7.65.3,<8.0a0

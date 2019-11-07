@@ -11,18 +11,18 @@ bioconductor-bsseqdata
 
    Example whole genome bisulfite data for the bsseq package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/bsseqData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/bsseqData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsseqdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsseqdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsseqdata/meta.yaml>`_
 
-   
+   Example whole genome bisulfite data for the bsseq package
 
 
 .. conda:package:: bioconductor-bsseqdata
 
    |downloads_bioconductor-bsseqdata| |docker_bioconductor-bsseqdata|
 
-   :versions: 0.23.0-0, 0.22.0-1, 0.20.0-0
+   :versions: 0.24.0-0, 0.22.0-1, 0.20.0-0
    
    :depends bioconductor-bsseq: >=1.22.0,<1.23.0
    :depends curl: >=7.65.3,<8.0a0

@@ -9,13 +9,13 @@ bioconductor-daglogo
 .. conda:recipe:: bioconductor-daglogo
    :replaces_section_title:
 
-   Visualize significant conserved amino acid sequence pattern in groups based on probability theory.
+   dagLogo\: a bioconductor package for visualizeing conserved amino acid sequence pattern in groups based on probability theory
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/dagLogo.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/dagLogo.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-daglogo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-daglogo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-daglogo/meta.yaml>`_
 
-   
+   Visualize significant conserved amino acid sequence pattern in groups based on probability theory.
 
 
 .. conda:package:: bioconductor-daglogo

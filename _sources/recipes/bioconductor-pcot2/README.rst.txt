@@ -9,14 +9,14 @@ bioconductor-pcot2
 .. conda:recipe:: bioconductor-pcot2
    :replaces_section_title:
 
-   PCOT2 is a permutation\-based method for investigating changes in the activity of multi\-gene networks. It utilizes inter\-gene correlation information to detect significant alterations in gene network activities. Currently it can be applied to two\-sample comparisons.
+   Principal Coordinates and Hotelling\'s T\-Square method
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/pcot2.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/pcot2.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-pcot2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcot2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcot2/meta.yaml>`_
    :links: biotools: :biotools:`pcot2`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   PCOT2 is a permutation\-based method for investigating changes in the activity of multi\-gene networks. It utilizes inter\-gene correlation information to detect significant alterations in gene network activities. Currently it can be applied to two\-sample comparisons.
 
 
 .. conda:package:: bioconductor-pcot2

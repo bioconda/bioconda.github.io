@@ -9,13 +9,13 @@ bioconductor-tkwidgets
 .. conda:recipe:: bioconductor-tkwidgets
    :replaces_section_title:
 
-   Widgets to provide user interfaces. tcltk should have been installed for the widgets to run.
+   R based tk widgets
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/tkWidgets.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/tkWidgets.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tkwidgets <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tkwidgets>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tkwidgets/meta.yaml>`_
 
-   
+   Widgets to provide user interfaces. tcltk should have been installed for the widgets to run.
 
 
 .. conda:package:: bioconductor-tkwidgets

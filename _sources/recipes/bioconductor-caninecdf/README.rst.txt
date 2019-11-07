@@ -9,13 +9,13 @@ bioconductor-caninecdf
 .. conda:recipe:: bioconductor-caninecdf
    :replaces_section_title:
 
-   A package containing an environment representing the Canine.cdf file.
+   caninecdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/caninecdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/caninecdf.html
    :license: LGPL
    :recipe: /`bioconductor-caninecdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-caninecdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-caninecdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the Canine.cdf file.
 
 
 .. conda:package:: bioconductor-caninecdf

@@ -9,13 +9,13 @@ bioconductor-mesh.syn.eg.db
 .. conda:recipe:: bioconductor-mesh.syn.eg.db
    :replaces_section_title:
 
-   Entrez Gene ID to MeSH ID table.
+   Mapping table for Cyanobacteria Gene ID to MeSH
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/MeSH.Syn.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/MeSH.Syn.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.syn.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.syn.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.syn.eg.db/meta.yaml>`_
 
-   
+   Entrez Gene ID to MeSH ID table.
 
 
 .. conda:package:: bioconductor-mesh.syn.eg.db

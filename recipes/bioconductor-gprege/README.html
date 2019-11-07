@@ -102,10 +102,10 @@
 <dl class="recipe">
 <dt id="recipe-bioconductor-gprege">
 <em class="property">recipe </em><code class="sig-name descname">bioconductor-gprege</code><a class="headerlink" href="#recipe-bioconductor-gprege" title="Permalink to this definition">¶</a></dt>
-<dd><p>The gprege package implements the methodology described in Kalaitzis &amp; Lawrence (2011) “A simple approach to ranking differentially expressed gene expression time-courses through Gaussian process regression”. The software fits two GPs with the an RBF (+ noise diagonal) kernel on each profile. One GP kernel is initialised wih a short lengthscale hyperparameter, signal variance as the observed variance and a zero noise variance. It is optimised via scaled conjugate gradients (netlab). A second GP has fixed hyperparameters: zero inverse-width, zero signal variance and noise variance as the observed variance. The log-ratio of marginal likelihoods of the two hypotheses acts as a score of differential expression for the profile. Comparison via ROC curves is performed against BATS (Angelini et.al, 2007). A detailed discussion of the ranking approach and dataset used can be found in the paper (http://www.biomedcentral.com/1471-2105/12/180).</p>
+<dd><p>Gaussian Process Ranking and Estimation of Gene Expression time-series</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.9/bioc/html/gprege.html">https://bioconductor.org/packages/3.9/bioc/html/gprege.html</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.10/bioc/html/gprege.html">https://bioconductor.org/packages/3.10/bioc/html/gprege.html</a></p>
 </dd>
 <dt class="field-even">License</dt>
 <dd class="field-even"><p>AGPL-3</p>
@@ -114,6 +114,7 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gprege">bioconductor-gprege</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gprege/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
+<p>The gprege package implements the methodology described in Kalaitzis &amp; Lawrence (2011) “A simple approach to ranking differentially expressed gene expression time-courses through Gaussian process regression”. The software fits two GPs with the an RBF (+ noise diagonal) kernel on each profile. One GP kernel is initialised wih a short lengthscale hyperparameter, signal variance as the observed variance and a zero noise variance. It is optimised via scaled conjugate gradients (netlab). A second GP has fixed hyperparameters: zero inverse-width, zero signal variance and noise variance as the observed variance. The log-ratio of marginal likelihoods of the two hypotheses acts as a score of differential expression for the profile. Comparison via ROC curves is performed against BATS (Angelini et.al, 2007). A detailed discussion of the ranking approach and dataset used can be found in the paper (http://www.biomedcentral.com/1471-2105/12/180).</p>
 </dd></dl>
 
 <dl class="package">

@@ -9,13 +9,13 @@ bioconductor-organism.dplyr
 .. conda:recipe:: bioconductor-organism.dplyr
    :replaces_section_title:
 
-   This package provides an alternative interface to Bioconductor \'annotation\' resources\, in particular the gene identifier mapping functionality of the \'org\' packages \(e.g.\, org.Hs.eg.db\) and the genome coordinate functionality of the \'TxDb\' packages \(e.g.\, TxDb.Hsapiens.UCSC.hg38.knownGene\).
+   dplyr\-based Access to Bioconductor Annotation Resources
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Organism.dplyr.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Organism.dplyr.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-organism.dplyr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-organism.dplyr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-organism.dplyr/meta.yaml>`_
 
-   
+   This package provides an alternative interface to Bioconductor \'annotation\' resources\, in particular the gene identifier mapping functionality of the \'org\' packages \(e.g.\, org.Hs.eg.db\) and the genome coordinate functionality of the \'TxDb\' packages \(e.g.\, TxDb.Hsapiens.UCSC.hg38.knownGene\).
 
 
 .. conda:package:: bioconductor-organism.dplyr

@@ -9,20 +9,20 @@ bioconductor-curatedadiporna
 .. conda:recipe:: bioconductor-curatedadiporna
    :replaces_section_title:
 
-   A curated dataset of RNA\-Seq samples. The samples are MDI\-induced pre\-phagocytes \(3T3\-L1\) at different time points\/stage of differentiation. The package document the data collection\, pre\-processing and processing. In addition to the documentation\, the package contains the scripts that was used to generated the data.
+   A Curated RNA\-Seq Dataset of MDI\-induced Differentiated Adipocytes \(3T3\-L1\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/curatedAdipoRNA.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/curatedAdipoRNA.html
    :license: GPL-3
    :recipe: /`bioconductor-curatedadiporna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedadiporna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedadiporna/meta.yaml>`_
 
-   
+   A curated dataset of RNA\-Seq samples. The samples are MDI\-induced pre\-phagocytes \(3T3\-L1\) at different time points\/stage of differentiation. The package document the data collection\, pre\-processing and processing. In addition to the documentation\, the package contains the scripts that was used to generated the data.
 
 
 .. conda:package:: bioconductor-curatedadiporna
 
    |downloads_bioconductor-curatedadiporna| |docker_bioconductor-curatedadiporna|
 
-   :versions: 1.1.0-0, 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
    :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends curl: >=7.65.3,<8.0a0

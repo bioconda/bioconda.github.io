@@ -9,13 +9,13 @@ bioconductor-drawproteins
 .. conda:recipe:: bioconductor-drawproteins
    :replaces_section_title:
 
-   This package draws protein schematics from Uniprot API output. From the JSON returned by the GET command\, it creates a dataframe from the Uniprot Features API. This dataframe can then be used by geoms based on ggplot2 and base R to draw protein schematics.
+   Package to Draw Protein Schematics from Uniprot API output
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/drawProteins.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/drawProteins.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-drawproteins <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drawproteins>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drawproteins/meta.yaml>`_
 
-   
+   This package draws protein schematics from Uniprot API output. From the JSON returned by the GET command\, it creates a dataframe from the Uniprot Features API. This dataframe can then be used by geoms based on ggplot2 and base R to draw protein schematics.
 
 
 .. conda:package:: bioconductor-drawproteins

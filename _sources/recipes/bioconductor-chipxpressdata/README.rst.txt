@@ -9,20 +9,20 @@ bioconductor-chipxpressdata
 .. conda:recipe:: bioconductor-chipxpressdata
    :replaces_section_title:
 
-   Contains pre\-built mouse \(GPL1261\) and human \(GPL570\) database of gene expression profiles to be used for ChIPXpress ranking.
+   ChIPXpress Pre\-built Databases
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ChIPXpressData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ChIPXpressData.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-chipxpressdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipxpressdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipxpressdata/meta.yaml>`_
 
-   
+   Contains pre\-built mouse \(GPL1261\) and human \(GPL570\) database of gene expression profiles to be used for ChIPXpress ranking.
 
 
 .. conda:package:: bioconductor-chipxpressdata
 
    |downloads_bioconductor-chipxpressdata| |docker_bioconductor-chipxpressdata|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
+   :versions: 1.22.0-1, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

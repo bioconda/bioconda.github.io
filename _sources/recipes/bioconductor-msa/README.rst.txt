@@ -9,13 +9,13 @@ bioconductor-msa
 .. conda:recipe:: bioconductor-msa
    :replaces_section_title:
 
-   The \'msa\' package provides a unified R\/Bioconductor interface to the multiple sequence alignment algorithms ClustalW\, ClustalOmega\, and Muscle. All three algorithms are integrated in the package\, therefore\, they do not depend on any external software tools and are available for all major platforms. The multiple sequence alignment algorithms are complemented by a function for pretty\-printing multiple sequence alignments using the LaTeX package TeXshade.
+   Multiple Sequence Alignment
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/msa.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/msa.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-msa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msa/meta.yaml>`_
 
-   
+   The \'msa\' package provides a unified R\/Bioconductor interface to the multiple sequence alignment algorithms ClustalW\, ClustalOmega\, and Muscle. All three algorithms are integrated in the package\, therefore\, they do not depend on any external software tools and are available for all major platforms. The multiple sequence alignment algorithms are complemented by a function for pretty\-printing multiple sequence alignments using the LaTeX package TeXshade.
 
 
 .. conda:package:: bioconductor-msa

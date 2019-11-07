@@ -9,25 +9,25 @@ bioconductor-liquidassociation
 .. conda:recipe:: bioconductor-liquidassociation
    :replaces_section_title:
 
-   The package contains functions for calculate direct and model\-based estimators for liquid association. It also provides functions for testing the existence of liquid association given a gene triplet data.
+   LiquidAssociation
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/LiquidAssociation.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/LiquidAssociation.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-liquidassociation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-liquidassociation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-liquidassociation/meta.yaml>`_
    :links: biotools: :biotools:`liquidassociation`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   The package contains functions for calculate direct and model\-based estimators for liquid association. It also provides functions for testing the existence of liquid association given a gene triplet data.
 
 
 .. conda:package:: bioconductor-liquidassociation
 
    |downloads_bioconductor-liquidassociation| |docker_bioconductor-liquidassociation|
 
-   :versions: 1.40.0-0, 1.38.0-1, 1.36.0-0, 1.34.0-0, 1.32.0-0
+   :versions: 1.38.0-1, 1.36.0-0, 1.34.0-0, 1.32.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-org.sc.sgd.db: >=3.10.0,<3.11.0
-   :depends bioconductor-yeastcc: >=1.25.0,<1.26.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-org.sc.sgd.db: >=3.8.0,<3.9.0
+   :depends bioconductor-yeastcc: >=1.24.0,<1.25.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-geepack: 
    :requirements:

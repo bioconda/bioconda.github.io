@@ -9,20 +9,20 @@ bioconductor-flowfitexampledata
 .. conda:recipe:: bioconductor-flowfitexampledata
    :replaces_section_title:
 
-   Two dataset that can be used to run examples from the flowFit vignette and examples
+   Example data for the flowFit package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/flowFitExampleData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/flowFitExampleData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowfitexampledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowfitexampledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowfitexampledata/meta.yaml>`_
 
-   
+   Two dataset that can be used to run examples from the flowFit vignette and examples
 
 
 .. conda:package:: bioconductor-flowfitexampledata
 
    |downloads_bioconductor-flowfitexampledata| |docker_bioconductor-flowfitexampledata|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.18.0-0
    
    :depends bioconductor-flowcore: >=1.52.0,<1.53.0
    :depends curl: >=7.65.3,<8.0a0

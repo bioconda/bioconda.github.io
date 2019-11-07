@@ -9,24 +9,24 @@ bioconductor-flowsorted.blood.450k
 .. conda:recipe:: bioconductor-flowsorted.blood.450k
    :replaces_section_title:
 
-   Raw data objects for the Illumina 450k DNA methylation microarrays\, and an object depicting which CpGs on the array are associated with cell type.
+   Illumina HumanMethylation data on sorted blood cell populations
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/FlowSorted.Blood.450k.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/FlowSorted.Blood.450k.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowsorted.blood.450k <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.blood.450k>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.blood.450k/meta.yaml>`_
 
-   
+   Raw data objects for the Illumina 450k DNA methylation microarrays\, and an object depicting which CpGs on the array are associated with cell type.
 
 
 .. conda:package:: bioconductor-flowsorted.blood.450k
 
    |downloads_bioconductor-flowsorted.blood.450k| |docker_bioconductor-flowsorted.blood.450k|
 
-   :versions: 1.23.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
+   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-0
    
-   :depends bioconductor-minfi: >=1.32.0,<1.33.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-minfi: >=1.28.0,<1.29.0
+   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends wget: 
    :requirements:
 
    .. rubric:: Installation

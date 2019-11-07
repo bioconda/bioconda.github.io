@@ -9,14 +9,14 @@ bioconductor-fourcseq
 .. conda:recipe:: bioconductor-fourcseq
    :replaces_section_title:
 
-   FourCSeq is an R package dedicated to the analysis of \(multiplexed\) 4C sequencing data. The package provides a pipeline to detect specific interactions between DNA elements and identify differential interactions between conditions. The statistical analysis in R starts with individual bam files for each sample as inputs. To obtain these files\, the package contains a python script \(extdata\/python\/demultiplex.py\) to demultiplex libraries and trim off primer sequences. With a standard alignment software the required bam files can be then be generated.
+   Package analyse 4C sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/FourCSeq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/FourCSeq.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-fourcseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fourcseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fourcseq/meta.yaml>`_
    :links: biotools: :biotools:`fourcseq`
 
-   
+   FourCSeq is an R package dedicated to the analysis of \(multiplexed\) 4C sequencing data. The package provides a pipeline to detect specific interactions between DNA elements and identify differential interactions between conditions. The statistical analysis in R starts with individual bam files for each sample as inputs. To obtain these files\, the package contains a python script \(extdata\/python\/demultiplex.py\) to demultiplex libraries and trim off primer sequences. With a standard alignment software the required bam files can be then be generated.
 
 
 .. conda:package:: bioconductor-fourcseq

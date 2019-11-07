@@ -9,14 +9,14 @@ bioconductor-flowsom
 .. conda:recipe:: bioconductor-flowsom
    :replaces_section_title:
 
-   FlowSOM offers visualization options for cytometry data\, by using Self\-Organizing Map clustering and Minimal Spanning Trees.
+   Using self\-organizing maps for visualization and interpretation of cytometry data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/FlowSOM.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/FlowSOM.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-flowsom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsom/meta.yaml>`_
    :links: biotools: :biotools:`flowsom`, doi: :doi:`10.1002/cyto.a.22625`
 
-   
+   FlowSOM offers visualization options for cytometry data\, by using Self\-Organizing Map clustering and Minimal Spanning Trees.
 
 
 .. conda:package:: bioconductor-flowsom

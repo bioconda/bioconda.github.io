@@ -9,13 +9,13 @@ bioconductor-tofsims
 .. conda:recipe:: bioconductor-tofsims
    :replaces_section_title:
 
-   This packages offers a pipeline for import\, processing and analysis of ToF\-SIMS 2D image data. Import of Iontof and Ulvac\-Phi raw or preprocessed data is supported. For rawdata\, mass calibration\, peak picking and peak integration exist. General funcionality includes data binning\, scaling\, image subsetting and visualization. A range of multivariate tools common in the ToF\-SIMS community are implemented \(PCA\, MCR\, MAF\, MNF\). An interface to the bioconductor image processing package EBImage offers image segmentation functionality.
+   Import\, process and analysis of Time\-of\-Flight Secondary Ion Mass Spectrometry \(ToF\-SIMS\) imaging data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/tofsims.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/tofsims.html
    :license: GPL-3
    :recipe: /`bioconductor-tofsims <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tofsims>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tofsims/meta.yaml>`_
 
-   
+   This packages offers a pipeline for import\, processing and analysis of ToF\-SIMS 2D image data. Import of Iontof and Ulvac\-Phi raw or preprocessed data is supported. For rawdata\, mass calibration\, peak picking and peak integration exist. General funcionality includes data binning\, scaling\, image subsetting and visualization. A range of multivariate tools common in the ToF\-SIMS community are implemented \(PCA\, MCR\, MAF\, MNF\). An interface to the bioconductor image processing package EBImage offers image segmentation functionality.
 
 
 .. conda:package:: bioconductor-tofsims

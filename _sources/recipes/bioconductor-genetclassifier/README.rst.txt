@@ -9,14 +9,14 @@ bioconductor-genetclassifier
 .. conda:recipe:: bioconductor-genetclassifier
    :replaces_section_title:
 
-   Comprehensive package to automatically train and validate a multi\-class SVM classifier based on gene expression data. Provides transparent selection of gene markers\, their coexpression networks\, and an interface to query the classifier.
+   Classify diseases and build associated gene networks using gene expression profiles
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/geNetClassifier.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/geNetClassifier.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-genetclassifier <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genetclassifier>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genetclassifier/meta.yaml>`_
    :links: biotools: :biotools:`genetclassifier`
 
-   
+   Comprehensive package to automatically train and validate a multi\-class SVM classifier based on gene expression data. Provides transparent selection of gene markers\, their coexpression networks\, and an interface to query the classifier.
 
 
 .. conda:package:: bioconductor-genetclassifier

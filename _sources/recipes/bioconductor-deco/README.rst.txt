@@ -9,13 +9,13 @@ bioconductor-deco
 .. conda:recipe:: bioconductor-deco
    :replaces_section_title:
 
-   This package discovers differential features in hetero\- and homogeneous omic data by a two\-step method including subsampling LIMMA and NSCA. DECO reveals feature associations to hidden subclasses not exclusively related to higher deregulation levels.
+   Decomposing Heterogeneous Cohorts using Omic Data Profiling
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/deco.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/deco.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-deco <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deco>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deco/meta.yaml>`_
 
-   
+   This package discovers differential features in hetero\- and homogeneous omic data by a two\-step method including subsampling LIMMA and NSCA. DECO reveals feature associations to hidden subclasses not exclusively related to higher deregulation levels.
 
 
 .. conda:package:: bioconductor-deco

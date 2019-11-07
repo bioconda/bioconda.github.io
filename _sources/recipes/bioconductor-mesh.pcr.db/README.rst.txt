@@ -9,13 +9,13 @@ bioconductor-mesh.pcr.db
 .. conda:recipe:: bioconductor-mesh.pcr.db
    :replaces_section_title:
 
-   A set of PCR \(parent\-child relationship\) in MeSH.
+   A set of annotation maps describing the entire MeSH
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/MeSH.PCR.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/MeSH.PCR.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.pcr.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.pcr.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.pcr.db/meta.yaml>`_
 
-   
+   A set of PCR \(parent\-child relationship\) in MeSH.
 
 
 .. conda:package:: bioconductor-mesh.pcr.db

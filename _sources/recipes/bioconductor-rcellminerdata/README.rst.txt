@@ -9,20 +9,20 @@ bioconductor-rcellminerdata
 .. conda:recipe:: bioconductor-rcellminerdata
    :replaces_section_title:
 
-   The NCI\-60 cancer cell line panel has been used over the course of several decades as an anti\-cancer drug screen. This panel was developed as part of the Developmental Therapeutics Program \(DTP\, http\:\/\/dtp.nci.nih.gov\/\) of the U.S. National Cancer Institute \(NCI\). Thousands of compounds have been tested on the NCI\-60\, which have been extensively characterized by many platforms for gene and protein expression\, copy number\, mutation\, and others \(Reinhold\, et al.\, 2012\). The purpose of the CellMiner project \(http\:\/\/discover.nci.nih.gov\/ cellminer\) has been to integrate data from multiple platforms used to analyze the NCI\-60 and to provide a powerful suite of tools for exploration of NCI\-60 data.
+   rcellminerData\: Molecular Profiles and Drug Response for the NCI\-60 Cell Lines
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/rcellminerData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/rcellminerData.html
    :license: LGPL-3 + file LICENSE
    :recipe: /`bioconductor-rcellminerdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcellminerdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcellminerdata/meta.yaml>`_
 
-   
+   The NCI\-60 cancer cell line panel has been used over the course of several decades as an anti\-cancer drug screen. This panel was developed as part of the Developmental Therapeutics Program \(DTP\, http\:\/\/dtp.nci.nih.gov\/\) of the U.S. National Cancer Institute \(NCI\). Thousands of compounds have been tested on the NCI\-60\, which have been extensively characterized by many platforms for gene and protein expression\, copy number\, mutation\, and others \(Reinhold\, et al.\, 2012\). The purpose of the CellMiner project \(http\:\/\/discover.nci.nih.gov\/ cellminer\) has been to integrate data from multiple platforms used to analyze the NCI\-60 and to provide a powerful suite of tools for exploration of NCI\-60 data.
 
 
 .. conda:package:: bioconductor-rcellminerdata
 
    |downloads_bioconductor-rcellminerdata| |docker_bioconductor-rcellminerdata|
 
-   :versions: 2.7.0-0, 2.6.0-1, 2.4.0-0
+   :versions: 2.8.0-0, 2.6.0-1, 2.4.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends curl: >=7.65.3,<8.0a0

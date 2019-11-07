@@ -9,20 +9,20 @@ bioconductor-rtcga.mutations
 .. conda:recipe:: bioconductor-rtcga.mutations
    :replaces_section_title:
 
-   Package provides mutations datasets from The Cancer Genome Atlas Project for all cohorts types from http\:\/\/gdac.broadinstitute.org\/. Mutations data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/Mutation\+Annotation\+Format\+\(MAF\)\+Specification. There is extra one column with patients\' barcodes. Data from 2015\-11\-01 snapshot.
+   Mutations datasets from The Cancer Genome Atlas Project
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RTCGA.mutations.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RTCGA.mutations.html
    :license: GPL-2
    :recipe: /`bioconductor-rtcga.mutations <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.mutations>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.mutations/meta.yaml>`_
 
-   
+   Package provides mutations datasets from The Cancer Genome Atlas Project for all cohorts types from http\:\/\/gdac.broadinstitute.org\/. Mutations data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/Mutation\+Annotation\+Format\+\(MAF\)\+Specification. There is extra one column with patients\' barcodes. Data from 2015\-11\-01 snapshot.
 
 
 .. conda:package:: bioconductor-rtcga.mutations
 
    |downloads_bioconductor-rtcga.mutations| |docker_bioconductor-rtcga.mutations|
 
-   :versions: 20151101.15.0-0, 20151101.14.0-1, 20151101.14.0-0, 20151101.12.0-0
+   :versions: 20151101.16.0-0, 20151101.14.0-1, 20151101.14.0-0, 20151101.12.0-0
    
    :depends bioconductor-rtcga: >=1.16.0,<1.17.0
    :depends curl: >=7.65.3,<8.0a0

@@ -9,14 +9,14 @@ bioconductor-sights
 .. conda:recipe:: bioconductor-sights
    :replaces_section_title:
 
-   SIGHTS is a suite of normalization methods\, statistical tests\, and diagnostic graphical tools for high throughput screening \(HTS\) assays. HTS assays use microtitre plates to screen large libraries of compounds for their biological\, chemical\, or biochemical activity.
+   Statistics and dIagnostic Graphs for HTS
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/sights.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/sights.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-sights <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sights>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sights/meta.yaml>`_
    :links: biotools: :biotools:`sights`, doi: :doi:`10.1177/1087057114548853`
 
-   
+   SIGHTS is a suite of normalization methods\, statistical tests\, and diagnostic graphical tools for high throughput screening \(HTS\) assays. HTS assays use microtitre plates to screen large libraries of compounds for their biological\, chemical\, or biochemical activity.
 
 
 .. conda:package:: bioconductor-sights

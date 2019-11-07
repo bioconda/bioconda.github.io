@@ -9,13 +9,13 @@ bioconductor-bsgenome.mmulatta.ucsc.rhemac3
 .. conda:recipe:: bioconductor-bsgenome.mmulatta.ucsc.rhemac3
    :replaces_section_title:
 
-   Full genome sequences for Macaca mulatta \(Rhesus\) as provided by UCSC \(rheMac3\, Oct. 2010\) and stored in Biostrings objects.
+   Full genome sequences for Macaca mulatta \(UCSC version rheMac3\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Mmulatta.UCSC.rheMac3.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Mmulatta.UCSC.rheMac3.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.mmulatta.ucsc.rhemac3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmulatta.ucsc.rhemac3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmulatta.ucsc.rhemac3/meta.yaml>`_
 
-   
+   Full genome sequences for Macaca mulatta \(Rhesus\) as provided by UCSC \(rheMac3\, Oct. 2010\) and stored in Biostrings objects.
 
 
 .. conda:package:: bioconductor-bsgenome.mmulatta.ucsc.rhemac3

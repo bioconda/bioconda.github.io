@@ -9,20 +9,20 @@ bioconductor-snphooddata
 .. conda:recipe:: bioconductor-snphooddata
    :replaces_section_title:
 
-   This companion package for SNPhood provides some example datasets of a larger size than allowed for the SNPhood package. They include full and real\-world examples for performing analyses with the SNPhood package.
+   Additional and more complex example data for the SNPhood package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/SNPhoodData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/SNPhoodData.html
    :license: LGPL (>= 3)
    :recipe: /`bioconductor-snphooddata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snphooddata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snphooddata/meta.yaml>`_
 
-   
+   This companion package for SNPhood provides some example datasets of a larger size than allowed for the SNPhood package. They include full and real\-world examples for performing analyses with the SNPhood package.
 
 
 .. conda:package:: bioconductor-snphooddata
 
    |downloads_bioconductor-snphooddata| |docker_bioconductor-snphooddata|
 
-   :versions: 1.15.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0
+   :versions: 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

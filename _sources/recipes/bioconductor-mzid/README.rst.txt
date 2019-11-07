@@ -9,14 +9,14 @@ bioconductor-mzid
 .. conda:recipe:: bioconductor-mzid
    :replaces_section_title:
 
-   A parser for mzIdentML files implemented using the XML package. The parser tries to be general and able to handle all types of mzIdentML files with the drawback of having less \'pretty\' output than a vendor specific parser. Please contact the maintainer with any problems and supply an mzIdentML file so the problems can be fixed quickly.
+   An mzIdentML parser for R
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/mzID.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/mzID.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mzid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mzid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mzid/meta.yaml>`_
    :links: biotools: :biotools:`mzid`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   A parser for mzIdentML files implemented using the XML package. The parser tries to be general and able to handle all types of mzIdentML files with the drawback of having less \'pretty\' output than a vendor specific parser. Please contact the maintainer with any problems and supply an mzIdentML file so the problems can be fixed quickly.
 
 
 .. conda:package:: bioconductor-mzid

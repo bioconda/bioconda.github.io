@@ -9,14 +9,14 @@ bioconductor-hdf5array
 .. conda:recipe:: bioconductor-hdf5array
    :replaces_section_title:
 
-   Implements the HDF5Array and TENxMatrix classes\, 2 convenient and memory\-efficient array\-like containers for on\-disk representation of HDF5 datasets. HDF5Array is for datasets that use the conventional \(i.e. dense\) HDF5 representation. TENxMatrix is for datasets that use the HDF5\-based sparse matrix representation from 10x Genomics \(e.g. the 1.3 Million Brain Cell Dataset\). Both containers being DelayedArray extensions\, they support all operations supported by DelayedArray objects. These operations can be either delayed or block\-processed.
+   HDF5 backend for DelayedArray objects
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/HDF5Array.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/HDF5Array.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hdf5array <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdf5array>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdf5array/meta.yaml>`_
    :links: biotools: :biotools:`hdf5array`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Implements the HDF5Array and TENxMatrix classes\, 2 convenient and memory\-efficient array\-like containers for on\-disk representation of HDF5 datasets. HDF5Array is for datasets that use the conventional \(i.e. dense\) HDF5 representation. TENxMatrix is for datasets that use the HDF5\-based sparse matrix representation from 10x Genomics \(e.g. the 1.3 Million Brain Cell Dataset\). Both containers being DelayedArray extensions\, they support all operations supported by DelayedArray objects. These operations can be either delayed or block\-processed.
 
 
 .. conda:package:: bioconductor-hdf5array

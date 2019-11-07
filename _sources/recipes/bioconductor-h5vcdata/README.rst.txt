@@ -9,20 +9,20 @@ bioconductor-h5vcdata
 .. conda:recipe:: bioconductor-h5vcdata
    :replaces_section_title:
 
-   This package contains the data used in the vignettes and examples of the \'h5vc\' package
+   Example data for the h5vc package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/h5vcData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/h5vcData.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-h5vcdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-h5vcdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-h5vcdata/meta.yaml>`_
 
-   
+   This package contains the data used in the vignettes and examples of the \'h5vc\' package
 
 
 .. conda:package:: bioconductor-h5vcdata
 
    |downloads_bioconductor-h5vcdata| |docker_bioconductor-h5vcdata|
 
-   :versions: 2.5.0-0, 2.4.0-1, 2.4.0-0, 2.2.0-0
+   :versions: 2.6.0-0, 2.4.0-1, 2.4.0-0, 2.2.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

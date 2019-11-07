@@ -9,13 +9,13 @@ bioconductor-charge
 .. conda:recipe:: bioconductor-charge
    :replaces_section_title:
 
-   Identifies genomic duplications or deletions from gene expression data.
+   CHARGE\: CHromosome Assessment in R from Gene Expression data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CHARGE.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CHARGE.html
    :license: GPL-2
    :recipe: /`bioconductor-charge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-charge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-charge/meta.yaml>`_
 
-   
+   Identifies genomic duplications or deletions from gene expression data.
 
 
 .. conda:package:: bioconductor-charge

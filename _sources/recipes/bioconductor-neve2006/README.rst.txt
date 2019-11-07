@@ -9,20 +9,20 @@ bioconductor-neve2006
 .. conda:recipe:: bioconductor-neve2006
    :replaces_section_title:
 
-   Experimental organization of combined expression and CGH data
+   expression and CGH data on breast cancer cell lines
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/Neve2006.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/Neve2006.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-neve2006 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-neve2006>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-neve2006/meta.yaml>`_
 
-   
+   Experimental organization of combined expression and CGH data
 
 
 .. conda:package:: bioconductor-neve2006
 
    |downloads_bioconductor-neve2006| |docker_bioconductor-neve2006|
 
-   :versions: 0.23.0-0, 0.22.0-1, 0.20.0-0
+   :versions: 0.24.0-0, 0.22.0-1, 0.20.0-0
    
    :depends bioconductor-annotate: >=1.64.0,<1.65.0
    :depends bioconductor-biobase: >=2.46.0,<2.47.0

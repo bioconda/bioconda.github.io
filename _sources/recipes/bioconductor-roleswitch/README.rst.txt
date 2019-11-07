@@ -9,14 +9,14 @@ bioconductor-roleswitch
 .. conda:recipe:: bioconductor-roleswitch
    :replaces_section_title:
 
-   Infer Probabilities of MiRNA\-mRNA Interaction Signature \(ProMISe\) using paired expression data from a single sample. Roleswitch operates in two phases by inferring the probability of mRNA \(miRNA\) being the targets \(\"targets\"\) of miRNA \(mRNA\)\, taking into account the expression of all of the mRNAs \(miRNAs\) due to their potential competition for the same miRNA \(mRNA\). Due to dynamic miRNA repression in the cell\, Roleswitch assumes that the total transcribed mRNA levels are higher than the observed \(equilibrium\) mRNA levels and iteratively updates the total transcription of each mRNA targets based on the above inference. NB\: in the paper\, we used ProMISe as both the model name and inferred score name.
+   Infer miRNA\-mRNA interactions using paired expression data from a single sample
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Roleswitch.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Roleswitch.html
    :license: GPL-2
    :recipe: /`bioconductor-roleswitch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-roleswitch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-roleswitch/meta.yaml>`_
    :links: biotools: :biotools:`roleswitch`
 
-   
+   Infer Probabilities of MiRNA\-mRNA Interaction Signature \(ProMISe\) using paired expression data from a single sample. Roleswitch operates in two phases by inferring the probability of mRNA \(miRNA\) being the targets \(\"targets\"\) of miRNA \(mRNA\)\, taking into account the expression of all of the mRNAs \(miRNAs\) due to their potential competition for the same miRNA \(mRNA\). Due to dynamic miRNA repression in the cell\, Roleswitch assumes that the total transcribed mRNA levels are higher than the observed \(equilibrium\) mRNA levels and iteratively updates the total transcription of each mRNA targets based on the above inference. NB\: in the paper\, we used ProMISe as both the model name and inferred score name.
 
 
 .. conda:package:: bioconductor-roleswitch

@@ -9,13 +9,13 @@ bioconductor-expressionview
 .. conda:recipe:: bioconductor-expressionview
    :replaces_section_title:
 
-   ExpressionView visualizes possibly overlapping biclusters in a gene expression matrix. It can use the result of the ISA method \(eisa package\) or the algorithms in the biclust package or others. The viewer itself was developed using Adobe Flex and runs in a flash\-enabled web browser.
+   Visualize biclusters identified in gene expression data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ExpressionView.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ExpressionView.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-expressionview <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-expressionview>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-expressionview/meta.yaml>`_
 
-   
+   ExpressionView visualizes possibly overlapping biclusters in a gene expression matrix. It can use the result of the ISA method \(eisa package\) or the algorithms in the biclust package or others. The viewer itself was developed using Adobe Flex and runs in a flash\-enabled web browser.
 
 
 .. conda:package:: bioconductor-expressionview

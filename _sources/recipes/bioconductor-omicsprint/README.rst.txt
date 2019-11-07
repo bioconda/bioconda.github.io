@@ -9,13 +9,13 @@ bioconductor-omicsprint
 .. conda:recipe:: bioconductor-omicsprint
    :replaces_section_title:
 
-   omicsPrint provides functionality for cross omic genetic fingerprinting\, for example\, to verify sample relationships between multiple omics data types\, i.e. genomic\, transcriptomic and epigenetic \(DNA methylation\).
+   Cross omic genetic fingerprinting
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/omicsPrint.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/omicsPrint.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-omicsprint <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicsprint>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicsprint/meta.yaml>`_
 
-   
+   omicsPrint provides functionality for cross omic genetic fingerprinting\, for example\, to verify sample relationships between multiple omics data types\, i.e. genomic\, transcriptomic and epigenetic \(DNA methylation\).
 
 
 .. conda:package:: bioconductor-omicsprint

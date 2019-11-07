@@ -9,13 +9,13 @@ bioconductor-isee
 .. conda:recipe:: bioconductor-isee
    :replaces_section_title:
 
-   Provides functions for creating an interactive Shiny\-based graphical user interface for exploring data stored in SummarizedExperiment objects\, including row\- and column\-level metadata. Particular attention is given to single\-cell data in a SingleCellExperiment object with visualization of dimensionality reduction results.
+   Interactive SummarizedExperiment Explorer
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/iSEE.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/iSEE.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-isee <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isee>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isee/meta.yaml>`_
 
-   
+   Provides functions for creating an interactive Shiny\-based graphical user interface for exploring data stored in SummarizedExperiment objects\, including row\- and column\-level metadata. Particular attention is given to single\-cell data in a SingleCellExperiment object with visualization of dimensionality reduction results.
 
 
 .. conda:package:: bioconductor-isee

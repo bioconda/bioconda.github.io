@@ -9,13 +9,13 @@ bioconductor-fdrame
 .. conda:recipe:: bioconductor-fdrame
    :replaces_section_title:
 
-   This package contains two main functions. The first is fdr.ma which takes normalized expression data array\, experimental design and computes adjusted p\-values It returns the fdr adjusted p\-values and plots\, according to the methods described in \(Reiner\, Yekutieli and Benjamini 2002\). The second\, is fdr.gui\(\) which creates a simple graphic user interface to access fdr.ma
+   FDR adjustments of Microarray Experiments \(FDR\-AME\)
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/fdrame.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/fdrame.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-fdrame <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fdrame>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fdrame/meta.yaml>`_
 
-   
+   This package contains two main functions. The first is fdr.ma which takes normalized expression data array\, experimental design and computes adjusted p\-values It returns the fdr adjusted p\-values and plots\, according to the methods described in \(Reiner\, Yekutieli and Benjamini 2002\). The second\, is fdr.gui\(\) which creates a simple graphic user interface to access fdr.ma
 
 
 .. conda:package:: bioconductor-fdrame

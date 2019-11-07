@@ -9,20 +9,20 @@ bioconductor-leebamviews
 .. conda:recipe:: bioconductor-leebamviews
    :replaces_section_title:
 
-   data from PMID 19096707\; prototype for managing multiple NGS samples
+   leeBamViews \-\- multiple yeast RNAseq samples excerpted from Lee 2009
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/leeBamViews.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/leeBamViews.html
    :license: Artistic 2.0
    :recipe: /`bioconductor-leebamviews <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-leebamviews>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-leebamviews/meta.yaml>`_
 
-   
+   data from PMID 19096707\; prototype for managing multiple NGS samples
 
 
 .. conda:package:: bioconductor-leebamviews
 
    |downloads_bioconductor-leebamviews| |docker_bioconductor-leebamviews|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.18.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends bioconductor-bsgenome: >=1.54.0,<1.55.0

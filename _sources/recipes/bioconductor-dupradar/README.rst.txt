@@ -9,14 +9,14 @@ bioconductor-dupradar
 .. conda:recipe:: bioconductor-dupradar
    :replaces_section_title:
 
-   Duplication rate quality control for RNA\-Seq datasets.
+   Assessment of duplication rates in RNA\-Seq datasets
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/dupRadar.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/dupRadar.html
    :license: GPL-3
    :recipe: /`bioconductor-dupradar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dupradar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dupradar/meta.yaml>`_
    :links: biotools: :biotools:`dupradar`
 
-   
+   Duplication rate quality control for RNA\-Seq datasets.
 
 
 .. conda:package:: bioconductor-dupradar

@@ -9,14 +9,14 @@ bioconductor-mlseq
 .. conda:recipe:: bioconductor-mlseq
    :replaces_section_title:
 
-   This package applies several machine learning methods\, including SVM\, bagSVM\, Random Forest and CART to RNA\-Seq data.
+   Machine Learning Interface for RNA\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MLSeq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MLSeq.html
    :license: GPL(>=2)
    :recipe: /`bioconductor-mlseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mlseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mlseq/meta.yaml>`_
    :links: biotools: :biotools:`mlseq`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package applies several machine learning methods\, including SVM\, bagSVM\, Random Forest and CART to RNA\-Seq data.
 
 
 .. conda:package:: bioconductor-mlseq

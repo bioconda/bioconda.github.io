@@ -9,13 +9,13 @@ bioconductor-mu11ksubbprobe
 .. conda:recipe:: bioconductor-mu11ksubbprobe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Mu11KsubB\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type mu11ksubb
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mu11ksubbprobe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mu11ksubbprobe.html
    :license: LGPL
    :recipe: /`bioconductor-mu11ksubbprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu11ksubbprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu11ksubbprobe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Mu11KsubB\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-mu11ksubbprobe

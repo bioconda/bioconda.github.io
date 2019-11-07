@@ -9,14 +9,14 @@ bioconductor-piano
 .. conda:recipe:: bioconductor-piano
    :replaces_section_title:
 
-   Piano performs gene set analysis using various statistical methods\, from different gene level statistics and a wide range of gene\-set collections. Furthermore\, the Piano package contains functions for combining the results of multiple runs of gene set analyses.
+   Platform for integrative analysis of omics data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/piano.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/piano.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-piano <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-piano>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-piano/meta.yaml>`_
    :links: biotools: :biotools:`piano`
 
-   
+   Piano performs gene set analysis using various statistical methods\, from different gene level statistics and a wide range of gene\-set collections. Furthermore\, the Piano package contains functions for combining the results of multiple runs of gene set analyses.
 
 
 .. conda:package:: bioconductor-piano

@@ -9,14 +9,14 @@ bioconductor-gosemsim
 .. conda:recipe:: bioconductor-gosemsim
    :replaces_section_title:
 
-   The semantic comparisons of Gene Ontology \(GO\) annotations provide quantitative ways to compute similarities between genes and gene groups\, and have became important basis for many bioinformatics analysis approaches. GOSemSim is an R package for semantic similarity computation among GO terms\, sets of GO terms\, gene products and gene clusters. GOSemSim implemented five methods proposed by Resnik\, Schlicker\, Jiang\, Lin and Wang respectively.
+   GO\-terms Semantic Similarity Measures
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GOSemSim.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GOSemSim.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gosemsim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gosemsim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gosemsim/meta.yaml>`_
    :links: biotools: :biotools:`gosemsim`
 
-   
+   The semantic comparisons of Gene Ontology \(GO\) annotations provide quantitative ways to compute similarities between genes and gene groups\, and have became important basis for many bioinformatics analysis approaches. GOSemSim is an R package for semantic similarity computation among GO terms\, sets of GO terms\, gene products and gene clusters. GOSemSim implemented five methods proposed by Resnik\, Schlicker\, Jiang\, Lin and Wang respectively.
 
 
 .. conda:package:: bioconductor-gosemsim

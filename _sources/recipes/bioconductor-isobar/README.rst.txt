@@ -9,13 +9,13 @@ bioconductor-isobar
 .. conda:recipe:: bioconductor-isobar
    :replaces_section_title:
 
-   isobar provides methods for preprocessing\, normalization\, and report generation for the analysis of quantitative mass spectrometry proteomics data labeled with isobaric tags\, such as iTRAQ and TMT. Features modules for integrating and validating PTM\-centric datasets \(isobar\-PTM\). More information on http\:\/\/www.ms\-isobar.org.
+   Analysis and quantitation of isobarically tagged MSMS proteomics data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/isobar.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/isobar.html
    :license: LGPL-2
    :recipe: /`bioconductor-isobar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isobar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isobar/meta.yaml>`_
 
-   
+   isobar provides methods for preprocessing\, normalization\, and report generation for the analysis of quantitative mass spectrometry proteomics data labeled with isobaric tags\, such as iTRAQ and TMT. Features modules for integrating and validating PTM\-centric datasets \(isobar\-PTM\). More information on http\:\/\/www.ms\-isobar.org.
 
 
 .. conda:package:: bioconductor-isobar

@@ -9,20 +9,20 @@ bioconductor-celarefdata
 .. conda:recipe:: bioconductor-celarefdata
    :replaces_section_title:
 
-   This experiment data contains some processed data used in the celaref package vignette. These are publically available datasets\, that have been processed by celaref package\, and can be manipulated further with it.
+   Processed scRNA data for celaref Vignette \- cell labelling by reference
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/celarefData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/celarefData.html
    :license: GPL-3
    :recipe: /`bioconductor-celarefdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celarefdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celarefdata/meta.yaml>`_
 
-   
+   This experiment data contains some processed data used in the celaref package vignette. These are publically available datasets\, that have been processed by celaref package\, and can be manipulated further with it.
 
 
 .. conda:package:: bioconductor-celarefdata
 
    |downloads_bioconductor-celarefdata| |docker_bioconductor-celarefdata|
 
-   :versions: 1.3.1-0, 1.2.0-1, 1.2.0-0, 1.0.0-0
+   :versions: 1.4.0-0, 1.2.0-1, 1.2.0-0, 1.0.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

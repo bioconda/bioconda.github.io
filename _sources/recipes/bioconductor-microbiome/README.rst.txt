@@ -9,13 +9,13 @@ bioconductor-microbiome
 .. conda:recipe:: bioconductor-microbiome
    :replaces_section_title:
 
-   Utilities for microbiome analysis.
+   Microbiome Analytics
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/microbiome.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/microbiome.html
    :license: BSD_2_clause + file LICENSE
    :recipe: /`bioconductor-microbiome <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiome>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiome/meta.yaml>`_
 
-   
+   Utilities for microbiome analysis.
 
 
 .. conda:package:: bioconductor-microbiome

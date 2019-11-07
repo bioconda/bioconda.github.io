@@ -9,14 +9,14 @@ bioconductor-quantro
 .. conda:recipe:: bioconductor-quantro
    :replaces_section_title:
 
-   A data\-driven test for the assumptions of quantile normalization using raw data such as objects that inherit eSets \(e.g. ExpressionSet\, MethylSet\). Group level information about each sample \(such as Tumor \/ Normal status\) must also be provided because the test assesses if there are global differences in the distributions between the user\-defined groups.
+   A test for when to use quantile normalization
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/quantro.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/quantro.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-quantro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quantro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quantro/meta.yaml>`_
    :links: biotools: :biotools:`quantro`
 
-   
+   A data\-driven test for the assumptions of quantile normalization using raw data such as objects that inherit eSets \(e.g. ExpressionSet\, MethylSet\). Group level information about each sample \(such as Tumor \/ Normal status\) must also be provided because the test assesses if there are global differences in the distributions between the user\-defined groups.
 
 
 .. conda:package:: bioconductor-quantro

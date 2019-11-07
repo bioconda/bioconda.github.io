@@ -9,25 +9,25 @@ bioconductor-ppinfer
 .. conda:recipe:: bioconductor-ppinfer
    :replaces_section_title:
 
-   Interactions between proteins occur in many\, if not most\, biological processes. Most proteins perform their functions in networks associated with other proteins and other biomolecules. This fact has motivated the development of a variety of experimental methods for the identification of protein interactions. This variety has in turn ushered in the development of numerous different computational approaches for modeling and predicting protein interactions. Sometimes an experiment is aimed at identifying proteins closely related to some interesting proteins. A network based statistical learning method is used to infer the putative functions of proteins from the known functions of its neighboring proteins on a PPI network. This package identifies such proteins often involved in the same or similar biological functions.
+   Inferring functionally related proteins using protein interaction networks
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PPInfer.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PPInfer.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ppinfer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ppinfer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ppinfer/meta.yaml>`_
 
-   
+   Interactions between proteins occur in many\, if not most\, biological processes. Most proteins perform their functions in networks associated with other proteins and other biomolecules. This fact has motivated the development of a variety of experimental methods for the identification of protein interactions. This variety has in turn ushered in the development of numerous different computational approaches for modeling and predicting protein interactions. Sometimes an experiment is aimed at identifying proteins closely related to some interesting proteins. A network based statistical learning method is used to infer the putative functions of proteins from the known functions of its neighboring proteins on a PPI network. This package identifies such proteins often involved in the same or similar biological functions.
 
 
 .. conda:package:: bioconductor-ppinfer
 
    |downloads_bioconductor-ppinfer| |docker_bioconductor-ppinfer|
 
-   :versions: 1.12.0-0, 1.10.0-1, 1.8.1-1, 1.8.1-0, 1.6.0-0, 1.4.0-0, 1.2.4-0
+   :versions: 1.10.0-1, 1.8.1-1, 1.8.1-0, 1.6.0-0, 1.4.0-0, 1.2.4-0
    
-   :depends bioconductor-biomart: >=2.42.0,<2.43.0
-   :depends bioconductor-fgsea: >=1.12.0,<1.13.0
-   :depends bioconductor-stringdb: >=1.26.0,<1.27.0
-   :depends bioconductor-yeastexpdata: >=0.31.0,<0.32.0
+   :depends bioconductor-biomart: >=2.40.0,<2.41.0
+   :depends bioconductor-fgsea: >=1.10.0,<1.11.0
+   :depends bioconductor-stringdb: >=1.24.0,<1.25.0
+   :depends bioconductor-yeastexpdata: >=0.30.0,<0.31.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 
    :depends r-igraph: 

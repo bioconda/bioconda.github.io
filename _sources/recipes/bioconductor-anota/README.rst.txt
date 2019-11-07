@@ -9,14 +9,14 @@ bioconductor-anota
 .. conda:recipe:: bioconductor-anota
    :replaces_section_title:
 
-   Genome wide studies of translational control is emerging as a tool to study verious biological conditions. The output from such analysis is both the mRNA level \(e.g. cytosolic mRNA level\) and the levl of mRNA actively involved in translation \(the actively translating mRNA level\) for each mRNA. The standard analysis of such data strives towards identifying differential translational between two or more sample classes \- i.e. differences in actively translated mRNA levels that are independent of underlying differences in cytosolic mRNA levels. This package allows for such analysis using partial variances and the random variance model. As 10s of thousands of mRNAs are analyzed in parallell the library performs a number of tests to assure that the data set is suitable for such analysis.
+   ANalysis Of Translational Activity \(ANOTA\).
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/anota.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/anota.html
    :license: GPL-3
    :recipe: /`bioconductor-anota <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anota>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anota/meta.yaml>`_
    :links: biotools: :biotools:`anota`, doi: :doi:`10.1093/bioinformatics/btr146`
 
-   
+   Genome wide studies of translational control is emerging as a tool to study verious biological conditions. The output from such analysis is both the mRNA level \(e.g. cytosolic mRNA level\) and the levl of mRNA actively involved in translation \(the actively translating mRNA level\) for each mRNA. The standard analysis of such data strives towards identifying differential translational between two or more sample classes \- i.e. differences in actively translated mRNA levels that are independent of underlying differences in cytosolic mRNA levels. This package allows for such analysis using partial variances and the random variance model. As 10s of thousands of mRNAs are analyzed in parallell the library performs a number of tests to assure that the data set is suitable for such analysis.
 
 
 .. conda:package:: bioconductor-anota

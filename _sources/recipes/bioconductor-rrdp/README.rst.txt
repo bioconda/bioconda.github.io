@@ -9,14 +9,14 @@ bioconductor-rrdp
 .. conda:recipe:: bioconductor-rrdp
    :replaces_section_title:
 
-   Seamlessly interfaces RDP classifier \(version 2.9\).
+   Interface to the RDP Classifier
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/rRDP.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/rRDP.html
    :license: GPL-2 | file LICENSE
    :recipe: /`bioconductor-rrdp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrdp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrdp/meta.yaml>`_
    :links: biotools: :biotools:`rrdp`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Seamlessly interfaces RDP classifier \(version 2.9\).
 
 
 .. conda:package:: bioconductor-rrdp

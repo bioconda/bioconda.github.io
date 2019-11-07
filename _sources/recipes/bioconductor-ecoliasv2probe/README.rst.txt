@@ -9,13 +9,13 @@ bioconductor-ecoliasv2probe
 .. conda:recipe:: bioconductor-ecoliasv2probe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was E\\\_coli\\\_Asv2\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type ecoliasv2
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/ecoliasv2probe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/ecoliasv2probe.html
    :license: LGPL
    :recipe: /`bioconductor-ecoliasv2probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecoliasv2probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecoliasv2probe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was E\\\_coli\\\_Asv2\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-ecoliasv2probe

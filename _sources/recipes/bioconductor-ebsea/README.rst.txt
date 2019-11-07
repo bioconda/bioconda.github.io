@@ -9,14 +9,14 @@ bioconductor-ebsea
 .. conda:recipe:: bioconductor-ebsea
    :replaces_section_title:
 
-   Calculates differential expression of genes based on exon counts of genes obtained from RNA\-seq sequencing data.
+   Exon Based Strategy for Expression Analysis of genes
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/EBSEA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/EBSEA.html
    :license: GPL-2
    :recipe: /`bioconductor-ebsea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebsea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebsea/meta.yaml>`_
    :links: biotools: :biotools:`ebsea`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Calculates differential expression of genes based on exon counts of genes obtained from RNA\-seq sequencing data.
 
 
 .. conda:package:: bioconductor-ebsea

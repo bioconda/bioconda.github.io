@@ -9,13 +9,13 @@ bioconductor-hwgcod.db
 .. conda:recipe:: bioconductor-hwgcod.db
    :replaces_section_title:
 
-   Codelink Human Whole Genome Bioarray \(\~55 000 human genes\) annotation data \(chip hwgcod\) assembled using data from public repositories
+   Codelink Human Whole Genome Bioarray \(\~55 000 human genes\) annotation data \(chip hwgcod\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hwgcod.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hwgcod.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hwgcod.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hwgcod.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hwgcod.db/meta.yaml>`_
 
-   
+   Codelink Human Whole Genome Bioarray \(\~55 000 human genes\) annotation data \(chip hwgcod\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-hwgcod.db

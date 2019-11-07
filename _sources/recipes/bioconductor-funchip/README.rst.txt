@@ -9,14 +9,14 @@ bioconductor-funchip
 .. conda:recipe:: bioconductor-funchip
    :replaces_section_title:
 
-   Preprocessing and smoothing of ChIP\-Seq peaks and efficient implementation of the k\-mean alignment algorithm to classify them.
+   Clustering and Alignment of ChIP\-Seq peaks based on their shapes
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/FunChIP.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/FunChIP.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-funchip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-funchip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-funchip/meta.yaml>`_
    :links: biotools: :biotools:`funchip`, doi: :doi:`10.1093/bioinformatics/btx201`
 
-   
+   Preprocessing and smoothing of ChIP\-Seq peaks and efficient implementation of the k\-mean alignment algorithm to classify them.
 
 
 .. conda:package:: bioconductor-funchip

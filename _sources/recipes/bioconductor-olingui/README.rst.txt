@@ -9,13 +9,13 @@ bioconductor-olingui
 .. conda:recipe:: bioconductor-olingui
    :replaces_section_title:
 
-   Graphical user interface for the OLIN package
+   Graphical user interface for OLIN
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/OLINgui.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/OLINgui.html
    :license: GPL-2
    :recipe: /`bioconductor-olingui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-olingui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-olingui/meta.yaml>`_
 
-   
+   Graphical user interface for the OLIN package
 
 
 .. conda:package:: bioconductor-olingui

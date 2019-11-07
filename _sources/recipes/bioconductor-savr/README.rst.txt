@@ -9,14 +9,14 @@ bioconductor-savr
 .. conda:recipe:: bioconductor-savr
    :replaces_section_title:
 
-   Parse Illumina Sequence Analysis Viewer \(SAV\) files\, access data\, and generate QC plots.
+   Parse and analyze Illumina SAV files
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/savR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/savR.html
    :license: AGPL-3
    :recipe: /`bioconductor-savr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-savr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-savr/meta.yaml>`_
    :links: biotools: :biotools:`savr`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Parse Illumina Sequence Analysis Viewer \(SAV\) files\, access data\, and generate QC plots.
 
 
 .. conda:package:: bioconductor-savr

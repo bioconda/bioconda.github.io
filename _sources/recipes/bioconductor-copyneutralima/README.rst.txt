@@ -9,22 +9,22 @@ bioconductor-copyneutralima
 .. conda:recipe:: bioconductor-copyneutralima
    :replaces_section_title:
 
-   Provides a set of genomic copy neutral samples hybridized using Illumina Methylation arrays \(450k and EPIC\).
+   Copy Neutral Illumina Methylation Arrays
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/CopyNeutralIMA.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/CopyNeutralIMA.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-copyneutralima <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copyneutralima>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copyneutralima/meta.yaml>`_
 
-   
+   Provides a set of genomic copy neutral samples hybridized using Illumina Methylation arrays \(450k and EPIC\).
 
 
 .. conda:package:: bioconductor-copyneutralima
 
    |downloads_bioconductor-copyneutralima| |docker_bioconductor-copyneutralima|
 
-   :versions: 1.3.0-0, 1.2.0-1, 1.0.0-0
+   :versions: 1.2.0-1, 1.0.0-0
    
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-rdpack: >=0.8

@@ -9,13 +9,13 @@ bioconductor-ngsreports
 .. conda:recipe:: bioconductor-ngsreports
    :replaces_section_title:
 
-   This package provides methods and object classes for parsing FastQC reports and output summaries from other NGS tools into R\, as well as visualising the data loaded from these files.
+   Load FastqQC reports and other NGS related files
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ngsReports.html
-   :license: LGPL (>= 3)
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ngsReports.html
+   :license: file LICENSE
    :recipe: /`bioconductor-ngsreports <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ngsreports>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ngsreports/meta.yaml>`_
 
-   
+   This package provides methods and object classes for parsing FastQC reports and output summaries from other NGS tools into R\, as well as visualising the data loaded from these files.
 
 
 .. conda:package:: bioconductor-ngsreports

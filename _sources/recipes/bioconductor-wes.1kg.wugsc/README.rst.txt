@@ -9,20 +9,20 @@ bioconductor-wes.1kg.wugsc
 .. conda:recipe:: bioconductor-wes.1kg.wugsc
    :replaces_section_title:
 
-   The assembled .bam files of whole exome sequencing data from the 1000 Genomes Project. 46 samples sequenced by the Washington University Genome Sequencing Center are included.
+   Whole Exome Sequencing \(WES\) of chromosome 22 401st to 500th exon from the 1000 Genomes \(1KG\) Project by the Washington University Genome Sequencing Center \(WUGSC\).
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/WES.1KG.WUGSC.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/WES.1KG.WUGSC.html
    :license: GPL-2
    :recipe: /`bioconductor-wes.1kg.wugsc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wes.1kg.wugsc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wes.1kg.wugsc/meta.yaml>`_
 
-   
+   The assembled .bam files of whole exome sequencing data from the 1000 Genomes Project. 46 samples sequenced by the Washington University Genome Sequencing Center are included.
 
 
 .. conda:package:: bioconductor-wes.1kg.wugsc
 
    |downloads_bioconductor-wes.1kg.wugsc| |docker_bioconductor-wes.1kg.wugsc|
 
-   :versions: 1.17.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0
+   :versions: 1.18.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

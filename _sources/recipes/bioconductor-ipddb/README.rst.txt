@@ -9,13 +9,13 @@ bioconductor-ipddb
 .. conda:recipe:: bioconductor-ipddb
    :replaces_section_title:
 
-   All alleles from the IPD IMGT\/HLA \<https\:\/\/www.ebi.ac.uk\/ipd\/imgt\/hla\/\> and IPD KIR \<https\:\/\/www.ebi.ac.uk\/ipd\/kir\/\> database for Homo sapiens. Reference\: Robinson J\, Maccari G\, Marsh SGE\, Walter L\, Blokhuis J\, Bimber B\, Parham P\, De Groot NG\, Bontrop RE\, Guethlein LA\, and Hammond JA KIR Nomenclature in non\-human species Immunogenetics \(2018\)\, in preparation.
+   IPD IMGT\/HLA and IPD KIR database for Homo sapiens
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ipdDb.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ipdDb.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ipddb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ipddb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ipddb/meta.yaml>`_
 
-   
+   All alleles from the IPD IMGT\/HLA \<https\:\/\/www.ebi.ac.uk\/ipd\/imgt\/hla\/\> and IPD KIR \<https\:\/\/www.ebi.ac.uk\/ipd\/kir\/\> database for Homo sapiens. Reference\: Robinson J\, Maccari G\, Marsh SGE\, Walter L\, Blokhuis J\, Bimber B\, Parham P\, De Groot NG\, Bontrop RE\, Guethlein LA\, and Hammond JA KIR Nomenclature in non\-human species Immunogenetics \(2018\)\, in preparation.
 
 
 .. conda:package:: bioconductor-ipddb

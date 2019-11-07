@@ -9,13 +9,13 @@ bioconductor-frgepistasis
 .. conda:recipe:: bioconductor-frgepistasis
    :replaces_section_title:
 
-   A Tool for Epistasis Analysis Based on Functional Regression Model
+   Epistasis Analysis for Quantitative Traits by Functional Regression Model
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/FRGEpistasis.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/FRGEpistasis.html
    :license: GPL-2
    :recipe: /`bioconductor-frgepistasis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-frgepistasis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-frgepistasis/meta.yaml>`_
 
-   
+   A Tool for Epistasis Analysis Based on Functional Regression Model
 
 
 .. conda:package:: bioconductor-frgepistasis

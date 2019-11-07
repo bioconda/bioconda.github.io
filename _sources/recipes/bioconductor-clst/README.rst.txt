@@ -9,14 +9,14 @@ bioconductor-clst
 .. conda:recipe:: bioconductor-clst
    :replaces_section_title:
 
-   Package for modified nearest\-neighbor classification based on calculation of a similarity threshold distinguishing within\-group from between\-group comparisons.
+   Classification by local similarity threshold
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/clst.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/clst.html
    :license: GPL-3
    :recipe: /`bioconductor-clst <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clst>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clst/meta.yaml>`_
    :links: biotools: :biotools:`clst`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Package for modified nearest\-neighbor classification based on calculation of a similarity threshold distinguishing within\-group from between\-group comparisons.
 
 
 .. conda:package:: bioconductor-clst

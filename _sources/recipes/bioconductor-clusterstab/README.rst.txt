@@ -9,14 +9,14 @@ bioconductor-clusterstab
 .. conda:recipe:: bioconductor-clusterstab
    :replaces_section_title:
 
-   This package can be used to estimate the number of clusters in a set of microarray data\, as well as test the stability of these clusters.
+   Compute cluster stability scores for microarray data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/clusterStab.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/clusterStab.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-clusterstab <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterstab>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterstab/meta.yaml>`_
    :links: biotools: :biotools:`clusterstab`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package can be used to estimate the number of clusters in a set of microarray data\, as well as test the stability of these clusters.
 
 
 .. conda:package:: bioconductor-clusterstab

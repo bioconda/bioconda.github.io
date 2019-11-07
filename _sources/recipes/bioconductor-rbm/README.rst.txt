@@ -9,14 +9,14 @@ bioconductor-rbm
 .. conda:recipe:: bioconductor-rbm
    :replaces_section_title:
 
-   Use A Resampling\-Based Empirical Bayes Approach to Assess Differential Expression in Two\-Color Microarrays and RNA\-Seq data sets.
+   RBM\: a R package for microarray and RNA\-Seq data analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RBM.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RBM.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-rbm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbm/meta.yaml>`_
    :links: biotools: :biotools:`rbm`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Use A Resampling\-Based Empirical Bayes Approach to Assess Differential Expression in Two\-Color Microarrays and RNA\-Seq data sets.
 
 
 .. conda:package:: bioconductor-rbm

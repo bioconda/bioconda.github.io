@@ -9,13 +9,13 @@ bioconductor-flowtime
 .. conda:recipe:: bioconductor-flowtime
    :replaces_section_title:
 
-   This package was developed for analysis of both dynamic and steady state experiments examining the function of gene regulatory networks in yeast \(strain W303\) expressing fluorescent reporter proteins using a BD Accuri C6 and SORP cytometers. However\, the functions are for the most part general and may be adapted for analysis of other organisms using other flow cytometers. Functions in this package facilitate the annotation of flow cytometry data with experimental metadata\, as is requisite for dissemination and general ease\-of\-use. Functions for creating\, saving and loading gate sets are also included. In the past\, we have typically generated summary statistics for each flowset for each timepoint and then annotated and analyzed these summary statistics. This method loses a great deal of the power that comes from the large amounts of individual cell data generated in flow cytometry\, by essentially collapsing this data into a bulk measurement after subsetting. In addition to these summary functions\, this package also contains functions to facilitate annotation and analysis of steady\-state or time\-lapse data utilizing all of the data collected from the thousands of individual cells in each sample.
+   Annotation and analysis of biological dynamical systems using flow cytometry
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flowTime.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flowTime.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowtime <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowtime>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowtime/meta.yaml>`_
 
-   
+   This package was developed for analysis of both dynamic and steady state experiments examining the function of gene regulatory networks in yeast \(strain W303\) expressing fluorescent reporter proteins using a BD Accuri C6 and SORP cytometers. However\, the functions are for the most part general and may be adapted for analysis of other organisms using other flow cytometers. Functions in this package facilitate the annotation of flow cytometry data with experimental metadata\, as is requisite for dissemination and general ease\-of\-use. Functions for creating\, saving and loading gate sets are also included. In the past\, we have typically generated summary statistics for each flowset for each timepoint and then annotated and analyzed these summary statistics. This method loses a great deal of the power that comes from the large amounts of individual cell data generated in flow cytometry\, by essentially collapsing this data into a bulk measurement after subsetting. In addition to these summary functions\, this package also contains functions to facilitate annotation and analysis of steady\-state or time\-lapse data utilizing all of the data collected from the thousands of individual cells in each sample.
 
 
 .. conda:package:: bioconductor-flowtime

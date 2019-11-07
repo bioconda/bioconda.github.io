@@ -9,14 +9,14 @@ bioconductor-girafe
 .. conda:recipe:: bioconductor-girafe
    :replaces_section_title:
 
-   The package \'girafe\' deals with the genome\-level representation of aligned reads from next\-generation sequencing data. It contains an object class for enabling a detailed description of genome intervals with aligned reads and functions for comparing\, visualising\, exporting and working with such intervals and the aligned reads. As such\, the package interacts with and provides a link between the packages ShortRead\, IRanges and genomeIntervals.
+   Genome Intervals and Read Alignments for Functional Exploration
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/girafe.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/girafe.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-girafe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-girafe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-girafe/meta.yaml>`_
    :links: biotools: :biotools:`girafe`
 
-   
+   The package \'girafe\' deals with the genome\-level representation of aligned reads from next\-generation sequencing data. It contains an object class for enabling a detailed description of genome intervals with aligned reads and functions for comparing\, visualising\, exporting and working with such intervals and the aligned reads. As such\, the package interacts with and provides a link between the packages ShortRead\, IRanges and genomeIntervals.
 
 
 .. conda:package:: bioconductor-girafe

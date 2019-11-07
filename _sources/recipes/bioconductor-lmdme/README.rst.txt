@@ -9,24 +9,24 @@ bioconductor-lmdme
 .. conda:recipe:: bioconductor-lmdme
    :replaces_section_title:
 
-   linear ANOVA decomposition of Multivariate Designed Experiments implementation based on limma lmFit. Features\: i\)Flexible formula type interface\, ii\) Fast limma based implementation\, iii\) p\-values for each estimated coefficient levels in each factor\, iv\) F values for factor effects and v\) plotting functions for PCA and PLS.
+   Linear Model decomposition for Designed Multivariate Experiments
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/lmdme.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/lmdme.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-lmdme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lmdme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lmdme/meta.yaml>`_
    :links: biotools: :biotools:`lmdme`
 
-   
+   linear ANOVA decomposition of Multivariate Designed Experiments implementation based on limma lmFit. Features\: i\)Flexible formula type interface\, ii\) Fast limma based implementation\, iii\) p\-values for each estimated coefficient levels in each factor\, iv\) F values for factor effects and v\) plotting functions for PCA and PLS.
 
 
 .. conda:package:: bioconductor-lmdme
 
    |downloads_bioconductor-lmdme| |docker_bioconductor-lmdme|
 
-   :versions: 1.28.0-0, 1.26.0-1, 1.26.0-0, 1.24.0-0, 1.22.0-0, 1.20.0-0
+   :versions: 1.26.0-1, 1.26.0-0, 1.24.0-0, 1.22.0-0, 1.20.0-0
    
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-stemhypoxia: >=1.21.0,<1.22.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-stemhypoxia: >=1.20.0,<1.21.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-pls: 
    :requirements:

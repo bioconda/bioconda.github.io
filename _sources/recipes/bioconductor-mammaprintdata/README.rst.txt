@@ -9,20 +9,20 @@ bioconductor-mammaprintdata
 .. conda:recipe:: bioconductor-mammaprintdata
    :replaces_section_title:
 
-   Gene expression data for the two breast cancer cohorts published by Glas and Buyse in 2006. This cohorts were used to implement and validate the mammaPrint breast cancer test.
+   RGLists from the Glas and Buyse breast cancer studies
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/mammaPrintData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/mammaPrintData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mammaprintdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mammaprintdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mammaprintdata/meta.yaml>`_
 
-   
+   Gene expression data for the two breast cancer cohorts published by Glas and Buyse in 2006. This cohorts were used to implement and validate the mammaPrint breast cancer test.
 
 
 .. conda:package:: bioconductor-mammaprintdata
 
    |downloads_bioconductor-mammaprintdata| |docker_bioconductor-mammaprintdata|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

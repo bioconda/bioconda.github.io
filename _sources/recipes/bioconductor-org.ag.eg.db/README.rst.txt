@@ -9,13 +9,13 @@ bioconductor-org.ag.eg.db
 .. conda:recipe:: bioconductor-org.ag.eg.db
    :replaces_section_title:
 
-   Genome wide annotation for Anopheles\, primarily based on mapping using Entrez Gene identifiers.
+   Genome wide annotation for Anopheles
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/org.Ag.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/org.Ag.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-org.ag.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.ag.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.ag.eg.db/meta.yaml>`_
 
-   
+   Genome wide annotation for Anopheles\, primarily based on mapping using Entrez Gene identifiers.
 
 
 .. conda:package:: bioconductor-org.ag.eg.db

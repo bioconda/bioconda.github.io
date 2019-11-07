@@ -9,13 +9,13 @@ bioconductor-cicero
 .. conda:recipe:: bioconductor-cicero
    :replaces_section_title:
 
-   Cicero computes putative cis\-regulatory maps from single\-cell chromatin accessibility data. It also extends monocle 2 for use in chromatin accessibility data.
+   Precict cis\-co\-accessibility from single\-cell chromatin accessibility data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/cicero.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/cicero.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-cicero <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cicero>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cicero/meta.yaml>`_
 
-   
+   Cicero computes putative cis\-regulatory maps from single\-cell chromatin accessibility data. It also extends monocle 2 for use in chromatin accessibility data.
 
 
 .. conda:package:: bioconductor-cicero

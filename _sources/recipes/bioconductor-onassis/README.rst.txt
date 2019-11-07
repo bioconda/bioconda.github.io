@@ -9,25 +9,24 @@ bioconductor-onassis
 .. conda:recipe:: bioconductor-onassis
    :replaces_section_title:
 
-   A package that allows the annotation of text with ontology terms \(mainly from OBO ontologies\) and the computation of semantic similarity measures based on the structure of the ontology between different annotated samples.
+   OnASSIs Ontology Annotation and Semantic SImilarity software
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Onassis.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Onassis.html
    :license: GPL-2
    :recipe: /`bioconductor-onassis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-onassis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-onassis/meta.yaml>`_
 
-   
+   A package that allows the annotation of text with ontology terms \(mainly from OBO ontologies\) and the computation of semantic similarity measures based on the structure of the ontology between different annotated samples.
 
 
 .. conda:package:: bioconductor-onassis
 
    |downloads_bioconductor-onassis| |docker_bioconductor-onassis|
 
-   :versions: 1.8.0-0, 1.6.0-1, 1.4.5-0
+   :versions: 1.6.0-1, 1.4.5-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-geometadb: >=1.48.0,<1.49.0
-   :depends bioconductor-onassisjavalibs: >=1.7.0,<1.8.0
-   :depends openjdk: 
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-geometadb: >=1.46.0,<1.47.0
+   :depends bioconductor-onassisjavalibs: >=1.6.0,<1.7.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-data.table: 
    :depends r-dt: 

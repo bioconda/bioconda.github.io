@@ -9,13 +9,13 @@ bioconductor-profileplyr
 .. conda:recipe:: bioconductor-profileplyr
    :replaces_section_title:
 
-   Quick and straighforward visualization of read signal over genomic intervals is key for generating hypotheses from sequencing data sets \(e.g. ChIP\-seq\, ATAC\-seq\, bisulfite\/methyl\-seq\). Many tools both inside and outside of R and Bioconductor are available to explore these types of data\, and they typically start with a bigWig or BAM file and end with some representation of the signal \(e.g. heatmap\). profileplyr leverages many Bioconductor tools to allow for both flexibility and additional functionality in workflows that end with visualization of the read signal.
+   Visualization and annotation of read signal over genomic ranges with profileplyr
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/profileplyr.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/profileplyr.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-profileplyr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-profileplyr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-profileplyr/meta.yaml>`_
 
-   
+   Quick and straightforward visualization of read signal over genomic intervals is key for generating hypotheses from sequencing data sets \(e.g. ChIP\-seq\, ATAC\-seq\, bisulfite\/methyl\-seq\). Many tools both inside and outside of R and Bioconductor are available to explore these types of data\, and they typically start with a bigWig or BAM file and end with some representation of the signal \(e.g. heatmap\). profileplyr leverages many Bioconductor tools to allow for both flexibility and additional functionality in workflows that end with visualization of the read signal.
 
 
 .. conda:package:: bioconductor-profileplyr

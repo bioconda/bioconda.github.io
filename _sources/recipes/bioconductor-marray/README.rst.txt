@@ -9,14 +9,14 @@ bioconductor-marray
 .. conda:recipe:: bioconductor-marray
    :replaces_section_title:
 
-   Class definitions for two\-color spotted microarray data. Fuctions for data input\, diagnostic plots\, normalization and quality checking.
+   Exploratory analysis for two\-color spotted microarray data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/marray.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/marray.html
    :license: LGPL
    :recipe: /`bioconductor-marray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-marray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-marray/meta.yaml>`_
    :links: biotools: :biotools:`marray`, doi: :doi:`10.1007/0-387-21679-0_3`
 
-   
+   Class definitions for two\-color spotted microarray data. Fuctions for data input\, diagnostic plots\, normalization and quality checking.
 
 
 .. conda:package:: bioconductor-marray

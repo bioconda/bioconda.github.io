@@ -9,14 +9,14 @@ bioconductor-oppar
 .. conda:recipe:: bioconductor-oppar
    :replaces_section_title:
 
-   The R implementation of mCOPA package published by Wang et al. \(2012\). Oppar provides methods for Cancer Outlier profile Analysis. Although initially developed to detect outlier genes in cancer studies\, methods presented in oppar can be used for outlier profile analysis in general. In addition\, tools are provided for gene set enrichment and pathway analysis.
+   Outlier profile and pathway analysis in R
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/oppar.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/oppar.html
    :license: GPL-2
    :recipe: /`bioconductor-oppar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oppar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oppar/meta.yaml>`_
    :links: biotools: :biotools:`oppar`
 
-   
+   The R implementation of mCOPA package published by Wang et al. \(2012\). Oppar provides methods for Cancer Outlier profile Analysis. Although initially developed to detect outlier genes in cancer studies\, methods presented in oppar can be used for outlier profile analysis in general. In addition\, tools are provided for gene set enrichment and pathway analysis.
 
 
 .. conda:package:: bioconductor-oppar

@@ -9,13 +9,13 @@ bioconductor-mouse430a2cdf
 .. conda:recipe:: bioconductor-mouse430a2cdf
    :replaces_section_title:
 
-   A package containing an environment representing the Mouse430A\_2.cdf file.
+   mouse430a2cdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mouse430a2cdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mouse430a2cdf.html
    :license: LGPL
    :recipe: /`bioconductor-mouse430a2cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse430a2cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse430a2cdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the Mouse430A\_2.cdf file.
 
 
 .. conda:package:: bioconductor-mouse430a2cdf

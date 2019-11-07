@@ -9,14 +9,14 @@ bioconductor-maigespack
 .. conda:recipe:: bioconductor-maigespack
    :replaces_section_title:
 
-   This package uses functions of various other packages together with other functions in a coordinated way to handle and analyse cDNA microarray data
+   Functions to handle cDNA microarray data\, including several methods of data analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/maigesPack.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/maigesPack.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-maigespack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maigespack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maigespack/meta.yaml>`_
    :links: biotools: :biotools:`maigespack`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package uses functions of various other packages together with other functions in a coordinated way to handle and analyse cDNA microarray data
 
 
 .. conda:package:: bioconductor-maigespack

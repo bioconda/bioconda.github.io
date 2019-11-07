@@ -9,13 +9,13 @@ bioconductor-hdtd
 .. conda:recipe:: bioconductor-hdtd
    :replaces_section_title:
 
-   Characterization of intra\-individual variability using physiologically relevant measurements provides important insights into fundamental biological questions ranging from cell type identity to tumor development. For each individual\, the data measurements can be written as a matrix with the different subsamples of the individual recorded in the columns and the different phenotypic units recorded in the rows. Datasets of this type are called high\-dimensional transposable data. The HDTD package provides functions for conducting statistical inference for the mean relationship between the row and column variables and for the covariance structure within and between the row and column variables.
+   Statistical Inference about the Mean Matrix and the Covariance Matrices in High\-Dimensional Transposable Data \(HDTD\)
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/HDTD.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/HDTD.html
    :license: GPL-3
    :recipe: /`bioconductor-hdtd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdtd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdtd/meta.yaml>`_
 
-   
+   Characterization of intra\-individual variability using physiologically relevant measurements provides important insights into fundamental biological questions ranging from cell type identity to tumor development. For each individual\, the data measurements can be written as a matrix with the different subsamples of the individual recorded in the columns and the different phenotypic units recorded in the rows. Datasets of this type are called high\-dimensional transposable data. The HDTD package provides functions for conducting statistical inference for the mean relationship between the row and column variables and for the covariance structure within and between the row and column variables.
 
 
 .. conda:package:: bioconductor-hdtd

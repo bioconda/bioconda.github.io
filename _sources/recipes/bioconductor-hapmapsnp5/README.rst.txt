@@ -9,22 +9,22 @@ bioconductor-hapmapsnp5
 .. conda:recipe:: bioconductor-hapmapsnp5
    :replaces_section_title:
 
-   Sample dataset obtained from http\:\/\/www.hapmap.org
+   Sample data \- Hapmap SNP 5.0 Affymetrix
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/hapmapsnp5.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/hapmapsnp5.html
    :license: GPL
    :recipe: /`bioconductor-hapmapsnp5 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmapsnp5>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmapsnp5/meta.yaml>`_
 
-   
+   Sample dataset obtained from http\:\/\/www.hapmap.org
 
 
 .. conda:package:: bioconductor-hapmapsnp5
 
    |downloads_bioconductor-hapmapsnp5| |docker_bioconductor-hapmapsnp5|
 
-   :versions: 1.27.0-0, 1.26.0-1, 1.26.0-0, 1.24.0-0
+   :versions: 1.26.0-1, 1.26.0-0, 1.24.0-0
    
-   :depends curl: >=7.65.3,<8.0a0
+   :depends curl: >=7.65.2,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

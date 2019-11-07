@@ -9,13 +9,13 @@ bioconductor-bsgenome.tgondii.toxodb.7.0
 .. conda:recipe:: bioconductor-bsgenome.tgondii.toxodb.7.0
    :replaces_section_title:
 
-   Toxoplasma gondii ME49 genome Release 7.0 available at http\:\/\/www.toxodb.org
+   Toxoplasma gondii ME49 \(ToxoDB\-7.0\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Tgondii.ToxoDB.7.0.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Tgondii.ToxoDB.7.0.html
    :license: GPL 3
    :recipe: /`bioconductor-bsgenome.tgondii.toxodb.7.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.tgondii.toxodb.7.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.tgondii.toxodb.7.0/meta.yaml>`_
 
-   
+   Toxoplasma gondii ME49 genome Release 7.0 available at http\:\/\/www.toxodb.org
 
 
 .. conda:package:: bioconductor-bsgenome.tgondii.toxodb.7.0

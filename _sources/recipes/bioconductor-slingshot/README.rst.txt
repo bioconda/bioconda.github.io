@@ -9,13 +9,13 @@ bioconductor-slingshot
 .. conda:recipe:: bioconductor-slingshot
    :replaces_section_title:
 
-   Provides functions for inferring continuous\, branching lineage structures in low\-dimensional data. Slingshot was designed to model developmental trajectories in single\-cell RNA sequencing data and serve as a component in an analysis pipeline after dimensionality reduction and clustering. It is flexible enough to handle arbitrarily many branching events and allows for the incorporation of prior knowledge through supervised graph construction.
+   Tools for ordering single\-cell sequencing
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/slingshot.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/slingshot.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-slingshot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slingshot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slingshot/meta.yaml>`_
 
-   
+   Provides functions for inferring continuous\, branching lineage structures in low\-dimensional data. Slingshot was designed to model developmental trajectories in single\-cell RNA sequencing data and serve as a component in an analysis pipeline after dimensionality reduction and clustering. It is flexible enough to handle arbitrarily many branching events and allows for the incorporation of prior knowledge through supervised graph construction.
 
 
 .. conda:package:: bioconductor-slingshot

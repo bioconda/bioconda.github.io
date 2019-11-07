@@ -9,13 +9,13 @@ bioconductor-mbkmeans
 .. conda:recipe:: bioconductor-mbkmeans
    :replaces_section_title:
 
-   Implements the mini\-batch k\-means algorithm for large datasets\, including support for on\-disk data representation.
+   Mini\-batch K\-means Clustering for Single\-Cell RNA\-seq
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/mbkmeans.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/mbkmeans.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-mbkmeans <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbkmeans>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbkmeans/meta.yaml>`_
 
-   
+   Implements the mini\-batch k\-means algorithm for large datasets\, including support for on\-disk data representation.
 
 
 .. conda:package:: bioconductor-mbkmeans

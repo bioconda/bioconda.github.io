@@ -9,14 +9,14 @@ bioconductor-pwmenrich
 .. conda:recipe:: bioconductor-pwmenrich
    :replaces_section_title:
 
-   A toolkit of high\-level functions for DNA motif scanning and enrichment analysis built upon Biostrings. The main functionality is PWM enrichment analysis of already known PWMs \(e.g. from databases such as MotifDb\)\, but the package also implements high\-level functions for PWM scanning and visualisation. The package does not perform \"de novo\" motif discovery\, but is instead focused on using motifs that are either experimentally derived or computationally constructed by other tools.
+   PWM enrichment analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PWMEnrich.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PWMEnrich.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-pwmenrich <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwmenrich>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwmenrich/meta.yaml>`_
    :links: biotools: :biotools:`pwmenrich`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   A toolkit of high\-level functions for DNA motif scanning and enrichment analysis built upon Biostrings. The main functionality is PWM enrichment analysis of already known PWMs \(e.g. from databases such as MotifDb\)\, but the package also implements high\-level functions for PWM scanning and visualisation. The package does not perform \"de novo\" motif discovery\, but is instead focused on using motifs that are either experimentally derived or computationally constructed by other tools.
 
 
 .. conda:package:: bioconductor-pwmenrich

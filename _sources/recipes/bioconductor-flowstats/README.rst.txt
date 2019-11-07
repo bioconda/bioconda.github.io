@@ -9,13 +9,13 @@ bioconductor-flowstats
 .. conda:recipe:: bioconductor-flowstats
    :replaces_section_title:
 
-   Methods and functionality to analyse flow data that is beyond the basic infrastructure provided by the flowCore package.
+   Statistical methods for the analysis of flow cytometry data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flowStats.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flowStats.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowstats/meta.yaml>`_
 
-   
+   Methods and functionality to analyse flow data that is beyond the basic infrastructure provided by the flowCore package.
 
 
 .. conda:package:: bioconductor-flowstats

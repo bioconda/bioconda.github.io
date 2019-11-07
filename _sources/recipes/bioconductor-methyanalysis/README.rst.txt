@@ -9,14 +9,14 @@ bioconductor-methyanalysis
 .. conda:recipe:: bioconductor-methyanalysis
    :replaces_section_title:
 
-   The methyAnalysis package aims for the DNA methylation data analysis and visualization. A MethyGenoSet class is defined to keep the chromosome location information together with the data. The package also includes functions of estimating the methylation levels from Methy\-Seq data.
+   DNA methylation data analysis and visualization
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/methyAnalysis.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/methyAnalysis.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-methyanalysis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methyanalysis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methyanalysis/meta.yaml>`_
    :links: biotools: :biotools:`methyanalysis`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   The methyAnalysis package aims for the DNA methylation data analysis and visualization. A MethyGenoSet class is defined to keep the chromosome location information together with the data. The package also includes functions of estimating the methylation levels from Methy\-Seq data.
 
 
 .. conda:package:: bioconductor-methyanalysis

@@ -9,14 +9,14 @@ bioconductor-nem
 .. conda:recipe:: bioconductor-nem
    :replaces_section_title:
 
-   The package \'nem\' allows to reconstruct features of pathways from the nested structure of perturbation effects. It takes as input \(1.\) a set of pathway components\, which were perturbed\, and \(2.\) phenotypic readout of these perturbations \(e.g. gene expression\, protein expression\). The output is a directed graph representing the phenotypic hierarchy.
+   \(Dynamic\) Nested Effects Models and Deterministic Effects Propagation Networks to reconstruct phenotypic hierarchies
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/nem.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/nem.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-nem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nem/meta.yaml>`_
    :links: biotools: :biotools:`nem`, doi: :doi:`10.1093/bioinformatics/btq385`
 
-   
+   The package \'nem\' allows to reconstruct features of pathways from the nested structure of perturbation effects. It takes as input \(1.\) a set of pathway components\, which were perturbed\, and \(2.\) phenotypic readout of these perturbations \(e.g. gene expression\, protein expression\). The output is a directed graph representing the phenotypic hierarchy.
 
 
 .. conda:package:: bioconductor-nem

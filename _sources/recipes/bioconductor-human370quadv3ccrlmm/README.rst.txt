@@ -9,13 +9,13 @@ bioconductor-human370quadv3ccrlmm
 .. conda:recipe:: bioconductor-human370quadv3ccrlmm
    :replaces_section_title:
 
-   Package with metadata for genotyping Illumina 370kQuad arrays using the \'crlmm\' package.
+   Metadata for fast genotyping with the \'crlmm\' package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/human370quadv3cCrlmm.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/human370quadv3cCrlmm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-human370quadv3ccrlmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-human370quadv3ccrlmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-human370quadv3ccrlmm/meta.yaml>`_
 
-   
+   Package with metadata for genotyping Illumina 370kQuad arrays using the \'crlmm\' package.
 
 
 .. conda:package:: bioconductor-human370quadv3ccrlmm

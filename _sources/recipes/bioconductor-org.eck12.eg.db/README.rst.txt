@@ -9,13 +9,13 @@ bioconductor-org.eck12.eg.db
 .. conda:recipe:: bioconductor-org.eck12.eg.db
    :replaces_section_title:
 
-   Genome wide annotation for E coli strain K12\, primarily based on mapping using Entrez Gene identifiers.
+   Genome wide annotation for E coli strain K12
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/org.EcK12.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/org.EcK12.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-org.eck12.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.eck12.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.eck12.eg.db/meta.yaml>`_
 
-   
+   Genome wide annotation for E coli strain K12\, primarily based on mapping using Entrez Gene identifiers.
 
 
 .. conda:package:: bioconductor-org.eck12.eg.db

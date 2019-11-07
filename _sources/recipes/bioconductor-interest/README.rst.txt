@@ -9,14 +9,14 @@ bioconductor-interest
 .. conda:recipe:: bioconductor-interest
    :replaces_section_title:
 
-   This package performs Intron\-Exon Retention analysis on RNA\-seq data \(.bam files\).
+   Intron\-Exon Retention Estimator
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/IntEREst.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/IntEREst.html
    :license: GPL-2
    :recipe: /`bioconductor-interest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interest/meta.yaml>`_
    :links: doi: :doi:`10.18129/B9.bioc.IntEREst`
 
-   
+   This package performs Intron\-Exon Retention analysis on RNA\-seq data \(.bam files\).
 
 
 .. conda:package:: bioconductor-interest

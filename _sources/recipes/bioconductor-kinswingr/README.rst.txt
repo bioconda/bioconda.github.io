@@ -9,13 +9,13 @@ bioconductor-kinswingr
 .. conda:recipe:: bioconductor-kinswingr
    :replaces_section_title:
 
-   KinSwingR integrates phosphosite data derived from mass\-spectrometry data and kinase\-substrate predictions to predict kinase activity. Several functions allow the user to build PWM models of kinase\-subtrates\, statistically infer PWM\:substrate matches\, and integrate these data to infer kinase activity.
+   KinSwingR\: network\-based kinase activity prediction
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/KinSwingR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/KinSwingR.html
    :license: GPL-3
    :recipe: /`bioconductor-kinswingr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kinswingr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kinswingr/meta.yaml>`_
 
-   
+   KinSwingR integrates phosphosite data derived from mass\-spectrometry data and kinase\-substrate predictions to predict kinase activity. Several functions allow the user to build PWM models of kinase\-subtrates\, statistically infer PWM\:substrate matches\, and integrate these data to infer kinase activity.
 
 
 .. conda:package:: bioconductor-kinswingr

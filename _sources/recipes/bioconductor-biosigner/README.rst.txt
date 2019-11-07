@@ -9,14 +9,14 @@ bioconductor-biosigner
 .. conda:recipe:: bioconductor-biosigner
    :replaces_section_title:
 
-   Feature selection is critical in omics data analysis to extract restricted and meaningful molecular signatures from complex and high\-dimension data\, and to build robust classifiers. This package implements a new method to assess the relevance of the variables for the prediction performances of the classifier. The approach can be run in parallel with the PLS\-DA\, Random Forest\, and SVM binary classifiers. The signatures and the corresponding \'restricted\' models are returned\, enabling future predictions on new datasets. A Galaxy implementation of the package is available within the Workflow4metabolomics.org online infrastructure for computational metabolomics.
+   Signature discovery from omics data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/biosigner.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/biosigner.html
    :license: CeCILL
    :recipe: /`bioconductor-biosigner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biosigner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biosigner/meta.yaml>`_
    :links: biotools: :biotools:`biosigner`, doi: :doi:`10.3389/fmolb.2016.00026`
 
-   
+   Feature selection is critical in omics data analysis to extract restricted and meaningful molecular signatures from complex and high\-dimension data\, and to build robust classifiers. This package implements a new method to assess the relevance of the variables for the prediction performances of the classifier. The approach can be run in parallel with the PLS\-DA\, Random Forest\, and SVM binary classifiers. The signatures and the corresponding \'restricted\' models are returned\, enabling future predictions on new datasets. A Galaxy implementation of the package is available within the Workflow4metabolomics.org online infrastructure for computational metabolomics.
 
 
 .. conda:package:: bioconductor-biosigner

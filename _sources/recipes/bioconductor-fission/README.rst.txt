@@ -9,20 +9,20 @@ bioconductor-fission
 .. conda:recipe:: bioconductor-fission
    :replaces_section_title:
 
-   This package provides a RangedSummarizedExperiment object of read counts in genes for a time course RNA\-Seq experiment of fission yeast \(Schizosaccharomyces pombe\) in response to oxidative stress \(1M sorbitol treatment\) at 0\, 15\, 30\, 60\, 120 and 180 mins. The samples are further divided between a wild\-type group and a group with deletion of atf21. The read count matrix was prepared and provided by the author of the study\: Leong HS\, Dawson K\, Wirth C\, Li Y\, Connolly Y\, Smith DL\, Wilkinson CR\, Miller CJ. \"A global non\-coding RNA system modulates fission yeast protein levels in response to stress\". Nat Commun 2014 May 23\;5\:3947. PMID\: 24853205. GEO\: GSE56761.
+   RangedSummarizedExperiment for time course RNA\-Seq of fission yeast in response to stress\, by Leong et al.\, Nat Commun 2014.
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/fission.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/fission.html
    :license: LGPL
    :recipe: /`bioconductor-fission <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fission>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fission/meta.yaml>`_
 
-   
+   This package provides a RangedSummarizedExperiment object of read counts in genes for a time course RNA\-Seq experiment of fission yeast \(Schizosaccharomyces pombe\) in response to oxidative stress \(1M sorbitol treatment\) at 0\, 15\, 30\, 60\, 120 and 180 mins. The samples are further divided between a wild\-type group and a group with deletion of atf21. The read count matrix was prepared and provided by the author of the study\: Leong HS\, Dawson K\, Wirth C\, Li Y\, Connolly Y\, Smith DL\, Wilkinson CR\, Miller CJ. \"A global non\-coding RNA system modulates fission yeast protein levels in response to stress\". Nat Commun 2014 May 23\;5\:3947. PMID\: 24853205. GEO\: GSE56761.
 
 
 .. conda:package:: bioconductor-fission
 
    |downloads_bioconductor-fission| |docker_bioconductor-fission|
 
-   :versions: 1.5.0-0, 1.4.0-1, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0
    
    :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends curl: >=7.65.3,<8.0a0

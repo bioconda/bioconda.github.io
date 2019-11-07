@@ -9,13 +9,13 @@ bioconductor-rhdf5client
 .. conda:recipe:: bioconductor-rhdf5client
    :replaces_section_title:
 
-   Provides functionality for reading data from h5serv server from within R.
+   Access HDF5 content from h5serv
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/rhdf5client.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/rhdf5client.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rhdf5client <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5client>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5client/meta.yaml>`_
 
-   
+   Provides functionality for reading data from h5serv server from within R.
 
 
 .. conda:package:: bioconductor-rhdf5client

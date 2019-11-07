@@ -9,20 +9,20 @@ bioconductor-gwasdata
 .. conda:recipe:: bioconductor-gwasdata
    :replaces_section_title:
 
-   Selected Affymetrix and Illlumina SNP data for HapMap subjects.  Data provided by the Center for Inherited Disease Research at Johns Hopkins University and the Broad Institute of MIT and Harvard University.
+   Data used in the examples and vignettes of the GWASTools package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/GWASdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/GWASdata.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gwasdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwasdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwasdata/meta.yaml>`_
 
-   
+   Selected Affymetrix and Illlumina SNP data for HapMap subjects.  Data provided by the Center for Inherited Disease Research at Johns Hopkins University and the Broad Institute of MIT and Harvard University.
 
 
 .. conda:package:: bioconductor-gwasdata
 
    |downloads_bioconductor-gwasdata| |docker_bioconductor-gwasdata|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-0
    
    :depends bioconductor-gwastools: >=1.32.0,<1.33.0
    :depends curl: >=7.65.3,<8.0a0

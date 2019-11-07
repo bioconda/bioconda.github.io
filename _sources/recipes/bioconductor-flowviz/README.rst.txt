@@ -9,14 +9,14 @@ bioconductor-flowviz
 .. conda:recipe:: bioconductor-flowviz
    :replaces_section_title:
 
-   Provides visualization tools for flow cytometry data.
+   Visualization for flow cytometry
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/flowViz.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flowViz.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowviz/meta.yaml>`_
    :links: biotools: :biotools:`flowviz`, doi: :doi:`10.1093/bioinformatics/btn021`
 
-   
+   Provides visualization tools for flow cytometry data.
 
 
 .. conda:package:: bioconductor-flowviz

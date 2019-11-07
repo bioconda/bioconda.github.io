@@ -9,13 +9,13 @@ bioconductor-chromswitch
 .. conda:recipe:: bioconductor-chromswitch
    :replaces_section_title:
 
-   Chromswitch implements a flexible method to detect chromatin state switches between samples in two biological conditions in a specific genomic region of interest given peaks or chromatin state calls from ChIP\-seq data.
+   An R package to detect chromatin state switches from epigenomic data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/chromswitch.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/chromswitch.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-chromswitch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromswitch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromswitch/meta.yaml>`_
 
-   
+   Chromswitch implements a flexible method to detect chromatin state switches between samples in two biological conditions in a specific genomic region of interest given peaks or chromatin state calls from ChIP\-seq data.
 
 
 .. conda:package:: bioconductor-chromswitch

@@ -9,13 +9,13 @@ bioconductor-ocplus
 .. conda:recipe:: bioconductor-ocplus
    :replaces_section_title:
 
-   This package allows to characterize the operating characteristics of a microarray experiment\, i.e. the trade\-off between false discovery rate and the power to detect truly regulated genes. The package includes tools both for planned experiments \(for sample size assessment\) and for already collected data \(identification of differentially expressed genes\).
+   Operating characteristics plus sample size and local fdr for microarray experiments
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/OCplus.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/OCplus.html
    :license: LGPL
    :recipe: /`bioconductor-ocplus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ocplus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ocplus/meta.yaml>`_
 
-   
+   This package allows to characterize the operating characteristics of a microarray experiment\, i.e. the trade\-off between false discovery rate and the power to detect truly regulated genes. The package includes tools both for planned experiments \(for sample size assessment\) and for already collected data \(identification of differentially expressed genes\).
 
 
 .. conda:package:: bioconductor-ocplus

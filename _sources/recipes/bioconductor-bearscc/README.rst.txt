@@ -9,13 +9,13 @@ bioconductor-bearscc
 .. conda:recipe:: bioconductor-bearscc
    :replaces_section_title:
 
-   BEARscc is a noise estimation and injection tool that is designed to assess putative single\-cell RNA\-seq clusters in the context of experimental noise estimated by ERCC spike\-in controls.
+   BEARscc \(Bayesian ERCC Assesstment of Robustness of Single Cell Clusters\)
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BEARscc.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BEARscc.html
    :license: GPL-3
    :recipe: /`bioconductor-bearscc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bearscc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bearscc/meta.yaml>`_
 
-   
+   BEARscc is a noise estimation and injection tool that is designed to assess putative single\-cell RNA\-seq clusters in the context of experimental noise estimated by ERCC spike\-in controls.
 
 
 .. conda:package:: bioconductor-bearscc

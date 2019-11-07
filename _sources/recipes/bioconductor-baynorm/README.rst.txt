@@ -9,13 +9,13 @@ bioconductor-baynorm
 .. conda:recipe:: bioconductor-baynorm
    :replaces_section_title:
 
-   bayNorm is used for normalizing single\-cell RNA\-seq data.
+   Single\-cell RNA sequencing data normalization
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/bayNorm.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/bayNorm.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-baynorm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-baynorm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-baynorm/meta.yaml>`_
 
-   
+   bayNorm is used for normalizing single\-cell RNA\-seq data.
 
 
 .. conda:package:: bioconductor-baynorm

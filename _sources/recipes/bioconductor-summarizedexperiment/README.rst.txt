@@ -9,14 +9,14 @@ bioconductor-summarizedexperiment
 .. conda:recipe:: bioconductor-summarizedexperiment
    :replaces_section_title:
 
-   The SummarizedExperiment container contains one or more assays\, each represented by a matrix\-like object of numeric or other mode. The rows typically represent genomic ranges of interest and the columns represent samples.
+   SummarizedExperiment container
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SummarizedExperiment.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SummarizedExperiment.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-summarizedexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-summarizedexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-summarizedexperiment/meta.yaml>`_
    :links: biotools: :biotools:`summarizedexperiment`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   The SummarizedExperiment container contains one or more assays\, each represented by a matrix\-like object of numeric or other mode. The rows typically represent genomic ranges of interest and the columns represent samples.
 
 
 .. conda:package:: bioconductor-summarizedexperiment

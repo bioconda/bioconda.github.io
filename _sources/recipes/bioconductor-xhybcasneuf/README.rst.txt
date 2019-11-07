@@ -9,24 +9,24 @@ bioconductor-xhybcasneuf
 .. conda:recipe:: bioconductor-xhybcasneuf
    :replaces_section_title:
 
-   Cross\-hybridisation study on the ATH1 Affymetrix GeneChip
+   EBI\/PSB cross\-hybridisation study package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/XhybCasneuf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/XhybCasneuf.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-xhybcasneuf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xhybcasneuf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xhybcasneuf/meta.yaml>`_
 
-   
+   Cross\-hybridisation study on the ATH1 Affymetrix GeneChip
 
 
 .. conda:package:: bioconductor-xhybcasneuf
 
    |downloads_bioconductor-xhybcasneuf| |docker_bioconductor-xhybcasneuf|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.20.0-0
+   :versions: 1.22.0-1, 1.20.0-0
    
-   :depends bioconductor-affy: >=1.64.0,<1.65.0
+   :depends bioconductor-affy: >=1.62.0,<1.63.0
    :depends bioconductor-ath1121501cdf: >=2.18.0,<2.19.0
-   :depends bioconductor-tinesath1cdf: >=1.23.0,<1.24.0
+   :depends bioconductor-tinesath1cdf: >=1.22.0,<1.23.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-rcolorbrewer: 

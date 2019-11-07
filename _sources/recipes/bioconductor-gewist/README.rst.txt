@@ -9,14 +9,14 @@ bioconductor-gewist
 .. conda:recipe:: bioconductor-gewist
    :replaces_section_title:
 
-   This \'GEWIST\' package provides statistical tools to efficiently optimize SNP prioritization for gene\-gene and gene\-environment interactions.
+   Gene Environment Wide Interaction Search Threshold
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GEWIST.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GEWIST.html
    :license: GPL-2
    :recipe: /`bioconductor-gewist <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gewist>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gewist/meta.yaml>`_
    :links: biotools: :biotools:`gewist`, doi: :doi:`10.1002/gepi.20624`
 
-   
+   This \'GEWIST\' package provides statistical tools to efficiently optimize SNP prioritization for gene\-gene and gene\-environment interactions.
 
 
 .. conda:package:: bioconductor-gewist

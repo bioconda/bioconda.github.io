@@ -9,14 +9,14 @@ bioconductor-rnits
 .. conda:recipe:: bioconductor-rnits
    :replaces_section_title:
 
-   R\/Bioconductor package for normalization\, curve registration and inference in time course gene expression data.
+   R Normalization and Inference of Time Series data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Rnits.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Rnits.html
    :license: GPL-3
    :recipe: /`bioconductor-rnits <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnits>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnits/meta.yaml>`_
    :links: biotools: :biotools:`rnits`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   R\/Bioconductor package for normalization\, curve registration and inference in time course gene expression data.
 
 
 .. conda:package:: bioconductor-rnits

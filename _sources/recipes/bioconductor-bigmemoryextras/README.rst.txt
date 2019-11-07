@@ -9,13 +9,13 @@ bioconductor-bigmemoryextras
 .. conda:recipe:: bioconductor-bigmemoryextras
    :replaces_section_title:
 
-   This package defines a \"BigMatrix\" ReferenceClass which adds safety and convenience features to the filebacked.big.matrix class from the bigmemory package. BigMatrix protects against segfaults by monitoring and gracefully restoring the connection to on\-disk data and it also protects against accidental data modification with a filesystem\-based permissions system. We provide utilities for using BigMatrix\-derived classes as assayData matrices within the Biobase package\'s eSet family of classes. BigMatrix provides some optimizations related to attaching to\, and indexing into\, file\-backed matrices with dimnames. Additionally\, the package provides a \"BigMatrixFactor\" class\, a file\-backed matrix with factor properties.
+   An extension of the bigmemory package with added safety\, convenience\, and a factor class
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/bigmemoryExtras.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/bigmemoryExtras.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bigmemoryextras <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bigmemoryextras>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bigmemoryextras/meta.yaml>`_
 
-   
+   This package defines a \"BigMatrix\" ReferenceClass which adds safety and convenience features to the filebacked.big.matrix class from the bigmemory package. BigMatrix protects against segfaults by monitoring and gracefully restoring the connection to on\-disk data and it also protects against accidental data modification with a filesystem\-based permissions system. We provide utilities for using BigMatrix\-derived classes as assayData matrices within the Biobase package\'s eSet family of classes. BigMatrix provides some optimizations related to attaching to\, and indexing into\, file\-backed matrices with dimnames. Additionally\, the package provides a \"BigMatrixFactor\" class\, a file\-backed matrix with factor properties.
 
 
 .. conda:package:: bioconductor-bigmemoryextras

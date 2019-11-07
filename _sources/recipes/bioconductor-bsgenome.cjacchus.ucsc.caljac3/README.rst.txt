@@ -9,13 +9,13 @@ bioconductor-bsgenome.cjacchus.ucsc.caljac3
 .. conda:recipe:: bioconductor-bsgenome.cjacchus.ucsc.caljac3
    :replaces_section_title:
 
-   Full genome sequences for Callithrix jacchus \(Marmoset\) as provided by UCSC \(calJac3\, Mar. 2009\) and stored in Biostrings objects.
+   Full genome sequences for Callithrix jacchus \(UCSC version calJac3\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Cjacchus.UCSC.calJac3.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Cjacchus.UCSC.calJac3.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.cjacchus.ucsc.caljac3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.cjacchus.ucsc.caljac3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.cjacchus.ucsc.caljac3/meta.yaml>`_
 
-   
+   Full genome sequences for Callithrix jacchus \(Marmoset\) as provided by UCSC \(calJac3\, Mar. 2009\) and stored in Biostrings objects.
 
 
 .. conda:package:: bioconductor-bsgenome.cjacchus.ucsc.caljac3

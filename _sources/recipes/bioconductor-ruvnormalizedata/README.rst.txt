@@ -9,20 +9,20 @@ bioconductor-ruvnormalizedata
 .. conda:recipe:: bioconductor-ruvnormalizedata
    :replaces_section_title:
 
-   Microarray gene expression data from the study of Vawter et al.\, 2004.
+   Gender data for the RUVnormalize package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RUVnormalizeData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RUVnormalizeData.html
    :license: GPL-3
    :recipe: /`bioconductor-ruvnormalizedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ruvnormalizedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ruvnormalizedata/meta.yaml>`_
 
-   
+   Microarray gene expression data from the study of Vawter et al.\, 2004.
 
 
 .. conda:package:: bioconductor-ruvnormalizedata
 
    |downloads_bioconductor-ruvnormalizedata| |docker_bioconductor-ruvnormalizedata|
 
-   :versions: 1.5.0-0, 1.4.0-1, 1.2.0-0, 0.114.0-0, 0.112.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0, 0.114.0-0, 0.112.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends curl: >=7.65.3,<8.0a0

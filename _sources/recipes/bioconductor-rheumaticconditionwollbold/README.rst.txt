@@ -9,20 +9,20 @@ bioconductor-rheumaticconditionwollbold
 .. conda:recipe:: bioconductor-rheumaticconditionwollbold
    :replaces_section_title:
 
-   Normalized gene expression data from rheumatic diseases from study published by Wollbold et al. in 2009\, provided as an eSet.
+   Normalized gene expression dataset published by Wollbold et al. \[2009\] \(WOLLBOLD\).
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/rheumaticConditionWOLLBOLD.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/rheumaticConditionWOLLBOLD.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rheumaticconditionwollbold <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rheumaticconditionwollbold>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rheumaticconditionwollbold/meta.yaml>`_
 
-   
+   Normalized gene expression data from rheumatic diseases from study published by Wollbold et al. in 2009\, provided as an eSet.
 
 
 .. conda:package:: bioconductor-rheumaticconditionwollbold
 
    |downloads_bioconductor-rheumaticconditionwollbold| |docker_bioconductor-rheumaticconditionwollbold|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

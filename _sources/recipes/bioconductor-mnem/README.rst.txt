@@ -9,13 +9,13 @@ bioconductor-mnem
 .. conda:recipe:: bioconductor-mnem
    :replaces_section_title:
 
-   Mixture Nested Effects Models \(mnem\) is an extension of Nested Effects Models and allows for the analysis of single cell perturbation data provided by methods like Perturb\-Seq \(Dixit et al.\, 2016\) or Crop\-Seq \(Datlinger et al.\, 2017\). In those experiments each of many cells is perturbed by a knock\-down of a specific gene\, i.e. several cells are perturbed by a knock\-down of gene A\, several by a knock\-down of gene B\, ... and so forth. The observed read\-out has to be multi\-trait and in the case of the Perturb\-\/Crop\-Seq gene are expression profiles for each cell. mnem uses a mixture model to simultaneously cluster the cell population into k clusters and and infer k networks causally linking the perturbed genes for each cluster. The mixture components are inferred via an expectation maximization algorithm.
+   Mixture Nested Effects Models
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/mnem.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/mnem.html
    :license: GPL-3
    :recipe: /`bioconductor-mnem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mnem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mnem/meta.yaml>`_
 
-   
+   Mixture Nested Effects Models \(mnem\) is an extension of Nested Effects Models and allows for the analysis of single cell perturbation data provided by methods like Perturb\-Seq \(Dixit et al.\, 2016\) or Crop\-Seq \(Datlinger et al.\, 2017\). In those experiments each of many cells is perturbed by a knock\-down of a specific gene\, i.e. several cells are perturbed by a knock\-down of gene A\, several by a knock\-down of gene B\, ... and so forth. The observed read\-out has to be multi\-trait and in the case of the Perturb\-\/Crop\-Seq gene are expression profiles for each cell. mnem uses a mixture model to simultaneously cluster the cell population into k clusters and and infer k networks causally linking the perturbed genes for each cluster. The mixture components are inferred via an expectation maximization algorithm.
 
 
 .. conda:package:: bioconductor-mnem

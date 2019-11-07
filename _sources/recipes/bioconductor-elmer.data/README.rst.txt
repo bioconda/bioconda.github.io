@@ -9,20 +9,20 @@ bioconductor-elmer.data
 .. conda:recipe:: bioconductor-elmer.data
    :replaces_section_title:
 
-   Supporting data for the ELMER package. It includes\: \- elmer.data.example.promoter\: mae.promoter \- elmer.data.example\: data \- EPIC.hg38.manifest \- EPIC.hg19.manifest \- hm450.hg38.manifest \- hm450.hg19.manifest \- hocomoco.table \- human.TF \- LUSC\_meth\_refined\: Meth \- LUSC\_RNA\_refined\: GeneExp \- Probes.motif.hg19.450K \- Probes.motif.hg19.EPIC \- Probes.motif.hg38.450K \- Probes.motif.hg38.EPIC \- TF.family \- TF.subfamily
+   Data for the ELMER package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ELMER.data.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ELMER.data.html
    :license: GPL-3
    :recipe: /`bioconductor-elmer.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-elmer.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-elmer.data/meta.yaml>`_
 
-   
+   Supporting data for the ELMER package. It includes\: \- elmer.data.example.promoter\: mae.promoter \- elmer.data.example\: data \- EPIC.hg38.manifest \- EPIC.hg19.manifest \- hm450.hg38.manifest \- hm450.hg19.manifest \- hocomoco.table \- human.TF \- LUSC\_meth\_refined\: Meth \- LUSC\_RNA\_refined\: GeneExp \- Probes.motif.hg19.450K \- Probes.motif.hg19.EPIC \- Probes.motif.hg38.450K \- Probes.motif.hg38.EPIC \- TF.family \- TF.subfamily \- Human\_genes\_\_GRCh37\_p13 \- Human\_genes\_\_GRCh38\_p12 \- Human\_genes\_\_GRCh37\_p13\_\_tss \- Human\_genes\_\_GRCh38\_p12\_\_tss
 
 
 .. conda:package:: bioconductor-elmer.data
 
    |downloads_bioconductor-elmer.data| |docker_bioconductor-elmer.data|
 
-   :versions: 2.9.3-0, 2.8.0-1, 2.6.0-0, 2.4.2-0
+   :versions: 2.10.0-0, 2.8.0-1, 2.6.0-0, 2.4.2-0
    
    :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
    :depends curl: >=7.65.3,<8.0a0

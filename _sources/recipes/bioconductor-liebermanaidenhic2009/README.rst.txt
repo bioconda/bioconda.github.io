@@ -9,20 +9,20 @@ bioconductor-liebermanaidenhic2009
 .. conda:recipe:: bioconductor-liebermanaidenhic2009
    :replaces_section_title:
 
-   This package provides data that were presented in the article \"Comprehensive mapping of long\-range interactions reveals folding principles of the human genome\"\, Science 2009 Oct 9\;326\(5950\)\:289\-93. PMID\: 19815776
+   Selected data from the HiC paper of E. Lieberman\-Aiden et al. in Science \(2009\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/LiebermanAidenHiC2009.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/LiebermanAidenHiC2009.html
    :license: LGPL
    :recipe: /`bioconductor-liebermanaidenhic2009 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-liebermanaidenhic2009>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-liebermanaidenhic2009/meta.yaml>`_
 
-   
+   This package provides data that were presented in the article \"Comprehensive mapping of long\-range interactions reveals folding principles of the human genome\"\, Science 2009 Oct 9\;326\(5950\)\:289\-93. PMID\: 19815776
 
 
 .. conda:package:: bioconductor-liebermanaidenhic2009
 
    |downloads_bioconductor-liebermanaidenhic2009| |docker_bioconductor-liebermanaidenhic2009|
 
-   :versions: 0.23.0-0, 0.22.0-1, 0.20.0-0
+   :versions: 0.24.0-0, 0.22.0-1, 0.20.0-0
    
    :depends bioconductor-iranges: >=2.20.0,<2.21.0
    :depends curl: >=7.65.3,<8.0a0

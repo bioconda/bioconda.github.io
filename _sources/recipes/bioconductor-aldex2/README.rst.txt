@@ -9,14 +9,14 @@ bioconductor-aldex2
 .. conda:recipe:: bioconductor-aldex2
    :replaces_section_title:
 
-   A differential abundance analysis for the comparison of two or more conditions. Useful for analyzing data from standard RNA\-seq or meta\-RNA\-seq assays as well as selected and unselected values from in\-vitro sequence selections. Uses a Dirichlet\-multinomial model to infer abundance from counts\, optimized for three or more experimental replicates. The method infers biological and sampling variation to calculate the expected false discovery rate\, given the variation\, based on a Wilcoxon Rank Sum test and Welch\'s t\-test \(via aldex.ttest\)\, a Kruskal\-Wallis test \(via aldex.kw\)\, a generalized linear model \(via aldex.glm\)\, or a correlation test \(via aldex.corr\). All tests report p\-values and Benjamini\-Hochberg corrected p\-values.
+   Analysis Of Differential Abundance Taking Sample Variation Into Account
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ALDEx2.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ALDEx2.html
    :license: file LICENSE
    :recipe: /`bioconductor-aldex2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aldex2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aldex2/meta.yaml>`_
    :links: biotools: :biotools:`aldex2`
 
-   
+   A differential abundance analysis for the comparison of two or more conditions. Useful for analyzing data from standard RNA\-seq or meta\-RNA\-seq assays as well as selected and unselected values from in\-vitro sequence selections. Uses a Dirichlet\-multinomial model to infer abundance from counts\, optimized for three or more experimental replicates. The method infers biological and sampling variation to calculate the expected false discovery rate\, given the variation\, based on a Wilcoxon Rank Sum test and Welch\'s t\-test \(via aldex.ttest\)\, a Kruskal\-Wallis test \(via aldex.kw\)\, a generalized linear model \(via aldex.glm\)\, or a correlation test \(via aldex.corr\). All tests report p\-values and Benjamini\-Hochberg corrected p\-values.
 
 
 .. conda:package:: bioconductor-aldex2

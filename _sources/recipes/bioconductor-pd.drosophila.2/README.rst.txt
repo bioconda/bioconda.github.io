@@ -11,11 +11,11 @@ bioconductor-pd.drosophila.2
 
    Platform Design Info for The Manufacturer\'s Name Drosophila\_2
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.drosophila.2.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.drosophila.2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.drosophila.2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.drosophila.2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.drosophila.2/meta.yaml>`_
 
-   
+   Platform Design Info for The Manufacturer\'s Name Drosophila\_2
 
 
 .. conda:package:: bioconductor-pd.drosophila.2

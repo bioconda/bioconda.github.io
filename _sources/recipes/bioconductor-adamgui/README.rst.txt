@@ -9,13 +9,13 @@ bioconductor-adamgui
 .. conda:recipe:: bioconductor-adamgui
    :replaces_section_title:
 
-   ADAMgui is a Graphical User Interface for the ADAM package. The ADAMgui package provides 2 shiny\-based applications that allows the user to study the output of the ADAM package files through different plots. It\'s possible\, for example\, to choose a specific GFAG and observe the gene expression behavior with the plots created with the GFAGtargetUi function. Features such as differential expression and foldchange can be easily seen with aid of the plots made with GFAGpathUi function.
+   Activity and Diversity Analysis Module Graphical User Interface
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ADAMgui.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ADAMgui.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-adamgui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adamgui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adamgui/meta.yaml>`_
 
-   
+   ADAMgui is a Graphical User Interface for the ADAM package. The ADAMgui package provides 2 shiny\-based applications that allows the user to study the output of the ADAM package files through different plots. It\'s possible\, for example\, to choose a specific GFAG and observe the gene expression behavior with the plots created with the GFAGtargetUi function. Features such as differential expression and foldchange can be easily seen with aid of the plots made with GFAGpathUi function.
 
 
 .. conda:package:: bioconductor-adamgui

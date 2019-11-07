@@ -9,20 +9,20 @@ bioconductor-fis
 .. conda:recipe:: bioconductor-fis
    :replaces_section_title:
 
-   Data set containing two complete lists of identified functional interaction partners in Human. Data are derived from Reactome and BioGRID databases.
+   Human Functional Interactions \(FIs\) for splineTimeR package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/FIs.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/FIs.html
    :license: GPL-3
    :recipe: /`bioconductor-fis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fis/meta.yaml>`_
 
-   
+   Data set containing two complete lists of identified functional interaction partners in Human. Data are derived from Reactome and BioGRID databases.
 
 
 .. conda:package:: bioconductor-fis
 
    |downloads_bioconductor-fis| |docker_bioconductor-fis|
 
-   :versions: 1.13.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

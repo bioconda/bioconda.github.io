@@ -9,13 +9,13 @@ bioconductor-iwtomics
 .. conda:recipe:: bioconductor-iwtomics
    :replaces_section_title:
 
-   Implementation of the Interval\-Wise Testing \(IWT\) for omics data. This inferential procedure tests for differences in \"Omics\" data between two groups of genomic regions \(or between a group of genomic regions and a reference center of symmetry\)\, and does not require fixing location and scale at the outset.
+   Interval\-Wise Testing for Omics Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/IWTomics.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/IWTomics.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-iwtomics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iwtomics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iwtomics/meta.yaml>`_
 
-   
+   Implementation of the Interval\-Wise Testing \(IWT\) for omics data. This inferential procedure tests for differences in \"Omics\" data between two groups of genomic regions \(or between a group of genomic regions and a reference center of symmetry\)\, and does not require fixing location and scale at the outset.
 
 
 .. conda:package:: bioconductor-iwtomics

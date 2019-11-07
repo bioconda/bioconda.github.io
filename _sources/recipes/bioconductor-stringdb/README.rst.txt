@@ -9,14 +9,14 @@ bioconductor-stringdb
 .. conda:recipe:: bioconductor-stringdb
    :replaces_section_title:
 
-   The STRINGdb package provides a R interface to the STRING protein\-protein interactions database \(http\:\/\/www.string\-db.org\).
+   STRINGdb \(Search Tool for the Retrieval of Interacting proteins database\)
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/STRINGdb.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/STRINGdb.html
    :license: GPL-2
    :recipe: /`bioconductor-stringdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stringdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stringdb/meta.yaml>`_
    :links: biotools: :biotools:`stringdb`
 
-   
+   The STRINGdb package provides a R interface to the STRING protein\-protein interactions database \(http\:\/\/www.string\-db.org\).
 
 
 .. conda:package:: bioconductor-stringdb

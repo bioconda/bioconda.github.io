@@ -9,22 +9,22 @@ bioconductor-pathprintgeodata
 .. conda:recipe:: bioconductor-pathprintgeodata
    :replaces_section_title:
 
-   Pathway Fingerprint vectors that have been pre\-calculated for \~390\,000 publicly available arrays from the GEO corpus\, spanning 6 species and 31 platforms. All data are accompanied by their associated metadata.
+   Pathway fingerprint vectors representing a subsection of arrays from the GEO data repository
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/pathprintGEOData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/pathprintGEOData.html
    :license: GPL
    :recipe: /`bioconductor-pathprintgeodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathprintgeodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathprintgeodata/meta.yaml>`_
 
-   
+   Pathway Fingerprint vectors that have been pre\-calculated for \~390\,000 publicly available arrays from the GEO corpus\, spanning 6 species and 31 platforms. All data are accompanied by their associated metadata.
 
 
 .. conda:package:: bioconductor-pathprintgeodata
 
    |downloads_bioconductor-pathprintgeodata| |docker_bioconductor-pathprintgeodata|
 
-   :versions: 1.15.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0
+   :versions: 1.14.0-1, 1.14.0-0, 1.12.0-0
    
-   :depends curl: >=7.65.3,<8.0a0
+   :depends curl: >=7.65.2,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

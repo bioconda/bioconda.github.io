@@ -9,20 +9,20 @@ bioconductor-rnainteractmapk
 .. conda:recipe:: bioconductor-rnainteractmapk
    :replaces_section_title:
 
-   This package includes all data used in the paper \-Mapping of Signalling Networks through Synthetic Genetic Interaction Analysis by RNAi\- by Horn\, Sandmann\, Fischer et al..\, Nat. Methods\, 2011. The package vignette shows the R code to reproduce all figures in the paper.
+   Mapping of Signalling Networks through Synthetic Genetic Interaction Analysis by RNAi
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/RNAinteractMAPK.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RNAinteractMAPK.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rnainteractmapk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnainteractmapk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnainteractmapk/meta.yaml>`_
 
-   
+   This package includes all data used in the paper \-Mapping of Signalling Networks through Synthetic Genetic Interaction Analysis by RNAi\- by Horn\, Sandmann\, Fischer et al..\, Nat. Methods\, 2011. The package vignette shows the R code to reproduce all figures in the paper.
 
 
 .. conda:package:: bioconductor-rnainteractmapk
 
    |downloads_bioconductor-rnainteractmapk| |docker_bioconductor-rnainteractmapk|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-0
    
    :depends bioconductor-genefilter: >=1.68.0,<1.69.0
    :depends bioconductor-rnainteract: >=1.34.0,<1.35.0

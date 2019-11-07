@@ -9,20 +9,20 @@ bioconductor-single.mtec.transcriptomes
 .. conda:recipe:: bioconductor-single.mtec.transcriptomes
    :replaces_section_title:
 
-   This data package contains the code used to analyse the single\-cell RNA\-seq and the bulk ATAC\-seq data from the manuscript titled\: Single\-cell transcriptome analysis reveals coordinated ectopic\-gene expression patterns in medullary thymic epithelial cells. This paper was published in Nature Immunology 16\,933\-941\(2015\). The data objects provided in this package has been pre\-processed\: the raw data files can be downloaded from ArrayExpress under the accession identifiers E\-MTAB\-3346 and E\-MTAB\-3624. The vignette of this data package provides a documented and reproducible workflow that includes the code that was used to generate each statistic and figure from the manuscript.
+   Single Cell Transcriptome Data and Analysis of Mouse mTEC cells
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/Single.mTEC.Transcriptomes.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/Single.mTEC.Transcriptomes.html
    :license: LGPL
    :recipe: /`bioconductor-single.mtec.transcriptomes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-single.mtec.transcriptomes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-single.mtec.transcriptomes/meta.yaml>`_
 
-   
+   This data package contains the code used to analyse the single\-cell RNA\-seq and the bulk ATAC\-seq data from the manuscript titled\: Single\-cell transcriptome analysis reveals coordinated ectopic\-gene expression patterns in medullary thymic epithelial cells. This paper was published in Nature Immunology 16\,933\-941\(2015\). The data objects provided in this package has been pre\-processed\: the raw data files can be downloaded from ArrayExpress under the accession identifiers E\-MTAB\-3346 and E\-MTAB\-3624. The vignette of this data package provides a documented and reproducible workflow that includes the code that was used to generate each statistic and figure from the manuscript.
 
 
 .. conda:package:: bioconductor-single.mtec.transcriptomes
 
    |downloads_bioconductor-single.mtec.transcriptomes| |docker_bioconductor-single.mtec.transcriptomes|
 
-   :versions: 1.13.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

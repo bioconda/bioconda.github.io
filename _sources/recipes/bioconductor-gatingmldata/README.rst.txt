@@ -9,20 +9,20 @@ bioconductor-gatingmldata
 .. conda:recipe:: bioconductor-gatingmldata
    :replaces_section_title:
 
-   Test data and XML files for testing compliance of the flowUtils\/flowCore packages with Gating\-ML \(1.5 and 2.0\) standards.
+   Data and XML files for Gating\-ML Test suite
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/gatingMLData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/gatingMLData.html
    :license: GPL
    :recipe: /`bioconductor-gatingmldata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gatingmldata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gatingmldata/meta.yaml>`_
 
-   
+   Test data and XML files for testing compliance of the flowUtils\/flowCore packages with Gating\-ML \(1.5 and 2.0\) standards.
 
 
 .. conda:package:: bioconductor-gatingmldata
 
    |downloads_bioconductor-gatingmldata| |docker_bioconductor-gatingmldata|
 
-   :versions: 2.25.0-0, 2.24.0-1, 2.24.0-0, 2.22.0-0
+   :versions: 2.26.0-0, 2.24.0-1, 2.24.0-0, 2.22.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

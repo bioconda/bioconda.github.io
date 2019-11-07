@@ -9,13 +9,13 @@ bioconductor-joda
 .. conda:recipe:: bioconductor-joda
    :replaces_section_title:
 
-   Package \'joda\' implements three steps of an algorithm called JODA. The algorithm computes gene deregulation scores. For each gene\, its deregulation score reflects how strongly an effect of a certain regulator\'s perturbation on this gene differs between two different cell populations. The algorithm utilizes regulator knockdown expression data as well as knowledge about signaling pathways in which the regulators are involved \(formalized in a simple matrix model\).
+   JODA algorithm for quantifying gene deregulation using knowledge
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/joda.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/joda.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-joda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-joda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-joda/meta.yaml>`_
 
-   
+   Package \'joda\' implements three steps of an algorithm called JODA. The algorithm computes gene deregulation scores. For each gene\, its deregulation score reflects how strongly an effect of a certain regulator\'s perturbation on this gene differs between two different cell populations. The algorithm utilizes regulator knockdown expression data as well as knowledge about signaling pathways in which the regulators are involved \(formalized in a simple matrix model\).
 
 
 .. conda:package:: bioconductor-joda

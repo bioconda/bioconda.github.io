@@ -9,14 +9,14 @@ bioconductor-suprahex
 .. conda:recipe:: bioconductor-suprahex
    :replaces_section_title:
 
-   A supra\-hexagonal map is a giant hexagon on a 2\-dimensional grid seamlessly consisting of smaller hexagons. It is supposed to train\, analyse and visualise a high\-dimensional omics input data. The supraHex is able to carry out gene clustering\/meta\-clustering and sample correlation\, plus intuitive visualisations to facilitate exploratory analysis. More importantly\, it allows for overlaying additional data onto the trained map to explore relations between input and additional data. So with supraHex\, it is also possible to carry out multilayer omics data comparisons. Newly added utilities are advanced heatmap visualisation and tree\-based analysis of sample relationships. Uniquely to this package\, users can ultrafastly understand any tabular omics data\, both scientifically and artistically\, especially in a sample\-specific fashion but without loss of information on large genes.
+   supraHex\: a supra\-hexagonal map for analysing tabular omics data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/supraHex.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/supraHex.html
    :license: GPL-2
    :recipe: /`bioconductor-suprahex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-suprahex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-suprahex/meta.yaml>`_
    :links: biotools: :biotools:`suprahex`
 
-   
+   A supra\-hexagonal map is a giant hexagon on a 2\-dimensional grid seamlessly consisting of smaller hexagons. It is supposed to train\, analyse and visualise a high\-dimensional omics input data. The supraHex is able to carry out gene clustering\/meta\-clustering and sample correlation\, plus intuitive visualisations to facilitate exploratory analysis. More importantly\, it allows for overlaying additional data onto the trained map to explore relations between input and additional data. So with supraHex\, it is also possible to carry out multilayer omics data comparisons. Newly added utilities are advanced heatmap visualisation and tree\-based analysis of sample relationships. Uniquely to this package\, users can ultrafastly understand any tabular omics data\, both scientifically and artistically\, especially in a sample\-specific fashion but without loss of information on large genes.
 
 
 .. conda:package:: bioconductor-suprahex

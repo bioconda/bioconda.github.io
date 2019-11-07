@@ -11,11 +11,11 @@ bioconductor-pd.celegans
 
    Platform Design Info for The Manufacturer\'s Name Celegans
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.celegans.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.celegans.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.celegans <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.celegans>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.celegans/meta.yaml>`_
 
-   
+   Platform Design Info for The Manufacturer\'s Name Celegans
 
 
 .. conda:package:: bioconductor-pd.celegans

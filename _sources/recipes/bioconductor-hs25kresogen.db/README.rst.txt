@@ -9,13 +9,13 @@ bioconductor-hs25kresogen.db
 .. conda:recipe:: bioconductor-hs25kresogen.db
    :replaces_section_title:
 
-   RNG\_MRC Human Pangenomic 25k Set annotation data \(chip hs25kresogen\) assembled using data from public repositories
+   RNG\_MRC Human Pangenomic 25k Set annotation data \(chip hs25kresogen\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hs25kresogen.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hs25kresogen.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hs25kresogen.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hs25kresogen.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hs25kresogen.db/meta.yaml>`_
 
-   
+   RNG\_MRC Human Pangenomic 25k Set annotation data \(chip hs25kresogen\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-hs25kresogen.db

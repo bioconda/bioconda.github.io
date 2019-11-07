@@ -9,13 +9,13 @@ bioconductor-mafdb.topmed.freeze5.hg38
 .. conda:recipe:: bioconductor-mafdb.topmed.freeze5.hg38
    :replaces_section_title:
 
-   Store minor allele frequency data from NHLBI TOPMed for the human genome version hg38.
+   Minor allele frequency data from TOPMed for hg38
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/MafDb.TOPMed.freeze5.hg38.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/MafDb.TOPMed.freeze5.hg38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mafdb.topmed.freeze5.hg38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.topmed.freeze5.hg38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.topmed.freeze5.hg38/meta.yaml>`_
 
-   
+   Store minor allele frequency data from NHLBI TOPMed for the human genome version hg38.
 
 
 .. conda:package:: bioconductor-mafdb.topmed.freeze5.hg38

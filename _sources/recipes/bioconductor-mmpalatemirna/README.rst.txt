@@ -9,13 +9,13 @@ bioconductor-mmpalatemirna
 .. conda:recipe:: bioconductor-mmpalatemirna
    :replaces_section_title:
 
-   R package compendium for the analysis of murine palate miRNA two\-color expression data.
+   Murine Palate miRNA Expression Analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MmPalateMiRNA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MmPalateMiRNA.html
    :license: GPL-3
    :recipe: /`bioconductor-mmpalatemirna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mmpalatemirna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mmpalatemirna/meta.yaml>`_
 
-   
+   R package compendium for the analysis of murine palate miRNA two\-color expression data.
 
 
 .. conda:package:: bioconductor-mmpalatemirna

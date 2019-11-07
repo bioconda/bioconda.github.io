@@ -9,20 +9,20 @@ bioconductor-crcl18
 .. conda:recipe:: bioconductor-crcl18
    :replaces_section_title:
 
-   colorectal cancer mRNA and miRNA on 18 cell lines
+   CRC cell line dataset
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/CRCL18.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/CRCL18.html
    :license: GPL-2
    :recipe: /`bioconductor-crcl18 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crcl18>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crcl18/meta.yaml>`_
 
-   
+   colorectal cancer mRNA and miRNA on 18 cell lines
 
 
 .. conda:package:: bioconductor-crcl18
 
    |downloads_bioconductor-crcl18| |docker_bioconductor-crcl18|
 
-   :versions: 1.5.0-0, 1.4.0-1, 1.2.0-1, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-1, 1.2.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends curl: >=7.65.3,<8.0a0

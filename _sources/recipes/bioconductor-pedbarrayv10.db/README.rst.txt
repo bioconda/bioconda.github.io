@@ -9,13 +9,13 @@ bioconductor-pedbarrayv10.db
 .. conda:recipe:: bioconductor-pedbarrayv10.db
    :replaces_section_title:
 
-   FHCRC Nelson Lab pedbarrayv10 Annotation Data \(pedbarrayv10\) assembled using data from public repositories
+   FHCRC Nelson Lab pedbarrayv10 Annotation Data \(pedbarrayv10\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pedbarrayv10.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pedbarrayv10.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pedbarrayv10.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pedbarrayv10.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pedbarrayv10.db/meta.yaml>`_
 
-   
+   FHCRC Nelson Lab pedbarrayv10 Annotation Data \(pedbarrayv10\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-pedbarrayv10.db

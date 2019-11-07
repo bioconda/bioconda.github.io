@@ -9,13 +9,13 @@ bioconductor-mesh.mga.eg.db
 .. conda:recipe:: bioconductor-mesh.mga.eg.db
    :replaces_section_title:
 
-   Entrez Gene ID to MeSH ID table.
+   Mapping table for Meleagris gallopavo Gene ID to MeSH
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/MeSH.Mga.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/MeSH.Mga.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.mga.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.mga.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.mga.eg.db/meta.yaml>`_
 
-   
+   Entrez Gene ID to MeSH ID table.
 
 
 .. conda:package:: bioconductor-mesh.mga.eg.db

@@ -9,14 +9,14 @@ bioconductor-biodist
 .. conda:recipe:: bioconductor-biodist
    :replaces_section_title:
 
-   A collection of software tools for calculating distance measures.
+   Different distance measures
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/bioDist.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/bioDist.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biodist <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodist>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodist/meta.yaml>`_
    :links: biotools: :biotools:`biodist`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   A collection of software tools for calculating distance measures.
 
 
 .. conda:package:: bioconductor-biodist

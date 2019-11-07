@@ -9,13 +9,13 @@ bioconductor-biggr
 .. conda:recipe:: bioconductor-biggr
    :replaces_section_title:
 
-   This package provides an interface to simulate metabolic reconstruction from the BiGG database\(http\:\/\/bigg.ucsd.edu\/\) and other metabolic reconstruction databases. The package facilitates flux balance analysis \(FBA\) and the sampling of feasible flux distributions. Metabolic networks and estimated fluxes can be visualized with hypergraphs.
+   Constraint based modeling in R using metabolic reconstruction databases
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BiGGR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BiGGR.html
    :license: file LICENSE
    :recipe: /`bioconductor-biggr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biggr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biggr/meta.yaml>`_
 
-   
+   This package provides an interface to simulate metabolic reconstruction from the BiGG database\(http\:\/\/bigg.ucsd.edu\/\) and other metabolic reconstruction databases. The package facilitates flux balance analysis \(FBA\) and the sampling of feasible flux distributions. Metabolic networks and estimated fluxes can be visualized with hypergraphs.
 
 
 .. conda:package:: bioconductor-biggr

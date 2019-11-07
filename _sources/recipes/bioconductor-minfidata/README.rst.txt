@@ -9,24 +9,24 @@ bioconductor-minfidata
 .. conda:recipe:: bioconductor-minfidata
    :replaces_section_title:
 
-   Data from 6 samples across 2 groups from 450k methylation arrays.
+   Example data for the Illumina Methylation 450k array
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/minfiData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/minfiData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-minfidata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minfidata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minfidata/meta.yaml>`_
 
-   
+   Data from 6 samples across 2 groups from 450k methylation arrays.
 
 
 .. conda:package:: bioconductor-minfidata
 
    |downloads_bioconductor-minfidata| |docker_bioconductor-minfidata|
 
-   :versions: 0.31.0-0, 0.30.0-1, 0.28.0-1, 0.28.0-0
+   :versions: 0.30.0-1, 0.28.0-1, 0.28.0-0
    
    :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: >=0.6.0,<0.7.0
    :depends bioconductor-illuminahumanmethylation450kmanifest: >=0.4.0,<0.5.0
-   :depends bioconductor-minfi: >=1.32.0,<1.33.0
+   :depends bioconductor-minfi: >=1.30.0,<1.31.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

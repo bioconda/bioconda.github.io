@@ -9,14 +9,14 @@ bioconductor-methtargetedngs
 .. conda:recipe:: bioconductor-methtargetedngs
    :replaces_section_title:
 
-   Perform step by step methylation analysis of Next Generation Sequencing data.
+   Perform Methylation Analysis on Next Generation Sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MethTargetedNGS.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MethTargetedNGS.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-methtargetedngs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methtargetedngs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methtargetedngs/meta.yaml>`_
    :links: biotools: :biotools:`methtargetedngs`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Perform step by step methylation analysis of Next Generation Sequencing data.
 
 
 .. conda:package:: bioconductor-methtargetedngs

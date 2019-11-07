@@ -9,14 +9,14 @@ bioconductor-rrho
 .. conda:recipe:: bioconductor-rrho
    :replaces_section_title:
 
-   The package is aimed at inference on the amount of agreement in two sorted lists using the Rank\-Rank Hypergeometric Overlap test.
+   Inference on agreement between ordered lists
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RRHO.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RRHO.html
    :license: GPL-2
    :recipe: /`bioconductor-rrho <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrho>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrho/meta.yaml>`_
    :links: biotools: :biotools:`rrho`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   The package is aimed at inference on the amount of agreement in two sorted lists using the Rank\-Rank Hypergeometric Overlap test.
 
 
 .. conda:package:: bioconductor-rrho

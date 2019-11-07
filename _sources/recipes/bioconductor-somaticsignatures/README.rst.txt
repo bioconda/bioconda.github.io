@@ -9,14 +9,14 @@ bioconductor-somaticsignatures
 .. conda:recipe:: bioconductor-somaticsignatures
    :replaces_section_title:
 
-   The SomaticSignatures package identifies mutational signatures of single nucleotide variants \(SNVs\).  It provides a infrastructure related to the methodology described in Nik\-Zainal \(2012\, Cell\)\, with flexibility in the matrix decomposition algorithms.
+   Somatic Signatures
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SomaticSignatures.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SomaticSignatures.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-somaticsignatures <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-somaticsignatures>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-somaticsignatures/meta.yaml>`_
    :links: biotools: :biotools:`somaticsignatures`
 
-   
+   The SomaticSignatures package identifies mutational signatures of single nucleotide variants \(SNVs\).  It provides a infrastructure related to the methodology described in Nik\-Zainal \(2012\, Cell\)\, with flexibility in the matrix decomposition algorithms.
 
 
 .. conda:package:: bioconductor-somaticsignatures

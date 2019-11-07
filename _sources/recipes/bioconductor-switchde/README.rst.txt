@@ -9,14 +9,14 @@ bioconductor-switchde
 .. conda:recipe:: bioconductor-switchde
    :replaces_section_title:
 
-   Inference and detection of switch\-like differential expression across single\-cell RNA\-seq trajectories.
+   Switch\-like differential expression across single\-cell trajectories
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/switchde.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/switchde.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-switchde <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-switchde>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-switchde/meta.yaml>`_
    :links: biotools: :biotools:`switchde`, doi: :doi:`10.1093/bioinformatics/btw798`
 
-   
+   Inference and detection of switch\-like differential expression across single\-cell RNA\-seq trajectories.
 
 
 .. conda:package:: bioconductor-switchde

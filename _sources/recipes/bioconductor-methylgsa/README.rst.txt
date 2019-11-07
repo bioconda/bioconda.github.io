@@ -9,33 +9,34 @@ bioconductor-methylgsa
 .. conda:recipe:: bioconductor-methylgsa
    :replaces_section_title:
 
-   The main functions for methylGSA are methylglm and methylRRA. methylGSA implements logistic regression adjusting number of probes as a covariate. methylRRA adjusts multiple p\-values of each gene by Robust Rank Aggregation. For more detailed help information\, please see the vignette.
+   Gene Set Analysis Using the Outcome of Differential Methylation
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/methylGSA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/methylGSA.html
    :license: GPL-2
    :recipe: /`bioconductor-methylgsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylgsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylgsa/meta.yaml>`_
 
-   
+   The main functions for methylGSA are methylglm and methylRRA. methylGSA implements logistic regression adjusting number of probes as a covariate. methylRRA adjusts multiple p\-values of each gene by Robust Rank Aggregation. For more detailed help information\, please see the vignette.
 
 
 .. conda:package:: bioconductor-methylgsa
 
    |downloads_bioconductor-methylgsa| |docker_bioconductor-methylgsa|
 
-   :versions: 1.2.3-0, 1.0.2-0
+   :versions: 1.4.0-0, 1.2.3-0, 1.0.2-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-biocparallel: >=1.18.0,<1.19.0
-   :depends bioconductor-clusterprofiler: >=3.12.0,<3.13.0
-   :depends bioconductor-go.db: >=3.8.0,<3.9.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-clusterprofiler: >=3.14.0,<3.15.0
+   :depends bioconductor-go.db: >=3.10.0,<3.11.0
    :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: >=0.6.0,<0.7.0
-   :depends bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19: >=0.6.0,<0.7.0
-   :depends bioconductor-missmethyl: >=1.18.0,<1.19.0
-   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
-   :depends bioconductor-reactome.db: >=1.68.0,<1.69.0
+   :depends bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19: >=0.6.0,<0.7.0
+   :depends bioconductor-missmethyl: >=1.20.0,<1.21.0
+   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
+   :depends bioconductor-reactome.db: >=1.70.0,<1.71.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 
    :depends r-robustrankaggreg: 
+   :depends r-shiny: 
    :depends r-stringr: 
    :requirements:
 

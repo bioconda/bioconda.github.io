@@ -102,10 +102,10 @@
 <dl class="recipe">
 <dt id="recipe-bioconductor-rnadecay">
 <em class="property">recipe </em><code class="sig-name descname">bioconductor-rnadecay</code><a class="headerlink" href="#recipe-bioconductor-rnadecay" title="Permalink to this definition">¶</a></dt>
-<dd><p>RNA degradation is monitored through measurement of RNA abundance after inhibiting RNA synthesis. This package has functions and example scripts to facilitate (1) data normalization, (2) data modeling using constant decay rate or time-dependent decay rate models, (3) the evaluation of treatment or genotype effects, and (4) plotting of the data and models. Data Normalization: functions and scripts make easy the normalization to the initial (T0) RNA abundance, as well as a method to correct for artificial inflation of Reads per Million (RPM) abundance in global assessments as the total size of the RNA pool decreases. Modeling: Normalized data is then modeled using maximum likelihood to fit parameters. For making treatment or genotype comparisons (up to four), the modeling step models all possible treatment effects on each gene by repeating the modeling with constraints on the model parameters (i.e., the decay rate of treatments A and B are modeled once with them being equal and again allowing them to both vary independently). Model Selection: The AICc value is calculated for each model, and the model with the lowest AICc is chosen. Modeling results of selected models are then compiled into a single data frame. Graphical Plotting: a function is provided to easily visualize the data and the selected model using ggplot2 package functions.</p>
+<dd><p>Maximum Likelihood Decay Modeling of RNA Degradation Data</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.9/bioc/html/RNAdecay.html">https://bioconductor.org/packages/3.9/bioc/html/RNAdecay.html</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.10/bioc/html/RNAdecay.html">https://bioconductor.org/packages/3.10/bioc/html/RNAdecay.html</a></p>
 </dd>
 <dt class="field-even">License</dt>
 <dd class="field-even"><p>GPL-2</p>
@@ -114,6 +114,7 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnadecay">bioconductor-rnadecay</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnadecay/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
+<p>RNA degradation is monitored through measurement of RNA abundance after inhibiting RNA synthesis. This package has functions and example scripts to facilitate (1) data normalization, (2) data modeling using constant decay rate or time-dependent decay rate models, (3) the evaluation of treatment or genotype effects, and (4) plotting of the data and models. Data Normalization: functions and scripts make easy the normalization to the initial (T0) RNA abundance, as well as a method to correct for artificial inflation of Reads per Million (RPM) abundance in global assessments as the total size of the RNA pool decreases. Modeling: Normalized data is then modeled using maximum likelihood to fit parameters. For making treatment or genotype comparisons (up to four), the modeling step models all possible treatment effects on each gene by repeating the modeling with constraints on the model parameters (i.e., the decay rate of treatments A and B are modeled once with them being equal and again allowing them to both vary independently). Model Selection: The AICc value is calculated for each model, and the model with the lowest AICc is chosen. Modeling results of selected models are then compiled into a single data frame. Graphical Plotting: a function is provided to easily visualize the data and the selected model using ggplot2 package functions.</p>
 </dd></dl>
 
 <dl class="package">

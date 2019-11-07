@@ -9,13 +9,13 @@ bioconductor-chickenprobe
 .. conda:recipe:: bioconductor-chickenprobe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Chicken\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type chicken
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/chickenprobe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/chickenprobe.html
    :license: LGPL
    :recipe: /`bioconductor-chickenprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chickenprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chickenprobe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was Chicken\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-chickenprobe

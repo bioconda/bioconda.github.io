@@ -9,13 +9,13 @@ bioconductor-ath1121501cdf
 .. conda:recipe:: bioconductor-ath1121501cdf
    :replaces_section_title:
 
-   A package containing an environment representing the ATH1\-121501.CDF file.
+   ath1121501cdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/ath1121501cdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/ath1121501cdf.html
    :license: LGPL
    :recipe: /`bioconductor-ath1121501cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ath1121501cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ath1121501cdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the ATH1\-121501.CDF file.
 
 
 .. conda:package:: bioconductor-ath1121501cdf

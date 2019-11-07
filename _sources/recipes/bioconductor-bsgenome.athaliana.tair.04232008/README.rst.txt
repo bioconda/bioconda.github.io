@@ -9,13 +9,13 @@ bioconductor-bsgenome.athaliana.tair.04232008
 .. conda:recipe:: bioconductor-bsgenome.athaliana.tair.04232008
    :replaces_section_title:
 
-   Full genome sequences for Arabidopsis thaliana as provided by TAIR \(snapshot from April 23\, 2008\) and stored in Biostrings objects.
+   Full genome sequences for Arabidopsis thaliana \(TAIR version from April 23\, 2008\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Athaliana.TAIR.04232008.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Athaliana.TAIR.04232008.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.athaliana.tair.04232008 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.athaliana.tair.04232008>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.athaliana.tair.04232008/meta.yaml>`_
 
-   
+   Full genome sequences for Arabidopsis thaliana as provided by TAIR \(snapshot from April 23\, 2008\) and stored in Biostrings objects.
 
 
 .. conda:package:: bioconductor-bsgenome.athaliana.tair.04232008

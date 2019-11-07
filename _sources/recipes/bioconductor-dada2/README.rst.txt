@@ -9,21 +9,21 @@ bioconductor-dada2
 .. conda:recipe:: bioconductor-dada2
    :replaces_section_title:
 
-   The dada2 package infers exact amplicon sequence variants \(ASVs\) from high\-throughput amplicon sequencing data\, replacing the coarser and less accurate OTU clustering approach. The dada2 pipeline takes as input demultiplexed fastq files\, and outputs the sequence variants and their sample\-wise abundances after removing substitution and chimera errors. Taxonomic classification is available via a native implementation of the RDP naive Bayesian classifier\, and species\-level assignment to 16S rRNA gene fragments by exact matching.
+   Accurate\, high\-resolution sample inference from amplicon sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/dada2.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/dada2.html
    :license: LGPL-3
    :recipe: /`bioconductor-dada2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dada2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dada2/meta.yaml>`_
    :links: biotools: :biotools:`dada2`
 
-   
+   The dada2 package infers exact amplicon sequence variants \(ASVs\) from high\-throughput amplicon sequencing data\, replacing the coarser and less accurate OTU clustering approach. The dada2 pipeline takes as input demultiplexed fastq files\, and outputs the sequence variants and their sample\-wise abundances after removing substitution and chimera errors. Taxonomic classification is available via a native implementation of the RDP naive Bayesian classifier\, and species\-level assignment to 16S rRNA gene fragments by exact matching.
 
 
 .. conda:package:: bioconductor-dada2
 
    |downloads_bioconductor-dada2| |docker_bioconductor-dada2|
 
-   :versions: 1.14.0-0, 1.12.1-0, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.4-0, 1.2-0, 1.0.3-0, 0.99.10-0, 0.10.4-0, 0.10.3-0, 0.10.1-0, 0.10.0-0
+   :versions: 1.14.0-0, 1.12.1-0, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.4-0, 1.4.0-0, 1.2-0, 1.0.3-0, 0.99.10-0, 0.10.4-0, 0.10.3-0, 0.10.1-0, 0.10.0-0
    
    :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
    :depends bioconductor-biostrings: >=2.54.0,<2.55.0

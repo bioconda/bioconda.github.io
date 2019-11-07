@@ -9,13 +9,13 @@ bioconductor-dart
 .. conda:recipe:: bioconductor-dart
    :replaces_section_title:
 
-   Denoising Algorithm based on Relevance network Topology \(DART\) is an algorithm designed to evaluate the consistency of prior information molecular signatures \(e.g in\-vitro perturbation expression signatures\) in independent molecular data \(e.g gene expression data sets\). If consistent\, a pruning network strategy is then used to infer the activation status of the molecular signature in individual samples.
+   Denoising Algorithm based on Relevance network Topology
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DART.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DART.html
    :license: GPL-2
    :recipe: /`bioconductor-dart <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dart>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dart/meta.yaml>`_
 
-   
+   Denoising Algorithm based on Relevance network Topology \(DART\) is an algorithm designed to evaluate the consistency of prior information molecular signatures \(e.g in\-vitro perturbation expression signatures\) in independent molecular data \(e.g gene expression data sets\). If consistent\, a pruning network strategy is then used to infer the activation status of the molecular signature in individual samples.
 
 
 .. conda:package:: bioconductor-dart

@@ -9,13 +9,13 @@ bioconductor-rqubic
 .. conda:recipe:: bioconductor-rqubic
    :replaces_section_title:
 
-   This package implements the QUBIC algorithm introduced by Li et al. for the qualitative biclustering with gene expression data.
+   Qualitative biclustering algorithm for expression data analysis in R
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/rqubic.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/rqubic.html
    :license: GPL-2
    :recipe: /`bioconductor-rqubic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rqubic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rqubic/meta.yaml>`_
 
-   
+   This package implements the QUBIC algorithm introduced by Li et al. for the qualitative biclustering with gene expression data.
 
 
 .. conda:package:: bioconductor-rqubic

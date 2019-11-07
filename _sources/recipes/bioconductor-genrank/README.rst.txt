@@ -9,14 +9,14 @@ bioconductor-genrank
 .. conda:recipe:: bioconductor-genrank
    :replaces_section_title:
 
-   Methods for ranking genes based on convergent evidence obtained from multiple independent evidence layers. This package adapts three methods that are popular for meta\-analysis.
+   Candidate gene prioritization based on convergent evidence
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GenRank.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GenRank.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genrank <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genrank>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genrank/meta.yaml>`_
    :links: biotools: :biotools:`genrank`, doi: :doi:`10.12688/f1000research.11223.1`
 
-   
+   Methods for ranking genes based on convergent evidence obtained from multiple independent evidence layers. This package adapts three methods that are popular for meta\-analysis.
 
 
 .. conda:package:: bioconductor-genrank

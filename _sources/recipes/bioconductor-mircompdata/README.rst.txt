@@ -9,20 +9,20 @@ bioconductor-mircompdata
 .. conda:recipe:: bioconductor-mircompdata
    :replaces_section_title:
 
-   Raw amplification data from a large microRNA mixture \/ dilution study. These data are used by the miRcomp package to assess the performance of methods that estimate expression from the amplification curves.
+   Data used in the miRcomp package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/miRcompData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/miRcompData.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-mircompdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mircompdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mircompdata/meta.yaml>`_
 
-   
+   Raw amplification data from a large microRNA mixture \/ dilution study. These data are used by the miRcomp package to assess the performance of methods that estimate expression from the amplification curves.
 
 
 .. conda:package:: bioconductor-mircompdata
 
    |downloads_bioconductor-mircompdata| |docker_bioconductor-mircompdata|
 
-   :versions: 1.15.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0
+   :versions: 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

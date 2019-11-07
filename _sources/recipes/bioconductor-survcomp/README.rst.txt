@@ -9,14 +9,14 @@ bioconductor-survcomp
 .. conda:recipe:: bioconductor-survcomp
    :replaces_section_title:
 
-   Assessment and Comparison for Performance of Risk Prediction \(Survival\) Models.
+   Performance Assessment and Comparison for Survival Analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/survcomp.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/survcomp.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-survcomp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-survcomp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-survcomp/meta.yaml>`_
    :links: biotools: :biotools:`survcomp`
 
-   
+   Assessment and Comparison for Performance of Risk Prediction \(Survival\) Models.
 
 
 .. conda:package:: bioconductor-survcomp

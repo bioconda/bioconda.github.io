@@ -9,13 +9,13 @@ bioconductor-genie3
 .. conda:recipe:: bioconductor-genie3
    :replaces_section_title:
 
-   This package implements the GENIE3 algorithm for inferring gene regulatory networks from expression data.
+   GEne Network Inference with Ensemble of trees
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GENIE3.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GENIE3.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-genie3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genie3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genie3/meta.yaml>`_
 
-   
+   This package implements the GENIE3 algorithm for inferring gene regulatory networks from expression data.
 
 
 .. conda:package:: bioconductor-genie3

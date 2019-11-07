@@ -9,14 +9,14 @@ bioconductor-ggtree
 .. conda:recipe:: bioconductor-ggtree
    :replaces_section_title:
 
-   \'ggtree\' extends the \'ggplot2\' plotting system which implemented the grammar of graphics. \'ggtree\' is designed for visualization and annotation of phylogenetic trees with their covariates and other associated data.
+   an R package for visualization of tree and annotation data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ggtree.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ggtree.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ggtree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggtree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggtree/meta.yaml>`_
    :links: biotools: :biotools:`ggtree`, doi: :doi:`10.1111/2041-210X.12628`
 
-   
+   \'ggtree\' extends the \'ggplot2\' plotting system which implemented the grammar of graphics. \'ggtree\' is designed for visualization and annotation of phylogenetic trees and other tree\-like structures with their annotation data.
 
 
 .. conda:package:: bioconductor-ggtree

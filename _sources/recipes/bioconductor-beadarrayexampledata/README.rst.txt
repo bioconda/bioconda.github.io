@@ -9,20 +9,20 @@ bioconductor-beadarrayexampledata
 .. conda:recipe:: bioconductor-beadarrayexampledata
    :replaces_section_title:
 
-   An small dataset that can be used to run examples from the beadarray vignette and examples
+   Example data for the beadarray package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/beadarrayExampleData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/beadarrayExampleData.html
    :license: GPL-2
    :recipe: /`bioconductor-beadarrayexampledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadarrayexampledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadarrayexampledata/meta.yaml>`_
 
-   
+   An small dataset that can be used to run examples from the beadarray vignette and examples
 
 
 .. conda:package:: bioconductor-beadarrayexampledata
 
    |downloads_bioconductor-beadarrayexampledata| |docker_bioconductor-beadarrayexampledata|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-0
    
    :depends bioconductor-beadarray: >=2.36.0,<2.37.0
    :depends bioconductor-biobase: >=2.46.0,<2.47.0

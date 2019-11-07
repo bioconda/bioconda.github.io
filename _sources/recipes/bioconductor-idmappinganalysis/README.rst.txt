@@ -9,13 +9,13 @@ bioconductor-idmappinganalysis
 .. conda:recipe:: bioconductor-idmappinganalysis
    :replaces_section_title:
 
-   Identifier mapping performance analysis
+   ID Mapping Analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/IdMappingAnalysis.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/IdMappingAnalysis.html
    :license: GPL-2
    :recipe: /`bioconductor-idmappinganalysis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-idmappinganalysis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-idmappinganalysis/meta.yaml>`_
 
-   
+   Identifier mapping performance analysis
 
 
 .. conda:package:: bioconductor-idmappinganalysis

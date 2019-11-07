@@ -9,24 +9,24 @@ bioconductor-alpinedata
 .. conda:recipe:: bioconductor-alpinedata
    :replaces_section_title:
 
-   A small subset of paired\-end RNA\-seq reads from four samples of the GEUVADIS project.
+   Data for the alpine package vignette
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/alpineData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/alpineData.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-alpinedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alpinedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alpinedata/meta.yaml>`_
 
-   
+   A small subset of paired\-end RNA\-seq reads from four samples of the GEUVADIS project.
 
 
 .. conda:package:: bioconductor-alpinedata
 
    |downloads_bioconductor-alpinedata| |docker_bioconductor-alpinedata|
 
-   :versions: 1.11.0-0, 1.10.0-1, 1.8.0-0
+   :versions: 1.10.0-1, 1.8.0-0
    
-   :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
-   :depends bioconductor-genomicalignments: >=1.22.0,<1.23.0
+   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
+   :depends bioconductor-genomicalignments: >=1.20.0,<1.21.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

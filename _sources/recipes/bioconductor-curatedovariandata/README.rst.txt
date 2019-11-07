@@ -9,20 +9,20 @@ bioconductor-curatedovariandata
 .. conda:recipe:: bioconductor-curatedovariandata
    :replaces_section_title:
 
-   The curatedOvarianData package provides data for gene expression analysis in patients with ovarian cancer.
+   Clinically Annotated Data for the Ovarian Cancer Transcriptome
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/curatedOvarianData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/curatedOvarianData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-curatedovariandata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedovariandata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedovariandata/meta.yaml>`_
 
-   
+   The curatedOvarianData package provides data for gene expression analysis in patients with ovarian cancer.
 
 
 .. conda:package:: bioconductor-curatedovariandata
 
    |downloads_bioconductor-curatedovariandata| |docker_bioconductor-curatedovariandata|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0
    
    :depends bioconductor-affy: >=1.64.0,<1.65.0
    :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0

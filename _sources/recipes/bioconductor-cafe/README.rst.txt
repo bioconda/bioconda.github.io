@@ -9,13 +9,13 @@ bioconductor-cafe
 .. conda:recipe:: bioconductor-cafe
    :replaces_section_title:
 
-   Detection and visualizations of gross chromosomal aberrations using Affymetrix expression microarrays as input
+   Chromosmal Aberrations Finder in Expression data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CAFE.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CAFE.html
    :license: GPL-3
    :recipe: /`bioconductor-cafe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cafe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cafe/meta.yaml>`_
 
-   
+   Detection and visualizations of gross chromosomal aberrations using Affymetrix expression microarrays as input
 
 
 .. conda:package:: bioconductor-cafe

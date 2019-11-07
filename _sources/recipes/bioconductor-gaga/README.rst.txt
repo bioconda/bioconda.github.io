@@ -9,14 +9,14 @@ bioconductor-gaga
 .. conda:recipe:: bioconductor-gaga
    :replaces_section_title:
 
-   Implements the GaGa model for high\-throughput data analysis\, including differential expression analysis\, supervised gene clustering and classification. Additionally\, it performs sequential sample size calculations using the GaGa and LNNGV models \(the latter from EBarrays package\).
+   GaGa hierarchical model for high\-throughput data analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/gaga.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/gaga.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-gaga <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaga>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaga/meta.yaml>`_
    :links: biotools: :biotools:`gaga`, doi: :doi:`10.1214/09-aoas244`
 
-   
+   Implements the GaGa model for high\-throughput data analysis\, including differential expression analysis\, supervised gene clustering and classification. Additionally\, it performs sequential sample size calculations using the GaGa and LNNGV models \(the latter from EBarrays package\).
 
 
 .. conda:package:: bioconductor-gaga

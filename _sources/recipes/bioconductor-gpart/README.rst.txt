@@ -9,13 +9,13 @@ bioconductor-gpart
 .. conda:recipe:: bioconductor-gpart
    :replaces_section_title:
 
-   we provide a new SNP sequence partitioning method which partitions the whole SNP sequence based on not only LD block structures but also gene location information. The LD block construction for GPART is performed using Big\-LD algorithm\, with additional improvement from previous version reported in Kim et al.\(2017\). We also add a visualization tool to show the LD heatmap with the information of LD block boundaries and gene locations in the package.
+   Human genome partitioning of dense sequencing data by identifying haplotype blocks
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/gpart.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/gpart.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-gpart <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gpart>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gpart/meta.yaml>`_
 
-   
+   we provide a new SNP sequence partitioning method which partitions the whole SNP sequence based on not only LD block structures but also gene location information. The LD block construction for GPART is performed using Big\-LD algorithm\, with additional improvement from previous version reported in Kim et al.\(2017\). We also add a visualization tool to show the LD heatmap with the information of LD block boundaries and gene locations in the package.
 
 
 .. conda:package:: bioconductor-gpart

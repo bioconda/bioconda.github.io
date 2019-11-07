@@ -9,14 +9,14 @@ bioconductor-browserviz
 .. conda:recipe:: bioconductor-browserviz
    :replaces_section_title:
 
-   Interactvive graphics in a web browser from R\, using websockets and JSON.
+   BrowserViz\: interactive R\/browser graphics using websockets and JSON
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BrowserViz.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BrowserViz.html
    :license: GPL-2
    :recipe: /`bioconductor-browserviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-browserviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-browserviz/meta.yaml>`_
    :links: biotools: :biotools:`browserviz`, doi: :doi:`10.1007/978-1-4302-4426-4_17`
 
-   
+   Interactvive graphics in a web browser from R\, using websockets and JSON.
 
 
 .. conda:package:: bioconductor-browserviz

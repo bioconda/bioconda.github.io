@@ -9,13 +9,13 @@ bioconductor-mafdb.esp6500si.v2.ssa137.grch38
 .. conda:recipe:: bioconductor-mafdb.esp6500si.v2.ssa137.grch38
    :replaces_section_title:
 
-   Store minor allele frequency data from the NHLBI Exome Sequencing Project in the human genome version GRCh38.
+   Minor allele frequency data from NHLBI ESP for GRCh38
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/MafDb.ESP6500SI.V2.SSA137.GRCh38.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/MafDb.ESP6500SI.V2.SSA137.GRCh38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mafdb.esp6500si.v2.ssa137.grch38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.esp6500si.v2.ssa137.grch38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.esp6500si.v2.ssa137.grch38/meta.yaml>`_
 
-   
+   Store minor allele frequency data from the NHLBI Exome Sequencing Project in the human genome version GRCh38.
 
 
 .. conda:package:: bioconductor-mafdb.esp6500si.v2.ssa137.grch38

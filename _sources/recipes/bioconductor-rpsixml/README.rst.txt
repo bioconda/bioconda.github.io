@@ -9,14 +9,14 @@ bioconductor-rpsixml
 .. conda:recipe:: bioconductor-rpsixml
    :replaces_section_title:
 
-   Queries\, data structure and interface to visualization of interaction datasets. This package inplements the PSI\-MI 2.5 standard and supports up to now 8 databases. Further databases supporting PSI\-MI 2.5 standard will be added continuously.
+   R interface to PSI\-MI 2.5 files
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RpsiXML.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RpsiXML.html
    :license: LGPL-3
    :recipe: /`bioconductor-rpsixml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rpsixml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rpsixml/meta.yaml>`_
    :links: biotools: :biotools:`rpsixml`, doi: :doi:`10.1007/978-1-60761-987-1_9`
 
-   
+   Queries\, data structure and interface to visualization of interaction datasets. This package inplements the PSI\-MI 2.5 standard and supports up to now 8 databases. Further databases supporting PSI\-MI 2.5 standard will be added continuously.
 
 
 .. conda:package:: bioconductor-rpsixml

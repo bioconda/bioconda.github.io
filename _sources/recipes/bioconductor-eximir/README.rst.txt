@@ -9,14 +9,14 @@ bioconductor-eximir
 .. conda:recipe:: bioconductor-eximir
    :replaces_section_title:
 
-   This package contains functions for reading raw data in ImaGene TXT format obtained from Exiqon miRCURY LNA arrays\, annotating them with appropriate GAL files\, and normalizing them using a spike\-in probe\-based method. Other platforms and data formats are also supported.
+   R functions for the normalization of Exiqon miRNA array data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ExiMiR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ExiMiR.html
    :license: GPL-2
    :recipe: /`bioconductor-eximir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eximir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eximir/meta.yaml>`_
    :links: biotools: :biotools:`eximir`, doi: :doi:`10.1186/1756-0500-7-302`
 
-   
+   This package contains functions for reading raw data in ImaGene TXT format obtained from Exiqon miRCURY LNA arrays\, annotating them with appropriate GAL files\, and normalizing them using a spike\-in probe\-based method. Other platforms and data formats are also supported.
 
 
 .. conda:package:: bioconductor-eximir

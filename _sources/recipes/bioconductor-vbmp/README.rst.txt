@@ -9,14 +9,14 @@ bioconductor-vbmp
 .. conda:recipe:: bioconductor-vbmp
    :replaces_section_title:
 
-   Variational Bayesian Multinomial Probit Regression with Gaussian Process Priors. It estimates class membership posterior probability employing variational and sparse approximation to the full posterior. This software also incorporates feature weighting by means of Automatic Relevance Determination.
+   Variational Bayesian Multinomial Probit Regression
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/vbmp.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/vbmp.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-vbmp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vbmp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vbmp/meta.yaml>`_
    :links: biotools: :biotools:`vbmp`, doi: :doi:`10.1093/bioinformatics/btm535`
 
-   
+   Variational Bayesian Multinomial Probit Regression with Gaussian Process Priors. It estimates class membership posterior probability employing variational and sparse approximation to the full posterior. This software also incorporates feature weighting by means of Automatic Relevance Determination.
 
 
 .. conda:package:: bioconductor-vbmp

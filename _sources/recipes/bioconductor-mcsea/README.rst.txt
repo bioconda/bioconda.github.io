@@ -9,32 +9,32 @@ bioconductor-mcsea
 .. conda:recipe:: bioconductor-mcsea
    :replaces_section_title:
 
-   Identification of diferentially methylated regions \(DMRs\) in predefined regions \(promoters\, CpG islands...\) from the human genome using Illumina\'s 450K or EPIC microarray data. Provides methods to rank CpG probes based on linear models and includes plotting functions.
+   Methylated CpGs Set Enrichment Analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/mCSEA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/mCSEA.html
    :license: GPL-2
    :recipe: /`bioconductor-mcsea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcsea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcsea/meta.yaml>`_
 
-   
+   Identification of diferentially methylated regions \(DMRs\) in predefined regions \(promoters\, CpG islands...\) from the human genome using Illumina\'s 450K or EPIC microarray data. Provides methods to rank CpG probes based on linear models and includes plotting functions.
 
 
 .. conda:package:: bioconductor-mcsea
 
    |downloads_bioconductor-mcsea| |docker_bioconductor-mcsea|
 
-   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions: 1.4.0-1, 1.2.0-0
    
-   :depends bioconductor-biomart: >=2.42.0,<2.43.0
-   :depends bioconductor-fgsea: >=1.12.0,<1.13.0
-   :depends bioconductor-genomicfeatures: >=1.38.0,<1.39.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-gviz: >=1.30.0,<1.31.0
+   :depends bioconductor-biomart: >=2.40.0,<2.41.0
+   :depends bioconductor-fgsea: >=1.10.0,<1.11.0
+   :depends bioconductor-genomicfeatures: >=1.36.0,<1.37.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-gviz: >=1.28.0,<1.29.0
    :depends bioconductor-homo.sapiens: >=1.3.0,<1.4.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-mcseadata: >=1.5.0,<1.6.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-mcseadata: >=1.4.0,<1.5.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 
    :requirements:

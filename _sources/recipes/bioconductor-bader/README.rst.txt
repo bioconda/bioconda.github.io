@@ -9,14 +9,14 @@ bioconductor-bader
 .. conda:recipe:: bioconductor-bader
    :replaces_section_title:
 
-   For RNA sequencing count data\, BADER fits a Bayesian hierarchical model. The algorithm returns the posterior probability of differential expression for each gene between two groups A and B. The joint posterior distribution of the variables in the model can be returned in the form of posterior samples\, which can be used for further down\-stream analyses such as gene set enrichment.
+   Bayesian Analysis of Differential Expression in RNA Sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BADER.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BADER.html
    :license: GPL-2
    :recipe: /`bioconductor-bader <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bader>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bader/meta.yaml>`_
    :links: biotools: :biotools:`bader`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   For RNA sequencing count data\, BADER fits a Bayesian hierarchical model. The algorithm returns the posterior probability of differential expression for each gene between two groups A and B. The joint posterior distribution of the variables in the model can be returned in the form of posterior samples\, which can be used for further down\-stream analyses such as gene set enrichment.
 
 
 .. conda:package:: bioconductor-bader

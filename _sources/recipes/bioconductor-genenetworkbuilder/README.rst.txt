@@ -9,13 +9,13 @@ bioconductor-genenetworkbuilder
 .. conda:recipe:: bioconductor-genenetworkbuilder
    :replaces_section_title:
 
-   Appliation for discovering direct or indirect targets of transcription factors using ChIP\-chip or ChIP\-seq\, and microarray or RNA\-seq gene expression data. Inputting a list of genes of potential targets of one TF from ChIP\-chip or ChIP\-seq\, and the gene expression results\, GeneNetworkBuilder generates a regulatory network of the TF.
+   GeneNetworkBuilder\: a bioconductor package for building regulatory network using ChIP\-chip\/ChIP\-seq data and Gene Expression Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GeneNetworkBuilder.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GeneNetworkBuilder.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-genenetworkbuilder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genenetworkbuilder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genenetworkbuilder/meta.yaml>`_
 
-   
+   Appliation for discovering direct or indirect targets of transcription factors using ChIP\-chip or ChIP\-seq\, and microarray or RNA\-seq gene expression data. Inputting a list of genes of potential targets of one TF from ChIP\-chip or ChIP\-seq\, and the gene expression results\, GeneNetworkBuilder generates a regulatory network of the TF.
 
 
 .. conda:package:: bioconductor-genenetworkbuilder

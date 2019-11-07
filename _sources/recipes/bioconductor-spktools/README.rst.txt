@@ -9,14 +9,14 @@ bioconductor-spktools
 .. conda:recipe:: bioconductor-spktools
    :replaces_section_title:
 
-   The package contains functions that can be used to compare expression measures on different array platforms.
+   Methods for Spike\-in Arrays
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/spkTools.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/spkTools.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-spktools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spktools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spktools/meta.yaml>`_
    :links: biotools: :biotools:`spktools`, doi: :doi:`10.1093/nar/gkn430`
 
-   
+   The package contains functions that can be used to compare expression measures on different array platforms.
 
 
 .. conda:package:: bioconductor-spktools

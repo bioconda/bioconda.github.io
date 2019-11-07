@@ -9,20 +9,20 @@ bioconductor-yeastexpdata
 .. conda:recipe:: bioconductor-yeastexpdata
    :replaces_section_title:
 
-   A collection of different sets of experimental data from yeast.
+   Yeast Experimental Data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/yeastExpData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/yeastExpData.html
    :license: GPL
    :recipe: /`bioconductor-yeastexpdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastexpdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastexpdata/meta.yaml>`_
 
-   
+   A collection of different sets of experimental data from yeast.
 
 
 .. conda:package:: bioconductor-yeastexpdata
 
    |downloads_bioconductor-yeastexpdata| |docker_bioconductor-yeastexpdata|
 
-   :versions: 0.31.0-0, 0.30.0-1, 0.28.0-1, 0.28.0-0, 0.26.0-0, 0.24.0-1, 0.24.0-0, 0.22.0-0
+   :versions: 0.32.0-0, 0.30.0-1, 0.28.0-1, 0.28.0-0, 0.26.0-0, 0.24.0-1, 0.24.0-0, 0.22.0-0
    
    :depends bioconductor-graph: >=1.64.0,<1.65.0
    :depends curl: >=7.65.3,<8.0a0

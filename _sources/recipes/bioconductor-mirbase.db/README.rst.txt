@@ -9,13 +9,13 @@ bioconductor-mirbase.db
 .. conda:recipe:: bioconductor-mirbase.db
    :replaces_section_title:
 
-   miRBase\: the microRNA database assembled using data from miRBase \(http\:\/\/www.mirbase.org\/\).
+   miRBase\: the microRNA database
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mirbase.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mirbase.db.html
    :license: file LICENSE
    :recipe: /`bioconductor-mirbase.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirbase.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirbase.db/meta.yaml>`_
 
-   
+   miRBase\: the microRNA database assembled using data from miRBase \(http\:\/\/www.mirbase.org\/\).
 
 
 .. conda:package:: bioconductor-mirbase.db

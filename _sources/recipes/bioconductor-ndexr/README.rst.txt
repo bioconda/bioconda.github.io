@@ -9,13 +9,13 @@ bioconductor-ndexr
 .. conda:recipe:: bioconductor-ndexr
    :replaces_section_title:
 
-   This package offers an interface to NDEx servers\, e.g. the public server at http\:\/\/ndexbio.org\/. It can retrieve and save networks via the API. Networks are offered as RCX object and as igraph representation.
+   NDEx R client library
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ndexr.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ndexr.html
    :license: BSD
    :recipe: /`bioconductor-ndexr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ndexr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ndexr/meta.yaml>`_
 
-   
+   This package offers an interface to NDEx servers\, e.g. the public server at http\:\/\/ndexbio.org\/. It can retrieve and save networks via the API. Networks are offered as RCX object and as igraph representation.
 
 
 .. conda:package:: bioconductor-ndexr

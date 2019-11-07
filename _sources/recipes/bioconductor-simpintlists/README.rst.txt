@@ -9,20 +9,20 @@ bioconductor-simpintlists
 .. conda:recipe:: bioconductor-simpintlists
    :replaces_section_title:
 
-   The package contains BioGRID interactions for arabidopsis\(thale cress\)\, c.elegans\, fruit fly\, human\, mouse\, yeast\( budding yeast \) and S.pombe \(fission yeast\) . Entrez ids\, official names and unique ids can be used to find proteins. The format of interactions are lists. For each gene\/protein\, there is an entry in the list with \"name\" containing name of the gene\/protein and \"interactors\" containing the list of genes\/proteins interacting with it.
+   The package contains BioGRID interactions for various organisms in a simple format
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/simpIntLists.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/simpIntLists.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-simpintlists <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simpintlists>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simpintlists/meta.yaml>`_
 
-   
+   The package contains BioGRID interactions for arabidopsis\(thale cress\)\, c.elegans\, fruit fly\, human\, mouse\, yeast\( budding yeast \) and S.pombe \(fission yeast\) . Entrez ids\, official names and unique ids can be used to find proteins. The format of interactions are lists. For each gene\/protein\, there is an entry in the list with \"name\" containing name of the gene\/protein and \"interactors\" containing the list of genes\/proteins interacting with it.
 
 
 .. conda:package:: bioconductor-simpintlists
 
    |downloads_bioconductor-simpintlists| |docker_bioconductor-simpintlists|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

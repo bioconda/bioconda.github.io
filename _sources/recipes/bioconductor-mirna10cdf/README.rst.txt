@@ -9,13 +9,13 @@ bioconductor-mirna10cdf
 .. conda:recipe:: bioconductor-mirna10cdf
    :replaces_section_title:
 
-   A package containing an environment representing the miRNA\-1\_0.CDF file.
+   mirna10cdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/mirna10cdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mirna10cdf.html
    :license: LGPL
    :recipe: /`bioconductor-mirna10cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirna10cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirna10cdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the miRNA\-1\_0.CDF file.
 
 
 .. conda:package:: bioconductor-mirna10cdf

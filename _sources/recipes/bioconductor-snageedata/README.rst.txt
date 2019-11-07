@@ -9,20 +9,20 @@ bioconductor-snageedata
 .. conda:recipe:: bioconductor-snageedata
    :replaces_section_title:
 
-   SNAGEE data \- gene list and correlation matrix
+   SNAGEE data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/SNAGEEdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/SNAGEEdata.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-snageedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snageedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snageedata/meta.yaml>`_
 
-   
+   SNAGEE data \- gene list and correlation matrix
 
 
 .. conda:package:: bioconductor-snageedata
 
    |downloads_bioconductor-snageedata| |docker_bioconductor-snageedata|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

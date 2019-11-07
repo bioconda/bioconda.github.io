@@ -9,13 +9,13 @@ bioconductor-rebet
 .. conda:recipe:: bioconductor-rebet
    :replaces_section_title:
 
-   There is an increasing focus to investigate the association between rare variants and diseases. The REBET package implements the subREgion\-based BurdEn Test which is a powerful burden test that simultaneously identifies susceptibility loci and sub\-regions.
+   The subREgion\-based BurdEn Test \(REBET\)
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/REBET.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/REBET.html
    :license: GPL-2
    :recipe: /`bioconductor-rebet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rebet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rebet/meta.yaml>`_
 
-   
+   There is an increasing focus to investigate the association between rare variants and diseases. The REBET package implements the subREgion\-based BurdEn Test which is a powerful burden test that simultaneously identifies susceptibility loci and sub\-regions.
 
 
 .. conda:package:: bioconductor-rebet

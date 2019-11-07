@@ -9,20 +9,20 @@ bioconductor-ccdata
 .. conda:recipe:: bioconductor-ccdata
    :replaces_section_title:
 
-   This package contains microarray gene expression data generated from the Connectivity Map build 02 and LINCS l1000. The data are used by the ccmap package to find drugs and drug combinations to mimic or reverse a gene expression signature.
+   Data for Combination Connectivity Mapping \(ccmap\) Package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ccdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ccdata.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-ccdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccdata/meta.yaml>`_
 
-   
+   This package contains microarray gene expression data generated from the Connectivity Map build 02 and LINCS l1000. The data are used by the ccmap package to find drugs and drug combinations to mimic or reverse a gene expression signature.
 
 
 .. conda:package:: bioconductor-ccdata
 
    |downloads_bioconductor-ccdata| |docker_bioconductor-ccdata|
 
-   :versions: 1.11.0-0, 1.10.0-1, 1.10.0-0, 1.8.0-0
+   :versions: 1.12.0-0, 1.10.0-1, 1.10.0-0, 1.8.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

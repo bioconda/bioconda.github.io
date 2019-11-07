@@ -9,13 +9,13 @@ bioconductor-u133x3pprobe
 .. conda:recipe:: bioconductor-u133x3pprobe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was U133\\\_X3P\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type u133x3p
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/u133x3pprobe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/u133x3pprobe.html
    :license: LGPL
    :recipe: /`bioconductor-u133x3pprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-u133x3pprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-u133x3pprobe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was U133\\\_X3P\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-u133x3pprobe

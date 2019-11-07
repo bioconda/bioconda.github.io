@@ -9,13 +9,13 @@ bioconductor-org.dm.eg.db
 .. conda:recipe:: bioconductor-org.dm.eg.db
    :replaces_section_title:
 
-   Genome wide annotation for Fly\, primarily based on mapping using Entrez Gene identifiers.
+   Genome wide annotation for Fly
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/org.Dm.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/org.Dm.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-org.dm.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.dm.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.dm.eg.db/meta.yaml>`_
 
-   
+   Genome wide annotation for Fly\, primarily based on mapping using Entrez Gene identifiers.
 
 
 .. conda:package:: bioconductor-org.dm.eg.db

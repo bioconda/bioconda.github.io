@@ -9,14 +9,14 @@ bioconductor-biocviews
 .. conda:recipe:: bioconductor-biocviews
    :replaces_section_title:
 
-   Infrastructure to support \'views\' used to classify Bioconductor packages. \'biocViews\' are directed acyclic graphs of terms from a controlled vocabulary. There are three major classifications\, corresponding to \'software\'\, \'annotation\'\, and \'experiment data\' packages.
+   Categorized views of R package repositories
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/biocViews.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/biocViews.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biocviews <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocviews>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocviews/meta.yaml>`_
    :links: biotools: :biotools:`biocviews`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Infrastructure to support \'views\' used to classify Bioconductor packages. \'biocViews\' are directed acyclic graphs of terms from a controlled vocabulary. There are three major classifications\, corresponding to \'software\'\, \'annotation\'\, and \'experiment data\' packages.
 
 
 .. conda:package:: bioconductor-biocviews

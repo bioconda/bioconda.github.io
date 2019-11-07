@@ -9,13 +9,13 @@ bioconductor-depecher
 .. conda:recipe:: bioconductor-depecher
    :replaces_section_title:
 
-   The purpose of this package is to identify traits in a dataset that can separate groups. This is done on two levels. First\, clustering is performed\, using an implementation of sparse K\-means. Secondly\, the generated clusters are used to predict outcomes of groups of individuals based on their distribution of observations in the different clusters. As certain clusters with separating information will be identified\, and these clusters are defined by a sparse number of variables\, this method can reduce the complexity of data\, to only emphasize the data that actually matters.
+   Determination of essential phenotypic elements of clusters in high\-dimensional entities
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DepecheR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DepecheR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-depecher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-depecher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-depecher/meta.yaml>`_
 
-   
+   The purpose of this package is to identify traits in a dataset that can separate groups. This is done on two levels. First\, clustering is performed\, using an implementation of sparse K\-means. Secondly\, the generated clusters are used to predict outcomes of groups of individuals based on their distribution of observations in the different clusters. As certain clusters with separating information will be identified\, and these clusters are defined by a sparse number of variables\, this method can reduce the complexity of data\, to only emphasize the data that actually matters.
 
 
 .. conda:package:: bioconductor-depecher

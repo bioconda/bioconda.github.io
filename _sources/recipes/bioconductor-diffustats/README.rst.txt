@@ -9,14 +9,14 @@ bioconductor-diffustats
 .. conda:recipe:: bioconductor-diffustats
    :replaces_section_title:
 
-   Label propagation approaches are a widely used procedure in computational biology for giving context to molecular entities using network data. Node labels\, which can derive from gene expression\, genome\-wide association studies\, protein domains or metabolomics profiling\, are propagated to their neighbours in the network\, effectively smoothing the scores through prior annotated knowledge and prioritising novel candidates. The R package diffuStats contains a collection of diffusion kernels and scoring approaches that facilitates their computation and benchmarking.
+   Diffusion scores on biological networks
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/diffuStats.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/diffuStats.html
    :license: GPL-3
    :recipe: /`bioconductor-diffustats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffustats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffustats/meta.yaml>`_
    :links: biotools: :biotools:`diffuStats`, doi: :doi:`10.1093/bioinformatics/btx632`
 
-   
+   Label propagation approaches are a widely used procedure in computational biology for giving context to molecular entities using network data. Node labels\, which can derive from gene expression\, genome\-wide association studies\, protein domains or metabolomics profiling\, are propagated to their neighbours in the network\, effectively smoothing the scores through prior annotated knowledge and prioritising novel candidates. The R package diffuStats contains a collection of diffusion kernels and scoring approaches that facilitates their computation and benchmarking.
 
 
 .. conda:package:: bioconductor-diffustats

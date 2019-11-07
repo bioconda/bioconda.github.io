@@ -9,20 +9,20 @@ bioconductor-svm2crmdata
 .. conda:recipe:: bioconductor-svm2crmdata
    :replaces_section_title:
 
-   An example dataset for use with the SVM2CRM package.
+   An example dataset for use with the SVM2CRM package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/SVM2CRMdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/SVM2CRMdata.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-svm2crmdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-svm2crmdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-svm2crmdata/meta.yaml>`_
 
-   
+   An example dataset for use with the SVM2CRM package.
 
 
 .. conda:package:: bioconductor-svm2crmdata
 
    |downloads_bioconductor-svm2crmdata| |docker_bioconductor-svm2crmdata|
 
-   :versions: 1.17.0-0, 1.16.0-1, 1.16.0-0, 1.15.0-0, 1.14.0-0
+   :versions: 1.18.0-0, 1.16.0-1, 1.16.0-0, 1.15.0-0, 1.14.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

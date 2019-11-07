@@ -9,13 +9,13 @@ bioconductor-chickencdf
 .. conda:recipe:: bioconductor-chickencdf
    :replaces_section_title:
 
-   A package containing an environment representing the Chicken.cdf file.
+   chickencdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/chickencdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/chickencdf.html
    :license: LGPL
    :recipe: /`bioconductor-chickencdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chickencdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chickencdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the Chicken.cdf file.
 
 
 .. conda:package:: bioconductor-chickencdf

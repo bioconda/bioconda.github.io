@@ -9,22 +9,22 @@ bioconductor-duoclustering2018
 .. conda:recipe:: bioconductor-duoclustering2018
    :replaces_section_title:
 
-   Preprocessed experimental and simulated scRNA\-seq data sets used for evaluation of clustering methods for scRNA\-seq data in Duò et al \(2018\). Also contains results from applying several clustering methods to each of the data sets\, and functions for plotting method performance.
+   Data\, Clustering Results and Visualization Functions From Duò et al \(2018\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/DuoClustering2018.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/DuoClustering2018.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-duoclustering2018 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-duoclustering2018>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-duoclustering2018/meta.yaml>`_
 
-   
+   Preprocessed experimental and simulated scRNA\-seq data sets used for evaluation of clustering methods for scRNA\-seq data in Duò et al \(2018\). Also contains results from applying several clustering methods to each of the data sets\, and functions for plotting method performance.
 
 
 .. conda:package:: bioconductor-duoclustering2018
 
    |downloads_bioconductor-duoclustering2018| |docker_bioconductor-duoclustering2018|
 
-   :versions: 1.3.0-0, 1.2.0-1, 1.0.0-0
+   :versions: 1.2.0-1, 1.0.0-0
    
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dplyr: 

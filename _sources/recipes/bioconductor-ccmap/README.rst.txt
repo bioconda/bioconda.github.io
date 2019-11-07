@@ -9,23 +9,23 @@ bioconductor-ccmap
 .. conda:recipe:: bioconductor-ccmap
    :replaces_section_title:
 
-   Finds drugs and drug combinations that are predicted to reverse or mimic gene expression signatures. These drugs might reverse diseases or mimic healthy lifestyles.
+   Combination Connectivity Mapping
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ccmap.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ccmap.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-ccmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccmap/meta.yaml>`_
 
-   
+   Finds drugs and drug combinations that are predicted to reverse or mimic gene expression signatures. These drugs might reverse diseases or mimic healthy lifestyles.
 
 
 .. conda:package:: bioconductor-ccmap
 
    |downloads_bioconductor-ccmap| |docker_bioconductor-ccmap|
 
-   :versions: 1.12.0-0, 1.10.0-1, 1.8.0-0
+   :versions: 1.10.0-1, 1.8.0-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-ccdata: >=1.11.0,<1.12.0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-ccdata: >=1.10.0,<1.11.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-biocmanager: >=1.24.0
    :depends r-data.table: >=1.10.4

@@ -9,20 +9,20 @@ bioconductor-metagxovarian
 .. conda:recipe:: bioconductor-metagxovarian
    :replaces_section_title:
 
-   A collection of Ovarian Cancer Transcriptomic Datasets that are part of the MetaGxData package compendium.
+   Transcriptomic Ovarian Cancer Datasets
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/MetaGxOvarian.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/MetaGxOvarian.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-metagxovarian <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagxovarian>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagxovarian/meta.yaml>`_
 
-   
+   A collection of Ovarian Cancer Transcriptomic Datasets that are part of the MetaGxData package compendium.
 
 
 .. conda:package:: bioconductor-metagxovarian
 
    |downloads_bioconductor-metagxovarian| |docker_bioconductor-metagxovarian|
 
-   :versions: 1.5.0-0, 1.4.0-1, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0
    
    :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
    :depends bioconductor-biobase: >=2.46.0,<2.47.0

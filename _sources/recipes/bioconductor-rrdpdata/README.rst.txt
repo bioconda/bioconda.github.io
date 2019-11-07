@@ -9,20 +9,20 @@ bioconductor-rrdpdata
 .. conda:recipe:: bioconductor-rrdpdata
    :replaces_section_title:
 
-   Database used by the default RDP Classifier
+   Database for the Default RDP Classifier
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/rRDPData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/rRDPData.html
    :license: GPL-2
    :recipe: /`bioconductor-rrdpdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrdpdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrdpdata/meta.yaml>`_
 
-   
+   Database used by the default RDP Classifier
 
 
 .. conda:package:: bioconductor-rrdpdata
 
    |downloads_bioconductor-rrdpdata| |docker_bioconductor-rrdpdata|
 
-   :versions: 1.5.0-0, 1.4.0-1, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0
    
    :depends bioconductor-rrdp: >=1.20.0,<1.21.0
    :depends curl: >=7.65.3,<8.0a0

@@ -9,29 +9,29 @@ bioconductor-breakpointr
 .. conda:recipe:: bioconductor-breakpointr
    :replaces_section_title:
 
-   This package implements functions for finding breakpoints\, plotting and export of Strand\-seq data.
+   Find breakpoints in Strand\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/breakpointR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/breakpointR.html
    :license: file LICENSE
    :recipe: /`bioconductor-breakpointr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breakpointr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breakpointr/meta.yaml>`_
 
-   
+   This package implements functions for finding breakpoints\, plotting and export of Strand\-seq data.
 
 
 .. conda:package:: bioconductor-breakpointr
 
    |downloads_bioconductor-breakpointr| |docker_bioconductor-breakpointr|
 
-   :versions: 1.4.0-0, 1.2.0-1, 1.0.0-1, 1.0.0-0
+   :versions: 1.2.0-1, 1.0.0-1, 1.0.0-0
    
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-breakpointrdata: >=1.3.0,<1.4.0
-   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicalignments: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-breakpointrdata: >=1.2.0,<1.3.0
+   :depends bioconductor-genomeinfodb: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicalignments: >=1.20.0,<1.21.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-cowplot: 
    :depends r-doparallel: 

@@ -9,13 +9,13 @@ bioconductor-hgfocus.db
 .. conda:recipe:: bioconductor-hgfocus.db
    :replaces_section_title:
 
-   Affymetrix Human Genome Focus Array annotation data \(chip hgfocus\) assembled using data from public repositories
+   Affymetrix Human Genome Focus Array annotation data \(chip hgfocus\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hgfocus.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hgfocus.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hgfocus.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgfocus.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgfocus.db/meta.yaml>`_
 
-   
+   Affymetrix Human Genome Focus Array annotation data \(chip hgfocus\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-hgfocus.db

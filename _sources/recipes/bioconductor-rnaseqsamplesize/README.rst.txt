@@ -9,25 +9,25 @@ bioconductor-rnaseqsamplesize
 .. conda:recipe:: bioconductor-rnaseqsamplesize
    :replaces_section_title:
 
-   RnaSeqSampleSize package provides a sample size calculation method based on negative binomial model and the exact test for assessing differential expression analysis of RNA\-seq data
+   RnaSeqSampleSize
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RnaSeqSampleSize.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RnaSeqSampleSize.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-rnaseqsamplesize <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqsamplesize>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqsamplesize/meta.yaml>`_
 
-   
+   RnaSeqSampleSize package provides a sample size calculation method based on negative binomial model and the exact test for assessing differential expression analysis of RNA\-seq data
 
 
 .. conda:package:: bioconductor-rnaseqsamplesize
 
    |downloads_bioconductor-rnaseqsamplesize| |docker_bioconductor-rnaseqsamplesize|
 
-   :versions: 1.17.0-0, 1.16.0-1, 1.14.0-0, 1.12.0-2
+   :versions: 1.16.0-1, 1.14.0-0, 1.12.0-2
    
-   :depends bioconductor-biomart: >=2.42.0,<2.43.0
-   :depends bioconductor-edger: >=3.28.0,<3.29.0
-   :depends bioconductor-keggrest: >=1.26.0,<1.27.0
-   :depends bioconductor-rnaseqsamplesizedata: >=1.17.0,<1.18.0
+   :depends bioconductor-biomart: >=2.40.0,<2.41.0
+   :depends bioconductor-edger: >=3.26.0,<3.27.0
+   :depends bioconductor-keggrest: >=1.24.0,<1.25.0
+   :depends bioconductor-rnaseqsamplesizedata: >=1.16.0,<1.17.0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0

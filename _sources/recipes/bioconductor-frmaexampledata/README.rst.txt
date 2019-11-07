@@ -9,20 +9,20 @@ bioconductor-frmaexampledata
 .. conda:recipe:: bioconductor-frmaexampledata
    :replaces_section_title:
 
-   Data files used by the examples in frma and frmaTools packages
+   Frma Example Data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/frmaExampleData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/frmaExampleData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-frmaexampledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-frmaexampledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-frmaexampledata/meta.yaml>`_
 
-   
+   Data files used by the examples in frma and frmaTools packages
 
 
 .. conda:package:: bioconductor-frmaexampledata
 
    |downloads_bioconductor-frmaexampledata| |docker_bioconductor-frmaexampledata|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

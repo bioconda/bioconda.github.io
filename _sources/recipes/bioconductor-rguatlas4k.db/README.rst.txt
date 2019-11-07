@@ -9,13 +9,13 @@ bioconductor-rguatlas4k.db
 .. conda:recipe:: bioconductor-rguatlas4k.db
    :replaces_section_title:
 
-   Clontech BD Atlas Long Oligos Rat 4K annotation data \(chip rguatlas4k\) assembled using data from public repositories
+   Clontech BD Atlas Long Oligos Rat 4K annotation data \(chip rguatlas4k\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/rguatlas4k.db.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/rguatlas4k.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rguatlas4k.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rguatlas4k.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rguatlas4k.db/meta.yaml>`_
 
-   
+   Clontech BD Atlas Long Oligos Rat 4K annotation data \(chip rguatlas4k\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-rguatlas4k.db

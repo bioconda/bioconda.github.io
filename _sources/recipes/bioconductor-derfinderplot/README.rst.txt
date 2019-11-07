@@ -9,14 +9,14 @@ bioconductor-derfinderplot
 .. conda:recipe:: bioconductor-derfinderplot
    :replaces_section_title:
 
-   This package provides plotting functions for results from the derfinder package.
+   Plotting functions for derfinder
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/derfinderPlot.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/derfinderPlot.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-derfinderplot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-derfinderplot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-derfinderplot/meta.yaml>`_
    :links: biotools: :biotools:`derfinderplot`
 
-   
+   This package provides plotting functions for results from the derfinder package.
 
 
 .. conda:package:: bioconductor-derfinderplot

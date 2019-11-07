@@ -9,14 +9,14 @@ bioconductor-beaddatapackr
 .. conda:recipe:: bioconductor-beaddatapackr
    :replaces_section_title:
 
-   Provides functionality for the compression and decompression of raw bead\-level data from the Illumina BeadArray platform.
+   Compression of Illumina BeadArray data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BeadDataPackR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BeadDataPackR.html
    :license: GPL-2
    :recipe: /`bioconductor-beaddatapackr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beaddatapackr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beaddatapackr/meta.yaml>`_
    :links: biotools: :biotools:`beaddatapackr`
 
-   
+   Provides functionality for the compression and decompression of raw bead\-level data from the Illumina BeadArray platform.
 
 
 .. conda:package:: bioconductor-beaddatapackr

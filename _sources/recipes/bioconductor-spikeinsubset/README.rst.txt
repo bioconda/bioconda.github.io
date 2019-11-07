@@ -9,20 +9,20 @@ bioconductor-spikeinsubset
 .. conda:recipe:: bioconductor-spikeinsubset
    :replaces_section_title:
 
-   Includes probe\-level and expression data for the HGU133 and HGU95 spike\-in experiments
+   Part of Affymetrix\'s Spike\-In Experiment Data
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/SpikeInSubset.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/SpikeInSubset.html
    :license: LGPL
    :recipe: /`bioconductor-spikeinsubset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spikeinsubset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spikeinsubset/meta.yaml>`_
 
-   
+   Includes probe\-level and expression data for the HGU133 and HGU95 spike\-in experiments
 
 
 .. conda:package:: bioconductor-spikeinsubset
 
    |downloads_bioconductor-spikeinsubset| |docker_bioconductor-spikeinsubset|
 
-   :versions: 1.25.0-0, 1.24.0-1, 1.22.0-0
+   :versions: 1.26.0-0, 1.24.0-1, 1.22.0-0
    
    :depends bioconductor-affy: >=1.64.0,<1.65.0
    :depends bioconductor-biobase: >=2.46.0,<2.47.0

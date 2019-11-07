@@ -11,18 +11,18 @@ bioconductor-somaticadata
 
    An example cancer whole genome sequencing data for the SomatiCA package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/SomatiCAData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/SomatiCAData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-somaticadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-somaticadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-somaticadata/meta.yaml>`_
 
-   
+   An example cancer whole genome sequencing data for the SomatiCA package
 
 
 .. conda:package:: bioconductor-somaticadata
 
    |downloads_bioconductor-somaticadata| |docker_bioconductor-somaticadata|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

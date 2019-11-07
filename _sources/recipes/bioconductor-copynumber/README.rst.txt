@@ -9,14 +9,14 @@ bioconductor-copynumber
 .. conda:recipe:: bioconductor-copynumber
    :replaces_section_title:
 
-   Penalized least squares regression is applied to fit piecewise constant curves to copy number data to locate genomic regions of constant copy number. Procedures are available for individual segmentation of each sample\, joint segmentation of several samples and joint segmentation of the two data tracks from SNP\-arrays. Several plotting functions are available for visualization of the data and the segmentation results.
+   Segmentation of single\- and multi\-track copy number data by penalized least squares regression.
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/copynumber.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/copynumber.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-copynumber <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copynumber>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copynumber/meta.yaml>`_
    :links: biotools: :biotools:`copynumber`
 
-   
+   Penalized least squares regression is applied to fit piecewise constant curves to copy number data to locate genomic regions of constant copy number. Procedures are available for individual segmentation of each sample\, joint segmentation of several samples and joint segmentation of the two data tracks from SNP\-arrays. Several plotting functions are available for visualization of the data and the segmentation results.
 
 
 .. conda:package:: bioconductor-copynumber

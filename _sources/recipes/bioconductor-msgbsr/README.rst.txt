@@ -9,13 +9,13 @@ bioconductor-msgbsr
 .. conda:recipe:: bioconductor-msgbsr
    :replaces_section_title:
 
-   Pipeline for the anaysis of a MS\-GBS experiment.
+   msgbsR\: methylation sensitive genotyping by sequencing \(MS\-GBS\) R functions
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/msgbsR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/msgbsR.html
    :license: GPL-2
    :recipe: /`bioconductor-msgbsr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msgbsr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msgbsr/meta.yaml>`_
 
-   
+   Pipeline for the anaysis of a MS\-GBS experiment.
 
 
 .. conda:package:: bioconductor-msgbsr

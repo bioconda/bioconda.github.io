@@ -9,13 +9,13 @@ bioconductor-bifet
 .. conda:recipe:: bioconductor-bifet
    :replaces_section_title:
 
-   BiFET identifies TFs whose footprints are over\-represented in target regions compared to background regions after correcting for the bias arising from the imbalance in read counts and GC contents between the target and background regions. For a given TF k\, BiFET tests the null hypothesis that the target regions have the same probability of having footprints for the TF k as the background regions while correcting for the read count and GC content bias. For this\, we use the number of target regions with footprints for TF k\, t\_k as a test statistic and calculate the p\-value as the probability of observing t\_k or more target regions with footprints under the null hypothesis.
+   Bias\-free Footprint Enrichment Test
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BiFET.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BiFET.html
    :license: GPL-3
    :recipe: /`bioconductor-bifet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bifet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bifet/meta.yaml>`_
 
-   
+   BiFET identifies TFs whose footprints are over\-represented in target regions compared to background regions after correcting for the bias arising from the imbalance in read counts and GC contents between the target and background regions. For a given TF k\, BiFET tests the null hypothesis that the target regions have the same probability of having footprints for the TF k as the background regions while correcting for the read count and GC content bias. For this\, we use the number of target regions with footprints for TF k\, t\_k as a test statistic and calculate the p\-value as the probability of observing t\_k or more target regions with footprints under the null hypothesis.
 
 
 .. conda:package:: bioconductor-bifet

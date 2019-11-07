@@ -9,14 +9,14 @@ bioconductor-ternarynet
 .. conda:recipe:: bioconductor-ternarynet
    :replaces_section_title:
 
-   A computational Bayesian approach to ternary gene regulatory network estimation from gene perturbation experiments.
+   Ternary Network Estimation
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ternarynet.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ternarynet.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ternarynet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ternarynet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ternarynet/meta.yaml>`_
    :links: biotools: :biotools:`ternarynet`
 
-   
+   A computational Bayesian approach to ternary gene regulatory network estimation from gene perturbation experiments.
 
 
 .. conda:package:: bioconductor-ternarynet

@@ -9,14 +9,14 @@ bioconductor-matter
 .. conda:recipe:: bioconductor-matter
    :replaces_section_title:
 
-   Memory\-efficient reading\, writing\, and manipulation of structured binary data on disk as vectors\, matrices\, arrays\, lists\, and data frames.
+   A framework for rapid prototyping with file\-based data structures
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/matter.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/matter.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-matter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matter/meta.yaml>`_
    :links: biotools: :biotools:`matter`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Memory\-efficient reading\, writing\, and manipulation of structured binary data as file\-based vectors\, matrices\, arrays\, lists\, and data frames.
 
 
 .. conda:package:: bioconductor-matter

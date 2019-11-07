@@ -9,20 +9,20 @@ bioconductor-dmelsgi
 .. conda:recipe:: bioconductor-dmelsgi
    :replaces_section_title:
 
-   The package contains the experimental data and documented source code of the manuscript \"Fischer et al.\, A Map of Directional Genetic Interactions in a Metazoan Cell\, eLife\, 2015\, in Press.\". The vignette code generates all figures in the paper.
+   Experimental data and documented source code for the paper \"A Map of Directional Genetic Interactions in a Metazoan Cell\"
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/DmelSGI.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/DmelSGI.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-dmelsgi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmelsgi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmelsgi/meta.yaml>`_
 
-   
+   The package contains the experimental data and documented source code of the manuscript \"Fischer et al.\, A Map of Directional Genetic Interactions in a Metazoan Cell\, eLife\, 2015\, in Press.\". The vignette code generates all figures in the paper.
 
 
 .. conda:package:: bioconductor-dmelsgi
 
    |downloads_bioconductor-dmelsgi| |docker_bioconductor-dmelsgi|
 
-   :versions: 1.17.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0
+   :versions: 1.18.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0
    
    :depends bioconductor-limma: >=3.42.0,<3.43.0
    :depends bioconductor-rhdf5: >=2.30.0,<2.31.0

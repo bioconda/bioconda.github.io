@@ -9,20 +9,20 @@ bioconductor-ccl4
 .. conda:recipe:: bioconductor-ccl4
    :replaces_section_title:
 
-   NChannelSet for rat hepatocytes treated with Carbon Tetrachloride \(CCl4\) data from LGC company.
+   Carbon Tetrachloride \(CCl4\) treated hepatocytes
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/CCl4.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/CCl4.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ccl4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccl4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccl4/meta.yaml>`_
 
-   
+   NChannelSet for rat hepatocytes treated with Carbon Tetrachloride \(CCl4\) data from LGC company.
 
 
 .. conda:package:: bioconductor-ccl4
 
    |downloads_bioconductor-ccl4| |docker_bioconductor-ccl4|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends bioconductor-limma: >=3.42.0,<3.43.0

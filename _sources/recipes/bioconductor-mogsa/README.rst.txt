@@ -9,13 +9,13 @@ bioconductor-mogsa
 .. conda:recipe:: bioconductor-mogsa
    :replaces_section_title:
 
-   This package provide a method for doing gene set analysis based on multiple omics data.
+   Multiple omics data integrative clustering and gene set analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/mogsa.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/mogsa.html
    :license: GPL-2
    :recipe: /`bioconductor-mogsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogsa/meta.yaml>`_
 
-   
+   This package provide a method for doing gene set analysis based on multiple omics data.
 
 
 .. conda:package:: bioconductor-mogsa

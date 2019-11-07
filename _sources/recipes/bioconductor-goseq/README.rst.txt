@@ -9,26 +9,26 @@ bioconductor-goseq
 .. conda:recipe:: bioconductor-goseq
    :replaces_section_title:
 
-   Detects Gene Ontology and\/or other user defined categories which are over\/under represented in RNA\-seq data
+   Gene Ontology analyser for RNA\-seq and other length biased data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/goseq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/goseq.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-goseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-goseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-goseq/meta.yaml>`_
    :links: biotools: :biotools:`goseq`
 
-   
+   Detects Gene Ontology and\/or other user defined categories which are over\/under represented in RNA\-seq data
 
 
 .. conda:package:: bioconductor-goseq
 
    |downloads_bioconductor-goseq| |docker_bioconductor-goseq|
 
-   :versions: 1.38.0-0, 1.36.0-1, 1.34.1-0, 1.34.0-0, 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.26.0-0, 1.22.0-0
+   :versions: 1.36.0-1, 1.34.1-0, 1.34.0-0, 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.26.0-0, 1.22.0-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-genelendatabase: >=1.21.0,<1.22.0
-   :depends bioconductor-go.db: >=3.10.0,<3.11.0
+   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-genelendatabase: >=1.20.0,<1.21.0
+   :depends bioconductor-go.db: >=3.8.0,<3.9.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-biasedurn: 
    :depends r-mgcv: 

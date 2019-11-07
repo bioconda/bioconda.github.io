@@ -9,13 +9,13 @@ bioconductor-vidger
 .. conda:recipe:: bioconductor-vidger
    :replaces_section_title:
 
-   The aim of vidger is to rapidly generate information\-rich visualizations for the interpretation of differential gene expression results from three widely\-used tools\: Cuffdiff\, DESeq2\, and edgeR.
+   Create rapid visualizations of RNAseq data in R
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/vidger.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/vidger.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-vidger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vidger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vidger/meta.yaml>`_
 
-   
+   The aim of vidger is to rapidly generate information\-rich visualizations for the interpretation of differential gene expression results from three widely\-used tools\: Cuffdiff\, DESeq2\, and edgeR.
 
 
 .. conda:package:: bioconductor-vidger

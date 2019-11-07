@@ -9,14 +9,14 @@ bioconductor-frma
 .. conda:recipe:: bioconductor-frma
    :replaces_section_title:
 
-   Preprocessing and analysis for single microarrays and microarray batches.
+   Frozen RMA and Barcode
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/frma.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/frma.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-frma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-frma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-frma/meta.yaml>`_
    :links: biotools: :biotools:`frma`
 
-   
+   Preprocessing and analysis for single microarrays and microarray batches.
 
 
 .. conda:package:: bioconductor-frma

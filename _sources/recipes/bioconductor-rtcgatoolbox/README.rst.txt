@@ -9,14 +9,14 @@ bioconductor-rtcgatoolbox
 .. conda:recipe:: bioconductor-rtcgatoolbox
    :replaces_section_title:
 
-   Managing data from large scale projects such as The Cancer Genome Atlas \(TCGA\) for further analysis is an important and time consuming step for research projects. Several efforts\, such as Firehose project\, make TCGA pre\-processed data publicly available via web services and data portals but it requires managing\, downloading and preparing the data for following steps. We developed an open source and extensible R based data client for Firehose pre\-processed data and demonstrated its use with sample case studies. Results showed that RTCGAToolbox could improve data management for researchers who are interested with TCGA data. In addition\, it can be integrated with other analysis pipelines for following data analysis.
+   A new tool for exporting TCGA Firehose data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RTCGAToolbox.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RTCGAToolbox.html
    :license: file LICENSE
    :recipe: /`bioconductor-rtcgatoolbox <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcgatoolbox>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcgatoolbox/meta.yaml>`_
    :links: biotools: :biotools:`rtcgatoolbox`
 
-   
+   Managing data from large scale projects such as The Cancer Genome Atlas \(TCGA\) for further analysis is an important and time consuming step for research projects. Several efforts\, such as Firehose project\, make TCGA pre\-processed data publicly available via web services and data portals but it requires managing\, downloading and preparing the data for following steps. We developed an open source and extensible R based data client for Firehose pre\-processed data and demonstrated its use with sample case studies. Results showed that RTCGAToolbox could improve data management for researchers who are interested with TCGA data. In addition\, it can be integrated with other analysis pipelines for following data analysis.
 
 
 .. conda:package:: bioconductor-rtcgatoolbox

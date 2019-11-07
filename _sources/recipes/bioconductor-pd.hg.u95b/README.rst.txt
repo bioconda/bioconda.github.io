@@ -11,11 +11,11 @@ bioconductor-pd.hg.u95b
 
    Platform Design Info for The Manufacturer\'s Name HG U95B
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.hg.u95b.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.hg.u95b.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.hg.u95b <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.hg.u95b>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.hg.u95b/meta.yaml>`_
 
-   
+   Platform Design Info for The Manufacturer\'s Name HG U95B
 
 
 .. conda:package:: bioconductor-pd.hg.u95b

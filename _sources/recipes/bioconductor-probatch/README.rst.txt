@@ -9,13 +9,13 @@ bioconductor-probatch
 .. conda:recipe:: bioconductor-probatch
    :replaces_section_title:
 
-   The proBatch package facilitates batch effects analysis and correction in high\-thoughput experiments. It was developed primarily for mass\-spectrometry proteomics \(DIA\/SWATH\)\, but could also be applicable to most omic data with minor adaptations. The package contains functions for diagnostics \(proteome\/genome\-wide and feature\-level\)\, correction \(normalization and batch effects correction\) and quality control. Non\-linear fitting based approaches were also included to deal with complex\, mass spectrometry\-specific signal drifts.
+   Tools for Diagnostics and Corrections of Batch Effects in Proteomics
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/proBatch.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/proBatch.html
    :license: GPL-3
    :recipe: /`bioconductor-probatch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-probatch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-probatch/meta.yaml>`_
 
-   
+   These tools facilitate batch effects analysis and correction in high\-throughput experiments. It was developed primarily for mass\-spectrometry proteomics \(DIA\/SWATH\)\, but could also be applicable to most omic data with minor adaptations. The package contains functions for diagnostics \(proteome\/genome\-wide and feature\-level\)\, correction \(normalization and batch effects correction\) and quality control. Non\-linear fitting based approaches were also included to deal with complex\, mass spectrometry\-specific signal drifts.
 
 
 .. conda:package:: bioconductor-probatch

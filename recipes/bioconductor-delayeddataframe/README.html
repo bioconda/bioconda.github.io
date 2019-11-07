@@ -102,10 +102,10 @@
 <dl class="recipe">
 <dt id="recipe-bioconductor-delayeddataframe">
 <em class="property">recipe </em><code class="sig-name descname">bioconductor-delayeddataframe</code><a class="headerlink" href="#recipe-bioconductor-delayeddataframe" title="Permalink to this definition">¶</a></dt>
-<dd><p>Based on the standard DataFrame metaphor, we are trying to implement the feature of delayed operation on the DelayedDataFrame, with a slot of lazyIndex, which saves the mapping indexes for each column of DelayedDataFrame. Methods like show, validity check, [/[[ subsetting, rbind/cbind are implemented for DelayedDataFrame to be operated around lazyIndex. The listData slot stays untouched until a realization call e.g., DataFrame constructor OR as.list() is invoked.</p>
+<dd><p>Delayed operation on DataFrame using standard DataFrame metaphor</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.9/bioc/html/DelayedDataFrame.html">https://bioconductor.org/packages/3.9/bioc/html/DelayedDataFrame.html</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.10/bioc/html/DelayedDataFrame.html">https://bioconductor.org/packages/3.10/bioc/html/DelayedDataFrame.html</a></p>
 </dd>
 <dt class="field-even">License</dt>
 <dd class="field-even"><p>GPL-3</p>
@@ -114,6 +114,7 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-delayeddataframe">bioconductor-delayeddataframe</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-delayeddataframe/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
+<p>Based on the standard DataFrame metaphor, we are trying to implement the feature of delayed operation on the DelayedDataFrame, with a slot of lazyIndex, which saves the mapping indexes for each column of DelayedDataFrame. Methods like show, validity check, [/[[ subsetting, rbind/cbind are implemented for DelayedDataFrame to be operated around lazyIndex. The listData slot stays untouched until a realization call e.g., DataFrame constructor OR as.list() is invoked.</p>
 </dd></dl>
 
 <dl class="package">
@@ -134,6 +135,7 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../bioconductor-variantexperiment/README.html#bioconductor-variantexperiment"><strong class="xref backref">bioconductor-variantexperiment</strong></a></p></li>
 </ul>
 </dd>
 </dl>

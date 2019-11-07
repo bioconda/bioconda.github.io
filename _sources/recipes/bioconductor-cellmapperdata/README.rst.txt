@@ -9,20 +9,20 @@ bioconductor-cellmapperdata
 .. conda:recipe:: bioconductor-cellmapperdata
    :replaces_section_title:
 
-   Experiment data package. Contains microarray data from several large expression compendia that have been pre\-processed for use with the CellMapper package. This pre\-processed data is recommended for routine searches using the CellMapper package.
+   Pre\-processed data for use with the CellMapper package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/CellMapperData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/CellMapperData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cellmapperdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellmapperdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellmapperdata/meta.yaml>`_
 
-   
+   Experiment data package. Contains microarray data from several large expression compendia that have been pre\-processed for use with the CellMapper package. This pre\-processed data is recommended for routine searches using the CellMapper package.
 
 
 .. conda:package:: bioconductor-cellmapperdata
 
    |downloads_bioconductor-cellmapperdata| |docker_bioconductor-cellmapperdata|
 
-   :versions: 1.11.0-0, 1.10.0-1, 1.8.0-0
+   :versions: 1.12.0-0, 1.10.0-1, 1.8.0-0
    
    :depends bioconductor-cellmapper: >=1.12.0,<1.13.0
    :depends bioconductor-experimenthub: >=1.12.0,<1.13.0

@@ -9,14 +9,14 @@ bioconductor-lmgene
 .. conda:recipe:: bioconductor-lmgene
    :replaces_section_title:
 
-   LMGene package for analysis of microarray data using a linear model and glog data transformation
+   LMGene Software for Data Transformation and Identification of Differentially Expressed Genes in Gene Expression Arrays
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/LMGene.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/LMGene.html
    :license: LGPL
    :recipe: /`bioconductor-lmgene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lmgene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lmgene/meta.yaml>`_
    :links: biotools: :biotools:`lmgene`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   LMGene package for analysis of microarray data using a linear model and glog data transformation
 
 
 .. conda:package:: bioconductor-lmgene

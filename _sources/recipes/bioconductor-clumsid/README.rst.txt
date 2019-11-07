@@ -9,13 +9,13 @@ bioconductor-clumsid
 .. conda:recipe:: bioconductor-clumsid
    :replaces_section_title:
 
-   CluMSID is a tool that aids the identification of features in untargeted LC\-MS\/MS analysis by the use of MS2 spectra similarity and unsupervised statistical methods. It offers functions for a complete and customisable workflow from raw data to visualisations and is interfaceable with the xmcs family of preprocessing packages.
+   Clustering of MS2 Spectra for Metabolite Identification
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CluMSID.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CluMSID.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-clumsid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clumsid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clumsid/meta.yaml>`_
 
-   
+   CluMSID is a tool that aids the identification of features in untargeted LC\-MS\/MS analysis by the use of MS2 spectra similarity and unsupervised statistical methods. It offers functions for a complete and customisable workflow from raw data to visualisations and is interfaceable with the xmcs family of preprocessing packages.
 
 
 .. conda:package:: bioconductor-clumsid

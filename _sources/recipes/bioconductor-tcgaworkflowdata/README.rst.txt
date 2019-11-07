@@ -9,20 +9,20 @@ bioconductor-tcgaworkflowdata
 .. conda:recipe:: bioconductor-tcgaworkflowdata
    :replaces_section_title:
 
-   This experimental data package contains 11 data sets necessary to follow the \"TCGA Workflow\: Analyze cancer genomics and epigenomics data using Bioconductor packages\".
+   Data for TCGA Workflow
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/TCGAWorkflowData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/TCGAWorkflowData.html
    :license: GPL-3
    :recipe: /`bioconductor-tcgaworkflowdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgaworkflowdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgaworkflowdata/meta.yaml>`_
 
-   
+   This experimental data package contains 11 data sets necessary to follow the \"TCGA Workflow\: Analyze cancer genomics and epigenomics data using Bioconductor packages\".
 
 
 .. conda:package:: bioconductor-tcgaworkflowdata
 
    |downloads_bioconductor-tcgaworkflowdata| |docker_bioconductor-tcgaworkflowdata|
 
-   :versions: 1.9.1-0, 1.8.0-1, 1.6.0-0
+   :versions: 1.10.0-0, 1.8.0-1, 1.6.0-0
    
    :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
    :depends curl: >=7.65.3,<8.0a0

@@ -11,11 +11,11 @@ bioconductor-pd.clariom.s.rat.ht
 
    Platform Design Info for Affymetrix Clariom\_S\_Rat\_HT
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/pd.clariom.s.rat.ht.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.clariom.s.rat.ht.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.clariom.s.rat.ht <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.clariom.s.rat.ht>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.clariom.s.rat.ht/meta.yaml>`_
 
-   
+   Platform Design Info for Affymetrix Clariom\_S\_Rat\_HT
 
 
 .. conda:package:: bioconductor-pd.clariom.s.rat.ht

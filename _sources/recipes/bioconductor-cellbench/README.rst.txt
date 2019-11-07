@@ -9,13 +9,13 @@ bioconductor-cellbench
 .. conda:recipe:: bioconductor-cellbench
    :replaces_section_title:
 
-   This package contains infrastructure for benchmarking analysis methods and access to single cell mixture benchmarking data. It provides a framework for organising analysis methods and testing combinations of methods in a pipeline without explicitly laying out each combination. It also provides utilities for sampling and filtering SingleCellExperiment objects\, constructing lists of functions with varying parameters\, and multithreaded evaluation of analysis methods.
+   Construct Benchmarks for Single Cell Analysis Methods
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CellBench.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CellBench.html
    :license: GPL-3
    :recipe: /`bioconductor-cellbench <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellbench>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellbench/meta.yaml>`_
 
-   
+   This package contains infrastructure for benchmarking analysis methods and access to single cell mixture benchmarking data. It provides a framework for organising analysis methods and testing combinations of methods in a pipeline without explicitly laying out each combination. It also provides utilities for sampling and filtering SingleCellExperiment objects\, constructing lists of functions with varying parameters\, and multithreaded evaluation of analysis methods.
 
 
 .. conda:package:: bioconductor-cellbench

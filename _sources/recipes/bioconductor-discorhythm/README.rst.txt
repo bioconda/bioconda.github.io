@@ -9,13 +9,13 @@ bioconductor-discorhythm
 .. conda:recipe:: bioconductor-discorhythm
    :replaces_section_title:
 
-   Set of functions for estimation of cyclical characteristics\, such as period\, phase\, amplitude\, and statistical significance in large temporal datasets. Supporting functions are available for quality control\, dimensionality reduction\, spectral analysis\, and analysis of experimental replicates. Contains a R Shiny web interface to execute all workflow steps.
+   Interactive Workflow for Discovering Rhythmicity in Biological Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DiscoRhythm.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DiscoRhythm.html
    :license: GPL-3
    :recipe: /`bioconductor-discorhythm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-discorhythm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-discorhythm/meta.yaml>`_
 
-   
+   Set of functions for estimation of cyclical characteristics\, such as period\, phase\, amplitude\, and statistical significance in large temporal datasets. Supporting functions are available for quality control\, dimensionality reduction\, spectral analysis\, and analysis of experimental replicates. Contains a R Shiny web interface to execute all workflow steps.
 
 
 .. conda:package:: bioconductor-discorhythm

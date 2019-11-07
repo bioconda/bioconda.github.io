@@ -9,13 +9,13 @@ bioconductor-sigfeature
 .. conda:recipe:: bioconductor-sigfeature
    :replaces_section_title:
 
-   This package provides a novel feature selection algorithm for binary classification using support vector machine recursive feature elimination SVM\-RFE and t\-statistic. In this feature selection process\, the selected features are differentially significant between the two classes and also they are good classifier with higher degree of classification accuracy.
+   sigFeature\: Significant feature selection using SVM\-RFE \& t\-statistic
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/sigFeature.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/sigFeature.html
    :license: GPL
    :recipe: /`bioconductor-sigfeature <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigfeature>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigfeature/meta.yaml>`_
 
-   
+   This package provides a novel feature selection algorithm for binary classification using support vector machine recursive feature elimination SVM\-RFE and t\-statistic. In this feature selection process\, the selected features are differentially significant between the two classes and also they are good classifier with higher degree of classification accuracy.
 
 
 .. conda:package:: bioconductor-sigfeature

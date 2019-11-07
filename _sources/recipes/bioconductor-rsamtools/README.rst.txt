@@ -9,14 +9,14 @@ bioconductor-rsamtools
 .. conda:recipe:: bioconductor-rsamtools
    :replaces_section_title:
 
-   This package provides an interface to the \'samtools\'\, \'bcftools\'\, and \'tabix\' utilities for manipulating SAM \(Sequence Alignment \/ Map\)\, FASTA\, binary variant call \(BCF\) and compressed indexed tab\-delimited \(tabix\) files.
+   Binary alignment \(BAM\)\, FASTA\, variant call \(BCF\)\, and tabix file import
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Rsamtools.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Rsamtools.html
    :license: Artistic-2.0 | file LICENSE
    :recipe: /`bioconductor-rsamtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsamtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsamtools/meta.yaml>`_
    :links: biotools: :biotools:`rsamtools`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package provides an interface to the \'samtools\'\, \'bcftools\'\, and \'tabix\' utilities for manipulating SAM \(Sequence Alignment \/ Map\)\, FASTA\, binary variant call \(BCF\) and compressed indexed tab\-delimited \(tabix\) files.
 
 
 .. conda:package:: bioconductor-rsamtools

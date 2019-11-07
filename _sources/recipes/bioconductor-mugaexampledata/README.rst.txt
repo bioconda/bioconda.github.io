@@ -9,20 +9,20 @@ bioconductor-mugaexampledata
 .. conda:recipe:: bioconductor-mugaexampledata
    :replaces_section_title:
 
-   This package contains example data for the MUGA array that is used by the R package DOQTL.
+   Example \{M\}ouse \{U\}niversal \{G\}enotyping \{A\}rray data for genome reconstruction and quantitative trait locus mapping.
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/MUGAExampleData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/MUGAExampleData.html
    :license: GPL-3
    :recipe: /`bioconductor-mugaexampledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mugaexampledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mugaexampledata/meta.yaml>`_
 
-   
+   This package contains example data for the MUGA array that is used by the R package DOQTL.
 
 
 .. conda:package:: bioconductor-mugaexampledata
 
    |downloads_bioconductor-mugaexampledata| |docker_bioconductor-mugaexampledata|
 
-   :versions: 1.5.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-0
    
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0

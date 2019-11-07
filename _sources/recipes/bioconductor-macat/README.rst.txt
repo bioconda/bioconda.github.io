@@ -9,14 +9,14 @@ bioconductor-macat
 .. conda:recipe:: bioconductor-macat
    :replaces_section_title:
 
-   This library contains functions to investigate links between differential gene expression and the chromosomal localization of the genes. MACAT is motivated by the common observation of phenomena involving large chromosomal regions in tumor cells. MACAT is the implementation of a statistical approach for identifying significantly differentially expressed chromosome regions. The functions have been tested on a publicly available data set about acute lymphoblastic leukemia \(Yeoh et al.Cancer Cell 2002\)\, which is provided in the library \'stjudem\'.
+   MicroArray Chromosome Analysis Tool
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/macat.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/macat.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-macat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macat/meta.yaml>`_
    :links: biotools: :biotools:`macat`
 
-   
+   This library contains functions to investigate links between differential gene expression and the chromosomal localization of the genes. MACAT is motivated by the common observation of phenomena involving large chromosomal regions in tumor cells. MACAT is the implementation of a statistical approach for identifying significantly differentially expressed chromosome regions. The functions have been tested on a publicly available data set about acute lymphoblastic leukemia \(Yeoh et al.Cancer Cell 2002\)\, which is provided in the library \'stjudem\'.
 
 
 .. conda:package:: bioconductor-macat

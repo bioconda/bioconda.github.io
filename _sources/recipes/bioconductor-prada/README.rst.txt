@@ -9,14 +9,14 @@ bioconductor-prada
 .. conda:recipe:: bioconductor-prada
    :replaces_section_title:
 
-   Tools for analysing and navigating data from high\-throughput phenotyping experiments based on cellular assays and fluorescent detection \(flow cytometry \(FACS\)\, high\-content screening microscopy\).
+   Data analysis for cell\-based functional assays
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/prada.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/prada.html
    :license: LGPL
    :recipe: /`bioconductor-prada <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prada>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prada/meta.yaml>`_
    :links: biotools: :biotools:`prada`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Tools for analysing and navigating data from high\-throughput phenotyping experiments based on cellular assays and fluorescent detection \(flow cytometry \(FACS\)\, high\-content screening microscopy\).
 
 
 .. conda:package:: bioconductor-prada

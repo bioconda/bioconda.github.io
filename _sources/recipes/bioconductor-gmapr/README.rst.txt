@@ -9,13 +9,13 @@ bioconductor-gmapr
 .. conda:recipe:: bioconductor-gmapr
    :replaces_section_title:
 
-   GSNAP and GMAP are a pair of tools to align short\-read data written by Tom Wu.  This package provides convenience methods to work with GMAP and GSNAP from within R. In addition\, it provides methods to tally alignment results on a per\-nucleotide basis using the bam\_tally tool.
+   An R interface to the GMAP\/GSNAP\/GSTRUCT suite
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/gmapR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/gmapR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gmapr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gmapr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gmapr/meta.yaml>`_
 
-   
+   GSNAP and GMAP are a pair of tools to align short\-read data written by Tom Wu.  This package provides convenience methods to work with GMAP and GSNAP from within R. In addition\, it provides methods to tally alignment results on a per\-nucleotide basis using the bam\_tally tool.
 
 
 .. conda:package:: bioconductor-gmapr

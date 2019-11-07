@@ -9,26 +9,26 @@ bioconductor-yrimulti
 .. conda:recipe:: bioconductor-yrimulti
    :replaces_section_title:
 
-   expression\, methylation\, DHS for YRI
+   support for expression\, methylation\, DHS\, VCF for YRI
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/yriMulti.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/yriMulti.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-yrimulti <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yrimulti>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yrimulti/meta.yaml>`_
 
-   
+   expression\, methylation\, DHS for YRI
 
 
 .. conda:package:: bioconductor-yrimulti
 
    |downloads_bioconductor-yrimulti| |docker_bioconductor-yrimulti|
 
-   :versions: 0.15.0-0, 0.14.0-1, 0.12.0-0
+   :versions: 0.16.0-0, 0.14.0-1, 0.12.0-0
    
-   :depends bioconductor-dsqtl: >=0.23.0,<0.24.0
+   :depends bioconductor-dsqtl: >=0.24.0,<0.25.0
    :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
    :depends bioconductor-genomicfiles: >=1.22.0,<1.23.0
    :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-geuvpack: >=1.17.0,<1.18.0
+   :depends bioconductor-geuvpack: >=1.18.0,<1.19.0
    :depends bioconductor-gqtlbase: >=1.18.0,<1.19.0
    :depends bioconductor-homo.sapiens: >=1.3.0,<1.4.0
    :depends bioconductor-multiassayexperiment: >=1.12.0,<1.13.0

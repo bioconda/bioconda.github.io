@@ -9,13 +9,13 @@ bioconductor-tnbc.cms
 .. conda:recipe:: bioconductor-tnbc.cms
    :replaces_section_title:
 
-   This package implements a machine learning\-based classifier for the assignment of consensus molecular subtypes to TNBC samples. It also provides functions to summarize genomic and clinical characteristics.
+   TNBC.CMS\: Prediction of TNBC Consensus Molecular Subtypes
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/TNBC.CMS.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/TNBC.CMS.html
    :license: GPL-3
    :recipe: /`bioconductor-tnbc.cms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tnbc.cms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tnbc.cms/meta.yaml>`_
 
-   
+   This package implements a machine learning\-based classifier for the assignment of consensus molecular subtypes to TNBC samples. It also provides functions to summarize genomic and clinical characteristics.
 
 
 .. conda:package:: bioconductor-tnbc.cms

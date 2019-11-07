@@ -9,14 +9,14 @@ bioconductor-altcdfenvs
 .. conda:recipe:: bioconductor-altcdfenvs
    :replaces_section_title:
 
-   Convenience data structures and functions to handle cdfenvs
+   alternative CDF environments \(aka probeset mappings\)
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/altcdfenvs.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/altcdfenvs.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-altcdfenvs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-altcdfenvs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-altcdfenvs/meta.yaml>`_
    :links: biotools: :biotools:`altcdfenvs`
 
-   
+   Convenience data structures and functions to handle cdfenvs
 
 
 .. conda:package:: bioconductor-altcdfenvs

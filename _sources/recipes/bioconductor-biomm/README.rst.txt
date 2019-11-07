@@ -9,13 +9,13 @@ bioconductor-biomm
 .. conda:recipe:: bioconductor-biomm
    :replaces_section_title:
 
-   The identification of reproducible biological patterns from high\-dimensional omics data is a key factor in understanding the biology of complex disease or traits. Incorporating prior biological knowledge into machine learning is an important step in advancing such research. We have proposed a biologically informed multi\-stage machine learing framework termed BioMM specifically for phenotype prediction based on omics\-scale data where we can evaluate different machine learning models with various prior biological meta information.
+   BioMM\: Biological\-informed Multi\-stage Machine learning framework for phenotype prediction using omics data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BioMM.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BioMM.html
    :license: GPL-3
    :recipe: /`bioconductor-biomm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomm/meta.yaml>`_
 
-   
+   The identification of reproducible biological patterns from high\-dimensional omics data is a key factor in understanding the biology of complex disease or traits. Incorporating prior biological knowledge into machine learning is an important step in advancing such research. We have proposed a biologically informed multi\-stage machine learing framework termed BioMM specifically for phenotype prediction based on omics\-scale data where we can evaluate different machine learning models with prior biological meta information.
 
 
 .. conda:package:: bioconductor-biomm

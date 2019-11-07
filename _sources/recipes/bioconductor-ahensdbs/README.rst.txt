@@ -9,13 +9,13 @@ bioconductor-ahensdbs
 .. conda:recipe:: bioconductor-ahensdbs
    :replaces_section_title:
 
-   Supplies AnnotationHub with EnsDb Ensembl\-based annotation databases for all species. EnsDb SQLite databases are generated separately from Ensembl MySQL databases using functions from the ensembldb package employing the Ensembl Perl API.
+   EnsDbs for AnnotationHub
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/AHEnsDbs.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/AHEnsDbs.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ahensdbs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ahensdbs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ahensdbs/meta.yaml>`_
 
-   
+   Supplies AnnotationHub with EnsDb Ensembl\-based annotation databases for all species. EnsDb SQLite databases are generated separately from Ensembl MySQL databases using functions from the ensembldb package employing the Ensembl Perl API.
 
 
 .. conda:package:: bioconductor-ahensdbs

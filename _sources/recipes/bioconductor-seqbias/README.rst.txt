@@ -9,13 +9,13 @@ bioconductor-seqbias
 .. conda:recipe:: bioconductor-seqbias
    :replaces_section_title:
 
-   This package implements a model of per\-position sequencing bias in high\-throughput sequencing data using a simple Bayesian network\, the structure and parameters of which are trained on a set of aligned reads and a reference genome sequence.
+   Estimation of per\-position bias in high\-throughput sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/seqbias.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/seqbias.html
    :license: LGPL-3
    :recipe: /`bioconductor-seqbias <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqbias>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqbias/meta.yaml>`_
 
-   
+   This package implements a model of per\-position sequencing bias in high\-throughput sequencing data using a simple Bayesian network\, the structure and parameters of which are trained on a set of aligned reads and a reference genome sequence.
 
 
 .. conda:package:: bioconductor-seqbias

@@ -9,20 +9,20 @@ bioconductor-beta7
 .. conda:recipe:: bioconductor-beta7
    :replaces_section_title:
 
-   Data from 6 gpr files aims to identify differential expressed genes between the beta 7\+ and beta 7\- memory T helper cells.
+   Rodriguez et al. \(2004\) Differential Gene Expression by Memory\/Effector T Helper Cells Bearing the Gut\-Homing Receptor Integrin alpha4 beta7.
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/beta7.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/beta7.html
    :license: LGPL
    :recipe: /`bioconductor-beta7 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beta7>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beta7/meta.yaml>`_
 
-   
+   Data from 6 gpr files aims to identify differential expressed genes between the beta 7\+ and beta 7\- memory T helper cells.
 
 
 .. conda:package:: bioconductor-beta7
 
    |downloads_bioconductor-beta7| |docker_bioconductor-beta7|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-1, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-1, 1.20.0-0
    
    :depends bioconductor-marray: >=1.64.0,<1.65.0
    :depends curl: >=7.65.3,<8.0a0

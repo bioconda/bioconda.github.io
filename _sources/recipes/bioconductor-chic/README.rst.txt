@@ -9,26 +9,26 @@ bioconductor-chic
 .. conda:recipe:: bioconductor-chic
    :replaces_section_title:
 
-   Quality control \(QC\) pipeline for ChIP\-seq data using a comprehensive set of QC metrics\, including previously proposed metrics as well as novel ones\, based on local characteristics of the enrichment profile. The package provides functions to calculate a set of QC metrics\, a compendium with reference values and machine learning models to score sample quality.
+   Quality Control Pipeline for ChIP\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ChIC.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ChIC.html
    :license: GPL-2
    :recipe: /`bioconductor-chic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chic/meta.yaml>`_
 
-   
+   Quality control \(QC\) pipeline for ChIP\-seq data using a comprehensive set of QC metrics\, including previously proposed metrics as well as novel ones\, based on local characteristics of the enrichment profile. The package provides functions to calculate a set of QC metrics\, a compendium with reference values and machine learning models to score sample quality.
 
 
 .. conda:package:: bioconductor-chic
 
    |downloads_bioconductor-chic| |docker_bioconductor-chic|
 
-   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-1, 1.2.0-0
+   :versions: 1.4.0-1, 1.2.0-1, 1.2.0-0
    
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-chic.data: >=1.5.0,<1.6.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-chic.data: >=1.4.0,<1.5.0
+   :depends bioconductor-genomicranges: >=1.36.0,<1.37.0
+   :depends bioconductor-iranges: >=2.18.0,<2.19.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-caret: 
    :depends r-catools: 

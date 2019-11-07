@@ -9,13 +9,13 @@ bioconductor-mira
 .. conda:recipe:: bioconductor-mira
    :replaces_section_title:
 
-   MIRA measures the degree of \"dip\" in methylation level surrounding a regulatory site of interest\, such as a transcription factor binding site\, for instances of that type of site across the genome which can then be used to infer regulatory activity.
+   Methylation\-Based Inference of Regulatory Activity
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MIRA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MIRA.html
    :license: GPL-3
    :recipe: /`bioconductor-mira <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mira>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mira/meta.yaml>`_
 
-   
+   DNA methylation contains information about the regulatory state of the cell. MIRA aggregates genome\-scale DNA methylation data into a DNA methylation profile for a given region set with shared biological annotation. Using this profile\, MIRA infers and scores the collective regulatory activity for the region set. MIRA facilitates regulatory analysis in situations where classical regulatory assays would be difficult and allows public sources of region sets to be leveraged for novel insight into the regulatory state of DNA methylation datasets.
 
 
 .. conda:package:: bioconductor-mira

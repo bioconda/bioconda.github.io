@@ -9,13 +9,13 @@ bioconductor-consensus
 .. conda:recipe:: bioconductor-consensus
    :replaces_section_title:
 
-   An implementation of the American Society for Testing and Materials \(ASTM\) Standard E691 for interlaboratory testing procedures\, designed for cross\-platform genomic measurements. Given three \(3\) or more genomic platforms or laboratory protocols\, this package provides interlaboratory testing procedures giving per\-locus comparisons for sensitivity and precision between platforms.
+   Cross\-platform consensus analysis of genomic measurements via interlaboratory testing method
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/consensus.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/consensus.html
    :license: BSD_3_clause + file LICENSE
    :recipe: /`bioconductor-consensus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensus/meta.yaml>`_
 
-   
+   An implementation of the American Society for Testing and Materials \(ASTM\) Standard E691 for interlaboratory testing procedures\, designed for cross\-platform genomic measurements. Given three \(3\) or more genomic platforms or laboratory protocols\, this package provides interlaboratory testing procedures giving per\-locus comparisons for sensitivity and precision between platforms.
 
 
 .. conda:package:: bioconductor-consensus

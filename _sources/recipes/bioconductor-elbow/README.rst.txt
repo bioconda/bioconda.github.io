@@ -9,13 +9,13 @@ bioconductor-elbow
 .. conda:recipe:: bioconductor-elbow
    :replaces_section_title:
 
-   Elbow an improved fold change test that uses cluster analysis and pattern recognition to set cut off limits that are derived directly from intrareplicate variance without assuming a normal distribution for as few as 2 biological replicates. Elbow also provides the same consistency as fold testing in cross platform analysis. Elbow has lower false positive and false negative rates than standard fold testing when both are evaluated using T testing and Statistical Analysis of Microarray using 12 replicates \(six replicates each for initial and final conditions\). Elbow provides a null value based on initial condition replicates and gives error bounds for results to allow better evaluation of significance.
+   ELBOW \- Evaluating foLd change By the lOgit Way
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/ELBOW.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ELBOW.html
    :license: file LICENSE
    :recipe: /`bioconductor-elbow <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-elbow>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-elbow/meta.yaml>`_
 
-   
+   Elbow an improved fold change test that uses cluster analysis and pattern recognition to set cut off limits that are derived directly from intrareplicate variance without assuming a normal distribution for as few as 2 biological replicates. Elbow also provides the same consistency as fold testing in cross platform analysis. Elbow has lower false positive and false negative rates than standard fold testing when both are evaluated using T testing and Statistical Analysis of Microarray using 12 replicates \(six replicates each for initial and final conditions\). Elbow provides a null value based on initial condition replicates and gives error bounds for results to allow better evaluation of significance.
 
 
 .. conda:package:: bioconductor-elbow

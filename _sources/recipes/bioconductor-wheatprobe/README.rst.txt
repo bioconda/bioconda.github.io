@@ -9,13 +9,13 @@ bioconductor-wheatprobe
 .. conda:recipe:: bioconductor-wheatprobe
    :replaces_section_title:
 
-   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was wheat\\\_probe\\\_tab.
+   Probe sequence data for microarrays of type wheat
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/wheatprobe.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/wheatprobe.html
    :license: LGPL
    :recipe: /`bioconductor-wheatprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wheatprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wheatprobe/meta.yaml>`_
 
-   
+   This package was automatically created by package AnnotationForge version 1.11.21. The probe sequence data was obtained from http\:\/\/www.affymetrix.com. The file name was wheat\\\_probe\\\_tab.
 
 
 .. conda:package:: bioconductor-wheatprobe

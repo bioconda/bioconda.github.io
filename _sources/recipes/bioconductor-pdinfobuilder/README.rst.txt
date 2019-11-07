@@ -9,14 +9,14 @@ bioconductor-pdinfobuilder
 .. conda:recipe:: bioconductor-pdinfobuilder
    :replaces_section_title:
 
-   Builds platform design information packages. These consist of a SQLite database containing feature\-level data such as x\, y position on chip and featureSet ID. The database also incorporates featureSet\-level annotation data. The products of this packages are used by the oligo pkg.
+   Platform Design Information Package Builder
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/pdInfoBuilder.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/pdInfoBuilder.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pdinfobuilder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pdinfobuilder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pdinfobuilder/meta.yaml>`_
    :links: biotools: :biotools:`pdinfobuilder`, doi: :doi:`10.1093/bioinformatics/btq431`
 
-   
+   Builds platform design information packages. These consist of a SQLite database containing feature\-level data such as x\, y position on chip and featureSet ID. The database also incorporates featureSet\-level annotation data. The products of this packages are used by the oligo pkg.
 
 
 .. conda:package:: bioconductor-pdinfobuilder

@@ -9,13 +9,13 @@ bioconductor-abseqr
 .. conda:recipe:: bioconductor-abseqr
    :replaces_section_title:
 
-   AbSeq is a comprehensive bioinformatic pipeline for the analysis of sequencing datasets generated from antibody libraries and abseqR is one of its packages. abseqR empowers the users of abseqPy \(https\:\/\/github.com\/malhamdoosh\/abseqPy\) with plotting and reporting capabilities and allows them to generate interactive HTML reports for the convenience of viewing and sharing with other researchers. Additionally\, abseqR extends abseqPy to compare multiple repertoire analyses and perform further downstream analysis on its output.
+   Reporting and data analysis functionalities for Rep\-Seq datasets of antibody libraries
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/abseqR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/abseqR.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-abseqr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-abseqr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-abseqr/meta.yaml>`_
 
-   
+   AbSeq is a comprehensive bioinformatic pipeline for the analysis of sequencing datasets generated from antibody libraries and abseqR is one of its packages. abseqR empowers the users of abseqPy \(https\:\/\/github.com\/malhamdoosh\/abseqPy\) with plotting and reporting capabilities and allows them to generate interactive HTML reports for the convenience of viewing and sharing with other researchers. Additionally\, abseqR extends abseqPy to compare multiple repertoire analyses and perform further downstream analysis on its output.
 
 
 .. conda:package:: bioconductor-abseqr

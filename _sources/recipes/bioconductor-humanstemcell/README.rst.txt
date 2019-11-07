@@ -9,20 +9,20 @@ bioconductor-humanstemcell
 .. conda:recipe:: bioconductor-humanstemcell
    :replaces_section_title:
 
-   Affymetrix time course experiment on human stem cells \(two time points\: undifferentiated and differentiated\).
+   Human Stem Cells time course experiment
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/humanStemCell.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/humanStemCell.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-humanstemcell <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humanstemcell>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humanstemcell/meta.yaml>`_
 
-   
+   Affymetrix time course experiment on human stem cells \(two time points\: undifferentiated and differentiated\).
 
 
 .. conda:package:: bioconductor-humanstemcell
 
    |downloads_bioconductor-humanstemcell| |docker_bioconductor-humanstemcell|
 
-   :versions: 0.25.0-0, 0.24.0-1, 0.22.0-0
+   :versions: 0.26.0-0, 0.24.0-1, 0.22.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends bioconductor-hgu133plus2.db: >=3.2.0,<3.3.0

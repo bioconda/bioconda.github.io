@@ -9,13 +9,13 @@ bioconductor-slinky
 .. conda:recipe:: bioconductor-slinky
    :replaces_section_title:
 
-   Wrappers to query the L1000 metadata available via the clue.io REST API as well as helpers for dealing with LINCS gctx files\, extracting data sets of interest\, converting to SummarizedExperiment objects\, and some facilities for performing streamlined differential expression analysis of these data sets.
+   Putting the fun in LINCS L1000 data analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/slinky.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/slinky.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-slinky <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slinky>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slinky/meta.yaml>`_
 
-   
+   Wrappers to query the L1000 metadata available via the clue.io REST API as well as helpers for dealing with LINCS gctx files\, extracting data sets of interest\, converting to SummarizedExperiment objects\, and some facilities for performing streamlined differential expression analysis of these data sets.
 
 
 .. conda:package:: bioconductor-slinky

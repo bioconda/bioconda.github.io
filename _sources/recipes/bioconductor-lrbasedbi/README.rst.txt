@@ -9,13 +9,13 @@ bioconductor-lrbasedbi
 .. conda:recipe:: bioconductor-lrbasedbi
    :replaces_section_title:
 
-   Interface to construct LRBase package \(LRBase.XXX.eg.db\).
+   DBI to construct LRBase\-related package
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/LRBaseDbi.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/LRBaseDbi.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lrbasedbi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbasedbi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbasedbi/meta.yaml>`_
 
-   
+   Interface to construct LRBase package \(LRBase.XXX.eg.db\).
 
 
 .. conda:package:: bioconductor-lrbasedbi

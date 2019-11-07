@@ -9,24 +9,24 @@ bioconductor-ceu1kg
 .. conda:recipe:: bioconductor-ceu1kg
    :replaces_section_title:
 
-   CEU genotypes from 1000 genomes \"low coverage\" pilot phase I \(approx 8 million SNP calls released July 2010\)\; includes Wellcome trust GENEVAR expression for 43 indiv
+   CEU \(N\=60\) genotypes from 1000 genomes pilot phase I
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/ceu1kg.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ceu1kg.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ceu1kg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ceu1kg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ceu1kg/meta.yaml>`_
 
-   
+   CEU genotypes from 1000 genomes \"low coverage\" pilot phase I \(approx 8 million SNP calls released July 2010\)\; includes Wellcome trust GENEVAR expression for 43 indiv
 
 
 .. conda:package:: bioconductor-ceu1kg
 
    |downloads_bioconductor-ceu1kg| |docker_bioconductor-ceu1kg|
 
-   :versions: 0.23.0-0, 0.22.0-1, 0.20.0-0
+   :versions: 0.22.0-1, 0.20.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-ggbase: >=3.48.0,<3.49.0
-   :depends bioconductor-ggtools: >=5.22.0,<5.23.0
+   :depends bioconductor-biobase: >=2.44.0,<2.45.0
+   :depends bioconductor-ggbase: >=3.46.0,<3.47.0
+   :depends bioconductor-ggtools: >=5.20.0,<5.21.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

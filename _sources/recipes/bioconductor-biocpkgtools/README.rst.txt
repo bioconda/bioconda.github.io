@@ -9,13 +9,13 @@ bioconductor-biocpkgtools
 .. conda:recipe:: bioconductor-biocpkgtools
    :replaces_section_title:
 
-   Bioconductor has a rich ecosystem of metadata around packages\, usage\, and build status. This package is a simple collection of functions to access that metadata from R. The goal is to expose metadata for data mining and value\-added functionality such as package searching\, text mining\, and analytics on packages.
+   Collection of simple tools for learning about Bioc Packages
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BiocPkgTools.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BiocPkgTools.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-biocpkgtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocpkgtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocpkgtools/meta.yaml>`_
 
-   
+   Bioconductor has a rich ecosystem of metadata around packages\, usage\, and build status. This package is a simple collection of functions to access that metadata from R. The goal is to expose metadata for data mining and value\-added functionality such as package searching\, text mining\, and analytics on packages.
 
 
 .. conda:package:: bioconductor-biocpkgtools

@@ -9,20 +9,20 @@ bioconductor-cancerdata
 .. conda:recipe:: bioconductor-cancerdata
    :replaces_section_title:
 
-   Dataset for the R package cancerclass
+   Development and validation of diagnostic tests from high\-dimensional molecular data\: Datasets
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/cancerdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/cancerdata.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-cancerdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancerdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancerdata/meta.yaml>`_
 
-   
+   Dataset for the R package cancerclass
 
 
 .. conda:package:: bioconductor-cancerdata
 
    |downloads_bioconductor-cancerdata| |docker_bioconductor-cancerdata|
 
-   :versions: 1.23.0-0, 1.22.0-1, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-0
    
    :depends bioconductor-biobase: >=2.46.0,<2.47.0
    :depends curl: >=7.65.3,<8.0a0

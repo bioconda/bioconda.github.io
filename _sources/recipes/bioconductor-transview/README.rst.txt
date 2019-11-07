@@ -9,14 +9,14 @@ bioconductor-transview
 .. conda:recipe:: bioconductor-transview
    :replaces_section_title:
 
-   This package provides efficient tools to generate\, access and display read densities of sequencing based data sets such as from RNA\-Seq and ChIP\-Seq.
+   Read density map construction and accession. Visualization of ChIPSeq and RNASeq data sets
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/TransView.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/TransView.html
    :license: GPL-3
    :recipe: /`bioconductor-transview <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-transview>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-transview/meta.yaml>`_
    :links: biotools: :biotools:`transview`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package provides efficient tools to generate\, access and display read densities of sequencing based data sets such as from RNA\-Seq and ChIP\-Seq.
 
 
 .. conda:package:: bioconductor-transview

@@ -9,13 +9,13 @@ bioconductor-annotationfilter
 .. conda:recipe:: bioconductor-annotationfilter
    :replaces_section_title:
 
-   This package provides class and other infrastructure to implement filters for manipulating Bioconductor annotation resources. The filters will be used by ensembldb\, Organism.dplyr\, and other packages.
+   Facilities for Filtering Bioconductor Annotation Resources
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/AnnotationFilter.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/AnnotationFilter.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-annotationfilter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationfilter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationfilter/meta.yaml>`_
 
-   
+   This package provides class and other infrastructure to implement filters for manipulating Bioconductor annotation resources. The filters will be used by ensembldb\, Organism.dplyr\, and other packages.
 
 
 .. conda:package:: bioconductor-annotationfilter

@@ -9,13 +9,13 @@ bioconductor-dcanr
 .. conda:recipe:: bioconductor-dcanr
    :replaces_section_title:
 
-   Methods and an evaluation framework for the inference of differential co\-expression\/association networks.
+   Differential co\-expression\/association network analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/dcanr.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/dcanr.html
    :license: GPL-3
    :recipe: /`bioconductor-dcanr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dcanr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dcanr/meta.yaml>`_
 
-   
+   Methods and an evaluation framework for the inference of differential co\-expression\/association networks.
 
 
 .. conda:package:: bioconductor-dcanr

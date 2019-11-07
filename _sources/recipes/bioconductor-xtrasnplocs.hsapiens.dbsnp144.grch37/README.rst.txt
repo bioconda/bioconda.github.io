@@ -9,13 +9,13 @@ bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch37
 .. conda:recipe:: bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch37
    :replaces_section_title:
 
-   Extra SNP locations and alleles for Homo sapiens extracted from NCBI dbSNP Build 144. The source data files used for this package were created by NCBI on May 29\-30\, 2015\, and contain SNPs mapped to reference genome GRCh37.p13 \(a patched version of GRCh37 that doesn\'t alter chromosomes 1\-22\, X\, Y\, MT\). While the SNPlocs.Hsapiens.dbSNP144.GRCh37 package contains only molecular variations of class \"snp\"\, this package contains molecular variations of other classes \(in\-del\, heterozygous\, microsatellite\, named\-locus\, no\-variation\, mixed\, and multinucleotide\-polymorphism\).
+   Extra SNP locations for Homo sapiens \(dbSNP Build 144\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/XtraSNPlocs.Hsapiens.dbSNP144.GRCh37.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/XtraSNPlocs.Hsapiens.dbSNP144.GRCh37.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch37 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch37>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch37/meta.yaml>`_
 
-   
+   Extra SNP locations and alleles for Homo sapiens extracted from NCBI dbSNP Build 144. The source data files used for this package were created by NCBI on May 29\-30\, 2015\, and contain SNPs mapped to reference genome GRCh37.p13 \(a patched version of GRCh37 that doesn\'t alter chromosomes 1\-22\, X\, Y\, MT\). While the SNPlocs.Hsapiens.dbSNP144.GRCh37 package contains only molecular variations of class \"snp\"\, this package contains molecular variations of other classes \(in\-del\, heterozygous\, microsatellite\, named\-locus\, no\-variation\, mixed\, and multinucleotide\-polymorphism\).
 
 
 .. conda:package:: bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch37

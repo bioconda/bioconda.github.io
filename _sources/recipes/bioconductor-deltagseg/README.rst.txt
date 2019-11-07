@@ -9,13 +9,13 @@ bioconductor-deltagseg
 .. conda:recipe:: bioconductor-deltagseg
    :replaces_section_title:
 
-   Identifying distinct subpopulations through multiscale time series analysis
+   deltaGseg
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/deltaGseg.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/deltaGseg.html
    :license: GPL-2
    :recipe: /`bioconductor-deltagseg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deltagseg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deltagseg/meta.yaml>`_
 
-   
+   Identifying distinct subpopulations through multiscale time series analysis
 
 
 .. conda:package:: bioconductor-deltagseg

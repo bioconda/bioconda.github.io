@@ -9,24 +9,24 @@ bioconductor-allenpvc
 .. conda:recipe:: bioconductor-allenpvc
    :replaces_section_title:
 
-   Celular taxonomy of the primary visual cortex in adult mice based on single cell RNA\-sequencing from a study performed by the Allen Institute for Brain Science. In said study 49 transcriptomic cell types are identified.
+   GEO accession data GSE71585 as a SingleCellExperiment
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/allenpvc.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/allenpvc.html
    :license: CC0
    :recipe: /`bioconductor-allenpvc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-allenpvc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-allenpvc/meta.yaml>`_
 
-   
+   Celular taxonomy of the primary visual cortex in adult mice based on single cell RNA\-sequencing from a study performed by the Allen Institute for Brain Science. In said study 49 transcriptomic cell types are identified.
 
 
 .. conda:package:: bioconductor-allenpvc
 
    |downloads_bioconductor-allenpvc| |docker_bioconductor-allenpvc|
 
-   :versions: 1.3.1-0, 1.2.0-1, 1.0.0-0
+   :versions: 1.2.0-1, 1.0.0-0
    
-   :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
-   :depends bioconductor-singlecellexperiment: >=1.8.0,<1.9.0
+   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
+   :depends bioconductor-singlecellexperiment: >=1.6.0,<1.7.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

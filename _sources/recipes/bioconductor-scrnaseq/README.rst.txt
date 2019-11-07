@@ -9,26 +9,22 @@ bioconductor-scrnaseq
 .. conda:recipe:: bioconductor-scrnaseq
    :replaces_section_title:
 
-   Gene\-level read counts of three public scRNA\-seq datasets. See vignette for details.
+   Collection of Public Single\-Cell RNA\-Seq Datasets
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/scRNAseq.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/scRNAseq.html
    :license: CC0
    :recipe: /`bioconductor-scrnaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scrnaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scrnaseq/meta.yaml>`_
 
-   
+   Gene\-level counts for a collection of public scRNA\-seq datasets\, provided as SingleCellExperiment objects with cell\- and gene\-level metadata.
 
 
 .. conda:package:: bioconductor-scrnaseq
 
    |downloads_bioconductor-scrnaseq| |docker_bioconductor-scrnaseq|
 
-   :versions: 1.99.8-0, 1.10.0-1, 1.8.0-0, 1.6.0-0
+   :versions: 1.10.0-1, 1.8.0-0, 1.6.0-0
    
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends bioconductor-singlecellexperiment: >=1.8.0,<1.9.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

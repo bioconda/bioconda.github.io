@@ -9,13 +9,13 @@ bioconductor-human550v3bcrlmm
 .. conda:recipe:: bioconductor-human550v3bcrlmm
    :replaces_section_title:
 
-   Package with metadata for genotyping Illumina 550k arrays using the \'crlmm\' package.
+   Metadata for fast genotyping with the \'crlmm\' package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/human550v3bCrlmm.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/human550v3bCrlmm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-human550v3bcrlmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-human550v3bcrlmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-human550v3bcrlmm/meta.yaml>`_
 
-   
+   Package with metadata for genotyping Illumina 550k arrays using the \'crlmm\' package.
 
 
 .. conda:package:: bioconductor-human550v3bcrlmm

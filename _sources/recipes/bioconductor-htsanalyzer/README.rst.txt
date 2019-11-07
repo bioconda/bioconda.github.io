@@ -9,13 +9,13 @@ bioconductor-htsanalyzer
 .. conda:recipe:: bioconductor-htsanalyzer
    :replaces_section_title:
 
-   This package provides classes and methods for gene set over\-representation\, enrichment and network analyses on high\-throughput screens. The over\-representation analysis is performed based on hypergeometric tests. The enrichment analysis is based on the GSEA algorithm \(Subramanian et al. PNAS 2005\). The network analysis identifies enriched subnetworks based on algorithms from the BioNet package \(Beisser et al.\, Bioinformatics 2010\). A pipeline is also specifically designed for cellHTS2 object to perform integrative network analyses of high\-throughput RNA interference screens. The users can build their own analysis pipeline for their own data set based on this package.
+   Gene set over\-representation\, enrichment and network analyses for high\-throughput screens
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/HTSanalyzeR.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/HTSanalyzeR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-htsanalyzer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htsanalyzer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htsanalyzer/meta.yaml>`_
 
-   
+   This package provides classes and methods for gene set over\-representation\, enrichment and network analyses on high\-throughput screens. The over\-representation analysis is performed based on hypergeometric tests. The enrichment analysis is based on the GSEA algorithm \(Subramanian et al. PNAS 2005\). The network analysis identifies enriched subnetworks based on algorithms from the BioNet package \(Beisser et al.\, Bioinformatics 2010\). A pipeline is also specifically designed for cellHTS2 object to perform integrative network analyses of high\-throughput RNA interference screens. The users can build their own analysis pipeline for their own data set based on this package.
 
 
 .. conda:package:: bioconductor-htsanalyzer

@@ -9,13 +9,13 @@ bioconductor-clippda
 .. conda:recipe:: bioconductor-clippda
    :replaces_section_title:
 
-   Methods for the nalysis of data from clinical proteomic profiling studies. The focus is on the studies of human subjects\, which are often observational case\-control by design and have technical replicates. A method for sample size determination for planning these studies is proposed. It incorporates routines for adjusting for the expected heterogeneities and imbalances in the data and the within\-sample replicate correlations.
+   A package for the clinical proteomic profiling data analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/clippda.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/clippda.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-clippda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clippda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clippda/meta.yaml>`_
 
-   
+   Methods for the nalysis of data from clinical proteomic profiling studies. The focus is on the studies of human subjects\, which are often observational case\-control by design and have technical replicates. A method for sample size determination for planning these studies is proposed. It incorporates routines for adjusting for the expected heterogeneities and imbalances in the data and the within\-sample replicate correlations.
 
 
 .. conda:package:: bioconductor-clippda

@@ -9,13 +9,13 @@ bioconductor-hugene.1.0.st.v1frmavecs
 .. conda:recipe:: bioconductor-hugene.1.0.st.v1frmavecs
    :replaces_section_title:
 
-   This package was created by frmaTools version 1.13.0.
+   Vectors used by frma for microarrays of type hugene.1.0.st.v1frmavecs
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hugene.1.0.st.v1frmavecs.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hugene.1.0.st.v1frmavecs.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-hugene.1.0.st.v1frmavecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hugene.1.0.st.v1frmavecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hugene.1.0.st.v1frmavecs/meta.yaml>`_
 
-   
+   This package was created by frmaTools version 1.13.0.
 
 
 .. conda:package:: bioconductor-hugene.1.0.st.v1frmavecs

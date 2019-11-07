@@ -9,13 +9,13 @@ bioconductor-foldgo
 .. conda:recipe:: bioconductor-foldgo
    :replaces_section_title:
 
-   FoldGO is a package designed to annotate gene sets derived from expression experiments and identify fold\-change\-specific GO terms.
+   Package for Fold\-specific GO Terms Recognition
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/FoldGO.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/FoldGO.html
    :license: GPL-3
    :recipe: /`bioconductor-foldgo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-foldgo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-foldgo/meta.yaml>`_
 
-   
+   FoldGO is a package designed to annotate gene sets derived from expression experiments and identify fold\-change\-specific GO terms.
 
 
 .. conda:package:: bioconductor-foldgo

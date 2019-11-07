@@ -9,13 +9,13 @@ bioconductor-dmrcaller
 .. conda:recipe:: bioconductor-dmrcaller
    :replaces_section_title:
 
-   Uses Bisulfite sequencing data in two conditions and identifies differentially methylated regions between the conditions in CG and non\-CG context. The input is the CX report files produced by Bismark and the output is a list of DMRs stored as GRanges objects.
+   Differentially Methylated Regions caller
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DMRcaller.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DMRcaller.html
    :license: GPL-3
    :recipe: /`bioconductor-dmrcaller <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrcaller>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrcaller/meta.yaml>`_
 
-   
+   Uses Bisulfite sequencing data in two conditions and identifies differentially methylated regions between the conditions in CG and non\-CG context. The input is the CX report files produced by Bismark and the output is a list of DMRs stored as GRanges objects.
 
 
 .. conda:package:: bioconductor-dmrcaller

@@ -9,13 +9,13 @@ bioconductor-spatialcpie
 .. conda:recipe:: bioconductor-spatialcpie
    :replaces_section_title:
 
-   SpatialCPie is an R package designed to facilitate cluster evaluation for spatial transcriptomics data by providing intuitive visualizations that display the relationships between clusters in order to guide the user during cluster identification and other downstream applications. The package is built around a shiny \"gadget\" to allow the exploration of the data with multiple plots in parallel and an interactive UI. The user can easily toggle between different cluster resolutions in order to choose the most appropriate visual cues.
+   Cluster analysis of Spatial Transcriptomics data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SpatialCPie.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SpatialCPie.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-spatialcpie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialcpie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialcpie/meta.yaml>`_
 
-   
+   SpatialCPie is an R package designed to facilitate cluster evaluation for spatial transcriptomics data by providing intuitive visualizations that display the relationships between clusters in order to guide the user during cluster identification and other downstream applications. The package is built around a shiny \"gadget\" to allow the exploration of the data with multiple plots in parallel and an interactive UI. The user can easily toggle between different cluster resolutions in order to choose the most appropriate visual cues.
 
 
 .. conda:package:: bioconductor-spatialcpie

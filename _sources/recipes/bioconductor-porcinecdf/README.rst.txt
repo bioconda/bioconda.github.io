@@ -9,13 +9,13 @@ bioconductor-porcinecdf
 .. conda:recipe:: bioconductor-porcinecdf
    :replaces_section_title:
 
-   A package containing an environment representing the Porcine.cdf file.
+   porcinecdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/porcinecdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/porcinecdf.html
    :license: LGPL
    :recipe: /`bioconductor-porcinecdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-porcinecdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-porcinecdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the Porcine.cdf file.
 
 
 .. conda:package:: bioconductor-porcinecdf

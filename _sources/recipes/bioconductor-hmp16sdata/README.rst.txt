@@ -9,25 +9,25 @@ bioconductor-hmp16sdata
 .. conda:recipe:: bioconductor-hmp16sdata
    :replaces_section_title:
 
-   HMP16SData is a Bioconductor ExperimentData package of the Human Microbiome Project \(HMP\) 16S rRNA sequencing data for variable regions 1–3 and 3–5. Raw data files are provided in the package as downloaded from the HMP Data Analysis and Coordination Center. Processed data is provided as SummarizedExperiment class objects via ExperimentHub.
+   16S rRNA Sequencing Data from the Human Microbiome Project
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/HMP16SData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/HMP16SData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hmp16sdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hmp16sdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hmp16sdata/meta.yaml>`_
 
-   
+   HMP16SData is a Bioconductor ExperimentData package of the Human Microbiome Project \(HMP\) 16S rRNA sequencing data for variable regions 1–3 and 3–5. Raw data files are provided in the package as downloaded from the HMP Data Analysis and Coordination Center. Processed data is provided as SummarizedExperiment class objects via ExperimentHub.
 
 
 .. conda:package:: bioconductor-hmp16sdata
 
    |downloads_bioconductor-hmp16sdata| |docker_bioconductor-hmp16sdata|
 
-   :versions: 1.5.2-0, 1.4.1-0, 1.2.0-0
+   :versions: 1.4.1-0, 1.2.0-0
    
-   :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends bioconductor-annotationhub: >=2.16.0,<2.17.0
+   :depends bioconductor-experimenthub: >=1.10.0,<1.11.0
+   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
+   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-assertthat: 
    :depends r-base: >=3.6,<3.7.0a0

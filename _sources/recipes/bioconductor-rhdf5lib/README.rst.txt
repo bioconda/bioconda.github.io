@@ -9,13 +9,13 @@ bioconductor-rhdf5lib
 .. conda:recipe:: bioconductor-rhdf5lib
    :replaces_section_title:
 
-   Provides C and C\+\+ hdf5 libraries.
+   hdf5 library as an R package
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/Rhdf5lib.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Rhdf5lib.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rhdf5lib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5lib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5lib/meta.yaml>`_
 
-   
+   Provides C and C\+\+ hdf5 libraries.
 
 
 .. conda:package:: bioconductor-rhdf5lib

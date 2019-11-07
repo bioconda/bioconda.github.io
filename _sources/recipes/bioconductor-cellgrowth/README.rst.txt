@@ -9,14 +9,14 @@ bioconductor-cellgrowth
 .. conda:recipe:: bioconductor-cellgrowth
    :replaces_section_title:
 
-   This package provides functionalities for the fitting of cell population growth models on experimental OD curves.
+   Fitting cell population growth models
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/cellGrowth.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/cellGrowth.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cellgrowth <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellgrowth>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellgrowth/meta.yaml>`_
    :links: biotools: :biotools:`cellgrowth`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package provides functionalities for the fitting of cell population growth models on experimental OD curves.
 
 
 .. conda:package:: bioconductor-cellgrowth

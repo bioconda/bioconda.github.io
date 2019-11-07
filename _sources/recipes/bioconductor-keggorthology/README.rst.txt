@@ -9,14 +9,14 @@ bioconductor-keggorthology
 .. conda:recipe:: bioconductor-keggorthology
    :replaces_section_title:
 
-   graphical representation of the Feb 2010 KEGG Orthology. The KEGG orthology is a set of pathway IDs that are not to be confused with the KEGG ortholog IDs.
+   graph support for KO\, KEGG Orthology
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/keggorthology.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/keggorthology.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-keggorthology <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggorthology>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggorthology/meta.yaml>`_
    :links: biotools: :biotools:`keggorthology`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   graphical representation of the Feb 2010 KEGG Orthology. The KEGG orthology is a set of pathway IDs that are not to be confused with the KEGG ortholog IDs.
 
 
 .. conda:package:: bioconductor-keggorthology

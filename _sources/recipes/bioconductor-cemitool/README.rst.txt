@@ -9,13 +9,13 @@ bioconductor-cemitool
 .. conda:recipe:: bioconductor-cemitool
    :replaces_section_title:
 
-   The CEMiTool package unifies the discovery and the analysis of coexpression gene modules in a fully automatic manner\, while providing a user\-friendly html report with high quality graphs. Our tool evaluates if modules contain genes that are over\-represented by specific pathways or that are altered in a specific sample group. Additionally\, CEMiTool is able to integrate transcriptomic data with interactome information\, identifying the potential hubs on each network.
+   Co\-expression Modules identification Tool
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CEMiTool.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CEMiTool.html
    :license: GPL-3
    :recipe: /`bioconductor-cemitool <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cemitool>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cemitool/meta.yaml>`_
 
-   
+   The CEMiTool package unifies the discovery and the analysis of coexpression gene modules in a fully automatic manner\, while providing a user\-friendly html report with high quality graphs. Our tool evaluates if modules contain genes that are over\-represented by specific pathways or that are altered in a specific sample group. Additionally\, CEMiTool is able to integrate transcriptomic data with interactome information\, identifying the potential hubs on each network.
 
 
 .. conda:package:: bioconductor-cemitool

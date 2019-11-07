@@ -9,13 +9,13 @@ bioconductor-pcatools
 .. conda:recipe:: bioconductor-pcatools
    :replaces_section_title:
 
-   Principal Components Analysis \(PCA\) is a very powerful technique that has wide applicability in data science\, bioinformatics\, and further afield. It was initially developed to analyse large volumes of data in order to tease out the differences\/relationships between the logical entities being analysed. It extracts the fundamental structure of the data without the need to build any model to represent it. This \'summary\' of the data is arrived at through a process of reduction that can transform the large number of variables into a lesser number that are uncorrelated\, i.e.\, the principal components\, whilst at the same time being capable of easy interpretation on the original data.
+   PCAtools\: Everything Principal Components Analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PCAtools.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PCAtools.html
    :license: GPL-3
    :recipe: /`bioconductor-pcatools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcatools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcatools/meta.yaml>`_
 
-   
+   Principal Components Analysis \(PCA\) is a very powerful technique that has wide applicability in data science\, bioinformatics\, and further afield. It was initially developed to analyse large volumes of data in order to tease out the differences\/relationships between the logical entities being analysed. It extracts the fundamental structure of the data without the need to build any model to represent it. This \'summary\' of the data is arrived at through a process of reduction that can transform the large number of variables into a lesser number that are uncorrelated\, i.e.\, the principal components\, whilst at the same time being capable of easy interpretation on the original data.
 
 
 .. conda:package:: bioconductor-pcatools

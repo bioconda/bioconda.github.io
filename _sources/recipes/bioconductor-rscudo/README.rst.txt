@@ -9,13 +9,13 @@ bioconductor-rscudo
 .. conda:recipe:: bioconductor-rscudo
    :replaces_section_title:
 
-   SCUDO \(Signature\-based Clustering for Diagnostic Purposes\) is a rank\-based method for the analysis of gene expression profiles for diagnostic and classification purposes. It is based on the identification of sample\-specific gene signatures composed of the most up\- and down\-regulated genes for that sample. Starting from gene expression data\, functions in this package identify sample\-specific gene signatures and use them to build a graph of samples. In this graph samples are joined by edges if they have a similar expression profile\, according to a pre\-computed similarity matrix. The similarity between the expression profiles of two samples is computed using a method similar to GSEA. The graph of samples can then be used to perform community clustering or to perform supervised classification of samples in a testing set.
+   Signature\-based Clustering for Diagnostic Purposes
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/rScudo.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/rScudo.html
    :license: GPL-3
    :recipe: /`bioconductor-rscudo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rscudo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rscudo/meta.yaml>`_
 
-   
+   SCUDO \(Signature\-based Clustering for Diagnostic Purposes\) is a rank\-based method for the analysis of gene expression profiles for diagnostic and classification purposes. It is based on the identification of sample\-specific gene signatures composed of the most up\- and down\-regulated genes for that sample. Starting from gene expression data\, functions in this package identify sample\-specific gene signatures and use them to build a graph of samples. In this graph samples are joined by edges if they have a similar expression profile\, according to a pre\-computed similarity matrix. The similarity between the expression profiles of two samples is computed using a method similar to GSEA. The graph of samples can then be used to perform community clustering or to perform supervised classification of samples in a testing set.
 
 
 .. conda:package:: bioconductor-rscudo

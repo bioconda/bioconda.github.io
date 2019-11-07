@@ -9,13 +9,13 @@ bioconductor-slalom
 .. conda:recipe:: bioconductor-slalom
    :replaces_section_title:
 
-   slalom is a scalable modelling framework for single\-cell RNA\-seq data that uses gene set annotations to dissect single\-cell transcriptome heterogeneity\, thereby allowing to identify biological drivers of cell\-to\-cell variability and model confounding factors.
+   Factorial Latent Variable Modeling of Single\-Cell RNA\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/slalom.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/slalom.html
    :license: GPL-2
    :recipe: /`bioconductor-slalom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slalom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slalom/meta.yaml>`_
 
-   
+   slalom is a scalable modelling framework for single\-cell RNA\-seq data that uses gene set annotations to dissect single\-cell transcriptome heterogeneity\, thereby allowing to identify biological drivers of cell\-to\-cell variability and model confounding factors.
 
 
 .. conda:package:: bioconductor-slalom

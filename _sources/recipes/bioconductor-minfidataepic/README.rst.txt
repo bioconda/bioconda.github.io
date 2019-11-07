@@ -9,20 +9,20 @@ bioconductor-minfidataepic
 .. conda:recipe:: bioconductor-minfidataepic
    :replaces_section_title:
 
-   Data from 3 technical replicates of the cell line GM12878 from the EPIC methylation array.
+   Example data for the Illumina Methylation EPIC array
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/minfiDataEPIC.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/minfiDataEPIC.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-minfidataepic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minfidataepic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minfidataepic/meta.yaml>`_
 
-   
+   Data from 3 technical replicates of the cell line GM12878 from the EPIC methylation array.
 
 
 .. conda:package:: bioconductor-minfidataepic
 
    |downloads_bioconductor-minfidataepic| |docker_bioconductor-minfidataepic|
 
-   :versions: 1.11.0-0, 1.10.0-1, 1.8.0-0
+   :versions: 1.12.0-0, 1.10.0-1, 1.8.0-0
    
    :depends bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19: >=0.6.0,<0.7.0
    :depends bioconductor-illuminahumanmethylationepicmanifest: >=0.3.0,<0.4.0

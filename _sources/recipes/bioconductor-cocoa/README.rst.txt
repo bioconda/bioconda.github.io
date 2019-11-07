@@ -9,13 +9,13 @@ bioconductor-cocoa
 .. conda:recipe:: bioconductor-cocoa
    :replaces_section_title:
 
-   COCOA is a method for understanding variation among samples and can be used with data that includes genomic coordinates such as DNA methylation. On a high level\, COCOA uses a database of \"region sets\" and principal component analysis \(PCA\) of your data to identify sources of variation among samples. A region set is a set of genomic regions that share a biological annotation\, for instance\, transcription factor binding regions\, histone modification regions\, or open chromatin regions. COCOA works in both supervised \(known groups of samples\) and unsupervised \(no groups\) situations and can be used as a complement to \"differential\" methods that find discrete differences between groups. COCOA can identify biologically meaningful sources of variation between samples and increase understanding of variation in your data.
+   Coordinate Covariation Analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/COCOA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/COCOA.html
    :license: GPL-3
    :recipe: /`bioconductor-cocoa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cocoa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cocoa/meta.yaml>`_
 
-   
+   COCOA is a method for understanding epigenetic variation among samples. COCOA can be used with epigenetic data that includes genomic coordinates and an epigenetic signal\, such as DNA methylation and chromatin accessibility data. To describe the method on a high level\, COCOA quantifies inter\-sample variation with either a supervised or unsupervised technique then uses a database of \"region sets\" to annotate the variation among samples. A region set is a set of genomic regions that share a biological annotation\, for instance transcription factor \(TF\) binding regions\, histone modification regions\, or open chromatin regions. COCOA can identify region sets that are associated with epigenetic variation between samples and increase understanding of variation in your data.
 
 
 .. conda:package:: bioconductor-cocoa

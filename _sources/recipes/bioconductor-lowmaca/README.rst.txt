@@ -9,13 +9,13 @@ bioconductor-lowmaca
 .. conda:recipe:: bioconductor-lowmaca
    :replaces_section_title:
 
-   The LowMACA package is a simple suite of tools to investigate and analyze the mutation profile of several proteins or pfam domains via consensus alignment. You can conduct an hypothesis driven exploratory analysis using our package simply providing a set of genes or pfam domains of your interest.
+   LowMACA \- Low frequency Mutation Analysis via Consensus Alignment
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/LowMACA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/LowMACA.html
    :license: GPL-3
    :recipe: /`bioconductor-lowmaca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lowmaca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lowmaca/meta.yaml>`_
 
-   
+   The LowMACA package is a simple suite of tools to investigate and analyze the mutation profile of several proteins or pfam domains via consensus alignment. You can conduct an hypothesis driven exploratory analysis using our package simply providing a set of genes or pfam domains of your interest.
 
 
 .. conda:package:: bioconductor-lowmaca

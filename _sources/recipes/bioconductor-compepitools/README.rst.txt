@@ -9,14 +9,14 @@ bioconductor-compepitools
 .. conda:recipe:: bioconductor-compepitools
    :replaces_section_title:
 
-   Tools for computational epigenomics developed for the analysis\, integration and simultaneous visualization of various \(epi\)genomics data types across multiple genomic regions in multiple samples.
+   Tools for computational epigenomics
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/compEpiTools.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/compEpiTools.html
    :license: GPL
    :recipe: /`bioconductor-compepitools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compepitools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compepitools/meta.yaml>`_
    :links: biotools: :biotools:`compepitools`
 
-   
+   Tools for computational epigenomics developed for the analysis\, integration and simultaneous visualization of various \(epi\)genomics data types across multiple genomic regions in multiple samples.
 
 
 .. conda:package:: bioconductor-compepitools

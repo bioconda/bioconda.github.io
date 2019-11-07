@@ -9,13 +9,13 @@ bioconductor-bsgenome.cfamiliaris.ucsc.canfam3.masked
 .. conda:recipe:: bioconductor-bsgenome.cfamiliaris.ucsc.canfam3.masked
    :replaces_section_title:
 
-   Full genome sequences for Canis lupus familiaris \(Dog\) as provided by UCSC \(canFam3\, Sep. 2011\) and stored in Biostrings objects. The sequences are the same as in BSgenome.Cfamiliaris.UCSC.canFam3\, except that each of them has the 4 following masks on top\: \(1\) the mask of assembly gaps \(AGAPS mask\)\, \(2\) the mask of intra\-contig ambiguities \(AMB mask\)\, \(3\) the mask of repeats from RepeatMasker \(RM mask\)\, and \(4\) the mask of repeats from Tandem Repeats Finder \(TRF mask\). Only the AGAPS and AMB masks are \"active\" by default.
+   Full masked genome sequences for Canis lupus familiaris \(UCSC version canFam3\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/BSgenome.Cfamiliaris.UCSC.canFam3.masked.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Cfamiliaris.UCSC.canFam3.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.cfamiliaris.ucsc.canfam3.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.cfamiliaris.ucsc.canfam3.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.cfamiliaris.ucsc.canfam3.masked/meta.yaml>`_
 
-   
+   Full genome sequences for Canis lupus familiaris \(Dog\) as provided by UCSC \(canFam3\, Sep. 2011\) and stored in Biostrings objects. The sequences are the same as in BSgenome.Cfamiliaris.UCSC.canFam3\, except that each of them has the 4 following masks on top\: \(1\) the mask of assembly gaps \(AGAPS mask\)\, \(2\) the mask of intra\-contig ambiguities \(AMB mask\)\, \(3\) the mask of repeats from RepeatMasker \(RM mask\)\, and \(4\) the mask of repeats from Tandem Repeats Finder \(TRF mask\). Only the AGAPS and AMB masks are \"active\" by default.
 
 
 .. conda:package:: bioconductor-bsgenome.cfamiliaris.ucsc.canfam3.masked

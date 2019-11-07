@@ -9,13 +9,13 @@ bioconductor-odseq
 .. conda:recipe:: bioconductor-odseq
    :replaces_section_title:
 
-   Performs outlier detection of sequences in a multiple sequence alignment using bootstrap of predefined distance metrics. Outlier sequences can make downstream analyses unreliable or make the alignments less accurate while they are being constructed. This package implements the OD\-seq algorithm proposed by Jehl et al \(doi 10.1186\/s12859\-015\-0702\-1\) for aligned sequences and a variant using string kernels for unaligned sequences.
+   Outlier detection in multiple sequence alignments
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/odseq.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/odseq.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-odseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-odseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-odseq/meta.yaml>`_
 
-   
+   Performs outlier detection of sequences in a multiple sequence alignment using bootstrap of predefined distance metrics. Outlier sequences can make downstream analyses unreliable or make the alignments less accurate while they are being constructed. This package implements the OD\-seq algorithm proposed by Jehl et al \(doi 10.1186\/s12859\-015\-0702\-1\) for aligned sequences and a variant using string kernels for unaligned sequences.
 
 
 .. conda:package:: bioconductor-odseq

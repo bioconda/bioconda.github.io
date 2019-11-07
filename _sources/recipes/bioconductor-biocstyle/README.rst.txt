@@ -9,14 +9,14 @@ bioconductor-biocstyle
 .. conda:recipe:: bioconductor-biocstyle
    :replaces_section_title:
 
-   Provides standard formatting styles for Bioconductor PDF and HTML documents. Package vignettes illustrate use and functionality.
+   Standard styles for vignettes and other Bioconductor documents
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/BiocStyle.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BiocStyle.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biocstyle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocstyle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocstyle/meta.yaml>`_
    :links: biotools: :biotools:`biocstyle`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   Provides standard formatting styles for Bioconductor PDF and HTML documents. Package vignettes illustrate use and functionality.
 
 
 .. conda:package:: bioconductor-biocstyle

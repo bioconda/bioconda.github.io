@@ -9,13 +9,13 @@ bioconductor-ccpromise
 .. conda:recipe:: bioconductor-ccpromise
    :replaces_section_title:
 
-   Perform Canonical correlation between two forms of high demensional genetic data\, and associate the first compoent of each form of data with a specific biologically interesting pattern of associations with multiple endpoints. A probe level analysis is also implemented.
+   PROMISE analysis with Canonical Correlation for Two Forms of High Dimensional Genetic Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/CCPROMISE.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CCPROMISE.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ccpromise <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccpromise>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccpromise/meta.yaml>`_
 
-   
+   Perform Canonical correlation between two forms of high demensional genetic data\, and associate the first compoent of each form of data with a specific biologically interesting pattern of associations with multiple endpoints. A probe level analysis is also implemented.
 
 
 .. conda:package:: bioconductor-ccpromise

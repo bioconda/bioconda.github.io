@@ -9,13 +9,13 @@ bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene
 .. conda:recipe:: bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene
    :replaces_section_title:
 
-   Exposes an annotation databases generated from UCSC by exposing these as TxDb objects
+   Annotation package for TxDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/TxDb.Scerevisiae.UCSC.sacCer2.sgdGene.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/TxDb.Scerevisiae.UCSC.sacCer2.sgdGene.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene/meta.yaml>`_
 
-   
+   Exposes an annotation databases generated from UCSC by exposing these as TxDb objects
 
 
 .. conda:package:: bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene

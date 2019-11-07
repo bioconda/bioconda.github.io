@@ -9,13 +9,13 @@ bioconductor-biomvrcns
 .. conda:recipe:: bioconductor-biomvrcns
    :replaces_section_title:
 
-   In this package\, a Hidden Semi Markov Model \(HSMM\) and one homogeneous segmentation model are designed and implemented for segmentation genomic data\, with the aim of assisting in transcripts detection using high throughput technology like RNA\-seq or tiling array\, and copy number analysis using aCGH or sequencing.
+   Copy Number study and Segmentation for multivariate biological data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/biomvRCNS.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/biomvRCNS.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-biomvrcns <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomvrcns>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomvrcns/meta.yaml>`_
 
-   
+   In this package\, a Hidden Semi Markov Model \(HSMM\) and one homogeneous segmentation model are designed and implemented for segmentation genomic data\, with the aim of assisting in transcripts detection using high throughput technology like RNA\-seq or tiling array\, and copy number analysis using aCGH or sequencing.
 
 
 .. conda:package:: bioconductor-biomvrcns

@@ -9,20 +9,20 @@ bioconductor-beadarrayusecases
 .. conda:recipe:: bioconductor-beadarrayusecases
    :replaces_section_title:
 
-   Example data files and use cases for processing Illumina BeadArray expression data using Bioconductor
+   Analysing Illumina BeadArray expression data using Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/BeadArrayUseCases.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/BeadArrayUseCases.html
    :license: GPL-2
    :recipe: /`bioconductor-beadarrayusecases <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadarrayusecases>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadarrayusecases/meta.yaml>`_
 
-   
+   Example data files and use cases for processing Illumina BeadArray expression data using Bioconductor
 
 
 .. conda:package:: bioconductor-beadarrayusecases
 
    |downloads_bioconductor-beadarrayusecases| |docker_bioconductor-beadarrayusecases|
 
-   :versions: 1.23.1-0, 1.22.0-1, 1.20.0-0
+   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-0
    
    :depends bioconductor-beadarray: >=2.36.0,<2.37.0
    :depends bioconductor-geoquery: >=2.54.0,<2.55.0

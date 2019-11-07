@@ -9,14 +9,14 @@ bioconductor-stepnorm
 .. conda:recipe:: bioconductor-stepnorm
    :replaces_section_title:
 
-   Stepwise normalization functions for cDNA microarray data.
+   Stepwise normalization functions for cDNA microarrays
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/stepNorm.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/stepNorm.html
    :license: LGPL
    :recipe: /`bioconductor-stepnorm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stepnorm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stepnorm/meta.yaml>`_
    :links: biotools: :biotools:`stepnorm`, doi: :doi:`10.1109/IEMBS.2004.1403830`
 
-   
+   Stepwise normalization functions for cDNA microarray data.
 
 
 .. conda:package:: bioconductor-stepnorm

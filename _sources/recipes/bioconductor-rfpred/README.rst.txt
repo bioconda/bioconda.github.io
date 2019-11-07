@@ -9,14 +9,14 @@ bioconductor-rfpred
 .. conda:recipe:: bioconductor-rfpred
    :replaces_section_title:
 
-   Based on external numerous data files where rfPred scores are pre\-calculated on all genomic positions of the human exome\, the package gives rfPred scores to missense variants identified by the chromosome\, the position \(hg19 version\)\, the referent and alternative nucleotids and the uniprot identifier of the protein. Note that for using the package\, the user has to be connected on the Internet or to download the TabixFile and index \(approximately 3.3 Go\).
+   Assign rfPred functional prediction scores to a missense variants list
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/rfPred.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/rfPred.html
    :license: GPL (>=2 )
    :recipe: /`bioconductor-rfpred <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rfpred>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rfpred/meta.yaml>`_
    :links: biotools: :biotools:`rfpred`, doi: :doi:`10.1101/037127`
 
-   
+   Based on external numerous data files where rfPred scores are pre\-calculated on all genomic positions of the human exome\, the package gives rfPred scores to missense variants identified by the chromosome\, the position \(hg19 version\)\, the referent and alternative nucleotids and the uniprot identifier of the protein. Note that for using the package\, the user has to be connected on the Internet or to download the TabixFile and index \(approximately 3.3 Go\).
 
 
 .. conda:package:: bioconductor-rfpred

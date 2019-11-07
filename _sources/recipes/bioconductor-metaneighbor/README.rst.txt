@@ -9,13 +9,13 @@ bioconductor-metaneighbor
 .. conda:recipe:: bioconductor-metaneighbor
    :replaces_section_title:
 
-   MetaNeighbor allows users to quantify cell type replicability across datasets using neighbor voting.
+   Single cell replicability analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MetaNeighbor.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MetaNeighbor.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-metaneighbor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaneighbor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaneighbor/meta.yaml>`_
 
-   
+   MetaNeighbor allows users to quantify cell type replicability across datasets using neighbor voting.
 
 
 .. conda:package:: bioconductor-metaneighbor

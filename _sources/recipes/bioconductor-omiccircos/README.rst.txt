@@ -9,14 +9,14 @@ bioconductor-omiccircos
 .. conda:recipe:: bioconductor-omiccircos
    :replaces_section_title:
 
-   OmicCircos is an R application and package for generating high\-quality circular plots for omics data.
+   High\-quality circular visualization of omics data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/OmicCircos.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/OmicCircos.html
    :license: GPL-2
    :recipe: /`bioconductor-omiccircos <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omiccircos>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omiccircos/meta.yaml>`_
    :links: biotools: :biotools:`omiccircos`, doi: :doi:`10.4137/cin.s13495`
 
-   
+   OmicCircos is an R application and package for generating high\-quality circular plots for omics data.
 
 
 .. conda:package:: bioconductor-omiccircos

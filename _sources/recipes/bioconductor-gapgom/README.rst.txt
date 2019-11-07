@@ -9,13 +9,13 @@ bioconductor-gapgom
 .. conda:recipe:: bioconductor-gapgom
    :replaces_section_title:
 
-   Collection of various measures and tools for lncRNA annotation prediction put inside a redistributable R package. The package contains two main algorithms\; lncRNA2GOA and TopoICSim. lncRNA2GOA tries to annotate novel genes \(in this specific case lncRNAs\) by using various correlation\/geometric scoring methods on correlated expression data. After correlating\/scoring\, the results are annotated and enriched. TopoICSim is a topologically based method\, that compares gene similarity based on the topology of the GO DAG by information content \(IC\) between GO terms.
+   GAPGOM \(novel Gene Annotation Prediction and other GO Metrics\)
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GAPGOM.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GAPGOM.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-gapgom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gapgom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gapgom/meta.yaml>`_
 
-   
+   Collection of various measures and tools for lncRNA annotation prediction put inside a redistributable R package. The package contains two main algorithms\; lncRNA2GOA and TopoICSim. lncRNA2GOA tries to annotate novel genes \(in this specific case lncRNAs\) by using various correlation\/geometric scoring methods on correlated expression data. After correlating\/scoring\, the results are annotated and enriched. TopoICSim is a topologically based method\, that compares gene similarity based on the topology of the GO DAG by information content \(IC\) between GO terms.
 
 
 .. conda:package:: bioconductor-gapgom

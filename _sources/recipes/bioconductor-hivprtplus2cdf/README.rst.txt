@@ -9,13 +9,13 @@ bioconductor-hivprtplus2cdf
 .. conda:recipe:: bioconductor-hivprtplus2cdf
    :replaces_section_title:
 
-   A package containing an environment representing the HIV PRTPlus 2.CDF file.
+   hivprtplus2cdf
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/hivprtplus2cdf.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hivprtplus2cdf.html
    :license: LGPL
    :recipe: /`bioconductor-hivprtplus2cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hivprtplus2cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hivprtplus2cdf/meta.yaml>`_
 
-   
+   A package containing an environment representing the HIV PRTPlus 2.CDF file.
 
 
 .. conda:package:: bioconductor-hivprtplus2cdf

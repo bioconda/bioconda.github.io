@@ -9,13 +9,13 @@ bioconductor-hpaanalyze
 .. conda:recipe:: bioconductor-hpaanalyze
    :replaces_section_title:
 
-   Provide functions for retrieving\, exploratory analyzing and visualizing the Human Protein Atlas data.
+   Retrieve and analyze data from the Human Protein Atlas
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/HPAanalyze.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/HPAanalyze.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-hpaanalyze <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hpaanalyze>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hpaanalyze/meta.yaml>`_
 
-   
+   Provide functions for retrieving\, exploratory analyzing and visualizing the Human Protein Atlas data.
 
 
 .. conda:package:: bioconductor-hpaanalyze

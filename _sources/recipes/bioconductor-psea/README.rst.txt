@@ -9,14 +9,14 @@ bioconductor-psea
 .. conda:recipe:: bioconductor-psea
    :replaces_section_title:
 
-   Deconvolution of gene expression data by Population\-Specific Expression Analysis \(PSEA\).
+   Population\-Specific Expression Analysis.
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/PSEA.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PSEA.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-psea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-psea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-psea/meta.yaml>`_
    :links: biotools: :biotools:`psea`, doi: :doi:`10.1038/scibx.2011.1159`
 
-   
+   Deconvolution of gene expression data by Population\-Specific Expression Analysis \(PSEA\).
 
 
 .. conda:package:: bioconductor-psea

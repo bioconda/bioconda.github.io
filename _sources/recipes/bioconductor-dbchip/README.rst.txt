@@ -9,13 +9,13 @@ bioconductor-dbchip
 .. conda:recipe:: bioconductor-dbchip
    :replaces_section_title:
 
-   DBChIP detects differentially bound sharp binding sites across multiple conditions\, with or without matching control samples.
+   Differential Binding of Transcription Factor with ChIP\-seq
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DBChIP.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DBChIP.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-dbchip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dbchip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dbchip/meta.yaml>`_
 
-   
+   DBChIP detects differentially bound sharp binding sites across multiple conditions\, with or without matching control samples.
 
 
 .. conda:package:: bioconductor-dbchip

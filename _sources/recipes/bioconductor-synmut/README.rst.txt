@@ -9,13 +9,13 @@ bioconductor-synmut
 .. conda:recipe:: bioconductor-synmut
    :replaces_section_title:
 
-   There are increasing demands on designing virus mutants with specific dinucleotide or codon composition. This tool can take both dinucleotide preference and\/or codon usage bias into account while designing mutants. It is a powerful tool for in silico designs of DNA sequence mutants.
+   SynMut\: Designing Synonymously Mutated Sequences with Different Genomic Signatures
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SynMut.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SynMut.html
    :license: GPL-2
    :recipe: /`bioconductor-synmut <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synmut>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synmut/meta.yaml>`_
 
-   
+   There are increasing demands on designing virus mutants with specific dinucleotide or codon composition. This tool can take both dinucleotide preference and\/or codon usage bias into account while designing mutants. It is a powerful tool for in silico designs of DNA sequence mutants.
 
 
 .. conda:package:: bioconductor-synmut

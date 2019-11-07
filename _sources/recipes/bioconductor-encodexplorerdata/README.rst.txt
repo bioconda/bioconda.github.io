@@ -9,13 +9,13 @@ bioconductor-encodexplorerdata
 .. conda:recipe:: bioconductor-encodexplorerdata
    :replaces_section_title:
 
-   This package allows user to quickly access ENCODE project files metadata and give access to helper functions to query the ENCODE rest api\, download ENCODE datasets and save the database in SQLite format.
+   A compilation of ENCODE metadata
 
-   :homepage: https://bioconductor.org/packages/3.9/data/annotation/html/ENCODExplorerData.html
+   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/ENCODExplorerData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-encodexplorerdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-encodexplorerdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-encodexplorerdata/meta.yaml>`_
 
-   
+   This package allows user to quickly access ENCODE project files metadata and give access to helper functions to query the ENCODE rest api\, download ENCODE datasets and save the database in SQLite format.
 
 
 .. conda:package:: bioconductor-encodexplorerdata

@@ -9,13 +9,13 @@ bioconductor-attract
 .. conda:recipe:: bioconductor-attract
    :replaces_section_title:
 
-   This package contains the functions to find the gene expression modules that represent the drivers of Kauffman\'s attractor landscape. The modules are the core attractor pathways that discriminate between different cell types of groups of interest. Each pathway has a set of synexpression groups\, which show transcriptionally\-coordinated changes in gene expression.
+   Methods to Find the Gene Expression Modules that Represent the Drivers of Kauffman\'s Attractor Landscape
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/attract.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/attract.html
    :license: LGPL (>= 2.0)
    :recipe: /`bioconductor-attract <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-attract>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-attract/meta.yaml>`_
 
-   
+   This package contains the functions to find the gene expression modules that represent the drivers of Kauffman\'s attractor landscape. The modules are the core attractor pathways that discriminate between different cell types of groups of interest. Each pathway has a set of synexpression groups\, which show transcriptionally\-coordinated changes in gene expression.
 
 
 .. conda:package:: bioconductor-attract

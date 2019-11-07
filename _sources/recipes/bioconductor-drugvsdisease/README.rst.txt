@@ -9,35 +9,35 @@ bioconductor-drugvsdisease
 .. conda:recipe:: bioconductor-drugvsdisease
    :replaces_section_title:
 
-   This package generates ranked lists of differential gene expression for either disease or drug profiles. Input data can be downloaded from Array Express or GEO\, or from local CEL files. Ranked lists of differential expression and associated p\-values are calculated using Limma. Enrichment scores \(Subramanian et al. PNAS 2005\) are calculated to a reference set of default drug or disease profiles\, or a set of custom data supplied by the user. Network visualisation of significant scores are output in Cytoscape format.
+   Comparison of disease and drug profiles using Gene set Enrichment Analysis
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/DrugVsDisease.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DrugVsDisease.html
    :license: GPL-3
    :recipe: /`bioconductor-drugvsdisease <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drugvsdisease>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drugvsdisease/meta.yaml>`_
    :links: biotools: :biotools:`drugvsdisease`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package generates ranked lists of differential gene expression for either disease or drug profiles. Input data can be downloaded from Array Express or GEO\, or from local CEL files. Ranked lists of differential expression and associated p\-values are calculated using Limma. Enrichment scores \(Subramanian et al. PNAS 2005\) are calculated to a reference set of default drug or disease profiles\, or a set of custom data supplied by the user. Network visualisation of significant scores are output in Cytoscape format.
 
 
 .. conda:package:: bioconductor-drugvsdisease
 
    |downloads_bioconductor-drugvsdisease| |docker_bioconductor-drugvsdisease|
 
-   :versions: 2.28.0-0, 2.26.0-1, 2.24.2-0, 2.22.0-0, 2.20.1-0
+   :versions: 2.26.0-1, 2.24.2-0, 2.22.0-0, 2.20.1-0
    
-   :depends bioconductor-affy: >=1.64.0,<1.65.0
-   :depends bioconductor-annotate: >=1.64.0,<1.65.0
-   :depends bioconductor-arrayexpress: >=1.46.0,<1.47.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-biomart: >=2.42.0,<2.43.0
-   :depends bioconductor-cmap2data: >=1.21.0,<1.22.0
-   :depends bioconductor-drugvsdiseasedata: >=1.21.0,<1.22.0
-   :depends bioconductor-geoquery: >=2.54.0,<2.55.0
+   :depends bioconductor-affy: >=1.62.0,<1.63.0
+   :depends bioconductor-annotate: >=1.62.0,<1.63.0
+   :depends bioconductor-arrayexpress: >=1.44.0,<1.45.0
+   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
+   :depends bioconductor-biomart: >=2.40.0,<2.41.0
+   :depends bioconductor-cmap2data: >=1.20.0,<1.21.0
+   :depends bioconductor-drugvsdiseasedata: >=1.20.0,<1.21.0
+   :depends bioconductor-geoquery: >=2.52.0,<2.53.0
    :depends bioconductor-hgu133a.db: >=3.2.0,<3.3.0
    :depends bioconductor-hgu133a2.db: >=3.2.0,<3.3.0
    :depends bioconductor-hgu133plus2.db: >=3.2.0,<3.3.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-qvalue: >=2.18.0,<2.19.0
+   :depends bioconductor-limma: >=3.40.0,<3.41.0
+   :depends bioconductor-qvalue: >=2.16.0,<2.17.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-runit: 
    :depends r-xtable: 

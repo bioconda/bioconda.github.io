@@ -9,13 +9,13 @@ bioconductor-singlecellexperiment
 .. conda:recipe:: bioconductor-singlecellexperiment
    :replaces_section_title:
 
-   Defines a S4 class for storing data from single\-cell experiments. This includes specialized methods to store and retrieve spike\-in information\, dimensionality reduction coordinates and size factors for each cell\, along with the usual metadata for genes and libraries.
+   S4 Classes for Single Cell Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/SingleCellExperiment.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SingleCellExperiment.html
    :license: GPL-3
    :recipe: /`bioconductor-singlecellexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecellexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecellexperiment/meta.yaml>`_
 
-   
+   Defines a S4 class for storing data from single\-cell experiments. This includes specialized methods to store and retrieve spike\-in information\, dimensionality reduction coordinates and size factors for each cell\, along with the usual metadata for genes and libraries.
 
 
 .. conda:package:: bioconductor-singlecellexperiment

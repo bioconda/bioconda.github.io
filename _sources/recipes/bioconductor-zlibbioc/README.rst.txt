@@ -9,14 +9,14 @@ bioconductor-zlibbioc
 .. conda:recipe:: bioconductor-zlibbioc
    :replaces_section_title:
 
-   This package uses the source code of zlib\-1.2.5 to create libraries for systems that do not have these available via other means \(most Linux and Mac users should have system\-level access to zlib\, and no direct need for this package\). See the vignette for instructions on use.
+   An R packaged zlib\-1.2.5
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/zlibbioc.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/zlibbioc.html
    :license: Artistic-2.0 + file LICENSE
    :recipe: /`bioconductor-zlibbioc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zlibbioc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zlibbioc/meta.yaml>`_
    :links: biotools: :biotools:`zlibbioc`, doi: :doi:`10.1038/nmeth.3252`
 
-   
+   This package uses the source code of zlib\-1.2.5 to create libraries for systems that do not have these available via other means \(most Linux and Mac users should have system\-level access to zlib\, and no direct need for this package\). See the vignette for instructions on use.
 
 
 .. conda:package:: bioconductor-zlibbioc

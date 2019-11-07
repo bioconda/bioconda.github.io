@@ -9,13 +9,13 @@ bioconductor-geneanswers
 .. conda:recipe:: bioconductor-geneanswers
    :replaces_section_title:
 
-   GeneAnswers provides an integrated tool for biological or medical interpretation of the given one or more groups of genes by means of statistical test.
+   Integrated Interpretation of Genes
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/GeneAnswers.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GeneAnswers.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-geneanswers <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneanswers>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneanswers/meta.yaml>`_
 
-   
+   GeneAnswers provides an integrated tool for biological or medical interpretation of the given one or more groups of genes by means of statistical test.
 
 
 .. conda:package:: bioconductor-geneanswers

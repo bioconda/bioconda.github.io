@@ -9,14 +9,14 @@ bioconductor-mdqc
 .. conda:recipe:: bioconductor-mdqc
    :replaces_section_title:
 
-   MDQC is a multivariate quality assessment method for microarrays based on quality control \(QC\) reports. The Mahalanobis distance of an array\'s quality attributes is used to measure the similarity of the quality of that array against the quality of the other arrays. Then\, arrays with unusually high distances can be flagged as potentially low\-quality.
+   Mahalanobis Distance Quality Control for microarrays
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/mdqc.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/mdqc.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-mdqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mdqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mdqc/meta.yaml>`_
    :links: biotools: :biotools:`mdqc`, doi: :doi:`10.1093/bioinformatics/btm487`
 
-   
+   MDQC is a multivariate quality assessment method for microarrays based on quality control \(QC\) reports. The Mahalanobis distance of an array\'s quality attributes is used to measure the similarity of the quality of that array against the quality of the other arrays. Then\, arrays with unusually high distances can be flagged as potentially low\-quality.
 
 
 .. conda:package:: bioconductor-mdqc

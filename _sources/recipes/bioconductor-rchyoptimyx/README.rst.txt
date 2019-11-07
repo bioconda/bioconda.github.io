@@ -9,13 +9,13 @@ bioconductor-rchyoptimyx
 .. conda:recipe:: bioconductor-rchyoptimyx
    :replaces_section_title:
 
-   Constructs a hierarchy of cells using flow cytometry for maximization of an external variable \(e.g.\, a clinical outcome or a cytokine response\).
+   Optimyzed Cellular Hierarchies for Flow Cytometry
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/RchyOptimyx.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RchyOptimyx.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rchyoptimyx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rchyoptimyx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rchyoptimyx/meta.yaml>`_
 
-   
+   Constructs a hierarchy of cells using flow cytometry for maximization of an external variable \(e.g.\, a clinical outcome or a cytokine response\).
 
 
 .. conda:package:: bioconductor-rchyoptimyx

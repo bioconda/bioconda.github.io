@@ -9,13 +9,13 @@ bioconductor-swfdr
 .. conda:recipe:: bioconductor-swfdr
    :replaces_section_title:
 
-   This package allows users to estimate the science\-wise false discovery rate from Jager and Leek\, \"Empirical estimates suggest most published medical research is true\,\" 2013\, Biostatistics\, using an EM approach due to the presence of rounding and censoring. It also allows users to estimate the proportion of true null hypotheses in the presence of covariates\, using a regression framework\, as per Boca and Leek\, \"A regression framework for the proportion of true null hypotheses\,\" 2015\, bioRxiv preprint.
+   Science\-wise false discovery rate and proportion of true null hypotheses estimation
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/swfdr.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/swfdr.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-swfdr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-swfdr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-swfdr/meta.yaml>`_
 
-   
+   This package allows users to estimate the science\-wise false discovery rate from Jager and Leek\, \"Empirical estimates suggest most published medical research is true\,\" 2013\, Biostatistics\, using an EM approach due to the presence of rounding and censoring. It also allows users to estimate the proportion of true null hypotheses in the presence of covariates\, using a regression framework\, as per Boca and Leek\, \"A direct approach to estimating false discovery rates conditional on covariates\,\" 2018\, PeerJ.
 
 
 .. conda:package:: bioconductor-swfdr

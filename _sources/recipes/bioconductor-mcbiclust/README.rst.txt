@@ -9,13 +9,13 @@ bioconductor-mcbiclust
 .. conda:recipe:: bioconductor-mcbiclust
    :replaces_section_title:
 
-   Custom made algorithm and associated methods for finding\, visualising and analysing biclusters in large gene expression data sets. Algorithm is based on with a supplied gene set of size n\, finding the maximum strength correlation matrix containing m samples from the data set.
+   Massive correlating biclusters for gene expression data and associated methods
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/MCbiclust.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MCbiclust.html
    :license: GPL-2
    :recipe: /`bioconductor-mcbiclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcbiclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcbiclust/meta.yaml>`_
 
-   
+   Custom made algorithm and associated methods for finding\, visualising and analysing biclusters in large gene expression data sets. Algorithm is based on with a supplied gene set of size n\, finding the maximum strength correlation matrix containing m samples from the data set.
 
 
 .. conda:package:: bioconductor-mcbiclust

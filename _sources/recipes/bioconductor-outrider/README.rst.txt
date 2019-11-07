@@ -9,13 +9,13 @@ bioconductor-outrider
 .. conda:recipe:: bioconductor-outrider
    :replaces_section_title:
 
-   Identification of aberrant gene expression in RNA\-seq data. Read count expectations are modeled by an autoencoder to control for confounders in the data. Given these expectations\, the RNA\-seq read counts are assumed to follow a negative binomial distribution with a gene\-specific dispersion. Outliers are then identified as read counts that significantly deviate from this distribution. Furthermore\, OUTRIDER provides useful plotting functions to analyze and visualize the results.
+   OUTRIDER \- OUTlier in RNA\-Seq fInDER
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/OUTRIDER.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/OUTRIDER.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-outrider <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-outrider>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-outrider/meta.yaml>`_
 
-   
+   Identification of aberrant gene expression in RNA\-seq data. Read count expectations are modeled by an autoencoder to control for confounders in the data. Given these expectations\, the RNA\-seq read counts are assumed to follow a negative binomial distribution with a gene\-specific dispersion. Outliers are then identified as read counts that significantly deviate from this distribution. Furthermore\, OUTRIDER provides useful plotting functions to analyze and visualize the results.
 
 
 .. conda:package:: bioconductor-outrider

@@ -9,13 +9,13 @@ bioconductor-cola
 .. conda:recipe:: bioconductor-cola
    :replaces_section_title:
 
-   Subgroup classification is a basic task in genomic data analysis\, especially for gene expression data and methylation data. It can predict novel subgroups when there is nothing known about the data or it can test consistency between predicted subgroups with known annotations. The cola package provides a general framework for subgroup classification by consensus clustering. It has following features\: 1. It modularizes the consensus clustering processes that various methods can be easily integrated. 2. It provides rich visualizations for interpreting the results. 3. It allows running multiple methods at the same time and provides functionalities to compare results in a straightforward way. 4. It provides a new method to extract features which are more efficient to separate subgroups. 5. It allows doing partitioning in a hierarchical way to detect subgroups with relatively smaller difference. 6. It generates detailed reports for the complete analysis.
+   A Framework for Consensus and Hierarchical Partitioning
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/cola.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/cola.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-cola <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cola>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cola/meta.yaml>`_
 
-   
+   Subgroup classification is a basic task in genomic data analysis\, especially for gene expression data and methylation data. It can predict novel subgroups when there is nothing known about the data or it can test consistency between predicted subgroups with known annotations. The cola package provides a general framework for subgroup classification by consensus clustering. It has following features\: 1. It modularizes the consensus clustering processes that various methods can be easily integrated. 2. It provides rich visualizations for interpreting the results. 3. It allows running multiple methods at the same time and provides functionalities to compare results in a straightforward way. 4. It provides a new method to extract features which are more efficient to separate subgroups. 5. It allows doing partitioning in a hierarchical way to detect subgroups with relatively smaller difference. 6. It generates detailed reports for the complete analysis.
 
 
 .. conda:package:: bioconductor-cola

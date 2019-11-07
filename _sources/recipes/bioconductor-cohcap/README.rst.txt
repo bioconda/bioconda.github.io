@@ -9,26 +9,25 @@ bioconductor-cohcap
 .. conda:recipe:: bioconductor-cohcap
    :replaces_section_title:
 
-   COHCAP \(pronounced \"co\-cap\"\) provides a pipeline to analyze single\-nucleotide resolution methylation data \(Illumina 450k\/EPIC methylation array\, targeted BS\-Seq\, etc.\). It provides differential methylation for CpG Sites\, differential methylation for CpG Islands\, integration with gene expression data\, with visualizaton options. Discussion Group\: https\:\/\/sourceforge.net\/p\/cohcap\/discussion\/bioconductor\/
+   CpG Island Analysis Pipeline for Illumina Methylation Array and Targeted BS\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/COHCAP.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/COHCAP.html
    :license: GPL-3
    :recipe: /`bioconductor-cohcap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cohcap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cohcap/meta.yaml>`_
    :links: biotools: :biotools:`cohcap`
 
-   
+   COHCAP \(pronounced \"co\-cap\"\) provides a pipeline to analyze single\-nucleotide resolution methylation data \(Illumina 450k\/EPIC methylation array\, targeted BS\-Seq\, etc.\). It provides differential methylation for CpG Sites\, differential methylation for CpG Islands\, integration with gene expression data\, with visualizaton options. Discussion Group\: https\:\/\/sourceforge.net\/p\/cohcap\/discussion\/bioconductor\/
 
 
 .. conda:package:: bioconductor-cohcap
 
    |downloads_bioconductor-cohcap| |docker_bioconductor-cohcap|
 
-   :versions: 1.32.0-0, 1.30.0-1, 1.30.0-0, 1.28.1-0, 1.26.0-0, 1.24.0-0
+   :versions: 1.30.0-1, 1.30.0-0, 1.28.1-0, 1.26.0-0, 1.24.0-0
    
-   :depends bioconductor-cohcapanno: >=1.21.0,<1.22.0
+   :depends bioconductor-cohcapanno: >=1.20.0,<1.21.0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-bh: 
    :depends r-gplots: 

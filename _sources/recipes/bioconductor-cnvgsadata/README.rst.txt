@@ -9,22 +9,22 @@ bioconductor-cnvgsadata
 .. conda:recipe:: bioconductor-cnvgsadata
    :replaces_section_title:
 
-   This package contains the data used in the vignette of the cnvGSA package.
+   Data used in the vignette of the cnvGSA package
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/cnvGSAdata.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/cnvGSAdata.html
    :license: LGPL
    :recipe: /`bioconductor-cnvgsadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvgsadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvgsadata/meta.yaml>`_
 
-   
+   This package contains the data used in the vignette of the cnvGSA package.
 
 
 .. conda:package:: bioconductor-cnvgsadata
 
    |downloads_bioconductor-cnvgsadata| |docker_bioconductor-cnvgsadata|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.18.0-0
+   :versions: 1.20.0-1, 1.18.0-0
    
-   :depends bioconductor-cnvgsa: >=1.30.0,<1.31.0
+   :depends bioconductor-cnvgsa: >=1.28.0,<1.29.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

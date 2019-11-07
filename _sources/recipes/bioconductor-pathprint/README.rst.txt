@@ -9,13 +9,13 @@ bioconductor-pathprint
 .. conda:recipe:: bioconductor-pathprint
    :replaces_section_title:
 
-   Algorithms to convert a gene expression array provided as an expression table or a GEO reference to a \'pathway fingerprint\'\, a vector of discrete ternary scores representing high \(1\)\, low\(\-1\) or insignificant \(0\) expression in a suite of pathways.
+   Pathway fingerprinting for analysis of gene expression arrays
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/pathprint.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/pathprint.html
    :license: GPL
    :recipe: /`bioconductor-pathprint <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathprint>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathprint/meta.yaml>`_
 
-   
+   Algorithms to convert a gene expression array provided as an expression table or a GEO reference to a \'pathway fingerprint\'\, a vector of discrete ternary scores representing high \(1\)\, low\(\-1\) or insignificant \(0\) expression in a suite of pathways.
 
 
 .. conda:package:: bioconductor-pathprint

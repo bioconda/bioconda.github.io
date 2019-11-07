@@ -9,22 +9,22 @@ bioconductor-fletcher2013b
 .. conda:recipe:: bioconductor-fletcher2013b
    :replaces_section_title:
 
-   This package reproduces the systems biology analysis for the data in package Fletcher2013a using RTN.
+   Master regulators of FGFR2 signalling and breast cancer risk
 
-   :homepage: https://bioconductor.org/packages/3.9/data/experiment/html/Fletcher2013b.html
+   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/Fletcher2013b.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-fletcher2013b <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fletcher2013b>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fletcher2013b/meta.yaml>`_
 
-   
+   This package reproduces the systems biology analysis for the data in package Fletcher2013a using RTN.
 
 
 .. conda:package:: bioconductor-fletcher2013b
 
    |downloads_bioconductor-fletcher2013b| |docker_bioconductor-fletcher2013b|
 
-   :versions: 1.21.0-0, 1.20.0-1, 1.18.0-0
+   :versions: 1.22.0-0, 1.20.0-1, 1.18.0-0
    
-   :depends bioconductor-fletcher2013a: >=1.21.0,<1.22.0
+   :depends bioconductor-fletcher2013a: >=1.22.0,<1.23.0
    :depends bioconductor-reder: >=1.34.0,<1.35.0
    :depends bioconductor-rtn: >=2.10.0,<2.11.0
    :depends curl: >=7.65.3,<8.0a0

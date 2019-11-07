@@ -9,13 +9,13 @@ bioconductor-alsace
 .. conda:recipe:: bioconductor-alsace
    :replaces_section_title:
 
-   Alternating Least Squares \(or Multivariate Curve Resolution\) for analytical chemical data\, in particular hyphenated data where the first direction is a retention time axis\, and the second a spectral axis. Package builds on the basic als function from the ALS package and adds functionality for high\-throughput analysis\, including definition of time windows\, clustering of profiles\, retention time correction\, etcetera.
+   ALS for the Automatic Chemical Exploration of mixtures
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/alsace.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/alsace.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-alsace <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alsace>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alsace/meta.yaml>`_
 
-   
+   Alternating Least Squares \(or Multivariate Curve Resolution\) for analytical chemical data\, in particular hyphenated data where the first direction is a retention time axis\, and the second a spectral axis. Package builds on the basic als function from the ALS package and adds functionality for high\-throughput analysis\, including definition of time windows\, clustering of profiles\, retention time correction\, etcetera.
 
 
 .. conda:package:: bioconductor-alsace

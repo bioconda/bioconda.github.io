@@ -9,14 +9,14 @@ bioconductor-qpcrnorm
 .. conda:recipe:: bioconductor-qpcrnorm
    :replaces_section_title:
 
-   The package contains functions to perform normalization of high\-throughput qPCR data. Basic functions for processing raw Ct data plus functions to generate diagnostic plots are also available.
+   Data\-driven normalization strategies for high\-throughput qPCR data.
 
-   :homepage: https://bioconductor.org/packages/3.9/bioc/html/qpcrNorm.html
+   :homepage: https://bioconductor.org/packages/3.10/bioc/html/qpcrNorm.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-qpcrnorm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qpcrnorm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qpcrnorm/meta.yaml>`_
    :links: biotools: :biotools:`qpcrnorm`, doi: :doi:`10.1186/1471-2105-10-110`
 
-   
+   The package contains functions to perform normalization of high\-throughput qPCR data. Basic functions for processing raw Ct data plus functions to generate diagnostic plots are also available.
 
 
 .. conda:package:: bioconductor-qpcrnorm
