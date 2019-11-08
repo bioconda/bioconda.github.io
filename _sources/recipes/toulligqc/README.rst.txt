@@ -22,7 +22,7 @@ toulligqc
 
    |downloads_toulligqc| |docker_toulligqc|
 
-   :versions: 1.2-0, 1.1-0, 1.0-0, 0.10-0, 0.9-2, 0.9-0, 0.5-0
+   :versions: 1.3-0, 1.2-0, 1.1-0, 1.0-0, 0.10-0, 0.9-2, 0.9-0, 0.5-0
    
    :depends h5py: >=2.7,<2.8
    :depends matplotlib: >=2.1,<2.2

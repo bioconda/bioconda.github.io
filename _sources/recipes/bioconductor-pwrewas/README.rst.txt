@@ -22,8 +22,23 @@ bioconductor-pwrewas
 
    |downloads_bioconductor-pwrewas| |docker_bioconductor-pwrewas|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-genefilter: >=1.68.0,<1.69.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-pwrewas.data: >=1.0.0,<1.1.0
+   :depends r-abind: 
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-biocmanager: 
+   :depends r-cpgassoc: 
+   :depends r-doparallel: 
+   :depends r-dosnow: 
+   :depends r-foreach: 
+   :depends r-ggplot2: 
+   :depends r-shiny: 
+   :depends r-shinybs: 
+   :depends r-shinywidgets: 
+   :depends r-truncnorm: 
    :requirements:
 
    .. rubric:: Installation

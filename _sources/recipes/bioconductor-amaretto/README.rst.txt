@@ -22,14 +22,14 @@ bioconductor-amaretto
 
    |downloads_bioconductor-amaretto| |docker_bioconductor-amaretto|
 
-   :versions: 1.0.0-1
+   :versions: 1.1.1-1, 1.0.0-1
    
-   :depends bioconductor-biocfilecache: >=1.8.0,<1.9.0
-   :depends bioconductor-complexheatmap: >=2.0.0,<2.1.0
-   :depends bioconductor-curatedtcgadata: >=1.6.0,<1.7.0
-   :depends bioconductor-impute: >=1.58.0,<1.59.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-multiassayexperiment: >=1.10.0,<1.11.0
+   :depends bioconductor-biocfilecache: >=1.10.0,<1.11.0
+   :depends bioconductor-complexheatmap: >=2.2.0,<2.3.0
+   :depends bioconductor-curatedtcgadata: >=1.8.0,<1.9.0
+   :depends bioconductor-impute: >=1.60.0,<1.61.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-multiassayexperiment: >=1.12.0,<1.13.0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
@@ -39,8 +39,11 @@ bioconductor-amaretto
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-foreach: 
+   :depends r-ggplot2: 
    :depends r-glmnet: 
+   :depends r-gridextra: 
    :depends r-httr: 
+   :depends r-knitr: 
    :depends r-matrix: 
    :depends r-matrixstats: 
    :depends r-rcpp: 

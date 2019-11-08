@@ -23,24 +23,24 @@ bioconductor-egsea
 
    |downloads_bioconductor-egsea| |docker_bioconductor-egsea|
 
-   :versions: 1.12.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   :versions: 1.14.0-1, 1.12.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0
    
-   :depends bioconductor-annotationdbi: >=1.46.0,<1.47.0
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-edger: >=3.26.0,<3.27.0
-   :depends bioconductor-egseadata: >=1.12.0,<1.13.0
-   :depends bioconductor-gage: >=2.34.0,<2.35.0
-   :depends bioconductor-glimma: >=1.12.0,<1.13.0
-   :depends bioconductor-globaltest: >=5.38.0,<5.39.0
-   :depends bioconductor-gsva: >=1.32.0,<1.33.0
-   :depends bioconductor-limma: >=3.40.0,<3.41.0
-   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
-   :depends bioconductor-org.mm.eg.db: >=3.8.0,<3.9.0
-   :depends bioconductor-org.rn.eg.db: >=3.8.0,<3.9.0
-   :depends bioconductor-padog: >=1.26.0,<1.27.0
-   :depends bioconductor-pathview: >=1.24.0,<1.25.0
-   :depends bioconductor-safe: >=3.24.0,<3.25.0
-   :depends bioconductor-topgo: >=2.36.0,<2.37.0
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-edger: >=3.28.0,<3.29.0
+   :depends bioconductor-egseadata: >=1.14.0,<1.15.0
+   :depends bioconductor-gage: >=2.36.0,<2.37.0
+   :depends bioconductor-glimma: >=1.14.0,<1.15.0
+   :depends bioconductor-globaltest: >=5.40.0,<5.41.0
+   :depends bioconductor-gsva: >=1.34.0,<1.35.0
+   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
+   :depends bioconductor-org.mm.eg.db: >=3.10.0,<3.11.0
+   :depends bioconductor-org.rn.eg.db: >=3.10.0,<3.11.0
+   :depends bioconductor-padog: >=1.28.0,<1.29.0
+   :depends bioconductor-pathview: >=1.26.0,<1.27.0
+   :depends bioconductor-safe: >=3.26.0,<3.27.0
+   :depends bioconductor-topgo: >=2.37.0,<2.38.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-dt: 
    :depends r-ggplot2: >=1.0.0

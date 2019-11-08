@@ -22,9 +22,9 @@ bioconductor-estrogen
 
    |downloads_bioconductor-estrogen| |docker_bioconductor-estrogen|
 
-   :versions: 1.30.0-1, 1.30.0-0, 1.28.0-0
+   :versions: 1.32.0-0, 1.30.0-1, 1.30.0-0, 1.28.0-0
    
-   :depends curl: >=7.65.2,<8.0a0
+   :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:
 

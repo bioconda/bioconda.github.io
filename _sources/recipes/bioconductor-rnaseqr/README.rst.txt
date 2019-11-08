@@ -22,20 +22,20 @@ bioconductor-rnaseqr
 
    |downloads_bioconductor-rnaseqr| |docker_bioconductor-rnaseqr|
 
-   :versions: 1.2.1-0, 1.0.3-0
+   :versions: 1.4.0-1, 1.2.1-0, 1.0.3-0
    
-   :depends bioconductor-ballgown: >=2.16.0,<2.17.0
-   :depends bioconductor-biostrings: >=2.52.0,<2.53.0
-   :depends bioconductor-clusterprofiler: >=3.12.0,<3.13.0
-   :depends bioconductor-deseq2: >=1.24.0,<1.25.0
-   :depends bioconductor-dose: >=3.10.0,<3.11.0
-   :depends bioconductor-edger: >=3.26.0,<3.27.0
-   :depends bioconductor-org.hs.eg.db: >=3.8.0,<3.9.0
-   :depends bioconductor-org.sc.sgd.db: >=3.8.0,<3.9.0
-   :depends bioconductor-pathview: >=1.24.0,<1.25.0
-   :depends bioconductor-rsamtools: >=2.0.0,<2.1.0
-   :depends bioconductor-systempiper: >=1.18.0,<1.19.0
-   :depends bioconductor-systempiperdata: >=1.12.0,<1.13.0
+   :depends bioconductor-ballgown: >=2.18.0,<2.19.0
+   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-clusterprofiler: >=3.14.0,<3.15.0
+   :depends bioconductor-deseq2: >=1.26.0,<1.27.0
+   :depends bioconductor-dose: >=3.12.0,<3.13.0
+   :depends bioconductor-edger: >=3.28.0,<3.29.0
+   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
+   :depends bioconductor-org.sc.sgd.db: >=3.10.0,<3.11.0
+   :depends bioconductor-pathview: >=1.26.0,<1.27.0
+   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
+   :depends bioconductor-systempiper: >=1.20.0,<1.21.0
+   :depends bioconductor-systempiperdata: >=1.14.0,<1.15.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-corrplot: 
    :depends r-factoextra: 

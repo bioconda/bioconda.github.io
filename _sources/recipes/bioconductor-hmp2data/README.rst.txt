@@ -22,8 +22,23 @@ bioconductor-hmp2data
 
    |downloads_bioconductor-hmp2data| |docker_bioconductor-hmp2data|
 
-   :versions: 
+   :versions: 1.0.0-0
    
+   :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
+   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
+   :depends bioconductor-multiassayexperiment: >=1.12.0,<1.13.0
+   :depends bioconductor-phyloseq: >=1.30.0,<1.31.0
+   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends curl: >=7.65.3,<8.0a0
+   :depends r-assertthat: 
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-data.table: 
+   :depends r-dplyr: 
+   :depends r-kableextra: 
+   :depends r-knitr: 
+   :depends r-magrittr: 
+   :depends r-readr: 
    :requirements:
 
    .. rubric:: Installation

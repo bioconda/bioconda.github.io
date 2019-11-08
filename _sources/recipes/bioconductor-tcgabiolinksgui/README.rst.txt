@@ -22,16 +22,16 @@ bioconductor-tcgabiolinksgui
 
    |downloads_bioconductor-tcgabiolinksgui| |docker_bioconductor-tcgabiolinksgui|
 
-   :versions: 1.10.0-1, 1.8.0-0
+   :versions: 1.12.0-1, 1.10.0-1, 1.8.0-0
    
-   :depends bioconductor-clusterprofiler: >=3.12.0,<3.13.0
-   :depends bioconductor-elmer: >=2.8.0,<2.9.0
-   :depends bioconductor-maftools: >=2.0.0,<2.1.0
-   :depends bioconductor-pathview: >=1.24.0,<1.25.0
-   :depends bioconductor-sesame: >=1.2.0,<1.3.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
-   :depends bioconductor-tcgabiolinks: >=2.12.0,<2.13.0
-   :depends bioconductor-tcgabiolinksgui.data: >=1.4.0,<1.5.0
+   :depends bioconductor-clusterprofiler: >=3.14.0,<3.15.0
+   :depends bioconductor-elmer: >=2.9.0,<2.10.0
+   :depends bioconductor-maftools: >=2.2.0,<2.3.0
+   :depends bioconductor-pathview: >=1.26.0,<1.27.0
+   :depends bioconductor-sesame: >=1.4.0,<1.5.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends bioconductor-tcgabiolinks: >=2.14.0,<2.15.0
+   :depends bioconductor-tcgabiolinksgui.data: >=1.6.0,<1.7.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-caret: 
    :depends r-colourpicker: 

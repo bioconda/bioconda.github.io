@@ -22,8 +22,19 @@ bioconductor-sbgnview
 
    |downloads_bioconductor-sbgnview| |docker_bioconductor-sbgnview|
 
-   :versions: 
+   :versions: 1.0.0-1
    
+   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
+   :depends bioconductor-pathview: >=1.26.0,<1.27.0
+   :depends bioconductor-sbgnview.data: >=1.0.0,<1.1.0
+   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-igraph: 
+   :depends r-knitr: 
+   :depends r-rdpack: 
+   :depends r-rmarkdown: 
+   :depends r-rsvg: 
+   :depends r-xml2: 
    :requirements:
 
    .. rubric:: Installation

@@ -22,11 +22,11 @@ bioconductor-ceu1kg
 
    |downloads_bioconductor-ceu1kg| |docker_bioconductor-ceu1kg|
 
-   :versions: 0.22.0-1, 0.20.0-0
+   :versions: 0.24.0-0, 0.22.0-1, 0.20.0-0
    
-   :depends bioconductor-biobase: >=2.44.0,<2.45.0
-   :depends bioconductor-ggbase: >=3.46.0,<3.47.0
-   :depends bioconductor-ggtools: >=5.20.0,<5.21.0
+   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-ggbase: >=3.48.0,<3.49.0
+   :depends bioconductor-ggtools: >=5.22.0,<5.23.0
    :depends curl: >=7.65.3,<8.0a0
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

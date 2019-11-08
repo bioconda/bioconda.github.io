@@ -23,11 +23,14 @@ bioconductor-rhtslib
 
    |downloads_bioconductor-rhtslib| |docker_bioconductor-rhtslib|
 
-   :versions: 1.18.0-0, 1.16.1-1, 1.16.1-0, 1.14.1-0, 1.14.0-0, 1.12.1-0, 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.6.0-0
+   :versions: 1.18.0-1, 1.16.1-1, 1.16.1-0, 1.14.1-0, 1.14.0-0, 1.12.1-0, 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.6.0-0
    
    :depends bioconductor-zlibbioc: >=1.32.0,<1.33.0
+   :depends bzip2: >=1.0.8,<2.0a0
+   :depends libcurl: >=7.64.1,<8.0a0
    :depends libgcc-ng: >=7.3.0
    :depends r-base: >=3.6,<3.7.0a0
+   :depends xz: >=5.2.4,<5.3.0a0
    :requirements:
 
    .. rubric:: Installation

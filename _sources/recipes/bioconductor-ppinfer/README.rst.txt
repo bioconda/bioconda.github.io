@@ -22,12 +22,12 @@ bioconductor-ppinfer
 
    |downloads_bioconductor-ppinfer| |docker_bioconductor-ppinfer|
 
-   :versions: 1.10.0-1, 1.8.1-1, 1.8.1-0, 1.6.0-0, 1.4.0-0, 1.2.4-0
+   :versions: 1.12.0-1, 1.10.0-1, 1.8.1-1, 1.8.1-0, 1.6.0-0, 1.4.0-0, 1.2.4-0
    
-   :depends bioconductor-biomart: >=2.40.0,<2.41.0
-   :depends bioconductor-fgsea: >=1.10.0,<1.11.0
-   :depends bioconductor-stringdb: >=1.24.0,<1.25.0
-   :depends bioconductor-yeastexpdata: >=0.30.0,<0.31.0
+   :depends bioconductor-biomart: >=2.42.0,<2.43.0
+   :depends bioconductor-fgsea: >=1.12.0,<1.13.0
+   :depends bioconductor-stringdb: >=1.26.0,<1.27.0
+   :depends bioconductor-yeastexpdata: >=0.32.0,<0.33.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-ggplot2: 
    :depends r-igraph: 
