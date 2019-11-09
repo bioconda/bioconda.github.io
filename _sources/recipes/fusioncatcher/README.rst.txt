@@ -23,7 +23,7 @@ fusioncatcher
 
    |downloads_fusioncatcher| |docker_fusioncatcher|
 
-   :versions: 1.10-3, 1.10-2, 1.10-0, 1.00-1, 1.00-0
+   :versions: 1.20-0, 1.10-3, 1.10-2, 1.10-0, 1.00-1, 1.00-0
    
    :depends bbmap: 38.44.*
    :depends biopython: >=1.50

@@ -23,41 +23,39 @@ r-basejump
 
    |downloads_r-basejump| |docker_r-basejump|
 
-   :versions: 0.11.20-1, 0.11.20-0, 0.11.19-0, 0.11.18-0, 0.11.17-0, 0.11.16-0, 0.11.15-0, 0.11.14-0, 0.11.13-0, 0.11.12-0, 0.11.11-0, 0.11.10-0, 0.11.8-0, 0.11.7-0, 0.11.5-0, 0.10.9-1, 0.10.9-0, 0.9.11-0, 0.9.9-0, 0.7.2-1, 0.7.2-0, 0.5.9-0, 0.5.3-0, 0.1.1-0
+   :versions: 0.11.21-0, 0.11.20-1, 0.11.20-0, 0.11.19-0, 0.11.18-0, 0.11.17-0, 0.11.16-0, 0.11.15-0, 0.11.14-0, 0.11.13-0, 0.11.12-0, 0.11.11-0, 0.11.10-0, 0.11.8-0, 0.11.7-0, 0.11.5-0, 0.10.9-1, 0.10.9-0, 0.9.11-0, 0.9.9-0, 0.7.2-1, 0.7.2-0, 0.5.9-0, 0.5.3-0, 0.1.1-0
    
-   :depends bioconductor-annotationdbi: >=1.46
-   :depends bioconductor-biobase: >=2.44
-   :depends bioconductor-biocgenerics: >=0.30
-   :depends bioconductor-biocparallel: >=1.18
-   :depends bioconductor-biomart: >=2.40
-   :depends bioconductor-biostrings: >=2.52
-   :depends bioconductor-delayedarray: >=0.10
-   :depends bioconductor-delayedmatrixstats: >=1.6
+   :depends bioconductor-annotationdbi: >=1.48
+   :depends bioconductor-biobase: >=2.46
+   :depends bioconductor-biocgenerics: >=0.32
+   :depends bioconductor-biocparallel: >=1.20
+   :depends bioconductor-biomart: >=2.42
+   :depends bioconductor-biostrings: >=2.54
    :depends bioconductor-ensdb.hsapiens.v75: >=2.99
-   :depends bioconductor-genomeinfodb: >=1.20
-   :depends bioconductor-genomicranges: >=1.36
-   :depends bioconductor-iranges: >=2.18.2
-   :depends bioconductor-s4vectors: >=0.22
-   :depends bioconductor-singlecellexperiment: >=1.6
-   :depends bioconductor-summarizedexperiment: >=1.14
+   :depends bioconductor-genomeinfodb: >=1.22
+   :depends bioconductor-genomicranges: >=1.38
+   :depends bioconductor-iranges: >=2.20
+   :depends bioconductor-s4vectors: >=0.24
+   :depends bioconductor-singlecellexperiment: >=1.8
+   :depends bioconductor-summarizedexperiment: >=1.16
    :depends r-acidbase: >=0.1.1
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-bioverbs: >=0.2.10
-   :depends r-brio: >=0.3.13
-   :depends r-freerange: >=0.2.7
+   :depends r-brio: >=0.3.15
+   :depends r-freerange: >=0.2.8
    :depends r-goalie: >=0.4.0
    :depends r-knitr: >=1.24
    :depends r-magrittr: >=1.5
    :depends r-matrix: >=1.2
    :depends r-matrix.utils: >=0.9
    :depends r-matrixstats: >=0.55
-   :depends r-rmarkdown: >=1.15
+   :depends r-rmarkdown: >=1.16
    :depends r-scales: >=1.0
    :depends r-sessioninfo: >=1.1
    :depends r-stringr: >=1.4
    :depends r-syntactic: >=0.3.2
    :depends r-tibble: >=2.1
-   :depends r-transformer: >=0.2.8
+   :depends r-transformer: >=0.2.10
    :requirements:
 
    .. rubric:: Installation

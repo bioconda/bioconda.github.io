@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;bioconductor-flipflop&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;refgenieserver&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -98,43 +98,41 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="bioconductor-flipflop">
+  <div class="section" id="refgenieserver">
 <dl class="recipe">
-<dt id="recipe-bioconductor-flipflop">
-<em class="property">recipe </em><code class="sig-name descname">bioconductor-flipflop</code><a class="headerlink" href="#recipe-bioconductor-flipflop" title="Permalink to this definition">¶</a></dt>
-<dd><p>Flipflop discovers which isoforms of a gene are expressed in a given sample together with their abundances, based on RNA-Seq read data. It takes an alignment file in SAM format as input. It can also discover transcripts from several samples simultaneously, increasing statistical power.</p>
+<dt id="recipe-refgenieserver">
+<em class="property">recipe </em><code class="sig-name descname">refgenieserver</code><a class="headerlink" href="#recipe-refgenieserver" title="Permalink to this definition">¶</a></dt>
+<dd><p>This server provides both a web interface and a RESTful API. Users may explore and download archived indexes from the web interface or develop tools that programmatically query the API.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.8/bioc/html/flipflop.html">https://bioconductor.org/packages/3.8/bioc/html/flipflop.html</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://refgenie.databio.org/">https://refgenie.databio.org/</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>GPL-3</p>
+<dd class="field-even"><p>BSD / BSD-2-Clause</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flipflop">bioconductor-flipflop</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flipflop/meta.yaml">meta.yaml</a></p>
-</dd>
-<dt class="field-even">Links</dt>
-<dd class="field-even"><p>biotools: <a class="reference external" href="https://bio.tools/flipflop">flipflop</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/refgenieserver">refgenieserver</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/refgenieserver/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-bioconductor-flipflop">
-<em class="property">package </em><code class="sig-name descname">bioconductor-flipflop</code><a class="headerlink" href="#package-bioconductor-flipflop" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-flipflop"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-flipflop.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-flipflop"><img alt="docker_bioconductor-flipflop" src="https://quay.io/repository/biocontainers/bioconductor-flipflop/status" /></a></p>
+<dt id="package-refgenieserver">
+<em class="property">package </em><code class="sig-name descname">refgenieserver</code><a class="headerlink" href="#package-refgenieserver" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/refgenieserver"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/refgenieserver.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/refgenieserver"><img alt="docker_refgenieserver" src="https://quay.io/repository/biocontainers/refgenieserver/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>1.18.0-0, 1.16.0-0, 1.14.1-0</p>
+<dd class="field-odd"><p>0.3.4-0</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-genomicranges/README.html#package-bioconductor-genomicranges" title="bioconductor-genomicranges package"><strong>bioconductor-genomicranges</strong></a> &gt;=1.32.7,&lt;1.34.0</p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-iranges/README.html#package-bioconductor-iranges" title="bioconductor-iranges package"><strong>bioconductor-iranges</strong></a> &gt;=2.14.12,&lt;2.16.0</p></li>
-<li><p><strong>libgcc-ng</strong> &gt;=4.9</p></li>
-<li><p><strong>libstdcxx-ng</strong> &gt;=4.9</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.4.1,&lt;3.4.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-matrix-feedstock"><strong>r-matrix</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/aiofiles-feedstock"><strong>aiofiles</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/fastapi-feedstock"><strong>fastapi</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/jinja2-feedstock"><strong>jinja2</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/logmuse-feedstock"><strong>logmuse</strong></a> &gt;=0.2</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../refgenconf/README.html#package-refgenconf" title="refgenconf package"><strong>refgenconf</strong></a> &gt;=0.5.2</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/uvicorn-feedstock"><strong>uvicorn</strong></a> &gt;=0.7.1</p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
@@ -144,24 +142,24 @@
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">flipflop</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">refgenieserver</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">flipflop</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">refgenieserver</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">bioconductor</span><span class="o">-</span><span class="n">flipflop</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">refgenieserver</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-flipflop?tab=tags">bioconductor-flipflop/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/refgenieserver?tab=tags">refgenieserver/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bioconductor-flipflop/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-flipflop/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/refgenieserver/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/refgenieserver/README.html)
 </pre></div>
 </div>
 </div>
@@ -182,14 +180,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/bioconductor-flipflop/README.rst.txt"
+      <a href="../../_sources/recipes/refgenieserver/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/bioconductor-flipflop/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/refgenieserver/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>
