@@ -22,13 +22,13 @@ bcbio_monitor
 
    |downloads_bcbio_monitor| |docker_bcbio_monitor|
 
-   :versions: 1.0.6-3, 1.0.6-2, 1.0.6-0, 1.0.2-0
+   :versions: 1.0.6-4, 1.0.6-3, 1.0.6-2, 1.0.6-0, 1.0.2-0
    
    :depends dateutil: 
    :depends flask: >=0.10.1
-   :depends gevent: >=1.0
+   :depends gevent: >=1.0,<1.2
    :depends paramiko: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends python-graphviz: 
    :depends pytz: 
    :depends pyyaml: 
