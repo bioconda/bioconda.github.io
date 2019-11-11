@@ -22,7 +22,7 @@ dfam
 
    |downloads_dfam| |docker_dfam|
 
-   :versions: 2.0-1, 2.0-0
+   :versions: 2.0-2, 2.0-1, 2.0-0
    
    :depends hmmer: 
    :depends perl: 

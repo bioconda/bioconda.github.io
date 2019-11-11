@@ -22,11 +22,10 @@ sis
 
    |downloads_sis| |docker_sis|
 
-   :versions: 0.1.2-2, 0.1.2-1, 0.1.0-0
+   :versions: 0.1.2-3, 0.1.2-2, 0.1.2-1, 0.1.0-0
    
    :depends mummer: 
-   :depends perl: >=5.26.2,<5.27.0a0
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: >=3
    :requirements:
 
    .. rubric:: Installation

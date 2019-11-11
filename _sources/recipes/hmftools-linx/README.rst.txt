@@ -22,7 +22,7 @@ hmftools-linx
 
    |downloads_hmftools-linx| |docker_hmftools-linx|
 
-   :versions: 1.5-0, 1.4-0
+   :versions: 1.6-0, 1.5-0, 1.4-0
    
    :depends bioconductor-gviz: 
    :depends circos: >=0.69.6

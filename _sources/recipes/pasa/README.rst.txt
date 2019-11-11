@@ -14,6 +14,7 @@ pasa
    :homepage: https://pasapipeline.github.io/
    :license: Broad Institute
    :recipe: /`pasa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pasa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pasa/meta.yaml>`_
+   :links: doi: :doi:`10.1186/gb-2008-9-1-r7`
 
    
 
@@ -22,7 +23,7 @@ pasa
 
    |downloads_pasa| |docker_pasa|
 
-   :versions: 2.3.3-2, 2.3.3-1, 2.3.3-0
+   :versions: 2.4.1-0, 2.3.3-2, 2.3.3-1, 2.3.3-0
    
    :depends blat: 
    :depends cdbtools: 
@@ -39,7 +40,7 @@ pasa
    :depends r-base: 
    :depends samtools: 
    :depends slclust: 
-   :depends transdecoder: >=5.2.0
+   :depends transdecoder: >=5.5.0
    :requirements:
 
    .. rubric:: Installation

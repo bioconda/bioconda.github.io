@@ -22,11 +22,11 @@ nudup
 
    |downloads_nudup| |docker_nudup|
 
-   :versions: 2.3.3-1, 2.3.3-0, 2.3.2-0, 2.3.1-0, 2.2_post2016104-1, 2.2_post2016104-0
+   :versions: 2.3.3-2, 2.3.3-1, 2.3.3-0, 2.3.2-0, 2.3.1-0, 2.2_post2016104-1, 2.2_post2016104-0
    
    :depends coreutils: 
    :depends grep: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends samtools: >=1.2
    :depends sed: 
    :requirements:

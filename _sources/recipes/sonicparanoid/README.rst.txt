@@ -23,18 +23,19 @@ sonicparanoid
 
    |downloads_sonicparanoid| |docker_sonicparanoid|
 
-   :versions: 1.0.14-0, 1.0.13-0
+   :versions: 1.0.14-1, 1.0.14-0, 1.0.13-0
    
    :depends biopython: >=1.67
-   :depends cython: >=0.27.0
-   :depends libstdcxx-ng: >=4.9
+   :depends cython: 
+   :depends gcc_linux-64: 7.*
+   :depends gxx_linux-64: 7.*
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends make: 
    :depends mmseqs2: 6.f5a1c
    :depends numpy: >=1.13.0
    :depends pandas: >=0.22.0
-   :depends pip: >=9.0.1
-   :depends python: >=3.7,<3.8.0a0
-   :depends setuptools: >=24.2.0
+   :depends python: >=3.6,<3.7.0a0
    :depends sh: >=1.12.14
    :requirements:
 
