@@ -29,11 +29,12 @@ dropletutils-scripts
 
    |downloads_dropletutils-scripts| |docker_dropletutils-scripts|
 
-   :versions: 0.0.4-0, 0.0.3-0, 0.0.2-1, 0.0.1-1, 0.0.1-0
+   :versions: 0.0.4-1, 0.0.4-0, 0.0.3-0, 0.0.2-1, 0.0.1-1, 0.0.1-0
    
    :depends bioconductor-biobase: 
    :depends bioconductor-dropletutils: >=1.3,<1.5
    :depends bioconductor-singlecellexperiment: 
+   :depends openblas: 
    :depends r-optparse: 
    :depends r-workflowscriptscommon: 
    :requirements:

@@ -23,11 +23,11 @@ biskit
 
    |downloads_biskit| |docker_biskit|
 
-   :versions: 2.4.3-1, 2.4.3-0
+   :versions: 2.5.1-0, 2.4.3-1, 2.4.3-0
    
    :depends biopython: 
    :depends numpy: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends scipy: 
    :requirements:
 
