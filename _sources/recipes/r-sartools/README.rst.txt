@@ -27,7 +27,7 @@ r-sartools
 
    |downloads_r-sartools| |docker_r-sartools|
 
-   :versions: 1.7.1-0, 1.6.9-0, 1.6.8-0, 1.6.6-3, 1.6.6-2, 1.6.6-1, 1.6.3-0, 1.6.0-0, 1.5.1-0, 1.4.1-0, 1.3.2-0, 1.2.0-0
+   :versions: 1.7.1-1, 1.7.1-0, 1.6.9-0, 1.6.8-0, 1.6.6-3, 1.6.6-2, 1.6.6-1, 1.6.3-0, 1.6.0-0, 1.5.1-0, 1.4.1-0, 1.3.2-0, 1.2.0-0
    
    :depends bioconductor-deseq2: >=1.12.0
    :depends bioconductor-edger: >=3.12.0
@@ -41,6 +41,7 @@ r-sartools
    :depends r-ggrepel: 
    :depends r-kableextra: 
    :depends r-knitr: 
+   :depends r-optparse: 
    :depends r-rmarkdown: >=1.4
    :requirements:
 

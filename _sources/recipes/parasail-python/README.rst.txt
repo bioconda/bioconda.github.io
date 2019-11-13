@@ -22,7 +22,7 @@ parasail-python
 
    |downloads_parasail-python| |docker_parasail-python|
 
-   :versions: 1.1.17-1, 1.1.17-0, 1.1.16-0, 1.1.12-2, 1.1.12-1
+   :versions: 1.1.19-0, 1.1.17-1, 1.1.17-0, 1.1.16-0, 1.1.12-2, 1.1.12-1
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

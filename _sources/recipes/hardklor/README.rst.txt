@@ -23,9 +23,10 @@ hardklor
 
    |downloads_hardklor| |docker_hardklor|
 
-   :versions: 2.3.0-1, 2.3.0-0
+   :versions: 2.3.2-0, 2.3.0-1, 2.3.0-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

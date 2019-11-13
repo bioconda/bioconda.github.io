@@ -11,9 +11,8 @@ dammit
 
    simple de novo transcriptome annotator
 
-   :homepage: http://www.camillescott.org/dammit/
-   :developer docs: https://github.com/camillescott/dammit
-   :license: BSD / BSD
+   :homepage: http://dib-lab.github.io/dammit/
+   :license: BSD
    :recipe: /`dammit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dammit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dammit/meta.yaml>`_
 
    
@@ -23,8 +22,9 @@ dammit
 
    |downloads_dammit| |docker_dammit|
 
-   :versions: 1.0-4, 1.0-3, 1.0.rc0-0, 1.0rc2-2, 1.0rc2-0, 0.3.2-0, 0.3-0
+   :versions: 1.1-0, 1.0-4, 1.0-3, 1.0.rc0-0, 1.0rc2-2, 1.0rc2-0, 0.3.2-0, 0.3-0
    
+   :depends bioconductor-seqlogo: 
    :depends busco: 3.0.2
    :depends doit: >=0.29.0
    :depends hmmer: 
@@ -36,8 +36,6 @@ dammit
    :depends numpy: 
    :depends pandas: 
    :depends parallel: 
-   :depends pytest: 
-   :depends pytest-runner: 
    :depends python: >3
    :depends shmlast: 
    :depends sphinx: >1.3.1

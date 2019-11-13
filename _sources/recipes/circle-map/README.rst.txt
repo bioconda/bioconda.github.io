@@ -22,11 +22,11 @@ circle-map
 
    |downloads_circle-map| |docker_circle-map|
 
-   :versions: 1.1.2-0, 1.1.1-0, 1.0.4-0
+   :versions: 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.0.4-0
    
    :depends biopython: >=1.73
    :depends edlib: >=1.2.3
-   :depends numba: >=0.43.1
+   :depends numba: >=0.45.0
    :depends numpy: >=1.16.3
    :depends pandas: >=0.24.2
    :depends pybedtools: >=0.8.0
