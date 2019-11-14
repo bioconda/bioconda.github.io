@@ -22,10 +22,10 @@ platypus-conquistador
 
    |downloads_platypus-conquistador| |docker_platypus-conquistador|
 
-   :versions: 0.9.0-2, 0.9.0-1, 0.9.0-0
+   :versions: 0.9.0-3, 0.9.0-2, 0.9.0-1, 0.9.0-0
    
    :depends click: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends scikit-bio: >=0.2.1,<0.3.0
    :requirements:
 

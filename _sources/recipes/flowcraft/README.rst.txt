@@ -25,7 +25,7 @@ flowcraft
 
    |downloads_flowcraft| |docker_flowcraft|
 
-   :versions: 1.4.1-1, 1.4.0-1, 1.4.0-0, 1.3.1-1, 1.3.0-1, 1.2.2-1, 1.2.1-1, 1.2.0.post1-1, 1.2.0.post1-0, 1.2.0-0
+   :versions: 1.4.1-2, 1.4.1-1, 1.4.0-1, 1.4.0-0, 1.3.1-1, 1.3.0-1, 1.2.2-1, 1.2.1-1, 1.2.0.post1-1, 1.2.0.post1-0, 1.2.0-0
    
    :depends jinja2: 
    :depends nextflow: >=0.28

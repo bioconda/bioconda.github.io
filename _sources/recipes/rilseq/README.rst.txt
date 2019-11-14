@@ -22,7 +22,7 @@ rilseq
 
    |downloads_rilseq| |docker_rilseq|
 
-   :versions: 0.72-0, 0.71-0, 0.70-0
+   :versions: 0.73-0, 0.72-0, 0.71-0, 0.70-0
    
    :depends biopython: 
    :depends bwa: >=0.7.12
