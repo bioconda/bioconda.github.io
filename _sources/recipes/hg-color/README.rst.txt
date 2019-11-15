@@ -22,14 +22,16 @@ hg-color
 
    |downloads_hg-color| |docker_hg-color|
 
-   :versions: 1.0.0-3, 1.0.0-2, 1.0.0-1
+   :versions: 1.1.1-0, 1.0.0-3, 1.0.0-2, 1.0.0-1
    
+   :depends coreutils: 
    :depends emboss: 
    :depends kmc: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends parallel: 
    :depends pgsa: 
-   :depends python: >2.6
+   :depends python: 
    :depends quorum: 
    :requirements:
 

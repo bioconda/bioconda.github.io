@@ -22,7 +22,7 @@ rnasamba
 
    |downloads_rnasamba| |docker_rnasamba|
 
-   :versions: 0.2.0-0, 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.2-0, 0.1.0-1, 0.1.0-0
+   :versions: 0.2.0-2, 0.2.0-1, 0.2.0-0, 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.2-0, 0.1.0-1, 0.1.0-0
    
    :depends biopython: 
    :depends keras: >=2.1.0,<2.3.0

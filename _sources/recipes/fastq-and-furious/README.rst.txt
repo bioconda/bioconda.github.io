@@ -22,7 +22,7 @@ fastq-and-furious
 
    |downloads_fastq-and-furious| |docker_fastq-and-furious|
 
-   :versions: 0.3.0-0, 0.2.0-1, 0.2.0-0, 0.1.0-0
+   :versions: 0.3.1-0, 0.3.0-0, 0.2.0-1, 0.2.0-0, 0.1.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends python: >=3.6,<3.7.0a0

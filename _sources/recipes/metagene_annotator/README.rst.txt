@@ -22,7 +22,7 @@ metagene_annotator
 
    |downloads_metagene_annotator| |docker_metagene_annotator|
 
-   :versions: 1.0-2, 1.0-0
+   :versions: 1.0-3, 1.0-2, 1.0-0
    
    :depends libgcc-ng: >=7.3.0
    :requirements:

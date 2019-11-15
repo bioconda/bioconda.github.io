@@ -22,11 +22,11 @@ clever-toolkit
 
    |downloads_clever-toolkit| |docker_clever-toolkit|
 
-   :versions: 2.4-6, 2.4-5, 2.4-0, 2.3-0, 2.2.1-0, 2.1-3, 2.0rc4-3, 2.0rc4-2, 2.0rc3-1, 2.0rc3-0
+   :versions: 2.4-7, 2.4-6, 2.4-5, 2.4-0, 2.3-0, 2.2.1-0, 2.1-3, 2.0rc4-3, 2.0rc4-2, 2.0rc3-1, 2.0rc3-0
    
    :depends bcftools: >=1
    :depends bedtools: >=2.26
-   :depends boost: >=1.68.0,<1.68.1.0a0
+   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
    :depends bwa: 
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

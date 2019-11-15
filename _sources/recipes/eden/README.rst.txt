@@ -22,7 +22,7 @@ eden
 
    |downloads_eden| |docker_eden|
 
-   :versions: 2.0-2, 2.0-1, 2.0-0, 1.1-1, 1.1-0
+   :versions: 2.0-3, 2.0-2, 2.0-1, 2.0-0, 1.1-1, 1.1-0
    
    :depends biopython: 
    :depends cvxopt: 
@@ -36,13 +36,13 @@ eden
    :depends openbabel: 
    :depends pandas: 
    :depends pybedtools: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends python-graphviz: 
    :depends rdkit: 
    :depends reportlab: 
    :depends requests: 
    :depends rnashapes: 
-   :depends scikit-learn: >=0.17.0
+   :depends scikit-learn: >=0.17.0,<0.20.0
    :depends scipy: >=0.14.0
    :depends weblogo: 
    :requirements:
