@@ -11,7 +11,7 @@ graphmap
 
    A highly sensitive and accurate mapper for long\, error\-prone reads.
 
-   :homepage: https://github.com/isovic/graphmap
+   :homepage: https://github.com/lbcb-sci/graphmap2
    :license: MIT
    :recipe: /`graphmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphmap/meta.yaml>`_
 
@@ -22,9 +22,10 @@ graphmap
 
    |downloads_graphmap| |docker_graphmap|
 
-   :versions: 0.5.2-2, 0.5.2-1, 0.5.2-0, 0.4.0-0, 0.3.1p1-1, 0.3.1p1-0
+   :versions: 0.6.3-0, 0.5.2-2, 0.5.2-1, 0.5.2-0, 0.4.0-0, 0.3.1p1-1, 0.3.1p1-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

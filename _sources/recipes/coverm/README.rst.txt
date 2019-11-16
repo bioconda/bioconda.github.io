@@ -11,7 +11,7 @@ coverm
 
    CoverM aims to be a configurable\, easy to use and fast DNA read coverage and relative abundance calculator focused on metagenomics applications
 
-   :homepage: https://github.com/wwood/coverm
+   :homepage: https://github.com/wwood/CoverM
    :license: GPL3
    :recipe: /`coverm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/coverm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/coverm/meta.yaml>`_
 
@@ -22,12 +22,13 @@ coverm
 
    |downloads_coverm| |docker_coverm|
 
-   :versions: 0.3.0-0, 0.2.0.alpha7-0
+   :versions: 0.3.1-0, 0.3.0-0, 0.2.0.alpha7-0
    
    :depends bwa: >=0.7.17
    :depends gsl: >=2.5,<2.6.0a0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
+   :depends minimap2: 
    :depends openblas: >=0.3.6,<0.3.7.0a0
    :depends samtools: >=1.9
    :depends starcode: 

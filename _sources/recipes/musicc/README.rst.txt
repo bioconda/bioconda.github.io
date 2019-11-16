@@ -22,7 +22,7 @@ musicc
 
    |downloads_musicc| |docker_musicc|
 
-   :versions: 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.1-0
+   :versions: 1.0.4-0, 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.1-0
    
    :depends numpy: >=1.17.0
    :depends pandas: >=0.25.0

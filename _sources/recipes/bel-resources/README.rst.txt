@@ -22,7 +22,7 @@ bel-resources
 
    |downloads_bel-resources| |docker_bel-resources|
 
-   :versions: 0.0.2-0
+   :versions: 0.0.3-0, 0.0.2-0
    
    :depends multisplitby: 
    :depends python: >=3.5

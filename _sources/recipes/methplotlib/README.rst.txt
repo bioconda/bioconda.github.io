@@ -22,7 +22,7 @@ methplotlib
 
    |downloads_methplotlib| |docker_methplotlib|
 
-   :versions: 0.6.0-0, 0.4.0-0
+   :versions: 0.7.0-0, 0.6.0-0, 0.4.0-0
    
    :depends numpy: >=1.14.3
    :depends pandas: >=0.23.4

@@ -22,8 +22,9 @@ scrublet
 
    |downloads_scrublet| |docker_scrublet|
 
-   :versions: 0.2.1-1, 0.2.1-0
+   :versions: 0.2.1-2, 0.2.1-1, 0.2.1-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends matplotlib: 
    :depends numba: 
    :depends numpy: >=1.13

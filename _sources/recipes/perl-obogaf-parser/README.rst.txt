@@ -18,14 +18,18 @@ perl-obogaf-parser
    :license: perl_5
    :recipe: /`perl-obogaf-parser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-obogaf-parser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-obogaf-parser/meta.yaml>`_
 
-   
+   \[\!\[Documentation Status\]\(https\:\/\/readthedocs.org\/projects\/obogaf\-parser\/badge\/\?version\=latest\)\]\(https\:\/\/obogaf\-parser.readthedocs.io\/en\/latest\/\?badge\=latest\)
+
+   obogaf\-parser is a perl5 module specifically designed to handle GO and HPO obo file and their gene annotation file \(gaf\). However\, obogaf\-parser can be safely used to parse any obo file listed in OBO foundry website and any gaf file structured as those shown in GOA and HPO website \(i.e. a csv file using tab as separator\).
+
+
 
 
 .. conda:package:: perl-obogaf-parser
 
    |downloads_perl-obogaf-parser| |docker_perl-obogaf-parser|
 
-   :versions: 1.016-0
+   :versions: 1.271-0, 1.016-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-extutils-makemaker: 
