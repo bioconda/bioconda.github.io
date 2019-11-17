@@ -22,16 +22,16 @@ iced
 
    |downloads_iced| |docker_iced|
 
-   :versions: 0.5.0-0, 0.4.2-0
+   :versions: 0.5.2-0, 0.5.0-0, 0.4.2-0
    
-   :depends cython: 
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends matplotlib: 
-   :depends numpy: >=1.9
+   :depends numpy: >=1.14.6,<2.0a0
    :depends pandas: 
    :depends python: >=2.7,<2.8.0a0
    :depends scikit-learn: 
-   :depends scipy: >=0.14
+   :depends scipy: >=0.13.3
    :requirements:
 
    .. rubric:: Installation
