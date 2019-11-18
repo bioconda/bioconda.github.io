@@ -23,7 +23,7 @@ poppunk
 
    |downloads_poppunk| |docker_poppunk|
 
-   :versions: 1.1.7-0, 1.1.6-0, 1.1.5-0, 1.1.4-0, 1.1.3-0, 1.1.2-0
+   :versions: 1.2.2-0, 1.2.0-0, 1.1.7-0, 1.1.6-0, 1.1.5-0, 1.1.4-0, 1.1.3-0, 1.1.2-0
    
    :depends dendropy: 
    :depends hdbscan: 

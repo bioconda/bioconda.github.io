@@ -22,12 +22,14 @@ iucn_sim
 
    |downloads_iucn_sim| |docker_iucn_sim|
 
-   :versions: 1.2-0
+   :versions: 1.4-0, 1.3-0, 1.2-0
    
    :depends matplotlib: 
    :depends numpy: 
    :depends pandas: 
    :depends python: >=3.6
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-rredlist: 
    :depends scipy: 
    :requirements:
 

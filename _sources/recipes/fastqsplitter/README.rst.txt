@@ -24,7 +24,7 @@ fastqsplitter
 
    |downloads_fastqsplitter| |docker_fastqsplitter|
 
-   :versions: 1.1.0-1, 1.1.0-0, 1.0.0-0
+   :versions: 1.2.0-0, 1.1.0-1, 1.1.0-0, 1.0.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends pigz: 
