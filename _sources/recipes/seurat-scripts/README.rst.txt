@@ -22,13 +22,16 @@ seurat-scripts
 
    |downloads_seurat-scripts| |docker_seurat-scripts|
 
-   :versions: 0.0.5-1, 0.0.5-0
+   :versions: 0.0.6-0, 0.0.5-1, 0.0.5-0
    
+   :depends bioconductor-scater: 
+   :depends libpng: >=1.6.37,<1.7.0a0
    :depends mscorefonts: 
-   :depends r-base: >=3.4,<3.5.0a0
+   :depends r-cairo: 
+   :depends r-loom: 
    :depends r-optparse: 
-   :depends r-seurat: 2.3.1.*
-   :depends r-workflowscriptscommon: 
+   :depends r-seurat: 3.1.1.*
+   :depends r-workflowscriptscommon: >=0.0.6
    :requirements:
 
    .. rubric:: Installation

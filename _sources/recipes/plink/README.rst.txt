@@ -22,7 +22,7 @@ plink
 
    |downloads_plink| |docker_plink|
 
-   :versions: 1.90b5-1, 1.90b5-0, 1.90b4-3, 1.90b4-2, 1.90b4-1, 1.90b4-0
+   :versions: 1.90b6.12-0, 1.90b5-1, 1.90b5-0, 1.90b4-3, 1.90b4-2, 1.90b4-1, 1.90b4-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libgfortran-ng: >=7,<8.0a0

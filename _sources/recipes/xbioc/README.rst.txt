@@ -22,13 +22,13 @@ xbioc
 
    |downloads_xbioc| |docker_xbioc|
 
-   :versions: 0.1.16-0
+   :versions: 0.1.18-0, 0.1.16-0
    
    :depends bioconductor-annotationdbi: 
    :depends bioconductor-biobase: 
-   :depends bioconductor-biocinstaller: 
    :depends r-assertthat: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-biocmanager: 
    :depends r-digest: 
    :depends r-pkgmaker: >=0.26.6
    :depends r-plyr: 

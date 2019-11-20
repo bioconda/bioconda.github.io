@@ -22,7 +22,7 @@ clair
 
    |downloads_clair| |docker_clair|
 
-   :versions: 2.0.0-0
+   :versions: 2.0.1-0, 2.0.0-0
    
    :depends intervaltree: 3.0.2
    :depends numpy: >=1.17,<1.18
@@ -32,6 +32,7 @@ clair
    :depends pysam: 0.15.3
    :depends python: >=3,<3.8
    :depends python-blosc: 1.8.1
+   :depends samtools: 
    :depends tensorflow: >=1.12,<1.14
    :requirements:
 

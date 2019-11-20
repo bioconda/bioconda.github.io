@@ -12,7 +12,7 @@ bcftools
    BCFtools is a set of utilities that manipulate variant calls in the Variant Call Format \(VCF\) and its binary counterpart BCF. All commands work transparently with both VCFs and BCFs\, both uncompressed and BGZF\-compressed.  Most commands accept VCF\, bgzipped VCF and BCF with filetype detected automatically even when streaming from a pipe. Indexed VCF and BCF will work in all situations. Un\-indexed VCF and BCF and streams will work in most\, but not all situations.
 
    :homepage: https://github.com/samtools/bcftools
-   :license: MIT
+   :license: GPL
    :recipe: /`bcftools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcftools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcftools/meta.yaml>`_
    :links: biotools: :biotools:`bcftools`, doi: :doi:`10.1093/bioinformatics/btp352`
 
@@ -23,7 +23,7 @@ bcftools
 
    |downloads_bcftools| |docker_bcftools|
 
-   :versions: 1.9-8, 1.9-7, 1.9-6, 1.9-5, 1.9-4, 1.9-3, 1.9-2, 1.9-1, 1.8-3, 1.8-2, 1.8-1, 1.8-0, 1.7-0, 1.6-1, 1.6-0, 1.5-3, 1.5-2, 1.5-1, 1.5-0, 1.4.1-0, 1.4-0, 1.3.1-5, 1.3.1-4, 1.3.1-3, 1.3.1-2, 1.3.1-1, 1.3.1-0, 1.3-5, 1.3-4, 1.3-3, 1.3-2, 1.3-1, 1.3-0, 1.2-4, 1.2-3, 1.2-2, 1.2-1, 1.2-0
+   :versions: 1.9-9, 1.9-8, 1.9-7, 1.9-6, 1.9-5, 1.9-4, 1.9-3, 1.9-2, 1.9-1, 1.8-3, 1.8-2, 1.8-1, 1.8-0, 1.7-0, 1.6-1, 1.6-0, 1.5-3, 1.5-2, 1.5-1, 1.5-0, 1.4.1-0, 1.4-0, 1.3.1-5, 1.3.1-4, 1.3.1-3, 1.3.1-2, 1.3.1-1, 1.3.1-0, 1.3-5, 1.3-4, 1.3-3, 1.3-2, 1.3-1, 1.3-0, 1.2-4, 1.2-3, 1.2-2, 1.2-1, 1.2-0
    
    :depends gsl: >=2.5,<2.6.0a0
    :depends htslib: >=1.9,<1.10.0a0
