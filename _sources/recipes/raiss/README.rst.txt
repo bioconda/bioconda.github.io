@@ -22,7 +22,7 @@ raiss
 
    |downloads_raiss| |docker_raiss|
 
-   :versions: 1.0-0
+   :versions: 2.0-0, 1.0-0
    
    :depends joblib: 
    :depends pandas: 

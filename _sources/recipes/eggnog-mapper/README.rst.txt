@@ -25,10 +25,10 @@ eggnog-mapper
 
    |downloads_eggnog-mapper| |docker_eggnog-mapper|
 
-   :versions: 2.0.1-0, 2.0.0-0, 1.0.3-3, 1.0.3-2, 1.0.3-1, 1.0.3-0, 1.0.2-0, 1.0.1-0, 1.0.0-0
+   :versions: 2.0.1-1, 2.0.1-0, 2.0.0-0, 1.0.3-3, 1.0.3-2, 1.0.3-1, 1.0.3-0, 1.0.2-0, 1.0.1-0, 1.0.0-0
    
    :depends biopython: 
-   :depends diamond: 0.9.24.*
+   :depends diamond: >0.9
    :depends python: <3
    :depends wget: 
    :requirements:

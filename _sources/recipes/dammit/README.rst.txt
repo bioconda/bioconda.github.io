@@ -22,7 +22,7 @@ dammit
 
    |downloads_dammit| |docker_dammit|
 
-   :versions: 1.1-0, 1.0-4, 1.0-3, 1.0.rc0-0, 1.0rc2-2, 1.0rc2-0, 0.3.2-0, 0.3-0
+   :versions: 1.1.1-0, 1.1-0, 1.0-4, 1.0-3, 1.0.rc0-0, 1.0rc2-2, 1.0rc2-0, 0.3.2-0, 0.3-0
    
    :depends bioconductor-seqlogo: 
    :depends busco: 3.0.2

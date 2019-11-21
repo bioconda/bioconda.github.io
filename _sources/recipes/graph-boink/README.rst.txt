@@ -22,7 +22,7 @@ graph-boink
 
    |downloads_graph-boink| |docker_graph-boink|
 
-   :versions: 0.9-0, 0.8-0
+   :versions: 0.9.1-0, 0.9-0, 0.8-0
    
    :depends blessings: 
    :depends clangdev: 8.0.1.*

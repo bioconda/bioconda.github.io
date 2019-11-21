@@ -23,7 +23,7 @@ kart
 
    |downloads_kart| |docker_kart|
 
-   :versions: 2.5.2-0
+   :versions: 2.5.3-0, 2.5.2-0
    
    :depends boost-cpp: >=1.70.0,<1.70.1.0a0
    :depends bzip2: >=1.0.8,<2.0a0

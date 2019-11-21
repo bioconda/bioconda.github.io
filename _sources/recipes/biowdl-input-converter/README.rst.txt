@@ -24,7 +24,7 @@ biowdl-input-converter
 
    |downloads_biowdl-input-converter| |docker_biowdl-input-converter|
 
-   :versions: 0.2.0-0, 0.1.0-0
+   :versions: 0.2.1-0, 0.2.0-0, 0.1.0-0
    
    :depends python: >=3.7
    :depends pyyaml: 
