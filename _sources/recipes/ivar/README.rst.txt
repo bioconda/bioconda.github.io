@@ -12,7 +12,7 @@ ivar
    iVar is a computational package that contains functions broadly useful for viral amplicon\-based sequencing.
 
    :homepage: https://andersen-lab.github.io/ivar/html/
-   :developer docs: https://github.com/gkarthik/ivar
+   :developer docs: https://github.com/andersen-lab/ivar
    :license: GPL-3.0
    :recipe: /`ivar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ivar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ivar/meta.yaml>`_
    :links: biotools: :biotools:`ivar`
@@ -24,7 +24,7 @@ ivar
 
    |downloads_ivar| |docker_ivar|
 
-   :versions: 1.0-2, 1.0-1, 1.0-0
+   :versions: 1.0.1-0, 1.0-2, 1.0-1, 1.0-0
    
    :depends bzip2: >=1.0.8,<2.0a0
    :depends curl: >=7.64.1,<8.0a0

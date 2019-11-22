@@ -11,7 +11,7 @@ genomepy
 
    Download genomes the easy way.
 
-   :homepage: https://github.com/simonvh/genomepy
+   :homepage: https://github.com/vanheeringen-lab/genomepy
    :license: MIT / MIT License
    :recipe: /`genomepy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomepy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomepy/meta.yaml>`_
 
@@ -22,7 +22,7 @@ genomepy
 
    |downloads_genomepy| |docker_genomepy|
 
-   :versions: 0.7.0-0, 0.6.1-0, 0.6.0-0, 0.5.5-1, 0.5.5-0, 0.5.4-1, 0.5.4-0, 0.5.2-2, 0.5.2-1, 0.5.1-0, 0.5.0-0, 0.4.0-0, 0.3.1-0
+   :versions: 0.7.1-0, 0.7.0-0, 0.6.1-0, 0.6.0-0, 0.5.5-1, 0.5.5-0, 0.5.4-1, 0.5.4-0, 0.5.2-2, 0.5.2-1, 0.5.1-0, 0.5.0-0, 0.4.0-0, 0.3.1-0
    
    :depends appdirs: 
    :depends biopython: >=1.73

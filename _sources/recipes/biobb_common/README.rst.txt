@@ -30,18 +30,15 @@ biobb_common
 
 
    \#\#\# Copyright \& Licensing
-   This software has been developed in the MMB group \(http\:\/\/mmb.irbbarcelona.org\) at the
-   BSC \(http\:\/\/www.bsc.es\/\) \& IRB \(https\:\/\/www.irbbarcelona.org\/\) for the European BioExcel \(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission
-   \(EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
+   \#\#\# Copyright \& Licensing
+   This software has been developed in the \[MMB group\]\(http\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(http\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
 
    \* \(c\) 2015\-2019 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
    \* \(c\) 2015\-2019 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
-
    Licensed under the
-   \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file
-   \[LICENSE\]\(LICENSE\) for details.
+   \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details.
 
-   \!\[\]\(https\:\/\/bioexcel.eu\/wp\-content\/uploads\/2015\/12\/Bioexcell\_logo\_1080px\_transp.png \"Bioexcel\"\)
+   \!\[\]\(https\:\/\/bioexcel.eu\/wp\-content\/uploads\/2019\/04\/Bioexcell\_logo\_1080px\_transp.png \"Bioexcel\"\)
 
 
 
@@ -51,7 +48,7 @@ biobb_common
 
    |downloads_biobb_common| |docker_biobb_common|
 
-   :versions: 1.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.2-0, 0.0.8-0, 0.0.6-0, 0.0.5-0, 0.0.4-0, 0.0.3-0
+   :versions: 2.0.1-0, 2.0.0-0, 1.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.2-0, 0.0.8-0, 0.0.6-0, 0.0.5-0, 0.0.4-0, 0.0.3-0
    
    :depends biopython: 1.73
    :depends python: 3.6.*

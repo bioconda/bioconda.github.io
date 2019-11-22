@@ -29,18 +29,14 @@ biobb_analysis
 
 
    \#\#\# Copyright \& Licensing
-   This software has been developed in the MMB group \(http\:\/\/mmb.irbbarcelona.org\) at the
-   BSC \(http\:\/\/www.bsc.es\/\) \& IRB \(https\:\/\/www.irbbarcelona.org\/\) for the European BioExcel \(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission
-   \(EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
+   This software has been developed in the \[MMB group\]\(http\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(http\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
 
    \* \(c\) 2015\-2019 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
    \* \(c\) 2015\-2019 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
-
    Licensed under the
-   \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file
-   \[LICENSE\]\(LICENSE\) for details.
+   \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details.
 
-   \!\[\]\(https\:\/\/bioexcel.eu\/wp\-content\/uploads\/2015\/12\/Bioexcell\_logo\_1080px\_transp.png \"Bioexcel\"\)
+   \!\[\]\(https\:\/\/bioexcel.eu\/wp\-content\/uploads\/2019\/04\/Bioexcell\_logo\_1080px\_transp.png \"Bioexcel\"\)
 
 
 
@@ -50,9 +46,9 @@ biobb_analysis
 
    |downloads_biobb_analysis| |docker_biobb_analysis|
 
-   :versions: 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-0, 1.0.1-0, 0.2.0-0, 0.1.9-0, 0.1.8-0, 0.1.7-0, 0.1.6-0, 0.1.4-0, 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.9-0, 0.0.8-0, 0.0.4-0
+   :versions: 2.0.1-0, 2.0.0-0, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-0, 1.0.1-0, 0.2.0-0, 0.1.9-0, 0.1.8-0, 0.1.7-0, 0.1.6-0, 0.1.4-0, 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.9-0, 0.0.8-0, 0.0.4-0
    
-   :depends biobb_common: 1.1.6
+   :depends biobb_common: 2.0.1
    :depends gromacs: 2019.1
    :depends python: 3.6.*
    :requirements:
