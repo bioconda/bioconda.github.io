@@ -24,7 +24,7 @@ medaka
 
    |downloads_medaka| |docker_medaka|
 
-   :versions: 0.10.1-0, 0.10.0-1, 0.10.0-0, 0.9.2-0, 0.9.1-0, 0.9.0-0, 0.8.1-1, 0.8.1-0, 0.8.0-0, 0.7.1-1, 0.7.0-1, 0.7.0-0, 0.6.5-0, 0.6.4-0, 0.6.2-0, 0.6.0-0, 0.5.2-0
+   :versions: 0.11.0-0, 0.10.1-0, 0.10.0-1, 0.10.0-0, 0.9.2-0, 0.9.1-0, 0.9.0-0, 0.8.1-1, 0.8.1-0, 0.8.0-0, 0.7.1-1, 0.7.0-1, 0.7.0-0, 0.6.5-0, 0.6.4-0, 0.6.2-0, 0.6.0-0, 0.5.2-0
    
    :depends bcftools: 1.9
    :depends biopython: 
@@ -38,6 +38,7 @@ medaka
    :depends mappy: 
    :depends minimap2: 2.17
    :depends numpy: 1.16.1
+   :depends ont-fast5-api: 
    :depends parasail-python: 
    :depends pysam: >=0.15.2
    :depends python: >=3.6,<3.7.0a0

@@ -22,7 +22,7 @@ mapgl
 
    |downloads_mapgl| |docker_mapgl|
 
-   :versions: 0.1.1-0, 0.0.6-0
+   :versions: 1.0.1-0, 0.1.1-0, 0.0.6-0
    
    :depends bx-python: 
    :depends numpy: 

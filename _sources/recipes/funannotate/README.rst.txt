@@ -24,9 +24,10 @@ funannotate
 
    |downloads_funannotate| |docker_funannotate|
 
-   :versions: 1.7.1-0
+   :versions: 1.7.1-1
    
-   :depends augustus: 
+   :depends augustus: >3.3
+   :depends bamtools: 
    :depends bedtools: 
    :depends biopython: 
    :depends blast: 2.2.31
@@ -47,12 +48,25 @@ funannotate
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 
-   :depends pasa: >=2.3
+   :depends pasa: >=2.4.1
+   :depends perl: 
+   :depends perl-bioperl: >1.7
+   :depends perl-clone: 
+   :depends perl-dbd-mysql: 
+   :depends perl-hash-merge: 
+   :depends perl-json: 
+   :depends perl-logger-simple: 
+   :depends perl-parallel-forkmanager: 
+   :depends perl-scalar-util-numeric: 
+   :depends perl-soap-lite: 
+   :depends perl-text-soundex: 
    :depends proteinortho: >=6.0.9
    :depends psutil: 
-   :depends python: <3
+   :depends python: >=2.7,<2.8.0a0
+   :depends r-base: >=3.4.1
    :depends raxml: 
    :depends requests: 
+   :depends salmon: >=0.9
    :depends scikit-learn: 
    :depends scipy: 
    :depends seaborn: 
@@ -62,7 +76,7 @@ funannotate
    :depends tbl2asn: 
    :depends trimal: 
    :depends trimmomatic: 
-   :depends trinity: >=2.8.5
+   :depends trinity: >=2.8.5 h8b12597_5
    :depends trnascan-se: 
    :depends ucsc-pslcdnafilter: 
    :requirements:
