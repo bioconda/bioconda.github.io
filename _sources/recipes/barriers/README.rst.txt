@@ -22,7 +22,7 @@ barriers
 
    |downloads_barriers| |docker_barriers|
 
-   :versions: 1.8.0-0, 1.7.0-1, 1.7.0-0
+   :versions: 1.8.1-0, 1.8.0-0, 1.7.0-1, 1.7.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

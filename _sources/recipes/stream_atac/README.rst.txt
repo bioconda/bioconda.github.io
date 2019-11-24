@@ -22,7 +22,7 @@ stream_atac
 
    |downloads_stream_atac| |docker_stream_atac|
 
-   :versions: 0.3.5-2, 0.3.5-1, 0.3.5-0, 0.3.4-2, 0.3.4-1, 0.3.4-0, 0.3.3-0, 0.3.3a-0, 0.3.2-0, 0.3.1-1, 0.3.1-0, 0.3.0-0, 0.2.0-1, 0.2.0-0, 0.1.0-0
+   :versions: 0.3.5-3, 0.3.5-2, 0.3.5-1, 0.3.5-0, 0.3.4-2, 0.3.4-1, 0.3.4-0, 0.3.3-0, 0.3.3a-0, 0.3.2-0, 0.3.1-1, 0.3.1-0, 0.3.0-0, 0.2.0-1, 0.2.0-0, 0.1.0-0
    
    :depends anndata: 
    :depends bioconductor-chromvar: 
@@ -34,6 +34,7 @@ stream_atac
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends python: >=3.6,<3.7.0a0
    :depends r-essentials: 
+   :depends r-optparse: 
    :depends rpy2: 2.9.*
    :depends scikit-learn: 
    :depends unzip: 
