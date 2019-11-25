@@ -22,11 +22,13 @@ methplotlib
 
    |downloads_methplotlib| |docker_methplotlib|
 
-   :versions: 0.7.0-0, 0.6.0-0, 0.4.0-0
+   :versions: 0.8.0-0, 0.7.0-0, 0.6.0-0, 0.4.0-0
    
+   :depends fisher: >=0.1.9
    :depends numpy: >=1.14.3
    :depends pandas: >=0.23.4
    :depends plotly: >=4.1.1
+   :depends pyranges: >=0.0.63
    :depends python: >=3
    :depends scikit-learn: 
    :requirements:
