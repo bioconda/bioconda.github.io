@@ -11,7 +11,6 @@ mixcr
 
    MiXCR is a universal software for fast and accurate analysis of raw T\- or B\- cell receptor repertoire sequencing data.
 
-
    :homepage: https://github.com/milaboratory/mixcr
    :license: https://github.com/milaboratory/mixcr/blob/develop/LICENSE
    :recipe: /`mixcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mixcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mixcr/meta.yaml>`_
@@ -23,7 +22,7 @@ mixcr
 
    |downloads_mixcr| |docker_mixcr|
 
-   :versions: 3.0.11-0, 3.0.10-0, 3.0.9-0, 3.0.8-0, 3.0.7-0, 3.0.5-0, 2.1.10-1, 2.1.10-0, 2.1.3-0
+   :versions: 3.0.12-0, 3.0.11-0, 3.0.10-0, 3.0.9-0, 3.0.8-0, 3.0.7-0, 3.0.5-0, 2.1.10-1, 2.1.10-0, 2.1.3-0
    
    :depends openjdk: >=11
    :requirements:

@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;extern&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;nanovar&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -98,63 +98,73 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="extern">
+  <div class="section" id="nanovar">
 <dl class="recipe">
-<dt id="recipe-extern">
-<em class="property">recipe </em><code class="sig-name descname">extern</code><a class="headerlink" href="#recipe-extern" title="Permalink to this definition">¶</a></dt>
-<dd><p>Extern is an opinionated version of Pythons subprocess, making it just that little bit more convenient to run shell commands from within Python code.</p>
+<dt id="recipe-nanovar">
+<em class="property">recipe </em><code class="sig-name descname">nanovar</code><a class="headerlink" href="#recipe-nanovar" title="Permalink to this definition">¶</a></dt>
+<dd><p>Structural variant caller using low-depth long reads</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://pypi.python.org/pypi/extern/">https://pypi.python.org/pypi/extern/</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/cytham/nanovar">https://github.com/cytham/nanovar</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>MIT / MIT</p>
+<dd class="field-even"><p>GPL3 / GNU General Public v3 (GPLv3)</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/extern">extern</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/extern/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanovar">nanovar</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanovar/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-extern">
-<em class="property">package </em><code class="sig-name descname">extern</code><a class="headerlink" href="#package-extern" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/extern"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/extern.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/extern"><img alt="docker_extern" src="https://quay.io/repository/biocontainers/extern/status" /></a></p>
+<dt id="package-nanovar">
+<em class="property">package </em><code class="sig-name descname">nanovar</code><a class="headerlink" href="#package-nanovar" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/nanovar"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/nanovar.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/nanovar"><img alt="docker_nanovar" src="https://quay.io/repository/biocontainers/nanovar/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>0.2.1-1, 0.2.1-0</p>
+<dd class="field-odd"><p>1.2.5-0, 1.2.3-0</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=2.7,&lt;2.8.0a0</p></li>
+<li><p><a class="conda-package reference internal" href="../bedtools/README.html#package-bedtools" title="bedtools package"><strong>bedtools</strong></a> &gt;=2.26.0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/biopython-feedstock"><strong>biopython</strong></a> &gt;=1.74</p></li>
+<li><p><a class="conda-package reference internal" href="../blast/README.html#package-blast" title="blast package"><strong>blast</strong></a> &gt;=2.5.0</p></li>
+<li><p><a class="conda-package reference internal" href="../hs-blastn/README.html#package-hs-blastn" title="hs-blastn package"><strong>hs-blastn</strong></a> &gt;=0.0.5</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/matplotlib-feedstock"><strong>matplotlib</strong></a> &gt;=2.2.3</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/natsort-feedstock"><strong>natsort</strong></a> &gt;=6.2.0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a> &gt;=1.17.3</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/progress-feedstock"><strong>progress</strong></a> &gt;=1.4</p></li>
+<li><p><a class="conda-package reference internal" href="../pybedtools/README.html#package-pybedtools" title="pybedtools package"><strong>pybedtools</strong></a> &gt;=0.8.0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=3.6</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scipy-feedstock"><strong>scipy</strong></a> &gt;=1.2.1</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/tensorflow-feedstock"><strong>tensorflow</strong></a> &gt;=2.0.0</p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../graftm/README.html#graftm"><strong class="xref backref">graftm</strong></a></p></li>
 </ul>
 </dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">extern</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">nanovar</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">extern</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">nanovar</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">extern</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">nanovar</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/extern?tab=tags">extern/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/nanovar?tab=tags">nanovar/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/extern/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/extern/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/nanovar/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/nanovar/README.html)
 </pre></div>
 </div>
 </div>
@@ -175,14 +185,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/extern/README.rst.txt"
+      <a href="../../_sources/recipes/nanovar/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/extern/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/nanovar/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>
