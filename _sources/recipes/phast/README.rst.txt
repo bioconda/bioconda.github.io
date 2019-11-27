@@ -22,9 +22,8 @@ phast
 
    |downloads_phast| |docker_phast|
 
-   :versions: 1.5-1, 1.5-0
+   :versions: 1.5-2, 1.5-1, 1.5-0
    
-   :depends clapack: 
    :depends libgcc-ng: >=7.3.0
    :requirements:
 

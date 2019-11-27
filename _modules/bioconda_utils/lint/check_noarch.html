@@ -247,12 +247,14 @@
 <span class="sd">    platform. Remove the noarch section or use just one source for all</span>
 <span class="sd">    platforms.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-
     <span class="n">_pat</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;# +\[.*\]&#39;</span><span class="p">)</span>
+
 <div class="viewcode-block" id="should_not_be_noarch_source.check_source"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_noarch.html#bioconda_utils.lint.check_noarch.should_not_be_noarch_source.check_source">[docs]</a>    <span class="k">def</span> <span class="nf">check_source</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">source</span><span class="p">,</span> <span class="n">section</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;build/noarch&#39;</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span> <span class="ow">is</span> <span class="kc">False</span><span class="p">:</span>
+            <span class="k">return</span>  <span class="c1"># no noarch, or noarch=False</span>
         <span class="c1"># just search the entire source entry for a comment</span>
         <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_pat</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">recipe</span><span class="o">.</span><span class="n">get_raw</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;</span><span class="si">{section}</span><span class="s2">&quot;</span><span class="p">)):</span>
-             <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">section</span><span class="p">)</span></div></div>
+            <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">section</span><span class="p">)</span></div></div>
 </pre></div>
 
           </div>

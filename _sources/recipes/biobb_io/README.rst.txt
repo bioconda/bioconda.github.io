@@ -15,7 +15,7 @@ biobb_io
    :license: APACHE / Apache Software License
    :recipe: /`biobb_io <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_io>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_io/meta.yaml>`_
 
-   \[\!\[Documentation Status\]\(https\:\/\/readthedocs.org\/projects\/biobb\-io\/badge\/\?version\=latest\)\]\(https\:\/\/biobb\-io.readthedocs.io\/en\/latest\/\?badge\=latest\)
+   \[\!\[\]\(https\:\/\/readthedocs.org\/projects\/biobb\-io\/badge\/\?version\=latest\)\]\(https\:\/\/biobb\-io.readthedocs.io\/en\/latest\/\?badge\=latest\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/install\%20with\-bioconda\-brightgreen.svg\?style\=flat\)\]\(https\:\/\/anaconda.org\/bioconda\/biobb\_io\) \[\!\[\]\(https\:\/\/quay.io\/repository\/biocontainers\/biobb\_io\/status\)\]\(https\:\/\/quay.io\/repository\/biocontainers\/biobb\_io\) \[\!\[\]\(https\:\/\/www.singularity\-hub.org\/static\/img\/hosted\-singularity\-\-hub\-\%23e32929.svg\)\]\(https\:\/\/singularity\-hub.org\/collections\/2411\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/License\-Apache\%202.0\-blue.svg\)\]\(https\:\/\/opensource.org\/licenses\/Apache\-2.0\)
 
    \# biobb\_io
 
@@ -28,19 +28,16 @@ biobb_io
    The latest documentation of this package can be found in our readthedocs site\:
    \[latest API documentation\]\(http\:\/\/biobb\_io.readthedocs.io\/en\/latest\/\).
 
+
    \#\#\# Copyright \& Licensing
-   This software has been developed in the MMB group \(http\:\/\/mmb.irbbarcelona.org\) at the
-   BSC \(http\:\/\/www.bsc.es\/\) \& IRB \(https\:\/\/www.irbbarcelona.org\/\) for the European BioExcel \(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission
-   \(EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
+   This software has been developed in the \[MMB group\]\(http\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(http\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
 
    \* \(c\) 2015\-2019 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
    \* \(c\) 2015\-2019 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
-
    Licensed under the
-   \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file
-   \[LICENSE\]\(LICENSE\) for details.
+   \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details.
 
-   \!\[\]\(https\:\/\/bioexcel.eu\/wp\-content\/uploads\/2015\/12\/Bioexcell\_logo\_1080px\_transp.png \"Bioexcel\"\)
+   \!\[\]\(https\:\/\/bioexcel.eu\/wp\-content\/uploads\/2019\/04\/Bioexcell\_logo\_1080px\_transp.png \"Bioexcel\"\)
 
 
 
@@ -50,9 +47,9 @@ biobb_io
 
    |downloads_biobb_io| |docker_biobb_io|
 
-   :versions: 1.1.6-0, 0.1.4-0, 0.1.3-0, 0.1.1-0, 0.1.0-0, 0.0.8-0, 0.0.6-0, 0.0.5-2, 0.0.5-0, 0.0.3-0
+   :versions: 2.0.0-0, 1.1.6-0, 0.1.4-0, 0.1.3-0, 0.1.1-0, 0.1.0-0, 0.0.8-0, 0.0.6-0, 0.0.5-2, 0.0.5-0, 0.0.3-0
    
-   :depends biobb_common: 1.1.6
+   :depends biobb_common: 2.0.1
    :depends python: 3.6.*
    :requirements:
 
