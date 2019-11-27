@@ -26,7 +26,7 @@ tobias
 
    |downloads_tobias| |docker_tobias|
 
-   :versions: 0.8.0-0, 0.7.0-0, 0.6.4-0, 0.6.1-0, 0.5.0-0
+   :versions: 0.9.0-0, 0.8.0-0, 0.7.0-0, 0.6.4-0, 0.6.1-0, 0.5.0-0
    
    :depends adjusttext: 
    :depends libgcc-ng: >=7.3.0
@@ -41,6 +41,7 @@ tobias
    :depends python: >=3.6,<3.7.0a0
    :depends scikit-learn: 
    :depends scipy: 
+   :depends svist4get: 
    :depends xlsxwriter: 
    :requirements:
 

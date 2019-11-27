@@ -30,7 +30,7 @@ mirtrace
 
    |downloads_mirtrace| |docker_mirtrace|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.1-0, 1.0.0-0
    
    :depends openjdk: >=8.0.144
    :depends python: 

@@ -22,7 +22,7 @@ jass_preprocessing
 
    |downloads_jass_preprocessing| |docker_jass_preprocessing|
 
-   :versions: 2.0-0, 1.0-0
+   :versions: 2.0.1-0, 2.0-0, 1.0-0
    
    :depends numpy: 
    :depends pandas: 
