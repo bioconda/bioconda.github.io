@@ -22,13 +22,15 @@ agat
 
    |downloads_agat| |docker_agat|
 
-   :versions: 0.0.3-0, 0.0.1-0
+   :versions: 0.0.3-1, 0.0.3-0, 0.0.1-0
    
    :depends libdb: 
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-bioperl: >=1.7
    :depends perl-clone: 
+   :depends perl-extutils-makemaker: 
    :depends perl-file-share: 
+   :depends perl-file-sharedir-install: 
    :depends perl-graph: 
    :depends perl-json: 
    :depends perl-lwp-simple: 
