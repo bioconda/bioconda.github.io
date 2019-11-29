@@ -9,9 +9,10 @@ centreseq
 .. conda:recipe:: centreseq
    :replaces_section_title:
 
-   Fast generation of a core genome among bacterial strains
+   Fast generation of core genome from bacterial strains
 
    :homepage: https://github.com/bfssi-forest-dussault/centreseq
+   :developer docs: https://github.com/BFSSI-Bioinformatics-Lab/centreseq
    :license: MIT / MIT
    :recipe: /`centreseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/centreseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/centreseq/meta.yaml>`_
 
@@ -22,22 +23,19 @@ centreseq
 
    |downloads_centreseq| |docker_centreseq|
 
-   :versions: 0.3.0-0, v0.2.3-0
+   :versions: 0.3.8-0, 0.3.0-0, v0.2.3-0
    
-   :depends biopython: >=1.70
+   :depends biopython: >=1.74
    :depends click: >=7.0
-   :depends cyvcf2: 
-   :depends dataclasses: >=0.6
-   :depends minced: 
-   :depends mmseqs2: 
+   :depends mmseqs2: 9-d36de
    :depends muscle: 
    :depends pandas: >=0.24.0
    :depends prokka: 
-   :depends python: >=3.6
+   :depends pytest: >=5.0.1
+   :depends python: >=3.7
    :depends scipy: >=1.1
-   :depends seqkit: 
-   :depends snp-sites: 
-   :depends tqdm: >=4.32.2
+   :depends seaborn: >=0.9.0
+   :depends tqdm: >=4.39.0
    :depends xlsxwriter: >=1.1.8
    :requirements:
 

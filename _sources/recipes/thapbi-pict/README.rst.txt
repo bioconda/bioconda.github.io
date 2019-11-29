@@ -12,10 +12,17 @@ thapbi-pict
    THAPBI Phytophthora ITS1 Classifier Tool \(PICT\).
 
    :homepage: https://github.com/peterjc/thapbi-pict
+   :documentation: https://thapbi-pict.readthedocs.io/en/latest/
+   
    :license: MIT / MIT
    :recipe: /`thapbi-pict <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/thapbi-pict>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/thapbi-pict/meta.yaml>`_
 
-   
+   THAPBI Phytophthora ITS1 Classifier Tool \(PICT\) an ITS1\-based
+   diagnostic\/profiling tool from the UK BBSRC funded Tree Health
+   and Plant Biosecurity Initiative \(THAPBI\) Phyto\-Threats project\,
+   focused on identifying Phytophthora species present in Illumina
+   sequenced environmental samples.
+
 
 
 .. conda:package:: thapbi-pict
