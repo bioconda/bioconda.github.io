@@ -23,7 +23,7 @@ sexdeterrmine
 
    |downloads_sexdeterrmine| |docker_sexdeterrmine|
 
-   :versions: 1.1-0, 1.0-1
+   :versions: 1.1.1-0, 1.1-0, 1.0-1
    
    :depends python: 3.7.1.*
    :requirements:

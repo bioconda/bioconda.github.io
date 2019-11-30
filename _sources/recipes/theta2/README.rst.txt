@@ -22,13 +22,13 @@ theta2
 
    |downloads_theta2| |docker_theta2|
 
-   :versions: 0.7-1, 0.7-0
+   :versions: 0.7-2, 0.7-1, 0.7-0
    
    :depends joblib: 
    :depends matplotlib: 
    :depends numexpr: 
    :depends numpy: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: <3
    :depends scipy: 
    :requirements:
 

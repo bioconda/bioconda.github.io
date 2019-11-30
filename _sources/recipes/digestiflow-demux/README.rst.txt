@@ -23,7 +23,7 @@ digestiflow-demux
 
    |downloads_digestiflow-demux| |docker_digestiflow-demux|
 
-   :versions: 0.4.2-0, 0.4.1-0, 0.4.0-0, 0.3.1-0, 0.3.0-0, 0.2.0-0, 0.1.0-0
+   :versions: 0.5.0-0, 0.4.2-0, 0.4.1-0, 0.4.0-0, 0.3.1-0, 0.3.0-0, 0.2.0-0, 0.1.0-0
    
    :depends attrs: >=18.2.0
    :depends coloredlogs: >=10.0

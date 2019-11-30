@@ -23,7 +23,7 @@ antismash
 
    |downloads_antismash| |docker_antismash|
 
-   :versions: 4.2.0-1, 4.1.0-1, 4.1.0-0, 4.0.2-3, 4.0.2-2, 4.0.2-1, 4.0.1-1
+   :versions: 4.2.0-2, 4.2.0-1, 4.1.0-1, 4.1.0-0, 4.0.2-3, 4.0.2-2, 4.0.2-1, 4.0.1-1
    
    :depends argparse: 
    :depends backports.lzma: 
@@ -40,7 +40,7 @@ antismash
    :depends helperlibs: 
    :depends hmmer: 3.1b2
    :depends hmmer2: 
-   :depends icu: >=58.2,<59.0a0
+   :depends icu: >=64.2,<65.0a0
    :depends libxml2: 2.9.*
    :depends mafft: 
    :depends matplotlib: 
@@ -56,10 +56,10 @@ antismash
    :depends pyexcelerator: 
    :depends pyquery: 1.2.*
    :depends pysvg: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=2.7,<3.0a0
    :depends scikit-learn: 0.18.*
    :depends scipy: 
-   :depends xz: 5.2.*
+   :depends xz: >=5.2.4,<5.3.0a0
    :requirements:
 
    .. rubric:: Installation
