@@ -22,9 +22,9 @@ maxentscan
 
    |downloads_maxentscan| |docker_maxentscan|
 
-   :versions: 0_2004.04.21-1, 0_2004.04.21-0
+   :versions: 0_2004.04.21-2, 0_2004.04.21-1, 0_2004.04.21-0
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 
    .. rubric:: Installation
