@@ -22,7 +22,7 @@ galaxy-ie-helpers
 
    |downloads_galaxy-ie-helpers| |docker_galaxy-ie-helpers|
 
-   :versions: 0.2.4-0, 0.2.3-0, 0.2.1-2, 0.2.1-1, 0.2.1-0
+   :versions: 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.1-2, 0.2.1-1, 0.2.1-0
    
    :depends bioblend: 
    :depends python: 
