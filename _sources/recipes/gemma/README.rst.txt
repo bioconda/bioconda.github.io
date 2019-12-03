@@ -22,11 +22,11 @@ gemma
 
    |downloads_gemma| |docker_gemma|
 
-   :versions: 0.98-0
+   :versions: 0.98.1-0, 0.98-0
    
-   :depends gsl: >=2.2.1,<2.3.0a0
-   :depends libstdcxx-ng: >=4.9
-   :depends openblas: >=0.2.20,<0.2.21.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends openblas: >=0.3.6,<0.3.7.0a0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

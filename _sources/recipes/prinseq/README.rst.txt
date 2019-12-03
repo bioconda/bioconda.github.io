@@ -22,8 +22,9 @@ prinseq
 
    |downloads_prinseq| |docker_prinseq|
 
-   :versions: 0.20.4-3, 0.20.4-2, 0.20.4-1, 0.20.4-0
+   :versions: 0.20.4-4, 0.20.4-3, 0.20.4-2, 0.20.4-1, 0.20.4-0
    
+   :depends perl: 
    :requirements:
 
    .. rubric:: Installation

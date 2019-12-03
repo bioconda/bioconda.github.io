@@ -22,8 +22,9 @@ primer3-py
 
    |downloads_primer3-py| |docker_primer3-py|
 
-   :versions: 0.5.4-3, 0.5.4-2, 0.5.4-1, 0.5.1-0
+   :versions: 0.6.0-0, 0.5.4-3, 0.5.4-2, 0.5.4-1, 0.5.1-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends python: >=2.7,<2.8.0a0
    :requirements:
 
