@@ -24,7 +24,7 @@ pgcgap
 
    |downloads_pgcgap| |docker_pgcgap|
 
-   :versions: 1.0.9-0, 1.0.8-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-4, 1.0.2-3, 1.0.2-2, 1.0.2-1, 1.0.1-1, 1.0.1-0, 1.0.0-0
+   :versions: 1.0.9-1, 1.0.9-0, 1.0.8-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-4, 1.0.2-3, 1.0.2-2, 1.0.2-1, 1.0.1-1, 1.0.1-0, 1.0.0-0
    
    :depends abyss: >=2.1.5
    :depends biopython: 
@@ -35,6 +35,7 @@ pgcgap
    :depends fastani: >=1.1
    :depends fastme: >=2.1.5
    :depends fasttree: >=2.1.10
+   :depends gubbins: 
    :depends htslib: >=1.9
    :depends mafft: >=7.402
    :depends mash: 
@@ -43,7 +44,7 @@ pgcgap
    :depends mmseqs2: >=7-4e23d
    :depends numpy: 
    :depends openjdk: 8.*
-   :depends orthofinder: >=2.2.7
+   :depends orthofinder: >=2.3.8
    :depends pal2nal: 
    :depends pandas: 
    :depends perl-data-dumper: >=2.173
