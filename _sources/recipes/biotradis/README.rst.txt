@@ -12,7 +12,7 @@ biotradis
    A set of tools to analyse the output from TraDIS analyses
 
    :homepage: https://github.com/sanger-pathogens/Bio-Tradis
-   :license: GPLv3
+   :license: GPL3 / GNU General Public License v3 (GPLv3)
    :recipe: /`biotradis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biotradis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biotradis/meta.yaml>`_
 
    
@@ -22,18 +22,26 @@ biotradis
 
    |downloads_biotradis| |docker_biotradis|
 
-   :versions: 1.4.1-0, 1.4.1.dev-4, 1.4.1.dev-3, 1.4.1.dev-2, 1.4.1.dev-1, 1.4.1.dev-0
+   :versions: 1.4.5-0, 1.4.1-0, 1.4.1.dev-4, 1.4.1.dev-3, 1.4.1.dev-2, 1.4.1.dev-1, 1.4.1.dev-0
    
    :depends bioconductor-edger: 
+   :depends bwa: 
+   :depends perl: 
    :depends perl-app-cpanminus: 
+   :depends perl-bioperl: 
+   :depends perl-exception-class: 
+   :depends perl-local-lib: 
    :depends perl-moose: 
    :depends perl-parallel-forkmanager: 
    :depends perl-pathtools: 
    :depends perl-scalar-util-numeric: 
+   :depends perl-text-csv: 
+   :depends r-base: 
    :depends r-getopt: 
    :depends r-mass: 
    :depends samtools: 
    :depends smalt: 
+   :depends tabix: 
    :requirements:
 
    .. rubric:: Installation

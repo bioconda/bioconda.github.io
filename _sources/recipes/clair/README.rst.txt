@@ -22,7 +22,7 @@ clair
 
    |downloads_clair| |docker_clair|
 
-   :versions: 2.0.2-0, 2.0.1-0, 2.0.0-0
+   :versions: 2.0.3-0, 2.0.2-0, 2.0.1-0, 2.0.0-0
    
    :depends intervaltree: 3.0.2
    :depends matplotlib: 

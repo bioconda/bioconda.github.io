@@ -14,7 +14,7 @@ pyseer
    :homepage: https://github.com/mgalardini/pyseer
    :license: APACHE / Apache-2.0
    :recipe: /`pyseer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyseer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyseer/meta.yaml>`_
-   :links: doi: :doi:`10.1093/bioinformatics/bty539`
+   :links: doi: :doi:`10.1093/bioinformatics/bty539`, doi: :doi:`10.1101/852426v1`
 
    
 
@@ -23,7 +23,7 @@ pyseer
 
    |downloads_pyseer| |docker_pyseer|
 
-   :versions: 1.3.3-0, 1.3.2-0, 1.3.1-1, 1.3.1-0, 1.3.0-0, 1.2.0-0, 1.1.2-0, 1.1.1-0, 1.1.0-1, 1.1.0-0, 1.0.2-0, 0.3.1-0
+   :versions: 1.3.4-0, 1.3.3-0, 1.3.2-0, 1.3.1-1, 1.3.1-0, 1.3.0-0, 1.2.0-0, 1.1.2-0, 1.1.1-0, 1.1.0-1, 1.1.0-0, 1.0.2-0, 0.3.1-0
    
    :depends bedops: 
    :depends bedtools: 

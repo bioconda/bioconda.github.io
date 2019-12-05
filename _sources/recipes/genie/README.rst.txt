@@ -22,7 +22,7 @@ genie
 
    |downloads_genie| |docker_genie|
 
-   :versions: 0.4.1-0
+   :versions: 0.5.0-0, 0.4.2-1, 0.4.2-0, 0.4.1-0
    
    :requirements:
 

@@ -22,11 +22,11 @@ xsd
 
    |downloads_xsd| |docker_xsd|
 
-   :versions: 4.0.0_dep-1, 4.0.0_dep-0
+   :versions: 4.0.0_dep-2, 4.0.0_dep-1, 4.0.0_dep-0
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
-   :depends xerces-c: >=3.2.0,<3.2.1.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends xerces-c: >=3.2.2,<3.2.3.0a0
    :requirements:
 
    .. rubric:: Installation

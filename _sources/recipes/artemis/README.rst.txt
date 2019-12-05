@@ -23,7 +23,7 @@ artemis
 
    |downloads_artemis| |docker_artemis|
 
-   :versions: 18.0.3-0, 18.0.2-0, 18.0.1-0
+   :versions: 18.1.0-0, 18.0.3-0, 18.0.2-0, 18.0.1-0
    
    :depends openjdk: >=9
    :requirements:
