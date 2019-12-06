@@ -22,7 +22,7 @@ recentrifuge
 
    |downloads_recentrifuge| |docker_recentrifuge|
 
-   :versions: 0.28.13-0
+   :versions: 0.28.14-0, 0.28.13-0
    
    :depends biopython: >=1.68
    :depends matplotlib: >3.0

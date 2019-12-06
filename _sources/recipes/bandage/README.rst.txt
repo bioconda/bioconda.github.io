@@ -23,10 +23,13 @@ bandage
 
    |downloads_bandage| |docker_bandage|
 
-   :versions: 0.8.1-0
+   :versions: 0.8.1-1, 0.8.1-0
    
-   :depends libstdcxx-ng: >=4.9
+   :depends fonts-conda-ecosystem: 
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends qt: 
+   :depends xorg-libxrender: 
    :requirements:
 
    .. rubric:: Installation

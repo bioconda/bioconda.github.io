@@ -22,7 +22,7 @@ rna-seqc
 
    |downloads_rna-seqc| |docker_rna-seqc|
 
-   :versions: 2.3.4-0, 2.3.3-0, 1.1.8-2, 1.1.8-1
+   :versions: 2.3.5-0, 2.3.4-0, 2.3.3-0, 1.1.8-2, 1.1.8-1
    
    :depends boost-cpp: >=1.70.0,<1.70.1.0a0
    :depends bzip2: >=1.0.8,<2.0a0
