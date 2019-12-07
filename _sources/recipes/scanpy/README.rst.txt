@@ -23,12 +23,13 @@ scanpy
 
    |downloads_scanpy| |docker_scanpy|
 
-   :versions: 1.4.4.post1-1, 1.4.4.post1-0, 1.4.4-1, 1.4.4-0, 1.4.3-0, 1.4.2-0, 1.4.1-0, 1.4-0, 1.3.7-0, 1.3.6-0, 1.3.5-0, 1.3.4-0, 1.3.3-0, 1.3.2-0, 1.3.1-0
+   :versions: 1.4.4.post1-2, 1.4.4.post1-1, 1.4.4.post1-0, 1.4.4-1, 1.4.4-0, 1.4.3-0, 1.4.2-0, 1.4.1-0, 1.4-0, 1.3.7-0, 1.3.6-0, 1.3.5-0, 1.3.4-0, 1.3.3-0, 1.3.2-0, 1.3.1-0
    
    :depends anndata: >=0.6.22rc1
    :depends h5py: !=2.10.0
    :depends importlib_metadata: >=0.7
    :depends joblib: 
+   :depends louvain: 
    :depends matplotlib: 3.0.*
    :depends natsort: 
    :depends networkx: 

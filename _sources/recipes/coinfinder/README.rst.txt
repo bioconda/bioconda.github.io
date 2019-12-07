@@ -23,22 +23,32 @@ coinfinder
 
    |downloads_coinfinder| |docker_coinfinder|
 
-   :versions: 1.0.0-2, 1.0.0-1, 1.0.0-0
+   :versions: 1.0.0-3, 1.0.0-2, 1.0.0-1, 1.0.0-0
    
    :depends bioconductor-ggtree: 
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends openmp: 
    :depends python: >=3.6,<3.7.0a0
+   :depends r-ape: 
    :depends r-base: 
    :depends r-caper: 
    :depends r-cowplot: 
    :depends r-data.table: 
    :depends r-dplyr: 
+   :depends r-flock: 
+   :depends r-future: 
    :depends r-getopt: 
+   :depends r-ggplot2: >=3.0.0
    :depends r-ggraph: 
    :depends r-igraph: 
+   :depends r-magrittr: 
    :depends r-phytools: 
+   :depends r-purrr: 
+   :depends r-rlang: 
+   :depends r-rvcheck: 
+   :depends r-tidyr: 
+   :depends r-tidytree: >=0.2.6
    :requirements:
 
    .. rubric:: Installation

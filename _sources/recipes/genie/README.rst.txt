@@ -9,20 +9,22 @@ genie
 .. conda:recipe:: genie
    :replaces_section_title:
 
-   Genie is a bioinformatics tools for managing high\-throughput sequencing data
+   A toolkit for working with Next Generation Sequencing \(NGS\) data
 
    :homepage: https://github.com/sakkayaphab/genie
    :license: MIT / MIT
    :recipe: /`genie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genie/meta.yaml>`_
 
-   
+   Genie is a collection of tools for a wide\-range of genomics analysis tasks.
+   Genie provides a fast\, lightweight\, and flexible toolkit for reading\, writing\,
+   and manipulating data.
 
 
 .. conda:package:: genie
 
    |downloads_genie| |docker_genie|
 
-   :versions: 0.5.0-0, 0.4.2-1, 0.4.2-0, 0.4.1-0
+   :versions: 0.6.0-0, 0.5.0-1, 0.5.0-0, 0.4.2-1, 0.4.2-0, 0.4.1-0
    
    :requirements:
 

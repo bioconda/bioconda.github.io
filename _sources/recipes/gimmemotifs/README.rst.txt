@@ -23,9 +23,10 @@ gimmemotifs
 
    |downloads_gimmemotifs| |docker_gimmemotifs|
 
-   :versions: 0.13.1-4, 0.13.1-3, 0.13.1-2, 0.13.1-1, 0.13.1-0, 0.13.0-1, 0.13.0-0, 0.12.0-1, 0.12.0-0, 0.11.1-1, 0.11.1-0, 0.10.0-0, 0.10.0b6-1, 0.10.0b5-1, 0.10.0b4-1, 0.10.0b4-0, 0.10.0b1-0, 0.9.0.6-0, 0.9.0.5-0, 0.9.0.4-0, 0.9.0.3-2, 0.8.9.1-1
+   :versions: 0.14.0-1, 0.14.0-0, 0.13.1-4, 0.13.1-3, 0.13.1-2, 0.13.1-1, 0.13.1-0, 0.13.0-1, 0.13.0-0, 0.12.0-1, 0.12.0-0, 0.11.1-1, 0.11.1-0, 0.10.0-0, 0.10.0b6-1, 0.10.0b5-1, 0.10.0b4-1, 0.10.0b4-0, 0.10.0b1-0, 0.9.0.6-0, 0.9.0.5-0, 0.9.0.4-0, 0.9.0.3-2, 0.8.9.1-1
    
    :depends bedtools: 
+   :depends dinamo: 
    :depends diskcache: 
    :depends feather-format: 
    :depends future: 
@@ -33,20 +34,25 @@ gimmemotifs
    :depends genomepy: >=0.6.1
    :depends ghostscript: 
    :depends homer: 
+   :depends icu: 58.*
+   :depends ipywidgets: 
    :depends jinja2: 
    :depends libgcc-ng: >=7.3.0
+   :depends logomaker: 
    :depends matplotlib: >=2.0
-   :depends meme: 
+   :depends meme: >=5
    :depends ncurses: >=6.1,<6.2.0a0
    :depends numpy: 
    :depends pillow: 
+   :depends prosampler: 
+   :depends pyarrow: 
    :depends pybedtools: 
    :depends pysam: 
    :depends python: >=3.6,<3.7.0a0
    :depends python-xxhash: 
    :depends pyyaml: >=3.10
    :depends scikit-learn: >=0.18
-   :depends scipy: <1.3.0
+   :depends scipy: >=1.3.0
    :depends seaborn: 
    :depends six: 
    :depends sklearn-contrib-lightning: 

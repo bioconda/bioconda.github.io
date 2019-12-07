@@ -12,7 +12,7 @@ graph_embed
    Compute a 2D embedding of a data matrix given supervised class information.
 
    :homepage: https://github.com/fabriziocosta/GraphEmbed
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`graph_embed <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graph_embed>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graph_embed/meta.yaml>`_
 
    
@@ -22,14 +22,16 @@ graph_embed
 
    |downloads_graph_embed| |docker_graph_embed|
 
-   :versions: 1.0-1, 1.0-0
+   :versions: 2.4-0, 1.0-1, 1.0-0
    
    :depends docopt: 
    :depends matplotlib: 
    :depends networkx: 
    :depends numpy: 
-   :depends python: >=2.7,<3
-   :depends scikit-learn: 
+   :depends pygraphviz: 
+   :depends python: 
+   :depends scikit-learn: 0.22
+   :depends toolz: 
    :requirements:
 
    .. rubric:: Installation

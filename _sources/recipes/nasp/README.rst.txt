@@ -23,7 +23,7 @@ nasp
 
    |downloads_nasp| |docker_nasp|
 
-   :versions: 1.1.2-1, 1.1.2-0, 1.0.2a1-3, 1.0.2a1-2, 1.0.2a1-1, 1.0.1-1, 1.0.1-0
+   :versions: 1.2.0-0, 1.1.2-1, 1.1.2-0, 1.0.2a1-3, 1.0.2a1-2, 1.0.2a1-1, 1.0.1-1, 1.0.1-0
    
    :depends mummer: 
    :depends python: >=3.8,<3.9.0a0

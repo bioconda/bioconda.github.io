@@ -12,7 +12,7 @@ albatradis
    Comparative TraDIS analysis
 
    :homepage: https://github.com/quadram-institute-bioscience/albatradis
-   :license: GPLv3
+   :license: GPL3 / GNU General Public License v3 (GPLv3)
    :recipe: /`albatradis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/albatradis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/albatradis/meta.yaml>`_
 
    
@@ -22,22 +22,18 @@ albatradis
 
    |downloads_albatradis| |docker_albatradis|
 
-   :versions: 1.0.0-3, 1.0.0-2, 1.0.0-1, 1.0.0-0, 0.0.5-4
+   :versions: 1.0.1-0, 1.0.0-3, 1.0.0-2, 1.0.0-1, 1.0.0-0, 0.0.5-4
    
    :depends biopython: >=1.68
-   :depends biotradis: 1.4.1.dev.*
+   :depends biotradis: >=1.4.5 1
    :depends cython: 
    :depends dendropy: 
-   :depends graphviz: >=2.38.0,<3.0a0
+   :depends graphviz: 
+   :depends libgcc-ng: >=7.3.0
    :depends numpy: 
    :depends pandas: 
-   :depends perl-app-cpanminus: 
-   :depends perl-moose: 
-   :depends perl-parallel-forkmanager: 
-   :depends perl-pathtools: 
-   :depends perl-scalar-util-numeric: 
    :depends pyfastaq: >=3.12.0
-   :depends python: >=3.7,<3.8.0a0
+   :depends python: >=3.6,<3.7.0a0
    :depends python-graphviz: 
    :depends scipy: 
    :depends seaborn: 
