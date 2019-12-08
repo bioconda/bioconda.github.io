@@ -22,7 +22,7 @@ r-swamp
 
    |downloads_r-swamp| |docker_r-swamp|
 
-   :versions: 1.4.1-3, 1.4.1-2, 1.4.1-1, 1.4.1-0, 1.3.1-0
+   :versions: 1.5.1-0, 1.4.1-3, 1.4.1-2, 1.4.1-1, 1.4.1-0, 1.3.1-0
    
    :depends bioconductor-impute: 
    :depends r-amap: 

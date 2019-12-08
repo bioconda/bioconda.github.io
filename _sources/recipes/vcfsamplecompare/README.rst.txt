@@ -14,7 +14,7 @@ vcfsamplecompare
    :homepage: https://github.com/hepcat72/vcfSampleCompare
    :license: GNU
    :recipe: /`vcfsamplecompare <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfsamplecompare>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfsamplecompare/meta.yaml>`_
-   :links: doi: :doi:`10.5281/zenodo.1463080`
+   :links: doi: :doi:`10.5281/zenodo.3565896`
 
    
 
@@ -23,7 +23,7 @@ vcfsamplecompare
 
    |downloads_vcfsamplecompare| |docker_vcfsamplecompare|
 
-   :versions: v2.008-1, v2.008-0, v2.006-0
+   :versions: 2.013-0, v2.008-1, v2.008-0, v2.006-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:

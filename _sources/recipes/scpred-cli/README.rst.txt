@@ -22,8 +22,11 @@ scpred-cli
 
    |downloads_scpred-cli| |docker_scpred-cli|
 
-   :versions: 
+   :versions: 0.0.1-0
    
+   :depends r-optparse: 
+   :depends r-scpred: 
+   :depends r-workflowscriptscommon: 
    :requirements:
 
    .. rubric:: Installation

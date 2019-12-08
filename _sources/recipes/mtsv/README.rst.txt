@@ -22,7 +22,7 @@ mtsv
 
    |downloads_mtsv| |docker_mtsv|
 
-   :versions: 1.0.6-0, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-0
+   :versions: 1.0.6-1, 1.0.6-0, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-0
    
    :depends biopython: 
    :depends bwa: 
@@ -33,6 +33,7 @@ mtsv
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends megahit: 
+   :depends mtsv-tools: 
    :depends numpy: 
    :depends pandas: >=0.20.3
    :depends python: >=3.6,<3.7.0a0

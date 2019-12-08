@@ -22,7 +22,7 @@ ectyper
 
    |downloads_ectyper| |docker_ectyper|
 
-   :versions: 0.9.0-0, 0.8.1-0, 0.5.4-2, 0.1-2, 0.1-0
+   :versions: 0.9.1-0, 0.9.0-0, 0.8.1-0, 0.5.4-2, 0.1-2, 0.1-0
    
    :depends bcftools: >=1.8.*
    :depends biopython: >=1.70.*
