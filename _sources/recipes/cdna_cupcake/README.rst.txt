@@ -22,12 +22,13 @@ cdna_cupcake
 
    |downloads_cdna_cupcake| |docker_cdna_cupcake|
 
-   :versions: 5.8-0, 5.3-1, 5.3-0
+   :versions: 8.7.3-0, 5.8-0, 5.3-1, 5.3-0
    
+   :depends bcbiogff: 
    :depends biopython: 
-   :depends bx-python: 0.7.3
+   :depends bx-python: 
    :depends graphviz: 
-   :depends pbcore: 
+   :depends libgcc-ng: >=7.3.0
    :depends python: >=2.7,<2.8.0a0
    :depends r-base: 
    :depends scikit-learn: 
