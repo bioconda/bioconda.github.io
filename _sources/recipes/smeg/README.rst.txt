@@ -9,7 +9,7 @@ smeg
 .. conda:recipe:: smeg
    :replaces_section_title:
 
-   Strain\-level MEtagenomic Growth estimation \(SMEG\) measures growth rates of microbial strains from complex metagenomic dataset
+   Strain\-level Metagenomic Estimation of Growth rate \(SMEG\) measures growth rates of microbial strains from complex metagenomic dataset
 
    :homepage: https://github.com/ohlab/SMEG
    :license: MIT
@@ -22,7 +22,7 @@ smeg
 
    |downloads_smeg| |docker_smeg|
 
-   :versions: 1.1.4-1, 1.1.4-0, 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.1-1, 1.1-0, 1.0.1-2, 1.0.1-1, 1.0.1-0
+   :versions: 1.1.5-0, 1.1.4-1, 1.1.4-0, 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.1-1, 1.1-0, 1.0.1-2, 1.0.1-1, 1.0.1-0
    
    :depends bamtools: 
    :depends bedtools: 

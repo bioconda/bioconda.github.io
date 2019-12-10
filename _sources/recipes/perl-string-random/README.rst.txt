@@ -22,9 +22,9 @@ perl-string-random
 
    |downloads_perl-string-random| |docker_perl-string-random|
 
-   :versions: 0.30-0
+   :versions: 0.30-1, 0.30-0
    
-   :depends perl: >=5.22.0.1,<5.23.0a0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-carp: 
    :depends perl-exporter: 
    :depends perl-parent: 
