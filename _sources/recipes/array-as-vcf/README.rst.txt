@@ -22,7 +22,7 @@ array-as-vcf
 
    |downloads_array-as-vcf| |docker_array-as-vcf|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.1-0, 1.0.0-0
    
    :depends python: >=3.6
    :depends requests: >2

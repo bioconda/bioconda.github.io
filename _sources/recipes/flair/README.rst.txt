@@ -12,7 +12,7 @@ flair
    Correction\, isoform definition\, and alternative splicing analysis of noisy reads \(ONT and PacBio\).
 
    :homepage: https://github.com/BrooksLabUCSC/flair
-   :license: unknown
+   :license: BSD-3
    :recipe: /`flair <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flair>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flair/meta.yaml>`_
    :links: doi: :doi:`10.1101/410183`
 
