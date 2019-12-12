@@ -22,7 +22,7 @@ augur
 
    |downloads_augur| |docker_augur|
 
-   :versions: 5.4.1-0, 5.4.0-0, 5.3.0-0, 5.2.1-0, 5.2.0-0, 5.1.1-0, 5.1.0-0, 4.0.0-0, 3.1.5-1, 3.1.5-0
+   :versions: 6.0.0-0, 5.4.1-0, 5.4.0-0, 5.3.0-0, 5.2.1-0, 5.2.0-0, 5.1.1-0, 5.1.0-0, 4.0.0-0, 3.1.5-1, 3.1.5-0
    
    :depends bcbio-gff: >=0.6.0
    :depends biopython: >=1.67
@@ -32,6 +32,7 @@ augur
    :depends jsonschema: >=3.0.0
    :depends mafft: 
    :depends matplotlib: 2.*
+   :depends packaging: >=19.2
    :depends pandas: >=0.20.0
    :depends python: >=3
    :depends raxml: 

@@ -24,7 +24,7 @@ combined-pvalues
 
    |downloads_combined-pvalues| |docker_combined-pvalues|
 
-   :versions: 0.48-3, 0.48-2, 0.48-0, 0.46-0
+   :versions: 0.50.0-0, 0.48-3, 0.48-2, 0.48-0, 0.46-0
    
    :depends interlap: 
    :depends numpy: 

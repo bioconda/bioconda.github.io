@@ -22,7 +22,7 @@ nim-falcon
 
    |downloads_nim-falcon| |docker_nim-falcon|
 
-   :versions: 1.0.1-0, 1.0.0-0, 0.0.1-1, 0.0.1-0, 0.0.0-0
+   :versions: 1.1.0-0, 1.0.1-0, 1.0.0-0, 0.0.1-1, 0.0.1-0, 0.0.0-0
    
    :depends htslib: >=1.9,<1.10.0a0
    :depends pcre: >=8.43,<9.0a0

@@ -22,7 +22,7 @@ variant_tools
 
    |downloads_variant_tools| |docker_variant_tools|
 
-   :versions: 3.1.0-0, 3.0.9-0, 3.0.8-0
+   :versions: 3.1.1-0, 3.1.0-0, 3.0.9-0, 3.0.8-0
    
    :depends blosc: >=1.17.0,<2.0a0
    :depends boost-cpp: >=1.70.0,<1.70.1.0a0
