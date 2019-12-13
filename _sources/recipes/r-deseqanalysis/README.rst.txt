@@ -23,7 +23,7 @@ r-deseqanalysis
 
    |downloads_r-deseqanalysis| |docker_r-deseqanalysis|
 
-   :versions: 0.2.13-0, 0.2.12-0, 0.2.11-0, 0.2.10-0, 0.2.9-0, 0.2.8-0, 0.2.7-0, 0.2.6-0, 0.2.5-0
+   :versions: 0.2.14-0, 0.2.13-0, 0.2.12-0, 0.2.11-0, 0.2.10-0, 0.2.9-0, 0.2.8-0, 0.2.7-0, 0.2.6-0, 0.2.5-0
    
    :depends bioconductor-biocgenerics: >=0.30
    :depends bioconductor-deseq2: >=1.24

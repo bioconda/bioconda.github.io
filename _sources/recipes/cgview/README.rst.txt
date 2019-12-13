@@ -24,7 +24,7 @@ cgview
 
    |downloads_cgview| |docker_cgview|
 
-   :versions: 1.0-3, 1.0-2, 1.0-1
+   :versions: 1.0-4, 1.0-3, 1.0-2, 1.0-1
    
    :depends openjdk: >=6
    :depends perl: 

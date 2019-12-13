@@ -23,12 +23,12 @@ phylocsf
 
    |downloads_phylocsf| |docker_phylocsf|
 
-   :versions: 1.0.1-0
+   :versions: 1.0.1-1, 1.0.1-0
    
-   :depends gsl: 
+   :depends gsl: >=2.5,<2.6.0a0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends ocaml: 
+   :depends ocaml: >=4.6.1,<5.0a0
    :requirements:
 
    .. rubric:: Installation

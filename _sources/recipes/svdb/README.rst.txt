@@ -22,12 +22,10 @@ svdb
 
    |downloads_svdb| |docker_svdb|
 
-   :versions: 1.3.0-1, 1.3.0-0, 1.1.2-0, 1.0.7-2, 1.0.7-1, 1.0.7-0
+   :versions: 2.1.1-0, 1.3.0-1, 1.3.0-0, 1.1.2-0, 1.0.7-2, 1.0.7-1, 1.0.7-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends numpy: 
    :depends python: >=2.7,<2.8.0a0
-   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation
