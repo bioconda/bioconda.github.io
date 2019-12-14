@@ -22,7 +22,7 @@ hint
 
    |downloads_hint| |docker_hint|
 
-   :versions: 2.2.1-0, 2.1.9-1, 2.1.9-0, 2.1.7-0, 2.0.1-0
+   :versions: 2.2.7-0, 2.2.1-0, 2.1.9-1, 2.1.9-0, 2.1.7-0, 2.0.1-0
    
    :depends argparse: >=1.1
    :depends bwa: >=0.7.16

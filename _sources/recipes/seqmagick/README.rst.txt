@@ -22,7 +22,7 @@ seqmagick
 
    |downloads_seqmagick| |docker_seqmagick|
 
-   :versions: 0.7.0-3, 0.7.0-2, 0.7.0-1, 0.7.0-0, 0.6.1-0
+   :versions: 0.8.0-0, 0.7.0-3, 0.7.0-2, 0.7.0-1, 0.7.0-0, 0.6.1-0
    
    :depends biopython: >=1.70
    :depends python: >3

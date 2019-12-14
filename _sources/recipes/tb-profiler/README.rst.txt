@@ -23,12 +23,21 @@ tb-profiler
 
    |downloads_tb-profiler| |docker_tb-profiler|
 
-   :versions: 2.7.4-0, 2.7.3-0, 2.7.2-0, 2.7.1-0, 2.7-0, 2.6.1-2, 2.6.1-1, 2.6.1-0, 2.6-0, 2.5-1, 2.5-0, 2.4-0, 2.3-0, 2.2-1, 2.2-0, 2.1-2, 2.1-1, 2.1-0, 2.0-0
+   :versions: 2.8.0-0, 2.7.4-0, 2.7.3-0, 2.7.2-0, 2.7.1-0, 2.7-0, 2.6.1-2, 2.6.1-1, 2.6.1-0, 2.6-0, 2.5-1, 2.5-0, 2.4-0, 2.3-0, 2.2-1, 2.2-0, 2.1-2, 2.1-1, 2.1-0, 2.0-0
    
+   :depends bcftools: >=1.9
+   :depends biopython: 
+   :depends bowtie2: 
+   :depends bwa: 
+   :depends delly: 
+   :depends gatk4: 
    :depends git: 
-   :depends pathogen-profiler: >=1.7.3
+   :depends minimap2: 
+   :depends parallel: 
    :depends python: >=3.6
+   :depends samtools: >=1.9
    :depends tqdm: 
+   :depends trimmomatic: 
    :requirements:
 
    .. rubric:: Installation

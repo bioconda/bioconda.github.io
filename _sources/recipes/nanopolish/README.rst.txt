@@ -22,7 +22,7 @@ nanopolish
 
    |downloads_nanopolish| |docker_nanopolish|
 
-   :versions: 0.11.2-0, 0.11.1-0, 0.11.0-1, 0.11.0-0, 0.10.2-0, 0.10.1-0, 0.9.2-5, 0.9.2-4, 0.9.2-0, 0.9.0-2, 0.9.0-1, 0.9.0-0, 0.8.5-4, 0.8.5-3, 0.8.1-3, 0.7.1-3, 0.7.1-1, 0.7.1-0, 0.7.0-0, 0.6.0-0, 0.6.0.dev-0, 0.4.0-0
+   :versions: 0.11.3-0, 0.11.2-0, 0.11.1-0, 0.11.0-1, 0.11.0-0, 0.10.2-0, 0.10.1-0, 0.9.2-5, 0.9.2-4, 0.9.2-0, 0.9.0-2, 0.9.0-1, 0.9.0-0, 0.8.5-4, 0.8.5-3, 0.8.1-3, 0.7.1-3, 0.7.1-1, 0.7.1-0, 0.7.0-0, 0.6.0-0, 0.6.0.dev-0, 0.4.0-0
    
    :depends biopython: 
    :depends bwa: 
@@ -31,7 +31,7 @@ nanopolish
    :depends hdf5: >=1.10.5,<1.10.6.0a0
    :depends htslib: >=1.9,<1.10.0a0
    :depends libcurl: >=7.64.1,<8.0a0
-   :depends libdeflate: >=1.0,<1.1.0a0
+   :depends libdeflate: 
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends ncurses: >=6.1,<6.2.0a0

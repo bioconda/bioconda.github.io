@@ -22,7 +22,7 @@ refgenconf
 
    |downloads_refgenconf| |docker_refgenconf|
 
-   :versions: 0.6.0-0, 0.5.4-0
+   :versions: 0.6.1-0, 0.6.0-0, 0.5.4-0
    
    :depends attmap: >=0.12.5
    :depends future: 
