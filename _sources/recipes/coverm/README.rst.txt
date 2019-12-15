@@ -22,7 +22,7 @@ coverm
 
    |downloads_coverm| |docker_coverm|
 
-   :versions: 0.3.1-0, 0.3.0-0, 0.2.0.alpha7-0
+   :versions: 0.3.2-0, 0.3.1-0, 0.3.0-0, 0.2.0.alpha7-0
    
    :depends bwa: >=0.7.17
    :depends gsl: >=2.5,<2.6.0a0

@@ -108,22 +108,22 @@
 <span class="kn">import</span> <span class="nn">logging</span>
 <span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">import</span> <span class="nn">re</span>
-<span class="kn">from</span> <span class="nn">functools</span> <span class="k">import</span> <span class="n">wraps</span>
+<span class="kn">from</span> <span class="nn">functools</span> <span class="kn">import</span> <span class="n">wraps</span>
 <span class="kn">import</span> <span class="nn">subprocess</span>
-<span class="kn">from</span> <span class="nn">importlib</span> <span class="k">import</span> <span class="n">import_module</span>
+<span class="kn">from</span> <span class="nn">importlib</span> <span class="kn">import</span> <span class="n">import_module</span>
 
 <span class="kn">import</span> <span class="nn">aiohttp</span>
 
-<span class="kn">from</span> <span class="nn">celery</span> <span class="k">import</span> <span class="n">Celery</span><span class="p">,</span> <span class="n">Task</span>
-<span class="kn">from</span> <span class="nn">celery.signals</span> <span class="k">import</span> <span class="n">celeryd_init</span>
+<span class="kn">from</span> <span class="nn">celery</span> <span class="kn">import</span> <span class="n">Celery</span><span class="p">,</span> <span class="n">Task</span>
+<span class="kn">from</span> <span class="nn">celery.signals</span> <span class="kn">import</span> <span class="n">celeryd_init</span>
 
-<span class="kn">from</span> <span class="nn">kombu</span> <span class="k">import</span> <span class="n">serialization</span>
+<span class="kn">from</span> <span class="nn">kombu</span> <span class="kn">import</span> <span class="n">serialization</span>
 <span class="kn">import</span> <span class="nn">simplejson</span>
 
-<span class="kn">from</span> <span class="nn">..githubhandler</span> <span class="k">import</span> <span class="n">GitHubAppHandler</span><span class="p">,</span> <span class="n">GitHubHandler</span>
-<span class="kn">from</span> <span class="nn">..githandler</span> <span class="k">import</span> <span class="n">install_gpg_key</span>
-<span class="kn">from</span> <span class="nn">..utils</span> <span class="k">import</span> <span class="n">RepoData</span><span class="p">,</span> <span class="n">setup_logger</span>
-<span class="kn">from</span> <span class="nn">.config</span> <span class="k">import</span> <span class="p">(</span>
+<span class="kn">from</span> <span class="nn">..githubhandler</span> <span class="kn">import</span> <span class="n">GitHubAppHandler</span><span class="p">,</span> <span class="n">GitHubHandler</span>
+<span class="kn">from</span> <span class="nn">..githandler</span> <span class="kn">import</span> <span class="n">install_gpg_key</span>
+<span class="kn">from</span> <span class="nn">..utils</span> <span class="kn">import</span> <span class="n">RepoData</span><span class="p">,</span> <span class="n">setup_logger</span>
+<span class="kn">from</span> <span class="nn">.config</span> <span class="kn">import</span> <span class="p">(</span>
     <span class="n">APP_ID</span><span class="p">,</span> <span class="n">APP_KEY</span><span class="p">,</span> <span class="n">CODE_SIGNING_KEY</span><span class="p">,</span> <span class="n">BOT_NAME</span><span class="p">,</span> <span class="n">REPODATA_TIMEOUT</span><span class="p">,</span>
     <span class="n">APP_CLIENT_ID</span><span class="p">,</span> <span class="n">APP_CLIENT_SECRET</span>
 <span class="p">)</span>
@@ -319,7 +319,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>

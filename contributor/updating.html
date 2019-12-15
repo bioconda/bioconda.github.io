@@ -225,7 +225,7 @@ explanation purposes:</p>
     <span class="c1"># supported by conda will match for `ext`. See the source in</span>
     <span class="c1"># bioconda_utils.hosters.Hoster for details. Those (quite complex)</span>
     <span class="c1"># regexps will be filled in at these placeholders.</span>
-    <span class="n">link_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;/src/contrib/(?P&lt;package&gt;[^/]+)_{version}{ext}&quot;</span>
+    <span class="n">link_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;/src/contrib/(?P&lt;package&gt;[^/]+)_</span><span class="si">{version}{ext}</span><span class="s2">&quot;</span>
 
     <span class="c1"># Bioconductor packages are stored at different locations on the</span>
     <span class="c1"># Bioconductor site depending on if they&#39;re a code package or a data</span>
@@ -238,12 +238,12 @@ explanation purposes:</p>
     <span class="c1"># URLs to figure out if the recipe is a Bioconductor package. `section`</span>
     <span class="c1"># and `link` are filled in from above (and `link` was in turn filled in</span>
     <span class="c1"># recursively from `version` and `ext`)</span>
-    <span class="n">url_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;bioconductor.org/packages/(?P&lt;bioc&gt;[\d\.]+){section}{link}&quot;</span>
+    <span class="n">url_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;bioconductor.org/packages/(?P&lt;bioc&gt;[\d\.]+)</span><span class="si">{section}{link}</span><span class="s2">&quot;</span>
 
     <span class="c1"># This is the HTML page containing releases for this package. It will</span>
     <span class="c1"># be filled in with # any other placeholders and then it will be</span>
     <span class="c1"># scraped for links that match `link_pattern` defined above.</span>
-    <span class="n">releases_format</span> <span class="o">=</span> <span class="s2">&quot;https://bioconductor.org/packages/{bioc}/bioc/html/{package}.html&quot;</span>
+    <span class="n">releases_format</span> <span class="o">=</span> <span class="s2">&quot;https://bioconductor.org/packages/</span><span class="si">{bioc}</span><span class="s2">/bioc/html/</span><span class="si">{package}</span><span class="s2">.html&quot;</span>
 </pre></div>
 </div>
 <p>To tie this all together:</p>
@@ -328,7 +328,7 @@ Changes not staged <span class="k">for</span> commit:
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

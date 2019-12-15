@@ -109,8 +109,8 @@
 <span class="kn">import</span> <span class="nn">glob</span>
 <span class="kn">import</span> <span class="nn">os</span>
 
-<span class="kn">from</span> <span class="nn">.</span> <span class="k">import</span> <span class="n">LintCheck</span><span class="p">,</span> <span class="n">ERROR</span><span class="p">,</span> <span class="n">WARNING</span><span class="p">,</span> <span class="n">INFO</span>
-<span class="kn">from</span> <span class="nn">bioconda_utils</span> <span class="k">import</span> <span class="n">utils</span>
+<span class="kn">from</span> <span class="nn">.</span> <span class="kn">import</span> <span class="n">LintCheck</span><span class="p">,</span> <span class="n">ERROR</span><span class="p">,</span> <span class="n">WARNING</span><span class="p">,</span> <span class="n">INFO</span>
+<span class="kn">from</span> <span class="nn">bioconda_utils</span> <span class="kn">import</span> <span class="n">utils</span>
 
 <div class="viewcode-block" id="uses_vcs_url"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.uses_vcs_url">[docs]</a><span class="k">class</span> <span class="nc">uses_vcs_url</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe downloads source from a VCS</span>
@@ -121,8 +121,8 @@
 <span class="sd">    &quot;&quot;&quot;</span>
 <div class="viewcode-block" id="uses_vcs_url.check_source"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.uses_vcs_url.check_source">[docs]</a>    <span class="k">def</span> <span class="nf">check_source</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">source</span><span class="p">,</span> <span class="n">section</span><span class="p">):</span>
         <span class="k">for</span> <span class="n">vcs</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">&#39;git&#39;</span><span class="p">,</span> <span class="s1">&#39;svn&#39;</span><span class="p">,</span> <span class="s1">&#39;hg&#39;</span><span class="p">):</span>
-            <span class="k">if</span> <span class="n">f</span><span class="s2">&quot;</span><span class="si">{vcs}</span><span class="s2">_url&quot;</span> <span class="ow">in</span> <span class="n">source</span><span class="p">:</span>
-                <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">section</span><span class="o">=</span><span class="n">f</span><span class="s2">&quot;</span><span class="si">{section}</span><span class="s2">/</span><span class="si">{vcs}</span><span class="s2">_url&quot;</span><span class="p">)</span></div></div>
+            <span class="k">if</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{vcs}</span><span class="s2">_url&quot;</span> <span class="ow">in</span> <span class="n">source</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">section</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{section}</span><span class="s2">/</span><span class="si">{vcs}</span><span class="s2">_url&quot;</span><span class="p">)</span></div></div>
 
 <div class="viewcode-block" id="folder_and_package_name_must_match"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.folder_and_package_name_must_match">[docs]</a><span class="k">class</span> <span class="nc">folder_and_package_name_must_match</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;The recipe folder and package name do not match.</span>
@@ -236,7 +236,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>

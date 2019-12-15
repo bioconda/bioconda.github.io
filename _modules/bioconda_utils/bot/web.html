@@ -107,24 +107,24 @@
 <span class="kn">import</span> <span class="nn">os</span>
 
 <span class="kn">import</span> <span class="nn">base64</span>
-<span class="kn">from</span> <span class="nn">cryptography</span> <span class="k">import</span> <span class="n">fernet</span>
+<span class="kn">from</span> <span class="nn">cryptography</span> <span class="kn">import</span> <span class="n">fernet</span>
 <span class="kn">import</span> <span class="nn">aiohttp</span>
 <span class="kn">import</span> <span class="nn">aiohttp_jinja2</span>
 <span class="kn">import</span> <span class="nn">jinja2</span>
 <span class="kn">import</span> <span class="nn">markdown</span>
 <span class="kn">import</span> <span class="nn">markupsafe</span>
-<span class="kn">from</span> <span class="nn">aiohttp_session</span> <span class="k">import</span> <span class="n">setup</span> <span class="k">as</span> <span class="n">setup_session</span>
-<span class="kn">from</span> <span class="nn">aiohttp_session.cookie_storage</span> <span class="k">import</span> <span class="n">EncryptedCookieStorage</span>
-<span class="kn">from</span> <span class="nn">aiohttp_security</span> <span class="k">import</span> <span class="p">(</span><span class="n">authorized_userid</span><span class="p">,</span>
+<span class="kn">from</span> <span class="nn">aiohttp_session</span> <span class="kn">import</span> <span class="n">setup</span> <span class="k">as</span> <span class="n">setup_session</span>
+<span class="kn">from</span> <span class="nn">aiohttp_session.cookie_storage</span> <span class="kn">import</span> <span class="n">EncryptedCookieStorage</span>
+<span class="kn">from</span> <span class="nn">aiohttp_security</span> <span class="kn">import</span> <span class="p">(</span><span class="n">authorized_userid</span><span class="p">,</span>
                               <span class="n">setup</span> <span class="k">as</span> <span class="n">setup_security</span><span class="p">,</span>
                               <span class="n">SessionIdentityPolicy</span><span class="p">,</span> <span class="n">AbstractAuthorizationPolicy</span><span class="p">)</span>
-<span class="kn">from</span> <span class="nn">.config</span> <span class="k">import</span> <span class="p">(</span><span class="n">BOT_NAME</span><span class="p">,</span> <span class="n">APP_KEY</span><span class="p">,</span> <span class="n">APP_ID</span><span class="p">,</span> <span class="n">GITTER_TOKEN</span><span class="p">,</span> <span class="n">GITTER_CHANNELS</span><span class="p">,</span>
+<span class="kn">from</span> <span class="nn">.config</span> <span class="kn">import</span> <span class="p">(</span><span class="n">BOT_NAME</span><span class="p">,</span> <span class="n">APP_KEY</span><span class="p">,</span> <span class="n">APP_ID</span><span class="p">,</span> <span class="n">GITTER_TOKEN</span><span class="p">,</span> <span class="n">GITTER_CHANNELS</span><span class="p">,</span>
                      <span class="n">APP_CLIENT_ID</span><span class="p">,</span> <span class="n">APP_CLIENT_SECRET</span><span class="p">)</span>
-<span class="kn">from</span> <span class="nn">.views</span> <span class="k">import</span> <span class="n">web_routes</span><span class="p">,</span> <span class="n">navigation_bar</span>
-<span class="kn">from</span> <span class="nn">.chat</span> <span class="k">import</span> <span class="n">GitterListener</span>
-<span class="kn">from</span> <span class="nn">..</span> <span class="k">import</span> <span class="n">utils</span>
-<span class="kn">from</span> <span class="nn">..githubhandler</span> <span class="k">import</span> <span class="n">GitHubAppHandler</span><span class="p">,</span> <span class="n">AiohttpGitHubHandler</span>
-<span class="kn">from</span> <span class="nn">..</span> <span class="k">import</span> <span class="n">__version__</span> <span class="k">as</span> <span class="n">VERSION</span>
+<span class="kn">from</span> <span class="nn">.views</span> <span class="kn">import</span> <span class="n">web_routes</span><span class="p">,</span> <span class="n">navigation_bar</span>
+<span class="kn">from</span> <span class="nn">.chat</span> <span class="kn">import</span> <span class="n">GitterListener</span>
+<span class="kn">from</span> <span class="nn">..</span> <span class="kn">import</span> <span class="n">utils</span>
+<span class="kn">from</span> <span class="nn">..githubhandler</span> <span class="kn">import</span> <span class="n">GitHubAppHandler</span><span class="p">,</span> <span class="n">AiohttpGitHubHandler</span>
+<span class="kn">from</span> <span class="nn">..</span> <span class="kn">import</span> <span class="n">__version__</span> <span class="k">as</span> <span class="n">VERSION</span>
 
 
 <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>  <span class="c1"># pylint: disable=invalid-name</span>
@@ -136,7 +136,7 @@
 
 <div class="viewcode-block" id="AuthorizationPolicy"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.web.html#bioconda_utils.bot.web.AuthorizationPolicy">[docs]</a><span class="k">class</span> <span class="nc">AuthorizationPolicy</span><span class="p">(</span><span class="n">AbstractAuthorizationPolicy</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Authorization policy for web interface&quot;&quot;&quot;</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">app</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">app</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">app</span> <span class="o">=</span> <span class="n">app</span>
 
 <div class="viewcode-block" id="AuthorizationPolicy.authorized_userid"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.bot.web.html#bioconda_utils.bot.web.AuthorizationPolicy.authorized_userid">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">authorized_userid</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">identity</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AiohttpGitHubHandler</span><span class="p">:</span>
@@ -353,7 +353,7 @@
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>
