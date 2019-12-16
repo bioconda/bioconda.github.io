@@ -22,7 +22,7 @@ r-statvisual
 
    |downloads_r-statvisual| |docker_r-statvisual|
 
-   :versions: 1.1.8-0
+   :versions: 1.1.9-0, 1.1.8-0
    
    :depends bioconductor-biobase: 
    :depends bioconductor-limma: 

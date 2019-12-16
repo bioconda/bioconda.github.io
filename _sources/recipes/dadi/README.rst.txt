@@ -22,7 +22,7 @@ dadi
 
    |downloads_dadi| |docker_dadi|
 
-   :versions: 2.0.4-0, 2.0.3-0, 1.7.0-0
+   :versions: 2.0.5-0, 2.0.4-0, 2.0.3-0, 1.7.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends matplotlib: 

@@ -22,7 +22,7 @@ svist4get
 
    |downloads_svist4get| |docker_svist4get|
 
-   :versions: 1.2.15-0, 1.2.14-1, 1.2.14-0
+   :versions: 1.2.16-0, 1.2.15-0, 1.2.14-1, 1.2.14-0
    
    :depends biopython: 
    :depends configs: 
