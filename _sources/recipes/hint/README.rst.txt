@@ -11,7 +11,7 @@ hint
 
    HiNT is a computational method for detecting copy number variations and translocations from Hi\-C data
 
-   :homepage: https://github.com/suwangbio/HiNT_py3
+   :homepage: https://github.com/parklab/HiNT
    :license: MIT
    :recipe: /`hint <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hint>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hint/meta.yaml>`_
 
@@ -22,7 +22,7 @@ hint
 
    |downloads_hint| |docker_hint|
 
-   :versions: 2.2.7-0, 2.2.1-0, 2.1.9-1, 2.1.9-0, 2.1.7-0, 2.0.1-0
+   :versions: 2.2.7-1, 2.2.7-0, 2.2.1-0, 2.1.9-1, 2.1.9-0, 2.1.7-0, 2.0.1-0
    
    :depends argparse: >=1.1
    :depends bwa: >=0.7.16
