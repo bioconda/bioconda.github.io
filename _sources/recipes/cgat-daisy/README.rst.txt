@@ -22,7 +22,7 @@ cgat-daisy
 
    |downloads_cgat-daisy| |docker_cgat-daisy|
 
-   :versions: 0.1.8-0, 0.1.7-0, 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.2-0
+   :versions: 0.1.9-0, 0.1.8-0, 0.1.7-0, 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.2-0
    
    :depends cgatcore: 
    :depends pandas: 

@@ -22,7 +22,7 @@ dsh-bio
 
    |downloads_dsh-bio| |docker_dsh-bio|
 
-   :versions: 1.2.1-0, 1.2-1, 1.2-0, 1.1-1, 1.0.1-1, 1.0.1-0, 1.0-0
+   :versions: 1.3-0, 1.2.1-0, 1.2-1, 1.2-0, 1.1-1, 1.0.1-1, 1.0.1-0, 1.0-0
    
    :depends openjdk: >=8
    :depends zlib: 

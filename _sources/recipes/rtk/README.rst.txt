@@ -22,7 +22,7 @@ rtk
 
    |downloads_rtk| |docker_rtk|
 
-   :versions: 0.93.1-0
+   :versions: 0.93.2-0, 0.93.1-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

@@ -23,15 +23,17 @@ busco
 
    |downloads_busco| |docker_busco|
 
-   :versions: 3.0.2-13, 3.0.2-12, 3.0.2-11, 3.0.2-10, 3.0.2-9, 3.0.2-8, 3.0.2-7, 3.0.2-6, 3.0.2-5, 3.0.2-4, 3.0.1-0, 2.0.1-0, 2.0-0, 1.2-1, 1.2-0
+   :versions: 4.0.beta1-0, 3.0.2-13, 3.0.2-12, 3.0.2-11, 3.0.2-10, 3.0.2-9, 3.0.2-8, 3.0.2-7, 3.0.2-6, 3.0.2-5, 3.0.2-4, 3.0.1-0, 2.0.1-0, 2.0-0, 1.2-1, 1.2-0
    
-   :depends augustus: >=3.3.2
+   :depends augustus: 
    :depends blast: >=2.2,<2.4
    :depends findutils: 
-   :depends hmmer: 
+   :depends hmmer: >=3.1b2
+   :depends prodigal: 
    :depends python: >=3
    :depends r-base: 
    :depends r-ggplot2: >=2.2.1
+   :depends sepp: >=4.3.10
    :requirements:
 
    .. rubric:: Installation
