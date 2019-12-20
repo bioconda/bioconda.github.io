@@ -492,11 +492,11 @@ folder in <code class="docutils literal notranslate"><span class="pre">bioconda-
 <dd class="field-odd"><p><strong>text</strong> – may be string or list of strings</p>
 </dd>
 </dl>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">as_extlink_filter</span><span class="p">(</span><span class="s2">&quot;biotools:abyss&quot;</span><span class="p">)</span>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">as_extlink_filter</span><span class="p">(</span><span class="s2">&quot;biotools:abyss&quot;</span><span class="p">)</span>
 <span class="go">&quot;biotools: :biotool:`abyss`&quot;</span>
 </pre></div>
 </div>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">as_extlink_filter</span><span class="p">([</span><span class="s2">&quot;biotools:abyss&quot;</span><span class="p">,</span> <span class="s2">&quot;doi:123&quot;</span><span class="p">])</span>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">as_extlink_filter</span><span class="p">([</span><span class="s2">&quot;biotools:abyss&quot;</span><span class="p">,</span> <span class="s2">&quot;doi:123&quot;</span><span class="p">])</span>
 <span class="go">&quot;biotools: :biotool:`abyss`, doi: :doi:`123`&quot;</span>
 </pre></div>
 </div>
@@ -557,7 +557,7 @@ list of reference nodes pointing to the package pages that
 <dt id="bioconda_utils.sphinxext.rst_escape_filter">
 <code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">rst_escape_filter</code><span class="sig-paren">(</span><em class="sig-param">text</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/sphinxext.html#rst_escape_filter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.rst_escape_filter" title="Permalink to this definition">¶</a></dt>
 <dd><p>Jinja2 filter escaping RST symbols in text</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">rst_excape_filter</span><span class="p">(</span><span class="s2">&quot;running `cmd.sh`&quot;</span><span class="p">)</span>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">rst_excape_filter</span><span class="p">(</span><span class="s2">&quot;running `cmd.sh`&quot;</span><span class="p">)</span>
 <span class="go">&quot;running \`cmd.sh\`&quot;</span>
 </pre></div>
 </div>
@@ -567,7 +567,7 @@ list of reference nodes pointing to the package pages that
 <dt id="bioconda_utils.sphinxext.rst_link_filter">
 <code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">rst_link_filter</code><span class="sig-paren">(</span><em class="sig-param">text</em>, <em class="sig-param">url</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/sphinxext.html#rst_link_filter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.rst_link_filter" title="Permalink to this definition">¶</a></dt>
 <dd><p>Jinja2 filter creating RST link</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">rst_link_filter</span><span class="p">(</span><span class="s2">&quot;bla&quot;</span><span class="p">,</span> <span class="s2">&quot;https://somewhere&quot;</span><span class="p">)</span>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">rst_link_filter</span><span class="p">(</span><span class="s2">&quot;bla&quot;</span><span class="p">,</span> <span class="s2">&quot;https://somewhere&quot;</span><span class="p">)</span>
 <span class="go">&quot;`bla &lt;https://somewhere&gt;`_&quot;</span>
 </pre></div>
 </div>
@@ -583,7 +583,7 @@ list of reference nodes pointing to the package pages that
 <dt id="bioconda_utils.sphinxext.underline_filter">
 <code class="sig-prename descclassname">bioconda_utils.sphinxext.</code><code class="sig-name descname">underline_filter</code><span class="sig-paren">(</span><em class="sig-param">text</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/sphinxext.html#underline_filter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.sphinxext.underline_filter" title="Permalink to this definition">¶</a></dt>
 <dd><p>Jinja2 filter adding =-underline to row of text</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">underline_filter</span><span class="p">(</span><span class="s2">&quot;headline&quot;</span><span class="p">)</span>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">underline_filter</span><span class="p">(</span><span class="s2">&quot;headline&quot;</span><span class="p">)</span>
 <span class="go">&quot;headline\n========&quot;</span>
 </pre></div>
 </div>
@@ -602,7 +602,7 @@ list of reference nodes pointing to the package pages that
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.2</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.3.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

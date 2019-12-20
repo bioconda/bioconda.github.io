@@ -22,7 +22,7 @@ haplotype-lso
 
    |downloads_haplotype-lso| |docker_haplotype-lso|
 
-   :versions: 0.3.0-0
+   :versions: 0.3.1-0, 0.3.0-0
    
    :depends attrs: 
    :depends bioconvert: 

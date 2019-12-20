@@ -162,7 +162,7 @@ features and defaults:</p>
 to allow the <code class="docutils literal notranslate"><span class="pre">run</span></code> method of tasks be <code class="docutils literal notranslate"><span class="pre">async</span></code>. This Task
 class detects if the method provided is a coroutine and runs it
 inside the asyncio event loop.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nd">@app</span><span class="o">.</span><span class="n">task</span><span class="p">()</span>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nd">@app</span><span class="o">.</span><span class="n">task</span><span class="p">()</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="k">async</span> <span class="k">def</span> <span class="nf">mytask</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">bind</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
 <span class="gp">&gt;&gt;&gt; </span>   <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">async_init</span><span class="p">()</span>
 <span class="gp">&gt;&gt;&gt; </span>   <span class="o">...</span>
@@ -272,7 +272,7 @@ __init__().</p>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.2</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.3.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

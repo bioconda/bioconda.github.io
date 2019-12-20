@@ -618,7 +618,7 @@ are already in channel_packages.</p>
 <dt id="bioconda_utils.utils.ensure_list">
 <code class="sig-prename descclassname">bioconda_utils.utils.</code><code class="sig-name descname">ensure_list</code><span class="sig-paren">(</span><em class="sig-param">obj</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#ensure_list"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.utils.ensure_list" title="Permalink to this definition">¶</a></dt>
 <dd><p>Wraps <strong>obj</strong> in a list if necessary</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ensure_list</span><span class="p">(</span><span class="s2">&quot;one&quot;</span><span class="p">)</span>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ensure_list</span><span class="p">(</span><span class="s2">&quot;one&quot;</span><span class="p">)</span>
 <span class="go">[&quot;one&quot;]</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">ensure_list</span><span class="p">([</span><span class="s2">&quot;one&quot;</span><span class="p">,</span> <span class="s2">&quot;two&quot;</span><span class="p">])</span>
 <span class="go">[&quot;one&quot;, &quot;two&quot;]</span>
@@ -928,7 +928,7 @@ directly.</p>
 <dd><p>Custom wraps() function for decorators</p>
 <p>This one differs from functiools.wraps and boltons.funcutils.wraps in
 that it allows <em>adding</em> keyword arguments to the function signature.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">def</span> <span class="nf">decorator</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">def</span> <span class="nf">decorator</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
 <span class="gp">&gt;&gt;&gt; </span>  <span class="nd">@wraps</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
 <span class="gp">&gt;&gt;&gt; </span>  <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="n">extra_param</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
 <span class="gp">&gt;&gt;&gt; </span>     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Called with extra_param=</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">extra_param</span><span class="p">)</span>
@@ -957,7 +957,7 @@ that it allows <em>adding</em> keyword arguments to the function signature.</p>
       &copy;2016-2019, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.2</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.3.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
