@@ -28,7 +28,7 @@ seq-to-first-iso
 
    |downloads_seq-to-first-iso| |docker_seq-to-first-iso|
 
-   :versions: 1.0.0-0, 0.5.1-0, 0.5.0-0
+   :versions: 1.1.0-0, 1.0.0-0, 0.5.1-0, 0.5.0-0
    
    :depends pandas: 
    :depends pyteomics: 

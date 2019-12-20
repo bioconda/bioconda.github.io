@@ -22,13 +22,12 @@ r-metalonda
 
    |downloads_r-metalonda| |docker_r-metalonda|
 
-   :versions: 1.1.5-0, 1.1.0-5, 1.1.0-4, 1.1.0-3, 1.1.0-2, 1.1.0-1, 1.1.0-0
+   :versions: 1.1.8-0, 1.1.5-0, 1.1.0-5, 1.1.0-4, 1.1.0-3, 1.1.0-2, 1.1.0-1, 1.1.0-0
    
-   :depends bioconductor-deseq2: >=1.20.0,<1.22.0
+   :depends bioconductor-deseq2: 
    :depends bioconductor-edger: 
    :depends bioconductor-metagenomeseq: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends r-catools: 
+   :depends r-base: >=3.6,<3.7.0a0
    :depends r-doparallel: 
    :depends r-ggplot2: 
    :depends r-gss: 

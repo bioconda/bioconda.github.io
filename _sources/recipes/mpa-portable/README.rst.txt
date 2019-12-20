@@ -22,7 +22,7 @@ mpa-portable
 
    |downloads_mpa-portable| |docker_mpa-portable|
 
-   :versions: 1.9.0-0, 1.4.1-2, 1.4.1-1, 1.4.1-0
+   :versions: 2.0.0-0, 1.9.0-0, 1.4.1-2, 1.4.1-1, 1.4.1-0
    
    :depends openjdk: >=6
    :depends python: 
