@@ -22,7 +22,7 @@ cgecore
 
    |downloads_cgecore| |docker_cgecore|
 
-   :versions: 1.5.1-0, 1.5.0-0
+   :versions: 1.5.2-0, 1.5.1-0, 1.5.0-0
    
    :depends biopython: 
    :depends python: 

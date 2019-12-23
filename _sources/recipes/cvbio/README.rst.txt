@@ -22,7 +22,7 @@ cvbio
 
    |downloads_cvbio| |docker_cvbio|
 
-   :versions: 2.0.0-0, 1.4.1-0, 1.4.0-0, 1.3.0-0, 1.2.0-0, 1.1.0-0
+   :versions: 2.1.0-0, 2.0.0-0, 1.4.1-0, 1.4.0-0, 1.3.0-0, 1.2.0-0, 1.1.0-0
    
    :depends openjdk: >=8
    :depends python: 
