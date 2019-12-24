@@ -22,7 +22,7 @@ bolt
 
    |downloads_bolt| |docker_bolt|
 
-   :versions: 0.2.2-0
+   :versions: 0.2.3-0, 0.2.2-0
    
    :depends htslib: >=1.9,<1.10.0a0
    :depends libgcc-ng: >=7.3.0
