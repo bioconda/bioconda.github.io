@@ -22,8 +22,9 @@ trnanalysis
 
    |downloads_trnanalysis| |docker_trnanalysis|
 
-   :versions: 0.1.8-0, 0.1.7-2, 0.1.7-1, 0.1.7-0, 0.1.6-1, 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.2-0, 0.1.0-0
+   :versions: 0.1.8-1, 0.1.8-0, 0.1.7-2, 0.1.7-1, 0.1.7-0, 0.1.6-1, 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.2-0, 0.1.0-0
    
+   :depends bcftools: 
    :depends bioconductor-deseq2: 
    :depends bioconductor-org.hs.eg.db: 
    :depends bowtie: 

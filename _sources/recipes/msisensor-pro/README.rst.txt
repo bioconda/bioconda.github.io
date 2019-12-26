@@ -12,7 +12,7 @@ msisensor-pro
    Microsatellite Instability \(MSI\) detection using high\-throughput sequencing data.
 
    :homepage: https://github.com/xjtu-omics/msisensor-pro
-   :license: MIT
+   :license: GPL-3.0
    :recipe: /`msisensor-pro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msisensor-pro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msisensor-pro/meta.yaml>`_
 
    
@@ -22,7 +22,7 @@ msisensor-pro
 
    |downloads_msisensor-pro| |docker_msisensor-pro|
 
-   :versions: 1.0.a-0, 0.1.1-5, 0.1.1-0, 0.0.1-0
+   :versions: 1.0.a-1, 1.0.a-0, 0.1.1-6, 0.1.1-5, 0.1.1-0, 0.0.1-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
