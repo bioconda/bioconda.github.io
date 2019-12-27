@@ -23,7 +23,7 @@ r-annotables
 
    |downloads_r-annotables| |docker_r-annotables|
 
-   :versions: v0.1.90-3, v0.1.90-2, v0.1.90-1, v0.1.90-0
+   :versions: 0.1.90-0, v0.1.90-3, v0.1.90-2, v0.1.90-1, v0.1.90-0
    
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-tibble: 

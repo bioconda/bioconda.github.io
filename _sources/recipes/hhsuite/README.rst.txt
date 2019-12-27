@@ -22,7 +22,7 @@ hhsuite
 
    |downloads_hhsuite| |docker_hhsuite|
 
-   :versions: v3.2.0-0
+   :versions: 3.2.0-0, v3.2.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

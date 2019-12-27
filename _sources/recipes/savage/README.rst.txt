@@ -11,7 +11,7 @@ savage
 
    SAVAGE \(Strain Aware VirAl GEnome assembly\) reconstructs individual \(viral\) haplotypes from a mixed sample.
 
-   :homepage: https://bitbucket.org/jbaaijens/savage
+   :homepage: https://github.com/HaploConduct/HaploConduct/tree/master/savage
    :license: GPL v3
    :recipe: /`savage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/savage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/savage/meta.yaml>`_
 
@@ -22,9 +22,9 @@ savage
 
    |downloads_savage| |docker_savage|
 
-   :versions: 0.4.1-0, 0.4.0-2, 0.4.0-1, 0.4.0-0, 0.3.0-0, 0.2.1-1, 0.2.1-0
+   :versions: 0.4.2-0, 0.4.1-0, 0.4.0-2, 0.4.0-1, 0.4.0-0, 0.3.0-0, 0.2.1-1, 0.2.1-0
    
-   :depends boost: >=1.68.0,<1.68.1.0a0
+   :depends boost: >=1.70.0,<1.70.1.0a0
    :depends bwa: 
    :depends kallisto: >=0.43.0
    :depends libgcc-ng: >=7.3.0
