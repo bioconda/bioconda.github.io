@@ -9,7 +9,7 @@ haplotype-lso
 .. conda:recipe:: haplotype-lso
    :replaces_section_title:
 
-   Haplotype LSO samples from targeted amplicon capillary sequencing data
+   Haplotype Candidatus Liberibacter solanacearum \(Lso\) samples from targeted amplicon capillary sequencing data
 
    :homepage: https://github.com/holtgrewe/haplotype-lso
    :license: MIT / MIT
@@ -22,10 +22,11 @@ haplotype-lso
 
    |downloads_haplotype-lso| |docker_haplotype-lso|
 
-   :versions: 0.3.4-0, 0.3.3-0, 0.3.2-0, 0.3.1-0, 0.3.0-0
+   :versions: 0.4.1-0, 0.4.0-0, 0.3.4-0, 0.3.3-0, 0.3.2-0, 0.3.1-0, 0.3.0-0
    
    :depends attrs: 
    :depends bioconvert: 
+   :depends biopython: >=1.75
    :depends blast: 
    :depends dash: >=1.0
    :depends dash-bootstrap-components: 
@@ -35,8 +36,11 @@ haplotype-lso
    :depends dash-table: 
    :depends flask: 
    :depends logzero: 
+   :depends matplotlib: 
    :depends numpy: 
    :depends pandas: 
+   :depends plotly: 
+   :depends scipy: 
    :depends seqtk: 
    :depends xlsxwriter: 
    :requirements:
