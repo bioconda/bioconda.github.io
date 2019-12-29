@@ -22,11 +22,12 @@ pybedgraph
 
    |downloads_pybedgraph| |docker_pybedgraph|
 
-   :versions: 0.5.39-0, 0.5.38-0, 0.5.37-0, 0.5.36-0, 0.5.35-0
+   :versions: 0.5.42-0, 0.5.39-0, 0.5.38-0, 0.5.37-0, 0.5.36-0, 0.5.35-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends numpy: >=1.16.4
+   :depends pybigwig: >=0.3.16
    :depends python: >=3.6,<3.7.0a0
    :requirements:
 

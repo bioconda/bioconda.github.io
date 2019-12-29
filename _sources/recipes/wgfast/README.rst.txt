@@ -22,16 +22,27 @@ wgfast
 
    |downloads_wgfast| |docker_wgfast|
 
-   :versions: 1.0.3-2, 1.0.3-1, 1.0.3-0
+   :versions: 1.0.4-0, 1.0.3-2, 1.0.3-1, 1.0.3-0
    
    :depends bbmap: 
    :depends biopython: 
    :depends bwa: 
+   :depends click: 
    :depends dendropy: 
+   :depends ete3: 
+   :depends logbook: 
+   :depends mash: 
+   :depends nasp: 
+   :depends ncbitk: 
+   :depends pandas: 
+   :depends pathos: 
    :depends picard: 
-   :depends python: >3
+   :depends python: >=3
+   :depends qt: 
    :depends raxml: 
+   :depends retrying: 
    :depends samtools: 
+   :depends snakemake: >=5
    :requirements:
 
    .. rubric:: Installation
