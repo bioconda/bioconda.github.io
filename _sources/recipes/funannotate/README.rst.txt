@@ -24,7 +24,7 @@ funannotate
 
    |downloads_funannotate| |docker_funannotate|
 
-   :versions: 1.7.1-1
+   :versions: 1.7.2-0, 1.7.1-1
    
    :depends augustus: >3.3
    :depends bamtools: 
