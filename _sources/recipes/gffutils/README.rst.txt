@@ -12,7 +12,9 @@ gffutils
    Work with GFF and GTF files in a flexible database framework
 
    :homepage: https://github.com/daler/gffutils
-   :license: MIT
+   :documentation: http://daler.github.io/gffutils/
+   
+   :license: MIT / MIT
    :recipe: /`gffutils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffutils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffutils/meta.yaml>`_
    :links: biotools: :biotools:`GFFutils`
 
@@ -23,14 +25,14 @@ gffutils
 
    |downloads_gffutils| |docker_gffutils|
 
-   :versions: 0.9-1, 0.9-0, 0.8.7.1-2, 0.8.7.1-1, 0.8.7.1-0, 0.8.7-0, 0.8.6.1-0
+   :versions: 0.10.1-0, 0.9-1, 0.9-0, 0.8.7.1-2, 0.8.7.1-1, 0.8.7.1-0, 0.8.7-0, 0.8.6.1-0
    
-   :depends argcomplete: 
-   :depends argh: 
-   :depends pyfaidx: 
+   :depends argcomplete: >=1.9.4
+   :depends argh: >=0.26.2
+   :depends pyfaidx: >=0.5.5.2
    :depends python: 
    :depends simplejson: 
-   :depends six: 
+   :depends six: >=1.12.0
    :requirements:
 
    .. rubric:: Installation
