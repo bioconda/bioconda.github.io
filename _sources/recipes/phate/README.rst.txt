@@ -12,8 +12,11 @@ phate
    PHATE \(Potential of Heat\-diffusion for Affinity\-based Transition Embedding\) is a tool for visualizing high dimensional data.
 
    :homepage: https://github.com/KrishnaswamyLab/PHATE
+   :documentation: https://phate.readthedocs.io
+   
    :license: GPL2 / GNU General Public Version 2
    :recipe: /`phate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phate/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41587-019-0336-3`
 
    
 
@@ -22,16 +25,18 @@ phate
 
    |downloads_phate| |docker_phate|
 
-   :versions: 0.4.5-0
+   :versions: 1.0.2-0, 0.4.5-0
    
+   :depends deprecated: 
    :depends future: 
    :depends graphtools: >=1.3.1
    :depends matplotlib: >=3.0
-   :depends numpy: >=1.14.0
+   :depends numpy: >=1.16.0
    :depends python: >=3.5
    :depends scikit-learn: >=0.20.0
    :depends scipy: >=1.1.0
    :depends scprep: >=0.11.1
+   :depends sgdpy: >=1.4.1
    :depends tasklogger: >=1.0
    :requirements:
 
