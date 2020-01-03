@@ -23,13 +23,13 @@ fusioncatcher
 
    |downloads_fusioncatcher| |docker_fusioncatcher|
 
-   :versions: 1.20-0, 1.10-3, 1.10-2, 1.10-0, 1.00-1, 1.00-0
+   :versions: 1.20-1, 1.20-0, 1.10-3, 1.10-2, 1.10-0, 1.00-1, 1.00-0
    
    :depends bbmap: 38.44.*
    :depends biopython: >=1.50
    :depends blat: 35.*
-   :depends bowtie: 1.2.2.*
-   :depends bowtie2: 2.2.*
+   :depends bowtie: 1.2.3.*
+   :depends bowtie2: 2.3.5.*
    :depends bwa: 0.7.12.*
    :depends fusioncatcher-seqtk: 1.2.*
    :depends lzo: 
@@ -43,8 +43,8 @@ fusioncatcher
    :depends pigz: 2.3.*
    :depends python: <3
    :depends samtools: 0.1.19.*
-   :depends sra-tools: 2.6.2.*
-   :depends star: 2.7.0f.*
+   :depends sra-tools: 2.9.6.*
+   :depends star: 2.7.2b.*
    :depends ucsc-fatotwobit: 
    :depends ucsc-liftover: 
    :depends velvet: 1.2.10.*
@@ -80,6 +80,10 @@ fusioncatcher
 
 
 
+
+Notes
+-----
+download\-human\-db.sh should be updated when new version of FusionCatcher is released.
 
 
 Link to this page

@@ -22,7 +22,7 @@ ncbi-acc-download
 
    |downloads_ncbi-acc-download| |docker_ncbi-acc-download|
 
-   :versions: 0.2.5-0
+   :versions: 0.2.6-0, 0.2.5-0
    
    :depends biopython: 
    :depends python: 

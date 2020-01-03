@@ -53,7 +53,7 @@ slamdunk
 
    |downloads_slamdunk| |docker_slamdunk|
 
-   :versions: 0.4.0-1, 0.4.0-0, 0.3.4-1, 0.3.4-0, 0.3.3-0, 0.3.2-1, 0.3.2-0
+   :versions: 0.4.1-0, 0.4.0-1, 0.4.0-0, 0.3.4-1, 0.3.4-0, 0.3.3-0, 0.3.2-1, 0.3.2-0
    
    :depends biopython: >=1.74
    :depends intervaltree: >=3.0.2
