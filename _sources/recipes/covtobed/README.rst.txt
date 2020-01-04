@@ -22,7 +22,7 @@ covtobed
 
    |downloads_covtobed| |docker_covtobed|
 
-   :versions: 0.4-0, 0.3-0, 0.1-0
+   :versions: 0.6-0, 0.4-0, 0.3-0, 0.1-0
    
    :depends bamtools: >=2.5.1,<2.5.2.0a0
    :depends libgcc-ng: >=7.3.0

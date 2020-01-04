@@ -24,7 +24,7 @@ novoplasty
 
    |downloads_novoplasty| |docker_novoplasty|
 
-   :versions: 3.7-0, 2.2.2-1, 2.2.2-0
+   :versions: 3.7.2-0, 3.7-0, 2.2.2-1, 2.2.2-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
