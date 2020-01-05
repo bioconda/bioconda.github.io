@@ -22,7 +22,7 @@ metabat2
 
    |downloads_metabat2| |docker_metabat2|
 
-   :versions: 2.14-0, 2.13-1, 2.13-0, 2.12.1-1, 2.12.1-0
+   :versions: 2.15-0, 2.14-0, 2.13-1, 2.13-0, 2.12.1-1, 2.12.1-0
    
    :depends htslib: >=1.9,<1.10.0a0
    :depends libgcc-ng: >=7.3.0
