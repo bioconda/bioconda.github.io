@@ -22,7 +22,7 @@ novobreak
 
    |downloads_novobreak| |docker_novobreak|
 
-   :versions: 1.1.3rc-4, 1.1.3rc-3, 1.1.3rc-2, 1.1.3rc-1, 1.1.3rc-0
+   :versions: 1.1.3rc-5, 1.1.3rc-4, 1.1.3rc-3, 1.1.3rc-2, 1.1.3rc-1, 1.1.3rc-0
    
    :depends bwa: >=0.7.10
    :depends libgcc-ng: >=7.3.0
