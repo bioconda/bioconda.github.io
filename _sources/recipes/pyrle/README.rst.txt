@@ -22,7 +22,7 @@ pyrle
 
    |downloads_pyrle| |docker_pyrle|
 
-   :versions: 0.0.25-0, 0.0.24-1, 0.0.24-0, 0.0.23-0
+   :versions: 0.0.26-0, 0.0.25-0, 0.0.24-1, 0.0.24-0, 0.0.23-0
    
    :depends libgcc-ng: >=7.3.0
    :depends natsort: 
