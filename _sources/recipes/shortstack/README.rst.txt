@@ -22,7 +22,7 @@ shortstack
 
    |downloads_shortstack| |docker_shortstack|
 
-   :versions: 3.8.5-2, 3.8.5-1, 3.8.5-0, 3.8.3-0
+   :versions: 3.8.5-2, 3.8.5-1, 3.8.5-0, 3.8.3-0, 3.6-0
    
    :depends bowtie: 
    :depends perl: 
