@@ -23,14 +23,13 @@ pyopenms
 
    |downloads_pyopenms| |docker_pyopenms|
 
-   :versions: 2.4.0-0
+   :versions: 2.4.0-3, 2.4.0-0
    
-   :depends autowrap: 
    :depends libgcc-ng: >=7.3.0
+   :depends libopenms: 2.4.0 hcf7c050_3
    :depends libstdcxx-ng: >=7.3.0
    :depends numpy: 
-   :depends openms: 2.4.0.*
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3.6,<3.7.0a0
    :requirements:
 
    .. rubric:: Installation

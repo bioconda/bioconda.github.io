@@ -19,6 +19,54 @@ openms
    
 
 
+.. conda:package:: libopenms
+
+   |downloads_libopenms| |docker_libopenms|
+
+   :versions: 2.4.0-3
+   
+   :depends boost: >=1.70.0,<1.70.1.0a0
+   :depends bzip2: >=1.0.8,<2.0a0
+   :depends coinmp: 
+   :depends eigen: 
+   :depends glpk: >=4.65,<4.66.0a0
+   :depends gsl: >=2.5,<2.6.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends libsvm: >=3.21,<3.22.0a0
+   :depends libtool: 
+   :depends qt: >=5.12.5,<5.13.0a0
+   :depends sqlite: >=3.30.1,<4.0a0
+   :depends xerces-c: >=3.2.2,<3.2.3.0a0
+   :depends zlib: >=1.2.11,<1.3.0a0
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install libopenms
+
+   and update with::
+
+      conda update libopenms
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/libopenms:<tag>
+
+   (see `libopenms/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_libopenms| image:: https://img.shields.io/conda/dn/bioconda/libopenms.svg?style=flat
+   :target: https://anaconda.org/bioconda/libopenms
+   :alt:   (downloads)
+.. |docker_libopenms| image:: https://quay.io/repository/biocontainers/openms/status
+   :target: https://quay.io/repository/biocontainers/openms
+.. _`libopenms/tags`: https://quay.io/repository/biocontainers/libopenms?tab=tags
+
+
+
 .. conda:package:: openms
 
    |downloads_openms| |docker_openms|
@@ -63,6 +111,82 @@ openms
 .. |docker_openms| image:: https://quay.io/repository/biocontainers/openms/status
    :target: https://quay.io/repository/biocontainers/openms
 .. _`openms/tags`: https://quay.io/repository/biocontainers/openms?tab=tags
+
+
+
+.. conda:package:: openms-tools
+
+   |downloads_openms-tools| |docker_openms-tools|
+
+   :versions: 2.4.0-3
+   
+   :depends libgcc-ng: >=7.3.0
+   :depends libopenms: 2.4.0 hcf7c050_3
+   :depends libstdcxx-ng: >=7.3.0
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install openms-tools
+
+   and update with::
+
+      conda update openms-tools
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/openms-tools:<tag>
+
+   (see `openms-tools/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_openms-tools| image:: https://img.shields.io/conda/dn/bioconda/openms-tools.svg?style=flat
+   :target: https://anaconda.org/bioconda/openms-tools
+   :alt:   (downloads)
+.. |docker_openms-tools| image:: https://quay.io/repository/biocontainers/openms/status
+   :target: https://quay.io/repository/biocontainers/openms
+.. _`openms-tools/tags`: https://quay.io/repository/biocontainers/openms-tools?tab=tags
+
+
+
+.. conda:package:: pyopenms
+
+   |downloads_pyopenms| |docker_pyopenms|
+
+   :versions: 2.4.0-3, 2.4.0-0
+   
+   :depends libgcc-ng: >=7.3.0
+   :depends libopenms: 2.4.0 hcf7c050_3
+   :depends libstdcxx-ng: >=7.3.0
+   :depends numpy: 
+   :depends python: >=3.6,<3.7.0a0
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install pyopenms
+
+   and update with::
+
+      conda update pyopenms
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/pyopenms:<tag>
+
+   (see `pyopenms/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_pyopenms| image:: https://img.shields.io/conda/dn/bioconda/pyopenms.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyopenms
+   :alt:   (downloads)
+.. |docker_pyopenms| image:: https://quay.io/repository/biocontainers/openms/status
+   :target: https://quay.io/repository/biocontainers/openms
+.. _`pyopenms/tags`: https://quay.io/repository/biocontainers/pyopenms?tab=tags
 
 
 

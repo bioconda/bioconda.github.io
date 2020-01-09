@@ -22,7 +22,7 @@ refgenieserver
 
    |downloads_refgenieserver| |docker_refgenieserver|
 
-   :versions: 0.4.1-0, 0.4.0-0, 0.3.4-0
+   :versions: 0.4.2-0, 0.4.1-0, 0.4.0-0, 0.3.4-0
    
    :depends aiofiles: 
    :depends fastapi: 

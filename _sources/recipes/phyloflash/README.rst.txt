@@ -23,7 +23,7 @@ phyloflash
 
    |downloads_phyloflash| |docker_phyloflash|
 
-   :versions: 3.3b1-1, 3.3b1-0, 3.0b1-1, 3.0b1-0, 2.0beta6-0
+   :versions: 3.3b2-0, 3.3b1-1, 3.3b1-0, 3.0b1-1, 3.0b1-0, 2.0beta6-0
    
    :depends bbmap: 
    :depends bedtools: 
