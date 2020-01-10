@@ -22,7 +22,7 @@ rappas
 
    |downloads_rappas| |docker_rappas|
 
-   :versions: 1.12-0
+   :versions: 1.20-0, 1.12-0
    
    :depends font-ttf-dejavu-sans-mono: 
    :depends openjdk: >=8.0.144
