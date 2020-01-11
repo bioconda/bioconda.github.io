@@ -11,7 +11,7 @@ r-immunedeconv
 
    collection of methods for immune cell deconvolution of bulk RNA\-seq samples.
 
-   :homepage: https://github.com/grst/immunedeconv
+   :homepage: https://github.com/icbi-lab/immunedeconv
    :license: BSD / BSD_3_clause
    :recipe: /`r-immunedeconv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-immunedeconv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-immunedeconv/meta.yaml>`_
    :links: doi: :doi:`10.1101/463828`
@@ -23,7 +23,7 @@ r-immunedeconv
 
    |downloads_r-immunedeconv| |docker_r-immunedeconv|
 
-   :versions: 2.0.0-0, 1.1.1-0
+   :versions: 2.0.1-0, 2.0.0-0, 1.1.1-0
    
    :depends bioconductor-biobase: 
    :depends bioconductor-biocgenerics: 

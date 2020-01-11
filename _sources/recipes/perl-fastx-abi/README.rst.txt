@@ -25,7 +25,7 @@ perl-fastx-abi
 
    |downloads_perl-fastx-abi| |docker_perl-fastx-abi|
 
-   :versions: 0.08-0
+   :versions: 0.11-0, 0.08-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-bio-trace-abif: 

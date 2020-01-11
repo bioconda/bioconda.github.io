@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;mixcr&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;genefuse&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -98,35 +98,37 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="mixcr">
+  <div class="section" id="genefuse">
 <dl class="recipe">
-<dt id="recipe-mixcr">
-<em class="property">recipe </em><code class="sig-name descname">mixcr</code><a class="headerlink" href="#recipe-mixcr" title="Permalink to this definition">¶</a></dt>
-<dd><p>MiXCR is a universal software for fast and accurate analysis of raw T- or B- cell receptor repertoire sequencing data.</p>
+<dt id="recipe-genefuse">
+<em class="property">recipe </em><code class="sig-name descname">genefuse</code><a class="headerlink" href="#recipe-genefuse" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gene fusion detection and visualization</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/milaboratory/mixcr">https://github.com/milaboratory/mixcr</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/OpenGene/genefuse">https://github.com/OpenGene/genefuse</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p><a class="reference external" href="https://github.com/milaboratory/mixcr/blob/develop/LICENSE">https://github.com/milaboratory/mixcr/blob/develop/LICENSE</a></p>
+<dd class="field-even"><p>MIT</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mixcr">mixcr</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mixcr/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genefuse">genefuse</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genefuse/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-mixcr">
-<em class="property">package </em><code class="sig-name descname">mixcr</code><a class="headerlink" href="#package-mixcr" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/mixcr"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/mixcr.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/mixcr"><img alt="docker_mixcr" src="https://quay.io/repository/biocontainers/mixcr/status" /></a></p>
+<dt id="package-genefuse">
+<em class="property">package </em><code class="sig-name descname">genefuse</code><a class="headerlink" href="#package-genefuse" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/genefuse"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/genefuse.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/genefuse"><img alt="docker_genefuse" src="https://quay.io/repository/biocontainers/genefuse/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>3.0.12-0, 3.0.11-0, 3.0.10-0, 3.0.9-0, 3.0.8-0, 3.0.7-0, 3.0.5-0, 2.1.10-1, 2.1.10-0, 2.1.3-0</p>
+<dd class="field-odd"><p>0.6.1-0</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/openjdk-feedstock"><strong>openjdk</strong></a> &gt;=11</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> &gt;=7.3.0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libstdcxx-ng-feedstock"><strong>libstdcxx-ng</strong></a> &gt;=7.3.0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/zlib-feedstock"><strong>zlib</strong></a> &gt;=1.2.11,&lt;1.3.0a0</p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
@@ -136,24 +138,24 @@
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">mixcr</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">genefuse</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">mixcr</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">genefuse</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">mixcr</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">genefuse</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/mixcr?tab=tags">mixcr/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/genefuse?tab=tags">genefuse/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/mixcr/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mixcr/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/genefuse/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/genefuse/README.html)
 </pre></div>
 </div>
 </div>
@@ -174,14 +176,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/mixcr/README.rst.txt"
+      <a href="../../_sources/recipes/genefuse/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/mixcr/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/genefuse/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

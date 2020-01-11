@@ -26,7 +26,7 @@ genometools-genometools
 
    |downloads_genometools-genometools| |docker_genometools-genometools|
 
-   :versions: 1.6.0-0, 1.5.10-3, 1.5.10-2, 1.5.10-1, 1.5.10-0, 1.5.9-1, 1.5.9-0
+   :versions: 1.6.1-0, 1.6.0-0, 1.5.10-3, 1.5.10-2, 1.5.10-1, 1.5.10-0, 1.5.9-1, 1.5.9-0
    
    :depends cairo: >=1.16.0,<1.17.0a0
    :depends gettext: 

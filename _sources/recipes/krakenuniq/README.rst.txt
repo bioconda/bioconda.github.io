@@ -23,7 +23,7 @@ krakenuniq
 
    |downloads_krakenuniq| |docker_krakenuniq|
 
-   :versions: 0.5.8-2, 0.5.8-1, 0.5.8-0, 0.5.7-0, 0.5.6-0, 0.5.5-0, 0.5.3-0, 0.5.2-0
+   :versions: 0.5.8-3, 0.5.8-2, 0.5.8-1, 0.5.8-0, 0.5.7-0, 0.5.6-0, 0.5.5-0, 0.5.3-0, 0.5.2-0
    
    :depends kmer-jellyfish: 1.*
    :depends libgcc-ng: >=7.3.0
@@ -32,6 +32,7 @@ krakenuniq
    :depends perl-libwww-perl: 
    :depends perl-lwp-protocol-https: 
    :depends rsync: 
+   :depends tar: 
    :depends wget: 
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:

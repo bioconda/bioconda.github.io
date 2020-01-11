@@ -25,9 +25,9 @@ ataqv
 
    |downloads_ataqv| |docker_ataqv|
 
-   :versions: 1.0.0-1, 1.0.0-0
+   :versions: 1.1.1-0, 1.0.0-1, 1.0.0-0
    
-   :depends boost: >=1.68.0,<1.68.1.0a0
+   :depends boost: >=1.70.0,<1.70.1.0a0
    :depends coreutils: 
    :depends htslib: >=1.9,<1.10.0a0
    :depends libgcc-ng: >=7.3.0

@@ -24,7 +24,7 @@ hypercluster
 
    |downloads_hypercluster| |docker_hypercluster|
 
-   :versions: 0.0.2-0
+   :versions: 0.1.3-0, 0.1.2-0, 0.0.2-0
    
    :depends hdbscan: >=0.8.24
    :depends matplotlib: >=3.1.0

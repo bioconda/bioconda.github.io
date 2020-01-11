@@ -23,7 +23,7 @@ chiron
 
    |downloads_chiron| |docker_chiron|
 
-   :versions: 0.6.1-0, 0.4.2.1-1, 0.4.2.1-0
+   :versions: 0.6.1.1-0, 0.6.1-0, 0.4.2.1-1, 0.4.2.1-0
    
    :depends h5py: >=2.7.0
    :depends mappy: >=2.10.0

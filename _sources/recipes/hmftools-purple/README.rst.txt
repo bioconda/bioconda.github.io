@@ -22,7 +22,7 @@ hmftools-purple
 
    |downloads_hmftools-purple| |docker_hmftools-purple|
 
-   :versions: 2.36-0, 2.35-0, 2.34-0, 2.32-0, 2.31-0, 2.25-1, 2.17-1, 2.16-1, 2.16-0, 2.15-0
+   :versions: 2.37-0, 2.36-0, 2.35-0, 2.34-0, 2.32-0, 2.31-0, 2.25-1, 2.17-1, 2.16-1, 2.16-0, 2.15-0
    
    :depends openjdk: >=8
    :depends xorg-libxtst: 

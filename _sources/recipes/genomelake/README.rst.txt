@@ -22,7 +22,7 @@ genomelake
 
    |downloads_genomelake| |docker_genomelake|
 
-   :versions: 0.1.5-0, 0.1.4-1, 0.1.4-0
+   :versions: 0.1.4-2, 0.1.4-1, 0.1.4-0
    
    :depends bcolz: >=1.1
    :depends libgcc-ng: >=7.3.0

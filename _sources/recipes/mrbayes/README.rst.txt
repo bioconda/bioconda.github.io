@@ -27,12 +27,12 @@ mrbayes
 
    |downloads_mrbayes| |docker_mrbayes|
 
-   :versions: 3.2.7a-0, 3.2.6-0
+   :versions: 3.2.7-0, 3.2.7a-0, 3.2.6-0
    
    :depends beagle-lib: 
    :depends libgcc-ng: >=7.3.0
    :depends ncurses: >=6.1,<6.2.0a0
-   :depends openmpi: >=4.0.1,<4.1.0a0
+   :depends openmpi: >=4.0.2,<4.1.0a0
    :depends readline: >=8.0,<9.0a0
    :requirements:
 

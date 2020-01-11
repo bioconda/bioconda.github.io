@@ -22,7 +22,7 @@ r-exomedepth
 
    |downloads_r-exomedepth| |docker_r-exomedepth|
 
-   :versions: 1.1.12-0, 1.1.10-4, 1.1.10-3, 1.1.10-2, 1.1.10-0
+   :versions: 1.1.15-0, 1.1.12-0, 1.1.10-4, 1.1.10-3, 1.1.10-2, 1.1.10-0
    
    :depends bioconductor-biostrings: 
    :depends bioconductor-genomicalignments: 
