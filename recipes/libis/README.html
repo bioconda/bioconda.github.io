@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;libis_moabs&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;libis&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -98,10 +98,10 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="libis-moabs">
+  <div class="section" id="libis">
 <dl class="recipe">
-<dt id="recipe-libis_moabs">
-<em class="property">recipe </em><code class="sig-name descname">libis_moabs</code><a class="headerlink" href="#recipe-libis_moabs" title="Permalink to this definition">¶</a></dt>
+<dt id="recipe-libis">
+<em class="property">recipe </em><code class="sig-name descname">libis</code><a class="headerlink" href="#recipe-libis" title="Permalink to this definition">¶</a></dt>
 <dd><p>Low input Bisulfite sequencing alignment</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -111,22 +111,26 @@
 <dd class="field-even"><p>MIT / MIT</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libis_moabs">libis_moabs</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libis_moabs/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libis">libis</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libis/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-libis_moabs">
-<em class="property">package </em><code class="sig-name descname">libis_moabs</code><a class="headerlink" href="#package-libis_moabs" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/libis_moabs"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/libis_moabs.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/libis_moabs"><img alt="docker_libis_moabs" src="https://quay.io/repository/biocontainers/libis_moabs/status" /></a></p>
+<dt id="package-libis">
+<em class="property">package </em><code class="sig-name descname">libis</code><a class="headerlink" href="#package-libis" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/libis"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/libis.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/libis"><img alt="docker_libis" src="https://quay.io/repository/biocontainers/libis/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>0.0.7-0</p>
+<dd class="field-odd"><p>0.0.9-0</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../bedtools/README.html#package-bedtools" title="bedtools package"><strong>bedtools</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../cutadapt/README.html#package-cutadapt" title="cutadapt package"><strong>cutadapt</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../fastqc/README.html#package-fastqc" title="fastqc package"><strong>fastqc</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/matplotlib-feedstock"><strong>matplotlib</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../moabs/README.html#package-moabs" title="moabs package"><strong>moabs</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../pysam/README.html#package-pysam" title="pysam package"><strong>pysam</strong></a></p></li>
@@ -134,6 +138,7 @@
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scikit-learn-feedstock"><strong>scikit-learn</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scipy-feedstock"><strong>scipy</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/seaborn-feedstock"><strong>seaborn</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../trim-galore/README.html#package-trim-galore" title="trim-galore package"><strong>trim-galore</strong></a></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
@@ -143,24 +148,24 @@
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">libis_moabs</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">libis</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">libis_moabs</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">libis</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">libis_moabs</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">libis</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/libis_moabs?tab=tags">libis_moabs/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/libis?tab=tags">libis/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/libis_moabs/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/libis_moabs/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/libis/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/libis/README.html)
 </pre></div>
 </div>
 </div>
@@ -181,14 +186,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/libis_moabs/README.rst.txt"
+      <a href="../../_sources/recipes/libis/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/libis_moabs/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/libis/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>
