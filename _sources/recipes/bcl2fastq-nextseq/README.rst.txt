@@ -22,7 +22,7 @@ bcl2fastq-nextseq
 
    |downloads_bcl2fastq-nextseq| |docker_bcl2fastq-nextseq|
 
-   :versions: 1.2.4-3, 1.2.4-2, 1.2.4-0, 0.1.0-0
+   :versions: 1.2.6-0, 1.2.4-3, 1.2.4-2, 1.2.4-0, 0.1.0-0
    
    :depends click: 
    :depends matplotlib: 

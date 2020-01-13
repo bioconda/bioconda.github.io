@@ -22,7 +22,7 @@ libis
 
    |downloads_libis| |docker_libis|
 
-   :versions: 0.0.9-0
+   :versions: 0.0.9-1, 0.0.9-0
    
    :depends bedtools: 
    :depends cutadapt: 
@@ -31,7 +31,7 @@ libis
    :depends moabs: 
    :depends numpy: 
    :depends pandas: 
-   :depends pysam: 
+   :depends pysam: >=0.15.3
    :depends python: >=3
    :depends scikit-learn: 
    :depends scipy: 
