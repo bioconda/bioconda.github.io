@@ -22,7 +22,7 @@ pepquery
 
    |downloads_pepquery| |docker_pepquery|
 
-   :versions: 1.2.0-0
+   :versions: 1.3.0-0, 1.2.0-0
    
    :depends openjdk: 
    :requirements:

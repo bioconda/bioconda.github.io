@@ -22,9 +22,9 @@ irfinder
 
    |downloads_irfinder| |docker_irfinder|
 
-   :versions: 1.2.5-0, 1.2.4-1, 1.2.3-0, 1.2.2-0
+   :versions: 1.2.6-0, 1.2.5-0, 1.2.4-1, 1.2.3-0, 1.2.2-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    :depends perl: 
    :depends r-base: 
    :requirements:

@@ -6,14 +6,14 @@
 yacrd
 =====
 
-.. conda:recipe:: yacrd/0.4.1
+.. conda:recipe:: yacrd
    :replaces_section_title:
 
    Yet Another Chimeric Read Detector\, with long\-read mapper result as input.
 
    :homepage: https://github.com/natir/yacrd
    :license: MIT / MIT
-   :recipe: /`yacrd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yacrd>`_/`0.4.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yacrd/0.4.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yacrd/0.4.1/meta.yaml>`_
+   :recipe: /`yacrd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yacrd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yacrd/meta.yaml>`_
 
    
 
@@ -22,9 +22,9 @@ yacrd
 
    |downloads_yacrd| |docker_yacrd|
 
-   :versions: 0.5.1-1, 0.4.1-1, 0.4-1, 0.3-1, 0.2.1-0, 0.2-1, 0.2-0
+   :versions: 0.6.0-0, 0.5.1-1, 0.4.1-1, 0.4-1, 0.3-1, 0.2.1-0, 0.2-1, 0.2-0
    
-   :depends bzip2: >=1.0.6,<2.0a0
+   :depends bzip2: >=1.0.8,<2.0a0
    :depends libgcc-ng: >=7.3.0
    :depends xz: >=5.2.4,<5.3.0a0
    :depends zlib: >=1.2.11,<1.3.0a0

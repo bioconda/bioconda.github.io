@@ -9,7 +9,7 @@ hypo
 .. conda:recipe:: hypo
    :replaces_section_title:
 
-   Super Fast and Accurate Polisher for Long Read Genome Assemblies .
+   Super Fast and Accurate Polisher for Long Read Genome Assemblies.
 
    :homepage: https://github.com/kensung-lab/hypo
    :license: GPL-3.0
@@ -22,7 +22,7 @@ hypo
 
    |downloads_hypo| |docker_hypo|
 
-   :versions: 1.0.0-2, 1.0.0-1, 1.0.0-0
+   :versions: 1.0.1-0, 1.0.0-2, 1.0.0-1, 1.0.0-0
    
    :depends htslib: >=1.10.2,<1.11.0a0
    :depends kmc: >=3.0
