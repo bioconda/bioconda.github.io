@@ -9,7 +9,7 @@ discosnp
 .. conda:recipe:: discosnp
    :replaces_section_title:
 
-   Designed for discovering all kinds of SNPs
+   reference\-free small variant caller for short read sequencing data
 
    :homepage: https://gatb.inria.fr/software/discosnp/
    :license: GNU Affero General Public License v3.0
@@ -23,7 +23,7 @@ discosnp
 
    |downloads_discosnp| |docker_discosnp|
 
-   :versions: 2.4.3-0, 2.3.0-7, 2.3.0-6, 2.3.0-5, 2.3.0-4, 2.3.0-3, 2.3.0-2, 2.3.0-1, 2.3.0-0, 2.2.10-1, 2.2.10-0
+   :versions: 2.4.3-1, 2.4.3-0, 2.3.0-7, 2.3.0-6, 2.3.0-5, 2.3.0-4, 2.3.0-3, 2.3.0-2, 2.3.0-1, 2.3.0-0, 2.2.10-1, 2.2.10-0
    
    :depends bwa: 
    :depends libgcc-ng: >=7.3.0

@@ -22,9 +22,8 @@ cmsip
 
    |downloads_cmsip| |docker_cmsip|
 
-   :versions: 0.0.2.1-0, 0.0.2.0-0, 0.0.1.8-0, 0.0.1.7-0, 0.0.1.4-1, 0.0.1.4-0, 0.0.1.3-0, 0.0.1.2-0, 0.0.1.1.9-0, 0.0.1.1.1-0, 0.0.0.9-0, 0.0.0.6-0, 0.0.0.5-0
+   :versions: 0.0.2.1-1, 0.0.2.1-0, 0.0.2.0-0, 0.0.1.8-0, 0.0.1.7-0, 0.0.1.4-1, 0.0.1.4-0, 0.0.1.3-0, 0.0.1.2-0, 0.0.1.1.9-0, 0.0.1.1.1-0, 0.0.0.9-0, 0.0.0.6-0, 0.0.0.5-0
    
-   :depends bash: 
    :depends bedtools: 
    :depends bioconductor-deseq2: 
    :depends bioconductor-genefilter: 
@@ -33,9 +32,8 @@ cmsip
    :depends moabs: 
    :depends python: >=3
    :depends pyyaml: 
-   :depends r: 
+   :depends r-base: 
    :depends r-rvaidememoire: 
-   :depends samtools: 0.1.19.*
    :requirements:
 
    .. rubric:: Installation

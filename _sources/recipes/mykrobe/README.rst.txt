@@ -9,23 +9,22 @@ mykrobe
 .. conda:recipe:: mykrobe
    :replaces_section_title:
 
-   Rapid antibiotic\-resistance predictions from genome sequence data for Staphylococcus aureus and Mycobacterium tuberculosis.
+   Antibiotic resistance prediction in minutes
 
    :homepage: https://github.com/Mykrobe-tools/mykrobe
    :license: MIT
    :recipe: /`mykrobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mykrobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mykrobe/meta.yaml>`_
 
-   
+   Rapid antibiotic\-resistance predictions from genome sequence data for Staphylococcus aureus and Mycobacterium tuberculosis.
 
 
 .. conda:package:: mykrobe
 
    |downloads_mykrobe| |docker_mykrobe|
 
-   :versions: 0.7.0-2, 0.7.0-0, 0.6.1-3, 0.6.1-2, 0.6.1-1, 0.6.1-0, 0.5.6-1, 0.5.6-0
+   :versions: 0.7.0-3, 0.7.0-2, 0.7.0-0, 0.6.1-3, 0.6.1-2, 0.6.1-1, 0.6.1-0, 0.5.6-1, 0.5.6-0
    
    :depends biopython: 
-   :depends cython: 
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends mongodb: >3.0

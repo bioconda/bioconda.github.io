@@ -22,7 +22,7 @@ libis
 
    |downloads_libis| |docker_libis|
 
-   :versions: 0.0.9-1, 0.0.9-0
+   :versions: 0.0.11-0, 0.0.9-1, 0.0.9-0
    
    :depends bedtools: 
    :depends cutadapt: 
