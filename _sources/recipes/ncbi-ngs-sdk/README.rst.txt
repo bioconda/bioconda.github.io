@@ -22,7 +22,7 @@ ncbi-ngs-sdk
 
    |downloads_ncbi-ngs-sdk| |docker_ncbi-ngs-sdk|
 
-   :versions: 2.10.1-0, 2.10.0-0, 2.9.3-0, 2.9.1-0, 2.9.0-0
+   :versions: 2.10.2-0, 2.10.1-0, 2.10.0-0, 2.9.3-0, 2.9.1-0, 2.9.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libiconv: >=1.15,<1.16.0a0

@@ -22,7 +22,7 @@ quantwiz-iq
 
    |downloads_quantwiz-iq| |docker_quantwiz-iq|
 
-   :versions: 2.0-0
+   :versions: 2.0-1, 2.0-0
    
    :depends perl: 
    :depends perl-math-matrix: 0.8.*

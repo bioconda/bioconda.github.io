@@ -12,7 +12,7 @@ novoalign
    Powerful tool designed for mapping of short reads onto a reference genome from Illumina\, Ion Torrent\, and 454 NGS platforms
 
    :homepage: http://www.novocraft.com/products/novoalign/
-   :license: Commercial (requires license for commercial use or for features likes multi-threading)
+   :license: Commercial (requires license for use)
    :recipe: /`novoalign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/novoalign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/novoalign/meta.yaml>`_
    :links: biotools: :biotools:`Novoalign`
 
@@ -23,7 +23,7 @@ novoalign
 
    |downloads_novoalign| |docker_novoalign|
 
-   :versions: 3.09.04-0, 3.09.00-2, 3.09.00-1, 3.09.00-0, 3.07.00-1, 3.07.00-0, 3.06.05-0, 3.04.04-3, 3.04.04-2, 3.04.04-0, 3.03.02-0
+   :versions: 4.02.00-0, 3.09.04-1, 3.09.04-0, 3.09.00-2, 3.09.00-1, 3.09.00-0, 3.07.00-1, 3.07.00-0, 3.06.05-0, 3.04.04-3, 3.04.04-2, 3.04.04-0, 3.03.02-0
    
    :depends curl: >=7.64.1,<8.0a0
    :depends libgcc-ng: >=7.3.0
@@ -62,7 +62,7 @@ novoalign
 
 Notes
 -----
-Novoalign runs in single\-threaded mode by default unless a \"novoalign.lic\" license file is provided in the same directory as its binaries. The license file can be copied in to the conda environment via the \"novoalign\-license\-register\" command.
+Novoalign V4 will not run unless a \"novoalign.lic\" license file is provided in the same directory as its binaries. The license file can be copied in to the conda environment via the \"novoalign\-license\-register\" command.
 
 
 Link to this page
