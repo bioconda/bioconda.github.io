@@ -23,7 +23,7 @@ methylpy
 
    |downloads_methylpy| |docker_methylpy|
 
-   :versions: 1.4.1-0
+   :versions: 1.4.2-0, 1.4.1-0
    
    :depends bowtie: 
    :depends bowtie2: 

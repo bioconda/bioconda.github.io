@@ -22,7 +22,7 @@ r-pma
 
    |downloads_r-pma| |docker_r-pma|
 
-   :versions: 1.1-1, 1.1-0, 1.0.11-4, 1.0.11-3, 1.0.11-2, 1.0.11-1, 1.0.11-0
+   :versions: 1.2-0, 1.1-1, 1.1-0, 1.0.11-4, 1.0.11-3, 1.0.11-2, 1.0.11-1, 1.0.11-0
    
    :depends bioconductor-impute: 
    :depends libgcc-ng: >=7.3.0

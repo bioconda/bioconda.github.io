@@ -22,8 +22,14 @@ tesorter
 
    |downloads_tesorter| |docker_tesorter|
 
-   :versions: 
+   :versions: 1.2.5.2-0
    
+   :depends biopython: 
+   :depends blast: 
+   :depends drmaa: 
+   :depends hmmer: 
+   :depends pp: 
+   :depends python: >=3
    :requirements:
 
    .. rubric:: Installation
