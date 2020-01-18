@@ -1,0 +1,73 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'chira'
+.. highlight: bash
+
+chira
+=====
+
+.. conda:recipe:: chira
+   :replaces_section_title:
+
+   An integrated framework for annotation and visualization of chimeric reads.
+
+   :homepage: https://github.com/pavanvidem/chira/
+   :license: GNU GENERAL PUBLIC LICENSE Version 3
+   :recipe: /`chira <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chira>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chira/meta.yaml>`_
+
+   
+
+
+.. conda:package:: chira
+
+   |downloads_chira| |docker_chira|
+
+   :versions: 1.0.0-0
+   
+   :depends bcbiogff: >=0.6.6
+   :depends biopython: >=1.76
+   :depends bwa: >=0.7.17
+   :depends clan: >=0.05
+   :depends pysam: >=0.15.3
+   :depends python: >3
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install chira
+
+   and update with::
+
+      conda update chira
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/chira:<tag>
+
+   (see `chira/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_chira| image:: https://img.shields.io/conda/dn/bioconda/chira.svg?style=flat
+   :target: https://anaconda.org/bioconda/chira
+   :alt:   (downloads)
+.. |docker_chira| image:: https://quay.io/repository/biocontainers/chira/status
+   :target: https://quay.io/repository/biocontainers/chira
+.. _`chira/tags`: https://quay.io/repository/biocontainers/chira?tab=tags
+
+
+
+
+
+
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/chira/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/chira/README.html
