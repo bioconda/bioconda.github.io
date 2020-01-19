@@ -22,10 +22,11 @@ reparation_blast
 
    |downloads_reparation_blast| |docker_reparation_blast|
 
-   :versions: 1.0.7-2, 1.0.7-0, v1.0.7-1, v1.0.7-0, v1.0.6-0, v1.0.5-0, v1.0.4-0, v1.0.3-2, v1.0.2-1, v1.0.1-0
+   :versions: 1.0.8-0, 1.0.7-2, 1.0.7-0, v1.0.7-1, v1.0.7-0, v1.0.6-0, v1.0.5-0, v1.0.4-0, v1.0.3-2, v1.0.2-1, v1.0.1-0
    
    :depends blast: 2.7.1.*
    :depends glimmer: 
+   :depends openssl: 1.0.2.*
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-bioperl: >=1.7.2
    :depends perl-posix: 
