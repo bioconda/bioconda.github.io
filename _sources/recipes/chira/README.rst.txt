@@ -22,13 +22,14 @@ chira
 
    |downloads_chira| |docker_chira|
 
-   :versions: 1.0.1-0, 1.0.0-0
+   :versions: 1.0.2-1, 1.0.2-0, 1.0.1-0, 1.0.0-0
    
    :depends bcbiogff: >=0.6.6
    :depends bedtools: >=2.29.2
    :depends biopython: >=1.76
    :depends bwa: >=0.7.17
    :depends clan: >=0.05
+   :depends intarna: >=3.1.3
    :depends pysam: >=0.15.3
    :depends python: >3
    :depends samtools: >=1.9
