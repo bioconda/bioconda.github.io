@@ -22,7 +22,7 @@ fitter
 
    |downloads_fitter| |docker_fitter|
 
-   :versions: 1.1.11-0, 1.0.9-0, 1.0.8-0, 1.0.4-1, 1.0.4-0
+   :versions: 1.2.0-0, 1.1.11-0, 1.0.9-0, 1.0.8-0, 1.0.4-1, 1.0.4-0
    
    :depends matplotlib: 
    :depends numpy: 

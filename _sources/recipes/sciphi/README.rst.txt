@@ -6,14 +6,14 @@
 sciphi
 ======
 
-.. conda:recipe:: sciphi/v0.1.4
+.. conda:recipe:: sciphi
    :replaces_section_title:
 
    Single\-cell mutation identification via phylogenetic inference
 
    :homepage: https://github.com/cbg-ethz/SCIPhI
    :license: GNU GENERAL PUBLIC LICENSE Version 3 for SCIPhI and Boost Software License - Version 1.0 for dlib (as an upstream project)
-   :recipe: /`sciphi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sciphi>`_/`v0.1.4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sciphi/v0.1.4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sciphi/v0.1.4/meta.yaml>`_
+   :recipe: /`sciphi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sciphi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sciphi/meta.yaml>`_
 
    
 
@@ -22,9 +22,9 @@ sciphi
 
    |downloads_sciphi| |docker_sciphi|
 
-   :versions: 0.1.4-0
+   :versions: 0.1.5-0, 0.1.4-0
    
-   :depends boost-cpp: >=1.68.0,<1.68.1.0a0
+   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends zlib: >=1.2.11,<1.3.0a0

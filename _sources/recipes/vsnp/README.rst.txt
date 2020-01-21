@@ -22,7 +22,7 @@ vsnp
 
    |downloads_vsnp| |docker_vsnp|
 
-   :versions: 0.2.0-0
+   :versions: 0.2.01-0, 0.2.0-0
    
    :depends abyss: 
    :depends biopython: 
@@ -33,6 +33,7 @@ vsnp
    :depends matplotlib: 
    :depends pandas: 
    :depends picard: 
+   :depends py-cpuinfo: 
    :depends pysam: 
    :depends python: >=3.7
    :depends pyvcf: 
