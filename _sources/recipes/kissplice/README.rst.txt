@@ -22,9 +22,10 @@ kissplice
 
    |downloads_kissplice| |docker_kissplice|
 
-   :versions: 2.4.0p1-2, 2.4.0p1-1, 2.4.0p1-0
+   :versions: 2.4.0-0, 2.4.0p1-3, 2.4.0p1-2, 2.4.0p1-1, 2.4.0p1-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends python: >=2.7,<2.8.0a0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:

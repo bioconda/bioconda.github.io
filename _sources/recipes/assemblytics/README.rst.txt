@@ -22,7 +22,7 @@ assemblytics
 
    |downloads_assemblytics| |docker_assemblytics|
 
-   :versions: 1.1-0
+   :versions: 1.2-0, 1.1-0
    
    :depends mummer: 
    :depends numpy: 

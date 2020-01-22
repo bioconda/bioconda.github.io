@@ -22,7 +22,7 @@ pp-sketchlib
 
    |downloads_pp-sketchlib| |docker_pp-sketchlib|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.1-0, 1.0.0-0
    
    :depends bzip2: >=1.0.8,<2.0a0
    :depends h5py: 

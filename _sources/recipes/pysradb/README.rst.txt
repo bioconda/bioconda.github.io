@@ -16,6 +16,7 @@ pysradb
    
    :license: BSD / BSD License
    :recipe: /`pysradb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysradb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysradb/meta.yaml>`_
+   :links: biotools: :biotools:`pysradb`, doi: :doi:`10.12688/f1000research.18676.1`
 
    Python package for interacting with SRAdb and downloading datasets from SRA
 
@@ -24,7 +25,7 @@ pysradb
 
    |downloads_pysradb| |docker_pysradb|
 
-   :versions: 0.9.6-0, 0.9.0-0, 0.8.0-0, 0.7.1-0, 0.6.0-0, 0.4.2-0, 0.4.0-0, 0.3.0-0, 0.2.2-0
+   :versions: 0.9.7-0, 0.9.6-0, 0.9.0-0, 0.8.0-0, 0.7.1-0, 0.6.0-0, 0.4.2-0, 0.4.0-0, 0.3.0-0, 0.2.2-0
    
    :depends pandas: >=0.23.4
    :depends python: >3

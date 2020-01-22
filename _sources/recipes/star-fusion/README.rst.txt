@@ -9,7 +9,7 @@ star-fusion
 .. conda:recipe:: star-fusion
    :replaces_section_title:
 
-   A fusion gene caller for STAR. The FusionFilter tools to create needed index data structures are not included.
+   STAR\-Fusion fusion variant caller.  All dependencies required to run FusionInspector and FusionAnnotator are included.
 
    :homepage: https://github.com/STAR-Fusion/STAR-Fusion
    :license: BSD-3-Clause
@@ -22,23 +22,23 @@ star-fusion
 
    |downloads_star-fusion| |docker_star-fusion|
 
-   :versions: 1.7.0-1, 1.7.0-0, 1.6.0-1, 1.6.0-0, 1.5.0-0, 1.4.0-2, 1.4.0-1, 1.4.0-0, 1.3.2-2, 1.3.2-1, 1.3.2-0, 1.2.0-0, 1.1.0-0, 1.0.0-0, 0.7.0-1, 0.7.0-0, 0.5.4-2, 0.5.4-1, 0.5.4-0, 0.5.3-0, 0.4.0-0
+   :versions: 1.8.1-0, 1.7.0-1, 1.7.0-0, 1.6.0-1, 1.6.0-0, 1.5.0-0, 1.4.0-2, 1.4.0-1, 1.4.0-0, 1.3.2-2, 1.3.2-1, 1.3.2-0, 1.2.0-0, 1.1.0-0, 1.0.0-0, 0.7.0-1, 0.7.0-0, 0.5.4-2, 0.5.4-1, 0.5.4-0, 0.5.3-0, 0.4.0-0
    
    :depends bbmap: 
    :depends blast: 
    :depends bowtie: 
    :depends gmap: 
-   :depends igv-reports: 
+   :depends igv-reports: 0.9.4
    :depends perl: 
    :depends perl-carp: 
-   :depends perl-carp-assert: 
+   :depends perl-carp-assert: 0.21
    :depends perl-db-file: 
    :depends perl-io-gzip: 
    :depends perl-json-xs: 
    :depends perl-set-intervaltree: 
    :depends perl-uri: 
    :depends samtools: 
-   :depends star: >=2.7.0f
+   :depends star: 2.7.2b
    :requirements:
 
    .. rubric:: Installation

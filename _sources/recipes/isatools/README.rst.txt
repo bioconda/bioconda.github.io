@@ -22,7 +22,7 @@ isatools
 
    |downloads_isatools| |docker_isatools|
 
-   :versions: 0.10.3-1, 0.10.3-0, 0.10.2-0, 0.10.0-1, 0.10.0-0, 0.9.5-0, 0.9.4-0, 0.9.3-0
+   :versions: 0.11.0-0, 0.10.3-1, 0.10.3-0, 0.10.2-0, 0.10.0-1, 0.10.0-0, 0.9.5-0, 0.9.4-0, 0.9.3-0
    
    :depends beautifulsoup4: 
    :depends biopython: 

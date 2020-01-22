@@ -22,7 +22,7 @@ ngsderive
 
    |downloads_ngsderive| |docker_ngsderive|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.1-0, 1.0.0-0
    
    :depends colorlog: 
    :depends pysam: 0.15.3.*
