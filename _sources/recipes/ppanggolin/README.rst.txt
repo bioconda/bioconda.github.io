@@ -22,7 +22,7 @@ ppanggolin
 
    |downloads_ppanggolin| |docker_ppanggolin|
 
-   :versions: 1.0.1-0, 1.0.0-0, v0.3.88-1, v0.3.88-0
+   :versions: 1.0.13-0, 1.0.1-0, 1.0.0-0, v0.3.88-1, v0.3.88-0
    
    :depends aragorn: 1.2.*
    :depends colorlover: 0.3.*

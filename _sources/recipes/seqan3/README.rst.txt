@@ -12,6 +12,9 @@ seqan3
    SeqAn3 is the new version of the popular SeqAn template library for the analysis of biological sequences.
 
    :homepage: https://www.seqan.de
+   :documentation: https://docs.seqan.de/seqan/3-master-user/
+   
+   :developer docs: https://github.com/seqan/seqan3
    :license: BSD / BSD-3-Clause
    :recipe: /`seqan3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqan3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqan3/meta.yaml>`_
 
@@ -22,10 +25,10 @@ seqan3
 
    |downloads_seqan3| |docker_seqan3|
 
-   :versions: 3.0.0-0
+   :versions: 3.0.1-0, 3.0.0-1, 3.0.0-0
    
-   :depends bzip2: 
-   :depends zlib: 
+   :depends bzip2: >=1.0.8,<2.0a0
+   :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
    .. rubric:: Installation

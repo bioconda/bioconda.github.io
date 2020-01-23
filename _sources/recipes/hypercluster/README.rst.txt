@@ -24,12 +24,14 @@ hypercluster
 
    |downloads_hypercluster| |docker_hypercluster|
 
-   :versions: 0.1.3-1, 0.1.3-0, 0.1.2-0, 0.0.2-0
+   :versions: 0.1.8-0, 0.1.3-1, 0.1.3-0, 0.1.2-0, 0.0.2-0
    
    :depends hdbscan: >=0.8.24
    :depends matplotlib: >=3.1.0
+   :depends networkx: >=2.4
    :depends numpy: >=1.16.4
    :depends pandas: >=0.24.2
+   :depends python-louvain: >=0.13
    :depends scikit-learn: >=0.22.0
    :depends scipy: >=1.2.1
    :depends seaborn: >=0.9.0

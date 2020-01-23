@@ -14,6 +14,7 @@ vibrant
    :homepage: https://github.com/AnantharamanLab/VIBRANT
    :license: GPL / GPL
    :recipe: /`vibrant <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vibrant>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vibrant/meta.yaml>`_
+   :links: doi: :doi:`10.1101/855387`
 
    
 
