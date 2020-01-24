@@ -9,10 +9,10 @@ macrel
 .. conda:recipe:: macrel
    :replaces_section_title:
 
-   A module for AMP \(antimicrobial peptide\) prediction
+   A pipeline for AMP \(antimicrobial peptide\) prediction
 
    :homepage: https://github.com/BigDataBiology/macrel
-   :license: MIT
+   :license: GPLv3
    :recipe: /`macrel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/macrel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/macrel/meta.yaml>`_
    :links: doi: :doi:`10.1101/2019.12.17.880385`
 
@@ -24,7 +24,7 @@ macrel
 
    |downloads_macrel| |docker_macrel|
 
-   :versions: 0.2-0
+   :versions: 0.3.1-0, 0.2-0
    
    :depends libgcc-ng: >=7.3.0
    :depends megahit: 

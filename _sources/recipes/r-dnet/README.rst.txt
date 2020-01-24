@@ -22,7 +22,7 @@ r-dnet
 
    |downloads_r-dnet| |docker_r-dnet|
 
-   :versions: 1.1.5-0, 1.1.4-1, 1.1.4-0
+   :versions: 1.1.6-0, 1.1.5-0, 1.1.4-1, 1.1.4-0
    
    :depends bioconductor-graph: 
    :depends bioconductor-rgraphviz: 

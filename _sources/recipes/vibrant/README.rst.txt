@@ -23,16 +23,16 @@ vibrant
 
    |downloads_vibrant| |docker_vibrant|
 
-   :versions: 1.0.1-1, 1.0.1-0
+   :versions: 1.0.1-2, 1.0.1-1, 1.0.1-0
    
    :depends biopython: 
    :depends hmmer: 
-   :depends matplotlib: 
-   :depends numpy: 
+   :depends matplotlib-base: 
+   :depends numpy: >=1.17.0
    :depends pandas: 
    :depends prodigal: 
    :depends python: >=3.5
-   :depends scikit-learn: 
+   :depends scikit-learn: <=0.21.3
    :depends seaborn: 
    :depends wget: 
    :requirements:
