@@ -22,7 +22,7 @@ chexmix
 
    |downloads_chexmix| |docker_chexmix|
 
-   :versions: 0.4-0
+   :versions: 0.45-0, 0.4-0
    
    :depends meme: >=4.11.2
    :depends openjdk: >=8

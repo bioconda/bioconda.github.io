@@ -22,7 +22,7 @@ shannon_cpp
 
    |downloads_shannon_cpp| |docker_shannon_cpp|
 
-   :versions: 0.4.0-0
+   :versions: 0.5.0-0, 0.4.0-0
    
    :depends boost-cpp: >=1.70.0,<1.70.1.0a0
    :depends coreutils: 

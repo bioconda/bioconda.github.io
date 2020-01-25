@@ -9,7 +9,7 @@ nthits
 .. conda:recipe:: nthits
    :replaces_section_title:
 
-   a method for identifying reapeats in high\-throughput DNA sequencing data.
+   a method for identifying repeats in high\-throughput DNA sequencing data.
 
    :homepage: https://github.com/bcgsc/ntHits
    :license: MIT

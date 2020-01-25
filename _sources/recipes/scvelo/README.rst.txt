@@ -22,7 +22,7 @@ scvelo
 
    |downloads_scvelo| |docker_scvelo|
 
-   :versions: 0.1.24-0
+   :versions: 0.1.25-0, 0.1.24-0
    
    :depends anndata: >=0.6.18
    :depends loompy: >=2.0.12

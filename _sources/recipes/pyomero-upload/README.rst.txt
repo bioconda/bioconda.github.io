@@ -22,19 +22,18 @@ pyomero-upload
 
    |downloads_pyomero-upload| |docker_pyomero-upload|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.0-1, 1.0.0-0
    
-   :depends enum34: 1.1.6
-   :depends numpy: 1.16.5
-   :depends openssl: >=1.0.2t,<1.0.3a
-   :depends pandas: 0.24.2
-   :depends pillow: 6.2.1
+   :depends enum34: 1.1.6.*
+   :depends numpy: 1.16.5.*
+   :depends pandas: 0.24.2.*
+   :depends pillow: 6.2.1.*
    :depends python: <3
-   :depends python-omero: 5.4.10
-   :depends pyyaml: 5.1
-   :depends requests: 2.22.0
-   :depends scipy: 1.2.1
-   :depends zeroc-ice: >3.5,<3.7
+   :depends python-omero: 5.4.10.*
+   :depends pyyaml: 5.1.*
+   :depends requests: 2.22.0.*
+   :depends scipy: 1.2.1.*
+   :depends zeroc-ice: 3.6.*
    :requirements:
 
    .. rubric:: Installation

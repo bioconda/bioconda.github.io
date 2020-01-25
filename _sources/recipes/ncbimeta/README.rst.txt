@@ -22,7 +22,7 @@ ncbimeta
 
    |downloads_ncbimeta| |docker_ncbimeta|
 
-   :versions: 0.6.1-0
+   :versions: 0.6.2-0, 0.6.1-0
    
    :depends biopython: >=1.74
    :depends lxml: >=4.4.2

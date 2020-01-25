@@ -23,8 +23,9 @@ chromhmm
 
    |downloads_chromhmm| |docker_chromhmm|
 
-   :versions: 1.20-0, 1.19-0, 1.15-0, 1.14-0, 1.12-0, 1.11-0
+   :versions: 1.20-1, 1.20-0, 1.19-0, 1.15-0, 1.14-0, 1.12-0, 1.11-0
    
+   :depends fonts-conda-ecosystem: 
    :depends openjdk: 
    :depends unzip: 
    :requirements:

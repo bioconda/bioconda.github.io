@@ -22,7 +22,7 @@ nanosim
 
    |downloads_nanosim| |docker_nanosim|
 
-   :versions: 2.5.0-0, 2.2.0-0, 2.1.0-0, 2.0.0-1, 2.0.0-0, v1.3.0-0, v1.2.0-0, v1.0.1-1
+   :versions: 2.5.1-0, 2.5.0-0, 2.2.0-0, 2.1.0-0, 2.0.0-1, 2.0.0-0, v1.3.0-0, v1.2.0-0, v1.0.1-1
    
    :depends htseq: >=0.9.1
    :depends last: 
