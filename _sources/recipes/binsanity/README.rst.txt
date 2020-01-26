@@ -22,12 +22,12 @@ binsanity
 
    |downloads_binsanity| |docker_binsanity|
 
-   :versions: 0.3.1-0, 0.2.9.5-0, 0.2.9.4-0, 0.2.9.2-0, 0.2.9.1-0, 0.2.9-0, 0.2.8.2-0, 0.2.7.1-0, 0.2.6.3-0, 0.2.6.1-2, 0.2.6.1-1, 0.2.6.1-0
+   :versions: 0.3.4-0, 0.3.1-0, 0.2.9.5-0, 0.2.9.4-0, 0.2.9.2-0, 0.2.9.1-0, 0.2.9-0, 0.2.8.2-0, 0.2.7.1-0, 0.2.6.3-0, 0.2.6.1-2, 0.2.6.1-1, 0.2.6.1-0
    
    :depends biopython: 
    :depends checkm-genome: 
    :depends pandas: >=0.13.0
-   :depends python: <3
+   :depends python: 
    :depends scikit-learn: 
    :depends scipy: >=0.13.0
    :depends subread: 
