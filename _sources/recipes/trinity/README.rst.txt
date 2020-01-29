@@ -9,12 +9,14 @@ trinity
 .. conda:recipe:: trinity
    :replaces_section_title:
 
-   Trinity RNA\-Seq de novo transcriptome assembly
+   Trinity assembles transcript sequences from Illumina RNA\-Seq data.
 
    :homepage: https://github.com/trinityrnaseq/trinityrnaseq/
-   :license: BSD-3-Clause
+   :documentation: https://github.com/trinityrnaseq/trinityrnaseq/wiki
+   
+   :license: BSD / BSD-3-Clause
    :recipe: /`trinity <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trinity>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trinity/meta.yaml>`_
-   :links: biotools: :biotools:`trinity`
+   :links: biotools: :biotools:`trinity`, doi: :doi:`10.1038/nbt.1883`
 
    
 
@@ -23,7 +25,7 @@ trinity
 
    |downloads_trinity| |docker_trinity|
 
-   :versions: 2.8.5-5, 2.8.5-4, 2.8.5-3, 2.8.5-2, 2.8.5-1, 2.8.5-0, 2.8.4-1, 2.8.4-0, 2.8.3-0, 2.8.2-2, 2.8.2-1, 2.8.2-0, 2.6.6-2, 2.6.6-1, 2.6.6-0, 2.5.1-1, 2.5.1-0, 2.4.0-5, 2.4.0-4, 2.4.0-3, 2.3.2-2, 2.3.2-1, 2.3.2-0, 2.2.0-7, 2.2.0-6, 2.2.0-5, 2.2.0-4, 2.2.0-3, 2.2.0-2, 2.2.0-1, 2.2.0-0, 2.1.1-6, date.2011_11_26-8, date.2011_11_26-7, date.2011_11_26-6, date.2011_11_26-5, date.2011_11_26-4, date.2011_11_26-3
+   :versions: 2.9.1-0, 2.8.5-5, 2.8.5-4, 2.8.5-3, 2.8.5-2, 2.8.5-1, 2.8.5-0, 2.8.4-1, 2.8.4-0, 2.8.3-0, 2.8.2-2, 2.8.2-1, 2.8.2-0, 2.6.6-2, 2.6.6-1, 2.6.6-0, 2.5.1-1, 2.5.1-0, 2.4.0-5, 2.4.0-4, 2.4.0-3, 2.3.2-2, 2.3.2-1, 2.3.2-0, 2.2.0-7, 2.2.0-6, 2.2.0-5, 2.2.0-4, 2.2.0-3, 2.2.0-2, 2.2.0-1, 2.2.0-0, 2.1.1-6, date.2011_11_26-8, date.2011_11_26-7, date.2011_11_26-6, date.2011_11_26-5, date.2011_11_26-4, date.2011_11_26-3
    
    :depends bowtie: 
    :depends bowtie2: >=2.3.0
@@ -33,9 +35,9 @@ trinity
    :depends numpy: 
    :depends openjdk: >=8
    :depends perl: 
-   :depends python: 
-   :depends salmon: >=0.9.1,<1.0
-   :depends samtools: >=1.3
+   :depends python: >=3.6
+   :depends salmon: >=0.11.2
+   :depends samtools: >=1.9
    :depends trimmomatic: >=0.36
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:

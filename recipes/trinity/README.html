@@ -102,19 +102,22 @@
 <dl class="recipe">
 <dt id="recipe-trinity">
 <em class="property">recipe </em><code class="sig-name descname">trinity</code><a class="headerlink" href="#recipe-trinity" title="Permalink to this definition">¶</a></dt>
-<dd><p>Trinity RNA-Seq de novo transcriptome assembly</p>
+<dd><p>Trinity assembles transcript sequences from Illumina RNA-Seq data.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/trinityrnaseq/trinityrnaseq/">https://github.com/trinityrnaseq/trinityrnaseq/</a></p>
 </dd>
-<dt class="field-even">License</dt>
-<dd class="field-even"><p>BSD-3-Clause</p>
+<dt class="field-even">Documentation</dt>
+<dd class="field-even"><p><a class="reference external" href="https://github.com/trinityrnaseq/trinityrnaseq/wiki">https://github.com/trinityrnaseq/trinityrnaseq/wiki</a></p>
 </dd>
-<dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trinity">trinity</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trinity/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License</dt>
+<dd class="field-odd"><p>BSD / BSD-3-Clause</p>
 </dd>
-<dt class="field-even">Links</dt>
-<dd class="field-even"><p>biotools: <a class="reference external" href="https://bio.tools/trinity">trinity</a></p>
+<dt class="field-even">Recipe</dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trinity">trinity</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trinity/meta.yaml">meta.yaml</a></p>
+</dd>
+<dt class="field-odd">Links</dt>
+<dd class="field-odd"><p>biotools: <a class="reference external" href="https://bio.tools/trinity">trinity</a>, doi: <a class="reference external" href="https://doi.org/10.1038/nbt.1883">10.1038/nbt.1883</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -125,7 +128,7 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/trinity"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/trinity.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/trinity"><img alt="docker_trinity" src="https://quay.io/repository/biocontainers/trinity/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>2.8.5-5, 2.8.5-4, 2.8.5-3, 2.8.5-2, 2.8.5-1, 2.8.5-0, 2.8.4-1, 2.8.4-0, 2.8.3-0, 2.8.2-2, 2.8.2-1, 2.8.2-0, 2.6.6-2, 2.6.6-1, 2.6.6-0, 2.5.1-1, 2.5.1-0, 2.4.0-5, 2.4.0-4, 2.4.0-3, 2.3.2-2, 2.3.2-1, 2.3.2-0, 2.2.0-7, 2.2.0-6, 2.2.0-5, 2.2.0-4, 2.2.0-3, 2.2.0-2, 2.2.0-1, 2.2.0-0, 2.1.1-6, date.2011_11_26-8, date.2011_11_26-7, date.2011_11_26-6, date.2011_11_26-5, date.2011_11_26-4, date.2011_11_26-3</p>
+<dd class="field-odd"><p>2.9.1-0, 2.8.5-5, 2.8.5-4, 2.8.5-3, 2.8.5-2, 2.8.5-1, 2.8.5-0, 2.8.4-1, 2.8.4-0, 2.8.3-0, 2.8.2-2, 2.8.2-1, 2.8.2-0, 2.6.6-2, 2.6.6-1, 2.6.6-0, 2.5.1-1, 2.5.1-0, 2.4.0-5, 2.4.0-4, 2.4.0-3, 2.3.2-2, 2.3.2-1, 2.3.2-0, 2.2.0-7, 2.2.0-6, 2.2.0-5, 2.2.0-4, 2.2.0-3, 2.2.0-2, 2.2.0-1, 2.2.0-0, 2.1.1-6, date.2011_11_26-8, date.2011_11_26-7, date.2011_11_26-6, date.2011_11_26-5, date.2011_11_26-4, date.2011_11_26-3</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
@@ -137,9 +140,9 @@
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/openjdk-feedstock"><strong>openjdk</strong></a> &gt;=8</p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../salmon/README.html#package-salmon" title="salmon package"><strong>salmon</strong></a> &gt;=0.9.1,&lt;1.0</p></li>
-<li><p><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a> &gt;=1.3</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=3.6</p></li>
+<li><p><a class="conda-package reference internal" href="../salmon/README.html#package-salmon" title="salmon package"><strong>salmon</strong></a> &gt;=0.11.2</p></li>
+<li><p><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a> &gt;=1.9</p></li>
 <li><p><a class="conda-package reference internal" href="../trimmomatic/README.html#package-trimmomatic" title="trimmomatic package"><strong>trimmomatic</strong></a> &gt;=0.36</p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/zlib-feedstock"><strong>zlib</strong></a> &gt;=1.2.11,&lt;1.3.0a0</p></li>
 </ul>
@@ -148,11 +151,11 @@
 <dd class="field-odd"><ul class="simple">
 <li><p><a class="conda-package reference internal" href="../secapr/README.html#secapr"><strong class="xref backref">secapr</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../fusion-inspector/README.html#fusion-inspector"><strong class="xref backref">fusion-inspector</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../star-fusion/README.html#star-fusion"><strong class="xref backref">star-fusion</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../discasm/README.html#discasm"><strong class="xref backref">discasm</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../guessmylt/README.html#guessmylt"><strong class="xref backref">guessmylt</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../phyluce/README.html#phyluce"><strong class="xref backref">phyluce</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../funannotate/README.html#funannotate"><strong class="xref backref">funannotate</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../guessmylt/README.html#guessmylt"><strong class="xref backref">guessmylt</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../discasm/README.html#discasm"><strong class="xref backref">discasm</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../star-fusion/README.html#star-fusion"><strong class="xref backref">star-fusion</strong></a></p></li>
 </ul>
 </dd>
 </dl>

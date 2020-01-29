@@ -24,7 +24,7 @@ macrel
 
    |downloads_macrel| |docker_macrel|
 
-   :versions: 0.3.1-0, 0.2-0
+   :versions: 0.3.1-1, 0.3.1-0, 0.2-0
    
    :depends libgcc-ng: >=7.3.0
    :depends megahit: 
@@ -35,8 +35,8 @@ macrel
    :depends r-base: 
    :depends r-essentials: 
    :depends r-peptides: 
-   :depends r-randomforest: 
    :depends rpy2: 
+   :depends scikit-learn: 
    :depends tzlocal: 
    :requirements:
 

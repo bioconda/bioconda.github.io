@@ -1,0 +1,69 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'r-acidgenerics'
+.. highlight: bash
+
+r-acidgenerics
+==============
+
+.. conda:recipe:: r-acidgenerics
+   :replaces_section_title:
+
+   S4 generics for Acid Genomics R packages.
+
+   :homepage: https://acidgenerics.acidgenomics.com/
+   :developer docs: https://github.com/acidgenomics/acidgenerics
+   :license: MIT
+   :recipe: /`r-acidgenerics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidgenerics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidgenerics/meta.yaml>`_
+
+   
+
+
+.. conda:package:: r-acidgenerics
+
+   |downloads_r-acidgenerics| |docker_r-acidgenerics|
+
+   :versions: 0.3.0-0
+   
+   :depends r-base: >=3.6,<3.7.0a0
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install r-acidgenerics
+
+   and update with::
+
+      conda update r-acidgenerics
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/r-acidgenerics:<tag>
+
+   (see `r-acidgenerics/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_r-acidgenerics| image:: https://img.shields.io/conda/dn/bioconda/r-acidgenerics.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-acidgenerics
+   :alt:   (downloads)
+.. |docker_r-acidgenerics| image:: https://quay.io/repository/biocontainers/r-acidgenerics/status
+   :target: https://quay.io/repository/biocontainers/r-acidgenerics
+.. _`r-acidgenerics/tags`: https://quay.io/repository/biocontainers/r-acidgenerics?tab=tags
+
+
+
+
+
+
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-acidgenerics/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/r-acidgenerics/README.html

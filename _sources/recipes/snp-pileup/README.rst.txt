@@ -22,7 +22,7 @@ snp-pileup
 
    |downloads_snp-pileup| |docker_snp-pileup|
 
-   :versions: 0.5.14-1, 0.5.14-0, v0.5.14-0
+   :versions: 0.5.14-2, 0.5.14-1, 0.5.14-0, v0.5.14-0
    
    :depends htslib: >=1.9,<1.10.0a0
    :depends libgcc-ng: >=7.3.0
