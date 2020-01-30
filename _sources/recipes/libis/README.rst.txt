@@ -22,13 +22,13 @@ libis
 
    |downloads_libis| |docker_libis|
 
-   :versions: 0.0.15-0, 0.0.14-0, 0.0.12-0, 0.0.11-0, 0.0.9-2, 0.0.9-1, 0.0.9-0
+   :versions: 0.0.15-2, 0.0.15-0, 0.0.14-0, 0.0.12-0, 0.0.11-0, 0.0.9-2, 0.0.9-1, 0.0.9-0
    
    :depends bedtools: 
    :depends cutadapt: 
    :depends fastqc: 
    :depends matplotlib: 
-   :depends moabs: 
+   :depends moabs: >=1.3.8.5
    :depends numpy: 
    :depends pandas: 
    :depends pysam: >=0.15.3

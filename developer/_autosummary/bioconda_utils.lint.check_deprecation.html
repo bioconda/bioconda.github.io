@@ -135,7 +135,10 @@
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_deprecation.uses_javajdk" title="bioconda_utils.lint.check_deprecation.uses_javajdk"><code class="xref py py-obj docutils literal notranslate"><span class="pre">uses_javajdk</span></code></a>(_linter)</p></td>
 <td><p>The recipe uses <code class="docutils literal notranslate"><span class="pre">java-jdk</span></code></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_deprecation.uses_perl_threaded" title="bioconda_utils.lint.check_deprecation.uses_perl_threaded"><code class="xref py py-obj docutils literal notranslate"><span class="pre">uses_perl_threaded</span></code></a>(_linter)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_deprecation.uses_matplotlib" title="bioconda_utils.lint.check_deprecation.uses_matplotlib"><code class="xref py py-obj docutils literal notranslate"><span class="pre">uses_matplotlib</span></code></a>(_linter)</p></td>
+<td><p>The recipe uses <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code>, but <code class="docutils literal notranslate"><span class="pre">matplotlib-base</span></code> is recommended</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint.check_deprecation.uses_perl_threaded" title="bioconda_utils.lint.check_deprecation.uses_perl_threaded"><code class="xref py py-obj docutils literal notranslate"><span class="pre">uses_perl_threaded</span></code></a>(_linter)</p></td>
 <td><p>The recipe uses <code class="docutils literal notranslate"><span class="pre">perl-threaded</span></code></p></td>
 </tr>
 </tbody>
@@ -208,6 +211,43 @@ to their locations within the recipe.</p>
 <dl class="method">
 <dt id="bioconda_utils.lint.check_deprecation.uses_javajdk.fix">
 <code class="sig-name descname">fix</code><span class="sig-paren">(</span><em class="sig-param">_message</em>, <em class="sig-param">_data</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_deprecation.html#uses_javajdk.fix"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.uses_javajdk.fix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Attempt to fix the problem</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="bioconda_utils.lint.check_deprecation.uses_matplotlib">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_deprecation.</code><code class="sig-name descname">uses_matplotlib</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_deprecation.html#uses_matplotlib"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.uses_matplotlib" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
+<p>The recipe uses <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code>, but <code class="docutils literal notranslate"><span class="pre">matplotlib-base</span></code> is recommended</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code> dependency should be replaced with <code class="docutils literal notranslate"><span class="pre">matplotlib-base</span></code>
+unless the package explicitly needs the PyQt interactive plotting backend.</p>
+<dl class="method">
+<dt id="bioconda_utils.lint.check_deprecation.uses_matplotlib.check_deps">
+<code class="sig-name descname">check_deps</code><span class="sig-paren">(</span><em class="sig-param">deps</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_deprecation.html#uses_matplotlib.check_deps"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.uses_matplotlib.check_deps" title="Permalink to this definition">¶</a></dt>
+<dd><p>Execute check on recipe dependencies</p>
+<p>Example format for <strong>deps</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="s1">&#39;setuptools&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;requirements/run&#39;</span><span class="p">,</span>
+                 <span class="s1">&#39;outputs/0/requirements/run/1&#39;</span><span class="p">],</span>
+  <span class="s1">&#39;compiler_cxx&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;requirements/build/0&#39;</span><span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>You can use the values in the list directly as <code class="docutils literal notranslate"><span class="pre">section</span></code>
+parameter to <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>deps</strong> – Dictionary mapping requirements occurring in the recipe
+to their locations within the recipe.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bioconda_utils.lint.check_deprecation.uses_matplotlib.fix">
+<code class="sig-name descname">fix</code><span class="sig-paren">(</span><em class="sig-param">_message</em>, <em class="sig-param">_data</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_deprecation.html#uses_matplotlib.fix"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_deprecation.uses_matplotlib.fix" title="Permalink to this definition">¶</a></dt>
 <dd><p>Attempt to fix the problem</p>
 </dd></dl>
 

@@ -22,7 +22,7 @@ pgx-variant-tools
 
    |downloads_pgx-variant-tools| |docker_pgx-variant-tools|
 
-   :versions: 0.0.2-2, 0.0.2-1, 0.0.2-0
+   :versions: 0.0.3-0, 0.0.2-2, 0.0.2-1, 0.0.2-0
    
    :depends biopython: 
    :depends click: 

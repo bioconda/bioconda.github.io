@@ -157,6 +157,25 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">recipe</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;numpy x.x&#39;</span><span class="p">,</span> <span class="s1">&#39;numpy&#39;</span><span class="p">,</span>
                             <span class="n">within</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;requirements&#39;</span><span class="p">,</span> <span class="s1">&#39;outputs&#39;</span><span class="p">))</span>
         <span class="k">return</span> <span class="kc">True</span></div></div>
+
+
+<div class="viewcode-block" id="uses_matplotlib"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_matplotlib">[docs]</a><span class="k">class</span> <span class="nc">uses_matplotlib</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;The recipe uses ``matplotlib``, but ``matplotlib-base`` is recommended</span>
+
+<span class="sd">    The ``matplotlib`` dependency should be replaced with ``matplotlib-base``</span>
+<span class="sd">    unless the package explicitly needs the PyQt interactive plotting backend.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">severity</span> <span class="o">=</span> <span class="n">WARNING</span>
+
+<div class="viewcode-block" id="uses_matplotlib.check_deps"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_matplotlib.check_deps">[docs]</a>    <span class="k">def</span> <span class="nf">check_deps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deps</span><span class="p">):</span>
+        <span class="k">if</span> <span class="s1">&#39;matplotlib&#39;</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="uses_matplotlib.fix"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_deprecation.html#bioconda_utils.lint.check_deprecation.uses_matplotlib.fix">[docs]</a>    <span class="k">def</span> <span class="nf">fix</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_message</span><span class="p">,</span> <span class="n">_data</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">recipe</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;matplotlib&#39;</span><span class="p">,</span> <span class="s1">&#39;matplotlib-base&#39;</span><span class="p">,</span>
+                            <span class="n">within</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;requirements&#39;</span><span class="p">,</span> <span class="s1">&#39;outputs&#39;</span><span class="p">))</span>
+        <span class="k">return</span> <span class="kc">True</span></div></div>
 </pre></div>
 
           </div>
