@@ -23,40 +23,41 @@ r-bcbiornaseq
 
    |downloads_r-bcbiornaseq| |docker_r-bcbiornaseq|
 
-   :versions: 0.3.29-0, 0.3.28-0, 0.3.27-0, 0.3.26-0, 0.2.9-0, 0.2.8-0, 0.2.7-0, 0.2.4-0, 0.2.4a-0, 0.2.3a-0, 0.1.2-0
+   :versions: 0.3.30-0, 0.3.29-0, 0.3.28-0, 0.3.27-0, 0.3.26-0, 0.2.9-0, 0.2.8-0, 0.2.7-0, 0.2.4-0, 0.2.4a-0, 0.2.3a-0, 0.1.2-0
    
-   :depends bioconductor-biocgenerics: >=0.30
-   :depends bioconductor-clusterprofiler: >=3.12
-   :depends bioconductor-degreport: >=1.20
-   :depends bioconductor-deseq2: >=1.24
-   :depends bioconductor-dose: >=3.10
-   :depends bioconductor-edger: >=3.26
+   :depends bioconductor-biocgenerics: >=0.32
+   :depends bioconductor-biocstyle: >=2.14
+   :depends bioconductor-clusterprofiler: >=3.14
+   :depends bioconductor-degreport: >=1.22
+   :depends bioconductor-deseq2: >=1.26
+   :depends bioconductor-dose: >=3.12
+   :depends bioconductor-edger: >=3.28
    :depends bioconductor-ensdb.hsapiens.v75: >=2.99
-   :depends bioconductor-genomeinfodbdata: >=1.2
-   :depends bioconductor-org.hs.eg.db: >=3.8
-   :depends bioconductor-org.mm.eg.db: >=3.8
-   :depends bioconductor-pathview: >=1.24
-   :depends bioconductor-rhdf5: >=2.28
-   :depends bioconductor-s4vectors: >=0.22
-   :depends bioconductor-summarizedexperiment: >=1.14
-   :depends bioconductor-tximport: >=1.12
-   :depends bioconductor-vsn: >=3.52
-   :depends r-acidplots: >=0.2.15
+   :depends bioconductor-org.hs.eg.db: >=3.10
+   :depends bioconductor-org.mm.eg.db: >=3.10
+   :depends bioconductor-pathview: >=1.26
+   :depends bioconductor-rhdf5: >=2.30
+   :depends bioconductor-s4vectors: >=0.24
+   :depends bioconductor-summarizedexperiment: >=1.16
+   :depends bioconductor-tximport: >=1.14
+   :depends bioconductor-vsn: >=3.54
+   :depends r-acidgenerics: >=0.3.0
+   :depends r-acidplots: >=0.2.22
    :depends r-base: >=3.6,<3.7.0a0
-   :depends r-basejump: >=0.11.15
-   :depends r-bcbiobase: >=0.6.10
-   :depends r-bioverbs: >=0.2.10
+   :depends r-basejump: >=0.12
+   :depends r-bcbiobase: >=0.6.11
+   :depends r-cli: >=2.0
    :depends r-cowplot: >=1.0
-   :depends r-deseqanalysis: >=0.2.7
+   :depends r-deseqanalysis: >=0.2.18
    :depends r-ggplot2: >=3.2
-   :depends r-goalie: >=0.3.8
-   :depends r-hexbin: >=1.27
-   :depends r-knitr: >=1.24
+   :depends r-goalie: >=0.4.1
+   :depends r-hexbin: >=1.28
+   :depends r-knitr: >=1.26
    :depends r-rlang: >=0.4
-   :depends r-rmarkdown: >=1.15
-   :depends r-scales: >=1.0
+   :depends r-rmarkdown: >=2.0
+   :depends r-scales: >=1.1
    :depends r-sessioninfo: >=1.1
-   :depends r-tidyverse: >=1.2
+   :depends r-tidyverse: >=1.3
    :depends r-viridis: >=0.5
    :requirements:
 

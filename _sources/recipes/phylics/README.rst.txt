@@ -22,7 +22,7 @@ phylics
 
    |downloads_phylics| |docker_phylics|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.1-0, 1.0.0-0
    
    :depends aioeasywebdav: 
    :depends boto3: 

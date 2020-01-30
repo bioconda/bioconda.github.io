@@ -22,12 +22,12 @@ monocle3-cli
 
    |downloads_monocle3-cli| |docker_monocle3-cli|
 
-   :versions: 0.0.5-0, 0.0.4-0, 0.0.3-1, 0.0.3-0
+   :versions: 0.0.5-1, 0.0.5-0, 0.0.4-0, 0.0.3-1, 0.0.3-0
    
    :depends bioconductor-delayedarray: 
    :depends bioconductor-delayedmatrixstats: 
    :depends bioconductor-limma: 
-   :depends bioconductor-singlecellexperiment: 
+   :depends bioconductor-singlecellexperiment: <1.8.0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends louvain: 
@@ -50,7 +50,7 @@ monocle3-cli
    :depends r-lmtest: 
    :depends r-matrix: 
    :depends r-matrix.utils: 
-   :depends r-monocle3: >=0.1.2
+   :depends r-monocle3: <=0.2.0
    :depends r-optparse: 
    :depends r-pbapply: 
    :depends r-pbmcapply: 
