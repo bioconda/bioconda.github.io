@@ -13,7 +13,7 @@ r-acidgenerics
 
    :homepage: https://acidgenerics.acidgenomics.com/
    :developer docs: https://github.com/acidgenomics/acidgenerics
-   :license: MIT
+   :license: GPL / GPL-3.0
    :recipe: /`r-acidgenerics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidgenerics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidgenerics/meta.yaml>`_
 
    
@@ -23,7 +23,7 @@ r-acidgenerics
 
    |downloads_r-acidgenerics| |docker_r-acidgenerics|
 
-   :versions: 0.3.0-0
+   :versions: 0.3.4-0, 0.3.0-0
    
    :depends r-base: >=3.6,<3.7.0a0
    :requirements:

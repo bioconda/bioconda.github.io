@@ -27,7 +27,7 @@ kofamscan
 
    |downloads_kofamscan| |docker_kofamscan|
 
-   :versions: 1.0.0-0
+   :versions: 1.1.0-0, 1.0.0-0
    
    :depends hmmer: >=3.1
    :depends parallel: 

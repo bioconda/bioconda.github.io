@@ -23,7 +23,7 @@ bam2fasta
 
    |downloads_bam2fasta| |docker_bam2fasta|
 
-   :versions: 1.0.1-0
+   :versions: 1.0.3-0, 1.0.1-0
    
    :depends numpy: 
    :depends pathos: 

@@ -22,7 +22,7 @@ graph-boink
 
    |downloads_graph-boink| |docker_graph-boink|
 
-   :versions: 0.9.1-0, 0.9-0, 0.8-0
+   :versions: 0.11-0, 0.9.1-0, 0.9-0, 0.8-0
    
    :depends blessings: 
    :depends clangdev: 8.0.1.*
@@ -35,7 +35,7 @@ graph-boink
    :depends openmp: 
    :depends py-cpuinfo: 
    :depends pyfiglet: 
-   :depends python: >=3.8,<3.9.0a0
+   :depends python: >=3.6,<3.7.0a0
    :depends screed: 
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:

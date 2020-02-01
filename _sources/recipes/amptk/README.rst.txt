@@ -25,13 +25,13 @@ amptk
 
    |downloads_amptk| |docker_amptk|
 
-   :versions: 1.4.1-0, 1.4.0-0, 1.3.0-0, 1.2.4-1, 1.2.4-0, 1.2.2-0, 1.2.0-0, 1.1.3-0
+   :versions: 1.4.2-0, 1.4.1-0, 1.4.0-0, 1.3.0-0, 1.2.4-1, 1.2.4-0, 1.2.2-0, 1.2.0-0, 1.1.3-0
    
    :depends bioconductor-dada2: >=1.4
    :depends bioconductor-phyloseq: 
    :depends biom-format: 
    :depends biopython: 
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 

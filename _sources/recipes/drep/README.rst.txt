@@ -22,13 +22,13 @@ drep
 
    |downloads_drep| |docker_drep|
 
-   :versions: 2.4.0-1, 2.4.0-0, 2.3.2-1, 2.3.2-0, 2.2.3-1, 2.2.3-0, 2.0.5-2, 2.0.5-0
+   :versions: 2.4.1-0, 2.4.0-1, 2.4.0-0, 2.3.2-1, 2.3.2-0, 2.2.3-1, 2.2.3-0, 2.0.5-2, 2.0.5-0
    
    :depends biopython: 
    :depends centrifuge: 
    :depends checkm-genome: 
    :depends mash: 
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends mummer: 
    :depends numpy: 
    :depends pandas: 

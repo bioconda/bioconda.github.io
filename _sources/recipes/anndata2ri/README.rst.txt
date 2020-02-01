@@ -22,7 +22,7 @@ anndata2ri
 
    |downloads_anndata2ri| |docker_anndata2ri|
 
-   :versions: 1.0.1-0, 1.0-0
+   :versions: 1.0.2-0, 1.0.1-0, 1.0-0
    
    :depends anndata: 
    :depends get_version: 
