@@ -22,12 +22,13 @@ repeatscout
 
    |downloads_repeatscout| |docker_repeatscout|
 
-   :versions: 1.0.5-3, 1.0.5-2, 1.0.5-1, 1.0.5-0
+   :versions: 1.0.6-0, 1.0.5-3, 1.0.5-2, 1.0.5-1, 1.0.5-0
    
    :depends libgcc-ng: >=7.3.0
    :depends nseg: 
    :depends perl: 
    :depends perl-file-temp: 
+   :depends perl-file-which: 
    :depends trf: 
    :requirements:
 

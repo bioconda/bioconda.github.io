@@ -22,29 +22,29 @@ starfish
 
    |downloads_starfish| |docker_starfish|
 
-   :versions: 0.1.10-0, 0.1.9-0, 0.1.8-0, 0.1.7-0, 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.31-0, 0.0.30-0, 0.0.29-0, 0.0.27-0, 0.0.26-2, 0.0.25-2, 0.0.23-2, 0.0.21-2, 0.0.20-2, 0.0.19-2, 0.0.18-2, 0.0.17-2, 0.0.16-2, 0.0.14-2, 0.0.14-1, 0.0.14-0
+   :versions: 0.2.0-0, 0.1.10-0, 0.1.9-0, 0.1.8-0, 0.1.7-0, 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.31-0, 0.0.30-0, 0.0.29-0, 0.0.27-0, 0.0.26-2, 0.0.25-2, 0.0.23-2, 0.0.21-2, 0.0.20-2, 0.0.19-2, 0.0.18-2, 0.0.17-2, 0.0.16-2, 0.0.14-2, 0.0.14-1, 0.0.14-0
    
    :depends click: 
+   :depends dataclasses: 
+   :depends h5py: 
+   :depends ipywidgets: 
    :depends jsonschema: 
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: !=1.13.0
    :depends pandas: >=0.23.4
-   :depends pytest: >=3.6.3
    :depends python: >=3.6
    :depends regional: 
-   :depends requests: 
-   :depends scikit-image: >=0.14.0
+   :depends scikit-image: >=0.14.0,!=0.16.0.*,!=0.16.1.*,!=0.16.2.*
    :depends scikit-learn: 
    :depends scipy: 
-   :depends seaborn: 
    :depends semantic_version: 
    :depends showit: >=1.1.4
-   :depends slicedimage: >=4.0.0
+   :depends slicedimage: 4.1.1
    :depends sympy: 
    :depends tqdm: 
    :depends trackpy: 
    :depends validators: 
-   :depends xarray: 
+   :depends xarray: >=0.14.1
    :requirements:
 
    .. rubric:: Installation

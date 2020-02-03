@@ -22,7 +22,7 @@ entrez-direct
 
    |downloads_entrez-direct| |docker_entrez-direct|
 
-   :versions: 11.0-1, 11.0-0, 10.2-0, 10.0-0, 7.70-2, 7.70-1, 7.70-0, 7.00-1, 7.00-0, 5.80-0, 4.00-1, 4.00-0
+   :versions: 11.0-2, 11.0-1, 11.0-0, 10.2-0, 10.0-0, 7.70-2, 7.70-1, 7.70-0, 7.00-1, 7.00-0, 5.80-0, 4.00-1, 4.00-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-html-parser: 
