@@ -125,20 +125,19 @@
 <span class="c1"># Raw strings needed to support the awkward backslashes needed when adding the</span>
 <span class="c1"># command to yaml</span>
 <span class="n">gpl2_short</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;  license_family: GPL2&quot;</span>
-<span class="n">gpl2_long</span> <span class="o">=</span> <span class="p">(</span>
-    <span class="s2">&quot;  license_family: GPL2</span><span class="se">\n</span><span class="s2">  license_file: &#39;{{ environ[</span><span class="se">\&quot;</span><span class="s2">PREFIX</span><span class="se">\&quot;</span><span class="s2">] }}&quot;</span>
-    <span class="s2">&quot;\/lib\/R\/share\/licenses\/GPL-2&#39;  # [unix]</span><span class="se">\n</span><span class="s2">  &quot;</span>
-    <span class="s2">&quot;license_file: &#39;{{ environ[</span><span class="se">\&quot;</span><span class="s2">PREFIX</span><span class="se">\&quot;</span><span class="s2">] }}&quot;</span>
-    <span class="s2">&quot;</span><span class="se">\\</span><span class="s2">\R</span><span class="se">\\</span><span class="s2">\share</span><span class="se">\\</span><span class="s2">\licenses</span><span class="se">\\</span><span class="s2">\GPL-2&#39;  # [win]&quot;</span>
-<span class="p">)</span>
+<span class="n">gpl2_long</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">  license_family: GPL2</span>
+<span class="s2">  license_file: &#39;{{ environ[&quot;PREFIX&quot;] }}/lib/R/share/licenses/GPL-2&#39;  # [unix]</span>
+<span class="s2">  license_file: &#39;{{ environ[&quot;PREFIX&quot;] }}\\R\\share\\licenses\\GPL-2&#39;  # [win]</span>
+<span class="s2">&quot;&quot;&quot;</span><span class="o">.</span><span class="n">strip</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
 
 <span class="n">gpl3_short</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;  license_family: GPL3&quot;</span>
-<span class="n">gpl3_long</span> <span class="o">=</span> <span class="p">(</span>
-    <span class="s2">&quot;  license_family: GPL3</span><span class="se">\n</span><span class="s2">  license_file: &#39;{{ environ[</span><span class="se">\&quot;</span><span class="s2">PREFIX</span><span class="se">\&quot;</span><span class="s2">] }}&quot;</span>
-    <span class="s2">&quot;\/lib\/R\/share\/licenses\/GPL-3&#39;  # [unix]</span><span class="se">\n</span><span class="s2">  &quot;</span>
-    <span class="s2">&quot;license_file: &#39;{{ environ[</span><span class="se">\&quot;</span><span class="s2">PREFIX</span><span class="se">\&quot;</span><span class="s2">] }}&quot;</span>
-    <span class="s2">&quot;</span><span class="se">\\</span><span class="s2">\R</span><span class="se">\\</span><span class="s2">\share</span><span class="se">\\</span><span class="s2">\licenses</span><span class="se">\\</span><span class="s2">\GPL-3&#39;  # [win]&quot;</span>
-<span class="p">)</span>
+<span class="n">gpl3_long</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">  license_family: GPL3</span>
+<span class="s2">  license_file: &#39;{{ environ[&quot;PREFIX&quot;] }}/lib/R/share/licenses/GPL-3&#39;  # [unix]</span>
+<span class="s2">  license_file: &#39;{{ environ[&quot;PREFIX&quot;] }}\\R\\share\\licenses\\GPL-3&#39;  # [win]</span>
+<span class="s2">&quot;&quot;&quot;</span><span class="o">.</span><span class="n">strip</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+
 <span class="n">win32_string</span> <span class="o">=</span> <span class="s1">&#39;number: 0</span><span class="se">\n</span><span class="s1">  skip: true  # [win32]&#39;</span>
 
 

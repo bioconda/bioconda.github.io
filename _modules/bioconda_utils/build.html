@@ -147,13 +147,6 @@
                     <span class="n">utils</span><span class="o">.</span><span class="n">get_free_space</span><span class="p">())</span></div>
 
 
-<div class="viewcode-block" id="has_conda_in_build"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.build.html#bioconda_utils.build.has_conda_in_build">[docs]</a><span class="k">def</span> <span class="nf">has_conda_in_build</span><span class="p">(</span><span class="n">recipe</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Checks if recipe has conda or conda build in deps&quot;&quot;&quot;</span>
-    <span class="n">deps</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">get_deps</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">build</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-    <span class="n">deps</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">utils</span><span class="o">.</span><span class="n">get_deps</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">build</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
-    <span class="k">return</span> <span class="nb">any</span><span class="p">(</span><span class="n">pkg</span> <span class="ow">in</span> <span class="n">deps</span> <span class="k">for</span> <span class="n">pkg</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">&#39;conda&#39;</span><span class="p">,</span> <span class="s1">&#39;conda-build&#39;</span><span class="p">))</span></div>
-
-
 <div class="viewcode-block" id="build"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.build.html#bioconda_utils.build.build">[docs]</a><span class="k">def</span> <span class="nf">build</span><span class="p">(</span><span class="n">recipe</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">pkg_paths</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
           <span class="n">testonly</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span> <span class="n">mulled_test</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span>
           <span class="n">channels</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
@@ -443,19 +436,10 @@
             <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Nothing to be done for recipe </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
             <span class="k">continue</span>
 
-        <span class="c1"># If a recipe depends on conda, it means it must be installed in</span>
-        <span class="c1"># the root env, which is not compatible with mulled-build tests. In</span>
-        <span class="c1"># that case, we temporarily disable the mulled-build tests for the</span>
-        <span class="c1"># recipe.</span>
-        <span class="n">keep_mulled_test</span> <span class="o">=</span> <span class="ow">not</span> <span class="n">has_conda_in_build</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">mulled_test</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">keep_mulled_test</span><span class="p">:</span>
-            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;TEST SKIP: skipping mulled-build test for </span><span class="si">%s</span><span class="s1"> because it &#39;</span>
-                        <span class="s1">&#39;depends on conda or conda-build&#39;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
-
         <span class="n">res</span> <span class="o">=</span> <span class="n">build</span><span class="p">(</span><span class="n">recipe</span><span class="o">=</span><span class="n">recipe</span><span class="p">,</span>
                     <span class="n">pkg_paths</span><span class="o">=</span><span class="n">pkg_paths</span><span class="p">,</span>
                     <span class="n">testonly</span><span class="o">=</span><span class="n">testonly</span><span class="p">,</span>
-                    <span class="n">mulled_test</span><span class="o">=</span><span class="n">mulled_test</span> <span class="ow">and</span> <span class="n">keep_mulled_test</span><span class="p">,</span>
+                    <span class="n">mulled_test</span><span class="o">=</span><span class="n">mulled_test</span><span class="p">,</span>
                     <span class="n">channels</span><span class="o">=</span><span class="n">config</span><span class="p">[</span><span class="s1">&#39;channels&#39;</span><span class="p">],</span>
                     <span class="n">docker_builder</span><span class="o">=</span><span class="n">docker_builder</span><span class="p">,</span>
                     <span class="n">linter</span><span class="o">=</span><span class="n">linter</span><span class="p">)</span>
@@ -471,7 +455,7 @@
                     <span class="k">for</span> <span class="n">pkg</span> <span class="ow">in</span> <span class="n">pkg_paths</span><span class="p">:</span>
                         <span class="k">if</span> <span class="ow">not</span> <span class="n">upload</span><span class="o">.</span><span class="n">anaconda_upload</span><span class="p">(</span><span class="n">pkg</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">label</span><span class="p">):</span>
                             <span class="n">failed_uploads</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">pkg</span><span class="p">)</span>
-                <span class="k">if</span> <span class="n">mulled_upload_target</span> <span class="ow">and</span> <span class="n">keep_mulled_test</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">mulled_upload_target</span><span class="p">:</span>
                     <span class="k">for</span> <span class="n">img</span> <span class="ow">in</span> <span class="n">res</span><span class="o">.</span><span class="n">mulled_images</span><span class="p">:</span>
                         <span class="n">upload</span><span class="o">.</span><span class="n">mulled_upload</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="n">mulled_upload_target</span><span class="p">)</span>
 
