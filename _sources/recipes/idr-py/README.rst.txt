@@ -12,6 +12,8 @@ idr-py
    Helper methods for accessing the Image Data Resource \(IDR\)
 
    :homepage: https://github.com/IDR/idr-py
+   :documentation: https://idr.openmicroscopy.org/about/api.html
+   
    :license: GPL2 / GPL-2.0+
    :recipe: /`idr-py <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/idr-py>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/idr-py/meta.yaml>`_
 
@@ -60,14 +62,14 @@ idr-py
 
    |downloads_idr-py| |docker_idr-py|
 
-   :versions: 0.3.0-1, 0.3.0-0, 0.2.1-0, 0.2.0-0
+   :versions: 0.4.0.dev3-0, 0.3.0-1, 0.3.0-0, 0.2.1-0, 0.2.0-0
    
    :depends ipython: 
    :depends ipywidgets: 
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends pandas: 
-   :depends python: >=2.7,<2.8.0a0
-   :depends python-omero: <5.5
+   :depends python: >=3
+   :depends python-omero: 
    :depends requests: 
    :depends seaborn: 
    :requirements:

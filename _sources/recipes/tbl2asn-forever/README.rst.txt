@@ -22,7 +22,7 @@ tbl2asn-forever
 
    |downloads_tbl2asn-forever| |docker_tbl2asn-forever|
 
-   :versions: 25.7f-0
+   :versions: 25.7.1f-0, 25.7f-0
    
    :depends libfaketime: 
    :depends libidn11: 
