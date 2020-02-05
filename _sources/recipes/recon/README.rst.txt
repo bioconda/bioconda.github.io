@@ -12,7 +12,7 @@ recon
    The RECON package performs de novo identification and classification of repeat sequence families from genomic sequences.
 
    :homepage: http://eddylab.org/software/recon/
-   :license: GNU General Public License
+   :license: GPL2
    :recipe: /`recon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/recon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/recon/meta.yaml>`_
 
    
@@ -22,9 +22,9 @@ recon
 
    |downloads_recon| |docker_recon|
 
-   :versions: 1.08-1, 1.08-0
+   :versions: 1.08-2, 1.08-1, 1.08-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

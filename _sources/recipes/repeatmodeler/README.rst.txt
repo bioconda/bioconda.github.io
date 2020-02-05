@@ -23,7 +23,7 @@ repeatmodeler
 
    |downloads_repeatmodeler| |docker_repeatmodeler|
 
-   :versions: 1.0.11-2, 1.0.11-1, 1.0.11-0, 1.0.8-1, 1.0.8-0
+   :versions: 1.0.11-3, 1.0.11-2, 1.0.11-1, 1.0.11-0, 1.0.8-1, 1.0.8-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-text-soundex: 

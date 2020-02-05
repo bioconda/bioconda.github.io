@@ -22,7 +22,7 @@ whatsgnu
 
    |downloads_whatsgnu| |docker_whatsgnu|
 
-   :versions: 1.0-0
+   :versions: 1.1-0, 1.0-0
    
    :depends blast: >=2.9.0
    :depends matplotlib: >=3.0.2

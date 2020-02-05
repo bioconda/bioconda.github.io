@@ -12,7 +12,7 @@ delly
    Structural variant discovery by integrated paired\-end and split\-read analysis
 
    :homepage: https://github.com/dellytools/delly
-   :license: GPLv3
+   :license: BSD / BSD License
    :recipe: /`delly <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/delly>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/delly/meta.yaml>`_
 
    
@@ -22,7 +22,7 @@ delly
 
    |downloads_delly| |docker_delly|
 
-   :versions: 0.8.2-0, 0.8.1-3, 0.8.1-2, 0.8.1-1, 0.8.1-0, 0.7.9-4, 0.7.8-4, 0.7.8-3, 0.7.8-2, 0.7.8-1, 0.7.8-0, 0.7.7-1, 0.7.6-0, 0.7.2-1, 0.7.2-0
+   :versions: 0.8.2-1, 0.8.2-0, 0.8.1-3, 0.8.1-2, 0.8.1-1, 0.8.1-0, 0.7.9-4, 0.7.8-4, 0.7.8-3, 0.7.8-2, 0.7.8-1, 0.7.8-0, 0.7.7-1, 0.7.6-0, 0.7.2-1, 0.7.2-0
    
    :depends boost-cpp: >=1.70.0,<1.70.1.0a0
    :depends bzip2: >=1.0.8,<2.0a0

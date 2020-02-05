@@ -24,25 +24,25 @@ pomoxis
 
    |downloads_pomoxis| |docker_pomoxis|
 
-   :versions: 0.3.1-0, 0.3.0-0, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0
+   :versions: 0.3.1-1, 0.3.1-0, 0.3.0-0, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0
    
-   :depends bcftools: 1.9
-   :depends bedtools: 2.29.0
+   :depends bcftools: >=1.9
+   :depends bedtools: >=2.29.0
    :depends biopython: >=1.63
    :depends fast5-research: 
    :depends intervaltree: >=3
-   :depends mappy: 2.17
-   :depends matplotlib: 3.0.3
-   :depends miniasm: 0.3_r179
-   :depends minimap2: 2.17
-   :depends numpy: 1.16.1
-   :depends pandas: 0.24.2
+   :depends mappy: >=2.17
+   :depends matplotlib: >=3.0.3
+   :depends miniasm: >=0.3_r179
+   :depends minimap2: >=2.17
+   :depends numpy: >=1.16.1
+   :depends pandas: >=0.24.2
    :depends porechop: 
    :depends pysam: >=0.15.2
    :depends python: >=3.4,<3.7
-   :depends racon: 1.3.1
-   :depends samtools: 1.9
-   :depends seqkit: 0.8.0
+   :depends racon: >=1.3.1
+   :depends samtools: >=1.9
+   :depends seqkit: >=0.8.0
    :requirements:
 
    .. rubric:: Installation

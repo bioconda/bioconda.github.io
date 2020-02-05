@@ -12,7 +12,7 @@ repeatscout
    De novo identification of repeat families in large genomes.
 
    :homepage: http://repeatscout.bioprojects.org
-   :license: GNU General Public License
+   :license: GPL
    :recipe: /`repeatscout <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repeatscout>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repeatscout/meta.yaml>`_
 
    
@@ -22,7 +22,7 @@ repeatscout
 
    |downloads_repeatscout| |docker_repeatscout|
 
-   :versions: 1.0.6-0, 1.0.5-3, 1.0.5-2, 1.0.5-1, 1.0.5-0
+   :versions: 1.0.6-1, 1.0.6-0, 1.0.5-3, 1.0.5-2, 1.0.5-1, 1.0.5-0
    
    :depends libgcc-ng: >=7.3.0
    :depends nseg: 
