@@ -22,20 +22,21 @@ r-aroma.core
 
    |downloads_r-aroma.core| |docker_r-aroma.core|
 
-   :versions: 3.2.0-1, 3.2.0-0, 3.1.3-2, 3.1.3-1, 3.1.3-0, 3.1.1-0, 3.0.0-0
+   :versions: 3.2.1-0, 3.2.0-1, 3.2.0-0, 3.1.3-2, 3.1.3-1, 3.1.3-0, 3.1.1-0, 3.0.0-0
    
    :depends r-base: >=3.6,<3.7.0a0
+   :depends r-biocmanager: 
    :depends r-future: 
    :depends r-listenv: 
-   :depends r-matrixstats: >=0.53.1
-   :depends r-pscbs: >=0.63.0
-   :depends r-r.cache: >=0.13.0
-   :depends r-r.devices: >=2.15.1
-   :depends r-r.filesets: >=2.12.1
+   :depends r-matrixstats: >=0.55.0
+   :depends r-pscbs: >=0.65.0
+   :depends r-r.cache: >=0.14.0
+   :depends r-r.devices: >=2.16.0
+   :depends r-r.filesets: >=2.13.0
    :depends r-r.methodss3: >=1.7.1
-   :depends r-r.oo: >=1.22.0
-   :depends r-r.rsp: >=0.42.0
-   :depends r-r.utils: >=2.6.0
+   :depends r-r.oo: >=1.23.0
+   :depends r-r.rsp: >=0.43.2
+   :depends r-r.utils: >=2.9.0
    :depends r-rcolorbrewer: >=1.1_2
    :requirements:
 

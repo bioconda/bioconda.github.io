@@ -22,7 +22,7 @@ cgat-apps
 
    |downloads_cgat-apps| |docker_cgat-apps|
 
-   :versions: 0.5.6-0, 0.5.5-0, 0.5.4-0, 0.5.3-0
+   :versions: 0.6.0-0, 0.5.6-0, 0.5.5-0, 0.5.4-0, 0.5.3-0
    
    :depends alignlib-lite: 
    :depends bedtools: 

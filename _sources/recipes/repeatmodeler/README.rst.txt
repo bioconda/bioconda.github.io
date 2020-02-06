@@ -11,7 +11,8 @@ repeatmodeler
 
    RepeatModeler is a de\-novo repeat family identification and modeling package.
 
-   :homepage: http://www.repeatmasker.org/RepeatModeler.html
+   :homepage: http://www.repeatmasker.org/RepeatModeler/
+   :developer docs: https://github.com/Dfam-consortium/RepeatModeler
    :license: Open Software License v2.1
    :recipe: /`repeatmodeler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repeatmodeler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repeatmodeler/meta.yaml>`_
    :links: biotools: :biotools:`RepeatModeler`
@@ -23,15 +24,19 @@ repeatmodeler
 
    |downloads_repeatmodeler| |docker_repeatmodeler|
 
-   :versions: 1.0.11-3, 1.0.11-2, 1.0.11-1, 1.0.11-0, 1.0.8-1, 1.0.8-0
+   :versions: 2.0.1-0, 1.0.11-3, 1.0.11-2, 1.0.11-1, 1.0.11-0, 1.0.8-1, 1.0.8-0
    
+   :depends cd-hit: >=4.8.1
+   :depends genometools-genometools: >=1.5.9
+   :depends ltr_retriever: >=2.6
+   :depends mafft: >=7.407
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-text-soundex: 
-   :depends recon: 
+   :depends recon: >=1.08
    :depends repeatmasker: 
-   :depends repeatscout: 
-   :depends rmblast: 
-   :depends trf: 
+   :depends repeatscout: >=1.0.6
+   :depends rmblast: >=2.9.0
+   :depends trf: >=4.09
    :requirements:
 
    .. rubric:: Installation
