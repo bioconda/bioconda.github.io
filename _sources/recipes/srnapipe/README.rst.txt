@@ -22,7 +22,7 @@ srnapipe
 
    |downloads_srnapipe| |docker_srnapipe|
 
-   :versions: 1.1-3, 1.1-0
+   :versions: 1.1.1-0, 1.1-3, 1.1-0
    
    :depends bedtools: >=2.24.0
    :depends bioconductor-sushi: 

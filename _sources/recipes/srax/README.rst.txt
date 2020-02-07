@@ -12,7 +12,7 @@ srax
    Systematic Resistome Analysis
 
    :homepage: https://github.com/lgpdevtools/sraX
-   :documentation: https://github.com/lgpdevtools/sraX/doc/sraX_user_manual.pdf
+   :documentation: https://github.com/lgpdevtools/sraX/blob/master/doc/sraX_user_manual.pdf
    
    :license: GPL-3.0
    :recipe: /`srax <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/srax>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/srax/meta.yaml>`_
@@ -25,7 +25,7 @@ srax
 
    |downloads_srax| |docker_srax|
 
-   :versions: 1.4-0
+   :versions: 1.5-0, 1.4-0
    
    :depends blast: >=2.9
    :depends clustalo: >=1.2.4
