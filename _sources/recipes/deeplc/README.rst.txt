@@ -23,13 +23,13 @@ deeplc
 
    |downloads_deeplc| |docker_deeplc|
 
-   :versions: 0.1.6-0, 0.1.4-0, 0.1.2-0, 0.1.1-0
+   :versions: 0.1.7-0, 0.1.6-0, 0.1.4-0, 0.1.2-0, 0.1.1-0
    
-   :depends matplotlib: >=3,<4
+   :depends matplotlib-base: >=3,<4
    :depends numpy: >=1.17,<2
    :depends opt-einsum: >=2.3.2
    :depends pandas: >=0.25,<1
-   :depends python: >=3.6,<4
+   :depends python: >=3.6,<3.8
    :depends scipy: >=1.3.1,<2
    :depends setuptools: >=42.0.1
    :depends tensorflow: >=1.14.0,<3

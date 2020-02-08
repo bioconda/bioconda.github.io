@@ -14,7 +14,7 @@ spydrpick
    :homepage: https://github.com/santeripuranen/SpydrPick
    :license: GNU Affero General Public License
    :recipe: /`spydrpick <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spydrpick>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spydrpick/meta.yaml>`_
-   :links: doi: :doi:`10.1101/523407`
+   :links: doi: :doi:`10.1093/nar/gkz656`
 
    
 
@@ -23,12 +23,12 @@ spydrpick
 
    |downloads_spydrpick| |docker_spydrpick|
 
-   :versions: 1.1.1-0, 1.1.0-0, 1.0.0-0
+   :versions: 1.2.0-0, 1.1.1-0, 1.1.0-0, 1.0.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends pthread-stubs: 
-   :depends tbb: >=2019.3
+   :depends tbb: >=2019.9
    :requirements:
 
    .. rubric:: Installation

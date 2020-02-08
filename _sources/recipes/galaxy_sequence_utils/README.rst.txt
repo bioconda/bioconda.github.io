@@ -22,7 +22,7 @@ galaxy_sequence_utils
 
    |downloads_galaxy_sequence_utils| |docker_galaxy_sequence_utils|
 
-   :versions: 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.1.0-0, 1.0.1-0, 1.0.0-1, 1.0.0-0
+   :versions: 1.1.4-0, 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.1.0-0, 1.0.1-0, 1.0.0-1, 1.0.0-0
    
    :depends python: 
    :depends six: 
