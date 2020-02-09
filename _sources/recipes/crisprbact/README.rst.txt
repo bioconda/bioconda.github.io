@@ -22,12 +22,15 @@ crisprbact
 
    |downloads_crisprbact| |docker_crisprbact|
 
-   :versions: 0.1.0-0
+   :versions: 0.3.2-0, 0.1.0-0
    
    :depends biopython: >=1.75,<2.0
    :depends click: >=7.0,<8.0
    :depends numpy: >=1.17,<2.0
-   :depends python: >=3.5
+   :depends pandas: >=0.25.3
+   :depends poetry: 
+   :depends python: >=3.7
+   :depends rope: >=0.16.0
    :requirements:
 
    .. rubric:: Installation

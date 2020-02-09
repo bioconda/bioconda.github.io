@@ -24,12 +24,12 @@ pgcgap
 
    |downloads_pgcgap| |docker_pgcgap|
 
-   :versions: 1.0.10-1, 1.0.10-0, 1.0.9-2, 1.0.9-1, 1.0.9-0, 1.0.8-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-4, 1.0.2-3, 1.0.2-2, 1.0.2-1, 1.0.1-1, 1.0.1-0, 1.0.0-0
+   :versions: 1.0.10-2, 1.0.10-1, 1.0.10-0, 1.0.9-2, 1.0.9-1, 1.0.9-0, 1.0.8-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-4, 1.0.2-3, 1.0.2-2, 1.0.2-1, 1.0.1-1, 1.0.1-0, 1.0.0-0
    
    :depends abricate: 
    :depends abyss: >=2.1.5
    :depends biopython: 
-   :depends canu: 
+   :depends canu: >=1.8
    :depends cd-hit: >=4.8.1
    :depends circlator: 
    :depends coreutils: 
@@ -44,6 +44,7 @@ pgcgap
    :depends matplotlib: 
    :depends minced: 0.3.*
    :depends mmseqs2: >=7-4e23d
+   :depends modeltest-ng: 
    :depends numpy: 
    :depends openjdk: 8.*
    :depends orthofinder: >=2.3.8
@@ -60,6 +61,7 @@ pgcgap
    :depends r-gplots: 
    :depends r-pheatmap: 
    :depends r-plotrix: 
+   :depends raxml-ng: 
    :depends roary: >=3.12.0
    :depends seaborn: 
    :depends sickle-trim: >=1.33
