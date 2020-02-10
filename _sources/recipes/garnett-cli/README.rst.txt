@@ -9,9 +9,11 @@ garnett-cli
 .. conda:recipe:: garnett-cli
    :replaces_section_title:
 
-   Collection of wrapper scripts for the Garnett cell\-type classification tool. Please refer to https\:\/\/cole\-trapnell\-lab.github.io\/garnett\/docs\/ for further information.
+   Collection of wrapper scripts for the Garnett cell\-type classification tool.
 
    :homepage: https://github.com/ebi-gene-expression-group/garnett-cli
+   :documentation: https://cole-trapnell-lab.github.io/garnett/docs/
+   
    :license: Apache / Apache-2.0
    :recipe: /`garnett-cli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/garnett-cli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/garnett-cli/meta.yaml>`_
 
@@ -22,7 +24,7 @@ garnett-cli
 
    |downloads_garnett-cli| |docker_garnett-cli|
 
-   :versions: 0.0.1-0, v0.0.1-0
+   :versions: 0.0.2-0, 0.0.1-0, v0.0.1-0
    
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-garnett: 
