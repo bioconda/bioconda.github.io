@@ -22,7 +22,7 @@ rnaquast
 
    |downloads_rnaquast| |docker_rnaquast|
 
-   :versions: 1.5.1-0
+   :versions: 2.0.0-0, 1.5.1-0
    
    :depends blast: 
    :depends blat: 
@@ -31,8 +31,8 @@ rnaquast
    :depends gffutils: 
    :depends gmap: 
    :depends joblib: 
-   :depends matplotlib: 
-   :depends python: <3
+   :depends matplotlib-base: 
+   :depends python: 
    :depends samtools: 
    :depends star: 
    :depends tophat: 

@@ -24,7 +24,7 @@ gffread
 
    |downloads_gffread| |docker_gffread|
 
-   :versions: 0.11.6-0, 0.11.4-0, 0.9.12-0, 0.9.9-1, 0.9.9-0, 0.9.8-0
+   :versions: 0.11.7-0, 0.11.6-0, 0.11.4-0, 0.9.12-0, 0.9.9-1, 0.9.9-0, 0.9.8-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
