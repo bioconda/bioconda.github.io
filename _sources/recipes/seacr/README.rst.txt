@@ -22,7 +22,7 @@ seacr
 
    |downloads_seacr| |docker_seacr|
 
-   :versions: 1.3-0, 1.1-0
+   :versions: 1.3-1, 1.3-0, 1.1-0
    
    :depends r-base: 
    :requirements:

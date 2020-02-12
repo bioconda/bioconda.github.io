@@ -22,14 +22,18 @@ planemo
 
    |downloads_planemo| |docker_planemo|
 
-   :versions: 0.62.1-2, 0.62.1-1, 0.62.1-0, 0.61.0-0, 0.60.0-0, 0.59.0-0, 0.57.1-1, 0.57.1-0, 0.57.0-0, 0.56.0-0, 0.55.0-1, 0.55.0-0, 0.54.0-1, 0.48.0-1, 0.48.0-0, 0.46.1-0, 0.40.1-0, 0.38.1-1, 0.34.1-2, 0.34.1-1, 0.34.1-0, 0.33.2-0, 0.29.1-0, 0.23.0-1, 0.23.0-0
+   :versions: 0.70.0-0, 0.62.1-2, 0.62.1-1, 0.62.1-0, 0.61.0-0, 0.60.0-0, 0.59.0-0, 0.57.1-1, 0.57.1-0, 0.57.0-0, 0.56.0-0, 0.55.0-1, 0.55.0-0, 0.54.0-1, 0.48.0-1, 0.48.0-0, 0.46.1-0, 0.40.1-0, 0.38.1-1, 0.34.1-2, 0.34.1-1, 0.34.1-0, 0.33.2-0, 0.29.1-0, 0.23.0-1, 0.23.0-0
    
    :depends aenum: 
+   :depends beautifulsoup4: 
    :depends bioblend: >=0.13.0
    :depends click: 
+   :depends cwltool: 1.0.20191225192155.*
    :depends docutils: 
-   :depends ephemeris: >=0.10.0
-   :depends galaxy-lib: >=18.9.2
+   :depends ephemeris: >=0.10.3
+   :depends galaxy-containers: 
+   :depends galaxy-tool-util: >=19.9.1
+   :depends galaxy-util: >=19.9.0
    :depends glob2: 
    :depends gxformat2: >=0.8.0
    :depends jinja2: 

@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;r-phylosignal&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;r-liger&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -98,45 +98,58 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="r-phylosignal">
+  <div class="section" id="r-liger">
 <dl class="recipe">
-<dt id="recipe-r-phylosignal">
-<em class="property">recipe </em><code class="sig-name descname">r-phylosignal</code><a class="headerlink" href="#recipe-r-phylosignal" title="Permalink to this definition">¶</a></dt>
-<dd><p>A collection of tools to explore the phylogenetic signal in univariate and multivariate data. The package provides functions to plot traits data against a phylogenetic tree, different measures and tests for the phylogenetic signal, methods to describe where the signal is located and a phylogenetic clustering method.</p>
+<dt id="recipe-r-liger">
+<em class="property">recipe </em><code class="sig-name descname">r-liger</code><a class="headerlink" href="#recipe-r-liger" title="Permalink to this definition">¶</a></dt>
+<dd><p>R package for integrating and analyzing multiple single-cell datasets</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://CRAN.R-project.org/package=phylosignal">https://CRAN.R-project.org/package=phylosignal</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/MacoskoLab/liger">https://github.com/MacoskoLab/liger</a></p>
 </dd>
 <dt class="field-even">License</dt>
 <dd class="field-even"><p>GPL3 / GPL-3</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-phylosignal">r-phylosignal</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-phylosignal/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-liger">r-liger</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-liger/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-r-phylosignal">
-<em class="property">package </em><code class="sig-name descname">r-phylosignal</code><a class="headerlink" href="#package-r-phylosignal" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-phylosignal"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-phylosignal.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-phylosignal"><img alt="docker_r-phylosignal" src="https://quay.io/repository/biocontainers/r-phylosignal/status" /></a></p>
+<dt id="package-r-liger">
+<em class="property">package </em><code class="sig-name descname">r-liger</code><a class="headerlink" href="#package-r-liger" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-liger"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-liger.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-liger"><img alt="docker_r-liger" src="https://quay.io/repository/biocontainers/r-liger/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>1.2.1-0, 1.2-3, 1.2-2, 1.2-1, 1.2-0</p>
+<dd class="field-odd"><p>0.4.2.9000-0</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> &gt;=7.3.0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgfortran-ng-feedstock"><strong>libgfortran-ng</strong></a> &gt;=7,&lt;8.0a0</p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libstdcxx-ng-feedstock"><strong>libstdcxx-ng</strong></a> &gt;=7.3.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-adephylo-feedstock"><strong>r-adephylo</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ape-feedstock"><strong>r-ape</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.5.1,&lt;3.5.2.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-boot-feedstock"><strong>r-boot</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-dbi-feedstock"><strong>r-dbi</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-igraph-feedstock"><strong>r-igraph</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-phylobase-feedstock"><strong>r-phylobase</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rcpp-feedstock"><strong>r-rcpp</strong></a> &gt;=0.11.0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.6,&lt;3.7.0a0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-cowplot-feedstock"><strong>r-cowplot</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-dosnow-feedstock"><strong>r-dosnow</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-dplyr-feedstock"><strong>r-dplyr</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-fnn-feedstock"><strong>r-fnn</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-foreach-feedstock"><strong>r-foreach</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ggplot2-feedstock"><strong>r-ggplot2</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ggrepel-feedstock"><strong>r-ggrepel</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-hmisc-feedstock"><strong>r-hmisc</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ica-feedstock"><strong>r-ica</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-irlba-feedstock"><strong>r-irlba</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-matrix-feedstock"><strong>r-matrix</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-mclust-feedstock"><strong>r-mclust</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-patchwork-feedstock"><strong>r-patchwork</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-plyr-feedstock"><strong>r-plyr</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rann.l1-feedstock"><strong>r-rann.l1</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rcpp-feedstock"><strong>r-rcpp</strong></a> &gt;=0.12.10</p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rcpparmadillo-feedstock"><strong>r-rcpparmadillo</strong></a></p></li>
+<li><p><strong>r-riverplot</strong></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rtsne-feedstock"><strong>r-rtsne</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-snow-feedstock"><strong>r-snow</strong></a></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
@@ -146,24 +159,24 @@
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">phylosignal</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">liger</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">phylosignal</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">liger</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">r</span><span class="o">-</span><span class="n">phylosignal</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">r</span><span class="o">-</span><span class="n">liger</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/r-phylosignal?tab=tags">r-phylosignal/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/r-liger?tab=tags">r-liger/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-phylosignal/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-phylosignal/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-liger/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-liger/README.html)
 </pre></div>
 </div>
 </div>
@@ -184,14 +197,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/r-phylosignal/README.rst.txt"
+      <a href="../../_sources/recipes/r-liger/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/r-phylosignal/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/r-liger/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

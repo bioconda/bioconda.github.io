@@ -23,17 +23,18 @@ poppunk
 
    |downloads_poppunk| |docker_poppunk|
 
-   :versions: 1.2.2-0, 1.2.0-0, 1.1.7-0, 1.1.6-0, 1.1.5-0, 1.1.4-0, 1.1.3-0, 1.1.2-0
+   :versions: 2.0.1-0, 1.2.2-0, 1.2.0-0, 1.1.7-0, 1.1.6-0, 1.1.5-0, 1.1.4-0, 1.1.3-0, 1.1.2-0
    
    :depends dendropy: 
    :depends hdbscan: 
    :depends mash: >=2.0
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends mkl: 
    :depends networkx: >=2.1
    :depends numba: 
    :depends numpy: 
    :depends pandas: 
+   :depends pp-sketchlib: >=1.1
    :depends python: >=3
    :depends rapidnj: 
    :depends scikit-learn: 
