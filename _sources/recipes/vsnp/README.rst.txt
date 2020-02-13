@@ -22,7 +22,7 @@ vsnp
 
    |downloads_vsnp| |docker_vsnp|
 
-   :versions: 0.2.01-0, 0.2.0-0
+   :versions: 2.03-0, 0.2.02-0, 0.2.01-0, 0.2.0-0
    
    :depends abyss: 
    :depends biopython: 
@@ -40,6 +40,7 @@ vsnp
    :depends raxml: 
    :depends regex: 
    :depends samtools: 
+   :depends scikit-allel: 
    :depends vcflib: 
    :depends xlrd: 
    :depends xlsxwriter: 

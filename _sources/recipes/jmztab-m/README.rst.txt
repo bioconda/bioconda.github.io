@@ -14,7 +14,7 @@ jmztab-m
    :homepage: https://github.com/lifs-tools/jmztab-m
    :license: APACHE / Apache License 2.0
    :recipe: /`jmztab-m <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jmztab-m>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jmztab-m/meta.yaml>`_
-   :links: biotools: :biotools:`jmztab-m`, doi: :doi:`10.5281/zenodo.3362151`
+   :links: biotools: :biotools:`jmztab-m`, doi: :doi:`10.5281/zenodo.3662402`
 
    mzTab\-M is intended as a reporting standard for quantitative results from
    metabolomics\/lipodomics approaches. This format is further intended to
@@ -35,7 +35,7 @@ jmztab-m
 
    |downloads_jmztab-m| |docker_jmztab-m|
 
-   :versions: 1.0.4-0
+   :versions: 1.0.5-0, 1.0.4-0
    
    :depends openjdk: >=8
    :depends python: 
