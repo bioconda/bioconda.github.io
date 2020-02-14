@@ -23,14 +23,15 @@ braker2
 
    |downloads_braker2| |docker_braker2|
 
-   :versions: 2.1.4-0, 2.1.2-2, 2.1.2-1, 2.1.2-0
+   :versions: 2.1.4-1, 2.1.4-0, 2.1.2-2, 2.1.2-1, 2.1.2-0
    
-   :depends augustus: >=3.3.1
+   :depends augustus: >=3.3.3
    :depends bamtools: >=2.5.1
    :depends biopython: 
    :depends blast: >=2.2.31
-   :depends eval: 
+   :depends diamond: >=0.9.24
    :depends exonerate: >=2.2.0
+   :depends genomethreader: >=1.7.0
    :depends makehub: 
    :depends perl: 
    :depends perl-app-cpanminus: 
@@ -85,8 +86,6 @@ braker2
 Notes
 -----
 - GeneMark software can be used for free\, but requires a license file and should be additionally installed on the machine where the BRAKER2 environment is.
-
-- GenomeThreader software can be used for free\, but all warranties are excluded and thus the user should additionally install it on the machine where the BRAKER2 environment is.
 
 
 Link to this page
