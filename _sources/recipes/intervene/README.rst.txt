@@ -23,15 +23,15 @@ intervene
 
    |downloads_intervene| |docker_intervene|
 
-   :versions: 0.6.4-1, 0.6.4-0, 0.6.2-0, 0.5.9-0, 0.5.8-0
+   :versions: 0.6.4-2, 0.6.4-1, 0.6.4-0, 0.6.2-0, 0.5.9-0, 0.5.8-0
    
    :depends bedtools: 
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: 
-   :depends pandas: 
+   :depends pandas: <1
    :depends pybedtools: 
    :depends python: 
-   :depends r: 
+   :depends r-base: 
    :depends r-cairo: 
    :depends r-corrplot: 
    :depends r-upsetr: 

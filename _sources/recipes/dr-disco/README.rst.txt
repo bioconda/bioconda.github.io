@@ -22,7 +22,7 @@ dr-disco
 
    |downloads_dr-disco| |docker_dr-disco|
 
-   :versions: 0.16.3-0, 0.14.0-0, 0.11.0-0, 0.10.0-0, 0.9.0-0, 0.8.2-0, 0.8.0-0, 0.6.0-0, 0.3.4-0, 0.3.3-0, 0.2.0-0
+   :versions: 0.18.0-0, 0.16.3-0, 0.14.0-0, 0.11.0-0, 0.10.0-0, 0.9.0-0, 0.8.2-0, 0.8.0-0, 0.6.0-0, 0.3.4-0, 0.3.3-0, 0.2.0-0
    
    :depends click: 
    :depends fuma: 
@@ -31,6 +31,7 @@ dr-disco
    :depends pysam: 
    :depends python: <3
    :depends scipy: 
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation

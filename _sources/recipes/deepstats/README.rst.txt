@@ -23,8 +23,11 @@ deepstats
 
    |downloads_deepstats| |docker_deepstats|
 
-   :versions: 0.3.1-0, 0.3-0, 0.2-0
+   :versions: 0.4-0, 0.3.1-0, 0.3-0, 0.2-0
    
+   :depends bioconductor-iranges: 
+   :depends bioconductor-rsamtools: 
+   :depends r-argparse: 
    :depends r-base: >=3.5.1
    :depends r-boot: 
    :depends r-cowplot: 
@@ -33,8 +36,11 @@ deepstats
    :depends r-ggplot2: 
    :depends r-optparse: 
    :depends r-purrr: 
+   :depends r-seqinr: 
    :depends r-showtext: 
+   :depends r-stringr: 
    :depends r-tidyverse: 
+   :depends r-vroom: 
    :requirements:
 
    .. rubric:: Installation
