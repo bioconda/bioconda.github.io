@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
-    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
-    <script type="text/javascript" src="../../_static/jquery.js"></script>
-    <script type="text/javascript" src="../../_static/underscore.js"></script>
-    <script type="text/javascript" src="../../_static/doctools.js"></script>
-    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="update_pinnings" href="bioconda_utils.update_pinnings.html" />
@@ -120,7 +120,7 @@
     </form>
     </div>
 </div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
+<script>$('#searchbox').show(0);</script>
         </div>
       </div>
       <div class="documentwrapper">
@@ -547,7 +547,7 @@ in many cases (there is work to change this going on).</p>
 
 <dl class="attribute">
 <dt id="bioconda_utils.autobump.FetchUpstreamDependencies.build_config">
-<code class="sig-name descname">build_config</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.FetchUpstreamDependencies.build_config" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">build_config</code><em class="property">: conda_build.config.Config</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.FetchUpstreamDependencies.build_config" title="Permalink to this definition">¶</a></dt>
 <dd><p>conda build config</p>
 </dd></dl>
 
@@ -798,19 +798,19 @@ work from there so that we don’t recreate the “same” update.</p>
 
 <dl class="attribute">
 <dt id="bioconda_utils.autobump.Scanner.stats">
-<code class="sig-name descname">stats</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.stats" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">stats</code><em class="property">: Counter</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.stats" title="Permalink to this definition">¶</a></dt>
 <dd><p>counter to gather stats on various states</p>
 </dd></dl>
 
 <dl class="attribute">
 <dt id="bioconda_utils.autobump.Scanner.status">
-<code class="sig-name descname">status</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.status" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">status</code><em class="property">: List[Tuple[str, str]]</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.status" title="Permalink to this definition">¶</a></dt>
 <dd><p>collect end status for each recipe</p>
 </dd></dl>
 
 <dl class="attribute">
 <dt id="bioconda_utils.autobump.Scanner.status_fn">
-<code class="sig-name descname">status_fn</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.status_fn" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">status_fn</code><em class="property">: str</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.status_fn" title="Permalink to this definition">¶</a></dt>
 <dd><p>filename to write statuses to</p>
 </dd></dl>
 
@@ -887,7 +887,7 @@ file upon pipeline completion.</p>
 
 <dl class="attribute">
 <dt id="bioconda_utils.autobump.UpdateChecksums.failed_urls">
-<code class="sig-name descname">failed_urls</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.failed_urls" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">failed_urls</code><em class="property">: List[str]</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.failed_urls" title="Permalink to this definition">¶</a></dt>
 <dd><p>failed urls - for later inspection</p>
 </dd></dl>
 
@@ -1005,7 +1005,7 @@ the recipe</p>
 
 <dl class="attribute">
 <dt id="bioconda_utils.autobump.UpdateVersion.build_config">
-<code class="sig-name descname">build_config</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.build_config" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">build_config</code><em class="property">: conda_build.config.Config</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.build_config" title="Permalink to this definition">¶</a></dt>
 <dd><p>conda build config</p>
 </dd></dl>
 
@@ -1078,7 +1078,7 @@ defined by parse_version)</p></li>
 
 <dl class="attribute">
 <dt id="bioconda_utils.autobump.UpdateVersion.unparsed_urls">
-<code class="sig-name descname">unparsed_urls</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.unparsed_urls" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">unparsed_urls</code><em class="property">: List[str]</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.unparsed_urls" title="Permalink to this definition">¶</a></dt>
 <dd><p>output file name for unparsed urls</p>
 </dd></dl>
 
@@ -1115,7 +1115,7 @@ defined by parse_version)</p></li>
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.3.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

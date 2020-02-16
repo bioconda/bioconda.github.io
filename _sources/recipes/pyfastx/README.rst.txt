@@ -24,7 +24,7 @@ pyfastx
 
    |downloads_pyfastx| |docker_pyfastx|
 
-   :versions: 0.6.5-0, 0.6.4-0
+   :versions: 0.6.6-0, 0.6.5-0, 0.6.4-0
    
    :depends libgcc-ng: >=7.3.0
    :depends python: >=3.6,<3.7.0a0

@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
-    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
-    <script type="text/javascript" src="../../_static/jquery.js"></script>
-    <script type="text/javascript" src="../../_static/underscore.js"></script>
-    <script type="text/javascript" src="../../_static/doctools.js"></script>
-    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="sphinxext" href="bioconda_utils.sphinxext.html" />
@@ -120,7 +120,7 @@
     </form>
     </div>
 </div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
+<script>$('#searchbox').show(0);</script>
         </div>
       </div>
       <div class="documentwrapper">
@@ -360,7 +360,7 @@ to be informed about dependency problems.</p></li>
 
 <dl class="attribute">
 <dt id="bioconda_utils.recipe.Recipe.data">
-<code class="sig-name descname">data</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.data" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">data</code><em class="property">: Dict[str, Any]</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.data" title="Permalink to this definition">¶</a></dt>
 <dd><p>For passing data around</p>
 </dd></dl>
 
@@ -501,13 +501,13 @@ meta.yaml at a specific key.</p>
 
 <dl class="attribute">
 <dt id="bioconda_utils.recipe.Recipe.meta">
-<code class="sig-name descname">meta</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.meta" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">meta</code><em class="property">: Dict[str, Any]</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.meta" title="Permalink to this definition">¶</a></dt>
 <dd><p>Parsed recipe YAML</p>
 </dd></dl>
 
 <dl class="attribute">
 <dt id="bioconda_utils.recipe.Recipe.meta_yaml">
-<code class="sig-name descname">meta_yaml</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.meta_yaml" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">meta_yaml</code><em class="property">: List[str]</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.meta_yaml" title="Permalink to this definition">¶</a></dt>
 <dd><p>Lines of the raw recipe file</p>
 </dd></dl>
 
@@ -524,13 +524,13 @@ meta.yaml at a specific key.</p>
 
 <dl class="attribute">
 <dt id="bioconda_utils.recipe.Recipe.on_branch">
-<code class="sig-name descname">on_branch</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.on_branch" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">on_branch</code><em class="property">: bool</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.on_branch" title="Permalink to this definition">¶</a></dt>
 <dd><p>Whether the recipe was loaded from a branch (update in progress)</p>
 </dd></dl>
 
 <dl class="attribute">
 <dt id="bioconda_utils.recipe.Recipe.orig">
-<code class="sig-name descname">orig</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.orig" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">orig</code><em class="property">: Recipe</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.orig" title="Permalink to this definition">¶</a></dt>
 <dd><p>Original recipe before modifications (updated by load_from_string)</p>
 </dd></dl>
 
@@ -664,7 +664,7 @@ selectors.</p></li>
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.3.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

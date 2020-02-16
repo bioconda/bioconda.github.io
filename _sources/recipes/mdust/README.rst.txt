@@ -22,9 +22,9 @@ mdust
 
    |downloads_mdust| |docker_mdust|
 
-   :versions: 2006.10.17-1, 2006.10.17-0
+   :versions: 2006.10.17-2, 2006.10.17-1, 2006.10.17-0
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

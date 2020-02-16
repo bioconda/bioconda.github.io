@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
-    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
-    <script type="text/javascript" src="../../_static/jquery.js"></script>
-    <script type="text/javascript" src="../../_static/underscore.js"></script>
-    <script type="text/javascript" src="../../_static/doctools.js"></script>
-    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="check_build_help" href="bioconda_utils.lint.check_build_help.html" />
@@ -110,7 +110,7 @@
     </form>
     </div>
 </div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
+<script>$('#searchbox').show(0);</script>
         </div>
       </div>
       <div class="documentwrapper">
@@ -407,19 +407,19 @@ something other than None.</p></li>
 
 <dl class="attribute">
 <dt id="bioconda_utils.lint.LintCheck.messages">
-<code class="sig-name descname">messages</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.messages" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">messages</code><em class="property">: List[LintMessage]</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.messages" title="Permalink to this definition">¶</a></dt>
 <dd><p>Messages collected running tests</p>
 </dd></dl>
 
 <dl class="attribute">
 <dt id="bioconda_utils.lint.LintCheck.recipe">
-<code class="sig-name descname">recipe</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.recipe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">recipe</code><em class="property">: _recipe.Recipe</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Recipe currently being checked</p>
 </dd></dl>
 
 <dl class="attribute">
 <dt id="bioconda_utils.lint.LintCheck.requires">
-<code class="sig-name descname">requires</code><em class="property"> = []</em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.requires" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">requires</code><em class="property">: List[LintCheck]</em><em class="property"> = []</em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.requires" title="Permalink to this definition">¶</a></dt>
 <dd><p>Checks that must have passed for this check to be executed.</p>
 </dd></dl>
 
@@ -442,13 +442,13 @@ something other than None.</p></li>
 
 <dl class="attribute">
 <dt id="bioconda_utils.lint.LintCheck.severity">
-<code class="sig-name descname">severity</code><em class="property"> = 30</em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.severity" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">severity</code><em class="property">: bioconda_utils.lint.Severity</em><em class="property"> = 30</em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.severity" title="Permalink to this definition">¶</a></dt>
 <dd><p>Severity of this check. Only ERROR causes a lint failure.</p>
 </dd></dl>
 
 <dl class="attribute">
 <dt id="bioconda_utils.lint.LintCheck.try_fix">
-<code class="sig-name descname">try_fix</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.try_fix" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">try_fix</code><em class="property">: bool</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.try_fix" title="Permalink to this definition">¶</a></dt>
 <dd><p>Whether we are supposed to fix</p>
 </dd></dl>
 
@@ -779,7 +779,7 @@ named <code class="docutils literal notranslate"><span class="pre">meta.yml</spa
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.3.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
