@@ -22,17 +22,17 @@ mageck-vispr
 
    |downloads_mageck-vispr| |docker_mageck-vispr|
 
-   :versions: 0.5.4-2, 0.5.4-1, 0.5.4-0, 0.5.3-0, 0.5.2-0, 0.4.7-0, 0.4.6-0, 0.4.5-0
+   :versions: 0.5.4-3, 0.5.4-2, 0.5.4-1, 0.5.4-0, 0.5.3-0, 0.5.2-0, 0.4.7-0, 0.4.6-0, 0.4.5-0
    
-   :depends bioconductor-sva: >=3.15.0
-   :depends cutadapt: >=1.9.1
-   :depends fastqc: >=0.11.4
-   :depends jinja2: >=2.8
-   :depends mageck: >=0.5.3
+   :depends bioconductor-sva: 
+   :depends cutadapt: 
+   :depends fastqc: 
+   :depends jinja2: 
+   :depends mageck: >=0.5.9
    :depends python: >=3
-   :depends rpy2: >=2.9.4
-   :depends snakemake: >=3.6.0
-   :depends vispr: >=0.4.4
+   :depends rpy2: 
+   :depends snakemake: 
+   :depends vispr: 
    :requirements:
 
    .. rubric:: Installation
