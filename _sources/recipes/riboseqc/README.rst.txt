@@ -22,7 +22,7 @@ riboseqc
 
    |downloads_riboseqc| |docker_riboseqc|
 
-   :versions: 1.1-0
+   :versions: 1.1-1, 1.1-0
    
    :depends bioconductor-biocgenerics: 
    :depends bioconductor-biostrings: 

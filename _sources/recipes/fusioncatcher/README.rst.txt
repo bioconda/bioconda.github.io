@@ -23,7 +23,7 @@ fusioncatcher
 
    |downloads_fusioncatcher| |docker_fusioncatcher|
 
-   :versions: 1.20-1, 1.20-0, 1.10-3, 1.10-2, 1.10-0, 1.00-1, 1.00-0
+   :versions: 1.20-2, 1.20-1, 1.20-0, 1.10-3, 1.10-2, 1.10-0, 1.00-1, 1.00-0
    
    :depends bbmap: 38.44.*
    :depends biopython: >=1.50
@@ -31,7 +31,9 @@ fusioncatcher
    :depends bowtie: 1.2.3.*
    :depends bowtie2: 2.3.5.*
    :depends bwa: 0.7.12.*
+   :depends coreutils: 
    :depends fusioncatcher-seqtk: 1.2.*
+   :depends grep: 
    :depends lzo: 
    :depends lzop: 
    :depends numpy: 1.13.1.*
