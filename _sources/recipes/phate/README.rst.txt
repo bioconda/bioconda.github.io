@@ -25,7 +25,7 @@ phate
 
    |downloads_phate| |docker_phate|
 
-   :versions: 1.0.2-0, 0.4.5-0
+   :versions: 1.0.3-0, 1.0.2-0, 0.4.5-0
    
    :depends deprecated: 
    :depends future: 
