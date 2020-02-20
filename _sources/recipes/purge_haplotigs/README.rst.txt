@@ -22,7 +22,7 @@ purge_haplotigs
 
    |downloads_purge_haplotigs| |docker_purge_haplotigs|
 
-   :versions: 1.1.0-0, 1.0.4-0, 1.0.3-0, 1.0.1-0
+   :versions: 1.1.1-0, 1.1.0-0, 1.0.4-0, 1.0.3-0, 1.0.1-0
    
    :depends bedtools: >=2.25.0
    :depends make: >=4.2.1

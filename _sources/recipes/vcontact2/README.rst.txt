@@ -24,7 +24,7 @@ vcontact2
 
    |downloads_vcontact2| |docker_vcontact2|
 
-   :versions: 0.9.12-0
+   :versions: 0.9.15-0, 0.9.12-0
    
    :depends biopython: >=1.68
    :depends networkx: >=1.11

@@ -12,8 +12,10 @@ seqan_tcoffee
    SeqAn\:\:T\-Coffee \- Multiple Sequence Alignment
 
    :homepage: http://www.seqan.de/apps/seqan-t-coffee/
-   :license: GPLv3
+   :developer docs: https://github.com/seqan/seqan/tree/master/apps/seqan_tcoffee
+   :license: GPL / GPL (>=3)
    :recipe: /`seqan_tcoffee <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqan_tcoffee>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqan_tcoffee/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btn281`
 
    
 
@@ -22,10 +24,11 @@ seqan_tcoffee
 
    |downloads_seqan_tcoffee| |docker_seqan_tcoffee|
 
-   :versions: 1.13.3-2, 1.13.3-1, 1.13.3-0
+   :versions: 1.13.8-0, 1.13.3-2, 1.13.3-1, 1.13.3-0
    
-   :depends bzip2: >=1.0.6,<2.0a0
-   :depends libstdcxx-ng: >=4.9
+   :depends bzip2: >=1.0.8,<2.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
