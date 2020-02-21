@@ -24,17 +24,23 @@ deepac
 
    |downloads_deepac| |docker_deepac|
 
-   :versions: 0.9.3-1, 0.9.3-0, 0.9.2-0, 0.9.1-0
+   :versions: 0.10.1-0, 0.9.3-1, 0.9.3-0, 0.9.2-0, 0.9.1-0
    
-   :depends biopython: 
-   :depends h5py: 
-   :depends keras: >=2.2.4,<2.3
-   :depends matplotlib: 
-   :depends numpy: >=1.15
-   :depends psutil: >=5.6.1
-   :depends python: >=3,<3.7
-   :depends scikit-learn: 
-   :depends tensorflow: >=1.12,<2.0
+   :depends bedtools: >=2.29
+   :depends biopython: >=1.76
+   :depends h5py: >=2.10
+   :depends keras: >=2.3.1
+   :depends matplotlib-base: >=3.1.3
+   :depends numpy: >=1.18
+   :depends pandas: >=1.0
+   :depends psutil: >=5.6.7
+   :depends pybedtools: >=0.8.1
+   :depends python: >=3.6,<3.7
+   :depends scikit-learn: >=0.22
+   :depends shap: >=0.34
+   :depends statsmodels: >=0.11
+   :depends tensorflow: >=1.15,<2.0
+   :depends weblogo: >=3.7
    :requirements:
 
    .. rubric:: Installation

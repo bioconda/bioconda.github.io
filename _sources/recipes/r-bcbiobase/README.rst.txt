@@ -23,11 +23,12 @@ r-bcbiobase
 
    |downloads_r-bcbiobase| |docker_r-bcbiobase|
 
-   :versions: 0.6.12-0, 0.6.11-0, 0.6.10-0, 0.4.1-3, 0.4.1-2, 0.4.1-1, 0.4.1-0, 0.2.15-1, 0.2.15-0, 0.2.12-0, 0.2.10-0, 0.2.9-0, 0.0.3-0
+   :versions: 0.6.13-0, 0.6.12-0, 0.6.11-0, 0.6.10-0, 0.4.1-3, 0.4.1-2, 0.4.1-1, 0.4.1-0, 0.2.15-1, 0.2.15-0, 0.2.12-0, 0.2.10-0, 0.2.9-0, 0.0.3-0
    
    :depends bioconductor-s4vectors: >=0.24
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-basejump: >=0.12.0
+   :depends r-cli: >=2.0
    :depends r-goalie: >=0.4.1
    :depends r-plyr: >=1.8
    :depends r-rdrop2: >=0.8

@@ -11,7 +11,7 @@ gcluster
 
    Gcluster is a simple\-to\-use tool for visualizing and comparing genome contexts for numerous genomes.
 
-   :homepage: http://www.microbialgenomic.com/Gcluster_tool.html/
+   :homepage: http://www.microbialgenomic.com/Gcluster_tool.html
    :license: perl_5
    :recipe: /`gcluster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gcluster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gcluster/meta.yaml>`_
 
@@ -22,10 +22,9 @@ gcluster
 
    |downloads_gcluster| |docker_gcluster|
 
-   :versions: 2.0.1-0
+   :versions: 2.0.1-1, 2.0.1-0
    
    :depends blast: 
-   :depends git: 
    :depends mcl: 
    :depends perl-bioperl-core: 
    :depends perl-gd: 

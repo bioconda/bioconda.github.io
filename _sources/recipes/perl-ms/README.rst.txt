@@ -6,14 +6,14 @@
 perl-ms
 =======
 
-.. conda:recipe:: perl-ms/0.204001
+.. conda:recipe:: perl-ms
    :replaces_section_title:
 
    Namespace for mass spectrometry\-related libraries
 
    :homepage: http://metacpan.org/pod/MS
    :license: gpl_3
-   :recipe: /`perl-ms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ms>`_/`0.204001 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ms/0.204001>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ms/0.204001/meta.yaml>`_
+   :recipe: /`perl-ms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ms/meta.yaml>`_
 
    
 
@@ -22,7 +22,7 @@ perl-ms
 
    |downloads_perl-ms| |docker_perl-ms|
 
-   :versions: 0.204001-0
+   :versions: 0.204003-0, 0.204001-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-biox-seq: 
