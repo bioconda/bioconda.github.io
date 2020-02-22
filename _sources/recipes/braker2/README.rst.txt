@@ -9,26 +9,27 @@ braker2
 .. conda:recipe:: braker2
    :replaces_section_title:
 
-   BRAKER2 is an extension of BRAKER1 which allows for fully automated training of the gene prediction tools GeneMark\-EX and AUGUSTUS from RNA\-Seq and\/or protein homology information\, and that integrates the extrinsic evidence from RNA\-Seq and protein homology information into the prediction.
+   BRAKER2 is an extension of BRAKER1
 
    :homepage: https://github.com/Gaius-Augustus/BRAKER
    :license: Other / Artistic License
    :recipe: /`braker2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/braker2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/braker2/meta.yaml>`_
    :links: doi: :doi:`10.13140/RG.2.2.12857.62564`
 
-   
+   BRAKER2 is an extension of BRAKER1 which allows for fully automated training of the gene prediction tools GeneMark\-EX and AUGUSTUS from RNA\-Seq and\/or protein homology information\, and that integrates the extrinsic evidence from RNA\-Seq and protein homology information into the prediction.
 
 
 .. conda:package:: braker2
 
    |downloads_braker2| |docker_braker2|
 
-   :versions: 2.1.4-1, 2.1.4-0, 2.1.2-2, 2.1.2-1, 2.1.2-0
+   :versions: 2.1.5-0, 2.1.4-1, 2.1.4-0, 2.1.2-2, 2.1.2-1, 2.1.2-0
    
    :depends augustus: >=3.3.3
    :depends bamtools: >=2.5.1
    :depends biopython: 
    :depends blast: >=2.2.31
+   :depends cdbtools: >=0.99
    :depends diamond: >=0.9.24
    :depends exonerate: >=2.2.0
    :depends genomethreader: >=1.7.0
@@ -43,15 +44,16 @@ braker2
    :depends perl-hash-merge: 
    :depends perl-list-util: 
    :depends perl-logger-simple: 
+   :depends perl-mce: 
    :depends perl-module-load-conditional: 
    :depends perl-parallel-forkmanager: 
    :depends perl-posix: 
    :depends perl-scalar-util-numeric: 
    :depends perl-test-pod: 
    :depends perl-yaml: 
-   :depends python: >=3
+   :depends python: >=3.3
    :depends samtools: >=1.7
-   :depends spaln: >=2.3.1
+   :depends spaln: >=2.3.3
    :requirements:
 
    .. rubric:: Installation
@@ -86,6 +88,8 @@ braker2
 Notes
 -----
 - GeneMark software can be used for free\, but requires a license file and should be additionally installed on the machine where the BRAKER2 environment is.
+
+- ProtHint software can be used for free\, but doesn\'t allow redistribution and should be additionally installed on the machine where the BRAKER2 environment is.
 
 
 Link to this page

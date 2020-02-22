@@ -22,7 +22,7 @@ recalladapters
 
    |downloads_recalladapters| |docker_recalladapters|
 
-   :versions: 7.1.0-0
+   :versions: 9.0.0-0, 7.1.0-0
    
    :requirements:
 

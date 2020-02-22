@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;shapeit&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;pubmlst_client&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -98,39 +98,35 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="shapeit">
+  <div class="section" id="pubmlst-client">
 <dl class="recipe">
-<dt id="recipe-shapeit">
-<em class="property">recipe </em><code class="sig-name descname">shapeit</code><a class="headerlink" href="#recipe-shapeit" title="Permalink to this definition">¶</a></dt>
-<dd><p>SHAPEIT is a fast and accurate method for estimation of haplotypes (aka phasing) from genotype or sequencing data.</p>
+<dt id="recipe-pubmlst_client">
+<em class="property">recipe </em><code class="sig-name descname">pubmlst_client</code><a class="headerlink" href="#recipe-pubmlst_client" title="Permalink to this definition">¶</a></dt>
+<dd><p>List and download schemes from pubMLST.org</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html">https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/Public-Health-Bioinformatics/pubmlst_client">https://github.com/Public-Health-Bioinformatics/pubmlst_client</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>Free for Academic Use</p>
+<dd class="field-even"><p>MIT</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shapeit">shapeit</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shapeit/meta.yaml">meta.yaml</a></p>
-</dd>
-<dt class="field-even">Links</dt>
-<dd class="field-even"><p>biotools: <a class="reference external" href="https://bio.tools/SHAPEIT">SHAPEIT</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pubmlst_client">pubmlst_client</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pubmlst_client/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-shapeit">
-<em class="property">package </em><code class="sig-name descname">shapeit</code><a class="headerlink" href="#package-shapeit" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/shapeit"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/shapeit.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/shapeit"><img alt="docker_shapeit" src="https://quay.io/repository/biocontainers/shapeit/status" /></a></p>
+<dt id="package-pubmlst_client">
+<em class="property">package </em><code class="sig-name descname">pubmlst_client</code><a class="headerlink" href="#package-pubmlst_client" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/pubmlst_client"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/pubmlst_client.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/pubmlst_client"><img alt="docker_pubmlst_client" src="https://quay.io/repository/biocontainers/pubmlst_client/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>2.r837-1, 2.r837-0</p>
+<dd class="field-odd"><p>0.1.0-0</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/boost-feedstock"><strong>boost</strong></a> &gt;=1.66.0,&lt;1.66.1.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libstdcxx-ng-feedstock"><strong>libstdcxx-ng</strong></a> &gt;=4.9</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=3</p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
@@ -140,24 +136,24 @@
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">shapeit</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">pubmlst_client</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">shapeit</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">pubmlst_client</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">shapeit</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">pubmlst_client</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/shapeit?tab=tags">shapeit/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/pubmlst_client?tab=tags">pubmlst_client/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/shapeit/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/shapeit/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/pubmlst_client/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pubmlst_client/README.html)
 </pre></div>
 </div>
 </div>
@@ -178,14 +174,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/shapeit/README.rst.txt"
+      <a href="../../_sources/recipes/pubmlst_client/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/shapeit/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/pubmlst_client/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>
