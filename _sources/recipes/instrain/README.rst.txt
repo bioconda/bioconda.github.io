@@ -22,7 +22,7 @@ instrain
 
    |downloads_instrain| |docker_instrain|
 
-   :versions: 1.2.2-0
+   :versions: 1.2.3-0, 1.2.2-0
    
    :depends biopython: 
    :depends drep: 

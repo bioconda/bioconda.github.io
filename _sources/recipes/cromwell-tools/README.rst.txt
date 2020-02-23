@@ -24,7 +24,7 @@ cromwell-tools
 
    |downloads_cromwell-tools| |docker_cromwell-tools|
 
-   :versions: 2.4.0-0, 2.3.0-0, 2.2.3-0, 2.2.0-0, 1.1.0-0, 1.0.1-0
+   :versions: 2.4.1-0, 2.4.0-0, 2.3.0-0, 2.2.3-0, 2.2.0-0, 1.1.0-0, 1.0.1-0
    
    :depends google-api-python-client: 1.7.11.*
    :depends google-auth: >=1.6.1,<2

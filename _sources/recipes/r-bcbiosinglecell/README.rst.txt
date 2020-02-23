@@ -23,7 +23,7 @@ r-bcbiosinglecell
 
    |downloads_r-bcbiosinglecell| |docker_r-bcbiosinglecell|
 
-   :versions: 0.4.7-0, 0.4.6-0, 0.4.5-0, 0.4.4-0, 0.4.3-0
+   :versions: 0.4.9-0, 0.4.7-0, 0.4.6-0, 0.4.5-0, 0.4.4-0, 0.4.3-0
    
    :depends bioconductor-biocgenerics: >=0.32
    :depends bioconductor-biocparallel: >=1.20
@@ -32,15 +32,15 @@ r-bcbiosinglecell
    :depends bioconductor-s4vectors: >=0.24
    :depends bioconductor-singlecellexperiment: >=1.8
    :depends bioconductor-summarizedexperiment: >=1.16
-   :depends r-acidgenerics: >=0.3.0
-   :depends r-acidplots: >=0.2.22
+   :depends r-acidgenerics: >=0.3.4
+   :depends r-acidplots: >=0.2.23
    :depends r-base: >=3.6,<3.7.0a0
-   :depends r-basejump: >=0.12.0
-   :depends r-bcbiobase: >=0.6.11
+   :depends r-basejump: >=0.12.2
+   :depends r-bcbiobase: >=0.6.13
    :depends r-cli: >=2.0
    :depends r-ggplot2: >=3.2
    :depends r-ggridges: >=0.5
-   :depends r-goalie: >=0.4.1
+   :depends r-goalie: >=0.4.2
    :depends r-knitr: >=1.27
    :depends r-r.utils: >=2.9
    :depends r-rlang: >=0.4

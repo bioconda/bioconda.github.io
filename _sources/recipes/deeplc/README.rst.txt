@@ -23,7 +23,7 @@ deeplc
 
    |downloads_deeplc| |docker_deeplc|
 
-   :versions: 0.1.12-0, 0.1.11-0, 0.1.10-0, 0.1.7-0, 0.1.6-0, 0.1.4-0, 0.1.2-0, 0.1.1-0
+   :versions: 0.1.13-0, 0.1.12-0, 0.1.11-0, 0.1.10-0, 0.1.7-0, 0.1.6-0, 0.1.4-0, 0.1.2-0, 0.1.1-0
    
    :depends matplotlib-base: >=3,<4
    :depends numpy: >=1.17,<2

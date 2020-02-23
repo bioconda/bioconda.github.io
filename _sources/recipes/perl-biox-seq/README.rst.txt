@@ -6,14 +6,14 @@
 perl-biox-seq
 =============
 
-.. conda:recipe:: perl-biox-seq/0.006007
+.. conda:recipe:: perl-biox-seq
    :replaces_section_title:
 
    a basic but fast biological sequence object and associated parsers
 
    :homepage: http://metacpan.org/pod/BioX::Seq
    :license: gpl_3
-   :recipe: /`perl-biox-seq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-biox-seq>`_/`0.006007 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-biox-seq/0.006007>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-biox-seq/0.006007/meta.yaml>`_
+   :recipe: /`perl-biox-seq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-biox-seq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-biox-seq/meta.yaml>`_
 
    
 
@@ -22,7 +22,7 @@ perl-biox-seq
 
    |downloads_perl-biox-seq| |docker_perl-biox-seq|
 
-   :versions: 0.006007-1, 0.006007-0
+   :versions: 0.006007-1, 0.006007-0, 0.008-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-compress-bgzf: 

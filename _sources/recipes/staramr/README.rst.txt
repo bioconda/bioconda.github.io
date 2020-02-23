@@ -22,7 +22,7 @@ staramr
 
    |downloads_staramr| |docker_staramr|
 
-   :versions: 0.7.1-0, 0.7.0-0, 0.6.1-0, 0.6.0-0, 0.5.1-0, 0.5.0-0, 0.4.0-0, 0.3.0-0, 0.2.2-0, 0.2.1-0, 0.2.0-1, 0.2.0-0, 0.1.0-0
+   :versions: 0.7.1-1, 0.7.1-0, 0.7.0-0, 0.6.1-0, 0.6.0-0, 0.5.1-0, 0.5.0-0, 0.4.0-0, 0.3.0-0, 0.2.2-0, 0.2.1-0, 0.2.0-1, 0.2.0-0, 0.1.0-0
    
    :depends biopython: >=1.70
    :depends blast: >=2.2.31
@@ -32,7 +32,7 @@ staramr
    :depends green: >=2.13.0
    :depends mlst: 
    :depends numpy: >=1.12.1
-   :depends pandas: >=0.23.0
+   :depends pandas: >=0.23.0,<1
    :depends python: >=3
    :depends xlsxwriter: >=1.0.2
    :requirements:

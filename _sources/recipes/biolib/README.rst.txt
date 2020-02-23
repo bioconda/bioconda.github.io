@@ -22,7 +22,7 @@ biolib
 
    |downloads_biolib| |docker_biolib|
 
-   :versions: 0.0.46-1, 0.0.46-0
+   :versions: 0.0.51-0, 0.0.46-1, 0.0.46-0
    
    :depends future: >=0.16.0
    :depends python: 
