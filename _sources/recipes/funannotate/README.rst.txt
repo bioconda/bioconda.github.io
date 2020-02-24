@@ -24,7 +24,7 @@ funannotate
 
    |downloads_funannotate| |docker_funannotate|
 
-   :versions: 1.7.3-0, 1.7.2-0, 1.7.1-1
+   :versions: 1.7.4-0, 1.7.3-0, 1.7.2-0, 1.7.1-1
    
    :depends augustus: >3.3
    :depends bamtools: 
@@ -33,7 +33,6 @@ funannotate
    :depends blast: 2.2.31
    :depends codingquarry: 
    :depends diamond: >0.9,<=0.9.24
-   :depends ete3: 
    :depends evidencemodeler: 
    :depends exonerate: 
    :depends glimmerhmm: 
