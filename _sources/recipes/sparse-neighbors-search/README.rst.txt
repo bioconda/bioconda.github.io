@@ -22,7 +22,7 @@ sparse-neighbors-search
 
    |downloads_sparse-neighbors-search| |docker_sparse-neighbors-search|
 
-   :versions: 0.4-1, 0.4-0, 0.3-1, 0.3-0, 0.2.3-0
+   :versions: 0.5-0, 0.4-1, 0.4-0, 0.3-1, 0.3-0, 0.2.3-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
