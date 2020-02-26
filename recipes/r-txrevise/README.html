@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;pyopenms&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;r-txrevise&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -98,42 +98,51 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="pyopenms">
+  <div class="section" id="r-txrevise">
 <dl class="recipe">
-<dt id="recipe-pyopenms">
-<em class="property">recipe </em><code class="sig-name descname">pyopenms</code><a class="headerlink" href="#recipe-pyopenms" title="Permalink to this definition">¶</a></dt>
-<dd><p>OpenMS is an open-source software C++ library for LC-MS data management and analyses</p>
+<dt id="recipe-r-txrevise">
+<em class="property">recipe </em><code class="sig-name descname">r-txrevise</code><a class="headerlink" href="#recipe-r-txrevise" title="Permalink to this definition">¶</a></dt>
+<dd><p>Construct custom transcript annotations for Salmon and kallisto</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/OpenMS/OpenMS">https://github.com/OpenMS/OpenMS</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/kauralasoo/txrevise">https://github.com/kauralasoo/txrevise</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>BSD</p>
+<dd class="field-even"><p>Apache / Apache 2.0</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyopenms">pyopenms</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyopenms/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-txrevise">r-txrevise</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-txrevise/meta.yaml">meta.yaml</a></p>
 </dd>
 <dt class="field-even">Links</dt>
-<dd class="field-even"><p>biotools: <a class="reference external" href="https://bio.tools/openms">openms</a>, doi: <a class="reference external" href="https://doi.org/10.1038/nmeth.3959">10.1038/nmeth.3959</a></p>
+<dd class="field-even"><p>doi: <a class="reference external" href="https://doi.org/10.7554/eLife.41673">10.7554/eLife.41673</a></p>
 </dd>
 </dl>
+<p>txrevise R package provides utilites to pre-process Ensembl transcript annotations to
+quantify differences in transcript strucuture (alternative promoters, alternative
+splicing, alternative poly-adenylation) either between experimental conditions or
+genotypes (e.g. for transcript usage quntitative trait loci (tuQTL) mapping).</p>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-pyopenms">
-<em class="property">package </em><code class="sig-name descname">pyopenms</code><a class="headerlink" href="#package-pyopenms" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/pyopenms"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/pyopenms.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/pyopenms"><img alt="docker_pyopenms" src="https://quay.io/repository/biocontainers/pyopenms/status" /></a></p>
+<dt id="package-r-txrevise">
+<em class="property">package </em><code class="sig-name descname">r-txrevise</code><a class="headerlink" href="#package-r-txrevise" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-txrevise"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-txrevise.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-txrevise"><img alt="docker_r-txrevise" src="https://quay.io/repository/biocontainers/r-txrevise/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>2.4.0-3, 2.4.0-0</p>
+<dd class="field-odd"><p>0.1-0</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> &gt;=7.3.0</p></li>
-<li><p><a class="conda-package reference internal" href="../openms/README.html#package-libopenms" title="libopenms package"><strong>libopenms</strong></a> 2.4.0 hcf7c050_3</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libstdcxx-ng-feedstock"><strong>libstdcxx-ng</strong></a> &gt;=7.3.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=3.6,&lt;3.7.0a0</p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-genomicfeatures/README.html#package-bioconductor-genomicfeatures" title="bioconductor-genomicfeatures package"><strong>bioconductor-genomicfeatures</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-genomicranges/README.html#package-bioconductor-genomicranges" title="bioconductor-genomicranges package"><strong>bioconductor-genomicranges</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-iranges/README.html#package-bioconductor-iranges" title="bioconductor-iranges package"><strong>bioconductor-iranges</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> &gt;=3.6,&lt;3.7.0a0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-dplyr-feedstock"><strong>r-dplyr</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ggplot2-feedstock"><strong>r-ggplot2</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-purrr-feedstock"><strong>r-purrr</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-purrrlyr-feedstock"><strong>r-purrrlyr</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-readr-feedstock"><strong>r-readr</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-tidyr-feedstock"><strong>r-tidyr</strong></a></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
@@ -143,24 +152,24 @@
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">pyopenms</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">txrevise</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">pyopenms</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">txrevise</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">pyopenms</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">r</span><span class="o">-</span><span class="n">txrevise</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/pyopenms?tab=tags">pyopenms/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/r-txrevise?tab=tags">r-txrevise/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/pyopenms/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pyopenms/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-txrevise/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-txrevise/README.html)
 </pre></div>
 </div>
 </div>
@@ -181,14 +190,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/pyopenms/README.rst.txt"
+      <a href="../../_sources/recipes/r-txrevise/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/pyopenms/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/r-txrevise/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

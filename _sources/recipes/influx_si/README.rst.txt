@@ -25,7 +25,7 @@ influx_si
 
    |downloads_influx_si| |docker_influx_si|
 
-   :versions: 5.0.1-0, 5.0-0
+   :versions: 5.0.1-1, 5.0.1-0, 5.0-0
    
    :depends python: >=3
    :depends r-arrapply: 
@@ -35,7 +35,7 @@ influx_si
    :depends r-nnls: 
    :depends r-rcpp: >=1.0.0
    :depends r-rcpparmadillo: 
-   :depends r-rmumps: >=5.2.1_6
+   :depends r-rmumps: >=5.2.1_12
    :depends r-slam: 
    :depends scipy: 
    :requirements:

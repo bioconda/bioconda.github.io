@@ -22,9 +22,11 @@ phylics
 
    |downloads_phylics| |docker_phylics|
 
-   :versions: 1.0.2-0, 1.0.1-0, 1.0.0-0
+   :versions: 1.0.3-0, 1.0.2-0, 1.0.1-0, 1.0.0-0
    
    :depends aioeasywebdav: 
+   :depends bioconductor-ctc: 
+   :depends bioconductor-dnacopy: 
    :depends boto3: 
    :depends dicttoxml: 
    :depends filechunkio: 
@@ -41,6 +43,13 @@ phylics
    :depends pysocks: 
    :depends python: >=3.6
    :depends python-irodsclient: 
+   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-ggplot2: 
+   :depends r-gplots: 
+   :depends r-gridextra: 
+   :depends r-inline: 
+   :depends r-plyr: 
+   :depends r-scales: 
    :depends scikit-learn: 0.21.3
    :depends scipy: 
    :depends sctools: 

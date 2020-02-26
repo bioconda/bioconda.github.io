@@ -22,7 +22,7 @@ shigatyper
 
    |downloads_shigatyper| |docker_shigatyper|
 
-   :versions: 1.0.5-3
+   :versions: 1.0.6-0, 1.0.5-3
    
    :depends bcftools: >=1.9
    :depends minimap2: >=2.16

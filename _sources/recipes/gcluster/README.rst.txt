@@ -9,7 +9,7 @@ gcluster
 .. conda:recipe:: gcluster
    :replaces_section_title:
 
-   Gcluster is a simple\-to\-use tool for visualizing and comparing genome contexts for numerous genomes.
+   Gcluster is a simple\-to\-use tool for visualizing and comparing genome contexts for numerous genomes
 
    :homepage: http://www.microbialgenomic.com/Gcluster_tool.html
    :license: perl_5
@@ -22,7 +22,7 @@ gcluster
 
    |downloads_gcluster| |docker_gcluster|
 
-   :versions: 2.0.2-0, 2.0.1-1, 2.0.1-0
+   :versions: 2.0.3-0, 2.0.2-0, 2.0.1-1, 2.0.1-0
    
    :depends blast: 
    :depends mcl: 

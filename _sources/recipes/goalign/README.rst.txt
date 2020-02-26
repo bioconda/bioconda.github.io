@@ -22,7 +22,7 @@ goalign
 
    |downloads_goalign| |docker_goalign|
 
-   :versions: 0.3.1-0, 0.2.9-0, 0.2.8-1, 0.2.8-0
+   :versions: 0.3.2-0, 0.3.1-0, 0.2.9-0, 0.2.8-1, 0.2.8-0
    
    :requirements:
 

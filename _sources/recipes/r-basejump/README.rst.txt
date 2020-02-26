@@ -23,7 +23,7 @@ r-basejump
 
    |downloads_r-basejump| |docker_r-basejump|
 
-   :versions: 0.12.2-0, 0.12.1-0, 0.12.0-0, 0.11.23-0, 0.11.22-0, 0.11.21-0, 0.11.20-1, 0.11.20-0, 0.11.19-0, 0.11.18-0, 0.11.17-0, 0.11.16-0, 0.11.15-0, 0.11.14-0, 0.11.13-0, 0.11.12-0, 0.11.11-0, 0.11.10-0, 0.11.8-0, 0.11.7-0, 0.11.5-0, 0.10.9-1, 0.10.9-0, 0.9.11-0, 0.9.9-0, 0.7.2-1, 0.7.2-0, 0.5.9-0, 0.5.3-0, 0.1.1-0
+   :versions: 0.12.3-0, 0.12.2-0, 0.12.1-0, 0.12.0-0, 0.11.23-0, 0.11.22-0, 0.11.21-0, 0.11.20-1, 0.11.20-0, 0.11.19-0, 0.11.18-0, 0.11.17-0, 0.11.16-0, 0.11.15-0, 0.11.14-0, 0.11.13-0, 0.11.12-0, 0.11.11-0, 0.11.10-0, 0.11.8-0, 0.11.7-0, 0.11.5-0, 0.10.9-1, 0.10.9-0, 0.9.11-0, 0.9.9-0, 0.7.2-1, 0.7.2-0, 0.5.9-0, 0.5.3-0, 0.1.1-0
    
    :depends bioconductor-annotationdbi: >=1.48
    :depends bioconductor-annotationhub: >=2.18
@@ -49,12 +49,11 @@ r-basejump
    :depends r-knitr: >=1.26
    :depends r-magrittr: >=1.5
    :depends r-matrix: >=1.2
-   :depends r-matrix.utils: >=0.9
    :depends r-matrixstats: >=0.55
    :depends r-pipette: >=0.4.1
    :depends r-r.utils: >=2.9
    :depends r-rcurl: >=1.95
-   :depends r-rmarkdown: >=1.16
+   :depends r-rmarkdown: >=2.0
    :depends r-scales: >=1.1
    :depends r-sessioninfo: >=1.1
    :depends r-stringr: >=1.4

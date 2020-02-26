@@ -22,16 +22,16 @@ schicexplorer
 
    |downloads_schicexplorer| |docker_schicexplorer|
 
-   :versions: 1-0
+   :versions: 2-0, 1-0
    
    :depends cooler: >=0.8.5
-   :depends hicexplorer: >=3.3.1
+   :depends hicexplorer: >=3.4.1
    :depends hicmatrix: >=11
    :depends numpy: >=1.17.3
    :depends python: >=3.6
    :depends scikit-learn: >=0.21.1
    :depends scipy: >=1.3.2
-   :depends sparse-neighbors-search: >=0.4
+   :depends sparse-neighbors-search: >=0.5
    :requirements:
 
    .. rubric:: Installation
