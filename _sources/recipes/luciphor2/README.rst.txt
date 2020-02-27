@@ -22,9 +22,9 @@ luciphor2
 
    |downloads_luciphor2| |docker_luciphor2|
 
-   :versions: 2018_06_28-0
+   :versions: 2018_06_28-1, 2018_06_28-0
    
-   :depends openjdk: >=6
+   :depends openjdk: >=6,<9
    :requirements:
 
    .. rubric:: Installation

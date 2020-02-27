@@ -23,7 +23,7 @@ micall-lite
 
    |downloads_micall-lite| |docker_micall-lite|
 
-   :versions: 0.1rc3-0, 0.1rc2-0, 0.1rc-0
+   :versions: 0.1rc4-0, 0.1rc3-0, 0.1rc2-0, 0.1rc-0
    
    :depends bowtie2: 
    :depends libgcc-ng: >=7.3.0
