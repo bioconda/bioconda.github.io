@@ -22,7 +22,7 @@ pyomero-upload
 
    |downloads_pyomero-upload| |docker_pyomero-upload|
 
-   :versions: 1.0.0-3, 1.0.0-2, 1.0.0-1, 1.0.0-0
+   :versions: 1.1.0-0, 1.0.0-3, 1.0.0-2, 1.0.0-1, 1.0.0-0
    
    :depends enum34: 1.1.6.*
    :depends filetype: 1.0.5.*

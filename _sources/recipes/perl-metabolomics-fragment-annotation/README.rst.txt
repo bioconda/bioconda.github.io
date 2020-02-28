@@ -22,7 +22,7 @@ perl-metabolomics-fragment-annotation
 
    |downloads_perl-metabolomics-fragment-annotation| |docker_perl-metabolomics-fragment-annotation|
 
-   :versions: 0.4-0, 0.3-0, 0.2-0
+   :versions: 0.5.2-0, 0.4-0, 0.3-0, 0.2-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-file-share: 

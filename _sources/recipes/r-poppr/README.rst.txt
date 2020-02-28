@@ -22,7 +22,7 @@ r-poppr
 
    |downloads_r-poppr| |docker_r-poppr|
 
-   :versions: 2.8.4-0, 2.8.3-0, 2.8.2-0, 2.8.1-1, 2.8.1-0
+   :versions: 2.8.5-0, 2.8.4-0, 2.8.3-0, 2.8.2-0, 2.8.1-1, 2.8.1-0
    
    :depends libgcc-ng: >=7.3.0
    :depends r-ade4: 

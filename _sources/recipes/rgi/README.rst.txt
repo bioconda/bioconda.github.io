@@ -23,26 +23,24 @@ rgi
 
    |downloads_rgi| |docker_rgi|
 
-   :versions: 5.1.0-0, 5.0.0-0, 4.2.2-1, 4.2.2-0, 4.0.3-3, 4.0.3-2, 4.0.3-1, 4.0.3-0, 3.2.1-4, 3.2.1-3, 3.2.1-2, 3.2.1-1, 3.2.0-3, 3.2.0-2, 3.2.0-1, 3.1.2-3, 3.1.2-2, 3.1.2-1, 3.1.1-2, 3.1.1-1, 3.1.0-1, 3.1.0-0
+   :versions: 5.1.0-1, 5.1.0-0, 5.0.0-0, 4.2.2-1, 4.2.2-0, 4.0.3-3, 4.0.3-2, 4.0.3-1, 4.0.3-0, 3.2.1-4, 3.2.1-3, 3.2.1-2, 3.2.1-1, 3.2.0-3, 3.2.0-2, 3.2.0-1, 3.1.2-3, 3.1.2-2, 3.1.2-1, 3.1.1-2, 3.1.1-1, 3.1.0-1, 3.1.0-0
    
-   :depends bamtools: >=2.5.1
+   :depends bamtools: 2.5.1.*
    :depends bedtools: >=2.28.0
-   :depends biopython: 1.72
-   :depends blast: 2.6.0
+   :depends biopython: 1.72.*
+   :depends blast: 2.9.0.*
    :depends bowtie2: >=2.3.4.3
    :depends bwa: >=0.7.17
-   :depends diamond: 0.8.36
+   :depends diamond: 0.8.36.*
    :depends filetype: >=1.0.0
-   :depends libgcc-ng: >=7.3.0
-   :depends matplotlib: >=2.1.2
-   :depends mock: >=2.0.0
+   :depends matplotlib-base: >=2.1.2
+   :depends oligoarrayaux: 3.8.*
    :depends pandas: >=0.15.0
-   :depends prodigal: 2.6.3
+   :depends prodigal: 2.6.3.*
    :depends pyahocorasick: >=1.1.7
    :depends pyfaidx: >=0.5.4.1
-   :depends pytest: >=3.0.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends samtools: >=1.9
+   :depends python: >=3.5,<3.7
+   :depends samtools: 1.9.*
    :depends seaborn: >=0.8.1
    :depends six: >=1.7.0
    :depends zlib: >=1.2.11,<1.3.0a0

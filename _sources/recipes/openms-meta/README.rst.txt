@@ -23,7 +23,7 @@ openms-meta
 
    |downloads_libopenms| |docker_libopenms|
 
-   :versions: 2.5.0-0, 2.4.0-3
+   :versions: 2.5.0-1, 2.5.0-0, 2.4.0-3
    
    :depends bzip2: >=1.0.8,<2.0a0
    :depends hdf5: >=1.10.5,<1.10.6.0a0
@@ -65,7 +65,7 @@ openms-meta
 
    |downloads_openms| |docker_openms|
 
-   :versions: 2.5.0-0, 2.4.0-1, 2.4.0-0, 2.3.0-3, 2.3.0-2, 2.3.0-1, 2.3.0-0, 2.2.0-2, 2.2.0-1, 2.2.0-0, 2.1.0-0
+   :versions: 2.5.0-1, 2.5.0-0, 2.4.0-1, 2.4.0-0, 2.3.0-3, 2.3.0-2, 2.3.0-1, 2.3.0-0, 2.2.0-2, 2.2.0-1, 2.2.0-0, 2.1.0-0
    
    :depends boost-cpp: >=1.70.0,<1.70.1.0a0
    :depends bzip2: >=1.0.8,<2.0a0
@@ -75,7 +75,7 @@ openms-meta
    :depends hdf5: >=1.10.5,<1.10.6.0a0
    :depends hdf5: >=1.10.5,<1.11.0a0
    :depends libgcc-ng: >=7.3.0
-   :depends libopenms: 2.5.0 h463af6b_0
+   :depends libopenms: 2.5.0 h463af6b_1
    :depends libstdcxx-ng: >=7.3.0
    :depends libsvm: >=3.21,<3.22.0a0
    :depends qt: >=5.12.5,<5.13.0a0
@@ -148,7 +148,7 @@ openms-meta
 
    |downloads_openms-thirdparty| |docker_openms-thirdparty|
 
-   :versions: 2.5.0-0
+   :versions: 2.5.0-1, 2.5.0-0
    
    :depends bumbershoot: 3_0_11579
    :depends comet-ms: 2016013
@@ -158,7 +158,7 @@ openms-meta
    :depends luciphor2: 2018_06_28
    :depends msgf_plus: 2017.07.21
    :depends omssa: 2.1.9
-   :depends openms: 2.5.0 h463af6b_0
+   :depends openms: 2.5.0 h463af6b_1
    :depends pepnovo: 20101117
    :depends percolator: 3.4
    :depends sirius-csifingerid: 4.0.1
@@ -197,7 +197,7 @@ openms-meta
 
    |downloads_pyopenms| |docker_pyopenms|
 
-   :versions: 2.5.0-0, 2.4.0-3, 2.4.0-0
+   :versions: 2.5.0-1, 2.5.0-0, 2.4.0-3, 2.4.0-0
    
    :depends boost: >=1.70.0,<1.70.1.0a0
    :depends bzip2: >=1.0.8,<2.0a0
@@ -207,7 +207,7 @@ openms-meta
    :depends hdf5: >=1.10.5,<1.10.6.0a0
    :depends hdf5: >=1.10.5,<1.11.0a0
    :depends libgcc-ng: >=7.3.0
-   :depends libopenms: 2.5.0 h463af6b_0
+   :depends libopenms: 2.5.0 h463af6b_1
    :depends libstdcxx-ng: >=7.3.0
    :depends libsvm: >=3.21,<3.22.0a0
    :depends numpy: 

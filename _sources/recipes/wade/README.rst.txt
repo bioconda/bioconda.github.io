@@ -22,7 +22,7 @@ wade
 
    |downloads_wade| |docker_wade|
 
-   :versions: 0.2.5-0, 0.2.4-0, 0.2.3-0
+   :versions: 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.3-0
    
    :depends bioconductor-biostrings: 
    :depends blast: 

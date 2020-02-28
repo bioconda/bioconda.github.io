@@ -9,7 +9,7 @@ micall-lite
 .. conda:recipe:: micall-lite
    :replaces_section_title:
 
-   A bioinformatic pipeline for mapping FASTQ data to a set of reference
+   A bioinformatic pipeline for mapping of FASTQ data to a set of reference
    sequences to generate consensus sequences\, variant calls and coverage maps.
 
    :homepage: https://github.com/PoonLab/MiCall-Lite
@@ -23,7 +23,7 @@ micall-lite
 
    |downloads_micall-lite| |docker_micall-lite|
 
-   :versions: 0.1rc4-0, 0.1rc3-0, 0.1rc2-0, 0.1rc-0
+   :versions: 0.1rc5-0, 0.1rc4-0, 0.1rc3-0, 0.1rc2-0, 0.1rc-0
    
    :depends bowtie2: 
    :depends libgcc-ng: >=7.3.0
