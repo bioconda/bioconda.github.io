@@ -23,7 +23,7 @@ ismapper
 
    |downloads_ismapper| |docker_ismapper|
 
-   :versions: 2.0-1
+   :versions: 2.0.1-0, 2.0-1
    
    :depends bedtools: >=2.20
    :depends biopython: >=1.63

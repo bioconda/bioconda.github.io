@@ -22,7 +22,7 @@ chromosight
 
    |downloads_chromosight| |docker_chromosight|
 
-   :versions: 0.4.0-0, 0.3.1-0, 0.3.0-0
+   :versions: 0.5.0-0, 0.4.0-0, 0.3.1-0, 0.3.0-0
    
    :depends cooler: 
    :depends docopt: 

@@ -22,59 +22,12 @@ monocle3-cli
 
    |downloads_monocle3-cli| |docker_monocle3-cli|
 
-   :versions: 0.0.6-0, 0.0.5-1, 0.0.5-0, 0.0.4-0, 0.0.3-1, 0.0.3-0
+   :versions: 0.0.7-0, 0.0.6-0, 0.0.5-1, 0.0.5-0, 0.0.4-0, 0.0.3-1, 0.0.3-0
    
-   :depends bioconductor-delayedarray: 
-   :depends bioconductor-delayedmatrixstats: 
-   :depends bioconductor-limma: 
    :depends bioconductor-singlecellexperiment: <1.8.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends louvain: 
-   :depends python: >=3.8,<3.9.0a0
-   :depends r-assertthat: 
    :depends r-base: >=3.6,<3.7.0a0
-   :depends r-base64enc: 
-   :depends r-codetools: 
-   :depends r-crosstalk: 
-   :depends r-data.table: 
-   :depends r-devtools: 
-   :depends r-dplyr: 
-   :depends r-ggplot2: 
-   :depends r-ggrepel: 
-   :depends r-grr: 
-   :depends r-hexbin: 
-   :depends r-htmlwidgets: 
-   :depends r-igraph: 
-   :depends r-irlba: 
-   :depends r-lmtest: 
-   :depends r-matrix: 
-   :depends r-matrix.utils: 
    :depends r-monocle3: <=0.2.0
    :depends r-optparse: 
-   :depends r-pbapply: 
-   :depends r-pbmcapply: 
-   :depends r-pheatmap: 
-   :depends r-plotly: 
-   :depends r-proxy: 
-   :depends r-pryr: 
-   :depends r-pscl: 
-   :depends r-purrr: 
-   :depends r-rann: 
-   :depends r-reshape2: 
-   :depends r-reticulate: 
-   :depends r-rhpcblasctl: 
-   :depends r-rtsne: 
-   :depends r-shiny: 
-   :depends r-slam: 
-   :depends r-spdep: 
-   :depends r-speedglm: 
-   :depends r-stringr: 
-   :depends r-tidyr: 
-   :depends r-uwot: 
-   :depends r-vgam: 
-   :depends r-viridis: 
-   :depends umap-learn: 
    :requirements:
 
    .. rubric:: Installation

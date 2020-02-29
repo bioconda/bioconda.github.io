@@ -22,11 +22,12 @@ r-liger
 
    |downloads_r-liger| |docker_r-liger|
 
-   :versions: 0.4.2.9000-0
+   :versions: 0.4.2.9000-1, 0.4.2.9000-0
    
+   :depends libblas: >=3.8.0,<4.0a0
    :depends libgcc-ng: >=7.3.0
-   :depends libgfortran-ng: >=7,<8.0a0
    :depends libstdcxx-ng: >=7.3.0
+   :depends openjdk: >=6
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-cowplot: 
    :depends r-dosnow: 
@@ -38,16 +39,17 @@ r-liger
    :depends r-hmisc: 
    :depends r-ica: 
    :depends r-irlba: 
-   :depends r-matrix: 
    :depends r-mclust: 
    :depends r-patchwork: 
    :depends r-plyr: 
    :depends r-rann.l1: 
    :depends r-rcpp: >=0.12.10
    :depends r-rcpparmadillo: 
+   :depends r-reticulate: 
    :depends r-riverplot: 
    :depends r-rtsne: 
    :depends r-snow: 
+   :depends umap-learn: 
    :requirements:
 
    .. rubric:: Installation

@@ -23,7 +23,7 @@ rsat-core
 
    |downloads_rsat-core| |docker_rsat-core|
 
-   :versions: 2020.01.04-0
+   :versions: 2020.02.28-0, 2020.01.04-0
    
    :depends bedtools: 
    :depends bioconductor-ctc: 
@@ -61,9 +61,11 @@ rsat-core
    :depends perl-log-log4perl: 
    :depends perl-lwp-simple: 
    :depends perl-math-cdf: 
+   :depends perl-mce-shared: 
    :depends perl-number-format: 
    :depends perl-object-insideout: 
    :depends perl-ole-storage_lite: 
+   :depends perl-parallel-forkmanager: 
    :depends perl-posix: 
    :depends perl-readonly: 
    :depends perl-rest-client: 

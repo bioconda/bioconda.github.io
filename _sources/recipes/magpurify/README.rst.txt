@@ -9,13 +9,11 @@ magpurify
 .. conda:recipe:: magpurify
    :replaces_section_title:
 
-   Improvement of metagenome\-assembled genomes
-
+   Identify and remove incorrectly binned contigs from metagenome\-assembled genomes.
 
    :homepage: https://github.com/snayfach/MAGpurify
-   :license: GPL-3
+   :license: GPL / GPL-3
    :recipe: /`magpurify <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/magpurify>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/magpurify/meta.yaml>`_
-   :links: doi: :doi:`http://dx.doi.org/10.1038/s41586-019-1058-x`
 
    
 
@@ -24,17 +22,18 @@ magpurify
 
    |downloads_magpurify| |docker_magpurify|
 
-   :versions: 1.0-2, 1.0-1
+   :versions: 2.0.1-0, 1.0-2, 1.0-1
    
    :depends biopython: 
-   :depends blast: 2.7.1.*
-   :depends hmmer: 3.1b2.*
+   :depends blast: 
+   :depends coverm: 
+   :depends hmmer: 
    :depends last: 
-   :depends mash: 2.0.*
+   :depends mash: 
    :depends numpy: 
    :depends pandas: 
-   :depends prodigal: 2.6.3.*
-   :depends python: 2.7.*
+   :depends prodigal: 
+   :depends python: >=3.8,<3.9.0a0
    :depends scikit-learn: 
    :requirements:
 
