@@ -22,7 +22,7 @@ r-liger
 
    |downloads_r-liger| |docker_r-liger|
 
-   :versions: 0.4.2.9000-1, 0.4.2.9000-0
+   :versions: 0.5.0.9000-0, 0.4.2.9000-1, 0.4.2.9000-0
    
    :depends libblas: >=3.8.0,<4.0a0
    :depends libgcc-ng: >=7.3.0
@@ -42,9 +42,12 @@ r-liger
    :depends r-mclust: 
    :depends r-patchwork: 
    :depends r-plyr: 
+   :depends r-psych: 
+   :depends r-rann: 
    :depends r-rann.l1: 
    :depends r-rcpp: >=0.12.10
    :depends r-rcpparmadillo: 
+   :depends r-rcppeigen: 
    :depends r-reticulate: 
    :depends r-riverplot: 
    :depends r-rtsne: 

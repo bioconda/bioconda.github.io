@@ -24,31 +24,22 @@ scvi
 
    |downloads_scvi| |docker_scvi|
 
-   :versions: 0.5.0-0, 0.4.1-1, 0.4.1-0, 0.3.0-1, 0.3.0-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.3-0, 0.1.2-0
+   :versions: 0.6.0-0, 0.5.0-0, 0.4.1-1, 0.4.1-0, 0.3.0-1, 0.3.0-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.3-0, 0.1.2-0
    
-   :depends anndata: >=0.6
-   :depends colour: >=0.1
-   :depends h5py: >=2.9
-   :depends hyperopt: >=0.1.2
-   :depends ipython: >=7.5
-   :depends jupyter: >=1.0.0
-   :depends leidenalg: >=0.7.0
-   :depends loompy: >=2.0.17
-   :depends matplotlib: >=3.0
-   :depends mongodb: >=4
-   :depends nbconvert: >=5.5.0
-   :depends nbformat: >=4.4.0
-   :depends numpy: >=1.16
-   :depends pandas: >=0.24
+   :depends anndata: >=0.6.22rc1
+   :depends h5py: >=2.9.0
+   :depends hyperopt: 0.1.2
+   :depends loompy: >=2.0.16
+   :depends matplotlib: >=3.0.3
+   :depends numpy: >=1.16.2
+   :depends pandas: >=0.24.2
    :depends python: >=3.7
-   :depends python-igraph: >=0.7.1
+   :depends pytorch: >=1.1
    :depends scanpy: >=1.4
-   :depends scikit-learn: >=0.20
-   :depends scipy: >=1.2
-   :depends seaborn: >=0.9.0
-   :depends tqdm: >=4
-   :depends umap-learn: >=0.3.7
-   :depends xlrd: >=1.2
+   :depends scikit-learn: >=0.20.3
+   :depends statsmodels: 
+   :depends tqdm: >=4.31.1
+   :depends xlrd: >=1.2.0
    :requirements:
 
    .. rubric:: Installation

@@ -24,9 +24,9 @@ kipoiseq
 
    |downloads_kipoiseq| |docker_kipoiseq|
 
-   :versions: 0.3.2-0, 0.3.1-2, 0.3.1-1, 0.3.1-0, 0.3.0-1, 0.3.0-0, 0.2.7-1, 0.2.7-0, 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.2-0
+   :versions: 0.3.3-0, 0.3.2-0, 0.3.1-2, 0.3.1-1, 0.3.1-0, 0.3.0-1, 0.3.0-0, 0.2.7-1, 0.2.7-0, 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.2-0
    
-   :depends genomelake: 0.1.4.*
+   :depends genomelake: >=0.1.4
    :depends gffutils: 
    :depends kipoi: >=0.5.5
    :depends kipoi-conda: 
@@ -34,6 +34,7 @@ kipoiseq
    :depends pandas: 
    :depends pybedtools: 
    :depends pyfaidx: 
+   :depends pyranges: 
    :depends python: 
    :depends tqdm: 
    :requirements:

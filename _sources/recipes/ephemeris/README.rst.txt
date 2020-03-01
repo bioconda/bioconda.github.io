@@ -22,7 +22,7 @@ ephemeris
 
    |downloads_ephemeris| |docker_ephemeris|
 
-   :versions: 0.10.4-0, 0.10.2-0, 0.10.0-0, 0.9.0-0, 0.8.0-2, 0.8.0-0
+   :versions: 0.10.5-0, 0.10.4-0, 0.10.2-0, 0.10.0-0, 0.9.0-0, 0.8.0-2, 0.8.0-0
    
    :depends bioblend: >=0.10.0
    :depends futures: 

@@ -24,7 +24,7 @@ pypairs
 
    |downloads_pypairs| |docker_pypairs|
 
-   :versions: 3.2-0, 3.1.1-0, 3.1.0-0, 3.0.9-0, 2.0.6-0, 2.0.5-0
+   :versions: 3.2.2-0, 3.2-0, 3.1.1-0, 3.1.0-0, 3.0.9-0, 2.0.6-0, 2.0.5-0
    
    :depends anndata: >=0.6.13
    :depends colorama: 
@@ -33,7 +33,7 @@ pypairs
    :depends numpy: >=1.15.4
    :depends pandas: >=0.23.4
    :depends psutil: 
-   :depends python: >3
+   :depends python: >=3
    :depends scikit-learn: 
    :depends tqdm: 
    :requirements:
