@@ -22,9 +22,8 @@ monocle3-cli
 
    |downloads_monocle3-cli| |docker_monocle3-cli|
 
-   :versions: 0.0.7-0, 0.0.6-0, 0.0.5-1, 0.0.5-0, 0.0.4-0, 0.0.3-1, 0.0.3-0
+   :versions: 0.0.7-1, 0.0.7-0, 0.0.6-0, 0.0.5-1, 0.0.5-0, 0.0.4-0, 0.0.3-1, 0.0.3-0
    
-   :depends bioconductor-singlecellexperiment: <1.8.0
    :depends r-base: >=3.6,<3.7.0a0
    :depends r-monocle3: <=0.2.0
    :depends r-optparse: 

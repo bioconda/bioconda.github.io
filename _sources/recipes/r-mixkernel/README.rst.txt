@@ -22,7 +22,7 @@ r-mixkernel
 
    |downloads_r-mixkernel| |docker_r-mixkernel|
 
-   :versions: 0.3-1, 0.3-0
+   :versions: 0.4-0, 0.3-1, 0.3-0
    
    :depends bioconductor-mixomics: 
    :depends bioconductor-phyloseq: 
@@ -33,6 +33,7 @@ r-mixkernel
    :depends r-matrix: 
    :depends r-psych: 
    :depends r-quadprog: 
+   :depends r-reticulate: >=1.14
    :depends r-vegan: 
    :requirements:
 

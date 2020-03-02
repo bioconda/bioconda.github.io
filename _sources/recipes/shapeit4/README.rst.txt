@@ -23,7 +23,7 @@ shapeit4
 
    |downloads_shapeit4| |docker_shapeit4|
 
-   :versions: 4.1-0, 4.0-0
+   :versions: 4.1.3-0, 4.1-0, 4.0-0
    
    :depends boost-cpp: >=1.70.0,<1.70.1.0a0
    :depends bzip2: >=1.0.8,<2.0a0

@@ -23,7 +23,7 @@ rsat-core
 
    |downloads_rsat-core| |docker_rsat-core|
 
-   :versions: 2020.02.28-0, 2020.01.04-0
+   :versions: 2020.02.29-0, 2020.02.28-0, 2020.01.04-0
    
    :depends bedtools: 
    :depends bioconductor-ctc: 
@@ -82,8 +82,10 @@ rsat-core
    :depends pyyaml: 
    :depends r-amap: 
    :depends r-base: >=3.6,<3.7.0a0
+   :depends r-data.table: 
    :depends r-dendextend: 
    :depends r-devtools: 
+   :depends r-dplyr: 
    :depends r-dynamictreecut: 
    :depends r-egg: 
    :depends r-flux: 
@@ -94,6 +96,7 @@ rsat-core
    :depends r-png: 
    :depends r-rcolorbrewer: 
    :depends r-reshape2: 
+   :depends r-rjsonio: 
    :depends r-zoo: 
    :depends scipy: 
    :depends seqlogo: 
