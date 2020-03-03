@@ -24,7 +24,7 @@ firecloud
 
    |downloads_firecloud| |docker_firecloud|
 
-   :versions: 0.16.25-0, 0.16.20-0
+   :versions: 0.16.26-0, 0.16.25-0, 0.16.20-0
    
    :depends google-auth: 1.4.2
    :depends libgcc-ng: >=7.3.0

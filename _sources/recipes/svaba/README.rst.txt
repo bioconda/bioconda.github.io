@@ -22,7 +22,7 @@ svaba
 
    |downloads_svaba| |docker_svaba|
 
-   :versions: 1.1.0-0
+   :versions: 1.1.0-1, 1.1.0-0
    
    :depends bzip2: >=1.0.8,<2.0a0
    :depends libgcc-ng: >=7.3.0

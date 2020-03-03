@@ -22,7 +22,7 @@ cgat-report
 
    |downloads_cgat-report| |docker_cgat-report|
 
-   :versions: 0.8.4-0, 0.8.1-0, 0.8.0-1, 0.8.0-0, 0.7.6.1-1, 0.3.7-1, 0.3.7-0
+   :versions: 0.9.0-0, 0.8.4-0, 0.8.1-0, 0.8.0-1, 0.8.0-0, 0.7.6.1-1, 0.3.7-1, 0.3.7-0
    
    :depends bokeh: 
    :depends docutils: 

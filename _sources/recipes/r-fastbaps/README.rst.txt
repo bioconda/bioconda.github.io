@@ -23,7 +23,7 @@ r-fastbaps
 
    |downloads_r-fastbaps| |docker_r-fastbaps|
 
-   :versions: 1.0.1-0
+   :versions: 1.0.2-0, 1.0.1-0
    
    :depends bioconductor-ggtree: 
    :depends r-adegenet: 
@@ -34,6 +34,7 @@ r-fastbaps
    :depends r-fastcluster: 
    :depends r-genie: 
    :depends r-ggplot2: 
+   :depends r-gplots: 
    :depends r-irlba: 
    :depends r-matrix: 
    :depends r-phytools: 
