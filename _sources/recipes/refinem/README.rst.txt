@@ -25,7 +25,7 @@ refinem
 
    |downloads_refinem| |docker_refinem|
 
-   :versions: 0.1.0-0, 0.0.25-0, 0.0.24-3, 0.0.24-2
+   :versions: 0.1.0-1, 0.1.0-0, 0.0.25-0, 0.0.24-3, 0.0.24-2
    
    :depends biolib: >=0.0.45
    :depends blast: >=2.6.0
@@ -38,7 +38,7 @@ refinem
    :depends numpy: >=1.9.0
    :depends prodigal: >=2.6.3
    :depends pysam: 
-   :depends python: <3
+   :depends python: 
    :depends scipy: >=1.0.0
    :depends weightedstats: 
    :requirements:

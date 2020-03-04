@@ -9,7 +9,9 @@ igv
 .. conda:recipe:: igv
    :replaces_section_title:
 
-   Integrative Genomics Viewer. Fast\, efficient\, scalable visualization tool for genomics data and annotations
+   Integrative Genomics Viewer. Fast\, efficient\, scalable visualization tool for genomics
+   data and annotations.
+
 
    :homepage: http://www.broadinstitute.org/software/igv/home
    :license: MIT
@@ -23,7 +25,7 @@ igv
 
    |downloads_igv| |docker_igv|
 
-   :versions: 2.5.2-0, 2.4.17-0, 2.4.16-0, 2.4.9-1, 2.4.9-0, 2.4.6-0, 2.3.98-0
+   :versions: 2.8.0-0, 2.5.2-0, 2.4.17-0, 2.4.16-0, 2.4.9-1, 2.4.9-0, 2.4.6-0, 2.3.98-0
    
    :depends openjdk: >=11
    :requirements:
