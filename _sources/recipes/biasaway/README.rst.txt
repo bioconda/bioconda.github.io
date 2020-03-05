@@ -11,7 +11,7 @@ biasaway
 
    BiasAway\: a tool to generate composition\-matched background sequences
 
-   :homepage: https://github.com/asntech/biasaway
+   :homepage: https://bitbucket.org/CBGR/biasaway
    :documentation: https://biasaway.rtfd.io
    
    :license: GPL / GPLv3
@@ -24,11 +24,12 @@ biasaway
 
    |downloads_biasaway| |docker_biasaway|
 
-   :versions: 1.0.4-0, 1.0.2-0
+   :versions: 2.0.1-0, 1.0.4-0, 1.0.2-0
    
    :depends biopython: 
    :depends numpy: <=1.16.5
    :depends python: 
+   :depends python_abi: 2.7.* *_cp27mu
    :requirements:
 
    .. rubric:: Installation

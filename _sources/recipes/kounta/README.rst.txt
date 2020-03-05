@@ -22,8 +22,9 @@ kounta
 
    |downloads_kounta| |docker_kounta|
 
-   :versions: 0.2.3-0, 0.2.0-0
+   :versions: 0.2.3-1, 0.2.3-0, 0.2.0-0
    
+   :depends coreutils: 
    :depends kmc: >=3.1
    :depends parallel: 
    :depends perl: >=5.26

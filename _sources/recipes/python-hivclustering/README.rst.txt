@@ -22,7 +22,7 @@ python-hivclustering
 
    |downloads_python-hivclustering| |docker_python-hivclustering|
 
-   :versions: 1.5.3-0, 1.4.0-0, 1.3.2-0, 1.3.1-1, 1.3.1-0, 1.3.0-0, 1.2.3-0
+   :versions: 1.5.6-0, 1.5.3-0, 1.4.0-0, 1.3.2-0, 1.3.1-1, 1.3.1-0, 1.3.0-0, 1.2.3-0
    
    :depends python: >=3
    :depends python-bioext: >=0.18.0
