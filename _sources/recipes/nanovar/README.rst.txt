@@ -22,7 +22,7 @@ nanovar
 
    |downloads_nanovar| |docker_nanovar|
 
-   :versions: 1.3.1-0, 1.3.0-0, 1.2.7-0, 1.2.6-0, 1.2.5-0, 1.2.3-0
+   :versions: 1.3.2-0, 1.3.1-0, 1.3.0-0, 1.2.7-0, 1.2.6-0, 1.2.5-0, 1.2.3-0
    
    :depends bedtools: >=2.26.0
    :depends biopython: >=1.74

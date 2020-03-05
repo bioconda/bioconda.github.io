@@ -9,7 +9,7 @@ gridss
 .. conda:recipe:: gridss
    :replaces_section_title:
 
-   GRIDSS\: a Genomic Rearrangement IDentification Software Suite
+   GRIDSS\: the Genomic Rearrangement IDentification Software Suite
 
    :homepage: https://github.com/PapenfussLab/gridss
    :license: GPL / GPL-3.0
@@ -23,10 +23,17 @@ gridss
 
    |downloads_gridss| |docker_gridss|
 
-   :versions: 2.8.0-0, 2.7.3-0, 2.7.2-0, 2.7.1-0, 2.7.0-0, 2.6.3-0, 2.6.2-0, 2.6.1-0, 2.6.0-0, 2.5.2-0, 2.5.1-0, 2.1.0-0, 2.0.1-0, 1.9.0-0, 1.8.1-0, 1.8.0-0, 1.7.2-2, 1.7.2-0, 1.3.4-0, 1.3.2-0, 1.3.0-0, 1.2.4-0
+   :versions: 2.8.0-1, 2.8.0-0, 2.7.3-0, 2.7.2-0, 2.7.1-0, 2.7.0-0, 2.6.3-0, 2.6.2-0, 2.6.1-0, 2.6.0-0, 2.5.2-0, 2.5.1-0, 2.1.0-0, 2.0.1-0, 1.9.0-0, 1.8.1-0, 1.8.0-0, 1.7.2-2, 1.7.2-0, 1.3.4-0, 1.3.2-0, 1.3.0-0, 1.2.4-0
    
+   :depends bioconductor-structuralvariantannotation: 
+   :depends bwa: >=0.7
    :depends openjdk: >=8
-   :depends python: 
+   :depends r-argparser: 
+   :depends r-base: >=3.6
+   :depends r-stringdist: 
+   :depends r-testthat: 
+   :depends r-tidyverse: 
+   :depends samtools: >=1.10
    :requirements:
 
    .. rubric:: Installation

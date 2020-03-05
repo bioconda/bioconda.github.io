@@ -22,7 +22,7 @@ treeswift
 
    |downloads_treeswift| |docker_treeswift|
 
-   :versions: 1.1.6-0, 1.1.5-0, 1.1.3-0, 1.1.0-0
+   :versions: 1.1.10-0, 1.1.6-0, 1.1.5-0, 1.1.3-0, 1.1.0-0
    
    :depends python: 
    :requirements:

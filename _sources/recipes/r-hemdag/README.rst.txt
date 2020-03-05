@@ -36,7 +36,7 @@ r-hemdag
 
    |downloads_r-hemdag| |docker_r-hemdag|
 
-   :versions: 2.6.0-0, 2.5.9-0, 2.4.8-0, 2.4.7-1, 2.4.7-0, 2.2.5-1, 2.2.5-0, 2.1.3-0, 2.1.2-0, 2.0.1-0
+   :versions: 2.6.1-0, 2.6.0-0, 2.5.9-0, 2.4.8-0, 2.4.7-1, 2.4.7-0, 2.2.5-1, 2.2.5-0, 2.1.3-0, 2.1.2-0, 2.0.1-0
    
    :depends bioconductor-graph: 
    :depends bioconductor-preprocesscore: 

@@ -14,6 +14,7 @@ isonclust
    :homepage: https://github.com/ksahlin/isONclust
    :license: GPL / GPL-3.0
    :recipe: /`isonclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isonclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isonclust/meta.yaml>`_
+   :links: doi: :doi:`10.1007/978-3-030-17083-7_14`
 
    
 
@@ -22,11 +23,11 @@ isonclust
 
    |downloads_isonclust| |docker_isonclust|
 
-   :versions: 0.0.6-0
+   :versions: 0.0.6-1, 0.0.6-0
    
    :depends parasail-python: >=1.1.11
    :depends pysam: >=0.11
-   :depends python: 
+   :depends python: >=3.4
    :requirements:
 
    .. rubric:: Installation

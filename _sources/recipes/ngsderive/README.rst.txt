@@ -22,12 +22,13 @@ ngsderive
 
    |downloads_ngsderive| |docker_ngsderive|
 
-   :versions: 1.0.1-0, 1.0.0-0
+   :versions: 1.0.2-0, 1.0.1-0, 1.0.0-0
    
    :depends colorlog: 
+   :depends poetry: 
    :depends pysam: 0.15.3.*
    :depends pytabix: 
-   :depends python: >=3,<3.8
+   :depends python: >=3.7
    :depends rstr: 2.2.6.*
    :requirements:
 

@@ -23,7 +23,7 @@ hmmratac
 
    |downloads_hmmratac| |docker_hmmratac|
 
-   :versions: 1.2.9-0, 1.2.8-0, 1.2.7-0, 1.2.6-0, 1.2.5-0
+   :versions: 1.2.10-0, 1.2.9-0, 1.2.8-0, 1.2.7-0, 1.2.6-0, 1.2.5-0
    
    :depends openjdk: 
    :depends python: 

@@ -15,7 +15,7 @@ biobb_chemistry
    :license: APACHE / Apache Software License
    :recipe: /`biobb_chemistry <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_chemistry>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_chemistry/meta.yaml>`_
 
-   \[\!\[Documentation Status\]\(https\:\/\/readthedocs.org\/projects\/biobb\-chemistry\/badge\/\?version\=latest\)\]\(https\:\/\/biobb\-chemistry.readthedocs.io\/en\/latest\/\?badge\=latest\) \[\!\[install with bioconda\]\(https\:\/\/img.shields.io\/badge\/install\%20with\-bioconda\-brightgreen.svg\?style\=flat\)\]\(http\:\/\/bioconda.github.io\/recipes\/biobb\_chemistry\/README.html\) \[\!\[Docker image\]\(https\:\/\/quay.io\/repository\/biocontainers\/biobb\_io\/status\)\]\(https\:\/\/hub.docker.com\/r\/mmbirb\/biobb\_chemistry\) \[\!\[Singularity image\]\(https\:\/\/www.singularity\-hub.org\/static\/img\/hosted\-singularity\-\-hub\-\%23e32929.svg\)\]\(https\:\/\/www.singularity\-hub.org\/collections\/2886\) \[\!\[License\]\(https\:\/\/img.shields.io\/badge\/License\-Apache\%202.0\-blue.svg\)\]\(https\:\/\/opensource.org\/licenses\/Apache\-2.0\)
+   \[\!\[Documentation Status\]\(https\:\/\/readthedocs.org\/projects\/biobb\-chemistry\/badge\/\?version\=latest\)\]\(https\:\/\/biobb\-chemistry.readthedocs.io\/en\/latest\/\?badge\=latest\) \[\!\[install with bioconda\]\(https\:\/\/img.shields.io\/badge\/install\%20with\-bioconda\-brightgreen.svg\?style\=flat\)\]\(https\:\/\/anaconda.org\/bioconda\/biobb\_chemistry\) \[\!\[Docker image\]\(https\:\/\/quay.io\/repository\/biocontainers\/biobb\_io\/status\)\]\(https\:\/\/quay.io\/repository\/biocontainers\/biobb\_chemistry\) \[\!\[Singularity image\]\(https\:\/\/www.singularity\-hub.org\/static\/img\/hosted\-singularity\-\-hub\-\%23e32929.svg\)\]\(https\:\/\/www.singularity\-hub.org\/collections\/2886\) \[\!\[License\]\(https\:\/\/img.shields.io\/badge\/License\-Apache\%202.0\-blue.svg\)\]\(https\:\/\/opensource.org\/licenses\/Apache\-2.0\)
 
    \# biobb\_chemistry
 
@@ -31,8 +31,8 @@ biobb_chemistry
    \#\#\# Copyright \& Licensing
    This software has been developed in the \[MMB group\]\(http\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(http\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
 
-   \* \(c\) 2015\-2019 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
-   \* \(c\) 2015\-2019 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
+   \* \(c\) 2015\-2020 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
+   \* \(c\) 2015\-2020 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
    Licensed under the
    \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details.
 
@@ -46,7 +46,7 @@ biobb_chemistry
 
    |downloads_biobb_chemistry| |docker_biobb_chemistry|
 
-   :versions: 2.0.1-0, 2.0.0-0, 1.0.8-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.4-0
+   :versions: 2.0.2-0, 2.0.1-0, 2.0.0-0, 1.0.8-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.4-0
    
    :depends acpype: 2019.10.05.12.26
    :depends ambertools: 19.10
