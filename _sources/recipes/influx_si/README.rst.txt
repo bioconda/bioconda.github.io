@@ -18,14 +18,16 @@ influx_si
    :license: GPL2 / GNU General Public v2 or later (GPLv2+)
    :recipe: /`influx_si <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/influx_si>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/influx_si/meta.yaml>`_
 
-   
+   To install this package from bioconda run\:
+   \`conda install \-c conda\-forge \-c bioconda influx\_si\`
+
 
 
 .. conda:package:: influx_si
 
    |downloads_influx_si| |docker_influx_si|
 
-   :versions: 5.0.2-0, 5.0.1-1, 5.0.1-0, 5.0-0
+   :versions: 5.0.3-0, 5.0.2-0, 5.0.1-1, 5.0.1-0, 5.0-0
    
    :depends python: >=3
    :depends r-arrapply: 
