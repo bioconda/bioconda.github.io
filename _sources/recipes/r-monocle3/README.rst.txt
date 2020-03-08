@@ -23,7 +23,7 @@ r-monocle3
 
    |downloads_r-monocle3| |docker_r-monocle3|
 
-   :versions: 0.2.0-1, 0.2.0-0, 0.1.3-0
+   :versions: 0.2.1-0, 0.2.0-1, 0.2.0-0, 0.1.3-0
    
    :depends bioconductor-batchelor: 
    :depends bioconductor-biobase: 
