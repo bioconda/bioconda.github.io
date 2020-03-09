@@ -23,10 +23,11 @@ ray
 
    |downloads_ray| |docker_ray|
 
-   :versions: 2.3.1-1, 2.3.1-0
+   :versions: 2.3.1-2, 2.3.1-1, 2.3.1-0
    
-   :depends libgcc-ng: >=4.9
-   :depends openmpi: >=2.0.2
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends openmpi: >=4.0.2,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

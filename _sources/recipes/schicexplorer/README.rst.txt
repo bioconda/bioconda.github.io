@@ -22,7 +22,7 @@ schicexplorer
 
    |downloads_schicexplorer| |docker_schicexplorer|
 
-   :versions: 3-0, 2-0, 1-0
+   :versions: 4-0, 3-0, 2-0, 1-0
    
    :depends cooler: >=0.8.5
    :depends hicexplorer: >=3.4.1

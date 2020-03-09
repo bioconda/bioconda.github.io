@@ -9,10 +9,12 @@ pycoqc
 .. conda:recipe:: pycoqc
    :replaces_section_title:
 
-   Python 3 package for Jupyter Notebook\, computing metrics and generating plots from Oxford Nanopore Albacore report
+   PycoQC computes metrics and generates interactive QC plots for Oxford Nanopore technologies sequencing data
 
    :homepage: https://github.com/a-slide/pycoQC
-   :license: GPL / GPL-3.0
+   :documentation: https://a-slide.github.io/pycoQC/
+   
+   :license: GPL / GNU General Public v3 (GPLv3)
    :recipe: /`pycoqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pycoqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pycoqc/meta.yaml>`_
 
    
@@ -22,19 +24,17 @@ pycoqc
 
    |downloads_pycoqc| |docker_pycoqc|
 
-   :versions: 2.5.0.3-0, 2.2.4-0, 2.2.3-2, 2.2.3-1, 1.0.alpha1-0
+   :versions: 2.5.0.21-0, 2.5.0.3-0, 2.2.4-0, 2.2.3-2, 2.2.3-1, 1.0.alpha1-0
    
-   :depends h5py: >=2.8.0
-   :depends jinja2: >=2.10
-   :depends jupyter_contrib_nbextensions: 
-   :depends jupyterthemes: 
-   :depends notebook: >=4.0.0
-   :depends numpy: >=1.13
-   :depends pandas: >=0.23
-   :depends plotly: >=3.4
-   :depends python: >=3
-   :depends scipy: >=1.1
-   :depends tqdm: >=4.23
+   :depends h5py: 2.9.0.*
+   :depends jinja2: 2.10.1.*
+   :depends numpy: 1.17.1.*
+   :depends pandas: 0.25.1.*
+   :depends plotly: 4.1.0.*
+   :depends pysam: 0.15.3.*
+   :depends python: >=3.6
+   :depends scipy: 1.3.1.*
+   :depends tqdm: 4.35.0.*
    :requirements:
 
    .. rubric:: Installation

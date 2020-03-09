@@ -22,17 +22,20 @@ gdc-client
 
    |downloads_gdc-client| |docker_gdc-client|
 
-   :versions: 1.4.0-0, 1.3.0-3, 1.3.0-1, 1.3.0-0
+   :versions: 1.5.0-0, 1.4.0-0, 1.3.0-3, 1.3.0-1, 1.3.0-0
    
-   :depends jsonschema: >=2,<3
-   :depends lxml: >=3,<4
-   :depends ndg-httpsclient: >=0.4,<1
-   :depends parcel: >=0.2,<1
-   :depends pyasn1: >=0.2,<1
-   :depends pyopenssl: >=17,<18
-   :depends python: <3
-   :depends pyyaml: >=3,<4
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends cryptography: >=2.8,<2.9
+   :depends intervaltree: >=3.0.2
+   :depends jsonschema: >=2.6
+   :depends lxml: >=4.4.2
+   :depends ndg-httpsclient: >=0.5.0,<1
+   :depends progressbar2: >=3.43.1
+   :depends pyasn1: >=0.4.3,<1
+   :depends pyopenssl: >=18,<19
+   :depends python: >=3.5
+   :depends pyyaml: >=3.13,<4
+   :depends requests: >=2.22.0
+   :depends termcolor: >=1.1.0
    :requirements:
 
    .. rubric:: Installation

@@ -27,9 +27,9 @@ transit
 
    |downloads_transit| |docker_transit|
 
-   :versions: 3.0.2-1, 3.0.2-0, 3.0.1-0, 2.5.2-0, 2.3.3-1, 2.3.3-0, 2.3.2-0, 2.3.1-0
+   :versions: 3.1.0-0, 3.0.2-1, 3.0.2-0, 3.0.1-0, 2.5.2-0, 2.3.3-1, 2.3.3-0, 2.3.2-0, 2.3.1-0
    
-   :depends matplotlib: >=3,<3.1
+   :depends matplotlib-base: >=3,<3.1
    :depends numpy: >=1.16,<1.17
    :depends pillow: >=6,<6.1
    :depends python: >=3.6
