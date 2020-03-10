@@ -22,7 +22,7 @@ flextaxd
 
    |downloads_flextaxd| |docker_flextaxd|
 
-   :versions: 0.1.5-0
+   :versions: 0.2.0-0, 0.1.5-0
    
    :depends python: >3
    :requirements:

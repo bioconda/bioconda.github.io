@@ -22,7 +22,7 @@ readucks
 
    |downloads_readucks| |docker_readucks|
 
-   :versions: 0.0.1-0
+   :versions: 0.0.2-0, 0.0.1-0
    
    :depends biopython: 
    :depends parasail-python: 
