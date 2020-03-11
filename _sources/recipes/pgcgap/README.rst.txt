@@ -24,7 +24,7 @@ pgcgap
 
    |downloads_pgcgap| |docker_pgcgap|
 
-   :versions: 1.0.12-1, 1.0.12-0, 1.0.11-1, 1.0.11-0, 1.0.10-2, 1.0.10-1, 1.0.10-0, 1.0.9-2, 1.0.9-1, 1.0.9-0, 1.0.8-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-4, 1.0.2-3, 1.0.2-2, 1.0.2-1, 1.0.1-1, 1.0.1-0, 1.0.0-0
+   :versions: 1.0.13-0, 1.0.12-1, 1.0.12-0, 1.0.11-1, 1.0.11-0, 1.0.10-2, 1.0.10-1, 1.0.10-0, 1.0.9-2, 1.0.9-1, 1.0.9-0, 1.0.8-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-4, 1.0.2-3, 1.0.2-2, 1.0.2-1, 1.0.1-1, 1.0.1-0, 1.0.0-0
    
    :depends abricate: 
    :depends abyss: >=2.1.5
@@ -37,14 +37,17 @@ pgcgap
    :depends fastani: >=1.1
    :depends fastme: >=2.1.5
    :depends fasttree: >=2.1.10
+   :depends gblocks: 
    :depends gubbins: 
    :depends htslib: >=1.9
+   :depends iqtree: 
    :depends mafft: >=7.402
    :depends mash: 
    :depends matplotlib-base: 
    :depends minced: 0.3.*
    :depends mmseqs2: >=7-4e23d
    :depends modeltest-ng: 
+   :depends muscle: 
    :depends numpy: 
    :depends openjdk: 8.*
    :depends orthofinder: >=2.3.8
@@ -55,6 +58,7 @@ pgcgap
    :depends perl-getopt-long: >=2.50
    :depends perl-parallel-forkmanager: 
    :depends perl-pod-usage: >=1.69
+   :depends perl-posix: 
    :depends prokka: >=1.13.4
    :depends r-corrplot: 
    :depends r-ggplot2: 

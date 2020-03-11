@@ -22,14 +22,14 @@ chromosight
 
    |downloads_chromosight| |docker_chromosight|
 
-   :versions: 0.6.0-0, 0.5.2-0, 0.5.1-0, 0.5.0-0, 0.4.0-0, 0.3.1-0, 0.3.0-0
+   :versions: 0.7.1-0, 0.7.0-0, 0.6.0-0, 0.5.2-0, 0.5.1-0, 0.5.0-0, 0.4.0-0, 0.3.1-0, 0.3.0-0
    
    :depends cooler: 
    :depends docopt: 
    :depends jsonschema: 
    :depends matplotlib-base: 
    :depends numpy: 
-   :depends python: 
+   :depends python: >=3.6
    :depends scikit-learn: 
    :depends scipy: >=1.3
    :requirements:

@@ -22,7 +22,7 @@ ggd
 
    |downloads_ggd| |docker_ggd|
 
-   :versions: 0.1.1-1, 0.1.1-0, 0.1.0-1, 0.1.0-0
+   :versions: 0.1.2-0, 0.1.1-1, 0.1.1-0, 0.1.0-1, 0.1.0-0
    
    :depends check-sort-order: 
    :depends conda: 4.7.12.*

@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;neurodocker&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;psass&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -98,37 +98,39 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="neurodocker">
+  <div class="section" id="psass">
 <dl class="recipe">
-<dt id="recipe-neurodocker">
-<em class="property">recipe </em><code class="sig-name descname">neurodocker</code><a class="headerlink" href="#recipe-neurodocker" title="Permalink to this definition">¶</a></dt>
-<dd><p>Neurodocker is a command-line program that generates custom Dockerfiles and Singularity recipes for neuroimaging and minifies existing containers.</p>
+<dt id="recipe-psass">
+<em class="property">recipe </em><code class="sig-name descname">psass</code><a class="headerlink" href="#recipe-psass" title="Permalink to this definition">¶</a></dt>
+<dd><p>Comparison of pooled-sequencing data for two populations</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/kaczmarj/neurodocker">https://github.com/kaczmarj/neurodocker</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/RomainFeron/PSASS">https://github.com/RomainFeron/PSASS</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>Apache / Apache-2.0</p>
+<dd class="field-even"><p>GPL3</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/neurodocker">neurodocker</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/neurodocker/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/psass">psass</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/psass/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="package">
-<dt id="package-neurodocker">
-<em class="property">package </em><code class="sig-name descname">neurodocker</code><a class="headerlink" href="#package-neurodocker" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/neurodocker"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/neurodocker.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/neurodocker"><img alt="docker_neurodocker" src="https://quay.io/repository/biocontainers/neurodocker/status" /></a></p>
+<dt id="package-psass">
+<em class="property">package </em><code class="sig-name descname">psass</code><a class="headerlink" href="#package-psass" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/psass"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/psass.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/psass"><img alt="docker_psass" src="https://quay.io/repository/biocontainers/psass/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>0.5.0-0, 0.4.3-0, 0.4.2-0, 0.4.1-0</p>
+<dd class="field-odd"><p>3.0.1b-0</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/jinja2-feedstock"><strong>jinja2</strong></a> &gt;=2.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;3.4</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pyyaml-feedstock"><strong>pyyaml</strong></a> &gt;=3.0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/bzip2-feedstock"><strong>bzip2</strong></a> &gt;=1.0.8,&lt;2.0a0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> &gt;=7.3.0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libstdcxx-ng-feedstock"><strong>libstdcxx-ng</strong></a> &gt;=7.3.0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/xz-feedstock"><strong>xz</strong></a> &gt;=5.2.4,&lt;5.3.0a0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/zlib-feedstock"><strong>zlib</strong></a> &gt;=1.2.11,&lt;1.3.0a0</p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
@@ -138,24 +140,24 @@
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">neurodocker</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">psass</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">neurodocker</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">psass</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">neurodocker</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">psass</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/neurodocker?tab=tags">neurodocker/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/psass?tab=tags">psass/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/neurodocker/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/neurodocker/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/psass/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/psass/README.html)
 </pre></div>
 </div>
 </div>
@@ -176,14 +178,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/neurodocker/README.rst.txt"
+      <a href="../../_sources/recipes/psass/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/neurodocker/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/psass/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

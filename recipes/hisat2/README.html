@@ -102,21 +102,28 @@
 <dl class="recipe">
 <dt id="recipe-hisat2">
 <em class="property">recipe </em><code class="sig-name descname">hisat2</code><a class="headerlink" href="#recipe-hisat2" title="Permalink to this definition">¶</a></dt>
-<dd><p>graph-based alignment of next generation sequencing reads to a population of genomes</p>
+<dd><p>Graph-based alignment of next generation sequencing reads to a population of genomes.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://ccb.jhu.edu/software/hisat2/index.shtml">https://ccb.jhu.edu/software/hisat2/index.shtml</a></p>
+<dd class="field-odd"><p><a class="reference external" href="http://daehwankimlab.github.io/hisat2">http://daehwankimlab.github.io/hisat2</a></p>
+</dd>
+<dt class="field-even">Documentation</dt>
+<dd class="field-even"><p><a class="reference external" href="https://daehwankimlab.github.io/hisat2/manual/">https://daehwankimlab.github.io/hisat2/manual/</a></p>
+</dd>
+<dt class="field-odd">Developer docs</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/DaehwanKimLab/hisat2">https://github.com/DaehwanKimLab/hisat2</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>GPLv3</p>
+<dd class="field-even"><p>GPL / GPL-3.0</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hisat2">hisat2</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hisat2/meta.yaml">meta.yaml</a></p>
 </dd>
 <dt class="field-even">Links</dt>
-<dd class="field-even"><p>biotools: <a class="reference external" href="https://bio.tools/HISAT2">HISAT2</a>, doi: <a class="reference external" href="https://doi.org/10.1038/nmeth.3317">10.1038/nmeth.3317</a></p>
+<dd class="field-even"><p>biotools: <a class="reference external" href="https://bio.tools/HISAT2">HISAT2</a>, doi: <a class="reference external" href="https://doi.org/10.1038/nmeth.3317">10.1038/nmeth.3317</a>, doi: <a class="reference external" href="https://doi.org/10.1038/s41587-019-0201-4">10.1038/s41587-019-0201-4</a></p>
 </dd>
 </dl>
+<p>HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (both DNA and RNA) to a population of human genomes as well as to a single reference genome.</p>
 </dd></dl>
 
 <dl class="package">
@@ -125,7 +132,7 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/hisat2"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/hisat2.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/hisat2"><img alt="docker_hisat2" src="https://quay.io/repository/biocontainers/hisat2/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>2.1.0-4, 2.1.0-3, 2.1.0-2, 2.1.0-1, 2.1.0-0, 2.0.5-2, 2.0.5-1, 2.0.4-1, 2.0.4-0, 2.0.3beta-0, 2.0.2beta-0, 2.0.1beta-0, 2.0.0beta-0</p>
+<dd class="field-odd"><p>2.2.0-0, 2.1.0-4, 2.1.0-3, 2.1.0-2, 2.1.0-1, 2.1.0-0, 2.0.5-2, 2.0.5-1, 2.0.4-1, 2.0.4-0, 2.0.3beta-0, 2.0.2beta-0, 2.0.1beta-0, 2.0.0beta-0</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
@@ -133,13 +140,14 @@
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libstdcxx-ng-feedstock"><strong>libstdcxx-ng</strong></a> &gt;=7.3.0</p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=2.7,&lt;2.8.0a0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python_abi-feedstock"><strong>python_abi</strong></a> 2.7.* <a href="#id2"><span class="problematic" id="id3">*</span></a>_cp27mu</p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../piret/README.html#piret"><strong class="xref backref">piret</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bismark/README.html#bismark"><strong class="xref backref">bismark</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../funannotate/README.html#funannotate"><strong class="xref backref">funannotate</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bismark/README.html#bismark"><strong class="xref backref">bismark</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../piret/README.html#piret"><strong class="xref backref">piret</strong></a></p></li>
 </ul>
 </dd>
 </dl>
