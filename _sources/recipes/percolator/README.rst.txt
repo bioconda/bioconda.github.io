@@ -23,7 +23,7 @@ percolator
 
    |downloads_percolator| |docker_percolator|
 
-   :versions: 3.4-0, 3.1-4, 3.1-3, 3.1-2, 3.0-1, 3.0-0
+   :versions: 3.4-1, 3.4-0, 3.1-4, 3.1-3, 3.1-2, 3.0-1, 3.0-0
    
    :depends bzip2: >=1.0.8,<2.0a0
    :depends libgcc-ng: >=7.3.0

@@ -25,7 +25,7 @@ refinem
 
    |downloads_refinem| |docker_refinem|
 
-   :versions: 0.1.0-1, 0.1.0-0, 0.0.25-0, 0.0.24-3, 0.0.24-2
+   :versions: 0.1.1-0, 0.1.0-1, 0.1.0-0, 0.0.25-0, 0.0.24-3, 0.0.24-2
    
    :depends biolib: >=0.0.45
    :depends blast: >=2.6.0

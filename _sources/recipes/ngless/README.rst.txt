@@ -9,11 +9,12 @@ ngless
 .. conda:recipe:: ngless
    :replaces_section_title:
 
-   A tool for metagenomics processing with a focus on metagenomics
+   A tool for short\-read processing with a focus on metagenomics
 
    :homepage: https://ngless.embl.de
    :license: MIT
    :recipe: /`ngless <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngless>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngless/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s40168-019-0684-8`
 
    
 

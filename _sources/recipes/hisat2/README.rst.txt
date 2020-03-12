@@ -64,6 +64,10 @@ hisat2
 
 
 
+Notes
+-----
+Pre\-built indices for HISAT2 can be downloaded from https\:\/\/daehwankimlab.github.io\/hisat2\/download\/.
+
 
 Link to this page
 -----------------

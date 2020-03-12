@@ -22,7 +22,7 @@ bioservices
 
    |downloads_bioservices| |docker_bioservices|
 
-   :versions: 1.7.3-0, 1.7.2-0, 1.7.1-0, 1.6.0-1, 1.6.0-0, 1.5.2-1, 1.5.2-0, 1.5.1-0, 1.4.17-0, 1.4.16-1, 1.4.10-1, 1.4.7-0, 1.4.5-0
+   :versions: 1.7.4-0, 1.7.3-0, 1.7.2-0, 1.7.1-0, 1.6.0-1, 1.6.0-0, 1.5.2-1, 1.5.2-0, 1.5.1-0, 1.4.17-0, 1.4.16-1, 1.4.10-1, 1.4.7-0, 1.4.5-0
    
    :depends appdirs: 
    :depends beautifulsoup4: 
@@ -31,7 +31,6 @@ bioservices
    :depends numpydoc: 
    :depends pandas: 
    :depends python: 
-   :depends python_abi: 2.7.* *_cp27mu
    :depends requests: 
    :depends requests-cache: 
    :depends suds-jurko: 

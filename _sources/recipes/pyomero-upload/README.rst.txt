@@ -22,18 +22,19 @@ pyomero-upload
 
    |downloads_pyomero-upload| |docker_pyomero-upload|
 
-   :versions: 1.1.0-0, 1.0.0-3, 1.0.0-2, 1.0.0-1, 1.0.0-0
+   :versions: 5.4.10_1.2.0-0, 1.1.0-0, 1.0.0-3, 1.0.0-2, 1.0.0-1, 1.0.0-0
    
-   :depends enum34: 1.1.6.*
-   :depends filetype: 1.0.5.*
-   :depends numpy: 1.16.5.*
-   :depends pandas: 0.24.2.*
-   :depends pillow: 6.2.1.*
+   :depends enum34: 
+   :depends filetype: 
+   :depends future: 
+   :depends numpy: 
+   :depends pandas: 
+   :depends pillow: 
    :depends python: <3
    :depends python-omero: 5.4.10.*
-   :depends pyyaml: 5.1.*
-   :depends requests: 2.22.0.*
-   :depends scipy: 1.2.1.*
+   :depends pyyaml: 
+   :depends requests: 
+   :depends scipy: 
    :depends zeroc-ice: 3.6.*
    :requirements:
 
