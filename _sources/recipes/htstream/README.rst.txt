@@ -9,9 +9,9 @@ htstream
 .. conda:recipe:: htstream
    :replaces_section_title:
 
-   HTStream is a fast\, quality control pipeline for Hight Throughput Sequencing data.
-   The difference between HTStream and other pipelines is that HTStreams uses a tab delimited fastq format which allows for streaming from application to application.
-   This streaming creates some awesome efficiencies when processing HTS data.
+   HTStream is a quality control and processing pipeline for High Throughput Sequencing data.
+   The difference between HTStream and other tools is that HTStream uses a tab delimited fastq format that allows for streaming from application to application.
+   This streaming creates some awesome efficiencies when processing HTS data and makes it fully interoperable with other standard Linux tools. 
 
    :homepage: https://ibest.github.io/HTStream
    :license: Apache / Apache 2.0
@@ -24,7 +24,7 @@ htstream
 
    |downloads_htstream| |docker_htstream|
 
-   :versions: 1.1.0-0, 1.0.0-0
+   :versions: 1.2.0-0, 1.1.0-0, 1.0.0-0
    
    :depends boost: >=1.70.0,<1.70.1.0a0
    :depends bzip2: >=1.0.8,<2.0a0

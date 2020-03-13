@@ -25,13 +25,13 @@ ganon
 
    |downloads_ganon| |docker_ganon|
 
-   :versions: 0.2.0-0, 0.1.5-1, 0.1.5-0, 0.1.4-0, 0.1.3-1, 0.1.3-0, 0.1.2-0
+   :versions: 0.2.1-0, 0.2.0-0, 0.1.5-1, 0.1.5-0, 0.1.4-0, 0.1.3-1, 0.1.3-0, 0.1.2-0
    
    :depends coreutils: 
    :depends gawk: 
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends pandas: 
+   :depends pandas: >=1.0.0
    :depends python: >=3.4
    :depends taxsbp: 0.1.2
    :depends zlib: >=1.2.11,<1.3.0a0

@@ -22,7 +22,7 @@ gcluster
 
    |downloads_gcluster| |docker_gcluster|
 
-   :versions: 2.0.4-0, 2.0.3-0, 2.0.2-0, 2.0.1-1, 2.0.1-0
+   :versions: 2.0.5-0, 2.0.4-0, 2.0.3-0, 2.0.2-0, 2.0.1-1, 2.0.1-0
    
    :depends blast: 
    :depends mcl: 
