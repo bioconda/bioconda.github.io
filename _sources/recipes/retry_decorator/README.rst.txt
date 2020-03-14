@@ -22,7 +22,7 @@ retry_decorator
 
    |downloads_retry_decorator| |docker_retry_decorator|
 
-   :versions: 1.1.0-1, 1.1.0-0
+   :versions: 1.1.1-0, 1.1.0-1, 1.1.0-0
    
    :depends python: 
    :requirements:

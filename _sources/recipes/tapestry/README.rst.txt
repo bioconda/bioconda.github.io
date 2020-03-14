@@ -22,20 +22,18 @@ tapestry
 
    |downloads_tapestry| |docker_tapestry|
 
-   :versions: 0.9.3-1, 0.9.3-0, 0.9.2-0, 0.9.1-0
+   :versions: 1.0.0-0, 0.9.3-1, 0.9.3-0, 0.9.2-0, 0.9.1-0
    
    :depends biopython: 
    :depends intervaltree: 
    :depends jinja2: 
    :depends minimap2: 
-   :depends networkx: 
    :depends numpy: 
    :depends pandas: 
    :depends plumbum: 
    :depends pysam: 
    :depends python: >=3
    :depends samtools: 
-   :depends scikit-learn: >=0.20
    :depends sqlalchemy: 
    :depends tqdm: 
    :requirements:

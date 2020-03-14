@@ -22,7 +22,7 @@ star-fusion
 
    |downloads_star-fusion| |docker_star-fusion|
 
-   :versions: 1.8.1-1, 1.8.1-0, 1.7.0-1, 1.7.0-0, 1.6.0-1, 1.6.0-0, 1.5.0-0, 1.4.0-2, 1.4.0-1, 1.4.0-0, 1.3.2-2, 1.3.2-1, 1.3.2-0, 1.2.0-0, 1.1.0-0, 1.0.0-0, 0.7.0-1, 0.7.0-0, 0.5.4-2, 0.5.4-1, 0.5.4-0, 0.5.3-0, 0.4.0-0
+   :versions: 1.8.1-2, 1.8.1-1, 1.8.1-0, 1.7.0-1, 1.7.0-0, 1.6.0-1, 1.6.0-0, 1.5.0-0, 1.4.0-2, 1.4.0-1, 1.4.0-0, 1.3.2-2, 1.3.2-1, 1.3.2-0, 1.2.0-0, 1.1.0-0, 1.0.0-0, 0.7.0-1, 0.7.0-0, 0.5.4-2, 0.5.4-1, 0.5.4-0, 0.5.3-0, 0.4.0-0
    
    :depends bbmap: 
    :depends blast: 
@@ -39,6 +39,7 @@ star-fusion
    :depends perl-set-intervaltree: 
    :depends perl-uri: 
    :depends python: 3.7.4
+   :depends samtools: <1.10
    :depends star: 2.7.2b
    :depends trinity: 2.8.5
    :requirements:
