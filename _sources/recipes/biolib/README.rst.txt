@@ -9,7 +9,7 @@ biolib
 .. conda:recipe:: biolib
    :replaces_section_title:
 
-   Package for common tasks in bioinformatic.
+   Package for common tasks in bioinformatics.
 
    :homepage: http://pypi.python.org/pypi/biolib/
    :license: GPL3 / GPL3
@@ -22,10 +22,10 @@ biolib
 
    |downloads_biolib| |docker_biolib|
 
-   :versions: 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.52-0, 0.0.51-0, 0.0.46-1, 0.0.46-0
+   :versions: 0.1.2-1, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.52-0, 0.0.51-0, 0.0.46-1, 0.0.46-0
    
    :depends future: >=0.16.0
-   :depends python: 
+   :depends python: >=3.6
    :requirements:
 
    .. rubric:: Installation

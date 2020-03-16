@@ -11,8 +11,8 @@ transabyss
 
    de novo assembly of RNA\-Seq data using ABySS
 
-   :homepage: http://www.bcgsc.ca/platform/bioinfo/software/trans-abyss
-   :license: GPL
+   :homepage: https://github.com/bcgsc/transabyss
+   :license: GPL-3.0
    :recipe: /`transabyss <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transabyss>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transabyss/meta.yaml>`_
 
    
@@ -22,14 +22,13 @@ transabyss
 
    |downloads_transabyss| |docker_transabyss|
 
-   :versions: 2.0.1-5, 2.0.1-4, 2.0.1-3, 1.5.5-3, 1.5.5-2, 1.5.5-1, 1.5.4-1, 1.5.4-0
+   :versions: 2.0.1-6, 2.0.1-5, 2.0.1-4, 2.0.1-3, 1.5.5-3, 1.5.5-2, 1.5.5-1, 1.5.4-1, 1.5.4-0
    
    :depends abyss: 2.0.*
    :depends blat: 
-   :depends bowtie2: 
-   :depends python: <3
+   :depends python: 
    :depends python-igraph: 0.7.*
-   :depends samtools: 1.3.1.*
+   :depends samtools: 
    :requirements:
 
    .. rubric:: Installation

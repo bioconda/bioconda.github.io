@@ -22,15 +22,15 @@ phylorank
 
    |downloads_phylorank| |docker_phylorank|
 
-   :versions: 0.0.43-0
+   :versions: 0.1.0-0, 0.0.43-0
    
-   :depends biolib: >=0.0.46,<0.1.0
+   :depends biolib: >=0.1.0
    :depends dendropy: >=4.1.0
    :depends jinja2: >=2.7.3
    :depends matplotlib-base: 
    :depends mpld3: >=0.2
    :depends numpy: 
-   :depends python: >=2.7,<3
+   :depends python: >=3.6
    :depends scipy: 
    :requirements:
 

@@ -22,7 +22,7 @@ circle-map
 
    |downloads_circle-map| |docker_circle-map|
 
-   :versions: 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.0.4-0
+   :versions: 1.1.4-0, 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.0.4-0
    
    :depends biopython: >=1.73
    :depends edlib: >=1.2.3
