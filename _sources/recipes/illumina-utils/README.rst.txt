@@ -22,7 +22,7 @@ illumina-utils
 
    |downloads_illumina-utils| |docker_illumina-utils|
 
-   :versions: 2.6-0, 2.5-0, 2.4.1-0
+   :versions: 2.7-0, 2.6-0, 2.5-0, 2.4.1-0
    
    :depends matplotlib: 
    :depends numpy: 
