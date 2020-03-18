@@ -22,16 +22,16 @@ arriba
 
    |downloads_arriba| |docker_arriba|
 
-   :versions: 1.2.0-0, 1.1.0-1, 1.1.0-0, 1.0.1-0
+   :versions: 1.2.0-1, 1.2.0-0, 1.1.0-1, 1.1.0-0, 1.0.1-0
    
    :depends bioconductor-genomicalignments: 
    :depends bioconductor-genomicranges: 
    :depends bzip2: >=1.0.8,<2.0a0
-   :depends htslib: >=1.10.2,<1.11.0a0
-   :depends libdeflate: >=1.3,<1.4.0a0
+   :depends htslib: >=1.9,<1.10.0a0
+   :depends libdeflate: >=1.5,<1.6.0a0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends r: >=3.3.0
+   :depends r-base: >=3.3.0
    :depends r-circlize: 
    :depends samtools: >=1.0
    :depends star: >=2.5.3a

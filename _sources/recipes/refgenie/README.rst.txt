@@ -22,7 +22,7 @@ refgenie
 
    |downloads_refgenie| |docker_refgenie|
 
-   :versions: 0.8.2-0, 0.8.1-0, 0.8.0-0, 0.7.2-0
+   :versions: 0.9.0-0, 0.8.2-0, 0.8.1-0, 0.8.0-0, 0.7.2-0
    
    :depends logmuse: >=0.2
    :depends piper: >=0.12.1

@@ -24,7 +24,7 @@ kcalign
 
    |downloads_kcalign| |docker_kcalign|
 
-   :versions: 0.5.3-0, 0.5.2-0, 0.5-0
+   :versions: 0.5.4-0, 0.5.3-0, 0.5.2-0, 0.5-0
    
    :depends biopython: 
    :depends python: >=3.6

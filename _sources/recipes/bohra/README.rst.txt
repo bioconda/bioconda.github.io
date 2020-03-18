@@ -22,7 +22,7 @@ bohra
 
    |downloads_bohra| |docker_bohra|
 
-   :versions: 1.2.10-0, 1.2.9-0, 1.2.6-0, 1.2.4-0, 1.2.3-0, 1.2.1-0, 1.1.8-0, 1.1.7-0, 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.1.0-0, 1.0.27-0, 1.0.26-0, 1.0.25-0, 1.0.24-0, 1.0.23-0, 1.0.22-0, 1.0.20-1, 1.0.20-0, 1.0.19-0
+   :versions: 1.2.10-1, 1.2.10-0, 1.2.9-0, 1.2.6-0, 1.2.4-0, 1.2.3-0, 1.2.1-0, 1.1.8-0, 1.1.7-0, 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.1.0-0, 1.0.27-0, 1.0.26-0, 1.0.25-0, 1.0.24-0, 1.0.23-0, 1.0.22-0, 1.0.20-1, 1.0.20-0, 1.0.19-0
    
    :depends abricate: >=0.9.9
    :depends abritamr: 
@@ -45,8 +45,8 @@ bohra
    :depends sh: 
    :depends shovill: >=1.0.9
    :depends snakemake: >=5.10
-   :depends snippy: >=4.5.1
-   :depends snp-dists: >=0.7
+   :depends snippy: 4.4.5
+   :depends snp-dists: 0.6.3
    :depends svgwrite: 
    :depends toml: 
    :requirements:
