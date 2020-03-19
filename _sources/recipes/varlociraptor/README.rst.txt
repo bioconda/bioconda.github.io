@@ -22,7 +22,7 @@ varlociraptor
 
    |downloads_varlociraptor| |docker_varlociraptor|
 
-   :versions: 1.6.1-0, 1.6.0-0, 1.5.0-0, 1.4.4-0, 1.4.3-0, 1.4.2-0, 1.4.1-0, 1.4.0-0, 1.3.1-0, 1.3.0-0, 1.2.1-0, 1.2.0-0, 1.1.1-1, 1.1.1-0, 1.1.0-0, 1.0.1-0
+   :versions: 1.6.4-0, 1.6.3-0, 1.6.1-0, 1.6.0-0, 1.5.0-0, 1.4.4-0, 1.4.3-0, 1.4.2-0, 1.4.1-0, 1.4.0-0, 1.3.1-0, 1.3.0-0, 1.2.1-0, 1.2.0-0, 1.1.1-1, 1.1.1-0, 1.1.0-0, 1.0.1-0
    
    :depends blis: 
    :depends bzip2: >=1.0.8,<2.0a0
@@ -31,6 +31,7 @@ varlociraptor
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends openblas: >=0.3.6,<0.3.7.0a0
+   :depends openssl: >=1.1.1a,<1.1.2a
    :depends xz: >=5.2.4,<5.3.0a0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:

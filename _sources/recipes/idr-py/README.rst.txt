@@ -31,8 +31,8 @@ idr-py
    Requirements
    \=\=\=\=\=\=\=\=\=\=\=\=
 
-    \* OMERO.py 5.3.x
-    \* Python 2.6\+
+    \* OMERO.py 5.6.x
+    \* Python 3
 
    Installing from PyPI
    \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
@@ -55,14 +55,14 @@ idr-py
    Copyright
    \-\-\-\-\-\-\-\-\-
 
-   2017\, The Open Microscopy Environment
+   2017\-2020\, The Open Microscopy Environment
 
 
 .. conda:package:: idr-py
 
    |downloads_idr-py| |docker_idr-py|
 
-   :versions: 0.4.0.dev3-0, 0.3.0-1, 0.3.0-0, 0.2.1-0, 0.2.0-0
+   :versions: 0.4.0-0, 0.4.0.dev3-0, 0.3.0-1, 0.3.0-0, 0.2.1-0, 0.2.0-0
    
    :depends ipython: 
    :depends ipywidgets: 

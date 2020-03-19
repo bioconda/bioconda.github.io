@@ -22,7 +22,7 @@ magpurify
 
    |downloads_magpurify| |docker_magpurify|
 
-   :versions: 2.1.1-0, 2.1.0-0, 2.0.1-0, 1.0-2, 1.0-1
+   :versions: 2.1.2-0, 2.1.1-0, 2.1.0-0, 2.0.1-0, 1.0-2, 1.0-1
    
    :depends biopython: 
    :depends blast: 
@@ -34,6 +34,7 @@ magpurify
    :depends pandas: 
    :depends prodigal: 
    :depends python: >=3.8,<3.9.0a0
+   :depends python_abi: 3.8.* *_cp38
    :depends scikit-learn: 
    :requirements:
 
