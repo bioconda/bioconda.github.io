@@ -24,14 +24,15 @@ macrel
 
    |downloads_macrel| |docker_macrel|
 
-   :versions: 0.3.1-1, 0.3.1-0, 0.2-0
+   :versions: 0.4.0-0, 0.3.1-1, 0.3.1-0, 0.2-0
    
    :depends libgcc-ng: >=7.3.0
    :depends megahit: 
    :depends ngless: 
    :depends paladin: 
    :depends pandas: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3.8,<3.9.0a0
+   :depends python_abi: 3.8.* *_cp38
    :depends r-base: 
    :depends r-essentials: 
    :depends r-peptides: 

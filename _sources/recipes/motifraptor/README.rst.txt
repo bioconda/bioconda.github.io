@@ -22,7 +22,7 @@ motifraptor
 
    |downloads_motifraptor| |docker_motifraptor|
 
-   :versions: 0.2.3-1, 0.2.3-0
+   :versions: 0.2.4-0, 0.2.3-1, 0.2.3-0
    
    :depends libgcc-ng: >=7.3.0
    :depends matplotlib: 
@@ -31,6 +31,7 @@ motifraptor
    :depends pybedtools: 
    :depends pybigwig: 
    :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :depends scipy: 
    :depends seaborn: 0.9.0.*
    :depends twobitreader: 
