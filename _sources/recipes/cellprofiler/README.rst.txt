@@ -23,11 +23,12 @@ cellprofiler
 
    |downloads_cellprofiler| |docker_cellprofiler|
 
-   :versions: 3.1.9-0
+   :versions: 3.1.9-1, 3.1.9-0
    
    :depends boto3: 
    :depends centrosome: 
    :depends docutils: 
+   :depends future: 
    :depends h5py: >=2.10
    :depends inflect: 
    :depends javabridge: 

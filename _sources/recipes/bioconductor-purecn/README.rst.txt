@@ -23,7 +23,7 @@ bioconductor-purecn
 
    |downloads_bioconductor-purecn| |docker_bioconductor-purecn|
 
-   :versions: 1.16.0-1, 1.16.0-0, 1.14.2-0, 1.14.0-0, 1.13.1-2, 1.12.1-0, 1.11.20-2, 1.11.20-1, 1.11.13-1, 1.11.13-0, 1.8.0-0, 1.6.3-0
+   :versions: 1.16.0-2, 1.16.0-1, 1.16.0-0, 1.14.2-0, 1.14.0-0, 1.13.1-2, 1.12.1-0, 1.11.20-2, 1.11.20-1, 1.11.13-1, 1.11.13-0, 1.8.0-0, 1.6.3-0
    
    :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
    :depends bioconductor-biostrings: >=2.54.0,<2.55.0
@@ -44,6 +44,7 @@ bioconductor-purecn
    :depends r-ggplot2: 
    :depends r-gridextra: 
    :depends r-matrix: 
+   :depends r-optparse: 
    :depends r-rcolorbrewer: 
    :depends r-vgam: 
    :requirements:
