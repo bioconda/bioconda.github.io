@@ -22,7 +22,7 @@ isoncorrect
 
    |downloads_isoncorrect| |docker_isoncorrect|
 
-   :versions: 0.0.4-0
+   :versions: 0.0.5-0, 0.0.4-0
    
    :depends numpy: >=1.16.2
    :depends python: >=3
