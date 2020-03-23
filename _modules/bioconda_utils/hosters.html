@@ -153,7 +153,7 @@
         <span class="s2">&quot;inner replace&quot;</span>
         <span class="n">name</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="n">match</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
         <span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">seen</span><span class="p">:</span>
-            <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;(?P=</span><span class="si">{name}</span><span class="s2">)&quot;</span>
+            <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;(?P=</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">)&quot;</span>
         <span class="n">seen</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">match</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">RE_CAPGROUP</span><span class="p">,</span> <span class="n">replace</span><span class="p">,</span> <span class="n">pattern</span><span class="p">)</span></div>
@@ -797,7 +797,7 @@
     <span class="n">releases_formats</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;https://gitlab.com/</span><span class="si">{account}{subgroup}</span><span class="s2">/</span><span class="si">{project}</span><span class="s2">/tags&quot;</span><span class="p">]</span></div>
 
 
-<span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Hosters loaded: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="p">[</span><span class="n">h</span><span class="o">.</span><span class="vm">__name__</span> <span class="k">for</span> <span class="n">h</span> <span class="ow">in</span> <span class="n">HosterMeta</span><span class="o">.</span><span class="n">hoster_types</span><span class="p">])</span>
+<span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Hosters loaded: %s&quot;</span><span class="p">,</span> <span class="p">[</span><span class="n">h</span><span class="o">.</span><span class="vm">__name__</span> <span class="k">for</span> <span class="n">h</span> <span class="ow">in</span> <span class="n">HosterMeta</span><span class="o">.</span><span class="n">hoster_types</span><span class="p">])</span>
 </pre></div>
 
           </div>

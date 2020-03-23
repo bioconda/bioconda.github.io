@@ -22,7 +22,7 @@ peddy
 
    |downloads_peddy| |docker_peddy|
 
-   :versions: 0.4.4-0, 0.4.3-1, 0.4.3-0, 0.4.2-0, 0.4.1-1, 0.4.1-0, 0.3.6a-0, 0.3.1-0, 0.2.9-0, 0.2.5-0, 0.2.2-0, 0.2.0-0, 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.0.4-0
+   :versions: 0.4.5-0, 0.4.4-0, 0.4.3-1, 0.4.3-0, 0.4.2-0, 0.4.1-1, 0.4.1-0, 0.3.6a-0, 0.3.1-0, 0.2.9-0, 0.2.5-0, 0.2.2-0, 0.2.0-0, 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.0.4-0
    
    :depends click: 
    :depends coloredlogs: 
@@ -32,7 +32,6 @@ peddy
    :depends numpy: 
    :depends pandas: 
    :depends python: 
-   :depends python_abi: 2.7.* *_cp27mu
    :depends scikit-learn: 
    :depends seaborn: 
    :depends toolshed: 
