@@ -22,7 +22,7 @@ xpressplot
 
    |downloads_xpressplot| |docker_xpressplot|
 
-   :versions: 0.2.3-0, 0.2.2-0, 0.0.8b0-0, 0.0.5b0-0
+   :versions: 0.2.5-0, 0.2.3-0, 0.2.2-0, 0.0.8b0-0, 0.0.5b0-0
    
    :depends matplotlib: 
    :depends numpy: 

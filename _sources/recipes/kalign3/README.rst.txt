@@ -12,7 +12,7 @@ kalign3
    Kalign is a fast and accurate multiple sequence alignment algorithm.
 
    :homepage: https://github.com/TimoLassmann/kalign
-   :license: GPLv2
+   :license: GPL2
    :recipe: /`kalign3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kalign3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kalign3/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/btz795`
 
@@ -23,7 +23,7 @@ kalign3
 
    |downloads_kalign3| |docker_kalign3|
 
-   :versions: 3.2.2-0
+   :versions: 3.2.2-1, 3.2.2-0
    
    :depends libgcc-ng: >=7.3.0
    :requirements:

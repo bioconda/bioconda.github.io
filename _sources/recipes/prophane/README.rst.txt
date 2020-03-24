@@ -22,7 +22,7 @@ prophane
 
    |downloads_prophane| |docker_prophane|
 
-   :versions: 4.0.3-0, 4.0.2-0
+   :versions: 4.0.5-0, 4.0.3-0, 4.0.2-0
    
    :depends biopython: 
    :depends gitpython: 

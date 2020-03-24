@@ -22,7 +22,7 @@ hicmatrix
 
    |downloads_hicmatrix| |docker_hicmatrix|
 
-   :versions: 11-0, 10-1, 10-0, 9-0, 8-0, 7-0, 6-1, 6-0, 5-0, 4-0, 3-0, 2.2-1, 2.2-0
+   :versions: 12-0, 11-0, 10-1, 10-0, 9-0, 8-0, 7-0, 6-1, 6-0, 5-0, 4-0, 3-0, 2.2-1, 2.2-0
    
    :depends cooler: 0.8.5.*
    :depends intervaltree: 
