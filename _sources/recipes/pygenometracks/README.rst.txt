@@ -22,17 +22,18 @@ pygenometracks
 
    |downloads_pygenometracks| |docker_pygenometracks|
 
-   :versions: 3.2.1-0, 3.2-0, 3.1.2-1, 3.1.2-0, 3.1.1-0, 3.1-0, 3.0-0, 2.1-2, 2.1-1, 2.1-0, 2.0-2, 2.0-1, 2.0-0, 1.0-0, 0.1-0
+   :versions: 3.3-1, 3.3-0, 3.2.1-0, 3.2-0, 3.1.2-1, 3.1.2-0, 3.1.1-0, 3.1-0, 3.0-0, 2.1-2, 2.1-1, 2.1-0, 2.0-2, 2.0-1, 2.0-0, 1.0-0, 0.1-0
    
    :depends future: >=0.17.0
    :depends gffutils: >=0.9
-   :depends hicmatrix: >=9
+   :depends hicmatrix: >=12
    :depends intervaltree: >=2.1.0
-   :depends matplotlib: >=3.0
+   :depends matplotlib-base: 3.1.1.*
    :depends numpy: >=1.16
-   :depends pybigwig: >=0.3.4
+   :depends pybigwig: >=0.3.16
    :depends pysam: >=0.14
    :depends python: >=3.6
+   :depends tqdm: >=4.20
    :requirements:
 
    .. rubric:: Installation

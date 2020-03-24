@@ -24,7 +24,7 @@ pomoxis
 
    |downloads_pomoxis| |docker_pomoxis|
 
-   :versions: 0.3.2-0, 0.3.1-1, 0.3.1-0, 0.3.0-0, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0
+   :versions: 0.3.2-1, 0.3.2-0, 0.3.1-1, 0.3.1-0, 0.3.0-0, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0
    
    :depends bcftools: >=1.9
    :depends bedtools: >=2.29.0
@@ -32,7 +32,7 @@ pomoxis
    :depends fast5-research: 
    :depends intervaltree: >=3
    :depends mappy: >=2.17
-   :depends matplotlib: >=3.0.3
+   :depends matplotlib-base: >=3.2.1
    :depends miniasm: >=0.3_r179
    :depends minimap2: >=2.17
    :depends numpy: >=1.16.1

@@ -26,7 +26,7 @@ mpa-server
 
    |downloads_mpa-server| |docker_mpa-server|
 
-   :versions: 3.3-1, 3.3-0
+   :versions: 3.4-0, 3.3-1, 3.3-0
    
    :depends mysql: 
    :depends openjdk: >=8

@@ -24,7 +24,7 @@ synapseclient
 
    |downloads_synapseclient| |docker_synapseclient|
 
-   :versions: 1.9.4-0, 1.9.3-0, 1.7.5-1, 1.7.5-0, 1.7.1-0, 1.6.2-0, 1.5-0
+   :versions: 2.0.0-0, 1.9.4-0, 1.9.3-0, 1.7.5-1, 1.7.5-0, 1.7.1-0, 1.6.2-0, 1.5-0
    
    :depends backports.csv: 
    :depends deprecated: >=1.2.3
