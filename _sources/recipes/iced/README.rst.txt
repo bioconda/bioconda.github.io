@@ -22,14 +22,15 @@ iced
 
    |downloads_iced| |docker_iced|
 
-   :versions: 0.5.2-0, 0.5.0-0, 0.4.2-0
+   :versions: 0.5.4-0, 0.5.2-0, 0.5.0-0, 0.4.2-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: >=1.14.6,<2.0a0
    :depends pandas: 
    :depends python: >=2.7,<2.8.0a0
+   :depends python_abi: 2.7.* *_cp27mu
    :depends scikit-learn: 
    :depends scipy: >=0.13.3
    :requirements:

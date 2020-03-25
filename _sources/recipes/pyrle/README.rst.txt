@@ -22,13 +22,14 @@ pyrle
 
    |downloads_pyrle| |docker_pyrle|
 
-   :versions: 0.0.30-0, 0.0.29-0, 0.0.28-0, 0.0.27-0, 0.0.26-0, 0.0.25-0, 0.0.24-1, 0.0.24-0, 0.0.23-0
+   :versions: 0.0.31-0, 0.0.30-0, 0.0.29-0, 0.0.28-0, 0.0.27-0, 0.0.26-0, 0.0.25-0, 0.0.24-1, 0.0.24-0, 0.0.23-0
    
    :depends libgcc-ng: >=7.3.0
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 
    :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :depends tabulate: 
    :requirements:
 
