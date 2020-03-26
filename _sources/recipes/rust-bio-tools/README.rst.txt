@@ -9,7 +9,7 @@ rust-bio-tools
 .. conda:recipe:: rust-bio-tools
    :replaces_section_title:
 
-   A growing collection of fast and secure command line utililities for dealing with NGS data
+   A growing collection of fast and secure command line utilities for dealing with NGS data
    implemented on top of Rust\-Bio.
 
    :homepage: https://github.com/rust-bio/rust-bio-tools
@@ -23,7 +23,7 @@ rust-bio-tools
 
    |downloads_rust-bio-tools| |docker_rust-bio-tools|
 
-   :versions: 0.9.2-0, 0.9.1-0, 0.9.0-0, 0.8.2-0, 0.8.1-0, 0.8.0-1, 0.8.0-0, 0.6.0-0, 0.5.0-0, 0.4.1-0, 0.4.0-0, 0.3.0-0, 0.2.9-0, 0.2.8-0, 0.2.7-0, 0.2.6-1, 0.2.5-1, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.1.3-0, 0.1.2-0, 0.1.1-0
+   :versions: 0.9.2-1, 0.9.2-0, 0.9.1-0, 0.9.0-0, 0.8.2-0, 0.8.1-0, 0.8.0-1, 0.8.0-0, 0.6.0-0, 0.5.0-0, 0.4.1-0, 0.4.0-0, 0.3.0-0, 0.2.9-0, 0.2.8-0, 0.2.7-0, 0.2.6-1, 0.2.5-1, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.1.3-0, 0.1.2-0, 0.1.1-0
    
    :depends gsl: >=2.5,<2.6.0a0
    :depends libgcc-ng: >=7.3.0
