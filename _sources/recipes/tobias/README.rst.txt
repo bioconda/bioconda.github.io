@@ -11,8 +11,8 @@ tobias
 
    Transcription factor Occupancy prediction By Investigation of ATAC\-seq Signal
 
-   :homepage: https://github.molgen.mpg.de/loosolab/TOBIAS
-   :documentation: https://github.molgen.mpg.de/loosolab/TOBIAS/wiki
+   :homepage: https://github.com/loosolab/TOBIAS/
+   :documentation: https://github.com/loosolab/TOBIAS/wiki
    
    :license: MIT
    :recipe: /`tobias <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tobias>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tobias/meta.yaml>`_
@@ -26,22 +26,28 @@ tobias
 
    |downloads_tobias| |docker_tobias|
 
-   :versions: 0.9.0-0, 0.8.0-0, 0.7.0-0, 0.6.4-0, 0.6.1-0, 0.5.0-0
+   :versions: 0.11.0-0, 0.9.0-0, 0.8.0-0, 0.7.0-0, 0.6.4-0, 0.6.1-0, 0.5.0-0
    
    :depends adjusttext: 
+   :depends boto3: 
    :depends libgcc-ng: >=7.3.0
-   :depends matplotlib: >=2
+   :depends logomaker: 
+   :depends matplotlib-base: >=2
    :depends moods: 
    :depends numpy: >=1.14.6,<2.0a0
    :depends pandas: 
    :depends pybedtools: 
    :depends pybigwig: 
    :depends pypdf2: 
-   :depends pysam: >=0.15.3
+   :depends pysam: 
    :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
+   :depends pyyaml: >=5.1
    :depends scikit-learn: 
    :depends scipy: 
-   :depends svist4get: 
+   :depends seaborn: >=0.9.1
+   :depends svist4get: 1.2.22
+   :depends xgboost: >=0.71
    :depends xlsxwriter: 
    :requirements:
 
