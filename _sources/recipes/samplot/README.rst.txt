@@ -22,10 +22,10 @@ samplot
 
    |downloads_samplot| |docker_samplot|
 
-   :versions: 1.0.10-0, 1.0.9-0, 1.0.1-0
+   :versions: 1.0.12-0, 1.0.10-0, 1.0.9-0, 1.0.1-0
    
    :depends jinja2: 
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends pip: 
    :depends pysam: >=0.15.2

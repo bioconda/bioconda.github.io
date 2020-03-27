@@ -22,15 +22,16 @@ centrosome
 
    |downloads_centrosome| |docker_centrosome|
 
-   :versions: 1.1.6-0
+   :versions: 1.1.7-0, 1.1.6-0
    
    :depends deprecation: 
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends pillow: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :depends scikit-image: 
    :depends scipy: 
    :requirements:

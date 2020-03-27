@@ -23,7 +23,7 @@ cmash
 
    |downloads_cmash| |docker_cmash|
 
-   :versions: 0.4.0-0
+   :versions: 0.5.0-0, 0.4.0-0
    
    :depends blist: 
    :depends h5py: 
@@ -31,7 +31,7 @@ cmash
    :depends khmer: >=2.1.1
    :depends marisa-trie: 
    :depends matplotlib-base: 
-   :depends numpy: 
+   :depends numpy: >=1.14
    :depends pandas: >=0.21.1
    :depends pycairo: 
    :depends python: 

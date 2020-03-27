@@ -9,21 +9,21 @@ last
 .. conda:recipe:: last
    :replaces_section_title:
 
-   LAST finds similar regions between sequences\, and aligns them. It is designed for comparing large datasets to each other \(e.g. vertebrate genomes and\/or large numbers of DNA reads\).
+   LAST finds similar regions between sequences\, and aligns them.
 
    :homepage: http://last.cbrc.jp/
-   :license: GPL / GPLv3
+   :license: GPL / GPL-3.0-or-later
    :recipe: /`last <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/last>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/last/meta.yaml>`_
    :links: biotools: :biotools:`last`
 
-   
+   LAST finds similar regions between sequences\, and aligns them. It is designed for comparing large datasets to each other \(e.g. vertebrate genomes and\/or large numbers of DNA reads\).
 
 
 .. conda:package:: last
 
    |downloads_last| |docker_last|
 
-   :versions: 1021-0, 992-0, 982-0, 963-1, 963-0, 941-2, 941-0, 876-0, 874-3, 874-2, 874-1, 874-0, 847-0, 719-2, 719-1, 638-6, 638-5, 638-4, 638-3, 638-2, 638-1, 490-4, 490-3, 490-2, 490-1
+   :versions: 1060-0, 1047-0, 1021-0, 992-0, 982-0, 963-1, 963-0, 941-2, 941-0, 876-0, 874-3, 874-2, 874-1, 874-0, 847-0, 719-2, 719-1, 638-6, 638-5, 638-4, 638-3, 638-2, 638-1, 490-4, 490-3, 490-2, 490-1
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
