@@ -22,7 +22,7 @@ deepvariant
 
    |downloads_deepvariant| |docker_deepvariant|
 
-   :versions: 0.9.0-0, 0.8.0-0, 0.7.2-1, 0.7.2-0, 0.7.1-0, 0.7.0-0, 0.6.1-3, 0.6.1-2, 0.6.1-0, 0.6.0-0, 0.4.1-1, 0.4.1-0
+   :versions: 0.10.0-0, 0.9.0-0, 0.8.0-0, 0.7.2-1, 0.7.2-0, 0.7.1-0, 0.7.0-0, 0.6.1-3, 0.6.1-2, 0.6.1-0, 0.6.0-0, 0.4.1-1, 0.4.1-0
    
    :depends boost: 
    :depends contextlib2: 
@@ -40,6 +40,7 @@ deepvariant
    :depends protobuf: 
    :depends psutil: 
    :depends python: >=2.7,<2.8.0a0
+   :depends python_abi: 2.7.* *_cp27mu
    :depends requests: 
    :depends scipy: 
    :depends six: 

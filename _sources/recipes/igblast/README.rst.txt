@@ -9,10 +9,10 @@ igblast
 .. conda:recipe:: igblast
    :replaces_section_title:
 
-   A tool for analyzing immunoglobulin \(IG\) and T cell receptor \(TR\) sequences.
+   A tool for analyzing immunoglobulin \(IG\) and T cell receptor \(TR\) sequences
 
    :homepage: http://www.ncbi.nlm.nih.gov/projects/igblast/
-   :license: Public Domain
+   :license: Public Domain and others
    :recipe: /`igblast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/igblast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/igblast/meta.yaml>`_
    :links: biotools: :biotools:`igblast`
 
@@ -23,12 +23,13 @@ igblast
 
    |downloads_igblast| |docker_igblast|
 
-   :versions: 1.10.0-1, 1.10.0-0, 1.9.0-0, 1.7.0-1, 1.7.0-0, 1.5.0-2, 1.5.0-1, 1.4.0-6, 1.4.0-5, 1.4.0-4, 1.4.0-2, 1.4.0-1, 1.4.0-0
+   :versions: 1.15.0-0, 1.10.0-1, 1.10.0-0, 1.9.0-0, 1.7.0-1, 1.7.0-0, 1.5.0-2, 1.5.0-1, 1.4.0-6, 1.4.0-5, 1.4.0-4, 1.4.0-2, 1.4.0-1, 1.4.0-0
    
-   :depends bzip2: >=1.0.6,<2.0a0
+   :depends bzip2: >=1.0.8,<2.0a0
    :depends libgcc-ng: >=7.3.0
-   :depends libidn11: 
-   :depends libxml2: >=2.9.8,<2.10.0a0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends libxml2: >=2.9.10,<2.10.0a0
+   :depends ncbi-vdb: >=2.9.6
    :depends perl: 
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:

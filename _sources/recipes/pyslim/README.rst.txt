@@ -25,7 +25,7 @@ pyslim
 
    |downloads_pyslim| |docker_pyslim|
 
-   :versions: 0.400-0, 0.314-0
+   :versions: 0.401-0, 0.400-0, 0.314-0
    
    :depends attrs: 
    :depends kastore: 
