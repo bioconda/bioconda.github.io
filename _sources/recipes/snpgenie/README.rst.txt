@@ -22,8 +22,14 @@ snpgenie
 
    |downloads_snpgenie| |docker_snpgenie|
 
-   :versions: 
+   :versions: 1.0-0
    
+   :depends perl: 
+   :depends perl-data-dumper: 
+   :depends perl-file-temp: 
+   :depends perl-io-handle: 
+   :depends perl-list-util: 
+   :depends perl-parallel-forkmanager: 
    :requirements:
 
    .. rubric:: Installation
