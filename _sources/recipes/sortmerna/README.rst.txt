@@ -6,14 +6,14 @@
 sortmerna
 =========
 
-.. conda:recipe:: sortmerna/2.1b
+.. conda:recipe:: sortmerna
    :replaces_section_title:
 
    SortMeRNA is a biological sequence analysis tool for filtering\, mapping and OTU\-picking NGS reads.
 
    :homepage: http://bioinfo.lifl.fr/RNA/sortmerna
    :license: LGPL
-   :recipe: /`sortmerna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sortmerna>`_/`2.1b <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sortmerna/2.1b>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sortmerna/2.1b/meta.yaml>`_
+   :recipe: /`sortmerna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sortmerna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sortmerna/meta.yaml>`_
    :links: biotools: :biotools:`sortmerna`, doi: :doi:`10.1093/bioinformatics/bts611`
 
    
@@ -23,11 +23,8 @@ sortmerna
 
    |downloads_sortmerna| |docker_sortmerna|
 
-   :versions: 2.1b-4, 2.1b-3, 2.1b-2, 2.1b-1, 2.1b-0, 2.0-4, 2.0-3, 2.0-2, 2.0-1, 2.0-0
+   :versions: 4.2.0-0, 2.1b-4, 2.1b-3, 2.1b-2, 2.1b-1, 2.1b-0, 2.0-4, 2.0-3, 2.0-2, 2.0-1, 2.0-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
    .. rubric:: Installation

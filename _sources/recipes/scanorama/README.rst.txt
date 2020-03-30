@@ -23,7 +23,7 @@ scanorama
 
    |downloads_scanorama| |docker_scanorama|
 
-   :versions: 1.5-0
+   :versions: 1.5.1-0, 1.5-0
    
    :depends fbpca: >=1.0
    :depends geosketch: >=1
