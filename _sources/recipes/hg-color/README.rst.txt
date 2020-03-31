@@ -22,7 +22,7 @@ hg-color
 
    |downloads_hg-color| |docker_hg-color|
 
-   :versions: 1.1.1-0, 1.0.0-3, 1.0.0-2, 1.0.0-1
+   :versions: 1.1.1-1, 1.1.1-0, 1.0.0-3, 1.0.0-2, 1.0.0-1
    
    :depends coreutils: 
    :depends emboss: 

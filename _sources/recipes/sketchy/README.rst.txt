@@ -22,7 +22,7 @@ sketchy
 
    |downloads_sketchy| |docker_sketchy|
 
-   :versions: 0.4.3.1-0, 0.4.3-0
+   :versions: 0.4.4-0, 0.4.3.1-0, 0.4.3-0
    
    :depends braceexpand: 
    :depends click: 
@@ -43,6 +43,7 @@ sketchy
    :depends pytest: 
    :depends python: >=3.7,<3.8.0a0
    :depends python-dateutil: 
+   :depends python_abi: 3.7.* *_cp37m
    :depends scipy: 
    :depends seaborn: 
    :depends tqdm: 

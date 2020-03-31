@@ -22,7 +22,7 @@ rnaquast
 
    |downloads_rnaquast| |docker_rnaquast|
 
-   :versions: 2.0.0-0, 1.5.1-0
+   :versions: 2.0.1-0, 2.0.0-0, 1.5.1-0
    
    :depends blast: 
    :depends blat: 
@@ -35,7 +35,6 @@ rnaquast
    :depends python: 
    :depends samtools: 
    :depends star: 
-   :depends tophat: 
    :depends ucsc-pslsort: 
    :requirements:
 
