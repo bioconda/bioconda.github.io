@@ -12,6 +12,7 @@ sixgill
    six\-frame genome\-inferred libraries for LC\-MS\/MS
 
    :homepage: 
+   :developer docs: https://github.com/dhmay/sixgill
    :license: Apache / Apache Software License
    :recipe: /`sixgill <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sixgill>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sixgill/meta.yaml>`_
 
@@ -22,11 +23,11 @@ sixgill
 
    |downloads_sixgill| |docker_sixgill|
 
-   :versions: 0.2.4-2, 0.2.4-1, 0.2.4-0, 0.2.3-0
+   :versions: 0.2.4-3, 0.2.4-2, 0.2.4-1, 0.2.4-0, 0.2.3-0
    
    :depends biopython: 
    :depends pysam: >=0.9.0
-   :depends python: 
+   :depends python: <3
    :requirements:
 
    .. rubric:: Installation

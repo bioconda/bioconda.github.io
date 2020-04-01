@@ -27,23 +27,24 @@ metaphlan
 
    |downloads_metaphlan| |docker_metaphlan|
 
-   :versions: 3.0-1, 3.0-0
+   :versions: 3.0-2, 3.0-1, 3.0-0
    
    :depends biom-format: 
    :depends biopython: 
    :depends blast: >=2.6.0
-   :depends bowtie2: >=2.0.0
+   :depends bowtie2: >=2.3.0
+   :depends cmseq: 
    :depends dendropy: 
    :depends matplotlib-base: 
-   :depends msgpack-python: 
    :depends muscle: >=3.8.1551
    :depends numpy: 
    :depends pandas: 
-   :depends pysam: >=0.8.3
+   :depends phylophlan: 
+   :depends pysam: 
    :depends python: >=3
    :depends raxml: >=8.2.10
    :depends requests: 
-   :depends samtools: >=0.1.19,<1.0
+   :depends samtools: >=1.9
    :depends scipy: 
    :requirements:
 
