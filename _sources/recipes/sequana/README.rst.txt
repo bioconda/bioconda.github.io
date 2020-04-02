@@ -22,47 +22,43 @@ sequana
 
    |downloads_sequana| |docker_sequana|
 
-   :versions: 0.7.1-2, 0.7.1-1, 0.7.0-0, 0.6.3.post1-0, 0.6.1-0, 0.6.0-0, 0.5.2-0, 0.5.1-0, 0.5.0-0, 0.4.1-0, 0.4.0-0, 0.3.0-0, 0.2.1-0, 0.2.0-0
+   :versions: 0.8.2-0, 0.7.1-2, 0.7.1-1, 0.7.0-0, 0.6.3.post1-0, 0.6.1-0, 0.6.0-0, 0.5.2-0, 0.5.1-0, 0.5.0-0, 0.4.1-0, 0.4.0-0, 0.3.0-0, 0.2.1-0, 0.2.0-0
    
-   :depends atropos: 1.1.16
+   :depends atropos: 
    :depends bcftools: 
    :depends bedtools: 
-   :depends biokit: >=0.4.3
    :depends bioservices: >=1.5.1
-   :depends bleach: 
-   :depends bowtie: 
-   :depends bowtie2: 
-   :depends bwa: 
-   :depends colorlog: 
-   :depends cutadapt: 
+   :depends colorlog: >=3.1.0
+   :depends cython: >=0.29.16
    :depends easydev: >=0.9.36
-   :depends fastq-screen: 
    :depends fastqc: 0.11.5
    :depends freebayes: 
-   :depends graphviz: 
+   :depends graphviz: >=2.42.3
+   :depends itolapi: 
    :depends khmer: 
-   :depends kraken: 
+   :depends kraken: 1.1
    :depends krona: 
+   :depends libgcc-ng: >=7.3.0
+   :depends lxml: 
    :depends mock: 
-   :depends multiqc: 1.0
+   :depends multiqc: >=1.8
    :depends numexpr: 
-   :depends pandas: 
+   :depends packaging: 
+   :depends pandas: >=0.22
    :depends pigz: 
    :depends psutil: 
-   :depends pysam: 
-   :depends python: >=3
-   :depends pyvcf: 
-   :depends pyyaml: 
-   :depends qtconsole: 
+   :depends pykwalify: >=1.6
+   :depends pysam: >=0.15.3
+   :depends python: >=3.7,<3.8.0a0
+   :depends pyvcf: >=0.6.8
+   :depends pyyaml: >=5.3.1
+   :depends qtconsole: >=4.7.2
    :depends ruamel.yaml: 
-   :depends sambamba: 
-   :depends samtools: 
-   :depends shustring: 
-   :depends snakemake: 4.0.0
-   :depends snpeff: 
-   :depends spades: 
-   :depends subread: 
-   :depends xlrd: 
+   :depends samtools: >=1.10
+   :depends scipy: >=1.4.1
+   :depends snakemake: >=5.13.0
+   :depends xlrd: >=1.2.0
+   :depends xmltodict: >=0.12.0
    :requirements:
 
    .. rubric:: Installation

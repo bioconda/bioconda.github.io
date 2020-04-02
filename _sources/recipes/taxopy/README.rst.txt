@@ -22,7 +22,7 @@ taxopy
 
    |downloads_taxopy| |docker_taxopy|
 
-   :versions: 0.2.1-0, 0.2.0-0, 0.1.0-0
+   :versions: 0.3.0-0, 0.2.1-0, 0.2.0-0, 0.1.0-0
    
    :depends python: >=3.5
    :requirements:
