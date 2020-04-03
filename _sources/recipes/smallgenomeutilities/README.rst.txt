@@ -6,14 +6,14 @@
 smallgenomeutilities
 ====================
 
-.. conda:recipe:: smallgenomeutilities/0.2.1
+.. conda:recipe:: smallgenomeutilities/0.3.0
    :replaces_section_title:
 
    A collection of scripts that are useful for dealing with viral RNA NGS data.
 
    :homepage: https://github.com/cbg-ethz/smallgenomeutilities
    :license: GPL2 / GNU General Public License v2 or later (GPLv2+)
-   :recipe: /`smallgenomeutilities <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smallgenomeutilities>`_/`0.2.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smallgenomeutilities/0.2.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smallgenomeutilities/0.2.1/meta.yaml>`_
+   :recipe: /`smallgenomeutilities <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smallgenomeutilities>`_/`0.3.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smallgenomeutilities/0.3.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smallgenomeutilities/0.3.0/meta.yaml>`_
 
    
 
@@ -22,10 +22,10 @@ smallgenomeutilities
 
    |downloads_smallgenomeutilities| |docker_smallgenomeutilities|
 
-   :versions: 0.2.1-2, 0.2.1-1, 0.2.1-0, 0.1-1, 0.1-0
+   :versions: 0.3.0-0, 0.2.1-2, 0.2.1-1, 0.2.1-0, 0.1-1, 0.1-0
    
    :depends biopython: 
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends progress: 
    :depends pysam: 

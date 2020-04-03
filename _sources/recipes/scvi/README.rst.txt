@@ -24,13 +24,13 @@ scvi
 
    |downloads_scvi| |docker_scvi|
 
-   :versions: 0.6.1-0, 0.6.0-0, 0.5.0-0, 0.4.1-1, 0.4.1-0, 0.3.0-1, 0.3.0-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.3-0, 0.1.2-0
+   :versions: 0.6.3-0, 0.6.1-0, 0.6.0-0, 0.5.0-0, 0.4.1-1, 0.4.1-0, 0.3.0-1, 0.3.0-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.3-0, 0.1.2-0
    
    :depends anndata: >=0.6.22rc1
    :depends h5py: >=2.9.0
    :depends hyperopt: 0.1.2
    :depends loompy: >=2.0.16
-   :depends matplotlib: >=3.0.3
+   :depends matplotlib-base: >=3.0.3
    :depends numpy: >=1.16.2
    :depends pandas: >=0.24.2
    :depends python: >=3.7

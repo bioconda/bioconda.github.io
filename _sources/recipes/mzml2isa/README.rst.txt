@@ -22,7 +22,7 @@ mzml2isa
 
    |downloads_mzml2isa| |docker_mzml2isa|
 
-   :versions: 1.0.2-1, 1.0.2-0, 1.0.1-0, 0.5.1-1, 0.5.1-0, 0.4.24-2, 0.4.24-1, 0.4.24-0
+   :versions: 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.1-0, 0.5.1-1, 0.5.1-0, 0.4.24-2, 0.4.24-1, 0.4.24-0
    
    :depends cached-property: 
    :depends fs: 

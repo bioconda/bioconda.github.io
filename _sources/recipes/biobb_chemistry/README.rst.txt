@@ -46,13 +46,13 @@ biobb_chemistry
 
    |downloads_biobb_chemistry| |docker_biobb_chemistry|
 
-   :versions: 2.0.2-0, 2.0.1-0, 2.0.0-0, 1.0.8-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.4-0
+   :versions: 3.0.0-0, 2.0.2-0, 2.0.1-0, 2.0.0-0, 1.0.8-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.4-0
    
    :depends acpype: 2019.10.05.12.26
    :depends ambertools: 19.10
-   :depends biobb_common: 2.0.1
-   :depends openbabel: 2.4.1
-   :depends python: 3.6.*
+   :depends biobb_common: 3.0.0
+   :depends openbabel: 3.0.0
+   :depends python: 3.7.*
    :requirements:
 
    .. rubric:: Installation

@@ -23,29 +23,30 @@ anvio-minimal
 
    |downloads_anvio-minimal| |docker_anvio-minimal|
 
-   :versions: 6.1-1, 6.1-0, 6-0, 5.5.0-0, 5.4.0-0, 5.3.0-0, 5.2.0-1, 5.2.0-0
+   :versions: 6.2-0, 6.1-1, 6.1-0, 6-0, 5.5.0-0, 5.4.0-0, 5.3.0-0, 5.2.0-1, 5.2.0-0
    
-   :depends bottle: 0.12.13
-   :depends cherrypy: 8.0.0
-   :depends colored: 1.3.93
-   :depends django: 2.0.8
-   :depends ete3: 3.1.1
-   :depends illumina-utils: 2.6
-   :depends matplotlib: 2.2.3
-   :depends mistune: 0.8.1
+   :depends bottle: 
+   :depends cherrypy: 
+   :depends colored: 
+   :depends django: 
+   :depends ete3: 
+   :depends illumina-utils: 
+   :depends matplotlib-base: 
+   :depends mistune: 
+   :depends numba: 
    :depends numpy: 
    :depends pandas: 0.25.1
    :depends psutil: 5.4.3
-   :depends pyani: 0.2.9
-   :depends pysam: 0.15.2
-   :depends python: 3.6.*
-   :depends requests: 2.20.0
-   :depends scikit-learn: 0.21.2
-   :depends scipy: >=0.13.1
-   :depends six: 1.11.0
+   :depends pyani: 0.2.10
+   :depends pysam: 
+   :depends python: >=3
+   :depends requests: 
+   :depends scikit-learn: 
+   :depends scipy: 
+   :depends six: 
    :depends snakemake-minimal: 5.2.4
-   :depends statsmodels: 0.9.0
-   :depends tabulate: 0.8.3
+   :depends statsmodels: 
+   :depends tabulate: 
    :requirements:
 
    .. rubric:: Installation
