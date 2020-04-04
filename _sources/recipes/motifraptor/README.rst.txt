@@ -22,10 +22,10 @@ motifraptor
 
    |downloads_motifraptor| |docker_motifraptor|
 
-   :versions: 0.2.4-0, 0.2.3-1, 0.2.3-0
+   :versions: 0.3.0-0, 0.2.4-0, 0.2.3-1, 0.2.3-0
    
    :depends libgcc-ng: >=7.3.0
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: >=1.14.6,<2.0a0
    :depends pandas: 
    :depends pybedtools: 

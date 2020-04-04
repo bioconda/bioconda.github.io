@@ -100,18 +100,18 @@
             
   <div class="section" id="shorah">
 <dl class="recipe">
-<dt id="recipe-shorah/1.1.0">
-<em class="property">recipe </em><code class="sig-name descname">shorah/1.1.0</code><a class="headerlink" href="#recipe-shorah/1.1.0" title="Permalink to this definition">¶</a></dt>
+<dt id="recipe-shorah/1.99.0">
+<em class="property">recipe </em><code class="sig-name descname">shorah/1.99.0</code><a class="headerlink" href="#recipe-shorah/1.99.0" title="Permalink to this definition">¶</a></dt>
 <dd><p>The Short Reads Assembly into Haplotypes (ShoRAH) program for inferring viral haplotypes from NGS data</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/cbg-ethz/shorah">https://github.com/cbg-ethz/shorah</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>GPLv3</p>
+<dd class="field-even"><p>GPL3 / GPLv3</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shorah">shorah</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shorah/1.1.0">1.1.0</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shorah/1.1.0/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shorah">shorah</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shorah/1.99.0">1.99.0</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shorah/1.99.0/meta.yaml">meta.yaml</a></p>
 </dd>
 <dt class="field-even">Links</dt>
 <dd class="field-even"><p>biotools: <a class="reference external" href="https://bio.tools/shorah">shorah</a></p>
@@ -125,18 +125,20 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/shorah"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/shorah.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/shorah"><img alt="docker_shorah" src="https://quay.io/repository/biocontainers/shorah/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>1.1.3-2, 1.1.3-1, 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.1.0-2, 1.1.0-1, 1.1.0-0, 1.0.0-2, 1.0.0-1, 1.0.0-0</p>
+<dd class="field-odd"><p>1.99.0-0, 1.1.3-4, 1.1.3-2, 1.1.3-1, 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.1.0-2, 1.1.0-1, 1.1.0-0, 1.0.0-2, 1.0.0-1, 1.0.0-0</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/biopython-feedstock"><strong>biopython</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/blas-feedstock"><strong>blas</strong></a> 1.1 openblas</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/gsl-feedstock"><strong>gsl</strong></a> &gt;=2.2.1,&lt;2.3.0a0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> &gt;=4.9</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/gsl-feedstock"><strong>gsl</strong></a> &gt;=2.5,&lt;2.6.0a0</p></li>
+<li><p><a class="conda-package reference internal" href="../htslib/README.html#package-htslib" title="htslib package"><strong>htslib</strong></a> &gt;=1.9,&lt;1.10.0a0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> &gt;=7.3.0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libstdcxx-ng-feedstock"><strong>libstdcxx-ng</strong></a> &gt;=7.3.0</p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=2.7,&lt;2.8.0a0</p></li>
-<li><p><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=3.6,&lt;3.7.0a0</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python_abi-feedstock"><strong>python_abi</strong></a> 3.6.* <a href="#id3"><span class="problematic" id="id4">*</span></a>_cp36m</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/setuptools-feedstock"><strong>setuptools</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/zlib-feedstock"><strong>zlib</strong></a> &gt;=1.2.11,&lt;1.3.0a0</p></li>
 </ul>
 </dd>

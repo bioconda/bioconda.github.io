@@ -23,10 +23,11 @@ peaksql
 
    |downloads_peaksql| |docker_peaksql|
 
-   :versions: 0.0.3-1, 0.0.3-0
+   :versions: 0.0.4-0, 0.0.3-1, 0.0.3-0
    
    :depends numba: >=0.48
    :depends numpy: >=1.18
+   :depends pandas: >=1.0.1
    :depends pyfaidx: >=0.5.1
    :depends python: >=3.7
    :requirements:

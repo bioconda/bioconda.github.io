@@ -6,14 +6,14 @@
 shorah
 ======
 
-.. conda:recipe:: shorah/1.1.0
+.. conda:recipe:: shorah/1.99.0
    :replaces_section_title:
 
    The Short Reads Assembly into Haplotypes \(ShoRAH\) program for inferring viral haplotypes from NGS data
 
    :homepage: https://github.com/cbg-ethz/shorah
-   :license: GPLv3
-   :recipe: /`shorah <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shorah>`_/`1.1.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shorah/1.1.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shorah/1.1.0/meta.yaml>`_
+   :license: GPL3 / GPLv3
+   :recipe: /`shorah <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shorah>`_/`1.99.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shorah/1.99.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shorah/1.99.0/meta.yaml>`_
    :links: biotools: :biotools:`shorah`
 
    
@@ -23,16 +23,18 @@ shorah
 
    |downloads_shorah| |docker_shorah|
 
-   :versions: 1.1.3-2, 1.1.3-1, 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.1.0-2, 1.1.0-1, 1.1.0-0, 1.0.0-2, 1.0.0-1, 1.0.0-0
+   :versions: 1.99.0-0, 1.1.3-4, 1.1.3-2, 1.1.3-1, 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.1.0-2, 1.1.0-1, 1.1.0-0, 1.0.0-2, 1.0.0-1, 1.0.0-0
    
    :depends biopython: 
    :depends blas: 1.1 openblas
-   :depends gsl: >=2.2.1,<2.3.0a0
-   :depends libgcc-ng: >=4.9
+   :depends gsl: >=2.5,<2.6.0a0
+   :depends htslib: >=1.9,<1.10.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends numpy: 
-   :depends perl: 
-   :depends python: >=2.7,<2.8.0a0
-   :depends samtools: 
+   :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
+   :depends setuptools: 
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

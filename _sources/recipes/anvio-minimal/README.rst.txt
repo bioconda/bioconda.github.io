@@ -23,10 +23,10 @@ anvio-minimal
 
    |downloads_anvio-minimal| |docker_anvio-minimal|
 
-   :versions: 6.2-0, 6.1-1, 6.1-0, 6-0, 5.5.0-0, 5.4.0-0, 5.3.0-0, 5.2.0-1, 5.2.0-0
+   :versions: 6.2-1, 6.2-0, 6.1-1, 6.1-0, 6-0, 5.5.0-0, 5.4.0-0, 5.3.0-0, 5.2.0-1, 5.2.0-0
    
    :depends bottle: 
-   :depends cherrypy: 
+   :depends cherrypy: 8.0.0
    :depends colored: 
    :depends django: 
    :depends ete3: 
@@ -44,7 +44,7 @@ anvio-minimal
    :depends scikit-learn: 
    :depends scipy: 
    :depends six: 
-   :depends snakemake-minimal: 5.2.4
+   :depends snakemake-minimal: 5.10.0
    :depends statsmodels: 
    :depends tabulate: 
    :requirements:

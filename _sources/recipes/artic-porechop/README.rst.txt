@@ -22,7 +22,7 @@ artic-porechop
 
    |downloads_artic-porechop| |docker_artic-porechop|
 
-   :versions: 3.2pre1-0, 0.3.2pre-0
+   :versions: 0.3.2pre-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
