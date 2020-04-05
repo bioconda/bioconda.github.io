@@ -23,7 +23,7 @@ focus
 
    |downloads_focus| |docker_focus|
 
-   :versions: 1.4-2, 1.4-1, 1.4-0, 1.3-0
+   :versions: 1.5-0, 1.4-2, 1.4-1, 1.4-0, 1.3-0
    
    :depends kmer-jellyfish: >=2.2.6
    :depends numpy: >=1.12.1

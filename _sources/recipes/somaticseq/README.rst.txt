@@ -22,7 +22,7 @@ somaticseq
 
    |downloads_somaticseq| |docker_somaticseq|
 
-   :versions: 3.3.0-0, 3.2.1-0, 2.8.1-0
+   :versions: 3.4.0-0, 3.3.0-0, 3.2.1-0, 2.8.1-0
    
    :depends bedtools: 
    :depends gatk4: 

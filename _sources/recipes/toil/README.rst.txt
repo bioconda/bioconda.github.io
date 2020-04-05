@@ -22,7 +22,7 @@ toil
 
    |downloads_toil| |docker_toil|
 
-   :versions: 3.24.0-0, 3.23.1-0, 3.21.0-0, 3.20.0-0, 3.14.0-2, 3.14.0-1, 3.14.0-0, 3.13.0a1-0, 3.11.0-1, 3.11.0-0, 3.11.0a1-1, 3.11.0a1-0, 3.10.0-0, 3.10.0a1-1, 3.10.0a1-0, 3.9.0a1-0, 3.8.0a1-1, 3.8.0a1-0, 3.7.0a-1, 3.7.0a-0, 3.6.0-0, 3.5.0a1-3, 3.5.0a1-2, 3.5.0a1-1, 3.5.0a1-0, 3.4.0a1-3, 3.4.0a1-2, 3.4.0a1-1, 3.4.0a1-0, 3.3.0a1-0, 3.2.0a2-2, 3.2.0a2-0
+   :versions: 4.0.0-0, 3.24.0-0, 3.23.1-0, 3.21.0-0, 3.20.0-0, 3.14.0-2, 3.14.0-1, 3.14.0-0, 3.13.0a1-0, 3.11.0-1, 3.11.0-0, 3.11.0a1-1, 3.11.0a1-0, 3.10.0-0, 3.10.0a1-1, 3.10.0a1-0, 3.9.0a1-0, 3.8.0a1-1, 3.8.0a1-0, 3.7.0a-1, 3.7.0a-0, 3.6.0-0, 3.5.0a1-3, 3.5.0a1-2, 3.5.0a1-1, 3.5.0a1-0, 3.4.0a1-3, 3.4.0a1-2, 3.4.0a1-1, 3.4.0a1-0, 3.3.0a1-0, 3.2.0a2-2, 3.2.0a2-0
    
    :depends addict: <=2.2.0
    :depends boto: >=2.48.0
@@ -31,19 +31,17 @@ toil
    :depends dill: >=0.2.7.1
    :depends docker-py: >=2.5.1
    :depends future: 
-   :depends futures: >=3.1.1
    :depends galaxy-lib: >=18.9.2
    :depends pathlib2: >=2.3.2
    :depends psutil: >=3.0.1,<6
    :depends pycryptodome: >=3.5.1
    :depends pynacl: 1.1.2.*
-   :depends python: 
+   :depends python: >=3.6
    :depends python-dateutil: 
    :depends requests: 2.*
    :depends schema-salad: >=4.5.20190815125611,<5
    :depends six: >=1.10.0
    :depends sphinx: >=1.7.5
-   :depends subprocess32: <=3.5.2
    :requirements:
 
    .. rubric:: Installation
