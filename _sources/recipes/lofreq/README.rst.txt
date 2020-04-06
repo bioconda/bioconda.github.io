@@ -22,12 +22,14 @@ lofreq
 
    |downloads_lofreq| |docker_lofreq|
 
-   :versions: 2.1.4-0, 2.1.3.1-0, 2.1.2-0
+   :versions: 2.1.4-1, 2.1.4-0, 2.1.3.1-0, 2.1.2-0
    
    :depends htslib: >=1.9,<1.10.0a0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends python: >=2.7,<2.8.0a0
+   :depends python_abi: 2.7.* *_cp27mu
+   :depends samtools: 
    :requirements:
 
    .. rubric:: Installation

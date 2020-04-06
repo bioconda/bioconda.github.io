@@ -22,7 +22,7 @@ edta
 
    |downloads_edta| |docker_edta|
 
-   :versions: 1.8.2-0, 1.7.8-0, 1.7.7-0
+   :versions: 1.8.3-0, 1.8.2-0, 1.7.8-0, 1.7.7-0
    
    :depends biopython: 
    :depends blast: 

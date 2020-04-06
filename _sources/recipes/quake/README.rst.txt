@@ -12,9 +12,9 @@ quake
    Quake is a package to correct substitution sequencing errors in experiments with deep coverage \(e.g. \>15X\)\, specifically intended for Illumina sequencing reads
 
    :homepage: http://www.cbcb.umd.edu/software/quake/
-   :license: Artistic License 2.0
+   :license: Artistic-2.0
    :recipe: /`quake <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quake>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quake/meta.yaml>`_
-   :links: biotools: :biotools:`quake`
+   :links: doi: :doi:`10.1186/gb-2010-11-11-r116`, biotools: :biotools:`quake`
 
    
 
@@ -23,14 +23,16 @@ quake
 
    |downloads_quake| |docker_quake|
 
-   :versions: 0.3.5-0
+   :versions: 0.3.5-3, 0.3.5-0
    
-   :depends boost: 1.60*
-   :depends jellyfish: 
-   :depends libgcc: 
-   :depends python: 2.7*
-   :depends r: 3.3.1*
+   :depends kmer-jellyfish: 
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends python: >=2.7,<2.8.0a0
+   :depends python_abi: 2.7.* *_cp27mu
+   :depends r-base: 
    :depends r-vgam: 
+   :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
    .. rubric:: Installation
