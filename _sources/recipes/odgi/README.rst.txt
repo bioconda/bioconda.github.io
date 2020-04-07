@@ -22,7 +22,7 @@ odgi
 
    |downloads_odgi| |docker_odgi|
 
-   :versions: 0.2-0
+   :versions: 0.2-0, v0.3-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

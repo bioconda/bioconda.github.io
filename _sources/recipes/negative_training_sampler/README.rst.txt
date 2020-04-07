@@ -22,8 +22,9 @@ negative_training_sampler
 
    |downloads_negative_training_sampler| |docker_negative_training_sampler|
 
-   :versions: 0.1.0-0
+   :versions: 0.2.0-0, 0.1.0-0
    
+   :depends bedtools: 
    :depends click: 
    :depends dask: 
    :depends pandas: 

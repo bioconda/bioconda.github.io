@@ -22,7 +22,7 @@ lamassemble
 
    |downloads_lamassemble| |docker_lamassemble|
 
-   :versions: 1.2.0-0
+   :versions: 1.3.0-0, 1.2.0-0
    
    :depends last: 
    :depends mafft: 
