@@ -23,7 +23,7 @@ rnaredprint
 
    |downloads_rnaredprint| |docker_rnaredprint|
 
-   :versions: 0.3pre-0
+   :versions: 0.3pre-1, 0.3pre-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

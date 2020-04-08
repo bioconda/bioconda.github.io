@@ -22,7 +22,7 @@ smashpp
 
    |downloads_smashpp| |docker_smashpp|
 
-   :versions: 19.12-0
+   :versions: 20.04-0, 19.12-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

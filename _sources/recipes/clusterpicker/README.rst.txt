@@ -11,7 +11,7 @@ clusterpicker
 
    The Cluster Picker identifies clusters in newick\-formatted trees containing thousands of sequences within a few minutes.
 
-   :homepage: http://hiv.bio.ed.ac.uk/software.html
+   :homepage: https://github.com/emmahodcroft/cluster-picker-and-cluster-matcher
    :license: GPL / GPLv3
    :recipe: /`clusterpicker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clusterpicker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clusterpicker/meta.yaml>`_
 
@@ -22,7 +22,7 @@ clusterpicker
 
    |downloads_clusterpicker| |docker_clusterpicker|
 
-   :versions: 1.2.3-2
+   :versions: 1.2.5-0, 1.2.3-2
    
    :depends openjdk: >=6
    :requirements:

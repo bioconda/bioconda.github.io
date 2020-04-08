@@ -22,7 +22,7 @@ goetia
 
    |downloads_goetia| |docker_goetia|
 
-   :versions: 0.13-0
+   :versions: 0.14-0, 0.13-0
    
    :depends blessings: 
    :depends clangdev: 
@@ -36,6 +36,7 @@ goetia
    :depends py-cpuinfo: 
    :depends pyfiglet: 
    :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :depends screed: 
    :depends sourmash: 
    :depends zlib: >=1.2.11,<1.3.0a0

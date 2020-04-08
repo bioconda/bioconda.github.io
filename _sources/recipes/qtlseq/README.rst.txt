@@ -23,11 +23,11 @@ qtlseq
 
    |downloads_qtlseq| |docker_qtlseq|
 
-   :versions: 2.1.0-0, 2.0.7-0, 2.0.6-0, 2.0.5-0, 2.0.4-0, 2.0.3-0, 2.0.2-0, 2.0.1-0, 2.0.0-0
+   :versions: 2.1.1-0, 2.1.0-0, 2.0.7-0, 2.0.6-0, 2.0.5-0, 2.0.4-0, 2.0.3-0, 2.0.2-0, 2.0.1-0, 2.0.0-0
    
    :depends bcftools: >=1.7
    :depends bwa: 
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
    :depends python: >=3.5

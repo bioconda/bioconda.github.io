@@ -22,7 +22,7 @@ clipcontext
 
    |downloads_clipcontext| |docker_clipcontext|
 
-   :versions: 0.1-0
+   :versions: 0.2-0, 0.1-0
    
    :depends bedtools: 2.29.0.*
    :depends python: >=3.6

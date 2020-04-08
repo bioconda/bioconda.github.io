@@ -23,7 +23,7 @@ ananse
 
    |downloads_ananse| |docker_ananse|
 
-   :versions: 0.1.1-0
+   :versions: 0.1.1-0, v0.1.2-0
    
    :depends adjusttext: 
    :depends dask: 

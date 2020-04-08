@@ -22,11 +22,12 @@ odgi
 
    |downloads_odgi| |docker_odgi|
 
-   :versions: 0.2-0, v0.3-0
+   :versions: 0.3-0, 0.2-0, v0.3-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

@@ -22,7 +22,7 @@ seqwish
 
    |downloads_seqwish| |docker_seqwish|
 
-   :versions: 0.2.1-0
+   :versions: 0.4-0, 0.2.1-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
