@@ -9,7 +9,7 @@ panaroo
 .. conda:recipe:: panaroo
    :replaces_section_title:
 
-   panaroo \- an updated pipeline for pan\-genome investigation
+   panaroo \- an updated pipeline for pangenome investigation
 
    :homepage: https://gtonkinhill.github.io/panaroo
    :license: MIT
@@ -22,25 +22,30 @@ panaroo
 
    |downloads_panaroo| |docker_panaroo|
 
-   :versions: 1.1.2-0, 1.1.0-0, 1.0.0-0
+   :versions: 1.2.0-0, 1.1.2-0, 1.1.0-0, 1.0.0-0
    
    :depends biopython: 
    :depends cd-hit: 
    :depends dendropy: 
    :depends gffutils: 
+   :depends intbitset: 
    :depends joblib: 
    :depends mafft: 
-   :depends matplotlib: 
+   :depends mash: 
+   :depends matplotlib-base: 
    :depends mkl: 
    :depends networkx: 
    :depends numba: 
    :depends numpy: 
+   :depends openmp: 
    :depends plotly: 
+   :depends prokka: 
    :depends python: >=3
    :depends python-edlib: 
    :depends scikit-learn: 
    :depends scipy: 
    :depends tqdm: 
+   :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
    .. rubric:: Installation
