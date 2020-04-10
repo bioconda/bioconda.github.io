@@ -23,10 +23,10 @@ illumina-interop
 
    |downloads_illumina-interop| |docker_illumina-interop|
 
-   :versions: 1.1.8-0, 1.1.7-0, 1.1.6-0, 1.1.4-3, 1.1.4-0, 1.0.25-1, 1.0.25-0
+   :versions: 1.1.9-0, 1.1.8-0, 1.1.7-0, 1.1.6-0, 1.1.4-3, 1.1.4-0, 1.0.25-1, 1.0.25-0
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :requirements:
 
    .. rubric:: Installation

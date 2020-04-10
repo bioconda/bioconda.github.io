@@ -22,7 +22,7 @@ iced
 
    |downloads_iced| |docker_iced|
 
-   :versions: 0.5.4-0, 0.5.2-0, 0.5.0-0, 0.4.2-0
+   :versions: 0.5.6-0, 0.5.4-0, 0.5.2-0, 0.5.0-0, 0.4.2-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

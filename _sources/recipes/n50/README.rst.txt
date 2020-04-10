@@ -12,17 +12,23 @@ n50
    calculate N50 from FASTA\/FASTQ files\, producing both machine and human friendly outputs
 
    :homepage: http://metacpan.org/pod/Proch::N50
+   :documentation: https://github.com/quadram-institute-bioscience/seqfu/wiki/n50
+   
+   :developer docs: https://github.com/quadram-institute-bioscience/seqfu/
    :license: mit
    :recipe: /`n50 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/n50>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/n50/meta.yaml>`_
+   :links: biotools: :biotools:`n50`
 
-   
+   a program to calculate size metrics of a FASTA \(or FASTQ\) file\: minimum\, maximum\, average length\, N50\, N75\, N90 and the area of the Nx curve \(auN\).
+   Gzipped files are supported as input\, and the output can be in compact\, csv\, tsv\, json or screen friendly format.
+
 
 
 .. conda:package:: n50
 
    |downloads_n50| |docker_n50|
 
-   :versions: 1.0.0-0, 0.92-0, 0.90-0, 0.83-0, 0.82-0, 0.80-0, 0.60-1, 0.60-0
+   :versions: 1.2.0-0, 1.0.0-0, 0.92-0, 0.90-0, 0.83-0, 0.82-0, 0.80-0, 0.60-1, 0.60-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-exporter: 

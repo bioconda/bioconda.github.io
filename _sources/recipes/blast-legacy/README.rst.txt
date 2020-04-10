@@ -6,14 +6,14 @@
 blast-legacy
 ============
 
-.. conda:recipe:: blast-legacy/2.2.26
+.. conda:recipe:: blast-legacy/2.2.19
    :replaces_section_title:
 
    The Basic Local Alignment Search Tool \(BLAST\) finds regions of local similarity between sequences.
 
    :homepage: http://blast.ncbi.nlm.nih.gov
    :license: Public Domain
-   :recipe: /`blast-legacy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast-legacy>`_/`2.2.26 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast-legacy/2.2.26>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast-legacy/2.2.26/meta.yaml>`_
+   :recipe: /`blast-legacy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast-legacy>`_/`2.2.19 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast-legacy/2.2.19>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast-legacy/2.2.19/meta.yaml>`_
 
    
 
@@ -22,7 +22,7 @@ blast-legacy
 
    |downloads_blast-legacy| |docker_blast-legacy|
 
-   :versions: 2.2.26-2, 2.2.26-1, 2.2.26-0, 2.2.22-1, 2.2.22-0
+   :versions: 2.2.26-2, 2.2.26-1, 2.2.26-0, 2.2.22-1, 2.2.22-0, 2.2.19-0
    
    :requirements:
 
