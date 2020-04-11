@@ -23,7 +23,7 @@ ezclermont
 
    |downloads_ezclermont| |docker_ezclermont|
 
-   :versions: 0.6.1-0, 0.5.0-0, 0.4.3-0
+   :versions: 0.6.2-0, 0.6.1-0, 0.5.0-0, 0.4.3-0
    
    :depends biopython: 
    :depends coverage: 

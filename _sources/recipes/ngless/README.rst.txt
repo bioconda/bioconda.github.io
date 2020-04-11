@@ -23,9 +23,16 @@ ngless
 
    |downloads_ngless| |docker_ngless|
 
-   :versions: 1.1.0-0, 1.0.1-0, 1.0.0-0, 0.11.1-0, 0.10.0-0, 0.9.1-0, 0.9.0-0, 0.8.1-0, 0.8.0-0, 0.7.1-1, 0.7.1-0, 0.7.0-0, 0.6.1-0, 0.6.0-0, 0.5.1-0
+   :versions: 1.1.1-0, 1.1.0-0, 1.0.1-0, 1.0.0-0, 0.11.1-0, 0.10.0-0, 0.9.1-0, 0.9.0-0, 0.8.1-0, 0.8.0-0, 0.7.1-1, 0.7.1-0, 0.7.0-0, 0.6.1-0, 0.6.0-0, 0.5.1-0
    
-   :depends python: 
+   :depends bzip2: >=1.0.8,<2.0a0
+   :depends gmp: >=6.2.0,<7.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libiconv: >=1.15,<1.16.0a0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends python: >=3.8,<3.9.0a0
+   :depends xz: >=5.2.5,<5.3.0a0
+   :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
    .. rubric:: Installation

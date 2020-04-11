@@ -14,7 +14,7 @@ minia
    :homepage: https://github.com/GATB/minia
    :license: file
    :recipe: /`minia <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minia>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minia/meta.yaml>`_
-   :links: biotools: :biotools:`miniax`
+   :links: biotools: :biotools:`minia`
 
    
 
@@ -23,7 +23,7 @@ minia
 
    |downloads_minia| |docker_minia|
 
-   :versions: 3.2.1-0
+   :versions: 3.2.2-0, 3.2.1-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
