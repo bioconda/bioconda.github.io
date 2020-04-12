@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
     <title>cli &#8212; Bioconda  documentation</title>
@@ -193,15 +193,15 @@
 </tbody>
 </table>
 <p class="rubric">Documentation</p>
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.cli.autobump">
-<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">autobump</code><span class="sig-paren">(</span><em class="sig-param">recipe_folder</em>, <em class="sig-param">config</em>, <em class="sig-param">packages='*'</em>, <em class="sig-param">exclude=None</em>, <em class="sig-param">cache=None</em>, <em class="sig-param">failed_urls=None</em>, <em class="sig-param">unparsed_urls=None</em>, <em class="sig-param">recipe_status=None</em>, <em class="sig-param">exclude_subrecipes=None</em>, <em class="sig-param">exclude_channels='conda-forge'</em>, <em class="sig-param">ignore_blacklists=False</em>, <em class="sig-param">fetch_requirements=False</em>, <em class="sig-param">check_branch=False</em>, <em class="sig-param">create_branch=False</em>, <em class="sig-param">create_pr=False</em>, <em class="sig-param">only_active=False</em>, <em class="sig-param">no_shuffle=False</em>, <em class="sig-param">max_updates=0</em>, <em class="sig-param">dry_run=False</em>, <em class="sig-param">no_check_pinnings=False</em>, <em class="sig-param">no_follow_graph=False</em>, <em class="sig-param">no_check_version_update=False</em>, <em class="sig-param">no_check_pending_deps=False</em>, <em class="sig-param">bump_only_python=False</em>, <em class="sig-param">sign=0</em>, <em class="sig-param">commit_as=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#autobump"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.autobump" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">autobump</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe_folder</span></em>, <em class="sig-param"><span class="n">config</span></em>, <em class="sig-param"><span class="n">packages</span><span class="o">=</span><span class="default_value">'*'</span></em>, <em class="sig-param"><span class="n">exclude</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">cache</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">failed_urls</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">unparsed_urls</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">recipe_status</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">exclude_subrecipes</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">exclude_channels</span><span class="o">=</span><span class="default_value">'conda-forge'</span></em>, <em class="sig-param"><span class="n">ignore_blacklists</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">fetch_requirements</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">check_branch</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">create_branch</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">create_pr</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">only_active</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">no_shuffle</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">max_updates</span><span class="o">=</span><span class="default_value">0</span></em>, <em class="sig-param"><span class="n">dry_run</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">no_check_pinnings</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">no_follow_graph</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">no_check_version_update</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">no_check_pending_deps</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">bump_only_python</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">sign</span><span class="o">=</span><span class="default_value">0</span></em>, <em class="sig-param"><span class="n">commit_as</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#autobump"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.autobump" title="Permalink to this definition">¶</a></dt>
 <dd><p>Updates recipes in recipe_folder</p>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.cli.bioconductor_skeleton">
-<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">bioconductor_skeleton</code><span class="sig-paren">(</span><em class="sig-param">recipe_folder, config, package, versioned=False, force=False, pkg_version=None, bioc_version=None, recursive=False, skip_if_in_channels=['conda-forge', 'bioconda']</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#bioconductor_skeleton"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.bioconductor_skeleton" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">bioconductor_skeleton</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe_folder</span></em>, <em class="sig-param"><span class="n">config</span></em>, <em class="sig-param"><span class="n">package</span></em>, <em class="sig-param"><span class="n">versioned</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">force</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">pkg_version</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">bioc_version</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">recursive</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">skip_if_in_channels</span><span class="o">=</span><span class="default_value">['conda-forge', 'bioconda']</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#bioconductor_skeleton"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.bioconductor_skeleton" title="Permalink to this definition">¶</a></dt>
 <dd><p>Build a Bioconductor recipe. The recipe will be created in the ‘recipes’
 directory and will be prefixed by “bioconductor-“. If –recursive is set,
 then any R dependency recipes will be prefixed by “r-“.</p>
@@ -218,18 +218,18 @@ and submit to conda-forge.</p>
 </dl>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.cli.bot">
-<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">bot</code><span class="sig-paren">(</span><em class="sig-param">loglevel='info'</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#bot"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.bot" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">bot</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">loglevel</span><span class="o">=</span><span class="default_value">'info'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#bot"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.bot" title="Permalink to this definition">¶</a></dt>
 <dd><p>Locally accedd bioconda-bot command API</p>
 <p>To run the bot locally, use:</p>
 <p>$ gunicorn bioconda_utils.bot:init_app_internal_celery –worker-class aiohttp.worker.GunicornWebWorker</p>
 <p>You can append –reload to have gunicorn reload if any of the python files change.</p>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.cli.clean_cran_skeleton">
-<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">clean_cran_skeleton</code><span class="sig-paren">(</span><em class="sig-param">recipe</em>, <em class="sig-param">no_windows=False</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#clean_cran_skeleton"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.clean_cran_skeleton" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">clean_cran_skeleton</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em>, <em class="sig-param"><span class="n">no_windows</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#clean_cran_skeleton"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.clean_cran_skeleton" title="Permalink to this definition">¶</a></dt>
 <dd><p>Cleans skeletons created by <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cran</span></code>.</p>
 <p>Before submitting to conda-forge or Bioconda, recipes generated with <code class="docutils literal notranslate"><span class="pre">conda</span>
 <span class="pre">skeleton</span> <span class="pre">cran</span></code> need to be cleaned up: comments removed, licenses fixed, and
@@ -237,42 +237,42 @@ other linting.</p>
 <p>Use –no-windows for a Bioconda submission.</p>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.cli.dag">
-<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">dag</code><span class="sig-paren">(</span><em class="sig-param">recipe_folder</em>, <em class="sig-param">config</em>, <em class="sig-param">packages='*'</em>, <em class="sig-param">format='gml'</em>, <em class="sig-param">hide_singletons=False</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#dag"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.dag" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">dag</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe_folder</span></em>, <em class="sig-param"><span class="n">config</span></em>, <em class="sig-param"><span class="n">packages</span><span class="o">=</span><span class="default_value">'*'</span></em>, <em class="sig-param"><span class="n">format</span><span class="o">=</span><span class="default_value">'gml'</span></em>, <em class="sig-param"><span class="n">hide_singletons</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#dag"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.dag" title="Permalink to this definition">¶</a></dt>
 <dd><p>Export the DAG of packages to a graph format file for visualization</p>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.cli.dependent">
-<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">dependent</code><span class="sig-paren">(</span><em class="sig-param">recipe_folder</em>, <em class="sig-param">config</em>, <em class="sig-param">restrict=False</em>, <em class="sig-param">dependencies=None</em>, <em class="sig-param">reverse_dependencies=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#dependent"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.dependent" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">dependent</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe_folder</span></em>, <em class="sig-param"><span class="n">config</span></em>, <em class="sig-param"><span class="n">restrict</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">dependencies</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">reverse_dependencies</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#dependent"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.dependent" title="Permalink to this definition">¶</a></dt>
 <dd><p>Print recipes dependent on a package</p>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.cli.do_lint">
-<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">do_lint</code><span class="sig-paren">(</span><em class="sig-param">recipe_folder</em>, <em class="sig-param">config</em>, <em class="sig-param">packages='*'</em>, <em class="sig-param">cache=None</em>, <em class="sig-param">list_checks=False</em>, <em class="sig-param">exclude=None</em>, <em class="sig-param">push_status=False</em>, <em class="sig-param">user='bioconda'</em>, <em class="sig-param">commit=None</em>, <em class="sig-param">push_comment=False</em>, <em class="sig-param">pull_request=None</em>, <em class="sig-param">repo='bioconda-recipes'</em>, <em class="sig-param">git_range=None</em>, <em class="sig-param">full_report=False</em>, <em class="sig-param">try_fix=False</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#do_lint"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.do_lint" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">do_lint</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe_folder</span></em>, <em class="sig-param"><span class="n">config</span></em>, <em class="sig-param"><span class="n">packages</span><span class="o">=</span><span class="default_value">'*'</span></em>, <em class="sig-param"><span class="n">cache</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">list_checks</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">exclude</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">push_status</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">user</span><span class="o">=</span><span class="default_value">'bioconda'</span></em>, <em class="sig-param"><span class="n">commit</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">push_comment</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">pull_request</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">repo</span><span class="o">=</span><span class="default_value">'bioconda-recipes'</span></em>, <em class="sig-param"><span class="n">git_range</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">full_report</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">try_fix</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#do_lint"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.do_lint" title="Permalink to this definition">¶</a></dt>
 <dd><p>Lint recipes</p>
 <p>If –push-status is not set, reports a TSV of linting results to stdout.
 Otherwise pushes a commit status to the specified commit on github.</p>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.cli.duplicates">
-<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">duplicates</code><span class="sig-paren">(</span><em class="sig-param">config</em>, <em class="sig-param">strict_version=False</em>, <em class="sig-param">strict_build=False</em>, <em class="sig-param">dryrun=False</em>, <em class="sig-param">remove=False</em>, <em class="sig-param">url=False</em>, <em class="sig-param">channel='bioconda'</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#duplicates"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.duplicates" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">duplicates</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">config</span></em>, <em class="sig-param"><span class="n">strict_version</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">strict_build</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">dryrun</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">remove</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">url</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">channel</span><span class="o">=</span><span class="default_value">'bioconda'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#duplicates"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.duplicates" title="Permalink to this definition">¶</a></dt>
 <dd><p>Detect packages in bioconda that have duplicates in the other defined
 channels.</p>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.cli.enable_debugging">
 <code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">enable_debugging</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#enable_debugging"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.enable_debugging" title="Permalink to this definition">¶</a></dt>
 <dd><p>Adds the paremeter <code class="docutils literal notranslate"><span class="pre">--pdb</span></code> (or <code class="docutils literal notranslate"><span class="pre">-P</span></code>) to enable dropping into PDB</p>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.cli.enable_logging">
-<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">enable_logging</code><span class="sig-paren">(</span><em class="sig-param">default_loglevel='info'</em>, <em class="sig-param">default_file_loglevel='debug'</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#enable_logging"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.enable_logging" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">enable_logging</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">default_loglevel</span><span class="o">=</span><span class="default_value">'info'</span></em>, <em class="sig-param"><span class="n">default_file_loglevel</span><span class="o">=</span><span class="default_value">'debug'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#enable_logging"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.enable_logging" title="Permalink to this definition">¶</a></dt>
 <dd><p>Adds the parameter <code class="docutils literal notranslate"><span class="pre">--loglevel</span></code> and sets up logging</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -281,15 +281,15 @@ channels.</p>
 </dl>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.cli.enable_threads">
 <code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">enable_threads</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#enable_threads"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.enable_threads" title="Permalink to this definition">¶</a></dt>
 <dd><p>Adds the parameter <code class="docutils literal notranslate"><span class="pre">--threads</span></code> (or <code class="docutils literal notranslate"><span class="pre">-t</span></code>) to limit parallelism</p>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.cli.get_recipes">
-<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">get_recipes</code><span class="sig-paren">(</span><em class="sig-param">config</em>, <em class="sig-param">recipe_folder</em>, <em class="sig-param">packages</em>, <em class="sig-param">git_range</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#get_recipes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.get_recipes" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">get_recipes</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">config</span></em>, <em class="sig-param"><span class="n">recipe_folder</span></em>, <em class="sig-param"><span class="n">packages</span></em>, <em class="sig-param"><span class="n">git_range</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#get_recipes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.get_recipes" title="Permalink to this definition">¶</a></dt>
 <dd><p>Gets list of paths to recipe folders to be built</p>
 <p>Considers all recipes matching globs in packages, constrains to
 recipes modified or unblacklisted in the git_range if given, then
@@ -301,9 +301,9 @@ removes blacklisted recipes.</p>
 </dl>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.cli.get_recipes_to_build">
-<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">get_recipes_to_build</code><span class="sig-paren">(</span><em class="sig-param">git_range</em>, <em class="sig-param">recipe_folder</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#get_recipes_to_build"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.get_recipes_to_build" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">get_recipes_to_build</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">git_range</span></em>, <em class="sig-param"><span class="n">recipe_folder</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#get_recipes_to_build"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.get_recipes_to_build" title="Permalink to this definition">¶</a></dt>
 <dd><p>Gets list of modified recipes according to git_range and blacklist</p>
 <p>See <a class="reference internal" href="bioconda_utils.githandler.html#bioconda_utils.githandler.BiocondaRepoMixin.get_recipes_to_build" title="bioconda_utils.githandler.BiocondaRepoMixin.get_recipes_to_build"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">BiocondaRepoMixin.get_recipes_to_build()</span></code></a>.</p>
 <dl class="field-list simple">
@@ -321,16 +321,16 @@ which were unblacklisted.</p>
 </dl>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.cli.recipe_folder_and_config">
-<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">recipe_folder_and_config</code><span class="sig-paren">(</span><em class="sig-param">allow_missing_for=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#recipe_folder_and_config"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.recipe_folder_and_config" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">recipe_folder_and_config</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">allow_missing_for</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#recipe_folder_and_config"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.recipe_folder_and_config" title="Permalink to this definition">¶</a></dt>
 <dd><p>Adds optional positional arguments recipe_folder and config</p>
 <p>Requires that func has synopsis <code class="docutils literal notranslate"><span class="pre">def</span> <span class="pre">x(recipe_folder,</span> <span class="pre">config,...)</span></code>.</p>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.cli.update_pinning">
-<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">update_pinning</code><span class="sig-paren">(</span><em class="sig-param">recipe_folder</em>, <em class="sig-param">config</em>, <em class="sig-param">packages='*'</em>, <em class="sig-param">skip_additional_channels=None</em>, <em class="sig-param">bump_only_python=False</em>, <em class="sig-param">cache=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#update_pinning"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.update_pinning" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.cli.</code><code class="sig-name descname">update_pinning</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe_folder</span></em>, <em class="sig-param"><span class="n">config</span></em>, <em class="sig-param"><span class="n">packages</span><span class="o">=</span><span class="default_value">'*'</span></em>, <em class="sig-param"><span class="n">skip_additional_channels</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">bump_only_python</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">cache</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/cli.html#update_pinning"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.cli.update_pinning" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bump a package build number and all dependencies as required due
 to a change in pinnings</p>
 </dd></dl>
@@ -348,7 +348,7 @@ to a change in pinnings</p>
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

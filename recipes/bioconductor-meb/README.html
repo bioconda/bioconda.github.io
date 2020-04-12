@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
     <title>Package Recipe &#39;bioconductor-meb&#39; &#8212; Bioconda  documentation</title>
@@ -99,7 +99,7 @@
           <div class="body" role="main">
             
   <div class="section" id="bioconductor-meb">
-<dl class="recipe">
+<dl class="conda recipe">
 <dt id="recipe-bioconductor-meb">
 <em class="property">recipe </em><code class="sig-name descname">bioconductor-meb</code><a class="headerlink" href="#recipe-bioconductor-meb" title="Permalink to this definition">¶</a></dt>
 <dd><p>A Minimum Enclosing Ball (MEB) method to detect differential expression genes for RNA-seq data</p>
@@ -117,7 +117,7 @@
 <p>Identifying differential expression genes between the same or different species is an urgent demand for biological research. In most of cases, normalization is the first step to solve this problem, then by employing the hypothesis testing, we could detect statistically significant genes. With the development of machine learning, it gives us a new perspective on discrimination between differential expression (DE) and non-differential expression (non-DE) genes. Provided a set of training data, the procedure of distinguishing genes could be simplified as a classification problem. However, in reality, it is hard for us to get the information from both DE and non-DE genes. To solve this problem, we try to identify differential cases only in the domain of non-DE genes, and transform the problem to an outlier detection in machine learning. Given that non-DE genes have some similarities in features, we build a Minimum Enclosing Ball (MEB) to cover those non-DE genes in feature space, then those DE genes, which are enormously different from non-DE genes, being regarded as outliers and rejected outside the ball. Compared with existing methods, it is no need for the MEB method to normalize data in advance. Besides, the MEB method could be easily applied to the same or different species data and without changing too much.</p>
 </dd></dl>
 
-<dl class="package">
+<dl class="conda package">
 <dt id="package-bioconductor-meb">
 <em class="property">package </em><code class="sig-name descname">bioconductor-meb</code><a class="headerlink" href="#package-bioconductor-meb" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-meb"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-meb.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-meb"><img alt="docker_bioconductor-meb" src="https://quay.io/repository/biocontainers/bioconductor-meb/status" /></a></p>
@@ -173,7 +173,7 @@
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

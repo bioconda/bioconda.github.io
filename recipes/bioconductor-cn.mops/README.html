@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
     <title>Package Recipe &#39;bioconductor-cn.mops&#39; &#8212; Bioconda  documentation</title>
@@ -99,7 +99,7 @@
           <div class="body" role="main">
             
   <div class="section" id="bioconductor-cn-mops">
-<dl class="recipe">
+<dl class="conda recipe">
 <dt id="recipe-bioconductor-cn.mops">
 <em class="property">recipe </em><code class="sig-name descname">bioconductor-cn.mops</code><a class="headerlink" href="#recipe-bioconductor-cn.mops" title="Permalink to this definition">¶</a></dt>
 <dd><p>cn.mops - Mixture of Poissons for CNV detection in NGS data</p>
@@ -120,7 +120,7 @@
 <p>cn.mops (Copy Number estimation by a Mixture Of PoissonS) is a data processing pipeline for copy number variations and aberrations (CNVs and CNAs) from next generation sequencing (NGS) data. The package supplies functions to convert BAM files into read count matrices or genomic ranges objects, which are the input objects for cn.mops. cn.mops models the depths of coverage across samples at each genomic position. Therefore, it does not suffer from read count biases along chromosomes. Using a Bayesian approach, cn.mops decomposes read variations across samples into integer copy numbers and noise by its mixture components and Poisson distributions, respectively. cn.mops guarantees a low FDR because wrong detections are indicated by high noise and filtered out. cn.mops is very fast and written in C++.</p>
 </dd></dl>
 
-<dl class="package">
+<dl class="conda package">
 <dt id="package-bioconductor-cn.mops">
 <em class="property">package </em><code class="sig-name descname">bioconductor-cn.mops</code><a class="headerlink" href="#package-bioconductor-cn.mops" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-cn.mops"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-cn.mops.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-cn.mops"><img alt="docker_bioconductor-cn.mops" src="https://quay.io/repository/biocontainers/bioconductor-cn.mops/status" /></a></p>
@@ -145,8 +145,8 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-panelcn.mops/README.html#bioconductor-panelcn.mops"><strong class="xref backref">bioconductor-panelcn.mops</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-copynumberplots/README.html#bioconductor-copynumberplots"><strong class="xref backref">bioconductor-copynumberplots</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-panelcn.mops/README.html#bioconductor-panelcn.mops"><strong class="xref backref">bioconductor-panelcn.mops</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -186,7 +186,7 @@
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
     <title>build &#8212; Bioconda  documentation</title>
@@ -169,18 +169,17 @@
 </tbody>
 </table>
 <p class="rubric">Documentation</p>
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.build.BuildResult">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.build.</code><code class="sig-name descname">BuildResult</code><span class="sig-paren">(</span><em class="sig-param">success</em>, <em class="sig-param">mulled_images</em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.build.BuildResult" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">tuple</span></code></a></p>
-<p>Result tuple for builds comprising success status and list of docker images</p>
-<dl class="method">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.build.</code><code class="sig-name descname">BuildResult</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">success</span></em>, <em class="sig-param"><span class="n">mulled_images</span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.build.BuildResult" title="Permalink to this definition">¶</a></dt>
+<dd><p>Result tuple for builds comprising success status and list of docker images</p>
+<dl class="py method">
 <dt id="bioconda_utils.build.BuildResult.mulled_images">
 <em class="property">property </em><code class="sig-name descname">mulled_images</code><a class="headerlink" href="#bioconda_utils.build.BuildResult.mulled_images" title="Permalink to this definition">¶</a></dt>
 <dd><p>Alias for field number 1</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.build.BuildResult.success">
 <em class="property">property </em><code class="sig-name descname">success</code><a class="headerlink" href="#bioconda_utils.build.BuildResult.success" title="Permalink to this definition">¶</a></dt>
 <dd><p>Alias for field number 0</p>
@@ -188,9 +187,9 @@
 
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.build.build">
-<code class="sig-prename descclassname">bioconda_utils.build.</code><code class="sig-name descname">build</code><span class="sig-paren">(</span><em class="sig-param">recipe</em>, <em class="sig-param">pkg_paths=None</em>, <em class="sig-param">testonly=False</em>, <em class="sig-param">mulled_test=True</em>, <em class="sig-param">channels=None</em>, <em class="sig-param">docker_builder=None</em>, <em class="sig-param">raise_error=False</em>, <em class="sig-param">linter=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/build.html#build"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.build.build" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.build.</code><code class="sig-name descname">build</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em>, <em class="sig-param"><span class="n">pkg_paths</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">testonly</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">mulled_test</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">channels</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">docker_builder</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">raise_error</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">linter</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/build.html#build"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.build.build" title="Permalink to this definition">¶</a></dt>
 <dd><p>Build a single recipe for a single env</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -215,9 +214,9 @@ error instead. Used for testing.</p></li>
 </dl>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.build.build_recipes">
-<code class="sig-prename descclassname">bioconda_utils.build.</code><code class="sig-name descname">build_recipes</code><span class="sig-paren">(</span><em class="sig-param">recipe_folder</em>, <em class="sig-param">config_path</em>, <em class="sig-param">recipes</em>, <em class="sig-param">mulled_test=True</em>, <em class="sig-param">testonly=False</em>, <em class="sig-param">force=False</em>, <em class="sig-param">docker_builder=None</em>, <em class="sig-param">label=None</em>, <em class="sig-param">anaconda_upload=False</em>, <em class="sig-param">mulled_upload_target=None</em>, <em class="sig-param">check_channels=None</em>, <em class="sig-param">do_lint=None</em>, <em class="sig-param">lint_exclude=None</em>, <em class="sig-param">n_workers=1</em>, <em class="sig-param">worker_offset=0</em>, <em class="sig-param">keep_old_work=False</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/build.html#build_recipes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.build.build_recipes" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.build.</code><code class="sig-name descname">build_recipes</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe_folder</span></em>, <em class="sig-param"><span class="n">config_path</span></em>, <em class="sig-param"><span class="n">recipes</span></em>, <em class="sig-param"><span class="n">mulled_test</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">testonly</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">force</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">docker_builder</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">label</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">anaconda_upload</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">mulled_upload_target</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">check_channels</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">do_lint</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">lint_exclude</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">n_workers</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">worker_offset</span><span class="o">=</span><span class="default_value">0</span></em>, <em class="sig-param"><span class="n">keep_old_work</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/build.html#build_recipes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.build.build_recipes" title="Permalink to this definition">¶</a></dt>
 <dd><p>Build one or many bioconda packages.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -249,7 +248,7 @@ sub-DAGs will be processed.</p></li>
 </dl>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.build.conda_build_purge">
 <code class="sig-prename descclassname">bioconda_utils.build.</code><code class="sig-name descname">conda_build_purge</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/build.html#conda_build_purge"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.build.conda_build_purge" title="Permalink to this definition">¶</a></dt>
 <dd><p>Calls conda build purge and optionally conda clean</p>
@@ -275,7 +274,7 @@ on the current disk.</p>
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

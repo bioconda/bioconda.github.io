@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
     <title>lint &#8212; Bioconda  documentation</title>
@@ -179,7 +179,7 @@ specify the line number directly (<code class="docutils literal notranslate"><sp
 <div class="section" id="module-autodocs">
 <h2>Module Autodocs<a class="headerlink" href="#module-autodocs" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">Environment Variables</p>
-<dl class="envvar">
+<dl class="std envvar">
 <dt id="envvar-LINT_SKIP">
 <code class="sig-name descname">LINT_SKIP</code><a class="headerlink" href="#envvar-LINT_SKIP" title="Permalink to this definition">¶</a></dt>
 <dd><p>If set, will be parsed instead of the most recent commit. To skip
@@ -285,14 +285,13 @@ checks for specific recipes, add strings of the following form:</p>
 </tbody>
 </table>
 <p class="rubric">Documentation</p>
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.lint.LintCheck">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">LintCheck</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
-<p>Base class for lint checks</p>
-<dl class="method">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">LintCheck</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck" title="Permalink to this definition">¶</a></dt>
+<dd><p>Base class for lint checks</p>
+<dl class="py method">
 <dt id="bioconda_utils.lint.LintCheck.check_deps">
-<code class="sig-name descname">check_deps</code><span class="sig-paren">(</span><em class="sig-param">deps</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.check_deps"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.check_deps" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">check_deps</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">deps</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.check_deps"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.check_deps" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on recipe dependencies</p>
 <p>Example format for <strong>deps</strong>:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
@@ -315,9 +314,9 @@ to their locations within the recipe.</p>
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.LintCheck.check_recipe">
-<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.check_recipe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.check_recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on recipe</p>
 <p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
 to issue <a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
@@ -331,9 +330,9 @@ to issue <a class="reference internal" href="#bioconda_utils.lint.LintMessage" t
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.LintCheck.check_source">
-<code class="sig-name descname">check_source</code><span class="sig-paren">(</span><em class="sig-param">source</em>, <em class="sig-param">section</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.check_source"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.check_source" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">check_source</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">source</span></em>, <em class="sig-param"><span class="n">section</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.check_source"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.check_source" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on each source</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -349,9 +348,9 @@ to issue <a class="reference internal" href="#bioconda_utils.lint.LintMessage" t
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.LintCheck.fix">
-<code class="sig-name descname">fix</code><span class="sig-paren">(</span><em class="sig-param">message</em>, <em class="sig-param">data</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.fix"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.fix" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">fix</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">message</span></em>, <em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.fix"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.fix" title="Permalink to this definition">¶</a></dt>
 <dd><p>Attempt to fix the problem</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -360,9 +359,9 @@ to issue <a class="reference internal" href="#bioconda_utils.lint.LintMessage" t
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.LintCheck.make_message">
-<em class="property">classmethod </em><code class="sig-name descname">make_message</code><span class="sig-paren">(</span><em class="sig-param">recipe</em>, <em class="sig-param">section=None</em>, <em class="sig-param">fname=None</em>, <em class="sig-param">line=None</em>, <em class="sig-param">canfix=False</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.make_message"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.make_message" title="Permalink to this definition">¶</a></dt>
+<em class="property">classmethod </em><code class="sig-name descname">make_message</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em>, <em class="sig-param"><span class="n">section</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">fname</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">line</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">canfix</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.make_message"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.make_message" title="Permalink to this definition">¶</a></dt>
 <dd><p>Create a LintMessage</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -381,9 +380,9 @@ recipe meta.yaml</p></li>
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.LintCheck.message">
-<code class="sig-name descname">message</code><span class="sig-paren">(</span><em class="sig-param">section=None</em>, <em class="sig-param">fname=None</em>, <em class="sig-param">line=None</em>, <em class="sig-param">data=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.message"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.message" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">message</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">section</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">fname</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">line</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">data</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.message"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.message" title="Permalink to this definition">¶</a></dt>
 <dd><p>Add a message to the lint results</p>
 <p>Also calls <a class="reference internal" href="#bioconda_utils.lint.LintCheck.fix" title="bioconda_utils.lint.LintCheck.fix"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">fix</span></code></a> if we are supposed to be fixing.</p>
 <dl class="field-list simple">
@@ -405,27 +404,27 @@ something other than None.</p></li>
 </dl>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.lint.LintCheck.messages">
 <code class="sig-name descname">messages</code><em class="property">: List[LintMessage]</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.messages" title="Permalink to this definition">¶</a></dt>
 <dd><p>Messages collected running tests</p>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.lint.LintCheck.recipe">
 <code class="sig-name descname">recipe</code><em class="property">: _recipe.Recipe</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Recipe currently being checked</p>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.lint.LintCheck.requires">
 <code class="sig-name descname">requires</code><em class="property">: List[LintCheck]</em><em class="property"> = []</em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.requires" title="Permalink to this definition">¶</a></dt>
 <dd><p>Checks that must have passed for this check to be executed.</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.LintCheck.run">
-<code class="sig-name descname">run</code><span class="sig-paren">(</span><em class="sig-param">recipe</em>, <em class="sig-param">fix=False</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.run" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">run</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em>, <em class="sig-param"><span class="n">fix</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheck.run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheck.run" title="Permalink to this definition">¶</a></dt>
 <dd><p>Run the check on a recipe. Called by Linter</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -440,13 +439,13 @@ something other than None.</p></li>
 </dl>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.lint.LintCheck.severity">
 <code class="sig-name descname">severity</code><em class="property">: bioconda_utils.lint.Severity</em><em class="property"> = 30</em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.severity" title="Permalink to this definition">¶</a></dt>
 <dd><p>Severity of this check. Only ERROR causes a lint failure.</p>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.lint.LintCheck.try_fix">
 <code class="sig-name descname">try_fix</code><em class="property">: bool</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.lint.LintCheck.try_fix" title="Permalink to this definition">¶</a></dt>
 <dd><p>Whether we are supposed to fix</p>
@@ -454,76 +453,74 @@ something other than None.</p></li>
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.lint.LintCheckMeta">
 <em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">LintCheckMeta</code><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintCheckMeta"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintCheckMeta" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/abc.html#abc.ABCMeta" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">abc.ABCMeta</span></code></a></p>
-<p>Meta class for lint checks</p>
+<dd><p>Meta class for lint checks</p>
 <p>Handles registry</p>
 <p>Creates LintCheck classes</p>
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.lint.LintMessage">
 <em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">LintMessage</code><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintMessage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintMessage" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">tuple</span></code></a></p>
-<p>Message issued by LintChecks</p>
+<dd><p>Message issued by LintChecks</p>
 <p>Create new instance of LintMessage(recipe, check, severity, title, body, start_line, end_line, fname, canfix)</p>
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.LintMessage.body">
 <em class="property">property </em><code class="sig-name descname">body</code><a class="headerlink" href="#bioconda_utils.lint.LintMessage.body" title="Permalink to this definition">¶</a></dt>
 <dd><p>Message body to be presented to user</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.LintMessage.canfix">
 <em class="property">property </em><code class="sig-name descname">canfix</code><a class="headerlink" href="#bioconda_utils.lint.LintMessage.canfix" title="Permalink to this definition">¶</a></dt>
 <dd><p>Whether the problem can be auto fixed</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.LintMessage.check">
 <em class="property">property </em><code class="sig-name descname">check</code><a class="headerlink" href="#bioconda_utils.lint.LintMessage.check" title="Permalink to this definition">¶</a></dt>
 <dd><p>The check issuing the message</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.LintMessage.end_line">
 <em class="property">property </em><code class="sig-name descname">end_line</code><a class="headerlink" href="#bioconda_utils.lint.LintMessage.end_line" title="Permalink to this definition">¶</a></dt>
 <dd><p>Line at which problem ends</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.LintMessage.fname">
 <em class="property">property </em><code class="sig-name descname">fname</code><a class="headerlink" href="#bioconda_utils.lint.LintMessage.fname" title="Permalink to this definition">¶</a></dt>
 <dd><p>Name of file in which error was found</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.LintMessage.get_level">
 <code class="sig-name descname">get_level</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#LintMessage.get_level"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.LintMessage.get_level" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return level string as required by github</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.LintMessage.recipe">
 <em class="property">property </em><code class="sig-name descname">recipe</code><a class="headerlink" href="#bioconda_utils.lint.LintMessage.recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>The recipe this message refers to</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.LintMessage.severity">
 <em class="property">property </em><code class="sig-name descname">severity</code><a class="headerlink" href="#bioconda_utils.lint.LintMessage.severity" title="Permalink to this definition">¶</a></dt>
 <dd><p>The severity of the message</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.LintMessage.start_line">
 <em class="property">property </em><code class="sig-name descname">start_line</code><a class="headerlink" href="#bioconda_utils.lint.LintMessage.start_line" title="Permalink to this definition">¶</a></dt>
 <dd><p>Line at which problem begins</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.LintMessage.title">
 <em class="property">property </em><code class="sig-name descname">title</code><a class="headerlink" href="#bioconda_utils.lint.LintMessage.title" title="Permalink to this definition">¶</a></dt>
 <dd><p>Message title to be presented to user</p>
@@ -531,11 +528,10 @@ something other than None.</p></li>
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.lint.Linter">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">Linter</code><span class="sig-paren">(</span><em class="sig-param">config</em>, <em class="sig-param">recipe_folder</em>, <em class="sig-param">exclude=None</em>, <em class="sig-param">nocatch=False</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#Linter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.Linter" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
-<p>Lint executor</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">Linter</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">config</span></em>, <em class="sig-param"><span class="n">recipe_folder</span></em>, <em class="sig-param"><span class="n">exclude</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">nocatch</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#Linter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.Linter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Lint executor</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
@@ -554,13 +550,13 @@ linter_error lint messages. Used by tests.</p></li>
 </ul>
 </dd>
 </dl>
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.Linter.clear_messages">
 <code class="sig-name descname">clear_messages</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#Linter.clear_messages"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.Linter.clear_messages" title="Permalink to this definition">¶</a></dt>
 <dd><p>Clears the lint messages stored in linter</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.Linter.get_blacklist">
 <code class="sig-name descname">get_blacklist</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#Linter.get_blacklist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.Linter.get_blacklist" title="Permalink to this definition">¶</a></dt>
 <dd><p>Loads the blacklist as per linter configuration</p>
@@ -571,7 +567,7 @@ linter_error lint messages. Used by tests.</p></li>
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.Linter.get_messages">
 <code class="sig-name descname">get_messages</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#Linter.get_messages"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.Linter.get_messages" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns the lint messages collected during linting</p>
@@ -582,9 +578,9 @@ linter_error lint messages. Used by tests.</p></li>
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.Linter.lint">
-<code class="sig-name descname">lint</code><span class="sig-paren">(</span><em class="sig-param">recipe_names</em>, <em class="sig-param">fix=False</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#Linter.lint"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.Linter.lint" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">lint</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe_names</span></em>, <em class="sig-param"><span class="n">fix</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#Linter.lint"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.Linter.lint" title="Permalink to this definition">¶</a></dt>
 <dd><p>Run linter on multiple recipes</p>
 <p>Lint messages are collected in the linter. They can be retrieved
 with <a class="reference internal" href="#bioconda_utils.lint.Linter.get_messages" title="bioconda_utils.lint.Linter.get_messages"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">get_messages</span></code></a> and the list cleared with <a class="reference internal" href="#bioconda_utils.lint.Linter.clear_messages" title="bioconda_utils.lint.Linter.clear_messages"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">clear_messages</span></code></a>.</p>
@@ -604,9 +600,9 @@ with <a class="reference internal" href="#bioconda_utils.lint.Linter.get_message
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.Linter.lint_one">
-<code class="sig-name descname">lint_one</code><span class="sig-paren">(</span><em class="sig-param">recipe_name</em>, <em class="sig-param">fix=False</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#Linter.lint_one"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.Linter.lint_one" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">lint_one</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe_name</span></em>, <em class="sig-param"><span class="n">fix</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#Linter.lint_one"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.Linter.lint_one" title="Permalink to this definition">¶</a></dt>
 <dd><p>Run the linter on a single recipe</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -624,7 +620,7 @@ with <a class="reference internal" href="#bioconda_utils.lint.Linter.get_message
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.Linter.load_skips">
 <code class="sig-name descname">load_skips</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#Linter.load_skips"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.Linter.load_skips" title="Permalink to this definition">¶</a></dt>
 <dd><p>Parses lint skips</p>
@@ -635,24 +631,23 @@ check will be skipped.</p>
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.lint.Severity">
 <em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">Severity</code><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#Severity"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.Severity" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.IntEnum" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">enum.IntEnum</span></code></a></p>
-<p>Severities for lint checks</p>
-<dl class="attribute">
+<dd><p>Severities for lint checks</p>
+<dl class="py attribute">
 <dt id="bioconda_utils.lint.Severity.ERROR">
 <code class="sig-name descname">ERROR</code><em class="property"> = 30</em><a class="headerlink" href="#bioconda_utils.lint.Severity.ERROR" title="Permalink to this definition">¶</a></dt>
 <dd><p>Checks of this severity must be fixed and will fail a recipe.</p>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.lint.Severity.INFO">
 <code class="sig-name descname">INFO</code><em class="property"> = 10</em><a class="headerlink" href="#bioconda_utils.lint.Severity.INFO" title="Permalink to this definition">¶</a></dt>
 <dd><p>Checks of this severity are purely informational</p>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.lint.Severity.WARNING">
 <code class="sig-name descname">WARNING</code><em class="property"> = 20</em><a class="headerlink" href="#bioconda_utils.lint.Severity.WARNING" title="Permalink to this definition">¶</a></dt>
 <dd><p>Checks of this severity indicate possible problems</p>
@@ -660,60 +655,54 @@ check will be skipped.</p>
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.lint.conda_render_failure">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">conda_render_failure</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#conda_render_failure"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.conda_render_failure" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
-<p>The recipe was not understood by conda-build</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">conda_render_failure</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#conda_render_failure"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.conda_render_failure" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe was not understood by conda-build</p>
 <p>Please request help from &#64;bioconda/core.</p>
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.lint.duplicate_key_in_meta_yaml">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">duplicate_key_in_meta_yaml</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#duplicate_key_in_meta_yaml"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.duplicate_key_in_meta_yaml" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
-<p>The recipe meta.yaml contains a duplicate key</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">duplicate_key_in_meta_yaml</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#duplicate_key_in_meta_yaml"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.duplicate_key_in_meta_yaml" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe meta.yaml contains a duplicate key</p>
 <p>This is invalid YAML, as it’s unclear what the structure should
 become. Please merge the two offending sections</p>
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.lint.empty_meta_yaml">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">empty_meta_yaml</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#empty_meta_yaml"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.empty_meta_yaml" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
-<p>The recipe has an empty meta.yaml!?</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">empty_meta_yaml</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#empty_meta_yaml"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.empty_meta_yaml" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe has an empty meta.yaml!?</p>
 <p>Please check if you forgot to commit its contents.</p>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.lint.get_checks">
 <code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">get_checks</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#get_checks"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.get_checks" title="Permalink to this definition">¶</a></dt>
 <dd><p>Loads and returns the available lint checks</p>
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.lint.jinja_render_failure">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">jinja_render_failure</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#jinja_render_failure"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.jinja_render_failure" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
-<p>The recipe could not be rendered by Jinja2</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">jinja_render_failure</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#jinja_render_failure"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.jinja_render_failure" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe could not be rendered by Jinja2</p>
 <p>Check if you are missing quotes or curly braces in Jinja2 template
 expressions. (The parts with <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">something</span> <span class="pre">}}</span></code> or <code class="docutils literal notranslate"><span class="pre">{%</span> <span class="pre">set</span>
 <span class="pre">var=&quot;value&quot;</span> <span class="pre">%}</span></code>).</p>
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.lint.linter_failure">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">linter_failure</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#linter_failure"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.linter_failure" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
-<p>An unexpected exception was raised during linting</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">linter_failure</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#linter_failure"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.linter_failure" title="Permalink to this definition">¶</a></dt>
+<dd><p>An unexpected exception was raised during linting</p>
 <p>Please file an issue at the bioconda-utils repo</p>
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.lint.missing_build">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">missing_build</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#missing_build"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.missing_build" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
-<p>The recipe is missing a build section.</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">missing_build</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#missing_build"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.missing_build" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe is missing a build section.</p>
 <p>Please add:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">build</span><span class="p">:</span>
   <span class="n">number</span><span class="p">:</span> <span class="mi">0</span>
@@ -721,20 +710,18 @@ expressions. (The parts with <code class="docutils literal notranslate"><span cl
 </div>
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.lint.missing_meta_yaml">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">missing_meta_yaml</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#missing_meta_yaml"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.missing_meta_yaml" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
-<p>The recipe is missing a meta.yaml file</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">missing_meta_yaml</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#missing_meta_yaml"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.missing_meta_yaml" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe is missing a meta.yaml file</p>
 <p>Most commonly, this is because the file was accidentally
 named <code class="docutils literal notranslate"><span class="pre">meta.yml</span></code>. If so, rename it to <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>.</p>
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.lint.missing_version_or_name">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">missing_version_or_name</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#missing_version_or_name"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.missing_version_or_name" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
-<p>The recipe is missing name and/or version</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">missing_version_or_name</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#missing_version_or_name"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.missing_version_or_name" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe is missing name and/or version</p>
 <p>Please make sure the recipe has at least:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">package</span><span class="p">:</span>
   <span class="n">name</span><span class="p">:</span> <span class="n">package_name</span>
@@ -743,25 +730,23 @@ named <code class="docutils literal notranslate"><span class="pre">meta.yml</spa
 </div>
 </dd></dl>
 
-<dl class="data">
+<dl class="py data">
 <dt id="bioconda_utils.lint.recipe_error_to_lint_check">
 <code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">recipe_error_to_lint_check</code><em class="property"> = {&lt;class 'bioconda_utils.recipe.DuplicateKey'&gt;: &lt;class 'bioconda_utils.lint.duplicate_key_in_meta_yaml'&gt;, &lt;class 'bioconda_utils.recipe.MissingKey'&gt;: &lt;class 'bioconda_utils.lint.missing_version_or_name'&gt;, &lt;class 'bioconda_utils.recipe.EmptyRecipe'&gt;: &lt;class 'bioconda_utils.lint.empty_meta_yaml'&gt;, &lt;class 'bioconda_utils.recipe.MissingBuild'&gt;: &lt;class 'bioconda_utils.lint.missing_build'&gt;, &lt;class 'bioconda_utils.recipe.HasSelector'&gt;: &lt;class 'bioconda_utils.lint.unknown_selector'&gt;, &lt;class 'bioconda_utils.recipe.MissingMetaYaml'&gt;: &lt;class 'bioconda_utils.lint.missing_meta_yaml'&gt;, &lt;class 'bioconda_utils.recipe.CondaRenderFailure'&gt;: &lt;class 'bioconda_utils.lint.conda_render_failure'&gt;, &lt;class 'bioconda_utils.recipe.RenderFailure'&gt;: &lt;class 'bioconda_utils.lint.jinja_render_failure'&gt;}</em><a class="headerlink" href="#bioconda_utils.lint.recipe_error_to_lint_check" title="Permalink to this definition">¶</a></dt>
 <dd><p>Maps <code class="xref any docutils literal notranslate"><span class="pre">_recipe.RecipeError</span></code> to <a class="reference internal" href="#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintCheck</span></code></a></p>
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.lint.unknown_check">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">unknown_check</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#unknown_check"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.unknown_check" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
-<p>Something went wrong inside the linter</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">unknown_check</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#unknown_check"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.unknown_check" title="Permalink to this definition">¶</a></dt>
+<dd><p>Something went wrong inside the linter</p>
 <p>Please request help from &#64;bioconda/core</p>
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.lint.unknown_selector">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">unknown_selector</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#unknown_selector"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.unknown_selector" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
-<p>The recipe failed to parse due to selector lines</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.</code><code class="sig-name descname">unknown_selector</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint.html#unknown_selector"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.unknown_selector" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe failed to parse due to selector lines</p>
 <p>Please request help from &#64;bioconda/core.</p>
 </dd></dl>
 
@@ -779,7 +764,7 @@ named <code class="docutils literal notranslate"><span class="pre">meta.yml</spa
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

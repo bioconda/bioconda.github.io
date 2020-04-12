@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
     <title>aiopipe &#8212; Bioconda  documentation</title>
@@ -166,18 +166,17 @@
 </tbody>
 </table>
 <p class="rubric">Documentation</p>
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.aiopipe.AsyncFilter">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.aiopipe.</code><code class="sig-name descname">AsyncFilter</code><span class="sig-paren">(</span><em class="sig-param">pipeline</em>, <em class="sig-param">*_args</em>, <em class="sig-param">**_kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncFilter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncFilter" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/abc.html#abc.ABC" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">abc.ABC</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Generic" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">typing.Generic</span></code></a></p>
-<p>Function object type called by Scanner</p>
-<dl class="method">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.aiopipe.</code><code class="sig-name descname">AsyncFilter</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">pipeline</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">_args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">_kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncFilter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncFilter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function object type called by Scanner</p>
+<dl class="py method">
 <dt id="bioconda_utils.aiopipe.AsyncFilter.apply">
-<em class="property">abstract async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncFilter.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncFilter.apply" title="Permalink to this definition">¶</a></dt>
+<em class="property">abstract async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncFilter.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncFilter.apply" title="Permalink to this definition">¶</a></dt>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.aiopipe.AsyncFilter.async_init">
 <em class="property">async </em><code class="sig-name descname">async_init</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncFilter.async_init"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncFilter.async_init" title="Permalink to this definition">¶</a></dt>
 <dd><p>Called inside loop before processing</p>
@@ -188,7 +187,7 @@
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.aiopipe.AsyncFilter.finalize">
 <code class="sig-name descname">finalize</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncFilter.finalize"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncFilter.finalize" title="Permalink to this definition">¶</a></dt>
 <dd><p>Called at the end of a run</p>
@@ -201,14 +200,13 @@
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.aiopipe.AsyncPipeline">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.aiopipe.</code><code class="sig-name descname">AsyncPipeline</code><span class="sig-paren">(</span><em class="sig-param">threads=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncPipeline"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Generic" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">typing.Generic</span></code></a></p>
-<p>Processes items in an asyncio pipeline</p>
-<dl class="method">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.aiopipe.</code><code class="sig-name descname">AsyncPipeline</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">threads</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncPipeline"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline" title="Permalink to this definition">¶</a></dt>
+<dd><p>Processes items in an asyncio pipeline</p>
+<dl class="py method">
 <dt id="bioconda_utils.aiopipe.AsyncPipeline.add">
-<code class="sig-name descname">add</code><span class="sig-paren">(</span><em class="sig-param">filt</em>, <em class="sig-param">*args</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncPipeline.add"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline.add" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">add</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">filt</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncPipeline.add"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline.add" title="Permalink to this definition">¶</a></dt>
 <dd><p>Adds <a class="reference internal" href="bioconda_utils.autobump.html#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Filter</span></code></a> to this <a class="reference internal" href="bioconda_utils.autobump.html#bioconda_utils.autobump.Scanner" title="bioconda_utils.autobump.Scanner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Scanner</span></code></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -217,40 +215,40 @@
 </dl>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.aiopipe.AsyncPipeline.conda_sem">
 <code class="sig-name descname">conda_sem</code><em class="property">: asyncio.Semaphore</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline.conda_sem" title="Permalink to this definition">¶</a></dt>
 <dd><p>must never run more than one conda at the same time
 (used by PyPi when running skeleton)</p>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.aiopipe.AsyncPipeline.filters">
 <code class="sig-name descname">filters</code><em class="property">: List[AsyncFilter]</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline.filters" title="Permalink to this definition">¶</a></dt>
 <dd><p>the filters successively applied to each item</p>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.aiopipe.AsyncPipeline.io_sem">
 <code class="sig-name descname">io_sem</code><em class="property">: asyncio.Semaphore</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline.io_sem" title="Permalink to this definition">¶</a></dt>
 <dd><p>semaphore to limit io parallelism</p>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.aiopipe.AsyncPipeline.loop">
 <code class="sig-name descname">loop</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline.loop" title="Permalink to this definition">¶</a></dt>
 <dd><p>our asyncio loop</p>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.aiopipe.AsyncPipeline.proc_pool_executor">
 <code class="sig-name descname">proc_pool_executor</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline.proc_pool_executor" title="Permalink to this definition">¶</a></dt>
 <dd><p>executor running things in separate python processes</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.aiopipe.AsyncPipeline.process">
-<em class="property">async </em><code class="sig-name descname">process</code><span class="sig-paren">(</span><em class="sig-param">item</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncPipeline.process"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline.process" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">process</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncPipeline.process"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline.process" title="Permalink to this definition">¶</a></dt>
 <dd><p>Applies the filters to an item</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -259,7 +257,7 @@
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.aiopipe.AsyncPipeline.run">
 <code class="sig-name descname">run</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncPipeline.run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline.run" title="Permalink to this definition">¶</a></dt>
 <dd><p>Enters the asyncio loop and manages shutdown.</p>
@@ -270,19 +268,19 @@
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.aiopipe.AsyncPipeline.run_io">
-<em class="property">async </em><code class="sig-name descname">run_io</code><span class="sig-paren">(</span><em class="sig-param">func</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncPipeline.run_io"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline.run_io" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">run_io</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">func</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncPipeline.run_io"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline.run_io" title="Permalink to this definition">¶</a></dt>
 <dd><p>Run <strong>func</strong> in thread pool executor using <strong>args</strong></p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.aiopipe.AsyncPipeline.run_sp">
-<em class="property">async </em><code class="sig-name descname">run_sp</code><span class="sig-paren">(</span><em class="sig-param">func</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncPipeline.run_sp"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline.run_sp" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">run_sp</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">func</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncPipeline.run_sp"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline.run_sp" title="Permalink to this definition">¶</a></dt>
 <dd><p>Run <strong>func</strong> in process pool executor using <strong>args</strong></p>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.aiopipe.AsyncPipeline.threads">
 <code class="sig-name descname">threads</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline.threads" title="Permalink to this definition">¶</a></dt>
 <dd><p>number of threads to use</p>
@@ -290,34 +288,33 @@
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.aiopipe.AsyncRequests">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.aiopipe.</code><code class="sig-name descname">AsyncRequests</code><span class="sig-paren">(</span><em class="sig-param">cache_fn=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncRequests"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncRequests" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
-<p>Provides helpers for async access to URLs</p>
-<dl class="attribute">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.aiopipe.</code><code class="sig-name descname">AsyncRequests</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">cache_fn</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncRequests"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncRequests" title="Permalink to this definition">¶</a></dt>
+<dd><p>Provides helpers for async access to URLs</p>
+<dl class="py attribute">
 <dt id="bioconda_utils.aiopipe.AsyncRequests.USER_AGENT">
 <code class="sig-name descname">USER_AGENT</code><em class="property"> = 'bioconda/bioconda-utils'</em><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncRequests.USER_AGENT" title="Permalink to this definition">¶</a></dt>
 <dd><p>Used as user agent in http requests and as requester in github API requests</p>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.aiopipe.AsyncRequests.cache">
 <code class="sig-name descname">cache</code><em class="property">: Optional[Dict[str, Dict[str, str]]]</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncRequests.cache" title="Permalink to this definition">¶</a></dt>
 <dd><p>cache</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.aiopipe.AsyncRequests.get_checksum_from_ftp">
-<em class="property">async </em><code class="sig-name descname">get_checksum_from_ftp</code><span class="sig-paren">(</span><em class="sig-param">url</em>, <em class="sig-param">_desc=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncRequests.get_checksum_from_ftp"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncRequests.get_checksum_from_ftp" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">get_checksum_from_ftp</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em>, <em class="sig-param"><span class="n">_desc</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncRequests.get_checksum_from_ftp"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncRequests.get_checksum_from_ftp" title="Permalink to this definition">¶</a></dt>
 <dd><p>Compute sha256 checksum of content at ftp <strong>url</strong></p>
 <p>Does not show progress monitor at this time (would need to
 get file size first)</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.aiopipe.AsyncRequests.get_checksum_from_http">
-<code class="sig-name descname">get_checksum_from_http</code><span class="sig-paren">(</span><em class="sig-param">url</em>, <em class="sig-param">desc</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncRequests.get_checksum_from_http"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncRequests.get_checksum_from_http" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">get_checksum_from_http</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em>, <em class="sig-param"><span class="n">desc</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncRequests.get_checksum_from_http"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncRequests.get_checksum_from_http" title="Permalink to this definition">¶</a></dt>
 <dd><p>Compute sha256 checksum of content at http <strong>url</strong></p>
 <p>Shows TQDM progress monitor with label <strong>desc</strong>.</p>
 <dl class="field-list simple">
@@ -327,9 +324,9 @@ get file size first)</p>
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.aiopipe.AsyncRequests.get_checksum_from_url">
-<em class="property">async </em><code class="sig-name descname">get_checksum_from_url</code><span class="sig-paren">(</span><em class="sig-param">url</em>, <em class="sig-param">desc</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncRequests.get_checksum_from_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncRequests.get_checksum_from_url" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">get_checksum_from_url</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em>, <em class="sig-param"><span class="n">desc</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncRequests.get_checksum_from_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncRequests.get_checksum_from_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Compute sha256 checksum of content at <strong>url</strong></p>
 <ul class="simple">
 <li><p>Shows TQDM progress monitor with label <strong>desc</strong>.</p></li>
@@ -342,9 +339,9 @@ get file size first)</p>
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.aiopipe.AsyncRequests.get_file_from_url">
-<code class="sig-name descname">get_file_from_url</code><span class="sig-paren">(</span><em class="sig-param">fname</em>, <em class="sig-param">url</em>, <em class="sig-param">desc</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncRequests.get_file_from_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncRequests.get_file_from_url" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">get_file_from_url</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">fname</span></em>, <em class="sig-param"><span class="n">url</span></em>, <em class="sig-param"><span class="n">desc</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncRequests.get_file_from_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncRequests.get_file_from_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Fetch file at <strong>url</strong> into <strong>fname</strong></p>
 <p>Shows TQDM progress monitor with label <strong>desc</strong>.</p>
 <dl class="field-list simple">
@@ -354,15 +351,15 @@ get file size first)</p>
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.aiopipe.AsyncRequests.get_ftp_listing">
-<em class="property">async </em><code class="sig-name descname">get_ftp_listing</code><span class="sig-paren">(</span><em class="sig-param">url</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncRequests.get_ftp_listing"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncRequests.get_ftp_listing" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">get_ftp_listing</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncRequests.get_ftp_listing"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncRequests.get_ftp_listing" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns list of files at FTP <strong>url</strong></p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.aiopipe.AsyncRequests.get_text_from_url">
-<code class="sig-name descname">get_text_from_url</code><span class="sig-paren">(</span><em class="sig-param">url</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncRequests.get_text_from_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncRequests.get_text_from_url" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">get_text_from_url</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#AsyncRequests.get_text_from_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncRequests.get_text_from_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Fetch content at <strong>url</strong> and return as text</p>
 <ul class="simple">
 <li><p>On non-permanent errors (429, 502, 503, 504), the GET is retried 10 times with
@@ -376,7 +373,7 @@ increasing wait times according to fibonacci series.</p></li>
 </dl>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.aiopipe.AsyncRequests.session">
 <code class="sig-name descname">session</code><em class="property">: aiohttp.ClientSession</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncRequests.session" title="Permalink to this definition">¶</a></dt>
 <dd><p>aiohttp session (only exists while running)</p>
@@ -384,25 +381,23 @@ increasing wait times according to fibonacci series.</p></li>
 
 </dd></dl>
 
-<dl class="exception">
+<dl class="py exception">
 <dt id="bioconda_utils.aiopipe.EndProcessing">
 <em class="property">exception </em><code class="sig-prename descclassname">bioconda_utils.aiopipe.</code><code class="sig-name descname">EndProcessing</code><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#EndProcessing"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.EndProcessing" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/exceptions.html#BaseException" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">BaseException</span></code></a></p>
-<p>Raised by <a class="reference internal" href="#bioconda_utils.aiopipe.AsyncFilter" title="bioconda_utils.aiopipe.AsyncFilter"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AsyncFilter</span></code></a> to tell <a class="reference internal" href="#bioconda_utils.aiopipe.AsyncPipeline" title="bioconda_utils.aiopipe.AsyncPipeline"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AsyncPipeline</span></code></a> to stop processing</p>
+<dd><p>Raised by <a class="reference internal" href="#bioconda_utils.aiopipe.AsyncFilter" title="bioconda_utils.aiopipe.AsyncFilter"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AsyncFilter</span></code></a> to tell <a class="reference internal" href="#bioconda_utils.aiopipe.AsyncPipeline" title="bioconda_utils.aiopipe.AsyncPipeline"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AsyncPipeline</span></code></a> to stop processing</p>
 </dd></dl>
 
-<dl class="exception">
+<dl class="py exception">
 <dt id="bioconda_utils.aiopipe.EndProcessingItem">
-<em class="property">exception </em><code class="sig-prename descclassname">bioconda_utils.aiopipe.</code><code class="sig-name descname">EndProcessingItem</code><span class="sig-paren">(</span><em class="sig-param">item</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#EndProcessingItem"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.EndProcessingItem" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/exceptions.html#Exception" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></a></p>
-<p>Raised to indicate that an item should not be processed further</p>
-<dl class="method">
+<em class="property">exception </em><code class="sig-prename descclassname">bioconda_utils.aiopipe.</code><code class="sig-name descname">EndProcessingItem</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#EndProcessingItem"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.EndProcessingItem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Raised to indicate that an item should not be processed further</p>
+<dl class="py method">
 <dt id="bioconda_utils.aiopipe.EndProcessingItem.log">
 <code class="sig-name descname">log</code><span class="sig-paren">(</span><em class="sig-param">uselogger=&lt;Logger bioconda_utils.aiopipe (WARNING)&gt;</em>, <em class="sig-param">level=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/aiopipe.html#EndProcessingItem.log"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.aiopipe.EndProcessingItem.log" title="Permalink to this definition">¶</a></dt>
 <dd><p>Print message using provided logging func</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.aiopipe.EndProcessingItem.name">
 <em class="property">property </em><code class="sig-name descname">name</code><a class="headerlink" href="#bioconda_utils.aiopipe.EndProcessingItem.name" title="Permalink to this definition">¶</a></dt>
 <dd><p>Name of class</p>
@@ -423,7 +418,7 @@ increasing wait times according to fibonacci series.</p></li>
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

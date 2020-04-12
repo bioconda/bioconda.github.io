@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
     <title>check_completeness &#8212; Bioconda  documentation</title>
@@ -151,19 +151,18 @@
 </tbody>
 </table>
 <p class="rubric">Documentation</p>
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.lint.check_completeness.missing_build_number">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_completeness.</code><code class="sig-name descname">missing_build_number</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_build_number"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_build_number" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
-<p>The recipe is missing a build number</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_completeness.</code><code class="sig-name descname">missing_build_number</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_build_number"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_build_number" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe is missing a build number</p>
 <p>Please add:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">build</span><span class="p">:</span>
     <span class="n">number</span><span class="p">:</span> <span class="mi">0</span>
 </pre></div>
 </div>
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.check_completeness.missing_build_number.check_recipe">
-<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_build_number.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_build_number.check_recipe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_build_number.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_build_number.check_recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on recipe</p>
 <p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
 to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
@@ -176,19 +175,18 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.lint.check_completeness.missing_hash">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_completeness.</code><code class="sig-name descname">missing_hash</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_hash"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_hash" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
-<p>The recipe is missing a checksum for a source file</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_completeness.</code><code class="sig-name descname">missing_hash</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_hash"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_hash" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe is missing a checksum for a source file</p>
 <p>Please add:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">source</span><span class="p">:</span>
   <span class="n">sha256</span><span class="p">:</span> <span class="n">checksum</span><span class="o">-</span><span class="n">value</span>
 </pre></div>
 </div>
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.check_completeness.missing_hash.check_source">
-<code class="sig-name descname">check_source</code><span class="sig-paren">(</span><em class="sig-param">source</em>, <em class="sig-param">section</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_hash.check_source"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_hash.check_source" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">check_source</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">source</span></em>, <em class="sig-param"><span class="n">section</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_hash.check_source"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_hash.check_source" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on each source</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -203,19 +201,18 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.lint.check_completeness.missing_home">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_completeness.</code><code class="sig-name descname">missing_home</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_home"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_home" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
-<p>The recipe is missing a homepage URL</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_completeness.</code><code class="sig-name descname">missing_home</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_home"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_home" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe is missing a homepage URL</p>
 <p>Please add:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">about</span><span class="p">:</span>
    <span class="n">home</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">URL</span> <span class="n">to</span> <span class="n">homepage</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.check_completeness.missing_home.check_recipe">
-<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_home.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_home.check_recipe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_home.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_home.check_recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on recipe</p>
 <p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
 to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
@@ -228,19 +225,18 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.lint.check_completeness.missing_license">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_completeness.</code><code class="sig-name descname">missing_license</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_license"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_license" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
-<p>The recipe is missing the <code class="docutils literal notranslate"><span class="pre">about/license</span></code> key.</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_completeness.</code><code class="sig-name descname">missing_license</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_license"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_license" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe is missing the <code class="docutils literal notranslate"><span class="pre">about/license</span></code> key.</p>
 <p>Please add:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">about</span><span class="p">:</span>
    <span class="n">license</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">name</span> <span class="n">of</span> <span class="n">license</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.check_completeness.missing_license.check_recipe">
-<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_license.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_license.check_recipe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_license.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_license.check_recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on recipe</p>
 <p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
 to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
@@ -253,19 +249,18 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.lint.check_completeness.missing_summary">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_completeness.</code><code class="sig-name descname">missing_summary</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_summary"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_summary" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
-<p>The recipe is missing a summary</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_completeness.</code><code class="sig-name descname">missing_summary</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_summary"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_summary" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe is missing a summary</p>
 <p>Please add:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">about</span><span class="p">:</span>
   <span class="n">summary</span><span class="p">:</span> <span class="n">One</span> <span class="n">line</span> <span class="n">briefly</span> <span class="n">describing</span> <span class="n">package</span>
 </pre></div>
 </div>
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.check_completeness.missing_summary.check_recipe">
-<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_summary.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_summary.check_recipe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_summary.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_summary.check_recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on recipe</p>
 <p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
 to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
@@ -278,11 +273,10 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.lint.check_completeness.missing_tests">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_completeness.</code><code class="sig-name descname">missing_tests</code><span class="sig-paren">(</span><em class="sig-param">_linter</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_tests"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_tests" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.lint.LintCheck</span></code></a></p>
-<p>The recipe is missing tests.</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_completeness.</code><code class="sig-name descname">missing_tests</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_tests"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_tests" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe is missing tests.</p>
 <p>Please add:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">test</span><span class="p">:</span>
     <span class="n">commands</span><span class="p">:</span>
@@ -297,9 +291,9 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
 </div>
 <p>and/or any file named <code class="docutils literal notranslate"><span class="pre">run_test.py`,</span> <span class="pre">``run_test.sh</span></code> or
 <code class="docutils literal notranslate"><span class="pre">run_test.pl</span></code> executing tests.</p>
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.lint.check_completeness.missing_tests.check_recipe">
-<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_tests.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_tests.check_recipe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_completeness.html#missing_tests.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_completeness.missing_tests.check_recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on recipe</p>
 <p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
 to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
@@ -325,7 +319,7 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

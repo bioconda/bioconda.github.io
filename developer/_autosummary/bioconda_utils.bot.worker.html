@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
     <title>worker &#8212; Bioconda  documentation</title>
@@ -150,11 +150,10 @@
 </tbody>
 </table>
 <p class="rubric">Documentation</p>
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.bot.worker.AsyncTask">
 <em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.bot.worker.</code><code class="sig-name descname">AsyncTask</code><a class="reference internal" href="../../_modules/bioconda_utils/bot/worker.html#AsyncTask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.worker.AsyncTask" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">celery.app.task.Task</span></code></p>
-<p>Task class with support for async tasks</p>
+<dd><p>Task class with support for async tasks</p>
 <p>We override celery.Task with our own version, with some extra
 features and defaults:</p>
 <ul>
@@ -180,71 +179,71 @@ Task class maintains a copy.</p>
 <li><p>Default to <code class="docutils literal notranslate"><span class="pre">acks_late</span> <span class="pre">=</span> <span class="pre">True</span></code>. The reason we use Celery at all
 is so that spawned tasks can survive a shutdown of the app.</p></li>
 </ul>
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.bot.worker.AsyncTask.acks_late">
 <code class="sig-name descname">acks_late</code><em class="property"> = True</em><a class="headerlink" href="#bioconda_utils.bot.worker.AsyncTask.acks_late" title="Permalink to this definition">¶</a></dt>
 <dd><p>Our tasks should be re-run if they don’t finish</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.bot.worker.AsyncTask.async_init">
 <em class="property">async </em><code class="sig-name descname">async_init</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/worker.html#AsyncTask.async_init"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.worker.AsyncTask.async_init" title="Permalink to this definition">¶</a></dt>
 <dd><p>Init things that need to be run inside the loop</p>
 <p>This happens during binding -&gt; on load.</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.bot.worker.AsyncTask.async_pre_run">
-<em class="property">async </em><code class="sig-name descname">async_pre_run</code><span class="sig-paren">(</span><em class="sig-param">args</em>, <em class="sig-param">_kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/worker.html#AsyncTask.async_pre_run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.worker.AsyncTask.async_pre_run" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">async_pre_run</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">args</span></em>, <em class="sig-param"><span class="n">_kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/worker.html#AsyncTask.async_pre_run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.worker.AsyncTask.async_pre_run" title="Permalink to this definition">¶</a></dt>
 <dd><p>Per-call async initialization</p>
 <p>Prepares the <a class="reference internal" href="#bioconda_utils.bot.worker.AsyncTask.ghapi" title="bioconda_utils.bot.worker.AsyncTask.ghapi"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">ghapi</span></code></a> property for tasks.</p>
 <p>FIXME: doesn’t replace kwargs</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.bot.worker.AsyncTask.bind">
-<code class="sig-name descname">bind</code><span class="sig-paren">(</span><em class="sig-param">app=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/worker.html#AsyncTask.bind"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.worker.AsyncTask.bind" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">bind</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">app</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/worker.html#AsyncTask.bind"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.worker.AsyncTask.bind" title="Permalink to this definition">¶</a></dt>
 <dd><p>Intercept binding of task to (celery) app</p>
 <p>Here we take the half-finished generated Task class and
 replace the async run method with a sync run method that
 executes the original method inside the asyncio loop.</p>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.bot.worker.AsyncTask.ghapi">
 <code class="sig-name descname">ghapi</code><em class="property">: GitHubHandler</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.worker.AsyncTask.ghapi" title="Permalink to this definition">¶</a></dt>
 <dd><p>Access the Github API</p>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.bot.worker.AsyncTask.ghappapi">
 <code class="sig-name descname">ghappapi</code><em class="property">: GitHubAppHandler</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.worker.AsyncTask.ghappapi" title="Permalink to this definition">¶</a></dt>
 <dd><p>Access Github App API</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.bot.worker.AsyncTask.loop">
 <em class="property">property </em><code class="sig-name descname">loop</code><a class="headerlink" href="#bioconda_utils.bot.worker.AsyncTask.loop" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get the async loop - creating a new one if necessary</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.bot.worker.AsyncTask.run">
-<em class="property">abstract </em><code class="sig-name descname">run</code><span class="sig-paren">(</span><em class="sig-param">*_args</em>, <em class="sig-param">**_kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/worker.html#AsyncTask.run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.worker.AsyncTask.run" title="Permalink to this definition">¶</a></dt>
+<em class="property">abstract </em><code class="sig-name descname">run</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">_args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">_kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/worker.html#AsyncTask.run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.worker.AsyncTask.run" title="Permalink to this definition">¶</a></dt>
 <dd><p>The tasks actual run method. Will be replaced during bind</p>
 </dd></dl>
 
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.bot.worker.custom_dumps">
-<code class="sig-prename descclassname">bioconda_utils.bot.worker.</code><code class="sig-name descname">custom_dumps</code><span class="sig-paren">(</span><em class="sig-param">string</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/worker.html#custom_dumps"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.worker.custom_dumps" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.bot.worker.</code><code class="sig-name descname">custom_dumps</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">string</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/worker.html#custom_dumps"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.worker.custom_dumps" title="Permalink to this definition">¶</a></dt>
 <dd><p>Serialize <strong>s</strong> to JSON accepting <strong>for_json</strong> serializer method</p>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.bot.worker.custom_loads">
-<code class="sig-prename descclassname">bioconda_utils.bot.worker.</code><code class="sig-name descname">custom_loads</code><span class="sig-paren">(</span><em class="sig-param">string</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/worker.html#custom_loads"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.worker.custom_loads" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.bot.worker.</code><code class="sig-name descname">custom_loads</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">string</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/worker.html#custom_loads"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.worker.custom_loads" title="Permalink to this definition">¶</a></dt>
 <dd><p>Deserialize <strong>s</strong> recreating objects</p>
 <p>JSON objects (dicts) containing a __type__ and a __module__
 field are turned into objects by loading and instantiating
@@ -252,9 +251,9 @@ the type, passing the result dict from obj.for_json() to
 __init__().</p>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.bot.worker.setup_new_celery_process">
-<code class="sig-prename descclassname">bioconda_utils.bot.worker.</code><code class="sig-name descname">setup_new_celery_process</code><span class="sig-paren">(</span><em class="sig-param">sender=None</em>, <em class="sig-param">conf=None</em>, <em class="sig-param">**_kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/worker.html#setup_new_celery_process"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.worker.setup_new_celery_process" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.bot.worker.</code><code class="sig-name descname">setup_new_celery_process</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">sender</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">conf</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">_kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/worker.html#setup_new_celery_process"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.worker.setup_new_celery_process" title="Permalink to this definition">¶</a></dt>
 <dd><p>This hook is called when a celery worker is initialized</p>
 <p>Here we make sure that the GPG signing key is installed</p>
 </dd></dl>
@@ -272,7 +271,7 @@ __init__().</p>
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

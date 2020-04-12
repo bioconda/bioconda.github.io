@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
     <title>config &#8212; Bioconda  documentation</title>
@@ -132,112 +132,112 @@
 </tbody>
 </table>
 <p class="rubric">Documentation</p>
-<dl class="data">
+<dl class="py data">
 <dt id="bioconda_utils.bot.config.ANACONDA_TOKEN">
 <code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">ANACONDA_TOKEN</code><em class="property"> = 'bi-2a469ecf-edeb-4c35-ab39-80bc4bba8ce8'</em><a class="headerlink" href="#bioconda_utils.bot.config.ANACONDA_TOKEN" title="Permalink to this definition">¶</a></dt>
 <dd><p>Anaconda Token</p>
 </dd></dl>
 
-<dl class="data">
+<dl class="py data">
 <dt id="bioconda_utils.bot.config.APP_CLIENT_ID">
 <code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">APP_CLIENT_ID</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.APP_CLIENT_ID" title="Permalink to this definition">¶</a></dt>
 <dd><p>App OAuth client ID</p>
 </dd></dl>
 
-<dl class="data">
+<dl class="py data">
 <dt id="bioconda_utils.bot.config.APP_CLIENT_SECRET">
 <code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">APP_CLIENT_SECRET</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.APP_CLIENT_SECRET" title="Permalink to this definition">¶</a></dt>
 <dd><p>App OAuth client secret</p>
 </dd></dl>
 
-<dl class="data">
+<dl class="py data">
 <dt id="bioconda_utils.bot.config.APP_ID">
 <code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">APP_ID</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.APP_ID" title="Permalink to this definition">¶</a></dt>
 <dd><p>Numeric App ID (not secret, technically)</p>
 </dd></dl>
 
-<dl class="data">
+<dl class="py data">
 <dt id="bioconda_utils.bot.config.APP_KEY">
 <code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">APP_KEY</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.APP_KEY" title="Permalink to this definition">¶</a></dt>
 <dd><p>PEM signing key for APP requests</p>
 </dd></dl>
 
-<dl class="data">
+<dl class="py data">
 <dt id="bioconda_utils.bot.config.APP_SECRET">
 <code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">APP_SECRET</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.APP_SECRET" title="Permalink to this definition">¶</a></dt>
 <dd><p>Secret shared with Github used by us to authenticate incoming webhooks</p>
 </dd></dl>
 
-<dl class="data">
+<dl class="py data">
 <dt id="bioconda_utils.bot.config.BOT_ALIAS_RE">
 <code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">BOT_ALIAS_RE</code><em class="property"> = re.compile('&#64;bioconda[- ]?bot', re.IGNORECASE)</em><a class="headerlink" href="#bioconda_utils.bot.config.BOT_ALIAS_RE" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bot alias regex - this is what it’ll react to in comments</p>
 </dd></dl>
 
-<dl class="data">
+<dl class="py data">
 <dt id="bioconda_utils.bot.config.BOT_BASEURL">
 <code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">BOT_BASEURL</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.BOT_BASEURL" title="Permalink to this definition">¶</a></dt>
 <dd><p>Baseurl of bot (for oauth redirects we need to know where we are)</p>
 </dd></dl>
 
-<dl class="data">
+<dl class="py data">
 <dt id="bioconda_utils.bot.config.BOT_EMAIL">
 <code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">BOT_EMAIL</code><em class="property"> = '47040946+BiocondaBot&#64;users.noreply.github.com'</em><a class="headerlink" href="#bioconda_utils.bot.config.BOT_EMAIL" title="Permalink to this definition">¶</a></dt>
 <dd><p>Email address used in commits. Needs to match the account under
 which the CODE_SIGNING_KEY was registered.</p>
 </dd></dl>
 
-<dl class="data">
+<dl class="py data">
 <dt id="bioconda_utils.bot.config.BOT_NAME">
 <code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">BOT_NAME</code><em class="property"> = 'BiocondaBot'</em><a class="headerlink" href="#bioconda_utils.bot.config.BOT_NAME" title="Permalink to this definition">¶</a></dt>
 <dd><p>Name of bot</p>
 </dd></dl>
 
-<dl class="data">
+<dl class="py data">
 <dt id="bioconda_utils.bot.config.CIRCLE_TOKEN">
 <code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">CIRCLE_TOKEN</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.CIRCLE_TOKEN" title="Permalink to this definition">¶</a></dt>
 <dd><p>CircleCI Token</p>
 </dd></dl>
 
-<dl class="data">
+<dl class="py data">
 <dt id="bioconda_utils.bot.config.CODE_SIGNING_KEY">
 <code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">CODE_SIGNING_KEY</code><em class="property"> = '-----BEGIN PGP PUBLIC KEY BLOCK-----\\n \\n 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\\n EowIc1Ljow==\\n =5eoB\\n -----END PGP PUBLIC KEY BLOCK-----\\n'</em><a class="headerlink" href="#bioconda_utils.bot.config.CODE_SIGNING_KEY" title="Permalink to this definition">¶</a></dt>
 <dd><p>GPG key for signing git commits</p>
 </dd></dl>
 
-<dl class="data">
+<dl class="py data">
 <dt id="bioconda_utils.bot.config.GITTER_CHANNELS">
 <code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">GITTER_CHANNELS</code><em class="property"> = {'bioconda/Lobby': 'bioconda/bioconda-recipes', 'bioconda/bot': 'bioconda/bioconda-recipes'}</em><a class="headerlink" href="#bioconda_utils.bot.config.GITTER_CHANNELS" title="Permalink to this definition">¶</a></dt>
 <dd><p>Gitter Channels</p>
 </dd></dl>
 
-<dl class="data">
+<dl class="py data">
 <dt id="bioconda_utils.bot.config.GITTER_TOKEN">
 <code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">GITTER_TOKEN</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.GITTER_TOKEN" title="Permalink to this definition">¶</a></dt>
 <dd><p>Gitter Token</p>
 </dd></dl>
 
-<dl class="data">
+<dl class="py data">
 <dt id="bioconda_utils.bot.config.PROJECT_COLUMN_LABEL_MAP">
 <code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">PROJECT_COLUMN_LABEL_MAP</code><em class="property"> = {5706816: {'please review &amp; merge'}}</em><a class="headerlink" href="#bioconda_utils.bot.config.PROJECT_COLUMN_LABEL_MAP" title="Permalink to this definition">¶</a></dt>
 <dd><p>Assign PRs to project columns by label</p>
 </dd></dl>
 
-<dl class="data">
+<dl class="py data">
 <dt id="bioconda_utils.bot.config.QUAY_LOGIN">
 <code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">QUAY_LOGIN</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.bot.config.QUAY_LOGIN" title="Permalink to this definition">¶</a></dt>
 <dd><p>Quay Login</p>
 </dd></dl>
 
-<dl class="data">
+<dl class="py data">
 <dt id="bioconda_utils.bot.config.REPODATA_TIMEOUT">
 <code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">REPODATA_TIMEOUT</code><em class="property"> = 300</em><a class="headerlink" href="#bioconda_utils.bot.config.REPODATA_TIMEOUT" title="Permalink to this definition">¶</a></dt>
 <dd><p>Time in seconds after which repodata should be reloaded</p>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.bot.config.get_secret">
-<code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">get_secret</code><span class="sig-paren">(</span><em class="sig-param">name</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/config.html#get_secret"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.config.get_secret" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.bot.config.</code><code class="sig-name descname">get_secret</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">name</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/config.html#get_secret"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.config.get_secret" title="Permalink to this definition">¶</a></dt>
 <dd><p>Load a secret from file or env</p>
 <p>Either provide <code class="docutils literal notranslate"><span class="pre">{name}_FILE</span></code> or <code class="docutils literal notranslate"><span class="pre">{name}</span></code> in the environment to
 configure the value for <code class="docutils literal notranslate"><span class="pre">{name}</span></code>.</p>
@@ -256,7 +256,7 @@ configure the value for <code class="docutils literal notranslate"><span class="
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

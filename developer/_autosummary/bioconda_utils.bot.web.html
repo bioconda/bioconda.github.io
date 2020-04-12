@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
     <title>web &#8212; Bioconda  documentation</title>
@@ -156,14 +156,13 @@
 </tbody>
 </table>
 <p class="rubric">Documentation</p>
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.bot.web.AuthorizationPolicy">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.bot.web.</code><code class="sig-name descname">AuthorizationPolicy</code><span class="sig-paren">(</span><em class="sig-param">app</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/web.html#AuthorizationPolicy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.web.AuthorizationPolicy" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">aiohttp_security.abc.AbstractAuthorizationPolicy</span></code></p>
-<p>Authorization policy for web interface</p>
-<dl class="method">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.bot.web.</code><code class="sig-name descname">AuthorizationPolicy</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">app</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/web.html#AuthorizationPolicy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.web.AuthorizationPolicy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Authorization policy for web interface</p>
+<dl class="py method">
 <dt id="bioconda_utils.bot.web.AuthorizationPolicy.authorized_userid">
-<em class="property">async </em><code class="sig-name descname">authorized_userid</code><span class="sig-paren">(</span><em class="sig-param">identity</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/web.html#AuthorizationPolicy.authorized_userid"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.web.AuthorizationPolicy.authorized_userid" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">authorized_userid</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">identity</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/web.html#AuthorizationPolicy.authorized_userid"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.web.AuthorizationPolicy.authorized_userid" title="Permalink to this definition">¶</a></dt>
 <dd><p>Retrieve authorized user id.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -178,9 +177,9 @@
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.bot.web.AuthorizationPolicy.permits">
-<em class="property">async </em><code class="sig-name descname">permits</code><span class="sig-paren">(</span><em class="sig-param">identity</em>, <em class="sig-param">permission</em>, <em class="sig-param">context=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/web.html#AuthorizationPolicy.permits"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.web.AuthorizationPolicy.permits" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">permits</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">identity</span></em>, <em class="sig-param"><span class="n">permission</span></em>, <em class="sig-param"><span class="n">context</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/web.html#AuthorizationPolicy.permits"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.web.AuthorizationPolicy.permits" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check user permissions.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -195,16 +194,16 @@ in the current <strong>context</strong>.</p>
 
 </dd></dl>
 
-<dl class="data">
+<dl class="py data">
 <dt id="bioconda_utils.bot.web.LOGLEVEL">
 <code class="sig-prename descclassname">bioconda_utils.bot.web.</code><code class="sig-name descname">LOGLEVEL</code><em class="property"> = 'INFO'</em><a class="headerlink" href="#bioconda_utils.bot.web.LOGLEVEL" title="Permalink to this definition">¶</a></dt>
 <dd><p>Override this to get more verbose logging of web app (and, if launched
 with web frontend, the worker).</p>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.bot.web.jinja_defaults">
-<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.web.</code><code class="sig-name descname">jinja_defaults</code><span class="sig-paren">(</span><em class="sig-param">request</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/web.html#jinja_defaults"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.web.jinja_defaults" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.web.</code><code class="sig-name descname">jinja_defaults</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/web.html#jinja_defaults"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.web.jinja_defaults" title="Permalink to this definition">¶</a></dt>
 <dd><p>Provides all web views using aiohttp-jinja2 with default values</p>
 <dl class="simple">
 <dt>Values are:</dt><dd><ul class="simple">
@@ -222,7 +221,7 @@ using <strong>active_page</strong>.</p></li>
 </dl>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.bot.web.start">
 <em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.web.</code><code class="sig-name descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/web.html#start"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.web.start" title="Permalink to this definition">¶</a></dt>
 <dd><p>Initialize App</p>
@@ -231,7 +230,7 @@ as argument, notably gunicorn:</p>
 <p>$ gunicorn bioconda_utils.bot:init_app       –worker-class aiohttp.worker.GunicornWebWorker       –reload</p>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.bot.web.start_with_celery">
 <em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.web.</code><code class="sig-name descname">start_with_celery</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/web.html#start_with_celery"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.web.start_with_celery" title="Permalink to this definition">¶</a></dt>
 <dd><p>Initialize app and launch internal celery worker</p>
@@ -252,7 +251,7 @@ cannot (easily) receive parameters from the gunicorn commandline.</p>
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

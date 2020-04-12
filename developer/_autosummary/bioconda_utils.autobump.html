@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
     <title>autobump &#8212; Bioconda  documentation</title>
@@ -240,14 +240,13 @@ have come past it, to avoid too many PRs opened at once.</p></li>
 </tbody>
 </table>
 <p class="rubric">Documentation</p>
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.autobump.CheckPinning">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">CheckPinning</code><span class="sig-paren">(</span><em class="sig-param">scanner</em>, <em class="sig-param">bump_only_python</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#CheckPinning"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.CheckPinning" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Filter</span></code></a></p>
-<p>Bump recipes in need of rebuild after pinning changes</p>
-<dl class="method">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">CheckPinning</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">scanner</span></em>, <em class="sig-param"><span class="n">bump_only_python</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#CheckPinning"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.CheckPinning" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bump recipes in need of rebuild after pinning changes</p>
+<dl class="py method">
 <dt id="bioconda_utils.autobump.CheckPinning.apply">
-<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#CheckPinning.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.CheckPinning.apply" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#CheckPinning.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.CheckPinning.apply" title="Permalink to this definition">¶</a></dt>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -256,9 +255,9 @@ have come past it, to avoid too many PRs opened at once.</p></li>
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.CheckPinning.match_version">
-<em class="property">static </em><code class="sig-name descname">match_version</code><span class="sig-paren">(</span><em class="sig-param">spec</em>, <em class="sig-param">version</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#CheckPinning.match_version"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.CheckPinning.match_version" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="sig-name descname">match_version</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">spec</span></em>, <em class="sig-param"><span class="n">version</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#CheckPinning.match_version"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.CheckPinning.match_version" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check if <strong>version</strong> satisfies <strong>spec</strong></p>
 <div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">match_version</span><span class="p">(</span><span class="s1">&#39;&gt;1.2,&lt;1.3.0a0&#39;</span><span class="p">,</span> <span class="s1">&#39;1.2.1&#39;</span><span class="p">)</span>
 <span class="go">True</span>
@@ -273,38 +272,34 @@ True if the spec is satisfied by the version.</p>
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.autobump.CreatePullRequest">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">CreatePullRequest</code><span class="sig-paren">(</span><em class="sig-param">scanner</em>, <em class="sig-param">git_handler</em>, <em class="sig-param">github_handler</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#CreatePullRequest"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.CreatePullRequest" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.GitFilter" title="bioconda_utils.autobump.GitFilter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.GitFilter</span></code></a></p>
-<p>Create or Update PR on GitHub</p>
-<dl class="exception">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">CreatePullRequest</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">scanner</span></em>, <em class="sig-param"><span class="n">git_handler</span></em>, <em class="sig-param"><span class="n">github_handler</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#CreatePullRequest"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.CreatePullRequest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create or Update PR on GitHub</p>
+<dl class="py exception">
 <dt id="bioconda_utils.autobump.CreatePullRequest.FailedToCreatePR">
-<em class="property">exception </em><code class="sig-name descname">FailedToCreatePR</code><span class="sig-paren">(</span><em class="sig-param">item</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#CreatePullRequest.FailedToCreatePR"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.CreatePullRequest.FailedToCreatePR" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem" title="bioconda_utils.aiopipe.EndProcessingItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.EndProcessingItem</span></code></a></p>
-<p>Something went wrong trying to create a new PR on Github.</p>
+<em class="property">exception </em><code class="sig-name descname">FailedToCreatePR</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#CreatePullRequest.FailedToCreatePR"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.CreatePullRequest.FailedToCreatePR" title="Permalink to this definition">¶</a></dt>
+<dd><p>Something went wrong trying to create a new PR on Github.</p>
 </dd></dl>
 
-<dl class="exception">
+<dl class="py exception">
 <dt id="bioconda_utils.autobump.CreatePullRequest.UpdateInProgress">
-<em class="property">exception </em><code class="sig-name descname">UpdateInProgress</code><span class="sig-paren">(</span><em class="sig-param">item</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#CreatePullRequest.UpdateInProgress"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.CreatePullRequest.UpdateInProgress" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem" title="bioconda_utils.aiopipe.EndProcessingItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.EndProcessingItem</span></code></a></p>
-<p>The recipe has an active update PR</p>
+<em class="property">exception </em><code class="sig-name descname">UpdateInProgress</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#CreatePullRequest.UpdateInProgress"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.CreatePullRequest.UpdateInProgress" title="Permalink to this definition">¶</a></dt>
+<dd><p>The recipe has an active update PR</p>
 </dd></dl>
 
-<dl class="exception">
+<dl class="py exception">
 <dt id="bioconda_utils.autobump.CreatePullRequest.UpdateRejected">
-<em class="property">exception </em><code class="sig-name descname">UpdateRejected</code><span class="sig-paren">(</span><em class="sig-param">item</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#CreatePullRequest.UpdateRejected"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.CreatePullRequest.UpdateRejected" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem" title="bioconda_utils.aiopipe.EndProcessingItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.EndProcessingItem</span></code></a></p>
-<p>This update has been rejected previously on Github</p>
+<em class="property">exception </em><code class="sig-name descname">UpdateRejected</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#CreatePullRequest.UpdateRejected"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.CreatePullRequest.UpdateRejected" title="Permalink to this definition">¶</a></dt>
+<dd><p>This update has been rejected previously on Github</p>
 <p>A PR created by Autobump for this recipe and this version
 already exists on Github and has been closed. We take this as
 indication that the update should not be repeated</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.CreatePullRequest.apply">
-<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#CreatePullRequest.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.CreatePullRequest.apply" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#CreatePullRequest.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.CreatePullRequest.apply" title="Permalink to this definition">¶</a></dt>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -313,15 +308,15 @@ indication that the update should not be repeated</p>
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.CreatePullRequest.async_init">
 <em class="property">async </em><code class="sig-name descname">async_init</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#CreatePullRequest.async_init"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.CreatePullRequest.async_init" title="Permalink to this definition">¶</a></dt>
 <dd><p>Create gidget GithubAPI object from session</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.CreatePullRequest.get_github_author">
-<em class="property">static </em><code class="sig-name descname">get_github_author</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#CreatePullRequest.get_github_author"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.CreatePullRequest.get_github_author" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="sig-name descname">get_github_author</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#CreatePullRequest.get_github_author"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.CreatePullRequest.get_github_author" title="Permalink to this definition">¶</a></dt>
 <dd><p>Fetches upstream Github account name if applicable</p>
 <p>For recipes with upstream sources hosted on Github, we can extract
 the account name from the source URL, so that we can add an &#64;mention
@@ -333,9 +328,9 @@ notifying the upstream author of the update.</p>
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.CreatePullRequest.render_deps_diff">
-<em class="property">static </em><code class="sig-name descname">render_deps_diff</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#CreatePullRequest.render_deps_diff"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.CreatePullRequest.render_deps_diff" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="sig-name descname">render_deps_diff</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#CreatePullRequest.render_deps_diff"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.CreatePullRequest.render_deps_diff" title="Permalink to this definition">¶</a></dt>
 <dd><p>Renders a “diff” of the recipes upstream dependencies.</p>
 <p>This relies on the ‘depends’ data structure in the recipe’s
 <code class="docutils literal notranslate"><span class="pre">version_data</span></code>. This structure is expected to be a dict with
@@ -348,21 +343,19 @@ or filled in later by the <a class="reference internal" href="#bioconda_utils.au
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.autobump.ExcludeBlacklisted">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">ExcludeBlacklisted</code><span class="sig-paren">(</span><em class="sig-param">scanner</em>, <em class="sig-param">recipe_base</em>, <em class="sig-param">config</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeBlacklisted"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeBlacklisted" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Filter</span></code></a></p>
-<p>Exclude blacklisted recipes</p>
-<dl class="exception">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">ExcludeBlacklisted</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">scanner</span></em>, <em class="sig-param"><span class="n">recipe_base</span></em>, <em class="sig-param"><span class="n">config</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeBlacklisted"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeBlacklisted" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exclude blacklisted recipes</p>
+<dl class="py exception">
 <dt id="bioconda_utils.autobump.ExcludeBlacklisted.Blacklisted">
-<em class="property">exception </em><code class="sig-name descname">Blacklisted</code><span class="sig-paren">(</span><em class="sig-param">item</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeBlacklisted.Blacklisted"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeBlacklisted.Blacklisted" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem" title="bioconda_utils.aiopipe.EndProcessingItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.EndProcessingItem</span></code></a></p>
-<p>This recipe has been blacklisted (fails to build, see blacklist file)</p>
+<em class="property">exception </em><code class="sig-name descname">Blacklisted</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeBlacklisted.Blacklisted"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeBlacklisted.Blacklisted" title="Permalink to this definition">¶</a></dt>
+<dd><p>This recipe has been blacklisted (fails to build, see blacklist file)</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.ExcludeBlacklisted.apply">
-<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeBlacklisted.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeBlacklisted.apply" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeBlacklisted.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeBlacklisted.apply" title="Permalink to this definition">¶</a></dt>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -371,7 +364,7 @@ or filled in later by the <a class="reference internal" href="#bioconda_utils.au
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.ExcludeBlacklisted.get_info">
 <code class="sig-name descname">get_info</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeBlacklisted.get_info"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeBlacklisted.get_info" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return description of filter for logging</p>
@@ -384,21 +377,19 @@ or filled in later by the <a class="reference internal" href="#bioconda_utils.au
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.autobump.ExcludeDependencyPending">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">ExcludeDependencyPending</code><span class="sig-paren">(</span><em class="sig-param">scanner</em>, <em class="sig-param">dag</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeDependencyPending"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeDependencyPending" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Filter</span></code></a></p>
-<p>Exclude recipes depending on packages in need of update</p>
-<dl class="exception">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">ExcludeDependencyPending</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">scanner</span></em>, <em class="sig-param"><span class="n">dag</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeDependencyPending"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeDependencyPending" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exclude recipes depending on packages in need of update</p>
+<dl class="py exception">
 <dt id="bioconda_utils.autobump.ExcludeDependencyPending.DependencyPending">
-<em class="property">exception </em><code class="sig-name descname">DependencyPending</code><span class="sig-paren">(</span><em class="sig-param">item</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeDependencyPending.DependencyPending"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeDependencyPending.DependencyPending" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem" title="bioconda_utils.aiopipe.EndProcessingItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.EndProcessingItem</span></code></a></p>
-<p>A dependency of this recipe is pending rebuild</p>
+<em class="property">exception </em><code class="sig-name descname">DependencyPending</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeDependencyPending.DependencyPending"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeDependencyPending.DependencyPending" title="Permalink to this definition">¶</a></dt>
+<dd><p>A dependency of this recipe is pending rebuild</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.ExcludeDependencyPending.apply">
-<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeDependencyPending.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeDependencyPending.apply" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeDependencyPending.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeDependencyPending.apply" title="Permalink to this definition">¶</a></dt>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -409,21 +400,19 @@ or filled in later by the <a class="reference internal" href="#bioconda_utils.au
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.autobump.ExcludeDisabled">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">ExcludeDisabled</code><span class="sig-paren">(</span><em class="sig-param">pipeline</em>, <em class="sig-param">*_args</em>, <em class="sig-param">**_kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeDisabled"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeDisabled" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Filter</span></code></a>, <code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.AutoBumpConfigMixin</span></code></p>
-<p>Exclude recipes disabled via config</p>
-<dl class="exception">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">ExcludeDisabled</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">pipeline</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">_args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">_kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeDisabled"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeDisabled" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exclude recipes disabled via config</p>
+<dl class="py exception">
 <dt id="bioconda_utils.autobump.ExcludeDisabled.IsDisabled">
-<em class="property">exception </em><code class="sig-name descname">IsDisabled</code><span class="sig-paren">(</span><em class="sig-param">item</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeDisabled.IsDisabled"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeDisabled.IsDisabled" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem" title="bioconda_utils.aiopipe.EndProcessingItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.EndProcessingItem</span></code></a></p>
-<p>This recipe was explicitly disabled</p>
+<em class="property">exception </em><code class="sig-name descname">IsDisabled</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeDisabled.IsDisabled"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeDisabled.IsDisabled" title="Permalink to this definition">¶</a></dt>
+<dd><p>This recipe was explicitly disabled</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.ExcludeDisabled.apply">
-<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeDisabled.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeDisabled.apply" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeDisabled.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeDisabled.apply" title="Permalink to this definition">¶</a></dt>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -434,24 +423,22 @@ or filled in later by the <a class="reference internal" href="#bioconda_utils.au
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.autobump.ExcludeNoActiveUpdate">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">ExcludeNoActiveUpdate</code><span class="sig-paren">(</span><em class="sig-param">scanner</em>, <em class="sig-param">git_handler</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeNoActiveUpdate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeNoActiveUpdate" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.GitFilter" title="bioconda_utils.autobump.GitFilter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.GitFilter</span></code></a></p>
-<p>Exclude recipes not currently undergoing an update</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">ExcludeNoActiveUpdate</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">scanner</span></em>, <em class="sig-param"><span class="n">git_handler</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeNoActiveUpdate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeNoActiveUpdate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exclude recipes not currently undergoing an update</p>
 <p>Requires that the recipes are loaded from git - recipes with active
 updates are those for which a branch with commits newer than master
 exists (which is checked by GitLoadRecipe).</p>
-<dl class="exception">
+<dl class="py exception">
 <dt id="bioconda_utils.autobump.ExcludeNoActiveUpdate.NoActiveUpdate">
-<em class="property">exception </em><code class="sig-name descname">NoActiveUpdate</code><span class="sig-paren">(</span><em class="sig-param">item</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeNoActiveUpdate.NoActiveUpdate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeNoActiveUpdate.NoActiveUpdate" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem" title="bioconda_utils.aiopipe.EndProcessingItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.EndProcessingItem</span></code></a></p>
-<p>Recipe is not currently being updated</p>
+<em class="property">exception </em><code class="sig-name descname">NoActiveUpdate</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeNoActiveUpdate.NoActiveUpdate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeNoActiveUpdate.NoActiveUpdate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe is not currently being updated</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.ExcludeNoActiveUpdate.apply">
-<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeNoActiveUpdate.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeNoActiveUpdate.apply" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeNoActiveUpdate.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeNoActiveUpdate.apply" title="Permalink to this definition">¶</a></dt>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -462,22 +449,20 @@ exists (which is checked by GitLoadRecipe).</p>
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.autobump.ExcludeOtherChannel">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">ExcludeOtherChannel</code><span class="sig-paren">(</span><em class="sig-param">scanner</em>, <em class="sig-param">channels</em>, <em class="sig-param">cache</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeOtherChannel"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeOtherChannel" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Filter</span></code></a></p>
-<p>Exclude recipes in <strong>channels</strong></p>
-<dl class="exception">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">ExcludeOtherChannel</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">scanner</span></em>, <em class="sig-param"><span class="n">channels</span></em>, <em class="sig-param"><span class="n">cache</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeOtherChannel"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeOtherChannel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exclude recipes in <strong>channels</strong></p>
+<dl class="py exception">
 <dt id="bioconda_utils.autobump.ExcludeOtherChannel.OtherChannel">
-<em class="property">exception </em><code class="sig-name descname">OtherChannel</code><span class="sig-paren">(</span><em class="sig-param">item</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeOtherChannel.OtherChannel"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeOtherChannel.OtherChannel" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem" title="bioconda_utils.aiopipe.EndProcessingItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.EndProcessingItem</span></code></a></p>
-<p>This recipe builds one or more packages that are also present
+<em class="property">exception </em><code class="sig-name descname">OtherChannel</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeOtherChannel.OtherChannel"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeOtherChannel.OtherChannel" title="Permalink to this definition">¶</a></dt>
+<dd><p>This recipe builds one or more packages that are also present
 in at least one other channel</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.ExcludeOtherChannel.apply">
-<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeOtherChannel.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeOtherChannel.apply" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeOtherChannel.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeOtherChannel.apply" title="Permalink to this definition">¶</a></dt>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -486,7 +471,7 @@ in at least one other channel</p>
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.ExcludeOtherChannel.get_info">
 <code class="sig-name descname">get_info</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeOtherChannel.get_info"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeOtherChannel.get_info" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return description of filter for logging</p>
@@ -499,23 +484,21 @@ in at least one other channel</p>
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.autobump.ExcludeSubrecipe">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">ExcludeSubrecipe</code><span class="sig-paren">(</span><em class="sig-param">scanner</em>, <em class="sig-param">always=False</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeSubrecipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeSubrecipe" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Filter</span></code></a>, <code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.AutoBumpConfigMixin</span></code></p>
-<p>Exclude sub-recipes</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">ExcludeSubrecipe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">scanner</span></em>, <em class="sig-param"><span class="n">always</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeSubrecipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeSubrecipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exclude sub-recipes</p>
 <p>Unless <strong>always</strong> is True, subrecipes specifically enabled via
 <code class="docutils literal notranslate"><span class="pre">extra:</span> <span class="pre">watch:</span> <span class="pre">enable:</span> <span class="pre">yes</span></code> will not be filtered.</p>
-<dl class="exception">
+<dl class="py exception">
 <dt id="bioconda_utils.autobump.ExcludeSubrecipe.IsSubRecipe">
-<em class="property">exception </em><code class="sig-name descname">IsSubRecipe</code><span class="sig-paren">(</span><em class="sig-param">item</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeSubrecipe.IsSubRecipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeSubrecipe.IsSubRecipe" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem" title="bioconda_utils.aiopipe.EndProcessingItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.EndProcessingItem</span></code></a></p>
-<p>This recipe is a sub-recipe (i.e. blast/2.4.0).</p>
+<em class="property">exception </em><code class="sig-name descname">IsSubRecipe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeSubrecipe.IsSubRecipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeSubrecipe.IsSubRecipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>This recipe is a sub-recipe (i.e. blast/2.4.0).</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.ExcludeSubrecipe.apply">
-<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeSubrecipe.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeSubrecipe.apply" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#ExcludeSubrecipe.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.ExcludeSubrecipe.apply" title="Permalink to this definition">¶</a></dt>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -526,17 +509,16 @@ in at least one other channel</p>
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.autobump.FetchUpstreamDependencies">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">FetchUpstreamDependencies</code><span class="sig-paren">(</span><em class="sig-param">scanner</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#FetchUpstreamDependencies"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.FetchUpstreamDependencies" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Filter</span></code></a></p>
-<p>Fetch additional upstream dependencies (PyPi)</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">FetchUpstreamDependencies</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">scanner</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#FetchUpstreamDependencies"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.FetchUpstreamDependencies" title="Permalink to this definition">¶</a></dt>
+<dd><p>Fetch additional upstream dependencies (PyPi)</p>
 <p>This currently only affects PyPi. Dependencies for Python packages are
 determined by <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> at installation time and need not be static
 in many cases (there is work to change this going on).</p>
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.FetchUpstreamDependencies.apply">
-<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#FetchUpstreamDependencies.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.FetchUpstreamDependencies.apply" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#FetchUpstreamDependencies.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.FetchUpstreamDependencies.apply" title="Permalink to this definition">¶</a></dt>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -545,7 +527,7 @@ in many cases (there is work to change this going on).</p>
 </dl>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.autobump.FetchUpstreamDependencies.build_config">
 <code class="sig-name descname">build_config</code><em class="property">: conda_build.config.Config</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.FetchUpstreamDependencies.build_config" title="Permalink to this definition">¶</a></dt>
 <dd><p>conda build config</p>
@@ -553,14 +535,13 @@ in many cases (there is work to change this going on).</p>
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.autobump.Filter">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">Filter</code><span class="sig-paren">(</span><em class="sig-param">pipeline</em>, <em class="sig-param">*_args</em>, <em class="sig-param">**_kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#Filter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.Filter" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncFilter" title="bioconda_utils.aiopipe.AsyncFilter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.AsyncFilter</span></code></a></p>
-<p>Filter for Scanner - class exists primarily to silence mypy</p>
-<dl class="method">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">Filter</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">pipeline</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">_args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">_kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#Filter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.Filter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Filter for Scanner - class exists primarily to silence mypy</p>
+<dl class="py method">
 <dt id="bioconda_utils.autobump.Filter.apply">
-<em class="property">abstract async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#Filter.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.Filter.apply" title="Permalink to this definition">¶</a></dt>
+<em class="property">abstract async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#Filter.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.Filter.apply" title="Permalink to this definition">¶</a></dt>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -569,7 +550,7 @@ in many cases (there is work to change this going on).</p>
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.Filter.get_info">
 <code class="sig-name descname">get_info</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#Filter.get_info"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.Filter.get_info" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return description of filter for logging</p>
@@ -582,11 +563,10 @@ in many cases (there is work to change this going on).</p>
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.autobump.GitFilter">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">GitFilter</code><span class="sig-paren">(</span><em class="sig-param">scanner</em>, <em class="sig-param">git_handler</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#GitFilter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.GitFilter" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Filter</span></code></a></p>
-<p>Base class for <a class="reference internal" href="#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Filter</span></code></a> types needing access to the git repo</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">GitFilter</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">scanner</span></em>, <em class="sig-param"><span class="n">git_handler</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#GitFilter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.GitFilter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Base class for <a class="reference internal" href="#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Filter</span></code></a> types needing access to the git repo</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
@@ -595,9 +575,9 @@ in many cases (there is work to change this going on).</p>
 </ul>
 </dd>
 </dl>
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.GitFilter.apply">
-<em class="property">abstract async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#GitFilter.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.GitFilter.apply" title="Permalink to this definition">¶</a></dt>
+<em class="property">abstract async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#GitFilter.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.GitFilter.apply" title="Permalink to this definition">¶</a></dt>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -606,9 +586,9 @@ in many cases (there is work to change this going on).</p>
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.GitFilter.branch_name">
-<em class="property">classmethod </em><code class="sig-name descname">branch_name</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#GitFilter.branch_name"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.GitFilter.branch_name" title="Permalink to this definition">¶</a></dt>
+<em class="property">classmethod </em><code class="sig-name descname">branch_name</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#GitFilter.branch_name"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.GitFilter.branch_name" title="Permalink to this definition">¶</a></dt>
 <dd><p>Render branch name from recipe</p>
 <ul class="simple">
 <li><p>Replace dashes with underscores (GitPython does not like dash)</p></li>
@@ -624,7 +604,7 @@ Note: this will break if we have <code class="docutils literal notranslate"><spa
 </dl>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.autobump.GitFilter.git">
 <code class="sig-name descname">git</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.GitFilter.git" title="Permalink to this definition">¶</a></dt>
 <dd><p>The <a class="reference internal" href="bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandler" title="bioconda_utils.githandler.GitHandler"><code class="xref any py py-class docutils literal notranslate"><span class="pre">GitHandler</span></code></a> class for accessing repo</p>
@@ -632,11 +612,10 @@ Note: this will break if we have <code class="docutils literal notranslate"><spa
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.autobump.GitLoadRecipe">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">GitLoadRecipe</code><span class="sig-paren">(</span><em class="sig-param">scanner</em>, <em class="sig-param">git_handler</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#GitLoadRecipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.GitLoadRecipe" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.GitFilter" title="bioconda_utils.autobump.GitFilter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.GitFilter</span></code></a></p>
-<p>Load recipe from git (honoring active branches)</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">GitLoadRecipe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">scanner</span></em>, <em class="sig-param"><span class="n">git_handler</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#GitLoadRecipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.GitLoadRecipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load recipe from git (honoring active branches)</p>
 <p>We have three locations for the recipe:
 1. master in upstream remote repo
 2. auto_update_xxx in local repo
@@ -649,9 +628,9 @@ work from there so that we don’t recreate the “same” update.</p>
 <li><p>If there is a remote branch that has not been superceded by master, work from there.</p></li>
 <li><p>Otherwise load master</p></li>
 </ul>
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.GitLoadRecipe.apply">
-<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#GitLoadRecipe.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.GitLoadRecipe.apply" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#GitLoadRecipe.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.GitLoadRecipe.apply" title="Permalink to this definition">¶</a></dt>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -662,14 +641,13 @@ work from there so that we don’t recreate the “same” update.</p>
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.autobump.GitWriteRecipe">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">GitWriteRecipe</code><span class="sig-paren">(</span><em class="sig-param">scanner</em>, <em class="sig-param">git_handler</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#GitWriteRecipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.GitWriteRecipe" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.GitFilter" title="bioconda_utils.autobump.GitFilter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.GitFilter</span></code></a>, <code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.WritingFilter</span></code></p>
-<p>Write recipe to per-recipe git branch</p>
-<dl class="method">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">GitWriteRecipe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">scanner</span></em>, <em class="sig-param"><span class="n">git_handler</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#GitWriteRecipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.GitWriteRecipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write recipe to per-recipe git branch</p>
+<dl class="py method">
 <dt id="bioconda_utils.autobump.GitWriteRecipe.apply">
-<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#GitWriteRecipe.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.GitWriteRecipe.apply" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#GitWriteRecipe.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.GitWriteRecipe.apply" title="Permalink to this definition">¶</a></dt>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -680,14 +658,13 @@ work from there so that we don’t recreate the “same” update.</p>
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.autobump.LoadRecipe">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">LoadRecipe</code><span class="sig-paren">(</span><em class="sig-param">scanner</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#LoadRecipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.LoadRecipe" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Filter</span></code></a></p>
-<p>Load the recipe from the filesystem</p>
-<dl class="method">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">LoadRecipe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">scanner</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#LoadRecipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.LoadRecipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load the recipe from the filesystem</p>
+<dl class="py method">
 <dt id="bioconda_utils.autobump.LoadRecipe.apply">
-<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#LoadRecipe.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.LoadRecipe.apply" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#LoadRecipe.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.LoadRecipe.apply" title="Permalink to this definition">¶</a></dt>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -698,14 +675,13 @@ work from there so that we don’t recreate the “same” update.</p>
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.autobump.MaxUpdates">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">MaxUpdates</code><span class="sig-paren">(</span><em class="sig-param">scanner</em>, <em class="sig-param">max_updates=0</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#MaxUpdates"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.MaxUpdates" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Filter</span></code></a></p>
-<p>Terminate pipeline after <strong>max_updates</strong> recipes have been updated.</p>
-<dl class="method">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">MaxUpdates</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">scanner</span></em>, <em class="sig-param"><span class="n">max_updates</span><span class="o">=</span><span class="default_value">0</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#MaxUpdates"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.MaxUpdates" title="Permalink to this definition">¶</a></dt>
+<dd><p>Terminate pipeline after <strong>max_updates</strong> recipes have been updated.</p>
+<dl class="py method">
 <dt id="bioconda_utils.autobump.MaxUpdates.apply">
-<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#MaxUpdates.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.MaxUpdates.apply" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#MaxUpdates.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.MaxUpdates.apply" title="Permalink to this definition">¶</a></dt>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -714,7 +690,7 @@ work from there so that we don’t recreate the “same” update.</p>
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.MaxUpdates.get_info">
 <code class="sig-name descname">get_info</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#MaxUpdates.get_info"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.MaxUpdates.get_info" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return description of filter for logging</p>
@@ -727,17 +703,15 @@ work from there so that we don’t recreate the “same” update.</p>
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.autobump.RecipeGraphSource">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">RecipeGraphSource</code><span class="sig-paren">(</span><em class="sig-param">recipe_base</em>, <em class="sig-param">packages</em>, <em class="sig-param">exclude</em>, <em class="sig-param">shuffle</em>, <em class="sig-param">config</em>, <em class="sig-param">cache_fn=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#RecipeGraphSource"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.RecipeGraphSource" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.RecipeSource" title="bioconda_utils.autobump.RecipeSource"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.RecipeSource</span></code></a></p>
-</dd></dl>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">RecipeGraphSource</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe_base</span></em>, <em class="sig-param"><span class="n">packages</span></em>, <em class="sig-param"><span class="n">exclude</span></em>, <em class="sig-param"><span class="n">shuffle</span></em>, <em class="sig-param"><span class="n">config</span></em>, <em class="sig-param"><span class="n">cache_fn</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#RecipeGraphSource"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.RecipeGraphSource" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.autobump.RecipeSource">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">RecipeSource</code><span class="sig-paren">(</span><em class="sig-param">recipe_base</em>, <em class="sig-param">packages</em>, <em class="sig-param">exclude</em>, <em class="sig-param">shuffle=True</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#RecipeSource"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.RecipeSource" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
-<p>Source for <strong>Recipe</strong> objects to feed into Scanner</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">RecipeSource</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe_base</span></em>, <em class="sig-param"><span class="n">packages</span></em>, <em class="sig-param"><span class="n">exclude</span></em>, <em class="sig-param"><span class="n">shuffle</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#RecipeSource"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.RecipeSource" title="Permalink to this definition">¶</a></dt>
+<dd><p>Source for <strong>Recipe</strong> objects to feed into Scanner</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
@@ -748,11 +722,10 @@ work from there so that we don’t recreate the “same” update.</p>
 </dl>
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.autobump.Scanner">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">Scanner</code><span class="sig-paren">(</span><em class="sig-param">recipe_source</em>, <em class="sig-param">cache_fn=None</em>, <em class="sig-param">status_fn=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#Scanner"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.Scanner" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.AsyncPipeline" title="bioconda_utils.aiopipe.AsyncPipeline"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.AsyncPipeline</span></code></a></p>
-<p>Scans recipes and applies filters in asyncio loop</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">Scanner</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe_source</span></em>, <em class="sig-param"><span class="n">cache_fn</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">status_fn</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#Scanner"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.Scanner" title="Permalink to this definition">¶</a></dt>
+<dd><p>Scans recipes and applies filters in asyncio loop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
@@ -762,9 +735,9 @@ work from there so that we don’t recreate the “same” update.</p>
 </ul>
 </dd>
 </dl>
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.Scanner.process">
-<em class="property">async </em><code class="sig-name descname">process</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#Scanner.process"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.Scanner.process" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">process</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#Scanner.process"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.Scanner.process" title="Permalink to this definition">¶</a></dt>
 <dd><p>Applies the filters to a recipe</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -773,19 +746,19 @@ work from there so that we don’t recreate the “same” update.</p>
 </dl>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.autobump.Scanner.recipe_source">
 <code class="sig-name descname">recipe_source</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.recipe_source" title="Permalink to this definition">¶</a></dt>
 <dd><p>recipe source</p>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.autobump.Scanner.req">
 <code class="sig-name descname">req</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.req" title="Permalink to this definition">¶</a></dt>
 <dd><p>async requests helper</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.Scanner.run">
 <code class="sig-name descname">run</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#Scanner.run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.Scanner.run" title="Permalink to this definition">¶</a></dt>
 <dd><p>Runs scanner</p>
@@ -796,19 +769,19 @@ work from there so that we don’t recreate the “same” update.</p>
 </dl>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.autobump.Scanner.stats">
 <code class="sig-name descname">stats</code><em class="property">: Counter</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.stats" title="Permalink to this definition">¶</a></dt>
 <dd><p>counter to gather stats on various states</p>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.autobump.Scanner.status">
 <code class="sig-name descname">status</code><em class="property">: List[Tuple[str, str]]</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.status" title="Permalink to this definition">¶</a></dt>
 <dd><p>collect end status for each recipe</p>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.autobump.Scanner.status_fn">
 <code class="sig-name descname">status_fn</code><em class="property">: str</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.status_fn" title="Permalink to this definition">¶</a></dt>
 <dd><p>filename to write statuses to</p>
@@ -816,11 +789,10 @@ work from there so that we don’t recreate the “same” update.</p>
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.autobump.UpdateChecksums">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">UpdateChecksums</code><span class="sig-paren">(</span><em class="sig-param">scanner</em>, <em class="sig-param">failed_file=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateChecksums"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Filter</span></code></a></p>
-<p>Update source checksums</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">UpdateChecksums</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">scanner</span></em>, <em class="sig-param"><span class="n">failed_file</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateChecksums"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums" title="Permalink to this definition">¶</a></dt>
+<dd><p>Update source checksums</p>
 <p>If the recipe has had a version change, all sources will be downloaded,
 the checksums calculated and the recipe updated accordingly.</p>
 <ul class="simple">
@@ -840,37 +812,33 @@ file upon pipeline completion.</p>
 <dt>FIXME:</dt><dd><p>Should ignore sources for which no change has been made.</p>
 </dd>
 </dl>
-<dl class="exception">
+<dl class="py exception">
 <dt id="bioconda_utils.autobump.UpdateChecksums.ChecksumReplaceFailed">
-<em class="property">exception </em><code class="sig-name descname">ChecksumReplaceFailed</code><span class="sig-paren">(</span><em class="sig-param">item</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateChecksums.ChecksumReplaceFailed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.ChecksumReplaceFailed" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem" title="bioconda_utils.aiopipe.EndProcessingItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.EndProcessingItem</span></code></a></p>
-<p>The checksum could not be updated after version bump</p>
+<em class="property">exception </em><code class="sig-name descname">ChecksumReplaceFailed</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateChecksums.ChecksumReplaceFailed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.ChecksumReplaceFailed" title="Permalink to this definition">¶</a></dt>
+<dd><p>The checksum could not be updated after version bump</p>
 </dd></dl>
 
-<dl class="exception">
+<dl class="py exception">
 <dt id="bioconda_utils.autobump.UpdateChecksums.ChecksumUnchanged">
-<em class="property">exception </em><code class="sig-name descname">ChecksumUnchanged</code><span class="sig-paren">(</span><em class="sig-param">item</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateChecksums.ChecksumUnchanged"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.ChecksumUnchanged" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem" title="bioconda_utils.aiopipe.EndProcessingItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.EndProcessingItem</span></code></a></p>
-<p>The checksum did not change after version bump</p>
+<em class="property">exception </em><code class="sig-name descname">ChecksumUnchanged</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateChecksums.ChecksumUnchanged"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.ChecksumUnchanged" title="Permalink to this definition">¶</a></dt>
+<dd><p>The checksum did not change after version bump</p>
 </dd></dl>
 
-<dl class="exception">
+<dl class="py exception">
 <dt id="bioconda_utils.autobump.UpdateChecksums.NoValidUrls">
-<em class="property">exception </em><code class="sig-name descname">NoValidUrls</code><span class="sig-paren">(</span><em class="sig-param">item</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateChecksums.NoValidUrls"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.NoValidUrls" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem" title="bioconda_utils.aiopipe.EndProcessingItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.EndProcessingItem</span></code></a></p>
-<p>Failed to download any file for a source to generate new checksum</p>
+<em class="property">exception </em><code class="sig-name descname">NoValidUrls</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateChecksums.NoValidUrls"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.NoValidUrls" title="Permalink to this definition">¶</a></dt>
+<dd><p>Failed to download any file for a source to generate new checksum</p>
 </dd></dl>
 
-<dl class="exception">
+<dl class="py exception">
 <dt id="bioconda_utils.autobump.UpdateChecksums.SourceUrlMismatch">
-<em class="property">exception </em><code class="sig-name descname">SourceUrlMismatch</code><span class="sig-paren">(</span><em class="sig-param">item</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateChecksums.SourceUrlMismatch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.SourceUrlMismatch" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem" title="bioconda_utils.aiopipe.EndProcessingItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.EndProcessingItem</span></code></a></p>
-<p>The URLs in a source point to different files after update</p>
+<em class="property">exception </em><code class="sig-name descname">SourceUrlMismatch</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateChecksums.SourceUrlMismatch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.SourceUrlMismatch" title="Permalink to this definition">¶</a></dt>
+<dd><p>The URLs in a source point to different files after update</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.UpdateChecksums.apply">
-<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateChecksums.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.apply" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateChecksums.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.apply" title="Permalink to this definition">¶</a></dt>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -879,27 +847,27 @@ file upon pipeline completion.</p>
 </dl>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.autobump.UpdateChecksums.failed_file">
 <code class="sig-name descname">failed_file</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.failed_file" title="Permalink to this definition">¶</a></dt>
 <dd><p>unparsed urls - for later inspection</p>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.autobump.UpdateChecksums.failed_urls">
 <code class="sig-name descname">failed_urls</code><em class="property">: List[str]</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.failed_urls" title="Permalink to this definition">¶</a></dt>
 <dd><p>failed urls - for later inspection</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.UpdateChecksums.finalize">
 <code class="sig-name descname">finalize</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateChecksums.finalize"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.finalize" title="Permalink to this definition">¶</a></dt>
 <dd><p>Store list of URLs that could not be downloaded</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.UpdateChecksums.update_source">
-<em class="property">async </em><code class="sig-name descname">update_source</code><span class="sig-paren">(</span><em class="sig-param">recipe</em>, <em class="sig-param">source</em>, <em class="sig-param">source_idx</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateChecksums.update_source"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.update_source" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">update_source</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em>, <em class="sig-param"><span class="n">source</span></em>, <em class="sig-param"><span class="n">source_idx</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateChecksums.update_source"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.update_source" title="Permalink to this definition">¶</a></dt>
 <dd><p>Updates one source</p>
 <p>Each source has its own checksum, but all urls in one source must have
 the same checksum (if the link is available).</p>
@@ -914,11 +882,10 @@ after the recipe was built and uploaded</p>
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.autobump.UpdateVersion">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">UpdateVersion</code><span class="sig-paren">(</span><em class="sig-param">scanner</em>, <em class="sig-param">hoster_factory</em>, <em class="sig-param">unparsed_file=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Filter</span></code></a>, <code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.AutoBumpConfigMixin</span></code></p>
-<p>Scan upstream for new releases and update recipe</p>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">UpdateVersion</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">scanner</span></em>, <em class="sig-param"><span class="n">hoster_factory</span></em>, <em class="sig-param"><span class="n">unparsed_file</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion" title="Permalink to this definition">¶</a></dt>
+<dd><p>Scan upstream for new releases and update recipe</p>
 <ul class="simple">
 <li><p>In the most simple case, a package has a single URL which also indicates the version</p></li>
 <li><p>Recipes may have alternative download locations
@@ -937,64 +904,57 @@ after the recipe was built and uploaded</p>
 </ol>
 </dd>
 </dl>
-<dl class="exception">
+<dl class="py exception">
 <dt id="bioconda_utils.autobump.UpdateVersion.Metapackage">
-<em class="property">exception </em><code class="sig-name descname">Metapackage</code><span class="sig-paren">(</span><em class="sig-param">item</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.Metapackage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.Metapackage" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem" title="bioconda_utils.aiopipe.EndProcessingItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.EndProcessingItem</span></code></a></p>
-<p>This recipe only builds a meta package - it has no upstream sources.</p>
+<em class="property">exception </em><code class="sig-name descname">Metapackage</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.Metapackage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.Metapackage" title="Permalink to this definition">¶</a></dt>
+<dd><p>This recipe only builds a meta package - it has no upstream sources.</p>
 </dd></dl>
 
-<dl class="exception">
+<dl class="py exception">
 <dt id="bioconda_utils.autobump.UpdateVersion.NoRecognizedSourceUrl">
-<em class="property">exception </em><code class="sig-name descname">NoRecognizedSourceUrl</code><span class="sig-paren">(</span><em class="sig-param">item</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.NoRecognizedSourceUrl"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.NoRecognizedSourceUrl" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem" title="bioconda_utils.aiopipe.EndProcessingItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.EndProcessingItem</span></code></a></p>
-<p>None of the source URLs in this recipe were recognized.</p>
+<em class="property">exception </em><code class="sig-name descname">NoRecognizedSourceUrl</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.NoRecognizedSourceUrl"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.NoRecognizedSourceUrl" title="Permalink to this definition">¶</a></dt>
+<dd><p>None of the source URLs in this recipe were recognized.</p>
 </dd></dl>
 
-<dl class="exception">
+<dl class="py exception">
 <dt id="bioconda_utils.autobump.UpdateVersion.NoReleases">
-<em class="property">exception </em><code class="sig-name descname">NoReleases</code><span class="sig-paren">(</span><em class="sig-param">item</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.NoReleases"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.NoReleases" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem" title="bioconda_utils.aiopipe.EndProcessingItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.EndProcessingItem</span></code></a></p>
-<p>No releases at all were found for this recipe.</p>
+<em class="property">exception </em><code class="sig-name descname">NoReleases</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.NoReleases"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.NoReleases" title="Permalink to this definition">¶</a></dt>
+<dd><p>No releases at all were found for this recipe.</p>
 <p>This is unusual - something probably went wrong finding releases for
 the source urls in this recipe.</p>
 </dd></dl>
 
-<dl class="exception">
+<dl class="py exception">
 <dt id="bioconda_utils.autobump.UpdateVersion.NoUrlInSource">
-<em class="property">exception </em><code class="sig-name descname">NoUrlInSource</code><span class="sig-paren">(</span><em class="sig-param">item</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.NoUrlInSource"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.NoUrlInSource" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem" title="bioconda_utils.aiopipe.EndProcessingItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.EndProcessingItem</span></code></a></p>
-<p>This recipe has a source without an URL.</p>
+<em class="property">exception </em><code class="sig-name descname">NoUrlInSource</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.NoUrlInSource"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.NoUrlInSource" title="Permalink to this definition">¶</a></dt>
+<dd><p>This recipe has a source without an URL.</p>
 <p>Most likely, this is due to a git-url.</p>
 </dd></dl>
 
-<dl class="exception">
+<dl class="py exception">
 <dt id="bioconda_utils.autobump.UpdateVersion.UpToDate">
-<em class="property">exception </em><code class="sig-name descname">UpToDate</code><span class="sig-paren">(</span><em class="sig-param">item</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.UpToDate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.UpToDate" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem" title="bioconda_utils.aiopipe.EndProcessingItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.EndProcessingItem</span></code></a></p>
-<p>This recipe appears to be up to date!</p>
+<em class="property">exception </em><code class="sig-name descname">UpToDate</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.UpToDate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.UpToDate" title="Permalink to this definition">¶</a></dt>
+<dd><p>This recipe appears to be up to date!</p>
 </dd></dl>
 
-<dl class="exception">
+<dl class="py exception">
 <dt id="bioconda_utils.autobump.UpdateVersion.UpdateVersionFailure">
-<em class="property">exception </em><code class="sig-name descname">UpdateVersionFailure</code><span class="sig-paren">(</span><em class="sig-param">item</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.UpdateVersionFailure"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.UpdateVersionFailure" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem" title="bioconda_utils.aiopipe.EndProcessingItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.EndProcessingItem</span></code></a></p>
-<p>This recipe did not show the expected version number after updating.</p>
+<em class="property">exception </em><code class="sig-name descname">UpdateVersionFailure</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.UpdateVersionFailure"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.UpdateVersionFailure" title="Permalink to this definition">¶</a></dt>
+<dd><p>This recipe did not show the expected version number after updating.</p>
 <p>Something probably went wrong trying to replace the version number in the
 meta.yaml.</p>
 </dd></dl>
 
-<dl class="exception">
+<dl class="py exception">
 <dt id="bioconda_utils.autobump.UpdateVersion.UrlNotVersioned">
-<em class="property">exception </em><code class="sig-name descname">UrlNotVersioned</code><span class="sig-paren">(</span><em class="sig-param">item</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.UrlNotVersioned"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.UrlNotVersioned" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="bioconda_utils.aiopipe.html#bioconda_utils.aiopipe.EndProcessingItem" title="bioconda_utils.aiopipe.EndProcessingItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.aiopipe.EndProcessingItem</span></code></a></p>
-<p>This recipe has an URL unaffected by the version change.
+<em class="property">exception </em><code class="sig-name descname">UrlNotVersioned</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.UrlNotVersioned"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.UrlNotVersioned" title="Permalink to this definition">¶</a></dt>
+<dd><p>This recipe has an URL unaffected by the version change.
 the recipe</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.UpdateVersion.apply">
-<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.apply" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.apply" title="Permalink to this definition">¶</a></dt>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -1003,15 +963,15 @@ the recipe</p>
 </dl>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.autobump.UpdateVersion.build_config">
 <code class="sig-name descname">build_config</code><em class="property">: conda_build.config.Config</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.build_config" title="Permalink to this definition">¶</a></dt>
 <dd><p>conda build config</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.UpdateVersion.check_version_pin_conflict">
-<code class="sig-name descname">check_version_pin_conflict</code><span class="sig-paren">(</span><em class="sig-param">recipe</em>, <em class="sig-param">versions</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.check_version_pin_conflict"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.check_version_pin_conflict" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">check_version_pin_conflict</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em>, <em class="sig-param"><span class="n">versions</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.check_version_pin_conflict"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.check_version_pin_conflict" title="Permalink to this definition">¶</a></dt>
 <dd><p>Find items in <strong>versions</strong> conflicting with pins</p>
 <p class="rubric">Example</p>
 <p>If ggplot 7.0 needs r-base 4.0, but our pin is 3.5.1, it conflicts</p>
@@ -1023,7 +983,7 @@ the recipe</p>
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.UpdateVersion.finalize">
 <code class="sig-name descname">finalize</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.finalize"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.finalize" title="Permalink to this definition">¶</a></dt>
 <dd><p>Save unparsed urls to file and print stats to log</p>
@@ -1034,27 +994,27 @@ the recipe</p>
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.UpdateVersion.get_version_map">
-<em class="property">async </em><code class="sig-name descname">get_version_map</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.get_version_map"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.get_version_map" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">get_version_map</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.get_version_map"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.get_version_map" title="Permalink to this definition">¶</a></dt>
 <dd><p>Scan all source urls</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.UpdateVersion.get_versions">
-<em class="property">async </em><code class="sig-name descname">get_versions</code><span class="sig-paren">(</span><em class="sig-param">recipe</em>, <em class="sig-param">source</em>, <em class="sig-param">source_idx</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.get_versions"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.get_versions" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">get_versions</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em>, <em class="sig-param"><span class="n">source</span></em>, <em class="sig-param"><span class="n">source_idx</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.get_versions"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.get_versions" title="Permalink to this definition">¶</a></dt>
 <dd><p>Select hosters and retrieve versions for this source</p>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.autobump.UpdateVersion.hoster_factory">
 <code class="sig-name descname">hoster_factory</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.hoster_factory" title="Permalink to this definition">¶</a></dt>
 <dd><p>function selecting hoster</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="bioconda_utils.autobump.UpdateVersion.select_version">
-<em class="property">static </em><code class="sig-name descname">select_version</code><span class="sig-paren">(</span><em class="sig-param">current</em>, <em class="sig-param">versions</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.select_version"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.select_version" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="sig-name descname">select_version</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">current</span></em>, <em class="sig-param"><span class="n">versions</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#UpdateVersion.select_version"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.select_version" title="Permalink to this definition">¶</a></dt>
 <dd><p>Chooses the most recent, acceptable version out of <strong>versions</strong></p>
 <ul class="simple">
 <li><p>must be newer than current (as defined by conda VersionOrder)</p></li>
@@ -1070,13 +1030,13 @@ defined by parse_version)</p></li>
 </dl>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.autobump.UpdateVersion.unparsed_file">
 <code class="sig-name descname">unparsed_file</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.unparsed_file" title="Permalink to this definition">¶</a></dt>
 <dd><p>output file name for failed urls</p>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="bioconda_utils.autobump.UpdateVersion.unparsed_urls">
 <code class="sig-name descname">unparsed_urls</code><em class="property">: List[str]</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.unparsed_urls" title="Permalink to this definition">¶</a></dt>
 <dd><p>output file name for unparsed urls</p>
@@ -1084,14 +1044,13 @@ defined by parse_version)</p></li>
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="bioconda_utils.autobump.WriteRecipe">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">WriteRecipe</code><span class="sig-paren">(</span><em class="sig-param">scanner</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#WriteRecipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.WriteRecipe" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.Filter</span></code></a>, <code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.autobump.WritingFilter</span></code></p>
-<p>Write recipe to filesystem</p>
-<dl class="method">
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.autobump.</code><code class="sig-name descname">WriteRecipe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">scanner</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#WriteRecipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.WriteRecipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write recipe to filesystem</p>
+<dl class="py method">
 <dt id="bioconda_utils.autobump.WriteRecipe.apply">
-<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param">recipe</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#WriteRecipe.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.WriteRecipe.apply" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/autobump.html#WriteRecipe.apply"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.autobump.WriteRecipe.apply" title="Permalink to this definition">¶</a></dt>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -1115,7 +1074,7 @@ defined by parse_version)</p></li>
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

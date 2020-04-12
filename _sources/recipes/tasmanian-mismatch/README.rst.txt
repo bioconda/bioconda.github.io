@@ -22,7 +22,7 @@ tasmanian-mismatch
 
    |downloads_tasmanian-mismatch| |docker_tasmanian-mismatch|
 
-   :versions: 0.1.1-0
+   :versions: 0.1.3-0, 0.1.1-0
    
    :depends matplotlib-base: 3.1.1
    :depends numpy: 

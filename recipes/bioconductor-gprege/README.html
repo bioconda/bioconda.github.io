@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
     <title>Package Recipe &#39;bioconductor-gprege&#39; &#8212; Bioconda  documentation</title>
@@ -99,7 +99,7 @@
           <div class="body" role="main">
             
   <div class="section" id="bioconductor-gprege">
-<dl class="recipe">
+<dl class="conda recipe">
 <dt id="recipe-bioconductor-gprege">
 <em class="property">recipe </em><code class="sig-name descname">bioconductor-gprege</code><a class="headerlink" href="#recipe-bioconductor-gprege" title="Permalink to this definition">¶</a></dt>
 <dd><p>Gaussian Process Ranking and Estimation of Gene Expression time-series</p>
@@ -117,7 +117,7 @@
 <p>The gprege package implements the methodology described in Kalaitzis &amp; Lawrence (2011) “A simple approach to ranking differentially expressed gene expression time-courses through Gaussian process regression”. The software fits two GPs with the an RBF (+ noise diagonal) kernel on each profile. One GP kernel is initialised wih a short lengthscale hyperparameter, signal variance as the observed variance and a zero noise variance. It is optimised via scaled conjugate gradients (netlab). A second GP has fixed hyperparameters: zero inverse-width, zero signal variance and noise variance as the observed variance. The log-ratio of marginal likelihoods of the two hypotheses acts as a score of differential expression for the profile. Comparison via ROC curves is performed against BATS (Angelini et.al, 2007). A detailed discussion of the ranking approach and dataset used can be found in the paper (http://www.biomedcentral.com/1471-2105/12/180).</p>
 </dd></dl>
 
-<dl class="package">
+<dl class="conda package">
 <dt id="package-bioconductor-gprege">
 <em class="property">package </em><code class="sig-name descname">bioconductor-gprege</code><a class="headerlink" href="#package-bioconductor-gprege" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-gprege"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-gprege.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-gprege"><img alt="docker_bioconductor-gprege" src="https://quay.io/repository/biocontainers/bioconductor-gprege/status" /></a></p>
@@ -172,7 +172,7 @@
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

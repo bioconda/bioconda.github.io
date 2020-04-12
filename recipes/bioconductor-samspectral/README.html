@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
     <title>Package Recipe &#39;bioconductor-samspectral&#39; &#8212; Bioconda  documentation</title>
@@ -99,7 +99,7 @@
           <div class="body" role="main">
             
   <div class="section" id="bioconductor-samspectral">
-<dl class="recipe">
+<dl class="conda recipe">
 <dt id="recipe-bioconductor-samspectral">
 <em class="property">recipe </em><code class="sig-name descname">bioconductor-samspectral</code><a class="headerlink" href="#recipe-bioconductor-samspectral" title="Permalink to this definition">¶</a></dt>
 <dd><p>Identifies cell population in flow cytometry data.</p>
@@ -117,7 +117,7 @@
 <p>Samples large data such that spectral clustering is possible while preserving density information in edge weights. More specifically, given a matrix of coordinates as input, SamSPECTRAL first builds the communities to sample the data points. Then, it builds a graph and after weighting the edges by conductance computation, the graph is passed to a classic spectral clustering algorithm to find the spectral clusters. The last stage of SamSPECTRAL is to combine the spectral clusters. The resulting “connected components” estimate biological cell populations in the data. See the vignette for more details on how to use this package, some illustrations, and simple examples.</p>
 </dd></dl>
 
-<dl class="package">
+<dl class="conda package">
 <dt id="package-bioconductor-samspectral">
 <em class="property">package </em><code class="sig-name descname">bioconductor-samspectral</code><a class="headerlink" href="#package-bioconductor-samspectral" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-samspectral"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-samspectral.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-samspectral"><img alt="docker_bioconductor-samspectral" src="https://quay.io/repository/biocontainers/bioconductor-samspectral/status" /></a></p>
@@ -133,8 +133,8 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-confess/README.html#bioconductor-confess"><strong class="xref backref">bioconductor-confess</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-ddpcrclust/README.html#bioconductor-ddpcrclust"><strong class="xref backref">bioconductor-ddpcrclust</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-confess/README.html#bioconductor-confess"><strong class="xref backref">bioconductor-confess</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -174,7 +174,7 @@
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

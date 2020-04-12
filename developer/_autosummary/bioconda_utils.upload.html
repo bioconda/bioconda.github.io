@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
     <title>upload &#8212; Bioconda  documentation</title>
@@ -151,9 +151,9 @@
 </tbody>
 </table>
 <p class="rubric">Documentation</p>
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.upload.anaconda_upload">
-<code class="sig-prename descclassname">bioconda_utils.upload.</code><code class="sig-name descname">anaconda_upload</code><span class="sig-paren">(</span><em class="sig-param">package</em>, <em class="sig-param">token=None</em>, <em class="sig-param">label=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/upload.html#anaconda_upload"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.upload.anaconda_upload" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.upload.</code><code class="sig-name descname">anaconda_upload</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">package</span></em>, <em class="sig-param"><span class="n">token</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">label</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/upload.html#anaconda_upload"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.upload.anaconda_upload" title="Permalink to this definition">¶</a></dt>
 <dd><p>Upload a package to anaconda.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -178,9 +178,9 @@ None if it should be retried</p>
 </dl>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.upload.mulled_upload">
-<code class="sig-prename descclassname">bioconda_utils.upload.</code><code class="sig-name descname">mulled_upload</code><span class="sig-paren">(</span><em class="sig-param">image</em>, <em class="sig-param">quay_target</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/upload.html#mulled_upload"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.upload.mulled_upload" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.upload.</code><code class="sig-name descname">mulled_upload</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">image</span></em>, <em class="sig-param"><span class="n">quay_target</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/upload.html#mulled_upload"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.upload.mulled_upload" title="Permalink to this definition">¶</a></dt>
 <dd><p>Upload the build Docker images to quay.io with <code class="docutils literal notranslate"><span class="pre">mulled-build</span> <span class="pre">push</span></code>.</p>
 <p>Calls <code class="docutils literal notranslate"><span class="pre">mulled-build</span> <span class="pre">push</span> <span class="pre">&lt;image&gt;</span> <span class="pre">-n</span> <span class="pre">&lt;quay_target&gt;</span></code></p>
 <dl class="field-list simple">
@@ -196,9 +196,9 @@ None if it should be retried</p>
 </dl>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="bioconda_utils.upload.skopeo_upload">
-<code class="sig-prename descclassname">bioconda_utils.upload.</code><code class="sig-name descname">skopeo_upload</code><span class="sig-paren">(</span><em class="sig-param">image_file</em>, <em class="sig-param">target</em>, <em class="sig-param">creds</em>, <em class="sig-param">registry='quay.io'</em>, <em class="sig-param">timeout=600</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/upload.html#skopeo_upload"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.upload.skopeo_upload" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.upload.</code><code class="sig-name descname">skopeo_upload</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">image_file</span></em>, <em class="sig-param"><span class="n">target</span></em>, <em class="sig-param"><span class="n">creds</span></em>, <em class="sig-param"><span class="n">registry</span><span class="o">=</span><span class="default_value">'quay.io'</span></em>, <em class="sig-param"><span class="n">timeout</span><span class="o">=</span><span class="default_value">600</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/upload.html#skopeo_upload"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.upload.skopeo_upload" title="Permalink to this definition">¶</a></dt>
 <dd><p>Upload an image to docker registy</p>
 <p>Uses <code class="docutils literal notranslate"><span class="pre">skopeo</span></code> to upload tar archives of docker images as created
 with e.g.``docker save`` to a docker registry.</p>
@@ -232,7 +232,7 @@ with e.g.``docker save`` to a docker registry.</p>
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
