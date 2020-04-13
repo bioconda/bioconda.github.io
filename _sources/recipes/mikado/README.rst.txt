@@ -22,33 +22,44 @@ mikado
 
    |downloads_mikado| |docker_mikado|
 
-   :versions: 1.2.4-0, 1.2.3-1, 1.2.2-1, 1.2.2-0, 1.2.1-0, 1.1.1-0, 1.0.2-0
+   :versions: 2.0rc2-0, 1.2.4-0, 1.2.3-1, 1.2.2-1, 1.2.2-0, 1.2.1-0, 1.1.1-0, 1.0.2-0
    
-   :depends biopython: >=1.66
-   :depends cython: >=0.28.2
-   :depends docutils: !=0.13.1
+   :depends appdirs: 
+   :depends args: 
+   :depends biopython: >=1.74
+   :depends datrie: >=0.8
+   :depends decorator: 
+   :depends docutils: 
    :depends drmaa: 
-   :depends frozendict: 
+   :depends fastnumbers: 
+   :depends hypothesis: 
    :depends intervaltree: 
+   :depends jsonref: >=0.2
    :depends jsonschema: 
-   :depends libmagic: 
-   :depends networkx: >=1.10
-   :depends nose: 
-   :depends numpy: 
-   :depends portcullis: 
-   :depends pyfaidx: 
-   :depends python: >=3.5,<3.6.0a0
-   :depends python-magic: 
-   :depends pyyaml: 
-   :depends scikit-learn: >=0.17.0
-   :depends scipy: >=0.15.0
-   :depends simplejson: 
-   :depends snakemake: 
-   :depends sqlalchemy: >=1
-   :depends sqlalchemy-utils: 
-   :depends tabulate: 
-   :depends typing: 
-   :depends ujson: 
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends msgpack-python: >=1.0.0
+   :depends networkx: >=2.3
+   :depends numpy: >=1.17
+   :depends pandas: >=0.25.1
+   :depends pyfaidx: >=0.5.8
+   :depends pysam: >=0.15.3
+   :depends pytest: >=5.4.1
+   :depends python: >=3.6,<3.7.0a0
+   :depends python-rapidjson: >=0.9.1
+   :depends python_abi: 3.6.* *_cp36m
+   :depends pyyaml: >=5.1.2
+   :depends rapidjson: >=1.1.0
+   :depends scikit-learn: >=0.21.3
+   :depends scipy: >=1.3.1
+   :depends six: >=1.12.0
+   :depends snakemake-minimal: >=5.7.0
+   :depends sqlalchemy: >=1.3.9
+   :depends sqlalchemy-utils: >=0.34.1
+   :depends sqlite: >=3.30.1,<4.0a0
+   :depends tabulate: >=0.8.5
+   :depends toml: >=0.10.0
+   :depends tomlkit: >=0.5.8
    :depends wheel: >=0.28.0
    :requirements:
 

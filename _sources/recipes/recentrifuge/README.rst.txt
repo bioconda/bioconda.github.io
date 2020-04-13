@@ -22,12 +22,12 @@ recentrifuge
 
    |downloads_recentrifuge| |docker_recentrifuge|
 
-   :versions: 0.29.0-0, 0.28.14-0, 0.28.13-0
+   :versions: 1.0.1-0, 0.29.0-0, 0.28.14-0, 0.28.13-0
    
-   :depends biopython: >=1.68
+   :depends biopython: >=1.70
    :depends matplotlib-base: >3.0
    :depends numpy: >1.15
-   :depends openpyxl: >0.9.0
+   :depends openpyxl: >2.5.0
    :depends pandas: >=0.23.2
    :depends python: >=3
    :depends xlrd: >=0.9.0
