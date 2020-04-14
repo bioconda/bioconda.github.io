@@ -22,7 +22,7 @@ ddipy
 
    |downloads_ddipy| |docker_ddipy|
 
-   :versions: 0.0.3-0
+   :versions: 0.0.4-0, 0.0.3-0
    
    :depends python: >=3
    :depends requests: 

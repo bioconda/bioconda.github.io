@@ -24,7 +24,7 @@ bttcmp
 
    |downloads_bttcmp| |docker_bttcmp|
 
-   :versions: 1.0.2-0, 1.0.1-0
+   :versions: 1.0.3-0, 1.0.2-0, 1.0.1-0
    
    :depends blast: 
    :depends hmmer: 
