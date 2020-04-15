@@ -23,7 +23,7 @@ referenceseeker
 
    |downloads_referenceseeker| |docker_referenceseeker|
 
-   :versions: 1.6-0, 1.5-0, 1.4-0, 1.3-0, 1.2.0-0
+   :versions: 1.6.1-0, 1.6-0, 1.5-0, 1.4-0, 1.3-0, 1.2.0-0
    
    :depends biopython: >=1.71
    :depends mash: >=2.1.0
