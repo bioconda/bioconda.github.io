@@ -1,0 +1,69 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'scirpy'
+.. highlight: bash
+
+scirpy
+======
+
+.. conda:recipe:: scirpy
+   :replaces_section_title:
+
+   A Scanpy extension for analyzing single\-cell T\-cell receptor sequencing data.
+
+   :homepage: https://icbi-lab.github.io/scirpy
+   :developer docs: https://github.com/icbi-lab/scirpy
+   :license: BSD / BSD-3
+   :recipe: /`scirpy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scirpy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scirpy/meta.yaml>`_
+   :links: doi: :doi:`10.1101/2020.04.10.035865`
+
+   
+
+
+.. conda:package:: scirpy
+
+   |downloads_scirpy| |docker_scirpy|
+
+   :versions: 
+   
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install scirpy
+
+   and update with::
+
+      conda update scirpy
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/scirpy:<tag>
+
+   (see `scirpy/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_scirpy| image:: https://img.shields.io/conda/dn/bioconda/scirpy.svg?style=flat
+   :target: https://anaconda.org/bioconda/scirpy
+   :alt:   (downloads)
+.. |docker_scirpy| image:: https://quay.io/repository/biocontainers/scirpy/status
+   :target: https://quay.io/repository/biocontainers/scirpy
+.. _`scirpy/tags`: https://quay.io/repository/biocontainers/scirpy?tab=tags
+
+
+
+
+
+
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/scirpy/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/scirpy/README.html
