@@ -22,7 +22,7 @@ gnali
 
    |downloads_gnali| |docker_gnali|
 
-   :versions: 0.1.0-0
+   :versions: 0.1.1-0, 0.1.0-0
    
    :depends filelock: 
    :depends numpy: 

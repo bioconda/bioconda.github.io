@@ -9,9 +9,9 @@ kraken2
 .. conda:recipe:: kraken2
    :replaces_section_title:
 
-   Kraken is a system for assigning taxonomic labels to short DNA sequences\, usually obtained through metagenomic studies.
+   Kraken2 is a system for assigning taxonomic labels to short DNA sequences\, usually obtained through metagenomic studies.
 
-   :homepage: http://ccb.jhu.edu/software/kraken/
+   :homepage: https://ccb.jhu.edu/software/kraken2/
    :license: GPLv3
    :recipe: /`kraken2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kraken2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kraken2/meta.yaml>`_
    :links: biotools: :biotools:`kraken2`, doi: :doi:`10.1186/gb-2014-15-3-r46`
@@ -23,8 +23,9 @@ kraken2
 
    |downloads_kraken2| |docker_kraken2|
 
-   :versions: 2.0.8_beta-1, 2.0.8_beta-0, 2.0.7_beta-3, 2.0.7_beta-2, 2.0.7_beta-1, 2.0.7_beta-0
+   :versions: 2.0.8_beta-2, 2.0.8_beta-1, 2.0.8_beta-0, 2.0.7_beta-3, 2.0.7_beta-2, 2.0.7_beta-1, 2.0.7_beta-0
    
+   :depends _openmp_mutex: * *_gnu
    :depends blast: 
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

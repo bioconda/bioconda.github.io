@@ -22,18 +22,18 @@ optitype
 
    |downloads_optitype| |docker_optitype|
 
-   :versions: 1.3.2-3, 1.3.2-2, 1.3.2-1, 1.3.1-0, 1.2.1-1, 1.2.1-0, 1.2-0
+   :versions: 1.3.4-0, 1.3.2-3, 1.3.2-2, 1.3.2-1, 1.3.1-0, 1.2.1-1, 1.2.1-0, 1.2-0
    
    :depends future: 
    :depends glpk: 
    :depends hdf5: 
-   :depends matplotlib: 
-   :depends numpy: 1.15.4.*
+   :depends matplotlib-base: 
+   :depends numpy: 
    :depends pandas: 
    :depends pyomo: 
    :depends pysam: 
    :depends pytables: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: 
    :depends razers3: 
    :depends samtools: 
    :depends six: 

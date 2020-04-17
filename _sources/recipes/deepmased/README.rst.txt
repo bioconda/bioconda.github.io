@@ -23,7 +23,7 @@ deepmased
 
    |downloads_deepmased| |docker_deepmased|
 
-   :versions: 0.3.0-0
+   :versions: 0.3.1-0, 0.3.0-0
    
    :depends ipython: 
    :depends keras: 

@@ -22,10 +22,14 @@ medpy
 
    |downloads_medpy| |docker_medpy|
 
-   :versions: 0.4.0-0, 0.3.0-0
+   :versions: 0.4.0-1, 0.4.0-0, 0.3.0-0
    
+   :depends boost: >=1.70.0,<1.70.1.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends numpy: >=1.11.0
-   :depends python: >3
+   :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :depends scipy: >=1.1.0
    :depends simpleitk: >=1.1.0
    :requirements:

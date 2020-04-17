@@ -22,9 +22,10 @@ openduck
 
    |downloads_openduck| |docker_openduck|
 
-   :versions: v0.1.1-0
+   :versions: 0.1.1-0
    
    :depends cudatoolkit: 
+   :depends networkx: 
    :depends python: 
    :depends rdkit: 
    :requirements:

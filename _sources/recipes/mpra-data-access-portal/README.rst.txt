@@ -22,7 +22,7 @@ mpra-data-access-portal
 
    |downloads_mpra-data-access-portal| |docker_mpra-data-access-portal|
 
-   :versions: 0.1.7-0
+   :versions: 0.1.7-2, 0.1.7-1, 0.1.7-0
    
    :depends r-base: 3.6.3.*
    :depends r-dplyr: 0.8.5.*

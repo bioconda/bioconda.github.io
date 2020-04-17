@@ -22,7 +22,7 @@ crispector
 
    |downloads_crispector| |docker_crispector|
 
-   :versions: 1.0.2b7-0, 1.0.2b6-0
+   :versions: 1.0.2b9-0, 1.0.2b7-0, 1.0.2b6-0
    
    :depends biopython: >=1.74
    :depends click: >=7.0

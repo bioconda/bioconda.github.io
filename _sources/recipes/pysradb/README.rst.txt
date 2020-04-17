@@ -25,13 +25,13 @@ pysradb
 
    |downloads_pysradb| |docker_pysradb|
 
-   :versions: 0.10.2-0, 0.10.1-0, 0.10.0-0, 0.9.9-0, 0.9.7-0, 0.9.6-0, 0.9.0-0, 0.8.0-0, 0.7.1-0, 0.6.0-0, 0.4.2-0, 0.4.0-0, 0.3.0-0, 0.2.2-0
+   :versions: 0.10.4-0, 0.10.2-0, 0.10.1-0, 0.10.0-0, 0.9.9-0, 0.9.7-0, 0.9.6-0, 0.9.0-0, 0.8.0-0, 0.7.1-0, 0.6.0-0, 0.4.2-0, 0.4.0-0, 0.3.0-0, 0.2.2-0
    
-   :depends pandas: 0.25.3.*
+   :depends pandas: 1.0.1.*
    :depends python: >=3
-   :depends requests: 2.22.0.*
+   :depends requests: 2.23.0.*
    :depends sra-tools: 
-   :depends tqdm: 4.41.1.*
+   :depends tqdm: 4.43.0.*
    :depends xmltodict: 0.12.0.*
    :requirements:
 

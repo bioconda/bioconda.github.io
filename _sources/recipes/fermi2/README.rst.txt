@@ -22,7 +22,7 @@ fermi2
 
    |downloads_fermi2| |docker_fermi2|
 
-   :versions: r193-4, r193-3, r193-2, r193-1, r193-0, r188-0
+   :versions: r193-4, r193-3, r193-2, r193-1, r193-0, r188-0, r170-0
    
    :depends bfc: 
    :depends libgcc-ng: >=7.3.0

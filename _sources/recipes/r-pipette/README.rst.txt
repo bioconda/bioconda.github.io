@@ -23,7 +23,7 @@ r-pipette
 
    |downloads_r-pipette| |docker_r-pipette|
 
-   :versions: 0.4.2-0, 0.4.1-0
+   :versions: 0.4.3-0, 0.4.2-0, 0.4.1-0
    
    :depends bioconductor-biocgenerics: >=0.32
    :depends bioconductor-genomicranges: >=1.38

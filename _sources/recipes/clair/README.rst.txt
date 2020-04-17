@@ -22,11 +22,11 @@ clair
 
    |downloads_clair| |docker_clair|
 
-   :versions: 2.0.7-0, 2.0.6-1, 2.0.6-0, 2.0.5-1, 2.0.5-0, 2.0.4-0, 2.0.3-0, 2.0.2-0, 2.0.1-0, 2.0.0-0
+   :versions: 2.1.0-0, 2.0.7-0, 2.0.6-1, 2.0.6-0, 2.0.5-1, 2.0.5-0, 2.0.4-0, 2.0.3-0, 2.0.2-0, 2.0.1-0, 2.0.0-0
    
    :depends bcftools: 
    :depends intervaltree: 3.0.2
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: >=1.17,<1.18
    :depends parallel: 
    :depends pigz: 
