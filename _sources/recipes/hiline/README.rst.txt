@@ -22,7 +22,7 @@ hiline
 
    |downloads_hiline| |docker_hiline|
 
-   :versions: 0.0.2-0, 0.0.1-0
+   :versions: 0.0.3-0, 0.0.2-0, 0.0.1-0
    
    :depends biopython: >=1.76
    :depends bwa: >=0.7.17

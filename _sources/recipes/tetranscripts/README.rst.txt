@@ -22,10 +22,11 @@ tetranscripts
 
    |downloads_tetranscripts| |docker_tetranscripts|
 
-   :versions: 2.1.4-0, 2.1.3-0
+   :versions: 2.1.4-1, 2.1.4-0, 2.1.3-0
    
-   :depends bioconductor-deseq: >=1.10
-   :depends pysam: >=0.9
+   :depends bioconductor-deseq: >=1.38
+   :depends bioconductor-deseq2: >=1.26
+   :depends pysam: >=0.15.3
    :depends python: <3
    :depends r-base: 
    :requirements:

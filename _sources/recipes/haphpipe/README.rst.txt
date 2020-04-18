@@ -24,7 +24,7 @@ haphpipe
 
    |downloads_haphpipe| |docker_haphpipe|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.0-1, 1.0.0-0
    
    :depends biopython: 
    :depends blast: 
