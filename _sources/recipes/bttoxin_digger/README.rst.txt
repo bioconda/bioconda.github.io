@@ -24,7 +24,7 @@ bttoxin_digger
 
    |downloads_bttoxin_digger| |docker_bttoxin_digger|
 
-   :versions: 1.0.2-0, 1.0.1-0
+   :versions: 1.0.3-0, 1.0.2-0, 1.0.1-0
    
    :depends blast: 
    :depends hmmer: 
