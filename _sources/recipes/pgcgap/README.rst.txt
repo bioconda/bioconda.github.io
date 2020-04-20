@@ -24,7 +24,7 @@ pgcgap
 
    |downloads_pgcgap| |docker_pgcgap|
 
-   :versions: 1.0.14-0, 1.0.13-1, 1.0.13-0, 1.0.12-1, 1.0.12-0, 1.0.11-1, 1.0.11-0, 1.0.10-2, 1.0.10-1, 1.0.10-0, 1.0.9-2, 1.0.9-1, 1.0.9-0, 1.0.8-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-4, 1.0.2-3, 1.0.2-2, 1.0.2-1, 1.0.1-1, 1.0.1-0, 1.0.0-0
+   :versions: 1.0.15-0, 1.0.14-0, 1.0.13-1, 1.0.13-0, 1.0.12-1, 1.0.12-0, 1.0.11-1, 1.0.11-0, 1.0.10-2, 1.0.10-1, 1.0.10-0, 1.0.9-2, 1.0.9-1, 1.0.9-0, 1.0.8-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-4, 1.0.2-3, 1.0.2-2, 1.0.2-1, 1.0.1-1, 1.0.1-0, 1.0.0-0
    
    :depends abricate: 
    :depends abyss: >=2.1.5
@@ -36,6 +36,7 @@ pgcgap
    :depends diamond: >=0.9.24
    :depends fastani: >=1.1
    :depends fastme: >=2.1.5
+   :depends fastp: 
    :depends fasttree: >=2.1.10
    :depends gblocks: 
    :depends gubbins: 
@@ -59,6 +60,7 @@ pgcgap
    :depends perl-parallel-forkmanager: 
    :depends perl-pod-usage: >=1.69
    :depends perl-posix: 
+   :depends perl-sys-info: 
    :depends prokka: >=1.13.4
    :depends r-corrplot: 
    :depends r-ggplot2: 3.1.1.*
@@ -71,7 +73,7 @@ pgcgap
    :depends seaborn: 
    :depends sickle-trim: >=1.33
    :depends snippy: >=4.3.6
-   :depends unicycler: 
+   :depends unicycler: 0.4.7.*
    :depends wget: 
    :requirements:
 
