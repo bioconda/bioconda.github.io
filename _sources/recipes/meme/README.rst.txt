@@ -22,15 +22,15 @@ meme
 
    |downloads_meme| |docker_meme|
 
-   :versions: 5.1.0-0, 5.0.5-0, 5.0.2-5, 5.0.2-3, 5.0.2-2, 4.12.0-2, 4.12.0-1, 4.12.0-0, 4.11.2-4, 4.11.2-3, 4.11.2-2, 4.11.2-1, 4.11.2-0, 4.11.1-6, 4.11.1-5, 4.11.1-4, 4.11.1-3, 4.11.1-2, 4.11.1-1, 4.11.1-0, 4.8.1-2, 4.8.1-1
+   :versions: 5.1.1-0, 5.1.0-0, 5.0.5-0, 5.0.2-5, 5.0.2-3, 5.0.2-2, 4.12.0-2, 4.12.0-1, 4.12.0-0, 4.11.2-4, 4.11.2-3, 4.11.2-2, 4.11.2-1, 4.11.2-0, 4.11.1-6, 4.11.1-5, 4.11.1-4, 4.11.1-3, 4.11.1-2, 4.11.1-1, 4.11.1-0, 4.8.1-2, 4.8.1-1
    
-   :depends expat: >=2.2.5,<2.3.0a0
+   :depends expat: >=2.2.9,<2.3.0a0
    :depends ghostscript: 
    :depends icu: >=64.2,<65.0a0
    :depends libgcc-ng: >=7.3.0
    :depends libxml2: >=2.9.10,<2.10.0a0
    :depends libxslt: >=1.1.33,<2.0a0
-   :depends openmpi: >=4.0.2,<4.1.0a0
+   :depends openmpi: >=4.0.3,<4.1.0a0
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-cgi: 
    :depends perl-file-which: 
@@ -44,8 +44,9 @@ meme
    :depends perl-xml-simple: 
    :depends perl-yaml: 
    :depends python: >=2.7,<2.8.0a0
-   :depends xz: >=5.2.4,<5.3.0a0
-   :depends yaml: >=0.2.2,<0.3.0a0
+   :depends python_abi: 2.7.* *_cp27mu
+   :depends xz: >=5.2.5,<5.3.0a0
+   :depends yaml: >=0.2.4,<0.3.0a0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
