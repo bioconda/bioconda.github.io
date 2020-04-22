@@ -25,8 +25,22 @@ dgenies
 
    |downloads_dgenies| |docker_dgenies|
 
-   :versions: 
+   :versions: 1.2.0.1-0
    
+   :depends argparse: 
+   :depends biopython: 
+   :depends flask: 
+   :depends intervaltree: 
+   :depends jinja2: 
+   :depends markdown: 
+   :depends matplotlib-base: 
+   :depends numpy: 
+   :depends psutil: 
+   :depends python: >=3.5
+   :depends python-crontab: 
+   :depends pyyaml: 
+   :depends requests: 
+   :depends tendo: 
    :requirements:
 
    .. rubric:: Installation

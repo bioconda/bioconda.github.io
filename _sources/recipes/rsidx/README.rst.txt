@@ -22,7 +22,7 @@ rsidx
 
    |downloads_rsidx| |docker_rsidx|
 
-   :versions: 0.1.1-0
+   :versions: 0.2-0, 0.1.1-0
    
    :depends python: >=3
    :depends tabix: 

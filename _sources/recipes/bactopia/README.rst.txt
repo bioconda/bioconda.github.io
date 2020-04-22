@@ -9,7 +9,7 @@ bactopia
 .. conda:recipe:: bactopia
    :replaces_section_title:
 
-   Bactopia is an extensive workflow to process Illumina sequencing of bacterial genomes.
+   Bactopia is a flexible pipeline for complete analysis of bacterial genomes.
 
    :homepage: https://github.com/bactopia/bactopia
    :license: MIT
@@ -22,7 +22,7 @@ bactopia
 
    |downloads_bactopia| |docker_bactopia|
 
-   :versions: 1.3.0-0, 1.2.4-0, 1.2.2-0, 1.2.1-0, 1.2.0-0, 1.1.0-1, 1.1.0-0, 1.0.1-0
+   :versions: 1.3.1-0, 1.3.0-0, 1.2.4-0, 1.2.2-0, 1.2.1-0, 1.2.0-0, 1.1.0-1, 1.1.0-0, 1.0.1-0
    
    :depends ariba: 
    :depends beautifulsoup4: 

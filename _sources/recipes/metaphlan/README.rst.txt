@@ -27,7 +27,7 @@ metaphlan
 
    |downloads_metaphlan| |docker_metaphlan|
 
-   :versions: 3.0-2, 3.0-1, 3.0-0
+   :versions: 3.0-3, 3.0-2, 3.0-1, 3.0-0
    
    :depends biom-format: 
    :depends biopython: 

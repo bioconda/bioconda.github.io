@@ -22,7 +22,7 @@ biscuit
 
    |downloads_biscuit| |docker_biscuit|
 
-   :versions: 0.3.15.20200318-0
+   :versions: 0.3.16.20200420-0, 0.3.15.20200318-0
    
    :depends libcurl: >=7.64.1,<8.0a0
    :depends libgcc-ng: >=7.3.0

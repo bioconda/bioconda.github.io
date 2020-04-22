@@ -23,13 +23,13 @@ dart
 
    |downloads_dart| |docker_dart|
 
-   :versions: 1.3.9-0, 1.3.8-1, 1.3.8-0, 1.3.7-0, 1.3.6-0
+   :versions: 1.4.0-0, 1.3.9-0, 1.3.8-1, 1.3.8-0, 1.3.7-0, 1.3.6-0
    
    :depends boost-cpp: >=1.70.0,<1.70.1.0a0
    :depends bzip2: >=1.0.8,<2.0a0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends xz: >=5.2.4,<5.3.0a0
+   :depends xz: >=5.2.5,<5.3.0a0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
