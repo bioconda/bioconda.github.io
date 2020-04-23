@@ -9,7 +9,7 @@ salmon
 .. conda:recipe:: salmon
    :replaces_section_title:
 
-   Highly\-accurate \& wicked fast transcript\-level quantification from RNA\-seq reads using lightweight alignments
+   Highly\-accurate \& wicked fast transcript\-level quantification from RNA\-seq reads using selective alignment
 
    :homepage: https://github.com/COMBINE-lab/salmon
    :license: GPLv3
@@ -23,10 +23,11 @@ salmon
 
    |downloads_salmon| |docker_salmon|
 
-   :versions: 1.2.0-0, 1.1.0-0, 1.0.0-0, 0.15.0-0, 0.14.2-1, 0.14.2-0, 0.14.1-2, 0.14.1-1, 0.14.1-0, 0.14.0-1, 0.14.0-0, 0.13.1-0, 0.13.0-2, 0.13.0-1, 0.12.0-1, 0.11.3-2, 0.11.3-1, 0.11.2-0, 0.11.1-0, 0.11.0-0, 0.10.2-3, 0.10.2-1, 0.10.1-1, 0.10.0-1, 0.9.1-1, 0.9.1-0, 0.9.0-0, 0.8.2-1, 0.8.2-0, 0.8.1-0, 0.8.0-0, 0.7.2-3, 0.7.2-2, 0.6.0-2, 0.6.0-1, 0.6.0-0, 0.5.1-0
+   :versions: 1.2.1-0, 1.2.0-0, 1.1.0-0, 1.0.0-0, 0.15.0-0, 0.14.2-1, 0.14.2-0, 0.14.1-2, 0.14.1-1, 0.14.1-0, 0.14.0-1, 0.14.0-0, 0.13.1-0, 0.13.0-2, 0.13.0-1, 0.12.0-1, 0.11.3-2, 0.11.3-1, 0.11.2-0, 0.11.1-0, 0.11.0-0, 0.10.2-3, 0.10.2-1, 0.10.1-1, 0.10.0-1, 0.9.1-1, 0.9.1-0, 0.9.0-0, 0.8.2-1, 0.8.2-0, 0.8.1-0, 0.8.0-0, 0.7.2-3, 0.7.2-2, 0.6.0-2, 0.6.0-1, 0.6.0-0, 0.5.1-0
    
    :depends bzip2: >=1.0.8,<2.0a0
    :depends icu: >=64.2,<65.0a0
+   :depends jemalloc: >=5.2.1
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends tbb: >=2020.1

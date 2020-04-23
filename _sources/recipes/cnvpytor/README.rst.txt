@@ -22,7 +22,7 @@ cnvpytor
 
    |downloads_cnvpytor| |docker_cnvpytor|
 
-   :versions: 1.0b3-0
+   :versions: 1.0b3-1, 1.0b3-0
    
    :depends h5py: >=2.9
    :depends matplotlib-base: >=2.2
@@ -62,6 +62,10 @@ cnvpytor
 
 
 
+
+Notes
+-----
+The package comes with downloaded reference data\, such that \`cnvpytor \-download\` can be omitted.
 
 
 Link to this page

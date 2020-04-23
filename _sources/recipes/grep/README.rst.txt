@@ -22,10 +22,10 @@ grep
 
    |downloads_grep| |docker_grep|
 
-   :versions: 2.14-3, 2.14-2, 2.14-1, 2.14-0
+   :versions: 3.4-0, 2.14-3, 2.14-2, 2.14-1, 2.14-0
    
    :depends libgcc-ng: >=7.3.0
-   :depends pcre: >=8.41,<9.0a0
+   :depends pcre: >=8.44,<9.0a0
    :requirements:
 
    .. rubric:: Installation

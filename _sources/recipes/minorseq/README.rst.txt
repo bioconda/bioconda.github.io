@@ -22,10 +22,10 @@ minorseq
 
    |downloads_minorseq| |docker_minorseq|
 
-   :versions: 1.11.0-1, 1.11.0-0
+   :versions: 1.12.0-0, 1.11.0-1, 1.11.0-0
    
-   :depends blasr: 
    :depends pbccs: 
+   :depends pbmm2: 
    :depends samtools: 
    :requirements:
 

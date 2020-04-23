@@ -22,10 +22,11 @@ raven-assembler
 
    |downloads_raven-assembler| |docker_raven-assembler|
 
-   :versions: 0.0.8-0, 0.0.7-0, 0.0.5-0, 0.0.1-0, 0.0.0-0
+   :versions: 1.1.5-0, 0.0.8-0, 0.0.7-0, 0.0.5-0, 0.0.1-0, 0.0.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
+   :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
    .. rubric:: Installation

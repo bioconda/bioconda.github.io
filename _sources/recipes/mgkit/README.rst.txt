@@ -23,13 +23,13 @@ mgkit
 
    |downloads_mgkit| |docker_mgkit|
 
-   :versions: 0.4.2-0, 0.4.1-0, 0.4.0-0, 0.3.4-0, 0.3.3-0, 0.3.0-0, 0.2.2-0
+   :versions: 0.4.3-0, 0.4.2-0, 0.4.1-0, 0.4.0-0, 0.3.4-0, 0.3.3-0, 0.3.0-0, 0.2.2-0
    
    :depends click: 
    :depends future: 
    :depends htseq: >=0.9.1
    :depends libgcc-ng: >=7.3.0
-   :depends matplotlib: >=2
+   :depends matplotlib-base: >=2
    :depends msgpack-python: >=0.4.6
    :depends networkx: 
    :depends numpy: >=1.9.2
@@ -38,6 +38,7 @@ mgkit
    :depends pysam: >=0.14
    :depends pytables: >=3.4.2
    :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :depends requests: 
    :depends scipy: >=0.15.1
    :depends semidbm: >=0.5.1

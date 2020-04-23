@@ -22,12 +22,12 @@ sanitizeme
 
    |downloads_sanitizeme| |docker_sanitizeme|
 
-   :versions: 1.0-0
+   :versions: 1.0-1, 1.0-0
    
    :depends colored: 
    :depends gooey: 
    :depends minimap2: 
-   :depends python: 3.6.*
+   :depends python: >=3
    :depends samtools: 
    :requirements:
 

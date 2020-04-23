@@ -23,11 +23,12 @@ andi
 
    |downloads_andi| |docker_andi|
 
-   :versions: 0.12-4, 0.12-3, 0.12-0, 0.11-1, 0.11-0, 0.10-0
+   :versions: 0.13-0, 0.12-4, 0.12-3, 0.12-0, 0.11-1, 0.11-0, 0.10-0
    
-   :depends gsl: >=2.4,<2.5.0a0
+   :depends gsl: >=2.5,<2.6.0a0
    :depends libdivsufsort: 
-   :depends openblas: >=0.3.3,<0.3.4.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends openblas: >=0.3.6,<0.3.7.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -22,14 +22,17 @@ tracy
 
    |downloads_tracy| |docker_tracy|
 
-   :versions: 0.5.6-0, 0.5.5-0, 0.5.3-1, 0.5.3-0, 0.5.2-0, 0.5.1-0, 0.3.10-0, 0.3.8-0, 0.3.7-0, 0.3.6-1, 0.3.6-0
+   :versions: 0.5.7-0, 0.5.6-0, 0.5.5-0, 0.5.3-1, 0.5.3-0, 0.5.2-0, 0.5.1-0, 0.3.10-0, 0.3.8-0, 0.3.7-0, 0.3.6-1, 0.3.6-0
    
-   :depends boost: >=1.70.0,<1.70.1.0a0
+   :depends _openmp_mutex: * *_llvm
+   :depends _openmp_mutex: >=4.5
+   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
    :depends bzip2: >=1.0.8,<2.0a0
    :depends htslib: >=1.9,<1.10.0a0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends nlohmann_json: 
+   :depends llvm-openmp: >=10.0.0
+   :depends llvm-openmp: >=8.0.1
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

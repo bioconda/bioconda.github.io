@@ -9,9 +9,9 @@ radsex
 .. conda:recipe:: radsex
    :replaces_section_title:
 
-   RADSex \(currently under development\) is a software package for the analysis of sex\-determination using RAD\-Sequencing data.
+   The radsex software is part of RADSex\, a computational workflow for the analysis of sex\-determination using RAD\-Sequencing data.
 
-   :homepage: https://github.com/RomainFeron/RadSex
+   :homepage: https://sexgenomicstoolkit.github.io/html/radsex/introduction.html
    :license: GPL3
    :recipe: /`radsex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/radsex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/radsex/meta.yaml>`_
 
@@ -22,7 +22,7 @@ radsex
 
    |downloads_radsex| |docker_radsex|
 
-   :versions: 0.2.0-0
+   :versions: 1.0.0c-0, 0.2.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0

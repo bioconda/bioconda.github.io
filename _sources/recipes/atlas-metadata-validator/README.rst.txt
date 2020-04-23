@@ -28,7 +28,7 @@ atlas-metadata-validator
 
    |downloads_atlas-metadata-validator| |docker_atlas-metadata-validator|
 
-   :versions: 1.2.1-0, 1.2.0-0, 1.1.0-0, 1.0.0-0
+   :versions: 1.3.0-0, 1.2.1-0, 1.2.0-0, 1.1.0-0, 1.0.0-0
    
    :depends python: >=3
    :depends requests: >=2.20.1

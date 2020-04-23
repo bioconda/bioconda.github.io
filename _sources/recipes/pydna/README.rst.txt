@@ -22,7 +22,7 @@ pydna
 
    |downloads_pydna| |docker_pydna|
 
-   :versions: 3.0.1-0, 2.0.1-1, 2.0.1-0, 2.0.0a3-0
+   :versions: 3.0.2-0, 3.0.1-0, 2.0.1-1, 2.0.1-0, 2.0.0a3-0
    
    :depends appdirs: >=1.3.0
    :depends biopython: >=1.65
