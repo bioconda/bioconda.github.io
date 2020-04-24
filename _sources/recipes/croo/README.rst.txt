@@ -22,10 +22,14 @@ croo
 
    |downloads_croo| |docker_croo|
 
-   :versions: 0.3.4-0, 0.3.3-0, 0.3.1-0, 0.2.1-0, 0.2.0-0, 0.1.8-0
+   :versions: 0.4.2.1-0, 0.3.4-0, 0.3.3-0, 0.3.1-0, 0.2.1-0, 0.2.0-0, 0.1.8-0
    
-   :depends caper: >=0.5.0
-   :depends python: >3.4.1
+   :depends autouri: >=0.1.2.1
+   :depends caper: 
+   :depends graphviz: 
+   :depends miniwdl: 
+   :depends python: >=3.6
+   :depends python-graphviz: 
    :requirements:
 
    .. rubric:: Installation

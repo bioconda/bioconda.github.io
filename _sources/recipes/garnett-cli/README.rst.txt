@@ -22,7 +22,7 @@ garnett-cli
 
    |downloads_garnett-cli| |docker_garnett-cli|
 
-   :versions: 0.0.4-0, 0.0.3-2, 0.0.3-1, 0.0.3-0, 0.0.2-0, 0.0.1-0, v0.0.1-0
+   :versions: 0.0.5-0, 0.0.4-0, 0.0.3-2, 0.0.3-1, 0.0.3-0, 0.0.2-0, 0.0.1-0, v0.0.1-0
    
    :depends bioconductor-org.hs.eg.db: 
    :depends bioconductor-org.mm.eg.db: 

@@ -9,10 +9,10 @@ cutadapt
 .. conda:recipe:: cutadapt
    :replaces_section_title:
 
-   trim adapters from high\-throughput sequencing reads
+   Trim adapters from high\-throughput sequencing reads
 
    :homepage: https://cutadapt.readthedocs.io/
-   :license: MIT License
+   :license: MIT
    :recipe: /`cutadapt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cutadapt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cutadapt/meta.yaml>`_
    :links: biotools: :biotools:`cutadapt`, doi: :doi:`10.14806/ej.17.1.200`
 
@@ -23,9 +23,9 @@ cutadapt
 
    |downloads_cutadapt| |docker_cutadapt|
 
-   :versions: 2.9-0, 2.8-0, 2.7-0, 2.6-0, 2.5-0, 2.4-0, 2.3-0, 2.2-0, 2.1-0, 2.0-0, 1.18-1, 1.18-0, 1.17-0, 1.16-2, 1.16-1, 1.16-0, 1.15-0, 1.14-0, 1.13-0, 1.12-1, 1.12-0, 1.11-0, 1.10-0, 1.9.1-0, 1.8.3-0, 1.8.1-0
+   :versions: 2.10-0, 2.9-0, 2.8-0, 2.7-0, 2.6-0, 2.5-0, 2.4-0, 2.3-0, 2.2-0, 2.1-0, 2.0-0, 1.18-1, 1.18-0, 1.17-0, 1.16-2, 1.16-1, 1.16-0, 1.15-0, 1.14-0, 1.13-0, 1.12-1, 1.12-0, 1.11-0, 1.10-0, 1.9.1-0, 1.8.3-0, 1.8.1-0
    
-   :depends dnaio: >=0.4.1
+   :depends dnaio: >=0.4.2
    :depends libgcc-ng: >=7.3.0
    :depends pigz: 
    :depends python: >=3.6,<3.7.0a0
