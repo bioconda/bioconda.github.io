@@ -22,7 +22,7 @@ haplotype-lso
 
    |downloads_haplotype-lso| |docker_haplotype-lso|
 
-   :versions: 0.4.3-0, 0.4.2-0, 0.4.1-0, 0.4.0-0, 0.3.4-0, 0.3.3-0, 0.3.2-0, 0.3.1-0, 0.3.0-0
+   :versions: 0.4.4-0, 0.4.3-0, 0.4.2-0, 0.4.1-0, 0.4.0-0, 0.3.4-0, 0.3.3-0, 0.3.2-0, 0.3.1-0, 0.3.0-0
    
    :depends attrs: 
    :depends bioconvert: 
@@ -36,10 +36,11 @@ haplotype-lso
    :depends dash-table: 
    :depends flask: 
    :depends logzero: 
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
    :depends plotly: 
+   :depends python: 
    :depends scipy: 
    :depends seqtk: 
    :depends xlsxwriter: 
