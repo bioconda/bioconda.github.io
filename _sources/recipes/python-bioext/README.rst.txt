@@ -12,7 +12,7 @@ python-bioext
    A few handy bioinformatics tools not already in BioPython
 
    :homepage: https://github.com/veg/BioExt.git
-   :license: GPL-3
+   :license: GPL3 / GPL-3
    :recipe: /`python-bioext <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-bioext>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-bioext/meta.yaml>`_
 
    
@@ -22,15 +22,17 @@ python-bioext
 
    |downloads_python-bioext| |docker_python-bioext|
 
-   :versions: 0.18.6-2, 0.18.6-1, 0.18.6-0, 0.17.4-0
+   :versions: 0.19.7-0, 0.18.6-2, 0.18.6-1, 0.18.6-0, 0.17.4-0
    
-   :depends biopython: 
-   :depends freetype: >=2.8.1,<2.9.0a0
-   :depends libgcc-ng: >=4.9
-   :depends numpy: >=1.14.0
-   :depends pysam: <=0.13
-   :depends python: >=3.5,<3.6.0a0
-   :depends python-consensuscore: 
+   :depends biopython: >=1.58
+   :depends freetype: >=2.9.1,<3.0a0
+   :depends joblib: 
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends numpy: >=1.14
+   :depends pysam: 
+   :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :depends scipy: 
    :depends six: 
    :requirements:
