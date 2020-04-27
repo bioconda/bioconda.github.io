@@ -9,7 +9,7 @@ iucn_sim
 .. conda:recipe:: iucn_sim
    :replaces_section_title:
 
-   Estimate extinction probabilities and dates for a given set of species\, based on IUCN threat assessments
+   Simulate future extinctions and extinction rates for a given set of species\, based on IUCN threat assessments
 
    :homepage: https://github.com/tobiashofmann88/iucn_extinction_simulator
    :license: MIT
@@ -22,9 +22,9 @@ iucn_sim
 
    |downloads_iucn_sim| |docker_iucn_sim|
 
-   :versions: 1.6-0, 1.5-0, 1.4-0, 1.3-0, 1.2-0
+   :versions: 1.8-0, 1.7-0, 1.6-0, 1.5-0, 1.4-0, 1.3-0, 1.2-0
    
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
    :depends python: >=3.6

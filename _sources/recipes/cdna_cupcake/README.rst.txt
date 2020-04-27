@@ -22,7 +22,7 @@ cdna_cupcake
 
    |downloads_cdna_cupcake| |docker_cdna_cupcake|
 
-   :versions: 11.0.0-0, 10.0.1-0, 9.1.1-0, 9.0.3-0, 8.7.3-0, 5.8-0, 5.3-1, 5.3-0
+   :versions: 12.0.0-0, 11.0.0-0, 10.0.1-0, 9.1.1-0, 9.0.3-0, 8.7.3-0, 5.8-0, 5.3-1, 5.3-0
    
    :depends bcbiogff: 
    :depends biopython: 
