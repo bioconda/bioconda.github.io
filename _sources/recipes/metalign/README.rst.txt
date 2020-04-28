@@ -23,7 +23,7 @@ metalign
 
    |downloads_metalign| |docker_metalign|
 
-   :versions: 0.12.2-0
+   :versions: 0.12.3-0, 0.12.2-0
    
    :depends cmash: >=0.4.0
    :depends kmc: 

@@ -24,10 +24,10 @@ transcov
 
    |downloads_transcov| |docker_transcov|
 
-   :versions: 1.0.6-0, 1.0.5-0, 1.0.4-0, 1.0.2-0
+   :versions: 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.4-0, 1.0.2-0
    
    :depends attrs: 
-   :depends click: >=6.0
+   :depends click: >=7.0
    :depends numpy: 
    :depends pysam: 
    :depends python: >=3.6

@@ -22,17 +22,17 @@ dimspy
 
    |downloads_dimspy| |docker_dimspy|
 
-   :versions: 1.4.0-0, 1.3.0-0, 1.2.0-1, 1.2.0-0, 1.1.0-0, 1.0.0-0
+   :versions: 2.0.0-0, 1.4.0-0, 1.3.0-0, 1.2.0-1, 1.2.0-0, 1.1.0-0, 1.0.0-0
    
-   :depends fastcluster: 1.1.23
-   :depends h5py: 2.7.0
-   :depends mono: 4.8.1.0
-   :depends numpy: 1.13.3
-   :depends plotly: 2.5.1
-   :depends pymzml: 0.7.10
-   :depends python: <3
+   :depends fastcluster: 1.1.26
+   :depends h5py: 2.10.0
+   :depends numpy: 1.17.1
+   :depends pandas: 0.25.0
+   :depends pymzml: 2.4.5
+   :depends pytables: 3.6.1
+   :depends python: >3.7
    :depends pythonnet: 2.4.0
-   :depends scipy: 1.1.0
+   :depends scipy: 1.3.1
    :requirements:
 
    .. rubric:: Installation

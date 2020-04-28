@@ -27,7 +27,7 @@ metaphlan
 
    |downloads_metaphlan| |docker_metaphlan|
 
-   :versions: 3.0-3, 3.0-2, 3.0-1, 3.0-0, 3.0.0.alpha-0
+   :versions: 3.0-4, 3.0-3, 3.0-2, 3.0-1, 3.0-0, 3.0.0.alpha-1, 3.0.0.alpha-0
    
    :depends biom-format: 
    :depends biopython: 
@@ -41,7 +41,7 @@ metaphlan
    :depends pandas: 
    :depends phylophlan: 
    :depends pysam: 
-   :depends python: >=3
+   :depends python: >=3.7
    :depends raxml: >=8.2.10
    :depends requests: 
    :depends samtools: >=1.9

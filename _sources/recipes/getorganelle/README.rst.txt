@@ -22,16 +22,16 @@ getorganelle
 
    |downloads_getorganelle| |docker_getorganelle|
 
-   :versions: 1.6.4-0
+   :versions: 1.6.4-1, 1.6.4-0
    
    :depends blast: >=2.3
    :depends bowtie2: >=2.3
    :depends numpy: >=1.16.4
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends pigz: 
-   :depends python: >3
+   :depends python: 
    :depends scipy: >=1.3.0
-   :depends spades: >=3.9
+   :depends spades: >=3.9,<=3.13.0
    :depends sympy: >=1.4
    :requirements:
 

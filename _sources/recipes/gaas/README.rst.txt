@@ -22,7 +22,7 @@ gaas
 
    |downloads_gaas| |docker_gaas|
 
-   :versions: 1.0.1-0
+   :versions: 1.1.0-0, 1.0.1-0
    
    :depends libdb: 
    :depends perl: >=5.26.2,<5.26.3.0a0
