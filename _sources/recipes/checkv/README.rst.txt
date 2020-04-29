@@ -22,7 +22,7 @@ checkv
 
    |downloads_checkv| |docker_checkv|
 
-   :versions: 0.2.0-0, 0.1.0-0
+   :versions: 0.3.0-0, 0.2.0-0, 0.1.0-0
    
    :depends biopython: 
    :depends blast: 

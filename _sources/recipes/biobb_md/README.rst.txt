@@ -12,46 +12,23 @@ biobb_md
    Biobb\_md is the Biobb module collection to perform molecular dynamics simulations.
 
    :homepage: https://github.com/bioexcel/biobb_md
+   :documentation: http://biobb_md.readthedocs.io/en/latest/
+   
    :license: APACHE / Apache Software License
    :recipe: /`biobb_md <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_md>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_md/meta.yaml>`_
 
-   \[\!\[Documentation Status\]\(https\:\/\/readthedocs.org\/projects\/biobb\-md\/badge\/\?version\=latest\)\]\(https\:\/\/biobb\-md.readthedocs.io\/en\/latest\/\?badge\=latest\)
-
-   \# biobb\_md
-
-   \#\#\# Introduction
-   Biobb\_md is the Biobb module collection to perform molecular dynamics simulations.
-   Biobb \(BioExcel building blocks\) packages are Python building blocks that
-   create new layer of compatibility and interoperability over popular
-   bioinformatics tools.
-   The latest documentation of this package can be found in our readthedocs site\:
-   \[latest API documentation\]\(http\:\/\/biobb\_md.readthedocs.io\/en\/latest\/\).
-
-
-   \#\#\# Copyright \& Licensing
-    This software has been developed in the \[MMB group\]\(http\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(http\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
-
-   \* \(c\) 2015\-2019 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
-   \* \(c\) 2015\-2019 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
-
-   Licensed under the
-   \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details.
-
-   \!\[\]\(https\:\/\/bioexcel.eu\/wp\-content\/uploads\/2019\/04\/Bioexcell\_logo\_1080px\_transp.png \"Bioexcel\"\)
-
-
-
+   Biobb\_md is the Biobb module collection to perform molecular dynamics simulations. Biobb \(BioExcel building blocks\) packages are Python building blocks that create new layers of compatibility and interoperability over popular bioinformatics tools.
 
 
 .. conda:package:: biobb_md
 
    |downloads_biobb_md| |docker_biobb_md|
 
-   :versions: 2.0.0-0, 1.1.7-0, 1.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.2-0, 0.0.1-0
+   :versions: 3.0.0-0, 2.0.0-0, 1.1.7-0, 1.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.2-0, 0.0.1-0
    
-   :depends biobb_common: 2.0.1
+   :depends biobb_common: 3.0.0
    :depends gromacs: 2019.1
-   :depends python: 3.6.*
+   :depends python: >=3.7
    :requirements:
 
    .. rubric:: Installation
