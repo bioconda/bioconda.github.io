@@ -23,7 +23,7 @@ clame
 
    |downloads_clame| |docker_clame|
 
-   :versions: 1.0-0
+   :versions: 1.0-1, 1.0-0
    
    :depends _openmp_mutex: >=4.5
    :depends libgcc-ng: >=7.3.0

@@ -23,7 +23,7 @@ matam
 
    |downloads_matam| |docker_matam|
 
-   :versions: 1.6.0-0
+   :versions: 1.6.0-1, 1.6.0-0
    
    :depends bzip2: 
    :depends coreutils: 
@@ -35,7 +35,7 @@ matam
    :depends rdptools: 
    :depends samtools: 
    :depends sga: 
-   :depends sortmerna: 
+   :depends sortmerna: 2.1b
    :depends vsearch: 
    :depends wget: 
    :depends zlib: >=1.2.11,<1.3.0a0

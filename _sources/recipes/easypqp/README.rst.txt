@@ -66,7 +66,7 @@ easypqp
 
    |downloads_easypqp| |docker_easypqp|
 
-   :versions: 0.1.6-0, 0.1.5-0, 0.1.0-0
+   :versions: 0.1.7-0, 0.1.6-0, 0.1.5-0, 0.1.0-0
    
    :depends biopython: 
    :depends click: 

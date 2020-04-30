@@ -24,7 +24,7 @@ nebulizer
 
    |downloads_nebulizer| |docker_nebulizer|
 
-   :versions: 0.5.0-0
+   :versions: 0.5.0-2, 0.5.0-0
    
    :depends bioblend: 
    :depends click: <=6.7
