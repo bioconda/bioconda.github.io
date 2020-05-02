@@ -12,7 +12,7 @@ sistr_cmd
    Salmonella In Silico Typing Resource \(SISTR\) commandline tool for serovar prediction
 
    :homepage: https://github.com/peterk87/sistr_cmd/
-   :license: Apache
+   :license: APACHE / Apache-2.0
    :recipe: /`sistr_cmd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sistr_cmd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sistr_cmd/meta.yaml>`_
 
    
@@ -22,9 +22,9 @@ sistr_cmd
 
    |downloads_sistr_cmd| |docker_sistr_cmd|
 
-   :versions: 1.1.0-0, 1.0.2-4, 1.0.2-3, 1.0.2-2, 1.0.2-0, 0.3.6-0, 0.3.4-0, 0.3.3-0, 0.3.1-0
+   :versions: 1.1.1-0, 1.1.0-0, 1.0.2-4, 1.0.2-3, 1.0.2-2, 1.0.2-0, 0.3.6-0, 0.3.4-0, 0.3.3-0, 0.3.1-0
    
-   :depends blast: 2.5.*
+   :depends blast: 
    :depends mafft: 
    :depends mash: 
    :depends numpy: >=1.11.1

@@ -23,7 +23,7 @@ methylpy
 
    |downloads_methylpy| |docker_methylpy|
 
-   :versions: 1.4.2-0, 1.4.1-0
+   :versions: 1.4.3-0, 1.4.2-0, 1.4.1-0
    
    :depends bowtie: 
    :depends bowtie2: 
@@ -37,6 +37,7 @@ methylpy
    :depends picard: >=2.10.8
    :depends pysam: >=0.5.3
    :depends python: >=2.7,<2.8.0a0
+   :depends python_abi: 2.7.* *_cp27mu
    :depends samtools: >=1.3
    :depends scipy: >=0.10.0
    :depends ucsc-wigtobigwig: 

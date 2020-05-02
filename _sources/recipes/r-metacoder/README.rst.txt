@@ -22,7 +22,7 @@ r-metacoder
 
    |downloads_r-metacoder| |docker_r-metacoder|
 
-   :versions: 0.3.3-0
+   :versions: 0.3.4-0, 0.3.3-0
    
    :depends bioconductor-biomformat: 
    :depends libgcc-ng: >=7.3.0

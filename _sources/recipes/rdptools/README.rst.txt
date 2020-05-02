@@ -12,7 +12,7 @@ rdptools
    Metaproject for RDP Tools
 
    :homepage: http://rdp.cme.msu.edu/misc/resources.jsp
-   :license: GPL
+   :license: `CC / Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <https://creativecommons.org/licenses/by-sa/3.0/legalcode>`_
    :recipe: /`rdptools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdptools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdptools/meta.yaml>`_
 
    
@@ -22,9 +22,9 @@ rdptools
 
    |downloads_rdptools| |docker_rdptools|
 
-   :versions: 2.0.2-1, 2.0.2-0
+   :versions: 2.0.3-0, 2.0.2-1, 2.0.2-0
    
-   :depends openjdk: 
+   :depends openjdk: 8.0.*
    :depends python: 
    :requirements:
 

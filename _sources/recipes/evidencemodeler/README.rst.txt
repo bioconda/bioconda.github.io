@@ -22,10 +22,12 @@ evidencemodeler
 
    |downloads_evidencemodeler| |docker_evidencemodeler|
 
-   :versions: 1.1.1-1, 1.1.1-0, v1.1.1-0
+   :versions: 1.1.1-2, 1.1.1-1, 1.1.1-0, v1.1.1-0
    
    :depends perl: 
    :depends perl-carp: 
+   :depends perl-dbi: 
+   :depends perl-uri: 
    :requirements:
 
    .. rubric:: Installation
