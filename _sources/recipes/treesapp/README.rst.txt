@@ -22,7 +22,7 @@ treesapp
 
    |downloads_treesapp| |docker_treesapp|
 
-   :versions: 0.6.7-0, 0.6.6-0, 0.6.5-0
+   :versions: 0.6.8-0, 0.6.7-0, 0.6.6-0, 0.6.5-0
    
    :depends biopython: >=1.68
    :depends bwa: >=0.7.3
@@ -36,6 +36,7 @@ treesapp
    :depends matplotlib-base: >=3.1.2
    :depends numpy: 
    :depends prodigal: >=2.6.2
+   :depends pyfastx: 0.6.10
    :depends pygtrie: >=2.3.2
    :depends python: >=3.6,<3.7.0a0
    :depends python_abi: 3.6.* *_cp36m

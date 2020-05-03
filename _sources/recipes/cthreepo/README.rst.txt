@@ -22,9 +22,10 @@ cthreepo
 
    |downloads_cthreepo| |docker_cthreepo|
 
-   :versions: 0.1-0
+   :versions: 0.1-1, 0.1-0
    
    :depends python: 
+   :depends requests: 
    :requirements:
 
    .. rubric:: Installation
