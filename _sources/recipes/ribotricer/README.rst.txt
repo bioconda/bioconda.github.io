@@ -26,11 +26,11 @@ ribotricer
 
    |downloads_ribotricer| |docker_ribotricer|
 
-   :versions: 1.3.1-0, 1.3.0-0, 1.2.0-0, 1.1.1-0, 1.1.0-0, 1.0.3-0, 1.0.2-0
+   :versions: 1.3.2-0, 1.3.1-0, 1.3.0-0, 1.2.0-0, 1.1.1-0, 1.1.0-0, 1.0.3-0, 1.0.2-0
    
    :depends click: >=6.0
    :depends click-help-colors: >=0.3
-   :depends matplotlib: >=2.1.0
+   :depends matplotlib-base: >=2.1.0
    :depends numpy: >=1.11.0
    :depends pandas: >=0.20.3
    :depends pyfaidx: >=0.5.0

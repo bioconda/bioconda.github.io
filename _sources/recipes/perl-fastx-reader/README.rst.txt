@@ -11,10 +11,8 @@ perl-fastx-reader
 
    FASTX\:\:Reader\, Perl module to parse FASTA and FASTQ files
 
-   :homepage: https://github.com/telatin/FASTQ-Parser
-   :documentation: https://metacpan.org/release/FASTX-Reader
-   
-   :developer docs: https://metacpan.org/release/FASTX-Reader
+   :homepage: https://metacpan.org/release/FASTX-Reader
+   :developer docs: https://github.com/telatin/FASTQ-Parser
    :license: gpl_3
    :recipe: /`perl-fastx-reader <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-fastx-reader>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-fastx-reader/meta.yaml>`_
 
@@ -25,9 +23,10 @@ perl-fastx-reader
 
    |downloads_perl-fastx-reader| |docker_perl-fastx-reader|
 
-   :versions: 0.88-0, 0.87-0, 0.61-0, 0.60-0
+   :versions: 0.90-0, 0.88-0, 0.87-0, 0.61-0, 0.60-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl-capture-tiny: 
    :depends perl-carp: 
    :requirements:
 

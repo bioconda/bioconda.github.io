@@ -22,7 +22,7 @@ methplotlib
 
    |downloads_methplotlib| |docker_methplotlib|
 
-   :versions: 0.13.1-0, 0.13.0-0, 0.12.0-0, 0.8.0-0, 0.7.0-0, 0.6.0-0, 0.4.0-0
+   :versions: 0.14.0-0, 0.13.1-0, 0.13.0-0, 0.12.0-0, 0.8.0-0, 0.7.0-0, 0.6.0-0, 0.4.0-0
    
    :depends biopython: 
    :depends fisher: >=0.1.9
