@@ -22,7 +22,7 @@ interleafq
 
    |downloads_interleafq| |docker_interleafq|
 
-   :versions: 0.99-0, 0.92-0
+   :versions: 1.1.0-0, 0.99-0, 0.92-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-fastx-reader: 

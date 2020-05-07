@@ -25,13 +25,13 @@ deepacvir
 
    |downloads_deepacvir| |docker_deepacvir|
 
-   :versions: 0.1.0-0
+   :versions: 0.2.0-0, 0.1.0-0
    
-   :depends deepac: >=0.10.1
+   :depends deepac: >=0.11.0
    :depends numpy: >=1.18.1
-   :depends python: >=3.6,<3.7
+   :depends python: >=3.6
    :depends scikit-learn: >=0.22.1
-   :depends tensorflow: 1.15
+   :depends tensorflow: >=2.1
    :requirements:
 
    .. rubric:: Installation

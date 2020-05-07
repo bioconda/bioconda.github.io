@@ -9,27 +9,30 @@ export2graphlan
 .. conda:recipe:: export2graphlan
    :replaces_section_title:
 
-   export2graphlan is a conversion software tool for producing both annotation and tree file for GraPhlAn. It automatically generate the input tree and the annotation file for GraPhlAn\, starting from the input\/output of MetaPhlAn\, LEfSe\, and HUMAnN. It supports also the biom file format. The annotation file will highlight specific sub\-trees\/clades automatically inferred from input file\(s\) provided. The two output file of export2graphlan should then be used with GraPhlAn.
+   Conversion software tool for annotating tree with GraPhlAn
 
-   :homepage: https://bitbucket.org/CibioCM/export2graphlan/overview
+   :homepage: https://github.com/segatalab/export2graphlan
    :license: MIT / MIT License
    :recipe: /`export2graphlan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/export2graphlan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/export2graphlan/meta.yaml>`_
 
-   
+   export2graphlan is a conversion software tool for producing both annotation and tree file for GraPhlAn.
+   It automatically generate the input tree and the annotation file for GraPhlAn\, starting from the
+   input\/output of MetaPhlAn\, LEfSe\, and HUMAnN. It supports also the biom file format. The annotation file
+   will highlight specific sub\-trees\/clades automatically inferred from input file\(s\) provided. The two output
+   file of export2graphlan should then be used with GraPhlAn.
 
 
 .. conda:package:: export2graphlan
 
    |downloads_export2graphlan| |docker_export2graphlan|
 
-   :versions: 0.20-0, 0.19-2, 0.19-1, 0.19-0
+   :versions: 0.22-0, 0.20-0, 0.19-2, 0.19-1, 0.19-0
    
    :depends hclust2: 
-   :depends libgcc: 
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: 2.7*
+   :depends python: 2.7.*
    :depends scipy: 
    :requirements:
 

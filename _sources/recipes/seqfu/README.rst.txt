@@ -29,7 +29,7 @@ seqfu
 
    |downloads_seqfu| |docker_seqfu|
 
-   :versions: 0.2.0-1, 0.2.0-0, 0.1.0-0
+   :versions: 0.5.0-0, 0.2.0-1, 0.2.0-0, 0.1.0-0
    
    :depends interleafq: >=0.99
    :depends n50: >=1.3.0

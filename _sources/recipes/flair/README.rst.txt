@@ -23,14 +23,14 @@ flair
 
    |downloads_flair| |docker_flair|
 
-   :versions: 1.4-0
+   :versions: 1.5-0, 1.4-0
    
    :depends bedtools: 
    :depends bioconductor-deseq2: 
    :depends bioconductor-drimseq: 
    :depends bioconductor-stager: 
    :depends intervaltree: 
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends minimap2: 
    :depends ncls: 
    :depends numpy: 

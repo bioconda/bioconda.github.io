@@ -22,7 +22,7 @@ unfazed
 
    |downloads_unfazed| |docker_unfazed|
 
-   :versions: 0.1.5-0
+   :versions: 0.2.2-0, 0.1.5-0
    
    :depends cyvcf2: 
    :depends numpy: 

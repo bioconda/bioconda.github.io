@@ -12,7 +12,7 @@ vibrant
    Virus Identification By iteRative ANnoTation
 
    :homepage: https://github.com/AnantharamanLab/VIBRANT
-   :license: GPL / GPL
+   :license: GPL / GPL-3.0
    :recipe: /`vibrant <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vibrant>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vibrant/meta.yaml>`_
    :links: doi: :doi:`10.1101/855387`
 
@@ -23,7 +23,7 @@ vibrant
 
    |downloads_vibrant| |docker_vibrant|
 
-   :versions: 1.2.1-0, 1.2.0-2, 1.2.0-1, 1.2.0-0, 1.0.1-2, 1.0.1-1, 1.0.1-0
+   :versions: 1.2.1-1, 1.2.1-0, 1.2.0-2, 1.2.0-1, 1.2.0-0, 1.0.1-2, 1.0.1-1, 1.0.1-0
    
    :depends biopython: 
    :depends hmmer: >=3.2.1
@@ -32,7 +32,7 @@ vibrant
    :depends pandas: <1
    :depends prodigal: 
    :depends python: >=3.5
-   :depends scikit-learn: <=0.21.3
+   :depends scikit-learn: 0.21.3.*
    :depends seaborn: 
    :depends wget: 
    :requirements:

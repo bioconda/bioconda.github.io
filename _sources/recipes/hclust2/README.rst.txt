@@ -9,9 +9,9 @@ hclust2
 .. conda:recipe:: hclust2
    :replaces_section_title:
 
-   hclust2 is a handy tool for plotting heat\-maps with several useful options to produce high quality figures that can be used in publication.
+   hclust2 is a handy tool for plotting heat\-maps
 
-   :homepage: https://bitbucket.org/nsegata/hclust2
+   :homepage: https://github.com/SegataLab/hclust2
    :license: License
    :recipe: /`hclust2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hclust2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hclust2/meta.yaml>`_
 
@@ -22,9 +22,9 @@ hclust2
 
    |downloads_hclust2| |docker_hclust2|
 
-   :versions: 0.99-2, 0.99-1, 0.99-0, 0.98.3d589ab-1, 0.98.3d589ab-0
+   :versions: 0.99-3, 0.99-2, 0.99-1, 0.99-0, 0.98.3d589ab-1, 0.98.3d589ab-0
    
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
    :depends python: <3

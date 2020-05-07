@@ -22,13 +22,13 @@ manorm
 
    |downloads_manorm| |docker_manorm|
 
-   :versions: 1.1.4-1, 1.1.4-0, 1.1.3-1, 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.1-0
+   :versions: 1.3.0-0, 1.1.4-1, 1.1.4-0, 1.1.3-1, 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.1-0
    
-   :depends matplotlib: 
+   :depends matplotlib-base: >=3.0.0
    :depends numpy: 
-   :depends python: <3
-   :depends scipy: 
-   :depends statsmodels: 
+   :depends pysam: >=0.15.0
+   :depends python: >=3.6
+   :depends scikit-learn: >=0.21.0
    :requirements:
 
    .. rubric:: Installation
