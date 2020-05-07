@@ -999,6 +999,13 @@
 
         <span class="n">DEPENDENCIES</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dependencies</span><span class="p">)</span>
 
+        <span class="c1"># Handle libblas and liblapack, which all compiled packages</span>
+        <span class="c1"># are assumed to need</span>
+        <span class="n">additional_host_deps</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">linkingto</span> <span class="o">!=</span> <span class="p">[]</span> <span class="ow">or</span> <span class="nb">len</span><span class="p">(</span><span class="nb">set</span><span class="p">([</span><span class="s1">&#39;c&#39;</span><span class="p">,</span> <span class="s1">&#39;cxx&#39;</span><span class="p">,</span> <span class="s1">&#39;fortran&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">intersection</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_cb3_build_reqs</span><span class="o">.</span><span class="n">keys</span><span class="p">()))</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">additional_host_deps</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;libblas&#39;</span><span class="p">)</span>
+            <span class="n">additional_host_deps</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;liblapack&#39;</span><span class="p">)</span>
+
         <span class="n">additional_run_deps</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">is_data_package</span><span class="p">:</span>
             <span class="n">additional_run_deps</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;curl&#39;</span><span class="p">)</span>

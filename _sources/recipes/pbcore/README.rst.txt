@@ -22,13 +22,13 @@ pbcore
 
    |downloads_pbcore| |docker_pbcore|
 
-   :versions: 1.7.1-0, 1.6.5-0, 1.5.1-2, 1.5.1-1, 1.5.1-0, 1.2.10-2, 1.2.10-1, 1.2.10-0
+   :versions: 2.1.2-1, 2.1.2-0, 1.7.1-0, 1.6.5-0, 1.5.1-2, 1.5.1-1, 1.5.1-0, 1.2.10-2, 1.2.10-1, 1.2.10-0
    
-   :depends cython: 
-   :depends h5py: >=2.7.0
-   :depends numpy: >=1.15
+   :depends biopython: >=1.74
+   :depends numpy: >=1.17
    :depends pysam: >=0.15.1
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3.7,<3.8
+   :depends setuptools: 
    :requirements:
 
    .. rubric:: Installation
