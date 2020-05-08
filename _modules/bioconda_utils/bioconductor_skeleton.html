@@ -151,7 +151,6 @@
 <span class="c1"># There can be multiple resulting packages, all of which should then</span>
 <span class="c1"># be included in recipes</span>
 <span class="n">SysReqs</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;and egrep are required for some functionalities&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;grep&#39;</span><span class="p">],</span>
-           <span class="s1">&#39;BLAS&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;openblas&#39;</span><span class="p">],</span>
            <span class="s1">&#39;bowtie&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;bowtie2&#39;</span><span class="p">],</span>
            <span class="s1">&#39;bowtie and samtools are required for some functionalities&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;bowtie2&#39;</span><span class="p">,</span> <span class="s1">&#39;samtools&#39;</span><span class="p">],</span>
            <span class="s1">&#39;clustalo&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;clustalo&#39;</span><span class="p">],</span>
@@ -1035,7 +1034,7 @@
                     <span class="c1"># object and tries to make a shortcut, causing an error in</span>
                     <span class="c1"># decoding unicode. Possible pyaml bug? Anyway, this fixes</span>
                     <span class="c1"># it.</span>
-                    <span class="p">(</span><span class="s1">&#39;host&#39;</span><span class="p">,</span> <span class="n">DEPENDENCIES</span><span class="p">[:]),</span>
+                    <span class="p">(</span><span class="s1">&#39;host&#39;</span><span class="p">,</span> <span class="n">DEPENDENCIES</span><span class="p">[:]</span> <span class="o">+</span> <span class="n">additional_host_deps</span><span class="p">),</span>
                     <span class="p">(</span><span class="s1">&#39;run&#39;</span><span class="p">,</span> <span class="n">DEPENDENCIES</span><span class="p">[:]</span> <span class="o">+</span> <span class="n">additional_run_deps</span><span class="p">),</span>
                 <span class="p">)),</span>
             <span class="p">),</span>

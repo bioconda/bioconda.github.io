@@ -22,10 +22,12 @@ smhasher
 
    |downloads_smhasher| |docker_smhasher|
 
-   :versions: 0.150.1-2, 0.150.1-1, 0.150.1-0
+   :versions: 0.150.1-3, 0.150.1-2, 0.150.1-1, 0.150.1-0
    
-   :depends libstdcxx-ng: >=4.9
-   :depends python: >=2.7,<2.8.0a0
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :requirements:
 
    .. rubric:: Installation

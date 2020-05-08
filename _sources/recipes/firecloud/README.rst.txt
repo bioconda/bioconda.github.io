@@ -24,15 +24,15 @@ firecloud
 
    |downloads_firecloud| |docker_firecloud|
 
-   :versions: 0.16.26-0, 0.16.25-0, 0.16.20-0
+   :versions: 0.16.26-1, 0.16.26-0, 0.16.25-0, 0.16.20-0
    
    :depends google-auth: 1.4.2
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=9.0.1
    :depends nose: 
    :depends pydot: 
    :depends pylint: >=1.7.2
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :depends requests: 
    :depends six: 
    :requirements:

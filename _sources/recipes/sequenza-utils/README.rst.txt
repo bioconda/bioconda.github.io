@@ -22,11 +22,12 @@ sequenza-utils
 
    |downloads_sequenza-utils| |docker_sequenza-utils|
 
-   :versions: 3.0.0-0, 2.1.9999b0-0
+   :versions: 3.0.0-1, 3.0.0-0, 2.1.9999b0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :depends samtools: 
    :depends tabix: 
    :requirements:

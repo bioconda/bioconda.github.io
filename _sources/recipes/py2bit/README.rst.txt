@@ -22,10 +22,11 @@ py2bit
 
    |downloads_py2bit| |docker_py2bit|
 
-   :versions: 0.3.0-2, 0.3.0-1, 0.3.0-0, 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.0-0
+   :versions: 0.3.0-3, 0.3.0-2, 0.3.0-1, 0.3.0-0, 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.0-0
    
    :depends libgcc-ng: >=7.3.0
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :requirements:
 
    .. rubric:: Installation

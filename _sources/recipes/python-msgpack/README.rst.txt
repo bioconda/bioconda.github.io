@@ -22,11 +22,12 @@ python-msgpack
 
    |downloads_python-msgpack| |docker_python-msgpack|
 
-   :versions: 0.6.1-1, 0.6.1-0, 0.5.6-0
+   :versions: 0.6.1-2, 0.6.1-1, 0.6.1-0, 0.5.6-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :requirements:
 
    .. rubric:: Installation

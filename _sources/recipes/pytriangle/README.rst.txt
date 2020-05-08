@@ -22,10 +22,10 @@ pytriangle
 
    |downloads_pytriangle| |docker_pytriangle|
 
-   :versions: 1.0.9-2, 1.0.9-1, 1.0.0-0
+   :versions: 1.0.9-3, 1.0.9-2, 1.0.9-1, 1.0.0-0
    
-   :depends libgcc-ng: >=4.9
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :requirements:
 
    .. rubric:: Installation

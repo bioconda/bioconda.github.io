@@ -22,15 +22,15 @@ capc-map
 
    |downloads_capc-map| |docker_capc-map|
 
-   :versions: 1.1.3-1, 1.1.3-0, 1.1.2-0
+   :versions: 1.1.3-2, 1.1.3-1, 1.1.3-0, 1.1.2-0
    
    :depends biopython: >=1.70
    :depends bowtie: >=1.1.1
    :depends cutadapt: >=1.11
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=9.0.1
    :depends numpy: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :depends samtools: >=1.3.1
    :requirements:
 

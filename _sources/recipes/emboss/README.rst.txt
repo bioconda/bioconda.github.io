@@ -22,11 +22,12 @@ emboss
 
    |downloads_emboss| |docker_emboss|
 
-   :versions: 6.6.0-1, 6.6.0-0, 6.5.7-5, 6.5.7-4, 6.5.7-3, 6.5.7-2, 6.5.7-1, 6.5.7-0, 5.0.0-0
+   :versions: 6.6.0-2, 6.6.0-1, 6.6.0-0, 6.5.7-5, 6.5.7-4, 6.5.7-3, 6.5.7-2, 6.5.7-1, 6.5.7-0, 5.0.0-1, 5.0.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libgd: >=2.2.5,<2.3.0a0
    :depends libpng: >=1.6.37,<1.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

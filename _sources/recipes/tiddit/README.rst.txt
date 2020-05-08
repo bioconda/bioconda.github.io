@@ -22,14 +22,14 @@ tiddit
 
    |downloads_tiddit| |docker_tiddit|
 
-   :versions: 2.11.0-0, 2.10.0-0, 2.8.1-2, 2.8.1-1, 2.8.1-0, 2.8.0-0, 2.7.1-1, 2.7.1-0, 2.6.0-0
+   :versions: 2.11.0-1, 2.11.0-0, 2.10.0-0, 2.8.1-2, 2.8.1-1, 2.8.1-0, 2.8.0-0, 2.7.1-1, 2.7.1-0, 2.6.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends numpy: 
    :depends pysam: 
-   :depends python: >=2.7,<2.8.0a0
-   :depends python_abi: 2.7.* *_cp27mu
+   :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :requirements:
 
    .. rubric:: Installation

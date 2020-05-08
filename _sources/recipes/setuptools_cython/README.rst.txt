@@ -22,10 +22,10 @@ setuptools_cython
 
    |downloads_setuptools_cython| |docker_setuptools_cython|
 
-   :versions: 0.2.1-1, 0.2.1-0
+   :versions: 0.2.1-2, 0.2.1-1, 0.2.1-0
    
-   :depends cython: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :depends setuptools: 
    :requirements:
 

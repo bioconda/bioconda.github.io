@@ -23,12 +23,12 @@ gat
 
    |downloads_gat| |docker_gat|
 
-   :versions: 1.3.6-0, 1.3.5-3, 1.3.5-2, 1.3.5-1, 1.3.5-0, 1.3.3-0, 1.2.2-0
+   :versions: 1.3.6-1, 1.3.6-0, 1.3.5-3, 1.3.5-2, 1.3.5-1, 1.3.5-0, 1.3.3-0, 1.2.2-0
    
-   :depends libgcc-ng: >=7.3.0
    :depends matplotlib: >=1.3.0
    :depends numpy: >=1.7
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :depends scipy: >=0.11
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:

@@ -23,13 +23,14 @@ bowtie
 
    |downloads_bowtie| |docker_bowtie|
 
-   :versions: 1.2.3-0, 1.2.2-1, 1.2.2-0, 1.2.1.1-0, 1.2.0-0, 1.1.2-2, 1.1.2-1, 1.1.2-0, 1.1.1-0, 1.0.0-1, 1.0.0-0
+   :versions: 1.2.3-1, 1.2.3-0, 1.2.2-1, 1.2.2-0, 1.2.1.1-0, 1.2.0-0, 1.1.2-2, 1.1.2-1, 1.1.2-0, 1.1.1-0, 1.0.0-1, 1.0.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends perl: 
-   :depends python: >=2.7,<2.8.0a0
-   :depends tbb: >=2019.8
+   :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
+   :depends tbb: >=2020.1
    :requirements:
 
    .. rubric:: Installation

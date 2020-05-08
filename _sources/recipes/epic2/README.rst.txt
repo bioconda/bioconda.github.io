@@ -23,16 +23,16 @@ epic2
 
    |downloads_epic2| |docker_epic2|
 
-   :versions: 0.0.41-1, 0.0.41-0, 0.0.40-0, 0.0.39-0, 0.0.37-0, 0.0.36-0, 0.0.35-0, 0.0.34-0, 0.0.33-0, 0.0.26-0, 0.0.16-0, 0.0.15-0
+   :versions: 0.0.41-2, 0.0.41-1, 0.0.41-0, 0.0.40-0, 0.0.39-0, 0.0.37-0, 0.0.36-0, 0.0.35-0, 0.0.34-0, 0.0.33-0, 0.0.26-0, 0.0.16-0, 0.0.15-0
    
-   :depends functools32: 
-   :depends htslib: >=1.9,<1.10.0a0
+   :depends htslib: >=1.10.2,<1.11.0a0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends natsort: 
    :depends numpy: 
    :depends pysam: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :depends scipy: 
    :requirements:
 

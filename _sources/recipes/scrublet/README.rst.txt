@@ -22,15 +22,16 @@ scrublet
 
    |downloads_scrublet| |docker_scrublet|
 
-   :versions: 0.2.1-2, 0.2.1-1, 0.2.1-0
+   :versions: 0.2.1-3, 0.2.1-2, 0.2.1-1, 0.2.1-0
    
    :depends libgcc-ng: >=7.3.0
    :depends matplotlib: 
    :depends numba: 
    :depends numpy: >=1.13
    :depends pandas: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3.6,<3.7.0a0
    :depends python-annoy: 
+   :depends python_abi: 3.6.* *_cp36m
    :depends scikit-image: 
    :depends scikit-learn: 
    :depends scipy: 
