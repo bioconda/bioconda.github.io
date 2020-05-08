@@ -23,11 +23,11 @@ anise_basil
 
    |downloads_anise_basil| |docker_anise_basil|
 
-   :versions: 1.2.0-0
+   :versions: 1.2.0-1, 1.2.0-0
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
-   :depends python: >=2.7,<2.8.0a0
+   :depends libcxx: >=9.0.1
+   :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :requirements:
 
    .. rubric:: Installation
