@@ -24,6 +24,7 @@ svdb
 
    :versions: 2.4.0-1, 2.4.0-0, 2.3.0-0, 2.2.0-0, 2.1.1-0, 1.3.0-1, 1.3.0-0, 1.1.2-0, 1.0.7-2, 1.0.7-1, 1.0.7-0
    
+   :depends libgcc-ng: >=7.3.0
    :depends numpy: 
    :depends python: >=3.6,<3.7.0a0
    :depends python_abi: 3.6.* *_cp36m

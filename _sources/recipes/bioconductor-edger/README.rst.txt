@@ -23,15 +23,13 @@ bioconductor-edger
 
    |downloads_bioconductor-edger| |docker_bioconductor-edger|
 
-   :versions: 3.28.0-1, 3.28.0-0, 3.26.5-0, 3.26.0-0, 3.24.3-0, 3.24.1-0, 3.22.5-0, 3.20.7-0, 3.20.1-0, 3.20.0-0, 3.18.1-0, 3.16.5-0, 3.14.0-1, 3.14.0-0, 3.12.1-1, 3.12.1-0, 3.12.0-0, 3.10.5-0
+   :versions: 3.30.0-0, 3.28.0-1, 3.28.0-0, 3.26.5-0, 3.26.0-0, 3.24.3-0, 3.24.1-0, 3.22.5-0, 3.20.7-0, 3.20.1-0, 3.20.0-0, 3.18.1-0, 3.16.5-0, 3.14.0-1, 3.14.0-0, 3.12.1-1, 3.12.1-0, 3.12.0-0, 3.10.5-0
    
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
    :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libgfortran-ng: >=7,<8.0a0
+   :depends libcxx: >=9.0.1
    :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-locfit: 
    :depends r-rcpp: 
    :requirements:

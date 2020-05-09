@@ -22,13 +22,14 @@ bioconductor-beachmat
 
    |downloads_bioconductor-beachmat| |docker_bioconductor-beachmat|
 
-   :versions: 2.2.0-0, 2.0.0-1, 1.4.0-1, 1.4.0-0, 1.2.1-0, 1.0.1-0
+   :versions: 2.4.0-0, 2.2.0-0, 2.0.0-1, 1.4.0-1, 1.4.0-0, 1.2.1-0, 1.0.1-0
    
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-delayedarray: >=0.12.0,<0.13.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-delayedarray: >=0.14.0,<0.15.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends libcxx: >=9.0.1
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-matrix: 
    :requirements:
 

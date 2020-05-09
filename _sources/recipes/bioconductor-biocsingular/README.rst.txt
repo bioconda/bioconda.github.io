@@ -22,16 +22,17 @@ bioconductor-biocsingular
 
    |downloads_bioconductor-biocsingular| |docker_bioconductor-biocsingular|
 
-   :versions: 1.2.0-0, 1.0.0-1
+   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-beachmat: >=2.2.0,<2.3.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-delayedarray: >=0.12.0,<0.13.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-beachmat: >=2.4.0,<2.5.0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-delayedarray: >=0.14.0,<0.15.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends libcxx: >=9.0.1
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-irlba: 
    :depends r-matrix: 
    :depends r-rcpp: 

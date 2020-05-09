@@ -22,10 +22,10 @@ bioconductor-prebsdata
 
    |downloads_bioconductor-prebsdata| |docker_bioconductor-prebsdata|
 
-   :versions: 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
    
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

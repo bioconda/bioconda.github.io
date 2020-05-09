@@ -22,10 +22,11 @@ bioconductor-epidish
 
    |downloads_bioconductor-epidish| |docker_bioconductor-epidish|
 
-   :versions: 2.2.0-0, 2.0.2-1, 2.0.2-0, 1.4.1-0
+   :versions: 2.4.0-0, 2.2.0-0, 2.0.2-1, 2.0.2-0, 1.4.1-0
    
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-e1071: 
+   :depends r-locfdr: 
    :depends r-mass: 
    :depends r-matrixstats: 
    :depends r-quadprog: 

@@ -23,12 +23,13 @@ bioconductor-degseq
 
    |downloads_bioconductor-degseq| |docker_bioconductor-degseq|
 
-   :versions: 1.40.0-0, 1.38.0-1, 1.38.0-0, 1.36.1-0, 1.34.1-0, 1.32.0-0, 1.30.0-0
+   :versions: 1.42.0-0, 1.40.0-0, 1.38.0-1, 1.38.0-0, 1.36.1-0, 1.34.1-0, 1.32.0-0, 1.30.0-0
    
-   :depends bioconductor-qvalue: >=2.18.0,<2.19.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends libcxx: >=9.0.1
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

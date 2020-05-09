@@ -23,11 +23,13 @@ bioconductor-minet
 
    |downloads_bioconductor-minet| |docker_bioconductor-minet|
 
-   :versions: 3.44.0-0, 3.42.0-1, 3.42.0-0, 3.40.0-0, 3.38.0-0, 3.36.0-0
+   :versions: 3.46.0-0, 3.44.0-0, 3.42.0-1, 3.42.0-0, 3.40.0-0, 3.38.0-0, 3.36.0-0
    
+   :depends libblas: >=3.8.0,<4.0a0
    :depends libgcc-ng: >=7.3.0
+   :depends liblapack: >=3.8.0,<3.9.0a0
    :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-infotheo: 
    :requirements:
 

@@ -22,11 +22,13 @@ bioconductor-targetsearch
 
    |downloads_bioconductor-targetsearch| |docker_bioconductor-targetsearch|
 
-   :versions: 1.42.0-0, 1.40.2-0, 1.40.0-0, 1.38.1-0
+   :versions: 1.44.0-0, 1.42.0-0, 1.40.2-0, 1.40.0-0, 1.38.1-0
    
+   :depends libblas: >=3.8.0,<4.0a0
    :depends libgcc-ng: >=7.3.0
+   :depends liblapack: >=3.8.0,<3.9.0a0
    :depends r-assertthat: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-ncdf4: 
    :depends r-stringr: 
    :requirements:

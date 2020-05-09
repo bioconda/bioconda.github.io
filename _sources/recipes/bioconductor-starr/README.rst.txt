@@ -23,14 +23,15 @@ bioconductor-starr
 
    |downloads_bioconductor-starr| |docker_bioconductor-starr|
 
-   :versions: 1.42.0-0, 1.40.0-1, 1.38.0-0, 1.36.0-0, 1.34.0-0, 1.32.0-0
+   :versions: 1.43.0-0, 1.42.0-0, 1.40.0-1, 1.38.0-0, 1.36.0-0, 1.34.0-0, 1.32.0-0
    
-   :depends bioconductor-affxparser: >=1.58.0,<1.59.0
-   :depends bioconductor-affy: >=1.64.0,<1.65.0
-   :depends bioconductor-ringo: >=1.50.0,<1.51.0
-   :depends bioconductor-zlibbioc: >=1.32.0,<1.33.0
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-affxparser: >=1.60.0,<1.61.0
+   :depends bioconductor-affy: >=1.66.0,<1.67.0
+   :depends bioconductor-ringo: >=1.52.0,<1.53.0
+   :depends bioconductor-zlibbioc: >=1.34.0,<1.35.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-mass: 
    :depends r-pspline: 
    :requirements:

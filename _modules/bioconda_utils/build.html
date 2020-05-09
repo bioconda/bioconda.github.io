@@ -458,8 +458,7 @@
                 <span class="k">if</span> <span class="n">mulled_upload_target</span><span class="p">:</span>
                     <span class="k">for</span> <span class="n">img</span> <span class="ow">in</span> <span class="n">res</span><span class="o">.</span><span class="n">mulled_images</span><span class="p">:</span>
                         <span class="n">upload</span><span class="o">.</span><span class="n">mulled_upload</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="n">mulled_upload_target</span><span class="p">)</span>
-                        <span class="n">cmd</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;docker&#39;</span><span class="p">,</span> <span class="s1">&#39;rmi&#39;</span><span class="p">,</span> <span class="n">img</span><span class="p">]</span>
-                        <span class="n">utils</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cmd</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+                        <span class="n">docker_utils</span><span class="o">.</span><span class="n">purgeImage</span><span class="p">(</span><span class="n">mulled_upload_target</span><span class="p">,</span> <span class="n">img</span><span class="p">)</span>
 
         <span class="c1"># remove traces of the build</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">keep_old_work</span><span class="p">:</span>

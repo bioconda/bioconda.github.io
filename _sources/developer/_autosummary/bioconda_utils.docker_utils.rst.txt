@@ -13,6 +13,7 @@ docker\_utils
    .. autosummary::
    
       get_host_conda_bld
+      purgeImage
    
    
 

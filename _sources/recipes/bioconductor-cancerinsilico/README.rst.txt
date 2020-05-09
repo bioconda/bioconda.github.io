@@ -23,11 +23,12 @@ bioconductor-cancerinsilico
 
    |downloads_bioconductor-cancerinsilico| |docker_bioconductor-cancerinsilico|
 
-   :versions: 2.6.0-0, 2.4.0-1, 2.4.0-0, 2.2.1-0, 2.2.0-0, 2.0.0-0, 1.4.0-0
+   :versions: 2.8.0-0, 2.6.0-0, 2.4.0-1, 2.4.0-0, 2.2.1-0, 2.2.0-0, 2.0.0-0, 1.4.0-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends libcxx: >=9.0.1
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-bh: 
    :depends r-rcpp: 
    :requirements:

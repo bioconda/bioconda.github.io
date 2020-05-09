@@ -22,11 +22,12 @@ bioconductor-cgen
 
    |downloads_bioconductor-cgen| |docker_bioconductor-cgen|
 
-   :versions: 3.22.0-0, 3.20.0-1, 3.20.0-0, 3.18.0-0
+   :versions: 3.23.0-0, 3.22.0-0, 3.20.0-1, 3.20.0-0, 3.18.0-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libgfortran-ng: >=7,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends libgfortran: >=4.0.0,<5.0.0.a0
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-mvtnorm: 
    :depends r-survival: 
    :requirements:

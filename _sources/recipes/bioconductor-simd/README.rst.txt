@@ -22,12 +22,13 @@ bioconductor-simd
 
    |downloads_bioconductor-simd| |docker_bioconductor-simd|
 
-   :versions: 1.4.0-0, 1.2.0-1, 1.2.0-0, 1.0.0-0
+   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.2.0-0, 1.0.0-0
    
-   :depends bioconductor-edger: >=3.28.0,<3.29.0
-   :depends bioconductor-methylmnm: >=1.24.0,<1.25.0
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-edger: >=3.30.0,<3.31.0
+   :depends bioconductor-methylmnm: >=1.26.0,<1.27.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-statmod: 
    :requirements:
 

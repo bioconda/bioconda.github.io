@@ -22,10 +22,10 @@ bioconductor-geneplast.data.string.v91
 
    |downloads_bioconductor-geneplast.data.string.v91| |docker_bioconductor-geneplast.data.string.v91|
 
-   :versions: 0.99.6-3, 0.99.6-2, 0.99.6-1, 0.99.6-0
+   :versions: 0.99.6-4, 0.99.6-3, 0.99.6-2, 0.99.6-1, 0.99.6-0
    
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

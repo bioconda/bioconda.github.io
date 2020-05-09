@@ -23,11 +23,12 @@ bioconductor-s4vectors
 
    |downloads_bioconductor-s4vectors| |docker_bioconductor-s4vectors|
 
-   :versions: 0.24.0-0, 0.22.0-1, 0.20.1-0, 0.18.3-0, 0.16.0-0, 0.14.7-0, 0.12.2-0, 0.12.0-0, 0.10.3-0, 0.9.0-0, 0.8.11-1, 0.8.11-0, 0.8.7-0, 0.8.5-0, 0.8.1-0, 0.8.0-0, 0.6.6-0
+   :versions: 0.26.0-0, 0.24.0-0, 0.22.0-1, 0.20.1-0, 0.18.3-0, 0.16.0-0, 0.14.7-0, 0.12.2-0, 0.12.0-0, 0.10.3-0, 0.9.0-0, 0.8.11-1, 0.8.11-0, 0.8.7-0, 0.8.5-0, 0.8.1-0, 0.8.0-0, 0.6.6-0
    
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

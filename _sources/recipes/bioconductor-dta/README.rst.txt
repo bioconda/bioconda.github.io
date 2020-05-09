@@ -23,9 +23,9 @@ bioconductor-dta
 
    |downloads_bioconductor-dta| |docker_bioconductor-dta|
 
-   :versions: 2.32.0-0, 2.30.0-1, 2.30.0-0, 2.28.0-0, 2.26.0-0, 2.24.0-0
+   :versions: 2.34.0-0, 2.32.0-0, 2.30.0-1, 2.30.0-0, 2.28.0-0, 2.26.0-0, 2.24.0-0
    
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-lsd: 
    :depends r-scatterplot3d: 
    :requirements:
