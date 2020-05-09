@@ -22,17 +22,17 @@ pangolin
 
    |downloads_pangolin| |docker_pangolin|
 
-   :versions: 1.1.5-0, 1.1-0
+   :versions: 1.1.11-0, 1.1.5-0, 1.1-0
    
    :depends biopython: 
    :depends dendropy: >=4.4.0
-   :depends iqtree: 1.6.12.*
+   :depends iqtree: <2
    :depends mafft: 
    :depends pandas: 
    :depends pip: 
    :depends python: >=3.6
-   :depends pytools: 
-   :depends snakemake-minimal: 
+   :depends pytools: 2020.1.*
+   :depends snakemake-minimal: 5.13.*
    :requirements:
 
    .. rubric:: Installation

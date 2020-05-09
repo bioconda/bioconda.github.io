@@ -23,10 +23,11 @@ bioconductor-iseq
 
    |downloads_bioconductor-iseq| |docker_bioconductor-iseq|
 
-   :versions: 1.38.0-0, 1.36.0-1, 1.36.0-0, 1.34.0-0, 1.32.0-0, 1.30.0-0
+   :versions: 1.40.0-0, 1.38.0-0, 1.36.0-1, 1.36.0-0, 1.34.0-0, 1.32.0-0, 1.30.0-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

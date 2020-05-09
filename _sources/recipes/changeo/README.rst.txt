@@ -22,7 +22,7 @@ changeo
 
    |downloads_changeo| |docker_changeo|
 
-   :versions: 0.4.6-0, 0.4.5-0, 0.4.4-0
+   :versions: 1.0.0-0, 0.4.6-0, 0.4.5-0, 0.4.4-0
    
    :depends airr: >=1.2.1
    :depends biopython: >=1.65
@@ -32,7 +32,6 @@ changeo
    :depends python: >=3.4
    :depends pyyaml: >=3.12
    :depends scipy: >=0.14
-   :depends setuptools: >=2.0
    :requirements:
 
    .. rubric:: Installation
