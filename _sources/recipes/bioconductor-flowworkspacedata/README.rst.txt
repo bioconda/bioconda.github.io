@@ -22,10 +22,10 @@ bioconductor-flowworkspacedata
 
    |downloads_bioconductor-flowworkspacedata| |docker_bioconductor-flowworkspacedata|
 
-   :versions: 2.22.0-0, 2.20.0-1, 2.20.0-0, 2.18.0-0
+   :versions: 3.0.0-0, 2.22.0-0, 2.20.0-1, 2.20.0-0, 2.18.0-0
    
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -22,9 +22,9 @@ bioconductor-widgettools
 
    |downloads_bioconductor-widgettools| |docker_bioconductor-widgettools|
 
-   :versions: 1.64.0-0, 1.62.0-1, 1.62.0-0, 1.60.0-0
+   :versions: 1.66.0-0, 1.64.0-0, 1.62.0-1, 1.62.0-0, 1.60.0-0
    
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

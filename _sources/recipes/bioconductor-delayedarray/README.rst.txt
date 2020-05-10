@@ -28,6 +28,7 @@ bioconductor-delayedarray
    :depends bioconductor-iranges: >=2.22.0,<2.23.0
    :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
    :depends libblas: >=3.8.0,<4.0a0
+   :depends libgcc-ng: >=7.3.0
    :depends liblapack: >=3.8.0,<3.9.0a0
    :depends r-base: >=4.0,<4.1.0a0
    :depends r-matrix: 

@@ -22,10 +22,10 @@ bioconductor-phenstat
 
    |downloads_bioconductor-phenstat| |docker_bioconductor-phenstat|
 
-   :versions: 2.22.0-0, 2.20.0-1, 2.18.1-0, 2.18.0-0
+   :versions: 2.24.0-0, 2.22.0-0, 2.20.0-1, 2.18.1-0, 2.18.0-0
    
-   :depends bioconductor-graph: >=1.64.0,<1.65.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-graph: >=1.66.0,<1.67.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-car: 
    :depends r-corrplot: 
    :depends r-ggplot2: 

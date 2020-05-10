@@ -22,10 +22,10 @@ bioconductor-lymphoseqdb
 
    |downloads_bioconductor-lymphoseqdb| |docker_bioconductor-lymphoseqdb|
 
-   :versions: 0.99.2-3, 0.99.2-2, 0.99.2-1, 0.99.2-0
+   :versions: 0.99.2-4, 0.99.2-3, 0.99.2-2, 0.99.2-1, 0.99.2-0
    
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

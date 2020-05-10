@@ -22,9 +22,9 @@ bioconductor-mixomics
 
    |downloads_bioconductor-mixomics| |docker_bioconductor-mixomics|
 
-   :versions: 6.10.1-0, 6.8.0-1, 6.8.0-0, 6.6.2-0, 6.6.0-0
+   :versions: 6.12.0-0, 6.10.1-0, 6.8.0-1, 6.8.0-0, 6.6.2-0, 6.6.0-0
    
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-corpcor: 
    :depends r-dplyr: 
    :depends r-ellipse: 

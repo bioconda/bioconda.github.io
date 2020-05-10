@@ -26,13 +26,13 @@ hisat2
 
    |downloads_hisat2| |docker_hisat2|
 
-   :versions: 2.2.0-1, 2.2.0-0, 2.1.0-4, 2.1.0-3, 2.1.0-2, 2.1.0-1, 2.1.0-0, 2.0.5-2, 2.0.5-1, 2.0.4-1, 2.0.4-0, 2.0.3beta-0, 2.0.2beta-0, 2.0.1beta-0, 2.0.0beta-0
+   :versions: 2.2.0-2, 2.2.0-1, 2.2.0-0, 2.1.0-4, 2.1.0-3, 2.1.0-2, 2.1.0-1, 2.1.0-0, 2.0.5-2, 2.0.5-1, 2.0.4-1, 2.0.4-0, 2.0.3beta-0, 2.0.2beta-0, 2.0.1beta-0, 2.0.0beta-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends perl: 
-   :depends python: >=2.7,<2.8.0a0
-   :depends python_abi: 2.7.* *_cp27mu
+   :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :requirements:
 
    .. rubric:: Installation

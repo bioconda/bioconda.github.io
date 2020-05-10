@@ -22,11 +22,11 @@ bioconductor-methylmix
 
    |downloads_bioconductor-methylmix| |docker_bioconductor-methylmix|
 
-   :versions: 2.16.0-0, 2.14.0-1, 2.14.0-0, 2.12.0-0
+   :versions: 2.18.0-0, 2.16.0-0, 2.14.0-1, 2.14.0-0, 2.12.0-0
    
-   :depends bioconductor-impute: >=1.60.0,<1.61.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-impute: >=1.62.0,<1.63.0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-data.table: 
    :depends r-digest: 
    :depends r-foreach: 

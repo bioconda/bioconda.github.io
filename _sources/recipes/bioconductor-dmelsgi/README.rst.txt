@@ -22,13 +22,13 @@ bioconductor-dmelsgi
 
    |downloads_bioconductor-dmelsgi| |docker_bioconductor-dmelsgi|
 
-   :versions: 1.18.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0
+   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0
    
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-rhdf5: >=2.30.0,<2.31.0
-   :depends curl: >=7.65.3,<8.0a0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends bioconductor-rhdf5: >=2.32.0,<2.33.0
+   :depends curl: >=7.69.1,<8.0a0
    :depends r-abind: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-gplots: 
    :depends r-igraph: 
    :depends r-knitr: 

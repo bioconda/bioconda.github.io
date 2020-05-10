@@ -22,13 +22,14 @@ bioconductor-biocneighbors
 
    |downloads_bioconductor-biocneighbors| |docker_bioconductor-biocneighbors|
 
-   :versions: 1.4.0-0, 1.2.0-1, 1.0.0-0
+   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.0-0
    
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends libcxx: >=9.0.1
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-matrix: 
    :depends r-rcpp: 
    :depends r-rcppannoy: 

@@ -22,11 +22,11 @@ bioconductor-emdomics
 
    |downloads_bioconductor-emdomics| |docker_bioconductor-emdomics|
 
-   :versions: 2.16.0-0, 2.14.0-1, 2.14.0-0, 2.12.0-1, 2.12.0-0
+   :versions: 2.18.0-0, 2.16.0-0, 2.14.0-1, 2.14.0-0, 2.12.0-1, 2.12.0-0
    
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-preprocesscore: >=1.48.0,<1.49.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-preprocesscore: >=1.50.0,<1.51.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-cdft: 
    :depends r-emdist: 
    :depends r-ggplot2: 

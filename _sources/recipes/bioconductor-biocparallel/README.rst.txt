@@ -26,8 +26,9 @@ bioconductor-biocparallel
    :versions: 1.22.0-0, 1.20.0-0, 1.18.0-1, 1.18.0-0, 1.16.6-0, 1.16.2-1, 1.16.2-0, 1.14.2-0, 1.12.0-1, 1.12.0-0, 1.10.1-0, 1.6.6-1, 1.6.6-0, 1.5.0-0, 1.4.3-0, 1.4.0-0, 1.2.22-0
    
    :depends libblas: >=3.8.0,<4.0a0
-   :depends libcxx: >=9.0.1
+   :depends libgcc-ng: >=7.3.0
    :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=4.0,<4.1.0a0
    :depends r-bh: 
    :depends r-futile.logger: 

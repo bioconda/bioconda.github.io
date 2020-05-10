@@ -23,11 +23,11 @@ bioconductor-plpe
 
    |downloads_bioconductor-plpe| |docker_bioconductor-plpe|
 
-   :versions: 1.46.0-0, 1.44.0-1, 1.42.0-0, 1.40.0-0, 1.38.0-0
+   :versions: 1.48.0-0, 1.46.0-0, 1.44.0-1, 1.42.0-0, 1.40.0-0, 1.38.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-lpe: >=1.60.0,<1.61.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-lpe: >=1.62.0,<1.63.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-mass: 
    :requirements:
 

@@ -23,13 +23,14 @@ bioconductor-pcamethods
 
    |downloads_bioconductor-pcamethods| |docker_bioconductor-pcamethods|
 
-   :versions: 1.78.0-0, 1.76.0-1, 1.74.0-0, 1.72.0-0, 1.70.0-0, 1.68.0-0, 1.64.0-2, 1.64.0-1, 1.64.0-0
+   :versions: 1.80.0-0, 1.78.0-0, 1.76.0-1, 1.74.0-0, 1.72.0-0, 1.70.0-0, 1.68.0-0, 1.64.0-2, 1.64.0-1, 1.64.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends libcxx: >=9.0.1
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-mass: 
    :depends r-rcpp: >=0.11.3
    :requirements:

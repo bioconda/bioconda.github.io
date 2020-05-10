@@ -23,12 +23,12 @@ bioconductor-genetclassifier
 
    |downloads_bioconductor-genetclassifier| |docker_bioconductor-genetclassifier|
 
-   :versions: 1.26.0-0, 1.24.0-1, 1.22.0-0, 1.20.0-0, 1.18.0-0
+   :versions: 1.28.0-0, 1.26.0-0, 1.24.0-1, 1.22.0-0, 1.20.0-0, 1.18.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-ebarrays: >=2.50.0,<2.51.0
-   :depends bioconductor-minet: >=3.44.0,<3.45.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-ebarrays: >=2.52.0,<2.53.0
+   :depends bioconductor-minet: >=3.46.0,<3.47.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-e1071: 
    :requirements:
 

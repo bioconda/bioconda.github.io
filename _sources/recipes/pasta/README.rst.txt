@@ -22,14 +22,15 @@ pasta
 
    |downloads_pasta| |docker_pasta|
 
-   :versions: 1.7.8-3, 1.7.8-2, 1.7.8-0, 0.2-0
+   :versions: 1.7.8-4, 1.7.8-3, 1.7.8-2, 1.7.8-0, 0.2-0
    
    :depends dendropy: >=4.1.0
    :depends libgcc-ng: >=7.3.0
    :depends openjdk: 
-   :depends pcre: >=8.41,<9.0a0
+   :depends pcre: >=8.44,<9.0a0
    :depends pymongo: >=3.3.0
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :requirements:
 
    .. rubric:: Installation

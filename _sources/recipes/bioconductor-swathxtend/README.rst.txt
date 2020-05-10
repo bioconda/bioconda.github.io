@@ -23,9 +23,9 @@ bioconductor-swathxtend
 
    |downloads_bioconductor-swathxtend| |docker_bioconductor-swathxtend|
 
-   :versions: 2.8.0-0, 2.6.0-1, 2.6.0-0, 2.4.0-0, 2.2.0-0, 2.0.0-0, 1.4.0-0
+   :versions: 2.10.0-0, 2.8.0-0, 2.6.0-1, 2.6.0-0, 2.4.0-0, 2.2.0-0, 2.0.0-0, 1.4.0-0
    
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-e1071: 
    :depends r-lattice: 
    :depends r-openxlsx: 

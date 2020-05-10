@@ -22,11 +22,12 @@ bioconductor-systempiperdata
 
    |downloads_bioconductor-systempiperdata| |docker_bioconductor-systempiperdata|
 
-   :versions: 1.14.0-0, 1.12.0-1, 1.10.0-0
+   :versions: 1.16.1-0, 1.14.0-0, 1.12.0-1, 1.10.0-0
    
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-devtools: 
    :requirements:
 
    .. rubric:: Installation

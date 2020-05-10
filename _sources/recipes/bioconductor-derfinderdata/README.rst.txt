@@ -22,10 +22,10 @@ bioconductor-derfinderdata
 
    |downloads_bioconductor-derfinderdata| |docker_bioconductor-derfinderdata|
 
-   :versions: 2.4.0-0, 2.2.1-0, 2.2.0-0, 2.0.0-0
+   :versions: 2.6.0-0, 2.4.0-0, 2.2.1-0, 2.2.0-0, 2.0.0-0
    
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -22,10 +22,10 @@ bioconductor-explorase
 
    |downloads_bioconductor-explorase| |docker_bioconductor-explorase|
 
-   :versions: 1.50.0-0, 1.48.0-1, 1.48.0-0
+   :versions: 1.52.0-0, 1.50.0-0, 1.48.0-1, 1.48.0-0
    
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-rggobi: 
    :depends r-rgtk2: 
    :requirements:

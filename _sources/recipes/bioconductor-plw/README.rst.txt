@@ -23,11 +23,12 @@ bioconductor-plw
 
    |downloads_bioconductor-plw| |docker_bioconductor-plw|
 
-   :versions: 1.46.0-0, 1.44.0-1, 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0
+   :versions: 1.47.0-0, 1.46.0-0, 1.44.0-1, 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0
    
-   :depends bioconductor-affy: >=1.64.0,<1.65.0
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-affy: >=1.66.0,<1.67.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-mass: 
    :requirements:
 

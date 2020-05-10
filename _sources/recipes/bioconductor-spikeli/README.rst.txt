@@ -23,9 +23,9 @@ bioconductor-spikeli
 
    |downloads_bioconductor-spikeli| |docker_bioconductor-spikeli|
 
-   :versions: 2.46.0-0, 2.44.0-1, 2.44.0-0, 2.42.0-0, 2.40.0-0, 2.38.0-0, 2.36.0-0
+   :versions: 2.48.0-0, 2.46.0-0, 2.44.0-1, 2.44.0-0, 2.42.0-0, 2.40.0-0, 2.38.0-0, 2.36.0-0
    
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

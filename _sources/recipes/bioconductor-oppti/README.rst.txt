@@ -22,10 +22,10 @@ bioconductor-oppti
 
    |downloads_bioconductor-oppti| |docker_bioconductor-oppti|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-0
    
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-devtools: 
    :depends r-ggplot2: 
    :depends r-knitr: 

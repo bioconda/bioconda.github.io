@@ -22,15 +22,18 @@ bioconductor-alphabeta
 
    |downloads_bioconductor-alphabeta| |docker_bioconductor-alphabeta|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-0
    
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-data.table: >=1.10
    :depends r-dplyr: >=0.7
    :depends r-expm: >=0.999-4
+   :depends r-ggplot2: >=3.2
    :depends r-gtools: >=3.8.0
+   :depends r-igraph: >=1.2.4
    :depends r-optimx: >=2018-7.10
+   :depends r-plotly: >=4.9
    :depends r-stringr: >=1.3
    :requirements:
 

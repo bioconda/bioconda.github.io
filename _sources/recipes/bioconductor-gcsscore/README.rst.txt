@@ -22,12 +22,11 @@ bioconductor-gcsscore
 
    |downloads_bioconductor-gcsscore| |docker_bioconductor-gcsscore|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-0
    
-   :depends bioconductor-affxparser: >=1.58.0,<1.59.0
-   :depends bioconductor-annotationforge: >=1.28.0,<1.29.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-affxparser: >=1.60.0,<1.61.0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-biocmanager: 
    :depends r-data.table: 
    :depends r-devtools: 

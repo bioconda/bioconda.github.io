@@ -22,9 +22,9 @@ bioconductor-matrixgenerics
 
    |downloads_bioconductor-matrixgenerics| |docker_bioconductor-matrixgenerics|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.0-1, 1.0.0-0
    
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-matrixstats: >=0.56.0
    :requirements:
 

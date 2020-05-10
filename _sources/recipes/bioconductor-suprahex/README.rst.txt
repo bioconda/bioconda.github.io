@@ -23,10 +23,10 @@ bioconductor-suprahex
 
    |downloads_bioconductor-suprahex| |docker_bioconductor-suprahex|
 
-   :versions: 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
    :depends r-ape: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-hexbin: 
    :depends r-mass: 
    :requirements:

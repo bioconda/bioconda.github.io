@@ -22,9 +22,9 @@ bioconductor-gladiatox
 
    |downloads_bioconductor-gladiatox| |docker_bioconductor-gladiatox|
 
-   :versions: 1.2.0-0, 1.0.0-1
+   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
    
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-brew: 
    :depends r-data.table: >=1.9.4
    :depends r-dbi: 

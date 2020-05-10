@@ -23,10 +23,10 @@ bioconductor-graphat
 
    |downloads_bioconductor-graphat| |docker_bioconductor-graphat|
 
-   :versions: 1.58.0-0, 1.56.0-1, 1.54.0-0, 1.52.0-0, 1.50.0-0
+   :versions: 1.60.0-0, 1.58.0-0, 1.56.0-1, 1.54.0-0, 1.52.0-0, 1.50.0-0
    
-   :depends bioconductor-graph: >=1.64.0,<1.65.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-graph: >=1.66.0,<1.67.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-mcmcpack: 
    :requirements:
 

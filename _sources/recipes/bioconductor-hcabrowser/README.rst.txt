@@ -22,11 +22,11 @@ bioconductor-hcabrowser
 
    |downloads_bioconductor-hcabrowser| |docker_bioconductor-hcabrowser|
 
-   :versions: 1.2.0-0, 1.0.0-1
+   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-biocfilecache: >=1.10.0,<1.11.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocfilecache: >=1.12.0,<1.13.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-curl: 
    :depends r-dplyr: 
    :depends r-googleauthr: 

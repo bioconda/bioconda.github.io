@@ -22,10 +22,10 @@ bioconductor-countclust
 
    |downloads_bioconductor-countclust| |docker_bioconductor-countclust|
 
-   :versions: 1.14.0-0, 1.12.0-1, 1.12.0-0, 1.10.1-0, 1.10.0-0
+   :versions: 1.15.0-0, 1.14.0-0, 1.12.0-1, 1.12.0-0, 1.10.1-0, 1.10.0-0
    
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-cowplot: 
    :depends r-flexmix: 
    :depends r-ggplot2: >=2.1.0

@@ -23,10 +23,10 @@ bioconductor-lpeadj
 
    |downloads_bioconductor-lpeadj| |docker_bioconductor-lpeadj|
 
-   :versions: 1.46.0-0, 1.44.0-1, 1.44.0-0, 1.42.0-0, 1.40.0-0, 1.38.0-0
+   :versions: 1.48.0-0, 1.46.0-0, 1.44.0-1, 1.44.0-0, 1.42.0-0, 1.40.0-0, 1.38.0-0
    
-   :depends bioconductor-lpe: >=1.60.0,<1.61.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-lpe: >=1.62.0,<1.63.0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

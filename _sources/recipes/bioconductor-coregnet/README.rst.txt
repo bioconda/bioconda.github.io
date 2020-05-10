@@ -25,6 +25,7 @@ bioconductor-coregnet
    :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
    
    :depends libblas: >=3.8.0,<4.0a0
+   :depends libgcc-ng: >=7.3.0
    :depends liblapack: >=3.8.0,<3.9.0a0
    :depends r-arules: 
    :depends r-base: >=4.0,<4.1.0a0

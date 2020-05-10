@@ -22,9 +22,9 @@ bioconductor-cellscape
 
    |downloads_bioconductor-cellscape| |docker_bioconductor-cellscape|
 
-   :versions: 1.10.0-0, 1.8.0-1, 1.8.0-0, 1.6.0-0
+   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.8.0-0, 1.6.0-0
    
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-dplyr: >=0.4.3
    :depends r-gtools: >=3.5.0
    :depends r-htmlwidgets: >=0.5

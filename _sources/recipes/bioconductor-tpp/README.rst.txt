@@ -22,12 +22,12 @@ bioconductor-tpp
 
    |downloads_bioconductor-tpp| |docker_bioconductor-tpp|
 
-   :versions: 3.14.0-0, 3.12.0-1, 3.10.1-0, 3.10.0-0
+   :versions: 3.16.0-0, 3.14.0-0, 3.12.0-1, 3.10.1-0, 3.10.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-biobroom: >=1.18.0,<1.19.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-biobroom: >=1.20.0,<1.21.0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-broom: 
    :depends r-data.table: 
    :depends r-doparallel: 
@@ -48,7 +48,6 @@ bioconductor-tpp
    :depends r-rcurl: 
    :depends r-reshape2: 
    :depends r-rmarkdown: 
-   :depends r-sme: 
    :depends r-stringr: 
    :depends r-tidyr: 
    :depends r-venndiagram: 

@@ -23,11 +23,11 @@ bioconductor-consensusclusterplus
 
    |downloads_bioconductor-consensusclusterplus| |docker_bioconductor-consensusclusterplus|
 
-   :versions: 1.50.0-1, 1.48.0-1, 1.46.0-0, 1.44.0-0, 1.42.0-0, 1.40.0-0
+   :versions: 1.52.0-0, 1.50.0-1, 1.48.0-1, 1.46.0-0, 1.44.0-0, 1.42.0-0, 1.40.0-0
    
-   :depends bioconductor-all: >=1.28.0,<1.29.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-all: >=1.30.0,<1.31.0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-cluster: 
    :requirements:
 

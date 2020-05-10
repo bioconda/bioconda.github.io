@@ -23,11 +23,11 @@ bioconductor-pandar
 
    |downloads_bioconductor-pandar| |docker_bioconductor-pandar|
 
-   :versions: 1.18.0-0, 1.16.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-ggplot2: 
    :depends r-hexbin: 
    :depends r-igraph: 

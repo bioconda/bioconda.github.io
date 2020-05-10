@@ -27,6 +27,7 @@ meme
    :depends expat: >=2.2.9,<2.3.0a0
    :depends ghostscript: 
    :depends icu: >=64.2,<65.0a0
+   :depends libgcc-ng: >=7.3.0
    :depends libxml2: >=2.9.10,<2.10.0a0
    :depends libxslt: >=1.1.33,<2.0a0
    :depends openmpi: >=4.0.3,<4.1.0a0

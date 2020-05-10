@@ -22,14 +22,15 @@ bioconductor-oveseg
 
    |downloads_bioconductor-oveseg| |docker_bioconductor-oveseg|
 
-   :versions: 1.2.0-0, 1.0.0-1
+   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends libcxx: >=9.0.1
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-fdrtool: 
    :depends r-rcpp: 
    :requirements:

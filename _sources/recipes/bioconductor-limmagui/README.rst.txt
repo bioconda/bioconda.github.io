@@ -22,10 +22,10 @@ bioconductor-limmagui
 
    |downloads_bioconductor-limmagui| |docker_bioconductor-limmagui|
 
-   :versions: 1.62.0-0, 1.60.0-1, 1.60.0-0, 1.58.0-0
+   :versions: 1.64.0-0, 1.62.0-0, 1.60.0-1, 1.60.0-0, 1.58.0-0
    
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-r2html: 
    :depends r-tkrplot: 
    :depends r-xtable: 

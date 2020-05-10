@@ -23,11 +23,13 @@ bioconductor-amountain
 
    |downloads_bioconductor-amountain| |docker_bioconductor-amountain|
 
-   :versions: 1.12.0-0, 1.10.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-0
+   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-0
    
-   :depends gsl: >=2.5,<2.6.0a0
+   :depends gsl: >=2.6,<2.7.0a0
+   :depends libblas: >=3.8.0,<4.0a0
    :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

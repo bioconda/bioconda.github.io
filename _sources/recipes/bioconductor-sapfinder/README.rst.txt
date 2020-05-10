@@ -22,12 +22,14 @@ bioconductor-sapfinder
 
    |downloads_bioconductor-sapfinder| |docker_bioconductor-sapfinder|
 
-   :versions: 1.24.0-0, 1.22.0-2, 1.22.0-1, 1.22.0-0, 1.20.1-0, 1.20.0-0
+   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-2, 1.22.0-1, 1.22.0-0, 1.20.1-0, 1.20.0-0
    
-   :depends bioconductor-rtandem: >=1.26.0,<1.27.0
+   :depends bioconductor-rtandem: >=1.27.0,<1.28.0
+   :depends libblas: >=3.8.0,<4.0a0
    :depends libgcc-ng: >=7.3.0
+   :depends liblapack: >=3.8.0,<3.9.0a0
    :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-pheatmap: 
    :depends r-rcpp: >=0.10.6
    :requirements:

@@ -22,23 +22,18 @@ bioconductor-m3c
 
    |downloads_bioconductor-m3c| |docker_bioconductor-m3c|
 
-   :versions: 1.8.0-0, 1.6.0-1, 1.6.0-0, 1.4.1-0
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.6.0-0, 1.4.1-0
    
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-cluster: 
    :depends r-corpcor: 
-   :depends r-dendextend: 
    :depends r-doparallel: 
    :depends r-dosnow: 
    :depends r-foreach: 
    :depends r-ggplot2: 
    :depends r-matrix: 
    :depends r-matrixcalc: 
-   :depends r-nmf: 
-   :depends r-rcolorbrewer: 
    :depends r-rtsne: 
-   :depends r-sigclust: 
-   :depends r-survival: 
    :depends r-umap: 
    :requirements:
 

@@ -23,11 +23,11 @@ bioconductor-subseq
 
    |downloads_bioconductor-subseq| |docker_bioconductor-subseq|
 
-   :versions: 1.16.0-0, 1.14.0-1, 1.12.1-0, 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.12.1-0, 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-qvalue: >=2.18.0,<2.19.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-data.table: 
    :depends r-digest: 
    :depends r-dplyr: 

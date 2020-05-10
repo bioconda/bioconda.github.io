@@ -22,11 +22,11 @@ bioconductor-liebermanaidenhic2009
 
    |downloads_bioconductor-liebermanaidenhic2009| |docker_bioconductor-liebermanaidenhic2009|
 
-   :versions: 0.24.0-0, 0.22.0-1, 0.20.0-0
+   :versions: 0.26.0-0, 0.24.0-0, 0.22.0-1, 0.20.0-0
    
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-kernsmooth: 
    :requirements:
 

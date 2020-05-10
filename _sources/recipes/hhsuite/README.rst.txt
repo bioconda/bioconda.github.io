@@ -24,8 +24,8 @@ hhsuite
 
    :versions: 3.2.0-1, 3.2.0-0, v3.2.0-0
    
-   :depends libcxx: >=9.0.1
-   :depends llvm-openmp: >=8.0.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
    :depends openmp: 
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends python: >=3.6,<3.7.0a0

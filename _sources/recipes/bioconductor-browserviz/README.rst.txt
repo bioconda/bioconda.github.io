@@ -23,10 +23,10 @@ bioconductor-browserviz
 
    |downloads_bioconductor-browserviz| |docker_bioconductor-browserviz|
 
-   :versions: 2.8.0-0, 2.6.0-1, 2.4.0-0, 2.2.0-0, 1.10.0-0
+   :versions: 2.10.0-0, 2.8.0-0, 2.6.0-1, 2.4.0-0, 2.2.0-0, 1.10.0-0
    
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-httpuv: >=1.5.0
    :depends r-jsonlite: >=1.5
    :requirements:

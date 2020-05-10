@@ -26,8 +26,9 @@ bioconductor-quaternaryprod
    :versions: 1.22.0-0, 1.20.0-0, 1.18.0-1, 1.18.0-0, 1.16.0-0, 1.14.0-0, 1.6.0-0
    
    :depends libblas: >=3.8.0,<4.0a0
-   :depends libcxx: >=9.0.1
+   :depends libgcc-ng: >=7.3.0
    :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=4.0,<4.1.0a0
    :depends r-dplyr: 
    :depends r-rcpp: >=0.11.3

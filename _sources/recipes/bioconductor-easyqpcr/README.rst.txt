@@ -22,9 +22,9 @@ bioconductor-easyqpcr
 
    |downloads_bioconductor-easyqpcr| |docker_bioconductor-easyqpcr|
 
-   :versions: 1.28.0-0, 1.26.0-1
+   :versions: 1.30.0-0, 1.28.0-0, 1.26.0-1
    
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-gwidgetsrgtk2: 
    :depends r-matrixstats: 
    :depends r-plotrix: 

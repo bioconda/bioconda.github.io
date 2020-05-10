@@ -23,9 +23,9 @@ bioconductor-antiprofiles
 
    |downloads_bioconductor-antiprofiles| |docker_bioconductor-antiprofiles|
 
-   :versions: 1.26.0-0, 1.24.0-1, 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
+   :versions: 1.28.0-0, 1.26.0-0, 1.24.0-1, 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
    
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-locfit: >=1.5
    :depends r-matrixstats: >=0.50.0
    :requirements:

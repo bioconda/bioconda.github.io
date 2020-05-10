@@ -23,15 +23,16 @@ bioconductor-bitseq
 
    |downloads_bioconductor-bitseq| |docker_bioconductor-bitseq|
 
-   :versions: 1.30.0-0, 1.28.0-1, 1.26.0-0, 1.24.0-0, 1.22.0-0, 1.20.0-0
+   :versions: 1.32.0-0, 1.30.0-0, 1.28.0-1, 1.26.0-0, 1.24.0-0, 1.22.0-0, 1.20.0-0
    
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-rhtslib: >=1.18.0,<1.19.0
-   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-rhtslib: >=1.20.0,<1.21.0
+   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends libcxx: >=9.0.1
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation
