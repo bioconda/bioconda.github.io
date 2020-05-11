@@ -27,8 +27,9 @@ bioconductor-beachmat
    :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
    :depends bioconductor-delayedarray: >=0.14.0,<0.15.0
    :depends libblas: >=3.8.0,<4.0a0
-   :depends libcxx: >=9.0.1
+   :depends libgcc-ng: >=7.3.0
    :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=4.0,<4.1.0a0
    :depends r-matrix: 
    :requirements:

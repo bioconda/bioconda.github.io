@@ -22,12 +22,12 @@ bioconductor-ccmap
 
    |downloads_bioconductor-ccmap| |docker_bioconductor-ccmap|
 
-   :versions: 1.12.0-1, 1.10.0-1, 1.8.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.10.0-1, 1.8.0-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-ccdata: >=1.12.0,<1.13.0
-   :depends r-base: >=3.6,<3.7.0a0
-   :depends r-biocmanager: >=1.24.0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-ccdata: >=1.14.0,<1.15.0
+   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-biocmanager: >=1.30.4
    :depends r-data.table: >=1.10.4
    :depends r-doparallel: >=1.0.10
    :depends r-foreach: >=1.4.3

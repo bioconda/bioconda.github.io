@@ -22,12 +22,13 @@ bioconductor-spatialcpie
 
    |downloads_bioconductor-spatialcpie| |docker_bioconductor-spatialcpie|
 
-   :versions: 1.2.0-0, 1.0.0-1
+   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-colorspace: >=1.3-2
    :depends r-data.table: >=1.12.2
+   :depends r-digest: >=0.6.21
    :depends r-dplyr: >=0.7.6
    :depends r-ggforce: >=0.3.0
    :depends r-ggiraph: >=0.5.0

@@ -9,12 +9,13 @@ stringtie
 .. conda:recipe:: stringtie
    :replaces_section_title:
 
-   Transcriptome assembly and quantification for RNA\-seq
+   StringTie is a fast and highly efficient assembler of RNA\-Seq alignments into potential transcripts.
 
    :homepage: https://ccb.jhu.edu/software/stringtie/
-   :license: Artistic License 2.0
+   :developer docs: https://github.com/gpertea/stringtie
+   :license: MIT / MIT
    :recipe: /`stringtie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stringtie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stringtie/meta.yaml>`_
-   :links: biotools: :biotools:`StringTie`, doi: :doi:`10.1038/nbt.3122`
+   :links: biotools: :biotools:`StringTie`, doi: :doi:`10.1038/nbt.3122`, doi: :doi:`10.1038/nprot.2016.095`, doi: :doi:`10.1186/s13059-019-1910-1`
 
    
 
@@ -23,12 +24,11 @@ stringtie
 
    |downloads_stringtie| |docker_stringtie|
 
-   :versions: 2.1.1-0, 2.0-0, 1.3.6-0, 1.3.5-0, 1.3.4-1, 1.3.4-0, 1.3.3-4, 1.3.3-3, 1.3.3-2, 1.3.0-2, 1.3.0-1, 1.3.0-0, 1.2.4-2, 1.2.4-1, 1.2.4-0, 1.2.3-0, 1.2.2-2, 1.2.2-1, 1.2.0-1, 1.2.0-0, 1.1.2-0, 1.1.1-0, 1.1.0-0, 1.0.4-1, 1.0.4-0, 1.0.3-1, 1.0.3-0, 1.0.1-0, 0.97-0
+   :versions: 2.1.2-0, 2.1.1-0, 2.0-0, 1.3.6-0, 1.3.5-0, 1.3.4-1, 1.3.4-0, 1.3.3-4, 1.3.3-3, 1.3.3-2, 1.3.0-2, 1.3.0-1, 1.3.0-0, 1.2.4-2, 1.2.4-1, 1.2.4-0, 1.2.3-0, 1.2.2-2, 1.2.2-1, 1.2.0-1, 1.2.0-0, 1.1.2-0, 1.1.1-0, 1.1.0-0, 1.0.4-1, 1.0.4-0, 1.0.3-1, 1.0.3-0, 1.0.1-0, 0.97-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends python: 
-   :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -23,11 +23,11 @@ bioconductor-biomart
 
    |downloads_bioconductor-biomart| |docker_bioconductor-biomart|
 
-   :versions: 2.42.0-0, 2.40.3-0, 2.38.0-0, 2.36.1-0, 2.34.2-0, 2.34.0-0, 2.32.1-0, 2.30.0-0, 2.28.0-0, 2.27.0-0, 2.26.1-0, 2.26.0-0
+   :versions: 2.44.0-0, 2.42.0-0, 2.40.3-0, 2.38.0-0, 2.36.1-0, 2.34.2-0, 2.34.0-0, 2.32.1-0, 2.30.0-0, 2.28.0-0, 2.27.0-0, 2.26.1-0, 2.26.0-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-biocfilecache: >=1.10.0,<1.11.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-biocfilecache: >=1.12.0,<1.13.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-httr: 
    :depends r-openssl: 
    :depends r-progress: 

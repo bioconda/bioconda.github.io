@@ -22,11 +22,11 @@ bioconductor-methvisual
 
    |downloads_bioconductor-methvisual| |docker_bioconductor-methvisual|
 
-   :versions: 1.38.0-0, 1.36.0-1, 1.34.0-1, 1.34.0-0
+   :versions: 1.39.0-0, 1.38.0-0, 1.36.0-1, 1.34.0-1, 1.34.0-0
    
-   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-ca: 
    :depends r-gridbase: 
    :depends r-gsubfn: 

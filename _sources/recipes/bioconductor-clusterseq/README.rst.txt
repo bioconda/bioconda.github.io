@@ -22,12 +22,12 @@ bioconductor-clusterseq
 
    |downloads_bioconductor-clusterseq| |docker_bioconductor-clusterseq|
 
-   :versions: 1.10.0-0, 1.8.0-1, 1.6.0-0
+   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.6.0-0
    
-   :depends bioconductor-bayseq: >=2.20.0,<2.21.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-bayseq: >=2.22.0,<2.23.0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

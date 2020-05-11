@@ -23,14 +23,14 @@ bioconductor-ideoviz
 
    |downloads_bioconductor-ideoviz| |docker_bioconductor-ideoviz|
 
-   :versions: 1.22.0-0, 1.20.0-1, 1.18.0-0, 1.16.0-0, 1.10.0-0
+   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.18.0-0, 1.16.0-0, 1.10.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-rtracklayer: >=1.46.0,<1.47.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
+   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-rcolorbrewer: 
    :requirements:
 

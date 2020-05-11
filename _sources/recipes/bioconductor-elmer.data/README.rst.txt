@@ -22,11 +22,11 @@ bioconductor-elmer.data
 
    |downloads_bioconductor-elmer.data| |docker_bioconductor-elmer.data|
 
-   :versions: 2.10.0-0, 2.8.0-1, 2.6.0-0, 2.4.2-0
+   :versions: 2.12.0-0, 2.10.0-0, 2.8.0-1, 2.6.0-0, 2.4.2-0
    
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

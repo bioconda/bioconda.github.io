@@ -23,15 +23,17 @@ bioconductor-risa
 
    |downloads_bioconductor-risa| |docker_bioconductor-risa|
 
-   :versions: 1.28.0-0, 1.26.0-1, 1.24.0-0, 1.20.0-0, 1.18.0-0
+   :versions: 1.30.0-0, 1.28.0-0, 1.26.0-1, 1.24.0-0, 1.20.0-0, 1.18.0-0
    
-   :depends bioconductor-affy: >=1.64.0,<1.65.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-biocviews: >=1.54.0,<1.55.0
-   :depends bioconductor-xcms: >=3.8.0,<3.9.0
+   :depends bioconductor-affy: >=1.66.0,<1.67.0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-biocviews: >=1.56.0,<1.57.0
+   :depends bioconductor-xcms: >=3.10.0,<3.11.0
+   :depends libblas: >=3.8.0,<4.0a0
    :depends libgcc-ng: >=7.3.0
+   :depends liblapack: >=3.8.0,<3.9.0a0
    :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-rcpp: >=0.9.13
    :requirements:
 

@@ -23,7 +23,7 @@ kraken2
 
    |downloads_kraken2| |docker_kraken2|
 
-   :versions: 2.0.8_beta-2, 2.0.8_beta-1, 2.0.8_beta-0, 2.0.7_beta-3, 2.0.7_beta-2, 2.0.7_beta-1, 2.0.7_beta-0
+   :versions: 2.0.9beta-0, 2.0.8_beta-2, 2.0.8_beta-1, 2.0.8_beta-0, 2.0.7_beta-3, 2.0.7_beta-2, 2.0.7_beta-1, 2.0.7_beta-0
    
    :depends _openmp_mutex: * *_gnu
    :depends blast: 

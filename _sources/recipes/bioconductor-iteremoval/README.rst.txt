@@ -22,11 +22,11 @@ bioconductor-iteremoval
 
    |downloads_bioconductor-iteremoval| |docker_bioconductor-iteremoval|
 
-   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
    
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-ggplot2: >=2.2.1
    :depends r-magrittr: 
    :requirements:

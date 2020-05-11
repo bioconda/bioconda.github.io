@@ -23,11 +23,11 @@ bioconductor-bgafun
 
    |downloads_bioconductor-bgafun| |docker_bioconductor-bgafun|
 
-   :versions: 1.48.0-0, 1.46.0-1, 1.46.0-0, 1.44.0-0, 1.42.0-0, 1.40.0-0, 1.38.0-0
+   :versions: 1.49.0-0, 1.48.0-0, 1.46.0-1, 1.46.0-0, 1.44.0-0, 1.42.0-0, 1.40.0-0, 1.38.0-0
    
-   :depends bioconductor-made4: >=1.60.0,<1.61.0
+   :depends bioconductor-made4: >=1.61.0,<1.62.0
    :depends r-ade4: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-seqinr: 
    :requirements:
 

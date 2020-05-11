@@ -22,13 +22,14 @@ bioconductor-scfind
 
    |downloads_bioconductor-scfind| |docker_bioconductor-scfind|
 
-   :versions: 1.8.0-0, 1.6.0-1, 1.4.0-0
+   :versions: 1.9.0-0, 1.8.0-0, 1.6.0-1, 1.4.0-0
    
-   :depends bioconductor-singlecellexperiment: >=1.8.0,<1.9.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends libcxx: >=9.0.1
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-bit: 
    :depends r-dplyr: 
    :depends r-hash: 

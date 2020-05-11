@@ -22,19 +22,19 @@ bioconductor-coexnet
 
    |downloads_bioconductor-coexnet| |docker_bioconductor-coexnet|
 
-   :versions: 1.8.0-0, 1.6.0-1, 1.4.0-0
+   :versions: 1.9.0-0, 1.8.0-0, 1.6.0-1, 1.4.0-0
    
-   :depends bioconductor-acde: >=1.16.0,<1.17.0
-   :depends bioconductor-affy: >=1.64.0,<1.65.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-geoquery: >=2.54.0,<2.55.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-minet: >=3.44.0,<3.45.0
-   :depends bioconductor-siggenes: >=1.60.0,<1.61.0
-   :depends bioconductor-stringdb: >=1.26.0,<1.27.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends bioconductor-vsn: >=3.54.0,<3.55.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-acde: >=1.18.0,<1.19.0
+   :depends bioconductor-affy: >=1.66.0,<1.67.0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-geoquery: >=2.56.0,<2.57.0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends bioconductor-minet: >=3.46.0,<3.47.0
+   :depends bioconductor-siggenes: >=1.62.0,<1.63.0
+   :depends bioconductor-stringdb: >=2.0.0,<2.1.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends bioconductor-vsn: >=3.56.0,<3.57.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-igraph: 
    :depends r-rmarkdown: 
    :requirements:

@@ -22,11 +22,11 @@ bioconductor-cardinalworkflows
 
    |downloads_bioconductor-cardinalworkflows| |docker_bioconductor-cardinalworkflows|
 
-   :versions: 1.18.0-0, 1.16.0-1, 1.14.0-0
+   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-1, 1.14.0-0
    
-   :depends bioconductor-cardinal: >=2.4.0,<2.5.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-cardinal: >=2.6.0,<2.7.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

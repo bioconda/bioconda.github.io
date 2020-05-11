@@ -22,10 +22,11 @@ bioconductor-adaptest
 
    |downloads_bioconductor-adaptest| |docker_bioconductor-adaptest|
 
-   :versions: 1.5.0-0, 1.4.0-1, 1.2.0-0
+   :versions: 1.7.1-0, 1.5.0-0, 1.4.0-1, 1.2.0-0
    
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-calibrate: 
    :depends r-origami: >=1.0.0
    :depends r-tmle: 

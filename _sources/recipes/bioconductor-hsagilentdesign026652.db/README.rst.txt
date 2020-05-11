@@ -22,12 +22,12 @@ bioconductor-hsagilentdesign026652.db
 
    |downloads_bioconductor-hsagilentdesign026652.db| |docker_bioconductor-hsagilentdesign026652.db|
 
-   :versions: 3.2.3-3, 3.2.3-2, 3.2.3-0
+   :versions: 3.2.3-4, 3.2.3-3, 3.2.3-2, 3.2.3-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -22,11 +22,11 @@ bioconductor-seqc
 
    |downloads_bioconductor-seqc| |docker_bioconductor-seqc|
 
-   :versions: 1.20.0-0, 1.18.0-1, 1.16.0-0
+   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-1, 1.16.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

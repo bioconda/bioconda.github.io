@@ -22,11 +22,11 @@ bioconductor-do.db
 
    |downloads_bioconductor-do.db| |docker_bioconductor-do.db|
 
-   :versions: 2.9-7, 2.9-6, 2.9-4, 2.9-3, 2.9-1, 2.9-0
+   :versions: 2.9-8, 2.9-7, 2.9-6, 2.9-4, 2.9-3, 2.9-1, 2.9-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

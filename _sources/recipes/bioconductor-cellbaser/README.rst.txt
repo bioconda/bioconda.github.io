@@ -22,11 +22,11 @@ bioconductor-cellbaser
 
    |downloads_bioconductor-cellbaser| |docker_bioconductor-cellbaser|
 
-   :versions: 1.10.0-0, 1.8.0-1, 1.6.0-0
+   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.6.0-0
    
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-data.table: 
    :depends r-doparallel: 
    :depends r-foreach: 

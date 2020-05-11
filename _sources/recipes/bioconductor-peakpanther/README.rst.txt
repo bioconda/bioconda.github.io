@@ -22,11 +22,11 @@ bioconductor-peakpanther
 
    |downloads_bioconductor-peakpanther| |docker_bioconductor-peakpanther|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-0
    
-   :depends bioconductor-msnbase: >=2.12.0,<2.13.0
-   :depends bioconductor-mzr: >=2.20.0,<2.21.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-msnbase: >=2.14.0,<2.15.0
+   :depends bioconductor-mzr: >=2.22.0,<2.23.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-doparallel: >=1.0.11
    :depends r-foreach: >=1.4.4
    :depends r-ggplot2: >=2.2.1

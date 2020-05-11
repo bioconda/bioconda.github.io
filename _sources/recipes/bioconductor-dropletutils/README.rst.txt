@@ -23,19 +23,20 @@ bioconductor-dropletutils
 
    |downloads_bioconductor-dropletutils| |docker_bioconductor-dropletutils|
 
-   :versions: 1.6.1-0, 1.4.2-0, 1.2.1-0, 1.0.3-0
+   :versions: 1.8.0-0, 1.6.1-0, 1.4.2-0, 1.2.1-0, 1.0.3-0
    
-   :depends bioconductor-beachmat: >=2.2.0,<2.3.0
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-edger: >=3.28.0,<3.29.0
-   :depends bioconductor-hdf5array: >=1.14.0,<1.15.0
-   :depends bioconductor-rhdf5: >=2.30.0,<2.31.0
-   :depends bioconductor-rhdf5lib: >=1.8.0,<1.9.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends bioconductor-singlecellexperiment: >=1.8.0,<1.9.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-beachmat: >=2.4.0,<2.5.0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-edger: >=3.30.0,<3.31.0
+   :depends bioconductor-hdf5array: >=1.16.0,<1.17.0
+   :depends bioconductor-rhdf5: >=2.32.0,<2.33.0
+   :depends bioconductor-rhdf5lib: >=1.10.0,<1.11.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends libcxx: >=9.0.1
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-bh: 
    :depends r-dqrng: 
    :depends r-matrix: 

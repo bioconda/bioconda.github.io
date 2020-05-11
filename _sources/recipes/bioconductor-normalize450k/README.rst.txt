@@ -22,11 +22,11 @@ bioconductor-normalize450k
 
    |downloads_bioconductor-normalize450k| |docker_bioconductor-normalize450k|
 
-   :versions: 1.14.0-0, 1.12.0-1, 1.10.0-0
+   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.10.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-illuminaio: >=0.28.0,<0.29.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-illuminaio: >=0.30.0,<0.31.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-quadprog: 
    :requirements:
 

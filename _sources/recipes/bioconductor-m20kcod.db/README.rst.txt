@@ -22,12 +22,12 @@ bioconductor-m20kcod.db
 
    |downloads_bioconductor-m20kcod.db| |docker_bioconductor-m20kcod.db|
 
-   :versions: 3.4.0-3, 3.4.0-2, 3.4.0-0
+   :versions: 3.4.0-4, 3.4.0-3, 3.4.0-2, 3.4.0-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-org.mm.eg.db: >=3.10.0,<3.11.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-org.mm.eg.db: >=3.11.0,<3.12.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

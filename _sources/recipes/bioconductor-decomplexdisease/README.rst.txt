@@ -22,16 +22,17 @@ bioconductor-decomplexdisease
 
    |downloads_bioconductor-decomplexdisease| |docker_bioconductor-decomplexdisease|
 
-   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
    
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-complexheatmap: >=2.2.0,<2.3.0
-   :depends bioconductor-deseq2: >=1.26.0,<1.27.0
-   :depends bioconductor-edger: >=3.28.0,<3.29.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-complexheatmap: >=2.4.0,<2.5.0
+   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
+   :depends bioconductor-edger: >=3.30.0,<3.31.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends libcxx: >=9.0.1
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-rcpp: >=0.12.7
    :requirements:
 

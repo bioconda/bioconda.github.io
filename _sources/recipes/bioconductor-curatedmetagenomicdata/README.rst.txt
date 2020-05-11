@@ -22,14 +22,14 @@ bioconductor-curatedmetagenomicdata
 
    |downloads_bioconductor-curatedmetagenomicdata| |docker_bioconductor-curatedmetagenomicdata|
 
-   :versions: 1.16.0-0, 1.14.1-0, 1.12.3-0, 1.10.2-0, 1.8.1-0
+   :versions: 1.18.0-0, 1.16.0-0, 1.14.1-0, 1.12.3-0, 1.10.2-0, 1.8.1-0
    
-   :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-dplyr: >=0.5.0
    :depends r-magrittr: 
    :depends r-tidyr: 

@@ -22,11 +22,11 @@ bioconductor-ruvcorr
 
    |downloads_bioconductor-ruvcorr| |docker_bioconductor-ruvcorr|
 
-   :versions: 1.18.0-1, 1.16.0-1, 1.14.0-0
+   :versions: 1.20.0-0, 1.18.0-1, 1.16.0-1, 1.14.0-0
    
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-bladderbatch: >=1.24.0,<1.25.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-bladderbatch: >=1.26.0,<1.27.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-corrplot: 
    :depends r-gridextra: 
    :depends r-lattice: 

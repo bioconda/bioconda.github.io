@@ -22,15 +22,14 @@ bioconductor-msstatsqcgui
 
    |downloads_bioconductor-msstatsqcgui| |docker_bioconductor-msstatsqcgui|
 
-   :versions: 1.6.0-0, 1.4.0-1, 1.2.1-0
+   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.1-0
    
-   :depends bioconductor-msstatsqc: >=2.4.0,<2.5.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-msstatsqc: >=2.6.0,<2.7.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-dplyr: 
    :depends r-ggextra: 
    :depends r-gridextra: 
    :depends r-plotly: 
-   :depends r-recordlinkage: 
    :depends r-shiny: 
    :requirements:
 

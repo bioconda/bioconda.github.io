@@ -22,11 +22,11 @@ bioconductor-alternativesplicingevents.hg38
 
    |downloads_bioconductor-alternativesplicingevents.hg38| |docker_bioconductor-alternativesplicingevents.hg38|
 
-   :versions: 1.0.1-4, 1.0.1-3, 1.0.1-1, 1.0.1-0
+   :versions: 1.0.1-5, 1.0.1-4, 1.0.1-3, 1.0.1-1, 1.0.1-0
    
-   :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

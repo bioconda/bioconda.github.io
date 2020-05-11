@@ -22,7 +22,7 @@ bioconductor-dmrscan
 
    |downloads_bioconductor-dmrscan| |docker_bioconductor-dmrscan|
 
-   :versions: 1.11.0-0, 1.10.0-1, 1.8.0-0
+   :versions: 1.11.0-0, 1.10.0-1, 1.10.0-0, 1.8.0-0
    
    :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
    :depends bioconductor-genomicranges: >=1.38.0,<1.39.0

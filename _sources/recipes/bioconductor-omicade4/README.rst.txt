@@ -23,11 +23,11 @@ bioconductor-omicade4
 
    |downloads_bioconductor-omicade4| |docker_bioconductor-omicade4|
 
-   :versions: 1.26.0-0, 1.24.1-0, 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.1-0
+   :versions: 1.27.0-0, 1.26.0-0, 1.24.1-0, 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.1-0
    
-   :depends bioconductor-made4: >=1.60.0,<1.61.0
+   :depends bioconductor-made4: >=1.61.0,<1.62.0
    :depends r-ade4: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

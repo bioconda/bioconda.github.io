@@ -23,13 +23,13 @@ bioconductor-genomeinfodb
 
    |downloads_bioconductor-genomeinfodb| |docker_bioconductor-genomeinfodb|
 
-   :versions: 1.22.0-0, 1.20.0-1, 1.18.1-0, 1.16.0-0, 1.14.0-0, 1.12.3-0, 1.10.3-0, 1.8.7-0, 1.6.3-0, 1.6.1-0, 1.6.0-0, 1.4.3-0
+   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.18.1-0, 1.16.0-0, 1.14.0-0, 1.12.3-0, 1.10.3-0, 1.8.7-0, 1.6.3-0, 1.6.1-0, 1.6.0-0, 1.4.3-0
    
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
    :depends bioconductor-genomeinfodbdata: >=1.2.0,<1.3.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-rcurl: 
    :requirements:
 

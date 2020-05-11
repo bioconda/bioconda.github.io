@@ -23,13 +23,13 @@ bioconductor-sigar
 
    |downloads_bioconductor-sigar| |docker_bioconductor-sigar|
 
-   :versions: 1.34.0-0, 1.32.0-1, 1.30.0-0, 1.28.0-0, 1.26.0-0
+   :versions: 1.35.0-0, 1.34.0-0, 1.32.0-1, 1.30.0-0, 1.28.0-0, 1.26.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-cghbase: >=1.46.0,<1.47.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-marray: >=1.64.0,<1.65.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-cghbase: >=1.48.0,<1.49.0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends bioconductor-marray: >=1.66.0,<1.67.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-corpcor: >=1.6.2
    :depends r-igraph: 
    :depends r-mass: 

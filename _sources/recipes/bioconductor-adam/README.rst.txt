@@ -22,14 +22,15 @@ bioconductor-adam
 
    |downloads_bioconductor-adam| |docker_bioconductor-adam|
 
-   :versions: 1.2.0-0, 1.0.0-1
+   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-go.db: >=3.10.0,<3.11.0
-   :depends bioconductor-keggrest: >=1.26.0,<1.27.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-go.db: >=3.11.0,<3.12.0
+   :depends bioconductor-keggrest: >=1.28.0,<1.29.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends libcxx: >=9.0.1
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-dplyr: >=0.7.6
    :depends r-dt: >=0.4
    :depends r-knitr: 

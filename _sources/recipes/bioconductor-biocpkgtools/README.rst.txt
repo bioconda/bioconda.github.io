@@ -22,12 +22,13 @@ bioconductor-biocpkgtools
 
    |downloads_bioconductor-biocpkgtools| |docker_bioconductor-biocpkgtools|
 
-   :versions: 1.4.0-0, 1.2.0-1, 1.0.2-0
+   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.2-0
    
-   :depends bioconductor-biocviews: >=1.54.0,<1.55.0
-   :depends bioconductor-graph: >=1.64.0,<1.65.0
-   :depends bioconductor-rbgl: >=1.62.0,<1.63.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocfilecache: >=1.12.0,<1.13.0
+   :depends bioconductor-biocviews: >=1.56.0,<1.57.0
+   :depends bioconductor-graph: >=1.66.0,<1.67.0
+   :depends bioconductor-rbgl: >=1.64.0,<1.65.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-biocmanager: 
    :depends r-dplyr: 
    :depends r-dt: 
@@ -38,12 +39,15 @@ bioconductor-biocpkgtools
    :depends r-igraph: 
    :depends r-jsonlite: 
    :depends r-magrittr: 
+   :depends r-rappdirs: 
    :depends r-readr: 
    :depends r-rex: 
+   :depends r-rlang: 
    :depends r-rvest: 
    :depends r-stringr: 
    :depends r-tibble: 
    :depends r-tidyr: 
+   :depends r-tidyselect: 
    :depends r-xml2: 
    :requirements:
 

@@ -22,11 +22,11 @@ bioconductor-assessorfdata
 
    |downloads_bioconductor-assessorfdata| |docker_bioconductor-assessorfdata|
 
-   :versions: 1.4.0-0, 1.2.0-1, 1.0.0-1, 1.0.0-0
+   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.0-1, 1.0.0-0
    
-   :depends bioconductor-decipher: >=2.14.0,<2.15.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-decipher: >=2.16.0,<2.17.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

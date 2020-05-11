@@ -22,12 +22,14 @@ bioconductor-mfa
 
    |downloads_bioconductor-mfa| |docker_bioconductor-mfa|
 
-   :versions: 1.8.0-0, 1.6.0-1, 1.4.1-0, 1.4.0-0
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.1-0, 1.4.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends libblas: >=3.8.0,<4.0a0
    :depends libgcc-ng: >=7.3.0
+   :depends liblapack: >=3.8.0,<3.9.0a0
    :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-coda: 
    :depends r-dplyr: 
    :depends r-ggmcmc: 

@@ -9,7 +9,7 @@ unfazed
 .. conda:recipe:: unfazed
    :replaces_section_title:
 
-   Extended read\-backed and allele\-balance phasing for de novo SVs and point mutations
+   Extended read\-backed and allele\-balance phasing for de novo variation \(SNVs\, INDELS\, SVs\, and CNVs\)
 
    :homepage: https://github.com/jbelyeu/unfazed
    :license: MIT
@@ -22,7 +22,7 @@ unfazed
 
    |downloads_unfazed| |docker_unfazed|
 
-   :versions: 0.2.2-0, 0.1.5-0
+   :versions: 0.2.3-0, 0.2.2-0, 0.1.5-0
    
    :depends cyvcf2: 
    :depends numpy: 

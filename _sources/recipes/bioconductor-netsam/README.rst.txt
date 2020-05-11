@@ -22,10 +22,10 @@ bioconductor-netsam
 
    |downloads_bioconductor-netsam| |docker_bioconductor-netsam|
 
-   :versions: 1.26.0-0, 1.24.0-1, 1.22.0-0
+   :versions: 1.28.0-0, 1.26.0-0, 1.24.0-1, 1.22.0-0
    
-   :depends bioconductor-graph: >=1.64.0,<1.65.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-graph: >=1.66.0,<1.67.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-igraph: >=0.6-1
    :depends r-seriation: >=1.0-6
    :requirements:

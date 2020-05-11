@@ -23,13 +23,15 @@ bioconductor-cancermutationanalysis
 
    |downloads_bioconductor-cancermutationanalysis| |docker_bioconductor-cancermutationanalysis|
 
-   :versions: 1.28.0-0, 1.26.0-1, 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0
+   :versions: 1.30.0-0, 1.28.0-0, 1.26.0-1, 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-qvalue: >=2.18.0,<2.19.0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
+   :depends libblas: >=3.8.0,<4.0a0
    :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

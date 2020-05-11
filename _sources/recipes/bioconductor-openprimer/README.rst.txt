@@ -22,17 +22,17 @@ bioconductor-openprimer
 
    |downloads_bioconductor-openprimer| |docker_bioconductor-openprimer|
 
-   :versions: 1.8.0-0, 1.6.0-1, 1.4.1-0
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.1-0
    
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
-   :depends bioconductor-decipher: >=2.14.0,<2.15.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
+   :depends bioconductor-decipher: >=2.16.0,<2.17.0
+   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
    :depends mafft: >=7.305
    :depends r-ape: >=3.5
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-digest: >=0.6.9
    :depends r-distr: >=2.6
    :depends r-distrex: >=2.6
@@ -51,7 +51,6 @@ bioconductor-openprimer
    :depends r-seqinr: >=3.3-3
    :depends r-stringdist: >=0.9.4.1
    :depends r-stringr: >=1.0.0
-   :depends r-tinytex: >=0.5
    :depends r-uniqtag: >=1.0
    :depends r-xml: >=3.98-1.4
    :requirements:

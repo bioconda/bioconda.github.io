@@ -23,10 +23,10 @@ bioconductor-graphpac
 
    |downloads_bioconductor-graphpac| |docker_bioconductor-graphpac|
 
-   :versions: 1.28.0-0, 1.26.0-1, 1.24.0-0, 1.22.1-0, 1.20.0-0
+   :versions: 1.30.0-0, 1.28.0-0, 1.26.0-1, 1.24.0-0, 1.22.1-0, 1.20.0-0
    
-   :depends bioconductor-ipac: >=1.30.0,<1.31.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-ipac: >=1.32.0,<1.33.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-igraph: 
    :depends r-rmallow: 
    :depends r-tsp: 

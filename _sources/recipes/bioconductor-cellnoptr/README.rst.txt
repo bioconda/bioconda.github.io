@@ -23,14 +23,16 @@ bioconductor-cellnoptr
 
    |downloads_bioconductor-cellnoptr| |docker_bioconductor-cellnoptr|
 
-   :versions: 1.32.0-0, 1.30.0-1, 1.28.0-0, 1.26.0-0, 1.24.1-0, 1.23.0-0, 1.22.0-0
+   :versions: 1.34.0-0, 1.32.0-0, 1.30.0-1, 1.28.0-0, 1.26.0-0, 1.24.1-0, 1.23.0-0, 1.22.0-0
    
-   :depends bioconductor-graph: >=1.64.0,<1.65.0
-   :depends bioconductor-rbgl: >=1.62.0,<1.63.0
-   :depends bioconductor-rgraphviz: >=2.30.0,<2.31.0
-   :depends graphviz: >=2.40.1,<3.0a0
+   :depends bioconductor-graph: >=1.66.0,<1.67.0
+   :depends bioconductor-rbgl: >=1.64.0,<1.65.0
+   :depends bioconductor-rgraphviz: >=2.32.0,<2.33.0
+   :depends graphviz: >=2.42.3,<3.0a0
+   :depends libblas: >=3.8.0,<4.0a0
    :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-ggplot2: 
    :depends r-hash: 
    :depends r-igraph: 

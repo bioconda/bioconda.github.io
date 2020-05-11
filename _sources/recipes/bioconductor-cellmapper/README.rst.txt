@@ -23,10 +23,10 @@ bioconductor-cellmapper
 
    |downloads_bioconductor-cellmapper| |docker_bioconductor-cellmapper|
 
-   :versions: 1.12.0-0, 1.10.0-1, 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-0
+   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-0
    
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

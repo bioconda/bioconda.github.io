@@ -22,11 +22,11 @@ bioconductor-mesh.dvi.eg.db
 
    |downloads_bioconductor-mesh.dvi.eg.db| |docker_bioconductor-mesh.dvi.eg.db|
 
-   :versions: 1.13.0-0, 1.12.0-1, 1.11.0-0
+   :versions: 1.13.0-1, 1.13.0-0, 1.12.0-1, 1.11.0-0
    
-   :depends bioconductor-meshdbi: >=1.22.0,<1.23.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-meshdbi: >=1.24.0,<1.25.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

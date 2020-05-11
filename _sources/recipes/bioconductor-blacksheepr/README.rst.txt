@@ -22,12 +22,12 @@ bioconductor-blacksheepr
 
    |downloads_bioconductor-blacksheepr| |docker_bioconductor-blacksheepr|
 
-   :versions: 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-complexheatmap: >=2.2.0,<2.3.0
-   :depends bioconductor-pasilla: >=1.14.0,<1.15.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-complexheatmap: >=2.4.0,<2.5.0
+   :depends bioconductor-pasilla: >=1.16.0,<1.17.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-circlize: 
    :depends r-rcolorbrewer: 
    :depends r-viridis: 

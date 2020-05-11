@@ -22,11 +22,11 @@ bioconductor-slinky
 
    |downloads_bioconductor-slinky| |docker_bioconductor-slinky|
 
-   :versions: 1.4.0-0, 1.2.0-1, 1.0.0-0
+   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.0-0
    
-   :depends bioconductor-rhdf5: >=2.30.0,<2.31.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-rhdf5: >=2.32.0,<2.33.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-curl: 
    :depends r-dplyr: 
    :depends r-foreach: 

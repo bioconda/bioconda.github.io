@@ -22,11 +22,11 @@ bioconductor-ivygapse
 
    |downloads_bioconductor-ivygapse| |docker_bioconductor-ivygapse|
 
-   :versions: 1.8.0-0, 1.6.0-1, 1.4.0-1, 1.4.0-0
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.0-1, 1.4.0-0
    
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-ggplot2: 
    :depends r-hwriter: 
    :depends r-plotly: 

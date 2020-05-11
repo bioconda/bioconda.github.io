@@ -22,14 +22,15 @@ bioconductor-tilingarray
 
    |downloads_bioconductor-tilingarray| |docker_bioconductor-tilingarray|
 
-   :versions: 1.64.0-0, 1.62.0-1, 1.60.0-0
+   :versions: 1.66.0-0, 1.64.0-0, 1.62.0-1, 1.60.0-0
    
-   :depends bioconductor-affy: >=1.64.0,<1.65.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-genefilter: >=1.68.0,<1.69.0
-   :depends bioconductor-vsn: >=3.54.0,<3.55.0
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-affy: >=1.66.0,<1.67.0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-genefilter: >=1.70.0,<1.71.0
+   :depends bioconductor-vsn: >=3.56.0,<3.57.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-pixmap: 
    :depends r-rcolorbrewer: 
    :depends r-strucchange: 

@@ -22,17 +22,18 @@ bioconductor-amaretto
 
    |downloads_bioconductor-amaretto| |docker_bioconductor-amaretto|
 
-   :versions: 1.1.1-1, 1.0.0-1
+   :versions: 1.4.0-0, 1.1.1-1, 1.0.0-1
    
-   :depends bioconductor-biocfilecache: >=1.10.0,<1.11.0
-   :depends bioconductor-complexheatmap: >=2.2.0,<2.3.0
-   :depends bioconductor-curatedtcgadata: >=1.8.0,<1.9.0
-   :depends bioconductor-impute: >=1.60.0,<1.61.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-multiassayexperiment: >=1.12.0,<1.13.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocfilecache: >=1.12.0,<1.13.0
+   :depends bioconductor-complexheatmap: >=2.4.0,<2.5.0
+   :depends bioconductor-curatedtcgadata: >=1.10.0,<1.11.0
+   :depends bioconductor-impute: >=1.62.0,<1.63.0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends bioconductor-multiassayexperiment: >=1.14.0,<1.15.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends libcxx: >=9.0.1
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-callr: >=3.0.0.9001
    :depends r-circlize: 
    :depends r-doparallel: 

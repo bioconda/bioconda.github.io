@@ -22,16 +22,15 @@ bioconductor-msstatsqc
 
    |downloads_bioconductor-msstatsqc| |docker_bioconductor-msstatsqc|
 
-   :versions: 2.4.0-0, 2.2.0-1, 2.0.1-0
+   :versions: 2.6.0-0, 2.4.0-0, 2.2.0-1, 2.0.1-0
    
-   :depends bioconductor-msnbase: >=2.12.0,<2.13.0
-   :depends bioconductor-qcmetrics: >=1.24.0,<1.25.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-msnbase: >=2.14.0,<2.15.0
+   :depends bioconductor-qcmetrics: >=1.26.0,<1.27.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-dplyr: 
    :depends r-ggextra: 
    :depends r-ggplot2: 
    :depends r-plotly: 
-   :depends r-recordlinkage: 
    :requirements:
 
    .. rubric:: Installation

@@ -22,13 +22,13 @@ bioconductor-olingui
 
    |downloads_bioconductor-olingui| |docker_bioconductor-olingui|
 
-   :versions: 1.60.0-0, 1.58.0-1, 1.58.0-0, 1.56.0-0
+   :versions: 1.62.0-0, 1.60.0-0, 1.58.0-1, 1.58.0-0, 1.56.0-0
    
-   :depends bioconductor-marray: >=1.64.0,<1.65.0
-   :depends bioconductor-olin: >=1.64.0,<1.65.0
-   :depends bioconductor-tkwidgets: >=1.64.0,<1.65.0
-   :depends bioconductor-widgettools: >=1.64.0,<1.65.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-marray: >=1.66.0,<1.67.0
+   :depends bioconductor-olin: >=1.66.0,<1.67.0
+   :depends bioconductor-tkwidgets: >=1.66.0,<1.67.0
+   :depends bioconductor-widgettools: >=1.66.0,<1.67.0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

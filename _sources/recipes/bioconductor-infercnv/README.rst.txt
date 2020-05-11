@@ -22,16 +22,16 @@ bioconductor-infercnv
 
    |downloads_bioconductor-infercnv| |docker_bioconductor-infercnv|
 
-   :versions: 1.2.0-0, 1.0.3-0
+   :versions: 1.4.0-0, 1.2.0-0, 1.0.3-0
    
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-edger: >=3.28.0,<3.29.0
-   :depends bioconductor-singlecellexperiment: >=1.8.0,<1.9.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-edger: >=3.30.0,<3.31.0
+   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
    :depends jags: 4.*.*
    :depends r-ape: 
    :depends r-argparse: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-catools: 
    :depends r-coda: 
    :depends r-coin: 

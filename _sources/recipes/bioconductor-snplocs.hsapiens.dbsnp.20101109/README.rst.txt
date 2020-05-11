@@ -22,13 +22,13 @@ bioconductor-snplocs.hsapiens.dbsnp.20101109
 
    |downloads_bioconductor-snplocs.hsapiens.dbsnp.20101109| |docker_bioconductor-snplocs.hsapiens.dbsnp.20101109|
 
-   :versions: 0.99.7-3, 0.99.7-2, 0.99.7-0
+   :versions: 0.99.7-4, 0.99.7-3, 0.99.7-2, 0.99.7-0
    
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

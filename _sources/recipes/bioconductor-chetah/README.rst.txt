@@ -22,13 +22,13 @@ bioconductor-chetah
 
    |downloads_bioconductor-chetah| |docker_bioconductor-chetah|
 
-   :versions: 1.2.0-0, 1.0.4-0
+   :versions: 1.4.0-0, 1.2.0-0, 1.0.4-0
    
-   :depends bioconductor-biodist: >=1.58.0,<1.59.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends bioconductor-singlecellexperiment: >=1.8.0,<1.9.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biodist: >=1.60.0,<1.61.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-corrplot: 
    :depends r-cowplot: 
    :depends r-dendextend: 

@@ -22,13 +22,14 @@ bioconductor-discorhythm
 
    |downloads_bioconductor-discorhythm| |docker_bioconductor-discorhythm|
 
-   :versions: 1.0.0-1
+   :versions: 1.4.0-0, 1.0.0-1
    
-   :depends bioconductor-biocgenerics: >=0.30.0,<0.31.0
-   :depends bioconductor-biocstyle: >=2.12.0,<2.13.0
-   :depends bioconductor-s4vectors: >=0.22.0,<0.23.0
-   :depends bioconductor-summarizedexperiment: >=1.14.0,<1.15.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-biocstyle: >=2.16.0,<2.17.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends pandoc: 
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-broom: 
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -44,6 +45,7 @@ bioconductor-discorhythm
    :depends r-matrixtests: 
    :depends r-metacycle: >=1.2.0
    :depends r-plotly: 
+   :depends r-reshape2: 
    :depends r-rmarkdown: 
    :depends r-shiny: 
    :depends r-shinybs: 
@@ -53,6 +55,7 @@ bioconductor-discorhythm
    :depends r-upsetr: 
    :depends r-venndiagram: 
    :depends r-viridis: 
+   :depends r-zip: 
    :requirements:
 
    .. rubric:: Installation

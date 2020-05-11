@@ -22,12 +22,12 @@ bioconductor-idr2d
 
    |downloads_bioconductor-idr2d| |docker_bioconductor-idr2d|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.2-0, 1.0.0-0
    
-   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
+   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-dplyr: >=0.7.6
    :depends r-futile.logger: >=1.4.3
    :depends r-ggplot2: >=3.1.1

@@ -23,10 +23,10 @@ bioconductor-keggrest
 
    |downloads_bioconductor-keggrest| |docker_bioconductor-keggrest|
 
-   :versions: 1.26.0-0, 1.24.0-1, 1.22.0-0, 1.20.2-0, 1.18.0-0, 1.16.1-0, 1.14.1-0, 1.12.3-0, 1.10.1-0
+   :versions: 1.28.0-0, 1.26.0-0, 1.24.0-1, 1.22.0-0, 1.20.2-0, 1.18.0-0, 1.16.1-0, 1.14.1-0, 1.12.3-0, 1.10.1-0
    
-   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-httr: 
    :depends r-png: 
    :requirements:

@@ -22,11 +22,11 @@ bioconductor-synapterdata
 
    |downloads_bioconductor-synapterdata| |docker_bioconductor-synapterdata|
 
-   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-0
+   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.0-0
    
-   :depends bioconductor-synapter: >=2.10.0,<2.11.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-synapter: >=2.12.0,<2.13.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

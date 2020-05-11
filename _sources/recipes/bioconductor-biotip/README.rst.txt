@@ -22,12 +22,14 @@ bioconductor-biotip
 
    |downloads_bioconductor-biotip| |docker_bioconductor-biotip|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-0
    
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-cluster: 
+   :depends r-hmisc: 
    :depends r-igraph: 
+   :depends r-mass: 
    :depends r-psych: 
    :depends r-stringr: 
    :requirements:
