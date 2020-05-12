@@ -22,11 +22,11 @@ bioconductor-pwmenrich.hsapiens.background
 
    |downloads_bioconductor-pwmenrich.hsapiens.background| |docker_bioconductor-pwmenrich.hsapiens.background|
 
-   :versions: 4.20.0-0, 4.18.0-1, 4.16.0-0
+   :versions: 4.22.0-0, 4.20.0-0, 4.18.0-1, 4.16.0-0
    
-   :depends bioconductor-pwmenrich: >=4.22.0,<4.23.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-pwmenrich: >=4.23.0,<4.24.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

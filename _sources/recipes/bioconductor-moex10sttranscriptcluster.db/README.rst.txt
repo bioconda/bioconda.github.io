@@ -22,12 +22,12 @@ bioconductor-moex10sttranscriptcluster.db
 
    |downloads_bioconductor-moex10sttranscriptcluster.db| |docker_bioconductor-moex10sttranscriptcluster.db|
 
-   :versions: 8.7.0-4, 8.7.0-3, 8.7.0-1, 8.7.0-0
+   :versions: 8.7.0-5, 8.7.0-4, 8.7.0-3, 8.7.0-1, 8.7.0-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-org.mm.eg.db: >=3.10.0,<3.11.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-org.mm.eg.db: >=3.11.0,<3.12.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

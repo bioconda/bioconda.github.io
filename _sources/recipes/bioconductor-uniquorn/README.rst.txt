@@ -23,12 +23,12 @@ bioconductor-uniquorn
 
    |downloads_bioconductor-uniquorn| |docker_bioconductor-uniquorn|
 
-   :versions: 2.6.0-0, 2.4.0-1, 2.2.0-0, 2.0.0-0, 1.6.0-0
+   :versions: 2.8.0-0, 2.6.0-0, 2.4.0-1, 2.2.0-0, 2.0.0-0, 1.6.0-0
    
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-variantannotation: >=1.32.0,<1.33.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-variantannotation: >=1.34.0,<1.35.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-doparallel: 
    :depends r-foreach: 
    :depends r-r.utils: 

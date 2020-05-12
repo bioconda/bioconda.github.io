@@ -22,13 +22,13 @@ bioconductor-beadarrayusecases
 
    |downloads_bioconductor-beadarrayusecases| |docker_bioconductor-beadarrayusecases|
 
-   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-0
+   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.0-0
    
-   :depends bioconductor-beadarray: >=2.36.0,<2.37.0
-   :depends bioconductor-geoquery: >=2.54.0,<2.55.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-beadarray: >=2.38.0,<2.39.0
+   :depends bioconductor-geoquery: >=2.56.0,<2.57.0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -22,11 +22,11 @@ bioconductor-bsgenome.ecoli.ncbi.20080805
 
    |downloads_bioconductor-bsgenome.ecoli.ncbi.20080805| |docker_bioconductor-bsgenome.ecoli.ncbi.20080805|
 
-   :versions: 1.3.1000-8, 1.3.1000-7, 1.3.1000-5, 1.3.1000-4, 1.3.1000-2, 1.3.1000-1, 1.3.1000-0
+   :versions: 1.3.1000-9, 1.3.1000-8, 1.3.1000-7, 1.3.1000-5, 1.3.1000-4, 1.3.1000-2, 1.3.1000-1, 1.3.1000-0
    
-   :depends bioconductor-bsgenome: >=1.54.0,<1.55.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

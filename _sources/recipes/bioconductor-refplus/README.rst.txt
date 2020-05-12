@@ -23,13 +23,13 @@ bioconductor-refplus
 
    |downloads_bioconductor-refplus| |docker_bioconductor-refplus|
 
-   :versions: 1.56.0-0, 1.54.0-1, 1.52.0-0, 1.50.0-0, 1.48.0-0
+   :versions: 1.58.0-0, 1.56.0-0, 1.54.0-1, 1.52.0-0, 1.50.0-0, 1.48.0-0
    
-   :depends bioconductor-affy: >=1.64.0,<1.65.0
-   :depends bioconductor-affyplm: >=1.62.0,<1.63.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-preprocesscore: >=1.48.0,<1.49.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-affy: >=1.66.0,<1.67.0
+   :depends bioconductor-affyplm: >=1.64.0,<1.65.0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-preprocesscore: >=1.50.0,<1.51.0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

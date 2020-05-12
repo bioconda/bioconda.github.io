@@ -23,12 +23,12 @@ bioconductor-globaltest
 
    |downloads_bioconductor-globaltest| |docker_bioconductor-globaltest|
 
-   :versions: 5.40.0-0, 5.38.0-1, 5.36.0-1, 5.36.0-0, 5.34.1-0, 5.32.0-0, 5.30.0-0
+   :versions: 5.42.0-0, 5.40.0-0, 5.38.0-1, 5.36.0-1, 5.36.0-0, 5.34.1-0, 5.32.0-0, 5.30.0-0
    
-   :depends bioconductor-annotate: >=1.64.0,<1.65.0
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotate: >=1.66.0,<1.67.0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-survival: 
    :requirements:
 

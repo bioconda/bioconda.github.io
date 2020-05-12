@@ -23,15 +23,15 @@ bioconductor-rpsixml
 
    |downloads_bioconductor-rpsixml| |docker_bioconductor-rpsixml|
 
-   :versions: 2.28.0-0, 2.26.0-1, 2.24.0-0, 2.22.0-0, 2.20.0-0
+   :versions: 2.30.0-0, 2.28.0-0, 2.26.0-1, 2.24.0-0, 2.22.0-0, 2.20.0-0
    
-   :depends bioconductor-annotate: >=1.64.0,<1.65.0
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-graph: >=1.64.0,<1.65.0
-   :depends bioconductor-hypergraph: >=1.58.0,<1.59.0
-   :depends bioconductor-rbgl: >=1.62.0,<1.63.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotate: >=1.66.0,<1.67.0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-graph: >=1.66.0,<1.67.0
+   :depends bioconductor-hypergraph: >=1.60.0,<1.61.0
+   :depends bioconductor-rbgl: >=1.64.0,<1.65.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-xml: >=2.4.0
    :requirements:
 

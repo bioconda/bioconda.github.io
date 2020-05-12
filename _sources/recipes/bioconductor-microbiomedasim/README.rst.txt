@@ -22,9 +22,12 @@ bioconductor-microbiomedasim
 
    |downloads_bioconductor-microbiomedasim| |docker_bioconductor-microbiomedasim|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-0
    
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-metagenomeseq: >=1.30.0,<1.31.0
+   :depends bioconductor-phyloseq: >=1.32.0,<1.33.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-ggplot2: 
    :depends r-mass: 
    :depends r-matrix: 

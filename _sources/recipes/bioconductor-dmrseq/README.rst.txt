@@ -22,20 +22,20 @@ bioconductor-dmrseq
 
    |downloads_bioconductor-dmrseq| |docker_bioconductor-dmrseq|
 
-   :versions: 1.6.0-0, 1.4.9-0, 1.2.1-0
+   :versions: 1.8.0-0, 1.6.0-0, 1.4.9-0, 1.2.1-0
    
-   :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
-   :depends bioconductor-annotatr: >=1.12.0,<1.13.0
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-bsseq: >=1.22.0,<1.23.0
-   :depends bioconductor-bumphunter: >=1.28.0,<1.29.0
-   :depends bioconductor-delayedmatrixstats: >=1.8.0,<1.9.0
-   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-rtracklayer: >=1.46.0,<1.47.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
+   :depends bioconductor-annotatr: >=1.14.0,<1.15.0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-bsseq: >=1.24.0,<1.25.0
+   :depends bioconductor-bumphunter: >=1.30.0,<1.31.0
+   :depends bioconductor-delayedmatrixstats: >=1.10.0,<1.11.0
+   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
+   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-ggplot2: 
    :depends r-locfit: 
    :depends r-matrixstats: 

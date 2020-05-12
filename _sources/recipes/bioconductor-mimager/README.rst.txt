@@ -22,17 +22,17 @@ bioconductor-mimager
 
    |downloads_bioconductor-mimager| |docker_bioconductor-mimager|
 
-   :versions: 1.10.0-0, 1.8.0-1, 1.6.0-0
+   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.6.0-0
    
-   :depends bioconductor-affy: >=1.64.0,<1.65.0
-   :depends bioconductor-affyplm: >=1.62.0,<1.63.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-oligo: >=1.50.0,<1.51.0
-   :depends bioconductor-oligoclasses: >=1.48.0,<1.49.0
-   :depends bioconductor-preprocesscore: >=1.48.0,<1.49.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-affy: >=1.66.0,<1.67.0
+   :depends bioconductor-affyplm: >=1.64.0,<1.65.0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-oligo: >=1.52.0,<1.53.0
+   :depends bioconductor-oligoclasses: >=1.50.0,<1.51.0
+   :depends bioconductor-preprocesscore: >=1.50.0,<1.51.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-dbi: 
    :depends r-gtable: 
    :depends r-scales: 

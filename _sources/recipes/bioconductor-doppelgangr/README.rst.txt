@@ -23,14 +23,14 @@ bioconductor-doppelgangr
 
    |downloads_bioconductor-doppelgangr| |docker_bioconductor-doppelgangr|
 
-   :versions: 1.14.0-0, 1.12.0-1, 1.10.1-0, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.1-0
+   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.10.1-0, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.1-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-impute: >=1.60.0,<1.61.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends bioconductor-sva: >=3.34.0,<3.35.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-impute: >=1.62.0,<1.63.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends bioconductor-sva: >=3.36.0,<3.37.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-digest: 
    :depends r-mnormt: 
    :requirements:

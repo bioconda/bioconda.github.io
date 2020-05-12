@@ -22,7 +22,7 @@ igphyml
 
    |downloads_igphyml| |docker_igphyml|
 
-   :versions: 1.1.0-1, 1.1.0-0
+   :versions: 1.1.1-0, 1.1.0-1, 1.1.0-0
    
    :depends changeo: >=0.4.6
    :depends libgcc-ng: >=7.3.0

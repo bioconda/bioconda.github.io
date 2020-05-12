@@ -22,17 +22,19 @@ bioconductor-gopro
 
    |downloads_bioconductor-gopro| |docker_bioconductor-gopro|
 
-   :versions: 1.12.0-0, 1.10.0-1, 1.8.0-0
+   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.8.0-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-go.db: >=3.10.0,<3.11.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-multiassayexperiment: >=1.12.0,<1.13.0
-   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-go.db: >=3.11.0,<3.12.0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-multiassayexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends libblas: >=3.8.0,<4.0a0
    :depends libgcc-ng: >=7.3.0
+   :depends liblapack: >=3.8.0,<3.9.0a0
    :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-bh: 
    :depends r-dendextend: 
    :depends r-doparallel: 

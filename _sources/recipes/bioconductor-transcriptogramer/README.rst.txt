@@ -22,14 +22,14 @@ bioconductor-transcriptogramer
 
    |downloads_bioconductor-transcriptogramer| |docker_bioconductor-transcriptogramer|
 
-   :versions: 1.8.0-0, 1.6.0-1, 1.4.1-0
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.1-0
    
-   :depends bioconductor-biomart: >=2.42.0,<2.43.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-reder: >=1.34.0,<1.35.0
-   :depends bioconductor-topgo: >=2.37.0,<2.38.0
+   :depends bioconductor-biomart: >=2.44.0,<2.45.0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends bioconductor-reder: >=1.36.0,<1.37.0
+   :depends bioconductor-topgo: >=2.40.0,<2.41.0
    :depends openjdk: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-data.table: 
    :depends r-dosnow: 
    :depends r-foreach: 

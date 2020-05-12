@@ -22,13 +22,13 @@ bioconductor-glmsparsenet
 
    |downloads_bioconductor-glmsparsenet| |docker_bioconductor-glmsparsenet|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-0
+   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-0, 1.0.0-0
    
-   :depends bioconductor-biomart: >=2.42.0,<2.43.0
-   :depends bioconductor-multiassayexperiment: >=1.12.0,<1.13.0
-   :depends bioconductor-stringdb: >=1.26.0,<1.27.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biomart: >=2.44.0,<2.45.0
+   :depends bioconductor-multiassayexperiment: >=1.14.0,<1.15.0
+   :depends bioconductor-stringdb: >=2.0.0,<2.1.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-dplyr: 
    :depends r-forcats: 
    :depends r-futile.logger: 

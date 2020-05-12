@@ -32,8 +32,9 @@ bioconductor-xde
    :depends bioconductor-mergemaid: >=2.59.0,<2.60.0
    :depends bioconductor-siggenes: >=1.62.0,<1.63.0
    :depends libblas: >=3.8.0,<4.0a0
-   :depends libcxx: >=9.0.1
+   :depends libgcc-ng: >=7.3.0
    :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=4.0,<4.1.0a0
    :depends r-gtools: 
    :depends r-mvtnorm: 

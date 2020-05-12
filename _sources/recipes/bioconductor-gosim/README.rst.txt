@@ -22,18 +22,20 @@ bioconductor-gosim
 
    |downloads_bioconductor-gosim| |docker_bioconductor-gosim|
 
-   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-0
+   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.0-0
    
-   :depends bioconductor-annotate: >=1.64.0,<1.65.0
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-go.db: >=3.10.0,<3.11.0
-   :depends bioconductor-graph: >=1.64.0,<1.65.0
-   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
-   :depends bioconductor-rbgl: >=1.62.0,<1.63.0
-   :depends bioconductor-topgo: >=2.37.0,<2.38.0
+   :depends bioconductor-annotate: >=1.66.0,<1.67.0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-go.db: >=3.11.0,<3.12.0
+   :depends bioconductor-graph: >=1.66.0,<1.67.0
+   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
+   :depends bioconductor-rbgl: >=1.64.0,<1.65.0
+   :depends bioconductor-topgo: >=2.40.0,<2.41.0
+   :depends libblas: >=3.8.0,<4.0a0
    :depends libgcc-ng: >=7.3.0
+   :depends liblapack: >=3.8.0,<3.9.0a0
    :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-cluster: 
    :depends r-corpcor: 
    :depends r-flexmix: 

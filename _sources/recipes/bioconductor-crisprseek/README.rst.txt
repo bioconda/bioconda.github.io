@@ -23,15 +23,15 @@ bioconductor-crisprseek
 
    |downloads_bioconductor-crisprseek| |docker_bioconductor-crisprseek|
 
-   :versions: 1.26.0-0, 1.24.0-1, 1.22.0-0, 1.20.0-0, 1.18.0-0
+   :versions: 1.28.0-0, 1.26.0-0, 1.24.0-1, 1.22.0-0, 1.20.0-0, 1.18.0-0
    
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
-   :depends bioconductor-bsgenome: >=1.54.0,<1.55.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
+   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-data.table: 
    :depends r-hash: 
    :depends r-seqinr: 

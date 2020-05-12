@@ -22,15 +22,15 @@ bioconductor-pd.x.laevis.2
 
    |downloads_bioconductor-pd.x.laevis.2| |docker_bioconductor-pd.x.laevis.2|
 
-   :versions: 3.12.0-3, 3.12.0-2, 3.12.0-0
+   :versions: 3.12.0-4, 3.12.0-3, 3.12.0-2, 3.12.0-0
    
-   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-oligo: >=1.50.0,<1.51.0
-   :depends bioconductor-oligoclasses: >=1.48.0,<1.49.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-oligo: >=1.52.0,<1.53.0
+   :depends bioconductor-oligoclasses: >=1.50.0,<1.51.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-dbi: >=0.3.1
    :depends r-rsqlite: >=1.0.0
    :requirements:

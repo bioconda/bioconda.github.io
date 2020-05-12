@@ -23,15 +23,15 @@ bioconductor-motifrg
 
    |downloads_bioconductor-motifrg| |docker_bioconductor-motifrg|
 
-   :versions: 1.30.0-0, 1.28.0-1, 1.26.0-0, 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.14.0-0
+   :versions: 1.31.0-0, 1.30.0-0, 1.28.0-1, 1.26.0-0, 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.14.0-0
    
-   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
-   :depends bioconductor-bsgenome: >=1.54.0,<1.55.0
+   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
+   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: >=1.4.0,<1.5.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-seqlogo: >=1.52.0,<1.53.0
-   :depends bioconductor-xvector: >=0.26.0,<0.27.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-seqlogo: >=1.54.0,<1.55.0
+   :depends bioconductor-xvector: >=0.28.0,<0.29.0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

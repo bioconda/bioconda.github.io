@@ -22,16 +22,16 @@ bioconductor-greylistchip
 
    |downloads_bioconductor-greylistchip| |docker_bioconductor-greylistchip|
 
-   :versions: 1.18.0-0, 1.16.0-1, 1.14.0-0
+   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-1, 1.14.0-0
    
-   :depends bioconductor-bsgenome: >=1.54.0,<1.55.0
-   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicalignments: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
-   :depends bioconductor-rtracklayer: >=1.46.0,<1.47.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
+   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
+   :depends bioconductor-genomicalignments: >=1.24.0,<1.25.0
+   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
+   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
+   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-mass: 
    :requirements:
 

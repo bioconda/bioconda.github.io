@@ -22,14 +22,14 @@ bioconductor-adductomicsr
 
    |downloads_bioconductor-adductomicsr| |docker_bioconductor-adductomicsr|
 
-   :versions: 1.2.0-1, 1.0.0-1
+   :versions: 1.4.0-0, 1.2.0-1, 1.0.0-1
    
-   :depends bioconductor-adductdata: >=1.2.0,<1.3.0
-   :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
-   :depends bioconductor-mzr: >=2.20.0,<2.21.0
+   :depends bioconductor-adductdata: >=1.4.0,<1.5.0
+   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
+   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
+   :depends bioconductor-mzr: >=2.22.0,<2.23.0
    :depends r-ade4: >=1.7.6
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-bootstrap: >=2017.2
    :depends r-data.table: >=1.10.4
    :depends r-dosnow: >=1.0.14

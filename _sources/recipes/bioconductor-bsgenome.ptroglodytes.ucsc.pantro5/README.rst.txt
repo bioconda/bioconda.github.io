@@ -22,11 +22,11 @@ bioconductor-bsgenome.ptroglodytes.ucsc.pantro5
 
    |downloads_bioconductor-bsgenome.ptroglodytes.ucsc.pantro5| |docker_bioconductor-bsgenome.ptroglodytes.ucsc.pantro5|
 
-   :versions: 1.4.2-4, 1.4.2-3, 1.4.2-0
+   :versions: 1.4.2-5, 1.4.2-4, 1.4.2-3, 1.4.2-0
    
-   :depends bioconductor-bsgenome: >=1.54.0,<1.55.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

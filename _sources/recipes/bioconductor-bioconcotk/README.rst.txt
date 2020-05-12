@@ -22,18 +22,18 @@ bioconductor-bioconcotk
 
    |downloads_bioconductor-bioconcotk| |docker_bioconductor-bioconcotk|
 
-   :versions: 1.6.0-1, 1.4.0-1, 1.2.0-0
+   :versions: 1.8.0-0, 1.6.0-1, 1.4.0-1, 1.2.0-0
    
-   :depends bioconductor-complexheatmap: >=2.2.0,<2.3.0
-   :depends bioconductor-curatedtcgadata: >=1.8.0,<1.9.0
-   :depends bioconductor-genomicfeatures: >=1.38.0,<1.39.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-graph: >=1.64.0,<1.65.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-rgraphviz: >=2.30.0,<2.31.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-complexheatmap: >=2.4.0,<2.5.0
+   :depends bioconductor-curatedtcgadata: >=1.10.0,<1.11.0
+   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
+   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
+   :depends bioconductor-graph: >=1.66.0,<1.67.0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-rgraphviz: >=2.32.0,<2.33.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-bigrquery: 
    :depends r-car: 
    :depends r-dbi: 

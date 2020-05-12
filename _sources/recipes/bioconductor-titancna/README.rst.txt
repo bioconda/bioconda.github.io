@@ -31,6 +31,7 @@ bioconductor-titancna
    :depends bioconductor-iranges: >=2.22.0,<2.23.0
    :depends bioconductor-variantannotation: >=1.34.0,<1.35.0
    :depends libblas: >=3.8.0,<4.0a0
+   :depends libgcc-ng: >=7.3.0
    :depends liblapack: >=3.8.0,<3.9.0a0
    :depends r-base: >=4.0,<4.1.0a0
    :depends r-data.table: >=1.10.4

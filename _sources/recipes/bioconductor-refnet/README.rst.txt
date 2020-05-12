@@ -23,13 +23,13 @@ bioconductor-refnet
 
    |downloads_bioconductor-refnet| |docker_bioconductor-refnet|
 
-   :versions: 1.22.0-0, 1.20.0-1, 1.18.0-0, 1.16.0-0, 1.14.0-0, 1.12.0-0
+   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.18.0-0, 1.16.0-0, 1.14.0-0, 1.12.0-0
    
-   :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-psicquic: >=1.24.0,<1.25.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-psicquic: >=1.25.0,<1.26.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-rcurl: 
    :depends r-shiny: 
    :requirements:

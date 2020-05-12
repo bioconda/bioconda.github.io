@@ -22,14 +22,14 @@ bioconductor-daglogo
 
    |downloads_bioconductor-daglogo| |docker_bioconductor-daglogo|
 
-   :versions: 1.24.0-0, 1.22.2-0, 1.20.0-0
+   :versions: 1.26.0-0, 1.24.0-0, 1.22.2-0, 1.20.0-0
    
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-biomart: >=2.42.0,<2.43.0
-   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
-   :depends bioconductor-motifstack: >=1.30.0,<1.31.0
-   :depends bioconductor-uniprot.ws: >=2.26.0,<2.27.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-biomart: >=2.44.0,<2.45.0
+   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
+   :depends bioconductor-motifstack: >=1.32.0,<1.33.0
+   :depends bioconductor-uniprot.ws: >=2.28.0,<2.29.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-grimport2: 
    :depends r-pheatmap: 
    :requirements:

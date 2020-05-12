@@ -22,12 +22,12 @@ bioconductor-txdb.hsapiens.biomart.igis
 
    |downloads_bioconductor-txdb.hsapiens.biomart.igis| |docker_bioconductor-txdb.hsapiens.biomart.igis|
 
-   :versions: 2.3.2-4, 2.3.2-3, 2.3.2-1, 2.3.2-0
+   :versions: 2.3.2-5, 2.3.2-4, 2.3.2-3, 2.3.2-1, 2.3.2-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-genomicfeatures: >=1.38.0,<1.39.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

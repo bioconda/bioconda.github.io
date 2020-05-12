@@ -23,16 +23,17 @@ bioconductor-bgeedb
 
    |downloads_bioconductor-bgeedb| |docker_bioconductor-bgeedb|
 
-   :versions: 2.12.0-0, 2.10.0-1, 2.8.0-0, 2.6.2-0, 2.4.0-0, 2.2.0-0
+   :versions: 2.14.0-0, 2.12.0-0, 2.10.0-1, 2.8.0-0, 2.6.2-0, 2.4.0-0, 2.2.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-graph: >=1.64.0,<1.65.0
-   :depends bioconductor-topgo: >=2.37.0,<2.38.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-graph: >=1.66.0,<1.67.0
+   :depends bioconductor-topgo: >=2.40.0,<2.41.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-data.table: 
    :depends r-digest: 
    :depends r-dplyr: 
    :depends r-rcurl: 
+   :depends r-rsqlite: 
    :depends r-tidyr: 
    :requirements:
 

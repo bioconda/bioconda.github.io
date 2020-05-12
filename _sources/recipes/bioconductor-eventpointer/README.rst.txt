@@ -22,25 +22,25 @@ bioconductor-eventpointer
 
    |downloads_bioconductor-eventpointer| |docker_bioconductor-eventpointer|
 
-   :versions: 2.4.0-0, 2.2.4-0, 2.0.1-0
+   :versions: 2.6.0-0, 2.4.0-0, 2.2.4-0, 2.0.1-0
    
-   :depends bioconductor-affxparser: >=1.58.0,<1.59.0
-   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
-   :depends bioconductor-bsgenome: >=1.54.0,<1.55.0
+   :depends bioconductor-affxparser: >=1.60.0,<1.61.0
+   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
+   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: >=1.4.0,<1.5.0
-   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicfeatures: >=1.38.0,<1.39.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-graph: >=1.64.0,<1.65.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-qvalue: >=2.18.0,<2.19.0
-   :depends bioconductor-rbgl: >=1.62.0,<1.63.0
-   :depends bioconductor-rhdf5: >=2.30.0,<2.31.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends bioconductor-sgseq: >=1.20.0,<1.21.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
+   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
+   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
+   :depends bioconductor-graph: >=1.66.0,<1.67.0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
+   :depends bioconductor-rbgl: >=1.64.0,<1.65.0
+   :depends bioconductor-rhdf5: >=2.32.0,<2.33.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends bioconductor-sgseq: >=1.22.0,<1.23.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-cobs: 
    :depends r-doparallel: 
    :depends r-foreach: 

@@ -22,12 +22,12 @@ bioconductor-gramm4r
 
    |downloads_bioconductor-gramm4r| |docker_bioconductor-gramm4r|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-0
    
-   :depends bioconductor-delayedarray: >=0.12.0,<0.13.0
-   :depends bioconductor-phyloseq: >=1.30.0,<1.31.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-delayedarray: >=0.14.0,<0.15.0
+   :depends bioconductor-phyloseq: >=1.32.0,<1.33.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-basictrendline: 
    :depends r-dmwr: 
    :depends r-investr: 

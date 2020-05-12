@@ -22,15 +22,15 @@ bioconductor-viseago
 
    |downloads_bioconductor-viseago| |docker_bioconductor-viseago|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-annotationforge: >=1.28.0,<1.29.0
-   :depends bioconductor-biomart: >=2.42.0,<2.43.0
-   :depends bioconductor-go.db: >=3.10.0,<3.11.0
-   :depends bioconductor-gosemsim: >=2.12.0,<2.13.0
-   :depends bioconductor-topgo: >=2.37.0,<2.38.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-annotationforge: >=1.30.0,<1.31.0
+   :depends bioconductor-biomart: >=2.44.0,<2.45.0
+   :depends bioconductor-go.db: >=3.11.0,<3.12.0
+   :depends bioconductor-gosemsim: >=2.14.0,<2.15.0
+   :depends bioconductor-topgo: >=2.40.0,<2.41.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-data.table: 
    :depends r-dendextend: 
    :depends r-diagrammer: 

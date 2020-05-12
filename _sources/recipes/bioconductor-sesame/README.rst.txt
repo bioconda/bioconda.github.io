@@ -22,21 +22,22 @@ bioconductor-sesame
 
    |downloads_bioconductor-sesame| |docker_bioconductor-sesame|
 
-   :versions: 1.4.0-1, 1.2.0-1, 1.0.0-0
+   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-1, 1.0.0-0
    
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-dnacopy: >=1.60.0,<1.61.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-illuminaio: >=0.28.0,<0.29.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-preprocesscore: >=1.48.0,<1.49.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends bioconductor-sesamedata: >=1.4.0,<1.5.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-dnacopy: >=1.62.0,<1.63.0
+   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
+   :depends bioconductor-hdf5array: >=1.16.0,<1.17.0
+   :depends bioconductor-illuminaio: >=0.30.0,<0.31.0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-preprocesscore: >=1.50.0,<1.51.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends bioconductor-sesamedata: >=1.6.0,<1.7.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-ggplot2: 
    :depends r-mass: 
    :depends r-matrixstats: 
-   :depends r-r6: 
    :depends r-randomforest: 
    :depends r-wheatmap: 
    :requirements:

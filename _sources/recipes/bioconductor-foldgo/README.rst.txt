@@ -22,10 +22,10 @@ bioconductor-foldgo
 
    |downloads_bioconductor-foldgo| |docker_bioconductor-foldgo|
 
-   :versions: 1.4.0-0, 1.2.3-0, 1.0.1-0
+   :versions: 1.6.0-0, 1.4.0-0, 1.2.3-0, 1.0.1-0
    
-   :depends bioconductor-topgo: >=2.37.0,<2.38.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-topgo: >=2.40.0,<2.41.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-ggplot2: >=2.2.1
    :depends r-tidyr: >=0.8.0
    :requirements:

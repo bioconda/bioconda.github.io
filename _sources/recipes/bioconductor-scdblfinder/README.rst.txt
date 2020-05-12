@@ -22,14 +22,17 @@ bioconductor-scdblfinder
 
    |downloads_bioconductor-scdblfinder| |docker_bioconductor-scdblfinder|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-0
    
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-scater: >=1.14.0,<1.15.0
-   :depends bioconductor-scran: >=1.14.0,<1.15.0
-   :depends bioconductor-singlecellexperiment: >=1.8.0,<1.9.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocneighbors: >=1.6.0,<1.7.0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-biocsingular: >=1.4.0,<1.5.0
+   :depends bioconductor-delayedarray: >=0.14.0,<0.15.0
+   :depends bioconductor-scater: >=1.16.0,<1.17.0
+   :depends bioconductor-scran: >=1.16.0,<1.17.0
+   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggplot2: 

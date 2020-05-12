@@ -22,13 +22,13 @@ bioconductor-pumadata
 
    |downloads_bioconductor-pumadata| |docker_bioconductor-pumadata|
 
-   :versions: 2.22.0-0, 2.20.0-1, 2.18.0-0
+   :versions: 2.24.0-0, 2.22.0-0, 2.20.0-1, 2.18.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-oligo: >=1.50.0,<1.51.0
-   :depends bioconductor-puma: >=3.28.0,<3.29.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-oligo: >=1.52.0,<1.53.0
+   :depends bioconductor-puma: >=3.30.0,<3.31.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

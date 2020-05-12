@@ -22,20 +22,21 @@ bioconductor-ngsreports
 
    |downloads_bioconductor-ngsreports| |docker_bioconductor-ngsreports|
 
-   :versions: 1.2.0-0, 1.0.0-1
+   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
-   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
-   :depends bioconductor-shortread: >=1.44.0,<1.45.0
-   :depends bioconductor-xvector: >=0.26.0,<0.27.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
+   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
+   :depends bioconductor-shortread: >=1.46.0,<1.47.0
+   :depends bioconductor-xvector: >=0.28.0,<0.29.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-checkmate: 
    :depends r-dplyr: >=0.8.0
+   :depends r-dt: 
    :depends r-factominer: 
+   :depends r-forcats: 
    :depends r-ggdendro: 
    :depends r-ggplot2: 
-   :depends r-kableextra: 
    :depends r-lubridate: 
    :depends r-pander: 
    :depends r-plotly: 

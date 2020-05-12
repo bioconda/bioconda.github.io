@@ -23,14 +23,14 @@ bioconductor-topgo
 
    |downloads_bioconductor-topgo| |docker_bioconductor-topgo|
 
-   :versions: 2.37.0-0, 2.36.0-1, 2.34.0-0, 2.32.0-0, 2.30.0-0, 2.28.0-0, 2.24.0-1, 2.22.0-0
+   :versions: 2.40.0-0, 2.37.0-0, 2.36.0-1, 2.34.0-0, 2.32.0-0, 2.30.0-0, 2.28.0-0, 2.24.0-1, 2.22.0-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-go.db: >=3.10.0,<3.11.0
-   :depends bioconductor-graph: >=1.64.0,<1.65.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-go.db: >=3.11.0,<3.12.0
+   :depends bioconductor-graph: >=1.66.0,<1.67.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-dbi: 
    :depends r-lattice: 
    :depends r-matrixstats: 

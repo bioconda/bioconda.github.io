@@ -23,11 +23,11 @@ bioconductor-idiogram
 
    |downloads_bioconductor-idiogram| |docker_bioconductor-idiogram|
 
-   :versions: 1.62.0-0, 1.60.0-1, 1.58.0-0, 1.56.0-0, 1.52.0-0
+   :versions: 1.64.0-0, 1.62.0-0, 1.60.0-1, 1.58.0-0, 1.56.0-0, 1.52.0-0
    
-   :depends bioconductor-annotate: >=1.64.0,<1.65.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotate: >=1.66.0,<1.67.0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-plotrix: 
    :requirements:
 

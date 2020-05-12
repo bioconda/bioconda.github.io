@@ -22,10 +22,10 @@ bioconductor-linkhd
 
    |downloads_bioconductor-linkhd| |docker_bioconductor-linkhd|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-0
    
-   :depends bioconductor-multiassayexperiment: >=1.12.0,<1.13.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-multiassayexperiment: >=1.14.0,<1.15.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-cluster: 
    :depends r-data.table: 
    :depends r-emmeans: 
