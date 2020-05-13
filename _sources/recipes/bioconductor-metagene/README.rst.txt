@@ -22,20 +22,20 @@ bioconductor-metagene
 
    |downloads_bioconductor-metagene| |docker_bioconductor-metagene|
 
-   :versions: 2.18.0-0, 2.16.0-1, 2.14.0-0
+   :versions: 2.20.0-0, 2.18.0-0, 2.16.0-1, 2.14.0-0
    
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-dbchip: >=1.30.0,<1.31.0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-dbchip: >=1.32.0,<1.33.0
    :depends bioconductor-ensdb.hsapiens.v86: >=2.99.0,<2.100.0
-   :depends bioconductor-ensembldb: >=2.10.0,<2.11.0
-   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicalignments: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicfeatures: >=1.38.0,<1.39.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
-   :depends bioconductor-rtracklayer: >=1.46.0,<1.47.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-ensembldb: >=2.12.0,<2.13.0
+   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
+   :depends bioconductor-genomicalignments: >=1.24.0,<1.25.0
+   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
+   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
+   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-data.table: 
    :depends r-ggplot2: 
    :depends r-gplots: 

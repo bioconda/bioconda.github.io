@@ -22,7 +22,7 @@ primedlamp
 
    |downloads_primedlamp| |docker_primedlamp|
 
-   :versions: 1.0.0-0
+   :versions: 1.0.1-0, 1.0.0-0
    
    :depends blast: 
    :depends clustalo: 

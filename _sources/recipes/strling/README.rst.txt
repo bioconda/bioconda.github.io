@@ -22,7 +22,7 @@ strling
 
    |downloads_strling| |docker_strling|
 
-   :versions: 0.1.0-0
+   :versions: 0.2.1-0, 0.1.0-0
    
    :depends htslib: 1.10.*
    :depends libgcc-ng: >=7.3.0

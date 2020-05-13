@@ -23,24 +23,24 @@ bioconductor-tvtb
 
    |downloads_bioconductor-tvtb| |docker_bioconductor-tvtb|
 
-   :versions: 1.12.0-0, 1.10.0-1, 1.8.0-0, 1.6.0-0, 1.4.0-0
+   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.8.0-0, 1.6.0-0, 1.4.0-0
    
-   :depends bioconductor-annotationfilter: >=1.10.0,<1.11.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
-   :depends bioconductor-ensembldb: >=2.10.0,<2.11.0
-   :depends bioconductor-ensemblvep: >=1.28.0,<1.29.0
-   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-gviz: >=1.30.0,<1.31.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends bioconductor-variantannotation: >=1.32.0,<1.33.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotationfilter: >=1.12.0,<1.13.0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
+   :depends bioconductor-ensembldb: >=2.12.0,<2.13.0
+   :depends bioconductor-ensemblvep: >=1.30.0,<1.31.0
+   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
+   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
+   :depends bioconductor-gviz: >=1.32.0,<1.33.0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends bioconductor-variantannotation: >=1.34.0,<1.35.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-ggally: 
    :depends r-ggplot2: 
    :depends r-reshape2: 

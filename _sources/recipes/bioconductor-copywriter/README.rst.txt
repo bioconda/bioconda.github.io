@@ -23,19 +23,19 @@ bioconductor-copywriter
 
    |downloads_bioconductor-copywriter| |docker_bioconductor-copywriter|
 
-   :versions: 2.18.0-1, 2.16.0-1, 2.14.0-0, 2.12.0-0, 2.10.0-0
+   :versions: 2.20.0-0, 2.18.0-1, 2.16.0-1, 2.14.0-0, 2.12.0-0, 2.10.0-0
    
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-chipseq: >=1.36.0,<1.37.0
-   :depends bioconductor-copyhelper: >=1.18.0,<1.19.0
-   :depends bioconductor-dnacopy: >=1.60.0,<1.61.0
-   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicalignments: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-chipseq: >=1.38.0,<1.39.0
+   :depends bioconductor-copyhelper: >=1.20.0,<1.21.0
+   :depends bioconductor-dnacopy: >=1.62.0,<1.63.0
+   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
+   :depends bioconductor-genomicalignments: >=1.24.0,<1.25.0
+   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-data.table: 
    :depends r-futile.logger: 
    :depends r-gtools: 

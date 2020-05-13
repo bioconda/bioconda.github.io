@@ -22,12 +22,12 @@ bioconductor-samexplorer
 
    |downloads_bioconductor-samexplorer| |docker_bioconductor-samexplorer|
 
-   :versions: 1.10.0-1, 1.8.0-1, 1.8.0-0, 1.6.1-0, 1.6.0-0
+   :versions: 1.12.0-0, 1.10.0-1, 1.8.0-1, 1.8.0-0, 1.6.1-0, 1.6.0-0
    
-   :depends bioconductor-edger: >=3.28.0,<3.29.0
-   :depends bioconductor-rnaseqdata.hnrnpc.bam.chr14: >=0.24.0,<0.25.0
-   :depends bioconductor-rsubread: >=2.0.0,<2.1.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-edger: >=3.30.0,<3.31.0
+   :depends bioconductor-rnaseqdata.hnrnpc.bam.chr14: >=0.26.0,<0.27.0
+   :depends bioconductor-rsubread: >=2.2.0,<2.3.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-ggplot2: 
    :requirements:
 

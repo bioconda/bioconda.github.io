@@ -25,7 +25,7 @@ genome_updater
 
    |downloads_genome_updater| |docker_genome_updater|
 
-   :versions: 0.2.1-0, 0.2.0-0
+   :versions: 0.2.2-0, 0.2.1-0, 0.2.0-0
    
    :depends bc: 
    :depends coreutils: 

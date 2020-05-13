@@ -23,12 +23,12 @@ bioconductor-simbindprofiles
 
    |downloads_bioconductor-simbindprofiles| |docker_bioconductor-simbindprofiles|
 
-   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-ringo: >=1.50.0,<1.51.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends bioconductor-ringo: >=1.52.0,<1.53.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-mclust: 
    :requirements:
 

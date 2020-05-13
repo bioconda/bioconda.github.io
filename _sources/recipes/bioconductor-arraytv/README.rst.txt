@@ -22,13 +22,13 @@ bioconductor-arraytv
 
    |downloads_bioconductor-arraytv| |docker_bioconductor-arraytv|
 
-   :versions: 1.24.0-0, 1.22.0-1, 1.20.0-0
+   :versions: 1.25.0-0, 1.24.0-0, 1.22.0-1, 1.20.0-0
    
-   :depends bioconductor-dnacopy: >=1.60.0,<1.61.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-oligoclasses: >=1.48.0,<1.49.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-dnacopy: >=1.62.0,<1.63.0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-oligoclasses: >=1.50.0,<1.51.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-foreach: 
    :requirements:
 

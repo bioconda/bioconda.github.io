@@ -22,13 +22,13 @@ bioconductor-fcoex
 
    |downloads_bioconductor-fcoex| |docker_bioconductor-fcoex|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-0
    
-   :depends bioconductor-clusterprofiler: >=3.14.0,<3.15.0
-   :depends bioconductor-fcbf: >=1.4.0,<1.5.0
-   :depends bioconductor-pathwaypca: >=1.2.0,<1.3.0
-   :depends bioconductor-singlecellexperiment: >=1.8.0,<1.9.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-clusterprofiler: >=3.16.0,<3.17.0
+   :depends bioconductor-fcbf: >=1.6.0,<1.7.0
+   :depends bioconductor-pathwaypca: >=1.4.0,<1.5.0
+   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggplot2: 

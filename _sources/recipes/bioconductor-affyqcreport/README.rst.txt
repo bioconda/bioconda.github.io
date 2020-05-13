@@ -22,14 +22,14 @@ bioconductor-affyqcreport
 
    |downloads_bioconductor-affyqcreport| |docker_bioconductor-affyqcreport|
 
-   :versions: 1.64.0-0, 1.62.0-1, 1.60.0-0
+   :versions: 1.66.0-0, 1.64.0-0, 1.62.0-1, 1.60.0-0
    
-   :depends bioconductor-affy: >=1.64.0,<1.65.0
-   :depends bioconductor-affyplm: >=1.62.0,<1.63.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-genefilter: >=1.68.0,<1.69.0
-   :depends bioconductor-simpleaffy: >=2.62.0,<2.63.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-affy: >=1.66.0,<1.67.0
+   :depends bioconductor-affyplm: >=1.64.0,<1.65.0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-genefilter: >=1.70.0,<1.71.0
+   :depends bioconductor-simpleaffy: >=2.64.0,<2.65.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-lattice: 
    :depends r-rcolorbrewer: 
    :depends r-xtable: 

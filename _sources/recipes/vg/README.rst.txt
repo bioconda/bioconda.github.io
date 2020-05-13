@@ -22,7 +22,7 @@ vg
 
    |downloads_vg| |docker_vg|
 
-   :versions: 1.23.0-0
+   :versions: 1.24.0-0, 1.23.0-0
    
    :requirements:
 

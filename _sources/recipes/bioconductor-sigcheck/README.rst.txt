@@ -22,12 +22,12 @@ bioconductor-sigcheck
 
    |downloads_bioconductor-sigcheck| |docker_bioconductor-sigcheck|
 
-   :versions: 2.18.0-0, 2.16.0-1, 2.14.0-0
+   :versions: 2.20.0-0, 2.18.0-0, 2.16.0-1, 2.14.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-mlinterfaces: >=1.66.0,<1.67.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-mlinterfaces: >=1.68.0,<1.69.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-e1071: 
    :depends r-survival: 
    :requirements:

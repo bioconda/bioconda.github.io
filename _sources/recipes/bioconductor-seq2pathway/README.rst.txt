@@ -23,12 +23,12 @@ bioconductor-seq2pathway
 
    |downloads_bioconductor-seq2pathway| |docker_bioconductor-seq2pathway|
 
-   :versions: 1.18.0-1, 1.16.0-1, 1.14.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions: 1.20.0-0, 1.18.0-1, 1.16.0-1, 1.14.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0
    
-   :depends bioconductor-biomart: >=2.42.0,<2.43.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-seq2pathway.data: >=1.18.0,<1.19.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biomart: >=2.44.0,<2.45.0
+   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
+   :depends bioconductor-seq2pathway.data: >=1.20.0,<1.21.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-gsa: 
    :depends r-nnet: 
    :depends r-wgcna: 

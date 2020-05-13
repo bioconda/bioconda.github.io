@@ -22,11 +22,11 @@ bioconductor-adamgui
 
    |downloads_bioconductor-adamgui| |docker_bioconductor-adamgui|
 
-   :versions: 1.2.0-0, 1.0.0-1
+   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-adam: >=1.2.0,<1.3.0
-   :depends bioconductor-go.db: >=3.10.0,<3.11.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-adam: >=1.4.0,<1.5.0
+   :depends bioconductor-go.db: >=3.11.0,<3.12.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-colorramps: >=2.3
    :depends r-data.table: >=1.11.4
    :depends r-dplyr: >=0.7.6

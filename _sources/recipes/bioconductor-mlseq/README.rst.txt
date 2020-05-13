@@ -23,15 +23,15 @@ bioconductor-mlseq
 
    |downloads_bioconductor-mlseq| |docker_bioconductor-mlseq|
 
-   :versions: 2.4.0-0, 2.2.1-1, 2.0.0-0, 1.20.3-0, 1.18.0-0
+   :versions: 2.6.0-0, 2.4.0-0, 2.2.1-1, 2.0.0-0, 1.20.3-0, 1.18.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-deseq2: >=1.26.0,<1.27.0
-   :depends bioconductor-edger: >=3.28.0,<3.29.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-sseq: >=1.24.0,<1.25.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
+   :depends bioconductor-edger: >=3.30.0,<3.31.0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends bioconductor-sseq: >=1.26.0,<1.27.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-caret: 
    :depends r-foreach: 
    :depends r-ggplot2: 

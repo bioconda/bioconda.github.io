@@ -23,14 +23,15 @@ bioconductor-camera
 
    |downloads_bioconductor-camera| |docker_bioconductor-camera|
 
-   :versions: 1.42.0-0, 1.40.0-1, 1.38.1-0, 1.38.0-0, 1.34.0-2, 1.34.0-0, 1.32.0-0, 1.28.0-1, 1.26.0-1, 1.26.0-0, 1.22.0-1, 1.22.0-0
+   :versions: 1.44.0-0, 1.42.0-0, 1.40.0-1, 1.38.1-0, 1.38.0-0, 1.34.0-2, 1.34.0-0, 1.32.0-0, 1.28.0-1, 1.26.0-1, 1.26.0-0, 1.22.0-1, 1.22.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-graph: >=1.64.0,<1.65.0
-   :depends bioconductor-rbgl: >=1.62.0,<1.63.0
-   :depends bioconductor-xcms: >=3.8.0,<3.9.0
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-graph: >=1.66.0,<1.67.0
+   :depends bioconductor-rbgl: >=1.64.0,<1.65.0
+   :depends bioconductor-xcms: >=3.10.0,<3.11.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-hmisc: 
    :depends r-igraph: 
    :requirements:

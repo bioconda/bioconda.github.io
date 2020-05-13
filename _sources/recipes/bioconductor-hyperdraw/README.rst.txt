@@ -23,13 +23,13 @@ bioconductor-hyperdraw
 
    |downloads_bioconductor-hyperdraw| |docker_bioconductor-hyperdraw|
 
-   :versions: 1.38.0-0, 1.36.0-1, 1.34.0-0, 1.32.0-0, 1.30.0-0
+   :versions: 1.40.0-0, 1.38.0-0, 1.36.0-1, 1.34.0-0, 1.32.0-0, 1.30.0-0
    
-   :depends bioconductor-graph: >=1.64.0,<1.65.0
-   :depends bioconductor-hypergraph: >=1.58.0,<1.59.0
-   :depends bioconductor-rgraphviz: >=2.30.0,<2.31.0
+   :depends bioconductor-graph: >=1.66.0,<1.67.0
+   :depends bioconductor-hypergraph: >=1.60.0,<1.61.0
+   :depends bioconductor-rgraphviz: >=2.32.0,<2.33.0
    :depends graphviz: >=2.40.1,<3.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -23,7 +23,7 @@ r-bcbiosinglecell
 
    |downloads_r-bcbiosinglecell| |docker_r-bcbiosinglecell|
 
-   :versions: 0.4.10-0, 0.4.9-0, 0.4.7-0, 0.4.6-0, 0.4.5-0, 0.4.4-0, 0.4.3-0
+   :versions: 0.4.11-0, 0.4.10-0, 0.4.9-0, 0.4.7-0, 0.4.6-0, 0.4.5-0, 0.4.4-0, 0.4.3-0
    
    :depends bioconductor-biocgenerics: >=0.32
    :depends bioconductor-biocparallel: >=1.20

@@ -22,11 +22,13 @@ bioconductor-netboost
 
    |downloads_bioconductor-netboost| |docker_bioconductor-netboost|
 
-   :versions: 1.2.0-0, 1.0.0-1
+   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-impute: >=1.60.0,<1.61.0
-   :depends libcxx: >=4.0.1
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-impute: >=1.62.0,<1.63.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends libcxx: >=9.0.1
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-colorspace: 
    :depends r-dynamictreecut: 
    :depends r-r.utils: 

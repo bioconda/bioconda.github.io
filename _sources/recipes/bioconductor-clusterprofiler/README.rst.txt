@@ -23,18 +23,20 @@ bioconductor-clusterprofiler
 
    |downloads_bioconductor-clusterprofiler| |docker_bioconductor-clusterprofiler|
 
-   :versions: 3.14.0-0, 3.12.0-1, 3.10.1-0, 3.8.1-0, 3.6.0-0, 3.4.4-0, 3.0.5-0, 3.0.4-1, 2.4.3-0
+   :versions: 3.16.0-0, 3.14.0-0, 3.12.0-1, 3.10.1-0, 3.8.1-0, 3.6.0-0, 3.4.4-0, 3.0.5-0, 3.0.4-1, 2.4.3-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-dose: >=3.12.0,<3.13.0
-   :depends bioconductor-enrichplot: >=1.6.0,<1.7.0
-   :depends bioconductor-go.db: >=3.10.0,<3.11.0
-   :depends bioconductor-gosemsim: >=2.12.0,<2.13.0
-   :depends bioconductor-qvalue: >=2.18.0,<2.19.0
-   :depends r-base: >=3.6,<3.7.0a0
-   :depends r-ggplot2: 
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-dose: >=3.14.0,<3.15.0
+   :depends bioconductor-enrichplot: >=1.8.0,<1.9.0
+   :depends bioconductor-go.db: >=3.11.0,<3.12.0
+   :depends bioconductor-gosemsim: >=2.14.0,<2.15.0
+   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
+   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-downloader: 
+   :depends r-dplyr: 
    :depends r-magrittr: 
    :depends r-plyr: 
+   :depends r-rlang: 
    :depends r-rvcheck: 
    :depends r-tidyr: 
    :requirements:

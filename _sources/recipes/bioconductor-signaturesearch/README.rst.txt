@@ -22,28 +22,31 @@ bioconductor-signaturesearch
 
    |downloads_bioconductor-signaturesearch| |docker_bioconductor-signaturesearch|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-clusterprofiler: >=3.14.0,<3.15.0
-   :depends bioconductor-dose: >=3.12.0,<3.13.0
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
-   :depends bioconductor-fgsea: >=1.12.0,<1.13.0
-   :depends bioconductor-gcmap: >=1.30.0,<1.31.0
-   :depends bioconductor-gseabase: >=1.48.0,<1.49.0
-   :depends bioconductor-qvalue: >=2.18.0,<2.19.0
-   :depends bioconductor-rhdf5: >=2.30.0,<2.31.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-clusterprofiler: >=3.16.0,<3.17.0
+   :depends bioconductor-delayedarray: >=0.14.0,<0.15.0
+   :depends bioconductor-dose: >=3.14.0,<3.15.0
+   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
+   :depends bioconductor-fgsea: >=1.14.0,<1.15.0
+   :depends bioconductor-gseabase: >=1.50.0,<1.51.0
+   :depends bioconductor-hdf5array: >=1.16.0,<1.17.0
+   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
+   :depends bioconductor-rhdf5: >=2.32.0,<2.33.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends libblas: >=3.8.0,<4.0a0
    :depends libgcc-ng: >=7.3.0
+   :depends liblapack: >=3.8.0,<3.9.0a0
    :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-fastmatch: 
    :depends r-ggplot2: 
    :depends r-magrittr: 
+   :depends r-matrix: 
    :depends r-rcpp: 
    :depends r-readr: 
    :depends r-reshape2: 

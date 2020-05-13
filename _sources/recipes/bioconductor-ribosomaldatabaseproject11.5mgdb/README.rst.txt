@@ -22,11 +22,11 @@ bioconductor-ribosomaldatabaseproject11.5mgdb
 
    |downloads_bioconductor-ribosomaldatabaseproject11.5mgdb| |docker_bioconductor-ribosomaldatabaseproject11.5mgdb|
 
-   :versions: 1.00.0-3, 1.00.0-2, 1.00.0-0
+   :versions: 1.00.0-4, 1.00.0-3, 1.00.0-2, 1.00.0-0
    
-   :depends bioconductor-metagenomefeatures: >=2.6.0,<2.7.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-metagenomefeatures: >=2.8.0,<2.9.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

@@ -29,6 +29,7 @@ bioconductor-tilingarray
    :depends bioconductor-genefilter: >=1.70.0,<1.71.0
    :depends bioconductor-vsn: >=3.56.0,<3.57.0
    :depends libblas: >=3.8.0,<4.0a0
+   :depends libgcc-ng: >=7.3.0
    :depends liblapack: >=3.8.0,<3.9.0a0
    :depends r-base: >=4.0,<4.1.0a0
    :depends r-pixmap: 

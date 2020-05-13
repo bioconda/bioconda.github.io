@@ -22,12 +22,12 @@ bioconductor-enrichplot
 
    |downloads_bioconductor-enrichplot| |docker_bioconductor-enrichplot|
 
-   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0, 1.0.2-0
+   :versions: 1.8.1-0, 1.6.0-0, 1.4.0-1, 1.2.0-0, 1.0.2-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-dose: >=3.12.0,<3.13.0
-   :depends bioconductor-gosemsim: >=2.12.0,<2.13.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-dose: >=3.14.0,<3.15.0
+   :depends bioconductor-gosemsim: >=2.14.0,<2.15.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-cowplot: 
    :depends r-europepmc: 
    :depends r-ggplot2: 
@@ -36,9 +36,11 @@ bioconductor-enrichplot
    :depends r-ggridges: 
    :depends r-gridextra: 
    :depends r-igraph: 
+   :depends r-plyr: 
    :depends r-purrr: 
    :depends r-rcolorbrewer: 
    :depends r-reshape2: 
+   :depends r-scatterpie: 
    :requirements:
 
    .. rubric:: Installation

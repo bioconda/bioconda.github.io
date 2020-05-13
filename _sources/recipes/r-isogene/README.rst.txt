@@ -22,11 +22,11 @@ r-isogene
 
    |downloads_r-isogene| |docker_r-isogene|
 
-   :versions: 1.0_24-1, 1.0_24-0
+   :versions: 1.0_24-2, 1.0_24-1, 1.0_24-0
    
    :depends bioconductor-affy: 
    :depends bioconductor-biobase: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-ff: >=2.0.0
    :depends r-iso: 
    :depends r-xtable: 

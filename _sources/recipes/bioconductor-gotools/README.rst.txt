@@ -23,11 +23,11 @@ bioconductor-gotools
 
    |downloads_bioconductor-gotools| |docker_bioconductor-gotools|
 
-   :versions: 1.60.0-0, 1.58.0-1, 1.56.0-0, 1.54.0-0, 1.52.0-0
+   :versions: 1.62.0-0, 1.60.0-0, 1.58.0-1, 1.56.0-0, 1.54.0-0, 1.52.0-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-go.db: >=3.10.0,<3.11.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-go.db: >=3.11.0,<3.12.0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation
