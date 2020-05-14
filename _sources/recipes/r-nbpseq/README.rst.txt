@@ -22,9 +22,10 @@ r-nbpseq
 
    |downloads_r-nbpseq| |docker_r-nbpseq|
 
-   :versions: 0.3.0-2, 0.3.0-1, 0.3.0-0
+   :versions: 0.3.0-3, 0.3.0-2, 0.3.0-1, 0.3.0-0
    
    :depends bioconductor-qvalue: 
+   :depends libgcc-ng: >=7.3.0
    :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 

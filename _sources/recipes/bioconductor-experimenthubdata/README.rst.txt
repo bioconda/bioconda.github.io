@@ -22,16 +22,16 @@ bioconductor-experimenthubdata
 
    |downloads_bioconductor-experimenthubdata| |docker_bioconductor-experimenthubdata|
 
-   :versions: 1.12.0-0, 1.10.0-1, 1.8.0-0
+   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.8.0-0
    
-   :depends bioconductor-annotationhubdata: >=1.16.0,<1.17.0
-   :depends bioconductor-bioccheck: >=1.22.0,<1.23.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-biocviews: >=1.54.0,<1.55.0
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
-   :depends bioconductor-graph: >=1.64.0,<1.65.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotationhubdata: >=1.18.0,<1.19.0
+   :depends bioconductor-bioccheck: >=1.24.0,<1.25.0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-biocviews: >=1.56.0,<1.57.0
+   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
+   :depends bioconductor-graph: >=1.66.0,<1.67.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-biocmanager: 
    :depends r-curl: 
    :depends r-dbi: 

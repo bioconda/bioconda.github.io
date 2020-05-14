@@ -22,10 +22,10 @@ r-isva
 
    |downloads_r-isva| |docker_r-isva|
 
-   :versions: 1.9-1, 1.9-0
+   :versions: 1.9-2, 1.9-1, 1.9-0
    
    :depends bioconductor-qvalue: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-fastica: 
    :depends r-jade: 
    :requirements:

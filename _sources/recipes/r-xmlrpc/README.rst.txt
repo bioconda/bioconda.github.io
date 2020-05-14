@@ -22,9 +22,9 @@ r-xmlrpc
 
    |downloads_r-xmlrpc| |docker_r-xmlrpc|
 
-   :versions: 0.2_4-0
+   :versions: 0.2_4-3, 0.2_4-0
    
-   :depends r: 3.2.2*
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-rcurl: 
    :depends r-xml: 
    :requirements:

@@ -22,12 +22,12 @@ r-tidygenomics
 
    |downloads_r-tidygenomics| |docker_r-tidygenomics|
 
-   :versions: 0.1.2-0, 0.1.0-3, 0.1.0-2, 0.1.0-0
+   :versions: 0.1.2-1, 0.1.2-0, 0.1.0-3, 0.1.0-2, 0.1.0-0
    
    :depends bioconductor-iranges: 
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-dplyr: 
    :depends r-fuzzyjoin: >=0.1.3
    :depends r-purrr: 

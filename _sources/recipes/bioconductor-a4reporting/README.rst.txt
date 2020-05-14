@@ -23,10 +23,10 @@ bioconductor-a4reporting
 
    |downloads_bioconductor-a4reporting| |docker_bioconductor-a4reporting|
 
-   :versions: 1.34.0-0, 1.32.0-1, 1.30.0-0, 1.28.0-0, 1.26.0-0
+   :versions: 1.36.0-0, 1.34.0-0, 1.32.0-1, 1.30.0-0, 1.28.0-0, 1.26.0-0
    
-   :depends bioconductor-annaffy: >=1.58.0,<1.59.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annaffy: >=1.60.0,<1.61.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-xtable: 
    :requirements:
 

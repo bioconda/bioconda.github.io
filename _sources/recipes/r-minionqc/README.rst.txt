@@ -22,9 +22,9 @@ r-minionqc
 
    |downloads_r-minionqc| |docker_r-minionqc|
 
-   :versions: 1.4.1-2, 1.4.1-1
+   :versions: 1.4.1-3, 1.4.1-2, 1.4.1-1
    
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-data.table: 
    :depends r-futile.logger: 
    :depends r-ggplot2: 

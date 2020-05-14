@@ -22,11 +22,11 @@ r-whopgenome
 
    |downloads_r-whopgenome| |docker_r-whopgenome|
 
-   :versions: 0.9.7-2, 0.9.7-1, 0.9.7-0
+   :versions: 0.9.7-3, 0.9.7-2, 0.9.7-1, 0.9.7-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

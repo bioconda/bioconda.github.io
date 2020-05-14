@@ -22,13 +22,14 @@ r-dpeak
 
    |downloads_r-dpeak| |docker_r-dpeak|
 
-   :versions: 2.0.1-1, 2.0.1-0
+   :versions: 2.0.1-3, 2.0.1-1, 2.0.1-0
    
    :depends bioconductor-bsgenome: 
    :depends bioconductor-iranges: 
-   :depends libgcc: 
-   :depends perl-threaded: 
-   :depends r: >=2.11.1
+   :depends libgcc-ng: >=7.3.0
+   :depends libstdcxx-ng: >=7.3.0
+   :depends perl: 
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-mass: 
    :depends r-rcpp: 
    :requirements:

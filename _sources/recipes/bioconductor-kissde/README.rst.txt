@@ -22,13 +22,13 @@ bioconductor-kissde
 
    |downloads_bioconductor-kissde| |docker_bioconductor-kissde|
 
-   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-deseq2: >=1.26.0,<1.27.0
-   :depends bioconductor-dss: >=2.34.0,<2.35.0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
+   :depends bioconductor-dss: >=2.36.0,<2.37.0
    :depends r-aod: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-doparallel: 
    :depends r-foreach: 
    :depends r-ggplot2: 

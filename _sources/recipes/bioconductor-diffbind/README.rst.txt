@@ -23,24 +23,25 @@ bioconductor-diffbind
 
    |downloads_bioconductor-diffbind| |docker_bioconductor-diffbind|
 
-   :versions: 2.14.0-0, 2.12.0-1, 2.10.0-1, 2.10.0-0, 2.8.0-0, 2.6.6-0, 2.6.5-0, 2.6.0-0, 2.4.8-16, 2.2.12-1, 2.2.12-0, 2.0.9-3, 2.0.9-2, 1.16.3-0
+   :versions: 2.16.0-0, 2.14.0-0, 2.12.0-1, 2.10.0-1, 2.10.0-0, 2.8.0-0, 2.6.6-0, 2.6.5-0, 2.6.0-0, 2.4.8-16, 2.2.12-1, 2.2.12-0, 2.0.9-3, 2.0.9-2, 1.16.3-0
    
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-deseq2: >=1.26.0,<1.27.0
-   :depends bioconductor-edger: >=3.28.0,<3.29.0
-   :depends bioconductor-genomicalignments: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-rhtslib: >=1.18.0,<1.19.0
-   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends bioconductor-systempiper: >=1.20.0,<1.21.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
+   :depends bioconductor-edger: >=3.30.0,<3.31.0
+   :depends bioconductor-genomicalignments: >=1.24.0,<1.25.0
+   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends bioconductor-rhtslib: >=1.20.0,<1.21.0
+   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends bioconductor-systempiper: >=1.22.0,<1.23.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends libcxx: >=9.0.1
+   :depends liblapack: >=3.8.0,<3.9.0a0
    :depends r-amap: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 

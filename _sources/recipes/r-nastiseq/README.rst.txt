@@ -23,10 +23,10 @@ r-nastiseq
 
    |downloads_r-nastiseq| |docker_r-nastiseq|
 
-   :versions: 1.0-0
+   :versions: 1.0-3, 1.0-0
    
    :depends bioconductor-deseq: 
-   :depends r: 3.3.1*
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-rocr: 
    :requirements:
 

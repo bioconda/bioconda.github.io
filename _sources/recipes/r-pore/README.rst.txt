@@ -22,11 +22,11 @@ r-pore
 
    |downloads_r-pore| |docker_r-pore|
 
-   :versions: 0.24-0, 0.16-0
+   :versions: 0.24-2, 0.24-0, 0.16-0
    
    :depends bioconductor-rhdf5: 
    :depends parallel: 
-   :depends r-base: 3.3.2*
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-bit64: 
    :depends r-data.table: 
    :depends r-shiny: 

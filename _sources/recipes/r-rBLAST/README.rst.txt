@@ -22,11 +22,11 @@ r-rblast
 
    |downloads_r-rblast| |docker_r-rblast|
 
-   :versions: 0.99.1-0
+   :versions: 0.99.1-3, 0.99.1-0
    
    :depends bioconductor-biostrings: 
    :depends blast: 
-   :depends r: 3.2.2*
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

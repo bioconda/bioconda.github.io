@@ -22,12 +22,13 @@ bioconductor-sojourner
 
    |downloads_bioconductor-sojourner| |docker_bioconductor-sojourner|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-0
    
-   :depends bioconductor-ebimage: >=4.28.0,<4.29.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-ebimage: >=4.30.0,<4.31.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends libcxx: >=9.0.1
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-boot: 
    :depends r-dplyr: 
    :depends r-fitdistrplus: 
@@ -46,11 +47,9 @@ bioconductor-sojourner
    :depends r-rcpp: 
    :depends r-reshape2: 
    :depends r-rlang: 
-   :depends r-rowr: 
    :depends r-rtiff: 
    :depends r-sampsurf: 
    :depends r-scales: 
-   :depends r-sdmtools: 
    :depends r-shiny: 
    :depends r-shinyjs: 
    :depends r-sp: 

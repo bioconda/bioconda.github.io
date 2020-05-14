@@ -22,9 +22,9 @@ r-firebrowser
 
    |downloads_r-firebrowser| |docker_r-firebrowser|
 
-   :versions: 1.1.35-0
+   :versions: 1.1.35-1, 1.1.35-0
    
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

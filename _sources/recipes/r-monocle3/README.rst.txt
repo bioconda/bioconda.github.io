@@ -23,7 +23,7 @@ r-monocle3
 
    |downloads_r-monocle3| |docker_r-monocle3|
 
-   :versions: 0.2.1-0, 0.2.0-1, 0.2.0-0, 0.1.3-0
+   :versions: 0.2.1-1, 0.2.1-0, 0.2.0-1, 0.2.0-0, 0.1.3-0
    
    :depends bioconductor-batchelor: 
    :depends bioconductor-biobase: 
@@ -37,7 +37,7 @@ r-monocle3
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends r-assertthat: >=0.2.1
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-dplyr: >=0.8.0.1
    :depends r-ggplot2: >=3.1.1
    :depends r-ggrepel: >=0.8.1

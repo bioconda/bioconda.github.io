@@ -22,7 +22,7 @@ r-probmetab
 
    |downloads_r-probmetab| |docker_r-probmetab|
 
-   :versions: 1.1-3, 1.1-0, 1.0-2, 1.0-0
+   :versions: 1.1-4, 1.1-3, 1.1-0, 1.0-2, 1.0-0
    
    :depends bioconductor-camera: 1.34.0.*
    :depends bioconductor-multtest: 

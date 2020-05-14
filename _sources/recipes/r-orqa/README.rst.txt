@@ -22,7 +22,7 @@ r-orqa
 
    |downloads_r-orqa| |docker_r-orqa|
 
-   :versions: 0.2.1-3, 0.2.1-2, 0.2.1-1, 0.2.1-0
+   :versions: 0.2.1-4, 0.2.1-3, 0.2.1-2, 0.2.1-1, 0.2.1-0
    
    :depends bioconductor-genefilter: >=1.24.3
    :depends libgcc-ng: >=7.3.0

@@ -22,11 +22,11 @@ r-traminer
 
    |downloads_r-traminer| |docker_r-traminer|
 
-   :versions: 2.0_9-1, 2.0_9-0, 2.0_8-0
+   :versions: 2.0_9-2, 2.0_9-1, 2.0_9-0, 2.0_8-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-boot: 
    :depends r-cluster: 
    :depends r-hmisc: 

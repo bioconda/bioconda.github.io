@@ -22,16 +22,16 @@ bioconductor-desubs
 
    |downloads_bioconductor-desubs| |docker_bioconductor-desubs|
 
-   :versions: 1.12.0-0, 1.10.0-1, 1.8.1-1, 1.8.1-0
+   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.8.1-1, 1.8.1-0
    
-   :depends bioconductor-deseq: >=1.38.0,<1.39.0
-   :depends bioconductor-deseq2: >=1.26.0,<1.27.0
-   :depends bioconductor-ebseq: >=1.26.0,<1.27.0
-   :depends bioconductor-edger: >=3.28.0,<3.29.0
-   :depends bioconductor-graph: >=1.64.0,<1.65.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-rbgl: >=1.62.0,<1.63.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-deseq: >=1.39.0,<1.40.0
+   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
+   :depends bioconductor-ebseq: >=1.28.0,<1.29.0
+   :depends bioconductor-edger: >=3.30.0,<3.31.0
+   :depends bioconductor-graph: >=1.66.0,<1.67.0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends bioconductor-rbgl: >=1.64.0,<1.65.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-circlize: 
    :depends r-ggplot2: 
    :depends r-igraph: 

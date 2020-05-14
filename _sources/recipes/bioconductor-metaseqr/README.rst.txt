@@ -22,18 +22,18 @@ bioconductor-metaseqr
 
    |downloads_bioconductor-metaseqr| |docker_bioconductor-metaseqr|
 
-   :versions: 1.26.0-0, 1.24.0-1, 1.22.1-0, 1.22.0-0
+   :versions: 1.28.0-0, 1.26.0-0, 1.24.0-1, 1.22.1-0, 1.22.0-0
    
-   :depends bioconductor-bayseq: >=2.20.0,<2.21.0
-   :depends bioconductor-biomart: >=2.42.0,<2.43.0
-   :depends bioconductor-deseq: >=1.38.0,<1.39.0
-   :depends bioconductor-edaseq: >=2.20.0,<2.21.0
-   :depends bioconductor-edger: >=3.28.0,<3.29.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-noiseq: >=2.30.0,<2.31.0
-   :depends bioconductor-qvalue: >=2.18.0,<2.19.0
-   :depends bioconductor-vsn: >=3.54.0,<3.55.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-bayseq: >=2.22.0,<2.23.0
+   :depends bioconductor-biomart: >=2.44.0,<2.45.0
+   :depends bioconductor-deseq: >=1.39.0,<1.40.0
+   :depends bioconductor-edaseq: >=2.22.0,<2.23.0
+   :depends bioconductor-edger: >=3.30.0,<3.31.0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends bioconductor-noiseq: >=2.31.0,<2.32.0
+   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
+   :depends bioconductor-vsn: >=3.56.0,<3.57.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-brew: 
    :depends r-corrplot: 
    :depends r-gplots: 

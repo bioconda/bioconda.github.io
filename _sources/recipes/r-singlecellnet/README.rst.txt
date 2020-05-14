@@ -25,9 +25,9 @@ r-singlecellnet
 
    |downloads_r-singlecellnet| |docker_r-singlecellnet|
 
-   :versions: 0.4.1-0
+   :versions: 0.4.1-1, 0.4.1-0
    
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-cowplot: 
    :depends r-data.tree: 
    :depends r-desctools: 

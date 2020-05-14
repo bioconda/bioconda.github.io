@@ -22,14 +22,14 @@ bioconductor-a4
 
    |downloads_bioconductor-a4| |docker_bioconductor-a4|
 
-   :versions: 1.34.0-0, 1.32.0-1, 1.30.0-0
+   :versions: 1.36.0-0, 1.34.0-0, 1.32.0-1, 1.30.0-0
    
-   :depends bioconductor-a4base: >=1.34.0,<1.35.0
-   :depends bioconductor-a4classif: >=1.34.0,<1.35.0
-   :depends bioconductor-a4core: >=1.34.0,<1.35.0
-   :depends bioconductor-a4preproc: >=1.34.0,<1.35.0
-   :depends bioconductor-a4reporting: >=1.34.0,<1.35.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-a4base: >=1.36.0,<1.37.0
+   :depends bioconductor-a4classif: >=1.36.0,<1.37.0
+   :depends bioconductor-a4core: >=1.36.0,<1.37.0
+   :depends bioconductor-a4preproc: >=1.36.0,<1.37.0
+   :depends bioconductor-a4reporting: >=1.36.0,<1.37.0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

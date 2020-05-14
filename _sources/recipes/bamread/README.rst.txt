@@ -22,7 +22,7 @@ bamread
 
    |downloads_bamread| |docker_bamread|
 
-   :versions: 0.0.6-0, 0.0.5-0, 0.0.4-1, 0.0.4-0
+   :versions: 0.0.7-0, 0.0.6-0, 0.0.5-0, 0.0.4-1, 0.0.4-0
    
    :depends libgcc-ng: >=7.3.0
    :depends natsort: 
@@ -30,6 +30,7 @@ bamread
    :depends pandas: 
    :depends pysam: 
    :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :depends scipy: 
    :requirements:
 

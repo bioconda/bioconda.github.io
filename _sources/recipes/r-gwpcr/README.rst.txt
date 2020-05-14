@@ -22,11 +22,11 @@ r-gwpcr
 
    |downloads_r-gwpcr| |docker_r-gwpcr|
 
-   :versions: 0.9.10-3, 0.9.10-2, 0.9.10-1, 0.9.10-0, 0.9.9-0
+   :versions: 0.9.10-4, 0.9.10-3, 0.9.10-2, 0.9.10-1, 0.9.10-0, 0.9.9-0
    
    :depends libgcc-ng: >=7.3.0
    :depends r-akima: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-data.table: 
    :depends r-statmod: 
    :requirements:

@@ -22,38 +22,33 @@ bioconductor-knowseq
 
    |downloads_bioconductor-knowseq| |docker_bioconductor-knowseq|
 
-   :versions: 1.0.0-1
+   :versions: 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-arrayqualitymetrics: >=3.42.0,<3.43.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-biomart: >=2.42.0,<2.43.0
-   :depends bioconductor-cqn: >=1.32.0,<1.33.0
-   :depends bioconductor-edger: >=3.28.0,<3.29.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-multtest: >=2.42.0,<2.43.0
-   :depends bioconductor-pathview: >=1.26.0,<1.27.0
-   :depends bioconductor-rhdf5: >=2.30.0,<2.31.0
-   :depends bioconductor-sva: >=3.34.0,<3.35.0
-   :depends bioconductor-topgo: >=2.37.0,<2.38.0
-   :depends bioconductor-tximport: >=1.14.0,<1.15.0
-   :depends bioconductor-tximportdata: >=1.14.0,<1.15.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-cqn: >=1.34.0,<1.35.0
+   :depends bioconductor-edger: >=3.30.0,<3.31.0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends bioconductor-multtest: >=2.44.0,<2.45.0
+   :depends bioconductor-pathview: >=1.28.0,<1.29.0
+   :depends bioconductor-sva: >=3.36.0,<3.37.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-caret: 
    :depends r-class: 
    :depends r-e1071: 
-   :depends r-factoextra: 
-   :depends r-ggplot2: 
+   :depends r-ggplot2: >=3.3.0
    :depends r-gplots: 
+   :depends r-gridextra: 
+   :depends r-hmisc: >=4.4.0
    :depends r-httr: 
    :depends r-jsonlite: 
    :depends r-kernlab: 
-   :depends r-mclust: 
    :depends r-praznik: 
-   :depends r-quantreg: 
    :depends r-r.utils: 
    :depends r-randomforest: 
    :depends r-rcurl: 
    :depends r-reshape2: 
+   :depends r-rlist: 
+   :depends r-rmarkdown: 
    :depends r-stringr: 
    :depends r-xml: 
    :requirements:

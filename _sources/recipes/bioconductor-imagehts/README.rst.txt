@@ -23,13 +23,13 @@ bioconductor-imagehts
 
    |downloads_bioconductor-imagehts| |docker_bioconductor-imagehts|
 
-   :versions: 1.36.0-0, 1.34.0-1, 1.32.0-0, 1.30.0-0, 1.26.0-0
+   :versions: 1.38.0-0, 1.36.0-0, 1.34.0-1, 1.32.0-0, 1.30.0-0, 1.26.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-cellhts2: >=2.50.0,<2.51.0
-   :depends bioconductor-ebimage: >=4.28.0,<4.29.0
-   :depends bioconductor-vsn: >=3.54.0,<3.55.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-cellhts2: >=2.52.0,<2.53.0
+   :depends bioconductor-ebimage: >=4.30.0,<4.31.0
+   :depends bioconductor-vsn: >=3.56.0,<3.57.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-e1071: 
    :depends r-hwriter: 
    :requirements:

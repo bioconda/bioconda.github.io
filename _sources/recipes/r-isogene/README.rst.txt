@@ -22,7 +22,7 @@ r-isogene
 
    |downloads_r-isogene| |docker_r-isogene|
 
-   :versions: 1.0_24-2, 1.0_24-1, 1.0_24-0
+   :versions: 1.0_24-3, 1.0_24-2, 1.0_24-1, 1.0_24-0
    
    :depends bioconductor-affy: 
    :depends bioconductor-biobase: 

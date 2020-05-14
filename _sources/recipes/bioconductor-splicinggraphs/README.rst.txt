@@ -23,20 +23,20 @@ bioconductor-splicinggraphs
 
    |downloads_bioconductor-splicinggraphs| |docker_bioconductor-splicinggraphs|
 
-   :versions: 1.25.0-0, 1.24.0-1, 1.22.1-0, 1.20.0-0, 1.18.0-0
+   :versions: 1.28.0-0, 1.25.0-0, 1.24.0-1, 1.22.1-0, 1.20.0-0, 1.18.0-0
    
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicalignments: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicfeatures: >=1.38.0,<1.39.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-graph: >=1.64.0,<1.65.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-rgraphviz: >=2.30.0,<2.31.0
-   :depends bioconductor-rsamtools: >=2.2.0,<2.3.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
+   :depends bioconductor-genomicalignments: >=1.24.0,<1.25.0
+   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
+   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
+   :depends bioconductor-graph: >=1.66.0,<1.67.0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-rgraphviz: >=2.32.0,<2.33.0
+   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-igraph: 
    :requirements:
 

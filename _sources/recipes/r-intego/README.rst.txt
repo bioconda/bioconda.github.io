@@ -23,9 +23,9 @@ r-intego
 
    |downloads_r-intego| |docker_r-intego|
 
-   :versions: 2.0-0
+   :versions: 2.0-1, 2.0-0
    
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-factominer: 
    :requirements:
 

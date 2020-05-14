@@ -22,7 +22,7 @@ r-nabor
 
    |downloads_r-nabor| |docker_r-nabor|
 
-   :versions: 0.5.0-4, 0.5.0-3, 0.5.0-2, 0.5.0-1, 0.5.0-0
+   :versions: 0.5.0-5, 0.5.0-4, 0.5.0-3, 0.5.0-2, 0.5.0-1, 0.5.0-0
    
    :depends r-base: >=4.0,<4.1.0a0
    :depends r-bh: 

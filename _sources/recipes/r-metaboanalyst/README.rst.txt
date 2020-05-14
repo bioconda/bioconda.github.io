@@ -22,7 +22,7 @@ r-metaboanalyst
 
    |downloads_r-metaboanalyst| |docker_r-metaboanalyst|
 
-   :versions: 2.0.0-0
+   :versions: 2.0.0-1, 2.0.0-0
    
    :depends bioconductor-biocparallel: 
    :depends bioconductor-camera: 
@@ -42,7 +42,7 @@ r-metaboanalyst
    :depends bioconductor-sspa: 
    :depends bioconductor-sva: 
    :depends bioconductor-xcms: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-cairo: 
    :depends r-car: 
    :depends r-caret: 

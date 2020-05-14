@@ -22,11 +22,11 @@ r-empiricalfdr.deseq2
 
    |downloads_r-empiricalfdr.deseq2| |docker_r-empiricalfdr.deseq2|
 
-   :versions: 1.0.3-5, 1.0.3-4, 1.0.3-3, 1.0.3-2, 1.0.3-0
+   :versions: 1.0.3-6, 1.0.3-5, 1.0.3-4, 1.0.3-3, 1.0.3-2, 1.0.3-0
    
    :depends bioconductor-deseq2: 
    :depends bioconductor-genomicranges: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

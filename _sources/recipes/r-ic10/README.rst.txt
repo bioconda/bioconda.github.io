@@ -22,7 +22,7 @@ r-ic10
 
    |downloads_r-ic10| |docker_r-ic10|
 
-   :versions: 1.5-1, 1.5-0, 1.4.2-2, 1.4.2-1, 1.4.2-0, 1.1.3-0
+   :versions: 1.5-2, 1.5-1, 1.5-0, 1.4.2-2, 1.4.2-1, 1.4.2-0, 1.1.3-0
    
    :depends bioconductor-impute: 
    :depends r-base: >=4.0,<4.1.0a0

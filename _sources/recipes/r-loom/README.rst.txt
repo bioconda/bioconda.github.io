@@ -22,10 +22,10 @@ r-loom
 
    |downloads_r-loom| |docker_r-loom|
 
-   :versions: 0.2.0.2-1, 0.2.0.2-0, 0.2.0.1-0
+   :versions: 0.2.0.2-2, 0.2.0.2-1, 0.2.0.2-0, 0.2.0.1-0
    
    :depends icu: >=64.2,<65.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-hdf5r: 
    :depends r-iterators: 
    :depends r-itertools: 

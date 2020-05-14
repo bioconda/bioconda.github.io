@@ -22,7 +22,7 @@ r-rphast
 
    |downloads_r-rphast| |docker_r-rphast|
 
-   :versions: 1.6.9-3, 1.6.9-2, 1.6.9-1, 1.6.9-0
+   :versions: 1.6.9-4, 1.6.9-3, 1.6.9-2, 1.6.9-1, 1.6.9-0
    
    :depends libgcc-ng: >=7.3.0
    :depends r-base: >=4.0,<4.1.0a0

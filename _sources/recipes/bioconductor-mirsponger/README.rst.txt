@@ -22,15 +22,17 @@ bioconductor-mirsponger
 
    |downloads_bioconductor-mirsponger| |docker_bioconductor-mirsponger|
 
-   :versions: 1.12.0-0, 1.10.1-0
+   :versions: 1.14.0-0, 1.12.0-0, 1.10.1-0
    
-   :depends bioconductor-clusterprofiler: >=3.14.0,<3.15.0
-   :depends bioconductor-dose: >=3.12.0,<3.13.0
-   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
-   :depends bioconductor-reactomepa: >=1.30.0,<1.31.0
+   :depends bioconductor-clusterprofiler: >=3.16.0,<3.17.0
+   :depends bioconductor-dose: >=3.14.0,<3.15.0
+   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
+   :depends bioconductor-reactomepa: >=1.32.0,<1.33.0
+   :depends libblas: >=3.8.0,<4.0a0
    :depends libgcc-ng: >=7.3.0
+   :depends liblapack: >=3.8.0,<3.9.0a0
    :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-corpcor: 
    :depends r-igraph: 
    :depends r-linkcomm: 

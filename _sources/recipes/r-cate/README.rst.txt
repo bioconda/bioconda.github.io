@@ -22,10 +22,10 @@ r-cate
 
    |downloads_r-cate| |docker_r-cate|
 
-   :versions: 1.1-0, 1.0.4-0
+   :versions: 1.1-1, 1.1-0, 1.0.4-0
    
    :depends bioconductor-sva: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-corpcor: 
    :depends r-esabcv: 
    :depends r-leapp: 

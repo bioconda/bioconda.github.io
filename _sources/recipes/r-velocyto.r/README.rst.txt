@@ -22,14 +22,14 @@ r-velocyto.r
 
    |downloads_r-velocyto.r| |docker_r-velocyto.r|
 
-   :versions: 0.6-0
+   :versions: 0.6-1, 0.6-0
    
    :depends bioconductor-pcamethods: 
    :depends boost-cpp: >=1.70.0,<1.70.1.0a0
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
    :depends r-abind: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-cluster: 
    :depends r-hdf5r: 
    :depends r-igraph: 

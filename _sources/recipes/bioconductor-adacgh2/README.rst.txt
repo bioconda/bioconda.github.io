@@ -30,6 +30,7 @@ bioconductor-adacgh2
    :depends bioconductor-snapcgh: >=1.58.0,<1.59.0
    :depends bioconductor-tilingarray: >=1.66.0,<1.67.0
    :depends libblas: >=3.8.0,<4.0a0
+   :depends libgcc-ng: >=7.3.0
    :depends liblapack: >=3.8.0,<3.9.0a0
    :depends r-base: >=4.0,<4.1.0a0
    :depends r-bit: 

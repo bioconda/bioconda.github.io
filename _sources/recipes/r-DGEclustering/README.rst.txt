@@ -22,13 +22,13 @@ r-dgeclustering
 
    |downloads_r-dgeclustering| |docker_r-dgeclustering|
 
-   :versions: 0.1.0-0
+   :versions: 0.1.0-1, 0.1.0-0
    
    :depends bioconductor-annotationdbi: 
    :depends bioconductor-clusterprofiler: 
    :depends bioconductor-genomicfeatures: 
    :depends bioconductor-gosemsim: 
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-cluster: 
    :depends r-factominer: 
    :depends r-ggplot2: 

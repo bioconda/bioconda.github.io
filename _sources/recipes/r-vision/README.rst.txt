@@ -22,11 +22,11 @@ r-vision
 
    |downloads_r-vision| |docker_r-vision|
 
-   :versions: 2.0.0-0
+   :versions: 2.0.0-1, 2.0.0-0
    
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-fastica: 
    :depends r-igraph: 
    :depends r-irlba: 

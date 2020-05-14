@@ -23,7 +23,7 @@ r-garnett
 
    |downloads_r-garnett| |docker_r-garnett|
 
-   :versions: 0.2.8-0, 0.1.4-0
+   :versions: 0.2.8-1, 0.2.8-0, 0.1.4-0
    
    :depends bioconductor-annotationdbi: >=1.44.0
    :depends bioconductor-biobase: >=2.42.0
@@ -32,7 +32,7 @@ r-garnett
    :depends bioconductor-org.hs.eg.db: >=3.7.0
    :depends bioconductor-org.mm.eg.db: 
    :depends r-assertthat: >=0.2.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-doparallel: >=1.0.14
    :depends r-forcats: >=0.3.0
    :depends r-ggplot2: >=3.1.0

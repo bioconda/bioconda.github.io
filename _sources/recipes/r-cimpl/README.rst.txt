@@ -22,11 +22,11 @@ r-cimpl
 
    |downloads_r-cimpl| |docker_r-cimpl|
 
-   :versions: 1.1-0
+   :versions: 1.1-2, 1.1-0
    
    :depends bioconductor-biomart: 
    :depends bioconductor-biostrings: 
-   :depends r: 3.3.1*
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-kernsmooth: 
    :depends r-mass: 
    :depends r-xtable: 

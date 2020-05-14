@@ -22,9 +22,9 @@ r-aroma.core
 
    |downloads_r-aroma.core| |docker_r-aroma.core|
 
-   :versions: 3.2.1-0, 3.2.0-1, 3.2.0-0, 3.1.3-2, 3.1.3-1, 3.1.3-0, 3.1.1-0, 3.0.0-0
+   :versions: 3.2.1-1, 3.2.1-0, 3.2.0-1, 3.2.0-0, 3.1.3-2, 3.1.3-1, 3.1.3-0, 3.1.1-0, 3.0.0-0
    
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-biocmanager: 
    :depends r-future: 
    :depends r-listenv: 

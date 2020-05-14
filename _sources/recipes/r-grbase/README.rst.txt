@@ -22,13 +22,13 @@ r-grbase
 
    |downloads_r-grbase| |docker_r-grbase|
 
-   :versions: 1.8_3.4-1, 1.8_3.4-0
+   :versions: 1.8_3.4-3, 1.8_3.4-2, 1.8_3.4-1, 1.8_3.4-0
    
    :depends bioconductor-graph: 
    :depends bioconductor-rbgl: 
    :depends libgcc-ng: >=7.3.0
    :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-igraph: 
    :depends r-magrittr: 
    :depends r-matrix: 

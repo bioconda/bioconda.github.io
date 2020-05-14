@@ -22,13 +22,13 @@ bioconductor-probatch
 
    |downloads_bioconductor-probatch| |docker_bioconductor-probatch|
 
-   :versions: 1.2.0-0, 1.0.0-1
+   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-preprocesscore: >=1.48.0,<1.49.0
-   :depends bioconductor-pvca: >=1.26.0,<1.27.0
-   :depends bioconductor-sva: >=3.34.0,<3.35.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-preprocesscore: >=1.50.0,<1.51.0
+   :depends bioconductor-pvca: >=1.28.0,<1.29.0
+   :depends bioconductor-sva: >=3.36.0,<3.37.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-corrplot: 
    :depends r-data.table: 
    :depends r-dplyr: 

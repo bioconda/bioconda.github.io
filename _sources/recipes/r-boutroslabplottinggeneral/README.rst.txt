@@ -22,12 +22,13 @@ boutroslabplottinggeneral
 
    |downloads_boutroslabplottinggeneral| |docker_boutroslabplottinggeneral|
 
-   :versions: 5.3.4-0
+   :versions: 5.3.4-2, 5.3.4-0
    
    :depends r-argparse: 
    :depends r-assertthat: 
-   :depends r-base: 3.3.1*
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-bh: 
+   :depends r-cluster: 
    :depends r-dbi: 
    :depends r-dplyr: 
    :depends r-findpython: 
@@ -37,6 +38,7 @@ boutroslabplottinggeneral
    :depends r-latticeextra: 
    :depends r-lazyeval: 
    :depends r-magrittr: 
+   :depends r-mass: 
    :depends r-proto: 
    :depends r-r.methodss3: 
    :depends r-r6: 

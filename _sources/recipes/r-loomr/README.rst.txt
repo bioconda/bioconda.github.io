@@ -27,10 +27,10 @@ r-loomr
 
    |downloads_r-loomr| |docker_r-loomr|
 
-   :versions: 0.2.0_beta-0
+   :versions: 0.2.0_beta-1, 0.2.0_beta-0
    
    :depends hdf5: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-hdf5r: 
    :depends r-iterators: 
    :depends r-itertools: 

@@ -22,12 +22,12 @@ bioconductor-rnamodr.data
 
    |downloads_bioconductor-rnamodr.data| |docker_bioconductor-rnamodr.data|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-0
    
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
-   :depends bioconductor-experimenthubdata: >=1.12.0,<1.13.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
+   :depends bioconductor-experimenthubdata: >=1.14.0,<1.15.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

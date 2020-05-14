@@ -22,16 +22,16 @@ bioconductor-homo.sapiens
 
    |downloads_bioconductor-homo.sapiens| |docker_bioconductor-homo.sapiens|
 
-   :versions: 1.3.1-7, 1.3.1-6, 1.3.1-4, 1.3.1-3, 1.3.1-1, 1.3.1-0
+   :versions: 1.3.1-8, 1.3.1-7, 1.3.1-6, 1.3.1-4, 1.3.1-3, 1.3.1-1, 1.3.1-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-genomicfeatures: >=1.38.0,<1.39.0
-   :depends bioconductor-go.db: >=3.10.0,<3.11.0
-   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
-   :depends bioconductor-organismdbi: >=1.28.0,<1.29.0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
+   :depends bioconductor-go.db: >=3.11.0,<3.12.0
+   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
+   :depends bioconductor-organismdbi: >=1.30.0,<1.31.0
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: >=3.2.0,<3.3.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

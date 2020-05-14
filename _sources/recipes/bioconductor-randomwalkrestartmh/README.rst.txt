@@ -22,9 +22,9 @@ bioconductor-randomwalkrestartmh
 
    |downloads_bioconductor-randomwalkrestartmh| |docker_bioconductor-randomwalkrestartmh|
 
-   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
    
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-dnet: 
    :depends r-igraph: 
    :depends r-matrix: 

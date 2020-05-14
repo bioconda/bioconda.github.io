@@ -22,9 +22,9 @@ r-soap-nmr
 
    |downloads_r-soap-nmr| |docker_r-soap-nmr|
 
-   :versions: 0.1.0.20170207-1, 0.1.0.20170207-0
+   :versions: 0.1.0.20170207-2, 0.1.0.20170207-1, 0.1.0.20170207-0
    
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-ggplot2: 
    :depends r-gridextra: 
    :depends r-matrix: 

@@ -23,7 +23,7 @@ r-scimpute
 
    |downloads_r-scimpute| |docker_r-scimpute|
 
-   :versions: 0.0.8-0, 0.0.6-1, 0.0.6-0
+   :versions: 0.0.8-1, 0.0.8-0, 0.0.6-1, 0.0.6-0
    
    :depends parallel: 
    :depends r: >=3.3.2

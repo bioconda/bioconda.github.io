@@ -22,14 +22,14 @@ bioconductor-mogsa
 
    |downloads_bioconductor-mogsa| |docker_bioconductor-mogsa|
 
-   :versions: 1.20.0-0, 1.18.1-0, 1.16.0-0
+   :versions: 1.21.0-0, 1.20.0-0, 1.18.1-0, 1.16.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-genefilter: >=1.68.0,<1.69.0
-   :depends bioconductor-graphite: >=1.32.0,<1.33.0
-   :depends bioconductor-gseabase: >=1.48.0,<1.49.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-genefilter: >=1.70.0,<1.71.0
+   :depends bioconductor-graphite: >=1.34.0,<1.35.0
+   :depends bioconductor-gseabase: >=1.50.0,<1.51.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-cluster: 
    :depends r-corpcor: 
    :depends r-gplots: 

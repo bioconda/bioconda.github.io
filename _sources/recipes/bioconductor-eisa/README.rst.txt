@@ -22,14 +22,14 @@ bioconductor-eisa
 
    |downloads_bioconductor-eisa| |docker_bioconductor-eisa|
 
-   :versions: 1.38.0-0, 1.36.0-1, 1.34.0-0
+   :versions: 1.40.0-0, 1.38.0-0, 1.36.0-1, 1.34.0-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-category: >=2.52.0,<2.53.0
-   :depends bioconductor-genefilter: >=1.68.0,<1.69.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-category: >=2.54.0,<2.55.0
+   :depends bioconductor-genefilter: >=1.70.0,<1.71.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-dbi: 
    :depends r-isa2: 
    :requirements:

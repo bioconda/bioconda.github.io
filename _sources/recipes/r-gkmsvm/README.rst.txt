@@ -22,7 +22,7 @@ r-gkmsvm
 
    |downloads_r-gkmsvm| |docker_r-gkmsvm|
 
-   :versions: 0.80.0-0, 0.79.0-1, 0.79.0-0, 0.71.0-0
+   :versions: 0.80.0-1, 0.80.0-0, 0.79.0-1, 0.79.0-0, 0.71.0-0
    
    :depends bioconductor-biocgenerics: 
    :depends bioconductor-biostrings: 
@@ -31,9 +31,8 @@ r-gkmsvm
    :depends bioconductor-iranges: 
    :depends bioconductor-rtracklayer: 
    :depends bioconductor-s4vectors: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends libcxx: >=9.0.1
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-kernlab: 
    :depends r-rcpp: 
    :depends r-rocr: 

@@ -22,12 +22,12 @@ r-deconstructsigs
 
    |downloads_r-deconstructsigs| |docker_r-deconstructsigs|
 
-   :versions: 1.8.0.1-2, 1.8.0.1-1, 1.8.0.1-0, 1.8.0-2, 1.8.0-0
+   :versions: 1.8.0.1-3, 1.8.0.1-2, 1.8.0.1-1, 1.8.0.1-0, 1.8.0-2, 1.8.0-0
    
    :depends bioconductor-bsgenome: 
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: 
    :depends bioconductor-genomeinfodb: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-reshape2: 
    :requirements:
 

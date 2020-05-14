@@ -23,16 +23,16 @@ bioconductor-webbioc
 
    |downloads_bioconductor-webbioc| |docker_bioconductor-webbioc|
 
-   :versions: 1.58.0-0, 1.56.0-1, 1.54.0-0, 1.52.0-0, 1.50.0-0
+   :versions: 1.60.0-0, 1.58.0-0, 1.56.0-1, 1.54.0-0, 1.52.0-0, 1.50.0-0
    
-   :depends bioconductor-affy: >=1.64.0,<1.65.0
-   :depends bioconductor-annaffy: >=1.58.0,<1.59.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-gcrma: >=2.58.0,<2.59.0
-   :depends bioconductor-multtest: >=2.42.0,<2.43.0
-   :depends bioconductor-qvalue: >=2.18.0,<2.19.0
-   :depends bioconductor-vsn: >=3.54.0,<3.55.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-affy: >=1.66.0,<1.67.0
+   :depends bioconductor-annaffy: >=1.60.0,<1.61.0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-gcrma: >=2.60.0,<2.61.0
+   :depends bioconductor-multtest: >=2.44.0,<2.45.0
+   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
+   :depends bioconductor-vsn: >=3.56.0,<3.57.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-biocmanager: 
    :requirements:
 

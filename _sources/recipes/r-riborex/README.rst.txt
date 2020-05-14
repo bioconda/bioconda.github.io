@@ -22,11 +22,11 @@ r-riborex
 
    |downloads_r-riborex| |docker_r-riborex|
 
-   :versions: 2.4.0-1, 2.4.0-0
+   :versions: 2.4.0-2, 2.4.0-1, 2.4.0-0
    
    :depends bioconductor-deseq2: 
    :depends bioconductor-edger: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-fdrtool: 
    :requirements:
 

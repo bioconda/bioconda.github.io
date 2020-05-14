@@ -9,7 +9,9 @@ r-qorts
 .. conda:recipe:: r-qorts
    :replaces_section_title:
 
-   The QoRTs software package is a fast\, efficient\, and portable multifunction toolkit designed to assist in the analysis\, quality control\, and data management of RNA\-Seq datasets.
+   QoRTs toolkit for analysis\, quality control\, and data management of RNA\-Seq
+   datasets.
+
 
    :homepage: https://github.com/hartleys/QoRTs
    :license: Public Domain
@@ -22,9 +24,9 @@ r-qorts
 
    |downloads_r-qorts| |docker_r-qorts|
 
-   :versions: 1.3.0-1, 1.3.0-0
+   :versions: 1.3.6-0, 1.3.0-2, 1.3.0-1, 1.3.0-0
    
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

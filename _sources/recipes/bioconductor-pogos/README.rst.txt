@@ -22,11 +22,11 @@ bioconductor-pogos
 
    |downloads_bioconductor-pogos| |docker_bioconductor-pogos|
 
-   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
    
-   :depends bioconductor-ontoproc: >=1.8.0,<1.9.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-ontoproc: >=1.10.0,<1.11.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-ggplot2: 
    :depends r-httr: >=1.3.1
    :depends r-rjson: >=0.2.15
