@@ -22,15 +22,15 @@ bioconductor-coseq
 
    |downloads_bioconductor-coseq| |docker_bioconductor-coseq|
 
-   :versions: 1.10.0-0, 1.8.0-1, 1.6.0-0
+   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.6.0-0
    
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-deseq2: >=1.26.0,<1.27.0
-   :depends bioconductor-edger: >=3.28.0,<3.29.0
-   :depends bioconductor-htsfilter: >=1.26.0,<1.27.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
+   :depends bioconductor-edger: >=3.30.0,<3.31.0
+   :depends bioconductor-htsfilter: >=1.28.0,<1.29.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-capushe: 
    :depends r-compositions: 
    :depends r-corrplot: 

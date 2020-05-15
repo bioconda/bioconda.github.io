@@ -22,7 +22,7 @@ r-jackstraw
 
    |downloads_r-jackstraw| |docker_r-jackstraw|
 
-   :versions: 1.3-3, 1.3-2, 1.3-1, 1.3-0
+   :versions: 1.3-4, 1.3-3, 1.3-2, 1.3-1, 1.3-0
    
    :depends bioconductor-lfa: 
    :depends bioconductor-qvalue: 

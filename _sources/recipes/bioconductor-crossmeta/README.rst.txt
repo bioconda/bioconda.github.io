@@ -22,19 +22,19 @@ bioconductor-crossmeta
 
    |downloads_bioconductor-crossmeta| |docker_bioconductor-crossmeta|
 
-   :versions: 1.12.0-0, 1.10.0-1, 1.8.0-0
+   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.8.0-0
    
-   :depends bioconductor-affxparser: >=1.58.0,<1.59.0
-   :depends bioconductor-affy: >=1.64.0,<1.65.0
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-ccmap: >=1.12.0,<1.13.0
-   :depends bioconductor-geoquery: >=2.54.0,<2.55.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-oligo: >=1.50.0,<1.51.0
-   :depends bioconductor-sva: >=3.34.0,<3.35.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-affxparser: >=1.60.0,<1.61.0
+   :depends bioconductor-affy: >=1.66.0,<1.67.0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-ccmap: >=1.14.0,<1.15.0
+   :depends bioconductor-geoquery: >=2.56.0,<2.57.0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends bioconductor-oligo: >=1.52.0,<1.53.0
+   :depends bioconductor-sva: >=3.36.0,<3.37.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-biocmanager: >=1.30.4
    :depends r-data.table: >=1.10.4
    :depends r-dbi: >=1.0.0

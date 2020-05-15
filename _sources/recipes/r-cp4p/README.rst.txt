@@ -22,12 +22,12 @@ r-cp4p
 
    |downloads_r-cp4p| |docker_r-cp4p|
 
-   :versions: 0.3.6-1, 0.3.6-0, 0.3.5-1, 0.3.5-0
+   :versions: 0.3.6-2, 0.3.6-1, 0.3.6-0, 0.3.5-1, 0.3.5-0
    
    :depends bioconductor-limma: 
    :depends bioconductor-multtest: 
    :depends bioconductor-qvalue: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-mess: 
    :requirements:
 

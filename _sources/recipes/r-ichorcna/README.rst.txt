@@ -22,11 +22,11 @@ r-ichorcna
 
    |downloads_r-ichorcna| |docker_r-ichorcna|
 
-   :versions: 0.2.0-0, 0.1.0.20180710-0
+   :versions: 0.2.0-1, 0.2.0-0, 0.1.0.20180710-0
    
    :depends bioconductor-genomeinfodb: >=1.8.7
    :depends bioconductor-hmmcopy: >=1.14.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-optparse: 
    :depends r-plyr: 
    :requirements:

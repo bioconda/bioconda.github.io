@@ -22,21 +22,24 @@ bioconductor-gmicr
 
    |downloads_bioconductor-gmicr| |docker_bioconductor-gmicr|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-category: >=2.52.0,<2.53.0
-   :depends bioconductor-gostats: >=2.52.0,<2.53.0
-   :depends bioconductor-gseabase: >=1.48.0,<1.49.0
-   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
-   :depends bioconductor-org.mm.eg.db: >=3.10.0,<3.11.0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-category: >=2.54.0,<2.55.0
+   :depends bioconductor-gostats: >=2.54.0,<2.55.0
+   :depends bioconductor-gseabase: >=1.50.0,<1.51.0
+   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
+   :depends bioconductor-org.mm.eg.db: >=3.11.0,<3.12.0
    :depends r-ape: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-bnlearn: 
    :depends r-data.table: 
+   :depends r-doparallel: 
    :depends r-dt: 
+   :depends r-foreach: 
    :depends r-grain: 
    :depends r-grbase: 
+   :depends r-reshape2: 
    :depends r-shiny: 
    :depends r-wgcna: 
    :requirements:

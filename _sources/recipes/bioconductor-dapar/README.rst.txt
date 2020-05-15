@@ -22,20 +22,20 @@ bioconductor-dapar
 
    |downloads_bioconductor-dapar| |docker_bioconductor-dapar|
 
-   :versions: 1.18.1-0, 1.16.7-0, 1.14.4-0
+   :versions: 1.20.2-0, 1.18.1-0, 1.16.7-0, 1.14.4-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-clusterprofiler: >=3.14.0,<3.15.0
-   :depends bioconductor-dapardata: >=1.16.0,<1.17.0
-   :depends bioconductor-graph: >=1.64.0,<1.65.0
-   :depends bioconductor-impute: >=1.60.0,<1.61.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-msnbase: >=2.12.0,<2.13.0
-   :depends bioconductor-pcamethods: >=1.78.0,<1.79.0
-   :depends bioconductor-preprocesscore: >=1.48.0,<1.49.0
-   :depends bioconductor-siggenes: >=1.60.0,<1.61.0
-   :depends bioconductor-vsn: >=3.54.0,<3.55.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-clusterprofiler: >=3.16.0,<3.17.0
+   :depends bioconductor-dapardata: >=1.18.0,<1.19.0
+   :depends bioconductor-graph: >=1.66.0,<1.67.0
+   :depends bioconductor-impute: >=1.62.0,<1.63.0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends bioconductor-msnbase: >=2.14.0,<2.15.0
+   :depends bioconductor-pcamethods: >=1.80.0,<1.81.0
+   :depends bioconductor-preprocesscore: >=1.50.0,<1.51.0
+   :depends bioconductor-siggenes: >=1.62.0,<1.63.0
+   :depends bioconductor-vsn: >=3.56.0,<3.57.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-cairo: 
    :depends r-cp4p: >=0.3.5
    :depends r-doparallel: 
@@ -45,7 +45,7 @@ bioconductor-dapar
    :depends r-foreach: 
    :depends r-ggplot2: 
    :depends r-gplots: 
-   :depends r-highcharter: >=0.5.0
+   :depends r-highcharter: >=0.7.0
    :depends r-igraph: 
    :depends r-imp4p: >=0.8
    :depends r-knitr: 

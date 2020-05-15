@@ -22,11 +22,11 @@ bioconductor-prostar
 
    |downloads_bioconductor-prostar| |docker_bioconductor-prostar|
 
-   :versions: 1.18.0-1, 1.16.7-0, 1.14.8-0
+   :versions: 1.20.0-0, 1.18.0-1, 1.16.7-0, 1.14.8-0
    
-   :depends bioconductor-dapar: >=1.18.0,<1.19.0
-   :depends bioconductor-dapardata: >=1.16.0,<1.17.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-dapar: >=1.20.0,<1.21.0
+   :depends bioconductor-dapardata: >=1.18.0,<1.19.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-biocmanager: 
    :depends r-colourpicker: 
    :depends r-data.table: 
@@ -39,6 +39,7 @@ bioconductor-prostar
    :depends r-r.utils: 
    :depends r-rclipboard: 
    :depends r-rhandsontable: 
+   :depends r-sass: 
    :depends r-shiny: 
    :depends r-shinyace: 
    :depends r-shinybs: 
@@ -48,6 +49,7 @@ bioconductor-prostar
    :depends r-shinythemes: 
    :depends r-shinytree: 
    :depends r-shinywidgets: 
+   :depends r-tibble: 
    :depends r-webshot: 
    :depends r-xml: 
    :requirements:

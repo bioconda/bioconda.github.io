@@ -22,18 +22,20 @@ bioconductor-scpca
 
    |downloads_bioconductor-scpca| |docker_bioconductor-scpca|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-0
    
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
    :depends r-assertthat: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-cluster: 
    :depends r-dplyr: 
    :depends r-elasticnet: 
    :depends r-kernlab: 
+   :depends r-matrixstats: 
    :depends r-origami: 
    :depends r-purrr: 
    :depends r-rdpack: 
+   :depends r-sparsepca: 
    :depends r-stringr: 
    :depends r-tibble: 
    :requirements:

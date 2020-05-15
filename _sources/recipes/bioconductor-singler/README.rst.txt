@@ -22,7 +22,7 @@ bioconductor-singler
 
    |downloads_bioconductor-singler| |docker_bioconductor-singler|
 
-   :versions: 1.2.1-0, 1.0.0-0
+   :versions: 1.2.2-0, 1.2.1-0, 1.0.0-0
    
    :depends bioconductor-beachmat: >=2.4.0,<2.5.0
    :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
@@ -35,8 +35,9 @@ bioconductor-singler
    :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
    :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
    :depends libblas: >=3.8.0,<4.0a0
-   :depends libcxx: >=9.0.1
+   :depends libgcc-ng: >=7.3.0
    :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends libstdcxx-ng: >=7.3.0
    :depends r-base: >=4.0,<4.1.0a0
    :depends r-matrix: 
    :depends r-rcpp: 

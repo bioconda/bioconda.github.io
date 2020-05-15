@@ -22,15 +22,21 @@ bioconductor-celda
 
    |downloads_bioconductor-celda| |docker_bioconductor-celda|
 
-   :versions: 1.2.0-0, 1.0.4-0
+   :versions: 1.4.5-0, 1.2.0-0, 1.0.4-0
    
-   :depends bioconductor-mast: >=1.12.0,<1.13.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-delayedarray: >=0.14.0,<0.15.0
+   :depends bioconductor-mast: >=1.14.0,<1.15.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends bioconductor-scater: >=1.16.0,<1.17.0
+   :depends bioconductor-scran: >=1.16.0,<1.17.0
+   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends libcxx: >=9.0.1
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-data.table: 
+   :depends r-dbscan: 
    :depends r-dendextend: 
    :depends r-digest: 
    :depends r-doparallel: 
@@ -41,7 +47,7 @@ bioconductor-celda
    :depends r-ggrepel: 
    :depends r-gridextra: 
    :depends r-gtable: 
-   :depends r-magrittr: 
+   :depends r-matrix: 
    :depends r-matrixstats: 
    :depends r-mcmcprecision: 
    :depends r-plyr: 
@@ -52,7 +58,9 @@ bioconductor-celda
    :depends r-reshape2: 
    :depends r-rtsne: 
    :depends r-scales: 
+   :depends r-seurat: 
    :depends r-stringi: 
+   :depends r-stringr: 
    :depends r-uwot: 
    :depends r-withr: 
    :requirements:

@@ -22,14 +22,13 @@ bioconductor-hyper
 
    |downloads_bioconductor-hyper| |docker_bioconductor-hyper|
 
-   :versions: 1.2.0-0, 1.00.0-1
+   :versions: 1.4.0-0, 1.2.0-0, 1.00.0-1
    
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-dplyr: 
-   :depends r-dt: 
    :depends r-ggforce: 
    :depends r-ggplot2: 
-   :depends r-gh: 
+   :depends r-httr: 
    :depends r-igraph: 
    :depends r-kableextra: 
    :depends r-magrittr: 
@@ -37,9 +36,11 @@ bioconductor-hyper
    :depends r-openxlsx: 
    :depends r-purrr: 
    :depends r-r6: 
+   :depends r-reactable: 
    :depends r-rlang: 
    :depends r-rmarkdown: 
    :depends r-scales: 
+   :depends r-stringr: 
    :depends r-visnetwork: 
    :requirements:
 

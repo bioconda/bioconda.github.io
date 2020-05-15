@@ -22,10 +22,10 @@ r-stampp
 
    |downloads_r-stampp| |docker_r-stampp|
 
-   :versions: 1.5.1-4, 1.5.1-3, 1.5.1-2, 1.5.1-0
+   :versions: 1.5.1-5, 1.5.1-4, 1.5.1-3, 1.5.1-2, 1.5.1-0
    
    :depends r-adegenet: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-doparallel: 
    :depends r-foreach: 
    :depends r-pegas: 

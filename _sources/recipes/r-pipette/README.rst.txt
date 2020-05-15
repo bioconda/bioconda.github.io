@@ -23,7 +23,7 @@ r-pipette
 
    |downloads_r-pipette| |docker_r-pipette|
 
-   :versions: 0.4.3-0, 0.4.2-0, 0.4.1-0
+   :versions: 0.4.3-1, 0.4.3-0, 0.4.2-0, 0.4.1-0
    
    :depends bioconductor-biocgenerics: >=0.32
    :depends bioconductor-genomicranges: >=1.38
@@ -34,7 +34,7 @@ r-pipette
    :depends bioconductor-summarizedexperiment: >=1.16
    :depends r-acidbase: >=0.1.4
    :depends r-acidgenerics: >=0.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-cli: >=2.0
    :depends r-data.table: >=1.12.8
    :depends r-gdata: >=2.18

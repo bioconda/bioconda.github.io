@@ -23,7 +23,7 @@ r-immunedeconv
 
    |downloads_r-immunedeconv| |docker_r-immunedeconv|
 
-   :versions: 2.0.2-0, 2.0.1-0, 2.0.0-0, 1.1.1-0
+   :versions: 2.0.2-1, 2.0.2-0, 2.0.1-0, 2.0.0-0, 1.1.1-0
    
    :depends bioconductor-biobase: 
    :depends bioconductor-biocgenerics: 
@@ -32,7 +32,7 @@ r-immunedeconv
    :depends bioconductor-gsva: 
    :depends bioconductor-preprocesscore: 
    :depends bioconductor-sva: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-data.tree: >=0.7
    :depends r-dplyr: >=0.7
    :depends r-e1071: >=1.6

@@ -22,17 +22,17 @@ bioconductor-metavizr
 
    |downloads_bioconductor-metavizr| |docker_bioconductor-metavizr|
 
-   :versions: 1.10.0-0, 1.8.0-1, 1.6.1-0, 1.2.1-0
+   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.6.1-0, 1.2.1-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-epivizr: >=2.16.0,<2.17.0
-   :depends bioconductor-epivizrdata: >=1.14.0,<1.15.0
-   :depends bioconductor-epivizrserver: >=1.14.0,<1.15.0
-   :depends bioconductor-epivizrstandalone: >=1.14.0,<1.15.0
-   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
-   :depends bioconductor-metagenomeseq: >=1.28.0,<1.29.0
-   :depends bioconductor-phyloseq: >=1.30.0,<1.31.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-epivizr: >=2.18.0,<2.19.0
+   :depends bioconductor-epivizrdata: >=1.16.0,<1.17.0
+   :depends bioconductor-epivizrserver: >=1.16.0,<1.17.0
+   :depends bioconductor-epivizrstandalone: >=1.16.0,<1.17.0
+   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
+   :depends bioconductor-metagenomeseq: >=1.30.0,<1.31.0
+   :depends bioconductor-phyloseq: >=1.32.0,<1.33.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-data.table: 
    :depends r-digest: 
    :depends r-httr: 

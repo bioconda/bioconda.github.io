@@ -22,11 +22,11 @@ r-phytools
 
    |downloads_r-phytools| |docker_r-phytools|
 
-   :versions: 0.6_99-0, 0.6_60-2, 0.6_60-1, 0.6_60-0, 0.6_44-1, 0.6_44-0
+   :versions: 0.6_99-1, 0.6_99-0, 0.6_60-2, 0.6_60-1, 0.6_60-0, 0.6_44-1, 0.6_44-0
    
    :depends r-animation: 
    :depends r-ape: >=4.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-clustergeneration: 
    :depends r-coda: 
    :depends r-combinat: 

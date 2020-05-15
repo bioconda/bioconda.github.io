@@ -22,9 +22,9 @@ r-rismed
 
    |downloads_r-rismed| |docker_r-rismed|
 
-   :versions: 2.1.7-1, 2.1.7-0
+   :versions: 2.1.7-2, 2.1.7-1, 2.1.7-0
    
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

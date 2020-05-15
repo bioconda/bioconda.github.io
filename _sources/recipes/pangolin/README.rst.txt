@@ -22,7 +22,7 @@ pangolin
 
    |downloads_pangolin| |docker_pangolin|
 
-   :versions: 1.1.11-0, 1.1.5-0, 1.1-0
+   :versions: 1.1.13-0, 1.1.11-0, 1.1.5-0, 1.1-0
    
    :depends biopython: 
    :depends dendropy: >=4.4.0

@@ -22,10 +22,10 @@ r-intlim
 
    |downloads_r-intlim| |docker_r-intlim|
 
-   :versions: v.1.1.0-0
+   :versions: v.1.1.0-1, v.1.1.0-0
    
    :depends bioconductor-multidataset: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-dendextend: 
    :depends r-dt: 
    :depends r-gplots: 
