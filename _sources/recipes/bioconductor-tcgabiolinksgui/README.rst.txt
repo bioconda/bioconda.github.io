@@ -22,17 +22,17 @@ bioconductor-tcgabiolinksgui
 
    |downloads_bioconductor-tcgabiolinksgui| |docker_bioconductor-tcgabiolinksgui|
 
-   :versions: 1.12.0-1, 1.10.0-1, 1.8.0-0
+   :versions: 1.14.0-0, 1.12.0-1, 1.10.0-1, 1.8.0-0
    
-   :depends bioconductor-clusterprofiler: >=3.14.0,<3.15.0
-   :depends bioconductor-elmer: >=2.9.0,<2.10.0
-   :depends bioconductor-maftools: >=2.2.0,<2.3.0
-   :depends bioconductor-pathview: >=1.26.0,<1.27.0
-   :depends bioconductor-sesame: >=1.4.0,<1.5.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends bioconductor-tcgabiolinks: >=2.14.0,<2.15.0
-   :depends bioconductor-tcgabiolinksgui.data: >=1.6.0,<1.7.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-clusterprofiler: >=3.16.0,<3.17.0
+   :depends bioconductor-elmer: >=2.12.0,<2.13.0
+   :depends bioconductor-maftools: >=2.4.0,<2.5.0
+   :depends bioconductor-pathview: >=1.28.0,<1.29.0
+   :depends bioconductor-sesame: >=1.6.0,<1.7.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends bioconductor-tcgabiolinks: >=2.16.0,<2.17.0
+   :depends bioconductor-tcgabiolinksgui.data: >=1.8.0,<1.9.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-caret: 
    :depends r-colourpicker: 
    :depends r-data.table: 

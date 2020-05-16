@@ -23,12 +23,12 @@ r-fastbaps
 
    |downloads_r-fastbaps| |docker_r-fastbaps|
 
-   :versions: 1.0.3-0, 1.0.2-0, 1.0.1-0
+   :versions: 1.0.3-1, 1.0.3-0, 1.0.2-0, 1.0.1-0
    
    :depends bioconductor-ggtree: 
    :depends r-adegenet: 
    :depends r-ape: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-clusteval: 
    :depends r-doparallel: 
    :depends r-fastcluster: 

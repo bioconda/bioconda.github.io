@@ -22,13 +22,13 @@ ppanggolin
 
    |downloads_ppanggolin| |docker_ppanggolin|
 
-   :versions: 1.1.72-0, 1.0.13-0, 1.0.1-0, 1.0.0-0, v0.3.88-1, v0.3.88-0
+   :versions: 1.1.85-0, 1.1.72-0, 1.0.13-0, 1.0.1-0, 1.0.0-0, v0.3.88-1, v0.3.88-0
    
    :depends aragorn: 1.2.*
    :depends colorlover: 0.3.*
    :depends gmpy2: 2.*
    :depends infernal: 1.1.*
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: >=7.5.0
    :depends mmseqs2: 
    :depends networkx: 2.3.*
    :depends numpy: 1.16.*

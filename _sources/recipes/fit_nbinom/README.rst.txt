@@ -22,10 +22,10 @@ fit_nbinom
 
    |downloads_fit_nbinom| |docker_fit_nbinom|
 
-   :versions: 1.1-0, 1.0-0
+   :versions: 1.1-1, 1.1-0, 1.0-0
    
    :depends numpy: >=1.15
-   :depends python: <3.7
+   :depends python: 
    :depends scipy: >=1.2
    :requirements:
 

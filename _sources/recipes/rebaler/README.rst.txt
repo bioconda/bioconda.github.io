@@ -22,12 +22,12 @@ rebaler
 
    |downloads_rebaler| |docker_rebaler|
 
-   :versions: 0.2.0-0, 0.1.2-0, 0.1.1-2, 0.1.1-0, 0.1.0-0
+   :versions: 0.2.0-1, 0.2.0-0, 0.1.2-0, 0.1.1-2, 0.1.1-0, 0.1.0-0
    
    :depends biopython: 
    :depends minimap2: 
    :depends python: >=3
-   :depends racon: 
+   :depends racon: >=1.4.12
    :requirements:
 
    .. rubric:: Installation

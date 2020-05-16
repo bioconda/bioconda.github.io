@@ -23,7 +23,7 @@ r-acidplots
 
    |downloads_r-acidplots| |docker_r-acidplots|
 
-   :versions: 0.2.26-0, 0.2.24-0, 0.2.23-0, 0.2.22-0, 0.2.20-0, 0.2.19-0, 0.2.18-0, 0.2.17-0, 0.2.16-0, 0.2.15-0, 0.2.14-0
+   :versions: 0.2.26-1, 0.2.26-0, 0.2.24-0, 0.2.23-0, 0.2.22-0, 0.2.20-0, 0.2.19-0, 0.2.18-0, 0.2.17-0, 0.2.16-0, 0.2.15-0, 0.2.14-0
    
    :depends bioconductor-biocgenerics: >=0.32
    :depends bioconductor-dropletutils: >=1.6
@@ -32,7 +32,7 @@ r-acidplots
    :depends bioconductor-singlecellexperiment: >=1.8
    :depends bioconductor-summarizedexperiment: >=1.16
    :depends r-acidgenerics: >=0.3.4
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-basejump: >=0.12.2
    :depends r-cowplot: >=1.0
    :depends r-ggplot2: >=3.2

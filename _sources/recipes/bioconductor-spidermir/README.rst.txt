@@ -23,14 +23,15 @@ bioconductor-spidermir
 
    |downloads_bioconductor-spidermir| |docker_bioconductor-spidermir|
 
-   :versions: 1.16.0-0, 1.14.0-1, 1.12.0-0, 1.10.0-0, 1.8.2-0
+   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.12.0-0, 1.10.0-0, 1.8.2-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-mirnatap: >=1.20.0,<1.21.0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-mageckflute: >=1.8.0,<1.9.0
+   :depends bioconductor-mirnatap: >=1.22.0,<1.23.0
    :depends bioconductor-mirnatap.db: >=0.99.0,<0.100.0
-   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
-   :depends bioconductor-tcgabiolinks: >=2.14.0,<2.15.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
+   :depends bioconductor-tcgabiolinks: >=2.16.0,<2.17.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-gdata: 
    :depends r-ggplot2: 
    :depends r-gplots: 

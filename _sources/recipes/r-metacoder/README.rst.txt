@@ -22,13 +22,13 @@ r-metacoder
 
    |downloads_r-metacoder| |docker_r-metacoder|
 
-   :versions: 0.3.4-0, 0.3.3-0
+   :versions: 0.3.4-1, 0.3.4-0, 0.3.3-0
    
    :depends bioconductor-biomformat: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: >=7.5.0
+   :depends libstdcxx-ng: >=7.5.0
    :depends r-ape: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-cowplot: 
    :depends r-crayon: 
    :depends r-dplyr: 

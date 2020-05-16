@@ -22,8 +22,13 @@ bioconductor-rcwlpipelines
 
    |downloads_bioconductor-rcwlpipelines| |docker_bioconductor-rcwlpipelines|
 
-   :versions: 
+   :versions: 1.4.0-0
    
+   :depends bioconductor-biocfilecache: >=1.12.0,<1.13.0
+   :depends bioconductor-rcwl: >=1.4.0,<1.5.0
+   :depends nodejs: 
+   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-rappdirs: 
    :requirements:
 
    .. rubric:: Installation

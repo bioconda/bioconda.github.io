@@ -22,7 +22,7 @@ fcsparser
 
    |downloads_fcsparser| |docker_fcsparser|
 
-   :versions: 0.2.0-0, 0.1.4-1, 0.1.4-0
+   :versions: 0.2.1-0, 0.2.0-0, 0.1.4-1, 0.1.4-0
    
    :depends numpy: 
    :depends pandas: 
