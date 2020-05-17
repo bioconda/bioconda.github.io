@@ -14,7 +14,7 @@ hicexplorer
    :homepage: https://github.com/deeptools/HiCExplorer
    :license: GPL3
    :recipe: /`hicexplorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicexplorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicexplorer/meta.yaml>`_
-   :links: doi: :doi:`10.1093/nar/gky504`
+   :links: doi: :doi:`10.1093/nar/gky504`, doi: :doi:`10.1093/nar/gkaa220`
 
    
 
@@ -23,18 +23,18 @@ hicexplorer
 
    |downloads_hicexplorer| |docker_hicexplorer|
 
-   :versions: 3.4.3-0, 3.4.2-0, 3.4.1-1, 3.4.1-0, 3.4-0, 3.3.1-0, 3.3-0, 3.2-0, 3.1-0, 3.0.2-0, 3.0.1-0, 2.2.3-0, 2.2.2-0, 2.2.1-0, 2.2-1, 2.2-0, 2.2beta-0, 2.1.4-3, 2.1.4-2, 2.1.3-0, 2.1.2-0, 2.1.1-1, 2.1.1-0, 2.1-0, 2.1alpha1-0, 2.0-1, 2.0-0, 1.8.1-0, 1.8-2, 1.8-1, 1.8-0, 1.7.2-0, 1.7.1-0, 1.6.1-0, 1.6-0, 1.4-0, 1.3-0, 1.2-0, 1.1a-0, 0.1-0
+   :versions: 3.4.3-1, 3.4.3-0, 3.4.2-0, 3.4.1-1, 3.4.1-0, 3.4-0, 3.3.1-0, 3.3-0, 3.2-0, 3.1-0, 3.0.2-0, 3.0.1-0, 2.2.3-0, 2.2.2-0, 2.2.1-0, 2.2-1, 2.2-0, 2.2beta-0, 2.1.4-3, 2.1.4-2, 2.1.3-0, 2.1.2-0, 2.1.1-1, 2.1.1-0, 2.1-0, 2.1alpha1-0, 2.0-1, 2.0-0, 1.8.1-0, 1.8-2, 1.8-1, 1.8-0, 1.7.2-0, 1.7.1-0, 1.6.1-0, 1.6-0, 1.4-0, 1.3-0, 1.2-0, 1.1a-0, 0.1-0
    
    :depends biopython: 
    :depends cooler: >=0.8.5
    :depends fit_nbinom: >=1.1
    :depends future: 
-   :depends hic2cool: >=0.7
+   :depends hic2cool: >=0.8.2
    :depends hicmatrix: >=12
    :depends intervaltree: 
    :depends jinja2: 
    :depends krbalancing: >=0.0.5
-   :depends matplotlib: 3.1.*
+   :depends matplotlib-base: 3.1.*
    :depends numpy: >=1.18
    :depends pandas: 0.25.*
    :depends psutil: 
@@ -45,6 +45,7 @@ hicexplorer
    :depends pytables: 
    :depends python: >=3.5
    :depends scipy: >=1.3
+   :depends tqdm: >=4.20
    :depends unidecode: 
    :requirements:
 

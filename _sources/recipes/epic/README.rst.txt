@@ -22,19 +22,19 @@ epic
 
    |downloads_epic| |docker_epic|
 
-   :versions: 0.2.12-2, 0.2.12-1, 0.2.12-0, 0.2.9-1, 0.2.9-0, 0.2.8-0, 0.2.7-0, 0.2.5-0, 0.2.4-0, 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.28-0, 0.1.27-0, 0.1.26-0, 0.1.25-0, 0.1.24-0, 0.1.20-0, 0.1.17-0
+   :versions: 0.2.12-3, 0.2.12-2, 0.2.12-1, 0.2.12-0, 0.2.9-1, 0.2.9-0, 0.2.8-0, 0.2.7-0, 0.2.5-0, 0.2.4-0, 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.28-0, 0.1.27-0, 0.1.26-0, 0.1.25-0, 0.1.24-0, 0.1.20-0, 0.1.17-0
    
    :depends bedtools: 
    :depends docopt: 
-   :depends functools32: 
    :depends joblib: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: >=7.5.0
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 
    :depends pybigwig: 
    :depends pyfaidx: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :depends scipy: 
    :depends typing: 
    :requirements:

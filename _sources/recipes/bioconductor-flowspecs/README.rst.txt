@@ -22,12 +22,12 @@ bioconductor-flowspecs
 
    |downloads_bioconductor-flowspecs| |docker_bioconductor-flowspecs|
 
-   :versions: 1.0.0-0
+   :versions: 1.2.0-0, 1.0.0-0
    
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-ggplot2: >=3.1.0
    :depends r-reshape2: >=1.4.3
    :depends r-zoo: >=1.8.6

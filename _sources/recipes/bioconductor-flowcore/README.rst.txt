@@ -23,17 +23,21 @@ bioconductor-flowcore
 
    |downloads_bioconductor-flowcore| |docker_bioconductor-flowcore|
 
-   :versions: 1.52.0-0, 1.50.0-1, 1.48.1-0, 1.48.0-0, 1.46.2-0, 1.44.0-0, 1.42.3-0, 1.42.0-0, 1.38.2-1, 1.38.2-0
+   :versions: 2.0.0-0, 1.52.0-0, 1.50.0-1, 1.48.1-0, 1.48.0-0, 1.46.2-0, 1.44.0-0, 1.42.3-0, 1.42.0-0, 1.38.2-1, 1.38.2-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-cytolib: >=1.8.0,<1.9.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-cytolib: >=2.0.0,<2.1.0
+   :depends bioconductor-rprotobuflib: >=2.0.0,<2.1.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends libgcc-ng: >=7.5.0
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends libstdcxx-ng: >=7.5.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-bh: >=1.65.0.1
    :depends r-matrixstats: 
    :depends r-rcpp: 
+   :depends r-rcpparmadillo: 
    :requirements:
 
    .. rubric:: Installation

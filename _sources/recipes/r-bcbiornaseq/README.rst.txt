@@ -23,7 +23,7 @@ r-bcbiornaseq
 
    |downloads_r-bcbiornaseq| |docker_r-bcbiornaseq|
 
-   :versions: 0.3.33-0, 0.3.32-0, 0.3.31-0, 0.3.30-0, 0.3.29-0, 0.3.28-0, 0.3.27-0, 0.3.26-0, 0.2.9-0, 0.2.8-0, 0.2.7-0, 0.2.4-0, 0.2.4a-0, 0.2.3a-0, 0.1.2-0
+   :versions: 0.3.33-1, 0.3.33-0, 0.3.32-0, 0.3.31-0, 0.3.30-0, 0.3.29-0, 0.3.28-0, 0.3.27-0, 0.3.26-0, 0.2.9-0, 0.2.8-0, 0.2.7-0, 0.2.4-0, 0.2.4a-0, 0.2.3a-0, 0.1.2-0
    
    :depends bioconductor-biocgenerics: >=0.32
    :depends bioconductor-biocstyle: >=2.14
@@ -43,7 +43,7 @@ r-bcbiornaseq
    :depends bioconductor-vsn: >=3.54
    :depends r-acidgenerics: >=0.3.4
    :depends r-acidplots: >=0.2.26
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-basejump: >=0.12.6
    :depends r-bcbiobase: >=0.6.13
    :depends r-cli: >=2.0

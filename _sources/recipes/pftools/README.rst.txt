@@ -23,11 +23,11 @@ pftools
 
    |downloads_pftools| |docker_pftools|
 
-   :versions: 2.3.5-0
+   :versions: 2.3.5-1, 2.3.5-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libgfortran-ng: >=7,<8.0a0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=9.0.1
+   :depends libgfortran: >=4.0.0,<5.0.0.a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

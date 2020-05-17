@@ -22,12 +22,12 @@ bioconductor-flowtrans
 
    |downloads_bioconductor-flowtrans| |docker_bioconductor-flowtrans|
 
-   :versions: 1.38.0-0, 1.36.0-1, 1.34.0-0
+   :versions: 1.40.0-0, 1.38.0-0, 1.36.0-1, 1.34.0-0
    
-   :depends bioconductor-flowclust: >=3.24.0,<3.25.0
-   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
-   :depends bioconductor-flowviz: >=1.50.0,<1.51.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-flowclust: >=3.26.0,<3.27.0
+   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
+   :depends bioconductor-flowviz: >=1.52.0,<1.53.0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

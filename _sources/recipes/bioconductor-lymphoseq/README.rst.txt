@@ -22,13 +22,13 @@ bioconductor-lymphoseq
 
    |downloads_bioconductor-lymphoseq| |docker_bioconductor-lymphoseq|
 
-   :versions: 1.14.0-0, 1.12.0-1, 1.10.0-0
+   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.10.0-0
    
-   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
-   :depends bioconductor-ggtree: >=2.0.0,<2.1.0
+   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
+   :depends bioconductor-ggtree: >=2.2.0,<2.3.0
    :depends bioconductor-lymphoseqdb: >=0.99.0,<0.100.0
-   :depends bioconductor-msa: >=1.18.0,<1.19.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-msa: >=1.20.0,<1.21.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-circlize: 
    :depends r-data.table: 
    :depends r-dplyr: 

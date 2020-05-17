@@ -24,7 +24,7 @@ deepac
 
    |downloads_deepac| |docker_deepac|
 
-   :versions: 0.11.0-0, 0.10.1-0, 0.9.3-1, 0.9.3-0, 0.9.2-0, 0.9.1-0
+   :versions: 0.12.0-0, 0.11.0-0, 0.10.1-0, 0.9.3-1, 0.9.3-0, 0.9.2-0, 0.9.1-0
    
    :depends bedtools: >=2.29
    :depends biopython: >=1.76

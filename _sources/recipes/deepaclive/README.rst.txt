@@ -22,10 +22,10 @@ deepaclive
 
    |downloads_deepaclive| |docker_deepaclive|
 
-   :versions: 0.2.0-0, 0.1.0-0
+   :versions: 0.3.0-0, 0.2.0-0, 0.1.0-0
    
    :depends biopython: >=1.76
-   :depends deepac: >=0.11.0
+   :depends deepac: >=0.12.0
    :depends paramiko: >=2.7.1
    :depends pysam: >=0.15.4
    :depends python: >=3

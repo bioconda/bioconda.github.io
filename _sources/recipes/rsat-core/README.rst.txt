@@ -23,7 +23,7 @@ rsat-core
 
    |downloads_rsat-core| |docker_rsat-core|
 
-   :versions: 2020.02.29-0, 2020.02.28-0, 2020.01.04-0
+   :versions: 2020.02.29-1, 2020.02.29-0, 2020.02.28-0, 2020.01.04-0
    
    :depends bedtools: 
    :depends bioconductor-ctc: 
@@ -33,9 +33,8 @@ rsat-core
    :depends ghostscript: 
    :depends gnuplot: 
    :depends httplib2: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libgfortran-ng: >=7,<8.0a0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libcxx: >=9.0.1
+   :depends libgfortran: >=4.0.0,<5.0.0.a0
    :depends matplotlib: 
    :depends numpy: 
    :depends perl: >=5.26.2,<5.26.3.0a0
@@ -79,9 +78,10 @@ rsat-core
    :depends perl-yaml: 
    :depends pygraphviz: 
    :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
    :depends pyyaml: 
    :depends r-amap: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-data.table: 
    :depends r-dendextend: 
    :depends r-devtools: 

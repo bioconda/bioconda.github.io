@@ -23,14 +23,16 @@ bioconductor-flowfp
 
    |downloads_bioconductor-flowfp| |docker_bioconductor-flowfp|
 
-   :versions: 1.44.0-0, 1.42.0-1, 1.40.0-0, 1.38.0-0, 1.36.0-0, 1.34.0-0, 1.32.0-0
+   :versions: 1.46.0-0, 1.44.0-0, 1.42.0-1, 1.40.0-0, 1.38.0-0, 1.36.0-0, 1.34.0-0, 1.32.0-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
-   :depends bioconductor-flowviz: >=1.50.0,<1.51.0
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
+   :depends bioconductor-flowviz: >=1.52.0,<1.53.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends libgcc-ng: >=7.5.0
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation
